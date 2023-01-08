@@ -1,0 +1,496 @@
+:root {
+    --section-y-padding: 96px;
+    --spacing-3xl: 96px;
+    --spacing-2xl: 80px;
+    --spacing-xl: 64px;
+    --spacing-lg: 48px;
+    --spacing-md: 32px;
+    --spacing-sm: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+}
+
+ion-icon {
+    font-size: 32px;
+    color: var(--color-blue-400);
+}
+
+/* ********************************************************************* */
+/* GENERAL */
+/* ********************************************************************* */
+h1 {
+    font-size: 5.6rem;
+    line-height: 1.1;
+    margin-bottom: 1.6rem;
+}
+
+h2 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 1.6rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.cap {
+    text-transform: capitalize;
+}
+
+.sup-title {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: var(--color-blue-400);
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 0.4rem;
+}
+
+
+header {
+    padding: 32px 0;
+}
+
+.image {
+    height: 600px;
+    background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+    background-size: cover;
+}
+
+.image-800 {
+    height: 800px;
+    background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
+    background-size: cover;
+}
+
+
+/* ********************************************************************* */
+/* HERO SECTION */
+/* ********************************************************************* */
+.hero-section {
+    height: 90vh;
+    padding: 96px 0;
+    background-color: var(--color-blue-50);
+    /* background-image: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+    background-position: center;
+    background-size: cover; */
+}
+
+
+/* ********************************************************************* */
+/* WHY NOW SECTION */
+/* ********************************************************************* */
+.now-section {
+    padding-top: 192px;
+    padding-bottom: var(--spacing-3xl);
+}
+
+.now {
+    margin-top: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+}
+
+.now-row {}
+
+.now-image {
+    width: 100%;
+    height: 500px;
+    background-color: var(--color-blue-50);
+    border-radius: 16px;
+    /* box-shadow: 0 0 32px rgba(0, 0, 0, 0.1); */
+}
+
+.chemical-image {
+    background-image: url("https://images.unsplash.com/photo-1532634740-6837b2a21d39?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.pesticide-image {
+    background-image: url("https://images.unsplash.com/photo-1518994603110-1912b3272afd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=724&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.energy-image {
+    background-image: url("https://images.unsplash.com/photo-1548337138-e87d889cc369?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1496&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* ********************************************************************* */
+/* OZONE SECTION */
+/* ********************************************************************* */
+.ozone-section {
+    padding-top: var(--section-y-padding);
+    padding-bottom: var(--section-y-padding);
+}
+
+.ozone {
+    margin-top: var(--spacing-md);
+}
+
+.ozone-row {
+    display: flex;
+    gap: var(--spacing-xl);
+}
+
+
+.icon-text-vertical {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 16px;
+}
+
+
+
+/* ********************************************************************* */
+/* WATER SECTION */
+/* ********************************************************************* */
+.water-section {
+    padding-top: var(--section-y-padding);
+    padding-bottom: var(--section-y-padding);
+    /* background-image: url("water/water-2.jpg");
+    background-size: cover;
+    background-position: center; */
+    /* background-color: #dbeafe; */
+    /* background-color: #eff6ff; */
+    /* background-color: #e0f2fe; */
+}
+
+
+.water-image {
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-blue-50);
+    border-radius: 16px;
+}
+
+.water-image-1 {
+    background-image: url("https://images.unsplash.com/photo-1512907819289-143573530514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.water-section img {
+    width: 100%;
+    border-radius: 16px;
+    /* box-shadow: 0 0 48px rgba(0, 0, 0, 0.15); */
+}
+
+.history-item {
+    border-left: 4px dotted var(--color-blue-400);
+    /* display: inline-block; */
+    padding: 0.4rem 1.6rem;
+    /* padding: 0 1.6rem; */
+}
+
+.history-number {
+    font-size: 2.4rem;
+    color: var(--color-blue-400);
+    font-weight: 400;
+}
+
+.history-text-primary {
+    margin-bottom: 0;
+    color: #333;
+}
+
+.history-text-secondary {
+    margin-bottom: 0;
+    color: #888;
+}
+
+
+
+/* ********************************************************************* */
+/* HOW IT WORKS SECTION */
+/* ********************************************************************* */
+.how-it-works-section {
+    padding-top: var(--section-y-padding);
+    padding-bottom: var(--section-y-padding);
+}
+
+.steps span {
+    display: flex;
+    /* justify-content: center; */
+
+}
+
+.step {
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--color-blue-100);
+}
+
+
+
+
+
+
+/* ********************************************************************* */
+/* MICRORGANISMS SECTION */
+/* ********************************************************************* */
+.pathogen-section {
+    padding-top: var(--section-y-padding);
+    padding-bottom: var(--section-y-padding);
+}
+
+.pathogen-image {
+    width: 100%;
+    height: 500px;
+    background-color: var(--color-blue-50);
+    border-radius: 16px;
+}
+
+.bacteria-image {
+    background-image: url("https://images.unsplash.com/photo-1631824687534-f642fc820d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=817&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.virus-image {
+    background-image: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
+    background-position: left;
+    background-size: cover;
+}
+
+.mold-image {
+    background-image: url("https://images.unsplash.com/photo-1598144865403-1636bdf959dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.fungi-image {
+    background-image: url("https://images.unsplash.com/photo-1528161392842-58a96d3a78d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+/* ********************************************************************* */
+/* SECTORS SECTION */
+/* ********************************************************************* */
+.sectors-section {
+    padding-top: var(--spacing-3xl);
+    padding-bottom: var(--spacing-3xl);
+}
+
+.sectors {
+    padding-top: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.sector-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-sm);
+}
+
+.sectors-image {
+    width: 100%;
+    height: 300px;
+    background-color: var(--color-blue-50);
+    border-radius: 16px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.cheese-image {
+    background-image: url("https://images.unsplash.com/photo-1589881133595-a3c085cb731d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlZXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-size: cover;
+}
+
+.mushrooms-image {
+    background-image: url("https://images.unsplash.com/photo-1504545102780-26774c1bb073?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=723&q=80");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.salami-image {
+    background-image: url("https://images.unsplash.com/photo-1460122109654-7e46ab4fc9b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.pasta-image {
+    background-image: url("https://images.unsplash.com/photo-1588511706218-3a500887ce80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.wine-image {
+    background-image: url("https://images.unsplash.com/photo-1474722883778-792e7990302f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.other-image {
+    background-image: url("https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+/* ********************************************************************* */
+/* REGULATION SECTION */
+/* ********************************************************************* */
+.regulation-section {
+    padding-top: var(--spacing-3xl);
+    padding-bottom: var(--spacing-3xl);
+}
+
+.regulation-primary {
+    margin-bottom: 64px;
+}
+
+.regulation-secondary {}
+
+.regulation-intro {
+    margin-bottom: 64px;
+}
+
+.regulation-intro h2 {
+    margin-bottom: 16px;
+}
+
+.regulation-image-primary {
+    width: 100%;
+    height: 500px;
+    background-color: var(--color-blue-50);
+    border-radius: 16px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.regulation-image-secondary {
+    width: 100%;
+    height: 400px;
+    background-color: var(--color-blue-50);
+    border-radius: 16px;
+    margin-bottom: var(--spacing-sm);
+}
+
+.regulation-image-usa {
+    background-image: url("https://images.unsplash.com/photo-1508433957232-3107f5fd5995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1486&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.regulation-image-europe {
+    background-image: url("https://images.unsplash.com/photo-1544213255-6c4437bb6308?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.regulation-image-italy {
+    /* background-image: url("https://images.unsplash.com/photo-1599339836192-7c246900f96f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
+    /* background-image: url("https://images.unsplash.com/photo-1657817475771-09152c2d84b4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
+    background-image: url("https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=683&q=80");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.regulation-image-japan {
+    background-image: url("https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=836&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.regulation-image-canada {
+    background-image: url("https://images.unsplash.com/photo-1514924013411-cbf25faa35bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGNhbmFkYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    background-size: cover;
+}
+
+.regulation-image-australia {
+    background-image: url("https://images.unsplash.com/photo-1524562865630-b991c6c2f261?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-position: bottom;
+    background-size: cover;
+}
+
+.regulation-image-france {
+    background-image: url("https://images.unsplash.com/photo-1549144511-f099e773c147?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: bottom;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.will-it-work-for-me-section {
+    padding: 96px 0;
+}
+
+.pathogen-section {
+    padding: 96px 0;
+}
+
+
+
+.residues-section {
+    padding: 96px 0;
+}
+
+.staff-section {
+    padding: 96px 0;
+}
+
+.environment-section {
+    padding: 96px 0;
+}
+
+.speed-section {
+    padding: 96px 0;
+}
