@@ -68,6 +68,10 @@ of ozone technologies has not been widely disseminated.
 
 
 
+regulation
+----------------------------------------------------------------------------------------------------
+
+
 
 
 regulation
@@ -495,23 +499,540 @@ section (sales)
 hero: big idea + social proof
 - why now?
 - why ozone?
-- who is using it now? (social proof)
-- example applications (sectors)
-- will it work for my products?
-- ozone vs chemicals
-- how long to see results?
-- certified/regulated?
-- safe on food?
-- safe on operators?
-- safe for environment?
-- ease of use?
+    - ecology
+    - eficiency
+    - economy
+
+- features summary
+
+- come funziona
+
+- ecology
+    - water (proof)
+
+- efficacy
+    - microorganism
+    - sectors of use
+
+- economy
+    - how much consume
+    - fungaia case study
+
+- speed
+
+- safe for food
+
+- safe operators
+
+- easy
+ - will it work for me?
+
+- legislation 
+
 - price?
 - mantainence?
+
+- ozone vs other chemicals
+    - table 5.1
+
+
+- patogens
+    - bacteria
+        - E. coli, is a Gram-negative, facultative anaerobic, rod-shaped, coliform bacterium of the genus Escherichia that is commonly found in the lower intestine of warm-blooded
+
+
+
+##### Technical stuff
+l'ozono è affetto da:
+    - temperatura
+    - qualita di aria utilizzata
+
+aumento efficacia produzion:
+    - qualita aria utilizzata
+    - alimentato aria ambiente 1-2% peso ozono prodotto
+    - alimentato con ossigeno puro 3-6% peso ozono prodotto
+    - vantaggio economico se alimentato a ossigeno
+    - dimensioni minori se alimentato con ossigeno
+    - per industria alimentare usare concentratori di ossigeno (>90% O2)
+
+ozono utile per:
+    - distrugge il gas etilene rilasciato do a molti frutti e verdure durante maturazione
+        - Alla fine, l'etilene viene convertito in anidride carbonica
+        - carbonio
+        - monossido
+        - e acqua in caso di esposizione prolungata all'ozono in un ambiente freddo
+    - l'ozono rallentare il processo di maturazione riducendo i livelli di
+      agenti di deterioramento come muffe e funghi.
+        - all'ozono riduce l'invecchiamento e la perdita di peso delle arance
+    - applicazioni per magazzini 
+        - frutta
+        - verdura 
+        - cereali 
+        - latticini
+        - carni
+    - uccidere i microrganismi
+    - controllare la muffa
+    - distruggere etilene
+    - arrestando la proliferazione delle spore
+    - riducendo la necessità di fumiganti chimici
+    - fumigazione per parassiti
+    - invecchiamento della carne
+    - stoccaggio in botte e impianto generale
+    - controllo della muffa
+    - Per il controllo della muffa e la distruzione dell'etilene, un livello di ozono in 
+      fase gassosa di 0,3 ppm (vol) è considerato sufficiente
+
 
 
 
 content
 ----------------------------------------------------------------------------------------------------
+
+##### Produzione Ozono
+L'ozono è utilizzato nell'industria alimentare e dell'acqua in bottiglia, nel nuoto
+piscine, terme, acquari marini, depurazione acque comunali, depurazione acque reflue
+e per molte altre applicazioni industriali/commerciali
+
+
+L'ozono viene generato commercialmente all'interno dell'industria alimentare da uno dei due
+procedure generalmente accettate: facendo passare un gas contenente ossigeno
+attraverso una sorgente di radiazione ultravioletta (UV) o un'elettricità ad alta energia
+campo. Il primo metodo è noto come fotochimico (UV), il secondo lo è
+scarica corona (CD), a volte indicata come "tecniche al plasma".
+
+Nel
+In sintesi, l'ozono può essere decomposto facilmente solo mediante riscaldamento e adeguato
+il controllo della temperatura del gas di processo (alimentazione) è un fattore importante per l'ozono
+efficienza di generazione.
+
+Le tecnologie coinvolte nella generazione di ozono CD sono varie, ma tutte simili
+i generatori di ozono funzionano fondamentalmente facendo passare un
+gas contenente ossigeno attraverso un campo elettrico ad alta energia tra
+due elettrodi speciali, uno dei quali funge da elettrodo di terra e l'altro da mezzo dielettrico (conduttore di corrente).
+
+Come molecole di ossigeno
+passano attraverso il campo elettrico, si scindono, formando molto
+radicali attivi dell'ossigeno atomico che possono combinarsi con l'ossigeno intatto
+molecole per produrre ozono molecolare, O3
+
+bassa frequenza (50–100 Hz), media frequenza (100–1000 Hz) e
+alta frequenza (>1000 Hz). Circa l'85–95% dell'energia elettrica fornita
+a un generatore di ozono CD produce calore, riducendo intrinsecamente l'O3 generato
+potenza e capacità/efficienza energetica. Di conseguenza, transfert e
+i sistemi di abbattimento del calore sono articoli standard per i generatori di ozono CD.
+Di conseguenza, i sistemi CD utilizzano uno o più dei seguenti sistemi di raffreddamento
+metodi: aria, acqua con olio o freon, o acqua.
+
+La qualità del gas alimentato a un generatore di ozono può essere un fattore critico, in particolare
+se l'ozono è prodotto con tecniche CD o al plasma. Mangime di scarsa qualità
+il gas può influenzare notevolmente le prestazioni e la longevità di un generatore di ozono CD per diversi motivi
+
+L'aria ambiente contiene azoto, vapore acqueo
+(umidità) e in molti casi gas di idrocarburi (da incomplete
+combustione di combustibili fossili e per autotrazione).
+
+Aria che ha attraversato alcuni
+il trattamento può contenere anche tracce di oli prelevati da impropriamente
+attrezzature per la pulizia del gas sottoposte a manutenzione. L'ozono può reagire rapidamente con tale
+impurità, che causano incrostazioni delle superfici dielettriche, aumento dei tempi di inattività e
+la necessità di una maggiore manutenzione delle attrezzature.
+
+I due tipi comuni di preparazione del gas per alimentare i generatori di ozono CD
+sono ossigeno e aria secca
+
+Oggi la maggior parte dell'ozono
+i sistemi di generazione utilizzano l'ossigeno come gas di alimentazione a causa delle concentrazioni
+di ozono prodotto aumentano da due a tre volte a parità di energia
+spesa. La maggior parte dei produttori di apparecchiature per l'ozono ha ottimizzato il proprio
+attrezzature per impianti di trasformazione alimentare per operare con ossigeno gassoso.
+
+Oggi la maggior parte dei sistemi utilizza ossigeno perché la concentrazione di
+l'ozono prodotto è aumentato da due a tre volte rispetto alle concentrazioni di ozono nell'aria essiccata per lo stesso dispendio energetico.
+
+Ad esempio, CD alimentato ad aria secca
+i generatori delle dimensioni utilizzate negli impianti di trasformazione alimentare producono l'1–2% in peso
+ozono, ma se alimentato con ossigeno ad alta purezza, concentrazioni di ozono del 3–6% in peso
+vengono prodotti con lo stesso dispendio energetico. La maggior parte delle apparecchiature per l'ozono
+i produttori hanno ottimizzato le loro apparecchiature per il gas di alimentazione dell'ossigeno. Nel
+in alcuni casi, i generatori di ozono possono produrre fino al 20% in peso di ozono
+(dall'ossigeno), ma l'energia e gli altri requisiti sono più elevati da produrre
+ozono a questa concentrazione.
+
+Il vantaggio di un prodotto con una percentuale di ozono in peso maggiore è l'economia.
+L'impronta dell'attrezzatura è minore e la solubilità dell'ozono in acqua lo è
+molto maggiore, il che significa pompe e contattori più piccoli, risultando in meno
+costo energetico e spazio per le attrezzature. Anche il grande metropolitano
+gli impianti di acqua potabile utilizzano il gas di alimentazione dell'ossigeno, anche se ciò richiede
+Massive Vacuum Pressure Swing Adsorption (VPSA) o sistemi criogenici
+produrre l'ossigeno nelle grandi quantità necessarie a produrre tonnellate/
+quantità giornaliere di ozono.
+
+Per gli impianti di trasformazione alimentare viene fornita aria arricchita di ossigeno (>90% O2).
+in modo semplice e comodo per mezzo di concentratori di ossigeno. Questi dispositivi
+aspirare l'aria ambiente, filtrare automaticamente (rimuovere le particelle di polvere), quindi
+separare e rimuovere l'azoto (lasciando così l'aria notevolmente arricchita
+con ossigeno), anch'essa essiccata al di sotto della rugiada massima desiderata
+point (−4 °C, −60 °F), tutto allo stesso tempo in un piccolo dispositivo.
+
+Questi ossigeno
+i concentratori funzionano secondo il principio del PSA. Un compressore d'aria pressurizza
+il flusso d'aria e lo invia attraverso un setaccio molecolare (microscopico poroso
+letto di perline) che adsorbe o intrappola azoto e umidità, fornendo allo stesso tempo
+aria arricchita di ossigeno all'uscita di alimentazione del concentratore. Come la
+il letto del setaccio molecolare si carica di azoto e umidità, essi
+desorbire i rifiuti sotto forma di vapore nell'ambiente, recuperando il
+capacità di adsorbimento del letto del setaccio.
+
+Tipicamente concentratori di ossigeno
+impiegare design a più camere, in modo che in qualsiasi momento le camere
+subiranno pressurizzazione e adsorbimento, mentre altri lo saranno
+sottoposti a depressurizzazione e desorbimento.
+
+Un sistema di ozonizzazione completo
+è costituito dalle seguenti subunità:
+● trattamento dell'aria o concentratore di ossigeno;
+● generatore di ozono;
+● controllore di ozono disciolto più vacuometro, pressione e misuratori di portata;
+● contattore ozono/acqua (iniettore), serbatoio di contatto e sfiato gas di scarico;
+● pompa di aumento pressione e tubazioni per l'ingresso e l'uscita dell'acqua contenente ozono;
+● un'interruzione del vuoto per la prevenzione del riflusso.
+
+Diversi parametri influenzano la solubilità dell'ozono in acqua: questi
+sono: temperatura, pH, forza ionica, presenza di sostanze facilmente ossidabili
+dall'ozono e dall'autodecomposizione dell'ozono nel gas e nel liquido
+fasi.
+
+table 4.1
+
+Energy required to generate 1 kg of ozone 44 kWh 6–8 kWh
+
+Negli impianti di trasformazione alimentare è molto importante misurare e monitorare
+ozono in fase gassosa per garantire che le concentrazioni appropriate di
+ozono sono disponibili per gli scopi previsti. Questi includono la conservazione degli alimenti
+(prima e dopo la lavorazione), durante la lavorazione, il trattamento (disinfezione)
+aria dell'impianto in ingresso e garantire che l'eventuale aria dell'impianto trattata con ozono
+respirato dai lavoratori dell'impianto è conforme alla sicurezza sul lavoro e
+Regolamento dell'Amministrazione Sanitaria (OSHA).
+
+L'ozono in fase gassosa può essere uno strumento molto utile nell'alimentazione
+industria di trasformazione. Conservazione di alimenti trasformati in atmosfere contenenti
+piccole quantità di ozono gassoso sono efficaci nel controllo della muffa
+e molti contaminanti presenti nell'aria sia sui prodotti alimentari che sul
+superfici di scaffalature e altre apparecchiature. Inoltre, l'ozono è noto
+per distruggere il gas etilene, che viene rilasciato quando molti frutti e verdure
+cominciare a maturare. Alla fine, l'etilene viene convertito in anidride carbonica, carbonio
+monossido e acqua in caso di esposizione prolungata all'ozono in un freddo umido
+ambiente di archiviazione (Bailey 1978).
+
+Pertanto, l'ozono può rallentare il processo di maturazione riducendo i livelli di
+agenti di deterioramento come muffe e funghi. Ad esempio, gli studi hanno
+dimostrato che l'esposizione all'ozono delle arance riduce l'invecchiamento e la perdita di peso
+arance conservate in ambiente non ozonizzato
+
+Entrambi i generatori di ozono UV e CD possono essere utilizzati in atmosfera controllata
+(CA) applicazioni per magazzini (frutta, verdura, cereali, latticini,
+carni e così via, per uccidere i microrganismi, controllare la muffa, distruggere
+etilene, arrestando la proliferazione delle spore e così via, e in generale, riducendo il
+necessità di fumiganti chimici). Le sale CA sono l'applicazione più comune
+per l'ozono gassoso nell'industria alimentare, ma ci sono anche altri usi,
+in particolare fumigazione per parassiti, invecchiamento della carne, stoccaggio in botte e impianto generale
+controllo della muffa.
+
+Per il controllo della muffa e la distruzione dell'etilene, un livello di ozono in fase gassosa
+di 0,3 ppm (vol) è considerato sufficiente. Tuttavia, i tassi di dosaggio variano notevolmente
+a seconda degli obiettivi desiderati e delle merci trattate. Il modo migliore
+per determinare veramente la dose corretta applicata è condurre un test pilota per ciascuno
+fabbisogno specifico di ozono.
+
+Un'azienda svizzera pioniera nell'uso dell'ozono per una varietà di applicazioni ha
+sviluppato un approccio di applicazione di applicazioni sequenziali e multiple
+di ozono, insieme ad altre fasi di lavorazione, come la radiazione UVC,
+acqua elettrolizzata, lavaggio ad ultrasuoni e confezionamento ad aria modificata, a
+produrre prodotti alimentari di qualità superiore con un prodotto più lungo del solito
+durata di conservazione.
+
+Alcune di queste fasi di trattamento, denominate "tecnologie Ventafresh", prevedono:
+la generazione di ozono all'interno di prodotti confezionati, dopo il pretrattamento multistep
+in lavorazione. Ad esempio, in uno stabilimento svizzero di sushi (Steffen et al. 2010),
+ozono, ultrasuoni, acqua elettrolizzata e radiazioni UV (185 e 254 nm).
+sono impiegati per sanificare tutte le attrezzature di produzione e lo spazio della fabbrica,
+compresa l'aria immessa e refrigerata dell'impianto, oltre che per sanificare il sushi
+prodotti stessi. Pesce, verdure e riso vengono tutti lavati con acqua elettrolizzata mentre vengono applicati gli ultrasuoni. Il sushi stesso viene disinfettato prima
+al confezionamento mediante fumigazione con ozono e radiazione UV in uno speciale UV
+tunnel di disinfezione. I materiali di imballaggio (pellicola e vassoi) vengono disinfettati
+con ozono gassoso e radiazioni UV.
+
+Dopo aver sigillato le confezioni di sushi con il confezionamento in atmosfera modificata
+(MAP) (compreso l'ossigeno al di sopra della sua concentrazione atmosferica di ~ 21%),
+La radiazione UV viene nuovamente applicata in un altro tunnel di disinfezione UV più lungo.
+Questo converte circa il 12-14% dell'ossigeno rimanente all'interno del vassoio imballato
+nell'ozono, creando un'atmosfera contenente ozono. Con questo Ventafresh
+fase tecnologica, in combinazione con le altre fasi di lavorazione, lo scaffale
+la durata dei prodotti sushi aumenta da tre a sette giorni. Ambiente vegetale
+la temperatura viene mantenuta a 3 °C in ogni momento durante la lavorazione per fornire
+ulteriore miglioramento nel controllo dei microrganismi. Risparmio sui costi in questo
+Gli impianti di Sushi Mania sono significativi, ma secondari rispetto all'obiettivo principale di
+producendo sushi di altissima qualità: solo un guasto e l'impianto viene chiuso
+in basso. Ventafresh è, per lo meno, una polizza assicurativa tecnologica che
+permette al gestore dell'impianto di dormire bene la notte.
+
+La ionizzazione all'interno della confezione genera alti livelli di molecole battericide
+(ozono, ossidi, perossidi e ioni) a basso amperaggio (15 mA),
+mentre praticamente non viene generato calore all'interno della confezione (<2 °C), e
+è richiesta un'energia molto bassa (<40 W).
+(2) La tecnologia potrebbe essere applicata ai prodotti alimentari messi in comune
+materiali per imballaggio alimentare (vetro, polipropilene, PETE, multilaminato
+e molti altri).
+(3) L'aumento dei tempi di trattamento si traduce in una maggiore quantità di generazione di specie
+quando sono presenti anche piccole quantità di ossigeno (5% o meno).
+il pacchetto. I test hanno dimostrato che i batteri sulle piastre di agar non lo sono
+rilevato (<5 riduzioni logaritmiche) dopo il trattamento all'interno di una confezione sigillata.
+(4) I tempi di trattamento variano da 15 secondi a 5 minuti, a seconda
+prodotto, pacchetto e composizione del gas.
+(5) Ionizzazione all'interno della confezione utilizzando miscele uniche di gas comuni attenuanti
+effetti ossidativi (a differenza del trattamento con ozono), fornendo allo stesso tempo
+riduzioni batteriche e mantenimento della qualità.
+(6) Dopo 24 ore o meno, a seconda delle condizioni di trattamento, il reattivo
+le molecole ritornano ai gas originari (aria, MAP, ecc.).
+
+
+
+##### Fruits and Veggies
+Ozone finds wide application in the food industry, including surface
+decontamination of fruits and vegetables, drinking water disinfection and
+wastewater treatment
+
+Minimising the
+occurrence of pathogenic and spoilage microorganisms in fruits, vegetables
+and their products is a primary food-safety concern.
+
+Consumer preference
+for minimally processed foods and foods free of chemical preservatives, as
+well as recent outbreaks of foodborne pathogens, identification of new
+food pathogens and the passage of new legislation such as the Food Quality
+Protection Act in the USA, have all stimulated demand for novel food
+processing and preservation systems.
+
+Several incidents of foodborne
+disease have been associated with fruit and vegetable products. In 1991, an
+outbreak of Escherichia coli O157:H7 infections and haemolytic uremic
+syndrome was linked to traditionally pressed apple cider
+
+In the USA 21
+juice-associated outbreaks were reported to the CDC (Centers for Disease
+Control and Prevention) between 1995 and 2005 (Vojdani et al. 2008).
+
+Recent
+outbreaks have shown that fruit juices can be vehicles for foodborne
+pathogens (CDC 1996 and 1999). E. coli O157:H7 is an enteric pathogen
+with a low infectious dose, which usually causes haemorrhagic colitis, but
+also has the potential to cause haemolytic uremic syndrome in young
+children and the immunocompromised (Boyce et al. 1995).
+
+Ozone is a powerful broad-spectrum antimicrobial agent that is active
+against bacteria, fungi, viruses, protozoa, and bacterial and fungal spores
+(Khadre et al. 2001) pertinent to fruits and vegetables and their products.
+
+Efficacy against both Gram-positive and Gram-negative bacteria and fungi
+is reported, as well as potential virucidal effects
+
+Apart
+from the wide spectrum of microbial inactivation, ozone also has the
+potential to kill storage pests and degrade mycotoxins.
+
+One of the potential
+advantages of ozone is that excess ozone autodecomposes rapidly to produce oxygen, and thus generally leaves no residue in food.
+
+However,
+ozone reactions with organic compounds can lead to new, partially oxidised
+compounds, some of which may remain in the food.
+
+Ozone is preferred over most popular disinfectants, such as chlorine, because
+of the relatively low inactivation rate of chlorine at concentrations limited by
+regulation
+
+The main purposes of ozone application at the postharvest stage of
+fruit and vegetable processing are: inactivation of pathogenic and spoilage
+microorganisms, and destruction of pesticide and chemical residues.
+
+
+
+Aqueous ozone
+Ozone has been used routinely for washing and storage of fruits and
+vegetables (Liangji 1999; Karaca and Velioglu 2007). Water containing
+ozone has been applied to fresh-cut vegetables for sanitation purposes,
+reducing microbial populations and extending shelf life (Beltrán et al.
+2005a,b). Treatment of apples with ozone resulted in lower weight loss and
+spoilage (Achen and Yousef 2001). Increased shelf life of apples and oranges
+following ozone treatment has been attributed to the oxidation of ethylene.
+
+
+
+
+Its efficacy against a wide range of microorganisms, including bacteria,
+fungi, viruses, protozoa and bacterial fungal spores, has been reported
+(Restaino et al. 1995; Khadre et al. 2001; Cullen et al. 2009).
+
+Such advantages
+make ozone attractive to the food industry and consequently it has been
+affirmed as Generally Recognised as Safe (GRAS) for use in food processing
+(Graham 1997) and was approved as an antimicrobial food additive in
+2001 (FDA 2001).
+
+Ozone as a disinfecting agent has widespread application to assure safety
+and quality. It has several advantages over conventional disinfectant agents
+such as chlorine, chlorine dioxide, calcium hypochlorite, sodium chlorite,
+peroxyacetic acid and sodium hypochlorite.
+
+Some of these agents are inefficient
+against specific organisms. Table 5.1 shows the advantages and disadvantages
+of several disinfectants used in the fruit and vegetable processing industries.
+
+Fungal deterioration of blackberries and grapes was decreased by ozonation
+of the fruits (Beuchat 1992). Ozone-containing water was found to reduce
+bacterial content in shredded lettuce, blackberries, grapes, black pepper,
+broccoli, carrots and tomatoes (Kim et al. 1999b; Barth et al. 1995; Zhao and
+Cranston 1995; Sarig et al. 1996). Microbial studies typically show a 2 log
+reduction of total counts and significant reductions in spoilage and
+potentially pathogenic species most commonly associated with fruit and
+vegetable products.
+
+Selma et al. (2007) reported that ozone treatments at levels of 1.6 and
+2.2 ppm for 1 minute decreased Shigella sonnei population in water by 3.7
+and 5.6 log colony forming unit (CFU)/mL, respectively. In addition,
+S. sonnei counts were reduced by 1.8 log units in lettuce treated with 5 ppm
+of ozone for 5 minutes (Selma et al. 2007).
+
+Oztekin et al. (2006) reported the
+effects of ozone treatment on the microflora of dried figs, where the
+application of gaseous ozone at 5 or 10 ppm for 3 to 5 hours resulted in
+significant reductions in total bacteria, coliform and yeast/mould counts.
+
+Najafi and Khodaparast (2009) concluded that a minimum of 1 hour of
+ozone treatment at 5 ppm could be successfully used to reduce both
+coliform and Staphlyococcus aureus populations on date fruits, but that
+longer exposure times were required for elimination of the total mesophilic
+bacteria as well as yeast/mould present.
+
+Washing of fruits and vegetables was also reported to degrade pesticide
+residues. Wu et al. (2007) reported that rinsing at a dissolved ozone
+concentration of 1.4 mg/L for 15 minutes effectively removes 27–34% of
+residual pesticide from vegetables. However, higher degradation of
+pesticides residues can be obtained with an increase in ozone concentration
+(Ou-Yang et al. 2004; Ong et al. 1996)
+
+Inan et al. (2007) investigated the efficacy of ozone for the degradation of aflatoxin B1 in flaked and chopped
+red peppers. They observed 80 and 93% degradation of aflatoxin B1 at an
+ozone concentration of 33 and 66 mg/L for 60 minutes, respectively.
+
+Wang et al. (2004) employed tap water, acidic electrolysed water (AEW),
+aqueous ozone, chlorinated water and aqueous ozone followed by AEW
+(sequential wash) for treatment of fresh-cut coriander samples. They
+observed that the sequential wash – that is, aqueous ozone followed by
+AEW – is more effective in initial microbial count reduction and maintains
+low microbial growth during storage at 0 °C for 14 days. However, the combination
+of ozone and AEW led to more tissue injury, which influences the
+overall quality of coriander, whereas ozone treatment alone achieved
+the highest overall quality of coriander during storage and maintained the
+typical coriander aroma.
+
+
+
+
+Gaseous ozone
+The use of gaseous ozone to reduce Bacillus spp. and Micrococcus counts in
+peas and beans by up to 3 log units, depending on ozone concentration,
+temperature and relative humidity (RH) conditions, was reported by
+Naitoh et al. (1988)
+
+Fan et al. (2007) reported that gaseous ozone effectively
+inactivated Listeria innocua on solid media at concentrations of 50 and
+100 nl/L during short exposure times at both 5 and 20 °C. The red colour of
+intact, whole berry fruit was optimum in 0.3 ppm ozone-treated samples
+during storage (Barth et al. 1995). It was also reported that the undesirable
+colour change from green to yellow in broccoli was significantly less
+pronounced for ozone-treated samples. However, ozone was reported to
+change the surface colour of products such as peaches (Badiani et al. 1995)
+and carrots (Liew and Prange 1994). The majority of gaseous ozone
+treatments are reported to be during storage, as discussed in section 5.2.2.
+
+
+
+
+
+Storage in ozone-rich atmospheres
+Apart from surface decontamination of fruits and vegetables, storage of
+fruits and vegetables in ozone-rich atmospheres has been reported to
+reduce or eliminate odour, and to control spoilage caused by microbial and
+fungal pathogens.
+
+Continuous exposure of fresh commodities to ozone
+during storage is reported to reduce postharvest decay and to reduce
+microbial spoilage of fruits and vegetables (Liew and Prange 1994; Barth
+et al. 1995; Sarig et al. 1996; Perez et al. 1999; Palou et al. 2002; Aguayo et al.
+2006; Tzortzakis et al. 2007a,b).
+
+Applications of ozone-rich atmospheres
+have been studied for apples, cherries, carrots, kiwi, onions, peach, plum,
+potatoes, table grapes, tomatoes, blackberries and strawberries (Table 5.3).
+Ozone can be used as a relatively brief prestorage treatment in air or water,
+or it can be added continuously or intermittently to the storage room
+atmosphere throughout the storage period to prevent or delay fruit decay
+(Skog and Chu 2001; Palou et al. 2003; Cayuela et al. 2009).
+
+Hildebrand
+et al. (2008) observed a reduction in postharvest decay when carrots inoculated
+with S. sclerotiorum and B. cinerea were held in 115–530 nl/L ozone at
+10 °C for 20 days.
+
+Reported studies show that the effect of ozone during storage is variable
+and strongly depends on the type of microorganism, commodities and
+storage conditions. For example, Forney et al. (2003) observed a decay
+resistance towards B. cinerea in carrots treated with 1000 nl/L ozone for
+2 or 4 days, however they did not observe a decay resistance towards
+S. sclerotiorum. Similarly, Skog and Chu (2001) reported that an ozone
+concentration of 0.04 μl/L has the potential to extend the storage life of
+broccoli and cucumbers stored at 3 °C. However, they did not observe similar
+effects for mushrooms stored at 4 °C or cucumbers stored at 10 °C. Ogawa
+et al. (1990) reported the inactivation of B. cinerea spores in tomato fruits after ozone treatment, whereas Liew and Prange (1994) concluded that the effect
+of ozone on B. cinerea was fungistatic but not fungicidal in treated carrots.
+
+Sharpe et al. (2009) investigated the effect of gaseous ozone on spore viability
+of B. cinerea and mycelial growth of B. cinerea and S. sclerotiorum for apples,
+grapes, highbush blueberries and carrots. They observed a significant
+reduction in spore viability of B. cinerea of over 99.5% and a reduction in the
+aerial mycelium from 4.7 mm in the control to less than 1 mm after exposure
+to 450 or 600 ppb ozone for 48 hours at 20 °C (Figure 5.2).
+
+Furthermore, high ozone concentrations during storage may cause
+surface discolouration (blotches). Studies have shown reductions in decay
+of blackberries during continuous ozone treatment (Barth et al. 1995) and
+in mould inhibition and decay of onions. A delay of the growth of green
+and blue mould was observed in ozonated citrus fruit (Palou et al. 2001).
+
+Furthermore, high ozone concentrations during storage may cause
+surface discolouration (blotches). Studies have shown reductions in decay
+of blackberries during continuous ozone treatment (Barth et al. 1995) and
+in mould inhibition and decay of onions. A delay of the growth of green
+and blue mould was observed in ozonated citrus fruit (Palou et al. 2001).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sanificazione ecologica ad ozono per l'idustria alimentare
 
 - why now?
@@ -591,8 +1112,43 @@ E data questa sua vita breve, non deve essere smaltito in alcun modo. Di consegu
 - ozone vs chemicals
 - how long to see results?
 
+
+## FUNZIONAMENTO
+figure 4.1
+
+L'ozono viene generato facendo passare un gas contenente ossigeno
+attraverso un campo elettrico ad alta energia.
+
+Le molecole di ossigeno che passano attraverso il campo elettrico si scindono e formano molti radicali. Questi radicali possono combinarsi con le molecole di ossigeno intatte per produrre ozono.
+
+
+
+## EFFICACE
+
+## ECONOMICO
+Nella stragrande maggioranza delle applicazioni di trasformazione alimentare le quantità giornaliere di l'ozono richiesto normalmente rientra nell'intervallo di 1-5 libbre / giorno (da 454 g a 2,27 kg/giorno).
+
+energia richiesta per generare 1 kg di ozono e 6-8 kWh
+
 ------------------------------------------------------------------------------------
 - certified/regulated?
+
+
+
+## SAFE FOR FOOD
+---------------------------------------------------------------------------------------------
+Questi includono la conservazione degli alimenti
+(prima e dopo la lavorazione)
+
+
+
+## SAFE FOR OPERATORS
+---------------------------------------------------------------------------------------------
+garantire che l'eventuale aria dell'impianto trattata con ozono
+respirato dai lavoratori dell'impianto è conforme alla sicurezza sul lavoro e
+Regolamento dell'Amministrazione Sanitaria (OSHA).
+
+
 
 ### USA
 
