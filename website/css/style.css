@@ -1,11 +1,10 @@
 :root {
-    --section-y-padding: 96px;
-    --spacing-3xl: 96px;
-    --spacing-2xl: 80px;
-    --spacing-xl: 64px;
-    --spacing-lg: 48px;
-    --spacing-md: 32px;
-    --spacing-sm: 16px;
+    --xl3: 9.6rem;
+    --xl2: 8.0rem;
+    --xl: 6.4rem;
+    --lg: 4.8rem;
+    --md: 3.2rem;
+    --sm: 1.6rem;
 }
 
 * {
@@ -26,6 +25,12 @@ body {
 ion-icon {
     font-size: 32px;
     color: var(--color-blue-400);
+}
+
+.icon {
+    font-size: 32px;
+    fill: var(--color-blue-400);
+    stroke: var(--color-blue-400);
 }
 
 /* ********************************************************************* */
@@ -81,16 +86,24 @@ header {
     padding: 32px 0;
 }
 
-.image {
-    height: 600px;
-    background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
-    background-size: cover;
+.section {
+    padding-top: var(--xl3);
+    padding-bottom: var(--xl3);
 }
 
-.image-800 {
-    height: 800px;
-    background-image: url("https://developers.elementor.com/docs/assets/img/elementor-placeholder-image.png");
-    background-size: cover;
+.section-intro {
+    padding-bottom: var(--xl);
+}
+
+.section-intro p {
+    margin-bottom: 0;
+}
+
+.image {
+    width: 100%;
+    height: 500px;
+    background-color: var(--color-blue-50);
+    border-radius: 16px;
 }
 
 
@@ -101,25 +114,19 @@ header {
     height: 90vh;
     padding: 96px 0;
     background-color: var(--color-blue-50);
-    /* background-image: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
-    background-position: center;
-    background-size: cover; */
 }
 
 
 /* ********************************************************************* */
-/* WHY NOW SECTION */
+/* NOW SECTION */
 /* ********************************************************************* */
-.now-section {
-    padding-top: 192px;
-    padding-bottom: var(--spacing-3xl);
-}
+.now-section {}
 
 .now {
-    margin-top: var(--spacing-xl);
+    margin-top: var(--xl);
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-xl);
+    gap: var(--xl);
 }
 
 .now-row {}
@@ -138,7 +145,7 @@ header {
     background-size: cover;
 }
 
-.pesticide-image {
+.now-pesticide-image {
     background-image: url("https://images.unsplash.com/photo-1518994603110-1912b3272afd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=724&q=80");
     background-position: center;
     background-size: cover;
@@ -156,21 +163,17 @@ header {
 /* ********************************************************************* */
 /* OZONE SECTION */
 /* ********************************************************************* */
-.ozone-section {
-    padding-top: var(--section-y-padding);
-    padding-bottom: var(--section-y-padding);
-}
+.ozone-section {}
 
 .ozone {
-    margin-top: var(--spacing-xl);
     display: flex;
     flex-direction: column;
-    gap: var(--spacing-md);
+    gap: var(--md);
 }
 
 .ozone-row {
     display: flex;
-    gap: var(--spacing-xl);
+    gap: var(--xl);
 }
 
 
@@ -186,33 +189,15 @@ header {
 /* ********************************************************************* */
 /* WATER SECTION */
 /* ********************************************************************* */
-.ecology-section {
-    padding-top: var(--section-y-padding);
-    padding-bottom: var(--section-y-padding);
-    /* background-image: url("water/water-2.jpg");
-    background-size: cover;
-    background-position: center; */
-    /* background-color: #dbeafe; */
-    /* background-color: #eff6ff; */
-    /* background-color: #e0f2fe; */
-}
+.water-section {}
 
-
-.ecology-image {
-    width: 100%;
-    height: 500px;
-    background-color: var(--color-blue-50);
-    border-radius: 16px;
-}
-
-.ecology-image-1 {
+.water-image-1 {
     background-image: url("https://images.unsplash.com/photo-1512907819289-143573530514?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-position: center;
     background-size: cover;
 }
 
-
-.ecology-section img {
+.water-section img {
     width: 100%;
     border-radius: 16px;
     /* box-shadow: 0 0 48px rgba(0, 0, 0, 0.15); */
@@ -241,15 +226,27 @@ header {
     color: #888;
 }
 
+/* ********************************************************************* */
+/* PESTICIDE SECTION */
+/* ********************************************************************* */
+.pesticide-section {}
+
+.pesticide-image {
+    background-image: url("https://images.unsplash.com/photo-1483871788521-4f224a86e166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
+    background-image: url("https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1618317780188-1a7c41721f4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
+    /* background-image: url("https://images.unsplash.com/photo-1505872342847-6dbb5e76cd31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+
+    background-position: bottom;
+    background-size: cover;
+}
+
 
 
 /* ********************************************************************* */
 /* HOW IT WORKS SECTION */
 /* ********************************************************************* */
-.how-it-works-section {
-    padding-top: var(--section-y-padding);
-    padding-bottom: var(--section-y-padding);
-}
+.how-it-works-section {}
 
 .steps span {
     display: flex;
@@ -271,10 +268,7 @@ header {
 /* ********************************************************************* */
 /* EFFICACY SECTION */
 /* ********************************************************************* */
-.efficacy-section {
-    padding-top: var(--section-y-padding);
-    padding-bottom: var(--section-y-padding);
-}
+.efficacy-section {}
 
 .efficacy-image {
     width: 100%;
@@ -317,10 +311,7 @@ header {
 /* ********************************************************************* */
 /* SECTORS SECTION */
 /* ********************************************************************* */
-.sectors-section {
-    padding-top: var(--spacing-3xl);
-    padding-bottom: var(--spacing-3xl);
-}
+.sectors-section {}
 
 .sectors {
     padding-top: var(--spacing-xl);
@@ -383,10 +374,7 @@ header {
 /* ********************************************************************* */
 /* ECONOMY SECTION */
 /* ********************************************************************* */
-.economy-section {
-    padding-top: var(--spacing-3xl);
-    padding-bottom: var(--spacing-3xl);
-}
+.economy-section {}
 
 .mushrooms {
     display: flex;
@@ -424,10 +412,7 @@ header {
 /* ********************************************************************* */
 /* REGULATION SECTION */
 /* ********************************************************************* */
-.regulation-section {
-    padding-top: var(--spacing-3xl);
-    padding-bottom: var(--spacing-3xl);
-}
+.regulation-section {}
 
 .regulation-primary {
     margin-bottom: 64px;

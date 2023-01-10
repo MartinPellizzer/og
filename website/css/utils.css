@@ -74,6 +74,10 @@
     justify-content: center;
 }
 
+.justify-start {
+    justify-content: start;
+}
+
 .justify-between {
     justify-content: space-between;
 }
