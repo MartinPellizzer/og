@@ -673,3 +673,51 @@ Il trattamento con ozono non ha causato alcuna significativa ossidazione lipidic
 valutazione della produzione di sapore sgradevole. Pertanto, come con la carne rossa, con il giusto
 attenzione potrebbe essere possibile utilizzare l'ozono come antimicrobico per pollame senza
 influenzando negativamente l'aspetto e la stabilità lipidica.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- - -->
+### Bacteria
+Malattie legate a E. coli,
+Salmonella, Campylobacter, Listeria e altri agenti patogeni.
+
+C. perfringens
+Propionibacterium shermanii
+
+
+
+### Molds
+Penicillium, Cladosporium, and Aspergillus

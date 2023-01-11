@@ -107,6 +107,45 @@ header {
 }
 
 
+
+.ih-100 {
+    height: 100px;
+}
+
+.ih-200 {
+    height: 200px;
+}
+
+.ih-300 {
+    height: 300px;
+}
+
+.ih-400 {
+    height: 400px;
+}
+
+.ih-500 {
+    height: 500px;
+}
+
+.ih-600 {
+    height: 600px;
+}
+
+.ih-700 {
+    height: 700px;
+}
+
+.ih-800 {
+    height: 800px;
+}
+
+.ih-900 {
+    height: 900px;
+}
+
+
+
 /* ********************************************************************* */
 /* HERO SECTION */
 /* ********************************************************************* */
@@ -122,8 +161,7 @@ header {
 /* ********************************************************************* */
 .now-section {}
 
-.now {
-    margin-top: var(--xl);
+.section-body {
     display: flex;
     flex-direction: column;
     gap: var(--xl);
@@ -165,7 +203,7 @@ header {
 /* ********************************************************************* */
 .ozone-section {
     /* background-color: var(--color-blue-50); */
-    background-color: var(--color-sky-50);
+    /* background-color: var(--color-sky-50); */
 }
 
 .ozone {
@@ -186,6 +224,7 @@ header {
     flex: 1;
     gap: 16px;
 }
+
 
 
 
@@ -246,32 +285,12 @@ header {
 
 
 
-/* ********************************************************************* */
-/* HOW IT WORKS SECTION */
-/* ********************************************************************* */
-.how-it-works-section {}
-
-.steps span {
-    display: flex;
-    /* justify-content: center; */
-
-}
-
-.step {
-    font-size: 96px;
-    font-weight: 700;
-    color: var(--color-blue-100);
-}
-
-
-
-
 
 
 /* ********************************************************************* */
-/* EFFICACY SECTION */
+/* PATOGENS SECTION */
 /* ********************************************************************* */
-.efficacy-section {
+.patogens-section {
     /* background-color: var(--color-sky-50); */
 }
 
@@ -282,7 +301,8 @@ header {
     border-radius: 16px;
 }
 
-.efficacy-image {
+
+.bacteria-image {
     background-image: url("https://images.unsplash.com/photo-1631824687534-f642fc820d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=817&q=80");
     background-position: center;
     background-size: cover;
@@ -306,7 +326,47 @@ header {
     background-size: cover;
 }
 
+.card {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 0 32px rgba(0, 0, 0, 0.1);
+}
 
+.card .image {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.card-content {
+    padding: 16px 32px;
+}
+
+/* .patogens-section h3 {
+    display: inline-block;
+    padding: 8px 32px;
+    background-color: var(--color-blue-500);
+    color: white;
+    font-weight: 400;
+    margin: 0;
+} */
+
+.patogens-section .image {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    margin-bottom: var(--md);
+}
+
+
+
+/* ********************************************************************* */
+/* PARASSITES SECTION */
+/* ********************************************************************* */
+.parasites-section {
+    /* background-color: var(--color-sky-50); */
+    /* padding-top: 0; */
+}
 
 
 
