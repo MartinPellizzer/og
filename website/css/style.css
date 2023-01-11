@@ -163,7 +163,10 @@ header {
 /* ********************************************************************* */
 /* OZONE SECTION */
 /* ********************************************************************* */
-.ozone-section {}
+.ozone-section {
+    /* background-color: var(--color-blue-50); */
+    background-color: var(--color-sky-50);
+}
 
 .ozone {
     display: flex;
@@ -268,12 +271,14 @@ header {
 /* ********************************************************************* */
 /* EFFICACY SECTION */
 /* ********************************************************************* */
-.efficacy-section {}
+.efficacy-section {
+    /* background-color: var(--color-sky-50); */
+}
 
 .efficacy-image {
     width: 100%;
     height: 500px;
-    background-color: var(--color-blue-50);
+    /* background-color: var(--color-blue-50); */
     border-radius: 16px;
 }
 
