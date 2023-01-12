@@ -286,7 +286,6 @@ header {
 
 
 
-
 /* ********************************************************************* */
 /* PATOGENS SECTION */
 /* ********************************************************************* */
@@ -380,9 +379,35 @@ header {
 
 .moths-image {
     background-image: url("https://images.unsplash.com/photo-1594486453330-38ba34ca3eec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
-    background-position: top;
+    background-image: url("https://images.unsplash.com/photo-1602244535576-d723f1bb59a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
+    background-image: url("https://images.unsplash.com/photo-1603747662349-73f5c6d2cef4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+    background-position: center;
     background-size: cover;
 }
+
+
+.larvae-image {
+    background-image: url("https://images.unsplash.com/photo-1483871788521-4f224a86e166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
+    background-image: url("https://images.unsplash.com/photo-1575127831312-99b9f49db842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-image: url("https://images.unsplash.com/photo-1571710755334-099966679e1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1618317780188-1a7c41721f4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
+    /* background-image: url("https://images.unsplash.com/photo-1505872342847-6dbb5e76cd31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
+    background-image: url("https://images.unsplash.com/photo-1653976703081-159d5832cab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+
+    background-position: center;
+    background-size: cover;
+}
+
+
+.mites-image {
+    background-image: url("https://images.unsplash.com/photo-1522325636832-5dbc1440f793?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
+    background-position: center;
+    background-size: cover;
+}
+
+
 
 
 

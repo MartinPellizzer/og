@@ -1,3 +1,21 @@
+Sanificazione ecologica ad ozono per l'idustria alimentare
+
+Il fallimento dei sistemi tradizionali di sanificazione
+
+Ozono: sanifica in maniera ecologica i tuoi prodotti alimentari senza utilizzare prodotti chimici 
+
+L'ozono è così ecologico da esser utilizzato per la depurazione delle acque comunali
+
+Grazie al suo potere ossidante è in grado di eliminare i pesticidi presenti nella frutta e verdura
+
+Piccole concentrazioni di ozono sono sufficenti ad eliminare la maggior parte degli agenti patogeni in pochi minuti 
+
+Allontana, o addirittura elimina, i parassiti 
+
+Consuma cosi poca energia che i costi di produzione sono trascurabili
+
+
+
 whys
 ----------------------------------------------------------------------------------------------------
 customers demand greener food additives

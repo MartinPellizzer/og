@@ -548,3 +548,57 @@ of process, as reported by Laszlo et al. (2008), who studied the efficiency of
 ozone and UV light in combination to reduce the microbial mass in wheat
 flours.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Grazie alle sue proprietà, l'ozono è stato utilizzato per controllare lo sviluppo dei parassiti
+grani immagazzinati, per disinfettare farine e degradare molecole potenzialmente tossiche.
+
+L'ozono viene utilizzato in forma gassosa per prevenire lo sviluppo dei parassiti nei magazzini di grano e farine, e viene utilizzato in forma aquosa per allontanare i parassiti dalle coltivazioni di ortaggi.
+
+Il controllo dei parassiti (insetti e microrganismi tra cui muffe, funghi
+e batteri) nei cereali immagazzinati dopo il raccolto è essenziale
+attualmente porta a una perdita di resa del grano di circa il 3-10% nei paesi sviluppati,
+e può raggiungere il 50% in alcuni paesi (Jayas 1999; Fleurat-Lessard 2004;
+Magan e Aldred 2007).
+
+L'ozono riesce ad allontana gli insetti (come Tribolium, Sithophilus e falene) che causano notevoli danni nella produzione come perdita di resa del grano di circa il 3-10% in alcuni pesi.
+
+I grani di stoccaggio sono molto sensibili a un numero di insetti, come
+Tribolium, Sithophilus e falene, che causano notevoli danni e
+che potrebbero potenzialmente sviluppare resistenza all'attuale uso
+insetticidi.
+
