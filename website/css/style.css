@@ -360,6 +360,8 @@ header {
 
 
 
+
+
 /* ********************************************************************* */
 /* PARASSITES SECTION */
 /* ********************************************************************* */
@@ -368,8 +370,19 @@ header {
     /* padding-top: 0; */
 }
 
+.parasites-section .image {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-end;
+    /* justify-content: flex-end; */
+    margin-bottom: var(--md);
+}
 
-
+.moths-image {
+    background-image: url("https://images.unsplash.com/photo-1594486453330-38ba34ca3eec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: top;
+    background-size: cover;
+}
 
 
 
