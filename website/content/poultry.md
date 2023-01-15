@@ -234,3 +234,50 @@ Michael E. Diaz,S. Edward Law &Joseph F. Frank
 Pages 53-64 | Received 17 May 1999, Accepted 03 Aug 2000, Published online: 21 May 2007
 
 UV-enhanced ozonation experiments on unscreened overflow chiller-water from a commercial poultry-processing plant successfully compared the oxidative and bactericidal effects of four treatments (viz., O2/O3, O2 /UV, ( O2/O3/UV, and O2 as the control). Optimal treatments provided greater than 99.9% control of pathogenic microorganisms. Results far exceeded the USDA-FSIS requirements of at least a 60% reduction of aerobic plate count (APC) bacteria including similar reductions in coliforms and E. coli, as well as the maintenance of light transmission at a value no less than 60% that of fresh water, consequently permitting 90% recirculation of the required 0.5 gal (1.9 L) overflow per carcass. Also an additional synergistic reduction (≥0.8 Log CFU/mL) in APC bacteria was documented for ozone acting in concert with UV photons as compared with the sum of the effects of O3 and UV acting in series. Economic analysis of operational and maintenance costs for this UV-enhanced ozonation system estimates annual savings of ∼$244000 in a 1/4-million bird per day plant achieving water savings of 426000 L/day (113000 gal/day).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Ozone in Meat Processing
+
+## 8.2.2 Surface decontamination of poultry
+
+Oltre alla carne rossa, l'ozono è stato valutato anche per il pollame. Mentre
+gli scienziati del pollame hanno valutato l'efficacia dell'ozono per il raffreddamento e
+decontaminazione delle acque reflue, questa sezione si concentrerà sulla carne di pollame
+decontaminazione superficiale. Come la carne rossa, il pollame offre un mezzo adatto
+per la colonizzazione e la crescita dei patogeni.
+
+Yang e Chen (1979b) hanno valutato gli effetti dell'ozono sulla carne di pollame
+microflora. Per prepararsi al trattamento, le carcasse dei polli da carne sono state divise in
+pezzi di cosce e petto. La microflora naturale del pollame è stata incubata
+produrre un inoculo. Il pollame inoculato è stato lavato con una bottiglia
+erogatore con 3,88 mg/L di ozono e un flusso di 2050 mL/min per 20 minuti.
+Il lavaggio con ozono ha ridotto la conta microbica con lo stoccaggio refrigerato. Il
+gli autori hanno stimato che il trattamento con ozono ha prolungato la durata di conservazione del pollame di
+2,4 giorni. Inoltre, è emerso che il trattamento con ozono del pollame lo era
+più efficace per ridurre i bastoncini Gram-negativi.
+
+Anche Sheldon e Brown (1986b) hanno studiato l'impatto del trattamento con ozono
+come disinfettante per carcasse di pollame. Usando l'acqua fredda della carcassa come mezzo di erogazione, le carcasse refrigerate con acqua ozonizzata avevano un valore inferiore
+conte microbiche rispetto a quelle refrigerate con acqua convenzionale. In un altro
+studio, Fabrizio et al. (2002) hanno studiato l'impatto di vari antimicrobici, compreso l'ozono, sui livelli di S. typhimurium nel pollame. Per questo studio, le carcasse di polli da carne sono state inoculate con S. typhimurium e sottoposte a trattamenti antimicrobici. L'ozono acquoso (10 ppm) è stato efficace nel ridurre i livelli di S. typhimurium in 7 giorni di conservazione. I livelli di S. typhimurium sono stati rilevati solo dopo l'arricchimento selettivo.
+
+Valutando l'ozono e altri antimicrobici, Vadhanasin et al. (2004)
+ha studiato l'uso dell'ozono come punto critico di controllo per ridurre l'incidenza di Salmonella sulle carcasse di polli da carne. Ozono e perossido di idrogeno
+erano altrettanto efficaci nel ridurre l'incidenza di Salmonella, mentre l'acido peracetico si è rivelato più efficace e la clorazione è risultata meno efficace dell'ozono o del perossido di idrogeno.
+
+Nietto et al. (1984) hanno studiato l'effetto dell'ozono durante la conservazione refrigerata del pollame su diversi microrganismi. Le carcasse di pollo sono state conservate in atmosfere normali e ricche di ozono (40 mg/h) per 13 giorni a una temperatura di 2 ± 1 °C e un'umidità relativa (RH) di 93 ± 2%. Gli autori hanno riferito che l'ozono non solo ha inibito la crescita della flora superficiale, ma ha distrutto i patogeni responsabili dell'infezione tossica e dell'intossicazione alimentare (Tabella 8.2), senza alcun effetto negativo sulla qualità sensoriale del prodotto.
+
+
