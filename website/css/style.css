@@ -229,7 +229,7 @@ header {
 
 
 /* ********************************************************************* */
-/* WATER SECTION */
+/* WATER */
 /* ********************************************************************* */
 .water-section {}
 
@@ -473,6 +473,58 @@ header {
     background-position: center;
     background-size: cover;
 }
+
+.cheese-image {
+    background-image: url("https://images.unsplash.com/photo-1589881133595-a3c085cb731d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=765&q=80");
+    background-image: url("https://images.unsplash.com/photo-1486297678162-eb2a19b0a32d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80");
+    background-image: url("https://images.unsplash.com/photo-1624806992066-5ffcf7ca186b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.mushrooms-image-01 {
+    background-image: url("https://images.unsplash.com/photo-1600010437921-880c3a958011?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.wine-image {
+    background-image: url("https://images.unsplash.com/photo-1578911373434-0cb395d2cbfb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.bread-image {
+    background-image: url("https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.meat-image {
+    background-image: url("https://images.unsplash.com/photo-1551028150-64b9f398f678?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-image: url("https://images.unsplash.com/photo-1628543108325-1c27cd7246b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    /* background-image: url("https://images.unsplash.com/photo-1585325701165-351af916e581?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"); */
+    background-position: center;
+    background-size: cover;
+}
+
+.fish-image {
+    background-image: url("https://images.unsplash.com/photo-1548587468-971ebe4c8c3b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+    background-image: url("https://images.unsplash.com/photo-1576330383200-2bf325cfec52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+.vegetable-image {
+    background-image: url("https://images.unsplash.com/photo-1566842600175-97dca489844f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
 
 /* ********************************************************************* */
 /* ECONOMY SECTION */
