@@ -22,7 +22,9 @@ most effective for reducing Gram-negative rods.
 Sheldon and Brown (1986b) also studied the impact of ozone treatment
 as a disinfectant for poultry carcasses. Using the carcass chill water as the delivery medium, carcasses chilled with ozonated water had lower
 microbial counts than those chilled with conventional water. In another
-study, Fabrizio et al. (2002) studied the impact of various antimicrobials, including ozone, on S. typhimurium levels on poultry. For this study, broiler carcasses were inoculated with S. typhimurium and subjected to antimicrobial treatments. Aqueous ozone (10 ppm) was effective at reducing S. typhimurium levels over 7 days of storage. Levels of S. typhimurium were only able to be detected after selective enrichment.
+study, 
+
+Fabrizio et al. (2002) studied the impact of various antimicrobials, including ozone, on S. typhimurium levels on poultry. For this study, broiler carcasses were inoculated with S. typhimurium and subjected to antimicrobial treatments. Aqueous ozone (10 ppm) was effective at reducing S. typhimurium levels over 7 days of storage. Levels of S. typhimurium were only able to be detected after selective enrichment.
 
 Evaluating ozone and other antimicrobials, Vadhanasin et al. (2004)
 investigated the use of ozone as a critical control point to reduce the incidence of Salmonella on broiler carcasses. Ozone and hydrogen peroxide
@@ -43,7 +45,7 @@ The effects of ozone on the quality of poultry chiller water and broiler carcass
 P. P. W. YANG, T. C. CHEN
 First published: April 1979
 
-Opzone was produced using a Welsbach ozonator and measured by an iodometric titration method. Microbiological characteristics of ozone treated and air treated control samples were studied. Ozone treated broiler parts had consistently lower microbial counts than the control parts during the entire refrigerated observation period. Using log total microbial counts of 7.0 cm2 as a spoilage criterion, broiler parts treated with ozone had extended shelf-lives for 2.4 days. Ozone treated samples contained about 52.7% gram-positive cocci, while the air treated control samples had 39.6% gram-positive cocci. Air treated control samples had 22.4% gram-negative rods while the ozone treated samples had only 12.7% gram-negative rods. Studies using microflora from spoiled poultry meat have also demonstrated that ozone treatment preferentially destroyed gram-negative rod-type organisms.
+Ozone was produced using a Welsbach ozonator and measured by an iodometric titration method. Microbiological characteristics of ozone treated and air treated control samples were studied. Ozone treated broiler parts had consistently lower microbial counts than the control parts during the entire refrigerated observation period. Using log total microbial counts of 7.0 cm2 as a spoilage criterion, broiler parts treated with ozone had extended shelf-lives for 2.4 days. Ozone treated samples contained about 52.7% gram-positive cocci, while the air treated control samples had 39.6% gram-positive cocci. Air treated control samples had 22.4% gram-negative rods while the ozone treated samples had only 12.7% gram-negative rods. Studies using microflora from spoiled poultry meat have also demonstrated that ozone treatment preferentially destroyed gram-negative rod-type organisms.
 
 ## STABILITY OF OZONE AND ITS GERMICIDAL PROPERTIES ON POULTRY MEAT MICROORGANISMS IN LIQUID PHASE
 

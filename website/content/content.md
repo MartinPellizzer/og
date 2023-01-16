@@ -1224,3 +1224,35 @@ of appetite (see Chapter 15).
 - ease of use?
 - price?
 - mantainence? 
+
+
+
+--------------------------------------------------------------------------------------------
+
+## SECTORS
+
+### Meat
+
+L'ozono viene utilizzato per eliminare microrganismi come batteri aerobici mesofili, Enterobacteriaceae e muffe dalla carne rossa e dal pollame. Piccole concentrazioni di ozono sono in grado di aumentare la shelf-life del prodotto senza intaccare le qualità sensoriali del prodotto stesso (cone l'ossidazione dei lipidi).  
+
+1. sectors
+    - red meat
+        - beef
+    - poultry
+        - chicken
+        - Turkey 
+        - Duck 
+
+2. benefits
+    - extended shelf-lives for 2.4 days
+    - preferentially destroyed gram-negative rod-type organisms.
+
+    -  0.4, 0.6 and 0.72 ppm during 10, 30, 60 and 120 min
+    - The growth of most microbial groups was retarded by combined treatment.
+    - 3.26 and 1.41-log reductions
+    - Sensory properties of treated products along storage were similar to untreated ones.
+
+    - total aerobic mesophilic bacteria, Enterobacteriaceae and yeast-mold, respectively. 
+
+    - coliform, aerobic and anaerobic bacteria in both chicken and duck breast.
+    - However, lipid oxidation occurred faster in duck breast than chicken breast
