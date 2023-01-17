@@ -1256,3 +1256,131 @@ L'ozono viene utilizzato per eliminare microrganismi come batteri aerobici mesof
 
     - coliform, aerobic and anaerobic bacteria in both chicken and duck breast.
     - However, lipid oxidation occurred faster in duck breast than chicken breast
+
+### Cheese
+
+
+1. 
+    - Mozzarella 
+    - Cheddar cheese.
+    - Gorgonzola
+    - pecorino
+    - yoghurt cups
+
+
+2. 
+    - ozone, as a gas or aqueous solution.
+    - The ozone cannot be applied for the recovery of the product if it already has
+    microbial load.
+    - The better applicability results on cooling water treatments.
+    - Ozone oxidant activity was ineffective in causing damage to lipids.
+
+    - bacteria load throughout high moisture
+    - Mozzarella cheese samples were packaged with ozonated water (2 mg/L)
+    - concentrations of 2, 5 and 10 mg/L for 60 min
+    - we treated only the cooling water, artificially contaminated with Pseudomonas spp. strains
+    -  obtaining a reduction of about four Log cfu/mL
+
+    - Reduce Molds
+    - Cheese Ripening Room
+    - ozone treatment reduced the viable airborne mold load but did not affect viable mold on surfaces
+    - Penicillium, Cladosporium, and Aspergillus,
+    - which accounted for 89.9% of the mold isolates
+    - Penicillium and Aspergillus were identified to the species level, and data showed that P. brevicompactum and P. aurantiogriseum, as well as A. versicolor, were the species most frequently isolated.
+
+    - soft cheese ripening
+    - Ozone treatments were effective against rind molds
+    - The general microbiological parameters studied were not altered by ozonation.
+    - The use of ozone improved the quality of the color and appearance of cheese rind.
+    - The uncontrolled growth of potential spoilage microorganisms in cheese surfaces can deteriorate cheese quality, especially filamentous fungi. 
+    - Mucor plumbeus, Kluyveromyces marxianus, and Pseudomonas fluorescens
+    - ozonation can be considered an alternative approach to control mold growth in soft cheese during ripening and prevent cheese rind discoloration.
+
+    - Cheddar cheese to two levels of ozone concentration, 3-10 p.p.m. and 0-2-0-3 p.p.m.,
+    - The results showed that at the high level of ozone concentration, mould growth on the sides of the cheese was largely inhibited,
+    - profuse mould growth developed a few days after the ozone treatment had been stopped, indicating that the moulds had not been destroyed.
+    - Low concentrations of ozone appeared to be as effective as high concentrations in inhibiting mould growth.
+    - Both treatments were effective in markedly reducing the free mould spore content of the air in the curing rooms.
+    - No flavour defects associated with ozone treatment were encountered in the cheese. E.J.M.
+
+    - Listeria monocytogenes and Resident Microbiota of Gorgonzola Cheese Surface
+    - L. monocytogenes contamination
+    - gaseous ozone (2 and 4 ppm for 10 min) 
+    -  cheese rind stored at 4 °C for 63 days was evaluated.
+    - ozonised rinds with final loads of ~1 log CFU/g higher than controls
+    - density of lactobacilli in treated samples at day 28. No significant differences were detected for the other microbial determinations and resident microbiota composition among treated and control samples.
+    - The dominant genera were Candida, Carnobacterium, Staphylococcus, Penicillium, Saccharomyces, Aerococcus, Yarrowia, and Enterococcus.
+
+    - mite pest control and qualitative properties during ripening storage of pecorino cheese
+    - Cheese samples were treated with gaseous ozone at 200 and 300 ppb for 8 h per day
+    - for 150 days in storage rooms under controlled conditions (12 °C and 85% relative humidity)
+    - 200 ppb limits the growth of mites starting from 25 days of storage and significantly reduced bacteria, molds, and yeasts counts starting from 75 days of storage.
+    - Concerning the physicochemical and qualitative parameters evaluated during ripening
+    - no significant differences were shown between the control samples and ozone treatment at 200 ppb.
+    - Sensory analysis (consumer test) also showed no specific defects with the ozone-treated samples.
+    - It was observed that the ozone treatment at 300 ppb had limited microbiological growth
+    - compared with ozone treatment at 200 ppb.
+
+    - Ozonated air was used in yoghurt packaging and in feta cheese brine.
+
+    - Samples stored at 5οC were monitored for 90 (yoghurts) and 60 (cheese) days.
+    - Significant reduction of mould/yeasts was observed in yoghurts ozonated for 60 s.
+    - No advantages of ozonation were recorded in feta cheese samples.
+    - Some sensorial alterations were observed only in highly ozonated feta cheese.
+    - prevent cross contamination from spoilage airborne microorganisms
+
+    - prevent cross contamination from spoilage airborne microorganisms. 
+    -  In ozonated yoghurt samples there was a reduction in mould counts of approximately 0.6 Log cfu/g (25.1%)
+    - In white cheese ripened with ozonated brine (1.3 mg/L O3, NaCl 5%) it seems that ozone treatment during the two months of observation reduced some of the mould load but without offering any advantages over the use of traditional brine (NaCl 7%)
+    - if the factors of time and concentration of ozone are configured properly, ozonation could be a promising approach safeguarding the production of some dairy products.
+
+
+### Frutta e Verdura
+
+2. 
+    - Ozone finds wide application in the food industry, including surface decontamination of fruits and vegetables, drinking water disinfection and wastewater treatment.
+    - Escherichia coli O157:H7
+    - Ozone is a powerful broad-spectrum antimicrobial agent that is active against bacteria, fungi, viruses, protozoa, and bacterial and fungal spores (Khadre et al. 2001) pertinent to fruits and vegetables and their products. 
+    - Efficacy against both Gram-positive and Gram-negative bacteria and fungi is reported, as well as potential virucidal effects
+    - ozone also has the potential to kill storage pests and degrade mycotoxins
+    - It has several advantages over conventional disinfectant agents such as chlorine, chlorine dioxide, calcium hypochlorite, sodium chlorite, peroxyacetic acid and sodium hypochlorite
+    - Ozone has been used routinely for washing and storage of fruits and vegetables
+    - reducing microbial populations and extending shelf life
+    - Treatment of apples with ozone resulted in lower weight loss and spoilage
+    - Increased shelf life of apples and oranges following ozone treatment has been attributed to the oxidation of ethylene. 
+    - Ozone-containing water was found to reduce bacterial content in shredded lettuce, blackberries, tomatoes
+    - Selma et al. (2007) reported that ozone treatments at levels of 1.6 and
+2.2 ppm for 1 minute decreased Shigella sonnei population in water by 3.7
+and 5.6 log colony forming unit (CFU)/mL
+- application of gaseous ozone at 5 or 10 ppm for 3 to 5 hours resulted in
+significant reductions in total bacteria, coliform and yeast/mould counts. 
+- Najafi and Khodaparast (2009) concluded that a minimum of 1 hour of
+ozone treatment at 5 ppm could be successfully used to reduce both
+coliform and Staphlyococcus aureus populations on date fruit
+- Washing of fruits and vegetables was also reported to degrade pesticide
+residues. 
+- degradation of aflatoxin B1 in flaked and chopped
+red peppers
+
+- Gaseous ozone
+- The use of gaseous ozone to reduce Bacillus spp. and Micrococcus counts in
+peas and beans by up to 3 log units,
+- gaseous ozone effectively inactivated Listeria innocua on solid media at concentrations of 50 and 100 nl/L during short exposure times at both 5 and 20 °C.
+- The red colour of intact, whole berry fruit was optimum in 0.3 ppm ozone-treated samples
+during storage (Barth et al. 1995).
+- It was also reported that the undesirable colour change from green to yellow in broccoli was significantly less pronounced for ozone-treated samples.
+- However, ozone was reported to change the surface colour of products such as peaches (Badiani et al. 1995) and carrots (Liew and Prange 1994).
+- The majority of gaseous ozone treatments are reported to be during storage, as discussed in section 5.2.2.
+
+
+
+    Ozone High antimicrobial activity Toxic when inhaled
+    Short contact time Requires monitoring in indoor
+    applications
+    GRAS substance Corrosive above 4 ppm
+    No residue problem Higher initial investment cost
+    No hazardous DBP formation
+    No need to store hazardous
+    substances
+    Lower running cost
+    Requires onsite generation
