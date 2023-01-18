@@ -525,11 +525,21 @@ header {
 
 
 
-
 /* ********************************************************************* */
 /* ECONOMY SECTION */
 /* ********************************************************************* */
 .economy-section {}
+
+
+.electricity-image-01 {
+    background-image: url("https://images.unsplash.com/photo-1591995788400-9af047d65f1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-image: url("https://images.unsplash.com/photo-1513518674089-26bd0c4e3887?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=679&q=80");
+    background-image: url("https://images.unsplash.com/photo-1513518647365-91830a8800b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1513883468746-92b4615d5452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    background-position: center;
+    background-size: cover;
+}
 
 .mushrooms {
     display: flex;
@@ -555,8 +565,6 @@ header {
     background-image: url("https://images.unsplash.com/photo-1550824730-05ededc35e7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80");
     /* background-image: url("https://images.unsplash.com/photo-1611281404780-95799250d540?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
     /* background-image: url("https://images.unsplash.com/photo-1550239429-7631b2b845ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"); */
-
-
     background-position: center;
     background-size: cover;
 }
