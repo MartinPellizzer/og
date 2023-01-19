@@ -166,14 +166,18 @@
 }
 
 .pt-3xl {
-    padding-top: 96px;
+    padding-top: 96px !important;
 }
 
 .pb-3xl {
-    padding-bottom: 96px;
+    padding-bottom: 96px !important;
 }
 
 .py-3xl {
     padding-bottom: 96px;
     padding-top: 96px;
+}
+
+.bg-blue-50 {
+    background-color: var(--color-blue-50);
 }

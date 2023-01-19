@@ -29,9 +29,17 @@ ion-icon {
 
 .icon {
     font-size: 32px;
+    width: 32px;
+    height: 32px;
     fill: var(--color-blue-400);
-    stroke: var(--color-blue-400);
+    margin-bottom: var(--sm);
 }
+
+/* .icon {
+    width: 32px;
+    height: 32px;
+
+} */
 
 /* ********************************************************************* */
 /* GENERAL */
@@ -91,6 +99,11 @@ header {
     padding-bottom: var(--xl3);
 }
 
+.section-secondary {
+    padding-top: var(--xl);
+    padding-bottom: var(--xl);
+}
+
 .section-intro {
     padding-bottom: var(--xl);
 }
@@ -104,6 +117,14 @@ header {
     height: 500px;
     background-color: var(--color-blue-50);
     border-radius: 16px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: var(--xl);
+    align-items: center;
+    margin-top: var(--xl);
 }
 
 
@@ -143,6 +164,28 @@ header {
 .ih-900 {
     height: 900px;
 }
+
+
+.section-ozone {
+    padding-top: 19.2rem;
+    padding-bottom: 19.2rem;
+}
+
+.section-water {
+    padding-top: 19.2rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-environment {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-energy {
+    padding-top: 9.6rem;
+    padding-bottom: 19.2rem;
+}
+
 
 
 
@@ -271,8 +314,6 @@ header {
 /* ********************************************************************* */
 /* PESTICIDE SECTION */
 /* ********************************************************************* */
-.pesticide-section {}
-
 .pesticide-image {
     background-image: url("https://images.unsplash.com/photo-1483871788521-4f224a86e166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
     background-image: url("https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
@@ -292,6 +333,20 @@ header {
 
 .parassite-image {
     background-image: url("https://images.unsplash.com/photo-1603747662349-73f5c6d2cef4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1602244535576-d723f1bb59a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
+    background-image: url("https://images.unsplash.com/photo-1589471892632-af51258ad65f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-image: url("https://images.unsplash.com/photo-1602472898558-efbaa7c36246?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+
+    background-position: center;
+    background-size: cover;
+}
+
+.sector-image {
+    background-image: url("https://images.unsplash.com/photo-1603747662349-73f5c6d2cef4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1602244535576-d723f1bb59a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
+    background-image: url("https://images.unsplash.com/photo-1589471892632-af51258ad65f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-image: url("https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+
     background-position: center;
     background-size: cover;
 }
@@ -301,10 +356,6 @@ header {
 /* ********************************************************************* */
 /* PATOGENS SECTION */
 /* ********************************************************************* */
-.patogens-section {
-    /* background-color: var(--color-sky-50); */
-}
-
 .efficacy-image {
     width: 100%;
     height: 500px;
@@ -393,6 +444,7 @@ header {
     background-image: url("https://images.unsplash.com/photo-1594486453330-38ba34ca3eec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
     background-image: url("https://images.unsplash.com/photo-1602244535576-d723f1bb59a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
     background-image: url("https://images.unsplash.com/photo-1603747662349-73f5c6d2cef4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1602244535576-d723f1bb59a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80");
 
     background-position: center;
     background-size: cover;
