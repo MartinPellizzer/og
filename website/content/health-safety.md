@@ -140,3 +140,107 @@ avoiding worker exposure to ozone in food processing plants
 -----------------------
 specific plant safety measures
 -----------------------
+- in most of the food prodessing plants currenty using ozone, the production rates are below ~1000g/hr
+- a little over 2lbs/hr from oxigen enriched air
+- and ozone is applied adn distrivuted in aqueous solution under partial vacuum
+
+-----------------------
+controlling off-gas ozone ar fresher than fresh fish processing/packageing plant
+-----------------------
+- applications include spray washing bulk fish containers, doorways, utensils, hoses, latex gloves, process machinery, workers shoes, floor drains, washing fish prior to and during processing, and conducting plant wash downs
+- agitation of ozone-containing water solution can lead to significant ozone off-gassing
+
+-----------------------
+third party evuation of aqueous ozone spray wash equipment
+-----------------------
+ex.
+- 10gal/min water spray with a 3.0-3.5ppm applied ozone dose
+- to sanitise equipment, walls, floors, drains, tables, conveyors, containers, tanks and barrels
+- the other designed for CIP and COP (clean-out-of-place)
+
+-----------------------
+third-party efficady testing
+-----------------------
+table 15.3
+- trichophyton mentagrophytes 6
+- samonella choleraesuis 6
+- staphylococcus aureus 6
+- pseudomonas aeruginosa 6
+- campylobacter jejuni 4
+- listeria monocytogenes 4
+- aspergillus flavus 4
+- brettanomyces bruxellensis 4
+- excherichia coli 5
+
+- the efficacy of these two systems in sanitising previously cleaned nonporous surfaces, including processing equipment
+
+-----------------------
+third-party hazard analysis testing
+-----------------------
+
+=======================
+safety of foods processed with ozone
+=======================
+- diminishment of the level os cicroorganisms present on the surfaces of foods
+- extends the shelf life of the specific foodstuff
+- but ozone is oxidizing
+- extended contact with ozone (at higher concentrations) increases the chances that the foodstuff itself will react with ozone, thereby changing the initial chemical nature of the food
+- you must apply just enough ozone to attain the cicroorganism-lowering objective, while at the same time minimisng any unwanted oxidative decomposition of hte food itself cause by exposure to excessive amouts of ozone
+- epri 1997 evaluated processing foods of all types with ozone
+
+
+-----------------------
+nutrient impacts of ozone contact with foods
+-----------------------
+- foods are processed to preserve and extend its shelf-life, to increase its digestibility, to improve its palability and texture, to prepare for serving, to remove inedible parts, to detroy anti-nutritional factors, to create new types of foods, to testroy toxins and eliminate microorganisms.
+- concern is the sagety of the food
+- most food presrvation techniques decrease the overall nutrient content of the food, a price to pay for safety
+- balance between extent of preservation and safety of the food and the nutrient retention following processing
+- 3 main causes of food spoliage:
+	1. chemical changes
+	2. enzymatic changes 
+	3. microbiological spoliage (most important for ozone)
+** - traditional food preservation methods:
+	- thermal processing
+	- alteration of ph
+	- chemical preservatives
+	- microwaves and ionizing radiation
+	- removal of water
+	- or a combination
+- all of htese techiques will reduce, to a varied degree, the nutrient content of the preserved food
+- ozone does not penetrate deeply into foods
+- any negative impact on nutrient content caused by ozone is limited to nutrients on the surface of the food
+- under properly controlled preservation conditions, ozone causes only minor losses of nutrient content, lower than some other processes
+
+-----------------------
+impacts of ozone processing of foods on vitamin contents
+-----------------------
+- most affected by oxidation by ozone:
+	- vitamin c
+	- vitamin b1 (thiamin)
+	- folate
+	- carotenoids
+- usually, vitami c and b1 are used as indication when measuring the effect of food processing techiques
+- if these compounds are retained to a higher degree, then it is assumed that others will as well
+- japanese studies on the thiamin and riboflavin (vitamin b2, more stable to heat but less stable to light) retention in cereal and bakery products, peas, beans, and whole spices
+
+- naito and nanba (1987) treated 24 diggerent kinds of foods (ceral grains, cereal grain powders, peas, beans, and whole spices) with 0.5 to 50 ppm ozone at 10c fo 1h.
+- riboflavin proved to be very stable during treatment, over 90% retention of vitamin b2 in all food samples, even with treatments of 50ppm ozone.
+- thiamin decompostion was detected in some food samples of flours and spices treated with 50ppm ozone
+- losses amounted to up to 40% in products with high surgace areas, but minimal losses (10%) were seen in whole grain abd bean products
+
+- naito et al. (1989) treated wheat flour with 0.5-50ppm ozone for 6 hours to control airborne microorganisms prior to the production of japanese noodles and found no change in riboflavin content
+- the shelf-life of hte produce was substantially increased, although som thiamin content was lost
+
+- henry et al. (1996) studied the degradation kinetics of hte caroenoids, B-carotent and lycopene in vitro after continuous flow of oxygenated or ozone-containing water.
+- each carotenoid was adsorbed onto a solid surface and ultra-filtered water saturated with either oxygen or ozone was a stroger oxidant than oxygen
+- approximately 90% of the colour of lycopene and c-carotent were lost after 1 and 7 hours with ozone and in 2 7 hours for oxygen
+- lycopene (primary red pigment in tomatoes) is more sucetivle than is b-carotene
+
+- kolodyaznaya and suponina (1975) studied torage of potatoes in ozone-containg enviromnet, there was a 1.2-fold higher content of vitamin c than in control sample
+- this reflects the effect of ozone on metabolism in the potatoes, as total sugars als odevreased by 1.3-1.5fold with a 3-6% increase in starch content.
+- ozone knows oxidizing effects on ethylene (a plant hormone that increases ripening) with an end result of slowing the ripening process (erdman 1997)
+
+-----------------------
+impacts of ozone processing of foods on protein contents
+-----------------------
