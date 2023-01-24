@@ -35,6 +35,14 @@ ion-icon {
     margin-bottom: var(--sm);
 }
 
+.warning {
+    padding: 3px 8px;
+    font-weight: 700;
+    /* color: #dc2626; */
+    color: var(--color-blue-600);
+    background-color: #fde047;
+}
+
 /* .icon {
     width: 32px;
     height: 32px;
@@ -183,7 +191,7 @@ header {
 
 .section-energy {
     padding-top: 9.6rem;
-    padding-bottom: 19.2rem;
+    padding-bottom: 9.6rem
 }
 
 /* ******************************************************* */
@@ -194,7 +202,7 @@ header {
 }
 
 .section-pathogens {
-    padding-top: 19.2rem;
+    padding-top: 9.6rem;
     padding-bottom: 9.6rem;
 }
 
@@ -205,7 +213,19 @@ header {
 
 .section-sectors {
     padding-top: 9.6rem;
-    padding-bottom: 19.2rem;
+    padding-bottom: 9.6rem;
+}
+
+/* ******************************************************* */
+
+.section-workers {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-regulation {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
 }
 
 /* ********************************************************************* */
