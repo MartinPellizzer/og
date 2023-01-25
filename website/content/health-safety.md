@@ -244,3 +244,21 @@ impacts of ozone processing of foods on vitamin contents
 -----------------------
 impacts of ozone processing of foods on protein contents
 -----------------------
+- extensive use of this oxidant will chemically destroy a variety of amino acids (tice and gomez-paylor 1986)
+- lalecheur and glaze (1996) 
+	- oxidation of serine in water produes a set of carbonyl and carboxylate containing byproduct that reflect both molecular ozone and hydorxyl free radical chemisties
+	- oxidative decarboxylation and nitrate formation is the preferred route of reaction of serine with molecular ozone
+	- while ammonia formation indicated bydroxyl free-redical chemistry
+	- the reaction sequences of ozone with glycine, alanine and phenylalanine have been delineated but then progress of the reactions is the same as for chlorine
+
+- hasei et al (1994)
+	- used ozonolysis processing to prepare an ozonatedccasein
+	- harsh treatment completely detroyed all aromatic amino acids, except for a few ofth e phenylalanine residues, and reduced the true digestibility of the casein
+
+- naitoh (1992) 
+	- evaluated the effects of high levels of ozone (110-120 ppm) on the ozonation of amino acids in aqueous solution and found that the most labile amin acids were tryptophan, tyrosine, phenylalanine and methionine
+	- the metabolic products produced during this process were not found to be mutagenic, whether or not the pure amino acids or mixtures of amino acids and glucose were ozonated
+
+* erdman 1997
+	- in all the studies above, extremely high levels of ozone were utilized
+	- there is no evidence that exposure of foods to levels of ozone tpically suggested for food preservation will cause any destruction of amino acid residues or reduction of preotein quality
