@@ -74,6 +74,11 @@ p {
     margin-bottom: 1.6rem;
 }
 
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 ul {
     list-style: none;
 }
@@ -132,7 +137,7 @@ header {
     flex-direction: row;
     gap: var(--xl);
     align-items: center;
-    margin-top: var(--xl);
+    margin-top: var(--lg);
 }
 
 .row-reverse {
@@ -140,7 +145,7 @@ header {
     flex-direction: row-reverse;
     gap: var(--xl);
     align-items: center;
-    margin-top: var(--xl);
+    margin-top: var(--lg);
 }
 
 

@@ -76,6 +76,7 @@
 }
 
 
+
 .items-center {
     align-items: center;
 }
@@ -91,6 +92,8 @@
 .justify-between {
     justify-content: space-between;
 }
+
+
 
 .mr-xl {
     margin-right: 64px;
