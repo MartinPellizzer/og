@@ -1,30 +1,28 @@
-<!-- # Come sanificare i tuoi prodotti alimentari da batteri, muffe, e parassiti senza utilizzare pericolosi prodotti chimici o costosi sistemi termici.  -->
-<!-- Abbiamo aiutato 500+ aziende ad eliminare problemi di batteri, muffe e parassiti dai loro prodotti, ambienti e strumenti, con tecnologie ad ozono eco-friendly e a basso consumo energetico. -->
 # Sanificazione ecologica ad ozono per l'idustria alimentare
 Come sanificare i tuoi prodotti alimentari da batteri, muffe, e parassiti senza utilizzare pericolosi prodotti chimici o costosi sistemi termici. 
             
 ## L'imminente fallimento dei sistemi tradizionali di sanificazione
 
-### Sempre più prodotti chimici vengono rimossi dal mercato ogni anno.
+### 1. Sempre più prodotti chimici vengono rimossi dal mercato ogni anno.
 Purtroppo, molti batteri e virus stanno sviluppando una forte restistenza contro una vasta gamma di prodotti chimici, rendendoli inutili per la sanificazione.
 
-Inoltre, molti studi recenti dimostrano la pericolosità di questi disinfettanti chimici sulla salute umana, evidenziando problemi come reazioni allergiche, irritazioni, intossicazioni, e disfunzioni endocrine. Tali problemi, purtroppo, possono anche creare danni permanenti negli individui.
+Inoltre, molti studi recenti dimostrano la pericolosità di questi disinfettanti chimici sulla salute umana, evidenziando problemi come reazioni allergiche, irritazioni, intossicazioni, e disfunzioni endocrine. Tali problemi, purtroppo, possono anche creare danni permanenti nelle persone.
 
 Per questi ed altri motivi, molti governi ed enti di regolazione della salute alimentare stanno rimuovendo dal mercato sempre più prodotti chimici indispensabili alle aziende per la produzione dei loro alimenti.
 
 Il tutto, senza fornire un'alternativa valida.
 
-### Il consumo di pesticidi verrà ridotti del 50% entro il 2030 in Europa e non solo.
+### 2. Il consumo di pesticidi verrà ridotto del 50% entro il 2030 in Europa e non solo.
 
-Sempre più aziende agricole stanno abbracciando pratiche di coltivazione biologiche per soddisfare la crescente domanda di prodotti “green” del mercato.
+Sempre più aziende agricole stanno abbracciando pratiche di coltivazione biologiche per cercare di soddisfare la crescente domanda di prodotti “green” del mercato.
 
-Ma per quelle aziende che ancora hanno difficoltà nel fare il grande passo, ci sono brutte notizie…
+E per quelle aziende che ancora hanno difficoltà nel fare il grande passo, ci sono brutte notizie…
 
-Nel nome della ecosostenibilità, la commissione europea sta presentando nuove riforme per dimezzare l'utilizzo dei fitofarmaci e per preservare l'ambiente.
+La commissione europea, in nome della ecosostenibilità, sta presentando nuove riforme per dimezzare l'utilizzo dei fitofarmaci in ambito agricolo.
 
 Quindi, il cambiamento è imminente.
 
-### Costi energetici non più sostenibili per sistemi di sanificazione ad aqua calda.
+### 3. Costi energetici non più sostenibili per sistemi di sanificazione ad aqua calda.
 
 Se stai utilizzando sistemi di sanificazione di tipo termico, come vapore o ad aqcua calda, ci sono brutte notizie per te.
 
