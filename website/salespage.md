@@ -1,16 +1,18 @@
+<!-- # Come sanificare i tuoi prodotti alimentari da batteri, muffe, e parassiti senza utilizzare pericolosi prodotti chimici o costosi sistemi termici.  -->
+<!-- Abbiamo aiutato 500+ aziende ad eliminare problemi di batteri, muffe e parassiti dai loro prodotti, ambienti e strumenti, con tecnologie ad ozono eco-friendly e a basso consumo energetico. -->
 # Sanificazione ecologica ad ozono per l'idustria alimentare
-Abbiamo aiutato 500+ aziende ad eliminare problemi di batteri, muffe e parassiti dai loro prodotti, ambienti e strumenti, con tecnologie ad ozono eco-friendly e a basso consumo energetico.
+Come sanificare i tuoi prodotti alimentari da batteri, muffe, e parassiti senza utilizzare pericolosi prodotti chimici o costosi sistemi termici. 
             
-## Il fallimento dei sistemi tradizionali di sanificazione
+## L'imminente fallimento dei sistemi tradizionali di sanificazione
 
-### Sempre più prodotti chimici vengono rimossi dal mercato anno dopo anno.
-La sicurezza sulla salute alimentare resta una preoccupazione a livello globale.
+### Sempre più prodotti chimici vengono rimossi dal mercato ogni anno.
+Purtroppo, molti batteri e virus stanno sviluppando una forte restistenza contro una vasta gamma di prodotti chimici, rendendoli inutili per la sanificazione.
 
-Infatti, molti consumatori non accettano più di mangiare cibi imbottiti di additivi chimici tossici, pretendendo alimenti sempre più "sani".
+Inoltre, molti studi recenti dimostrano la pericolosità di questi disinfettanti chimici sulla salute umana, evidenziando problemi come reazioni allergiche, irritazioni, intossicazioni, e disfunzioni endocrine. Tali problemi, purtroppo, possono anche creare danni permanenti negli individui.
 
-Inoltre, come se non bastasse, molti governi ed enti di regolazione della salute alimentare stanno rimuovendo dal mercato sempre più prodotti chimici indispensabili alle aziende durante la produzione.
+Per questi ed altri motivi, molti governi ed enti di regolazione della salute alimentare stanno rimuovendo dal mercato sempre più prodotti chimici indispensabili alle aziende per la produzione dei loro alimenti.
 
-Il tutto, purtroppo, senza offrire una valida alternativa alle aziende.
+Il tutto, senza fornire un'alternativa valida.
 
 ### Il consumo di pesticidi verrà ridotti del 50% entro il 2030 in Europa e non solo.
 
