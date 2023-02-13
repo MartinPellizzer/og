@@ -19,12 +19,18 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
+    font-family: Helvetica, Sans-Serif;
     font-size: 1.8rem;
 }
 
 ion-icon {
     font-size: 32px;
     color: var(--color-blue-400);
+}
+
+.icon-white {
+    font-size: 2.4rem;
+    color: white;
 }
 
 .icon {
@@ -37,9 +43,11 @@ ion-icon {
 /* GENERAL */
 /* ********************************************************************* */
 h1 {
-    font-size: 5.6rem;
+    font-size: 7.2rem;
     line-height: 1.1;
     margin-bottom: 1.6rem;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
 h2 {
@@ -107,13 +115,64 @@ header {
 }
 
 
+
+/* ********************************************************************* */
+/* TOPBAR SECTION */
+/* ********************************************************************* */
+.top-bar {
+    background-color: #0f172a;
+    color: white;
+    padding: 1.6rem 0;
+}
+
+.top-bar span {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+
+/* ********************************************************************* */
+/* BOTTOMBAR SECTION */
+/* ********************************************************************* */
+.bottom-bar {
+    background-color: #0f172a;
+    color: white;
+    padding: 3.2rem 0;
+}
+
+.bottom-bar span {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.bottom-bar p {
+    margin-bottom: 0;
+}
+
+.social-proof {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-proof-number {
+    font-size: 3.2rem;
+}
+
+.social-proof-content {
+    font-size: 1.6rem;
+}
+
+
+
+
 /* ********************************************************************* */
 /* HERO SECTION */
 /* ********************************************************************* */
 .hero-section {
-    height: 90vh;
+    height: 75vh;
     padding: 96px 0;
-    background-color: var(--color-blue-50);
+    /* background-color: var(--color-blue-50); */
 }
 
 
