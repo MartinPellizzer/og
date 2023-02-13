@@ -1,0 +1,18 @@
+library: 
+	- tft_espi / bodmer
+	- User_Setup_Select.h
+		- Setup43_ST7735.h
+
+pinout:
+	tft		esp32
+	1:leda		+3v3
+	2:gnd		gnd
+	3:reset		4
+	4:rs		2
+	5:sda		23
+	6:scl		18
+	7:vdd		+3v3
+	8:cs		15
+
+arduino example:
+	tft-meter-5

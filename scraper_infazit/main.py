@@ -6,7 +6,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome(executable_path='C:\\drivers\\chromedriver_107')
+driver = webdriver.Chrome(executable_path='C:\\drivers\\chromedriver')
 # driver.maximize_window()
 
 url_base = "https://www.informazione-aziende.it/10-71_PRODUZIONE-DI-PANE-PRODOTTI-DI-PASTICCERIA-FRESCHI/Regione_VENETO?qPg="
@@ -16,6 +16,8 @@ time.sleep(7)
 try: driver.find_element(By.XPATH, '//button[@id="didomi-notice-agree-button"]').click()
 except: pass 
 time.sleep(3)
+
+
 
 filename = 'export.txt'
 
@@ -37,20 +39,19 @@ for i in range(175):
 
 
 
+try: os.remove('export.csv')
+except: pass
 
 with open('export.txt') as f:
     content = f.read().split('\n')
     print(content)
-
-try: os.remove('export.csv')
-except: pass
 
 # for i in range(0, 100):
 for i in range(201, 400):
     url = content[i]
     print(f'{i}/{len(content)} - {url}')
     driver.get(url)
-    time.sleep(3)
+    time.sleep(7)
 
     business_name = ''
     website = ''

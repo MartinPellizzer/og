@@ -35,9 +35,25 @@ ion-icon {
 
 .icon {
     font-size: 32px;
+    width: 32px;
+    height: 32px;
     fill: var(--color-blue-400);
-    stroke: var(--color-blue-400);
+    margin-bottom: var(--sm);
 }
+
+.warning {
+    padding: 3px 8px;
+    font-weight: 700;
+    /* color: #dc2626; */
+    color: var(--color-blue-600);
+    background-color: #fde047;
+}
+
+/* .icon {
+    width: 32px;
+    height: 32px;
+
+} */
 
 /* ********************************************************************* */
 /* GENERAL */
@@ -64,6 +80,11 @@ h3 {
 p {
     line-height: 1.6;
     margin-bottom: 1.6rem;
+}
+
+
+p:last-child {
+    margin-bottom: 0;
 }
 
 ul {
@@ -99,6 +120,11 @@ header {
     padding-bottom: var(--xl3);
 }
 
+.section-secondary {
+    padding-top: var(--xl);
+    padding-bottom: var(--xl);
+}
+
 .section-intro {
     padding-bottom: var(--xl);
 }
@@ -113,6 +139,139 @@ header {
     background-color: var(--color-blue-50);
     border-radius: 16px;
 }
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: var(--xl);
+    align-items: center;
+    margin-top: var(--lg);
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: var(--xl);
+    align-items: center;
+    margin-top: var(--lg);
+}
+
+
+
+.ih-100 {
+    height: 100px;
+}
+
+.ih-200 {
+    height: 200px;
+}
+
+.ih-300 {
+    height: 300px;
+}
+
+.ih-400 {
+    height: 400px;
+}
+
+.ih-500 {
+    height: 500px;
+}
+
+.ih-600 {
+    height: 600px;
+}
+
+.ih-700 {
+    height: 700px;
+}
+
+.ih-800 {
+    height: 800px;
+}
+
+.ih-900 {
+    height: 900px;
+}
+
+.section {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+
+.section-ozone {
+    padding-top: 19.2rem;
+    padding-bottom: 19.2rem;
+}
+
+.section-water {
+    padding-top: 19.2rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-environment {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-energy {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem
+}
+
+/* ******************************************************* */
+
+.section-effective {
+    padding-top: 19.2rem;
+    padding-bottom: 19.2rem;
+}
+
+.section-pathogens {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-parasites {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-sectors {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+/* ******************************************************* */
+
+.section-workers {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.section-regulation {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+
+
+/* ********************************************************************* */
+/* IMAGES */
+/* ********************************************************************* */
+.workers-image {
+    background-image: url("https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-position: right;
+    background-size: cover;
+}
+
+.food-image {
+    background-image: url("https://images.unsplash.com/photo-1601275868399-45bec4f4cd9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+    background-image: url("https://images.unsplash.com/photo-1568391047493-d859d5ddb509?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
+    background-position: center;
+    background-size: cover;
+}
+
 
 
 
@@ -176,13 +335,13 @@ header {
 }
 
 
+
 /* ********************************************************************* */
 /* NOW SECTION */
 /* ********************************************************************* */
 .now-section {}
 
-.now {
-    margin-top: var(--xl);
+.section-body {
     display: flex;
     flex-direction: column;
     gap: var(--xl);
@@ -216,6 +375,11 @@ header {
     background-size: cover;
 }
 
+.pathogen-image {
+    background-image: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+    background-position: center;
+    background-size: cover;
+}
 
 
 
@@ -224,7 +388,7 @@ header {
 /* ********************************************************************* */
 .ozone-section {
     /* background-color: var(--color-blue-50); */
-    background-color: var(--color-sky-50);
+    /* background-color: var(--color-sky-50); */
 }
 
 .ozone {
@@ -248,8 +412,9 @@ header {
 
 
 
+
 /* ********************************************************************* */
-/* WATER SECTION */
+/* WATER */
 /* ********************************************************************* */
 .water-section {}
 
@@ -289,156 +454,48 @@ header {
 }
 
 /* ********************************************************************* */
-/* PESTICIDE SECTION */
+/* PESTICIDE */
 /* ********************************************************************* */
-.pesticide-section {}
-
 .pesticide-image {
-    background-image: url("https://images.unsplash.com/photo-1483871788521-4f224a86e166?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80");
     background-image: url("https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
-    /* background-image: url("https://images.unsplash.com/photo-1618317780188-1a7c41721f4a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
-    /* background-image: url("https://images.unsplash.com/photo-1505872342847-6dbb5e76cd31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"); */
-
     background-position: bottom;
     background-size: cover;
 }
 
-
-
-/* ********************************************************************* */
-/* HOW IT WORKS SECTION */
-/* ********************************************************************* */
-.how-it-works-section {}
-
-.steps span {
-    display: flex;
-    /* justify-content: center; */
-
-}
-
-.step {
-    font-size: 96px;
-    font-weight: 700;
-    color: var(--color-blue-100);
-}
-
-
-
-
-
-
-/* ********************************************************************* */
-/* EFFICACY SECTION */
-/* ********************************************************************* */
-.efficacy-section {
-    /* background-color: var(--color-sky-50); */
-}
-
-.efficacy-image {
-    width: 100%;
-    height: 500px;
-    /* background-color: var(--color-blue-50); */
-    border-radius: 16px;
-}
-
-.efficacy-image {
-    background-image: url("https://images.unsplash.com/photo-1631824687534-f642fc820d54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=817&q=80");
-    background-position: center;
-    background-size: cover;
-}
-
-.virus-image {
+.pathogen-image {
     background-image: url("https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80");
     background-position: left;
     background-size: cover;
 }
 
-.mold-image {
-    background-image: url("https://images.unsplash.com/photo-1598144865403-1636bdf959dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+.parassite-image {
+    background-image: url("https://images.unsplash.com/photo-1602472898558-efbaa7c36246?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
     background-position: center;
     background-size: cover;
 }
 
-.fungi-image {
-    background-image: url("https://images.unsplash.com/photo-1528161392842-58a96d3a78d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80");
-    background-position: center;
-    background-size: cover;
-}
-
-
-
-
-
-
-
-
-/* ********************************************************************* */
-/* SECTORS SECTION */
-/* ********************************************************************* */
-.sectors-section {}
-
-.sectors {
-    padding-top: var(--spacing-xl);
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-md);
-}
-
-.sector-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: var(--spacing-sm);
-}
-
-.sectors-image {
-    width: 100%;
-    height: 300px;
-    background-color: var(--color-blue-50);
-    border-radius: 16px;
-    margin-bottom: var(--spacing-sm);
-}
-
-.cheese-image {
-    background-image: url("https://images.unsplash.com/photo-1589881133595-a3c085cb731d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2hlZXNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
-    background-position: center;
-    background-size: cover;
-}
-
-.mushrooms-image {
-    background-image: url("https://images.unsplash.com/photo-1504545102780-26774c1bb073?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=723&q=80");
-    background-position: bottom;
-    background-size: cover;
-}
-
-.salami-image {
-    background-image: url("https://images.unsplash.com/photo-1460122109654-7e46ab4fc9b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1100&q=80");
-    background-position: center;
-    background-size: cover;
-}
-
-.pasta-image {
-    background-image: url("https://images.unsplash.com/photo-1588511706218-3a500887ce80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
-    background-position: center;
-    background-size: cover;
-}
-
-.wine-image {
-    background-image: url("https://images.unsplash.com/photo-1474722883778-792e7990302f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=691&q=80");
-    background-position: center;
-    background-size: cover;
-}
-
-.other-image {
+.sector-image {
     background-image: url("https://images.unsplash.com/photo-1606787366850-de6330128bfc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-position: center;
     background-size: cover;
 }
 
+
 /* ********************************************************************* */
 /* ECONOMY SECTION */
 /* ********************************************************************* */
 .economy-section {}
+
+
+.electricity-image-01 {
+    background-image: url("https://images.unsplash.com/photo-1591995788400-9af047d65f1f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-image: url("https://images.unsplash.com/photo-1513518674089-26bd0c4e3887?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=679&q=80");
+    background-image: url("https://images.unsplash.com/photo-1513518647365-91830a8800b3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-image: url("https://images.unsplash.com/photo-1513883468746-92b4615d5452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80");
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+    background-position: center;
+    background-size: cover;
+}
 
 .mushrooms {
     display: flex;
@@ -464,8 +521,6 @@ header {
     background-image: url("https://images.unsplash.com/photo-1550824730-05ededc35e7a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1633&q=80");
     /* background-image: url("https://images.unsplash.com/photo-1611281404780-95799250d540?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"); */
     /* background-image: url("https://images.unsplash.com/photo-1550239429-7631b2b845ec?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"); */
-
-
     background-position: center;
     background-size: cover;
 }
