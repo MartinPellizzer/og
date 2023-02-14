@@ -23,6 +23,15 @@
     --color-sky-700: #0369a1;
     --color-sky-800: #075985;
     --color-sky-900: #0c4a6e;
+
+
+    --color-red-800: #991b1b;
+    --color-red-900: #7f1d1d;
+
+    --color-slate-800: #1e293b;
+    --color-slate-900: #0f172a;
+
+
 }
 
 .container {
@@ -49,6 +58,10 @@
 
 .flex-3 {
     flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
 }
 
 .gap-sm {
