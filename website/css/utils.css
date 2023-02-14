@@ -31,12 +31,6 @@
     padding: 0 32px;
 }
 
-.container-md {
-    max-width: 768px;
-    margin: 0 auto;
-    padding: 0 32px;
-}
-
 .flex {
     display: flex;
 }
@@ -82,7 +76,6 @@
 }
 
 
-
 .items-center {
     align-items: center;
 }
@@ -98,8 +91,6 @@
 .justify-between {
     justify-content: space-between;
 }
-
-
 
 .mr-xl {
     margin-right: 64px;
@@ -131,10 +122,6 @@
 
 .mb-md {
     margin-bottom: 32px;
-}
-
-.mb-lg {
-    margin-bottom: 48px;
 }
 
 .mb-xl {
@@ -187,11 +174,11 @@
 }
 
 .pt-3xl {
-    padding-top: 96px !important;
+    padding-top: 96px;
 }
 
 .pb-3xl {
-    padding-bottom: 96px !important;
+    padding-bottom: 96px;
 }
 
 .py-3xl {
@@ -199,11 +186,6 @@
     padding-top: 96px;
 }
 
-<<<<<<< HEAD
 .text-center {
     text-align: center;
-=======
-.bg-blue-50 {
-    background-color: var(--color-blue-50);
->>>>>>> 203f12649016b84218e51eef9df506134cec0c82
 }
