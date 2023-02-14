@@ -189,3 +189,7 @@
 .text-center {
     text-align: center;
 }
+
+.h-full {
+    height: 100%;
+}
