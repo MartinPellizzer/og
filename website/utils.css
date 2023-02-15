@@ -93,6 +93,14 @@
     align-items: center;
 }
 
+.items-end {
+    align-items: flex-end;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
 .justify-center {
     justify-content: center;
 }
@@ -103,6 +111,16 @@
 
 .justify-between {
     justify-content: space-between;
+}
+
+.mx-sm {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+}
+
+.mx-md {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
 }
 
 .mr-xl {
@@ -199,10 +217,19 @@
     padding-top: 96px;
 }
 
+.px-md {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+}
+
 .text-center {
     text-align: center;
 }
 
 .h-full {
     height: 100%;
+}
+
+.w-full {
+    width: 100%;
 }
