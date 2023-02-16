@@ -177,29 +177,13 @@ nav li a {
 }
 
 
+
+/* **************************************************** */
+/* PESTICIDES */
+/* **************************************************** */
 .pesticides {
-    /* background-color: var(--color-slate-900);
-    color: white; */
     flex-direction: row-reverse;
 }
-
-/* .pesticides-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 6.4rem;
-    max-width: 80rem;
-    height: 100%;
-}
-
-.pesticides-image {
-    background: linear-gradient(rgba(0, 0, 0, var(--image-opacity)), rgba(0, 0, 0, var(--image-opacity))),
-        url("https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-    background-position: center;
-    background-size: cover;
-    height: 80rem;
-} */
-
 
 .pesticides-content {
     display: flex;
@@ -212,8 +196,40 @@ nav li a {
 
 .pesticides-image {
     background: linear-gradient(rgba(0, 0, 0, var(--image-opacity)), rgba(0, 0, 0, var(--image-opacity))),
-        url("https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+        url("https://images.unsplash.com/photo-1475906089153-644d9452ce87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
     background-position: center;
     background-size: cover;
     height: 80rem;
+}
+
+
+
+/* **************************************************** */
+/* OZONE */
+/* **************************************************** */
+
+
+.section-ozone {
+    background: linear-gradient(rgba(0, 0, 0, var(--header-opacity)), rgba(0, 0, 0, var(--header-opacity))),
+        url("./assets/jellyfish.jpg");
+    background-position: center;
+    background-size: cover;
+    /* height: 80rem; */
+    padding: 8.0rem 0;
+    color: white;
+}
+
+.section-ozone h2 {
+    font-size: 4.0rem;
+    margin-bottom: 4.8rem;
+}
+
+.ozone-row {
+    display: flex;
+    gap: 6.4rem;
+    margin-bottom: 4.8rem;
+}
+
+.icon-text-vertical {
+    flex: 1;
 }
