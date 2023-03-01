@@ -146,27 +146,67 @@ Ma di cosa ha bisogno un'azienda alimentare per sanificare con l'ozono?
 
 ## Attrezzature e Forniture Necessarie per la Sanificazione ad Ozono
 
+Generatore di ozono: l'attrezzatura principale per la produzione di ozono.
+Sensori di ozono: per monitorare il livello di ozono nell'ambiente.
+
+Timer: per regolare il tempo di funzionamento del generatore di ozono.
+
+Maschere di protezione: per evitare l'esposizione diretta all'ozono durante il processo di sanificazione.
+Guanti: per proteggere le mani durante la manipolazione del generatore di ozono.
+Occhiali di protezione: per proteggere gli occhi durante la manipolazione del generatore di ozono.
+Tute protettive: per proteggere il corpo durante la manipolazione del generatore di ozono.
+Ventilatore: per aiutare a distribuire l'ozono nell'ambiente.
+Deumidificatore: per rimuovere l'umidità dall'ambiente e aumentare l'efficacia del processo di sanificazione ad ozono.
+Aspirapolvere industriale: per rimuovere detriti e particelle dall'ambiente prima del processo di sanificazione ad ozono.
+Prodotti per la pulizia: per pulire le superfici prima del processo di sanificazione ad ozono.
+Strumenti per la rimozione delle macchie: per rimuovere macchie ostinate dalle superfici prima del processo di sanificazione ad ozono.
+Prodotti per la rimozione degli odori: per eliminare gli odori dalle superfici prima del processo di sanificazione ad ozono.
+Coprisedili e coprifornelli: per proteggere le superfici durante il processo di sanificazione ad ozono.
+Prodotti per la neutralizzazione dell'ozono: per neutralizzare l'ozono dopo il processo di sanificazione e rendere l'ambiente sicuro per il personale e i clienti.
+
+
+
 ### Generatori di Ozono
 
-Ozone generators are quickly becoming a popular sanitization solution in the food industry. Ozone is a naturally occurring gas that is formed when oxygen molecules are exposed to ultraviolet light or an electrical current. Ozone is a powerful oxidant that is highly effective at killing bacteria, viruses, and other microorganisms. In the food industry, ozone generators are used to sanitize surfaces, equipment, and even entire rooms.
+Ci sono diverse tecnologie per produrre ozono. Ma le più comuni sono:
 
-Ozone generators are a great choice for the food industry because they are safe and cost-effective. Ozone is not toxic and does not leave behind any residue, making it a safe and effective sanitization solution. Ozone generators are also relatively inexpensive and easy to maintain, making them an ideal choice for food industry sanitation.
+- Generatori a scarica corona: questi generatori utilizzano una corrente elettrica ad alta tensione per creare l'ozono separando le molecole di ossigeno in atomi singoli.
 
-Ozone generators are also a great choice because they are fast-acting and highly effective. Ozone is able to penetrate even the smallest crevices and cracks, making it an ideal sanitization solution for food industry equipment and surfaces. Ozone is also able to kill a wide range of microorganisms, making it a reliable and efficient sanitization solution.
+- Generatori a UV: questi generatori utilizzano la luce ultravioletta per creare l'ozono separando le molecole di ossigeno in atomi singoli come quelli a scarica corona.
 
-Overall, ozone generators are a great choice for the food industry. Ozone is a safe, cost-effective, and highly effective sanitization solution that is quickly becoming a popular choice for food industry sanitation. If you�re looking for a reliable and efficient sanitization solution, an ozone generator may be just what you need.
+- Generatori a plasma freddo: questi generatori utilizzano una scarica a barriera dielettrica per creare l'ozono ionizzando le molecole di ossigeno.
 
-### Ozone Test Kits
+- Generatori elettrolitici: questi generatori utilizzano una cella elettrolitica per creare l'ozono separando le molecole di ossigeno in atomi singoli attraverso l'elettrolisi.
 
-Ozone sanitization has become a popular choice for food industry professionals looking to keep their products safe from harmful bacteria. Ozone is a powerful oxidizer that can quickly and effectively kill a wide range of bacteria, viruses, and other microorganisms. Ozone test kits are an essential tool for ensuring that the ozone levels in food processing facilities are within the recommended range for effective sanitization.
+- Generatori fotochimici: questi generatori utilizzano una reazione chimica innescata dalla luce UV per creare l'ozono.
 
-Ozone test kits provide a fast and accurate way to measure ozone levels in food processing environments. They are easy to use and can be used by anyone with minimal training. The kits typically include a handheld device that measures ozone levels, along with a color-coded chart to indicate the levels of ozone present. This allows food industry professionals to quickly and easily determine if their ozone levels are within the recommended range for effective sanitization.
+Detto questo, diciamo che i generatori più utilizzati al momento nell'industria alimentare sono quelli che utilizzano la scarica corona. Questo perchè riescono a produrre un'elevata quantità di ozono utilizzando poca energia elettrica.
 
-Ozone test kits are an important tool for food safety professionals. They provide a reliable way to measure ozone levels and ensure that the environment is safe for food production. By using these kits, food industry professionals can rest assured that their products are being processed in an environment that is free from harmful bacteria and other microorganisms. Additionally, the kits can be used to monitor ozone levels over time, allowing food industry professionals to adjust their sanitization methods if necessary.
+Un'eccezione è fatta per i generatori elettrolitici, che sono molto utili per fare acqua ozonizzata. Infatti, questa tecnologia è migliorata parecchio negli ultimi anni, il che la sta rendendo interessante per questo tipo di applicazione.
 
-Overall, ozone test kits are an essential tool for food safety professionals. They provide a fast and accurate way to measure ozone levels and ensure that the environment is safe for food production. By using these kits, food industry professionals can rest assured that their products are being processed in an environment that is free from harmful bacteria and other microorganisms.
+### Sensori di Ozono
 
-### Ozone Controllers
+Per sapere quanta concentrazione di ozono è presente nel tuo ambiente, puoi utilizzare un sensore di ozono. Ecco alcuni tipi di sensore: 
+
+- Sensori di ozono portatili: questi misuratori sono dispositivi portatili e vengono utilizzati per misurare i livelli di ozono in una determinata area.
+
+- Sensori di ozono fissi: questi sensori sono installati in modo permanente in un'area specifica per misurare continuamente i livelli di ozono.
+
+- Tubi reagenti: questi tubi contengono sostanze chimiche che cambiano colore in presenza di ozono, e possono essere utilizzati per una misurazione rapida ma meno precisa dei livelli di ozono.
+
+- Spettrometri di massa: questi strumenti possono essere utilizzati per la rilevazione e l'analisi degli ozonidi, che sono composti chimici che si formano quando l'ozono reagisce con altri composti presenti nell'aria.
+
+- Misuratori di ozono ad uso industriale: questi strumenti sono progettati per l'uso in ambienti industriali e possono rilevare concentrazioni di ozono molto elevate rispetto ai misuratori ad uso domestico.
+
+- Dosimetri ad ozono: questi misuratori di ozono sono progettati per rilevare l'esposizione cumulativa all'ozono, fornendo una misurazione media dell'esposizione nel tempo.
+
+- Sensori di ozono per il controllo dell'acqua: questi strumenti misurano la concentrazione di ozono nell'acqua e sono comunemente utilizzati in applicazioni come il trattamento delle acque reflue e la disinfezione dell'acqua potabile.
+
+Solitamente, i sensori più utilizzati nell'industria alimentare sono quelli "fissi", in quanto possono essere utili sia per monitorare la quantità di ozono in real-time, sia per implementare un eventuale sistema di regolazione dell'ozono prodotto in modo automatizzato.
+
+Invece, nel caso in cui devi misurare la concentrazione di ozono in acqua, è da precisare che ci sono dei sensori progettati apposta. Infatti, i sensori di lettura ozono in aria non vanno bene per la lettura di ozono in acqua.
+
+
 
 Ozone controllers are an important part of the ozone sanitization process in the food industry. Ozone is a powerful oxidant and disinfectant that can be used to kill bacteria, viruses, and other pathogens in food production facilities. Ozone controllers are used to regulate the amount of ozone that is released into the environment, ensuring that it is at a safe and effective level.
 
@@ -176,9 +216,40 @@ Ozone controllers are also easy to use and maintain. They are typically designed
 
 Overall, ozone controllers are an important part of the ozone sanitization process in the food industry. They help to ensure that the ozone levels remain within the safe range and provide continuous monitoring of the ozone levels. This helps to ensure that the food production process is safe and effective. In addition, ozone controllers are easy to use and maintain, making them ideal for use in food production facilities.
 
-### Ozone Resistant Materials
+### Ozone Test Kits
 
-Ozone sanitization is becoming an increasingly popular method for food safety in the food industry. Ozone is a powerful oxidizing agent that is capable of killing bacteria and other microorganisms. However, ozone can also damage certain materials, making it important to select ozone resistant materials when using ozone sanitization.
+<!-- Ozone sanitization has become a popular choice for food industry professionals looking to keep their products safe from harmful bacteria. Ozone is a powerful oxidizer that can quickly and effectively kill a wide range of bacteria, viruses, and other microorganisms. Ozone test kits are an essential tool for ensuring that the ozone levels in food processing facilities are within the recommended range for effective sanitization.
+
+Ozone test kits provide a fast and accurate way to measure ozone levels in food processing environments. They are easy to use and can be used by anyone with minimal training. The kits typically include a handheld device that measures ozone levels, along with a color-coded chart to indicate the levels of ozone present. This allows food industry professionals to quickly and easily determine if their ozone levels are within the recommended range for effective sanitization.
+
+Ozone test kits are an important tool for food safety professionals. They provide a reliable way to measure ozone levels and ensure that the environment is safe for food production. By using these kits, food industry professionals can rest assured that their products are being processed in an environment that is free from harmful bacteria and other microorganisms. Additionally, the kits can be used to monitor ozone levels over time, allowing food industry professionals to adjust their sanitization methods if necessary.
+
+Overall, ozone test kits are an essential tool for food safety professionals. They provide a fast and accurate way to measure ozone levels and ensure that the environment is safe for food production. By using these kits, food industry professionals can rest assured that their products are being processed in an environment that is free from harmful bacteria and other microorganisms. -->
+
+### Resistenza dei Materiali all'Ozono
+
+Alcuni materiali sono resistenti all'ozono. Altri meno.
+
+Visto che l'ozono è un gas molto reattivo, può reagire con una vasta gamma di materiali. L'aggressività di questa reazione dipende principalmente dalla sua concentrazione, dalla durata dell'esposizione e dalla sensibilità del materiale stesso.
+
+In generale, l'ozono può causare la rottura delle molecole di legame all'interno dei materiali, rendendoli fragili e suscettibili alla rottura. Inoltre, l'ozono può causare la decolorazione, la degradazione termica e la perdita di proprietà meccaniche e chimiche.
+
+Gli effetti dell'ozono possono essere maggiori su materiali elastomerici come la gomma, dove l'esposizione all'ozono può causare crepe, fessure e la rottura del materiale. Anche i materiali plastici possono essere influenzati dall'ozono, dove la loro superficie può diventare opaca e le proprietà meccaniche possono diminuire.
+
+Alcuni materiali resistenti all'ozono sono:
+- Acciaio inossidabile
+- PVC (policloruro di vinile)
+- Polietilene ad alta densità (HDPE)
+- Polipropilene (PP)
+- Gomma nitrilica
+- Silicone
+- Policarbonato (PC)
+
+
+
+
+
+Nel caso specifico dell'industria alimentare, qui trovi i materiali resistenti all'ozono più utilizzato.
 
 Ozone resistant materials are materials that are able to withstand the oxidation process caused by ozone. These materials are typically made of plastic, rubber, or metal, and must be specifically designed to be ozone resistant. Examples of ozone resistant materials include polypropylene, polyethylene, and stainless steel.
 
