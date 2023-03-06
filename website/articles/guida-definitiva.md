@@ -298,57 +298,33 @@ Ecco una semplice procedura per monitorare e regolare la produzione di ozono:
 
 2. Monitorare la temperatura: l'ozono no resiste bene alle alte temperature. Quindi é bene monitorare la temperatura dell'ambiente da trattare per assicurarsi che la sanificazione con ozono avvenga correttamente. Come regola generale, diciamo che l'ozono funziona bene a temperatura ambiente (~20 °C) e altrettanto bene a basse temperature, come quelle delle celle frigorifere (2-4 °C). Al contrario, l'ozono NON funziona bene a temperature superiori ai 50-60 °C.
 
-3. Monitorare la quantità di ozono durante tutto il periodo di sanificazione: per fare in modo che la sanificazione ad ozono dia i risultati sperati, bisogna mantenere i giusti livelli di ozono per tutta la durata necessaria per la sanificazione.   
+3. Monitorare la quantità di ozono durante tutto il periodo di sanificazione: per fare in modo che la sanificazione ad ozono dia i risultati sperati, bisogna mantenere i giusti livelli di ozono per tutta la durata necessaria per la sanificazione. In molte applicazioni nel settore alimentare, concentrazioni di ozono 1-2 ppm per un paio di ore al giorno sono più che sufficienti.
 
-Regolare la quantità di ozono utilizzata a seconda del tipo di cibo da sanificare.
+4. Monitorare la durata della sanificazione: per avere una sanificazione efficace è necessario sanificare per il giusto tempo, senza esagerare. Infatti, esporre i prodotti a troppo ozono per troppo tempo, può danneggare il prodotto e renderlo non idoneo al consumo.
 
-Monitorare la temperatura per garantire che sia nell'intervallo ottimale per la sanificazione con ozono.
+5. Arieggare l'ambiente a fine trattamento: all fine del trattamento è importante arieggiare l'ambiente e utilizzare un sensore di ozono per assicurarsi che le concentrazioni di ozono residue siano inferiori a quelle strabilite dalla legge (<0.1 ppm). Se le concentrazioni di ozono residue sono entro i limiti di legge, il personale non può lavorare in quell'ambiente.
 
-Monitorare la durata della sanificazione con ozono per garantire che sia sufficiente ma non troppo lunga.
+Seguendo questi consigli, è possibile garantire che il processo di sanificazione con ozono sia efficace e sicuro.
 
-Controllare regolarmente la qualità dell'ozono utilizzato per la sanificazione.
+Per concludere questa sezione, ecco alcuni consigli utili per avere una sanificazione ad ozono efficace e sicura...
 
-Assicurarsi che i materiali utilizzati nella sanificazione siano resistenti all'ozono e non vengano danneggiati dal processo di sanificazione.
+### Suggerimenti per garantire una corretta sanificazione con l'ozono
 
-Fornire formazione adeguata ai dipendenti per garantire che comprendano come monitorare e regolare la sanificazione con ozono.
+Anche se l'ozono è un ottimo disinfettante, divente inutile (o addirittura controproducente) se applicato scorrettamente (come tutte le altre tecnologie del resto).
 
-Mantenere un registro delle attività di sanificazione con ozono per garantire la conformità alle normative e per la tracciabilità del processo.
+Ecco quindi alcuni suggerimenti da seguire...
 
-Valutare periodicamente l'efficacia della sanificazione con ozono attraverso analisi microbiologiche del cibo trattato.
+Primo, ASSOLUTAMENTE assicurati che non ci siano persone, animali domestici e (possibilmente) piante all'intero dell'area da sanificare. L'ozono è dannoso per la salute se inalato in grandi quantità.
 
-Effettuare manutenzione regolare dei sistemi di sanificazione con ozono per garantirne il corretto funzionamento.
+Secondo, compra un generatore di ozono di alta qualità e segui le istruzioni del produttore per l'uso sicuro ed efficace. Purtroppo, di questi tempi, girano un sacco di generatori di ozono di importazione a basso costo che danno risultati alquanto scadenti. Quindi, sebbene il loro prezzo sia allettante, sono completamente inutili. Anzi, sono addirittura dannosi, in quanto fanno perdere fiducia alle aziende alimentari sull'efficacia di questa tecnologia.
 
+Terzo, i generatori di ozono si usurano nel tempo, proprio come qualsiasi altro tipo di macchinario. Di conseguenza, bisogna fare una manutenzione regolare, possibilmente ogni 1-2 anni. Questa manutenzione però, di solito, ha costi parecchio irrisori e non presenta un'ostacolo per le aziende.
 
+Ti consigliamo di far tesoro di questi consigli, perchè potrebbero far la differenza tra successo e fallimento.
 
-La sanificazione con ozono sta diventando rapidamente uno dei metodi più popolari per la sanificazione nell'industria alimentare. Questo perché l'ozono è un potente agente sanitizzante in grado di uccidere batteri, muffe e altri contaminanti. Tuttavia, è importante monitorare e regolare la sanificazione con ozono per garantirne l'efficacia. Ecco alcuni consigli per monitorare e regolare la sanificazione con ozono nell'industria alimentare.
+Per concludere, vediamo alcune problematiche comuni che potrebbero verificarsi durante la sanificazione, e come risolverle.
 
-Utilizzare sensori di ozono: i sensori di ozono sono un ottimo modo per monitorare i livelli di ozono nell'aria. Questi sensori possono avvisarti se i livelli di ozono sono troppo alti o troppo bassi. Ciò consente di regolare la quantità di ozono utilizzata per garantire che i livelli siano ottimali per la sanificazione.
-
-Monitorare la temperatura: la temperatura gioca un ruolo importante nella sanificazione con ozono. Se la temperatura è troppo bassa, l'ozono non sarà efficace. È importante monitorare la temperatura per garantire che sia nell'intervallo ottimale per la sanificazione con ozono.
-
-Regolare la quantità di ozono: a seconda del tipo di cibo da sanificare, potrebbe essere necessario regolare la quantità di ozono utilizzata. Se il cibo è particolarmente suscettibile alla contaminazione, potrebbe essere necessario utilizzare più ozono. Al contrario, se il cibo è meno suscettibile, potrebbe essere necessario utilizzare meno ozono.
-
-Monitorare la durata: anche la durata della sanificazione con ozono è importante. Se la durata è troppo breve, l'ozono potrebbe non essere efficace. Al contrario, se la durata è troppo lunga, l'ozono potrebbe essere troppo potente e causare danni al cibo. È importante monitorare la durata e regolarla di conseguenza.
-
-Seguendo questi consigli, è possibile garantire che il processo di sanificazione con ozono sia efficace e sicuro. Il monitoraggio e la regolazione della sanificazione con ozono sono essenziali per garantire che il cibo sia sicuro e privo di contaminanti.
-
-### Tips For Ensuring Proper Ozone Sanitization
-
-Ozone sanitization is becoming increasingly popular in the food industry as a way to reduce the risk of food-borne illnesses and maintain a safe, healthy environment for consumers. Proper ozone sanitization is essential for ensuring that food products are free from potentially harmful bacteria and other contaminants. Here are some tips for ensuring proper ozone sanitization:
-
-Follow the manufacturer�s instructions. Be sure to read the instructions that come with your ozone sanitization system and follow them to the letter. This will ensure that your system is operating correctly and efficiently.
-
-Monitor ozone levels. It is important to regularly monitor the ozone levels in your facility to make sure they are within the acceptable range. If the ozone levels are too high, it can be hazardous to your workers and customers.
-
-Use the right equipment. Make sure that you are using the right equipment for your ozone sanitization needs. This includes ozone generators, ozone monitors, and other necessary equipment.
-
-Maintain the equipment. Regularly inspect and maintain your ozone sanitization equipment to ensure it is working properly. This will help to extend the life of the equipment and ensure that it is functioning optimally.
-
-Follow safety protocols. Make sure that all safety protocols are followed when using ozone sanitization equipment. This includes wearing protective gear, such as gloves and masks, and properly ventilating the area.
-
-By following these tips, you can ensure that your ozone sanitization system is effective and safe for your employees and customers. Proper ozone sanitization is essential for maintaining a healthy, safe environment in the food industry.
-
-## Troubleshooting Ozone Sanitization
+## Risoluzione dei problemi della sanificazione con l'ozono
 
 Common Issues With Ozone Sanitization
 
