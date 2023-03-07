@@ -324,31 +324,25 @@ Ti consigliamo di far tesoro di questi consigli, perchè potrebbero far la diffe
 
 Per concludere, vediamo alcune problematiche comuni che potrebbero verificarsi durante la sanificazione, e come risolverle.
 
-## Risoluzione dei problemi della sanificazione con l'ozono
+## Problemi della sanificazione con l'ozono
 
-Common Issues With Ozone Sanitization
+### Lista dei problemi comuni della sanificazione con l'ozono
 
-Ozone sanitization is becoming increasingly popular in the food industry as a way to reduce the risk of foodborne illnesses. Ozone sanitization is a process that uses ozone gas to kill bacteria, viruses, and other pathogens on food surfaces and in food processing environments. While ozone sanitization is a powerful tool for food safety, it is not without its issues. In this blog, we will discuss some of the common issues with ozone sanitization.
+Anche l'ozono, come tutte le altre tecnologie, non è una soluzione infallibile per il 100% dei casi.
 
-One of the main issues with ozone sanitization is that it can be difficult to measure and control the concentration of ozone being used. Ozone is a powerful oxidant, and if the concentration is too high, it can damage food surfaces and equipment. It is important to use the correct concentration of ozone to ensure that it is effective at killing pathogens without causing damage.
+Ecco una lista di alcune difficoltà che potresti incontrare nel momento in cui decidi di implementare un sistema di sanificazine ad ozono:
 
-Another issue with ozone sanitization is that it is not effective against all types of pathogens. Ozone is effective at killing bacteria and viruses, but it is not effective against some foodborne parasites, such as protozoa. If these parasites are present in a food processing environment, other methods of sanitization must be used.
+L'ozono non è efficace contro tutti i patogeni: sebbene l'ozono elimini la stragrande maggioranza dei patogeni, ci sono alcune eccezioni. Quindi, è sempre bene valutare con un esperto se l'ozono è giusto per te o no.
 
-Finally, ozone sanitization can be expensive. Ozone generators and other equipment used in the process can be expensive to purchase and maintain. Additionally, the process can be labor-intensive, as it requires careful monitoring and control of the ozone concentration.
-While ozone sanitization can be an effective tool for food safety, it is important to be aware of the common issues associated with it. Careful monitoring and control of the ozone concentration is essential to ensure the process is effective and safe. Additionally, other methods of sanitization may need to be used if certain foodborne parasites are present.
+L'ozono non è facile da monitorare: la verità è che la maggior parte dei sensori di ozono economici (quelli che costano poche centinaia di euro) danno misurazioni approssimative. Nella maggior parte delle applicazione dell'indutria alimentare, la precisione di queste misurazioni è sufficiente per monitorare correttamente il processo di sanificazione. Ma in altri casi, sono necessari sensori più precisi (che possono costare anche qualche migliaia di euro).
 
-How To Fix Common Issues With Ozone Sanitization
+L'ozono può avere costi iniziali elevati: per produrre ozono, è necessario acquistare un generatore di ozono. Detto questo, l'investimento di un generatore di ozono di alta qualità progettato per l'uso industriale è di qualche migliaia di euro, al contrario dei generatori di ozono di importazione che costano solo qualche centinaia di euro (i quali però sono di bassa qualità e quasi mai danno i risultati sperati). Assicurati quindi di non farti truffare quando acquisti un generatore di ozono.
 
-Ozone sanitization is an increasingly popular method for food industry professionals to keep their facilities clean and safe. While ozone sanitization can be an effective tool for food safety, there are some common issues that can arise with its use. In this blog post, we’ll discuss how to fix some of the most common issues associated with ozone sanitization in the food industry.
+L'ozono può intaccare le proprietà organolettiche degli alimenti: l'ozono può influenzare le proprietà organolettiche degli alimenti, come il gusto e l'odore se utilizzato scorrettamente. Un esempio classico è quello dei salumi, i quali possono diventare rancidi se esposti ad un sovradosaggio di ozono, visto che l'ozono in eccesso ossida i lipidi della carne.
 
-First, it’s important to understand the basics of ozone sanitization. Ozone is a powerful oxidant that is used to kill bacteria, mold, and other microorganisms in the air and on surfaces. Ozone sanitization is a process of releasing ozone into the air or onto surfaces to kill these microorganisms.
+L'ozono non può essere respirato da persone o animali: lo abbiamo già detto ma vale la pena ripeterlo. L'ozono è un gas tossico che può essere pericoloso per il personale se inalato in quantità elevate. Questo significa che non deve esserci personale all'interno dell'ambiente da trattare mentre il processo di sanificazione stesso è in atto (questo vale solo se viene utilizzato l'ozono in forma gassosa, e non acquosa). Quindi questo può rappresentare una grossa sfida per quelle aziende che hanno una produzione a ciclo continuo. 
 
-One of the most common issues with ozone sanitization is that it can be difficult to control the amount of ozone released into the air. If too much ozone is released, it can cause respiratory irritation and other health issues. To fix this issue, food industry professionals should use an ozone generator with an adjustable output. This will allow them to adjust the amount of ozone released into the air to ensure that it is safe for their employees and customers.
-
-Another common issue with ozone sanitization is that it can cause corrosion of metals and other materials. To fix this issue, food industry professionals should use ozone-resistant materials in their ozone sanitization systems. Additionally, they should regularly inspect their ozone sanitization systems to ensure that they are not causing any corrosion.
-Finally, ozone sanitization systems can be expensive to install and maintain. To fix this issue, food industry professionals should look for ways to reduce their costs. This could include using ozone generators with longer lifespans, using ozone-resistant materials, and using an ozone generator with an adjustable output.
-
-By following these tips, food industry professionals can ensure that their ozone sanitization systems are working effectively and safely. If you have any questions about ozone sanitization, it’s important to speak to an expert to ensure that you are using the best practices for your facility.
+Questo è quanto. Ora, proviamo a tirare le somme...
 
 Conclusion
 
