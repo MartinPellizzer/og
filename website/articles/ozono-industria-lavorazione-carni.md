@@ -1,3 +1,17 @@
+Sempre più carne richiesta e sempre più difficile soddisfare gli standard qualitativi richiesti.
+
+Come fare?
+
+Secondo un rapporto del Global Meat Market Outlook 2020-2025 di Mordor Intelligence, il mercato globale della carne dovrebbe raggiungere i 7,3 trilioni di dollari entro il 2025. Ancora, l'Organizzazione per la Cooperazione e lo Sviluppo Economico (OCSE) prevede che la domanda mondiale di carne crescerà del 16% tra il 2016 e il 2026. Infine, un rapporto dell'Ufficio Agricolo degli Stati Uniti (USDA) prevede che la produzione mondiale di carne aumenterà del 15% entro il 2030 rispetto ai livelli del periodo precedente alla pandemia COVID-19.
+
+Le prospettive per le aziende produttrici di carne sono molto positive.
+
+Ma, purtroppo, non è tutto oro quello che luccica.
+
+Allo stesso tempo, l'utilizzo dei disinfettanti chimici indispensabili per la produzione e la commercializzation dei prodotti a base di carne viene sempre più scoraggiato (se non addirittura vietato). I vari enti responsabili in materia di salute dei consumatori e di protezione dell'ambiente stanno rimuovendo dal mercato sempre più prodotti chimici anno dopo anno. Il tutto, senza dare valide altrenative alle aziende di lavorazione carni.
+
+Vediamo quindi in questo articolo come viene utilizzare l'ozono nell'industria della lavorazione carni in sostituzione ai prodotti chimici.
+
 ## 1. Disinfezione dell'attrezzatura per la lavorazione della carne con l'ozono
 Nell'industria di lavorazione della carne, la pulizia è cruciale per garantire un prodotto sicuro e di alta qualità. Uno strumento potente per disinfettare le attrezzature è l'ozono.
 
