@@ -5,15 +5,147 @@ Sebbene l’industria chimica aveva detto che era impossibile, e aveva provato a
 ionizzatori e uv
 
 ## problema
-consumatori non vogliono piu prodotti imbottiti di residui chimici.
-lista di malattie causate dai prodotti chimici (da irritazione pelle a cancro) statistiche
-le autorita nazionali eliminano, diminuiscono e scoraggiano sempre piu l'utilizzo dei prodotti chimici
-le aziende farmaceutiche sono costrette a diminuire i principi attivi dei prodotti chimici
-i prodotti chimici diventano sempre piu inefficaci
-le aziende intensificano i trattamenti con acqua calda e vapore, ma a causa dell'incremento dei costi energetici diventa insostenibile
-necessità di trovare un sistema di sanificazione efficacie, ecologico, e economico
-l'ozono è la migliore alternativa al momento
 
+### outline
+// consumatori non vogliono piu prodotti imbottiti di residui chimici.
+
+1. elenco richiami alimentari per problemi di sicurezza alimentare
+2. lista di malattie causate dai prodotti chimici (da irritazione pelle a cancro) statistiche
+3. le autorita nazionali eliminano, diminuiscono e scoraggiano sempre piu l'utilizzo dei prodotti chimici
+4. le aziende farmaceutiche sono costrette a diminuire i principi attivi dei prodotti chimici
+5. i prodotti chimici diventano sempre piu inefficaci
+6. le aziende intensificano i trattamenti con acqua calda e vapore, ma a causa dell'incremento dei costi energetici diventa insostenibile
+7. necessità di trovare un sistema di sanificazione efficacie, ecologico, e economico
+8. l'ozono è la migliore alternativa al momento
+
+### copy
+se sei ...
+
+ma prima, ecco il problema:
+
+2. i disinfettanti chimici causano problemi da semplici irritazioni agli occhi fino a cancro. In fatti, secondo una statistica fatta dalla world health organization... 
+
+
+
+## lista problemi di salute a causa dei disinfettanti chimici
+1. Chemical residue: If chemical sanitizers are not properly rinsed off surfaces or items used for food preparation and handling, they can leave dangerous residues that can contaminate the food.
+2. Allergic reactions: Some people may be allergic to certain chemicals used in sanitizers such as chlorine or quaternary ammonium compounds (QUATs) which can cause skin irritation, respiratory issues, and other health problems.
+3. Eye and skin irritation: Exposure to some types of chemical sanitizers such as bleach or hydrogen peroxide can cause eye and skin irritation if proper precautions are not taken.
+4. Chemical burns: Improper use of strong chemical sanitizers like sodium hydroxide (lye), potassium hydroxide (potash), or phosphoric acid can result in severe burns to the skin and eyes.
+5. Overuse: Overuse of chemical sanitizers can lead to a buildup of harmful chemicals on surfaces which increases the risk of contamination through cross-contamination by contact with other foods.
+6. Environmental impact: Chemical disinfectants also pose environmental risks when they enter waterways after being washed down drains because they may affect aquatic life causing long-term damage to ecosystems over time.
+
+1. Skin irritation
+2. Eye irritation
+3. Respiratory issues 
+4. Digestive issues 
+5. Allergic reactions 
+6. Chemical burns
+7. Poisoning 
+8. Increased risk of cancer
+9. Hormonal imbalances
+10. Birth defects (if exposed during pregnancy)
+11. Impaired immune system function
+
+
+in 2021 it was still approximately 35 million tonnes below the pre-crisis peak in 2007.
+
+## lista prodotti chimici utilizzati
+
+
+1. Handwashing - Washing hands with soap and water for at least 20 seconds before handling food or after using the bathroom.
+2. Surface cleaning - Sanitizing surfaces that come into contact with food, such as countertops, cutting boards, and utensils.
+3. Heat treatment - Cooking or baking foods to kill bacteria and other harmful microorganisms.
+4. Chemical sanitization - Using chemicals like chlorine bleach or quaternary ammonium compounds to sanitize equipment and surfaces.
+5. Ultraviolet light treatment - Using UV-C light to kill bacteria on surfaces in a quick process.
+6. Sterilization by steam cleaning: This method is commonly used in the dairy industry where milk pipelines are sterilized through the use of high-temperature steam.
+7. Pasteurization – Using heat treatments to destroy pathogenic organisms present in liquid products such as milk, juice, beer , etc., while retaining its flavor
+8. Irradiation of foods – Applying ionizing radiation from gamma rays or X-rays to eliminate spoilage organisms while preserving quality attributes of foods 
+9. Ozone sanitisation : Ozone gas is a powerful disinfectant agent which can be used for sanitation purposes in industries involved in producing packaged drinking water.
+10. Electrolyzed Water Sanitation: Electrolyzed water is produced when saltwater passes over an electrically charged electrode causing it's pH level altered making it highly effective against microbes without leaving any residues behind
+
+## disinfettanti chimici -----------------------------------------------
+
+### lista --------------------------------------------------------------
+1. Chlorine-based sanitizers - cloroderivati
+2. Quaternary ammonium compounds (QACs) - quaternati d'ammonio
+3. Hydrogen peroxide
+4. Peracetic acid
+5. Iodophors
+6. Acid-anionic sanitizers 
+7. Phenolic sanitizers 
+8. Alkyl dimethyl benzyl ammonium chloride (ADBAC) 
+9. Sodium hypochlorite 
+10. Potassium permanganate
+
+### problemi -----------------------------------------------------------
+residui
+salute lavoratori
+ambiente
+resistenza
+deterioramento strumenti
+incompatibilita materiali
+utilizzo scorretto
+costo
+
+1. Chemical residue on food surfaces: If chemical sanitizers are not properly rinsed off, they can leave a residue that may be harmful to humans if ingested.
+2. Health risks for workers: Workers who handle and apply chemical sanitizers are at risk of exposure through inhalation or skin contact which can cause skin irritation, respiratory issues, or other health problems.
+3. Environmental concerns: Some chemicals used in sanitizing agents like quaternary ammonium compounds (QACs) and chlorine bleach have been linked to environmental pollution when discharged into water systems.
+4. Resistance development: Overuse of some chemical disinfectants has led to the development of resistant bacteria strains that are difficult to eliminate with traditional methods.
+5. Deterioration of equipment: Harsh chemicals used as sanitizers can corrode and damage food production equipment over time leading to costly repairs or replacement.
+6. Incompatibility with certain materials: Certain types of plastic or rubber materials used in food processing equipment may break down when exposed to certain chemical sanitizers causing contamination in products being produced.
+7. Misuse by employees: Improper use of chemical sanitizer solutions by employees due to lack of training or knowledge could lead to ineffective cleaning practices resulting in microbial growth on processed foods leading up-to recalls & litigation troubles for organizations 
+8. Costly: Chemical sanitation products have an ongoing cost associated with them which makes it expensive for small scale industries
+
+
+### problemi ammoniaca --------------------------------------------------
+However, some possible health issues that can arise from exposure to chlorine-based sanitizers include **skin irritation, eye irritation and damage, respiratory problems such as asthma exacerbation or bronchitis, gastrointestinal symptoms like nausea or vomiting** if ingested accidentally. It is important to use these products according to the instructions provided by the manufacturer and in a well-ventilated area. If you experience any adverse reactions after using a chlorine-based sanitizer, seek medical attention immediately.
+
+Additionally, exposure to high levels of chlorine gas can lead to severe respiratory distress and even death. **Prolonged inhalation or skin contact with chlorine-based sanitizers may cause chemical burns, blistering, and tissue damage. Chlorine-based sanitizers can also react with organic matter such as sweat, urine or feces to form harmful disinfection byproducts (DBPs) like trihalomethanes (THMs), haloacetic acids (HAAs), and chloramines. These DBPs have been linked to an increased risk of cancer, reproductive disorders, and developmental problems in children.**
+
+Excessive use of chlorine-based sanitizers in swimming pools can cause irritation of the eyes, nose, throat or skin due to the accumulation of chloramines. Ingestion of small amounts of chlorine-based sanitizers may result in abdominal pain, nausea, vomiting and diarrhea.
+
+Individuals who are allergic to chlorine or have a history of asthma should avoid using these products altogether or wear protective gear while handling them. **Pregnant women should also limit their exposure to chlorine-based sanitizers since there is evidence linking prenatal exposure with adverse birth outcomes like low birth weight and preterm delivery.**
+
+Lastly, improper storage or mixing of different types of bleach products can generate toxic fumes that pose serious health risks for individuals nearby. Always store bleach products in cool dry places away from heat sources and never mix them with other cleaning agents without first checking compatibility information on product labels.
+
+
+
+### cancro --------------------------------------------------------------
+world health organization
+    Cancer is a leading cause of death worldwide, accounting for nearly 10 million deaths in 2020, or nearly one in six deaths.
+    Tobacco use, alcohol consumption, unhealthy diet, physical inactivity and air pollution are risk factors for cancer and other noncommunicable diseases.
+    Some chronic infections are risk factors for cancer; this is a particular issue in low- and middle-income countries.
+
+
+
+## pesticidi ------------------------------------------------------------
+More recently, the initiative ‘Save
+bees and farmers! Towards a bee-friendly agriculture for a healthy environment’ calls
+on the Commission ‘to propose legal acts to phase out synthetic pesticides in EU
+agriculture by 80% by 2030, starting with the most hazardous, and to become free of
+synthetic by 2035.’ The initiative has collected over 1 million statements of support by
+30 September 2021 which are currently being verified by Member States authorities.
+
+The Commission Communication entitled ‘the European Green Deal’
+13 set out a
+roadmap of key measures, including legislative, to significantly reduce the use and risk
+of chemical pesticides. In the Farm to Fork Strategy14, EU Biodiversity Strategy for
+203015 and the Zero Pollution Action Plan16, the Commission committed to take action
+to reduce by 50% the overall use and risk from chemical pesticides by 2030 and
+reduce by 50% the use of more hazardous pesticides (plant protection products
+containing one or more active substances approved as candidates for substitution in
+accordance with Article 24 of Regulation (EC) No 1107/2009 of the European
+Parliament and of the Council17 and listed in Part E of the Annex to Commission
+Implementing Regulation (EU) No 540/201118, or containing one or more active
+substances listed in the Annex to Commission Implementing Regulation (EU)
+2015/40819) by 2030. The sustainable use of plant protection products is also
+complementary to the promotion of organic farming and achieving the Farm to Fork
+Strategy target of at least 25% of the Union’s agricultural land under organic farming
+by 2030. It supports the objectives of the EU strategic framework on health and safety
+at work20 and thereby contributes to the implementation of principle 10 of the
+European Pillar of Social Rights on a healthy, safe and well-adapted work
+environment.
 
 
 ## sistemi tradizionali
@@ -72,6 +204,7 @@ Ozone technology allows disinfection of challenging applications and products pr
 Diminishing fresh water supplies and sustainability goals lead to new operational challenges, while rising concerns of food safety require even more stringent and vigilant plant sanitation processes.
 The beverage industry faces numerous economic, societal, market, and environmental challenges, including the rise in costs of energy and ingredients. 
 A look at the use of ozone within the beverage, food and pharmaceutical industries highlights the benefits that ozone can provide in reduced water consumption, energy and downtime.
+
 
 
 Alcuni prodotti chimici sottostanno a divieti e limitazioni particolari a causa della loro pericolosità o dei rischi inaccettabili connessi alla loro utilizzazione. 
