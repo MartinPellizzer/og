@@ -19,12 +19,33 @@ ionizzatori e uv
 8. l'ozono è la migliore alternativa al momento
 
 ### copy
-se sei ...
+Se sei un'azienda alimentare e vuoi eliminare batteri, muffe, e insetti dai tuoi prodotti in modo ecologico così da ridurre gli sprechi, evitare che il tuo prodotto venga ritirato dal mercato, e migliorare la tua reputazione aziendale, continua a leggere perchè la soluzione è a portata di mano.
 
-ma prima, ecco il problema:
+Ma prima, ecco il problema:
+
+A causa dei continui reclami da parte dei consumatori, i quali vogliono cibi sempre più "bio" e additivi alimentare sempre più "green", i vari enti nazionali stanno adottando regole sempre piu restrittive per quanto riguarda l'utilizzo di disinfettanti chimici.
+
+Infatti, molti disinfettanti chimici sono gia stati limitati, mentre altri verranno addirittura **eliminati dal mercato.** a causa della loro pericolosità.
+
+Per esempio, molti disinfettanti chimici utilizzati dalle aziende alimentari (come i cloroderivati e i quaternati d'ammonio) possono provocare problemi di salute che variano dai meno gravi (come allergie) ai piu gravi (come il cancro).
+
+Infatti, secondo una statistica fatta dalla World Health Organization, una delle cause maggiori di cancro è l'inquinamento ambientale e alimentare, causato in parte anche dai prodotti chimici. Cancro che, come ricordiamo, fa circa 10 milioni di morti annue.
+
+
+I disinfettanti chimici a base di cloro, per esempio, possono reagire con diverse materie organiche per formare sottoprodotti di disinfezione dannosi (DBP), i quali sono stati collegati a un aumento del rischio di cancro, disturbi riproduttivi e problemi di sviluppo nei bambini.
+
+C'è quindi da stupirsi se i vari enti nazionali vogliono mettere un freno a tutto questo?
+
+Ma c'è di peggio ...
+
+L'industria chimica, per poter essere conforme ai nuovi regolameti (e quindi per non perdere profitto), sta cominciato a produrre disinfettanti chimici sempre piu "leggeri". Purtroppo però questi prodotti stanno dimostrando una totale inefficacia nell'eliminare molti tipi di microrganismi patogeni negli alimenti. Per questo motivo, molte aziende si vedono ritirare dal mercato i loro prodotti alimentari a seguito di controlli sanitari da parte dell'ULSS, con conseguente perdita di fatturato e di reputazione.
+
+Per questo motivo, è necessario che le aziende alimentari comincino ad utilizzare un nuovo sistema di sanificazione che sia efficace ed ecologico allo stesso tempo.
+
+Ora piu che mai.
+
 
 2. i disinfettanti chimici causano problemi da semplici irritazioni agli occhi fino a cancro. In fatti, secondo una statistica fatta dalla world health organization... 
-
 
 
 ## lista problemi di salute a causa dei disinfettanti chimici
