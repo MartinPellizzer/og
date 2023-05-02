@@ -1,8 +1,52 @@
+Doveva succedere...
+
+I consumatori vogliono cibi sempre più "bio" e additivi alimentare sempre più "green". Il parlamento Europeo minaccia di ridurre del 50% il consumo di pesticidi entro il 2030. Le aziende chimiche stanno riducendo i principi attivi dei loro disinfettanti per rimanere conformi ai regolamenti sempre piu stringenti in materia di salute umana e ambientale. E questo è solo l'inizio.
+
+Una guerra ai prodotti chimici è iniziata.
+
+E i primi a rimetterci sono le aziende alimentari, le quali si vedono ritirare dal mercato i loro prodotti, uno ad uno. Aziende di produzione di carne, pesce, frutta e verdura, latticini, e persino acqua. Nessuno escluso.
+
+Prodotti ritirati per problemi di listeria, salmonella, ed e. coli. Altri invece ritirati per i troppi residui di pesticidi, allergeni, e altre contaminazioni chimiche. La lista è infinita.
+
+Se sei il titolare di un'azienda alimentare, sai di cosa stiamo parlando.
+
+Ma come uscirne?
+
+Molti stanno provando sistemi di sanificazione ad acqua calda e vapore, ma il costo sulla bolletta gli sta mettendo in ginocchio. Altri stanno provando strane polveri bianche raccomandate dall'ULSS, con risultati tragici ed interi lotti di prodotto buttati via. Altri, in preda alla disperazione, stanno provando i classici "rimedi della nonna" (come l'aceto), ma niente da fare, neanche la nonna sembra aiutare. 
+
+Nulla sembra funzionare.
+
+Nulla eccetto una ristretta lista di nuove tecnologie, le quali stanno velocemente prendendo piede nel mercato. Una tra tutte, l'ozono...
+
+
+
+
+Ma questa è solo la punta dell'iceberg.
+
 
 Come sanificare i tuoi prodotti alimentari in modo efficace senza utilizzare pericolosi disinfettanti chimici.
 Sebbene l’industria chimica aveva detto che era impossibile, e aveva provato a scoraggiare l’idea in ogni modo, migliaia di aziende alimentari adesso riescono a sanificare i loro prodotti alimentari da batteri, virus, muffe, e altri agenti patogeni in maniera totalmente ecologica.
 
 ionizzatori e uv
+
+
+
+
+Doveva succedere.
+
+I consumatori vogliono cibi sempre più "bio" e additivi alimentare sempre più "green". Il parlamento Europeo minaccia di ridurre del 50% il consumo di pesticidi entro il 2030. Le aziende chimiche stanno riducendo i principi attivi dei loro disinfettanti per rimanere conformi ai regolamenti sempre piu stringenti in materia di salute umana e ambientale. E questo è solo l'inizio.
+
+Una guerra ai prodotti chimici è iniziata.
+
+E i primi a rimetterci sono le aziende alimentari, le quali si vedono ritirare dal mercato i loro prodotti, uno ad uno. Aziende di produzione di carne, pesce, frutta e verdura, latticini, e persino acqua. Nessuno escluso. Prodotti ritirati per problemi di listeria, salmonella, ed e. coli. Altri invece ritirati per i troppi residui di pesticidi, allergeni, e altre contaminazioni chimiche. La lista è infinita.
+
+Ma come uscirne?
+
+Molti stanno provando sistemi di sanificazione ad acqua calda e vapore, ma il costo sulla bolletta gli sta mettendo in ginocchio. Altri stanno provando strane polveri bianche raccomandate dall'ULSS, con risultati tragici ed interi lotti di prodotto buttati via. Altri, in preda alla disperazione, stanno provando i classici "rimedi della nonna" (come l'aceto), ma niente da fare, neanche la nonna sembra aiutare.
+
+Nulla sembra funzionare.
+
+Nulla eccetto una ristretta lista di nuove tecnologie, le quali stanno velocemente prendendo piede nel mercato. Una tra tutte, l'ozono...
 
 ## problema
 

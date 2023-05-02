@@ -1,0 +1,325 @@
+import subprocess
+import tkinter
+from fpdf import FPDF
+
+cell_w_base = 49
+cell_w_4 = cell_w_base * 4
+cell_w_3 = cell_w_base * 3
+cell_w_2 = cell_w_base * 2
+cell_w_1 = cell_w_base * 1
+
+agent_name = ''
+
+call_date = ''
+appointment_date = ''
+business_name = ''
+business_address = ''
+business_contact = ''
+business_phone = ''
+business_email = ''
+
+problem = ''
+product_type = ''
+product_quantity = ''
+cells_number = ''
+cells_size = ''
+working_hours = ''
+
+notes_text = ''
+
+def demo_pdf():
+    pdf.set_font('helvetica', 'B', 24)
+    pdf.cell(0, 10, 'Scheda Appuntamento Salumificio', align='L')
+    pdf.set_font('helvetica', size=12)
+    pdf.cell(0, 10, '20/01/1990 - 09:30', align='R')
+    pdf.ln(20)
+
+    pdf.cell(cell_w_1, 10, 'Nome Agente', border=True)
+    pdf.cell(0, 10, 'Gino Panino', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Data Appuntamento', border=True)
+    pdf.cell(0, 10, '30/01/1990 - 16:15', border=True)
+    pdf.ln(20)
+
+    pdf.cell(cell_w_1, 10, 'Nome Azienda', border=True)
+    pdf.cell(0, 10, 'Salamificio Pino SRL', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Indirizzo Azienda', border=True)
+    pdf.cell(0, 10, 'Via Terraglio, 144, 31100 Treviso TV', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Nome Contatto', border=True)
+    pdf.cell(0, 10, 'Ciccio Pasticcio', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Telefono', border=True)
+    pdf.cell(0, 10, '+39 0423-1234567', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Email', border=True)
+    pdf.cell(0, 10, 'cicciopasticcio@gmail.com', border=True)
+    pdf.ln(20)
+
+    pdf.cell(cell_w_1, 10, 'Problema', border=True)
+    pdf.cell(0, 10, 'Muffe, Acari', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Tipo Prodotto', border=True)
+    pdf.cell(0, 10, 'Salame, Prosciutto, Speck', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Quantita Prodotto', border=True)
+    pdf.cell(0, 10, '100 x sala', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Numero Sale', border=True)
+    pdf.cell(0, 10, '3', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Dimensione Sale', border=True)
+    pdf.cell(0, 10, '100 m3', border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Orario Lavoro', border=True)
+    pdf.cell(0, 10, '07:00 - 21:00', border=True)
+    pdf.ln(20)
+
+def export_pdf():
+    global agent_name
+
+    global call_date
+    global appointment_date
+    global business_name
+    global business_address
+    global business_contact
+    global business_phone
+    global business_email
+
+    global problem
+    global product_type
+    global product_quantity
+    global cells_number
+    global cells_size
+    global working_hours
+
+    global notes_text
+
+    agent_name = agent_name_entry.get()
+
+    appointment_date = appointment_date_entry.get()
+    call_date = call_date_entry.get()
+    business_name = business_name_entry.get()
+    business_address = business_address_entry.get()
+    business_contact = business_contact_entry.get()
+    business_phone = business_phone_entry.get()
+    business_email = business_email_entry.get()
+
+    problem = problem_entry.get()
+    product_type = product_type_entry.get()
+    product_quantity = product_quantity_entry.get()
+    cells_number = cells_number_entry.get()
+    cells_size = cells_size_entry.get()
+    working_hours = working_hours_entry.get()
+
+    notes = notes_text.get("1.0", tkinter.END)
+
+    pdf = FPDF('P', 'mm', 'Letter')
+
+    # pdf.alias_nb_pages()
+
+    # pdf.set_auto_page_break(auto=True, margin=15)
+
+    pdf.add_page()
+
+    pdf.set_text_color(0, 0, 0)
+
+    pdf.set_font('helvetica', 'B', 24)
+
+    pdf.cell(0, 10, 'Scheda Appuntamento Salumificio', align='L')
+    pdf.set_font('helvetica', size=12)
+    pdf.cell(0, 10, call_date, align='R')
+    pdf.ln(20)
+
+    pdf.cell(cell_w_1, 10, 'Nome Agente', border=True)
+    pdf.cell(cell_w_3, 10, agent_name, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Data Appuntamento', border=True)
+    pdf.cell(cell_w_3, 10, appointment_date, border=True)
+    pdf.ln(20)
+
+    pdf.cell(cell_w_1, 10, 'Nome Azienda', border=True)
+    pdf.cell(cell_w_3, 10, business_name, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Indirizzo Azienda', border=True)
+    pdf.cell(cell_w_3, 10, business_address, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Nome Contatto', border=True)
+    pdf.cell(cell_w_3, 10, business_contact, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Telefono', border=True)
+    pdf.cell(cell_w_3, 10, business_phone, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Email', border=True)
+    pdf.cell(cell_w_3, 10, business_email, border=True)
+    pdf.ln(20)
+
+    pdf.cell(cell_w_1, 10, 'Problema', border=True)
+    pdf.cell(cell_w_3, 10, problem, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Tipo Prodotto', border=True)
+    pdf.cell(cell_w_3, 10, product_type, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Quantita Prodotto', border=True)
+    pdf.cell(cell_w_3, 10, product_quantity, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Numero Sale', border=True)
+    pdf.cell(cell_w_3, 10, cells_number, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Dimensione Sale', border=True)
+    pdf.cell(cell_w_3, 10, cells_size, border=True)
+    pdf.ln()
+    pdf.cell(cell_w_1, 10, 'Orario Lavoro', border=True)
+    pdf.cell(cell_w_3, 10, working_hours, border=True)
+    pdf.ln(20)
+
+    # agent-only related field
+
+    '''
+    pdf.cell(header_cell_w, 10, 'Struttura Sale', border=True)
+    # pdf.cell(0, 10, '07:00 - 21:00', ln=True, border=True)
+    pdf.cell(content_cell_w*3, 10, '', ln=True, border=True)
+
+    pdf.cell(header_cell_w, 10, 'Sistema Controllo T/H', border=True)
+    # pdf.cell(0, 10, '07:00 - 21:00', ln=True, border=True)
+    pdf.cell(content_cell_w*3, 10, '', ln=True, border=True)
+    pdf.ln(10)
+    '''
+
+
+    pdf.cell(cell_w_1, 10, 'Note Aggiuntive')
+    pdf.ln()
+    pdf.multi_cell(cell_w_4, 10, notes, border=True)
+    pdf.ln()
+
+    pdf.output('report.pdf')
+
+    subprocess.Popen('report.pdf', shell=True)
+
+
+window = tkinter.Tk()
+window.geometry('600x600')
+window.title('Scheda Appuntamento Salumificio')
+window.resizable(False, False)
+
+
+padding_bottom = 20
+i = 0
+sticky = 'W'
+
+header_frame = tkinter.Frame(window)
+header_frame.grid(row=i, column=0, padx=10, pady=10, sticky=sticky)
+call_date_label = tkinter.Label(window, text='Data Chiamata:')
+call_date_label.grid(row=i, column=0, pady=(0, padding_bottom), sticky=sticky)
+call_date_entry = tkinter.Entry(window, width=50)
+call_date_entry.grid(row=i, column=1, pady=(0, padding_bottom), sticky=sticky)
+i += 1
+
+agent_frame = tkinter.Frame(window)
+agent_frame.grid(row=i, column=0, padx=10, pady=10, sticky=sticky)
+
+agent_name_label = tkinter.Label(window, text='Nome Agente:')
+agent_name_label.grid(row=i, column=0, sticky=sticky)
+agent_name_entry = tkinter.Entry(window, width=50)
+agent_name_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+appointment_date_label = tkinter.Label(window, text='Data Appuntamento:')
+appointment_date_label.grid(row=i, column=0, pady=(0, padding_bottom), sticky=sticky)
+appointment_date_entry = tkinter.Entry(window, width=50)
+appointment_date_entry.grid(row=i, column=1, pady=(0, padding_bottom), sticky=sticky)
+i += 1
+
+
+appointment_frame = tkinter.Frame(window)
+appointment_frame.grid(row=i, column=0, padx=10, pady=10, sticky=sticky)
+
+business_name_label = tkinter.Label(window, text='Nome Azienda:')
+business_name_label.grid(row=i, column=0, sticky=sticky)
+business_name_entry = tkinter.Entry(window, width=50)
+business_name_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+business_address_label = tkinter.Label(window, text='Indirizzo Azienda:')
+business_address_label.grid(row=i, column=0, sticky=sticky)
+business_address_entry = tkinter.Entry(window, width=50)
+business_address_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+business_contact_label = tkinter.Label(window, text='Nome Contatto:')
+business_contact_label.grid(row=i, column=0, sticky=sticky)
+business_contact_entry = tkinter.Entry(window, width=50)
+business_contact_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+business_phone_label = tkinter.Label(window, text='Phone:')
+business_phone_label.grid(row=i, column=0, sticky=sticky)
+business_phone_entry = tkinter.Entry(window, width=50)
+business_phone_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+business_email_label = tkinter.Label(window, text='Email:')
+business_email_label.grid(row=i, column=0, pady=(0, padding_bottom), sticky=sticky)
+business_email_entry = tkinter.Entry(window, width=50)
+business_email_entry.grid(row=i, column=1, pady=(0, padding_bottom), sticky=sticky)
+i += 1
+
+
+
+technical_frame = tkinter.Frame(window)
+technical_frame.grid(row=i, column=0, padx=10, pady=10, sticky=sticky)
+
+problem_label = tkinter.Label(window, text='Problema:')
+problem_label.grid(row=i, column=0, sticky=sticky)
+problem_entry = tkinter.Entry(window, width=50)
+problem_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+product_type_label = tkinter.Label(window, text='Tipo Prodotto:')
+product_type_label.grid(row=i, column=0, sticky=sticky)
+product_type_entry = tkinter.Entry(window, width=50)
+product_type_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+product_quantity_label = tkinter.Label(window, text='Quantita Prodotto:')
+product_quantity_label.grid(row=i, column=0, sticky=sticky)
+product_quantity_entry = tkinter.Entry(window, width=50)
+product_quantity_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+cells_number_label = tkinter.Label(window, text='Numero Sale:')
+cells_number_label.grid(row=i, column=0, sticky=sticky)
+cells_number_entry = tkinter.Entry(window, width=50)
+cells_number_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+cells_size_label = tkinter.Label(window, text='Dimensione Sale:')
+cells_size_label.grid(row=i, column=0, sticky=sticky)
+cells_size_entry = tkinter.Entry(window, width=50)
+cells_size_entry.grid(row=i, column=1, sticky=sticky)
+i += 1
+
+working_hours_label = tkinter.Label(window, text='Orario Sale:')
+working_hours_label.grid(row=i, column=0, pady=(0, padding_bottom), sticky=sticky)
+working_hours_entry = tkinter.Entry(window, width=50)
+working_hours_entry.grid(row=i, column=1, pady=(0, padding_bottom), sticky=sticky)
+i += 1
+
+
+
+notes_frame = tkinter.Frame(window)
+notes_frame.grid(row=i, column=0, padx=10, pady=10, sticky=sticky)
+
+notes_label = tkinter.Label(window, text='Note Aggiuntive:')
+notes_label.grid(row=i, column=0, sticky=sticky)
+i += 1
+notes_text = tkinter.Text(window, width=50, height=10)
+notes_text.grid(row=i, column=0, sticky=sticky, columnspan=2)
+i += 1
+
+pdf_button = tkinter.Button(text='Crea PDF', command=export_pdf)
+pdf_button.grid(row=i, column=0, columnspan=2)
+i += 1
+
+window.mainloop()
