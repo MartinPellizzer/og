@@ -1,3 +1,69 @@
+Perchè sanificare con l'ozono?​
+
+Elimina gli Agenti Patogeni​​
+L'ozono è un potente disinfettante. Elimina batteri, virus, muffe, funghi, lieviti e altri patogeni presenti nell'ambiente. È effecace andche a basse concentrazioni (1 PPM di ozono è già sufficiente ad eliminare il 98% dei patogeni).
+
+Non Lascia Residui Chimici​
+L'ozono sanifica prodotti e superfici senza lasciare residui chimici (al contrario di molti sistemi di sanificazione tradizionali). Questo è un grande vantaggio per le persone con sensibilità o allergie ai prodotti chimici e per quelle che esigono alimenti sempre piu bio.
+
+Rispetta l'Ambiente​
+L'ozono è un disinfettante naturale e non lascia residui tossici o dannosi nell'ambiente. Infatti si riconverte spontaneamente in ossigeno dopo poco tempo e quindi non deve essere smaltito (in ~20 minuti già il 50% di ozono si è riconvertito in ossigeno).
+
+Degrada i Pesticidi​
+L'ozono è utilizzato come pesticida ecologico per allontanare insetti ed eliminari i parassiti. Inoltre, degrada i residui dei pesticidi chimici presenti negli alimenti e promuove un'agricoltura sostenibile (2,0 mg/L di ozono sono sufficienti a degradare il 50% dei pesticidi residui nei cibi).
+
+Depura l'Acqua​
+L'ozono elimina le sostanze organiche presenti nell'acqua che causano odori e sapori sgradevoli. Inoltre, rimuove metalli pesanti come il ferro, il manganese e lo zinco, convertendoli in composti insolubili che vengono facilmente rimossi attraverso sedimentazione o filtrazione.
+
+Rispetta l'Ambiente​
+L'ozono è riconosciuto in Italia come presidio naturale per la sterilizzazione di ambienti contaminati da batteri, virus, spore, ecc. (prot. n. 24482 del 31 luglio 1996). È anche riconosciuto come GRAS dalla FDA Americana e da molti altri enti di regolamentazione in tutto il mondo.
+
+
+
+
+
+
+Protection from harmful UV radiation: Ozone in the Earth's atmosphere helps to absorb and filter out harmful ultraviolet radiation from the sun, which can cause skin cancer, cataracts, and other health problems.
+
+Air purification: Ozone is a powerful oxidant that can help to remove pollutants, bacteria, and viruses from the air. Ozone generators are commonly used in industrial and medical settings to purify air and disinfect surfaces.
+
+Water purification: Ozone can be used to disinfect water and remove impurities, including bacteria, viruses, and organic compounds. It is often used in municipal water treatment plants and in swimming pools and spas.
+
+Medical applications: Ozone therapy is a type of alternative medicine that uses ozone to treat various health conditions, such as infections, arthritis, and even cancer. Ozone is also used in dentistry to disinfect dental tools and in wound healing to promote tissue regeneration.
+
+Industrial applications: Ozone is used in a variety of industrial applications, including food processing, semiconductor manufacturing, and pulp and paper production. It can be used to disinfect surfaces, remove impurities from process water, and improve product quality.
+
+Agricultural applications: Ozone can be used to disinfect soil and water in agricultural settings, which can help to reduce the use of pesticides and improve crop yields.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Doveva succedere...
 
 I consumatori vogliono cibi sempre più "bio" e additivi alimentare sempre più "green". Il parlamento Europeo minaccia di ridurre del 50% il consumo di pesticidi entro il 2030. Le aziende chimiche stanno riducendo i principi attivi dei loro disinfettanti per rimanere conformi ai regolamenti sempre piu stringenti in materia di salute umana e ambientale. E questo è solo l'inizio.
