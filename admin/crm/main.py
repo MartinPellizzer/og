@@ -1,58 +1,36 @@
-from flask import Flask, render_template, url_for, flash, redirect
-from forms import RegistrationForm, LoginForm
-app = Flask (__name__)
-
-app.config['SECRET_KEY'] = 'd88ecef6c5e0f68a3d37202aa2aee45f'
-
-posts = [
-    {
-        'author': 'Martin 1',
-        'title': 'blog post 1',
-        'content': 'content 1',
-        'date_posted': 'april 21, 2018',
-    },
-    {
-        'author': 'Martin 2',
-        'title': 'blog post 2',
-        'content': 'content 2',
-        'date_posted': 'april 22, 2018',
-    },
-]
-
-
-@app.route("/")
-@app.route("/home")
-def home():
-    return render_template('home.html', posts=posts)
-
-
-@app.route("/about")
-def about():
-    return render_template('about.html', title='About')
-
-
-@app.route("/register", methods=['GET', 'POST'])
-def register():
-    form = RegistrationForm()
-    if form.validate_on_submit():
-        flash(f'Account created for {form.username.data}!', 'success')
-        return redirect(url_for('home'))
-    return render_template('register.html', title='Register', form=form)
-    
-
-@app.route("/login", methods=['GET', 'POST'])
-def login():
-    form = LoginForm()
-    if form.validate_on_submit():
-        if form.email.data == 'admin@blog.com' and form.password.data == '123':
-            flash('You have been logged in', 'success')
-            return redirect(url_for('home'))
-        else:
-            flash('login unsuccessful, check username and password', 'danger')
-
-    return render_template('login.html', title='Login', form=form)
-
-
+from flaskblog import app
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+
+
+
+# with app.app_context():
+#     db.session.query(User).delete()
+#     db.session.commit()
+
+#     user_1 = User(username='Martin', email='martinpellizzer@gmail.com', password='Newoliark1')
+#     db.session.add(user_1)
+#     user_2 = User(username='Elena', email='elenaceccato@gmail.com', password='Asia123')
+#     db.session.add(user_2)
+#     db.session.commit()
+
+# with app.app_context():
+#     user = User.query.first()
+#     post_1 = Post(title='Blog 1', content='first post content', user_id=user.id)
+#     post_2 = Post(title='Blog 2', content='second post content', user_id=user.id)
+#     db.session.add(post_1)
+#     db.session.add(post_2)
+#     db.session.commit()
+    
+# with app.app_context():
+#     user = User.query.first()
+#     print(user.posts)
+
+# with app.app_context():
+#     db.drop_all()
+#     db.create_all()
+
+
+
