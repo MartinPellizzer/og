@@ -1,0 +1,37 @@
+TITLE: 
+	Kinetic Modeling of Escherichia coli Inactivation by Ozone Mist
+
+AUTHOR:
+	Kerolyn C. Cabral, Suse Botelho da Silva, Paulo Ricardo S. da Silva, 
+	Éverton Hansen, Janice da Silva, Bethania Brochier
+
+DATE:
+	Received 26 Dec 2022, Accepted 14 Apr 2023, Published online: 10 May 2023
+
+TAGS:
+	escherichia coli, e. coli, ozone mist
+
+---------------------------------------------------
+
+problem:
+	can ozone mist inactivate microorganisms?
+
+experiment:
+	ozone: 51 ppm
+	(1) injection tangent to surface
+	(2) injection below surface (46.5 cm)
+	e. coli (10^2, 10^6)
+	time: 5 min
+
+result:
+	(1) reduction: 99.99% (4 log cycles)
+	(2) reduction: 1 log cycle
+
+objective:
+	ozone mist effective against escherichia coli
+
+------------------------------------------------------
+
+projection:
+	(1) 33 sec, 4 log, 10^6
+	(2) 7.8 min, to not detect growth, 10^2
