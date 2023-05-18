@@ -1,6 +1,7 @@
 from tkinter import *
 from PIL import ImageTk, Image
 import sqlite3
+import csv
 
 root = Tk()
 root.title("Ozonogroup CRM")
@@ -8,11 +9,11 @@ root.iconbitmap('./logo.ico')
 root.geometry('400x400')
 
 # DROP TABLE "DEBUG"
-conn = sqlite3.connect('database.db')
-c = conn.cursor()
-c.execute('DROP TABLE if exists clients')
-conn.commit()
-conn.close()
+# conn = sqlite3.connect('database.db')
+# c = conn.cursor()
+# c.execute('DROP TABLE if exists clients')
+# conn.commit()
+# conn.close()
 
 # CREATE TABLE
 conn = sqlite3.connect('database.db')
@@ -98,12 +99,56 @@ def clear_fields():
 	first_name_box.delete(0, END)
 	last_name_box.delete(0, END)
 
+def list_customers():
+	list_customers_query = Tk()
+	list_customers_query.title('List All Customers')
+	list_customers_query.iconbitmap('./logo.ico')
+	list_customers_query.geometry('800x600')
+
+	conn = sqlite3.connect('database.db')
+	c  = conn.cursor()
+	c.execute('''select * from clients''')
+	result = c.fetchall()
+	for i, x in enumerate(result):
+		for k, y in enumerate(x):
+			lookup_label = Label(list_customers_query, text=y)
+			lookup_label.grid(row=i, column=k)
+	conn.commit()
+	conn.close()
+
+	csv_button = Button(list_customers_query, text="save to excel", command=lambda: write_to_csv(result))
+	csv_button.grid(row=i+1, column=0)
+
+def write_to_csv(result):
+		with open('costomers.csv', 'a') as f:
+			w = csv.writer(f)
+			w.writerow(result)
+
+def cmd_search():
+	name = search_entry.get()
+	conn = sqlite3.connect('database.db')
+	c  = conn.cursor()
+	c.execute("SELECT * FROM clients WHERE first_name=?", (name,))
+	results = c.fetchall()
+	print(results)
+	conn.commit()
+	conn.close()
+
+
 add_customer_button = Button(root, text='Add Customer', command=add_customer)
 add_customer_button.grid(row=3, column=0, padx=10, pady=10)
 clear_customer_button = Button(root, text='Clear Fields', command=clear_fields)
 clear_customer_button.grid(row=3, column=1, padx=10, pady=10)
 
+list_customers_button = Button(root, text='List Customers', command=list_customers)
+list_customers_button.grid(row=15, column=0, sticky=W, padx=10)
 
-# SEE TABLE
+search_label = Label(root, text='Search Name')
+search_label.grid(row=16, column=0, padx=10, pady=10)
+search_entry = Entry(root)
+search_entry.grid(row=16, column=1, padx=10, pady=10)
+search_button = Button(root, text='Search', command=cmd_search)
+search_button.grid(row=17, column=0, sticky=W, padx=10)
+
 
 root.mainloop()
