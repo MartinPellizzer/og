@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from datetime import datetime
 import sqlite3
+import csv
 
 
 ##############################################################
@@ -9,7 +10,8 @@ import sqlite3
 ##############################################################
 fields = [
 	'id',
-	'status',
+	'level',
+	'exp',
 	'date_first_added',
 	'date_last_updated',
 	'first_name',
@@ -18,8 +20,9 @@ fields = [
 	'phone',
 	'business_name',
 	'business_address',
+	'district',
 	'website',
-	'sector',
+	'industry',
 	'gil',
 	'salesman',
 ]
@@ -37,7 +40,8 @@ def db_create_table(table):
 	c = conn.cursor()
 	c.execute(f'''
 		create table if not exists {table} (
-			status text,
+			level text,
+			exp text,
 			date_first_added text,
 			date_last_updated text,
 			first_name text,
@@ -46,8 +50,9 @@ def db_create_table(table):
 			phone text,
 			business_name text,
 			business_address text,
+			district text,
 			website text,
-			sector text,
+			industry text,
 			gil text,
 			salesman text
 		)
@@ -64,7 +69,8 @@ def db_update_row(values):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	sql = '''update clients set
-		status = ?,
+		level = ?,
+		exp = ?,
 		date_first_added = ?,
 		date_last_updated = ?,
 		first_name = ?,
@@ -73,8 +79,9 @@ def db_update_row(values):
 		phone = ?,
 		business_name = ?,
 		business_address = ?,
+		district = ?,
 		website = ?,
-		sector = ?,
+		industry = ?,
 		gil = ?,
 		salesman = ?
 
@@ -85,7 +92,7 @@ def db_update_row(values):
 
 
 def db_delete_row():
-	conn = sqlite3.connect('database.db')
+	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	id = entries[0].get()
 	c.execute(f'delete from clients where oid={id}')
@@ -101,6 +108,35 @@ def db_get_all_rows():
 	conn.commit()
 	conn.close()
 	return records
+
+
+def db_insert_rows(rows):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+
+	for row in rows:
+		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
+			{
+				'level': row[1],
+				'exp': row[2],
+				'date_first_added': row[3],
+				'date_last_updated': row[4],
+				'first_name': row[5],
+				'last_name': row[6],
+				'email': row[7],
+				'phone': row[8],
+				'business_name': row[9],
+				'business_address': row[10],
+				'district': row[11],
+				'website': row[12],
+				'industry': row[13],
+				'gil': row[14],
+				'salesman': row[15],
+			}
+		)
+
+	conn.commit()
+	conn.close()
 
 
 ##############################################################
@@ -190,21 +226,23 @@ def add_client():
 
 		entries_vals = [entry.get() for entry in add_entries]
 		
-		c.execute('insert into clients values (:status, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :website, :sector, :gil, :salesman)',
+		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
 			{
-				'status': entries_vals[1],
-				'date_first_added': entries_vals[2],
-				'date_last_updated': entries_vals[3],
-				'first_name': entries_vals[4],
-				'last_name': entries_vals[5],
-				'email': entries_vals[6],
-				'phone': entries_vals[7],
-				'business_name': entries_vals[8],
-				'business_address': entries_vals[9],
-				'website': entries_vals[10],
-				'sector': entries_vals[11],
-				'gil': entries_vals[12],
-				'salesman': entries_vals[13],
+				'level': entries_vals[1],
+				'exp': entries_vals[2],
+				'date_first_added': entries_vals[3],
+				'date_last_updated': entries_vals[4],
+				'first_name': entries_vals[5],
+				'last_name': entries_vals[6],
+				'email': entries_vals[7],
+				'phone': entries_vals[8],
+				'business_name': entries_vals[9],
+				'business_address': entries_vals[10],
+				'district': entries_vals[11],
+				'website': entries_vals[12],
+				'industry': entries_vals[13],
+				'gil': entries_vals[14],
+				'salesman': entries_vals[15],
 			})
 
 
@@ -279,6 +317,38 @@ tree.bind('<ButtonRelease-1>', tk_select_record)
 ##############################################################
 db_create_table(table_clients)
 tk_refresh_tree(db_get_all_rows())
+
+
+
+# def upload_csv():
+# 	with open("salumifici_treviso.csv", "r") as f:
+# 		reader = csv.reader(f, delimiter="\\")
+
+# 		for row in reader:
+# 			formatted_row = [
+
+# 			]
+# 			'status': 0,
+# 			'date_first_added': datetime.now().date(),
+# 			'date_last_updated': datetime.now().date(),
+# 			'first_name': '',
+# 			'last_name': '',
+# 			'email': row[4],
+# 			'phone': row[3],
+# 			'business_name': row[0],
+# 			'business_address': row[1],
+# 			'website': row[2],
+# 			'sector': row[10],
+# 			'gil': row[11],
+# 			'salesman': row[12],
+
+# 			db_insert_rows(formatted_row)
+
+
+
+# upload_csv_button = Button(frame_fields, text='Upload CSV', command=upload_csv)
+# upload_csv_button.grid(row=i, column=0, sticky=W)
+# i += 1
 
 
 root.mainloop()
