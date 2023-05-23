@@ -34,6 +34,13 @@ fields = [
 database_name = 'database.db'
 table_clients = 'clients'
 
+def drop_table(table):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute(f'drop table {table}')
+	conn.commit()
+	conn.close()
+
 
 def db_create_table(table):
 	conn = sqlite3.connect(database_name)
@@ -114,24 +121,25 @@ def db_insert_rows(rows):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 
+
 	for row in rows:
 		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
 			{
-				'level': row[1],
-				'exp': row[2],
-				'date_first_added': row[3],
-				'date_last_updated': row[4],
-				'first_name': row[5],
-				'last_name': row[6],
-				'email': row[7],
-				'phone': row[8],
-				'business_name': row[9],
-				'business_address': row[10],
-				'district': row[11],
-				'website': row[12],
-				'industry': row[13],
-				'gil': row[14],
-				'salesman': row[15],
+				'level': row[0],
+				'exp': row[1],
+				'date_first_added': row[2],
+				'date_last_updated': row[3],
+				'first_name': row[4],
+				'last_name': row[5],
+				'email': row[6],
+				'phone': row[7],
+				'business_name': row[8],
+				'business_address': row[9],
+				'district': row[10],
+				'website': row[11],
+				'industry': row[12],
+				'gil': row[13],
+				'salesman': row[14],
 			}
 		)
 
@@ -184,6 +192,48 @@ def tk_refresh_tree(rows):
 	for index, row in enumerate(rows):
 		tree.insert(parent='', index=index, iid=index, text='', values=row)
 
+# TODO: UPLOAD REAL CSV WITH BROWSE WINDOW
+def tk_upload_csv():
+	with open("salumifici_treviso.csv", "r") as f:
+		reader = csv.reader(f, delimiter="\\")
+
+		# FORMAT CSV ROWS FOR DB
+		rows_csv = []
+		for row in reader:
+			formatted_row = [
+				0,
+				0,
+				datetime.now().date(),
+				datetime.now().date(),
+				'',
+				'',
+				row[4],
+				row[3],
+				row[0],
+				row[1],
+				row[5],
+				row[2],
+				'',
+				0,
+				'',
+			]
+			rows_csv.append(formatted_row)
+			
+		rows_db = db_get_all_rows()
+
+		# FILTER ROWS THAT WITH SAME BUSINESS NAME IN DB
+		rows_filtered = []
+		for row_csv in rows_csv:
+			found = False
+			for row_db in rows_db:
+				if row_csv[8] == row_db[9]:
+					found = True
+					break
+			if not found:
+				rows_filtered.append(row_csv)
+
+		db_insert_rows(rows_filtered)
+		tk_refresh_tree(db_get_all_rows())
 
 
 
@@ -288,6 +338,10 @@ i += 1
 add_button = Button(frame_fields, text='Add', command=add_client)
 add_button.grid(row=i, column=0, sticky=W)
 i += 1
+upload_csv_button = Button(frame_fields, text='Upload CSV', command=tk_upload_csv)
+upload_csv_button.grid(row=i, column=0, sticky=W)
+i += 1
+
 
 
 # CREATE VIEWER
@@ -306,50 +360,118 @@ for field in fields:
 	tree.heading(field, text=field, anchor=W)
 
 
+def tk_open_notes(e):
+	print('notes opened')
+	
+	note_window = Toplevel(root)
+	note_window.title('Treeview demo')
+	note_window.geometry('800x600')
+	note_window.grab_set()
+	
+	note_frame_tree = Frame(note_window)
+	note_frame_tree.pack(side=LEFT, fill=BOTH)
+
+	note_tree = ttk.Treeview(note_frame_tree)
+	note_tree.pack(expand=True, fill=BOTH)
+
+	note_fields = ['business_name', 'note_date']
+	
+	note_tree['columns'] = note_fields
+
+	note_tree.column('#0', width=0, stretch=NO)
+	note_tree.heading('#0', text='', anchor=W)
+	for field in note_fields:
+		note_tree.column(field, width=160, anchor=W)
+		note_tree.heading(field, text=field, anchor=W)
+		
+
+	note_frame_text = Frame(note_window)
+	note_frame_text.pack(side=LEFT, expand=True, fill=BOTH)
+
+	note_text = Text(note_frame_text)
+	note_text.pack(expand=True, fill=BOTH)
+
+
+def add_client():
+	add_window = Toplevel(root)
+	add_window.title('Treeview demo')
+	add_window.geometry('270x400')
+	add_window.grab_set()
+
+	add_frame = LabelFrame(add_window, text='Add Clients', padx=20, pady=10)
+	add_frame.pack(side=LEFT, fill=Y)
+
+	add_labels = []
+	add_entries = []
+	for i, field in enumerate(fields):
+		add_labels.append(Label(add_frame, text=field).grid(row=i, column=0, sticky=W))
+		tmp_entry = Entry(add_frame)
+		tmp_entry.grid(row=i, column=1, sticky=W)
+		if field == 'id':
+			tmp_entry.insert(0, '-')
+			tmp_entry.config(state='disabled')
+		elif field == 'status':
+			tmp_entry.insert(0, 0)
+		elif field == 'date_first_added':
+			tmp_entry.insert(0, datetime.now().date())
+		elif field == 'date_last_updated':
+			tmp_entry.insert(0, datetime.now().date())
+		add_entries.append(tmp_entry)
+	i += 1
+
+	def add_client_db():
+		conn = sqlite3.connect(database_name)
+		c = conn.cursor()
+
+		entries_vals = [entry.get() for entry in add_entries]
+		
+		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
+			{
+				'level': entries_vals[1],
+				'exp': entries_vals[2],
+				'date_first_added': entries_vals[3],
+				'date_last_updated': entries_vals[4],
+				'first_name': entries_vals[5],
+				'last_name': entries_vals[6],
+				'email': entries_vals[7],
+				'phone': entries_vals[8],
+				'business_name': entries_vals[9],
+				'business_address': entries_vals[10],
+				'district': entries_vals[11],
+				'website': entries_vals[12],
+				'industry': entries_vals[13],
+				'gil': entries_vals[14],
+				'salesman': entries_vals[15],
+			})
+
+
+		conn.commit()
+		conn.close()
+
+		tk_clear_entries()
+		tk_refresh_tree(db_get_all_rows())
+
+	curr_add_button = Button(add_frame, text='Add', command=add_client_db)
+	curr_add_button.grid(row=i, column=0, sticky=W)
+
+
 ##############################################################
 # KEY BINDING
 ##############################################################
 tree.bind('<ButtonRelease-1>', tk_select_record)
+tree.bind("<Double-1>", tk_open_notes)
 
 
 ##############################################################
 # INIT
 ##############################################################
+# drop_table(table_clients)
 db_create_table(table_clients)
 tk_refresh_tree(db_get_all_rows())
 
 
 
-def upload_csv():
-	with open("salumifici_treviso.csv", "r") as f:
-		reader = csv.reader(f, delimiter="\\")
 
-		for row in reader:
-			formatted_row = [
-				0,
-				0,
-				datetime.now().date(),
-				datetime.now().date(),
-				'',
-				'',
-				row[4],
-				row[3],
-				row[0],
-				row[1],
-				row[5],
-				row[2],
-				'',
-				0,
-				'',
-			]
-
-			db_insert_rows(formatted_row)
-
-
-
-upload_csv_button = Button(frame_fields, text='Upload CSV', command=upload_csv)
-upload_csv_button.grid(row=i, column=0, sticky=W)
-i += 1
 
 
 root.mainloop()
