@@ -320,35 +320,36 @@ tk_refresh_tree(db_get_all_rows())
 
 
 
-# def upload_csv():
-# 	with open("salumifici_treviso.csv", "r") as f:
-# 		reader = csv.reader(f, delimiter="\\")
+def upload_csv():
+	with open("salumifici_treviso.csv", "r") as f:
+		reader = csv.reader(f, delimiter="\\")
 
-# 		for row in reader:
-# 			formatted_row = [
+		for row in reader:
+			formatted_row = [
+				0,
+				0,
+				datetime.now().date(),
+				datetime.now().date(),
+				'',
+				'',
+				row[4],
+				row[3],
+				row[0],
+				row[1],
+				row[5],
+				row[2],
+				'',
+				0,
+				'',
+			]
 
-# 			]
-# 			'status': 0,
-# 			'date_first_added': datetime.now().date(),
-# 			'date_last_updated': datetime.now().date(),
-# 			'first_name': '',
-# 			'last_name': '',
-# 			'email': row[4],
-# 			'phone': row[3],
-# 			'business_name': row[0],
-# 			'business_address': row[1],
-# 			'website': row[2],
-# 			'sector': row[10],
-# 			'gil': row[11],
-# 			'salesman': row[12],
-
-# 			db_insert_rows(formatted_row)
+			db_insert_rows(formatted_row)
 
 
 
-# upload_csv_button = Button(frame_fields, text='Upload CSV', command=upload_csv)
-# upload_csv_button.grid(row=i, column=0, sticky=W)
-# i += 1
+upload_csv_button = Button(frame_fields, text='Upload CSV', command=upload_csv)
+upload_csv_button.grid(row=i, column=0, sticky=W)
+i += 1
 
 
 root.mainloop()
