@@ -1,8 +1,11 @@
 from tkinter import *
-from tkinter import ttk
+from tkinter import ttk, filedialog
 from datetime import datetime
 import sqlite3
 import csv
+
+# TODO: remove id entry, always take id from treeview selected row
+# TODO: heavy refactoring before moving on
 
 
 ##############################################################
@@ -32,7 +35,6 @@ fields = [
 # DATABASE
 ##############################################################
 database_name = 'database.db'
-table_clients = 'clients'
 
 def drop_table(table):
 	conn = sqlite3.connect(database_name)
@@ -42,11 +44,12 @@ def drop_table(table):
 	conn.close()
 
 
-def db_create_table(table):
+# CLIENTS ####################################################
+def db_create_table_clients():
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	c.execute(f'''
-		create table if not exists {table} (
+		create table if not exists clients (
 			level text,
 			exp text,
 			date_first_added text,
@@ -120,8 +123,6 @@ def db_get_all_rows():
 def db_insert_rows(rows):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-
-
 	for row in rows:
 		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
 			{
@@ -142,7 +143,79 @@ def db_insert_rows(rows):
 				'salesman': row[14],
 			}
 		)
+	conn.commit()
+	conn.close()
 
+
+# NOTES ####################################################
+note_fields = ['business_name', 'note_date', 'note_text']
+
+def db_create_table_notes():
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute(f'''
+		create table if not exists notes (
+			business_name text,
+			note_date text,
+			note_text text
+		)
+	''')
+	conn.commit()
+	conn.close()
+
+
+def db_insert_note(row):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute('insert into notes values (:business_name, :note_date, :note_text)',
+		{
+			'business_name': row[0],
+			'note_date': row[1],
+			'note_text': row[2],
+		}
+	)
+	conn.commit()
+	conn.close()
+
+
+def db_get_all_notes():
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute('select rowid, * from notes')
+	records = c.fetchall()	
+	conn.commit()
+	conn.close()
+	return records
+	
+
+def db_get_business_notes(business_name):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	sql = '''select rowid, * from notes 
+		where business_name = ?'''
+	c.execute(sql, (business_name,))
+	records = c.fetchall()	
+	conn.commit()
+	conn.close()
+	return records
+
+	
+def db_get_notes_by_id(oid):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	sql = '''select rowid, * from notes 
+		where oid = ?'''
+	c.execute(sql, (oid,))
+	records = c.fetchall()
+	conn.commit()
+	conn.close()
+	return records
+
+
+def db_note_delete(oid):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute(f'delete from notes where oid={oid}')
 	conn.commit()
 	conn.close()
 
@@ -160,7 +233,7 @@ def tk_update_record():
 	tree.item(tree.focus(), text='', values=values)
 
 
-# TODO: CLEAR ALSO ID?
+# TODO: CLEAR ALSO ID? 
 def tk_clear_entries():
 	for i, entry in enumerate(entries[1:]):
 		entry.delete(0, END)
@@ -194,7 +267,9 @@ def tk_refresh_tree(rows):
 
 # TODO: UPLOAD REAL CSV WITH BROWSE WINDOW
 def tk_upload_csv():
-	with open("salumifici_treviso.csv", "r") as f:
+	filename = filedialog.askopenfilename(filetypes=(("csv files","*.csv"),("All files","*.*")))
+	
+	with open(filename, "r") as f:
 		reader = csv.reader(f, delimiter="\\")
 
 		# FORMAT CSV ROWS FOR DB
@@ -245,7 +320,7 @@ def tk_upload_csv():
 ##############################################################
 def add_client():
 	add_window = Toplevel(root)
-	add_window.title('Treeview demo')
+	add_window.title('Add Client')
 	add_window.geometry('270x400')
 	add_window.grab_set()
 
@@ -306,13 +381,14 @@ def add_client():
 	curr_add_button.grid(row=i, column=0, sticky=W)
 
 
+
 root = Tk()
 root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
 root.geometry('800x600')
 
 # CREATE FIELDS
-frame_fields = LabelFrame(root, text='Fields', padx=20, pady=10)
+frame_fields = Frame(root, padx=20, pady=10)
 frame_fields.pack(side=LEFT, fill=Y)
 
 labels = []
@@ -345,7 +421,7 @@ i += 1
 
 
 # CREATE VIEWER
-frame_tree = LabelFrame(root, text='Viewer')
+frame_tree = Frame(root)
 frame_tree.pack(side=LEFT, expand=True, fill=BOTH)
 
 tree = ttk.Treeview(frame_tree)
@@ -360,99 +436,96 @@ for field in fields:
 	tree.heading(field, text=field, anchor=W)
 
 
+
+
+
+##############################################################
+# TKINTER NOTES
+##############################################################
 def tk_open_notes(e):
-	print('notes opened')
-	
 	note_window = Toplevel(root)
-	note_window.title('Treeview demo')
+	note_window.title('Add Note')
 	note_window.geometry('800x600')
 	note_window.grab_set()
 	
-	note_frame_tree = Frame(note_window)
-	note_frame_tree.pack(side=LEFT, fill=BOTH)
+	selected = tree.focus()
+	values = tree.item(selected, 'values')
+	business_name_curr = values[9]
 
+
+	def tk_note_refresh_tree():
+		rows = db_get_business_notes(business_name_curr)
+		note_tree.delete(*note_tree.get_children())
+		for index, row in enumerate(rows):
+			note_id_tmp = row[0]
+			note_date_tmp = row[2]
+			note_text_tmp = row[3].replace('\n', ' ')[:40] + '...'
+			note_temp = [note_id_tmp, note_date_tmp, note_text_tmp]
+			note_tree.insert(parent='', index=index, iid=index, text='', values=note_temp)
+
+
+	def tk_note_selected(e):
+		note_selected = note_tree.focus()
+		values = note_tree.item(note_selected, 'values')
+		record = db_get_notes_by_id(values[0])[0]
+		note_text.delete('1.0', END)
+		note_text.insert(END, record[3])
+
+
+	def add_note():
+		note_date = datetime.now()
+		note_content = note_text.get("1.0",END)
+		row = [business_name_curr, note_date, note_content]
+		db_insert_note(row)
+		tk_note_refresh_tree()
+
+
+	def tk_note_delete():
+		note_selected = note_tree.focus()
+		values = note_tree.item(note_selected, 'values')
+		oid = values[0]
+
+		db_note_delete(oid)
+		tk_note_refresh_tree()
+		note_text.delete('1.0', END)
+
+
+	note_frame_row_1 = Frame(note_window)
+	note_frame_row_1.pack()
+	note_frame_row_2 = Frame(note_window)
+	note_frame_row_2.pack(expand=True, fill=BOTH)
+
+	note_label = Label(note_frame_row_1, text=business_name_curr, font=('Arial', 32))
+	note_label.pack()
+	
+	# TREEVIEW
+	note_frame_tree = Frame(note_frame_row_2)
+	note_frame_tree.pack(side=LEFT, fill=BOTH)
 	note_tree = ttk.Treeview(note_frame_tree)
 	note_tree.pack(expand=True, fill=BOTH)
-
-	note_fields = ['business_name', 'note_date']
-	
+	note_fields = ['note_id', 'note_date', 'note_text']
 	note_tree['columns'] = note_fields
-
 	note_tree.column('#0', width=0, stretch=NO)
 	note_tree.heading('#0', text='', anchor=W)
 	for field in note_fields:
 		note_tree.column(field, width=160, anchor=W)
 		note_tree.heading(field, text=field, anchor=W)
+
+	tk_note_refresh_tree()
 		
-
-	note_frame_text = Frame(note_window)
+	# TEXTAREA
+	note_frame_text = Frame(note_frame_row_2)
 	note_frame_text.pack(side=LEFT, expand=True, fill=BOTH)
-
 	note_text = Text(note_frame_text)
 	note_text.pack(expand=True, fill=BOTH)
+	note_add = Button(note_frame_text, text='Add Note', command=add_note)
+	note_add.pack()
+	note_delete = Button(note_frame_text, text='Delete Note', command=tk_note_delete)
+	note_delete.pack()
+
+	note_tree.bind('<ButtonRelease-1>', tk_note_selected)
 
 
-def add_client():
-	add_window = Toplevel(root)
-	add_window.title('Treeview demo')
-	add_window.geometry('270x400')
-	add_window.grab_set()
-
-	add_frame = LabelFrame(add_window, text='Add Clients', padx=20, pady=10)
-	add_frame.pack(side=LEFT, fill=Y)
-
-	add_labels = []
-	add_entries = []
-	for i, field in enumerate(fields):
-		add_labels.append(Label(add_frame, text=field).grid(row=i, column=0, sticky=W))
-		tmp_entry = Entry(add_frame)
-		tmp_entry.grid(row=i, column=1, sticky=W)
-		if field == 'id':
-			tmp_entry.insert(0, '-')
-			tmp_entry.config(state='disabled')
-		elif field == 'status':
-			tmp_entry.insert(0, 0)
-		elif field == 'date_first_added':
-			tmp_entry.insert(0, datetime.now().date())
-		elif field == 'date_last_updated':
-			tmp_entry.insert(0, datetime.now().date())
-		add_entries.append(tmp_entry)
-	i += 1
-
-	def add_client_db():
-		conn = sqlite3.connect(database_name)
-		c = conn.cursor()
-
-		entries_vals = [entry.get() for entry in add_entries]
-		
-		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
-			{
-				'level': entries_vals[1],
-				'exp': entries_vals[2],
-				'date_first_added': entries_vals[3],
-				'date_last_updated': entries_vals[4],
-				'first_name': entries_vals[5],
-				'last_name': entries_vals[6],
-				'email': entries_vals[7],
-				'phone': entries_vals[8],
-				'business_name': entries_vals[9],
-				'business_address': entries_vals[10],
-				'district': entries_vals[11],
-				'website': entries_vals[12],
-				'industry': entries_vals[13],
-				'gil': entries_vals[14],
-				'salesman': entries_vals[15],
-			})
-
-
-		conn.commit()
-		conn.close()
-
-		tk_clear_entries()
-		tk_refresh_tree(db_get_all_rows())
-
-	curr_add_button = Button(add_frame, text='Add', command=add_client_db)
-	curr_add_button.grid(row=i, column=0, sticky=W)
 
 
 ##############################################################
@@ -466,8 +539,10 @@ tree.bind("<Double-1>", tk_open_notes)
 # INIT
 ##############################################################
 # drop_table(table_clients)
-db_create_table(table_clients)
+db_create_table_clients()
+db_create_table_notes()
 tk_refresh_tree(db_get_all_rows())
+# print(db_get_all_notes())
 
 
 
