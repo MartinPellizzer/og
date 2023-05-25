@@ -11,7 +11,7 @@ import csv
 ##############################################################
 # DATA
 ##############################################################
-fields = [
+tree_fields = [
 	'id',
 	'level',
 	'exp',
@@ -104,8 +104,9 @@ def db_update_row(values):
 def db_delete_row():
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-	id = entries[0].get()
-	c.execute(f'delete from clients where oid={id}')
+	selected = tree.focus()
+	values = tree.item(selected, 'values')
+	c.execute(f'delete from clients where oid={values[0]}')
 	conn.commit()
 	conn.close()
 
@@ -329,13 +330,12 @@ def add_client():
 
 	add_labels = []
 	add_entries = []
-	for i, field in enumerate(fields):
+	for i, field in enumerate(tree_fields):
 		add_labels.append(Label(add_frame, text=field).grid(row=i, column=0, sticky=W))
 		tmp_entry = Entry(add_frame)
 		tmp_entry.grid(row=i, column=1, sticky=W)
 		if field == 'id':
-			tmp_entry.insert(0, '-')
-			tmp_entry.config(state='disabled')
+			continue
 		elif field == 'status':
 			tmp_entry.insert(0, 0)
 		elif field == 'date_first_added':
@@ -353,21 +353,21 @@ def add_client():
 		
 		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
 			{
-				'level': entries_vals[1],
-				'exp': entries_vals[2],
-				'date_first_added': entries_vals[3],
-				'date_last_updated': entries_vals[4],
-				'first_name': entries_vals[5],
-				'last_name': entries_vals[6],
-				'email': entries_vals[7],
-				'phone': entries_vals[8],
-				'business_name': entries_vals[9],
-				'business_address': entries_vals[10],
-				'district': entries_vals[11],
-				'website': entries_vals[12],
-				'industry': entries_vals[13],
-				'gil': entries_vals[14],
-				'salesman': entries_vals[15],
+				'level': entries_vals[0],
+				'exp': entries_vals[1],
+				'date_first_added': entries_vals[2],
+				'date_last_updated': entries_vals[3],
+				'first_name': entries_vals[4],
+				'last_name': entries_vals[5],
+				'email': entries_vals[6],
+				'phone': entries_vals[7],
+				'business_name': entries_vals[8],
+				'business_address': entries_vals[9],
+				'district': entries_vals[10],
+				'website': entries_vals[11],
+				'industry': entries_vals[12],
+				'gil': entries_vals[13],
+				'salesman': entries_vals[14],
 			})
 
 
@@ -387,13 +387,14 @@ root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
 root.geometry('800x600')
 
+
 # CREATE FIELDS
 frame_fields = Frame(root, padx=20, pady=10)
 frame_fields.pack(side=LEFT, fill=Y)
 
 labels = []
 entries = []
-for i, field in enumerate(fields):
+for i, field in enumerate(tree_fields):
 	labels.append(Label(frame_fields, text=field).grid(row=i, column=0, sticky=W))
 	tmp_entry = Entry(frame_fields)
 	if field == 'id':
@@ -427,11 +428,11 @@ frame_tree.pack(side=LEFT, expand=True, fill=BOTH)
 tree = ttk.Treeview(frame_tree)
 tree.pack(expand=True, fill=BOTH)
 
-tree['columns'] = fields
+tree['columns'] = tree_fields
 
 tree.column('#0', width=0, stretch=NO)
 tree.heading('#0', text='', anchor=W)
-for field in fields:
+for field in tree_fields:
 	tree.column(field, width=80, anchor=W)
 	tree.heading(field, text=field, anchor=W)
 
