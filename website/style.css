@@ -1,8 +1,3 @@
-:root {
-    --header-opacity: 0.7;
-    --image-opacity: 0.3;
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -14,227 +9,168 @@ html {
 }
 
 body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.bg-blue-50 {
+    background-color: #eff6ff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.6rem 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
     font-size: 1.8rem;
 }
 
-body {
-    font-family: Helvetica, sans-serif;
+nav {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.section-hero {
+    background-color: #1d4ed8;
+    height: 90vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.container-md {
+    max-width: 76.8rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.container-lg {
+    max-width: 99.2rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-32 {
+    gap: 3.2rem;
+}
+
+.gap-64 {
+    gap: 6.4rem;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.mb-8 {
+    margin-bottom: 0.8rem;
+}
+
+.mb-16 {
+    margin-bottom: 1.6rem;
+}
+
+.mb-32 {
+    margin-bottom: 3.2rem;
+}
+
+.py-64 {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.py-96 {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+h1 {
+    font-size: 6.4rem;
+    line-height: 1;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 4.0rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 4.8rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
 }
 
 p {
+    font-size: 1.8rem;
     line-height: 1.5;
-    margin-bottom: 1.6rem;
+    color: #333;
+    margin-bottom: 2.4rem;
 }
 
 p:last-child {
     margin-bottom: 0;
 }
 
-h3 {
-    font-size: 3.0rem;
-    margin-bottom: 3.2rem;
-}
-
-
-
-/* **************************************************** */
-/* WARNING BAR */
-/* **************************************************** */
-.warning {
-    padding: 1.2rem 0;
-    background-color: var(--color-red-800);
-}
-
-.warning p {
-    color: white;
-    text-align: center;
-    font-size: 1.6rem;
-    line-height: 1;
-}
-
-
-
-/* **************************************************** */
-/* NAV */
-/* **************************************************** */
-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 4.8rem 0 0 0;
-}
-
-nav span {
-    color: white;
-}
-
-nav li {
-    list-style: none;
-}
-
-nav li a {
-    color: white;
+.btn-main {
     text-decoration: none;
-}
-
-
-
-/* **************************************************** */
-/* HERO */
-/* **************************************************** */
-.hero {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, var(--header-opacity)), rgba(0, 0, 0, var(--header-opacity))),
-        url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=911&q=80");
-    background: linear-gradient(rgba(0, 0, 0, var(--header-opacity)), rgba(0, 0, 0, var(--header-opacity))),
-        url("https://images.unsplash.com/photo-1437813865984-32f38e58daea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
-    background: linear-gradient(rgba(0, 0, 0, var(--header-opacity)), rgba(0, 0, 0, var(--header-opacity))),
-        url("https://images.unsplash.com/photo-1631556097152-c39479bbff93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
-
-    background-position: center;
-    background-size: cover;
-
-}
-
-.hero-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 80%;
-}
-
-.hero-content .btn-primary {
-    background-color: var(--color-blue-700);
-    padding: 1.2rem 2.4rem;
-    /* padding: 1.6rem 3.2rem; */
-    margin-top: 3.2rem;
-    /* border-radius: 3px; */
-}
-
-.hero-content .btn-secondary {
-    /* background-color: var(--color-blue-700); */
-    padding: 1.0rem 2.4rem;
-    margin-top: 3.2rem;
-    border: 2px solid white;
-}
-
-.hero-content a {
+    color: #1d4ed8;
+    background-color: white;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 1.6rem 3.2rem;
     display: inline-block;
-    color: white;
+}
+
+.btn-ghost {
     text-decoration: none;
-}
-
-.hero h1 {
-    font-size: 5.6rem;
-    color: white;
-    font-weight: 700;
-    line-height: 1.1;
-    margin: 1.6rem 0;
-}
-
-.hero p {
     color: white;
     font-size: 1.8rem;
-}
-
-
-
-/* **************************************************** */
-/* ACHIEVEMENTS */
-/* **************************************************** */
-.achievements {
-    padding: 3.2rem;
-    background-color: var(--color-slate-900);
-    color: white;
-}
-
-.achievements p:nth-child(1) {
-    font-size: 4.8rem;
-    font-weight: bold;
-}
-
-
-
-
-
-/* **************************************************** */
-/* CHEMICALS */
-/* **************************************************** */
-.chemicals {
-    /* background-color: var(--color-slate-900);
-    color: white; */
-}
-
-.chemicals-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 6.4rem;
-    height: 100%;
-    max-width: 80rem;
-}
-
-.chemicals-image {
-    background: linear-gradient(rgba(0, 0, 0, var(--image-opacity)), rgba(0, 0, 0, var(--image-opacity))),
-        url("https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
-    background-position: center;
-    background-size: cover;
-    height: 80rem;
-}
-
-
-
-/* **************************************************** */
-/* PESTICIDES */
-/* **************************************************** */
-.pesticides {
-    flex-direction: row-reverse;
-}
-
-.pesticides-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 6.4rem;
-    height: 100%;
-    max-width: 80rem;
-}
-
-.pesticides-image {
-    background: linear-gradient(rgba(0, 0, 0, var(--image-opacity)), rgba(0, 0, 0, var(--image-opacity))),
-        url("https://images.unsplash.com/photo-1475906089153-644d9452ce87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80");
-    background-position: center;
-    background-size: cover;
-    height: 80rem;
-}
-
-
-
-/* **************************************************** */
-/* OZONE */
-/* **************************************************** */
-
-
-.section-ozone {
-    background: linear-gradient(rgba(0, 0, 0, var(--header-opacity)), rgba(0, 0, 0, var(--header-opacity))),
-        url("./assets/jellyfish.jpg");
-    background-position: center;
-    background-size: cover;
-    /* height: 80rem; */
-    padding: 8.0rem 0;
-    color: white;
-}
-
-.section-ozone h2 {
-    font-size: 4.0rem;
-    margin-bottom: 4.8rem;
-}
-
-.ozone-row {
-    display: flex;
-    gap: 6.4rem;
-    margin-bottom: 4.8rem;
-}
-
-.icon-text-vertical {
-    flex: 1;
+    border: 2px solid white;
+    padding: 1.6rem 3.2rem;
+    display: inline-block;
 }
