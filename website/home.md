@@ -150,25 +150,85 @@ No chemical residue: Ozone breaks down into oxygen, leaving no harmful chemical 
 ## Benefits
 
 Rapid action: Ozone works quickly to disinfect surfaces and air, reducing downtime and allowing for faster occupancy.
+Chemical Reaction Rate: Ozone (O3) is a highly reactive molecule compared to other sanitizing agents. It has a strong oxidizing power and readily reacts with organic and inorganic compounds, pathogens, and odorous substances. This rapid chemical reaction allows ozone to quickly neutralize or destroy contaminants, including bacteria, viruses, mold, and other microorganisms.
+
+Disinfetta Rapidamente:
+
+L'ozono reagisce velocemente con composti organici e inorganici. Elimina la maggior parte dei batteri in pochi minuti, o addirittura in pochi secondi se utilizzato ad altre concentrazioni. Questo ti permette di ridurre i tempi di attesa durante la produzione.
+
 
 Cost-effective: Ozone generators have lower operating costs compared to other disinfection methods.
 
+Risparmia Energia:
+
+Puoi produrre ozono utilizzando poca corrente. Per esempio, un generatore ad ozono utilizzato per la piccola-media impresa consuma solo poche centinaia di watts (al contrario dei sistemi di sanificazione termici). Questo ti porta ad avere un notevole risparmio energetico ed una bolletta più leggera.
+
 Penetration power: Ozone can reach difficult-to-access areas, including cracks, crevices, and fabrics, ensuring thorough disinfection.
+
+Raggiunge Aree Difficili:
+
+Puoi disinfettare arree diffici da raggiungere, come fessure, crepe e anche la parte interna dei tessuti. Infatti, puoi usare l'ozono sia in forma gassosa che acquosa, il che gli permette di avere il giusto potere penetrate a seconda della situazione.
 
 Safe for food contact surfaces: Ozone is approved for use on food contact surfaces by regulatory agencies like the FDA.
 
+Non Lascia Residui:
+
+Puoi utilizzare l'ozono direttamente sugli alimenti. Questo perchè non lascia residui chimici o sottoprodotti tossici. Infatti, l'ozono prodotto si riconverte spontaneamente in ossigeno dopo poco tempo e non rischia di contaminare il prodotto (dopo circa 20 minuti già il 50% di ozono si è riconvertito in ossigeno).
+
 Reduced chemical usage: Ozone sanitization can reduce the need for traditional chemical disinfectants.
+
+Riduce l'Uso Della Chimica
+
+Puoi integrare l'ozono nel tuo processo produttivo per ridurre l'uso di pericolosi prodotti chimici, o addirittura sostituirli completamente. Questo ti permette di risparmiare notevolmente sull'acquisto di disinfettanti chimici e di investire su tecnologie sempre più ecologiche.
+
+Generato In Loco
+
+Poi avere tutto l'ozono che vuoi, quando lo vuoi. L'ozono viene prodotto da un generatore in loco. Quindi non ha bisogno di contattare i fornitori di prodotti chimici, ordinarlo e aspettare che arrivi. Questo ti permiette di evitare i sempre più frequenti problemi di approvvigionamento.
+
+---
+
+
+Elimination of chlorine byproducts: Ozone can break down chlorine byproducts, which can be harmful to human health.
 
 Safe for sensitive materials: Ozone does not cause damage to delicate materials like fabrics, electronics, and artwork.
 
+Extended equipment life: Ozone treatment can help remove organic buildup and prolong the lifespan of equipment such as air conditioning systems.
 
+Versatility: Ozone sanitization can be used in various settings, including homes, offices, healthcare facilities, food processing plants, and swimming pools, among others.
+
+Immediate Activation and Deactivation: Ozone is generated on-site, typically by using specialized ozone generators. This allows for immediate activation and deactivation of the sanitization process, enabling fast response times. There is no need to wait for chemical reactions or lengthy setup procedures, making ozone sanitization a time-efficient option.
+
+Reduced labor costs: Ozone sanitization systems are often automated and require minimal human intervention once properly set up. This automation reduces labor costs associated with manual cleaning and disinfection procedures. Instead of relying on extensive manpower, ozone sanitization systems can operate independently, allowing staff to focus on other tasks.
+
+---
+
+
+## Microorganisms
+Odor elimination: Ozone effectively neutralizes odors caused by bacteria, smoke, pets, and other sources.
+Improved air quality: Ozone can help purify the air by removing pollutants, smoke, and volatile organic compounds (VOCs).
+Improved hygiene in public spaces: Ozone sanitization can help maintain clean and germ-free environments in public places such as hospitals, schools, and offices.
+Indoor air purification: Ozone generators can help improve indoor air quality by eliminating pollutants and neutralizing odors.
+
+Control of mold and mildew: Ozone can effectively eliminate mold and mildew, preventing their growth and associated health risks.
+
+bacteria 
+
+virus
+
+fingi
+
+molds
+
+odors
+
+insects
 
 ## Applications
 
-Odor elimination: Ozone effectively neutralizes odors caused by bacteria, smoke, pets, and other sources.
-Improved air quality: Ozone can help purify the air by removing pollutants, smoke, and volatile organic compounds (VOCs).
+
 
 Allergen reduction: Ozone can reduce allergens such as pollen, dust mites, and pet dander, providing relief for allergy sufferers.
+Reduction of allergens in carpets: Ozone treatment can reduce allergens trapped in carpets and upholstery.
 
 Water purification: Ozone is highly effective in treating water by killing bacteria, viruses, and other contaminants.
 Improved water clarity: Ozone can help clarify water by removing suspended particles and organic matter.
@@ -182,47 +242,62 @@ Preservation of food quality: Ozone can slow down the deterioration of food by i
 
 Inactivation of biofilms: Ozone can disrupt and kill biofilms, which are resilient communities of bacteria often found in plumbing and medical devices.
 
+Improved laundry hygiene: Ozone can enhance the disinfection of laundry by killing bacteria and viruses, reducing the risk of infections.
 
 
+## Industries
 
+Lavorazione di carne e pollame
 
+Nel settore della lavorazione carni, puoi usare l'ozono per sanificare le aree di stoccaggio, come frigoriferi e congelatori. Puoi lavare la carne con acqua ozonizzata per ridurre le contaminazioni microbiche ed estendere la shelf-life. Inoltre, puoi sanificare le superfici delle attrezzature per la lavorazione della carne, come taglieri e coltelli.
 
+Sanificazione degli spazi di stoccaggio a freddo: L'ozono può essere utilizzato per sanificare le aree di stoccaggio a freddo, i frigoriferi e i congelatori in cui vengono conservati i prodotti di carne e pollame. Possono essere installati generatori di ozono per rilasciare gas ozono, il quale disinfetta l'aria e le superfici all'interno di questi spazi di stoccaggio, riducendo il rischio di contaminazione incrociata.
 
+Lavorazione di carne e pollame: L'ozono viene utilizzato per sanificare prodotti a base di carne e pollame, superfici di lavorazione e attrezzature come affettatrici, tritacarne e nastri trasportatori.
 
-
-
-
-
-
-
+Meat and Poultry Processing: Ozone is used to sanitize meat and poultry products, processing surfaces, and equipment such as slicers, grinders, and conveyors.
 
 ---
 
+Industria lattiero-casearia:
+
+L'ozono viene usato nel settore lattiero-caseario per sanificare latte, formaggio, yogurt e altri prodotti. Poui disinfettare attrezzature di lavorazione, condotte e serbatoi di stoccaggio. Inoltre, puoi disinfettare l'acqua usata per il lavaggio e per la produzione dei prodotti, nonchè per bonificare le acque reflue. 
+
+Dairy Industry: Ozone is employed in dairy processing plants to sanitize milk, cheese, yogurt, and other dairy products. It is also used to disinfect processing equipment, pipelines, and storage tanks.
+
+---
+
+Frutta e verdura
+
+L'ozono viene usato per ridurre le contaminazioni microbiche su frutta e verdura, prolungando la durata di conservazione e umentando la qualità del prodotto. Puoi utilizzarlo per eliminare batteri e muffe dalle superfici, dagli ambienti di stoccaggio e dalle confezioni per rallentare il processo di deterioramento. Inoltre, puoi usarlo per tratter l'acqua di processo ed eliminare eventuali residui di pesticidi.
+
+Fruit and Vegetable Processing: Ozone sanitization finds applications in the processing of fruits and vegetables. It helps in reducing microbial contamination on the produce, extending shelf life, and maintaining product quality.
+
+---
+
+Industria delle bevande:
+
+L'ozono viene usato nell'industria delle bevande per sanificare l'acqua, le bottiglie, le lattine e altri materiali di imballaggio. Puoi usarlo per la produzione di acqua in bottiglia, bevande analcoliche, succhi di frutta, birra e vino. Inoltre, puoi usarlo per disinfettare i piani di lavoro, le attrezzature e le aree di produzione da batteri, lieviti e muffe.
+
+Beverage Industry: Ozone is used in the beverage industry to sanitize water, bottles, cans, and other packaging materials. It is commonly employed in the production of bottled water, soft drinks, juices, and beer.
+
+---
+
+Lavorazione del pesce
+
+L'ozono viene usato per disinfettare prodotti ittici, superfici di lavorazione ed attrezzature. Puoi usarlo per lavare il pesce e rimuovere batteri e parassiti contenuti al suo interno per matenerne la freschezza. Inoltre, puoi usarlo all'interno delle zone di stoccaggio per aumentare la shelf-life del pesce, rimuovere odori sgradevoli ed eliminare le contaminazioni crociate.
+
+Seafood Processing: Ozone is utilized to disinfect seafood products, processing surfaces, and equipment. It helps in controlling bacterial growth and maintaining the freshness of seafood.
+
+---
+
+Panetteria e Pasticceria
+
+L'ozono viene usato sui prodotti da forno e sui dolci come pane, torte, biscotti e pasticcini. Puoi usarlo per ridurre le contaminazioni microbiche e per tenere lontani gli infestanti, come insetti e roditori. Inoltre, puoi usarlo per disinfettare le aree di lavoro, gli utensili e anche per setrilizzare i materiali di imballaggio, come pellicole di plastica e contenitori per prevenire le contaminazioni durante lo stoccaggio e il trasporto.
 
 
+Bakery and Confectionery: Ozone sanitization can be applied to bakery and confectionery products such as bread, cakes, cookies, and pastries. It aids in reducing microbial contamination and extending shelf life.
 
+Food Packaging: Ozone is sometimes used to sanitize packaging materials, including plastic films, trays, and containers, to ensure the safety and quality of packaged food products.
 
-
-
-
-
-
-
-
-
-
-Improved hygiene in public spaces: Ozone sanitization can help maintain clean and germ-free environments in public places such as hospitals, schools, and offices.
-
-Control of mold and mildew: Ozone can effectively eliminate mold and mildew, preventing their growth and associated health risks.
-
-Extended equipment life: Ozone treatment can help remove organic buildup and prolong the lifespan of equipment such as air conditioning systems.
-
-Reduction of allergens in carpets: Ozone treatment can reduce allergens trapped in carpets and upholstery.
-
-Elimination of chlorine byproducts: Ozone can break down chlorine byproducts, which can be harmful to human health.
-
-Improved laundry hygiene: Ozone can enhance the disinfection of laundry by killing bacteria and viruses, reducing the risk of infections.
-
-Indoor air purification: Ozone generators can help improve indoor air quality by eliminating pollutants and neutralizing odors.
-
-Versatility: Ozone sanitization can be used in various settings, including homes, offices, healthcare facilities, food processing plants, and swimming pools, among others.
+Food Storage and Cold Rooms: Ozone generators are employed in cold storage facilities and food warehouses to control mold, bacteria, and odors, thus maintaining a hygienic environment for food storage.

@@ -16,6 +16,14 @@ body {
     background-color: #eff6ff;
 }
 
+.text-blue-50 {
+    color: #eff6ff;
+}
+
+.bg-blue-600 {
+    background-color: #1d4ed8;
+}
+
 header {
     display: flex;
     justify-content: space-between;
