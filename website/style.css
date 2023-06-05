@@ -182,3 +182,16 @@ p:last-child {
     padding: 1.6rem 3.2rem;
     display: inline-block;
 }
+
+.call-number {
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+    border: 2px solid white;
+    padding: 1.6rem 3.2rem;
+
+}
+
+.img-block {
+    height: 40rem;
+}

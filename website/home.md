@@ -213,15 +213,27 @@ Control of mold and mildew: Ozone can effectively eliminate mold and mildew, pre
 
 bacteria 
 
+Elimina i batteri anche se a basse concentrazioni (1 ppm di ozono per pochi minuti già elimina il 99.9% delle cariche microbiche). Tra questi batteri sono inclusi: Salmonella, Escherichia coli, Listeria, Campylobacter e Staphylococcus.
+
 virus
 
-fingi
+Inattiva i virus anche se deve essere usato a concentrazioni più alte (visto che i virus sono più mediamente più resistenti all'ozono dei batteri). Tra questi virus sono inclusi: Norovirus, Hepatitis A, Rotavirus, Adenovirus e Enteroviruses.
 
 molds
 
+Elimina le muffe in modo efficace se dosato correttamente, in quanto la concentrazione di ozono necessaria varia dal tipo di muffa (comunque pochi ppm sono sufficienti). Tra queste muffe sono inclusi: Aspergillus, Penicillium, Fusarium, Rhizopus e Mucor.
+
 odors
 
+Elimina i cattivi odori facilmente e in poco tempo (un trattamento può variare da pochi minuti a poche ore in base alla quantità di odore da eliminare). Tra questi odori sono inclusi quelli di: Pesce, Carne, Formaggio, Oli e Spezie.
+
 insects
+
+Allontana gli insetti se utilizzato ad alte concentrazioni (gli insetti sono più resistenti all'ozono dei microrganismi, quindi è più facile allontanarli che eliminarli). Tra questi insetti sono inclusi: Mosche, Scarafaggi, Coleotteri, Falene e Formiche.
+
+funghi
+
+Elimina i funghi già a concentrazioni minime (molti tipi di funghi sono deboli contro l'ozono e possono essere eliminati in pochi minuiti). Tra questi funghi sono inclusi: Candida Parapsilosis e Candida Tropiclis.
 
 ## Applications
 
@@ -301,3 +313,13 @@ Bakery and Confectionery: Ozone sanitization can be applied to bakery and confec
 Food Packaging: Ozone is sometimes used to sanitize packaging materials, including plastic films, trays, and containers, to ensure the safety and quality of packaged food products.
 
 Food Storage and Cold Rooms: Ozone generators are employed in cold storage facilities and food warehouses to control mold, bacteria, and odors, thus maintaining a hygienic environment for food storage.
+
+## CTA
+
+Richiedi Prova Gratuita (30 Giorni)
+
+Se vuoi richiedere una prova gratuita di 30 giorni per valutare se la nostra tecnologia di sanificazione ad ozono fa al caso tuo, chiamaci al numero:
+
++39 0423 888888
+
+Qui potrai dirci qual'è la tua esigenza e, se reputiamo che l'ozono possa fare al caso suo, le offriremo la prova gratuita (chiedere di Elena Ceccato per una risposta più veloce).
