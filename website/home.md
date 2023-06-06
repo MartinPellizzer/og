@@ -314,6 +314,29 @@ Food Packaging: Ozone is sometimes used to sanitize packaging materials, includi
 
 Food Storage and Cold Rooms: Ozone generators are employed in cold storage facilities and food warehouses to control mold, bacteria, and odors, thus maintaining a hygienic environment for food storage.
 
+
+## Servizi
+
+1. Analisi
+Contattaci ed esponici la tua esigenza. Raccoglieremo tutti i dati che ci fornirai per valutare la soluzione migliore assieme a te.
+
+2. Progettazione
+Se hai una esigienza particolare e non riesci a trovare una soluzione su misura per te nel mercato, possiamo progettartela noi.
+
+3. Trasporto
+Gestiamo la spedizione delle atterezzature per te. In base all'attrezzature, te le invieremo noi via corriere te le consegnerà un nostro tecnico.
+
+4. Installazione
+Se hai già un'elettricista di riferimento, bene. Altrimento pensiamo noi all'installazione delle attrezzature.
+
+5. Assistenza
+Ti assisteremo durante tutto il periodo di prova e potrai contattarci per per ogni dubbio anche dopo che avrai acquistato le attrezzature. 
+
+6. Manutenzione
+Puoi scegliere se fare manutenzioni programmate oppure occasionali per avere dei generatori di ozono sempre efficienti.
+
+
+
 ## CTA
 
 Richiedi Prova Gratuita (30 Giorni)
@@ -323,3 +346,5 @@ Se vuoi richiedere una prova gratuita di 30 giorni per valutare se la nostra tec
 +39 0423 888888
 
 Qui potrai dirci qual'è la tua esigenza e, se reputiamo che l'ozono possa fare al caso suo, le offriremo la prova gratuita (chiedere di Elena Ceccato per una risposta più veloce).
+
+
