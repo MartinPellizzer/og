@@ -14,7 +14,8 @@ import csv
 tree_fields = [
 	'id',
 	'level',
-	'exp',
+	'attempt',
+	'gil',
 	'date_first_added',
 	'date_last_updated',
 	'first_name',
@@ -26,7 +27,24 @@ tree_fields = [
 	'district',
 	'website',
 	'industry',
+	'salesman',
+]
+
+db_fields = [
+	'level',
+	'attempt',
 	'gil',
+	'date_first_added',
+	'date_last_updated',
+	'first_name',
+	'last_name',
+	'email',
+	'phone',
+	'business_name',
+	'business_address',
+	'district',
+	'website',
+	'industry',
 	'salesman',
 ]
 
@@ -46,27 +64,10 @@ def drop_table(table):
 
 # CLIENTS ####################################################
 def db_create_table_clients():
+	fields = ' text, '.join(db_fields) + ' text'
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-	c.execute(f'''
-		create table if not exists clients (
-			level text,
-			exp text,
-			date_first_added text,
-			date_last_updated text,
-			first_name text,
-			last_name text,
-			email text,
-			phone text,
-			business_name text,
-			business_address text,
-			district text,
-			website text,
-			industry text,
-			gil text,
-			salesman text
-		)
-	''')
+	c.execute(f'''create table if not exists clients ({fields})''')
 	conn.commit()
 	conn.close()
 
@@ -75,6 +76,10 @@ def db_update_row(values):
 	# PUT ID IN LAST POS
 	data = values[1:]
 	data.append(values[0])
+
+	fields = ' text, '.join(db_fields) + ' text'
+	print(data)
+	quit()
 
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
@@ -539,7 +544,7 @@ tree.bind("<Double-1>", tk_open_notes)
 ##############################################################
 # INIT
 ##############################################################
-# drop_table(table_clients)
+drop_table('clients')
 db_create_table_clients()
 db_create_table_notes()
 tk_refresh_tree(db_get_all_rows())
