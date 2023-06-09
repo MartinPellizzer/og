@@ -488,7 +488,7 @@ def tk_open_notes(e):
 	
 	selected = tree.focus()
 	values = tree.item(selected, 'values')
-	business_name_curr = values[9]
+	business_name_curr = values[10]
 
 
 	def tk_note_refresh_tree():
@@ -688,6 +688,7 @@ def tk_list_all_clients(e):
 ##############################################################
 tree.bind('<ButtonRelease-1>', tk_select_record)
 tree.bind("<Double-1>", tk_open_notes)
+tree.bind("<space>", tk_open_notes)
 tree.bind("+", client_add_level)
 tree.bind("-", client_sub_level)
 tree.bind("p", tk_list_clients_by_priority)
@@ -714,8 +715,12 @@ db_create_table_notes()
 tk_refresh_tree(db_get_all_rows())
 tk_color_tree()
 tree.focus_set()
-tree.focus(0)
-tree.selection_set(0)
+
+try: 
+	tree.focus(0)
+	tree.selection_set(0)
+except:
+	pass
 
 # print(db_get_all_notes())
 
