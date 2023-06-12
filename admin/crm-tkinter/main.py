@@ -232,6 +232,17 @@ def db_note_delete(oid):
 ##############################################################
 # TKINTER MAIN
 ##############################################################
+def tk_procedure_refresh():
+	selected = tree.focus()
+	values = tree.item(selected, 'values')
+
+	with open(f'procedures/procedure_{values[2]}.txt') as f:
+		content = f.read()
+		procedure_text.configure(state='normal')
+		procedure_text.delete('1.0', END)
+		procedure_text.insert('end', content)
+		procedure_text.configure(state='disabled')
+
 def tk_get_entries_vals():
 	return [entry.get() for entry in entries]
 
@@ -268,12 +279,15 @@ def tk_select_record(e):
 			entry.delete(0, END)
 			entry.insert(0, values[k])
 
+	tk_procedure_refresh()
+
 
 def tk_refresh_tree(rows):
 	tree.delete(*tree.get_children())
 	for index, row in enumerate(rows):
 		tree.insert(parent='', index=index, iid=index, text='', values=row, tags=(row[2],))
 	
+
 def tk_color_tree():
 	tree.tag_configure(-1, background='red')
 	tree.tag_configure(1, background='yellow')
@@ -423,6 +437,7 @@ root = Tk()
 root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
 root.geometry('800x600')
+root.state('zoomed')
 
 
 # CREATE FIELDS
@@ -476,6 +491,13 @@ for field in tree_fields:
 
 
 
+
+# VIEW PROCEDURE
+procedure_frame = Frame(root)
+procedure_frame.pack(side=LEFT, fill=Y)
+
+procedure_text = Text(procedure_frame, padx=20, pady=10)
+procedure_text.pack(expand=True, fill=BOTH)
 
 ##############################################################
 # TKINTER NOTES
@@ -683,6 +705,47 @@ def tk_list_all_clients(e):
 	tree.selection_set(0)
 
 
+def tk_tree_select_next_row(e):
+	try:
+		next_row = int(tree.focus()) + 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+	
+	tk_procedure_refresh()
+	
+
+def tk_tree_down_key(e):
+	try:
+		next_row = int(tree.focus()) + 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+	tk_procedure_refresh()
+	return "break"
+
+
+def tk_tree_up_key(e):
+	try:
+		next_row = int(tree.focus()) - 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+	tk_procedure_refresh()
+	return "break"
+
+	
+
+
+def tk_tree_select_prev_row(e):
+	try:
+		next_row = int(tree.focus()) - 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+
+	tk_procedure_refresh()
+
 ##############################################################
 # KEY BINDING
 ##############################################################
@@ -705,6 +768,13 @@ tree.bind("8", tk_list_clients_by_status_8)
 tree.bind("9", tk_list_clients_by_status_9)
 
 
+tree.bind('j', tk_tree_select_next_row)
+tree.bind('k', tk_tree_select_prev_row)
+
+tree.bind('<Up>', tk_tree_up_key)
+tree.bind('<Down>', tk_tree_down_key)
+
+
 ##############################################################
 # INIT
 ##############################################################
@@ -721,6 +791,12 @@ try:
 	tree.selection_set(0)
 except:
 	pass
+
+
+selected = tree.focus()
+values = tree.item(selected, 'values')
+
+tk_procedure_refresh()
 
 # print(db_get_all_notes())
 

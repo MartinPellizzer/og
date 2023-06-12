@@ -1,0 +1,13 @@
+Level 0: You just added the client to the DB, but didn't contact him.
+
+Send the first email.
+
+1. Open the "email_templates" folder
+2. Open the correnct "industry" folder
+3. Open the "email_1"
+4. Send the "email_1" text to client
+5. Update the client level to 1 (press +)
+
+Example email:
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et euismod velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet mi placerat metus consectetur efficitur nec vitae est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum semper urna. Phasellus accumsan ultrices libero quis tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
