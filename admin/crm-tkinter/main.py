@@ -281,7 +281,6 @@ def tk_color_tree():
 	tree.tag_configure(6, background='green')
 
 
-
 def tk_upload_csv():
 	filename = filedialog.askopenfilename(filetypes=(("csv files","*.csv"),("All files","*.*")))
 	
@@ -451,6 +450,9 @@ i += 1
 frame_tree = Frame(root)
 frame_tree.pack(side=LEFT, expand=True, fill=BOTH)
 
+upload_csv_button = Button(frame_tree, text='Upload CSV', command=tk_upload_csv)
+upload_csv_button.pack()
+
 tree = ttk.Treeview(frame_tree)
 tree.pack(expand=True, fill=BOTH)
 
@@ -461,6 +463,7 @@ tree.heading('#0', text='', anchor=W)
 for field in tree_fields:
 	tree.column(field, width=80, anchor=W)
 	tree.heading(field, text=field, anchor=W)
+
 
 
 
