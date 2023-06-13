@@ -11,8 +11,13 @@ import csv
 ##############################################################
 # DATA
 ##############################################################
+note_fields = [
+	'business_name', 
+	'note_date', 
+	'note_text'
+]
+
 tree_fields = [
-	'id',
 	'gil',
 	'level',
 	'attempt',
@@ -83,15 +88,12 @@ def db_create_table_clients():
 
 
 def db_update_row(values):
-	# PUT ID IN LAST POS
 	data = values[1:]
 	data.append(values[0])
-
 	fields = ' = ?, '.join(db_fields) + ' = ?'
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	sql = f'''update clients set {fields} where oid = ?'''
-	print(sql)
 	c.execute(sql, data)
 	conn.commit()
 	conn.close()
@@ -133,21 +135,16 @@ def db_insert_rows(rows):
 
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-
 	for row in rows:
 		fields_dict = {}
 		for i, key in enumerate(db_fields):
 			fields_dict[key] = row[i]
-
-		c.execute(f'insert into clients values ({fields})',
-			fields_dict
-		)
+		c.execute(f'insert into clients values ({fields})', fields_dict)
 	conn.commit()
 	conn.close()
 
 
 # NOTES ####################################################
-note_fields = ['business_name', 'note_date', 'note_text']
 
 def db_create_table_notes():
 	conn = sqlite3.connect(database_name)
@@ -225,9 +222,7 @@ def db_note_delete(oid):
 def tk_procedure_refresh():
 	selected = tree.focus()
 	values = tree.item(selected, 'values')
-
 	if not values: return
-
 	with open(f'procedures/procedure_{values[2]}.txt') as f:
 		content = f.read()
 		procedure_text.configure(state='normal')
@@ -235,42 +230,38 @@ def tk_procedure_refresh():
 		procedure_text.insert('end', content)
 		procedure_text.configure(state='disabled')
 
-def tk_get_entries_vals():
+
+def tk_entries_refresh():
+	selected = tree.focus()
+	values = tree.item(selected, 'values')
+	for k, entry in enumerate(entries):
+		entry.delete(0, END)
+		entry.insert(0, values[k])
+
+
+def tk_entries_get_vals():
 	return [entry.get() for entry in entries]
 
 
 def tk_update_record():
-	values = tk_get_entries_vals()
+	values = tk_entries_get_vals()
 	db_update_row(values)
 	tree.item(tree.focus(), text='', values=values)
 
 
-# TODO: CLEAR ALSO ID? 
-def tk_clear_entries():
-	for i, entry in enumerate(entries[1:]):
+def tk_entries_clear():
+	for entry in entries:
 		entry.delete(0, END)
 		
 
 def tk_delete():
 	db_delete_row()
 	tk_refresh_tree(db_get_all_rows())
-	tk_clear_entries()
+	tk_entries_clear()
 	
 
 def tk_select_record(e):
-	selected = tree.focus()
-	values = tree.item(selected, 'values')
-
-	for k, entry in enumerate(entries):
-		if k == 0:
-			entry.config(state='normal')
-			entry.delete(0, END)
-			entry.insert(0, values[k])
-			entry.config(state='readonly')
-		else:
-			entry.delete(0, END)
-			entry.insert(0, values[k])
-
+	tk_entries_refresh()
 	tk_procedure_refresh()
 
 
@@ -414,7 +405,7 @@ def tk_upload_csv():
 # 		conn.commit()
 # 		conn.close()
 
-# 		tk_clear_entries()
+# 		tk_entries_clear()
 # 		tk_refresh_tree(db_get_all_rows())
 
 # 	curr_add_button = Button(add_frame, text='Add', command=add_client_db)
@@ -429,7 +420,7 @@ root = Tk()
 root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
 root.geometry('800x600')
-root.state('zoomed')
+# root.state('zoomed')
 
 
 # CREATE FIELDS
@@ -687,15 +678,6 @@ def tk_list_all_clients(e):
 	tree.focus(0)
 	tree.selection_set(0)
 
-
-def tk_tree_select_next_row(e):
-	try:
-		next_row = int(tree.focus()) + 1
-		tree.focus(next_row)
-		tree.selection_set(next_row)
-	except: return
-	
-	tk_procedure_refresh()
 	
 
 def tk_tree_down_key(e):
@@ -704,6 +686,8 @@ def tk_tree_down_key(e):
 		tree.focus(next_row)
 		tree.selection_set(next_row)
 	except: return
+
+	tk_entries_refresh()
 	tk_procedure_refresh()
 	return "break"
 
@@ -714,10 +698,21 @@ def tk_tree_up_key(e):
 		tree.focus(next_row)
 		tree.selection_set(next_row)
 	except: return
+
+	tk_entries_refresh()
 	tk_procedure_refresh()
 	return "break"
 
+
+def tk_tree_select_next_row(e):
+	try:
+		next_row = int(tree.focus()) + 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
 	
+	tk_entries_refresh()
+	tk_procedure_refresh()
 
 
 def tk_tree_select_prev_row(e):
@@ -727,7 +722,10 @@ def tk_tree_select_prev_row(e):
 		tree.selection_set(next_row)
 	except: return
 
+	tk_entries_refresh()
 	tk_procedure_refresh()
+
+
 
 ##############################################################
 # KEY BINDING
@@ -761,7 +759,7 @@ tree.bind('<Down>', tk_tree_down_key)
 ##############################################################
 # INIT
 ##############################################################
-drop_table('clients')
+# drop_table('clients')
 db_create_table_clients()
 db_create_table_notes()
 
@@ -779,6 +777,7 @@ except:
 selected = tree.focus()
 values = tree.item(selected, 'values')
 
+tk_entries_refresh()
 tk_procedure_refresh()
 
 # print(db_get_all_notes())
