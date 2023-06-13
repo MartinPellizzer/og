@@ -1,13 +1,24 @@
-Level 1: You sent and email to the client, but the client didn't replied.
+Level 1: You sent and email to the client, but the client hasn't already replied.
 
-Send the first email.
+If the client did reply:
+
+1. Update the client level to 2 (press +)
+
+-----------------------------------------
+
+If the client did NOT reply:
 
 1. Open the "email_templates" folder
 2. Open the correnct "industry" folder
-3. Open the "email_1"
-4. Send the "email_1" text to client
-5. Update the client level to 1 (press +)
+3. Open the "email_[x]_day_[y]"
+   (depending on the number of "attempt")
+4. Send the email after [y] days
+5. Add +1 to the client "attempt"
 
-Example email:
+-----------------------------------------
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et euismod velit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc sit amet mi placerat metus consectetur efficitur nec vitae est. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent fermentum semper urna. Phasellus accumsan ultrices libero quis tempor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+Email text:
+
+.
+.
+.

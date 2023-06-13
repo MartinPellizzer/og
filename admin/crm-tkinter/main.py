@@ -31,9 +31,9 @@ tree_fields = [
 ]
 
 db_fields = {
-	'gil': "integer",
-	'level': "integer",
-	'attempt': "integer",
+	'gil': "text",
+	'level': "text",
+	'attempt': "text",
 	'date_first_added': "text",
 	'date_last_updated': "text",
 	'first_name': "text",
@@ -47,6 +47,7 @@ db_fields = {
 	'industry': "text",
 	'salesman': "text",
 }
+
 
 ##############################################################
 # DATABASE
@@ -132,25 +133,14 @@ def db_insert_rows(rows):
 
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
+
 	for row in rows:
+		fields_dict = {}
+		for i, key in enumerate(db_fields):
+			fields_dict[key] = row[i]
+
 		c.execute(f'insert into clients values ({fields})',
-			{
-				'gil': int(row[0]),
-				'level': int(row[1]),
-				'attempt': int(row[2]),
-				'date_first_added': row[3],
-				'date_last_updated': row[4],
-				'first_name': row[5],
-				'last_name': row[6],
-				'email': row[7],
-				'phone': row[8],
-				'business_name': row[9],
-				'business_address': row[10],
-				'district': row[11],
-				'website': row[12],
-				'industry': row[13],
-				'salesman': row[14],
-			}
+			fields_dict
 		)
 	conn.commit()
 	conn.close()
@@ -236,6 +226,8 @@ def tk_procedure_refresh():
 	selected = tree.focus()
 	values = tree.item(selected, 'values')
 
+	if not values: return
+
 	with open(f'procedures/procedure_{values[2]}.txt') as f:
 		content = f.read()
 		procedure_text.configure(state='normal')
@@ -298,7 +290,7 @@ def tk_color_tree():
 	tree.tag_configure(6, background='green')
 
 
-# TODO: UPLOAD REAL CSV WITH BROWSE WINDOW
+
 def tk_upload_csv():
 	filename = filedialog.askopenfilename(filetypes=(("csv files","*.csv"),("All files","*.*")))
 	
@@ -455,18 +447,9 @@ for i, field in enumerate(tree_fields):
 	tmp_entry.grid(row=i, column=1, sticky=W)
 	entries.append(tmp_entry)
 i += 1
-# clear_button = Button(frame_fields, text='Clear', command=tk_clear_entries)
-# clear_button.grid(row=i, column=0, sticky=W)
-# i += 1
-# remove_button = Button(frame_fields, text='Remove', command=tk_delete)
-# remove_button.grid(row=i, column=0, sticky=W)
-# i += 1
 update_button = Button(frame_fields, text='Update', command=tk_update_record)
 update_button.grid(row=i, column=0, sticky=W)
 i += 1
-# add_button = Button(frame_fields, text='Add', command=add_client)
-# add_button.grid(row=i, column=0, sticky=W)
-# i += 1
 upload_csv_button = Button(frame_fields, text='Upload CSV', command=tk_upload_csv)
 upload_csv_button.grid(row=i, column=0, sticky=W)
 i += 1
@@ -778,7 +761,7 @@ tree.bind('<Down>', tk_tree_down_key)
 ##############################################################
 # INIT
 ##############################################################
-# drop_table('clients')
+drop_table('clients')
 db_create_table_clients()
 db_create_table_notes()
 

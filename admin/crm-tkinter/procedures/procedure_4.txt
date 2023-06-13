@@ -1,1 +1,15 @@
-Procedure 4
+Level 4: You booked an inspection.
+
+1. Send an email the day before to:
+     - Client
+     - Salesman
+2. The email is to remember them about
+   the next day inspection
+3. If the salesman doesn't send you an
+   email 24 hours after the inspection,
+   send and email to the salesman asking
+   him about the inspection
+4. If the client agreed on a free trial,
+   update client level (+1)
+
+-----------------------------------------
