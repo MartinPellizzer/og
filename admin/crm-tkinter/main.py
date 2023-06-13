@@ -3,6 +3,7 @@ from tkinter import ttk, filedialog
 from datetime import datetime
 import sqlite3
 import csv
+import os
 
 # TODO: remove id entry, always take id from treeview selected row
 # TODO: heavy refactoring before moving on
@@ -223,7 +224,11 @@ def tk_procedure_refresh():
 	selected = tree.focus()
 	values = tree.item(selected, 'values')
 	if not values: return
-	with open(f'procedures/procedure_{values[2]}.txt') as f:
+
+	file_path = f'procedures/procedure_{values[2]}.txt'
+	if not os.path.exists(file_path): return
+
+	with open(file_path) as f:
 		content = f.read()
 		procedure_text.configure(state='normal')
 		procedure_text.delete('1.0', END)
@@ -440,18 +445,15 @@ i += 1
 update_button = Button(frame_fields, text='Update', command=tk_update_record)
 update_button.grid(row=i, column=0, sticky=W)
 i += 1
-upload_csv_button = Button(frame_fields, text='Upload CSV', command=tk_upload_csv)
-upload_csv_button.grid(row=i, column=0, sticky=W)
-i += 1
 
 
 
 # CREATE VIEWER
-frame_tree = Frame(root)
-frame_tree.pack(side=LEFT, expand=True, fill=BOTH)
+frame_main = Frame(root)
+frame_main.pack(side=LEFT, expand=True, fill=BOTH)
 
-upload_csv_button = Button(frame_tree, text='Upload CSV', command=tk_upload_csv)
-upload_csv_button.pack()
+frame_tree = Frame(frame_main)
+frame_tree.pack(side=TOP, expand=True, fill=BOTH)
 
 tree = ttk.Treeview(frame_tree)
 tree.pack(expand=True, fill=BOTH)
@@ -464,6 +466,11 @@ for field in tree_fields:
 	tree.column(field, width=80, anchor=W)
 	tree.heading(field, text=field, anchor=W)
 
+frame_upload_csv= Frame(frame_main, padx=10, pady=10)
+frame_upload_csv.pack(side=TOP, fill=X)
+
+upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_upload_csv)
+upload_csv_button.pack(side=RIGHT)
 
 
 
@@ -571,6 +578,8 @@ def client_add_level(e):
 	tk_refresh_tree(db_get_all_rows())
 	tree.focus(iid)
 	tree.selection_set(iid)
+	tk_entries_refresh()
+	tk_procedure_refresh()
 
 	
 def client_sub_level(e):
@@ -581,16 +590,8 @@ def client_sub_level(e):
 	tk_refresh_tree(db_get_all_rows())
 	tree.focus(iid)
 	tree.selection_set(iid)
-
-	
-def client_sub_level(e):
-	iid = tree.focus()
-	values = list(tree.item(iid, 'values'))
-	values[2] = int(values[2]) - 1
-	db_update_row(values)
-	tk_refresh_tree(db_get_all_rows())
-	tree.focus(iid)
-	tree.selection_set(iid)
+	tk_entries_refresh()
+	tk_procedure_refresh()
 
 
 def tk_list_clients_by_priority(e):
@@ -605,71 +606,8 @@ def tk_list_clients_by_priority(e):
 	tree.selection_set(0)
 	
 
-def tk_list_clients_by_status_0(e):
-	rows = db_get_all_clients_by_level(0) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_1(e):
-	rows = db_get_all_clients_by_level(1) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_2(e):
-	rows = db_get_all_clients_by_level(2) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_3(e):
-	rows = db_get_all_clients_by_level(3) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_4(e):
-	rows = db_get_all_clients_by_level(4) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_5(e):
-	rows = db_get_all_clients_by_level(5) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_6(e):
-	rows = db_get_all_clients_by_level(6) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_7(e):
-	rows = db_get_all_clients_by_level(7) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_8(e):
-	rows = db_get_all_clients_by_level(8) # Email first time
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
-	
-def tk_list_clients_by_status_9(e):
-	rows = db_get_all_clients_by_level(9) # Email first time
+def tk_list_clients_by_level(e):
+	rows = db_get_all_clients_by_level(e.char)
 	tk_refresh_tree(rows)
 	if not rows: return
 	tree.focus(0)
@@ -681,7 +619,6 @@ def tk_list_all_clients(e):
 	tree.focus(0)
 	tree.selection_set(0)
 
-	
 
 def tk_tree_down_key(e):
 	try:
@@ -740,16 +677,16 @@ tree.bind("+", client_add_level)
 tree.bind("-", client_sub_level)
 tree.bind("p", tk_list_clients_by_priority)
 tree.bind(".", tk_list_all_clients)
-tree.bind("0", tk_list_clients_by_status_0)
-tree.bind("1", tk_list_clients_by_status_1)
-tree.bind("2", tk_list_clients_by_status_2)
-tree.bind("3", tk_list_clients_by_status_3)
-tree.bind("4", tk_list_clients_by_status_4)
-tree.bind("5", tk_list_clients_by_status_5)
-tree.bind("6", tk_list_clients_by_status_6)
-tree.bind("7", tk_list_clients_by_status_7)
-tree.bind("8", tk_list_clients_by_status_8)
-tree.bind("9", tk_list_clients_by_status_9)
+tree.bind("0", tk_list_clients_by_level)
+tree.bind("1", tk_list_clients_by_level)
+tree.bind("2", tk_list_clients_by_level)
+tree.bind("3", tk_list_clients_by_level)
+tree.bind("4", tk_list_clients_by_level)
+tree.bind("5", tk_list_clients_by_level)
+tree.bind("6", tk_list_clients_by_level)
+tree.bind("7", tk_list_clients_by_level)
+tree.bind("8", tk_list_clients_by_level)
+tree.bind("9", tk_list_clients_by_level)
 
 
 tree.bind('j', tk_tree_select_next_row)
