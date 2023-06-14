@@ -1,6 +1,6 @@
 from tkinter import *
 from tkinter import ttk, filedialog
-from datetime import datetime
+from datetime import datetime, timedelta
 import sqlite3
 import csv
 import os
@@ -23,7 +23,8 @@ tree_fields = [
 	'level',
 	'attempt',
 	'date_first_added',
-	'date_last_updated',
+	'date_last_action',
+	'date_next_action',
 	'first_name',
 	'last_name',
 	'email',
@@ -41,7 +42,8 @@ db_fields = {
 	'level': "text",
 	'attempt': "text",
 	'date_first_added': "text",
-	'date_last_updated': "text",
+	'date_last_action': "text",
+	'date_next_action': "text",
 	'first_name': "text",
 	'last_name': "text",
 	'email': "text",
@@ -89,31 +91,30 @@ def db_create_table_clients():
 
 
 def db_update_row(values):
-	data = values[1:]
-	data.append(values[0])
+	values.append(values[10])
 	fields = ' = ?, '.join(db_fields) + ' = ?'
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-	sql = f'''update clients set {fields} where oid = ?'''
-	c.execute(sql, data)
+	sql = f'''update clients set {fields} where business_name = ?'''
+	c.execute(sql, values)
 	conn.commit()
 	conn.close()
 
 
-def db_delete_row():
-	conn = sqlite3.connect(database_name)
-	c = conn.cursor()
-	selected = tree.focus()
-	values = tree.item(selected, 'values')
-	c.execute(f'delete from clients where oid={values[0]}')
-	conn.commit()
-	conn.close()
+# def db_delete_row():
+# 	conn = sqlite3.connect(database_name)
+# 	c = conn.cursor()
+# 	selected = tree.focus()
+# 	values = tree.item(selected, 'values')
+# 	c.execute(f'delete from clients where oid={values[0]}')
+# 	conn.commit()
+# 	conn.close()
 
 
 def db_get_all_rows():
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-	c.execute('select rowid, * from clients')
+	c.execute('select * from clients')
 	records = c.fetchall()	
 	conn.commit()
 	conn.close()
@@ -123,11 +124,22 @@ def db_get_all_rows():
 def db_get_all_clients_by_level(level):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-	c.execute(f'select rowid, * from clients where level={level}')
+	c.execute(f'select * from clients where level={level}')
 	records = c.fetchall()	
 	conn.commit()
 	conn.close()
 	return records
+
+
+def db_get_all_clients_by_date_next_action(date):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute(f'select * from clients')
+	records = c.fetchall()	
+	records_filtered = [record for record in records if record[5] == str(date).strip()]
+	conn.commit()
+	conn.close()
+	return records_filtered
 
 
 def db_insert_rows(rows):
@@ -225,7 +237,7 @@ def tk_procedure_refresh():
 	values = tree.item(selected, 'values')
 	if not values: return
 
-	file_path = f'procedures/procedure_{values[2]}.txt'
+	file_path = f'procedures/procedure_{values[1]}.txt'
 	if not os.path.exists(file_path): return
 
 	with open(file_path) as f:
@@ -273,7 +285,7 @@ def tk_select_record(e):
 def tk_refresh_tree(rows):
 	tree.delete(*tree.get_children())
 	for index, row in enumerate(rows):
-		tree.insert(parent='', index=index, iid=index, text='', values=row, tags=(row[2],))
+		tree.insert(parent='', index=index, iid=index, text='', values=row, tags=(row[1],))
 	
 
 def tk_color_tree():
@@ -299,7 +311,8 @@ def tk_upload_csv():
 			curr_level = 0
 			curr_attempt = 0
 			curr_date_first_added = datetime.now().date()
-			curr_date_last_added = datetime.now().date()
+			curr_date_last_action = datetime.now().date()
+			curr_date_next_action = datetime.now().date()
 			curr_first_name = ''
 			curr_last_name = ''
 			curr_email = row[4]
@@ -316,7 +329,8 @@ def tk_upload_csv():
 				curr_level,
 				curr_attempt,
 				curr_date_first_added,
-				curr_date_last_added,
+				curr_date_last_action,
+				curr_date_next_action,
 				curr_first_name,
 				curr_last_name,
 				curr_email,
@@ -520,8 +534,19 @@ def tk_open_notes(e):
 		note_date = datetime.now()
 		note_content = note_text.get("1.0",END)
 		row = [business_name_curr, note_date, note_content]
+
+		iid = tree.focus()
+		values = list(tree.item(iid, 'values'))
+		data = note_data_entry.get()
+		if data != '':
+			values[5] = note_data_entry.get()
+
 		db_insert_note(row)
+		db_update_row(values)
 		tk_note_refresh_tree()
+		tk_refresh_tree(db_get_all_rows())
+		tree.focus(iid)
+		tree.selection_set(iid)
 
 
 	def tk_note_delete():
@@ -567,13 +592,31 @@ def tk_open_notes(e):
 	note_delete = Button(note_frame_text, text='Delete Note', command=tk_note_delete)
 	note_delete.pack()
 
+	note_data_label = Label(note_frame_text, text='Next Action Data: (1991-09-27)')
+	note_data_label.pack()
+	note_data_entry = Entry(note_frame_text)
+	note_data_entry.pack()
+
 	note_tree.bind('<ButtonRelease-1>', tk_note_selected)
 
 
-def client_add_level(e):
+def client_level_up(e):
 	iid = tree.focus()
 	values = list(tree.item(iid, 'values'))
-	values[2] = int(values[2]) + 1
+
+	level_curr = int(values[1])
+	level_next = int(values[1]) + 1
+
+	values[1] = level_next
+	values[4] = datetime.now().date()
+
+	if level_curr == 0:
+		values[5] = datetime.now().date() + timedelta(days=30)	
+	elif level_curr == 1:
+		values[5] = datetime.now().date() + timedelta(days=7)
+	elif level_curr == 2:
+		values[5] = datetime.now().date()
+	
 	db_update_row(values)
 	tk_refresh_tree(db_get_all_rows())
 	tree.focus(iid)
@@ -582,10 +625,10 @@ def client_add_level(e):
 	tk_procedure_refresh()
 
 	
-def client_sub_level(e):
+def client_level_down(e):
 	iid = tree.focus()
 	values = list(tree.item(iid, 'values'))
-	values[2] = int(values[2]) - 1
+	values[1] = int(values[1]) - 1
 	db_update_row(values)
 	tk_refresh_tree(db_get_all_rows())
 	tree.focus(iid)
@@ -595,9 +638,9 @@ def client_sub_level(e):
 
 
 def tk_list_clients_by_priority(e):
-	rows = db_get_all_clients_by_level(3) # Booked call
-	rows += db_get_all_clients_by_level(4) # Booked visit
-	rows += db_get_all_clients_by_level(5) # Test Follow up
+	rows = db_get_all_clients_by_level(3) # Call
+	rows += db_get_all_clients_by_level(4) # Inspection
+	rows += db_get_all_clients_by_level(5) # Inspection Follow up
 	rows += db_get_all_clients_by_level(2) # Email more info
 	rows += db_get_all_clients_by_level(1) # Email again
 	rows += db_get_all_clients_by_level(0) # Email first time
@@ -666,6 +709,23 @@ def tk_tree_select_prev_row(e):
 	tk_procedure_refresh()
 
 
+def tk_list_clients_today(e):
+	today_date = datetime.now().date()
+	rows = db_get_all_clients_by_date_next_action(today_date)
+	rows_prioritized = []
+	rows_prioritized += [row for row in rows if row[1] == '3']
+	rows_prioritized += [row for row in rows if row[1] == '4']
+	rows_prioritized += [row for row in rows if row[1] == '5']
+	rows_prioritized += [row for row in rows if row[1] == '2']
+	rows_prioritized += [row for row in rows if row[1] == '1']
+	rows_prioritized += [row for row in rows if row[1] == '0']
+	# for row in rows:
+	# 	if row[1] == '3':
+	# 		rows_prioritized.append(row)
+	tk_refresh_tree(rows_prioritized)
+	tree.focus(0)
+	tree.selection_set(0)
+
 
 ##############################################################
 # KEY BINDING
@@ -673,9 +733,10 @@ def tk_tree_select_prev_row(e):
 tree.bind('<ButtonRelease-1>', tk_select_record)
 tree.bind("<Double-1>", tk_open_notes)
 tree.bind("<space>", tk_open_notes)
-tree.bind("+", client_add_level)
-tree.bind("-", client_sub_level)
+tree.bind("+", client_level_up)
+tree.bind("-", client_level_down)
 tree.bind("p", tk_list_clients_by_priority)
+tree.bind("t", tk_list_clients_today)
 tree.bind(".", tk_list_all_clients)
 tree.bind("0", tk_list_clients_by_level)
 tree.bind("1", tk_list_clients_by_level)
@@ -717,7 +778,8 @@ except:
 selected = tree.focus()
 values = tree.item(selected, 'values')
 
-tk_entries_refresh()
+try: tk_entries_refresh()
+except: pass
 tk_procedure_refresh()
 
 # print(db_get_all_notes())
