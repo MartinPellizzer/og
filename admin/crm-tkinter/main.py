@@ -5,39 +5,19 @@ import sqlite3
 import csv
 import os
 
-# TODO: remove id entry, always take id from treeview selected row
 # TODO: heavy refactoring before moving on
 
 
 ##############################################################
 # DATA
 ##############################################################
-note_fields = [
-	'business_name', 
-	'note_date', 
-	'note_text'
-]
+db_notes_fields = {
+	'business_name': "text", 
+	'note_date': "text", 
+	'note_text': "text",
+}
 
-tree_fields = [
-	'gil',
-	'level',
-	'attempt',
-	'date_first_added',
-	'date_last_action',
-	'date_next_action',
-	'first_name',
-	'last_name',
-	'email',
-	'phone',
-	'business_name',
-	'business_address',
-	'district',
-	'website',
-	'industry',
-	'salesman',
-]
-
-db_fields = {
+db_clients_fields = {
 	'gil': "text",
 	'level': "text",
 	'attempt': "text",
@@ -55,6 +35,8 @@ db_fields = {
 	'industry': "text",
 	'salesman': "text",
 }
+
+clients_fields = [f'{f}' for f in db_clients_fields]
 
 
 ##############################################################
@@ -80,8 +62,8 @@ def db_pragma_table_clients():
 	conn.close()
 
 
-def db_create_table_clients():
-	fields_lst = [f'{f} {db_fields[f]}' for f in db_fields]
+def db_clients_create_table():
+	fields_lst = [f'{f} {db_clients_fields[f]}' for f in db_clients_fields]
 	fields = ', '.join(fields_lst)
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
@@ -90,9 +72,9 @@ def db_create_table_clients():
 	conn.close()
 
 
-def db_update_row(values):
+def db_clients_update_by_business_name(values):
 	values.append(values[10])
-	fields = ' = ?, '.join(db_fields) + ' = ?'
+	fields = ' = ?, '.join(db_clients_fields) + ' = ?'
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	sql = f'''update clients set {fields} where business_name = ?'''
@@ -101,7 +83,7 @@ def db_update_row(values):
 	conn.close()
 
 
-# def db_delete_row():
+# def db_clients_delete_selected_row():
 # 	conn = sqlite3.connect(database_name)
 # 	c = conn.cursor()
 # 	selected = tree.focus()
@@ -111,7 +93,7 @@ def db_update_row(values):
 # 	conn.close()
 
 
-def db_get_all_rows():
+def db_clients_get_rows():
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	c.execute('select * from clients')
@@ -121,7 +103,7 @@ def db_get_all_rows():
 	return records
 
 
-def db_get_all_clients_by_level(level):
+def db_clients_get_by_level(level):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	c.execute(f'select * from clients where level={level}')
@@ -131,7 +113,7 @@ def db_get_all_clients_by_level(level):
 	return records
 
 
-def db_get_all_clients_by_date_next_action(date):
+def db_clients_get_by_date_next_action(date):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	c.execute(f'select * from clients')
@@ -142,15 +124,15 @@ def db_get_all_clients_by_date_next_action(date):
 	return records_filtered
 
 
-def db_insert_rows(rows):
-	fields_lst = [f'{f}' for f in db_fields]
+def db_clients_insert_rows(rows):
+	fields_lst = [f'{f}' for f in db_clients_fields]
 	fields = ':' + ', :'.join(fields_lst)
 
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	for row in rows:
 		fields_dict = {}
-		for i, key in enumerate(db_fields):
+		for i, key in enumerate(db_clients_fields):
 			fields_dict[key] = row[i]
 		c.execute(f'insert into clients values ({fields})', fields_dict)
 	conn.commit()
@@ -159,35 +141,30 @@ def db_insert_rows(rows):
 
 # NOTES ####################################################
 
-def db_create_table_notes():
+def db_notes_create_table():
+	fields_lst = [f'{f} {db_notes_fields[f]}' for f in db_notes_fields]
+	fields = ', '.join(fields_lst)
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
-	c.execute(f'''
-		create table if not exists notes (
-			business_name text,
-			note_date text,
-			note_text text
-		)
-	''')
+	c.execute(f'''create table if not exists notes ({fields})''')
+
+
+def db_notes_insert_row(row):
+	fields_lst = [f'{f}' for f in db_notes_fields]
+	fields = ':' + ', :'.join(fields_lst)
+
+	fields_dict = {}
+	for i, key in enumerate(db_notes_fields):
+		fields_dict[key] = row[i]
+
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute(f'insert into notes values ({fields})', fields_dict)
 	conn.commit()
 	conn.close()
 
 
-def db_insert_note(row):
-	conn = sqlite3.connect(database_name)
-	c = conn.cursor()
-	c.execute('insert into notes values (:business_name, :note_date, :note_text)',
-		{
-			'business_name': row[0],
-			'note_date': row[1],
-			'note_text': row[2],
-		}
-	)
-	conn.commit()
-	conn.close()
-
-
-def db_get_all_notes():
+def db_notes_get_rows():
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	c.execute('select rowid, * from notes')
@@ -197,7 +174,7 @@ def db_get_all_notes():
 	return records
 	
 
-def db_get_business_notes(business_name):
+def db_notes_get_by_business_name(business_name):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	sql = '''select rowid, * from notes 
@@ -209,7 +186,7 @@ def db_get_business_notes(business_name):
 	return records
 
 	
-def db_get_notes_by_id(oid):
+def db_notes_get_by_oid(oid):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	sql = '''select rowid, * from notes 
@@ -221,7 +198,7 @@ def db_get_notes_by_id(oid):
 	return records
 
 
-def db_note_delete(oid):
+def db_notes_delete_by_oid(oid):
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
 	c.execute(f'delete from notes where oid={oid}')
@@ -230,25 +207,9 @@ def db_note_delete(oid):
 
 
 ##############################################################
-# TKINTER MAIN
+# TKINTER CLIENTS
 ##############################################################
-def tk_procedure_refresh():
-	selected = tree.focus()
-	values = tree.item(selected, 'values')
-	if not values: return
-
-	file_path = f'procedures/procedure_{values[1]}.txt'
-	if not os.path.exists(file_path): return
-
-	with open(file_path) as f:
-		content = f.read()
-		procedure_text.configure(state='normal')
-		procedure_text.delete('1.0', END)
-		procedure_text.insert('end', content)
-		procedure_text.configure(state='disabled')
-
-
-def tk_entries_refresh():
+def tk_clients_entries_refresh():
 	selected = tree.focus()
 	values = tree.item(selected, 'values')
 	for k, entry in enumerate(entries):
@@ -256,39 +217,23 @@ def tk_entries_refresh():
 		entry.insert(0, values[k])
 
 
-def tk_entries_get_vals():
+def tk_clients_entries_get_vals():
 	return [entry.get() for entry in entries]
 
 
-def tk_update_record():
-	values = tk_entries_get_vals()
-	db_update_row(values)
+def tk_clients_entries_update_row():
+	values = tk_clients_entries_get_vals()
+	db_clients_update_by_business_name(values)
 	tree.item(tree.focus(), text='', values=values)
 
 
-def tk_entries_clear():
-	for entry in entries:
-		entry.delete(0, END)
-		
-
-def tk_delete():
-	db_delete_row()
-	tk_refresh_tree(db_get_all_rows())
-	tk_entries_clear()
-	
-
-def tk_select_record(e):
-	tk_entries_refresh()
-	tk_procedure_refresh()
-
-
-def tk_refresh_tree(rows):
+def tk_clients_tree_refresh(rows):
 	tree.delete(*tree.get_children())
 	for index, row in enumerate(rows):
 		tree.insert(parent='', index=index, iid=index, text='', values=row, tags=(row[1],))
 	
 
-def tk_color_tree():
+def tk_clients_tree_color():
 	tree.tag_configure(-1, background='red')
 	tree.tag_configure(1, background='yellow')
 	tree.tag_configure(2, background='yellow')
@@ -298,7 +243,7 @@ def tk_color_tree():
 	tree.tag_configure(6, background='green')
 
 
-def tk_upload_csv():
+def tk_clients_tree_upload_csv():
 	filename = filedialog.askopenfilename(filetypes=(("csv files","*.csv"),("All files","*.*")))
 	
 	with open(filename, "r") as f:
@@ -344,7 +289,7 @@ def tk_upload_csv():
 			]
 			rows_csv.append(formatted_row)
 			
-		rows_db = db_get_all_rows()
+		rows_db = db_clients_get_rows()
 
 		# FILTER ROWS THAT WITH SAME BUSINESS NAME IN DB
 		rows_filtered = []
@@ -357,145 +302,221 @@ def tk_upload_csv():
 			if not found:
 				rows_filtered.append(row_csv)
 
-		db_insert_rows(rows_filtered)
-		tk_refresh_tree(db_get_all_rows())
+		db_clients_insert_rows(rows_filtered)
+		tk_clients_tree_refresh(db_clients_get_rows())
 
 
+def tk_clients_procedure_refresh():
+	selected = tree.focus()
+	values = tree.item(selected, 'values')
+	if not values: return
+
+	file_path = f'procedures/procedure_{values[1]}.txt'
+	if not os.path.exists(file_path): return
+
+	with open(file_path) as f:
+		content = f.read()
+		procedure_text.configure(state='normal')
+		procedure_text.delete('1.0', END)
+		procedure_text.insert('end', content)
+		procedure_text.configure(state='disabled')
 
 
+def tk_clients_tree_level_up_row_selected(e):
+	iid = tree.focus()
+	values = list(tree.item(iid, 'values'))
+
+	level_curr = int(values[1])
+	level_next = int(values[1]) + 1
+
+	values[1] = level_next
+	values[4] = datetime.now().date()
+
+	if level_curr == 0:
+		values[5] = datetime.now().date() + timedelta(days=30)	
+	elif level_curr == 1:
+		values[5] = datetime.now().date() + timedelta(days=7)
+	elif level_curr == 2:
+		values[5] = datetime.now().date()
+	
+	db_clients_update_by_business_name(values)
+	tk_clients_tree_refresh(db_clients_get_rows())
+	tree.focus(iid)
+	tree.selection_set(iid)
+	tk_clients_entries_refresh()
+	tk_clients_procedure_refresh()
+
+
+def tk_clients_tree_level_down_row_selected(e):
+	iid = tree.focus()
+	values = list(tree.item(iid, 'values'))
+	values[1] = int(values[1]) - 1
+	db_clients_update_by_business_name(values)
+	tk_clients_tree_refresh(db_clients_get_rows())
+	tree.focus(iid)
+	tree.selection_set(iid)
+	tk_clients_entries_refresh()
+	tk_clients_procedure_refresh()
+
+
+def tk_clients_tree_get_by_priority(e):
+	rows = db_clients_get_by_level(3) # Call
+	rows += db_clients_get_by_level(4) # Inspection
+	rows += db_clients_get_by_level(5) # Inspection Follow up
+	rows += db_clients_get_by_level(2) # Email more info
+	rows += db_clients_get_by_level(1) # Email again
+	rows += db_clients_get_by_level(0) # Email first time
+	tk_clients_tree_refresh(rows)
+	tree.focus(0)
+	tree.selection_set(0)
+	
+
+def tk_clients_tree_get_by_level(e):
+	rows = db_clients_get_by_level(e.char)
+	tk_clients_tree_refresh(rows)
+	if not rows: return
+	tree.focus(0)
+	tree.selection_set(0)
+
+
+def tk_clients_tree_get_all(e):
+	tk_clients_tree_refresh(db_clients_get_rows())
+	tree.focus(0)
+	tree.selection_set(0)
+
+
+def tk_clients_tree_move_down(e):
+	try:
+		next_row = int(tree.focus()) + 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+
+	tk_clients_entries_refresh()
+	tk_clients_procedure_refresh()
+	return "break"
+
+
+def tk_clients_tree_move_up(e):
+	try:
+		next_row = int(tree.focus()) - 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+
+	tk_clients_entries_refresh()
+	tk_clients_procedure_refresh()
+	return "break"
+
+
+def tk_clients_tree_move_j(e):
+	try:
+		next_row = int(tree.focus()) + 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+	
+	tk_clients_entries_refresh()
+	tk_clients_procedure_refresh()
+
+
+def tk_clients_tree_move_k(e):
+	try:
+		next_row = int(tree.focus()) - 1
+		tree.focus(next_row)
+		tree.selection_set(next_row)
+	except: return
+
+	tk_clients_entries_refresh()
+	tk_clients_procedure_refresh()
+
+
+def tk_clients_tree_get_rows_today(e):
+	today_date = datetime.now().date()
+	rows = db_clients_get_by_date_next_action(today_date)
+	rows_prioritized = []
+	rows_prioritized += [row for row in rows if row[1] == '3']
+	rows_prioritized += [row for row in rows if row[1] == '4']
+	rows_prioritized += [row for row in rows if row[1] == '5']
+	rows_prioritized += [row for row in rows if row[1] == '2']
+	rows_prioritized += [row for row in rows if row[1] == '1']
+	rows_prioritized += [row for row in rows if row[1] == '6']
+	rows_prioritized += [row for row in rows if row[1] == '0']
+	tk_clients_tree_refresh(rows_prioritized)
+	tree.focus(0)
+	tree.selection_set(0)
+
+	
+def tk_clients_tree_refresh_entries_procedure(e):
+	tk_clients_entries_refresh()
+	tk_clients_procedure_refresh()
 
 
 ##############################################################
 # TKINTER ADD
 ##############################################################
-# def add_client():
-# 	add_window = Toplevel(root)
-# 	add_window.title('Add Client')
-# 	add_window.geometry('270x400')
-# 	add_window.grab_set()
+# TODO: keep it or delete it?
+def add_client():
+	add_window = Toplevel(root)
+	add_window.title('Add Client')
+	add_window.geometry('270x400')
+	add_window.grab_set()
 
-# 	add_frame = LabelFrame(add_window, text='Add Clients', padx=20, pady=10)
-# 	add_frame.pack(side=LEFT, fill=Y)
+	add_frame = LabelFrame(add_window, text='Add Clients', padx=20, pady=10)
+	add_frame.pack(side=LEFT, fill=Y)
 
-# 	add_labels = []
-# 	add_entries = []
-# 	for i, field in enumerate(tree_fields):
-# 		add_labels.append(Label(add_frame, text=field).grid(row=i, column=0, sticky=W))
-# 		tmp_entry = Entry(add_frame)
-# 		tmp_entry.grid(row=i, column=1, sticky=W)
-# 		if field == 'id':
-# 			continue
-# 		elif field == 'status':
-# 			tmp_entry.insert(0, 0)
-# 		elif field == 'date_first_added':
-# 			tmp_entry.insert(0, datetime.now().date())
-# 		elif field == 'date_last_updated':
-# 			tmp_entry.insert(0, datetime.now().date())
-# 		add_entries.append(tmp_entry)
-# 	i += 1
+	add_labels = []
+	add_entries = []
+	for i, field in enumerate(clients_fields):
+		add_labels.append(Label(add_frame, text=field).grid(row=i, column=0, sticky=W))
+		tmp_entry = Entry(add_frame)
+		tmp_entry.grid(row=i, column=1, sticky=W)
+		if field == 'id':
+			continue
+		elif field == 'status':
+			tmp_entry.insert(0, 0)
+		elif field == 'date_first_added':
+			tmp_entry.insert(0, datetime.now().date())
+		elif field == 'date_last_updated':
+			tmp_entry.insert(0, datetime.now().date())
+		add_entries.append(tmp_entry)
+	i += 1
 
-# 	def add_client_db():
-# 		conn = sqlite3.connect(database_name)
-# 		c = conn.cursor()
+	def add_client_db():
+		conn = sqlite3.connect(database_name)
+		c = conn.cursor()
 
-# 		entries_vals = [entry.get() for entry in add_entries]
+		entries_vals = [entry.get() for entry in add_entries]
 		
-# 		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
-# 			{
-# 				'level': entries_vals[0],
-# 				'exp': entries_vals[1],
-# 				'date_first_added': entries_vals[2],
-# 				'date_last_updated': entries_vals[3],
-# 				'first_name': entries_vals[4],
-# 				'last_name': entries_vals[5],
-# 				'email': entries_vals[6],
-# 				'phone': entries_vals[7],
-# 				'business_name': entries_vals[8],
-# 				'business_address': entries_vals[9],
-# 				'district': entries_vals[10],
-# 				'website': entries_vals[11],
-# 				'industry': entries_vals[12],
-# 				'gil': entries_vals[13],
-# 				'salesman': entries_vals[14],
-# 			})
+		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
+			{
+				'level': entries_vals[0],
+				'exp': entries_vals[1],
+				'date_first_added': entries_vals[2],
+				'date_last_updated': entries_vals[3],
+				'first_name': entries_vals[4],
+				'last_name': entries_vals[5],
+				'email': entries_vals[6],
+				'phone': entries_vals[7],
+				'business_name': entries_vals[8],
+				'business_address': entries_vals[9],
+				'district': entries_vals[10],
+				'website': entries_vals[11],
+				'industry': entries_vals[12],
+				'gil': entries_vals[13],
+				'salesman': entries_vals[14],
+			})
 
 
-# 		conn.commit()
-# 		conn.close()
+		conn.commit()
+		conn.close()
 
-# 		tk_entries_clear()
-# 		tk_refresh_tree(db_get_all_rows())
+		tk_entries_clear()
+		tk_clients_tree_refresh(db_clients_get_rows())
 
-# 	curr_add_button = Button(add_frame, text='Add', command=add_client_db)
-# 	curr_add_button.grid(row=i, column=0, sticky=W)
+	curr_add_button = Button(add_frame, text='Add', command=add_client_db)
+	curr_add_button.grid(row=i, column=0, sticky=W)
 
-
-
-##############################################################
-# TKINTER MAIN
-##############################################################
-root = Tk()
-root.title('Ozonogroup CRM')
-root.iconbitmap('logo.ico')
-root.geometry('800x600')
-# root.state('zoomed')
-
-
-# CREATE FIELDS
-frame_fields = Frame(root, padx=20, pady=10)
-frame_fields.pack(side=LEFT, fill=Y)
-
-labels = []
-entries = []
-for i, field in enumerate(tree_fields):
-	labels.append(Label(frame_fields, text=field).grid(row=i, column=0, sticky=W))
-	tmp_entry = Entry(frame_fields)
-	if field == 'id':
-		tmp_entry.insert(0, '-')
-		tmp_entry.config(state='readonly')
-	tmp_entry.grid(row=i, column=1, sticky=W)
-	entries.append(tmp_entry)
-i += 1
-update_button = Button(frame_fields, text='Update', command=tk_update_record)
-update_button.grid(row=i, column=0, sticky=W)
-i += 1
-
-
-
-# CREATE VIEWER
-frame_main = Frame(root)
-frame_main.pack(side=LEFT, expand=True, fill=BOTH)
-
-frame_tree = Frame(frame_main)
-frame_tree.pack(side=TOP, expand=True, fill=BOTH)
-
-tree = ttk.Treeview(frame_tree)
-tree.pack(expand=True, fill=BOTH)
-
-tree['columns'] = tree_fields
-
-tree.column('#0', width=0, stretch=NO)
-tree.heading('#0', text='', anchor=W)
-for field in tree_fields:
-	tree.column(field, width=80, anchor=W)
-	tree.heading(field, text=field, anchor=W)
-
-frame_upload_csv= Frame(frame_main, padx=10, pady=10)
-frame_upload_csv.pack(side=TOP, fill=X)
-
-upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_upload_csv)
-upload_csv_button.pack(side=RIGHT)
-
-
-
-
-
-# VIEW PROCEDURE
-procedure_frame = Frame(root)
-procedure_frame.pack(side=LEFT, fill=Y)
-
-procedure_text = Text(procedure_frame, padx=20, pady=10)
-procedure_text.pack(expand=True, fill=BOTH)
 
 ##############################################################
 # TKINTER NOTES
@@ -512,7 +533,7 @@ def tk_open_notes(e):
 
 
 	def tk_note_refresh_tree():
-		rows = db_get_business_notes(business_name_curr)
+		rows = db_notes_get_by_business_name(business_name_curr)
 		note_tree.delete(*note_tree.get_children())
 		for index, row in enumerate(rows):
 			note_id_tmp = row[0]
@@ -525,7 +546,7 @@ def tk_open_notes(e):
 	def tk_note_selected(e):
 		note_selected = note_tree.focus()
 		values = note_tree.item(note_selected, 'values')
-		record = db_get_notes_by_id(values[0])[0]
+		record = db_notes_get_by_oid(values[0])[0]
 		note_text.delete('1.0', END)
 		note_text.insert(END, record[3])
 
@@ -541,10 +562,10 @@ def tk_open_notes(e):
 		if data != '':
 			values[5] = note_data_entry.get()
 
-		db_insert_note(row)
-		db_update_row(values)
+		db_notes_insert_row(row)
+		db_clients_update_by_business_name(values)
 		tk_note_refresh_tree()
-		tk_refresh_tree(db_get_all_rows())
+		tk_clients_tree_refresh(db_clients_get_rows())
 		tree.focus(iid)
 		tree.selection_set(iid)
 
@@ -554,7 +575,7 @@ def tk_open_notes(e):
 		values = note_tree.item(note_selected, 'values')
 		oid = values[0]
 
-		db_note_delete(oid)
+		db_notes_delete_by_oid(oid)
 		tk_note_refresh_tree()
 		note_text.delete('1.0', END)
 
@@ -572,11 +593,11 @@ def tk_open_notes(e):
 	note_frame_tree.pack(side=LEFT, fill=BOTH)
 	note_tree = ttk.Treeview(note_frame_tree)
 	note_tree.pack(expand=True, fill=BOTH)
-	note_fields = ['note_id', 'note_date', 'note_text']
-	note_tree['columns'] = note_fields
+	tw_note_fields = ['note_id', 'note_date', 'note_text']
+	note_tree['columns'] = tw_note_fields
 	note_tree.column('#0', width=0, stretch=NO)
 	note_tree.heading('#0', text='', anchor=W)
-	for field in note_fields:
+	for field in tw_note_fields:
 		note_tree.column(field, width=160, anchor=W)
 		note_tree.heading(field, text=field, anchor=W)
 
@@ -599,173 +620,111 @@ def tk_open_notes(e):
 
 	note_tree.bind('<ButtonRelease-1>', tk_note_selected)
 
-
-def client_level_up(e):
-	iid = tree.focus()
-	values = list(tree.item(iid, 'values'))
-
-	level_curr = int(values[1])
-	level_next = int(values[1]) + 1
-
-	values[1] = level_next
-	values[4] = datetime.now().date()
-
-	if level_curr == 0:
-		values[5] = datetime.now().date() + timedelta(days=30)	
-	elif level_curr == 1:
-		values[5] = datetime.now().date() + timedelta(days=7)
-	elif level_curr == 2:
-		values[5] = datetime.now().date()
-	
-	db_update_row(values)
-	tk_refresh_tree(db_get_all_rows())
-	tree.focus(iid)
-	tree.selection_set(iid)
-	tk_entries_refresh()
-	tk_procedure_refresh()
-
-	
-def client_level_down(e):
-	iid = tree.focus()
-	values = list(tree.item(iid, 'values'))
-	values[1] = int(values[1]) - 1
-	db_update_row(values)
-	tk_refresh_tree(db_get_all_rows())
-	tree.focus(iid)
-	tree.selection_set(iid)
-	tk_entries_refresh()
-	tk_procedure_refresh()
-
-
-def tk_list_clients_by_priority(e):
-	rows = db_get_all_clients_by_level(3) # Call
-	rows += db_get_all_clients_by_level(4) # Inspection
-	rows += db_get_all_clients_by_level(5) # Inspection Follow up
-	rows += db_get_all_clients_by_level(2) # Email more info
-	rows += db_get_all_clients_by_level(1) # Email again
-	rows += db_get_all_clients_by_level(0) # Email first time
-	tk_refresh_tree(rows)
-	tree.focus(0)
-	tree.selection_set(0)
 	
 
-def tk_list_clients_by_level(e):
-	rows = db_get_all_clients_by_level(e.char)
-	tk_refresh_tree(rows)
-	if not rows: return
-	tree.focus(0)
-	tree.selection_set(0)
 
 
-def tk_list_all_clients(e):
-	tk_refresh_tree(db_get_all_rows())
-	tree.focus(0)
-	tree.selection_set(0)
 
+##############################################################
+# TKINTER MAIN
+##############################################################
 
-def tk_tree_down_key(e):
-	try:
-		next_row = int(tree.focus()) + 1
-		tree.focus(next_row)
-		tree.selection_set(next_row)
-	except: return
+root = Tk()
+root.title('Ozonogroup CRM')
+root.iconbitmap('logo.ico')
+root.geometry('800x600')
+# root.state('zoomed')
 
-	tk_entries_refresh()
-	tk_procedure_refresh()
-	return "break"
+# CREATE FIELDS
+frame_fields = Frame(root, padx=20, pady=10)
+frame_fields.pack(side=LEFT, fill=Y)
 
+labels = []
+entries = []
+for i, field in enumerate(clients_fields):
+	labels.append(Label(frame_fields, text=field).grid(row=i, column=0, sticky=W))
+	tmp_entry = Entry(frame_fields)
+	if field == 'id':
+		tmp_entry.insert(0, '-')
+		tmp_entry.config(state='readonly')
+	tmp_entry.grid(row=i, column=1, sticky=W)
+	entries.append(tmp_entry)
+i += 1
+update_button = Button(frame_fields, text='Update', command=tk_clients_entries_update_row)
+update_button.grid(row=i, column=0, sticky=W)
+i += 1
 
-def tk_tree_up_key(e):
-	try:
-		next_row = int(tree.focus()) - 1
-		tree.focus(next_row)
-		tree.selection_set(next_row)
-	except: return
+# CREATE VIEWER
+frame_main = Frame(root)
+frame_main.pack(side=LEFT, expand=True, fill=BOTH)
 
-	tk_entries_refresh()
-	tk_procedure_refresh()
-	return "break"
+frame_tree = Frame(frame_main)
+frame_tree.pack(side=TOP, expand=True, fill=BOTH)
 
+tree = ttk.Treeview(frame_tree)
+tree.pack(expand=True, fill=BOTH)
 
-def tk_tree_select_next_row(e):
-	try:
-		next_row = int(tree.focus()) + 1
-		tree.focus(next_row)
-		tree.selection_set(next_row)
-	except: return
-	
-	tk_entries_refresh()
-	tk_procedure_refresh()
+tree['columns'] = clients_fields
 
+tree.column('#0', width=0, stretch=NO)
+tree.heading('#0', text='', anchor=W)
+for field in clients_fields:
+	tree.column(field, width=80, anchor=W)
+	tree.heading(field, text=field, anchor=W)
 
-def tk_tree_select_prev_row(e):
-	try:
-		next_row = int(tree.focus()) - 1
-		tree.focus(next_row)
-		tree.selection_set(next_row)
-	except: return
+frame_upload_csv= Frame(frame_main, padx=10, pady=10)
+frame_upload_csv.pack(side=TOP, fill=X)
 
-	tk_entries_refresh()
-	tk_procedure_refresh()
+upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_clients_tree_upload_csv)
+upload_csv_button.pack(side=RIGHT)
 
+# VIEW PROCEDURE
+procedure_frame = Frame(root)
+procedure_frame.pack(side=LEFT, fill=Y)
 
-def tk_list_clients_today(e):
-	today_date = datetime.now().date()
-	rows = db_get_all_clients_by_date_next_action(today_date)
-	rows_prioritized = []
-	rows_prioritized += [row for row in rows if row[1] == '3']
-	rows_prioritized += [row for row in rows if row[1] == '4']
-	rows_prioritized += [row for row in rows if row[1] == '5']
-	rows_prioritized += [row for row in rows if row[1] == '2']
-	rows_prioritized += [row for row in rows if row[1] == '1']
-	rows_prioritized += [row for row in rows if row[1] == '0']
-	# for row in rows:
-	# 	if row[1] == '3':
-	# 		rows_prioritized.append(row)
-	tk_refresh_tree(rows_prioritized)
-	tree.focus(0)
-	tree.selection_set(0)
+procedure_text = Text(procedure_frame, padx=20, pady=10)
+procedure_text.pack(expand=True, fill=BOTH)
 
 
 ##############################################################
 # KEY BINDING
 ##############################################################
-tree.bind('<ButtonRelease-1>', tk_select_record)
+tree.bind('<ButtonRelease-1>', tk_clients_tree_refresh_entries_procedure)
 tree.bind("<Double-1>", tk_open_notes)
 tree.bind("<space>", tk_open_notes)
-tree.bind("+", client_level_up)
-tree.bind("-", client_level_down)
-tree.bind("p", tk_list_clients_by_priority)
-tree.bind("t", tk_list_clients_today)
-tree.bind(".", tk_list_all_clients)
-tree.bind("0", tk_list_clients_by_level)
-tree.bind("1", tk_list_clients_by_level)
-tree.bind("2", tk_list_clients_by_level)
-tree.bind("3", tk_list_clients_by_level)
-tree.bind("4", tk_list_clients_by_level)
-tree.bind("5", tk_list_clients_by_level)
-tree.bind("6", tk_list_clients_by_level)
-tree.bind("7", tk_list_clients_by_level)
-tree.bind("8", tk_list_clients_by_level)
-tree.bind("9", tk_list_clients_by_level)
+tree.bind("+", tk_clients_tree_level_up_row_selected)
+tree.bind("-", tk_clients_tree_level_down_row_selected)
+tree.bind("p", tk_clients_tree_get_by_priority)
+tree.bind("t", tk_clients_tree_get_rows_today)
+tree.bind(".", tk_clients_tree_get_all)
+tree.bind("0", tk_clients_tree_get_by_level)
+tree.bind("1", tk_clients_tree_get_by_level)
+tree.bind("2", tk_clients_tree_get_by_level)
+tree.bind("3", tk_clients_tree_get_by_level)
+tree.bind("4", tk_clients_tree_get_by_level)
+tree.bind("5", tk_clients_tree_get_by_level)
+tree.bind("6", tk_clients_tree_get_by_level)
+tree.bind("7", tk_clients_tree_get_by_level)
+tree.bind("8", tk_clients_tree_get_by_level)
+tree.bind("9", tk_clients_tree_get_by_level)
 
 
-tree.bind('j', tk_tree_select_next_row)
-tree.bind('k', tk_tree_select_prev_row)
+tree.bind('j', tk_clients_tree_move_j)
+tree.bind('k', tk_clients_tree_move_k)
 
-tree.bind('<Up>', tk_tree_up_key)
-tree.bind('<Down>', tk_tree_down_key)
+tree.bind('<Up>', tk_clients_tree_move_up)
+tree.bind('<Down>', tk_clients_tree_move_down)
 
 
 ##############################################################
 # INIT
 ##############################################################
 # drop_table('clients')
-db_create_table_clients()
-db_create_table_notes()
+db_clients_create_table()
+db_notes_create_table()
 
-tk_refresh_tree(db_get_all_rows())
-tk_color_tree()
+tk_clients_tree_refresh(db_clients_get_rows())
+tk_clients_tree_color()
 tree.focus_set()
 
 try: 
@@ -778,11 +737,11 @@ except:
 selected = tree.focus()
 values = tree.item(selected, 'values')
 
-try: tk_entries_refresh()
+try: tk_clients_entries_refresh()
 except: pass
-tk_procedure_refresh()
+tk_clients_procedure_refresh()
 
-# print(db_get_all_notes())
+# print(db_notes_get_rows())
 
 # db_pragma_table_clients()
 
