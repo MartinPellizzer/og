@@ -296,7 +296,7 @@ def tk_clients_tree_upload_csv():
 		for row_csv in rows_csv:
 			found = False
 			for row_db in rows_db:
-				if row_csv[8] == row_db[9]:
+				if row_csv[10] == row_db[10]:
 					found = True
 					break
 			if not found:
