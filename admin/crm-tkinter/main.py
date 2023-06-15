@@ -620,10 +620,6 @@ def tk_open_notes(e):
 
 	note_tree.bind('<ButtonRelease-1>', tk_note_selected)
 
-	
-
-
-
 
 ##############################################################
 # TKINTER MAIN
@@ -633,10 +629,13 @@ root = Tk()
 root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
 root.geometry('800x600')
-# root.state('zoomed')
+root.state('zoomed')
+
+
+
 
 # CREATE FIELDS
-frame_fields = Frame(root, padx=20, pady=10)
+frame_fields = Frame(root)
 frame_fields.pack(side=LEFT, fill=Y)
 
 labels = []
@@ -654,36 +653,159 @@ update_button = Button(frame_fields, text='Update', command=tk_clients_entries_u
 update_button.grid(row=i, column=0, sticky=W)
 i += 1
 
-# CREATE VIEWER
-frame_main = Frame(root)
-frame_main.pack(side=LEFT, expand=True, fill=BOTH)
+# CENTER
+frame_center = Frame(root)
+frame_center.pack(side=LEFT, expand=True, fill=BOTH)
 
-frame_tree = Frame(frame_main)
+# COLUMNS FILTER
+frame_filters = Frame(frame_center)
+frame_filters.pack(side=TOP, fill=X)
+def print_selection():
+	tree.pack_forget()
+	
+
+	if var1.get() == 0:
+		clients_fields_filtered = [field for field in clients_fields]
+		clients_fields_filtered.pop(0)
+
+		total_width = 1200
+		column_width = total_width // len(clients_fields_filtered)
+
+		tree['columns'] = clients_fields_filtered
+		tree.column('#0', width=0, stretch=NO)
+		tree.heading('#0', text='', anchor=W)
+		for field in clients_fields_filtered:
+			tree.column(field, width=column_width, anchor=W)
+			tree.heading(field, text=field, anchor=W)
+		rows = db_clients_get_rows()
+		rows_filtered = [row[1:] for row in rows]
+		print(rows)
+		tk_clients_tree_refresh(rows_filtered)
+
+	else:
+		total_width = 1200
+		column_width = total_width // len(clients_fields)
+
+		tree['columns'] = clients_fields
+		tree.column('#0', width=0, stretch=NO)
+		tree.heading('#0', text='', anchor=W)
+		for field in clients_fields:
+			tree.column(field, width=column_width, anchor=W)
+			tree.heading(field, text=field, anchor=W)
+		rows = db_clients_get_rows()
+		rows_filtered = [row for row in rows]
+		print(rows)
+		tk_clients_tree_refresh(rows_filtered)
+	
+	tree.pack(expand=True, fill=Y)
+
+var1 = IntVar()
+var1.set(1)
+var2 = IntVar()
+var2.set(1)
+c1 = Checkbutton(frame_filters, text='gil', variable=var1, onvalue=1, offvalue=0, command=print_selection)
+c1.pack(side=LEFT)
+c2 = Checkbutton(frame_filters, text='level', variable=var2, onvalue=1, offvalue=0, command=print_selection)
+c2.pack(side=LEFT)
+
+# TREEVIEW
+frame_tree = Frame(frame_center)
 frame_tree.pack(side=TOP, expand=True, fill=BOTH)
 
 tree = ttk.Treeview(frame_tree)
-tree.pack(expand=True, fill=BOTH)
+tree.pack(expand=True, fill=Y)
+
+total_width = 1200
+column_width = total_width // len(clients_fields)
 
 tree['columns'] = clients_fields
-
 tree.column('#0', width=0, stretch=NO)
 tree.heading('#0', text='', anchor=W)
 for field in clients_fields:
-	tree.column(field, width=80, anchor=W)
+	tree.column(field, width=column_width, anchor=W)
 	tree.heading(field, text=field, anchor=W)
 
-frame_upload_csv= Frame(frame_main, padx=10, pady=10)
+
+def tmp_refresh():
+	tree.pack_forget()
+
+	clients_fields_filtered = clients_fields[1:]
+	total_width = 1200
+	column_width = total_width // len(clients_fields_filtered)
+
+	tree['columns'] = clients_fields_filtered
+	tree.column('#0', width=0, stretch=NO)
+	tree.heading('#0', text='', anchor=W)
+	for field in clients_fields_filtered:
+		tree.column(field, width=column_width, anchor=W)
+		tree.heading(field, text=field, anchor=W)
+	
+	tree.pack(expand=True, fill=Y)
+
+# CSV
+frame_upload_csv= Frame(frame_center)
 frame_upload_csv.pack(side=TOP, fill=X)
 
-upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_clients_tree_upload_csv)
+# upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_clients_tree_upload_csv)
+upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tmp_refresh)
 upload_csv_button.pack(side=RIGHT)
 
 # VIEW PROCEDURE
-procedure_frame = Frame(root)
-procedure_frame.pack(side=LEFT, fill=Y)
+frame_procedure = Frame(root)
+frame_procedure.pack(side=LEFT, fill=Y)
 
-procedure_text = Text(procedure_frame, padx=20, pady=10)
+procedure_text = Text(frame_procedure, padx=20, pady=10)
 procedure_text.pack(expand=True, fill=BOTH)
+
+
+
+
+
+# vsb = ttk.Scrollbar(root, orient="vertical", command=tree.yview)
+# vsb.place(x=320, y=45, height=200 + 180)
+
+# tree.configure(yscrollcommand=vsb.set)
+
+
+
+# frame_filters = Frame(frame_main)
+# frame_filters.pack(side=TOP, fill=X)
+# def print_selection():
+# 	if var1.get() == 0:
+# 		tree['columns'] = clients_fields[1:]
+
+# 		tree.column('#0', width=0, stretch=NO)
+# 		tree.heading('#0', text='', anchor=W)
+# 		for field in clients_fields[1:]:
+# 			tree.column(field, width=80, anchor=W)
+# 			tree.heading(field, text=field, anchor=W)
+# 		rows = db_clients_get_rows()
+# 		rows_filtered = [row[1:] for row in rows]
+# 		print(rows)
+# 		tk_clients_tree_refresh(rows_filtered)
+
+# 	else:
+# 		tree['columns'] = clients_fields
+
+# 		tree.column('#0', width=0, stretch=NO)
+# 		tree.heading('#0', text='', anchor=W)
+# 		for field in clients_fields:
+# 			tree.column(field, width=80, anchor=W)
+# 			tree.heading(field, text=field, anchor=W)
+# 		rows = db_clients_get_rows()
+# 		rows_filtered = [row for row in rows]
+# 		print(rows)
+# 		tk_clients_tree_refresh(rows_filtered)
+
+# var1 = IntVar()
+# var1.set(1)
+# var2 = IntVar()
+# var2.set(1)
+# c1 = Checkbutton(frame_filters, text='gil', variable=var1, onvalue=1, offvalue=0, command=print_selection)
+# c1.pack(side=LEFT)
+# c2 = Checkbutton(frame_filters, text='level', variable=var2, onvalue=1, offvalue=0, command=print_selection)
+# c2.pack(side=LEFT)
+
 
 
 ##############################################################
