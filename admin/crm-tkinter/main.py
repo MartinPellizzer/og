@@ -5,8 +5,176 @@ import sqlite3
 import csv
 import os
 
+import subprocess
+from fpdf import FPDF
+
 # TODO: heavy refactoring before moving on
 
+text_size = 12
+
+class PDF(FPDF):
+	def header(self):
+		self.image('logo.jpg', 10, 8, 50)
+		self.set_font('helvetica', 'B', text_size)
+
+		self.cell(130, 10)
+		self.cell(0, 10, 'Preventivo #1072', ln=1)
+
+		self.set_font('helvetica', '', text_size)
+		self.cell(130, 10)
+		self.cell(0, 6, 'Data: 19/10/2021', border=0, ln=1)
+		self.cell(130, 10)
+		self.cell(0, 6, 'Valido fino a: 01/01/2022', border=0, ln=1)
+		self.ln(15)
+	
+	def footer(self):
+		self.set_y(-15)
+		self.set_font('helvetica', 'I', 10)
+		self.cell(0, 10, f'Page {self.page_no()}/{{nb}}', align='C')
+
+
+pdf = PDF('P', 'mm', 'Letter')
+pdf.alias_nb_pages()
+pdf.set_auto_page_break(auto=True, margin=15)
+
+pdf.add_page()
+
+
+cell_height = 6
+pdf.set_font('helvetica', '', text_size)
+pdf.set_fill_color(255, 255, 255)
+
+pdf.cell(0, cell_height, 'Ozonogroup s.r.l.', fill=True, ln=1)
+pdf.cell(0, cell_height, 'Via dell\'Artigianato, 23 - 31011 Asolo (TV) Italia', fill=True, ln=1)
+pdf.cell(0, cell_height, 'P.IVA/C.F.: 86334519757', fill=True, ln=1)
+pdf.ln(5)
+
+pdf.cell(100, cell_height, 'Cliente:', border='B', fill=True, ln=1)
+pdf.ln(2)
+pdf.cell(0, cell_height, 'Salumificio Da Pian s.r.l.', fill=True, ln=1)
+pdf.cell(0, cell_height, 'Via Internati 1943-45, 12 - 31057 Silea (TV) Italia', fill=True, ln=1)
+pdf.cell(0, cell_height, 'P.IVA/C.F.: 86334519757', fill=True, ln=1)
+pdf.ln(10)
+
+cell_height = 8
+pdf.set_font('helvetica', 'B', text_size)
+pdf.set_fill_color(229, 229, 229)
+
+cell_width_numdoc = 25
+cell_width_data = 25
+
+
+pdf.cell(cell_width_numdoc, cell_height, 'Num. Doc.', border=1, fill=True)
+pdf.cell(cell_width_data, cell_height, 'Banca', border=1, fill=True)
+pdf.cell(cell_width_data, cell_height, 'Tipo Trasporto', border=1, fill=True)
+pdf.cell(cell_width_data, cell_height, 'Partita IVA', border=1, fill=True)
+pdf.cell(cell_width_data, cell_height, 'Cod. Cliente', border=1, fill=True)
+pdf.cell(cell_width_data, cell_height, 'Desc. Pagamento', border=1, fill=True)
+pdf.ln(cell_height)
+
+
+pdf.set_font('helvetica', '', text_size)
+pdf.set_fill_color(255, 255, 255)
+pdf.cell(cell_width_numdoc, cell_height, 'M 11-23', border=1, fill=True)
+pdf.ln(cell_height + 20)
+
+
+cell_height = 8
+pdf.set_font('helvetica', 'B', text_size)
+pdf.set_fill_color(229, 229, 229)
+# codice = 'codice'
+# codice_width = pdf.get_string_width(codice)
+# print(codice_width)
+
+cell_width_codice = 20
+cell_width_description = 100
+cell_width_um = 15
+cell_width_qta = 15
+cell_width_valuta = 20
+cell_width_valunit = 15
+cell_width_sconti = 15
+cell_width_totale = 30
+
+pdf.cell(cell_width_codice, cell_height, 'Codice', border=1, fill=True)
+pdf.cell(cell_width_description, cell_height, 'Descrizione', border=1, fill=True)
+# pdf.cell(cell_width_um, cell_height, 'U.M.', border=1, align='C', fill=True)
+pdf.cell(cell_width_qta, cell_height, 'Q.tà', border=1, fill=True)
+# pdf.cell(cell_width_valuta, cell_height, 'Valuta', border=1, fill=True)
+# pdf.cell(cell_width_valunit, cell_height, 'Val. Unit.', border=1, align='C', fill=True)
+pdf.cell(cell_width_sconti, cell_height, 'Prezzo', border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, 'Sconti', border=1, fill=True)
+pdf.cell(cell_width_totale, cell_height, 'Subtotale', border=1, fill=True)
+pdf.ln()
+
+# description = '''
+# Impianto di generazione di gas Ozono con Tecnologia
+# EASYOZONE
+# Mod.: GreenOzone V2 15/30
+# Costruzione: struttura in alluminio autoportante con base inox su
+# ruote o paletizzata. Pareti di protezione in PVC ozonoresistenti.
+# Produzione: reattore con generazione ozono da plasma per effetto
+# scarica corona.
+# Gestione: da PLC con interfaccia per la programmazione.
+# Controllo: su richiesta modulo da remoto e sensori di rilevazione.
+# Tensione: 220V 50Hz
+# Assorbimento: 690 / 2200 Watt in base alle versioni
+
+# '''
+
+# pdf.set_font('helvetica', '', text_size)
+# cell_height = 50
+# pdf.set_fill_color(255, 255, 255)
+
+# pdf.x, pdf.y = 30, 66
+# pdf.multi_cell(75, 5, description, border=1, fill=True)
+# cell_height = pdf.get_y() - 66
+
+# pdf.x, pdf.y = 10, 66
+# pdf.multi_cell(20, cell_height, 'GreenOzone', border=1, fill=True)
+
+# pdf.x, pdf.y = 10 + 20 + 75, 66
+# pdf.multi_cell(20, cell_height, '', border=1, fill=True)
+
+pdf.set_font('helvetica', '', text_size)
+pdf.set_fill_color(255, 255, 255)
+
+pdf.cell(cell_width_codice, cell_height, '0001', border=1, fill=True)
+pdf.cell(cell_width_description, cell_height, 'GreenOzone V2 15/30', border=1, fill=True)
+# pdf.cell(cell_width_um, cell_height, 'N', border=1, fill=True)
+pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
+# pdf.cell(cell_width_valuta, cell_height, 'Euro', border=1, fill=True)
+# pdf.cell(cell_width_valunit, cell_height, '', border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, '15%', border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, '15%', border=1, fill=True)
+pdf.cell(cell_width_totale, cell_height, '24.810,00', border=1, fill=True)
+pdf.ln(cell_height)
+
+
+pdf.cell(cell_width_codice, cell_height, '0002', border=1, fill=True)
+pdf.cell(cell_width_description, cell_height, 'Trasporto', border=1, fill=True)
+# pdf.cell(cell_width_um, cell_height, 'N', border=1, fill=True)
+pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
+# pdf.cell(cell_width_valuta, cell_height, 'Euro', border=1, fill=True)
+# pdf.cell(cell_width_valunit, cell_height, '', border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, '120', border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, '100%', border=1, fill=True)
+pdf.cell(cell_width_totale, cell_height, 'Gratis', border=1, fill=True)
+pdf.ln(cell_height + 20)
+
+
+for i in range(41):
+	pdf.cell(0, 10, f'this is line {i}', ln=1)
+pdf.cell(0, 0, 'Spett.le', align='L')
+pdf.ln(20)
+pdf.set_font('helvetica', size=12)
+
+
+
+pdf.output('report.pdf')
+
+subprocess.Popen('report.pdf', shell=True)
+
+# quit()
 
 ##############################################################
 # DATA
@@ -624,15 +792,11 @@ def tk_open_notes(e):
 ##############################################################
 # TKINTER MAIN
 ##############################################################
-
 root = Tk()
 root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
 root.geometry('800x600')
 root.state('zoomed')
-
-
-
 
 # CREATE FIELDS
 frame_fields = Frame(root)
@@ -806,6 +970,21 @@ procedure_text.pack(expand=True, fill=BOTH)
 # c2 = Checkbutton(frame_filters, text='level', variable=var2, onvalue=1, offvalue=0, command=print_selection)
 # c2.pack(side=LEFT)
 
+def tk_invoice(e):
+	pdf = FPDF('P', 'mm', 'Letter')
+	pdf.add_page()
+	pdf.image('logo.jpg', x=50, y=100, w=sizew, h=sizeh)
+
+	pdf.set_text_color(0, 0, 0)
+	pdf.set_font('helvetica', 'B', 24)
+	pdf.set_font('helvetica', size=12)
+	pdf.cell(0, 10, 'Ozonogroup', align='R')
+	pdf.ln(20)
+
+	pdf.output('report.pdf')
+
+	subprocess.Popen('report.pdf', shell=True)
+
 
 
 ##############################################################
@@ -836,6 +1015,8 @@ tree.bind('k', tk_clients_tree_move_k)
 
 tree.bind('<Up>', tk_clients_tree_move_up)
 tree.bind('<Down>', tk_clients_tree_move_down)
+
+tree.bind("i", tk_invoice)
 
 
 ##############################################################
