@@ -18,13 +18,26 @@ class PDF(FPDF):
 		self.set_font('helvetica', 'B', text_size)
 
 		self.cell(130, 10)
-		self.cell(0, 10, 'Preventivo #1072', ln=1)
+		self.cell(0, 10, 'Offerta #M11-23', ln=1)
 
 		self.set_font('helvetica', '', text_size)
 		self.cell(130, 10)
-		self.cell(0, 6, 'Data: 19/10/2021', border=0, ln=1)
+		day = datetime.now().day
+		if day < 10: day = '0' + str(day)
+		month = datetime.now().month
+		if month < 10: month = '0' + str(month)
+		year = datetime.now().year
+		self.cell(0, 6, f'Data: {day}/{month}/{year}', border=0, ln=1)
 		self.cell(130, 10)
-		self.cell(0, 6, 'Valido fino a: 01/01/2022', border=0, ln=1)
+		end_date = datetime.now().date() + timedelta(days=30)
+		
+		day = end_date.day
+		if day < 10: day = '0' + str(day)
+		month = end_date.month
+		if month < 10: month = '0' + str(month)
+		year = end_date.year
+
+		self.cell(0, 6, f'Valido fino a: {day}/{month}/{year}', border=0, ln=1)
 		self.ln(15)
 	
 	def footer(self):
@@ -34,6 +47,7 @@ class PDF(FPDF):
 
 
 pdf = PDF('P', 'mm', 'Letter')
+pdf.add_font("Arial", "", "./fonts/arial.ttf", uni=True)
 pdf.alias_nb_pages()
 pdf.set_auto_page_break(auto=True, margin=15)
 
@@ -63,20 +77,19 @@ pdf.set_fill_color(229, 229, 229)
 cell_width_numdoc = 25
 cell_width_data = 25
 
+# pdf.cell(cell_width_numdoc, cell_height, 'Num. Doc.', border=1, fill=True)
+# pdf.cell(cell_width_data, cell_height, 'Banca', border=1, fill=True)
+# pdf.cell(cell_width_data, cell_height, 'Tipo Trasporto', border=1, fill=True)
+# pdf.cell(cell_width_data, cell_height, 'Partita IVA', border=1, fill=True)
+# pdf.cell(cell_width_data, cell_height, 'Cod. Cliente', border=1, fill=True)
+# pdf.cell(cell_width_data, cell_height, 'Desc. Pagamento', border=1, fill=True)
+# pdf.ln(cell_height)
 
-pdf.cell(cell_width_numdoc, cell_height, 'Num. Doc.', border=1, fill=True)
-pdf.cell(cell_width_data, cell_height, 'Banca', border=1, fill=True)
-pdf.cell(cell_width_data, cell_height, 'Tipo Trasporto', border=1, fill=True)
-pdf.cell(cell_width_data, cell_height, 'Partita IVA', border=1, fill=True)
-pdf.cell(cell_width_data, cell_height, 'Cod. Cliente', border=1, fill=True)
-pdf.cell(cell_width_data, cell_height, 'Desc. Pagamento', border=1, fill=True)
-pdf.ln(cell_height)
 
-
-pdf.set_font('helvetica', '', text_size)
-pdf.set_fill_color(255, 255, 255)
-pdf.cell(cell_width_numdoc, cell_height, 'M 11-23', border=1, fill=True)
-pdf.ln(cell_height + 20)
+# pdf.set_font('helvetica', '', text_size)
+# pdf.set_fill_color(255, 255, 255)
+# pdf.cell(cell_width_numdoc, cell_height, 'M 11-23', border=1, fill=True)
+# pdf.ln(cell_height + 20)
 
 
 cell_height = 8
@@ -87,22 +100,23 @@ pdf.set_fill_color(229, 229, 229)
 # print(codice_width)
 
 cell_width_codice = 20
-cell_width_description = 100
+cell_width_description = 80
 cell_width_um = 15
 cell_width_qta = 15
 cell_width_valuta = 20
 cell_width_valunit = 15
-cell_width_sconti = 15
+cell_width_prezzo = 30
+cell_width_sconti = 20
 cell_width_totale = 30
 
+pdf.cell(cell_width_qta, cell_height, 'Q.tà', border=1, fill=True)
 pdf.cell(cell_width_codice, cell_height, 'Codice', border=1, fill=True)
 pdf.cell(cell_width_description, cell_height, 'Descrizione', border=1, fill=True)
 # pdf.cell(cell_width_um, cell_height, 'U.M.', border=1, align='C', fill=True)
-pdf.cell(cell_width_qta, cell_height, 'Q.tà', border=1, fill=True)
 # pdf.cell(cell_width_valuta, cell_height, 'Valuta', border=1, fill=True)
 # pdf.cell(cell_width_valunit, cell_height, 'Val. Unit.', border=1, align='C', fill=True)
-pdf.cell(cell_width_sconti, cell_height, 'Prezzo', border=1, fill=True)
-pdf.cell(cell_width_sconti, cell_height, 'Sconti', border=1, fill=True)
+pdf.cell(cell_width_prezzo, cell_height, 'Prezzo', border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, 'Sconto', border=1, fill=True)
 pdf.cell(cell_width_totale, cell_height, 'Subtotale', border=1, fill=True)
 pdf.ln()
 
@@ -138,43 +152,134 @@ pdf.ln()
 pdf.set_font('helvetica', '', text_size)
 pdf.set_fill_color(255, 255, 255)
 
+# price = '24.810,00'
+# price_num = int(price.replace('.', '').replace(',00', ''))
+# subtotal_num = price_num - price_num * 0.15
+# subtotal_string = subtotal_num
+
+price_num = 24810
+discount_num = 15
+subtotal_num = price_num - price_num * (discount_num/100)
+
+price_str = '€ ' + str(price_num)
+discount_str = str(discount_num) + "%"
+subtotal_str = '€ ' + str(subtotal_num)
+
+pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
 pdf.cell(cell_width_codice, cell_height, '0001', border=1, fill=True)
 pdf.cell(cell_width_description, cell_height, 'GreenOzone V2 15/30', border=1, fill=True)
-# pdf.cell(cell_width_um, cell_height, 'N', border=1, fill=True)
-pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
-# pdf.cell(cell_width_valuta, cell_height, 'Euro', border=1, fill=True)
-# pdf.cell(cell_width_valunit, cell_height, '', border=1, fill=True)
-pdf.cell(cell_width_sconti, cell_height, '15%', border=1, fill=True)
-pdf.cell(cell_width_sconti, cell_height, '15%', border=1, fill=True)
-pdf.cell(cell_width_totale, cell_height, '24.810,00', border=1, fill=True)
+pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
+pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
 pdf.ln(cell_height)
 
 
+price_num = 120
+discount_num = 100
+subtotal_num = price_num - price_num * (discount_num/100)
+
+price_str = '€ ' + str(price_num)
+discount_str = str(discount_num) + "%"
+if subtotal_num == 0: subtotal_str = 'gratis'
+else: subtotal_str = '€ ' + str(subtotal_num)
+
+pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
 pdf.cell(cell_width_codice, cell_height, '0002', border=1, fill=True)
 pdf.cell(cell_width_description, cell_height, 'Trasporto', border=1, fill=True)
 # pdf.cell(cell_width_um, cell_height, 'N', border=1, fill=True)
-pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
 # pdf.cell(cell_width_valuta, cell_height, 'Euro', border=1, fill=True)
 # pdf.cell(cell_width_valunit, cell_height, '', border=1, fill=True)
-pdf.cell(cell_width_sconti, cell_height, '120', border=1, fill=True)
-pdf.cell(cell_width_sconti, cell_height, '100%', border=1, fill=True)
-pdf.cell(cell_width_totale, cell_height, 'Gratis', border=1, fill=True)
-pdf.ln(cell_height + 20)
+pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
+pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
+pdf.ln(cell_height)
 
 
-for i in range(41):
-	pdf.cell(0, 10, f'this is line {i}', ln=1)
-pdf.cell(0, 0, 'Spett.le', align='L')
-pdf.ln(20)
-pdf.set_font('helvetica', size=12)
+price_num = 480
+discount_num = 100
+subtotal_num = price_num - price_num * (discount_num/100)
 
+price_str = '€ ' + str(price_num)
+discount_str = str(discount_num) + "%"
+if subtotal_num == 0: subtotal_str = 'gratis'
+else: subtotal_str = '€ ' + str(subtotal_num)
+
+pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
+pdf.cell(cell_width_codice, cell_height, '0003', border=1, fill=True)
+pdf.cell(cell_width_description, cell_height, 'Installazione', border=1, fill=True)
+# pdf.cell(cell_width_um, cell_height, 'N', border=1, fill=True)
+# pdf.cell(cell_width_valuta, cell_height, 'Euro', border=1, fill=True)
+# pdf.cell(cell_width_valunit, cell_height, '', border=1, fill=True)
+pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
+pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
+pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
+pdf.ln(cell_height + 3)
+
+price_num = 24810
+discount_num = 15
+subtotal_num = price_num - price_num * (discount_num/100)
+print(subtotal_num)
+
+price_str = '€ ' + str(price_num)
+discount_str = str(discount_num) + "%"
+if subtotal_num == 0: subtotal_str = 'gratis'
+else: subtotal_str = '€ ' + str(subtotal_num)
+
+pdf.cell(140, cell_height, '')
+pdf.set_font('helvetica', 'B', text_size)
+pdf.cell(25, cell_height, 'Subtotale: ', align='R')
+pdf.set_font('helvetica', '', text_size)
+pdf.cell(25, cell_height, subtotal_str)
+pdf.ln(cell_height)
+
+iva_perc = 22
+iva_num = price_num * (22/100)
+iva_str = '€ ' + str(iva_num) + f' ({iva_perc}%)'
+
+pdf.cell(140, cell_height, '')
+pdf.set_font('helvetica', 'B', text_size)
+pdf.cell(25, cell_height, 'IVA: ', align='R')
+pdf.set_font('helvetica', '', text_size)
+pdf.cell(25, cell_height, iva_str)
+pdf.ln(cell_height)
+
+
+totale_str = '€ ' + str(iva_num + subtotal_num)
+
+pdf.cell(140, cell_height, '')
+pdf.set_font('helvetica', 'B', text_size)
+pdf.cell(25, cell_height, 'Totale: ', align='R')
+pdf.set_font('helvetica', '', text_size)
+pdf.cell(25, cell_height, totale_str)
+pdf.ln(cell_height)
+pdf.ln(10)
+
+
+cell_height = 6
+
+pdf.set_font('helvetica', 'B', text_size)
+pdf.cell(130, cell_height, 'Condizioni di fornitura')
+pdf.cell(100, cell_height, 'Timbro e firma per accettazione', ln=1)
+pdf.set_font('helvetica', '', text_size)
+pdf.cell(100, cell_height, 'Merce: disponibile in 40/60gg lavorativi', ln=1)
+pdf.cell(100, cell_height, 'Garanzia: 12 mesi', ln=1)
+pdf.cell(100, cell_height, "Pagamento: 50% all'ordine, 50% alla consegna", ln=1)
+
+
+pdf.ln(10)
+
+pdf.set_font('helvetica', '', 10)
+cell_height = 5
+privacy = 'Privacy L. 675 del 31.12.96 : Si informa che i dati a voi relativi e riportati nel presente documento vengono trattati in base alle esigenze contrattuali ed i conseguenti adempimenti degli obblighi fiscali e contabili. Con tale avviso ci riteniamo esonerati da eventuali responsabilità.'
+
+pdf.multi_cell(0, cell_height, privacy)
 
 
 pdf.output('report.pdf')
 
 subprocess.Popen('report.pdf', shell=True)
 
-# quit()
+quit()
 
 ##############################################################
 # DATA
@@ -827,7 +932,6 @@ frame_filters.pack(side=TOP, fill=X)
 def print_selection():
 	tree.pack_forget()
 	
-
 	if var1.get() == 0:
 		clients_fields_filtered = [field for field in clients_fields]
 		clients_fields_filtered.pop(0)
