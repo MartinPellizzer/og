@@ -46,6 +46,11 @@ class PDF(FPDF):
 
 
 def generate_pdf():
+    rows = []
+    for child in tree.get_children():
+        rows.append(tree.item(child)["values"])
+        print(tree.item(child)["values"])
+
     pdf = PDF('P', 'mm', 'Letter')
     pdf.add_font("Arial", "", "./fonts/arial.ttf", uni=True)
     pdf.alias_nb_pages()
@@ -104,67 +109,79 @@ def generate_pdf():
     pdf.set_font('helvetica', '', text_size)
     pdf.set_fill_color(255, 255, 255)
 
-    price_num = 24810
-    discount_num = 15
-    subtotal_num = price_num - price_num * (discount_num/100)
+    price_total_num = 0
+    discount_total_num = 0
 
-    price_str = '€ ' + str(price_num)
-    discount_str = str(discount_num) + "%"
-    subtotal_str = '€ ' + str(subtotal_num)
+    for row in rows:
+        price_num = row[1]
+        discount_num = row[2]
+        subtotal_num = price_num - price_num * (discount_num/100)
 
-    pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
-    pdf.cell(cell_width_codice, cell_height, '0001', border=1, fill=True)
-    pdf.cell(cell_width_description, cell_height, 'GreenOzone V2 15/30', border=1, fill=True)
-    pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
-    pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
-    pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
+        price_total_num += subtotal_num
+        discount_total_num += price_num * (discount_num/100)
+
+        price_str = '€ ' + str(price_num)
+        discount_str = str(discount_num) + "%"
+        if discount_num == 100:
+            subtotal_str = 'gratis'
+        else:
+            subtotal_str = '€ ' + str(subtotal_num)
+
+        pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
+        pdf.cell(cell_width_codice, cell_height, '0001', border=1, fill=True)
+        pdf.cell(cell_width_description, cell_height, row[0], border=1, fill=True)
+        pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
+        pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
+        pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
+        pdf.ln(cell_height)
+
+
+    # price_num = 120
+    # discount_num = 100
+    # subtotal_num = price_num - price_num * (discount_num/100)
+
+    # price_str = '€ ' + str(price_num)
+    # discount_str = str(discount_num) + "%"
+    # if subtotal_num == 0: subtotal_str = 'gratis'
+    # else: subtotal_str = '€ ' + str(subtotal_num)
+
+    # pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
+    # pdf.cell(cell_width_codice, cell_height, '0002', border=1, fill=True)
+    # pdf.cell(cell_width_description, cell_height, 'Trasporto', border=1, fill=True)
+    # pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
+    # pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
+    # pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
+    # pdf.ln(cell_height)
+
+
+    # price_num = 480
+    # discount_num = 100
+    # subtotal_num = price_num - price_num * (discount_num/100)
+
+    # price_str = '€ ' + str(price_num)
+    # discount_str = str(discount_num) + "%"
+    # if subtotal_num == 0: subtotal_str = 'gratis'
+    # else: subtotal_str = '€ ' + str(subtotal_num)
+
+    # pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
+    # pdf.cell(cell_width_codice, cell_height, '0003', border=1, fill=True)
+    # pdf.cell(cell_width_description, cell_height, 'Installazione', border=1, fill=True)
+    # pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
+    # pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
+    # pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
+
+    pdf.ln(3)
+
+    discount_total_str = '- € ' + str(discount_total_num)
+
+    pdf.cell(140, cell_height, '')
+    pdf.set_font('helvetica', 'B', text_size)
+    pdf.cell(25, cell_height, 'Totale Sconto: ', align='R')
+    pdf.set_font('helvetica', '', text_size)
+    pdf.cell(25, cell_height, discount_total_str)
     pdf.ln(cell_height)
-
-
-    price_num = 120
-    discount_num = 100
-    subtotal_num = price_num - price_num * (discount_num/100)
-
-    price_str = '€ ' + str(price_num)
-    discount_str = str(discount_num) + "%"
-    if subtotal_num == 0: subtotal_str = 'gratis'
-    else: subtotal_str = '€ ' + str(subtotal_num)
-
-    pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
-    pdf.cell(cell_width_codice, cell_height, '0002', border=1, fill=True)
-    pdf.cell(cell_width_description, cell_height, 'Trasporto', border=1, fill=True)
-    pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
-    pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
-    pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
-    pdf.ln(cell_height)
-
-
-    price_num = 480
-    discount_num = 100
-    subtotal_num = price_num - price_num * (discount_num/100)
-
-    price_str = '€ ' + str(price_num)
-    discount_str = str(discount_num) + "%"
-    if subtotal_num == 0: subtotal_str = 'gratis'
-    else: subtotal_str = '€ ' + str(subtotal_num)
-
-    pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
-    pdf.cell(cell_width_codice, cell_height, '0003', border=1, fill=True)
-    pdf.cell(cell_width_description, cell_height, 'Installazione', border=1, fill=True)
-    pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
-    pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
-    pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
-    pdf.ln(cell_height + 3)
-
-    price_num = 24810
-    discount_num = 15
-    subtotal_num = price_num - price_num * (discount_num/100)
-    print(subtotal_num)
-
-    price_str = '€ ' + str(price_num)
-    discount_str = str(discount_num) + "%"
-    if subtotal_num == 0: subtotal_str = 'gratis'
-    else: subtotal_str = '€ ' + str(subtotal_num)
+    
+    subtotal_str = '€ ' + str(price_total_num)
 
     pdf.cell(140, cell_height, '')
     pdf.set_font('helvetica', 'B', text_size)
@@ -174,7 +191,7 @@ def generate_pdf():
     pdf.ln(cell_height)
 
     iva_perc = 22
-    iva_num = price_num * (22/100)
+    iva_num = price_total_num * (22/100)
     iva_str = '€ ' + str(iva_num) + f' ({iva_perc}%)'
 
     pdf.cell(140, cell_height, '')
@@ -185,7 +202,7 @@ def generate_pdf():
     pdf.ln(cell_height)
 
 
-    totale_str = '€ ' + str(iva_num + subtotal_num)
+    totale_str = '€ ' + str(iva_num + price_total_num)
 
     pdf.cell(140, cell_height, '')
     pdf.set_font('helvetica', 'B', text_size)
@@ -194,7 +211,6 @@ def generate_pdf():
     pdf.cell(25, cell_height, totale_str)
     pdf.ln(cell_height)
     pdf.ln(10)
-
 
     cell_height = 6
 
@@ -207,7 +223,7 @@ def generate_pdf():
     pdf.cell(100, cell_height, "Pagamento: 50% all'ordine, 50% alla consegna", ln=1)
 
 
-    pdf.ln(10)
+    pdf.ln(20)
 
     pdf.set_font('helvetica', '', 10)
     cell_height = 5
@@ -251,16 +267,11 @@ clients_fields = [f'{f}' for f in db_clients_fields]
 database_name = 'database.db'
 
 
-def tk_clients_tree_refresh(rows):
-	tree.delete(*tree.get_children())
-	for index, row in enumerate(rows):
-		tree.insert(parent='', index=index, iid=index, text='', values=row, tags=(row[1],))
-
 root = Tk()
 root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
-root.geometry('800x600')
-root.state('zoomed')
+root.geometry('1400x600')
+# root.state('zoomed')
 
 # CREATE FIELDS
 frame_fields = LabelFrame(root, text='Client Info', padx=20, pady=10)
@@ -311,6 +322,10 @@ m3_var = StringVar()
 m3_var.trace("w", lambda name, index, mode, var=m3_var: calc_command())
 ppm_var = StringVar()
 ppm_var.trace("w", lambda name, index, mode, var=ppm_var: calc_command())
+oxy_var = StringVar()
+oxy_var.trace("w", lambda name, index, mode, var=ppm_var: calc_command())
+mul_var = StringVar()
+mul_var.trace("w", lambda name, index, mode, var=ppm_var: calc_command())
 
 i = 0
 m3_label = Label(frame_sizing, text='cubic meters   ')
@@ -318,45 +333,86 @@ m3_label.grid(row=i, column=0, sticky=W)
 m3_entry = Entry(frame_sizing, width=50, textvariable=m3_var)
 m3_entry.grid(row=i, column=1, sticky=W)
 i += 1
-# mg_label = Label(frame_sizing, text='ozone mg   ')
-# mg_label.grid(row=i, column=0, sticky=W)
-# mg_entry = Entry(frame_sizing, width=50)
-# mg_entry.grid(row=i, column=1, sticky=W)
-# i += 1
-# minutes_label = Label(frame_sizing, text='tempo accensione (minuti)   ')
-# minutes_label.grid(row=i, column=0, sticky=W)
-# minutes_entry = Entry(frame_sizing, width=50)
-# minutes_entry.grid(row=i, column=1, sticky=W)
-# i += 1
-ppm_label = Label(frame_sizing, text='ppm   ')
+ppm_label = Label(frame_sizing, text='ppm target  ')
 ppm_label.grid(row=i, column=0, sticky=W)
 ppm_entry = Entry(frame_sizing, width=50, textvariable=ppm_var)
 ppm_entry.grid(row=i, column=1, sticky=W)
 i += 1
-res_label = Label(frame_sizing, text='res (mg)   ')
+oxy_label = Label(frame_sizing, text='feeding oxygen %   ')
+oxy_label.grid(row=i, column=0, sticky=W)
+oxy_entry = Entry(frame_sizing, width=50, textvariable=oxy_var)
+oxy_entry.grid(row=i, column=1, sticky=W)
+i += 1
+mul_label = Label(frame_sizing, text='adjusting multiplier   ')
+mul_label.grid(row=i, column=0, sticky=W)
+mul_entry = Entry(frame_sizing, width=50, textvariable=mul_var)
+mul_entry.grid(row=i, column=1, sticky=W)
+i += 1
+res_label = Label(frame_sizing, text='result (mg)   ')
 res_label.grid(row=i, column=0, sticky=W)
 res_entry = Entry(frame_sizing, width=50)
 res_entry.grid(row=i, column=1, sticky=W)
 i += 1
 
+o3_gen_var = StringVar()
+o3_gen_var.set("Omega") # default value
 
-def callback():
-   content = var.get()
-   print(content)
-#    Label(win, text=content).pack()
+o3_gen_option = OptionMenu(frame_sizing, o3_gen_var, "Omega", "BigPower", "Trasporto", "Installazione")
+o3_gen_option.grid(row=i, column=1, sticky=W)
+i += 1
+
+def tree_add_product():
+    choice = o3_gen_var.get()
+    values = []
+    values.append(choice)
+    if choice == 'Omega':
+        values.append('2000')
+        values.append('15')
+    elif choice == 'BigPower':
+        values.append('6000')
+        values.append('20')
+    elif choice == 'Trasporto':
+        values.append('120')
+        values.append('100')
+    elif choice == 'Installazione':
+        values.append('480')
+        values.append('100')
+    else: values.append('')
+    tree.insert(parent='', index='end', text='', values=values)
 
 
+
+def o3_gen_command():
+    tree_add_product()
+
+o3_gen_button = Button(frame_sizing, text='Add Gen', command=o3_gen_command)
+o3_gen_button.grid(row=i, column=1, sticky=W)
+i += 1
+
+tree_frame = Frame(root)
+tree_frame.pack(side=LEFT, fill=Y)
+tree = ttk.Treeview(tree_frame)
+tree.pack(expand=True, fill=BOTH)
+tree_fields = ['product_name', 'price', 'discount']
+tree['columns'] = tree_fields
+tree.column('#0', width=0, stretch=NO)
+tree.heading('#0', text='', anchor=W)
+for field in tree_fields:
+    tree.column(field, width=160, anchor=W)
+    tree.heading(field, text=field, anchor=W)
 
 
 def calc_command():
     m3 = int(m3_entry.get())
     ppm = int(ppm_entry.get())
+    oxy = int(oxy_entry.get())
+    mul = int(mul_entry.get())
+    
     # mg = int(mg_entry.get())
     # minutes = int(minutes_entry.get())
-
     # ppm = mg / m3
 
-    mg = 2.14 * m3 * ppm
+    mg = 2.14 * m3 * ppm / (oxy / 100) * mul
 
     res_entry.delete(0, END)
     res_entry.insert(0, mg)
@@ -365,5 +421,25 @@ def calc_command():
 # calc_button = Button(frame_sizing, text='Calc', command=calc_command)
 # calc_button.grid(row=i, column=1, sticky=W)
 # i += 1
+
+
+# DEMO
+# if choice == 'Omega':
+#     values.append('2000')
+#     values.append('15')
+# elif choice == 'BigPower':
+#     values.append('6000')
+#     values.append('20')
+# elif choice == 'Trasporto':
+#     values.append('120')
+#     values.append('100')
+# elif choice == 'Installazione':
+#     values.append('480')
+#     values.append('100')
+# else: values.append('')
+tree.insert(parent='', index='end', text='', values=['Omega', '2000', '15'])
+tree.insert(parent='', index='end', text='', values=['BigPower', '6000', '20'])
+tree.insert(parent='', index='end', text='', values=['Trasporto', '120', '100'])
+tree.insert(parent='', index='end', text='', values=['Installazione', '480', '100'])
 
 root.mainloop()
