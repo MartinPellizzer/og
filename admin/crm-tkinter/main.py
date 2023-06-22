@@ -21,6 +21,7 @@ db_notes_fields = {
 }
 
 db_clients_fields = {
+	'business_name': "text",
 	'gil': "text",
 	'level': "text",
 	'attempt': "text",
@@ -31,8 +32,8 @@ db_clients_fields = {
 	'last_name': "text",
 	'email': "text",
 	'phone': "text",
-	'business_name': "text",
 	'business_address': "text",
+	'business_iva': "text",
 	'district': "text",
 	'website': "text",
 	'industry': "text",
@@ -76,7 +77,7 @@ def db_clients_create_table():
 
 
 def db_clients_update_by_business_name(values):
-	values.append(values[10])
+	values.append(values[0])
 	fields = ' = ?, '.join(db_clients_fields) + ' = ?'
 	conn = sqlite3.connect(database_name)
 	c = conn.cursor()
@@ -111,6 +112,17 @@ def db_clients_get_by_level(level):
 	c = conn.cursor()
 	c.execute(f'select * from clients where level={level}')
 	records = c.fetchall()	
+	conn.commit()
+	conn.close()
+	return records
+
+	
+def db_client_get_by_business_name(business_name):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	sql = f'select * from clients where business_name="{business_name}"'
+	c.execute(sql)
+	records = c.fetchall()[0]
 	conn.commit()
 	conn.close()
 	return records
@@ -255,6 +267,7 @@ def tk_clients_tree_upload_csv():
 		# FORMAT CSV ROWS FOR DB
 		rows_csv = []
 		for row in reader:
+			curr_business_name = row[0]
 			curr_gil = 0
 			curr_level = 0
 			curr_attempt = 0
@@ -265,14 +278,15 @@ def tk_clients_tree_upload_csv():
 			curr_last_name = ''
 			curr_email = row[4]
 			curr_phone = row[3]
-			curr_business_name = row[0]
 			curr_business_address = row[1]
+			curr_business_iva = ''
 			curr_district = row[5]
 			curr_website = row[2]
 			curr_industry = ''
 			curr_salesman = ''
 
 			formatted_row = [
+				curr_business_name,
 				curr_gil,
 				curr_level,
 				curr_attempt,
@@ -283,8 +297,8 @@ def tk_clients_tree_upload_csv():
 				curr_last_name,
 				curr_email,
 				curr_phone,
-				curr_business_name,
 				curr_business_address,
+				curr_business_iva,
 				curr_district,
 				curr_website,
 				curr_industry,
@@ -532,7 +546,7 @@ def tk_open_notes(e):
 	
 	selected = tree.focus()
 	values = tree.item(selected, 'values')
-	business_name_curr = values[10]
+	business_name_curr = values[0]
 
 
 	def tk_note_refresh_tree():
@@ -631,7 +645,7 @@ root = Tk()
 root.title('Ozonogroup CRM')
 root.iconbitmap('logo.ico')
 root.geometry('800x600')
-root.state('zoomed')
+# root.state('zoomed')
 
 # CREATE FIELDS
 frame_fields = Frame(root)
@@ -744,8 +758,8 @@ def tmp_refresh():
 frame_upload_csv= Frame(frame_center)
 frame_upload_csv.pack(side=TOP, fill=X)
 
-# upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_clients_tree_upload_csv)
-upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tmp_refresh)
+upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_clients_tree_upload_csv)
+# upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tmp_refresh)
 upload_csv_button.pack(side=RIGHT)
 
 # VIEW PROCEDURE
@@ -821,62 +835,53 @@ procedure_text.pack(expand=True, fill=BOTH)
 
 
 def tk_window_invoice(e):
+	# global tree
+
 	window_invoice = Tk()
 	window_invoice.title('Ozonogroup CRM')
 	window_invoice.iconbitmap('logo.ico')
 	window_invoice.geometry('1400x600')
+	window_invoice.grab_set()
+	
+	selected = tree.focus()
+	values = tree.item(selected, 'values')
+	business_name_curr = values[0]
 
-	# CREATE FIELDS
+
+	# CLIENT FRAME
 	frame_fields = LabelFrame(window_invoice, text='Client Info', padx=20, pady=10)
 	frame_fields.pack(side=LEFT, fill=Y)
 
+	# CLIENT FIELDS
 	labels = []
 	entries = []
-
 	i = 0
 	for field in clients_fields:
 		labels.append(Label(frame_fields, text=field).grid(row=i, column=0, sticky=W))
-		tmp_entry = Entry(frame_fields, width=50)
-		if field == 'id':
-			tmp_entry.insert(0, '-')
-			tmp_entry.config(state='readonly')
+		tmp_entry = Entry(frame_fields)
 		tmp_entry.grid(row=i, column=1, sticky=W)
 		entries.append(tmp_entry)
 		i += 1
-	pdf_button = Button(frame_fields, text='Generate PDF')
-	# pdf_button = Button(frame_fields, text='Generate PDF', command=generate_pdf)
-	pdf_button.grid(row=i, column=1, sticky=W)
-	i += 1
 
-	def db_client_get_by_business_name(business_name):
-		conn = sqlite3.connect(database_name)
-		c = conn.cursor()
-		c.execute(f'select * from clients where business_name="{business_name}"')
-		records = c.fetchall()[0]
-		conn.commit()
-		conn.close()
-		return records
-
-	row = db_client_get_by_business_name('San Nicola Prosciuttificio del Sole S.p.A.')
-	print(row)
-
+	row = db_client_get_by_business_name(business_name_curr)
 	for k, entry in enumerate(entries):
 		entry.delete(0, END)
 		entry.insert(0, row[k])
 
 
-	# SIZING
+	# CALCULATOR FRAME
 	frame_sizing = LabelFrame(window_invoice, text='Sizing', padx=20, pady=10)
 	frame_sizing.pack(side=LEFT, fill=Y)
 
+	# CALCULATOR FIELDS
 	m3_var = StringVar()
 	m3_var.trace("w", lambda name, index, mode, var=m3_var: calc_command())
 	ppm_var = StringVar()
 	ppm_var.trace("w", lambda name, index, mode, var=ppm_var: calc_command())
 	oxy_var = StringVar()
-	oxy_var.trace("w", lambda name, index, mode, var=ppm_var: calc_command())
+	oxy_var.trace("w", lambda name, index, mode, var=oxy_var: calc_command())
 	mul_var = StringVar()
-	mul_var.trace("w", lambda name, index, mode, var=ppm_var: calc_command())
+	mul_var.trace("w", lambda name, index, mode, var=mul_var: calc_command())
 
 	i = 0
 	m3_label = Label(frame_sizing, text='cubic meters   ')
@@ -905,12 +910,75 @@ def tk_window_invoice(e):
 	res_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
-	o3_gen_var = StringVar()
-	o3_gen_var.set("Omega") # default value
-
-	o3_gen_option = OptionMenu(frame_sizing, o3_gen_var, "Omega", "BigPower", "Trasporto", "Installazione")
-	o3_gen_option.grid(row=i, column=1, sticky=W)
+	def calc_mg():
+		m3 = int(m3_entry.get())
+		ppm = int(ppm_entry.get())
+		oxy = int(oxy_entry.get())
+		mul = int(mul_entry.get())
+		mg = 2.14 * m3 * ppm / (oxy / 100) * mul
+		res_entry.delete(0, END)
+		res_entry.insert(0, mg)
+	
+	calc_mg_button = Button(frame_sizing, text='Calc (MG)', command=calc_mg)
+	calc_mg_button.grid(row=i, column=1, sticky=W)
 	i += 1
+
+	
+	# ADD PRODUCT FRAME
+	frame_add_product = LabelFrame(window_invoice, text='Add Product', padx=20, pady=10)
+	frame_add_product.pack(side=LEFT, fill=Y)
+	
+	# ADD FIELDS
+	def selected_optionmenu(product_var):
+		product_name = product_var
+		product_name_entry.delete(0, END)
+		product_name_entry.insert(0, product_name)
+		if product_name == 'Omega':
+			product_price_entry.delete(0, END)
+			product_price_entry.insert(0, 2000)
+		# question_menu.set(selection)
+
+	i = 0
+	product_list = ["Omega", "BigPower", "Trasporto", "Installazione"]
+	product_var = StringVar()
+	product_option = OptionMenu(frame_add_product, product_var, *product_list, command=selected_optionmenu)
+	product_option.grid(row=i, column=0, sticky=W)
+	i += 1
+
+	product_name_label = Label(frame_add_product, text='product name   ')
+	product_name_label.grid(row=i, column=0, sticky=W)
+	product_name_entry = Entry(frame_add_product, width=20)
+	product_name_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	product_price_label = Label(frame_add_product, text='price   ')
+	product_price_label.grid(row=i, column=0, sticky=W)
+	product_price_entry = Entry(frame_add_product, width=20)
+	product_price_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+
+	# options_list = ["Option 1", "Option 2", "Option 3", "Option 4"]
+	# value_inside = StringVar(root)
+	# value_inside.set("Select an Option")
+	# question_menu = OptionMenu(frame_add_product, value_inside, *options_list,  command=selected_optionmenu)
+	# question_menu.set("Option 1")
+	# question_menu.pack()
+
+
+
+
+
+
+
+
+	# ADD FRAME
+	# o3_gen_var = StringVar()
+	# o3_gen_var.set("Omega")
+
+	# o3_gen_option = OptionMenu(frame_sizing, o3_gen_var, "Omega", "BigPower", "Trasporto", "Installazione")
+	# o3_gen_option.grid(row=i, column=1, sticky=W)
+	# i += 1
 
 	def tree_add_product():
 		choice = o3_gen_var.get()
@@ -929,46 +997,47 @@ def tk_window_invoice(e):
 			values.append('480')
 			values.append('100')
 		else: values.append('')
-		tree.insert(parent='', index='end', text='', values=values)
+		invoice_tree.insert(parent='', index='end', text='', values=values)
 
-
-
-	def o3_gen_command():
-		tree_add_product()
-
-	o3_gen_button = Button(frame_sizing, text='Add Gen', command=o3_gen_command)
+	o3_gen_button = Button(frame_sizing, text='Add Gen', command=tree_add_product)
 	o3_gen_button.grid(row=i, column=1, sticky=W)
 	i += 1
 
+	# TREE FRAME
 	tree_frame = Frame(window_invoice)
 	tree_frame.pack(side=LEFT, fill=Y)
-	tree = ttk.Treeview(tree_frame)
-	tree.pack(expand=True, fill=BOTH)
+
+	# PDF BUTTON
+	pdf_button = Button(tree_frame, text='Generate PDF')
+	# pdf_button = Button(frame_fields, text='Generate PDF', command=generate_pdf)
+	pdf_button.pack()
+	
+	# TREE
+	invoice_tree = ttk.Treeview(tree_frame)
+	invoice_tree.pack(expand=True, fill=BOTH)
 	tree_fields = ['product_name', 'price', 'discount']
-	tree['columns'] = tree_fields
-	tree.column('#0', width=0, stretch=NO)
-	tree.heading('#0', text='', anchor=W)
+	invoice_tree['columns'] = tree_fields
+	invoice_tree.column('#0', width=0, stretch=NO)
+	invoice_tree.heading('#0', text='', anchor=W)
 	for field in tree_fields:
-		tree.column(field, width=160, anchor=W)
-		tree.heading(field, text=field, anchor=W)
+		invoice_tree.column(field, width=160, anchor=W)
+		invoice_tree.heading(field, text=field, anchor=W)
 
 
-	def calc_command():
-		m3 = int(m3_entry.get())
-		ppm = int(ppm_entry.get())
-		oxy = int(oxy_entry.get())
-		mul = int(mul_entry.get())
+	# def calc_command():
+	# 	print('calc')
+	# 	m3 = int(m3_entry.get())
+	# 	ppm = int(ppm_entry.get())
+	# 	oxy = int(oxy_entry.get())
+	# 	mul = int(mul_entry.get())
+	# 	mg = 2.14 * m3 * ppm / (oxy / 100) * mul
+	# 	res_entry.delete(0, END)
+	# 	res_entry.insert(0, mg)
 
-		mg = 2.14 * m3 * ppm / (oxy / 100) * mul
-
-		res_entry.delete(0, END)
-		res_entry.insert(0, mg)
-
-	tree.insert(parent='', index='end', text='', values=['Omega', '2000', '15'])
-	tree.insert(parent='', index='end', text='', values=['BigPower', '6000', '20'])
-	tree.insert(parent='', index='end', text='', values=['Trasporto', '120', '100'])
-	tree.insert(parent='', index='end', text='', values=['Installazione', '480', '100'])
-
+	invoice_tree.insert(parent='', index='end', text='', values=['Omega', '2000', '15'])
+	invoice_tree.insert(parent='', index='end', text='', values=['BigPower', '6000', '20'])
+	invoice_tree.insert(parent='', index='end', text='', values=['Trasporto', '120', '100'])
+	invoice_tree.insert(parent='', index='end', text='', values=['Installazione', '480', '100'])
 
 
 ##############################################################
@@ -1231,7 +1300,8 @@ tk_clients_procedure_refresh()
 
 
 
-
+# rows = db_client_get_by_business_name('San Nicola Prosciuttificio del Sole S.p.A.')
+# print(rows)
 
 
 root.mainloop()
