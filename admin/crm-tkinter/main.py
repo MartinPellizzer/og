@@ -1,4 +1,5 @@
 from tkinter import *
+import tkinter as tk
 from tkinter import ttk, filedialog
 from datetime import datetime, timedelta
 import sqlite3
@@ -835,12 +836,218 @@ procedure_text.pack(expand=True, fill=BOTH)
 
 
 def tk_window_invoice(e):
-	# global tree
+	with open('products.csv', "r") as f:
+		reader = csv.reader(f, delimiter=",")
+		product_list = [product for product in reader]
+		product_list = product_list[1:]
+
+
+	text_size = 12
+
+	class PDF(FPDF):
+		def header(self):
+			self.image('logo.jpg', 10, 8, 50)
+			self.set_font('helvetica', 'B', text_size)
+
+			self.cell(130, 10)
+			self.cell(0, 10, 'Offerta #M11-23', ln=1)
+
+			self.set_font('helvetica', '', text_size)
+			self.cell(130, 10)
+			day = datetime.now().day
+			if day < 10: day = '0' + str(day)
+			month = datetime.now().month
+			if month < 10: month = '0' + str(month)
+			year = datetime.now().year
+			self.cell(0, 6, f'Data: {day}/{month}/{year}', border=0, ln=1)
+			self.cell(130, 10)
+			end_date = datetime.now().date() + timedelta(days=30)
+			
+			day = end_date.day
+			if day < 10: day = '0' + str(day)
+			month = end_date.month
+			if month < 10: month = '0' + str(month)
+			year = end_date.year
+
+			self.cell(0, 6, f'Valido fino a: {day}/{month}/{year}', border=0, ln=1)
+			self.ln(15)
+		
+		def footer(self):
+			self.set_y(-15)
+			self.set_font('helvetica', 'I', 10)
+			self.cell(0, 10, f'Page {self.page_no()}/{{nb}}', align='C')
+
+
+	def generate_pdf():
+		rows = []
+		for child in invoice_tree.get_children():
+			rows.append(invoice_tree.item(child)["values"])
+			print(invoice_tree.item(child)["values"])
+
+		business_name = entries[0].get()
+		business_address = entries[11].get()
+		business_iva = entries[12].get()
+
+		pdf = PDF('P', 'mm', 'Letter')
+		pdf.add_font("Arial", "", "./fonts/arial.ttf", uni=True)
+		pdf.alias_nb_pages()
+		pdf.set_auto_page_break(auto=True, margin=15)
+
+		pdf.add_page()
+
+		cell_height = 6
+		cell_width = 90
+		cell_width_divider = 10
+
+		pdf.set_font('helvetica', '', text_size)
+		pdf.set_fill_color(255, 255, 255)
+
+		pdf.cell(cell_width, cell_height, 'Fornitore:', border='B', fill=True)
+		pdf.cell(cell_width_divider, cell_height, '', fill=True)
+		pdf.cell(cell_width, cell_height, 'Cliente:', border='B', fill=True, ln=1)
+		pdf.ln(2)
+
+		pdf.cell(cell_width, cell_height, 'Ozonogroup s.r.l.', fill=True)
+		pdf.cell(cell_width_divider, cell_height, '', fill=True)
+		pdf.cell(cell_width, cell_height, business_name, fill=True, ln=1)
+
+		pdf.cell(cell_width, cell_height, 'Via dell\'Artigianato, 23 - 31011 Asolo (TV) Italia', fill=True)
+		pdf.cell(cell_width_divider, cell_height, '', fill=True)
+		pdf.cell(cell_width, cell_height, business_address, fill=True, ln=1)
+		
+		pdf.cell(cell_width, cell_height, 'P.IVA/C.F.: 86334519757', fill=True)
+		pdf.cell(cell_width_divider, cell_height, '', fill=True)
+		pdf.cell(cell_width, cell_height, f'P.IVA/C.F.: {business_iva}', fill=True, ln=1)
+		pdf.ln(10)
+
+		cell_height = 8
+		pdf.set_font('helvetica', 'B', text_size)
+		pdf.set_fill_color(229, 229, 229)
+
+		cell_width_numdoc = 25
+		cell_width_data = 25
+
+		cell_height = 8
+		pdf.set_font('helvetica', 'B', text_size)
+		pdf.set_fill_color(229, 229, 229)
+
+		cell_width_codice = 35
+		cell_width_description = 60
+		cell_width_um = 15
+		cell_width_qta = 15
+		cell_width_valuta = 20
+		cell_width_valunit = 15
+		cell_width_prezzo = 30
+		cell_width_sconti = 20
+		cell_width_totale = 35
+
+		pdf.cell(cell_width_qta, cell_height, 'Q.tà', border=1, fill=True)
+		pdf.cell(cell_width_codice, cell_height, 'Codice', border=1, fill=True)
+		pdf.cell(cell_width_description, cell_height, 'Descrizione', border=1, fill=True)
+		pdf.cell(cell_width_prezzo, cell_height, 'Prezzo', border=1, fill=True)
+		pdf.cell(cell_width_sconti, cell_height, 'Sconto', border=1, fill=True)
+		pdf.cell(cell_width_totale, cell_height, 'Subtotale', border=1, fill=True)
+		pdf.ln()
+
+		pdf.set_font('helvetica', '', text_size)
+		pdf.set_fill_color(255, 255, 255)
+
+		price_total_num = 0
+		discount_total_num = 0
+
+		for row in rows:
+			row_code_str = row[0]
+			row_desc_str = row[1]
+			price_num = row[2]
+			discount_num = row[3]
+			subtotal_num = price_num - price_num * (discount_num/100)
+
+			price_total_num += price_num
+			discount_total_num += price_num * (discount_num/100)
+
+			price_str = '€ ' + str(price_num)
+			discount_str = str(discount_num) + "%"
+			if discount_num == 100:
+				subtotal_str = 'gratis'
+			else:
+				subtotal_str = '€ ' + str(subtotal_num)
+
+			pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
+			pdf.cell(cell_width_codice, cell_height, row_code_str, border=1, fill=True)
+			pdf.cell(cell_width_description, cell_height, row_desc_str, border=1, fill=True)
+			pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
+			pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
+			pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
+			pdf.ln(cell_height)
+
+		pdf.ln(3)
+		
+		subtotal_str = '€ ' + str(price_total_num)
+
+		pdf.cell(140, cell_height, '')
+		pdf.set_font('helvetica', 'B', text_size)
+		pdf.cell(25, cell_height, 'Totale Prezzo: ', align='R')
+		pdf.set_font('helvetica', '', text_size)
+		pdf.cell(25, cell_height, subtotal_str)
+		pdf.ln(cell_height)
+
+		discount_total_str = '- € ' + str(discount_total_num)
+
+		pdf.cell(140, cell_height, '')
+		pdf.set_font('helvetica', 'B', text_size)
+		pdf.cell(25, cell_height, 'Totale Sconto: ', align='R')
+		pdf.set_font('helvetica', '', text_size)
+		pdf.cell(25, cell_height, discount_total_str)
+		pdf.ln(cell_height)
+
+		iva_perc = 22
+		iva_num = (price_total_num - discount_total_num) * (22/100)
+		iva_str = '€ ' + str(iva_num) + f' ({iva_perc}%)'
+
+		pdf.cell(140, cell_height, '')
+		pdf.set_font('helvetica', 'B', text_size)
+		pdf.cell(25, cell_height, 'IVA: ', align='R')
+		pdf.set_font('helvetica', '', text_size)
+		pdf.cell(25, cell_height, iva_str)
+		pdf.ln(cell_height)
+
+
+		totale_str = '€ ' + str(iva_num + price_total_num - discount_total_num)
+
+		pdf.cell(140, cell_height, '')
+		pdf.set_font('helvetica', 'B', text_size)
+		pdf.cell(25, cell_height, 'Totale: ', align='R')
+		pdf.set_font('helvetica', '', text_size)
+		pdf.cell(25, cell_height, totale_str)
+		pdf.ln(cell_height)
+		pdf.ln(10)
+
+		cell_height = 6
+
+		pdf.set_font('helvetica', 'B', text_size)
+		pdf.cell(130, cell_height, 'Condizioni di fornitura')
+		pdf.cell(100, cell_height, 'Timbro e firma per accettazione', ln=1)
+		pdf.set_font('helvetica', '', text_size)
+		pdf.cell(100, cell_height, 'Merce: da pronta a 40gg lavorativi', ln=1)
+		pdf.cell(100, cell_height, 'Garanzia: 12 mesi', ln=1)
+		pdf.cell(100, cell_height, "Pagamento: 50% all'ordine, 50% alla consegna", ln=1)
+
+		pdf.ln(20)
+
+		pdf.set_font('helvetica', '', 10)
+		cell_height = 5
+		privacy = 'Privacy L. 675 del 31.12.96 : Si informa che i dati a voi relativi e riportati nel presente documento vengono trattati in base alle esigenze contrattuali ed i conseguenti adempimenti degli obblighi fiscali e contabili. Con tale avviso ci riteniamo esonerati da eventuali responsabilità.'
+
+		pdf.multi_cell(0, cell_height, privacy)
+
+		pdf.output('report.pdf')
+
+		subprocess.Popen('report.pdf', shell=True)
 
 	window_invoice = Tk()
 	window_invoice.title('Ozonogroup CRM')
 	window_invoice.iconbitmap('logo.ico')
-	window_invoice.geometry('1400x600')
+	window_invoice.geometry('1700x600')
 	window_invoice.grab_set()
 	
 	selected = tree.focus()
@@ -853,18 +1060,18 @@ def tk_window_invoice(e):
 	frame_fields.pack(side=LEFT, fill=Y)
 
 	# CLIENT FIELDS
-	labels = []
-	entries = []
+	invoice_client_labels = []
+	invoice_client_entries = []
 	i = 0
 	for field in clients_fields:
-		labels.append(Label(frame_fields, text=field).grid(row=i, column=0, sticky=W))
+		invoice_client_labels.append(Label(frame_fields, text=field).grid(row=i, column=0, sticky=W))
 		tmp_entry = Entry(frame_fields)
 		tmp_entry.grid(row=i, column=1, sticky=W)
-		entries.append(tmp_entry)
+		invoice_client_entries.append(tmp_entry)
 		i += 1
 
 	row = db_client_get_by_business_name(business_name_curr)
-	for k, entry in enumerate(entries):
+	for k, entry in enumerate(invoice_client_entries):
 		entry.delete(0, END)
 		entry.insert(0, row[k])
 
@@ -924,31 +1131,74 @@ def tk_window_invoice(e):
 	i += 1
 
 	
-	# ADD PRODUCT FRAME
+	# ADD PRODUCT FRAME ---------------------------------------------
 	frame_add_product = LabelFrame(window_invoice, text='Add Product', padx=20, pady=10)
 	frame_add_product.pack(side=LEFT, fill=Y)
 	
 	# ADD FIELDS
 	def selected_optionmenu(product_var):
-		product_name = product_var
-		product_name_entry.delete(0, END)
-		product_name_entry.insert(0, product_name)
-		if product_name == 'Omega':
-			product_price_entry.delete(0, END)
-			product_price_entry.insert(0, 2000)
+		product_desc = product_var
+		for prod in product_list:
+			if product_desc == prod[2]:
+				curr_prod = prod
+
+		product_code_entry.delete(0, END)
+		product_code_entry.insert(0, curr_prod[0])
+		product_desc_entry.delete(0, END)
+		product_desc_entry.insert(0, curr_prod[2])
+		product_price_entry.delete(0, END)
+		product_price_entry.insert(0, curr_prod[3])
+		product_discount_entry.delete(0, END)
+		product_discount_entry.insert(0, 0)
+
+		# if product_desc == 'Omega':
+		# 	product_code_entry.delete(0, END)
+		# 	product_code_entry.insert(0, curr_prod_code)
+		# 	product_price_entry.delete(0, END)
+		# 	product_price_entry.insert(0, 2000)
+		# 	product_discount_entry.delete(0, END)
+		# 	product_discount_entry.insert(0, 0)
+		# elif product_desc == 'BigPower':
+		# 	product_price_entry.delete(0, END)
+		# 	product_price_entry.insert(0, 6000)
+		# 	product_discount_entry.delete(0, END)
+		# 	product_discount_entry.insert(0, 0)
+		# elif product_desc == 'Trasporto':
+		# 	product_price_entry.delete(0, END)
+		# 	product_price_entry.insert(0, 120)
+		# 	product_discount_entry.delete(0, END)
+		# 	product_discount_entry.insert(0, 100)
+		# elif product_desc == 'Installazione':
+		# 	product_price_entry.delete(0, END)
+		# 	product_price_entry.insert(0, 480)
+		# 	product_discount_entry.delete(0, END)
+		# 	product_discount_entry.insert(0, 100)
+		# else:
+		# 	product_price_entry.delete(0, END)
+		# 	product_price_entry.insert(0, 0)
+		# 	product_discount_entry.delete(0, END)
+		# 	product_discount_entry.insert(0, 0)
 		# question_menu.set(selection)
 
 	i = 0
-	product_list = ["Omega", "BigPower", "Trasporto", "Installazione"]
+	
+	# product_list = ["Omega", "BigPower", "Trasporto", "Installazione"]
+	product_list_for_menu = [product[2] for product in product_list]
 	product_var = StringVar()
-	product_option = OptionMenu(frame_add_product, product_var, *product_list, command=selected_optionmenu)
+	product_option = OptionMenu(frame_add_product, product_var, *product_list_for_menu, command=selected_optionmenu)
 	product_option.grid(row=i, column=0, sticky=W)
 	i += 1
 
-	product_name_label = Label(frame_add_product, text='product name   ')
-	product_name_label.grid(row=i, column=0, sticky=W)
-	product_name_entry = Entry(frame_add_product, width=20)
-	product_name_entry.grid(row=i, column=1, sticky=W)
+	product_code_label = Label(frame_add_product, text='product code   ')
+	product_code_label.grid(row=i, column=0, sticky=W)
+	product_code_entry = Entry(frame_add_product, width=20)
+	product_code_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	product_desc_label = Label(frame_add_product, text='product description   ')
+	product_desc_label.grid(row=i, column=0, sticky=W)
+	product_desc_entry = Entry(frame_add_product, width=20)
+	product_desc_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
 	product_price_label = Label(frame_add_product, text='price   ')
@@ -957,65 +1207,80 @@ def tk_window_invoice(e):
 	product_price_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
-
-	# options_list = ["Option 1", "Option 2", "Option 3", "Option 4"]
-	# value_inside = StringVar(root)
-	# value_inside.set("Select an Option")
-	# question_menu = OptionMenu(frame_add_product, value_inside, *options_list,  command=selected_optionmenu)
-	# question_menu.set("Option 1")
-	# question_menu.pack()
-
-
-
-
-
-
-
-
-	# ADD FRAME
-	# o3_gen_var = StringVar()
-	# o3_gen_var.set("Omega")
-
-	# o3_gen_option = OptionMenu(frame_sizing, o3_gen_var, "Omega", "BigPower", "Trasporto", "Installazione")
-	# o3_gen_option.grid(row=i, column=1, sticky=W)
-	# i += 1
+	product_discount_label = Label(frame_add_product, text='discount   ')
+	product_discount_label.grid(row=i, column=0, sticky=W)
+	product_discount_entry = Entry(frame_add_product, width=20)
+	product_discount_entry.grid(row=i, column=1, sticky=W)
+	i += 1
 
 	def tree_add_product():
-		choice = o3_gen_var.get()
-		values = []
-		values.append(choice)
-		if choice == 'Omega':
-			values.append('2000')
-			values.append('15')
-		elif choice == 'BigPower':
-			values.append('6000')
-			values.append('20')
-		elif choice == 'Trasporto':
-			values.append('120')
-			values.append('100')
-		elif choice == 'Installazione':
-			values.append('480')
-			values.append('100')
-		else: values.append('')
+		product_code = product_code_entry.get()
+		product_desc = product_desc_entry.get()
+		product_price = product_price_entry.get()
+		product_discount = product_discount_entry.get()
+		values = [product_code, product_desc, product_price, product_discount]
 		invoice_tree.insert(parent='', index='end', text='', values=values)
+	
+	
+	def tree_del_product():
+		selected_items = invoice_tree.selection()        
+		for selected_item in selected_items:          
+			invoice_tree.delete(selected_item)
 
-	o3_gen_button = Button(frame_sizing, text='Add Gen', command=tree_add_product)
-	o3_gen_button.grid(row=i, column=1, sticky=W)
+	add_prod_button = Button(frame_add_product, text='Add Product', command=tree_add_product)
+	add_prod_button.grid(row=i, column=1, sticky=W)
 	i += 1
+	del_prod_button = Button(frame_add_product, text='Del Product', command=tree_del_product)
+	del_prod_button.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	
+	def selected_family(product_var):
+		curr_product_family = product_family_var.get()
+		print(curr_product_family)
+		product_family_entry.delete(0, END)
+		product_family_entry.insert(0, product_family_var.get())
+
+		updated_list = ['test']
+		# product_var.set('')
+		product_option['menu'].delete(0, 'end')
+
+		new_choices = ('one', 'two', 'three')
+		
+		for choice in new_choices:
+			product_option['menu'].add_command(label=choice, command=tk._setit(product_var, choice))
+			# product_option.configure(frame_add_product, product_var, *updated_list)
+
+	product_family_list = set()
+	for product in product_list:
+		product_family = product[1]
+		product_family_list.add(product_family)
+
+	product_family_var = StringVar()
+	product_family_option = OptionMenu(frame_add_product, product_family_var, *product_family_list, command=selected_family)
+	product_family_option.grid(row=i, column=0, sticky=W)
+	i += 1
+	
+	product_family_label = Label(frame_add_product, text='product family   ')
+	product_family_label.grid(row=i, column=0, sticky=W)
+	product_family_entry = Entry(frame_add_product, width=20)
+	product_family_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
 
 	# TREE FRAME
 	tree_frame = Frame(window_invoice)
 	tree_frame.pack(side=LEFT, fill=Y)
 
 	# PDF BUTTON
-	pdf_button = Button(tree_frame, text='Generate PDF')
-	# pdf_button = Button(frame_fields, text='Generate PDF', command=generate_pdf)
+	# pdf_button = Button(tree_frame, text='Generate PDF')
+	pdf_button = Button(tree_frame, text='Generate PDF', command=generate_pdf)
 	pdf_button.pack()
 	
 	# TREE
 	invoice_tree = ttk.Treeview(tree_frame)
 	invoice_tree.pack(expand=True, fill=BOTH)
-	tree_fields = ['product_name', 'price', 'discount']
+	tree_fields = ['product code', 'product description', 'price', 'discount']
 	invoice_tree['columns'] = tree_fields
 	invoice_tree.column('#0', width=0, stretch=NO)
 	invoice_tree.heading('#0', text='', anchor=W)
@@ -1024,20 +1289,10 @@ def tk_window_invoice(e):
 		invoice_tree.heading(field, text=field, anchor=W)
 
 
-	# def calc_command():
-	# 	print('calc')
-	# 	m3 = int(m3_entry.get())
-	# 	ppm = int(ppm_entry.get())
-	# 	oxy = int(oxy_entry.get())
-	# 	mul = int(mul_entry.get())
-	# 	mg = 2.14 * m3 * ppm / (oxy / 100) * mul
-	# 	res_entry.delete(0, END)
-	# 	res_entry.insert(0, mg)
-
-	invoice_tree.insert(parent='', index='end', text='', values=['Omega', '2000', '15'])
-	invoice_tree.insert(parent='', index='end', text='', values=['BigPower', '6000', '20'])
-	invoice_tree.insert(parent='', index='end', text='', values=['Trasporto', '120', '100'])
-	invoice_tree.insert(parent='', index='end', text='', values=['Installazione', '480', '100'])
+	# invoice_tree.insert(parent='', index='end', text='', values=['Omega', '2000', '15'])
+	# invoice_tree.insert(parent='', index='end', text='', values=['BigPower', '6000', '20'])
+	# invoice_tree.insert(parent='', index='end', text='', values=['Trasporto', '120', '100'])
+	# invoice_tree.insert(parent='', index='end', text='', values=['Installazione', '480', '100'])
 
 
 ##############################################################
@@ -1062,7 +1317,6 @@ tree.bind("6", tk_clients_tree_get_by_level)
 tree.bind("7", tk_clients_tree_get_by_level)
 tree.bind("8", tk_clients_tree_get_by_level)
 tree.bind("9", tk_clients_tree_get_by_level)
-
 
 tree.bind('j', tk_clients_tree_move_j)
 tree.bind('k', tk_clients_tree_move_k)
@@ -1106,197 +1360,7 @@ tk_clients_procedure_refresh()
 
 
 
-# text_size = 12
 
-# class PDF(FPDF):
-# 	def header(self):
-# 		self.image('logo.jpg', 10, 8, 50)
-# 		self.set_font('helvetica', 'B', text_size)
-
-# 		self.cell(130, 10)
-# 		self.cell(0, 10, 'Offerta #M11-23', ln=1)
-
-# 		self.set_font('helvetica', '', text_size)
-# 		self.cell(130, 10)
-# 		day = datetime.now().day
-# 		if day < 10: day = '0' + str(day)
-# 		month = datetime.now().month
-# 		if month < 10: month = '0' + str(month)
-# 		year = datetime.now().year
-# 		self.cell(0, 6, f'Data: {day}/{month}/{year}', border=0, ln=1)
-# 		self.cell(130, 10)
-# 		end_date = datetime.now().date() + timedelta(days=30)
-		
-# 		day = end_date.day
-# 		if day < 10: day = '0' + str(day)
-# 		month = end_date.month
-# 		if month < 10: month = '0' + str(month)
-# 		year = end_date.year
-
-# 		self.cell(0, 6, f'Valido fino a: {day}/{month}/{year}', border=0, ln=1)
-# 		self.ln(15)
-	
-# 	def footer(self):
-# 		self.set_y(-15)
-# 		self.set_font('helvetica', 'I', 10)
-# 		self.cell(0, 10, f'Page {self.page_no()}/{{nb}}', align='C')
-
-
-# def generate_pdf():
-#     rows = []
-#     for child in tree.get_children():
-#         rows.append(tree.item(child)["values"])
-#         print(tree.item(child)["values"])
-
-#     pdf = PDF('P', 'mm', 'Letter')
-#     pdf.add_font("Arial", "", "./fonts/arial.ttf", uni=True)
-#     pdf.alias_nb_pages()
-#     pdf.set_auto_page_break(auto=True, margin=15)
-
-#     pdf.add_page()
-
-
-#     cell_height = 6
-#     pdf.set_font('helvetica', '', text_size)
-#     pdf.set_fill_color(255, 255, 255)
-
-#     pdf.cell(0, cell_height, 'Ozonogroup s.r.l.', fill=True, ln=1)
-#     pdf.cell(0, cell_height, 'Via dell\'Artigianato, 23 - 31011 Asolo (TV) Italia', fill=True, ln=1)
-#     pdf.cell(0, cell_height, 'P.IVA/C.F.: 86334519757', fill=True, ln=1)
-#     pdf.ln(5)
-
-#     pdf.cell(100, cell_height, 'Cliente:', border='B', fill=True, ln=1)
-#     pdf.ln(2)
-#     business_name = entries[10].get()
-#     business_address = entries[11].get()
-#     pdf.cell(0, cell_height, business_name, fill=True, ln=1)
-#     pdf.cell(0, cell_height, business_address, fill=True, ln=1)
-#     pdf.cell(0, cell_height, 'P.IVA/C.F.: 86334519757', fill=True, ln=1)
-#     pdf.ln(10)
-
-#     cell_height = 8
-#     pdf.set_font('helvetica', 'B', text_size)
-#     pdf.set_fill_color(229, 229, 229)
-
-#     cell_width_numdoc = 25
-#     cell_width_data = 25
-
-#     cell_height = 8
-#     pdf.set_font('helvetica', 'B', text_size)
-#     pdf.set_fill_color(229, 229, 229)
-
-#     cell_width_codice = 20
-#     cell_width_description = 80
-#     cell_width_um = 15
-#     cell_width_qta = 15
-#     cell_width_valuta = 20
-#     cell_width_valunit = 15
-#     cell_width_prezzo = 30
-#     cell_width_sconti = 20
-#     cell_width_totale = 30
-
-#     pdf.cell(cell_width_qta, cell_height, 'Q.tà', border=1, fill=True)
-#     pdf.cell(cell_width_codice, cell_height, 'Codice', border=1, fill=True)
-#     pdf.cell(cell_width_description, cell_height, 'Descrizione', border=1, fill=True)
-#     pdf.cell(cell_width_prezzo, cell_height, 'Prezzo', border=1, fill=True)
-#     pdf.cell(cell_width_sconti, cell_height, 'Sconto', border=1, fill=True)
-#     pdf.cell(cell_width_totale, cell_height, 'Subtotale', border=1, fill=True)
-#     pdf.ln()
-
-#     pdf.set_font('helvetica', '', text_size)
-#     pdf.set_fill_color(255, 255, 255)
-
-#     price_total_num = 0
-#     discount_total_num = 0
-
-#     for row in rows:
-#         price_num = row[1]
-#         discount_num = row[2]
-#         subtotal_num = price_num - price_num * (discount_num/100)
-
-#         price_total_num += subtotal_num
-#         discount_total_num += price_num * (discount_num/100)
-
-#         price_str = '€ ' + str(price_num)
-#         discount_str = str(discount_num) + "%"
-#         if discount_num == 100:
-#             subtotal_str = 'gratis'
-#         else:
-#             subtotal_str = '€ ' + str(subtotal_num)
-
-#         pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
-#         pdf.cell(cell_width_codice, cell_height, '0001', border=1, fill=True)
-#         pdf.cell(cell_width_description, cell_height, row[0], border=1, fill=True)
-#         pdf.cell(cell_width_prezzo, cell_height, price_str, border=1, fill=True)
-#         pdf.cell(cell_width_sconti, cell_height, discount_str, border=1, fill=True)
-#         pdf.cell(cell_width_totale, cell_height, subtotal_str, border=1, fill=True)
-#         pdf.ln(cell_height)
-
-#     pdf.ln(3)
-
-#     discount_total_str = '- € ' + str(discount_total_num)
-
-#     pdf.cell(140, cell_height, '')
-#     pdf.set_font('helvetica', 'B', text_size)
-#     pdf.cell(25, cell_height, 'Totale Sconto: ', align='R')
-#     pdf.set_font('helvetica', '', text_size)
-#     pdf.cell(25, cell_height, discount_total_str)
-#     pdf.ln(cell_height)
-    
-#     subtotal_str = '€ ' + str(price_total_num)
-
-#     pdf.cell(140, cell_height, '')
-#     pdf.set_font('helvetica', 'B', text_size)
-#     pdf.cell(25, cell_height, 'Subtotale: ', align='R')
-#     pdf.set_font('helvetica', '', text_size)
-#     pdf.cell(25, cell_height, subtotal_str)
-#     pdf.ln(cell_height)
-
-#     iva_perc = 22
-#     iva_num = price_total_num * (22/100)
-#     iva_str = '€ ' + str(iva_num) + f' ({iva_perc}%)'
-
-#     pdf.cell(140, cell_height, '')
-#     pdf.set_font('helvetica', 'B', text_size)
-#     pdf.cell(25, cell_height, 'IVA: ', align='R')
-#     pdf.set_font('helvetica', '', text_size)
-#     pdf.cell(25, cell_height, iva_str)
-#     pdf.ln(cell_height)
-
-
-#     totale_str = '€ ' + str(iva_num + price_total_num)
-
-#     pdf.cell(140, cell_height, '')
-#     pdf.set_font('helvetica', 'B', text_size)
-#     pdf.cell(25, cell_height, 'Totale: ', align='R')
-#     pdf.set_font('helvetica', '', text_size)
-#     pdf.cell(25, cell_height, totale_str)
-#     pdf.ln(cell_height)
-#     pdf.ln(10)
-
-#     cell_height = 6
-
-#     pdf.set_font('helvetica', 'B', text_size)
-#     pdf.cell(130, cell_height, 'Condizioni di fornitura')
-#     pdf.cell(100, cell_height, 'Timbro e firma per accettazione', ln=1)
-#     pdf.set_font('helvetica', '', text_size)
-#     pdf.cell(100, cell_height, 'Merce: disponibile in 40/60gg lavorativi', ln=1)
-#     pdf.cell(100, cell_height, 'Garanzia: 12 mesi', ln=1)
-#     pdf.cell(100, cell_height, "Pagamento: 50% all'ordine, 50% alla consegna", ln=1)
-
-
-#     pdf.ln(20)
-
-#     pdf.set_font('helvetica', '', 10)
-#     cell_height = 5
-#     privacy = 'Privacy L. 675 del 31.12.96 : Si informa che i dati a voi relativi e riportati nel presente documento vengono trattati in base alle esigenze contrattuali ed i conseguenti adempimenti degli obblighi fiscali e contabili. Con tale avviso ci riteniamo esonerati da eventuali responsabilità.'
-
-#     pdf.multi_cell(0, cell_height, privacy)
-
-
-#     pdf.output('report.pdf')
-
-#     subprocess.Popen('report.pdf', shell=True)
 
 
 
