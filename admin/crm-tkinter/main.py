@@ -8,6 +8,10 @@ import os
 
 import subprocess
 from fpdf import FPDF
+import locale
+
+locale.setlocale( locale.LC_ALL, '' )
+print(locale.localeconv())
 
 # TODO: heavy refactoring before moving on
 
@@ -153,6 +157,16 @@ def db_clients_insert_rows(rows):
 		c.execute(f'insert into clients values ({fields})', fields_dict)
 	conn.commit()
 	conn.close()
+
+
+def db_clients_delete_row_by_business_name(business_name):
+	conn = sqlite3.connect(database_name)
+	c = conn.cursor()
+	c.execute(f'DELETE from clients where business_name = "{business_name}"')
+	conn.commit()
+	conn.close()
+
+
 
 
 # NOTES ####################################################
@@ -464,20 +478,41 @@ def tk_clients_tree_get_rows_today(e):
 	tree.focus(0)
 	tree.selection_set(0)
 
+
+def tk_clients_tree_get_by_business_name(e):
+	rows = db_clients_get_rows()
+	rows_filtered = [row for row in rows if tree_row_filter_entry.get() in row[0].lower()]
+	tk_clients_tree_refresh(rows_filtered)
+
 	
 def tk_clients_tree_refresh_entries_procedure(e):
 	tk_clients_entries_refresh()
 	tk_clients_procedure_refresh()
 
 
+def clients_tree_del_row(e):
+	selected = tree.focus()
+	values = tree.item(selected, 'values')
+	business_name_curr = values[0]
+	
+	db_clients_delete_row_by_business_name(business_name_curr)   
+
+	selected_items = tree.selection()     
+	for selected_item in selected_items:          
+		tree.delete(selected_item)
+
+	
+		
+
+
 ##############################################################
 # TKINTER ADD
 ##############################################################
 # TODO: keep it or delete it?
-def add_client():
+def add_client(e):
 	add_window = Toplevel(root)
 	add_window.title('Add Client')
-	add_window.geometry('270x400')
+	add_window.geometry('270x500')
 	add_window.grab_set()
 
 	add_frame = LabelFrame(add_window, text='Add Clients', padx=20, pady=10)
@@ -495,41 +530,30 @@ def add_client():
 			tmp_entry.insert(0, 0)
 		elif field == 'date_first_added':
 			tmp_entry.insert(0, datetime.now().date())
-		elif field == 'date_last_updated':
+		elif field == 'date_last_action':
+			tmp_entry.insert(0, datetime.now().date())
+		elif field == 'date_next_action':
 			tmp_entry.insert(0, datetime.now().date())
 		add_entries.append(tmp_entry)
 	i += 1
 
 	def add_client_db():
-		conn = sqlite3.connect(database_name)
-		c = conn.cursor()
-
 		entries_vals = [entry.get() for entry in add_entries]
-		
-		c.execute('insert into clients values (:level, :exp, :date_first_added, :date_last_updated, :first_name, :last_name, :email, :phone, :business_name, :business_address, :district, :website, :industry, :gil, :salesman)',
-			{
-				'level': entries_vals[0],
-				'exp': entries_vals[1],
-				'date_first_added': entries_vals[2],
-				'date_last_updated': entries_vals[3],
-				'first_name': entries_vals[4],
-				'last_name': entries_vals[5],
-				'email': entries_vals[6],
-				'phone': entries_vals[7],
-				'business_name': entries_vals[8],
-				'business_address': entries_vals[9],
-				'district': entries_vals[10],
-				'website': entries_vals[11],
-				'industry': entries_vals[12],
-				'gil': entries_vals[13],
-				'salesman': entries_vals[14],
-			})
+		db_clients_insert_rows([entries_vals])
 
+		for i, field in enumerate(clients_fields):
+			add_entries[i].delete(0, END)
 
-		conn.commit()
-		conn.close()
+			if field == 'id': continue
+			elif field == 'status':
+				add_entries[i].insert(0, 0)
+			elif field == 'date_first_added':
+				add_entries[i].insert(0, datetime.now().date())
+			elif field == 'date_last_action':
+				add_entries[i].insert(0, datetime.now().date())
+			elif field == 'date_next_action':
+				add_entries[i].insert(0, datetime.now().date())
 
-		tk_entries_clear()
 		tk_clients_tree_refresh(db_clients_get_rows())
 
 	curr_add_button = Button(add_frame, text='Add', command=add_client_db)
@@ -649,7 +673,7 @@ root.geometry('800x600')
 # root.state('zoomed')
 
 # CREATE FIELDS
-frame_fields = Frame(root)
+frame_fields = Frame(root, padx=20, pady=10)
 frame_fields.pack(side=LEFT, fill=Y)
 
 labels = []
@@ -668,58 +692,67 @@ update_button.grid(row=i, column=0, sticky=W)
 i += 1
 
 # CENTER
-frame_center = Frame(root)
+frame_center = Frame(root, padx=20, pady=10)
 frame_center.pack(side=LEFT, expand=True, fill=BOTH)
 
 # COLUMNS FILTER
-frame_filters = Frame(frame_center)
-frame_filters.pack(side=TOP, fill=X)
-def print_selection():
-	tree.pack_forget()
+# frame_filters = Frame(frame_center)
+# frame_filters.pack(side=TOP, fill=X)
+# def print_selection():
+# 	tree.pack_forget()
 	
-	if var1.get() == 0:
-		clients_fields_filtered = [field for field in clients_fields]
-		clients_fields_filtered.pop(0)
+# 	if var1.get() == 0:
+# 		clients_fields_filtered = [field for field in clients_fields]
+# 		clients_fields_filtered.pop(0)
 
-		total_width = 1200
-		column_width = total_width // len(clients_fields_filtered)
+# 		total_width = 1200
+# 		column_width = total_width // len(clients_fields_filtered)
 
-		tree['columns'] = clients_fields_filtered
-		tree.column('#0', width=0, stretch=NO)
-		tree.heading('#0', text='', anchor=W)
-		for field in clients_fields_filtered:
-			tree.column(field, width=column_width, anchor=W)
-			tree.heading(field, text=field, anchor=W)
-		rows = db_clients_get_rows()
-		rows_filtered = [row[1:] for row in rows]
-		print(rows)
-		tk_clients_tree_refresh(rows_filtered)
+# 		tree['columns'] = clients_fields_filtered
+# 		tree.column('#0', width=0, stretch=NO)
+# 		tree.heading('#0', text='', anchor=W)
+# 		for field in clients_fields_filtered:
+# 			tree.column(field, width=column_width, anchor=W)
+# 			tree.heading(field, text=field, anchor=W)
+# 		rows = db_clients_get_rows()
+# 		rows_filtered = [row[1:] for row in rows]
+# 		print(rows)
+# 		tk_clients_tree_refresh(rows_filtered)
 
-	else:
-		total_width = 1200
-		column_width = total_width // len(clients_fields)
+# 	else:
+# 		total_width = 1200
+# 		column_width = total_width // len(clients_fields)
 
-		tree['columns'] = clients_fields
-		tree.column('#0', width=0, stretch=NO)
-		tree.heading('#0', text='', anchor=W)
-		for field in clients_fields:
-			tree.column(field, width=column_width, anchor=W)
-			tree.heading(field, text=field, anchor=W)
-		rows = db_clients_get_rows()
-		rows_filtered = [row for row in rows]
-		print(rows)
-		tk_clients_tree_refresh(rows_filtered)
+# 		tree['columns'] = clients_fields
+# 		tree.column('#0', width=0, stretch=NO)
+# 		tree.heading('#0', text='', anchor=W)
+# 		for field in clients_fields:
+# 			tree.column(field, width=column_width, anchor=W)
+# 			tree.heading(field, text=field, anchor=W)
+# 		rows = db_clients_get_rows()
+# 		rows_filtered = [row for row in rows]
+# 		print(rows)
+# 		tk_clients_tree_refresh(rows_filtered)
 	
-	tree.pack(expand=True, fill=Y)
+# 	tree.pack(expand=True, fill=Y)
 
-var1 = IntVar()
-var1.set(1)
-var2 = IntVar()
-var2.set(1)
-c1 = Checkbutton(frame_filters, text='gil', variable=var1, onvalue=1, offvalue=0, command=print_selection)
-c1.pack(side=LEFT)
-c2 = Checkbutton(frame_filters, text='level', variable=var2, onvalue=1, offvalue=0, command=print_selection)
-c2.pack(side=LEFT)
+# var1 = IntVar()
+# var1.set(1)
+# var2 = IntVar()
+# var2.set(1)
+# c1 = Checkbutton(frame_filters, text='gil', variable=var1, onvalue=1, offvalue=0, command=print_selection)
+# c1.pack(side=LEFT)
+# c2 = Checkbutton(frame_filters, text='level', variable=var2, onvalue=1, offvalue=0, command=print_selection)
+# c2.pack(side=LEFT)
+
+# ROW FILTER
+tree_row_filter_frame = Frame(frame_center)
+tree_row_filter_frame.pack(side=TOP, fill=X)
+tree_row_filter_label = Label(tree_row_filter_frame, text='business_name')
+tree_row_filter_label.grid(row=i, column=0, sticky=W)
+tree_row_filter_entry = Entry(tree_row_filter_frame)
+tree_row_filter_entry.grid(row=i, column=1, sticky=W)
+i += 1
 
 # TREEVIEW
 frame_tree = Frame(frame_center)
@@ -764,7 +797,7 @@ upload_csv_button = Button(frame_upload_csv, text='Upload CSV', command=tk_clien
 upload_csv_button.pack(side=RIGHT)
 
 # VIEW PROCEDURE
-frame_procedure = Frame(root)
+frame_procedure = Frame(root, padx=20, pady=10)
 frame_procedure.pack(side=LEFT, fill=Y)
 
 procedure_text = Text(frame_procedure, padx=20, pady=10)
@@ -773,77 +806,14 @@ procedure_text.pack(expand=True, fill=BOTH)
 
 
 
-
-# vsb = ttk.Scrollbar(root, orient="vertical", command=tree.yview)
-# vsb.place(x=320, y=45, height=200 + 180)
-
-# tree.configure(yscrollcommand=vsb.set)
-
-
-
-# frame_filters = Frame(frame_main)
-# frame_filters.pack(side=TOP, fill=X)
-# def print_selection():
-# 	if var1.get() == 0:
-# 		tree['columns'] = clients_fields[1:]
-
-# 		tree.column('#0', width=0, stretch=NO)
-# 		tree.heading('#0', text='', anchor=W)
-# 		for field in clients_fields[1:]:
-# 			tree.column(field, width=80, anchor=W)
-# 			tree.heading(field, text=field, anchor=W)
-# 		rows = db_clients_get_rows()
-# 		rows_filtered = [row[1:] for row in rows]
-# 		print(rows)
-# 		tk_clients_tree_refresh(rows_filtered)
-
-# 	else:
-# 		tree['columns'] = clients_fields
-
-# 		tree.column('#0', width=0, stretch=NO)
-# 		tree.heading('#0', text='', anchor=W)
-# 		for field in clients_fields:
-# 			tree.column(field, width=80, anchor=W)
-# 			tree.heading(field, text=field, anchor=W)
-# 		rows = db_clients_get_rows()
-# 		rows_filtered = [row for row in rows]
-# 		print(rows)
-# 		tk_clients_tree_refresh(rows_filtered)
-
-# var1 = IntVar()
-# var1.set(1)
-# var2 = IntVar()
-# var2.set(1)
-# c1 = Checkbutton(frame_filters, text='gil', variable=var1, onvalue=1, offvalue=0, command=print_selection)
-# c1.pack(side=LEFT)
-# c2 = Checkbutton(frame_filters, text='level', variable=var2, onvalue=1, offvalue=0, command=print_selection)
-# c2.pack(side=LEFT)
-
-# def tk_invoice(e):
-# 	pdf = FPDF('P', 'mm', 'Letter')
-# 	pdf.add_page()
-# 	pdf.image('logo.jpg', x=50, y=100, w=sizew, h=sizeh)
-
-# 	pdf.set_text_color(0, 0, 0)
-# 	pdf.set_font('helvetica', 'B', 24)
-# 	pdf.set_font('helvetica', size=12)
-# 	pdf.cell(0, 10, 'Ozonogroup', align='R')
-# 	pdf.ln(20)
-
-# 	pdf.output('report.pdf')
-
-# 	subprocess.Popen('report.pdf', shell=True)
-
-def get_products():
-	with open('products.csv', "r") as f:
-		reader = csv.reader(f, delimiter=",")
-		products = [product for product in reader]
-		products = products[1:]
-	return products
-
-
 def tk_window_invoice(e):
 
+	def get_products():
+		with open('products.csv', "r") as f:
+			reader = csv.reader(f, delimiter=",")
+			products = [product for product in reader]
+			products = products[1:]
+		return products
 
 	text_size = 12
 
@@ -914,9 +884,17 @@ def tk_window_invoice(e):
 		pdf.cell(cell_width_divider, cell_height, '', fill=True)
 		pdf.cell(cell_width, cell_height, business_name, fill=True, ln=1)
 
-		pdf.cell(cell_width, cell_height, 'Via dell\'Artigianato, 23 - 31011 Asolo (TV) Italia', fill=True)
+		address = business_address.split(',')
+		address_1 = address[:2]
+		address_2 = address[2:]
+
+		pdf.cell(cell_width, cell_height, 'Via dell\'Artigianato, 23', fill=True)
 		pdf.cell(cell_width_divider, cell_height, '', fill=True)
-		pdf.cell(cell_width, cell_height, business_address, fill=True, ln=1)
+		pdf.cell(cell_width, cell_height, ','.join(address_1).strip(), fill=True, ln=1)
+
+		pdf.cell(cell_width, cell_height, '31011 Asolo TV', fill=True)
+		pdf.cell(cell_width_divider, cell_height, '', fill=True)
+		pdf.cell(cell_width, cell_height, ','.join(address_2).strip(), fill=True, ln=1)
 		
 		pdf.cell(cell_width, cell_height, 'P.IVA/C.F.: 86334519757', fill=True)
 		pdf.cell(cell_width_divider, cell_height, '', fill=True)
@@ -968,12 +946,14 @@ def tk_window_invoice(e):
 			price_total_num += price_num
 			discount_total_num += price_num * (discount_num/100)
 
-			price_str = '€ ' + str(price_num)
+			# price_str = '€ ' + str(price_num)
 			discount_str = str(discount_num) + "%"
 			if discount_num == 100:
 				subtotal_str = 'gratis'
 			else:
-				subtotal_str = '€ ' + str(subtotal_num)
+				subtotal_str = locale.currency(subtotal_num, grouping=True)
+
+			price_str = locale.currency(price_num, grouping=True)
 
 			pdf.cell(cell_width_qta, cell_height, '1', border=1, fill=True)
 			pdf.cell(cell_width_codice, cell_height, row_code_str, border=1, fill=True)
@@ -985,7 +965,7 @@ def tk_window_invoice(e):
 
 		pdf.ln(3)
 		
-		subtotal_str = '€ ' + str(price_total_num)
+		subtotal_str = locale.currency(price_total_num, grouping=True)
 
 		pdf.cell(140, cell_height, '')
 		pdf.set_font('helvetica', 'B', text_size)
@@ -994,7 +974,7 @@ def tk_window_invoice(e):
 		pdf.cell(25, cell_height, subtotal_str)
 		pdf.ln(cell_height)
 
-		discount_total_str = '- € ' + str(discount_total_num)
+		discount_total_str = locale.currency(discount_total_num, grouping=True)
 
 		pdf.cell(140, cell_height, '')
 		pdf.set_font('helvetica', 'B', text_size)
@@ -1005,7 +985,7 @@ def tk_window_invoice(e):
 
 		iva_perc = 22
 		iva_num = (price_total_num - discount_total_num) * (22/100)
-		iva_str = '€ ' + str(iva_num) + f' ({iva_perc}%)'
+		iva_str = locale.currency(iva_num, grouping=True) + f' ({iva_perc}%)'
 
 		pdf.cell(140, cell_height, '')
 		pdf.set_font('helvetica', 'B', text_size)
@@ -1014,7 +994,7 @@ def tk_window_invoice(e):
 		pdf.cell(25, cell_height, iva_str)
 		pdf.ln(cell_height)
 
-		totale_str = '€ ' + str(iva_num + price_total_num - discount_total_num)
+		totale_str = locale.currency(iva_num + price_total_num - discount_total_num, grouping=True)
 
 		pdf.cell(140, cell_height, '')
 		pdf.set_font('helvetica', 'B', text_size)
@@ -1062,12 +1042,13 @@ def tk_window_invoice(e):
 	frame_fields.pack(side=LEFT, fill=Y)
 
 	# CLIENT FIELDS
+	entry_width = 40
 	invoice_client_labels = []
 	invoice_client_entries = []
 	i = 0
 	for field in clients_fields:
 		invoice_client_labels.append(Label(frame_fields, text=field).grid(row=i, column=0, sticky=W))
-		tmp_entry = Entry(frame_fields)
+		tmp_entry = Entry(frame_fields, width=entry_width)
 		tmp_entry.grid(row=i, column=1, sticky=W)
 		invoice_client_entries.append(tmp_entry)
 		i += 1
@@ -1092,30 +1073,32 @@ def tk_window_invoice(e):
 	mul_var = StringVar()
 	mul_var.trace("w", lambda name, index, mode, var=mul_var: calc_command())
 
+	entry_width = 20 
+
 	i = 0
 	m3_label = Label(frame_sizing, text='cubic meters   ')
 	m3_label.grid(row=i, column=0, sticky=W)
-	m3_entry = Entry(frame_sizing, width=50, textvariable=m3_var)
+	m3_entry = Entry(frame_sizing, width=entry_width, textvariable=m3_var)
 	m3_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 	ppm_label = Label(frame_sizing, text='ppm target  ')
 	ppm_label.grid(row=i, column=0, sticky=W)
-	ppm_entry = Entry(frame_sizing, width=50, textvariable=ppm_var)
+	ppm_entry = Entry(frame_sizing, width=entry_width, textvariable=ppm_var)
 	ppm_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 	oxy_label = Label(frame_sizing, text='feeding oxygen %   ')
 	oxy_label.grid(row=i, column=0, sticky=W)
-	oxy_entry = Entry(frame_sizing, width=50, textvariable=oxy_var)
+	oxy_entry = Entry(frame_sizing, width=entry_width, textvariable=oxy_var)
 	oxy_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 	mul_label = Label(frame_sizing, text='adjusting multiplier   ')
 	mul_label.grid(row=i, column=0, sticky=W)
-	mul_entry = Entry(frame_sizing, width=50, textvariable=mul_var)
+	mul_entry = Entry(frame_sizing, width=entry_width, textvariable=mul_var)
 	mul_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 	res_label = Label(frame_sizing, text='result (mg)   ')
 	res_label.grid(row=i, column=0, sticky=W)
-	res_entry = Entry(frame_sizing, width=50)
+	res_entry = Entry(frame_sizing, width=entry_width)
 	res_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
@@ -1359,7 +1342,6 @@ def tk_window_invoice(e):
 		invoice_tree.heading(field, text=field, anchor=W)
 
 	def invoice_tree_del_row(e):
-		print('here')
 		selected_items = invoice_tree.selection()        
 		for selected_item in selected_items:          
 			invoice_tree.delete(selected_item)
@@ -1395,6 +1377,7 @@ tree.bind("6", tk_clients_tree_get_by_level)
 tree.bind("7", tk_clients_tree_get_by_level)
 tree.bind("8", tk_clients_tree_get_by_level)
 tree.bind("9", tk_clients_tree_get_by_level)
+tree.bind('x', clients_tree_del_row)
 
 tree.bind('j', tk_clients_tree_move_j)
 tree.bind('k', tk_clients_tree_move_k)
@@ -1402,7 +1385,8 @@ tree.bind('k', tk_clients_tree_move_k)
 tree.bind('<Up>', tk_clients_tree_move_up)
 tree.bind('<Down>', tk_clients_tree_move_down)
 
-# tree.bind("i", tk_invoice)
+tree_row_filter_entry.bind("<Return>", tk_clients_tree_get_by_business_name)
+tree.bind("a", add_client)
 
 
 ##############################################################
