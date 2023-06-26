@@ -834,12 +834,15 @@ procedure_text.pack(expand=True, fill=BOTH)
 
 # 	subprocess.Popen('report.pdf', shell=True)
 
-
-def tk_window_invoice(e):
+def get_products():
 	with open('products.csv', "r") as f:
 		reader = csv.reader(f, delimiter=",")
-		product_list = [product for product in reader]
-		product_list = product_list[1:]
+		products = [product for product in reader]
+		products = products[1:]
+	return products
+
+
+def tk_window_invoice(e):
 
 
 	text_size = 12
@@ -956,8 +959,8 @@ def tk_window_invoice(e):
 		discount_total_num = 0
 
 		for row in rows:
-			row_code_str = row[0]
-			row_desc_str = row[1]
+			row_code_str = str(row[0])
+			row_desc_str = str(row[1])
 			price_num = row[2]
 			discount_num = row[3]
 			subtotal_num = price_num - price_num * (discount_num/100)
@@ -1010,7 +1013,6 @@ def tk_window_invoice(e):
 		pdf.set_font('helvetica', '', text_size)
 		pdf.cell(25, cell_height, iva_str)
 		pdf.ln(cell_height)
-
 
 		totale_str = '€ ' + str(iva_num + price_total_num - discount_total_num)
 
@@ -1130,13 +1132,20 @@ def tk_window_invoice(e):
 	calc_mg_button.grid(row=i, column=1, sticky=W)
 	i += 1
 
+	# MAIN FRAME ADD ------------------------------------------------
+	invoice_product_frame = Frame(window_invoice)
+	invoice_product_frame.pack(side=LEFT, fill=Y)
+
 	
 	# ADD PRODUCT FRAME ---------------------------------------------
-	frame_add_product = LabelFrame(window_invoice, text='Add Product', padx=20, pady=10)
-	frame_add_product.pack(side=LEFT, fill=Y)
+	invoice_main_product_frame = LabelFrame(invoice_product_frame, text='Add Product', padx=20, pady=10)
+	invoice_main_product_frame.pack(side=TOP, fill=Y)
+
+	product_list = [item for item in get_products() if (item[1] == 'Generator')]
 	
 	# ADD FIELDS
 	def selected_optionmenu(product_var):
+		print(product_var)
 		product_desc = product_var
 		for prod in product_list:
 			if product_desc == prod[2]:
@@ -1151,65 +1160,36 @@ def tk_window_invoice(e):
 		product_discount_entry.delete(0, END)
 		product_discount_entry.insert(0, 0)
 
-		# if product_desc == 'Omega':
-		# 	product_code_entry.delete(0, END)
-		# 	product_code_entry.insert(0, curr_prod_code)
-		# 	product_price_entry.delete(0, END)
-		# 	product_price_entry.insert(0, 2000)
-		# 	product_discount_entry.delete(0, END)
-		# 	product_discount_entry.insert(0, 0)
-		# elif product_desc == 'BigPower':
-		# 	product_price_entry.delete(0, END)
-		# 	product_price_entry.insert(0, 6000)
-		# 	product_discount_entry.delete(0, END)
-		# 	product_discount_entry.insert(0, 0)
-		# elif product_desc == 'Trasporto':
-		# 	product_price_entry.delete(0, END)
-		# 	product_price_entry.insert(0, 120)
-		# 	product_discount_entry.delete(0, END)
-		# 	product_discount_entry.insert(0, 100)
-		# elif product_desc == 'Installazione':
-		# 	product_price_entry.delete(0, END)
-		# 	product_price_entry.insert(0, 480)
-		# 	product_discount_entry.delete(0, END)
-		# 	product_discount_entry.insert(0, 100)
-		# else:
-		# 	product_price_entry.delete(0, END)
-		# 	product_price_entry.insert(0, 0)
-		# 	product_discount_entry.delete(0, END)
-		# 	product_discount_entry.insert(0, 0)
-		# question_menu.set(selection)
-
 	i = 0
 	
 	# product_list = ["Omega", "BigPower", "Trasporto", "Installazione"]
-	product_list_for_menu = [product[2] for product in product_list]
+	product_list_for_menu = [item[2] for item in product_list]
 	product_var = StringVar()
-	product_option = OptionMenu(frame_add_product, product_var, *product_list_for_menu, command=selected_optionmenu)
+	product_option = OptionMenu(invoice_main_product_frame, product_var, *product_list_for_menu, command=selected_optionmenu)
 	product_option.grid(row=i, column=0, sticky=W)
 	i += 1
 
-	product_code_label = Label(frame_add_product, text='product code   ')
+	product_code_label = Label(invoice_main_product_frame, text='product code   ')
 	product_code_label.grid(row=i, column=0, sticky=W)
-	product_code_entry = Entry(frame_add_product, width=20)
+	product_code_entry = Entry(invoice_main_product_frame, width=20)
 	product_code_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
-	product_desc_label = Label(frame_add_product, text='product description   ')
+	product_desc_label = Label(invoice_main_product_frame, text='product description   ')
 	product_desc_label.grid(row=i, column=0, sticky=W)
-	product_desc_entry = Entry(frame_add_product, width=20)
+	product_desc_entry = Entry(invoice_main_product_frame, width=20)
 	product_desc_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
-	product_price_label = Label(frame_add_product, text='price   ')
+	product_price_label = Label(invoice_main_product_frame, text='price   ')
 	product_price_label.grid(row=i, column=0, sticky=W)
-	product_price_entry = Entry(frame_add_product, width=20)
+	product_price_entry = Entry(invoice_main_product_frame, width=20)
 	product_price_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
-	product_discount_label = Label(frame_add_product, text='discount   ')
+	product_discount_label = Label(invoice_main_product_frame, text='discount   ')
 	product_discount_label.grid(row=i, column=0, sticky=W)
-	product_discount_entry = Entry(frame_add_product, width=20)
+	product_discount_entry = Entry(invoice_main_product_frame, width=20)
 	product_discount_entry.grid(row=i, column=1, sticky=W)
 	i += 1
 
@@ -1221,50 +1201,140 @@ def tk_window_invoice(e):
 		values = [product_code, product_desc, product_price, product_discount]
 		invoice_tree.insert(parent='', index='end', text='', values=values)
 	
-	
-	def tree_del_product():
-		selected_items = invoice_tree.selection()        
-		for selected_item in selected_items:          
-			invoice_tree.delete(selected_item)
-
-	add_prod_button = Button(frame_add_product, text='Add Product', command=tree_add_product)
+	add_prod_button = Button(invoice_main_product_frame, text='Add Product', command=tree_add_product)
 	add_prod_button.grid(row=i, column=1, sticky=W)
 	i += 1
-	del_prod_button = Button(frame_add_product, text='Del Product', command=tree_del_product)
-	del_prod_button.grid(row=i, column=1, sticky=W)
-	i += 1
 
 	
-	def selected_family(product_var):
-		curr_product_family = product_family_var.get()
-		print(curr_product_family)
-		product_family_entry.delete(0, END)
-		product_family_entry.insert(0, product_family_var.get())
+	# ADD ACCESSORY FRAME ---------------------------------------------
+	invoice_accessory_frame = LabelFrame(invoice_product_frame, text='Add Accessory', padx=20, pady=10)
+	invoice_accessory_frame.pack(side=TOP, fill=Y)
 
-		updated_list = ['test']
-		# product_var.set('')
-		product_option['menu'].delete(0, 'end')
+	accessory_list = [accessory for accessory in get_products() if accessory[1] == 'Accessory']
 
-		new_choices = ('one', 'two', 'three')
+	def accessory_select(accessory_var):
+		for row in accessory_list:
+			if accessory_var == row[2]:
+				accessory_selected = row
+				break
+
+		accessory_code_entry.delete(0, END)
+		accessory_code_entry.insert(0, accessory_selected[0])
+		accessory_desc_entry.delete(0, END)
+		accessory_desc_entry.insert(0, accessory_selected[2])
+		accessory_price_entry.delete(0, END)
+		accessory_price_entry.insert(0, accessory_selected[3])
+		accessory_discount_entry.delete(0, END)
+		accessory_discount_entry.insert(0, 0)
+
+	i = 0
 		
-		for choice in new_choices:
-			product_option['menu'].add_command(label=choice, command=tk._setit(product_var, choice))
-			# product_option.configure(frame_add_product, product_var, *updated_list)
-
-	product_family_list = set()
-	for product in product_list:
-		product_family = product[1]
-		product_family_list.add(product_family)
-
-	product_family_var = StringVar()
-	product_family_option = OptionMenu(frame_add_product, product_family_var, *product_family_list, command=selected_family)
-	product_family_option.grid(row=i, column=0, sticky=W)
+	accessory_list_for_menu = [accessory[2] for accessory in accessory_list]
+	accessory_var = StringVar()
+	accessory_option = OptionMenu(invoice_accessory_frame, accessory_var, *accessory_list_for_menu, command=accessory_select)
+	accessory_option.grid(row=i, column=0, sticky=W)
 	i += 1
-	
-	product_family_label = Label(frame_add_product, text='product family   ')
-	product_family_label.grid(row=i, column=0, sticky=W)
-	product_family_entry = Entry(frame_add_product, width=20)
-	product_family_entry.grid(row=i, column=1, sticky=W)
+
+	accessory_code_label = Label(invoice_accessory_frame, text='product code   ')
+	accessory_code_label.grid(row=i, column=0, sticky=W)
+	accessory_code_entry = Entry(invoice_accessory_frame, width=20)
+	accessory_code_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	accessory_desc_label = Label(invoice_accessory_frame, text='product description   ')
+	accessory_desc_label.grid(row=i, column=0, sticky=W)
+	accessory_desc_entry = Entry(invoice_accessory_frame, width=20)
+	accessory_desc_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	accessory_price_label = Label(invoice_accessory_frame, text='price   ')
+	accessory_price_label.grid(row=i, column=0, sticky=W)
+	accessory_price_entry = Entry(invoice_accessory_frame, width=20)
+	accessory_price_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	accessory_discount_label = Label(invoice_accessory_frame, text='discount   ')
+	accessory_discount_label.grid(row=i, column=0, sticky=W)
+	accessory_discount_entry = Entry(invoice_accessory_frame, width=20)
+	accessory_discount_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	def tree_add_accessory():
+		item_code = accessory_code_entry.get()
+		item_desc = accessory_desc_entry.get()
+		item_price = accessory_price_entry.get()
+		item_discount = accessory_discount_entry.get()
+		values = [item_code, item_desc, item_price, item_discount]
+		invoice_tree.insert(parent='', index='end', text='', values=values)
+
+	accessory_add_button = Button(invoice_accessory_frame, text='Add Accessory', command=tree_add_accessory)
+	accessory_add_button.grid(row=i, column=1, sticky=W)
+	i += 1
+
+
+	# ADD SERVICE FRAME ---------------------------------------------
+	invoice_service_frame = LabelFrame(invoice_product_frame, text='Add Service', padx=20, pady=10)
+	invoice_service_frame.pack(side=TOP, fill=Y)
+
+	service_list = [service for service in get_products() if service[1] == 'Service']
+
+	def service_select(service_var):
+		for row in service_list:
+			if service_var == row[2]:
+				service_selected = row
+				break
+
+		service_code_entry.delete(0, END)
+		service_code_entry.insert(0, service_selected[0])
+		service_desc_entry.delete(0, END)
+		service_desc_entry.insert(0, service_selected[2])
+		service_price_entry.delete(0, END)
+		service_price_entry.insert(0, service_selected[3])
+		service_discount_entry.delete(0, END)
+		service_discount_entry.insert(0, 100)
+
+	i = 0
+		
+	service_list_for_menu = [service[2] for service in service_list]
+	service_var = StringVar()
+	service_option = OptionMenu(invoice_service_frame, service_var, *service_list_for_menu, command=service_select)
+	service_option.grid(row=i, column=0, sticky=W)
+	i += 1
+
+	service_code_label = Label(invoice_service_frame, text='product code   ')
+	service_code_label.grid(row=i, column=0, sticky=W)
+	service_code_entry = Entry(invoice_service_frame, width=20)
+	service_code_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	service_desc_label = Label(invoice_service_frame, text='product description   ')
+	service_desc_label.grid(row=i, column=0, sticky=W)
+	service_desc_entry = Entry(invoice_service_frame, width=20)
+	service_desc_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	service_price_label = Label(invoice_service_frame, text='price   ')
+	service_price_label.grid(row=i, column=0, sticky=W)
+	service_price_entry = Entry(invoice_service_frame, width=20)
+	service_price_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	service_discount_label = Label(invoice_service_frame, text='discount   ')
+	service_discount_label.grid(row=i, column=0, sticky=W)
+	service_discount_entry = Entry(invoice_service_frame, width=20)
+	service_discount_entry.grid(row=i, column=1, sticky=W)
+	i += 1
+
+	def tree_add_service():
+		item_code = service_code_entry.get()
+		item_desc = service_desc_entry.get()
+		item_price = service_price_entry.get()
+		item_discount = service_discount_entry.get()
+		values = [item_code, item_desc, item_price, item_discount]
+		invoice_tree.insert(parent='', index='end', text='', values=values)
+
+	service_add_button = Button(invoice_service_frame, text='Add Service', command=tree_add_service)
+	service_add_button.grid(row=i, column=1, sticky=W)
 	i += 1
 
 
@@ -1287,6 +1357,14 @@ def tk_window_invoice(e):
 	for field in tree_fields:
 		invoice_tree.column(field, width=160, anchor=W)
 		invoice_tree.heading(field, text=field, anchor=W)
+
+	def invoice_tree_del_row(e):
+		print('here')
+		selected_items = invoice_tree.selection()        
+		for selected_item in selected_items:          
+			invoice_tree.delete(selected_item)
+		
+	invoice_tree.bind('x', invoice_tree_del_row)
 
 
 	# invoice_tree.insert(parent='', index='end', text='', values=['Omega', '2000', '15'])
