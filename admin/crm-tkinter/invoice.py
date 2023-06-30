@@ -187,7 +187,9 @@ def generate_pdf():
     
     subtotal_str = locale.currency(price_total_num, grouping=True)
 
-    pdf.cell(140, cell_height, '')
+    margin_left = 135
+
+    pdf.cell(margin_left, cell_height, '')
     pdf.set_font('helvetica', 'B', text_size)
     pdf.cell(25, cell_height, 'Totale Prezzo: ', align='R')
     pdf.set_font('helvetica', '', text_size)
@@ -196,7 +198,7 @@ def generate_pdf():
 
     discount_total_str = locale.currency(discount_total_num, grouping=True)
 
-    pdf.cell(140, cell_height, '')
+    pdf.cell(margin_left, cell_height, '')
     pdf.set_font('helvetica', 'B', text_size)
     pdf.cell(25, cell_height, 'Totale Sconto: ', align='R')
     pdf.set_font('helvetica', '', text_size)
@@ -207,7 +209,7 @@ def generate_pdf():
     iva_num = (price_total_num - discount_total_num) * (22/100)
     iva_str = locale.currency(iva_num, grouping=True) + f' ({iva_perc}%)'
 
-    pdf.cell(140, cell_height, '')
+    pdf.cell(margin_left, cell_height, '')
     pdf.set_font('helvetica', 'B', text_size)
     pdf.cell(25, cell_height, 'IVA: ', align='R')
     pdf.set_font('helvetica', '', text_size)
@@ -216,7 +218,7 @@ def generate_pdf():
 
     totale_str = locale.currency(iva_num + price_total_num - discount_total_num, grouping=True)
 
-    pdf.cell(140, cell_height, '')
+    pdf.cell(margin_left, cell_height, '')
     pdf.set_font('helvetica', 'B', text_size)
     pdf.cell(25, cell_height, 'Totale: ', align='R')
     pdf.set_font('helvetica', '', text_size)
@@ -252,15 +254,23 @@ invoice_window.geometry('1700x600')
 invoice_window.grab_set()
 invoice_window.state('zoomed')
 
+# MAIN FRAME
 
+invoice_data_frame = LabelFrame(invoice_window, text='Data', padx=20, pady=10)
+invoice_data_frame.pack(side=LEFT, fill=Y)
 
-# PREVIEW FRAME
-
-preview_width = int(210*3)
-preview_height = int(297*3)
+tree_frame = LabelFrame(invoice_window, text='Add Service', padx=20, pady=20)
+tree_frame.pack(side=LEFT, fill=BOTH, expand=True)
 
 invoice_pdf_frame = LabelFrame(invoice_window, text='Pdf', padx=20, pady=10)
 invoice_pdf_frame.pack(side=LEFT, fill=Y)
+
+
+
+# PREVIEW FRAME
+preview_width = int(210*3)
+preview_height = int(297*3)
+
 
 invoice_preview_frame = Frame(invoice_pdf_frame)
 invoice_preview_frame.pack(side=TOP, fill=Y)
@@ -315,8 +325,7 @@ view_button.pack(side=LEFT, fill=Y)
 
 
 # DATA FRAME -------------------------------------------------------
-invoice_data_frame = LabelFrame(invoice_window, text='Data', padx=20, pady=10)
-invoice_data_frame.pack(side=LEFT, fill=Y)
+
 
 frame_fields = LabelFrame(invoice_data_frame, text='Client Info', padx=20, pady=10)
 frame_fields.pack(side=TOP, fill=Y)
@@ -598,9 +607,7 @@ service_add_button.grid(row=i, column=1, sticky=W)
 i += 1
 
 
-# TREE FRAME
-tree_frame = LabelFrame(invoice_window, text='Add Service', padx=20, pady=20)
-tree_frame.pack(side=LEFT, fill=BOTH, expand=True)
+
 
 # TREE
 invoice_tree = ttk.Treeview(tree_frame)
