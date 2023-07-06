@@ -1,8 +1,8 @@
-with open('keywords_todo.txt') as f:
+with open('keyword_sheeter_ozone_complete.txt', errors='ignore') as f:
     content = f.read()
 new_lines = content.split('\n')
 
-with open('_master.txt') as f:
+with open('_master.txt', errors='ignore') as f:
     content = f.read()
 old_lines = content.split('\n')
 
@@ -17,6 +17,6 @@ for i, new_line in enumerate(new_lines):
 print(len(new_lines))
 print(len(filtered_lines))
 
-with open('keywords_todo_filtered.txt', 'w') as f:
+with open('keywords_todo_filtered.txt', 'w', errors='ignore') as f:
     for line in filtered_lines:
         f.write(f'{line}\n')
