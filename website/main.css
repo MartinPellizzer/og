@@ -1,3 +1,8 @@
+:root {
+    --hero-opacity: 0.5;
+    --hero-opacity2: 0.2;
+}
+
 /* GENERAL */
 
 .container {
@@ -92,7 +97,7 @@ header {
     padding: 1.6rem 3.2rem;
 }
 
-/* SERVI ------------------------------------------------------------ */
+/* SERVICES ------------------------------------------------------------ */
 
 .services-section {
     padding: 19.2rem 0;
@@ -100,17 +105,42 @@ header {
 
 
 
+/* CONTACTS ------------------------------------------------------------ */
+
+.contacts-section {
+    padding: 19.2rem 0;
+    background-color: #1e40af;
+}
+
+
+
 .hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, var(--opacity))), url('/assets/images/ozono.jpg');
+    background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity)),
+            rgba(0, 0, 0, var(--hero-opacity))), url('/assets/images/ozono.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .ozonoterapia-image {
-    background: linear-gradient(rgba(0, 0, 0, 0),
-            rgba(0, 0, 0, var(--opacity))), url('/assets/images/ozonoterapia.jpg');
+    background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)),
+            rgba(0, 0, 0, var(--hero-opacity2))), url('/assets/images/ozonoterapia.jpg');
     background-size: cover;
     background-position: center;
-    height: 80rem
+    height: 80rem;
+}
+
+.sanificazione-image {
+    background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)),
+            rgba(0, 0, 0, var(--hero-opacity2))), url('/assets/images/sanificazione-ozono.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80rem;
+}
+
+.scienza-image {
+    background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)),
+            rgba(0, 0, 0, var(--hero-opacity2))), url('https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 80rem;
 }

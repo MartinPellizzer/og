@@ -1,5 +1,4 @@
 :root {
-    --opacity: 0.5;
     --hero-url: url('https://images.unsplash.com/photo-1475906089153-644d9452ce87?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80');
     --hero-url: url('https://images.unsplash.com/flagged/photo-1584036561584-b03c19da874c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80');
     /* --hero-url: url('https://images.unsplash.com/photo-1535127022272-dbe7ee35cf33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'); */
@@ -151,6 +150,14 @@ nav {
 
 .mb-32 {
     margin-bottom: 3.2rem;
+}
+
+.ml-32 {
+    margin-left: 3.2rem;
+}
+
+.mr-32 {
+    margin-right: 3.2rem;
 }
 
 .px-32 {
