@@ -5,8 +5,26 @@
 
 /* GENERAL */
 
+span {
+    font-size: 1.8rem;
+}
+
+a {
+    font-size: 1.8rem;
+}
+
+.u {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.container-half {
+    max-width: 60rem;
     margin: 0 auto;
     padding: 0 32px;
 }
@@ -105,14 +123,40 @@ header {
 
 
 
-/* CONTACTS ------------------------------------------------------------ */
+/* CTA ------------------------------------------------------------ */
 
-.contacts-section {
+.cta-section {
     padding: 19.2rem 0;
     background-color: #1e40af;
 }
 
 
+
+/* CONTACTS ------------------------------------------------------------ */
+
+.contacts-section {
+    padding: 19.2rem 0;
+    /* background-color: #020617; */
+}
+
+.contacts-section ul {
+    list-style: none;
+    font-size: 1.8rem;
+    line-height: 2.4;
+}
+
+svg {
+    width: 24px;
+}
+
+
+
+/* FOOTER ------------------------------------------------------------ */
+
+.footer-section {
+    background-color: #020617;
+    padding: 1.6rem 0;
+}
 
 .hero-image {
     background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity)),
@@ -138,9 +182,16 @@ header {
 }
 
 .scienza-image {
-    background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)),
-            rgba(0, 0, 0, var(--hero-opacity2))), url('https://images.unsplash.com/photo-1617155093730-a8bf47be792d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    --opacity: 0.2;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.pexels.com/photos/7451928/pexels-photo-7451928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1527672809634-04ed36500acd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('https://images.unsplash.com/photo-1560773526-435221de2527?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
+    background: linear-gradient(rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), url('assets/images/ozono-scienza.jpg');
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://images.unsplash.com/photo-1563293756-857fc846d0d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1185&q=80'); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://images.unsplash.com/photo-1562559294-fb540336442c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2125&q=80'); */
+    /* background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)), rgba(0, 0, 0, var(--hero-opacity2))), url('https://images.pexels.com/photos/7451933/pexels-photo-7451933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     height: 80rem;
 }

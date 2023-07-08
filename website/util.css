@@ -104,6 +104,14 @@ nav {
     align-items: center;
 }
 
+.gap-8 {
+    gap: 0.8rem;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
 .gap-32 {
     gap: 3.2rem;
 }
@@ -183,6 +191,31 @@ nav {
 .py-96 {
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
+}
+
+
+.red-600 {
+    color: #dc2626;
+}
+
+.red-700 {
+    color: #b91c1c;
+}
+
+.red-800 {
+    color: #991b1b;
+}
+
+.blue-600 {
+    color: #2563eb;
+}
+
+.blue-700 {
+    color: #1d4ed8;
+}
+
+.blue-800 {
+    color: #1e40af;
 }
 
 /* h1 {
