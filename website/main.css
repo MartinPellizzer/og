@@ -13,8 +13,8 @@ a {
     font-size: 1.8rem;
 }
 
-.u {
-    text-decoration: underline;
+p {
+    color: #333;
 }
 
 .container {
@@ -69,6 +69,9 @@ header {
     padding: 3.2rem 0;
 }
 
+
+/* HERO ------------------------------------------------------------ */
+
 .hero-title {
     font-size: 6.4rem;
     font-weight: 400;
@@ -87,8 +90,7 @@ header {
 .hero-main-center {
     max-width: 99.2rem;
     margin: 0 auto;
-    text-align: center;
-
+    /* text-align: center; */
 }
 
 .button-secondary {
@@ -161,33 +163,39 @@ svg {
 .hero-image {
     background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity)),
             rgba(0, 0, 0, var(--hero-opacity))), url('/assets/images/ozono.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/hero.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/hero-light.jpg');
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/electricity.jpg'); */
     background-size: cover;
     background-position: center;
 }
 
 .ozonoterapia-image {
-    background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)),
-            rgba(0, 0, 0, var(--hero-opacity2))), url('/assets/images/ozonoterapia.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/ozonoterapia.jpg');
     background-size: cover;
     background-position: center;
     height: 80rem;
 }
 
 .sanificazione-image {
-    background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)),
-            rgba(0, 0, 0, var(--hero-opacity2))), url('/assets/images/sanificazione-ozono.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/sanificazione-ozono.jpg');
+    /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('assets/images/water.jpg'); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1576058194458-986dde325e3e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=718&q=80'); */
+    /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1569091923578-399adee3f634?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80'); */
     background-size: cover;
     background-position: center;
+    /* background-position: bottom; */
     height: 80rem;
 }
 
 .scienza-image {
-    --opacity: 0.2;
+    --opacity: 0;
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.pexels.com/photos/7451928/pexels-photo-7451928.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1496065187959-7f07b8353c55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
     background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('https://images.unsplash.com/photo-1527672809634-04ed36500acd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
     background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url('https://images.unsplash.com/photo-1560773526-435221de2527?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80');
     background: linear-gradient(rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), url('assets/images/ozono-scienza.jpg');
+    background: linear-gradient(rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), url('assets/images/ozono.jpg');
     /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://images.unsplash.com/photo-1563293756-857fc846d0d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1185&q=80'); */
     /* background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('https://images.unsplash.com/photo-1562559294-fb540336442c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2125&q=80'); */
     /* background: linear-gradient(rgba(0, 0, 0, var(--hero-opacity2)), rgba(0, 0, 0, var(--hero-opacity2))), url('https://images.pexels.com/photos/7451933/pexels-photo-7451933.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
