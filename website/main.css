@@ -13,9 +13,9 @@ a {
     font-size: 1.8rem;
 }
 
-p {
+/* p {
     color: #333;
-}
+} */
 
 .container {
     max-width: 120rem;
@@ -72,10 +72,48 @@ header {
 
 /* HERO ------------------------------------------------------------ */
 
+.hero-light h1 {
+    color: #111;
+    font-weight: bold;
+}
+
+.hero-light p {
+    color: #333;
+}
+
+.hero-light header a {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 2.4rem;
+    text-decoration: none;
+}
+
+.hero-dark h1 {
+    color: #fff;
+}
+
+.hero-dark p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 2.4rem;
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 2.4rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 .hero-title {
     font-size: 6.4rem;
     font-weight: 400;
-    color: #ffffff;
+    /* color: #ffffff; */
     margin-bottom: 3.2rem;
 
 }
