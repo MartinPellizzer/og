@@ -275,3 +275,147 @@ h2 {
     padding: 1.6rem 3.2rem;
     display: inline-block;
 } */
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.container-md {
+    max-width: 76.8rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.container-lg {
+    max-width: 99.2rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-32 {
+    gap: 3.2rem;
+}
+
+.gap-64 {
+    gap: 6.4rem;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-100 {
+    height: 90%;
+}
+
+.h-screen {
+    height: 100vh;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.mb-8 {
+    margin-bottom: 0.8rem;
+}
+
+.mb-16 {
+    margin-bottom: 1.6rem;
+}
+
+.mb-32 {
+    margin-bottom: 3.2rem;
+}
+
+.px-32 {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+}
+
+.px-64 {
+    padding-left: 6.4rem;
+    padding-right: 6.4rem;
+}
+
+.py-32 {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.py-64 {
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
+}
+
+.py-96 {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.bg-blue-50 {
+    background-color: #eff6ff;
+}
+
+.text-blue-50 {
+    color: #eff6ff;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-blue-600 {
+    background-color: #1d4ed8;
+}
+
+.bg-slate-900 {
+    background-color: #0f172a;
+}
