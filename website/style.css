@@ -159,6 +159,10 @@ header {
     height: 80%;
 }
 
+.hero-content {
+    flex: 2;
+}
+
 
 
 
@@ -261,6 +265,8 @@ a {
 
 .hero-world {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/images/ozono.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-world h1 {
@@ -435,4 +441,107 @@ svg {
     background-size: cover;
     background-position: bottom;
     height: 80rem;
+}
+
+
+.applications-layout {
+    display: flex;
+    align-items: center;
+}
+
+/* 
+img {
+    width: 100%;
+} */
+
+
+/* GRID --------------------------------------------------------------- */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.8rem;
+}
+
+.applications-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: right;
+    align-items: center;
+}
+
+.applications-grid-reverse {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: right;
+    align-items: center;
+}
+
+
+/* MEDIA ------------------------------------------------------------------------------ */
+/* @media (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+} */
+
+
+@media (max-width: 996px) {
+    .hero-content {
+        flex: 5;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .applications-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4.8rem;
+        margin-bottom: 9.6rem;
+    }
+
+    .applications-grid:last-child {
+        margin-bottom: 0;
+    }
+
+    .reverse {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reverse .grid-col-1 {
+        order: 2;
+    }
+
+    .reverse .grid-col-2 {
+        order: 1;
+    }
+
+    /* 
+    .applications-layout {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    } */
+
+    .scienza-image {
+        height: 60rem;
+    }
+
+    .ozonoterapia-image {
+        height: 60rem;
+    }
+
+    .sanificazione-image {
+        height: 60rem;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
 }
