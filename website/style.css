@@ -454,11 +454,20 @@ img {
     width: 100%;
 } */
 
+.w-100 {
+    width: 100%;
+}
 
 /* GRID --------------------------------------------------------------- */
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.8rem;
+}
+
+.contacts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 4.8rem;
 }
 
@@ -536,6 +545,13 @@ img {
         height: 60rem;
     }
 
+    .contacts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .google-maps {
+        width: 100%;
+    }
 
 }
 
@@ -543,5 +559,21 @@ img {
 @media (max-width: 768px) {
     .grid {
         grid-template-columns: 1fr;
+    }
+
+    header {
+        display: none;
+    }
+
+    .hero-main {
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 4.8rem;
+    }
+
+    .button-primary {
+        font-size: 1.4rem;
     }
 }
