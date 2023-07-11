@@ -135,6 +135,19 @@ header {
 /* SECTIONS */
 /* ************************************************************ */
 
+.py-lg {
+    padding: 9.6rem 0;
+}
+
+.bg-light {
+    background-color: #eff6ff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+
 /* HERO SECTION */
 /* ************************************************************ */
 
@@ -142,6 +155,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    /* padding: 9.6rem 0; */
 }
 
 .img-sanificazione {
@@ -163,6 +177,9 @@ header {
     flex: 2;
 }
 
+
+/* SERVICES ------------------------------------------------------------ */
+.services-section {}
 
 
 
@@ -192,7 +209,7 @@ a {
     color: #aaa;
 }
 
-.container {
+.container-xl {
     max-width: 120rem;
     margin: 0 auto;
     padding: 0 32px;
@@ -304,16 +321,11 @@ p:last-child {
 }
 
 
-/* SERVICES ------------------------------------------------------------ */
-.services-section {
-    padding: 19.2rem 0;
-}
-
 
 
 /* CTA ------------------------------------------------------------ */
 .cta-section {
-    padding: 19.2rem 0;
+    /* padding: 19.2rem 0; */
     background-color: #1e40af;
 }
 
@@ -321,7 +333,7 @@ p:last-child {
 
 /* CONTACTS ------------------------------------------------------------ */
 .contacts-section {
-    padding: 19.2rem 0;
+    /* padding: 19.2rem 0; */
 }
 
 .contacts-section ul {
@@ -459,7 +471,7 @@ img {
 }
 
 /* GRID --------------------------------------------------------------- */
-.grid {
+.services-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4.8rem;
@@ -469,6 +481,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 4.8rem;
+    align-items: center;
 }
 
 .applications-grid {
@@ -499,7 +512,7 @@ img {
         flex: 5;
     }
 
-    .grid {
+    .services-grid {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -553,11 +566,19 @@ img {
         width: 100%;
     }
 
+    .m-pt-lg {
+        padding-top: 9.6rem;
+    }
+
 }
 
 
 @media (max-width: 768px) {
-    .grid {
+    .section {
+        padding: 9.6rem 0;
+    }
+
+    .services-grid {
         grid-template-columns: 1fr;
     }
 
@@ -571,6 +592,10 @@ img {
 
     h1 {
         font-size: 4.8rem;
+    }
+
+    h2 {
+        margin-bottom: 4.8rem;
     }
 
     .button-primary {
