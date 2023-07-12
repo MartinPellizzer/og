@@ -45,6 +45,18 @@ body {
 
 
 
+.container-md {
+    max-width: 76.8rem;
+    padding: 0 32px;
+}
+
+.container-lg {
+    max-width: 99.2rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+
 nav {
     display: flex;
     gap: 3.2rem;
