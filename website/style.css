@@ -155,16 +155,17 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
-    /* padding: 9.6rem 0; */
 }
 
-.img-sanificazione {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/assets/images/sanificazione-ozono.jpg');
+.hero-section h1 {
+    color: #fff;
 }
 
-.img-sanificazione-dark {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/images/sanificazione-ozono.jpg');
+.hero-section p {
+    color: #fff;
 }
+
+
 
 .hero-main {
     display: flex;
@@ -176,6 +177,7 @@ header {
 .hero-content {
     flex: 2;
 }
+
 
 
 /* SERVICES ------------------------------------------------------------ */
@@ -236,72 +238,7 @@ a {
 
 
 /* HERO ------------------------------------------------------------ */
-.hero-light {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/hero-light.jpg');
-}
 
-.hero-light h1 {
-    color: #111;
-    font-weight: bold;
-}
-
-.hero-light p {
-    color: #333;
-}
-
-.hero-light header a {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: #333;
-    margin-bottom: 2.4rem;
-    text-decoration: none;
-}
-
-.hero-dark {
-    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/hero.jpg');
-}
-
-.hero-dark h1 {
-    color: #fff;
-}
-
-.hero-dark p {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: #fff;
-    margin-bottom: 2.4rem;
-}
-
-.hero-dark header a {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: #fff;
-    margin-bottom: 2.4rem;
-    text-decoration: none;
-}
-
-.hero-world {
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/images/ozono.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.hero-world h1 {
-    color: #fff;
-}
-
-
-.hero-world p {
-    color: #fff;
-}
-
-.hero-world header a {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    color: #fff;
-    margin-bottom: 2.4rem;
-    text-decoration: none;
-}
 
 
 p:last-child {
@@ -361,110 +298,10 @@ svg {
     height: 40rem;
 }
 
-.img-hero {
-    /* background-image: url('https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80'); */
-    background: linear-gradient(rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), var(--hero-url);
-    background: linear-gradient(rgba(0, 0, 0, var(--opacity)),
-            rgba(0, 0, 0, var(--opacity))), url('virus.jpg');
-    background-size: cover;
-    background-position: center;
-}
-
-.img-meat {
-    background-image: url('https://images.unsplash.com/photo-1628543108325-1c27cd7246b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-.img-meat2 {
-    background-image: url('https://images.unsplash.com/photo-1557221016-f81ec6b1a46b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-.img-cheese {
-    background-image: url('https://images.unsplash.com/photo-1558221693-89a565d7ecd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=735&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-.img-vegetables {
-    background-image: url('https://images.unsplash.com/photo-1533321942807-08e4008b2025?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1959&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-.img-beverage {
-    background-image: url('https://images.unsplash.com/photo-1559539620-ec0c0f46e19e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-.img-seafood {
-    background-image: url('https://images.unsplash.com/photo-1585545335512-1e43f40d4999?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-.img-bakery {
-    background-image: url('https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
-    background-size: cover;
-    background-position: center;
-}
-
-
-.img-customer {
-    background: linear-gradient(rgba(0, 0, 0, 0.2),
-            rgba(0, 0, 0, 0.2)), url('https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
-    background-size: cover;
-    background-position: right;
-}
-
-.img-water {
-    background: linear-gradient(rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.3)), url('water.jpg');
-    background-size: cover;
-    background-position: right;
-}
-
-.hero-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/ozono.jpg');
-    /* background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('/assets/images/hero.jpg'); */
-    background-size: cover;
-    background-position: center;
-}
-
-.ozonoterapia-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/assets/images/ozonoterapia.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 80rem;
-}
-
-.sanificazione-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('/assets/images/sanificazione-ozono.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 80rem;
-}
-
-.scienza-image {
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('assets/images/ozono-scienza.jpg');
-    background-size: cover;
-    background-position: bottom;
-    height: 80rem;
-}
-
-
 .applications-layout {
     display: flex;
     align-items: center;
 }
-
-/* 
-img {
-    width: 100%;
-} */
 
 .w-100 {
     width: 100%;
@@ -538,13 +375,6 @@ img {
     .reverse .grid-col-2 {
         order: 1;
     }
-
-    /* 
-    .applications-layout {
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-    } */
 
     .scienza-image {
         height: 60rem;
