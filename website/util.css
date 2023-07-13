@@ -250,6 +250,16 @@ nav {
     color: #1e40af;
 }
 
+.bg-blue-700 {
+    background-color: #1d4ed8;
+}
+
+.slate-950 {
+    color: #020617;
+}
+
+
+
 /* h1 {
     font-size: 6.4rem;
     line-height: 1;
@@ -379,17 +389,50 @@ h2 {
     background-color: white;
 }
 
+/* MARGIN ------------------------------------------------------------ */
+
 .mb-8 {
     margin-bottom: 0.8rem;
+}
+
+.mt-8 {
+    margin-top: 0.8rem;
 }
 
 .mb-16 {
     margin-bottom: 1.6rem;
 }
 
+.mt-16 {
+    margin-top: 1.6rem;
+}
+
 .mb-32 {
     margin-bottom: 3.2rem;
 }
+
+.mt-32 {
+    margin-top: 3.2rem;
+}
+
+.mb-48 {
+    margin-bottom: 4.8rem;
+}
+
+.mt-48 {
+    margin-top: 4.8rem;
+}
+
+.mb-64 {
+    margin-bottom: 6.4rem;
+}
+
+.mt-64 {
+    margin-top: 6.4rem;
+}
+
+
+/* PADDING ------------------------------------------------------------ */
 
 .px-32 {
     padding-left: 3.2rem;
@@ -434,4 +477,95 @@ h2 {
 
 .bg-slate-900 {
     background-color: #0f172a;
+}
+
+
+
+
+.font-bold {
+    font-weight: 700;
+}
+
+.text-lg {
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+}
+
+.text-xl {
+    font-size: 2.0rem;
+    line-height: 2.8rem;
+}
+
+.text-2xl {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+.text-3xl {
+    font-size: 3.0rem;
+    line-height: 3.6rem;
+}
+
+.text-4xl {
+    font-size: 3.6rem;
+    line-height: 4.0rem;
+}
+
+.text-5xl {
+    font-size: 4.8rem;
+    line-height: 1;
+}
+
+
+.text-6xl {
+    font-size: 6.0rem;
+    line-height: 1;
+}
+
+
+
+/* COLORS ------------------------------------------------------- */
+
+.slate-50 {
+    color: #f8fafc;
+}
+
+.slate-100 {
+    color: #f1f5f9;
+}
+
+.slate-200 {
+    color: #e2e8f0;
+}
+
+.slate-300 {
+    color: #cbd5e1;
+}
+
+.slate-400 {
+    color: #94a3b8;
+}
+
+.slate-500 {
+    color: #64748b;
+}
+
+.slate-600 {
+    color: #475569;
+}
+
+.slate-700 {
+    color: #334155;
+}
+
+.slate-800 {
+    color: #1e293b;
+}
+
+.slate-900 {
+    color: #0f172a;
+}
+
+.slate-950 {
+    color: #020617;
 }
