@@ -242,6 +242,12 @@ svg {
 
 
 /* GRID --------------------------------------------------------------- */
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.8rem;
+}
+
 .services-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -277,6 +283,10 @@ svg {
     }
 
     .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-3 {
         grid-template-columns: 1fr 1fr;
     }
 
@@ -335,6 +345,10 @@ svg {
     }
 
     .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3 {
         grid-template-columns: 1fr;
     }
 
