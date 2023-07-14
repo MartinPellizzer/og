@@ -172,16 +172,30 @@ N.B.: L'articolo potrebbe essere personalizzato e approfondito in base al pubbli
 
 ARTICOLO ----------------------------------------------------------
 
+È ufficiale...
+
+Le persone sono sempre più preoccupate per la loro salute e pretendono maggiore igiene. Mantenere ambienti sicuri e privi di agenti patogeni è diventato di fondamentale importanza.
+
+La sanificazione efficace di spazi chiusi, come uffici, abitazioni e strutture pubbliche, gioca sempre più un ruolo cruciale nella prevenzione della diffusione di malattie infettive e nel mantenimento di un ambiente salubre per tutti. E in questo contesto, l'ozono si rivela un alleato potente nella lotta contro virus, batteri e odori sgradevoli.
+
+Vediamo quindi cos'é la sanificazione ad ozono, come funziona, quali sono i suoi benefici e anche quali sono le sue controindicazioni.
+
 ## Cos'è la sanificazione ad ozono
 
 (ozono, sanificazione, pulizia, igiene)
 
 La sanificazione ad ozono è un processo che utilizza il gas ozono (O3) per eliminare germi, batteri, virus, odori e altri contaminanti presenti in ambienti e superfici, al fine di migliorare la pulizia e l'igiene. Questo è possibile perchè l'ozono è un potente agente ossidante (più potente del cloro) e può sia distruggere microrganismi patogeni che scomporre sostanze chimiche tossiche.
 
-Durante il processo di sanificazione ad ozono, un generatore di ozono viene utilizzato per produrre ozono nell'ambiente da trattare. L'ozono viene poi diffuso nell'aria o nell'acqua (a seconda dell'esigenza) e agisce rapidamente sulla contaminazione presente. Attraverso un processo di ossidazione, l'ozono attacca le pareti cellulari dei microrganismi, distruggendoli o inattivandoli. Inoltre, l'ozono reagisce anche con varie sostanze chimiche indesiderate (come odori sgradevoli o inquinanti) e le neutralizza.
+Durante il processo di sanificazione ad ozono, un generatore di ozono viene utilizzato per produrre ozono nell'ambiente da trattare. L'ozono viene poi diffuso nell'aria o nell'acqua (a seconda dell'esigenza) e agisce rapidamente sulla contaminazione presente. Attraverso un processo di ossidazione, l'ozono attacca le pareti cellulari dei microrganismi, distruggendoli o inattivandoli. 
+
+Inoltre, l'ozono reagisce anche con varie sostanze chimiche indesiderate (come odori sgradevoli o inquinanti) e le neutralizza.
 
 
 ## A cosa serve la sanificazione ad ozono
+
+L'ozono è un alleato eccezionale nella lotta contro batteri, virus, muffe, insetti, odori persistenti e pesticidi. 
+
+Ecco una lista dettagliata:
 
 La sanificazione ad ozono è una delle soluzioni più efficaci per combattere la proliferazione di batteri nocivi. Infatti, l'ozono è in grado di attaccare e distruggere le membrane cellulari dei batteri, eliminandoli efficacemente dalle superfici. Grazie al fatto che l'ozono è un gas, può raggiungere anche gli angoli più difficili da pulire, garantendo una sanificazione completa degli ambienti.
 
@@ -224,6 +238,25 @@ Poi avere tutto l'ozono che vuoi, quando lo vuoi. L'ozono viene prodotto da un g
 ## Come funziona la sanificazione ad ozono (in 3 passi?)
 
 (all'ozono, con onozo, ad ozono, disinfezione, con l'ozono, )
+
+1. Identifica il problma
+
+Il primo passo è quello di capire qual'è il problema da risolvere.
+
+Sembra scontato, ma non lo è. Molti fanno questo errore e pensano che basti applicare un po' di ozono per risolvere qualsiasi tipo di contaminazione possiblie. Purtroppo non è così.
+
+Ogni tipo di contaminate o agente patogeno reagise diversamente all'ozono. Infatti, alcuni microrganismi sono abbastanza resistenti all'ozono, mentre altri sono molto deboli. Per esempio, la maggior parte dei batteri sono molto deboli contro l'ozono. Invece, i virus sono mediamente più resistenti dei batteri, anche se l'ozono riesce ad eliminarli lo stesso con facilità.
+
+Quindi, è facile intuire che servono diverse concetrazioni di ozono per risolvere diversi problemi.
+
+Chiediti sempre qual'è, nel dettaglio, il problema che vuoi risolvere. Si stratta di un batterio? Di una muffa? Di un insetto? Se non hai questa informazione, non puoi proseguire con il resto dei passi e molto probabilmente non riuscirai ad otternere una sanificazione efficace.
+
+2. Calcola la concentrazione di ozono necessaria
+3. Calcola il tempo di esposizione necessario
+4. Valuta se utilizzare ozono gassoso o acquoso
+5. Applicare l'ozono sul problema
+6. Monitorare il processo di ozonizzazione
+7. Arieggiare la stanza
 
 1. Generazione dell'ozono: L'ozono viene prodotto utilizzando un generatore di ozono. Questo dispositivo converte l'ossigeno (O2) presente nell'aria in ozono (O3) attraverso un processo di scarica elettrica o un processo di radiazione ultravioletta. In questo modo, viene generato un flusso di ozono che può essere utilizzato per la sanificazione.
 
