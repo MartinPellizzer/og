@@ -45,7 +45,6 @@ def keywords_to_master():
             f.write(k)
 
 
-
 def keywords_to_cluster(keyword):
     filepath = f'clusters/new.txt'
 
