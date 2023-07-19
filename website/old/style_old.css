@@ -1,0 +1,411 @@
+:root {
+    --opacity: 0.5;
+    --yellow-200: #fef08a;
+    --blue-500: #3b82f6;
+    --blue-600: #1d4ed8;
+    --white: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* TAGS -------------------------------------------------------------- */
+
+h1 {
+    color: #0f172a;
+    font-size: 6.4rem;
+    line-height: 1;
+    font-weight: 400;
+    margin-bottom: 3.2rem;
+}
+
+h2 {
+    color: #0f172a;
+    font-size: 4.0rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 4.8rem;
+}
+
+h3 {
+    color: #0f172a;
+    font-size: 2.4rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+}
+
+p {
+    color: #334155;
+    line-height: 1.5;
+    margin-bottom: 2.4rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+ul {
+    color: #334155;
+    line-height: 1.5;
+    margin-left: 1.6rem;
+}
+
+li {
+    margin-bottom: 2.4rem;
+}
+
+svg {
+    color: #0f172a;
+}
+
+/* COMPONENTS ----------------------------------------------------- */
+.call-number {
+    color: white;
+    text-align: center;
+    font-size: 3.2rem;
+    border: 2px solid white;
+    padding: 1.6rem 3.2rem;
+
+}
+
+.button-primary {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #1e40af;
+    padding: 1.6rem 3.2rem;
+}
+
+
+
+
+
+
+
+
+/* ************************************************************ */
+/* HEADER */
+/* ************************************************************ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.2rem 0;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    gap: 3.2rem;
+}
+
+.header-light {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.2rem 0;
+}
+
+.header-light a {
+    text-decoration: none;
+    color: #0f172a;
+}
+
+.header-light-section {
+    box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.05);
+    /* box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08); */
+}
+
+
+
+/* ************************************************************ */
+/* BREADCRUMBS */
+/* ************************************************************ */
+.breadcrumbs-section {
+    padding: 1.6rem 0;
+}
+
+
+
+/* ************************************************************ */
+/* SECTIONS */
+/* ************************************************************ */
+
+.bg-light {
+    background-color: #eff6ff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+
+
+/* HERO SECTION */
+/* ************************************************************ */
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-section h1 {
+    color: #fff;
+}
+
+.hero-section p {
+    color: #fff;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.hero-content {
+    flex: 2;
+}
+
+
+
+
+
+
+
+
+.button-secondary {
+    display: inline-block;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    /* border-radius: 50px; */
+    padding: 16px;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* CTA ------------------------------------------------------------ */
+.cta-section {
+    /* padding: 19.2rem 0; */
+    background-color: #1e40af;
+}
+
+
+
+/* CONTACTS ------------------------------------------------------------ */
+.contacts-section ul {
+    list-style: none;
+    font-size: 1.8rem;
+    line-height: 2.4;
+}
+
+
+
+/* FOOTER ------------------------------------------------------------ */
+.footer-section {
+    background-color: #020617;
+    padding: 1.6rem 0;
+}
+
+
+
+/* ICONS ------------------------------------------------------------ */
+svg {
+    width: 24px;
+}
+
+
+
+/* IMAGES ------------------------------------------------------------ */
+.img-block {
+    height: 40rem;
+}
+
+.applications-layout {
+    display: flex;
+    align-items: center;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+
+
+/* SPACING -------------------------------------------------------------- */
+.py-lg {
+    padding: 9.6rem 0;
+}
+
+
+
+/* ************************************************************ */
+/* LAYOUT ***************************************************** */
+/* ************************************************************ */
+.container-xl {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.container-half {
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+
+
+/* GRID --------------------------------------------------------------- */
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.8rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4.8rem;
+}
+
+.contacts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4.8rem;
+    align-items: center;
+}
+
+.applications-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: right;
+    align-items: center;
+}
+
+.applications-grid-reverse {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: right;
+    align-items: center;
+}
+
+
+/* MEDIA ------------------------------------------------------------------------------ */
+@media (max-width: 996px) {
+    .hero-content {
+        flex: 5;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .applications-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4.8rem;
+        margin-bottom: 9.6rem;
+    }
+
+    .applications-grid:last-child {
+        margin-bottom: 0;
+    }
+
+    .reverse {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reverse .grid-col-1 {
+        order: 2;
+    }
+
+    .reverse .grid-col-2 {
+        order: 1;
+    }
+
+    .scienza-image {
+        height: 60rem;
+    }
+
+    .ozonoterapia-image {
+        height: 60rem;
+    }
+
+    .sanificazione-image {
+        height: 60rem;
+    }
+
+    .contacts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .google-maps {
+        width: 100%;
+    }
+
+    .m-pt-lg {
+        padding-top: 9.6rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 9.6rem 0;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-3 {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        display: none;
+    }
+
+    .hero-main {
+        height: 100%;
+    }
+
+    h1 {
+        font-size: 4.8rem;
+    }
+
+    h2 {
+        margin-bottom: 4.8rem;
+    }
+
+    .button-primary {
+        font-size: 1.4rem;
+    }
+}
