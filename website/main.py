@@ -12,7 +12,7 @@ for filepath in folder.rglob("*.md"):
     with open(filepath, encoding='utf-8') as f:
         content = f.read()
 
-    content_html = markdown.markdown(content)
+    content_html = markdown.markdown(content, extensions=['markdown.extensions.tables'])
 
     html = f'''
         <!DOCTYPE html>

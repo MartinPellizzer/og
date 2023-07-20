@@ -68,3 +68,20 @@ p {
     margin-bottom: 1.6rem;
     line-height: 1.6;
 }
+
+table,
+tr,
+th,
+td {
+    border: 1px solid #334155;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 1.2rem 2.4rem;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f1f5f9;
+}
