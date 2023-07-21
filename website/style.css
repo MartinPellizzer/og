@@ -16,6 +16,7 @@ body {
 .container-xl {
     max-width: 120rem;
     margin: 0 auto;
+    padding: 0 3.2rem;
 }
 
 .container-md {
@@ -24,7 +25,8 @@ body {
 }
 
 header {
-    padding: 1.6rem 3.2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
     display: flex;
     justify-content: space-between;
 }
@@ -69,6 +71,27 @@ p {
     line-height: 1.6;
 }
 
+.button-primary {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 1.2rem 2.8rem;
+}
+
+.button-secondary {
+    /* display: inline-block; */
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    /* background-color: #1d4ed8; */
+    color: white;
+    border: 2px solid #fff;
+    padding: 1.2rem 2.8rem;
+}
+
 table,
 tr,
 th,
@@ -84,4 +107,74 @@ td {
 
 tbody tr:nth-child(odd) {
     background-color: #f1f5f9;
+}
+
+.text-white {
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
+.gap-32 {
+    gap: 3.2rem;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-80 {
+    height: 80%;
+}
+
+.hero-section {
+    height: 100vh;
+}
+
+.img-world {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/ozono.jpg');
+    background-size: cover;
+    background-position: center;
 }

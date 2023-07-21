@@ -1,10 +1,30 @@
+# Ozono: Tutto quello che volevi (e non volevi) sapere sull'ozono
 
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nulla. Cum hic repellat odit ea! Quisquam accusantium quae dolore distinctio doloremque, dicta quasi explicabo totam fugit consectetur quibusdam officiis nobis.
 
-## Cos'è l'Ozono
+## * Cos'è l'ozono
 
-L'ozono è un gas formato da tre atomi di ossigeno (O3) che si trova nell'atmosfera terrestre.
+L'ozono è un gas. Più precisamente, l'ozono è una molecola formata da tre atomi di ossigeno (O3).
 
-Etimologia: In breve, la parola "ozono" deriva dal nome greco "ozon" (o "ozein"), la quale significa "odore" o "avere un odore". Infatti, l'ozono ha un odore molto caratteristico.
+## * Significato di ozono
+
+Etimologia: La parola "ozono" deriva dal nome greco "ozon" (o "ozein"), la quale significa "odore" o "avere un odore". Infatti, l'ozono ha un odore molto caratteristico.
+
+## Dove si trova l'ozono
+
+L'ozono si trova nell'atmosfera terrestre, principalmente nella parte superiore della stratosfera, ovvero in uno strato dell'atmosfera che si trova tra circa 10 e 50 chilometri sopra la superficie della Terra. 
+
+Questo strato di ozono è anche noto come ozonosfera (o ozonostrato) data la concentrazione relativamente alta di ozono.
+
+## A cosa serve l'ozono
+
+## Come si forma l'ozono
+
+L'ozono si forma principalmente attraverso la reazione fotochimica tra ossigeno molecolare (O2) e raggi ultravioletti (UV) nella stratosfera. Inoltre, l'ozono si produce attraverso le scariche elettriche dei fulmini.
+
+In alternativa, l'ozono può essere prodotto ad hoc da generatori di ozono. In questo caso, la formazione di ozono dipende dalla tecnologia produttiva usata dal generatore.
+
+## *** ozono molecola
 
 | Proprietà            | Valore   |
 |----------------------|--------- |
