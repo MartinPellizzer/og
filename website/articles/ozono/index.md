@@ -1,4 +1,4 @@
-# Ozono: tutto quello che ti serve sapere su questo gas
+# Ozono: cosa devi sapere su questo gas
 
 
 
