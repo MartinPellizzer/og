@@ -14,6 +14,14 @@ for filepath in folder.rglob("*.md"):
 
     content_html = markdown.markdown(content, extensions=['markdown.extensions.tables'])
 
+    content_html_formatted = []
+    for line in content_html.split('\n'):
+        if 'NOTA:' in line:
+            line = line.replace('<p>', '<p class="nota">').replace('NOTA: ', '')
+        content_html_formatted.append(line)
+
+    content_html = '\n'.join(content_html_formatted)
+
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
