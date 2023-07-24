@@ -6,7 +6,7 @@
 
 L'ozono è una molecola composta da tre atomi di ossigeno (O3) ed è un gas presente nell'atmosfera terrestre. 
 
-### Da dove deriva la parola ozono?
+### Da dove deriva il nome ozono?
 
 La parola "ozono" deriva dal greco antico "ὄζω" (ózō), che significa "odore". 
 
@@ -16,27 +16,28 @@ Fu il chimico Christian Friedrich Schönbein a coniare il termine "ozono" nel 18
 
 La struttura molecolare dell'ozono è una sorta di triangolo. Ha un atomo di ossigeno al centro e altri due atomi di ossigeno che lo circondano, formando angoli di circa 117 gradi. 
 
-### Quali sono le proprietà chimiche e fisiche dell'ozono?
+### Quali sono le proprietà dell'ozono?
 
 Proprietà chimiche dell'ozono:
 
 | Proprietà            | Valore   |
 |----------------------|--------- |
 | Formula chimica | O3 |
-| Struttura | È un allotropo dell'ossigeno, costituito da tre atomi di ossigeno. |
-| Reattività | È un ossidante molto potente e reattivo. Può reagire con molte sostanze chimiche, spesso degradandole o ossidandole. |
-
+| Struttura | È un allotropo dell'ossigeno, costituito da tre atomi di ossigeno |
+| Reattività | È un ossidante molto potente e reattivo |
 
 Proprietà fisiche dell'ozono:
 
-- Colore: Incolore a temperatura ambiente, colore bluastro a bassa temperatura
-- Odore: Ha un caratteristico odore pungente, che è distintivo e spesso riconoscibile anche a basse concentrazioni
-- Peso molecolare: 48 g/mol
-- Densità: 2,144 kg/m³ a 0 °C e 1 atm di pressione
-- Punto di fusione: -192,7°C
-- Punto di ebollizione: -111,9°C
+| Proprietà            | Valore   |
+|----------------------|--------- |
+| Colore | Incolore a temperatura ambiente, colore bluastro a bassa temperatura |
+| Odore | Ha un caratteristico odore pungente e riconoscibile anche a basse concentrazioni |
+| Peso molecolare | 48 g/mol |
+| Densità | 2,144 kg/m³ a 0 °C e 1 atm di pressione |
+| Punto di fusione | -192,7°C |
+| Punto di ebollizione | -111,9°C |
 
-## Dove si trova l'ozono nell'atmosfera?
+## Dove si trova l'ozono?
 
 L'ozono si trova principalmente nella stratosfera, uno strato dell'atmosfera che si trova a una quota di circa 10 a 50 chilometri sopra la superficie terrestre. Questa regione viene anche chiamata ozonosfera (o strato di ozono).
 
