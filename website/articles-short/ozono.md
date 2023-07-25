@@ -1,12 +1,14 @@
-## cos'è l'ozono
+# Tutto ciò che devi sapere sull'ozono
 
-L'ozono è una molecola composta da tre atomi di ossigeno e la formula della sua struttura chimica è O3. È un gas incolore a temperatura ambiente e ha un odore pungente anche se presente in basse quantità.
+
+
+## Cos'è l'ozono
+
+L'ozono è una molecola composta da tre atomi di ossigeno e la formula della sua struttura chimica (o simbolo) è O3. È un gas incolore a temperatura ambiente e ha un odore pungente anche se presente in basse quantità.
 
 Secondo il modello VSEPR, la geometria molecolare dell'ozono è planare e angolare (a forma triangolare) con un angolo di legame di 116,8 gradi. Ha una struttura di Lewis con una disposizione a "due elettroni singoli" su uno degli atomi di ossigeno e un legame doppio tra gli altri due atomi di ossigeno. La formula di Lewis dell'ozono è O=O-O.
 
 L'ozono è una composto chimico, non un elemento chimico. Quindi non è presente nella tavola periodica e non ha un numero atomico.
-
-
 
 ### Quali sono le proprietà dell'ozono?
 L'ozono ha diverse proprità fisiche e chimiche.
@@ -29,6 +31,32 @@ Le principali proprietà chimiche dell'ozono sono:
 | Ossidante | L'ozono è un potente ossidante, in grado di reagire con altre sostanze chimiche, rompendo legami e alterando le loro strutture. | 
 | Reattivo | L'ozono è molto reattivo e può facilmente interagire con altre sostanze chimiche presenti nell'ambiente. | 
 | Deperibile | L'ozono è instabile e si decompone spontaneamente in ossigeno (O2) e un singolo atomo di ossigeno. | 
+
+
+
+
+
+## Cos'è l'ozono troposferico?
+
+L'ozono troposferico è una forma di ozono presente nella troposfera, che è uno degli strati dell'atmosfera terrestre. Questo strato si estende dalla superficie terrestre fino a un'altitudine di circa 10-15 chilometri.
+
+L'ozono troposferico è diverso dall'ozono presente nella stratosfera, noto come "ozono stratosferico", che si trova a un'altitudine superiore e svolge una funzione vitale nella protezione della Terra dai dannosi raggi ultravioletti del Sole.
+
+Nella troposfera, l'ozono è considerato un inquinante atmosferico e viene comunemente chiamato "ozono a livello del suolo". Si forma attraverso una serie di reazioni chimiche complesse tra ossidi di azoto (NOx) e composti organici volatili (COV) in presenza di luce solare. Le principali fonti di questi precursori dell'ozono sono le attività umane, come il traffico veicolare, l'industria e le emissioni da fonti naturali come i boschi.
+
+L'ozono troposferico è un inquinante atmosferico particolarmente dannoso, poiché può causare gravi problemi respiratori e irritazione agli occhi. Inoltre, contribuisce alla formazione di smog troposferico, che è una miscela di ozono, particolato e altri inquinanti che può avere effetti negativi sulla salute umana e sull'ambiente.
+
+Diversamente dall'ozono stratosferico, che svolge un ruolo benefico nella protezione della Terra dai raggi UV nocivi, l'ozono troposferico è considerato un problema ambientale e richiede attenzione e misure di controllo per ridurre le sue concentrazioni a livelli sicuri per la salute umana e l'ecosistema.
+
+
+L'ozono troposferico è un gas presente nella troposfera, che è lo strato più basso dell'atmosfera terrestre. Si tratta di un composto chimico composto da tre atomi di ossigeno (O3). È diverso dall'ozono presente nello strato superiore dell'atmosfera, chiamato ozono stratosferico, che svolge un ruolo fondamentale nel bloccare i raggi ultravioletti nocivi del Sole.
+
+L'ozono troposferico è prodotto principalmente da reazioni chimiche tra gli ossidi di azoto (NOx) e i composti organici volatili (COV) in presenza di luce solare. Questi inquinanti atmosferici sono spesso emessi dalle attività umane, come il traffico veicolare, le attività industriali e l'agricoltura.
+
+Sebbene l'ozono troposferico sia importante per il suo ruolo nella protezione della Terra dalle radiazioni ultraviolette, quando si accumula a livelli elevati nella troposfera, può diventare un inquinante atmosferico dannoso. Elevate concentrazioni di ozono troposferico possono causare problemi respiratori, irritazione agli occhi e al tratto respiratorio, e possono essere particolarmente dannose per le persone con problemi di salute preesistenti.
+
+Monitorare e ridurre le concentrazioni di ozono troposferico è essenziale per proteggere la salute umana e mantenere un'atmosfera sana. Gli sforzi per ridurre le emissioni di precursori dell'ozono troposferico, come gli ossidi di azoto e i composti organici volatili, sono fondamentali per affrontare questo problema ambientale.
+
 
 
 
