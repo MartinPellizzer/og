@@ -75,14 +75,9 @@
 }
 
 /* HOMEPAGE -------------------------------------------------------- */
-.img-world {
-    background: url('/assets/images/ozono.jpg');
-    background-size: cover;
-    background-position: center;
-}
 
-.img-world-dark {
-    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('/assets/images/ozono.jpg');
+.img-world {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/ozono.jpg');
     background-size: cover;
     background-position: center;
 }

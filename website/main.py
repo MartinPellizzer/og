@@ -14,13 +14,17 @@ for filepath in folder.rglob("*.md"):
 
     content_html = markdown.markdown(content, extensions=['markdown.extensions.tables'])
 
-    content_html_formatted = []
-    for line in content_html.split('\n'):
-        if 'NOTA:' in line:
-            line = line.replace('<p>', '<p class="nota">').replace('NOTA: ', '')
-        content_html_formatted.append(line)
+    # content_html_formatted = []
+    # for line in content_html.split('\n'):
+    #     if 'NOTA:' in line:
+    #         line = line.replace('<p>', '<p class="nota">').replace('NOTA: ', '')
+    #     content_html_formatted.append(line)
 
-    content_html = '\n'.join(content_html_formatted)
+    # content_html = '\n'.join(content_html_formatted)
+
+    
+    with open('components/header.html', encoding='utf-8') as f:
+        header_html = f.read()
 
     html = f'''
         <!DOCTYPE html>
@@ -29,26 +33,27 @@ for filepath in folder.rglob("*.md"):
         <head>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="/style.css">
+            <link rel="stylesheet" href="/style-blog.css">
             <title>Ozonogroup</title>
         </head>
 
         <body>
-            <section>
+            <section class="header-section">
                 <div class="container-xl h-full">
-                    <header>
-                        <a href="/index.html">Ozonogroup</a>
-                        <nav>
-                            <a href="/ozono/index.html">Ozono</a>
-                            <a href="/prodotti.html">Prodotti</a>
-                            <a href="/contatti.html">Contatti</a>
-                        </nav>
-                    </header>
+                    {header_html}
                 </div>
             </section>
 
             <section class="container-md">
                 {content_html}
+            </section>
+
+            <section class="footer-section">
+                <div class="container-xl h-full">
+                    <footer class="flex items-center justify-center">
+                        <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+                    </footer>
+                </div>
             </section>
         </body>
 
