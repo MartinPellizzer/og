@@ -29,8 +29,8 @@ body {
 }
 
 header {
-    padding-top: 3.2rem;
-    padding-bottom: 3.2rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
     display: flex;
     justify-content: space-between;
 }
