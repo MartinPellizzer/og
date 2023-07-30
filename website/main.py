@@ -1,4 +1,4 @@
-# import shutil
+import shutil
 # shutil.copy2('/style.css', '/')
 
 import markdown
@@ -61,6 +61,7 @@ for filepath in folder.rglob("*.md"):
     '''
 
     filepath_chunks = str(filepath).split('\\')
+    print(filepath_chunks)
     filepath_out_dir = '/'.join(filepath_chunks[1:-1])
     filepath_out = '/'.join(filepath_chunks[1:]).replace('.md', '.html')
 
@@ -69,3 +70,11 @@ for filepath in folder.rglob("*.md"):
 
     with open(filepath_out, 'w', encoding='utf-8') as f:
         f.write(html)
+
+    shutil.copy2('index.html', 'public/index.html')
+    shutil.copy2('style.css', 'public/style.css')
+    shutil.copy2('style-blog.css', 'public/style-blog.css')
+    shutil.copy2('util.css', 'public/util.css')
+    shutil.copy2('img.css', 'public/img.css')
+    shutil.copy2('logo.ico', 'public/logo.ico')
+    shutil.copy2('CNAME', 'public/CNAME')
