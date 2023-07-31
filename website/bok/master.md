@@ -1,23 +1,34 @@
 ozono
 
 ozono-definizione
-    - l'ozono è un gas
+    [ozono, O3, molecola, gas, composto, allotropo dell'ossigeno, triossigeno, 1λ1,3λ1-triossidano, catena-triossigeno, triossidanilidene, trioxidanediyl, ozonide]
 
-    - ozono è il nome preferito (IUPAC)
-    - i nomi sistematici 1λ1,3λ1-triossidano e catena-triossigeno sono validi (IUPAC)
-    - 1λ1,3λ1-triossidano nomenclatura sostitutiva
-    - catena-triossigeno nomenclatura additiva
+    * l'ozono è molecola inorganica composta da tre atomi di ossigeno (triossigeno)
+    - l'ozono è un gas
+    - l'ozono è una forma allotropica (allotropo) dell'ossigeno
+
+    - ozono è il nome preferito dall'Unione Internazionale di Chimica Pura e Applicata (IUPAC)
+    - sono validi ai nomi sistematici sono validi, come 1λ1,3λ1-triossidano (nomenclatura sostitutiva) e catena-triossigeno (nomenclatura additiva)
+
     - in alcuni contesti, l'ozono può essere visto come triossidano con due atomi di idrogeno rimossi, e il termine triossidanilidene può essere usato come nome sistematico specifico del contesto, secondo nomenclatura sostitutiva.
-    - molecola inorganica con formula chimica 03
-    - allotropo dell'ossigeno
-    - triossigeno
-    - molecola composta da tre atomi di ossigeno
     - per impostazione predefinita, questi i nomi non tengono conto della radicalità del molecola di ozono. In un contesto ancora più specifico, questo può anche nominare il terreno singoletto non radicale stato, mentre lo stato diradicale è chiamato trioxidanediyl.
     - Trioxidanediyl (o ozonide) è usato, non sistematicamente, per riferirsi al gruppo sostituente (-OOO-). Attenzione ad evitare di confondere il nome del gruppo con il nome specifico del contesto per l'ozono dato sopra.
 
+
+
+ozono-formula
+    [formula chimica, composizione, simbolo]
+    la formula chimica dell'ozono è O3
+
+
+
 ozono-derivazione
+    - deriva dal francese antico "ozone", che deriva a sua volta dal greco antico  "ὄζειν" (ózein)
     - deriva da ozein (ὄζειν)
     - in greco ozein è il verbo per (odorare)
+    - significa "emanare odore"
+
+
 
 ozono-storia
     - 1785, chimico olandese Martinus van Marum, esperimento con scarice elettriche sopra l'acqua, sente uno strano odore, pensa sia dovuto alle reazioni elettriche e non capisce che è ozono
@@ -26,8 +37,6 @@ ozono-storia
     - 1867, Schönbein, conferma
     - nella seconda metà del 19 secolo, l'ozono è stato considerato un componente salutare per l'ambiente dai naturalisti
 
-ozono-formula
-    O3
 
 ozono-struttura
     diamagnetica
@@ -41,13 +50,17 @@ ozono-struttura
     - l'arrangiamento possiede un ordine di legame complessivo di 1.5 su entrambi i lati
 
 ozono-colore
+    * gas incolore tendente al blu pallido
+    gas blue
     blue pallido quando in condizioni standard
     blu scuro quando liquido (temperatura criogenica)
     viola-nero quando solido
 
 ozono-odore
-    pungente, acuto, ricorda il cloro, rilevabile da molte persone a concentrazioni di appena 10 ppb in aria
+    pungente, acuto, ricorda il cloro, rilevabile da molte persone a concentrazioni di appena si sente già a 10 ppb in aria
     distintivo
+    agliaceo
+    odorabile da molte persone a concentrazioni atmosferiche superori a 0,1 ppm.
 
 ozono-atmosfera-concentrazione-totale
     0.6 ppm
