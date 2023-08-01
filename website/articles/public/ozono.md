@@ -2,13 +2,15 @@
 
 ## Cos'è l'ozono?
 
-L'ozono è una molecola inorganica composta da tre atomi di ossigeno e la sua formula chimica è O3. "Ozono" è il termine preferito dall'Unione Internazionale di Chimica Pura e Applicata (IUPAC) ma altri nomi sistematici sono validi, come 1λ1,3λ1-triossidano (nomenclatura sostitutiva) e catena-triossigeno (nomenclatura additiva).
+L'ozono è una molecola inorganica composta da tre atomi di ossigeno (O) legati insieme mediante legami covalenti e la sua formula chimica è O3. "Ozono" è il termine preferito dall'Unione Internazionale di Chimica Pura e Applicata (IUPAC) ma altri nomi sistematici sono validi, come 1λ1,3λ1-triossidano (nomenclatura sostitutiva) e catena-triossigeno (nomenclatura additiva).
 
 L'O3 è una forma allotropica dell'ossigeno ed è un composto presente in natura in forma gassosa. A temperatura ambiente e in condizioni standard, è un gas principalmente incolore, leggermente tendente al blu pallido. Inoltre, questo gas ha un odore caratteristico e pungente, odorabile anche se presente nell'ambiente in concentazioni molto basse, attorno ai 0,04 ppm (o 40 ppb).   
 
 La parola ozono deriva dal francese antico "ozone", che a sua volta deriva dal greco antico "ozein" (ὄζειν), che significa "emanare odore" o "odorare". Infatti, l'ozono prende questo nome proprio a causa del fatto che ha un forte odore.
 
 ## Qual'è la struttura chimica dell'ozono?
+
+
 
 
 
