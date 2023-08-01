@@ -45,10 +45,8 @@ ozono-storia
 
 
 
-ozono-struttura-chimica
-    - può essere rappresentata in diverse forme
-    - quella più comune e semplice è quella a linea singola
-    - dove i legami covalenti sono rappresentati da linee tra gli atomi
+ozono-struttura
+    - può essere rappresentata in diverse forme, quella più comune e semplice è quella a linea singola, dove i legami covalenti sono rappresentati da linee tra gli atomi
 
     - l'ozono è costituito da un atomo di ossigeno singolo legato a un gruppo di ossigeno diossigenile (-O-O-)
 
@@ -60,14 +58,6 @@ ozono-struttura-chimica
     - questo conferisce all'ozono una struttura a triplo legame, il che la rende una molecola molto reattiva
     - la molecola di ozono è instabile e tende a decadere, rilasciando ossigeno singoletto e formando ossigeno molecolare (O2)
 
-    - diamagnetica
-    (secondo prove sperimentali ottenute tramite spettroscopia a microonde)
-    - molecola piegata con simmetria C2v (simile alla molecola dell'acqua)
-
-    - l'atomo centrale è ibridato sp² con un doppietto di elettroni
-    - l'ozono è una molecola polare con un momento di dipolo di 0.53 D
-    - la molecola può essere rappresentata come un ibrido di risonanza con due strutture contribuenti, ognuna con un legame singolo da un lato e un doppio legame dall'altro
-    - l'arrangiamento possiede un ordine di legame complessivo di 1.5 su entrambi i lati
 
     - per comprendere la struttura chimica dell'ozono, è necessario analizzare la disposizione degli elettroni intorno agli atomi di ossigeno
     - ogni atomo di ossigeno ha 8 elettroni nel suo livello più esterno, eccetto l'atomo di idrogeno che ne ha solo 2
@@ -75,16 +65,24 @@ ozono-struttura-chimica
     - nella molecola di ozono, due atomi di ossigeno si legano con un doppio legame, condividendo due coppie di elettroni tra di loro.
     - ciò comporta la formazione di una regione più densa di elettroni tra questi due atomi, noto come legame doppio
     - questo legame doppio è rappresentato graficamente con due linee tra gli atomi di ossigeno
+    
+    - due di questi atomi di ossigeno sono legati tra loro da un legame doppio, mentre il terzo atomo di ossigeno forma un legame singolo con uno dei due atomi con cui è legato.
+    - in termini di rappresentazione, possiamo considerare la struttura dell'ozono come una sorta di "V" rovesciata, dove gli atomi di ossigeno sono disposti in modo asimmetrico intorno a un atomo centrale di ossigeno
+
+    - la molecola presenta un atomo di ossigeno centrale legato tramite legame semplice a un ossigeno e tramite legame doppio all’altro. La struttura è quindi stabilizzata per risonanza:
+
+    ozono: strutture di risonanza
+    strutture di risonanza
+    e si presenta a separazione di carica. L’ossigeno centrale è caricato positivamente e quello legato tramite legame semplice è caricato negativamente. Pertanto la molecola non ha una carica netta.
+
+    - questa molecola è costituita da un atomo di ossigeno singolo legato a un gruppo di ossigeno diossigenile (-O-O-), o più semplicemente da O2+.
 
 
     
 ozono-struttura-formula
-    * la sua formula di struttura è la seguente: O = O = O
-    - nella formula sopra, il simbolo "O" rappresenta un atomo di ossigeno, mentre i simboli "=" rappresentano i legami covalenti tra gli atomi.
+    - una formula di struttura è O=O=O, dove "O" rappresenta un atomo di ossigeno, mentre i simboli "=" rappresentano i legami covalenti tra gli atomi.
+    - la formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola
 
-    - la formula di struttura dell'ozono è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola di ozono (O3)
-
-    - la formula di struttura dell'O3 è un'espressione chimica che rappresenta la disposizione degli atomi nella molecola di ozono
     - la sua formula di struttura è O=O-O, dove i tre atomi di ossigeno sono collegati da doppi legami, formando un'unità ciclica
 
     - la formula di struttura dell'ozono mostra come gli atomi di ossigeno sono disposti nello spazio e come sono legati tra loro
@@ -94,7 +92,7 @@ ozono-struttura-formula
     -     O
          / \\
         O   O
-    - nella formula di struttura dell'ozono, c'è un doppio legame tra uno degli atomi di ossigeno (O=O) e un singolo legame tra gli altri due atomi di ossigeno (O-O)
+ 
     - questo doppio legame conferisce all'ozono una maggiore reattività rispetto all'ossigeno molecolare (O2), che ha un legame doppio tra gli atomi di ossigeno
 
     - la sua struttura molecolare è caratterizzata da un legame covalente doppio tra due atomi di ossigeno e un legame covalente singolo con un terzo atomo di ossigeno.
@@ -172,9 +170,55 @@ ozono-lewis
     O
 
     - in questa rappresentazione, vediamo che ci sono due legami covalenti singoli (linee) tra ciascun ossigeno, e ciascun ossigeno ha un doppietto elettronico non condiviso (rappresentato da due punti sopra e sotto l'atomo di ossigeno)
+
+    - per comprendere la struttura di Lewis dell'ozono, dobbiamo analizzare la disposizione degli elettroni attorno agli atomi coinvolti
+
+    - per cominciare, esamineremo gli atomi di ossigeno che costituiscono la molecola di ozono. Ogni atomo di ossigeno ha 6 elettroni esterni (o elettroni di valenza) disposti nei livelli energetici s, p e d
+    - tuttavia, per semplificare il disegno della struttura di Lewis, ci limiteremo a considerare solo gli elettroni di valenza
     
+    - l'ozono, essendo composto da tre atomi di ossigeno, ha un totale di 3x6 = 18 elettroni di valenza
+    - ora procederemo con la rappresentazione di Lewis, che utilizza punti per rappresentare gli elettroni di valenza di ciascun atomo
+
+    1. nel caso dell'ozono, tutti gli atomi di ossigeno sono identici, quindi non c'è un atomo centrale. Ogni atomo di ossigeno è collegato a un altro mediante legami covalenti doppi (due coppie di elettroni condivise). Questo è noto come una struttura di risonanza, poiché gli atomi possono essere scambiati tra loro senza alterare la struttura complessiva della molecola
+
+    2. disporremo i tre atomi di ossigeno in modo lineare. Ogni atomo di ossigeno condivide una coppia di elettroni con i due atomi adiacenti, formando due legami covalenti doppi (quattro elettroni condivisi)
+    O = O
+    |
+    O
+
+    3. Iniziamo distribuendo gli elettroni di valenza attorno a ciascun atomo di ossigeno. Poiché ciascun ossigeno condivide due coppie di elettroni (legami doppi), ogni atomo avrà quattro elettroni di valenza "locali" intorno a sé.
+    O : O
+    ||
+    O
+    Ora, rimangono ancora 10 elettroni di valenza da distribuire.
+
+    4. Distribuiremo gli elettroni di valenza rimanenti in modo tale da soddisfare la regola dell'ottetto per ciascun atomo di ossigeno, ovvero ottenendo 8 elettroni di valenza intorno a ciascun ossigeno (a eccezione dell'ossigeno centrale, che può superare l'ottetto poiché è coinvolto in un legame triplo).
+    O : O
+    :||
+    O
+    Ogni ossigeno ha ora 8 elettroni di valenza intorno a sé, ad eccezione dell'ossigeno centrale, che ne ha 6. Poiché abbiamo ancora elettroni di valenza rimanenti, creeremo un legame triplo tra l'ossigeno centrale e uno degli ossigeni terminali.
+    O = O
+    | |
+    O
+
+    5. Ora dobbiamo controllare se la struttura di Lewis ha una carica elettrica complessiva. Poiché l'ozono è neutro, il numero totale di elettroni deve essere pari al numero totale di protoni negli atomi (poiché gli elettroni e i protoni si bilanciano).
+    Conteggio degli elettroni:
+    6 (elettroni di valenza di ogni ossigeno) x 3 (atomi di ossigeno) = 18 elettroni di valenza
+    L'ozono ha 18 elettroni di valenza, che corrispondono al numero di protoni nei tre atomi di ossigeno. Pertanto, la struttura di Lewis dell'ozono è neutra.
+
+    - in conclusione, la struttura di Lewis dell'ozono (O3) è una struttura di risonanza con gli atomi di ossigeno disposti in modo lineare, con due legami covalenti doppi (quattro elettroni condivisi) tra ciascun atomo adiacente e un legame triplo tra l'ossigeno centrale e uno degli ossigeni terminali. Questa struttura permette all'ozono di svolgere un ruolo critico nella protezione della Terra dagli effetti dannosi dei raggi ultravioletti del Sole, agendo come uno schermo protettivo nella fascia di ozono atmosferica.
+
 
 ozono-geometria
+
+    - diamagnetica
+    (secondo prove sperimentali ottenute tramite spettroscopia a microonde)
+    - molecola piegata con simmetria C2v (simile alla molecola dell'acqua)
+    - l'atomo centrale è ibridato sp² con un doppietto di elettroni
+    - l'ozono è una molecola polare con un momento di dipolo di 0.53 D
+    - la molecola può essere rappresentata come un ibrido di risonanza con due strutture contribuenti, ognuna con un legame singolo da un lato e un doppio legame dall'altro
+    - l'arrangiamento possiede un ordine di legame complessivo di 1.5 su entrambi i lati
+
     - l'ozono ha una struttura a forma di "V" rovesciata
     - dove gli atomi di ossigeno sono disposti in modo angolare
 
@@ -190,6 +234,35 @@ ozono-geometria
     
     - la molecola di ozono è composta da tre atomi di ossigeno collegati tra loro tramite legami covalenti
     - due di questi atomi di ossigeno sono legati tra loro da un legame doppio, mentre il terzo atomo di ossigeno forma un legame singolo con uno dei due atomi con cui è legato. In termini di rappresentazione, possiamo considerare la struttura dell'ozono come una sorta di "V" rovesciata, dove gli atomi di ossigeno sono disposti in modo asimmetrico intorno a un atomo centrale di ossigeno.
+
+    - la sua geometria molecolare è un aspetto cruciale che determina molte delle sue proprietà chimiche e fisiche, inclusa la sua reattività e la capacità di agire come uno dei principali agenti di reazione nella rimozione degli inquinanti atmosferici.
+
+    - per comprendere meglio la geometria dell'ozono, dobbiamo analizzare i concetti di ibridazione orbitale e geometria molecolare
+    - gli atomi di ossigeno nell'ozono sono ibridati in modo da ottenere una geometria tetraedrica distorta
+    - questo avviene quando uno degli orbitali p degli atomi di ossigeno forma un legame sigma (σ) con l'orbitale p dell'atomo di ossigeno centrale, mentre gli altri due orbitali p formano un legame π tra gli atomi esterni
+
+    - la presenza di un legame doppio tra uno degli atomi di ossigeno esterni e l'atomo centrale causa una repulsione maggiore rispetto ai legami singoli
+    - questa repulsione provoca una deformazione nella geometria tetraedrica ideale, portando a un angolo di legame più piccolo rispetto agli angoli di 109,5° previsti per una geometria tetraedrica perfetta
+
+    - una rappresentazione schematica della geometria molecolare dell'ozono è la seguente
+    - O
+       \
+        O = O
+    - dove "O" rappresenta un atomo di ossigeno e "=" indica il doppio legame tra gli atomi di ossigeno
+
+    - la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche
+    - ad esempio, la deformazione tetraedrica influisce sulla polarità della molecola
+    - a causa della distribuzione asimmetrica degli atomi di ossigeno, l'ozono ha una dipole moment maggiore rispetto all'ossigeno molecolare (O2)
+    - questa polarità rende l'ozono un'eccellente molecola in grado di assorbire i raggi UV nocivi, proteggendo così la Terra dagli effetti dannosi delle radiazioni solari
+
+    
+    - inoltre, la geometria dell'ozono è essenziale per comprendere i meccanismi delle sue reazioni chimiche
+    - il legame doppio, essendo più reattivo rispetto al legame singolo, gioca un ruolo fondamentale nelle reazioni di ossidazione e riduzione che coinvolgono l'ozono nell'atmosfera
+
+    - in sintesi, la geometria molecolare dell'ozono è cruciale per la sua importanza nell'atmosfera terrestre
+    - la sua struttura a "V" rovesciata, causata dalla repulsione elettronica tra i legami multipli, determina la sua polarità e reattività chimica
+    - questa peculiare geometria conferisce all'ozono la capacità di svolgere un ruolo vitale nella protezione del nostro pianeta dagli effetti dannosi dei raggi UV solari e nei processi di purificazione dell'atmosfera attraverso le reazioni di ossidazione
+
 
 
 
@@ -235,6 +308,8 @@ ozono-strato
 ozono-proprietà
     più pesante dell'aria, tende a scendere verso la superficie terrestre
 
+    presenta momento dipolare (µ = 0,58 D), e si ammette che risuoni tra più forma di risonanza.
+
     formula chimica: O3
     massa molare: 48.00 g·mol−1
     aspetto: da incolore a blu pallido
@@ -248,12 +323,13 @@ ozono-proprietà
     suscettibilità magnetica (χ): +6.7·10−6 cm3/mol
     indice di rifrazione (nD): 1.2226 (liquido), 1.00052 (gas, STP, 546 nm —
     notare alta dispersione)
+    energia di legame: circa 300 kJ/mol
 
 ozono-proprità-fisiche
     incolore, tendente leggermente al blu pallido, blue quando liquefatto
     leggermente solubile in acqua e molto più solubile in solveti inerti non-polari, come tetracloruro di carbonio o fluorocarburi, dove forma una soluzione blue
     a 161 K (-112 °C; -170 °F), condensa in un liquido blue scuro
-    è pericoloso scaldare questo liquido alla temperatura di ebollizione perchè può detonare
+    è pericoloso scaldare questo liquido alla temperatura di ebollizione perché può detonare
     a temperature sotto i 80 K ('193.x °C; -315.7 °F), forma un solido viola-nero
     la maggior parte delle persone è in grado di rilevare circa 0,01 μmol/mol di ozono nell'aria, dove ha un odore pungente molto specifico,simile alla candeggina
     L'esposizione da 0,1 a 1 μmol/mol produce mal di testa, bruciore agli occhi e irritazione le vie respiratorie. Anche basse concentrazioni di ozono nell'aria sono molto distruttive per i materiali organici come lattice, plastica e tessuto polmonare animale.

@@ -4,13 +4,17 @@
 
 L'ozono è una molecola inorganica composta da tre atomi di ossigeno (O) legati insieme mediante legami covalenti e la sua formula chimica è O3. "Ozono" è il termine preferito dall'Unione Internazionale di Chimica Pura e Applicata (IUPAC) ma altri nomi sistematici sono validi, come 1λ1,3λ1-triossidano (nomenclatura sostitutiva) e catena-triossigeno (nomenclatura additiva).
 
-L'O3 è una forma allotropica dell'ossigeno ed è un composto presente in natura in forma gassosa. A temperatura ambiente e in condizioni standard, è un gas principalmente incolore, leggermente tendente al blu pallido. Inoltre, questo gas ha un odore caratteristico e pungente, odorabile anche se presente nell'ambiente in concentazioni molto basse, attorno ai 0,04 ppm (o 40 ppb).   
+L'O3 è una forma allotropica dell'ossigeno ed è un composto presente in natura in forma gassosa. A temperatura ambiente e a pressione atmosferica, è un gas principalmente incolore, leggermente tendente al blu pallido. Inoltre, questo gas ha un odore caratteristico e pungente, odorabile anche se presente nell'ambiente in concentazioni molto basse, attorno ai 0,04 ppm (o 40 ppb).   
 
 La parola ozono deriva dal francese antico "ozone", che a sua volta deriva dal greco antico "ozein" (ὄζειν), che significa "emanare odore" o "odorare". Infatti, l'ozono prende questo nome proprio a causa del fatto che ha un forte odore.
 
-## Qual'è la struttura chimica dell'ozono?
+## Qual'è la formula di struttura chimica dell'ozono?
 
+La struttura chimica dell'ozono può essere rappresentata in diverse forme, ma la più comune e semplice è quella a linee singole, con formula O-O-O. In questa formula, le "O" rappresentano le molecole di ossigeno e le linee rappresentano i legami covalenti.
 
+La formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola. Quindi, una formula più accurata per descrivere la struttura chimica dell'ozono è O=O-O, in quanto la struttura molecolare dell'O3 è caratterizzata da un legame covalente doppio tra due atomi di ossigeno (O=O) e un legame covalente singolo con un terzo atomo di ossigeno (O-O). 
+
+Inoltre, in alcune occasioni, la formula della struttura dell'O3 viene anche scritta come O=O=O, dove i simboli "=" rappresentano semplicemente i legami covalenti tra gli atomi, ma è preferibile evitarla perché può generare confusione ed essere forviante.
 
 
 
