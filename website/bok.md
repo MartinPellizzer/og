@@ -46,16 +46,18 @@ ozono-storia
 
 
 ozono-struttura
-    - può essere rappresentata in diverse forme, quella più comune e semplice è quella a linea singola, dove i legami covalenti sono rappresentati da linee tra gli atomi
+    - la formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola
 
-    - l'ozono è costituito da un atomo di ossigeno singolo legato a un gruppo di ossigeno diossigenile (-O-O-)
+    * O-O-O, "O" ossigeno, "-" legame covalente
+
+    - può essere rappresentata in diverse forme
+    - quella più comune e semplice è quella a linea singola, dove i legami covalenti sono rappresentati da linee tra gli atomi
+
 
     - NOTA: il doppio legame tra gli atomi di ossigeno dell'ozono è diverso dal singolo legame presente nell'ossigeno molecolare (O2)
     
     - i tre atomi di ossigeno sono disposti in modo lineare?
-    - il legame centrale è costituito da un doppio legame (O=O) tra gli atomi terminali
-    - mentre l'atomo centrale è legato agli atomi terminali tramite legami singoli
-    - questo conferisce all'ozono una struttura a triplo legame, il che la rende una molecola molto reattiva
+
     - la molecola di ozono è instabile e tende a decadere, rilasciando ossigeno singoletto e formando ossigeno molecolare (O2)
 
 
@@ -67,7 +69,7 @@ ozono-struttura
     - questo legame doppio è rappresentato graficamente con due linee tra gli atomi di ossigeno
     
     - due di questi atomi di ossigeno sono legati tra loro da un legame doppio, mentre il terzo atomo di ossigeno forma un legame singolo con uno dei due atomi con cui è legato.
-    - in termini di rappresentazione, possiamo considerare la struttura dell'ozono come una sorta di "V" rovesciata, dove gli atomi di ossigeno sono disposti in modo asimmetrico intorno a un atomo centrale di ossigeno
+    
 
     - la molecola presenta un atomo di ossigeno centrale legato tramite legame semplice a un ossigeno e tramite legame doppio all’altro. La struttura è quindi stabilizzata per risonanza:
 
@@ -75,13 +77,12 @@ ozono-struttura
     strutture di risonanza
     e si presenta a separazione di carica. L’ossigeno centrale è caricato positivamente e quello legato tramite legame semplice è caricato negativamente. Pertanto la molecola non ha una carica netta.
 
-    - questa molecola è costituita da un atomo di ossigeno singolo legato a un gruppo di ossigeno diossigenile (-O-O-), o più semplicemente da O2+.
+    - l'ozono è costituito da un atomo di ossigeno singolo legato a un gruppo di ossigeno diossigenile (-O-O-), o più semplicemente da O2+.
 
 
     
 ozono-struttura-formula
-    - una formula di struttura è O=O=O, dove "O" rappresenta un atomo di ossigeno, mentre i simboli "=" rappresentano i legami covalenti tra gli atomi.
-    - la formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola
+    
 
     - la sua formula di struttura è O=O-O, dove i tre atomi di ossigeno sono collegati da doppi legami, formando un'unità ciclica
 
@@ -210,32 +211,27 @@ ozono-lewis
 
 
 ozono-geometria
+    * l'ozono ha una geometria a forma di "V" rovesciata, dove 2 atomi di ossigeno sono disposti in modo asimmetrico? rispetto ad 1 atomo di ossigeno centrale.
+    
+
+    - ha una geometria planare
+    - geometria molecolare piegata
+    - atomi di ossigeno sono disposti in modo angolare
+
+    - molecola piegata con simmetria C2v (simile alla molecola dell'acqua)
 
     - diamagnetica
     (secondo prove sperimentali ottenute tramite spettroscopia a microonde)
-    - molecola piegata con simmetria C2v (simile alla molecola dell'acqua)
     - l'atomo centrale è ibridato sp² con un doppietto di elettroni
     - l'ozono è una molecola polare con un momento di dipolo di 0.53 D
     - la molecola può essere rappresentata come un ibrido di risonanza con due strutture contribuenti, ognuna con un legame singolo da un lato e un doppio legame dall'altro
     - l'arrangiamento possiede un ordine di legame complessivo di 1.5 su entrambi i lati
 
-    - l'ozono ha una struttura a forma di "V" rovesciata
-    - dove gli atomi di ossigeno sono disposti in modo angolare
 
-    - la distanza tra gli atomi di ossigeno (O-O) è approssimativamente uguale, ovvero di 127.2 picometri (pm), o 1.272 angstrom (Å)
-    - e l'angolo di legame tra i tre atomi di ossigeno (O-O-O) è di 116.78 gradi (°)
+    - la distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å), mentre l'angolo del legame tra i 3 atomi di ossigeno (O-O-O) è di 116.78 gradi (°).
 
-    - geometria molecolare piegata con un angolo di legame O-O-O di circa 116,5 gradi
-    - questa geometria è il risultato delle repulsioni tra le coppie di elettroni non condivise sugli atomi di ossigeno e determina le proprietà tridimensionali della molecola
-    ha una geometria planare
-    - questo arricchimento di elettroni rende l'ozono una molecola altamente reattiva, poiché gli elettroni solitari possono partecipare a varie reazioni chimiche.
+    - questa geometria è il risultato delle repulsioni tra le coppie di elettroni non condivise sugli atomi di ossigeno. Questo arricchimento di elettroni rende l'ozono una molecola altamente reattiva, poiché gli elettroni solitari possono partecipare a varie reazioni chimiche.
 
-    - la sua geometria molecolare è un aspetto cruciale che determina molte delle sue proprietà chimiche e fisiche, inclusa la sua reattività e la capacità di agire come uno dei principali agenti di reazione nella rimozione degli inquinanti atmosferici
-    
-    - la molecola di ozono è composta da tre atomi di ossigeno collegati tra loro tramite legami covalenti
-    - due di questi atomi di ossigeno sono legati tra loro da un legame doppio, mentre il terzo atomo di ossigeno forma un legame singolo con uno dei due atomi con cui è legato. In termini di rappresentazione, possiamo considerare la struttura dell'ozono come una sorta di "V" rovesciata, dove gli atomi di ossigeno sono disposti in modo asimmetrico intorno a un atomo centrale di ossigeno.
-
-    - la sua geometria molecolare è un aspetto cruciale che determina molte delle sue proprietà chimiche e fisiche, inclusa la sua reattività e la capacità di agire come uno dei principali agenti di reazione nella rimozione degli inquinanti atmosferici.
 
     - per comprendere meglio la geometria dell'ozono, dobbiamo analizzare i concetti di ibridazione orbitale e geometria molecolare
     - gli atomi di ossigeno nell'ozono sono ibridati in modo da ottenere una geometria tetraedrica distorta
@@ -250,14 +246,16 @@ ozono-geometria
         O = O
     - dove "O" rappresenta un atomo di ossigeno e "=" indica il doppio legame tra gli atomi di ossigeno
 
+    - la sua geometria molecolare è un aspetto cruciale che determina molte delle sue proprietà chimiche e fisiche, inclusa la sua reattività e la capacità di agire come uno dei principali agenti di reazione nella rimozione degli inquinanti atmosferici
+    - inoltre, la geometria dell'ozono è essenziale per comprendere i meccanismi delle sue reazioni chimiche. il legame doppio, essendo più reattivo rispetto al legame singolo, gioca un ruolo fondamentale nelle reazioni di ossidazione e riduzione che coinvolgono l'ozono nell'atmosfera
+
+
     - la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche
     - ad esempio, la deformazione tetraedrica influisce sulla polarità della molecola
     - a causa della distribuzione asimmetrica degli atomi di ossigeno, l'ozono ha una dipole moment maggiore rispetto all'ossigeno molecolare (O2)
     - questa polarità rende l'ozono un'eccellente molecola in grado di assorbire i raggi UV nocivi, proteggendo così la Terra dagli effetti dannosi delle radiazioni solari
 
     
-    - inoltre, la geometria dell'ozono è essenziale per comprendere i meccanismi delle sue reazioni chimiche
-    - il legame doppio, essendo più reattivo rispetto al legame singolo, gioca un ruolo fondamentale nelle reazioni di ossidazione e riduzione che coinvolgono l'ozono nell'atmosfera
 
     - in sintesi, la geometria molecolare dell'ozono è cruciale per la sua importanza nell'atmosfera terrestre
     - la sua struttura a "V" rovesciata, causata dalla repulsione elettronica tra i legami multipli, determina la sua polarità e reattività chimica

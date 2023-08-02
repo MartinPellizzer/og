@@ -8,7 +8,7 @@ L'O3 è una forma allotropica dell'ossigeno ed è un composto presente in natura
 
 La parola ozono deriva dal francese antico "ozone", che a sua volta deriva dal greco antico "ozein" (ὄζειν), che significa "emanare odore" o "odorare". Infatti, l'ozono prende questo nome proprio a causa del fatto che ha un forte odore.
 
-## Qual'è la formula di struttura chimica dell'ozono?
+## Qual'è la struttura chimica dell'ozono?
 
 La struttura chimica dell'ozono può essere rappresentata in diverse forme, ma la più comune e semplice è quella a linee singole, con formula O-O-O. In questa formula, le "O" rappresentano le molecole di ossigeno e le linee rappresentano i legami covalenti.
 
@@ -16,6 +16,12 @@ La formula di struttura è un'espressione chimica che rappresenta la configurazi
 
 Inoltre, in alcune occasioni, la formula della struttura dell'O3 viene anche scritta come O=O=O, dove i simboli "=" rappresentano semplicemente i legami covalenti tra gli atomi, ma è preferibile evitarla perché può generare confusione ed essere forviante.
 
+
+## Geometria dell'ozono
+
+L'ozono ha una geometria a forma di "V" rovesciata, dove 2 atomi di ossigeno sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angolare (geometria piegata), con una simmetria di tipo C2v. 
+
+La distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å), mentre l'angolo di legame tra i 3 atomi di ossigeno (O-O-O) è di 116,78 gradi (°).
 
 
 ## Cos'è l'ozono
