@@ -150,7 +150,15 @@ ozono-vsepr
 ozono-lewis
     [lewis,  formula, struttura, modello]
 
+    - la struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O"
+    - il simbolo "-" rappresenta un legame singolo (2 coppie di elettroni)
+    - il simbolo "=" rappresenta un legame doppio (4 coppie di elettroni)
+    - il simbolo "O" rappresenta gli atomi di ossigeno
+    - i quali possiedono ripettivamente 6, 2 e 4 doppietti elettronici solitari
+
     - la struttura chimica dell'ozono è meglio visualizzata con il modello di Lewis, dove gli atomi di ossigeno sono rappresentati come O e gli elettroni di valenza sono mostrati come punti (●). 
+    
+    - la struttura di Lewis dell'ozono (O3) ci aiuta a visualizzare la disposizione degli elettroni di legame e degli elettroni non di legame (elettroni solitari) intorno agli atomi di ossigeno
     
     La rappresentazione di Lewis per l'ozono è la seguente:
     - O
@@ -158,10 +166,8 @@ ozono-lewis
     O   O
 
     - nella rappresentazione sopra, ciascun punto rappresenta un elettrone di valenza
-    - gli atomi di ossigeno sono legati tra loro attraverso il legame covalente doppio, mentre l'atomo di ossigeno centrale è legato agli altri due atomi di ossigeno tramite legami covalenti singoli. 
     - in totale, ci sono sei elettroni di valenza condivisi (due dal legame doppio e due da ciascun legame singolo) e un paio di elettroni solitari sull'atomo di ossigeno centrale
 
-    - la struttura di Lewis dell'ozono (O3) ci aiuta a visualizzare la disposizione degli elettroni di legame e degli elettroni non di legame (elettroni solitari) intorno agli atomi di ossigeno
     - per determinare la struttura di Lewis, consideriamo che ogni legame singolo corrisponde a due elettroni condivisi e ogni legame doppio corrisponde a quattro elettroni condivisi
 
     La struttura di Lewis dell'ozono è la seguente:
@@ -211,14 +217,25 @@ ozono-lewis
 
 
 ozono-geometria
-    * l'ozono ha una geometria a forma di "V" rovesciata, dove 2 atomi di ossigeno sono disposti in modo asimmetrico? rispetto ad 1 atomo di ossigeno centrale.
+    * a forma di "V" rovesciata
+    - dove 2 atomi di ossigeno sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale.
+    - questa geometria è causata dalla repulsione tra le coppie di elettroni non condivise sugli atomi di ossigeno e determina sia la sua reattività chimica che la sua polarità.
+    - questo arricchimento di elettroni rende l'ozono una molecola altamente reattiva, poiché gli elettroni solitari possono partecipare a varie reazioni chimiche.
+
+    - planare
+    - piegata
+    - angolare
+    - con simmetria C2v (simile alla molecola dell'acqua)
+
+    - la distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å)
+    - l'angolo del legame tra i 3 atomi di ossigeno (O-O-O) è di 116.78 gradi (°).
     
 
-    - ha una geometria planare
-    - geometria molecolare piegata
-    - atomi di ossigeno sono disposti in modo angolare
+    - infatti, è proprio l'arricchimento di elettroni su alcuni atomi di ossigeno che rende questa molecola altamente reattiva, visto che gli elettroni solitari possono parteciapre a moltreplici reazioni chimiche.
 
-    - molecola piegata con simmetria C2v (simile alla molecola dell'acqua)
+    - identificare la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche
+    - questa peculiare geometria conferisce all'ozono la capacità di svolgere un ruolo vitale nella protezione del nostro pianeta dagli effetti dannosi dei raggi UV solari e nei processi di purificazione dell'atmosfera attraverso le reazioni di ossidazione
+
 
     - diamagnetica
     (secondo prove sperimentali ottenute tramite spettroscopia a microonde)
@@ -227,10 +244,6 @@ ozono-geometria
     - la molecola può essere rappresentata come un ibrido di risonanza con due strutture contribuenti, ognuna con un legame singolo da un lato e un doppio legame dall'altro
     - l'arrangiamento possiede un ordine di legame complessivo di 1.5 su entrambi i lati
 
-
-    - la distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å), mentre l'angolo del legame tra i 3 atomi di ossigeno (O-O-O) è di 116.78 gradi (°).
-
-    - questa geometria è il risultato delle repulsioni tra le coppie di elettroni non condivise sugli atomi di ossigeno. Questo arricchimento di elettroni rende l'ozono una molecola altamente reattiva, poiché gli elettroni solitari possono partecipare a varie reazioni chimiche.
 
 
     - per comprendere meglio la geometria dell'ozono, dobbiamo analizzare i concetti di ibridazione orbitale e geometria molecolare
@@ -246,20 +259,14 @@ ozono-geometria
         O = O
     - dove "O" rappresenta un atomo di ossigeno e "=" indica il doppio legame tra gli atomi di ossigeno
 
-    - la sua geometria molecolare è un aspetto cruciale che determina molte delle sue proprietà chimiche e fisiche, inclusa la sua reattività e la capacità di agire come uno dei principali agenti di reazione nella rimozione degli inquinanti atmosferici
-    - inoltre, la geometria dell'ozono è essenziale per comprendere i meccanismi delle sue reazioni chimiche. il legame doppio, essendo più reattivo rispetto al legame singolo, gioca un ruolo fondamentale nelle reazioni di ossidazione e riduzione che coinvolgono l'ozono nell'atmosfera
-
-
-    - la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche
-    - ad esempio, la deformazione tetraedrica influisce sulla polarità della molecola
+    - la deformazione tetraedrica influisce sulla polarità della molecola
     - a causa della distribuzione asimmetrica degli atomi di ossigeno, l'ozono ha una dipole moment maggiore rispetto all'ossigeno molecolare (O2)
-    - questa polarità rende l'ozono un'eccellente molecola in grado di assorbire i raggi UV nocivi, proteggendo così la Terra dagli effetti dannosi delle radiazioni solari
 
     
 
-    - in sintesi, la geometria molecolare dell'ozono è cruciale per la sua importanza nell'atmosfera terrestre
-    - la sua struttura a "V" rovesciata, causata dalla repulsione elettronica tra i legami multipli, determina la sua polarità e reattività chimica
-    - questa peculiare geometria conferisce all'ozono la capacità di svolgere un ruolo vitale nella protezione del nostro pianeta dagli effetti dannosi dei raggi UV solari e nei processi di purificazione dell'atmosfera attraverso le reazioni di ossidazione
+    
+    
+    
 
 
 

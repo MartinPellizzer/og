@@ -10,18 +10,33 @@ La parola ozono deriva dal francese antico "ozone", che a sua volta deriva dal g
 
 ## Qual'è la struttura chimica dell'ozono?
 
-La struttura chimica dell'ozono può essere rappresentata in diverse forme, ma la più comune e semplice è quella a linee singole, con formula O-O-O. In questa formula, le "O" rappresentano le molecole di ossigeno e le linee rappresentano i legami covalenti.
+La struttura chimica dell'ozono può essere rappresentata in diverse forme, ma la più comune e semplice è quella a linee singole, con formula "O-O-O". In questa formula, le "O" rappresentano gli atomi di ossigeno e le linee rappresentano i legami covalenti.
 
-La formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola. Quindi, una formula più accurata per descrivere la struttura chimica dell'ozono è O=O-O, in quanto la struttura molecolare dell'O3 è caratterizzata da un legame covalente doppio tra due atomi di ossigeno (O=O) e un legame covalente singolo con un terzo atomo di ossigeno (O-O). 
+La formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola. Quindi, una formula più accurata per descrivere la struttura chimica dell'ozono è "O-O=O", in quanto la struttura molecolare dell'O3 è caratterizzata da un legame covalente doppio tra due atomi di ossigeno (O=O) e un legame covalente singolo con un terzo atomo di ossigeno (O-O). 
 
-Inoltre, in alcune occasioni, la formula della struttura dell'O3 viene anche scritta come O=O=O, dove i simboli "=" rappresentano semplicemente i legami covalenti tra gli atomi, ma è preferibile evitarla perché può generare confusione ed essere forviante.
+Inoltre, in alcune occasioni, la formula della struttura dell'O3 viene anche scritta come "O=O=O", dove i simboli "=" rappresentano semplicemente i legami covalenti tra gli atomi, ma è preferibile evitarla perché può generare confusione ed essere forviante.
 
+Per comprendere meglio la struttura chimica dell'ozono, analizziamola secondo il modello di Lewis.
+
+### Qual'è la struttura di Lewis dell'ozono?
+
+La struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O", dove il simbolo "-" rappresenta un legame singolo (2 coppie di elettroni), il simbolo "=" rappresenta un legame doppio (4 coppie di elettroni), e il simbolo "O" rappresenta gli atomi di ossigeno, ognuno dei quali possiedono ripettivamente 6, 2 e 4 doppietti elettronici solitari. 
+
+La struttura (modello) di Lewis dell'ozono ci aiuta a visualizzare la disposizione degli elettroni di legame e degli elettroni non di legame (elettroni solitari) intorno agli atomi di ossigeno, e si può ricavare in modo semplice usando la procedura descritta quì sotto.
+
+1. 
 
 ## Geometria dell'ozono
 
-L'ozono ha una geometria a forma di "V" rovesciata, dove 2 atomi di ossigeno sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angolare (geometria piegata), con una simmetria di tipo C2v. 
+L'ozono ha una geometria a forma di "V" rovesciata, dove 2 atomi di ossigeno laterali sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. Questa geometria, causata dalla repulsione tra le coppie di elettroni non condivise sugli atomi di ossigeno, determina la sua reattività chimica e polarità.
 
-La distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å), mentre l'angolo di legame tra i 3 atomi di ossigeno (O-O-O) è di 116,78 gradi (°).
+IMG
+
+In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angolare (geometria piegata), con simmetria C2v. La distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å), mentre l'angolo di legame tra i 3 atomi di ossigeno (O-O-O) è di 116,78 gradi (°).
+
+Identificare la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche. Per esempio, è prorio questa struttura che conferisce all'O3 la capacità di proteggere il nostro pianeta dagli effetti dannosi dei raggi UV del Sole e di purificare l'atmosfera grazie alla suo forte potere ossidante.
+
+
 
 
 ## Cos'è l'ozono
