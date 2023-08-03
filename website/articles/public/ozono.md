@@ -20,11 +20,23 @@ Per comprendere meglio la struttura chimica dell'ozono, analizziamola secondo il
 
 ### Qual'è la struttura di Lewis dell'ozono?
 
-La struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O", dove il simbolo "-" rappresenta un legame singolo (2 coppie di elettroni), il simbolo "=" rappresenta un legame doppio (4 coppie di elettroni), e il simbolo "O" rappresenta gli atomi di ossigeno, ognuno dei quali possiedono ripettivamente 6, 2 e 4 doppietti elettronici solitari. 
+La struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O", dove il simbolo "-" rappresenta un legame singolo (1 coppia di elettroni), il simbolo "=" rappresenta un legame doppio (2 coppie di elettroni), e il simbolo "O" rappresenta gli atomi di ossigeno, ognuno dei quali possiede ripettivamente 6, 2 e 4 doppietti elettronici solitari. 
 
 La struttura (modello) di Lewis dell'ozono ci aiuta a visualizzare la disposizione degli elettroni di legame e degli elettroni non di legame (elettroni solitari) intorno agli atomi di ossigeno, e si può ricavare in modo semplice usando la procedura descritta quì sotto.
 
-1. 
+1. Un atomo di ossigeno ha 6 elettroni di valenza (2s2, 2p4). Visto che la molecola di ozono ha 3 atomi di ossigeno, avrà in totale 6 * 3 = 18 elettroni.
+2. Questi 18 eletroni devono essere distribuiti tra i vari atomi di ossigeno (O). Per farlo partiamo dalla struttura chimica descritta prima, ovvero O-O-O. 
+3. In questa struttura, abbiamo 2 legami covalenti tra gli atomi di ossigeno (-), ognuno dei quali assegna una coppia di elettroni ad ogni atomo (O) collegato. Quindi, il primo atomo di ossigeno ha 2 elettroni, il secondo ha 4 elettroni e il terzo ha 2 elettroni, per un totale di 8 elettroni.
+4. Utilizzando la regola dell'otteto, andiamo a distribuire i restanti elettroni, ovvero la differenza di quelli calcolati nel punto 1 (18) e quelli calcolati nel punto 3 (8), che ammonta a 10. Assegnamo quindi 6 elettroni (3 doppietti) su entrambi i 2 atomi di ossigeno laterali per completare il loro otteto (8).
+5. A questo punto, abbiamo sistemato 16 elettroni, ovvero i 12 elettroni singoli più i 4 elettroni dei 2 legami covalenti singoli (12 + 4 = 16). Quindi posizioniamo gli ultimi 2 elettroni (18 - 16) sull'atomo centrale.
+6. Detto questo, osserviamo che l'atomo centrale non rispetta la regola dell'otteto, in quanto possiede solo 6 elettroni. Di conseguenza, utilizziamo un doppietto elettronico solitario di uno degli atomi di ossigeno per creare un doppio legame con l'atomo centrale. Otteniamo quindi la formula "O-O=O".
+7. Per concludere, vari dati sperimentali suggeriscono che le lunghezze tra l'atomo centrale di ossigeno e quelli laterali sono uguali. Questo contraddice l'ipotesi che che la molecola di ozono possa avere un legame singolo e uno doppio, visto che questi hanno lunghezze diverse. Di conseguenza, si deduce che l'ozono abbia una struttura simmetrica dove "O-O=O" è equivalente a "O=O-O". Queste strutture di Lewis equivalenti sono anche definite "strutture di risonanza".
+
+Qui sotto puoi trovare una rappresentazione grafica della struttura di Lewis dell'ozono che visualizza i vari passaggi della precedente procedura.
+
+
+IMG
+
 
 ## Geometria dell'ozono
 
