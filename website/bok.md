@@ -101,36 +101,12 @@ ozono-struttura-formula
 
 
 ozono-vsepr
-    - la teoria della repulsione delle coppie elettroniche della struttura di valenza (VSEPR) fornisce un modello per prevedere la geometria molecolare basandosi sulla repulsione tra coppie di elettroni presenti nella shell di valenza dell'atomo centrale. Nella presente risposta, esamineremo la struttura molecolare dell'ozono utilizzando i principi della teoria VSEPR.
-    
-    - per analizzare la struttura di valenza dell'ozono, inizieremo disegnando una struttura di Lewis per questa molecola
-    - l'ozono è composto da tre atomi di ossigeno, e ognuno di essi contribuisce con 6 elettroni di valenza
-    - la somma totale degli elettroni di valenza sarà, quindi, 18 (6 elettroni da ogni atomo di ossigeno).
-    - O = O
-       \
-        O
-    - nella struttura di Lewis sopra, possiamo notare che gli atomi di ossigeno sono legati da doppi legami, mentre l'atomo centrale è legato a due atomi di ossigeno tramite legami singoli.
+    - la teoria della repulsione delle coppie elettroniche della struttura di valenza (VSEPR) fornisce un modello per prevedere la geometria molecolare basandosi sulla repulsione tra coppie di elettroni presenti nella shell di valenza dell'atomo centrale.
 
-    - la teoria VSEPR si basa sulla repulsione tra le coppie di elettroni nella shell di valenza di un atomo centrale per determinare la geometria molecolare
-    - poiché l'ozono ha una struttura elettronica di valenza di 18 elettroni, dobbiamo prendere in considerazione la disposizione degli elettroni e le coppie solitarie presenti sull'atomo centrale di ossigeno
-
-    - secondo la teoria VSEPR, la disposizione degli elettroni intorno all'atomo centrale determinerà la geometria molecolare
-    - nella molecola di ozono, troviamo che l'atomo centrale ha una coppia di elettroni leganti e due coppie solitarie
+    - nella molecola di ozono, troviamo che l'atomo centrale ha 2 elettroni solitari
     - poiché le coppie solitarie occupano più spazio rispetto alle coppie leganti, influenzano la geometria molecolare
     
-    - utilizzando la teoria VSEPR, determiniamo che la geometria molecolare dell'ozono è angolare
     - le coppie solitarie di elettroni respingono le coppie leganti, causando una deformazione della struttura in modo da massimizzare le distanze tra le coppie di elettroni e minimizzare le repulsioni
-    - la geometria angolare dell'ozono ha un angolo di legame approssimativamente di 117 gradi
-    - in sintesi, l'ozono (O3) ha una struttura molecolare angolare, con l'atomo centrale di ossigeno che forma un legame doppio con uno degli atomi di ossigeno e un legame singolo con l'altro atomo di ossigeno.
-    - le due coppie solitarie sull'atomo centrale contribuiscono alla geometria angolare della molecola
-    - la teoria VSEPR si rivela utile nello studio della geometria molecolare di molecole complesse come l'ozono, consentendoci di comprendere meglio la sua reattività chimica e il suo ruolo nell'atmosfera
-
-    - la sua struttura molecolare è definita dalla teoria della repulsione delle coppie elettroniche della struttura di valenza (VSEPR), una teoria che ci permette di prevedere la geometria molecolare sulla base della distribuzione delle coppie elettroniche intorno all'atomo centrale
-
-    - Configurazione elettronica dell'ozono (O3): per comprendere la struttura molecolare dell'ozono attraverso la teoria VSEPR, dobbiamo inizialmente considerare la configurazione elettronica dell'atomo di ossigeno (O). L'ossigeno ha un numero atomico di 8, il che significa che possiede 8 elettroni. La configurazione elettronica dell'ossigeno è 1s^2 2s^2 2p^4, che significa che presenta due elettroni nella shell 1s, due elettroni nella shell 2s e quattro elettroni nella shell 2p.
-
-    - Teoria VSEPR e geometria molecolare dell'ozono:
-    - la teoria VSEPR prevede che le coppie elettroniche intorno all'atomo centrale influenzino la geometria della molecola, poiché queste coppie elettroniche si respingono l'un l'altra
 
     - nel caso dell'ozono, abbiamo una struttura di tipo AX2E, dove:
     - A rappresenta l'atomo centrale (l'atomo di ossigeno centrale).

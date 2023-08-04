@@ -20,7 +20,7 @@ Per comprendere meglio la struttura chimica dell'ozono, analizziamola secondo il
 
 ### Qual'è la struttura di Lewis dell'ozono?
 
-La struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O", dove il simbolo "-" rappresenta un legame singolo (1 coppia di elettroni), il simbolo "=" rappresenta un legame doppio (2 coppie di elettroni), e il simbolo "O" rappresenta gli atomi di ossigeno, ognuno dei quali possiede ripettivamente 6, 2 e 4 doppietti elettronici solitari. 
+La struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O" (o "O=O-O"), dove il simbolo "-" rappresenta un legame singolo (1 coppia di elettroni), il simbolo "=" rappresenta un legame doppio (2 coppie di elettroni), e il simbolo "O" rappresenta gli atomi di ossigeno, ognuno dei quali possiede ripettivamente 6, 2 e 4 doppietti elettronici solitari. 
 
 La struttura (modello) di Lewis dell'ozono ci aiuta a visualizzare la disposizione degli elettroni di legame e degli elettroni non di legame (elettroni solitari) intorno agli atomi di ossigeno, e si può ricavare in modo semplice usando la procedura descritta quì sotto.
 
@@ -30,23 +30,31 @@ La struttura (modello) di Lewis dell'ozono ci aiuta a visualizzare la disposizio
 4. Utilizzando la regola dell'otteto, andiamo a distribuire i restanti elettroni, ovvero la differenza di quelli calcolati nel punto 1 (18) e quelli calcolati nel punto 3 (8), che ammonta a 10. Assegnamo quindi 6 elettroni (3 doppietti) su entrambi i 2 atomi di ossigeno laterali per completare il loro otteto (8).
 5. A questo punto, abbiamo sistemato 16 elettroni, ovvero i 12 elettroni singoli più i 4 elettroni dei 2 legami covalenti singoli (12 + 4 = 16). Quindi posizioniamo gli ultimi 2 elettroni (18 - 16) sull'atomo centrale.
 6. Detto questo, osserviamo che l'atomo centrale non rispetta la regola dell'otteto, in quanto possiede solo 6 elettroni. Di conseguenza, utilizziamo un doppietto elettronico solitario di uno degli atomi di ossigeno per creare un doppio legame con l'atomo centrale. Otteniamo quindi la formula "O-O=O".
-7. Per concludere, vari dati sperimentali suggeriscono che le lunghezze tra l'atomo centrale di ossigeno e quelli laterali sono uguali. Questo contraddice l'ipotesi che che la molecola di ozono possa avere un legame singolo e uno doppio, visto che questi hanno lunghezze diverse. Di conseguenza, si deduce che l'ozono abbia una struttura simmetrica dove "O-O=O" è equivalente a "O=O-O". Queste strutture di Lewis equivalenti sono anche definite "strutture di risonanza".
+7. Per concludere, vari dati sperimentali suggeriscono che le lunghezze tra l'atomo centrale di ossigeno e quelli laterali sono uguali. Questo contraddice l'ipotesi che che la molecola di ozono possa avere un legame singolo e uno doppio, visto che questi hanno lunghezze diverse. Di conseguenza, si deduce che l'ozono abbia una struttura simmetrica dove "O-O=O" è equivalente a "O=O-O", ovvero che abbia una struttura ibrida. Queste strutture di Lewis equivalenti sono anche definite "strutture di risonanza".
 
 Qui sotto puoi trovare una rappresentazione grafica della struttura di Lewis dell'ozono che visualizza i vari passaggi della precedente procedura.
 
 IMG
 
-### Qual'è la geometria dell'ozono secondo la teroia VSEPR?
+Una volta stabilita la formula di Lewis dell'O3, vediamo come utilizzarla applicare al modello VSEPR per ottenere la struttura geometrica dell'ozono. 
 
-L'ozono ha una geometria a forma di "V" rovesciata secondo la teoria VSEPR (Valence Shell Electron-Pair Repulsion), dove 2 atomi di ossigeno laterali sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. Questa geometria, causata dalla repulsione tra le coppie di elettroni non condivise sugli atomi di ossigeno, determina la sua reattività chimica e la sua polarità.
+### Come applicare il modello VSEPR all'ozono?
+
+Il modello VSEPR (teoria della repulsione tra coppie di elettroni di valenza) può essere applicato alla molecola di O3 per comprenderne la geometria. Questo modello, o teoria, permette di prevedere la geometria molecolare basandosi sulla repulsione tra le coppie di elettroni presenti nella shell di valenza dell'atomo centrale.
+
+Usando la struttura di Lewis dell'ozono (O-O=O) calcolata nella sezione precedente, sappiamo che l'atomo centrale di ossigeno (O) della molecola di ozono ha 2 elettroni solitari. Poiché le coppie di elettroni solitari occupano più spazio rispetto alle coppie di elettroni leganiti, influenzano la geometria molecolare. Infatti, le coppie solitarie respingono quelle leganti, causando una deformazione della struttura un modo da massimizzare le distanze tra le coppie die elettroni e minimizzare le repulsioni.
+
+Nel caso dell'ozono, abbiamo una struttura VSEPR di tipo AX2E, dove "A" raprresenta l'atomo di ossigeno centrale, "X" rappresenta gli atomi legati all'atomo centrale e "E" rappresenta le coppie di elettroni solitari presenti sul'atomo centrale. In questo tipo di struttura, il doppietto elettronico solitaro dell'atomo centrale respinge i 2 atomi laterali fino a formare un angolo leggermente inferiore ai 120° e conferishe alla molecola di O3 una forma angolata. Detto questo, possiamo finalmente descrivere nel dettaglio la geometria dell'ozono.
+
+### Qual'è la geometria dell'ozono?
+
+L'ozono ha una geometria angolata (a forma di "V" rovesciata) secondo la teoria VSEPR, dove 2 atomi di ossigeno laterali sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. Questa geometria, causata dalla repulsione tra le coppie di elettroni non condivise sugli atomi di ossigeno, determina molte sue caratteristiche interessanti, come la sua reattività chimica e la sua polarità.
 
 IMG
 
 In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angolare (geometria piegata), con simmetria C2v. La distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å), mentre l'angolo di legame tra i 3 atomi di ossigeno (O-O-O) è di 116,78 gradi (°).
 
 Identificare la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche. Per esempio, è prorio questa struttura che conferisce all'O3 la capacità di proteggere il nostro pianeta dagli effetti dannosi dei raggi UV del Sole e di purificare l'atmosfera grazie alla suo forte potere ossidante.
-
-
 
 
 ### Quali sono le proprietà dell'ozono?
