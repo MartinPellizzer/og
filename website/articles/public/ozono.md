@@ -34,13 +34,11 @@ La struttura (modello) di Lewis dell'ozono ci aiuta a visualizzare la disposizio
 
 Qui sotto puoi trovare una rappresentazione grafica della struttura di Lewis dell'ozono che visualizza i vari passaggi della precedente procedura.
 
-
 IMG
 
+### Qual'è la geometria dell'ozono secondo la teroia VSEPR?
 
-## Geometria dell'ozono
-
-L'ozono ha una geometria a forma di "V" rovesciata, dove 2 atomi di ossigeno laterali sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. Questa geometria, causata dalla repulsione tra le coppie di elettroni non condivise sugli atomi di ossigeno, determina la sua reattività chimica e polarità.
+L'ozono ha una geometria a forma di "V" rovesciata secondo la teoria VSEPR (Valence Shell Electron-Pair Repulsion), dove 2 atomi di ossigeno laterali sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. Questa geometria, causata dalla repulsione tra le coppie di elettroni non condivise sugli atomi di ossigeno, determina la sua reattività chimica e la sua polarità.
 
 IMG
 
@@ -49,13 +47,6 @@ In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angola
 Identificare la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche. Per esempio, è prorio questa struttura che conferisce all'O3 la capacità di proteggere il nostro pianeta dagli effetti dannosi dei raggi UV del Sole e di purificare l'atmosfera grazie alla suo forte potere ossidante.
 
 
-
-
-## Cos'è l'ozono
-
-Secondo il modello VSEPR, la geometria molecolare dell'ozono è planare e angolare (a forma triangolare) con un angolo di legame di 116,8 gradi. Ha una struttura di Lewis con una disposizione a "due elettroni singoli" su uno degli atomi di ossigeno e un legame doppio tra gli altri due atomi di ossigeno. La formula di Lewis dell'ozono è O=O-O.
-
-L'ozono è una composto chimico, non un elemento chimico. Quindi non è presente nella tavola periodica e non ha un numero atomico.
 
 
 ### Quali sono le proprietà dell'ozono?

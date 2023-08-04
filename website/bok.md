@@ -151,69 +151,19 @@ ozono-lewis
     [lewis,  formula, struttura, modello]
 
     - la struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O"
-    - il simbolo "-" rappresenta un legame singolo (2 coppie di elettroni)
-    - il simbolo "=" rappresenta un legame doppio (4 coppie di elettroni)
+    - il simbolo "-" rappresenta un legame singolo (2 elettroni condivisi)
+    - il simbolo "=" rappresenta un legame doppio (4 elettroni condivisi)
+    - il simbolo "." rappresenta un elettrone di valenza
     - il simbolo "O" rappresenta gli atomi di ossigeno
     - i quali possiedono ripettivamente 6, 2 e 4 doppietti elettronici solitari
-
-    - la struttura chimica dell'ozono è meglio visualizzata con il modello di Lewis, dove gli atomi di ossigeno sono rappresentati come O e gli elettroni di valenza sono mostrati come punti (●). 
-    
-    - la struttura di Lewis dell'ozono (O3) ci aiuta a visualizzare la disposizione degli elettroni di legame e degli elettroni non di legame (elettroni solitari) intorno agli atomi di ossigeno
     
     La rappresentazione di Lewis per l'ozono è la seguente:
-    - O
-     / \
-    O   O
+    -  ..
+       O
+      / \\
+    :O:  O:
+     ..  ..
 
-    - nella rappresentazione sopra, ciascun punto rappresenta un elettrone di valenza
-    - in totale, ci sono sei elettroni di valenza condivisi (due dal legame doppio e due da ciascun legame singolo) e un paio di elettroni solitari sull'atomo di ossigeno centrale
-
-    - per determinare la struttura di Lewis, consideriamo che ogni legame singolo corrisponde a due elettroni condivisi e ogni legame doppio corrisponde a quattro elettroni condivisi
-
-    La struttura di Lewis dell'ozono è la seguente:
-
-    O=O
-    ||
-    O
-
-    - in questa rappresentazione, vediamo che ci sono due legami covalenti singoli (linee) tra ciascun ossigeno, e ciascun ossigeno ha un doppietto elettronico non condiviso (rappresentato da due punti sopra e sotto l'atomo di ossigeno)
-
-    - per comprendere la struttura di Lewis dell'ozono, dobbiamo analizzare la disposizione degli elettroni attorno agli atomi coinvolti
-
-    - per cominciare, esamineremo gli atomi di ossigeno che costituiscono la molecola di ozono. Ogni atomo di ossigeno ha 6 elettroni esterni (o elettroni di valenza) disposti nei livelli energetici s, p e d
-    - tuttavia, per semplificare il disegno della struttura di Lewis, ci limiteremo a considerare solo gli elettroni di valenza
-    
-    - l'ozono, essendo composto da tre atomi di ossigeno, ha un totale di 3x6 = 18 elettroni di valenza
-    - ora procederemo con la rappresentazione di Lewis, che utilizza punti per rappresentare gli elettroni di valenza di ciascun atomo
-
-    1. nel caso dell'ozono, tutti gli atomi di ossigeno sono identici, quindi non c'è un atomo centrale. Ogni atomo di ossigeno è collegato a un altro mediante legami covalenti doppi (due coppie di elettroni condivise). Questo è noto come una struttura di risonanza, poiché gli atomi possono essere scambiati tra loro senza alterare la struttura complessiva della molecola
-
-    2. disporremo i tre atomi di ossigeno in modo lineare. Ogni atomo di ossigeno condivide una coppia di elettroni con i due atomi adiacenti, formando due legami covalenti doppi (quattro elettroni condivisi)
-    O = O
-    |
-    O
-
-    3. Iniziamo distribuendo gli elettroni di valenza attorno a ciascun atomo di ossigeno. Poiché ciascun ossigeno condivide due coppie di elettroni (legami doppi), ogni atomo avrà quattro elettroni di valenza "locali" intorno a sé.
-    O : O
-    ||
-    O
-    Ora, rimangono ancora 10 elettroni di valenza da distribuire.
-
-    4. Distribuiremo gli elettroni di valenza rimanenti in modo tale da soddisfare la regola dell'ottetto per ciascun atomo di ossigeno, ovvero ottenendo 8 elettroni di valenza intorno a ciascun ossigeno (a eccezione dell'ossigeno centrale, che può superare l'ottetto poiché è coinvolto in un legame triplo).
-    O : O
-    :||
-    O
-    Ogni ossigeno ha ora 8 elettroni di valenza intorno a sé, ad eccezione dell'ossigeno centrale, che ne ha 6. Poiché abbiamo ancora elettroni di valenza rimanenti, creeremo un legame triplo tra l'ossigeno centrale e uno degli ossigeni terminali.
-    O = O
-    | |
-    O
-
-    5. Ora dobbiamo controllare se la struttura di Lewis ha una carica elettrica complessiva. Poiché l'ozono è neutro, il numero totale di elettroni deve essere pari al numero totale di protoni negli atomi (poiché gli elettroni e i protoni si bilanciano).
-    Conteggio degli elettroni:
-    6 (elettroni di valenza di ogni ossigeno) x 3 (atomi di ossigeno) = 18 elettroni di valenza
-    L'ozono ha 18 elettroni di valenza, che corrispondono al numero di protoni nei tre atomi di ossigeno. Pertanto, la struttura di Lewis dell'ozono è neutra.
-
-    - in conclusione, la struttura di Lewis dell'ozono (O3) è una struttura di risonanza con gli atomi di ossigeno disposti in modo lineare, con due legami covalenti doppi (quattro elettroni condivisi) tra ciascun atomo adiacente e un legame triplo tra l'ossigeno centrale e uno degli ossigeni terminali. Questa struttura permette all'ozono di svolgere un ruolo critico nella protezione della Terra dagli effetti dannosi dei raggi ultravioletti del Sole, agendo come uno schermo protettivo nella fascia di ozono atmosferica.
 
 
 ozono-geometria
