@@ -44,6 +44,12 @@ ozono-storia
     - nella seconda metà del 19 secolo, l'ozono è stato considerato un componente salutare per l'ambiente dai naturalisti
 
 
+ozono-struttura
+    gruppo spaziale: C2v
+    coordinazione geometria: Digonale
+    forma molecolare: diedro
+    ibridazione: sp2 per O1
+    momento dipolare: 0,53 D
 
 ozono-struttura
     - la formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola
@@ -70,7 +76,6 @@ ozono-struttura
     
     - due di questi atomi di ossigeno sono legati tra loro da un legame doppio, mentre il terzo atomo di ossigeno forma un legame singolo con uno dei due atomi con cui è legato.
     
-
     - la molecola presenta un atomo di ossigeno centrale legato tramite legame semplice a un ossigeno e tramite legame doppio all’altro. La struttura è quindi stabilizzata per risonanza:
 
     ozono: strutture di risonanza
@@ -82,8 +87,6 @@ ozono-struttura
 
     
 ozono-struttura-formula
-    
-
     - la sua formula di struttura è O=O-O, dove i tre atomi di ossigeno sono collegati da doppi legami, formando un'unità ciclica
 
     - la formula di struttura dell'ozono mostra come gli atomi di ossigeno sono disposti nello spazio e come sono legati tra loro
@@ -197,18 +200,8 @@ ozono-geometria
 
 
 
-ozono-colore
-    * gas incolore tendente al blu pallido
-    gas blue
-    blue pallido quando in condizioni standard
-    blu scuro quando liquido (temperatura criogenica)
-    viola-nero quando solido
 
-ozono-odore
-    pungente, acuto, ricorda il cloro, rilevabile da molte persone a concentrazioni di appena si sente già a 10 ppb in aria
-    distintivo
-    agliaceo
-    odorabile da molte persone a concentrazioni atmosferiche superori a 0,1 ppm.
+
 
 ozono-atmosfera-concentrazione-totale
     0.6 ppm
@@ -219,8 +212,8 @@ ozono-storia
 ozono-esplosivo
     gas instabile e si decompone in modo esplosivo a temperature elevate o riscaldando velocemente fino al punto di ebollizione
 
-ozono-proprieta
-    potente ossidante (piu del diossigeno)
+
+
 
 ozono-applicazioni
     industriale
@@ -240,21 +233,58 @@ ozono-proprietà
     più pesante dell'aria, tende a scendere verso la superficie terrestre
 
     presenta momento dipolare (µ = 0,58 D), e si ammette che risuoni tra più forma di risonanza.
+    
+    ossidante: elevatissimo potenziale ossidativo, redox di +2.07 V (piu del diossigeno)
+
+    - A pressione e temperatura standard, la solubilità dell'ozono è tredici volte quella dell'ossigeno.
+    - Le miscele concentrate di ozono e ossigeno che contengono più del 20% di ozono possono diventare esplosive sia liquide che gassose.
+    - In generatori di ozono commerciali queste concentrazioni non si verificano, perché esse non possono essere generate facilmente.
 
     formula chimica: O3
     massa molare: 48.00 g·mol−1
     aspetto: da incolore a blu pallido
     odore: pungente
     densità: 2.144 mg cm−3 (at 0 °C)
+    liquefa: -111,9 °C
     punto fusione: −192.2 °C; −313.9 °F; 81.0 K
     punto ebollizione: −112 °C; −170 °F; 161 K
     solubilità in acqua: 1.05 g L−1 (at 0 °C)
     solubilità: molto solubile in CCl4, acido solforico
-    pressioe del vapore: >1 atm (20 °C)
+    pressione del vapore: >1 atm (20 °C)
     suscettibilità magnetica (χ): +6.7·10−6 cm3/mol
     indice di rifrazione (nD): 1.2226 (liquido), 1.00052 (gas, STP, 546 nm —
     notare alta dispersione)
     energia di legame: circa 300 kJ/mol
+
+    Temperatura critica -12,1 °C (-5,16 °C)
+    Pressione critica 5460 kPa
+    Densita' relativa (in aria) 1,7 kg/m3
+    Energia 142,3 KJ/mol (34,15 kcal/mol) o (300 kJ/mol)
+    Potenziale elettrochimico 2,07 volt
+    Apparenza Bluastro in forma gassosa, blu scuro fluido
+
+
+ozono-colore
+    * gas incolore tendente al blu pallido
+    gas blue
+    blue pallido quando in condizioni standard
+    blu scuro quando liquido (temperatura criogenica)
+    viola-nero quando solido
+
+ozono-odore
+    pungente, acuto, ricorda il cloro, rilevabile da molte persone a concentrazioni di appena si sente già a 10 ppb in aria
+    distintivo
+    agliaceo
+    odorabile da molte persone a concentrazioni atmosferiche superori a 0,1 ppm.
+
+ozono-proprietà-chimiche
+    - l'ozono e una specie chimica instabile che si decompone a circa 250 °C
+    - è assai più reattivo ed ossidante dell'ossigeno
+    - E° = 2,07 V
+    - di norma, ossidando, da luogo alla formazione di ossigeno molecolare (per i 2/3), come se ogni molecola O3 fosse portatrice di un atomo di ossigeno atomico (O) e di una molecola O2
+    - solo in pochi casi ossida senza formare O2
+    - l'ozono reagisce con i metalli alcalini disciolti in NH3 liquida, con i superossidi, formando ozonidi
+    - gli ozonidi sono solidi ionici e contengono lo ione O3-
 
 ozono-proprità-fisiche
     incolore, tendente leggermente al blu pallido, blue quando liquefatto
@@ -266,12 +296,6 @@ ozono-proprità-fisiche
     L'esposizione da 0,1 a 1 μmol/mol produce mal di testa, bruciore agli occhi e irritazione le vie respiratorie. Anche basse concentrazioni di ozono nell'aria sono molto distruttive per i materiali organici come lattice, plastica e tessuto polmonare animale.
     L'ozono è diamagnetico, il che significa che i suoi elettroni sono tutti accoppiati. Al contrario, O2 è paramagnetico, contenente due elettroni spaiati.
 
-ozono-struttura
-    gruppo spaziale: C2v
-    coordinazione geometria: Digonale
-    forma molecolare: diedro
-    ibridazione: sp2 per O1
-    momento dipolare: 0,53 D
 
 ozono-pericoli
     classificazione EU: O, T+, C, Xi
@@ -293,9 +317,12 @@ ozono-dove-si-trova
     stratosfera (maggior parte)
 
 ozono-formazione
-    l'ozono si crea naturalmente nell'atmosfera
+    - l'ozono si crea naturalmente nell'atmosfera
     - i raggi del sole e i fulmini dividono le molecole di ozono in singoli atomi
     - poi questi atomi si ricombinano con altre molecole di ossigeno (O2) vicine e formano una nuova molecola composta da tre atomi di ossigeno (O3), chiamata ozono 
+
+    - si puo preparare l'ozono dall'ossigeno fornendo a questo l'energia necessaria per la reazione: 3O2 + 271 KJ -> 2O3
+    - o sotto forma di scariche elettriche oscure, in opportuni apparecchi (ozonizzatori) o mediante radiazioni ultraviolette di lunghezza d'onda inferiori a 200 nm.
 
 ozono-funzione
     assorbe e blocca parte dello spettro UV

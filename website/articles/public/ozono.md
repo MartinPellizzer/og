@@ -18,6 +18,10 @@ Inoltre, in alcune occasioni, la formula della struttura dell'O3 viene anche scr
 
 Per comprendere meglio la struttura chimica dell'ozono, analizziamola secondo il modello di Lewis.
 
+**TODO**
+
+[Useremo O-O-O, per maggiori dettagli su lewis, vsepr e geometria, vedere sotto]
+
 ### Qual'è la struttura di Lewis dell'ozono?
 
 La struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O" (o "O=O-O"), dove il simbolo "-" rappresenta un legame singolo (1 coppia di elettroni), il simbolo "=" rappresenta un legame doppio (2 coppie di elettroni), e il simbolo "O" rappresenta gli atomi di ossigeno, ognuno dei quali possiede ripettivamente 6, 2 e 4 doppietti elettronici solitari. 
@@ -44,6 +48,8 @@ Il modello VSEPR (teoria della repulsione tra coppie di elettroni di valenza) pu
 
 Usando la struttura di Lewis dell'ozono (O-O=O) calcolata nella sezione precedente, sappiamo che l'atomo centrale di ossigeno (O) della molecola di ozono ha 2 elettroni solitari. Poiché le coppie di elettroni solitari occupano più spazio rispetto alle coppie di elettroni leganiti, influenzano la geometria molecolare. Infatti, le coppie solitarie respingono quelle leganti, causando una deformazione della struttura un modo da massimizzare le distanze tra le coppie die elettroni e minimizzare le repulsioni.
 
+IMG
+
 Nel caso dell'ozono, abbiamo una struttura VSEPR di tipo AX2E, dove "A" raprresenta l'atomo di ossigeno centrale, "X" rappresenta gli atomi legati all'atomo centrale e "E" rappresenta le coppie di elettroni solitari presenti sul'atomo centrale. In questo tipo di struttura, il doppietto elettronico solitaro dell'atomo centrale respinge i 2 atomi laterali fino a formare un angolo leggermente inferiore ai 120° e conferishe alla molecola di O3 una forma angolata. Detto questo, possiamo finalmente descrivere nel dettaglio la geometria dell'ozono.
 
 ### Qual'è la geometria dell'ozono?
@@ -52,12 +58,12 @@ L'ozono ha una geometria angolata (a forma di "V" rovesciata) secondo la teoria 
 
 IMG
 
-In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angolare (geometria piegata), con simmetria C2v. La distanza tra ogni coppia di atomi di ossigeno (O-O) è di 127,2 picometri (pm), o 1,272 andstrom (Å), mentre l'angolo di legame tra i 3 atomi di ossigeno (O-O-O) è di 116,78 gradi (°).
+In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angolare (geometria piegata), con simmetria C2v. La distanza tra gli atomi di ossigeno è di 127,2 picometri (pm), o 1,272 andstrom (Å), chè è la media della la distanza tra la coppia atomi di ossigeno a legame singolo (O-O) di 0,149 nanometri (nm) e la distanza tra la coppia di atomi di ossigeno a legame doppio (O=O) di 0,121 nanometri. Invece, l'angolo di legame tra i 3 atomi di ossigeno (O-O-O) è di 116,78 gradi (°).
 
 Identificare la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche. Per esempio, è prorio questa struttura che conferisce all'O3 la capacità di proteggere il nostro pianeta dagli effetti dannosi dei raggi UV del Sole e di purificare l'atmosfera grazie alla suo forte potere ossidante.
 
 
-### Quali sono le proprietà dell'ozono?
+### Quali sono le proprietà fisiche e chimiche dell'ozono?
 
 L'ozono ha diverse proprità fisiche e chimiche.
 
