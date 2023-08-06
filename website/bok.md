@@ -191,6 +191,10 @@ ozono-geometria
     - la deformazione tetraedrica influisce sulla polarità della molecola
     - a causa della distribuzione asimmetrica degli atomi di ossigeno, l'ozono ha una dipole moment maggiore rispetto all'ossigeno molecolare (O2)
 
+
+    
+    presenta momento dipolare (µ = 0,58 D), e si ammette che risuoni tra più forma di risonanza.
+
     
 
     
@@ -229,16 +233,13 @@ ozono-strato
     previene che i dannosi raggi ultravioletti del Sole raggiungano la superficie terrestre
     benefici per piante e animali
 
+
+
 ozono-proprietà
     più pesante dell'aria, tende a scendere verso la superficie terrestre
 
-    presenta momento dipolare (µ = 0,58 D), e si ammette che risuoni tra più forma di risonanza.
-    
-    ossidante: elevatissimo potenziale ossidativo, redox di +2.07 V (piu del diossigeno)
 
     - A pressione e temperatura standard, la solubilità dell'ozono è tredici volte quella dell'ossigeno.
-    - Le miscele concentrate di ozono e ossigeno che contengono più del 20% di ozono possono diventare esplosive sia liquide che gassose.
-    - In generatori di ozono commerciali queste concentrazioni non si verificano, perché esse non possono essere generate facilmente.
 
     formula chimica: O3
     massa molare: 48.00 g·mol−1
@@ -264,6 +265,63 @@ ozono-proprietà
     Apparenza Bluastro in forma gassosa, blu scuro fluido
 
 
+
+ozono-proprietà-chimiche
+    - ossidazione: forte agente ossidante (più reattivo dell'ossigeno) e reagisce facilmente con altre sostanze trasferendogli atomi di ossigeno per ossidarle (O3 → O2 + O), con redox E° = 2,07 V (volt)
+
+    - instabilità: composto instabile che si decompone a 573 K (O3 + 573 K → 3O2) o 250 °C? ... emivita in aria di 2-3 giorni in aria e 45-60 minuti in acqua?? suscettibile alla decomposizione spontanea, specialmente a temperature elevate e in presenza di umidità.
+    L'ozono si decompone spontaneamente a temperatura ambiente, in particolare in presenza di sostanze riducenti o catalizzatori come metalli.
+
+    - solubilità: moderatamente solubile in acqua che dipende dalla temperatura e dalla pressione (più fredda è l'acqua, maggiore sarà la sua solubilità).
+
+    - assorbimento UV: L'ozono assorbe la radiazione ultravioletta (UV) nella regione dello spettro compresa tra 230 e 320 nanometri. Questo assorbimento aiuta a proteggere la superficie terrestre dai danni causati dai raggi UV nocivi del Sole.
+    
+    - formazione di smog: In presenza di inquinanti atmosferici, come gli ossidi di azoto (NOx) e i composti organici volatili (COV), l'ozono può contribuire alla formazione di smog fotochimico. In questa situazione, l'ozono è un componente indesiderato dell'inquinamento atmosferico a livello del suolo.
+
+
+
+ozono-proprietà-chimiche-redox
+    capacità ossidante superiore a cloro e perossido di idrogeno
+
+    | Sostanza                      | Potenziale Redox |
+    | ---                           | --- |
+    | Fluoro                        | 2,87 |
+    | Idrossiradicale (OH)          | 2,86 |
+    | Ione persolfato (S2O82-)      | 2,80 |
+    | Ossigeno atomico (O)          | 2,42 |
+    | Ozono (O3)                    | 2,07 |
+    | Perossido di idrogeno (H2O2)  | 1,78 |
+    | Cloro (Cl)                    | 1,36 |
+    | Diossido di cloro (ClO2)      | 1,27 |
+    | Molecola di ossigeno (O2)     | 1,23 |
+
+
+
+ozono-proprietà-chimiche-emivita
+
+    Aria
+
+    | Temp (°C) | Dimezzamento |
+    | --- | --- |
+    | -50 | 3 mesi |
+    | -35 | 18 giorni |
+    | -25 | 8 giorni |
+    | 20 | 3 giorni |
+    | 120 | 1,5 ore |
+    | 250 | 1,5 secondi |
+
+    Acqua (pH 7) 
+
+    | Temp (°C) | Dimezzameto |
+    | --- | --- |
+    | 15 | 30 minuti |
+    | 20 | 20 minuti |
+    | 25 | 15 minuti |
+    | 30 | 12 minuti |
+    | 35 | 8 minuti |
+
+
+
 ozono-colore
     * gas incolore tendente al blu pallido
     gas blue
@@ -276,15 +334,10 @@ ozono-odore
     distintivo
     agliaceo
     odorabile da molte persone a concentrazioni atmosferiche superori a 0,1 ppm.
+    - La soglia di percettibilità olfattiva per l’uomo è a concentrazioni tra 0.02 e 0.05 ppm, pari a circa 1/20 della soglia di concentrazione definita sicura per un tempo di esposizione di 15 minuti ed a circa 1/4 della soglia di esposizione definita sicura negli ambienti di lavoro.
 
-ozono-proprietà-chimiche
-    - l'ozono e una specie chimica instabile che si decompone a circa 250 °C
-    - è assai più reattivo ed ossidante dell'ossigeno
-    - E° = 2,07 V
-    - di norma, ossidando, da luogo alla formazione di ossigeno molecolare (per i 2/3), come se ogni molecola O3 fosse portatrice di un atomo di ossigeno atomico (O) e di una molecola O2
-    - solo in pochi casi ossida senza formare O2
-    - l'ozono reagisce con i metalli alcalini disciolti in NH3 liquida, con i superossidi, formando ozonidi
-    - gli ozonidi sono solidi ionici e contengono lo ione O3-
+
+
 
 ozono-proprità-fisiche
     incolore, tendente leggermente al blu pallido, blue quando liquefatto
@@ -296,9 +349,73 @@ ozono-proprità-fisiche
     L'esposizione da 0,1 a 1 μmol/mol produce mal di testa, bruciore agli occhi e irritazione le vie respiratorie. Anche basse concentrazioni di ozono nell'aria sono molto distruttive per i materiali organici come lattice, plastica e tessuto polmonare animale.
     L'ozono è diamagnetico, il che significa che i suoi elettroni sono tutti accoppiati. Al contrario, O2 è paramagnetico, contenente due elettroni spaiati.
 
+    Il peso specifico dell’Ozono è di 2,145 gr/lt (quello dell’ossigeno è di 1,429 gr/lt) e può essere misurato in:
+    1 ppm = +/- 2,14 mg/mc in aria
+    1 ppm = +/- 1 g/mc in acqua
+
+    For the physician it is useful to know that the solubility (ml) in 100 ml water (at 0°C) of either ozone or oxygen is either 49.0 ml or 4.89 (ten fold lower), respectively.
+
+    It is pale blue gas having a strong characteristic smell
+    It is diamagnetic
+    It is 1.67 times heavier than air
+
+
+ozono-proprietà-chimico-fisiche
+    Formula molecolare	O3
+    Principali caratteristiche	gas ossidante
+    Peso molecolare	47.998 g/mol
+    Concentrazioni in fase gas	fino al 18% in peso in ossigeno
+    Punto di ebollizione	-111,9 ºC
+    Punto di fusione	-192,7 ºC
+    Temperatura critica	-12,1ºC
+    Pressione critica	54,6 atm.
+    Densità	2,14 kg O3/m3 @ 0ºC 1013mbar
+    Densità relativa (sull'aria)	1,7
+    Solubilità in acqua	3 ppm a 20 ºC
+    DH di formazione	144.7 kJ/mole
+    Angolo di legame	116º
+    Potenziale elettrochimico	-2,07 V
+    Infiammabilità	non-infiammabile nelle concentrazioni e pressioni di utilizzo comune
+    Prodotti pericolosi di decomposizione	nessuno
+
+    La solubilità dell'ozono in acqua è superiore a quella dell'ossigeno e dipende dalla temperatura e dalla concentrazione dell'ozono in fase gas.
+
+    L'ozono è un gas instabile e quindi risulta importante conoscerne i tempi di decomposizione. Per l'ozono in soluzione i tempi di dimezzamento (tempo necessario per dimezzare la concentrazione) dipendono da molti fattori. In particolare si può evidenziare la dipendenza dal pH (T=21ºC, D=1 bar):
+
+    A pH=6.0, circa 20 minuti
+    A pH=7.0, circa 15 minuti
+    A pH=8.0, circa 5 minuti
+
+    Nelle condizioni standard.
+
+    Anche la dipendenza dalla temperatura è significativa. A pH=7:
+
+    a T=15 ºC, circa 30 minuti
+    a T=20 ºC, circa 20 minuti
+    a T=25 ºC, circa 15 minuti
+    a T=30 ºC, circa 12 minuti
+
+    In fase gas la decomposizione è in teoria molto più lenta:
+
+    a T=-50 ºC, circa 90 giorni
+    a T=-35 ºC, circa 18 giorni
+    a T=-25 ºC, circa 8 giorni
+    a T=20 ºC, circa 3 giorni
+    a T=120 ºC, circa 1,5 ore
+    a T=250 ºC, circa 1,5 secondi
+
+    In pratica la decomposizione è normalmente molto più rapida per l'influenza di parametri quali umidità, presenza di sostante organiche, presenza di catalizzatori di decomposizione.
+
+
+    L'ozono è un gas incolore ed inodore, fortemente instabile, dotato di un elevato potere ossidante e composto da tre atomi di ossigeno.
+
+
 
 ozono-pericoli
     classificazione EU: O, T+, C, Xi
+    
+    - Le miscele concentrate di ozono e ossigeno che contengono più del 20% di ozono possono diventare esplosive sia liquide che gassose.
+    - In generatori di ozono commerciali queste concentrazioni non si verificano, perché esse non possono essere generate facilmente.
 
 ozono-pericoli-dosi-concentrazioni-letali
     LCLo (il più basso pubblicato):
@@ -313,18 +430,24 @@ ozono-pericoli-esposizione-salute-US-NIOSH
     REL (raccomandato): C 0.1 ppm (0.2 mg/m3)
     IDLH (pericolo immediato): 5 ppm
 
+
+
 ozono-dove-si-trova
     stratosfera (maggior parte)
 
-ozono-formazione
+
+
+ozono-come-si-forma
     - l'ozono si crea naturalmente nell'atmosfera
     - i raggi del sole e i fulmini dividono le molecole di ozono in singoli atomi
-    - poi questi atomi si ricombinano con altre molecole di ossigeno (O2) vicine e formano una nuova molecola composta da tre atomi di ossigeno (O3), chiamata ozono 
+    - poi questi atomi si ricombinano con altre molecole di ossigeno (O2) vicine e formano una nuova molecola composta da tre atomi di ossigeno (O3), chiamata ozono
 
     - si puo preparare l'ozono dall'ossigeno fornendo a questo l'energia necessaria per la reazione: 3O2 + 271 KJ -> 2O3
     - o sotto forma di scariche elettriche oscure, in opportuni apparecchi (ozonizzatori) o mediante radiazioni ultraviolette di lunghezza d'onda inferiori a 200 nm.
 
-ozono-funzione
+
+
+ozono-a-cosa-serve
     assorbe e blocca parte dello spettro UV
     protegge la Terra dai raggi ultravioletti nocivi provenienti dal Sole
     si combina con gli inquinanti nell'aria e li elimina
@@ -336,6 +459,8 @@ ozono-funzione
     proprietà analgesiche
     proprietà immunomodulanti
     proprietà cicatrizzanti
+
+
 
 ozono-stratosfera-concentrazione 
     cambia nel corso dell'anno 
