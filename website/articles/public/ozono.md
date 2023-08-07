@@ -77,31 +77,29 @@ Identificare la geometria molecolare dell'ozono è essenziale per comprendere le
 
 
 
-## Quali sono le proprietà dell'ozono?
+## Quali sono le proprietà chimico-fisiche dell'ozono?
 
-### Proprietà chimiche
-
-Le proprietà chimiche dell'ozono sono molte, ma le principali sono ossidazione, instabilità, solubilità in acqua, assorbimento dei raggi UV e formazione di smog.
+Le proprietà chimico-fisiche dell'ozono sono molte, ma le più interessanti per noi sono l'ossidazione, l'instabilità, la solubilità in acqua e l'assorbimento dei raggi UV.
 
 L'ozono è forte agente ossidante e reagisce facilmente con altre sostanze trasferendogli atomi di ossigeno per ossidarle. Il meccanismo base di reazione dell'O3 segue la formula "O3 → O2 + O", con un potenziale redox E° = 2,07 V (volt). Questa gas è più reattivo dell'diossigeno (O2), del cloro e del perossido di idrogeno, come mostrato nella seguente tabella dal "Parere CNSA ozono" del Ministero della Sanità del 27/10/2010. 
 
 | Sostanza | Potenziale Redox |
 | --- | --- |
-| Fluoro | 2,87 |
-| Idrossiradicale (OH) | 2,86 |
-| Ione persolfato (S2O82-) | 2,80 |
-| Ossigeno atomico (O) | 2,42 |
-| **Ozono (O3)** | **2,07** |
-| Perossido di idrogeno (H2O2) | 1,78 |
-| Cloro (Cl) | 1,36 |
-| Diossido di cloro (ClO2) | 1,27 |
-| Molecola di ossigeno (O2) | 1,23 |
+| Fluoro | 2,87 V |
+| Idrossiradicale (OH) | 2,86 V |
+| Ione persolfato (S2O82-) | 2,80 V |
+| Ossigeno atomico (O) | 2,42 V |
+| **Ozono (O3)** | **2,07** V |
+| Perossido di idrogeno (H2O2) | 1,78 V |
+| Cloro (Cl) | 1,36 V |
+| Diossido di cloro (ClO2) | 1,27 V |
+| Molecola di ossigeno (O2) | 1,23 V |
 
-L'O3 è un composto instabile che si decompone velocemente ad alte temperature, sia in aria che in acqua. La sua emivita (tempo in cui si dimezza) è di 1,5 secondi se la temperatura supera i 250 °C (482 °F o 523.15 K), mentre di distrugge instantaneamente a 300 °C (572 °F o 573.15 K). Invece, a temperatura ambiente (20 °C), la sua emivita è di 3 giorni in aria e 20 minuti in acqua. Inoltre, va puntualizzato che l'ozono si decompone ancora più velocemente se entra a contatto con sostanze riducenti (come catalizzatori) o altri composti organici e inorganici con cui può reagire.
+L'O3 è un composto instabile che si decompone velocemente ad alte temperature, sia in aria che in acqua. La sua emivita (tempo in cui si dimezza) è di 1,5 secondi se la temperatura supera i 250 °C (482 °F o 523.15 K), mentre si distrugge instantaneamente a 300 °C (572 °F o 573.15 K). Invece, a temperatura ambiente (20 °C), la sua emivita è di 3 giorni in aria e 20 minuti in acqua. Inoltre, va puntualizzato che l'ozono si decompone ancora più velocemente se entra a contatto con sostanze riducenti (come catalizzatori) o altri composti organici e inorganici con cui può reagire.
 
 Ecco una tabella con i tempi di decomposizione dell'ozono in base alla temperatura in aria.
 
-| Temp (°C) | Dimezzamento |
+| Temp (°C) | Emivita |
 | --- | --- |
 | -50 | 3 mesi |
 | -35 | 18 giorni |
@@ -110,10 +108,9 @@ Ecco una tabella con i tempi di decomposizione dell'ozono in base alla temperatu
 | 120 | 1,5 ore |
 | 250 | 1,5 secondi |
 
-
 Ecco una tabella con i tempi di decomposizione dell'ozono in base alla temperatura in acqua (pH 7).
 
-| Temp (°C) | Dimezzameto |
+| Temp (°C) | Emivita |
 | --- | --- |
 | 15 | 30 minuti |
 | 20 | 20 minuti |
@@ -121,76 +118,31 @@ Ecco una tabella con i tempi di decomposizione dell'ozono in base alla temperatu
 | 30 | 12 minuti |
 | 35 | 8 minuti |
 
+La molecola di ozono è moderatamente solubile in acqua a temperatura ambiente. Infatti, la sua solubilità varia tra 0,1 e 0,3 grammi (g) per 1 litro di acqua a 25°C (77°F) e pressione atmosferica. Come regola generale, più fredda è l'acqua, maggiore sarà la sua solubilità. Da notare che l'ozono è un gas molto reattivo e può reagire rapidamente con altre sostanze presenti nell'acqua, riducendo ulteriormente la sua solubilità.
 
-La molecola di ossigeno è moderatamente solubile in acqua. La sua solubilità dipende dalla temperatura e dalla pressione, sia al momento dell'insufflazione che dopo il discioglimento (più fredda è l'acqua, maggiore sarà la sua solubilità).
+L'ozono assorbe le radiazioni ultraviolette (UV) dei raggi del Sole nell'ozonosfera.  Assorbe la quasi totalità di UVC (100-280 nm), la maggior parte di UVB (280-315 nm) e una piccola percentuale di UVA (315-400 nm). La molecola di O3 filtra maggiormente la radiazione ultravioletta con lunghezza d'onda di 220–320 nm e questo assorbimento aiuta a proteggere la superficie terrestre dai raggi UV e dai danni che essi causano (come il danneggiamento del DNA delle cellule viventi).
 
-A 0°C (32°F), la solubilità dell'ozono in acqua è di circa 0,695 g/L.
-A 25°C (77°F), la solubilità dell'ozono in acqua diminuisce a circa 0,260 g/L.
-A 30°C (86°F), la solubilità dell'ozono in acqua è di circa 0,240 g/L.
-A 40°C (104°F), la solubilità dell'ozono in acqua è di circa 0,200 g/L.
-
-
-La solubilità dell'ozono (O3) dipende da vari fattori, tra cui temperatura e pressione, oltre alla presenza di altre sostanze disciolte nel solvente. A temperatura ambiente, l'ozono è moderatamente solubile in acqua. Tuttavia, la sua solubilità è inferiore rispetto a quella dell'ossigeno (O2).
-
-La solubilità dell'ozono in acqua varia approssimativamente tra 0,1 e 0,3 grammi di ozono disciolto per litro di acqua a 25°C (77°F) e pressione atmosferica. Questo valore può cambiare leggermente a seconda delle condizioni specifiche.
-
-Si noti che l'ozono è un gas altamente reattivo e instabile, quindi la sua solubilità può essere influenzata dalle reazioni chimiche con altre sostanze presenti nell'ambiente. 
-
-
-
-La solubilità dell'ozono in acqua dipende da vari fattori, come la temperatura, la pressione e la concentrazione di ozono nell'aria o nella soluzione. A temperatura ambiente (circa 25°C) e pressione atmosferica, l'ozono ha una solubilità relativamente bassa in acqua. Si stima che circa 0,1 g di ozono si possano sciogliere in 1 litro di acqua a queste condizioni.
-
-Tieni presente che l'ozono è un gas molto reattivo e può reagire rapidamente con altre sostanze presenti nell'acqua, riducendo ulteriormente la sua solubilità. Di solito, l'ozono viene utilizzato come un gas disciolto in acqua o in altre soluzioni, e non come una soluzione acquosa stabile.
-
-
-
-
-- Assorbimento UV: L'ozono assorbe la radiazione ultravioletta (UV) nella regione dello spettro compresa tra 230 e 320 nanometri. Questo assorbimento aiuta a proteggere la superficie terrestre dai danni causati dai raggi UV nocivi del Sole.
-
-- Reattività con l'acqua: L'ozono reagisce con l'acqua per formare acido ozonico (HOOH), che si decompone rapidamente producendo radicali ossidrile (OH•)
-
-
-## Proprietà fisiche
-
-L'ozono ha un numero elevato di proprità fisiche, quindi elencheremo solo quelle principali. Questo gas è più pesante dell'aria, quindi tende a scendere verso la superficie terrestre
-
-Le principali proprietà fisiche dell'ozono sono:
+Quì sotto, una tabella dettagliata delle proprità chimico-fisiche dell'ozono.
 
 | Proprità | Descrizione |
 | --- | --- |
-| Massa molare              | 48.00 g·mol−1
-| Colore | da incolore a blu pallido
-| Odore | pungente
-| Densità | 2.144 mg cm−3 (at 0 °C)
-| Punto liquefazione | -111,9 °C
-| Punto fusione | −192.2 °C; −313.9 °F; 81.0 K
-| Punto ebollizione | −112 °C; −170 °F; 161 K
-| Solubilità in acqua | 1.05 g L−1 (at 0 °C)
-| Solubilità | molto solubile in CCl4, acido solforico
-| Pressione del vapore | >1 atm (20 °C)
-| Suscettibilità magnetica (χ) | +6.7·10−6 cm3/mol
-| Indice di rifrazione (nD) | 1.2226 (liquido), 1.00052 (gas, STP, 546 nm — notare alta dispersione)
-| Energia di legame | circa 300 kJ/mol
-
-
-
-| Proprità | Descrizione |
-| -------- | ------ | 
-| Colore | Incolore a temperatura ambiente, blu a basse temperature (stato liquido) |
-| Odore | Pungente e odorabile anche a basse concentrazioni |
-| Peso molecolare | 48 g/mol |
-| Densità | 2,144 kg/m³ (a 0°C e 1 atm) |
-| Punto di ebollizione | -112°C |
-| Punto di fusione | -192.2°C |
-
-Le principali proprietà chimiche dell'ozono sono:
-
-| Proprità | Descrizione |
-| -------- | ------ | 
-| Ossidante | L'ozono è un potente ossidante, in grado di reagire con altre sostanze chimiche, rompendo legami e alterando le loro strutture. | 
-| Reattivo | L'ozono è molto reattivo e può facilmente interagire con altre sostanze chimiche presenti nell'ambiente. | 
-| Deperibile | L'ozono è instabile e si decompone spontaneamente in ossigeno (O2) e un singolo atomo di ossigeno. | 
-
+| Simbolo chimico | O3 |
+| Massa molare | 48.00 g·mol−1 |
+| Potenziale elettrochimico | 2,07 V (volt) |
+| Colore | incolore tendente al blu pallido quando gas, blu scuro quando liquido, viola-nero quando solido |
+| Odore | distintivo, pungente, acuto, agliaceo, ricorda il cloro |
+| Densità | 2.144 mg cm−3 (at 0 °C) |
+| Densità relativa (in aria) | 1,7 kg/m3 |
+| Punto fusione | −192.2 °C (−313.9 °F o 81.0 K) |
+| Punto ebollizione | -111,9 °C (−170.0 °F o 161.0 K) |
+| temperatura critica | -12,1 °C (10.2 °F o 261.0 K) |
+| Solubilità | molto solubile in CCl4, acido solforico |
+| Solubilità in acqua | 0,57 g/L a 293 K (20 °C) |
+| Pressione del vapore | >1 atm (20 °C) |
+| Pressione critica | 5460 kPa |
+| Suscettibilità magnetica (χ) | +6.7·10−6 cm3/mol |
+| Indice di rifrazione (nD) | 1.2226 (liquido), 1.00052 (gas, STP, 546 nm — notare alta dispersione) |
+| Energia di legame | 142,3 KJ/mol (34,15 kcal/mol) |
 
 
 ## Dove si trova l'ozono?
@@ -200,6 +152,24 @@ L'ozono si trova principalmente nella regione dell'atmosfera nota come stratosfe
 Nella stratosfera, questo gas raggiunge la sua massima concentrazione tra i 15 e i 35 chilometri di altitudine, in una regione specifica chiamata ozonosfera. Questo strato è noto come "strato di ozono" perché contiene la maggior parte di O3 atmosferico.
 
 Inoltre, l'ozono si trova in basse quantità anche nella troposfera, lo strato dell'atmosfera più vicino alla superficie terrestre, e viene chiamato [ozono troposferico](ozono/troposferico.html). Nella troposfera, è considerato un inquinante atmosferico e un componente chiave del cosiddetto "smog". 
+
+
+## Come si forma l'ozono?
+
+L'ozono si forma naturalmente nella stratosfera e troposfera, o può essere prodotto artificialmente dall'uomo (ozonizzatori).
+
+Nella stratosfera, l'O3 si forma attraverso un processo chimico chiamato fotolisi. Questo avviene quando le radiazioni UV dei raggi del Sole colpiscono le molecole di ossigeno (O2) e le scindono in atomi singoli di ossigeno (O). Successivamente, quando questi atomi si ricombinano, possono formare molecole di ozono (O3). Oltre ai raggi UV, anche i fulmini possono produrre questo molecola, in quanto l'alta tensione dei fulmini è in grado anchessa di ropere i legami delle molecole di ossigeno.
+
+Nella troposfera, invece, l'ozono si forma quando le radiazioni ultraviolette si scontrano con ossidi di azoto (NOx) e composti organici volatili (VOC). Questo genera reazioni chimiche a catena che portano alla produzione di ozono troposferico, il quale è considerato un inquinante.
+
+Infine, l'O3 può essere generato dall'essere umano utilizzando dispositivi chiamati ozonizzatori, o generatori di ozono. Questi generatori usano principalmente una tecnologia a scarica corona (alto voltaggio) per produrre delle scariche elettriche che trasformano l'O2 in O3 (simle ai fulmini).
+
+
+## A cosa serve l'ozono? (applicazioni)
+
+### Sanificazione ad ozono
+
+### Ozono terapia
 
 
 
