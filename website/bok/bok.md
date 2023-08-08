@@ -1,7 +1,7 @@
 ozono
 
 ozono-definizione
-    [ozono, O3, molecola, gas, composto, allotropo dell'ossigeno, triossigeno, 1λ1,3λ1-triossidano, catena-triossigeno, triossidanilidene, trioxidanediyl, ozonide]
+    [ozono, O3, molecola, gas, composto, allotropo dell'ossigeno, triossigeno, ossigeno triatomico, 1λ1,3λ1-triossidano, catena-triossigeno, triossidanilidene, trioxidanediyl, ozonide]
 
     * l'ozono è molecola inorganica composta da tre atomi di ossigeno (O) legati insieme mediante legami covalenti
     - l'ozono è un gas
@@ -333,4 +333,13 @@ stratosfera-dove-si-trova
     si trova a 15-50 (10-40) chilometri sopra la superficie della terra.
 
 
-    
+ozono-ozonizzatore
+    Un ozonizzatore è un dispositivo che genera ozono mediante una scarica elettrica o altre tecnologie.
+
+    La maggior parte dei generatori di ozono funzionano tramite il processo di scarica corona, dove una corrente elettrica ad alta tensione viene applicata all'ossigeno (O2) nell'aria. Ciò provoca la formazione di molecole di ozono (O3) attraverso una reazione chimica.
+
+    Ecco come funzione un ozonizzatore nel dettaglio:
+
+    1. **Produzione di ozono**: Quando la corrente elettrica ad alta tensione viene applicata all'ossigeno (O2), si verifica una scarica corona. Durante questa scarica, alcuni atomi di ossigeno (O) si separano dalle molecole di ossigeno (O2).
+    2. **Formazione di ozono**: Gli atomi di ossigeno (O) liberati dalla scarica corona reagiscono con le molecole di ossigeno (O2) presenti nell'aria, formando molecole di ozono (O3).
+    3. **Emissione di ozono**: Il generatore di ozono emette quindi il gas ozono (O3) nell'ambiente circostante, aumentando la sua concentrazione.

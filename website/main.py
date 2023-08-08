@@ -14,6 +14,36 @@ for filepath in folder.rglob("*.md"):
 
     content_html = markdown.markdown(content, extensions=['markdown.extensions.tables'])
 
+    filepath_chunks = str(filepath).split('\\')
+
+    breadcrumbs = [f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
+    breadcrumbs_formatted = [' > ' + f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
+    # breadcrumbs = ''.join(breadcrumbs)
+    # print(breadcrumbs)
+
+    breadcrumbs_hrefs = []
+    total_path = ''
+    for b in breadcrumbs:
+        total_path += b + '/'
+        breadcrumbs_hrefs.append('/' + total_path[:-1].lower() + '.html')
+    
+    breadcrumbs_text = total_path.split('/')
+
+    for b in breadcrumbs_hrefs:
+        print(b)
+
+    for b in breadcrumbs_text:
+        print(b)
+
+    breadcrumbs_html = []
+    for i in range(len(breadcrumbs_hrefs)):
+        breadcrumbs_html.append(breadcrumbs_hrefs[i])
+        breadcrumbs_html.append(breadcrumbs_text[i])
+
+        
+    for b in breadcrumbs_html:
+        print(b)
+
     # content_html_formatted = []
     # for line in content_html.split('\n'):
     #     if 'NOTA:' in line:
@@ -21,7 +51,6 @@ for filepath in folder.rglob("*.md"):
     #     content_html_formatted.append(line)
 
     # content_html = '\n'.join(content_html_formatted)
-
     
     with open('components/header.html', encoding='utf-8') as f:
         header_html = f.read()
@@ -44,6 +73,12 @@ for filepath in folder.rglob("*.md"):
                 </div>
             </section>
 
+            <section class="breadcrumbs-section">
+                <div class="container-xl h-full">
+                    <a href="/index.html">Home</a>{breadcrumbs_formatted}
+                </div>
+            </section>
+
             <section class="container-md">
                 {content_html}
             </section>
@@ -60,8 +95,7 @@ for filepath in folder.rglob("*.md"):
         </html>
     '''
 
-    filepath_chunks = str(filepath).split('\\')
-    print(filepath_chunks)
+
     filepath_out_dir = '/'.join(filepath_chunks[1:-1])
     filepath_out = '/'.join(filepath_chunks[1:]).replace('.md', '.html')
 
