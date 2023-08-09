@@ -1,45 +1,51 @@
 # Ozono: Tutto quello che volevi sapere su questo gas
 
-**TODO:** Riassunto dell'articolo
+![Ozono](/assets/images/ozono-generale.jpg "Ozono")
 
+Ozono (O3) è il nome dato ad una molecola formata da 3 atomi di ossigeno. Questa molecola, si presenta in forma gassosa a temperatura ambiente e a pressione atmosferica, ha un odore molto pungente ed è incolore (leggermente tendente ad un blu pallido).
+
+La struttura dell'O3 è rappresentata da questa formula semplificata "O-O-O", dove il simbolo "O" rappresenta un atomo di ossigeno e "-" rappresenta un legame covalente. Questa struttura conferisce all'ozono delle interessanti proprietà chimico-fisiche, come il suo potenziale ossidante e la sua velocità di decomposizione.
+
+Questo gas è presente maggiormente nella stratosfera, dove svolge il compito di assorbire i raggi ultravioletti (UV) del Sole per proteggere la Terra. Inoltre, si trova anche nella troposfera, dove aiuta a tenere basse le cariche microbiche, anche se può diventare nocivo per persone e piante se presente in quantità troppo elevate.
+
+L'ozono si forma spontaneamente in natura quando i raggi del Sole o i fulmi colpiscono le molecole di ossigeno (O2), una parte delle quali si scompongono e ricompongono in ozono (O3). In alternativa, l'ozono viene prodotto anche artificialmente da appositi dispositivi, chiamati "ozonizzatori", e viene usato principalmente in ambito medico (ozonoterapia) e in ambito industriale (sanificazione ad ozono). In questo articolo vedremo nel dettaglio cos'è l'ozono, dove si trova e a cosa serve.
 
 ## Cos'è l'ozono?
 
 L'ozono è una molecola inorganica composta da tre atomi di ossigeno (O) legati insieme mediante legami covalenti e la sua formula chimica è O3. "Ozono" è il termine preferito dall'Unione Internazionale di Chimica Pura e Applicata (IUPAC) ma altri nomi sistematici sono validi, come 1λ1,3λ1-triossidano (nomenclatura sostitutiva) e catena-triossigeno (nomenclatura additiva).
 
-![Cos'è l'ozono](/assets/images/ozono-cosa-è.jpg "Cos'è l'ozono")
-
 L'O3 è una forma allotropica dell'ossigeno ed è un composto presente in natura in forma gassosa. Essendo un composto, l'O3 non è definito come elemento e non si trova nella tavola. Di conseguenza, non ha un numero atomico, in quanto non è corretto parlare di numero atomico relativo a molecole, ma solo ad atomi. Inoltre, essendo un allotropo dell'ossigeno, il suo numero di ossidazione è 0 (come accade per l'O2).
+
+![Cos'è l'ozono](/assets/images/ozono-cosa-è.jpg "Cos'è l'ozono")
 
 ## Da dove deriva il nome ozono?
 
 La parola ozono deriva dal francese antico "ozone", che a sua volta deriva dal greco antico "ozein" (ὄζειν), che significa "emanare odore" o "odorare". Infatti, l'ozono prende questo nome proprio a causa del fatto che ha un forte odore.
 
-**TODO:** Breve storia
+La scoperta di questa moelcola è attribuita al chimico tedesco Christian Friedrich Schönbein che, durante degli esperimenti sull'elettrolisi dell'acqua nel 1839, nota un odore simile a quello che si sente dopo la comparsa di un fulmine. A quel punto, capisce che l'odoro proviene da un gas chimico e decide di chiamare questo gas "ozono".
 
+Prima di Schönbein, nel 1785, il chimico olandese Martinus van Marum fa degli esperimenti simili con delle scarice elettriche sull'acqua e sente lo stesso odore. Purtroppo però, pensa che l'odore sia dovuto dalle reazioni elettriche stesse e non ad un gas. Per questo, la scoperta dell'ozono viene attribuita a Schönbein.
+
+Infine, nel 1865, il chimico svizzero Jacques-Louis Soret detrermina la formula dell'ozono, ovvero O3. Questa formula viene successivamente confermata da Schönbein nel 1867.
+
+![Da dove deriva il nome ozono](/assets/images/ozono-nome-derivazione.jpg "Da dove deriva il nome ozono")
 
 
 ## Qual'è la struttura chimica dell'ozono?
 
 La struttura chimica dell'ozono può essere rappresentata in diverse forme, ma la più comune e semplice è quella a linee singole, con formula "O-O-O". In questa formula, le "O" rappresentano gli atomi di ossigeno e le linee rappresentano i legami covalenti.
 
-![Struttura chimica dell'ozono](/assets/images/ozono-struttura-chimica.jpg "Struttura chimica dell'ozono")
-
 La formula di struttura è un'espressione chimica che rappresenta la configurazione atomica e la disposizione degli atomi nella molecola. Quindi, una formula più accurata per descrivere la struttura chimica dell'ozono è "O-O=O", in quanto la struttura molecolare dell'O3 è caratterizzata da un legame covalente doppio tra due atomi di ossigeno (O=O) e un legame covalente singolo con un terzo atomo di ossigeno (O-O). 
 
 Inoltre, in alcune occasioni, la formula della struttura dell'O3 viene anche scritta come "O=O=O", dove i simboli "=" rappresentano semplicemente i legami covalenti tra gli atomi, ma è preferibile evitarla perché può generare confusione ed essere forviante.
 
-Per comprendere meglio la struttura chimica dell'ozono, analizziamola secondo il modello di Lewis.
+![Struttura chimica dell'ozono](/assets/images/ozono-struttura-chimica.jpg "Struttura chimica dell'ozono")
 
-**TODO**
-
-[Useremo O-O-O, per maggiori dettagli su lewis, vsepr e geometria, vedere sotto]
+Per comprendere meglio la struttura chimica dell'ozono, analizziamola secondo il modello di Lewis, la teroria VSEPR, e ricaviamoci la geometria molecolare.
 
 ### Qual'è la struttura di Lewis dell'ozono?
 
 La struttura di Lewis dell'ozono è rappresentata dalla formula "O-O=O" (o "O=O-O"), dove il simbolo "-" rappresenta un legame singolo (1 coppia di elettroni), il simbolo "=" rappresenta un legame doppio (2 coppie di elettroni), e il simbolo "O" rappresenta gli atomi di ossigeno, ognuno dei quali possiede ripettivamente 6, 2 e 4 doppietti elettronici solitari. 
-
-![Struttura di Lewis dell'ozono](/assets/images/ozono-struttura-lewis.jpg "Struttura di Lewis dell'ozono")
 
 La struttura (modello) di Lewis dell'ozono ci aiuta a visualizzare la disposizione degli elettroni di legame e degli elettroni non di legame (elettroni solitari) intorno agli atomi di ossigeno, e si può ricavare in modo semplice usando la procedura descritta quì sotto.
 
@@ -51,6 +57,8 @@ La struttura (modello) di Lewis dell'ozono ci aiuta a visualizzare la disposizio
 6. Detto questo, osserviamo che l'atomo centrale non rispetta la regola dell'otteto, in quanto possiede solo 6 elettroni. Di conseguenza, utilizziamo un doppietto elettronico solitario di uno degli atomi di ossigeno per creare un doppio legame con l'atomo centrale. Otteniamo quindi la formula "O-O=O".
 7. Per concludere, vari dati sperimentali suggeriscono che le lunghezze tra l'atomo centrale di ossigeno e quelli laterali sono uguali. Questo contraddice l'ipotesi che che la molecola di ozono possa avere un legame singolo e uno doppio, visto che questi hanno lunghezze diverse. Di conseguenza, si deduce che l'ozono abbia una struttura simmetrica dove "O-O=O" è equivalente a "O=O-O", ovvero che abbia una struttura ibrida. Queste strutture di Lewis equivalenti sono anche definite "strutture di risonanza".
 
+![Struttura di Lewis dell'ozono](/assets/images/ozono-struttura-lewis.jpg "Struttura di Lewis dell'ozono")
+
 Una volta stabilita la formula di Lewis dell'O3, vediamo come utilizzarla applicare al modello VSEPR per ottenere la struttura geometrica dell'ozono. 
 
 ### Come applicare il modello VSEPR all'ozono?
@@ -59,17 +67,17 @@ Il modello VSEPR (teoria della repulsione tra coppie di elettroni di valenza) pu
 
 Usando la struttura di Lewis dell'ozono (O-O=O) calcolata nella sezione precedente, sappiamo che l'atomo centrale di ossigeno (O) della molecola di ozono ha 2 elettroni solitari. Poiché le coppie di elettroni solitari occupano più spazio rispetto alle coppie di elettroni leganiti, influenzano la geometria molecolare. Infatti, le coppie solitarie respingono quelle leganti, causando una deformazione della struttura un modo da massimizzare le distanze tra le coppie di elettroni e minimizzare le repulsioni.
 
-![VSEPR dell'ozono](/assets/images/ozono-vsepr.jpg "VSEPR dell'ozono")
-
 Nel caso dell'ozono, abbiamo una struttura VSEPR di tipo AX2E, dove "A" raprresenta l'atomo di ossigeno centrale, "X" rappresenta gli atomi legati all'atomo centrale e "E" rappresenta le coppie di elettroni solitari presenti sul'atomo centrale. In questo tipo di struttura, il doppietto elettronico solitaro dell'atomo centrale respinge i 2 atomi laterali fino a formare un angolo leggermente inferiore ai 120° e conferisce alla molecola di O3 una forma angolata. Detto questo, possiamo finalmente descrivere nel dettaglio la geometria dell'ozono.
+
+![VSEPR dell'ozono](/assets/images/ozono-vsepr.jpg "VSEPR dell'ozono")
 
 ### Qual'è la geometria dell'ozono?
 
 L'ozono ha una geometria angolata (a forma di "V" rovesciata) secondo la teoria VSEPR, dove 2 atomi di ossigeno laterali sono disposti in modo asimmetrico rispetto ad 1 atomo di ossigeno centrale. Questa geometria, causata dalla repulsione tra le coppie di elettroni non condivise sugli atomi di ossigeno, determina molte sue caratteristiche interessanti, come la sua reattività chimica e la sua polarità.
 
-![Geometria dell'ozono](/assets/images/ozono-geometria.jpg "Geometria dell'ozono")
-
 In questa molecola, gli atomi di ossigeno sono disposti in modo planare e angolare (geometria piegata), con simmetria C2v. La distanza tra gli atomi di ossigeno è di 127,2 picometri (pm), o 1,272 andstrom (Å), chè è la media della la distanza tra la coppia atomi di ossigeno a legame singolo (O-O) di 0,149 nanometri (nm) e la distanza tra la coppia di atomi di ossigeno a legame doppio (O=O) di 0,121 nanometri. Invece, l'angolo di legame tra i 3 atomi di ossigeno (O-O-O) è di 116,78 gradi (°).
+
+![Geometria dell'ozono](/assets/images/ozono-geometria.jpg "Geometria dell'ozono")
 
 Identificare la geometria molecolare dell'ozono è essenziale per comprendere le sue proprietà fisiche e chimiche. Per esempio, è prorio questa struttura che conferisce all'O3 la capacità di proteggere il nostro pianeta dagli effetti dannosi dei raggi UV del Sole e di purificare l'atmosfera grazie alla suo forte potere ossidante.
 
@@ -149,6 +157,8 @@ Nella stratosfera, questo gas raggiunge la sua massima concentrazione tra i 15 e
 
 Inoltre, l'ozono si trova in basse quantità anche nella troposfera, lo strato dell'atmosfera più vicino alla superficie terrestre, e viene chiamato [ozono troposferico](ozono/troposferico.html). Nella troposfera, è considerato un inquinante atmosferico e un componente chiave del cosiddetto "smog". 
 
+![Dove si trova l'ozono](/assets/images/ozono-dove-si-trova.jpg "Dove si trova l'ozono")
+
 
 ## Come si forma l'ozono?
 
@@ -159,6 +169,8 @@ Nella stratosfera, l'O3 si forma attraverso un processo chimico chiamato fotolis
 Nella troposfera, invece, l'ozono si forma quando le radiazioni ultraviolette si scontrano con ossidi di azoto (NOx) e composti organici volatili (VOC). Questo genera reazioni chimiche a catena che portano alla produzione di ozono troposferico, il quale è considerato un inquinante.
 
 Infine, l'O3 può essere generato dall'essere umano utilizzando dispositivi chiamati ozonizzatori, o generatori di ozono. Questi generatori usano principalmente una tecnologia a scarica corona (alto voltaggio) per produrre delle scariche elettriche che trasformano l'O2 in O3 (simle ai fulmini).
+
+![Come si forma l'ozono](/assets/images/ozono-come-si-forma.jpg "Come si forma l'ozono")
 
 
 ## A cosa serve l'ozono?
@@ -173,6 +185,8 @@ Infine, l'ozono può essere utilizzato in campo medico, industiale e domestico. 
 
 - Ozonoterapia
 - Sanificazione ad ozono
+
+![A cosa serve l'ozono](/assets/images/ozono-a-cosa-serve.jpg "A cosa serve l'ozono")
 
 ### Ozonoterapia
 
@@ -206,13 +220,13 @@ Ecco alcune applicazioni della sanificazione ad ozono.
 
 NOTA: L'uso dell'ozono per la sanificazione richede attenzione e competenza. L'ozono può essere dannoso per la salute umana, animale e vegetale se utilizzato scorrettamente.
 
-## Quali sono gli effetti negativi dell'ozono?
+<!-- ## Quali sono gli effetti negativi dell'ozono? -->
 
 ## Quali sono i limiti di esposizione all'ozono per legge?
 
 I limiti dell'ozono per legge variano da paese a paese. Ecco alcune indicazioni generali:
 
-- Limite giornaliero: Indica la massima concentrazione di ozono consentita nell'arco di 24 ore. Questo limite è fissato intorno ai 100 ppb o 180 μg/m³.
-- Limite annuale: Rappresenta la massima concentrazione di ozono ammessa in un periodo di un anno. Questo limite è fissato attorno ai 40-50 ppb o 60-100 μg/m³.
+- Limite giornaliero: Indica la massima concentrazione di ozono consentita nell'arco di 24 ore. Questo limite è fissato a 100 ppb o 180 μg/m³.
+- Limite annuale: Rappresenta la massima concentrazione di ozono ammessa in un periodo di un anno. Questo limite è fissato a 40-50 ppb o 60-100 μg/m³.
 
 NOTA: Questi limiti possono essere soggetti a modifiche e variazioni nel tempo. Verifica sempre le fonti ufficiali del tuo paese.

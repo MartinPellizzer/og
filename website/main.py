@@ -16,11 +16,12 @@ for filepath in folder.rglob("*.md"):
 
     filepath_chunks = str(filepath).split('\\')
 
-    breadcrumbs = [f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
-    breadcrumbs_formatted = [' > ' + f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
-    # breadcrumbs = ''.join(breadcrumbs)
-    # print(breadcrumbs)
 
+
+    # GENERATE BREADCRUMBS ----------------------------------------------
+
+    breadcrumbs = [f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
+    
     breadcrumbs_hrefs = []
     total_path = ''
     for b in breadcrumbs:
@@ -29,20 +30,73 @@ for filepath in folder.rglob("*.md"):
     
     breadcrumbs_text = total_path.split('/')
 
-    for b in breadcrumbs_hrefs:
-        print(b)
-
-    for b in breadcrumbs_text:
-        print(b)
-
     breadcrumbs_html = []
     for i in range(len(breadcrumbs_hrefs)):
-        breadcrumbs_html.append(breadcrumbs_hrefs[i])
-        breadcrumbs_html.append(breadcrumbs_text[i])
+        html = f'<a href="{breadcrumbs_hrefs[i]}">{breadcrumbs_text[i]}</a>'
+        breadcrumbs_html.append(html)
 
+    breadcrumbs_html_formatted = [f' > {f}' for f in breadcrumbs_html]
+
+
+
+    # GENERATE TABLE OF CONTENTS ----------------------------------------
+
+    table_of_contents_html = ''
+
+    headers = []
+    for line in content_html.split('\n'):
+        if '<h2>' in line:
+            headers.append(line)
+        elif '<h3>' in line:
+            headers.append(line)
+        elif '<h4>' in line:
+            headers.append(line)
+        elif '<h5>' in line:
+            headers.append(line)
+        elif '<h6>' in line:
+            headers.append(line)
+
+    # for x in headers:
+    #     print(x)
+
+    table_of_contents_html += '<div class="toc">'
+    table_of_contents_html += '<span class="toc-title">Table of Contents</span>'
+    table_of_contents_html += '<ul>'
+
+    toc_li = []
+    
+    last_header = ''
+    for line in headers:
+        if '<h2>' in line: 
+            last_header = '<h2>'
+            line = line.replace('<h2>', '').replace('</h2>', '')
+        elif '<h3>' in line:
+            last_header = '<h3>'
+            line = line.replace('<h3>', '').replace('</h3>', '')
+
+        table_of_contents_html += f'<li><a href="#">{line}</a></li>'
+
+    table_of_contents_html += '</ul>'
+    table_of_contents_html += '</div>'
+
+    # for line in table_of_contents_html:
+    print(table_of_contents_html)
         
-    for b in breadcrumbs_html:
-        print(b)
+    print()
+
+    content_html_formatted = ''
+
+    toc_inserted = False
+    for line in content_html.split('\n'):
+        if not toc_inserted:
+            if '<h2>' in line:
+                toc_inserted = True
+                content_html_formatted += table_of_contents_html
+                content_html_formatted += line
+                continue
+        content_html_formatted += line
+
+        # print(line)
 
     # content_html_formatted = []
     # for line in content_html.split('\n'):
@@ -75,12 +129,12 @@ for filepath in folder.rglob("*.md"):
 
             <section class="breadcrumbs-section">
                 <div class="container-xl h-full">
-                    <a href="/index.html">Home</a>{breadcrumbs_formatted}
+                    <a href="/index.html">Home</a>{''.join(breadcrumbs_html_formatted)}
                 </div>
             </section>
 
             <section class="container-md">
-                {content_html}
+                {content_html_formatted}
             </section>
 
             <section class="footer-section">
@@ -112,3 +166,9 @@ for filepath in folder.rglob("*.md"):
     shutil.copy2('img.css', 'public/img.css')
     shutil.copy2('logo.ico', 'public/logo.ico')
     shutil.copy2('CNAME', 'public/CNAME')
+
+    # COPY IMAGES -----------------------------------------------------
+
+    for f in os.listdir('assets/images/'):
+        shutil.copy2(f'assets/images/{f}', f'public/assets/images/{f}')
+

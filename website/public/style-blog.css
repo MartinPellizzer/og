@@ -217,8 +217,26 @@ tbody tr:nth-child(odd) {
     padding-bottom: 1.6rem;
 }
 
+.toc {
+    background-color: #f8fafc;
+    padding: 3.2rem;
+}
+
+.toc-title {
+    display: inline-block;
+    color: #0f172a;
+    font-size: 4.0rem;
+    margin-bottom: 3.2rem;
+}
+
+.toc ul {}
+
 .hero-section {
     height: 100vh;
+}
+
+img {
+    width: 100%;
 }
 
 .img-world {
