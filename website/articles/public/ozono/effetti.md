@@ -178,7 +178,7 @@ Nello specifico, l'inalazione di elevate concentrazioni di ozono danneggia le pa
 
 A questo, si aggiunge il fatto che l'ozono causa vasocostrizione (restringimento dei vasi sanguigni), il che porta ad un aumento della pressione arteriosa. Questo genera ulteriore stress sul sistema cardiovascolare. Questo è particolarmente pericoloso per le persone che soffrono già di malattie cardiovascolari, come l'ipertensione o l'insufficienza cardiaca. Queste persone possone essere particolarmente sensibili agli effetti dannosi dell'ozono, il quale può aggravare i sintomi e peggiorare queste condizioni, aumentando il rischio di eventi cardiaci acuti come l'infarto del miocardio.
 
-## 5. Effetti sulla salute oculare
+## 5. Effetti sulla salute oculare (!!!!!!!!!!)
 
 Un eccessiva esposizione all'ozono causa irritazione agli occhi, con sintomi come arrossamento, lacrimazione e bruciore, gli stessi sintomi che si verificano quando si entra in contatto con sostanze irritanti. Questo accade perché l'ozono è un forte ossidante e quindi può reagire chimicamente con le cellule degli occhi, causando una risposta infiammatoria nei tessuti oculari.
 
