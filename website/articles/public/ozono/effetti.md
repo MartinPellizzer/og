@@ -159,24 +159,44 @@ Inoltre, quando l'ozono reagisce con le membrane cellulari di varie molecole bio
 
 ## 3. Danneggia la funzione polmonare
 
-Riduzione della funzione polmonare: L'ozono può diminuire la capacità polmonare e la funzione respiratoria, rendendo la respirazione più difficile. L'esposizione prolungata all'ozono può portare a una riduzione permanente della funzione polmonare, soprattutto nei bambini e negli anziani, e influenzare la capacità del corpo di ottenere ossigeno. 
-Danneggiamento polmonare: L'inalazione di ozono può causare danni ai tessuti polmonari, riducendo la capacità polmonare e aumentando il rischio di sviluppare malattie polmonari croniche. 
-Aumento delle visite mediche ed ospedaliere: Elevati livelli di ozono nell'aria sono associati a un aumento delle visite mediche e delle ospedalizzazioni per problemi respiratori, in particolare tra i gruppi sensibili come bambini, anziani e persone con condizioni preesistenti.
-Infiammazione polmonare: L'esposizione all'ozono può scatenare un'infiammazione nei polmoni, aumentando il rischio di infezioni e danni ai tessuti polmonari, che può essere particolarmente dannosa per le persone con disturbi polmonari cronici.
-Impatto sulla crescita e lo sviluppo polmonare nei bambini: I bambini esposti all'ozono possono sperimentare ritardi nella crescita polmonare normale, con possibili effetti a lungo termine sulla salute polmonare. I bambini sono più vulnerabili agli effetti dell'ozono a causa dei loro polmoni in via di sviluppo e della loro tendenza a respirare più velocemente rispetto agli adulti, portando a un'assunzione maggiore di ozono per unità di peso corporeo.
-Sviluppo polmonare ritardato nei bambini: L'esposizione all'ozono durante l'infanzia può interferire con lo sviluppo polmonare normale, aumentando il rischio di problemi polmonari a lungo termine.
-Danneggiamento del tessuto polmonare: L'esposizione ripetuta all'ozono può causare danni ai tessuti polmonari, compromettendo la loro funzionalità a lungo termine.
+L'ozono, inalato in eccessive quantità, danneggia la funzione polmonare, causando infiammazione, aumento della reattività bronchiale, deterioramento a lungo termine della funzione polmonare e maggiore suscettibilità alle infezioni.
+
+Respirare concentrazioni elevate di O3 porta al danneggiamento dei polmoni e all'aumento della reattività bronchiale, rendendo la respirazione più difficile. Se questa esposizione si prolunga troppo nel tempo, può anche portare a una riduzione permanente della funzione polmonare e alla capacità del corpo di ottentere ossigeno, soprattutto nei bambini e negli anziani. Come dimostra una ricerca pubblicata dall'American Review of Respiratory Disease, un'esposizione acuta a 0,4 ppm di O3 aumenta il livello delle cellule infiammatorie e dei fattori solubili, i quali sono in grado di causare danni nelle vie aeree inferiori dell'uomo.
+
+Non solo alte concentrazioni di l'ozono causano danni ai tessuti polmonari e riducono la capacità polmonare, ma aumentano anche il richio di sviluppare malattie polmonari croniche, come la broncopneumopatia cronica ostruttiva (BPCO). Infatti, elevati livelli di ozono nell'aria sono associati a un aumento delle visite mediche e delle ospedalizzazioni per problemi respiratori, in particolare tra le persone con condizioni preesistenti. Inoltre, l'infiammazione polmonare causata dall'O3 aumenta anche il rischio di infezioni al tessuto polmonare, il che è particolarmente pericoloso per le persone con disturbi polmonari cronici.
+
+Da notare che i bambini esposti all'ozono possono sperimentare ritardi nella crescita polmonare normale e questo può avere effetti a lungo termine sulla loro salute. I bambini sono più vulnerabili agli effetti di questo gas a causa del fatto che i loro polmoni sono ancora in via di sviluppo e che hanno la tendenza a respirare più velocemente rispetto agli adulti. Questo porta a un'assunzione maggiore di ozono per unità di peso corporeo.
+
+
+## 4. Effetti cariovasculari (!!!!!!!!!!)
+
+Respirare ozono aumenta il rischio di malattie cardiovascolari, come l'ipertensione, aterosclerosi e infiammazioni delle arterie. Inoltre, inalare questo gas incrementa anche il rischio di malattie cardiache, come aritmie, infarto e ictus (attacchi di cuore).
+
+Questi effetti sulla funzione cardovascolare sono attribuiti all'effetto pro-infiammatorio e allo stress ossidativo dell'ozono sul cuore e sui vasi sanguigni. Infatti, uno studio pubblicato dalla rivista americana Circulation, mostra come l'ozono può causare un aumento dei marcatori vascolari dell'infiammazione e cambiamenti nei marcatori della fibrinolisi e dei marcatori che influenzano il controllo autonomo della frequenza cardiaca e della ripolarizzazione. Questo studio è stato condotto su 23 giovani individui, i quali sono stati esposti in modo casuale e incrociato ad aria pulita e a 0,3 ppm di ozono per 2 ore mentre facevano esercizio in modo intermittente.
+
+Nello specifico, l'inalazione di elevate concentrazioni di ozono danneggia le pareti dei vasi sanguigni e aumenta l'infiammazione sistemica nel corpo. Questo compromette la capacità dell'endotelio (rivestimento interno dei vasi sanguigni) di regolare il flusso sanguigno. Infatti, le cellule endoteliali hanno la responsabilità di regolare il tono vascolare, la coagulazione del sangue e la permeabilità delle pareti dei vasi sanguigni. Quindi, una difunzione in queste cellule favorisce l'aterosclerosi e aumenta il rischio di malattie cardiache.
+
+A questo, si aggiunge il fatto che l'ozono causa vasocostrizione (restringimento dei vasi sanguigni), il che porta ad un aumento della pressione arteriosa. Questo genera ulteriore stress sul sistema cardiovascolare. Questo è particolarmente pericoloso per le persone che soffrono già di malattie cardiovascolari, come l'ipertensione o l'insufficienza cardiaca. Queste persone possone essere particolarmente sensibili agli effetti dannosi dell'ozono, il quale può aggravare i sintomi e peggiorare queste condizioni, aumentando il rischio di eventi cardiaci acuti come l'infarto del miocardio.
 
 
 
-Effetti a lungo termine: L'esposizione cronica all'ozono può contribuire allo sviluppo di malattie polmonari croniche come la broncopneumopatia cronica ostruttiva (BPCO).
-Peggioramento delle malattie respiratorie preesistenti: Le persone con malattie respiratorie croniche, come la BPCO, possono sperimentare un peggioramento dei sintomi a causa dell'esposizione all'ozono.
 
 
-   
-Effetti cardiovasculari: L'ozono può aumentare il rischio di malattie cardiovascolari, come l'ipertensione, aumentando l'infiammazione e lo stress ossidativo.
-Malattie cardiache: Alcune ricerche suggeriscono che l'esposizione all'ozono può aumentare il rischio di malattie cardiache, inclusi infarto e ictus, a causa del suo effetto infiammatorio e delle sue interazioni con il sistema circolatorio.
-Effetti sulla funzione cardiovascolare: L'ozono può avere effetti negativi sulla funzione cardiovascolare, aumentando il rischio di aritmie, infiammazione delle arterie e altre complicazioni.
+
+
+L'ozono (O3) è un gas composto da tre atomi di ossigeno, ed è un componente importante dell'atmosfera terrestre. Mentre l'ozono nell'atmosfera superiore (la cosiddetta ozonosfera) svolge un ruolo cruciale nel bloccare i raggi ultravioletti dannosi provenienti dal sole, l'ozono a livello del suolo può avere effetti dannosi sulla salute umana, inclusi quelli sulla funzione cardiovascolare. Questo fenomeno è spesso associato all'inquinamento atmosferico.
+
+Ecco come l'ozono può influire negativamente sulla funzione cardiovascolare:
+
+
+
+
+In sintesi, l'ozono può avere effetti negativi sulla funzione cardiovascolare attraverso l'infiammazione, lo stress ossidativo, la disfunzione endoteliale e l'interferenza con il sistema nervoso autonomo. Questi effetti possono aumentare il rischio di malattie cardiovascolari e complicazioni nei soggetti suscettibili. È importante adottare misure per ridurre l'esposizione all'ozono e all'inquinamento atmosferico in generale, al fine di proteggere la salute cardiovascolare.
+
+
+
+
+
 
 
 
