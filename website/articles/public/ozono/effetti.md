@@ -168,7 +168,7 @@ Non solo alte concentrazioni di l'ozono causano danni ai tessuti polmonari e rid
 Da notare che i bambini esposti all'ozono possono sperimentare ritardi nella crescita polmonare normale e questo può avere effetti a lungo termine sulla loro salute. I bambini sono più vulnerabili agli effetti di questo gas a causa del fatto che i loro polmoni sono ancora in via di sviluppo e che hanno la tendenza a respirare più velocemente rispetto agli adulti. Questo porta a un'assunzione maggiore di ozono per unità di peso corporeo.
 
 
-## 4. Effetti cariovasculari (!!!!!!!!!!)
+## 4. Effetti cardiovascolari (!!!!!!!!!!)
 
 Respirare ozono aumenta il rischio di malattie cardiovascolari, come l'ipertensione, aterosclerosi e infiammazioni delle arterie. Inoltre, inalare questo gas incrementa anche il rischio di malattie cardiache, come aritmie, infarto e ictus (attacchi di cuore).
 
@@ -178,23 +178,31 @@ Nello specifico, l'inalazione di elevate concentrazioni di ozono danneggia le pa
 
 A questo, si aggiunge il fatto che l'ozono causa vasocostrizione (restringimento dei vasi sanguigni), il che porta ad un aumento della pressione arteriosa. Questo genera ulteriore stress sul sistema cardiovascolare. Questo è particolarmente pericoloso per le persone che soffrono già di malattie cardiovascolari, come l'ipertensione o l'insufficienza cardiaca. Queste persone possone essere particolarmente sensibili agli effetti dannosi dell'ozono, il quale può aggravare i sintomi e peggiorare queste condizioni, aumentando il rischio di eventi cardiaci acuti come l'infarto del miocardio.
 
+## 5. Effetti sulla salute oculare
+
+Un eccessiva esposizione all'ozono causa irritazione agli occhi, con sintomi come arrossamento, lacrimazione e bruciore, gli stessi sintomi che si verificano quando si entra in contatto con sostanze irritanti. Questo accade perché l'ozono è un forte ossidante e quindi può reagire chimicamente con le cellule degli occhi, causando una risposta infiammatoria nei tessuti oculari.
+
+Troppo ozono causa anche sensazioni di secchezza, disagio e prurito agli occhi. Questo è dimostrato da uno studio pubblicato dalla rivista Acta Ophthalmologica, dove si osserva come l'esposizione a inquinanti, radiazioni ultraviolette (UV) e ozono, provochi l'occhio secco, ovvero una malattia multifattoriale delle lacrime e della superficie oculare che comporta sintomi di disagio, disturbi visivi e instabilità del film lacrimale. In questo studio, i biomarcatori utilizzati per indicare i danni ossidativi nei tessuti della superficie oculare includono l'8-idrossi-2 deossiguanosina (8-OHdG), il 4-idrossinonenale (HNE) e il malondialdeide (MDD).
+
+Alti livelli di ozono aumentano il rischio di sviluppare congiuntivite, un'infiammazione della membrana trasparente che copre la parte anteriore dell'occhio e la superficie interna delle palpebre. I sintomi tipici includono rossore, gonfiore e secrezione di muco dagli occhi. Inoltre, compromettendo la barriera protettiva degli occhi, si aumenta anche il rischio di infezioni e irritazioni.
+
+È importante sottolineare che le persone con condizioni preesistenti come congiuntivite, allergie oculari o altre patologie oculari, sono generalmente più suscettibili agli effetti dannosi dell'ozono. Infine, va puntualizzato che l'esposizione ripetuta all'ozono nel tempo porta a danni oculari cumulativi. Ciò significa che anche se una singola esposizione potrebbe non causare danni gravi, l'esposizione continua può portare a danni oculari progressivi e permanenti.
+
+
+
+## - Effetti sul sistema nervoso (!!!!!!!!!!)
+
+From the journal Reviews in the Neurosciences
+
+The effects of O3 are not restricted to the respiratory system or function – adverse effects within the central nervous system (CNS) such as decreased cognitive response, decrease in motor activity, headaches, disturbances in the sleep-wake cycle, neuronal dysfunctions, cell degeneration, and neurochemical alterations have also been described; furthermore, it has also been proposed that O3 could have epigenetic effects.
+
+Gli effetti dell'O3 non sono limitati al sistema respiratorio o alla sua funzione: sono stati descritti anche effetti avversi nel sistema nervoso centrale (CNS), come diminuzione delle risposte cognitive, diminuzione dell'attività motoria, mal di testa, disturbi nel ciclo sonno-veglia, disfunzioni neuronali, degenerazione delle cellule e alterazioni neurochimiche; inoltre, è stata avanzata anche l'ipotesi che l'O3 possa avere effetti epigenetici.
 
 
 
 
-
-
-L'ozono (O3) è un gas composto da tre atomi di ossigeno, ed è un componente importante dell'atmosfera terrestre. Mentre l'ozono nell'atmosfera superiore (la cosiddetta ozonosfera) svolge un ruolo cruciale nel bloccare i raggi ultravioletti dannosi provenienti dal sole, l'ozono a livello del suolo può avere effetti dannosi sulla salute umana, inclusi quelli sulla funzione cardiovascolare. Questo fenomeno è spesso associato all'inquinamento atmosferico.
-
-Ecco come l'ozono può influire negativamente sulla funzione cardiovascolare:
-
-
-
-
-In sintesi, l'ozono può avere effetti negativi sulla funzione cardiovascolare attraverso l'infiammazione, lo stress ossidativo, la disfunzione endoteliale e l'interferenza con il sistema nervoso autonomo. Questi effetti possono aumentare il rischio di malattie cardiovascolari e complicazioni nei soggetti suscettibili. È importante adottare misure per ridurre l'esposizione all'ozono e all'inquinamento atmosferico in generale, al fine di proteggere la salute cardiovascolare.
-
-
-
+Effetti sul sistema nervoso: L'esposizione all'ozono può influenzare negativamente il sistema nervoso, contribuendo a sintomi come mal di testa, affaticamento, confusione e irritabilità.
+Problemi cognitivi: Alcune evidenze indicano che l'esposizione all'ozono potrebbe essere associata a problemi cognitivi, come difficoltà di concentrazione e riduzione delle prestazioni cognitive.
 
 
 
@@ -207,8 +215,6 @@ Difficoltà respiratorie durante l'esercizio: L'esercizio fisico all'aperto in p
 
 
 
-Effetti sul sistema nervoso: L'esposizione all'ozono può influenzare negativamente il sistema nervoso, contribuendo a sintomi come mal di testa, affaticamento, confusione e irritabilità.
-Problemi cognitivi: Alcune evidenze indicano che l'esposizione all'ozono potrebbe essere associata a problemi cognitivi, come difficoltà di concentrazione e riduzione delle prestazioni cognitive.
 
 
 
@@ -233,8 +239,12 @@ Impatto socioeconomico: Gli effetti dannosi dell'ozono sulla salute umana posson
 
 
 
-L'ozono può causare irritazione agli occhi,
-Effetti sulla salute oculare: L'esposizione all'ozono può causare irritazione agli occhi, arrossamento, bruciore e sensazione di secchezza.
+
+
+
+
+
+
 
 
 
