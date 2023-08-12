@@ -7,19 +7,9 @@ import os
 
 folder = pathlib.Path("articles")
 
-for filepath in folder.rglob("*.md"):
-
-    with open(filepath, encoding='utf-8') as f:
-        content = f.read()
-
-    content_html = markdown.markdown(content, extensions=['markdown.extensions.tables'])
-
-    filepath_chunks = str(filepath).split('\\')
 
 
-
-    # GENERATE BREADCRUMBS ----------------------------------------------
-
+def generate_breadcrumbs(filepath_chunks):
     breadcrumbs = [f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
     
     breadcrumbs_hrefs = []
@@ -36,6 +26,53 @@ for filepath in folder.rglob("*.md"):
         breadcrumbs_html.append(html)
 
     breadcrumbs_html_formatted = [f' > {f}' for f in breadcrumbs_html]
+
+    return breadcrumbs_html_formatted
+
+
+for filepath in folder.rglob("*.md"):
+
+    with open(filepath, encoding='utf-8') as f:
+        content = f.read()
+
+    content_html = markdown.markdown(content, extensions=['markdown.extensions.tables', 'meta'])
+
+    md = markdown.Markdown(extensions=['meta'])
+    md.convert(content)
+
+    # content_html = '\n'.join(md.lines)
+    # content_html = '\n'.join(md.lines)
+
+    lines = '\n'.join(md.lines)
+
+    content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
+
+
+    # print(vars(md))
+    print(content_html)
+    print(md.Meta)
+    # for line in md.lines:
+    #     print(line)
+    # continue
+    # quit()
+    
+
+    filepath_chunks = str(filepath).split('\\')
+
+
+    # BREADCRUMBS  ---------------------------------------------
+    breadcrumbs = generate_breadcrumbs(filepath_chunks)
+
+
+    # PUBLICATION DATE  ----------------------------------------
+    publishing_date = 'xxx'
+    try: publishing_date = md.Meta['publishing_date'][0]
+    except: pass
+    print(publishing_date)
+    # quit()
+
+
+
 
 
 
@@ -147,6 +184,13 @@ for filepath in folder.rglob("*.md"):
     with open('components/header.html', encoding='utf-8') as f:
         header_html = f.read()
 
+            # <section class="breadcrumbs-section">
+            #     <div class="container-xl h-full">
+            #         <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+            #     </div>
+            # </section>
+            
+                # <span class="publishing-date">Data Pubblicazione: {publishing_date}</span>
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -165,13 +209,8 @@ for filepath in folder.rglob("*.md"):
                 </div>
             </section>
 
-            <section class="breadcrumbs-section">
-                <div class="container-xl h-full">
-                    <a href="/index.html">Home</a>{''.join(breadcrumbs_html_formatted)}
-                </div>
-            </section>
 
-            <section class="container-md">
+            <section class="container-md mt-48">
                 {content_html_formatted}
             </section>
 

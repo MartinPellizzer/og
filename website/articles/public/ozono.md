@@ -1,3 +1,7 @@
+---
+publishing_date: 12/08/2023
+---
+
 # Ozono: Tutto quello che volevi sapere su questo gas
 
 ![Ozono](/assets/images/ozono-generale.jpg "Ozono")
@@ -219,8 +223,6 @@ Ecco alcune applicazioni della sanificazione ad ozono.
 - **Abitazioni private**: Alcuni sistemi di sanificazione ad ozono vengono utilizzati nelle case per purificare l'aria e disinfettare gli ambienti.
 
 NOTA: L'uso dell'ozono per la sanificazione richede attenzione e competenza. L'ozono può essere dannoso per la salute umana, animale e vegetale se utilizzato scorrettamente.
-
-<!-- ## Quali sono gli effetti negativi dell'ozono? -->
 
 ## Quali sono i limiti di esposizione all'ozono per legge?
 
