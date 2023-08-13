@@ -49,8 +49,8 @@ for filepath in folder.rglob("*.md"):
 
 
     # print(vars(md))
-    print(content_html)
-    print(md.Meta)
+    # print(content_html)
+    # print(md.Meta)
     # for line in md.lines:
     #     print(line)
     # continue
@@ -68,7 +68,7 @@ for filepath in folder.rglob("*.md"):
     publishing_date = 'xxx'
     try: publishing_date = md.Meta['publishing_date'][0]
     except: pass
-    print(publishing_date)
+    # print(publishing_date)
     # quit()
 
 
@@ -156,7 +156,7 @@ for filepath in folder.rglob("*.md"):
     # for line in table_of_contents_html:
     # print(table_of_contents_html)
         
-    print()
+    # print()
 
     content_html_formatted = ''
 
@@ -164,7 +164,7 @@ for filepath in folder.rglob("*.md"):
     for line in content_html_with_ids.split('\n'):
         if not toc_inserted:
             if '<h2' in line:
-                print(line)
+                # print(line)
                 toc_inserted = True
                 content_html_formatted += table_of_contents_html
                 content_html_formatted += line
@@ -183,14 +183,7 @@ for filepath in folder.rglob("*.md"):
     
     with open('components/header.html', encoding='utf-8') as f:
         header_html = f.read()
-
-            # <section class="breadcrumbs-section">
-            #     <div class="container-xl h-full">
-            #         <a href="/index.html">Home</a>{''.join(breadcrumbs)}
-            #     </div>
-            # </section>
             
-                # <span class="publishing-date">Data Pubblicazione: {publishing_date}</span>
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -209,8 +202,16 @@ for filepath in folder.rglob("*.md"):
                 </div>
             </section>
 
+            <section class="breadcrumbs-section">
+                <div class="container-xl h-full">
+                    <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+                </div>
+            </section>
 
             <section class="container-md mt-48">
+                <span class="publishing-date">Autore: Ozonogroup Staff</span>
+                <span class="publishing-date">Data Pubblicazione: {publishing_date}</span>
+                <span class="publishing-date">Tempo Lettura: 10 min</span>
                 {content_html_formatted}
             </section>
 
