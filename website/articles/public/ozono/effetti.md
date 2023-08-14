@@ -77,8 +77,7 @@ l'O3 si forma quando gli inquinanti atmosferici primari (precursori), come ossid
 
 Come dimostrato in uno studio pubblicato dal Environmental Research Journal, vi è una relazione significativa tra le visite ospedaliere per l'asma (13%-15%) e la concentrazione di ozono in New Jersey, un'area che spesso supera lo standard nazionale consentito per l'O3. Questa associazione, confrontata con studi simili condotti in Canada, dimostra che il contributo di questo gas sull'asma è più forte nelle aree con concentrazioni di ozono più elevate.
 
-
-## 9 Influenza il clima 
+## 9. Influenza il clima 
 
 L'ozono troposferico (a livello del suolo), insieme ad altri inquinanti atmosferici, influenza il clima locale e globale. Contribuisce al riscaldamento dell'atmosfera in quanto agisce come un gas serra, intrappolando il calore. 
 
@@ -88,166 +87,15 @@ La presenza di ozono nella troposfera ha anche un effetto negativo sulla circola
 
 Inoltre, gli effetti dell'O3 si intrecciano spesso con quelli di altri inquinanti atmosferici, creando interazioni complesse che possono portare a impatti negativi ancora più significativi sulla qualità dell'aria, sul clima e sull'ambiente. Questo può provocare danni gravi agli ecosistemi terrestri e acquatici, compromettendo la biodiversità e la resilienza degli ecosistemi.
 
+## 10. Degrada i materiali 
 
-## - Effetti sul sistema nervoso (!!!!!!!!!!)
+L'ozono causa la degradazione della gomma, rendendola fragile, screpolata e debole. Questo danneggia prematuramente pneumatici, guarnizioni, cinghie di trasmissione e altri prodotti in gomma. Anche molti tipi di plastica, come il polietilene e il polipropilene, subiscono la rottura delle catene molecolari a causa dell'ozono, causando la perdita di flessibilità e resistenza. Persino gli elastomeri, come il neoprene e il silicone, subiscono un deterioramento fino a screpolarsi o addirittura a rompersi. 
 
-From the journal Reviews in the Neurosciences
+L'O3 influenza la resistenza elettrica dei materiali isolanti, causando un calo delle prestazioni elettriche e possibili guasti. Danneggia anche le superfici di vetro, con effetti negativi sull'opacità (perdita di trasparenza). Inoltre, causa la degradazione di materiali organici, come legno, carta e cuoio, riducendone la resistenza e integrità. Infine, sbiadisce, ingiallisce e riduce la resistenza delle fibre tessili, come quelle dell'abbigliamento, delle tende e degli arredi tessili.
 
-The effects of O3 are not restricted to the respiratory system or function – adverse effects within the central nervous system (CNS) such as decreased cognitive response, decrease in motor activity, headaches, disturbances in the sleep-wake cycle, neuronal dysfunctions, cell degeneration, and neurochemical alterations have also been described; furthermore, it has also been proposed that O3 could have epigenetic effects.
+Un altro effetto negativo della molecola di ozono è la corrosione e l'ossidazione dei metalli, soprattutto in presenza di umidità. Questi fenomeni corrosivi e ossidativi danneggiano le superfici dei metalli fino a ridurre la loro la durata. Anche i materiali ceramici subiscono effetti negativi sulla loro struttura e durata nel tempo se vengono aggrediti da questa molecola, sebbene essi siano generalmente più resisteniti.
 
-Gli effetti dell'O3 non sono limitati al sistema respiratorio o alla sua funzione: sono stati descritti anche effetti avversi nel sistema nervoso centrale (CNS), come diminuzione delle risposte cognitive, diminuzione dell'attività motoria, mal di testa, disturbi nel ciclo sonno-veglia, disfunzioni neuronali, degenerazione delle cellule e alterazioni neurochimiche; inoltre, è stata avanzata anche l'ipotesi che l'O3 possa avere effetti epigenetici.
-
-
-
-
-Effetti sul sistema nervoso: L'esposizione all'ozono può influenzare negativamente il sistema nervoso, contribuendo a sintomi come mal di testa, affaticamento, confusione e irritabilità.
-Problemi cognitivi: Alcune evidenze indicano che l'esposizione all'ozono potrebbe essere associata a problemi cognitivi, come difficoltà di concentrazione e riduzione delle prestazioni cognitive.
-
-
-
-
-
-Riduzione della capacità di lavoro: L'ozono può limitare la capacità delle persone di svolgere attività fisiche, soprattutto durante periodi di elevata concentrazione di ozono nell'aria.
-Riduzione dell'attività fisica all'aperto: Elevati livelli di ozono nell'aria possono portare alla raccomandazione di evitare l'attività fisica all'aperto, limitando così uno stile di vita sano.
-Rischio per i lavoratori all'aperto: Le persone che lavorano all'aperto, come gli agricoltori o i costruttori, sono esposte a livelli più elevati di ozono e possono essere a rischio di effetti dannosi sulla salute.
-Difficoltà respiratorie durante l'esercizio: L'esercizio fisico all'aperto in presenza di livelli elevati di ozono può aumentare la sensazione di affaticamento e la difficoltà respiratoria.
-
-
-
-
-
-
-Effetti sul sistema endocrino: Alcune ricerche suggeriscono che l'esposizione all'ozono potrebbe avere effetti sul sistema endocrino, influenzando la regolazione ormonale e il metabolismo.
-
-
-
-Effetti sulla salute riproduttiva: L'ozono può avere effetti negativi sulla salute riproduttiva, inclusa la riduzione della fertilità e il rischio di complicazioni durante la gravidanza.
-Effetti sulla crescita fetale: L'esposizione all'ozono durante la gravidanza potrebbe influenzare negativamente la crescita fetale e il benessere del feto.
-
-
-
-Mortalità: Elevati livelli di ozono nell'aria sono stati associati ad un aumento del rischio di mortalità prematura, in particolare tra le persone già affette da malattie cardiopolmonari.
-
-
-
-Maggior rischio per le comunità urbane: Le aree urbane possono sperimentare livelli più elevati di ozono a causa dell'inquinamento dell'aria da fonti veicolari, industriali e domestiche.
-
-
-
-Impatto socioeconomico: Gli effetti dannosi dell'ozono sulla salute umana possono avere un impatto socioeconomico significativo attraverso l'aumento dei costi sanitari, la perdita di giorni lavorativi e altre conseguenze economiche.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2. **Impatti sulla flora e la fauna:**
-
-
-
-
-
-
-- Effetti sulle foreste: 
-L'ozono può influire sulla salute delle foreste, causando il diradamento delle chiome degli alberi, riducendo la fotosintesi e compromettendo la capacità delle foreste di agire come serbatoi di carbonio.
-
-- Danni agli ecosistemi terrestri: 
-
-Gli ecosistemi naturali, come le foreste e le praterie, possono subire danni a causa dell'esposizione prolungata all'ozono troposferico. Questo può influenzare la biodiversità, alterare le dinamiche degli ecosistemi e compromettere la salute degli organismi che vi vivono.
-   
-
-
-- Impatto sugli ecosistemi terrestri e acquatici: 
-- Impatti sugli ecosistemi: 
-- Effetti sugli ecosistemi acquatici: 
-- Danneggiamento delle superfici acquatiche: 
-- Danneggiamento della flora acquatica: 
-- Effetti sulla biodiversità marina: 
-
-L'ozono può influenzare negativamente gli ecosistemi terrestri e acquatici, alterando le catene alimentari e danneggiando la biodiversità.
-L'ozono può influire sulle catene alimentari, causando problemi per la fauna selvatica e gli organismi acquatici.
-L'ozono presente nell'atmosfera può reagire con composti chimici rilasciati dalle attività umane, come l'ammoniaca, e formare composti inquinanti che finiscono per contaminare le acque dolci e marine. Questo può danneggiare la vita acquatica e alterare gli ecosistemi acquatici.
-Impatti sugli habitat acquatici: L'ozono atmosferico può diffondersi nelle acque superficiali, causando alterazioni dell'ecosistema acquatico e potenzialmente danneggiando organismi acquatici sensibili.
-L'ozono presente in atmosfera può essere trasportato anche in ambienti acquatici, come laghi e fiumi, dove può causare il degrado delle specie ittiche e degli ecosistemi acquatici.
-L'ozono atmosferico può essere trasportato anche nelle acque marine, danneggiando alghe e piante acquatiche e perturbando gli ecosistemi marini.
-
-Gli ecosistemi marini possono essere influenzati dall'ozono atmosferico, con potenziali conseguenze negative sulla vita marina e sulla catena alimentare oceanica.
-
-Inquinamento atmosferico e deposizione: L'ozono troposferico è spesso il risultato di reazioni chimiche tra precursori come gli ossidi di azoto (NOx) e i composti organici volatili (COV) inquinanti. Questi precursori possono essere trasportati attraverso il vento e depositarsi sulla superficie dell'oceano, influenzando la chimica dell'acqua.
-
-Ossidazione chimica: L'ozono può reagire con vari composti chimici nell'atmosfera e nell'acqua. Queste reazioni possono alterare la chimica dell'acqua marina, influenzando la disponibilità di nutrienti e la composizione chimica.
-
-Effetti sul plancton: L'ozono potrebbe avere effetti diretti o indiretti sulle comunità di plancton. Gli effetti diretti possono includere la modificazione della membrana cellulare e l'alterazione della funzione cellulare. Gli effetti indiretti possono derivare dalla variazione nella disponibilità di nutrienti o dall'alterazione delle relazioni trofiche.
-
-Effetti sugli organismi marini: Gli organismi marini, come i pesci e gli invertebrati, possono essere influenzati dalle sostanze chimiche derivate dall'ozono e dai suoi precursori. Questi composti possono entrare nell'acqua attraverso la deposizione atmosferica o attraverso il contatto diretto con l'acqua.
-
-Alterazione delle catene alimentari: Cambiamenti nelle comunità di plancton e negli organismi marini possono influenzare le catene alimentari marine, con possibili conseguenze su specie marine più grandi e sulle dinamiche dell'ecosistema.
-
-Rischi ecologici: L'ozono troposferico potrebbe aumentare il rischio di stress ambientale per gli organismi marini, specialmente in combinazione con altri fattori di stress come l'inquinamento chimico, l'aumento delle temperature dell'acqua e l'acidificazione degli oceani.
-
-Effetti sugli habitat costieri: Gli effetti dell'ozono troposferico possono estendersi anche agli habitat costieri, influenzando la vegetazione, la fauna e la chimica dell'acqua in queste aree.
-
-Necessità di ulteriori ricerche: Poiché gli effetti dell'ozono troposferico sugli ecosistemi marini sono meno studiati rispetto agli effetti sugli ecosistemi terrestri, c'è ancora bisogno di ulteriori ricerche per comprendere completamente l'entità e la portata di tali effetti.
-
-
-
-
-
-
-
-- Cambimenti nell'equilibrio ecologico: 
-- Impatti sulla biodiversità: 
-- Interferenze con i cicli biogeochimici: 
-- Effetti su ecosistemi sensibili: 
-- Impatto sugli ecosistemi: 
-- Impatto sulla biodiversità: 
-- Alterazione del ciclo biogeochimico: 
-- Disturbo dell'equilibrio naturale:
-- Impatto sul ciclo dell'azoto: 
-
-L'ozono può alterare gli equilibri ecologici poiché alcuni organismi possono essere più resistenti all'ozono rispetto ad altri. Ciò può portare a una proliferazione di specie più resistenti e a un declino di altre, causando uno squilibrio negli ecosistemi.
-Il danno alle piante a causa dell'ozono può influire sulla diversità vegetale, con conseguente impatto sugli organismi che dipendono da una varietà di piante per sopravvivere.
-L'ozono può influenzare i cicli biogeochimici, come il ciclo del carbonio e del azoto, attraverso il suo impatto sulle piante e sulla capacità di assorbire e sequestrare questi elementi.
-Gli ecosistemi naturali come le foreste di alta quota o le paludi possono essere particolarmente sensibili all'ozono, poiché possono trovarsi ad altitudini in cui la concentrazione di ozono è più elevata.
-Gli alti livelli di ozono possono influenzare gli ecosistemi forestali, causando danni alle piante, alle specie animali e ai microorganismi che costituiscono l'equilibrio ecologico.
-L'ozono troposferico può influenzare negativamente la biodiversità, poiché alcuni organismi sensibili possono essere danneggiati dai suoi effetti.
-Elevati livelli di ozono possono alterare i cicli naturali di elementi chimici importanti, come l'azoto e il carbonio, influenzando negativamente la composizione chimica dei suoli e degli ecosistemi terrestri.
-Gli alti livelli di ozono possono alterare gli equilibri naturali degli ecosistemi, portando alla dominanza di alcune specie a discapito di altre.
-Elevati livelli di ozono possono influenzare il ciclo dell'azoto, compromettendo la disponibilità di nutrienti per le piante e alterando l'equilibrio dei nutrienti nel suolo.
-
-
-
-
-
-
-
-
-
-
-
-
-During boreal summer, tropospheric ozone causes enhanced warming (>0.5°C) over polluted northern continental regions. Finally, the Arctic climate response to tropospheric ozone increases is large during fall, winter, and spring when ozone's lifetime is comparatively long and pollution transported from midlatitudes is abundant. The model indicates that tropospheric ozone could have contributed about 0.3°C annual average and about 0.4°C–0.5°C during winter and spring to the 20th-century Arctic warming
-
-
-
+L'ozono danneggia i materiali utilizzati in edilizia, come cemento, calcestruzzo e malta, influenzando la loro stabilità e durabilità. Causa anche la scomparsa di pigmenti e la perdita di lucentezza nei rivestimenti, vernici e inchiostri, il che porta a scolorimenti e degrado estetico. Infatti, come dimostra uno studio pubblicato dal Atmospheric Environment Journal, intitolato "The potential impact of ozone on materials in the U.K.", l'effetto dell'O3 sui costi di ripitturazione nel Regno Unito (UK) è stato stimato da £0 a £60 milioni all'anno per un cambiamento da 15 a 20 ppb di O3 e da £0 a £182 milioni all'anno per un cambiamento da 15 a 30 ppb di O3.
 
 
 
