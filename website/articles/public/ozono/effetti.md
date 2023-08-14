@@ -98,25 +98,3 @@ Un altro effetto negativo della molecola di ozono è la corrosione e l'ossidazio
 L'ozono danneggia i materiali utilizzati in edilizia, come cemento, calcestruzzo e malta, influenzando la loro stabilità e durabilità. Causa anche la scomparsa di pigmenti e la perdita di lucentezza nei rivestimenti, vernici e inchiostri, il che porta a scolorimenti e degrado estetico. Infatti, come dimostra uno studio pubblicato dal Atmospheric Environment Journal, intitolato "The potential impact of ozone on materials in the U.K.", l'effetto dell'O3 sui costi di ripitturazione nel Regno Unito (UK) è stato stimato da £0 a £60 milioni all'anno per un cambiamento da 15 a 20 ppb di O3 e da £0 a £182 milioni all'anno per un cambiamento da 15 a 30 ppb di O3.
 
 
-
-
-
-
-- Degrado dei materiali: 
-- Degrado dei materiali: 
-- Effetti su edifici e strutture storiche: 
-- Effetti su materiali sensibili all'ozono: 
-- Degrado dei materiali: 
-- Deterioramento dei materiali: 
-
-L'ozono troposferico può causare il deterioramento di materiali come gomma, plastica, tessuti, vernici e altri materiali sintetici. Ciò può portare a problemi economici, in quanto richiede la sostituzione o la riparazione frequente di oggetti danneggiati.
-L'ozono può causare il degrado di materiali come gomme, tessuti, vernici e altri materiali polimerici utilizzati negli edifici e nei manufatti.
-L'ozono può danneggiare edifici, monumenti e strutture storiche, provocando la corrosione dei materiali da costruzione e la decolorazione delle superfici.
-L'ozono può danneggiare materiali sensibili come le gomme sintetiche utilizzate in industria e automobili, riducendo la durata e la qualità di tali prodotti.
-L'ozono può causare il deterioramento dei materiali, come tessuti, gomme, plastiche e vernici, accelerando il processo di invecchiamento.
-L'ozono può causare il deterioramento dei materiali, tra cui gomma, plastica, tessuti e materiali da costruzione.
-
-
-
-
-
