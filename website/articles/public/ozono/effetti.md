@@ -98,3 +98,21 @@ Un altro effetto negativo della molecola di ozono è la corrosione e l'ossidazio
 L'ozono danneggia i materiali utilizzati in edilizia, come cemento, calcestruzzo e malta, influenzando la loro stabilità e durabilità. Causa anche la scomparsa di pigmenti e la perdita di lucentezza nei rivestimenti, vernici e inchiostri, il che porta a scolorimenti e degrado estetico. Infatti, come dimostra uno studio pubblicato dal Atmospheric Environment Journal, intitolato "The potential impact of ozone on materials in the U.K.", l'effetto dell'O3 sui costi di ripitturazione nel Regno Unito (UK) è stato stimato da £0 a £60 milioni all'anno per un cambiamento da 15 a 20 ppb di O3 e da £0 a £182 milioni all'anno per un cambiamento da 15 a 30 ppb di O3.
 
 
+## L'ozono è velenoso?
+
+No, l'ozono non è un gas velenoso in termini medici e tossicologici. La parola "velenoso" è associata a sostanze che causano danni gravi (o morte) a dosi relativamente basse e a tempi di esposizione relativamente brevi. L'ozono non rientra in questa categoria.
+
+Detto questo, possiamo invece definire l'ozono come un gas tossico (o irritante), in quanto è dannoso per le persone e gli animali se presente nell'atmosfera in concetrazioni elevate. L'O3 che si forma naturalmente nella troposfera (a livello del suolo) non raggiunge mai concentrazioni così elevate da poter causare danni gravi agli esseri viventi in tempi brevi. In condizioni standard, l'ozono a livello del suolo è presente a concentrazioni tra i 0,02 e i 0,05 ppm, ma dovrebbe essere presente a concentrazioni superiori a 1,00 ppm (20-50 volte tanto) per poter avere gli stessi effetti di una sostanza velenosa.
+
+Tuttavia, bisogna prestare molta attenzione agli ambienti che vengono sanificati utilizzando generatori di ozono (ozonizzatori). Infatti, per eliminare batteri e altri microrganismi patogeni, spesso si usano concentrazioni di ozono superiori ad 1,00 ppm. A concentrazioni così elevate, l'ozono diventa molto tossico per l'organismo e provoca danni significativi in tempi brevi.
+
+## A che concentrazione l'ozono diventa pericoloso per la salute?
+
+L'ozono è pericoloso per la salute se presente in concentrazione superiore a 100 μg/m3 (microgrammi per metro cubo), che equivale a 100 ppb o 0.1 ppm. Questo limite è fissato dall'Organizzazione Mondiale della Sanità (OMS), la quale stabilisce le soglie di sicurezza (o standard di qualità dell'aria) per l'ozono e altri gas.
+
+L'OMS raccomanda un livello massimo di ozono di 100 microgrammi per metro cubo (μg/m3) per un tempo di esposizione massimo di 8 ore nell'arco di una giornata. Sopra questa soglia potrebbero verificarsi effetti negativi sulla salute umana, specialmente nei gruppi sensibili come bambini, anziani e persone con problemi respiratori preesistenti.
+
+Ci sono anche enti che fissano limiti di esposizione più restrittivi, come l'Agenzia per la Protezione dell'Ambiente (EPA). Questa agenzia, in accordo con quanto stabilito dal National Ambient Air Quality Standard (NAAQS), sostiene che il livello massimo di ozono nell'aria (misurato come media oraria) non dovrebbe superare i 0,070 ppm (70 ppb) nel periodo di 8 ore.
+
+Comunque, come regola generale, se senti odore di ozono nell'aria vuol dire che la sua concentrazione è già sufficientemente elevata per fare male alla tua salute. In questo caso, è consigliabile allontanarsi dall'area che presenta tale concentrazione. 
+
