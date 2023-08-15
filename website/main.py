@@ -121,7 +121,7 @@ for filepath in folder.rglob("*.md"):
     #     print(x)
 
     table_of_contents_html += '<div class="toc">'
-    table_of_contents_html += '<span class="toc-title">Table of Contents</span>'
+    table_of_contents_html += '<span class="toc-title">Tabella dei Contenuti</span>'
     table_of_contents_html += '<ul>'
 
     toc_li = []

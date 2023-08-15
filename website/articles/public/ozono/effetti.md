@@ -2,21 +2,15 @@
 
 L'ozono (O3) è un gas che, se presente in elevate quantità, provoca danni alla salute delle persone, all'ambiente (flora, fauna e clima), e ai materiali con i quali entra in contatto.
 
-In questo articolo discuteremo nel dettaglio i problemi provocati dall'O3 elencati qui sotto.
+Questo gas causa infiammazioni nelle vie respiratorie, rendendo le persone più sensibili agli allergeni e alle sostanze inquinanti, il che è particolarmente pericoloso per chi soffre di asma. Danneggia la funzione polmonare, causando infiammazione, aumentando la reattività bronchiale e riducendo la capacità dei polmoni di ottenere ossigeno. Inoltre, un'esposizione prolungata indebolisce il sistema immunitario, aumentando la suscettibilità a infezioni respiratorie e altre malattie.
 
-1. **Infiamma le vie respiratorie:** L'ozono in elevate quantità causa infiammazioni nelle vie respiratorie, rendendo le persone più sensibili agli allergeni e alle sostanze inquinanti. Questo è particolarmente pericoloso per chi soffre di asma.
-2. **Danneggia la funzione polmonare:** L'esposizione a concentrazioni elevate di ozono danneggia la funzione polmonare, causando infiammazione, aumentando la reattività bronchiale e riducendo la capacità dei polmoni di ottenere ossigeno.
-3. **Riduce le funzioni immunitarie:** L'esposizione prolungata all'ozono indebolisce il sistema immunitario, aumentando la suscettibilità a infezioni respiratorie e altre malattie.
-4. **Fa male al sistema cardiovascolare:** L'ozono aumenta il rischio di malattie cardiovascolari, inclusa l'ipertensione, l'aterosclerosi e l'infiammazione delle arterie, aumentando anche il rischio di aritmie, infarti e ictus.
-5. **Irrita gli occhi:** L'esposizione all'ozono irrita gli occhi, causando arrossamento, lacrimazione e bruciore, compromettendo la vista e aumentando il rischio di congiuntivite.
-6. **Limita la crescita delle piante:** L'ozono danneggia le foglie delle piante riducendo la fotosintesi, compromettendo la crescita, la produzione di cibo e la qualità delle colture, influenzando negativamente l'agricoltura.
-7. **Intossica gli animali:** L'ozono irrita le vie respiratorie degli animali, causando tosse, starnuti e infiammazione dei polmoni. Gli animali esposti sono più suscettibili alle infezioni e possono sperimentare una riduzione delle loro capacità fisiche.
-8. **Inquina l'aria:** L'ozono è un inquinante atmosferico che contribuisce allo smog, riducendo la qualità dell'aria nelle aree urbane, soprattutto in presenza di precursori chimici.
-9. **Impatta negativamente il clima :** L'ozono troposferico influenza il clima locale e globale, contribuendo al riscaldamento dell'atmosfera e influenzando la circolazione atmosferica, la distribuzione delle precipitazioni e la formazione di piogge acide.
-10. **Degrada i materiali :** L'ozono causa la degradazione di materiali come gomma, plastica, tessuti, metalli e altri materiali utilizzati in vari settori, compromettendo la loro durata e resistenza.
+L'ozono aumenta il rischio di malattie cardiovascolari, inclusa l'ipertensione, l'aterosclerosi e l'infiammazione delle arterie, aumentando anche il rischio di aritmie, infarti e ictus. È in grado di irritare gli occhi e causa arrossamento, lacrimazione e bruciore, compromettendo la vista e aumentando il rischio di congiuntivite.
 
-Per completezza, precisiamo che tutti i gas sono pericolosi se presenti in elevate concentrazioni. Quindi è indispensabile prendere le dovute precauzioni anche con essi ed evitare esposizioni novice.
+Il gas O3 danneggia anche l'ambiente, come le foglie delle piante riducendo la fotosintesi e interferendo sulla crescita, produzione di cibo e qualità delle colture, influenzando negativamente l'agricoltura. Irrita le vie respiratorie degli animali, causando tosse, starnuti e infiammazione dei polmoni, che diventano più suscettibili alle infezioni e possono sperimentare una riduzione delle loro capacità fisiche.
 
+L'ozono è un inquinante atmosferico che contribuisce allo smog e diminuisce la qualità dell'aria nelle aree urbane, soprattutto in presenza di precursori chimici. Inoltre, l'O3 troposferico influenza il clima locale e globale, contribuendo al riscaldamento dell'atmosfera e influenzando la circolazione atmosferica, la distribuzione delle precipitazioni e la formazione di piogge acide.
+
+Infine, questo gas causa la degradazione di materiali come gomma, plastica, tessuti, metalli e altri materiali utilizzati in vari settori, compromettendo la loro durata e resistenza. In questo articolo, analizzeremo tutti questi effetti negativi dell'ozono sulla salute, sull'abmiente e sui materiali.
 
 ## 1. Infiamma le vie respiratorie
 
@@ -25,6 +19,8 @@ Il gas ozono, se respirato in elevate quantità, causa infiammazioni nelle vie r
 Infatti, alti livelli di ozono causano irritazione al naso e alla gola, provocando sintomi lievi come tosse, starnuti e congestione nasale, oppure sintomi più gravi come raucedine, mal di gola e difficoltà respiratoria. In particolare, le persone con asma sono molto sensibili all'ozono. L'eccessiva esposizione a questo gas causa negli asmatici un peggioramento dei sintomi dell'asma, come dispnea, sibilio, oppressione toracica e bronchite cronica. Inoltre, può anche contribuire all'aumento delle reazioni allergiche e all'insorgenza dell'asma allergico (specialmente nei bamnini).
 
 L'ozono danneggia le vie respiratorie a causa di un complesso processo che incluce infiammazioni, stress ossidativo e varie reazioni chimiche. Infatti, questo gas è un ossidante molto reattivo ed è in grado di innescare una risposta infiammatoria quando entra in contatto con le cellule epiteliari delle vie respiratorie e con le cellule immunitarie come i macrofagi. Può anche causare danni cellulari ossidando i lipidi, le proteine e gli acidi nucleici, provocando un forte stress ossidativo che aumenta ancora di più l'infiammazione. Infine, può reagire con varie biomolecole e formare aldeidi (come l'acroleina), che sono noti per irritare naso e gola, contribuendo ancora una volta all'infiammazione.
+
+![L'ozono infiamma vie respiratorie](/assets/images/ozono-effetti-infiamma-vie-respiratorie.jpg "L'ozono infiamma le vie respiratorie")
 
 ## 2. Danneggia la funzione polmonare
 
@@ -36,7 +32,9 @@ Non solo alte concentrazioni di l'ozono causano danni ai tessuti polmonari e rid
 
 Da notare che i bambini esposti all'ozono possono sperimentare ritardi nella crescita polmonare normale e questo può avere effetti a lungo termine sulla loro salute. I bambini sono più vulnerabili agli effetti di questo gas a causa del fatto che i loro polmoni sono ancora in via di sviluppo e che hanno la tendenza a respirare più velocemente rispetto agli adulti. Questo porta a un'assunzione maggiore di ozono per unità di peso corporeo.
 
-## 3. Riduce le funzioni immunitarie
+![L'ozono danneggia la funzione polmonare](/assets/images/ozono-effetti-danneggia-funzione-polmonare.jpg "L'ozono danneggia la funzione polmonare")
+
+## 3. Riduce le difese immunitarie
 
 L'esposizione prolungata all'ozono indebolisce il sistema immunitario e aumenta la suscettibilità a infezioni respiratorie e altre malattie. Infatti, citando uno studio pubblicato dal Proceedings of the American Thoracic Society, "L'inalazione di O3 è associata a un'alterata difesa antibatterica dell'ospite, in parte correlata alla rottura della barriera epiteliale e all'efficace fagocitosi dei patogeni".
 
