@@ -97,15 +97,6 @@ Un altro effetto negativo della molecola di ozono è la corrosione e l'ossidazio
 
 L'ozono danneggia i materiali utilizzati in edilizia, come cemento, calcestruzzo e malta, influenzando la loro stabilità e durabilità. Causa anche la scomparsa di pigmenti e la perdita di lucentezza nei rivestimenti, vernici e inchiostri, il che porta a scolorimenti e degrado estetico. Infatti, come dimostra uno studio pubblicato dal Atmospheric Environment Journal, intitolato "The potential impact of ozone on materials in the U.K.", l'effetto dell'O3 sui costi di ripitturazione nel Regno Unito (UK) è stato stimato da £0 a £60 milioni all'anno per un cambiamento da 15 a 20 ppb di O3 e da £0 a £182 milioni all'anno per un cambiamento da 15 a 30 ppb di O3.
 
-
-## L'ozono è velenoso?
-
-No, l'ozono non è un gas velenoso in termini medici e tossicologici. La parola "velenoso" è associata a sostanze che causano danni gravi (o morte) a dosi relativamente basse e a tempi di esposizione relativamente brevi. L'ozono non rientra in questa categoria.
-
-Detto questo, possiamo invece definire l'ozono come un gas tossico (o irritante), in quanto è dannoso per le persone e gli animali se presente nell'atmosfera in concetrazioni elevate. L'O3 che si forma naturalmente nella troposfera (a livello del suolo) non raggiunge mai concentrazioni così elevate da poter causare danni gravi agli esseri viventi in tempi brevi. In condizioni standard, l'ozono a livello del suolo è presente a concentrazioni tra i 0,02 e i 0,05 ppm, ma dovrebbe essere presente a concentrazioni superiori a 1,00 ppm (20-50 volte tanto) per poter avere gli stessi effetti di una sostanza velenosa.
-
-Tuttavia, bisogna prestare molta attenzione agli ambienti che vengono sanificati utilizzando generatori di ozono (ozonizzatori). Infatti, per eliminare batteri e altri microrganismi patogeni, spesso si usano concentrazioni di ozono superiori ad 1,00 ppm. A concentrazioni così elevate, l'ozono diventa molto tossico per l'organismo e provoca danni significativi in tempi brevi.
-
 ## A che concentrazione l'ozono diventa pericoloso per la salute?
 
 L'ozono è pericoloso per la salute se presente in concentrazione superiore a 100 μg/m3 (microgrammi per metro cubo), che equivale a 100 ppb o 0.1 ppm. Questo limite è fissato dall'Organizzazione Mondiale della Sanità (OMS), la quale stabilisce le soglie di sicurezza (o standard di qualità dell'aria) per l'ozono e altri gas.
@@ -116,3 +107,18 @@ Ci sono anche enti che fissano limiti di esposizione più restrittivi, come l'Ag
 
 Comunque, come regola generale, se senti odore di ozono nell'aria vuol dire che la sua concentrazione è già sufficientemente elevata per fare male alla tua salute. In questo caso, è consigliabile allontanarsi dall'area che presenta tale concentrazione. 
 
+## L'ozono è velenoso?
+
+No, l'ozono non è un gas velenoso in termini medici e tossicologici. La parola "velenoso" è associata a sostanze che causano danni gravi (o morte) a dosi relativamente basse e a tempi di esposizione relativamente brevi. L'ozono non rientra in questa categoria.
+
+Detto questo, possiamo invece definire l'ozono come un gas tossico (o irritante), in quanto è dannoso per le persone e gli animali se presente nell'atmosfera in concetrazioni elevate. L'O3 che si forma naturalmente nella troposfera (a livello del suolo) non raggiunge mai concentrazioni così elevate da poter causare danni gravi agli esseri viventi in tempi brevi. In condizioni standard, l'ozono a livello del suolo è presente a concentrazioni tra i 0,02 e i 0,05 ppm, ma dovrebbe essere presente a concentrazioni superiori a 1,00 ppm (20-50 volte tanto) per poter avere gli stessi effetti di una sostanza velenosa.
+
+Tuttavia, bisogna prestare molta attenzione agli ambienti che vengono sanificati utilizzando generatori di ozono (ozonizzatori). Infatti, per eliminare batteri e altri microrganismi patogeni, spesso si usano concentrazioni di ozono superiori ad 1,00 ppm. A concentrazioni così elevate, l'ozono diventa molto tossico per l'organismo e provoca danni significativi in tempi brevi.
+
+## L'ozono è cancerogeno?
+
+No, l'ozono (O3) non è classificato come cancerogeno, in quanto non vi sono (ad oggi) evidenze del fatto che vi sia una correlazione tra questo gas e il rischio di cancro, come ha concluso l'EPA nel 2020.
+
+Detto questo, va specificato che l'ozono è comunque un componente chiave dell'inquinamento (smog atmosferico), il quale è classificato come cancerogeno di Gruppo 1 (Cancerogeno per l’uomo) dalla IARC (2016). Purtroppo però, la stessa IARC non ha ancora effettuato una valutazione accurata sulla possibilità di cancerogenicità da parte dell'ozono (inteso come gas isolato e non come componente dello smog).
+
+Invece, sebbene l'ozono in sé non sia considerato cancerogeno, può reagire con altre molecole e creare composti cancerogeni. Per esempio, l'O3 presente nell'atmosfera può generare una serie di prodotti chimici, inclusi aldeidi, chetoni, composti organici volatili (COV), idrocarburi policiclici aromatici (IPA) e perossiacetil nitrato (PAN), acluni dei quali sono noti da molto tempo per esser cancerogeni.
