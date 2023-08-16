@@ -42,6 +42,8 @@ L'ozono danneggia in modo diretto le cellule immunitarie, compresi i macrofagi e
 
 Inoltre, quando l'ozono reagisce con le membrane cellulari di varie molecole biologiche, genera radicali liberi e specie reattive dell'ossigeno. Questi radicali possono danneggiare il DNA, le proteine e i lipidi delle cellule immunitarie, compromettendo la loro funzione e influenzando la risposta immunitaria. Per di più, l'O3 influenza anche la produzione e la regolazione di citochine, le molecole che mettono in comunicazione le cellule immunitarie. Questo fa si che il corpo sia meno in grado di coordinare reazioni efficaci contro le infezioni.
 
+![L'ozono riduce le difese immunitarie](/assets/images/ozono-effetti-difese-immunitarie.jpg "L'ozono riduce le difese immunitarie")
+
 ## 4. Fa male al sistema cardiovascolare
 
 Respirare ozono aumenta il rischio di malattie cardiovascolari, come l'ipertensione, aterosclerosi e infiammazioni delle arterie. Inoltre, inalare questo gas incrementa anche il rischio di malattie cardiache, come aritmie, infarto e ictus (attacchi di cuore).
@@ -52,6 +54,8 @@ Nello specifico, l'inalazione di elevate concentrazioni di ozono danneggia le pa
 
 A questo, si aggiunge il fatto che l'ozono causa vasocostrizione (restringimento dei vasi sanguigni), il che porta ad un aumento della pressione arteriosa. Questo genera ulteriore stress sul sistema cardiovascolare. Questo è particolarmente pericoloso per le persone che soffrono già di malattie cardiovascolari, come l'ipertensione o l'insufficienza cardiaca. Queste persone possone essere particolarmente sensibili agli effetti dannosi dell'ozono, il quale può aggravare i sintomi e peggiorare queste condizioni, aumentando il rischio di eventi cardiaci acuti come l'infarto del miocardio.
 
+![L'ozono fa male al sistema cardiovascolare](/assets/images/ozono-effetti-sistema-cardiovascolare.jpg "L'ozono fa male al sistema cardiovascolare")
+
 ## 5. Irrita gli occhi
 
 Un eccessiva esposizione all'ozono causa irritazione agli occhi, con sintomi come arrossamento, lacrimazione e bruciore, gli stessi sintomi che si verificano quando si entra in contatto con sostanze irritanti. Questo accade perché l'ozono è un forte ossidante e quindi può reagire chimicamente con le cellule degli occhi, causando una risposta infiammatoria nei tessuti oculari.
@@ -61,6 +65,8 @@ Troppo ozono causa anche sensazioni di secchezza, disagio e prurito agli occhi. 
 Alti livelli di ozono aumentano il rischio di sviluppare congiuntivite, un'infiammazione della membrana trasparente che copre la parte anteriore dell'occhio e la superficie interna delle palpebre. I sintomi tipici includono rossore, gonfiore e secrezione di muco dagli occhi. Inoltre, compromettendo la barriera protettiva degli occhi, si aumenta anche il rischio di infezioni e irritazioni.
 
 È importante sottolineare che le persone con condizioni preesistenti come congiuntivite, allergie oculari o altre patologie oculari, sono generalmente più suscettibili agli effetti dannosi dell'ozono. Infine, va puntualizzato che l'esposizione ripetuta all'ozono nel tempo porta a danni oculari cumulativi. Ciò significa che anche se una singola esposizione potrebbe non causare danni gravi, l'esposizione continua può portare a danni oculari progressivi e permanenti.
+
+![L'ozono irrita gli occhi](/assets/images/ozono-effetti-occhi.jpg "L'ozono irrita gli occhi")
 
 ## 6. Limita la crescita delle piante
 
@@ -74,6 +80,8 @@ L'esposizione prolungata all'ozono causa un indebolimento generale delle piante,
 
 In una ricerca pubblicato dal "Plant, Cell & Environment journal", si nota che le piante cresciute in un'atmosfera arricchita di ozono subiscono diversi cambiamenti biochimici. Queste reazioni includono aumenti nelle attività degli enzimi associati ai meccanismi di difesa generale delle piante. Infatti, l'esposizione all'ozono spesso provoca un aumento nella produzione dell'ormone vegetale etilene, così come cambiamenti nel metabolismo delle poliammine e un aumento delle attività di diversi enzimi delle vie metaboliche dei fenilpropanoidi e dei flavonoidi. Aumentano anche le attività del superossido dismutasi e delle perossidasi che proteggono le cellule dai danni ossidativi causati da radicali idrossile, H2O2 e superossidi.
 
+![L'ozono limita la crescita delle piante](/assets/images/ozono-effetti-piante.jpg "L'ozono limita la crescita delle piante")
+
 ## 7. Intossica gli animali
 
 L'ozono è un gas tossico per gli animali, dove per animali intendiamo soprattutto quelli selvatici (fauna), ma anche per quelli domestici. Tra questi animali sono inclusi i mammiferi, gli uccelli, i rettili, gli anfibi e gli insetti.  
@@ -84,6 +92,8 @@ Una lunga esposizione all'ozono indebolisce il sistema immunitario degli animali
 Journal of Toxicology and Environmental Health chimato "Ozone: An overview of its toxicity in man and animals", sono presenti difetti nella difesa contro le infezioni trasportate dall'aria negli animali, che diventano più suscettibili alle infezioni trasportate dall'aria dopo l'esposizione all'ozono. 
 
 Inoltre, l'O3 influenza gli animali selvatici anche in modo indiretto. Per esempio, gli effetti negativi di questo gas sulla flora riducono la disponibilità di cibo e habitat per la fauna, specialmente per gli erbivori. Ciò porta a una riduzione della biodiversità, con possibili impatti sulla catena alimentare e su interi ecosistemi.
+
+![L'ozono intossica gli animali](/assets/images/ozono-effetti-animali.jpg "L'ozono intossica gli animali")
 
 ## 8. Inquina l'aria
 
