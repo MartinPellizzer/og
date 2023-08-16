@@ -30,101 +30,44 @@ def generate_breadcrumbs(filepath_chunks):
     return breadcrumbs_html_formatted
 
 
-for filepath in folder.rglob("*.md"):
-
-    with open(filepath, encoding='utf-8') as f:
-        content = f.read()
-
-    content_html = markdown.markdown(content, extensions=['markdown.extensions.tables', 'meta'])
-
-    md = markdown.Markdown(extensions=['meta'])
-    md.convert(content)
-
-    # content_html = '\n'.join(md.lines)
-    # content_html = '\n'.join(md.lines)
-
-    lines = '\n'.join(md.lines)
-
-    content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
-
-
-    # print(vars(md))
-    # print(content_html)
-    # print(md.Meta)
-    # for line in md.lines:
-    #     print(line)
-    # continue
-    # quit()
-    
-
-    filepath_chunks = str(filepath).split('\\')
-
-
-    # BREADCRUMBS  ---------------------------------------------
-    breadcrumbs = generate_breadcrumbs(filepath_chunks)
-
-
-    # PUBLICATION DATE  ----------------------------------------
-    publishing_date = 'xxx'
-    try: publishing_date = md.Meta['publishing_date'][0]
-    except: pass
-    # print(publishing_date)
-    # quit()
-
-
-
-
-
-
-    # GENERATE TABLE OF CONTENTS ----------------------------------------
-
+def generate_toc(content_html):
     table_of_contents_html = ''
 
-    
+    # get list of headers and generate IDs
+    headers = []
     content_html_with_ids = ''
     current_id = 0
     for line in content_html.split('\n'):
         if '<h2>' in line:
+            headers.append(line)
             content_html_with_ids += (line.replace('<h2>', f'<h2 id="{current_id}">'))
             current_id +=1
         elif '<h3>' in line:
+            headers.append(line)
             content_html_with_ids += (line.replace('<h3>', f'<h3 id="{current_id}">'))
             current_id +=1
         elif '<h4>' in line:
+            headers.append(line)
             content_html_with_ids += (line.replace('<h4>', f'<h4 id="{current_id}">'))
             current_id +=1
         elif '<h5>' in line:
+            headers.append(line)
             content_html_with_ids += (line.replace('<h5>', f'<h5 id="{current_id}">'))
             current_id +=1
         elif '<h6>' in line:
+            headers.append(line)
             content_html_with_ids += (line.replace('<h6>', f'<h6 id="{current_id}">'))
             current_id +=1
         else:
             content_html_with_ids += (line)
         content_html_with_ids += '\n'
 
-
-    headers = []
-    for line in content_html.split('\n'):
-        if '<h2>' in line:
-            headers.append(line)
-        elif '<h3>' in line:
-            headers.append(line)
-        elif '<h4>' in line:
-            headers.append(line)
-        elif '<h5>' in line:
-            headers.append(line)
-        elif '<h6>' in line:
-            headers.append(line)
-
-    # for x in headers:
-    #     print(x)
+    # generate table
+    toc_li = []
 
     table_of_contents_html += '<div class="toc">'
     table_of_contents_html += '<span class="toc-title">Tabella dei Contenuti</span>'
     table_of_contents_html += '<ul>'
-
-    toc_li = []
     
     last_header = '<h2>'
     for i, line in enumerate(headers):
@@ -153,11 +96,7 @@ for filepath in folder.rglob("*.md"):
     table_of_contents_html += '</ul>'
     table_of_contents_html += '</div>'
 
-    # for line in table_of_contents_html:
-    # print(table_of_contents_html)
-        
-    # print()
-
+    # insert table in article
     content_html_formatted = ''
 
     toc_inserted = False
@@ -171,15 +110,42 @@ for filepath in folder.rglob("*.md"):
                 continue
         content_html_formatted += line
 
-        # print(line)
+    return content_html_formatted
 
-    # content_html_formatted = []
-    # for line in content_html.split('\n'):
-    #     if 'NOTA:' in line:
-    #         line = line.replace('<p>', '<p class="nota">').replace('NOTA: ', '')
-    #     content_html_formatted.append(line)
 
-    # content_html = '\n'.join(content_html_formatted)
+for filepath in folder.rglob("*.md"):
+
+    with open(filepath, encoding='utf-8') as f:
+        content = f.read()
+
+    content_html = markdown.markdown(content, extensions=['markdown.extensions.tables', 'meta'])
+
+    md = markdown.Markdown(extensions=['meta'])
+    md.convert(content)
+
+
+    lines = '\n'.join(md.lines)
+
+    content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
+
+
+    filepath_chunks = str(filepath).split('\\')
+
+
+    # BREADCRUMBS  ---------------------------------------------
+    breadcrumbs = generate_breadcrumbs(filepath_chunks)
+
+    # READING TIME  ---------------------------------------------
+    reading_time = len(content.split(' ')) // 200
+
+    # PUBLICATION DATE  ----------------------------------------
+    publishing_date = ''
+    try: publishing_date = md.Meta['publishing_date'][0]
+    except: pass
+
+    # GENERATE TABLE OF CONTENTS ----------------------------------------
+    toc_html = generate_toc(content_html)
+    
     
     with open('components/header.html', encoding='utf-8') as f:
         header_html = f.read()
@@ -208,11 +174,17 @@ for filepath in folder.rglob("*.md"):
                 </div>
             </section>
 
-            <section class="container-md mt-48">
-                <span class="publishing-date">Autore: Ozonogroup Staff</span>
-                <span class="publishing-date">Data Pubblicazione: {publishing_date}</span>
-                <span class="publishing-date">Tempo Lettura: 10 min</span>
-                {content_html_formatted}
+            <section class="meta-section mt-48">
+                <div class="container-md h-full">
+                    <div class="flex justify-between">
+                        <span>Ozonogroup Staff • {publishing_date}</span>
+                        <span>Tempo Lettura: {reading_time} min</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-md">
+                {toc_html}
             </section>
 
             <section class="footer-section">

@@ -1,4 +1,10 @@
+---
+publishing_date: 16/08/2023
+---
+
 # 10 Effetti Dannosi dell'Ozono: Salute, Ambiente e Materiali
+
+![Effetti dannosi dell'ozono sulla salute, sull'ambiente e sui materiali](/assets/images/ozono-effetti.jpg "Effetti dannosi dell'ozono sulla salute, sull'ambiente e sui materiali")
 
 L'ozono (O3) è un gas che, se presente in elevate quantità, provoca danni alla salute delle persone, all'ambiente (flora, fauna e clima), e ai materiali con i quali entra in contatto.
 
@@ -115,6 +121,8 @@ La presenza di ozono nella troposfera ha anche un effetto negativo sulla circola
 
 Inoltre, gli effetti dell'O3 si intrecciano spesso con quelli di altri inquinanti atmosferici, creando interazioni complesse che possono portare a impatti negativi ancora più significativi sulla qualità dell'aria, sul clima e sull'ambiente. Questo può provocare danni gravi agli ecosistemi terrestri e acquatici, compromettendo la biodiversità e la resilienza degli ecosistemi.
 
+![L'ozono impatta negativamente il clima](/assets/images/ozono-effetti-clima.jpg "L'ozono impatta negativamente il clima")
+
 ## 10. Degrada i materiali 
 
 L'ozono causa la degradazione della gomma, rendendola fragile, screpolata e debole. Questo danneggia prematuramente pneumatici, guarnizioni, cinghie di trasmissione e altri prodotti in gomma. Anche molti tipi di plastica, come il polietilene e il polipropilene, subiscono la rottura delle catene molecolari a causa dell'ozono, causando la perdita di flessibilità e resistenza. Persino gli elastomeri, come il neoprene e il silicone, subiscono un deterioramento fino a screpolarsi o addirittura a rompersi. 
@@ -124,6 +132,8 @@ L'O3 influenza la resistenza elettrica dei materiali isolanti, causando un calo 
 Un altro effetto negativo della molecola di ozono è la corrosione e l'ossidazione dei metalli, soprattutto in presenza di umidità. Questi fenomeni corrosivi e ossidativi danneggiano le superfici dei metalli fino a ridurre la loro la durata. Anche i materiali ceramici subiscono effetti negativi sulla loro struttura e durata nel tempo se vengono aggrediti da questa molecola, sebbene essi siano generalmente più resisteniti.
 
 L'ozono danneggia i materiali utilizzati in edilizia, come cemento, calcestruzzo e malta, influenzando la loro stabilità e durabilità. Causa anche la scomparsa di pigmenti e la perdita di lucentezza nei rivestimenti, vernici e inchiostri, il che porta a scolorimenti e degrado estetico. Infatti, come dimostra uno studio pubblicato dal Atmospheric Environment Journal, intitolato "The potential impact of ozone on materials in the U.K.", l'effetto dell'O3 sui costi di ripitturazione nel Regno Unito (UK) è stato stimato da £0 a £60 milioni all'anno per un cambiamento da 15 a 20 ppb di O3 e da £0 a £182 milioni all'anno per un cambiamento da 15 a 30 ppb di O3.
+
+![L'ozono degrada i materiali](/assets/images/ozono-effetti-materiali.jpg "L'ozono degrada i materiali")
 
 ## A che concentrazione l'ozono diventa pericoloso per la salute?
 
