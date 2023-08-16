@@ -103,6 +103,8 @@ l'O3 si forma quando gli inquinanti atmosferici primari (precursori), come ossid
 
 Come dimostrato in uno studio pubblicato dal Environmental Research Journal, vi è una relazione significativa tra le visite ospedaliere per l'asma (13%-15%) e la concentrazione di ozono in New Jersey, un'area che spesso supera lo standard nazionale consentito per l'O3. Questa associazione, confrontata con studi simili condotti in Canada, dimostra che il contributo di questo gas sull'asma è più forte nelle aree con concentrazioni di ozono più elevate.
 
+![L'ozono inquina l'aria](/assets/images/ozono-effetti-aria.jpg "L'ozono inquina l'aria")
+
 ## 9. Impatta negativamente il clima 
 
 L'ozono troposferico (a livello del suolo), insieme ad altri inquinanti atmosferici, influenza il clima locale e globale. Contribuisce al riscaldamento dell'atmosfera in quanto agisce come un gas serra, intrappolando il calore. 
