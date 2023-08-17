@@ -224,6 +224,10 @@ Ecco alcune applicazioni della sanificazione ad ozono.
 
 NOTA: L'uso dell'ozono per la sanificazione richede attenzione e competenza. L'ozono può essere dannoso per la salute umana, animale e vegetale se utilizzato scorrettamente.
 
+## Quali sono gli effetti dannosi dell'ozono?
+
+L'ozono, se presente in alte concentrazioni, ha effetti dannosi sulla salute dell'essere umano, sull'ecosistema, e sui materiali.
+
 ## Quali sono i limiti di esposizione all'ozono per legge?
 
 I limiti dell'ozono per legge variano da paese a paese. Ecco alcune indicazioni generali:

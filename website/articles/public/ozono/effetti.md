@@ -26,7 +26,9 @@ Infatti, alti livelli di ozono causano irritazione al naso e alla gola, provocan
 
 L'ozono danneggia le vie respiratorie a causa di un complesso processo che incluce infiammazioni, stress ossidativo e varie reazioni chimiche. Infatti, questo gas è un ossidante molto reattivo ed è in grado di innescare una risposta infiammatoria quando entra in contatto con le cellule epiteliari delle vie respiratorie e con le cellule immunitarie come i macrofagi. Può anche causare danni cellulari ossidando i lipidi, le proteine e gli acidi nucleici, provocando un forte stress ossidativo che aumenta ancora di più l'infiammazione. Infine, può reagire con varie biomolecole e formare aldeidi (come l'acroleina), che sono noti per irritare naso e gola, contribuendo ancora una volta all'infiammazione.
 
-![L'ozono infiamma vie respiratorie](/assets/images/ozono-effetti-infiamma-vie-respiratorie.jpg "L'ozono infiamma le vie respiratorie")
+Questa immagine lista alcuni sintomi causati dall'ozono nelle vie respiratorie.
+
+![L'ozono infiamma vie respiratorie](/assets/images/ozono-effetti-vie-respiratorie.jpg "L'ozono infiamma le vie respiratorie")
 
 ## 2. Danneggia la funzione polmonare
 
@@ -38,7 +40,9 @@ Non solo alte concentrazioni di l'ozono causano danni ai tessuti polmonari e rid
 
 Da notare che i bambini esposti all'ozono possono sperimentare ritardi nella crescita polmonare normale e questo può avere effetti a lungo termine sulla loro salute. I bambini sono più vulnerabili agli effetti di questo gas a causa del fatto che i loro polmoni sono ancora in via di sviluppo e che hanno la tendenza a respirare più velocemente rispetto agli adulti. Questo porta a un'assunzione maggiore di ozono per unità di peso corporeo.
 
-![L'ozono danneggia la funzione polmonare](/assets/images/ozono-effetti-danneggia-funzione-polmonare.jpg "L'ozono danneggia la funzione polmonare")
+La seguente grafica mostra una lista di effetti negativi dell'ozono sui polmoni.
+
+![L'ozono danneggia la funzione polmonare](/assets/images/ozono-effetti-polmoni.jpg "L'ozono danneggia la funzione polmonare")
 
 ## 3. Riduce le difese immunitarie
 
@@ -47,6 +51,8 @@ L'esposizione prolungata all'ozono indebolisce il sistema immunitario e aumenta 
 L'ozono danneggia in modo diretto le cellule immunitarie, compresi i macrofagi e i linfociti. I macrofagi servono ad inglobare e a distruggere gli agenti patogeni, mentre i linfociti sono indispensabili alla risposta immunitaria e alla creazione di anticorpi. Se queste cellule vengono danneggiate, il sistema immunitario viene compromesso e di conseguenza viene ridotta la capacità da parte dell'organismo umano di difendersi dalle varie infezioni.
 
 Inoltre, quando l'ozono reagisce con le membrane cellulari di varie molecole biologiche, genera radicali liberi e specie reattive dell'ossigeno. Questi radicali possono danneggiare il DNA, le proteine e i lipidi delle cellule immunitarie, compromettendo la loro funzione e influenzando la risposta immunitaria. Per di più, l'O3 influenza anche la produzione e la regolazione di citochine, le molecole che mettono in comunicazione le cellule immunitarie. Questo fa si che il corpo sia meno in grado di coordinare reazioni efficaci contro le infezioni.
+
+La figura qui sotto mostra alcuni problemi causati dall'ozono sul sistema immunitario.
 
 ![L'ozono riduce le difese immunitarie](/assets/images/ozono-effetti-difese-immunitarie.jpg "L'ozono riduce le difese immunitarie")
 
@@ -60,6 +66,8 @@ Nello specifico, l'inalazione di elevate concentrazioni di ozono danneggia le pa
 
 A questo, si aggiunge il fatto che l'ozono causa vasocostrizione (restringimento dei vasi sanguigni), il che porta ad un aumento della pressione arteriosa. Questo genera ulteriore stress sul sistema cardiovascolare. Questo è particolarmente pericoloso per le persone che soffrono già di malattie cardiovascolari, come l'ipertensione o l'insufficienza cardiaca. Queste persone possone essere particolarmente sensibili agli effetti dannosi dell'ozono, il quale può aggravare i sintomi e peggiorare queste condizioni, aumentando il rischio di eventi cardiaci acuti come l'infarto del miocardio.
 
+Ecco un immagine che elenca diversi problemi del sisema cardiovascolare causati dall'ozono.
+
 ![L'ozono fa male al sistema cardiovascolare](/assets/images/ozono-effetti-sistema-cardiovascolare.jpg "L'ozono fa male al sistema cardiovascolare")
 
 ## 5. Irrita gli occhi
@@ -71,6 +79,8 @@ Troppo ozono causa anche sensazioni di secchezza, disagio e prurito agli occhi. 
 Alti livelli di ozono aumentano il rischio di sviluppare congiuntivite, un'infiammazione della membrana trasparente che copre la parte anteriore dell'occhio e la superficie interna delle palpebre. I sintomi tipici includono rossore, gonfiore e secrezione di muco dagli occhi. Inoltre, compromettendo la barriera protettiva degli occhi, si aumenta anche il rischio di infezioni e irritazioni.
 
 È importante sottolineare che le persone con condizioni preesistenti come congiuntivite, allergie oculari o altre patologie oculari, sono generalmente più suscettibili agli effetti dannosi dell'ozono. Infine, va puntualizzato che l'esposizione ripetuta all'ozono nel tempo porta a danni oculari cumulativi. Ciò significa che anche se una singola esposizione potrebbe non causare danni gravi, l'esposizione continua può portare a danni oculari progressivi e permanenti.
+
+Qui sotto trovi un'illustrazione che mostra una parte dei sitomi causati dall'ozono sugli occhi.
 
 ![L'ozono irrita gli occhi](/assets/images/ozono-effetti-occhi.jpg "L'ozono irrita gli occhi")
 
@@ -86,6 +96,8 @@ L'esposizione prolungata all'ozono causa un indebolimento generale delle piante,
 
 In una ricerca pubblicato dal "Plant, Cell & Environment journal", si nota che le piante cresciute in un'atmosfera arricchita di ozono subiscono diversi cambiamenti biochimici. Queste reazioni includono aumenti nelle attività degli enzimi associati ai meccanismi di difesa generale delle piante. Infatti, l'esposizione all'ozono spesso provoca un aumento nella produzione dell'ormone vegetale etilene, così come cambiamenti nel metabolismo delle poliammine e un aumento delle attività di diversi enzimi delle vie metaboliche dei fenilpropanoidi e dei flavonoidi. Aumentano anche le attività del superossido dismutasi e delle perossidasi che proteggono le cellule dai danni ossidativi causati da radicali idrossile, H2O2 e superossidi.
 
+Ecco elencati nella seguente grafica acluni effetti nocivi dell'ozono sulle piante.
+
 ![L'ozono limita la crescita delle piante](/assets/images/ozono-effetti-piante.jpg "L'ozono limita la crescita delle piante")
 
 ## 7. Intossica gli animali
@@ -99,6 +111,8 @@ Journal of Toxicology and Environmental Health chimato "Ozone: An overview of it
 
 Inoltre, l'O3 influenza gli animali selvatici anche in modo indiretto. Per esempio, gli effetti negativi di questo gas sulla flora riducono la disponibilità di cibo e habitat per la fauna, specialmente per gli erbivori. Ciò porta a una riduzione della biodiversità, con possibili impatti sulla catena alimentare e su interi ecosistemi.
 
+La figura quì sotto mostra una lista di problemi che l'ozono causa agli animali.
+
 ![L'ozono intossica gli animali](/assets/images/ozono-effetti-animali.jpg "L'ozono intossica gli animali")
 
 ## 8. Inquina l'aria
@@ -108,6 +122,8 @@ L'ozono troposferico è un componente chiave dell'inquinamento atmosferico, cont
 l'O3 si forma quando gli inquinanti atmosferici primari (precursori), come ossidi di azoto (NOx) e composti organici volatili (COV), reagiscono alla luce solare e producono smog fotochimico, un fenomeno che avviene soprattutto nelle giornate calde e soleggiate. Questi inquinanti primari provengono principalmente da fonti legate alle attività umane, come l'industria, il traffico veicolare, le emissioni da fonti industriali e domestiche, nonchè dalle attività agricole. Quindi, un'eccessiva produzione di inquinati primari non solo incrementa lo smog nell'ambitente, ma a causa di reazioni a catena produce anche inquinanti secondari che riducono ancora di più la qualità dell'aria interna ed esterna alle abitazioni (come l'O3).
 
 Come dimostrato in uno studio pubblicato dal Environmental Research Journal, vi è una relazione significativa tra le visite ospedaliere per l'asma (13%-15%) e la concentrazione di ozono in New Jersey, un'area che spesso supera lo standard nazionale consentito per l'O3. Questa associazione, confrontata con studi simili condotti in Canada, dimostra che il contributo di questo gas sull'asma è più forte nelle aree con concentrazioni di ozono più elevate.
+
+Ecco un immagine che elenca aclune delle conseguenze dell'eccessiva quantità di ozono nell'ambiente.
 
 ![L'ozono inquina l'aria](/assets/images/ozono-effetti-aria.jpg "L'ozono inquina l'aria")
 
@@ -121,6 +137,8 @@ La presenza di ozono nella troposfera ha anche un effetto negativo sulla circola
 
 Inoltre, gli effetti dell'O3 si intrecciano spesso con quelli di altri inquinanti atmosferici, creando interazioni complesse che possono portare a impatti negativi ancora più significativi sulla qualità dell'aria, sul clima e sull'ambiente. Questo può provocare danni gravi agli ecosistemi terrestri e acquatici, compromettendo la biodiversità e la resilienza degli ecosistemi.
 
+Come mostra la seguente illustrazione, l'ozono ha diversi effetti negativi sul clima.
+
 ![L'ozono impatta negativamente il clima](/assets/images/ozono-effetti-clima.jpg "L'ozono impatta negativamente il clima")
 
 ## 10. Degrada i materiali 
@@ -132,6 +150,8 @@ L'O3 influenza la resistenza elettrica dei materiali isolanti, causando un calo 
 Un altro effetto negativo della molecola di ozono è la corrosione e l'ossidazione dei metalli, soprattutto in presenza di umidità. Questi fenomeni corrosivi e ossidativi danneggiano le superfici dei metalli fino a ridurre la loro la durata. Anche i materiali ceramici subiscono effetti negativi sulla loro struttura e durata nel tempo se vengono aggrediti da questa molecola, sebbene essi siano generalmente più resisteniti.
 
 L'ozono danneggia i materiali utilizzati in edilizia, come cemento, calcestruzzo e malta, influenzando la loro stabilità e durabilità. Causa anche la scomparsa di pigmenti e la perdita di lucentezza nei rivestimenti, vernici e inchiostri, il che porta a scolorimenti e degrado estetico. Infatti, come dimostra uno studio pubblicato dal Atmospheric Environment Journal, intitolato "The potential impact of ozone on materials in the U.K.", l'effetto dell'O3 sui costi di ripitturazione nel Regno Unito (UK) è stato stimato da £0 a £60 milioni all'anno per un cambiamento da 15 a 20 ppb di O3 e da £0 a £182 milioni all'anno per un cambiamento da 15 a 30 ppb di O3.
+
+L'immagine qui sotto riassume alcuni dei materiali che sono meno resistenti all'ozono.
 
 ![L'ozono degrada i materiali](/assets/images/ozono-effetti-materiali.jpg "L'ozono degrada i materiali")
 
