@@ -1,3 +1,23 @@
+---
+publishing_date: 15/08/2023
+---
+
+# Ozono Statosferico: Funzione, Formazione e Protezione
+
+![Ozono stratosferico](/assets/images/ozono-stratosferico.jpg "Ozono stratosferico")
+
+L'ozono stratosferico è uno strato di gas (O3) situato nella stratosfera terrestre, noto anche come "ozonosfera". Ha una concentrazione elevata di molecole di questo gas ed è chiamato anche "ozono buono" perché protegge la vita sulla Terra assorbendo i raggi ultravioletti dannosi del Sole. 
+
+Il gas O3 si trova tra 15 e 35 km di altitudine nella stratosfera, in maggiore concentrazione tra 20 e 25 km. Si forma attraverso un processo chimico chiamato fotolisi dell'ossigeno, dove la radiazione ultravioletta del Sole interagisce con l'ossigeno per creare molecole di ozono. Queste molecole sono essenziali poiché assorbe le radiazioni ultraviolette dannose, proteggendo gli organismi viventi, la salute umana e gli ecosistemi.
+
+Tuttavia, l'inquinamento, in particolare le sostanze chimiche come i clorofluorocarburi (CFC) e gli idroclorofluorocarburi (HCFC), danneggia lo strato di ozono attraverso reazioni chimiche. I gas serra come il biossido di carbonio (CO2), il metano (CH4) e l'ossido di azoto (N2O) contribuiscono al riscaldamento globale, peggiorando ulteriormente la condizione di questo strato e formando i così detto "buco dell'ozono".
+
+Questo buco è una regione con bassa concentrazione di O3 nella stratosfera, soprattutto sopra l'Antartide, causata da reazioni chimiche dannose durante la primavera australe. Questo fenomeno è dovuto a eventi naturali e all'inquinamento umano. 
+
+Per proteggere lo strato di O3, è stato introdotto il Protocollo di Montreal nel 1987, un accordo internazionale che mira a ridurre l'uso di sostanze dannose come i CFC e gli HCFC. Grazie a sforzi congiunti, ci sono miglioramenti nel ripristino di questo strato, con il buco sopra l'Antartide che mostra una riduzione nelle dimensioni. 
+
+In questo, articolo discuteremo più nel dettagglio cosa'è l'ozono stratosferico, come si forma, che funzione ha e come preservarlo. 
+
 ## Cos'è l'ozono stratosferico?
 
 L'ozono stratosferico è uno strato di gas ozono (O3) presente nella stratosfera terrestre. 
@@ -10,10 +30,9 @@ Questo strato di ozono è noto come "ozonosfera" visto che contiene una concentr
 
 Lo strato di ozono si trova nella stratosfera, una regione dell'atmosfera terrestre che si trova a 15-50 chilometri (km) di altitudine sopra la superficie della Terra. 
 
-![Ozono Stratosferico](/assets/images/ozono-stratosferico.jpg "Ozono Stratosferico")
-
 Nello specifico, lo strato di ozono è situato tra i 15 e i 35 km di altitudine, dove si trova il 90% di tutto l'ozono presente sulla terra. La densità maggiore di ozono viene registrata tra i 20 e i 25 km di altezza dal livello del suolo, cioè nella parte medio-bassa della stratosfera.
 
+![Dove si trova l'ozono stratosferico](/assets/images/ozono-stratosferico-dove-si-trova.jpg "Dove si trova l'ozono stratosferico")
 
 
 ## Come si forma l'ozono nella stratosfera?

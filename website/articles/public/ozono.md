@@ -1,5 +1,5 @@
 ---
-publishing_date: 12/08/2023
+publishing_date: 15/08/2023
 ---
 
 # Ozono: Tutto quello che volevi sapere su questo gas
@@ -226,7 +226,13 @@ NOTA: L'uso dell'ozono per la sanificazione richede attenzione e competenza. L'o
 
 ## Quali sono gli effetti dannosi dell'ozono?
 
-L'ozono, se presente in alte concentrazioni, ha effetti dannosi sulla salute dell'essere umano, sull'ecosistema, e sui materiali.
+L'ozono, se presente in alte concentrazioni, ha [effetti dannosi](ozono/effetti.html) sulla salute dell'essere umano, sull'ecosistema, e sui materiali.
+
+Per quanto riguarda la salute umana, questo gas non va respirato. Infatti, causa ifiammazioni alle vie respiratorie, danneggia la funzione polmonare e aumenta la reattività bronchiale. Causa problemi al sistema immunitario, rendendo il corpo più soggetto a infezioni e malattie. Aumenta il rischio di problemi cardiovascolari, con conseguenze che vanno dall'ipertensione al richio di aritmie. Irrita gli occhi, compromettendo la vista se vi è un eccessiva esposizione prolugata nel tempo.
+
+L'O3 è anche un problema per l'ambiente, il che comprende flora e fauna. È lesivo per le foglie delle piante, in quanto ha un effetto negativo sulla fotosintesi e inibisce la crescita della pianta stessa. A questo si aggiunge anche il fatto che è un irritante per alcuni animali, i quali sperimentano una riduzione delle loro capacità fisiche e diventano più suscettibili alle infezioni.
+
+Questo gas è anche nocivo per alcuni tipi di materiali, i quali si degradono più velocemente. Tra questi materiali sono inclusi gomma, plastica, legno, metalli e composti organici. 
 
 ## Quali sono i limiti di esposizione all'ozono per legge?
 

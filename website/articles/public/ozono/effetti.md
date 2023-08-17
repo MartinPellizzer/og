@@ -1,5 +1,5 @@
 ---
-publishing_date: 16/08/2023
+publishing_date: 15/08/2023
 ---
 
 # 10 Effetti Dannosi dell'Ozono: Salute, Ambiente e Materiali

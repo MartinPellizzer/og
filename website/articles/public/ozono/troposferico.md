@@ -1,4 +1,10 @@
-# Ozono troposferico: cos'è e quali sono i suoi effetti 
+---
+publishing_date: 15/08/2023
+---
+
+# Ozono Troposferico: Formazione, Effetti e Prevenzione
+
+![Ozono Troposferico](/assets/images/ozono-troposferico.jpg "Ozono Troposferico")
 
 L'ozono troposferico è un gas presente nello strato più basso dell'atmosfera terrestre, chiamato anche "ozono a livello del suolo". È un inquinante atmosferico secondario prodotto da reazioni chimiche con altri gas e non direttamente dall'attività umana. La sua formula chimica è O3, perchè è composto da tre atomi di ossigeno.
 
@@ -22,11 +28,11 @@ La formula chimica dell'ozono troposferico è O3. Essa rappresenta una molecola 
 
 L'ozono troposferico si trova nella troposfera, che è lo strato dell'atmosfera terrestre più vicino alla superficie del pianeta. Si estende dal livello del suolo (o livello del mare) fino a un'altitudine di 10-15 chilometri (km), con una media di 12 km. 
 
-![Ozono Troposferico](/assets/images/ozono-troposferico.jpg "Ozono Troposferico")
-
 La troposfera non ha uno spessore costante e varia in altezza a seconda della posizione geografica. Per esempio, l'altezza della troposfera ai poli è inferiore a quella dell'equatore, a causa delle diverse condizioni atmosferiche e alla temperatura dell'aria. Inoltre, la quota della troposfera variare anche per colpa delle stagioni e delle fluttuazioni climatiche.
 
 Nella troposfera, l'ozono è presente in quantità relativamente bassa, che varia tra 0,03 e 0,07 ppm. Purtroppo però, la concentrazione di ozono a livello del suolo aumenta di anno in anno del 1-2% a causa dell'inquinamento prodotto dall'uomo.
+
+![Dove si trova l'ozono Troposferico](/assets/images/ozono-troposferico-dove-si-trova.jpg "Dove si trova l'ozono Troposferico")
 
 ## Come si forma l'ozono troposferico?
 
@@ -52,7 +58,7 @@ Questo ciclo di reazioni chimiche continua costantemente nell'atmosfera e produc
 
 ## Quali sono gli effetti dell'ozono troposferico?
 
-L'ozono tropsferico ha diversi effetti negativi se presente in alte concentrazioni. Nella troposfera, l'ozono è un inquinante atmosferico e influisce negativamente sulla salute delle persone e sull'ambiente. Inoltre, si comporta come un gas serra e contribuisce ad aumentare il riscaldamento globale.
+L'ozono tropsferico ha diversi effetti negativi se presente in alte concentrazioni. Nella troposfera, l'ozono è un inquinante atmosferico [fa male alle persone e all'ambiente](/ozono/effetti.html). Inoltre, si comporta come un gas serra e contribuisce ad aumentare il riscaldamento globale.
 
 Qui sotto, sono elencati gli effetti dell'ozono troposferico sull'ambiente e sulle persone.
 
