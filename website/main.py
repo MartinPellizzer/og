@@ -5,9 +5,145 @@ import markdown
 import pathlib
 import os
 
+from PIL import Image
+from PIL import ImageFont
+from PIL import ImageDraw 
+
+
+def generate_image(image_path, text, w, h, index):
+
+    img = Image.open(image_path)
+    # img = Image.open('vertical.jpg')
+    # img = Image.open('horizontal.jpg')
+
+    start_size = img.size
+    end_size = (w, h)
+
+    if start_size[0] / end_size [0] < start_size[1] / end_size [1]:
+        ratio = start_size[0] / end_size[0]
+        new_end_size = (end_size[0], int(start_size[1] / ratio))
+    else:
+        ratio = start_size[1] / end_size[1]
+        new_end_size = (int(start_size[0] / ratio), end_size[1])
+
+
+
+    
+    # print(start_size)
+    # print(new_end_size)
+    # print(end_size)
+
+    img = img.resize(new_end_size)
+
+    w_crop = new_end_size[0] - end_size[0]
+    h_crop = new_end_size[1] - end_size[1]
+    
+    area = (
+        w_crop // 2, 
+        h_crop // 2,
+        new_end_size[0] - w_crop // 2,
+        new_end_size[1] - h_crop // 2
+    )
+    img = img.crop(area)
+
+    # new_end_size
+
+
+    # print(w, h)
+    # print(img.size)
+
+    # print(img.size)
+    font = ImageFont.truetype("assets/fonts/arial.ttf", 32)
+
+    
+    words = text.split()
+    lines = []
+    line = ''
+    for word in words:
+        word_width = font.getsize(word)[0]
+        line_width = font.getsize(line)[0]
+        if word_width + line_width < int(w * 0.66):
+            line += word + ' '
+        else:
+            lines.append(line)
+            line = word + ' '
+    lines.append(line)
+
+
+    text_h = 0
+    for line in lines:
+        text_h += font.getsize(line)[1]
+    start_text_y = h - text_h - 50
+
+
+
+
+    
+    # rect_size = [600, 80]
+
+    draw = ImageDraw.Draw(img)
+    
+
+    text_size = font.getsize(lines[0])
+    
+    
+    logo = Image.open("logo-og-light.png")
+
+
+    text_width_max = 0
+    for line in lines:
+        if font.getsize(line)[0] > text_width_max: text_width_max = font.getsize(line)[0]
+
+    box = (
+        (0, start_text_y - 10),
+        (text_width_max + 20 + 50 + 100, start_text_y + text_h + 15)
+    )
+    draw.rectangle(box, fill=(37, 99, 235))
+    rectangle_h = box[1][1] - box[0][1]
+
+
+    for i, line in enumerate(lines):
+        line_offset = i * text_size[1]
+        draw.text((20, line_offset + start_text_y), line, (255,255,255), font=font)
+        
+    img.paste(logo, (text_width_max + 50, start_text_y - 10 + (rectangle_h // 2) - (logo.size[1] // 2)), logo)
+    
+    img.save(f'test-{index}.jpg')
+
+    # img.show()
+
+# generate_image('assets/images/featured/ozono-effetti.jpg', 768, 432)
+i = 1
+generate_image(
+    'assets/images/featured/ozono-scienza.jpg', 
+    'Ozono: Tutto quello che volevi sapere su questo gas',
+    800, 600, i
+)
+i += 1
+generate_image(
+    'assets/images/featured/ozono-stratosferico.jpg', 
+    'Ozono Statosferico: Funzione, Formazione e Protezione',
+    800, 600, i
+)
+i += 1
+generate_image(
+    'assets/images/featured/ozono-troposferico.jpg', 
+    'Ozono Troposferico: Formazione, Effetti e Prevenzione',
+    800, 600, i
+)
+i += 1
+generate_image(
+    'assets/images/featured/ozono-effetti.jpg', 
+    '10 Effetti Dannosi dell\'Ozono: Salute, Ambiente e Materiali',
+    800, 600, i
+)
+i += 1
+
+
+quit()
+
+
 folder = pathlib.Path("articles")
-
-
 
 def generate_breadcrumbs(filepath_chunks):
     breadcrumbs = [f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
@@ -219,6 +355,7 @@ for filepath in folder.rglob("*.md"):
 
     # COPY IMAGES -----------------------------------------------------
 
-    for f in os.listdir('assets/images/'):
-        shutil.copy2(f'assets/images/{f}', f'public/assets/images/{f}')
+    articles_images_path = 'assets/images/articles/'
+    for f in os.listdir(articles_images_path):
+        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
 

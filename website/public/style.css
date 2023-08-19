@@ -71,6 +71,10 @@ svg {
     color: #0f172a;
 }
 
+img {
+    width: 100%;
+}
+
 /* COMPONENTS ----------------------------------------------------- */
 .call-number {
     color: white;
