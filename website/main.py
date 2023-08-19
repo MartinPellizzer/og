@@ -92,7 +92,8 @@ def generate_image(image_path, text, w, h, index):
 
     text_width_max = 0
     for line in lines:
-        if font.getsize(line)[0] > text_width_max: text_width_max = font.getsize(line)[0]
+        if font.getsize(line)[0] > text_width_max:
+            text_width_max = font.getsize(line)[0]
 
     box = (
         (0, start_text_y - 10),
@@ -101,9 +102,13 @@ def generate_image(image_path, text, w, h, index):
     draw.rectangle(box, fill=(37, 99, 235))
     rectangle_h = box[1][1] - box[0][1]
 
+    line_height_max = 0
+    for line in lines:
+        if font.getsize(line)[1] > line_height_max:
+            line_height_max = font.getsize(line)[1]
 
     for i, line in enumerate(lines):
-        line_offset = i * text_size[1]
+        line_offset = i * line_height_max
         draw.text((20, line_offset + start_text_y), line, (255,255,255), font=font)
         
     img.paste(logo, (text_width_max + 50, start_text_y - 10 + (rectangle_h // 2) - (logo.size[1] // 2)), logo)
@@ -114,28 +119,29 @@ def generate_image(image_path, text, w, h, index):
 
 # generate_image('assets/images/featured/ozono-effetti.jpg', 768, 432)
 i = 1
+w, h = 768, 432
 generate_image(
     'assets/images/featured/ozono-scienza.jpg', 
     'Ozono: Tutto quello che volevi sapere su questo gas',
-    800, 600, i
+    w, h, i
 )
 i += 1
 generate_image(
     'assets/images/featured/ozono-stratosferico.jpg', 
     'Ozono Statosferico: Funzione, Formazione e Protezione',
-    800, 600, i
+    w, h, i
 )
 i += 1
 generate_image(
     'assets/images/featured/ozono-troposferico.jpg', 
     'Ozono Troposferico: Formazione, Effetti e Prevenzione',
-    800, 600, i
+    w, h, i
 )
 i += 1
 generate_image(
     'assets/images/featured/ozono-effetti.jpg', 
     '10 Effetti Dannosi dell\'Ozono: Salute, Ambiente e Materiali',
-    800, 600, i
+    w, h, i
 )
 i += 1
 
