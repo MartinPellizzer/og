@@ -10,11 +10,8 @@ from PIL import ImageFont
 from PIL import ImageDraw 
 
 
-def generate_image(image_path, text, w, h, index):
-
+def generate_image_plain(image_path, w, h, image_path_out):
     img = Image.open(image_path)
-    # img = Image.open('vertical.jpg')
-    # img = Image.open('horizontal.jpg')
 
     start_size = img.size
     end_size = (w, h)
@@ -26,12 +23,47 @@ def generate_image(image_path, text, w, h, index):
         ratio = start_size[1] / end_size[1]
         new_end_size = (int(start_size[0] / ratio), end_size[1])
 
+    img = img.resize(new_end_size)
 
-
+    w_crop = new_end_size[0] - end_size[0]
+    h_crop = new_end_size[1] - end_size[1]
     
-    # print(start_size)
-    # print(new_end_size)
-    # print(end_size)
+    area = (
+        w_crop // 2, 
+        h_crop // 2,
+        new_end_size[0] - w_crop // 2,
+        new_end_size[1] - h_crop // 2
+    )
+    img = img.crop(area)
+
+    name = image_path.split('/')[-1]
+    path = image_path.split('/')[:-1]
+
+    img.save(f'{image_path_out}')
+
+
+w, h = 800, 600
+generate_image_plain('assets/images/home/ristorante-raw.jpg', w, h, 'assets/images/home/ristorante.jpg')
+generate_image_plain('assets/images/home/clinica-raw.jpg', w, h, 'assets/images/home/clinica.jpg')
+generate_image_plain('assets/images/home/trasporti-raw.jpg', w, h, 'assets/images/home/trasporti.jpg')
+
+
+
+
+
+def generate_image(image_path, text, w, h, iamge_out_path):
+
+    img = Image.open(image_path)
+
+    start_size = img.size
+    end_size = (w, h)
+
+    if start_size[0] / end_size [0] < start_size[1] / end_size [1]:
+        ratio = start_size[0] / end_size[0]
+        new_end_size = (end_size[0], int(start_size[1] / ratio))
+    else:
+        ratio = start_size[1] / end_size[1]
+        new_end_size = (int(start_size[0] / ratio), end_size[1])
 
     img = img.resize(new_end_size)
 
@@ -113,7 +145,7 @@ def generate_image(image_path, text, w, h, index):
         
     img.paste(logo, (text_width_max + 50, start_text_y - 10 + (rectangle_h // 2) - (logo.size[1] // 2)), logo)
     
-    img.save(f'test-{index}.jpg')
+    img.save(f'{iamge_out_path}')
 
     # img.show()
 
@@ -121,32 +153,35 @@ def generate_image(image_path, text, w, h, index):
 i = 1
 w, h = 768, 432
 generate_image(
-    'assets/images/featured/ozono-scienza.jpg', 
+    'assets/images/featured/ozono-chimica.jpg', 
     'Ozono: Tutto quello che volevi sapere su questo gas',
-    w, h, i
+    w, h,
+    'assets/images/ozono-chimica.jpg',
 )
 i += 1
 generate_image(
     'assets/images/featured/ozono-stratosferico.jpg', 
     'Ozono Statosferico: Funzione, Formazione e Protezione',
-    w, h, i
+    w, h, 
+    'assets/images/ozono-stratosferico.jpg', 
 )
 i += 1
 generate_image(
     'assets/images/featured/ozono-troposferico.jpg', 
     'Ozono Troposferico: Formazione, Effetti e Prevenzione',
-    w, h, i
+    w, h, 
+    'assets/images/ozono-troposferico.jpg', 
 )
 i += 1
 generate_image(
     'assets/images/featured/ozono-effetti.jpg', 
     '10 Effetti Dannosi dell\'Ozono: Salute, Ambiente e Materiali',
-    w, h, i
+    w, h, 
+    'assets/images/ozono-effetti.jpg', 
 )
 i += 1
 
 
-quit()
 
 
 folder = pathlib.Path("articles")
@@ -352,6 +387,7 @@ for filepath in folder.rglob("*.md"):
         f.write(html)
 
     shutil.copy2('index.html', 'public/index.html')
+
     shutil.copy2('style.css', 'public/style.css')
     shutil.copy2('style-blog.css', 'public/style-blog.css')
     shutil.copy2('util.css', 'public/util.css')
@@ -362,6 +398,10 @@ for filepath in folder.rglob("*.md"):
     # COPY IMAGES -----------------------------------------------------
 
     articles_images_path = 'assets/images/articles/'
+    for f in os.listdir(articles_images_path):
+        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
+        
+    articles_images_path = 'assets/images/home/'
     for f in os.listdir(articles_images_path):
         shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
 

@@ -4,7 +4,7 @@ publishing_date: 15/08/2023
 
 # Ozono: Tutto quello che volevi sapere su questo gas
 
-![Ozono](/assets/images/ozono-generale.jpg "Ozono")
+![Ozono](/assets/images/ozono-chimica.jpg "Ozono")
 
 Ozono (O3) è il nome dato ad una molecola formata da 3 atomi di ossigeno. Questa molecola, si presenta in forma gassosa a temperatura ambiente e a pressione atmosferica, ha un odore molto pungente ed è incolore (leggermente tendente ad un blu pallido).
 
@@ -18,7 +18,7 @@ L'ozono si forma spontaneamente in natura quando i raggi del Sole o i fulmi colp
 
 L'ozono è una molecola inorganica composta da tre atomi di ossigeno (O) legati insieme mediante legami covalenti e la sua formula chimica è O3. "Ozono" è il termine preferito dall'Unione Internazionale di Chimica Pura e Applicata (IUPAC) ma altri nomi sistematici sono validi, come 1λ1,3λ1-triossidano (nomenclatura sostitutiva) e catena-triossigeno (nomenclatura additiva).
 
-L'O3 è una forma allotropica dell'ossigeno ed è un composto presente in natura in forma gassosa. Essendo un composto, l'O3 non è definito come elemento e non si trova nella tavola. Di conseguenza, non ha un numero atomico, in quanto non è corretto parlare di numero atomico relativo a molecole, ma solo ad atomi. Inoltre, essendo un allotropo dell'ossigeno, il suo numero di ossidazione è 0 (come accade per l'O2).
+L'O3 è un elemento, non un composto. Un composto è una molecola formata da più elementi diversi, ma l'ozono è una forma allotropica dell'ossigeno, quindi è formato solo da atomi di ossigeno. Un composto, per esempio, potrebbe essere l'acqua, la quale ha formula H2O, overo è formata da 2 elementi diversi (idrogeno e ossigeno). Però, sebbene l'O3 sia un elemento, non è presente nella tavola periodica, in quanto è una molecola (non un atomo). Quindi non ha un numero atomico, nel senso che non è corretto parlare di numero atomico in relazione a molecole, ma solo ad atomi. Inoltre, essendo un allotropo dell'ossigeno, il suo numero di ossidazione è 0 (come accade per l'O2).
 
 ![Cos'è l'ozono](/assets/images/ozono-cosa-è.jpg "Cos'è l'ozono")
 

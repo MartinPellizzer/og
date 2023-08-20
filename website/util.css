@@ -192,6 +192,10 @@ nav {
     margin-bottom: 6.4rem;
 }
 
+.mb-80 {
+    margin-bottom: 6.4rem;
+}
+
 .mb-96 {
     margin-bottom: 9.6rem;
 }
@@ -524,6 +528,10 @@ h2 {
 .text-6xl {
     font-size: 6.0rem;
     line-height: 1;
+}
+
+.decoration-none {
+    text-decoration: none;
 }
 
 
