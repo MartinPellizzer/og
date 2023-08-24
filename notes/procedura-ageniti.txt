@@ -1,12 +1,36 @@
 
 - agente fa sopralluogo
+
+
+
 - agente raccoglie dati (documento)
-	- problema da risolvere (muffe, acari, ecc...)
-	- metri cubi stanza (m3) - lunghezza x altezza x profondita
-	- tipo ambiente (stanza, cella, cantina, ecc...)
-	- foto prodotto vicino
-	- foto ambiente 
+
+	- dati problema/ambiente 
+		- problema (muffe, acari, ecc...)
+		- metri cubi (m3) - lunghezza x altezza x profondita
+		- tipo ambiente (stanza, cella, cantina, ecc...)
+			- chiuso, isolamento, non ermetico
+		- tipo prodotto
+		- orari lavorativi
+		- foto prodotto vicino / ambiente
+		- ventilazione?
+
 	- analisi (da chiedere in telefonata elena)
+	
+	- dati cliente
+		- nome azienda
+		- indirizzo
+		- nome responsaible/i
+		- contatti responsabile/i
+
+	- dati ozongroup/agente
+		- data documento
+		- nomi
+		- contatti
+		- note
+		- esito
+
+
 - proposta prova gratuita (documento prestampato con caselle vuote)
 	- tabella per inserire le macchine per la prova (matricola, nome senza
 	  grammi)
@@ -23,14 +47,70 @@
 		  risultato è visibile
 
 - installazione
+	- ???
+
 - prova gratuita (30 giorni, 60) promessa 30% riduzione
-- elena contatta il cliente (3 volte)
-- se si vede, foto prima e dopo
-- analisi 2
-- nome referente (inserire nel doc della prova)
-- casisteiche
+	- tempo
+	- aspettative
+	- base: 30 gg
+	- eventuale proroga: 60 gg
+	- dopo 60 giorni, suka
+	- aspettative: 
+		- 100% riduzione acari dopo un trattamento (1 giorno)
+		- 100% una settimana
+		- 100% un mese
+		- X% (30% concordato) riduzione acari dopo un mese (50%
+		  effettivo) !!!!!!!!
+	- se dopo 30 gg e una settimana non ci riconsegnano la macchina senza
+	  validi motivi, scatta da contratto noleggio automaticamente
+	
+- risultati prova gratuita
 	- ammette e compre
-	- ammette pero ci pens
+		- $$$
+	- ammette pero ci deve pensare
+		- dire in modo professionale che ci sono altri clienti che
+		  devono fare le prove e che sono in fila che stanno
+aspettando
+		- ritirare la macchina
+		- dire che si prenda tutto il tempo per pensare e quando ha
+		  bisogno che chiami
 	- ammette noleggio
-	- non ammette porta a casa lessi
+		- fare proposta/documento noleggio
+	- funziona ma non ammette
+		- uguale a ammette pero ci deve pensare
+		- porta a casa
+	- non funziona
+		- decidere se prorogare per i 60 giorni con tempi piu lunghi
+		  o piu ozono
+		
+- elena contatta il cliente (3 volte)
+	- in base al referente e i suoi orari e preferenze di comunicazione,
+	  ogni settimana contattare il cliente (mail, telefono?)
+	- chiedere se la macchina sta ancora funzionando (controllare che la
+	  spia di tesnione si accesa)
+	- chiedere se stanno gia vedendo risultati (odori) a breve termine
+
+come verificare i risultati
+	- se si vede, foto prima e dopo
+	- analisi 2 (creare aspettative: log2 = 99%)
+
+- nome referente (inserire nel doc della prova)
+
 - programma dimensionamento
+
+- vendita
+	- quando accettano
+	- hanno il preventivo/offerta con prezzo, trattativa
+	- trattavia sconti solo se...
+		- testimonail (3%)
+		- case study (5%)
+		- referral 3 (13%)
+	- 
+
+- pagamenti
+	- normale
+	- rate
+	- lungo termine
+	- noleggio normale
+
+
