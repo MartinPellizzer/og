@@ -18,21 +18,24 @@
 	- analisi (da chiedere in telefonata elena)
 	
 	- dati cliente
-		- data documento
 		- nome azienda
 		- indirizzo
 		- nome responsaible/i
 		- contatti responsabile/i
 
 	- dati ozongroup/agente
+		- data documento
 		- nomi
 		- contatti
+		- note
+		- esito
+
 
 
 - proposta prova gratuita (documento prestampato con caselle vuote)
-	- tabella per inserire le macchine per la prova (matricola, nome senza
+	x dati ozonogroup/cliente
+	x tabella per inserire le macchine per la prova (matricola, nome senza
 	  grammi)
-	- dati ozonogroup/cliente
 	- nome referente
 	- orari referente
 	- tipo contatto referente (email, telefono, ecc...)
@@ -43,6 +46,8 @@
 		  che la macchina stia funzionando
 		- l'agente fa foto prima e dopo se è possibile e se il
 		  risultato è visibile
+
+
 
 - installazione
 	- ???

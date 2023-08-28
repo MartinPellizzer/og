@@ -31,13 +31,12 @@
 		- esito
 
 
+
 - proposta prova gratuita (documento prestampato con caselle vuote)
-	- tabella per inserire le macchine per la prova (matricola, nome senza
+	x dati ozonogroup/cliente
+	x tabella per inserire le macchine per la prova (matricola, nome senza
 	  grammi)
-	- dati ozonogroup/cliente
-	- nome referente
-	- orari referente
-	- tipo contatto referente (email, telefono, ecc...)
+	x nome, orari, contatti referente
 	- note
 	- cose legali
 	- procedura prova gratuita
@@ -45,6 +44,8 @@
 		  che la macchina stia funzionando
 		- l'agente fa foto prima e dopo se è possibile e se il
 		  risultato è visibile
+
+
 
 - installazione
 	- ???
