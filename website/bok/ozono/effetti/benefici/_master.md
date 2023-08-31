@@ -10,72 +10,6 @@
 - QUALI BENEFICI RICEVERAI DALL’ OSSIGENO-OZONOTERAPIA?
 - Ozonoterapia, a cosa serve e come funziona
 
-## BENEFICI ----------------------------------------------------------
-
-
-- svolge un'azione antinfiammatoria
-    - capacità di modificare le sostanze che producono infiammazione 
-        - (ATP, H+, Prostaglandine, Serotonina, Interleuchine)
-            - rendendole “incapaci” di produrre dolore
-    - aumentando le citochine anti-infiammatorie
-        - molecole proteiche responsabili di contrastare la risposta infiammatoria del nostro organismo
-    - riducendo la quantità delle citochine pro-infiammatorie
-        - molecole proteiche che alimentano invece l’infiammazione
-
-- permette di ottimizzare il legame tra l’ossigeno respirato e i globuli rossi 
-    - (cellule responsabili del trasporto dell’ossigeno ai tessuti)
-        - aumentando così l'apporto di ossigeno ai tessuti periferici 
-            - con un conseguente effetto rivitalizzante
-
-- ha un effetto anti-aging
-    - poiché favorisce l’attivazione dei meccanismi anti-ossidanti endogeni
-        - ovvero prodotti direttamente dal nostro organismo 
-            - (glutatione ridotto e supeossido dismutasi)
-                - che contrastano l’azione dei radicali liberi
-
-- ha effetto lipolitico 
-    - o "sciogli grasso"
-        - poiché è in grado di scindere gli acidi grassi a catena lunga
-
-- ha un'azione analgesica
-    - derivato dalla induzione di enzimi antiossidanti
-        - importante in termini di rilassamento muscolare
-        - vasodilatazione
-        - riattivazione del metabolismo muscolare
-
-- favorisce l'ossidazione del lattato 
-    - o acido lattico
-        - generando quindi una conseguente neutralizzazione dell'acidosi 
-             - (alta quantità di acidi nell'organismo)
-
-- permette una maggiore sintesi di adenosina trifosfato
-    - la riserva energetica delle cellule
-        - che provoca il riassorbimento del calcio 
-            - e di conseguenza anche degli edemi 
-        
-- la sua capacità di ossidazione favorisce la distruzione delle capsule 
-- delle membrane batteriche
-    - dando all’ozono una spiccata funzione antisettica
-        - in particolare
-            - battericida
-            - virus-statica
-                - che impedisce l'infezione delle cellule
-                    - e quindi la sua replicazione 
-
-- utile contro dolore e infiammazione
-    - patologie dolorose del rachide
-        - dovute a compressioni radicolari o protrusioni discali
-    - patologie dolorose delle articolazioni su base atrosico-degenerativa
-    - cicatrici
-    - fenomeni aderenziali cutanei
-    - lipodistrofia
-        - ossia la perdita anomala di grasso corporeo
-
-- medicina estetica
-    - in particolare contro gli inestetismi della cellulite 
-    
-- favorisce inoltre il microcircolo e la nutrizione dei tessuti
-    - grazie a una miglior ossigenazione
 
 ## PER COSA VIENE USATA --------------------------------------------------------------
 
@@ -114,10 +48,7 @@
 
 ## APPLICAZIONI ----------------------------------------------------------------------
 
-- Medicina sportiva
-- Medicina Fisica e Riabilitativa
-- Medicina estetica e Programma antiage
-- Adiuvante durante la Radioterapia / Chemioterapia
+
 
 L’ozono è utilizzato da sempre in medicina per disinfettare le forniture mediche e per prevenire le infezioni.
 
@@ -125,22 +56,7 @@ L’ozono è utilizzato da sempre in medicina per disinfettare le forniture medi
 ## BENEFICI ----------------------------------------------------------------------------
 [proprieta terapeutiche]
 
-- Azione antalgica, antidolorifica e antinfiammatoria
-- Azione Virus Statica, antibatterica e antimicotica
-- Azione antiossidante
-- Azione sinergica con i farmaci con riduzione degli effetti collaterali
-- Attivazione di sistemi neuro protettivi
-- Incremento delle difese immunitarie
-- Ottimizzazione dell’impiego dell’ossigeno nel sangue con effetto rivitalizzante
-- Miglioramento della circolazione sanguigna e dell’apporto di ossigeno nel tessuto ischemico
-- Stimolazione del sistema neuroendocrino con sensazione di benessere
-- Capacità di rigenerazione osteoarticolare
-- Effetto coadiuvante nella cura della depressione per effetto di un miglior equilibrio psico-fisico
 
-- proprietà terapeutiche
-- antibatteriche
-- antidolorifiche
-- antinfiammatorie
 
 - azione anti-batterica
     - poiché attacca le strutture molecolari delle membrane protettive dei batteri uccidendoli
@@ -167,7 +83,7 @@ L’ozono è utilizzato da sempre in medicina per disinfettare le forniture medi
 - risolvere molti problemi estetici tra cui la cellulite
 
 - trattare tantissime malattie tra le quali
-    -affaticamento cronico
+    - affaticamento cronico
     - fibromialgia
     - ernia al disco
     - cefalea
