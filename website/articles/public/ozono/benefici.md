@@ -212,7 +212,15 @@ L'O3 contribuisce a ridurre l'iperpigmentazioni (eccessiva pigmentazione della p
 
 Cuoio capelluto
 
-Migliora la circolazione sanguigna nel cuoio capelluto, fornendo ai follicoli piliferi una maggiore quantità di nutrienti e ossigeno. Quindi migliora la salute generale del cuoio capelluto e stimola i follicoli piliferi, contribuendo così alla crescita e al mantenimento dei capelli. Contribuisce a migliorare la vitalità dei capelli, rendendoli più forti e resistenti alle rotture. Stimolare il ricambio cellulare nel cuoio capelluto, contribuendo così alla salute dei follicoli piliferi. Migliorare la microcircolazione sanguigna nel cuoio capelluto, portando a una migliore distribuzione di nutrienti ai follicoli piliferi.
+L'ozono favorisce la crescita dei capelli migliorando la microcircolazione sanguigna nel cuoio capelluto, la quale porta una maggior distribuzione di nutrienti e ossigeno ai follicoli piliferi. Stimola il ricambio cellulare nel cuoio capelluto
+
+Contribuisce a migliorare la vitalità dei capelli, rendendoli più forti e resistenti alle rotture. 
+
+Stimolare il ricambio cellulare nel cuoio capelluto, contribuendo così alla salute dei follicoli piliferi. 
+
+Migliora la circolazione linfatica nel cuoio capelluto, favorendo una maggiore eliminazione delle tossine. 
+
+Rigenera i follicoli piliferi, favorendo la crescita di nuovi capelli. Aumentare il metabolismo cellulare nel cuoio capelluto, contribuendo così alla crescita e alla salute dei capelli. Favorire la rigenerazione delle cellule del cuoio capelluto, contribuendo alla crescita dei capelli.
 
 Favorisce la salute generale dei capelli, contribuendo a creare un ambiente favorevole alla crescita e al benessere dei capelli.
 
@@ -229,11 +237,8 @@ Bilancia il pH del cuoio capelluto, creando un ambiente più favorevole alla cre
 Migliora l'elasticità dei capelli, rendendoli meno suscettibili a danni e rotture. 
 Rafforza i follicoli piliferi, rendendo i capelli meno soggetti a danni. Aumentare l'elasticità del cuoio capelluto, contribuendo a un aspetto più giovane e sano.
 
-Rigenera i follicoli piliferi, favorendo la crescita di nuovi capelli.
 
-Aumentare il metabolismo cellulare nel cuoio capelluto, contribuendo così alla crescita e alla salute dei capelli. Favorire la rigenerazione delle cellule del cuoio capelluto, contribuendo alla crescita dei capelli.
 
-Migliora la circolazione linfatica nel cuoio capelluto, favorendo una maggiore eliminazione delle tossine.
 
 
 
