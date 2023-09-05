@@ -263,23 +263,19 @@ Affinare]
 
 L'ozono aumenta il rilascio di ossigeno dai globuli rossi ai tessuti circostanti, favorendo una maggiore ossigenazione dell'organismo e migliorando l'efficienza dell'uso dell'ossigeno stesso. Incrementa anche l'affinità dell'ossigeno per l'emoglobina, facilitando il trasporto di ossigeno ai tessuti periferici e aumentando l'ossigenazione del cuore, migliorando così la funzione cardiaca.
 
-L'O3 stimola il sistema immunitario e migliora la risposta del corpo alle infezioni e alle malattie, in quanto favorisce la produzione di citochine e altre sostanze in grado di combattere questi problemi. Ha anche effetti antinfiammatori e contribuisce a ridurre l'infiammazione nei tessuti e nei vasi sanguigni, riducendo l'infiammazione causata da diverse condizioni patologiche. Tratta anche l'infiammazione e il dolore nelle articolazioni, presente per esempio in alcune forme di artrite e di artrosi, e sostiene la funzione epatica attraverso la riduzione dell'infiammazione e dello stress ossidativo.
+L'O3 stimola il sistema immunitario e modula le risposte immunitarie disfunzionali tipiche delle malattie autoimmuni. Migliora la risposta del corpo alle infezioni (anche quelle croniche, come la Lyme) e alle malattie, in quanto favorisce la produzione di citochine e altre sostanze in grado di combattere questi problemi. Ha effetti antinfiammatori che contribuiscono a ridurre l'infiammazione nei tessuti e nei vasi sanguigni, riducendo l'infiammazione causata da diverse condizioni patologiche. Inoltre, tratta l'infiammazione e il dolore nelle articolazioni, presente per esempio in alcune forme di artrite e di artrosi, e sostiene la funzione epatica attraverso la riduzione dell'infiammazione e dello stress ossidativo.
 
 L'ozono aiuta a migliorare la circolazione sanguigna stimolando la dilatazione dei vasi sanguigni e riducendo la viscosità del sangue, con conseguente miglioramento dell'ossigenazione dei tessuti. Influenza positivamente anche la deformabilità dei globuli rossi, favorendo il loro passaggio attraverso i vasi sanguigni più stretti. Questa sua proprietà può essere utilizzata come terapia per migliorare la circolazione nelle estremità, per ridurre l'accumulo di placca nelle arterie, per la gestione dell'ipertensione e per trattare l'insufficienza venosa cronica. Inoltre, ha effetti positivi sulla circolazione sanguigna nel cervello e sulla funzione cognitiva, portando benefici a pazienti con disturbi neurologici.
 
-Ha proprietà antibatteriche e antivirali, contribuendo alla distruzione di microrganismi patogeni nel sangue. Proprietà antimicrobiche, e l'ozonoterapia potrebbe essere utilizzata per trattare infezioni batteriche e virali.
+L'O3 è una molecola che ha proprietà antibatteriche e antivirali. Per questo motivo, viene spesso utilizzato in ozonoterapia per per trattare infezioni batteriche e virali, nonchè per distruggere i microrganismi patogeni nel sangue. Aiuta ad eliminare tossine e altre sostanze nocive dal corpo (attraverso diversi processi biochimici) ed è in grado di migliorare la circolazione del sistema linfatico, favorendo ulteriormente il drenaggio e la rimozione delle tossine.
 
+Migliora anche l'efficienza metabolica del corpo, contribuendo a una maggiore produzione di energia e a un migliore utilizzo di nutrienti. Questo ha effetti positivi sulla riduzione di stress ossidativo e di radicali liberi nel corpo, che sono associati a numerose malattie croniche, a danni cellulari, e all'invecchiamento precoce. 
 
+Purificare il sangue con l'ozono, oltre che portare vantaggi al sangue stesso e a tutto il sistema cardiovascolare, porta molti atri benefici al resto del corpo. 
 
-Aiuta il corpo a eliminare tossine attraverso diversi processi biochimici. Utilizzato per supportare la disintossicazione del corpo da sostanze nocive. Contribuire a migliorare la circolazione del sistema linfatico, favorendo il drenaggio delle tossine. Circolazione del sistema linfatico, favorendo la rimozione delle tossine.
+L'ozono riduce il dolore nei pazienti affetti da determinate condizioni, come l'ernia del disco. Efficace nel trattamento delle ulcere croniche, accelerando la guarigione. Opzione terapeutica per promuovere la guarigione di ferite croniche.
 
-Migliora l'efficienza metabolica del corpo, contribuendo a una maggiore produzione di energia. Contribuire a migliorare il metabolismo cellulare, Favorendo un migliore utilizzo dei nutrienti e dell'energia. Influenzare positivamente il metabolismo energetico nelle cellule, favorendo un maggiore livello di energia.
-
-Aumenta l'attività antiossidante nel corpo, contribuendo a contrastare lo stress ossidativo. Aiuta a ridurre lo stress ossidativo nel corpo, che è associato a numerose malattie croniche  e invecchiamento. Aiuta a ridurre la presenza di radicali liberi nel corpo, contribuendo alla prevenzione del danno cellulare e all'invecchiamento precoce.
-
-Ridurre il dolore in pazienti affetti da determinate condizioni, come l'ernia del disco. Effetti positivi sulla guarigione delle ferite, grazie alle sue proprietà antibatteriche e stimolanti. è utile nel trattamento di infezioni croniche come la Lyme disease. Efficace nel trattamento delle ulcere croniche, accelerando la guarigione. Opzione terapeutica per promuovere la guarigione di ferite croniche.
-
-Modula le risposte immunitarie disfunzionali tipiche delle malattie autoimmuni. Aumenta l'efficacia delle terapie convenzionali per il cancro. Parte del trattamento per l'HIV/AIDS.
+. Aumenta l'efficacia delle terapie convenzionali per il cancro. Parte del trattamento per l'HIV/AIDS.
 
 Utilizzata per accelerare il processo di guarigione delle fratture ossee. Alcuni pazienti con fibromialgia riportano un sollievo dai sintomi dopo trattamenti con ozonoterapia. Alcuni pazienti con neuropatia periferica riportano un miglioramento dei sintomi dopo trattamenti con ozonoterapia.
 
