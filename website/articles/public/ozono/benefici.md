@@ -299,10 +299,8 @@ Questo gas, quando viene disciolto in acqua, disinfetta l'acqua da batteri, viru
 
 
 
+L'ozono ossida e decompone i contaminanti organici presenti nell'acqua, tra cui le sostanze chimiche, i pesticidi, i farmaci e composti organici volatili, contribuendo a migliorare la qualità dell'acqua.
 
-
-2. Rimozione di contaminanti organici: 
-    L'ozono può ossidare e decomporre contaminanti organici presenti nell'acqua, tra cui sostanze chimiche, pesticidi, farmaci e composti organici volatili. Questo processo di ossidazione contribuisce a migliorare la qualità dell'acqua.
 13. Inattivazione di farmaci e sostanze chimiche farmaceutiche: 
     L'ozono può distruggere farmaci e sostanze chimiche farmaceutiche presenti nell'acqua potabile, contribuendo a ridurre la contaminazione da farmaci nei sistemi idrici.
 16. Eliminazione di micropolluenti organici: 
