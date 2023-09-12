@@ -333,122 +333,270 @@ Migliora anche l'aspetto visivo degli alimenti freschi, come frutta tagliata o i
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Disinfetta la casa
 
+L'ozono viene utilizzato per disinfettare la casa, in quanto purifica l'aria e rimuove odori sgradevoli, muffe, batteri e altri contaminanti presenti nell'aria interna grazie al suo potere ossidante.
 
-1. Purificazione dell'aria: L'ozono può essere utilizzato come agente di purificazione dell'aria per rimuovere odori sgradevoli, muffe, batteri e altri contaminanti presenti nell'aria interna. L'ozono ossida queste sostanze, contribuendo a migliorare la qualità dell'aria.
+È efficace nell'eliminare odori sgradevoli, come quelli causati da animali domestici, fumo di sigarette, cucina o umidità. Deodora i tessuti (come tappeti, tende e vestiti), rimuove gli odori sgradevoli dalle scarpe e delle calzature (comprese quelle sportive) e contribuisce a mantenere igienici gli armadi, i cassetti e le scarpiere, eliminando gli odori laciati dagli indumenti.
 
-2. Eliminazione degli odori: L'ozono è efficace nell'eliminare odori sgradevoli, come quelli causati da animali domestici, fumo di sigarette, cucina o umidità.
+L'O3 aiuta anche a eliminare gli odori persistenti di animali domestici dai tessuti (come tende, cuscini e coperte) e dai mobili. Infatti, il suo potere ossidante inattiva gli allergeni, come gli acari della polvere, i peli di animali e le particelle di pelle di animali nell'aria interna, migliorare il comfort delle persone con allergie.
 
-3. Sanificazione degli ambienti: L'ozono può essere utilizzato per disinfettare superfici e oggetti all'interno della casa. Questo può contribuire a ridurre la presenza di germi, virus e muffe.
+riduce gli odori di muffa o stantio da oggetti d'antiquariato (o vintage), rendendoli più presentabili.
 
-4. Rimozione delle muffe: L'ozono può aiutare a eliminare le muffe presenti negli ambienti interni. Tuttavia, è importante sottolineare che la rimozione delle muffe deve essere accompagnata da interventi per risolvere la causa principale dell'umidità che favorisce la crescita delle muffe.
 
-5. Riduzione degli allergeni: L'ozono può contribuire a ridurre la presenza di allergeni come acari della polvere e peli di animali nell'aria, il che può essere utile per le persone con allergie.
 
-6. Riduzione degli inquinanti atmosferici: L'ozono può contribuire a ridurre la presenza di inquinanti atmosferici come il biossido di azoto (NO2) e il monossido di carbonio (CO) nell'aria interna, migliorando così la qualità dell'aria respirata.
+35. Rimozione degli odori dal bagno: 
+    L'ozono può aiutare a eliminare gli odori sgradevoli dal bagno, rendendo l'ambiente più fresco e piacevole.
+36. Rimozione degli odori di cucina: 
+    L'ozono può essere utilizzato per ridurre gli odori persistenti di cucina, come quelli causati da pesce o fritture.
 
-7. Deodorizzazione di oggetti e tessuti: L'ozono può essere utilizzato per deodorare tessuti, mobili imbottiti e oggetti come tappeti, tende e vestiti, rimuovendo odori persistenti.
 
-8. Miglioramento della qualità dell'acqua: L'ozono può essere impiegato per purificare l'acqua del rubinetto, rimuovendo batteri, virus, e contaminanti chimici. Questo processo può contribuire a fornire acqua potabile più pulita.
 
-9. Risparmio energetico: L'ozono può essere utilizzato per pulire e disinfettare impianti di raffreddamento e riscaldamento, riducendo la necessità di manutenzione e aumentando l'efficienza energetica.
+L'ozono può ridurre la dipendenza da prodotti chimici di pulizia e disinfettanti, contribuendo a creare un ambiente domestico più ecologico.
+L'ozono può essere utilizzato per disinfettare superfici e oggetti all'interno della casa. Questo può contribuire a ridurre la presenza di germi, virus e muffe.
+L'ozono può essere utilizzato per disinfettare superfici come piano di lavoro della cucina, bagno e altre aree a contatto con batteri e germi.
 
-10. Conservazione degli alimenti: L'ozono può essere impiegato per allungare la durata di conservazione degli alimenti rimuovendo batteri e muffe presenti sulla superficie degli alimenti.
 
-11. Rimozione di inquinanti dell'aria da fumo e incendi: In situazioni di emergenza, come incendi domestici o esposizione al fumo, l'ozono può contribuire a purificare temporaneamente l'aria interna, migliorando le condizioni respiratorie.
 
-12. Purificazione dell'acqua in piscina: L'ozono può essere impiegato per purificare l'acqua delle piscine, riducendo la necessità di utilizzare cloro o altri disinfettanti chimici. Questo può migliorare la qualità dell'acqua e ridurre l'irritazione degli occhi e della pelle.
 
-13. Riduzione dell'umidità: L'ozono può contribuire a ridurre l'umidità nell'aria, il che può essere utile per prevenire la formazione di muffe e la proliferazione di acari della polvere.
 
-14. Pulizia degli ambienti industriali: Nelle industrie, l'ozono può essere utilizzato per la disinfezione degli ambienti, contribuendo a mantenere aree pulite e sicure per i lavoratori.
 
-15. Rimozione di sostanze chimiche volatili: L'ozono può essere efficace nella rimozione di composti organici volatili (COV) presenti nell'aria interna, come quelli provenienti da vernici, solventi e materiali da costruzione, migliorando così la qualità dell'aria.
 
-16. Eliminazione degli acari degli alimenti: L'ozono può essere utilizzato per la disinfezione di ambienti di stoccaggio alimentare, contribuendo a prevenire l'infestazione da acari e insetti dannosi.
+4. Rimozione delle muffe: 
+    L'ozono può aiutare a eliminare le muffe presenti negli ambienti interni. Tuttavia, è importante sottolineare che la rimozione delle muffe deve essere accompagnata da interventi per risolvere la causa principale dell'umidità che favorisce la crescita delle muffe.
 
-17. Riduzione dell'uso di prodotti chimici: L'ozono può ridurre la dipendenza da prodotti chimici di pulizia e disinfettanti, contribuendo a creare un ambiente domestico più ecologico.
 
-18. Eliminazione degli allergeni degli animali domestici: L'ozono può aiutare a ridurre la presenza di allergeni come peli di animali domestici e particelle di pelle di animali nell'aria interna, contribuendo a migliorare il comfort delle persone con allergie.
 
-19. Rimozione delle macchie: L'ozono può essere utilizzato per rimuovere macchie da tappeti, tessuti e superfici dure, rendendo più semplice la pulizia delle macchie difficili.
 
-20. Disinfezione di superfici: L'ozono può essere utilizzato per disinfettare superfici come piano di lavoro della cucina, bagno e altre aree a contatto con batteri e germi.
 
-21. Allungamento della durata dei fiori recisi: L'ozono può essere utilizzato per prolungare la freschezza dei fiori recisi, riducendo la presenza di batteri nell'acqua del vaso.
+L'ozono riduce la presenza di inquinanti atmosferici come il biossido di azoto (NO2) e il monossido di carbonio (CO) nell'aria interna, migliorando così la qualità dell'aria respirata. Rimuove anche i composti organici volatili (COV) presenti nell'aria interna, come quelli provenienti da solventi e materiali da costruzione, nonchè accelera la dispersione degli odori di vernice fresca o di prodotti chimici utilizzati durante lavori di ristrutturazione, rendendo l'aria più sana e respirabile.
+    
 
-22. Riduzione dell'odore di muffa in oggetti d'antiquariato o vintage: L'ozono può essere impiegato per ridurre gli odori di muffa o stantio da oggetti d'antiquariato o vintage, migliorando la loro presentazione.
 
-23. Pulizia degli impianti di ventilazione: L'ozono può essere utilizzato per la pulizia e la disinfezione degli impianti di ventilazione, contribuendo a migliorare la qualità dell'aria circolante.
+In situazioni di emergenza, come incendi domestici o esposizione al fumo, l'ozono contribuisce a purificare l'aria interna, migliorando le condizioni respiratorie. A lungo andare, se usato con ogni giorno con costanza, aiuta anche a rimuovere le macchie e gli odori persistenti causati dal fumo di sigarette.
 
-24. Deodorizzazione delle scarpe: L'ozono può essere usato per rimuovere gli odori sgradevoli dalle scarpe, rendendo più fresche le calzature.
 
-25. Rimozione delle macchie da fumo: L'ozono può aiutare a rimuovere le macchie e gli odori persistenti causati dal fumo di sigarette.
 
-26. Purificazione dell'acqua potabile: L'ozono può essere utilizzato come parte di un sistema di trattamento dell'acqua per rimuovere contaminanti come batteri, virus, pesticidi e composti chimici, migliorando così la qualità dell'acqua potabile.
+19. Rimozione delle macchie: 
+    L'ozono può essere utilizzato per rimuovere macchie da tappeti, tessuti e superfici dure, rendendo più semplice la pulizia delle macchie difficili.
 
-27. Rimozione degli odori del frigorifero: L'ozono può essere utilizzato per eliminare gli odori sgradevoli all'interno del frigorifero, mantenendo gli alimenti freschi più a lungo.
 
-28. Sanificazione dei giocattoli per bambini: L'ozono può essere impiegato per sanificare i giocattoli dei bambini, contribuendo a prevenire la diffusione di germi e batteri.
 
-29. Deodorizzazione delle calzature sportive: L'ozono può aiutare a rimuovere gli odori sgradevoli dalle scarpe da ginnastica e altre calzature sportive.
+L'ozono viene impiegato per purificare l'acqua del rubinetto, rimuovendo batteri, virus, pesticidi e contaminanti chimici, fornendo acqua potabile più pulita. Purifica anche l'acqua delle piscine, riducendo la necessità di utilizzare cloro o altri disinfettanti chimici, con conseguente miglioramento della qualità dell'acqua e riduzione di sintomi come irritazione degli occhi e della pelle.
 
-30. Rimozione degli odori di vernice fresca: L'ozono può accelerare la dispersione degli odori di vernice fresca o di prodotti chimici utilizzati durante lavori di ristrutturazione.
 
-31. Conservazione di libri e documenti storici: L'ozono può essere utilizzato per prevenire la crescita di muffe e la degradazione di libri e documenti storici, contribuendo alla loro conservazione.
 
-32. Riduzione dell'odore di animali domestici sui tessuti: L'ozono può aiutare a eliminare gli odori persistenti di animali domestici dai tessuti come tende, cuscini e coperte.
+23. Pulizia degli impianti di ventilazione: 
+    L'ozono può essere utilizzato per la pulizia e la disinfezione degli impianti di ventilazione, contribuendo a migliorare la qualità dell'aria circolante.
+9. Risparmio energetico: 
+    L'ozono può essere utilizzato per pulire e disinfettare impianti di raffreddamento e riscaldamento, riducendo la necessità di manutenzione e aumentando l'efficienza energetica.
 
-33. Riduzione delle zanzare e degli insetti volanti: L'ozono può contribuire a ridurre la presenza di zanzare e insetti volanti nell'ambiente interno quando utilizzato in apparecchi specifici.
 
-34. Miglioramento dell'igiene orale: L'ozono può essere utilizzato in odontoiatria per sterilizzare strumenti dentali e trattare alcune patologie orali, contribuendo a migliorare l'igiene e la salute orale.
 
-35. Rimozione degli odori dal bagno: L'ozono può aiutare a eliminare gli odori sgradevoli dal bagno, rendendo l'ambiente più fresco e piacevole.
 
-36. Rimozione degli odori di cucina: L'ozono può essere utilizzato per ridurre gli odori persistenti di cucina, come quelli causati da pesce o fritture.
 
-37. Deodorizzazione di scarpiere e armadi: L'ozono può contribuire a mantenere freschi gli armadi e le scarpiere, eliminando gli odori di scarpe e indumenti.
 
-38. Rimozione degli odori di animali domestici dai mobili: L'ozono può essere utilizzato per eliminare gli odori di animali domestici dai mobili e dai tessuti.
+L'ozono viene usato per eliminare gli odori sgradevoli all'interno del frigorifero e per allungare la durata di conservazione degli alimenti rimuovendo batteri e muffe presenti sulla superficie degli alimenti. Permette anche di disinfettare di ambienti di stoccaggio alimentare (come la credenza o la cassettiera della cucina), contribuendo a prevenire l'infestazione da acari e insetti dannosi.
+39. Pulizia delle spugne e degli strumenti da cucina: 
+    L'ozono può essere utilizzato per disinfettare spugne, coltelli e altri utensili da cucina.
+L'ozono può essere utilizzato per disinfettare armadi, cantine o garage in cui vengono conservati oggetti e attrezzature.
 
-39. Pulizia delle spugne e degli strumenti da cucina: L'ozono può essere utilizzato per disinfettare spugne, coltelli e altri utensili da cucina.
 
-40. Disinfezione di giardini interni: L'ozono può essere utilizzato per disinfezione dei giardini interni e delle piante in vaso, riducendo la presenza di parassiti e batteri.
 
-41. Eliminazione degli odori di muffa nei veicoli: L'ozono può essere impiegato per eliminare gli odori di muffa nei veicoli, migliorando l'esperienza di guida.
 
-42. Sterilizzazione dei prodotti per l'infanzia: L'ozono può essere utilizzato per sterilizzare biberon, ciucci e altri prodotti per l'infanzia, contribuendo a prevenire la crescita di batteri dannosi.
+L'ozono può contribuire a ridurre la presenza di zanzare e insetti volanti nell'ambiente interno quando utilizzato in apparecchi specifici.
 
-43. Rimozione degli odori dai tappeti: L'ozono può aiutare a eliminare gli odori persistenti dai tappeti, rendendo l'ambiente domestico più fresco.
 
-44. Disinfezione delle spazzole e pettini: L'ozono può essere impiegato per disinfettare spazzole, pettini e strumenti per la cura dei capelli.
 
-45. Miglioramento dell'acqua per l'irrigazione: L'ozono può essere utilizzato per trattare l'acqua utilizzata per l'irrigazione dei giardini, contribuendo a migliorare la salute delle piante.
+L'ozono può essere utilizzato per disinfezione dei giardini interni e delle piante in vaso, riducendo la presenza di parassiti e batteri.
+L'ozono può essere utilizzato per prolungare la freschezza dei fiori recisi, riducendo la presenza di batteri nell'acqua del vaso.
 
-46. Pulizia delle maschere per il sonno: L'ozono può essere utilizzato per disinfettare le maschere per il sonno utilizzate da persone con apnea del sonno o altre condizioni respiratorie.
 
-47. Eliminazione degli odori di animali domestici dai tessuti: L'ozono può contribuire a eliminare gli odori di animali domestici dai tessuti come coperte e cuscini.
 
-48. Pulizia degli ambienti di stoccaggio: L'ozono può essere utilizzato per disinfettare armadi, cantine o garage in cui vengono conservati oggetti e attrezzature.
+L'ozono viene impiegato per sanificare i giocattoli dei bambini, contribuendo a prevenire la diffusione di germi e batteri.
 
-49. Rimozione degli odori dai cassetti e dagli armadi: L'ozono può aiutare a eliminare gli odori persistenti dai cassetti e dagli armadi, mantenendo gli ambienti domestici più freschi.
 
-50. Prevenzione delle incrostazioni di calcare: L'ozono può essere utilizzato per prevenire la formazione di incrostazioni di calcare negli impianti idraulici e nelle caldaie, contribuendo a migliorarne l'efficienza.
+
+31. Conservazione di libri e documenti storici: 
+    L'ozono può essere utilizzato per prevenire la crescita di muffe e la degradazione di libri e documenti storici, contribuendo alla loro conservazione.
+
+
+
+L'ozono può essere impiegato per disinfettare spazzole, pettini e strumenti per la cura dei capelli, nonchè per disinfettare le maschere per il sonno utilizzate da persone con apnea del sonno o altre condizioni respiratorie. Può anche essere usato al posto del colluttorio per migliorare l'igiene orale e per la salute dentale.
+
+L'ozono può essere utilizzato per trattare l'acqua utilizzata per l'irrigazione dei giardini, contribuendo a migliorare la salute delle piante.
+
+
+
+50. Prevenzione delle incrostazioni di calcare: 
+    L'ozono può essere utilizzato per prevenire la formazione di incrostazioni di calcare negli impianti idraulici e nelle caldaie, contribuendo a migliorarne l'efficienza.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Purificazione dell'aria: 
+    L'ozono può essere utilizzato come agente di purificazione dell'aria per rimuovere odori sgradevoli, muffe, batteri e altri contaminanti presenti nell'aria interna. L'ozono ossida queste sostanze, contribuendo a migliorare la qualità dell'aria.
+
+
+
+3. Sanificazione degli ambienti: 
+    L'ozono può essere utilizzato per disinfettare superfici e oggetti all'interno della casa. Questo può contribuire a ridurre la presenza di germi, virus e muffe.
+20. Disinfezione di superfici: 
+    L'ozono può essere utilizzato per disinfettare superfici come piano di lavoro della cucina, bagno e altre aree a contatto con batteri e germi.
+
+
+
+2. Eliminazione degli odori: 
+    L'ozono è efficace nell'eliminare odori sgradevoli, come quelli causati da animali domestici, fumo di sigarette, cucina o umidità.
+7. Deodorizzazione di oggetti e tessuti: 
+    L'ozono può essere utilizzato per deodorare tessuti, mobili imbottiti e oggetti come tappeti, tende e vestiti, rimuovendo odori persistenti.
+22. Riduzione dell'odore di muffa in oggetti d'antiquariato o vintage: 
+    L'ozono può essere impiegato per ridurre gli odori di muffa o stantio da oggetti d'antiquariato o vintage, migliorando la loro presentazione.
+24. Deodorizzazione delle scarpe: 
+    L'ozono può essere usato per rimuovere gli odori sgradevoli dalle scarpe, rendendo più fresche le calzature.
+29. Deodorizzazione delle calzature sportive: 
+    L'ozono può aiutare a rimuovere gli odori sgradevoli dalle scarpe da ginnastica e altre calzature sportive.
+32. Riduzione dell'odore di animali domestici sui tessuti: 
+    L'ozono può aiutare a eliminare gli odori persistenti di animali domestici dai tessuti come tende, cuscini e coperte.
+35. Rimozione degli odori dal bagno: 
+    L'ozono può aiutare a eliminare gli odori sgradevoli dal bagno, rendendo l'ambiente più fresco e piacevole.
+36. Rimozione degli odori di cucina: 
+    L'ozono può essere utilizzato per ridurre gli odori persistenti di cucina, come quelli causati da pesce o fritture.
+37. Deodorizzazione di scarpiere e armadi: 
+    L'ozono può contribuire a mantenere freschi gli armadi e le scarpiere, eliminando gli odori di scarpe e indumenti.
+38. Rimozione degli odori di animali domestici dai mobili: 
+    L'ozono può essere utilizzato per eliminare gli odori di animali domestici dai mobili e dai tessuti.
+43. Rimozione degli odori dai tappeti: 
+    L'ozono può aiutare a eliminare gli odori persistenti dai tappeti, rendendo l'ambiente domestico più fresco.
+47. Eliminazione degli odori di animali domestici dai tessuti: 
+    L'ozono può contribuire a eliminare gli odori di animali domestici dai tessuti come coperte e cuscini.
+
+
+
+4. Rimozione delle muffe: 
+    L'ozono può aiutare a eliminare le muffe presenti negli ambienti interni. Tuttavia, è importante sottolineare che la rimozione delle muffe deve essere accompagnata da interventi per risolvere la causa principale dell'umidità che favorisce la crescita delle muffe.
+
+
+
+5. Riduzione degli allergeni: 
+    L'ozono può contribuire a ridurre la presenza di allergeni come acari della polvere e peli di animali nell'aria, il che può essere utile per le persone con allergie.
+18. Eliminazione degli allergeni degli animali domestici: 
+    L'ozono può aiutare a ridurre la presenza di allergeni come peli di animali domestici e particelle di pelle di animali nell'aria interna, contribuendo a migliorare il comfort delle persone con allergie.
+
+
+
+6. Riduzione degli inquinanti atmosferici: 
+    L'ozono può contribuire a ridurre la presenza di inquinanti atmosferici come il biossido di azoto (NO2) e il monossido di carbonio (CO) nell'aria interna, migliorando così la qualità dell'aria respirata.
+15. Rimozione di sostanze chimiche volatili: 
+    L'ozono può essere efficace nella rimozione di composti organici volatili (COV) presenti nell'aria interna, come quelli provenienti da vernici, solventi e materiali da costruzione, migliorando così la qualità dell'aria.
+    
+
+
+11. Rimozione di inquinanti dell'aria da fumo e incendi: 
+    In situazioni di emergenza, come incendi domestici o esposizione al fumo, l'ozono può contribuire a purificare temporaneamente l'aria interna, migliorando le condizioni respiratorie.
+19. Rimozione delle macchie: 
+    L'ozono può essere utilizzato per rimuovere macchie da tappeti, tessuti e superfici dure, rendendo più semplice la pulizia delle macchie difficili.
+25. Rimozione delle macchie da fumo: 
+    L'ozono può aiutare a rimuovere le macchie e gli odori persistenti causati dal fumo di sigarette.
+30. Rimozione degli odori di vernice fresca: 
+    L'ozono può accelerare la dispersione degli odori di vernice fresca o di prodotti chimici utilizzati durante lavori di ristrutturazione.
+
+
+
+8. Miglioramento della qualità dell'acqua: 
+    L'ozono può essere impiegato per purificare l'acqua del rubinetto, rimuovendo batteri, virus, e contaminanti chimici. Questo processo può contribuire a fornire acqua potabile più pulita.
+12. Purificazione dell'acqua in piscina: 
+    L'ozono può essere impiegato per purificare l'acqua delle piscine, riducendo la necessità di utilizzare cloro o altri disinfettanti chimici. Questo può migliorare la qualità dell'acqua e ridurre l'irritazione degli occhi e della pelle.
+26. Purificazione dell'acqua potabile: 
+    L'ozono può essere utilizzato come parte di un sistema di trattamento dell'acqua per rimuovere contaminanti come batteri, virus, pesticidi e composti chimici, migliorando così la qualità dell'acqua potabile.
+
+
+
+23. Pulizia degli impianti di ventilazione: 
+    L'ozono può essere utilizzato per la pulizia e la disinfezione degli impianti di ventilazione, contribuendo a migliorare la qualità dell'aria circolante.
+9. Risparmio energetico: 
+    L'ozono può essere utilizzato per pulire e disinfettare impianti di raffreddamento e riscaldamento, riducendo la necessità di manutenzione e aumentando l'efficienza energetica.
+
+
+
+17. Riduzione dell'uso di prodotti chimici: 
+    L'ozono può ridurre la dipendenza da prodotti chimici di pulizia e disinfettanti, contribuendo a creare un ambiente domestico più ecologico.
+
+
+
+27. Rimozione degli odori del frigorifero: 
+    L'ozono può essere utilizzato per eliminare gli odori sgradevoli all'interno del frigorifero, mantenendo gli alimenti freschi più a lungo.
+10. Conservazione degli alimenti: 
+    L'ozono può essere impiegato per allungare la durata di conservazione degli alimenti rimuovendo batteri e muffe presenti sulla superficie degli alimenti.
+
+16. Eliminazione degli acari degli alimenti: 
+    L'ozono può essere utilizzato per la disinfezione di ambienti di stoccaggio alimentare, contribuendo a prevenire l'infestazione da acari e insetti dannosi.
+33. Riduzione delle zanzare e degli insetti volanti: 
+    L'ozono può contribuire a ridurre la presenza di zanzare e insetti volanti nell'ambiente interno quando utilizzato in apparecchi specifici.
+
+
+
+21. Allungamento della durata dei fiori recisi: 
+    L'ozono può essere utilizzato per prolungare la freschezza dei fiori recisi, riducendo la presenza di batteri nell'acqua del vaso.
+
+
+
+
+28. Sanificazione dei giocattoli per bambini: 
+    L'ozono può essere impiegato per sanificare i giocattoli dei bambini, contribuendo a prevenire la diffusione di germi e batteri.
+
+
+
+31. Conservazione di libri e documenti storici: 
+    L'ozono può essere utilizzato per prevenire la crescita di muffe e la degradazione di libri e documenti storici, contribuendo alla loro conservazione.
+
+
+
+40. Disinfezione di giardini interni: 
+    L'ozono può essere utilizzato per disinfezione dei giardini interni e delle piante in vaso, riducendo la presenza di parassiti e batteri.
+
+
+
+39. Pulizia delle spugne e degli strumenti da cucina: 
+    L'ozono può essere utilizzato per disinfettare spugne, coltelli e altri utensili da cucina.
+44. Disinfezione delle spazzole e pettini: 
+    L'ozono può essere impiegato per disinfettare spazzole, pettini e strumenti per la cura dei capelli.
+46. Pulizia delle maschere per il sonno: 
+    L'ozono può essere utilizzato per disinfettare le maschere per il sonno utilizzate da persone con apnea del sonno o altre condizioni respiratorie.
+34. Miglioramento dell'igiene orale: 
+    L'ozono può essere utilizzato in odontoiatria per sterilizzare strumenti dentali e trattare alcune patologie orali, contribuendo a migliorare l'igiene e la salute orale.
+
+
+
+45. Miglioramento dell'acqua per l'irrigazione: 
+    L'ozono può essere utilizzato per trattare l'acqua utilizzata per l'irrigazione dei giardini, contribuendo a migliorare la salute delle piante.
+
+
+
+48. Pulizia degli ambienti di stoccaggio: 
+    L'ozono può essere utilizzato per disinfettare armadi, cantine o garage in cui vengono conservati oggetti e attrezzature.
+
+49. Rimozione degli odori dai cassetti e dagli armadi: 
+    L'ozono può aiutare a eliminare gli odori persistenti dai cassetti e dagli armadi, mantenendo gli ambienti domestici più freschi.
+
+50. Prevenzione delle incrostazioni di calcare: 
+    L'ozono può essere utilizzato per prevenire la formazione di incrostazioni di calcare negli impianti idraulici e nelle caldaie, contribuendo a migliorarne l'efficienza.
 
 
 
