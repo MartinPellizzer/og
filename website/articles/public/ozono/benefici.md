@@ -73,12 +73,11 @@ L'ozono svolge un ruolo cruciale nell'agricoltura, sterilizzando l'acqua per l'i
 
 
 
-
 ## Migliora la salute della pelle
 
 Da un punto di vista medico, l'ozono (O3) svolge un'azione antibatterica e antimicotica sulla pelle, ovvero è in grado di trattare infezioni cutanee causate da batteri, funghi o altri agenti patogeni. Stimola il sistema immunitario e migliora la risposta del corpo contro le infezioni cutenee, nonchè ottimizza la circolazione sanguingna locale fornendo un migliore apporto di ossigeno e nutrienti alle cellule della pelle. Questo accelera il processo di guarigione delle ferite e favorisce la formazione di nuovi tessuti, il che è particolarmente utile per il trattamento delle lesioni cutanee precancerose. Inoltre, favorisce anche la guarigione di ustioni superficiali di lieve entità, incluse ustioni solari, da radiazioni e da contatto con sostanze chimiche irritanti, riducendo il rischio di infezione.
 
-Dato il suo effetto antinfiammatorio, l'ozono viene usato in ozonoterapio perché riduce l'infiammazione sulla pelle e contribuisce al sollievo da varie condizioni, come le dermatiti. Viene utilizzato per trattare condizioni cutanee croniche, come ulcera, psoriasi ed eczema, oltre che a ridurre i sintomi della rosacea, come arrossamento e vasodilatazione. Inoltre, allevia i sintomi dell'orticaria cronica (come eruzioni cutanee pruriginose), riduce l'ipersensibilità cutanea (alleviando fastidi come prurito e bruciore) e diminuisce l'infiammazione causata da punture d'insetto (anche loro causa di prurito e bruciore, nonchè di dolore).
+Dato il suo effetto antinfiammatorio, l'ozono viene usato in ozonoterapia perché riduce l'infiammazione sulla pelle e contribuisce al sollievo da varie condizioni, come le dermatiti. Viene utilizzato per trattare condizioni cutanee croniche, come ulcera, psoriasi ed eczema, oltre che a ridurre i sintomi della rosacea, come arrossamento e vasodilatazione. Inoltre, allevia i sintomi dell'orticaria cronica (come eruzioni cutanee pruriginose), riduce l'ipersensibilità cutanea (alleviando fastidi come prurito e bruciore) e diminuisce l'infiammazione causata da punture d'insetto (anche loro causa di prurito e bruciore, nonchè di dolore).
 
 L'O3 viene impiegato per trattare l'herpes simplex, herpes zoster (fuoco di Sant'Antonio) e le verruche virali. Cura le micosi cutanee (infezioni fungine sulla pelle), comprese le infezioni fungine delle unghie (note anche come onicomicosi).
 
@@ -86,7 +85,9 @@ Da un punto di vista estetico, invece, l'ozono viene usato per aumentare l'appor
 
 L'O3 contribuisce a ridurre l'iperpigmentazioni (eccessiva pigmentazione della pelle), diminuisce l'aspetto delle macchie cutanee (come le macchie dell'età o le discromie) e minimizza sia il gonfiore che l'aspetto delle borse sotto gli occhi. Infine, contribuisce a ridurre l'aspetto della cellulite sulla pelle e delle smagliature (incluse quelle che si verificano dopo la gravidanza), nonchè aiuta a controllare la produzione di sebo sulla pelle e riduce sia l'acne (compresa l'acne cistica) che l'aspetto delle cicatrici da acne, stimolando la rigenerazione dei tessuti.
 
+Ecco un'immagine che lista alcuni problemi della pelle che traggono beneficio dall'ozono.
 
+![L'ozono migliora la salute della pelle](/assets/images/ozono-benefici-pelle.jpg "L'ozono migliora la salute della pelle")
 
 ## Fortifica i capelli
 
@@ -100,13 +101,15 @@ L'Ozono, oltre a contribuire alla crescita dei capelli, auita a ridurne la cadut
 
 Inoltre, riduce il prurito e la desquamazione associati a condizioni come la dermatite seborroica. Allevia i sintomi della forfora, ha un effetto lenitivo su un cuoio capelluto irritato o sensibile e tratta i sintomi della psoriasi e dell'eczema. In aggiunta, dato il suo potere ossidante, aiuta a rimuovere composti dannosi o accumuli di sebo dal cuoio capelluto. Infatti, ne regola la produzione e l'accumulo di sebo, aiutando a prevenire la sensazione di capelli grassi, nonchè stimola le ghiandole sebacee a produrre un sebo di migliore qualità.
 
-L'O3 ha nache proprietà antimicrobiche. Aiuta infatti a combattere batteri e funghi che influiscono sulla salute dei capelli. È efficace nel trattamento delle infezioni fungine, come la dermatite da Malassezia, ha effetti benefici nel trattamento dei pidocchi e contribuire a mantenere un equilibrio sano nel microbioma del cuoio capelluto. Oltre a ciò, aiuta a rimuovere eventuali residui di prodotti chimici presenti nei capelli (a causa di trattamenti precedenti) e riduce i danni causati da trattamenti chimici o termici. 
+L'O3 ha anche proprietà antimicrobiche. Aiuta infatti a combattere batteri e funghi che influiscono sulla salute dei capelli. È efficace nel trattamento delle infezioni fungine, come la dermatite da Malassezia, ha effetti benefici nel trattamento dei pidocchi e contribuire a mantenere un equilibrio sano nel microbioma del cuoio capelluto. Oltre a ciò, aiuta a rimuovere eventuali residui di prodotti chimici presenti nei capelli (a causa di trattamenti precedenti) e riduce i danni causati da trattamenti chimici o termici. 
 
 Infine, aiuta i capelli a diventare più resistenti agli effetti dannosi degli agenti ambientali, come l'inquinamento e l'esposizione ai raggi UV. Ha anche un effetto antiossidante sul cuoio capelluto, proteggendo i capelli dagli danni dei radicali liberi, e ne migliora la circolazione linfatica, favorendo una maggiore eliminazione delle tossine. 
 
 Dal punto di vista estetico, invece, l'ozono ha un effetto positivo sulla lucentezza e il colore dei capelli, creando un aspetto più sano e vibrante. Migliora anche l'idratazione e la texture dei capelli, rendendoli più morbidi e setosi, e ripara i capelli danneggiati, migliorandone l'aspetto e la lucentezza.
 
+Qui sotto trovi una grafica che illustra alcuni vantaggio nell'utilizzare l'ozono sui capelli.
 
+![L'ozono fortifica i capelli](/assets/images/ozono-benefici-capelli.jpg "L'ozono fortifica i capelli")
 
 ## Regola l'intestino
 
@@ -124,7 +127,9 @@ Può essere utilizzato come parte di un approccio integrato per affrontare distu
 
 Influenza positivamente i livelli degli zuccheri e dei lipidi nel sangue, e sembra anche avere ha un effetto antitumorale, un effetto postitivo sulla funzione sessuale maschile, e un effetto positivo sulla funzione neurologica, ma ulteriori ricerche sono necessarie per confermare tali effetti.
 
+TODO: IMAGE DESC
 
+![L'ozono regola l'intestino](/assets/images/ozono-benefici-intestino.jpg "L'ozono regola l'intestino")
 
 ## Purifica il sangue
 
@@ -146,7 +151,9 @@ In alcuni casi, ha anche dimostrato di migliorare la capacità polmonare e la fu
 
 Infine, la comunità scientifica sta mostrando interesse nell'utilizzare l'ozono per aumentare l'efficacia delle terapie convenzionali contro il cancro e per il trattamento dell'HIV/AIDS, ma sono necessari più studi per confermarne l'efficacia e l'implementabilità.
 
+TODO: IMAGE DESC
 
+![L'ozono purifica il sangue](/assets/images/ozono-benefici-sangue.jpg "L'ozono purifica il sangue")
 
 ## Cura l'ernia discale
 
@@ -168,6 +175,9 @@ Infine, l'ozonoterapia è utile anche come trattamento preventivo, specialmente 
 
 L'ozonoterapia è un trattamento non invasivo che sfrutta le proprietà anti-infiammatorie dell'ozono per affrontare l'ernia del disco. Questo approccio riduce l'infiammazione cronica, allevia il dolore e migliora la mobilità dei pazienti. Inoltre, promuove la circolazione sanguigna, fornendo ossigeno e nutrienti ai tessuti danneggiati, favorendo la rigenerazione. L'ozono riduce la compressione sui nervi spinali, migliorando la conduzione nervosa e riducendo l'edema. È una scelta preferibile rispetto alla chirurgia, con meno rischi e tempi di recupero più brevi. È personalizzabile e può anche essere usato dopo un intervento chirurgico. È una soluzione preventiva per chi è a rischio di ernia del disco, riducendo il bisogno di farmaci e migliorando la qualità della vita.
 
+TODO: IMAGE DESC
+
+![L'ozono cura l'ernia discale](/assets/images/ozono-benefici-ernia-discale.jpg "L'ozono cura l'ernia discale")
 
 ## Depura l'acqua
 
@@ -192,7 +202,10 @@ L'ozono può essere integrato con altri metodi di trattamento dell'acqua, come l
 Di fatto, l'uso di O3 aiuta a migliorare significativamente la qualità dell'acqua potabile, contribuendo a fornire acqua più sicura e salutare per il consumo umano. Consente una migliore gestione delle risorse idriche, in quanto contribuisce a preservare la qualità dell'acqua senza doverla sostituire o trattare in modo intensivo, richiede meno energia e tempo di trattamento rispetto ad altri processi di trattamento dell'acqua, contribuendo a ridurre i costi operativi, e riduce la necessità di spazio e di costose operazioni di smaltimento di prodotti chimici utilizzati nei processi di trattamento tradizionali.
 
 L'ozonizzazione è quindi uno strumento efficace per migliorare significativamente la qualità dell'acqua potabile. Infatti, viene utilizzata per trattare acque sotterranee, acque di superficie (come fiumi e laghi) e acque nei serbatoi per migliorare la qualità dell'acqua nelle riserve di approvvigionamento, nonchè può essere utilizzata per migliorare la qualità dell'acqua in situazioni di emergenza o durante crisi idriche.
-    
+
+TODO: IMAGE DESC
+
+![L'ozono depura l'acqua](/assets/images/ozono-benefici-acqua.jpg "L'ozono depura l'acqua")
 
 ## Decontamina gli alimenti
 
@@ -209,6 +222,10 @@ L'ozono è impiegato per sterilizzare le attrezzature utilizzate nella produzion
 Inoltre, l'O3 viene usato per per mantenere o migliorare l'aspetto visivo di alimenti freschi, come frutta tagliata o insalate pronte all'uso. È in grado di sbiancare farina e cereali (ottenendo prodotti da forno più luminosi e appetibili), contribuisce a migliorare la colorazione di alcuni prodotti alimentari come frutta e verdura (rendendoli più attraenti per i consumatori) e viene utilizzato per migliorare la consistenza e la texture di alcuni alimenti come la pasta e il pane (rendendoli più allettanti).
 
 Migliora anche l'aspetto visivo degli alimenti freschi, come frutta tagliata o insalate pronte all'uso, e migliora la qualità del vino rimuovendo vari contaminanti, come il cloruro di metile. Aumenta anche la consistenza e la stabilità dei prodotti a base di uova (come maionese e salse) e nelle bevande (come la birra), aiutando a ottenere una migliore qualità sensoriale. In aggiunta, parlando di bevande, è in grado di rompere le pareti cellulari della frutta durante il processo di estrazione dei succhi, aumentando la resa di succo estratto da ogni frutto. Questo, senza il bisogno di trattamenti termici intensi, il chè consente di preservare al meglio loro valore nutrizionale e loro sapore di questi estratti.
+
+TODO: IMAGE DESC
+
+![L'ozono decontamina gli alimenti](/assets/images/ozono-benefici-alimenti.jpg "L'ozono decontamina gli alimenti")
 
 ## Disinfetta la casa
 
@@ -230,7 +247,11 @@ In situazioni di emergenza, come incendi domestici o esposizione al fumo, questo
 
 Infine, l'ozono viene utilizzato per la disinfezione dei giardini interni e delle piante in vaso, riducendo la presenza di parassiti e batteri. Prolunga la freschezza dei fiori recisi, riducendo la presenza di batteri nell'acqua del vaso, e decontamina l'acqua utilizzata per l'irrigazione dei giardini, contribuendo a migliorare la salute delle piante.
 
-## Igienizza l'automobile
+TODO: IMAGE DESC
+
+![L'ozono disinfetta la casa](/assets/images/ozono-benefici-casa.jpg "L'ozono disinfetta la casa")
+
+## Igienizza l'auto
 
 L'ozono igienizza l'auto e purifica l'aria al suo interno, rimuovendo batteri, virus, muffe, allergeni e odori sgradevoli (come quelli causati da fumo, animali domestici o cibo), migliorando così la qualità dell'aria respirata dai passeggeri.
 
@@ -252,6 +273,9 @@ La riduzione di questi inquinanti contribuisce anche a preservare la qualità de
 
 Tutto questo porta ad un ambiente più pulito e privo di odori all'interno dell'auto, e di conseguenza a un'esperienza di guida più piacevole. Un ambiente pulito e fresco all'interno dell'auto porta a un miglioramento sul benessere psicologico del conducente e dei passeggeri, e riduce lo stress durante i viaggi (specialmente quelli lunghi).
 
+TODO: IMAGE DESC
+
+![L'ozono igienizza l'auto](/assets/images/ozono-benefici-auto.jpg "L'ozono igienizza l'auto")
 
 ## Protegge l'agricoltura
 
@@ -270,6 +294,10 @@ L'O3 è quindi un'alternativa valida se si vuole ridurre l'utilizzo di pesticidi
 Utilizzare l'ozono permette di ridurre gli inquinanti atmosferici, come le particelle sottili e i composti organici volatili, che possono danneggiare le colture. Tuttavia, è importante mantenere i livelli di ozono nell'aria entro limiti accettabili, poiché concentrazioni elevate possono essere dannose per le piante. È utile per disinfettare serre, stalle e altre strutture agricole, riducendo così la presenza di patogeni e migliorando le condizioni igieniche per le piante e gli animali, nonchè per migliorare la qualità dell'aria e prevenire la crescita di patogeni dell'aria come muffe e batteri, e per ridurre le emissioni di metano dai rifiuti agricoli decomposti. Viene anche utilizzato per allontanare o eliminare insetti dannosi che infestano le colture, e per la disinfestazione delle strutture di stoccaggio e trasporto degli alimenti, riducendo la necessità di pesticidi chimici.
 
 Infine, l'O3 è in grado di prolungare la conservazione dei prodotti ortofrutticoli, riducendo la crescita di muffe, lieviti e batteri che possono causare la decomposizione. Aiuta a preservare la freschezza e la qualità dei prodotti agricoli durante il trasporto e lo stoccaggio (riducendo le perdite post-raccolta), migliora la colorazione e il sapore di frutta, verdura e altri prodotti agricoli (rendendoli più appetibili per i consumatori) ed eliminare allergeni come il polline dalle superfici dei prodotti agricoli (rendendo i prodotti più sicuri per le persone con allergie).
+
+TODO: IMAGE DESC
+
+![L'ozono protegge l'agricoltura](/assets/images/ozono-benefici-agricoltura.jpg "L'ozono protegge l'agricoltura")
 
 ## Quali sono gli effetti collaterali dell'ozono?
 
