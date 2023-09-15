@@ -8,6 +8,54 @@ import os
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw 
+from PIL import ImageColor 
+
+
+
+
+def generate_image_sanitation(image_out_path):    
+    img_w, img_h = 768, 432
+    img = Image.new("RGBA", (img_w, img_h), ImageColor.getrgb("#f8fafc"))
+
+    draw = ImageDraw.Draw(img)
+
+    
+    icon_w = 96
+    icon_h = 96
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (0, 0), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (200, 0), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (400, 0), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (600, 0), icon)
+    
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (100, 200), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (300, 200), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (500, 200), icon)
+
+    img.convert('RGB').save(f'{image_out_path}')
+    # img.show()
+
+generate_image_sanitation('assets/images/articles/ozono-sanificazione-caseifici.jpg')
+
 
 
 def generate_image_plain(image_path, w, h, image_path_out):
@@ -51,7 +99,7 @@ generate_image_plain('assets/images/home/trasporti-raw.jpg', w, h, 'assets/image
 
 
 
-def generate_image(image_path, text, w, h, iamge_out_path):
+def generate_image(image_path, text, w, h, image_out_path):
 
     img = Image.open(image_path)
 
@@ -78,16 +126,8 @@ def generate_image(image_path, text, w, h, iamge_out_path):
     )
     img = img.crop(area)
 
-    # new_end_size
-
-
-    # print(w, h)
-    # print(img.size)
-
-    # print(img.size)
     font = ImageFont.truetype("assets/fonts/arial.ttf", 32)
 
-    
     words = text.split()
     lines = []
     line = ''
@@ -145,9 +185,12 @@ def generate_image(image_path, text, w, h, iamge_out_path):
         
     img.paste(logo, (text_width_max + 50, start_text_y - 10 + (rectangle_h // 2) - (logo.size[1] // 2)), logo)
     
-    img.save(f'{iamge_out_path}')
+    img.save(f'{image_out_path}')
 
     # img.show()
+
+
+
 
 # generate_image('assets/images/featured/ozono-effetti.jpg', 768, 432)
 i = 1
@@ -320,6 +363,15 @@ for filepath in folder.rglob("*.md"):
     try: publishing_date = md.Meta['publishing_date'][0]
     except: pass
 
+    # AUTHOR ----------------------------------------
+    author = 'Ozonogroup Staff'
+    try: author = md.Meta['author'][0]
+    except: pass
+
+    last_update_date = ''
+    try: last_update_date = md.Meta['last_update_date'][0]
+    except: pass
+
     # GENERATE TABLE OF CONTENTS ----------------------------------------
     toc_html = generate_toc(content_html)
     
@@ -335,6 +387,7 @@ for filepath in folder.rglob("*.md"):
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="/style-blog.css">
+            <link rel="stylesheet" href="/util.css">
             <title>Ozonogroup</title>
         </head>
 
@@ -353,8 +406,8 @@ for filepath in folder.rglob("*.md"):
 
             <section class="meta-section mt-48">
                 <div class="container-md h-full">
-                    <div class="flex justify-between">
-                        <span>Ozonogroup Staff • {publishing_date}</span>
+                    <div class="flex justify-between mb-8">
+                        <span>by {author} • {publishing_date}</span>
                         <span>Tempo Lettura: {reading_time} min</span>
                     </div>
                 </div>
@@ -404,4 +457,5 @@ for filepath in folder.rglob("*.md"):
     articles_images_path = 'assets/images/home/'
     for f in os.listdir(articles_images_path):
         shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
+
 
