@@ -10,7 +10,92 @@ from PIL import ImageFont
 from PIL import ImageDraw 
 from PIL import ImageColor 
 
+import random
 
+
+
+# DB TO ARTICLE ----------------------------------------------------
+
+import csv
+
+rows = []
+with open("database/dairy.csv", "r") as f:
+    reader = csv.reader(f, delimiter="\\")
+    for i, line in enumerate(reader):
+        rows.append(line)
+
+
+
+print(rows[0])
+
+
+rows = rows[1:]
+# random.shuffle(rows)
+
+# for row in rows:
+#     print(row)
+
+"""
+L'ozono viene usato per trattare il latte crudo, 
+inattivando in microrganismi patogeni 
+e minimizzando la perdita di proprietà nutritive 
+(al contrario dei trattamenti termici). 
+
+Studi dimostrano che l'ozono elimina il Cronobacter sakazaki 
+dal latte in polvere, 
+se utilizzato in concentrazioni di 2.8 mg L-1 per 120 minuti, 
+riducendo la carica batterica di 2.71 log. 
+
+Riduce anche gli psicrotrofi 
+(batteri che crescono a temperature pari o inferiori a 7°C) 
+dal latte scremato, 
+se utilizzato in concentrazioni di 5-35 mg L-1 per 5-25 minuti. 
+"""
+
+print()
+
+def generate_line(i, row):
+    studio = row[0].strip()
+    anno = row[1].strip()
+    prodotto = row[2].strip()
+    sottoprodotto = row[3].strip()
+    problema = row[4].strip()
+    conentrazione = row[5].strip()
+    tempo = row[6].strip()
+    riduzione = row[7].strip()
+
+    riduzione_articolo = 'di'
+    if '%' in riduzione: riduzione_articolo = 'del'
+    elif 'log' in riduzione: riduzione_articolo = 'di'
+
+    if i == 0:
+        return f"L'ozono riduce il livello di {problema} dal {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione}, se utilizzato con un dosaggio di {conentrazione} per {tempo}, come dimostrato da uno studio fatto da {studio} ({anno}). "
+    # elif i == 1: 
+    #     return f"Altri studi dimostrano anche che utilizzare {conentrazione} di ozono per {tempo} riduce il livello di {problema} nel {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione}. "
+    elif i == 1: 
+        return f"Riduce anche il livello do {problema} dal {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione}, se utilizzato con un dosaggio di {conentrazione} per {tempo}. "
+    elif i == 2: 
+        return f"Inoltre, è in grado di ridurre la contaminazione di {problema} nel {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione} se utilizzato per {tempo} ad una concentrazione di {conentrazione}. "
+    else: 
+        return f"Come documentato da una ricerca fatta da {studio} nel {anno}, applicare {conentrazione} di ozono nel {prodotto} {sottoprodotto} per {tempo} ridurre la contaminazione di {problema} {riduzione_articolo} {riduzione}. "
+
+text = ''
+
+for i, row in enumerate(rows):
+    if len(text.split()) > 100: break
+
+    # LATTE
+    if row[2].lower() == 'latte'.lower():
+        text += generate_line(i, row)
+        # text += '\n\n'
+    
+    # if i > 1:
+        # break
+    
+print(text)
+print()
+
+quit()
 
 
 def generate_image_sanitation(image_out_path):    
@@ -457,5 +542,4 @@ for filepath in folder.rglob("*.md"):
     articles_images_path = 'assets/images/home/'
     for f in os.listdir(articles_images_path):
         shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
-
 
