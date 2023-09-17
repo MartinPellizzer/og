@@ -1,16 +1,37 @@
-"studio"\"anno"\"prodotto"\"sotto prodotto"\"problema"\"concentrazione"\"tempo"\"riduzione"\"temperatura"\"ph"\"combinato"
-"Torlak and Sert"\2013\"latte"\"scremato"\"Cronobacter sakazaki"\"5.3 mg L-1"\"120 minuti"\"3.28 log"\\\
-"Rojek et al."\1995\"latte"\"scremato"\"psicrotrofi"\"5-35 mg L-1"\"5-25 minuti"\"99%"\\\
-"Sheelamary and Muthukumar"\2011\"latte"\"crudo"\"Listeria monocytogenes "\"0.2 g h-1"\"15 minuti"\"5.5 log"\\\
-"Cavalcante et al. "\2021\"latte"\"crudo"\"batteri"\"1.5 mg L-1 "\"15 minuti "\"1 log "\\\
-"Alsager et al. "\2018\"latte"\\"antibiotici"\"75 mg L-1 "\"10 minuti "\"0.95"\\\
-"Liu et al. "\2022\"latte"\\"antibiotici"\"6.12 mg h-1"\"6 ore"\"50.8-84.1 ug L-1"\\\
-"de Oliveira Souza et al. "\2019\"latte"\"scremato senza lattosio"\"Escherichia coli O157:H7"\"45 mg L-1 "\"25 minuti"\"1.5 log"\\\
-"Ismail et al. "\2018\"latte"\\"Aflatossine"\"80 mg min-1"\"5 minuti "\"50%"\\\
-"Sert and Mercan "\2021\"latte"\"concentrato"\"Aflatossina M1"\"3.5 g h-1 "\"60 minuti "\"18.9%"\\\
-"Làszlò et al. "\2009\"acque reflue"\\"inquinanti organici"\"30 mg dm-3 "\"5 minuti"\\"25 ◦C "\\
-"dos Santos Pereira et al."\2018\"acque reflue"\\"materiale organico"\\\"69.4%"\\10.2\"perossido di idrogeno"
-"Li et al. "\2020\"acque reflue"\\"materiale organico"\"12.5 mg L-1 min-1 "\"20 minuti"\"48.9%"\\9\"Mn-Fe-Ce "
-"Zhu et al."\2022\"acque reflue"\\"azoto ammoniacale totale"\"5 L min-1 "\"60 minuti "\"80.2%"\\7.5\
-"Chen et al. "\2021\"acque reflue"\\"enterococchi"\"4.2 mg L-1"\"30 minuti"\"92%"\\\"ultrasuoni"
-"Chang et al."\2022\"acque reflue"\\"Salmonella Typhimurium "\"132.46 mg L-1 "\\\\\
+"studio"\"anno"\"prodotto_articolo_determinativo"\"prodotto"\"sotto_prodotto"\"problema_articolo_determinativo"\"problema"\"forma"\"dose"\"tempo"\"giorni"\"riduzione_articolo_determinativo"\"riduzione"\"migliorie"\"temperatura"\"umidita"\"ph"\"combinato"
+"Torlak and Sert"\2013\"dal "\"latte"\"scremato"\"il "\"Cronobacter sakazaki"\\"5.3 mg L-1"\"120 minuti"\\"di "\"3.28 log"\\\\\
+"Rojek et al."\1995\"dal "\"latte"\"scremato"\"i "\"psicrotrofi"\\"5-35 mg L-1"\"5-25 minuti"\\"del "\"99%"\\\\\
+"Sheelamary and Muthukumar"\2011\"dal "\"latte"\"crudo"\"la "\"Listeria monocytogenes "\\"0.2 g h-1"\"15 minuti"\\"di "\"5.5 log"\\\\\
+"Cavalcante et al. "\2021\"dal "\"latte"\"crudo"\"i "\"batteri"\\"1.5 mg L-1 "\"15 minuti "\\"di "\"1 log "\\\\\
+"Alsager et al. "\2018\"dal "\"latte"\\"gli "\"antibiotici"\\"75 mg L-1 "\"10 minuti "\\"del "\"95%"\\\\\
+"Liu et al. "\2022\"dal "\"latte"\\"gli "\"antibiotici"\\"6.12 mg h-1"\"6 ore"\\"di "\"50.8-84.1 ug L-1"\\\\\
+"de Oliveira Souza et al. "\2019\"dal "\"latte"\"scremato senza lattosio"\"l'"\"Escherichia coli O157:H7"\\"45 mg L-1 "\"25 minuti"\\"di "\"1.5 log"\\\\\
+"Ismail et al. "\2018\"dal "\"latte"\\"le "\"Aflatossine"\\"80 mg min-1"\"5 minuti "\\"del "\"50%"\\\\\
+"Sert and Mercan "\2021\"dal "\"latte"\"concentrato"\"l'"\"Aflatossina M1"\\"3.5 g h-1 "\"60 minuti "\\"del "\"18.9%"\\\\\
+"Làszlò et al. "\2009\"dalle "\"acque reflue"\\"gli "\"inquinanti organici"\\"30 mg dm-3 "\"5 minuti"\\\\\"25 °C "\\\
+"dos Santos Pereira et al."\2018\"dalle "\"acque reflue"\\"il "\"materiale organico"\\\\\"del "\"69.4%"\\\\10.2\"perossido di idrogeno"
+"Li et al. "\2020\"dalle "\"acque reflue"\\"il "\"materiale organico"\\"12.5 mg L-1 min-1 "\"20 minuti"\\"del "\"48.9%"\\\\9\"Mn-Fe-Ce "
+"Zhu et al."\2022\"dalle "\"acque reflue"\\"l'"\"azoto ammoniacale totale"\\"5 L min-1 "\"60 minuti "\\"del "\"80.2%"\\\\7.5\
+"Chen et al. "\2021\"dalle "\"acque reflue"\\"gli "\"enterococchi"\\"4.2 mg L-1"\"30 minuti"\\"del "\"92%"\\\\\"ultrasuoni"
+"Chang et al."\2022\"dalle "\"acque reflue"\\"la "\"Salmonella Typhimurium "\\"132.46 mg L-1 "\\\\\\\\\
+"Gibson et al."\1960\"dal "\"formaggio"\"a pasta dura (Cheddar)"\"I "\"batteri"\\"3-10 ppm "\\"30 giorni "\"in modo "\"significativo"\\\\\
+"Gibson et al."\1960\"dal "\"formaggio"\"a pasta dura (Cheddar)"\"I "\"batteri"\\"0.2-0.3 ppm "\\"63 giorni"\"in modo "\"significativo"\\\\\
+"Gabriel 'yants' et al. "\1980\"dal "\"formaggio"\"russo e svizzero"\"le "\"muffe"\"gassosa"\"2.5-3.5 ppm "\"4 ore"\"intervalli di 2-3 giorni"\"in modo "\"totale (fino a 4 mesi)"\\"2-4 °C "\"85-90%"\\
+"Morandi et al."\2009\"dal "\"formaggio"\"Ricotta Salata "\"la "\"Listeria monocytogenes "\"gassosa"\"4 ppm "\"8 minuti "\"a diverse fasi della maturazione"\"in modo "\"totale (< 10 CFU g-1)"\\\\\
+"Morandi et al."\2009\"dal "\"formaggio"\"Gongorzola DOP"\"la "\"Listeria monocytogenes "\"gassosa"\"4 ppm "\"8 minuti "\"a diverse fasi della maturazione"\"in modo "\"totale (< 10 CFU g-1)"\\\\\
+"Morandi et al."\2009\"dal "\"formaggio"\"Taleggio DOP"\"la "\"Listeria monocytogenes "\"gassosa"\"4 ppm "\"8 minuti "\"a diverse fasi della maturazione"\"in modo "\"totale (< 10 CFU g-1)"\\\\\
+"Cavalcante et al."\2013\"dal "\"formaggio"\"Minas Frescal"\"la "\"carica microbica"\"acquosa"\"2 mg L-1 "\"1-2 minuti "\\"di "\"2 log10 "\\\\\
+"Serra et al. "\2003\"dal "\"formaggio"\\"le "\"muffe aeree"\"gassosa"\"8 g h-1 "\\"3 mesi"\"di "\"1 log10"\\"5 °C "\"> 80%"\\
+"Serra et al. "\2003\"dal "\"formaggio"\\"le "\"sporte fungine aeree"\"gassosa"\"8 g h-1 "\\"3 mesi"\"di "\"1 log10"\\"5 °C "\"> 80%"\\
+"Guzzon et al. "\2015\"dal "\"formaggio"\\"I "\"lieviti"\"gassosa"\"40 g h-1 "\\\"in modo "\"totale"\\\\\
+"Guzzon et al. "\2015\"dal "\"formaggio"\\"I "\"lieviti"\"acquosa"\"40 g h-1 "\\\"in modo "\"totale"\\\\\
+"Guzzon et al. "\2015\"dal "\"formaggio"\\"I "\"batteri"\"gassosa"\"40 g h-1 "\\\"in modo "\"totale"\\\\\
+"Guzzon et al. "\2015\"dal "\"formaggio"\\"I "\"batteri"\"acquosa"\"40 g h-1 "\\\"in modo "\"totale"\\\\\
+"Alexopoulos et al. "\2017\"dallo "\"yogurt"\\"le "\"muffe"\"gassosa"\"2.5-3 ppm "\"60 s "\\"di "\"0.6 log CFU g-1 (25.1%) "\\\\\
+"Segat et al."\2013\"dal "\"formaggio"\"Mozzarella"\"la "\"carica microbica totale"\"acquosa"\"2 mg L-1 "\\\"di "\"3.58  log10 CFU g-1"\\\\\
+"Segat et al."\2013\"dal "\"formaggio"\"Mozzarella"\"lo "\"Pseudomonas spp."\"acquosa"\"2 mg L-1 "\\\"di "\"6.09 log10 CFU g-1"\\\\\
+"Sert et al."\2020\"dal "\"burro"\\\\\"3.5 g h-1 "\"60 minuti "\\\\"migliore qualità microbiologica"\"8 °C "\\\
+"Panebianco et al. "\2022\"dal "\"formaggio"\"Gorgonzola (crosta)"\"la "\"Listeria monocytogenes "\\"2 ppm "\"10 minuti "\\"di "\"1 log CFU g-1"\\\\\
+"Tabla and Roa "\2022\"dal "\"formaggio"\"morbido"\"le "\"muffe"\"gassosa"\"2 mg m-3 "\\"30 days "\"in modo "\"significativo"\\\\\
+"Grasso et al."\2022\"dal "\"formaggio"\"Pecorino"\"gli "\"acari"\\"200 ppb"\"8 ore"\"150 giorni"\"in modo "\"significativo dopo 25 giorni"\\"12 °C"\"80%"\\
+"Grasso et al."\2022\"dal "\"formaggio"\"Pecorino"\"le "\"muffe"\\"200 ppb"\"8 ore"\"150 giorni"\"in modo "\"significativo dopo 75 giorni"\\"12 °C"\"80%"\\

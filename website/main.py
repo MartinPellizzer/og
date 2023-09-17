@@ -11,15 +11,17 @@ from PIL import ImageDraw
 from PIL import ImageColor 
 
 import random
-
+import re
+import csv
 
 
 # DB TO ARTICLE ----------------------------------------------------
 
-import csv
+
+encoding = 'utf-8'
 
 rows = []
-with open("database/dairy.csv", "r") as f:
+with open("database/dairy.csv", "r", encoding=encoding) as f:
     reader = csv.reader(f, delimiter="\\")
     for i, line in enumerate(reader):
         rows.append(line)
@@ -29,7 +31,6 @@ with open("database/dairy.csv", "r") as f:
 print(rows[0])
 
 
-rows = rows[1:]
 # random.shuffle(rows)
 
 # for row in rows:
@@ -54,48 +55,245 @@ se utilizzato in concentrazioni di 5-35 mg L-1 per 5-25 minuti.
 
 print()
 
+fields = {}
+for i, col in enumerate(rows[0]):
+    fields[col] = i
+
+for key, value in fields.items():
+    print(key + " - " +  str(value))
+
+rows = rows[1:]
+
+print()
+
+# quit()
+
+
 def generate_line(i, row):
-    studio = row[0].strip()
-    anno = row[1].strip()
-    prodotto = row[2].strip()
-    sottoprodotto = row[3].strip()
-    problema = row[4].strip()
-    conentrazione = row[5].strip()
-    tempo = row[6].strip()
-    riduzione = row[7].strip()
+    studio = row[fields['studio']].strip()
+    anno = row[fields['anno']].strip()
+    
+    problema_articolo_determinativo = row[fields['problema_articolo_determinativo']].lower()
+    problema = row[fields['problema']].strip()
+    
+    prodotto_articolo_determinativo = row[fields['prodotto_articolo_determinativo']].lower()
+    prodotto = row[fields['prodotto']].strip()
+    sotto_prodotto = row[fields['sotto_prodotto']].strip()
 
-    riduzione_articolo = 'di'
-    if '%' in riduzione: riduzione_articolo = 'del'
-    elif 'log' in riduzione: riduzione_articolo = 'di'
+    riduzione_ad = row[fields['riduzione_articolo_determinativo']].lower()
+    riduzione = row[fields['riduzione']].strip()
+    
+    forma = row[fields['forma']].strip()
+    dose = row[fields['dose']].strip()
+    tempo = row[fields['tempo']].strip()
+    giorni = row[fields['giorni']].strip()
+    
+    migliorie = row[fields['migliorie']].strip()
+    
+    temperatura = row[fields['temperatura']].strip()
+    umidita = row[fields['umidita']].strip()
+    ph = row[fields['ph']].strip()
 
-    if i == 0:
-        return f"L'ozono riduce il livello di {problema} dal {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione}, se utilizzato con un dosaggio di {conentrazione} per {tempo}, come dimostrato da uno studio fatto da {studio} ({anno}). "
-    # elif i == 1: 
-    #     return f"Altri studi dimostrano anche che utilizzare {conentrazione} di ozono per {tempo} riduce il livello di {problema} nel {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione}. "
-    elif i == 1: 
-        return f"Riduce anche il livello do {problema} dal {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione}, se utilizzato con un dosaggio di {conentrazione} per {tempo}. "
-    elif i == 2: 
-        return f"Inoltre, è in grado di ridurre la contaminazione di {problema} nel {prodotto} {sottoprodotto} {riduzione_articolo} {riduzione} se utilizzato per {tempo} ad una concentrazione di {conentrazione}. "
-    else: 
-        return f"Come documentato da una ricerca fatta da {studio} nel {anno}, applicare {conentrazione} di ozono nel {prodotto} {sottoprodotto} per {tempo} ridurre la contaminazione di {problema} {riduzione_articolo} {riduzione}. "
+    combinato = row[fields['combinato']].strip()
+
+    # if riduzione.strip() == '': 
+    #     return ''
+    
+    if forma.strip() != '': forma = f'in forma {forma} '
+    else: forma = ''
+    if dose.strip() != '': dose = f'a {dose} '
+    else: dose = ''
+    if tempo.strip() != '': tempo = f'per {tempo} '
+    else: tempo = ''
+    if giorni.strip() != '': giorni = f'per {giorni} '
+    else: giorni = ''
+
+
+    if riduzione_ad.strip() != '': riduzione_ad = f'{riduzione_ad} '
+    else: riduzione_ad = ''
+    if riduzione.strip() != '': riduzione = f'{riduzione} '
+    else: riduzione = ''
+
+    if temperatura.strip() != '': temperatura = f'a temperatura {temperatura}'
+    else: temperatura = ''
+    if umidita.strip() != '': umidita = f'con umidità {umidita}'
+    else: umidita = ''
+    if ph.strip() != '': ph = f'in pH {ph} '
+    else: ph = ''
+    
+    if combinato.strip() != '': combinato = f'(combinato a {combinato}) '
+    else: combinato = ''
+
+    if (temperatura != '' or umidita != '' or ph != ''): conjunction_0 = ', '
+    else: conjunction_0 = ''
+
+    if (forma != '' or dose != '' or tempo != '' or giorni != ''): if_used = ', se usato'
+    else: if_used = ''
+
+
+
+    sentence = f'''
+        Riduce 
+        {problema_articolo_determinativo}{problema} 
+        {prodotto_articolo_determinativo}{prodotto} {sotto_prodotto}
+        {riduzione_ad}{riduzione}
+        {combinato}
+        {if_used} 
+            {forma} 
+            {dose} 
+            {tempo} 
+            {giorni} 
+        {conjunction_0} 
+            {temperatura} 
+            {umidita} 
+            {ph} 
+
+        ({studio}, {anno}).
+        '''
+
+    print(sentence)
+
+    sentence_formatted = sentence.replace('\n', '')
+    # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
+    sentence_formatted = re.sub(' +', ' ', sentence_formatted)
+    sentence_formatted = sentence_formatted.replace(' ,', ',')
+    
+    print(sentence_formatted)
+
+
+    return f'- {sentence_formatted}\n'
+
+
+
+
+
+
+
+
+
+encoding = 'utf-8'
+
+with open('test.md', 'w', encoding=encoding) as f:
+    f.write('')
+
+
 
 text = ''
-
 for i, row in enumerate(rows):
-    if len(text.split()) > 100: break
+    # if len(text.split()) > 100: break
 
     # LATTE
-    if row[2].lower() == 'latte'.lower():
+    if row[fields['prodotto']].lower() == 'latte'.lower():
+        text += generate_line(i, row)
+        # text += '\n\n'
+
+text = re.sub(' +', ' ', text)
+
+with open('test.md', 'a', encoding=encoding) as f:
+    f.write('### Latte\n\n')
+    f.write(f'{text}\n\n')
+
+
+
+text = ''
+for i, row in enumerate(rows):
+    # if len(text.split()) > 100: break
+
+    # ACQUE REFLUE
+    if row[fields['prodotto']].lower() == 'acque reflue'.lower():
         text += generate_line(i, row)
         # text += '\n\n'
     
-    # if i > 1:
-        # break
-    
-print(text)
-print()
+text = re.sub(' +', ' ', text)
 
-quit()
+with open('test.md', 'a', encoding=encoding) as f:
+    f.write('### Acque Reflue\n\n')
+    f.write(f'{text}\n\n')
+
+
+
+text = ''
+for i, row in enumerate(rows):
+    # if len(text.split()) > 100: break
+
+    # FORMAGGIO
+    if row[fields['prodotto']].lower() == 'formaggio'.lower():
+        text += generate_line(i, row)
+        # text += '\n\n'
+    
+text = re.sub(' +', ' ', text)
+
+with open('test.md', 'a', encoding=encoding) as f:
+    f.write('### Formaggio\n\n')
+    f.write(f'{text}\n\n')
+
+
+with open('test.md', encoding=encoding) as f:
+    generated_content = f.read()
+
+# generated_content = text
+
+content_html = markdown.markdown(generated_content, extensions=['markdown.extensions.tables', 'meta'])
+
+md = markdown.Markdown(extensions=['meta'])
+md.convert(generated_content)
+
+
+lines = '\n'.join(md.lines)
+
+content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
+
+    
+with open('test_caseifici.html', 'w', encoding=encoding) as f:
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="/style-blog.css">
+            <link rel="stylesheet" href="/util.css">
+            <title>Ozonogroup</title>
+        </head>
+
+        <body>
+            <section class="header-section">
+                <div class="container-xl h-full">
+                </div>
+            </section>
+
+            <section class="breadcrumbs-section">
+                <div class="container-xl h-full">
+                </div>
+            </section>
+
+            <section class="meta-section mt-48">
+                <div class="container-md h-full">
+                    <div class="flex justify-between mb-8">
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-md">
+                {content_html}
+            </section>
+
+            <section class="footer-section">
+                <div class="container-xl h-full">
+                    <footer class="flex items-center justify-center">
+                        <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+                    </footer>
+                </div>
+            </section>
+        </body>
+
+        </html>
+    '''
+
+    f.write(html)
+
+# quit()
 
 
 def generate_image_sanitation(image_out_path):    
