@@ -71,14 +71,6 @@ def db_pragma_table_clients():
 	conn.close()
 
 
-def db_clients_create_table():
-	fields_lst = [f'{f} {db_clients_fields[f]}' for f in db_clients_fields]
-	fields = ', '.join(fields_lst)
-	conn = sqlite3.connect(database_name)
-	c = conn.cursor()
-	c.execute(f'''create table if not exists clients ({fields})''')
-	conn.commit()
-	conn.close()
 
 
 def db_clients_update_by_business_name(values):
