@@ -321,8 +321,6 @@ svg {
     grid-template-columns: 1fr 1fr;
     justify-content: right;
     align-items: center;
-    gap: 4.8rem;
-    margin-bottom: 4.8rem;
 }
 
 .applications-grid-reverse {
@@ -345,6 +343,29 @@ svg {
 
     .grid-3 {
         grid-template-columns: 1fr 1fr;
+    }
+
+    .applications-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 4.8rem;
+        margin-bottom: 9.6rem;
+    }
+
+    .applications-grid:last-child {
+        margin-bottom: 0;
+    }
+
+    .reverse {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .reverse .grid-col-1 {
+        order: 2;
+    }
+
+    .reverse .grid-col-2 {
+        order: 1;
     }
 
     .scienza-image {
@@ -383,29 +404,6 @@ svg {
 
     .grid-3 {
         grid-template-columns: 1fr;
-    }
-
-    .applications-grid {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 1.6rem;
-        margin-bottom: 9.6rem;
-    }
-
-    .applications-grid:last-child {
-        margin-bottom: 0;
-    }
-
-    .reverse {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .reverse .grid-col-1 {
-        order: 2;
-    }
-
-    .reverse .grid-col-2 {
-        order: 1;
     }
 
     header {
