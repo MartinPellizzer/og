@@ -16,44 +16,15 @@ import csv
 
 
 # DB TO ARTICLE ----------------------------------------------------
-
+filepath = 'database/meat.csv'
 
 encoding = 'utf-8'
 
 rows = []
-with open("database/dairy.csv", "r", encoding=encoding) as f:
+with open(filepath, "r", encoding=encoding) as f:
     reader = csv.reader(f, delimiter="\\")
     for i, line in enumerate(reader):
         rows.append(line)
-
-
-
-# print(rows[0])
-
-
-# random.shuffle(rows)
-
-# for row in rows:
-#     print(row)
-
-"""
-L'ozono viene usato per trattare il latte crudo, 
-inattivando in microrganismi patogeni 
-e minimizzando la perdita di proprietà nutritive 
-(al contrario dei trattamenti termici). 
-
-Studi dimostrano che l'ozono elimina il Cronobacter sakazaki 
-dal latte in polvere, 
-se utilizzato in concentrazioni di 2.8 mg L-1 per 120 minuti, 
-riducendo la carica batterica di 2.71 log. 
-
-Riduce anche gli psicrotrofi 
-(batteri che crescono a temperature pari o inferiori a 7°C) 
-dal latte scremato, 
-se utilizzato in concentrazioni di 5-35 mg L-1 per 5-25 minuti. 
-"""
-
-print()
 
 fields = {}
 for i, col in enumerate(rows[0]):
@@ -67,8 +38,55 @@ rows = rows[1:]
 
 print()
 
-# quit()
 
+def generate_applications(i, row):
+    study = row[fields['study']].strip()
+    study_year = row[fields['study_year']].strip()
+
+    problem = row[fields['problem']].strip()
+    product = row[fields['product']].strip()
+
+    sentence = f'''
+        Riduce 
+        {problem} 
+        {product}
+
+        ({study}, {study_year}).
+        '''
+
+    print(sentence)
+
+    sentence_formatted = sentence.replace('\n', '')
+    # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
+    sentence_formatted = re.sub(' +', ' ', sentence_formatted)
+    sentence_formatted = sentence_formatted.replace(' ,', ',')
+    
+    print(sentence_formatted)
+
+
+    return f'- {sentence_formatted}\n'
+
+
+
+
+    
+
+
+encoding = 'utf-8'
+
+with open('test.md', 'w', encoding=encoding) as f:
+    f.write('')
+
+
+    
+
+text = ''
+for i, row in enumerate(rows):
+    # if row[fields['effetti_qualita']].lower() != ''.lower().strip():
+    text += generate_applications(i, row)
+text = re.sub(' +', ' ', text)
+
+quit()
 
 def generate_line(i, row):
     studio = row[fields['studio']].strip()
