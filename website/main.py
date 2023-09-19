@@ -16,15 +16,38 @@ import csv
 
 
 # DB TO ARTICLE ----------------------------------------------------
-filepath = 'database/meat.csv'
 
-encoding = 'utf-8'
 
-rows = []
-with open(filepath, "r", encoding=encoding) as f:
-    reader = csv.reader(f, delimiter="\\")
-    for i, line in enumerate(reader):
-        rows.append(line)
+
+
+
+
+# print(rows[0])
+
+
+# random.shuffle(rows)
+
+# for row in rows:
+#     print(row)
+
+"""
+L'ozono viene usato per trattare il latte crudo, 
+inattivando in microrganismi patogeni 
+e minimizzando la perdita di proprietà nutritive 
+(al contrario dei trattamenti termici). 
+
+Studi dimostrano che l'ozono elimina il Cronobacter sakazaki 
+dal latte in polvere, 
+se utilizzato in concentrazioni di 2.8 mg L-1 per 120 minuti, 
+riducendo la carica batterica di 2.71 log. 
+
+Riduce anche gli psicrotrofi 
+(batteri che crescono a temperature pari o inferiori a 7°C) 
+dal latte scremato, 
+se utilizzato in concentrazioni di 5-35 mg L-1 per 5-25 minuti. 
+"""
+
+print()
 
 fields = {}
 for i, col in enumerate(rows[0]):
@@ -38,55 +61,8 @@ rows = rows[1:]
 
 print()
 
+# quit()
 
-def generate_applications(i, row):
-    study = row[fields['study']].strip()
-    study_year = row[fields['study_year']].strip()
-
-    problem = row[fields['problem']].strip()
-    product = row[fields['product']].strip()
-
-    sentence = f'''
-        Riduce 
-        {problem} 
-        {product}
-
-        ({study}, {study_year}).
-        '''
-
-    print(sentence)
-
-    sentence_formatted = sentence.replace('\n', '')
-    # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
-    sentence_formatted = re.sub(' +', ' ', sentence_formatted)
-    sentence_formatted = sentence_formatted.replace(' ,', ',')
-    
-    print(sentence_formatted)
-
-
-    return f'- {sentence_formatted}\n'
-
-
-
-
-    
-
-
-encoding = 'utf-8'
-
-with open('test.md', 'w', encoding=encoding) as f:
-    f.write('')
-
-
-    
-
-text = ''
-for i, row in enumerate(rows):
-    # if row[fields['effetti_qualita']].lower() != ''.lower().strip():
-    text += generate_applications(i, row)
-text = re.sub(' +', ' ', text)
-
-quit()
 
 def generate_line(i, row):
     studio = row[fields['studio']].strip()
@@ -305,6 +281,53 @@ with open('test.md', 'a', encoding=encoding) as f:
     f.write(f'{text}\n\n')
 
 
+def generate_image_sanitation(image_out_path):    
+    img_w, img_h = 768, 432
+    img = Image.new("RGBA", (img_w, img_h), ImageColor.getrgb("#f8fafc"))
+
+    draw = ImageDraw.Draw(img)
+
+    
+    icon_w = 96
+    icon_h = 96
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (0, 0), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (200, 0), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (400, 0), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (600, 0), icon)
+    
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (100, 200), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (300, 200), icon)
+
+    icon = Image.open("assets/icons/milk.png").convert("RGBA")
+    icon = icon.resize((icon_w, icon_h))
+    img.paste(icon, (500, 200), icon)
+
+    img.convert('RGB').save(f'{image_out_path}')
+    # img.show()
+
+generate_image_sanitation('assets/images/articles/ozono-sanificazione-caseifici.jpg')
+
+
+
+
+
 # quit()
 
 
@@ -413,49 +436,6 @@ with open('test_caseifici.html', 'w', encoding=encoding) as f:
 # quit()
 
 
-def generate_image_sanitation(image_out_path):    
-    img_w, img_h = 768, 432
-    img = Image.new("RGBA", (img_w, img_h), ImageColor.getrgb("#f8fafc"))
-
-    draw = ImageDraw.Draw(img)
-
-    
-    icon_w = 96
-    icon_h = 96
-
-    icon = Image.open("assets/icons/milk.png").convert("RGBA")
-    icon = icon.resize((icon_w, icon_h))
-    img.paste(icon, (0, 0), icon)
-
-    icon = Image.open("assets/icons/milk.png").convert("RGBA")
-    icon = icon.resize((icon_w, icon_h))
-    img.paste(icon, (200, 0), icon)
-
-    icon = Image.open("assets/icons/milk.png").convert("RGBA")
-    icon = icon.resize((icon_w, icon_h))
-    img.paste(icon, (400, 0), icon)
-
-    icon = Image.open("assets/icons/milk.png").convert("RGBA")
-    icon = icon.resize((icon_w, icon_h))
-    img.paste(icon, (600, 0), icon)
-    
-    icon = Image.open("assets/icons/milk.png").convert("RGBA")
-    icon = icon.resize((icon_w, icon_h))
-    img.paste(icon, (100, 200), icon)
-
-    icon = Image.open("assets/icons/milk.png").convert("RGBA")
-    icon = icon.resize((icon_w, icon_h))
-    img.paste(icon, (300, 200), icon)
-
-    icon = Image.open("assets/icons/milk.png").convert("RGBA")
-    icon = icon.resize((icon_w, icon_h))
-    img.paste(icon, (500, 200), icon)
-
-    img.convert('RGB').save(f'{image_out_path}')
-    # img.show()
-
-generate_image_sanitation('assets/images/articles/ozono-sanificazione-caseifici.jpg')
-
 
 
 def generate_image_plain(image_path, w, h, image_path_out):
@@ -487,7 +467,12 @@ def generate_image_plain(image_path, w, h, image_path_out):
     name = image_path.split('/')[-1]
     path = image_path.split('/')[:-1]
 
+    print(image_path_out)
+
+        
     img.save(f'{image_path_out}')
+    if image_path_out == 'public/assets/images/ozono-effetti.jpg':
+        img.show()
 
 
 w, h = 800, 600
@@ -585,9 +570,13 @@ def generate_image(image_path, text, w, h, image_out_path):
         
     img.paste(logo, (text_width_max + 50, start_text_y - 10 + (rectangle_h // 2) - (logo.size[1] // 2)), logo)
     
-    img.save(f'{image_out_path}')
 
-    # img.show()
+    # print(image_out_path)
+
+        
+    img.save(f'{image_out_path}')
+    # if image_out_path == 'assets/images/ozono-benefici.jpg':
+    #     img.show()
 
 
 
@@ -595,32 +584,34 @@ def generate_image(image_path, text, w, h, image_out_path):
 # generate_image('assets/images/featured/ozono-effetti.jpg', 768, 432)
 i = 1
 w, h = 768, 432
-generate_image(
+generate_image_plain(
     'assets/images/featured/ozono-chimica.jpg', 
-    'Ozono: Tutto quello che volevi sapere su questo gas',
     w, h,
-    'assets/images/ozono-chimica.jpg',
+    'public/assets/images/ozono-chimica.jpg',
 )
 i += 1
-generate_image(
+generate_image_plain(
     'assets/images/featured/ozono-stratosferico.jpg', 
-    'Ozono Statosferico: Funzione, Formazione e Protezione',
     w, h, 
-    'assets/images/ozono-stratosferico.jpg', 
+    'public/assets/images/ozono-stratosferico.jpg', 
 )
 i += 1
-generate_image(
+generate_image_plain(
     'assets/images/featured/ozono-troposferico.jpg', 
-    'Ozono Troposferico: Formazione, Effetti e Prevenzione',
     w, h, 
-    'assets/images/ozono-troposferico.jpg', 
+    'public/assets/images/ozono-troposferico.jpg', 
 )
 i += 1
-generate_image(
-    'assets/images/featured/ozono-effetti.jpg', 
-    '10 Effetti Dannosi dell\'Ozono: Salute, Ambiente e Materiali',
+# generate_image_plain(
+#     'assets/images/featured/ozono-effetti.jpg', 
+#     w, h, 
+#     'public/assets/images/ozono-effetti.jpg', 
+# )
+i += 1
+generate_image_plain(
+    'assets/images/featured/ozono-benefici.jpg', 
     w, h, 
-    'assets/images/ozono-effetti.jpg', 
+    'public/assets/images/ozono-benefici.jpg', 
 )
 i += 1
 

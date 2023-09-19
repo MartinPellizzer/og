@@ -1,5 +1,7 @@
 # 10 Benefici dell'ozono sulla salute: Ozonoterapia e Sanificazione
 
+![10 Benefici dell'ozono sulla salute per ozonoterapia e sanificazione](/assets/images/ozono-benefici.jpg "10 Benefici dell'ozono sulla salute per ozonoterapia e sanificazione")
+
 L'ozono (O3) è una molecola con molteplici benefici per la salute e l'igiene in vari contesti. 
 
 Dal punto di vista medico (ozonoterapia), ha proprietà antibatteriche e antimicotiche sulla pelle, accelerando la guarigione delle ferite e migliorando l'aspetto generale della pelle. Inoltre, stimola la crescita dei capelli e li rende più forti e spessi, riducendo la caduta e la forfora. Nel corpo, l'ozono combatte infezioni, riduce l'infiammazione e migliora la circolazione sanguigna, aiutanto a risolvere vari problemi intestinali e a curare l'ernina al disco.
@@ -62,7 +64,7 @@ Può essere utilizzato come parte di un approccio integrato per affrontare distu
 
 Influenza positivamente i livelli degli zuccheri e dei lipidi nel sangue, e sembra anche avere ha un effetto antitumorale, un effetto postitivo sulla funzione sessuale maschile, e un effetto positivo sulla funzione neurologica, ma ulteriori ricerche sono necessarie per confermare tali effetti.
 
-TODO: IMAGE DESC
+In seguito trovi un'illustrazione che mostra alcuni problemi dell'intestino che l'ozono aiuta a curare.
 
 ![L'ozono regola l'intestino](/assets/images/ozono-benefici-intestino.jpg "L'ozono regola l'intestino")
 
@@ -86,7 +88,7 @@ In alcuni casi, ha anche dimostrato di migliorare la capacità polmonare e la fu
 
 Infine, la comunità scientifica sta mostrando interesse nell'utilizzare l'ozono per aumentare l'efficacia delle terapie convenzionali contro il cancro e per il trattamento dell'HIV/AIDS, ma sono necessari più studi per confermarne l'efficacia e l'implementabilità.
 
-TODO: IMAGE DESC
+Ecco alcuni vantaggi nell'usare l'ozono nel sangue riportati in questa immagine.
 
 ![L'ozono purifica il sangue](/assets/images/ozono-benefici-sangue.jpg "L'ozono purifica il sangue")
 
@@ -110,7 +112,7 @@ Infine, l'ozonoterapia è utile anche come trattamento preventivo, specialmente 
 
 L'ozonoterapia è un trattamento non invasivo che sfrutta le proprietà anti-infiammatorie dell'ozono per affrontare l'ernia del disco. Questo approccio riduce l'infiammazione cronica, allevia il dolore e migliora la mobilità dei pazienti. Inoltre, promuove la circolazione sanguigna, fornendo ossigeno e nutrienti ai tessuti danneggiati, favorendo la rigenerazione. L'ozono riduce la compressione sui nervi spinali, migliorando la conduzione nervosa e riducendo l'edema. È una scelta preferibile rispetto alla chirurgia, con meno rischi e tempi di recupero più brevi. È personalizzabile e può anche essere usato dopo un intervento chirurgico. È una soluzione preventiva per chi è a rischio di ernia del disco, riducendo il bisogno di farmaci e migliorando la qualità della vita.
 
-TODO: IMAGE DESC
+Qui sotto trovi una grafica con una lista di benefici dell'ozono applicato all'ernia discale. 
 
 ![L'ozono cura l'ernia discale](/assets/images/ozono-benefici-ernia-discale.jpg "L'ozono cura l'ernia discale")
 
@@ -138,7 +140,7 @@ Di fatto, l'uso di O3 aiuta a migliorare significativamente la qualità dell'acq
 
 L'ozonizzazione è quindi uno strumento efficace per migliorare significativamente la qualità dell'acqua potabile. Infatti, viene utilizzata per trattare acque sotterranee, acque di superficie (come fiumi e laghi) e acque nei serbatoi per migliorare la qualità dell'acqua nelle riserve di approvvigionamento, nonchè può essere utilizzata per migliorare la qualità dell'acqua in situazioni di emergenza o durante crisi idriche.
 
-TODO: IMAGE DESC
+A seguire viene presentata un'illustazione con diverse applicazioni dell'ozono sull'acqua.
 
 ![L'ozono depura l'acqua](/assets/images/ozono-benefici-acqua.jpg "L'ozono depura l'acqua")
 
@@ -158,7 +160,7 @@ Inoltre, l'O3 viene usato per per mantenere o migliorare l'aspetto visivo di ali
 
 Migliora anche l'aspetto visivo degli alimenti freschi, come frutta tagliata o insalate pronte all'uso, e migliora la qualità del vino rimuovendo vari contaminanti, come il cloruro di metile. Aumenta anche la consistenza e la stabilità dei prodotti a base di uova (come maionese e salse) e nelle bevande (come la birra), aiutando a ottenere una migliore qualità sensoriale. In aggiunta, parlando di bevande, è in grado di rompere le pareti cellulari della frutta durante il processo di estrazione dei succhi, aumentando la resa di succo estratto da ogni frutto. Questo, senza il bisogno di trattamenti termici intensi, il chè consente di preservare al meglio loro valore nutrizionale e loro sapore di questi estratti.
 
-TODO: IMAGE DESC
+Ecco un'immagine dove vengono elencati i benefici dell'uso dell'ozono sugli alimenti.
 
 ![L'ozono decontamina gli alimenti](/assets/images/ozono-benefici-alimenti.jpg "L'ozono decontamina gli alimenti")
 
@@ -182,7 +184,7 @@ In situazioni di emergenza, come incendi domestici o esposizione al fumo, questo
 
 Infine, l'ozono viene utilizzato per la disinfezione dei giardini interni e delle piante in vaso, riducendo la presenza di parassiti e batteri. Prolunga la freschezza dei fiori recisi, riducendo la presenza di batteri nell'acqua del vaso, e decontamina l'acqua utilizzata per l'irrigazione dei giardini, contribuendo a migliorare la salute delle piante.
 
-TODO: IMAGE DESC
+Nella seguente grafica trovi elencate alcune applicazioni dell'ozono nella case.
 
 ![L'ozono disinfetta la casa](/assets/images/ozono-benefici-casa.jpg "L'ozono disinfetta la casa")
 
@@ -208,7 +210,7 @@ La riduzione di questi inquinanti contribuisce anche a preservare la qualità de
 
 Tutto questo porta ad un ambiente più pulito e privo di odori all'interno dell'auto, e di conseguenza a un'esperienza di guida più piacevole. Un ambiente pulito e fresco all'interno dell'auto porta a un miglioramento sul benessere psicologico del conducente e dei passeggeri, e riduce lo stress durante i viaggi (specialmente quelli lunghi).
 
-TODO: IMAGE DESC
+In questa figura vengono descritti acluni benefici nell'utilizzare l'ozono sull'auto.
 
 ![L'ozono igienizza l'auto](/assets/images/ozono-benefici-auto.jpg "L'ozono igienizza l'auto")
 
@@ -230,7 +232,7 @@ Utilizzare l'ozono permette di ridurre gli inquinanti atmosferici, come le parti
 
 Infine, l'O3 è in grado di prolungare la conservazione dei prodotti ortofrutticoli, riducendo la crescita di muffe, lieviti e batteri che possono causare la decomposizione. Aiuta a preservare la freschezza e la qualità dei prodotti agricoli durante il trasporto e lo stoccaggio (riducendo le perdite post-raccolta), migliora la colorazione e il sapore di frutta, verdura e altri prodotti agricoli (rendendoli più appetibili per i consumatori) ed eliminare allergeni come il polline dalle superfici dei prodotti agricoli (rendendo i prodotti più sicuri per le persone con allergie).
 
-TODO: IMAGE DESC
+Ecco un illustrazione dove si elencano alcuni benefici dell'uso dell'ozono nell'agricoltura.
 
 ![L'ozono protegge l'agricoltura](/assets/images/ozono-benefici-agricoltura.jpg "L'ozono protegge l'agricoltura")
 
