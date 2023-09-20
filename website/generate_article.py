@@ -1,10 +1,20 @@
+import re
+import csv
+import markdown
+
+
 encoding = 'utf-8'
 
+table = 'meat'
+
+# Get all rows in table -------------------------------------------
 rows = []
-with open("database/dairy.csv", "r", encoding=encoding) as f:
+with open(f"database/{table}.csv", "r", encoding=encoding) as f:
     reader = csv.reader(f, delimiter="\\")
     for i, line in enumerate(reader):
         rows.append(line)
+
+
 
 fields = {}
 for i, col in enumerate(rows[0]):
@@ -14,6 +24,7 @@ for key, value in fields.items():
     print(key + " - " +  str(value))
     pass
 
+fields_list = rows[0]
 rows = rows[1:]
 
 
@@ -216,23 +227,143 @@ def generate_benefits(i, row):
 
 
 
+def get_line_data(row):
+    data = {}
+    for i, col in enumerate(row):
+        data[fields_list[i]] = col
 
-encoding = 'utf-8'
+    return data
+
+
+def generate_line_application(row):
+    data = get_line_data(row)
+
+    if data['treatment_type'].strip() == 'ow': data['treatment_type'] = 'in forma acquosa '
+    else: data['treatment_type'] = ''
+    
+    if data['w_pressure'].strip() != '': 
+        data['w_pressure'] =  'a una pressione di ' + data['w_pressure']
+    
+    if data['w_pressure'].strip() != '': 
+        data['w_pressure'] =  'a una pressione di ' + data['w_pressure']
+
+    if data['o3_concentration'].strip() != '': 
+        data['o3_concentration'] =  'a una concentrazione di ' + data['o3_concentration']
+        
+    if data['treatment_time'].strip() != '': 
+        data['treatment_time'] =  'per un tempo di ' + data['treatment_time']
+        
+    if data['pathogen_reduction_number'].strip() != '': 
+        data['pathogen_reduction_number'] =  'di ' + data['pathogen_reduction_number']
+        
+    if data['pathogen_reduction_text'].strip() != '': 
+        data['pathogen_reduction_text'] =  'in modo ' + data['pathogen_reduction_text']
+
+
+    
+    sentence = ''
+    
+        
+    
+
+    sentence += f'''
+        Riduce 
+        il livello di
+        {data['problem']}
+        {data['product_ad_1']}{data['product']}
+        {data['pathogen_reduction_number']}
+        {data['pathogen_reduction_text']}
+        , se usato 
+        {data['treatment_type']} {(data['treatment'])}
+        {data['w_pressure']} 
+        {data['o3_concentration']} 
+        {data['treatment_time']} 
+
+        ({data['study']}, {data['study_year']}).
+        '''
+
+    print()
+    print()
+    print(sentence)
+
+
+    sentence_formatted = sentence.replace('\n', '')
+    # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
+    sentence_formatted = re.sub(' +', ' ', sentence_formatted)
+    sentence_formatted = sentence_formatted.replace(' ,', ',')
+    
+    
+    print()
+    print(sentence_formatted)
+    print()
+
+    return f'- {sentence_formatted}\n'
+
+
+
 
 with open('test.md', 'w', encoding=encoding) as f:
     f.write('')
 
 
-    
+def generate_section(product):
+    text = ''
 
-text = ''
-for i, row in enumerate(rows):
-    if row[fields['effetti_qualita']].lower() != ''.lower().strip():
-        text += generate_benefits(i, row)
-text = re.sub(' +', ' ', text)
-with open('test.md', 'a', encoding=encoding) as f:
-    f.write('### Latte\n\n')
-    f.write(f'{text}\n\n')
+    problem_list = []
+    study_list = []
+    for i, row in enumerate(rows):
+        if row[fields['product']].strip().lower() == product.lower().strip():
+            problem_list.append(row[fields['problem']].strip().lower())
+            study_list.append(row[fields['study']].strip().lower())
+
+    print(problem_list)
+    print(study_list)
+
+
+
+    text += f'''
+        L'ozono viene usato per trattare {product}
+        , eliminando problemi come {problem_list[0]} {problem_list[1]} e {problem_list[2]}
+        , come dimostrato da diversi studi (ad esempio {study_list[0]} e {study_list[1]}).
+    '''
+    text = text.replace('\n', '').strip()
+    text = re.sub(' +', ' ', text)
+    text += '\n\n'
+
+     
+    
+    # INTRODUZIONE LISTA -----------------------------------------------
+    for i, row in enumerate(rows):
+        if row[fields['product']].strip().lower() == product.lower().strip():
+            data = get_line_data(row)
+            break
+    
+    text += f'''
+        Ecco una lista di alcune applicazioni dell\'ozono 
+        {data['product_ad_2']}{data['product']}:
+    '''
+    text = text.replace('\n', '').strip()
+    text = re.sub(' +', ' ', text)
+    text += '\n\n'
+
+    # LISTA ------------------------------------------------------------
+    for i, row in enumerate(rows):
+        if row[fields['product']].strip().lower() == product.lower().strip():
+            text += generate_line_application(row)
+
+    with open('test.md', 'a', encoding=encoding) as f:
+        f.write(f'### {product.capitalize()}\n\n')
+        f.write(f'{text}\n\n')
+
+
+
+
+
+generate_section('carcasse di manzo')
+generate_section('petto di manzo')
+generate_section('ritagli di manzo')
+# generate_section('prosciutto')
+
 
 
 
@@ -277,7 +408,7 @@ def generate_image_sanitation(image_out_path):
     img.convert('RGB').save(f'{image_out_path}')
     # img.show()
 
-generate_image_sanitation('assets/images/articles/ozono-sanificazione-caseifici.jpg')
+# generate_image_sanitation('assets/images/articles/ozono-sanificazione-caseifici.jpg')
 
 
 
@@ -299,7 +430,7 @@ lines = '\n'.join(md.lines)
 content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
 
     
-with open('test_caseifici.html', 'w', encoding=encoding) as f:
+with open(f'_tmp_{table}.html', 'w', encoding=encoding) as f:
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
