@@ -24,250 +24,18 @@ def row_to_dict(row):
     return fields
 
 
-table = 'meat'
-
-# Get all rows in table -------------------------------------------
-rows = []
-with open(f"database/{table}.csv", "r", encoding=encoding) as f:
-    reader = csv.reader(f, delimiter="\\")
-    for i, line in enumerate(reader):
-        rows.append(line)
-
-
-
-
-fields = {}
-for i, col in enumerate(rows[0]):
-    fields[col] = i
-
-
-fields_list = rows[0]
-rows = rows[1:]
-
-
-
-def generate_line(i, row):
-    studio = row[fields['studio']].strip()
-    anno = row[fields['anno']].strip()
-    
-    problema_articolo_determinativo = row[fields['problema_articolo_determinativo']].lower()
-    problema = row[fields['problema']].strip()
-    
-    prodotto_articolo_determinativo = row[fields['prodotto_articolo_determinativo']].lower()
-    prodotto = row[fields['prodotto']].strip()
-    sotto_prodotto = row[fields['sotto_prodotto']].strip()
-
-    riduzione_ad = row[fields['riduzione_articolo_determinativo']].lower()
-    riduzione = row[fields['riduzione']].strip()
-    
-    forma = row[fields['forma']].strip()
-    dose = row[fields['dose']].strip()
-    tempo = row[fields['tempo']].strip()
-    giorni = row[fields['giorni']].strip()
-    
-    effetti_qualita = row[fields['effetti_qualita']].strip()
-    
-    temperatura = row[fields['temperatura']].strip()
-    umidita = row[fields['umidita']].strip()
-    ph = row[fields['ph']].strip()
-
-    combinato = row[fields['combinato']].strip()
-
-    # if riduzione.strip() == '': 
-    #     return ''
-    
-    if forma.strip() != '': forma = f'in forma {forma} '
-    else: forma = ''
-    if dose.strip() != '': dose = f'a {dose} '
-    else: dose = ''
-    if tempo.strip() != '': tempo = f'per {tempo} '
-    else: tempo = ''
-    if giorni.strip() != '': giorni = f'per {giorni} '
-    else: giorni = ''
-
-
-    if riduzione_ad.strip() != '': riduzione_ad = f'{riduzione_ad} '
-    else: riduzione_ad = ''
-    if riduzione.strip() != '': riduzione = f'{riduzione} '
-    else: riduzione = ''
-
-    if temperatura.strip() != '': temperatura = f'a temperatura {temperatura}'
-    else: temperatura = ''
-    if umidita.strip() != '': umidita = f'con umidità {umidita}'
-    else: umidita = ''
-    if ph.strip() != '': ph = f'in pH {ph} '
-    else: ph = ''
-    
-    if combinato.strip() != '': combinato = f'(combinato a {combinato}) '
-    else: combinato = ''
-
-    if (temperatura != '' or umidita != '' or ph != ''): conjunction_0 = ', '
-    else: conjunction_0 = ''
-
-    if (forma != '' or dose != '' or tempo != '' or giorni != ''): if_used = ', se usato'
-    else: if_used = ''
-
-
-
-    sentence = f'''
-        Riduce 
-        {problema_articolo_determinativo}{problema} 
-        {prodotto_articolo_determinativo}{prodotto} {sotto_prodotto}
-        {riduzione_ad}{riduzione}
-        {combinato}
-        {if_used} 
-            {forma} 
-            {dose} 
-            {tempo} 
-            {giorni} 
-        {conjunction_0} 
-            {temperatura} 
-            {umidita} 
-            {ph} 
-
-        ({studio}, {anno}).
-        '''
-
-    print(sentence)
-
-    sentence_formatted = sentence.replace('\n', '')
-    # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
-    sentence_formatted = re.sub(' +', ' ', sentence_formatted)
-    sentence_formatted = sentence_formatted.replace(' ,', ',')
-    
-    print(sentence_formatted)
-
-
-    return f'- {sentence_formatted}\n'
-
-
-def generate_benefits(i, row):
-    studio = row[fields['studio']].strip()
-    anno = row[fields['anno']].strip()
-    
-    problema_articolo_determinativo = row[fields['problema_articolo_determinativo']].lower()
-    problema = row[fields['problema']].strip()
-    
-    prodotto_articolo_determinativo = row[fields['prodotto_articolo_determinativo']].lower()
-    prodotto_ad_benefici = row[fields['prodotto_ad_benefici']].lower()
-    prodotto = row[fields['prodotto']].strip()
-    sotto_prodotto = row[fields['sotto_prodotto']].strip()
-
-    riduzione_ad = row[fields['riduzione_articolo_determinativo']].lower()
-    riduzione = row[fields['riduzione']].strip()
-    
-    forma = row[fields['forma']].strip()
-    dose = row[fields['dose']].strip()
-    tempo = row[fields['tempo']].strip()
-    giorni = row[fields['giorni']].strip()
-    
-    effetti_qualita = row[fields['effetti_qualita']].strip()
-    
-    temperatura = row[fields['temperatura']].strip()
-    umidita = row[fields['umidita']].strip()
-    ph = row[fields['ph']].strip()
-
-    combinato = row[fields['combinato']].strip()
-
-    # if riduzione.strip() == '': 
-    #     return ''
-    
-    if forma.strip() != '': forma = f'in forma {forma} '
-    else: forma = ''
-    if dose.strip() != '': dose = f'a {dose} '
-    else: dose = ''
-    if tempo.strip() != '': tempo = f'per {tempo} '
-    else: tempo = ''
-    if giorni.strip() != '': giorni = f'per {giorni} '
-    else: giorni = ''
-
-    if riduzione_ad.strip() != '': riduzione_ad = f'{riduzione_ad} '
-    else: riduzione_ad = ''
-    if riduzione.strip() != '': riduzione = f'{riduzione} '
-    else: riduzione = ''
-
-    if temperatura.strip() != '': temperatura = f'a temperatura {temperatura}'
-    else: temperatura = ''
-    if umidita.strip() != '': umidita = f'con umidità {umidita}'
-    else: umidita = ''
-    if ph.strip() != '': ph = f'in pH {ph} '
-    else: ph = ''
-
-    if effetti_qualita.strip() != '': effetti_qualita = f'{effetti_qualita} '
-    else: effetti_qualita = ''
-    
-    if combinato.strip() != '': combinato = f'(combinato a {combinato}) '
-    else: combinato = ''
-
-    if (temperatura != '' or umidita != '' or ph != ''): conjunction_0 = ', '
-    else: conjunction_0 = ''
-
-    if (forma != '' or dose != '' or tempo != '' or giorni != ''): if_used = ', se usato'
-    else: if_used = ''
-
-    '''
-    Kurtz et al. (1969) latte scremato e intero in polvere 32 ppb 
-    '''
-
-    '''
-    Riduce la qualità sensoriale del latte in polvere intero e scremato 
-    (ma maggiormente di quello intero), 
-    se usato a 32 ppb (Kurtz et al., 1969).
-    '''
-
-    sentence = f'''
-        {effetti_qualita}
-        {prodotto_ad_benefici}{prodotto} {sotto_prodotto}
-        {if_used} 
-            {forma} 
-            {dose} 
-            {tempo} 
-            {giorni} 
-        {conjunction_0} 
-            {temperatura} 
-            {umidita} 
-            {ph} 
-
-        ({studio}, {anno}).
-        '''
-
-    print(sentence)
-
-    sentence_formatted = sentence.replace('\n', '')
-    # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
-    sentence_formatted = re.sub(' +', ' ', sentence_formatted)
-    sentence_formatted = sentence_formatted.replace(' ,', ',')
-    
-    print(sentence_formatted)
-
-
-    return f'- {sentence_formatted}\n'
-
-
-def get_line_data(row):
-    data = {}
-    for i, col in enumerate(row):
-        data[fields[i]] = col
-
-    return data
-
 def get_line_data_2(row, fields):
     data = {}
     for key, value in fields.items():
         data[key] = row[value]
     return data
 
+
 def generate_line_application(row, fields):
     data = get_line_data_2(row, fields)
-
-    if data['treatment_type'].strip() == 'ow': data['treatment_type'] = 'in forma acquosa '
-    else: data['treatment_type'] = ''
     
-    if data['w_pressure'].strip() != '': 
-        data['w_pressure'] =  'a una pressione di ' + data['w_pressure']
-    
-    if data['w_pressure'].strip() != '': 
-        data['w_pressure'] =  'a una pressione di ' + data['w_pressure']
+    if data['ozone_type'].strip() != '': 
+        data['ozone_type'] =  'in forma ' + data['ozone_type']
 
     if data['o3_concentration'].strip() != '': 
         data['o3_concentration'] =  'a una concentrazione di ' + data['o3_concentration']
@@ -276,28 +44,24 @@ def generate_line_application(row, fields):
         data['treatment_time'] =  'per un tempo di ' + data['treatment_time']
         
     if data['pathogen_reduction_number'].strip() != '': 
-        data['pathogen_reduction_number'] =  'di ' + data['pathogen_reduction_number']
-        
+        if data['pathogen_reduction_number_unit'].strip() == '%':
+            data['pathogen_reduction_number'] =  'del ' + data['pathogen_reduction_number'] + data['pathogen_reduction_number_unit']
+        else:
+            data['pathogen_reduction_number'] =  'di ' + data['pathogen_reduction_number'] + ' ' + data['pathogen_reduction_number_unit']
+
     if data['pathogen_reduction_text'].strip() != '': 
         data['pathogen_reduction_text'] =  'in modo ' + data['pathogen_reduction_text']
 
-
-    
     sentence = ''
-    
-        
-    
-    # {data['product_ad_1']}{data['product']}
-    # ({data['study']}, {data['study_year']})
 
     sentence += f'''
         Riduce 
         il livello di
         {data['problem']}
-        {data['pathogen_reduction_number']}
+        {data['pathogen_reduction_number']} 
         {data['pathogen_reduction_text']}
         , se usato 
-        {data['treatment_type']} {(data['treatment'])}
+        {data['ozone_type']}
         {data['w_pressure']} 
         {data['o3_concentration']} 
         {data['treatment_time']} 
@@ -305,22 +69,43 @@ def generate_line_application(row, fields):
         .
         '''
 
-    print()
-    print()
-    print(sentence)
-
-
     sentence_formatted = sentence.replace('\n', '')
-    # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
     sentence_formatted = re.sub(' +', ' ', sentence_formatted)
     sentence_formatted = sentence_formatted.replace(' ,', ',')
     sentence_formatted = sentence_formatted.replace(' .', '.')
     
+    return f'- {sentence_formatted}\n'
     
-    print()
-    print(sentence_formatted)
-    print()
 
+def generate_line_quality(row, fields):
+    data = get_line_data_2(row, fields)
+
+    if data['o3_concentration'].strip() != '': 
+        data['o3_concentration'] =  'a una concentrazione di ' + data['o3_concentration']
+        
+    if data['treatment_time'].strip() != '': 
+        data['treatment_time'] =  'per un tempo di ' + data['treatment_time']
+  
+    data['results'] = data['results'].lower().capitalize()
+
+    sentence = ''
+
+    sentence += f'''
+        {data['results']} 
+        del 
+        {data['product']} 
+        , se usato 
+        {data['o3_concentration']} 
+        {data['treatment_time']} 
+
+        .
+        '''
+
+    sentence_formatted = sentence.replace('\n', '')
+    sentence_formatted = re.sub(' +', ' ', sentence_formatted)
+    sentence_formatted = sentence_formatted.replace(' ,', ',')
+    sentence_formatted = sentence_formatted.replace(' .', '.')
+    
     return f'- {sentence_formatted}\n'
 
 
@@ -330,23 +115,61 @@ with open('test.md', 'w', encoding=encoding) as f:
     f.write('')
 
 
+
+
+
+
+
+
+
+
+
+
+def generate_section_quality(product):
+    text_intro = ''
+
+    text_list_intro = ''
+    
+
+    # LISTA ------------------------------------------------------------
+    text_list = ''
+
+    rows = csv_get_rows('experiments-quality')
+    fields = row_to_dict(rows[0])
+    rows = rows[1:]
+
+    for i, row in enumerate(rows):
+        if row[fields['product_type']].strip().lower() == product.lower().strip():
+            text_list += generate_line_quality(row, fields)
+            
+    # WRITE ON TEST FILE ------------------------------------------------------------
+    text = text_intro + text_list_intro + text_list
+    with open('test.md', 'a', encoding=encoding) as f:
+        f.write(f'### {product.capitalize()}\n\n')
+        f.write(f'{text}\n\n')
+
+
 def generate_section(product):
     text_intro = ''
     
     _rows = csv_get_rows('experiments-reduction')
     _fields = row_to_dict(_rows[0])
 
-    # print(_rows)
 
-    # GET LIST OF PROBLEMS AND STUDIES FORM PRODUCT TYPE
+    # GET LIST OF PROBLEMS AND STUDIES FORM PRODUCT TYPE -------------------------------
     # TODO: remove duplicates
     problem_list = []
     study_list = []
+    study_year_list = []
     for i, _row in enumerate(_rows):
         if _row[_fields['product_type']].strip().lower() == product.lower().strip():
-            problem_list.append(_row[_fields['problem']].strip().lower())
-            study_list.append(_row[_fields['study']].strip().lower())
+            problem_list.append(_row[_fields['problem']].strip())
+            study_list.append(_row[_fields['study']].strip())
+            study_year_list.append(_row[_fields['study_year']].strip())
 
+    problem_list = list(dict.fromkeys(problem_list))
+    study_list = list(dict.fromkeys(study_list))
+    study_year_list = list(dict.fromkeys(study_year_list))
 
     # GET PRODUCT AD 3
     _rows = csv_get_rows('products')
@@ -361,18 +184,24 @@ def generate_section(product):
             break
   
     # WRITE TEXT
+    if len(problem_list) == 0: problems = ''
+    elif len(problem_list) == 1: problems = f'{problem_list[0]}'
+    elif len(problem_list) == 2: problems = f'{problem_list[0]} e {problem_list[1]}'
+    else: problems = f'{problem_list[0]}, {problem_list[1]} e {problem_list[2]}'
+
+    if len(study_list) == 0: studies = ''
+    elif len(study_list) == 1: studies = f'{study_list[0]} ({study_year_list[0]})'
+    else: studies = f'{study_list[0]} ({study_year_list[0]}) e {study_list[1]} ({study_year_list[1]})'
+
     text_intro += f'''
         L'ozono viene usato per trattare {_product_ad}{_product}
-        , eliminando problemi come {problem_list[0]} {problem_list[1]} e {problem_list[2]}
-        , come dimostrato da diversi studi (ad esempio {study_list[0]} e {study_list[1]}).
+        , eliminando problemi come {problems}.
+        Questo è dimostrato da vari studi, come {studies}.
     '''
     text_intro = text_intro.replace('\n', '').strip()
     text_intro = re.sub(' +', ' ', text_intro)
     text_intro = text_intro.replace(' ,', ',')
     text_intro += '\n\n'
-
-    print(text_intro)
-
      
     
     # INTRODUZIONE LISTA -----------------------------------------------
@@ -385,11 +214,11 @@ def generate_section(product):
     _product = ''
     _product_ad_2 = ''
     for i, _row in enumerate(_rows):
-        if _row[_fields['product']].strip().lower() == product.lower().strip():
-            _product = _row[_fields['product']]
+        if _row[_fields['product_type']].strip().lower() == product.lower().strip():
+            _product = _row[_fields['product_type']]
             _product_ad_2 = _row[_fields['product_ad_2']]
             break
-    
+
     text_list_intro += f'''
         Ecco una lista di alcune applicazioni dell\'ozono 
         {_product_ad_2}{_product}:
@@ -397,8 +226,6 @@ def generate_section(product):
     text_list_intro = text_list_intro.replace('\n', '').strip()
     text_list_intro = re.sub(' +', ' ', text_list_intro)
     text_list_intro += '\n\n'
-    
-    print(text_list_intro)
 
     # LISTA ------------------------------------------------------------
     text_list = ''
@@ -408,13 +235,10 @@ def generate_section(product):
     _rows = _rows[1:]
 
     for i, _row in enumerate(_rows):
-        print(_row)
-        if _row[_fields['product']].strip().lower() == product.lower().strip():
+        if _row[_fields['product_type']].strip().lower() == product.lower().strip():
             text_list += generate_line_application(_row, _fields)
-
-    print(text_list)
-
-    
+            
+    # WRITE ON TEST FILE ------------------------------------------------------------
     text = text_intro + text_list_intro + text_list
     with open('test.md', 'a', encoding=encoding) as f:
         f.write(f'### {product.capitalize()}\n\n')
@@ -433,13 +257,51 @@ for _row in _rows:
             product_type_list.append(product_type)
 
 for product_type in product_type_list:
-    print(product_type)
     generate_section(product_type)
-    break
-    # generate_section('prosciutto')
+
+
+# GENERATE SECTION QUALITY
+rows = csv_get_rows('experiments-quality')
+fields = row_to_dict(rows[0])
+
+product_type_list = []
+for row in rows:
+    if 'lattiero-casearia' == row[fields['industry']].strip().lower():
+        product_type = row[fields['product_type']].strip().lower()
+        if product_type not in product_type_list:
+            product_type_list.append(product_type)
+
+
+
+
+
+for product_type in product_type_list:
+    generate_section_quality(product_type)
+    # print(product_type)
+    pass
+
+
 
 quit()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# IMAGES -----------------------------------------------------------------------------------
 
 def text_split(text, font, img_w, px):
     lines = text.strip().split('\n')
@@ -471,6 +333,7 @@ def text_split(text, font, img_w, px):
     lines.append(line)
 
     return lines
+
 
 def lines_max_height(lines, font):
     line_height = 0

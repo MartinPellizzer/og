@@ -1,12 +1,14 @@
-study\study_year\product_family\product\product_place\problem\treatment_type\treatment\w_pressure\o3_concentration\treatment_time\treatment_days\pathogen_reduction_number\pathogen_reduction_text\pathogen_analysis_after\treatment_additional\notes\temperature\humidity\ph
-Ipsen \1989\latte\latte intero in polvere\\\\\\\\\\\\\\\\
-Uzun et al. \2012\latte\siero di latte\\\gassosa\\\60 g h-1 \15 minuti \\\\\\\\\
-Uzun et al. \2012\latte\siero di latte\\\acquosa\\\4.5 ppm \15 minuti \\\\\\\\\
-Segat et al. \2014\latte\siero di latte\\\\\\20 mg L-1 \30-480 minuti \\\\\\\\\
-Sert and Mercan \2021\latte\latte scremato in polvere\\\\\\3.5 g h-1\120 minuti \\\\\\\24 °C\\
-Alexopoulos et al.\2017\yogurt\yogurt\\\\\\2.5-3 ppm \60 secondi\\\\\\\\\
-Alexopoulos et al.\2017\formaggio\Feta\\\\\\\60 minuti \\\\\\\\\
-Morandi et al. \2009\formaggio\Ricotta Salata, Taleggio DOP e Gorgonzola DOP\\\\\\4 ppm\8 minuti \\\\\\\\\
-Grasso et al. \2022\formaggio\Pecorino\\\gassosa\\\200 ppb\8 ore \150 giorni\\\\\\12 °C \~85%\
-Sert et al. \2020\burro\burro\\\\\\3.5 g h-1 \60 minuti \\\\\\\8 °C \\
-Sert and Mercan\2020\burro\burro\\\acquosa\\\0.3 mg L-1\30 minuti\\\\\\\2 °C\\
+"study"\"study_year"\"industry"\"product_type"\"product"\"treatment_type"\"o3_concentration"\"o3_concentration_unit"\"treatment_time"\"treatment_days"\"temperature"\"humidity"\"ph"\"results"
+"Kurtz et al."\1969\"lattiero-casearia"\"latte"\"latte intero in polvere"\\32\"ppb"\\\\\\"reagisce con I grassi del latte, producendo un odore sgradevole"
+"Kurtz et al."\1969\"lattiero-casearia"\"latte"\"latte scremato in polvere"\\32\"ppb"\\\\\\"reagisce con I grassi del latte, producendo un odore sgradevole"
+"Ipsen "\1989\"lattiero-casearia"\"latte"\"latte intero in polvere"\\\\\\\\\"causa la perossidazione dei lipidi"
+"Ipsen "\1989\"lattiero-casearia"\"latte"\"latte scremato in polvere"\\\\\\\\\"causa la perossidazione dei lipidi"
+"Uzun et al. "\2012\"lattiero-casearia"\"latte"\"siero di latte"\"gassosa"\"60 g h-1 "\\"15 minuti "\\\\\"Migliora la schiumatura del latte e la stabilità della schiuma, ma riduce la solubilità e la stabilità delle emulsioni"
+"Uzun et al. "\2012\"lattiero-casearia"\"latte"\"siero di latte"\"acquosa"\"4.5 ppm "\\"15 minuti "\\\\\"Migliora la schiumatura del latte e la stabilità della schiuma, ma riduce la solubilità e la stabilità delle emulsioni"
+"Segat et al. "\2014\"lattiero-casearia"\"latte"\"siero di latte"\\"20 mg L-1 "\\"30-480 minuti "\\\\\"aumenta il potere della schiumatura e riduce la solubilità delle proteine"
+"Sert and Mercan "\2021\"lattiero-casearia"\"latte"\"latte scremato in polvere"\\"3.5 g h-1"\\"120 minuti "\\"24 °C"\\\"diminuisce la consistenza, incrementa il diametro delle particelle, incrementa la viscosità e aumenta la luminosità"
+"Alexopoulos et al."\2017\"lattiero-casearia"\"yogurt"\"yogurt"\\"2.5-3 ppm "\\"60 secondi"\\\\\"non modifica le proprietà sensoriali"
+"Alexopoulos et al."\2017\"lattiero-casearia"\"formaggio"\"Feta"\\\\"60 minuti "\\\\\"deteriora il sapore, la consistenza e il colore"
+"Morandi et al. "\2009\"lattiero-casearia"\"formaggio"\"Ricotta Salata, Taleggio DOP e Gorgonzola DOP"\\"4 ppm"\\"8 minuti "\\\\\"modifica il sapore dello strato immediatamente sotto la crosta, a causa della diminuzione dei composti derivati dalla lipolisi"
+"Grasso et al. "\2022\"lattiero-casearia"\"formaggio"\"Pecorino"\"gassosa"\"200 ppb"\\"8 ore "\"150 giorni"\"12 °C "\"~85%"\\"non mostra difetti sensoriali"
+"Sert et al. "\2020\"lattiero-casearia"\"burro"\"burro"\\"3.5 g h-1 "\\"60 minuti "\\"8 °C "\\\"aumenta la spalmabilità e l'aroma del burro, nonchè diminuisce il contenuto di carotenoidi e la stabilità all'ossidazione"

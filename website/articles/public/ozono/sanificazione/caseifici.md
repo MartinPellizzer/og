@@ -15,46 +15,61 @@ last_update_date: 15/09/2023
 
 ### Latte
 
-L'ozono viene usato per trattare il latte crudo e scremato, inattivando in microrganismi patogeni e minimizzando la perdita di proprietà nutritive (al contrario dei trattamenti termici). 
+L'ozono viene usato per trattare il latte, eliminando problemi come Cronobacter sakazaki, psicrotrofi e Listeria monocytogenes. Questo è dimostrato da vari studi, come Torlak and Sert (2013) e Rojek et al. (1995).
 
-Qui sotto alcuni utilizzi dell'ozono nel latte.
+Ecco una lista di alcune applicazioni dell'ozono nel latte:
 
-- Riduce l'Escherichia coli O157:H7 dal latte scremato senza lattosio di 1.5 log, se usato a 45 mg L-1 per 25 minuti (de Oliveira Souza et al., 2019). 
-- Riduce la Listeria monocytogenes dal latte crudo di 5.5 log, se usato a 0.2 g h-1 per 15 minuti (Sheelamary and Muthukumar, 2011). 
-- Riduce il Cronobacter sakazaki dal latte scremato di 3.28 log, se usato a 5.3 mg L-1 per 120 minuti (Torlak and Sert, 2013). 
-- Riduce i batteri dal latte crudo di 1 log, se usato a 1.5 mg L-1 per 15 minuti (Cavalcante et al., 2021). 
-- Riduce i psicrotrofi dal latte scremato del 99%, se usato a 5-35 mg L-1 per 5-25 minuti (Rojek et al., 1995). 
-- Riduce le Aflatossine dal latte del 50%, se usato a 80 mg min-1 per 5 minuti (Ismail et al., 2018). 
-- Riduce gli antibiotici dal latte del 95%, se usato a 75 mg L-1 per 10 minuti (Alsager et al., 2018). 
+-  Riduce il livello di Cronobacter sakazaki di 3.28 log, se usato a una concentrazione di 5.3 mg L-1 per un tempo di 120 minuti. 
+-  Riduce il livello di psicrotrofi del 99%, se usato a una concentrazione di 5-35 mg L-1 per un tempo di 5-25 minuti. 
+-  Riduce il livello di Listeria monocytogenes di 5.5 log, se usato a una concentrazione di 0.2 g h-1 per un tempo di 15 minuti. 
+-  Riduce il livello di batteri di 1 log, se usato a una concentrazione di 1.5 mg L-1 per un tempo di 15 minuti. 
+-  Riduce il livello di antibiotici del 95%, se usato a una concentrazione di 75 mg L-1 per un tempo di 10 minuti. 
+-  Riduce il livello di Escherichia coli O157:H7 di 1.5 log, se usato a una concentrazione di 45 mg L-1 per un tempo di 25 minuti. 
+-  Riduce il livello di Aflatossine del 50%, se usato a una concentrazione di 80 mg min-1 per un tempo di 5 minuti. 
 
 
 ### Formaggio
 
-L'ozono viene usato per disinfettare il formaggio durante la fase di stagionatura, eliminando batteri, muffe e lieviti dalla crosta del formaggio e dall'abiente di stagionatura, per aumentare la shelf-life del prodotto e proteggere la salute delle persone.
+L'ozono viene usato per trattare il formaggio, eliminando problemi come batteri, muffe e Listeria monocytogenes. Questo è dimostrato da vari studi, come Gibson et al. (1960) e Gabriel 'yants' et al. (1980).
 
-Qui sotto alcuni utilizzi dell'ozono nel formaggio.
+Ecco una lista di alcune applicazioni dell'ozono nel formaggio:
 
-- Riduce la Listeria monocytogenes dal formaggio Ricotta Salata, Gongorzola DOP e Taleggio DOP in modo totale (< 10 CFU g-1), se usato in forma gassosa a 4 ppm per 8 minuti durante le diverse fasi della maturazione (Morandi et al., 2009). 
-- Riduce lo Pseudomonas spp. dal formaggio Mozzarella di 6.09 log10 CFU g-1, se usato in forma acquosa a 2 mg L-1 (Segat et al., 2013). 
-- Riduce gli acari dal formaggio Pecorino in modo significativo dopo 25 giorni, se usato a 200 ppb per 8 ore per 150 giorni, a temperatura 12 °C con umidità 80% (Grasso et al., 2022). 
-- Riduce i batteri dal formaggio a pasta dura (Cheddar) in modo significativo, se usato a 3-10 ppm per 30 giorni (Gibson et al., 1960). 
-- Riduce le muffe dal formaggio russo e svizzero in modo totale (fino a 4 mesi), se usato in forma gassosa a 2.5-3.5 ppm per 4 ore con intervalli di 2-3 giorni, a temperatura 2-4 °C con umidità 85-90% (Gabriel 'yants' et al., 1980). 
-- Riduce la carica microbica totale dal formaggio Mozzarella di 3.58 log10 CFU g-1, se usato in forma acquosa a 2 mg L-1 (Segat et al., 2013). 
-- Riduce le muffe aeree dal formaggio di 1 log10, se usato in forma gassosa a 8 g h-1 per 3 mesi, a temperatura 5 °C con umidità > 80% (Serra et al., 2003). 
+-  Riduce il livello di batteri in modo significativo, se usato a una concentrazione di 3-10 ppm.
+-  Riduce il livello di muffe in modo totale (fino a 4 mesi), se usato in forma gassosa a una concentrazione di 2.5-3.5 ppm per un tempo di 4 ore. 
+-  Riduce il livello di carica microbica di 2 log10, se usato in forma acquosa a una concentrazione di 2 mg L-1 per un tempo di 1-2 minuti. 
+-  Riduce il livello di muffe aeree di 1 log10, se usato in forma gassosa a una concentrazione di 8 g h-1. 
+-  Riduce il livello di lieviti in modo totale, se usato in forma gassosa a una concentrazione di 40 g h-1. 
+-  Riduce il livello di Listeria monocytogenes in modo totale (< 10 CFU g-1), se usato in forma gassosa a una concentrazione di 4 ppm per un tempo di 8 minuti. 
+-  Riduce il livello di Pseudomonas spp. di 6.09 log10 CFU g-1, se usato in forma acquosa a una concentrazione di 2 mg L-1. 
 
 
-### Acque Reflue
+### Burro e Yogurt
 
-L'ozono viene usato per purificare le acque reflue, decomponendo la materia organica ed evitando di usare metodi fisico-chimici
-e biologici, con lo scopo di recuperare e riutilizzare l'acqua.
+L'ozono viene usato per trattare lo yogurt, eliminando problemi come muffe, e per trattare il burro, eliminando problemi come carica microbica. Questo è dimostrato da vari studi, come Alexopoulos et al. (2017) e Sert et al. (2020).
 
-Qui sotto alcuni utilizzi dell'ozono nelle acque reflue.
+Ecco una lista di alcune applicazioni dell'ozono nello yogurt e nel burro:
 
-- Riduce la Salmonella Typhimurium dalle acque reflue, se usato a 132.46 mg L-1 (Chang et al., 2022). 
-- Riduce gli enterococchi dalle acque reflue del 92% (combinato a ultrasuoni), se usato a 4.2 mg L-1 per 30 minuti (Chen et al., 2021). 
-- Riduce gli inquinanti organici dalle acque reflue, se usato a 30 mg dm-3 per 5 minuti, a temperatura 25 °C (Làszlò et al., 2009). 
-- Riduce il materiale organico dalle acque reflue del 69.4% (combinato a perossido di idrogeno), in pH 10.2 (dos Santos Pereira et al., 2018). 
-- Riduce l'azoto ammoniacale totale dalle acque reflue del 80.2%, se usato a 5 L min-1 per 60 minuti, in pH 7.5 (Zhu et al., 2022). 
+-  Riduce il livello di muffe di 0.6 log CFU g-1 (25.1%), se usato in forma gassosa a una concentrazione di 2.5-3 ppm per un tempo di 60 s. 
+-  Riduce il livello di carica microbica in modo significativo, se usato a una concentrazione di 3.5 g h-1 per un tempo di 60 minuti. 
+
+
+### Acque reflue
+
+L'ozono viene usato per trattare le acque reflue, eliminando problemi come inquinanti organici, materiale organico e azoto ammoniacale totale. Questo è dimostrato da vari studi, come Làszlò et al. (2009) e dos Santos Pereira et al. (2018).
+
+Ecco una lista di alcune applicazioni dell'ozono nelle acque reflue:
+
+-  Riduce il livello di inquinanti organici, se usato a una concentrazione di 30 mg dm-3 per un tempo di 5 minuti. 
+-  Riduce il livello di materiale organico del 48.9%, se usato a una concentrazione di 12.5 mg L-1 min-1 per un tempo di 20 minuti. 
+-  Riduce il livello di azoto ammoniacale totale del 80.2%, se usato a una concentrazione di 5 L min-1 per un tempo di 60 minuti. 
+-  Riduce il livello di enterococchi del 92%, se usato a una concentrazione di 4.2 mg L-1 per un tempo di 30 minuti. 
+-  Riduce il livello di Salmonella Typhimurium, se usato a una concentrazione di 132.46 mg L-1. 
+
+
+
+
+
+
 
 
 
