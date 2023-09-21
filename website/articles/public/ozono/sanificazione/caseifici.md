@@ -6,7 +6,7 @@ last_update_date: 15/09/2023
 
 # Sanificazione ozono nell'industria lattiero-casearia (caseifici)
 
-![L'ozono migliora la salute della pelle](/assets/images//ozono-sanificazione-caseifici.jpg "L'ozono migliora la salute della pelle")
+![Sanificazione ad ozono nell'industria lattiero-casearia](/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg "Sanificazione ad ozono nell'industria lattiero-casearia")
 
 
 ## Quali applicazioni ha l'ozono nell'industria lattiero-casearia?
@@ -32,7 +32,7 @@ Qui sotto alcuni utilizzi dell'ozono nel latte.
 
 L'ozono viene usato per disinfettare il formaggio durante la fase di stagionatura, eliminando batteri, muffe e lieviti dalla crosta del formaggio e dall'abiente di stagionatura, per aumentare la shelf-life del prodotto e proteggere la salute delle persone.
 
-Qui sotto alcuni utilizzi dell'ozono nel latte.
+Qui sotto alcuni utilizzi dell'ozono nel formaggio.
 
 - Riduce la Listeria monocytogenes dal formaggio Ricotta Salata, Gongorzola DOP e Taleggio DOP in modo totale (< 10 CFU g-1), se usato in forma gassosa a 4 ppm per 8 minuti durante le diverse fasi della maturazione (Morandi et al., 2009). 
 - Riduce lo Pseudomonas spp. dal formaggio Mozzarella di 6.09 log10 CFU g-1, se usato in forma acquosa a 2 mg L-1 (Segat et al., 2013). 
@@ -48,7 +48,7 @@ Qui sotto alcuni utilizzi dell'ozono nel latte.
 L'ozono viene usato per purificare le acque reflue, decomponendo la materia organica ed evitando di usare metodi fisico-chimici
 e biologici, con lo scopo di recuperare e riutilizzare l'acqua.
 
-Qui sotto alcuni utilizzi dell'ozono nel latte.
+Qui sotto alcuni utilizzi dell'ozono nelle acque reflue.
 
 - Riduce la Salmonella Typhimurium dalle acque reflue, se usato a 132.46 mg L-1 (Chang et al., 2022). 
 - Riduce gli enterococchi dalle acque reflue del 92% (combinato a ultrasuoni), se usato a 4.2 mg L-1 per 30 minuti (Chen et al., 2021). 

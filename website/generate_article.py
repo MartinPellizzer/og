@@ -40,9 +40,6 @@ fields = {}
 for i, col in enumerate(rows[0]):
     fields[col] = i
 
-for key, value in fields.items():
-    print(key + " - " +  str(value))
-    pass
 
 fields_list = rows[0]
 rows = rows[1:]
@@ -250,13 +247,18 @@ def generate_benefits(i, row):
 def get_line_data(row):
     data = {}
     for i, col in enumerate(row):
-        data[fields_list[i]] = col
+        data[fields[i]] = col
 
     return data
 
+def get_line_data_2(row, fields):
+    data = {}
+    for key, value in fields.items():
+        data[key] = row[value]
+    return data
 
-def generate_line_application(row):
-    data = get_line_data(row)
+def generate_line_application(row, fields):
+    data = get_line_data_2(row, fields)
 
     if data['treatment_type'].strip() == 'ow': data['treatment_type'] = 'in forma acquosa '
     else: data['treatment_type'] = ''
@@ -285,12 +287,13 @@ def generate_line_application(row):
     
         
     
+    # {data['product_ad_1']}{data['product']}
+    # ({data['study']}, {data['study_year']})
 
     sentence += f'''
         Riduce 
         il livello di
         {data['problem']}
-        {data['product_ad_1']}{data['product']}
         {data['pathogen_reduction_number']}
         {data['pathogen_reduction_text']}
         , se usato 
@@ -299,7 +302,7 @@ def generate_line_application(row):
         {data['o3_concentration']} 
         {data['treatment_time']} 
 
-        ({data['study']}, {data['study_year']}).
+        .
         '''
 
     print()
@@ -311,6 +314,7 @@ def generate_line_application(row):
     # sentence_formatted = re.sub('|[^>]+!', '', sentence_formatted)
     sentence_formatted = re.sub(' +', ' ', sentence_formatted)
     sentence_formatted = sentence_formatted.replace(' ,', ',')
+    sentence_formatted = sentence_formatted.replace(' .', '.')
     
     
     print()
@@ -328,15 +332,20 @@ with open('test.md', 'w', encoding=encoding) as f:
 
 def generate_section(product):
     text_intro = ''
+    
+    _rows = csv_get_rows('experiments-reduction')
+    _fields = row_to_dict(_rows[0])
 
-    # GET LIST OF PROBLEMS AND STUDIES FORM PRODUCT
+    # print(_rows)
+
+    # GET LIST OF PROBLEMS AND STUDIES FORM PRODUCT TYPE
     # TODO: remove duplicates
     problem_list = []
     study_list = []
-    for i, row in enumerate(rows):
-        if row[fields['product']].strip().lower() == product.lower().strip():
-            problem_list.append(row[fields['problem']].strip().lower())
-            study_list.append(row[fields['study']].strip().lower())
+    for i, _row in enumerate(_rows):
+        if _row[_fields['product_type']].strip().lower() == product.lower().strip():
+            problem_list.append(_row[_fields['problem']].strip().lower())
+            study_list.append(_row[_fields['study']].strip().lower())
 
 
     # GET PRODUCT AD 3
@@ -346,7 +355,7 @@ def generate_section(product):
     _product_ad = ''
     _product = ''
     for _row in _rows:
-        _product = _row[_fields['product']].strip().lower()
+        _product = _row[_fields['product_type']].strip().lower()
         if _product == product:
             _product_ad = _row[_fields['product_ad_3']].lower()
             break
@@ -362,44 +371,74 @@ def generate_section(product):
     text_intro = text_intro.replace(' ,', ',')
     text_intro += '\n\n'
 
+    print(text_intro)
+
      
     
     # INTRODUZIONE LISTA -----------------------------------------------
     text_list_intro = ''
 
-    for i, row in enumerate(rows):
-        if row[fields['product']].strip().lower() == product.lower().strip():
-            data = get_line_data(row)
+    _rows = csv_get_rows('products')
+    _fields = row_to_dict(_rows[0])
+    _rows = _rows[1:]
+
+    _product = ''
+    _product_ad_2 = ''
+    for i, _row in enumerate(_rows):
+        if _row[_fields['product']].strip().lower() == product.lower().strip():
+            _product = _row[_fields['product']]
+            _product_ad_2 = _row[_fields['product_ad_2']]
             break
     
     text_list_intro += f'''
         Ecco una lista di alcune applicazioni dell\'ozono 
-        {data['product_ad_2']}{data['product']}:
+        {_product_ad_2}{_product}:
     '''
     text_list_intro = text_list_intro.replace('\n', '').strip()
     text_list_intro = re.sub(' +', ' ', text_list_intro)
     text_list_intro += '\n\n'
+    
+    print(text_list_intro)
 
     # LISTA ------------------------------------------------------------
     text_list = ''
-    for i, row in enumerate(rows):
-        if row[fields['product']].strip().lower() == product.lower().strip():
-            text_list += generate_line_application(row)
+
+    _rows = csv_get_rows('experiments-reduction')
+    _fields = row_to_dict(_rows[0])
+    _rows = _rows[1:]
+
+    for i, _row in enumerate(_rows):
+        print(_row)
+        if _row[_fields['product']].strip().lower() == product.lower().strip():
+            text_list += generate_line_application(_row, _fields)
+
+    print(text_list)
 
     
     text = text_intro + text_list_intro + text_list
     with open('test.md', 'a', encoding=encoding) as f:
         f.write(f'### {product.capitalize()}\n\n')
         f.write(f'{text}\n\n')
+    
 
 
+# GENERATE EXPERIMENTS SECTION
+_rows = csv_get_rows('experiments-reduction')
+_fields = row_to_dict(_rows[0])
+product_type_list = []
+for _row in _rows:
+    if 'lattiero-casearia' == _row[_fields['industry']].strip().lower():
+        product_type = _row[_fields['product_type']].strip().lower()
+        if product_type not in product_type_list:
+            product_type_list.append(product_type)
 
+for product_type in product_type_list:
+    print(product_type)
+    generate_section(product_type)
+    break
+    # generate_section('prosciutto')
 
-
-generate_section('carcasse di manzo')
-generate_section('petto di manzo')
-generate_section('ritagli di manzo')
-# generate_section('prosciutto')
+quit()
 
 
 def text_split(text, font, img_w, px):
@@ -447,32 +486,9 @@ def generate_image_sanitation(image_out_path):
 
     draw = ImageDraw.Draw(img)
 
+    # TITLE
     draw.rectangle(((0, 0), (img_w, 112)), fill=ImageColor.getrgb("#2563eb"))
     
-    icon_w = 96
-    icon_h = 96
-
-    icon_size = (96, 96)
-    icon_bg = Image.new('RGBA', icon_size, (0, 0, 0, 0))
-    icon_fg = Image.new("RGBA", icon_size, ImageColor.getrgb("#2563eb"))
-    icon_mask = Image.open('assets/icons/articles/milk.png').convert('L').resize(icon_size)
-    icon = Image.composite(icon_bg, icon_fg, icon_mask)
-    img.paste(icon, (0, 200), icon)
-
-    icon_size = (96, 96)
-    icon_bg = Image.new('RGBA', icon_size, (0, 0, 0, 0))
-    icon_fg = Image.new("RGBA", icon_size, ImageColor.getrgb("#2563eb"))
-    icon_mask = Image.open('assets/icons/articles/cheese.png').convert('L').resize(icon_size)
-    icon = Image.composite(icon_bg, icon_fg, icon_mask)
-    img.paste(icon, (200, 200), icon)
-
-    icon_size = (96, 96)
-    icon_bg = Image.new('RGBA', icon_size, (0, 0, 0, 0))
-    icon_fg = Image.new("RGBA", icon_size, ImageColor.getrgb("#2563eb"))
-    icon_mask = Image.open('assets/icons/articles/yogurt.png').convert('L').resize(icon_size)
-    icon = Image.composite(icon_bg, icon_fg, icon_mask)
-    img.paste(icon, (400, 200), icon)
-
     text_size = 40
     text = 'Sanificazione ad ozono nell\'industria lattiero-casearia'
     px = img_w - img_w * 0.9
@@ -484,7 +500,6 @@ def generate_image_sanitation(image_out_path):
     line_height = lines_max_height(lines, font) * 1.2
     text_height = line_height * len(lines)
 
-
     for i, line in enumerate(lines):
         line_w = font.getsize(line)[0]
         draw.text(
@@ -493,6 +508,53 @@ def generate_image_sanitation(image_out_path):
             (255,255,255), 
             font=font
             )
+
+
+    #ICONS
+    icon_size = (128, 128)
+    label_y = 64
+    pos_y = 224
+
+    
+
+    pos_x = 0.2
+    icon_bg = Image.new('RGBA', icon_size, (0, 0, 0, 0))
+    icon_fg = Image.new("RGBA", icon_size, ImageColor.getrgb("#2563eb"))
+    icon_mask = Image.open('assets/icons/articles/milk.png').convert('L').resize(icon_size)
+    icon = Image.composite(icon_bg, icon_fg, icon_mask)
+    img.paste(icon, (int(img_w * pos_x) - icon_size[0]//2, pos_y), icon)
+    
+    text_size = 24
+    text = 'Latte'
+    text_w = font.getsize(text)[0]
+    draw.text((int(img_w * pos_x) - text_w//2, pos_y - label_y), text, ImageColor.getrgb("#2563eb"), font=font)
+
+
+    pos_x = 0.5
+    icon_bg = Image.new('RGBA', icon_size, (0, 0, 0, 0))
+    icon_fg = Image.new("RGBA", icon_size, ImageColor.getrgb("#2563eb"))
+    icon_mask = Image.open('assets/icons/articles/cheese.png').convert('L').resize(icon_size)
+    icon = Image.composite(icon_bg, icon_fg, icon_mask)
+    img.paste(icon, (int(img_w * pos_x) - icon_size[0]//2, pos_y), icon)
+    
+    text_size = 24
+    text = 'Formaggio'
+    text_w = font.getsize(text)[0]
+    draw.text((int(img_w * pos_x) - text_w//2, pos_y - label_y), text, ImageColor.getrgb("#2563eb"), font=font)
+
+
+    pos_x = 0.8
+    icon_bg = Image.new('RGBA', icon_size, (0, 0, 0, 0))
+    icon_fg = Image.new("RGBA", icon_size, ImageColor.getrgb("#2563eb"))
+    icon_mask = Image.open('assets/icons/articles/yogurt.png').convert('L').resize(icon_size)
+    icon = Image.composite(icon_bg, icon_fg, icon_mask)
+    img.paste(icon, (int(img_w * pos_x) - icon_size[0]//2, pos_y), icon)
+    
+    text_size = 24
+    text = 'Yogurt'
+    text_w = font.getsize(text)[0]
+    draw.text((int(img_w * pos_x) - text_w//2, pos_y - label_y), text, ImageColor.getrgb("#2563eb"), font=font)
+
 
     img.convert('RGB').save(f'{image_out_path}')
     img.show()
