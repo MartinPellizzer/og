@@ -1,80 +1,54 @@
-## Quali applicazioni ha l'ozono nell'industria lattiero-casearia?
+# latte
 
-### Latte
+L'ozono incide sull’odore, reagisce con i grassi e causa la perossidazione dei lipidi del latte. Questo è dimostrato da vari studi, come Kurtz et al. del 1969 e Ipsen del 1989.
 
-L'ozono viene usato per trattare il latte, eliminando problemi come Cronobacter sakazaki, psicrotrofi e Listeria monocytogenes. Questo è dimostrato da vari studi, come Torlak and Sert (2013) e Rojek et al. (1995).
+Ecco elencati alcuni effetti dell'ozono sulla qualità del latte.
 
-Ecco una lista di alcune applicazioni dell'ozono nel latte:
+- Incide sull’odore e reagisce con i grassi del latte intero in polvere, se usato con una concentrazione di 32 ppb (Kurtz et al., 1969).
 
--  Riduce il livello di Cronobacter sakazaki di 3.28 log, se usato a una concentrazione di 5.3 mg L-1 per un tempo di 120 minuti. 
--  Riduce il livello di psicrotrofi del 99%, se usato a una concentrazione di 5-35 mg L-1 per un tempo di 5-25 minuti. 
--  Riduce il livello di Listeria monocytogenes di 5.5 log, se usato a una concentrazione di 0.2 g h-1 per un tempo di 15 minuti. 
--  Riduce il livello di batteri di 1 log, se usato a una concentrazione di 1.5 mg L-1 per un tempo di 15 minuti. 
--  Riduce il livello di antibiotici del 95%, se usato a una concentrazione di 75 mg L-1 per un tempo di 10 minuti. 
--  Riduce il livello di antibiotici di 50.8-84.1 ug L-1, se usato a una concentrazione di 6.12 mg h-1 per un tempo di 6 ore. 
--  Riduce il livello di Escherichia coli O157:H7 di 1.5 log, se usato a una concentrazione di 45 mg L-1 per un tempo di 25 minuti. 
--  Riduce il livello di Aflatossine del 50%, se usato a una concentrazione di 80 mg min-1 per un tempo di 5 minuti. 
--  Riduce il livello di Aflatossina M1 del 18.9%, se usato a una concentrazione di 3.5 g h-1 per un tempo di 60 minuti. 
+- Incide sull’odore e reagisce con i grassi del latte scremato in polvere, se usato con una concentrazione di 32 ppb (Kurtz et al., 1969).
 
+- Causa la perossidazione dei lipidi del latte intero in polvere (Ipsen, 1989).
 
-### Acque reflue
+- Causa la perossidazione dei lipidi del latte scremato in polvere (Ipsen, 1989).
 
-L'ozono viene usato per trattare le acque reflue, eliminando problemi come inquinanti organici, materiale organico e azoto ammoniacale totale. Questo è dimostrato da vari studi, come Làszlò et al. (2009) e dos Santos Pereira et al. (2018).
+- Migliora la schiumatura, stabilizza la schiuma, riduce la solubilità delle emulsioni e riduce la stabilità delle emulsioni del siero di latte, se usato in forma gassosa con una concentrazione di 60 g h-1 per un tempo di 15 minuti (Uzun et al., 2012).
 
-Ecco una lista di alcune applicazioni dell'ozono nelle acque reflue:
+- Migliora la schiumatura, stabilizza la schiuma, riduce la solubilità delle emulsioni e riduce la stabilità delle emulsioni del siero di latte, se usato in forma acquosa con una concentrazione di 4.5 ppm per un tempo di 15 minuti (Uzun et al., 2012).
 
--  Riduce il livello di inquinanti organici, se usato a una concentrazione di 30 mg dm-3 per un tempo di 5 minuti. 
--  Riduce il livello di materiale organico del 69.4%, se usato. 
--  Riduce il livello di materiale organico del 48.9%, se usato a una concentrazione di 12.5 mg L-1 min-1 per un tempo di 20 minuti. 
--  Riduce il livello di azoto ammoniacale totale del 80.2%, se usato a una concentrazione di 5 L min-1 per un tempo di 60 minuti. 
--  Riduce il livello di enterococchi del 92%, se usato a una concentrazione di 4.2 mg L-1 per un tempo di 30 minuti. 
--  Riduce il livello di Salmonella Typhimurium, se usato a una concentrazione di 132.46 mg L-1. 
+- Riduce la solubilità delle proteine e aumenta il potere della schiumatura del siero di latte, se usato con una concentrazione di 20 mg L-1 per un tempo di 30-480 minuti (Segat et al., 2014).
 
+- Aumenta la luminosità, incrementa la viscosità, diminuisce la consistenza e incrementa il diametro delle particelle del latte scremato in polvere, se usato con una concentrazione di 3.5 g h-1 per un tempo di 120 minuti (Sert and Mercan, 2021).
 
-### Formaggio
+# yogurt
 
-L'ozono viene usato per trattare il formaggio, eliminando problemi come batteri, muffe e Listeria monocytogenes. Questo è dimostrato da vari studi, come Gibson et al. (1960) e Gabriel 'yants' et al. (1980).
+L'ozono non causa variazioni nella qualità dello yogurt. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017.
 
-Ecco una lista di alcune applicazioni dell'ozono nel formaggio:
+Ecco elencati alcuni effetti dell'ozono sulla qualità del yogurt.
 
--  Riduce il livello di batteri in modo significativo, se usato a una concentrazione di 3-10 ppm. 
--  Riduce il livello di batteri in modo significativo, se usato a una concentrazione di 0.2-0.3 ppm. 
--  Riduce il livello di muffe in modo totale (fino a 4 mesi), se usato in forma gassosa a una concentrazione di 2.5-3.5 ppm per un tempo di 4 ore. 
--  Riduce il livello di Listeria monocytogenes in modo totale (< 10 CFU g-1), se usato in forma gassosa a una concentrazione di 4 ppm per un tempo di 8 minuti. 
--  Riduce il livello di Listeria monocytogenes in modo totale (< 10 CFU g-1), se usato in forma gassosa a una concentrazione di 4 ppm per un tempo di 8 minuti. 
--  Riduce il livello di Listeria monocytogenes in modo totale (< 10 CFU g-1), se usato in forma gassosa a una concentrazione di 4 ppm per un tempo di 8 minuti. 
--  Riduce il livello di carica microbica di 2 log10, se usato in forma acquosa a una concentrazione di 2 mg L-1 per un tempo di 1-2 minuti. 
--  Riduce il livello di muffe aeree di 1 log10, se usato in forma gassosa a una concentrazione di 8 g h-1. 
--  Riduce il livello di sporte fungine aeree di 1 log10, se usato in forma gassosa a una concentrazione di 8 g h-1. 
--  Riduce il livello di lieviti in modo totale, se usato in forma gassosa a una concentrazione di 40 g h-1. 
--  Riduce il livello di lieviti in modo totale, se usato in forma acquosa a una concentrazione di 40 g h-1. 
--  Riduce il livello di batteri in modo totale, se usato in forma gassosa a una concentrazione di 40 g h-1. 
--  Riduce il livello di batteri in modo totale, se usato in forma acquosa a una concentrazione di 40 g h-1. 
--  Riduce il livello di carica microbica totale di 3.58 log10 CFU g-1, se usato in forma acquosa a una concentrazione di 2 mg L-1. 
--  Riduce il livello di Pseudomonas spp. di 6.09 log10 CFU g-1, se usato in forma acquosa a una concentrazione di 2 mg L-1. 
--  Riduce il livello di Listeria monocytogenes di 1 log CFU g-1, se usato a una concentrazione di 2 ppm per un tempo di 10 minuti. 
--  Riduce il livello di muffe in modo significativo, se usato in forma gassosa a una concentrazione di 2 mg m-3. 
--  Riduce il livello di acari in modo significativo dopo 25 giorni, se usato a una concentrazione di 200 ppb per un tempo di 8 ore. 
--  Riduce il livello di muffe in modo significativo dopo 75 giorni, se usato a una concentrazione di 200 ppb per un tempo di 8 ore. 
+- Non causa variazioni nella qualità dello yogurt, se usato con una concentrazione di 2.5-3 ppm per un tempo di 60 minuti (Alexopoulos et al., 2017).
 
+# formaggio
 
-### Yogurt
+L'ozono deteriora il colore, deteriora il sapore e deteriora la consistenza del formaggio. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017 e Morandi et al. del 2009.
 
-L'ozono viene usato per trattare lo yogurt, eliminando problemi come muffe. Questo è dimostrato da vari studi, come Alexopoulos et al. (2017).
+Ecco elencati alcuni effetti dell'ozono sulla qualità del formaggio.
 
-Ecco una lista di alcune applicazioni dell'ozono nello yogurt:
+- Deteriora il colore, deteriora il sapore e deteriora la consistenza del Feta, se usato per un tempo di 60 minuti (Alexopoulos et al., 2017).
 
--  Riduce il livello di muffe di 0.6 log CFU g-1 (25.1%), se usato in forma gassosa a una concentrazione di 2.5-3 ppm per un tempo di 60 s. 
+- Modifica il sapore e diminuisce i composti derivati dalla lipolisi della Ricotta Salata, se usato con una concentrazione di 4 ppm per un tempo di 8 minuti (Morandi et al., 2009).
 
+- Modifica il sapore e diminuisce i composti derivati dalla lipolisi del Taleggio DOP, se usato con una concentrazione di 4 ppm per un tempo di 8 minuti (Morandi et al., 2009).
 
-### Burro
+- Modifica il sapore e diminuisce i composti derivati dalla lipolisi Gorgonzola DOP, se usato con una concentrazione di 4 ppm per un tempo di 8 minuti (Morandi et al., 2009).
 
-L'ozono viene usato per trattare il burro, eliminando problemi come carica microbica. Questo è dimostrato da vari studi, come Sert et al. (2020).
+- Non causa variazioni nella qualità del Pecorino, se usato in forma gassosa con una concentrazione di 200 ppb per un tempo di 8 ore (Grasso et al., 2022).
 
-Ecco una lista di alcune applicazioni dell'ozono nel burro:
+# burro
 
--  Riduce il livello di carica microbica in modo significativo, se usato a una concentrazione di 3.5 g h-1 per un tempo di 60 minuti. 
+L'ozono aumenta l’aroma, diminuisce i carotenoidi e aumenta la spalmabilità del burro. Questo è dimostrato da vari studi, come Sert et al. del 2020.
 
+Ecco elencati alcuni effetti dell'ozono sulla qualità del burro.
 
-## L'ozono altera le proprietà sensoriali nei prodotti lattiero-caseari?
+- Aumenta l’aroma, diminuisce i carotenoidi e aumenta la spalmabilità del burro, se usato con una concentrazione di 3.5 g h-1 per un tempo di 60 minuti (Sert et al., 2020).
 
