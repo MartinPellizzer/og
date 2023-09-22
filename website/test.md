@@ -1,3 +1,5 @@
+## Quali applicazioni ha l'ozono nell'industria lattiero-casearia?
+
 ### Latte
 
 L'ozono viene usato per trattare il latte, eliminando problemi come Cronobacter sakazaki, psicrotrofi e Listeria monocytogenes. Questo è dimostrato da vari studi, come Torlak and Sert (2013) e Rojek et al. (1995).
@@ -74,32 +76,5 @@ Ecco una lista di alcune applicazioni dell'ozono nel burro:
 -  Riduce il livello di carica microbica in modo significativo, se usato a una concentrazione di 3.5 g h-1 per un tempo di 60 minuti. 
 
 
-### Latte
-
--  Reagisce con i grassi del latte, producendo un odore sgradevole del latte, se usato a una concentrazione di 32. 
--  Reagisce con i grassi del latte, producendo un odore sgradevole del latte, se usato a una concentrazione di 32. 
--  Causa la perossidazione dei lipidi del latte, se usato. 
--  Causa la perossidazione dei lipidi del latte, se usato. 
--  Migliora la schiumatura del latte e la stabilità della schiuma, ma riduce la solubilità e la stabilità delle emulsioni del latte, se usato a una concentrazione di 60 g h-1 per un tempo di 15 minuti. 
--  Migliora la schiumatura del latte e la stabilità della schiuma, ma riduce la solubilità e la stabilità delle emulsioni del latte, se usato a una concentrazione di 4.5 ppm per un tempo di 15 minuti. 
--  Aumenta il potere della schiumatura e riduce la solubilità delle proteine del latte, se usato a una concentrazione di 20 mg L-1 per un tempo di 30-480 minuti. 
--  Diminuisce la consistenza, incrementa il diametro delle particelle, incrementa la viscosità e aumenta la luminosità del latte, se usato a una concentrazione di 3.5 g h-1 per un tempo di 120 minuti. 
-
-
-### Yogurt
-
--  Non modifica le proprietà sensoriali del yogurt, se usato a una concentrazione di 2.5-3 ppm per un tempo di 60 secondi. 
-
-
-### Formaggio
-
--  Deteriora il sapore, la consistenza e il colore del formaggio, se usato per un tempo di 60 minuti. 
--  Modifica il sapore dello strato immediatamente sotto la crosta, a causa della diminuzione dei composti derivati dalla lipolisi del formaggio, se usato a una concentrazione di 4 ppm per un tempo di 8 minuti. 
--  Non mostra difetti sensoriali del formaggio, se usato a una concentrazione di 200 ppb per un tempo di 8 ore. 
-
-
-### Burro
-
--  Aumenta la spalmabilità e l'aroma del burro, nonchè diminuisce il contenuto di carotenoidi e la stabilità all'ossidazione del burro, se usato a una concentrazione di 3.5 g h-1 per un tempo di 60 minuti. 
-
+## L'ozono altera le proprietà sensoriali nei prodotti lattiero-caseari?
 
