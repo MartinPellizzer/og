@@ -19,6 +19,28 @@ def fields_to_dict(row):
     return fields
 
 
+def generate_intro_list_application(product_types):
+    products_formatted_list = []
+    for product_type in product_types:
+        product_ad = ''
+        for product_row in products_rows:
+            product_type_tmp = product_row[products_fields['product_type']]
+            if product_type_tmp.strip().lower() == product_type.strip().lower():
+                product_ad = product_row[products_fields['product_ad_2']]
+                break
+        product_formatted = f'{product_ad}{product_type}'
+        products_formatted_list.append(product_formatted)
+
+    if len(products_formatted_list) == 0: products_formatted = ''
+    elif len(products_formatted_list) == 1: products_formatted = products_formatted_list[0]
+    elif len(products_formatted_list) == 2: products_formatted = ' e '.join(products_formatted_list[:2])
+    else: products_formatted = ', '.join(products_formatted_list[:-1]) + f' e {products_formatted_list[-1]}'
+
+    line = ''
+    line += f'Ecco una lista di applicazioni dell\'ozono {products_formatted}.\n\n'
+    print(line)
+    return line
+
 
 def generate_product_intro_application(rows):
     
@@ -111,8 +133,7 @@ def generate_product_list_intro_application(product_type):
             product_ad = product_row[products_fields['product_ad_2']]
             break
     product_formatted = f'{product_ad}{product}'
-
-    line = f'Ecco una lista di alcune applicazioni dell\'ozono {product_formatted}.\n\n'
+    line = f'Ecco elencate alcune applicazioni dell\'ozono {product_formatted}.\n\n'
     print(line)
     return line
 
@@ -526,8 +547,9 @@ for row in industry_rows:
     if product_type not in product_types:
         product_types.append(product_type)
 
-text_to_write += f'## L\'ozono quali proprietà sensoriali altera nei prodotti dell\'industria {industry}?\n\n'
+text_to_write += f'## L\'ozono quali applicazioni ha nell\'industria {industry}?\n\n'
 
+text_to_write += generate_intro_list_application(product_types)
 
 for product_type in product_types:
     rows = [row for row in industry_rows if row[experiments_application_fields['product_type']] == product_type]

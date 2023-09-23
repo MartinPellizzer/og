@@ -1,10 +1,12 @@
 ## L'ozono quali proprietà sensoriali altera nei prodotti dell'industria lattiero-casearia?
 
+Ecco una lista di applicazioni dell'ozono nel latte, nelle acque reflue, nel formaggio, nello yogurt e nel burro.
+
 ### Latte
 
-L'ozono viene usato per trattare il latte, eliminando problemi come Aflatossina M1, batteri e Cronobacter sakazaki. Questo è dimostrato da vari studi, come Torlak and Sert del 2013 e Rojek et al. del 1995.
+L'ozono viene usato per trattare il latte, eliminando problemi come batteri, antibiotici e psicrotrofi. Questo è dimostrato da vari studi, come Torlak and Sert del 2013 e Rojek et al. del 1995.
 
-Ecco una lista di alcune applicazioni dell'ozono nel latte.
+Ecco elencate alcune applicazioni dell'ozono nel latte.
 
 - Riduce il livello di Cronobacter sakazaki 3.28 log, se usato in forma ozono con una concentrazione di 5.3 mg L-1 per un tempo di 120 minuti (Torlak and Sert, 2013).
 - Riduce il livello di psicrotrofi 99%, se usato in forma ozono con una concentrazione di 5-35 mg L-1 per un tempo di 5-25 minuti (Rojek et al., 1995).
@@ -18,9 +20,9 @@ Ecco una lista di alcune applicazioni dell'ozono nel latte.
 
 ### Acque reflue
 
-L'ozono viene usato per trattare le acque reflue, eliminando problemi come materiale organico, Salmonella Typhimurium e azoto ammoniacale totale. Questo è dimostrato da vari studi, come Làszlò et al. del 2009 e dos Santos Pereira et al. del 2018.
+L'ozono viene usato per trattare le acque reflue, eliminando problemi come inquinanti organici, materiale organico e enterococchi. Questo è dimostrato da vari studi, come Làszlò et al. del 2009 e dos Santos Pereira et al. del 2018.
 
-Ecco una lista di alcune applicazioni dell'ozono nelle acque reflue.
+Ecco elencate alcune applicazioni dell'ozono nelle acque reflue.
 
 - Riduce il livello di inquinanti organici, se usato in forma ozono con una concentrazione di 30 mg dm-3 per un tempo di 5 minuti (Làszlò et al., 2009).
 - Riduce il livello di materiale organico 69.4%, se usato in forma ozono (dos Santos Pereira et al., 2018).
@@ -31,9 +33,9 @@ Ecco una lista di alcune applicazioni dell'ozono nelle acque reflue.
 
 ### Formaggio
 
-L'ozono viene usato per trattare il formaggio, eliminando problemi come sporte fungine aeree, batteri e muffe. Questo è dimostrato da vari studi, come Gibson et al. del 1960 e Gabriel 'yants' et al. del 1980.
+L'ozono viene usato per trattare il formaggio, eliminando problemi come batteri, Listeria monocytogenes e lieviti. Questo è dimostrato da vari studi, come Gibson et al. del 1960 e Gabriel 'yants' et al. del 1980.
 
-Ecco una lista di alcune applicazioni dell'ozono nel formaggio.
+Ecco elencate alcune applicazioni dell'ozono nel formaggio.
 
 - Riduce il livello di batteri significativo, se usato in forma ozono con una concentrazione di 3-10 ppm (Gibson et al., 1960).
 - Riduce il livello di muffe totale (fino a 4 mesi), se usato in forma ozono con una concentrazione di 2.5-3.5 ppm per un tempo di 4 ore (Gabriel 'yants' et al., 1980).
@@ -50,7 +52,7 @@ Ecco una lista di alcune applicazioni dell'ozono nel formaggio.
 
 L'ozono viene usato per trattare lo yogurt, eliminando problemi come muffe. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017.
 
-Ecco una lista di alcune applicazioni dell'ozono nello yogurt.
+Ecco elencate alcune applicazioni dell'ozono nello yogurt.
 
 - Riduce il livello di muffe 0.6 log CFU g-1 (25.1%), se usato in forma ozono con una concentrazione di 2.5-3 ppm per un tempo di 60 secondi (Alexopoulos et al., 2017).
 
@@ -58,7 +60,7 @@ Ecco una lista di alcune applicazioni dell'ozono nello yogurt.
 
 L'ozono viene usato per trattare il burro, eliminando problemi come carica microbica. Questo è dimostrato da vari studi, come Sert et al. del 2020.
 
-Ecco una lista di alcune applicazioni dell'ozono nel burro.
+Ecco elencate alcune applicazioni dell'ozono nel burro.
 
 - Riduce il livello di carica microbica significativo, se usato in forma ozono con una concentrazione di 3.5 g h-1 per un tempo di 60 minuti (Sert et al., 2020).
 
