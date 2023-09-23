@@ -73,31 +73,47 @@ Ecco una lista di alcune applicazioni dell'ozono nelle acque reflue:
 
 
 
+## L'ozono quali proprietà sensoriali altera nei prodotti dell'industria lattiero-casearia?
 
-## L'ozono altera le proprietà sensoriali nei prodotti lattiero-caseari?
+L'ozono diminuisce i composti derivati dalla lipolisi, aumenta il potere della schiumatura e riduce la stabilità delle emulsioni dei prodotti dell'industria lattiero-casearia, se usato a concentrazioni eccessive e per un tempo prolungato.
 
-Regarding the dairy industry, in most cases, no detectable changes from a sensorial point of view were detected after the ozone treatment (concentrations and exposure times)
-
+Ecco una lista di effetti dell'ozono sulle proprietà sensoriali del latte, dello yogurt, del formaggio e del burro.
 
 ### Latte
 
-- Riduce la qualità sensoriale del latte in polvere intero e scremato, se usato a 32 ppb (Kurtz et al., 1969). 
-- Aumenta la perossidazione dei lipidi del latte intero in polvere (Ipsen, 1989). 
-- Migliora il potere della schiumatura e la stabilità della schiuma, ma riduce la solubilità e la stabilità delle emulsioni del latte (siero), se usato in forma gassosa a 60 g h-1 per 15 minuti o in forma acquosa a 4.5 ppm per 15 minuti (Uzun et al., 2012).
-- Aumenta il potere della schiumatura e riduce la solubilità delle proteine del latte (siero), se usato a 20 mg L-1 per 30-480 minuti (Segat et al., 2014). 
-- Diminuisce la consistenza del prodotto, incrementa il diametro delle particelle, incrementa la viscosità del latte, incrementa la luminosità del latte scremato in polvere, se usato a 3.5 g h-1 per 120 minuti, a temperatura 24 °C (Sert and Mercan, 2021). 
+L'ozono migliora la schiumatura, causa la perossidazione dei lipidi e incrementa il diametro delle particelle del latte. Questo è dimostrato da vari studi, come Kurtz et al. del 1969 e Ipsen del 1989.
 
+Ecco elencati alcuni effetti dell'ozono sulla qualità del latte.
 
-### Burro e Yogurt
+- Incide sull’odore e reagisce con i grassi del latte intero in polvere, se usato con una concentrazione di 32 ppb (Kurtz et al., 1969).
+- Causa la perossidazione dei lipidi del latte intero in polvere (Ipsen, 1989).
+- Migliora la schiumatura, stabilizza la schiuma, riduce la solubilità delle emulsioni e riduce la stabilità delle emulsioni del siero di latte, se usato in forma gassosa con una concentrazione di 60 g h-1 per un tempo di 15 minuti (Uzun et al., 2012).
+- Riduce la solubilità delle proteine e aumenta il potere della schiumatura del siero di latte, se usato con una concentrazione di 20 mg L-1 per un tempo di 30-480 minuti (Segat et al., 2014).
+- Aumenta la luminosità, incrementa la viscosità, diminuisce la consistenza e incrementa il diametro delle particelle del latte scremato in polvere, se usato con una concentrazione di 3.5 g h-1 per un tempo di 120 minuti (Sert and Mercan, 2021).
 
-- Migliora la qualità microbiologica del burro, se usato a 3.5 g h-1 per 60 minuti, a temperatura 8 °C (Sert et al., 2020). 
-- Riduce consistenza, lucentezza, diametro delle particelle e spalmabilità del burro, se usato in forma acquosa a 0.3 mg L-1 per 30 minuti, a temperatura 2 °C (Sert and Mercan, 2020). 
-- Aumenta la spalmabilità e l'aroma, mentre diminuisce i carotenoidi e la stabilità all'ossidazione del burro, se usato a 3.5 g h-1 per 60 minuti, a temperatura 8 °C (Sert et al., 2020). 
-- Non causa alcuna differenza nelle proprietà sensoriali dello yogurt, se usato a 2.5-3 ppm per 60 secondi (Alexopoulos et al., 2017). 
+### Yogurt
 
+L'ozono non causa variazioni nella qualità dello yogurt. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017.
+
+Ecco elencati alcuni effetti dell'ozono sulla qualità del yogurt.
+
+- Non causa variazioni nella qualità dello yogurt, se usato con una concentrazione di 2.5-3 ppm per un tempo di 60 minuti (Alexopoulos et al., 2017).
 
 ### Formaggio
 
-- Decrementa la qualità in termini di gusto, consistenza e colore del formaggio Feta, se usato per 60 minuti (Alexopoulos et al., 2017). 
-- Modifica il sapore nello strato appena sotto la crosta a causa della minor presenza di composti derivati dalla lipolisi (acidi grassi liberi e i loro derivati) del formaggio Ricotta Salata, Taleggio DOP e Gorgonzola DOP, se usato a 4 ppm per 8 minuti (Morandi et al., 2009). 
-- Non causa alcuna cambiamento nelle proprietà sensoriali del formaggio Pecorino, se usato in forma gassosa a 200 ppb per 8 ore per 150 giorni, a temperatura 12 °C con umidità ~85% (Grasso et al., 2022). 
+L'ozono modifica il sapore e deteriora la consistenza del formaggio. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017 e Morandi et al. del 2009.
+
+Ecco elencati alcuni effetti dell'ozono sulla qualità del formaggio.
+
+- Deteriora il colore, modifica il sapore e deteriora la consistenza del Feta, se usato per un tempo di 60 minuti (Alexopoulos et al., 2017).
+- Modifica il sapore e diminuisce i composti derivati dalla lipolisi della Ricotta Salata, se usato con una concentrazione di 4 ppm per un tempo di 8 minuti (Morandi et al., 2009).
+- Non causa variazioni nella qualità del Pecorino, se usato in forma gassosa con una concentrazione di 200 ppb per un tempo di 8 ore (Grasso et al., 2022).
+
+### Burro
+
+L'ozono diminuisce i carotenoidi del burro. Questo è dimostrato da vari studi, come Sert et al. del 2020.
+
+Ecco elencati alcuni effetti dell'ozono sulla qualità del burro.
+
+- Aumenta l’aroma, diminuisce i carotenoidi e aumenta la spalmabilità del burro, se usato con una concentrazione di 3.5 g h-1 per un tempo di 60 minuti (Sert et al., 2020).
+
