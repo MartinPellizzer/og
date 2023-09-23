@@ -19,6 +19,48 @@ def fields_to_dict(row):
     return fields
 
 
+
+def generate_intro_application(rows):
+    industry = rows[0][experiments_application_fields['industry']]
+
+    application_list = []
+    for experiments_quality_row in rows:
+        problem = experiments_quality_row[experiments_application_fields['problem']]
+        
+        if problem.strip() != '': application_list.append(problem)
+
+    random.shuffle(application_list)
+
+    application_list = list(dict.fromkeys(application_list))
+
+    for quality in application_list:
+        print(quality)
+
+    if len(application_list) == 0: application_formatted = 'non causa variazioni nella qualità'
+    elif len(application_list) == 1: application_formatted = application_list[0]
+    elif len(application_list) == 2: application_formatted = ' e '.join(application_list[:2])
+    else: application_formatted = ', '.join(application_list[:2]) + f' e {application_list[2]}'
+
+    product_types = []
+    for row in rows:
+        product_type = row[experiments_quality_fields['product_type']]
+        if product_type not in product_types:
+            product_types.append(product_type)
+    
+    line = ''
+    line += f'L\'ozono elimina {application_formatted} dai prodotti dell\'industria {industry}, se usato a giuste concentazioni e per il giusto tempo.\n\n'
+    
+
+    line = line.replace('\n', '')
+    line = re.sub(' +', ' ', line)
+    line = line.replace(' ,', ',')
+    line = line.replace(' .', '.')
+    line = line.strip()
+    line = line[0].capitalize() + line[1:]
+
+    return f'{line}\n\n'
+
+
 def generate_intro_list_application(product_types):
     products_formatted_list = []
     for product_type in product_types:
@@ -549,6 +591,7 @@ for row in industry_rows:
 
 text_to_write += f'## L\'ozono quali applicazioni ha nell\'industria {industry}?\n\n'
 
+text_to_write += generate_intro_application(industry_rows)
 text_to_write += generate_intro_list_application(product_types)
 
 for product_type in product_types:

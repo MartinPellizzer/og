@@ -1,10 +1,12 @@
-## L'ozono quali proprietà sensoriali altera nei prodotti dell'industria lattiero-casearia?
+## L'ozono quali applicazioni ha nell'industria lattiero-casearia?
+
+L'ozono elimina Listeria monocytogenes, muffe e azoto ammoniacale totale dai prodotti dell'industria lattiero-casearia, se usato a giuste concentazioni e per il giusto tempo.
 
 Ecco una lista di applicazioni dell'ozono nel latte, nelle acque reflue, nel formaggio, nello yogurt e nel burro.
 
 ### Latte
 
-L'ozono viene usato per trattare il latte, eliminando problemi come batteri, antibiotici e psicrotrofi. Questo è dimostrato da vari studi, come Torlak and Sert del 2013 e Rojek et al. del 1995.
+L'ozono viene usato per trattare il latte, eliminando problemi come Cronobacter sakazaki, batteri e antibiotici. Questo è dimostrato da vari studi, come Torlak and Sert del 2013 e Rojek et al. del 1995.
 
 Ecco elencate alcune applicazioni dell'ozono nel latte.
 
@@ -20,7 +22,7 @@ Ecco elencate alcune applicazioni dell'ozono nel latte.
 
 ### Acque reflue
 
-L'ozono viene usato per trattare le acque reflue, eliminando problemi come inquinanti organici, materiale organico e enterococchi. Questo è dimostrato da vari studi, come Làszlò et al. del 2009 e dos Santos Pereira et al. del 2018.
+L'ozono viene usato per trattare le acque reflue, eliminando problemi come azoto ammoniacale totale, enterococchi e Salmonella Typhimurium. Questo è dimostrato da vari studi, come Làszlò et al. del 2009 e dos Santos Pereira et al. del 2018.
 
 Ecco elencate alcune applicazioni dell'ozono nelle acque reflue.
 
@@ -33,7 +35,7 @@ Ecco elencate alcune applicazioni dell'ozono nelle acque reflue.
 
 ### Formaggio
 
-L'ozono viene usato per trattare il formaggio, eliminando problemi come batteri, Listeria monocytogenes e lieviti. Questo è dimostrato da vari studi, come Gibson et al. del 1960 e Gabriel 'yants' et al. del 1980.
+L'ozono viene usato per trattare il formaggio, eliminando problemi come carica microbica totale, Listeria monocytogenes e muffe. Questo è dimostrato da vari studi, come Gibson et al. del 1960 e Gabriel 'yants' et al. del 1980.
 
 Ecco elencate alcune applicazioni dell'ozono nel formaggio.
 
