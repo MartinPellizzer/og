@@ -2,6 +2,9 @@ import csv
 import re
 import random
 
+# TODO: create csv problems, with articles (ad)
+# TODO: insert problem article (ad) before problem in product reduction intro if only one problem
+# TODO: maybe match the random between intros problems/qualities and studies
 
 def csv_get_rows(table):
     rows = []
@@ -191,7 +194,9 @@ def generate_product_list_application(rows):
         study_year = experiments_quality_row[experiments_application_fields['study_year']]
 
         product = experiments_quality_row[experiments_application_fields['product']]
+
         treatment_type = experiments_quality_row[experiments_application_fields['treatment_type']]
+        ozone_type = experiments_quality_row[experiments_application_fields['ozone_type']]
         
         problem = experiments_quality_row[experiments_application_fields['problem']]
 
@@ -222,9 +227,12 @@ def generate_product_list_application(rows):
 
         # CONDITIONS
         condition_list = []
-        if treatment_type.strip() != '': condition_list.append(f'in forma {treatment_type}')
+        if ozone_type.strip() != '': condition_list.append(f'in forma {ozone_type}')
         if o3_concentration.strip() != '': condition_list.append(f'con una concentrazione di {o3_concentration} {o3_concentration_unit}')
         if treatment_time.strip() != '': condition_list.append(f'per un tempo di {treatment_time} {treatment_time_unit}')
+
+        if pathogen_reduction_number.strip() != '': pathogen_reduction_number = f'di {pathogen_reduction_number}'
+        if pathogen_reduction_text.strip() != '': pathogen_reduction_text = f'in modo {pathogen_reduction_text}'
 
         conditions_formatted = ''
         if len(condition_list) != 0:
@@ -602,10 +610,10 @@ for product_type in product_types:
     text_to_write += generate_product_list_intro_application(product_type)
     text_to_write += generate_product_list_application(rows)
 
-with open('test.md', 'w', encoding='utf-8') as f:
-    f.write(text_to_write)
+# with open('test.md', 'w', encoding='utf-8') as f:
+#     f.write(text_to_write)
 
-quit()
+# quit()
 
 
 
@@ -637,5 +645,5 @@ for product_type in product_types:
 
 
 
-# with open('test.md', 'w', encoding='utf-8') as f:
-#     f.write(text_to_write)
+with open('test.md', 'w', encoding='utf-8') as f:
+    f.write(text_to_write)
