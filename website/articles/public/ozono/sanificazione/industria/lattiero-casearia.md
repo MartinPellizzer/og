@@ -1,3 +1,9 @@
+---
+author: Martin Pellizzer
+publishing_date: 15/09/2023
+last_update_date: 15/09/2023
+---
+
 # Sanificazione ad ozono nell'industria lattiero-casearia
 
 ![Sanificazione ad ozono nell'industria lattiero-casearia](/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg "Sanificazione ad ozono nell'industria lattiero-casearia")
@@ -10,13 +16,13 @@ In questo articolo vediamo quali sono le applicazioni dell'ozono nell'industria 
 
 ## L'ozono quali applicazioni ha nell'industria lattiero-casearia?
 
-L'ozono riduce la Listeria monocytogenes, il Cronobacter sakazaki e la carica microbica dai prodotti dell'industria lattiero-casearia, se usato a giuste concentazioni e per il giusto tempo.
+L'ozono riduce la carica microbica totale, la carica microbica e le spore fungine aeree dai prodotti dell'industria lattiero-casearia, se usato a giuste concentazioni e per il giusto tempo.
 
 Ecco una lista di applicazioni dell'ozono nel latte, nelle acque reflue, nel formaggio, nello yogurt e nel burro.
 
 ### Latte
 
-L'ozono viene usato per trattare il latte, eliminando problemi come i batteri, gli psicrotrofi e gli antibiotici. Questo è dimostrato da vari studi, come Torlak and Sert del 2013 e Rojek et al. del 1995.
+L'ozono viene usato per trattare il latte, eliminando problemi come gli antibiotici, i batteri e il Cronobacter sakazaki. Questo è dimostrato da vari studi, come Torlak and Sert del 2013 e Rojek et al. del 1995.
 
 Ecco elencati alcuni problemi che l'ozono risolve nel latte.
 
@@ -32,7 +38,7 @@ Ecco elencati alcuni problemi che l'ozono risolve nel latte.
 
 ### Acque reflue
 
-L'ozono viene usato per trattare le acque reflue, eliminando problemi come gli enterococchi, il materiale organico e l’azoto ammoniacale totale. Questo è dimostrato da vari studi, come Làszlò et al. del 2009 e dos Santos Pereira et al. del 2018.
+L'ozono viene usato per trattare le acque reflue, eliminando problemi come la Salmonella Typhimurium, gli enterococchi e il materiale organico. Questo è dimostrato da vari studi, come Làszlò et al. del 2009 e dos Santos Pereira et al. del 2018.
 
 Ecco elencati alcuni problemi che l'ozono risolve nelle acque reflue.
 
@@ -45,7 +51,7 @@ Ecco elencati alcuni problemi che l'ozono risolve nelle acque reflue.
 
 ### Formaggio
 
-L'ozono viene usato per trattare il formaggio, eliminando problemi come i batteri, il Pseudomonas spp. e le muffe. Questo è dimostrato da vari studi, come Gibson et al. del 1960 e Gabriel 'yants' et al. del 1980.
+L'ozono viene usato per trattare il formaggio, eliminando problemi come i lieviti, i batteri e le spore fungine aeree. Questo è dimostrato da vari studi, come Gibson et al. del 1960 e Gabriel 'yants' et al. del 1980.
 
 Ecco elencati alcuni problemi che l'ozono risolve nel formaggio.
 
@@ -78,13 +84,13 @@ Ecco elencati alcuni problemi che l'ozono risolve nel burro.
 
 ## L'ozono quali proprietà sensoriali altera nei prodotti dell'industria lattiero-casearia?
 
-L'ozono modifica il sapore, stabilizza la schiuma e riduce la stabilità delle emulsioni dei prodotti dell'industria lattiero-casearia, se usato a concentrazioni eccessive e per un tempo prolungato.
+L'ozono diminuisce i composti derivati dalla lipolisi, aumenta l’aroma e modifica il sapore dei prodotti dell'industria lattiero-casearia, se usato a concentrazioni eccessive e per un tempo prolungato.
 
 Ecco una lista di effetti dell'ozono sulle proprietà sensoriali del latte, dello yogurt, del formaggio e del burro.
 
 ### Latte
 
-L'ozono causa la perossidazione dei lipidi, reagisce con i grassi e incrementa la viscosità del latte. Questo è dimostrato da vari studi, come Kurtz et al. del 1969 e Ipsen del 1989.
+L'ozono aumenta il potere della schiumatura, causa la perossidazione dei lipidi e riduce la stabilità delle emulsioni del latte. Questo è dimostrato da vari studi, come Kurtz et al. del 1969 e Ipsen del 1989.
 
 Ecco elencati alcuni effetti dell'ozono sulla qualità del  latte.
 
@@ -104,7 +110,7 @@ Ecco elencati alcuni effetti dell'ozono sulla qualità dello  yogurt.
 
 ### Formaggio
 
-L'ozono deteriora la consistenza, modifica il sapore e diminuisce i composti derivati dalla lipolisi del formaggio. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017 e Morandi et al. del 2009.
+L'ozono modifica il sapore, deteriora il colore e diminuisce i composti derivati dalla lipolisi del formaggio. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017 e Morandi et al. del 2009.
 
 Ecco elencati alcuni effetti dell'ozono sulla qualità del  formaggio.
 
