@@ -1,29 +1,30 @@
-"product"\"product_type"\"product_ad_1"\"product_ad_2"\"product_ad_3"\"product_ad_4"
-"carne"\"carne"\"dalla "\"nella"\"la "\"della "
-"carcasse di manzo"\"carne"\"dalle "\"nelle "\"le "\"del "
-"petto di manzo"\"carne"\"dal "\"nel "\"il "\"del "
-"ritagli di manzo"\"carne"\"dai "\"nei "\"I "\"dei "
-"carne di manzo"\"carne"\"dalla "\"nella"\"la "\"della "
-"prosciutto"\"carne"\"dal "\"nel "\"il "\"del "
-"latte"\"latte"\"dal "\"nel "\"il "\"del "
-"latte crudo"\"latte"\"dal "\"nel "\"il "\"del "
-"latte scremato"\"latte"\"dal "\"nel "\"il "\"del "
-"latte scremato senza lattosio"\"latte"\"dal "\"nel "\"il "\"del "
-"latte intero in polvere"\"latte"\"dal "\"nel "\"il "\"del "
-"latte scremato in polvere"\"latte"\"dal "\"nel "\"il "\"del "
-"siero di latte"\"latte"\"dal "\"nel "\"il "\"del "
-"acque reflue"\"acque reflue"\"dalle "\"nelle "\"le "\"delle "
-"formaggio"\"formaggio"\"dal "\"nel "\"il "\"del "
-"formaggio morbido"\"formaggio"\"dal "\"nel "\"il "\"del "
-"formaggio a pasta dura"\"formaggio"\"dal "\"nel "\"il "\"del "
-"formaggio russo e svizzero"\"formaggio"\"dal "\"nel "\"il "\"del "
-"Ricotta Salata "\"formaggio"\"dalla "\"nella"\"la "\"della "
-"Gorgorzola DOP"\"formaggio"\"dal "\"nel "\"il "\"del "
-"crosta di Gorgonzola"\"formaggio"\"dalla "\"nella"\"la "\"della "
-"Taleggio DOP"\"formaggio"\"dal "\"nel "\"il "\"del "
-"Minas Frescal"\"formaggio"\"dal "\"nel "\"il "\"del "
-"Pecorino"\"formaggio"\"dal "\"nel "\"il "\"del "
-"Mozzarella"\"formaggio"\"dalla "\"nella"\"la "\"della "
-"Feta"\"formaggio"\"dal "\"nel "\"il "\"del "
-"burro"\"burro"\"dal "\"nel "\"il "\"del "
-"yogurt"\"yogurt"\"dallo "\"nello "\"lo "\"dello "
+product\product_type\ad_1\ad_2\ad_3\ad_4
+carne\carne di manzo\dalla \nella \la \della 
+carcasse di manzo\carne di manzo\dalle \nelle \le \delle 
+petto di manzo\carne di manzo\dal \nel \il \del 
+ritagli di manzo\carne di manzo\dai \nei \I \dei 
+carne di manzo\carne di manzo\dalla \nella \la \della 
+prosciutto\carne di maiale\dal \nel \il \del 
+latte\latte\dal \nel \il \del 
+latte crudo\latte\dal \nel \il \del 
+latte scremato\latte\dal \nel \il \del 
+latte scremato senza lattosio\latte\dal \nel \il \del 
+latte intero in polvere\latte\dal \nel \il \del 
+latte scremato in polvere\latte\dal \nel \il \del 
+siero di latte\latte\dal \nel \il \del 
+acque reflue\acque reflue\dalle \nelle \le \delle 
+formaggio\formaggio\dal \nel \il \del 
+formaggio morbido\formaggio\dal \nel \il \del 
+formaggio a pasta dura\formaggio\dal \nel \il \del 
+formaggio russo e svizzero\formaggio\dal \nel \il \del 
+Ricotta Salata \formaggio\dalla \nella \la \della 
+Gorgorzola DOP\formaggio\dal \nel \il \del 
+crosta di Gorgonzola\formaggio\dalla \nella \la \della 
+Taleggio DOP\formaggio\dal \nel \il \del 
+Minas Frescal\formaggio\dal \nel \il \del 
+Pecorino\formaggio\dal \nel \il \del 
+Mozzarella\formaggio\dalla \nella \la \della 
+Feta\formaggio\dal \nel \il \del 
+burro\burro\dal \nel \il \del 
+yogurt\yogurt\dallo \nello \lo \dello 
+carcasse di pollo \carne di pollo\dalle \nelle \le \delle 
