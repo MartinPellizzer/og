@@ -3,6 +3,31 @@ import re
 import random
 
 
+test_dict = {
+    'title': 'title',
+    'content': '',
+}
+
+test_dict['content'] = {
+    'intro': 
+    {
+        'template': 'L\'ozono elimina [problema] [prodotto].',
+        'problema': 'gli acari',
+        'prodotto': 'dai salumi',
+    }
+}
+
+template = test_dict['content']['intro']['template']
+problema = test_dict['content']['intro']['problema']
+prodotto = test_dict['content']['intro']['prodotto']
+
+intro_line = template
+intro_line = intro_line.replace('[problema]', problema)
+intro_line = intro_line.replace('[prodotto]', prodotto)
+print(intro_line)
+
+quit()
+
 
 def csv_get_rows(table):
     rows = []
