@@ -1,30 +1,30 @@
-product\product_type\ad_1\ad_2\ad_3\ad_4
-carne\carne di manzo\dalla \nella \la \della 
-carcasse di manzo\carne di manzo\dalle \nelle \le \delle 
-petto di manzo\carne di manzo\dal \nel \il \del 
-ritagli di manzo\carne di manzo\dai \nei \I \dei 
-carne di manzo\carne di manzo\dalla \nella \la \della 
-prosciutto\carne di maiale\dal \nel \il \del 
-latte\latte\dal \nel \il \del 
-latte crudo\latte\dal \nel \il \del 
-latte scremato\latte\dal \nel \il \del 
-latte scremato senza lattosio\latte\dal \nel \il \del 
-latte intero in polvere\latte\dal \nel \il \del 
-latte scremato in polvere\latte\dal \nel \il \del 
-siero di latte\latte\dal \nel \il \del 
-acque reflue\acque reflue\dalle \nelle \le \delle 
-formaggio\formaggio\dal \nel \il \del 
-formaggio morbido\formaggio\dal \nel \il \del 
-formaggio a pasta dura\formaggio\dal \nel \il \del 
-formaggio russo e svizzero\formaggio\dal \nel \il \del 
-Ricotta Salata \formaggio\dalla \nella \la \della 
-Gorgorzola DOP\formaggio\dal \nel \il \del 
-crosta di Gorgonzola\formaggio\dalla \nella \la \della 
-Taleggio DOP\formaggio\dal \nel \il \del 
-Minas Frescal\formaggio\dal \nel \il \del 
-Pecorino\formaggio\dal \nel \il \del 
-Mozzarella\formaggio\dalla \nella \la \della 
-Feta\formaggio\dal \nel \il \del 
-burro\burro\dal \nel \il \del 
-yogurt\yogurt\dallo \nello \lo \dello 
-carcasse di pollo \carne di pollo\dalle \nelle \le \delle 
+product\product_type\ad_1\ad_2\ad_3\ad_4\pt_ad_1\pt_ad_2\pt_ad_3\pt_ad_4
+carne\carne di manzo\dalla \nella \la \della \dalla \nella \la \della 
+carcasse di manzo\carne di manzo\dalle \nelle \le \delle \dalla \nella \la \della 
+petto di manzo\carne di manzo\dal \nel \il \del \dalla \nella \la \della 
+ritagli di manzo\carne di manzo\dai \nei \I \dei \dalla \nella \la \della 
+carne di manzo\carne di manzo\dalla \nella \la \della \dalla \nella \la \della 
+prosciutto\carne di maiale\dal \nel \il \del \dalla \nella \la \della 
+latte\latte\dal \nel \il \del \dal \nel \il \del 
+latte crudo\latte\dal \nel \il \del \dal \nel \il \del 
+latte scremato\latte\dal \nel \il \del \dal \nel \il \del 
+latte scremato senza lattosio\latte\dal \nel \il \del \dal \nel \il \del 
+latte intero in polvere\latte\dal \nel \il \del \dal \nel \il \del 
+latte scremato in polvere\latte\dal \nel \il \del \dal \nel \il \del 
+siero di latte\latte\dal \nel \il \del \dal \nel \il \del 
+acque reflue\acque reflue\dalle \nelle \le \delle \dalle \nelle \le \delle 
+formaggio\formaggio\dal \nel \il \del \dal \nel \il \del 
+formaggio morbido\formaggio\dal \nel \il \del \dal \nel \il \del 
+formaggio a pasta dura\formaggio\dal \nel \il \del \dal \nel \il \del 
+formaggio russo e svizzero\formaggio\dal \nel \il \del \dal \nel \il \del 
+Ricotta Salata \formaggio\dalla \nella \la \della \dal \nel \il \del 
+Gorgorzola DOP\formaggio\dal \nel \il \del \dal \nel \il \del 
+crosta di Gorgonzola\formaggio\dalla \nella \la \della \dal \nel \il \del 
+Taleggio DOP\formaggio\dal \nel \il \del \dal \nel \il \del 
+Minas Frescal\formaggio\dal \nel \il \del \dal \nel \il \del 
+Pecorino\formaggio\dal \nel \il \del \dal \nel \il \del 
+Mozzarella\formaggio\dalla \nella \la \della \dal \nel \il \del 
+Feta\formaggio\dal \nel \il \del \dal \nel \il \del 
+burro\burro\dal \nel \il \del \dal \nel \il \del 
+yogurt\yogurt\dallo \nello \lo \dello \dallo \nello \lo \dello 
+carcasse di pollo \carne di pollo\dalle \nelle \le \delle \dalla \nella \la \della 

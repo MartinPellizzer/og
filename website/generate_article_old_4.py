@@ -46,13 +46,8 @@ def get_ad(rows, fields, field_subject, cell_val, field_ad):
     return ad.lower()
 
 
-def list_to_text(lst):
-    txt = ''
-    if len(lst) == 0: txt = ''
-    elif len(lst) == 1: txt = lst[0]
-    elif len(lst) == 2: txt = ' e '.join(lst[:2])
-    else: txt = ', '.join(lst[:2]) + f' e {lst[2]}'
-    return txt
+
+
 
 
 
@@ -76,8 +71,6 @@ products_rows = products_rows[1:]
 industry_rows = get_rows_by_field_value(experiments_rows, experiments_fields, 'industry', industry)
 product_types = get_product_types(industry_rows, experiments_fields, 'product_type')
 
-applications_products = []
-applications_products_type = []
 applications_intro_problems = []
 applications_problems_list = []
 for product_type in product_types:
@@ -89,7 +82,6 @@ for product_type in product_types:
     item_list = []
     study_done_list = []
     problem_list = []
-    product_list = []
     for row in rows:
         study = row[fields['study']]
         study_year = row[fields['study_year']]
@@ -115,7 +107,6 @@ for product_type in product_types:
         problem_ad = get_ad(problems_rows, problems_fields, 'problem', problem, 'ad_3')
         problem_formatted = f'{problem_ad}{problem}'
         
-        if product not in product_list: product_list.append(product)
         product_ad = get_ad(products_rows, products_fields, 'product', product, 'ad_2')
         product_formatted = f'{product_ad}{product}'
         
@@ -138,9 +129,9 @@ for product_type in product_types:
             {product_formatted}
             {pathogen_reduction_formatted}
             {conditions_formatted}
+            ({study}, {study_year})
             .
         '''
-        # ({study}, {study_year})
 
         line = line.replace('\n', '')
         line = re.sub(' +', ' ', line)
@@ -151,12 +142,11 @@ for product_type in product_types:
         line = line[0].capitalize() + line[1:]
         line = f'- {line}\n'
         
-
         item_list.append(line)
+
         # print(line)
         # print()
 
-    applications_products.append(product_list)
     applications_products_type.append(product_type)
     applications_intro_problems.append(problem_list)
     applications_problems_list.append(item_list)
@@ -167,45 +157,9 @@ for product_type in product_types:
 
 text_to_write = ''
 
-# print(applications_intro_problems)
+print(applications_intro_problems)
 
-for i, lines in enumerate(applications_problems_list):
-    product_type = applications_products_type[i]
-    text_to_write += f'### {product_type.capitalize()}\n\n'
+for line in applications_problems_list:
+    applications_products_type.append(product_type)
 
-    # product_list = []
-    # for sublist in applications_products:
-    #     for item in sublist:
-    #         product_list.append(item)
-
-    # PRODUCT --------------------------------------------------------------------------
-
-    # PRODUCT INTRO    
-    product_list = applications_products[i]
-    product_with_ad_list = [] 
-    for product in product_list:
-        product_ad = get_ad(products_rows, products_fields, 'product', product, 'ad_3')
-        product_with_ad_list.append(f'{product_ad}{product}')
-    product_formatted = list_to_text(product_with_ad_list)
-
-    problem_list = applications_intro_problems[i]
-    problem_with_ad_list = [] 
-    for problem in problem_list:
-        problem_ad = get_ad(problems_rows, problems_fields, 'problem', problem, 'ad_3')
-        problem_with_ad_list.append(f'{problem_ad}{problem}')
-    problem_formatted = list_to_text(problem_with_ad_list)
-
-    text_to_write += f'L\'ozono viene usato per trattare {product_formatted}, eliminando problemi come {problem_formatted}.\n\n'
-    # TODO: {study_formatted}\n\n'
-
-    # PRODUCT LIST INTO
-    product_type_ad = get_ad(products_rows, products_fields, 'product_type', product_type, 'pt_ad_2')
-    text_to_write += f'Ecco elencati alcuni problemi che l\'ozono risolve {product_type_ad}{product_type}.\n\n'
-
-    # PRODUCT LIST
-    for line in lines:
-        text_to_write += line
-    text_to_write += '\n'
-
-with open('test.md', 'w', encoding='utf-8') as f:
-    f.write(text_to_write)
+    text_to_write += line
