@@ -1,1 +1,0 @@
-# TODO: database (table?) of pathogens -> list problems x pathogen

@@ -1,0 +1,18 @@
+[
+    {
+        "name": "Escherichia coli",
+        "abb": "E. coli",
+        "subspecies": "O157:H7",
+        "type": "batterio",
+        "effects": [
+            "causa infezioni del tratto urinario (ITU), comprese cistiti e pielonefriti",
+            "causa infezioni gastrointestinali, tra cui diarrea, nausea, vomito, crampi addominali e febbre",
+            "causa diarrea del viaggiatore, tra cui diarrea, nausea, vomito, crampi addominali e febbre",
+            "causa infezioni delle vie respiratorie superiori e inferiori, come bronchiti e polmoniti",
+            "causa la sindrome emolitico-uremica (HUS), portando a insufficienza renale, anemia emolitica e trombocitopenia",
+            "causa un'infezione del sangue (batteriemia) che può essere potenzialmente letale",
+            "causa infezioni delle ferite, in particolare se queste non vengono trattate adeguatamente",
+            "causa problemi come polmonite, meningite e peritonite"
+        ]
+    }
+]

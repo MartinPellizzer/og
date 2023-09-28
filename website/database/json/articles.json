@@ -1,0 +1,98 @@
+{
+    "industry": "frutta e verdura",
+    "industry_ad": "della ",
+    "applications": [
+        "decontaminazione delle superfici della frutta e verdura",
+        "disinfezione dell'acqua potabile",
+        "trattamento delle acque reflue"
+    ],
+    "applications_gas": [],
+    "applications_water": [],
+    "products": [
+        "Mela",
+        "Arancia",
+        "Lattuga",
+        "Lattuga Iceberg",
+        "Coriandolo",
+        "Carota",
+        "Anguria",
+        "Sedano",
+        "Mirtillo",
+        "Pepe verde",
+        "Pistacchio",
+        "Fico"
+    ],
+    "problems": [
+        "E. coli O157:H7",
+        "Salmonella enterica",
+        "Shigella sonnei",
+        "Bacillus cereus",
+        "Conteggio delle piastre aerobiche",
+        "Conteggio totale delle piastre",
+        "Batteri totali",
+        "Polifenolo ossidasi",
+        "Coliformi",
+        "Batteri anaerobici",
+        "Microrganismi aerobici (mesofili) totali",
+        "Lievito",
+        "Muffa"
+    ],
+    "qualities": {
+        "Shelf-life": "+",
+        "Qualità sensoriale visiva": "+",
+        "Aroma": "x",
+        "Sapore": "x",
+        "Qualità complessiva": "+",
+        "Colore": "-",
+        "Zucchero totale": "x",
+        "Antiossidanti": "x",
+        "Vitamina C": "-",
+        "Aspetto visivo": "x",
+        "Doratura non enzimatica": "+",
+        "pH": "x",
+        "Acido grasso": "x",
+        "Valori di perossido": "x"
+    },
+    "patogens_type": [
+        "bacteria",
+        "fungi",
+        "viruses",
+        "protozoa",
+        "bacterial spores",
+        "fungal spores"
+    ],
+    "conventional_disinfectants": [
+        "cloro",
+        "biossido di cloro",
+        "ipoclorito di calcio",
+        "clorito di sodio",
+        "acido perossiacetico",
+        "ipoclorito di sodio"
+    ],
+    "stages": [
+        "post-raccolta"
+    ],
+    "actions": [
+        "inattivazione di microrganismi patogeni",
+        "inattivazione di microrganismi deterioranti",
+        "distruzione di pesticidi",
+        "distruzione di residui chimici",
+        "maggiore durata di conservazione (shelf-life)"
+    ],
+    "benefits": [],
+    "water": [
+        "L'acqua contenente ozono è stata applicata alle verdure fresche per scopi igienico-sanitari, riducendo le popolazioni microbiche e prolungando la durata di conservazione",
+        "minore perdita di peso",
+        "minore deterioramento",
+        "maggiore shelf-life",
+        "ossidazione dell'etilene"
+    ],
+    "traditional_treatments": [],
+    "chemical_preservatives": [],
+    "legislations": [],
+    "outbreaks": [
+        "1991, an outbreak of Escherichia coli O157:H7 infections and haemolytic uremic syndrome was linked to traditionally pressed apple cider",
+        "In the USA 21 juice-associated outbreaks were reported to the CDC (Centers for Disease Control and Prevention) between 1995 and 2005 (Vojdani et al. 2008)",
+        "Recent outbreaks have shown that fruit juices can be vehicles for foodborne pathogens (CDC 1996 and 1999)"
+    ]
+}
