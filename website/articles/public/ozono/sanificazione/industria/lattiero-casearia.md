@@ -1,128 +1,118 @@
----
-author: Martin Pellizzer
-publishing_date: 15/09/2023
-last_update_date: 15/09/2023
----
+# Sanificazione ad ozono nell'industria lattiero-casearia: applicazioni e benefici 
 
-# Sanificazione ad ozono nell'industria lattiero-casearia
+![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-featured.jpg "Title")
 
-![Sanificazione ad ozono nell'industria lattiero-casearia](/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg "Sanificazione ad ozono nell'industria lattiero-casearia")
+L'ozono (O3) è un gas che viene utilizzato nell'industria lattiero-casearia per applicazioni come sterilizzazione delle attrezzature, pulizia delle superfici e trattamento dell'acqua.
 
-L'ozono (O3) è un gas che viene usato nell'indutria lattiero-casearia per ridurre problemi come il Cronobacter sakazaki nel latte, gli inquinanti organici nelle acque reflue, i batteri nel formaggio, le muffe nello yogurt e la carica microbica nel burro. Ha però anche degli effetti collaterali sui prodotti se usato scorrettamente. Infatti, incide sull’odore del latte, deteriora il colore del formaggio e aumenta l’aroma del burro.
+Viene impiegato in diverse fasi della filiera di questa industria, dalla fase di raccolta del latte alla fase di trattamento delle acque reflue, ed è in grado di eliminare diversi patogeni come Listeria monocytogenes, Salmonella e Escherichia coli (E. coli).
 
-In questo articolo vediamo quali sono le applicazioni dell'ozono nell'industria lattiero-casearia e quali sono gli effetti di questo gas sulla qualità dei prodotti di questa industria.
+Inoltre, è in grado di portare diversi benefici come sterilizzazione dell'acqua, disinfezione delle superfici e aumento della shelf-life dei prodotti. Però, può anche influire negativamente sulla qualità dei prodotti se usato scorrettamente, come ossidazione dei grassi, decolorazione e riduzione della vita utile.
+
+In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozno nell'industria lattiero-casearia e quali sono i benefici che questo gas porta in questa industria.
 
 
 
-## L'ozono quali applicazioni ha nell'industria lattiero-casearia?
+## Quali sono le applicazioni dell'ozono nell'industria lattiero-casearia? 
 
-L'ozono riduce la carica microbica totale, la carica microbica e le spore fungine aeree dai prodotti dell'industria lattiero-casearia, se usato a giuste concentazioni e per il giusto tempo.
+Le applicazioni dell'ozono nell'industria lattiero-casearia sono svariate, come sterilizzazione delle attrezzature, pulizia delle superfici e trattamento dell'acqua.
 
-Ecco una lista di applicazioni dell'ozono nel latte, nelle acque reflue, nel formaggio, nello yogurt e nel burro.
+Qui sotto trovi una lista di queste applicazioni (quelle più comuni).
 
-### Latte
+- **Sterilizzazione delle attrezzature**:  Viene utilizzato per sterilizzare attrezzature come serbatoi, tubi, valvole e sistemi di imballaggio utilizzati nella produzione del latte e dei prodotti caseari.
+- **Pulizia delle superfici**:  Viene impiegato per pulire le superfici degli ambienti di produzione, compresi pavimenti, pareti e superfici di lavoro, eliminando batteri e agenti patogeni.
+- **Trattamento dell'acqua**:  Viene utilizzato per la disinfezione dell'acqua utilizzata nella produzione dei prodotti lattiero-caseari, contribuendo a eliminare microrganismi indesiderati.
+- **Conservazione dei prodotti**:  Viene impiegato per allungare la durata di conservazione dei prodotti caseari confezionati, come formaggi e yogurt, attraverso il trattamento dell'ambiente in cui vengono immagazzinati.
+- **Controllo degli odori**:  Viene utilizzato per neutralizzare odori sgradevoli nelle aree di produzione, migliorando così l'ambiente di lavoro.
+- **Eliminazione di microrganismi indesiderati**:  Viene utilizzato per eliminare batteri, lieviti e muffe che possono contaminare i prodotti lattiero-caseari.
+- **Trattamento dell'aria**:  Viene utilizzato per purificare l'aria negli ambienti di produzione, riducendo la presenza di microrganismi nell'aria che potrebbero contaminare i prodotti.
+- **Riduzione dei rifiuti chimici**:  Viene come agente disinfettante per ridurre la necessità di utilizzare prodotti chimici disinfettanti tradizionali, contribuendo così a ridurre i rifiuti chimici nell'ambiente.
 
-L'ozono viene usato per trattare il latte, eliminando problemi come gli antibiotici, i batteri e il Cronobacter sakazaki. Questo è dimostrato da vari studi, come Torlak and Sert del 2013 e Rojek et al. del 1995.
+La seguente illustrazione riassume le applicazioni dell'ozono nell'idustria lattiero-casearia.
 
-Ecco elencati alcuni problemi che l'ozono risolve nel latte.
+![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-applicazioni.jpg "Title")
 
-- Riduce il Cronobacter sakazaki di 3.28 log, se usato con una concentrazione di 5.3 mg L-1 per un tempo di 120 minuti (Torlak and Sert, 2013).
-- Riduce gli psicrotrofi di 99%, se usato con una concentrazione di 5-35 mg L-1 per un tempo di 5-25 minuti (Rojek et al., 1995).
-- Riduce la Listeria monocytogenes di 5.5 log, se usato con una concentrazione di 0.2 g h-1 per un tempo di 15 minuti (Sheelamary and Muthukumar, 2011).
-- Riduce i batteri di 1 log, se usato con una concentrazione di 1.5 mg L-1 per un tempo di 15 minuti (Cavalcante et al., 2021).
-- Riduce gli antibiotici di 95%, se usato con una concentrazione di 75 mg L-1 per un tempo di 10 minuti (Alsager et al., 2018).
-- Riduce gli antibiotici di 50.8-84.1 ug L-1, se usato con una concentrazione di 6.12 mg h-1 per un tempo di 6 ore (Liu et al., 2022).
-- Riduce l’Escherichia coli O157:H7 di 1.5 log, se usato con una concentrazione di 45 mg L-1 per un tempo di 25 minuti (de Oliveira Souza et al., 2019).
-- Riduce le Aflatossine di 50%, se usato con una concentrazione di 80 mg min-1 per un tempo di 5 minuti (Ismail et al., 2018).
-- Riduce l’Aflatossina M1 di 18.9%, se usato con una concentrazione di 3.5 g h-1 per un tempo di 60 minuti (Sert and Mercan, 2021).
+## In quali fasi della filiera lattiero-casearia viene usato l'ozono? 
 
-### Acque reflue
+L'ozono viene utilizzato con successo nella maggior parte delle fasi della filiera lattiero-casearia, dalla fase di raccolta del latte alla fase di trattamento delle acque reflue.
 
-L'ozono viene usato per trattare le acque reflue, eliminando problemi come la Salmonella Typhimurium, gli enterococchi e il materiale organico. Questo è dimostrato da vari studi, come Làszlò et al. del 2009 e dos Santos Pereira et al. del 2018.
+Ecco elencate brevemente le varie fasi della filiera in cui viene usato.
 
-Ecco elencati alcuni problemi che l'ozono risolve nelle acque reflue.
+- **Raccolta del Latte**:  Viene utilizzato per sterilizzare le attrezzature di stoccaggio e di trasporto del latte, garantendo che siano privi di batteri nocivi.
+- **Filtrazione e Separazione**:  Viene utilizzato per purificare l'acqua utilizzata nei processi di filtrazione e separazione del latte da impurità.
+- **Pastorizzazione**:  Durante la pastorizzazione, viene utilizzato per disinfezionare l'acqua utilizzata per il riscaldamento e il raffreddamento del latte, prevenendo così la contaminazione batterica.
+- **Coagulazione e Separazione**:  In questa fase, viene utilizzato per eliminare eventuali contaminanti microbiologici presenti nel latte, contribuendo a garantire la sicurezza alimentare.
+- **Maturazione e Stoccaggio**:  Viene utilizzato per purificare l'aria nelle celle di stoccaggio dei formaggi, contribuendo a prevenire la crescita di muffe indesiderate.
+- **Processo di Produzione del Formaggio**:  Viene utilizzato per disinfettare le attrezzature utilizzate nel processo di produzione del formaggio, come le vasche di cagliata.
+- **Confezionamento**:  Viene utilizzato per sterilizzare gli imballaggi e garantire che i prodotti caseari siano sigillati in condizioni igieniche.
+- **Trattamento delle Acque Reflue**:  Viene utilizzato per il trattamento delle acque reflue prodotte durante il processo di produzione casearia, contribuendo a rimuovere inquinanti organici e batteri prima dello scarico nell'ambiente.
 
-- Riduce gli inquinanti organici, se usato con una concentrazione di 30 mg dm-3 per un tempo di 5 minuti (Làszlò et al., 2009).
-- Riduce il materiale organico di 69.4% (dos Santos Pereira et al., 2018).
-- Riduce il materiale organico di 48.9%, se usato con una concentrazione di 12.5 mg L-1 min-1 per un tempo di 20 minuti (Li et al., 2020).
-- Riduce l’azoto ammoniacale totale di 80.2%, se usato con una concentrazione di 5 L min-1 per un tempo di 60 minuti (Zhu et al., 2022).
-- Riduce gli enterococchi di 92%, se usato con una concentrazione di 4.2 mg L-1 per un tempo di 30 minuti (Chen et al., 2021).
-- Riduce la Salmonella Typhimurium, se usato con una concentrazione di 132.46 mg L-1 (Chang et al., 2022).
+La seguente illustrazione riassume le fasi della filiera nell'idustria lattiero-casearia dove l'ozono viene usato.
 
-### Formaggio
+![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-filiera.jpg "Title")
 
-L'ozono viene usato per trattare il formaggio, eliminando problemi come i lieviti, i batteri e le spore fungine aeree. Questo è dimostrato da vari studi, come Gibson et al. del 1960 e Gabriel 'yants' et al. del 1980.
+## Quali sono i patogeni più comuni nell'industria lattiero-casearia che l'ozono può eliminare? 
 
-Ecco elencati alcuni problemi che l'ozono risolve nel formaggio.
+L'ozono può eliminare la maggior parte dei patogeni che si trovano nei prodotti dell'industria lattiero-casearia, come Listeria monocytogenes, Salmonella e Escherichia coli (E. coli).
 
-- Riduce i batteri in modo significativo, se usato con una concentrazione di 3-10 ppm (Gibson et al., 1960).
-- Riduce le muffe in modo totale (fino a 4 mesi), se usato in forma gassosa con una concentrazione di 2.5-3.5 ppm per un tempo di 4 ore (Gabriel 'yants' et al., 1980).
-- Riduce la Listeria monocytogenes in modo totale (< 10 CFU g-1), se usato in forma gassosa con una concentrazione di 4 ppm per un tempo di 8 minuti (Morandi et al., 2009).
-- Riduce la carica microbica di 2 log10, se usato in forma acquosa con una concentrazione di 2 mg L-1 per un tempo di 1-2 minuti (Cavalcante et al., 2013).
-- Riduce le muffe aeree di 1 log10, se usato in forma gassosa con una concentrazione di 8 g h-1 (Serra et al., 2003).
-- Riduce i lieviti in modo totale, se usato in forma gassosa con una concentrazione di 40 g h-1 (Guzzon et al., 2015).
-- Riduce la carica microbica totale di 3.58 log10 CFU g-1, se usato in forma acquosa con una concentrazione di 2 mg L-1 (Segat et al., 2013).
-- Riduce la Listeria monocytogenes di 1 log CFU g-1, se usato con una concentrazione di 2 ppm per un tempo di 10 minuti (Panebianco et al., 2022).
-- Riduce le muffe in modo significativo, se usato in forma gassosa con una concentrazione di 2 mg m-3 (Tabla and Roa, 2022).
-- Riduce gli acari in modo significativo dopo 25 giorni, se usato con una concentrazione di 200 ppb per un tempo di 8 ore (Grasso et al., 2022).
+![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-patogeni.jpg "Title")
 
-### Yogurt
+### Batteri 
 
-L'ozono viene usato per trattare lo yogurt, eliminando problemi come le muffe. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017.
 
-Ecco elencati alcuni problemi che l'ozono risolve nello yogurt.
 
-- Riduce le muffe di 0.6 log CFU g-1 (25.1%), se usato in forma gassosa con una concentrazione di 2.5-3 ppm per un tempo di 60 secondi (Alexopoulos et al., 2017).
+### Virus 
 
-### Burro
 
-L'ozono viene usato per trattare il burro, eliminando problemi come la carica microbica. Questo è dimostrato da vari studi, come Sert et al. del 2020.
 
-Ecco elencati alcuni problemi che l'ozono risolve nel burro.
+### Funghi 
 
-- Riduce la carica microbica in modo significativo, se usato con una concentrazione di 3.5 g h-1 per un tempo di 60 minuti (Sert et al., 2020).
 
-## L'ozono quali proprietà sensoriali altera nei prodotti dell'industria lattiero-casearia?
 
-L'ozono diminuisce i composti derivati dalla lipolisi, aumenta l’aroma e modifica il sapore dei prodotti dell'industria lattiero-casearia, se usato a concentrazioni eccessive e per un tempo prolungato.
+### Protozoi 
 
-Ecco una lista di effetti dell'ozono sulle proprietà sensoriali del latte, dello yogurt, del formaggio e del burro.
 
-### Latte
 
-L'ozono aumenta il potere della schiumatura, causa la perossidazione dei lipidi e riduce la stabilità delle emulsioni del latte. Questo è dimostrato da vari studi, come Kurtz et al. del 1969 e Ipsen del 1989.
+### Parassiti 
 
-Ecco elencati alcuni effetti dell'ozono sulla qualità del  latte.
 
-- Incide sull’odore e reagisce con i grassi del latte intero in polvere, se usato con una concentrazione di 32 ppb (Kurtz et al., 1969).
-- Causa la perossidazione dei lipidi del latte intero in polvere (Ipsen, 1989).
-- Migliora la schiumatura, stabilizza la schiuma, riduce la solubilità delle emulsioni e riduce la stabilità delle emulsioni del siero di latte, se usato in forma gassosa con una concentrazione di 60 g h-1 per un tempo di 15 minuti (Uzun et al., 2012).
-- Riduce la solubilità delle proteine e aumenta il potere della schiumatura del siero di latte, se usato con una concentrazione di 20 mg L-1 per un tempo di 30-480 minuti (Segat et al., 2014).
-- Aumenta la luminosità, incrementa la viscosità, diminuisce la consistenza e incrementa il diametro delle particelle del latte scremato in polvere, se usato con una concentrazione di 3.5 g h-1 per un tempo di 120 minuti (Sert and Mercan, 2021).
 
-### Yogurt
+## Quali sono i benefici dell'ozono nell'industria lattiero-casearia? 
 
-L'ozono non causa variazioni nella qualità dello yogurt. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017.
+L'ozono porta diversi benefici all'industria lattiero-casearia, come sterilizzazione dell'acqua, disinfezione delle superfici e aumento della shelf-life dei prodotti.
 
-Ecco elencati alcuni effetti dell'ozono sulla qualità dello  yogurt.
+Qui sotto trovi una lista dei principali benefici che l'ozono porta all'industria lattiero-casearia.
 
-- Non causa variazioni nella qualità dello yogurt, se usato con una concentrazione di 2.5-3 ppm per un tempo di 60 minuti (Alexopoulos et al., 2017).
+- **Sterilizzazione dell'acqua**:  Viene utilizzato per trattare l'acqua utilizzata nel processo di produzione, garantendo che sia priva di microrganismi patogeni, batteri e virus.
+- **Disinfezione delle superfici**:  Viene impiegato per disinfettare le superfici, attrezzature e strumenti utilizzati nella produzione lattiero-casearia, riducendo il rischio di contaminazione incrociata.
+- **Aumento della shelf-life dei prodotti**:  Viene utilizzato per estendere la durata di conservazione dei prodotti lattiero-caseari, riducendo la presenza di batteri e muffe che causano deterioramento.
+- **Riduzione dei residui chimici**:  Viene impiegato per ridurre la necessità di utilizzare prodotti chimici disinfettanti, contribuendo a una produzione più sostenibile e riducendo il rischio di residui chimici nei prodotti finiti.
+- **Miglioramento della qualità del prodotto**:  Viene usato per migliorare la qualità organolettica dei prodotti lattiero-caseari, riducendo i difetti legati alla presenza di batteri indesiderati.
+- **Riduzione del consumo d'acqua**:  Viene utilizzato per consentire un riciclo più efficiente dell'acqua nel processo di produzione, riducendo il consumo complessivo di risorse idriche.
+- **Riduzione dei costi di manutenzione**:  Viene impiegato per prevenire la crescita di muffe e batteri nelle tubazioni e nelle attrezzature, riducendo la necessità di manutenzione e pulizia frequente.
+- **Riduzione del rischio di malattie trasmesse dagli alimenti**:  Viene usato per prevenire la contaminazione microbiologica nei prodotti lattiero-caseari, riducendo il rischio di malattie trasmesse dagli alimenti.
+- **Conformità normativa**:  Viene utilizzato per contribuire a rispettare le normative igieniche e di sicurezza alimentare, garantendo la produzione di prodotti lattiero-caseari sicuri per il consumo umano.
+- **Riduzione dell'impatto ambientale**:  Viene impiegato per disinfettare in modo naturale e non lasciare residui chimici dannosi nell'ambiente, contribuendo a una produzione più sostenibile.
 
-### Formaggio
+La seguente illustrazione riassume i benefici che l'ozono porta a questa idustria.
 
-L'ozono modifica il sapore, deteriora il colore e diminuisce i composti derivati dalla lipolisi del formaggio. Questo è dimostrato da vari studi, come Alexopoulos et al. del 2017 e Morandi et al. del 2009.
+![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-benefici.jpg "Title")
 
-Ecco elencati alcuni effetti dell'ozono sulla qualità del  formaggio.
+## Quali sono gli effetti negativi dell'ozono sulla qualità dei prodotti nell'industria lattiero-casearia? 
 
-- Deteriora il colore, modifica il sapore e deteriora la consistenza del Feta, se usato per un tempo di 60 minuti (Alexopoulos et al., 2017).
-- Modifica il sapore e diminuisce i composti derivati dalla lipolisi della Ricotta Salata, se usato con una concentrazione di 4 ppm per un tempo di 8 minuti (Morandi et al., 2009).
-- Non causa variazioni nella qualità del Pecorino, se usato in forma gassosa con una concentrazione di 200 ppb per un tempo di 8 ore (Grasso et al., 2022).
+L'ozono può avere effetti negativi sulla qualità dei prodotti nell'industria lattiero-casearia se usato in quantità eccessiva o per un tempo di esposizione prolungato, come ossidazione dei grassi, decolorazione e riduzione della vita utile.
 
-### Burro
+Ecco elencati brevemente i potenziali effetti negativi dell'ozono sulla qualità dei prodotti lattiero-casearia.
 
-L'ozono diminuisce i carotenoidi del burro. Questo è dimostrato da vari studi, come Sert et al. del 2020.
+- **Ossidazione dei grassi**:  Può causare l'ossidazione dei grassi presenti nel latte e nei prodotti caseari. Ciò porta a un deterioramento del sapore e dell'aroma dei prodotti, rendendoli rancidi.
+- **Decolorazione**:  Può causare la decolorazione dei pigmenti presenti nel latte, dando ai prodotti lattiero-caseari un aspetto poco attraente.
+- **Riduzione della vita utile**:  Può accelerare il deterioramento dei prodotti lattiero-caseari, riducendo la loro vita utile. Questo può portare a sprechi e perdite economiche per l'industria.
+- **Distruzione di nutrienti**:  Può distruggere alcune vitamine e nutrienti presenti nel latte, riducendo il valore nutrizionale dei prodotti.
+- **Cambiamenti nella texture**:  Può influenzare la struttura delle proteine nel latte e nei prodotti caseari, portando a cambiamenti nella texture e nella consistenza. Questo può influire negativamente sulla qualità sensoriale dei prodotti.
+- **Odori sgradevoli**:  Può produrre odori sgradevoli nei prodotti lattiero-caseari, che possono influenzare negativamente il loro profilo sensoriale.
+- **Formazione di composti indesiderati**:  Può reagire con alcune sostanze chimiche presenti nel latte e nei prodotti caseari, formando composti indesiderati che possono influire sulla qualità e sulla sicurezza dei prodotti.
+- **Riduzione della shelf-life**:  Può ridurre la durata di conservazione dei prodotti lattiero-caseari, il che può essere un problema per l'industria in termini di distribuzione e commercializzazione.
 
-Ecco elencati alcuni effetti dell'ozono sulla qualità del  burro.
+La seguente illustrazione riassume gli effetti collaterali che l'ozono può avere sulla qualità dei prodotti di questa idustria.
 
-- Aumenta l’aroma, diminuisce i carotenoidi e aumenta la spalmabilità del burro, se usato con una concentrazione di 3.5 g h-1 per un tempo di 60 minuti (Sert et al., 2020).
+![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-qualita-effetti.jpg "Title")
 

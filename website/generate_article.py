@@ -125,6 +125,10 @@ def generate_toc(content_html):
     return content_html_formatted
 
 
+
+###################################################################################################################
+# images
+###################################################################################################################
 def img_resize(image_path):
     w, h = 768, 512
 
@@ -160,9 +164,30 @@ def img_resize(image_path):
     return output_path
 
 
-def img_pathogens(image_path):
+def img_list_double(image_path, title, lst):
     w, h = 768, 512
-    img = Image.new(mode="RGB", size=(w, h), color='#047857')
+    background_color = "#f8fafc"
+    background_color = "#047857"
+    background_color = "#1d4ed8"
+    font_color = '#0f172a'
+    font_color = '#ffffff'
+
+    half_len = len(lst) / 2
+    if half_len.is_integer(): 
+        sublist_1_len = int(half_len)
+        sublist_2_len = int(half_len)
+    else: 
+        sublist_1_len = int(half_len + 1)
+        sublist_2_len = int(half_len)
+
+    if sublist_1_len > 8: 
+        sublist_1 = lst[:8]
+        sublist_2 = lst[8:16]
+    else: 
+        sublist_1 = lst[:sublist_1_len]
+        sublist_2 = lst[sublist_1_len:sublist_1_len+sublist_2_len]
+
+    img = Image.new(mode="RGB", size=(w, h), color=background_color)
 
     draw = ImageDraw.Draw(img)
 
@@ -171,63 +196,28 @@ def img_pathogens(image_path):
     line_hight = 1.2
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     lines = ['Lista dei patogeni più comuni', 'nell\'industria della quarta gamma']
+    lines = [title, 'nell\'industria della quarta gamma']
+    # lines = [title]
     for i, line in enumerate(lines):
         line_w = font.getsize(line)[0]
-        draw.text(
-            (w//2 - line_w//2, 30 + (font_size * line_hight * i)), 
-            line, 
-            (255,255,255), 
-        font=font)
+        draw.text((w//2 - line_w//2, 30 + (font_size * line_hight * i)), line, font_color, font=font)
     
 
     list_y = 160 
-
     font_size = 24
     line_hight = 1.5
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    lines = [
-        "1. Salmonella",
-        "2. Escherichia coli",
-        "3. Listeria monocytogenes",
-        "4. Campylobacter",
-        "5. Staphylococcus aureus",
-        "6. Clostridium botulinum",
-        "7. Vibrio parahaemolyticus",
-        "8. Norovirus",
-        ]
+
+
+    lines = [f'{i + 1}. {item}' for i, item in enumerate(sublist_1)]
     for i, line in enumerate(lines):
         line_w = font.getsize(line)[0]
-        draw.text(
-            (30, list_y + (font_size * line_hight * i)), 
-            line, 
-            (255,255,255), 
-        font=font)
+        draw.text((30, list_y + (font_size * line_hight * i)), line, font_color, font=font)
         
-
-    font_size = 24
-    line_hight = 1.5
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    lines = [
-        "9. Rotavirus",
-        "10. Hepatitis A",
-        "11. Shigella",
-        "12. Giardia",
-        "13. Cryptosporidium",
-        "14. Clostridium perfringens",
-        "15. Yersinia enterocolitica",
-        "16. Bacillus cereus",
-        # "17. Aeromonas",
-        # "18. Plesiomonas shigelloides",
-        # "19. Enterobacter sakazakii",
-        # "20. Enterococcus faecalis",
-        ]
+    lines = [f'{i + 1 + len(sublist_1)}. {item}' for i, item in enumerate(sublist_2)]
     for i, line in enumerate(lines):
         line_w = font.getsize(line)[0]
-        draw.text(
-            (w//2 + 30, list_y + (font_size * line_hight * i)), 
-            line, 
-            (255,255,255), 
-        font=font)
+        draw.text((w//2 + 30, list_y + (font_size * line_hight * i)), line, font_color, font=font)
     
     output_path = image_path.replace('articles', 'articles-images')
     output_path = f'public/assets/images/{"-".join(image_path.split("/")[2:])}'
@@ -236,66 +226,212 @@ def img_pathogens(image_path):
     return output_path
 
 
+def img_list_center(image_path, title, lst):
+    w, h = 768, 512
+    background_color = "#047857"
+    background_color = "#1d4ed8"
+    font_color = '#ffffff'
 
-# pathogens = data['pathogens']
-# products = data['products']
+    sublist_1 = lst[:8]
+    sublist_1_len = len(sublist_1)
 
-# pathogen_effects = data_pathogens[0]['effects'][0]
+    img = Image.new(mode="RGB", size=(w, h), color=background_color)
+    draw = ImageDraw.Draw(img)
 
-# output_text += f'## Prodotti\n\n'
-# output_text += f'Ecco alcuni prodotti dell\'industria {industry_ad}{industry} che traggono beneficio dall\'ozono.\n\n'
-# output_text += lst_to_blt(products)
-# output_text += f'\n\n'
+    font_size = 40
+    line_hight = 1.2
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    lines = ['Lista dei patogeni più comuni', 'nell\'industria della quarta gamma']
+    lines = [title, 'nell\'industria della quarta gamma']
+    # lines = [title]
+    for i, line in enumerate(lines):
+        line_w = font.getsize(line)[0]
+        draw.text((w//2 - line_w//2, 30 + (font_size * line_hight * i)), line, font_color, font=font)
+    
+    list_y = 160 
+    font_size = 24
+    line_hight = 1.5
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    lines = [f'{i + 1}. {item}' for i, item in enumerate(sublist_1)]
+    for i, line in enumerate(lines):
+        line_w = font.getsize(line)[0]
+        draw.text((w//2 - line_w//2, list_y + (font_size * line_hight * i)), line, font_color, font=font)
+        
+    output_path = image_path.replace('articles', 'articles-images')
+    output_path = f'public/assets/images/{"-".join(image_path.split("/")[2:])}'
+    img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
 
-
-
-
-
-# pathogens_with_effects = []
-# for pathogen in pathogens:
-#     found_effects = False
-#     for p in data_pathogens:
-#         if p['name'] in pathogen:
-#             p_effects_lst = p['effects']
-#             if len(p_effects_lst) != 0: found_effects = True
-#             else: break
-
-#             p_name_ad = p['name_ad_1'].capitalize()
-#             p_name_quantity = p['name_quantity']
-#             p_type = p['type']
-
-#             if p_name_quantity == 'singolare': 
-#                 p_name_quantity_1 = 'è'
-#                 p_name_quantity_2 = 'un'
-#                 p_name_quantity_3 = 'causa'
-#             else: 
-#                 p_name_quantity_1 = 'sono'
-#                 p_name_quantity_2 = 'dei'
-#                 if p_type == 'batterio': p_type = 'batteri'
-#                 p_name_quantity_3 = 'causano'
-
-#             random.shuffle(p_effects_lst)
-#             p_effects_txt = lst_to_txt(p_effects_lst[:3]).lower()
-
-#             if p_type: p_type = f'{p_name_quantity_1} {p_name_quantity_2} {p_type} che'
-
-#             pathogen_with_effects = f'**{pathogen}:** {p_name_ad}{pathogen} {p_type} {p_name_quantity_3} problemi di salute come {p_effects_txt}'
-#             pathogen_with_effects = re.sub(' +', ' ', pathogen_with_effects)
-#             break
-#     if found_effects:
-#         pathogens_with_effects.append(pathogen_with_effects)
-#     else:
-#         pathogens_with_effects.append(f'{pathogen}: no data')
-
-# pathogens_llt = lst_to_txt(pathogens)
-
-# output_text += f'## Quali patogeni l\'ozono elimina nell\'industria {industry_ad}{industry}?\n\n'
-# output_text += f'L\'ozono elimina patogeni come {pathogens_llt} nell\'industria {industry_ad}{industry}.\n\n'
-# output_text += f'Ecco una descrizione più dettagliata di questi patogeni e dei problemi che causano sulla salute umana.\n\n'
-# output_text += lst_to_blt(pathogens_with_effects)
-# output_text += f'\n\n'
+    return output_path
 
 
+def img_pathogens(item, image_path):
+    industry = item['industry']
+    industry_ad = item['industry_ad']
+    pathogens_bacteria = item['pathogens_bacteria']
+    pathogens_virus = item['pathogens_virus']
+    pathogens_fungi = item['pathogens_fungi']
+    pathogens_protozoa = item['pathogens_protozoa']
+    pathogens_parasites = item['pathogens_parasites']
+
+    pathogens_parasites = [f'{x.split("(")[0]}' for x in pathogens_parasites]
+
+    w, h = 768, 1152
+    background_color = "#1d4ed8"
+    background_color = "#eff6ff"
+    blue = "#1d4ed8"
+    blue_light = "#eff6ff"
+    blue_light_1 = "#dbeafe"
+    blue_light_2 = "#bfdbfe"
+    white = '#ffffff'
+    dark = '#0f172a'
+
+    img = Image.new(mode="RGB", size=(w, h), color=background_color)
+    draw = ImageDraw.Draw(img)
+
+    font_size = 36
+    line_hight = 1.5
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+    line = f'Patogeni nell\'idustria {industry_ad}{industry}'
+    line_w = font.getbbox(line)[2]
+    line_h = font.getbbox(line)[3]
+    draw.rectangle(((0, 0), (w, 30+30+line_h)), fill="#1d4ed8")
+    draw.text((30, 30), line, white, font=font)
+
+
+    # rectangle from text
+    # line_h = 0
+    # line = f'this is a test'
+    # x = 100
+    # y = 300 + 20 + line_h
+    # line_w = font.getbbox(line)[2]
+    # line_h = font.getbbox(line)[3]
+    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue)
+    # draw.text((x, y), line, white, font=font)
+    
+    # line = f'why am I even doing this?'
+    # x = 100
+    # y = y + 20 + line_h
+    # line_w = font.getbbox(line)[2]
+    # line_h = font.getbbox(line)[3]
+    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue_light)
+    # draw.text((x, y), line, dark, font=font)
+    
+    # line = f'another line like this'
+    # x = 100
+    # y = y + 20 + line_h
+    # line_w = font.getbbox(line)[2]
+    # line_h = font.getbbox(line)[3]
+    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue)
+    # draw.text((x, y), line, white, font=font)
+    
+    # line = f'again and again'
+    # x = 100
+    # y = y + 20 + line_h
+    # line_w = font.getbbox(line)[2]
+    # line_h = font.getbbox(line)[3]
+    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue_light)
+    # draw.text((x, y), line, dark, font=font)
+
+    font_size = 24
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+
+    line_h = 0
+    x = 50
+    y = 130
+    bg = 0
+    rect_w = w//2
+    lines = [x.split(':')[0].replace('*', '') for x in pathogens_bacteria]
+
+    line = "Batteri"
+    line_h = font.getbbox(line)[3]
+    draw.rectangle(((x-10, y-10), (rect_w, y+10+line_h)), fill=blue)
+    draw.text((x, y), line, white, font=font)
+
+    for line in lines:
+        y = y + 20 + line_h
+        line_w = font.getbbox(line)[2]
+        line_h = font.getbbox(line)[3]
+        if bg == 0:
+            bg = 1
+            draw.rectangle(((x-10, y-10), (rect_w, y+10+line_h)), fill=blue_light)
+            draw.text((x, y), line, dark, font=font)
+        else:
+            bg = 0
+            draw.rectangle(((x-10, y-10), (rect_w, y+10+line_h)), fill=blue_light_1)
+            draw.text((x, y), line, dark, font=font)
+
+    # quit()
+
+
+
+    # list_y = 160 
+    # font_size = 24
+    # line_height = 1.5
+    # col_1_x = int(w * 0.07)
+    # col_2_x = int(w * 0.5 + col_1_x)
+    # col_3_x = int(w * 0.9)
+    # font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
+
+    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_bacteria]
+    # max_line_height = 0
+    # for i, line in enumerate(lines):
+    #     line_h = font.getbbox(line)[3]
+    #     if max_line_height < line_h: max_line_height = line_h
+        
+    # bg = 0
+    # for i, line in enumerate(lines):
+    #     line_h = font.getbbox(line)[3]
+    #     # line_h = max_line_height
+    #     rect_y = list_y + (line_h * line_height * i) 
+    #     rect_h = list_y + (line_h * line_height * i) + (line_h)
+    #     if bg == 0: 
+    #         bg = 1
+    #         draw.rectangle(((30, rect_y), (w, rect_h)), fill="#1d4ed8")
+    #     else: 
+    #         bg = 0
+    #         draw.rectangle(((30, rect_y), (w, rect_h)), fill="#eff6ff")
+
+    # for i, line in enumerate(lines):
+    #     line_w = font.getsize(line)[0]
+    #     draw.text((col_1_x, list_y + (font_size * line_height * i)), line, dark, font=font)
+    #     draw.text((col_1_x, list_y + (font_size * line_height * i)), line, dark, font=font)
+    # # draw.rectangle(((30, list_y), (w, list_y + (max_line_height * line_height * (len(lines)-1)))), fill="#1d4ed8")
+    
+    # for i, line in enumerate(lines):
+    #     line_w = font.getsize(line)[0]
+    #     draw.text((col_1_x, list_y + (font_size * line_height * i)), line, dark, font=font)
+
+    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_virus]
+    # for i, line in enumerate(lines):
+    #     line_w = font.getsize(line)[0]
+    #     draw.text((col_1_x, list_y + (font_size * line_height * i) + 300), line, dark, font=font)
+
+    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_fungi]
+    # for i, line in enumerate(lines):
+    #     line_w = font.getsize(line)[0]
+    #     draw.text((col_1_x, list_y + (font_size * line_height * i) + 600), line, dark, font=font)
+
+    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_protozoa]
+    # for i, line in enumerate(lines):
+    #     line_w = font.getsize(line)[0]
+    #     draw.text((col_2_x, list_y + (font_size * line_height * i)), line, dark, font=font)
+
+    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_parasites]
+    # for i, line in enumerate(lines):
+    #     line_w = font.getsize(line)[0]
+    #     draw.text((col_2_x, list_y + (font_size * line_height * i) + 300), line, dark, font=font)
+
+    output_path = image_path.replace('articles', 'articles-images')
+    output_path = f'public/assets/images/{"-".join(image_path.split("/")[2:])}'
+    img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
+
+    return output_path
+
+
+
+###################################################################################################################
+# articles
+###################################################################################################################
 for item in data:
     article = ''
 
@@ -304,31 +440,44 @@ for item in data:
 
     chain = item['chain']
     applications = item['applications']
+    # pathogens_plain = item['pathogens_plain']
     pathogens = item['pathogens']
     benefits = item['benefits']
     side_effects_product_quality = item['side_effects_product_quality']
 
+    industry_filename = industry.replace(' ', '-')
+
     # title
     article += f'# Sanificazione ad ozono nell\'industria {industry_ad}{industry}: applicazioni e benefici \n\n'
 
-    image_path = 'articles-images/public/ozono/sanificazione/industria/quarta-gamma/featured.jpg'
+    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/featured.jpg'
     image_path = img_resize(image_path)
-    article += f'![alt text]({image_path} "Title")\n\n'
+    image_path = '/'.join(image_path.split('/')[1:])
+    article += f'![alt text](/{image_path} "Title")\n\n'
 
-    # intro
-    article += '''
-    Nell'era moderna, la sicurezza alimentare è diventata una priorità incontestabile per l'industria alimentare, in particolare quando si tratta di prodotti freschi e pronti al consumo. 
+    # INTRODUCTION ----------------------------------------------------------------------------------------------
+    applications_names = [x.split(':')[0] for x in applications]
+    applications_intro = f'{applications_names[0].lower()}, {applications_names[1].lower()} e {applications_names[2].lower()}'
     
-    L'industria della quarta gamma, che si occupa della preparazione e confezionamento di alimenti freschi come insalate, frutta tagliata e snack sani, ha affrontato sfide sempre più pressanti per garantire la qualità e la sicurezza dei prodotti offerti ai consumatori. 
+    chain_names = [x.split(':')[0] for x in chain]
+    chain_intro = f'dalla fase di {chain_names[0].lower()} alla fase di {chain_names[-1].lower()}'
+    pathogens_names = [x.split(':')[0] for x in pathogens]
+    pathogens_intro = f'{pathogens_names[0]}, {pathogens_names[1]} e {pathogens_names[2]}'
     
-    In questo contesto, la sanificazione ad ozono si è affermata come una soluzione rivoluzionaria e altamente efficace per eliminare batteri, virus e contaminanti dai prodotti della quarta gamma, migliorando la shelf life e la sicurezza alimentare. 
+    benefits_names = [x.split(':')[0] for x in benefits]
+    benefits_intro = f'{benefits_names[0].lower()}, {benefits_names[1].lower()} e {benefits_names[2].lower()}'
+    quality_effects_names = [x.split(':')[0] for x in side_effects_product_quality]
+    quality_effects_intro = f'{quality_effects_names[0].lower()}, {quality_effects_names[1].lower()} e {quality_effects_names[2].lower()}'
     
-    In questo articolo, esploreremo in dettaglio l'innovativo mondo della sanificazione ad ozono e il suo impatto positivo sull'industria della quarta gamma. Scopriremo come questa tecnologia sta ridefinendo gli standard di qualità e sicurezza, consentendo alle aziende di fornire prodotti freschi e salutari con la massima fiducia nei confronti dei consumatori.
-    '''
+    article += f'L\'ozono (O3) è un gas che viene utilizzato nell\'industria {industry_ad}{industry} per applicazioni come {applications_intro}.\n\n'
+    article += f'Viene impiegato in diverse fasi della filiera di questa industria, {chain_intro}, ed è in grado di eliminare diversi patogeni come {pathogens_intro}.\n\n'
+    article += f'Inoltre, è in grado di portare diversi benefici come {benefits_intro}. Però, può anche influire negativamente sulla qualità dei prodotti se usato scorrettamente, come {quality_effects_intro}.\n\n'
+    article += f'In questo articolo vengono descritte nel dettaglio le applicazioni dell\'ozno nell\'industria {industry_ad}{industry} e quali sono i benefici che questo gas porta in questa industria.\n\n'
+
     article = re.sub(' +', ' ', article)
     article += '\n\n'
 
-    ## applications
+    # APPLICATIONS ----------------------------------------------------------------------------------------------
     article += f'## Quali sono le applicazioni dell\'ozono nell\'industria {industry_ad}{industry}? \n\n'
 
     applications_names = [x.split(':')[0] for x in applications]
@@ -339,31 +488,17 @@ for item in data:
     applications_name = [x.split(':')[0] for x in applications]
     article += lst_to_blt(applications)
     article += '\n\n'
-    # article += '''
-    # La tecnologia di ozonizzazione ha diverse applicazioni cruciali in diversi settori, soprattutto nell'industria alimentare e nella produzione di alimenti. Uno dei suoi utilizzi principali riguarda la sanificazione dell'acqua, dove viene sfruttata per trattare l'acqua utilizzata nel processo di lavaggio e igienizzazione delle verdure. Questo processo aiuta a eliminare batteri, virus e altri microrganismi patogeni presenti nell'acqua.
-
-    # Oltre alla sanificazione dell'acqua, l'ozono viene impiegato anche nella disinfezione dell'aria all'interno degli impianti di produzione alimentare. Questo contribuisce notevolmente a ridurre la contaminazione microbica nell'ambiente di lavoro, garantendo la sicurezza degli alimenti prodotti.
-
-    # Un altro impiego importante riguarda il lavaggio e la disinfezione dei prodotti alimentari stessi, come verdure e frutta. L'ozono viene utilizzato in questo processo per eliminare residui di pesticidi, batteri e altri contaminanti superficiali, migliorando così la qualità e la sicurezza degli alimenti.
-
-    # Inoltre, l'ozonizzazione trova applicazione nella conservazione degli alimenti. Questa tecnologia è utilizzata per estendere la vita utile dei prodotti della quarta gamma, inibendo la crescita di microrganismi deterioranti e preservando la freschezza degli alimenti.
-
-    # Non solo, ma l'ozono è anche impiegato nel trattamento delle acque reflue generate durante il processo di produzione alimentare. Questo contribuisce a rimuovere contaminanti organici e inorganici prima dello scarico nell'ambiente, riducendo l'impatto ambientale dell'industria alimentare.
-
-    # L'ozono viene sfruttato anche per la rimozione di odori indesiderati dai prodotti alimentari stessi o dall'ambiente di produzione, migliorando l'esperienza del consumatore.
-
-    # Un beneficio notevole è la possibilità di ridurre l'uso di agenti conservanti chimici grazie all'ozonizzazione, migliorando la percezione di prodotti più naturali da parte dei consumatori.
-
-    # Inoltre, l'ozono contribuisce al miglioramento della qualità complessiva degli alimenti, mantenendone la freschezza, il colore e la consistenza.
-
-    # Infine, l'ozono è prezioso anche per il prolungamento della shelf life degli alimenti, contribuendo a ridurre gli sprechi alimentari e i costi associati alla produzione, oltre a migliorare la sicurezza alimentare riducendo il rischio di contaminazione microbiologica dei prodotti.
-    # '''
-    # article = re.sub(' +', ' ', article)
-    # article += '\n\n'
+    
+    lst = [item.split(':')[0].replace('*', '') for item in applications]
+    article += f'La seguente illustrazione riassume le applicazioni dell\'ozono nell\'idustria {industry_ad}{industry}.\n\n'
+    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/applicazioni.jpg'
+    image_path = img_list_center(image_path, 'Applicazioni dell\'ozono', lst)
+    image_path = '/' + '/'.join(image_path.split('/')[1:])
+    article += f'![alt text]({image_path} "Title")\n\n'
     
     ## chain
     article += f'## In quali fasi della filiera {industry_ad}{industry} viene usato l\'ozono? \n\n'
-    
+
     names = [x.split(':')[0] for x in chain]
     article += f'L\'ozono viene utilizzato con successo nella maggior parte delle fasi della filiera {industry_ad}{industry}, dalla fase di {names[0].lower()} alla fase di {names[-1].lower()}.\n\n'
 
@@ -371,28 +506,71 @@ for item in data:
     bld = bold_blt(chain)
     article += lst_to_blt(bld)
     article += '\n\n'
-    
-    ## pathogens
+
+    lst = [item.split(':')[0].replace('*', '') for item in chain]
+    article += f'La seguente illustrazione riassume le fasi della filiera nell\'idustria {industry_ad}{industry} dove l\'ozono viene usato.\n\n'
+    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/filiera.jpg'
+    image_path = img_list_center(image_path, 'Fasi della filiera', lst)
+    image_path = '/' + '/'.join(image_path.split('/')[1:])
+    article += f'![alt text]({image_path} "Title")\n\n'
+
+    #####################################################################################################
+    # pathogens
+    #####################################################################################################
     article += f'## Quali sono i patogeni più comuni nell\'industria {industry_ad}{industry} che l\'ozono può eliminare? \n\n'
 
     names = [x.split(':')[0] for x in pathogens]
     intro = f'{names[0]}, {names[1]} e {names[2]}'
     article += f'L\'ozono può eliminare la maggior parte dei patogeni che si trovano nei prodotti dell\'industria {industry_ad}{industry}, come {intro}.\n\n'
-    
-    article += f'Nella seguente lista, trovi elencati alcuni di questi patogeni (quelli più comuni).\n\n'
-    bld = bold_blt(pathogens)
-    article += lst_to_blt(bld)
+
+    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/patogeni.jpg'
+    image_path = img_pathogens(item, image_path)
+    image_path = '/' + '/'.join(image_path.split('/')[1:])
+    article += f'![alt text]({image_path} "Title")\n\n'
+
+    # img_filepath = img_pathogens(item)
+
+    # bacteria
+    article += f'### Batteri \n\n'
+    lst = bold_blt(item['pathogens_bacteria'])
+    article += lst_to_blt(lst)
     article += '\n\n'
     
-    article += f'La seguente illustrazione mostra una lista più completa dei patogeni più comuni di questa industria, ordinati dal più frequente al mento frequente.\n\n'
-    image_path = 'articles-images/public/ozono/sanificazione/industria/quarta-gamma/pathogens.jpg'
-    image_path = img_pathogens(image_path)
-    article += f'![alt text]({image_path} "Title")\n\n'
+    # virus
+    article += f'### Virus \n\n'
+    lst = bold_blt(item['pathogens_virus'])
+    article += lst_to_blt(lst)
+    article += '\n\n'
     
+    # fungi
+    article += f'### Funghi \n\n'
+    lst = bold_blt(item['pathogens_fungi'])
+    article += lst_to_blt(lst)
+    article += '\n\n'
+    
+    # protozoa
+    article += f'### Protozoi \n\n'
+    lst = bold_blt(item['pathogens_protozoa'])
+    article += lst_to_blt(lst)
+    article += '\n\n'
+    
+    # parasites
+    article += f'### Parassiti \n\n'
+    lst = bold_blt(item['pathogens_parasites'])
+    article += lst_to_blt(lst)
+    article += '\n\n'
+
+    # lst = [item.split(':')[0].replace('*', '') for item in pathogens]
+    # article += f'La seguente illustrazione mostra una lista più completa dei patogeni più comuni di questa industria, ordinati dal più frequente al mento frequente.\n\n'
+    # image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/patogeni.jpg'
+    # image_path = img_list_double(image_path, 'Lista dei patogeni più comuni', lst)
+    # image_path = '/' + '/'.join(image_path.split('/')[1:])
+    # article += f'![alt text]({image_path} "Title")\n\n'
+
     ## benefits
     article += f'## Quali sono i benefici dell\'ozono nell\'industria {industry_ad}{industry}? \n\n'
     
-    names = [x.split(':')[0] for x in benefits]
+    names = [x.split(':')[0].replace('*', '') for x in benefits]
     intro = f'{names[0].lower()}, {names[1].lower()} e {names[2].lower()}'
     article += f'L\'ozono porta diversi benefici all\'industria {industry_ad}{industry}, come {intro}.\n\n'
     
@@ -400,11 +578,18 @@ for item in data:
     bld = bold_blt(benefits)
     article += lst_to_blt(bld)
     article += '\n\n'
+
+    benefits_plain = [item.split(':')[0].replace('*', '') for item in benefits]
+    article += f'La seguente illustrazione riassume i benefici che l\'ozono porta a questa idustria.\n\n'
+    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/benefici.jpg'
+    image_path = img_list_center(image_path, 'Benefici dell\'ozono', benefits_plain)
+    image_path = '/' + '/'.join(image_path.split('/')[1:])
+    article += f'![alt text]({image_path} "Title")\n\n'
     
     ## quality effects
     article += f'## Quali sono gli effetti negativi dell\'ozono sulla qualità dei prodotti nell\'industria {industry_ad}{industry}? \n\n'
     
-    names = [x.split(':')[0] for x in side_effects_product_quality]
+    names = [x.split(':')[0].replace('*', '') for x in side_effects_product_quality]
     intro = f'{names[0].lower()}, {names[1].lower()} e {names[2].lower()}'
     article += f'L\'ozono può avere effetti negativi sulla qualità dei prodotti nell\'industria {industry_ad}{industry} se usato in quantità eccessiva o per un tempo di esposizione prolungato, come {intro}.\n\n'
 
@@ -412,6 +597,13 @@ for item in data:
     bld = bold_blt(side_effects_product_quality)
     article += lst_to_blt(bld)
     article += '\n\n'
+
+    lst = [item.split(':')[0].replace('*', '') for item in side_effects_product_quality]
+    article += f'La seguente illustrazione riassume gli effetti collaterali che l\'ozono può avere sulla qualità dei prodotti di questa idustria.\n\n'
+    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/qualita-effetti.jpg'
+    image_path = img_list_center(image_path, 'Effetti dell\'ozono sulla qualità dei prodotti', lst)
+    image_path = '/' + '/'.join(image_path.split('/')[1:])
+    article += f'![alt text]({image_path} "Title")\n\n'
 
     # print(item)
 
@@ -434,6 +626,7 @@ word_count_html = str(word_count) + ' words'
 article_html = markdown.markdown(article_md)
 
 article_html = article_html.replace('<img', '<img class="featured-img"')
+article_html = article_html.replace('src="/assets/', 'src="public/assets/')
 
 
 # GENERATE TABLE OF CONTENTS ----------------------------------------
