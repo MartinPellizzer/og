@@ -333,6 +333,12 @@ for filepath in folder.rglob("*.md"):
     with open('components/header.html', encoding='utf-8') as f:
         header_html = f.read()
             
+    # <section class="breadcrumbs-section">
+    #     <div class="container-xl h-full">
+    #         <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+    #     </div>
+    # </section>
+            
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -352,11 +358,7 @@ for filepath in folder.rglob("*.md"):
                 </div>
             </section>
 
-            <section class="breadcrumbs-section">
-                <div class="container-xl h-full">
-                    <a href="/index.html">Home</a>{''.join(breadcrumbs)}
-                </div>
-            </section>
+            
 
             <section class="meta-section mt-48">
                 <div class="container-md h-full">

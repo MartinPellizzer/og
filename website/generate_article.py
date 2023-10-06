@@ -3,6 +3,7 @@ import os
 import random
 import re
 import markdown
+import math
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor
 
@@ -264,165 +265,119 @@ def img_list_center(image_path, title, lst):
     return output_path
 
 
-def img_pathogens(item, image_path):
+def img_cheasheet(item, title, lst, img_name):
     industry = item['industry']
     industry_ad = item['industry_ad']
-    pathogens_bacteria = item['pathogens_bacteria']
-    pathogens_virus = item['pathogens_virus']
-    pathogens_fungi = item['pathogens_fungi']
-    pathogens_protozoa = item['pathogens_protozoa']
-    pathogens_parasites = item['pathogens_parasites']
 
-    pathogens_parasites = [f'{x.split("(")[0]}' for x in pathogens_parasites]
+    img_w, img_h = 768, 2000
+    bg_dark_1 = "#1d4ed8"
+    bg_light_1 = "#eff6ff"
+    bg_light_2 = "#dbeafe"
+    # bg_light_3 = "#a7f3d0"
+    fg_light = '#ffffff'
+    fg_dark = '#0f172a'
 
-    w, h = 768, 1152
-    background_color = "#1d4ed8"
-    background_color = "#eff6ff"
-    blue = "#1d4ed8"
-    blue_light = "#eff6ff"
-    blue_light_1 = "#dbeafe"
-    blue_light_2 = "#bfdbfe"
-    white = '#ffffff'
-    dark = '#0f172a'
-
-    img = Image.new(mode="RGB", size=(w, h), color=background_color)
+    img = Image.new(mode="RGB", size=(img_w, img_h), color=bg_light_1)
     draw = ImageDraw.Draw(img)
 
+    rect_h = 0
+    line_x = 50
+    line_y = 20
+
     font_size = 36
-    line_hight = 1.5
     font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    line = f'Patogeni nell\'idustria {industry_ad}{industry}'
-    line_w = font.getbbox(line)[2]
-    line_h = font.getbbox(line)[3]
-    draw.rectangle(((0, 0), (w, 30+30+line_h)), fill="#1d4ed8")
-    draw.text((30, 30), line, white, font=font)
-
-
-    # rectangle from text
-    # line_h = 0
-    # line = f'this is a test'
-    # x = 100
-    # y = 300 + 20 + line_h
-    # line_w = font.getbbox(line)[2]
-    # line_h = font.getbbox(line)[3]
-    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue)
-    # draw.text((x, y), line, white, font=font)
-    
-    # line = f'why am I even doing this?'
-    # x = 100
-    # y = y + 20 + line_h
-    # line_w = font.getbbox(line)[2]
-    # line_h = font.getbbox(line)[3]
-    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue_light)
-    # draw.text((x, y), line, dark, font=font)
-    
-    # line = f'another line like this'
-    # x = 100
-    # y = y + 20 + line_h
-    # line_w = font.getbbox(line)[2]
-    # line_h = font.getbbox(line)[3]
-    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue)
-    # draw.text((x, y), line, white, font=font)
-    
-    # line = f'again and again'
-    # x = 100
-    # y = y + 20 + line_h
-    # line_w = font.getbbox(line)[2]
-    # line_h = font.getbbox(line)[3]
-    # draw.rectangle(((x-10, y-10), (x+10+line_w, y+10+line_h)), fill=blue_light)
-    # draw.text((x, y), line, dark, font=font)
-
-    font_size = 24
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-
-    line_h = 0
-    x = 50
-    y = 130
-    bg = 0
-    rect_w = w//2
-    lines = [x.split(':')[0].replace('*', '') for x in pathogens_bacteria]
-
-    line = "Batteri"
-    line_h = font.getbbox(line)[3]
-    draw.rectangle(((x-10, y-10), (rect_w, y+10+line_h)), fill=blue)
-    draw.text((x, y), line, white, font=font)
-
-    for line in lines:
-        y = y + 20 + line_h
-        line_w = font.getbbox(line)[2]
-        line_h = font.getbbox(line)[3]
-        if bg == 0:
-            bg = 1
-            draw.rectangle(((x-10, y-10), (rect_w, y+10+line_h)), fill=blue_light)
-            draw.text((x, y), line, dark, font=font)
-        else:
-            bg = 0
-            draw.rectangle(((x-10, y-10), (rect_w, y+10+line_h)), fill=blue_light_1)
-            draw.text((x, y), line, dark, font=font)
-
-    # quit()
-
-
-
-    # list_y = 160 
-    # font_size = 24
-    # line_height = 1.5
-    # col_1_x = int(w * 0.07)
-    # col_2_x = int(w * 0.5 + col_1_x)
-    # col_3_x = int(w * 0.9)
-    # font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-
-    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_bacteria]
-    # max_line_height = 0
-    # for i, line in enumerate(lines):
-    #     line_h = font.getbbox(line)[3]
-    #     if max_line_height < line_h: max_line_height = line_h
+    lines = [title, f'{industry_ad}{industry}']
+    for i, line in enumerate(lines):
+        rect_h += font.getbbox('y')[3]
+    rect_h += line_y * 2
         
-    # bg = 0
-    # for i, line in enumerate(lines):
-    #     line_h = font.getbbox(line)[3]
-    #     # line_h = max_line_height
-    #     rect_y = list_y + (line_h * line_height * i) 
-    #     rect_h = list_y + (line_h * line_height * i) + (line_h)
-    #     if bg == 0: 
-    #         bg = 1
-    #         draw.rectangle(((30, rect_y), (w, rect_h)), fill="#1d4ed8")
-    #     else: 
-    #         bg = 0
-    #         draw.rectangle(((30, rect_y), (w, rect_h)), fill="#eff6ff")
+    draw.rectangle(((0, 0), (img_w, rect_h)), fill=bg_dark_1)
+    for i, line in enumerate(lines):
+        line_w = font.getbbox(line)[2]
+        line_h = font.getbbox('y')[3]
+        draw.text((img_w//2 - line_w//2, line_y + line_h * i), line, fg_light, font=font)
 
-    # for i, line in enumerate(lines):
-    #     line_w = font.getsize(line)[0]
-    #     draw.text((col_1_x, list_y + (font_size * line_height * i)), line, dark, font=font)
-    #     draw.text((col_1_x, list_y + (font_size * line_height * i)), line, dark, font=font)
-    # # draw.rectangle(((30, list_y), (w, list_y + (max_line_height * line_height * (len(lines)-1)))), fill="#1d4ed8")
+    font_size = 16
+    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
     
-    # for i, line in enumerate(lines):
-    #     line_w = font.getsize(line)[0]
-    #     draw.text((col_1_x, list_y + (font_size * line_height * i)), line, dark, font=font)
+    title_rect_h = rect_h
+    line_y = title_rect_h + 50
 
-    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_virus]
-    # for i, line in enumerate(lines):
-    #     line_w = font.getsize(line)[0]
-    #     draw.text((col_1_x, list_y + (font_size * line_height * i) + 300), line, dark, font=font)
+    rect_h = 0
 
-    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_fungi]
-    # for i, line in enumerate(lines):
-    #     line_w = font.getsize(line)[0]
-    #     draw.text((col_1_x, list_y + (font_size * line_height * i) + 600), line, dark, font=font)
+    full_len = len(lst)
+    half_len_1 = math.ceil(full_len/2)
+    half_len_2 = full_len - half_len_1
+    sublist_1 = lst[:half_len_1]
+    sublist_2 = lst[half_len_1:]
 
-    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_protozoa]
-    # for i, line in enumerate(lines):
-    #     line_w = font.getsize(line)[0]
-    #     draw.text((col_2_x, list_y + (font_size * line_height * i)), line, dark, font=font)
+    for l in sublist_1:
+        bg = 0
+        for i, x in enumerate(l):
+            line = x
+            line_x = 50
+            line_y += rect_h
+            line_w = font.getbbox(line)[2]
+            line_h = font.getbbox('y')[3]
+            rect_x = line_x - 20
+            rect_y = line_y - 10
+            rect_w = img_w//2 - 50
+            rect_h = line_h + 20
+            if i == 0:
+                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_dark_1)
+                draw.text((line_x, line_y), line, fg_light, font=font)
+            elif bg == 0:
+                bg = 1
+                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_2)
+                draw.text((line_x, line_y), line, fg_dark, font=font)
+            else:
+                bg = 0
+                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_1)
+                draw.text((line_x, line_y), line, fg_dark, font=font)
+        line_y += rect_h
+        rect_y = line_y - 10
+        draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + 5)), fill=bg_dark_1) 
 
-    # lines = [x.split(':')[0].replace('*', '') for x in pathogens_parasites]
-    # for i, line in enumerate(lines):
-    #     line_w = font.getsize(line)[0]
-    #     draw.text((col_2_x, list_y + (font_size * line_height * i) + 300), line, dark, font=font)
+    max_height = line_y
+    
+    line_y = title_rect_h + 50
 
-    output_path = image_path.replace('articles', 'articles-images')
-    output_path = f'public/assets/images/{"-".join(image_path.split("/")[2:])}'
+    rect_h = 0
+    for l in sublist_2:
+        bg = 0
+        for i, x in enumerate(l):
+            line = x
+            line_x = img_w//2 + 36
+            line_y += rect_h
+            line_w = font.getbbox(line)[2]
+            line_h = font.getbbox('y')[3]
+            rect_x = line_x - 20
+            rect_y = line_y - 10
+            rect_w = img_w//2 - 50
+            rect_h = line_h + 20
+            if i == 0:
+                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_dark_1)
+                draw.text((line_x, line_y), line, fg_light, font=font)
+            elif bg == 0:
+                bg = 1
+                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_2)
+                draw.text((line_x, line_y), line, fg_dark, font=font)
+            else:
+                bg = 0
+                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_1)
+                draw.text((line_x, line_y), line, fg_dark, font=font)
+        line_y += rect_h
+        rect_y = line_y - 10
+        draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + 6)), fill=bg_dark_1) 
+
+    if max_height < line_y : max_height = line_y
+
+    area = (0, 0, img_w, max_height + 30)
+    img = img.crop(area)
+
+    
+    output_filename = industry.lower().replace(' ', '-')
+    output_path = f'public/assets/images/ozono-sanificazione-industria-{output_filename}-{img_name}.jpg'
     img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
 
     return output_path
@@ -461,7 +416,7 @@ for item in data:
     
     chain_names = [x.split(':')[0] for x in chain]
     chain_intro = f'dalla fase di {chain_names[0].lower()} alla fase di {chain_names[-1].lower()}'
-    pathogens_names = [x.split(':')[0] for x in pathogens]
+    pathogens_names = [x.split(':')[0] for x in item['pathogens_bacteria']]
     pathogens_intro = f'{pathogens_names[0]}, {pathogens_names[1]} e {pathogens_names[2]}'
     
     benefits_names = [x.split(':')[0] for x in benefits]
@@ -471,7 +426,8 @@ for item in data:
     
     article += f'L\'ozono (O3) è un gas che viene utilizzato nell\'industria {industry_ad}{industry} per applicazioni come {applications_intro}.\n\n'
     article += f'Viene impiegato in diverse fasi della filiera di questa industria, {chain_intro}, ed è in grado di eliminare diversi patogeni come {pathogens_intro}.\n\n'
-    article += f'Inoltre, è in grado di portare diversi benefici come {benefits_intro}. Però, può anche influire negativamente sulla qualità dei prodotti se usato scorrettamente, come {quality_effects_intro}.\n\n'
+    # article += f'Inoltre, è in grado di portare diversi benefici come {benefits_intro}. Però, può anche influire negativamente sulla qualità dei prodotti se usato scorrettamente, come {quality_effects_intro}.\n\n'
+    article += f'Inoltre, è in grado di portare diversi benefici come {benefits_intro}. Però, può anche influire negativamente sulla qualità dei prodotti se usato scorrettamente.\n\n'
     article += f'In questo articolo vengono descritte nel dettaglio le applicazioni dell\'ozno nell\'industria {industry_ad}{industry} e quali sono i benefici che questo gas porta in questa industria.\n\n'
 
     article = re.sub(' +', ' ', article)
@@ -515,47 +471,85 @@ for item in data:
     article += f'![alt text]({image_path} "Title")\n\n'
 
     #####################################################################################################
-    # pathogens
+    # PATHOGENS
     #####################################################################################################
     article += f'## Quali sono i patogeni più comuni nell\'industria {industry_ad}{industry} che l\'ozono può eliminare? \n\n'
 
-    names = [x.split(':')[0] for x in pathogens]
-    intro = f'{names[0]}, {names[1]} e {names[2]}'
-    article += f'L\'ozono può eliminare la maggior parte dei patogeni che si trovano nei prodotti dell\'industria {industry_ad}{industry}, come {intro}.\n\n'
+    # INTRO
+    bacteria_lst = [x.split(':')[0].split('(')[0].strip() for x in item['pathogens_bacteria'][:3]]
+    virus_lst = [x.split(':')[0].split('(')[0].strip() for x in item['pathogens_virus'][:3]]
+    fungi_lst = [x.split(':')[0].split('(')[0].strip() for x in item['pathogens_fungi'][:3]]
+    protozoa_lst = [x.split(':')[0].split('(')[0].strip() for x in item['pathogens_protozoa'][:3]]
+    parasites_lst = [x.split(':')[0].split('(')[0].strip() for x in item['pathogens_parasites'][:3]]
+    bacteria_txt = lst_to_txt(bacteria_lst)
+    virus_txt = lst_to_txt(virus_lst)
+    fungi_txt = lst_to_txt(fungi_lst)
+    protozoa_txt = lst_to_txt(protozoa_lst)
+    parasites_txt = lst_to_txt(parasites_lst)
+    article += f'L\'ozono elimina i batteri patogeni più comuni nell\'industria {industry_ad}{industry}, come {bacteria_txt}.\n\n'
+    article += f'Elimina ance i virus (come {virus_txt}), i funghi (come {fungi_txt}) e i protozoi ({protozoa_txt}).\n\n'
+    article += f'Infine, repelle diversi tipi di insetti e parassiti (come {parasites_txt}).\n\n'
 
-    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/patogeni.jpg'
-    image_path = img_pathogens(item, image_path)
-    image_path = '/' + '/'.join(image_path.split('/')[1:])
-    article += f'![alt text]({image_path} "Title")\n\n'
+    # CHEAT SHEET
+    lst = []
+    pathogens_lst = [x.split(':')[0].split('(')[0] for x in item['pathogens_bacteria'][:7]]
+    pathogens_lst.insert(0, 'Batteri')
+    lst.append(pathogens_lst)
+    pathogens_lst = [x.split(':')[0].split('(')[0] for x in item['pathogens_virus'][:7]]
+    pathogens_lst.insert(0, 'Virus')
+    lst.append(pathogens_lst)
+    pathogens_lst = [x.split(':')[0].split('(')[0] for x in item['pathogens_fungi'][:7]]
+    pathogens_lst.insert(0, 'Funghi')
+    lst.append(pathogens_lst)
+    pathogens_lst = [x.split(':')[0].split('(')[0] for x in item['pathogens_protozoa'][:7]]
+    pathogens_lst.insert(0, 'Protozoi')
+    lst.append(pathogens_lst)
+    pathogens_lst = [x.split(':')[0].split('(')[0] for x in item['pathogens_parasites'][:7]]
+    pathogens_lst.insert(0, 'Parassiti')
+    lst.append(pathogens_lst)
+
+    img_path = f'articles/public/ozono/sanificazione/industria/{industry_filename}/patogeni.jpg'
+    img_path = img_cheasheet(item, 'Patogeni comuni nell\'industria', lst, 'patogeni')
+    img_path = '/' + '/'.join(img_path.split('/')[1:])
+    article += f'La seguente immagine mostra un elenco dei patogeni più comuni in questa industria.\n\n'
+    article += f'![alt]({img_path} "title")\n\n'
+
+    article += f'A seguire, viene data una breve descrizione di ogni singolo patogeno. I patogeni sono divisi per categorie, quali batteri, virus, fungi, protozoi e parassiti.\n\n'
+
 
     # img_filepath = img_pathogens(item)
 
     # bacteria
     article += f'### Batteri \n\n'
+    article += f'Ecco una descrizione dei batteri più comuni in questa industria.\n\n'
     lst = bold_blt(item['pathogens_bacteria'])
     article += lst_to_blt(lst)
     article += '\n\n'
     
     # virus
     article += f'### Virus \n\n'
+    article += f'Ecco una descrizione dei virus più comuni in questa industria.\n\n'
     lst = bold_blt(item['pathogens_virus'])
     article += lst_to_blt(lst)
     article += '\n\n'
     
     # fungi
     article += f'### Funghi \n\n'
+    article += f'Ecco una descrizione dei funghi più comuni in questa industria.\n\n'
     lst = bold_blt(item['pathogens_fungi'])
     article += lst_to_blt(lst)
     article += '\n\n'
     
     # protozoa
     article += f'### Protozoi \n\n'
+    article += f'Ecco una descrizione dei protozoi più comuni in questa industria.\n\n'
     lst = bold_blt(item['pathogens_protozoa'])
     article += lst_to_blt(lst)
     article += '\n\n'
     
     # parasites
     article += f'### Parassiti \n\n'
+    article += f'Ecco una descrizione dei parassiti più comuni in questa industria.\n\n'
     lst = bold_blt(item['pathogens_parasites'])
     article += lst_to_blt(lst)
     article += '\n\n'
@@ -592,6 +586,7 @@ for item in data:
     names = [x.split(':')[0].replace('*', '') for x in side_effects_product_quality]
     intro = f'{names[0].lower()}, {names[1].lower()} e {names[2].lower()}'
     article += f'L\'ozono può avere effetti negativi sulla qualità dei prodotti nell\'industria {industry_ad}{industry} se usato in quantità eccessiva o per un tempo di esposizione prolungato, come {intro}.\n\n'
+    article += f'Si consiglia quindi di contattare un professionista prima di applicare questa tecnologia di sanificazione.\n\n'
 
     article += f'Ecco elencati brevemente i potenziali effetti negativi dell\'ozono sulla qualità dei prodotti {industry_ad}{industry}.\n\n'
     bld = bold_blt(side_effects_product_quality)

@@ -6,7 +6,7 @@ L'ozono (O3) è un gas che viene utilizzato nell'industria della quarta gamma pe
 
 Viene impiegato in diverse fasi della filiera di questa industria, dalla fase di raccolta alla fase di vendita al dettaglio, ed è in grado di eliminare diversi patogeni come Salmonella, Escherichia coli e Listeria monocytogenes.
 
-Inoltre, è in grado di portare diversi benefici come allungamento della vita utile, miglioramento della sicurezza alimentare e miglioramento della qualità degli alimenti. Però, può anche influire negativamente sulla qualità dei prodotti se usato scorrettamente, come alterazione del sapore e dell'odore, degrado dei nutrienti e cambiamenti nella texture.
+Inoltre, è in grado di portare diversi benefici come allungamento della vita utile, miglioramento della sicurezza alimentare e miglioramento della qualità degli alimenti. Però, può anche influire negativamente sulla qualità dei prodotti se usato scorrettamente.
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozno nell'industria della quarta gamma e quali sono i benefici che questo gas porta in questa industria.
 
@@ -52,11 +52,21 @@ La seguente illustrazione riassume le fasi della filiera nell'idustria della qua
 
 ## Quali sono i patogeni più comuni nell'industria della quarta gamma che l'ozono può eliminare? 
 
-L'ozono può eliminare la maggior parte dei patogeni che si trovano nei prodotti dell'industria della quarta gamma, come Salmonella, Escherichia coli e Listeria monocytogenes.
+L'ozono elimina i batteri patogeni più comuni nell'industria della quarta gamma, come Salmonella, Escherichia coli e Listeria monocytogenes.
 
-![alt text](/assets/images/ozono-sanificazione-industria-quarta-gamma-patogeni.jpg "Title")
+Elimina ance i virus (come Norovirus, Hepatitis A virus e Adenovirus), i funghi (come Aspergillus spp., Penicillium spp. e Rhizopus spp.) e i protozoi (Giardia lamblia, Cryptosporidium parvum e Entamoeba histolytica).
+
+Infine, repelle diversi tipi di insetti e parassiti (come Drosophila melanogaster, Tuta absoluta e Acari).
+
+La seguente immagine mostra un elenco dei patogeni più comuni in questa industria.
+
+![alt](/assets/images/ozono-sanificazione-industria-quarta-gamma-patogeni.jpg "title")
+
+A seguire, viene data una breve descrizione di ogni singolo patogeno. I patogeni sono divisi per categorie, quali batteri, virus, fungi, protozoi e parassiti.
 
 ### Batteri 
+
+Ecco una descrizione dei batteri più comuni in questa industria.
 
 - **Salmonella**:  I ceppi di Salmonella possono causare infezioni gastrointestinali come la salmonellosi quando i prodotti contaminati vengono ingeriti.
 - **Escherichia coli**:  Alcuni ceppi di E. coli sono noti per causare gravi infezioni intestinali, con sintomi che possono variare da lievi a gravi.
@@ -68,6 +78,8 @@ L'ozono può eliminare la maggior parte dei patogeni che si trovano nei prodotti
 
 ### Virus 
 
+Ecco una descrizione dei virus più comuni in questa industria.
+
 - **Norovirus**:  Il norovirus è una causa comune di gastroenterite virale associata ai prodotti freschi come le insalate. Si diffonde facilmente attraverso il contatto con superfici o alimenti contaminati e può causare sintomi quali nausea, vomito, diarrea e crampi addominali.
 - **Hepatitis A virus**:  Il virus dell'epatite A è un altro agente patogeno importante da tenere sotto controllo nell'industria della quarta gamma. Può causare infezioni epatiche acute e si diffonde spesso attraverso l'ingestione di alimenti o acqua contaminati.
 - **Adenovirus**:  Gli adenovirus possono causare infezioni respiratorie superiori e gastrointestinali. Possono essere trasportati da individui infetti e diffondersi attraverso la contaminazione degli alimenti durante la manipolazione.
@@ -75,6 +87,8 @@ L'ozono può eliminare la maggior parte dei patogeni che si trovano nei prodotti
 - **Enterovirus**:  Questi virus possono causare una serie di malattie, compresa la gastroenterite. Possono essere trasmessi attraverso la contaminazione dei cibi o l'acqua contaminata.
 
 ### Funghi 
+
+Ecco una descrizione dei funghi più comuni in questa industria.
 
 - **Aspergillus spp.**:  Questi funghi possono produrre micotossine dannose come l'aflatossina, che può contaminare i prodotti a base di frutta secca.
 - **Penicillium spp.**:  Alcune specie di Penicillium possono causare la muffa sui prodotti di frutta e verdura.
@@ -86,14 +100,17 @@ L'ozono può eliminare la maggior parte dei patogeni che si trovano nei prodotti
 
 ### Protozoi 
 
+Ecco una descrizione dei protozoi più comuni in questa industria.
+
 - **Giardia lamblia**:  Questo protozoo può contaminare l'acqua e gli alimenti crudi, come frutta e verdura, se non vengono adeguatamente lavati.
 - **Cryptosporidium parvum**:  Alcuni casi di infezione da Cryptosporidium sono stati collegati al consumo di acqua non trattata o di prodotti contaminati da acqua contaminata.
-- **Toxoplasma gondii**:  Questo parassita può essere presente nella carne cruda o poco cotta, come il tartare, il carpaccio o le insalate contenenti carne cruda.
 - **Entamoeba histolytica**:  È associata a infezioni intestinali, spesso contratte attraverso l'ingestione di cibo o acqua contaminati.
 - **Cyclospora cayetanensis**:  Questo protozoo può essere associato a epidemie di diarrea e viene spesso trasmesso attraverso il consumo di frutta e verdura contaminate.
 - **Blastocystis hominis**:  Questo protozoo può essere trovato nell'intestino umano e talvolta è stato associato a problemi gastrointestinali, sebbene la sua patogenicità sia ancora oggetto di dibattito.
 
 ### Parassiti 
+
+Ecco una descrizione dei parassiti più comuni in questa industria.
 
 - **Drosophila melanogaster (mosca della frutta)**:  Questo insetto è noto per deporre le uova sulla frutta matura e può causare danni significativi agli agrumi, alle mele e ad altri frutti.
 - **Tuta absoluta (minatrice del pomodoro)**:  La tuta absoluta è una larva che si nutre di foglie di pomodoro e può danneggiare gravemente le coltivazioni di pomodori e altri ortaggi simili.
@@ -125,6 +142,8 @@ La seguente illustrazione riassume i benefici che l'ozono porta a questa idustri
 ## Quali sono gli effetti negativi dell'ozono sulla qualità dei prodotti nell'industria della quarta gamma? 
 
 L'ozono può avere effetti negativi sulla qualità dei prodotti nell'industria della quarta gamma se usato in quantità eccessiva o per un tempo di esposizione prolungato, come alterazione del sapore e dell'odore, degrado dei nutrienti e cambiamenti nella texture.
+
+Si consiglia quindi di contattare un professionista prima di applicare questa tecnologia di sanificazione.
 
 Ecco elencati brevemente i potenziali effetti negativi dell'ozono sulla qualità dei prodotti della quarta gamma.
 
