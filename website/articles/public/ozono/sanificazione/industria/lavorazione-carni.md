@@ -14,24 +14,9 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozno nel
 
 ## Quali sono le applicazioni dell'ozono nell'industria della lavorazione carni? 
 
-Le applicazioni dell'ozono nell'industria della lavorazione carni sono svariate, come disinfezione dell'aria, disinfezione dell'acqua e deodorizzazione.
+### 1.  
 
-Qui sotto trovi una lista di queste applicazioni (quelle più comuni).
-
-- **Disinfezione dell'aria**:  L'ozono può essere utilizzato per purificare l'aria all'interno degli impianti di produzione di carne. Questo gas è efficace nel distruggere batteri, virus e altri microrganismi presenti nell'aria, contribuendo a mantenere un ambiente igienico.
-- **Disinfezione dell'acqua**:  Può essere utilizzato per trattare l'acqua utilizzata nei processi di lavorazione delle carni, eliminando batteri, virus e contaminanti microbiologici. Questo aiuta a garantire che l'acqua utilizzata per lavare e trattare le carni sia sicura e pulita.
-- **Deodorizzazione**:  Può essere impiegato per eliminare odori sgradevoli associati alla lavorazione delle carni, come quelli derivanti dalla decomposizione dei prodotti animali. L'ozono reagisce con le molecole odorose, trasformandole in composti inoffensivi, contribuendo così a migliorare la qualità dell'aria nell'ambiente di lavoro.
-- **Conservazione dei prodotti**:  Può essere utilizzato per allungare la durata di conservazione dei prodotti a base di carne. Quando questo gas viene utilizzato in concentrazioni controllate e in modo appropriato, può inibire la crescita dei batteri e dei microrganismi responsabili del deterioramento dei prodotti carnei.
-- **Pulizia e sanificazione delle attrezzature**:  Può essere utilizzato per pulire e sanificare attrezzature e superfici utilizzate nella lavorazione delle carni. Questo aiuta a prevenire la contaminazione incrociata e a garantire la sicurezza alimentare.
-- **Rimozione di contaminanti chimici**:  Può essere impiegato per rimuovere residui di pesticidi e altri contaminanti chimici presenti sulla superficie delle carni, migliorando la sicurezza alimentare.
-- **Rimozione di patogeni superficiali**:  Può essere utilizzato per eliminare i patogeni microbiologici presenti sulla superficie delle carni, come Salmonella e E. coli. Questo contribuisce a migliorare la sicurezza alimentare riducendo il rischio di contaminazione attraverso la manipolazione e la lavorazione delle carni.
-- **Rimozione di antibiotici residui**:  Può essere utilizzato per rimuovere i residui di antibiotici e altri farmaci utilizzati nell'allevamento degli animali da carne. Questo aiuta a garantire che i prodotti a base di carne non contengano quantità eccessive di sostanze chimiche residue.
-- **Trattamento di acque reflue**:  Può essere impiegato nel trattamento delle acque reflue generate durante la lavorazione delle carni. L'ozonizzazione dell'acqua reflua può contribuire a rimuovere contaminanti organici e inorganici, migliorando così la gestione delle acque reflue e riducendo l'impatto ambientale dell'industria.
-- **Sbiancamento della carne**:  In alcuni casi, può essere utilizzato per sbiancare la carne, migliorando l'aspetto visivo dei prodotti finali. Questa applicazione è più comune nelle industrie del pesce e del pollame.
-
-La seguente illustrazione riassume le applicazioni dell'ozono nell'idustria della lavorazione carni.
-
-![alt text](/assets/images/ozono-sanificazione-industria-lavorazione-carni-applicazioni.jpg "Title")
+ 
 
 ## In quali fasi della filiera della lavorazione carni viene usato l'ozono? 
 

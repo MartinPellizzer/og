@@ -436,21 +436,33 @@ for item in data:
     # APPLICATIONS ----------------------------------------------------------------------------------------------
     article += f'## Quali sono le applicazioni dell\'ozono nell\'industria {industry_ad}{industry}? \n\n'
 
-    applications_names = [x.split(':')[0] for x in applications]
-    applications_intro = f'{applications_names[0].lower()}, {applications_names[1].lower()} e {applications_names[2].lower()}'
-    article += f'Le applicazioni dell\'ozono nell\'industria {industry_ad}{industry} sono svariate, come {applications_intro}.\n\n'
-    article += f'Qui sotto trovi una lista di queste applicazioni (quelle più comuni).\n\n'
-    applications = bold_blt(applications)
-    applications_name = [x.split(':')[0] for x in applications]
-    article += lst_to_blt(applications)
-    article += '\n\n'
+    i = 0
+    for application in item['applications_extended']:
+        i += 1
+        application_title = application['title']
+        application_description = '\n\n'.join(application['description'])
+
+        article += f'### {i}. {application_title} \n\n'
+        article += f'{application_description} \n\n'
+
+
+
+
+    # applications_names = [x.split(':')[0] for x in applications]
+    # applications_intro = f'{applications_names[0].lower()}, {applications_names[1].lower()} e {applications_names[2].lower()}'
+    # article += f'Le applicazioni dell\'ozono nell\'industria {industry_ad}{industry} sono svariate, come {applications_intro}.\n\n'
+    # article += f'Qui sotto trovi una lista di queste applicazioni (quelle più comuni).\n\n'
+    # applications = bold_blt(applications)
+    # applications_name = [x.split(':')[0] for x in applications]
+    # article += lst_to_blt(applications)
+    # article += '\n\n'
     
-    lst = [item.split(':')[0].replace('*', '') for item in applications]
-    article += f'La seguente illustrazione riassume le applicazioni dell\'ozono nell\'idustria {industry_ad}{industry}.\n\n'
-    image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/applicazioni.jpg'
-    image_path = img_list_center(image_path, 'Applicazioni dell\'ozono', lst)
-    image_path = '/' + '/'.join(image_path.split('/')[1:])
-    article += f'![alt text]({image_path} "Title")\n\n'
+    # lst = [item.split(':')[0].replace('*', '') for item in applications]
+    # article += f'La seguente illustrazione riassume le applicazioni dell\'ozono nell\'idustria {industry_ad}{industry}.\n\n'
+    # image_path = f'articles-images/public/ozono/sanificazione/industria/{industry_filename}/applicazioni.jpg'
+    # image_path = img_list_center(image_path, 'Applicazioni dell\'ozono', lst)
+    # image_path = '/' + '/'.join(image_path.split('/')[1:])
+    # article += f'![alt text]({image_path} "Title")\n\n'
     
     ## chain
     article += f'## In quali fasi della filiera {industry_ad}{industry} viene usato l\'ozono? \n\n'

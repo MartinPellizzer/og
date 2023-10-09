@@ -14,22 +14,9 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozno nel
 
 ## Quali sono le applicazioni dell'ozono nell'industria lattiero-casearia? 
 
-Le applicazioni dell'ozono nell'industria lattiero-casearia sono svariate, come sterilizzazione delle attrezzature, pulizia delle superfici e trattamento dell'acqua.
+### 1.  
 
-Qui sotto trovi una lista di queste applicazioni (quelle più comuni).
-
-- **Sterilizzazione delle attrezzature**:  Viene utilizzato per sterilizzare attrezzature come serbatoi, tubi, valvole e sistemi di imballaggio utilizzati nella produzione del latte e dei prodotti caseari.
-- **Pulizia delle superfici**:  Viene impiegato per pulire le superfici degli ambienti di produzione, compresi pavimenti, pareti e superfici di lavoro, eliminando batteri e agenti patogeni.
-- **Trattamento dell'acqua**:  Viene utilizzato per la disinfezione dell'acqua utilizzata nella produzione dei prodotti lattiero-caseari, contribuendo a eliminare microrganismi indesiderati.
-- **Conservazione dei prodotti**:  Viene impiegato per allungare la durata di conservazione dei prodotti caseari confezionati, come formaggi e yogurt, attraverso il trattamento dell'ambiente in cui vengono immagazzinati.
-- **Controllo degli odori**:  Viene utilizzato per neutralizzare odori sgradevoli nelle aree di produzione, migliorando così l'ambiente di lavoro.
-- **Eliminazione di microrganismi indesiderati**:  Viene utilizzato per eliminare batteri, lieviti e muffe che possono contaminare i prodotti lattiero-caseari.
-- **Trattamento dell'aria**:  Viene utilizzato per purificare l'aria negli ambienti di produzione, riducendo la presenza di microrganismi nell'aria che potrebbero contaminare i prodotti.
-- **Riduzione dei rifiuti chimici**:  Viene come agente disinfettante per ridurre la necessità di utilizzare prodotti chimici disinfettanti tradizionali, contribuendo così a ridurre i rifiuti chimici nell'ambiente.
-
-La seguente illustrazione riassume le applicazioni dell'ozono nell'idustria lattiero-casearia.
-
-![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-applicazioni.jpg "Title")
+ 
 
 ## In quali fasi della filiera lattiero-casearia viene usato l'ozono? 
 
