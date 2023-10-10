@@ -1,6 +1,6 @@
 # Sanificazione ad ozono nell'industria lattiero-casearia: applicazioni e benefici 
 
-![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-featured.jpg "Title")
+![alt text](/assets/images/ozono-sanificazione-lattiero-casearia-featured.jpg "Title")
 
 L'ozono (O3) è un gas che viene utilizzato nell'industria lattiero-casearia per applicazioni come sterilizzazione delle attrezzature, pulizia delle superfici e trattamento dell'acqua.
 
@@ -35,7 +35,7 @@ Ecco elencate brevemente le varie fasi della filiera in cui viene usato.
 
 La seguente illustrazione riassume le fasi della filiera nell'idustria lattiero-casearia dove l'ozono viene usato.
 
-![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-filiera.jpg "Title")
+![alt text](/assets/images/ozono-sanificazione-lattiero-casearia-filiera.jpg "Title")
 
 ## Quali sono i patogeni più comuni nell'industria lattiero-casearia che l'ozono può eliminare? 
 
@@ -47,7 +47,7 @@ Infine, repelle diversi tipi di insetti e parassiti (come Mosca domestica, Scara
 
 La seguente immagine mostra un elenco dei patogeni più comuni in questa industria.
 
-![alt](/assets/images/ozono-sanificazione-industria-lattiero-casearia-patogeni.jpg "title")
+![alt](/assets/images/ozono-sanificazione-lattiero-casearia-patogeni.jpg "title")
 
 A seguire, viene data una breve descrizione di ogni singolo patogeno. I patogeni sono divisi per categorie, quali batteri, virus, fungi, protozoi e parassiti.
 
@@ -149,5 +149,5 @@ Ecco elencati brevemente i potenziali effetti negativi dell'ozono sulla qualità
 
 La seguente illustrazione riassume gli effetti collaterali che l'ozono può avere sulla qualità dei prodotti di questa idustria.
 
-![alt text](/assets/images/ozono-sanificazione-industria-lattiero-casearia-qualita-effetti.jpg "Title")
+![alt text](/assets/images/ozono-sanificazione-lattiero-casearia-qualita-effetti.jpg "Title")
 

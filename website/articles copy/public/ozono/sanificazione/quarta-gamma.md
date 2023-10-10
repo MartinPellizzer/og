@@ -1,6 +1,6 @@
 # Sanificazione ad ozono nell'industria della quarta gamma: applicazioni e benefici 
 
-![alt text](/assets/images/ozono-sanificazione-industria-quarta-gamma-featured.jpg "Title")
+![alt text](/assets/images/ozono-sanificazione-quarta-gamma-featured.jpg "Title")
 
 L'ozono (O3) è un gas che viene utilizzato nell'industria della quarta gamma per applicazioni come sanificazione dell'acqua, disinfezione dell'aria e lavaggio dei prodotti.
 
@@ -90,6 +90,36 @@ Per quanto riguara lo smaltimento di queste acque, va detto che le acque reflue 
 
 Purtroppo, questo il trattamento di queste acque può essere costoso, specimente se è necessario rimuovere contaminanti chimici o microbiologici. Spesso, le aziende del settore devono affrontare costi significativi per mantenere le loro operazioni in conformità con le normative ambientali se utilizzano sistemi di sanificazione tradizionali. 
 
+### 8. Sterilizzazione di attrezzature e contenitori 
+
+L'ozono viene utilizzato per la sterilizzazione di attrezzature come nastri trasportatori, taglierine e contenitori utilizzati nella produzione di prodotti della quarta gamma. Viene anche impiegato per il trattamento delle superfici di imballaggi, come sacchetti di plastica o contenitori in plastica rigida, per ridurre il rischio di contaminazione dei prodotti.
+
+È importante disinfettare le attrezzature e contenitori perché gli alimenti della quarta gamma sono spesso a rischio di contaminazioni batteriche a causa della manipolazione e del confezionamento. La sterilizzazione delle attrezzature e dei contenitori riduce significativamente il rischio di contaminazione da patogeni come Salmonella, E. coli, Listeria, e altri, che possono causare gravi malattie alimentari.
+
+Inoltre, questa sterilizzazione contribuisce a prolungare la shelf life dei prodotti. Eliminando o riducendo il carico microbico, gli alimenti rimangono freschi più a lungo, riducendo gli sprechi e migliorando la disponibilità dei prodotti per i consumatori. In più, preservando la freschezza di questi prodotti, se ne preserva anche il colore e la consistenza degli alimenti. Questo è particolarmente importante per prodotti come insalate e frutta tagliata, che devono apparire freschi e attraenti per i consumatori.
+
+A questo, si aggiunge anche il fatto che l'industria alimentare è soggetta a rigorose normative sulla sicurezza alimentare. Queste pratiche di sanificazione sono è spesso un requisito per conformarsi alle leggi e alle regolamentazioni vigenti, e non conformarsi può comportare gravi conseguenze legali ed economiche. 
+
+### 9. Prevenzione della contaminazione incrociata 
+
+L'ozono previene la contaminazione incrociata disinfettando attrezzature, superfici di contatto e persino l'acqua utilizzata nel processo. Inoltre, previene anche questa contaminazione quando dagli operatori manipolano frutta e verdura durante la fase di lavorazione
+
+La contaminazione incrociata si verifica quando i microrganismi patogeni o le sostanze indesiderate vengono trasferiti da una fonte contaminata a prodotti alimentari, spesso attraverso attrezzature non pulite, mani non lavate degli operatori, ambienti non igienizzati, utensili di taglio contaminati e persino acqua non trattata. Questa contaminazione può coinvolgere batteri patogeni come Salmonella, Escherichia coli (E. coli) e Listeria monocytogenes, i quali possono causare gravi malattie alimentari se ingeriti da consumatori.
+
+La contaminazione incrociata può portare a richiami di prodotti alimentari, infezioni alimentari scala e danni significativi alla reputazione dell'azienda. L'industria della quarta gamma è particolarmente vulnerabile poiché produce prodotti freschi e minimamente processati che possono essere consumati senza ulteriori trattamenti termici.
+
+Per questo motivo, diversi standard di sicurezza alimentare, come il sistema HACCP (Hazard Analysis and Critical Control Points), sono implementati per prevenire e gestire la contaminazione incrociata. Per soddisfare questi standard, spesso le aziende di questo settore investono in tecnologie avanzate di disinfezione come l'ozono, l'irradiazione UV, l'uso di agenti antimicrobici e altre tecniche che riducono il rischio di contaminazione durante la produzione e il confezionamento. 
+
+### 10. Miglioramento della qualità organolettica dei prodotti 
+
+L'ozono migliora la qualità organolettica dei prodotti eliminando i microbi che portano alla loro degradazione, rimuovendo gli odori indesiderati e riducendo l'utilizzo di prodotti chimici che influiscono negativamente sulle loro caratteristiche.
+
+Per esempio, uno studio condotto sull'insalata ha dimostrato che il trattamento con ozono può ridurre significativamente la crescita microbica e prolungare la shelf-life del prodotto del 50% o più rispetto ai prodotti non trattati. Questo si traduce in una migliore qualità organolettica, inclusi odori e sapori più freschi. 
+
+Questo gas è stato utilizzato con successo anche per rimuovere composti volatili indesiderati come il geosmin (responsabile di odori di terra) da prodotti come le carote, migliorando così la loro accettazione sensoriale. Inoltre, è in grado di mantiene i colori vivaci e i sapori freschi in diversi prodotti, come insalate confezionate e frutta tagliata, graze alla sua capacità di rallentare la degradazione degli alimenti.
+
+Infine, può aiutare a rimuovere composti volatili indesiderati, come aldeidi e chetoni, che possono contribuire a odori e sapori sgradevoli nei prodotti alimentari. Di conseguenza, favorisce una migliore ritenzione degli aromi naturali dei prodotti, a patto che non venga sovradosato. 
+
 ## In quali fasi della filiera della quarta gamma viene usato l'ozono? 
 
 L'ozono viene utilizzato con successo nella maggior parte delle fasi della filiera della quarta gamma, dalla fase di raccolta alla fase di vendita al dettaglio.
@@ -108,7 +138,7 @@ Ecco elencate brevemente le varie fasi della filiera in cui viene usato.
 
 La seguente illustrazione riassume le fasi della filiera nell'idustria della quarta gamma dove l'ozono viene usato.
 
-![alt text](/assets/images/ozono-sanificazione-industria-quarta-gamma-filiera.jpg "Title")
+![alt text](/assets/images/ozono-sanificazione-quarta-gamma-filiera.jpg "Title")
 
 ## Quali sono i patogeni più comuni nell'industria della quarta gamma che l'ozono può eliminare? 
 
@@ -120,7 +150,7 @@ Infine, repelle diversi tipi di insetti e parassiti (come Drosophila melanogaste
 
 La seguente immagine mostra un elenco dei patogeni più comuni in questa industria.
 
-![alt](/assets/images/ozono-sanificazione-industria-quarta-gamma-patogeni.jpg "title")
+![alt](/assets/images/ozono-sanificazione-quarta-gamma-patogeni.jpg "title")
 
 A seguire, viene data una breve descrizione di ogni singolo patogeno. I patogeni sono divisi per categorie, quali batteri, virus, fungi, protozoi e parassiti.
 
@@ -215,5 +245,5 @@ Ecco elencati brevemente i potenziali effetti negativi dell'ozono sulla qualità
 
 La seguente illustrazione riassume gli effetti collaterali che l'ozono può avere sulla qualità dei prodotti di questa idustria.
 
-![alt text](/assets/images/ozono-sanificazione-industria-quarta-gamma-qualita-effetti.jpg "Title")
+![alt text](/assets/images/ozono-sanificazione-quarta-gamma-qualita-effetti.jpg "Title")
 
