@@ -287,130 +287,130 @@ def generate_toc(content_html):
     return content_html_formatted
 
 
-for filepath in folder.rglob("*.md"):
+# for filepath in folder.rglob("*.md"):
 
-    with open(filepath, encoding='utf-8') as f:
-        content = f.read()
+#     with open(filepath, encoding='utf-8') as f:
+#         content = f.read()
 
-    content_html = markdown.markdown(content, extensions=['markdown.extensions.tables', 'meta'])
+#     content_html = markdown.markdown(content, extensions=['markdown.extensions.tables', 'meta'])
 
-    md = markdown.Markdown(extensions=['meta'])
-    md.convert(content)
-
-
-    lines = '\n'.join(md.lines)
-
-    content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
+#     md = markdown.Markdown(extensions=['meta'])
+#     md.convert(content)
 
 
-    filepath_chunks = str(filepath).split('\\')
+#     lines = '\n'.join(md.lines)
+
+#     content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
 
 
-    # BREADCRUMBS  ---------------------------------------------
-    breadcrumbs = generate_breadcrumbs(filepath_chunks)
+#     filepath_chunks = str(filepath).split('\\')
 
-    # READING TIME  ---------------------------------------------
-    reading_time = len(content.split(' ')) // 200
 
-    # PUBLICATION DATE  ----------------------------------------
-    publishing_date = ''
-    try: publishing_date = md.Meta['publishing_date'][0]
-    except: pass
+#     # BREADCRUMBS  ---------------------------------------------
+#     breadcrumbs = generate_breadcrumbs(filepath_chunks)
 
-    # AUTHOR ----------------------------------------
-    author = 'Ozonogroup Staff'
-    try: author = md.Meta['author'][0]
-    except: pass
+#     # READING TIME  ---------------------------------------------
+#     reading_time = len(content.split(' ')) // 200
 
-    last_update_date = ''
-    try: last_update_date = md.Meta['last_update_date'][0]
-    except: pass
+#     # PUBLICATION DATE  ----------------------------------------
+#     publishing_date = ''
+#     try: publishing_date = md.Meta['publishing_date'][0]
+#     except: pass
 
-    # GENERATE TABLE OF CONTENTS ----------------------------------------
-    toc_html = generate_toc(content_html)
+#     # AUTHOR ----------------------------------------
+#     author = 'Ozonogroup Staff'
+#     try: author = md.Meta['author'][0]
+#     except: pass
+
+#     last_update_date = ''
+#     try: last_update_date = md.Meta['last_update_date'][0]
+#     except: pass
+
+#     # GENERATE TABLE OF CONTENTS ----------------------------------------
+#     toc_html = generate_toc(content_html)
     
     
-    with open('components/header.html', encoding='utf-8') as f:
-        header_html = f.read()
+#     with open('components/header.html', encoding='utf-8') as f:
+#         header_html = f.read()
             
-    # <section class="breadcrumbs-section">
-    #     <div class="container-xl h-full">
-    #         <a href="/index.html">Home</a>{''.join(breadcrumbs)}
-    #     </div>
-    # </section>
+#     # <section class="breadcrumbs-section">
+#     #     <div class="container-xl h-full">
+#     #         <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+#     #     </div>
+#     # </section>
             
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
+#     html = f'''
+#         <!DOCTYPE html>
+#         <html lang="en">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="/style-blog.css">
-            <link rel="stylesheet" href="/util.css">
-            <title>Ozonogroup</title>
-        </head>
+#         <head>
+#             <meta charset="UTF-8">
+#             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#             <link rel="stylesheet" href="/style-blog.css">
+#             <link rel="stylesheet" href="/util.css">
+#             <title>Ozonogroup</title>
+#         </head>
 
-        <body>
-            <section class="header-section">
-                <div class="container-xl h-full">
-                    {header_html}
-                </div>
-            </section>
+#         <body>
+#             <section class="header-section">
+#                 <div class="container-xl h-full">
+#                     {header_html}
+#                 </div>
+#             </section>
 
             
 
-            <section class="meta-section mt-48">
-                <div class="container-md h-full">
-                    <div class="flex justify-between mb-8">
-                        <span>by {author} • {publishing_date}</span>
-                        <span>Tempo Lettura: {reading_time} min</span>
-                    </div>
-                </div>
-            </section>
+#             <section class="meta-section mt-48">
+#                 <div class="container-md h-full">
+#                     <div class="flex justify-between mb-8">
+#                         <span>by {author} • {publishing_date}</span>
+#                         <span>Tempo Lettura: {reading_time} min</span>
+#                     </div>
+#                 </div>
+#             </section>
 
-            <section class="container-md">
-                {toc_html}
-            </section>
+#             <section class="container-md">
+#                 {toc_html}
+#             </section>
 
-            <section class="footer-section">
-                <div class="container-xl h-full">
-                    <footer class="flex items-center justify-center">
-                        <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
-                    </footer>
-                </div>
-            </section>
-        </body>
+#             <section class="footer-section">
+#                 <div class="container-xl h-full">
+#                     <footer class="flex items-center justify-center">
+#                         <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+#                     </footer>
+#                 </div>
+#             </section>
+#         </body>
 
-        </html>
-    '''
+#         </html>
+#     '''
 
 
-    filepath_out_dir = '/'.join(filepath_chunks[1:-1])
-    filepath_out = '/'.join(filepath_chunks[1:]).replace('.md', '.html')
+#     filepath_out_dir = '/'.join(filepath_chunks[1:-1])
+#     filepath_out = '/'.join(filepath_chunks[1:]).replace('.md', '.html')
 
-    if not os.path.exists(filepath_out_dir):
-        os.makedirs(filepath_out_dir)
+#     if not os.path.exists(filepath_out_dir):
+#         os.makedirs(filepath_out_dir)
 
-    with open(filepath_out, 'w', encoding='utf-8') as f:
-        f.write(html)
+#     with open(filepath_out, 'w', encoding='utf-8') as f:
+#         f.write(html)
 
-    shutil.copy2('index.html', 'public/index.html')
+shutil.copy2('index.html', 'public/index.html')
 
-    shutil.copy2('style.css', 'public/style.css')
-    shutil.copy2('style-blog.css', 'public/style-blog.css')
-    shutil.copy2('util.css', 'public/util.css')
-    shutil.copy2('img.css', 'public/img.css')
-    shutil.copy2('logo.ico', 'public/logo.ico')
-    shutil.copy2('CNAME', 'public/CNAME')
+shutil.copy2('style.css', 'public/style.css')
+shutil.copy2('style-blog.css', 'public/style-blog.css')
+shutil.copy2('util.css', 'public/util.css')
+shutil.copy2('img.css', 'public/img.css')
+shutil.copy2('logo.ico', 'public/logo.ico')
+shutil.copy2('CNAME', 'public/CNAME')
 
-    # COPY IMAGES -----------------------------------------------------
+# COPY IMAGES -----------------------------------------------------
 
-    articles_images_path = 'assets/images/articles/'
-    for f in os.listdir(articles_images_path):
-        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
-        
-    articles_images_path = 'assets/images/home/'
-    for f in os.listdir(articles_images_path):
-        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
+articles_images_path = 'assets/images/articles/'
+for f in os.listdir(articles_images_path):
+    shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
+    
+articles_images_path = 'assets/images/home/'
+for f in os.listdir(articles_images_path):
+    shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
 

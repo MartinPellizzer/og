@@ -162,10 +162,10 @@ def img_resize(image_path):
     return output_path
 
 
-def img_resize_2(image_path):
+def img_resize_2(image_path_in, image_path_out):
     w, h = 768, 512
 
-    img = Image.open(image_path)
+    img = Image.open(image_path_in)
 
     start_size = img.size
     end_size = (w, h)
@@ -190,7 +190,7 @@ def img_resize_2(image_path):
     )
     img = img.crop(area)
 
-    output_path = f'_tmp_image.jpg'
+    output_path = image_path_out
     img.save(output_path, quality=100)
 
     return output_path
@@ -414,20 +414,29 @@ def img_cheasheet(item, title, lst, img_name):
     return output_path
 
 
+def generate_featured_image(attribute):
+    image_path_in = f'articles-images/public/ozono/sanificazione/{attribute}/featured.jpg'
+    image_filename_out = f'{attribute.replace("/", "-")}-featured.jpg'
+    image_filepath_out = f'/assets/images/{image_filename_out}'
+    image_path_out = f'public/assets/images/{image_filename_out}'
+    img_resize_2(image_path_in, image_path_out)
+
+    return image_filepath_out
+
 
 ###################################################################################################################
 # articles html
 ###################################################################################################################
-def generate_article_html(attribute, article):
+def generate_article_html(date, attribute, article):
     with open(f'articles/public/ozono/sanificazione/{attribute}.md', 'w', encoding='utf-8') as f:
-            f.write(article)
+        f.write(article)
 
-    with open(f'articles/public/ozono/sanificazione/{attribute}.md') as f:
+    with open(f'articles/public/ozono/sanificazione/{attribute}.md', encoding='utf-8') as f:
         article_md = f.read()
 
     word_count = len(article_md.split(' '))
-    reading_time_html = str(word_count // 200) + ' minutes'
-    word_count_html = str(word_count) + ' words'
+    reading_time = str(word_count // 200) + ' minuti'
+    # word_count_html = str(word_count) + ' words'
 
     article_html = markdown.markdown(article_md)
 
@@ -437,6 +446,7 @@ def generate_article_html(attribute, article):
     with open('components/header.html', encoding='utf-8') as f:
             header_html = f.read()
 
+    author = 'Ozonogroup'
 
     html = f'''
         <!DOCTYPE html>
@@ -451,14 +461,22 @@ def generate_article_html(attribute, article):
 
         <body>
             <section class="header-section">
-                <div class="container-xl h-full">
+                <div class="container-xl">
                     {header_html}
                 </div>
             </section>
 
-            <section class="my-96">
-                <div class="container-md">
-                    {word_count_html} - {reading_time_html}
+            <section class="meta-section mt-48">
+                <div class="container-md px-16">
+                    <div class="flex justify-between mb-8">
+                        <span>by {author} • {date}</span>
+                        <span>Tempo Lettura: {reading_time}</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-96">
+                <div class="container-md px-16">
                     {article_html}
                 </div>
             </section>
@@ -476,8 +494,28 @@ def generate_article_html(attribute, article):
         </html>
     '''
 
-    with open(f'public/ozono/sanificazione/{attribute}.html', 'w') as f:
+    with open(f'public/ozono/sanificazione/{attribute}.html', 'w', encoding='utf-8') as f:
         f.write(html)
+
+
+def generate_home_html(home_articles):
+    articles_html = ''
+    for article in home_articles:
+        articles_html += f'''
+            <a class="decoration-none" href="{article['href']}">
+                <img src="{article['src']}" alt="">
+                <h3>{article['title']}</h3>
+            </a>
+        '''
+
+    with open("home.html", encoding='utf-8') as f:
+        html = f.read()
+
+    html = html.replace('<!-- insert_articles_here -->', articles_html)
+
+    with open("public/index.html", 'w', encoding='utf-8') as f:
+        f.write(html)
+
 
 
 ###################################################################################################################
@@ -493,9 +531,14 @@ except: pass
 try: os.mkdir('public/ozono/sanificazione/')
 except: pass
 
+home_articles = []
+
 for item in data:
     article = ''
 
+    if item['status'] == 'draft': continue
+
+    date = item['date']
     attribute = item['attribute']
     
     folders = attribute.split('/')
@@ -506,45 +549,34 @@ for item in data:
         except: pass
         try: os.mkdir(f'public/ozono/sanificazione/{path}')
         except: pass
+    
+    industry = item['industry']
+    industry_ad = item['industry_ad']
 
     if 'applicazioni' in attribute: 
-        industry = item['industry']
-        industry_ad = item['industry_ad']
         applications = item['applications']
+        applications_intro = item['applications_intro']
 
         # title
-        article += f'# {len(applications)} Applicazioni dell\'Ozono nell\'Industria {industry_ad}{industry.title()}\n\n'
+        title = f'{len(applications)} Applicazioni dell\'Ozono nell\'Industria {industry_ad}{industry.title()}'
+        article += f'# {title} \n\n'
 
-        # images
-        image_path_in = f'articles-images/public/ozono/sanificazione/{attribute}/featured.jpg'
-        image_filename_out = f'{attribute.replace("/", "-")}-featured.jpg'
-        image_filepath_out = f'/assets/images/{image_filename_out}'
-        resized_image_filepath = img_resize_2(image_path_in)
-        shutil.copy2(resized_image_filepath, f'public/{image_filepath_out}')
-
-        article += f'![tesst]({image_filepath_out} "Title")\n\n'
+        # image
+        img_filepath = generate_featured_image(attribute)
+        article += f'![tesst]({img_filepath} "Title")\n\n'
+        
+        # intro 
+        article +=  '\n\n'.join(applications_intro) + '\n\n'
+        applications_titles = [application["title"] for application in applications]
+        article += lst_to_blt(applications_titles) + '\n\n'
 
         # list
         for i, application in enumerate(applications):
-            title = f'## {i+1}. {application["title"]}\n\n'
-            description = '\n\n'.join(application['description']) + '\n\n'
-            article += title
-            article += description
-
-        # generate html
-        generate_article_html(attribute, article)
-
-        quit()
-
-
-
+            article += f'## {i+1}. {application["title"]}\n\n'
+            article += '\n\n'.join(application['description']) + '\n\n'
     else:
-        industry = item['industry']
-        industry_ad = item['industry_ad']
-
-        chain = item['chain']
         applications = item['applications']
-        # pathogens_plain = item['pathogens_plain']
+        chain = item['chain']
         pathogens = item['pathogens']
         benefits = item['benefits']
         side_effects_product_quality = item['side_effects_product_quality']
@@ -552,12 +584,11 @@ for item in data:
         industry_filename = industry.replace(' ', '-')
 
         # title
+        title = f'Sanificazione ad Ozono nell\'industria {industry_ad}{industry.title()}'
         article += f'# Sanificazione ad ozono nell\'industria {industry_ad}{industry}: applicazioni e benefici \n\n'
 
-        image_path = f'articles-images/public/ozono/sanificazione/{industry_filename}/featured.jpg'
-        image_path = img_resize(image_path)
-        image_path = '/'.join(image_path.split('/')[1:])
-        article += f'![alt text](/{image_path} "Title")\n\n'
+        img_filepath = generate_featured_image(attribute)
+        article += f'![tesst]({img_filepath} "Title")\n\n'
 
         # INTRODUCTION ----------------------------------------------------------------------------------------------
         applications_names = [x.split(':')[0] for x in applications]
@@ -585,14 +616,15 @@ for item in data:
         # APPLICATIONS ----------------------------------------------------------------------------------------------
         article += f'## Quali sono le applicazioni dell\'ozono nell\'industria {industry_ad}{industry}? \n\n'
 
-        i = 0
-        for application in item['applications_extended']:
-            i += 1
-            application_title = application['title']
-            application_description = '\n\n'.join(application['description'])
+        # i = 0
+        # for application in item['applications_extended']:
+        #     i += 1
+        #     application_title = application['title']
+        #     application_description = '\n\n'.join(application['description'])
 
-            article += f'### {i}. {application_title} \n\n'
-            article += f'{application_description} \n\n'
+        #     article += f'### {i}. {application_title} \n\n'
+        #     article += f'{application_description} \n\n'
+        article += lst_to_blt(bold_blt(applications)) + '\n\n'
 
 
 
@@ -767,8 +799,21 @@ for item in data:
         with open(f'articles/public/ozono/sanificazione/{industry_formatted}.md', 'w', encoding='utf-8') as f:
             f.write(article)
 
+
+    # generate html
+    generate_article_html(date, attribute, article)
+
+    home_article = {
+        'href': f'/ozono/sanificazione/{attribute}.html',
+        'src': f'{img_filepath}',
+        'title': f'{title}'
+    }
+
+    home_articles.append(home_article)
         
 
+
+generate_home_html(home_articles) 
 
 # # VIEWER
 # with open('articles/public/ozono/sanificazione/quarta-gamma/applicazioni.md') as f:

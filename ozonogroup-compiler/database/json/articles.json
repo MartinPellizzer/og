@@ -1,5 +1,7 @@
 [
     {
+        "status": "published",
+        "date": "",
         "attribute": "quarta-gamma",
         "industry": "quarta gamma",
         "industry_ad": "della ",
@@ -35,19 +37,22 @@
             "Conservazione dei succhi freschi non pastorizzati"
         ],
         "applications": [
-            "Sanificazione dell'acqua: Viene utilizzato per trattare l'acqua utilizzata per lavare e igienizzare le verdure, eliminando batteri, virus e altri microrganismi patogeni.",
-            "Disinfezione dell'aria: Viene utilizzato per purificare l'aria all'interno degli impianti di produzione, contribuendo a ridurre la contaminazione microbica nell'ambiente di lavoro.",
-            "Lavaggio dei prodotti: Viene impiegato nel processo di lavaggio delle verdure e della frutta per eliminare residui di pesticidi, batteri e altri contaminanti superficiali.",
-            "Conservazione degli alimenti: Viene usato per estendere la vita utile dei prodotti della quarta gamma, inibendo la crescita di microrganismi deterioranti e preservando la freschezza.",
-            "Trattamento delle acque reflue: Viene utilizzato per trattare le acque reflue generate durante il processo di produzione, contribuendo a rimuovere contaminanti organici e inorganici prima dello scarico nell'ambiente.",
-            "Rimozione di odori indesiderati: Viene impiegato per eliminare odori sgradevoli dai prodotti alimentari o dall'ambiente di produzione.",
-            "Riduzione degli agenti conservanti chimici: Viene usato per ridurre nell'uso di conservanti chimici, migliorando la percezione di prodotti più naturali da parte dei consumatori."
+            "Inattivazione di batteri e virus sui prodotti: L'ozono danneggia le pareti cellulari dei batteri e virus, inattivandoli e garantendo la sicurezza alimentare. La loro presenza può causare malattie gravi e ridurre la qualità dei prodotti.",
+            "Inibizione della crescita di muffe sui prodotti: L'ozono elimina muffe, migliorando la qualità dei prodotti della quarta gamma e riducendo sprechi, costi di produzione e rischi per la salute.",
+            "Eliminazione degli odori indesiderati dei prodotti: L'ozono elimina odori di decomposizione, aromatici e speziati su prodotti freschi. Questo è utile per prolungare shelf-life e prevenire contaminazione odori esterni.",
+            "Allungamento della durata di conservazione dei prodotti: La sanificazione con ozono può ridurre la carica microbica e la presenza di muffe sui prodotti. Questo allunga la durata di conservazione dei prodotti della quarta gamma, consentendo loro di rimanere freschi e commestibili per un periodo più lungo, riducendo così gli sprechi alimentari.",
+            "Riduzione dell'uso di agenti chimici nei processi di produzione: L'utilizzo dell'ozono come agente di sanificazione può ridurre la dipendenza da agenti chimici aggressivi. Ciò comporta un beneficio ambientale e riduce il rischio di residui chimici nocivi sui prodotti.",
+            "Riduzione dei residui di pesticidi sui prodotti: L'ozono può essere utilizzato per rimuovere o neutralizzare i residui di pesticidi presenti sui prodotti agricoli. Ciò garantisce la sicurezza e la qualità dei prodotti per i consumatori.",
+            "Trattamento delle acque reflue: L'ozono può essere utilizzato per trattare le acque reflue provenienti dalla produzione della quarta gamma. L'ozono ossida inquinanti e contaminanti, purificando l'acqua e rendendola adatta al riutilizzo o allo smaltimento in modo sicuro nell'ambiente.",
+            "Sterilizzazione di attrezzature e contenitori: L'ozono può essere utilizzato per sterilizzare attrezzature e contenitori utilizzati nella produzione e confezionamento dei prodotti della quarta gamma. Ciò previene la contaminazione microbica e garantisce la sicurezza e la qualità dei prodotti.",
+            "Prevenzione della contaminazione incrociata: L'uso dell'ozono come agente di sanificazione aiuta a prevenire la contaminazione incrociata, impedendo che batteri, virus o muffe da una superficie o prodotto contaminino altri durante il processo di produzione e confezionamento.",
+            "Miglioramento della qualità organolettica dei prodotti: L'ozono può contribuire a migliorare la qualità organolettica dei prodotti della quarta gamma. Riducendo la presenza di contaminanti, odori sgradevoli e microrganismi, i prodotti rimangono più freschi e mantengono il loro sapore, aroma e aspetto più a lungo."
         ],
         "applications_extended": [
             {
                 "title": "Inattivazione di batteri e virus sui prodotti",
                 "description": [
-                    "L'ozono attacca e ossida le pareti cellulari dei batteri e dei virus. Ciò provoca danni strutturali alle membrane cellulari, compromettendo l'integrità e la funzionalità dei microorganismi. Inoltre, può anche danneggiare il materiale genetico (DNA o RNA) all'interno dei batteri e dei virus, impedendo loro di replicarsi e causando la loro morte.",
+                    "L'ozono attacca e ossida le pareti cellulari dei batteri e dei virus. Ciò provoca danni strutturali alle membrane cellulari, compromettendo l'integrità e la funzionalità dei microrganismi. Inoltre, può anche danneggiare il materiale genetico (DNA o RNA) all'interno dei batteri e dei virus, impedendo loro di replicarsi e causando la loro morte.",
                     "Dopo il trattamento con ozono, i batteri e i virus diventano inattivi e non rappresentano più una minaccia per la sicurezza alimentare.",
                     "La presenza di batteri patogeni come Salmonella, Escherichia coli (E. coli) e Listeria sui prodotti della quarta gamma può causare malattie alimentari gravi o addirittura letali se consumati da persone. In aggiunta, la crescita batterica e la contaminazione virale possono accelerare la decomposizione e il deperimento dei prodotti, riducendo la loro durata di conservazione e causando sprechi.",
                     "Questi microrganismi possono anche influenzare negativamente il sapore, l'odore e la consistenza dei prodotti alimentari, riducendone la qualità organolettica. Oltretutto, queste contaminazioni possono portare a richiami di prodotti, causando notevoli perdite economiche per le aziende del settore della quarta gamma. Questi ritiri possono danneggiare gravemente la reputazione di un'azienda e minare la fiducia dei consumatori."
@@ -343,14 +348,24 @@
         ]
     },
     {
+        "status": "published",
+        "date": "11/10/2023",
+        "entity": "ozono",
         "attribute": "quarta-gamma/applicazioni",
         "industry": "quarta gamma",
         "industry_ad": "della ",
+        "applications_intro": [
+            "L'ozono (O3) inattiva i microrganismi, elimina gli odori e prolunga la durata dei prodotti della quarta gamma.",
+            "Questo agente disinfettante agisce sulle pareti cellulari di batteri, virus e muffe, danneggiandole e causandone la morte, rendendo questi prodotti sicuri per il consumo. Inoltre, prolunga la shelf life dei prodotti, riducendo sprechi e costi operativi, ed elimina odori sgradevoli, migliorando la freschezza e la qualità organolettica degli alimenti.",
+            "L'O3 è un'alternativa ecologica ai prodotti chimici antimicrobici, poiché si decompone in ossigeno molecolare senza lasciare residui dannosi, contribuendo a ridurre l'impatto ambientale e i costi di smaltimento. Questo gas viene spesso utilizzato nella sterilizzazione di attrezzature e contenitori per prevenire la contaminazione incrociata e garantire la sicurezza alimentare, nonchè per rispettare le rigorose normative sulla sicurezza alimentare.",
+            "Infine, l'ozono è utile per rimuovere residui di pesticidi dai prodotti ed evitare i loro pericolosi effetti sulla salute umana.",
+            "In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria della quarta gamma elencate nella seguente lista."
+        ],
         "applications": [
             {
                 "title": "Inattivazione di batteri e virus sui prodotti",
                 "description": [
-                    "L'ozono attacca e ossida le pareti cellulari dei batteri e dei virus. Ciò provoca danni strutturali alle membrane cellulari, compromettendo l'integrità e la funzionalità dei microorganismi. Inoltre, può anche danneggiare il materiale genetico (DNA o RNA) all'interno dei batteri e dei virus, impedendo loro di replicarsi e causando la loro morte.",
+                    "L'ozono attacca e ossida le pareti cellulari dei batteri e dei virus. Ciò provoca danni strutturali alle membrane cellulari, compromettendo l'integrità e la funzionalità dei microrganismi. Inoltre, può anche danneggiare il materiale genetico (DNA o RNA) all'interno dei batteri e dei virus, impedendo loro di replicarsi e causando la loro morte.",
                     "Dopo il trattamento con ozono, i batteri e i virus diventano inattivi e non rappresentano più una minaccia per la sicurezza alimentare.",
                     "La presenza di batteri patogeni come Salmonella, Escherichia coli (E. coli) e Listeria sui prodotti della quarta gamma può causare malattie alimentari gravi o addirittura letali se consumati da persone. In aggiunta, la crescita batterica e la contaminazione virale possono accelerare la decomposizione e il deperimento dei prodotti, riducendo la loro durata di conservazione e causando sprechi.",
                     "Questi microrganismi possono anche influenzare negativamente il sapore, l'odore e la consistenza dei prodotti alimentari, riducendone la qualità organolettica. Oltretutto, queste contaminazioni possono portare a richiami di prodotti, causando notevoli perdite economiche per le aziende del settore della quarta gamma. Questi ritiri possono danneggiare gravemente la reputazione di un'azienda e minare la fiducia dei consumatori."
@@ -443,6 +458,8 @@
         ]
     },
     {
+        "status": "draft",
+        "date": "",
         "attribute": "",
         "industry": "lattiero-casearia",
         "industry_ad": "",
@@ -550,6 +567,8 @@
         ]
     },
     {
+        "status": "draft",
+        "date": "",
         "attribute": "",
         "industry": "lavorazione carni",
         "industry_ad": "della ",
