@@ -1,7 +1,24 @@
+# applicazioni ---------------------------------------------------------------------------------------------------
 Quali sono le applicazioni dell'ozono nell'industria [industry]
+
+utilizzo dell'ozono [applicazione] nell'industria lattiero-casearia. dammi una descrizione dettagliata, con dati e numeri
+
+lista dei problemi causati da [patogeno]. dammi una descrizione dettagliata, con dati, numeri, e informazioni
+quali batteri patogeni ci sono nell'industria [industria]. dammi una descrizione dettagliata, con dati e numeri
+
+
+
+
+
 
 Quali sono le fasi della filiera produttiva nell'industria [industry]
     per ognuna delle fase descritte nella tua ultima risposta, spiega brevemente come può essere impiegato l'ozono
+
+
+
+
+
+
 
 
 
