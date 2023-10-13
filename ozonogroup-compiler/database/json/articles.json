@@ -1,6 +1,6 @@
 [
     {
-        "status": "published",
+        "status": "draft",
         "date": "",
         "attribute": "quarta-gamma",
         "industry": "quarta gamma",
@@ -725,6 +725,38 @@
             "Formazione di sostanze indesiderate: Può reagire con i componenti della carne e formare sostanze indesiderate, come aldeidi e perossidi, che possono avere effetti negativi sulla qualità del prodotto.",
             "Reazioni indesiderate con additivi: Può reagire con gli additivi alimentari utilizzati nell'industria della carne, come antiossidanti o coloranti, portando a cambiamenti indesiderati nella composizione del prodotto.",
             "Effetti sulla texture: Può influire sulla texture della carne, rendendola più tenera o meno tenera del desiderato, a seconda delle condizioni di esposizione."
+        ]
+    },
+    {
+        "status": "published",
+        "date": "13/10/2023",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "lavorazione-carni/applicazioni",
+        "industry": "lavorazione-carni",
+        "industry_ad": "",
+        "applications_intro": [],
+        "applications": [
+            {
+                "title": "Rimozione dei batteri patogeni",
+                "description": []
+            },
+            {
+                "title": "Inibizione della crescita di muffe e lieviti",
+                "description": []
+            },
+            {
+                "title": "Deodorizzazione degli ambienti",
+                "description": []
+            },
+            {
+                "title": "Trattamento delle acque reflue",
+                "description": []
+            },
+            {
+                "title": "Sanitizzazione delle superfici",
+                "description": []
+            }
         ]
     }
 ]
