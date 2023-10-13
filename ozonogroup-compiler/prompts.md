@@ -6,6 +6,11 @@ utilizzo dell'ozono [applicazione] nell'industria lattiero-casearia. dammi una d
 lista dei problemi causati da [patogeno]. dammi una descrizione dettagliata, con dati, numeri, e informazioni
 quali batteri patogeni ci sono nell'industria [industria]. dammi una descrizione dettagliata, con dati e numeri
 
+spiegami nel dettaglio e in modo esaustivo perchè utilizzare l'ozono per il [applicazione] nell'industria [industria]. dammi molte informazioni, dati e numeri.
+
+ex. [problemi] = acque reflue
+- spiegami nel dettaglio e in modo esaustivo quali sono i problemi delle [problemi] nell'industria [industria]. dammi molte informazioni, dati e numeri.
+
 
 
 

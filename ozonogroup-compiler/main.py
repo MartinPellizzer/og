@@ -51,7 +51,7 @@ def generate_image_plain(image_path, w, h, image_path_out):
 
 
 w, h = 800, 600
-generate_image_plain('assets/images/home/ristorante-raw.jpg', w, h, 'assets/images/home/ristorante.jpg')
+generate_image_plain('assets/images/home/pasta-raw.jpg', w, h, 'assets/images/home/pasta.jpg')
 generate_image_plain('assets/images/home/clinica-raw.jpg', w, h, 'assets/images/home/clinica.jpg')
 generate_image_plain('assets/images/home/trasporti-raw.jpg', w, h, 'assets/images/home/trasporti.jpg')
 
