@@ -395,7 +395,7 @@ def generate_toc(content_html):
 #     with open(filepath_out, 'w', encoding='utf-8') as f:
 #         f.write(html)
 
-shutil.copy2('index.html', 'public/index.html')
+# shutil.copy2('index.html', 'public/index.html')
 
 shutil.copy2('style.css', 'public/style.css')
 shutil.copy2('style-blog.css', 'public/style-blog.css')

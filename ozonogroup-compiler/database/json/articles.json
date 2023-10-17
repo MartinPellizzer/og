@@ -729,7 +729,7 @@
     },
     {
         "status": "published",
-        "date": "13/10/2023",
+        "date": "16/10/2023",
         "section": "core",
         "entity": "ozono",
         "attribute": "lavorazione-carni/applicazioni",
@@ -788,6 +788,67 @@
                     "Gli antibiotici residui nelle carni possono essere dannosi per i consumatori se vengono ingeriti in quantità eccessive. Di conseguenza è essenziale eliminare o ridurre questi residui a livelli accettabili, riducendo il rischio di avvelenamento alimentare o effetti avversi sulla salute. Inoltre, l'uso indiscriminato di antibiotici nell'allevamento di animali può portare al rilascio di antibiotici nell'ambiente, con conseguenze negative sull'ecosistema e sulla qualità dell'acqua.",
                     "L'uso eccessivo di antibiotici nell'industria della carne aumenta anche i costi di produzione a causa dell'acquisto costante di tali antibiotici e a quello relativo ai trattamenti medici per gli animali malati. Al contrario, l'ozono è una tecnologia relativamente economica da implementare in questa industria. Gli stabilimenti di lavorazione possono ridurre i costi associati alla gestione dei residui di antibiotici e migliorare la loro efficienza operativa."
                 ]
+            }
+        ]
+    },
+    {
+        "status": "published",
+        "date": "16/10/2023",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "ittica/applicazioni",
+        "industry": "ittica",
+        "industry_ad": "",
+        "applications_intro": [],
+        "applications": [
+            {
+                "title": "Rimozione dei batteri patogeni",
+                "problems": []
+            },
+            {
+                "title": "Disinfezione delle superfici",
+                "problems": []
+            },
+            {
+                "title": "Conservazione delle carni",
+                "problems": []
+            },
+            {
+                "title": "acque reflue",
+                "problems": [
+                    {
+                        "type": "batteri",
+                        "description": [
+                            "Le acque reflue dell'industria ittica possono ospitare diversi batteri patogeni, tra cui Escherichia coli e Salmonella, noti per causare malattie gastrointestinali nell'uomo. Questi agenti patogeni costituiscono una minaccia diretta per la salute umana quando le acque contaminate vengono, per esempio, utilizzate per l'irrigazione di coltivazioni.",
+                            "Inoltre, batteri come Vibrio parahaemolyticus e Campylobacter possono causare infezioni alimentari, portando a gravi disturbi gastro-intestinali. Questi contaminanti batterici possono anche avere un impatto negativo sull'ambiente, contribuendo all'inquinamento idrico e, nel caso di Vibrio parahaemolyticus, influenzare negativamente gli ecosistemi marini. Aeromonas hydrophila, invece, può causare infezioni della pelle e diarrea negli esseri umani, nonchè può avere impatti negativi sugli ecosistemi acquatici."
+                        ]
+                    },
+                    {
+                        "type": "virus",
+                        "description": [
+                            "Nelle acque reflue dell'industria ittica, diversi virus patogeni possono costituire una minaccia per la salute umana e l'ambiente. Tra i virus più comuni si trovano il Norovirus, responsabile di malattie gastrointestinali, e il virus dell'Epatite A, associato a disturbi epatici. Questi virus possono contaminare le acque e rappresentare un potenziale rischio di inquinamento idrico.",
+                            "Altri agenti patogeni rilevanti includono il Rotavirus, causa di infezioni intestinali, l'Adenovirus, che può causare infezioni respiratorie e oculari, e l'Enterovirus, responsabile di malattie gastroenteriche. La presenza di questi virus può avere un impatto significativo sull'ecosistema acquatico, alterando la qualità delle acque e influenzando la fauna acquatica. Gli Astrovirus, anch'essi comuni, sono associati a infezioni gastrointestinali e contribuiscono alla contaminazione biologica delle acque."
+                        ]
+                    },
+                    {
+                        "type": "funghi",
+                        "description": [
+                            "Nelle acque reflue dell'industria ittica, sono comuni diversi funghi patogeni. Tra i più diffusi troviamo Fusarium spp., Aspergillus spp., Candida spp., Penicillium spp. e Zygomycetes. Questi funghi possono rappresentare una minaccia per la salute umana, causando malattie cutanee, aspergillosi polmonare, infezioni sistemiche, asma bronchiale e infezioni invasive.",
+                            "Inoltre, essi costituiscono un serio problema per l'ambiente. La presenza di tali funghi può portare all'inquinamento delle acque, al deterioramento della qualità dell'acqua e all'alterazione degli ecosistemi acquatici. Questi impatti negativi possono minacciare la biodiversità e influire sugli organismi presenti nell'ambiente acquatico."
+                        ]
+                    },
+                    {
+                        "type": "parassiti",
+                        "description": [
+                            "Nelle acque reflue dell'industria ittica, si possono trovare vari parassiti patogeni. Questi includono parassiti comuni come Giardia e Cryptosporidium, noti per causare malattie gastrointestinali e infezioni negli esseri umani. Altri parassiti, come Toxoplasma e Acanthamoeba, possono causare problemi per salute umana, tra cui complicazioni neurologiche e oculari.",
+                            "Oltre agli impatti sulla salute umana, questi parassiti possono avere conseguenze ambientali significative. Possono contaminare le risorse idriche, influenzando la fauna acquatica e contribuendo all'inquinamento dell'acqua. La presenza di parassiti come Balantidium e Diphyllobothrium può anche minacciare la biodiversità locale e l'equilibrio degli ecosistemi acquatici."
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Riduzione degli antibiotici residui",
+                "problems": []
             }
         ]
     }
