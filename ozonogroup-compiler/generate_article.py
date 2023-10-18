@@ -521,6 +521,26 @@ def generate_home_html(home_articles):
 
 
 
+def get_csv_table(filepath):
+    lines = []
+    with open(filepath, encoding='utf-8') as f:
+        reader = csv.reader(f, delimiter="|")
+        for i, line in enumerate(reader):
+            lines.append([line[0].strip(), line[1].strip()])
+    return lines
+
+
+def generate_table(lines):
+    text = ''
+    for i, line in enumerate(lines):
+        if i == 0: 
+            text += f'| {line[0].title()} | Problema | \n'
+            text += f'| --- | --- |\n'
+        else:
+            text += f'| {line[0].capitalize()} | {line[1].capitalize()} |\n'
+    text += f'\n'
+    return text
+
 ###################################################################################################################
 # articles
 ###################################################################################################################
@@ -578,15 +598,16 @@ for item in data:
 
         # list
         for i, application in enumerate(applications):
-            article += f'## {i+1}. {application["title"]}\n\n'
+            article += f'## {i+1}. {application["title"].capitalize()}\n\n'
+            article += '\n\n'.join(application['description']) + '\n\n'
+            application_title = application['title'].replace(' ', '-')
+            lines = get_csv_table(f'database/tables/{industry}/{application_title}/{application_title}.csv')
+            article += generate_table(lines)
 
 
-            # article += '\n\n'.join(application['description']) + '\n\n'
+            # # TODO: remove
+            # if 'reflue' not in application['title']: continue
 
-            # TODO: remove
-            if 'reflue' not in application['title']: continue
-
-            
             for problem in application['problems']:
                 article += f'### {problem["type"].title()}\n\n'
                 article += '\n\n'.join(problem['description']) + '\n\n'
@@ -594,30 +615,11 @@ for item in data:
                 application_title = application['title'].replace(' ', '-')
                 application_problem_type = problem["type"].replace(' ', '-')
 
-                lines = []
-                path = f'database/tables/{industry}/{application_title}/{application_problem_type}.csv'
-                with open(path, encoding='utf-8') as f:
-                    reader = csv.reader(f, delimiter="|")
-                    for i, line in enumerate(reader):
-                        lines.append([line[0].strip(), line[1].strip(), line[2].strip()])
+                # get csv table
+                lines = get_csv_table(f'database/tables/{industry}/{application_title}/{application_problem_type}.csv')
 
-                for line in lines:
-                    print(line)
-
-                for i, line in enumerate(lines):
-                    # print(lines[i])
-                    if i == 0: 
-                        article += f'| {line[0].title()} | Effetti sulla Salute Umana | Effetti sull\'Ambiente |\n'
-                        article += f'| --- | --- | --- |\n'
-                    else:
-                        article += f'| {line[0].title()} | {line[1].title()} | {line[2].title()} |\n'
-                article += f'\n'
-
-
-                # print(application_title)
-                # print(lines)
-                # print()
-                # quit()
+                # generate table
+                article += generate_table(lines)
 
     else:
         applications = item['applications']

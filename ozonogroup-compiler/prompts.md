@@ -44,9 +44,9 @@ quali batteri patogeni ci sono nell'industria [industria]. dammi una descrizione
 
 - lista completa delle applicazioni dell'ozono nell'industria [industria]. no descrizione, solo nome applicazioni
 
+1. dammi un elenco degli utensili più comuni utilizzati nell'industria ittica. formatta la risposta in una tabella a 2 colonne. nella prima collona lista questi utensili in ordine dal più comune al meno comune. nella seconda colonna lista quali sono i problemi più comuni in questi utensili in termine di contaminazione microbica. usa il minor numero di parole possibile.
 
-- scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente. la sezione deve essere lunga meno di 200 parole. non scrivere in formato lista. scrivi in formato discorsivo. usa frasi semplici, con una struttura dritta e in voce attiva. non aggiungere opinioni, scrivi solo i fatti.
-
+2. scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente. la sezione deve essere lunga meno di 200 parole. non scrivere in formato lista. scrivi in formato discorsivo. usa frasi semplici, con una struttura dritta e in voce attiva. non aggiungere opinioni, scrivi solo i fatti.
 
 
 
@@ -56,13 +56,6 @@ quali batteri patogeni ci sono nell'industria [industria]. dammi una descrizione
 ex. [problemi] = acque reflue
 - spiegami nel dettaglio e in modo esaustivo quali sono i problemi delle [problemi] nell'industria [industria]. dammi molte informazioni, dati e numeri.
 
-
-
-
-
-
-Quali sono le fasi della filiera produttiva nell'industria [industry]
-    per ognuna delle fase descritte nella tua ultima risposta, spiega brevemente come può essere impiegato l'ozono
 
 
 
@@ -78,15 +71,27 @@ lista dei funghi patogeni più comuni che si trovano nell'industria [industry]
 lista dei protozoi patogeni più comuni che si trovano nell'industria [industry]
 lista dei parassiti patogeni (insetti) più comuni che si trovano nell'industria [industry]
 
-quali sono i benefici dell'ozono nell'industria [industry]
-quali sono i possibili effetti negativi dell'ozono sui prodotti dell'industria [industry]
-
-
-- Quali sono le applicazioni dell'ozono nell'industria della quarta gamma? dammi sono una lista estensiva e completa delle applicazioni, senza descriverle. non ripetere gli stessi concetti tra gli elementi della lista.
-
-- perchè l'ozono inibisce la crescita di muffe sui prodotti della quarta gamma. includi dettagli, dati e numeri.
-- perchè le muffe sono un problema per i prodotti della quarta gamma. includi dettagli, dati e numeri.
 
 
 
+
+
+
+
+
+
+
+dammi un elenco dei 10 odori sgradevoli più comuni presenti negli ambienti dell'industria ittica. formatta la risposta in una tabella a 2 colonne. nella prima collona lista questi odori in ordine dal più comune al meno comune. nella seconda colonna scrivi per ogni odori una lista di problemi che questo odore causa. usa il minor numero di parole possibile.
+
+
+
+scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente. la sezione deve essere lunga circa di 200 parole. non scrivere in formato lista. scrivi in formato discorsivo. usa frasi semplici, con una struttura dritta e in voce attiva. non aggiungere opinioni, scrivi solo i fatti.
+
+
+
+dammi 2 liste diverse. nella prima lista elencami le attrezzature utilizzate nell'industria ittica. nella seconda lista elencami gli utensili utilizzati nell'industria ittica.
+
+
+
+dammi una tabella per ogni lista nella risposta precedente. ogni tabella ha 2 colonne. nella prima colonna riporta l'item della lista. nella seconda colonna dimmi perchè questo item è un problema in termini di sanificazione.
 

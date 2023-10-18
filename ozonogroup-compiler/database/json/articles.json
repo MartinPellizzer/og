@@ -802,53 +802,57 @@
         "applications_intro": [],
         "applications": [
             {
-                "title": "Rimozione dei batteri patogeni",
+                "title": "odori sgradevoli",
+                "description": [
+                    "L'ozono elimina gli odori sgradevoli dagli ambienti nell'industria ittica, come pesce in decomposizione, ammoniaca e acido solfidrico.",
+                    "Uno dei problemi più comuni è rappresentato dall'odore di pesce in decomposizione, che attira insetti indesiderati. L'ammoniaca è un altro odore comune, noto per essere irritante per le vie respiratorie dei lavoratori. L'acido solfidrico, emesso in alcune fasi del processo, può costituire un grave rischio per la salute umana.",
+                    "La presenza di pesce marcio nell'ambiente di lavoro può notevolmente ridurre il valore dei prodotti ittici. Muffa e alghe in decomposizione generano odori penetranti che incidono sulla qualità dell'ambiente di produzione. L'impiego di prodotti chimici può comportare potenziali rischi tossici, mentre il fango marino contribuisce a un cattivo odore nell'area di lavoro. L'anidride solforosa è sia irritante che tossica e i rifiuti organici generano costi aggiuntivi per lo smaltimento."
+                ],
                 "problems": []
             },
             {
-                "title": "Disinfezione delle superfici",
-                "problems": []
-            },
-            {
-                "title": "Conservazione delle carni",
-                "problems": []
-            },
-            {
-                "title": "acque reflue",
+                "title": "attrezzature",
+                "description": [
+                    "L'ozono sterilizza le attrezzature più comuni nell'industria ittica, come le reti da pesca, i conentitori per il trasporto e le linee di produzione.",
+                    "Le reti da pesca, ampiamente usate, spesso accumulano biofilm, batteri e virus, rappresentando un rischio per la qualità del pesce catturato. I contenitori per il trasporto possono essere soggetti a muffe e salmonella, mettendo a repentaglio la sicurezza alimentare. Le linee di produzione e i macchinari per la lavorazione possono diventare fonte di contaminazione da listeria ed E. coli. I congelatori possono ospitare Pseudomonas e vibrio, mentre i serbatoi di stoccaggio sono soggetti a Clostridium ed enterobatteri. Infine, le attrezzature utilizzate per la pulizia possono essere contaminate da salmonella e campylobacter, richiedendo rigorosi protocolli di igiene per garantire prodotti ittici sicuri per il consumo."
+                ],
                 "problems": [
                     {
-                        "type": "batteri",
+                        "type": "utensili",
                         "description": [
-                            "Le acque reflue dell'industria ittica possono ospitare diversi batteri patogeni, tra cui Escherichia coli e Salmonella, noti per causare malattie gastrointestinali nell'uomo. Questi agenti patogeni costituiscono una minaccia diretta per la salute umana quando le acque contaminate vengono, per esempio, utilizzate per l'irrigazione di coltivazioni.",
-                            "Inoltre, batteri come Vibrio parahaemolyticus e Campylobacter possono causare infezioni alimentari, portando a gravi disturbi gastro-intestinali. Questi contaminanti batterici possono anche avere un impatto negativo sull'ambiente, contribuendo all'inquinamento idrico e, nel caso di Vibrio parahaemolyticus, influenzare negativamente gli ecosistemi marini. Aeromonas hydrophila, invece, può causare infezioni della pelle e diarrea negli esseri umani, nonchè può avere impatti negativi sugli ecosistemi acquatici."
-                        ]
-                    },
-                    {
-                        "type": "virus",
-                        "description": [
-                            "Nelle acque reflue dell'industria ittica, diversi virus patogeni possono costituire una minaccia per la salute umana e l'ambiente. Tra i virus più comuni si trovano il Norovirus, responsabile di malattie gastrointestinali, e il virus dell'Epatite A, associato a disturbi epatici. Questi virus possono contaminare le acque e rappresentare un potenziale rischio di inquinamento idrico.",
-                            "Altri agenti patogeni rilevanti includono il Rotavirus, causa di infezioni intestinali, l'Adenovirus, che può causare infezioni respiratorie e oculari, e l'Enterovirus, responsabile di malattie gastroenteriche. La presenza di questi virus può avere un impatto significativo sull'ecosistema acquatico, alterando la qualità delle acque e influenzando la fauna acquatica. Gli Astrovirus, anch'essi comuni, sono associati a infezioni gastrointestinali e contribuiscono alla contaminazione biologica delle acque."
-                        ]
-                    },
-                    {
-                        "type": "funghi",
-                        "description": [
-                            "Nelle acque reflue dell'industria ittica, sono comuni diversi funghi patogeni. Tra i più diffusi troviamo Fusarium spp., Aspergillus spp., Candida spp., Penicillium spp. e Zygomycetes. Questi funghi possono rappresentare una minaccia per la salute umana, causando malattie cutanee, aspergillosi polmonare, infezioni sistemiche, asma bronchiale e infezioni invasive.",
-                            "Inoltre, essi costituiscono un serio problema per l'ambiente. La presenza di tali funghi può portare all'inquinamento delle acque, al deterioramento della qualità dell'acqua e all'alterazione degli ecosistemi acquatici. Questi impatti negativi possono minacciare la biodiversità e influire sugli organismi presenti nell'ambiente acquatico."
-                        ]
-                    },
-                    {
-                        "type": "parassiti",
-                        "description": [
-                            "Nelle acque reflue dell'industria ittica, si possono trovare vari parassiti patogeni. Questi includono parassiti comuni come Giardia e Cryptosporidium, noti per causare malattie gastrointestinali e infezioni negli esseri umani. Altri parassiti, come Toxoplasma e Acanthamoeba, possono causare problemi per salute umana, tra cui complicazioni neurologiche e oculari.",
-                            "Oltre agli impatti sulla salute umana, questi parassiti possono avere conseguenze ambientali significative. Possono contaminare le risorse idriche, influenzando la fauna acquatica e contribuendo all'inquinamento dell'acqua. La presenza di parassiti come Balantidium e Diphyllobothrium può anche minacciare la biodiversità locale e l'equilibrio degli ecosistemi acquatici."
+                            "L'ozono sterilizza gli utensili più comuni dell'industria ittica, come coltelli, pinze, taglieri, cestini per pesce e guanti.",
+                            "Per esempio, i coltelli spesso presentano una crescita batterica sulle lame, mentre le pinze e i taglieri possono sviluppare biofilm sulle superfici, rappresentando una minaccia per la sicurezza alimentare. Anche i cestini per pesce sono soggetti all'accumulo di batteri e i guanti possono contribuire alla contaminazione incrociata durante le operazioni. "
                         ]
                     }
                 ]
             },
             {
-                "title": "Riduzione degli antibiotici residui",
-                "problems": []
+                "title": "acque reflue",
+                "description": [],
+                "problems": [
+                    {
+                        "type": "patogeni",
+                        "description": [
+                            "Le acque reflue nell'industria ittica possono contenere vari microrganismi patogeni. Tra i più comuni, troviamo l'Escherichia coli, noto per causare infezioni gastrointestinali, e il Salmonella, responsabile della salmonellosi. Inoltre, il Vibrio cholerae può portare al colera, mentre il Campylobacter può causare enteriti.",
+                            "La presenza della Listeria monocytogenes nelle acque reflue è preoccupante, in quanto può provocare la listeriosi. Altri patogeni come l'Aeromonas hydrophila possono causare diarrea e infezioni delle ferite, mentre il Pseudomonas aeruginosa è associato a infezioni oculari e polmonari.",
+                            "In queste acque reflue, si possono trovare anche l'Enterococcus faecalis, che può causare infezioni urinarie, il Clostridium perfringens, noto per enteriti e avvelenamento alimentare, e la Giardia lamblia, responsabile della giardiasi. "
+                        ]
+                    },
+                    {
+                        "type": "odori",
+                        "description": [
+                            "L'ozono elimina gli odori presienti nelle acque reflue dell'industria ittica. L'odore di ammoniaca è una preoccupazione principale a causa della sua tossicità e del suo impatto negativo sull'ambiente circostante. Allo stesso modo, l'odore di solfuro di idrogeno è problematico a causa della sua tossicità e della sgradevolezza che crea nell'area circostante.",
+                            "La presenza di trimetilammina, un odore pungente, è un segnale di decadimento e deterioramento della qualità dell'acqua. L'odore di pesce in decomposizione è altrettanto sgradevole e indica una potenziale riduzione della qualità dell'acqua dovuta a problemi di gestione. L'acido solfidrico e i fenoli sono altresì problematici a causa della loro tossicità e del loro impatto negativo sull'ambiente circostante. Questi odori richiedono interventi immediati per preservare la qualità delle acque e proteggere la salute pubblica."
+                        ]
+                    },
+                    {
+                        "type": "contaminati organici",
+                        "description": [
+                            "L'ozono decompone i contaminati organici presenti nelle acque reflue dell'industria ittica. Tra questi, i grassi e oli risultano particolarmente diffusi, riducendo i livelli di ossigeno nell'acqua e comportando tossicità per la fauna acquatica. ",
+                            "Le proteine, provenienti dai residui di pesci, contribuiscono all'aumento di azoto nelle acque, alimentando la eutrofizzazione. L'ammoniaca, anch'essa presente, è tossica per la vita acquatica, mentre i mercaptani causano cattivo odore e sono tossici. Gli idrocarburi aromatici, sebbene meno comuni, costituiscono una preoccupazione per la loro tossicità e il potenziale cancerogeno nell'ambiente acquatico."
+                        ]
+                    }
+                ]
             }
         ]
     }
