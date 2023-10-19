@@ -425,6 +425,7 @@ def generate_featured_image(attribute):
     return image_filepath_out
 
 
+
 ###################################################################################################################
 # articles html
 ###################################################################################################################
@@ -520,7 +521,6 @@ def generate_home_html(home_articles):
         f.write(html)
 
 
-
 def get_csv_table(filepath):
     lines = []
     with open(filepath, encoding='utf-8') as f:
@@ -540,6 +540,8 @@ def generate_table(lines):
             text += f'| {line[0].capitalize()} | {line[1].capitalize()} |\n'
     text += f'\n'
     return text
+
+
 
 ###################################################################################################################
 # articles
@@ -564,8 +566,8 @@ for item in data:
     date = item['date']
     attribute = item['attribute']
 
-    # TODO: remove
-    if 'ittica' not in attribute: continue
+    # # TODO: remove
+    # if 'ittica' not in attribute: continue
     
     folders = attribute.split('/')
     path = ''
@@ -581,7 +583,6 @@ for item in data:
 
     if 'applicazioni' in attribute: 
         applications = item['applications']
-        applications_intro = item['applications_intro']
 
         # title
         title = f'{len(applications)} Applicazioni dell\'Ozono nell\'Industria {industry_ad}{industry.title()}'
@@ -592,8 +593,10 @@ for item in data:
         article += f'![tesst]({img_filepath} "Title")\n\n'
         
         # intro 
+        applications_intro = item['applications_intro']
         article +=  '\n\n'.join(applications_intro) + '\n\n'
         applications_titles = [application["title"] for application in applications]
+        article += f'In questo articolo vengono descritte nel dettaglio le applicazioni dell\'ozono nell\'industria {industry_ad}{industry} elencate nella seguente lista.\n\n'
         article += lst_to_blt(applications_titles) + '\n\n'
 
         # list
@@ -601,12 +604,11 @@ for item in data:
             article += f'## {i+1}. {application["title"].capitalize()}\n\n'
             article += '\n\n'.join(application['description']) + '\n\n'
             application_title = application['title'].replace(' ', '-')
-            lines = get_csv_table(f'database/tables/{industry}/{application_title}/{application_title}.csv')
+            
+            try: application_table = application['table'].replace(' ', '-')
+            except: continue
+            lines = get_csv_table(f'database/tables/{industry}/{application_table}/{application_table}.csv')
             article += generate_table(lines)
-
-
-            # # TODO: remove
-            # if 'reflue' not in application['title']: continue
 
             for problem in application['problems']:
                 article += f'### {problem["type"].title()}\n\n'

@@ -33,11 +33,90 @@ L'industria agroalimentare è estremamente vasta e comprende numerosi settori. E
 30. **Industria dell'olio d'oliva**: Produzione di olio d'oliva.
 Questi sono solo alcuni dei settori nell'industria agroalimentare. La lista completa è molto più ampia e varia a seconda dei paesi e delle tendenze di consumo.
 
-# applicazioni ---------------------------------------------------------------------------------------------------
+# applicazioni 
+# -------------------------------------------------------------------------------------------------
+1. 
+lista di 30 applicazioni dell'ozono nell'industria [industria]. non aggiungere descrizioni.
+
+# -------------------------------------------------------------------------------------------------
+2. 
+- lista di applicazioni dell'ozono per [applicazione] nell'industria [industria]. non aggiungere descrizioni.
+- lista di microbi patogeni nell'industria [industria]. non aggiungere descrizioni.
+
+
+3. 
+dammi una lista delle applicazioni dell'ozono per la Disinfezione dell'aria negli ambienti nell'industria della fungicoltura. in questa lista includi nel seguente ordine:
+
+- Sterilizzazione delle camere di coltivazione dei funghi.
+- Riduzione dei contaminanti microbiologici nell'aria.
+- Eliminazione di spore di muffe e batteri nell'aria.
+- Controllo degli odori sgradevoli nelle strutture di coltivazione.
+- Inattivazione di patogeni nocivi per le coltivazioni di funghi.
+- Prolungamento della durata di conservazione dei prodotti fungini.
+- Prevenzione delle malattie fungine nelle coltivazioni.
+- Miglioramento della qualità dell'aria nelle strutture di coltivazione.
+- Eliminazione di microrganismi indesiderati per una crescita sana dei funghi.
+- Controllo delle infezioni crociate tra le diverse coltivazioni di funghi.
+
+per ogni elemento nella lista scrivi 3-5 esempi. non numerare gli esempi. usa meno parole possibili.
+
+metti tutti i dati in formato tabella. la tabella deve aver solo 2 colonne.
+
+------------------------------------------------------------------------------------------
+
+dammi una lista delle applicazioni dell'ozono per la Disinfezione dell'aria negli ambienti nell'industria della fungicoltura. in questa lista includi nel seguente ordine:
+
+- Sterilizzazione delle camere di coltivazione dei funghi.
+- Riduzione dei contaminanti microbiologici nell'aria.
+- Eliminazione di spore di muffe e batteri nell'aria.
+- Controllo degli odori sgradevoli nelle strutture di coltivazione.
+- Inattivazione di patogeni nocivi per le coltivazioni di funghi.
+- Prolungamento della durata di conservazione dei prodotti fungini.
+- Prevenzione delle malattie fungine nelle coltivazioni.
+- Miglioramento della qualità dell'aria nelle strutture di coltivazione.
+- Eliminazione di microrganismi indesiderati per una crescita sana dei funghi.
+- Controllo delle infezioni crociate tra le diverse coltivazioni di funghi.
+
+metti tutti i dati in formato tabella. la tabella deve aver solo 2 colonne. nella prima colonna scrivi le applicazioni. nella seconda colonna scrivi degli esempi per la relativa applicazioni (tutti nella stessa cella). non numerare gli esempi. usa il minor numero di parole possibili.
+
+---------------------------------------------------------------------------------------------------
+
+dammi una lista dei patogeni nell'industria ittica. in questa lista includi nel seguente ordine:
+
+- Salmonella
+- Escherichia coli (E. coli)
+- Vibrio parahaemolyticus
+- Listeria monocytogenes
+- Clostridium botulinum
+- Staphylococcus aureus
+- Vibrio vulnificus
+- Aeromonas hydrophila
+- Campylobacter spp.
+- Shigella spp.
+
+per ogni elemento nella lista scrivi 3-5 esempi di problemi di questi patogeni in questa industria. non numerare gli esempi. usa meno parole possibili.
+
+metti tutti i dati in formato tabella. la tabella deve aver solo 2 colonne.
+
+
+
+4. 
+scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente. la sezione deve essere lunga meno di 200 parole. non scrivere in formato lista. scrivi in formato discorsivo. usa frasi semplici, con una struttura dritta e in voce attiva. non aggiungere opinioni, scrivi solo i fatti.
+
+
+
+
+lista di applicazioni dell'ozono per l'acqua di processo nell'industria ittica. non aggiungere descrizioni.
+
+
+
+
+
+
 Quali sono le applicazioni dell'ozono nell'industria [industry]
 
 
-- utilizzo dell'ozono [applicazione] nell'industria [industria]. dammi una descrizione dettagliata, con dati e numeri
+2. utilizzo dell'ozono [applicazione] nell'industria [industria]. dammi una descrizione dettagliata, con dati e numeri
 
 lista dei problemi causati da [patogeno]. dammi una descrizione dettagliata, con dati, numeri, e informazioni
 quali batteri patogeni ci sono nell'industria [industria]. dammi una descrizione dettagliata, con dati e numeri

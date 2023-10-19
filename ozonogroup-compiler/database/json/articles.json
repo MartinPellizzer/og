@@ -578,8 +578,7 @@
             "L'ozono (O3) viene applicato nell'industria lattiero-casearia per eliminare batteri, inibire muffe, e rimuovere gli odori da ambienti, superfici e acque reflue.",
             "Infatti, il gas O3 è efficace nella rimozione di pericolosi batteri patogeni come Salmonella, Escherichia coli e Listeria, riducendo il rischio di infezioni alimentari gravi. Inoltre, impedisce la proliferazione di muffe come Penicillium e lieviti nocivi come Candida, migliorando la qualità dei prodotti e riducendo i rischi per la salute umana.",
             "Questo gas è anche in grado di eliminare gli odori sgradevoli legati ai processi di produzione, migliorando le condizioni di lavoro e prevenendo l'esposizione a composti chimici irritanti. In aggiunta, viene utilizzato per rimuovere contaminanti organici, nutrienti e microrganismi dalle acque reflue, evitando l'inquinamento ambientale e consentendo il rispetto delle normative.",
-            "Infine, un altra applicazione importante è quella della disinfezione delle superfici, dove l'O3 viene usato per ridurre il rischio di contaminazioni batteriche e microbiologiche, prevenendo la contaminazione incrociata e garantendo la qualità e la sicurezza dei prodotti lattiero-caseari.",
-            "In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono relative all'industria lattiero-casearia elencate nella seguente lista."
+            "Infine, un altra applicazione importante è quella della disinfezione delle superfici, dove l'O3 viene usato per ridurre il rischio di contaminazioni batteriche e microbiologiche, prevenendo la contaminazione incrociata e garantendo la qualità e la sicurezza dei prodotti lattiero-caseari."
         ],
         "applications": [
             {
@@ -733,14 +732,13 @@
         "section": "core",
         "entity": "ozono",
         "attribute": "lavorazione-carni/applicazioni",
-        "industry": "lavorazione-carni",
-        "industry_ad": "",
+        "industry": "lavorazione carni",
+        "industry_ad": "della ",
         "applications_intro": [
             "L'ozono (O3) è un agente versatile nell'industria della lavorazione delle carni, poiché svolge un ruolo chiave nella rimozione dei batteri patogeni dalla superficie della carne, riducendo il rischio di infezioni alimentari gravi. ",
             "Il gas O3 è efficace nella disinfezione delle superfici e delle attrezzature, contribuendo a prevenire la contaminazione incrociata tra carne cruda e cotta, migliorando la sicurezza alimentare e la qualità del prodotto. Inoltre, vinene anche utilizzato per estendere la conservazione della carne, riducendo gli sprechi e i costi associati alla sostituzione di prodotti scaduti, contribuendo così a combattere lo spreco alimentare. ",
             "Nel settore delle acque reflue, l'ozono è impiegato per trattare gli effluenti dell'industria della carne, decomponendo inquinanti organici e batteri patogeni, migliorando la qualità dell'acqua trattata e riducendo gli odori sgradevoli.",
-            "Infine, contribuisce a ridurre gli antibiotici residui nelle carni, mitigando i rischi per la salute umana e la resistenza antimicrobica. Il suo utilizzo è economico, consentendo alle aziende di gestire meglio i costi di produzione e migliorare l'efficienza operativa. ",
-            "In questo articolo vengono descritte le applicazioni dell'ozono nell'industria della lavorazione carni elencate nella seguente lista."
+            "Infine, contribuisce a ridurre gli antibiotici residui nelle carni, mitigando i rischi per la salute umana e la resistenza antimicrobica. Il suo utilizzo è economico, consentendo alle aziende di gestire meglio i costi di produzione e migliorare l'efficienza operativa. "
         ],
         "applications": [
             {
@@ -793,66 +791,93 @@
     },
     {
         "status": "published",
-        "date": "16/10/2023",
+        "date": "19/10/2023",
         "section": "core",
         "entity": "ozono",
         "attribute": "ittica/applicazioni",
         "industry": "ittica",
         "industry_ad": "",
-        "applications_intro": [],
+        "applications_intro": [
+            "Nell'industria ittica, l'ozono è una risorsa essenziale per affrontare diverse sfide legate alla sicurezza alimentare, alla sanificazione dell'aria e alla sterilizzazione delle superfici di lavoro. Inoltre, trova impiego nella disinfezione dell'acqua di processo e nel trattamento delle acque reflue.",
+            "Per quanto riguarda la rimozione di microbi patogeni, l'ozono è un potente alleato contro patogeni come Salmonella, Escherichia coli (E. coli), Vibrio parahaemolyticus, Listeria monocytogenes e Clostridium botulinum, responsabili di intossicazioni alimentari e malattie gastrointestinali. Altri patogeni comuni, come Staphylococcus aureus, Vibrio vulnificus, Aeromonas hydrophila, Campylobacter spp. e Shigella spp., sono gestiti con efficacia. Questo contribuisce in modo significativo a migliorare la sicurezza alimentare nel settore ittico.",
+            "Nell'ambito della purificazione dell'aria, l'ozono è impiegato in camere frigorifere, luoghi di lavorazione del pesce, impianti di depurazione dell'acqua e produzione di ghiaccio. Questo gas elimina odori indesiderati, purifica l'aria da vapori di pesce e riduce la contaminazione microbiologica, contribuendo al prolungamento della shelf-life del pesce e al mantenimento della sua freschezza.",
+            "La sterilizzazione delle superfici di lavoro è cruciale per mantenere l'igiene durante la lavorazione del pesce. L'ozono viene utilizzato per sterilizzare attrezzature, tavoli da lavoro, macchinari, recipienti e contenitori, garantendo la massima sicurezza.",
+            "Nel trattamento dell'acqua di processo, l'ozono riduce patogeni come Salmonella, E. coli e Vibrio, elimina odori sgradevoli associati alla decomposizione del pesce, e controlla le alghe e i parassiti che potrebbero danneggiare gli stock ittici. Inoltre, decolora l'acqua e rimuove metalli pesanti, migliorando la qualità dell'acqua utilizzata nell'industria ittica.",
+            "Infine, nell'ambito del trattamento delle acque reflue, l'ozono svolge un ruolo fondamentale nella disinfezione dell'acqua, rimuovendo patogeni e contaminanti organici. Contribuisce anche alla riduzione di solidi sospesi, metalli pesanti e odori sgradevoli, migliorando la qualità dell'acqua e riducendo il volume complessivo dei fanghi."
+        ],
         "applications": [
             {
-                "title": "odori sgradevoli",
+                "table": "patogeni",
+                "title": "Rimozione di microbi patogeni",
                 "description": [
-                    "L'ozono elimina gli odori sgradevoli dagli ambienti nell'industria ittica, come pesce in decomposizione, ammoniaca e acido solfidrico.",
-                    "Uno dei problemi più comuni è rappresentato dall'odore di pesce in decomposizione, che attira insetti indesiderati. L'ammoniaca è un altro odore comune, noto per essere irritante per le vie respiratorie dei lavoratori. L'acido solfidrico, emesso in alcune fasi del processo, può costituire un grave rischio per la salute umana.",
-                    "La presenza di pesce marcio nell'ambiente di lavoro può notevolmente ridurre il valore dei prodotti ittici. Muffa e alghe in decomposizione generano odori penetranti che incidono sulla qualità dell'ambiente di produzione. L'impiego di prodotti chimici può comportare potenziali rischi tossici, mentre il fango marino contribuisce a un cattivo odore nell'area di lavoro. L'anidride solforosa è sia irritante che tossica e i rifiuti organici generano costi aggiuntivi per lo smaltimento."
+                    "Nell'industria ittica, la presenza di patogeni costituisce una seria minaccia per la sicurezza alimentare. Quindi, un trattamento di sanificazione efficace, come l'ozono, è necessario.",
+                    "Tra i principali patogeni identificati, la Salmonella può causare intossicazioni alimentari, infezioni e richiami di prodotti. L'Escherichia coli (E. coli) è noto per la contaminazione fecale e provoca diarrea e malattie gastrointestinali. Il Vibrio parahaemolyticus è associato a infezioni gastrointestinali, con sintomi quali diarrea e nausea. La Listeria monocytogenes è responsabile di meningite, aborti spontanei, sepsi e intossicazioni alimentari. Il Clostridium botulinum è altamente pericoloso, causando intossicazioni alimentari gravi, paralisi muscolare e morte. ",
+                    "Altri patogeni comuni includono il Staphylococcus aureus, il Vibrio vulnificus, l'Aeromonas hydrophila, il Campylobacter spp. e lo Shigella spp., ciascuno con i propri rischi di infezione, dalla gastroenterite alla sepsi e altro."
                 ],
                 "problems": []
             },
             {
-                "title": "attrezzature",
+                "table": "aria-ambienti",
+                "title": "Purificazione dell'aria negli ambienti",
                 "description": [
-                    "L'ozono sterilizza le attrezzature più comuni nell'industria ittica, come le reti da pesca, i conentitori per il trasporto e le linee di produzione.",
-                    "Le reti da pesca, ampiamente usate, spesso accumulano biofilm, batteri e virus, rappresentando un rischio per la qualità del pesce catturato. I contenitori per il trasporto possono essere soggetti a muffe e salmonella, mettendo a repentaglio la sicurezza alimentare. Le linee di produzione e i macchinari per la lavorazione possono diventare fonte di contaminazione da listeria ed E. coli. I congelatori possono ospitare Pseudomonas e vibrio, mentre i serbatoi di stoccaggio sono soggetti a Clostridium ed enterobatteri. Infine, le attrezzature utilizzate per la pulizia possono essere contaminate da salmonella e campylobacter, richiedendo rigorosi protocolli di igiene per garantire prodotti ittici sicuri per il consumo."
+                    "Nell'industria ittica, l'ozono trova diverse applicazioni cruciali per la sanificazione dell'aria negli ambienti di produzione e conservazione. ",
+                    "Le camere frigorifere beneficiano dell'ozonizzazione per mantenere la freschezza del pesce, prolungare la shelf-life e neutralizzare odori indesiderati. Nei luoghi di lavorazione del pesce, purifica l'aria rimuovendo vapori di pesce e riducendo la contaminazione microbiologica, migliorando la sicurezza alimentare. Gli impianti di depurazione dell'acqua impiegano questo gas per eliminare microbi, batteri e contaminanti. Gli impianti di produzione di ghiaccio lo utilizzano per garantire la produzione di ghiaccio igienico per il pesce. ",
+                    "L'ozono elimina gli odori sgradevoli negli stabilimenti ittici e contribuisce anche a rimuovere contaminanti microbiologici nell'aria, nonchè a prevenire la formazione di muffe e batteri sulle superfici. Durante il trasporto del pesce, la sanificazione dei veicoli è essenziale per evitare la contaminazione crociata. Nei magazzini di stoccaggio del pesce, questo gas aiuta a mantenere la qualità del pesce durante il periodo di conservazione, svolgendo un ruolo critico nell'assicurare la freschezza e la sicurezza alimentare in tutta l'industria ittica."
                 ],
-                "problems": [
-                    {
-                        "type": "utensili",
-                        "description": [
-                            "L'ozono sterilizza gli utensili più comuni dell'industria ittica, come coltelli, pinze, taglieri, cestini per pesce e guanti.",
-                            "Per esempio, i coltelli spesso presentano una crescita batterica sulle lame, mentre le pinze e i taglieri possono sviluppare biofilm sulle superfici, rappresentando una minaccia per la sicurezza alimentare. Anche i cestini per pesce sono soggetti all'accumulo di batteri e i guanti possono contribuire alla contaminazione incrociata durante le operazioni. "
-                        ]
-                    }
-                ]
+                "problems": []
             },
             {
-                "title": "acque reflue",
-                "description": [],
-                "problems": [
-                    {
-                        "type": "patogeni",
-                        "description": [
-                            "Le acque reflue nell'industria ittica possono contenere vari microrganismi patogeni. Tra i più comuni, troviamo l'Escherichia coli, noto per causare infezioni gastrointestinali, e il Salmonella, responsabile della salmonellosi. Inoltre, il Vibrio cholerae può portare al colera, mentre il Campylobacter può causare enteriti.",
-                            "La presenza della Listeria monocytogenes nelle acque reflue è preoccupante, in quanto può provocare la listeriosi. Altri patogeni come l'Aeromonas hydrophila possono causare diarrea e infezioni delle ferite, mentre il Pseudomonas aeruginosa è associato a infezioni oculari e polmonari.",
-                            "In queste acque reflue, si possono trovare anche l'Enterococcus faecalis, che può causare infezioni urinarie, il Clostridium perfringens, noto per enteriti e avvelenamento alimentare, e la Giardia lamblia, responsabile della giardiasi. "
-                        ]
-                    },
-                    {
-                        "type": "odori",
-                        "description": [
-                            "L'ozono elimina gli odori presienti nelle acque reflue dell'industria ittica. L'odore di ammoniaca è una preoccupazione principale a causa della sua tossicità e del suo impatto negativo sull'ambiente circostante. Allo stesso modo, l'odore di solfuro di idrogeno è problematico a causa della sua tossicità e della sgradevolezza che crea nell'area circostante.",
-                            "La presenza di trimetilammina, un odore pungente, è un segnale di decadimento e deterioramento della qualità dell'acqua. L'odore di pesce in decomposizione è altrettanto sgradevole e indica una potenziale riduzione della qualità dell'acqua dovuta a problemi di gestione. L'acido solfidrico e i fenoli sono altresì problematici a causa della loro tossicità e del loro impatto negativo sull'ambiente circostante. Questi odori richiedono interventi immediati per preservare la qualità delle acque e proteggere la salute pubblica."
-                        ]
-                    },
-                    {
-                        "type": "contaminati organici",
-                        "description": [
-                            "L'ozono decompone i contaminati organici presenti nelle acque reflue dell'industria ittica. Tra questi, i grassi e oli risultano particolarmente diffusi, riducendo i livelli di ossigeno nell'acqua e comportando tossicità per la fauna acquatica. ",
-                            "Le proteine, provenienti dai residui di pesci, contribuiscono all'aumento di azoto nelle acque, alimentando la eutrofizzazione. L'ammoniaca, anch'essa presente, è tossica per la vita acquatica, mentre i mercaptani causano cattivo odore e sono tossici. Gli idrocarburi aromatici, sebbene meno comuni, costituiscono una preoccupazione per la loro tossicità e il potenziale cancerogeno nell'ambiente acquatico."
-                        ]
-                    }
-                ]
+                "table": "superfici-lavoro",
+                "title": "Sterilizzazione delle superfici di lavoro",
+                "description": [
+                    "Nell'industria ittica, l'ozono trova ampie applicazioni per la disinfezione delle attrezzature. Attrezzature come coltelli, taglieri e forbici vengono sterilizzati per garantire la massima igiene durante la lavorazione del pesce. I tavoli da lavoro e le superfici di taglio, insieme ai piani di lavoro, vengono attentamente decontaminati.",
+                    "I macchinari utilizzati per trasformare il pesce, come le affettatrici e le macchine per il filettamento, vengono puliti e disinfettati per evitare la contaminazione incrociata. Inoltre, i recipienti e i contenitori utilizzati per il trasporto e lo stoccaggio del pesce vengono sterilizzati per preservare la freschezza del prodotto.",
+                    "Nelle fasi di confezionamento, l'ozono sanifica gli impianti, come i nastri trasportatori e le macchine per il confezionamento sottovuoto. Anche le superfici di stoccaggio, come ripiani e scaffali, vengono attentamente decontaminate.",
+                    "Nei punti di preparazione del pesce e nelle pescherie, è utilizzato per garantire una sterilizzazione completa. Infine, svolge un ruolo cruciale nella disinfezione delle attrezzature utilizzate per la produzione di alimenti ittici e nella sanificazione delle aree di vendita al dettaglio, come banconi e vetrine frigorifere."
+                ],
+                "problems": []
+            },
+            {
+                "table": "acqua-processo",
+                "title": "Disinfezione dell'acqua di processo",
+                "description": [
+                    "L'ozono trova ampie applicazioni nell'industria ittica per migliorare la qualità dell'acqua di processo. La sua capacità di ridurre i patogeni come Salmonella, E. coli e Vibrio è essenziale per garantire la sicurezza alimentare. Inoltre, l'ozono elimina contaminanti organici, come composti organici volatili, contribuendo a mantenere l'acqua in condizioni ottimali.",
+                    "Questo gas ossidante svolge un ruolo cruciale nella rimozione di odori sgradevoli, spesso associati alla decomposizione del pesce o alla presenza di alghe. Inoltre, il controllo delle alghe e dei parassiti come i copepodi è fondamentale per prevenire danni agli stock ittici.",
+                    "L'ozono è in grado di decolorare l'acqua, rimuovendo colori indesiderati. Infine, contribuisce alla rimozione di metalli pesanti come il mercurio, il cadmio e il piombo, migliorando la qualità dell'acqua utilizzata nell'industria ittica. Questi benefici dimostrano l'importanza dell'ozono nel processo di disinfezione dell'acqua di processo per l'industria ittica."
+                ],
+                "problems": []
+            },
+            {
+                "table": "acque-reflue",
+                "title": "Trattamento delle acque reflue",
+                "description": [
+                    "Nell'industria ittica, l'ozono svolge un ruolo fondamentale nella disinfezione dell'acqua di processo. Questo potente ossidante è utilizzato per eliminare patogeni come batteri, virus e protozoi, garantendo che l'acqua sia sicura per l'uso. Inoltre, l'ozono è efficace nella rimozione di contaminanti organici come olio, grasso e proteine, contribuendo alla purificazione dell'acqua.",
+                    "Grazie alle sue proprietà di ossidazione, l'ozono riduce i solidi sospesi nell'acqua, migliorando la sua qualità. Inoltre, è in grado di rimuovere metalli pesanti come mercurio, piombo e cadmio, contribuendo alla riduzione di inquinanti dannosi. Oltre a ciò, l'ozono riduce odori sgradevoli, come quelli associati al processo ittico, e può essere impiegato per la decolorazione delle acque reflue, eliminando il colore indesiderato.",
+                    "Infine, l'ozono trova applicazione nel trattamento dei fanghi, contribuendo alla riduzione del loro volume complessivo."
+                ],
+                "problems": []
+            }
+        ]
+    },
+    {
+        "status": "published",
+        "date": "19/10/2023",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "fungicoltura/applicazioni",
+        "industry": "fungicoltura",
+        "industry_ad": "della ",
+        "applications_intro": [],
+        "applications": [
+            {
+                "table": "aria",
+                "title": "Disinfezione dell'aria negli ambienti",
+                "description": [
+                    "Nell'industria fungicoltura, l'ozono viene utilizzato per sterilizzare le camere di coltivazione dei funghi, garantendo un ambiente privo di contaminanti. Inoltre, l'ozono riduce i contaminanti microbiologici nell'aria, eliminando spore di muffe e batteri, contribuendo a preservare la purezza dell'ambiente.",
+                    "Un'altra applicazione cruciale è il controllo degli odori sgradevoli all'interno delle strutture di coltivazione. L'ozono neutralizza gli odori di ammoniaca e altre sostanze provenienti dalla decomposizione organica. Inoltre, l'ozono inattiva patogeni nocivi per le coltivazioni, come il Verticillium, proteggendo la salute delle colture.",
+                    "L'ozono aiuta anche a prolungare la durata di conservazione dei prodotti fungini, riducendo la contaminazione microbiologica e prevenendo malattie fungine. Migliora la qualità dell'aria rimuovendo allergeni e agenti irritanti. Inoltre, elimina microrganismi indesiderati che potrebbero compromettere la crescita dei funghi e previene la diffusione di infezioni crociate tra le diverse coltivazioni, garantendo un ambiente sano e ottimale per la crescita dei funghi."
+                ],
+                "problems": []
             }
         ]
     }
