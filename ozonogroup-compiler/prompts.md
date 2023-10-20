@@ -174,3 +174,6 @@ dammi 2 liste diverse. nella prima lista elencami le attrezzature utilizzate nel
 
 dammi una tabella per ogni lista nella risposta precedente. ogni tabella ha 2 colonne. nella prima colonna riporta l'item della lista. nella seconda colonna dimmi perchè questo item è un problema in termini di sanificazione.
 
+
+
+
