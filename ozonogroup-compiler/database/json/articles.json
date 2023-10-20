@@ -925,5 +925,51 @@
                 "problems": []
             }
         ]
+    },
+    {
+        "status": "published",
+        "date": "20/10/2023",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "vitivinicola/applicazioni",
+        "industry": "vitivinicola",
+        "industry_ad": "",
+        "applications_intro": [],
+        "applications": [
+            {
+                "table": "patogeni",
+                "title": "Rimozione di microrganismi patogeni",
+                "description": [],
+                "problems": []
+            },
+            {
+                "table": "aria-ambienti",
+                "title": "Disinfezione dell'aria negli ambienti",
+                "description": [],
+                "problems": []
+            },
+            {
+                "table": "superfici-lavoro",
+                "title": "Sterilizzazione delle superfici di lavoro",
+                "description": [],
+                "problems": []
+            },
+            {
+                "table": "acqua-processo",
+                "title": "Disinfezione dell'acqua di processo",
+                "description": [],
+                "problems": []
+            },
+            {
+                "table": "acque-reflue",
+                "title": "Trattamento delle acque reflue",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria vitivinicola. ",
+                    "L'inattivazione di microrganismi patogeni, come batteri, virus e lieviti, è fondamentale per garantire l'igiene e la sicurezza delle acque di scarico. Inoltre, l'O3 è efficace nella rimozione di composti organici, tra cui idrocarburi, composti fenolici e solventi, contribuendo alla depurazione delle acque reflue. Il trattamento dei solidi sospesi, come sedimenti e particelle in sospensione, è un'altra applicazione chiave per migliorare la qualità dell'acqua. ",
+                    "In aggiunta, questo gas è impiegato per eliminare odori sgradevoli, come quelli di zolfo, ammoniaca e composti acri, insieme alla rimozione di sostanze coloranti, tra cui coloranti naturali, coloranti artificiali e pigmenti. La degradazione di disinfettanti chimici, quali cloro, cloramine e biossido di cloro, è cruciale per evitare residui nocivi. Infine, questo agente sanificante è utilizzato per la rimozione di pesticidi e erbicidi, nonché per l'ossidazione di metalli pesanti, tra cui piombo, cadmio e mercurio. Queste applicazioni contribuiscono a rendere sostenibile il processo di trattamento delle acque reflue nell'industria vinicola."
+                ],
+                "problems": []
+            }
+        ]
     }
 ]
