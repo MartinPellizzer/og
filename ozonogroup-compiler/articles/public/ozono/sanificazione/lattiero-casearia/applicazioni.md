@@ -1,6 +1,6 @@
 # 5 Applicazioni dell'Ozono nell'Industria Lattiero-Casearia 
 
-![tesst](/assets/images/lattiero-casearia-applicazioni-featured.jpg "Title")
+![5 Applicazioni dell'Ozono nell'Industria Lattiero-Casearia](/assets/images/lattiero-casearia-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Lattiero-Casearia")
 
 L'ozono (O3) viene applicato nell'industria lattiero-casearia per eliminare batteri, inibire muffe, e rimuovere gli odori da ambienti, superfici e acque reflue.
 

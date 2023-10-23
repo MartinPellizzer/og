@@ -1,6 +1,6 @@
 # 5 Applicazioni dell'Ozono nell'Industria Ittica 
 
-![tesst](/assets/images/ittica-applicazioni-featured.jpg "Title")
+![5 Applicazioni dell'Ozono nell'Industria Ittica](/assets/images/ittica-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Ittica")
 
 Nell'industria ittica, l'ozono è una risorsa essenziale per affrontare diverse sfide legate alla sicurezza alimentare, alla sanificazione dell'aria e alla sterilizzazione delle superfici di lavoro. Inoltre, trova impiego nella disinfezione dell'acqua di processo e nel trattamento delle acque reflue.
 

@@ -1,6 +1,6 @@
 # 10 Applicazioni dell'Ozono nell'Industria della Quarta Gamma 
 
-![tesst](/assets/images/quarta-gamma-applicazioni-featured.jpg "Title")
+![10 Applicazioni dell'Ozono nell'Industria della Quarta Gamma](/assets/images/quarta-gamma-applicazioni-featured.jpg "10 Applicazioni dell'Ozono nell'Industria della Quarta Gamma")
 
 L'ozono (O3) inattiva i microrganismi, elimina gli odori e prolunga la durata dei prodotti della quarta gamma.
 

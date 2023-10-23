@@ -429,7 +429,7 @@ def generate_featured_image(attribute):
 ###################################################################################################################
 # articles html
 ###################################################################################################################
-def generate_article_html(date, attribute, article):
+def generate_article_html(date, attribute, article, title):
     with open(f'articles/public/ozono/sanificazione/{attribute}.md', 'w', encoding='utf-8') as f:
         f.write(article)
 
@@ -460,7 +460,7 @@ def generate_article_html(date, attribute, article):
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="/style-blog.css">
-            <title>Document</title>
+            <title>{title}</title>
         </head>
 
         <body>
@@ -565,6 +565,7 @@ for item in data:
 
     date = item['date']
     attribute = item['attribute']
+    entity = item['entity']
 
     # # TODO: remove
     # if 'ittica' not in attribute: continue
@@ -589,8 +590,11 @@ for item in data:
         article += f'# {title} \n\n'
 
         # image
-        img_filepath = generate_featured_image(attribute)
-        article += f'![tesst]({img_filepath} "Title")\n\n'
+        try:
+            img_filepath = generate_featured_image(attribute)
+            article += f'![{title}]({img_filepath} "{title}")\n\n'
+        except:
+            print(f'WARNING: missing image > {attribute}')
         
         # intro 
         applications_intro = item['applications_intro']
@@ -850,7 +854,7 @@ for item in data:
 
 
     # generate html
-    generate_article_html(date, attribute, article)
+    generate_article_html(date, attribute, article, title)
 
     home_article = {
         'href': f'/ozono/sanificazione/{attribute}.html',

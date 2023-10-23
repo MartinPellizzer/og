@@ -38,13 +38,13 @@ Date la seguente lista di applicazioni dell'ozono per il trattamento delle acque
 dai 3-5 esempi per ogni elemento della lista.
 
 - Inattivazione di microrganismi patogeni
-- Rimozione di composti organici
-- Trattamento di solidi sospesi
-- Eliminazione di odori sgradevoli
+- Rimozione di contaminanti organici
+- Diminuzione di solidi sospesi
+- Abbattimento di odori sgradevoli
 - Eliminazione di sostanze coloranti
-- Degradazione di disinfettanti chimici
-- Rimozione di pesticidi
-- Rimozione di erbicidi
+- Decadimento di disinfettati chimici
+- Riduzione di prodotti farmaceutici
+- Rimozione di pesticidi ed erbicidi
 - Ossidazione di metalli pesanti
 
 Usa il minore numero di parole possibili per gli esempi.

@@ -1,6 +1,6 @@
 # 5 Applicazioni dell'Ozono nell'Industria della Fungicoltura 
 
-![tesst](/assets/images/fungicoltura-applicazioni-featured.jpg "Title")
+![5 Applicazioni dell'Ozono nell'Industria della Fungicoltura](/assets/images/fungicoltura-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria della Fungicoltura")
 
 L'ozono viene impiegato nell'industria della fungicoltura per la rimozione di microrganismi patogeni che possono compromettere la salute dei funghi coltivati. Questi includono Trichoderma spp., Verticillium fungicola e contaminanti batterici come Pseudomonas spp., che possono competere per nutrienti, causare decomposizione dei substrati e ridurre la resa.
 

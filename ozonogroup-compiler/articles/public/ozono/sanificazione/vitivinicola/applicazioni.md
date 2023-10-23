@@ -1,6 +1,6 @@
 # 5 Applicazioni dell'Ozono nell'Industria Vitivinicola 
 
-![tesst](/assets/images/vitivinicola-applicazioni-featured.jpg "Title")
+![5 Applicazioni dell'Ozono nell'Industria Vitivinicola](/assets/images/vitivinicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Vitivinicola")
 
 
 

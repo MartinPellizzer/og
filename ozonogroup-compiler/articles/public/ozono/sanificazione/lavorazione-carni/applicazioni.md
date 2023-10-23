@@ -1,6 +1,6 @@
 # 5 Applicazioni dell'Ozono nell'Industria della Lavorazione Carni 
 
-![tesst](/assets/images/lavorazione-carni-applicazioni-featured.jpg "Title")
+![5 Applicazioni dell'Ozono nell'Industria della Lavorazione Carni](/assets/images/lavorazione-carni-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria della Lavorazione Carni")
 
 L'ozono (O3) è un agente versatile nell'industria della lavorazione delle carni, poiché svolge un ruolo chiave nella rimozione dei batteri patogeni dalla superficie della carne, riducendo il rischio di infezioni alimentari gravi. 
 

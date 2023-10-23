@@ -1,5 +1,5 @@
-
-vino
-birra
-pollame
-salumi
+vitivinicola
+birraria
+avicola
+salumiera
+cerealicola

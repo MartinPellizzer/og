@@ -971,5 +971,93 @@
                 "problems": []
             }
         ]
+    },
+    {
+        "status": "published",
+        "date": "",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "birraria/applicazioni",
+        "industry": "birraria",
+        "industry_ad": "",
+        "applications_intro": [],
+        "applications": [
+            {
+                "table": "acque-reflue",
+                "title": "Trattamento delle acque reflue",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria birraria. Per esempio, inattiva microrganismi patogeni come Salmonella, E. coli e coliformi fecali, garantendo che l'acqua scaricata sia sicura per l'ambiente. Inoltre, rimuove contaminanti organici come oli e grassi, contribuendo a migliorare la qualità delle acque reflue. ",
+                    "La diminuzione dei solidi sospesi, quali sedimenti e particelle, è un altro vantaggio importante. Abbattendo odori sgradevoli come composti solforati e ammoniaca, l'ozono contribuisce anche a mitigare l'impatto ambientale. Inoltre, l'eliminazione di sostanze coloranti organiche e il decadimento dei disinfettanti chimici, come cloro e cloramina, sono parte integrante del processo. ",
+                    "L'O3 gioca un ruolo essenziale nella riduzione di prodotti farmaceutici, pesticidi ed erbicidi nelle acque reflue, mentre l'ossidazione di metalli pesanti come piombo, cadmio e mercurio contribuisce a proteggere l'ecosistema circostante."
+                ],
+                "problems": []
+            }
+        ]
+    },
+    {
+        "status": "published",
+        "date": "",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "avicola/applicazioni",
+        "industry": "avicola",
+        "industry_ad": "",
+        "applications_intro": [],
+        "applications": [
+            {
+                "table": "acque-reflue",
+                "title": "Trattamento delle acque reflue",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria avicola. In primo luogo, inattiva microrganismi patogeni come Salmonella, Escherichia coli e Campylobacter, rendendo l'acqua più sicura per il rilascio nell'ambiente. Inoltre, contribuisce alla rimozione di contaminanti organici come grasso, proteine ed idrocarburi, migliorando la qualità dell'acqua. ",
+                    "La diminuzione di solidi sospesi, compresi sedimenti e particelle solide, è un'altra applicazione chiave dell'O3, il quale riduce la turbidità delle acque reflue. Abbatte odori sgradevoli come l'idrogeno solforato (H2S) e l'ammoniaca, migliorando le condizioni ambientali circostanti, nonchè contribuisce anche all'eliminazione di sostanze coloranti come il cromo e l'anilina. ",
+                    "Questo gas è efficace nel decadimento di disinfettanti chimici come il cloro e contribuisce alla riduzione di prodotti farmaceutici e pesticidi nelle acque reflue. Infine, è utilizzato per l'ossidazione di metalli pesanti come il piombo, il cadmio e il mercurio, garantendo che le acque reflue soddisfino le normative ambientali."
+                ],
+                "problems": []
+            }
+        ]
+    },
+    {
+        "status": "published",
+        "date": "",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "salumiera/applicazioni",
+        "industry": "salumiera",
+        "industry_ad": "",
+        "applications_intro": [],
+        "applications": [
+            {
+                "table": "acque-reflue",
+                "title": "Trattamento delle acque reflue",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria salumiera. Per esempio, questo gas inattiva microrganismi patogeni come Salmonella, E. coli e Listeria, garantendo la sicurezza alimentare. Inoltre, elimina contaminanti organici come grassi, proteine e oli, riducendo l'inquinamento. ",
+                    "Il processo di ozonizzazione diminuisce i solidi sospesi e abbatte odori sgradevoli, migliorando la qualità delle acque reflue trattate. L'O3 ha anche dimostrato efficacia nell'eliminare sostanze coloranti e nel decadimento di disinfettanti chimici come il cloro. ",
+                    "Riduce la presenza di farmaci e pesticidi nelle acque reflue, contribuendo alla sostenibilità ambientale. Infine, l'ossidazione di metalli pesanti come cadmio, piombo e mercurio è un'ulteriore applicazione benefica."
+                ],
+                "problems": []
+            }
+        ]
+    },
+    {
+        "status": "published",
+        "date": "",
+        "section": "core",
+        "entity": "ozono",
+        "attribute": "cerealicola/applicazioni",
+        "industry": "cerealicola",
+        "industry_ad": "",
+        "applications_intro": [],
+        "applications": [
+            {
+                "table": "acque-reflue",
+                "title": "Trattamento delle acque reflue",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria cerealicola. Inattiva i microrganismi patogeni come batteri, virus e protozoi, e contribuisce alla rimozione di contaminanti organici come oli, grassi e idrocarburi, migliorando la qualità delle acque trattate. ",
+                    "La diminuzione di solidi sospesi, tra cui fango e particelle sospese, è un altro risultato positivo dell'uso dell'O3. Inoltre, abbatte odori sgradevoli, come ammoniaca e solfuri, creando ambienti di lavoro più salubri, nonchè elimina le sostanze coloranti, come coloranti artificiali e pigmenti, per ottenere acque chiare e pulite. ",
+                    "Questo gas contribuisce anche al decadimento di disinfettanti chimici come il cloro. In aggiunta, riduce la presenza di prodotti farmaceutici e rimuove pesticidi ed erbicidi come il glyphosate e il clorpirifos. Infine, è anche efficace nell'ossidare metalli pesanti come il piombo, il mercurio e il cromo, riducendo il loro impatto nell'ambiente."
+                ],
+                "problems": []
+            }
+        ]
     }
 ]
