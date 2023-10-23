@@ -50,6 +50,25 @@ dai 3-5 esempi per ogni elemento della lista.
 Usa il minore numero di parole possibili per gli esempi.
 ''')
 print(f'''-----------------------------------------------------------''')
+
+print(f'''
+{i}.
+Date la seguente lista di applicazioni dell'ozono per il trattamento delle acque reflue nell'industria {industry}, 
+dai 3-5 esempi per ogni elemento della lista.
+
+- Inattivazione di microrganismi patogeni
+- Rimozione di contaminanti organici
+- Diminuzione di solidi sospesi
+- Abbattimento di odori sgradevoli
+- Eliminazione di sostanze coloranti
+- Decadimento di disinfettati chimici
+- Riduzione di prodotti farmaceutici
+- Rimozione di pesticidi ed erbicidi
+- Ossidazione di metalli pesanti
+
+Usa il minore numero di parole possibili per gli esempi.
+''')
+print(f'''-----------------------------------------------------------''')
 i += 1
 
 

@@ -1149,10 +1149,10 @@ Infine, nell'ambito del trattamento delle acque, l'ozono è utilizzato per elimi
 
 Ecco una lista di 30 applicazioni dell'ozono nell'industria vinicola:
 
+
 1. Sterilizzazione dell'acqua di lavaggio
 2. Disinfezione delle bottiglie
 3. Rimozione di contaminanti da tappi di sughero
-4. Sterilizzazione delle attrezzature di vinificazione
 5. Rimozione di odori sgradevoli
 6. Sanificazione delle cantine
 7. Sterilizzazione delle tubazioni
@@ -1264,18 +1264,21 @@ In aggiunta, questo gas è impiegato per eliminare odori sgradevoli, come quelli
 
 Ecco una lista di 30 applicazioni dell'ozono nell'industria birraria:
 
+9. Riduzione dei batteri nelle attrezzature.
+12. Pulizia delle superfici di lavoro.
+24. Disinfezione delle superfici di contatto.
+
+
 1. Disinfezione dell'acqua di processo.
 2. Sterilizzazione degli impianti di produzione.
 3. Rimozione degli odori sgradevoli.
-4. Trattamento delle acque reflue.
+# Trattamento delle acque reflue.
 5. Pulizia e disinfezione delle bottiglie.
 6. Rimozione di contaminanti organici.
 7. Conservazione delle linee di imbottigliamento.
 8. Deodorizzazione degli impianti di produzione.
-9. Riduzione dei batteri nelle attrezzature.
 10. Sterilizzazione dei serbatoi di stoccaggio.
 11. Prevenzione della crescita di muffe e lieviti.
-12. Pulizia delle superfici di lavoro.
 13. Rimozione di contaminanti da materie prime.
 14. Disinfezione delle etichette e dei tappi.
 15. Trattamento dell'aria nelle aree di produzione.
@@ -1287,7 +1290,6 @@ Ecco una lista di 30 applicazioni dell'ozono nell'industria birraria:
 21. Eliminazione di nitrosammine.
 22. Prevenzione della contaminazione incrociata.
 23. Conservazione degli ingredienti.
-24. Disinfezione delle superfici di contatto.
 25. Rimozione di batteri acido-lattici.
 26. Eliminazione di tracce di cloro.
 27. Pulizia delle bottiglie riutilizzabili.
@@ -1392,23 +1394,27 @@ L'O3 gioca un ruolo essenziale nella riduzione di prodotti farmaceutici, pestici
 # avicola
 # -------------------------------------------------------------------
 
+# Trattamento delle acque reflue
+    Trattamento delle acque reflue dalle operazioni di macellazione
 
 1. Sterilizzazione delle attrezzature
+16. Sterilizzazione delle attrezzature di macellazione
+27. Sanificazione delle attrezzature per l'incubazione
+28. Sterilizzazione delle attrezzature di confezionamento delle uova
+7. Disinfezione delle superfici di lavorazione
+
 2. Disinfezione dell'acqua potabile
 3. Trattamento dell'aria nelle strutture di allevamento
 4. Rimozione degli odori nelle strutture di allevamento
 5. Sterilizzazione delle uova
 6. Sanificazione dei contenitori per il trasporto delle uova
-7. Disinfezione delle superfici di lavorazione
 8. Conservazione delle carni di pollo
-9. Trattamento delle acque reflue
 10. Rimozione dei parassiti nell'allevamento
 11. Sterilizzazione degli impianti di produzione del mangime
 12. Miglioramento della qualità dell'acqua di raffreddamento
 13. Conservazione delle uova
 14. Sanificazione delle cucce per polli
 15. Disinfezione degli impianti di confezionamento
-16. Sterilizzazione delle attrezzature di macellazione
 17. Miglioramento della qualità dell'aria in incubatori
 18. Eliminazione di microrganismi patogeni nelle uova
 19. Sterilizzazione delle bottiglie per l'imbottigliamento di uova liquide
@@ -1419,9 +1425,6 @@ L'O3 gioca un ruolo essenziale nella riduzione di prodotti farmaceutici, pestici
 24. Sterilizzazione delle confezioni per il trasporto
 25. Purificazione dell'acqua utilizzata per il raffreddamento delle carni
 26. Riduzione dei batteri nelle cucce per polli
-27. Sanificazione delle attrezzature per l'incubazione
-28. Sterilizzazione delle attrezzature di confezionamento delle uova
-29. Trattamento delle acque reflue dalle operazioni di macellazione
 30. Eliminazione di contaminanti nell'aria delle strutture di allevamento.
 
 
@@ -1470,36 +1473,41 @@ Questo gas è efficace nel decadimento di disinfettanti chimici come il cloro e 
 
 Ecco una lista di 30 applicazioni dell'ozono nell'industria salumiera:
 
+# Trattamento delle acque reflue.
+
 1. Disinfezione dell'acqua di processo.
+
 2. Sterilizzazione di attrezzature di produzione.
-3. Trattamento di superfici di lavorazione.
+    3. Trattamento di superfici di lavorazione.
+    5. Conservazione dei coltelli e attrezzi da taglio.
+    9. Rimozione di microrganismi da strumenti di taglio.
+    30. Trattamento di superfici in contatto con i salumi.
+
+- conservazione
+    10. Conservazione di ingredienti e spezie.
+    15. Conservazione di prodotti pronti per il consumo.
+    25. Conservazione dei salumi crudi.
+
 4. Decontaminazione di impianti di confezionamento.
-5. Conservazione dei coltelli e attrezzi da taglio.
 6. Rimozione di odori sgradevoli.
 7. Trattamento dell'aria negli impianti di produzione.
 8. Inattivazione di batteri patogeni.
-9. Rimozione di microrganismi da strumenti di taglio.
-10. Conservazione di ingredienti e spezie.
 11. Sterilizzazione di imballaggi.
 12. Miglioramento della shelf life dei prodotti.
 13. Decontaminazione di ambienti di stoccaggio.
 14. Riduzione dell'ossidazione dei grassi.
-15. Conservazione di prodotti pronti per il consumo.
 16. Sterilizzazione di soluzioni di lavaggio.
 17. Eliminazione di muffe e lieviti.
 18. Pulizia di tubature e condutture.
 19. Inibizione dell'attività di enzimi indesiderati.
 20. Riduzione della formazione di spore.
-21. Trattamento delle acque reflue.
 22. Inattivazione di virus.
 23. Decontaminazione di impianti di affumicatura.
 24. Sterilizzazione di superfici di stoccaggio.
-25. Conservazione dei salumi crudi.
 26. Eliminazione di contaminanti alimentari.
 27. Rimozione di residui di prodotti chimici.
 28. Mantenimento della qualità del prodotto.
 29. Sterilizzazione di sistemi di raffreddamento.
-30. Trattamento di superfici in contatto con i salumi.
 
 Si prega di notare che l'uso dell'ozono nell'industria alimentare può richiedere regolamentazioni specifiche e una corretta gestione per garantire la sicurezza alimentare.
 
@@ -1542,10 +1550,15 @@ Riduce la presenza di farmaci e pesticidi nelle acque reflue, contribuendo alla 
 # cerealicola
 # -------------------------------------------------------------------
 
+# Trattamento delle acque reflue.
 
+10. Disinfezione di attrezzature di stoccaggio.
+    19. Sterilizzazione dei contenitori di stoccaggio.
+
+- conservazione
+    2. Conservazione dei cereali.
 
 1. Disinfezione di impianti di produzione.
-2. Conservazione dei cereali.
 3. Rimozione di microbi e batteri.
 4. Controllo di insetti e parassiti.
 5. Eliminazione di muffe e lieviti.
@@ -1553,16 +1566,13 @@ Riduce la presenza di farmaci e pesticidi nelle acque reflue, contribuendo alla 
 7. Trattamento dei cereali prima della macinazione.
 8. Rimozione di odori indesiderati.
 9. Inattivazione di enzimi indesiderati.
-10. Disinfezione di attrezzature di stoccaggio.
 11. Pulizia di silos.
 12. Eliminazione di contaminanti microbici.
 13. Miglioramento della sicurezza alimentare.
 14. Allontanamento di micotossine.
-15. Trattamento delle acque reflue.
 16. Controllo della proliferazione di insetti nei magazzini.
 17. Prevenzione delle alterazioni microbiologiche.
 18. Inibizione della ruggine del grano.
-19. Sterilizzazione dei contenitori di stoccaggio.
 20. Eliminazione di residui di pesticidi.
 21. Riduzione della carica microbica nell'aria.
 22. Sterilizzazione dell'acqua per il processo di produzione.
@@ -1680,3 +1690,5 @@ Questo gas contribuisce anche al decadimento di disinfettanti chimici come il cl
 
 
 
+
+4. Sterilizzazione delle attrezzature di vinificazione
