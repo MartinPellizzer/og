@@ -106,50 +106,64 @@
     Trattamento
 
 - acqua
-    2. Disinfezione dell'acqua potabile
-    20. Purificazione dell'acqua utilizzata per l'allevamento
-    19. Riduzione del consumo di acqua.
-    1. Sterilizzazione dell'acqua di lavaggio
-    16. Sterilizzazione di soluzioni di lavaggio.
+    Disinfezione
+    potabile
+    Purificazione
+    l'allevamento
+    Riduzione consumo
+    Sterilizzazione
+    lavaggio
 
 - trasporto
-    24. Sterilizzazione delle confezioni per il trasporto
-    6. Sanificazione dei contenitori per il trasporto delle uova
+    Sterilizzazione
+    confezioni
+    Sanificazione
+    contenitori 
+    trasporto delle uova
 
 
 - enzimi
-    9. Inattivazione di enzimi indesiderati.
-    19. Inibizione dell'attività di enzimi indesiderati.
+    enzimi indesiderati.
     
 - organici
-    24. Rimozione di contaminanti organici.
-    29. Trattamento dei rifiuti organici.
-    6. Rimozione di contaminanti organici.
+    Rimozione 
+    Trattamento
+    contaminanti organici.
+    rifiuti organici.
     
 - patogeni 
-    22. Inattivazione di virus.
-    20. Riduzione della formazione di spore.
+    Inattivazione 
+    Riduzione 
+    virus.
+    spore.
 
 - contaminanti
-    26. Eliminazione di contaminanti alimentari.
-    27. Rimozione di residui di prodotti chimici.
-    21. Eliminazione di nitrosammine.
-    26. Eliminazione di tracce di cloro.
-    29. Rimozione di composti indesiderati.
-    13. Rimozione di contaminanti da materie prime.
+    Eliminazione
+    Rimozione
+    residui di prodotti chimici.
+    contaminanti alimentari.
+    nitrosammine.
+    tracce di cloro.
+    composti indesiderati.
+    contaminanti da materie prime.
 
 - bottiglie
-    19. Sterilizzazione delle bottiglie per l'imbottigliamento di uova liquide
-    5. Pulizia e disinfezione delle bottiglie.
-    27. Pulizia delle bottiglie riutilizzabili.
-    2. Disinfezione delle bottiglie
-    29. Sterilizzazione delle bottiglie vuote
+    Sterilizzazione 
+    Pulizia 
+    disinfezione
+    bottiglie riutilizzabili.
+    delle bottiglie per l'imbottigliamento di uova liquide
+    bottiglie vuote
 
 - tappi
-    24. Sterilizzazione delle etichette
-    14. Disinfezione delle etichette e dei tappi.
-    3. Rimozione di contaminanti da tappi di sughero
-    18. Sterilizzazione dei tappi di sughero
+    Sterilizzazione 
+    Disinfezione 
+    Rimozione 
+    Sterilizzazione 
+    etichette
+    tappi.
+    contaminanti da tappi di sughero
+    tappi di sughero
 
 
 
