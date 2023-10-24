@@ -20,6 +20,10 @@ if attribute == 'applicazioni':
     except: pass
     with open(f'database/tables/{entity}/acque-reflue/acque-reflue.csv', 'a', encoding='utf-8') as f: pass
 
+    try: os.mkdir(f'database/tables/{entity}/attrezzature')
+    except: pass
+    with open(f'database/tables/{entity}/attrezzature/attrezzature.csv', 'a', encoding='utf-8') as f: pass
+
     try: os.mkdir(f'articles-images/public/ozono/sanificazione/{entity}')
     except: pass
     try: os.mkdir(f'articles-images/public/ozono/sanificazione/{entity}/{attribute}')

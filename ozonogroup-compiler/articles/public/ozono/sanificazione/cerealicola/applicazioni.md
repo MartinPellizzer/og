@@ -1,14 +1,44 @@
-# 1 Applicazioni dell'Ozono nell'Industria Cerealicola 
+# 2 Applicazioni dell'Ozono nell'Industria Cerealicola 
 
-![1 Applicazioni dell'Ozono nell'Industria Cerealicola](/assets/images/cerealicola-applicazioni-featured.jpg "1 Applicazioni dell'Ozono nell'Industria Cerealicola")
+![2 Applicazioni dell'Ozono nell'Industria Cerealicola](/assets/images/cerealicola-applicazioni-featured.jpg "2 Applicazioni dell'Ozono nell'Industria Cerealicola")
 
 
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria cerealicola elencate nella seguente lista.
 
+- Sterilizzazione delle attrezzature
 - Trattamento delle acque reflue
 
-## 1. Trattamento delle acque reflue
+## 1. Sterilizzazione delle attrezzature
+
+L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria cerealicolaper l'inattivazione di batteri e virus come Salmonella, Escherichia coli (E. coli) e il virus dell'influenza A. Inoltre, l'ozono abbatta muffe e lieviti dannosi come Aspergillus flavus, Penicillium spp. e Saccharomyces cerevisiae, nonchè è in grado di estirpare alghe presenti nei serbatoi, tra cui Chlorella, Spirulina e Dunaliella.
+
+Questa tecnologia si dimostra altrettanto efficace nell'eliminazione di odori sgradevoli, come quelli di muffa, rancido e acetone. Degrada anche i disinfettanti chimici come l'ipoclorito di sodio, il perossido di idrogeno e i quaternari di ammonio, e viene impiegata per rimuovere residui di pesticidi come il clorpirifos, la malation e la cipermetrina, nonché per ridurre residui di erbicidi come il glyphosate, l'atrazina e il dicamba.
+
+| Prima Colonna | Problema | 
+| --- | --- |
+| Inattivazione di batteri e virus | Salmonella, escherichia coli (e. coli), influenza a (virus dell'influenza a) |
+| Abbattimento di muffe e lieviti | Aspergillus flavus, penicillium spp., saccharomyces cerevisiae |
+| Estirpazione di alghe da serbatoi | Chlorella, spirulina, dunaliella |
+| Eliminazione di odori sgradevoli | Odore di muffa, odore di rancido, odore di acetone |
+| Degradazione di disinfettanti chimici | Ipoclorito di sodio, perossido di idrogeno, quaternari di ammonio |
+| Rimozione di residui di pesticidi | Clorpirifos, malation, cipermetrina |
+| Riduzione di residui di erbicidi | Glyphosate, atrazina, dicamba |
+
+L'ozono sanifica diversi tipi di attrezzature nell'indutria cerealicola, come quelle elencante nella seguente lista.
+
+- Silos per lo stoccaggio dei cereali.
+- Nastri trasportatori.
+- Setacci e vagli.
+- Essiccatori cerealicoli.
+- Elevatori cerealicoli.
+- Imballatrici cerealicole.
+- Impianti di tostatura cereali.
+- Macchinari per la produzione di farina.
+- Macchine per il confezionamento cereali.
+- Estrattori di olio da cereali.
+
+## 2. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria cerealicola. Inattiva i microrganismi patogeni come batteri, virus e protozoi, e contribuisce alla rimozione di contaminanti organici come oli, grassi e idrocarburi, migliorando la qualità delle acque trattate. 
 

@@ -1692,3 +1692,275 @@ Questo gas contribuisce anche al decadimento di disinfettanti chimici come il cl
 
 
 4. Sterilizzazione delle attrezzature di vinificazione
+
+
+
+Ecco una lista di 30 applicazioni dell'ozono per il trattamento delle attrezzature nell'industria vitivinicola:
+
+Inattivazione di microbi
+Abbattimento di muffe e lieviti
+Eliminazione di odori sgradevoli
+Degradazione di disinfettati chimici
+Rimozione di residui di pesticidi
+Riduzione di residui di erbicidi
+
+
+1. Disinfezione di botti di legno.
+2. Pulizia di serbatoi di fermentazione.
+3. Sterilizzazione di tubazioni e condotti.
+# Eliminazione di odori sgradevoli nelle cantine.
+5. Decontaminazione di attrezzature per l'imbottigliamento.
+6. Sanificazione di tappi e capsule.
+7. Disinfezione di macchinari per la vinificazione.
+8. Pulizia di impianti di raffreddamento.
+9. Sterilizzazione di contenitori per l'uva.
+10. Decontaminazione di griglie e filtri.
+11. Trattamento delle superfici di lavoro.
+12. Sanificazione di macchinari per l'etichettatura.
+13. Disinfezione di serbatoi di stoccaggio.
+14. Pulizia di attrezzature per il travaso.
+15. Sterilizzazione di bottiglie vuote.
+16. Eliminazione di microbi dalle superfici.
+17. Sanificazione di pompe e tubazioni.
+18. Decontaminazione di serbatoi di affinamento.
+19. Trattamento delle attrezzature di degustazione.
+20. Disinfezione di strumenti di laboratorio.
+21. Pulizia di pavimenti e pareti nelle cantine.
+22. Sterilizzazione di recipienti per la macerazione.
+# Eliminazione di muffe e lieviti.
+24. Sanificazione di serbatoi di pressatura.
+25. Decontaminazione di sistemi di filtrazione.
+26. Trattamento delle attrezzature di misurazione.
+27. Disinfezione di contenitori per prodotti chimici.
+28. Pulizia di attrezzature per l'essiccamento dell'uva.
+29. Sterilizzazione di recipienti per la fermentazione malolattica.
+# Eliminazione di residui di pesticidi.
+
+Si prega di notare che l'ozono è un agente chimico potente e deve essere utilizzato con attenzione e conformità alle normative locali e federali.
+
+
+- Inattivazione di batteri e virus: [E. coli, Listeria, Norovirus]
+- Abbattimento di muffe e lieviti: [Botrytis cinerea, Saccharomyces cerevisiae]
+- Eliminazione di odori sgradevoli: [odore di muffa, odore di solfiti]
+- Degradazione di disinfettati chimici: [iperossido di idrogeno, cloro]
+- Rimozione di residui di pesticidi: [fungicidi, insetticidi, erbicidi]
+- Riduzione di residui di erbicidi: [glifosato, atrazina, simazina]
+
+
+
+L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria vitivinicola. Per esempio, viene impiegato per l'inattivazione di batteri e virus, tra cui Lactobacillus, Acetobacter, Escherichia coli e Listeria monocytogenes. Inoltre, è efficace nell'abbattere muffe e lieviti, come Botrytis cinerea, Saccharomyces cerevisiae, Candida, Penicillium e Aspergillus. 
+
+L'eliminazione di odori sgradevoli, tra cui quelli di riduzione, ossidazione, muffa e aceto, è un'altra applicazione chiave di questo gas. Inoltre, degrada disinfettanti chimici come il cloro, il perossido d'idrogeno, l'iodio, i quaternari d'ammonio e l'ossido di etilene, nonchè viene utilizzato per la rimozione di residui di pesticidi e la riduzione di residui di erbicidi, tra cui il glyphosate, l'atrazina, il metribuzin, la simazina e il 2,4-D.
+
+
+# birraria attrezzature
+# ----------------------------------------------------------------------------------
+
+Ecco una lista di 30 applicazioni dell'ozono per il trattamento di attrezzature nell'industria birraria:
+
+1. Sanitizzazione di serbatoi di fermentazione
+2. Pulizia di tubature
+3. Disinfezione di impianti di imbottigliamento
+4. Sterilizzazione di tappi di bottiglia
+5. Deodorizzazione di spazi di stoccaggio
+6. Rimozione di contaminanti da attrezzature di mashing
+7. Disinfezione di contenitori di lievito
+8. Pulizia di serpentine di raffreddamento
+9. Sterilizzazione di serbatoi di stoccaggio
+10. Disinfezione di attrezzature di filtrazione
+11. Deodorizzazione di camere di fermentazione
+12. Sanitizzazione di impianti di imbottigliamento
+13. Pulizia di linee di produzione
+14. Disinfezione di tappatrici
+15. Sterilizzazione di bottiglie vuote
+16. Deodorizzazione di locali di produzione
+17. Rimozione di batteri da contenitori di ingredienti
+18. Sanitizzazione di etichettatrici
+19. Pulizia di attrezzature di misurazione
+20. Disinfezione di camere di maturazione
+21. Sterilizzazione di fusti per birra
+22. Deodorizzazione di camere fredde
+23. Rimozione di alghe da serbatoi di acqua
+24. Sanitizzazione di pompe di trasferimento
+25. Pulizia di serbatoi di estrazione
+26. Disinfezione di attrezzature per il confezionamento
+27. Sterilizzazione di serbatoi di acidificazione
+28. Deodorizzazione di locali per la produzione di malto
+29. Rimozione di muffe da attrezzature di stoccaggio
+30. Sanitizzazione di tubi di distribuzione dell'acqua.
+
+
+L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria birraria per l'inattivazione di batteri e virus come Escherichia coli e Saccharomyces cerevisiae. Inoltre, è efficace nell'abbattimento di muffe e lieviti come Penicillium e Aspergillus, garantendo la qualità del prodotto finale.
+
+Le alghe, come Chlorella e Spirogyra, vengono estirpate dai serbatoi birrari attraverso l'utilizzo dell'O3. Questo gas svolge un ruolo fondamentale anche nell'eliminazione di odori sgradevoli, come quelli di zolfo o ammoniaca, contribuendo a mantenere un ambiente di produzione igienico.
+
+L'ozono è responsabile della degradazione dei disinfettanti chimici, come il perossido di idrogeno e l'iodio, ed è utilizzato per la rimozione di residui di pesticidi come il rame e l'azoto, oltre alla riduzione dei residui di erbicidi come il glifosato e il dicamba.
+
+Ecco una lista di 10 attrezzature comuni nell'industria birraria dove si può utilizzare l'ozono per la sanificazione:
+
+Attrezzature di filtrazione
+Serbatoi di acidificazione
+Serbatoi di fermentazione
+Tubature e condutture
+Serpentine di raffreddamento
+Contenitori di lievito
+Camere di fermentazione
+Serbatoi di stoccaggio
+Attrezzature di imbottigliamento
+Tappatrici e tappi di bottiglia
+
+
+# avicola attrezzature
+# ----------------------------------------------------------------------------------
+
+Ecco una lista di 30 applicazioni dell'ozono per il trattamento di attrezzature nell'industria avicola:
+
+1. Disinfezione di incubatrici
+2. Sterilizzazione di nidi d'uccello
+3. Pulizia di gabbie per polli
+4. Decontaminazione di uova
+5. Sanificazione di abbeveratoi
+6. Disinfezione di mangiatoie
+7. Sterilizzazione di apparecchiature per la cova
+8. Pulizia di sistemi di alimentazione automatica
+9. Decontaminazione di ventilatori
+10. Sanificazione di sistemi di riscaldamento
+11. Disinfezione di sistemi di raffreddamento
+12. Sterilizzazione di dispositivi per la pulizia delle uova
+13. Pulizia di piattaforme di posa
+14. Decontaminazione di sistemi di trasporto delle uova
+15. Sanificazione di confezionatrici
+16. Disinfezione di macchine per il confezionamento
+17. Sterilizzazione di sistemi di incassatura
+18. Pulizia di attrezzature di congelamento
+19. Decontaminazione di attrezzature di surgelazione
+20. Sanificazione di sistemi di lavorazione della carne
+21. Disinfezione di sistemi di confezionamento della carne
+22. Sterilizzazione di attrezzature di taglio
+23. Pulizia di sistemi di smistamento
+24. Decontaminazione di impianti di depilazione
+25. Sanificazione di sistemi di pulizia delle piume
+26. Disinfezione di sistemi di trattamento delle acque
+27. Sterilizzazione di sistemi di purificazione dell'aria
+28. Pulizia di serbatoi per l'acqua
+29. Decontaminazione di sistemi di raffreddamento evaporativo
+30. Sanificazione di camere di conservazione.
+
+
+Ecco la tabella richiesta:
+
+| Prima Colonna                              | Seconda Colonna                                |
+|----------------------------------------|-------------------------------------------|
+| Inattivazione di batteri e virus      | Salmonella, Campylobacter, Avian Influenza Virus, E. coli, Clostridium perfringens |
+| Abbattimento di muffe e lieviti        | Aspergillus, Penicillium, Candida, Rhizopus, Saccharomyces |
+| Estirpazione di alghe da serbatoi      | Chlorella, Spirulina, Nannochloropsis, Dunaliella, Microcystis |
+| Eliminazione di odori sgradevoli      | Ammoniaca, Solfiti, Metano, Idrogeno solforato, Fenolo |
+| Degradazione di disinfettati chimici  | Cloro, Perossido di idrogeno, Quaternary Ammonium Compounds (QACs), Acido peracetico, Iodio |
+| Rimozione di residui di pesticidi     | Clorpirifos, Malatione, Permetrina, Imidacloprid, Rotenone |
+| Riduzione di residui di erbicidi      | Glyphosate, Atrazine, Diquat, 2,4-D, Paraquat |
+
+
+L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria Avicola per l'inattivazione di batteri e virus come Salmonella, Campylobacter, l'Avian Influenza Virus, E. coli e Clostridium perfringens. Inoltre, è efficace nell'abbattere muffe e lieviti, quali Aspergillus, Penicillium, Candida, Rhizopus e Saccharomyces, che possono contaminare le attrezzature avicole.
+
+Le alghe, come Chlorella, Spirulina, Nannochloropsis, Dunaliella e Microcystis, possono formarsi all'interno dei serbatoi, ma l'O3 contribuisce alla loro estirpazione. Questo gas svolge anche un ruolo importante nell'eliminazione di odori sgradevoli come ammoniaca, solfiti, metano, idrogeno solforato e fenolo, che possono essere problematici nell'ambiente avicolo. Inoltre, è utile per la degradazione di disinfettanti chimici e per la rimozione di residui di pesticidi e la riduzione di residui di erbicidi, contribuendo così a garantire un ambiente sicuro e igienico nell'industria avicola.
+
+
+
+# salumiera applicazioni
+# -------------------------------------------------------------
+
+1. Sterilizzazione di coltelli e lame.
+2. Sanificazione di taglieri.
+3. Pulizia di macchine per la macinazione della carne.
+4. Igienizzazione di macchine per l'insaccamento.
+5. Disinfezione di frigoriferi e celle frigorifere.
+6. Sterilizzazione di contenitori per il trasporto della carne.
+7. Deodorizzazione di locali di stoccaggio.
+8. Sanificazione di nastri trasportatori.
+9. Pulizia di trucioli di legno e detriti da attrezzature.
+10. Rimozione degli odori da camere di affumicatura.
+11. Sterilizzazione di contenitori per spezie.
+12. Deodorizzazione di camere per la stagionatura.
+13. Pulizia di macchine per la lavorazione del lardo.
+14. Disinfezione di sistemi di raffreddamento dell'acqua.
+15. Sterilizzazione di impianti per l'essiccamento.
+16. Pulizia di carrelli per il trasporto delle carcasse.
+17. Deodorizzazione di locali di confezionamento.
+18. Sanificazione di banchi di lavoro.
+19. Sterilizzazione di utensili per la preparazione delle salsicce.
+20. Disinfezione di sistemi di ventilazione.
+21. Pulizia di vasche per la salamoia.
+22. Rimozione dei batteri da tubi di trasporto.
+23. Sterilizzazione di affettatrici.
+24. Sanificazione di recipienti per marinate.
+25. Deodorizzazione di camere per il congelamento.
+26. Pulizia di griglie e graticole.
+27. Disinfezione di stampi per insaccati.
+28. Sterilizzazione di sistemi di purificazione dell'aria.
+29. Sanificazione di impianti di trattamento delle acque.
+30. Pulizia di attrezzature per la preparazione di salse e condimenti.
+
+
+L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria salumiera per l'inattivazione di batteri e virus come Salmonella, Listeria ed Escherichia coli, contribuendo a garantire la sicurezza alimentare. Inoltre, abbatte muffe e lieviti come Penicillium, Aspergillus e Candida, che possono compromettere la qualità dei prodotti salumieri.
+
+L'O3 viene anche impiegato per estirpare alghe da serbatoi e contenitori, come Chlorella, Spirulina e Ulva, prevenendo contaminazioni indesiderate. Allo stesso tempo, si occupa dell'eliminazione di odori sgradevoli, come ammoniaca, solfuro di idrogeno e trimetilammina, contribuendo all'igiene e all'ambiente di lavoro. Inoltre, degrada disinfettanti chimici come cloro, perossido di idrogeno e quaternario d'ammonio, garantendo il rispetto delle normative igieniche.
+
+Questo gas svolge anche un ruolo nella rimozione di residui di pesticidi come Clorpirifos, Deltametrina e Imidacloprid e nella riduzione dei residui di erbicidi come Glyphosate, Atrazina e 2,4-D, contribuendo così a mantenere elevati standard di sicurezza alimentare nell'industria salumiera.
+
+
+# cerealicola applicazioni
+# -------------------------------------------------------------
+
+Ecco una lista di 30 applicazioni dell'ozono per il trattamento di attrezzature nell'industria cerealicola:
+
+1. Disinfezione di nastri trasportatori.
+2. Sterilizzazione di silos per stoccaggio cereali.
+3. Pulizia di setacci e vagli.
+4. Decontaminazione di mulini a martelli.
+5. Trattamento di nastri di selezione cereali.
+6. Disinfezione di attrezzature di trasporto cereali.
+7. Sterilizzazione di sistemi di raffreddamento cereali.
+8. Decontaminazione di elevatori cereali.
+9. Pulizia di impianti di confezionamento cereali.
+10. Trattamento di separatori di cereali.
+11. Disinfezione di attrezzature per la produzione di farina.
+12. Sterilizzazione di impianti di tostatura cereali.
+13. Decontaminazione di sistemi di pulizia cereali.
+14. Pulizia di estrattori di olio da cereali.
+15. Trattamento di essiccatori cereali.
+16. Disinfezione di macchinari per la produzione di cereali pronti all'uso.
+17. Sterilizzazione di linee di congelamento cereali.
+18. Decontaminazione di frullatori e mescolatori cereali.
+19. Pulizia di essiccatori a tamburo cereali.
+20. Trattamento di sistemi di pesatura cereali.
+21. Disinfezione di impianti di aromatizzazione cereali.
+22. Sterilizzazione di macchine per il confezionamento cereali.
+23. Decontaminazione di attrezzature per il taglio cereali.
+24. Pulizia di linee di produzione di fiocchi cereali.
+25. Trattamento di impianti di estrazione cereali.
+26. Disinfezione di separatori di impurità cereali.
+27. Sterilizzazione di sistemi di depolverizzazione cereali.
+28. Decontaminazione di impianti di scaglie cereali.
+29. Pulizia di sistemi di vagliatura cereali.
+30. Trattamento di attrezzature per la produzione di cereali integrali.
+
+Si prega di notare che queste applicazioni sono elencate senza descrizioni dettagliate.
+
+
+Ecco la tabella con le colonne richieste:
+
+| Prima colonna                              | Seconda colonna                                   |
+|-------------------------------------------|--------------------------------------------------|
+| Inattivazione di batteri e virus          | Salmonella, Escherichia coli (E. coli), Influenza A (virus dell'influenza A) |
+| Abbattimento di muffe e lieviti           | Aspergillus flavus, Penicillium spp., Saccharomyces cerevisiae |
+| Estirpazione di alghe da serbatoi         | Chlorella, Spirulina, Dunaliella                 |
+| Eliminazione di odori sgradevoli          | Odore di muffa, Odore di rancido, Odore di acetone |
+| Degradazione di disinfettanti chimici     | Ipoclorito di sodio, Perossido di idrogeno, Quaternari di ammonio |
+| Rimozione di residui di pesticidi         | Clorpirifos, Malation, Cipermetrina               |
+| Riduzione di residui di erbicidi          | Glyphosate, Atrazina, Dicamba                     |
+
+
+
+L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria cerealicolaper l'inattivazione di batteri e virus come Salmonella, Escherichia coli (E. coli) e il virus dell'influenza A. Inoltre, l'ozono abbatta muffe e lieviti dannosi come Aspergillus flavus, Penicillium spp. e Saccharomyces cerevisiae, nonchè è in grado di estirpare alghe presenti nei serbatoi, tra cui Chlorella, Spirulina e Dunaliella.
+
+Questa tecnologia si dimostra altrettanto efficace nell'eliminazione di odori sgradevoli, come quelli di muffa, rancido e acetone. Degrada anche i disinfettanti chimici come l'ipoclorito di sodio, il perossido di idrogeno e i quaternari di ammonio, e viene impiegata per rimuovere residui di pesticidi come il clorpirifos, la malation e la cipermetrina, nonché per ridurre residui di erbicidi come il glyphosate, l'atrazina e il dicamba.

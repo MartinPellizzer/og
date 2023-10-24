@@ -8,7 +8,7 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 
 - Rimozione di microrganismi patogeni
 - Disinfezione dell'aria negli ambienti
-- Sterilizzazione delle superfici di lavoro
+- Sterilizzazione delle attrezzature
 - Disinfezione dell'acqua di processo
 - Trattamento delle acque reflue
 
@@ -22,10 +22,37 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 
 
 
-## 3. Sterilizzazione delle superfici di lavoro
+## 3. Sterilizzazione delle attrezzature
 
+L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria vitivinicola. Per esempio, viene impiegato per l'inattivazione di batteri e virus, tra cui Lactobacillus, Acetobacter, Escherichia coli e Listeria monocytogenes. Inoltre, è efficace nell'abbattere muffe e lieviti, come Botrytis cinerea, Saccharomyces cerevisiae, Candida, Penicillium e Aspergillus. 
 
+L'eliminazione di odori sgradevoli, tra cui quelli di riduzione, ossidazione, muffa e aceto, è un'altra applicazione chiave di questo gas. Inoltre, degrada disinfettanti chimici come il cloro, il perossido d'idrogeno, l'iodio, i quaternari d'ammonio e l'ossido di etilene, nonchè viene utilizzato per la rimozione di residui di pesticidi e la riduzione di residui di erbicidi, tra cui il glyphosate, l'atrazina, il metribuzin, la simazina e il 2,4-D.
 
+| Applicazione | Problema | 
+| --- | --- |
+| Inattivazione di batteri e virus | Lactobacillus, acetobacter, escherichia coli, listeria monocytogenes |
+| Abbattimento di muffe e lieviti | Botrytis cinerea, saccharomyces cerevisiae, candida, penicillium, aspergillus |
+| Eliminazione di odori sgradevoli | Odori di riduzione, odori di ossidazione, odori di muffa e umidità, odori di aceto |
+| Degradazione di disinfettati chimici | Cloro, perossido d'idrogeno, iodio, quaternari d'ammonio, ossido di etilene |
+| Rimozione di residui di pesticidi | Fungicidi, insetticidi, erbicidi, neonicotinoidi, solfato di rame |
+| Riduzione di residui di erbicidi | Glyphosate, atrazina, metribuzin, simazina, 2,4-d |
+
+L'ozono sanifica diversi tipi di attrezzature nell'indutria vitivinicola, come quelle elencante nella seguente lista.
+
+- Botti di legno
+- Serbatoi di fermentazione
+- Tini di fermentazione
+- Vasche di macerazione
+- Vasche di pastorizzazione
+- Tubature
+- Filtri
+- Linee di produzione
+- Attrezzature di imbottigliamento
+- Tappatrici e capsulatrici
+- Tappi e chiusure
+- Recipienti di prelievo
+- Contenitori di stoccaggio
+- Contenitori di trasporto
 
 ## 4. Disinfezione dell'acqua di processo
 

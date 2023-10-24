@@ -949,9 +949,28 @@
                 "problems": []
             },
             {
-                "table": "superfici-lavoro",
-                "title": "Sterilizzazione delle superfici di lavoro",
-                "description": [],
+                "table": "attrezzature",
+                "title": "Sterilizzazione delle attrezzature",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria vitivinicola. Per esempio, viene impiegato per l'inattivazione di batteri e virus, tra cui Lactobacillus, Acetobacter, Escherichia coli e Listeria monocytogenes. Inoltre, è efficace nell'abbattere muffe e lieviti, come Botrytis cinerea, Saccharomyces cerevisiae, Candida, Penicillium e Aspergillus. ",
+                    "L'eliminazione di odori sgradevoli, tra cui quelli di riduzione, ossidazione, muffa e aceto, è un'altra applicazione chiave di questo gas. Inoltre, degrada disinfettanti chimici come il cloro, il perossido d'idrogeno, l'iodio, i quaternari d'ammonio e l'ossido di etilene, nonchè viene utilizzato per la rimozione di residui di pesticidi e la riduzione di residui di erbicidi, tra cui il glyphosate, l'atrazina, il metribuzin, la simazina e il 2,4-D."
+                ],
+                "list": [
+                    "Botti di legno",
+                    "Serbatoi di fermentazione",
+                    "Tini di fermentazione",
+                    "Vasche di macerazione",
+                    "Vasche di pastorizzazione",
+                    "Tubature",
+                    "Filtri",
+                    "Linee di produzione",
+                    "Attrezzature di imbottigliamento",
+                    "Tappatrici e capsulatrici",
+                    "Tappi e chiusure",
+                    "Recipienti di prelievo",
+                    "Contenitori di stoccaggio",
+                    "Contenitori di trasporto"
+                ],
                 "problems": []
             },
             {
@@ -983,6 +1002,28 @@
         "applications_intro": [],
         "applications": [
             {
+                "table": "attrezzature",
+                "title": "Sterilizzazione delle attrezzature",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria birraria per l'inattivazione di batteri e virus come Escherichia coli e Saccharomyces cerevisiae. Inoltre, è efficace nell'abbattimento di muffe e lieviti come Penicillium e Aspergillus, garantendo la qualità del prodotto finale.",
+                    "Le alghe, come Chlorella e Spirogyra, vengono estirpate dai serbatoi birrari attraverso l'utilizzo dell'O3. Questo gas svolge un ruolo fondamentale anche nell'eliminazione di odori sgradevoli, come quelli di zolfo o ammoniaca, contribuendo a mantenere un ambiente di produzione igienico.",
+                    "L'ozono è responsabile della degradazione dei disinfettanti chimici, come il perossido di idrogeno e l'iodio, ed è utilizzato per la rimozione di residui di pesticidi come il rame e l'azoto, oltre alla riduzione dei residui di erbicidi come il glifosato e il dicamba."
+                ],
+                "list": [
+                    "Attrezzature di filtrazione",
+                    "Serbatoi di acidificazione",
+                    "Serbatoi di fermentazione",
+                    "Tubature e condutture",
+                    "Serpentine di raffreddamento",
+                    "Contenitori di lievito",
+                    "Camere di fermentazione",
+                    "Serbatoi di stoccaggio",
+                    "Attrezzature di imbottigliamento",
+                    "Tappatrici e tappi di bottiglia"
+                ],
+                "problems": []
+            },
+            {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
                 "description": [
@@ -1004,6 +1045,27 @@
         "industry_ad": "",
         "applications_intro": [],
         "applications": [
+            {
+                "table": "attrezzature",
+                "title": "Sterilizzazione delle attrezzature",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria Avicola per l'inattivazione di batteri e virus come Salmonella, Campylobacter, l'Avian Influenza Virus, E. coli e Clostridium perfringens. Inoltre, è efficace nell'abbattere muffe e lieviti, quali Aspergillus, Penicillium, Candida, Rhizopus e Saccharomyces, che possono contaminare le attrezzature avicole.",
+                    "Le alghe, come Chlorella, Spirulina, Nannochloropsis, Dunaliella e Microcystis, possono formarsi all'interno dei serbatoi, ma l'O3 contribuisce alla loro estirpazione. Questo gas svolge anche un ruolo importante nell'eliminazione di odori sgradevoli come ammoniaca, solfiti, metano, idrogeno solforato e fenolo, che possono essere problematici nell'ambiente avicolo. Inoltre, è utile per la degradazione di disinfettanti chimici, per la rimozione di residui di pesticidi e per la riduzione di residui di erbicidi, contribuendo così a garantire un ambiente sicuro e igienico nell'industria avicola."
+                ],
+                "list": [
+                    "Incubatrici",
+                    "Gabbie per polli",
+                    "Mangiatoie",
+                    "Abbeveratoi",
+                    "Sistemi di alimentazione automatica",
+                    "Apparecchiature per la cova",
+                    "Sistemi di riscaldamento",
+                    "Sistemi di raffreddamento",
+                    "Dispositivi per la pulizia delle uova",
+                    "Macchine per il confezionamento"
+                ],
+                "problems": []
+            },
             {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
@@ -1027,6 +1089,28 @@
         "applications_intro": [],
         "applications": [
             {
+                "table": "attrezzature",
+                "title": "Sterilizzazione delle attrezzature",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria salumiera per l'inattivazione di batteri e virus come Salmonella, Listeria ed Escherichia coli, contribuendo a garantire la sicurezza alimentare. Inoltre, abbatte muffe e lieviti come Penicillium, Aspergillus e Candida, che possono compromettere la qualità dei prodotti salumieri.",
+                    "L'O3 viene anche impiegato per estirpare alghe da serbatoi e contenitori, come Chlorella, Spirulina e Ulva, prevenendo contaminazioni indesiderate. Allo stesso tempo, si occupa dell'eliminazione di odori sgradevoli, come ammoniaca, solfuro di idrogeno e trimetilammina, contribuendo all'igiene e all'ambiente di lavoro. Inoltre, degrada disinfettanti chimici come cloro, perossido di idrogeno e quaternario d'ammonio, garantendo il rispetto delle normative igieniche.",
+                    "Questo gas svolge anche un ruolo nella rimozione di residui di pesticidi come Clorpirifos, Deltametrina e Imidacloprid e nella riduzione dei residui di erbicidi come Glyphosate, Atrazina e 2,4-D, contribuendo così a mantenere elevati standard di sicurezza alimentare nell'industria salumiera."
+                ],
+                "list": [
+                    "Taglieri",
+                    "Affettatrici",
+                    "Griglie e graticole",
+                    "Serbatoi per la salamoia",
+                    "Macchine per la macinazione della carne",
+                    "Macchine per la preparazione di salsicce",
+                    "Macchine per l'insaccamento",
+                    "Camere frigorifere",
+                    "Nastri trasportatori",
+                    "Contenitori per il trasporto della carne"
+                ],
+                "problems": []
+            },
+            {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
                 "description": [
@@ -1048,6 +1132,27 @@
         "industry_ad": "",
         "applications_intro": [],
         "applications": [
+            {
+                "table": "attrezzature",
+                "title": "Sterilizzazione delle attrezzature",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria cerealicolaper l'inattivazione di batteri e virus come Salmonella, Escherichia coli (E. coli) e il virus dell'influenza A. Inoltre, l'ozono abbatta muffe e lieviti dannosi come Aspergillus flavus, Penicillium spp. e Saccharomyces cerevisiae, nonchè è in grado di estirpare alghe presenti nei serbatoi, tra cui Chlorella, Spirulina e Dunaliella.",
+                    "Questa tecnologia si dimostra altrettanto efficace nell'eliminazione di odori sgradevoli, come quelli di muffa, rancido e acetone. Degrada anche i disinfettanti chimici come l'ipoclorito di sodio, il perossido di idrogeno e i quaternari di ammonio, e viene impiegata per rimuovere residui di pesticidi come il clorpirifos, la malation e la cipermetrina, nonché per ridurre residui di erbicidi come il glyphosate, l'atrazina e il dicamba."
+                ],
+                "list": [
+                    "Silos per lo stoccaggio dei cereali.",
+                    "Nastri trasportatori.",
+                    "Setacci e vagli.",
+                    "Essiccatori cerealicoli.",
+                    "Elevatori cerealicoli.",
+                    "Imballatrici cerealicole.",
+                    "Impianti di tostatura cereali.",
+                    "Macchinari per la produzione di farina.",
+                    "Macchine per il confezionamento cereali.",
+                    "Estrattori di olio da cereali."
+                ],
+                "problems": []
+            },
             {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",

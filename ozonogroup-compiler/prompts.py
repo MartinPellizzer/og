@@ -1,11 +1,13 @@
 import sys 
 
 print(len(sys.argv))
-if len(sys.argv) != 2:
-    print('ERR: missing INDUSTRY')
+if len(sys.argv) != 3:
+    print('ERR: missing INDUSTRY, APPLICATION')
     quit()
 
 industry = sys.argv[1]
+application = sys.argv[2]
+# .lower().strip().replace(' ', '-')
 
 
 print()
@@ -13,6 +15,31 @@ print()
 print()
 print()
 print()
+
+lst = ['[inserisci lista qui]']
+if application == 'acque-reflue':
+    lst = [ 
+        "- Inattivazione di microrganismi patogeni",
+        "- Rimozione di contaminanti organici",
+        "- Diminuzione di solidi sospesi",
+        "- Abbattimento di odori sgradevoli",
+        "- Eliminazione di sostanze coloranti",
+        "- Decadimento di disinfettati chimici",
+        "- Riduzione di prodotti farmaceutici",
+        "- Rimozione di pesticidi ed erbicidi",
+        "- Ossidazione di metalli pesanti"
+    ]
+elif application == 'attrezzature':
+    lst = [ 
+        "- Inattivazione di microbi",
+        "- Abbattimento di muffe e lieviti",
+        "- Eliminazione di odori sgradevoli",
+        "- Degradazione di disinfettati chimici",
+        "- Rimozione di residui di pesticidi",
+        "- Riduzione di residui di erbicidi"
+    ]
+
+lst = "\n".join(lst)
 
 i = 0 
 print(f'''
@@ -23,78 +50,119 @@ Non aggiungere descrizioni.
 print(f'''-----------------------------------------------------------''')
 i += 1
 
+if application.strip().lower().replace(' ', '-') == 'acque-reflue':
+    print(f'''
+    {i}.
+    Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
+    Non aggiungere descrizioni.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
 
-print(f'''
-{i}.
-Lista di applicazioni dell'ozono per il trattamento delle acque reflue nell'industria {industry}. 
-Non aggiungere descrizioni.
-''')
-print(f'''-----------------------------------------------------------''')
-i += 1
+    print(f'''
+    {i}.
+    Date la seguente lista di applicazioni dell'ozono per il trattamento delle {application} nell'industria {industry}, 
+    dai 3-5 esempi per ogni elemento della lista.
 
-print(f'''
-{i}.
-Date la seguente lista di applicazioni dell'ozono per il trattamento delle acque reflue nell'industria {industry}, 
-dai 3-5 esempi per ogni elemento della lista.
+    {lst}
 
-- Inattivazione di microrganismi patogeni
-- Rimozione di contaminanti organici
-- Diminuzione di solidi sospesi
-- Abbattimento di odori sgradevoli
-- Eliminazione di sostanze coloranti
-- Decadimento di disinfettati chimici
-- Riduzione di prodotti farmaceutici
-- Rimozione di pesticidi ed erbicidi
-- Ossidazione di metalli pesanti
-
-Usa il minore numero di parole possibili per gli esempi.
-''')
-print(f'''-----------------------------------------------------------''')
-
-print(f'''
-{i}.
-Date la seguente lista di applicazioni dell'ozono per il trattamento delle acque reflue nell'industria {industry}, 
-dai 3-5 esempi per ogni elemento della lista.
-
-- Inattivazione di microrganismi patogeni
-- Rimozione di contaminanti organici
-- Diminuzione di solidi sospesi
-- Abbattimento di odori sgradevoli
-- Eliminazione di sostanze coloranti
-- Decadimento di disinfettati chimici
-- Riduzione di prodotti farmaceutici
-- Rimozione di pesticidi ed erbicidi
-- Ossidazione di metalli pesanti
-
-Usa il minore numero di parole possibili per gli esempi.
-''')
-print(f'''-----------------------------------------------------------''')
-i += 1
+    Usa il minore numero di parole possibili per gli esempi.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
 
 
-print(f'''
-{i}.
-Utilizzantdo la lista precedente, formatta i dati in una tabella a 2 colonne.
-I titoli delle 2 colonne sono: Applicazione, Esempi
-''')
-print(f'''-----------------------------------------------------------''')
-i += 1
+    print(f'''
+    {i}.
+    Utilizzantdo la lista precedente, formatta i dati in una tabella a 2 colonne.
+    I titoli delle 2 colonne sono: Applicazione, Esempi
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
 
-print(f'''
-{i}.
-Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.
-La sezione deve essere lunga meno di 200 parole.
-Non scrivere in formato lista. Scrivi in formato discorsivo.
-Usa frasi semplici, con una struttura dritta e in voce attiva.
-Non aggiungere opinioni, scrivi solo i fatti.
+    print(f'''
+    {i}.
+    Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.
+    La sezione deve essere lunga meno di 200 parole.
+    Non scrivere in formato lista. Scrivi in formato discorsivo.
+    Usa frasi semplici, con una struttura dritta e in voce attiva.
+    Non aggiungere opinioni, scrivi solo i fatti.
 
-La prima frase di questa sezione deve essere la seguente:
+    La prima frase di questa sezione deve essere la seguente:
 
-"L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria {industry}."
-''')
-print(f'''-----------------------------------------------------------''')
-i += 1
+    "L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria {industry}."
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
 
+
+elif application.strip().lower().replace(' ', '-') == 'attrezzature':
+    print(f'''
+    {i}.
+    Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
+    Non aggiungere descrizioni.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    num = 3
+    print(f'''
+    {i}.
+    dammi un elenco di {num} batteri e virus, {num} muffe e lieviti, {num} alghe, {num} odori sgradevoli, {num} disinfettati chimici, {num} pesticidi, {num} erbicidi che si trovano in {application} nell'industria {industry}. dammi solo i nomi, no le descrizioni.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+
+    print(f'''
+    {i}.
+    Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
+
+    - Inattivazione di batteri e virus
+    - Abbattimento di muffe e lieviti
+    - Estirpazione di alghe da serbatoi
+    - Eliminazione di odori sgradevoli
+    - Degradazione di disinfettati chimici
+    - Rimozione di residui di pesticidi
+    - Riduzione di residui di erbicidi
+
+    Nella seconda colonna metti gli elementi delle liste della tua ultima risposta nelle giuste celle.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''
+    {i}.
+    Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.
+    La sezione deve essere lunga meno di 200 parole.
+    Non scrivere in formato lista. Scrivi in formato discorsivo.
+    Usa frasi semplici, con una struttura dritta e in voce attiva.
+    Non aggiungere opinioni, scrivi solo i fatti.
+
+    La prima frase di questa sezione deve essere la seguente:
+
+    "L'ozono viene utilizzato per il trattamento delle {application} nell'industria {industry}."
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''
+    {i}.
+    Dammi una lista di 10 {application} più comuni nell'industria {industry} dove si può utilizzare l'ozono per la sanificazione.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+# dammi un elenco di 3-5:
+
+# - batteri e virus
+# - muffe e lieviti
+# - odori sgradevoli
+# - disinfettati chimici
+# - pesticidi
+# - erbicidi
+
+# che si trovano in attrazzature nell'industria vitivinicola.
 
 # print(f'''
 # Utilizzantdo i seguenti elementi della seguente lista:

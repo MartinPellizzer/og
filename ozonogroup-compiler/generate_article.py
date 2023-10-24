@@ -614,18 +614,24 @@ for item in data:
             lines = get_csv_table(f'database/tables/{industry}/{application_table}/{application_table}.csv')
             article += generate_table(lines)
 
-            for problem in application['problems']:
-                article += f'### {problem["type"].title()}\n\n'
-                article += '\n\n'.join(problem['description']) + '\n\n'
+            # for problem in application['problems']:
+            #     article += f'### {problem["type"].title()}\n\n'
+            #     article += '\n\n'.join(problem['description']) + '\n\n'
 
-                application_title = application['title'].replace(' ', '-')
-                application_problem_type = problem["type"].replace(' ', '-')
+            #     application_title = application['title'].replace(' ', '-')
+            #     application_problem_type = problem["type"].replace(' ', '-')
 
-                # get csv table
-                lines = get_csv_table(f'database/tables/{industry}/{application_title}/{application_problem_type}.csv')
+            #     # get csv table
+            #     lines = get_csv_table(f'database/tables/{industry}/{application_title}/{application_problem_type}.csv')
 
-                # generate table
-                article += generate_table(lines)
+            #     # generate table
+            #     article += generate_table(lines)
+                
+            try:
+                lst = application['list']
+                article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'indutria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
+                article += lst_to_blt(lst) + '\n\n'
+            except: pass
 
     else:
         applications = item['applications']
