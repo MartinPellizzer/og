@@ -15,7 +15,7 @@ L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria ce
 
 Questa tecnologia si dimostra altrettanto efficace nell'eliminazione di odori sgradevoli, come quelli di muffa, rancido e acetone. Degrada anche i disinfettanti chimici come l'ipoclorito di sodio, il perossido di idrogeno e i quaternari di ammonio, e viene impiegata per rimuovere residui di pesticidi come il clorpirifos, la malation e la cipermetrina, nonché per ridurre residui di erbicidi come il glyphosate, l'atrazina e il dicamba.
 
-| Prima Colonna | Problema | 
+| Prima Colonna | Problemi | 
 | --- | --- |
 | Inattivazione di batteri e virus | Salmonella, escherichia coli (e. coli), influenza a (virus dell'influenza a) |
 | Abbattimento di muffe e lieviti | Aspergillus flavus, penicillium spp., saccharomyces cerevisiae |
@@ -46,7 +46,7 @@ La diminuzione di solidi sospesi, tra cui fango e particelle sospese, è un altr
 
 Questo gas contribuisce anche al decadimento di disinfettanti chimici come il cloro. In aggiunta, riduce la presenza di prodotti farmaceutici e rimuove pesticidi ed erbicidi come il glyphosate e il clorpirifos. Infine, è anche efficace nell'ossidare metalli pesanti come il piombo, il mercurio e il cromo, riducendo il loro impatto nell'ambiente.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Inattivazione di microrganismi patogeni | Batteri, virus, protozoi |
 | Rimozione di contaminanti organici | Oli, grassi, idrocarburi |

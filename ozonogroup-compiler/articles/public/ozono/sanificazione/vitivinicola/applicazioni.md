@@ -19,8 +19,31 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 
 ## 2. Disinfezione dell'aria negli ambienti
 
+L'ozono viene utilizzato per il trattamento delle aree ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. 
 
+Questo gas è altamente efficace nell'eliminare odori sgradevoli, come quelli di solfuro, aceto e lievito spento, nonchè è in grado di degradare composti chimici indesiderati, tra cui diacetile, etilacetato e acido solforico. L'O3 contribuisce anche alla diminuzione di gas tossici nell'aria, tra cui anidride solforosa (SO2), monossido di carbonio (CO) e ossido di azoto (NOx). Infine, è un alleato nella riduzione di composti organici volatili (COV) come etanolo, acetaldeide e metanolo, migliorando così la qualità dell'ambiente nelle strutture vitivinicole.
 
+| Applicazioni Aria Ambienti | Problemi | 
+| --- | --- |
+| Inattivazione di batteri e virus | Escherichia coli, lactobacillus, saccharomyces cerevisiae |
+| Abbattimento di spore di muffa | Penicillium, aspergillus, cladosporium |
+| Eliminazione di odori sgradevoli | Odori di solfuro, odori di aceto, odori di lievito spento |
+| Degradazione di composti chimici | Diacetile, etilacetato, acido solforico |
+| Diminuzione di gas tossici | Anidride solforosa (so2), monossido di carbonio (co), ossido di azoto (nox) |
+| Riduzione di composti organici volatili (cov) | Etanolo, acetaldeide, metanolo |
+
+L'ozono sanifica diversi tipi di ambienti nell'indutria vitivinicola, come quelle elencante nella seguente lista.
+
+- Cantine di fermentazione.
+- Sale di invecchiamento del vino.
+- Locali di imbottigliamento.
+- Stanze di degustazione.
+- Cantine di stoccaggio delle bottiglie.
+- Sale di lavorazione dell'uva.
+- Stanze di pulizia e disinfezione.
+- Locali di vendita e esposizione.
+- Laboratori enologici.
+- Depositi di attrezzature di produzione.
 
 ## 3. Sterilizzazione delle attrezzature
 
@@ -28,7 +51,7 @@ L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria vi
 
 L'eliminazione di odori sgradevoli, tra cui quelli di riduzione, ossidazione, muffa e aceto, è un'altra applicazione chiave di questo gas. Inoltre, degrada disinfettanti chimici come il cloro, il perossido d'idrogeno, l'iodio, i quaternari d'ammonio e l'ossido di etilene, nonchè viene utilizzato per la rimozione di residui di pesticidi e la riduzione di residui di erbicidi, tra cui il glyphosate, l'atrazina, il metribuzin, la simazina e il 2,4-D.
 
-| Applicazione | Problema | 
+| Applicazioni Attrezzature | Problemi | 
 | --- | --- |
 | Inattivazione di batteri e virus | Lactobacillus, acetobacter, escherichia coli, listeria monocytogenes |
 | Abbattimento di muffe e lieviti | Botrytis cinerea, saccharomyces cerevisiae, candida, penicillium, aspergillus |
@@ -67,7 +90,7 @@ L'inattivazione di microrganismi patogeni, come batteri, virus e lieviti, è fon
 
 In aggiunta, questo gas è impiegato per eliminare odori sgradevoli, come quelli di zolfo, ammoniaca e composti acri, insieme alla rimozione di sostanze coloranti, tra cui coloranti naturali, coloranti artificiali e pigmenti. La degradazione di disinfettanti chimici, quali cloro, cloramine e biossido di cloro, è cruciale per evitare residui nocivi. Infine, questo agente sanificante è utilizzato per la rimozione di pesticidi e erbicidi, nonché per l'ossidazione di metalli pesanti, tra cui piombo, cadmio e mercurio. Queste applicazioni contribuiscono a rendere sostenibile il processo di trattamento delle acque reflue nell'industria vinicola.
 
-| Applicazione | Problema | 
+| Applicazioni Acque Reflue | Problemi | 
 | --- | --- |
 | Inattivazione di microrganismi patogeni | Batteri, virus, lieviti |
 | Rimozione di composti organici | Idrocarburi, composti fenolici, solventi |

@@ -1964,3 +1964,122 @@ Ecco la tabella con le colonne richieste:
 L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria cerealicolaper l'inattivazione di batteri e virus come Salmonella, Escherichia coli (E. coli) e il virus dell'influenza A. Inoltre, l'ozono abbatta muffe e lieviti dannosi come Aspergillus flavus, Penicillium spp. e Saccharomyces cerevisiae, nonchè è in grado di estirpare alghe presenti nei serbatoi, tra cui Chlorella, Spirulina e Dunaliella.
 
 Questa tecnologia si dimostra altrettanto efficace nell'eliminazione di odori sgradevoli, come quelli di muffa, rancido e acetone. Degrada anche i disinfettanti chimici come l'ipoclorito di sodio, il perossido di idrogeno e i quaternari di ammonio, e viene impiegata per rimuovere residui di pesticidi come il clorpirifos, la malation e la cipermetrina, nonché per ridurre residui di erbicidi come il glyphosate, l'atrazina e il dicamba.
+
+
+# vitivinicola
+# -------------------------------------------------------------------
+
+botti di legno
+cantine
+stoccaggio.
+strutture di invecchiamento.
+impianti di imbottigliamento.
+zone di lavorazione
+strutture di stoccaggio delle bottiglie.
+strutture di degustazione.
+locali di vendita.
+
+- Inattivazione di microrganismi patogeni
+- Rimozione di contaminanti organici
+- Diminuzione di solidi sospesi
+- Abbattimento di odori sgradevoli
+- Eliminazione di sostanze coloranti
+- Decadimento di disinfettati chimici
+- Riduzione di prodotti farmaceutici
+- Rimozione di pesticidi ed erbicidi
+- Ossidazione di metalli pesanti
+
+- Inattivazione di batteri e virus
+- Abbattimento di spore di muffa
+- Eliminazione di odori sgradevoli
+- Degradazione di composti chimici
+- Rimozione di allergeni
+- Diminuzione di gas tossici
+- Riduzione di composti organici volatili (COV)
+
+
+Ecco una lista di 30 applicazioni dell'ozono per il trattamento dell'aria nell'industria vitivinicola:
+
+1. Sterilizzazione di botti di legno.
+2. Rimozione di odori sgradevoli.
+3. Sterilizzazione di attrezzature di produzione.
+4. Controllo delle muffe nelle cantine.
+5. Sterilizzazione di recipienti per il vino.
+6. Rimozione di odori di pesticidi dai grappoli d'uva.
+7. Sterilizzazione di contenitori di stoccaggio.
+8. Rimozione di odori di lievito.
+9. Sterilizzazione di strumenti di degustazione.
+10. Controllo delle muffe nelle strutture di invecchiamento.
+11. Sterilizzazione di tappi e chiusure.
+12. Rimozione di odori di aceto.
+13. Sterilizzazione di impianti di imbottigliamento.
+14. Controllo delle muffe nelle zone di lavorazione dell'uva.
+15. Sterilizzazione delle vasche di fermentazione.
+16. Rimozione di odori di solventi.
+17. Sterilizzazione delle pompe di trasferimento.
+18. Controllo delle muffe nelle strutture di stoccaggio delle bottiglie.
+19. Sterilizzazione di tubazioni e condotte.
+20. Rimozione di odori di ossidazione.
+21. Sterilizzazione di serbatoi di stoccaggio.
+22. Controllo delle muffe nelle strutture di degustazione.
+23. Sterilizzazione di etichette e confezioni.
+24. Rimozione di odori di cantina umida.
+25. Sterilizzazione di attrezzature di pulizia.
+26. Controllo delle muffe nei locali di imbottigliamento.
+27. Sterilizzazione di filtri per la pulizia dell'aria.
+28. Rimozione di odori di marciume.
+29. Sterilizzazione di camere di invecchiamento.
+30. Controllo delle muffe nei locali di vendita.
+
+Si noti che l'ozono può essere utilizzato in diverse applicazioni per migliorare la qualità e la sicurezza dei prodotti nell'industria vitivinicola.
+
+Ecco un elenco di 3 batteri e virus, 3 muffe, 3 odori sgradevoli, 3 composti chimici, 3 gas tossici e 3 composti organici volatili (COV) che si possono trovare nell'aria nell'industria vitivinicola:
+
+Batteri e Virus:
+1. Escherichia coli
+2. Lactobacillus
+3. Saccharomyces cerevisiae
+
+Muffe:
+1. Penicillium
+2. Aspergillus
+3. Cladosporium
+
+Odori Sgradevoli:
+1. Odori di solfuro
+2. Odori di aceto
+3. Odori di lievito spento
+
+Composti Chimici:
+1. Diacetile
+2. Etilacetato
+3. Acido solforico
+
+Gas Tossici:
+1. Anidride solforosa (SO2)
+2. Monossido di carbonio (CO)
+3. Ossido di azoto (NOx)
+
+Composti Organici Volatili (COV):
+1. Etanolo
+2. Acetaldeide
+3. Metanolo
+
+
+Ecco la tabella richiesta:
+
+| Applicazioni                      | Esempi                     |
+|--------------------------------|---------------------------------------|
+| Inattivazione di batteri e virus | Escherichia coli, Lactobacillus, Saccharomyces cerevisiae |
+| Abbattimento di spore di muffa  | Penicillium, Aspergillus, Cladosporium |
+| Eliminazione di odori sgradevoli | Odori di solfuro, Odori di aceto, Odori di lievito spento |
+| Degradazione di composti chimici | Diacetile, Etilacetato, Acido solforico |
+| Diminuzione di gas tossici       | Anidride solforosa (SO2), Monossido di carbonio (CO), Ossido di azoto (NOx) |
+| Riduzione di composti organici volatili (COV) | Etanolo, Acetaldeide, Metanolo |
+
+
+
+
+L'ozono viene utilizzato per il trattamento delle aree ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. 
+
+Questo gas è altamente efficace nell'eliminare odori sgradevoli, come quelli di solfuro, aceto e lievito spento, nonchè è in grado di degradare composti chimici indesiderati, tra cui diacetile, etilacetato e acido solforico. L'O3 contribuisce anche alla diminuzione di gas tossici nell'aria, tra cui anidride solforosa (SO2), monossido di carbonio (CO) e ossido di azoto (NOx). Infine, è un alleato nella riduzione di composti organici volatili (COV) come etanolo, acetaldeide e metanolo, migliorando così la qualità dell'ambiente nelle strutture vitivinicole.

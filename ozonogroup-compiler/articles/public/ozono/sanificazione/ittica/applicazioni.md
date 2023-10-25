@@ -30,7 +30,7 @@ Tra i principali patogeni identificati, la Salmonella può causare intossicazion
 
 Altri patogeni comuni includono il Staphylococcus aureus, il Vibrio vulnificus, l'Aeromonas hydrophila, il Campylobacter spp. e lo Shigella spp., ciascuno con i propri rischi di infezione, dalla gastroenterite alla sepsi e altro.
 
-| Patogeno | Problema | 
+| Patogeno | Problemi | 
 | --- | --- |
 | Salmonella | Intossicazioni alimentari, richiami di prodotti, infezioni |
 | Escherichia coli (e. coli) | Contaminazione fecale, diarrea, malattie gastrointestinali |
@@ -51,7 +51,7 @@ Le camere frigorifere beneficiano dell'ozonizzazione per mantenere la freschezza
 
 L'ozono elimina gli odori sgradevoli negli stabilimenti ittici e contribuisce anche a rimuovere contaminanti microbiologici nell'aria, nonchè a prevenire la formazione di muffe e batteri sulle superfici. Durante il trasporto del pesce, la sanificazione dei veicoli è essenziale per evitare la contaminazione crociata. Nei magazzini di stoccaggio del pesce, questo gas aiuta a mantenere la qualità del pesce durante il periodo di conservazione, svolgendo un ruolo critico nell'assicurare la freschezza e la sicurezza alimentare in tutta l'industria ittica.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Ozonizzazione delle camere frigorifere | Mantenimento freschezza del pesce, prolungamento shelf-life, eliminazione odori. |
 | Purificazione dell'aria nelle aree di lavorazione | Rimozione di vapori di pesce, riduzione della contaminazione microbiologica. |
@@ -73,7 +73,7 @@ Nelle fasi di confezionamento, l'ozono sanifica gli impianti, come i nastri tras
 
 Nei punti di preparazione del pesce e nelle pescherie, è utilizzato per garantire una sterilizzazione completa. Infine, svolge un ruolo cruciale nella disinfezione delle attrezzature utilizzate per la produzione di alimenti ittici e nella sanificazione delle aree di vendita al dettaglio, come banconi e vetrine frigorifere.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Sterilizzazione di attrezzature per la lavorazione del pesce | Serbatoi, utensili, attrezzi |
 | Decontaminazione di tavoli da lavoro e superfici di taglio | Tavoli di lavoro, taglieri |
@@ -94,7 +94,7 @@ Questo gas ossidante svolge un ruolo cruciale nella rimozione di odori sgradevol
 
 L'ozono è in grado di decolorare l'acqua, rimuovendo colori indesiderati. Infine, contribuisce alla rimozione di metalli pesanti come il mercurio, il cadmio e il piombo, migliorando la qualità dell'acqua utilizzata nell'industria ittica. Questi benefici dimostrano l'importanza dell'ozono nel processo di disinfezione dell'acqua di processo per l'industria ittica.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Riduzione dei patogeni | Salmonella, e. coli, vibrio |
 | Rimozione di contaminanti organici | Organici disciolti, composti organici volatili |
@@ -112,7 +112,7 @@ Grazie alle sue proprietà di ossidazione, l'ozono riduce i solidi sospesi nell'
 
 Infine, l'ozono trova applicazione nel trattamento dei fanghi, contribuendo alla riduzione del loro volume complessivo.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Eliminazione di patogeni | Batteri, virus, protozoi |
 | Rimozione di contaminanti organici | Olio, grasso, proteine |

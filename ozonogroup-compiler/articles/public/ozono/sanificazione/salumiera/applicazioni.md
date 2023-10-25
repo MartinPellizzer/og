@@ -17,7 +17,7 @@ L'O3 viene anche impiegato per estirpare alghe da serbatoi e contenitori, come C
 
 Questo gas svolge anche un ruolo nella rimozione di residui di pesticidi come Clorpirifos, Deltametrina e Imidacloprid e nella riduzione dei residui di erbicidi come Glyphosate, Atrazina e 2,4-D, contribuendo così a mantenere elevati standard di sicurezza alimentare nell'industria salumiera.
 
-| Funzione | Problema | 
+| Funzione | Problemi | 
 | --- | --- |
 | Inattivazione di batteri e virus | Salmonella, listeria, escherichia coli |
 | Abbattimento di muffe e lieviti | Penicillium, aspergillus, candida |
@@ -48,7 +48,7 @@ Il processo di ozonizzazione diminuisce i solidi sospesi e abbatte odori sgradev
 
 Riduce la presenza di farmaci e pesticidi nelle acque reflue, contribuendo alla sostenibilità ambientale. Infine, l'ossidazione di metalli pesanti come cadmio, piombo e mercurio è un'ulteriore applicazione benefica.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Inattivazione di microrganismi patogeni | Salmonella, e. coli, listeria |
 | Rimozione di contaminanti organici | Grassi, proteine, oli |

@@ -945,8 +945,23 @@
             {
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
-                "description": [],
-                "problems": []
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle aree ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. ",
+                    "Questo gas è altamente efficace nell'eliminare odori sgradevoli, come quelli di solfuro, aceto e lievito spento, nonchè è in grado di degradare composti chimici indesiderati, tra cui diacetile, etilacetato e acido solforico. L'O3 contribuisce anche alla diminuzione di gas tossici nell'aria, tra cui anidride solforosa (SO2), monossido di carbonio (CO) e ossido di azoto (NOx). Infine, è un alleato nella riduzione di composti organici volatili (COV) come etanolo, acetaldeide e metanolo, migliorando così la qualità dell'ambiente nelle strutture vitivinicole."
+                ],
+                "problems": [],
+                "list": [
+                    "Cantine di fermentazione.",
+                    "Sale di invecchiamento del vino.",
+                    "Locali di imbottigliamento.",
+                    "Stanze di degustazione.",
+                    "Cantine di stoccaggio delle bottiglie.",
+                    "Sale di lavorazione dell'uva.",
+                    "Stanze di pulizia e disinfezione.",
+                    "Locali di vendita e esposizione.",
+                    "Laboratori enologici.",
+                    "Depositi di attrezzature di produzione."
+                ]
             },
             {
                 "table": "attrezzature",
@@ -1001,6 +1016,13 @@
         "industry_ad": "",
         "applications_intro": [],
         "applications": [
+            {
+                "table": "aria-ambienti",
+                "title": "Disinfezione dell'aria negli ambienti",
+                "description": [],
+                "problems": [],
+                "list": []
+            },
             {
                 "table": "attrezzature",
                 "title": "Sterilizzazione delle attrezzature",

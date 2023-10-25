@@ -26,7 +26,7 @@ Trichoderma spp. e Verticillium fungicola possono competere con i funghi coltiva
 
 I virus dei funghi possono infettare i funghi coltivati, riducendo la produzione. Nel frattempo, i nematodi parassiti come Aphelenchoides spp. possono danneggiare le radici e minacciare la salute delle piante. Fusarium spp. e Rhizoctonia spp. causano il marciume delle radici e portano a perdite di raccolto e degrado della qualità. Bacillus spp., Mucor spp. e Alternaria spp. possono decomporre i substrati e contaminare le colture, creando ulteriori sfide nell'industria della fungicoltura.
 
-| Patogeno | Problema | 
+| Patogeno | Problemi | 
 | --- | --- |
 | Trichoderma spp. | Competizione per nutrimento, riduzione della resa, deterioramento |
 | Verticillium fungicola | Riduzione della crescita dei funghi, compromissione della qualità |
@@ -47,7 +47,7 @@ Un'altra applicazione cruciale è il controllo degli odori sgradevoli all'intern
 
 L'ozono aiuta anche a prolungare la durata di conservazione dei prodotti fungini, riducendo la contaminazione microbiologica e prevenendo malattie fungine. Migliora la qualità dell'aria rimuovendo allergeni e agenti irritanti. Inoltre, elimina microrganismi indesiderati che potrebbero compromettere la crescita dei funghi e previene la diffusione di infezioni crociate tra le diverse coltivazioni, garantendo un ambiente sano e ottimale per la crescita dei funghi.
 
-| Applicazioni | Problema | 
+| Applicazioni | Problemi | 
 | --- | --- |
 | Sterilizzazione delle camere di coltivazione dei funghi | Disinfezione delle pareti e delle attrezzature. |
 | Riduzione dei contaminanti microbiologici nell'aria | Rimozione di spore di muffa, batteri, e virus. |
@@ -68,7 +68,7 @@ Strumenti e attrezzature agricole, come cesoie e trinciastocchi, vengono disinfe
 
 Anche la sanificazione delle pareti e dei pavimenti delle strutture di coltivazione, nonché la sterilizzazione delle attrezzature per la raccolta dei funghi, sono passaggi fondamentali. Inoltre, la disinfezione delle confezioni e degli imballaggi, la sanitizzazione dei camion per il trasporto dei funghi e la pulizia delle superfici nelle aree di stoccaggio svolgono un ruolo determinante per preservare la qualità e la sicurezza dei prodotti fungicoli. Perfino nei laboratori di ricerca fungicola, le superfici, come i banconi, gli incubatori e le camere climatiche, vengono sterilizzate mediante l'ozono, contribuendo a garantire un ambiente di lavoro igienico e privo di contaminazioni.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Disinfezione degli strumenti e attrezzature agricole | Coltelli, cesoie, trinciastocchi |
 | Pulizia delle serre e delle aree di lavorazione | Vetri, pavimenti, tavoli di lavoro |
@@ -88,7 +88,7 @@ Queste contaminazioni includono la presenza di batteri patogeni come Escherichia
 
 Anche sedimenti e particelle sospese, tra cui sabbia e fanghi, possono impattare negativamente sull'acqua. Infine, sostanze chimiche industriali come solventi, acidi e basi, insieme a microbi indesiderati, tra cui Clostridium e Pseudomonas, rappresentano ulteriori sfide nella gestione della qualità dell'acqua nel settore della fungicoltura.
 
-| Tipo Di Contaminazione | Problema | 
+| Tipo Di Contaminazione | Problemi | 
 | --- | --- |
 | Contaminazione batterica | Escherichia coli, salmonella, listeria |
 | Contaminazione da funghi patogeni | Fusarium, penicillium, aspergillus |
@@ -109,7 +109,7 @@ Tra queste, la contaminazione microbiologica è spesso rappresentata da batteri 
 
 Allo stesso modo, i metalli pesanti come piombo, mercurio e cromo possono contaminare le acque reflue, comportando rischi ambientali. Le sostanze organiche, tra cui BOD, COD e composti fenolici, possono influenzare negativamente la qualità dell'acqua. Inoltre, la presenza di sedimenti e particelle in sospensione, come silt, argilla e detriti organici, può causare problemi aggiuntivi nella gestione delle acque reflue dell'industria fungicola.
 
-| Tipo Di Contaminazione | Problema | 
+| Tipo Di Contaminazione | Problemi | 
 | --- | --- |
 | Contaminazione microbiologica | Salmonella, e. coli, coliformi |
 | Contaminazione chimica | Idrocarburi, solventi, cloruri |

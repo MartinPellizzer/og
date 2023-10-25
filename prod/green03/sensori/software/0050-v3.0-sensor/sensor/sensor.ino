@@ -12,6 +12,8 @@ const int freq = 5000;
 const int ledChannel = 0;
 const int resolution = 8;
 
+uint32_t timer_test = 0;
+
 #define RE_DE_PIN 16
 
 void setup() 
@@ -41,6 +43,12 @@ unsigned char FucCheckSum(unsigned char *i, unsigned char ln)
 
 void loop() 
 {
+  if (millis() - timer_test > 1000)
+  {
+    timer_test = millis();
+      Serial.println("one second passed...");
+  }
+
   if (new_data)
   {
     if (millis() - timer > 40)
@@ -50,11 +58,13 @@ void loop()
 
       int ppb = 0;      
 
+      // get ppb from sensor
       if (FucCheckSum(buff, 9) == buff[8]) 
       {
         ppb = buff[4] * 256 + buff[5];
       }
 
+      // send serially
       digitalWrite(RE_DE_PIN, HIGH);
       for(int k = 0; k < 9; k++)
       {
@@ -62,20 +72,20 @@ void loop()
       }
       delay(10);
       digitalWrite(RE_DE_PIN, LOW);
-      
       for(int k = 0; k < 9; k++)
       {
         buff[k] = 0;
       }
 
+      // send 0-10V
       uint8_t pwm_val = map(ppb, 0, 10000, 0, 255);
 
       ledcWrite(ledChannel, pwm_val);
       // ledcWrite(ledChannel, 128);
       
-      // Serial.print(ppb);
-      // Serial.print(" - ");
-      // Serial.println(pwm_val);
+      Serial.print(ppb);
+      Serial.print(" - ");
+      Serial.println(pwm_val);
     }
   }
 

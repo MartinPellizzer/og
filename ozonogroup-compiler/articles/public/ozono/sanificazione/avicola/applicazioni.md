@@ -15,7 +15,7 @@ L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria Av
 
 Le alghe, come Chlorella, Spirulina, Nannochloropsis, Dunaliella e Microcystis, possono formarsi all'interno dei serbatoi, ma l'O3 contribuisce alla loro estirpazione. Questo gas svolge anche un ruolo importante nell'eliminazione di odori sgradevoli come ammoniaca, solfiti, metano, idrogeno solforato e fenolo, che possono essere problematici nell'ambiente avicolo. Inoltre, è utile per la degradazione di disinfettanti chimici, per la rimozione di residui di pesticidi e per la riduzione di residui di erbicidi, contribuendo così a garantire un ambiente sicuro e igienico nell'industria avicola.
 
-| Applicazioni | Problema | 
+| Applicazioni | Problemi | 
 | --- | --- |
 | Inattivazione di batteri e virus | Salmonella, campylobacter, avian influenza virus, e. coli, clostridium perfringens |
 | Abbattimento di muffe e lieviti | Aspergillus, penicillium, candida, rhizopus, saccharomyces |
@@ -46,7 +46,7 @@ La diminuzione di solidi sospesi, compresi sedimenti e particelle solide, è un'
 
 Questo gas è efficace nel decadimento di disinfettanti chimici come il cloro e contribuisce alla riduzione di prodotti farmaceutici e pesticidi nelle acque reflue. Infine, è utilizzato per l'ossidazione di metalli pesanti come il piombo, il cadmio e il mercurio, garantendo che le acque reflue soddisfino le normative ambientali.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Inattivazione di microrganismi patogeni | Salmonella, escherichia coli, campylobacter |
 | Rimozione di contaminanti organici | Grasso, proteine, idrocarburi |

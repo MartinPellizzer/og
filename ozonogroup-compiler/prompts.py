@@ -38,8 +38,19 @@ elif application == 'attrezzature':
         "- Rimozione di residui di pesticidi",
         "- Riduzione di residui di erbicidi"
     ]
+elif application == 'aria-ambienti':
+    lst = [ 
+        "- Inattivazione di microbi",
+        "- Abbattimento di muffe e lieviti",
+        "- Eliminazione di odori sgradevoli",
+        "- Degradazione di disinfettati chimici",
+        "- Rimozione di residui di pesticidi",
+        "- Riduzione di residui di erbicidi"
+    ]
 
 lst = "\n".join(lst)
+
+application = application.strip().lower().replace('-', ' ')
 
 i = 0 
 print(f'''
@@ -50,7 +61,7 @@ Non aggiungere descrizioni.
 print(f'''-----------------------------------------------------------''')
 i += 1
 
-if application.strip().lower().replace(' ', '-') == 'acque-reflue':
+if application == 'acque-reflue':
     print(f'''
     {i}.
     Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
@@ -97,61 +108,110 @@ if application.strip().lower().replace(' ', '-') == 'acque-reflue':
 
 
 elif application.strip().lower().replace(' ', '-') == 'attrezzature':
-    print(f'''
-    {i}.
-    Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
-    Non aggiungere descrizioni.
+    print(f'''{i}. APPLICAZIONI
+
+        Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
+        Non aggiungere descrizioni.
     ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
     num = 3
-    print(f'''
-    {i}.
-    dammi un elenco di {num} batteri e virus, {num} muffe e lieviti, {num} alghe, {num} odori sgradevoli, {num} disinfettati chimici, {num} pesticidi, {num} erbicidi che si trovano in {application} nell'industria {industry}. dammi solo i nomi, no le descrizioni.
+    print(f'''{i}. LISTA PROBLEMI
+
+        dammi un elenco di {num} batteri e virus, {num} muffe e lieviti, {num} alghe, {num} odori sgradevoli, {num} disinfettati chimici, {num} pesticidi, {num} erbicidi che si trovano in {application} nell'industria {industry}. dammi solo i nomi, no le descrizioni.
     ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
 
-    print(f'''
-    {i}.
-    Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
+    print(f'''{i}. TABELLA
+        Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
 
-    - Inattivazione di batteri e virus
-    - Abbattimento di muffe e lieviti
-    - Estirpazione di alghe da serbatoi
-    - Eliminazione di odori sgradevoli
-    - Degradazione di disinfettati chimici
-    - Rimozione di residui di pesticidi
-    - Riduzione di residui di erbicidi
+        - Inattivazione di batteri e virus
+        - Abbattimento di muffe e lieviti
+        - Estirpazione di alghe da serbatoi
+        - Eliminazione di odori sgradevoli
+        - Degradazione di disinfettati chimici
+        - Rimozione di residui di pesticidi
+        - Riduzione di residui di erbicidi
 
-    Nella seconda colonna metti gli elementi delle liste della tua ultima risposta nelle giuste celle.
+        Nella seconda colonna metti gli elementi delle liste della tua ultima risposta nelle giuste celle.
     ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
-    print(f'''
-    {i}.
-    Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.
-    La sezione deve essere lunga meno di 200 parole.
-    Non scrivere in formato lista. Scrivi in formato discorsivo.
-    Usa frasi semplici, con una struttura dritta e in voce attiva.
-    Non aggiungere opinioni, scrivi solo i fatti.
+    print(f'''{i}. RIASSUNTO
 
-    La prima frase di questa sezione deve essere la seguente:
+        Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.
+        La sezione deve essere lunga meno di 200 parole.
+        Non scrivere in formato lista. Scrivi in formato discorsivo.
+        Usa frasi semplici, con una struttura dritta e in voce attiva.
+        Non aggiungere opinioni, scrivi solo i fatti.
 
-    "L'ozono viene utilizzato per il trattamento delle {application} nell'industria {industry}."
+        La prima frase di questa sezione deve essere la seguente:
+
+        "L'ozono viene utilizzato per il trattamento delle {application} nell'industria {industry}."
     ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
-    print(f'''
-    {i}.
-    Dammi una lista di 10 {application} più comuni nell'industria {industry} dove si può utilizzare l'ozono per la sanificazione.
+    print(f'''{i}. LISTA ATTREZZATURE
+        Dammi una lista di 10 {application} più comuni nell'industria {industry} dove si può utilizzare l'ozono per la sanificazione.
     ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
+
+
+elif application.strip().lower().replace(' ', '-') == 'aria-ambienti':
+    print(f'''{i}. APPLICAZIONI
+
+        Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
+        Non aggiungere descrizioni.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    num = 3
+    print(f'''{i}. LISTA PROBLEMI
+
+        dammi un elenco di {num} batteri e virus, {num} muffe, {num} odori sgradevoli, {num} composti chimici, {num} gas tossici e {num} composti organici volatili (COV) che si trovano in {application} nell'industria {industry}. dammi solo i nomi, no le descrizioni.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''{i}. TABELLA
+        Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
+
+        {lst}
+
+        Nella seconda colonna metti gli elementi delle liste della tua ultima risposta nelle giuste celle.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''{i}. RIASSUNTO
+
+        Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.
+        La sezione deve essere lunga meno di 200 parole.
+        Non scrivere in formato lista. Scrivi in formato discorsivo.
+        Usa frasi semplici, con una struttura dritta e in voce attiva.
+        Non aggiungere opinioni, scrivi solo i fatti.
+
+        La prima frase di questa sezione deve essere la seguente:
+
+        "L'ozono viene utilizzato per il trattamento delle {application} nell'industria {industry}."
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''{i}. LISTA AMBIENTI
+        Dammi una lista di 10 ambienti più comuni nell'industria {industry} dove si può utilizzare l'ozono per la sanificazione.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+# - Rimozione di allergeni
 
 # dammi un elenco di 3-5:
 
@@ -161,7 +221,6 @@ elif application.strip().lower().replace(' ', '-') == 'attrezzature':
 # - disinfettati chimici
 # - pesticidi
 # - erbicidi
-
 # che si trovano in attrazzature nell'industria vitivinicola.
 
 # print(f'''

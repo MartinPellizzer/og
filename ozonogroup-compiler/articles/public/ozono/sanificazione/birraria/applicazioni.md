@@ -17,7 +17,7 @@ Le alghe, come Chlorella e Spirogyra, vengono estirpate dai serbatoi birrari att
 
 L'ozono è responsabile della degradazione dei disinfettanti chimici, come il perossido di idrogeno e l'iodio, ed è utilizzato per la rimozione di residui di pesticidi come il rame e l'azoto, oltre alla riduzione dei residui di erbicidi come il glifosato e il dicamba.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Inattivazione di batteri e virus | Escherichia coli, saccharomyces cerevisiae, lactobacillus brevis, pediococcus, brettanomyces |
 | Abbattimento di muffe e lieviti | Penicillium, aspergillus, candida, geotrichum, rhodotorula |
@@ -48,7 +48,7 @@ La diminuzione dei solidi sospesi, quali sedimenti e particelle, è un altro van
 
 L'O3 gioca un ruolo essenziale nella riduzione di prodotti farmaceutici, pesticidi ed erbicidi nelle acque reflue, mentre l'ossidazione di metalli pesanti come piombo, cadmio e mercurio contribuisce a proteggere l'ecosistema circostante.
 
-| Applicazione | Problema | 
+| Applicazione | Problemi | 
 | --- | --- |
 | Inattivazione di microrganismi patogeni | Salmonella, e. coli, coliformi fecali |
 | Rimozione di contaminanti organici | Oli, grassi, idrocarburi |

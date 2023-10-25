@@ -534,7 +534,7 @@ def generate_table(lines):
     text = ''
     for i, line in enumerate(lines):
         if i == 0: 
-            text += f'| {line[0].title()} | Problema | \n'
+            text += f'| {line[0].title()} | Problemi | \n'
             text += f'| --- | --- |\n'
         else:
             text += f'| {line[0].capitalize()} | {line[1].capitalize()} |\n'
@@ -629,7 +629,10 @@ for item in data:
                 
             try:
                 lst = application['list']
-                article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'indutria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
+                if application['table'] == 'aria-ambienti':
+                    article += f'L\'ozono sanifica diversi tipi di ambienti nell\'indutria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
+                elif application['table'] == 'attrezzature':
+                    article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'indutria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
                 article += lst_to_blt(lst) + '\n\n'
             except: pass
 
