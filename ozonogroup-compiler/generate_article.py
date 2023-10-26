@@ -630,9 +630,11 @@ for item in data:
             try:
                 lst = application['list']
                 if application['table'] == 'aria-ambienti':
-                    article += f'L\'ozono sanifica diversi tipi di ambienti nell\'indutria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
+                    article += f'L\'ozono sanifica diversi tipi di ambienti nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
                 elif application['table'] == 'attrezzature':
-                    article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'indutria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
+                    article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'industria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
+                elif application['table'] == 'prodotti-alimentari':
+                    article += f'L\'ozono sanifica diversi tipi di prodotti alimentari nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
                 article += lst_to_blt(lst) + '\n\n'
             except: pass
 

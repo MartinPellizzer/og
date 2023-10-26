@@ -1,15 +1,48 @@
-# 2 Applicazioni dell'Ozono nell'Industria Cerealicola 
+# 4 Applicazioni dell'Ozono nell'Industria Cerealicola 
 
-![2 Applicazioni dell'Ozono nell'Industria Cerealicola](/assets/images/cerealicola-applicazioni-featured.jpg "2 Applicazioni dell'Ozono nell'Industria Cerealicola")
+![4 Applicazioni dell'Ozono nell'Industria Cerealicola](/assets/images/cerealicola-applicazioni-featured.jpg "4 Applicazioni dell'Ozono nell'Industria Cerealicola")
 
 
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria cerealicola elencate nella seguente lista.
 
+- Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle attrezzature
+- Sanificazione dei prodotti alimentari
 - Trattamento delle acque reflue
 
-## 1. Sterilizzazione delle attrezzature
+## 1. Disinfezione dell'aria negli ambienti
+
+L'ozono viene utilizzato per il trattamento delle aria-ambienti nell'industria cerealicola. Inattiva batteri e virus, come Salmonella ed Escherichia coli, contribuisce alla sicurezza alimentare, riducendo il rischio di contaminazioni batteriche. Inoltre, abbatte muffe e funghi come Aspergillus flavus, Fusarium spp. e Penicillium expansum, preservando la qualità dei cereali stoccati.
+
+L'O3 controlla parassiti e insetti, come Tribolium castaneum, Rhyzopertha dominica e Sitophilus oryzae, il che è fondamentale per proteggere le scorte di cereali dagli attacchi dannosi. Elimina odori sgradevoli come ammoniaca, solfiti e indoli, migliorando le condizioni di lavoro e l'ambiente in generale. In aggiunta, il suo ruolo nella degradazione di composti chimici come aflatossine, deossinivalenolo (DON) e fumonisina è cruciale per garantire la sicurezza alimentare.
+
+Questo agente sanificante riduce i gas tossi, come l'anidride solforosa (SO2), il biossido di azoto (NO2) e l'ossido di etilene (ETO), migliorando la qualità dell'aria nell'industria cerealicola. Infine, contribuisce alla riduzione dei composti organici volatili (COV) come l'acetone, il toluene e la formaldeide, riducendo l'impatto ambientale e migliorando le condizioni di lavoro in questi ambienti industriali.
+
+| Applicazioni Aria Ambienti | Problemi | 
+| --- | --- |
+| Inattivazione di batteri e virus | Salmonella, escherichia coli, influenza a virus |
+| Abbattimento di muffe e funghi | Aspergillus flavus, fusarium spp., penicillium expansum |
+| Controllo di parassiti e insetti | Tribolium castaneum, rhyzopertha dominica, sitophilus oryzae |
+| Eliminazione di odori sgradevoli | Ammoniaca, solfiti, indoli |
+| Degradazione di composti chimici | Aflatossine, deossinivalenolo (don), fumonisina |
+| Diminuzione di gas tossici | Anidride solforosa (so2), biossido di azoto (no2), ossido di etilene (eto) |
+| Riduzione di composti organici volatili (cov) | Acetone, tolueno, formaldeide |
+
+L'ozono sanifica diversi tipi di ambienti nell'industria cerealicola, come quelli elencanti nella seguente lista.
+
+- Magazzini di stoccaggio dei cereali
+- Silos di stoccaggio
+- Impianti di confezionamento dei cereali
+- Laboratori di analisi alimentari
+- Camere di essiccazione dei cereali
+- Luoghi di trasformazione e macinazione dei cereali
+- Zone di pulizia e disinfezione delle attrezzature
+- Spazi di trasporto e movimentazione dei cereali
+- Ambienti di lavorazione e preparazione degli ingredienti
+- Zone di controllo qualità e ispezione dei cereali
+
+## 2. Sterilizzazione delle attrezzature
 
 L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria cerealicolaper l'inattivazione di batteri e virus come Salmonella, Escherichia coli (E. coli) e il virus dell'influenza A. Inoltre, l'ozono abbatta muffe e lieviti dannosi come Aspergillus flavus, Penicillium spp. e Saccharomyces cerevisiae, nonchè è in grado di estirpare alghe presenti nei serbatoi, tra cui Chlorella, Spirulina e Dunaliella.
 
@@ -25,7 +58,7 @@ Questa tecnologia si dimostra altrettanto efficace nell'eliminazione di odori sg
 | Rimozione di residui di pesticidi | Clorpirifos, malation, cipermetrina |
 | Riduzione di residui di erbicidi | Glyphosate, atrazina, dicamba |
 
-L'ozono sanifica diversi tipi di attrezzature nell'indutria cerealicola, come quelle elencante nella seguente lista.
+L'ozono sanifica diversi tipi di attrezzature nell'industria cerealicola, come quelle elencante nella seguente lista.
 
 - Silos per lo stoccaggio dei cereali.
 - Nastri trasportatori.
@@ -38,7 +71,38 @@ L'ozono sanifica diversi tipi di attrezzature nell'indutria cerealicola, come qu
 - Macchine per il confezionamento cereali.
 - Estrattori di olio da cereali.
 
-## 2. Trattamento delle acque reflue
+## 3. Sanificazione dei prodotti alimentari
+
+L'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria cerealicola, come cereali, farina e riso. In particolare, è efficace nell'inattivare microrganismi patogeni come Salmonella, Escherichia coli e Listeria, contribuendo così a garantire la sicurezza alimentare. 
+
+Nell'ambito del controllo dei parassiti e insetti, l'O3 è utilizzato per combattere acari, coleotteri e tarme, preservando la qualità dei cereali e la loro integrità. Inoltre, rimuovere contaminanti organici come micotossine, pesticidi organici e idrocarburi policiclici aromatici (IPA), riducendo la presenza di sostanze nocive nei prodotti cerealicoli.
+
+Un altro vantaggio di questo gas è la sua capacità di abbattere odori sgradevoli come ammoniaca, solfuro di idrogeno e trimetilammina, migliorando la percezione sensoriale dei prodotti. Contribuisce anche al decadimento di disinfettanti chimici come il cloro e il perossido di idrogeno, riducendo così la presenza di residui chimici nei cereali.
+
+L'applicazione dell'ozono permette anche di ridurre prodotti farmaceutici, pesticidi ed erbicidi, garantendo che i cereali siano conformi agli standard di sicurezza alimentare. Infine, è efficace nell'ossidazione di metalli pesanti come il piombo, il cadmio e il mercurio, contribuendo a preservare la salute dei consumatori e la qualità dei cereali nell'industria cerealicola.
+
+| Applicazioni Prodotti Alimentari | Problemi | 
+| --- | --- |
+| Inattivazione di microrganismi patogeni | Salmonella, escherichia coli, listeria |
+| Controllo di parassiti e insetti | Acari, coleotteri, tarme |
+| Rimozione di contaminanti organici | Micotossine, pesticidi organici, ipa |
+| Abbattimento di odori sgradevoli | Ammoniaca, solfuro di idrogeno, trimetilammina |
+| Decadimento di disinfettanti chimici | Cloro, perossido di idrogeno, quaternari di ammonio |
+| Riduzione di prodotti farmaceutici | Antibiotici, analgesici, antinfiammatori |
+| Rimozione di pesticidi ed erbicidi | Roundup (glyphosate), clorpirifos, diclorodifeniltricloroetano (ddt) |
+| Ossidazione di metalli pesanti | Piombo, cadmio, mercurio |
+
+L'ozono sanifica diversi tipi di prodotti alimentari nell'industria cerealicola, come quelli elencanti nella seguente lista.
+
+- Cereali
+- Farina
+- Riso
+- Pane
+- Pasta
+- Biscotti
+- Cracker
+
+## 4. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria cerealicola. Inattiva i microrganismi patogeni come batteri, virus e protozoi, e contribuisce alla rimozione di contaminanti organici come oli, grassi e idrocarburi, migliorando la qualità delle acque trattate. 
 

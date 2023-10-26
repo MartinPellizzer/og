@@ -1,23 +1,17 @@
-# 5 Applicazioni dell'Ozono nell'Industria Vitivinicola 
+# 4 Applicazioni dell'Ozono nell'Industria Vitivinicola 
 
-![5 Applicazioni dell'Ozono nell'Industria Vitivinicola](/assets/images/vitivinicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Vitivinicola")
+![4 Applicazioni dell'Ozono nell'Industria Vitivinicola](/assets/images/vitivinicola-applicazioni-featured.jpg "4 Applicazioni dell'Ozono nell'Industria Vitivinicola")
 
 
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria vitivinicola elencate nella seguente lista.
 
-- Rimozione di microrganismi patogeni
 - Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle attrezzature
-- Disinfezione dell'acqua di processo
+- Sanificazione dei prodotti alimentari
 - Trattamento delle acque reflue
 
-## 1. Rimozione di microrganismi patogeni
-
-
-
-
-## 2. Disinfezione dell'aria negli ambienti
+## 1. Disinfezione dell'aria negli ambienti
 
 L'ozono viene utilizzato per il trattamento delle aree ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. 
 
@@ -32,7 +26,7 @@ Questo gas è altamente efficace nell'eliminare odori sgradevoli, come quelli di
 | Diminuzione di gas tossici | Anidride solforosa (so2), monossido di carbonio (co), ossido di azoto (nox) |
 | Riduzione di composti organici volatili (cov) | Etanolo, acetaldeide, metanolo |
 
-L'ozono sanifica diversi tipi di ambienti nell'indutria vitivinicola, come quelle elencante nella seguente lista.
+L'ozono sanifica diversi tipi di ambienti nell'industria vitivinicola, come quelli elencanti nella seguente lista.
 
 - Cantine di fermentazione.
 - Sale di invecchiamento del vino.
@@ -45,7 +39,7 @@ L'ozono sanifica diversi tipi di ambienti nell'indutria vitivinicola, come quell
 - Laboratori enologici.
 - Depositi di attrezzature di produzione.
 
-## 3. Sterilizzazione delle attrezzature
+## 2. Sterilizzazione delle attrezzature
 
 L'ozono viene utilizzato per il trattamento delle attrezzature nell'industria vitivinicola. Per esempio, viene impiegato per l'inattivazione di batteri e virus, tra cui Lactobacillus, Acetobacter, Escherichia coli e Listeria monocytogenes. Inoltre, è efficace nell'abbattere muffe e lieviti, come Botrytis cinerea, Saccharomyces cerevisiae, Candida, Penicillium e Aspergillus. 
 
@@ -60,7 +54,7 @@ L'eliminazione di odori sgradevoli, tra cui quelli di riduzione, ossidazione, mu
 | Rimozione di residui di pesticidi | Fungicidi, insetticidi, erbicidi, neonicotinoidi, solfato di rame |
 | Riduzione di residui di erbicidi | Glyphosate, atrazina, metribuzin, simazina, 2,4-d |
 
-L'ozono sanifica diversi tipi di attrezzature nell'indutria vitivinicola, come quelle elencante nella seguente lista.
+L'ozono sanifica diversi tipi di attrezzature nell'industria vitivinicola, come quelle elencante nella seguente lista.
 
 - Botti di legno
 - Serbatoi di fermentazione
@@ -77,12 +71,33 @@ L'ozono sanifica diversi tipi di attrezzature nell'indutria vitivinicola, come q
 - Contenitori di stoccaggio
 - Contenitori di trasporto
 
-## 4. Disinfezione dell'acqua di processo
+## 3. Sanificazione dei prodotti alimentari
 
+L'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria vitivinicola, come uva e vino. In primo luogo, l'O3 inattiva microrganismi patogeni come Escherichia coli, Salmonella e Listeria, contribuendo a mantenere la sicurezza dei prodotti. Inoltre, il suo impiego si estende al controllo di parassiti e insetti, tra cui acari, coleotteri e mosche della frutta.
 
+Questo gas svolge anche un ruolo cruciale nella rimozione di contaminanti organici come aflatossine, molecole fenoliche e micotossine, garantendo la qualità dei prodotti vitivinicoli. In aggiunta, esso abbattimento gli odori sgradevoli, tra cui la geosmina, il 2,4,6-Tricloroanisolo e l'indolo, migliorando l'esperienza sensoriale dei vini.
 
+Da un punto di vista sanitario, l'ozono è efficace nel decadimento dei disinfettanti chimici come il cloro, il perossido di idrogeno e l'iodio, che possono essere presenti nei prodotti. Inoltre, contribuisce alla riduzione di prodotti farmaceutici indesiderati, rimuove efficacemente pesticidi ed erbicidi come il captano, il glifosato e il pirazophos, e facilita l'ossidazione dei metalli pesanti come il piombo, il cadmio e il mercurio.
 
-## 5. Trattamento delle acque reflue
+| Applicazioni Prodotti Alimentari | Problemi | 
+| --- | --- |
+| Inattivazione di microrganismi patogeni | Escherichia coli, salmonella, listeria |
+| Controllo di parassiti e insetti | Acari, coleotteri, mosche della frutta |
+| Rimozione di contaminanti organici | Aflatossine, molecole fenoliche, micotossine |
+| Abbattimento di odori sgradevoli | Geosmina, 2,4,6-tricloroanisolo, indoli |
+| Decadimento di disinfettati chimici | Cloro, perossido di idrogeno, iodio |
+| Riduzione di prodotti farmaceutici | Sulfamidici, antibiotici, analgesici |
+| Rimozione di pesticidi ed erbicidi | Captano, glifosato, pirazophos |
+| Ossidazione di metalli pesanti | Piombo, cadmio, mercurio |
+
+L'ozono sanifica diversi tipi di prodotti alimentari nell'industria vitivinicola, come quelli elencanti nella seguente lista.
+
+- Uva
+- Vino
+- Mosto
+- Vinacce
+
+## 4. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria vitivinicola. 
 

@@ -937,12 +937,6 @@
         "applications_intro": [],
         "applications": [
             {
-                "table": "patogeni",
-                "title": "Rimozione di microrganismi patogeni",
-                "description": [],
-                "problems": []
-            },
-            {
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
                 "description": [
@@ -989,10 +983,20 @@
                 "problems": []
             },
             {
-                "table": "acqua-processo",
-                "title": "Disinfezione dell'acqua di processo",
-                "description": [],
-                "problems": []
+                "table": "prodotti-alimentari",
+                "title": "Sanificazione dei prodotti alimentari",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria vitivinicola, come uva e vino. In primo luogo, l'O3 inattiva microrganismi patogeni come Escherichia coli, Salmonella e Listeria, contribuendo a mantenere la sicurezza dei prodotti. Inoltre, il suo impiego si estende al controllo di parassiti e insetti, tra cui acari, coleotteri e mosche della frutta.",
+                    "Questo gas svolge anche un ruolo cruciale nella rimozione di contaminanti organici come aflatossine, molecole fenoliche e micotossine, garantendo la qualità dei prodotti vitivinicoli. In aggiunta, esso abbattimento gli odori sgradevoli, tra cui la geosmina, il 2,4,6-Tricloroanisolo e l'indolo, migliorando l'esperienza sensoriale dei vini.",
+                    "Da un punto di vista sanitario, l'ozono è efficace nel decadimento dei disinfettanti chimici come il cloro, il perossido di idrogeno e l'iodio, che possono essere presenti nei prodotti. Inoltre, contribuisce alla riduzione di prodotti farmaceutici indesiderati, rimuove efficacemente pesticidi ed erbicidi come il captano, il glifosato e il pirazophos, e facilita l'ossidazione dei metalli pesanti come il piombo, il cadmio e il mercurio."
+                ],
+                "problems": [],
+                "list": [
+                    "Uva",
+                    "Vino",
+                    "Mosto",
+                    "Vinacce"
+                ]
             },
             {
                 "table": "acque-reflue",
@@ -1019,9 +1023,22 @@
             {
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
-                "description": [],
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle aree ambientali nell'industria birraria. Questo gas svolge un ruolo essenziale nell'inattivazione di batteri e virus, tra cui Saccharomyces cerevisiae, Lactobacillus brevis e Pediococcus damnosus, contribuendo così a garantire la sicurezza igienica nei processi di produzione. Inoltre, l'O3 abbatte muffe e funghi come Penicillium, Aspergillus e Cladosporium, riducendo il rischio di contaminazione del prodotto.",
+                    "Nell'ambito del controllo degli agenti patogeni, questo agente sanificante è efficace anche nel combattere parassiti e insetti come Drosophila melanogaster, Acarus siro e Tribolium confusum, preservando la qualità del prodotto. La sua azione si estende alla eliminazione di odori sgradevoli, tra cui odori di zolfo, acetale e ammoniaca, migliorando l'ambiente di lavoro.",
+                    "Inoltre, l'ozono è utilizzato per la degradazione di composti chimici come etilene, diacetile e acetaldeide, contribuendo al controllo delle reazioni indesiderate nei processi di produzione. Infine, il gas svolge un ruolo nella diminuzione di gas tossici, tra cui anidride solforosa (SO2), monossido di carbonio (CO) e ammoniaca (NH3), e nella riduzione dei composti organici volatili (COV) come acetato di etile, metanolo e acetone, favorendo un ambiente di produzione più sicuro e salubre nell'industria birraria."
+                ],
                 "problems": [],
-                "list": []
+                "list": [
+                    "Sala di fermentazione",
+                    "Serbatoi di stoccaggio",
+                    "Magazzini di stoccaggio",
+                    "Sale di degustazione",
+                    "Impianti di produzione di malto",
+                    "Sale per il trattamento delle acque reflue",
+                    "Locali di lavaggio e pulizia",
+                    "Condotti dell'aria nell'impianto di produzione"
+                ]
             },
             {
                 "table": "attrezzature",
@@ -1046,6 +1063,29 @@
                 "problems": []
             },
             {
+                "table": "prodotti-alimentari",
+                "title": "Sanificazione dei prodotti alimentari",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria birraria, come orzo maltato, luppolo e lievito. In particolare, è efficace nell'inattivazione di microrganismi patogeni come E. coli, Salmonella e Listeria, contribuendo a garantire che i prodotti birrari siano sicuri per il consumo.",
+                    "Inoltre, l'O3 è utilizzato per il controllo di parassiti e insetti, come acari, coleotteri e mosche, che potrebbero contaminare le materie prime utilizzate nella produzione della birra. Svolge anche un ruolo importante anche nella rimozione di contaminanti organici come pesticidi, micotossine e idrocarburi policiclici aromatici, garantendo la qualità di questi prodotti.",
+                    "L'abbattimento di odori sgradevoli, compresi quelli di zolfo, ammoniaca e marcio, è un'altra applicazione di questo gas nell'industria birraria, il che aiuta a migliorare la percezione sensoriale dei consumatori nei confronti del prodotto finito.",
+                    "Inoltre, l'ozono contribuisce al decadimento di disinfettanti chimici, alla riduzione di prodotti farmaceutici e alla rimozione di pesticidi ed erbicidi. Infine, l'ossidazione di metalli pesanti come piombo, cadmio e mercurio è una delle funzioni chiave di questo agente sanificnate nel processo di trattamento dei prodotti alimentari in questa industria."
+                ],
+                "problems": [],
+                "list": [
+                    "Orzo maltato",
+                    "Luppolo",
+                    "Lievito",
+                    "Acqua",
+                    "Malto d'orzo",
+                    "Grano",
+                    "Avena",
+                    "Mais",
+                    "Zucchero",
+                    "Spezie (ad esempio, coriandolo, zenzero)"
+                ]
+            },
+            {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
                 "description": [
@@ -1068,6 +1108,28 @@
         "applications_intro": [],
         "applications": [
             {
+                "table": "aria-ambienti",
+                "title": "Disinfezione dell'aria negli ambienti",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle aria ambienti nell'industria avicola, in quanto inattiva batteri e virus come Salmonella, Campylobacter e il virus dell'influenza aviare. Inoltre, contribuisce all'abbattimento di muffe e funghi come Aspergillus, Penicillium e Fusarium, mantenendo l'ambiente più igienico per il pollame. ",
+                    "Il controllo di parassiti e insetti, tra cui acari rossi, mosche della frutta e pidocchi del pollame, è reso più efficace grazie all'O3. Questo gas elimina odori sgradevoli come ammoniaca, acido butirrico e solfuro di idrogeno, migliorando la qualità dell'aria. ",
+                    "Inoltre, l'ozono degrada composti chimici come la formaldeide e il cloro. Riduce la presenza di gas tossici come il biossido di zolfo (SO2), il biossido di azoto (NO2) e il monossido di carbonio (CO), rendendo l'ambiente avicolo più sicuro. Infine, il metano, il tolueno e l'etilbenzene, composti organici volatili, vengono ridotti grazie all'applicazione di questo agente sanificante."
+                ],
+                "problems": [],
+                "list": [
+                    "Allevamenti di pollame",
+                    "Celle frigorifere per carni avicole",
+                    "Strutture di produzione delle uova",
+                    "Incubatrici",
+                    "Stalle di pollame",
+                    "Aree di macellazione",
+                    "Magazzini di stoccaggio di prodotti avicoli",
+                    "Impianti di confezionamento delle carni avicole",
+                    "Impianti di trasformazione delle carni avicole",
+                    "Aree di produzione di mangimi per animali"
+                ]
+            },
+            {
                 "table": "attrezzature",
                 "title": "Sterilizzazione delle attrezzature",
                 "description": [
@@ -1087,6 +1149,22 @@
                     "Macchine per il confezionamento"
                 ],
                 "problems": []
+            },
+            {
+                "table": "prodotti-alimentari",
+                "title": "Sanificazione dei prodotti alimentari",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria avicola, come pollo, tacchino e uova. Controlla i microrganismi patogeni come Salmonella, Campylobacter ed Escherichia coli, contribuendo così a garantire la sicurezza alimentare, ed è efficace nel controllo di parassiti e insetti nocivi come acari rossi, mosche della frutta e zecche, che possono rappresentare una minaccia per la produzione di questi prodotti.",
+                    "Oltre alla protezione da microrganismi e parassiti, l'O3 è impiegato per rimuovere contaminanti organici come clorofenoli, pesticidi organofosforici e idrocarburi policiclici aromatici (IPA), contribuendo così a garantire la qualità dei prodotti avicoli. Inoltre, è utilizzato per l'abbattimento di odori sgradevoli, quali ammoniaca, solfiti e composti solforati, migliorando le condizioni di lavorazione e la soddisfazione dei consumatori.",
+                    "Questo gas gioca un ruolo essenziale nel decadimento di disinfettanti chimici come il cloro e il perossido di idrogeno, riducendo l'uso di sostanze chimiche nocive. Contribuisce anche alla riduzione di prodotti farmaceutici come antibiotici, antiparassitari e antinfiammatori, che potrebbero influenzare negativamente la produzione avicola.",
+                    "Infine, l'ozono è efficace nella rimozione di pesticidi ed erbicidi come il clorpirifos, il glifosato e i neonicotinoidi, che potrebbero contaminare i prodotti avicoli. Ossida anche i metalli pesanti come piombo, cadmio e mercurio, contribuendo a garantire la sicurezza e la qualità degli alimenti prodotti in questa industria."
+                ],
+                "problems": [],
+                "list": [
+                    "Pollo",
+                    "Tacchino",
+                    "Uova"
+                ]
             },
             {
                 "table": "acque-reflue",
@@ -1111,6 +1189,26 @@
         "applications_intro": [],
         "applications": [
             {
+                "table": "aria-ambienti",
+                "title": "Disinfezione dell'aria negli ambienti",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle aria ambienti nell'industria salumiera. Questo gas è efficace nell'inattivare batteri e virus come la Salmonella, la Listeria e l'E. coli, contribuendo così a garantire la sicurezza alimentare. Inoltre, il suo impiego abbatta muffe e funghi nocivi come l'Aspergillus, il Penicillium e il Cladosporium, riducendo il rischio di contaminazione dei prodotti. L'O3 è anche un alleato nel controllo dei parassiti e insetti indesiderati, come le mosche, gli scarafaggi e gli acari, mantenendo gli ambienti di produzione privi da infestazioni.",
+                    "L'eliminazione di odori sgradevoli, causati da composti chimici come l'ammoniaca, i solfiti e i mercaptani, è un'altra applicazione dell'ozono nell'industria salumiera. Questo gas svolge un ruolo essenziale nella degradazione di composti chimici indesiderati, garantendo la qualità e la sicurezza dei prodotti. Inoltre, contribuisce alla riduzione di gas tossici come il monossido di carbonio, l'anidride solforosa e il cloroformio, creando un ambiente di lavoro più sicuro per gli operatori.",
+                    "Infine, questo agente sanificante è efficace nella riduzione dei composti organici volatili (COV) come l'acetone, il tolueno e il xilene, contribuendo a mantenere la qualità dell'aria nei luoghi di produzione e conservazione degli alimenti. "
+                ],
+                "problems": [],
+                "list": [
+                    "Sale di lavorazione",
+                    "Camere di affumicatura",
+                    "Celle frigorifere",
+                    "Aree di imballaggio",
+                    "Ambienti di confezionamento",
+                    "Sale di stagionatura",
+                    "Stanze di stoccaggio",
+                    "Locali per la fermentazione"
+                ]
+            },
+            {
                 "table": "attrezzature",
                 "title": "Sterilizzazione delle attrezzature",
                 "description": [
@@ -1131,6 +1229,27 @@
                     "Contenitori per il trasporto della carne"
                 ],
                 "problems": []
+            },
+            {
+                "table": "prodotti-alimentari",
+                "title": "Sanificazione dei prodotti alimentari",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria salumiera, come salame, prosciutto e pancetta. Inattiva microrganismi patogeni come Salmonella, Listeria e Escherichia coli, nonchè svolge un ruolo essenziale nel controllo di parassiti e insetti, contribuendo a preservare la qualità dei prodotti salumieri.",
+                    "In ambito industriale, l'O3 è impiegato anche per la rimozione di contaminanti organici come gli idrocarburi policiclici aromatici (IPA), i ftalati e il cloruro di metile, che possono essere presenti in questi prodotti. L'abbattimento di odori sgradevoli come l'ammoniaca, il solfuro di idrogeno e il mercaptano è un altro vantaggio di questo gas, contribuendo a migliorare l'esperienza sensoriale dei consumatori.",
+                    "In aggiunta, questo agente sanificante contribuisce al decadimento di disinfettanti chimici come il cloro, il perossido di idrogeno e l'iodio, riducendo la presenza di tali sostanze nei prodotti. Riduce anche i residui dei prodotti farmaceutici, quali antibiotici, antinfiammatori e vitamine, che possono accidentalmente contaminare i prodotti salumieri.",
+                    "Infine, l'ozono viene impiegato per la rimozione di pesticidi ed erbicidi come il glifosato, il diclorofos e i neonicotinoidi, contribuendo così a garantire la sicurezza e la qualità dei prodotti alimentari nell'industria salumiera. Inoltre, ossida i metalli pesanti come il piombo, il cadmio e il mercurio, proteggendo ulteriormente la salute dei consumatori."
+                ],
+                "problems": [],
+                "list": [
+                    "Salame",
+                    "Prosciutto",
+                    "Pancetta",
+                    "Salsicce fresche e secche",
+                    "Mortadella",
+                    "Coppa",
+                    "Bresaola",
+                    "Speck"
+                ]
             },
             {
                 "table": "acque-reflue",
@@ -1155,6 +1274,28 @@
         "applications_intro": [],
         "applications": [
             {
+                "table": "aria-ambienti",
+                "title": "Disinfezione dell'aria negli ambienti",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento delle aria-ambienti nell'industria cerealicola. Inattiva batteri e virus, come Salmonella ed Escherichia coli, contribuisce alla sicurezza alimentare, riducendo il rischio di contaminazioni batteriche. Inoltre, abbatte muffe e funghi come Aspergillus flavus, Fusarium spp. e Penicillium expansum, preservando la qualità dei cereali stoccati.",
+                    "L'O3 controlla parassiti e insetti, come Tribolium castaneum, Rhyzopertha dominica e Sitophilus oryzae, il che è fondamentale per proteggere le scorte di cereali dagli attacchi dannosi. Elimina odori sgradevoli come ammoniaca, solfiti e indoli, migliorando le condizioni di lavoro e l'ambiente in generale. In aggiunta, il suo ruolo nella degradazione di composti chimici come aflatossine, deossinivalenolo (DON) e fumonisina è cruciale per garantire la sicurezza alimentare.",
+                    "Questo agente sanificante riduce i gas tossi, come l'anidride solforosa (SO2), il biossido di azoto (NO2) e l'ossido di etilene (ETO), migliorando la qualità dell'aria nell'industria cerealicola. Infine, contribuisce alla riduzione dei composti organici volatili (COV) come l'acetone, il toluene e la formaldeide, riducendo l'impatto ambientale e migliorando le condizioni di lavoro in questi ambienti industriali."
+                ],
+                "problems": [],
+                "list": [
+                    "Magazzini di stoccaggio dei cereali",
+                    "Silos di stoccaggio",
+                    "Impianti di confezionamento dei cereali",
+                    "Laboratori di analisi alimentari",
+                    "Camere di essiccazione dei cereali",
+                    "Luoghi di trasformazione e macinazione dei cereali",
+                    "Zone di pulizia e disinfezione delle attrezzature",
+                    "Spazi di trasporto e movimentazione dei cereali",
+                    "Ambienti di lavorazione e preparazione degli ingredienti",
+                    "Zone di controllo qualità e ispezione dei cereali"
+                ]
+            },
+            {
                 "table": "attrezzature",
                 "title": "Sterilizzazione delle attrezzature",
                 "description": [
@@ -1174,6 +1315,26 @@
                     "Estrattori di olio da cereali."
                 ],
                 "problems": []
+            },
+            {
+                "table": "prodotti-alimentari",
+                "title": "Sanificazione dei prodotti alimentari",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria cerealicola, come cereali, farina e riso. In particolare, è efficace nell'inattivare microrganismi patogeni come Salmonella, Escherichia coli e Listeria, contribuendo così a garantire la sicurezza alimentare. ",
+                    "Nell'ambito del controllo dei parassiti e insetti, l'O3 è utilizzato per combattere acari, coleotteri e tarme, preservando la qualità dei cereali e la loro integrità. Inoltre, rimuovere contaminanti organici come micotossine, pesticidi organici e idrocarburi policiclici aromatici (IPA), riducendo la presenza di sostanze nocive nei prodotti cerealicoli.",
+                    "Un altro vantaggio di questo gas è la sua capacità di abbattere odori sgradevoli come ammoniaca, solfuro di idrogeno e trimetilammina, migliorando la percezione sensoriale dei prodotti. Contribuisce anche al decadimento di disinfettanti chimici come il cloro e il perossido di idrogeno, riducendo così la presenza di residui chimici nei cereali.",
+                    "L'applicazione dell'ozono permette anche di ridurre prodotti farmaceutici, pesticidi ed erbicidi, garantendo che i cereali siano conformi agli standard di sicurezza alimentare. Infine, è efficace nell'ossidazione di metalli pesanti come il piombo, il cadmio e il mercurio, contribuendo a preservare la salute dei consumatori e la qualità dei cereali nell'industria cerealicola."
+                ],
+                "problems": [],
+                "list": [
+                    "Cereali",
+                    "Farina",
+                    "Riso",
+                    "Pane",
+                    "Pasta",
+                    "Biscotti",
+                    "Cracker"
+                ]
             },
             {
                 "table": "acque-reflue",

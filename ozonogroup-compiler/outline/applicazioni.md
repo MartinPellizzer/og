@@ -24,6 +24,16 @@ prodotti
     imbottigliamento
 
 
+# aria ambiente
+    carica microbica.
+    strutture di allevamento
+    incubatori
+    allevamento.
+    produzione.
+    cantine
+    impianti di produzione
+
+
 
 - conservazione
     cereali.
@@ -44,16 +54,6 @@ prodotti
     batteri acido-lattici.
     contaminanti microbici.
     alterazioni microbiologiche.
-
-
-- aria ambiente
-    carica microbica.
-    strutture di allevamento
-    incubatori
-    allevamento.
-    produzione.
-    cantine
-    impianti di produzione
 
 
 - acqua di processo
@@ -95,7 +95,20 @@ prodotti
     funghi.
     patogeni vegetali.
     microrganismi patogeni nelle uova
+    Inattivazione 
+    Riduzione 
+    virus.
+    spore.
 
+- enzimi
+    enzimi indesiderati.
+    
+- organici
+    Rimozione 
+    Trattamento
+    contaminanti organici.
+    rifiuti organici.
+    
 - crociata
     Riduzione.
     Prevenzione
@@ -124,20 +137,7 @@ prodotti
     trasporto delle uova
 
 
-- enzimi
-    enzimi indesiderati.
     
-- organici
-    Rimozione 
-    Trattamento
-    contaminanti organici.
-    rifiuti organici.
-    
-- patogeni 
-    Inattivazione 
-    Riduzione 
-    virus.
-    spore.
 
 - contaminanti
     Eliminazione
