@@ -906,7 +906,7 @@
             },
             {
                 "table": "acqua-processo",
-                "title": "Disinfezione dell'acqua di processo",
+                "title": "Sanificazione dell'acqua di processo",
                 "description": [
                     "L'ozono viene utilizzato per eliminare diverse forme di contaminazione nell'acqua di processo dell'industria della fungicoltura.",
                     "Queste contaminazioni includono la presenza di batteri patogeni come Escherichia coli e Salmonella, oltre a funghi dannosi come Fusarium e Penicillium. Inoltre, virus come il Norovirus possono rappresentare una minaccia per la qualità dell'acqua. Le alghe, come Microcystis e Chlorella, possono prosperare e causare problemi di contaminazione. La presenza di metalli pesanti come il piombo, il cadmio e il mercurio è un'altra preoccupazione, insieme alla possibile contaminazione da pesticidi come il DDT e sostanze organiche nocive come gli idrocarburi policiclici aromatici. ",
@@ -934,13 +934,20 @@
         "attribute": "vitivinicola/applicazioni",
         "industry": "vitivinicola",
         "industry_ad": "",
-        "applications_intro": [],
+        "applications_intro": [
+            "L'ozono (O3) è un gas che viene utilizzato nell'industria vitivinicola per la disinfezione dell'aria, la sterilizzazione delle attrezzature, la sanificazione dei prodotti alimentari, il trattamento dell'acqua di processo e il trattamento delle acque reflue.",
+            "Nella disinfezione dell'aria, l'O3 inattiva batteri, virus e muffe, contribuendo all'eliminazione di odori sgradevoli e di gas tossici nell'ambiente. Questo agente sanificante migliora la qualità dell'aria nelle strutture vitivinicole.",
+            "Nella sterilizzazione delle attrezzature, questo gas è usato per inattivare batteri, virus, muffe e lieviti. Inoltre, elimina odori indesiderati e degrada composti chimici dannosi, migliorando la sicurezza e la qualità delle attrezzature di produzione.",
+            "Nella sanificazione dei prodotti alimentari, inattiva microrganismi patogeni e controlla parassiti, rimuove contaminanti organici, abbattendo odori sgradevoli e decadendo disinfettanti chimici, contribuendo a preservare la sicurezza e la qualità degli alimenti come l'uva e il vino.",
+            "Nel trattamento dell'acqua di processo, l'O3 inattiva batteri, virus, muffe e alghe, rimuove contaminanti organici, odori sgradevoli e disinfettanti chimici, migliorando la qualità dell'acqua utilizzata nel processo di produzione del vino.",
+            "Nel trattamento delle acque reflue, l'ozono inattiva microrganismi patogeni, rimuove composti organici, trattando solidi sospesi, eliminando odori, sostanze coloranti, disinfettanti chimici, pesticidi ed erbicidi, e ossidando metalli pesanti. Questo rende il processo di trattamento delle acque reflue più sostenibile."
+        ],
         "applications": [
             {
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
                 "description": [
-                    "L'ozono viene utilizzato per il trattamento delle aree ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. ",
+                    "L'ozono viene utilizzato per il trattamento degli ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. ",
                     "Questo gas è altamente efficace nell'eliminare odori sgradevoli, come quelli di solfuro, aceto e lievito spento, nonchè è in grado di degradare composti chimici indesiderati, tra cui diacetile, etilacetato e acido solforico. L'O3 contribuisce anche alla diminuzione di gas tossici nell'aria, tra cui anidride solforosa (SO2), monossido di carbonio (CO) e ossido di azoto (NOx). Infine, è un alleato nella riduzione di composti organici volatili (COV) come etanolo, acetaldeide e metanolo, migliorando così la qualità dell'ambiente nelle strutture vitivinicole."
                 ],
                 "problems": [],
@@ -999,6 +1006,16 @@
                 ]
             },
             {
+                "table": "acqua-processo",
+                "title": "Sanificazione dell'acqua di processo",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dell'acqua processo nell'industria vitivinicola, in quanto inattiva batteri e virus come Escherichia coli, Salmonella e Enterovirus, contribuendo a mantenere l'acqua di processo sicura e priva di patogeni. Inoltre, il controllo delle muffe è un aspetto fondamentale del trattamento, e l'questo gas si dimostra efficace contro organismi come Aspergillus niger, Penicillium e Alternaria.",
+                    "Le alghe, un'altra preoccupazione comune, vengono estirpate con successo grazie all'ozonazione, che colpisce specie come Chlorella, Microcystis ed Euglena. La rimozione di contaminanti organici come il benzene, il clorobenzene e il toluene è essenziale per la qualità dell'acqua di processo, e l'O3 si dimostra un alleato affidabile in questo processo. Anche li odori sgradevoli, tra cui la geosmina, il 2-metilisoborneolo e il 4-etilfenolo, vengono abbattuti grazie alla sua azione.",
+                    "Inoltre, questo agente sanificante è in grado di degradare i disinfettanti chimici come il cloro, il biossido di cloro e il perossido di idrogeno. Questo contribuisce a migliorare la qualità dell'acqua senza la necessità di sostanze chimiche nocive. Infine, questo trattamento di sanificazione è efficace nella rimozione di pesticidi ed erbicidi come il Roundup (Glyphosate), il Parathion e l'Atrazine, oltre all'ossidazione dei metalli pesanti come il piombo, il cadmio e il mercurio, assicurando che l'acqua di processo soddisfi gli standard di sicurezza e qualità richiesti nell'industria vitivinicola."
+                ],
+                "problems": []
+            },
+            {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
                 "description": [
@@ -1024,7 +1041,7 @@
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
                 "description": [
-                    "L'ozono viene utilizzato per il trattamento delle aree ambientali nell'industria birraria. Questo gas svolge un ruolo essenziale nell'inattivazione di batteri e virus, tra cui Saccharomyces cerevisiae, Lactobacillus brevis e Pediococcus damnosus, contribuendo così a garantire la sicurezza igienica nei processi di produzione. Inoltre, l'O3 abbatte muffe e funghi come Penicillium, Aspergillus e Cladosporium, riducendo il rischio di contaminazione del prodotto.",
+                    "L'ozono viene utilizzato per il trattamento degli ambientali nell'industria birraria. Questo gas svolge un ruolo essenziale nell'inattivazione di batteri e virus, tra cui Saccharomyces cerevisiae, Lactobacillus brevis e Pediococcus damnosus, contribuendo così a garantire la sicurezza igienica nei processi di produzione. Inoltre, l'O3 abbatte muffe e funghi come Penicillium, Aspergillus e Cladosporium, riducendo il rischio di contaminazione del prodotto.",
                     "Nell'ambito del controllo degli agenti patogeni, questo agente sanificante è efficace anche nel combattere parassiti e insetti come Drosophila melanogaster, Acarus siro e Tribolium confusum, preservando la qualità del prodotto. La sua azione si estende alla eliminazione di odori sgradevoli, tra cui odori di zolfo, acetale e ammoniaca, migliorando l'ambiente di lavoro.",
                     "Inoltre, l'ozono è utilizzato per la degradazione di composti chimici come etilene, diacetile e acetaldeide, contribuendo al controllo delle reazioni indesiderate nei processi di produzione. Infine, il gas svolge un ruolo nella diminuzione di gas tossici, tra cui anidride solforosa (SO2), monossido di carbonio (CO) e ammoniaca (NH3), e nella riduzione dei composti organici volatili (COV) come acetato di etile, metanolo e acetone, favorendo un ambiente di produzione più sicuro e salubre nell'industria birraria."
                 ],
@@ -1086,6 +1103,17 @@
                 ]
             },
             {
+                "table": "acqua-processo",
+                "title": "Sanificazione dell'acqua di processo",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria birraria per inattivare batteri e virus presenti nell'acqua di processo, tra cui Escherichia coli, Norovirus e il virus dell'epatite A. Inoltre, il controllo delle muffe, come Aspergillus, Penicillium e Fusarium, è essenziale per prevenire contaminazioni indesiderate durante la produzione della birra.",
+                    "Le alghe, come Chlorella, Spirogyra e Cladophora, possono causare problemi di crescita indesiderata e turbidità nell'acqua di processo, ma l'O3 è in grado di eliminarle efficacemente. Questo gas è anche in grado di rimuovere contaminanti organici, tra cui BTEX, fenoli e alcani policiclici aromatici, che potrebbero influire negativamente sulla purezza dell'acqua.",
+                    "Il processo di produzione birraria beneficia anche dell'abbattimento di odori sgradevoli, come la geosmina, il 2-Metilisoborneolo e i solfiti, che possono influire sulla qualità del prodotto finito. Inoltre, viene impiegato per far decadere i disinfettanti chimici utilizzati precedentemente nel trattamento dell'acqua, come il cloro, il biossido di cloro e il perossido di idrogeno.",
+                    "Infine, l'ozono è efficace nell'eliminazione di pesticidi ed erbicidi come il Roundup (Glyphosate), il clorpirifos e il diclorprop, contribuendo così a garantire che l'acqua di processo sia priva di contaminanti dannosi. Per di più, ossida i metalli pesanti come il piombo, il cadmio e il mercurio, riducendo al minimo il rischio di contaminazione nell'industria birraria."
+                ],
+                "problems": []
+            },
+            {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
                 "description": [
@@ -1111,7 +1139,7 @@
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
                 "description": [
-                    "L'ozono viene utilizzato per il trattamento delle aria ambienti nell'industria avicola, in quanto inattiva batteri e virus come Salmonella, Campylobacter e il virus dell'influenza aviare. Inoltre, contribuisce all'abbattimento di muffe e funghi come Aspergillus, Penicillium e Fusarium, mantenendo l'ambiente più igienico per il pollame. ",
+                    "L'ozono viene utilizzato per il trattamento degli ambienti nell'industria avicola, in quanto inattiva batteri e virus come Salmonella, Campylobacter e il virus dell'influenza aviare. Inoltre, contribuisce all'abbattimento di muffe e funghi come Aspergillus, Penicillium e Fusarium, mantenendo l'ambiente più igienico per il pollame. ",
                     "Il controllo di parassiti e insetti, tra cui acari rossi, mosche della frutta e pidocchi del pollame, è reso più efficace grazie all'O3. Questo gas elimina odori sgradevoli come ammoniaca, acido butirrico e solfuro di idrogeno, migliorando la qualità dell'aria. ",
                     "Inoltre, l'ozono degrada composti chimici come la formaldeide e il cloro. Riduce la presenza di gas tossici come il biossido di zolfo (SO2), il biossido di azoto (NO2) e il monossido di carbonio (CO), rendendo l'ambiente avicolo più sicuro. Infine, il metano, il tolueno e l'etilbenzene, composti organici volatili, vengono ridotti grazie all'applicazione di questo agente sanificante."
                 ],
@@ -1167,6 +1195,16 @@
                 ]
             },
             {
+                "table": "acqua-processo",
+                "title": "Sanificazione dell'acqua di processo",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria avicola per inattivare batteri e virus come Salmonella, Campylobacter e E. coli, riducendo significativamente il rischio di contaminazione microbiologica nell'acqua utilizzata nei processi avicoli. Inoltre, è efficace nel controllo delle muffe, quali Aspergillus, Penicillium e Fusarium, contribuendo a preservare la qualità dei prodotti avicoli.",
+                    "L'O3 è altresì impiegato per l'estirpazione delle alghe, come Chlorella, Microcystis e Oscillatoria, evitando la formazione di biofilm e migliorando la qualità dell'acqua. La sua capacità di rimuovere contaminanti organici, come il BOD, COD e TOC, aiuta a mantenere gli standard di qualità dell'acqua nei processi di produzione avicola. Inoltre abbattere odori sgradevoli, come la geosmina, il metilisoborneolo e il solfuro di idrogeno, migliorando l'ambiente lavorativo.",
+                    "Il trattamento con ozono contribuisce anche al decadimento dei disinfettanti chimici come il cloro e il biossido di cloro, fornendo un'alternativa sostenibile. Inoltre, è efficace nella rimozione di pesticidi ed erbicidi come il clorpirifos, il diclorofos e il glyphosate, garantendo l'integrità dell'acqua utilizzata nei processi di produzione avicola. Infine, è in grado di ossidare metalli pesanti come il piombo, il cadmio e il mercurio, contribuendo alla protezione dell'ambiente e della salute pubblica."
+                ],
+                "problems": []
+            },
+            {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
                 "description": [
@@ -1192,7 +1230,7 @@
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
                 "description": [
-                    "L'ozono viene utilizzato per il trattamento delle aria ambienti nell'industria salumiera. Questo gas è efficace nell'inattivare batteri e virus come la Salmonella, la Listeria e l'E. coli, contribuendo così a garantire la sicurezza alimentare. Inoltre, il suo impiego abbatta muffe e funghi nocivi come l'Aspergillus, il Penicillium e il Cladosporium, riducendo il rischio di contaminazione dei prodotti. L'O3 è anche un alleato nel controllo dei parassiti e insetti indesiderati, come le mosche, gli scarafaggi e gli acari, mantenendo gli ambienti di produzione privi da infestazioni.",
+                    "L'ozono viene utilizzato per il trattamento degli ambienti nell'industria salumiera. Questo gas è efficace nell'inattivare batteri e virus come la Salmonella, la Listeria e l'E. coli, contribuendo così a garantire la sicurezza alimentare. Inoltre, il suo impiego abbatta muffe e funghi nocivi come l'Aspergillus, il Penicillium e il Cladosporium, riducendo il rischio di contaminazione dei prodotti. L'O3 è anche un alleato nel controllo dei parassiti e insetti indesiderati, come le mosche, gli scarafaggi e gli acari, mantenendo gli ambienti di produzione privi da infestazioni.",
                     "L'eliminazione di odori sgradevoli, causati da composti chimici come l'ammoniaca, i solfiti e i mercaptani, è un'altra applicazione dell'ozono nell'industria salumiera. Questo gas svolge un ruolo essenziale nella degradazione di composti chimici indesiderati, garantendo la qualità e la sicurezza dei prodotti. Inoltre, contribuisce alla riduzione di gas tossici come il monossido di carbonio, l'anidride solforosa e il cloroformio, creando un ambiente di lavoro più sicuro per gli operatori.",
                     "Infine, questo agente sanificante è efficace nella riduzione dei composti organici volatili (COV) come l'acetone, il tolueno e il xilene, contribuendo a mantenere la qualità dell'aria nei luoghi di produzione e conservazione degli alimenti. "
                 ],
@@ -1252,6 +1290,16 @@
                 ]
             },
             {
+                "table": "acqua-processo",
+                "title": "Sanificazione dell'acqua di processo",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria salumiera per l'inattivazione di batteri e virus come Escherichia coli, Salmonella, Listeria, Norovirus, Hepatitis A e Rotavirus. Inoltre, svolge un ruolo chiave nel controllo di muffe come Aspergillus, Penicillium e Fusarium, e nell'estirpazione di alghe come Chlorella, Microcystis e Oscillatoria.",
+                    "Il trattamento con l'O3 contribuisce anche alla rimozione di contaminanti organici come BTEX (Benzene, Toluene, Ethylbenzene, Xylene), fenoli e idrocarburi clorurati, oltre all'abbattimento di odori sgradevoli come il solfuro d'idrogeno (H2S), l'ammoniaca e l'indoli. Inoltre, favorisce il decadimento di disinfettanti chimici come il cloro, la cloramina e il biossido di cloro, insieme alla rimozione di pesticidi ed erbicidi come l'atrazina, il clorpirifos e il glyphosate. ",
+                    "Infine, l'ossidazione di metalli pesanti come il piombo, il cadmio e il mercurio è un'altra applicazione chiave dell'ozono nel processo industriale salumiero, contribuendo alla garanzia di prodotti di alta qualità e sicurezza alimentare."
+                ],
+                "problems": []
+            },
+            {
                 "table": "acque-reflue",
                 "title": "Trattamento delle acque reflue",
                 "description": [
@@ -1277,7 +1325,7 @@
                 "table": "aria-ambienti",
                 "title": "Disinfezione dell'aria negli ambienti",
                 "description": [
-                    "L'ozono viene utilizzato per il trattamento delle aria-ambienti nell'industria cerealicola. Inattiva batteri e virus, come Salmonella ed Escherichia coli, contribuisce alla sicurezza alimentare, riducendo il rischio di contaminazioni batteriche. Inoltre, abbatte muffe e funghi come Aspergillus flavus, Fusarium spp. e Penicillium expansum, preservando la qualità dei cereali stoccati.",
+                    "L'ozono viene utilizzato per il trattamento degli ambienti nell'industria cerealicola. Inattiva batteri e virus, come Salmonella ed Escherichia coli, contribuisce alla sicurezza alimentare, riducendo il rischio di contaminazioni batteriche. Inoltre, abbatte muffe e funghi come Aspergillus flavus, Fusarium spp. e Penicillium expansum, preservando la qualità dei cereali stoccati.",
                     "L'O3 controlla parassiti e insetti, come Tribolium castaneum, Rhyzopertha dominica e Sitophilus oryzae, il che è fondamentale per proteggere le scorte di cereali dagli attacchi dannosi. Elimina odori sgradevoli come ammoniaca, solfiti e indoli, migliorando le condizioni di lavoro e l'ambiente in generale. In aggiunta, il suo ruolo nella degradazione di composti chimici come aflatossine, deossinivalenolo (DON) e fumonisina è cruciale per garantire la sicurezza alimentare.",
                     "Questo agente sanificante riduce i gas tossi, come l'anidride solforosa (SO2), il biossido di azoto (NO2) e l'ossido di etilene (ETO), migliorando la qualità dell'aria nell'industria cerealicola. Infine, contribuisce alla riduzione dei composti organici volatili (COV) come l'acetone, il toluene e la formaldeide, riducendo l'impatto ambientale e migliorando le condizioni di lavoro in questi ambienti industriali."
                 ],
@@ -1335,6 +1383,16 @@
                     "Biscotti",
                     "Cracker"
                 ]
+            },
+            {
+                "table": "acqua-processo",
+                "title": "Sanificazione dell'acqua di processo",
+                "description": [
+                    "L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria cerealicola per l'inattivazione di batteri e virus come Escherichia coli, Salmonella e Listeria. Inoltre, è efficace nel controllo di muffe dannose come Aspergillus flavus, Penicillium e Fusarium, che possono contaminare i cereali. Anche le alghe, tra cui Microcystis, Anabaena e Chlorella, possono essere estirpate dall'acqua di processo mediante l'ozonizzazione.",
+                    "L'O3 è altamente efficiente nella rimozione di contaminanti organici come Aflatoxina, Zearalenone e Furfural, che rappresentano una minaccia per la sicurezza alimentare. Inoltre abbatte odori sgradevoli, come la Geosmina, il 2-Metilisoborneolo e l'Acido butirrico, che possono influenzare il sapore dei prodotti cerealicoli.",
+                    "Questo gas è efficace per degradare i disinfettanti chimici come il cloro, il diossido di cloro e la cloramina, che potrebbero essere presenti nell'acqua. Può anche rimuovere pesticidi ed erbicidi come l'Atrazina, il Clorpirifos e il Glyphosate dall'acqua di processo delle colture di cereali, nonché ossidare i metalli pesanti come il piombo, il cadmio e il mercurio, contribuends a garantire la conformità alle normative ambientali e alla sicurezza alimentare nell'industria cerealicola."
+                ],
+                "problems": []
             },
             {
                 "table": "acque-reflue",

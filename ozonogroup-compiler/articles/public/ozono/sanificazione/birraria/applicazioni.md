@@ -1,6 +1,6 @@
-# 4 Applicazioni dell'Ozono nell'Industria Birraria 
+# 5 Applicazioni dell'Ozono nell'Industria Birraria 
 
-![4 Applicazioni dell'Ozono nell'Industria Birraria](/assets/images/birraria-applicazioni-featured.jpg "4 Applicazioni dell'Ozono nell'Industria Birraria")
+![5 Applicazioni dell'Ozono nell'Industria Birraria](/assets/images/birraria-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Birraria")
 
 
 
@@ -9,11 +9,12 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 - Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle attrezzature
 - Sanificazione dei prodotti alimentari
+- Sanificazione dell'acqua di processo
 - Trattamento delle acque reflue
 
 ## 1. Disinfezione dell'aria negli ambienti
 
-L'ozono viene utilizzato per il trattamento delle aree ambientali nell'industria birraria. Questo gas svolge un ruolo essenziale nell'inattivazione di batteri e virus, tra cui Saccharomyces cerevisiae, Lactobacillus brevis e Pediococcus damnosus, contribuendo così a garantire la sicurezza igienica nei processi di produzione. Inoltre, l'O3 abbatte muffe e funghi come Penicillium, Aspergillus e Cladosporium, riducendo il rischio di contaminazione del prodotto.
+L'ozono viene utilizzato per il trattamento degli ambientali nell'industria birraria. Questo gas svolge un ruolo essenziale nell'inattivazione di batteri e virus, tra cui Saccharomyces cerevisiae, Lactobacillus brevis e Pediococcus damnosus, contribuendo così a garantire la sicurezza igienica nei processi di produzione. Inoltre, l'O3 abbatte muffe e funghi come Penicillium, Aspergillus e Cladosporium, riducendo il rischio di contaminazione del prodotto.
 
 Nell'ambito del controllo degli agenti patogeni, questo agente sanificante è efficace anche nel combattere parassiti e insetti come Drosophila melanogaster, Acarus siro e Tribolium confusum, preservando la qualità del prodotto. La sua azione si estende alla eliminazione di odori sgradevoli, tra cui odori di zolfo, acetale e ammoniaca, migliorando l'ambiente di lavoro.
 
@@ -105,7 +106,28 @@ L'ozono sanifica diversi tipi di prodotti alimentari nell'industria birraria, co
 - Zucchero
 - Spezie (ad esempio, coriandolo, zenzero)
 
-## 4. Trattamento delle acque reflue
+## 4. Sanificazione dell'acqua di processo
+
+L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria birraria per inattivare batteri e virus presenti nell'acqua di processo, tra cui Escherichia coli, Norovirus e il virus dell'epatite A. Inoltre, il controllo delle muffe, come Aspergillus, Penicillium e Fusarium, è essenziale per prevenire contaminazioni indesiderate durante la produzione della birra.
+
+Le alghe, come Chlorella, Spirogyra e Cladophora, possono causare problemi di crescita indesiderata e turbidità nell'acqua di processo, ma l'O3 è in grado di eliminarle efficacemente. Questo gas è anche in grado di rimuovere contaminanti organici, tra cui BTEX, fenoli e alcani policiclici aromatici, che potrebbero influire negativamente sulla purezza dell'acqua.
+
+Il processo di produzione birraria beneficia anche dell'abbattimento di odori sgradevoli, come la geosmina, il 2-Metilisoborneolo e i solfiti, che possono influire sulla qualità del prodotto finito. Inoltre, viene impiegato per far decadere i disinfettanti chimici utilizzati precedentemente nel trattamento dell'acqua, come il cloro, il biossido di cloro e il perossido di idrogeno.
+
+Infine, l'ozono è efficace nell'eliminazione di pesticidi ed erbicidi come il Roundup (Glyphosate), il clorpirifos e il diclorprop, contribuendo così a garantire che l'acqua di processo sia priva di contaminanti dannosi. Per di più, ossida i metalli pesanti come il piombo, il cadmio e il mercurio, riducendo al minimo il rischio di contaminazione nell'industria birraria.
+
+| Applicazioni Acqua Processo | Problemi | 
+| --- | --- |
+| Inattivazione di batteri e virus | Escherichia coli, norovirus, hepatitis a virus |
+| Controllo di muffe | Aspergillus, penicillium, fusarium |
+| Estirpazione di alghe | Chlorella, spirogyra, cladophora |
+| Rimozione di contaminanti organici | Btex (benzene, toluene, ethylbenzene, xylene), fenoli, alcani policiclici aromatici (apa) |
+| Abbattimento di odori sgradevoli | Geosmina, 2-metilisoborneolo, solfiti |
+| Decadimento di disinfettanti chimici | Cloro, biossido di cloro, perossido di idrogeno |
+| Rimozione di pesticidi ed erbicidi | Roundup (glyphosate), clorpirifos, diclorprop |
+| Ossidazione di metalli pesanti | Piombo, cadmio, mercurio |
+
+## 5. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria birraria. Per esempio, inattiva microrganismi patogeni come Salmonella, E. coli e coliformi fecali, garantendo che l'acqua scaricata sia sicura per l'ambiente. Inoltre, rimuove contaminanti organici come oli e grassi, contribuendo a migliorare la qualità delle acque reflue. 
 

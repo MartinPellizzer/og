@@ -1,19 +1,30 @@
-# 4 Applicazioni dell'Ozono nell'Industria Vitivinicola 
+# 5 Applicazioni dell'Ozono nell'Industria Vitivinicola 
 
-![4 Applicazioni dell'Ozono nell'Industria Vitivinicola](/assets/images/vitivinicola-applicazioni-featured.jpg "4 Applicazioni dell'Ozono nell'Industria Vitivinicola")
+![5 Applicazioni dell'Ozono nell'Industria Vitivinicola](/assets/images/vitivinicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Vitivinicola")
 
+L'ozono (O3) è un gas che viene utilizzato nell'industria vitivinicola per la disinfezione dell'aria, la sterilizzazione delle attrezzature, la sanificazione dei prodotti alimentari, il trattamento dell'acqua di processo e il trattamento delle acque reflue.
 
+Nella disinfezione dell'aria, l'O3 inattiva batteri, virus e muffe, contribuendo all'eliminazione di odori sgradevoli e di gas tossici nell'ambiente. Questo agente sanificante migliora la qualità dell'aria nelle strutture vitivinicole.
+
+Nella sterilizzazione delle attrezzature, questo gas è usato per inattivare batteri, virus, muffe e lieviti. Inoltre, elimina odori indesiderati e degrada composti chimici dannosi, migliorando la sicurezza e la qualità delle attrezzature di produzione.
+
+Nella sanificazione dei prodotti alimentari, inattiva microrganismi patogeni e controlla parassiti, rimuove contaminanti organici, abbattendo odori sgradevoli e decadendo disinfettanti chimici, contribuendo a preservare la sicurezza e la qualità degli alimenti come l'uva e il vino.
+
+Nel trattamento dell'acqua di processo, l'O3 inattiva batteri, virus, muffe e alghe, rimuove contaminanti organici, odori sgradevoli e disinfettanti chimici, migliorando la qualità dell'acqua utilizzata nel processo di produzione del vino.
+
+Nel trattamento delle acque reflue, l'ozono inattiva microrganismi patogeni, rimuove composti organici, trattando solidi sospesi, eliminando odori, sostanze coloranti, disinfettanti chimici, pesticidi ed erbicidi, e ossidando metalli pesanti. Questo rende il processo di trattamento delle acque reflue più sostenibile.
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria vitivinicola elencate nella seguente lista.
 
 - Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle attrezzature
 - Sanificazione dei prodotti alimentari
+- Sanificazione dell'acqua di processo
 - Trattamento delle acque reflue
 
 ## 1. Disinfezione dell'aria negli ambienti
 
-L'ozono viene utilizzato per il trattamento delle aree ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. 
+L'ozono viene utilizzato per il trattamento degli ambienti nell'industria vitivinicola per inattivare batteri e virus come Escherichia coli, Lactobacillus e Saccharomyces cerevisiae. Inoltre, contribuisce all'abbattimento di spore di muffa, tra cui Penicillium, Aspergillus e Cladosporium. 
 
 Questo gas è altamente efficace nell'eliminare odori sgradevoli, come quelli di solfuro, aceto e lievito spento, nonchè è in grado di degradare composti chimici indesiderati, tra cui diacetile, etilacetato e acido solforico. L'O3 contribuisce anche alla diminuzione di gas tossici nell'aria, tra cui anidride solforosa (SO2), monossido di carbonio (CO) e ossido di azoto (NOx). Infine, è un alleato nella riduzione di composti organici volatili (COV) come etanolo, acetaldeide e metanolo, migliorando così la qualità dell'ambiente nelle strutture vitivinicole.
 
@@ -97,7 +108,26 @@ L'ozono sanifica diversi tipi di prodotti alimentari nell'industria vitivinicola
 - Mosto
 - Vinacce
 
-## 4. Trattamento delle acque reflue
+## 4. Sanificazione dell'acqua di processo
+
+L'ozono viene utilizzato per il trattamento dell'acqua processo nell'industria vitivinicola, in quanto inattiva batteri e virus come Escherichia coli, Salmonella e Enterovirus, contribuendo a mantenere l'acqua di processo sicura e priva di patogeni. Inoltre, il controllo delle muffe è un aspetto fondamentale del trattamento, e l'questo gas si dimostra efficace contro organismi come Aspergillus niger, Penicillium e Alternaria.
+
+Le alghe, un'altra preoccupazione comune, vengono estirpate con successo grazie all'ozonazione, che colpisce specie come Chlorella, Microcystis ed Euglena. La rimozione di contaminanti organici come il benzene, il clorobenzene e il toluene è essenziale per la qualità dell'acqua di processo, e l'O3 si dimostra un alleato affidabile in questo processo. Anche li odori sgradevoli, tra cui la geosmina, il 2-metilisoborneolo e il 4-etilfenolo, vengono abbattuti grazie alla sua azione.
+
+Inoltre, questo agente sanificante è in grado di degradare i disinfettanti chimici come il cloro, il biossido di cloro e il perossido di idrogeno. Questo contribuisce a migliorare la qualità dell'acqua senza la necessità di sostanze chimiche nocive. Infine, questo trattamento di sanificazione è efficace nella rimozione di pesticidi ed erbicidi come il Roundup (Glyphosate), il Parathion e l'Atrazine, oltre all'ossidazione dei metalli pesanti come il piombo, il cadmio e il mercurio, assicurando che l'acqua di processo soddisfi gli standard di sicurezza e qualità richiesti nell'industria vitivinicola.
+
+| Applicazioni Acqua Processo | Problemi | 
+| --- | --- |
+| Inattivazione di batteri e virus | Escherichia coli, salmonella, enterovirus |
+| Controllo di muffe | Aspergillus niger, penicillium, alternaria |
+| Estirpazione di alghe | Chlorella, microcystis, euglena |
+| Rimozione di contaminanti organici | Benzene, clorobenzene, toluene |
+| Abbattimento di odori sgradevoli | Geosmina, 2-metilisoborneolo, 4-etilfenolo |
+| Decadimento di disinfettati chimici | Cloro, biossido di cloro, perossido di idrogeno |
+| Rimozione di pesticidi ed erbicidi | Roundup (glyphosate), parathion, atrazine |
+| Ossidazione di metalli pesanti | Piombo, cadmio, mercurio |
+
+## 5. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria vitivinicola. 
 

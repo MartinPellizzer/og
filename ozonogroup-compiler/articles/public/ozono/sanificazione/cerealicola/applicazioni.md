@@ -1,6 +1,6 @@
-# 4 Applicazioni dell'Ozono nell'Industria Cerealicola 
+# 5 Applicazioni dell'Ozono nell'Industria Cerealicola 
 
-![4 Applicazioni dell'Ozono nell'Industria Cerealicola](/assets/images/cerealicola-applicazioni-featured.jpg "4 Applicazioni dell'Ozono nell'Industria Cerealicola")
+![5 Applicazioni dell'Ozono nell'Industria Cerealicola](/assets/images/cerealicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Cerealicola")
 
 
 
@@ -9,11 +9,12 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 - Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle attrezzature
 - Sanificazione dei prodotti alimentari
+- Sanificazione dell'acqua di processo
 - Trattamento delle acque reflue
 
 ## 1. Disinfezione dell'aria negli ambienti
 
-L'ozono viene utilizzato per il trattamento delle aria-ambienti nell'industria cerealicola. Inattiva batteri e virus, come Salmonella ed Escherichia coli, contribuisce alla sicurezza alimentare, riducendo il rischio di contaminazioni batteriche. Inoltre, abbatte muffe e funghi come Aspergillus flavus, Fusarium spp. e Penicillium expansum, preservando la qualità dei cereali stoccati.
+L'ozono viene utilizzato per il trattamento degli ambienti nell'industria cerealicola. Inattiva batteri e virus, come Salmonella ed Escherichia coli, contribuisce alla sicurezza alimentare, riducendo il rischio di contaminazioni batteriche. Inoltre, abbatte muffe e funghi come Aspergillus flavus, Fusarium spp. e Penicillium expansum, preservando la qualità dei cereali stoccati.
 
 L'O3 controlla parassiti e insetti, come Tribolium castaneum, Rhyzopertha dominica e Sitophilus oryzae, il che è fondamentale per proteggere le scorte di cereali dagli attacchi dannosi. Elimina odori sgradevoli come ammoniaca, solfiti e indoli, migliorando le condizioni di lavoro e l'ambiente in generale. In aggiunta, il suo ruolo nella degradazione di composti chimici come aflatossine, deossinivalenolo (DON) e fumonisina è cruciale per garantire la sicurezza alimentare.
 
@@ -102,7 +103,26 @@ L'ozono sanifica diversi tipi di prodotti alimentari nell'industria cerealicola,
 - Biscotti
 - Cracker
 
-## 4. Trattamento delle acque reflue
+## 4. Sanificazione dell'acqua di processo
+
+L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria cerealicola per l'inattivazione di batteri e virus come Escherichia coli, Salmonella e Listeria. Inoltre, è efficace nel controllo di muffe dannose come Aspergillus flavus, Penicillium e Fusarium, che possono contaminare i cereali. Anche le alghe, tra cui Microcystis, Anabaena e Chlorella, possono essere estirpate dall'acqua di processo mediante l'ozonizzazione.
+
+L'O3 è altamente efficiente nella rimozione di contaminanti organici come Aflatoxina, Zearalenone e Furfural, che rappresentano una minaccia per la sicurezza alimentare. Inoltre abbatte odori sgradevoli, come la Geosmina, il 2-Metilisoborneolo e l'Acido butirrico, che possono influenzare il sapore dei prodotti cerealicoli.
+
+Questo gas è efficace per degradare i disinfettanti chimici come il cloro, il diossido di cloro e la cloramina, che potrebbero essere presenti nell'acqua. Può anche rimuovere pesticidi ed erbicidi come l'Atrazina, il Clorpirifos e il Glyphosate dall'acqua di processo delle colture di cereali, nonché ossidare i metalli pesanti come il piombo, il cadmio e il mercurio, contribuends a garantire la conformità alle normative ambientali e alla sicurezza alimentare nell'industria cerealicola.
+
+| Applicazioni Acqua Processo | Problemi | 
+| --- | --- |
+| Inattivazione di batteri e virus | Escherichia coli, salmonella, listeria |
+| Controllo di muffe | Aspergillus flavus, penicillium, fusarium |
+| Estirpazione di alghe | Microcystis, anabaena, chlorella |
+| Rimozione di contaminanti organici | Aflatoxina, zearalenone, furfural |
+| Abbattimento di odori sgradevoli | Geosmina, 2-metilisoborneolo, acido butirrico |
+| Decadimento di disinfettati chimici | Cloro, diossido di cloro, cloramina |
+| Rimozione di pesticidi ed erbicidi | Atrazina, clorpirifos, glyphosate |
+| Ossidazione di metalli pesanti | Piombo, cadmio, mercurio |
+
+## 5. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria cerealicola. Inattiva i microrganismi patogeni come batteri, virus e protozoi, e contribuisce alla rimozione di contaminanti organici come oli, grassi e idrocarburi, migliorando la qualità delle acque trattate. 
 

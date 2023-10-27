@@ -8,6 +8,10 @@ prodotti
     Trattamento delle acque reflue dalle operazioni di macellazione
     Trattamento delle acque reflue industriali
 
+- acqua di processo
+    composti organici
+    
+# prodotti
 
 # attrezzature
     stoccaggio
@@ -34,7 +38,6 @@ prodotti
     impianti di produzione
 
 
-
 - conservazione
     cereali.
     ingredienti e spezie.
@@ -56,8 +59,6 @@ prodotti
     alterazioni microbiologiche.
 
 
-- acqua di processo
-    composti organici
 
 
 - insetti e parassiti.

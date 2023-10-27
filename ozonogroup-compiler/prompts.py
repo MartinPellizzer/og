@@ -33,10 +33,11 @@ elif application == 'attrezzature':
     lst = [ 
         "- Inattivazione di microbi",
         "- Abbattimento di muffe e lieviti",
+        "- Estirpazione di alghe da serbatoi",
         "- Eliminazione di odori sgradevoli",
         "- Degradazione di disinfettati chimici",
         "- Rimozione di residui di pesticidi",
-        "- Riduzione di residui di erbicidi"
+        "- Riduzione di residui di erbicidi",
     ]
 elif application == 'aria-ambienti':
     lst = [ 
@@ -50,16 +51,45 @@ elif application == 'aria-ambienti':
     ]
 elif application == 'prodotti-alimentari':
     lst = [ 
-    "- Inattivazione di microrganismi patogeni",
-    "- Controllo di parassiti e insetti",
-    "- Rimozione di contaminanti organici",
-    "- Abbattimento di odori sgradevoli",
-    "- Decadimento di disinfettati chimici",
-    "- Riduzione di prodotti farmaceutici",
-    "- Rimozione di pesticidi ed erbicidi",
-    "- Ossidazione di metalli pesanti"
+        "- Inattivazione di microrganismi patogeni",
+        "- Controllo di parassiti e insetti",
+        "- Rimozione di contaminanti organici",
+        "- Abbattimento di odori sgradevoli",
+        "- Decadimento di disinfettati chimici",
+        "- Riduzione di prodotti farmaceutici",
+        "- Rimozione di pesticidi ed erbicidi",
+        "- Ossidazione di metalli pesanti"
     ]
+elif application == 'acqua-processo':
+    lst = [ 
+        "- Inattivazione di batteri e virus",
+        "- Controllo di muffe",
+        "- Estirpazione di alghe",
+        "- Rimozione di contaminanti organici",
+        "- Abbattimento di odori sgradevoli",
+        "- Decadimento di disinfettati chimici",
+        "- Rimozione di pesticidi ed erbicidi",
+        "- Ossidazione di metalli pesanti"
+    ]
+# Rimozione dei contaminanti organici.
+# Eliminazione di batteri e virus.
+# Riduzione di odori sgradevoli.
+# Controllo delle alghe nell'acqua di processo.
+# Eliminazione dei sapori indesiderati.
+# Riduzione dei batteri sulle superfici.
+# Declorazione dell'acqua.
+# Inibizione della crescita dei biofilm.
+# Rimozione delle impurità sospese.
+# Controllo della concentrazione batterica.
+# Eliminazione di microrganismi patogeni.
+# Controllo della presenza di lieviti.
+# Eliminazione di microrganismi indesiderati.
+# Inattivazione di enzimi indesiderati.
+# Riduzione della necessità di additivi chimici.
+# Controllo delle infezioni microbiologiche.
+# Eliminazione di contaminanti organici volatili.
 
+    
 riassunto = f'''RIASSUNTO
 
         Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.
@@ -70,7 +100,6 @@ riassunto = f'''RIASSUNTO
 
         La prima frase di questa sezione deve essere la seguente:
 
-        "L'ozono viene utilizzato per il trattamento delle {application} nell'industria {industry}."
     '''
 lst_print = "\n".join(lst)
 
@@ -78,22 +107,39 @@ application = application.strip().lower().replace('-', ' ')
 
 num = 3
 i = 0 
-print(f'''
-{i}.
-Lista 30 applicazioni dell'ozono nell'industria {industry}. 
-Non aggiungere descrizioni.
+
+print(f'''{i}. GENERAL
+
+    Lista 30 applicazioni dell'ozono nell'industria {industry}. 
+    Non aggiungere descrizioni.
 ''')
 print(f'''-----------------------------------------------------------''')
 i += 1
 
+print(f'''{i}. APPLICAZIONI
+
+    Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
+    Non aggiungere descrizioni.
+''')
+print(f'''-----------------------------------------------------------''')
+i += 1
+
+num = 3
+tmp_lst = '[insert list here]'
+try:
+    tmp_lst = [f'{num} ' + x.split(' di ')[1] for x in lst]
+    tmp_lst = ', '.join(tmp_lst)
+except: pass
+print(f'''{i}. LISTA PROBLEMI
+
+    dammi un elenco di {tmp_lst} che si trovano in {application} nell'industria {industry} che l'ozono riesce ad eliminare. dammi solo i nomi, no le descrizioni.
+''')
+print(f'''-----------------------------------------------------------''')
+i += 1
+
+
 if application == 'acque-reflue':
-    print(f'''
-        {i}.
-        Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
-        Non aggiungere descrizioni.
-    ''')
-    print(f'''-----------------------------------------------------------''')
-    i += 1
+
 
     print(f'''
         {i}.
@@ -116,47 +162,34 @@ if application == 'acque-reflue':
     print(f'''-----------------------------------------------------------''')
     i += 1
 
-    print(f'{i}. {riassunto}')
+    print(f'''{i}. RIASSUNTO
+        {riassunto}
+    
+        L\'ozono viene utilizzato per il trattamento delle acque reflue nell'industria {industry}.
+    ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
 
 elif application.strip().lower().replace(' ', '-') == 'attrezzature':
-    print(f'''{i}. APPLICAZIONI
 
-        Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
-        Non aggiungere descrizioni.
-    ''')
-    print(f'''-----------------------------------------------------------''')
-    i += 1
-
-    tmp_lst = [f'{num}' + x.split(' di ')[1] for x in lst]
-    tmp_lst = ', '.join(tmp_lst)
-    print(f'''{i}. LISTA PROBLEMI
-
-        dammi un elenco di {tmp_lst} che si trovano in {application} nell'industria {industry} che l'ozono riesce ad eliminare. dammi solo i nomi, no le descrizioni.
-    ''')
-    print(f'''-----------------------------------------------------------''')
-    i += 1
 
 
     print(f'''{i}. TABELLA
         Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
 
-        - Inattivazione di batteri e virus
-        - Abbattimento di muffe e lieviti
-        - Estirpazione di alghe da serbatoi
-        - Eliminazione di odori sgradevoli
-        - Degradazione di disinfettati chimici
-        - Rimozione di residui di pesticidi
-        - Riduzione di residui di erbicidi
+        {lst_print}
 
         Nella seconda colonna metti gli elementi delle liste della tua ultima risposta nelle giuste celle.
     ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
-    print(f'{i}. {riassunto}')
+    print(f'''{i}. RIASSUNTO
+        {riassunto}
+    
+        L\'ozono viene utilizzato per il trattamento delle attrezzature nell'industria {industry}.
+    ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
@@ -168,22 +201,8 @@ elif application.strip().lower().replace(' ', '-') == 'attrezzature':
 
 
 elif application.strip().lower().replace(' ', '-') == 'aria-ambienti':
-    print(f'''{i}. APPLICAZIONI
 
-        Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
-        Non aggiungere descrizioni.
-    ''')
-    print(f'''-----------------------------------------------------------''')
-    i += 1
 
-    tmp_lst = [f'{num}' + x.split(' di ')[1] for x in lst]
-    tmp_lst = ', '.join(tmp_lst)
-    print(f'''{i}. LISTA PROBLEMI
-
-        dammi un elenco di {tmp_lst} che si trovano in {application} nell'industria {industry} che l'ozono riesce ad eliminare. dammi solo i nomi, no le descrizioni.
-    ''')
-    print(f'''-----------------------------------------------------------''')
-    i += 1
 
     print(f'''{i}. TABELLA
         Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
@@ -195,7 +214,11 @@ elif application.strip().lower().replace(' ', '-') == 'aria-ambienti':
     print(f'''-----------------------------------------------------------''')
     i += 1
 
-    print(f'{i}. {riassunto}')
+    print(f'''{i}. RIASSUNTO
+        {riassunto}
+    
+        L\'ozono viene utilizzato per il trattamento degli ambienti nell'industria {industry}.
+    ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
@@ -207,23 +230,8 @@ elif application.strip().lower().replace(' ', '-') == 'aria-ambienti':
 
 
 elif application.strip().lower().replace(' ', '-') == 'prodotti-alimentari':
-    print(f'''{i}. APPLICAZIONI
 
-        Lista di 30 applicazioni dell'ozono per il trattamento di {application} nell'industria {industry}. 
-        Non aggiungere descrizioni.
-    ''')
-    print(f'''-----------------------------------------------------------''')
-    i += 1
 
-    num = 3
-    tmp_lst = [f'{num} ' + x.split(' di ')[1] for x in lst]
-    tmp_lst = ', '.join(tmp_lst)
-    print(f'''{i}. LISTA PROBLEMI
-
-        dammi un elenco di {tmp_lst} che si trovano in {application} nell'industria {industry} che l'ozono riesce ad eliminare. dammi solo i nomi, no le descrizioni.
-    ''')
-    print(f'''-----------------------------------------------------------''')
-    i += 1
 
     print(f'''{i}. TABELLA
         Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
@@ -235,12 +243,51 @@ elif application.strip().lower().replace(' ', '-') == 'prodotti-alimentari':
     print(f'''-----------------------------------------------------------''')
     i += 1
 
-    print(f'{i}. {riassunto}')
+    print(f'''{i}. RIASSUNTO
+        {riassunto}
+    
+        L\'ozono viene utilizzato per il trattamento dei prodotti alimentari nell'industria {industry}.
+    ''')
     print(f'''-----------------------------------------------------------''')
     i += 1
 
     print(f'''{i}. LISTA PRODOTTI
         Dammi una lista di 10 prodotti alimentari più comuni nell'industria {industry}.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+    
+
+elif application.strip().lower().replace(' ', '-') == 'acqua-processo':
+
+    
+
+    print(f'''{i}. TABELLA
+        Crea una tabella a 2 colonne. Nella prima colonna scrivi gli elementi della seguente lista:
+
+        {lst_print}
+
+        Nella seconda colonna metti gli elementi delle liste della tua ultima risposta nelle giuste celle.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''{i}. RIASSUNTO
+        {riassunto}
+    
+        L\'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria {industry}.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''{i}. LISTA PRODOTTI
+        Dammi una lista di 10 prodotti alimentari più comuni nell'industria {industry}.
+    ''')
+    print(f'''-----------------------------------------------------------''')
+    i += 1
+
+    print(f'''{i}. INTRO
+        Riassumi il seguente testo in meno di 200 parole in modo discorsivo e non con liste:
     ''')
     print(f'''-----------------------------------------------------------''')
     i += 1

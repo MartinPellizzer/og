@@ -1,6 +1,6 @@
-# 4 Applicazioni dell'Ozono nell'Industria Salumiera 
+# 5 Applicazioni dell'Ozono nell'Industria Salumiera 
 
-![4 Applicazioni dell'Ozono nell'Industria Salumiera](/assets/images/salumiera-applicazioni-featured.jpg "4 Applicazioni dell'Ozono nell'Industria Salumiera")
+![5 Applicazioni dell'Ozono nell'Industria Salumiera](/assets/images/salumiera-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Salumiera")
 
 
 
@@ -9,11 +9,12 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 - Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle attrezzature
 - Sanificazione dei prodotti alimentari
+- Sanificazione dell'acqua di processo
 - Trattamento delle acque reflue
 
 ## 1. Disinfezione dell'aria negli ambienti
 
-L'ozono viene utilizzato per il trattamento delle aria ambienti nell'industria salumiera. Questo gas è efficace nell'inattivare batteri e virus come la Salmonella, la Listeria e l'E. coli, contribuendo così a garantire la sicurezza alimentare. Inoltre, il suo impiego abbatta muffe e funghi nocivi come l'Aspergillus, il Penicillium e il Cladosporium, riducendo il rischio di contaminazione dei prodotti. L'O3 è anche un alleato nel controllo dei parassiti e insetti indesiderati, come le mosche, gli scarafaggi e gli acari, mantenendo gli ambienti di produzione privi da infestazioni.
+L'ozono viene utilizzato per il trattamento degli ambienti nell'industria salumiera. Questo gas è efficace nell'inattivare batteri e virus come la Salmonella, la Listeria e l'E. coli, contribuendo così a garantire la sicurezza alimentare. Inoltre, il suo impiego abbatta muffe e funghi nocivi come l'Aspergillus, il Penicillium e il Cladosporium, riducendo il rischio di contaminazione dei prodotti. L'O3 è anche un alleato nel controllo dei parassiti e insetti indesiderati, come le mosche, gli scarafaggi e gli acari, mantenendo gli ambienti di produzione privi da infestazioni.
 
 L'eliminazione di odori sgradevoli, causati da composti chimici come l'ammoniaca, i solfiti e i mercaptani, è un'altra applicazione dell'ozono nell'industria salumiera. Questo gas svolge un ruolo essenziale nella degradazione di composti chimici indesiderati, garantendo la qualità e la sicurezza dei prodotti. Inoltre, contribuisce alla riduzione di gas tossici come il monossido di carbonio, l'anidride solforosa e il cloroformio, creando un ambiente di lavoro più sicuro per gli operatori.
 
@@ -103,7 +104,26 @@ L'ozono sanifica diversi tipi di prodotti alimentari nell'industria salumiera, c
 - Bresaola
 - Speck
 
-## 4. Trattamento delle acque reflue
+## 4. Sanificazione dell'acqua di processo
+
+L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria salumiera per l'inattivazione di batteri e virus come Escherichia coli, Salmonella, Listeria, Norovirus, Hepatitis A e Rotavirus. Inoltre, svolge un ruolo chiave nel controllo di muffe come Aspergillus, Penicillium e Fusarium, e nell'estirpazione di alghe come Chlorella, Microcystis e Oscillatoria.
+
+Il trattamento con l'O3 contribuisce anche alla rimozione di contaminanti organici come BTEX (Benzene, Toluene, Ethylbenzene, Xylene), fenoli e idrocarburi clorurati, oltre all'abbattimento di odori sgradevoli come il solfuro d'idrogeno (H2S), l'ammoniaca e l'indoli. Inoltre, favorisce il decadimento di disinfettanti chimici come il cloro, la cloramina e il biossido di cloro, insieme alla rimozione di pesticidi ed erbicidi come l'atrazina, il clorpirifos e il glyphosate. 
+
+Infine, l'ossidazione di metalli pesanti come il piombo, il cadmio e il mercurio è un'altra applicazione chiave dell'ozono nel processo industriale salumiero, contribuendo alla garanzia di prodotti di alta qualità e sicurezza alimentare.
+
+| Applicazioni Acqua Processo | Problemi | 
+| --- | --- |
+| Inattivazione di batteri e virus | Escherichia coli, salmonella, listeria, norovirus, hepatitis a, rotavirus |
+| Controllo di muffe | Aspergillus, penicillium, fusarium |
+| Estirpazione di alghe | Chlorella, microcystis, oscillatoria |
+| Rimozione di contaminanti organici | Btex, fenoli, idrocarburi clorurati |
+| Abbattimento di odori sgradevoli | Solfuro d'idrogeno (h2s), ammoniaca, indoli |
+| Decadimento di disinfettanti chimici | Cloro, cloramina, biossido di cloro |
+| Rimozione di pesticidi ed erbicidi | Atrazina, clorpirifos, glyphosate |
+| Ossidazione di metalli pesanti | Piombo, cadmio, mercurio |
+
+## 5. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria salumiera. Per esempio, questo gas inattiva microrganismi patogeni come Salmonella, E. coli e Listeria, garantendo la sicurezza alimentare. Inoltre, elimina contaminanti organici come grassi, proteine e oli, riducendo l'inquinamento. 
 

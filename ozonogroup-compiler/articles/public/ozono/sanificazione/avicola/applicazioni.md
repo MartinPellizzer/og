@@ -1,6 +1,6 @@
-# 4 Applicazioni dell'Ozono nell'Industria Avicola 
+# 5 Applicazioni dell'Ozono nell'Industria Avicola 
 
-![4 Applicazioni dell'Ozono nell'Industria Avicola](/assets/images/avicola-applicazioni-featured.jpg "4 Applicazioni dell'Ozono nell'Industria Avicola")
+![5 Applicazioni dell'Ozono nell'Industria Avicola](/assets/images/avicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Avicola")
 
 
 
@@ -9,11 +9,12 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 - Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle attrezzature
 - Sanificazione dei prodotti alimentari
+- Sanificazione dell'acqua di processo
 - Trattamento delle acque reflue
 
 ## 1. Disinfezione dell'aria negli ambienti
 
-L'ozono viene utilizzato per il trattamento delle aria ambienti nell'industria avicola, in quanto inattiva batteri e virus come Salmonella, Campylobacter e il virus dell'influenza aviare. Inoltre, contribuisce all'abbattimento di muffe e funghi come Aspergillus, Penicillium e Fusarium, mantenendo l'ambiente più igienico per il pollame. 
+L'ozono viene utilizzato per il trattamento degli ambienti nell'industria avicola, in quanto inattiva batteri e virus come Salmonella, Campylobacter e il virus dell'influenza aviare. Inoltre, contribuisce all'abbattimento di muffe e funghi come Aspergillus, Penicillium e Fusarium, mantenendo l'ambiente più igienico per il pollame. 
 
 Il controllo di parassiti e insetti, tra cui acari rossi, mosche della frutta e pidocchi del pollame, è reso più efficace grazie all'O3. Questo gas elimina odori sgradevoli come ammoniaca, acido butirrico e solfuro di idrogeno, migliorando la qualità dell'aria. 
 
@@ -98,7 +99,26 @@ L'ozono sanifica diversi tipi di prodotti alimentari nell'industria avicola, com
 - Tacchino
 - Uova
 
-## 4. Trattamento delle acque reflue
+## 4. Sanificazione dell'acqua di processo
+
+L'ozono viene utilizzato per il trattamento dell'acqua di processo nell'industria avicola per inattivare batteri e virus come Salmonella, Campylobacter e E. coli, riducendo significativamente il rischio di contaminazione microbiologica nell'acqua utilizzata nei processi avicoli. Inoltre, è efficace nel controllo delle muffe, quali Aspergillus, Penicillium e Fusarium, contribuendo a preservare la qualità dei prodotti avicoli.
+
+L'O3 è altresì impiegato per l'estirpazione delle alghe, come Chlorella, Microcystis e Oscillatoria, evitando la formazione di biofilm e migliorando la qualità dell'acqua. La sua capacità di rimuovere contaminanti organici, come il BOD, COD e TOC, aiuta a mantenere gli standard di qualità dell'acqua nei processi di produzione avicola. Inoltre abbattere odori sgradevoli, come la geosmina, il metilisoborneolo e il solfuro di idrogeno, migliorando l'ambiente lavorativo.
+
+Il trattamento con ozono contribuisce anche al decadimento dei disinfettanti chimici come il cloro e il biossido di cloro, fornendo un'alternativa sostenibile. Inoltre, è efficace nella rimozione di pesticidi ed erbicidi come il clorpirifos, il diclorofos e il glyphosate, garantendo l'integrità dell'acqua utilizzata nei processi di produzione avicola. Infine, è in grado di ossidare metalli pesanti come il piombo, il cadmio e il mercurio, contribuendo alla protezione dell'ambiente e della salute pubblica.
+
+| Applicazioni Acqua Processo | Problemi | 
+| --- | --- |
+| Inattivazione di batteri e virus | Salmonella, campylobacter, e. coli |
+| Controllo di muffe | Aspergillus, penicillium, fusarium |
+| Estirpazione di alghe | Chlorella, microcystis, oscillatoria |
+| Rimozione di contaminanti organici | Bod (biochemical oxygen demand), cod (chemical oxygen demand), toc (total organic carbon) |
+| Abbattimento di odori sgradevoli | Geosmina, metilisoborneolo (mib), solfuro di idrogeno (h2s) |
+| Decadimento di disinfettati chimici | Cloro, biossido di cloro, acido peracetico |
+| Rimozione di pesticidi ed erbicidi | Clorpirifos, diclorofos, glyphosate |
+| Ossidazione di metalli pesanti | Piombo (pb), cadmio (cd), mercurio (hg) |
+
+## 5. Trattamento delle acque reflue
 
 L'ozono viene utilizzato per il trattamento delle acque reflue nell'industria avicola. In primo luogo, inattiva microrganismi patogeni come Salmonella, Escherichia coli e Campylobacter, rendendo l'acqua più sicura per il rilascio nell'ambiente. Inoltre, contribuisce alla rimozione di contaminanti organici come grasso, proteine ed idrocarburi, migliorando la qualità dell'acqua. 
 

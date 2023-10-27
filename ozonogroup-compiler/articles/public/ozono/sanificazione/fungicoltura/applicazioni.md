@@ -15,7 +15,7 @@ In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono ne
 - Rimozione di microrganismi patogeni
 - Disinfezione dell'aria negli ambienti
 - Sterilizzazione delle superfici di lavoro
-- Disinfezione dell'acqua di processo
+- Sanificazione dell'acqua di processo
 - Trattamento delle acque reflue
 
 ## 1. Rimozione di microrganismi patogeni
@@ -80,7 +80,7 @@ Anche la sanificazione delle pareti e dei pavimenti delle strutture di coltivazi
 | Pulizia delle superfici delle aree di stoccaggio | Scaffalature, mensole, pavimenti |
 | Sterilizzazione delle superfici di laboratori di ricerca fungicola | Banconi, incubatori, camere climatiche |
 
-## 4. Disinfezione dell'acqua di processo
+## 4. Sanificazione dell'acqua di processo
 
 L'ozono viene utilizzato per eliminare diverse forme di contaminazione nell'acqua di processo dell'industria della fungicoltura.
 
