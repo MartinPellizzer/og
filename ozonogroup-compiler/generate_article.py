@@ -6,6 +6,7 @@ import markdown
 import math
 import shutil
 import csv
+import pathlib
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor
 
@@ -122,6 +123,27 @@ def generate_toc(content_html):
         content_html_formatted += line
 
     return content_html_formatted
+
+
+def generate_breadcrumbs(filepath_chunks):
+    breadcrumbs = [f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
+    
+    breadcrumbs_hrefs = []
+    total_path = ''
+    for b in breadcrumbs:
+        total_path += b + '/'
+        breadcrumbs_hrefs.append('/' + total_path[:-1].lower() + '.html')
+    
+    breadcrumbs_text = total_path.split('/')
+
+    breadcrumbs_html = []
+    for i in range(len(breadcrumbs_hrefs)):
+        html = f'<a href="{breadcrumbs_hrefs[i]}">{breadcrumbs_text[i]}</a>'
+        breadcrumbs_html.append(html)
+
+    breadcrumbs_html_formatted = [f' > {f}' for f in breadcrumbs_html]
+
+    return breadcrumbs_html_formatted
 
 
 
@@ -425,6 +447,38 @@ def generate_featured_image(attribute):
     return image_filepath_out
 
 
+def generate_image_plain(image_path, w, h, image_path_out):
+    img = Image.open(image_path)
+
+    start_size = img.size
+    end_size = (w, h)
+
+    if start_size[0] / end_size [0] < start_size[1] / end_size [1]:
+        ratio = start_size[0] / end_size[0]
+        new_end_size = (end_size[0], int(start_size[1] / ratio))
+    else:
+        ratio = start_size[1] / end_size[1]
+        new_end_size = (int(start_size[0] / ratio), end_size[1])
+
+    img = img.resize(new_end_size)
+
+    w_crop = new_end_size[0] - end_size[0]
+    h_crop = new_end_size[1] - end_size[1]
+    
+    area = (
+        w_crop // 2, 
+        h_crop // 2,
+        new_end_size[0] - w_crop // 2,
+        new_end_size[1] - h_crop // 2
+    )
+    img = img.crop(area)
+
+    name = image_path.split('/')[-1]
+    path = image_path.split('/')[:-1]
+        
+    img.save(f'{image_path_out}')
+
+
 
 ###################################################################################################################
 # articles html
@@ -542,6 +596,155 @@ def generate_table(lines):
     return text
 
 
+def generate_manual_article_html():
+    folder = pathlib.Path("articles")
+
+    w, h = 768, 432
+    generate_image_plain(
+        'assets/images/featured/ozono-chimica.jpg', 
+        w, h,
+        'public/assets/images/ozono-chimica.jpg',
+    )
+    generate_image_plain(
+        'assets/images/featured/ozono-stratosferico.jpg', 
+        w, h, 
+        'public/assets/images/ozono-stratosferico.jpg', 
+    )
+    generate_image_plain(
+        'assets/images/featured/ozono-troposferico.jpg', 
+        w, h, 
+        'public/assets/images/ozono-troposferico.jpg', 
+    )
+    generate_image_plain(
+        'assets/images/featured/ozono-effetti.jpg', 
+        w, h, 
+        'public/assets/images/ozono-effetti.jpg', 
+    )
+    generate_image_plain(
+        'assets/images/featured/ozono-benefici.jpg', 
+        w, h, 
+        'public/assets/images/ozono-benefici.jpg', 
+    )
+    generate_image_plain(
+        'assets/images/featured/ozono-sanificazione.jpg', 
+        w, h, 
+        'public/assets/images/ozono-sanificazione.jpg', 
+    )
+
+    for filepath in folder.rglob("*.md"):
+        with open(filepath, encoding='utf-8') as f:
+            content = f.read()
+
+        content_html = markdown.markdown(content, extensions=['markdown.extensions.tables', 'meta'])
+
+        md = markdown.Markdown(extensions=['meta'])
+        md.convert(content)
+
+
+        lines = '\n'.join(md.lines)
+
+        content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
+
+
+        filepath_chunks = str(filepath).split('\\')
+
+
+        # BREADCRUMBS  ---------------------------------------------
+        breadcrumbs = generate_breadcrumbs(filepath_chunks)
+
+        # READING TIME  ---------------------------------------------
+        reading_time = len(content.split(' ')) // 200
+
+        # PUBLICATION DATE  ----------------------------------------
+        publishing_date = ''
+        try: publishing_date = md.Meta['publishing_date'][0]
+        except: pass
+
+        # AUTHOR ----------------------------------------
+        author = 'Ozonogroup Staff'
+        try: author = md.Meta['author'][0]
+        except: pass
+
+        last_update_date = ''
+        try: last_update_date = md.Meta['last_update_date'][0]
+        except: pass
+
+        # GENERATE TABLE OF CONTENTS ----------------------------------------
+        toc_html = generate_toc(content_html)
+        
+        
+        with open('components/header.html', encoding='utf-8') as f:
+            header_html = f.read()
+                
+        # <section class="breadcrumbs-section">
+        #     <div class="container-xl h-full">
+        #         <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+        #     </div>
+        # </section>
+                
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="/style-blog.css">
+                <link rel="stylesheet" href="/util.css">
+                <title>Ozonogroup</title>
+            </head>
+
+            <body>
+                <section class="header-section">
+                    <div class="container-xl h-full">
+                        {header_html}
+                    </div>
+                </section>
+
+                <section class="meta-section mt-48">
+                    <div class="container-md h-full">
+                        <div class="flex justify-between mb-8">
+                            <span>by {author} • {publishing_date}</span>
+                            <span>Tempo Lettura: {reading_time} min</span>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="container-md">
+                    {toc_html}
+                </section>
+
+                <section class="footer-section">
+                    <div class="container-xl h-full">
+                        <footer class="flex items-center justify-center">
+                            <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+                        </footer>
+                    </div>
+                </section>
+            </body>
+
+            </html>
+        '''
+
+        filepath_out_dir = '/'.join(filepath_chunks[1:-1])
+        filepath_out = '/'.join(filepath_chunks[1:]).replace('.md', '.html')
+        print(filepath_out)
+
+        if not os.path.exists(filepath_out_dir):
+            os.makedirs(filepath_out_dir)
+
+        with open(filepath_out, 'w', encoding='utf-8') as f:
+            f.write(html)
+
+
+def copy_images():
+    articles_images_path = 'assets/images/articles/'
+    for f in os.listdir(articles_images_path):
+        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
+        
+    articles_images_path = 'assets/images/home/'
+    for f in os.listdir(articles_images_path):
+        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
 
 ###################################################################################################################
 # articles
@@ -878,6 +1081,9 @@ for item in data:
 
 
 generate_home_html(home_articles) 
+
+generate_manual_article_html()
+copy_images()
 
 # # VIEWER
 # with open('articles/public/ozono/sanificazione/quarta-gamma/applicazioni.md') as f:

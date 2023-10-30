@@ -4,7 +4,7 @@
 
 L'ozono (O3) è un agente versatile nell'industria della lavorazione delle carni, poiché svolge un ruolo chiave nella rimozione dei batteri patogeni dalla superficie della carne, riducendo il rischio di infezioni alimentari gravi. 
 
-Il gas O3 è efficace nella disinfezione delle superfici e delle attrezzature, contribuendo a prevenire la contaminazione incrociata tra carne cruda e cotta, migliorando la sicurezza alimentare e la qualità del prodotto. Inoltre, vinene anche utilizzato per estendere la conservazione della carne, riducendo gli sprechi e i costi associati alla sostituzione di prodotti scaduti, contribuendo così a combattere lo spreco alimentare. 
+Il gas O3 è efficace nella disinfezione delle superfici e delle attrezzature, contribuendo a prevenire la contaminazione crociata tra carne cruda e cotta, migliorando la sicurezza alimentare e la qualità del prodotto. Inoltre, viene anche utilizzato per estendere la conservazione della carne, riducendo gli sprechi e i costi associati alla sostituzione di prodotti scaduti, contribuendo così a combattere lo spreco alimentare. 
 
 Nel settore delle acque reflue, l'ozono è impiegato per trattare gli effluenti dell'industria della carne, decomponendo inquinanti organici e batteri patogeni, migliorando la qualità dell'acqua trattata e riducendo gli odori sgradevoli.
 
