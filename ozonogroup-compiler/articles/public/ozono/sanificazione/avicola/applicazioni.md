@@ -2,7 +2,15 @@
 
 ![5 Applicazioni dell'Ozono nell'Industria Avicola](/assets/images/avicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Avicola")
 
+L'ozono (O3) è un gas che viene utilizzato nell'industria avicola per la disinfezione dell'aria negli ambienti di produzione, inattivando batteri, virus, muffe e funghi, oltre a controllare parassiti e insetti. Questo migliora la sicurezza igienica nell'ambiente avicolo e riduce odori sgradevoli.
 
+Inoltre, questo gas è utilizzato per sterilizzare attrezzature avicole, eliminando microrganismi patogeni, muffe, lieviti e alghe che possono contaminare le attrezzature. Questo contribuisce a garantire la qualità dei prodotti avicoli.
+
+Nel trattamento dei prodotti alimentari, l'O3 è efficace nell'inattivazione di microrganismi patogeni e nel controllo di parassiti, contribuendo alla sicurezza alimentare. Rimuove anche contaminanti organici e odori sgradevoli, migliorando la qualità dei prodotti avicoli.
+
+Nell'acqua di processo, questo agente sanificante inattiva batteri e virus, controlla le muffe, rimuove alghe e contaminanti organici, abbassa la turbidità e riduce odori indesiderati. Questo migliora la qualità dell'acqua utilizzata nei processi di produzione avicola.
+
+Infine, nel trattamento delle acque reflue, l'ozono contribuisce all'inattivazione di microrganismi patogeni, alla rimozione di contaminanti organici, solidi sospesi e odori sgradevoli. Questo assicura che le acque reflue soddisfino le normative ambientali.
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria avicola elencate nella seguente lista.
 

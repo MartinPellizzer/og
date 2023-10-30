@@ -2,7 +2,13 @@
 
 ![5 Applicazioni dell'Ozono nell'Industria Cerealicola](/assets/images/cerealicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Cerealicola")
 
+L'ozono (O3) è un gas che viene utilizzato nell'industria cerealicola per la disinfezione dell'aria negli ambienti di stoccaggio e lavorazione dei cereali. L'O3 inattiva batteri, virus e muffe dannose, garantendo la sicurezza alimentare e preservando la qualità dei cereali. Controlla anche parassiti e insetti, elimina odori sgradevoli e degrada composti chimici dannosi, contribuendo a migliorare l'ambiente di lavoro e riducendo il rischio di contaminazioni.
 
+Inoltre, questo gas è impiegato per la sterilizzazione delle attrezzature utilizzate nell'industria cerealicola, inattivando batteri, virus, muffe e lieviti dannosi. Questo assicura che le attrezzature siano sicure e che i cereali lavorati siano privi di contaminanti.
+
+Nella fase di produzione, questo agente sanificante viene utilizzato per sanificare i prodotti alimentari stessi, come cereali, farina e riso. Questo processo inattiva microrganismi patogeni, controlla parassiti e insetti, rimuove contaminanti organici e odori sgradevoli, contribuendo così a garantire prodotti cerealicoli sicuri e di alta qualità.
+
+Infine, l'ozono è impiegato per trattare l'acqua di processo e le acque reflue nell'industria cerealicola. Questo processo inattiva microrganismi patogeni, rimuove contaminanti organici, abbattere odori, riduce solidi sospesi e contribuisce al decadimento di disinfettanti chimici, pesticidi ed erbicidi. Inoltre, ossida metalli pesanti, migliorando la qualità dell'acqua trattata e riducendo l'impatto ambientale.
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria cerealicola elencate nella seguente lista.
 

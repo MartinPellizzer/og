@@ -71,6 +71,7 @@ elif application == 'acqua-processo':
         "- Rimozione di pesticidi ed erbicidi",
         "- Ossidazione di metalli pesanti"
     ]
+
 # Rimozione dei contaminanti organici.
 # Eliminazione di batteri e virus.
 # Riduzione di odori sgradevoli.
@@ -89,7 +90,8 @@ elif application == 'acqua-processo':
 # Controllo delle infezioni microbiologiche.
 # Eliminazione di contaminanti organici volatili.
 
-    
+
+
 riassunto = f'''RIASSUNTO
 
         Scrivi una sezione per un articolo usando i dati forniti dalla tabella precedente.

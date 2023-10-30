@@ -288,3 +288,58 @@ Nella sanificazione dei prodotti alimentari, inattiva microrganismi patogeni e c
 Nel trattamento dell'acqua di processo, l'O3 inattiva batteri, virus, muffe e alghe, rimuove contaminanti organici, odori sgradevoli e disinfettanti chimici, migliorando la qualità dell'acqua utilizzata nel processo di produzione del vino.
 
 Nel trattamento delle acque reflue, l'ozono inattiva microrganismi patogeni, rimuove composti organici, trattando solidi sospesi, eliminando odori, sostanze coloranti, disinfettanti chimici, pesticidi ed erbicidi, e ossidando metalli pesanti. Questo rende il processo di trattamento delle acque reflue più sostenibile.
+
+
+
+
+
+
+
+
+L'ozono (O3) è un gas che viene utilizzato nell'industria birraria per la disinfezione dell'aria negli ambienti di produzione, svolgendo un ruolo chiave nell'inattivazione di batteri e virus. Inoltre, elimina odori sgradevoli e degrada composti chimici indesiderati, contribuendo a mantenere un ambiente igienico e sicuro.
+
+Questo gas è anche cruciale per la sterilizzazione delle attrezzature birrarie, eliminando muffe e lieviti. Inoltre, contribuisce alla rimozione di residui chimici come pesticidi ed erbicidi.
+
+Nella produzione di prodotti alimentari come l'orzo maltato, il luppolo e il lievito, l'O3 inattiva microrganismi patogeni e controlla parassiti e insetti, garantendo la sicurezza alimentare. Rimuove contaminanti organici, odori sgradevoli e degrada disinfettanti chimici.
+
+Nel trattamento dell'acqua di processo, questo agente sanificante elimina le alghe e rimuove i contaminanti organici. Contribuisce anche all'abbattimento di odori, disinfettanti chimici, pesticidi ed erbicidi, proteggendo la qualità dell'acqua di processo.
+
+Infine, l'ozono è impiegato nel trattamento delle acque reflue birrarie, inattivando microrganismi patogeni, rimuovendo contaminanti organici e riducendo solidi sospesi. Contribuisce anche all'eliminazione di odori, sostanze coloranti e disinfettanti chimici, proteggendo l'ambiente circostante.
+
+
+
+
+L'ozono (O3) è un gas che viene utilizzato nell'industria avicola per la disinfezione dell'aria negli ambienti di produzione, inattivando batteri, virus, muffe e funghi, oltre a controllare parassiti e insetti. Questo migliora la sicurezza igienica nell'ambiente avicolo e riduce odori sgradevoli.
+
+Inoltre, questo gas è utilizzato per sterilizzare attrezzature avicole, eliminando microrganismi patogeni, muffe, lieviti e alghe che possono contaminare le attrezzature. Questo contribuisce a garantire la qualità dei prodotti avicoli.
+
+Nel trattamento dei prodotti alimentari, l'O3 è efficace nell'inattivazione di microrganismi patogeni e nel controllo di parassiti, contribuendo alla sicurezza alimentare. Rimuove anche contaminanti organici e odori sgradevoli, migliorando la qualità dei prodotti avicoli.
+
+Nell'acqua di processo, questo agente sanificante inattiva batteri e virus, controlla le muffe, rimuove alghe e contaminanti organici, abbassa la turbidità e riduce odori indesiderati. Questo migliora la qualità dell'acqua utilizzata nei processi di produzione avicola.
+
+Infine, nel trattamento delle acque reflue, l'ozono contribuisce all'inattivazione di microrganismi patogeni, alla rimozione di contaminanti organici, solidi sospesi e odori sgradevoli. Questo assicura che le acque reflue soddisfino le normative ambientali.
+
+
+
+L'ozono (O3) è un gas che viene utilizzato nell'industria salumiera per la disinfezione dell'aria negli ambienti di produzione, inattivando batteri e virus, abbattendo muffe e funghi, e controllando parassiti e insetti indesiderati. Questo contribuisce a garantire la sicurezza igienica dei processi di produzione e a ridurre il rischio di contaminazione dei prodotti. Inoltre, elimina odori sgradevoli e degrada composti chimici indesiderati, migliorando l'ambiente di lavoro e la qualità dei prodotti.
+
+Questo gas viene anche impiegato per la sterilizzazione delle attrezzature, inattivando microrganismi dannosi e prevenendo contaminazioni. Inoltre, contribuisce alla rimozione di alghe, elimina odori indesiderati e degrada disinfettanti chimici, rispettando le normative igieniche.
+
+Nel trattamento dei prodotti alimentari, l'O3 inattiva microrganismi patogeni, controlla parassiti e insetti, rimuove contaminanti organici e abbatte odori sgradevoli. Questo contribuisce a garantire la sicurezza e la qualità dei prodotti salumieri.
+
+L'acqua di processo beneficia di questo agente sanificante per l'inattivazione di batteri e virus, il controllo di muffe e alghe, la rimozione di contaminanti organici e la diminuzione di odori sgradevoli. Contribuisce anche al decadimento di disinfettanti chimici e alla riduzione di farmaci e pesticidi.
+
+Infine, nell'ambito del trattamento delle acque reflue, l'ozono inattiva microrganismi patogeni, rimuove contaminanti organici, riduce i solidi sospesi e gli odori sgradevoli, e contribuisce al decadimento di disinfettanti chimici e alla riduzione di metalli pesanti, garantendo la sicurezza e la sostenibilità ambientale.
+
+
+
+
+
+
+L'ozono (O3) è un gas che viene utilizzato nell'industria cerealicola per la disinfezione dell'aria negli ambienti di stoccaggio e lavorazione dei cereali. L'O3 inattiva batteri, virus e muffe dannose, garantendo la sicurezza alimentare e preservando la qualità dei cereali. Controlla anche parassiti e insetti, elimina odori sgradevoli e degrada composti chimici dannosi, contribuendo a migliorare l'ambiente di lavoro e riducendo il rischio di contaminazioni.
+
+Inoltre, questo gas è impiegato per la sterilizzazione delle attrezzature utilizzate nell'industria cerealicola, inattivando batteri, virus, muffe e lieviti dannosi. Questo assicura che le attrezzature siano sicure e che i cereali lavorati siano privi di contaminanti.
+
+Nella fase di produzione, questo agente sanificante viene utilizzato per sanificare i prodotti alimentari stessi, come cereali, farina e riso. Questo processo inattiva microrganismi patogeni, controlla parassiti e insetti, rimuove contaminanti organici e odori sgradevoli, contribuendo così a garantire prodotti cerealicoli sicuri e di alta qualità.
+
+Infine, l'ozono è impiegato per trattare l'acqua di processo e le acque reflue nell'industria cerealicola. Questo processo inattiva microrganismi patogeni, rimuove contaminanti organici, abbattere odori, riduce solidi sospesi e contribuisce al decadimento di disinfettanti chimici, pesticidi ed erbicidi. Inoltre, ossida metalli pesanti, migliorando la qualità dell'acqua trattata e riducendo l'impatto ambientale.

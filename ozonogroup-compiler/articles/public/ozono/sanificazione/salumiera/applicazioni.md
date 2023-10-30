@@ -2,7 +2,15 @@
 
 ![5 Applicazioni dell'Ozono nell'Industria Salumiera](/assets/images/salumiera-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Salumiera")
 
+L'ozono (O3) è un gas che viene utilizzato nell'industria salumiera per la disinfezione dell'aria negli ambienti di produzione, inattivando batteri e virus, abbattendo muffe e funghi, e controllando parassiti e insetti indesiderati. Questo contribuisce a garantire la sicurezza igienica dei processi di produzione e a ridurre il rischio di contaminazione dei prodotti. Inoltre, elimina odori sgradevoli e degrada composti chimici indesiderati, migliorando l'ambiente di lavoro e la qualità dei prodotti.
 
+Questo gas viene anche impiegato per la sterilizzazione delle attrezzature, inattivando microrganismi dannosi e prevenendo contaminazioni. Inoltre, contribuisce alla rimozione di alghe, elimina odori indesiderati e degrada disinfettanti chimici, rispettando le normative igieniche.
+
+Nel trattamento dei prodotti alimentari, l'O3 inattiva microrganismi patogeni, controlla parassiti e insetti, rimuove contaminanti organici e abbatte odori sgradevoli. Questo contribuisce a garantire la sicurezza e la qualità dei prodotti salumieri.
+
+L'acqua di processo beneficia di questo agente sanificante per l'inattivazione di batteri e virus, il controllo di muffe e alghe, la rimozione di contaminanti organici e la diminuzione di odori sgradevoli. Contribuisce anche al decadimento di disinfettanti chimici e alla riduzione di farmaci e pesticidi.
+
+Infine, nell'ambito del trattamento delle acque reflue, l'ozono inattiva microrganismi patogeni, rimuove contaminanti organici, riduce i solidi sospesi e gli odori sgradevoli, e contribuisce al decadimento di disinfettanti chimici e alla riduzione di metalli pesanti, garantendo la sicurezza e la sostenibilità ambientale.
 
 In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria salumiera elencate nella seguente lista.
 
