@@ -8,8 +8,11 @@ publishing_date:
 
 # Intro
 
+
+Mantenere adeguati livelli di igiene è fondamentale per prevenire malattie, controllare infezioni e promuovere la salute generale. Inoltre, è scientificamente dimostrato che la disinfezione di ambienti, oggetti, e alimenti previene la diffusione di empidemie e incrementa anche il benessere psicologico delle persone. Di fatto, l'ozono è in grado di protare tutti questi benefici e allo stesso tempo salvaguardare l'ambiene in quanto è un gas ecologico (non lascia residui di O3, al contrario del cloro e altri prodotti chimici).
+
+
 - Presentazione dell'ozono come un potente agente sanificante.
-- Importanza dell'igiene e della disinfezione nell'attuale contesto mondiale.
 - Scopo dell'articolo: esaminare l'efficacia e le applicazioni della sanificazione ad ozono.
 
 
@@ -43,7 +46,7 @@ Per riassumere, la sanificazione ad ozono serve per 3 ragioni principali, le qua
 
 La sanificazione ad ozono funziona perché questo gas è un forte ossidante, Infatti, ha un potenziale redox di +2,07 V, il che lo rende più reattivo del cloro e di altri disinfettanti commerciali. 
 
-L'elevato potere ossidativo dell'O3 gli permette di reagire con i componenti delle membrane cellulari dei microrganismi patogeni, come i lipidi (grassi). Queste reazioni chimiche portano alla rottura delle membrane cellulari, compromettendo l'integrità delle cellule patogene. Di conseguenza, i microrganismi patogeni perderdono la loro capacità di sopravvivere e riprodursi.
+L'elevato potere ossidativo dell'O3 gli permette di reagire con i componenti delle membrane cellulari dei microrganismi patogeni, come i lipidi (grassi). Queste reazioni chimiche portano alla rottura delle membrane cellulari, compromettendo l'integrità delle cellule patogene. Di conseguenza, i microrganismi patogeni perdono la loro capacità di sopravvivere e riprodursi.
 
 Inoltre, l'ozono danneggia il materiale genetico dei microrganismi, come il DNA e l'RNA. Questo impedisce loro di replicarsi correttamente e di svolgere le loro funzioni vitali, rendendoli "inattivi". 
 
@@ -58,125 +61,61 @@ In sintesi, l'ozono funziona come agente disinfettante grazie agli effetti elenc
 
 ## Come funziona la disinfezione con l'ozono?
 
-La disinfezione con ozono viene fatta utilizzando un dispositivo in grado di produrre elevate quantità di gas O3 chiamata "generatore di ozono" (o ozonizzatore).
+La disinfezione con ozono viene fatta utilizzando un dispositivo chiamato "generatore di ozono" (o ozonizzatore), il quale è in grado di produrre elevate quantità di gas O3.
 
-Questo ozonizzatore converte l'ossigeno presente nell'aria ambiente (O2) in molecole di ozono (O3) utilizzando principalmente un sistema chiamato "scarica corona" (corrente elettrica). Successivamente queste molecole entrano in contatto con i microbi, gli odori e altre sostanze presenti, eliminandole o inattivandole. 
+Questo ozonizzatore converte l'ossigeno presente nell'aria ambiente (O2) in molecole di ozono (O3), utilizzando principalmente un sistema chiamato "scarica corona" (corrente elettrica). Quando queste molecole entrano in contatto con microbi, odori o altri microrganismi patogeni, questi vengono eliminati o inattivati. 
 
-Infine, l'ozono rimanente si riconverte spontaneamente in ossigeno (02) dopo poche ore, senza lasciare alcun residuo di O3.
+Alla fine di questo trattamento, l'ozono rimanente si riconverte spontaneamente in ossigeno (02) dopo poche ore, senza lasciare alcun residuo di O3.
 
-La procedura di sanificazione con ozono varia in base al metodo di applicazione. Nello specifico, i 2 metodi di applicazione più comuni e utilizzati vengono elencati nella seguente lista.
+La procedura di sanificazione con ozono varia in base al metodo di applicazione. Nello specifico, la seguente lista elenca i 2 metodi di applicazione che vengono più comunemente utilizzati.
 
 - Sanificazione con ozono in aria
 - Disinfezione con ozono in acqua
 
-### Come sanificare l'aria con l'ozono?
+### Come sanificare con l'ozono in aria?
 
-Per sanificare l'aria con l'ozono è necessario utilizzare un ozonizzatore proporzionato all'ambiente da trattare e al problema da risolvere. Questo generatore ha il compito di produrre ed iniettare il gas O3 all'interno dell'ambiente da trattare. Inoltre, se l'ambiente non è provvisto di sitema di ricircolo dell'aria, è necessario fornirsi...
+La sanificare con l'ozono in aria è una pratica che viene utilizzata per eliminare germi, odori e composti organici volatili (COV) presenti negli ambienti e nelle superfici.
 
-
-
-
-
-La disinfezione con l'ozono in aria è una pratica che può essere utilizzata per eliminare germi, batteri, virus e altri agenti patogeni presenti nell'ambiente. L'ozono è un gas composto da tre atomi di ossigeno (O3) ed è un potente ossidante, il che significa che può distruggere o inattivare microrganismi dannosi.
+Per purificare l'aria con l'ozono è necessario utilizzare un ozonizzatore proporzionato all'ambiente da trattare e al problema da risolvere. Questo generatore ha il compito di produrre ed iniettare il gas O3 all'interno dell'ambiente. Inoltre, se l'ambiente non è provvisto di sitema di ricircolo dell'aria, è necessario impiegare un ozonizzatore provvisto di un sistema di distribuzione integrato (ventole) per fare in modo che l'ozono si disperda in modo uniforme in tutto l'ambiente.
 
 La seguente procedura mostra come sanificare con l'ozono in aria.
 
-1. Acquista un generatore di ozono: Per utilizzare l'ozono per la disinfezione dell'aria, è necessario un dispositivo chiamato generatore di ozono. Questi dispositivi convertono l'ossigeno presente nell'aria in ozono. Assicurati di ottenere un generatore di ozono di qualità che rispetti le normative e le raccomandazioni di sicurezza.
-
-2. Assicurati che non ci siano persone o animali nell'area: Prima di iniziare il processo di disinfezione con l'ozono, è fondamentale assicurarsi che non ci siano persone o animali nell'area trattata, poiché l'ozono è dannoso per la salute umana e animale se inalato in concentrazioni elevate.
-
-3. Utilizza il generatore di ozono in un ambiente chiuso: Chiudi tutte le finestre e le porte dell'area da trattare in modo che l'ozono possa rimanere confinato nell'ambiente.
-
-4. Imposta il generatore di ozono secondo le specifiche del produttore: Ogni generatore di ozono avrà istruzioni specifiche per l'uso. Assicurati di seguire attentamente queste istruzioni e di impostare il dispositivo per il periodo di tempo e la concentrazione di ozono consigliati.
-
-5. Avvia il generatore di ozono: Avvia il generatore di ozono e lascialo funzionare per il periodo di tempo specificato dal produttore. Durante questo periodo, l'ozono inizierà a circolare nell'aria e a disinfeettare l'ambiente.
-
-6. Ventila l'ambiente: Dopo il periodo di disinfezione, assicurati di ventilare adeguatamente l'ambiente per rimuovere l'ozono residuo. Questo è un passaggio essenziale poiché l'ozono è dannoso per la salute umana e deve essere rimosso prima che le persone possano tornare nell'area trattata.
-
-È importante notare che l'ozono può essere pericoloso per la salute umana se utilizzato in modo errato. Assicurati di seguire tutte le normative di sicurezza e le istruzioni del produttore per l'uso di generatori di ozono. Inoltre, tieni presente che la disinfezione con l'ozono è efficace contro molti patogeni, ma potrebbero essere necessari ulteriori metodi di disinfezione per garantire una pulizia completa, specialmente in ambienti ad alto rischio.
-
-
-La disinfezione con l'ozono è un processo che utilizza l'ozono (O3), una forma di ossigeno instabile composta da tre atomi di ossigeno invece dei due presenti nell'ossigeno atmosferico (O2), per uccidere o inattivare microrganismi come batteri, virus e muffe, nonché per rimuovere odori sgradevoli e inquinanti chimici dall'ambiente. L'ozono è un potente ossidante, il che significa che può reagire con altre sostanze chimiche e alterarle chimicamente o distruggerle. Ecco come funziona la disinfezione con l'ozono:
-
-1. Generazione dell'ozono: L'ozono viene generato mediante dispositivi speciali noti come generatori di ozono. Questi dispositivi utilizzano elettricità per convertire l'ossigeno atmosferico (O2) in ozono (O3) attraverso un processo chiamato scarica corona. L'ozono prodotto è poi iniettato nell'ambiente che si desidera disinfettare.
-
-2. Reazione chimica: Una volta rilasciato nell'ambiente, l'ozono inizia a reagire con i microrganismi e altre sostanze presenti. L'ozono agisce tramite un processo di ossidazione, che danneggia le pareti cellulari dei microrganismi, interrompe il loro metabolismo e inattiva i virus. Questo processo uccide o inattiva i microrganismi, rendendoli non più pericolosi per la salute umana.
-
-3. Rimozione degli odori e degli inquinanti chimici: L'ozono è in grado di reagire con odori sgradevoli e inquinanti chimici nell'aria o sull'acqua, trasformandoli in sostanze meno nocive o inodore. Questo lo rende utile anche per la purificazione dell'aria e dell'acqua.
-
-4. Limiti e precauzioni: Sebbene la disinfezione con l'ozono possa essere molto efficace, ci sono alcune precauzioni da considerare. L'ozono è un gas tossico, e l'esposizione prolungata o a concentrazioni elevate può essere dannosa per la salute umana. Pertanto, è essenziale utilizzare dispositivi di generazione dell'ozono in modo sicuro, evitando l'esposizione diretta e garantendo che gli ambienti siano adeguatamente ventilati dopo il trattamento.
-
-5. Applicazioni: La disinfezione con l'ozono è utilizzata in diverse applicazioni, tra cui la pulizia e disinfezione di acqua potabile, la disinfezione dell'aria in ambienti chiusi, la purificazione dell'acqua di piscine e la sterilizzazione di apparecchiature mediche. È importante seguire le linee guida e le normative locali per l'uso sicuro dell'ozono in queste applicazioni.
-
-In sintesi, la disinfezione con l'ozono sfrutta le proprietà ossidanti dell'ozono per uccidere microrganismi e neutralizzare odori sgradevoli e inquinanti chimici. Tuttavia, è importante utilizzare questa tecnologia in modo sicuro e in conformità con le regolamentazioni locali per evitare potenziali rischi per la salute.
-
-
-
-
-
-
-
-
-### Come disinfettare con l'ozono in aria?
-
-La disinfezione con l'ozono in aria è una pratica che può essere utilizzata per eliminare germi, batteri, virus e altri agenti patogeni presenti nell'ambiente. L'ozono è un gas composto da tre atomi di ossigeno (O3) ed è un potente ossidante, il che significa che può distruggere o inattivare microrganismi dannosi.
-
-Ecco come è possibile disinfettare con l'ozono in aria:
-
-1. Acquista un generatore di ozono: Per utilizzare l'ozono per la disinfezione dell'aria, è necessario un dispositivo chiamato generatore di ozono. Questi dispositivi convertono l'ossigeno presente nell'aria in ozono. Assicurati di ottenere un generatore di ozono di qualità che rispetti le normative e le raccomandazioni di sicurezza.
-
-2. Assicurati che non ci siano persone o animali nell'area: Prima di iniziare il processo di disinfezione con l'ozono, è fondamentale assicurarsi che non ci siano persone o animali nell'area trattata, poiché l'ozono è dannoso per la salute umana e animale se inalato in concentrazioni elevate.
-
-3. Utilizza il generatore di ozono in un ambiente chiuso: Chiudi tutte le finestre e le porte dell'area da trattare in modo che l'ozono possa rimanere confinato nell'ambiente.
-
-4. Imposta il generatore di ozono secondo le specifiche del produttore: Ogni generatore di ozono avrà istruzioni specifiche per l'uso. Assicurati di seguire attentamente queste istruzioni e di impostare il dispositivo per il periodo di tempo e la concentrazione di ozono consigliati.
-
-5. Avvia il generatore di ozono: Avvia il generatore di ozono e lascialo funzionare per il periodo di tempo specificato dal produttore. Durante questo periodo, l'ozono inizierà a circolare nell'aria e a disinfeettare l'ambiente.
-
-6. Ventila l'ambiente: Dopo il periodo di disinfezione, assicurati di ventilare adeguatamente l'ambiente per rimuovere l'ozono residuo. Questo è un passaggio essenziale poiché l'ozono è dannoso per la salute umana e deve essere rimosso prima che le persone possano tornare nell'area trattata.
-
-È importante notare che l'ozono può essere pericoloso per la salute umana se utilizzato in modo errato. Assicurati di seguire tutte le normative di sicurezza e le istruzioni del produttore per l'uso di generatori di ozono. Inoltre, tieni presente che la disinfezione con l'ozono è efficace contro molti patogeni, ma potrebbero essere necessari ulteriori metodi di disinfezione per garantire una pulizia completa, specialmente in ambienti ad alto rischio.
-
-
+1. Acquista un generatore di ozono (per l'aria)
+2. Assicurati che non ci siano persone o animali nell'area
+2. Chiudi e sigilla l'ambiente da trattare
+4. Imposta il generatore di ozono secondo le specifiche del produttore
+5. Avvia il generatore di ozono
+6. Esci dall'ambiente (l'ozono è tossico se respirato)
+7. Arieggia l'ambiente finito il trattamento evitando di respirare l'ozono rimasto
 
 
 ### Come disinfettare con l'ozono in acqua?
 
-La disinfezione con l'ozono in acqua è una pratica che viene utilizzata per ridurre i batteri, i virus e altri microrganismi nell'acqua. L'ozono (O3) è un potente agente ossidante che può distruggere questi microrganismi. Ecco come è possibile disinfettare con l'ozono in acqua:
+La disinfezione con l'ozono in acqua serve sia per ridurre microbi, odori e residui chimici presenti nelle superfici di prodotti, utensili e attrezzature.
 
-1. Generazione dell'ozono: L'ozono può essere generato utilizzando generatori di ozono. Questi dispositivi convertono l'ossigeno (O2) presente nell'aria in ozono (O3) attraverso un processo chiamato ozonizzazione.
+Per generare questa acqua ozonizzata bisogna utilizzare un generatore di ozono in grado di generare e insufflare il gas 03 all'interno dell'acqua. Acluni ozonizzatori sono progettati esclusivamente per questo tipo di applicazione, mentre altri necessitano di accessori extra per poter iniettare l'ozono nel liquido. Una volta che l'acqua è stata ozonizzata (carica di O3), si può utilizzare per sanificare una vasta gamma di superfici.
 
-2. Mescolare l'ozono con l'acqua: Una volta generato, l'ozono viene miscelato con l'acqua che si desidera disinfettare. Questo può essere fatto utilizzando sistemi di iniezione o diffusori che introducono l'ozono nell'acqua.
+La seguente procedura mostra come disinfettare con l'ozono in acqua.
 
-3. Contatto con l'ozono: L'acqua viene esposta all'ozono per un periodo di tempo sufficiente per consentire all'ozono di reagire con i microrganismi presenti nell'acqua. L'ozono agisce distruggendo le membrane cellulari dei batteri, dei virus e altri microrganismi, rendendoli non dannosi.
+1. Acquista un generatore di ozono (per l'acqua)
+2. Imposta il generatore di ozono secondo le specifiche del produttore
+3. Avvia il generatore di ozono
+4. Monitora il processo di miscelazione dell'ozono nell'acqua (tramite apposito sensore)
+5. Evita di respirare l'odore di ozono che emana l'acqua
+6. Utilizza quest'acqua per lavare superfici
+7. Assicurati che l'acqua rimanga a contatto con le superfici per almeno qualche minuto
 
-4. Monitoraggio e controllo: È importante monitorare attentamente il processo per garantire che l'acqua sia stata adeguatamente disinfettata. La concentrazione di ozono e il tempo di contatto sono due fattori critici che devono essere controllati per ottenere risultati efficaci.
-
-5. Rimozione dell'ozono residuo: Dopo il processo di disinfezione, è necessario rimuovere l'ozono residuo dall'acqua. Ciò può essere fatto attraverso l'aerazione o l'uso di carboni attivi.
-
-È importante notare che l'ozono è un agente chimico potente e deve essere gestito con attenzione. Inoltre, la disinfezione con l'ozono è spesso utilizzata in applicazioni industriali o commerciali, come la potabilizzazione dell'acqua, il trattamento delle acque reflue e la disinfezione di piscine. Prima di utilizzare l'ozono per la disinfezione dell'acqua, è importante consultare le normative locali e seguire le linee guida di sicurezza appropriate.
+Oltre ad utilizzare l'ozono in acqua per sanificare le superfici, va notato che l'ozono viene ampiamente utilizzato per il trattamento dell'acqua stessa. Infatti viene utilizzato da più di 100 anni per il trattamento dell'acqua potabile pubblica in varie parti del mondo per eliminare agenti patogeni e metalli pesanti.
 
 
 
-## Perché l'igiene e la disinfezione sono importanti?
 
-    L'igiene e la disinfezione sono importanti per una serie di motivi fondamentali, sia a livello personale che a livello comunitario. Ecco alcune delle ragioni principali:
+### Come sanificare l'acqua con l'ozono?
 
-    1. Prevenzione delle malattie: Mantenere un ambiente pulito e igienico riduce il rischio di contrarre malattie infettive. Molte malattie, come il raffreddore, l'influenza e le infezioni gastrointestinali, si diffondono più facilmente in ambienti sporchi e non igienizzati.
 
-    2. Controllo delle infezioni: L'igiene e la disinfezione sono fondamentali negli ospedali, nelle strutture sanitarie e in altri ambienti in cui è importante prevenire la diffusione delle infezioni. La pulizia accurata e la disinfezione delle superfici e degli strumenti possono ridurre la trasmissione di batteri, virus e altri patogeni.
 
-    3. Promozione della salute: La buona igiene personale, come il lavaggio delle mani regolare, contribuisce a prevenire molte malattie comuni. Questo è particolarmente importante nelle situazioni in cui le persone sono a stretto contatto, come nelle scuole o negli ambienti di lavoro.
 
-    4. Sicurezza alimentare: L'igiene è cruciale nella preparazione, manipolazione e conservazione degli alimenti. La contaminazione dei cibi da parte di batteri patogeni può portare a gravi malattie alimentari. La pulizia delle superfici, la cottura appropriata e la manipolazione sicura degli alimenti sono aspetti chiave della sicurezza alimentare.
 
-    5. Benessere psicologico: Un ambiente pulito e ordinato può avere un impatto positivo sul benessere psicologico delle persone. Riduce lo stress, migliora la concentrazione e favorisce una sensazione generale di benessere.
-
-    6. Prevenzione della diffusione delle epidemie: In situazioni di emergenza, come epidemie di malattie infettive, l'igiene e la disinfezione sono fondamentali per prevenire la diffusione delle malattie a livello comunitario.
-
-    7. Salvaguardia dell'ambiente: L'igiene e la gestione corretta dei rifiuti contribuiscono alla protezione dell'ambiente. La corretta eliminazione dei rifiuti e il riciclaggio riducono l'impatto negativo sull'ecosistema.
-
-    In sintesi, l'igiene e la disinfezione sono fondamentali per mantenere la salute individuale e collettiva, prevenire la diffusione di malattie infettive e creare un ambiente sicuro e salutare per le persone.
 
 
 
@@ -185,31 +124,33 @@ La disinfezione con l'ozono in acqua è una pratica che viene utilizzata per rid
 
 
 ## Quali sono i vantaggi della sanificazione ad ozono?
-[
-    - Discussione dei benefici rispetto ai metodi tradizionali di sanificazione (ad esempio, cloro o candeggina).
-    - Nessuna formazione di residui chimici nocivi.
-    - Eliminazione di batteri, virus, funghi e odori sgradevoli.
-]
 
-La sanificazione ad ozono è un metodo di pulizia e disinfezione che sfrutta le proprietà ossidanti dell'ozono (O3) per eliminare batteri, virus, odori sgradevoli e altri contaminanti presenti in vari ambienti. Ci sono diversi vantaggi associati a questo processo, ma è importante notare che l'uso dell'ozono come agente disinfettante deve essere eseguito con cautela e seguendo le normative locali, poiché l'ozono è un gas tossico a elevate concentrazioni e può causare danni alla salute umana se non viene gestito correttamente.
+L'ozono ha diversi vantaggi rispetto ai vari metodi tradizionali di sanficazione (ad esempio, cloro e candeggina), come il fatto che ha un ampio spettro di disinfezione, che non lascia residui chimici e che è ecologico.
 
-Ecco alcuni dei vantaggi della sanificazione ad ozono:
+La seguente lista elenca i principali vantaggi dell'ozono e ne da una breve descrizione.
 
-1. Ampio spettro di disinfezione: L'ozono è efficace contro una vasta gamma di agenti patogeni, tra cui batteri, virus, funghi e parassiti. Ciò lo rende utile per la disinfezione in vari contesti, come ospedali, impianti di trattamento delle acque, alberghi, ristoranti e altro.
-
-2. Nessun residuo chimico: A differenza di molti prodotti chimici disinfettanti, l'ozono non lascia residui chimici tossici. Dopo il trattamento, l'ozono si decompone naturalmente in ossigeno, lasciando l'ambiente pulito e sicuro.
-
-3. Eliminazione degli odori: L'ozono può eliminare odori sgradevoli causati da muffa, fumo, cibo in decomposizione e altro. Questo lo rende utile per migliorare la qualità dell'aria in ambienti chiusi.
-
-4. Risparmio di tempo ed energia: La sanificazione ad ozono può essere più veloce di alcuni altri metodi di disinfezione, riducendo il tempo di inattività nei settori in cui è necessaria la pulizia e la disinfezione regolare.
-
-5. Ecocompatibilità: Poiché l'ozono è un gas naturale e si decompone in ossigeno, è considerato una scelta ecologicamente sostenibile per la disinfezione, riducendo l'impatto ambientale rispetto a sostanze chimiche più aggressive.
+- **Ha un ampio spettro di disinfezione**: Questo gas è efficace contro una vasta gamma di agenti patogeni, tra cui batteri, virus, muffe, funghi, protozoi e parassiti. Ciò lo rende utile per la disinfezione in vari contesti, come ospedali, alberghi, ristoranti e altro.
+- **Elimina gli odori**: L'ozono elimina gli odori sgradevoli causati da fumo, cibo, animali e altro. Questo migliora la qualità dell'aria in ambienti chiusi e la salute delle persone.
+- **Risparmia tempo**: Questo sistema di sanificazione è in media più veloce di molti altri metodi. Questo è particolarmente rilevante per quelle attività commerciali o industriali dove è necessaria una disinfezione regolare, la quale rallenta il processo produttivo.
+- **Consuma meno energia**: L'O3 richiede solo una minima quantità di elettricità per essere prodotto. Quindi, utilizzando questo sistema di disinfezione, si risparmia sul continuo approvvigionamento di detergenti chimici o sui costi elevati derivanti da sistemi di sanificazione termici (alte temperature).
+- **Non lascia residui chimici**: A differenza di molti prodotti chimici disinfettanti, questo agente sanificante non lascia residui chimici tossici. Dopo il trattamento, l'O3 si decompone naturalmente in ossigeno (O2), lasciando l'ambiente pulito e sicuro.
+- **Rispetta l'ambiente**: La sanificazione ad ozono è ecocompatibile in quanto l'ozono, riconvertendosi in ossigeno dopo qualche ora, non inquina l'ambiente. Per questo motivo, l'O3 è ecologico e non ha bisogno di essere smaltito utilizzando complicati e costosi trattamenti.
 
 
 
-## Quali sono i svantaggi della sanificazione ad ozono?
+## Quali sono gli svantaggi della sanificazione ad ozono?
 
-Tuttavia, ci sono anche alcuni svantaggi e considerazioni importanti da tenere a mente:
+ozono sanificazione controindicazioni
+    sanificazione con ozono effetti collaterali
+    sanificazione con ozono fa male
+    
+    sanificazione con ozono fa male alle piante
+
+La sanificazione ad ozono ha anche degli svantaggi. Per esempio, questo gas è considerato tossico se respirato ad alte concentrazioni, richiede attrezzature specializzate e ha effetti collaterali su alcuni materiali.
+
+La seguente lista elenca i principali svantaggi dell'ozono e ne da una breve descrizione.
+
+# TODO: continue from here
 
 1. Tossicità a concentrazioni elevate: L'ozono può essere tossico per gli esseri umani a concentrazioni elevate, pertanto deve essere utilizzato con attenzione e solo da operatori addestrati.
 
@@ -221,11 +162,7 @@ In sintesi, la sanificazione ad ozono offre vantaggi significativi in termini di
 
 
 
-
-
-
-## Perché la sanificazione ad ozono funziona?
-
+# integra in benefici
 2. Ampia copertura: L'ozono può penetrare in spazi difficilmente accessibili e raggiungere superfici che potrebbero essere difficili da pulire in altri modi. Ciò significa che può essere efficace nella sanificazione di aree difficili da trattare con metodi convenzionali.
 
 3. Velocità d'azione: L'ozono agisce rapidamente, spesso eliminando i microrganismi in pochi minuti o addirittura secondi, a seconda della concentrazione di ozono utilizzata.

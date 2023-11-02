@@ -2,13 +2,13 @@
 Cos'è la sanificazione ad ozono?
 Perché l'igiene e la disinfezione sono importanti?
 
-# [v] Cos'è la sanificazione ad ozono?
-  [v] A cosa serve la sanificazione ad ozono?
+# Cos'è la sanificazione ad ozono?
+  # A cosa serve la sanificazione ad ozono?
 
-# [v] Perchè la sanificazione ad ozono funziona?
+# Perchè la sanificazione ad ozono funziona?
 
 # Come funziona la disinfezione con l'ozono?
-    Come disinfettare con l'ozono in aria?
+    # Come disinfettare con l'ozono in aria?
     Come disinfettare con l'ozono in acqua?
 
 Come usare l'ozono per purificare gli ambienti?
