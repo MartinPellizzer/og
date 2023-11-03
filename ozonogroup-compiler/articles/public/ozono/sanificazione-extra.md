@@ -164,3 +164,62 @@ La sanificazione ad ozono è una tecnica che utilizza l'ozono (O3), una forma in
 8. Disinfezione dell'aria in ambienti sensibili: L'ozono è stato utilizzato per disinfettare l'aria in ambienti critici come camere pulite, laboratori farmaceutici e ambienti ospedalieri.
 
 È importante notare che l'uso dell'ozono per scopi di sanificazione deve essere fatto con cautela e secondo le normative e le linee guida appropriate, poiché l'ozono può essere dannoso per la salute umana se utilizzato in modo inappropriato. Inoltre, è necessario prestare attenzione al tempo di esposizione e alla concentrazione di ozono in base all'applicazione specifica.
+
+
+
+
+
+### Come disinfettare con l'ozono in acqua?
+
+La disinfezione con l'ozono in acqua serve sia per ridurre microbi, odori e residui chimici presenti nelle superfici di prodotti, utensili e attrezzature.
+
+Per generare questa acqua ozonizzata bisogna utilizzare un generatore di ozono in grado di generare e insufflare il gas 03 all'interno dell'acqua. Acluni ozonizzatori sono progettati esclusivamente per questo tipo di applicazione, mentre altri necessitano di accessori extra per poter iniettare l'ozono nel liquido. Una volta che l'acqua è stata ozonizzata (carica di O3), si può utilizzare per sanificare una vasta gamma di superfici.
+
+La seguente procedura mostra come disinfettare con l'ozono in acqua.
+
+1. Acquista un generatore di ozono (per l'acqua)
+2. Imposta il generatore di ozono secondo le specifiche del produttore
+3. Avvia il generatore di ozono
+4. Monitora il processo di miscelazione dell'ozono nell'acqua (tramite apposito sensore)
+5. Evita di respirare l'odore di ozono che emana l'acqua
+6. Utilizza quest'acqua per lavare superfici
+7. Assicurati che l'acqua rimanga a contatto con le superfici per almeno qualche minuto
+
+Oltre ad utilizzare l'ozono in acqua per sanificare le superfici, va notato che l'ozono viene ampiamente utilizzato per il trattamento dell'acqua stessa. Infatti viene utilizzato da più di 100 anni per il trattamento dell'acqua potabile pubblica in varie parti del mondo per eliminare agenti patogeni e metalli pesanti.
+
+
+
+
+
+
+L'ozono è un potente agente sanificante che può essere utilizzato per la disinfezione e la purificazione dell'aria e delle superfici. È una molecola composta da tre atomi di ossigeno (O3) ed è noto per le sue proprietà antimicrobiche, fungicide e battericide. Ecco alcuni dei principali punti chiave nella presentazione dell'ozono come agente sanificante:
+
+1. Proprietà dell'ozono:
+   - L'ozono è un ossidante molto reattivo e instabile che può distruggere batteri, virus, funghi e altri agenti patogeni.
+
+2. Applicazioni principali:
+   - Disinfezione dell'aria: L'ozono può essere utilizzato per purificare l'aria all'interno di ambienti chiusi, eliminando odori sgradevoli e riducendo la presenza di agenti patogeni nell'aria.
+   - Sanificazione delle superfici: L'ozono può essere utilizzato per disinfettare superfici in vari settori, come ospedali, ristoranti, scuole e uffici.
+
+3. Vantaggi dell'ozono come agente sanificante:
+   - Non lascia residui chimici: A differenza di molti disinfettanti chimici, l'ozono si decompone naturalmente in ossigeno, senza lasciare residui dannosi.
+   - Ampia efficacia: L'ozono è efficace contro una vasta gamma di agenti patogeni, compresi batteri resistenti agli antibiotici e virus.
+   - Riduzione degli odori: L'ozono è efficace nel neutralizzare odori sgradevoli, come quelli causati da fumo, muffa o cibo.
+
+4. Utilizzo sicuro:
+   - L'ozono deve essere utilizzato con cautela e rispettando le normative di sicurezza, poiché l'inalazione di elevate concentrazioni di ozono può essere dannosa per la salute umana.
+
+5. Limitazioni:
+   - L'ozono ha un'efficacia limitata in ambienti esterni, poiché la sua durata è breve e può essere influenzata dalla presenza di inquinanti atmosferici.
+   - Non tutti i materiali sono compatibili con il contatto diretto con l'ozono, quindi è importante fare attenzione nell'uso su superfici sensibili.
+
+In sintesi, l'ozono è un potente agente sanificante con molte applicazioni benefiche per la disinfezione dell'aria e delle superfici. Tuttavia, è importante utilizzarlo con prudenza e rispettare le linee guida sulla sicurezza per garantire che sia efficace ed evitare danni collaterali.
+
+
+
+
+<!-- Questo processo è basato sulla capacità dell'ozono di reagire chimicamente con i costituenti cellulari dei microrganismi, danneggiandoli in modo irreversibile.
+
+La sanificazione ad ozono comporta l'uso di generatori di ozono, che producono ozono attraverso una scarica elettrica o un processo chimico. L'ozono viene diffuso nell'ambiente o sulla superficie da sanificare, dove entra in contatto con i microrganismi presenti. Durante questa interazione, l'ozono ossida le pareti cellulari dei batteri e dei virus, danneggiando anche il loro materiale genetico. Questo li rende incapaci di riprodursi e li inattiva, eliminando così il rischio di contaminazione.
+
+Va notato che l'ozono è un agente chimico molto reattivo e può essere dannoso per gli esseri umani se presente in concentrazioni elevate. Pertanto, la sanificazione ad ozono deve essere condotta da personale addestrato e seguendo le norme di sicurezza appropriate per garantire che non vi siano rischi per la salute umana. -->
