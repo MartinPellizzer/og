@@ -599,7 +599,7 @@ def generate_table(lines):
 def generate_manual_article_html():
     folder = pathlib.Path("articles")
 
-    w, h = 768, 576
+    w, h = 768, 432
     generate_image_plain(
         'assets/images/featured/ozono-chimica.jpg', 
         w, h,
