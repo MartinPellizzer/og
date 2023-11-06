@@ -186,7 +186,7 @@ def img_resize(image_path):
 
 
 def img_resize_2(image_path_in, image_path_out):
-    w, h = 768, 512
+    w, h = 768, 576
 
     img = Image.open(image_path_in)
 
@@ -599,7 +599,7 @@ def generate_table(lines):
 def generate_manual_article_html():
     folder = pathlib.Path("articles")
 
-    w, h = 768, 432
+    w, h = 768, 576
     generate_image_plain(
         'assets/images/featured/ozono-chimica.jpg', 
         w, h,
