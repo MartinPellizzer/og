@@ -749,10 +749,10 @@ def copy_images():
 ###################################################################################################################
 # articles
 ###################################################################################################################
-try: shutil.rmtree('articles/public/ozono/sanificazione/')
-except: pass
-try: os.mkdir('articles/public/ozono/sanificazione/')
-except: pass
+# try: shutil.rmtree('articles/public/ozono/sanificazione/')
+# except: pass
+# try: os.mkdir('articles/public/ozono/sanificazione/')
+# except: pass
 
 try: shutil.rmtree('public/ozono/sanificazione/')
 except: pass

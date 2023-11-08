@@ -295,6 +295,18 @@ elif application.strip().lower().replace(' ', '-') == 'acqua-processo':
     i += 1
 
 
+def paragraphs():
+    print('''
+Write 3 paragraphs.
+
+In the first paragraph, write about the effectiveness of ozone sanitization in eliminating pathogenic microorganisms, including bacteria, viruses, molds, fungi, and spores.
+In the second paragraph, write about the effectiveness of ozone sanitization in removing unpleasant and unwanted odors.
+In the third paragraph, write about the effectiveness of ozone sanitization in naturally repelling pest insects, including flies, mosquitoes, fleas, cockroaches, ants, bedbugs, moths, and small rodents.
+
+Include as much data, info and numbers possible. 
+Do not add opinions, write only objective data.
+Use the metric system for numbers.
+    ''')
 
 # - Rimozione di allergeni
 
