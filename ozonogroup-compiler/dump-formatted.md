@@ -112,12 +112,60 @@ x economica.
 
 
 - sicura (non lascia residui? no allergie)
-    9. Sicura: L'ozono si converte rapidamente in ossigeno, rendendolo sicuro per gli esseri umani.
+    si converte rapidamente in ossigeno,
+        sicuro per gli esseri umani.
+    persone allergiche
+        elimina acari della polvere, muffe e batteri
+        riduce irritazioni cutanee, oculari, gonfiore palpebre e problemi respiratori
+    purificazione dell'aria mediante ozonizzatori
+        migliorando la salute degli occupanti.
+    malattie respiratorie
+        come l'asma, le insufficienze respiratorie ed enfisemi
+        ambiente più pulito e salubre.
+    composta da tre atomi di ossigeno
+    - Trattato correttamente da personale qualificato, 
+        l'ozono è sicuro sia per gli operatori che effettuano la sanificazione che per tutte le altre persone presenti nell'ambiente. 
+        Non è esplosivo, abrasivo o infiammabile, e non danneggia l'ambiente.
+    ozonizzatori possono essere utilizzati in modo sicuro 
+        seguendo le indicazioni del produttore
+        e le precauzioni necessarie 
+        per evitare l'esposizione diretta all'ozono.
+    Quando utilizzati correttamente, 
+        gli ozonizzatori sono sicuri ed efficaci, 
+        riducendo il rischio di contaminazione incrociata 
+            negli ambienti professionali.
+    Durante situazioni di emergenza sanitaria, 
+        come l'epidemia di
+        la sanificazione ad ozono è una soluzione efficace 
+        per garantire una disinfezione radicale degli ambienti.
+
 - versatile (diverse applicazioni)
+    vasta gamma di ambienti/aree, 
+        come domestici, scolastici, sanitari, ristoranti, alberghi e altro.
+        Aziende, strutture ospedaliere, negozi alimentari, centri estetici, parrucchieri, strutture scolastiche, palestre e centri sportivi, lavanderie e tintorie
+        Strutture alberghiere, abitazioni, bed & breakfast
+            divani, tende, materassi e moquette.
+        Mezzi di trasporto come pullman, autobus, autovetture, treni, ambulanze, camper, food truck, camion e imbarcazioni
+        residenziali, scolastici, sanitari, centri estetici, ospedali, ristoranti, bar, pizzerie, farmacie e alberghi.
+        Nell'industria alimentare
+            per conservare e sanificare prodotti freschi, migliorando la durata di conservazione e riducendo il rischio di contaminazioni
+        settore agricolo
+            sterilizzare il terreno e trattare serre e colture, contribuendo a prevenire malattie e parassiti.
+        Allontanamento degli insetti
+    Ampia gamma di applicazioni
+    proprietà disinfettanti, deodoranti e purificanti.
+    privati, enti pubblici
+    attività commerciali
+    industria
+
 - economica (a lungo termine)
+
 - riconosciuto
+
 - integrabile
+
 - disponibile
+
 - personalizzabile
 - automatizzabile
 - soddisfazione clienti (reputazione)
@@ -129,76 +177,30 @@ x economica.
     print('''
 Write 3 paragraphs.
 
-In the first paragraph, write about why ozone is ecologic
+In the first paragraph, write about the fact that ozone sanitization is effective because it can reach difficult to access areas thanks to the fact it is a gas. 
 
-In the second paragraph, write about the fact that ozone sanitization save time because it doesn't require rising after application, as it doesn't leave chemical residues. Also it doesn't need to be mixed or diluted in chemical solutions, which can be time-consuming and can reduce manual labor time.
+In the second paragraph, write about the fact that ozone sanitization is effective because it can penetrate complex surfaces like fabrics, carpets, sofas, and curtains thanks to his specific weight. 
 
-In the third paragraph, write about the fact that ozono can be generate on-site and that can be used immediately when you need it, reducing inventory management time and also supply time compared to chemical products. 
+In the third paragraph, write about the fact that ozone must be distributed effectively and omogeneally to sanitize properly.
 
-Include as much data, info and numbers as possible. 
-Do not add opinions, write only objective data.
-Don't write about what ozone is.
-Use the metric system for numbers.
-    ''')
-    
-    print('''
-Write 3 paragraphs.
-
-In the first paragraph, write about the fact that ozone is a natural gas and that it leave no harmful residues or byproducts that can harm the environment and breaks down into regular oxygen (O2). Explain how the generation and breaking down process work.
-
-In the second paragraph, write about the fact that ozone sanitization does not involve the use of harmful chemicals and so it educe the need for chemical disinfectants and reduce the disposal of chemical waste. Plus, it helps conserving water resources if used for water purification instead of chlorine or other chemicals.
-
-In the third paragraph, write about the fact that is energy-efficient so it require less power compared to some other disinfection methods and help reduce the overall carbon footprint.
-
-Include as much data, info and numbers as possible. 
+Include as much data, info and numbers as possible. Don't mention sources for studies.
 Do not add opinions, write only objective data.
 Don't write about what ozone is.
 Use the metric system for numbers.
     ''')
 
 
+, like home, car, etc.. for private individuals, and schools, hospitals, etc... for public bodies.
 
+Deep Penetration: Ozone can penetrate hard-to-reach areas, eliminating accumulated microorganisms that cannot be removed with regular cleaning.
 
+Deep Cleaning: Ozone is capable of deeply cleaning fabrics, carpets, sofas, and curtains, removing dirt and bacteria that can accumulate over time.
 
+Accessibility to Hidden Points: Thanks to its physical characteristics, ozone can reach even the most hidden points in environments, ensuring complete sanitization.
 
-13. Reduced Packaging Waste: By reducing the need for chemical disinfectants, ozone systems can help reduce the production of packaging materials and the waste associated with them.
+Effective: Due to its specific weight, ozone can reach surfaces and points in the treated area that are difficult to reach by other substances, allowing for deep and effective cleaning.
 
-It's important to note that while ozone sanitization can be more ecological in many cases, its effectiveness and ecological impact may vary depending on the specific application, system design, and operational practices. Proper system design, maintenance, and operational control are essential to maximize its environmental benefits.
-
-
-
-
-
-
-1. Chemical-Free Disinfection: Ozone is a natural gas composed of oxygen molecules (O3) and does not involve the use of harmful chemicals, making it a more sustainable and environmentally friendly option.
-
-2. No Harmful Residues: Ozone breaks down into regular oxygen (O2) after sanitization, leaving no harmful residues or byproducts that can harm the environment or human health.
-
-3. Reduced Chemical Disposal: Ozone systems reduce the need for chemical disinfectants and reduce the disposal of chemical waste, contributing to a cleaner environment.
-
-4. Energy Efficiency: Ozone generators are energy-efficient and require less power compared to some other disinfection methods, which can help reduce the overall carbon footprint.
-
-5. Reduced Water Usage: Ozone treatment can be used in water purification processes to reduce the need for chlorine or other chemicals, thus conserving water resources.
-
-6. Effective Pathogen Inactivation: Ozone is highly effective at inactivating a wide range of pathogens, including bacteria, viruses, and parasites, which can reduce the need for harsh chemical treatments.
-
-7. Shorter Treatment Times: Ozone treatment often requires shorter contact times than other disinfection methods, reducing the overall energy and resource consumption.
-
-8. No Resistant Organisms: Unlike some chemical disinfectants, pathogens are less likely to develop resistance to ozone, reducing the risk of creating superbugs.
-
-9. Low Impact on Ecosystems: Ozone does not harm ecosystems, aquatic life, or soil when used in water treatment processes, which can be the case with some chemical disinfectants.
-
-10. Reduced Transportation and Storage: Ozone can be generated on-site, eliminating the need for transporting and storing hazardous chemicals, reducing associated environmental risks.
-
-11. Versatility: Ozone can be applied in various applications, such as water treatment, air purification, and surface disinfection, reducing the need for multiple disinfection methods.
-
-12. Ozone Recycling: Some systems can capture and reuse excess ozone, further minimizing its environmental impact.
-
-13. Reduced Packaging Waste: By reducing the need for chemical disinfectants, ozone systems can help reduce the production of packaging materials and the waste associated with them.
-
-It's important to note that while ozone sanitization can be more ecological in many cases, its effectiveness and ecological impact may vary depending on the specific application, system design, and operational practices. Proper system design, maintenance, and operational control are essential to maximize its environmental benefits.
-
-
+Complete and Deep Process: Ozone penetrates deeply, destroying microorganisms even in hard-to-reach areas, contributing to a more effective cleaning compared to traditional methods.
 
 
 # profonda
@@ -254,11 +256,6 @@ ideali per la disinfezione di superfici e ambienti in ambito professionale.
 
 
 
-# non allergie
-6. Benefici per le persone allergiche: La sanificazione con ozono è particolarmente vantaggiosa per coloro che soffrono di allergie poiché elimina acari della polvere, muffe e batteri, riducendo irritazioni cutanee, oculari e problemi respiratori.
-4. Benefici per i soggetti allergici: La sanificazione con ozono rimuove gli acari della polvere e uccide muffe e batteri, apportando benefici a coloro che soffrono di allergie, riducendo disturbi come irritazioni alla pelle, agli occhi, disturbi respiratori e gonfiore alle palpebre.
-4. Benefici per i soggetti allergici: La sanificazione con ozono rimuove acari della polvere, muffe e batteri, contribuendo a migliorare la qualità dell'aria e riducendo i disturbi allergici come irritazioni alla pelle, agli occhi e problemi respiratori.
-12. **Riduzione del rischio di allergie**: La sanificazione e la purificazione dell'aria mediante ozonizzatori possono contribuire a ridurre il rischio di allergie e malattie respiratorie, migliorando la salute degli occupanti degli ambienti trattati.
 
 
 
@@ -266,13 +263,6 @@ ideali per la disinfezione di superfici e ambienti in ambito professionale.
 
 
 
-
-
-# costi lungo termine
-10. Costi ammortizzabili nel tempo: Investire in un ozonizzatore per uso domestico può ammortizzare il costo nel tempo, offrendo una soluzione economica per la sanificazione continua degli ambienti.
-16. **Riduzione dei costi a lungo termine**: L'uso degli ozonizzatori può portare a una riduzione dei costi a lungo termine associati alla pulizia, alla disinfezione e alla gestione dei rifiuti chimici.
-11. **Risparmio sui prodotti chimici**: L'uso degli ozonizzatori può ridurre la necessità di utilizzare prodotti chimici aggressivi per la pulizia e la disinfezione, contribuendo a un ambiente più sicuro e sostenibile.
-8. Risparmio sui farmaci: La terapia con acqua ozonizzata riduce la quantità di farmaci che devono essere somministrati agli animali, contribuendo a migliorare le condizioni di salute.
 
 
 
@@ -336,16 +326,6 @@ ideali per la disinfezione di superfici e ambienti in ambito professionale.
 
 
 
-
-# sicuro
-9. Riduzione dei rischi per la salute respiratoria: La sanificazione con ozono può contribuire a ridurre i rischi legati a malattie respiratorie, come l'asma, le insufficienze respiratorie ed enfisemi, creando un ambiente più pulito e salubre.
-8. **Nessun danno alla salute umana:** L'ozono è una molecola composta da tre atomi di ossigeno, essenziale per la protezione dell'uomo, e quindi non danneggia la salute umana durante la sanificazione.
-11. Riduzione del rischio di malattie respiratorie: La sanificazione con ozono contribuisce a ridurre il rischio di malattie respiratorie come asma, insufficienze respiratorie ed enfisemi, rendendo l'aria più pulita e respirabile.
-6. Maggiore ossigenazione dell'ambiente: L'ozono aumenta la quantità di ossigeno nell'aria, migliorando la qualità dell'ambiente.
-7. Sicuro: Trattato correttamente da personale qualificato, l'ozono è sicuro sia per gli operatori che effettuano la sanificazione che per tutte le altre persone presenti nell'ambiente. Non è esplosivo, abrasivo o infiammabile, e non danneggia l'ambiente.
-18. **Sicurezza**: Gli ozonizzatori possono essere utilizzati in modo sicuro seguendo le indicazioni del produttore e le precauzioni necessarie per evitare l'esposizione diretta all'ozono.
-5. Sicurezza: Quando utilizzati correttamente, gli ozonizzatori sono sicuri ed efficaci, riducendo il rischio di contaminazione incrociata negli ambienti professionali.
-9. **Utilizzato in situazioni di emergenza sanitaria:** Durante situazioni di emergenza sanitaria, come l'epidemia di COVID-19, la sanificazione ad ozono è una soluzione efficace per garantire una disinfezione radicale degli ambienti.
 
 
 
