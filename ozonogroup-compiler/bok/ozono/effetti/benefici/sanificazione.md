@@ -1,3 +1,0 @@
-- battericida
-- funghicida
-- inattivante dei virus

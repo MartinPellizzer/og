@@ -630,6 +630,11 @@ def generate_manual_article_html():
         w, h, 
         'public/assets/images/ozono-sanificazione.jpg', 
     )
+    generate_image_plain(
+        'assets/images/featured/ozono-sanificazione-benefici.jpg', 
+        w, h, 
+        'public/assets/images/ozono-sanificazione-benefici.jpg', 
+    )
 
     for filepath in folder.rglob("*.md"):
         with open(filepath, encoding='utf-8') as f:

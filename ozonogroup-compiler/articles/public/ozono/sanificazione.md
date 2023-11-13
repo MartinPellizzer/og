@@ -126,7 +126,7 @@ Inoltre, va anche notato che la precedente procedura è valida solo se si vuole 
 
 L'ozono ha diversi vantaggi rispetto ai vari metodi tradizionali di sanficazione (ad esempio, cloro e candeggina), come il fatto che ha un ampio spettro di disinfezione, che non lascia residui chimici e che è ecologico.
 
-La seguente immagine mostra i vantaggi dell'ozono come agente sanificante.
+La seguente immagine mostra i [benefici della sanificazione ad ozono](/ozono/sanificazione/benefici.html).
 
 ![Ozono Sanificazione Vantaggi](/assets/images/ozono-sanificazione-vantaggi.jpg "Ozono Sanificazione Vantaggi")
 

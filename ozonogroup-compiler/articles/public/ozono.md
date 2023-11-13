@@ -207,7 +207,7 @@ Ecco alcune applicazioni mediche dell'ozonoterapia.
 
 ### Sanificazione ad ozono
 
-La sanificazione ad ozono è un processo di disinfezione che utilizza l'ozono per sterilizzare ambienti, oggetti e superfici mediante l'uso di ozono (O3). L'ozono è un potente ossidante ed è in grado di distruggere gli organismi nocivi. 
+La [sanificazione ad ozono](/ozono/sanificazione.html) è un processo di disinfezione che utilizza l'ozono per sterilizzare ambienti, oggetti e superfici mediante l'uso di ozono (O3). L'ozono è un potente ossidante ed è in grado di distruggere gli organismi nocivi. 
 
 Durante il processo di sanificazione ad ozono, l'ozono viene prodotto tramite generatori di ozono e diffuso nell'ambiente da trattare, distruggendo virus, batteri, muffe e altri agenti patogeni presenti nell'aria e sulle superfici. Secondo studi, l'ozono è in grado di eliminare il 99.9% di batteri, virus e cattivi odori.
 
