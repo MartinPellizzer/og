@@ -39,13 +39,3 @@ generate_image_plain('assets/images/home/trasporti-raw.jpg', w, h, 'assets/image
 
 
 shutil.copy2('index.html', 'public/index.html')
-
-shutil.copy2('style.css', 'public/style.css')
-shutil.copy2('style-blog.css', 'public/style-blog.css')
-shutil.copy2('util.css', 'public/util.css')
-shutil.copy2('img.css', 'public/img.css')
-shutil.copy2('logo.ico', 'public/logo.ico')
-shutil.copy2('CNAME', 'public/CNAME')
-
-
-

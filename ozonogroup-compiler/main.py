@@ -557,19 +557,19 @@ def generate_article_html(date, attribute, article, title):
 
 
 def generate_home_html(home_articles):
-    articles_html = ''
-    for article in home_articles:
-        articles_html += f'''
-            <a class="decoration-none" href="{article['href']}">
-                <img src="{article['src']}" alt="">
-                <h3>{article['title']}</h3>
-            </a>
-        '''
+    # articles_html = ''
+    # for article in home_articles:
+    #     articles_html += f'''
+    #         <a class="decoration-none" href="{article['href']}">
+    #             <img src="{article['src']}" alt="">
+    #             <h3>{article['title']}</h3>
+    #         </a>
+    #     '''
 
     with open("home.html", encoding='utf-8') as f:
         html = f.read()
 
-    html = html.replace('<!-- insert_articles_here -->', articles_html)
+    # html = html.replace('<!-- insert_articles_here -->', articles_html)
 
     with open("public/index.html", 'w', encoding='utf-8') as f:
         f.write(html)
@@ -681,11 +681,6 @@ def generate_manual_article_html():
         with open('components/header.html', encoding='utf-8') as f:
             header_html = f.read()
                 
-        # <section class="breadcrumbs-section">
-        #     <div class="container-xl h-full">
-        #         <a href="/index.html">Home</a>{''.join(breadcrumbs)}
-        #     </div>
-        # </section>
                 
         html = f'''
             <!DOCTYPE html>
@@ -703,6 +698,12 @@ def generate_manual_article_html():
                 <section class="header-section">
                     <div class="container-xl h-full">
                         {header_html}
+                    </div>
+                </section>
+
+                <section class="breadcrumbs-section">
+                    <div class="container-xl h-full">
+                        <a href="/index.html">Home</a>{''.join(breadcrumbs)}
                     </div>
                 </section>
 
@@ -750,6 +751,10 @@ def copy_images():
     articles_images_path = 'assets/images/home/'
     for f in os.listdir(articles_images_path):
         shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
+        
+    articles_images_path = 'assets/images/static/'
+    for f in os.listdir(articles_images_path):
+        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
 
 ###################################################################################################################
 # articles
@@ -774,9 +779,6 @@ for item in data:
     date = item['date']
     attribute = item['attribute']
     entity = item['entity']
-
-    # # TODO: remove
-    # if 'ittica' not in attribute: continue
     
     folders = attribute.split('/')
     path = ''
@@ -1090,47 +1092,13 @@ generate_home_html(home_articles)
 generate_manual_article_html()
 copy_images()
 
-# # VIEWER
-# with open('articles/public/ozono/sanificazione/quarta-gamma/applicazioni.md') as f:
-#     article_md = f.read()
 
-# word_count = len(article_md.split(' '))
-# reading_time_html = str(word_count // 200) + ' minutes'
-# word_count_html = str(word_count) + ' words'
+shutil.copy2('contatti.html', 'public/contatti.html')
 
+shutil.copy2('style.css', 'public/style.css')
+shutil.copy2('style-blog.css', 'public/style-blog.css')
+shutil.copy2('util.css', 'public/util.css')
+shutil.copy2('img.css', 'public/img.css')
+shutil.copy2('logo.ico', 'public/logo.ico')
+shutil.copy2('CNAME', 'public/CNAME')
 
-# article_html = markdown.markdown(article_md)
-
-# article_html = article_html.replace('<img', '<img class="featured-img"')
-# article_html = article_html.replace('src="/assets/', 'src="public/assets/')
-
-
-# # GENERATE TABLE OF CONTENTS ----------------------------------------
-# article_html = generate_toc(article_html)
-
-
-# html = f'''
-#     <!DOCTYPE html>
-#     <html lang="en">
-
-#     <head>
-#         <meta charset="UTF-8">
-#         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-#         <link rel="stylesheet" href="style-blog.css">
-#         <title>Document</title>
-#     </head>
-
-#     <body>
-#         <section class="my-96">
-#             <div class="container-md">
-#                 {word_count_html} - {reading_time_html}
-#                 {article_html}
-#             </div>
-#         </section>
-#     </body>
-
-#     </html>
-# '''
-
-# with open(f'article-viewer.html', 'w') as f:
-#     f.write(html)

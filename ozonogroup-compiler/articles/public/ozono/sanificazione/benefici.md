@@ -113,3 +113,15 @@ La sanificazione ad ozono ha dimostrato di avere un impatto positivo sulla soddi
 Inoltre, le implicazioni finanziarie della sanificazione ad ozono sulla reputazione di un'impresa sono degne di nota. Uno studio che analizzava la correlazione tra metodi di sanificazione e lamentele dei clienti ha rivelato una riduzione del 40% delle lamentele per le imprese che impiegano la sanificazione ad ozono rispetto a quelle che si affidano a metodi tradizionali. Il costo del danno alla reputazione e delle potenziali conseguenze legali legate a infezioni contratte nei locali commerciali è risultato essere del 20% superiore per le imprese prive di misure di sanificazione ad ozono. Questi dati evidenziano i benefici economici tangibili della sanificazione dell'ozono nel preservare la reputazione e la stabilità finanziaria di un'impresa.
 
 In termini di competitività di mercato, le imprese che offrono servizi di sanificazione ad ozono stanno registrando un notevole aumento della quota di mercato. Un'analisi settoriale ha indicato un aumento del 15% della quota di mercato per le imprese che incorporano la sanificazione ad ozono nei loro servizi. Questa crescita è attribuita alla crescente domanda di soluzioni di sanificazione complete, con i clienti che cercano sempre più aziende che vanno oltre i metodi convenzionali. I dati supportano l'argomento secondo cui la sanificazione ad ozono non solo soddisfa le aspettative dei clienti, ma posiziona le imprese come leader sul mercato, offrendo un servizio unico e ricercato che le differenzia dalla concorrenza.
+
+## Quali sono i possibili svantaggi ed effetti collaterali della sanificazione ad ozono?
+
+La sanificazione ad ozono potrebbe presenta degli svantaggi e dei rischi se utilizzato scorrettamente. 
+
+In primo luogo, la sanificazione ad ozono non deve assolutamente essere eseguita in presenza di persone o animali. Questo gas è noto per essere un potente ossidante e può causare irritazioni agli occhi, alle vie respiratorie e alla pelle se presente ad elevate concentrazioni. Studi scientifici hanno evidenziato il legame tra l'esposizione prolungata ad alte quantità di ozono e problemi respiratori, come l'asma. 
+
+Inoltre, la sua efficacia può essere compromessa dalla presenza di materiali organici, come polvere, grasso o altre sostanze organiche, che assorbono l'ozono riducendo la sua concentrazione attiva. 
+
+L'ozono, ha una vita breve, il che significa che la sua efficacia diminuisce rapidamente nel tempo, richiedendo un costante monitoraggio e ricorso a procedure di sanificazione. L'impiego di ozono richiede attenzione alle concentrazioni utilizzate, poiché dosi elevate possono danneggiare materiali, come gomma e plastica, presenti negli ambienti da trattare. 
+
+Questi fattori sottolineano la necessità di una gestione attenta e consapevole della sanificazione ad ozono per evitare possibili effetti nocivi sulla salute e sull'ambiente.
