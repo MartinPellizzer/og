@@ -1093,6 +1093,7 @@ generate_manual_article_html()
 copy_images()
 
 
+shutil.copy2('missione.html', 'public/missione.html')
 shutil.copy2('contatti.html', 'public/contatti.html')
 
 shutil.copy2('style.css', 'public/style.css')

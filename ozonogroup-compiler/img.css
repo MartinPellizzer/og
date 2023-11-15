@@ -105,8 +105,15 @@
 
 /* HOMEPAGE -------------------------------------------------------- */
 
-.img-contacts-page {
+.img-contacts {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/ozonogroup-contatti.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 80rem;
+}
+
+.img-mission {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('assets/images/ozonogroup-missione-aziendale.jpg');
     background-size: cover;
     background-position: bottom;
     height: 80rem;
