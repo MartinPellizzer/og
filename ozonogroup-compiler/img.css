@@ -118,3 +118,17 @@
     background-position: bottom;
     height: 80rem;
 }
+
+.img-mission-technology {
+    background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), url('assets/images/ozonogroup-missione-tecnologia.jpg');
+    background-size: cover;
+    background-position: center;
+    /* height: 80rem; */
+}
+
+.img-mission-people {
+    background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), url('assets/images/ozonogroup-missione-salute.jpg');
+    background-size: cover;
+    background-position: center;
+    /* height: 80rem; */
+}
