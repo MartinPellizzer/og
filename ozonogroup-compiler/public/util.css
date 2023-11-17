@@ -534,6 +534,16 @@ h2 {
     line-height: 1;
 }
 
+
+.text-64 {
+    font-size: 6.4rem;
+}
+
+.weight-400 {
+    font-weight: 400;
+}
+
+
 .decoration-none {
     text-decoration: none;
 }

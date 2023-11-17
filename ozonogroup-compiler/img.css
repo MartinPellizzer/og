@@ -120,15 +120,22 @@
 }
 
 .img-mission-technology {
-    background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), url('assets/images/ozonogroup-missione-tecnologia.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-missione-tecnologia.jpg');
     background-size: cover;
     background-position: center;
-    /* height: 80rem; */
+    height: 40rem;
 }
 
 .img-mission-people {
-    background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), url('assets/images/ozonogroup-missione-salute.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-missione-salute.jpg');
     background-size: cover;
     background-position: center;
-    /* height: 80rem; */
+    height: 40rem;
+}
+
+.img-mission-leader {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-missione-leader.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
 }
