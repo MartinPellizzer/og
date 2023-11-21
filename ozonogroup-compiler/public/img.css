@@ -139,3 +139,10 @@
     background-position: center;
     height: 40rem;
 }
+
+.img-service-delivery {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-servizi-consegna.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
