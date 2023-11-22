@@ -140,9 +140,23 @@
     height: 40rem;
 }
 
-.img-service-delivery {
+.img-services-delivery {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-servizi-consegna.jpg');
     background-size: cover;
     background-position: center;
     height: 40rem;
+}
+
+.img-services-support {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-servizi-supporto.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 40rem;
+}
+
+.img-services {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-servizi.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80rem;
 }
