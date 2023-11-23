@@ -117,21 +117,101 @@ img {
 /* HEADER */
 /* ************************************************************ */
 header {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3.2rem 0;
 }
 
-header a {
+.logo a {
+    display: block;
     text-decoration: none;
     color: white;
 }
 
 nav {
     display: flex;
-    gap: 3.2rem;
+    align-items: center;
 }
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    z-index: 1;
+    height: 100%;
+}
+
+.menu li {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.header-section {
+    background-color: #1d4ed8;
+}
+
+.hamburger {
+    position: relative;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    border-radius: 10px;
+    z-index: 2;
+    /* display: none; */
+}
+
+.hamburger:before,
+.hamburger:after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    right: 0;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.hamburger:before {
+    top: -10px;
+    width: 30px;
+}
+
+
+.hamburger:after {
+    top: 10px;
+    width: 30px;
+}
+
+.toggle-menu {
+    position: absolute;
+    width: 30px;
+    height: 100%;
+    z-index: 3;
+    cursor: pointer;
+    opacity: 0;
+}
+
+
+.hamburger,
+.toggle-menu {
+    display: none;
+}
+
+nav input:checked~.menu {
+    right: 0;
+}
+
+/* ************************************************************ */
+/* HEADER LIGHT? */
+/* ************************************************************ */
 
 .header-light {
     display: flex;
@@ -149,7 +229,6 @@ nav {
     box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.05);
     /* box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.08); */
 }
-
 
 
 /* ************************************************************ */
@@ -353,6 +432,8 @@ svg {
 
 
 
+
+
 /* MEDIA ------------------------------------------------------------------------------ */
 @media (max-width: 996px) {
     .hero-content {
@@ -378,7 +459,7 @@ svg {
         margin-bottom: 0;
     }
 
-    .reverse {
+    .grid-2 {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -433,8 +514,27 @@ svg {
         gap: 1.6rem;
     }
 
-    header {
-        display: none;
+    .grid-2-plain {
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+    }
+
+    .menu {
+        justify-content: start;
+        flex-direction: column;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        background-color: #1d4ed8;
+        width: 300px;
+        height: 100%;
+        padding-top: 65px;
+    }
+
+    .hamburger,
+    .toggle-menu {
+        display: block;
     }
 
     .hero-main {

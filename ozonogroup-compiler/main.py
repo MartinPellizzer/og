@@ -10,8 +10,6 @@ import pathlib
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor
 
-with open("database/json/articles.json", encoding='utf-8') as f:
-    data = json.loads(f.read())
 
 
     
@@ -437,9 +435,10 @@ def img_cheasheet(item, title, lst, img_name):
     return output_path
 
 
-def generate_featured_image(attribute):
-    image_path_in = f'articles-images/public/ozono/sanificazione/{attribute}/featured.jpg'
-    image_filename_out = f'{attribute.replace("/", "-")}-featured.jpg'
+def generate_featured_image(attribute, attr_2):
+    industry_formatted = industry.replace(' ', '-')
+    image_path_in = f'articles-images/public/ozono/sanificazione/{attribute}/{industry_formatted}/featured.jpg'
+    image_filename_out = f'{attribute.replace("/", "-")}-{industry_formatted}-featured.jpg'
     image_filepath_out = f'/assets/images/{image_filename_out}'
     image_path_out = f'public/assets/images/{image_filename_out}'
     img_resize_2(image_path_in, image_path_out)
@@ -569,11 +568,12 @@ def generate_home_html(home_articles):
     with open("home.html", encoding='utf-8') as f:
         html = f.read()
 
-    # html = html.replace('<!-- insert_articles_here -->', articles_html)
+    with open('components/header.html', 'r', encoding='utf-8') as f: header = f.read()
+    html = html.replace('<!-- insert header here -->', header)
 
     with open("public/index.html", 'w', encoding='utf-8') as f:
         f.write(html)
-
+        
 
 def get_csv_table(filepath):
     lines = []
@@ -756,6 +756,8 @@ def copy_images():
     for f in os.listdir(articles_images_path):
         shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
 
+
+
 ###################################################################################################################
 # articles
 ###################################################################################################################
@@ -770,6 +772,9 @@ try: os.mkdir('public/ozono/sanificazione/')
 except: pass
 
 home_articles = []
+
+with open("database/json/articles.json", encoding='utf-8') as f:
+    data = json.loads(f.read())
 
 for item in data:
     article = ''
@@ -801,7 +806,7 @@ for item in data:
 
         # image
         try:
-            img_filepath = generate_featured_image(attribute)
+            img_filepath = generate_featured_image(attribute, industry)
             article += f'![{title}]({img_filepath} "{title}")\n\n'
         except:
             print(f'WARNING: missing image > {attribute}')
@@ -861,7 +866,7 @@ for item in data:
         title = f'Sanificazione ad Ozono nell\'industria {industry_ad}{industry.title()}'
         article += f'# Sanificazione ad ozono nell\'industria {industry_ad}{industry}: applicazioni e benefici \n\n'
 
-        img_filepath = generate_featured_image(attribute)
+        img_filepath = generate_featured_image(attribute, industry)
         article += f'![tesst]({img_filepath} "Title")\n\n'
 
         # INTRODUCTION ----------------------------------------------------------------------------------------------

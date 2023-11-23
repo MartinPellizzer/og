@@ -1,0 +1,1 @@
+- fix articles images new path

@@ -56,12 +56,6 @@ body {
     padding: 0 32px;
 }
 
-
-nav {
-    display: flex;
-    gap: 3.2rem;
-}
-
 .hero-section {
     background-color: var(--blue-600);
     height: 100vh;

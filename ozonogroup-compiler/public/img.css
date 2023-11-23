@@ -160,3 +160,24 @@
     background-position: center;
     height: 80rem;
 }
+
+.img-guide {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('assets/images/ozonogroup-guide.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80rem;
+}
+
+
+@media (max-width: 768px) {
+
+    .img-services-delivery,
+    .img-services-support,
+    .img-mission-people,
+    .img-mission-leader,
+    .img-mission-technology {
+        height: 100%;
+    }
+
+
+}

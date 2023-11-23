@@ -1,7 +1,0 @@
-## Cos'è la sanificazione ad ozono?
-
-La sanificazione ad ozono è un processo che impiega l'ozono (O3), una forma di ossigeno contenente tre atomi di ossigeno anziché due (O2), per eliminare batteri, virus, muffe e altri microrganismi presenti in ambienti o su superfici. L'ozono è un potente ossidante, il che significa che può reagire con i composti organici, distruggendoli o rendendoli inattivi. Questo processo è basato sulla capacità dell'ozono di reagire chimicamente con i costituenti cellulari dei microrganismi, danneggiandoli in modo irreversibile.
-
-La sanificazione ad ozono comporta l'uso di generatori di ozono, che producono ozono attraverso una scarica elettrica o un processo chimico. L'ozono viene diffuso nell'ambiente o sulla superficie da sanificare, dove entra in contatto con i microrganismi presenti. Durante questa interazione, l'ozono ossida le pareti cellulari dei batteri e dei virus, danneggiando anche il loro materiale genetico. Questo li rende incapaci di riprodursi e li inattiva, eliminando così il rischio di contaminazione.
-
-Va notato che l'ozono è un agente chimico molto reattivo e può essere dannoso per gli esseri umani se presente in concentrazioni elevate. Pertanto, la sanificazione ad ozono deve essere condotta da personale addestrato e seguendo le norme di sicurezza appropriate per garantire che non vi siano rischi per la salute umana.

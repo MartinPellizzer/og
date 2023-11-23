@@ -351,7 +351,7 @@
         "status": "published",
         "date": "11/10/2023",
         "entity": "ozono",
-        "attribute": "quarta-gamma/applicazioni",
+        "attribute": "applicazioni",
         "industry": "quarta gamma",
         "industry_ad": "della ",
         "applications_intro": [
@@ -571,7 +571,7 @@
         "date": "13/10/2023",
         "section": "core",
         "entity": "ozono",
-        "attribute": "lattiero-casearia/applicazioni",
+        "attribute": "applicazioni",
         "industry": "lattiero-casearia",
         "industry_ad": "",
         "applications_intro": [
@@ -731,7 +731,7 @@
         "date": "16/10/2023",
         "section": "core",
         "entity": "ozono",
-        "attribute": "lavorazione-carni/applicazioni",
+        "attribute": "applicazioni",
         "industry": "lavorazione carni",
         "industry_ad": "della ",
         "applications_intro": [
@@ -794,7 +794,7 @@
         "date": "19/10/2023",
         "section": "core",
         "entity": "ozono",
-        "attribute": "ittica/applicazioni",
+        "attribute": "applicazioni",
         "industry": "ittica",
         "industry_ad": "",
         "applications_intro": [
@@ -864,7 +864,7 @@
         "date": "20/10/2023",
         "section": "core",
         "entity": "ozono",
-        "attribute": "fungicoltura/applicazioni",
+        "attribute": "applicazioni",
         "industry": "fungicoltura",
         "industry_ad": "della ",
         "applications_intro": [
@@ -931,7 +931,7 @@
         "date": "20/10/2023",
         "section": "core",
         "entity": "ozono",
-        "attribute": "vitivinicola/applicazioni",
+        "attribute": "applicazioni",
         "industry": "vitivinicola",
         "industry_ad": "",
         "applications_intro": [
@@ -1032,7 +1032,7 @@
         "date": "",
         "section": "core",
         "entity": "ozono",
-        "attribute": "birraria/applicazioni",
+        "attribute": "applicazioni",
         "industry": "birraria",
         "industry_ad": "",
         "applications_intro": [
@@ -1136,7 +1136,7 @@
         "date": "",
         "section": "core",
         "entity": "ozono",
-        "attribute": "avicola/applicazioni",
+        "attribute": "applicazioni",
         "industry": "avicola",
         "industry_ad": "",
         "applications_intro": [
@@ -1233,7 +1233,7 @@
         "date": "",
         "section": "core",
         "entity": "ozono",
-        "attribute": "salumiera/applicazioni",
+        "attribute": "applicazioni",
         "industry": "salumiera",
         "industry_ad": "",
         "applications_intro": [
@@ -1334,7 +1334,7 @@
         "date": "",
         "section": "core",
         "entity": "ozono",
-        "attribute": "cerealicola/applicazioni",
+        "attribute": "applicazioni",
         "industry": "cerealicola",
         "industry_ad": "",
         "applications_intro": [
