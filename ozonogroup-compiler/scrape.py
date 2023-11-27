@@ -2,7 +2,7 @@ from googlesearch import search
 import requests
 from bs4 import BeautifulSoup
 
-results = search("sanificazione ozono benefici", lang='it')
+results = search("sanificazione ozono applicazioni", lang='it')
 
 # for result in results:
 #     print(result)
@@ -14,7 +14,12 @@ for i, url in enumerate(urls):
     page = requests.get(url)
 
     soup = BeautifulSoup(page.content, "html.parser")
-    title = soup.find_all("h1")
+    h1 = soup.find_all("h1")
+    h2 = soup.find_all("h2")
+    h3 = soup.find_all("h3")
+    h4 = soup.find_all("h4")
+    h5 = soup.find_all("h5")
+    h6 = soup.find_all("h6")
     paragraphs = soup.find_all("p")
 
     # print(soup.prettify())
@@ -24,7 +29,15 @@ for i, url in enumerate(urls):
     #     print()
 
     # print(soup.text)
-    print(f'{i+1}/{len(urls)}: {title}')
+    print(f'------------------------------------------')
+    print(f'{i+1}/{len(urls)}')
+    print(f'------------------------------------------')
+    for e in h1: print(e.text)
+    for e in h2: print(e.text)
+    for e in h3: print(e.text)
+    for e in h4: print(e.text)
+    for e in h5: print(e.text)
+    for e in h6: print(e.text)
 
     with open(f'scraped/scraped-{i+1}.txt', 'w', encoding='utf-8') as f:
         f.write(f'dato il seguente testo, dammi una lista completa dei benefici e vantaggi della sanificazione ad ozono:\n')
