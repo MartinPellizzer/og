@@ -169,7 +169,7 @@ La seguente immagine mostra vari settori in ci viene utilizzato l'ozono per sani
 
 ![Ozono Sanificazione Applicazioni](/assets/images/ozono-sanificazione-applicazioni.jpg "Ozono Sanificazione Applicazioni")
 
-La seguente lista elenca alcune applicazioni comuni dell'ozono e ne dà una breve descrizione.
+La seguente lista elenca alcune [applicazioni della sanificazione ad ozono](/ozono/sanificazione/applicazioni.html) e ne dà una breve descrizione.
 
 - **Sanifica la casa**: La sanificazione ad ozono elimina il 99.9% dei microrganismi presenti nell'aria e sulle superfici della casa. Applicato in lavatrice, riduce il consumo di detergenti fino al 90%, risparmiando energia. Nel frigorifero, prolunga la freschezza degli alimenti, riducendo gli sprechi del 40%. Questo è possibile con soli 20-30 minuti di applicazione.
 
