@@ -58,24 +58,50 @@ In seguito, trovi una procedura generale per l'utilizzo dell'ozono come strument
 
 Questa procedura generale può essere utilizzata per sanificare diverse aree della casa, ma va notato che l'utilizzo dell'ozono può variare in base allo specifico ambiente da trattare. 
 
-Ad esempio, l'ozono può essere utilizzato per sanificare gli ambienti elencati nella seguente lista.
+## Quali sono le applicazioni dell'ozono per il bagno?
 
-- Bagni
-- Camere
-- Cucine
-- Soggiorni
-- Cantine
+![Ozono Sanificazione Casa Bagno](/assets/images/ozono-sanificazione-casa-bagno.jpg "Ozono Sanificazione Casa Bagno")
 
-### Come usare l'ozono per igienizzare il bagno?
+L'ozono viene spesso utilizzato nei bagni delle case per trattare aria, superfici e acqua.
 
-### Come usare l'ozono per disinfettare la camera?
+Il bagno è spesso soggetto a odori sgradevoli come ammoniaca, causati dall'accumulo di batteri e germi provenienti dagli scarichi e dall'umidità. Generalmente, per eliminare l'odore di ammoniaca nell'aria, si consiglia una concentrazione di ozono compresa tra 0,1 e 0,3 parti per milione (ppm) per un'esposizione prolungata (30-45 minuti), seguita da una ventilazione adeguata per eliminare eventuali residui di ozono. Per far questo, è sufficiente un piccolo generatore di ozono portatile che produce 1 grammo di ozono per ora (1 g/h) se si vuole deodorare un bagno di piccole o medie dimensioni (inferiori a 20 m3, che sono la maggior parte dei bagni in italia).
 
-### Come usare l'ozono per deodorare la cucina?
+Oltre agli odori, l'ozono riduce la proliferazione dei microbi sulle superfici del bagno, come la vasca da bagno, il lavandino, gli specchi e gli oggetti come spazzolini da denti. Per sanificare queste superfici, è solitamente richiesta una concentrazione di 1-2 ppm di ozono, specialmente se si vogliono eliminare batteri e virus su piccoli oggetti (es. spazzolini da denti). Inoltre, la sanificazione delle pareti del bagno con l'ozono impedisce la formazione di muffe, riducendo il rischio di allergie e problemi respiratori.
 
-### Come usare l'ozono per sterilizzare il soggiorno?
+L'ozono viene utilizzato per produrre acqua ozonizzata utilizzata per l'igiene orale e per la lavatrice. Il risciacquo della bocca con acqua ozonizzata è noto per il suo effetto disinfettante, riducendo la presenza di batteri e migliorando la salute delle gengive. Infatti l'ozono contribuisce alla riduzione delle carie come dimostrato da uno studio pubblicato dal The Journal Of Contemporary Dental Practice che dice che "Applicare gas ozono alle lesioni cariose per un periodo di 10-20 secondi in vivo ha dimostrato una riduzione del numero di microrganismi presenti nelle lesioni del 99%". 
 
-### Come usare l'ozono per decontaminare la cantina?
+L'acqua ozonizzata viene anche usata nella lavatrice durante il lavaggio dei vestiti. Questo processo, non solo elimina gli odori persistenti nei capi (vestiti, calzini, biancheria), ma riduce anche il consumo di detergenti fino al 50%. Questa riduzione di detergenti si traduce in vantaggi economici a lungo termine per le famiglie e vantaggi ecologici immediati per l'ambiente. Va precisato che l'ozono in lavatrice è più utile come deodorante e disinfettante che come sgrassante e smacchiante, quindi una rimozione del 100% dei prodotti chimici non è possibile (specialmente per capi di colore chiaro molto sporchi).
 
-### Come usare l'ozono per sanificare il garage?
+## Quali sono le applicazioni dell'ozono per la camera?
 
-### Come usare l'ozono per purificare la mansarda?
+![Ozono Sanificazione Casa Camera](/assets/images/ozono-sanificazione-casa-camera.jpg "Ozono Sanificazione Casa Camera")
+
+L'ozono viene spesso utilizzato nelle camere da letto delle case per trattare aria e superfici.
+
+Questo gas riduce la presenza di odori persistenti di fumo di sigaretta, cibo, muffa, vernici, indumenti e animali domestici presenti nell'aria della camere. Per eliminare completamente questi odori persistenti, è necessario utilizzare una concentrazione di ozono tra i 0.3 e i 0.5 ppm per tempi prolungati (30-60 minuti) e per diversi giorni (o settimane), soprattutto se gli odori hanno impregnato pareti, vestiti e mobili.  
+
+L'ozono sanifica le superfici all'interno della camera, come mobili, tende, tappeti, letti e pareti, le quali possono accumulare batteri e allergeni nel tempo. Disinfetta oggetti come giocattoli, telefoni, telecomandi, laptop e altri dispositivi, i quali sono anchessi una fonte di germi e batteri, Questo avviene in modo rapido ed efficace se si utilizzano concentrazioni di ozono relativamente elevate (superiori a 1 ppm per 15-20 minuti) e la distribuzione di ozono è omogenea in tutta la stanza. 
+
+Questo agente sanificate elimina anche gli acari della polvere, che sono sono comuni nelle case e causano diversi problemi di salute, soprattutto per coloro che soffrono di allergie. Questi acari provocano sintomi come starnuti, prurito, congestione nasale, tosse, eruzioni cutanee e problemi respiratori come l'asma, quindi una sanificazione ad ozono efficace è fondamtale per aliminare questi problemi. A questo propostio, una quantità di 400 mg-min/L di ozono permette di ottenere una rimozione del 100% di acari della polvere, come dimostrato da uno studio pubblicato dal The Journal of the International Ozone Association.
+
+L'ozono elimina la muffa dalle pareti, dai tessuti e da altri materiali della camera da letto, contribuendo a prevenire problemi respiratori e allergie. Queste muffe (o funghi) possono svilupparsi con facilità nella camera da letto, soprattutto in presenza di umidità e scarsa ventilazione. 
+
+## Quali sono le applicazioni dell'ozono per la cucina?
+
+L'ozono elimina gli odori nelle cucine, come quelli derivanti dalla frittura di cibi grassi o pesce. Neutralizza anche gli odori di bruciato e sgradevoli causati dalla cottura, come aglio, cipolla e curry. È efficace nella riduzione degli odori provenienti dai cestini dell'immondizia, oltre a contrastare la presenza di muffa e umidità. Gli odori persistenti lasciati dagli animali domestici in cucina possono essere anchessi ridotti dall'ozono.
+
+![Ozono Sanificazione Casa Cucina](/assets/images/ozono-sanificazione-casa-cucina.jpg "Ozono Sanificazione Casa Cucina")
+
+Questo agente sanificante disinfetta le superfici della cucina, incluse quelle di lavoro come piani, tavoli e mensole. La sua azione sanifica le apparecchiature come frigoriferi, forni e lavastoviglie, eliminando batteri e odori residui. Tratta con efficacia lavelli e la rubinetteria, riducendo la presenza di germi. Anche gli utensili e i cestini dell'immondizia vengono igienizzati con successo. Tuttavia, è fondamentale limitare il contatto diretto tra l'ozono e gli alimenti, in quanto elevate concentrazioni di ozono possono ossidare i cibi, specialmente quelli ad alto contenuto di grassi (lipidi) facendoli diventare rancidi.
+
+L'ozono sterilizza una vasta gamma di utensili da cucina, come coltelli, taglieri, padelle e tazze. Elimina batteri e germi, assicurando la pulizia di lame, superfici di taglio e utensili da tavola. Sterilizza utensili di qualsiasi materiale, dall'acciaio inossidabile alla plastica, anche se vanno evitati i materiali facilmente ossidabili. Tratta in modo efficace frigoriferi, griglie e contenitori per alimenti, rimuovendo odori residui di cibo e patogeni.
+
+Questo gas è particolarmente utile per la disinfezione del frigo, in quanto offre numerosi vantaggi. L'ozono neutralizza odori sgradevoli e elimina muffe e batteri, preservando la freschezza degli alimenti contenuti all'interno del frigo. La sua azione antimicrobica riduce la contaminazione incrociata, mantenendo un frigo igienico per la conservazione degli alimenti. La sanificazione ad ozono non solo prolunga la vita utile degli ingredienti, ma riduce anche l'uso di detergenti chimici, rendendo il processo sanificazione del frigo ecologico.
+
+## Quali sono le applicazioni dell'ozono per il soggiorno?
+
+## Quali sono le applicazioni dell'ozono per la cantina?
+
+## Quali sono le applicazioni dell'ozono per il garage?
+
+## Quali sono le applicazioni dell'ozono per la mansarda?
