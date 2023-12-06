@@ -1,3 +1,1 @@
-- fix articles images new path
-- fix menu in articles page
 - add link sanificazione > applicazioni

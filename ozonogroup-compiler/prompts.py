@@ -474,3 +474,29 @@ Use the metric system for numbers.
 # Contaminazione da sedimenti e particelle sospese
 # Contaminazione da sostanze chimiche industriali
 # Contaminazione da microbi indesiderati
+
+
+
+
+
+dammi una lista di 30 applicazioni della sanificazione ad ozono nella soffitta della casa
+
+dammi una lista di insetti presenti nella soffitta della casa che l'ozono può sanificare
+
+scrivi un paragrafo di 100 parole utilizzando i dati forniti nella lista precedente.
+comincia il paragrafo con le seguenti parole:  Il gas O3 allontana insetti infestanti che spesso si trovano nella soffitta della casa, come 
+
+scrivimi 5 liste che riguardano la sanificazione ad ozono.
+nella lista 1, elenca 5 odori sgradevoli che si trovano nella soffitta della casa.
+nella lista 2, elenca 5 microbi che si trovano nella soffitta della casa.
+nella lista 3, elenca 5 superfici  che si trovano nella soffitta della casa.
+nella lista 4, elenca 5 oggetti  che si trovano nella soffitta della casa.
+nella lista 5, elenca 5 insetti  che si trovano nella soffitta della casa.
+non aggiungere descrizioni agli elementi delle liste.
+scrivi sempre in minuscolo (lowercase).
+
+scrivimi una tabella a 2 colonne utilizzando i dati delle precedenti liste.
+nella colonna 1, elenca: odori, microbi, superfici, oggetti, insetti.
+nella colonna 2, elenca i corrispettivi dati in un unica cella.
+il titolo della colonna 1 è: Tipologia Utilizzo 
+il titolo della colonna 2 è: Applicazioni Sanificazione
