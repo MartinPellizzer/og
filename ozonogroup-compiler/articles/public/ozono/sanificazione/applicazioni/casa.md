@@ -67,7 +67,6 @@ L'ozono viene usato anche nella lavatrice, dando benefici come l'eliminazione ef
 | Tipologia Utilizzo | Applicazioni Ozono Bagno Casa                                                                                      |
 |---------------------|---------------------------------------------------------------------------------------------------------------|
 | odori               | muffa, odore di scarico, ammoniaca, odore di urina, odore di umidità                                           |
-| microbi             | batteri fecali, Escherichia coli, funghi, Salmonella, Stafilococco                                             |
 | superfici           | lavandino, piastrelle, specchio, vasca da bagno, pavimento                                                     |
 | oggetti             | spazzolino da denti, asciugamani, spazzola per capelli, sapone, pettine                                        |
 | insetti             | zanzare, mosche, ragni, formiche, blatte                                                                       |
@@ -88,7 +87,6 @@ L'ozono allontana gli insetti nella camera della casa, come acari della polvere,
 | Tipologia Utilizzo | Applicazioni Ozono Camera Casa            |
 |-------------------|----------------------------------------|
 | odori             | muffa, fumo, cibo in decomposizione, umidità stagnante, odore di animali domestici |
-| microbi           | batteri, virus, funghi, acari della polvere, spore di muffa |
 | superfici         | pareti, pavimenti, tende, tappeti, mobili |
 | oggetti           | libri, giocattoli, coperte, lampade, specchi |
 | insetti           | mosche, zanzare, acari della polvere, ragni, cimici dei letti |
@@ -108,7 +106,6 @@ Questo gas è particolarmente utile per la disinfezione del frigo, in quanto off
 | Tipologia Utilizzo | Applicazioni Ozono Cucina Casa                                         |
 |---------------------|---------------------------------------------------------------------|
 | odori               | fumo, odore di pesce, cattivo odore proveniente dallo smaltimento dei rifiuti, odore di muffa, puzza di cibo in decomposizione |
-| microbi             | Salmonella, Escherichia coli (E. coli), Staphylococcus aureus, Listeria monocytogenes, Campylobacter |
 | superfici           | piano di lavoro, lavandino, fornelli, frigorifero, armadietti       |
 | oggetti             | piatti, posate, pentole e padelle, utensili da cucina, bicchieri    |
 | insetti             | formiche, mosche, zanzare, blatte, tarli del legno                  |
@@ -126,7 +123,6 @@ L'ozono disinfetta gli arredi dei salotti, come divani, tappeti, tende e mobili 
 | Tipologia Utilizzo | Applicazioni Ozono Soggiorno Casa |
 |---------------------|----------------------------|
 | odori               | fumo, umidità stagnante, odore di animali domestici, cibo in decomposizione, odore di muffa |
-| microbi             | batteri, virus, acari della polvere, muffe, funghi |
 | superfici           | pavimento, tappeti, pareti, mobili, finestre |
 | oggetti             | tappeti, tende, libri, telecomando, lampade |
 | insetti             | formiche, moscerini della frutta, ragni, mosche, cimici dei letti |
@@ -147,7 +143,6 @@ Il gas O3 allontana insetti infestanti che spesso si trovano nella soffitta dell
 | Tipologia Utilizzo | Applicazioni Ozono Soffitta Casa     |
 |---------------------|----------------------------------|
 | odori               | muffa, fumo, umidità stagnante, odori di animali, odori di vecchio  |
-| microbi             | batteri, virus, acari della polvere, muffe, funghi |
 | superfici           | travi in legno, pareti, pavimenti, tappeti, scatole di immagazzinamento |
 | oggetti             | vestiti, attrezzature stagionali, oggetti d'arredo, documenti conservati, strumenti da giardinaggio |
 | insetti             | acari della polvere, coleotteri dei tessuti, tarme dei vestiti, zanzare, ragni |
@@ -168,7 +163,6 @@ Questo gas sanifica veicoli e mezzi di trasporto all'interno dei garage delle ca
 | Tipologia Utilizzo | Applicazioni Ozono Garage Casa                         |
 |---------------------|----------------------------------------------------|
 | odori               | olio esausto, muffa, carburante, fumo, prodotti chimici |
-| microbi             | batteri, muffe, virus, funghi, lieviti             |
 | superfici           | pavimenti in cemento, pareti, porte del garage, attrezzi da lavoro, scaffalature metalliche |
 | oggetti             | pneumatici, utensili da giardinaggio, scatole di immagazzinamento, biciclette, attrezzature sportive |
 | insetti             | ragni, zanzare, scarafaggi, formiche, mosche       |
@@ -190,12 +184,10 @@ L'ozono allontana gli insetti presenti nelle cantine delle case, come acari, col
 | Tipologia Utilizzo | Applicazioni Ozono Cantina Casa                                        |
 |---------------------|----------------------------------------------------------------|
 | odori               | muffa, umidità stagnante, odore di umido, odore di stantio, puzza di marcio |
-| microbi             | muffe, batteri, lieviti, funghi, spore di muffa                 |
 | superfici           | pareti in cemento, pavimenti in piastrelle, scaffalature metalliche, scatole di cartone, tubi di drenaggio |
 | oggetti             | attrezzi da giardinaggio, scatole di archiviazione, vino in bottiglia, vecchi mobili, apparecchiature elettriche |
 | insetti             | zanzare, ragni, moscerini, coleotteri dei tessuti, blatte       |
 
-### Applicazioni dell'ozono per la piscina ???
 
 
 
@@ -243,7 +235,7 @@ Per eliminare la maggior parte degli odori sgradevoli nell'ambiente domestico è
 
 Per ottenere questi ppm di ozono è sufficiente utilizzare un generatore che produce 0,5-1,0 g/h di ozono per 10-15 minuti, se si considera una stanza di dimensione inferiore ai 50 m3 (dimensione standard di una stanza di una casa). Nel caso in cui la stanza sia più grande, è consigliabile utilizzare ozonizzatori di 3 g/h. Se invece disponi di un generatore di 10 g/h (come lo sono la maggior parte dei generatori che si comprano nei siti di eCommerce), puoi utilizzarlo per eliminare gli odori senza problemi, ma si consiglia di utilizzarlo per tempi più brevi, ovvero di 3-5 minuti.
 
-#### Come deodorare le scarpe con l'ozono?
+### Come deodorare le scarpe con l'ozono?
 
 Deodorare le scarpe con l'ozono è semplice, basta metterle all'intero di un ambiente chiuso di piccole dimensioni, per esempio uno sgabuzzino, e generare ozono all'interno di questo ambiente con un ozonizzatore.
 
@@ -287,35 +279,45 @@ L'uso dell'ozono per il frigo richiede generatori di ozono progettati specificat
 
 Solitamente, questi generatori per il frigo hanno la forma e la dimensione di una lattina, e vanno posizionati all'interno del frigo come se fossere un qualsiasi altro alimento. Per questo motivo, non richiedono alcun tipo di installazione e sono subito pronti all'uso.
 
-Questi ozonizzatori vengono principalmente utilizzati per eliminare gli odori all'interno del frigo, ma è provato che possono aumentare anche la durata di conservazione dei cibi con i quali entra in contatto (cibi senza imballi). Per far ciò, si consiglia di posizionare il generatore di ozono nell'utlimo scaffale in alto...
+Questi ozonizzatori vengono principalmente utilizzati per eliminare gli odori all'interno del frigo, ma è provato che possono anche aumentare la durata di conservazione dei cibi con i quali entra in contatto. Per far ciò, si consiglia di posizionare il generatore di ozono nell'utlimo scaffale in alto del frigo, in quanto l'ozono è più pesante dell'aria e tende ad andare verso il basso. Quindi, posizionandolo nella parte più alta possiblile, si riescono a sanificare tutti gli alimenti, anche quelli più difficili da raggiungere.
 
 
+## Come produrre ozono per sanificare la casa?
 
-# to remove
+Per produrre ozono da utilizzare per la sanificazione domestica è necessario utilizzare un dipsositivo chiamata "generatore di ozono" (o ozonizzatore), il quale è proggettato apposta per svolgere questa funzione.
+
+Ci sono principalmente 2 tipi di generatori di ozono, i quali sono elencati nella seguente lista.
+
+- Ozonizzatore per produrre ozono gassoso
+- Ozonizzatore per produrre ozono acquoso
+
+La maggior parte degli ozonizzatori per la casa che si trovano in commercio, specialmente in siti di ecommerce, produzono ozono gassoso per la sanificazione dell'aria. La maggior parte di questi generatori producono circa 10 g/h di ozono, che è una quantità sufficiente per risolvere la maggior parte dei problemi di contaminazione in ambiente domestico.
+
+Per quanto riguarda l'ozono acquoso, invece, non ci sono molti generatori in commercio, specialmente a basso prezzo. Mediamente, un ozonizzatore che produce una quantità di acqua ozonizzata sufficiente per eliminare problemi di contaminazione domestici può arrivare a costare anche 10 volte in più di un generatore per ozono gassoso.
+
+Va precisato che alcuni generatori di ozono gassoso a basso costo, possono produrre acqua ozonizzata tramite degli accessori esterni (per esempio diffusori in pietra porosa). Detto questo, si consiglia di produrre acqua ozonizzata con questo sistema solo in ambiente esterno, dato che la maggior parte del gas utilizzato per produrre quest'acqua non resta nell'acqua ma finisce nell'ambiente, e quindi non va respirato.
+
+## Qual'è il miglior ozonizzatore ad ozono per sanificare la casa?
+
+Ozonogroup produce dei modelli di ozonizzatori per uso professionale, i quali possono essere usati per uso domestico.
+
+Per sanificare l'ambiente e purificare l'aria, il miglior generatore di ozono è il modello "MiNi". Questo modello è presente in diverse funzioni, ognuna delle quali è dimensionata per risolvere uno specifico problema all'interno di una stanza, tenendo in considerazione il volume della stanza stessa. In questo modo si ha la garanzia di risolvere il problema senza danneggiare inutilmente le superfici e gli oggetti presenti all'interno dell'ambiente.
+
+Per sapere se questo ozonizzatore fa al caso tu o anche solo per sapere come funziona, visita la nostra pagina contatti e chiamaci (o mandaci una email).
 
 
+## Quali sono i possibili effetti collatterali della sanificazione ad ozono domestica?
 
-Il bagno è spesso soggetto a odori sgradevoli come ammoniaca, causati dall'accumulo di batteri e germi provenienti dagli scarichi e dall'umidità. Generalmente, per eliminare l'odore di ammoniaca nell'aria, si consiglia una concentrazione di ozono compresa tra 0,1 e 0,3 parti per milione (ppm) per un'esposizione prolungata (30-45 minuti), seguita da una ventilazione adeguata per eliminare eventuali residui di ozono. Per far questo, è sufficiente un piccolo generatore di ozono portatile che produce 1 grammo di ozono per ora (1 g/h) se si vuole deodorare un bagno di piccole o medie dimensioni (inferiori a 20 m3, che sono la maggior parte dei bagni in italia).
+L'ozono può avere effetti collaterali sulla salute se utilizzato in modo scorretto all'interno della casa.  L'esposizione all'ozono causare irritazione agli occhi, se presente ad elevate concentrazioni. Inoltre, causa irritazioni alla gola e alle vie respiratorie, specialmente in persone con condizioni respiratorie preesistenti come l'asma.
 
-![Ozono Sanificazione Casa Bagno](/assets/images/ozono-sanificazione-casa-bagno.jpg "Ozono Sanificazione Casa Bagno")
+Un'esposizione prolungata ad elevate concentrazioni di ozono può danneggiare i polmoni e aggravare problemi respiratori esistenti. Alcune persone potrebbero sperimentare tosse, respiro corto o difficoltà respiratorie a causa di un'esposizione eccessiva all'ozono. Per questo motivo, è fondamentale non respirare questo gas durante i trattamenti di sanificazione. Questo vale sia per le persone, che per gli animali. Inoltre, è consigliabile rimuovere anche le piante dall'ambiente durante il trattamento.
 
-Oltre agli odori, l'ozono riduce la proliferazione dei microbi sulle superfici del bagno, come la vasca da bagno, il lavandino, gli specchi e gli oggetti come spazzolini da denti. Per sanificare queste superfici, è solitamente richiesta una concentrazione di 1-2 ppm di ozono, specialmente se si vogliono eliminare batteri e virus su piccoli oggetti (es. spazzolini da denti). Inoltre, la sanificazione delle pareti del bagno con l'ozono impedisce la formazione di muffe, riducendo il rischio di allergie e problemi respiratori.
+Infine, va precisato che l'ozono potrebbe danneggiare alcuni tipi di materiali se utilizzato a concentrazioni elevate per tempi prolungati. Infatti, l'ozono accellera il naturale processo di invecchiamento dei materiali sensibili a causa del suo forte potere ossidante. I materiali più a rischio di invecchiamento precoce sono il legno (quello grezzo senza verniciatura), i metalli ossidabili (principalmente il rame) e alcuni tipi di gomme (come quelle che si usano per le guarnizioni).
 
-L'ozono viene utilizzato per produrre acqua ozonizzata utilizzata per l'igiene orale e per la lavatrice. Il risciacquo della bocca con acqua ozonizzata è noto per il suo effetto disinfettante, riducendo la presenza di batteri e migliorando la salute delle gengive. Infatti l'ozono contribuisce alla riduzione delle carie come dimostrato da uno studio pubblicato dal The Journal Of Contemporary Dental Practice che dice che "Applicare gas ozono alle lesioni cariose per un periodo di 10-20 secondi in vivo ha dimostrato una riduzione del numero di microrganismi presenti nelle lesioni del 99%". 
+## Quali sono le limitazioni della sanificazione ad ozono in casa?
 
-L'acqua ozonizzata viene anche usata nella lavatrice durante il lavaggio dei vestiti. Questo processo, non solo elimina gli odori persistenti nei capi (vestiti, calzini, biancheria), ma riduce anche il consumo di detergenti fino al 50%. Questa riduzione di detergenti si traduce in vantaggi economici a lungo termine per le famiglie e vantaggi ecologici immediati per l'ambiente. Va precisato che l'ozono in lavatrice è più utile come deodorante e disinfettante che come sgrassante e smacchiante, quindi una rimozione del 100% dei prodotti chimici non è possibile (specialmente per capi di colore chiaro molto sporchi).
+La limitazione più importante della sanificazione ad ozono in ambito domestico è il fatto che non può essere eseguita in presenza di persone o animali. Non si deve mai rimanere dentro una stanza durante il processo di sanificazione e neanche dopo che il trattamento è terminato se l'ambiente non è stato adeguatamento arieggiato.
 
+Un altra limitazione di questa tecnologia di sanificazione è il fatto che il trattamento deve essere monitorato e controllato adeguatamente. Infatti, si sconsiglia di utilizzare una concentrazione di ozono superiore ai 2 ppm dentro la casa, per evitare di danneggiare alcuni materiali sensibili che talvolta sono presenti all'interno delle abitazioni. Questo è particolarmente importante se si fanno interventi prolungati e giornalieri, come quelli necessari per la rimozione delle muffe.
 
-
-
-
-
-Questo gas riduce la presenza di odori persistenti di fumo di sigaretta, cibo, muffa, vernici, indumenti e animali domestici presenti nell'aria della camere. Per eliminare completamente questi odori persistenti, è necessario utilizzare una concentrazione di ozono tra i 0.3 e i 0.5 ppm per tempi prolungati (30-60 minuti) e per diversi giorni (o settimane), soprattutto se gli odori hanno impregnato pareti, vestiti e mobili.  
-
-![Ozono Sanificazione Casa Camera](/assets/images/ozono-sanificazione-casa-camera.jpg "Ozono Sanificazione Casa Camera")
-
-L'ozono sanifica le superfici all'interno della camera, come mobili, tende, tappeti, letti e pareti, le quali possono accumulare batteri e allergeni nel tempo. Disinfetta oggetti come giocattoli, telefoni, telecomandi, laptop e altri dispositivi, i quali sono anchessi una fonte di germi e batteri, Questo avviene in modo rapido ed efficace se si utilizzano concentrazioni di ozono relativamente elevate (superiori a 1 ppm per 15-20 minuti) e la distribuzione di ozono è omogenea in tutta la stanza. 
-
-Questo agente sanificate elimina anche gli acari della polvere, che sono sono comuni nelle case e causano diversi problemi di salute, soprattutto per coloro che soffrono di allergie. Questi acari provocano sintomi come starnuti, prurito, congestione nasale, tosse, eruzioni cutanee e problemi respiratori come l'asma, quindi una sanificazione ad ozono efficace è fondamtale per aliminare questi problemi. A questo propostio, una quantità di 400 mg-min/L di ozono permette di ottenere una rimozione del 100% di acari della polvere, come dimostrato da uno studio pubblicato dal The Journal of the International Ozone Association.
-
-L'ozono elimina la muffa dalle pareti, dai tessuti e da altri materiali della camera da letto, contribuendo a prevenire problemi respiratori e allergie. Queste muffe (o funghi) possono svilupparsi con facilità nella camera da letto, soprattutto in presenza di umidità e scarsa ventilazione. 
+In termini di concentrazioni di ozono, il Ministero Della Salute Italiana sconsiglia di repirare quantità di ozono superiori ai 0,06 ppm, specialmente se si è esposti a questa concentrazione tutti i giorni (come potrebbe accadere in ambito domestico). Per semplificare, se senti un forte odore di ozono (a livello olfattivo), devi uscire dalla stanza. Questa regola generale è valida in quanto il valore di 0,06 ppm è indica proprio la concentrazione necessaria perchè un naso di una persona "comune" senta l'odore di ozono.
