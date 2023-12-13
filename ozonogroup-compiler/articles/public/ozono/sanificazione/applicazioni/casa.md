@@ -1,6 +1,14 @@
 # Sanificazione ad ozono per la casa: cos'è, a cosa serve e come farla
 
-![Ozono Sanificazione Casa Anteprima](/assets/images/ozono-sanificazione-casa-anteprima.jpg "Ozono Sanificazione Casa Anteprima")
+![Ozono Sanificazione Casa Introduzione](/assets/images/ozono-sanificazione-casa-introduzione.jpg "Ozono Sanificazione Casa Inteprima")
+
+La sanificazione ad ozono domestica è un metodo che impiega il gas ozono (O3) per eliminare batteri, virus, muffe e altri agenti patogeni dalla casa. Questo è possibile grazie all'uso di generatori di ozono (ozonizzatori) che producono quantità controllate di questo gas per pulire e disinfettare gli spazi chiusi.
+
+Il trattamento di sanificazione con l'ozono è utile quando si vuole ottenere una disinfezione approfondita, ad esempio per eliminare allergeni, odori sgradevoli, contaminazioni batteriche o virali. Questo contribuisce così a migliorare la qualità dell'aria interna e a ridurre il rischio di malattie trasmissibili nell'ambiente domestico.
+
+L'O3 è utilizzato per sanificare tutti gli ambienti domestici, come bagni, camere, cucine, soggiorni, soffitte, garage e cantine. Inoltre, viene sempre più usato negli elettrodomestici, come per disinfettare i vestiti durante il loro lavaggio nella lavatrice e per deodorare il frigo da odori sgradevoli e persistenti di cibo.
+
+In questo articolo vediamo nel dettaglio cos'è la sanificazione ad ozono per la casa, come funziona, quali sono le sue applicazioni e benefici, quali tipologie di ozonizzatori vengono usati e quali sono le precauzioni da prendere per ottenere una sanificazione efficace e sicura.
 
 ## Cosa è la sanificazione ad ozono domestica?
 
@@ -15,6 +23,8 @@ Ad esempio, nelle camere da letto, l'ozono può essere utilizzato per eliminare 
 ## Come riesce l'ozono ad eliminare microbi e odori nella casa?
 
 L'ozono riesce ad eliminare microbi e odori nella casa in quanto è una molecola composta da tre atomi di ossigeno (O3) che possiede un forte potere ossidanti (+2.07 V). Quando l'ozono entra in contatto con batteri, virus, muffe o altri microrganismi che si trovano in casa, penetra nelle loreo membrane cellulari e ossida i lipidi presenti nella struttura cellulare. Questo danneggia irreparabilmente le membrane, compromettendo le funzioni vitali dei microrganismi e causandone la morte o l'inattivazione.
+
+![Ozono Sanificazione Casa Funzionamento](/assets/images/ozono-sanificazione-casa-funzionamento.jpg "Ozono Sanificazione Casa Funzionamento")
 
 Inoltre, l'ozono interferisce con le strutture proteiche essenziali per la riproduzione dei microbi. Questo processo riduce significativamente la loro capacità di moltiplicarsi e sopravvivere nell'ambiente domestico, contribuendo alla loro eliminazione.
 
@@ -239,6 +249,8 @@ Per ottenere questi ppm di ozono è sufficiente utilizzare un generatore che pro
 
 Deodorare le scarpe con l'ozono è semplice, basta metterle all'intero di un ambiente chiuso di piccole dimensioni, per esempio uno sgabuzzino, e generare ozono all'interno di questo ambiente con un ozonizzatore.
 
+![Ozono Sanificazione Casa Scarpe](/assets/images/ozono-sanificazione-casa-scarpe.jpg "Ozono Sanificazione Casa Scarpe")
+
 Per eliminare gli odori dalle scarpe in modo efficace, si consiglia di posizionare le scape in posizione verticale con la suola appoggiata contro il muro (o altra superfice) e di posizionare il generatore a 40-50 cm di distanza dalle scarpe stesse. Inoltre, generatore deve essere orientato in modo tale da "soffiare" l'ozono in direzione delle scarpe. Questo permette all'ozono di penetrare meglio nella suola interna e nelle altre parti delle scarpe, garantendo una deodorizzazione più efficiente.
 
 Dato che si sta generando ozono in un ambiente piccolo (sgabuzzino), è consigliabile utilizzare un generatore di piccole dimensioni (< 3 g/h) e per tempi ridotti (3-5 minuti), soprattutto se le scarpe sono in pelle di alta qualità, così da evitare un ossidazione eccessiva e un degrado prematuro del materiale.
@@ -261,6 +273,8 @@ Per eliminare la muffa domestica è necessario utilizzare circa 2 ppm di ozono p
 
 L'ozono allontana (o elimina) insetti e parassiti della casa, come acari della polvere, cimici dei letti, mosche, blatte e formiche. Per far questo, sono solitamente necessarie concentrazioni di ozono tra 1,5 e 2 ppm, anche se queste concentrazioni possono variare notevolmente in base al tipo di insetto.
 
+![Ozono Sanificazione Casa Insetti](/assets/images/ozono-sanificazione-casa-insetti.jpg "Ozono Sanificazione Casa Insetti")
+
 Per allontanare questi insetti dalla una stanza di piccole o medie dimensioni, è consigliabile utilizzare un generatore di ozono di 10 g/h per circa 30 minuti. Una volta che l'area è satura di ozono, gli insetti cercheranno di scappare dalle fessure, oppure cercheranno di raggiungere zone dove la concentrazione di ozono tende ad essere inferione (come il soffitto).
 
 Se gli insetti non trovano vie di fuga valide e restano confinati all'interno dell'ambiente, possono anche morire. Cercare di ucciderli però è un'opzione sconsigliabile dato che sono solitamente necessarie elevate concentrazioni di ozono ed elevati tempi di esposizione per farlo.
@@ -269,6 +283,8 @@ Se gli insetti non trovano vie di fuga valide e restano confinati all'interno de
 
 Per utilizzare l'ozono per la lavatrice è necessario utilizzare un generatore ad ozono progettato appositamente per questo utilizzo, e non il tipico ozonizzatore che si usa per sanificare l'ambiente.
 
+![Ozono Sanificazione Casa Lavatrice](/assets/images/ozono-sanificazione-casa-lavatrice.jpg "Ozono Sanificazione Casa Lavatrice")
+
 L'ozonizzatore va posizionato vicono alla lavatrice e va installato in rete (tubature) per fare in modo che l'acqua passi attraverso di lui prima che entri nella lavatrice, così da convertirla in "acqua ozonizzata". Si consiglia di rivolgersi ad un idraulico o di chiedere informazioni ai tecnici all'azienda produttrice del generatore di ozono per l'installazione. 
 
 Tale acqua ozonizzata ha la funzione di disinfettare e deodorare i capi di abbigliamento durante il lavaggio, anche se il lavaggio è fatto con acqua fredda. Questo trattamento è in grado anche di ridurre le macchie nei vestiti, ma non ha la stessa azione detegrente dei prodotti chimici. Di conseguenza, è necessario utilizzare del detersivo assieme all'ozono per ottenere uno smacchiamento e sgrassamento totale, anche se l'ozono ti permette di ridurre del 50% l'uso di detersivi chimici.
@@ -276,6 +292,8 @@ Tale acqua ozonizzata ha la funzione di disinfettare e deodorare i capi di abbig
 ### Come usare l'ozono per il frigo?
 
 L'uso dell'ozono per il frigo richiede generatori di ozono progettati specificatamente per questa appliazione. Questi generatori sono di piccole dimensioni, funzionano a batteria, sono resistenti alle basse temperature, sopportano alti livelli di umidità e producono una piccola quantità di ozono.
+
+![Ozono Sanificazione Casa Frigorifero](/assets/images/ozono-sanificazione-casa-frigorifero.jpg "Ozono Sanificazione Casa Frigorifero")
 
 Solitamente, questi generatori per il frigo hanno la forma e la dimensione di una lattina, e vanno posizionati all'interno del frigo come se fossere un qualsiasi altro alimento. Per questo motivo, non richiedono alcun tipo di installazione e sono subito pronti all'uso.
 
@@ -297,7 +315,7 @@ Per quanto riguarda l'ozono acquoso, invece, non ci sono molti generatori in com
 
 Va precisato che alcuni generatori di ozono gassoso a basso costo, possono produrre acqua ozonizzata tramite degli accessori esterni (per esempio diffusori in pietra porosa). Detto questo, si consiglia di produrre acqua ozonizzata con questo sistema solo in ambiente esterno, dato che la maggior parte del gas utilizzato per produrre quest'acqua non resta nell'acqua ma finisce nell'ambiente, e quindi non va respirato.
 
-## Qual'è il miglior ozonizzatore ad ozono per sanificare la casa?
+## Qual'è il miglior ozonizzatore per sanificare la casa?
 
 Ozonogroup produce dei modelli di ozonizzatori per uso professionale, i quali possono essere usati per uso domestico.
 

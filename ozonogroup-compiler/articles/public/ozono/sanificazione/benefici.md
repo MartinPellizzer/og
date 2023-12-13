@@ -4,7 +4,7 @@ publishing_date: 13/11/2023
 
 # 10 Benefici della Sanificazione ad Ozono: Patogeni, Ambiente e Persone
 
-![Ozono Sanificazione Benefici](/assets/images/ozono-sanificazione-benefici.jpg "Ozono Sanificazione Benefici")
+![Ozono Sanificazione Benefici Introduzione](/assets/images/ozono-sanificazione-benefici-introduzione.jpg "Ozono Sanificazione Benefici Introduzione")
 
 La sanificazione con ozono è un efficace metodo per eliminare microrganismi patogeni, come batteri e virus (danneggiando le loro pareti cellulari), con tassi di inattivazione fino al 99,9%. Inoltre, neutralizza odori indesiderati e agisce come repellente per insetti, raggiungendo aree di difficile accesso.
 

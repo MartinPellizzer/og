@@ -4,7 +4,7 @@ publishing_date: 06/11/2023
 
 # Sanificazione ad Ozono: Cos'è, Vantaggi e Applicazioni
 
-![Ozono Sanificazione](/assets/images/ozono-sanificazione.jpg "Ozono Sanificazione")
+![Ozono Sanificazione Introduzione](/assets/images/ozono-sanificazione-introduzione.jpg "Ozono Sanificazione Introduzione")
 
 L'ozono (O3) è un potente agente sanificante che può essere utilizzato per la disinfezione e la purificazione dell'aria, delle superfici, e dell'acqua. Infatti, è noto per le sue proprietà antimicrobiche, fungicide e battericide.
 

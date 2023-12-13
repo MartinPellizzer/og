@@ -16,7 +16,7 @@ Infine, nell'industria automobilistica, l'ozono è utilizzato per sterilizzare g
 
 ## Case
 
-La sanificazione ad ozono nelle case sterilizza stanze come cucina, camera da letto e bagno, eliminando odori, batteri e virus nell'aria e sulle superfici. L'ozono pulisce l'aria, penetra in piccoli spazi, come nel frigo, eliminando odori e batteri, e può essere usato nella lavatrice per igienizzare tessuti. Questo metodo, sicuro ed ecologico, non richiede prodotti chimici e riduce l'uso di detergenti. Benefici includono una pulizia più profonda, eliminazione di microrganismi e odori, mantenendo un ambiente domestico più sano e fresco.
+La [sanificazione ad ozono nelle case](/ozono/sanificazione/applicazioni/casa.html) sterilizza stanze come cucina, camera da letto e bagno, eliminando odori, batteri e virus nell'aria e sulle superfici. L'ozono pulisce l'aria, penetra in piccoli spazi, come nel frigo, eliminando odori e batteri, e può essere usato nella lavatrice per igienizzare tessuti. Questo metodo, sicuro ed ecologico, non richiede prodotti chimici e riduce l'uso di detergenti. Benefici includono una pulizia più profonda, eliminazione di microrganismi e odori, mantenendo un ambiente domestico più sano e fresco.
 
 ## Automobili
 
