@@ -125,9 +125,77 @@ APPLICAZIONI:
    - Non c'erano differenze nel gusto tra tutti i trattamenti delle uova per quanto riguarda aroma, sapore, consistenza e gradimento complessivo.
    - Le uova ozonizzate mantengono lo stesso richiamo delle uova crude e possono essere cucinate senza perdita di sapore.
 
-    
+   13. 
+   - c'è bisogno di trattamenti di sanificazione delle uova che siano veloci, economici ed efficaci
+   - uova gusciate contaminate esternamente con Salmonella (8,0 × 105 a 4,0 × 106 CFU/g di guscio d'uovo)
+   - sono state trattate con ozono gassoso (O3) da 0 a 15 lb/in2 di pressione per 0-20 minuti
+   - trattare le uova gusciate con ozono o UV, separatamente o in combinazione, ha ridotto significativamente (P < 0,05) la presenza di Salmonella
+   - le uova contaminate trattate con ozono a 4-8°C e 15 lb/in2 di pressione per 10 minuti o con UV (da 1.500 a 2.500 μW/cm2) a 22-25°C per 5 minuti hanno prodotto riduzioni microbiche di 5,9 o 4,3 log o più, rispettivamente
+   - Le combinazioni che includono UV seguito dal trattamento con ozono hanno portato a un'inarrestabile inattivazione della Salmonella di almeno 4,6 log in circa 2 minuti di tempo totale di trattamento.
+   - La Salmonella è stata efficacemente inattivata sulle uova gusciate in poco tempo e a basse temperature utilizzando una combinazione di radiazioni UV e ozono.
 
 
+
+# 14 ---------------------------------------------------------------
+
+Cited by 27
+content: full
+https://www.sciencedirect.com/science/article/pii/S1056617120300167
+
+La Salmonella è la seconda causa principale di malattie alimentari nella produzione avicola. È una delle zoonosi più problematiche in termini di sanità pubblica a livello mondiale a causa della difficoltà nel controllarla e dei suoi significativi tassi di morbilità e mortalità. Recenti rilevamenti hanno dimostrato che piccoli gruppi di galline ovaiole presentano una prevalenza uguale o maggiore di salmonellosi rispetto a gruppi più grandi, principalmente a causa della mancanza di azioni di controllo, come il controllo di topi e animali selvatici, dei dipendenti e delle cattive pratiche gestionali. A tal proposito, diversi metodi fisici e chimici si sono dimostrati efficaci nel ridurre la contaminazione esterna e/o interna da Salmonella. Questa ricerca ha valutato l'effetto dell'ozono e dei raggi UV-C sulla crescita della Salmonella e sulla qualità delle uova di gallina. È stata condotta un'analisi microbiologica su 120 uova: controllo negativo (C2), uova non contaminate da Salmonella; controllo positivo (C1), uova contaminate; uova contaminate trattate con ozono (O, 600 mg/h per 2 ore); e uova irradiate con raggi UV-C contaminate (λ, 254 nm per 15 secondi). Inoltre, sono state utilizzate 30 uova (10/gruppo) per valutare la qualità dei gruppi C, O e UV-C. Si è riscontrata una riduzione del 2 log10CFU/g di Salmonella nelle uova contaminate nel gruppo UV-C rispetto ai gruppi C1 e O. Rispetto al trattamento UV-C, l'ozonizzazione ha ridotto di 2 volte la quantità di tocoli e carotenoidi nel tuorlo. Lo stato ossidativo dei lipidi è diminuito (21,5 volte), così come il livello di colesterolo (228,5%), mentre la quantità di colesterolo e i suoi prodotti ossidati sono aumentati (182,1%) nel gruppo O rispetto al gruppo C. L'irradiazione UV-C è una strategia efficace per ridurre la contaminazione da Salmonella nelle uova senza influire negativamente sulla qualità. Pertanto, i trattamenti UV rimangono tra le procedure più promettenti.
+
+
+The use of nonthermal decontamination
+methods, including ozonization and UV-C, has
+been extensively considered over the last few
+years [45]. In fact, the adverse effects of high
+temperature on some components of food (fatty
+acids, vitamins, cholesterol) are widely known
+[46].
+
+. After UV-C irradiation of
+the experimentally Salmonella-contaminated
+eggs, the Salmonella count was significantly
+decreased (P , 0.05) compared with that of the
+positive control and ozone groups (T1, 2.32 vs.
+5.57 and 4.79 log CFU/egg, respectively).
+
+ Six
+hours after treatment (T6), the Salmonella count
+decreased in all groups, mainly due to the loss
+of growth substrates on the egg surfaces (lack of feces), 
+but the level was below the limit of
+quantification (LOQ = 1.95 log CFU/mL) in the
+UV-C group.
+
+After 24 h of treatment, the Salmonella count was also below the limit of
+quantification in the O group.
+
+ Pasquali et al. [47] found that the total colony count of UVtreated eggs was approximately 1 log10 CFU/g
+lower than that of untreated eggs (2.27 vs. 3.29
+log10 CFU/g, respectively).
+
+
+# 13 ---------------------------------------------------------------
+
+Cited by 146
+content: full
+https://www.sciencedirect.com/science/article/pii/S0362028X2200984X
+
+
+La presenza di Salmonella enterica serovar Enteritidis nelle uova gusciate ha serie implicazioni sulla salute pubblica. Diversi trattamenti sono stati sviluppati per controllare la Salmonella sulle uova con risultati misti. Attualmente, c'è bisogno di trattamenti di sanificazione delle uova che siano veloci, economici ed efficaci. In questo studio, le uova gusciate contaminate esternamente con Salmonella (8,0 × 105 a 4,0 × 106 CFU/g di guscio d'uovo) sono state trattate con ozono gassoso (O3) da 0 a 15 lb/in2 di pressione per 0-20 minuti. In altri esperimenti, le uova gusciate contaminate sono state esposte a radiazioni UV da 100 a 2.500 μW/cm2 per 0-5 minuti. La combinazione di trattamento ha incluso l'esposizione di uova contaminate a UV (da 1.500 a 2.500 μW/cm2) per 1 minuto, seguita da ozono a 5 lb/in2 di pressione per 1 minuto. Uova che erano (i) non contaminate e non trattate, (ii) contaminate e non trattate, e (iii) contaminate e trattate con aria sono state usate come controlli. I risultati hanno indicato che trattare le uova gusciate con ozono o UV, separatamente o in combinazione, ha ridotto significativamente (P < 0,05) la presenza di Salmonella sulle uova gusciate. Ad esempio, le uova contaminate trattate con ozono a 4-8°C e 15 lb/in2 di pressione per 10 minuti o con UV (da 1.500 a 2.500 μW/cm2) a 22-25°C per 5 minuti hanno prodotto riduzioni microbiche di 5,9 o 4,3 log o più, rispettivamente, rispetto ai controlli contaminati non trattati. Le combinazioni che includono UV seguito dal trattamento con ozono hanno portato a un'inarrestabile inattivazione della Salmonella di almeno 4,6 log in circa 2 minuti di tempo totale di trattamento. La Salmonella è stata efficacemente inattivata sulle uova gusciate in poco tempo e a basse temperature utilizzando una combinazione di radiazioni UV e ozono.
+
+marketing:
+
+It is estimated that, in the United States, Salmonella transmission through contaminated shell eggs or egg products results in 700,000 cases of salmonellosis and costs $1.1 billion annually
+
+decontamination procedures include treatments with boiling water (13), chlorine and iodine (19), hydrogen peroxide (26), pulsed light (10), gas plasma (8), and electrolyzed oxidative water (27)
+
+there is a need for efficient low-temperature treatments that inactivate large populations of Salmonella Enteritidis on shell eggs without affecting the quality of the product
+
+The generator produced 12 to 14% ozone in oxygen (wt/wt, O3/O2 mix) at a gas mix flow rate of 1.45 liters/min.
+
+Results of this study suggest that shell eggs externally contaminated with Salmonella Enteritidis could be effectively sanitized with gaseous ozone under mild pressure, UV radiation, and their combination. Furthermore, elimination of microorganisms could be achieved at low temperature, in a short period of time, and under relatively dry conditions. Therefore, use of combined treatments including UV radiation and ozone to eliminate Salmonella Enteritidis on shell eggs should be considered for possible applications in the egg industry. In addition, further studies must be considered to determine the effect of these treatments on egg quality.
 
 # 12 ---------------------------------------------------------------
 
