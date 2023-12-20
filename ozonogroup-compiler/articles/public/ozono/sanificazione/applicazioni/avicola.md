@@ -1,3 +1,65 @@
+
+# Sanificazione ad ozono nell'industria avicola: Cosa è, benefici e utilizzi
+
+
+## Cos'è la sanificazione ad ozono avicola e a cosa serve?
+
+La sanificazione ad ozono nel settore avicole è un trattamento utilizzato per disinfettare gli ambienti in cui vengono allevati gli uccelli. Questo trattamento serve principalmente a eliminare batteri, virus e altri organismi patogeni per gli uccelli, nonchè a proteggere la salute delle persone (consumatori) che si nutrono della carne e delle uova di questi uccelli. 
+
+La seguente lista elenca diversi tipi di uccelli allevati nell'industria agricolo che traggono beneficio dal trattamento di sanificazione con l'O3.
+
+- Polli da carne (Broiler): Uccelli allevati specificamente per la produzione di carne.
+- Polli da uova (Strato): Razze selezionate per la produzione di uova.
+- Tacchini: Solitamente allevati per la loro carne, sono anche una fonte di uova.
+- Anatre: Alcune razze di anatre vengono allevate per la produzione di carne e uova, mentre altre sono allevate per le loro piume.
+- Oche: Allevate per la loro carne, uova e piume.
+- Faraone: Uccelli da cortile simili a quaglie o galline, spesso allevati per la loro carne.
+- Quaglie: Solitamente allevate per le uova e la carne.
+- Faiole: Allevate principalmente per le uova.
+- Pernici: Allevate sia per la produzione di uova che per la carne.
+- Colombi: A volte allevati per la carne, ma anche come animali da compagnia o per gare di volo.
+- Fagiani: Allevati per la carne, le piume e come uccelli ornamentali.
+- Aironi: Allevati per le loro piume e per la pesca sportiva.
+- Struzzi: Solitamente allevati per la loro carne, pelle e piume.
+- Emù: Allevati principalmente per la carne e l'olio derivato dal grasso.
+- Pavoni: Allevati per le loro piume, bellezza ornamentale e, in alcuni casi, per la carne.
+
+## Come riesce l'ozono ad eliminare i patogeni presenti nel settore avicolo?
+
+L'ozono elimina i patogeni presenti nel settore avicolo grazie al suo forte potere ossidante (+2,07V), il quale gli permette di eliminare i microrganismi dannosi. Questo accade in quanto il la molecola di O3 reagisce e ossida le pareti cellulari di questi patogeni, distruggendo la loro struttura molecolare e rendendoli innocui (o addirittura uccidendoli). 
+
+## Quali problemi risolve la sanificazione ad ozono nel settore avicolo?
+
+# TODO: 60 parole intro per featured snippet
+La sanificazione ad ozono risolve problemi di batteri, virus e parassiti nel settore avicolo.
+
+A seguire, trovi una lista dei problemi più comuni e dannosi che l'ozono risolve e una loro breve descrizione.
+
+- Batteri patogeni: Elimina batteri dannosi come Salmonella, E. coli, Campylobacter e altri patogeni presenti nell'ambiente avicolo.
+- Virus: Riduce la presenza di virus come il virus dell'influenza aviaria o altri agenti virali nocivi che infettano il bestiame avicolo.
+- Muffe e funghi: Combatte muffe, funghi e spore presenti negli ambienti avicoli, contribuendo a mantenere un ambiente più salubre per gli animali.
+- Parassiti e acari: Contribuisce a ridurre la presenza di parassiti come acari rossi e altri organismi nocivi che infestano gli allevamenti avicoli.
+- Odori sgradevoli: Neutralizza e riduce gli odori sgradevoli derivanti da deiezioni, lettiere e altre fonti di accumulo di rifiuti presenti nell'ambiente avicolo.
+- Contaminanti dell'aria e superfici: Riduce la presenza di inquinanti atmosferici e contaminanti presenti sulle superfici, contribuendo così a migliorare la qualità dell'aria e a ridurre il rischio di contaminazione incrociata.
+- Riduzione dei residui chimici: Riduce la presenza di residui chimici o pesticidi presenti nell'ambiente, se utilizzato correttamente come parte di un programma di sanificazione completo.
+
+La seguente tabella da un elenco più dettagliato dei specifci patogeni, odori e altri tipi di contaminanti che l'ozono elimina in ambiente avicolo.
+
+| Categoria         | Problemi                                                                                  |
+|-------------------|-------------------------------------------------------------------------------------------|
+| Batteri           | Salmonella, Escherichia coli (E. coli), Campylobacter, Listeria, Clostridium difficile    |
+| Virus             | Influenza aviaria (virus dell'influenza aviaria), Virus della bronchite infettiva aviare (IBV), Virus di Newcastle, Adenovirus aviari    |
+| Muffe             | Aspergillus, Penicillium, Rhizopus, Alternaria                                              |
+| Parassiti         | Acari rossi (Dermanyssus gallinae), Acari delle piume (Knemidocoptes spp.), Cimici, Pidocchi |
+| Odori sgradevoli  | Ammine, Solfuri, Composti organici volatili (COV)                                           |
+| Residui chimici   | Pesticidi, Disinfettanti, Antibiotici, Metalli pesanti                                       |
+
+# TODO
+## Quali sono i benefici della sanificazione ad ozono negli allevamenti avicoli?
+
+
+
+
 # 5 Applicazioni dell'Ozono nell'Industria Avicola 
 
 ![5 Applicazioni dell'Ozono nell'Industria Avicola](/assets/images/avicola-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Avicola")
