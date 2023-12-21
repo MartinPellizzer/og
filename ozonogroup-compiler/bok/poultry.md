@@ -1,66 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-Distruzione di odori e composti organici: L'ozono è in grado di rompere le molecole organiche responsabili degli odori sgradevoli. Nell'industria avicola, dove l'odore può essere un problema a causa delle deiezioni degli uccelli, l'ozono può aiutare a eliminare questi odori.
-
-Riduzione del carico microbico: L'ozono può essere utilizzato per trattare l'acqua potabile o per la sanificazione dell'aria e delle superfici all'interno degli impianti avicoli. Può essere impiegato nei sistemi di disinfezione dell'acqua per eliminare batteri, virus e altri microrganismi presenti nell'acqua destinata al consumo degli uccelli.
-
-Sterilizzazione dell'ambiente: Nei sistemi di ventilazione, l'ozono può essere utilizzato per purificare l'aria, riducendo la presenza di agenti patogeni nell'ambiente in cui gli uccelli vivono.
-
-La sanificazione ad ozono nell'ambito avicolo è un metodo utilizzato per disinfettare e pulire gli ambienti in cui vengono allevati gli uccelli, come polli, tacchini o altre specie avicole. L'ozono è un gas composto da molecole di ossigeno (O3) che viene utilizzato come agente disinfettante in vari settori, compreso quello avicolo, per la sua capacità di distruggere batteri, virus, muffe, funghi e altri agenti patogeni.
-
-La sanificazione ad ozono avicola coinvolge l'utilizzo di generatori di ozono che producono questo gas in quantità controllate e lo diffondono negli ambienti da trattare. Una volta rilasciato, l'ozono interagisce con gli agenti patogeni presenti nell'aria e sulle superfici, distruggendoli attraverso un processo chiamato ossidazione. Questo aiuta a ridurre il rischio di malattie e a creare un ambiente più salubre per gli uccelli allevati.
-
-La sanificazione ad ozono può essere utilizzata in diversi contesti avicoli, come allevamenti, strutture di trasporto, incubatrici e magazzini di stoccaggio del mangime, per ridurre la presenza di agenti patogeni e migliorare le condizioni igieniche complessive, contribuendo così alla salute e al benessere degli uccelli.
-
-Tuttavia, è importante utilizzare l'ozono con cautela e secondo le indicazioni specifiche, poiché concentrazioni eccessive di ozono possono essere dannose per gli esseri viventi, inclusi gli uccelli stessi e gli operatori che gestiscono il processo di sanificazione.
-
-
-
-La sanificazione avicola è un insieme di pratiche e misure adottate per prevenire la diffusione di malattie e mantenere condizioni igieniche ottimali negli allevamenti di uccelli, come polli, tacchini, anatre, oche e altre specie avicole. Queste pratiche sono fondamentali per garantire la salute degli uccelli e prevenire la diffusione di malattie infettive che possono causare gravi perdite economiche e impatti sulla salute pubblica.
-
-La sanificazione avicola comprende diverse azioni, tra cui:
-
-Pulizia: Rimozione di lettiere vecchie, escrementi, residui di cibo e altre sostanze dalle strutture dell'allevamento.
-
-Disinfezione: Utilizzo di agenti chimici o termici per eliminare batteri, virus, funghi e parassiti presenti nell'ambiente dell'allevamento.
-
-Controllo dei parassiti: Adozione di misure per prevenire e combattere l'infestazione da parassiti come acari, pidocchi e zecche che possono danneggiare la salute degli uccelli.
-
-Controllo dei movimenti e delle persone: Limitazione degli accessi alle strutture avicole per ridurre il rischio di introduzione di agenti patogeni da parte di persone, veicoli o altri animali.
-
-Programmi veterinari e protocolli di biosicurezza: Adozione di pratiche e protocolli veterinari che includono la vaccinazione, la sorveglianza sanitaria e l'applicazione di misure di biosicurezza per prevenire la diffusione di malattie.
-
-La sanificazione avicola è cruciale per evitare la diffusione di malattie come l'influenza aviaria, la salmonellosi, la malattia di Newcastle e altre infezioni che possono colpire gli uccelli allevati, compromettendo la salute degli animali stessi e, in alcuni casi, rappresentando un rischio per la salute umana attraverso il contagio tramite alimenti o contatto diretto.
-
-In sintesi, la sanificazione avicola serve a preservare la salute degli uccelli da allevamento, garantendo la produzione sicura di carne, uova e altri prodotti avicoli per il consumo umano, oltre a prevenire la diffusione di malattie che potrebbero avere implicazioni negative sulla salute pubblica e sull'economia.
-
-
-
-
-La sanificazione ad ozono nell'ambito avicolo è un metodo utilizzato per disinfettare e pulire gli ambienti in cui vengono allevati gli uccelli, come polli, tacchini o altre specie avicole. L'ozono è un gas composto da molecole di ossigeno (O3) che viene utilizzato come agente disinfettante in vari settori, compreso quello avicolo, per la sua capacità di distruggere batteri, virus, muffe, funghi e altri agenti patogeni.
-
-La sanificazione ad ozono avicola coinvolge l'utilizzo di generatori di ozono che producono questo gas in quantità controllate e lo diffondono negli ambienti da trattare. Una volta rilasciato, l'ozono interagisce con gli agenti patogeni presenti nell'aria e sulle superfici, distruggendoli attraverso un processo chiamato ossidazione. Questo aiuta a ridurre il rischio di malattie e a creare un ambiente più salubre per gli uccelli allevati.
-
-La sanificazione ad ozono può essere utilizzata in diversi contesti avicoli, come allevamenti, strutture di trasporto, incubatrici e magazzini di stoccaggio del mangime, per ridurre la presenza di agenti patogeni e migliorare le condizioni igieniche complessive, contribuendo così alla salute e al benessere degli uccelli.
-
-Tuttavia, è importante utilizzare l'ozono con cautela e secondo le indicazioni specifiche, poiché concentrazioni eccessive di ozono possono essere dannose per gli esseri viventi, inclusi gli uccelli stessi e gli operatori che gestiscono il processo di sanificazione.
-
-
-
-
-
-
-
-
 PERCHE IMPORTA:
 
 - dati grandezza mercato
@@ -107,136 +44,19 @@ EGGS:
 
 L’ozono svolge anche un ruolo importante nel prolungare la durata di conservazione delle uova e nel ridurre il disagio microbiologico. Quando le uova perdono umidità a causa del loro guscio traspirante, si restringono e necessitano di circa il 90% di umidità nelle aree immagazzinate. Come è noto, il 90% dell'umidità favorisce la proliferazione dei batteri e la formazione di muffe. Con elevata umidità, la crescita di muffe e batteri può essere eliminata per 8 – 9 mesi a 0 gradi. Conservare il prodotto in questo modo fa sì che l'uovo si mantenga sano, fresco e di qualità; Pertanto, al produttore viene fornito un grande vantaggio finanziario.
 
-ARIA:
-
-L'ozono ossida i gas ammoniacali, il metano e l'anidride carbonica, creando un ambiente più sano per gli animali e per il personale che lavora negli allevamenti
-L’ozono è più efficace di altri sistemi di disinfezione dell’aria come l’appannamento chimico e la luce UV.
-Negli uccelli in crescita, l'ozono nei recinti come gas riduce il numero di batteri e quindi riduce la diffusione di infezioni e virus, aumentando così la loro salute e persino il peso fino al 18%. L'applicazione di ozono aiuta a migliorare il colore della pelle.
-L'ozono è più efficace della formaldeide nella disinfezione dei capannoni per il pollame e non richiede periodi di inattività in cui i capannoni devono rimanere evacuati. Subito dopo la disinfezione con ozono ad alte concentrazioni, il capannone è ventilato e può essere abitato dagli animali e dal personale in tutta sicurezza. A differenza della formaldeide, l’ozono non è cancerogeno.
-Le galline da cova mantenute in condizioni ozonizzate mostrano un aumento del numero di uova che depongono e una consistenza più forte del guscio d'uovo, a causa della corrispondente diminuzione delle malattie patogene e della prevenzione di un accumulo tossico di sostanze chimiche disinfettanti. L'ozono viene utilizzato per disinfettare le stanze e le camere di incubazione, al posto delle sostanze chimiche che causano un accumulo tossico sulle superfici del guscio delle uova e indeboliscono il sistema immunitario degli uccelli.
-
-ACQUA:
-
-L'acqua potabile per il pollame è un requisito dietetico importante. In condizioni normali, gli uccelli consumeranno circa il doppio della quantità di cibo in base al peso.
-
-Una scarsa qualità dell’acqua può ritardare la crescita, ridurre la produzione di uova o produrre uova di qualità inferiore.
-La conversione del mangime è stata correlata positivamente alla presenza di concentrazioni di solfato e rame nell'acqua e l'ozono li ossida efficacemente e può essere facilmente rimosso mediante filtrazione.
-
-1. Volume dell'acqua
-Nel corso degli anni, il progresso genetico per un maggiore aumento di peso, assunzione di mangime e conversione del mangime ha portato agli attuali polli da carne commerciali che raggiungono pesi maggiori in meno tempo con maggiori rese. Si stima che gli uccelli consumino circa 1,7 libbre (771,11 grammi) di acqua per ogni libbra di mangime. Pertanto la quantità di acqua consumata da un uccello è fondamentale per la quantità di mangime che assume. Vedi questi dati nel grafico qui sotto
-
-2. Qualità dell'acqua
-Quando l'acqua appare limpida e ha un buon sapore, crediamo che sia buona, giusto? Ebbene questo non è necessariamente vero, in realtà è impossibile giudicare adeguatamente la qualità dell’acqua se non con test di laboratorio. L’esperienza sul campo ha definitivamente dimostrato che differenze non osservabili nella qualità dell’acqua, da allevamento ad allevamento e persino da un pozzo all’altro all’interno di un complesso, possono comportare differenze significative nelle prestazioni degli animali.
-
-3. Consegna dell'acqua
-È importante che le linee di consegna e le relative infrastrutture idriche funzionino al massimo delle prestazioni. Spesso, quando l’acqua è contaminata da batteri come ferro e manganese, si forma un biofilm e le linee di alimentazione possono lentamente degradarsi e diventare un problema quando sono richiesti picchi di richiesta. Fornire acqua purificata prima delle linee di distribuzione è fondamentale per qualsiasi attività di pollame di grandi dimensioni.
-
-Benefici dell'ozono nell'acqua potabile
-
-Riduce gli agenti patogeni presenti nell'acqua e previene lo sviluppo di resistenza agli agenti patogeni
-Aiuta ad accelerare l'aumento di peso degli uccelli
-Migliora la conversione del mangime e aumenta la produzione di strati
-Aiuta ad aumentare l'ossigeno disciolto nell'acqua che aiuta gli uccelli a tollerare il caldo
-
-Ozono – Trattamento dell'acqua per il lavaggio di carcasse di pollame, attrezzature e celle frigorifere.
-L'acqua ozonizzata è efficace come disinfettante per le carcasse di pollame senza perdita di colore e sapore.
-L'acqua ozonizzata uccide istantaneamente più di 5 unità log di cellule di Salmonella Typhimurium ed Escherichia coli, nonché 4,5 unità log di bacilli di Candida albicans e Zygosaccraomyces.
-È stato dimostrato che gli stafilococchi colonizzano i macchinari per la spiumatura, sono diventati endemici negli impianti di lavorazione del pollame e sono diventati resistenti alla normale pulizia e disinfezione, compreso il cloro. L'ozono ha la proprietà di uccidere e distruggere questi batteri in modo efficace.
-L'ozono durante la conservazione refrigerata del pollame ha un effetto pronunciato sulla flora causando deterioramenti e di conseguenza prolunga la durata di conservazione del pollame in celle frigorifere
-
-Avicoltura - In linea generale, i benefici che l'ozono gassoso apporta in avicoltura, nella fase di
-accrescimento degli animali sono:
- sanificazione dell'ambiente mantenuto esente da microrganismi patogeni
- distruzione delle emanazioni ammoniacali
- deodorazione dell'ambiente
-CNSA – 27 ottobre 2010
-9
- maggiore ossigenazione del microclima ambientale
- miglioramento del mangime con conseguente miglioramento della digestione ed incremento del
-peso dell’animale
- minori rischi di contagio incrociato.
-
-L'acqua potabile è molto importante in ogni aspetto del pollame e svolge un ruolo importante nella regolazione della temperatura corporea, nella digestione del cibo e nell'eliminazione dei rifiuti corporei. L'acqua ozonizzata viene utilizzata per nutrire gli uccelli come acqua potabile, lavare e sterilizzare la carne e le attrezzature per uccidere batteri nocivi, virus, agenti patogeni e deodarizzare l'aria all'interno dell'allevamento di pollame. L'ozono viene utilizzato nell'industria del pollame come disinfezione dell'aria e dell'acqua per lo stoccaggio, l'incubazione delle uova e l'allevamento di uccelli sani. L'ozono è un ossidante efficace, utilizzato per la lavorazione, lo stoccaggio e il trasporto di pollame e prodotti a base di carne.
-
-
-Vantaggi
-E-coli e altri batteri vengono rimossi completamente
-L'acqua ozonizzata ha un sapore migliore per il pollame
-Aumento di peso accelerato da parte dei polli da carne e miglioramento della deposizione delle uova nei polli
-L’ozono è più efficace di altri sistemi di disinfezione dell’aria come l’appannamento chimico e la luce UV
-Aumento del livello di ossigeno disciolto nell'acqua che aiuta gli uccelli a tollerare il caldo
-L'acqua ozonizzata è efficace come disinfettante per le carcasse di pollame senza perdita di colore e sapore
-Nessuna escalation nella resistenza agli agenti patogeni
-Ossida i minerali disciolti (ferro, manganese, idrogeno solforato, ecc.)
-Riduce la formazione di biofilm dovuta a TSS e TDS nell'acqua
 
 
 
-Le aziende di lavorazione del pollame sono costantemente alla ricerca di modi più efficaci per mantenere gli uccelli, le strutture e le attrezzature pulite e libere da contaminazioni pericolose. La disinfezione microbica è essenziale per la sicurezza dei consumatori con una domanda globale in continua crescita.
-
-Grazie alla sua capacità di essere utilizzato in applicazioni gassose e acquose e nella maggior parte delle fasi del ciclo di vita e della lavorazione del pollame, offre vantaggi distinti rispetto ad altri disinfettanti per i produttori di pollame. L'ozono è ideale per incubatoi, mangimifici, ingrasso, prima e seconda lavorazione, magazzino e persino per il lavaggio dei rimorchi.
-
-La nostra ampia linea di generatori di ozono affronta la contaminazione in ogni fase della lavorazione. Dai prodotti per eliminare gli odori e i contaminanti presenti nell'aria (Airzone) ai generatori di ozono acquosi per vari ambienti (serie Waterzone, serie Waterzone SE, serie Waterzone IS) e unità combinate acquose/gassose (Dualzone), offriamo prodotti in numerose configurazioni.
-
-Vantaggi dell'ozono per la lavorazione e lo stoccaggio del pollame:
-Approvato dalla FDA, USDA e supportato dal National Organic Program
-Rimuove i microbiologici presenti nell'aria e migliora gli odori
-Nessun residuo chimico nocivo che richieda un risciacquo finale
-3000 volte più germicida del cloro
-Minori costi di smaltimento delle acque reflue
-Distruzione istantanea degli agenti patogeni
-pulcini.pngAcqua ed efficienza energetica
-Ecologico
-Rimozione dell'etilene
-Durata di conservazione più lunga
-Comprendiamo che non esistono due operazioni uguali. I nostri servizi di progettazione e consulenza vi consentono di personalizzare un sistema secondo le vostre specifiche. Dalla valutazione del tuo sistema attuale alla garanzia di un dimensionamento accurato fino alla supervisione dell'installazione, il nostro team di ingegneria e progettazione può aiutarti in qualsiasi fase del progetto.
-
-
-L’ozono per l’allevamento dei pulcini e il trattamento delle uova
-Nell’allevamento dei pulcini il trattamento con ozono di acqua ed aria permette una forte riduzione della mortalità, un netto aumento di peso e un drastico abbattimento nell’utilizzo di antibiotici.
-
-L’ozono elimina definitivamente gli odori, senza lasciare alcun residuo che possa intaccare gli animali. Questi ultimi trarranno benefici in termini di benessere, sia nel loro ambiente quotidiano sia nei loro movimenti. A ciò si aggiunge la certezza di un’alimentazione con prodotti provenienti da ambienti sanitizzati.
-
-Le apparecchiature Multiossigen consentono anche un notevole risparmio della quantità d’acqua utilizzata nelle fasi di lavorazione e un miglioramento del prodotto, in termini qualitativi e quantitativi.
-
-Nell’industria avicola è inoltre possibile trattare le uova con ozono gassoso e/o in acqua. Il trattamento delle uova tramite ozono è un brevetto Multiossigen.
-
-Il processo di sanitizzazione a base di ozono è meno dannoso per le proteine dell’albumina rispetto alla pastorizzazione. Pastorizzare le uova con calore e ozono garantisce una maggiore sicurezza, poiché si tratta di un trattamento termico meno pesante. Il piano d’azione di sicurezza degli Stati Uniti richiede che tutte le uova in guscio debbano essere pastorizzate, al fine di prevenire malattie alimentari. Poiché la pastorizzazione cuoce parzialmente l’uovo, un processo che utilizza ozono permette di utilizzare meno calore. Inoltre le uova trattate con ozono sono state accettate positivamente anche dai consumatori.
 
 
 
-I vantaggi dell’ozono nell’industria avicola
-Sanitizzazione dell’aria ed eliminazione degli odori
-Assenza di residui e nessun intaccamento di polli e pulcini
-Riduzione della mortalità
-Netto aumento di peso nei pulcini
-Miglioramento della qualità della carne
-Drastico abbattimento nell’utilizzo di antibiotici
-Notevoli risparmi
-Maggiore sicurezza nella pastorizzazione delle uova
 
 
-Avicoltura
-A partire già dalla raccolta delle uova e dalla loro selezione, fino alla loro trasformazione in carne, sono presenti i seguenti processi:
-
-nel trasporto all’incubatrice le uova sono esposte ad una possibile contaminazione propria dell’ambiente  nel  quale  si  svolge  questa  operazione, con assimilazione   attraverso   le porosità del guscio ( effetto dovuto all’esistenza di differenze di temperatura tra l’uovo e l’ambiente)
-
-una volta che le uova sono nell’incubatrice, permane il rischio che penetri qualche tipo di batterio, germe o virus  al suo interno, anche supponendo il fatto che, prima che arrivino le uova, esista già un buon livello di pulizia, disinfezione e sterilizzazione di tutti gli spazi. Ciò che non è previsto è l’ingresso di corpi estranei dall’esterno attraverso le aperture presenti (porte, finestre, prese d’aria, ecc.)
-Occorre considerare che, all’interno di questi spazi, vi è un ambiente favorevole, per via della temperatura ed il grado di umidità, all’incubazione ed allo sviluppo di corpi estranei in quanto è inevitabile che entrino ed escano dalla recinzione sia il materiale necessario alla sua gestione che il personale, correndo sempre il rischio di introdurre elementi contaminanti e viziare l’ambiente.
-L’ozono in incubatrice
-Per quanto riguarda il personale nei bagni e negli spogliatoi è consigliabile l’uso di un generatore di ozono,   in modo che questi ambienti siano completamente sterilizzati. Quando si effettuerà il cambio di vestiti, questi saranno in perfette condizioni di disinfezione con riduzione del rischio.
-
-Nei locali magazzino adibiti, ad esempio, al deposito di scatole, vaschette ed altri oggetti è consigliabile una continua ed efficace ozonizzazione in modo che, quando questi elementi vengono utilizzati, si abbia la garanzia che siano in perfette condizioni igienico-sanitarie. Nel resto degli spazi è consigliato un dosaggio inferiore di ozono per il mantenimento delle condizioni igienico-sanitarie:
-
-se l’aria utilizzata all’interno dell’incubatrice verrà prelevata dall’esterno sarebbe opportuno sottoporre anch’essa ad ozonizzazione
-
-è opportuno l’uso di ozono anche nel trasporto dei pulcini in furgoni adibiti a questo scopo
 
 
-Tra gli esempi più esemplificativi di uso dell’ozono del settore alimentare c’è sicuramente quello in avicoltura. Infatti, nel settore avicolo all’ozono gassoso sono riconosciuti molti benefici nella fase di accrescimento degli animali. L’ambiente può essere mantenuto esente da microrganismi patogeni, l’ambiente può essere deodorato, ci sono minori rischi per il contagio incrociato e una maggiore ossigenazione del microclima ambientale.
 
 
-In Italia il 75-80% delle aziende avicole e allevamenti sono infestati dall'acaro rosso del pollo (Dermanyssus gallinae), chiamato anche pidocchio rosso. Negli allevamenti assumono importanza notevole perché oltre a compromettere seriamente la salute delle galline, è un pericolo per la redditività dell’allevamento in quanto causa una riduzione del 10-15% dell’ovodeposizione, oltre che un peggioramento della qualità delle uova prodotte. Comprensibilmente gli allevatori cercano di liberarsene in ogni modo.
+
 
 
 
