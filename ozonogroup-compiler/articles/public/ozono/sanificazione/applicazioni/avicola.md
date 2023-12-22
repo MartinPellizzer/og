@@ -71,16 +71,75 @@ La seguente lista riassume i vantaggi principali della sanificazione ad ozono ne
 - non lascia residui chimici (confronto cloro, formaldeide e acido peracetico)
 - elimina le operazioni di riscaquo post-trattamento di sanificazione (risparmio acqua)
 - diminuisce i costi di smaltimento delle acque reflue (ecologico)
-- riduce i costi energetici (consuma poca corrente)
+- riduce i costi energetici confronto i sistemi termici
 - elimina i microrganismi patogeni velocemente (riduce tempi di inattività)
 - migliora la qualità dell'aria per gli uccelli e il personale
-- aumenta la durata della conservazione dei prodotti senza danneggiare la qualità
+- aumenta la durata della conservazione dei prodotti senza danneggiarne la qualità
 - stimola l'accumulo del peso degli uccelli
 - incrementa la produzione di uova degli uccelli (e la loro qualità)
 
 L'ozono porta anche altri benefici oltre a quelli elencati nella lista precedente, ma tali benefici verranno descritti di volta in volta nelle seguenti sezioni, in quanto specifici alle relative applicazioni.
 
 ## Quali sono le applicazioni dell'ozono nell'industria avicola?
+
+### Lavaggio carcasse polli
+
+Il lavaggio delle carcasse dei polli (o altri uccelli) con acqua ozonizzata distrugge batteri come Salmonella, E. coli e Campylobacter, migliorando la sicurezza alimentare. Infatti, come dimostrato da uno studio pubblicato dal Journal of Food Science, l'ozono ha ridotto più del 99% di tutti i microrganismi nelle carcasse conservate a 4,4°C.
+
+Lo stesso studio fa anche presente che l'O3 ha ridotto di un terzo la domanda chimica di ossigeno (COD) e ha aumentato significativamete la trasmissione luminosa (500 nm) dell'acqua di processo trattata. Tutto questo, senza provocare una perdita di colore nella pelle delle carcasse e senza generare ossidazione dei lipidi o sapori indesiderati.
+
+Azione antibatterica
+
+Eliminazione di odori e sapori sgradevoli
+
+Maggiore shelf-life
+
+Riduzione dei prodotti chimici
+
+Sicurezza alimentare migliorata
+
+- vantaggi
+
+### Sanificazione uova pollame
+
+L'ozono gassoso viene utilizzato al posto dei prodotti chimici (formaldeide) per eliminare i patogeni che si trovano nelle uova, come Salmonella typhimurium, Escherichia coli, Proteus spp. e Pseudomonas fluorescens.
+
+Uno studio pubblicato dal Journal of Food Protection ha provato che l'ozono riduce le contaminazioni di Salmonella di 5,9 log (o più) nelle uova con guscio se utilizzato per 10 minuti alle giuste concentrazioni. In questo studio, le uova in oggetto sono state preventivamente contaminate esteramente con 8,0 * 10^6 CFU/g di Salmonella e sono state trattate con ozono a 4-8°C. Quindi, è dimostrato che l'ozono elimina questo patogeno in breve tempo e a basse temperature.
+
+Inoltre, questo studio mostra che l'ozono può essere utilizzato in combinazione con il trattamento ad UV (sinergicamente) per ottenere risultati ancora più veloci, ovvero una riduzione di almeno 4,6 unità formante colonia in circa 2 minuti.
+
+- proprieta fisiche
+- vantaggi
+
+
+### Sanificazione acqua potabile polli
+
+### Sanificazione mangimi
+
+### Sanificazione capannoni
+
+### Sanificazione celle frigorifere
+
+L'ozono in forma gassosa viene utilizzato per disinfettare le celle frigorifere quando sono vuote o quando sono riempite con carcasse di polli per eliminare 
+
+Per garantire la sicurezza alimentare nella carne avicola, il Regolamento europeo non autorizza alcun trattamento di decontaminazione. L'ozono ha una forte natura ossidante che lo rende uno strumento utile per l'inattivazione dei microrganismi. Lo scopo di questo studio era valutare gli effetti di un trattamento sperimentale con ozono gassoso e la produzione di amine biogene putrescina e cadaverina, come indice di freschezza, durante la conservazione delle carcasse di polli refrigerate. Le amine sono state estratte con acido perclorico, derivate con cloruro di dansile, separate utilizzando un metodo cromatografico liquido ad alte prestazioni a fase inversa e rilevate mediante fluorescenza. I risultati hanno mostrato una riduzione della contaminazione microbica come effetto del trattamento sperimentale con ozono sulle carcasse. Nella semplice carne avicola refrigerata (Lot C controllo) si è osservato un significativo aumento di putrescina e cadaverina al 15º giorno di conservazione. Al 20º giorno si sono registrati livelli più alti di putrescina (53,63 mg/kg) e cadaverina (175,20 mg/kg) nel Lot C rispetto alla carne avicola trattata del Lot A. La decontaminazione con ozono ha portato a livelli inferiori di putrescina (32,37 mg/kg) e cadaverina (132,30 mg/kg), e nel Lot A la durata della conservazione è stata più lunga di 6 giorni rispetto al Lot C. Se autorizzato, un trattamento con ozono durante la conservazione della carne avicola refrigerata può indurre una riduzione della contaminazione microbica. I livelli di putrescina e cadaverina sembrano essere utili per controllare l'efficacia del trattamento con ozono sulla qualità della carne e possono essere utili come indice di qualità per evidenziare la perdita di freschezza della carne avicola, prima dei cambiamenti sensoriali durante la conservazione della carne avicola refrigerata.
+
+### Sanificazione attrezzature e utensili
+
+### Sanificazione indumenti personale
+
+### Sanificazione trasporti
+
+
+
+
+
+La presenza di Salmonella enterica sierotipo Enteritidis nelle uova con guscio ha gravi implicazioni per la salute pubblica. Sono stati sviluppati diversi trattamenti per controllare la Salmonella sulle uova con risultati misti. Attualmente, c'è bisogno di trattamenti di sanificazione delle uova che siano rapidi, economici ed efficaci. In questo studio, le uova con guscio contaminate esternamente da Salmonella (da 8,0 × 105 a 4,0 × 106 CFU/g di guscio d'uovo) sono state trattate con ozono gassoso (O3) a 0-15 lb/pollice quadrato per 0-20 minuti. In altri esperimenti, le uova con guscio contaminate sono state esposte a radiazioni UV da 100 a 2.500 μW/cm2 per 0-5 minuti. La combinazione di trattamento prevedeva l'esposizione delle uova contaminate a UV (da 1.500 a 2.500 μW/cm2) per 1 minuto, seguita da ozono a 5 lb/pollice quadrato per 1 minuto. Come controlli sono state utilizzate uova che erano (i) non contaminate e non trattate, (ii) contaminate e non trattate, e (iii) contaminate e trattate con aria. I risultati hanno indicato che il trattamento delle uova con guscio con ozono o UV, separatamente o in combinazione, ha ridotto significativamente (P < 0,05) la presenza di Salmonella sulle uova con guscio. Ad esempio, le uova contaminate trattate con ozono a 4-8°C e 15 lb/pollice quadrato per 10 minuti o con UV (da 1.500 a 2.500 μW/cm2) a 22-25°C per 5 minuti hanno prodotto riduzioni microbiche di 5,9 o 4,3 log o più, rispettivamente, rispetto ai controlli contaminati non trattati. Le combinazioni che includevano UV seguito dal trattamento con ozono hanno portato a un'inattivazione sinergica di Salmonella di almeno 4,6 unità log in circa 2 minuti di tempo totale di trattamento. La Salmonella è stata efficacemente inattivata sulle uova con guscio in breve tempo e a basse temperature utilizzando una combinazione di radiazioni UV e ozono.
+
+Azione antibatterica: L'ozono è efficace nel distruggere batteri come Salmonella, E. coli e Campylobacter, riducendo così il rischio di contaminazione degli alimenti.
+
+
+
 
 Pulizia fisica: Rimozione di sporco, lettiere vecchie, escrementi e altri materiali organici prima della disinfezione.
 Lavaggio: Utilizzo di acqua e detergenti per rimuovere lo sporco e i residui organici dalle superfici.
