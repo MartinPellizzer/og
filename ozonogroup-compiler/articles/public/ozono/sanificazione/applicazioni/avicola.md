@@ -1,5 +1,5 @@
 
-# Sanificazione ad ozono nell'industria avicola: Cosa è, benefici e utilizzi
+# Sanificazione ad ozono nell'industria avicola: cosa è, benefici e utilizzi
 
 ![Ozono Sanificazione Industria Avicola Intro](/assets/images/ozono-sanificazione-industria-avicola-intro.jpg)
 
