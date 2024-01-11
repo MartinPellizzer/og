@@ -1,121 +1,117 @@
-# 5 Applicazioni dell'Ozono nell'Industria della Fungicoltura 
+## Cos'è la sanificazione ad ozono nella fungicoltura e a cosa serve?
 
-![5 Applicazioni dell'Ozono nell'Industria della Fungicoltura](/assets/images/fungicoltura-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria della Fungicoltura")
+La sanificazione ad ozono nella fungicoltura è una pratica che utilizza l'ozono (O3) per eliminare microrganismi indesiderati come batteri, virus e parassiti presenti nell'ambiente di coltivazione dei funghi. Questa pratica non solo ottimizza le condizioni di coltivazione, promuovendo la salute dei funghi e aumentando la resa produttiva, ma assicura anche prodotti fungini più sicuri e di qualità superiore per i consumatori.
 
-L'ozono viene impiegato nell'industria della fungicoltura per la rimozione di microrganismi patogeni che possono compromettere la salute dei funghi coltivati. Questi includono Trichoderma spp., Verticillium fungicola e contaminanti batterici come Pseudomonas spp., che possono competere per nutrienti, causare decomposizione dei substrati e ridurre la resa.
+Ecco una lista di funghi comunemente coltivati per i quali si può utilizzare la sanificazione ad ozono.
 
-Inoltre, l'ozono svolge un ruolo cruciale nella disinfezione dell'aria all'interno delle strutture di coltivazione, eliminando spore di muffe e batteri. Questo aiuta a mantenere un ambiente privo di contaminanti e a controllare gli odori sgradevoli. La sua capacità di prolungare la durata di conservazione dei funghi, migliorare la qualità dell'aria, eliminare microrganismi indesiderati e prevenire infezioni crociate tra colture lo rende un alleato essenziale.
+-  **Champignon (Agaricus bisporus):** Comunemente noto come fungo bianco di coltivazione, è uno dei funghi più diffusi e popolari al mondo. Ha un cappello di colore bianco-crema e un gambo carnoso.
+-  **Shiitake (Lentinula edodes):** Originario dell'Asia, lo shiitake è ampiamente coltivato per il suo sapore ricco e aromatico. Ha un cappello marrone scuro e un gambo più sottile.
+-  **Pleurotus (Pleurotus spp.):** Questo genere include varietà come oyster e king oyster. Caratterizzati da cappelli a forma di ventaglio, crescono su legno e hanno un sapore delicato.
+-  **Crimini (Agaricus bisporus):** Una varietà più matura del champignon, ha un colore più scuro e un sapore più pronunciato. Il cappello è di solito di colore marrone.
+-  **Portobello (Agaricus bisporus):** Ancora un'altra varietà del champignon, il portobello è semplicemente un champignon marrone maturo. Ha un sapore più intenso e un cappello più grande.
+-  **Enoki (Flammulina velutipes):** Conosciuto per i suoi lunghi steli sottili e piccoli cappelli bianchi, l'enoki ha un sapore delicato e una consistenza croccante.
+-  **Maitake (Grifola frondosa):** Talvolta chiamato "fungo hen-of-the-woods", cresce in grandi grappoli di foglie sovrapposte ed è apprezzato per il suo sapore robusto.
+-  **Fungo Bruco (Cordyceps spp.):** Una varietà di funghi parassiti che crescono su insetti. Le specie di Cordyceps sono usate tradizionalmente in alcune medicine asiatiche.
+-  **Porcini (Boletus edulis):** Conosciuto anche come king bolete, ha un cappello marrone e un gambo robusto. È molto apprezzato per il suo sapore ricco e terroso.
+- **Fungo Sole (Agaricus blazei):** Originario del Brasile, questo fungo ha guadagnato popolarità per le presunte proprietà benefiche per la salute. Ha un aspetto simile al champignon con un colore più scuro.
 
-Inoltre, l'ozono viene impiegato per la sterilizzazione delle superfici di lavoro, dalle attrezzature agricole alle strutture di coltivazione, contribuendo a prevenire la contaminazione crociata tra colture e garantendo un ambiente di crescita ottimale.
+## Quali problemi risolve la sanificazione ad ozono nelle fungaie?
 
-Infine, nell'ambito del trattamento delle acque, l'ozono è utilizzato per eliminare una vasta gamma di contaminanti, da batteri patogeni a pesticidi e metalli pesanti, garantendo la qualità delle acque reflue.
+La sanificazione ad ozono nelle fungaie può contribuire a risolvere diversi problemi legati all'igiene e alla sicurezza ambientale, come eliminazione dei batteri, virus, muffe, parassiti e odori.
 
-In questo articolo vengono descritte nel dettaglio le applicazioni dell'ozono nell'industria della fungicoltura elencate nella seguente lista.
+La seguante lista mostra i problemi principali delle fungaie che vengono risolti dall'ozono.
 
-- Rimozione di microrganismi patogeni
-- Disinfezione dell'aria negli ambienti
-- Sterilizzazione delle superfici di lavoro
-- Sanificazione dell'acqua di processo
-- Trattamento delle acque reflue
+- **Microrganismi patogeni:** L'ozono è efficace nel distruggere batteri, virus, muffe e funghi. Nelle fungaie, dove la presenza di microrganismi può essere elevata, la sanificazione ad ozono può contribuire a ridurre il rischio di contaminazioni microbiologiche dannose per la coltivazione dei funghi.
+- **Muffe:** Le muffe possono essere un problema serio nelle fungaie, causando danni alle coltivazioni. L'ozono può essere utilizzato per distruggere le spore di muffa presenti nell'aria e sulle superfici, contribuendo a prevenire la crescita e la diffusione delle muffe.
+- **Odori:** L'ozono è noto per la sua capacità di neutralizzare odori sgradevoli. Nelle fungaie, dove possono accumularsi odori associati alla decomposizione di materiale organico o al processo di coltivazione dei funghi, la sanificazione ad ozono può contribuire a migliorare l'ambiente.
+- **Pesticidi e contaminanti chimici:** L'ozono può reagire con pesticidi e altri contaminanti chimici, contribuendo alla loro inattivazione. Questo può essere particolarmente importante per garantire la sicurezza alimentare e la conformità alle normative ambientali.
+- **Qualità dell'aria degradata:** La sanificazione ad ozono può migliorare complessivamente la qualità dell'aria nelle fungaie, creando un ambiente più salubre per i lavoratori e per la crescita dei funghi stessi.
 
-## 1. Rimozione di microrganismi patogeni
+## Quali benefici porta la sanificazione ad ozono nelle coltivazioni di funghi?
 
-L'ozono viene utilizzato per eliminare i microrganismi patogeni nell'industria della fungicoltura, come Trichoderma spp., Verticillium fungicola e contaminanti batterici come Pseudomonas spp.. 
 
-Trichoderma spp. e Verticillium fungicola possono competere con i funghi coltivati per i nutrienti, portando a una riduzione della resa e alla compromissione della qualità. Allo stesso modo, contaminanti batterici come Pseudomonas spp. possono causare la decomposizione dei substrati e la contaminazione microbiologica, influenzando negativamente la crescita dei funghi.
+La sanificazione con ozono in fungicoltura presenta diversi benefici rispetto ai metodi di sanificazione tradizionali, come il fatto che ha un'azione ad ampio spettro, che non lascia residui chimici, che si decompone in modo naturale, che è a basso consumo energetico e che è efficace contro i patogeni che hanno sviluppato una resistenza contro i prodotti chimici.
 
-I virus dei funghi possono infettare i funghi coltivati, riducendo la produzione. Nel frattempo, i nematodi parassiti come Aphelenchoides spp. possono danneggiare le radici e minacciare la salute delle piante. Fusarium spp. e Rhizoctonia spp. causano il marciume delle radici e portano a perdite di raccolto e degrado della qualità. Bacillus spp., Mucor spp. e Alternaria spp. possono decomporre i substrati e contaminare le colture, creando ulteriori sfide nell'industria della fungicoltura.
+Ecco una lista dettagliata dei benefici della sanificazione ad ozono in fungicoltura rispetto ai metodi tradizionali:
 
-| Patogeno | Problemi | 
-| --- | --- |
-| Trichoderma spp. | Competizione per nutrimento, riduzione della resa, deterioramento |
-| Verticillium fungicola | Riduzione della crescita dei funghi, compromissione della qualità |
-| Contaminanti batterici come pseudomonas spp. | Decomposizione dei substrati, contaminazione microbiologica |
-| Virus del fungo | Infezione del fungo coltivato, riduzione della produzione |
-| Nematodi parassiti come aphelenchoides spp. | Deterioramento delle radici, compromissione della salute delle piante |
-| Fusarium spp. | Marciume delle radici, perdita di raccolto, degrado della qualità |
-| Rhizoctonia spp. | Malattia del colletto, marciume delle radici, perdita di resa |
-| Bacillus spp. | Decomposizione dei substrati, contaminazione microbica |
-| Mucor spp. | Decomposizione dei substrati, contaminazione microbiologica |
-| Alternaria spp. | Macchie sulle piante, riduzione della resa, perdita di qualità |
+- **Azione a spettro completo:** L'ozono è efficace contro una vasta gamma di microrganismi, compresi batteri, virus, funghi e spore. Questa azione a spettro completo può garantire una maggiore efficacia rispetto ai prodotti chimici specifici utilizzati nei metodi tradizionali.
+- **Assenza di residui chimici:** La sanificazione con ozono non lascia residui chimici nei substrati o sulle superfici trattate. Questo è vantaggioso per evitare la contaminazione degli alimenti coltivati e per ridurre l'impatto ambientale.
+- **Decomposizione naturale:** L'ozono si decompone spontaneamente in ossigeno, senza lasciare residui tossici. Ciò significa che non c'è bisogno di ulteriori passaggi per rimuovere o neutralizzare eventuali sostanze residue, a differenza di alcuni prodotti chimici che possono richiedere ulteriori trattamenti o periodi di attesa.
+- **Maggiore efficienza energetica:** La generazione di ozono può essere realizzata onsite mediante generatori di ozono, riducendo la necessità di trasportare e immagazzinare prodotti chimici. Questo può portare a un risparmio energetico complessivo rispetto ai metodi tradizionali.
+- **Riduzione della resistenza batterica e fungina:** A differenza di alcuni prodotti chimici che possono portare allo sviluppo di ceppi resistenti, l'ozono ha una bassa probabilità di favorire la resistenza microbica, contribuendo a mantenere una maggiore efficacia nel tempo.
+- **Azzeramento del ciclo biologico:** L'ozono è in grado di eliminare completamente batteri, funghi e spore presenti nell'ambiente di coltivazione, riducendo la probabilità di reinfezioni e consentendo un nuovo inizio con un ambiente più pulito.
+- **Maggiore sicurezza per gli operatori:** L'uso di ozono elimina il rischio di esposizione a sostanze chimiche nocive durante il processo di sanificazione, migliorando la sicurezza degli operatori rispetto ai metodi tradizionali che potrebbero coinvolgere l'uso di prodotti chimici pericolosi.
+- **Minore impatto ambientale:** La sanificazione ad ozono è considerata un metodo più ecologico rispetto all'uso di alcuni prodotti chimici tradizionali, contribuendo a ridurre l'impatto ambientale complessivo delle pratiche agricole.
 
-## 2. Disinfezione dell'aria negli ambienti
+## Quali sono le applicazioni della sanificazione ad ozono in fungicoltura?
 
-Nell'industria della fungicoltura, l'ozono viene utilizzato per sterilizzare le camere di coltivazione dei funghi, garantendo un ambiente privo di contaminanti. Inoltre, riduce i contaminanti microbiologici nell'aria, eliminando spore di muffe e batteri, contribuendo a preservare la purezza dell'ambiente.
+L'ozono viente utilizzato in fungicoltura principalmente per trattare l'aria delle strutture di coltivazione dei funghi, per la sterilizzazioni delle attrezzature e per il trattamento dei substrati di coltivazione.
 
-Un'altra applicazione cruciale è il controllo degli odori sgradevoli all'interno delle strutture di coltivazione. Neutralizza gli odori di ammoniaca e altre sostanze provenienti dalla decomposizione organica. Inoltre, inattiva patogeni nocivi per le coltivazioni, come il Verticillium, proteggendo la salute delle colture.
+Di seguito sono riportate le applicazioni più comuni della sanificazione ad ozono nella fungicoltura.
 
-L'ozono aiuta anche a prolungare la durata di conservazione dei prodotti fungini, riducendo la contaminazione microbiologica e prevenendo malattie fungine. Migliora la qualità dell'aria rimuovendo allergeni e agenti irritanti. Inoltre, elimina microrganismi indesiderati che potrebbero compromettere la crescita dei funghi e previene la diffusione di infezioni crociate tra le diverse coltivazioni, garantendo un ambiente sano e ottimale per la crescita dei funghi.
+- **Trattamento dell'aria:** L'ozono può essere impiegato per purificare l'aria all'interno delle strutture di coltivazione dei funghi, riducendo la presenza di microrganismi nocivi. Ciò può contribuire a mantenere un ambiente più sano per la crescita dei funghi.
+- **Sterilizzazione delle attrezzature:** L'ozono può essere utilizzato per sterilizzare attrezzature come contenitori, attrezzi e strumenti utilizzati nella coltivazione dei funghi.
+- **Sanificazione delle superfici:** La sanificazione con ozono può essere applicata alle superfici delle strutture di coltivazione, come pavimenti, pareti e soffitti.
+- **Eliminazione di odori sgradevoli:** L'ozono può essere impiegato per eliminare odori indesiderati, spesso presenti nella coltivazione dei funghi. Questo può migliorare le condizioni lavorative all'interno delle strutture di coltivazione.
+- **Trattamento dei substrati:** L'ozono può essere utilizzato per trattare i substrati di coltivazione, eliminando microrganismi indesiderati e migliorando la purezza del terreno in cui crescono i funghi.
+- **Disinfezione dell'acqua:** L'ozono può essere impiegato per la disinfezione dell'acqua utilizzata nella coltivazione dei funghi. Ciò contribuisce a prevenire la contaminazione idrica e a garantire un ambiente idoneo per la crescita dei funghi.
 
-| Applicazioni | Problemi | 
-| --- | --- |
-| Sterilizzazione delle camere di coltivazione dei funghi | Disinfezione delle pareti e delle attrezzature. |
-| Riduzione dei contaminanti microbiologici nell'aria | Rimozione di spore di muffa, batteri, e virus. |
-| Eliminazione di spore di muffe e batteri nell'aria | Distruzione delle spore di aspergillus e penicillium. |
-| Controllo degli odori sgradevoli nelle strutture di coltivazione | Neutralizzazione degli odori di ammoniaca e decomposizione organica. |
-| Inattivazione di patogeni nocivi per le coltivazioni di funghi | Eliminazione del verticillium e di altri agenti patogeni. |
-| Prolungamento della durata di conservazione dei prodotti fungini | Riduzione della contaminazione microbiologica per prolungare la freschezza. |
-| Prevenzione delle malattie fungine nelle coltivazioni | Controllo del fusarium e dell'oidio per prevenire malattie fungine. |
-| Miglioramento della qualità dell'aria nelle strutture di coltivazione | Rimozione di allergeni e agenti irritanti dall'aria. |
-| Eliminazione di microrganismi indesiderati per una crescita sana dei funghi | Eliminazione di microrganismi concorrenti che possono compromettere la crescita dei funghi. |
-| Controllo delle infezioni crociate tra le diverse coltivazioni di funghi | Prevenzione della diffusione di malattie da una coltivazione all'altra. |
+Nelle seguenti sezioni, trovi delle spiegazioni dettagliate di applicazioni dell'ozono nelle fungaie e i relativi studi pubblicati da riviste autorevoli che provano l'efficacia di queste applicazioni.
 
-## 3. Sterilizzazione delle superfici di lavoro
+### Riduzione degli agenti patogeni sui funghi
 
-L'ozono è efficace per la sanificazione delle superfici di contatto nell'industria della fungicoltura.
+La sanificazione ad ozono può risolvere molteplici problematiche legate alla microflora e ai patogeni alimentari nel fungo champignon e mitigare le conseguenze per le aziende. I batteri e i microrganismi indesiderati possono compromettere la qualità del prodotto, causando perdite economiche e danneggiando la reputazione del marchio. L'utilizzo dell'ozono come agente sanificante efficace contribuisce a preservare la freschezza del fungo, garantendo sicurezza alimentare e proteggendo gli interessi commerciali.
 
-Strumenti e attrezzature agricole, come cesoie e trinciastocchi, vengono disinfettati per prevenire la contaminazione crociata tra colture. Le serre e le aree di lavorazione richiedono pulizia per mantenere condizioni igieniche, con particolare attenzione ai vetri, pavimenti e tavoli di lavoro. Il trattamento delle superfici degli impianti di ventilazione e aria condizionata, inclusi filtri e condotti, è cruciale per garantire un ambiente di crescita ottimale. 
+Il Postharvest Biology and Technology Journal ha condotto uno studio finalizzato a valutare l'efficacia dell'ozono gassoso nella riduzione del carico microbico e nell'eliminazione di Salmonella, Listeria monocytogenes ed Escherichia coli O157:H7 sui funghi champignon bianchi (Agaricus bisporus (J.E. Lange) Imbach). 
 
-Anche la sanificazione delle pareti e dei pavimenti delle strutture di coltivazione, nonché la sterilizzazione delle attrezzature per la raccolta dei funghi, sono passaggi fondamentali. Inoltre, la disinfezione delle confezioni e degli imballaggi, la sanitizzazione dei camion per il trasporto dei funghi e la pulizia delle superfici nelle aree di stoccaggio svolgono un ruolo determinante per preservare la qualità e la sicurezza dei prodotti fungicoli. Perfino nei laboratori di ricerca fungicola, le superfici, come i banconi, gli incubatori e le camere climatiche, vengono sterilizzate mediante l'ozono, contribuendo a garantire un ambiente di lavoro igienico e privo di contaminazioni.
+I risultati indicano che l'ozono gassoso, a concentrazioni di 2.8 e 5.3 mg L−1 per 60 minuti, riduce significativamente la presenza di lieviti e muffe, con una diminuzione di oltre 1.43 log dopo l'ozonizzazione a 5.3 mg L−1 per 45 minuti. 
 
-| Applicazione | Problemi | 
-| --- | --- |
-| Disinfezione degli strumenti e attrezzature agricole | Coltelli, cesoie, trinciastocchi |
-| Pulizia delle serre e delle aree di lavorazione | Vetri, pavimenti, tavoli di lavoro |
-| Trattamento delle superfici di impianti di ventilazione e aria condizionata | Filtri, condotti, bocchette d'aria |
-| Sanificazione delle pareti e pavimenti delle strutture di coltivazione | Pareti in vetro, pavimenti in plastica |
-| Sterilizzazione delle attrezzature per la raccolta dei funghi | Ceste, cassette, forbici |
-| Disinfezione delle confezioni e imballaggi | Sacchetti di plastica, scatole di cartone |
-| Sanitizzazione dei camion per il trasporto dei funghi | Cabina del conducente, pianale del camion |
-| Pulizia delle superfici delle aree di stoccaggio | Scaffalature, mensole, pavimenti |
-| Sterilizzazione delle superfici di laboratori di ricerca fungicola | Banconi, incubatori, camere climatiche |
+Inoltre, l'ozono riduce in modo significativo le colonie batteriche aerobiche, con riduzioni di 2.44 e 3.07 log rispettivamente a 2.8 e 5.3 mg L−1 per 60 minuti. 
 
-## 4. Sanificazione dell'acqua di processo
+La riduzione delle popolazioni iniziali di Salmonella, L. monocytogenes ed E. coli O157:H7 sui funghi inoculati indican che il trattamento con ozono può migliorare la sicurezza microbica e la qualità post-raccolta dei funghi champignon.
 
-L'ozono viene utilizzato per eliminare diverse forme di contaminazione nell'acqua di processo dell'industria della fungicoltura.
+### Mantenimento proprietà qualitative dei funghi
 
-Queste contaminazioni includono la presenza di batteri patogeni come Escherichia coli e Salmonella, oltre a funghi dannosi come Fusarium e Penicillium. Inoltre, virus come il Norovirus possono rappresentare una minaccia per la qualità dell'acqua. Le alghe, come Microcystis e Chlorella, possono prosperare e causare problemi di contaminazione. La presenza di metalli pesanti come il piombo, il cadmio e il mercurio è un'altra preoccupazione, insieme alla possibile contaminazione da pesticidi come il DDT e sostanze organiche nocive come gli idrocarburi policiclici aromatici. 
+La sanificazione ad ozono è essenziale per preservare le caratteristiche fisico-chimiche dei funghi, affrontando le sfide comuni che possono danneggiare le imprese. Problemi come la contaminazione microbica, l'ossidazione e l'alterazione del colore minacciano la qualità dei funghi, influenzando la catena di approvvigionamento e la reputazione aziendale. L'utilizzo dell'ozono come agente sanificante può risolvere efficacemente questi problemi, garantendo la conservazione ottimale delle caratteristiche dei funghi e mantenendo l'integrità commerciale.
 
-Anche sedimenti e particelle sospese, tra cui sabbia e fanghi, possono impattare negativamente sull'acqua. Infine, sostanze chimiche industriali come solventi, acidi e basi, insieme a microbi indesiderati, tra cui Clostridium e Pseudomonas, rappresentano ulteriori sfide nella gestione della qualità dell'acqua nel settore della fungicoltura.
+Lo studio ha indagato l'impatto della dose di ozono e del tempo di ozonizzazione sulle proprietà fisico-chimiche di Agaricus bisporus conservati per 14 giorni a 2 °C. 
 
-| Tipo Di Contaminazione | Problemi | 
-| --- | --- |
-| Contaminazione batterica | Escherichia coli, salmonella, listeria |
-| Contaminazione da funghi patogeni | Fusarium, penicillium, aspergillus |
-| Contaminazione da virus | Norovirus, hepatite a, rotavirus |
-| Contaminazione da alghe | Microcystis, chlorella, dinoflagellati |
-| Contaminazione da metalli pesanti | Piombo, cadmio, mercurio |
-| Contaminazione da pesticidi | Ddt, clorpirifos, roundup |
-| Contaminazione da sostanze organiche nocive | Idrocarburi policiclici aromatici, pcb, ftalati |
-| Contaminazione da sedimenti e particelle sospese | Sabbia, fanghi, sedimenti organici |
-| Contaminazione da sostanze chimiche industriali | Solventi, acidi, basi |
-| Contaminazione da microbi indesiderati | Clostridium, pseudomonas, streptococcus |
+I funghi sottoposti a ozono gassoso con concentrazioni crescenti (0,5, 1,0 e 2,0 mg L−1) e due applicazioni di ozonizzazione (30 e 60 min) hanno mostrato miglioramenti significativi. Ad esempio, il gruppo ozonizzato con 2 mg L−1 per 30 o 60 min ha evidenziato una maggiore compattezza. Inoltre, il contenuto fenolico totale (TPC) e l'attività antiossidante totale (TAA) sono aumentati, indicando un impatto positivo sull'antiossidazione. 
 
-## 5. Trattamento delle acque reflue
+Questi risultati supportano l'utilizzo dell'ozono per migliorare la conservazione dei funghi, come riportato nell'articolo pubblicato su Agriculture Journal.
 
-L'ozono viene utilizzato per trattare le acque reflue dell'industria della fungicoltura da contaminazione, microbiologica, chimica e da pesticidi. 
+### Aumento durata conservazione dei funghi
 
-Tra queste, la contaminazione microbiologica è spesso rappresentata da batteri come Salmonella, E. coli e coliformi, mentre la contaminazione chimica comprende la presenza di idrocarburi, solventi e cloruri. I pesticidi come il DDT, atrazina e malatione possono anche essere presenti, costituendo una preoccupazione significativa. L'eccesso di nutrienti, come nitrati, fosfati e ammoniaca, può portare a problemi di eutrofizzazione. 
+La sanificazione ad ozono risulta essenziale per affrontare i molteplici problemi legati alla qualità di conservazione post-raccolta, i quali comportano gravi conseguenze per le imprese. Questi includono la proliferazione di muffe, perdita di peso, deterioramento sensoriale e perdita di valore commerciale dei prodotti. L'utilizzo dell'ozono come agente sanificante si è dimostrato efficace nel contrastare tali problematiche, garantendo la sicurezza alimentare e prolungando la vita utile dei prodotti, contribuendo così al successo delle attività commerciali.
 
-Allo stesso modo, i metalli pesanti come piombo, mercurio e cromo possono contaminare le acque reflue, comportando rischi ambientali. Le sostanze organiche, tra cui BOD, COD e composti fenolici, possono influenzare negativamente la qualità dell'acqua. Inoltre, la presenza di sedimenti e particelle in sospensione, come silt, argilla e detriti organici, può causare problemi aggiuntivi nella gestione delle acque reflue dell'industria fungicola.
+Il Postharvest Biology and Technology Journal ha condotto uno studio sulla conservazione dei funghi Agaricus bisporus mediante l'utilizzo innovativo di fumigazione con ozono (abbinata a imballaggi in nano-pellicola). 
 
-| Tipo Di Contaminazione | Problemi | 
-| --- | --- |
-| Contaminazione microbiologica | Salmonella, e. coli, coliformi |
-| Contaminazione chimica | Idrocarburi, solventi, cloruri |
-| Contaminazione da pesticidi | Ddt, atrazina, malatione |
-| Contaminazione da nutrienti in eccesso | Nitrati, fosfati, ammoniaca |
-| Contaminazione da metalli pesanti | Piombo, mercurio, cromo |
-| Contaminazione da sostanze organiche | Bod, cod, composti fenolici |
-| Contaminazione da sedimenti e particelle in sospensione | Silt, argilla, detriti organici |
+Attraverso la valutazione di tre parametri chiave - punteggio sensoriale, indice di imbrunimento e tasso di perdita di peso - è stata identificata la dose ottimale di fumigazione con ozono. 
 
+I risultati dimostrano che il trattamento con ozono (combinato con imballaggi in nano-pellicola) ritarda efficacemente la deteriorazione sensoriale, la perdita di peso e l'insorgenza di fenomeni di imbrunimento, estendendo così la durata di conservazione di A. bisporus di 8-10 giorni rispetto al gruppo di controllo. Questo è un progresso significativo per migliorare la qualità e il valore commerciale dei funghi durante la conservazione post-raccolta.
+
+### Sanificazione stanze crescita funghi
+
+La sanificazione ad ozono affronta efficacemente le sfide legate alla disinfezione delle sale di coltivazione dei funghi. I problemi, come la resistenza batterica, la formazione di biofilm e l'inefficacia di alcuni disinfettanti, possono compromettere la qualità del prodotto e la redditività aziendale. La mancanza di un controllo sanitario adeguato può portare a perdite di produzione e danni finanziari. L'utilizzo dell'ozono come agente sanificante risolve questi problemi, eliminando microrganismi indesiderati in modo efficace e contribuendo al successo continuato delle attività di coltivazione dei funghi.
+
+Uno studio condotto dal Journal of Horticultural Research ha valutato gli effetti fungicidi dell'ozono su patogeni fungini comuni nei funghi. Gli esperimenti hanno impiegato il gas ozono per la disinfezione delle stanze di coltivazione al termine del ciclo di crescita dei funghi. 
+
+L'efficacia fungicida della fumigazione con ozono è stata valutata in base alla sopravvivenza degli spore dei patogeni testati (Lecanicillium fungicola, Cladobotryum dendroides, Mycogone perniciosa e Trichoderma aggressivum). 
+
+I risultati indicano che L. fungicola, M. perniciosa e C. dendroides sono sensibili all'ozono. Per ottenere un'efficacia del 100% contro i ceppi di Mycogone, è necessario applicare almeno 6 ore di ozonizzazione, mentre per i ceppi di Cladobotryum, sono necessarie almeno 8 ore. Il genere Lecanicillium è risultato il più sensibile, richiedendo solo 30 minuti di ozonizzazione per ottenere un'inibizione del 100%.
+
+Tuttavia, Trichoderma non ha mostrato risultati soddisfacenti in nessuna condizione sperimentale. Nonostante ciò, lo studio ha dimostrato l'utilità dell'ozono come disinfettante per le stanze vuote dopo il ciclo di coltivazione dei funghi.
+
+### Sterilizzazione substrato di coltivazione dei funghi
+
+La sanificazione ad ozono si presenta come una soluzione efficace per affrontare i problemi legati al terreno contaminato da funghi, con gravi conseguenze per le attività commerciali. La presenza di contaminanti fungini compromette la qualità dei funghi coltivati, danneggiando la reputazione aziendale e riducendo i profitti. L'utilizzo dell'ozono elimina in modo sicuro e completo i contaminanti, garantendo un terreno sano e favorevole alla crescita dei funghi, contribuendo così al successo continuo delle imprese del settore.
+
+Il Chemosphere Journal ha condotto uno studio sulla combinazione di ozonazione e trattamento biologico aerobico mediato da compost di funghi spesi (SMC) per rimuovere il benzo(a)pirene dal suolo contaminato. 
+
+I risultati indicano che il trattamento combinato ha ridotto la concentrazione di benzo(a)pirene di oltre il 75%, con la migliore rimozione (82%) osservata dopo 10 minuti di pre-trattamento con ozonazione. 
+
+L'ozonazione ha migliorato la biodegradabilità del contaminante, evidenziata dall'incremento della produzione di CO2 (circa il 70% in più rispetto al controllo), la mineralizzazione (oltre il 60%) e la densità batterica (aumentata di due ordini di grandezza). 
+
+Inoltre, i test di fitotossicità su L. Sativum hanno dimostrato che il processo biologico aerobico del suolo pre-ozonato ha ridotto la tossicità. 
+
+L'articolo sottolinea il potenziale elevato dell'ozonazione come pre-trattamento per superare le limitazioni della bioremediation dei composti recalcitranti, richiedendo un'operazione attenta per massimizzare l'efficienza di rimozione degli idrocarburi policiclici aromatici (PAH) e minimizzare la tossicità residua nel suolo.
