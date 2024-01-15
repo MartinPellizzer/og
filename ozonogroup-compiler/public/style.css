@@ -1,9 +1,22 @@
+@font-face {
+    font-family: Lato-Body;
+    src: url(/assets/fonts/Lato-Regular.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Lato-Header;
+    src: url(/assets/fonts/Lato-Bold.ttf);
+    font-weight: bold;
+}
+
 :root {
     --opacity: 0.5;
     --yellow-200: #fef08a;
     --blue-500: #3b82f6;
     --blue-600: #1d4ed8;
     --white: #fff;
+    --slate-950: #020617;
 }
 
 * {
@@ -18,20 +31,22 @@ html {
 
 body {
     font-size: 1.8rem;
-    font-family: Helvetica, Arial, sans-serif;
+    /* font-family: Helvetica, Arial, sans-serif; */
+    font-family: Lato-Body;
 }
 
 /* TAGS -------------------------------------------------------------- */
 
 h1 {
+    font-family: Lato-Header;
     color: #0f172a;
     font-size: 6.4rem;
     line-height: 1;
-    font-weight: 400;
     margin-bottom: 3.2rem;
 }
 
 h2 {
+    font-family: Lato-Header;
     color: #0f172a;
     font-size: 4.0rem;
     line-height: 1;
@@ -127,7 +142,7 @@ header {
 .logo a {
     display: block;
     text-decoration: none;
-    color: white;
+    color: var(--slate-950);
 }
 
 nav {
@@ -152,7 +167,7 @@ nav {
 .menu li a {
     text-decoration: none;
     color: white;
-    display: block;
+    color: var(--slate-950);
 }
 
 .header-section {
@@ -263,18 +278,26 @@ nav input:checked~.menu {
 }
 
 .hero-section h1 {
-    color: #fff;
+    font-size: 6.4rem;
 }
 
+/* 
 .hero-section p {
     color: #fff;
-}
+} */
 
 .hero-main {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80%;
+}
+
+.hero-img {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/hero-img.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 

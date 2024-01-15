@@ -1,5 +1,5 @@
 
-# Sanificazione ad ozono nell'industria avicola: cosa è, benefici e utilizzi
+# Sanificazione ad ozono nell'industria avicola: cosa è, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Avicola Intro](/assets/images/ozono-sanificazione-industria-avicola-intro.jpg)
 
@@ -253,17 +253,12 @@ Questi risultati sottolineano l'efficacia dell'ozono nel controllo degli insetti
 
 Nell'indutria avicola vengono utilizzati principalmente 6 tipi di generatori di ozono, come elencati nella seguente lista.
 
-1. **Ozonizzatori per l'aria**: Progettati per trattare l'aria negli allevamenti avicoli, questi ozonizzatori a scarica corona o ad alta frequenza sono dimensionati per coprire grandi spazi e garantire una pulizia dell'aria efficace riducendo la presenza di patogeni e cattivi odori.
-
-2. **Ozonizzatori per l'acqua**: Utilizzati nei sistemi di abbeveraggio, questi ozonizzatori sono progettati per trattare l'acqua potabile riducendo la presenza di batteri, virus e altri agenti patogeni, garantendo acqua pulita e sicura per gli uccelli.
-
-3. **Ozonizzatori per incubatori**: Specificamente progettati per garantire un ambiente sterile all'interno degli incubatori, questi ozonizzatori aiutano a controllare la contaminazione microbica, migliorando così le condizioni per lo sviluppo sano degli embrioni.
-
-4. **Ozonizzatori portatili o mobili**: Dispositivi compatti e trasportabili adatti per trattamenti localizzati o per aree specifiche dell'impianto avicolo che richiedono interventi temporanei di sanificazione o disinfezione.
-
-5. **Ozonizzatori per la pulizia e la disinfezione delle attrezzature**: Utilizzati per la disinfezione di attrezzature, strumenti e superfici, questi ozonizzatori possono essere impiegati per mantenere la pulizia e prevenire la diffusione di malattie tra gli uccelli.
-
-6. **Ozonizzatori per la depurazione dell'aria nei sistemi di trattamento dei rifiuti**: Utilizzati nei sistemi di trattamento dei rifiuti avicoli per ridurre gli odori sgradevoli e trattare l'aria contaminata proveniente da queste strutture.
+- **Ozonizzatori per l'aria**: Progettati per trattare l'aria negli allevamenti avicoli, questi ozonizzatori a scarica corona o ad alta frequenza sono dimensionati per coprire grandi spazi e garantire una pulizia dell'aria efficace riducendo la presenza di patogeni e cattivi odori.
+- **Ozonizzatori per l'acqua**: Utilizzati nei sistemi di abbeveraggio, questi ozonizzatori sono progettati per trattare l'acqua potabile riducendo la presenza di batteri, virus e altri agenti patogeni, garantendo acqua pulita e sicura per gli uccelli.
+- **Ozonizzatori per incubatori**: Specificamente progettati per garantire un ambiente sterile all'interno degli incubatori, questi ozonizzatori aiutano a controllare la contaminazione microbica, migliorando così le condizioni per lo sviluppo sano degli embrioni.
+- **Ozonizzatori portatili o mobili**: Dispositivi compatti e trasportabili adatti per trattamenti localizzati o per aree specifiche dell'impianto avicolo che richiedono interventi temporanei di sanificazione o disinfezione.
+- **Ozonizzatori per la pulizia e la disinfezione delle attrezzature**: Utilizzati per la disinfezione di attrezzature, strumenti e superfici, questi ozonizzatori possono essere impiegati per mantenere la pulizia e prevenire la diffusione di malattie tra gli uccelli.
+- **Ozonizzatori per la depurazione dell'aria nei sistemi di trattamento dei rifiuti**: Utilizzati nei sistemi di trattamento dei rifiuti avicoli per ridurre gli odori sgradevoli e trattare l'aria contaminata proveniente da queste strutture.
 
 
 ### Quali sono i migliori ozonizzatori di ozonogroup per l'industria avicola?
