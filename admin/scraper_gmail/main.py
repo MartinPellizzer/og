@@ -94,12 +94,22 @@ def scrape_emails(url):
 ######################################################################################
 # BROWSER
 ######################################################################################
+# def open_browser():
+# 	global driver
+# 	options = Options()
+# 	# options.add_argument('--headless')
+# 	options.add_argument('--disable-gpu')
+# 	driver = webdriver.Chrome(r'C:\drivers\chromedriver', options=options)
+# 	driver.maximize_window()
+# 	driver.get('https://www.google.com')
+# 	sleep(2)
+# 	driver.find_element(By.XPATH, '//div[text()="Rifiuta tutto"]').click()
+# 	sleep(2)
+
+
 def open_browser():
 	global driver
-	options = Options()
-	# options.add_argument('--headless')
-	options.add_argument('--disable-gpu')
-	driver = webdriver.Chrome(r'C:\drivers\chromedriver', options=options)
+	driver = webdriver.Firefox()
 	driver.maximize_window()
 	driver.get('https://www.google.com')
 	sleep(2)
@@ -164,14 +174,29 @@ def scrape_phone(e):
 	except: return ''
 
 
+# def find_new_business(old_businesses):
+# 	global driver
+# 	elements = driver.find_elements(By.XPATH, '//div[@role="article"]')
+# 	for e in elements:
+# 		label = e.get_attribute('aria-label')
+# 		label = sanitize(label)
+# 		if label not in old_businesses:
+# 			return e, label
+# 	return None, None
+	
+
 def find_new_business(old_businesses):
 	global driver
-	elements = driver.find_elements(By.XPATH, '//div[@role="article"]')
-	for e in elements:
-		label = e.get_attribute('aria-label')
+	feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
+	items = feed.find_elements(By.XPATH, './/a/..')
+	for item in items:
+		a = item.find_element(By.XPATH, './/a')
+		a_href = a.get_attribute('href')
+		if 'support.' in a_href: continue
+		label = a.get_attribute('aria-label')
 		label = sanitize(label)
 		if label not in old_businesses:
-			return e, label
+			return item, label
 	return None, None
 
 
@@ -238,13 +263,21 @@ def scrape_new_business(search_text, i):
 
 	add_business_to_csv(output_file, label, address, website, phone, s_emails, district, '')
 
-	# debug_info(name, address, district, website, phone, s_emails)
+	debug_info(name, address, district, website, phone, s_emails)
 
 	return 'success'
 	
 
-	
 
+search_text = 'salumificio treviso'
+
+open_browser()
+search(search_text)
+
+for i in range(30):
+	err = scrape_new_business(search_text, i)
+	print(err, '\n')
+	if err == 'name_not_equal_label': break
 
 ######################################################################################
 # MAIN
