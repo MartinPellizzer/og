@@ -137,6 +137,7 @@ def click_on_listing(business):
 			business.click()
 			return True
 		except: 
+			print('error click')
 			continue
 	return False
 
@@ -193,6 +194,7 @@ def find_new_business(old_businesses):
 		a = item.find_element(By.XPATH, './/a')
 		a_href = a.get_attribute('href')
 		if 'support.' in a_href: continue
+		if 'google.' not in a_href: continue
 		label = a.get_attribute('aria-label')
 		label = sanitize(label)
 		if label not in old_businesses:
@@ -269,9 +271,14 @@ def scrape_new_business(search_text, i):
 	
 
 
-search_text = 'salumificio treviso'
+search_text = 'caseificio treviso'
 
 open_browser()
+
+
+
+
+
 search(search_text)
 
 for i in range(30):
