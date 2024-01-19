@@ -145,3 +145,8 @@ JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been i
 JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
 JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
 JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.it.kAKsnPdIITY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=BgCFAAg/rt=j/d=1/rs=ACT90oFXW9vVwPtIsGNC8qvag1HZqIh7Zg?wli=m.Db1eCB-L8ts.loadSv.F%3A%3Bm.hAV38x6YZtU.loadSv.O%3A%3Bm.GREYGqA39WM.mapcore.F%3A%3Bm.CH08MApBfXc.mapcore.O%3A%3B, line 587: Script terminated by timeout at:
+f@https://www.google.com/maps/_/js/k=maps.m.it.kAKsnPdIITY.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,dwi,enr,pwd,dw,plm,log,b/am=BgCFAAg/rt=j/d=1/rs=ACT90oFXW9vVwPtIsGNC8qvag1HZqIh7Zg?wli=m.Db1eCB-L8ts.loadSv.F%3A%3Bm.hAV38x6YZtU.loadSv.O%3A%3Bm.GREYGqA39WM.mapcore.F%3A%3Bm.CH08MApBfXc.mapcore.O%3A%3B:587:36
+
+1705577179399	Marionette	INFO	Stopped listening on port 61273
+Dynamically enable window occlusion 1
