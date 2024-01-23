@@ -87,6 +87,14 @@ html {
     flex: 5;
 }
 
+.flex-6 {
+    flex: 6;
+}
+
+.flex-7 {
+    flex: 7;
+}
+
 .flex-col {
     flex-direction: column;
 }
@@ -346,6 +354,14 @@ h2 {
 
 .flex-3 {
     flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
 }
 
 .flex-col {

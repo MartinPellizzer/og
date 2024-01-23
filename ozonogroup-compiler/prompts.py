@@ -500,3 +500,11 @@ nella colonna 1, elenca: odori, microbi, superfici, oggetti, insetti.
 nella colonna 2, elenca i corrispettivi dati in un unica cella.
 il titolo della colonna 1 è: Tipologia Utilizzo 
 il titolo della colonna 2 è: Applicazioni Sanificazione
+
+
+
+
+homepage for a website about ozone saintization in the food processing industry, scientific style, brand color blue, primary backgroud color white, simple layout
+
+beautiful food processing plant in fields, external view, clear blue sky
+
