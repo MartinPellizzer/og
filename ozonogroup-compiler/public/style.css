@@ -129,20 +129,33 @@ img {
 }
 
 
+.bg-neutral-200 {
+    background-color: #e5e5e5;
+}
 
+.bg-blue-600 {
+    background-color: #2563eb;
+}
 
-
+.icon {
+    width: 3.2rem;
+}
 
 
 /* ************************************************************ */
 /* HEADER */
 /* ************************************************************ */
+
 header {
     position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 3.2rem 0;
+}
+
+.logo img {
+    height: 4.8rem;
 }
 
 .logo a {
@@ -306,7 +319,22 @@ nav input:checked~.menu {
 
 .hero-img {
     /* height: 100%; */
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/hero-img-5.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/hero-img-6.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.img-caseificio {
+    height: 40rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/cheese-0002.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-salumificio {
+    height: 40rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/salami-0015.png');
     background-size: cover;
     background-position: center;
 }
@@ -440,6 +468,11 @@ svg {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 4.8rem;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .grid-2 {
