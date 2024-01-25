@@ -31,7 +31,7 @@ html {
 }
 
 .text-white {
-    color: #fff;
+    color: #fff !important;
 }
 
 .bg-blue-600 {
@@ -492,10 +492,6 @@ h2 {
 
 .text-blue-50 {
     color: #eff6ff;
-}
-
-.text-white {
-    color: #fff;
 }
 
 .bg-blue-600 {
