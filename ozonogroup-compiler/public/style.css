@@ -23,6 +23,7 @@
     --blue-600: #1d4ed8;
     --white: #fff;
     --slate-950: #020617;
+    --grid-img-size: 45rem;
 }
 
 * {
@@ -340,7 +341,7 @@ nav input:checked~.menu {
 
 
 .img-caseificio {
-    height: 50rem;
+    height: var(--grid-img-size);
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/caseificio-0002.png');
     background-size: cover;
     background-position: center;
@@ -348,29 +349,50 @@ nav input:checked~.menu {
 
 
 .img-salumificio {
-    height: 50rem;
+    height: var(--grid-img-size);
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/salumificio-0000.png');
     background-size: cover;
     background-position: center;
 }
 
 .img-verdura {
-    height: 50rem;
+    height: var(--grid-img-size);
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/verdura-0000.png');
     background-size: cover;
     background-position: center;
 }
 
 .img-vino {
-    height: 50rem;
+    height: var(--grid-img-size);
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/vino-0000.png');
     background-size: cover;
     background-position: center;
 }
 
 .img-funghi {
-    height: 50rem;
+    height: var(--grid-img-size);
     background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/funghi-0001.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-pesci {
+    height: var(--grid-img-size);
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/pesci-0001.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-grano {
+    height: var(--grid-img-size);
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/grano-0003.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-acqua {
+    height: var(--grid-img-size);
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/acqua-0000.png');
     background-size: cover;
     background-position: center;
 }
