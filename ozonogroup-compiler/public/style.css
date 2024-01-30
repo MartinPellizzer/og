@@ -257,6 +257,22 @@ nav input:checked~.menu {
     right: 0;
 }
 
+
+/* ************************************************************ */
+/* INDUSTRIES */
+/* ************************************************************ */
+.industry-card {
+    font-family: Lato-Header;
+    letter-spacing: 2px;
+    color: white;
+    color: var(--blue-600);
+    background-color: var(--yellow-200);
+    text-align: center;
+    padding: 0.8rem 1.6rem;
+    text-transform: uppercase;
+}
+
+
 /* ************************************************************ */
 /* HEADER LIGHT? */
 /* ************************************************************ */
@@ -362,16 +378,17 @@ nav input:checked~.menu {
     background-position: center;
 }
 
-.img-vino {
+.img-funghi {
     height: var(--grid-img-size);
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/vino-0000.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/funghi-0001.png');
     background-size: cover;
     background-position: center;
 }
 
-.img-funghi {
+
+.img-vino {
     height: var(--grid-img-size);
-    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/funghi-0001.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/vino-0004.png');
     background-size: cover;
     background-position: center;
 }
@@ -409,6 +426,7 @@ nav input:checked~.menu {
 }
 
 
+
 /* ************************************************************ */
 /* CONTACT PAGE */
 /* ************************************************************ */
@@ -433,10 +451,10 @@ nav input:checked~.menu {
 
 
 
-/* CTA ------------------------------------------------------------ */
+/* ;CTA ------------------------------------------------------------ */
 .cta-section {
     /* padding: 19.2rem 0; */
-    background-color: #1e40af;
+    background-color: var(--blue-600);
 }
 
 
@@ -504,6 +522,10 @@ svg {
 
 .pb-96 {
     padding-bottom: 9.6rem;
+}
+
+.p-16 {
+    padding: 1.6rem;
 }
 
 
