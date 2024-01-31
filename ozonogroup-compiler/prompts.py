@@ -520,3 +520,11 @@ write an engaging and seo friendly one mage case study about a polished concrete
 
 
 magazine back cover about cultivating mushrooms, write the brand address, contact info, and call to action with phone number
+
+
+man in white coat, blue gloves, and blue mask assessing the quality of bottles of wine in a cellar, soft light, 8k
+
+frustrated male sanitization operator with white coat, blue gloves, and blue mask looking at toxic chemical sanitizers in a storage room, soft light, 8k
+
+
+
