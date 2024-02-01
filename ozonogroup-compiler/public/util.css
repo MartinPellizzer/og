@@ -18,9 +18,9 @@ html {
     font-size: 62.5%;
 }
 
-/* body {
+body {
     font-family: Helvetica, Arial, sans-serif;
-} */
+}
 
 .bg-blue-50 {
     background-color: #eff6ff;
@@ -56,11 +56,10 @@ html {
     padding: 0 32px;
 }
 
-/* 
 .hero-section {
     background-color: var(--blue-600);
     height: 100vh;
-} */
+}
 
 
 .flex {
@@ -85,14 +84,6 @@ html {
 
 .flex-5 {
     flex: 5;
-}
-
-.flex-6 {
-    flex: 6;
-}
-
-.flex-7 {
-    flex: 7;
 }
 
 .flex-col {
@@ -137,6 +128,10 @@ html {
 
 .gap-64 {
     gap: 6.4rem;
+}
+
+.gap-96 {
+    gap: 9.6rem;
 }
 
 .h-full {
@@ -356,14 +351,6 @@ h2 {
     flex: 3;
 }
 
-.flex-4 {
-    flex: 4;
-}
-
-.flex-5 {
-    flex: 5;
-}
-
 .flex-col {
     flex-direction: column;
 }
@@ -492,6 +479,10 @@ h2 {
 
 .text-blue-50 {
     color: #eff6ff;
+}
+
+.text-white {
+    color: #fff;
 }
 
 .bg-blue-600 {

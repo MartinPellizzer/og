@@ -156,7 +156,6 @@ img {
 /* HEADER */
 /* ************************************************************ */
 .header {
-
     background-color: #e5e5e5;
 }
 
@@ -176,6 +175,7 @@ header {
     display: block;
     text-decoration: none;
     /* color: var(--slate-950); */
+    color: white;
 }
 
 nav {
@@ -199,7 +199,11 @@ nav {
 
 .menu li a {
     text-decoration: none;
+    /* color: var(--slate-950); */
     color: white;
+}
+
+.home .menu li a {
     color: var(--slate-950);
 }
 
@@ -328,11 +332,24 @@ nav input:checked~.menu {
 
 .hero-section h1 {
     font-size: 6.4rem;
-    /* color: #171717; */
+    color: white;
+    padding: 1.6rem 3.2rem;
+    font-family: Lato-Body;
+    padding: 0;
+}
+
+.hero-section .home h1 {
     color: #1d4ed8;
     background-color: #fef08a;
     padding: 1.6rem 3.2rem;
-    font-family: Lato-Body;
+}
+
+.hero-section .home p {
+    color: #334155;
+}
+
+.hero-section p {
+    color: white;
 }
 
 /* 
@@ -354,6 +371,15 @@ nav input:checked~.menu {
     background-size: cover;
     background-position: top;
 }
+
+
+.img-chemicals {
+    height: 80rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/images/chemicals-problem-2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
 
 
 .img-caseificio {
@@ -603,8 +629,25 @@ svg {
     align-items: center;
 }
 
+.grid-applications {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
 
 
+
+
+.hero-section {
+    display: block;
+}
+
+.hero-section-mobile {
+    display: none;
+}
+
+.section-problem-mobile {
+    display: none;
+}
 
 
 /* MEDIA ------------------------------------------------------------------------------ */
@@ -667,6 +710,11 @@ svg {
     .m-pt-lg {
         padding-top: 9.6rem;
     }
+
+    .grid-applications {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width: 768px) {
@@ -723,6 +771,41 @@ svg {
     }
 
     .button-primary {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+        padding: 1.6rem 3.2rem;
+        /* text-transform: uppercase; */
+    }
+
+    .hero-img {
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/hero-img-mobile.png');
+        background-size: cover;
+        background-position: top center;
+        /* margin-top: -130px; */
+    }
+
+    .hero-section-home {
+        display: none;
+    }
+
+    .hero-section-mobile {
+        display: block;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .section-problem {
+        display: none;
+    }
+
+    .section-problem-mobile {
+        display: block;
+    }
+
+    .grid-applications {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }

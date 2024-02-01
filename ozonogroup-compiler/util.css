@@ -31,7 +31,7 @@ body {
 }
 
 .text-white {
-    color: #fff;
+    color: #fff !important;
 }
 
 .bg-blue-600 {
@@ -128,6 +128,10 @@ body {
 
 .gap-64 {
     gap: 6.4rem;
+}
+
+.gap-96 {
+    gap: 9.6rem;
 }
 
 .h-full {

@@ -865,6 +865,7 @@ copy_images()
 
 shutil.copy2('missione.html', 'public/missione.html')
 shutil.copy2('contatti.html', 'public/contatti.html')
+shutil.copy2('index.html', 'public/index.html')
 
 shutil.copy2('style.css', 'public/style.css')
 shutil.copy2('style-blog.css', 'public/style-blog.css')

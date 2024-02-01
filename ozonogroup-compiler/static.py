@@ -1,10 +1,10 @@
 import shutil
 import os
 
-with open('home.html', 'r') as f: content = f.read()
-with open('components/header.html', 'r') as f: header = f.read()
-content = content.replace('<!-- insert header here -->', header)
-with open('index.html', 'w') as f: content = f.write(content)
+# with open('home.html', 'r') as f: content = f.read()
+# with open('components/header.html', 'r') as f: header = f.read()
+# content = content.replace('<!-- insert header here -->', header)
+# with open('index.html', 'w') as f: content = f.write(content)
 
 with open('servizi_edit.html', 'r') as f: content = f.read()
 with open('components/header.html', 'r') as f: header = f.read()
