@@ -227,10 +227,10 @@ def add_business_to_csv(output_file, label, address, website, phone, s_emails, d
 		f.write(string_to_write)
 		
 
-def scrape_new_business(search_text, search_industry, search_district, i):
+def scrape_new_business(search_text, i):
 	global sep
 
-	output_file = f'./exports/{search_industry}-{search_district}.csv'.replace(' ', '_')
+	output_file = f'./exports/{search_text}.csv'.replace(' ', '_')
 
 	old_businesses = get_old_businesses(output_file)
 	business, label = find_new_business(old_businesses)
@@ -257,9 +257,6 @@ def scrape_new_business(search_text, search_industry, search_district, i):
 	emails = scrape_emails(website)
 	s_emails = ' '.join(emails)
 
-	# if search_district.lower().strip() != district.lower().strip():
-	# 	return 'NO MATCH: District'
-
 	name = sanitize(name)
 
 	if name != label:
@@ -274,80 +271,45 @@ def scrape_new_business(search_text, search_industry, search_district, i):
 	
 
 
+search_text = 'caseificio treviso'
 
-
-# # open_browser()
-
-# provincia = 'TV'
-# industry = 'salumifici'
-
-# # GET COMUNI FROM PROVINCIA
-# with open('comuni.csv', 'r', encoding="utf-8") as f: comuni = [line.split(sep) for line in f.readlines()]
-# comuni_filtered = [line for line in comuni if line[2].strip().lower() == provincia.strip().lower()]
-
-# for i, comune in enumerate(comuni_filtered):
-# 	print(comune)
-# 	comune_nome = comune[1]
-# 	search_text = f'{industry} {comune_nome.lower()}'
-# 	search(search_text)
-# 	sleep(10)
-# 	if i >= 3: break
-
-
-
-
-# search(search_text)
-
-# for i in range(30):
-# 	err = scrape_new_business(search_text, i)
-# 	print(err, '\n')
-# 	if err == 'name_not_equal_label': break
-
-# quit()
+open_browser()
 
 
 
 
 
+search(search_text)
 
-
-
-
-
-
+for i in range(30):
+	err = scrape_new_business(search_text, i)
+	print(err, '\n')
+	if err == 'name_not_equal_label': break
 
 ######################################################################################
 # MAIN
 ######################################################################################
 def main():
-	# search_industry = input('Inserisci il settore (es. salumifici): ')
-	# search_district = input('Inserisci la provincia (es. TV): ')
-	# scrapes_num = int(input('Inserisci il numero di azioni (es. 30): '))
+	# params = sys.argv[1:]
+	# if len(params) != 1:
+	# 	print('')
+	# 	print('#####################################################################')
+	# 	print('### ERR: Invalid Search - Search should have exactly 1 parameter. ###')
+	# 	print('#####################################################################')
+	# 	return
 
-	search_industry = 'salumifici'
-	search_district = 'TV'
-	scrapes_num = 30
+	# search_text = params[0]
 
-	# GET COMUNI FROM PROVINCIA
-	with open('comuni.csv', 'r', encoding="utf-8") as f: comuni = [line.split(sep) for line in f.readlines()]
-	comuni_filtered = [line for line in comuni if line[2].strip().lower() == search_district.strip().lower()]
+	search_text = input('Enter Search Text: ')
+	scrapes_num = int(input('Enter Numeber of Actions: '))
 
 	open_browser()
-	# search(search_text)
+	search(search_text)
 	
-	for i, comune in enumerate(comuni_filtered):
-		print(comune)
-
-		comune_nome = comune[1]
-		search_text = f'{search_industry} {comune_nome.lower()}'
-		search(search_text)
-		sleep(10)
-		# if i >= 3: break
-
-		for k in range(scrapes_num):
-			err = scrape_new_business(search_text, search_industry, search_district, k)
-			print(err, '\n')
-			# if err == 'name_not_equal_label': break
+	for i in range(scrapes_num):
+		err = scrape_new_business(search_text, i)
+		print(err, '\n')
+		# if err == 'name_not_equal_label': break
 	
 	driver.quit()
 
