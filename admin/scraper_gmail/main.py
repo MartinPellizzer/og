@@ -119,11 +119,13 @@ def open_browser():
 
 def scroll_down_up_down():
 	global driver
-	driver.find_element(By.XPATH, '//div[@role="feed"]').send_keys(Keys.PAGE_DOWN)
+	try: feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
+	except: return
+	feed.send_keys(Keys.PAGE_DOWN)
 	sleep(2)
-	driver.find_element(By.XPATH, '//div[@role="feed"]').send_keys(Keys.PAGE_UP)
+	feed.send_keys(Keys.PAGE_UP)
 	sleep(2)
-	driver.find_element(By.XPATH, '//div[@role="feed"]').send_keys(Keys.PAGE_DOWN)
+	feed.send_keys(Keys.PAGE_DOWN)
 	sleep(2)
 
 
@@ -188,7 +190,8 @@ def scrape_phone(e):
 
 def find_new_business(old_businesses):
 	global driver
-	feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
+	try: feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
+	except: return None, None
 	items = feed.find_elements(By.XPATH, './/a/..')
 	for item in items:
 		a = item.find_element(By.XPATH, './/a')

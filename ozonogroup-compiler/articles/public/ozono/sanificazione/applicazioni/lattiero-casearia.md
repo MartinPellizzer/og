@@ -13,8 +13,11 @@ Questo processo contribuisce a prevenire la contaminazione microbiologica, migli
 
 Inoltre, l'utilizzo dell'ozono come agente sanificante riduce la dipendenza da sostanze chimiche più aggressive, promuovendo un approccio più sostenibile e rispettoso dell'ambiente nell'ambito dell'industria lattiero-casearia.
 
+![Ozono Sanificazione Industria Lattiero-Caseria Definizione](/assets/images/ozono-sanificazione-industria-lattiero-casearia-definizione.jpg)
 
-## Quali problemi la sanificazione ad ozono risolve nei caseifici?
+
+
+## Quali problemi risolve la sanificazione ad ozono nei caseifici?
 
 L'ozono svolge un ruolo fondamentale nell'industria lattiero-casearia, eliminando batteri, inattivando virus, ossidando muffe, respingendo parassiti e disgregando odori indesiderati. 
 
