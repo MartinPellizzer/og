@@ -182,10 +182,10 @@ def debug_cells():
             draw.text((a4_mx + column_w*i, a4_my + row_h*k), coord, font=font, fill='#a21c')
 
 
-# debug_margins()
-# debug_columns()
-# debug_rows()
-# debug_cells()
+debug_margins()
+debug_columns()
+debug_rows()
+debug_cells()
 
 
 img.show()
