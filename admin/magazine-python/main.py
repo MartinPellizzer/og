@@ -46,9 +46,9 @@ def img_resize(image_path_in, image_path_out, w, h, quality=100):
 #####################################################################
 a4_w, a4_h = 2480, 3508
 
+
 img = Image.new("RGB", (a4_w, a4_h), "white")
 draw = ImageDraw.Draw(img)
-
 
 
 a4_mx = a4_w//100*5
@@ -73,38 +73,11 @@ def get_coord(cs, rs, ce, re):
     return x, y, w, h
 
 
-# DRAW IMAGE
-img_featured = Image.open('image-resized.jpg')
-x, y, w, h = get_coord(0, 1, 1, 12)
-img_resize('image.jpg', 'image-resized.jpg', w, h, 90)
-img.paste(img_featured, (x, y))
-
-
-
-
-# DRAW TITLE
-title = '''
-Nature\'s
-Wonderland
-'''
-
-title = title.strip()
-title_lines = title.split('\n')
-
-font_size = 192
-font = ImageFont.truetype("arial.ttf", font_size)
-
-for i, line in enumerate(title_lines):
-    draw.text((a4_mx, 1500 + 200 + font_size*1.0*i), line, font=font, fill="black")
-
-
 def draw_text_column(filename, x_start, y_start):
-    # DRAW COLUMN
     font_size = 32
     font = ImageFont.truetype("arial.ttf", font_size)
     text_width = column_w - column_gap
 
-    # split content in paragraphs
     content = file_read(filename)
     paragraph_list = content.split('\n')
     paragraphs = []
@@ -125,12 +98,12 @@ def draw_text_column(filename, x_start, y_start):
                     line = line.replace('## ', '').strip()
                     font_size_title = 48
                     font = ImageFont.truetype("arialbd.ttf", font_size_title)
-                    draw.text((x_start + a4_mx, y), line, font=font, fill="black")
+                    draw.text((x_start, y), line, font=font, fill="black")
                     font_size = 32
                     font = ImageFont.truetype("arial.ttf", font_size)
                     y += font_size_title - font_size
                 else:
-                    draw.text((x_start + a4_mx, y), line, font=font, fill="black")
+                    draw.text((x_start, y), line, font=font, fill="black")
             else:
                 for i, line in enumerate(paragraphs[paragraph_index]):
                     if i != lines_num - 1:
@@ -139,17 +112,107 @@ def draw_text_column(filename, x_start, y_start):
                         space_length = (text_width - words_length) / (len(words) - 1)
                         x = x_start
                         for word in words:
-                            draw.text((x + a4_mx, y), word, font=font, fill="black")
+                            draw.text((x, y), word, font=font, fill="black")
                             x += draw.textlength(word, font=font) + space_length
                         y += font_size*1.2
                     else:
-                        draw.text((x_start + a4_mx, y), line, font=font, fill="black")
+                        draw.text((x_start, y), line, font=font, fill="black")
 
 
-draw_text_column('col-1.md', column_w*0, 2200)
-draw_text_column('col-2.md', column_w*1+column_gap//2, 2200)
-draw_text_column('col-3.md', column_w*2+column_gap, 300)
+def gen_template_1():
+    
+    x, y, w, h = get_coord(0, 1, 1, 12)
+    img_resize('image.jpg', 'image-resized.jpg', w - column_gap//2, h, 90)
+    img_featured = Image.open('image-resized.jpg')
+    img.paste(img_featured, (x, y))
 
+    title = '''
+    Nature\'s
+    Wonderland
+    '''
+
+    title = title.strip()
+    title_lines = title.split('\n')
+
+    font_size = 192
+    font = ImageFont.truetype("arial.ttf", font_size)
+
+    x, y, _, _ = get_coord(0, 15, 0, 0)
+    for i, line in enumerate(title_lines):
+        draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
+
+    x, y, _, _ = get_coord(0, 20, 0, 0)
+    draw_text_column('col-1.md', x, y)
+
+    x, y, _, _ = get_coord(1, 20, 0, 0)
+    draw_text_column('col-2.md', x+column_gap//2, y)
+
+    x, y, _, _ = get_coord(2, 1, 0, 0)
+    draw_text_column('col-3.md', x+column_gap, y)
+
+
+    text = 'OZONOGROUP'
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_mx, y), text, font=font, fill="black")
+
+    text = '1'
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_mx-(page_num_text_w//2)-int(a4_mx*0.5), y), text, font=font, fill="black")
+
+    img.save('template-magazine-1.jpg', quality=50)
+
+
+
+def gen_template_2():
+
+    x, y, w, h = get_coord(1, 1, 2, 9)
+    img_resize('0001.jpg', '0001-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open('0001-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+
+    x, y, w, h = get_coord(1, 10, 2, 17)
+    img_resize('0002.jpg', '0002-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open('0002-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y+int(row_h//2)))
+
+
+    x, y, w, h = get_coord(1, 19, 2, 30)
+    img_resize('0003.jpg', '0003-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open('0003-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+
+    font_size = 32
+    font = ImageFont.truetype("arial.ttf", font_size)
+    x, y, _, _ = get_coord(0, 1, 0, 0)
+    draw_text_column('col-4.md', x, y)
+
+    text = 'OZONOGROUP'
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_w-a4_mx-page_num_text_w, y), text, font=font, fill="black")
+
+    text = '2'
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_w-a4_mx-(page_num_text_w//2)+int(a4_mx*0.5), y), text, font=font, fill="black")
+
+    img.save('template-magazine-2.jpg', quality=50)
+
+# gen_template_1()
+
+gen_template_2()
 
 
 
@@ -163,9 +226,9 @@ def debug_margins():
 
 def debug_columns():
     for i in range(column_num-1):
-        # draw.line((column_w*(i+1) + a4_mx - column_gap, 0, column_w*(i+1) + a4_mx  - column_gap, a4_h), fill='#a21caf')
+        draw.line((column_w*(i+1) + a4_mx - column_gap, 0, column_w*(i+1) + a4_mx  - column_gap, a4_h), fill='#a21caf')
         draw.line((column_w*(i+1) + a4_mx, 0, column_w*(i+1) + a4_mx, a4_h), fill='#a21caf')
-        # draw.line((column_w*(i+1) + a4_mx + column_gap, 0, column_w*(i+1) + a4_mx  + column_gap, a4_h), fill='#a21caf')
+        draw.line((column_w*(i+1) + a4_mx + column_gap, 0, column_w*(i+1) + a4_mx  + column_gap, a4_h), fill='#a21caf')
 
 
 def debug_rows():
@@ -182,11 +245,10 @@ def debug_cells():
             draw.text((a4_mx + column_w*i, a4_my + row_h*k), coord, font=font, fill='#a21c')
 
 
-debug_margins()
-debug_columns()
-debug_rows()
-debug_cells()
+# debug_margins()
+# debug_columns()
+# debug_rows()
+# debug_cells()
 
 
-img.show()
-img.save('template-magazine-1.jpg', quality=50)
+# img.show()
