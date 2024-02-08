@@ -148,6 +148,50 @@ def get_coord(cs, rs, ce, re):
     return x, y, w, h
 
 
+def text_to_lines(text, text_width):
+    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    words = text.split(' ')
+    lines = []
+    line_curr = ''
+    for word in words:
+        word_w = font.getbbox(word)[2]
+        line_curr_w = font.getbbox(line_curr)[2]
+        if word_w + line_curr_w < text_width:
+            line_curr += word + ' '
+        else:
+            lines.append(line_curr.strip())
+            line_curr = word + ' '
+    lines.append(line_curr.strip())
+    return lines
+
+
+def text_to_lines_optim(text):
+    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    text_width_optim = 0
+    text_width_curr_best = 9999
+    for i in range(10):
+        offset = i*10
+        lines = text_to_lines(text, column_w-offset)
+
+        # print(column_w-offset)
+        text_width_min = 9999
+        text_width_max = 0
+        for line in lines[:-1]:
+            line_w = font.getbbox(line)[2]
+            if text_width_min > line_w: text_width_min = line_w
+            if text_width_max < line_w: text_width_max = line_w
+            # print(line)
+        # print(lines[-1])
+        if text_width_curr_best > text_width_max - text_width_min:
+            text_width_curr_best = text_width_max - text_width_min
+            text_width_optim = column_w-offset
+        # print()
+    
+    lines = text_to_lines(text, text_width_optim)
+    return lines
+
+
+
 def draw_text_column(filename, x_start, y_start, color='#000000'):
     font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
     text_width = column_w - column_gap
@@ -156,8 +200,13 @@ def draw_text_column(filename, x_start, y_start, color='#000000'):
     paragraph_list = content.split('\n')
     paragraphs = []
     for paragraph in paragraph_list:
-        lines = textwrap.wrap(paragraph, width=WORDS_SPACING)
+        # lines = textwrap.wrap(paragraph, width=WORDS_SPACING)
+        lines = text_to_lines_optim(paragraph)
         paragraphs.append(lines)
+
+        # text = file_read('text.md')
+        # lines = text.split('\n')
+        # paragraphs.append(lines)
 
     y = y_start
     for i in range(len(paragraphs)):
@@ -255,7 +304,6 @@ def gen_template_2(page_num):
     draw_page_number_right(page_num)
 
     img.save(f'exports/page-2.jpg', quality=50)
-
 
 
 def gen_template_3(page_num):
@@ -377,59 +425,50 @@ def gen_template_4(page_num):
     img.save(f'exports/page-4.jpg', quality=50)
 
 
+def draw_text_left(text, col, row):
+    x, y, _, _ = get_coord(col, row, 0, 0)
 
-def text_to_lines(text, text_font, text_size):
-    font = ImageFont.truetype(text_font, text_size)
-    words = text.split(' ')
-    lines = []
-    line_curr = ''
-    for word in words:
-        word_w = font.getbbox(word)[2]
-        line_curr_w = font.getbbox(line_curr)[2]
-        if word_w + line_curr_w < column_w:
-            line_curr += word + ' '
-        else:
-            lines.append(line_curr.strip())
-            line_curr = word + ' '
-    lines.append(line_curr.strip())
-    return lines
+    lines = text_to_lines(text, column_w)
+    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    for i, line in enumerate(lines):
+        draw.text((x, y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill="black")
+    
+        
+def draw_text_right(text, col, row):
+    x, y, _, _ = get_coord(col, row, 0, 0)
 
-
-# content = file_read('page-1/col-1.md')
-# words = content.split(' ')
-# lines = []
-# line_curr = ''
-# for word in words:
-#     word_w = font.getbbox(word)[2]
-#     line_curr_w = font.getbbox(line_curr)[2]
-#     if word_w + line_curr_w < column_w:
-#         line_curr += word + ' '
-#     else:
-#         lines.append(line_curr.strip())
-#         line_curr = word + ' '
-# lines.append(line_curr.strip())
-
-content = file_read('page-1/col-1.md')
-lines = text_to_lines(content, TEXT_FONT, TEXT_SIZE)
-font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
-for i, line in enumerate(lines):
-    print(line)
-    draw.text((a4_mx, a4_my + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill="black")
+    lines = text_to_lines(text, column_w)
+    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    for i, line in enumerate(lines):
+        line_w = font.getbbox(line)[2]
+        draw.text((x + (column_w - line_w), y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill="black")
 
     
+# text = file_read('page-1/col-1.md')
+# draw_text_left(text, 0, 0)
 
 
 
-
-# gen_template_1(1)
+gen_template_1(1)
 # gen_template_2(2)
 # gen_template_3(3)
 # gen_template_4(4)
 
 
-debug_margins()
-debug_columns()
-debug_rows()
-debug_cells()
+# debug_margins()
+# debug_columns()
+# debug_rows()
+# debug_cells()
+
+
+
+# print(text_width_optim)
+
+# text = file_read('text.md')
+# lines = text.split('\n')
+
+# font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+# x, y, _, _ = get_coord(0, 0, 0, 31)
+# draw_text_column(f'page-1/col-1.md', x, y, color='#ffffff')
 
 img.show()
