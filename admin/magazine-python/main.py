@@ -1,6 +1,12 @@
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageOps
 import textwrap
 import os
+
+TEXT_SIZE = 44
+WORDS_SPACING = 34
+TEXT_LINE_SPACING = 1.2
+TEXT_FONT = 'times.ttf'
+TEXT_FONT = 'arial.ttf'
 
 
 def file_read(filepath):
@@ -41,181 +47,13 @@ def img_resize(image_path_in, image_path_out, w, h, quality=100):
 
     return output_path
 
+
+
+
+
 #####################################################################
-# ;MAIN
+# ;DEBUG
 #####################################################################
-a4_w, a4_h = 2480, 3508
-
-
-img = Image.new("RGB", (a4_w, a4_h), "white")
-draw = ImageDraw.Draw(img)
-
-
-a4_mx = a4_w//100*5
-a4_my = a4_h//100*5
-
-
-column_num = 3
-column_w = (a4_w - a4_mx*2)//column_num
-column_gap = a4_mx*0.5
-
-row_num = 32
-row_h = (a4_h - a4_my*2)//row_num
-row_gap = a4_my*0.5
-
-
-
-def get_coord(cs, rs, ce, re):
-    x = a4_mx + column_w*cs
-    y = a4_my + row_h*rs
-    w = column_w*(ce-cs+1)
-    h = row_h*(re-rs+1)
-    return x, y, w, h
-
-
-def draw_text_column(filename, x_start, y_start):
-    font_size = 32
-    font = ImageFont.truetype("arial.ttf", font_size)
-    text_width = column_w - column_gap
-
-    content = file_read(filename)
-    paragraph_list = content.split('\n')
-    paragraphs = []
-    for paragraph in paragraph_list:
-        lines = textwrap.wrap(paragraph, width=48)
-        paragraphs.append(lines)
-
-    y = y_start
-    for i in range(len(paragraphs)):
-        paragraph_index = i
-        if not paragraphs[paragraph_index]:
-            y += font_size*1.2*2
-        else:
-            lines_num = len(paragraphs[paragraph_index])
-            if lines_num == 1:
-                line = paragraphs[paragraph_index][0]
-                if line.startswith('## '):
-                    line = line.replace('## ', '').strip()
-                    font_size_title = 48
-                    font = ImageFont.truetype("arialbd.ttf", font_size_title)
-                    draw.text((x_start, y), line, font=font, fill="black")
-                    font_size = 32
-                    font = ImageFont.truetype("arial.ttf", font_size)
-                    y += font_size_title - font_size
-                else:
-                    draw.text((x_start, y), line, font=font, fill="black")
-            else:
-                for i, line in enumerate(paragraphs[paragraph_index]):
-                    if i != lines_num - 1:
-                        words = line.split(" ")
-                        words_length = sum(draw.textlength(w, font=font) for w in words)
-                        space_length = (text_width - words_length) / (len(words) - 1)
-                        x = x_start
-                        for word in words:
-                            draw.text((x, y), word, font=font, fill="black")
-                            x += draw.textlength(word, font=font) + space_length
-                        y += font_size*1.2
-                    else:
-                        draw.text((x_start, y), line, font=font, fill="black")
-
-
-def gen_template_1():
-    
-    x, y, w, h = get_coord(0, 1, 1, 12)
-    img_resize('image.jpg', 'image-resized.jpg', w - column_gap//2, h, 90)
-    img_featured = Image.open('image-resized.jpg')
-    img.paste(img_featured, (x, y))
-
-    title = '''
-    Nature\'s
-    Wonderland
-    '''
-
-    title = title.strip()
-    title_lines = title.split('\n')
-
-    font_size = 192
-    font = ImageFont.truetype("arial.ttf", font_size)
-
-    x, y, _, _ = get_coord(0, 15, 0, 0)
-    for i, line in enumerate(title_lines):
-        draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
-
-    x, y, _, _ = get_coord(0, 20, 0, 0)
-    draw_text_column('col-1.md', x, y)
-
-    x, y, _, _ = get_coord(1, 20, 0, 0)
-    draw_text_column('col-2.md', x+column_gap//2, y)
-
-    x, y, _, _ = get_coord(2, 1, 0, 0)
-    draw_text_column('col-3.md', x+column_gap, y)
-
-
-    text = 'OZONOGROUP'
-    font_size = 36
-    font = ImageFont.truetype("arialbd.ttf", font_size)
-    _, y, _, _ = get_coord(0, 32, 0, 0)
-    page_num_text_w = font.getbbox(text)[2]
-    draw.text((a4_mx, y), text, font=font, fill="black")
-
-    text = '1'
-    font_size = 36
-    font = ImageFont.truetype("arialbd.ttf", font_size)
-    _, y, _, _ = get_coord(0, 32, 0, 0)
-    page_num_text_w = font.getbbox(text)[2]
-    draw.text((a4_mx-(page_num_text_w//2)-int(a4_mx*0.5), y), text, font=font, fill="black")
-
-    img.save('template-magazine-1.jpg', quality=50)
-
-
-
-def gen_template_2():
-
-    x, y, w, h = get_coord(1, 1, 2, 9)
-    img_resize('0001.jpg', '0001-resized.jpg', int(w-column_gap), h, 90)
-    img_featured = Image.open('0001-resized.jpg')
-    img.paste(img_featured, (x+int(column_gap), y))
-
-
-    x, y, w, h = get_coord(1, 10, 2, 17)
-    img_resize('0002.jpg', '0002-resized.jpg', int(w-column_gap), h, 90)
-    img_featured = Image.open('0002-resized.jpg')
-    img.paste(img_featured, (x+int(column_gap), y+int(row_h//2)))
-
-
-    x, y, w, h = get_coord(1, 19, 2, 30)
-    img_resize('0003.jpg', '0003-resized.jpg', int(w-column_gap), h, 90)
-    img_featured = Image.open('0003-resized.jpg')
-    img.paste(img_featured, (x+int(column_gap), y))
-
-
-    font_size = 32
-    font = ImageFont.truetype("arial.ttf", font_size)
-    x, y, _, _ = get_coord(0, 1, 0, 0)
-    draw_text_column('col-4.md', x, y)
-
-    text = 'OZONOGROUP'
-    font_size = 36
-    font = ImageFont.truetype("arialbd.ttf", font_size)
-    _, y, _, _ = get_coord(0, 32, 0, 0)
-    page_num_text_w = font.getbbox(text)[2]
-    draw.text((a4_w-a4_mx-page_num_text_w, y), text, font=font, fill="black")
-
-    text = '2'
-    font_size = 36
-    font = ImageFont.truetype("arialbd.ttf", font_size)
-    _, y, _, _ = get_coord(0, 32, 0, 0)
-    page_num_text_w = font.getbbox(text)[2]
-    draw.text((a4_w-a4_mx-(page_num_text_w//2)+int(a4_mx*0.5), y), text, font=font, fill="black")
-
-    img.save('template-magazine-2.jpg', quality=50)
-
-# gen_template_1()
-
-gen_template_2()
-
-
-
 
 def debug_margins():
     draw.line((a4_mx, 0, a4_mx, a4_h), fill='#a21caf')
@@ -245,10 +83,313 @@ def debug_cells():
             draw.text((a4_mx + column_w*i, a4_my + row_h*k), coord, font=font, fill='#a21c')
 
 
+
+#####################################################################
+# ;MAIN
+#####################################################################
+
+a4_w, a4_h = 2480, 3508
+
+
+img = Image.new("RGB", (a4_w, a4_h), "white")
+draw = ImageDraw.Draw(img)
+
+
+a4_mx = a4_w//100*5
+a4_my = a4_h//100*5
+
+
+column_num = 3
+column_w = (a4_w - a4_mx*2)//column_num
+column_gap = a4_mx*0.5
+
+row_num = 32
+row_h = (a4_h - a4_my*2)//row_num
+row_gap = a4_my*0.5
+
+
+def draw_page_number_left(page_num):
+    text = 'OZONOGROUP'
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_mx, y), text, font=font, fill="black")
+
+    text = str(page_num)
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_mx-(page_num_text_w//2)-int(a4_mx*0.5), y), text, font=font, fill="black")
+    
+
+def draw_page_number_right(page_num):
+    text = 'OZONOGROUP'
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_w-a4_mx-page_num_text_w, y), text, font=font, fill="black")
+
+    text = str(page_num)
+    font_size = 36
+    font = ImageFont.truetype("arialbd.ttf", font_size)
+    _, y, _, _ = get_coord(0, 32, 0, 0)
+    page_num_text_w = font.getbbox(text)[2]
+    draw.text((a4_w-a4_mx-(page_num_text_w//2)+int(a4_mx*0.5), y), text, font=font, fill="black")
+
+
+def get_coord(cs, rs, ce, re):
+    x = a4_mx + column_w*cs
+    y = a4_my + row_h*rs
+    w = column_w*(ce-cs+1)
+    h = row_h*(re-rs+1)
+    return x, y, w, h
+
+
+def draw_text_column(filename, x_start, y_start, color='#000000'):
+    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    text_width = column_w - column_gap
+
+    content = file_read(filename)
+    paragraph_list = content.split('\n')
+    paragraphs = []
+    for paragraph in paragraph_list:
+        lines = textwrap.wrap(paragraph, width=WORDS_SPACING)
+        paragraphs.append(lines)
+
+    y = y_start
+    for i in range(len(paragraphs)):
+        paragraph_index = i
+        if not paragraphs[paragraph_index]:
+            y += TEXT_SIZE*TEXT_LINE_SPACING*2
+        else:
+            lines_num = len(paragraphs[paragraph_index])
+            if lines_num == 1:
+                line = paragraphs[paragraph_index][0]
+                if line.startswith('## '):
+                    line = line.replace('## ', '').strip()
+                    font_size_title = 48
+                    font = ImageFont.truetype("arialbd.ttf", font_size_title)
+                    draw.text((x_start, y), line, font=font, fill=color)
+                    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+                    y += font_size_title - TEXT_SIZE
+                else:
+                    draw.text((x_start, y), line, font=font, fill=color)
+            else:
+                for i, line in enumerate(paragraphs[paragraph_index]):
+                    if i != lines_num - 1:
+                        words = line.split(" ")
+                        words_length = sum(draw.textlength(w, font=font) for w in words)
+                        space_length = (text_width - words_length) / (len(words) - 1)
+                        x = x_start
+                        for word in words:
+                            draw.text((x, y), word, font=font, fill=color)
+                            x += draw.textlength(word, font=font) + space_length
+                        y += TEXT_SIZE*TEXT_LINE_SPACING
+                    else:
+                        draw.text((x_start, y), line, font=font, fill=color)
+
+
+def gen_template_1(page_num):
+    x, y, w, h = get_coord(0, 1, 1, 12)
+    img_resize(f'page-{page_num}/image.jpg', f'page-{page_num}/image-resized.jpg', w - column_gap//2, h, 90)
+    img_featured = Image.open(f'page-{page_num}/image-resized.jpg')
+    img.paste(img_featured, (x, y))
+
+    title = '''
+    Nature\'s
+    Wonderland
+    '''
+
+    title = title.strip()
+    title_lines = title.split('\n')
+
+    font_size = 192
+    font = ImageFont.truetype("arial.ttf", font_size)
+
+    x, y, _, _ = get_coord(0, 15, 0, 0)
+    for i, line in enumerate(title_lines):
+        draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
+
+    x, y, _, _ = get_coord(0, 20, 0, 0)
+    draw_text_column(f'page-{page_num}/col-1.md', x, y)
+
+    x, y, _, _ = get_coord(1, 20, 0, 0)
+    draw_text_column(f'page-{page_num}/col-2.md', x+column_gap//2, y)
+
+    x, y, _, _ = get_coord(2, 1, 0, 0)
+    draw_text_column(f'page-{page_num}/col-3.md', x+column_gap, y)
+
+    draw_page_number_left(page_num)
+
+    img.save(f'exports/page-1.jpg', quality=50)
+
+
+def gen_template_2(page_num):
+
+    x, y, w, h = get_coord(1, 1, 2, 9)
+    img_resize(f'page-{page_num}/0001.jpg', f'page-{page_num}/0001-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open(f'page-{page_num}/0001-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+
+    x, y, w, h = get_coord(1, 10, 2, 17)
+    img_resize(f'page-{page_num}/0002.jpg', f'page-{page_num}/0002-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open(f'page-{page_num}/0002-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y+int(row_h//2)))
+
+
+    x, y, w, h = get_coord(1, 19, 2, 30)
+    img_resize(f'page-{page_num}/0003.jpg', f'page-{page_num}/0003-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open(f'page-{page_num}/0003-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+
+    font_size = 32
+    font = ImageFont.truetype("arial.ttf", font_size)
+    x, y, _, _ = get_coord(0, 1, 0, 0)
+    draw_text_column(f'page-{page_num}/col-1.md', x, y)
+
+    draw_page_number_right(page_num)
+
+    img.save(f'exports/page-2.jpg', quality=50)
+
+
+
+def gen_template_3(page_num):
+    global img
+    global draw
+
+    title = '''
+    Travelling
+    Alone
+    '''
+    title = title.strip()
+    title_lines = title.split('\n')
+    font_size = 320
+    font = ImageFont.truetype("arial.ttf", font_size)
+    x, y, _, _ = get_coord(0, 4, 0, 0)
+    for i, line in enumerate(title_lines):
+        draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
+
+    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    x, y, _, _ = get_coord(0, 12, 0, 0)
+    draw_text_column(f'page-{page_num}/col-1.md', x, y)
+
+    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    x, y, _, _ = get_coord(1, 12, 0, 0)
+    draw_text_column(f'page-{page_num}/col-2.md', x, y)
+    
+    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    x, y, _, _ = get_coord(2, 12, 0, 0)
+    draw_text_column(f'page-{page_num}/col-3.md', x, y)
+
+    draw_page_number_left(page_num)
+
+    text = '''
+    OZONO
+    MAGAZINE
+    '''
+    text = text.strip()
+    text_lines = text.split('\n')
+    font = ImageFont.truetype("arial.ttf", 48)
+    x, y, _, _ = get_coord(1, 0, 0, 0)
+    for i, line in enumerate(text_lines):
+        line = line.strip()
+        line_w = font.getbbox(line)[2]
+        draw.text((x + column_w//2 - line_w//2, y + TEXT_SIZE*1.5*i - int(TEXT_SIZE*0.2)), line, font=font, fill="black")
+
+    img.save(f'page-{page_num}/page-2.png', quality=50)
+
+
+    # CIRCLE IMAGE
+    img_circle = Image.new("RGB", (column_w, column_w), "black")
+    draw_circle = ImageDraw.Draw(img_circle)
+    draw_circle.ellipse((0, 0, column_w-column_gap, column_w-column_gap), fill='white')
+    img_circle.save(f'page-{page_num}/circle-mask.jpg', quality=100)
+
+    mask_circle = Image.open(f'page-{page_num}/circle-mask.jpg').convert('L')
+    img_circle = Image.open(f'page-{page_num}/0000.jpg')
+
+    img_circle = ImageOps.fit(img_circle, mask_circle.size, centering=(0.5, 0.5))
+    img_circle.putalpha(mask_circle)
+
+    img_circle.save(f'page-{page_num}/circle-image.png')
+
+    # CIRCLE COMPOSITE
+    img = Image.open(f'page-{page_num}/page-2.png')
+    draw = ImageDraw.Draw(img)
+
+    foreground = Image.open(f'page-{page_num}/circle-image.png')
+
+    x, y, _, _ = get_coord(1, 21, 0, 0)
+    img.paste(foreground, (x, y), foreground)
+
+    # IMAGE DESCRIPTION
+    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    x, y, _, _ = get_coord(1, 29, 0, 0)
+    draw_text_column(f'page-{page_num}/img-desc.md', x, y)
+
+    # HEADER DESCRIPTION
+    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    filepath = f'page-{page_num}/header-text.md'
+    text = file_read(filepath)
+    words = text.split(' ')
+    lines = []
+    line_curr = ''
+    for word in words:
+        word_w = font.getbbox(word)[2]
+        line_curr_w = font.getbbox(line_curr)[2]
+        if line_curr_w + word_w < int(column_w*0.75):
+            line_curr += word + ' '
+        else:
+            lines.append(line_curr)
+            line_curr = word + ' '
+    lines.append(line_curr)
+
+    x, y, _, _ = get_coord(2, 4, 0, 0)
+    for i, line in enumerate(lines):
+        line = line.strip()
+        line_w = font.getbbox(line)[2]
+        draw.text((x + int(column_w-line_w), y+TEXT_SIZE*i*TEXT_LINE_SPACING), line, font=font, fill="black")
+
+    img.save(f'exports/page-3.jpg', quality=50)
+
+
+def gen_template_4(page_num):
+    global img
+    global draw
+
+    x, y, w, h = get_coord(1, 0, 2, 31)
+    img_resize(f'page-{page_num}/0000.jpg', f'page-{page_num}/0000-resized.jpg', a4_w-x, a4_h, 90)
+    img_featured = Image.open(f'page-{page_num}/0000-resized.jpg')
+    img.paste(img_featured, (x, 0))
+
+    x, y, w, h = get_coord(0, 0, 0, 31)
+    draw.rectangle(((0, 0), (w+a4_mx+column_gap, a4_h)), fill="#18181b")
+
+    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    x, y, _, _ = get_coord(0, 0, 0, 31)
+    draw_text_column(f'page-{page_num}/col-1.md', x, y, color='#ffffff')
+
+    img.save(f'exports/page-4.jpg', quality=50)
+
+
+
+
+
+
+# gen_template_1(1)
+# gen_template_2(2)
+# gen_template_3(3)
+gen_template_4(4)
+
+
 # debug_margins()
 # debug_columns()
 # debug_rows()
 # debug_cells()
 
-
-# img.show()
+img.show()
