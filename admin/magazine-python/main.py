@@ -169,23 +169,20 @@ def text_to_lines_optim(text):
     font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
     text_width_optim = 0
     text_width_curr_best = 9999
-    for i in range(10):
-        offset = i*10
+    step_num = 10
+    for i in range(step_num):
+        offset = i*TEXT_SIZE
         lines = text_to_lines(text, column_w-offset)
 
-        # print(column_w-offset)
         text_width_min = 9999
         text_width_max = 0
         for line in lines[:-1]:
             line_w = font.getbbox(line)[2]
             if text_width_min > line_w: text_width_min = line_w
             if text_width_max < line_w: text_width_max = line_w
-            # print(line)
-        # print(lines[-1])
         if text_width_curr_best > text_width_max - text_width_min:
             text_width_curr_best = text_width_max - text_width_min
             text_width_optim = column_w-offset
-        # print()
     
     lines = text_to_lines(text, text_width_optim)
     return lines
@@ -204,14 +201,12 @@ def draw_text_column(filename, x_start, y_start, color='#000000'):
         lines = text_to_lines_optim(paragraph)
         paragraphs.append(lines)
 
-        # text = file_read('text.md')
-        # lines = text.split('\n')
-        # paragraphs.append(lines)
-
     y = y_start
     for i in range(len(paragraphs)):
         paragraph_index = i
-        if not paragraphs[paragraph_index]:
+        # IF PARAGRAPH IS NONE OR EMPTY: RENDER BLANK LINE (TO SEPARATE NEXT PARAGRAPH)
+        # >> maybe fix "text_to_lines_optim" to get none list instead of empty one 
+        if not paragraphs[paragraph_index] or paragraphs[paragraph_index][0] == '':
             y += TEXT_SIZE*TEXT_LINE_SPACING*2
         else:
             lines_num = len(paragraphs[paragraph_index])
