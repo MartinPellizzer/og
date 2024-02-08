@@ -2,9 +2,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 import textwrap
 import os
 
-TEXT_SIZE = 44
-WORDS_SPACING = 34
-TEXT_LINE_SPACING = 1.2
+TEXT_SIZE = 36
+WORDS_SPACING = 42
+TEXT_LINE_SPACING = 1.25
 TEXT_FONT = 'times.ttf'
 TEXT_FONT = 'arial.ttf'
 
@@ -378,18 +378,58 @@ def gen_template_4(page_num):
 
 
 
+def text_to_lines(text, text_font, text_size):
+    font = ImageFont.truetype(text_font, text_size)
+    words = text.split(' ')
+    lines = []
+    line_curr = ''
+    for word in words:
+        word_w = font.getbbox(word)[2]
+        line_curr_w = font.getbbox(line_curr)[2]
+        if word_w + line_curr_w < column_w:
+            line_curr += word + ' '
+        else:
+            lines.append(line_curr.strip())
+            line_curr = word + ' '
+    lines.append(line_curr.strip())
+    return lines
+
+
+# content = file_read('page-1/col-1.md')
+# words = content.split(' ')
+# lines = []
+# line_curr = ''
+# for word in words:
+#     word_w = font.getbbox(word)[2]
+#     line_curr_w = font.getbbox(line_curr)[2]
+#     if word_w + line_curr_w < column_w:
+#         line_curr += word + ' '
+#     else:
+#         lines.append(line_curr.strip())
+#         line_curr = word + ' '
+# lines.append(line_curr.strip())
+
+content = file_read('page-1/col-1.md')
+lines = text_to_lines(content, TEXT_FONT, TEXT_SIZE)
+font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+for i, line in enumerate(lines):
+    print(line)
+    draw.text((a4_mx, a4_my + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill="black")
+
+    
+
 
 
 
 # gen_template_1(1)
 # gen_template_2(2)
 # gen_template_3(3)
-gen_template_4(4)
+# gen_template_4(4)
 
 
-# debug_margins()
-# debug_columns()
-# debug_rows()
-# debug_cells()
+debug_margins()
+debug_columns()
+debug_rows()
+debug_cells()
 
 img.show()
