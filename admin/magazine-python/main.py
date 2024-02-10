@@ -84,9 +84,6 @@ def debug_cells():
 
 
 
-
-
-
 #####################################################################
 # ;TEXT
 #####################################################################
@@ -142,8 +139,6 @@ column_gap = a4_mx*0.5
 row_num = 32
 row_h = (a4_h - a4_my*2)//row_num
 row_gap = a4_my*0.5
-
-
 
 
 
@@ -506,6 +501,71 @@ def gen_template_5(page_num):
     img.save(f'exports/page-{page_num}.jpg', quality=50)
 
 
+def gen_template_6(page_num):
+    global img
+    global draw
+
+    
+    # IMAGE 1
+    x, y, w, h = get_coord(0, 1, 0, 8)
+    filename = '0000'
+    img_resize(
+        f'page-{page_num}/{filename}.jpg', 
+        f'page-{page_num}/{filename}-resized.jpg', 
+        w-column_gap, h, 90)
+    img_featured = Image.open(f'page-{page_num}/{filename}-resized.jpg')
+    img.paste(img_featured, (x, y))
+    
+    # IMAGE 2
+    x, y, w, h = get_coord(0, 21, 0, 30)
+    filename = '0001'
+    img_resize(
+        f'page-{page_num}/{filename}.jpg', 
+        f'page-{page_num}/{filename}-resized.jpg', 
+        w-column_gap, h, 90)
+    img_featured = Image.open(f'page-{page_num}/{filename}-resized.jpg')
+    img.paste(img_featured, (x, y))
+    
+    # IMAGE 3
+    x, y, w, h = get_coord(2, 19, 2, 30)
+    filename = '0002'
+    img_resize(
+        f'page-{page_num}/{filename}.jpg', 
+        f'page-{page_num}/{filename}-resized.jpg', 
+        w, h, 90)
+    img_featured = Image.open(f'page-{page_num}/{filename}-resized.jpg')
+    img.paste(img_featured, (x, y))
+
+    # COL 1
+    x, y, _, _ = get_coord(0, 11, 0, 0)
+    draw_text_column(f'page-{page_num}/col-1.md', x, y, color='#000000')
+
+    # COL 2
+    x, y, _, _ = get_coord(1, 1, 1, 3)
+    draw_text_column(f'page-{page_num}/col-2.md', x, y, color='#000000')
+
+    # DIVIDER
+    div_w = 3
+    div_h = 1750
+    x, y, _, _ = get_coord(2, 0, 0, 0)
+    draw.rectangle(((x, y-a4_h), (x+div_w, y+div_h)), fill="#000000")
+        
+
+    # TEXT 1
+    filepath = 'text-1.md'
+    text = file_read(f'page-{page_num}/{filepath}')
+    lines = text_to_lines(text, column_w-column_gap)
+    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    x, y, _, _ = get_coord(2, 1, 0, 0)
+    for i, line in enumerate(lines):
+        draw.text((x+column_gap, y + TEXT_SIZE*TEXT_LINE_SPACING*i), line.strip(), font=font, fill="#000000")
+
+    # PAGE NUM
+    draw_page_number_right(page_num, '#000000')
+
+    img.save(f'exports/page-{page_num}.jpg', quality=50)
+
+
 # text = file_read('page-1/col-1.md')
 # draw_text_left(text, 0, 0)
 
@@ -515,7 +575,8 @@ def gen_template_5(page_num):
 # gen_template_2(2)
 # gen_template_3(3)
 # gen_template_4(4)
-gen_template_5(5)
+# gen_template_5(5)
+gen_template_6(6)
 
 
 # debug_margins()
@@ -534,5 +595,5 @@ gen_template_5(5)
 # x, y, _, _ = get_coord(0, 0, 0, 31)
 # draw_text_column(f'page-1/col-1.md', x, y, color='#ffffff')
 
-img.save(f'tmp.jpg', quality=50)
+# img.save(f'tmp.jpg', quality=50)
 img.show()
