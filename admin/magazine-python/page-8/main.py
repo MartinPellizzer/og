@@ -105,13 +105,6 @@ def draw_text_right(text, font, col, row, color):
         line_w = font.getbbox(line)[2]
         draw.text((x + (column_w - line_w), y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
 
-def draw_text_right_2(text, font, x, y, color):
-    lines = text_to_lines(text, column_w)
-    font = ImageFont.truetype(font, TEXT_SIZE)
-    for i, line in enumerate(lines):
-        line_w = font.getbbox(line)[2]
-        draw.text((x + (column_w - line_w), y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
-
     
 def draw_page_number_left(page_num, color):
     text = f'{page_num}   |   OZONOGROUP'
@@ -658,9 +651,8 @@ def gen_template_8(page_num):
     img.paste(img_featured, (x, y))
     
     # TEXT 1
-    x, y, _, _ = get_coord(1, 31, 0, 0)
     text = file_read(f'page-{page_num}/text-1.md')
-    draw_text_right_2(text, "arial.ttf", x-column_gap*4, y, '#ffffff')
+    draw_text_right(text, "arial.ttf", 2, 1, '#000000')
 
     # COL 3
     x, y, _, _ = get_coord(2, 1, 2, 30)
