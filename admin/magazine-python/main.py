@@ -49,8 +49,6 @@ def img_resize(image_path_in, image_path_out, w, h, quality=100):
 
 
 
-
-
 #####################################################################
 # ;DEBUG
 #####################################################################
@@ -104,6 +102,7 @@ def draw_text_right(text, font, col, row, color):
     for i, line in enumerate(lines):
         line_w = font.getbbox(line)[2]
         draw.text((x + (column_w - line_w), y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
+
 
 def draw_text_right_2(text, font, x, y, color):
     lines = text_to_lines(text, column_w)
