@@ -697,12 +697,13 @@ def get_xy_from_cr(c, r):
     return x, y
 
 
-# TODO: MANAGE EMPTY LINE BETWEEN PARAGRAPHS???
+# TODO: RETURN LIST OF PARAGRAPHS INSTEAD OF FLAT LIST
+# YOU NEED SEPARATE PARAGRAPHS FOR DRAWING JUSTIFY CONTENT CORRECTLY
+# (MANAGING LAST LINE OF PARAGRAPH AS LEFT ALIGN IN JUSTIFY)
 def get_lines_from_text(font, text, text_width):
     paragraphs = text.split('\n\n')
     lines = []
     for paragraph in paragraphs:
-
         words = paragraph.split(' ')
         line_curr = ''
         for word in words:
@@ -716,8 +717,10 @@ def get_lines_from_text(font, text, text_width):
         lines.append(line_curr.strip())
         lines.append('\n\n')
 
-    for line in lines:
-        print(line)
+    # REMOVE LAST EMPTY LINE
+    print(lines)
+    lines = lines[:-1]
+    print(lines)
 
     return lines
 
@@ -937,8 +940,15 @@ def get_coord_2(cs, rs, ce, re):
     return [x, y, w, h]
 
 
+def draw_line_justify(words, font, x, y, w):
+    words_length = sum(draw.textlength(w, font=font) for w in words)
+    space_length = (column_w - column_gap - words_length) / (len(words) - 1)
+    for word in words:
+        draw.text((x, y), word, font=font, fill="#000000")
+        x += draw.textlength(word, font=font) + space_length
 
-def draw_cols_text(cols, article):
+
+def draw_cols_text(cols, article, align='left'):
     font_family = 'arial.ttf'
 
     font_size = 36
@@ -946,42 +956,68 @@ def draw_cols_text(cols, article):
     font = ImageFont.truetype(font_family, font_size)
 
     lines = get_lines_from_text(font, article, column_w-column_gap)
+    lines_num = len(lines)
     
     col_index = 0
-    x = cols[col_index][0]
-    y = cols[col_index][1]
-    w = cols[col_index][2]
-    h = cols[col_index][3]
+    x, y, w, h = cols[col_index]
     for i, line in enumerate(lines):
         if y > h:
             col_index += 1
             if col_index >= len(cols): break
-            x = cols[col_index][0]
-            y = cols[col_index][1]
-            w = cols[col_index][2]
-            h = cols[col_index][3]
+            x, y, w, h = cols[col_index]
 
+        line_w = font.getbbox(line)[2]
         line_h = font.getbbox(line)[3]
-        draw.text((x, y), line, font=font, fill="#000000")
+        if align == 'left':
+            draw.text((x, y), line, font=font, fill="#000000")
+        elif align == 'right':
+            draw.text((x + column_w-column_gap-line_w, y), line, font=font, fill="#000000")
+        elif align == 'center':
+            draw.text((x + column_w//2-line_w//2 - column_gap//2, y), line, font=font, fill="#000000")
+        elif align == 'justify':
+            if i != lines_num - 1:
+                words = line.split(" ")
+                if len(words) != 1:
+                    draw_line_justify(words, font, x, y, w)
+                else:
+                    draw.text((x, y), line, font=font, fill="#000000")
+            else:
+                draw.text((x, y), line, font=font, fill="#000000")
+
         y += font_size*line_spacing
+
+
+
 
 # TODO: manage cols with different width
 # to do that, manage one line at the time when splitting lines
 # and do the splitting inside the loop
 def gen_template_11(page_num):
+    draw.rectangle(((0, 0), (a4_w, a4_h)), fill="#ffffff")
+
+    # ARTICLE
     article = file_read(f'page-{page_num}/article.md')
-    
     cols = [
-        get_coord_2(0, 5, 1, 15), 
-        get_coord_2(1, 20, 2, 25), 
-        get_coord_2(2, 0, 3, 30),
+        get_coord_2(0, 20, 1, 30), 
+        get_coord_2(1, 20, 2, 30), 
+        get_coord_2(2, 1, 3, 30),
     ]
     cols[1][0] += column_gap//2
     cols[2][0] += column_gap
+    draw_cols_text(cols, article, align='justify')
 
-    draw_cols_text(cols, article)
+    # IMAGE
+    x, y, w, h = get_coord(0, 1, 1, 12)
+    img_resize(
+        f'page-{page_num}/0000.jpg', 
+        f'page-{page_num}/0000-resized.jpg', 
+        w - column_gap//2, h, 50)
+    img_featured = Image.open(f'page-{page_num}/0000-resized.jpg')
+    img.paste(img_featured, (x, y))
     
-    
+    # PAGE NUMBER
+    if page_num % 2 != 0: draw_page_number_left(page_num, '#000000')
+    else: draw_page_number_right(page_num, '#000000')
     
         
 
