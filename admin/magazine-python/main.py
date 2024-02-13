@@ -697,19 +697,28 @@ def get_xy_from_cr(c, r):
     return x, y
 
 
+# TODO: MANAGE EMPTY LINE BETWEEN PARAGRAPHS???
 def get_lines_from_text(font, text, text_width):
-    words = text.split(' ')
+    paragraphs = text.split('\n\n')
     lines = []
-    line_curr = ''
-    for word in words:
-        word_w = font.getbbox(word)[2]
-        line_curr_w = font.getbbox(line_curr)[2]
-        if word_w + line_curr_w < text_width:
-            line_curr += word + ' '
-        else:
-            lines.append(line_curr.strip())
-            line_curr = word + ' '
-    lines.append(line_curr.strip())
+    for paragraph in paragraphs:
+
+        words = paragraph.split(' ')
+        line_curr = ''
+        for word in words:
+            word_w = font.getbbox(word)[2]
+            line_curr_w = font.getbbox(line_curr)[2]
+            if word_w + line_curr_w < text_width:
+                line_curr += word + ' '
+            else:
+                lines.append(line_curr.strip())
+                line_curr = word + ' '
+        lines.append(line_curr.strip())
+        lines.append('\n\n')
+
+    for line in lines:
+        print(line)
+
     return lines
 
 
@@ -918,7 +927,75 @@ def gen_template_10(page_num):
     img.save(f'exports/page-{page_num}.jpg', quality=50)
 
 
-gen_template_1(1)
+
+
+def get_coord_2(cs, rs, ce, re):
+    x = a4_mx + column_w*cs
+    y = a4_my + row_h*rs
+    w = a4_mx + column_w*ce
+    h = a4_my + row_h*re
+    return [x, y, w, h]
+
+
+
+def draw_cols_text(cols, article):
+    font_family = 'arial.ttf'
+
+    font_size = 36
+    line_spacing = 1.25    
+    font = ImageFont.truetype(font_family, font_size)
+
+    lines = get_lines_from_text(font, article, column_w-column_gap)
+    
+    col_index = 0
+    x = cols[col_index][0]
+    y = cols[col_index][1]
+    w = cols[col_index][2]
+    h = cols[col_index][3]
+    for i, line in enumerate(lines):
+        if y > h:
+            col_index += 1
+            if col_index >= len(cols): break
+            x = cols[col_index][0]
+            y = cols[col_index][1]
+            w = cols[col_index][2]
+            h = cols[col_index][3]
+
+        line_h = font.getbbox(line)[3]
+        draw.text((x, y), line, font=font, fill="#000000")
+        y += font_size*line_spacing
+
+# TODO: manage cols with different width
+# to do that, manage one line at the time when splitting lines
+# and do the splitting inside the loop
+def gen_template_11(page_num):
+    article = file_read(f'page-{page_num}/article.md')
+    
+    cols = [
+        get_coord_2(0, 5, 1, 15), 
+        get_coord_2(1, 20, 2, 25), 
+        get_coord_2(2, 0, 3, 30),
+    ]
+    cols[1][0] += column_gap//2
+    cols[2][0] += column_gap
+
+    draw_cols_text(cols, article)
+    
+    
+    
+        
+
+    # draw_text_column(f'page-{page_num}/article.md', x, y, color='#000000', align='center')
+    
+
+
+
+
+
+
+
+
+# gen_template_1(1)
 # gen_template_2(2)
 # gen_template_3(3)
 # gen_template_4(4)
@@ -928,6 +1005,7 @@ gen_template_1(1)
 # gen_template_8(8)
 # gen_template_9(9)
 # gen_template_10(10)
+gen_template_11(11)
 
 
 # debug_margins()
@@ -947,8 +1025,14 @@ gen_template_1(1)
 # draw_text_column(f'page-1/col-1.md', x, y, color='#ffffff')
 
 # img.save(f'tmp.jpg', quality=50)
-img.show()
 
+
+
+
+
+
+
+img.show()
 
 # images = [
 #     Image.open("exports/" + f)
