@@ -2,7 +2,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 import textwrap
 import os
 
-TEXT_SIZE = 36
+FONT_SIZE = 36
 WORDS_SPACING = 42
 TEXT_LINE_SPACING = 1.25
 TEXT_FONT = 'times.ttf'
@@ -89,27 +89,27 @@ def draw_text_left(text, font, col, row, color):
     x, y, _, _ = get_coord(col, row, 0, 0)
 
     lines = text_to_lines(text, column_w)
-    font = ImageFont.truetype(font, TEXT_SIZE)
+    font = ImageFont.truetype(font, FONT_SIZE)
     for i, line in enumerate(lines):
-        draw.text((x, y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
+        draw.text((x, y + FONT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
     
         
 def draw_text_right(text, font, col, row, color):
     x, y, _, _ = get_coord(col, row, 0, 0)
 
     lines = text_to_lines(text, column_w)
-    font = ImageFont.truetype(font, TEXT_SIZE)
+    font = ImageFont.truetype(font, FONT_SIZE)
     for i, line in enumerate(lines):
         line_w = font.getbbox(line)[2]
-        draw.text((x + (column_w - line_w), y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
+        draw.text((x + (column_w - line_w), y + FONT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
 
 
 def draw_text_right_2(text, font, x, y, color):
     lines = text_to_lines(text, column_w)
-    font = ImageFont.truetype(font, TEXT_SIZE)
+    font = ImageFont.truetype(font, FONT_SIZE)
     for i, line in enumerate(lines):
         line_w = font.getbbox(line)[2]
-        draw.text((x + (column_w - line_w), y + TEXT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
+        draw.text((x + (column_w - line_w), y + FONT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
 
     
 def draw_page_number_left(page_num, color):
@@ -120,6 +120,17 @@ def draw_page_number_left(page_num, color):
 def draw_page_number_right(page_num, color):
     text = f'OZONOGROUP   |   {page_num}'
     draw_text_right(text, "arialbd.ttf", 2, 32, color)
+
+
+def draw_title(title, x, y):
+    title = title.strip()
+    title_lines = title.split('\n')
+
+    font_size = 250
+    font = ImageFont.truetype("arial.ttf", font_size)
+
+    for i, line in enumerate(title_lines):
+        draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
 
 
 
@@ -157,7 +168,7 @@ def get_coord(cs, rs, ce, re):
 
 
 def text_to_lines(text, text_width):
-    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
     words = text.split(' ')
     lines = []
     line_curr = ''
@@ -174,12 +185,12 @@ def text_to_lines(text, text_width):
 
 
 def text_to_lines_optim(text):
-    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
     text_width_optim = 0
     text_width_curr_best = 9999
     step_num = 10
     for i in range(step_num):
-        offset = i*TEXT_SIZE
+        offset = i*FONT_SIZE
         lines = text_to_lines(text, column_w-offset)
 
         text_width_min = 9999
@@ -196,8 +207,8 @@ def text_to_lines_optim(text):
     return lines
 
 
-def draw_text_column(filename, x_start, y_start, color='#000000'):
-    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+def draw_text_column(filename, x_start, y_start, color='#000000', align='left'):
+    font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
     text_width = column_w - column_gap
 
     content = file_read(filename)
@@ -214,33 +225,39 @@ def draw_text_column(filename, x_start, y_start, color='#000000'):
         # IF PARAGRAPH IS NONE OR EMPTY: RENDER BLANK LINE (TO SEPARATE NEXT PARAGRAPH)
         # >> maybe fix "text_to_lines_optim" to get none list instead of empty one 
         if not paragraphs[paragraph_index] or paragraphs[paragraph_index][0] == '':
-            y += TEXT_SIZE*TEXT_LINE_SPACING*2
+            y += FONT_SIZE*TEXT_LINE_SPACING*2
         else:
-            lines_num = len(paragraphs[paragraph_index])
-            if lines_num == 1:
-                line = paragraphs[paragraph_index][0]
-                if line.startswith('## '):
-                    line = line.replace('## ', '').strip()
-                    font_size_title = 48
-                    font = ImageFont.truetype("arialbd.ttf", font_size_title)
-                    draw.text((x_start, y), line, font=font, fill=color)
-                    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
-                    y += font_size_title - TEXT_SIZE
-                else:
-                    draw.text((x_start, y), line, font=font, fill=color)
-            else:
-                for i, line in enumerate(paragraphs[paragraph_index]):
-                    if i != lines_num - 1:
-                        words = line.split(" ")
-                        words_length = sum(draw.textlength(w, font=font) for w in words)
-                        space_length = (text_width - words_length) / (len(words) - 1)
-                        x = x_start
-                        for word in words:
-                            draw.text((x, y), word, font=font, fill=color)
-                            x += draw.textlength(word, font=font) + space_length
-                        y += TEXT_SIZE*TEXT_LINE_SPACING
+            if align == 'left':
+                lines_num = len(paragraphs[paragraph_index])
+                if lines_num == 1:
+                    line = paragraphs[paragraph_index][0]
+                    if line.startswith('## '):
+                        line = line.replace('## ', '').strip()
+                        font_size_title = 48
+                        font = ImageFont.truetype("arialbd.ttf", font_size_title)
+                        draw.text((x_start, y), line, font=font, fill=color)
+                        font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
+                        y += font_size_title - FONT_SIZE
                     else:
                         draw.text((x_start, y), line, font=font, fill=color)
+                else:
+                        for i, line in enumerate(paragraphs[paragraph_index]):
+                            if i != lines_num - 1:
+                                words = line.split(" ")
+                                words_length = sum(draw.textlength(w, font=font) for w in words)
+                                space_length = (text_width - words_length) / (len(words) - 1)
+                                x = x_start
+                                for word in words:
+                                    draw.text((x, y), word, font=font, fill=color)
+                                    x += draw.textlength(word, font=font) + space_length
+                                y += FONT_SIZE*TEXT_LINE_SPACING
+                            else:
+                                draw.text((x_start, y), line, font=font, fill=color)
+            elif align == 'center':
+                for i, line in enumerate(paragraphs[paragraph_index]):
+                    line_w = font.getbbox(line)[2]
+                    draw.text((x_start + column_w//2 - line_w//2, y), line, font=font, fill=color)
+                    y += FONT_SIZE*TEXT_LINE_SPACING
 
 
 def gen_template_1(page_num):
@@ -250,8 +267,8 @@ def gen_template_1(page_num):
     img.paste(img_featured, (x, y))
 
     title = '''
-    Nature\'s
-    Wonderland
+    Stagionatura
+    Formaggio
     '''
 
     title = title.strip()
@@ -324,15 +341,15 @@ def gen_template_3(page_num):
     for i, line in enumerate(title_lines):
         draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
 
-    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    font = ImageFont.truetype("arial.ttf", FONT_SIZE)
     x, y, _, _ = get_coord(0, 12, 0, 0)
     draw_text_column(f'page-{page_num}/col-1.md', x, y)
 
-    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    font = ImageFont.truetype("arial.ttf", FONT_SIZE)
     x, y, _, _ = get_coord(1, 12, 0, 0)
     draw_text_column(f'page-{page_num}/col-2.md', x, y)
     
-    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    font = ImageFont.truetype("arial.ttf", FONT_SIZE)
     x, y, _, _ = get_coord(2, 12, 0, 0)
     draw_text_column(f'page-{page_num}/col-3.md', x, y)
 
@@ -349,7 +366,7 @@ def gen_template_3(page_num):
     for i, line in enumerate(text_lines):
         line = line.strip()
         line_w = font.getbbox(line)[2]
-        draw.text((x + column_w//2 - line_w//2, y + TEXT_SIZE*1.5*i - int(TEXT_SIZE*0.2)), line, font=font, fill="black")
+        draw.text((x + column_w//2 - line_w//2, y + FONT_SIZE*1.5*i - int(FONT_SIZE*0.2)), line, font=font, fill="black")
 
     img.save(f'page-{page_num}/page-2.png', quality=50)
 
@@ -378,12 +395,12 @@ def gen_template_3(page_num):
     img.paste(foreground, (x, y), foreground)
 
     # IMAGE DESCRIPTION
-    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    font = ImageFont.truetype("arial.ttf", FONT_SIZE)
     x, y, _, _ = get_coord(1, 29, 0, 0)
     draw_text_column(f'page-{page_num}/img-desc.md', x, y)
 
     # HEADER DESCRIPTION
-    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
     filepath = f'page-{page_num}/header-text.md'
     text = file_read(filepath)
     words = text.split(' ')
@@ -403,7 +420,7 @@ def gen_template_3(page_num):
     for i, line in enumerate(lines):
         line = line.strip()
         line_w = font.getbbox(line)[2]
-        draw.text((x + int(column_w-line_w), y+TEXT_SIZE*i*TEXT_LINE_SPACING), line, font=font, fill="black")
+        draw.text((x + int(column_w-line_w), y+FONT_SIZE*i*TEXT_LINE_SPACING), line, font=font, fill="black")
 
     img.save(f'exports/page-3.jpg', quality=50)
 
@@ -420,7 +437,7 @@ def gen_template_4(page_num):
     x, y, w, h = get_coord(0, 0, 0, 31)
     draw.rectangle(((0, 0), (w+a4_mx+column_gap, a4_h)), fill="#18181b")
 
-    font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+    font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
     x, y, _, _ = get_coord(0, 0, 0, 31)
     draw_text_column(f'page-{page_num}/col-1.md', x, y, color='#ffffff')
 
@@ -481,7 +498,7 @@ def gen_template_5(page_num):
     text = file_read(f'page-{page_num}/{filepath}')
     lines = text_to_lines(text, column_w*1.5)
 
-    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    font = ImageFont.truetype("arial.ttf", FONT_SIZE)
     x, y, _, _ = get_coord(0, 11, 0, 0)
     for i, line in enumerate(lines):
         draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="#000000")
@@ -561,26 +578,15 @@ def gen_template_6(page_num):
     filepath = 'text-1.md'
     text = file_read(f'page-{page_num}/{filepath}')
     lines = text_to_lines(text, column_w-column_gap)
-    font = ImageFont.truetype("arial.ttf", TEXT_SIZE)
+    font = ImageFont.truetype("arial.ttf", FONT_SIZE)
     x, y, _, _ = get_coord(2, 1, 0, 0)
     for i, line in enumerate(lines):
-        draw.text((x+column_gap, y + TEXT_SIZE*TEXT_LINE_SPACING*i), line.strip(), font=font, fill="#000000")
+        draw.text((x+column_gap, y + FONT_SIZE*TEXT_LINE_SPACING*i), line.strip(), font=font, fill="#000000")
 
     # PAGE NUM
     draw_page_number_right(page_num, '#000000')
 
     img.save(f'exports/page-{page_num}.jpg', quality=50)
-
-
-def draw_title(title, x, y):
-    title = title.strip()
-    title_lines = title.split('\n')
-
-    font_size = 250
-    font = ImageFont.truetype("arial.ttf", font_size)
-
-    for i, line in enumerate(title_lines):
-        draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
 
 
 def gen_template_7(page_num):
@@ -668,17 +674,260 @@ def gen_template_8(page_num):
     draw_page_number_right(page_num, '#000000')
 
     img.save(f'exports/page-{page_num}.jpg', quality=50)
+    
+
+def draw_img_circle(filepath, x, y, d):    
+    # CREATE MASK
+    mask = Image.new("L", (d, d), "black")
+    draw_circle = ImageDraw.Draw(mask)
+    draw_circle.ellipse((0, 0, d, d), fill='white')
+
+    # CLIP IMAGE TO MASK
+    img_circle = Image.open(filepath)
+    img_circle = ImageOps.fit(img_circle, mask.size, centering=(0.5, 0.5))
+    img_circle.putalpha(mask)
+
+    # PASTE CIRCLE IMAGE TO PAGE
+    img.paste(img_circle, (x, y), img_circle)
+
+
+def get_xy_from_cr(c, r):
+    x = a4_mx + column_w*c
+    y = a4_my + row_h*r
+    return x, y
+
+
+def get_lines_from_text(font, text, text_width):
+    words = text.split(' ')
+    lines = []
+    line_curr = ''
+    for word in words:
+        word_w = font.getbbox(word)[2]
+        line_curr_w = font.getbbox(line_curr)[2]
+        if word_w + line_curr_w < text_width:
+            line_curr += word + ' '
+        else:
+            lines.append(line_curr.strip())
+            line_curr = word + ' '
+    lines.append(line_curr.strip())
+    return lines
+
+
+def draw_text(text, x, y, w, font_size, font_family='arial.ttf', align='left'):
+    text = text.strip()
+    text_lines = text.split('\n')
+
+    font = ImageFont.truetype(font_family, font_size)
+
+    if align == 'left':
+        for i, line in enumerate(text_lines):
+            draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
+    if align == 'center':
+        for i, line in enumerate(text_lines):
+            line = line.strip()
+            line_w = font.getbbox(line)[2]
+            draw.text((x + w//2 - line_w//2, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
+
+
+def draw_text_2(lines, x, y, w, font_size, font_family='arial.ttf', align='left'):
+    font = ImageFont.truetype(font_family, font_size)
+
+    if align == 'left':
+        for i, line in enumerate(lines):
+            draw.text((x, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
+    if align == 'center':
+        for i, line in enumerate(lines):
+            line = line.strip()
+            line_w = font.getbbox(line)[2]
+            draw.text((x + w//2 - line_w//2, y + font_size*1.0*i - int(font_size*0.2)), line.strip(), font=font, fill="black")
+
+
+def gen_template_9(page_num):
+
+    d = int(column_w-column_gap)
+    x, y, _, _ = get_coord(0, 9, 0, 0)
+    draw_img_circle(f'page-{page_num}/0000.jpg', x, y, d)
+    
+    d = int(column_w-column_gap)
+    x, y, _, _ = get_coord(1, 9, 0, 0)
+    draw_img_circle(f'page-{page_num}/0001.jpg', x, y, d)
+    
+    d = int(column_w-column_gap)
+    x, y, _, _ = get_coord(2, 9, 0, 0)
+    draw_img_circle(f'page-{page_num}/0002.jpg', x, y, d)
+
+    text = '''
+    EMPEIT
+    '''
+    x, y = get_xy_from_cr(0, 17)
+    draw_text(text, x, y, column_w, 96, 'arialbd.ttf', 'center')
+
+    text = '''
+    EMPORIST
+    BEACH
+    '''
+    x, y = get_xy_from_cr(1, 17)
+    draw_text(text, x, y, column_w, 96, 'arialbd.ttf', 'center')
+
+    text = '''
+    OCCULPA
+    '''
+    x, y = get_xy_from_cr(2, 17)
+    draw_text(text, x, y, column_w, 96, 'arialbd.ttf', 'center')
 
 
 
-# gen_template_1(1)
+
+    x, y = get_xy_from_cr(0, 19)
+    draw_text_column(f'page-{page_num}/col-1.md', x, y, color='#000000', align='center')
+
+    x, y = get_xy_from_cr(1, 20)
+    draw_text_column(f'page-{page_num}/col-2.md', x+column_gap//2, y, color='#000000', align='center')
+
+    x, y = get_xy_from_cr(2, 19)
+    draw_text_column(f'page-{page_num}/col-3.md', x+column_gap, y, color='#000000', align='center')
+
+
+
+    # DIVIDER
+    div_thickness = 3
+    x, y = get_xy_from_cr(0, 6)
+    draw.rectangle(((x, y), (a4_w, y+div_thickness)), fill="#000000")
+
+    # DIVIDER
+    div_thickness = 3
+    x1, y1 = get_xy_from_cr(1, 3)
+    x2, y2 = get_xy_from_cr(1, 6)
+    draw.rectangle(((x1, y1), (x1+div_thickness, y2)), fill="#000000")
+
+    # DIVIDER
+    div_thickness = 3
+    x1, y1 = get_xy_from_cr(2, 3)
+    x2, y2 = get_xy_from_cr(2, 6)
+    draw.rectangle(((x1, y1), (x1+div_thickness, y2)), fill="#000000")
+
+    
+    x, y = get_xy_from_cr(0, 4)
+    draw_text_column(f'page-{page_num}/text-1.md', x, y, color='#000000', align='center')
+    
+    x, y = get_xy_from_cr(1, 4)
+    draw_text_column(f'page-{page_num}/text-2.md', x, y, color='#000000', align='center')
+    
+    x, y = get_xy_from_cr(2, 4)
+    draw_text_column(f'page-{page_num}/text-3.md', x, y, color='#000000', align='center')
+
+    
+    text = '''
+    YOUR
+    TRAVEL
+    '''
+    x, y = get_xy_from_cr(1, 0)
+    draw_text(text, x, y, column_w, 48, 'arialbd.ttf', 'center')
+
+
+    draw_page_number_left(page_num, '#000000')
+
+    img.save(f'exports/page-{page_num}.jpg', quality=50)
+
+
+def gen_template_10(page_num):
+
+    d = int(column_w-column_gap)
+    x, y, _, _ = get_coord(0, 9, 0, 0)
+    draw_img_circle(f'page-{page_num}/0000.jpg', x, y, d)
+    
+    d = int(column_w-column_gap)
+    x, y, _, _ = get_coord(1, 9, 0, 0)
+    draw_img_circle(f'page-{page_num}/0001.jpg', x, y, d)
+    
+    d = int(column_w-column_gap)
+    x, y, _, _ = get_coord(2, 9, 0, 0)
+    draw_img_circle(f'page-{page_num}/0002.jpg', x, y, d)
+
+    text = '''
+    IHITI DESED
+    TORPOR
+    '''
+    x, y = get_xy_from_cr(0, 17)
+    draw_text(text, x, y, column_w, 96, 'arialbd.ttf', 'center')
+
+    text = '''
+    OVITEC
+    '''
+    x, y = get_xy_from_cr(1, 17)
+    draw_text(text, x, y, column_w, 96, 'arialbd.ttf', 'center')
+
+    text = '''
+    EDIET AUT
+    '''
+    x, y = get_xy_from_cr(2, 17)
+    draw_text(text, x, y, column_w, 96, 'arialbd.ttf', 'center')
+
+
+
+
+    x, y = get_xy_from_cr(0, 20)
+    draw_text_column(f'page-{page_num}/col-1.md', x, y, color='#000000', align='center')
+
+    x, y = get_xy_from_cr(1, 19)
+    draw_text_column(f'page-{page_num}/col-2.md', x+column_gap//2, y, color='#000000', align='center')
+
+    x, y = get_xy_from_cr(2, 19)
+    draw_text_column(f'page-{page_num}/col-3.md', x+column_gap, y, color='#000000', align='center')
+
+
+
+    # DIVIDER
+    div_thickness = 3
+    x, y = get_xy_from_cr(0, 6)
+    draw.rectangle(((0, y), (a4_w-a4_mx, y+div_thickness)), fill="#000000")
+
+    # DIVIDER
+    div_thickness = 3
+    x1, y1 = get_xy_from_cr(1, 3)
+    x2, y2 = get_xy_from_cr(1, 6)
+    draw.rectangle(((x1, y1), (x1+div_thickness, y2)), fill="#000000")
+
+    # DIVIDER
+    div_thickness = 3
+    x1, y1 = get_xy_from_cr(2, 3)
+    x2, y2 = get_xy_from_cr(2, 6)
+    draw.rectangle(((x1, y1), (x1+div_thickness, y2)), fill="#000000")
+
+    
+    x, y = get_xy_from_cr(0, 4)
+    draw_text_column(f'page-{page_num}/text-1.md', x, y, color='#000000', align='center')
+    
+    x, y = get_xy_from_cr(1, 4)
+    draw_text_column(f'page-{page_num}/text-2.md', x, y, color='#000000', align='center')
+    
+    x, y = get_xy_from_cr(2, 4)
+    draw_text_column(f'page-{page_num}/text-3.md', x, y, color='#000000', align='center')
+
+    
+    text = '''
+    YOUR
+    TRAVEL
+    '''
+    x, y = get_xy_from_cr(1, 0)
+    draw_text(text, x, y, column_w, 48, 'arialbd.ttf', 'center')
+
+
+    draw_page_number_right(page_num, '#000000')
+
+    img.save(f'exports/page-{page_num}.jpg', quality=50)
+
+
+gen_template_1(1)
 # gen_template_2(2)
 # gen_template_3(3)
 # gen_template_4(4)
 # gen_template_5(5)
 # gen_template_6(6)
 # gen_template_7(7)
-gen_template_8(8)
+# gen_template_8(8)
+# gen_template_9(9)
+# gen_template_10(10)
 
 
 # debug_margins()
@@ -693,9 +942,21 @@ gen_template_8(8)
 # text = file_read('text.md')
 # lines = text.split('\n')
 
-# font = ImageFont.truetype(TEXT_FONT, TEXT_SIZE)
+# font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
 # x, y, _, _ = get_coord(0, 0, 0, 31)
 # draw_text_column(f'page-1/col-1.md', x, y, color='#ffffff')
 
 # img.save(f'tmp.jpg', quality=50)
 img.show()
+
+
+# images = [
+#     Image.open("exports/" + f)
+#     for f in ['page-9.jpg', 'page-10.jpg', 'page-1.jpg', 'page-2.jpg', 'page-3.jpg', 'page-4.jpg', 'page-5.jpg', 'page-6.jpg', 'page-7.jpg', 'page-8.jpg']
+# ]
+
+# pdf_path = "magazine.pdf"
+    
+# images[0].save(
+#     pdf_path, "PDF" ,resolution=100.0, save_all=True, append_images=images[1:]
+# )
