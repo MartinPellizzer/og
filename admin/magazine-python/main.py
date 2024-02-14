@@ -721,8 +721,31 @@ def get_lines_from_text(font, text, text_width):
     print(lines)
     lines = lines[:-1]
     print(lines)
+    quit()
 
     return lines
+
+
+def get_lines_from_text_2(text, text_width, font):
+    paragraphs_lines = []
+
+    paragraphs = text.split('\n\n')
+    for paragraph in paragraphs:
+        words = paragraph.split(' ')
+        lines = []
+        line_curr = ''
+        for word in words:
+            word_w = font.getbbox(word)[2]
+            line_curr_w = font.getbbox(line_curr)[2]
+            if word_w + line_curr_w < text_width:
+                line_curr += word + ' '
+            else:
+                lines.append(line_curr.strip())
+                line_curr = word + ' '
+        lines.append(line_curr.strip())
+        paragraphs_lines.append(lines)
+
+    return paragraphs_lines
 
 
 def draw_text(text, x, y, w, font_size, font_family='arial.ttf', align='left'):
@@ -955,36 +978,41 @@ def draw_cols_text(cols, article, align='left'):
     line_spacing = 1.25    
     font = ImageFont.truetype(font_family, font_size)
 
-    lines = get_lines_from_text(font, article, column_w-column_gap)
-    lines_num = len(lines)
+    paragraphs = get_lines_from_text_2(article, column_w-column_gap, font)
     
     col_index = 0
     x, y, w, h = cols[col_index]
-    for i, line in enumerate(lines):
-        if y > h:
-            col_index += 1
-            if col_index >= len(cols): break
-            x, y, w, h = cols[col_index]
 
-        line_w = font.getbbox(line)[2]
-        line_h = font.getbbox(line)[3]
-        if align == 'left':
-            draw.text((x, y), line, font=font, fill="#000000")
-        elif align == 'right':
-            draw.text((x + column_w-column_gap-line_w, y), line, font=font, fill="#000000")
-        elif align == 'center':
-            draw.text((x + column_w//2-line_w//2 - column_gap//2, y), line, font=font, fill="#000000")
-        elif align == 'justify':
-            if i != lines_num - 1:
-                words = line.split(" ")
-                if len(words) != 1:
-                    draw_line_justify(words, font, x, y, w)
+    for paragraph in paragraphs:
+        lines = paragraph
+        lines_num = len(lines)
+        for i, line in enumerate(lines):
+            if y > h:
+                col_index += 1
+                if col_index >= len(cols): break
+                x, y, w, h = cols[col_index]
+
+            line_w = font.getbbox(line)[2]
+            line_h = font.getbbox(line)[3]
+            if align == 'left':
+                draw.text((x, y), line, font=font, fill="#000000")
+            elif align == 'right':
+                draw.text((x + column_w-column_gap-line_w, y), line, font=font, fill="#000000")
+            elif align == 'center':
+                draw.text((x + column_w//2-line_w//2 - column_gap//2, y), line, font=font, fill="#000000")
+            elif align == 'justify':
+                if i != lines_num - 1:
+                    words = line.split(" ")
+                    if len(words) != 1:
+                        draw_line_justify(words, font, x, y, w)
+                    else:
+                        draw.text((x, y), line, font=font, fill="#000000")
                 else:
                     draw.text((x, y), line, font=font, fill="#000000")
-            else:
-                draw.text((x, y), line, font=font, fill="#000000")
 
+            y += font_size*line_spacing
         y += font_size*line_spacing
+
 
 
 
@@ -1006,27 +1034,37 @@ def gen_template_11(page_num):
     cols[2][0] += column_gap
     draw_cols_text(cols, article, align='justify')
 
+
     # IMAGE
+    images = os.listdir(f'page-{page_num}')
+
+    image_name, image_ext = images[0].split('.')
     x, y, w, h = get_coord(0, 1, 1, 12)
     img_resize(
-        f'page-{page_num}/0000.jpg', 
-        f'page-{page_num}/0000-resized.jpg', 
+        f'page-{page_num}/{image_name}.{image_ext}', 
+        f'page-{page_num}/{image_name}-resized.{image_ext}', 
         w - column_gap//2, h, 50)
-    img_featured = Image.open(f'page-{page_num}/0000-resized.jpg')
+    img_featured = Image.open(f'page-{page_num}/{image_name}-resized.{image_ext}')
     img.paste(img_featured, (x, y))
+
+    # TITLE
+    text = f'''
+    Come Inattivare Le Muffe 
+    Nelle Sale Di Stagionatura
+    Dei Formaggi
+    '''
+    lines = [line.strip() for line in text.split('\n') if line.strip() != '']
+    x, y, w, h = get_coord(0, 15, 0, 0)
+    font_size = 112
+    draw_text_2(lines, x, y, w, font_size, font_family='arialbd.ttf', align='left')
     
     # PAGE NUMBER
     if page_num % 2 != 0: draw_page_number_left(page_num, '#000000')
     else: draw_page_number_right(page_num, '#000000')
     
-        
-
-    # draw_text_column(f'page-{page_num}/article.md', x, y, color='#000000', align='center')
+    img.save(f'exports/page-{page_num}.jpg', quality=50)
     
-
-
-
-
+        
 
 
 
@@ -1048,22 +1086,6 @@ gen_template_11(11)
 # debug_columns()
 # debug_rows()
 # debug_cells()
-
-
-
-# print(text_width_optim)
-
-# text = file_read('text.md')
-# lines = text.split('\n')
-
-# font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
-# x, y, _, _ = get_coord(0, 0, 0, 31)
-# draw_text_column(f'page-1/col-1.md', x, y, color='#ffffff')
-
-# img.save(f'tmp.jpg', quality=50)
-
-
-
 
 
 
