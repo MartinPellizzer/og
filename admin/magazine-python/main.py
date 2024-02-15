@@ -1034,9 +1034,8 @@ def gen_template_11(page_num):
     cols[2][0] += column_gap
     draw_cols_text(cols, article, align='justify')
 
-
     # IMAGE
-    images = os.listdir(f'page-{page_num}')
+    images = [image for image in os.listdir(f'page-{page_num}') if 'resized' not in image]
 
     image_name, image_ext = images[0].split('.')
     x, y, w, h = get_coord(0, 1, 1, 12)
@@ -1057,12 +1056,78 @@ def gen_template_11(page_num):
     x, y, w, h = get_coord(0, 15, 0, 0)
     font_size = 112
     draw_text_2(lines, x, y, w, font_size, font_family='arialbd.ttf', align='left')
-    
+
     # PAGE NUMBER
     if page_num % 2 != 0: draw_page_number_left(page_num, '#000000')
     else: draw_page_number_right(page_num, '#000000')
-    
+
     img.save(f'exports/page-{page_num}.jpg', quality=50)
+
+    
+def gen_template_12(page_num):
+
+    # IMAGE
+    images = [image for image in os.listdir(f'page-{page_num}') if 'resized' not in image]
+
+    image_name, image_ext = images[0].split('.')
+    x, y, w, h = get_coord(1, 1, 2, 9)
+    img_resize(
+        f'page-{page_num}/{image_name}.{image_ext}', 
+        f'page-{page_num}/{image_name}-resized.{image_ext}', 
+        w - column_gap, h, 50)
+    img_featured = Image.open(f'page-{page_num}/{image_name}-resized.{image_ext}')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+    image_name, image_ext = images[1].split('.')
+    x, y, w, h = get_coord(1, 10, 2, 17)
+    img_resize(
+        f'page-{page_num}/{image_name}.{image_ext}', 
+        f'page-{page_num}/{image_name}-resized.{image_ext}', 
+        w - column_gap, h, 50)
+    img_featured = Image.open(f'page-{page_num}/{image_name}-resized.{image_ext}')
+    img.paste(img_featured, (x+int(column_gap), y+int(row_h//2)))
+
+    
+    image_name, image_ext = images[2].split('.')
+    x, y, w, h = get_coord(1, 19, 2, 30)
+    img_resize(
+        f'page-{page_num}/{image_name}.{image_ext}', 
+        f'page-{page_num}/{image_name}-resized.{image_ext}', 
+        w - column_gap, h, 50)
+    img_featured = Image.open(f'page-{page_num}/{image_name}-resized.{image_ext}')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+    # ARTICLE
+    article = file_read(f'page-{page_num}/article.md')
+    cols = [
+        get_coord_2(0, 1, 1, 30), 
+    ]
+    draw_cols_text(cols, article, align='justify')
+
+    # PAGE NUMBER
+    if page_num % 2 != 0: draw_page_number_left(page_num, '#000000')
+    else: draw_page_number_right(page_num, '#000000')
+
+    img.save(f'exports/page-{page_num}.jpg', quality=50)
+    
+
+    
+    
+def preview_template_full(page_num_1, page_num_2):
+    
+    a4_w_full, a4_h_full = 2480*2, 3508
+
+    img_full = Image.new("RGB", (a4_w_full, a4_h_full), "white")
+    draw_full = ImageDraw.Draw(img)
+
+    img_1 = Image.open(f'exports/page-{page_num_1}.jpg')
+    img_2 = Image.open(f'exports/page-{page_num_2}.jpg')
+
+    img_full.paste(img_1, (0, 0))
+    img_full.paste(img_2, (2480, 0))
+
+    img_full.save(f'exports/export-{page_num_1}-{page_num_2}.jpg', quality=50)
+    img_full.show()
     
         
 
@@ -1079,8 +1144,9 @@ def gen_template_11(page_num):
 # gen_template_8(8)
 # gen_template_9(9)
 # gen_template_10(10)
-gen_template_11(11)
-
+gen_template_11(1)
+# gen_template_12(2)
+# preview_template_full(1, 2)
 
 # debug_margins()
 # debug_columns()

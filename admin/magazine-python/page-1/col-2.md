@@ -1,4 +1,0 @@
-muffe, anche basse concentrazioni di ozono (0,2–0,3 ppm) mostravano una notevole diminuzione delle aree coperte da muffe sulla superficie del formaggio. Inoltre, questi trattamenti all'ozono hanno ridotto significativamente le spore di muffa medie nelle stanze di maturazione, dimostrando il potenziale dell'ozono come inibitore delle muffe.
-
-Volodin e Shiler (1978) hanno esplorato il ruolo dell'ozono nell'imballaggio del formaggio, scoprendo che le pellicole sottili (12 lm) sono permeabili all'ozono, e quindi erano adatte per la sterilizzazione delle superfici dei formaggi confezionati. Gabriel’yants’ et al. (1980) hanno migliorato ulteriormente il processo di sterilizzazione del formaggio, eseguendo trattamenti periodici di ozono durante la fase di refrigerazione del formaggio (tipo russo e svizzero). Con tale trattamento, hanno prevenuto con successo la crescita di muffe sia sui
-

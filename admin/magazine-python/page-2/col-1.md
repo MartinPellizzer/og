@@ -1,9 +1,0 @@
-Serra et al. (2003) hanno indagato sull'efficacia dell'ozono gassoso in una stanza di maturazione del formaggio per 20 settimane, rivelando la sua potenza nel ridurre le spore di muffa vitali nell'atmosfera. Tuttavia, lo studio ha anche evidenziato i limiti dell'ozonazione gassosa nell'eliminare le muffe già presenti sulla superficie dei formaggi in ingresso. Pinto et al. (2007) e Lanita and da Silva (2008) hanno confermato questi risultati, riportando riduzioni significative dei conteggi fungini e di lieviti e muffe nell'aria con il trattamento all'ozono.
-
-## Approvazione Ufficiale
-
-Nel 2010, il Comitato Nazionale per la Sicurezza Alimentare (CNSA) in Italia ha ufficialmente approvato l'uso dell'ozono per la disinfezione di stanze vuote di maturazione e conservazione dei formaggi. Inoltre, un'azienda britannica ha sostenuto che trattamenti regolari all'ozono nei negozi di formaggi sono in grado addirittura di eliminare i danni causati dagli acari (Ozone Industries 2003).
-
-## Conclusioni
-
-Le prove cumulative di vari studi suggeriscono che la sanitizzazione con ozono ha grandi potenzialità nel mondo della maturazione e conservazione dei formaggi. Dall'inibizione della crescita delle muffe all'estensione della durata di conservazione e al miglioramento della qualità microbiologica, l'ozono emerge come uno strumento versatile ed efficace per mantenere l'integrità di diversi tipi di formaggi. Mentre l'industria continua a esplorare soluzioni innovative per la sicurezza e la qualità alimentare, il ruolo dell'ozono nelle stanze di maturazione dei formaggi potrebbe rivelarsi un soffio d'aria fresca.
