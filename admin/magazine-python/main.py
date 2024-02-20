@@ -2,9 +2,9 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 import textwrap
 import os
 
-FONT_SIZE = 36
+BODY_FONT_SIZE = 44
 WORDS_SPACING = 42
-TEXT_LINE_SPACING = 1.25
+BODY_LINE_SPACING = 1.25
 TEXT_FONT = 'times.ttf'
 TEXT_FONT = 'arial.ttf'
 
@@ -54,22 +54,22 @@ def img_resize(image_path_in, image_path_out, w, h, quality=100):
 #####################################################################
 
 def debug_margins():
-    draw.line((a4_mx, 0, a4_mx, a4_h), fill='#a21caf')
-    draw.line((a4_w - a4_mx, 0, a4_w - a4_mx, a4_h), fill='#a21caf')
-    draw.line((0, a4_my, a4_w, a4_my), fill='#a21caf')
-    draw.line((0, a4_h - a4_my, a4_w, a4_h - a4_my), fill='#a21caf')
+    draw.line((a4_mx, 0, a4_mx, A4_H), fill='#a21caf')
+    draw.line((A4_W - a4_mx, 0, A4_W - a4_mx, A4_H), fill='#a21caf')
+    draw.line((0, a4_my, A4_W, a4_my), fill='#a21caf')
+    draw.line((0, A4_H - a4_my, A4_W, A4_H - a4_my), fill='#a21caf')
 
 
 def debug_columns():
     for i in range(column_num-1):
-        draw.line((column_w*(i+1) + a4_mx - column_gap, 0, column_w*(i+1) + a4_mx  - column_gap, a4_h), fill='#a21caf')
-        draw.line((column_w*(i+1) + a4_mx, 0, column_w*(i+1) + a4_mx, a4_h), fill='#a21caf')
-        draw.line((column_w*(i+1) + a4_mx + column_gap, 0, column_w*(i+1) + a4_mx  + column_gap, a4_h), fill='#a21caf')
+        draw.line((column_w*(i+1) + a4_mx - column_gap, 0, column_w*(i+1) + a4_mx  - column_gap, A4_H), fill='#a21caf')
+        draw.line((column_w*(i+1) + a4_mx, 0, column_w*(i+1) + a4_mx, A4_H), fill='#a21caf')
+        draw.line((column_w*(i+1) + a4_mx + column_gap, 0, column_w*(i+1) + a4_mx  + column_gap, A4_H), fill='#a21caf')
 
 
 def debug_rows():
     for i in range(row_num-1):
-        draw.line((0, row_h*(i+1) + a4_my, a4_w, row_h*(i+1) + a4_my), fill='#a21caf')
+        draw.line((0, row_h*(i+1) + a4_my, A4_W, row_h*(i+1) + a4_my), fill='#a21caf')
 
 
 def debug_cells():
@@ -89,27 +89,27 @@ def draw_text_left(text, font, col, row, color):
     x, y, _, _ = get_coord(col, row, 0, 0)
 
     lines = text_to_lines(text, column_w)
-    font = ImageFont.truetype(font, FONT_SIZE)
+    font = ImageFont.truetype(font, BODY_FONT_SIZE)
     for i, line in enumerate(lines):
-        draw.text((x, y + FONT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
+        draw.text((x, y + BODY_FONT_SIZE*BODY_LINE_SPACING*i), line, font=font, fill=color)
     
         
 def draw_text_right(text, font, col, row, color):
     x, y, _, _ = get_coord(col, row, 0, 0)
 
     lines = text_to_lines(text, column_w)
-    font = ImageFont.truetype(font, FONT_SIZE)
+    font = ImageFont.truetype(font, BODY_FONT_SIZE)
     for i, line in enumerate(lines):
         line_w = font.getbbox(line)[2]
-        draw.text((x + (column_w - line_w), y + FONT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
+        draw.text((x + (column_w - line_w), y + BODY_FONT_SIZE*BODY_LINE_SPACING*i), line, font=font, fill=color)
 
 
 def draw_text_right_2(text, font, x, y, color):
     lines = text_to_lines(text, column_w)
-    font = ImageFont.truetype(font, FONT_SIZE)
+    font = ImageFont.truetype(font, BODY_FONT_SIZE)
     for i, line in enumerate(lines):
         line_w = font.getbbox(line)[2]
-        draw.text((x + (column_w - line_w), y + FONT_SIZE*TEXT_LINE_SPACING*i), line, font=font, fill=color)
+        draw.text((x + (column_w - line_w), y + BODY_FONT_SIZE*BODY_LINE_SPACING*i), line, font=font, fill=color)
 
     
 def draw_page_number_left(page_num, color):
@@ -138,23 +138,23 @@ def draw_title(title, x, y):
 # ;MAIN
 #####################################################################
 
-a4_w, a4_h = 2480, 3508
+A4_W, A4_H = 2480, 3508
 
 
-img = Image.new("RGB", (a4_w, a4_h), "white")
+img = Image.new("RGB", (A4_W, A4_H), "white")
 draw = ImageDraw.Draw(img)
 
 
-a4_mx = a4_w//100*5
-a4_my = a4_h//100*5
+a4_mx = A4_W//100*5
+a4_my = A4_H//100*5
 
 
-column_num = 3
-column_w = (a4_w - a4_mx*2)//column_num
+column_num = 2
+column_w = (A4_W - a4_mx*2)//column_num
 column_gap = a4_mx*0.5
 
 row_num = 32
-row_h = (a4_h - a4_my*2)//row_num
+row_h = (A4_H - a4_my*2)//row_num
 row_gap = a4_my*0.5
 
 
@@ -168,7 +168,7 @@ def get_coord(cs, rs, ce, re):
 
 
 def text_to_lines(text, text_width):
-    font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
+    font = ImageFont.truetype(TEXT_FONT, BODY_FONT_SIZE)
     words = text.split(' ')
     lines = []
     line_curr = ''
@@ -430,12 +430,12 @@ def gen_template_4(page_num):
     global draw
 
     x, y, w, h = get_coord(1, 0, 2, 31)
-    img_resize(f'page-{page_num}/0000.jpg', f'page-{page_num}/0000-resized.jpg', a4_w-x, a4_h, 90)
+    img_resize(f'page-{page_num}/0000.jpg', f'page-{page_num}/0000-resized.jpg', A4_W-x, A4_H, 90)
     img_featured = Image.open(f'page-{page_num}/0000-resized.jpg')
     img.paste(img_featured, (x, 0))
 
     x, y, w, h = get_coord(0, 0, 0, 31)
-    draw.rectangle(((0, 0), (w+a4_mx+column_gap, a4_h)), fill="#18181b")
+    draw.rectangle(((0, 0), (w+a4_mx+column_gap, A4_H)), fill="#18181b")
 
     font = ImageFont.truetype(TEXT_FONT, FONT_SIZE)
     x, y, _, _ = get_coord(0, 0, 0, 31)
@@ -571,7 +571,7 @@ def gen_template_6(page_num):
     div_w = 3
     div_h = 1750
     x, y, _, _ = get_coord(2, 0, 0, 0)
-    draw.rectangle(((x, y-a4_h), (x+div_w, y+div_h)), fill="#000000")
+    draw.rectangle(((x, y-A4_H), (x+div_w, y+div_h)), fill="#000000")
         
 
     # TEXT 1
@@ -633,7 +633,7 @@ def gen_template_7(page_num):
     foreground = Image.open(f'page-{page_num}/circle-image.png')
 
     x, y, _, _ = get_coord(2, 8, 0, 0)
-    img.paste(foreground, (a4_w-a4_mx-circle_size, y), foreground)
+    img.paste(foreground, (A4_W-a4_mx-circle_size, y), foreground)
 
     # TEXT 1
     text = file_read(f'page-{page_num}/text-1.md')
@@ -653,7 +653,7 @@ def gen_template_8(page_num):
     global img
     global draw
 
-    x, y, w, h = 0, 0, column_w*2, a4_h
+    x, y, w, h = 0, 0, column_w*2, A4_H
     img_resize(
         f'page-{page_num}/0000.jpg', 
         f'page-{page_num}/0000-resized.jpg', 
@@ -827,7 +827,7 @@ def gen_template_9(page_num):
     # DIVIDER
     div_thickness = 3
     x, y = get_xy_from_cr(0, 6)
-    draw.rectangle(((x, y), (a4_w, y+div_thickness)), fill="#000000")
+    draw.rectangle(((x, y), (A4_W, y+div_thickness)), fill="#000000")
 
     # DIVIDER
     div_thickness = 3
@@ -915,7 +915,7 @@ def gen_template_10(page_num):
     # DIVIDER
     div_thickness = 3
     x, y = get_xy_from_cr(0, 6)
-    draw.rectangle(((0, y), (a4_w-a4_mx, y+div_thickness)), fill="#000000")
+    draw.rectangle(((0, y), (A4_W-a4_mx, y+div_thickness)), fill="#000000")
 
     # DIVIDER
     div_thickness = 3
@@ -974,11 +974,12 @@ def draw_line_justify(words, font, x, y, w):
 def draw_cols_text(cols, article, align='left'):
     font_family = 'arial.ttf'
 
-    font_size = 36
-    line_spacing = 1.25    
+    font_size = BODY_FONT_SIZE
+    line_spacing = BODY_LINE_SPACING   
     font = ImageFont.truetype(font_family, font_size)
 
     paragraphs = get_lines_from_text_2(article, column_w-column_gap, font)
+    
     
     col_index = 0
     x, y, w, h = cols[col_index]
@@ -1021,7 +1022,7 @@ def draw_cols_text(cols, article, align='left'):
 # to do that, manage one line at the time when splitting lines
 # and do the splitting inside the loop
 def gen_template_11(page_num):
-    draw.rectangle(((0, 0), (a4_w, a4_h)), fill="#ffffff")
+    draw.rectangle(((0, 0), (A4_W, A4_H)), fill="#ffffff")
 
     # ARTICLE
     article = file_read(f'page-{page_num}/article.md')
@@ -1115,9 +1116,9 @@ def gen_template_12(page_num):
     
 def preview_template_full(page_num_1, page_num_2):
     
-    a4_w_full, a4_h_full = 2480*2, 3508
+    A4_W_full, A4_H_full = 2480*2, 3508
 
-    img_full = Image.new("RGB", (a4_w_full, a4_h_full), "white")
+    img_full = Image.new("RGB", (A4_W_full, A4_H_full), "white")
     draw_full = ImageDraw.Draw(img)
 
     img_1 = Image.open(f'exports/page-{page_num_1}.jpg')
@@ -1130,8 +1131,116 @@ def preview_template_full(page_num_1, page_num_2):
     img_full.show()
     
         
+def gen_template_13(page_num):
+
+    # IMAGE
+    images_folderpath = f'page-{page_num}/img'
+    images = [image for image in os.listdir(images_folderpath)]
+
+    image_name, image_ext = images[0].split('.')
+    x, y, w, h = get_coord(0, 1, 0, 12)
+    img_resize(
+        f'{images_folderpath}/{image_name}.{image_ext}', 
+        f'page-{page_num}/{image_name}-resized.{image_ext}', 
+        w-int(column_gap), h, 50)
+    img_featured = Image.open(f'page-{page_num}/{image_name}-resized.{image_ext}')
+    img.paste(img_featured, (x, y))
 
 
+    # TITLE
+    text = f'''
+    Come Inattivare Le Muffe 
+    Nelle Sale Di Stagionatura
+    Dei Formaggi
+    '''
+    lines = [line.strip() for line in text.split('\n') if line.strip() != '']
+    x, y, w, h = get_coord(0, 14, 0, 0)
+    font_size = 80
+    draw_text_2(lines, x, y, w, font_size, font_family='arialbd.ttf', align='left')
+
+
+    # ARTICLE
+    article = file_read(f'page-{page_num}/article.md')
+    cols = [
+        get_coord_2(0, 17, 2, 30),
+        get_coord_2(1, 1, 2, 30),
+    ]
+    cols[1][0] += column_gap
+    draw_cols_text(cols, article, align='justify')
+
+
+    # PAGE NUMBER
+    if page_num % 2 != 0: draw_page_number_left(page_num, '#000000')
+    else: draw_page_number_right(page_num, '#000000')
+
+    img.save(f'exports/page-{page_num}.jpg', quality=50)
+    
+
+def gen_template_14(page_num):
+
+
+    # IMAGE
+    images_folderpath = f'page-{page_num}/img'
+    images = [image for image in os.listdir(images_folderpath)]
+
+    
+    x, y, w, h = get_coord(1, 1, 2, 9)
+    img_resize(f'page-{page_num}/0001.jpg', f'page-{page_num}/0001-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open(f'page-{page_num}/0001-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+
+    x, y, w, h = get_coord(1, 10, 2, 17)
+    img_resize(f'page-{page_num}/0002.jpg', f'page-{page_num}/0002-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open(f'page-{page_num}/0002-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y+int(row_h//2)))
+
+
+    x, y, w, h = get_coord(1, 19, 2, 30)
+    img_resize(f'page-{page_num}/0003.jpg', f'page-{page_num}/0003-resized.jpg', int(w-column_gap), h, 90)
+    img_featured = Image.open(f'page-{page_num}/0003-resized.jpg')
+    img.paste(img_featured, (x+int(column_gap), y))
+
+
+
+    image_name, image_ext = images[0].split('.')
+    x, y, w, h = get_coord(0, 1, 0, 12)
+    img_resize(
+        f'{images_folderpath}/{image_name}.{image_ext}', 
+        f'page-{page_num}/{image_name}-resized.{image_ext}', 
+        w-int(column_gap), h, 50)
+    img_featured = Image.open(f'page-{page_num}/{image_name}-resized.{image_ext}')
+    img.paste(img_featured, (x, y))
+
+
+    # TITLE
+    text = f'''
+    Come Inattivare Le Muffe 
+    Nelle Sale Di Stagionatura
+    Dei Formaggi
+    '''
+    lines = [line.strip() for line in text.split('\n') if line.strip() != '']
+    x, y, w, h = get_coord(0, 14, 0, 0)
+    font_size = 80
+    draw_text_2(lines, x, y, w, font_size, font_family='arialbd.ttf', align='left')
+
+
+    # ARTICLE
+    article = file_read(f'page-{page_num}/article.md')
+    cols = [
+        get_coord_2(0, 17, 2, 30),
+        get_coord_2(1, 1, 2, 30),
+    ]
+    cols[1][0] += column_gap
+    draw_cols_text(cols, article, align='justify')
+
+
+    # PAGE NUMBER
+    if page_num % 2 != 0: draw_page_number_left(page_num, '#000000')
+    else: draw_page_number_right(page_num, '#000000')
+
+    img.save(f'exports/page-{page_num}.jpg', quality=50)
+    
 
 
 # gen_template_1(1)
@@ -1144,19 +1253,21 @@ def preview_template_full(page_num_1, page_num_2):
 # gen_template_8(8)
 # gen_template_9(9)
 # gen_template_10(10)
-gen_template_11(1)
+# gen_template_11(1)
 # gen_template_12(2)
+# gen_template_13(13)
+gen_template_14(14)
 # preview_template_full(1, 2)
 
-# debug_margins()
-# debug_columns()
-# debug_rows()
-# debug_cells()
+debug_margins()
+debug_columns()
+debug_rows()
+debug_cells()
+
+# img.show()
 
 
 
-
-img.show()
 
 # images = [
 #     Image.open("exports/" + f)
