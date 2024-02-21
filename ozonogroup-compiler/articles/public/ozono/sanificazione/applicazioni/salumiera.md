@@ -1,4 +1,176 @@
-# 5 Applicazioni dell'Ozono nell'Industria Salumiera 
+# Sanificazione ad ozono nell'industria salumiera: cos'è, problemi, benefici e applicazioni
+
+![Ozono Sanificazione Industria Salumiera](/assets/images/ozono-sanificazione-industria-salumiera.jpg)
+
+
+## Cos'è la sanificazione ad ozono nell'industria salumiera e a cosa serve?
+
+![Ozono Sanificazione Industria Salumiera Definizione](/assets/images/ozono-sanificazione-industria-salumiera-definizione.jpg)
+
+
+## Quali problemi risolve la sanificazione ad ozono nei salumifici?
+
+![Ozono Sanificazione Industria Salumiera Problemi](/assets/images/ozono-sanificazione-industria-salumiera-problemi.jpg)
+
+La seguente lista elenca i problemi principali di contaminazione che l'ozono può risolvere nel settore salumiero.
+
+- Batteri
+- Virus
+- Muffe
+- Parassiti
+- Odori
+
+**Lista 1: Batteri nel settore lattiero caseario**
+1. Escherichia coli
+2. Listeria monocytogenes
+3. Salmonella spp.
+4. Staphylococcus aureus
+5. Clostridium spp.
+
+**Lista 2: Virus nel settore lattiero caseario**
+1. Norovirus
+2. Hepatitis A virus
+3. Rotavirus
+4. Enteric viruses
+5. Calicivirus
+
+**Lista 3: Muffe nel settore lattiero caseario**
+1. Penicillium spp.
+2. Aspergillus spp.
+3. Geotrichum candidum
+4. Mucor spp.
+5. Rhizopus spp.
+
+**Lista 4: Parassiti nel settore lattiero caseario**
+1. Cryptosporidium parvum
+2. Giardia lamblia
+3. Entamoeba histolytica
+4. Taenia spp.
+5. Toxoplasma gondii
+
+**Lista 5: Odori nel settore lattiero caseario**
+1. Ammoniaca
+2. Acido lattico
+3. Rancidità
+4. Butirro
+5. Muffa
+
+
+### Batteri
+
+L'ozono elimina i batteri tipici dell'industria salumiera, come la Listeria monocytogenes e Salmonella, attraverso l'azione ossidante che distrugge le membrane cellulari e inattiva le loro capacità riproduttive.
+
+I batteri più comuni presenti nell'industria salumiera che si possono eliminare con l'ozono sono elencati nella seguente lista.
+
+- Listeria monocytogenes
+- Salmonella
+- Escherichia coli (E. coli)
+- Staphylococcus aureus
+- Clostridium botulinum
+
+### Virus
+
+L'ozono inattiva i virus tipici dell'industria salumiera, tra cui il Norovirus e l'Hepatitis A, mediante l'ossidazione delle proteine virali e la disgregazione del loro materiale genetico, impedendone la contaminazione.
+
+I virus più comuni presenti nell'industria salumiera che si possono inattivare con l'ozono sono elencati nella seguente lista.
+
+- Norovirus
+- Hepatitis A
+- Rotavirus
+- Adenovirus
+- Calicivirus
+
+### Muffe
+
+L'ozono ossida le muffe tipiche dell'industria salumiera, come l'Aspergillus flavus e il Penicillium, grazie alla sua capacità di distruggere le pareti cellulari fungine e neutralizzare le loro spore.
+
+Le muffe più comuni presenti nell'industria salumiera che si possono ossidare con l'ozono sono elencati nella seguente lista.
+
+- Aspergillus flavus
+- Penicillium
+- Mucor
+- Rhizopus
+- Alternaria
+
+### Parassiti
+
+L'ozono repelle i parassiti tipici dell'industria salumiera, come il Trichinella spiralis e l'Anisakis, attraverso l'azione diretta sull'integrità cellulare dei parassiti e la prevenzione della loro diffusione.
+
+I parassiti più comuni presenti nell'industria salumiera che si possono repellere con l'ozono sono elencati nella seguente lista.
+
+- Trichinella spiralis
+- Toxoplasma gondii
+- Taenia solium
+- Anisakis
+- Cryptosporidium
+
+### Odori
+
+L'ozono disgrega gli odori tipici dell'industria salumiera, come quelli di ammoniaca e acido acetico, agendo sulla loro fonte e neutralizzandoli, contribuendo così a migliorare la qualità sensoriale dei prodotti.
+
+Gli odori più comuni presenti nell'industria salumiera che si possono disgregare con l'ozono sono elencati nella seguente lista.
+
+- Odore di ammoniaca
+- Odore di muffa
+- Odore di acido acetico
+- Odore sgradevole di putrefazione
+- Odore di zolfo
+
+
+
+
+
+## Quali sono i benefici della sanificazione ad ozono nel settore salumiero?
+
+
+![Ozono Sanificazione Industria Salumiera Benefici](/assets/images/ozono-sanificazione-industria-salumiera-benefici.jpg)
+
+
+## Quali sono le applicazioni della sanificazione ad ozono nell'industria salumiera?
+
+![Ozono Sanificazione Industria Salumiera Applicazioni](/assets/images/ozono-sanificazione-industria-salumiera-applicazioni.jpg)
+
+### Guarisce la mastite clinica delle mucche da latte
+
+
+### Elimina microbi dalle superfici contaminate con letame
+
+
+### Purifica l'aria delle aree produttive
+
+
+### Decontamina il formaggio da agenti patogeni
+
+
+### Impedisce la formazione di muffe sui formaggi durante la stagionatura
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ![5 Applicazioni dell'Ozono nell'Industria Salumiera](/assets/images/salumiera-applicazioni-featured.jpg "5 Applicazioni dell'Ozono nell'Industria Salumiera")
 

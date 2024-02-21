@@ -128,7 +128,13 @@ L'ozono è ampiamente impiegato nell'industria ittica per la sanitizzazione e la
 
 ## Industria Lattiero-Casearia
 
-L'ozono, nell'industria lattiero-casearia, si impiega per igienizzare l'ambiente di produzione e le attrezzature. Purifica l'aria riducendo batteri e odori, assicurando uno spazio fresco e igienico. La disinfezione delle superfici, strumenti e impianti di lavorazione minimizza la presenza di agenti patogeni, mantenendo elevati standard igienici. La pulizia delle celle frigorifere e dei magazzini protegge i latticini dalla contaminazione batterica, salvaguardandone la qualità. La sanificazione delle tubazioni e degli impianti di distribuzione previene la diffusione di germi durante il trasporto del latte. Inoltre, l'ozono riduce gli odori sgradevoli durante la lavorazione, garantendo un ambiente fresco e igienico per la produzione lattiero-casearia.
+![Ozono Sanificazione Industria Lattiero-Caseria](/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg)
+
+La [sanificazione ad ozono nell'industria lattiero-casearia](/ozono/sanificazione/applicazioni/lattiero-casearia.html) viene principalmente utilizzata per igienizzare l'ambiente di produzione e le attrezzature. 
+
+Purifica l'aria riducendo batteri e odori, assicurando uno spazio fresco e igienico. La disinfezione delle superfici, strumenti e impianti di lavorazione minimizza la presenza di agenti patogeni, mantenendo elevati standard igienici. La pulizia delle celle frigorifere e dei magazzini protegge i latticini dalla contaminazione batterica, salvaguardandone la qualità. La sanificazione delle tubazioni e degli impianti di distribuzione previene la diffusione di germi durante il trasporto del latte. 
+
+Inoltre, l'ozono riduce gli odori sgradevoli durante la lavorazione, garantendo un ambiente fresco e igienico per la produzione lattiero-casearia.
 
 ## Industria Quarta Gamma
 

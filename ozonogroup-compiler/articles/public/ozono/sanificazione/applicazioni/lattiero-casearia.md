@@ -1,4 +1,4 @@
-# Sanificazione ad ozono nell'industria lattiero-casearia: cosa è, benefici e applicazioni
+# Sanificazione ad ozono nell'industria lattiero-casearia: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Lattiero-Caseria](/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg)
 
@@ -124,7 +124,7 @@ Questo processo avanzato contribuisce inoltre a prolungare la vita utile dei pro
 
 Infine, l'ozono contribuisce a migliorare l'ambiente di produzione, eliminando odori sgradevoli e creando condizioni igieniche ottimali che aumentano la fiducia dei consumatori nei prodotti lattiero-caseari.
 
-![Ozono Sanificazione Industria Lattiero-Caseria Soluzioni](/assets/images/ozono-sanificazione-industria-lattiero-casearia-soluzioni.jpg)
+![Ozono Sanificazione Industria Lattiero-Caseria Benefici](/assets/images/ozono-sanificazione-industria-lattiero-casearia-benefici.jpg)
 
 La seguente lista elenca i principali benefici della sanificazione ad ozono nel settore lattiero-caseario.
 

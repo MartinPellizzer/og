@@ -7,6 +7,7 @@ import math
 import shutil
 import csv
 import pathlib
+import util
 
 from PIL import Image, ImageFont, ImageDraw, ImageColor
 
@@ -637,6 +638,8 @@ def generate_manual_article_html():
     )
 
     for filepath in folder.rglob("*.md"):
+        filepath = str(filepath)
+        
         with open(filepath, encoding='utf-8') as f:
             content = f.read()
 
@@ -651,8 +654,7 @@ def generate_manual_article_html():
         content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
 
 
-        filepath_chunks = str(filepath).split('\\')
-
+        filepath_chunks = filepath.split('\\')
 
         # BREADCRUMBS  ---------------------------------------------
         breadcrumbs = generate_breadcrumbs(filepath_chunks)
@@ -681,6 +683,7 @@ def generate_manual_article_html():
         with open('components/header.html', encoding='utf-8') as f:
             header_html = f.read()
                 
+
                 
         html = f'''
             <!DOCTYPE html>
@@ -734,19 +737,69 @@ def generate_manual_article_html():
 
         filepath_out_dir = '/'.join(filepath_chunks[1:-1])
         filepath_out = '/'.join(filepath_chunks[1:]).replace('.md', '.html')
-        print(filepath_out)
+        # print(filepath_out)
 
         if not os.path.exists(filepath_out_dir):
             os.makedirs(filepath_out_dir)
 
-        with open(filepath_out, 'w', encoding='utf-8') as f:
-            f.write(html)
+        util.file_write(filepath_out, html)
+
+    
+    # IMAGES
+    articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
+    for article_filename in os.listdir(articles_folder):
+        print(article_filename)
+        if 'lattiero-casearia' in article_filename:
+            article_filepath = f'{article_filename}/{article_filename}'
+            images_articles_folder = f'C:/og-assets/images/articles'
+            images_article_folder = f'{images_articles_folder}/lattiero-casearia'
+            images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+
+            image_filepath = images_filepath.pop(0)
+            img_resize_2(
+                image_filepath, 
+                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg'
+            )
+
+            image_filepath = images_filepath.pop(0)
+            img_resize_2(
+                image_filepath, 
+                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-definizione.jpg'
+            )
+
+            image_filepath = images_filepath.pop(0)
+            img_resize_2(
+                image_filepath, 
+                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-problemi.jpg'
+            )
+
+            image_filepath = images_filepath.pop(0)
+            img_resize_2(
+                image_filepath, 
+                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-benefici.jpg'
+            )
+
+            image_filepath = images_filepath.pop(0)
+            img_resize_2(
+                image_filepath, 
+                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-applicazioni.jpg'
+            )
+            
+    # if 'applicazioni' in filepath:
+    #     filepath = filepath.replace('\\', '/')
+    #     print(filepath)
+    #     quit()
+    #     filename = filepath.split('/')[-1].replace('.md', '')
+    #     images_articles_folder = f'C:/og-assets/images/articles'
+    #     images_article_folder = f'C:/og-assets/images/articles/{filename}'
+    #     images_filepath = [filepath for filepath in os.listdir(images_article_folder)]
+
 
 
 def copy_images():
-    articles_images_path = 'assets/images/articles/'
-    for f in os.listdir(articles_images_path):
-        shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
+    # articles_images_path = 'assets/images/articles/'
+    # for f in os.listdir(articles_images_path):
+    #     shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
         
     articles_images_path = 'assets/images/home/'
     for f in os.listdir(articles_images_path):
@@ -766,98 +819,98 @@ def copy_images():
 # try: os.mkdir('articles/public/ozono/sanificazione/')
 # except: pass
 
-try: shutil.rmtree('public/ozono/sanificazione/')
-except: pass
-try: os.mkdir('public/ozono/sanificazione/')
-except: pass
+# try: shutil.rmtree('public/ozono/sanificazione/')
+# except: pass
+# try: os.mkdir('public/ozono/sanificazione/')
+# except: pass
 
-home_articles = []
+# home_articles = []
 
-with open("database/json/articles.json", encoding='utf-8') as f:
-    data = json.loads(f.read())
+# with open("database/json/articles.json", encoding='utf-8') as f:
+#     data = json.loads(f.read())
 
-for item in data:
-    article = ''
+# for item in data:
+#     article = ''
 
-    if item['status'] == 'draft': continue
+#     if item['status'] == 'draft': continue
 
-    date = item['date']
-    attribute = item['attribute']
-    entity = item['entity']
+#     date = item['date']
+#     attribute = item['attribute']
+#     entity = item['entity']
     
-    folders = attribute.split('/')
-    path = ''
-    for folder in folders:
-        path += folder + '/'
-        try: os.mkdir(f'articles/public/ozono/sanificazione/{path}')
-        except: pass
-        try: os.mkdir(f'public/ozono/sanificazione/{path}')
-        except: pass
+#     folders = attribute.split('/')
+#     path = ''
+#     for folder in folders:
+#         path += folder + '/'
+#         try: os.mkdir(f'articles/public/ozono/sanificazione/{path}')
+#         except: pass
+#         try: os.mkdir(f'public/ozono/sanificazione/{path}')
+#         except: pass
     
-    industry = item['industry']
-    industry_ad = item['industry_ad']
+#     industry = item['industry']
+#     industry_ad = item['industry_ad']
 
-    img_filepath = ''
+#     img_filepath = ''
 
-    if 'applications' in attribute: 
-        applications = item['applications']
+#     if 'applications' in attribute: 
+#         applications = item['applications']
 
-        # title
-        title = f'{len(applications)} Applicazioni dell\'Ozono nell\'Industria {industry_ad}{industry.title()}'
-        article += f'# {title} \n\n'
+#         # title
+#         title = f'{len(applications)} Applicazioni dell\'Ozono nell\'Industria {industry_ad}{industry.title()}'
+#         article += f'# {title} \n\n'
 
-        # image
-        try:
-            img_filepath = generate_featured_image(attribute, industry)
-            article += f'![{title}]({img_filepath} "{title}")\n\n'
-        except:
-            print(f'WARNING: missing image > {attribute}')
+#         # image
+#         try:
+#             img_filepath = generate_featured_image(attribute, industry)
+#             article += f'![{title}]({img_filepath} "{title}")\n\n'
+#         except:
+#             print(f'WARNING: missing image > {attribute}')
         
-        # intro 
-        applications_intro = item['applications_intro']
-        article +=  '\n\n'.join(applications_intro) + '\n\n'
-        applications_titles = [application["title"] for application in applications]
-        article += f'In questo articolo vengono descritte nel dettaglio le applicazioni dell\'ozono nell\'industria {industry_ad}{industry} elencate nella seguente lista.\n\n'
-        article += lst_to_blt(applications_titles) + '\n\n'
+#         # intro 
+#         applications_intro = item['applications_intro']
+#         article +=  '\n\n'.join(applications_intro) + '\n\n'
+#         applications_titles = [application["title"] for application in applications]
+#         article += f'In questo articolo vengono descritte nel dettaglio le applicazioni dell\'ozono nell\'industria {industry_ad}{industry} elencate nella seguente lista.\n\n'
+#         article += lst_to_blt(applications_titles) + '\n\n'
 
-        # list
-        for i, application in enumerate(applications):
-            article += f'## {i+1}. {application["title"].capitalize()}\n\n'
-            article += '\n\n'.join(application['description']) + '\n\n'
-            application_title = application['title'].replace(' ', '-')
+#         # list
+#         for i, application in enumerate(applications):
+#             article += f'## {i+1}. {application["title"].capitalize()}\n\n'
+#             article += '\n\n'.join(application['description']) + '\n\n'
+#             application_title = application['title'].replace(' ', '-')
             
-            try: application_table = application['table'].replace(' ', '-')
-            except: continue
-            lines = get_csv_table(f'database/tables/{industry}/{application_table}/{application_table}.csv')
-            article += generate_table(lines)
+#             try: application_table = application['table'].replace(' ', '-')
+#             except: continue
+#             lines = get_csv_table(f'database/tables/{industry}/{application_table}/{application_table}.csv')
+#             article += generate_table(lines)
                 
-            try:
-                lst = application['list']
-                if application['table'] == 'aria-ambienti':
-                    article += f'L\'ozono sanifica diversi tipi di ambienti nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
-                elif application['table'] == 'attrezzature':
-                    article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'industria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
-                elif application['table'] == 'prodotti-alimentari':
-                    article += f'L\'ozono sanifica diversi tipi di prodotti alimentari nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
-                article += lst_to_blt(lst) + '\n\n'
-            except: pass
+#             try:
+#                 lst = application['list']
+#                 if application['table'] == 'aria-ambienti':
+#                     article += f'L\'ozono sanifica diversi tipi di ambienti nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
+#                 elif application['table'] == 'attrezzature':
+#                     article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'industria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
+#                 elif application['table'] == 'prodotti-alimentari':
+#                     article += f'L\'ozono sanifica diversi tipi di prodotti alimentari nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
+#                 article += lst_to_blt(lst) + '\n\n'
+#             except: pass
 
     
 
-    # generate html
-    generate_article_html(date, attribute, article, title)
+#     # generate html
+#     generate_article_html(date, attribute, article, title)
 
-    home_article = {
-        'href': f'/ozono/sanificazione/{attribute}.html',
-        'src': f'{img_filepath}',
-        'title': f'{title}'
-    }
+#     home_article = {
+#         'href': f'/ozono/sanificazione/{attribute}.html',
+#         'src': f'{img_filepath}',
+#         'title': f'{title}'
+#     }
 
-    home_articles.append(home_article)
+#     home_articles.append(home_article)
         
 
 
-generate_home_html(home_articles) 
+# generate_home_html(home_articles) 
 
 generate_manual_article_html()
 copy_images()
