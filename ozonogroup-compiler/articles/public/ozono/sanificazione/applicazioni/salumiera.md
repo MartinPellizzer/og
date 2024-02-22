@@ -127,6 +127,12 @@ La seguente lista elenca i principali benefici della sanificazione ad ozono nel 
 
 ## Quali sono le applicazioni della sanificazione ad ozono nell'industria salumiera?
 
+L'ozono emerge come un potente alleato nell'industria salumiera, offrendo diverse applicazioni per migliorare la sicurezza alimentare e la qualità del processo di produzione. 
+
+Questo gas reattivo può essere impiegato per disinfezione dell'aria, garantendo ambienti di lavoro privi di microrganismi patogeni. La sanificazione di attrezzature e superfici attraverso l'ozono riduce il rischio di contaminazione incrociata. Nel trattamento dell'acqua, l'ozono elimina batteri e contaminanti, assicurando la purezza del liquido utilizzato nei processi produttivi. 
+
+La sterilizzazione degli imballaggi e la riduzione degli odori contribuiscono ulteriormente a preservare la qualità dei salumi, mentre la decontaminazione dell'aria nei locali refrigerati prolunga la vita utile dei prodotti.
+
 ![Ozono Sanificazione Industria Salumiera Applicazioni](/assets/images/ozono-sanificazione-industria-salumiera-applicazioni.jpg)
 
 Qui sotto trovi una lista dettagliata delle principali applicazioni della sanificazione ad ozono nell'industria lattiero-casearia.

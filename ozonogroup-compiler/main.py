@@ -749,6 +749,7 @@ def generate_manual_article_html():
     industries = [
         'lattiero-casearia',
         'salumiera',
+        'ittica',
     ]
     articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
     for article_filename in os.listdir(articles_folder):
