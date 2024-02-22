@@ -116,7 +116,16 @@ L'industria della lavorazione delle carni sfrutta l'ozono in diversi ambiti. Que
 
 ## Industria Salumiera
 
-L'industria salumiera impiega l'ozono in svariati modi per garantire la sicurezza e l'igiene degli ambienti di produzione. Questo gas disinfects surface, machinery, and tools, diminishing the presence of harmful microorganisms. It's used to sanitize equipment, reducing cross-contamination risks, while keeping workspaces hygienic. Additionally, ozone aids in purifying storage areas, preventing bacterial growth in meat preservation spaces. Its role in eliminating undesirable odors associated with salami production ensures a fresher environment. Air purification through ozone treatments further enhances workplace hygiene by reducing pathogen presence, fostering a safer production environment for salami processing.
+![Ozono Sanificazione Industria Salumiera](/assets/images/ozono-sanificazione-industria-salumiera.jpg)
+
+La [sanificazione ad ozono nell'industria salumiera](/ozono/sanificazione/applicazioni/salumiera.html) viene principalmente utilizzata per garantire la sicurezza alimentare e prolungare la conservazione dei prodotti. 
+
+Questo metodo elimina batteri, virus e muffe presenti negli ambienti di produzione e sugli strumenti di lavorazione. Ad esempio, l'ozono viene impiegato per disinfettare le celle frigorifere, riducendo il rischio di contaminazione e prolungando la shelf life dei salumi. 
+
+La sua efficacia nel contrastare i patogeni è un elemento cruciale per soddisfare rigorosi standard igienici nel settore salumiero.
+
+
+
 
 ## Industria Avicola
 

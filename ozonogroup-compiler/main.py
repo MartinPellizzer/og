@@ -746,43 +746,49 @@ def generate_manual_article_html():
 
     
     # IMAGES
+    industries = [
+        'lattiero-casearia',
+        'salumiera',
+    ]
     articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
     for article_filename in os.listdir(articles_folder):
+        article_filename_no_ext = article_filename.replace('.md', '')
         print(article_filename)
-        if 'lattiero-casearia' in article_filename:
+        if article_filename_no_ext in industries:
+            print('ok')
             article_filepath = f'{article_filename}/{article_filename}'
             images_articles_folder = f'C:/og-assets/images/articles'
-            images_article_folder = f'{images_articles_folder}/lattiero-casearia'
+            images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
             images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg'
+                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-definizione.jpg'
+                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-definizione.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-problemi.jpg'
+                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-problemi.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-benefici.jpg'
+                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-benefici.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-lattiero-casearia-applicazioni.jpg'
+                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-applicazioni.jpg'
             )
             
     # if 'applicazioni' in filepath:
