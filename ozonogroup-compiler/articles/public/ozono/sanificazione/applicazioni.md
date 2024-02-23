@@ -133,7 +133,13 @@ L'industria avicola sfrutta l'ozono in diversi settori per garantire la massima 
 
 ## Industria Ittica
 
-L'ozono è ampiamente impiegato nell'industria ittica per la sanitizzazione e la disinfezione. Attraverso la sterilizzazione delle attrezzature e la pulizia degli impianti, si mira a ridurre la presenza di batteri e agenti patogeni. La disinfezione delle superfici e delle aree di confezionamento è fondamentale per evitare la contaminazione incrociata. Inoltre, il trattamento dell'aria e la sanitizzazione delle acque permettono di mantenere un ambiente di lavoro igienico e di garantire la freschezza e la qualità del pesce, preservando gli elevati standard igienici richiesti nell'industria ittica.
+![Ozono Sanificazione Industria Ittica](/assets/images/ozono-sanificazione-industria-ittica.jpg)
+
+La [sanificazione ad ozono nell'industria ittica](/ozono/sanificazione/applicazioni/ittica.html) viene principalmente utilizzata per sanitizzare e disinfettare ambienti e prodotti. 
+
+Attraverso la sterilizzazione delle attrezzature e la pulizia degli impianti, si mira a ridurre la presenza di batteri e agenti patogeni. La disinfezione delle superfici e delle aree di confezionamento è fondamentale per evitare la contaminazione incrociata. 
+
+Inoltre, il trattamento dell'aria e la sanitizzazione delle acque permettono di mantenere un ambiente di lavoro igienico e di garantire la freschezza e la qualità del pesce, preservando gli elevati standard igienici richiesti nell'industria ittica.
 
 ## Industria Lattiero-Casearia
 

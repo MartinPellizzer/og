@@ -556,24 +556,24 @@ def generate_article_html(date, attribute, article, title):
         f.write(html)
 
 
-def generate_home_html(home_articles):
-    # articles_html = ''
-    # for article in home_articles:
-    #     articles_html += f'''
-    #         <a class="decoration-none" href="{article['href']}">
-    #             <img src="{article['src']}" alt="">
-    #             <h3>{article['title']}</h3>
-    #         </a>
-    #     '''
+# def generate_home_html(home_articles):
+#     # articles_html = ''
+#     # for article in home_articles:
+#     #     articles_html += f'''
+#     #         <a class="decoration-none" href="{article['href']}">
+#     #             <img src="{article['src']}" alt="">
+#     #             <h3>{article['title']}</h3>
+#     #         </a>
+#     #     '''
 
-    with open("home.html", encoding='utf-8') as f:
-        html = f.read()
+#     with open("home.html", encoding='utf-8') as f:
+#         html = f.read()
 
-    with open('components/header.html', 'r', encoding='utf-8') as f: header = f.read()
-    html = html.replace('<!-- insert header here -->', header)
+#     with open('components/header.html', 'r', encoding='utf-8') as f: header = f.read()
+#     html = html.replace('<!-- insert header here -->', header)
 
-    with open("public/index.html", 'w', encoding='utf-8') as f:
-        f.write(html)
+#     with open("public/index.html", 'w', encoding='utf-8') as f:
+#         f.write(html)
         
 
 def get_csv_table(filepath):
@@ -750,6 +750,7 @@ def generate_manual_article_html():
         'lattiero-casearia',
         'salumiera',
         'ittica',
+        'cerealicola',
     ]
     articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
     for article_filename in os.listdir(articles_folder):
