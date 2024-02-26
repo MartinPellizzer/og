@@ -1,20 +1,20 @@
 import util
 
-industry = 'cerealicola'
-sector = 'cerealicolo'
+industry = 'lavorazione carni'
+sector = 'lavorazione carni'
 
 def article_init():
     applications_folder = 'articles/public/ozono/sanificazione/applicazioni'
-    
+
     industry_dash = industry.replace(' ', '-')
-    
+
     filepath = f'{applications_folder}/{industry_dash}.md'
     content = util.file_read(filepath)
 
     content = content.strip()
-    
+
     if content != '': return
-   
+
     content = ''
     content += f"# Sanificazione ad ozono nell'industria {industry}: cos'è, problemi, benefici e applicazioni\n\n"
     content += f"![Ozono Sanificazione Industria {industry.title()}](/assets/images/ozono-sanificazione-industria-{industry_dash}.jpg)\n\n"
@@ -81,7 +81,7 @@ includi numeri, dati e statistiche.
     ''')
 
     print(f'''
-scrivi un paragrafo di 5 frasi in 100 parole spiegando come la sanificazione ad ozono risolve i problemi di contaminazione nel settore ittico.
+scrivi un paragrafo di 5 frasi in 100 parole spiegando come la sanificazione ad ozono risolve i problemi di contaminazione nel settore {sector}.
 
 -------------------------------------------------------------------
     ''')

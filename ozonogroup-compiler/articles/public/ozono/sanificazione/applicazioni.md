@@ -151,21 +151,55 @@ Purifica l'aria riducendo batteri e odori, assicurando uno spazio fresco e igien
 
 Inoltre, l'ozono riduce gli odori sgradevoli durante la lavorazione, garantendo un ambiente fresco e igienico per la produzione lattiero-casearia.
 
-## Industria Quarta Gamma
+## Industria Ortofrutticola
 
-L'ozono riveste un ruolo cruciale nell'industria della quarta gamma, garantendo l'igiene e la sicurezza alimentare. Utilizzato per disinfettare attrezzature, ambienti e superfici di lavorazione, mantiene l'ambiente di produzione privo di contaminazioni. Da celle frigorifere a strumenti di confezionamento, ogni fase beneficia della sterilizzazione dell'ozono, riducendo la crescita batterica e preservando la freschezza dei prodotti minimamente processati. Inoltre, l'ozono neutralizza odori indesiderati, contribuendo a mantenere un'atmosfera igienica e senza odori sgradevoli, garantendo la qualità e la sicurezza dei prodotti destinati al consumo immediato.
+![Ozono Sanificazione Industria Ortofrutticola](/assets/images/ozono-sanificazione-industria-ortofrutticola.jpg)
 
-## Industria Vitivinicola
+La [sanificazione ad ozono nell'industria ortofrutticola](/ozono/sanificazione/applicazioni/ortofrutticola.html) viene principalmente utilizzata per garantire la sicurezza alimentare e prolungare la conservazione dei prodotti. 
 
-Nell'industria vitivinicola, l'ozono riveste un ruolo fondamentale nella sterilizzazione e pulizia. È impiegato per sanificare attrezzature come serbatoi, tubazioni e bottiglie, garantendo un ambiente privo di microrganismi nocivi. La sua azione disinfezione si estende anche alle strutture di produzione e conservazione, riducendo la crescita di muffe e batteri. Usato nell'acqua di processo, contribuisce alla purificazione riducendo contaminanti. Inoltre, l'ozono svolge un ruolo nella riduzione di residui chimici nelle uve e nelle attrezzature, mantenendo una produzione vinicola pulita e contribuendo alla creazione di vini di qualità.
+Questa tecnologia si applica nella disinfezione delle strutture di stoccaggio, dei mezzi di trasporto e delle confezioni, riducendo significativamente la presenza di batteri, virus e muffe. Inoltre, l'ozono risolve problemi legati alla presenza di residui di pesticidi, garantendo prodotti finali più salubri. 
+
+Ad esempio, durante il processo di imballaggio, l'ozono può essere utilizzato per eliminare microrganismi nocivi dalla superficie delle frutta, come nel caso delle fragole, migliorando la loro shelf-life e minimizzando gli impatti ambientali associati a detergenti chimici.
+
+## Industria Vinicola
+
+![Ozono Sanificazione Industria Vinicola](/assets/images/ozono-sanificazione-industria-vinicola.jpg)
+
+La [sanificazione ad ozono nell'industria vinicola](/ozono/sanificazione/applicazioni/vinicola.html) viene principalmente utilizzata per garantire elevati standard igienici durante la produzione del vino.
+
+Questo innovativo metodo trova applicazione nella disinfezione degli impianti di vinificazione e delle attrezzature, eliminando batteri, muffe e lieviti indesiderati. L'ozono, grazie alla sua azione ossidante, risolve problematiche legate alla contaminazione microbica, contribuendo alla preservazione delle caratteristiche organolettiche del vino. Ad esempio, nella pulizia delle botti di legno, l'ozono penetra nei pori eliminando residui organici e cattivi odori senza lasciare residui chimici. 
+
+Questo metodo, ecologico e efficace, rappresenta una soluzione avanzata per mantenere la qualità nella produzione vinicola.
 
 ## Industria Cerealicola
 
-Nell'industria cerealicola, l'ozono è vitale per garantire la sicurezza e la qualità dei prodotti. Utilizzato per sanificare le aree di stoccaggio, riduce batteri e muffe, preservando i cereali. La disinfezione delle attrezzature, dai macchinari alle tramogge, è essenziale per evitare la contaminazione dei prodotti finiti. La purificazione dell'aria migliora l'ambiente di lavoro, riducendo agenti inquinanti e microorganismi. La disinfezione delle superfici, come i tavoli di lavoro, mantiene standard igienici elevati. Infine, l'ozono elimina gli odori indesiderati, assicurando un ambiente fresco durante la lavorazione e la conservazione dei cereali.
+![ozono sanificazione industria cerealicola](/assets/images/ozono-sanificazione-industria-cerealicola.jpg)
+
+La [sanificazione ad ozono nell'industria cerealicola](/ozono/sanificazione/applicazioni/cerealicola.html) viene principalmente utilizzata per garantire la sicurezza alimentare e prolungare la conservazione dei prodotti. 
+
+Questa tecnologia è applicata in varie fasi della produzione cerealicola, inclusa la disinfezione delle strutture di stoccaggio e dei macchinari. Risolve efficacemente problemi come la presenza di microrganismi patogeni e muffe che possono compromettere la qualità e la salubrità dei cereali. 
+
+Ad esempio, l'ozono è impiegato per eliminare la contaminazione microbica nei silos di stoccaggio, prevenendo la proliferazione di muffe dannose come l'A. flavus, responsabile della produzione di aflatossine nocive per la salute umana.
+
+## Industria Acqua Minerale
+
+![ozono sanificazione industria acqua minerale](/assets/images/ozono-sanificazione-industria-acqua-minerale.jpg)
+
+La [sanificazione ad ozono nell'industria dell'acqua minerale](/ozono/sanificazione/applicazioni/acqua-minerale.html) viene principalmente utilizzata per garantire elevati standard igienici e la sicurezza del prodotto. 
+
+Questo metodo innovativo si applica al trattamento delle superfici e degli impianti, eliminando batteri, virus e contaminanti. Le condotte e gli impianti di imbottigliamento vengono sottoposti a cicli di ozonizzazione, assicurando la disinfezione completa senza l'uso di sostanze chimiche nocive. Inoltre, l'ozono trova impiego nella pulizia delle bottiglie stesse, garantendo che il contenitore sia privo di microrganismi prima del riempimento. 
+
+Questo approccio avanzato è cruciale per mantenere gli standard di qualità richiesti nel settore dell'acqua minerale, assicurando prodotti sicuri e affidabili per i consumatori.
 
 ## Industria Birraria
 
-L'industria birraria impiega l'ozono in varie fasi del processo di produzione per assicurare la massima igiene e qualità. Questo gas disinfects gli impianti, sterilizza serbatoi e attrezzature riducendo la presenza di batteri. La sua azione si estende alla pulizia delle superfici, garantendo uno spazio di lavoro igienico e sicuro. Utilizzato anche per trattare l'acqua, rimuove contaminanti e microbi, mentre la sua applicazione negli impianti di condizionamento dell'aria mantiene un ambiente di produzione fresco e pulito. Nei luoghi di stoccaggio, impedisce la proliferazione batterica proteggendo i prodotti finiti e riduce gli odori indesiderati nell'aria, mantenendo un ambiente gradevole e salubre.
+![ozono sanificazione industria birraria](/assets/images/ozono-sanificazione-industria-birraria.jpg)
+
+La [sanificazione ad ozono nell'industria birraria](/ozono/sanificazione/applicazioni/birraria.html) viene principalmente utilizzata per garantire un ambiente di produzione igienico e privo di contaminazioni. 
+
+Questa tecnologia avanzata è impiegata nel processo di disinfezione di attrezzature come serbatoi di fermentazione e linee di imbottigliamento, eliminando efficacemente batteri, lieviti e muffe. Ad esempio, durante la fase di imbottigliamento, l'ozono viene utilizzato per sterilizzare le bottiglie, assicurando la purezza del prodotto finale. 
+
+Questo metodo non solo riduce il rischio di contaminazione microbiologica, ma contribuisce anche a estendere la durata di conservazione della birra, migliorando la qualità complessiva del processo produttivo nell'industria birraria.
 
 ## Industria Automotive
 
