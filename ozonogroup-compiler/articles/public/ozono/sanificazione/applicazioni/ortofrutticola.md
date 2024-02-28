@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Ortofrutticola
+---
+
 # Sanificazione ad ozono nell'industria ortofrutticola: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Ortofrutticola](/assets/images/ozono-sanificazione-industria-ortofrutticola.jpg)

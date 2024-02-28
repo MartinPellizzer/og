@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Ittica
+---
+
 # Sanificazione ad ozono nell'industria ittica: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Ittica](/assets/images/ozono-sanificazione-industria-ittica.jpg)

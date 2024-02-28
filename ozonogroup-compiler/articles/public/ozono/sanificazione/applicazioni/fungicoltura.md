@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Della Fungicoltura
+---
+
 # Sanificazione ad ozono nell'industria della fungicoltura: cosa è, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Fungicoltura Intro](/assets/images/ozono-sanificazione-industria-fungicoltura-intro.jpg)

@@ -13,6 +13,18 @@ from PIL import Image, ImageFont, ImageDraw, ImageColor
 
 
 
+GOOGLE_TAG = '''
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TV11JVJVKC"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TV11JVJVKC');
+    </script>
+'''
+
     
 def lst_to_blt(lst):
     txt = ''
@@ -218,224 +230,6 @@ def img_resize_2(image_path_in, image_path_out):
     return output_path
 
 
-def img_list_double(image_path, title, lst):
-    w, h = 768, 512
-    background_color = "#f8fafc"
-    background_color = "#047857"
-    background_color = "#1d4ed8"
-    font_color = '#0f172a'
-    font_color = '#ffffff'
-
-    half_len = len(lst) / 2
-    if half_len.is_integer(): 
-        sublist_1_len = int(half_len)
-        sublist_2_len = int(half_len)
-    else: 
-        sublist_1_len = int(half_len + 1)
-        sublist_2_len = int(half_len)
-
-    if sublist_1_len > 8: 
-        sublist_1 = lst[:8]
-        sublist_2 = lst[8:16]
-    else: 
-        sublist_1 = lst[:sublist_1_len]
-        sublist_2 = lst[sublist_1_len:sublist_1_len+sublist_2_len]
-
-    img = Image.new(mode="RGB", size=(w, h), color=background_color)
-
-    draw = ImageDraw.Draw(img)
-
-
-    font_size = 40
-    line_hight = 1.2
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    lines = ['Lista dei patogeni più comuni', 'nell\'industria della quarta gamma']
-    lines = [title, 'nell\'industria della quarta gamma']
-    # lines = [title]
-    for i, line in enumerate(lines):
-        line_w = font.getsize(line)[0]
-        draw.text((w//2 - line_w//2, 30 + (font_size * line_hight * i)), line, font_color, font=font)
-    
-
-    list_y = 160 
-    font_size = 24
-    line_hight = 1.5
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-
-
-    lines = [f'{i + 1}. {item}' for i, item in enumerate(sublist_1)]
-    for i, line in enumerate(lines):
-        line_w = font.getsize(line)[0]
-        draw.text((30, list_y + (font_size * line_hight * i)), line, font_color, font=font)
-        
-    lines = [f'{i + 1 + len(sublist_1)}. {item}' for i, item in enumerate(sublist_2)]
-    for i, line in enumerate(lines):
-        line_w = font.getsize(line)[0]
-        draw.text((w//2 + 30, list_y + (font_size * line_hight * i)), line, font_color, font=font)
-    
-    output_path = image_path.replace('articles', 'articles-images')
-    output_path = f'public/assets/images/{"-".join(image_path.split("/")[2:])}'
-    img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
-
-    return output_path
-
-
-def img_list_center(image_path, title, lst):
-    w, h = 768, 512
-    background_color = "#047857"
-    background_color = "#1d4ed8"
-    font_color = '#ffffff'
-
-    sublist_1 = lst[:8]
-    sublist_1_len = len(sublist_1)
-
-    img = Image.new(mode="RGB", size=(w, h), color=background_color)
-    draw = ImageDraw.Draw(img)
-
-    font_size = 40
-    line_hight = 1.2
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    lines = ['Lista dei patogeni più comuni', 'nell\'industria della quarta gamma']
-    lines = [title, 'nell\'industria della quarta gamma']
-    # lines = [title]
-    for i, line in enumerate(lines):
-        line_w = font.getsize(line)[0]
-        draw.text((w//2 - line_w//2, 30 + (font_size * line_hight * i)), line, font_color, font=font)
-    
-    list_y = 160 
-    font_size = 24
-    line_hight = 1.5
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    lines = [f'{i + 1}. {item}' for i, item in enumerate(sublist_1)]
-    for i, line in enumerate(lines):
-        line_w = font.getsize(line)[0]
-        draw.text((w//2 - line_w//2, list_y + (font_size * line_hight * i)), line, font_color, font=font)
-        
-    output_path = image_path.replace('articles', 'articles-images')
-    output_path = f'public/assets/images/{"-".join(image_path.split("/")[2:])}'
-    img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
-
-    return output_path
-
-
-def img_cheasheet(item, title, lst, img_name):
-    industry = item['industry']
-    industry_ad = item['industry_ad']
-
-    img_w, img_h = 768, 2000
-    bg_dark_1 = "#1d4ed8"
-    bg_light_1 = "#eff6ff"
-    bg_light_2 = "#dbeafe"
-    # bg_light_3 = "#a7f3d0"
-    fg_light = '#ffffff'
-    fg_dark = '#0f172a'
-
-    img = Image.new(mode="RGB", size=(img_w, img_h), color=bg_light_1)
-    draw = ImageDraw.Draw(img)
-
-    rect_h = 0
-    line_x = 50
-    line_y = 20
-
-    font_size = 36
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    lines = [title, f'{industry_ad}{industry}']
-    for i, line in enumerate(lines):
-        rect_h += font.getbbox('y')[3]
-    rect_h += line_y * 2
-        
-    draw.rectangle(((0, 0), (img_w, rect_h)), fill=bg_dark_1)
-    for i, line in enumerate(lines):
-        line_w = font.getbbox(line)[2]
-        line_h = font.getbbox('y')[3]
-        draw.text((img_w//2 - line_w//2, line_y + line_h * i), line, fg_light, font=font)
-
-    font_size = 16
-    font = ImageFont.truetype("assets/fonts/arial.ttf", font_size)
-    
-    title_rect_h = rect_h
-    line_y = title_rect_h + 50
-
-    rect_h = 0
-
-    full_len = len(lst)
-    half_len_1 = math.ceil(full_len/2)
-    half_len_2 = full_len - half_len_1
-    sublist_1 = lst[:half_len_1]
-    sublist_2 = lst[half_len_1:]
-
-    for l in sublist_1:
-        bg = 0
-        for i, x in enumerate(l):
-            line = x
-            line_x = 50
-            line_y += rect_h
-            line_w = font.getbbox(line)[2]
-            line_h = font.getbbox('y')[3]
-            rect_x = line_x - 20
-            rect_y = line_y - 10
-            rect_w = img_w//2 - 50
-            rect_h = line_h + 20
-            if i == 0:
-                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_dark_1)
-                draw.text((line_x, line_y), line, fg_light, font=font)
-            elif bg == 0:
-                bg = 1
-                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_2)
-                draw.text((line_x, line_y), line, fg_dark, font=font)
-            else:
-                bg = 0
-                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_1)
-                draw.text((line_x, line_y), line, fg_dark, font=font)
-        line_y += rect_h
-        rect_y = line_y - 10
-        draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + 5)), fill=bg_dark_1) 
-
-    max_height = line_y
-    
-    line_y = title_rect_h + 50
-
-    rect_h = 0
-    for l in sublist_2:
-        bg = 0
-        for i, x in enumerate(l):
-            line = x
-            line_x = img_w//2 + 36
-            line_y += rect_h
-            line_w = font.getbbox(line)[2]
-            line_h = font.getbbox('y')[3]
-            rect_x = line_x - 20
-            rect_y = line_y - 10
-            rect_w = img_w//2 - 50
-            rect_h = line_h + 20
-            if i == 0:
-                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_dark_1)
-                draw.text((line_x, line_y), line, fg_light, font=font)
-            elif bg == 0:
-                bg = 1
-                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_2)
-                draw.text((line_x, line_y), line, fg_dark, font=font)
-            else:
-                bg = 0
-                draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + rect_h)), fill=bg_light_1)
-                draw.text((line_x, line_y), line, fg_dark, font=font)
-        line_y += rect_h
-        rect_y = line_y - 10
-        draw.rectangle(((rect_x, rect_y), (rect_x + rect_w, rect_y + 6)), fill=bg_dark_1) 
-
-    if max_height < line_y : max_height = line_y
-
-    area = (0, 0, img_w, max_height + 30)
-    img = img.crop(area)
-
-    
-    output_filename = industry.lower().replace(' ', '-')
-    output_path = f'public/assets/images/ozono-sanificazione-{output_filename}-{img_name}.jpg'
-    img.save(f'{output_path}', format='JPEG', subsampling=0, quality=100)
-
-    return output_path
-
-
 def generate_featured_image(attribute, attr_2):
     industry_formatted = industry.replace(' ', '-')
     image_path_in = f'articles-images/public/ozono/sanificazione/{attribute}/{industry_formatted}/featured.jpg'
@@ -515,6 +309,7 @@ def generate_article_html(date, attribute, article, title):
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="/style-blog.css">
             <title>{title}</title>
+            {GOOGLE_TAG}
         </head>
 
         <body>
@@ -555,26 +350,6 @@ def generate_article_html(date, attribute, article, title):
     with open(f'public/ozono/sanificazione/{attribute}.html', 'w', encoding='utf-8') as f:
         f.write(html)
 
-
-# def generate_home_html(home_articles):
-#     # articles_html = ''
-#     # for article in home_articles:
-#     #     articles_html += f'''
-#     #         <a class="decoration-none" href="{article['href']}">
-#     #             <img src="{article['src']}" alt="">
-#     #             <h3>{article['title']}</h3>
-#     #         </a>
-#     #     '''
-
-#     with open("home.html", encoding='utf-8') as f:
-#         html = f.read()
-
-#     with open('components/header.html', 'r', encoding='utf-8') as f: header = f.read()
-#     html = html.replace('<!-- insert header here -->', header)
-
-#     with open("public/index.html", 'w', encoding='utf-8') as f:
-#         f.write(html)
-        
 
 def get_csv_table(filepath):
     lines = []
@@ -648,18 +423,21 @@ def generate_manual_article_html():
         md = markdown.Markdown(extensions=['meta'])
         md.convert(content)
 
+        title = ''
+        try: title = md.Meta['title'][0]
+        except: pass
+        print(title)
 
         lines = '\n'.join(md.lines)
 
         content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
-
 
         filepath_chunks = filepath.split('\\')
 
         # BREADCRUMBS  ---------------------------------------------
         breadcrumbs = generate_breadcrumbs(filepath_chunks)
 
-        # READING TIME  ---------------------------------------------
+        # READING TIME  --------------------------------------------
         reading_time = len(content.split(' ')) // 200
 
         # PUBLICATION DATE  ----------------------------------------
@@ -694,7 +472,8 @@ def generate_manual_article_html():
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link rel="stylesheet" href="/style-blog.css">
                 <link rel="stylesheet" href="/util.css">
-                <title>Ozonogroup</title>
+                <title>{title}</title>
+                {GOOGLE_TAG}
             </head>
 
             <body>
@@ -755,6 +534,12 @@ def generate_manual_article_html():
         'vinicola',
         'acqua-minerale',
         'birraria',
+        'lavorazione-carni',
+        'automobili',
+        'ospedali',
+        'ambulanze',
+        'case-di-riposo',
+        'cliniche-dentistiche',
     ]
     articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
     for article_filename in os.listdir(articles_folder):
@@ -770,43 +555,33 @@ def generate_manual_article_html():
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}.jpg'
+                f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-definizione.jpg'
+                f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-problemi.jpg'
+                f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-benefici.jpg'
+                f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg'
             )
 
             image_filepath = images_filepath.pop(0)
             img_resize_2(
                 image_filepath, 
-                f'public/assets/images/ozono-sanificazione-industria-{article_filename_no_ext}-applicazioni.jpg'
+                f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg'
             )
             
-    # if 'applicazioni' in filepath:
-    #     filepath = filepath.replace('\\', '/')
-    #     print(filepath)
-    #     quit()
-    #     filename = filepath.split('/')[-1].replace('.md', '')
-    #     images_articles_folder = f'C:/og-assets/images/articles'
-    #     images_article_folder = f'C:/og-assets/images/articles/{filename}'
-    #     images_filepath = [filepath for filepath in os.listdir(images_article_folder)]
-
-
 
 def copy_images():
     # articles_images_path = 'assets/images/articles/'
@@ -824,105 +599,8 @@ def copy_images():
 
 
 ###################################################################################################################
-# articles
+# main
 ###################################################################################################################
-# try: shutil.rmtree('articles/public/ozono/sanificazione/')
-# except: pass
-# try: os.mkdir('articles/public/ozono/sanificazione/')
-# except: pass
-
-# try: shutil.rmtree('public/ozono/sanificazione/')
-# except: pass
-# try: os.mkdir('public/ozono/sanificazione/')
-# except: pass
-
-# home_articles = []
-
-# with open("database/json/articles.json", encoding='utf-8') as f:
-#     data = json.loads(f.read())
-
-# for item in data:
-#     article = ''
-
-#     if item['status'] == 'draft': continue
-
-#     date = item['date']
-#     attribute = item['attribute']
-#     entity = item['entity']
-    
-#     folders = attribute.split('/')
-#     path = ''
-#     for folder in folders:
-#         path += folder + '/'
-#         try: os.mkdir(f'articles/public/ozono/sanificazione/{path}')
-#         except: pass
-#         try: os.mkdir(f'public/ozono/sanificazione/{path}')
-#         except: pass
-    
-#     industry = item['industry']
-#     industry_ad = item['industry_ad']
-
-#     img_filepath = ''
-
-#     if 'applications' in attribute: 
-#         applications = item['applications']
-
-#         # title
-#         title = f'{len(applications)} Applicazioni dell\'Ozono nell\'Industria {industry_ad}{industry.title()}'
-#         article += f'# {title} \n\n'
-
-#         # image
-#         try:
-#             img_filepath = generate_featured_image(attribute, industry)
-#             article += f'![{title}]({img_filepath} "{title}")\n\n'
-#         except:
-#             print(f'WARNING: missing image > {attribute}')
-        
-#         # intro 
-#         applications_intro = item['applications_intro']
-#         article +=  '\n\n'.join(applications_intro) + '\n\n'
-#         applications_titles = [application["title"] for application in applications]
-#         article += f'In questo articolo vengono descritte nel dettaglio le applicazioni dell\'ozono nell\'industria {industry_ad}{industry} elencate nella seguente lista.\n\n'
-#         article += lst_to_blt(applications_titles) + '\n\n'
-
-#         # list
-#         for i, application in enumerate(applications):
-#             article += f'## {i+1}. {application["title"].capitalize()}\n\n'
-#             article += '\n\n'.join(application['description']) + '\n\n'
-#             application_title = application['title'].replace(' ', '-')
-            
-#             try: application_table = application['table'].replace(' ', '-')
-#             except: continue
-#             lines = get_csv_table(f'database/tables/{industry}/{application_table}/{application_table}.csv')
-#             article += generate_table(lines)
-                
-#             try:
-#                 lst = application['list']
-#                 if application['table'] == 'aria-ambienti':
-#                     article += f'L\'ozono sanifica diversi tipi di ambienti nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
-#                 elif application['table'] == 'attrezzature':
-#                     article += f'L\'ozono sanifica diversi tipi di attrezzature nell\'industria {industry_ad}{industry}, come quelle elencante nella seguente lista.\n\n'
-#                 elif application['table'] == 'prodotti-alimentari':
-#                     article += f'L\'ozono sanifica diversi tipi di prodotti alimentari nell\'industria {industry_ad}{industry}, come quelli elencanti nella seguente lista.\n\n'
-#                 article += lst_to_blt(lst) + '\n\n'
-#             except: pass
-
-    
-
-#     # generate html
-#     generate_article_html(date, attribute, article, title)
-
-#     home_article = {
-#         'href': f'/ozono/sanificazione/{attribute}.html',
-#         'src': f'{img_filepath}',
-#         'title': f'{title}'
-#     }
-
-#     home_articles.append(home_article)
-        
-
-
-# generate_home_html(home_articles) 
 
 generate_manual_article_html()
 copy_images()

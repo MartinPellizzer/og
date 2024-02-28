@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per Acqua Minerale
+---
+
 # Sanificazione ad ozono nell'industria dell'acqua minerale: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Acqua Minerale](/assets/images/ozono-sanificazione-industria-acqua-minerale.jpg)

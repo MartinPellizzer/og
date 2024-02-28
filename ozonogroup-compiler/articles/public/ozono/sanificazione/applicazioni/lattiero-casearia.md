@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Lattiero-Casearia
+---
+
 # Sanificazione ad ozono nell'industria lattiero-casearia: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Lattiero-Caseria](/assets/images/ozono-sanificazione-industria-lattiero-casearia.jpg)

@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Vinicola
+---
+
 # Sanificazione ad ozono nell'industria vinicola: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Vinicola](/assets/images/ozono-sanificazione-industria-vinicola.jpg)

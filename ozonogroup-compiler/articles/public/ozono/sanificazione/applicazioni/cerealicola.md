@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Cerealicola
+---
+
 # Sanificazione ad ozono nell'industria cerealicola: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Cerealicola](/assets/images/ozono-sanificazione-industria-cerealicola.jpg)

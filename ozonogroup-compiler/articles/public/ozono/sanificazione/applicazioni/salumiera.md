@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Salumiera
+---
+
 # Sanificazione ad ozono nell'industria salumiera: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Salumiera](/assets/images/ozono-sanificazione-industria-salumiera.jpg)

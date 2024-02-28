@@ -1,3 +1,7 @@
+---
+title: Sanificazione Ozono Per L'Industria Birraria
+---
+
 # Sanificazione ad ozono nell'industria birraria: cos'è, problemi, benefici e applicazioni
 
 ![Ozono Sanificazione Industria Birraria](/assets/images/ozono-sanificazione-industria-birraria.jpg)
