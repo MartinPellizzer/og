@@ -1,9 +1,9 @@
 import util
 
-application = 'cliniche dentistiche'
-application_article = 'nelle'
+application = 'bed and breakfast'
+application_article = 'nei'
 application_dash = application.replace(' ', '-')
-title = f'Sanificazione Ozono Per Cliniche Dentistiche'
+title = f'Sanificazione Ozono Per Bed And Breakfast'
 
 def article_init():
     applications_folder = 'articles/public/ozono/sanificazione/applicazioni'

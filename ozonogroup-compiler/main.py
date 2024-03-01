@@ -540,6 +540,14 @@ def generate_manual_article_html():
         'ambulanze',
         'case-di-riposo',
         'cliniche-dentistiche',
+        'cliniche-veterinarie',
+        'scuole',
+        'asili',
+        'bagni-pubblici',
+        'cinema',
+        'teatri',
+        'alberghi',
+        'bed-and-breakfast',
     ]
     articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
     for article_filename in os.listdir(articles_folder):
