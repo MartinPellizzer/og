@@ -1,0 +1,109 @@
+{
+    "applications": [
+        {
+            "application_name": "case"
+        },
+        {
+            "application_name": "automobili"
+        },
+        {
+            "application_name": "ospedali"
+        },
+        {
+            "application_name": "ambulanze"
+        },
+        {
+            "application_name": "case di riposo"
+        },
+        {
+            "application_name": "cliniche dentistiche"
+        },
+        {
+            "application_name": "cliniche veterinarie"
+        },
+        {
+            "application_name": "scuole"
+        },
+        {
+            "application_name": "asili"
+        },
+        {
+            "application_name": "bagni pubblici"
+        },
+        {
+            "application_name": "cinema"
+        },
+        {
+            "application_name": "teatri"
+        },
+        {
+            "application_name": "alberghi"
+        },
+        {
+            "application_name": "bed and breakfast"
+        },
+        {
+            "application_name": "mense"
+        },
+        {
+            "application_name": "ristoranti"
+        },
+        {
+            "application_name": "pizzerie"
+        },
+        {
+            "application_name": "bar"
+        },
+        {
+            "application_name": "pasticcerie"
+        },
+        {
+            "application_name": "piscine"
+        },
+        {
+            "application_name": "terme"
+        },
+        {
+            "application_name": "palestre"
+        },
+        {
+            "application_name": "lavanderie"
+        },
+        {
+            "application_name": "tintorie"
+        },
+        {
+            "application_name": "industria della lavorazione carni"
+        },
+        {
+            "application_name": "industria salumiera"
+        },
+        {
+            "application_name": "industria avicola"
+        },
+        {
+            "application_name": "industria ittica"
+        },
+        {
+            "application_name": "industria lattiero-casearia"
+        },
+        {
+            "application_name": "industria ortofrutticola"
+        },
+        {
+            "application_name": "industria vinicola"
+        },
+        {
+            "application_name": "industria cerealicola"
+        },
+        {
+            "application_name": "industria dell'acqua minerale"
+        },
+        {
+            "application_name": "industria birraria"
+        },
+        {
+            "application_name": "industria dell'automotive"
+        }
+    ]
+}

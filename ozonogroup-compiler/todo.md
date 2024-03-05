@@ -1,7 +1,3 @@
-- add head title for articles
-
-- change title in guide poultry
-- homepage add articles
-
-- add link sanificazione > applicazioni
+- complete (ai_generate) applications page (from json)
+    - include in the page images, links to single applications, and 100 words paragraph description
 

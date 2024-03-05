@@ -15,10 +15,12 @@ def csv_get_rows(filepath, delimiter='\\'):
             rows.append(line)
     return rows
 
+
 def csv_add_rows(filepath, rows, delimiter='\\'):
     with open(filepath, 'a', encoding='utf-8', errors='ignore', newline='') as f:
         writer = csv.writer(f, delimiter=delimiter)
         writer.writerows(rows)
+
 
 def csv_set_rows(filepath, rows, delimiter='\\'):
     with open(filepath, 'w', encoding='utf-8', errors='ignore', newline='') as f:
@@ -35,6 +37,7 @@ def csv_get_rows_by_entity(filepath, entity, delimiter='\\'):
                 rows.append(line)
     return rows
 
+
 def folder_create(path):
     if not os.path.exists(path): os.makedirs(path)
 
@@ -46,7 +49,6 @@ def folder_create(path):
 ###################################
 
 def file_read(filepath):
-    with open(filepath, 'a', encoding='utf-8') as f: pass
     with open(filepath, 'r', encoding='utf-8') as f: 
         text = f.read()
     return text
@@ -73,13 +75,7 @@ def json_append(filepath, data):
         json.dump(data, f)
 
 
-def json_read(filepath):
-    if not os.path.exists(filepath):
-        file_append(filepath, '')
-
-    if file_read(filepath).strip() == '':
-        file_append(filepath, '{}')
-    
+def json_read(filepath):    
     with open(filepath, 'r', encoding='utf-8') as f: 
         return json.load(f)
 

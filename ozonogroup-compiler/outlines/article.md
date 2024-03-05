@@ -1,0 +1,12 @@
+- titolo
+- definizione
+- problemi contaminazione
+    - batteri
+    - virus
+    - muffe
+    - (insetti)
+    - odori
+- benefici (confronto sistemi tradizionali)
+- applicazioni
+- superfici
+- ambienti
