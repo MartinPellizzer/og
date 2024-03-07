@@ -9,6 +9,10 @@ client = Groq(
 )
 
 
+def prompt_normalize(prompt):
+    return '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
+
+
 def gen_reply(prompt):
     prompt_normalized = '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
 
@@ -35,6 +39,86 @@ def gen_reply(prompt):
     print(reply)
     print()
     return reply
+
+
+def ai_problems_csv():
+    filepath = 'database/tables/applications.csv'
+    applications = util.csv_get_rows(filepath)[1:]
+    for application in applications:
+        application_name = application[0].strip()
+        application_a = application[1].strip()
+        application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+        rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+        if rows != []: continue
+
+        print(application_name_dash)
+
+        prompt_num = 10
+        prompt = f'''
+            Scrivi in italiano una lista numerata dei {prompt_num} batteri patogeni più comuni presenti {application_a}{application_name}.
+            Scrivi solo i nomi dei batteri patogeni, non le descrizioni.
+        '''
+
+        prompt = prompt_normalize(prompt)
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+
+        if prompt_paragraphs_num == len(reply_formatted):
+            print('***************************************')
+            for line in reply_formatted:
+                print(line)
+            print('***************************************')
+
+            # util.csv_add_rows(filepath, reply_formatted)
+
+
+
+
+    # for index, plant in enumerate(plants):
+    #     latin_name = plant[cols['latin_name']].strip().capitalize()
+    #     common_name = plant[cols['common_name']].strip().title()
+    #     entity = latin_name.lower().replace(' ', '-')
+
+    #     print(index, '-', len(plants), '>>' , latin_name, '|', 'benefits')
+
+    #     rows = util.csv_get_rows_by_entity(filepath, entity)
+    #     if rows != []: continue
+
+    #     prompt_paragraphs_num = 10
+    #     prompt = f'''
+    #         Write a numbered list of the {prompt_paragraphs_num} best health benefits of {common_name} ({latin_name}).
+    #         Start each benefit with a third-person singular action verb.
+    #         Write only the names of the benefits, not the descriptions.
+    #         Write each benefit name in less than 5 words.
+    #     '''
+
+    #     prompt = prompt_normalize(prompt)
+    #     reply = gen_reply(prompt)
+    #     reply = reply.strip()
+
+    #     reply_formatted = []
+    #     for line in reply.split('\n'):
+    #         line = line.strip()
+    #         if line == '': continue
+    #         if ':' in line: continue 
+    #         if line[0].isdigit():
+    #             if '. ' in line: line = line.split('. ')[1].strip()
+    #             if line == '': continue
+    #             if line.endswith('.'): line = line[0:-1]
+    #             reply_formatted.append([entity, line, ''])
+
+    #     if prompt_paragraphs_num == len(reply_formatted):
+    #         print('***************************************')
+    #         for line in reply_formatted:
+    #             print(line)
+    #         print('***************************************')
+
+    #         util.csv_add_rows(filepath, reply_formatted)
+
+
+# ai_problems_csv()
+# quit()
 
 
 def ai_intro_1(row):
@@ -413,6 +497,9 @@ def ai_applications_list(row):
     time.sleep(30)
 
 
+
+
+
 #####################################################################################
 # APPLICATIONS PAGE
 #####################################################################################
@@ -427,7 +514,7 @@ def ai_applications_descriptions():
     json_applications = []
     try: json_applications = data['applications']
     except: data['applications'] = json_applications
-    
+
     applications = [row[0] for row in util.csv_get_rows('database/tables/applications.csv')[1:]]
     applications_new = []
     for application in applications:
@@ -438,14 +525,59 @@ def ai_applications_descriptions():
                 found = True
                 applications_new.append(json_application)
                 break
-        
+
         if not found:
             applications_new.append({'application_name': application})
-            
+
     data['applications'] = applications_new
     util.json_write(article_filepath, data)
-    
+
+    # APPLICATIONS DESCRIPTIONS
+    data = util.json_read(article_filepath)
+    for application_index, application in enumerate(data['applications']):
+        application_name = application['application_name']
+        application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+        application_desc = ''
+        try: application_desc = data['applications'][application_index]['application_desc']
+        except: data['applications'][application_index]['application_desc'] = application_desc
+
+        if application_desc != '': continue
+
+        csv_application = util.csv_get_rows_by_entity(f'database/tables/applications.csv', application_name)[0]
+        application_a_1 = csv_application[1]
+
+        prompt_start = f'La sanificazione ad ozono {application_a_1}{application_name.lower()} viene principalmente utilizzata per '
+        prompt = f'''
+            Scrivi un paragrafo di 100 parole sulla sanificazione ad ozono per {application_a_1}{application}.
+            Includi quali sono i problemi che risolve {application_a_1}{application_name.lower()}, i benefici che porta {application_a_1}{application_name.lower()} e le applicazioni che ha {application_a_1}{application_name.lower()}.
+            Non spiegare cos'è l'ozono e non spiegare come funziona.
+            Inizia la risposta con queste parole: {prompt_start}
+        '''
+        reply = gen_reply(prompt)
+        reply = reply.strip()
+        reply = reply.replace('\n', ' ')
+        reply = re.sub("\s\s+" , " ", reply)
+
+        if reply != '':
+            print('------------------------------')
+            print(reply)
+            print('------------------------------')
+            print()
+            data['applications'][application_index]['application_desc'] = reply
+            util.json_write(article_filepath, data)
+
+        time.sleep(30)
+
+
+
+
+
 ai_applications_descriptions()
+
+
+
+
 
 #####################################################################################
 # SINGLE APPLICATION
