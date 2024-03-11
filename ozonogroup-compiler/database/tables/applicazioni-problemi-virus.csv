@@ -1,0 +1,350 @@
+case\virus\Rinovirus
+case\virus\Virus dell'influenza
+case\virus\Adenovirus
+case\virus\Enterovirus
+case\virus\Virus respiratorio sinciziale
+case\virus\Virus parainfluenzali
+case\virus\Coronavirus
+case\virus\Virus della rosolia
+case\virus\Virus della varicella-zoster
+case\virus\Citomegalovirus
+automobili\virus\Coronavirus
+automobili\virus\Influenza
+automobili\virus\Norovirus
+automobili\virus\Rinovirus
+automobili\virus\Adenovirus
+automobili\virus\Rotavirus
+automobili\virus\Parainfluenza
+automobili\virus\Metapneumovirus
+automobili\virus\Reovirus
+automobili\virus\Syncytial virus respiratorio umano
+ospedali\virus\Virus HIV
+ospedali\virus\Virus dell'influenza
+ospedali\virus\Virus respiratorio sinciziale
+ospedali\virus\Virus della varicella-zoster
+ospedali\virus\Virus Norovirus
+ospedali\virus\Virus Rinovirus
+ospedali\virus\Virus Citomegalovirus
+ospedali\virus\Virus Epatite A
+ospedali\virus\Virus Epatite B
+ospedali\virus\Virus Epatite C
+ambulanze\virus\Virus HIV
+ambulanze\virus\Virus dell'Epatite B
+ambulanze\virus\Virus dell'Epatite C
+ambulanze\virus\Virus dell'Herpes simplex
+ambulanze\virus\Virus dell'Influenza
+ambulanze\virus\Virus del Morbillo
+ambulanze\virus\Virus della Parotite
+ambulanze\virus\Virus della Rosolia
+ambulanze\virus\Virus della Varicella
+ambulanze\virus\Virus Zika
+case-di-riposo\virus\Virus Influenza
+case-di-riposo\virus\Virus SARS-CoV-2
+case-di-riposo\virus\Virus Respiratorio Sinciziale
+case-di-riposo\virus\Virus Norovirus
+case-di-riposo\virus\Virus Rotavirus
+case-di-riposo\virus\Virus Adenovirus
+case-di-riposo\virus\Virus Rinovirus
+case-di-riposo\virus\Virus Citomegalovirus
+case-di-riposo\virus\Virus Herpes Simplex
+case-di-riposo\virus\Virus Varicella-Zoster
+cliniche-dentistiche\virus\Herpes Simplex Virus
+cliniche-dentistiche\virus\Human Cytomegalovirus
+cliniche-dentistiche\virus\Hepatitis B Virus
+cliniche-dentistiche\virus\Hepatitis C Virus
+cliniche-dentistiche\virus\Human Immunodeficiency Virus
+cliniche-dentistiche\virus\Human Papillomavirus
+cliniche-dentistiche\virus\Influenza Virus
+cliniche-dentistiche\virus\Norovirus
+cliniche-dentistiche\virus\Respiratory Syncytial Virus
+cliniche-dentistiche\virus\SARS-CoV-2
+cliniche-veterinarie\virus\Virus del Morbillivirus Canino
+cliniche-veterinarie\virus\Virus della Parvovirosi Canina
+cliniche-veterinarie\virus\Virus della Panleucopenia Felina
+cliniche-veterinarie\virus\Virus dell'Herpesvirus Felino
+cliniche-veterinarie\virus\Virus della Leucemia Felina
+cliniche-veterinarie\virus\Virus della Rabbia
+cliniche-veterinarie\virus\Virus dell'Enterite Infantile Porcina
+cliniche-veterinarie\virus\Virus della Diarrea Epidemica Bovina
+cliniche-veterinarie\virus\Virus dell'Aviaria
+cliniche-veterinarie\virus\Virus della Peste Suina Africana
+scuole\virus\Virus dell'influenza
+scuole\virus\Adenovirus
+scuole\virus\Virus respiratorio sinciziale
+scuole\virus\Virus parainfluenzali
+scuole\virus\Virus della varicella-zoster
+scuole\virus\Virus dell'herpes simplex
+scuole\virus\Virus di Epstein-Barr
+scuole\virus\Virus del morbillo
+scuole\virus\Virus della rosolia
+scuole\virus\Virus della parotite
+asili\virus\Virus dell'influenza
+asili\virus\Virus respiratorio sinciziale
+asili\virus\Virus parainfluenzali
+asili\virus\Virus della varicella-zoster
+asili\virus\Adenovirus
+asili\virus\Enterovirus
+asili\virus\Rotavirus
+asili\virus\Norovirus
+asili\virus\Metapneumovirus umano
+asili\virus\Coronavirus
+bagni-pubblici\virus\Norovirus
+bagni-pubblici\virus\Influenza A virus
+bagni-pubblici\virus\Influenza B virus
+bagni-pubblici\virus\Rotavirus
+bagni-pubblici\virus\Adenovirus
+bagni-pubblici\virus\Rinovirus
+bagni-pubblici\virus\Coronavirus
+bagni-pubblici\virus\Hepatitis A virus
+bagni-pubblici\virus\Enterovirus
+bagni-pubblici\virus\Parechovirus
+cinema\virus\Influenza A/H1N1
+cinema\virus\Norovirus
+cinema\virus\Rinovirus
+cinema\virus\Adenovirus
+cinema\virus\Coronavirus
+cinema\virus\Parainfluenza virus
+cinema\virus\Virus respiratorio sinciziale
+cinema\virus\Metapneumovirus umano
+cinema\virus\Enterovirus
+cinema\virus\Rotavirus
+teatri\virus\Virus Influenza A/B
+teatri\virus\Virus SARS-CoV-2
+teatri\virus\Virus Norovirus
+teatri\virus\Virus Adenovirus
+teatri\virus\Virus Rinovirus
+teatri\virus\Virus Metapneumovirus
+teatri\virus\Virus Parainfluenza
+teatri\virus\Virus Coronavirus
+teatri\virus\Virus Reovirus
+teatri\virus\Virus Rotavirus
+alberghi\virus\Norovirus
+alberghi\virus\Influenza A e B
+alberghi\virus\Rinovirus
+alberghi\virus\Adenovirus
+alberghi\virus\Parainfluenza virus
+alberghi\virus\Virus respiratorio sinciziale
+alberghi\virus\Citomegalovirus
+alberghi\virus\Virus della varicella-zoster
+alberghi\virus\Epatite A
+alberghi\virus\HIV
+bed-and-breakfast\virus\Norovirus
+bed-and-breakfast\virus\Influenza virus
+bed-and-breakfast\virus\Rinovirus
+bed-and-breakfast\virus\SARS-CoV-2
+bed-and-breakfast\virus\Adenovirus
+bed-and-breakfast\virus\Parainfluenza virus
+bed-and-breakfast\virus\Virus respiratorio sinciziale
+bed-and-breakfast\virus\Citomegalovirus
+bed-and-breakfast\virus\Virus della varicella-zoster
+bed-and-breakfast\virus\Epatite A virus
+mense\virus\Norovirus
+mense\virus\Rotavirus
+mense\virus\Hepatitis A virus
+mense\virus\Norwalk virus
+mense\virus\Sapovirus
+mense\virus\Astrovirus
+mense\virus\Adenovirus
+mense\virus\Baculovirus
+mense\virus\Enterovirus
+mense\virus\Coronavirus
+pizzerie\virus\Norovirus
+pizzerie\virus\Hepatitis A
+pizzerie\virus\Staphylococcus aureus
+pizzerie\virus\Rotavirus
+pizzerie\virus\Adenovirus
+pizzerie\virus\Astrovirus
+pizzerie\virus\Sapovirus
+pizzerie\virus\Enterovirus
+pizzerie\virus\Parechovirus
+pizzerie\virus\Coronavirus
+bar\virus\Norovirus
+bar\virus\Rotavirus
+bar\virus\Adenovirus
+bar\virus\Astrovirus
+bar\virus\Hepatitis A virus
+bar\virus\Norovirus
+bar\virus\Rotavirus
+bar\virus\Influenza virus
+bar\virus\Rinovirus
+bar\virus\Coronavirus
+piscine\virus\Adenovirus
+piscine\virus\Norovirus
+piscine\virus\Rotavirus
+piscine\virus\Hepatitis A Virus
+piscine\virus\Enterovirus
+piscine\virus\Parechovirus
+piscine\virus\Reovirus
+piscine\virus\Aichivirus
+piscine\virus\Bocavirus
+piscine\virus\Coronavirus
+terme\virus\Adenovirus
+terme\virus\Norovirus
+terme\virus\Rotavirus
+terme\virus\Enterovirus
+terme\virus\Hepatitis A Virus
+terme\virus\Hepatitis E Virus
+terme\virus\Astrovirus
+terme\virus\Sapovirus
+terme\virus\Coronavirus
+terme\virus\Reovirus
+palestre\virus\Virus dell'influenza
+palestre\virus\Rinovirus
+palestre\virus\Adenovirus
+palestre\virus\Coronavirus
+palestre\virus\Parainfluenza virus
+palestre\virus\Virus respiratorio sinciziale
+palestre\virus\Virus della varicella-zoster
+palestre\virus\Citomegalovirus
+palestre\virus\Virus di Epstein-Barr
+palestre\virus\HIV
+lavanderie\virus\HIV-1
+lavanderie\virus\HIV-2
+lavanderie\virus\HCV
+lavanderie\virus\HBV
+lavanderie\virus\SARS-CoV
+lavanderie\virus\MERS-CoV
+lavanderie\virus\SARS-CoV-2
+lavanderie\virus\HAV
+lavanderie\virus\Rotavirus A
+lavanderie\virus\Norovirus
+tintorie\virus\HIV-1
+tintorie\virus\HIV-2
+tintorie\virus\HBV
+tintorie\virus\HCV
+tintorie\virus\HEV
+tintorie\virus\SARS-CoV
+tintorie\virus\MERS-CoV
+tintorie\virus\H1N1
+tintorie\virus\H3N2
+tintorie\virus\COVID-19
+industria-della-lavorazione-carni\virus\Norovirus
+industria-della-lavorazione-carni\virus\Hepatitis A
+industria-della-lavorazione-carni\virus\Hepatitis E
+industria-della-lavorazione-carni\virus\Rotavirus
+industria-della-lavorazione-carni\virus\Astrovirus
+industria-della-lavorazione-carni\virus\Sapovirus
+industria-della-lavorazione-carni\virus\Aichivirus
+industria-della-lavorazione-carni\virus\Bredavirus
+industria-della-lavorazione-carni\virus\Salivirus
+industria-della-lavorazione-carni\virus\Parechovirus
+industria-salumiera\virus\Norovirus
+industria-salumiera\virus\Hepatitis A virus
+industria-salumiera\virus\Rotavirus
+industria-salumiera\virus\Sapovirus
+industria-salumiera\virus\Astrovirus
+industria-salumiera\virus\Adenovirus
+industria-salumiera\virus\Enterovirus
+industria-salumiera\virus\Coronavirus
+industria-salumiera\virus\Torovirus
+industria-salumiera\virus\Parechovirus
+industria-dell-acqua-minerale\virus\Norovirus
+industria-dell-acqua-minerale\virus\Rotavirus
+industria-dell-acqua-minerale\virus\Adenovirus
+industria-dell-acqua-minerale\virus\Sapovirus
+industria-dell-acqua-minerale\virus\Astrovirus
+industria-dell-acqua-minerale\virus\Enterovirus
+industria-dell-acqua-minerale\virus\Hepatitis A Virus
+industria-dell-acqua-minerale\virus\Hepatitis E Virus
+industria-dell-acqua-minerale\virus\Coronavirus
+industria-dell-acqua-minerale\virus\Salivirus
+industria-dell-automotive\virus\HIV-1
+industria-dell-automotive\virus\HIV-2
+industria-dell-automotive\virus\Hepatitis B Virus
+industria-dell-automotive\virus\Hepatitis C Virus
+industria-dell-automotive\virus\Human T-cell Lymphotropic Virus
+industria-dell-automotive\virus\Hepatitis A Virus
+industria-dell-automotive\virus\Norovirus
+industria-dell-automotive\virus\Rotavirus
+industria-dell-automotive\virus\Influenza Virus
+industria-dell-automotive\virus\SARS-CoV-2
+ristoranti\virus\Norovirus
+ristoranti\virus\Hepatitis A Virus
+ristoranti\virus\Rotavirus
+ristoranti\virus\Hepatitis E Virus
+ristoranti\virus\Astrovirus
+ristoranti\virus\Sapovirus
+ristoranti\virus\Adenovirus
+ristoranti\virus\Enterovirus
+ristoranti\virus\Poliovirus
+ristoranti\virus\Coronavirus
+pasticcerie\virus\Orthohepevirus B
+pasticcerie\virus\Norovirus
+pasticcerie\virus\Rotavirus A
+pasticcerie\virus\Hepatitis A Virus
+pasticcerie\virus\Astrovirus
+pasticcerie\virus\Sapovirus
+pasticcerie\virus\Adenovirus
+pasticcerie\virus\Coronavirus
+pasticcerie\virus\Parvovirus
+pasticcerie\virus\Bocavirus
+industria-birraria\virus\Brewer's Yeast Flavivirus
+industria-birraria\virus\Ljungan virus
+industria-birraria\virus\Norovirus
+industria-birraria\virus\Hepatitis A virus
+industria-birraria\virus\Hepatitis E virus
+industria-birraria\virus\Rotavirus
+industria-birraria\virus\Adenovirus
+industria-birraria\virus\Astrovirus
+industria-birraria\virus\Sapovirus
+industria-birraria\virus\Enterovirus
+industria-cerealicola\virus\Orthocoronavirinae
+industria-cerealicola\virus\Influenzavirus A
+industria-cerealicola\virus\Influenzavirus B
+industria-cerealicola\virus\Influenzavirus C
+industria-cerealicola\virus\Human mastadenovirus C
+industria-cerealicola\virus\Human mastadenovirus E
+industria-cerealicola\virus\Human parvovirus B19
+industria-cerealicola\virus\Human enterovirus D68
+industria-cerealicola\virus\Human parechovirus
+industria-cerealicola\virus\Sindbis virus
+industria-avicola\virus\Influenzavirus A
+industria-avicola\virus\Retrovirus
+industria-avicola\virus\Coronavirus
+industria-avicola\virus\Paramyxovirus
+industria-avicola\virus\Orthomyxovirus
+industria-avicola\virus\Flavivirus
+industria-avicola\virus\Togaviridae
+industria-avicola\virus\Bunyaviridae
+industria-avicola\virus\Arenaviridae
+industria-avicola\virus\Filoviridae
+industria-ittica\virus\Virus dell'Hepatite A
+industria-ittica\virus\Virus Norovirus
+industria-ittica\virus\Virus Sapovirus
+industria-ittica\virus\Virus dell'Hepatite E
+industria-ittica\virus\Virus dell'Astrovirus
+industria-ittica\virus\Virus del Morbillivirus
+industria-ittica\virus\Virus del Rinovirus
+industria-ittica\virus\Virus dell'Enterovirus
+industria-ittica\virus\Virus del Coronavirus
+industria-ittica\virus\Virus del Reovirus.
+industria-lattiero-casearia\virus\Orbivirus
+industria-lattiero-casearia\virus\Rotavirus A
+industria-lattiero-casearia\virus\Adenovirus
+industria-lattiero-casearia\virus\Enterovirus
+industria-lattiero-casearia\virus\Hepatitis A Virus
+industria-lattiero-casearia\virus\Norovirus
+industria-lattiero-casearia\virus\Astrovirus
+industria-lattiero-casearia\virus\Reovirus
+industria-lattiero-casearia\virus\Sapovirus
+industria-lattiero-casearia\virus\Coronavirus
+industria-ortofrutticola\virus\Orthopoxvirus hominis
+industria-ortofrutticola\virus\Rotavirus A
+industria-ortofrutticola\virus\Norovirus
+industria-ortofrutticola\virus\Hepatitis A Virus
+industria-ortofrutticola\virus\Norwalk virus
+industria-ortofrutticola\virus\Hepatitis E Virus
+industria-ortofrutticola\virus\Astrovirus
+industria-ortofrutticola\virus\Sapovirus
+industria-ortofrutticola\virus\Enterovirus
+industria-ortofrutticola\virus\Parechovirus
+industria-vinicola\virus\Vitivirus agrogallicae
+industria-vinicola\virus\Vitivirus aureus
+industria-vinicola\virus\Vitivirus capillovirus-like
+industria-vinicola\virus\Vitivirus chimeric
+industria-vinicola\virus\Vitivirus chiuri
+industria-vinicola\virus\Vitivirus closterovirus-like
+industria-vinicola\virus\Vitivirus crapula
+industria-vinicola\virus\Vitivirus fanfare
+industria-vinicola\virus\Vitivirus filtrex
+industria-vinicola\virus\Vitivirus Flachslanden

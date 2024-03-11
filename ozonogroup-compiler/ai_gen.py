@@ -1,45 +1,8 @@
-from groq import Groq
 import time
 import re
 
 import util
-
-client = Groq(
-    api_key='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',
-)
-
-
-def prompt_normalize(prompt):
-    return '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
-
-
-def gen_reply(prompt):
-    prompt_normalized = '\n'.join([line.strip() for line in prompt.split('\n') if line.strip() != ''])
-
-    completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": prompt_normalized,
-            }
-        ],
-        model="mixtral-8x7b-32768",
-    )
-
-    reply = completion.choices[0].message.content
-    print()
-    print()
-    print()
-    print("Q:")
-    print()
-    print(prompt)
-    print()
-    print("A:")
-    print()
-    print(reply)
-    print()
-    return reply
-
+import util_ai
 
 def ai_problems_csv():
     filepath = 'database/tables/applications.csv'
@@ -60,8 +23,8 @@ def ai_problems_csv():
             Scrivi solo i nomi dei batteri patogeni, non le descrizioni.
         '''
 
-        prompt = prompt_normalize(prompt)
-        reply = gen_reply(prompt)
+        
+        reply = util.gen_reply(prompt)
         reply = reply.strip()
 
         if prompt_paragraphs_num == len(reply_formatted):
@@ -93,8 +56,8 @@ def ai_problems_csv():
     #         Write each benefit name in less than 5 words.
     #     '''
 
-    #     prompt = prompt_normalize(prompt)
-    #     reply = gen_reply(prompt)
+    #     
+    #     reply = util.gen_reply(prompt)
     #     reply = reply.strip()
 
     #     reply_formatted = []
@@ -117,8 +80,196 @@ def ai_problems_csv():
     #         util.csv_add_rows(filepath, reply_formatted)
 
 
-# ai_problems_csv()
-# quit()
+
+#####################################################################################
+# SINGLE APPLICATION
+#####################################################################################
+
+
+def ai_problems_mix_csv(row):
+    pass
+    # prompt = f'''
+    #     Scrivi in italiano 5 liste.
+    #     Nella lista 1, scrivi i nomi dei 10 batteri più presenti {application_a_1}{application_name.lower()}.
+    #     Nella lista 2, scrivi i nomi dei 10 virus più presenti {application_a_1}{application_name.lower()}.
+    #     Nella lista 3, scrivi i nomi delle 10 muffe più presenti {application_a_1}{application_name.lower()}.
+    #     Nella lista 4, scrivi i nomi dei 10 insetti più presenti {application_a_1}{application_name.lower()}.
+    #     Nella lista 5, scrivi i nomi dei 10 odori indesiderati più presenti {application_a_1}{application_name.lower()}.
+    #     Lista solo i nomi, non aggiungere descrizioni.
+    #     Aggiungi un titolo per ogni ogni lista.
+    # '''
+    # reply = util_ai.gen_reply(prompt)
+    # reply = reply.strip()
+    # time.sleep(30)
+    
+
+def ai_batteri_csv(row):
+    problem_name = 'batteri'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows != []: return
+    
+    prompt = f'''
+        Scrivi in italiano una lista numerata dei nomi dei 10 {problem_name} patogeni più comuni {application_a_1}{application_name.lower()}.
+        Lista solo i nomi, non aggiungere descrizioni.
+        Scrivi SOLO nomi di {problem_name}, non di altri tipi di patogeni.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    reply = reply.strip()
+
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        if '. ' not in line: continut
+        else: line = '. '.join(line.split('. ')[1:]).strip()
+        if '(' in line: line = line.split('(')[0].strip()
+        reply_formatted.append([application_name_dash, problem_name, line])
+
+    reply_formatted = reply_formatted
+    if len(reply_formatted) == 10:
+        print('------------------------------')
+        for e in reply_formatted:
+            print(e)
+        print('------------------------------')
+        util.csv_add_rows(filepath, reply_formatted)
+
+    time.sleep(30)
+
+
+def ai_virus_csv(row):
+    problem_name = 'virus'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows != []: return
+    
+    prompt = f'''
+        Scrivi in Italiano una lista numerata dei nomi scientifici di 10 {problem_name} patogeni per l'uomo che si possono trovare {application_a_1}{application_name.lower()}.
+        Scrivi solo i nomi scientifici di {problem_name}, non aggiungere descrizioni.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    reply = reply.strip()
+
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        line = line.replace('*', '')
+        if not line[0].isdigit(): continue
+        if '. ' not in line: continue
+        else: line = '. '.join(line.split('. ')[1:]).strip()
+        if '(' in line: line = line.split('(')[0].strip()
+        if ': ' in line: line = line.split(': ')[0].strip()
+        reply_formatted.append([application_name_dash, problem_name, line])
+
+    reply_formatted = reply_formatted
+    if len(reply_formatted) == 10:
+        print('------------------------------')
+        for e in reply_formatted:
+            print(e)
+        print('------------------------------')
+        util.csv_add_rows(filepath, reply_formatted)
+
+    time.sleep(30)
+
+
+def ai_muffe_csv(row):
+    problem_name = 'muffe'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows != []: return
+    
+    prompt = f'''
+        Scrivi in Italiano una lista numerata dei nomi scientifici di 10 {problem_name} patogeni che si possono trovare {application_a_1}{application_name.lower()}.
+        Scrivi solo i nomi scientifici di {problem_name}, non aggiungere descrizioni.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    reply = reply.strip()
+
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        if '. ' not in line: continut
+        else: line = '. '.join(line.split('. ')[1:]).strip()
+        if '(' in line: line = line.split('(')[0].strip()
+        reply_formatted.append([application_name_dash, problem_name, line])
+
+    reply_formatted = reply_formatted
+    if len(reply_formatted) == 10:
+        print('------------------------------')
+        for e in reply_formatted:
+            print(e)
+        print('------------------------------')
+        util.csv_add_rows(filepath, reply_formatted)
+
+    time.sleep(30)
+
+
+
+
+
+def batteri_to_json(row):
+    problem_name = 'batteri'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows == []: return
+
+    problems = [csv_row[2] for csv_row in csv_rows]
+
+    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+    data = util.json_read(filepath)
+    data[f'problemi_{problem_name}'] = problems
+    util.json_write(filepath, data)
+
+
+def virus_to_json(row):
+    problem_name = 'virus'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows == []: return
+
+    problems = [csv_row[2] for csv_row in csv_rows]
+
+    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+    data = util.json_read(filepath)
+    data[f'problemi_{problem_name}'] = problems
+    util.json_write(filepath, data)
+
+
+
 
 
 def ai_intro_1(row):
@@ -126,7 +277,7 @@ def ai_intro_1(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -143,7 +294,7 @@ def ai_intro_1(row):
         includi numeri, dati e statistiche senza nominare le sorgenti e gli studi.
     '''
 
-    print(prompt_normalized)
+    print(util.prompt_normalized)
     
     completion = client.chat.completions.create(
         messages=[
@@ -177,7 +328,7 @@ def ai_intro_2(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -191,7 +342,7 @@ def ai_intro_2(row):
     prompt = f'''
         scrivi un paragrafo di 5 frasi in 100 parole spiegando come la sanificazione ad ozono risolve i problemi di contaminazione {application_a_1} {application}.
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -212,7 +363,7 @@ def ai_definition(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -226,7 +377,7 @@ def ai_definition(row):
     prompt = f'''
         scrivi un paragrafo di 100 parole spiegando cos'è la sanificazione ad ozono per {application} e a cosa serve.
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -247,7 +398,7 @@ def ai_problems_text(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -265,7 +416,7 @@ def ai_problems_text(row):
         non spiegare cos'è l'ozono e non spiegare come funziona.
         inizia la risposta con queste parole: {prompt_start}
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -286,7 +437,7 @@ def ai_problems_list(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -302,7 +453,7 @@ def ai_problems_list(row):
         includi 2 batteri, 2 virus, 2 muffe, 2 parassiti e 2 odori.
         scrivi i problemi usando questa struttura: [nome problema]: [descrizione problema].
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
 
     reply_formatted = []
@@ -333,7 +484,7 @@ def ai_benefits_text(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -351,7 +502,7 @@ def ai_benefits_text(row):
         non spiegare cos'è l'ozono e non spiegare come funziona.
         inizia la risposta con queste parole: {prompt_start}
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -372,7 +523,7 @@ def ai_benefits_list(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -387,7 +538,7 @@ def ai_benefits_list(row):
         scrivi in italiano una lista di 10 benefici della sanificazione ad ozono {application_a_1}{application.lower()}.
         scrivi i problemi usando questa struttura: [nome benficio]: [descrizione beneficio].
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
 
     reply_formatted = []
@@ -418,7 +569,7 @@ def ai_applications_text(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -435,7 +586,7 @@ def ai_applications_text(row):
         non spiegare cos'è l'ozono e non spiegare come funziona.
         inizia la risposta con queste parole: {prompt_start}
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -456,7 +607,7 @@ def ai_applications_list(row):
     application_a_1 = row[1]
     application_dash = application.lower().replace(' ', '-').replace("'", '-')
 
-    article_filepath = f'articles/public/ozono/sanificazione/applicazioni-auto/{application_dash}.json'
+    article_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_dash}.json'
     content = util.file_read(article_filepath)
     if content.strip() == '': util.file_write(article_filepath, '{}')
     data = util.json_read(article_filepath)
@@ -471,7 +622,7 @@ def ai_applications_list(row):
         scrivi in italiano una lista di 10 applicazioni della sanificazione ad ozono {application_a_1}{application.lower()}.
         scrivi i problemi usando questa struttura: [nome applicazione]: [descrizione applicazione].
     '''
-    reply = gen_reply(prompt)
+    reply = util.gen_reply(prompt)
     reply = reply.strip()
 
     reply_formatted = []
@@ -497,14 +648,34 @@ def ai_applications_list(row):
     time.sleep(30)
 
 
+def ai_applications_main():
+    filepath = 'database/tables/applications.csv'
+    rows = util.csv_get_rows(filepath)[1:]
+    for i, row in enumerate(rows):
+        print(f'{i+1}/{len(rows)}')
+        # ai_batteri_csv(row)
+        # ai_virus_csv(row)
+        batteri_to_json(row)
+        virus_to_json(row)
+        # ai_muffe_csv(row)
+        # ai_intro_1(row)
+        # ai_intro_2(row)
+        # ai_definition(row)
+        # ai_problems_text(row)
+        # ai_problems_list(row)
+        # ai_benefits_text(row)
+        # ai_benefits_list(row)
+        # ai_applications_text(row)
+        # ai_applications_list(row)
 
-
+  
+ai_applications_main()
 
 #####################################################################################
 # APPLICATIONS PAGE
 #####################################################################################
 
-def ai_applications_descriptions():
+def ai_applications_page_descriptions():
     article_filepath = 'articles/public/ozono/sanificazione/applicazioni.json'
     # try: util.file_read()
     # except: util.file_append(article_filepath, '{}')
@@ -554,7 +725,7 @@ def ai_applications_descriptions():
             Non spiegare cos'è l'ozono e non spiegare come funziona.
             Inizia la risposta con queste parole: {prompt_start}
         '''
-        reply = gen_reply(prompt)
+        reply = util.gen_reply(prompt)
         reply = reply.strip()
         reply = reply.replace('\n', ' ')
         reply = re.sub("\s\s+" , " ", reply)
@@ -573,27 +744,7 @@ def ai_applications_descriptions():
 
 
 
-ai_applications_descriptions()
+# ai_applications_page_descriptions()
 
 
 
-
-
-#####################################################################################
-# SINGLE APPLICATION
-#####################################################################################
-
-# filepath = 'database/tables/applications.csv'
-# rows = util.csv_get_rows(filepath)[1:]
-# for i, row in enumerate(rows):
-#     print(f'{i+1}/{len(rows)}')
-#     ai_intro_1(row)
-#     ai_intro_2(row)
-#     ai_definition(row)
-#     ai_problems_text(row)
-#     ai_problems_list(row)
-#     ai_benefits_text(row)
-#     ai_benefits_list(row)
-#     ai_applications_text(row)
-#     ai_applications_list(row)
-    
