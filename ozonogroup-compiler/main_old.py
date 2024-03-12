@@ -267,3 +267,153 @@ shutil.copy2('index.html', 'public/index.html')
     #     industry_formatted = industry.replace(' ', '-')
     #     with open(f'articles/public/ozono/sanificazione/{industry_formatted}.md', 'w', encoding='utf-8') as f:
     #         f.write(article)
+
+
+
+
+
+# def gen_article_applications():
+    # folderpath = 'articles/public/ozono/sanificazione/applicazioni'
+    # for filename in os.listdir(folderpath):
+    #     print(filename)
+    #     filepath_in = f'{folderpath}/{filename}'
+    #     filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
+    #     data = util.json_read(filepath_in)
+
+    #     keyword = filename.replace('.json', '')
+    #     title = keyword.title().replace('-', ' ')
+    #     application = title.lower()
+
+    #     article_html = ''
+    #     article_html += f'<h1>{title}</h1>' + '\n'
+    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg" alt="">' + '\n'
+    #     article_html += util.text_format_1N1_html(data['intro_1']) + '\n'
+    #     article_html += util.text_format_1N1_html(data['intro_2']) + '\n'
+    #     article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application}?</h2>' + '\n'
+    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt="">' + '\n'
+    #     article_html += util.text_format_1N1_html(data['intro_1']) + '\n'
+    #     article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application}?</h2>' + '\n'
+    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-problemi.jpg" alt="">' + '\n'
+    #     article_html += util.text_format_1N1_html(data['problems_text']) + '\n'
+    #     article_html += '<ul>' + ''.join([f'<li>{item}</li>\n' for item in data['problems_list']]) + '</ul>' + '\n'
+    #     article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application}?</h2>' + '\n'
+    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-benefici.jpg" alt="">' + '\n'
+    #     article_html += util.text_format_1N1_html(data['benefits_text']) + '\n'
+    #     article_html += '<ul>' + ''.join([f'<li>{item}</li>\n' for item in data['benefits_list']]) + '</ul>' + '\n'
+    #     article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application}?</h2>' + '\n'
+    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-applicazioni.jpg" alt="">' + '\n'
+    #     article_html += util.text_format_1N1_html(data['applications_text']) + '\n'
+    #     article_html += '<ul>' + ''.join([f'<li>{item}</li>\n' for item in data['applications_list']]) + '</ul>' + '\n'
+
+    #     # BREADCRUMBS  ---------------------------------------------
+    #     filepath_chunks = filepath_in.split('\\')
+    #     breadcrumbs = generate_breadcrumbs(filepath_chunks)
+
+    #     # READING TIME  --------------------------------------------
+    #     reading_time = len(article_html.split(' ')) // 200
+
+    #     # PUBLICATION DATE  ----------------------------------------
+    #     publishing_date = ''
+    #     try: publishing_date = md.Meta['publishing_date'][0]
+    #     except: pass
+
+    #     # AUTHOR ----------------------------------------
+    #     author = 'Ozonogroup Staff'
+    #     try: author = md.Meta['author'][0]
+    #     except: pass
+
+    #     last_update_date = ''
+    #     try: last_update_date = md.Meta['last_update_date'][0]
+    #     except: pass
+
+    #     # GENERATE TABLE OF CONTENTS ----------------------------------------
+    #     article_html = generate_toc(article_html)
+
+    #     with open('components/header.html', encoding='utf-8') as f:
+    #         header_html = f.read()
+
+    #     html = f'''
+    #         <!DOCTYPE html>
+    #         <html lang="en">
+
+    #         <head>
+    #             <meta charset="UTF-8">
+    #             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    #             <link rel="stylesheet" href="/style-blog.css">
+    #             <link rel="stylesheet" href="/util.css">
+    #             <title>{title}</title>
+    #             {GOOGLE_TAG}
+    #         </head>
+
+    #         <body>
+    #             <section class="header-section">
+    #                 <div class="container-xl h-full">
+    #                     {header_html}
+    #                 </div>
+    #             </section>
+
+    #             <section class="breadcrumbs-section">
+    #                 <div class="container-xl h-full">
+    #                     <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+    #                 </div>
+    #             </section>
+
+    #             <section class="meta-section mt-48">
+    #                 <div class="container-md h-full">
+    #                     <div class="flex justify-between mb-8">
+    #                         <span>by {author} • {publishing_date}</span>
+    #                         <span>Tempo Lettura: {reading_time} min</span>
+    #                     </div>
+    #                 </div>
+    #             </section>
+
+    #             <section class="container-md">
+    #                 {article_html}
+    #             </section>
+
+    #             <section class="footer-section">
+    #                 <div class="container-xl h-full">
+    #                     <footer class="flex items-center justify-center">
+    #                         <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+    #                     </footer>
+    #                 </div>
+    #             </section>
+    #         </body>
+
+    #         </html>
+    #     '''
+
+    #     chunks = filepath_out.split('/')[:-1]
+    #     chunk_curr = ''
+    #     for chunk in chunks:
+    #         chunk_curr += f'{chunk}/'
+    #         try: os.makedirs(chunk_curr)
+    #         except: pass
+
+    #     util.file_write(filepath_out, html)
+
+
+    # articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
+    # for article_filename in os.listdir(articles_folder):
+    #     article_filename_no_ext = article_filename.replace('.json', '')
+
+    #     article_filepath = f'{article_filename}/{article_filename}'
+    #     images_articles_folder = f'C:/og-assets/images/articles'
+    #     images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
+    #     images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+
+    #     images_filpaths_out = [
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
+    #     ]
+    #     for image_filepath_out in images_filpaths_out:
+    #         image_filepath = images_filepath.pop(0)
+    #         if not os.path.exists(image_filepath_out):
+    #             img_resize_2(
+    #                 image_filepath, 
+    #                 image_filepath_out
+    #             )
+

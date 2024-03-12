@@ -103,6 +103,9 @@ def ai_problems_mix_csv(row):
     # time.sleep(30)
     
 
+
+
+
 def ai_batteri_csv(row):
     problem_name = 'batteri'
     application_name = row[0].strip()
@@ -199,7 +202,7 @@ def ai_muffe_csv(row):
     if csv_rows != []: return
     
     prompt = f'''
-        Scrivi in Italiano una lista numerata dei nomi scientifici di 10 {problem_name} patogeni che si possono trovare {application_a_1}{application_name.lower()}.
+        Scrivi in Italiano una lista numerata dei nomi scientifici di 10 {problem_name} patogeni per l'uomo che si possono trovare {application_a_1}{application_name.lower()}.
         Scrivi solo i nomi scientifici di {problem_name}, non aggiungere descrizioni.
     '''
     reply = util_ai.gen_reply(prompt)
@@ -213,6 +216,7 @@ def ai_muffe_csv(row):
         if '. ' not in line: continut
         else: line = '. '.join(line.split('. ')[1:]).strip()
         if '(' in line: line = line.split('(')[0].strip()
+        line = line.replace('*', '')
         reply_formatted.append([application_name_dash, problem_name, line])
 
     reply_formatted = reply_formatted
@@ -224,6 +228,89 @@ def ai_muffe_csv(row):
         util.csv_add_rows(filepath, reply_formatted)
 
     time.sleep(30)
+
+
+def ai_insetti_csv(row):
+    problem_name = 'insetti'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows != []: return
+    
+    prompt = f'''
+        Scrivi in Italiano una lista numerata dei nomi scientifici di 10 {problem_name} indesiderati per l'uomo che si possono trovare {application_a_1}{application_name.lower()}.
+        Scrivi solo i nomi scientifici di {problem_name}, non aggiungere descrizioni.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    reply = reply.strip()
+
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        if '. ' not in line: continut
+        else: line = '. '.join(line.split('. ')[1:]).strip()
+        if '(' in line: line = line.split('(')[0].strip()
+        line = line.replace('*', '')
+        reply_formatted.append([application_name_dash, problem_name, line])
+
+    reply_formatted = reply_formatted
+    if len(reply_formatted) == 10:
+        print('------------------------------')
+        for e in reply_formatted:
+            print(e)
+        print('------------------------------')
+        util.csv_add_rows(filepath, reply_formatted)
+
+    time.sleep(30)
+
+
+def ai_odori_csv(row):
+    problem_name = 'odori'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows != []: return
+    
+    prompt = f'''
+        Scrivi in Italiano una lista numerata di 10 {problem_name} indesiderati per l'uomo che si possono trovare {application_a_1}{application_name.lower()}.
+        Scrivi solo i nomi di {problem_name}, non aggiungere descrizioni.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    reply = reply.strip()
+
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        if '. ' not in line: continut
+        else: line = '. '.join(line.split('. ')[1:]).strip()
+        if '(' in line: line = line.split('(')[0].strip()
+        line = line.replace('*', '')
+        reply_formatted.append([application_name_dash, problem_name, line])
+
+    reply_formatted = reply_formatted
+    if len(reply_formatted) == 10:
+        print('------------------------------')
+        for e in reply_formatted:
+            print(e)
+        print('------------------------------')
+        util.csv_add_rows(filepath, reply_formatted)
+
+    time.sleep(30)
+
 
 
 
@@ -267,6 +354,108 @@ def virus_to_json(row):
     data = util.json_read(filepath)
     data[f'problemi_{problem_name}'] = problems
     util.json_write(filepath, data)
+
+
+def muffe_to_json(row):
+    problem_name = 'muffe'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows == []: return
+
+    problems = [csv_row[2] for csv_row in csv_rows]
+
+    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+    data = util.json_read(filepath)
+    data[f'problemi_{problem_name}'] = problems
+    util.json_write(filepath, data)
+
+
+def insetti_to_json(row):
+    problem_name = 'insetti'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows == []: return
+
+    problems = [csv_row[2] for csv_row in csv_rows]
+
+    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+    data = util.json_read(filepath)
+    data[f'problemi_{problem_name}'] = problems
+    util.json_write(filepath, data)
+
+
+def odori_to_json(row):
+    problem_name = 'odori'
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows == []: return
+
+    problems = [csv_row[2] for csv_row in csv_rows]
+
+    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+    data = util.json_read(filepath)
+    data[f'problemi_{problem_name}'] = problems
+    util.json_write(filepath, data)
+
+
+
+def ai_benefici_csv(row):
+    application_name = row[0].strip()
+    application_a_1 = row[1]
+    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+    filepath = f'database/tables/applicazioni-benefici.csv'
+
+    csv_rows = []
+    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+    except: util.csv_add_rows(filepath, [])
+    if csv_rows != []: return
+    
+    prompt = f'''
+        Scrivi in Italiano una lista numerata dei 10 benefici più comuni della sanificazione ad ozono {application_a_1}{application_name.lower()} confronto altri metodi di sanificazione.
+        Lista solo i nomi dei benefici, non aggiungere descrizioni.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    reply = reply.strip()
+
+    reply_formatted = []
+    for line in reply.split('\n'):
+        line = line.strip()
+        if line == '': continue
+        if not line[0].isdigit(): continue
+        if '. ' not in line: continut
+        else: line = '. '.join(line.split('. ')[1:]).strip()
+        if '(' in line: line = line.split('(')[0].strip()
+        reply_formatted.append([application_name_dash, line])
+
+    reply_formatted = reply_formatted
+    if len(reply_formatted) == 10:
+        print('------------------------------')
+        for e in reply_formatted:
+            print(e)
+        print('------------------------------')
+        util.csv_add_rows(filepath, reply_formatted)
+
+    time.sleep(30)
+
 
 
 
@@ -655,8 +844,18 @@ def ai_applications_main():
         print(f'{i+1}/{len(rows)}')
         # ai_batteri_csv(row)
         # ai_virus_csv(row)
-        batteri_to_json(row)
-        virus_to_json(row)
+        # ai_muffe_csv(row)
+        # ai_insetti_csv(row)
+        # ai_odori_csv(row)
+
+        # batteri_to_json(row)
+        # virus_to_json(row)
+        # muffe_to_json(row)
+        # insetti_to_json(row)
+        # odori_to_json(row)
+
+        ai_benefici_csv(row)
+        
         # ai_muffe_csv(row)
         # ai_intro_1(row)
         # ai_intro_2(row)

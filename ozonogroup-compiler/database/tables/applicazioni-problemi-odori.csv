@@ -1,0 +1,312 @@
+case\odori\Muffa
+case\odori\Fognatura
+case\odori\Smog
+case\odori\Fumo di sigaretta
+case\odori\Cibi maleodoranti
+case\odori\Scarico della lavastoviglie
+case\odori\Animale domestico
+case\odori\Scarico del gabinetto
+case\odori\Sudore
+case\odori\Immondizia
+automobili\odori\Fumo di sigaretta
+automobili\odori\Sudore
+automobili\odori\Cibo avariato
+automobili\odori\Benzina
+automobili\odori\Olio bruciato
+automobili\odori\Muffa
+automobili\odori\Urina
+automobili\odori\Profumo troppo forte
+automobili\odori\Scarico dell'auto
+ospedali\odori\Disinfettante
+ospedali\odori\Medicinale
+ospedali\odori\Urina
+ospedali\odori\Feci
+ospedali\odori\Sangue
+ospedali\odori\Bruciato
+ospedali\odori\Vomito
+ospedali\odori\Muffa
+ospedali\odori\Sudore
+ambulanze\odori\Sudore
+ambulanze\odori\Disinfettante
+ambulanze\odori\Vomito
+ambulanze\odori\Urina
+ambulanze\odori\Fumo di sigaretta
+ambulanze\odori\Alcol
+ambulanze\odori\Farmaci
+ambulanze\odori\Sangue
+ambulanze\odori\Muffa
+ambulanze\odori\Feci
+case-di-riposo\odori\Urina
+case-di-riposo\odori\Feci
+case-di-riposo\odori\Sudore
+case-di-riposo\odori\Disinfettante
+case-di-riposo\odori\Cibo bruciato
+case-di-riposo\odori\Muffa
+case-di-riposo\odori\Ammoniaca
+case-di-riposo\odori\Vomito
+case-di-riposo\odori\Candeggina
+case-di-riposo\odori\Pelle morta
+cliniche-dentistiche\odori\Disinfettante per mani
+cliniche-dentistiche\odori\Cavità orale
+cliniche-dentistiche\odori\Guanti in lattice
+cliniche-dentistiche\odori\Amalgama dentale
+cliniche-dentistiche\odori\Materiale composito
+cliniche-dentistiche\odori\Anestetico locale
+cliniche-dentistiche\odori\Materiale di sigillatura
+cliniche-dentistiche\odori\Materiale di otturazione
+cliniche-dentistiche\odori\Radiografia dentale
+cliniche-veterinarie\odori\Disinfettante
+cliniche-veterinarie\odori\Urina di animale
+cliniche-veterinarie\odori\Feci
+cliniche-veterinarie\odori\Vomito
+cliniche-veterinarie\odori\Pelle morta o tessuto necrotico
+cliniche-veterinarie\odori\Fluidi corporei, come sangue o linfa
+cliniche-veterinarie\odori\Muffa
+cliniche-veterinarie\odori\Gas intestinali
+cliniche-veterinarie\odori\Medicationi veterinarie con odori forti.
+scuole\odori\Sudore
+scuole\odori\Smog
+scuole\odori\Cibo bruciato
+scuole\odori\Fumo di sigaretta
+scuole\odori\Prodotti chimici per la pulizia
+scuole\odori\Candeggina
+scuole\odori\Rifiuti organici
+scuole\odori\Verdura marcia
+asili\odori\Pannolino sporco
+asili\odori\Vomito
+asili\odori\Latte materno andato a male
+asili\odori\Cibo bruciato
+asili\odori\Sudore corporeo
+asili\odori\Urina
+asili\odori\Feci
+asili\odori\Muffa
+asili\odori\Disinfettante a lungo utilizzato
+asili\odori\Cattivo alito dei bambini
+bagni-pubblici\odori\urina
+bagni-pubblici\odori\sudore
+bagni-pubblici\odori\feci
+bagni-pubblici\odori\muffa
+bagni-pubblici\odori\scarico
+bagni-pubblici\odori\ristagno
+bagni-pubblici\odori\sporco
+bagni-pubblici\odori\moquette umida
+bagni-pubblici\odori\immondizia
+cinema\odori\Popcorn bruciato
+cinema\odori\Sudore
+cinema\odori\Fumo di sigarette
+cinema\odori\Cibo da fast food
+cinema\odori\Profumo/deodorante forte
+cinema\odori\Smalti per unghie
+cinema\odori\Pelle unta
+cinema\odori\Caffè bruciato
+cinema\odori\Rifiuti/spazzatura
+cinema\odori\Prodotti per la pulizia chimici
+teatri\odori\Fumo di sigarette
+teatri\odori\Popcorn bruciato
+teatri\odori\Sudore
+teatri\odori\Profumo/deodorante forte
+teatri\odori\Cibo da fast food
+teatri\odori\Bevande alcoliche
+teatri\odori\Urina
+alberghi\odori\Fumo di sigaretta
+alberghi\odori\Muffa
+alberghi\odori\Sudore
+alberghi\odori\Profumi forti
+alberghi\odori\Rifiuti
+alberghi\odori\Alcool
+alberghi\odori\Urina
+alberghi\odori\Pulizia chimica aggressiva
+bed-and-breakfast\odori\Fumo di sigaretta
+bed-and-breakfast\odori\Muffa
+bed-and-breakfast\odori\Sudore
+bed-and-breakfast\odori\Scarico dei wc
+bed-and-breakfast\odori\Prodotti chimici di pulizia forti
+bed-and-breakfast\odori\Animale domestico
+bed-and-breakfast\odori\Grasso bruciato
+bed-and-breakfast\odori\Scarpe maleodoranti
+mense\odori\Sudore
+mense\odori\Bruciato
+mense\odori\Muffa
+mense\odori\Puzza di pesce
+mense\odori\Spazzatura
+mense\odori\Cipolla
+mense\odori\Grasso bruciato
+mense\odori\Gas di scarico
+mense\odori\Smog
+mense\odori\Urina
+ristoranti\odori\grasso bruciato
+ristoranti\odori\pesce marcio
+ristoranti\odori\sudore
+ristoranti\odori\immondizia
+ristoranti\odori\muffa
+ristoranti\odori\scarico o fogna
+ristoranti\odori\Fumo di sigaretta
+ristoranti\odori\cibo riscaldato
+ristoranti\odori\vernice o prodotti chimici
+ristoranti\odori\scarpe o calzini puzzolenti
+pizzerie\odori\Fumo di sigaretta
+pizzerie\odori\Olio bruciato
+pizzerie\odori\Sudore
+pizzerie\odori\Muffa
+pizzerie\odori\Grasso bruciato
+pizzerie\odori\Scarico di scarico
+pizzerie\odori\Cipolle
+pizzerie\odori\Sporco
+pizzerie\odori\Immondizia
+bar\odori\Fumo di sigaretta
+bar\odori\Alcol
+bar\odori\Sudore
+bar\odori\Grasso bruciato
+bar\odori\Muffa
+bar\odori\Scarico di scarico
+bar\odori\Smaltimento dei rifiuti
+bar\odori\Urina
+bar\odori\Cibo bruciato
+pasticcerie\odori\Sudore
+pasticcerie\odori\scarico
+pasticcerie\odori\Muffa
+pasticcerie\odori\Immondizia
+pasticcerie\odori\Smog
+pasticcerie\odori\Vernice chimica
+piscine\odori\Cloro
+piscine\odori\Sudore
+piscine\odori\Urina
+piscine\odori\Rifiuti
+piscine\odori\Chimici
+piscine\odori\Ristagno
+piscine\odori\Muffa
+piscine\odori\Decadimento
+terme\odori\Zolfo
+terme\odori\Muffa
+terme\odori\Sudore
+terme\odori\Cloro
+terme\odori\Drenaggio
+terme\odori\Smog
+terme\odori\Cancrena
+terme\odori\Piscina
+terme\odori\Fognatura
+terme\odori\Immondizia
+palestre\odori\Sudore
+palestre\odori\Chimico
+palestre\odori\Gomma bruciata
+palestre\odori\Smog
+palestre\odori\Urina
+palestre\odori\Cancrena
+palestre\odori\Muffa
+palestre\odori\Smalti per unghie
+lavanderie\odori\Muffa
+lavanderie\odori\Sudore
+lavanderie\odori\Smog
+lavanderie\odori\Fast food
+lavanderie\odori\Detersivo da bucato troppo forte
+lavanderie\odori\Rifiuti organici
+lavanderie\odori\Prodotti chimici domestici
+tintorie\odori\Ammoniaca
+tintorie\odori\Idrocarburi aromatici
+tintorie\odori\Clorofenoli
+tintorie\odori\Aldeidi
+tintorie\odori\Cetoni
+tintorie\odori\Terpeni
+tintorie\odori\Indoli
+tintorie\odori\Skatoli
+tintorie\odori\Furani
+industria-della-lavorazione-carni\odori\Ammoniaca
+industria-della-lavorazione-carni\odori\Putrefazione
+industria-della-lavorazione-carni\odori\Zolfo
+industria-della-lavorazione-carni\odori\Bruciato
+industria-della-lavorazione-carni\odori\Muffa
+industria-della-lavorazione-carni\odori\Sudore
+industria-della-lavorazione-carni\odori\Gas naturale
+industria-della-lavorazione-carni\odori\Smalto cotto
+industria-della-lavorazione-carni\odori\Caucciù bruciato
+industria-salumiera\odori\Ammoniaca
+industria-salumiera\odori\Putrefazione
+industria-salumiera\odori\Rancido
+industria-salumiera\odori\Muffa
+industria-salumiera\odori\Disinfettante
+industria-salumiera\odori\Bruciato
+industria-salumiera\odori\Marcio
+industria-salumiera\odori\Fecale
+industria-avicola\odori\Ammoniaca
+industria-avicola\odori\Putrefazione
+industria-avicola\odori\Piume bruciate
+industria-avicola\odori\Feci di pollo
+industria-avicola\odori\Muffa
+industria-avicola\odori\Cibo rancido
+industria-avicola\odori\Disinfettante
+industria-avicola\odori\Uova marce
+industria-avicola\odori\Gas di fermentazione
+industria-ittica\odori\Ammoniaca
+industria-ittica\odori\Trimetilammina
+industria-ittica\odori\Dimetilpirazina
+industria-ittica\odori\Putrescina
+industria-ittica\odori\Cadverina
+industria-ittica\odori\Indolo
+industria-ittica\odori\Skatole
+industria-ittica\odori\Geosmina
+industria-ittica\odori\Mercaptanio
+industria-ittica\odori\Butano-2,3-dione
+industria-lattiero-casearia\odori\Ammoniaca
+industria-lattiero-casearia\odori\Bruciato
+industria-lattiero-casearia\odori\Muffa
+industria-lattiero-casearia\odori\Putrefazione
+industria-lattiero-casearia\odori\Disinfettante
+industria-lattiero-casearia\odori\Acido
+industria-ortofrutticola\odori\Etilene
+industria-ortofrutticola\odori\Ammoniaca
+industria-ortofrutticola\odori\Dimetil sulfide
+industria-ortofrutticola\odori\Metantiolo
+industria-ortofrutticola\odori\Idrogeno solforato
+industria-ortofrutticola\odori\Acetaldeide
+industria-ortofrutticola\odori\Acido acetico
+industria-ortofrutticola\odori\Tricloruro di azoto
+industria-ortofrutticola\odori\Diossido di zolfo
+industria-ortofrutticola\odori\Formaldeide
+industria-vinicola\odori\Muffa
+industria-vinicola\odori\Idrocarburi
+industria-vinicola\odori\Diossido di zolfo
+industria-vinicola\odori\Mercaptani
+industria-vinicola\odori\Fenoli
+industria-vinicola\odori\Geosmina
+industria-vinicola\odori\Ferro metallico
+industria-vinicola\odori\Vetiver
+industria-vinicola\odori\Rancido
+industria-vinicola\odori\2,4,6-Tricloroanisolo
+industria-cerealicola\odori\muffa
+industria-cerealicola\odori\chiuso
+industria-cerealicola\odori\umidità
+industria-cerealicola\odori\bruciato
+industria-cerealicola\odori\sudicio
+industria-cerealicola\odori\rancido
+industria-cerealicola\odori\naftalina
+industria-cerealicola\odori\plastica bruciata
+industria-cerealicola\odori\vernice
+industria-cerealicola\odori\scarico
+industria-dell-acqua-minerale\odori\Idrocarburi
+industria-dell-acqua-minerale\odori\Diossido di zolfo
+industria-dell-acqua-minerale\odori\Clorofenoli
+industria-dell-acqua-minerale\odori\Geosmina
+industria-dell-acqua-minerale\odori\Metilisoborneolo
+industria-dell-acqua-minerale\odori\Tricloroanisolo
+industria-dell-acqua-minerale\odori\Clorofenolo
+industria-dell-acqua-minerale\odori\Fenolo
+industria-dell-acqua-minerale\odori\Ipoclorito di sodio
+industria-dell-acqua-minerale\odori\Decadimento organico
+industria-birraria\odori\Detergente
+industria-birraria\odori\Muffa
+industria-birraria\odori\Sudore
+industria-birraria\odori\Terra
+industria-birraria\odori\Acido
+industria-birraria\odori\Rancido
+industria-birraria\odori\Bruciato
+industria-birraria\odori\Plastica
+industria-dell-automotive\odori\gas di scarico
+industria-dell-automotive\odori\bruciato
+industria-dell-automotive\odori\plastica fusa
+industria-dell-automotive\odori\benzina
+industria-dell-automotive\odori\vernice chimica
+industria-dell-automotive\odori\olio lubrificante bruciato
+industria-dell-automotive\odori\gomma bruciata
+industria-dell-automotive\odori\muffa
+industria-dell-automotive\odori\fumo elettrico
+industria-dell-automotive\odori\batteria scarica

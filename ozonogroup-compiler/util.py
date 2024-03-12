@@ -33,7 +33,7 @@ def csv_get_rows_by_entity(filepath, entity, delimiter='\\'):
     with open(filepath, encoding='utf-8', errors='ignore') as f:
         reader = csv.reader(f, delimiter=delimiter)
         for i, line in enumerate(reader):
-            if line[0].lower().strip() == entity.lower().strip():
+            if line[0].lower().strip().replace(' ', '-').replace("'", '-') == entity.lower().strip().replace(' ', '-').replace("'", '-'):
                 rows.append(line)
     return rows
 
@@ -60,6 +60,13 @@ def file_append(filepath, text):
 
 
 def file_write(filepath, text):
+    chunks = filepath.split('/')[:-1]
+    chunk_curr = ''
+    for chunk in chunks:
+        chunk_curr += f'{chunk}/'
+        try: os.makedirs(chunk_curr)
+        except: pass
+
     with open(filepath, 'w', encoding='utf-8') as f: 
         f.write(text)
 
@@ -142,7 +149,26 @@ def text_format_1N1_html(text):
     return text_formatted
 
 
+def list_to_html(lst):
+    html = ''
+    html += '<ul>\n'
+    for item in lst: 
+        html += f'<li>{item}</li>\n'
+    html += '</ul>\n'
+    return html
 
+
+def list_bold_to_html(lst):
+    html = ''
+    html += '<ul>\n'
+    for item in lst: 
+        if ':' in item:
+            item_parts = item.split(":")
+            html += f'<li><strong>{item_parts[0]}</strong>: {item_parts[1]}</li>\n'
+        else:
+            html += f'<li>{item}</li>\n'
+    html += '</ul>\n'
+    return html
 
 
 ###################################

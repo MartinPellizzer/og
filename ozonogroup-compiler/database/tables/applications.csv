@@ -1,36 +1,36 @@
-application\a-1\
-Case\nelle \
-Automobili\nelle \
-Ospedali\negli \
-Ambulanze\nelle \
-Case di Riposo\nelle \
-Cliniche Dentistiche\nelle \
-Cliniche Veterinarie\nelle \
-Scuole\nelle \
-Asili\negli \
-Bagni Pubblici\nei \
-Cinema\nei \
-Teatri\nei \
-Alberghi\negli \
-Bed and breakfast\nei \
-Mense\nelle \
-Ristoranti\nei \
-Pizzerie\nelle \
-Bar\nei \
-Pasticcerie\nelle \
-Piscine\nelle \
-Terme\nelle \
-Palestre\nelle \
-Lavanderie\nelle \
-Tintorie\nelle \
-Industria Della Lavorazione Carni\nell'\
-Industria Salumiera\nell'\
-Industria Avicola\nell'\
-Industria Ittica\nell'\
-Industria Lattiero-Casearia\nell'\
-Industria Ortofrutticola\nell'\
-Industria Vinicola\nell'\
-Industria Cerealicola\nell'\
-Industria Dell'Acqua Minerale\nell'\
-Industria Birraria\nell'\
-Industria Dell'Automotive\nell'\
+application\a-1\category\
+Case\nelle \generale\
+Automobili\nelle \trasporto\
+Ospedali\negli \generale\
+Ambulanze\nelle \trasporto\
+Case di Riposo\nelle \generale\
+Cliniche Dentistiche\nelle \generale\
+Cliniche Veterinarie\nelle \generale\
+Scuole\nelle \generale\
+Asili\negli \generale\
+Bagni Pubblici\nei \generale\
+Cinema\nei \generale\
+Teatri\nei \generale\
+Alberghi\negli \generale\
+Bed and breakfast\nei \generale\
+Mense\nelle \generale\
+Ristoranti\nei \generale\
+Pizzerie\nelle \generale\
+Bar\nei \generale\
+Pasticcerie\nelle \generale\
+Piscine\nelle \generale\
+Terme\nelle \generale\
+Palestre\nelle \generale\
+Lavanderie\nelle \generale\
+Tintorie\nelle \generale\
+Industria Della Lavorazione Carni\nell'\industria\
+Industria Salumiera\nell'\industria\
+Industria Avicola\nell'\industria\
+Industria Ittica\nell'\industria\
+Industria Lattiero-Casearia\nell'\industria\
+Industria Ortofrutticola\nell'\industria\
+Industria Vinicola\nell'\industria\
+Industria Cerealicola\nell'\industria\
+Industria Dell'Acqua Minerale\nell'\industria\
+Industria Birraria\nell'\industria\
+Industria Dell'Automotive\nell'\industria\
