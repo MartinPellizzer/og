@@ -24,7 +24,7 @@ def ai_problems_csv():
         '''
 
         
-        reply = util.gen_reply(prompt)
+        reply = util_ai.gen_reply(prompt)
         reply = reply.strip()
 
         if prompt_paragraphs_num == len(reply_formatted):
@@ -57,7 +57,7 @@ def ai_problems_csv():
     #     '''
 
     #     
-    #     reply = util.gen_reply(prompt)
+    #     reply = util_ai.gen_reply(prompt)
     #     reply = reply.strip()
 
     #     reply_formatted = []
@@ -302,7 +302,7 @@ def ai_odori_csv(row):
         reply_formatted.append([application_name_dash, problem_name, line])
 
     reply_formatted = reply_formatted
-    if len(reply_formatted) == 10:
+    if len(reply_formatted) >= 5:
         print('------------------------------')
         for e in reply_formatted:
             print(e)
@@ -482,21 +482,8 @@ def ai_intro_1(row):
         includi i problemi di contaminazione più comuni, qual'è l'impatto globale e quali sono le ripercussioni.
         includi numeri, dati e statistiche senza nominare le sorgenti e gli studi.
     '''
-
-    print(util.prompt_normalized)
     
-    completion = client.chat.completions.create(
-        messages=[
-            {
-                "role": "user",
-                "content": prompt,
-            }
-        ],
-        model="mixtral-8x7b-32768",
-    )
-
-    print()
-    reply = completion.choices[0].message.content
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -531,7 +518,7 @@ def ai_intro_2(row):
     prompt = f'''
         scrivi un paragrafo di 5 frasi in 100 parole spiegando come la sanificazione ad ozono risolve i problemi di contaminazione {application_a_1} {application}.
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -566,7 +553,7 @@ def ai_definition(row):
     prompt = f'''
         scrivi un paragrafo di 100 parole spiegando cos'è la sanificazione ad ozono per {application} e a cosa serve.
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -605,7 +592,7 @@ def ai_problems_text(row):
         non spiegare cos'è l'ozono e non spiegare come funziona.
         inizia la risposta con queste parole: {prompt_start}
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -642,7 +629,7 @@ def ai_problems_list(row):
         includi 2 batteri, 2 virus, 2 muffe, 2 parassiti e 2 odori.
         scrivi i problemi usando questa struttura: [nome problema]: [descrizione problema].
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
 
     reply_formatted = []
@@ -691,7 +678,7 @@ def ai_benefits_text(row):
         non spiegare cos'è l'ozono e non spiegare come funziona.
         inizia la risposta con queste parole: {prompt_start}
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -727,7 +714,7 @@ def ai_benefits_list(row):
         scrivi in italiano una lista di 10 benefici della sanificazione ad ozono {application_a_1}{application.lower()}.
         scrivi i problemi usando questa struttura: [nome benficio]: [descrizione beneficio].
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
 
     reply_formatted = []
@@ -775,7 +762,7 @@ def ai_applications_text(row):
         non spiegare cos'è l'ozono e non spiegare come funziona.
         inizia la risposta con queste parole: {prompt_start}
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
     reply = reply.replace('\n', ' ')
     reply = re.sub("\s\s+" , " ", reply)
@@ -811,7 +798,7 @@ def ai_applications_list(row):
         scrivi in italiano una lista di 10 applicazioni della sanificazione ad ozono {application_a_1}{application.lower()}.
         scrivi i problemi usando questa struttura: [nome applicazione]: [descrizione applicazione].
     '''
-    reply = util.gen_reply(prompt)
+    reply = util_ai.gen_reply(prompt)
     reply = reply.strip()
 
     reply_formatted = []
@@ -846,17 +833,16 @@ def ai_applications_main():
         # ai_virus_csv(row)
         # ai_muffe_csv(row)
         # ai_insetti_csv(row)
-        # ai_odori_csv(row)
+        ai_odori_csv(row)
 
         # batteri_to_json(row)
         # virus_to_json(row)
         # muffe_to_json(row)
         # insetti_to_json(row)
-        # odori_to_json(row)
+        odori_to_json(row)
 
-        ai_benefici_csv(row)
+        # ai_benefici_csv(row)
         
-        # ai_muffe_csv(row)
         # ai_intro_1(row)
         # ai_intro_2(row)
         # ai_definition(row)
@@ -924,7 +910,7 @@ def ai_applications_page_descriptions():
             Non spiegare cos'è l'ozono e non spiegare come funziona.
             Inizia la risposta con queste parole: {prompt_start}
         '''
-        reply = util.gen_reply(prompt)
+        reply = util_ai.gen_reply(prompt)
         reply = reply.strip()
         reply = reply.replace('\n', ' ')
         reply = re.sub("\s\s+" , " ", reply)

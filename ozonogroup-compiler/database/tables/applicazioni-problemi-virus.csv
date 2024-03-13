@@ -348,3 +348,63 @@ industria-vinicola\virus\Vitivirus crapula
 industria-vinicola\virus\Vitivirus fanfare
 industria-vinicola\virus\Vitivirus filtrex
 industria-vinicola\virus\Vitivirus Flachslanden
+treni\virus\Orthomyxoviridae
+treni\virus\Picornaviridae
+treni\virus\Coronaviridae
+treni\virus\Adenoviridae
+treni\virus\Parvoviridae
+treni\virus\Reoviridae
+treni\virus\Hepadnaviridae
+treni\virus\Flaviviridae
+treni\virus\Togaviridae
+treni\virus\Rhabdoviridae
+tram\virus\Orthomyxoviridae
+tram\virus\Parvoviridae
+tram\virus\Picornaviridae
+tram\virus\Reoviridae
+tram\virus\Adenoviridae
+tram\virus\Herpesviridae
+tram\virus\Polyomaviridae
+tram\virus\Papillomaviridae
+tram\virus\Flaviviridae
+tram\virus\Caliciviridae
+autobus\virus\Orthomyxoviridae
+autobus\virus\Influenzavirus A/B/C
+autobus\virus\Coronaviridae
+autobus\virus\Paramyxoviridae
+autobus\virus\Adenoviridae
+autobus\virus\Picornaviridae
+autobus\virus\Reoviridae
+autobus\virus\Hepadnaviridae
+autobus\virus\Flaviviridae
+autobus\virus\Retroviridae
+navi\virus\Orthopoxvirus
+navi\virus\Influenza A virus
+navi\virus\Measles morbillivirus
+navi\virus\Rubivirus
+navi\virus\Hepatitis A virus
+navi\virus\Norovirus
+navi\virus\Rotavirus A
+navi\virus\Adenovirus
+navi\virus\SARS-CoV
+navi\virus\MERS-CoV
+aeroplani\virus\Orthomyxoviridae
+aeroplani\virus\Retroviridae
+aeroplani\virus\Paramyxoviridae
+aeroplani\virus\Picornaviridae
+aeroplani\virus\Herpesviridae
+aeroplani\virus\Hepadnaviridae
+aeroplani\virus\Flaviviridae
+aeroplani\virus\Togaviridae
+aeroplani\virus\Adenoviridae
+aeroplani\virus\Coronaviridae
+elicotteri\virus\Orthomyxoviridae
+elicotteri\virus\Retroviridae
+elicotteri\virus\Flaviviridae
+elicotteri\virus\Togaviridae
+elicotteri\virus\Bunyavirales
+elicotteri\virus\Arenaviridae
+elicotteri\virus\Filoviridae
+elicotteri\virus\Paramyxoviridae
+elicotteri\virus\Rhabdoviridae
+elicotteri\virus\Hantaviridae

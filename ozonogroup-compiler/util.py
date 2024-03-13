@@ -48,16 +48,15 @@ def folder_create(path):
 # FILE
 ###################################
 
-def file_read(filepath):
-    with open(filepath, 'r', encoding='utf-8') as f: 
-        text = f.read()
-    return text
-
-
 def file_append(filepath, text):
     with open(filepath, 'a', encoding='utf-8') as f: 
         f.write(text)
 
+def file_read(filepath):
+    file_append(filepath, '')
+    with open(filepath, 'r', encoding='utf-8') as f: 
+        text = f.read()
+    return text
 
 def file_write(filepath, text):
     chunks = filepath.split('/')[:-1]
