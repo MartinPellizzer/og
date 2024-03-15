@@ -25,7 +25,7 @@ GOOGLE_TAG = '''
     </script>
 '''
 
-    
+
 def lst_to_blt(lst):
     txt = ''
     for item in lst:
@@ -788,7 +788,6 @@ def gen_articles_html():
                 )
 
 
-
 def gen_article_applications():
     filepath_in = 'articles/public/ozono/sanificazione/applicazioni.json'
     filepath_out = 'public/ozono/sanificazione/applicazioni.html'
@@ -1051,17 +1050,38 @@ def gen_article_applications():
 def gen_pagina_guide():
     content = util.file_read('guide.html')
     rows = util.csv_get_rows('database/tables/applications.csv')[1:]
-
-    articles = ''
+    articles_dict = {}
     for row in rows:
-        application_name = row[0].strip()
-        application_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+        try: articles_dict[row[2]].append([row[0], row[1]])
+        except: articles_dict[row[2]] = [[row[0], row[1]]]
+    
+    articles = ''
+    for key, values in articles_dict.items():
+        articles_curr = ''
+        for value in values:
+            application_name = value[0].strip()
+            application_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+            articles_curr += f'''
+            <a class="decoration-none" href="/ozono/sanificazione/applicazioni/{application_dash}.html">
+                <img src="/assets/images/ozono-sanificazione-{application_dash}-introduzione.jpg" alt="">
+                <h3>Sanificazione ad ozono per {application_name.lower()}</h3>
+            </a>
+        '''
+
         articles += f'''
-        <a class="decoration-none" href="/ozono/sanificazione/applicazioni/{application_dash}.html">
-            <img src="/assets/images/ozono-sanificazione-{application_dash}-introduzione.jpg" alt="">
-            <h3>Sanificazione ad ozono per {application_name.lower()}</h3>
-        </a>
-    '''
+            <section id="articoli-1" class="pb-96">
+                <div class="container h-full">
+                    <h2 class="text-center mb-16">Sanificazione ozono per il settore: {key.title()}</h2>
+                    <p class="text-center mb-48">Scopri dove l'ozono può essere applicato per eliminare una vasta gamma di
+                        patogeni, odori e altri contaminanti.</p>
+
+                    <div class="grid-3">
+                        {articles_curr}
+                    </div>
+                </div>
+            </section>
+        '''
+
 
     content = content.replace('[articles]', articles)
     

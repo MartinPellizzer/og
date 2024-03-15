@@ -1,42 +1,42 @@
-application\a-1\category\
-Case\nelle \generale\
-Automobili\nelle \trasporto\
-Treni\ nei \trasporto
-Tram\ nei \trasporto
-Autobus\negli \trasporto
-Navi\nelle \trasporto
-Aeroplani\negli \trasporto
-Elicotteri\negli \trasporto
-Ospedali\negli \generale\
-Ambulanze\nelle \trasporto\
-Case di Riposo\nelle \generale\
-Cliniche Dentistiche\nelle \generale\
-Cliniche Veterinarie\nelle \generale\
-Scuole\nelle \generale\
-Asili\negli \generale\
-Bagni Pubblici\nei \generale\
-Cinema\nei \generale\
-Teatri\nei \generale\
-Alberghi\negli \generale\
-Bed and breakfast\nei \generale\
-Mense\nelle \generale\
-Ristoranti\nei \generale\
-Pizzerie\nelle \generale\
-Bar\nei \generale\
-Pasticcerie\nelle \generale\
-Piscine\nelle \generale\
-Terme\nelle \generale\
-Palestre\nelle \generale\
-Lavanderie\nelle \generale\
-Tintorie\nelle \generale\
-Industria Della Lavorazione Carni\nell'\industria\
-Industria Salumiera\nell'\industria\
-Industria Avicola\nell'\industria\
-Industria Ittica\nell'\industria\
-Industria Lattiero-Casearia\nell'\industria\
-Industria Ortofrutticola\nell'\industria\
-Industria Vinicola\nell'\industria\
-Industria Cerealicola\nell'\industria\
-Industria Dell'Acqua Minerale\nell'\industria\
-Industria Birraria\nell'\industria\
-Industria Dell'Automotive\nell'\industria\
+application\a-1\category
+Case\nelle \privato
+Automobili\nelle \trasporti
+Treni\nei \trasporti
+Tram\nei \trasporti
+Autobus\negli \trasporti
+Navi\nelle \trasporti
+Aeroplani\negli \trasporti
+Elicotteri\negli \trasporti
+Ospedali\negli \sanità
+Ambulanze\nelle \trasporti
+Case di Riposo\nelle \sanità
+Cliniche Dentistiche\nelle \sanità
+Cliniche Veterinarie\nelle \sanità
+Scuole\nelle \educazione
+Asili\negli \educazione
+Bagni Pubblici\nei \pubblico
+Cinema\nei \intrattenimento
+Teatri\nei \intrattenimento
+Alberghi\negli \accoglienza e ristorazione
+Bed and breakfast\nei \accoglienza e ristorazione
+Mense\nelle \accoglienza e ristorazione
+Ristoranti\nei \accoglienza e ristorazione
+Pizzerie\nelle \accoglienza e ristorazione
+Bar\nei \accoglienza e ristorazione
+Pasticcerie\nelle \accoglienza e ristorazione
+Piscine\nelle \pubblico
+Terme\nelle \salute e benessere
+Palestre\nelle \salute e benessere
+Lavanderie\nelle \pubblico
+Tintorie\nelle \pubblico
+Industria Della Lavorazione Carni\nell'\industria
+Industria Salumiera\nell'\industria
+Industria Avicola\nell'\industria
+Industria Ittica\nell'\industria
+Industria Lattiero-Casearia\nell'\industria
+Industria Ortofrutticola\nell'\industria
+Industria Vinicola\nell'\industria
+Industria Cerealicola\nell'\industria
+Industria Dell'Acqua Minerale\nell'\industria
+Industria Birraria\nell'\industria
+Industria Dell'Automotive\nell'\industria
