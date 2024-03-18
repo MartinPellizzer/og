@@ -1,42 +1,83 @@
 application\a-1\category
-Case\nelle \privato
+Case\nelle \residenziale
+Impianti Idraulici\negli \residenziale
+Impianti Di Climatizzazione\negli \residenziale
+Ascensori\negli \residenziale
+Scale\nelle \residenziale
+Impianti Elettrici\negli \residenziale
+Cortili\nei \residenziale
+Parcheggi\nei \residenziale
 Automobili\nelle \trasporti
+Taxi\nei \trasporti
 Treni\nei \trasporti
 Tram\nei \trasporti
 Autobus\negli \trasporti
 Navi\nelle \trasporti
 Aeroplani\negli \trasporti
 Elicotteri\negli \trasporti
-Ospedali\negli \sanità
 Ambulanze\nelle \trasporti
+Trasporto merci\nel \trasporti
+Metropolitane\nelle \trasporti
+Furgoni\nei \trasporti
+Camion\nei \trasporti
+Ospedali\negli \sanità
 Case di Riposo\nelle \sanità
-Cliniche Dentistiche\nelle \sanità
-Cliniche Veterinarie\nelle \sanità
-Scuole\nelle \educazione
-Asili\negli \educazione
-Bagni Pubblici\nei \pubblico
+Cliniche\nelle \sanità
+Studi Dentistici\negli \sanità
+Studi Veterinari\negli \sanità
+Farmacie\nelle \sanità
+Ambulatori\negli \sanità
+Laboratori medici\nei \sanità
+Sale operatorie\nelle \sanità
+Reparti di degenza\nei \sanità
+Reparti di terapia intensiva\nei \sanità
+Centri di dialisi\nei \sanità
+Centri di riabilitazione\nei \sanità
+Sale di attesa\nelle \sanità
+Scuole\nelle \istruzione
+Asili\negli \istruzione
 Cinema\nei \intrattenimento
 Teatri\nei \intrattenimento
-Alberghi\negli \accoglienza e ristorazione
-Bed and breakfast\nei \accoglienza e ristorazione
-Mense\nelle \accoglienza e ristorazione
-Ristoranti\nei \accoglienza e ristorazione
-Pizzerie\nelle \accoglienza e ristorazione
-Bar\nei \accoglienza e ristorazione
-Pasticcerie\nelle \accoglienza e ristorazione
-Piscine\nelle \pubblico
-Terme\nelle \salute e benessere
-Palestre\nelle \salute e benessere
-Lavanderie\nelle \pubblico
-Tintorie\nelle \pubblico
+Alberghi\negli \ospitalità
+Bed and breakfast\nei \ospitalità
+Mense\nelle \ristorazione
+Ristoranti\nei \ristorazione
+Pizzerie\nelle \ristorazione
+Bar\nei \ristorazione
+Pasticcerie\nelle \ristorazione
+Piscine\nelle \benessere
+Terme\nelle \benessere
+Palestre\nelle \benessere
+Bagni Pubblici\nei \servizi
+Lavanderie\nelle \servizi
+Tintorie\nelle \servizi
+acque reflue\nelle \ambiente
+acque potabili\nelle \ambiente
+rifiuti solidi\nelle \ambiente
+impianti di smaltimento rifiuti comune\negli \ambiente
+impianti di smaltimento rifiuti pericolosi\negli \ambiente
+suoli inquinati\nei \ambiente
+discariche\nelle \ambiente
+serre\nelle \ambiente
+coltivazioni\nelle \ambiente
+impianti di compostaggio\negli\ ambiente
 Industria Della Lavorazione Carni\nell'\industria
 Industria Salumiera\nell'\industria
 Industria Avicola\nell'\industria
 Industria Ittica\nell'\industria
 Industria Lattiero-Casearia\nell'\industria
 Industria Ortofrutticola\nell'\industria
+Industria Biologica\nell'\industria
+Industria Oleochimica\nell'\industria
 Industria Vinicola\nell'\industria
 Industria Cerealicola\nell'\industria
+Industria Della Panificazione\nell'\industria
+Industria Dolciaria\nell'\industria
+Industria Degli Snack\nell'\industria
+Industria Degli Alimenti Confezionati\nell'\industria
+Industria Degli Alimenti Confezionati\nell'\industria
+Industria Delle Bevande\nell'\industria
 Industria Dell'Acqua Minerale\nell'\industria
 Industria Birraria\nell'\industria
-Industria Dell'Automotive\nell'\industria
+Industria Degli Alimenti Per Animali\nell'\industria
+Industria Degli Alimenti Per L'Infanzia\nell'\industria

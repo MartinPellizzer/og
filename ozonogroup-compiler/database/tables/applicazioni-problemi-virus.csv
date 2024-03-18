@@ -408,3 +408,433 @@ elicotteri\virus\Filoviridae
 elicotteri\virus\Paramyxoviridae
 elicotteri\virus\Rhabdoviridae
 elicotteri\virus\Hantaviridae
+farmacie\virus\Orthomyxoviridae
+farmacie\virus\Papillomaviridae
+farmacie\virus\Hepadnaviridae
+farmacie\virus\Flaviviridae
+farmacie\virus\Retroviridae
+farmacie\virus\Herpesviridae
+farmacie\virus\Paramyxoviridae
+farmacie\virus\Rhabdoviridae
+farmacie\virus\Reoviridae
+farmacie\virus\Picornaviridae
+cliniche\virus\Orthomyxoviridae
+cliniche\virus\Human immunodeficiency virus
+cliniche\virus\Hepatitis B virus
+cliniche\virus\Hepatitis C virus
+cliniche\virus\Herpes simplex virus
+cliniche\virus\Varicella-zoster virus
+cliniche\virus\Measles virus
+cliniche\virus\Rubella virus
+cliniche\virus\Respiratory syncytial virus
+cliniche\virus\Human papillomavirus
+ambulatori\virus\Orthomyxoviridae
+ambulatori\virus\Influenzavirus A H1N1
+ambulatori\virus\Influenzavirus B
+ambulatori\virus\Influenzavirus C
+ambulatori\virus\Coronaviridae
+ambulatori\virus\Human immunodeficiency virus 1
+ambulatori\virus\Human immunodeficiency virus 2
+ambulatori\virus\Human herpesvirus 1
+ambulatori\virus\Human herpesvirus 2
+ambulatori\virus\Human papillomavirus
+laboratori-medici\virus\Virus dell'HIV
+laboratori-medici\virus\Virus della Varicella-Zoster
+laboratori-medici\virus\Virus dell'Epatite A
+laboratori-medici\virus\Virus dell'Epatite B
+laboratori-medici\virus\Virus dell'Epatite C
+laboratori-medici\virus\Virus dell'Herpes Simplex
+laboratori-medici\virus\Virus dell'Influenza
+laboratori-medici\virus\Virus della Rabbia
+laboratori-medici\virus\Virus dell'HIV-2
+laboratori-medici\virus\Virus del Morbillo
+sale-operatorie\virus\Orthopoxvirus
+sale-operatorie\virus\Human Immunodeficiency Virus
+sale-operatorie\virus\Hepatitis B Virus
+sale-operatorie\virus\Hepatitis C Virus
+sale-operatorie\virus\Human Papillomavirus
+sale-operatorie\virus\Herpes Simplex Virus
+sale-operatorie\virus\Cytomegalovirus
+sale-operatorie\virus\Respiratory Syncytial Virus
+sale-operatorie\virus\Norovirus
+sale-operatorie\virus\SARS-CoV-2
+reparti-di-degenza\virus\Orthomyxoviridae
+reparti-di-degenza\virus\Human immunodeficiency virus
+reparti-di-degenza\virus\Hepatitis B virus
+reparti-di-degenza\virus\Hepatitis C virus
+reparti-di-degenza\virus\Herpes simplex virus
+reparti-di-degenza\virus\Varicella-zoster virus
+reparti-di-degenza\virus\Measles virus
+reparti-di-degenza\virus\Respiratory syncytial virus
+reparti-di-degenza\virus\Human metapneumovirus
+reparti-di-degenza\virus\Severe acute respiratory syndrome coronavirus 2
+reparti-di-terapia-intensiva\virus\SARS-CoV-2
+reparti-di-terapia-intensiva\virus\Influenzavirus A
+reparti-di-terapia-intensiva\virus\Virus della Varicella-Zoster
+reparti-di-terapia-intensiva\virus\Virus dell'Epatite A
+reparti-di-terapia-intensiva\virus\Virus dell'Epatite B
+reparti-di-terapia-intensiva\virus\Virus dell'Epatite C
+reparti-di-terapia-intensiva\virus\Virus HIV-1
+reparti-di-terapia-intensiva\virus\Virus HIV-2
+reparti-di-terapia-intensiva\virus\Virus della Rabbia
+reparti-di-terapia-intensiva\virus\Virus dell'Herpes simplex
+centri-di-dialisi\virus\Hepatitis B Virus
+centri-di-dialisi\virus\Hepatitis C Virus
+centri-di-dialisi\virus\Human Immunodeficiency Virus
+centri-di-dialisi\virus\Hepatitis A Virus
+centri-di-dialisi\virus\Norovirus
+centri-di-dialisi\virus\Adenovirus
+centri-di-dialisi\virus\Bocavirus
+centri-di-dialisi\virus\Parvovirus B19
+centri-di-dialisi\virus\Respiratory Syncytial Virus
+centri-di-dialisi\virus\Influenza Virus.
+centri-di-riabilitazione\virus\Orthopoxvirus
+centri-di-riabilitazione\virus\Influenzavirus A
+centri-di-riabilitazione\virus\Morbillivirus
+centri-di-riabilitazione\virus\Rubivirus
+centri-di-riabilitazione\virus\Coronaviridae
+centri-di-riabilitazione\virus\HIV
+centri-di-riabilitazione\virus\Hepadnaviridae
+centri-di-riabilitazione\virus\Flaviviridae
+centri-di-riabilitazione\virus\Rhabdoviridae
+centri-di-riabilitazione\virus\Arenaviridae
+sale-di-attesa\virus\Orthomyxoviridae
+sale-di-attesa\virus\Papillomaviridae
+sale-di-attesa\virus\Hepadnaviridae
+sale-di-attesa\virus\Flaviviridae
+sale-di-attesa\virus\Retroviridae
+sale-di-attesa\virus\Paramyxoviridae
+sale-di-attesa\virus\Rhabdoviridae
+sale-di-attesa\virus\Adenoviridae
+sale-di-attesa\virus\Herpesviridae
+sale-di-attesa\virus\Picornaviridae
+impianti-idraulici\virus\Orbivirus
+impianti-idraulici\virus\Flavivirus
+impianti-idraulici\virus\Hepadnaviridae
+impianti-idraulici\virus\Papillomaviridae
+impianti-idraulici\virus\Polyomaviridae
+impianti-idraulici\virus\Adenoviridae
+impianti-idraulici\virus\Reoviridae
+impianti-idraulici\virus\Caliciviridae
+impianti-idraulici\virus\Picornaviridae
+impianti-idraulici\virus\Astroviridae
+impianti-di-climatizzazione\virus\Orthomyxoviridae
+impianti-di-climatizzazione\virus\Parainfluenzavirus
+impianti-di-climatizzazione\virus\Coronaviridae
+impianti-di-climatizzazione\virus\Rhinovirus
+impianti-di-climatizzazione\virus\Adenoviridae
+impianti-di-climatizzazione\virus\Enterovirus
+impianti-di-climatizzazione\virus\Hepadnaviridae
+impianti-di-climatizzazione\virus\Flaviviridae
+impianti-di-climatizzazione\virus\Togaviridae
+impianti-di-climatizzazione\virus\Bornaviridae
+ascensori\virus\Orthopoxvirus
+ascensori\virus\Humanes coronavirus
+ascensori\virus\Virus respiratorio sinciziale umano
+ascensori\virus\Virus influenzali A, B e C
+ascensori\virus\Rinovirus
+ascensori\virus\Adenovirus
+ascensori\virus\Parvovirus B19
+ascensori\virus\Norovirus
+ascensori\virus\Rotavirus
+ascensori\virus\Herpes simplex virus
+scale\virus\Orthopoxvirus
+scale\virus\Flaviviridae
+scale\virus\Filoviridae
+scale\virus\Paramyxoviridae
+scale\virus\Coronaviridae
+scale\virus\Herpesviridae
+scale\virus\Hepadnaviridae
+scale\virus\Retroviridae
+scale\virus\Adenoviridae
+scale\virus\Picornaviridae
+impianti-elettrici\virus\Orthopoxvirus
+impianti-elettrici\virus\Hantavirus
+impianti-elettrici\virus\Arenavirus
+impianti-elettrici\virus\Filovirus
+impianti-elettrici\virus\Flavivirus
+impianti-elettrici\virus\Bunyavirus
+impianti-elettrici\virus\Reovirus
+impianti-elettrici\virus\Picornavirus
+impianti-elettrici\virus\Calicivirus
+impianti-elettrici\virus\Togavirus
+cortili\virus\Orthopoxvirus
+cortili\virus\Humanes calicivirus
+cortili\virus\Virus del Nilo occidentale
+cortili\virus\Virus Zika
+cortili\virus\Virus della febbre gialla
+cortili\virus\Virus dell'HIV-1
+cortili\virus\Virus della rabbia
+cortili\virus\Virus dell'epatite A
+cortili\virus\Virus dell'influenza
+cortili\virus\Virus Parainfluenzavirus umano
+parcheggi\virus\Orthopoxvirus
+parcheggi\virus\Human Immunodeficiency Virus
+parcheggi\virus\Hepatitis B Virus
+parcheggi\virus\Hepatitis C Virus
+parcheggi\virus\Human Papillomavirus
+parcheggi\virus\Herpes Simplex Virus
+parcheggi\virus\Varicella-Zoster Virus
+parcheggi\virus\Measles Morbillivirus
+parcheggi\virus\Respiratory Syncytial Virus
+parcheggi\virus\Influenza A Virus
+taxi\virus\Orthopoxvirus
+taxi\virus\Influenzavirus A
+taxi\virus\Morbillivirus
+taxi\virus\Rubivirus
+taxi\virus\Coronaviridae
+taxi\virus\Hepadnaviridae
+taxi\virus\Flaviviridae
+taxi\virus\Rhabdoviridae
+taxi\virus\Arenaviridae
+taxi\virus\Retroviridae
+trasporto-merci\virus\Orthopoxvirus
+trasporto-merci\virus\RNA virus
+trasporto-merci\virus\Ebolavirus
+trasporto-merci\virus\Marburgvirus
+trasporto-merci\virus\Lassavirus
+trasporto-merci\virus\Hendravirus
+trasporto-merci\virus\Nipahvirus
+trasporto-merci\virus\Coronavirus
+trasporto-merci\virus\Hantavirus
+trasporto-merci\virus\Human immunodeficiency virus
+metropolitane\virus\Orthopoxvirus
+metropolitane\virus\Influenzavirus A
+metropolitane\virus\Morbillivirus
+metropolitane\virus\Rubivirus
+metropolitane\virus\Coronaviridae
+metropolitane\virus\Rhabdoviridae
+metropolitane\virus\Arenaviridae
+metropolitane\virus\Flaviviridae
+metropolitane\virus\Togaviridae
+metropolitane\virus\Paramyxoviridae
+furgoni\virus\Orthopoxvirus
+furgoni\virus\Influenzavirus A
+furgoni\virus\Morbillivirus
+furgoni\virus\Coronaviridae
+furgoni\virus\Rhabdoviridae
+furgoni\virus\Flavivirus
+furgoni\virus\Hepadnaviridae
+furgoni\virus\Retroviridae
+furgoni\virus\Arenaviridae
+furgoni\virus\Paramyxoviridae
+camion\virus\Orthopoxvirus
+camion\virus\Influenzavirus A
+camion\virus\HIV-1
+camion\virus\HCV
+camion\virus\HBV
+camion\virus\SARS-CoV
+camion\virus\MERS-CoV
+camion\virus\RABV
+camion\virus\HMPV
+camion\virus\HSV-1
+studi-dentistici\virus\Orthopoxvirus
+studi-dentistici\virus\Herpes simplex virus tipi 1 e 2
+studi-dentistici\virus\Virus varicella-zoster
+studi-dentistici\virus\Citomegalovirus umano
+studi-dentistici\virus\Virus respiratorio sinciziale umano
+studi-dentistici\virus\Virus influenza A e B
+studi-dentistici\virus\Virus della rabbia
+studi-dentistici\virus\Ebolavirus
+studi-dentistici\virus\Hepatitis B virus
+studi-dentistici\virus\HIV
+studi-veterinari\virus\Orthopoxvirus
+studi-veterinari\virus\Influenzavirus A
+studi-veterinari\virus\Morbillivirus
+studi-veterinari\virus\Rubivirus
+studi-veterinari\virus\Coronavirus
+studi-veterinari\virus\Rhabdovirus
+studi-veterinari\virus\Flavivirus
+studi-veterinari\virus\Hepadnavirus
+studi-veterinari\virus\Retrovirus
+studi-veterinari\virus\Paramyxovirus
+acque-reflue\virus\Adenovirus
+acque-reflue\virus\Enterovirus
+acque-reflue\virus\Norovirus
+acque-reflue\virus\Rotavirus
+acque-reflue\virus\Hepatitis A Virus
+acque-reflue\virus\Hepatitis E Virus
+acque-reflue\virus\Astrovirus
+acque-reflue\virus\Sapovirus
+acque-reflue\virus\Poliovirus
+acque-reflue\virus\Coronavirus
+acque-potabili\virus\Orthopoxvirus
+acque-potabili\virus\Norovirus
+acque-potabili\virus\Sapovirus
+acque-potabili\virus\Adenovirus
+acque-potabili\virus\Enterovirus
+acque-potabili\virus\Hepatitis A Virus
+acque-potabili\virus\Hepatitis E Virus
+acque-potabili\virus\Rotavirus
+acque-potabili\virus\Astrovirus
+acque-potabili\virus\Parvovirus
+rifiuti-solidi\virus\Orthopoxvirus
+rifiuti-solidi\virus\RNA virus
+rifiuti-solidi\virus\Hepatitis B virus
+rifiuti-solidi\virus\Hepatitis C virus
+rifiuti-solidi\virus\Human immunodeficiency virus 1
+rifiuti-solidi\virus\Human immunodeficiency virus 2
+rifiuti-solidi\virus\Herpes simplex virus 1
+rifiuti-solidi\virus\Herpes simplex virus 2
+rifiuti-solidi\virus\Human papillomavirus
+rifiuti-solidi\virus\SARS-CoV-2
+impianti-di-smaltimento-rifiuti-comune\virus\Orthopoxvirus
+impianti-di-smaltimento-rifiuti-comune\virus\Morbillivirus
+impianti-di-smaltimento-rifiuti-comune\virus\Rubivirus
+impianti-di-smaltimento-rifiuti-comune\virus\Coronaviridae
+impianti-di-smaltimento-rifiuti-comune\virus\Poliovirus
+impianti-di-smaltimento-rifiuti-comune\virus\Coxsackievirus
+impianti-di-smaltimento-rifiuti-comune\virus\Echovirus
+impianti-di-smaltimento-rifiuti-comune\virus\Hepatitis A Virus
+impianti-di-smaltimento-rifiuti-comune\virus\Hepatitis E Virus
+impianti-di-smaltimento-rifiuti-comune\virus\Norovirus
+impianti-di-smaltimento-rifiuti-pericolosi\virus\HIV-1
+impianti-di-smaltimento-rifiuti-pericolosi\virus\HIV-2
+impianti-di-smaltimento-rifiuti-pericolosi\virus\HBV
+impianti-di-smaltimento-rifiuti-pericolosi\virus\HCV
+impianti-di-smaltimento-rifiuti-pericolosi\virus\HPV
+impianti-di-smaltimento-rifiuti-pericolosi\virus\HSV-1
+impianti-di-smaltimento-rifiuti-pericolosi\virus\HSV-2
+impianti-di-smaltimento-rifiuti-pericolosi\virus\SARS-CoV
+impianti-di-smaltimento-rifiuti-pericolosi\virus\MERS-CoV
+impianti-di-smaltimento-rifiuti-pericolosi\virus\Ebola virus
+suoli-inquinati\virus\Adenovirus
+suoli-inquinati\virus\Astrovirus
+suoli-inquinati\virus\Calicivirus
+suoli-inquinati\virus\Coronavirus
+suoli-inquinati\virus\Hepatitis A Virus
+suoli-inquinati\virus\Norovirus
+suoli-inquinati\virus\Papillomavirus
+suoli-inquinati\virus\Polyomavirus
+suoli-inquinati\virus\Reovirus
+suoli-inquinati\virus\Rotavirus
+discariche\virus\Orthopoxvirus
+discariche\virus\Hantavirus
+discariche\virus\Arenavirus
+discariche\virus\Flavivirus
+discariche\virus\Alphavirus
+discariche\virus\Bunyavirus
+discariche\virus\Filovirus
+discariche\virus\Reovirus
+discariche\virus\Togavirus
+discariche\virus\Paramyxovirus
+serre\virus\Orthopoxvirus
+serre\virus\Flavivirus
+serre\virus\Alphavirus
+serre\virus\Hantavirus
+serre\virus\Bunyavirus
+serre\virus\Arenavirus
+serre\virus\Filovirus
+serre\virus\Coronaviridae
+serre\virus\Paramyxoviridae
+serre\virus\Rhabdoviridae
+coltivazioni\virus\Orthopoxvirus
+coltivazioni\virus\Virus dell'influenza A
+coltivazioni\virus\Virus Ebola
+coltivazioni\virus\Virus Marburg
+coltivazioni\virus\Virus della rabbia
+coltivazioni\virus\Virus della febbre gialla
+coltivazioni\virus\Virus Zika
+coltivazioni\virus\Virus Dengue
+coltivazioni\virus\Virus dell'HIV-1
+coltivazioni\virus\Virus Hantavirus
+impianti-di-compostaggio\virus\Orthopoxvirus
+impianti-di-compostaggio\virus\Vaccinia virus
+impianti-di-compostaggio\virus\Variola virus
+impianti-di-compostaggio\virus\Monkeypox virus
+impianti-di-compostaggio\virus\Ebolavirus
+impianti-di-compostaggio\virus\Marburgvirus
+impianti-di-compostaggio\virus\Lassa mammarenvirus
+impianti-di-compostaggio\virus\Hantavirus
+impianti-di-compostaggio\virus\Nipah henipavirus
+impianti-di-compostaggio\virus\Hendra henipavirus
+industria-biologica\virus\Virus dell'HIV-1
+industria-biologica\virus\Virus dell'HIV-2
+industria-biologica\virus\Virus dell'HBV
+industria-biologica\virus\Virus dell'HCV
+industria-biologica\virus\Virus della SARS
+industria-biologica\virus\Virus della MERS
+industria-biologica\virus\Virus dell'Ebola
+industria-biologica\virus\Virus della Zika
+industria-biologica\virus\Virus dell'HPV
+industria-biologica\virus\Virus della poliomielite
+industria-oleochimica\virus\Orbivirus
+industria-oleochimica\virus\Coltivirus
+industria-oleochimica\virus\Alphavirus
+industria-oleochimica\virus\Flavivirus
+industria-oleochimica\virus\Hantavirus
+industria-oleochimica\virus\Bunyavirus
+industria-oleochimica\virus\Arenavirus
+industria-oleochimica\virus\Filovirus
+industria-oleochimica\virus\Paramyxovirus
+industria-oleochimica\virus\Orthomyxovirus
+industria-della-panificazione\virus\Orthopoxvirus
+industria-della-panificazione\virus\Norovirus
+industria-della-panificazione\virus\Rotavirus
+industria-della-panificazione\virus\Astrovirus
+industria-della-panificazione\virus\Adenovirus
+industria-della-panificazione\virus\Hepatitis A Virus
+industria-della-panificazione\virus\Sapovirus
+industria-della-panificazione\virus\Coronavirus
+industria-della-panificazione\virus\Influenzavirus
+industria-della-panificazione\virus\Parvovirus B19
+industria-dolciaria\virus\Norovirus
+industria-dolciaria\virus\Rotavirus
+industria-dolciaria\virus\Hepatitis A Virus
+industria-dolciaria\virus\Norwalk virus
+industria-dolciaria\virus\Sapovirus
+industria-dolciaria\virus\Astrovirus
+industria-dolciaria\virus\Adenovirus
+industria-dolciaria\virus\Bocavirus
+industria-dolciaria\virus\Coronavirus
+industria-dolciaria\virus\Influenza virus
+industria-degli-snack\virus\Norovirus
+industria-degli-snack\virus\Rotavirus
+industria-degli-snack\virus\Hepatitis A Virus
+industria-degli-snack\virus\Shigella
+industria-degli-snack\virus\Salmonella
+industria-degli-snack\virus\Listeria monocytogenes
+industria-degli-snack\virus\Staphylococcus aureus
+industria-degli-snack\virus\Escherichia coli
+industria-degli-snack\virus\Campylobacter
+industria-degli-snack\virus\Hepatitis E Virus
+industria-degli-alimenti-confezionati\virus\Norovirus
+industria-degli-alimenti-confezionati\virus\Rotavirus
+industria-degli-alimenti-confezionati\virus\Hepatitis A Virus
+industria-degli-alimenti-confezionati\virus\Sapovirus
+industria-degli-alimenti-confezionati\virus\Astrovirus
+industria-degli-alimenti-confezionati\virus\Aichivirus
+industria-degli-alimenti-confezionati\virus\Enterovirus
+industria-degli-alimenti-confezionati\virus\Parechovirus
+industria-degli-alimenti-confezionati\virus\Bocavirus
+industria-degli-alimenti-confezionati\virus\Coronavirus
+industria-delle-bevande\virus\Norovirus
+industria-delle-bevande\virus\Rotavirus
+industria-delle-bevande\virus\Hepatitis A Virus
+industria-delle-bevande\virus\Hepatitis E Virus
+industria-delle-bevande\virus\Norwalk virus
+industria-delle-bevande\virus\Sapovirus
+industria-delle-bevande\virus\Astrovirus
+industria-delle-bevande\virus\Adenovirus
+industria-delle-bevande\virus\Enterovirus
+industria-delle-bevande\virus\Hepatitis B Virus
+industria-degli-alimenti-per-animali\virus\Orthopoxvirus simiae
+industria-degli-alimenti-per-animali\virus\Virus Ebola
+industria-degli-alimenti-per-animali\virus\Virus Marburg
+industria-degli-alimenti-per-animali\virus\Virus Norovirus umano
+industria-degli-alimenti-per-animali\virus\Virus Hepatitis A
+industria-degli-alimenti-per-animali\virus\Virus Hepatitis E
+industria-degli-alimenti-per-animali\virus\Virus Rotavirus umano
+industria-degli-alimenti-per-animali\virus\Virus Astrovirus umano
+industria-degli-alimenti-per-animali\virus\Virus Sapovirus umano
+industria-degli-alimenti-per-animali\virus\Coronavirus umano
+industria-degli-alimenti-per-l-infanzia\virus\Rotavirus A
+industria-degli-alimenti-per-l-infanzia\virus\Norovirus
+industria-degli-alimenti-per-l-infanzia\virus\Astrovirus
+industria-degli-alimenti-per-l-infanzia\virus\Sapovirus
+industria-degli-alimenti-per-l-infanzia\virus\Adenovirus
+industria-degli-alimenti-per-l-infanzia\virus\Enterovirus
+industria-degli-alimenti-per-l-infanzia\virus\Coronavirus
+industria-degli-alimenti-per-l-infanzia\virus\Hepatitis A Virus
+industria-degli-alimenti-per-l-infanzia\virus\Reovirus
+industria-degli-alimenti-per-l-infanzia\virus\Parvovirus B19

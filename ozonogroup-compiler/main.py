@@ -1054,7 +1054,7 @@ def gen_pagina_guide():
     for row in rows:
         try: articles_dict[row[2]].append([row[0], row[1]])
         except: articles_dict[row[2]] = [[row[0], row[1]]]
-    
+
     articles = ''
     for key, values in articles_dict.items():
         articles_curr = ''
@@ -1074,7 +1074,6 @@ def gen_pagina_guide():
                     <h2 class="text-center mb-16">Sanificazione ozono per il settore: {key.title()}</h2>
                     <p class="text-center mb-48">Scopri dove l'ozono può essere applicato per eliminare una vasta gamma di
                         patogeni, odori e altri contaminanti.</p>
-
                     <div class="grid-3">
                         {articles_curr}
                     </div>
@@ -1084,7 +1083,7 @@ def gen_pagina_guide():
 
 
     content = content.replace('[articles]', articles)
-    
+
     util.file_write('public/guide.html', content)
 
 
@@ -1101,6 +1100,7 @@ gen_articles_html()
 shutil.copy2('missione.html', 'public/missione.html')
 shutil.copy2('contatti.html', 'public/contatti.html')
 shutil.copy2('index.html', 'public/index.html')
+shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 gen_pagina_guide()
 
 shutil.copy2('style.css', 'public/style.css')

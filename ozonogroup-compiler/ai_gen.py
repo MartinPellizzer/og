@@ -1,5 +1,6 @@
 import time
 import re
+import os
 
 import util
 import util_ai
@@ -84,26 +85,6 @@ def ai_problems_csv():
 #####################################################################################
 # SINGLE APPLICATION
 #####################################################################################
-
-
-def ai_problems_mix_csv(row):
-    pass
-    # prompt = f'''
-    #     Scrivi in italiano 5 liste.
-    #     Nella lista 1, scrivi i nomi dei 10 batteri più presenti {application_a_1}{application_name.lower()}.
-    #     Nella lista 2, scrivi i nomi dei 10 virus più presenti {application_a_1}{application_name.lower()}.
-    #     Nella lista 3, scrivi i nomi delle 10 muffe più presenti {application_a_1}{application_name.lower()}.
-    #     Nella lista 4, scrivi i nomi dei 10 insetti più presenti {application_a_1}{application_name.lower()}.
-    #     Nella lista 5, scrivi i nomi dei 10 odori indesiderati più presenti {application_a_1}{application_name.lower()}.
-    #     Lista solo i nomi, non aggiungere descrizioni.
-    #     Aggiungi un titolo per ogni ogni lista.
-    # '''
-    # reply = util_ai.gen_reply(prompt)
-    # reply = reply.strip()
-    # time.sleep(30)
-    
-
-
 
 
 def ai_batteri_csv(row):
@@ -316,104 +297,104 @@ def ai_odori_csv(row):
 
 
 
-def batteri_to_json(row):
-    problem_name = 'batteri'
-    application_name = row[0].strip()
-    application_a_1 = row[1]
-    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+# def batteri_to_json(row):
+#     problem_name = 'batteri'
+#     application_name = row[0].strip()
+#     application_a_1 = row[1]
+#     application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
 
-    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
-    csv_rows = []
-    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
-    except: util.csv_add_rows(filepath, [])
-    if csv_rows == []: return
+#     filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+#     csv_rows = []
+#     try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+#     except: util.csv_add_rows(filepath, [])
+#     if csv_rows == []: return
 
-    problems = [csv_row[2] for csv_row in csv_rows]
+#     problems = [csv_row[2] for csv_row in csv_rows]
 
-    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
-    data = util.json_read(filepath)
-    data[f'problemi_{problem_name}'] = problems
-    util.json_write(filepath, data)
-
-
-def virus_to_json(row):
-    problem_name = 'virus'
-    application_name = row[0].strip()
-    application_a_1 = row[1]
-    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
-
-    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
-    csv_rows = []
-    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
-    except: util.csv_add_rows(filepath, [])
-    if csv_rows == []: return
-
-    problems = [csv_row[2] for csv_row in csv_rows]
-
-    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
-    data = util.json_read(filepath)
-    data[f'problemi_{problem_name}'] = problems
-    util.json_write(filepath, data)
+#     filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+#     data = util.json_read(filepath)
+#     data[f'problemi_{problem_name}'] = problems
+#     util.json_write(filepath, data)
 
 
-def muffe_to_json(row):
-    problem_name = 'muffe'
-    application_name = row[0].strip()
-    application_a_1 = row[1]
-    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+# def virus_to_json(row):
+#     problem_name = 'virus'
+#     application_name = row[0].strip()
+#     application_a_1 = row[1]
+#     application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
 
-    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
-    csv_rows = []
-    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
-    except: util.csv_add_rows(filepath, [])
-    if csv_rows == []: return
+#     filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+#     csv_rows = []
+#     try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+#     except: util.csv_add_rows(filepath, [])
+#     if csv_rows == []: return
 
-    problems = [csv_row[2] for csv_row in csv_rows]
+#     problems = [csv_row[2] for csv_row in csv_rows]
 
-    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
-    data = util.json_read(filepath)
-    data[f'problemi_{problem_name}'] = problems
-    util.json_write(filepath, data)
-
-
-def insetti_to_json(row):
-    problem_name = 'insetti'
-    application_name = row[0].strip()
-    application_a_1 = row[1]
-    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
-
-    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
-    csv_rows = []
-    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
-    except: util.csv_add_rows(filepath, [])
-    if csv_rows == []: return
-
-    problems = [csv_row[2] for csv_row in csv_rows]
-
-    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
-    data = util.json_read(filepath)
-    data[f'problemi_{problem_name}'] = problems
-    util.json_write(filepath, data)
+#     filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+#     data = util.json_read(filepath)
+#     data[f'problemi_{problem_name}'] = problems
+#     util.json_write(filepath, data)
 
 
-def odori_to_json(row):
-    problem_name = 'odori'
-    application_name = row[0].strip()
-    application_a_1 = row[1]
-    application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+# def muffe_to_json(row):
+#     problem_name = 'muffe'
+#     application_name = row[0].strip()
+#     application_a_1 = row[1]
+#     application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
 
-    filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
-    csv_rows = []
-    try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
-    except: util.csv_add_rows(filepath, [])
-    if csv_rows == []: return
+#     filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+#     csv_rows = []
+#     try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+#     except: util.csv_add_rows(filepath, [])
+#     if csv_rows == []: return
 
-    problems = [csv_row[2] for csv_row in csv_rows]
+#     problems = [csv_row[2] for csv_row in csv_rows]
 
-    filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
-    data = util.json_read(filepath)
-    data[f'problemi_{problem_name}'] = problems
-    util.json_write(filepath, data)
+#     filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+#     data = util.json_read(filepath)
+#     data[f'problemi_{problem_name}'] = problems
+#     util.json_write(filepath, data)
+
+
+# def insetti_to_json(row):
+#     problem_name = 'insetti'
+#     application_name = row[0].strip()
+#     application_a_1 = row[1]
+#     application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+#     filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+#     csv_rows = []
+#     try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+#     except: util.csv_add_rows(filepath, [])
+#     if csv_rows == []: return
+
+#     problems = [csv_row[2] for csv_row in csv_rows]
+
+#     filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+#     data = util.json_read(filepath)
+#     data[f'problemi_{problem_name}'] = problems
+#     util.json_write(filepath, data)
+
+
+# def odori_to_json(row):
+#     problem_name = 'odori'
+#     application_name = row[0].strip()
+#     application_a_1 = row[1]
+#     application_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+#     filepath = f'database/tables/applicazioni-problemi-{problem_name}.csv'
+#     csv_rows = []
+#     try: csv_rows = util.csv_get_rows_by_entity(filepath, application_name_dash)
+#     except: util.csv_add_rows(filepath, [])
+#     if csv_rows == []: return
+
+#     problems = [csv_row[2] for csv_row in csv_rows]
+
+#     filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+#     data = util.json_read(filepath)
+#     data[f'problemi_{problem_name}'] = problems
+#     util.json_write(filepath, data)
 
 
 
@@ -828,23 +809,24 @@ def ai_applications_main():
     filepath = 'database/tables/applications.csv'
     rows = util.csv_get_rows(filepath)[1:]
     for i, row in enumerate(rows):
-        print(f'{i+1}/{len(rows)}')
+        print(f'{i+1}/{len(rows)} >>>> {row[0].strip()} | {row[2].strip()}')
+        application_name = row[0].strip()
+        apllication_name_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+
+        if not os.path.exists(f'articles/public/ozono/sanificazione/applicazioni/{apllication_name_dash}.json'):
+            with open(f'articles/public/ozono/sanificazione/applicazioni/{apllication_name_dash}.json', 'a', encoding='utf-8') as f:
+                f.write('')
+
         # ai_batteri_csv(row)
         # ai_virus_csv(row)
         # ai_muffe_csv(row)
         # ai_insetti_csv(row)
-        ai_odori_csv(row)
-
-        # batteri_to_json(row)
-        # virus_to_json(row)
-        # muffe_to_json(row)
-        # insetti_to_json(row)
-        odori_to_json(row)
+        # ai_odori_csv(row)
 
         # ai_benefici_csv(row)
         
-        # ai_intro_1(row)
-        # ai_intro_2(row)
+        ai_intro_1(row)
+        ai_intro_2(row)
         # ai_definition(row)
         # ai_problems_text(row)
         # ai_problems_list(row)

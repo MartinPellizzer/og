@@ -356,3 +356,431 @@ navi\odori\Muffa
 navi\odori\Sudore
 navi\odori\Sporco
 navi\odori\Rifiuti
+farmacie\odori\Solventi
+farmacie\odori\Disinfettanti
+farmacie\odori\Smalto per unghie
+farmacie\odori\Medicinali
+farmacie\odori\Integratori alimentari
+farmacie\odori\Shampoo medicati
+farmacie\odori\Creme medicinali
+farmacie\odori\Colliri
+farmacie\odori\Supposte
+farmacie\odori\Pesticidi
+cliniche\odori\Disinfettante
+cliniche\odori\Medicinale
+cliniche\odori\Urina
+cliniche\odori\Feci
+cliniche\odori\Vomito
+cliniche\odori\Sangue
+cliniche\odori\Sudore
+cliniche\odori\Smog o inquinamento
+cliniche\odori\Muffa
+cliniche\odori\Candeggina
+ambulatori\odori\Disinfettante
+ambulatori\odori\Antisettico
+ambulatori\odori\Sudore
+ambulatori\odori\Smalto per unghie
+ambulatori\odori\Urina
+ambulatori\odori\Feci
+ambulatori\odori\Vomito
+ambulatori\odori\Muffa
+ambulatori\odori\Gas intestinali
+ambulatori\odori\Cattivo respiro
+laboratori-medici\odori\Disinfettante
+laboratori-medici\odori\Formaldeide
+laboratori-medici\odori\Ammoniaca
+laboratori-medici\odori\Medicinale
+laboratori-medici\odori\Eteri
+laboratori-medici\odori\Sangue
+laboratori-medici\odori\Urina
+laboratori-medici\odori\Feci
+laboratori-medici\odori\Sudore
+laboratori-medici\odori\Muffa
+sale-operatorie\odori\Disinfettante
+sale-operatorie\odori\Carne bruciata
+sale-operatorie\odori\Sangue
+sale-operatorie\odori\Sudore
+sale-operatorie\odori\Gas intestinali
+sale-operatorie\odori\Feci
+sale-operatorie\odori\Bruciato
+sale-operatorie\odori\Vomito
+sale-operatorie\odori\Muffa
+sale-operatorie\odori\Urina
+reparti-di-degenza\odori\Sudore
+reparti-di-degenza\odori\Urina
+reparti-di-degenza\odori\Feci
+reparti-di-degenza\odori\Vomito
+reparti-di-degenza\odori\Gas intestinali
+reparti-di-degenza\odori\Espettorato
+reparti-di-degenza\odori\Pus
+reparti-di-degenza\odori\Sangue
+reparti-di-degenza\odori\Cattivo respiro
+reparti-di-degenza\odori\Smog o fumo di sigaretta residuo.
+reparti-di-terapia-intensiva\odori\Disinfettante
+reparti-di-terapia-intensiva\odori\Urina
+reparti-di-terapia-intensiva\odori\Feci
+reparti-di-terapia-intensiva\odori\Sudore
+reparti-di-terapia-intensiva\odori\Sangue
+reparti-di-terapia-intensiva\odori\Pus
+reparti-di-terapia-intensiva\odori\Cattivo respiro
+reparti-di-terapia-intensiva\odori\Vomito
+reparti-di-terapia-intensiva\odori\Materiale di medicazione
+reparti-di-terapia-intensiva\odori\Candeggina
+centri-di-dialisi\odori\disinfezione
+centri-di-dialisi\odori\urina
+centri-di-dialisi\odori\feci
+centri-di-dialisi\odori\sudore
+centri-di-dialisi\odori\vomito
+centri-di-dialisi\odori\infezione
+centri-di-dialisi\odori\medicinali
+centri-di-dialisi\odori\smaltimento dei rifiuti
+centri-di-dialisi\odori\muffa
+centri-di-dialisi\odori\cibo avariato
+centri-di-riabilitazione\odori\Sudore
+centri-di-riabilitazione\odori\Urina
+centri-di-riabilitazione\odori\Feci
+centri-di-riabilitazione\odori\Vomito
+centri-di-riabilitazione\odori\Smog
+centri-di-riabilitazione\odori\Smog di plastica
+centri-di-riabilitazione\odori\Cattivo respiro
+centri-di-riabilitazione\odori\Piedi puzzolenti
+centri-di-riabilitazione\odori\Muffa
+centri-di-riabilitazione\odori\Disinfettanti forti
+sale-di-attesa\odori\Fumo di sigaretta
+sale-di-attesa\odori\Trasudazione
+sale-di-attesa\odori\Urina
+sale-di-attesa\odori\Gas di scarico
+sale-di-attesa\odori\Smog
+sale-di-attesa\odori\Cibo bruciato
+sale-di-attesa\odori\Sporcizia
+sale-di-attesa\odori\Smalti per unghie
+sale-di-attesa\odori\Profumi forti.
+sale-di-attesa\odori\Sudore
+impianti-idraulici\odori\Muffa
+impianti-idraulici\odori\Marcescenza
+impianti-idraulici\odori\Gas di scarico
+impianti-idraulici\odori\Puzza di fogna
+impianti-idraulici\odori\Sudiciume
+impianti-idraulici\odori\Ristagno
+impianti-idraulici\odori\Ruggine
+impianti-idraulici\odori\Compost
+impianti-idraulici\odori\Drenaggio ostruito
+impianti-idraulici\odori\Acqua stagnante
+impianti-di-climatizzazione\odori\Muffa
+impianti-di-climatizzazione\odori\Marcescenza
+impianti-di-climatizzazione\odori\Fumo
+impianti-di-climatizzazione\odori\Gas di scarico
+impianti-di-climatizzazione\odori\Draino o fogna
+impianti-di-climatizzazione\odori\Sudore
+impianti-di-climatizzazione\odori\Immondizia
+impianti-di-climatizzazione\odori\Bruciato
+impianti-di-climatizzazione\odori\Gas naturale
+impianti-di-climatizzazione\odori\Chimico o plastica bruciata
+ascensori\odori\Sudore
+ascensori\odori\Fumo di sigaretta
+ascensori\odori\Scarpe puzzolenti
+ascensori\odori\Cibo bruciato
+ascensori\odori\Muffa
+ascensori\odori\Drani acidi
+ascensori\odori\Profumo pesante
+ascensori\odori\Smog cittadino
+ascensori\odori\Gas di scarico
+ascensori\odori\Urina
+scale\odori\Muffa
+scale\odori\Smog
+scale\odori\Immondizia
+scale\odori\Fumo di sigaretta
+scale\odori\Sudore
+scale\odori\Urina
+scale\odori\Scarico di scarico
+scale\odori\Verdura deteriorata
+scale\odori\Benzina
+scale\odori\Gas di scarico
+impianti-elettrici\odori\Bruciato
+impianti-elettrici\odori\Plastica sciolta
+impianti-elettrici\odori\Muffa
+impianti-elettrici\odori\Gas di scarico
+impianti-elettrici\odori\Fumo
+impianti-elettrici\odori\Gas naturale
+impianti-elettrici\odori\Elettricità statica
+impianti-elettrici\odori\Cannabis
+impianti-elettrici\odori\Circuito overheated
+cortili\odori\Immondizia
+cortili\odori\Muffa
+cortili\odori\Urina
+cortili\odori\Benzina
+cortili\odori\Verde spento
+cortili\odori\Sudore
+cortili\odori\Fumo di sigaretta
+cortili\odori\Fast food
+cortili\odori\Smog/Inquinamento
+parcheggi\odori\Benzina
+parcheggi\odori\Olio di motore
+parcheggi\odori\Gomma bruciata
+parcheggi\odori\Smog
+parcheggi\odori\Immondizia
+parcheggi\odori\Urina
+parcheggi\odori\Fumo di sigaretta
+parcheggi\odori\Sudore
+parcheggi\odori\Gas di scarico
+parcheggi\odori\Muffa
+taxi\odori\Fumo di sigaretta
+taxi\odori\Sudore
+taxi\odori\Cibo grasso o unto
+taxi\odori\Profumo pesante o acre
+taxi\odori\Alcol
+taxi\odori\Urina
+taxi\odori\Trasudore di plastica o pelle bruciata
+taxi\odori\Muffa
+taxi\odori\Gas di scarico
+taxi\odori\Spray per deodoranti forti o aerosol
+trasporto-merci\odori\Zolfo
+trasporto-merci\odori\Gasolio
+trasporto-merci\odori\Muffa
+trasporto-merci\odori\Pneumatici bruciati
+trasporto-merci\odori\Scarico dei rifiuti
+trasporto-merci\odori\Gas di scarico
+trasporto-merci\odori\Ammoniaca
+trasporto-merci\odori\Muffa marcia
+trasporto-merci\odori\Rottami metallici arrugginiti
+trasporto-merci\odori\Fognature
+metropolitane\odori\Sudore
+metropolitane\odori\Smog
+metropolitane\odori\Immondizia
+metropolitane\odori\Scarico dei veicoli
+metropolitane\odori\Urina
+metropolitane\odori\Fast food
+metropolitane\odori\Muffa
+metropolitane\odori\Fumo di sigaretta
+metropolitane\odori\Bevande alcoliche
+metropolitane\odori\Deodoranti forti
+furgoni\odori\Sudore
+furgoni\odori\Gas di scarico
+furgoni\odori\Fast food
+furgoni\odori\Smog
+furgoni\odori\Muffa
+furgoni\odori\Rifiuti
+furgoni\odori\Benzina
+furgoni\odori\Olio di motore
+furgoni\odori\Smog chimico
+furgoni\odori\Fumo di sigaretta
+camion\odori\Gas di scarico
+camion\odori\Olio combustionato
+camion\odori\Sudiciume
+camion\odori\Muffa
+camion\odori\Fumo di sigaretta
+camion\odori\Cibo avariato
+camion\odori\Orina
+camion\odori\Sudore
+camion\odori\Sporco dei pneumatici
+camion\odori\Benzina
+studi-dentistici\odori\Smalto per unghie
+studi-dentistici\odori\Cavità orale
+studi-dentistici\odori\Disinfettante
+studi-dentistici\odori\Amalgama
+studi-dentistici\odori\Fluoruro
+studi-dentistici\odori\Gomma da masticare
+studi-dentistici\odori\Antisettico
+studi-dentistici\odori\Lacca per capelli
+studi-dentistici\odori\Profumo forte
+studi-dentistici\odori\Fumo di sigaretta
+studi-veterinari\odori\Disinfettante
+studi-veterinari\odori\Medicinale
+studi-veterinari\odori\Urina
+studi-veterinari\odori\Feci
+studi-veterinari\odori\Vomito
+studi-veterinari\odori\Esubrance animale
+studi-veterinari\odori\Pelle morta
+studi-veterinari\odori\Pelo animale
+studi-veterinari\odori\Muffa
+studi-veterinari\odori\Gas intestinali animali
+acque-reflue\odori\Muffa
+acque-reflue\odori\Gas di scarico
+acque-reflue\odori\Puzza di fogna
+acque-reflue\odori\Ammoniaca
+acque-reflue\odori\Putrefazione
+acque-reflue\odori\Idrocarburi
+acque-reflue\odori\Zolfo
+acque-reflue\odori\Gas naturale
+acque-reflue\odori\Chimico
+acque-reflue\odori\Mercaptani
+acque-potabili\odori\Cloro
+acque-potabili\odori\Muffa
+acque-potabili\odori\Metallo
+acque-potabili\odori\Terra
+acque-potabili\odori\Rifiuti
+acque-potabili\odori\Fango
+acque-potabili\odori\Pesce
+acque-potabili\odori\Detergente
+acque-potabili\odori\Gas
+acque-potabili\odori\Farmaci
+rifiuti-solidi\odori\gas rancido
+rifiuti-solidi\odori\spazzatura putrida
+rifiuti-solidi\odori\decomposizione
+rifiuti-solidi\odori\muffa
+rifiuti-solidi\odori\cibo avariato
+rifiuti-solidi\odori\fognature
+rifiuti-solidi\odori\feci
+rifiuti-solidi\odori\sudore
+rifiuti-solidi\odori\urina
+rifiuti-solidi\odori\liquami
+impianti-di-smaltimento-rifiuti-comune\odori\Decadimento organico
+impianti-di-smaltimento-rifiuti-comune\odori\Gas di discarica
+impianti-di-smaltimento-rifiuti-comune\odori\Muffa
+impianti-di-smaltimento-rifiuti-comune\odori\Ammoniaca
+impianti-di-smaltimento-rifiuti-comune\odori\Zolfo
+impianti-di-smaltimento-rifiuti-comune\odori\Pneumatici bruciati
+impianti-di-smaltimento-rifiuti-comune\odori\Smaltimento di solventi
+impianti-di-smaltimento-rifiuti-comune\odori\Rifiuti medici
+impianti-di-smaltimento-rifiuti-comune\odori\Compostaggio
+impianti-di-smaltimento-rifiuti-comune\odori\Metano
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Ammoniaca
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Benzene
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Metano
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Acido cloridrico
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Formaldeide
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Acido solfidrico
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Idrogeno solforato
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Mercaptanio
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Acido nitrico
+impianti-di-smaltimento-rifiuti-pericolosi\odori\Acido fluoridrico
+suoli-inquinati\odori\Idrocarburi aromatici
+suoli-inquinati\odori\Benzene
+suoli-inquinati\odori\Toluene
+suoli-inquinati\odori\Etilbenzene
+suoli-inquinati\odori\Xylene
+suoli-inquinati\odori\Metano
+suoli-inquinati\odori\Tricloroetilene
+suoli-inquinati\odori\Tetracloruro di carbonio
+suoli-inquinati\odori\Ammoniaca
+suoli-inquinati\odori\Idrogeno solforato
+discariche\odori\Decadimento
+discariche\odori\Muffa
+discariche\odori\Gas di discarica
+discariche\odori\Ammoniaca
+discariche\odori\Sudore
+discariche\odori\Escrementi
+discariche\odori\Urina
+discariche\odori\Cannabis bruciata
+discariche\odori\Rottura dei rifiuti organici
+discariche\odori\Smog chimico
+serre\odori\Gas di serra
+serre\odori\Pesticidi
+serre\odori\Fertilizzanti
+serre\odori\Muffa
+serre\odori\Marciume
+serre\odori\Sudore
+serre\odori\Plastica
+serre\odori\Rifiuti
+serre\odori\Benzina
+serre\odori\Olio di motore
+coltivazioni\odori\Gas naturale
+coltivazioni\odori\Muffa
+coltivazioni\odori\Diserbanti
+coltivazioni\odori\Pesticidi
+coltivazioni\odori\Fertilizzanti chimici
+coltivazioni\odori\Pneumatici bruciati
+coltivazioni\odori\Scarico dei rifiuti
+coltivazioni\odori\Sudore
+coltivazioni\odori\Smog
+coltivazioni\odori\Smaltimento di petrolio
+impianti-di-compostaggio\odori\Ammoniaca
+impianti-di-compostaggio\odori\Idrogeno solforato
+impianti-di-compostaggio\odori\Metano
+impianti-di-compostaggio\odori\Dimetil solfuro
+impianti-di-compostaggio\odori\Dimetil disolfuro
+impianti-di-compostaggio\odori\Trimetilamina
+impianti-di-compostaggio\odori\Indolo
+impianti-di-compostaggio\odori\Skatolo
+impianti-di-compostaggio\odori\Fenolo
+impianti-di-compostaggio\odori\Butanoati e altri esteri acidi volatili
+industria-biologica\odori\Idrocarburi aromatici
+industria-biologica\odori\Mercaptani
+industria-biologica\odori\Ammine
+industria-biologica\odori\Aldeidi
+industria-biologica\odori\Chetoni
+industria-biologica\odori\Acidi grassi volatili
+industria-biologica\odori\Terpeni
+industria-biologica\odori\Indoli
+industria-biologica\odori\Scatolo
+industria-biologica\odori\Putrescina
+industria-oleochimica\odori\Idrocarburi
+industria-oleochimica\odori\Mercaptanhi
+industria-oleochimica\odori\Aldeidi
+industria-oleochimica\odori\Chetoni
+industria-oleochimica\odori\Ammine
+industria-oleochimica\odori\Composti solfurei
+industria-oleochimica\odori\Terpeni
+industria-oleochimica\odori\Alcoli grassi
+industria-oleochimica\odori\Esteri
+industria-oleochimica\odori\Composti clorurati
+industria-della-panificazione\odori\Trichloroanisole
+industria-della-panificazione\odori\Isovaleraniaceto
+industria-della-panificazione\odori\Pentano
+industria-della-panificazione\odori\Esaniolo
+industria-della-panificazione\odori\Butano diidrogenato
+industria-della-panificazione\odori\Dimetilsulfuro
+industria-della-panificazione\odori\Dimetildisolfuro
+industria-della-panificazione\odori\Acido isovalerico
+industria-della-panificazione\odori\2-nonen-1-olo
+industria-della-panificazione\odori\2-esil-2-metossifenolo
+industria-dolciaria\odori\Formaldeide
+industria-dolciaria\odori\Fenolo
+industria-dolciaria\odori\Indolo
+industria-dolciaria\odori\Skatolo
+industria-dolciaria\odori\Putrescina
+industria-dolciaria\odori\Cadmio
+industria-dolciaria\odori\Mercurio
+industria-dolciaria\odori\Antimonio
+industria-dolciaria\odori\Piombo
+industria-dolciaria\odori\Idrogeno solforato
+industria-degli-snack\odori\Muffa
+industria-degli-snack\odori\Detergenti chimici
+industria-degli-snack\odori\Pneumatici bruciati
+industria-degli-snack\odori\Smalto per unghie
+industria-degli-snack\odori\Pittura
+industria-degli-snack\odori\Gas di scarico
+industria-degli-snack\odori\Smog
+industria-degli-snack\odori\Sudore
+industria-degli-snack\odori\Drain-o
+industria-degli-snack\odori\Fumo di sigaretta
+industria-degli-alimenti-confezionati\odori\muffa
+industria-degli-alimenti-confezionati\odori\gas naturale
+industria-degli-alimenti-confezionati\odori\pesce marcio
+industria-degli-alimenti-confezionati\odori\sporcizia
+industria-degli-alimenti-confezionati\odori\naftalina
+industria-degli-alimenti-confezionati\odori\vomito
+industria-degli-alimenti-confezionati\odori\fumo di sigaretta
+industria-degli-alimenti-confezionati\odori\sudorazione dei piedi
+industria-degli-alimenti-confezionati\odori\putrefazione
+industria-degli-alimenti-confezionati\odori\sudore
+industria-delle-bevande\odori\Skatole
+industria-delle-bevande\odori\Indolo
+industria-delle-bevande\odori\Putrescina
+industria-delle-bevande\odori\Cadaverina
+industria-delle-bevande\odori\Mercaptani
+industria-delle-bevande\odori\Dimetilsulfuro
+industria-delle-bevande\odori\Dimetildisolfuro
+industria-delle-bevande\odori\Isovaleriani
+industria-delle-bevande\odori\Geosmina
+industria-delle-bevande\odori\Pentenoni
+industria-degli-alimenti-per-animali\odori\Ammoniaca
+industria-degli-alimenti-per-animali\odori\Mercaptani
+industria-degli-alimenti-per-animali\odori\Di solfuro di idrogeno
+industria-degli-alimenti-per-animali\odori\Indolo
+industria-degli-alimenti-per-animali\odori\Skatole
+industria-degli-alimenti-per-animali\odori\Putrescina
+industria-degli-alimenti-per-animali\odori\Cadaverina
+industria-degli-alimenti-per-animali\odori\Geosmina
+industria-degli-alimenti-per-animali\odori\Putreseca
+industria-degli-alimenti-per-animali\odori\Ipoxantina
+industria-degli-alimenti-per-l-infanzia\odori\muffa
+industria-degli-alimenti-per-l-infanzia\odori\marcio
+industria-degli-alimenti-per-l-infanzia\odori\bruciato
+industria-degli-alimenti-per-l-infanzia\odori\plastica
+industria-degli-alimenti-per-l-infanzia\odori\medicinale
+industria-degli-alimenti-per-l-infanzia\odori\sudicio
+industria-degli-alimenti-per-l-infanzia\odori\gas
+industria-degli-alimenti-per-l-infanzia\odori\smalto per unghie
+industria-degli-alimenti-per-l-infanzia\odori\vernice
+industria-degli-alimenti-per-l-infanzia\odori\scarico

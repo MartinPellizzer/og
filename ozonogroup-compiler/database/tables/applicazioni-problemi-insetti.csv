@@ -408,3 +408,433 @@ elicotteri\insetti\Cimex lectularius
 elicotteri\insetti\Pediculus humanus capitis
 elicotteri\insetti\Pediculus humanus corporis
 elicotteri\insetti\Sarcoptes scabiei
+farmacie\insetti\Cimex lectularius
+farmacie\insetti\Blatta orientalis
+farmacie\insetti\Pediculus humanus capitis
+farmacie\insetti\Pediculus humanus corporis
+farmacie\insetti\Sarcoptes scabiei
+farmacie\insetti\Culicoides impunctatus
+farmacie\insetti\Aedes aegypti
+farmacie\insetti\Phlebotomus papatasi
+farmacie\insetti\Musca domestica
+farmacie\insetti\Liposcelis bostrychophila
+cliniche\insetti\Cimex lectularius
+cliniche\insetti\Blattella germanica
+cliniche\insetti\Pediculus humanus capitis
+cliniche\insetti\Pediculus humanus corporis
+cliniche\insetti\Sarcoptes scabiei
+cliniche\insetti\Pthirus pubis
+cliniche\insetti\Culicidae
+cliniche\insetti\Phlebotominae
+cliniche\insetti\Tunga penetrans
+cliniche\insetti\Polistes spp.
+ambulatori\insetti\Cimex lectularius
+ambulatori\insetti\Blattella germanica
+ambulatori\insetti\Pediculus humanus capitis
+ambulatori\insetti\Sarcoptes scabiei
+ambulatori\insetti\Culicoides impunctatus
+ambulatori\insetti\Aedes aegypti
+ambulatori\insetti\Phlebotomus papatasi
+ambulatori\insetti\Musca domestica
+ambulatori\insetti\Liposcelis bostrychophila
+ambulatori\insetti\Solenopsis invicta
+laboratori-medici\insetti\Cimex lectularius
+laboratori-medici\insetti\Blattella germanica
+laboratori-medici\insetti\Periplaneta americana
+laboratori-medici\insetti\Musca domestica
+laboratori-medici\insetti\Calliphora vomitoria
+laboratori-medici\insetti\Phlebotomus papatasi
+laboratori-medici\insetti\Aedes aegypti
+laboratori-medici\insetti\Culicoides impunctatus
+laboratori-medici\insetti\Glossina fuscipes
+laboratori-medici\insetti\Pediculus humanus capitis
+sale-operatorie\insetti\Cimex lectularius
+sale-operatorie\insetti\Blatta orientalis
+sale-operatorie\insetti\Pediculus humanus capitis
+sale-operatorie\insetti\Pediculus humanus corporis
+sale-operatorie\insetti\Sarcoptes scabiei
+sale-operatorie\insetti\Musca domestica
+sale-operatorie\insetti\Calliphora vomitoria
+sale-operatorie\insetti\Phlebotomus papatasi
+sale-operatorie\insetti\Aedes aegypti
+sale-operatorie\insetti\Culicoides impunctatus
+reparti-di-degenza\insetti\Cimex lectularius
+reparti-di-degenza\insetti\Blatta orientalis
+reparti-di-degenza\insetti\Pediculus humanus capitis
+reparti-di-degenza\insetti\Pediculus humanus corporis
+reparti-di-degenza\insetti\Sarcoptes scabiei
+reparti-di-degenza\insetti\Musca domestica
+reparti-di-degenza\insetti\Calliphora vomitoria
+reparti-di-degenza\insetti\Aedes aegypti
+reparti-di-degenza\insetti\Culicoides impunctatus
+reparti-di-degenza\insetti\Phlebotomus papatasi
+reparti-di-terapia-intensiva\insetti\Cimex lectularius
+reparti-di-terapia-intensiva\insetti\Blattella germanica
+reparti-di-terapia-intensiva\insetti\Pediculus humanus capitis
+reparti-di-terapia-intensiva\insetti\Sarcoptes scabiei
+reparti-di-terapia-intensiva\insetti\Musca domestica
+reparti-di-terapia-intensiva\insetti\Culicidae
+reparti-di-terapia-intensiva\insetti\Phlebotominae
+reparti-di-terapia-intensiva\insetti\Tabanidae
+reparti-di-terapia-intensiva\insetti\Ixodes ricinus
+reparti-di-terapia-intensiva\insetti\Aedes aegypti
+centri-di-dialisi\insetti\Cimex lectularius
+centri-di-dialisi\insetti\Pediculus humanus capitis
+centri-di-dialisi\insetti\Pediculus humanus corporis
+centri-di-dialisi\insetti\Blattella germanica
+centri-di-dialisi\insetti\Periplaneta americana
+centri-di-dialisi\insetti\Musca domestica
+centri-di-dialisi\insetti\Culicidae
+centri-di-dialisi\insetti\Phlebotomus papatasi
+centri-di-dialisi\insetti\Aedes aegypti
+centri-di-dialisi\insetti\Culex pipiens
+centri-di-riabilitazione\insetti\Blattella germanica
+centri-di-riabilitazione\insetti\Blatta orientalis
+centri-di-riabilitazione\insetti\Periplaneta americana
+centri-di-riabilitazione\insetti\Supella longipalpa
+centri-di-riabilitazione\insetti\Cimex lectularius
+centri-di-riabilitazione\insetti\Pediculus humanus capitis
+centri-di-riabilitazione\insetti\Pediculus humanus corporis
+centri-di-riabilitazione\insetti\Sarcoptes scabiei
+centri-di-riabilitazione\insetti\Culicoides spp.
+centri-di-riabilitazione\insetti\Phlebotomus papatasi
+sale-di-attesa\insetti\Cimex lectularius
+sale-di-attesa\insetti\Blatta orientalis
+sale-di-attesa\insetti\Pediculus humanus capitis
+sale-di-attesa\insetti\Pediculus humanus corporis
+sale-di-attesa\insetti\Sarcoptes scabiei
+sale-di-attesa\insetti\Dermatophagoides pteronyssinus
+sale-di-attesa\insetti\Blattella germanica
+sale-di-attesa\insetti\Musca domestica
+sale-di-attesa\insetti\Culicidae
+sale-di-attesa\insetti\Phlebotomus papatasi
+impianti-idraulici\insetti\Blatta orientalis
+impianti-idraulici\insetti\Blattella germanica
+impianti-idraulici\insetti\Periplaneta americana
+impianti-idraulici\insetti\Supella longipalpa
+impianti-idraulici\insetti\Cimex lectularius
+impianti-idraulici\insetti\Pediculus humanus capitis
+impianti-idraulici\insetti\Pediculus humanus corporis
+impianti-idraulici\insetti\Pthirus pubis
+impianti-idraulici\insetti\Aedes aegypti
+impianti-idraulici\insetti\Culex pipiens
+impianti-di-climatizzazione\insetti\Blatta orientalis
+impianti-di-climatizzazione\insetti\Blattella germanica
+impianti-di-climatizzazione\insetti\Periplaneta americana
+impianti-di-climatizzazione\insetti\Supella longipalpa
+impianti-di-climatizzazione\insetti\Pediculus humanus capitis
+impianti-di-climatizzazione\insetti\Pediculus humanus corporis
+impianti-di-climatizzazione\insetti\Pthirus pubis
+impianti-di-climatizzazione\insetti\Cimex lectularius
+impianti-di-climatizzazione\insetti\Musca domestica
+impianti-di-climatizzazione\insetti\Aedes aegypti
+ascensori\insetti\Blatta orientalis
+ascensori\insetti\Blattella germanica
+ascensori\insetti\Periplaneta americana
+ascensori\insetti\Supella longipalpa
+ascensori\insetti\Pediculus humanus capitis
+ascensori\insetti\Pediculus humanus corporis
+ascensori\insetti\Pthirus pubis
+ascensori\insetti\Cimex lectularius
+ascensori\insetti\Musca domestica
+ascensori\insetti\Aedes aegypti
+scale\insetti\Blatta orientalis
+scale\insetti\Blattella germanica
+scale\insetti\Periplaneta americana
+scale\insetti\Supella longipalpa
+scale\insetti\Pediculus humanus capitis
+scale\insetti\Pediculus humanus corporis
+scale\insetti\Pthirus pubis
+scale\insetti\Cimex lectularius
+scale\insetti\Musca domestica
+scale\insetti\Aedes aegypti
+impianti-elettrici\insetti\Blatta orientalis
+impianti-elettrici\insetti\Blattella germanica
+impianti-elettrici\insetti\Periplaneta americana
+impianti-elettrici\insetti\Supella longipalpa
+impianti-elettrici\insetti\Cimex lectularius
+impianti-elettrici\insetti\Pediculus humanus capitis
+impianti-elettrici\insetti\Pediculus humanus corporis
+impianti-elettrici\insetti\Musca domestica
+impianti-elettrici\insetti\Aedes aegypti
+impianti-elettrici\insetti\Culex pipiens
+cortili\insetti\Cimex lectularius
+cortili\insetti\Blatta orientalis
+cortili\insetti\Pediculus humanus capitis
+cortili\insetti\Culicidae
+cortili\insetti\Aedes aegypti
+cortili\insetti\Musca domestica
+cortili\insetti\Blattella germanica
+cortili\insetti\Sarcoptes scabiei
+cortili\insetti\Trombidium holosericeum
+cortili\insetti\Vespula vulgaris
+parcheggi\insetti\Blattella germanica
+parcheggi\insetti\Periplaneta americana
+parcheggi\insetti\Blattella orientalis
+parcheggi\insetti\Supella longipalpa
+parcheggi\insetti\Cimex lectularius
+parcheggi\insetti\Pediculus humanus capitis
+parcheggi\insetti\Pediculus humanus corporis
+parcheggi\insetti\Musca domestica
+parcheggi\insetti\Stomoxys calcitrans
+parcheggi\insetti\Culicidae
+taxi\insetti\Blattella germanica
+taxi\insetti\Blatta orientalis
+taxi\insetti\Periplaneta americana
+taxi\insetti\Pediculus humanus capitis
+taxi\insetti\Pediculus humanus corporis
+taxi\insetti\Pthirus pubis
+taxi\insetti\Cimex lectularius
+taxi\insetti\Culicidae
+taxi\insetti\Phlebotominae
+taxi\insetti\Tabanidae
+trasporto-merci\insetti\Blattella germanica
+trasporto-merci\insetti\Pediculus humanus capitis
+trasporto-merci\insetti\Cimex lectularius
+trasporto-merci\insetti\Musca domestica
+trasporto-merci\insetti\Liposcelis bostrychophila
+trasporto-merci\insetti\Aedes aegypti
+trasporto-merci\insetti\Culicoides impunctatus
+trasporto-merci\insetti\Anopheles stephensi
+trasporto-merci\insetti\Tineola bisselliella
+trasporto-merci\insetti\Dermestes maculatus
+metropolitane\insetti\Blatta orientalis
+metropolitane\insetti\Blattella germanica
+metropolitane\insetti\Periplaneta americana
+metropolitane\insetti\Pediculus humanus capitis
+metropolitane\insetti\Pediculus humanus corporis
+metropolitane\insetti\Sarcoptes scabiei
+metropolitane\insetti\Cimex lectularius
+metropolitane\insetti\Culicoides impunctatus
+metropolitane\insetti\Phlebotomus papatasi
+metropolitane\insetti\Aedes aegypti
+furgoni\insetti\Cimex lectularius
+furgoni\insetti\Blatta orientalis
+furgoni\insetti\Pediculus humanus capitis
+furgoni\insetti\Pediculus humanus corporis
+furgoni\insetti\Sarcoptes scabiei
+furgoni\insetti\Culicidae
+furgoni\insetti\Phlebotominae
+furgoni\insetti\Tunga penetrans
+furgoni\insetti\Musca domestica
+furgoni\insetti\Liposcelidae
+camion\insetti\Blattella germanica
+camion\insetti\Blatta orientalis
+camion\insetti\Periplaneta americana
+camion\insetti\Pediculus humanus capitis
+camion\insetti\Pediculus humanus corporis
+camion\insetti\Pthirus pubis
+camion\insetti\Cimex lectularius
+camion\insetti\Cimex hemipterus
+camion\insetti\Musca domestica
+camion\insetti\Aedes aegypti
+studi-dentistici\insetti\Blattella germanica
+studi-dentistici\insetti\Blatta orientalis
+studi-dentistici\insetti\Periplaneta americana
+studi-dentistici\insetti\Musca domestica
+studi-dentistici\insetti\Calliphora vomitoria
+studi-dentistici\insetti\Fannia canicularis
+studi-dentistici\insetti\Cimex lectularius
+studi-dentistici\insetti\Pediculus humanus capitis
+studi-dentistici\insetti\Phthirus pubis
+studi-dentistici\insetti\Sarcoptes scabiei
+studi-veterinari\insetti\Cimex lectularius
+studi-veterinari\insetti\Pediculus humanus
+studi-veterinari\insetti\Phthirus pubis
+studi-veterinari\insetti\Blattella germanica
+studi-veterinari\insetti\Periplaneta americana
+studi-veterinari\insetti\Musca domestica
+studi-veterinari\insetti\Culicidae
+studi-veterinari\insetti\Aedes aegypti
+studi-veterinari\insetti\Simulium spp.
+studi-veterinari\insetti\Tunga penetrans
+acque-reflue\insetti\Culex pipiens
+acque-reflue\insetti\Aedes aegypti
+acque-reflue\insetti\Anopheles quadrimaculatus
+acque-reflue\insetti\Culiseta longiareolata
+acque-reflue\insetti\Ochlerotatus triseriatus
+acque-reflue\insetti\Simulium damnosum
+acque-reflue\insetti\Psycha sub Atlantic
+acque-reflue\insetti\Chironomus plumosus
+acque-reflue\insetti\Limnophyes minimus
+acque-reflue\insetti\Procladius choreus
+acque-potabili\insetti\Culicidae
+acque-potabili\insetti\Simulium
+acque-potabili\insetti\Chironomidae
+acque-potabili\insetti\Ceratopogonidae
+acque-potabili\insetti\Chaoboridae
+acque-potabili\insetti\Tipulidae
+acque-potabili\insetti\Psychodidae
+acque-potabili\insetti\Limoniidae
+acque-potabili\insetti\Stratiomyidae
+acque-potabili\insetti\Empididae
+rifiuti-solidi\insetti\Musca domestica
+rifiuti-solidi\insetti\Calliphora vomitoria
+rifiuti-solidi\insetti\Phormia regina
+rifiuti-solidi\insetti\Blatta orientalis
+rifiuti-solidi\insetti\Periplaneta americana
+rifiuti-solidi\insetti\Nauphoeta cinerea
+rifiuti-solidi\insetti\Cimex lectularius
+rifiuti-solidi\insetti\Pediculus humanus capitis
+rifiuti-solidi\insetti\Pediculus humanus corporis
+rifiuti-solidi\insetti\Sarcoptes scabiei
+impianti-di-smaltimento-rifiuti-comune\insetti\Blatta orientalis
+impianti-di-smaltimento-rifiuti-comune\insetti\Blattella germanica
+impianti-di-smaltimento-rifiuti-comune\insetti\Periplaneta americana
+impianti-di-smaltimento-rifiuti-comune\insetti\Supella longipalpa
+impianti-di-smaltimento-rifiuti-comune\insetti\Musca domestica
+impianti-di-smaltimento-rifiuti-comune\insetti\Calliphora vomitoria
+impianti-di-smaltimento-rifiuti-comune\insetti\Phormia regina
+impianti-di-smaltimento-rifiuti-comune\insetti\Culex pipiens
+impianti-di-smaltimento-rifiuti-comune\insetti\Aedes aegypti
+impianti-di-smaltimento-rifiuti-comune\insetti\Aedes albopictus
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Blattella germanica
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Blattella asahinai
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Periplaneta americana
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Periplaneta australasiae
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Musca domestica
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Calliphora vomitoria
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Lucilia sericata
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Phormia regina
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Culex pipiens
+impianti-di-smaltimento-rifiuti-pericolosi\insetti\Aedes aegypti
+suoli-inquinati\insetti\Blattella germanica
+suoli-inquinati\insetti\Periplaneta americana
+suoli-inquinati\insetti\Supella longipalpa
+suoli-inquinati\insetti\Blattella asahinai
+suoli-inquinati\insetti\Nauphoeta cinerea
+suoli-inquinati\insetti\Cimex lectularius
+suoli-inquinati\insetti\Cimex hemipterus
+suoli-inquinati\insetti\Pediculus humanus humanus
+suoli-inquinati\insetti\Phthirus pubis
+suoli-inquinati\insetti\Sarcoptes scabiei
+discariche\insetti\Musca domestica
+discariche\insetti\Culex pipiens
+discariche\insetti\Blatta orientalis
+discariche\insetti\Periplaneta americana
+discariche\insetti\Liposcelis bostrychophila
+discariche\insetti\Necrobia rufipes
+discariche\insetti\Sarcophaga carnaria
+discariche\insetti\Calliphora vomitoria
+discariche\insetti\Fannia canicularis
+discariche\insetti\Phormia regina
+serre\insetti\Blattella germanica
+serre\insetti\Periplaneta americana
+serre\insetti\Ephestia kuehniella
+serre\insetti\Plodia interpunctella
+serre\insetti\Tribolium castaneum
+serre\insetti\Lasioderma serricorne
+serre\insetti\Drosophila melanogaster
+serre\insetti\Musca domestica
+serre\insetti\Culex pipiens
+serre\insetti\Aedes aegypti
+coltivazioni\insetti\Spodoptera litura
+coltivazioni\insetti\Helicoverpa armigera
+coltivazioni\insetti\Cydia pomonella
+coltivazioni\insetti\Liriomyza huidobrensis
+coltivazioni\insetti\Frankliniella occidentalis
+coltivazioni\insetti\Bemisia tabaci
+coltivazioni\insetti\Nylanderia fulva
+coltivazioni\insetti\Blattella germanica
+coltivazioni\insetti\Cimex lectularius
+coltivazioni\insetti\Aedes aegypti
+impianti-di-compostaggio\insetti\Musca domestica
+impianti-di-compostaggio\insetti\Calliphora vomitoria
+impianti-di-compostaggio\insetti\Phormia regina
+impianti-di-compostaggio\insetti\Sarcophaga haemorrhoidalis
+impianti-di-compostaggio\insetti\Fannia canicularis
+impianti-di-compostaggio\insetti\Lucilia sericata
+impianti-di-compostaggio\insetti\Piophila casei
+impianti-di-compostaggio\insetti\Synthesiomyia nigra
+impianti-di-compostaggio\insetti\Megaselia scalaris
+impianti-di-compostaggio\insetti\Hylemya platura
+industria-biologica\insetti\Blattella germanica
+industria-biologica\insetti\Cimex lectularius
+industria-biologica\insetti\Pediculus humanus capitis
+industria-biologica\insetti\Pediculus humanus corporis
+industria-biologica\insetti\Sarcoptes scabiei
+industria-biologica\insetti\Musca domestica
+industria-biologica\insetti\Stomoxys calcitrans
+industria-biologica\insetti\Culicoides spp.
+industria-biologica\insetti\Aedes aegypti
+industria-biologica\insetti\Anopheles quadrimaculatus
+industria-oleochimica\insetti\Blattella germanica
+industria-oleochimica\insetti\Periplaneta americana
+industria-oleochimica\insetti\Supella longipalpa
+industria-oleochimica\insetti\Liposcelis bostrychophila
+industria-oleochimica\insetti\Dermestes maculatus
+industria-oleochimica\insetti\Necrobia rufipes
+industria-oleochimica\insetti\Gnathocerus cornutus
+industria-oleochimica\insetti\Stegobium paniceum
+industria-oleochimica\insetti\Tribolium castaneum
+industria-oleochimica\insetti\Lasioderma serricorne
+industria-della-panificazione\insetti\Blatta orientalis
+industria-della-panificazione\insetti\Blattella germanica
+industria-della-panificazione\insetti\Supella longipalpa
+industria-della-panificazione\insetti\Tribolium castaneum
+industria-della-panificazione\insetti\Tribolium confusum
+industria-della-panificazione\insetti\Ephestia kuehniella
+industria-della-panificazione\insetti\Plodia interpunctella
+industria-della-panificazione\insetti\Pyralia peritalis
+industria-della-panificazione\insetti\Galleria mellonella
+industria-della-panificazione\insetti\Acherontia atropos
+industria-dolciaria\insetti\Blatta orientalis
+industria-dolciaria\insetti\Blattella germanica
+industria-dolciaria\insetti\Periplaneta americana
+industria-dolciaria\insetti\Supella longipalpa
+industria-dolciaria\insetti\Pediculus humanus capitis
+industria-dolciaria\insetti\Pediculus humanus corporis
+industria-dolciaria\insetti\Musca domestica
+industria-dolciaria\insetti\Drosophila melanogaster
+industria-dolciaria\insetti\Cimex lectularius
+industria-dolciaria\insetti\Liposcelis bostrychophila
+industria-degli-snack\insetti\Blatta orientalis
+industria-degli-snack\insetti\Blattella germanica
+industria-degli-snack\insetti\Periplaneta americana
+industria-degli-snack\insetti\Supella longipalpa
+industria-degli-snack\insetti\Pediculus humanus capitis
+industria-degli-snack\insetti\Pediculus humanus corporis
+industria-degli-snack\insetti\Phthirus pubis
+industria-degli-snack\insetti\Musca domestica
+industria-degli-snack\insetti\Calliphora vomitoria
+industria-degli-snack\insetti\Liposcelis bostrychophila
+industria-degli-alimenti-confezionati\insetti\Blatta orientalis
+industria-degli-alimenti-confezionati\insetti\Blattella germanica
+industria-degli-alimenti-confezionati\insetti\Periplaneta americana
+industria-degli-alimenti-confezionati\insetti\Supella longipalpa
+industria-degli-alimenti-confezionati\insetti\Pediculus humanus capitis
+industria-degli-alimenti-confezionati\insetti\Pediculus humanus corporis
+industria-degli-alimenti-confezionati\insetti\Pthirus pubis
+industria-degli-alimenti-confezionati\insetti\Musca domestica
+industria-degli-alimenti-confezionati\insetti\Drosophila melanogaster
+industria-degli-alimenti-confezionati\insetti\Cimex lectularius
+industria-delle-bevande\insetti\Blatta orientalis
+industria-delle-bevande\insetti\Blattella germanica
+industria-delle-bevande\insetti\Periplaneta americana
+industria-delle-bevande\insetti\Pediculus humanus capitis
+industria-delle-bevande\insetti\Pediculus humanus corporis
+industria-delle-bevande\insetti\Musca domestica
+industria-delle-bevande\insetti\Drosophila melanogaster
+industria-delle-bevande\insetti\Cimex lectularius
+industria-delle-bevande\insetti\Aedes aegypti
+industria-delle-bevande\insetti\Culicoides spp.
+industria-degli-alimenti-per-animali\insetti\Blatta orientalis
+industria-degli-alimenti-per-animali\insetti\Blattella germanica
+industria-degli-alimenti-per-animali\insetti\Periplaneta americana
+industria-degli-alimenti-per-animali\insetti\Supella longipalpa
+industria-degli-alimenti-per-animali\insetti\Pediculus humanus capitis
+industria-degli-alimenti-per-animali\insetti\Pediculus humanus corporis
+industria-degli-alimenti-per-animali\insetti\Phthirus pubis
+industria-degli-alimenti-per-animali\insetti\Musca domestica
+industria-degli-alimenti-per-animali\insetti\Fannia canicularis
+industria-degli-alimenti-per-animali\insetti\Calliphora vomitoria
+industria-degli-alimenti-per-l-infanzia\insetti\Blatta orientalis
+industria-degli-alimenti-per-l-infanzia\insetti\Blattella germanica
+industria-degli-alimenti-per-l-infanzia\insetti\Periplaneta americana
+industria-degli-alimenti-per-l-infanzia\insetti\Supella longipalpa
+industria-degli-alimenti-per-l-infanzia\insetti\Musca domestica
+industria-degli-alimenti-per-l-infanzia\insetti\Fannia canicularis
+industria-degli-alimenti-per-l-infanzia\insetti\Calliphora vomitoria
+industria-degli-alimenti-per-l-infanzia\insetti\Phormia regina
+industria-degli-alimenti-per-l-infanzia\insetti\Pediculus humanus capitis
+industria-degli-alimenti-per-l-infanzia\insetti\Blattabacterium

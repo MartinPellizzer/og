@@ -1,1 +1,0 @@
-- dividi articoli di applicazioni per categoria
