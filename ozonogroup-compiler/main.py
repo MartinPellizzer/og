@@ -3,7 +3,7 @@ import os
 import random
 import re
 import markdown
-import math
+import math.
 import shutil
 import csv
 import pathlib
@@ -136,8 +136,10 @@ def generate_toc(content_html):
     return content_html_formatted
 
 
-def generate_breadcrumbs(filepath_chunks):
-    breadcrumbs = [f.replace('.md', '').title() for f in filepath_chunks[2:-1]]
+def generate_breadcrumbs(filepath_in):
+    filepath_chunks = filepath_in.split('/')
+    breadcrumbs = [f.replace('.json', '').title() for f in filepath_chunks[2:-1]]
+    article_name = filepath_chunks[-1].replace('.json', '').replace('-', ' ').title()
     
     breadcrumbs_hrefs = []
     total_path = ''
@@ -153,9 +155,49 @@ def generate_breadcrumbs(filepath_chunks):
         breadcrumbs_html.append(html)
 
     breadcrumbs_html_formatted = [f' > {f}' for f in breadcrumbs_html]
+    breadcrumbs_html_formatted.append(f' > {article_name}')
+
+    breadcrumbs_html_formatted = ''.join(breadcrumbs_html_formatted)
 
     return breadcrumbs_html_formatted
 
+
+def generate_table_problems():
+    pass
+    # article_html += f'<p>La seguente tabella elenca i nomi di alcuni problemi di contaminazione che l\'ozono elimina {application_a_1}{application}, divisi per categoria.</p>'
+        # batteri = ', '.join(data['problemi_batteri'][:5])
+        # virus = ', '.join(data['problemi_virus'][:5])
+        # muffe = ', '.join(data['problemi_muffe'][:5])
+        # insetti = ', '.join(data['problemi_insetti'][:5])
+        # odori = ', '.join(data['problemi_odori'][:5])
+        # article_html += f'''
+        #     <table>
+        #         <tr>
+        #             <th>Categoria</th>
+        #             <th>Nomi</th>
+        #         </tr>
+        #         <tr>
+        #             <td>Batteri</td>
+        #             <td>{batteri}</td>
+        #         </tr>
+        #         <tr>
+        #             <td>Virus</td>
+        #             <td>{virus}</td>
+        #         </tr>
+        #         <tr>
+        #             <td>Muffe</td>
+        #             <td>{muffe}</td>
+        #         </tr>
+        #         <tr>
+        #             <td>Insetti</td>
+        #             <td>{insetti}</td>
+        #         </tr>
+        #         <tr>
+        #             <td>Odori</td>
+        #             <td>{odori}</td>
+        #         </tr>
+        #     </table>
+        # '''
 
 
 ###################################################################################################################
@@ -434,10 +476,8 @@ def generate_manual_article_html():
 
         content_html = markdown.markdown(lines, extensions=['markdown.extensions.tables'])
 
-        filepath_chunks = filepath.split('\\')
-
         # BREADCRUMBS  ---------------------------------------------
-        breadcrumbs = generate_breadcrumbs(filepath_chunks)
+        breadcrumbs = generate_breadcrumbs(filepath)
 
         # READING TIME  --------------------------------------------
         reading_time = len(content.split(' ')) // 200
@@ -607,94 +647,82 @@ def copy_images():
         shutil.copy2(f'{articles_images_path}{f}', f'public/assets/images/{f}')
 
 
+
+
+
+###################################################################################################################
+# ARTICLES
+###################################################################################################################
+
 def gen_articles_html():
     folderpath = 'articles/public/ozono/sanificazione/applicazioni'
     for filename in os.listdir(folderpath):
         application_name_dash = filename.split('.')[0]
+        print(application_name_dash)
         application_a_1 = util.csv_get_rows_by_entity('database/tables/applications.csv', application_name_dash)[0][1]
         filepath_in = f'{folderpath}/{filename}'
         filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
         data = util.json_read(filepath_in)
 
         keyword = filename.replace('.json', '')
-        title = keyword.title().replace('-', ' ')
-        application = title.lower()
+        application = keyword.lower().replace('-', ' ')
+        title = f'Sanificazione {application} con ozono'
 
         article_html = ''
-        article_html += f'<h1>Sanificazione ad Ozono per {title}</h1>' + '\n'
-        article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg" alt=""></p>' + '\n'
-        article_html += util.text_format_1N1_html(data['intro_1']) + '\n'
-        article_html += util.text_format_1N1_html(data['intro_2']) + '\n'
 
-        article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application}?</h2>' + '\n'
-        article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt=""></p>' + '\n'
-        article_html += util.text_format_1N1_html(data['definition']) + '\n'
+        intro = ''
+        try: intro = data['intro']
+        except: print(f'MISSING: INTRO >>> {filename}')
+        if intro != '':
+            article_html += f'<h1>{title}</h1>' + '\n'
+            image_path = f'/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg'
+            article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
+            try: article_html += util.text_format_1N1_html(intro) + '\n'
+            except: print(f'MISSING: INTRO >>> {filename}')
 
-        article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application}?</h2>' + '\n'
-        article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-problemi.jpg" alt=""></p>' + '\n'
-        article_html += util.text_format_1N1_html(data['problems_text']) + '\n'
+        definition = ''
+        try: definition = data['definition']
+        except: print(f'MISSING: DEFINITION >>> {filename}')
+        if definition != '':
+            article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application}?</h2>' + '\n'
+            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt=""></p>' + '\n'
+            article_html += util.text_format_1N1_html(definition) + '\n'
 
-        # article_html += f'<p>La seguente lista elenca alcuni dei batteri comuni {application_a_1}{application} che la sanificazione ad ozono elimina.</p>'
-        article_html += f'<p>La seguente tabella elenca i nomi di alcuni problemi di contaminazione che l\'ozono elimina {application_a_1}{application}, divisi per categoria.</p>'
-        # article_html += util.list_to_html(data['problemi_batteri'])
-        # article_html += util.list_to_html(data['problemi_virus'])
+        problems_text = ''
+        try: problems_text = data['problems_text']
+        except: print(f'MISSING: PROBLEMS_TEXT >>> {filename}')
+        if problems_text != '':
+            article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application}?</h2>' + '\n'
+            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-problemi.jpg" alt=""></p>' + '\n'
+            article_html += util.text_format_1N1_html(problems_text) + '\n'
 
-        batteri = ', '.join(data['problemi_batteri'][:5])
-        virus = ', '.join(data['problemi_virus'][:5])
-        muffe = ', '.join(data['problemi_muffe'][:5])
-        insetti = ', '.join(data['problemi_insetti'][:5])
-        odori = ', '.join(data['problemi_odori'][:5])
-        article_html += f'''
-            <table>
-                <tr>
-                    <th>Categoria</th>
-                    <th>Nomi</th>
-                </tr>
-                <tr>
-                    <td>Batteri</td>
-                    <td>{batteri}</td>
-                </tr>
-                <tr>
-                    <td>Virus</td>
-                    <td>{virus}</td>
-                </tr>
-                <tr>
-                    <td>Muffe</td>
-                    <td>{muffe}</td>
-                </tr>
-                <tr>
-                    <td>Insetti</td>
-                    <td>{insetti}</td>
-                </tr>
-                <tr>
-                    <td>Odori</td>
-                    <td>{odori}</td>
-                </tr>
-            </table>
-        '''
+        benefits_text = ''
+        try: benefits_text = data['benefits_text']
+        except: print(f'MISSING: BENEFITS_TEXT >>> {filename}')
+        if benefits_text != '':
+            article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application}?</h2>' + '\n'
+            image_path = f'/assets/images/ozono-sanificazione-{keyword}-benefici.jpg'
+            # if os.path.exists(image_path):
+            article_html += f'<p><img src="{image_path}" alt="benefici sanificazione ozono per {image_path}"></p>' + '\n'
+            article_html += util.text_format_1N1_html(benefits_text) + '\n'
 
-        article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application}?</h2>' + '\n'
-        article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-benefici.jpg" alt=""></p>' + '\n'
-        article_html += util.text_format_1N1_html(data['benefits_text']) + '\n'
+        applications_text = ''
+        try: applications_text = data['applications_text']
+        except: print(f'MISSING: BENEFITS_TEXT >>> {filename}')
+        if applications_text != '':
+            article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application}?</h2>' + '\n'
+            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-applicazioni.jpg" alt=""></p>' + '\n'
+            article_html += util.text_format_1N1_html(applications_text) + '\n'
+            # article_html += util.list_bold_to_html(data['applications_list']) + '\n'
 
-        article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application}?</h2>' + '\n'
-        article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-applicazioni.jpg" alt=""></p>' + '\n'
-        article_html += util.text_format_1N1_html(data['applications_text']) + '\n'
-        article_html += util.list_bold_to_html(data['applications_list']) + '\n'
-
-        # BREADCRUMBS  ---------------------------------------------
-        filepath_chunks = filepath_in.split('\\')
-        breadcrumbs = generate_breadcrumbs(filepath_chunks)
-
-        # READING TIME  --------------------------------------------
+        # META
+        breadcrumbs = generate_breadcrumbs(filepath_in)
         reading_time = len(article_html.split(' ')) // 200
 
-        # PUBLICATION DATE  ----------------------------------------
         publishing_date = ''
         try: publishing_date = md.Meta['publishing_date'][0]
         except: pass
 
-        # AUTHOR ----------------------------------------
         author = 'Ozonogroup Staff'
         try: author = md.Meta['author'][0]
         except: pass
@@ -703,12 +731,13 @@ def gen_articles_html():
         try: last_update_date = md.Meta['last_update_date'][0]
         except: pass
 
-        # GENERATE TABLE OF CONTENTS ----------------------------------------
         article_html = generate_toc(article_html)
 
+        # COMPONENTS
         with open('components/header.html', encoding='utf-8') as f:
             header_html = f.read()
 
+        # HTML
         html = f'''
             <!DOCTYPE html>
             <html lang="en">
@@ -718,7 +747,7 @@ def gen_articles_html():
                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
                 <link rel="stylesheet" href="/style-blog.css">
                 <link rel="stylesheet" href="/util.css">
-                <title>Sanificazione ad Ozono per {title}</title>
+                <title>{title}</title>
                 {GOOGLE_TAG}
             </head>
 
@@ -731,7 +760,7 @@ def gen_articles_html():
 
                 <section class="breadcrumbs-section">
                     <div class="container-xl h-full">
-                        <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+                        <a href="/index.html">Home</a>{breadcrumbs}
                     </div>
                 </section>
 
@@ -763,6 +792,7 @@ def gen_articles_html():
         util.file_write(filepath_out, html)
 
 
+    # IMAGES
     articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
     for article_filename in os.listdir(articles_folder):
         article_filename_no_ext = article_filename.replace('.json', '')
@@ -770,7 +800,10 @@ def gen_articles_html():
         article_filepath = f'{article_filename}/{article_filename}'
         images_articles_folder = f'C:/og-assets/images/articles'
         images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
-        images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+        try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+        except: 
+            print(f'MISSING: IMAGE FOLDER >>> {article_filename}')
+            continue
 
         images_filpaths_out = [
             f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
@@ -786,7 +819,6 @@ def gen_articles_html():
                     image_filepath, 
                     image_filepath_out
                 )
-
 
 def gen_article_applications():
     filepath_in = 'articles/public/ozono/sanificazione/applicazioni.json'
@@ -811,23 +843,15 @@ def gen_article_applications():
         article_html += f'<h2>{application_name.title()}</h2>' + '\n'
         article_html += f'<p><img src="/assets/images/ozono-sanificazione-{application_dash}-introduzione.jpg" alt=""><p>' + '\n'
         article_html += util.text_format_1N1_html(application_desc_with_link) + '\n'
-        article_html += util.text_format_1N1_html(application_desc_with_link) + '\n'
 
-
-
-    # BREADCRUMBS  ---------------------------------------------
-    filepath_chunks = filepath_in.split('\\')
-    breadcrumbs = generate_breadcrumbs(filepath_chunks)
-
-    # READING TIME  --------------------------------------------
+    # META
+    breadcrumbs = generate_breadcrumbs(filepath_in)
     reading_time = len(article_html.split(' ')) // 200
 
-    # PUBLICATION DATE  ----------------------------------------
     publishing_date = ''
     try: publishing_date = md.Meta['publishing_date'][0]
     except: pass
 
-    # AUTHOR ----------------------------------------
     author = 'Ozonogroup Staff'
     try: author = md.Meta['author'][0]
     except: pass
@@ -836,12 +860,13 @@ def gen_article_applications():
     try: last_update_date = md.Meta['last_update_date'][0]
     except: pass
 
-    # GENERATE TABLE OF CONTENTS ----------------------------------------
     article_html = generate_toc(article_html)
 
+    # COMPONENTS
     with open('components/header.html', encoding='utf-8') as f:
         header_html = f.read()
 
+    # HTML
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -864,7 +889,7 @@ def gen_article_applications():
 
             <section class="breadcrumbs-section">
                 <div class="container-xl h-full">
-                    <a href="/index.html">Home</a>{''.join(breadcrumbs)}
+                    <a href="/index.html">Home</a>{breadcrumbs}
                 </div>
             </section>
 
@@ -895,150 +920,6 @@ def gen_article_applications():
 
     util.file_write(filepath_out, html)
 
-
-    # folderpath = 'articles/public/ozono/sanificazione/applicazioni'
-    # for filename in os.listdir(folderpath):
-    #     print(filename)
-    #     filepath_in = f'{folderpath}/{filename}'
-    #     filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
-    #     data = util.json_read(filepath_in)
-
-    #     keyword = filename.replace('.json', '')
-    #     title = keyword.title().replace('-', ' ')
-    #     application = title.lower()
-
-    #     article_html = ''
-    #     article_html += f'<h1>{title}</h1>' + '\n'
-    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg" alt="">' + '\n'
-    #     article_html += util.text_format_1N1_html(data['intro_1']) + '\n'
-    #     article_html += util.text_format_1N1_html(data['intro_2']) + '\n'
-    #     article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application}?</h2>' + '\n'
-    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt="">' + '\n'
-    #     article_html += util.text_format_1N1_html(data['intro_1']) + '\n'
-    #     article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application}?</h2>' + '\n'
-    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-problemi.jpg" alt="">' + '\n'
-    #     article_html += util.text_format_1N1_html(data['problems_text']) + '\n'
-    #     article_html += '<ul>' + ''.join([f'<li>{item}</li>\n' for item in data['problems_list']]) + '</ul>' + '\n'
-    #     article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application}?</h2>' + '\n'
-    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-benefici.jpg" alt="">' + '\n'
-    #     article_html += util.text_format_1N1_html(data['benefits_text']) + '\n'
-    #     article_html += '<ul>' + ''.join([f'<li>{item}</li>\n' for item in data['benefits_list']]) + '</ul>' + '\n'
-    #     article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application}?</h2>' + '\n'
-    #     article_html += f'<img src="/assets/images/ozono-sanificazione-{keyword}-applicazioni.jpg" alt="">' + '\n'
-    #     article_html += util.text_format_1N1_html(data['applications_text']) + '\n'
-    #     article_html += '<ul>' + ''.join([f'<li>{item}</li>\n' for item in data['applications_list']]) + '</ul>' + '\n'
-
-    #     # BREADCRUMBS  ---------------------------------------------
-    #     filepath_chunks = filepath_in.split('\\')
-    #     breadcrumbs = generate_breadcrumbs(filepath_chunks)
-
-    #     # READING TIME  --------------------------------------------
-    #     reading_time = len(article_html.split(' ')) // 200
-
-    #     # PUBLICATION DATE  ----------------------------------------
-    #     publishing_date = ''
-    #     try: publishing_date = md.Meta['publishing_date'][0]
-    #     except: pass
-
-    #     # AUTHOR ----------------------------------------
-    #     author = 'Ozonogroup Staff'
-    #     try: author = md.Meta['author'][0]
-    #     except: pass
-
-    #     last_update_date = ''
-    #     try: last_update_date = md.Meta['last_update_date'][0]
-    #     except: pass
-
-    #     # GENERATE TABLE OF CONTENTS ----------------------------------------
-    #     article_html = generate_toc(article_html)
-
-    #     with open('components/header.html', encoding='utf-8') as f:
-    #         header_html = f.read()
-
-    #     html = f'''
-    #         <!DOCTYPE html>
-    #         <html lang="en">
-
-    #         <head>
-    #             <meta charset="UTF-8">
-    #             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    #             <link rel="stylesheet" href="/style-blog.css">
-    #             <link rel="stylesheet" href="/util.css">
-    #             <title>{title}</title>
-    #             {GOOGLE_TAG}
-    #         </head>
-
-    #         <body>
-    #             <section class="header-section">
-    #                 <div class="container-xl h-full">
-    #                     {header_html}
-    #                 </div>
-    #             </section>
-
-    #             <section class="breadcrumbs-section">
-    #                 <div class="container-xl h-full">
-    #                     <a href="/index.html">Home</a>{''.join(breadcrumbs)}
-    #                 </div>
-    #             </section>
-
-    #             <section class="meta-section mt-48">
-    #                 <div class="container-md h-full">
-    #                     <div class="flex justify-between mb-8">
-    #                         <span>by {author} • {publishing_date}</span>
-    #                         <span>Tempo Lettura: {reading_time} min</span>
-    #                     </div>
-    #                 </div>
-    #             </section>
-
-    #             <section class="container-md">
-    #                 {article_html}
-    #             </section>
-
-    #             <section class="footer-section">
-    #                 <div class="container-xl h-full">
-    #                     <footer class="flex items-center justify-center">
-    #                         <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
-    #                     </footer>
-    #                 </div>
-    #             </section>
-    #         </body>
-
-    #         </html>
-    #     '''
-
-    #     chunks = filepath_out.split('/')[:-1]
-    #     chunk_curr = ''
-    #     for chunk in chunks:
-    #         chunk_curr += f'{chunk}/'
-    #         try: os.makedirs(chunk_curr)
-    #         except: pass
-
-    #     util.file_write(filepath_out, html)
-
-
-    # articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
-    # for article_filename in os.listdir(articles_folder):
-    #     article_filename_no_ext = article_filename.replace('.json', '')
-
-    #     article_filepath = f'{article_filename}/{article_filename}'
-    #     images_articles_folder = f'C:/og-assets/images/articles'
-    #     images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
-    #     images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
-
-    #     images_filpaths_out = [
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
-    #     ]
-    #     for image_filepath_out in images_filpaths_out:
-    #         image_filepath = images_filepath.pop(0)
-    #         if not os.path.exists(image_filepath_out):
-    #             img_resize_2(
-    #                 image_filepath, 
-    #                 image_filepath_out
-    #             )
 
 
 
@@ -1087,15 +968,15 @@ def gen_pagina_guide():
     util.file_write('public/guide.html', content)
 
 
-###################################################################################################################
-# main
-###################################################################################################################
 
-# generate_manual_article_html()
-# copy_images()
+
+
+###################################################################################################################
+# MAIN
+###################################################################################################################
 
 gen_articles_html()
-# gen_article_applications()
+gen_article_applications()
 
 shutil.copy2('missione.html', 'public/missione.html')
 shutil.copy2('contatti.html', 'public/contatti.html')

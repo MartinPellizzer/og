@@ -1,0 +1,2 @@
+- breadcrumbs
+- generate images before articles, to check if they exists and add them only if they do
