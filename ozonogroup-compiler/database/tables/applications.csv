@@ -1,139 +1,44 @@
-application\a-1\category
-Case\nelle \residenziale
-cucine\nelle \residenziale
-Bagni\nei \residenziale
-Garage\nei \residenziale
-Cantine\nelle \residenziale
-Impianti Idraulici\negli \residenziale
-impianti aeraulici\negli \residenziale
-Impianti Di Climatizzazione\negli \residenziale
-Ascensori\negli \residenziale
-Scale\nelle \residenziale
-Impianti Elettrici\negli \residenziale
-Cortili\nei \residenziale
-Parcheggi\nei \residenziale
-Automobili\nelle \trasporti
-camper\nelle \trasporti
-Taxi\nei \trasporti
-Treni\nei \trasporti
-Tram\nei \trasporti
-Autobus\negli \trasporti
-Navi\nelle \trasporti
-Aeroplani\negli \trasporti
-Elicotteri\negli \trasporti
-Ambulanze\nelle \trasporti
-Trasporto merci\nel \trasporti
-Metropolitane\nelle \trasporti
-Furgoni\nei \trasporti
-Camion\nei \trasporti
-Ospedali\negli \sanità
-Sale operatorie\nelle \sanità
-Case di Riposo\nelle \sanità
-Cliniche\nelle \sanità
-Studi Dentistici\negli \sanità
-Studi Veterinari\negli \sanità
-Farmacie\nelle \sanità
-Ambulatori\negli \sanità
-Laboratori medici\nei \sanità
-Reparti di degenza\nei \sanità
-Reparti di terapia intensiva\nei \sanità
-Centri di dialisi\nei \sanità
-Centri di riabilitazione\nei \sanità
-Sale di attesa\nelle \sanità
-Scuole\nelle \istruzione
-Asili\negli \istruzione
-Cinema\nei \intrattenimento
-Teatri\nei \intrattenimento
-Alberghi\negli \ospitalità
-Bed and breakfast\nei \ospitalità
-Mense\nelle \ristorazione
-Ristoranti\nei \ristorazione
-Pizzerie\nelle \ristorazione
-Bar\nei \ristorazione
-Pasticcerie\nelle \ristorazione
-Piscine\nelle \benessere
-Terme\nelle \benessere
-Palestre\nelle \benessere
-Bagni Pubblici\nei \servizi
-Lavanderie\nelle \servizi
-Tintorie\nelle \servizi
-acque reflue\nelle \ambiente
-acque potabili\nelle \ambiente
-rifiuti solidi\nelle \ambiente
-impianti di smaltimento rifiuti comune\negli \ambiente
-impianti di smaltimento rifiuti pericolosi\negli \ambiente
-suoli inquinati\nei \ambiente
-discariche\nelle \ambiente
-serre\nelle \ambiente
-coltivazioni\nelle \ambiente
-impianti di compostaggio\negli\ ambiente
-Industria Della Lavorazione Carni\nell'\industria
-Industria Salumiera\nell'\industria
-Industria Avicola\nell'\industria
-Industria Ittica\nell'\industria
-Industria Lattiero-Casearia\nell'\industria
-Industria Ortofrutticola\nell'\industria
-Industria Biologica\nell'\industria
-Industria Oleochimica\nell'\industria
-Industria Vinicola\nell'\industria
-Industria Cerealicola\nell'\industria
-Industria Della Panificazione\nell'\industria
-Industria Dolciaria\nell'\industria
-Industria Degli Snack\nell'\industria
-Industria Degli Alimenti Confezionati\nell'\industria
-Industria Delle Bevande\nell'\industria
-Industria Dell'Acqua Minerale\nell'\industria
-Industria Birraria\nell'\industria
-Industria Degli Alimenti Per Animali\nell'\industria
-Industria Degli Alimenti Per L'Infanzia\nell'\industria
-Industria Dell'Automotive\nell'\industria
-biblioteche\nelle \istruzione
-carri funebri\nei \trasporti
-roulotte\nelle \trasporti
-uffici\negli \aziendale
-comuni\nei \governativo
-tribunali\nei \legale
-case editrici\nelle \editoria
-Industria della Produzione di Pasta\nell'\industria 
-Industria della Produzione di Condimenti e Salse\nell'\industria
-Industria della Produzione di Dolcificanti\nell'\industria
-Industria della Produzione di Gelati\nell'\industria
-Industria della Produzione di Prodotti da Forno\nell'\industria
-Industria della Produzione di Sottaceti e Sottoli\nell'\industria
-Industria della Produzione di Prodotti Surgelati\nell'\industria
-Industria della Produzione di Caffè\nell'\industria
-Industria della Produzione del Tè\nell'\industria
-Industria della Produzione di Spezie e Aromi\nell'\industria
-Industria della Produzione di Cioccolato\nell'\industria
-Industria della Produzione di Marmellate e Confetture\nell'\industria
-Industria della Produzione di Integratori\nell'\industria
-Industria del Legno\nell'\industria
-Industria della Carta\nell'\industria
-Industria della Produzione di prodotti gastronomici\nell'\industria
-Librerie\nelle \servizi
-Supermercati\nei \servizi
-Negozi\nei \servizi
-Musei\nei \servizi
-Centri Benessere\nei \servizi
-Centri Estetici\nei \servizi
-Saloni di bellezza\nei \servizi
-Camere\nelle \residenziale
-Bagni\nei \residenziale
-Cucine\nelle \residenziale
-Soggiorni\nei \residenziale
-Sale da pranzo\nelle \residenziale
-Studi\negli \residenziale
-Stanze degli ospiti\nelle \residenziale
-Cantine\nelle \residenziale
-Lavanderie\nelle \residenziale
-Sale giochi\nelle \residenziale
-Palestre\nelle \residenziale
-Sale multimediali\nelle \residenziale
-Ripostigli\nei \residenziale
-Garage\nei \residenziale
-Verande\nelle \residenziale
-Balconi\nei \residenziale
-Sottotetti\nei \residenziale
-Sale hobby\nelle \residenziale
-Stanze per gli animali domestici\nelle \residenziale
-Biblioteche\nelle \residenziale
+application\a-1\category\slug
+Case\nelle \residenziale\case
+Camere da letto delle case\nelle \residenziale\camere-letto
+Cucine delle case\nelle \residenziale\cucine
+Automobili\nelle \trasporti\automobili
+Treni\nei \trasporti\treni
+Tram\nei \trasporti\tram
+Autobus\negli \trasporti\autobus
+Navi\nelle \trasporti\navi
+Aeroplani\negli \trasporti\aeroplani
+Elicotteri\negli \trasporti\elicotteri
+Ambulanze\nelle \trasporti\ambulanze
+Ospedali\negli \sanità\ospedali
+Case di Riposo\nelle \sanità\case-riposo
+Studi Dentistici\negli \sanità\studi-dentistici
+Studi Veterinari\negli \sanità\studi-veterinari
+Scuole\nelle \istruzione\scuole
+Asili\negli \istruzione\asili
+Cinema\nei \intrattenimento\cinema
+Teatri\nei \intrattenimento\teatri
+Alberghi\negli \ospitalità\alberghi
+Bed and breakfast\nei \ospitalità\bed-and-breakfast
+Mense\nelle \ristorazione\mense
+Ristoranti\nei \ristorazione\ristoranti
+Pizzerie\nelle \ristorazione\pizzerie
+Bar\nei \ristorazione\bar
+Pasticcerie\nelle \ristorazione\pasticcerie
+Piscine\nelle \benessere\piscine
+Terme\nelle \benessere\terme
+Palestre\nelle \benessere\palestre
+Bagni Pubblici\nei \servizi\bagni
+Lavanderie\nelle \servizi\lavanderie
+Tintorie\nelle \servizi\tintorie
+Industria Della Lavorazione Carni\nell'\industria\industria-lavorazione-carni
+Industria Salumiera\nell'\industria\industria-salumiera
+Industria Avicola\nell'\industria\industria-avicola
+Industria Ittica\nell'\industria\industria-ittica
+Industria Lattiero-Casearia\nell'\industria\industria-lattiero-casearia
+Industria Ortofrutticola\nell'\industria\industria-ortofrutticola
+Industria Vinicola\nell'\industria\industria-vinicola
+Industria Cerealicola\nell'\industria\industria-cerealicola
+Industria Dell'Acqua Minerale\nell'\industria\industria-acqua-minerale
+Industria Birraria\nell'\industria\industria-birraria
+Industria Dell'Automotive\nell'\industria\industria-automotive

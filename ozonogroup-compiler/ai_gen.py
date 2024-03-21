@@ -530,9 +530,10 @@ def ai_applications_main():
     for i, row in enumerate(rows):
         print(f'{i+1}/{len(rows)} >>>> {row[0].strip()} | {row[2].strip()}')
         application_name = row[0].strip().lower()
-        application_name_dash = application_name.replace(' ', '-').replace("'", '-')
         application_a_1 = row[1]
-        json_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_name_dash}.json'
+        application_category = row[2]
+        application_slug = row[3]
+        json_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_slug}.json'
 
         if not os.path.exists(json_filepath):
             with open(json_filepath, 'a', encoding='utf-8') as f:

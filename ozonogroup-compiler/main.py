@@ -3,7 +3,7 @@ import os
 import random
 import re
 import markdown
-import math.
+import math
 import shutil
 import csv
 import pathlib
@@ -654,12 +654,26 @@ def copy_images():
 # ARTICLES
 ###################################################################################################################
 
-def gen_articles_html():
+def gen_articles_html(regen=False):
+    if regen:
+        folderpath = 'public/ozono/sanificazione/applicazioni'
+        for filename in os.listdir(folderpath):
+            filepath = f'{folderpath}/{filename}'
+            os.remove(filepath)
+
     folderpath = 'articles/public/ozono/sanificazione/applicazioni'
-    for filename in os.listdir(folderpath):
+    rows = util.csv_get_rows('database/tables/applications.csv')
+
+    cols = {}
+    for i, item in enumerate(rows[0]): cols[item] = i
+
+    # for filename in os.listdir(folderpath):
+    for row in rows[1:]:
+        filename = row[cols['slug']] + '.json'
+        # filename = row[0].lower().strip().replace(' ', '-').replace("'", '-') + '.json'
         application_name_dash = filename.split('.')[0]
-        print(application_name_dash)
-        application_a_1 = util.csv_get_rows_by_entity('database/tables/applications.csv', application_name_dash)[0][1]
+        application_a_1 = util.csv_get_rows_by_entity('database/tables/applications.csv', application_name_dash, col_num=cols['slug'])
+
         filepath_in = f'{folderpath}/{filename}'
         filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
         data = util.json_read(filepath_in)
@@ -671,7 +685,7 @@ def gen_articles_html():
         article_html = ''
 
         intro = ''
-        try: intro = data['intro']
+        try: intro = data['intro_desc']
         except: print(f'MISSING: INTRO >>> {filename}')
         if intro != '':
             article_html += f'<h1>{title}</h1>' + '\n'
@@ -681,7 +695,7 @@ def gen_articles_html():
             except: print(f'MISSING: INTRO >>> {filename}')
 
         definition = ''
-        try: definition = data['definition']
+        try: definition = data['definition_desc']
         except: print(f'MISSING: DEFINITION >>> {filename}')
         if definition != '':
             article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application}?</h2>' + '\n'
@@ -689,7 +703,7 @@ def gen_articles_html():
             article_html += util.text_format_1N1_html(definition) + '\n'
 
         problems_text = ''
-        try: problems_text = data['problems_text']
+        try: problems_text = data['problems_desc']
         except: print(f'MISSING: PROBLEMS_TEXT >>> {filename}')
         if problems_text != '':
             article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application}?</h2>' + '\n'
@@ -697,17 +711,17 @@ def gen_articles_html():
             article_html += util.text_format_1N1_html(problems_text) + '\n'
 
         benefits_text = ''
-        try: benefits_text = data['benefits_text']
+        try: benefits_text = data['benefits_desc']
         except: print(f'MISSING: BENEFITS_TEXT >>> {filename}')
         if benefits_text != '':
             article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application}?</h2>' + '\n'
             image_path = f'/assets/images/ozono-sanificazione-{keyword}-benefici.jpg'
             # if os.path.exists(image_path):
-            article_html += f'<p><img src="{image_path}" alt="benefici sanificazione ozono per {image_path}"></p>' + '\n'
+            article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
             article_html += util.text_format_1N1_html(benefits_text) + '\n'
 
         applications_text = ''
-        try: applications_text = data['applications_text']
+        try: applications_text = data['applications_desc']
         except: print(f'MISSING: BENEFITS_TEXT >>> {filename}')
         if applications_text != '':
             article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application}?</h2>' + '\n'
@@ -793,32 +807,33 @@ def gen_articles_html():
 
 
     # IMAGES
-    articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
-    for article_filename in os.listdir(articles_folder):
-        article_filename_no_ext = article_filename.replace('.json', '')
+    # articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
+    # for article_filename in os.listdir(articles_folder):
+    #     article_filename_no_ext = article_filename.replace('.json', '')
 
-        article_filepath = f'{article_filename}/{article_filename}'
-        images_articles_folder = f'C:/og-assets/images/articles'
-        images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
-        try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
-        except: 
-            print(f'MISSING: IMAGE FOLDER >>> {article_filename}')
-            continue
+    #     article_filepath = f'{article_filename}/{article_filename}'
+    #     images_articles_folder = f'C:/og-assets/images/articles'
+    #     images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
+    #     try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+    #     except: 
+    #         print(f'MISSING: IMAGE FOLDER >>> {article_filename}')
+    #         continue
 
-        images_filpaths_out = [
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
-        ]
-        for image_filepath_out in images_filpaths_out:
-            image_filepath = images_filepath.pop(0)
-            if not os.path.exists(image_filepath_out):
-                img_resize_2(
-                    image_filepath, 
-                    image_filepath_out
-                )
+    #     images_filpaths_out = [
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
+    #     ]
+    #     for image_filepath_out in images_filpaths_out:
+    #         image_filepath = images_filepath.pop(0)
+    #         if not os.path.exists(image_filepath_out):
+    #             img_resize_2(
+    #                 image_filepath, 
+    #                 image_filepath_out
+    #             )
+
 
 def gen_article_applications():
     filepath_in = 'articles/public/ozono/sanificazione/applicazioni.json'
@@ -931,20 +946,23 @@ def gen_article_applications():
 def gen_pagina_guide():
     content = util.file_read('guide.html')
     rows = util.csv_get_rows('database/tables/applications.csv')[1:]
+
     articles_dict = {}
     for row in rows:
-        try: articles_dict[row[2]].append([row[0], row[1]])
-        except: articles_dict[row[2]] = [[row[0], row[1]]]
+        print(row)
+        try: articles_dict[row[2]].append([row[0], row[1], row[3]])
+        except: articles_dict[row[2]] = [[row[0], row[1], row[3]]]
+
 
     articles = ''
     for key, values in articles_dict.items():
         articles_curr = ''
         for value in values:
             application_name = value[0].strip()
-            application_dash = application_name.lower().replace(' ', '-').replace("'", '-')
+            application_slug = value[2]
             articles_curr += f'''
-            <a class="decoration-none" href="/ozono/sanificazione/applicazioni/{application_dash}.html">
-                <img src="/assets/images/ozono-sanificazione-{application_dash}-introduzione.jpg" alt="">
+            <a class="decoration-none" href="/ozono/sanificazione/applicazioni/{application_slug}.html">
+                <img src="/assets/images/ozono-sanificazione-{application_slug}-introduzione.jpg" alt="">
                 <h3>Sanificazione ad ozono per {application_name.lower()}</h3>
             </a>
         '''
@@ -975,19 +993,19 @@ def gen_pagina_guide():
 # MAIN
 ###################################################################################################################
 
-gen_articles_html()
+gen_articles_html(regen=True)
 gen_article_applications()
 
-shutil.copy2('missione.html', 'public/missione.html')
-shutil.copy2('contatti.html', 'public/contatti.html')
-shutil.copy2('index.html', 'public/index.html')
-shutil.copy2('sitemap.xml', 'public/sitemap.xml')
+# shutil.copy2('missione.html', 'public/missione.html')
+# shutil.copy2('contatti.html', 'public/contatti.html')
+# shutil.copy2('index.html', 'public/index.html')
+# shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 gen_pagina_guide()
 
-shutil.copy2('style.css', 'public/style.css')
-shutil.copy2('style-blog.css', 'public/style-blog.css')
-shutil.copy2('util.css', 'public/util.css')
-shutil.copy2('img.css', 'public/img.css')
-shutil.copy2('logo.ico', 'public/logo.ico')
-shutil.copy2('CNAME', 'public/CNAME')
+# shutil.copy2('style.css', 'public/style.css')
+# shutil.copy2('style-blog.css', 'public/style-blog.css')
+# shutil.copy2('util.css', 'public/util.css')
+# shutil.copy2('img.css', 'public/img.css')
+# shutil.copy2('logo.ico', 'public/logo.ico')
+# shutil.copy2('CNAME', 'public/CNAME')
 

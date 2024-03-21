@@ -12,7 +12,8 @@ def csv_get_rows(filepath, delimiter='\\'):
     with open(filepath, encoding='utf-8', errors='ignore') as f:
         reader = csv.reader(f, delimiter=delimiter)
         for i, line in enumerate(reader):
-            rows.append(line)
+            if line != []:
+                rows.append(line)
     return rows
 
 
@@ -28,13 +29,14 @@ def csv_set_rows(filepath, rows, delimiter='\\'):
         writer.writerows(rows)
         
 
-def csv_get_rows_by_entity(filepath, entity, delimiter='\\'):
+def csv_get_rows_by_entity(filepath, entity, delimiter='\\', col_num=0):
     rows = []
     with open(filepath, encoding='utf-8', errors='ignore') as f:
         reader = csv.reader(f, delimiter=delimiter)
         for i, line in enumerate(reader):
-            if line[0].lower().strip().replace(' ', '-').replace("'", '-') == entity.lower().strip().replace(' ', '-').replace("'", '-'):
-                rows.append(line)
+            if line != []:
+                if line[col_num].lower().strip().replace(' ', '-').replace("'", '-') == entity.lower().strip().replace(' ', '-').replace("'", '-'):
+                    rows.append(line)
     return rows
 
 
