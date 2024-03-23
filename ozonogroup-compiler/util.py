@@ -44,6 +44,35 @@ def folder_create(path):
     if not os.path.exists(path): os.makedirs(path)
 
 
+# def get_csv_table(filepath):
+#     lines = []
+#     with open(filepath, encoding='utf-8') as f:
+#         reader = csv.reader(f, delimiter="|")
+#         for i, line in enumerate(reader):
+#             lines.append([line[0].strip(), line[1].strip()])
+#     return lines
+
+
+
+
+
+###################################
+# MD
+###################################
+
+def generate_table(lines):
+    text = ''
+    for i, line in enumerate(lines):
+        if i == 0: 
+            text += f'| {line[0].title()} | Problemi | \n'
+            text += f'| --- | --- |\n'
+        else:
+            text += f'| {line[0].capitalize()} | {line[1].capitalize()} |\n'
+    text += f'\n'
+    return text
+
+
+
 
 
 ###################################
@@ -172,6 +201,35 @@ def list_bold_to_html(lst):
             html += f'<li>{item}</li>\n'
     html += '</ul>\n'
     return html
+
+
+def lst_to_blt(lst):
+    txt = ''
+    for item in lst:
+        txt += f'- {item}\n'
+    return txt.strip()
+
+
+def lst_to_txt(lst):
+    txt = ''
+    if len(lst) == 0: txt = ''
+    elif len(lst) == 1: txt = lst[0]
+    elif len(lst) == 2: txt = f'{lst[0]} e {lst[1]}'
+    else: txt = f'{", ".join(lst[:-1])} e {lst[-1]}'
+    return txt
+
+
+def bold_blt(lst):
+    bld_lst = []
+    for item in lst:
+        if ':' in item:
+            item_parts = item.split(":")
+            bld_lst.append(f'**{item_parts[0]}**: {item_parts[1]}')
+        else:
+            bld_lst.append(f'{item}')
+    return bld_lst
+
+
 
 
 ###################################
