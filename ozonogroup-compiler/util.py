@@ -44,6 +44,17 @@ def folder_create(path):
     if not os.path.exists(path): os.makedirs(path)
 
 
+def filepath_create(filepath, debug=False):
+    chunks = filepath.split('/')
+    chunk_curr = ''
+    for chunk in chunks[:-1]:
+        chunk_curr += f'{chunk}/'
+        try: os.makedirs(chunk_curr)
+        except: 
+            if debug: print(f'WARNING: folder already exists? >> {chunk_curr}')
+    file_append(filepath, '')
+
+
 # def get_csv_table(filepath):
 #     lines = []
 #     with open(filepath, encoding='utf-8') as f:
@@ -83,11 +94,13 @@ def file_append(filepath, text):
     with open(filepath, 'a', encoding='utf-8') as f: 
         f.write(text)
 
+
 def file_read(filepath):
     file_append(filepath, '')
     with open(filepath, 'r', encoding='utf-8') as f: 
         text = f.read()
     return text
+
 
 def file_write(filepath, text):
     chunks = filepath.split('/')[:-1]
@@ -112,7 +125,9 @@ def json_append(filepath, data):
         json.dump(data, f)
 
 
-def json_read(filepath):    
+def json_read(filepath):
+    filepath_create(filepath)
+
     content = file_read(filepath)
     if content.strip() == '': file_write(filepath, '{}')
     with open(filepath, 'r', encoding='utf-8') as f: 

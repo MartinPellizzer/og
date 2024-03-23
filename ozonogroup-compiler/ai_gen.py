@@ -653,9 +653,114 @@ def ai_applications_page_descriptions():
 
 
 
+#####################################################################################
+# SETTORE
+#####################################################################################
+
+def sector(sector):
+    sector_rows = util.csv_get_rows_by_entity('database/tables/applications.csv', sector, col_num=2)
+    for row in sector_rows:
+        print(row)
+        application_name = row[0]
+        a_1 = row[1]
+        sector = row[2]
+        slug = row[3]
+
+        json_filepath = f'database/articles/ozono/sanificazione/settori/{sector}.json'
+
+        data = util.json_read(json_filepath)
+        data['sector_name'] = sector
+        data['slug'] = slug
+        data['applications_num'] = len(sector_rows)
+        data['title'] = f'{str(data["applications_num"])} applicazioni della sanificazione ad ozono nel settore {sector.lower()}'
+        util.json_write(json_filepath, data)
+
+        data = util.json_read(json_filepath)
+        applications = []
+        try: applications = data['applications']
+        except: data['applications'] = applications
+
+        found = False
+        for application in applications:
+            if application['slug'].strip().lower() == slug.strip().lower():
+                found = True
+
+        if not found:
+            prompt = f'''
+                Scrivi un paragrafo di 100 parole facendo molti esempi delle applicazioni della sanificazione ad ozono {a_1}{application_name.lower()}.
+                Non spiegare cos'è e come funziona l'ozono.
+                Comincia la tua risposta usando queste parole: La sanificazione ad ozono {a_1}{application_name.lower()} serve per 
+            '''
+            reply = util_ai.gen_reply(prompt)
+            reply = reply.replace('\n', ' ')
+            reply = re.sub("\s\s+" , " ", reply)
+
+            if reply != '':
+                print('------------------------------')
+                print(reply)
+                print('------------------------------')
+                print()
+                data['applications'].append({'slug': slug, 'desc': reply})
+                util.json_write(json_filepath, data)
+
+            time.sleep(30)
+
+
+def sectors():
+    sector_rows = util.csv_get_rows('database/tables/applications.csv')[1:]
+    sectors = [row[2] for row in sector_rows]
+    sectors = list(dict.fromkeys(sectors))
+    
+    json_filepath = f'database/articles/ozono/sanificazione/settori.json'
+
+    data = util.json_read(json_filepath)
+    data['sectors_num'] = len(sectors)
+    data['title'] = f'{str(data["sectors_num"])} settori di applicazione della sanificazione ad ozono'
+    util.json_write(json_filepath, data)
+
+    for sector in sectors:
+        data = util.json_read(json_filepath)
+
+        var_val = []
+        var_name = 'sectors'
+        try: var_val = data[var_name]
+        except: data[var_name] = var_val
+
+        found = False
+        for sector_json in var_val:
+            if sector_json['slug'].strip().lower() == sector.strip().lower():
+                found = True
+
+        if not found:
+            prompt = f'''
+                Scrivi un paragrafo di 100 parole facendo molti esempi delle applicazioni della sanificazione ad ozono nel settore {sector.lower()}.
+                Non spiegare cos'è e come funziona l'ozono.
+                Comincia la tua risposta usando queste parole: La sanificazione ad ozono nel settore {sector.lower()} serve per 
+            '''
+            reply = util_ai.gen_reply(prompt)
+            reply = reply.replace('\n', ' ')
+            reply = re.sub("\s\s+" , " ", reply)
+
+            if reply != '':
+                print('------------------------------')
+                print(reply)
+                print('------------------------------')
+                print()
+                data[var_name].append({'slug': sector, 'desc': reply})
+                util.json_write(json_filepath, data)
+
+            time.sleep(30)
+
+
+
+sectors()
+
+sector('residenziale')
+sector('trasporti')
+
 
 # json_applications_clear_field('definition')
 
-ai_applications_main()
+# ai_applications_main()
 
 # ai_applications_page_descriptions()
