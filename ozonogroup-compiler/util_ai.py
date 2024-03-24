@@ -58,11 +58,11 @@ def text_to_paragraph(reply):
         line = line.strip()
         if line == '': continue
 
-        # if not line[0].isdigit(): continue
-        # if '. ' not in line: continue
-        # else: line = '. '.join(line.split('. ')[1:]).strip()
+        if line[0].isdigit(): 
+            if '. ' in line: 
+                line = '. '.join(line.split('. ')[1:]).strip()
         
-        reply_formatted.append(line)
+        reply_formatted.append(line.strip())
 
     return ' '.join(reply_formatted)
 

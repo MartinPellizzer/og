@@ -126,7 +126,7 @@ def json_append(filepath, data):
 
 
 def json_read(filepath):
-    filepath_create(filepath)
+    # filepath_create(filepath)
 
     content = file_read(filepath)
     if content.strip() == '': file_write(filepath, '{}')

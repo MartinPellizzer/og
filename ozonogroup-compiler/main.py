@@ -130,28 +130,24 @@ def generate_breadcrumbs(filepath_in):
 # ARTICLES
 ###################################################################################################################
 
-def gen_articles_html(regen=False):
-    if regen:
-        folderpath = 'public/ozono/sanificazione/applicazioni'
-        for filename in os.listdir(folderpath):
-            filepath = f'{folderpath}/{filename}'
-            os.remove(filepath)
-
-    folderpath = 'articles/public/ozono/sanificazione/applicazioni'
+def applications():
+    folderpath = 'articles/public/ozono/sanificazione/settori'
     rows = util.csv_get_rows('database/tables/applications.csv')
 
     cols = {}
     for i, item in enumerate(rows[0]): cols[item] = i
 
-    # for filename in os.listdir(folderpath):
     for row in rows[1:]:
-        filename = row[cols['slug']] + '.json'
-        # filename = row[0].lower().strip().replace(' ', '-').replace("'", '-') + '.json'
-        application_name_dash = filename.split('.')[0]
-        application_a_1 = util.csv_get_rows_by_entity('database/tables/applications.csv', application_name_dash, col_num=cols['slug'])
+        print(row)
+        slug = row[cols['slug']].strip()
+        name = row[cols['application']].strip()
+        a_1 = row[cols['a-1']].strip()
+        sector = row[cols['sector']].strip()
+        filename = slug + '.json'
 
-        filepath_in = f'{folderpath}/{filename}'
+        filepath_in = f'{folderpath}/{sector}/{filename}'
         filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
+
         data = util.json_read(filepath_in)
 
         keyword = filename.replace('.json', '')
@@ -283,7 +279,7 @@ def gen_articles_html(regen=False):
 
 
     # IMAGES
-    articles_folder = 'articles/public/ozono/sanificazione/applicazioni'
+    articles_folder = 'articles/public/ozono/sanificazione/settori'
     for article_filename in os.listdir(articles_folder):
         article_filename_no_ext = article_filename.replace('.json', '')
 
@@ -495,9 +491,15 @@ def sectors():
             slug = sector['slug'].strip()
             name = slug.replace('-', ' ').title()
             desc = sector['desc'].strip()
+            a_1 = sector['a_1']
+            desc_link = desc.replace(
+                f'sanificazione ad ozono nel settore {name.lower()}',
+                f'<a href="/ozono/sanificazione/settori/{slug}.html">sanificazione ad ozono nel settore {a_1}{name.lower()}</a>',
+                1
+            )
             article_html += f'<h2>{i+1}. {name}</h2>' + '\n'
-            # article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt=""></p>' + '\n'
-            article_html += util.text_format_1N1_html(desc) + '\n'
+            article_html += f'<p><img src="/assets/images/ozono-sanificazione-settori-{slug}.jpg" alt=""></p>' + '\n'
+            article_html += util.text_format_1N1_html(desc_link) + '\n'
 
     # META
     breadcrumbs = generate_breadcrumbs(filepath_in)
@@ -574,6 +576,35 @@ def sectors():
     '''
 
     util.file_write(filepath_out, html)
+    
+    
+    # IMAGES
+    if sectors != []:
+        for i, sector in enumerate(sectors):
+            slug = sector['slug'].strip()
+            images_article_folder = f'C:/og-assets/images/settori/{slug}'
+            try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+            except: 
+                print(f'MISSING: IMAGE FOLDER >>> {slug}')
+                continue
+            
+            print(images_filepath)
+            
+            images_filpaths_out = [
+                f'public/assets/images/ozono-sanificazione-settori-{slug}.jpg',
+            ]
+
+            for image_filepath_out in images_filpaths_out:
+                try:
+                    image_filepath = images_filepath.pop(0)
+                    if not os.path.exists(image_filepath_out):
+                        util_img.resize(
+                            image_filepath, 
+                            image_filepath_out
+                        )
+                except: 
+                    print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {article_filename}')
+
 
 
 def sector():
@@ -597,8 +628,8 @@ def sector():
 
         data = util.json_read(filepath_in)
         title = data['title']
-        slug = data['slug']
-        filename = slug + '.json'
+        sector_name = data['sector_name']
+        filename = sector_name + '.json'
 
         article_html = ''
         
@@ -617,12 +648,19 @@ def sector():
         except: print(f'MISSING: APPLICATIONS >>> {filename}')
         if applications != []:
             for i, application in enumerate(applications):
-                application_slug = application['slug'].strip()
-                application_name = application_slug.replace('-', ' ').title()
-                application_desc = application['desc'].strip()
-                article_html += f'<h2>{i+1}. {application_name}</h2>' + '\n'
+                slug = application['slug'].strip()
+                name = application['name'].title()
+                a_1 = application['a_1']
+                desc = application['desc'].strip()
+                print(f'sanificazione ad ozono {a_1}{name.lower()}')
+                desc_link = desc.replace(
+                    f'sanificazione ad ozono {a_1}{name.lower()}',
+                    f'<a href="/ozono/sanificazione/settori/{sector}/{slug}.html">sanificazione ad ozono {a_1}{name.lower()}</a>',
+                    1
+                )
+                article_html += f'<h2>{i+1}. {name}</h2>' + '\n'
                 # article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt=""></p>' + '\n'
-                article_html += util.text_format_1N1_html(application_desc) + '\n'
+                article_html += util.text_format_1N1_html(desc_link) + '\n'
 
 
         # META
@@ -707,17 +745,17 @@ def sector():
 # MAIN
 ###################################################################################################################
 
-# gen_articles_html(regen=True)
+applications()
 # gen_article_applications()
 
-# shutil.copy2('templates/index.html', 'public/index.html')
+shutil.copy2('templates/index.html', 'public/index.html')
 # shutil.copy2('templates/servizi.html', 'public/servizi.html')
 # shutil.copy2('templates/missione.html', 'public/missione.html')
 # shutil.copy2('templates/contatti.html', 'public/contatti.html')
 # shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 
 # guides()
-# sectors()
+sectors()
 sector()
 
 # shutil.copy2('style.css', 'public/style.css')

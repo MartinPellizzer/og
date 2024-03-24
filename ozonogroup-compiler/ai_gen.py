@@ -104,7 +104,7 @@ def json_applications_clear_field(field_name):
 
 
 #####################################################################################
-# SINGLE APPLICATION
+# DETAILED REPLY FOR APPLICATION (expensive!)
 #####################################################################################
 
 def ai_batteri_csv(row):
@@ -360,6 +360,10 @@ def ai_benefici_csv(row):
 
 
 
+#####################################################################################
+# APPLICATION
+#####################################################################################
+
 def ai_gen(json_filepath, section, prompt):
     var_val = ''
     var_name = f'{section}_desc'
@@ -533,7 +537,7 @@ def ai_applications_main():
         application_a_1 = row[1]
         application_category = row[2]
         application_slug = row[3]
-        json_filepath = f'articles/public/ozono/sanificazione/applicazioni/{application_slug}.json'
+        json_filepath = f'articles/public/ozono/sanificazione/settori/{application_category}/{application_slug}.json'
 
         if not os.path.exists(json_filepath):
             with open(json_filepath, 'a', encoding='utf-8') as f:
@@ -670,7 +674,7 @@ def sector(sector):
 
         data = util.json_read(json_filepath)
         data['sector_name'] = sector
-        data['slug'] = slug
+        data['application_name'] = application_name
         data['applications_num'] = len(sector_rows)
         data['title'] = f'{str(data["applications_num"])} applicazioni della sanificazione ad ozono nel settore {sector.lower()}'
         util.json_write(json_filepath, data)
@@ -700,7 +704,7 @@ def sector(sector):
                 print(reply)
                 print('------------------------------')
                 print()
-                data['applications'].append({'slug': slug, 'desc': reply})
+                data['applications'].append({'slug': slug, 'name': application_name, 'a_1': a_1, 'desc': reply})
                 util.json_write(json_filepath, data)
 
             time.sleep(30)
@@ -753,14 +757,13 @@ def sectors():
 
 
 
-sectors()
-
-sector('residenziale')
-sector('trasporti')
+# sectors()
+# sector('residenziale')
+# sector('trasporti')
 
 
 # json_applications_clear_field('definition')
 
-# ai_applications_main()
+ai_applications_main()
 
 # ai_applications_page_descriptions()

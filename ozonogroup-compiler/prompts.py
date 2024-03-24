@@ -7,6 +7,7 @@ intro = [
         Nella frase 4, spiega quali sono le applicazioni dell'ozono [application_a_1][application_name].
         Nella frase 5, spiega quali sono i vantaggi dell'ozono [application_a_1][application_name] confronto ad altri metodi di sanificazione.
         Rispondi in meno di 100 parole.
+        Non usare liste.
     ''',
 ]
 
