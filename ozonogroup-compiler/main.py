@@ -2,6 +2,7 @@ import json
 import os
 import shutil
 import csv
+import markdown
 
 import util
 import util_img
@@ -745,18 +746,107 @@ def sector():
 # MAIN
 ###################################################################################################################
 
-applications()
+def static_article(filepath):
+    filepath_in = filepath
+    filepath_out = filepath_in.replace('articles/', '').replace('.md', '.html')
+    
+    content = util.file_read(filepath_in)
+    title = ''
+    for line in content.split('\n'):
+        if line.startswith('# '):
+            title = line.replace('# ', '')
+    article_html = markdown.markdown(content)
+
+    # META
+    breadcrumbs = generate_breadcrumbs(filepath_in)
+    breadcrumbs = breadcrumbs.replace('.Md', '').replace('.md', '')
+    reading_time = len(article_html.split(' ')) // 200
+
+    publishing_date = '06/11/2023' # TODO: generate dinamically
+    
+    author = 'Ozonogroup Staff'
+    try: author = md.Meta['author'][0]
+    except: pass
+
+    last_update_date = ''
+    try: last_update_date = md.Meta['last_update_date'][0]
+    except: pass
+
+    article_html = generate_toc(article_html)
+
+    # COMPONENTS
+    with open('components/header.html', encoding='utf-8') as f:
+        header_html = f.read()
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="/style-blog.css">
+            <link rel="stylesheet" href="/util.css">
+            <title>{title}</title>
+            {g.GOOGLE_TAG}
+        </head>
+
+        <body>
+            <section class="header-section">
+                <div class="container-xl h-full">
+                    {header_html}
+                </div>
+            </section>
+
+            <section class="breadcrumbs-section">
+                <div class="container-xl h-full">
+                    <a href="/index.html">Home</a>{breadcrumbs}
+                </div>
+            </section>
+
+            <section class="meta-section mt-48">
+                <div class="container-md h-full">
+                    <div class="flex justify-between mb-8">
+                        <span>by {author} • {publishing_date}</span>
+                        <span>Tempo Lettura: {reading_time} min</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="container-md">
+                {article_html}
+            </section>
+
+            <section class="footer-section">
+                <div class="container-xl h-full">
+                    <footer class="flex items-center justify-center">
+                        <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+                    </footer>
+                </div>
+            </section>
+        </body>
+
+        </html>
+    '''
+
+    util.file_write(filepath_out, html)
+
+
+
+static_article('articles/public/ozono/sanificazione.md')
+
+# applications()
 # gen_article_applications()
 
-shutil.copy2('templates/index.html', 'public/index.html')
+# shutil.copy2('templates/index.html', 'public/index.html')
 # shutil.copy2('templates/servizi.html', 'public/servizi.html')
 # shutil.copy2('templates/missione.html', 'public/missione.html')
 # shutil.copy2('templates/contatti.html', 'public/contatti.html')
 # shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 
 # guides()
-sectors()
-sector()
+# sectors()
+# sector()
 
 # shutil.copy2('style.css', 'public/style.css')
 # shutil.copy2('style-blog.css', 'public/style-blog.css')

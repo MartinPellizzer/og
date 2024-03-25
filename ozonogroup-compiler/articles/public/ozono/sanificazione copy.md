@@ -1,4 +1,8 @@
-# Sanificazione ad ozono: cos'è, vantaggi e settori di applicazione
+---
+publishing_date: 06/11/2023
+---
+
+# Sanificazione ad Ozono: Cos'è, Vantaggi e Applicazioni
 
 ![Ozono Sanificazione Introduzione](/assets/images/ozono-sanificazione-introduzione.jpg "Ozono Sanificazione Introduzione")
 
