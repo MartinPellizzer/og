@@ -758,6 +758,12 @@ def sectors():
 
 
 # sectors()
+
+rows = util.csv_get_rows('database/tables/sectors.csv')[1:]
+sectors = [row[1] for row in rows]
+for sec in sectors:
+    sector(sec)
+
 # sector('residenziale')
 # sector('trasporti')
 

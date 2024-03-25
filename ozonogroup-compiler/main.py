@@ -139,7 +139,7 @@ def applications():
     for i, item in enumerate(rows[0]): cols[item] = i
 
     for row in rows[1:]:
-        print(row)
+        # print(row)
         slug = row[cols['slug']].strip()
         name = row[cols['application']].strip()
         a_1 = row[cols['a-1']].strip()
@@ -147,6 +147,7 @@ def applications():
         filename = slug + '.json'
 
         filepath_in = f'{folderpath}/{sector}/{filename}'
+        print(filepath_in)
         filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
 
         data = util.json_read(filepath_in)
@@ -154,6 +155,7 @@ def applications():
         keyword = filename.replace('.json', '')
         application = keyword.lower().replace('-', ' ')
         title = f'Sanificazione {application} con ozono'
+        imagepath_out_rel = f'{sector}-{keyword}' 
 
         article_html = ''
 
@@ -162,7 +164,7 @@ def applications():
         except: print(f'MISSING: INTRO >>> {filename}')
         if intro != '':
             article_html += f'<h1>{title}</h1>' + '\n'
-            image_path = f'/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg'
+            image_path = f'/assets/images/ozono-sanificazione-{imagepath_out_rel}-introduzione.jpg'
             article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
             try: article_html += util.text_format_1N1_html(intro) + '\n'
             except: print(f'MISSING: INTRO >>> {filename}')
@@ -172,7 +174,7 @@ def applications():
         except: print(f'MISSING: DEFINITION >>> {filename}')
         if definition != '':
             article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application}?</h2>' + '\n'
-            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt=""></p>' + '\n'
+            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{imagepath_out_rel}-definizione.jpg" alt=""></p>' + '\n'
             article_html += util.text_format_1N1_html(definition) + '\n'
 
         problems_text = ''
@@ -180,7 +182,7 @@ def applications():
         except: print(f'MISSING: PROBLEMS_TEXT >>> {filename}')
         if problems_text != '':
             article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application}?</h2>' + '\n'
-            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-problemi.jpg" alt=""></p>' + '\n'
+            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{imagepath_out_rel}-problemi.jpg" alt=""></p>' + '\n'
             article_html += util.text_format_1N1_html(problems_text) + '\n'
 
         benefits_text = ''
@@ -188,7 +190,7 @@ def applications():
         except: print(f'MISSING: BENEFITS_TEXT >>> {filename}')
         if benefits_text != '':
             article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application}?</h2>' + '\n'
-            image_path = f'/assets/images/ozono-sanificazione-{keyword}-benefici.jpg'
+            image_path = f'/assets/images/ozono-sanificazione-{imagepath_out_rel}-benefici.jpg'
             # if os.path.exists(image_path):
             article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
             article_html += util.text_format_1N1_html(benefits_text) + '\n'
@@ -198,7 +200,7 @@ def applications():
         except: print(f'MISSING: BENEFITS_TEXT >>> {filename}')
         if applications_text != '':
             article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application}?</h2>' + '\n'
-            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-applicazioni.jpg" alt=""></p>' + '\n'
+            article_html += f'<p><img src="/assets/images/ozono-sanificazione-{imagepath_out_rel}-applicazioni.jpg" alt=""></p>' + '\n'
             article_html += util.text_format_1N1_html(applications_text) + '\n'
             # article_html += util.list_bold_to_html(data['applications_list']) + '\n'
 
@@ -278,27 +280,23 @@ def applications():
 
         util.file_write(filepath_out, html)
 
-
-    # IMAGES
-    articles_folder = 'articles/public/ozono/sanificazione/settori'
-    for article_filename in os.listdir(articles_folder):
-        article_filename_no_ext = article_filename.replace('.json', '')
-
-        article_filepath = f'{article_filename}/{article_filename}'
-        images_articles_folder = f'C:/og-assets/images/articles'
-        images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
+        # IMAGES
+        images_article_folder = f'C:/og-assets/images/articles/{sector}/{slug}'
         try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
         except: 
-            print(f'MISSING: IMAGE FOLDER >>> {article_filename}')
+            print(f'MISSING: IMAGE FOLDER >>> {images_article_folder}')
             continue
 
         images_filpaths_out = [
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
-            f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
+            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg',
+            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-definizione.jpg',
+            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-problemi.jpg',
+            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-benefici.jpg',
+            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-applicazioni.jpg',
         ]
+        for image_filepath_out in images_filpaths_out:
+            print(image_filepath_out)
+        pass
 
         # print(images_filepath[0])
         print(images_filpaths_out[0])
@@ -311,7 +309,43 @@ def applications():
                         image_filepath_out
                     )
             except: 
-                print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {article_filename}')
+                print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {images_article_folder}')
+
+
+
+    # # IMAGES
+    # articles_folder = f'articles/public/ozono/sanificazione/settori/{sector}'
+    # for article_filename in os.listdir(articles_folder):
+    #     article_filename_no_ext = article_filename.replace('.json', '')
+
+    #     article_filepath = f'{article_filename}/{article_filename}'
+    #     images_articles_folder = f'C:/og-assets/images/articles'
+    #     images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
+    #     try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+    #     except: 
+    #         print(f'MISSING: IMAGE FOLDER >>> {article_filename}')
+    #         continue
+
+    #     images_filpaths_out = [
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
+    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
+    #     ]
+
+    #     # print(images_filepath[0])
+    #     print(images_filpaths_out[0])
+    #     for image_filepath_out in images_filpaths_out:
+    #         try:
+    #             image_filepath = images_filepath.pop(0)
+    #             if not os.path.exists(image_filepath_out):
+    #                 util_img.resize(
+    #                     image_filepath, 
+    #                     image_filepath_out
+    #                 )
+    #         except: 
+    #             print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {article_filename}')
 
 
 def gen_article_applications():
@@ -639,8 +673,7 @@ def sector():
         except: print(f'MISSING: INTRO >>> {filename}')
         if intro != '':
             article_html += f'<h1>{title}</h1>' + '\n'
-            # image_path = f'/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg'
-            # article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
+            # article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg" alt=""></p>' + '\n'
             try: article_html += util.text_format_1N1_html(intro) + '\n'
             except: print(f'MISSING: INTRO >>> {filename}')
             
@@ -653,14 +686,14 @@ def sector():
                 name = application['name'].title()
                 a_1 = application['a_1']
                 desc = application['desc'].strip()
-                print(f'sanificazione ad ozono {a_1}{name.lower()}')
+                # print(f'sanificazione ad ozono {a_1}{name.lower()}')
                 desc_link = desc.replace(
                     f'sanificazione ad ozono {a_1}{name.lower()}',
                     f'<a href="/ozono/sanificazione/settori/{sector}/{slug}.html">sanificazione ad ozono {a_1}{name.lower()}</a>',
                     1
                 )
                 article_html += f'<h2>{i+1}. {name}</h2>' + '\n'
-                # article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-definizione.jpg" alt=""></p>' + '\n'
+                article_html += f'<p><img src="/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg" alt=""></p>' + '\n'
                 article_html += util.text_format_1N1_html(desc_link) + '\n'
 
 
@@ -833,9 +866,10 @@ def static_article(filepath):
 
 
 
-static_article('articles/public/ozono/sanificazione.md')
+# static_article('articles/public/ozono/sanificazione.md')
 
-# applications()
+applications()
+
 # gen_article_applications()
 
 # shutil.copy2('templates/index.html', 'public/index.html')
