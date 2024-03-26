@@ -32,14 +32,16 @@ Biblioteche\nelle \residenziale
 
 
 
-camper\nelle \trasporti
-Taxi\nei \trasporti
+* camper\nei \trasporti
+* Taxi\nei \trasporti
+* Metropolitane\nelle \trasporti
+* Furgoni\nei \trasporti
+* Camion\nei \trasporti
+* carri funebri\nei \trasporti
+* roulotte\nelle \trasporti
+
 Trasporto merci\nel \trasporti
-Metropolitane\nelle \trasporti
-Furgoni\nei \trasporti
-Camion\nei \trasporti
-carri funebri\nei \trasporti
-roulotte\nelle \trasporti
+
 
 
 Sale operatorie\nelle \sanità

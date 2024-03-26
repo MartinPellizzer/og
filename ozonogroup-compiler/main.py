@@ -863,17 +863,17 @@ def static_article(filepath):
 
 
 
-static_article('articles/public/ozono.md')
-static_article('articles/public/ozono/chimica.md')
-static_article('articles/public/ozono/sanificazione.md')
-static_article('articles/public/ozono/stratosfera.md')
-static_article('articles/public/ozono/troposfera.md')
+# static_article('articles/public/ozono.md')
+# static_article('articles/public/ozono/chimica.md')
+# static_article('articles/public/ozono/sanificazione.md')
+# static_article('articles/public/ozono/stratosfera.md')
+# static_article('articles/public/ozono/troposfera.md')
 
 gen_applications()
 
 # gen_article_applications()
 
-# shutil.copy2('templates/index.html', 'public/index.html')
+shutil.copy2('templates/index.html', 'public/index.html')
 # shutil.copy2('templates/servizi.html', 'public/servizi.html')
 # shutil.copy2('templates/missione.html', 'public/missione.html')
 # shutil.copy2('templates/contatti.html', 'public/contatti.html')

@@ -1,3 +1,5 @@
+- add images application (fungicoltura) -> improve main industri application page (make them quality nodes)
+- homepage hero image loads slow (check it)
 - add intros and titles
 - generate new sitemap (delete old one?)
 - generate new articles (15 for each sector?)

@@ -24,6 +24,13 @@ Navi\nelle \trasporti\navi
 Aeroplani\negli \trasporti\aeroplani
 Elicotteri\negli \trasporti\elicotteri
 Ambulanze\nelle \trasporti\ambulanze
+Camper\nei \trasporti\camper
+Taxi\nei \trasporti\camper
+Metropolitane\nelle \trasporti\metropolitane
+Furgoni\nei \trasporti\furgoni
+Camion\nei \trasporti\camion
+Carri Funebri\nei \trasporti\carri-funebri
+Roulotte\nelle \trasporti\roulotte
 Ospedali\negli \sanità\ospedali
 Case di Riposo\nelle \sanità\case-riposo
 Studi Dentistici\negli \sanità\studi-dentistici
@@ -51,6 +58,7 @@ Industria Avicola\nell'\industriale\industria-avicola
 Industria Ittica\nell'\industriale\industria-ittica
 Industria Lattiero-Casearia\nell'\industriale\industria-lattiero-casearia
 Industria Ortofrutticola\nell'\industriale\industria-ortofrutticola
+Industria Della Fungicoltura\nell'\industriale\industria-fungicoltura
 Industria Vinicola\nell'\industriale\industria-vinicola
 Industria Cerealicola\nell'\industriale\industria-cerealicola
 Industria Dell'Acqua Minerale\nell'\industriale\industria-acqua-minerale
