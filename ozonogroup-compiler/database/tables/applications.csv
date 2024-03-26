@@ -2,6 +2,20 @@ application\a-1\sector\slug
 Case\nelle \residenziale\case
 Camere da letto delle case\nelle \residenziale\camere-letto
 Cucine delle case\nelle \residenziale\cucine
+Bagni delle abitazioni\nei \residenziale\bagni
+Soggiorni delle abitazioni\nei \residenziale\soggiorni
+Sale da pranzo delle abitazioni\nelle \residenziale\sale-pranzo
+Studi delle abitazioni\negli \residenziale\studi
+Stanze degli ospiti delle abitazioni\nelle \residenziale\stanze-ospiti
+Cantine delle abitazioni\nelle \residenziale\cantine
+Lavanderie delle abitazioni\nelle \residenziale\lavanderie
+Sale giochi delle abitazioni\nelle \residenziale\sale-giochi
+Palestre delle abitazioni\nelle \residenziale\palestre
+Sale multimediali delle abitazioni\nelle \residenziale\sale-multimediali
+Ripostigli delle abitazioni\nei \residenziale\ripostigli
+Garage delle abitazioni\nei \residenziale\garage
+Sottotetti delle abitazioni\nei \residenziale\sottotetti
+Stanze per gli animali domestici delle abitazioni\nelle \residenziale\stanze-animali-domestici
 Automobili\nelle \trasporti\automobili
 Treni\nei \trasporti\treni
 Tram\nei \trasporti\tram

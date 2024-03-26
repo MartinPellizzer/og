@@ -1,7 +1,3 @@
----
-publishing_date: 15/08/2023
----
-
 # Ozono Troposferico: Formazione, Effetti e Prevenzione
 
 ![Ozono Troposferico](/assets/images/ozono-troposferico.jpg "Ozono Troposferico")

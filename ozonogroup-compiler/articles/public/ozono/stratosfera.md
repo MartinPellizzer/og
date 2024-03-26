@@ -1,7 +1,3 @@
----
-publishing_date: 15/08/2023
----
-
 # Ozono Statosferico: Funzione, Formazione e Protezione
 
 ![Ozono stratosferico](/assets/images/ozono-stratosferico.jpg "Ozono stratosferico")

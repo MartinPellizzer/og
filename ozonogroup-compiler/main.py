@@ -131,7 +131,7 @@ def generate_breadcrumbs(filepath_in):
 # ARTICLES
 ###################################################################################################################
 
-def applications():
+def gen_applications():
     folderpath = 'articles/public/ozono/sanificazione/settori'
     rows = util.csv_get_rows('database/tables/applications.csv')
 
@@ -159,12 +159,12 @@ def applications():
 
         article_html = ''
 
+        article_html += f'<h1>{title}</h1>' + '\n'
+        image_path = f'/assets/images/ozono-sanificazione-{imagepath_out_rel}-introduzione.jpg'
         intro = ''
         try: intro = data['intro_desc']
         except: print(f'MISSING: INTRO >>> {filename}')
         if intro != '':
-            article_html += f'<h1>{title}</h1>' + '\n'
-            image_path = f'/assets/images/ozono-sanificazione-{imagepath_out_rel}-introduzione.jpg'
             article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
             try: article_html += util.text_format_1N1_html(intro) + '\n'
             except: print(f'MISSING: INTRO >>> {filename}')
@@ -294,12 +294,8 @@ def applications():
             f'public/assets/images/ozono-sanificazione-{sector}-{slug}-benefici.jpg',
             f'public/assets/images/ozono-sanificazione-{sector}-{slug}-applicazioni.jpg',
         ]
-        for image_filepath_out in images_filpaths_out:
-            print(image_filepath_out)
-        pass
 
-        # print(images_filepath[0])
-        print(images_filpaths_out[0])
+        # print(images_filpaths_out[0])
         for image_filepath_out in images_filpaths_out:
             try:
                 image_filepath = images_filepath.pop(0)
@@ -668,12 +664,13 @@ def sector():
 
         article_html = ''
         
+        article_html += f'<h1>{title}</h1>' + '\n'
+        article_html += f'<p><img src="/assets/images/ozono-sanificazione-settori-{sector}.jpg" alt=""></p>' + '\n'
+        
         intro = ''
         try: intro = data['intro_desc']
         except: print(f'MISSING: INTRO >>> {filename}')
         if intro != '':
-            article_html += f'<h1>{title}</h1>' + '\n'
-            # article_html += f'<p><img src="/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg" alt=""></p>' + '\n'
             try: article_html += util.text_format_1N1_html(intro) + '\n'
             except: print(f'MISSING: INTRO >>> {filename}')
             
@@ -788,7 +785,7 @@ def static_article(filepath):
     for line in content.split('\n'):
         if line.startswith('# '):
             title = line.replace('# ', '')
-    article_html = markdown.markdown(content)
+    article_html = markdown.markdown(content, extensions=['markdown.extensions.tables'])
 
     # META
     breadcrumbs = generate_breadcrumbs(filepath_in)
@@ -866,9 +863,13 @@ def static_article(filepath):
 
 
 
-# static_article('articles/public/ozono/sanificazione.md')
+static_article('articles/public/ozono.md')
+static_article('articles/public/ozono/chimica.md')
+static_article('articles/public/ozono/sanificazione.md')
+static_article('articles/public/ozono/stratosfera.md')
+static_article('articles/public/ozono/troposfera.md')
 
-applications()
+gen_applications()
 
 # gen_article_applications()
 
@@ -880,7 +881,7 @@ applications()
 
 # guides()
 # sectors()
-# sector()
+sector()
 
 # shutil.copy2('style.css', 'public/style.css')
 # shutil.copy2('style-blog.css', 'public/style-blog.css')

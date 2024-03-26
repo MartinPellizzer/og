@@ -661,39 +661,39 @@ def ai_applications_page_descriptions():
 # SETTORE
 #####################################################################################
 
-def sector(sector):
-    sector_rows = util.csv_get_rows_by_entity('database/tables/applications.csv', sector, col_num=2)
-    for row in sector_rows:
-        print(row)
-        application_name = row[0]
-        a_1 = row[1]
-        sector = row[2]
-        slug = row[3]
-
-        json_filepath = f'database/articles/ozono/sanificazione/settori/{sector}.json'
-
+def ai_sector():
+    sectors_rows = util.csv_get_rows('database/tables/sectors.csv')[1:]
+    for sector_row in sectors_rows:
+        sector_name = sector_row[1]
+        a_1 = sector_row[2]
+        
+        applications_rows = util.csv_get_rows_by_entity('database/tables/applications.csv', sector_name, col_num=2)
+        applications_names = [row[0].lower() for row in applications_rows]
+        applications_names_text = ', '.join(applications_names)
+        
+        for application in applications_names:
+            print(application)
+        
+        json_filepath = f'database/articles/ozono/sanificazione/settori/{sector_name}.json'
+        
         data = util.json_read(json_filepath)
-        data['sector_name'] = sector
-        data['application_name'] = application_name
-        data['applications_num'] = len(sector_rows)
-        data['title'] = f'{str(data["applications_num"])} applicazioni della sanificazione ad ozono nel settore {sector.lower()}'
+        data['sector_name'] = sector_name
+        data['applications_num'] = len(applications_names)
+        data['title'] = f'{str(data["applications_num"])} applicazioni della sanificazione ad ozono nel settore {a_1}{sector_name.lower()}'
         util.json_write(json_filepath, data)
+        print(len(applications_names))
 
         data = util.json_read(json_filepath)
-        applications = []
-        try: applications = data['applications']
-        except: data['applications'] = applications
+        intro_desc = []
+        try: intro_desc = data['intro_desc']
+        except: data['intro_desc'] = intro_desc
 
-        found = False
-        for application in applications:
-            if application['slug'].strip().lower() == slug.strip().lower():
-                found = True
-
-        if not found:
+        if intro_desc == []:
             prompt = f'''
-                Scrivi un paragrafo di 100 parole facendo molti esempi delle applicazioni della sanificazione ad ozono {a_1}{application_name.lower()}.
+                Scrivi un paragrafo di 100 parole facendo molti esempi delle applicazioni della sanificazione ad ozono nel settore {a_1}{sector_name}.
                 Non spiegare cos'è e come funziona l'ozono.
-                Comincia la tua risposta usando queste parole: La sanificazione ad ozono {a_1}{application_name.lower()} serve per 
+                includi le seguenti applicazioni: {applications_names_text}.
+                Inizia la tua risposta con le seguenti parole: L'ozono viene uato nel settore {a_1}{sector_name} per .
             '''
             reply = util_ai.gen_reply(prompt)
             reply = reply.replace('\n', ' ')
@@ -704,10 +704,48 @@ def sector(sector):
                 print(reply)
                 print('------------------------------')
                 print()
-                data['applications'].append({'slug': slug, 'name': application_name, 'a_1': a_1, 'desc': reply})
+                data['intro_desc'] = reply
                 util.json_write(json_filepath, data)
 
             time.sleep(30)
+
+        applications_rows = util.csv_get_rows_by_entity('database/tables/applications.csv', sector_name, col_num=2)
+        for row in applications_rows:
+            print(row)
+            application_name = row[0]
+            a_1 = row[1]
+            sector = row[2]
+            slug = row[3]
+
+            data = util.json_read(json_filepath)
+            applications = []
+            try: applications = data['applications']
+            except: data['applications'] = applications
+
+            found = False
+            for application in applications:
+                if application['slug'].strip().lower() == slug.strip().lower():
+                    found = True
+
+            if not found:
+                prompt = f'''
+                    Scrivi un paragrafo di 100 parole facendo molti esempi delle applicazioni della sanificazione ad ozono {a_1}{application_name.lower()}.
+                    Non spiegare cos'è e come funziona l'ozono.
+                    Comincia la tua risposta usando queste parole: La sanificazione ad ozono {a_1}{application_name.lower()} serve per 
+                '''
+                reply = util_ai.gen_reply(prompt)
+                reply = reply.replace('\n', ' ')
+                reply = re.sub("\s\s+" , " ", reply)
+
+                if reply != '':
+                    print('------------------------------')
+                    print(reply)
+                    print('------------------------------')
+                    print()
+                    data['applications'].append({'slug': slug, 'name': application_name, 'a_1': a_1, 'desc': reply})
+                    util.json_write(json_filepath, data)
+
+                time.sleep(30)
 
 
 def sectors():
@@ -759,13 +797,8 @@ def sectors():
 
 # sectors()
 
-rows = util.csv_get_rows('database/tables/sectors.csv')[1:]
-sectors = [row[1] for row in rows]
-for sec in sectors:
-    sector(sec)
 
-# sector('residenziale')
-# sector('trasporti')
+# ai_sector()
 
 
 # json_applications_clear_field('definition')

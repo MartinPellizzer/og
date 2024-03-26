@@ -1,2 +1,6 @@
-- aggiungi ink: ozono_sanificazione >> settori
+- add intros and titles
+- generate new sitemap (delete old one?)
+- generate new articles (15 for each sector?)
+- improve old articles (add new sections, remove image html if image not available)
+- redirect old page (check search console)
 - generate images before articles, to check if they exists and add them only if they do
