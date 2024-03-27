@@ -972,34 +972,30 @@ def static_article(filepath):
 
 
 
-static_article('articles/public/ozono.md')
-static_article('articles/public/ozono/chimica.md')
-static_article('articles/public/ozono/sanificazione.md')
-static_article('articles/public/ozono/stratosfera.md')
-static_article('articles/public/ozono/troposfera.md')
-static_article('articles/public/ozono/effetti.md')
-static_article('articles/public/ozono/benefici.md')
+# static_article('articles/public/ozono.md')
+# static_article('articles/public/ozono/chimica.md')
+# static_article('articles/public/ozono/sanificazione.md')
+# static_article('articles/public/ozono/stratosfera.md')
+# static_article('articles/public/ozono/troposfera.md')
+# static_article('articles/public/ozono/effetti.md')
+# static_article('articles/public/ozono/benefici.md')
 
-gen_applications()
+# gen_applications()
 
 # gen_article_applications()
 
-# shutil.copy2('templates/index.html', 'public/index.html')
-# shutil.copy2('templates/servizi.html', 'public/servizi.html')
-# shutil.copy2('templates/missione.html', 'public/missione.html')
-# shutil.copy2('templates/contatti.html', 'public/contatti.html')
 # shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 
-page_home()
-page_servizi()
-page_settori()
-page_missione()
-page_contatti()
+# page_home()
+# page_servizi()
+# page_settori()
+# page_missione()
+# page_contatti()
 
-sectors()
+# sectors()
 sector()
 
-shutil.copy2('style.css', 'public/style.css')
+# shutil.copy2('style.css', 'public/style.css')
 # shutil.copy2('style-blog.css', 'public/style-blog.css')
 # shutil.copy2('util.css', 'public/util.css')
 # shutil.copy2('img.css', 'public/img.css')

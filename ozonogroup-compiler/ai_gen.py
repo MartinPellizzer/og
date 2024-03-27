@@ -798,11 +798,11 @@ def sectors():
 # sectors()
 
 
-# ai_sector()
+ai_sector()
 
 
 # json_applications_clear_field('definition')
 
-ai_applications_main()
+# ai_applications_main()
 
 # ai_applications_page_descriptions()
