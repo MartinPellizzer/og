@@ -32,9 +32,19 @@ Camion\nei \trasporti\camion
 Carri Funebri\nei \trasporti\carri-funebri
 Roulotte\nelle \trasporti\roulotte
 Ospedali\negli \sanità\ospedali
-Case di Riposo\nelle \sanità\case-riposo
+Sale operatorie\nelle \sanità\sale-operatorie
+Ambulatori\negli \sanità\ambulatori
+Laboratori medici\nei \sanità\laboratori-medici
+Reparti di degenza\nei \sanità\reparti-degenza
+Reparti di terapia intensiva\nei \sanità\reparti-terapia-intensiva
+Centri di dialisi\nei \sanità\centri-dialisi
+Centri di riabilitazione\nei \sanità\centri-riabilitazione
+Sale di attesa\nelle \sanità\sale-attesa
+Cliniche\nelle \sanità\cliniche
 Studi Dentistici\negli \sanità\studi-dentistici
 Studi Veterinari\negli \sanità\studi-veterinari
+Farmacie\nelle \sanità\farmacie
+Case di Riposo\nelle \sanità\case-riposo
 Scuole\nelle \istruzione\scuole
 Asili\negli \istruzione\asili
 Cinema\nei \intrattenimento\cinema

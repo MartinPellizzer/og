@@ -223,8 +223,7 @@ def gen_applications():
         article_html = generate_toc(article_html)
 
         # COMPONENTS
-        with open('components/header.html', encoding='utf-8') as f:
-            header_html = f.read()
+        header_html = component_header_no_logo()
 
         # HTML
         html = f'''
@@ -451,47 +450,160 @@ def gen_article_applications():
 # PAGINE
 ###################################################################################################################
 
-def guides():
-    content = util.file_read('templates/guide.html')
-    rows = util.csv_get_rows('database/tables/applications.csv')[1:]
+def component_header_logo():
+    return f'''
+        <header>
+            <div class="logo">
+                <a href="/">
+                    <img src="logo-white.png" alt="logo ozonogroup">
+                </a>
+            </div>
+            <nav>
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/servizi.html">Servizi</a></li>
+                    <li><a href="/settori.html">Settori</a></li>
+                    <li><a href="/missione.html">Missione</a></li>
+                    <li><a href="/contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+    '''
+    
 
-    articles_dict = {}
-    for row in rows:
-        print(row)
-        try: articles_dict[row[2]].append([row[0], row[1], row[3]])
-        except: articles_dict[row[2]] = [[row[0], row[1], row[3]]]
+def component_header_no_logo():
+    return f'''
+        <header>
+            <div class="logo">
+                <a href="/">Ozonogroup</a>
+            </div>
+            <nav>
+                <input type="checkbox" class="toggle-menu">
+                <div class="hamburger"></div>
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/servizi.html">Servizi</a></li>
+                    <li><a href="/settori.html">Settori</a></li>
+                    <li><a href="/missione.html">Missione</a></li>
+                    <li><a href="/contatti.html">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+    '''
 
 
-    articles = ''
-    for key, values in articles_dict.items():
-        articles_curr = ''
-        for value in values:
-            application_name = value[0].strip()
-            application_slug = value[2]
-            articles_curr += f'''
-            <a class="decoration-none" href="/ozono/sanificazione/applicazioni/{application_slug}.html">
-                <img src="/assets/images/ozono-sanificazione-{application_slug}-introduzione.jpg" alt="">
-                <h3>Sanificazione ad ozono per {application_name.lower()}</h3>
-            </a>
-        '''
+def page_home():
+    template = util.file_read('templates/index.html')
 
-        articles += f'''
-            <section id="articoli-1" class="pb-96">
-                <div class="container h-full">
-                    <h2 class="text-center mb-16">Sanificazione ozono per il settore: {key.title()}</h2>
-                    <p class="text-center mb-48">Scopri dove l'ozono può essere applicato per eliminare una vasta gamma di
-                        patogeni, odori e altri contaminanti.</p>
-                    <div class="grid-3">
-                        {articles_curr}
+    header = component_header_logo()
+    
+    template = template.replace('[header]', header)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+    
+
+    util.file_write('public/index.html', template)
+
+
+def page_servizi():
+    template = util.file_read('templates/servizi.html')
+
+    header = component_header_logo()
+    
+    template = template.replace('[header]', header)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+
+    util.file_write('public/servizi.html', template)
+
+
+def page_settori():
+    template = util.file_read('templates/settori.html')
+
+    header = component_header_logo()
+
+    rows = util.csv_get_rows('database/tables/sectors.csv')[1:]
+    
+    articles = f'''
+        <section>
+            <div class="container-xl h-full py-96">
+                [blocks]
+            </div>
+        </section>
+    '''
+
+    blocks = ''
+    for i, row in enumerate(rows):
+        sector_name = row[1]
+        sector_a = row[2]
+        data = util.json_read('database/articles/ozono/sanificazione/settori.json')
+        sector_desc = ''
+        sector_link = f'<p>Qui trovi una lista completa delle <a href="/ozono/sanificazione/settori/{sector_name}.html">applicazioni dell\'ozono nel settore {sector_a}{sector_name}</a>.</p>'
+        for json_sector in data['sectors']:
+            if json_sector['slug'] == sector_name:
+                sector_desc = util.text_format_1N1_html(json_sector['desc'])
+                sector_desc = sector_desc[:400] + '...'
+                break
+        if i % 2 == 0:
+            block = f'''
+                <div class="grid-2 items-center reverse mb-96">
+                    <div class="grid-col-1">
+                        <h2 class="mb-16">{sector_name.title()}</h2>
+                        <p>{sector_desc}</p>
+                        {sector_link}
+                    </div>
+                    <div class="grid-col-2">
+                        <img src="/assets/images/ozono-sanificazione-settori-{sector_name}.jpg" alt="">
                     </div>
                 </div>
-            </section>
-        '''
+            '''
+        else:
+            block = f'''
+                <div class="grid-2 items-center mb-96">
+                    <div class="grid-col-1">
+                        <img src="/assets/images/ozono-sanificazione-settori-{sector_name}.jpg" alt="">
+                    </div>
+                    <div class="grid-col-1">
+                        <h2 class="mb-16">{sector_name.title()}</h2>
+                        <p>{sector_desc}</p>
+                        {sector_link}
+                    </div>
+                </div>
+            '''
+
+        print(row)
+        blocks += block
+
+    articles = articles.replace('[blocks]', blocks)
+    template = template.replace('[articles]', articles)
+    template = template.replace('[header]', header)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+
+    util.file_write('public/settori.html', template)
+    
+
+def page_missione():
+    template = util.file_read('templates/missione.html')
+
+    header = component_header_logo()
+    
+    template = template.replace('[header]', header)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+
+    util.file_write('public/missione.html', template)
+    
+
+def page_contatti():
+    template = util.file_read('templates/contatti.html')
+
+    header = component_header_logo()
+    
+    template = template.replace('[header]', header)
+    template = template.replace('[google_tag]', g.GOOGLE_TAG)
+
+    util.file_write('public/contatti.html', template)
 
 
-    content = content.replace('[articles]', articles)
-
-    util.file_write('public/guide.html', content)
 
 
 def sectors():
@@ -551,8 +663,7 @@ def sectors():
     article_html = generate_toc(article_html)
 
     # COMPONENTS
-    with open('components/header.html', encoding='utf-8') as f:
-        header_html = f.read()
+    header_html = component_header_no_logo()
 
     # HTML
     html = f'''
@@ -713,8 +824,7 @@ def sector():
         article_html = generate_toc(article_html)
 
         # COMPONENTS
-        with open('components/header.html', encoding='utf-8') as f:
-            header_html = f.read()
+        header_html = component_header_no_logo()
 
 
         # HTML
@@ -805,8 +915,7 @@ def static_article(filepath):
     article_html = generate_toc(article_html)
 
     # COMPONENTS
-    with open('components/header.html', encoding='utf-8') as f:
-        header_html = f.read()
+    header_html = component_header_no_logo()
 
     html = f'''
         <!DOCTYPE html>
@@ -863,27 +972,34 @@ def static_article(filepath):
 
 
 
-# static_article('articles/public/ozono.md')
-# static_article('articles/public/ozono/chimica.md')
-# static_article('articles/public/ozono/sanificazione.md')
-# static_article('articles/public/ozono/stratosfera.md')
-# static_article('articles/public/ozono/troposfera.md')
+static_article('articles/public/ozono.md')
+static_article('articles/public/ozono/chimica.md')
+static_article('articles/public/ozono/sanificazione.md')
+static_article('articles/public/ozono/stratosfera.md')
+static_article('articles/public/ozono/troposfera.md')
+static_article('articles/public/ozono/effetti.md')
+static_article('articles/public/ozono/benefici.md')
 
 gen_applications()
 
 # gen_article_applications()
 
-shutil.copy2('templates/index.html', 'public/index.html')
+# shutil.copy2('templates/index.html', 'public/index.html')
 # shutil.copy2('templates/servizi.html', 'public/servizi.html')
 # shutil.copy2('templates/missione.html', 'public/missione.html')
 # shutil.copy2('templates/contatti.html', 'public/contatti.html')
 # shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 
-# guides()
-# sectors()
+page_home()
+page_servizi()
+page_settori()
+page_missione()
+page_contatti()
+
+sectors()
 sector()
 
-# shutil.copy2('style.css', 'public/style.css')
+shutil.copy2('style.css', 'public/style.css')
 # shutil.copy2('style-blog.css', 'public/style-blog.css')
 # shutil.copy2('util.css', 'public/util.css')
 # shutil.copy2('img.css', 'public/img.css')

@@ -343,7 +343,7 @@ nav input:checked~.menu {
 /* ;HERO SECTION */
 /* ************************************************************ */
 .hero-section {
-    height: 95vh;
+    height: 100vh;
 }
 
 
@@ -371,7 +371,7 @@ nav input:checked~.menu {
 .hero-img {
     /* height: 100%; */
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/hero-img-mobile.png');
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/0034.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/ozonogroup-sanificazione.jpg');
     background-size: cover;
     background-position: top;
 }
@@ -452,7 +452,7 @@ nav input:checked~.menu {
 /* ************************************************************ */
 
 .statistics-section {
-    background-color: #bfdbfe;
+    background-color: #e5e5e5;
 }
 
 

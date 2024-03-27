@@ -1,7 +1,3 @@
----
-publishing_date: 15/08/2023
----
-
 # 10 Effetti Dannosi dell'Ozono: Salute, Ambiente e Materiali
 
 ![Effetti dannosi dell'ozono sulla salute, sull'ambiente e sui materiali](/assets/images/ozono-effetti.jpg "Effetti dannosi dell'ozono sulla salute, sull'ambiente e sui materiali")
