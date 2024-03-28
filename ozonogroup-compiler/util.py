@@ -248,31 +248,6 @@ def bold_blt(lst):
 
 
 ###################################
-# SCIENTIFIC NAME
-###################################
-
-def get_scientific_name(common_name, delimiter='\\'):
-    rows = csv_get_rows('plants.csv', delimiter=delimiter)
-    rows = [
-        row 
-        for row in rows 
-        if row[1].lower().strip().replace(' ', '-') == common_name.lower().strip().replace(' ', '-')]
-    scientific_name = rows[0][0].replace('-', ' ')
-    return scientific_name
-    
-def get_common_name(entity, delimiter='\\'):
-    rows = csv_get_rows('plants.csv', delimiter=delimiter)
-    rows = [
-        row 
-        for row in rows 
-        if row[0].lower().strip().replace(' ', '-') == entity.lower().strip().replace(' ', '-')]
-    name = rows[0][1].replace('-', ' ')
-    return name
-
-
-
-
-###################################
 # IMAGES
 ###################################
 

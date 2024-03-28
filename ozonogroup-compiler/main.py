@@ -450,48 +450,40 @@ def gen_article_applications():
 # PAGINE
 ###################################################################################################################
 
-def component_header_logo():
+def component_header():
     return f'''
         <header>
             <div class="logo">
-                <a href="/">
-                    <img src="logo-white.png" alt="logo ozonogroup">
-                </a>
+                [logo]
             </div>
             <nav>
                 <input type="checkbox" class="toggle-menu">
                 <div class="hamburger"></div>
                 <ul class="menu">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/servizi.html">Servizi</a></li>
                     <li><a href="/settori.html">Settori</a></li>
+                    <li><a href="/servizi.html">Servizi</a></li>
                     <li><a href="/missione.html">Missione</a></li>
                     <li><a href="/contatti.html">Contatti</a></li>
+                    <li><a href="/ozono.html">Ozono</a></li>
                 </ul>
             </nav>
         </header>
     '''
+
+
+def component_header_logo():
+    logo = '<a href="/"><img src="logo-white.png" alt="logo ozonogroup"></a>'
+    header = component_header()
+    header = header.replace('[logo]', logo)
+    return header
     
 
 def component_header_no_logo():
-    return f'''
-        <header>
-            <div class="logo">
-                <a href="/">Ozonogroup</a>
-            </div>
-            <nav>
-                <input type="checkbox" class="toggle-menu">
-                <div class="hamburger"></div>
-                <ul class="menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/servizi.html">Servizi</a></li>
-                    <li><a href="/settori.html">Settori</a></li>
-                    <li><a href="/missione.html">Missione</a></li>
-                    <li><a href="/contatti.html">Contatti</a></li>
-                </ul>
-            </nav>
-        </header>
-    '''
+    logo = '<a href="/">Ozonogroup</a>'
+    header = component_header()
+    header = header.replace('[logo]', logo)
+    return header
 
 
 def page_home():
@@ -536,20 +528,24 @@ def page_settori():
     for i, row in enumerate(rows):
         sector_name = row[1]
         sector_a = row[2]
-        data = util.json_read('database/articles/ozono/sanificazione/settori.json')
+        data = util.json_read('database/pages/settori.json')
         sector_desc = ''
         sector_link = f'<p>Qui trovi una lista completa delle <a href="/ozono/sanificazione/settori/{sector_name}.html">applicazioni dell\'ozono nel settore {sector_a}{sector_name}</a>.</p>'
         for json_sector in data['sectors']:
             if json_sector['slug'] == sector_name:
-                sector_desc = util.text_format_1N1_html(json_sector['desc'])
-                sector_desc = sector_desc[:400] + '...'
+                sector_desc = util.list_to_html(json_sector['desc'])
+                # print(sector_desc)
+                # quit()
+                # sector_desc = util.text_format_1N1_html(json_sector['desc'])
+                # sector_desc = sector_desc[:400] + '...'
                 break
         if i % 2 == 0:
             block = f'''
                 <div class="grid-2 items-center reverse mb-96">
                     <div class="grid-col-1">
                         <h2 class="mb-16">{sector_name.title()}</h2>
-                        <p>{sector_desc}</p>
+                        <p>Ozonogroup usa la sanificazione ad ozono nel settore {sector_a}{sector_name} principalmente per: </p>
+                        {sector_desc}
                         {sector_link}
                     </div>
                     <div class="grid-col-2">
@@ -565,7 +561,8 @@ def page_settori():
                     </div>
                     <div class="grid-col-1">
                         <h2 class="mb-16">{sector_name.title()}</h2>
-                        <p>{sector_desc}</p>
+                        <p>Ozonogroup usa la sanificazione ad ozono nel settore {sector_a}{sector_name} principalmente per: </p>
+                        {sector_desc}
                         {sector_link}
                     </div>
                 </div>
@@ -971,7 +968,14 @@ def static_article(filepath):
     util.file_write(filepath_out, html)
 
 
+# MAIN PAGES
+# page_home()
+# page_servizi()
+page_settori()
+# page_missione()
+# page_contatti()
 
+# STATIC ARTICLES
 # static_article('articles/public/ozono.md')
 # static_article('articles/public/ozono/chimica.md')
 # static_article('articles/public/ozono/sanificazione.md')
@@ -986,14 +990,9 @@ def static_article(filepath):
 
 # shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 
-# page_home()
-# page_servizi()
-# page_settori()
-# page_missione()
-# page_contatti()
 
 # sectors()
-sector()
+# sector()
 
 # shutil.copy2('style.css', 'public/style.css')
 # shutil.copy2('style-blog.css', 'public/style-blog.css')

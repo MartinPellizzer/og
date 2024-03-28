@@ -1,0 +1,86 @@
+{
+    "sectors_num": 10,
+    "title": "I 10 settori principalmente serviti da Ozonogroup",
+    "sectors": [
+        {
+            "slug": "residenziale",
+            "desc": [
+                "Sanificare efficacemente intere case, incluse camere da letto, cucine, bagni e soggiorni, eliminando batteri, muffe e cattivi odori.",
+                "Trattare locali specifici, come lavanderie, sale giochi, palestre e stanze per animali domestici, dove si desidera igienizzare a fondo e prevenire il propagarsi di germi e cattivi odori.",
+                "Disinfettare ambienti sensibili, quali studi, sale multimediali e camere degli ospiti, garantendo un'aria pura e salubre per soggiorni prolungati o per persone particolarmente suscettibili a disturbi respiratori."
+            ]
+        },
+        {
+            "slug": "trasporti",
+            "desc": [
+                "Sanificare interni di automobili, autobus, taxi e camper, eliminando batteri, virus e muffe.",
+                "Disinfettare ambulanze, pulmann e vagoni ferroviari, garantendo la massima igiene per i passeggeri.",
+                "Ridurre odori sgradevoli in barche, aeroplani, elicotteri e carri funebri, offrendo un ambiente piacevole."
+            ]
+        },
+        {
+            "slug": "sanit\u00e0",
+            "desc": [
+                "Disinfettare completely hospitas, sale operatorie, ambulatori, laboratori medici, reparti di degenza, reparti di terapia intensiva, centri di dialisi, centri di riabilitazione, sale di attesa, cliniche, studi dentistici, studi veterinari, farmacie, case di riposo, eliminando il 99.9% di virus, batteri e spore.",
+                "Purificare l'aria e le superfici in tutti gli ambienti sanitari, abbattendo odori, funghi e muffe.",
+                "Garantire la sicurezza igienica in tutti i trattamenti, dalle sale operatorie alle case di riposo, mantenendo alti standard di salute e benessere per pazienti e operatori sanitari."
+            ]
+        },
+        {
+            "slug": "istruzione",
+            "desc": [
+                "Sanificare a fondo aule e ambienti educativi, eliminando batteri e virus, compresi asili e scuole.",
+                "Purificare l'aria nei locali chiusi, garantendo un ambiente sano e privo di odori spiacevoli.",
+                "Disinfettare attrezzature didattiche e giocattoli, tutelando la salute di studenti e personale."
+            ]
+        },
+        {
+            "slug": "intrattenimento",
+            "desc": [
+                "Sanificare le sale cinematografiche, eliminando batteri e odori sgradevoli.",
+                "Disinfettare gli spazi teatrali, tutelando attori e pubblico.",
+                "Depurare l'aria degli ambienti, creando un'atmosfera salubre per tutti."
+            ]
+        },
+        {
+            "slug": "ospitalit\u00e0",
+            "desc": [
+                "Sanificare sistematicamente le camere d'albergo e i B&B, eliminando odori, muffe e batteri.",
+                "Garantire la totale disinfezione di biancheria, tessili e ambienti, prolungandone la durata.",
+                "Offrire agli ospiti un ambiente salubre e confortevole, aumentandone la soddisfazione e fidelizzazione."
+            ]
+        },
+        {
+            "slug": "ristorazione",
+            "desc": [
+                "Sanificare immediatezza: bar, ristoranti, pizzerie, pasticcerie, eliminando batteri, virus e muffe.",
+                "Trattare aree delicate: mense e cucine, raggiungendo ogni angolo e superficie.",
+                "Garantire igiene continua: aree di stoccaggio e lavorazione cibi, prevenendo cattivi odori e contaminazioni."
+            ]
+        },
+        {
+            "slug": "benessere",
+            "desc": [
+                "Disinfettare piscine, mantenendo l'acqua pulita e riducendo l'utilizzo di sostanze chimiche.",
+                "Sterilizzare ambienti termali, garantendo igiene e prevenendo la proliferazione di microrganismi.",
+                "Purificare aria di palestre, migliorando la qualit\u00e0 dell'aria e proteggendo against virus e batteri."
+            ]
+        },
+        {
+            "slug": "servizi",
+            "desc": [
+                "Sanificare i bagni pubblici, eliminando batteri, muffe e cattivi odori.",
+                "Disinfettare efficacemente lavatrici e asciugatrici in lavanderie.",
+                "Eliminare acari e allergeni nelle tintorie, tutelando la salute di clienti e operatori."
+            ]
+        },
+        {
+            "slug": "industriale",
+            "desc": [
+                "Eliminare batteri e muffe in ambienti di lavorazione carni, salumi, pollame, pesce e latticini, preservandone la freschezza.",
+                "Prolungare la shelf-life di frutta, verdura, funghi e vino, contrastandone il deterioramento enzimatico.",
+                "Depurare acque minerali, birra e liquidi alimentari, eliminando microrganismi e improving taste."
+            ]
+        }
+    ]
+}

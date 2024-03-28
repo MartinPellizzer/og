@@ -748,7 +748,7 @@ def ai_sector():
                 time.sleep(30)
 
 
-def sectors():
+def ai_sectors():
     sector_rows = util.csv_get_rows('database/tables/applications.csv')[1:]
     sectors = [row[2] for row in sector_rows]
     sectors = list(dict.fromkeys(sectors))
@@ -795,11 +795,76 @@ def sectors():
 
 
 
-# sectors()
+# ai_sectors()
 
 
-ai_sector()
+# ai_sector()
 
+def ai_og_settori():
+    applications_rows = util.csv_get_rows('database/tables/applications.csv')[1:]
+    sectors = [row[2] for row in applications_rows]
+    sectors = list(dict.fromkeys(sectors))
+    
+    json_filepath = f'database/pages/settori.json'
+
+    data = util.json_read(json_filepath)
+    data['sectors_num'] = len(sectors)
+    data['title'] = f'I {str(data["sectors_num"])} settori principalmente serviti da Ozonogroup'
+    util.json_write(json_filepath, data)
+
+    for sector in sectors:
+        var_val = []
+        var_name = 'sectors'
+        try: var_val = data[var_name]
+        except: data[var_name] = var_val
+
+        found = False
+        for sector_json in var_val:
+            if sector_json['slug'].strip().lower() == sector.strip().lower():
+                found = True
+
+        if not found:
+            sector_row = util.csv_get_rows_by_entity('database/tables/sectors.csv', sector, col_num=1)[0]
+            sector_name = sector_row[1]
+            sector_a_1 = sector_row[2]
+
+            applications_names = [row[0].lower() for row in applications_rows if row[2] == sector_name]
+            applications_names_str = ', '.join(applications_names)
+            prompt = f'''
+                Scrivi in Italiano una lista di 3 elementi facendo esempi di alcune applicazioni della sanificazione ad ozono nel settore {sector_a_1}{sector_name}.
+                Includi tutte queste applicazioni: {applications_names_str}.
+                Usa il minor numero di parole possibili.
+                Comincia ogni elemento della lista con un verbo azionabile.
+                Comincia la tua risposta usando queste parole: Ozonogroup usa la sanificazione ad ozono nel settore {sector_a_1}{sector_name} principalmente per: .
+            '''
+            reply = util_ai.gen_reply(prompt)
+            # reply = reply.replace('\n', ' ')
+            # reply = re.sub("\s\s+" , " ", reply)
+
+            lines = []
+            for line in reply.split('\n'):
+                line = line.strip()
+                if line == '': continue
+
+                if not line[0].isdigit(): continue
+                if '. ' not in line: continue 
+                
+                line = '. '.join(line.split('. ')[1:])
+                line.strip()
+
+                lines.append(line)
+                
+            if len(lines) == 3:
+                print('------------------------------')
+                print(reply)
+                print('------------------------------')
+                print()
+                data[var_name].append({'slug': sector_name, 'desc': lines})
+                util.json_write(json_filepath, data)
+
+            time.sleep(30)
+
+ai_og_settori()
 
 # json_applications_clear_field('definition')
 
