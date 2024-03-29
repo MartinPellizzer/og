@@ -7,6 +7,7 @@ import markdown
 import util
 import util_img
 import g
+import sitemap
 
 
 
@@ -969,11 +970,11 @@ def static_article(filepath):
 
 
 # MAIN PAGES
-# page_home()
-# page_servizi()
+page_home()
+page_servizi()
 page_settori()
-# page_missione()
-# page_contatti()
+page_missione()
+page_contatti()
 
 # STATIC ARTICLES
 # static_article('articles/public/ozono.md')
@@ -984,11 +985,10 @@ page_settori()
 # static_article('articles/public/ozono/effetti.md')
 # static_article('articles/public/ozono/benefici.md')
 
-# gen_applications()
+gen_applications()
 
 # gen_article_applications()
 
-# shutil.copy2('sitemap.xml', 'public/sitemap.xml')
 
 
 # sectors()
@@ -1001,3 +1001,5 @@ page_settori()
 # shutil.copy2('logo.ico', 'public/logo.ico')
 # shutil.copy2('CNAME', 'public/CNAME')
 
+sitemap.sitemap_all()
+shutil.copy2('sitemap.xml', 'public/sitemap.xml')

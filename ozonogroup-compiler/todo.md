@@ -1,3 +1,5 @@
+[1] complete sitemap and verify changes in sectors
+
 - regen page settori (ozonogroup) replacing horizonal images with square images, also update title + intro paragraph + bg image
 - add images application (fungicoltura) -> improve main industri application page (make them quality nodes)
 - page "benefici" not linked from anywhere, add its link to page "ozono"
