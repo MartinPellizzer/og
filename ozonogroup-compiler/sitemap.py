@@ -11,18 +11,18 @@ def sitemap_all():
     sitemap += '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     sitemap += sitemap_main()
-    sitemap += sitemap_sectors()
+    sitemap += sitemap_ozono()
     sitemap += '</urlset>\n'
     util.file_write('sitemap.xml', sitemap.strip())
 
 
 
 
-def sitemap_sectors():
+def sitemap_ozono():
     lastmod_dummy = '2024-03-17'
     urls = ''
 
-    path = pathlib.Path('public/ozono/sanificazione/settori')
+    path = pathlib.Path('public/ozono')
     filepaths = path.rglob("*.html")
 
     for filepath in filepaths: 
@@ -32,7 +32,7 @@ def sitemap_sectors():
 
         lastmod = lastmod_dummy
         urls += f'<url>\n'
-        urls += f'  <loc>https://ozonogroup.com/{filepath_out}</loc>\n'
+        urls += f'  <loc>https://ozonogroup.it/{filepath_out}</loc>\n'
         urls += f'  <lastmod>{lastmod}</lastmod>\n'
         urls += f'</url>\n'
 
