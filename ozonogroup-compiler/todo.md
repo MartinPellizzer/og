@@ -1,3 +1,5 @@
+[1] fix upload script (copy and push on the right folder - outside og)
+
 [1] complete sitemap and verify changes in sectors
 
 - regen page settori (ozonogroup) replacing horizonal images with square images, also update title + intro paragraph + bg image

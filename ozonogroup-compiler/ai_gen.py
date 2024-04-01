@@ -5,6 +5,10 @@ import os
 import util
 import util_ai
 import prompts
+import pathlib
+
+
+
 
 def ai_problems_csv():
     filepath = 'database/tables/applications.csv'
@@ -100,6 +104,31 @@ def json_applications_clear_field(field_name):
         util.json_write(json_filepath, data)
 
 
+
+
+#####################################################################################
+# REGEN
+#####################################################################################
+
+def json_delete_field(key):
+    folderpath_base = 'articles/public/ozono/sanificazione'
+    folderpath_rel = 'settori'
+    folderpath = f'{folderpath_base}/{folderpath_rel}'
+
+    path = pathlib.Path(folderpath)
+    filepaths = path.rglob("*.json")
+
+    for filepath in filepaths:
+        filepath = str(filepath)
+        filepath = filepath.replace('\\', '/')
+        filepath_print = filepath.replace(folderpath_base, '')
+        data = util.json_read(filepath)
+        try:
+            del data[key]
+            print(f'DEL: {key} >> {filepath_print}')
+        except:
+            print(f'NO DEL: {key} missing? >> {filepath_print}')
+        util.json_write(filepath, data)
 
 
 
@@ -586,6 +615,9 @@ def ai_applications_main():
         # ai_applications_list(row)
 
 
+
+
+
 #####################################################################################
 # APPLICATIONS PAGE
 #####################################################################################
@@ -794,11 +826,18 @@ def ai_sectors():
             time.sleep(30)
 
 
+# json_delete_field('definition_desc')
+# quit()
 
 # ai_sectors()
 
 
-# ai_sector()
+
+# FIRST, GENERATE ARTICLES FOR SINGLE APPLICATION
+# SECOND, GENERATE SNIPPET FOR SECTOR PAGE (to link to article)
+ai_applications_main()
+ai_sector()
+
 
 def ai_og_settori():
     applications_rows = util.csv_get_rows('database/tables/applications.csv')[1:]
@@ -864,10 +903,11 @@ def ai_og_settori():
 
             time.sleep(30)
 
-ai_og_settori()
+
+# ai_og_settori()
+
 
 # json_applications_clear_field('definition')
 
-# ai_applications_main()
 
 # ai_applications_page_descriptions()

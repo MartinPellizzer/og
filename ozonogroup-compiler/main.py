@@ -3,6 +3,7 @@ import os
 import shutil
 import csv
 import markdown
+import urllib.parse
 
 import util
 import util_img
@@ -141,6 +142,7 @@ def gen_applications():
 
     for row in rows[1:]:
         # print(row)
+        slug = urllib.parse.quote(row[cols['slug']].strip())
         slug = row[cols['slug']].strip()
         name = row[cols['application']].strip()
         a_1 = row[cols['a-1']].strip()
@@ -748,7 +750,6 @@ def sectors():
 
 
 def sector():
-    folderpath = 'articles/public/ozono/sanificazione/applicazioni'
     rows = util.csv_get_rows('database/tables/applications.csv')
 
     cols = {}
@@ -788,10 +789,12 @@ def sector():
         except: print(f'MISSING: APPLICATIONS >>> {filename}')
         if applications != []:
             for i, application in enumerate(applications):
+
                 slug = application['slug'].strip()
                 name = application['name'].title()
                 a_1 = application['a_1']
                 desc = application['desc'].strip()
+                print(name)
                 # print(f'sanificazione ad ozono {a_1}{name.lower()}')
                 desc_link = desc.replace(
                     f'sanificazione ad ozono {a_1}{name.lower()}',
@@ -970,11 +973,11 @@ def static_article(filepath):
 
 
 # MAIN PAGES
-page_home()
-page_servizi()
-page_settori()
-page_missione()
-page_contatti()
+# page_home()
+# page_servizi()
+# page_settori()
+# page_missione()
+# page_contatti()
 
 # STATIC ARTICLES
 # static_article('articles/public/ozono.md')
@@ -985,14 +988,14 @@ page_contatti()
 # static_article('articles/public/ozono/effetti.md')
 # static_article('articles/public/ozono/benefici.md')
 
-gen_applications()
+# gen_applications()
 
 # gen_article_applications()
 
 
 
 # sectors()
-# sector()
+sector()
 
 # shutil.copy2('style.css', 'public/style.css')
 # shutil.copy2('style-blog.css', 'public/style-blog.css')
