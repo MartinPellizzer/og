@@ -1,4 +1,4 @@
-application\a-1\sector\slug
+application\a_1\sector\slug
 Case\nelle \residenziale\case
 Camere da letto delle case\nelle \residenziale\camere-letto
 Cucine delle case\nelle \residenziale\cucine
@@ -57,6 +57,18 @@ Cinema\nei \intrattenimento\cinema
 Teatri\nei \intrattenimento\teatri
 Alberghi\negli \accoglienza\alberghi
 Bed and breakfast\nei \accoglienza\bed-and-breakfast
+Resort\nei \accoglienza\resort
+Ostelli\negli \accoglienza\ostelli
+Alloggi vacanza\negli \accoglienza\alloggi-vacanza
+Campeggi\nei \accoglienza\campeggi
+Agriturismi\negli \accoglienza\agriturismi
+Motel\nei \accoglienza\motel
+Villaggi turistici\nei \accoglienza\villaggi-turistici
+Alberghi termali\negli \accoglienza\alberghi-termali
+Locande\nelle \accoglienza\locande
+Rifugi\nei \accoglienza\rifugi
+Pensioni\nelle \accoglienza\pensioni
+Residence\nei \accoglienza\residence
 Mense\nelle \ristorazione\mense
 Ristoranti\nei \ristorazione\ristoranti
 Pizzerie\nelle \ristorazione\pizzerie

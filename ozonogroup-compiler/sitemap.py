@@ -3,19 +3,14 @@ import os
 import pathlib
 
 
-desktop = pathlib.Path("Desktop")
-desktop.rglob("*")
-
 def sitemap_all():
     sitemap = ''
     sitemap += '<?xml version="1.0" encoding="UTF-8"?>\n'
     sitemap += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    sitemap += sitemap_main()
+    sitemap += sitemap_pages()
     sitemap += sitemap_ozono()
     sitemap += '</urlset>\n'
     util.file_write('sitemap.xml', sitemap.strip())
-
-
 
 
 def sitemap_ozono():
@@ -39,50 +34,31 @@ def sitemap_ozono():
     return urls
 
 
-
-
-
-def sitemap_main():
+def sitemap_pages():
+    # HOME
     urls = ''
-    urls += f'''
-<url>
-  <loc>https://ozonogroup.it/</loc>
-  <lastmod>2024-03-17</lastmod>
-</url>
-'''.strip() + '\n'
-    urls += f'''
-<url>
-  <loc>https://ozonogroup.it/servizi.html</loc>
-  <lastmod>2024-03-17</lastmod>
-</url>
-'''.strip() + '\n'
-    urls += f'''
-<url>
-  <loc>https://ozonogroup.it/settori/tea.html</loc>
-  <lastmod>2024-03-17</lastmod>
-</url>
-'''.strip() + '\n'
-    urls += f'''
-<url>
-  <loc>https://ozonogroup.it/missione.html</loc>
-  <lastmod>2024-03-17</lastmod>
-</url>
-'''.strip() + '\n'
-    urls += f'''
-<url>
-  <loc>https://ozonogroup.it/contatti.html</loc>
-  <lastmod>2024-03-17</lastmod>
-</url>
-'''.strip() + '\n'
-    urls += f'''
-<url>
-  <loc>https://ozonogroup.it/ozono.html</loc>
-  <lastmod>2024-03-17</lastmod>
-</url>
-'''.strip() + '\n'
+    urls += f'<url>\n'
+    urls += f'  <loc>https://ozonogroup.it/</loc>\n'
+    urls += f'  <lastmod>2024-03-17</lastmod>\n'
+    urls += f'</url>\n'
 
+    # PAGES
+    pages_slugs = [
+        'servizi',
+        'settori',
+        'missione',
+        'contatti',
+        'ozono',
+    ]
+
+    for page_slug in pages_slugs:
+        urls += f'<url>\n'
+        urls += f'  <loc>https://ozonogroup.it/{page_slug}.html</loc>\n'
+        urls += f'  <lastmod>2024-03-17</lastmod>\n'
+        urls += f'</url>\n'
+  
     return urls
 
 
-
+sitemap_all()
     

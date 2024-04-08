@@ -11,3 +11,4 @@ GOOGLE_TAG = '''
     </script>
 '''
 
+ARTICLES_AUTHOR = 'Ozonogroup Staff'

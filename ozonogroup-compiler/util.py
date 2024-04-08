@@ -1,6 +1,21 @@
 import os
 import csv
 import json
+import datetime
+
+
+
+
+
+###################################
+# DATETIME
+###################################
+
+def date_today():
+    return str(datetime.date.today())
+
+
+
 
 
 ###################################
@@ -64,6 +79,14 @@ def filepath_create(filepath, debug=False):
 #     return lines
 
 
+def csv_get_header_dict(rows):
+    cols = {}
+    i = 0
+    for col_name in rows[0]:
+        cols[col_name] = i
+        i += 1
+    return cols
+
 
 
 
@@ -116,6 +139,7 @@ def file_write(filepath, text):
 
 
 
+
 ###################################
 # JSON
 ###################################
@@ -126,8 +150,7 @@ def json_append(filepath, data):
 
 
 def json_read(filepath):
-    # filepath_create(filepath)
-
+    print(filepath)
     content = file_read(filepath)
     if content.strip() == '': file_write(filepath, '{}')
     with open(filepath, 'r', encoding='utf-8') as f: 
@@ -137,9 +160,6 @@ def json_read(filepath):
 def json_write(filepath, data):
     with open(filepath, 'w', encoding='utf-8') as f:
         json.dump(data, f)
-
-
-
 
 
 
@@ -247,6 +267,7 @@ def bold_blt(lst):
 
 
 
+
 ###################################
 # IMAGES
 ###################################
@@ -276,3 +297,5 @@ def img_resize(img, w=768, h=578):
     img = img.crop(area)
 
     return img
+
+
