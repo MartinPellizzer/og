@@ -37,7 +37,7 @@ def gen_reply(prompt):
     return reply
 
 
-def list_to_paragraph(reply):
+def reply_list_to_paragraph(reply):
     reply_formatted = []
     for line in reply.split('\n'):
         line = line.strip()
