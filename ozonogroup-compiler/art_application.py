@@ -5,11 +5,12 @@ import g
 import util
 import util_ai
 
-applications_rows = util.csv_get_rows('database/csv/applications.csv')
+applications_csv_filepath = 'database/csv/applications.csv'
+applications_rows = util.csv_get_rows(applications_csv_filepath)
 applications_cols = util.csv_get_header_dict(applications_rows)
 
+# APPLICATIONS
 for application_row in applications_rows[1:]:
-    # CSV
     application_id = application_row[applications_cols['application_id']]
     application_name = application_row[applications_cols['application_name']].strip().lower()
     application_slug = application_row[applications_cols['application_slug']].strip().lower()
@@ -195,21 +196,29 @@ for application_row in applications_rows[1:]:
     break
 
 
-
-sectors_rows = util.csv_get_rows('database/csv/sectors.csv')
+sectors_csv_filepath = 'database/csv/sectors.csv'
+sectors_rows = util.csv_get_rows(sectors_csv_filepath)
 sectors_cols = util.csv_get_header_dict(sectors_rows)
 
+# SECTOR
 for sector_row in sectors_rows[1:]:
     sector_id = sector_row[sectors_cols['sector_id']]
     sector_name = sector_row[sectors_cols['sector_name']].lower().strip()
     sector_slug = sector_row[sectors_cols['sector_slug']].lower().strip()
     sector_a_1 = sector_row[sectors_cols['sector_a_1']].lower()
-    title = f'?? applicazioni della sanificazione ad ozono nel settore {sector_a_1}{sector_name}'
 
-    print(sector_id)
-    print(sector_name)
-    print(sector_slug)
-    print(sector_a_1)
+    applications_num = 0
+    for application_row in applications_rows[1:]:
+        application_sector_id = application_row[applications_cols['application_sector_id']]
+        if application_sector_id == sector_id:
+            applications_num += 1
+
+    title = f'{applications_num} applicazioni della sanificazione ad ozono nel settore {sector_a_1}{sector_name}'
+
+    # print(sector_id)
+    # print(sector_name)
+    # print(sector_slug)
+    # print(sector_a_1)
 
     # JSON
     sector_json_filepath = f'database/json/ozono/sanificazione/settori/{sector_slug}.json'
@@ -224,28 +233,8 @@ for sector_row in sectors_rows[1:]:
     lastmod = str(datetime.date.today())
     if 'lastmod' not in data: data['lastmod'] = lastmod
     else: lastmod = data['lastmod']
-
-    if 'applications' not in data: data['applications'] = []
-    applications_rows_filtered = []
-    for application_row in applications_rows[1:]:
-        application_sector_id = application_row[applications_cols['application_sector_id']]
-        if application_sector_id == sector_id:
-            application_name = application_row[applications_cols['application_name']].strip().lower()
-            application_a_1 = application_row[applications_cols['application_a_1']].lower()
-            found = False
-            for sector_application in data['applications']:
-                sector_application_name = sector_application['application_name']
-                if sector_application_name == application_name:
-                    found = True
-                    break
-            if not found:
-                applications_rows_filtered.append({'application_name': application_name, 'application_a_1': application_a_1})
-            else:
-                applications_rows_filtered.append(sector_application)
-    data['applications'] = applications_rows_filtered
     util.json_write(sector_json_filepath, data)
 
-    # JSON AI
     key = 'intro'
     # del data[key] # (debug only)
     if key not in data:
@@ -258,6 +247,33 @@ for sector_row in sectors_rows[1:]:
         data[key] = reply
         util.json_write(sector_json_filepath, data)
         time.sleep(30)
+
+    if 'applications' not in data: data['applications'] = []
+    applications_rows_filtered = []
+    for application_row in applications_rows[1:]:
+        application_sector_id = application_row[applications_cols['application_sector_id']]
+        if application_sector_id == sector_id:
+            application_id = application_row[applications_cols['application_id']].strip()
+            application_slug = application_row[applications_cols['application_slug']].strip().lower()
+            application_name = application_row[applications_cols['application_name']].strip().lower()
+            application_a_1 = application_row[applications_cols['application_a_1']].lower()
+            found = False
+            for sector_application in data['applications']:
+                sector_application_name = sector_application['application_name']
+                if sector_application_name == application_name:
+                    found = True
+                    break
+            if not found:
+                applications_rows_filtered.append({
+                    'application_id': application_id, 
+                    'application_slug': application_slug, 
+                    'application_name': application_name, 
+                    'application_a_1': application_a_1
+                })
+            else:
+                applications_rows_filtered.append(sector_application)
+    data['applications'] = applications_rows_filtered
+    util.json_write(sector_json_filepath, data)
 
     for application_obj in data['applications']:
         key = 'application_desc'
@@ -275,22 +291,24 @@ for sector_row in sectors_rows[1:]:
             time.sleep(30)
 
 
-
     # HTML
     intro = data['intro']
 
     article_html = ''
     article_html += f'<h1>{title}</h1>\n'
     article_html += f'<p>{intro}</p>\n'
+
     i = 0
     for application_obj in data['applications']:
         i += 1
+        application_slug = application_obj['application_slug']
         application_name = application_obj['application_name']
         application_desc = application_obj['application_desc']
         article_html += f'<h2>{i}. {application_name}</h2>\n'
         article_html += f'<p>{application_desc}</p>\n'
+        article_html += f'<p><a href="/ozono/sanificazione/settori/{sector_slug}/{application_slug}.html">{application_name}</a></p>\n'
 
-    breadcrumbs = util.generate_breadcrumbs(application_json_filepath)
+    breadcrumbs = util.generate_breadcrumbs(sector_json_filepath)
     header_html = util.component_header_no_logo()
     reading_time = util.meta_reading_time(article_html)
     article_html = util.generate_toc(article_html)
@@ -353,3 +371,45 @@ for sector_row in sectors_rows[1:]:
     util.file_write(application_html_filepath, html)
 
     break
+
+
+
+# SECTORS
+
+# JSON
+sectors_json_filepath = f'database/json/ozono/sanificazione/settori.json'
+util.create_folder_for_filepath(sectors_json_filepath)
+util.json_generate_if_not_exists(sectors_json_filepath)
+sectors_data = util.json_read(sectors_json_filepath)
+lastmod = str(datetime.date.today())
+if 'lastmod' not in sectors_data: sectors_data['lastmod'] = lastmod
+else: lastmod = sectors_data['lastmod']
+sectors_num = 0
+for sector_row in sectors_rows[1:]:
+    sector_id = sector_row[sectors_cols['sector_id']]
+    if sector_id == sector_id:
+        sectors_num += 1
+title = f'{sectors_num} settori di applicazione della sanificazione ad ozono'
+sectors_data['title'] = title
+util.json_write(sectors_json_filepath, sectors_data)
+
+if 'sectors' not in sectors_data: sectors_data['sectors'] = []
+for sector_row in sectors_rows[1:]:
+    sector_id = sector_row[sectors_cols['sector_id']]
+    sector_slug = sector_row[sectors_cols['sector_slug']]
+    sector_name = sector_row[sectors_cols['sector_name']]
+    sector_a_1 = sector_row[sectors_cols['sector_a_1']]
+
+    print(sector_id)
+
+    found = False
+    for sector_obj in sectors_data['sectors']:
+        if sector_obj_id == sector_id:
+            found = True
+            break
+    
+    if not found:
+        # TODO: add sector data to sector list
+        print(sector_obj)
+
+util.json_write(sectors_json_filepath, sectors_data)
