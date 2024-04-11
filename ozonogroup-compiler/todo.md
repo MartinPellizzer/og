@@ -1,6 +1,9 @@
 - SECTORS/APPLICATIONS PAGES:
     [1] fix html (links, images, text formatting)
 
+- IMAGE:
+    [1] fix url of intro image of sector page (missing "introduzione")?
+
 
 [1] fix upload script (copy and push on the right folder - outside og)
 

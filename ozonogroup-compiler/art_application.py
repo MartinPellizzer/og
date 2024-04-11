@@ -324,16 +324,23 @@ for sector_row in sectors_rows[1:]:
 
     article_html = ''
     article_html += f'<h1>{title}</h1>\n'
-    article_html += f'<p>{intro}</p>\n'
+    image_path = f'/assets/images/ozono-sanificazione-settori-{sector_slug}.jpg'
+    if os.path.exists(f'public{image_path}'):
+        article_html += f'<p><img src="{image_path}" alt="ozono sanificazione settore {sector_a_1}{sector_name} introduzione"></p>' + '\n'
+    article_html += f'<p>{util.text_format_1N1_html(intro)}</p>\n'
 
     i = 0
     for application_obj in sector_data['applications']:
         i += 1
         application_slug = application_obj['application_slug']
-        application_name = application_obj['application_name']
+        application_name = application_obj['application_name'].strip().lower()
+        application_a_1 = application_obj['application_a_1'].strip().lower()
         application_desc = application_obj['application_desc']
-        article_html += f'<h2>{i}. {application_name}</h2>\n'
-        article_html += f'<p>{application_desc}</p>\n'
+        article_html += f'<h2>{i}. {application_name.title()}</h2>\n'
+        image_path = f'/assets/images/ozono-sanificazione-{sector_slug}-{application_slug}-introduzione.jpg'
+        if os.path.exists(f'public{image_path}'):
+            article_html += f'<p><img src="{image_path}" alt="ozono sanificazione settore {application_a_1}{application_name} introduzione"></p>' + '\n'
+        article_html += f'<p>{util.text_format_1N1_html(application_desc)}</p>\n'
         article_html += f'<p><a href="/ozono/sanificazione/settori/{sector_slug}/{application_slug}.html">{application_name}</a></p>\n'
 
     breadcrumbs = util.generate_breadcrumbs(sector_json_filepath)
@@ -403,158 +410,158 @@ for sector_row in sectors_rows[1:]:
 
 
 # SECTORS
-
-# JSON
-sectors_json_filepath = f'database/json/ozono/sanificazione/settori.json'
-util.create_folder_for_filepath(sectors_json_filepath)
-util.json_generate_if_not_exists(sectors_json_filepath)
-sectors_data = util.json_read(sectors_json_filepath)
-lastmod = str(datetime.date.today())
-if 'lastmod' not in sectors_data: sectors_data['lastmod'] = lastmod
-else: lastmod = sectors_data['lastmod']
-sectors_num = 0
-for sector_row in sectors_rows[1:]:
-    sector_id = sector_row[sectors_cols['sector_id']]
-    if sector_id == sector_id:
-        sectors_num += 1
-title = f'{sectors_num} settori di applicazione della sanificazione ad ozono'
-sectors_data['title'] = title
-util.json_write(sectors_json_filepath, sectors_data)
-
-key = 'intro'
-if key not in sectors_data:
-    prompt = f'''
-        Scrivi in Italiano un paragrafo di 100 parole facendo molti esempi di settori di applicazione della sanificazione ad ozono.
-        Non spiegare cos'è e come funziona l'ozono.
-        Non scrivere liste.
-        Inizia la tua risposta con le seguenti parole: L'ozono viene usato in diversi settori, come .
-    '''
-    reply = util_ai.gen_reply(prompt).strip()
-    sectors_data[key] = reply
+if True:
+    # JSON
+    sectors_json_filepath = f'database/json/ozono/sanificazione/settori.json'
+    util.create_folder_for_filepath(sectors_json_filepath)
+    util.json_generate_if_not_exists(sectors_json_filepath)
+    sectors_data = util.json_read(sectors_json_filepath)
+    lastmod = str(datetime.date.today())
+    if 'lastmod' not in sectors_data: sectors_data['lastmod'] = lastmod
+    else: lastmod = sectors_data['lastmod']
+    sectors_num = 0
+    for sector_row in sectors_rows[1:]:
+        sector_id = sector_row[sectors_cols['sector_id']]
+        if sector_id == sector_id:
+            sectors_num += 1
+    title = f'{sectors_num} settori di applicazione della sanificazione ad ozono'
+    sectors_data['title'] = title
     util.json_write(sectors_json_filepath, sectors_data)
-    time.sleep(30)
 
-if 'sectors' not in sectors_data: sectors_data['sectors'] = []
-for sector_row in sectors_rows[1:]:
-    sector_id = sector_row[sectors_cols['sector_id']]
-    sector_slug = sector_row[sectors_cols['sector_slug']].strip().lower()
-    sector_name = sector_row[sectors_cols['sector_name']].strip().lower()
-    sector_a_1 = sector_row[sectors_cols['sector_a_1']]
-
-    found = False
-    for sector_obj in sectors_data['sectors']:
-        if sector_obj['sector_id'] == sector_id:
-            found = True
-            break
-
-    if not found:
-        sectors_data['sectors'].append({
-            'sector_id': sector_id, 
-            'sector_name': sector_name, 
-            'sector_slug': sector_slug, 
-            'sector_a_1': sector_a_1, 
-        })
-util.json_write(sectors_json_filepath, sectors_data)
-
-for sector_obj in sectors_data['sectors']:
-    sector_id = sector_obj['sector_id']
-    sector_slug = sector_obj['sector_slug'].strip().lower()
-    sector_name = sector_obj['sector_name'].strip().lower()
-    sector_a_1 = sector_obj['sector_a_1']
-
-    # print(sector_id)
-    # print(sector_slug)
-    # print(sector_name)
-    # print(sector_a_1)
-
-    key = 'sector_desc'
-    if key not in sector_obj:
+    key = 'intro'
+    if key not in sectors_data:
         prompt = f'''
-            Scrivi un paragrafo di 100 parole facendo molti esempi delle applicazioni della sanificazione ad ozono nel settore {sector_a_1}{sector_name}.
+            Scrivi in Italiano un paragrafo di 100 parole facendo molti esempi di settori di applicazione della sanificazione ad ozono.
             Non spiegare cos'è e come funziona l'ozono.
-            Comincia la tua risposta usando queste parole: La sanificazione ad ozono nel settore {sector_a_1}{sector_name} serve per 
+            Non scrivere liste.
+            Inizia la tua risposta con le seguenti parole: L'ozono viene usato in diversi settori, come .
         '''
         reply = util_ai.gen_reply(prompt).strip()
-        sector_obj[key] = reply
+        sectors_data[key] = reply
         util.json_write(sectors_json_filepath, sectors_data)
         time.sleep(30)
 
-# HTML
-sectors_html_filepath = f'public/ozono/sanificazione/settori.html'
+    if 'sectors' not in sectors_data: sectors_data['sectors'] = []
+    for sector_row in sectors_rows[1:]:
+        sector_id = sector_row[sectors_cols['sector_id']]
+        sector_slug = sector_row[sectors_cols['sector_slug']].strip().lower()
+        sector_name = sector_row[sectors_cols['sector_name']].strip().lower()
+        sector_a_1 = sector_row[sectors_cols['sector_a_1']]
 
-intro = sectors_data['intro']
+        found = False
+        for sector_obj in sectors_data['sectors']:
+            if sector_obj['sector_id'] == sector_id:
+                found = True
+                break
 
-article_html = ''
-article_html += f'<h1>{title}</h1>\n'
-article_html += f'<p>{intro}</p>\n'
+        if not found:
+            sectors_data['sectors'].append({
+                'sector_id': sector_id, 
+                'sector_name': sector_name, 
+                'sector_slug': sector_slug, 
+                'sector_a_1': sector_a_1, 
+            })
+    util.json_write(sectors_json_filepath, sectors_data)
 
-i = 0
-for sector_obj in sectors_data['sectors']:
-    i += 1
-    sector_name = sector_obj['sector_name'].lower().strip()
-    sector_slug = sector_obj['sector_slug']
-    sector_desc = sector_obj['sector_desc']
-    article_html += f'<h2>{i}. {sector_name.title()}</h2>\n'
-    article_html += f'<p>{sector_desc}</p>\n'
-    article_html += f'<p><a href="/ozono/sanificazione/settori/{sector_slug}.html">{sector_name}</a></p>\n'
+    for sector_obj in sectors_data['sectors']:
+        sector_id = sector_obj['sector_id']
+        sector_slug = sector_obj['sector_slug'].strip().lower()
+        sector_name = sector_obj['sector_name'].strip().lower()
+        sector_a_1 = sector_obj['sector_a_1']
 
-breadcrumbs = util.generate_breadcrumbs(sectors_html_filepath)
-header_html = util.component_header_no_logo()
-reading_time = util.meta_reading_time(article_html)
-article_html = util.generate_toc(article_html)
+        # print(sector_id)
+        # print(sector_slug)
+        # print(sector_name)
+        # print(sector_a_1)
 
-html = f'''
-    <!DOCTYPE html>
-    <html lang="en">
+        key = 'sector_desc'
+        if key not in sector_obj:
+            prompt = f'''
+                Scrivi un paragrafo di 100 parole facendo molti esempi delle applicazioni della sanificazione ad ozono nel settore {sector_a_1}{sector_name}.
+                Non spiegare cos'è e come funziona l'ozono.
+                Comincia la tua risposta usando queste parole: La sanificazione ad ozono nel settore {sector_a_1}{sector_name} serve per 
+            '''
+            reply = util_ai.gen_reply(prompt).strip()
+            sector_obj[key] = reply
+            util.json_write(sectors_json_filepath, sectors_data)
+            time.sleep(30)
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/style-blog.css">
-        <link rel="stylesheet" href="/util.css">
-        <title>{title}</title>
-        {g.GOOGLE_TAG}
-    </head>
+    # HTML
+    sectors_html_filepath = f'public/ozono/sanificazione/settori.html'
 
-    <body>
-        <section class="header-section">
-            <div class="container-xl h-full">
-                {header_html}
-            </div>
-        </section>
+    intro = sectors_data['intro']
 
-        <section class="breadcrumbs-section">
-            <div class="container-xl h-full">
-                <a href="/index.html">Home</a>{breadcrumbs}
-            </div>
-        </section>
+    article_html = ''
+    article_html += f'<h1>{title}</h1>\n'
+    article_html += f'<p>{intro}</p>\n'
 
-        <section class="meta-section mt-48">
-            <div class="container-md h-full">
-                <div class="flex justify-between mb-8">
-                    <span>Autore: {g.ARTICLES_AUTHOR}</span>
-                    <span>Tempo Lettura: {reading_time} min</span>
+    i = 0
+    for sector_obj in sectors_data['sectors']:
+        i += 1
+        sector_name = sector_obj['sector_name'].lower().strip()
+        sector_slug = sector_obj['sector_slug']
+        sector_desc = sector_obj['sector_desc']
+        article_html += f'<h2>{i}. {sector_name.title()}</h2>\n'
+        article_html += f'<p>{sector_desc}</p>\n'
+        article_html += f'<p><a href="/ozono/sanificazione/settori/{sector_slug}.html">{sector_name}</a></p>\n'
+
+    breadcrumbs = util.generate_breadcrumbs(sectors_html_filepath)
+    header_html = util.component_header_no_logo()
+    reading_time = util.meta_reading_time(article_html)
+    article_html = util.generate_toc(article_html)
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="/style-blog.css">
+            <link rel="stylesheet" href="/util.css">
+            <title>{title}</title>
+            {g.GOOGLE_TAG}
+        </head>
+
+        <body>
+            <section class="header-section">
+                <div class="container-xl h-full">
+                    {header_html}
                 </div>
-                <div class="flex justify-between mb-8">
-                    <span>Aggiornato: {lastmod}</span>
+            </section>
+
+            <section class="breadcrumbs-section">
+                <div class="container-xl h-full">
+                    <a href="/index.html">Home</a>{breadcrumbs}
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section class="container-md">
-            {article_html}
-        </section>
+            <section class="meta-section mt-48">
+                <div class="container-md h-full">
+                    <div class="flex justify-between mb-8">
+                        <span>Autore: {g.ARTICLES_AUTHOR}</span>
+                        <span>Tempo Lettura: {reading_time} min</span>
+                    </div>
+                    <div class="flex justify-between mb-8">
+                        <span>Aggiornato: {lastmod}</span>
+                    </div>
+                </div>
+            </section>
 
-        <section class="footer-section">
-            <div class="container-xl h-full">
-                <footer class="flex items-center justify-center">
-                    <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
-                </footer>
-            </div>
-        </section>
-    </body>
+            <section class="container-md">
+                {article_html}
+            </section>
 
-    </html>
-'''
+            <section class="footer-section">
+                <div class="container-xl h-full">
+                    <footer class="flex items-center justify-center">
+                        <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+                    </footer>
+                </div>
+            </section>
+        </body>
 
-util.file_write(sectors_html_filepath, html)
+        </html>
+    '''
+
+    util.file_write(sectors_html_filepath, html)
