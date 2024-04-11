@@ -1,3 +1,7 @@
+- SECTORS/APPLICATIONS PAGES:
+    [1] fix html (links, images, text formatting)
+
+
 [1] fix upload script (copy and push on the right folder - outside og)
 
 [1] complete sitemap and verify changes in sectors
