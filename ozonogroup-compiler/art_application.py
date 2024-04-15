@@ -417,6 +417,8 @@ def sectors_page():
     lastmod = str(datetime.date.today())
     if 'lastmod' not in sectors_data: sectors_data['lastmod'] = lastmod
     else: lastmod = sectors_data['lastmod']
+    print(sectors_rows)
+    quit()
     sectors_num = 0
     for sector_row in sectors_rows[1:]:
         sector_id = sector_row[sectors_cols['sector_id']]
