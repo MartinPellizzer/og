@@ -410,22 +410,21 @@ def sector_page():
 
 
 def sectors_page():
+    sectors_csv_filepath = 'database/csv/sectors.csv'
+    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
+    sectors_cols = util.csv_get_header_dict(sectors_rows)
+
     sectors_json_filepath = f'database/json/ozono/sanificazione/settori.json'
     util.create_folder_for_filepath(sectors_json_filepath)
     util.json_generate_if_not_exists(sectors_json_filepath)
     sectors_data = util.json_read(sectors_json_filepath)
+
     lastmod = str(datetime.date.today())
     if 'lastmod' not in sectors_data: sectors_data['lastmod'] = lastmod
     else: lastmod = sectors_data['lastmod']
-    print(sectors_rows)
-    quit()
-    sectors_num = 0
-    for sector_row in sectors_rows[1:]:
-        sector_id = sector_row[sectors_cols['sector_id']]
-        if sector_id == sector_id:
-            sectors_num += 1
-    title = f'{sectors_num} settori di applicazione della sanificazione ad ozono'
-    sectors_data['title'] = title
+    sectors_num = len(sectors_rows[1:])
+    sectors_data['sectors_num'] = sectors_num
+    sectors_data['title'] = f'{sectors_num} settori di applicazione della sanificazione ad ozono'
     util.json_write(sectors_json_filepath, sectors_data)
 
     key = 'intro'
@@ -464,15 +463,8 @@ def sectors_page():
     util.json_write(sectors_json_filepath, sectors_data)
 
     for sector_obj in sectors_data['sectors']:
-        sector_id = sector_obj['sector_id']
-        sector_slug = sector_obj['sector_slug'].strip().lower()
         sector_name = sector_obj['sector_name'].strip().lower()
         sector_a_1 = sector_obj['sector_a_1']
-
-        # print(sector_id)
-        # print(sector_slug)
-        # print(sector_name)
-        # print(sector_a_1)
 
         key = 'sector_desc'
         if key not in sector_obj:
@@ -487,7 +479,8 @@ def sectors_page():
             time.sleep(30)
 
     # HTML
-    intro = sectors_data['intro']
+    title = sectors_data['title']
+    intro = sectors_data['intro']    
 
     article_html = ''
     article_html += f'<h1>{title}</h1>\n'

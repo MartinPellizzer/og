@@ -1,3 +1,6 @@
+- ARTICOLO APPLICAZIONI:
+    - titoli: prova a sostituire i "per" con application_a_1 
+
 - SECTORS/APPLICATIONS PAGES:
     [1] fix html (links, images, text formatting)
 
