@@ -16,6 +16,7 @@ sectors_rows = util.csv_get_rows(sectors_csv_filepath)
 sectors_cols = util.csv_get_header_dict(sectors_rows)
 
 
+
 def applications_pages():
     for application_row in applications_rows[1:]:
         application_id = application_row[applications_cols['application_id']]
@@ -24,12 +25,6 @@ def applications_pages():
         application_a_1 = application_row[applications_cols['application_a_1']].lower()
         application_sector_id = application_row[applications_cols['application_sector_id']]
         title = f'Sanificazione ozono {application_a_1}{application_name}'
-
-        # print(application_id)
-        # print(application_name)
-        # print(application_slug)
-        # print(application_a_1)
-        # print(application_sector_id)
 
         # JSON
         application_json_filepath = f'database/json/ozono/sanificazione/settori/residenziale/{application_slug}.json'
@@ -97,7 +92,7 @@ def applications_pages():
         # del data[key] # (debug only)
         if key not in data:
             prompt = f'''
-                scrivi un paragrafo di 100 parole spiegando quali sono i benefici della sanificazione ad ozono per per {application_a_1}{application_name}.
+                scrivi un paragrafo di 100 parole spiegando quali sono i benefici della sanificazione ad ozono per {application_a_1}{application_name}.
                 non spiegare cos'è l'ozono e non spiegare come funziona.
                 inizia la risposta con queste parole: La sanificazione ad ozono ha diversi benefici {application_a_1}{application_name}, come
             '''
@@ -225,8 +220,6 @@ def applications_pages():
 
         application_html_filepath = f'public/ozono/sanificazione/settori/residenziale/{application_slug}.html'
         util.file_write(application_html_filepath, html)
-
-        break
 
 
 def sector_page():
@@ -406,8 +399,6 @@ def sector_page():
         application_html_filepath = f'public/ozono/sanificazione/settori/{sector_slug}.html'
         util.file_write(application_html_filepath, html)
 
-        break
-
 
 def sectors_page():
     sectors_csv_filepath = 'database/csv/sectors.csv'
@@ -480,7 +471,7 @@ def sectors_page():
 
     # HTML
     title = sectors_data['title']
-    intro = sectors_data['intro']    
+    intro = sectors_data['intro']
 
     article_html = ''
     article_html += f'<h1>{title}</h1>\n'

@@ -177,17 +177,6 @@ def scrape_phone(e):
 	except: return ''
 
 
-# def find_new_business(old_businesses):
-# 	global driver
-# 	elements = driver.find_elements(By.XPATH, '//div[@role="article"]')
-# 	for e in elements:
-# 		label = e.get_attribute('aria-label')
-# 		label = sanitize(label)
-# 		if label not in old_businesses:
-# 			return e, label
-# 	return None, None
-	
-
 def find_new_business(old_businesses):
 	global driver
 	try: feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
@@ -200,6 +189,7 @@ def find_new_business(old_businesses):
 		if 'google.' not in a_href: continue
 		label = a.get_attribute('aria-label')
 		label = sanitize(label)
+		label = label.replace('Link visitato', '')
 		if label not in old_businesses:
 			return item, label
 	return None, None
@@ -264,6 +254,9 @@ def scrape_new_business(search_text, search_industry, search_district, i):
 	# 	return 'NO MATCH: District'
 
 	name = sanitize(name)
+	address = sanitize(address)
+	district = sanitize(district)
+	phone = sanitize(phone)
 
 	if name != label:
 		add_business_to_csv(output_file, label, address, website, phone, s_emails, district, name)
@@ -323,13 +316,13 @@ def scrape_new_business(search_text, search_industry, search_district, i):
 # MAIN
 ######################################################################################
 def main():
-	search_industry = input('Inserisci il settore (es. salumifici): ')
-	search_district = input('Inserisci la provincia (es. TV): ')
-	scrapes_num = int(input('Inserisci il numero di azioni (es. 30): '))
+	# search_industry = input('Inserisci il settore (es. salumifici): ')
+	# search_district = input('Inserisci la provincia (es. TV): ')
+	# scrapes_num = int(input('Inserisci il numero di azioni (es. 30): '))
 
-	# search_industry = 'salumifici'
-	# search_district = 'TV'
-	# scrapes_num = 30
+	search_industry = 'salumifici'
+	search_district = 'TV'
+	scrapes_num = 30
 
 	# GET COMUNI FROM PROVINCIA
 	with open('comuni.csv', 'r', encoding="utf-8") as f: comuni = [line.split(sep) for line in f.readlines()]
