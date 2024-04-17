@@ -141,570 +141,570 @@ def generate_breadcrumbs(filepath_in):
 # ARTICLES
 ###################################################################################################################
 
-def gen_applications():
-    folderpath = 'articles/public/ozono/sanificazione/settori'
-    applications_rows = util.csv_get_rows('database/tables/applications.csv')
-    applications_cols = util.csv_get_header_dict(applications_rows)
+# def gen_applications():
+#     folderpath = 'articles/public/ozono/sanificazione/settori'
+#     applications_rows = util.csv_get_rows('database/tables/applications.csv')
+#     applications_cols = util.csv_get_header_dict(applications_rows)
 
-    for application_row in applications_rows[1:]:
-        slug = application_row[applications_cols['slug']].strip()
-        application_name = application_row[applications_cols['application']].strip().lower()
-        a_1 = application_row[applications_cols['a_1']].strip()
-        sector = application_row[applications_cols['sector']].strip()
+#     for application_row in applications_rows[1:]:
+#         slug = application_row[applications_cols['slug']].strip()
+#         application_name = application_row[applications_cols['application']].strip().lower()
+#         a_1 = application_row[applications_cols['a_1']].strip()
+#         sector = application_row[applications_cols['sector']].strip()
 
-        filepath_in = f'{folderpath}/{sector}/{slug}.json'
-        filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
-        # print(f'IN: {filepath_in}')
-        # print(f'OUT: {filepath_out}')
+#         filepath_in = f'{folderpath}/{sector}/{slug}.json'
+#         filepath_out = filepath_in.replace('articles/', '').replace('.json', '.html')
+#         # print(f'IN: {filepath_in}')
+#         # print(f'OUT: {filepath_out}')
 
-        data = util.json_read(filepath_in)
-        lastmod = data['lastmod']
-        title = data['title']
-        intro = data['intro_desc']
-        definition = data['definition_desc']
-        problems_desc = data['problems_desc']
-        benefits_desc = data['benefits_desc']
-        applications_desc = data['applications_desc']
+#         data = util.json_read(filepath_in)
+#         lastmod = data['lastmod']
+#         title = data['title']
+#         intro = data['intro_desc']
+#         definition = data['definition_desc']
+#         problems_desc = data['problems_desc']
+#         benefits_desc = data['benefits_desc']
+#         applications_desc = data['applications_desc']
 
-        article_html = ''
+#         article_html = ''
 
-        article_html += f'<h1>{title}</h1>' + '\n'
-        image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg'
-        if os.path.exists(f'public{image_path}'):
-            article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} introduzione"></p>' + '\n'
-        article_html += util.text_format_1N1_html(intro) + '\n'
+#         article_html += f'<h1>{title}</h1>' + '\n'
+#         image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg'
+#         if os.path.exists(f'public{image_path}'):
+#             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} introduzione"></p>' + '\n'
+#         article_html += util.text_format_1N1_html(intro) + '\n'
 
-        article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application_name}?</h2>' + '\n'
-        image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-definizione.jpg'
-        if os.path.exists(f'public{image_path}'):
-            article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} definizione"></p>' + '\n'
-        article_html += util.text_format_1N1_html(definition) + '\n'
+#         article_html += f'<h2>Cos\'è la sanificazione ad ozono per {application_name}?</h2>' + '\n'
+#         image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-definizione.jpg'
+#         if os.path.exists(f'public{image_path}'):
+#             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} definizione"></p>' + '\n'
+#         article_html += util.text_format_1N1_html(definition) + '\n'
 
-        article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application_name}?</h2>' + '\n'
-        image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-problemi.jpg'
-        if os.path.exists(f'public{image_path}'):
-            article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} problemi"></p>' + '\n'
-        article_html += util.text_format_1N1_html(problems_desc) + '\n'
+#         article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono per {application_name}?</h2>' + '\n'
+#         image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-problemi.jpg'
+#         if os.path.exists(f'public{image_path}'):
+#             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} problemi"></p>' + '\n'
+#         article_html += util.text_format_1N1_html(problems_desc) + '\n'
 
-        article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application_name}?</h2>' + '\n'
-        image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-benefici.jpg'
-        if os.path.exists(f'public{image_path}'):
-            article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} benefici"></p>' + '\n'
-        article_html += util.text_format_1N1_html(benefits_desc) + '\n'
+#         article_html += f'<h2>Quali sono i benefici della sanificazione ad ozono per {application_name}?</h2>' + '\n'
+#         image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-benefici.jpg'
+#         if os.path.exists(f'public{image_path}'):
+#             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} benefici"></p>' + '\n'
+#         article_html += util.text_format_1N1_html(benefits_desc) + '\n'
 
-        article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application_name}?</h2>' + '\n'
-        image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-applicazioni.jpg'
-        if os.path.exists(f'public{image_path}'):
-            article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} applicazioni"></p>' + '\n'
-        article_html += util.text_format_1N1_html(applications_desc) + '\n'
+#         article_html += f'<h2>Quali sono le applicazioni della sanificazione ad ozono per {application_name}?</h2>' + '\n'
+#         image_path = f'/assets/images/ozono-sanificazione-{sector}-{slug}-applicazioni.jpg'
+#         if os.path.exists(f'public{image_path}'):
+#             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector} {slug} applicazioni"></p>' + '\n'
+#         article_html += util.text_format_1N1_html(applications_desc) + '\n'
 
-        # META
-        breadcrumbs = generate_breadcrumbs(filepath_in)
-        reading_time = meta_reading_time(article_html)
-        article_html = generate_toc(article_html)
+#         # META
+#         breadcrumbs = generate_breadcrumbs(filepath_in)
+#         reading_time = meta_reading_time(article_html)
+#         article_html = generate_toc(article_html)
 
-        # COMPONENTS
-        header_html = component_header_no_logo()
+#         # COMPONENTS
+#         header_html = util.component_header_no_logo()
 
-        # HTML
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
+#         # HTML
+#         html = f'''
+#             <!DOCTYPE html>
+#             <html lang="en">
 
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="/style-blog.css">
-                <link rel="stylesheet" href="/util.css">
-                <title>{title}</title>
-                {g.GOOGLE_TAG}
-            </head>
+#             <head>
+#                 <meta charset="UTF-8">
+#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#                 <link rel="stylesheet" href="/style-blog.css">
+#                 <link rel="stylesheet" href="/util.css">
+#                 <title>{title}</title>
+#                 {g.GOOGLE_TAG}
+#             </head>
 
-            <body>
-                <section class="header-section">
-                    <div class="container-xl h-full">
-                        {header_html}
-                    </div>
-                </section>
+#             <body>
+#                 <section class="header-section">
+#                     <div class="container-xl h-full">
+#                         {header_html}
+#                     </div>
+#                 </section>
 
-                <section class="breadcrumbs-section">
-                    <div class="container-xl h-full">
-                        <a href="/index.html">Home</a>{breadcrumbs}
-                    </div>
-                </section>
+#                 <section class="breadcrumbs-section">
+#                     <div class="container-xl h-full">
+#                         <a href="/index.html">Home</a>{breadcrumbs}
+#                     </div>
+#                 </section>
 
-                <section class="meta-section mt-48">
-                    <div class="container-md h-full">
-                        <div class="flex justify-between mb-8">
-                            <span>Autore: {g.ARTICLES_AUTHOR}</span>
-                            <span>Tempo Lettura: {reading_time} min</span>
-                        </div>
-                        <div class="flex justify-between mb-8">
-                            <span>Aggiornato: {lastmod}</span>
-                        </div>
-                    </div>
-                </section>
+#                 <section class="meta-section mt-48">
+#                     <div class="container-md h-full">
+#                         <div class="flex justify-between mb-8">
+#                             <span>Autore: {g.ARTICLES_AUTHOR}</span>
+#                             <span>Tempo Lettura: {reading_time} min</span>
+#                         </div>
+#                         <div class="flex justify-between mb-8">
+#                             <span>Aggiornato: {lastmod}</span>
+#                         </div>
+#                     </div>
+#                 </section>
 
-                <section class="container-md">
-                    {article_html}
-                </section>
+#                 <section class="container-md">
+#                     {article_html}
+#                 </section>
 
-                <section class="footer-section">
-                    <div class="container-xl h-full">
-                        <footer class="flex items-center justify-center">
-                            <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
-                        </footer>
-                    </div>
-                </section>
-            </body>
+#                 <section class="footer-section">
+#                     <div class="container-xl h-full">
+#                         <footer class="flex items-center justify-center">
+#                             <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+#                         </footer>
+#                     </div>
+#                 </section>
+#             </body>
 
-            </html>
-        '''
+#             </html>
+#         '''
 
-        util.file_write(filepath_out, html)
+#         util.file_write(filepath_out, html)
 
-        # IMAGES
-        images_article_folder = f'C:/og-assets/images/articles/{sector}/{slug}'
-        try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
-        except: 
-            # print(f'MISSING: IMAGE FOLDER >>> {images_article_folder}')
-            continue
+#         # IMAGES
+#         images_article_folder = f'C:/og-assets/images/articles/{sector}/{slug}'
+#         try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+#         except: 
+#             # print(f'MISSING: IMAGE FOLDER >>> {images_article_folder}')
+#             continue
 
-        images_filpaths_out = [
-            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg',
-            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-definizione.jpg',
-            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-problemi.jpg',
-            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-benefici.jpg',
-            f'public/assets/images/ozono-sanificazione-{sector}-{slug}-applicazioni.jpg',
-        ]
+#         images_filpaths_out = [
+#             f'public/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg',
+#             f'public/assets/images/ozono-sanificazione-{sector}-{slug}-definizione.jpg',
+#             f'public/assets/images/ozono-sanificazione-{sector}-{slug}-problemi.jpg',
+#             f'public/assets/images/ozono-sanificazione-{sector}-{slug}-benefici.jpg',
+#             f'public/assets/images/ozono-sanificazione-{sector}-{slug}-applicazioni.jpg',
+#         ]
 
-        # print(images_filpaths_out[0])
-        for image_filepath_out in images_filpaths_out:
-            try:
-                image_filepath = images_filepath.pop(0)
-                if not os.path.exists(image_filepath_out):
-                    util_img.resize(
-                        image_filepath, 
-                        image_filepath_out
-                    )
-            except: 
-                print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {images_article_folder}')
-
-
-
-    # # IMAGES
-    # articles_folder = f'articles/public/ozono/sanificazione/settori/{sector}'
-    # for article_filename in os.listdir(articles_folder):
-    #     article_filename_no_ext = article_filename.replace('.json', '')
-
-    #     article_filepath = f'{article_filename}/{article_filename}'
-    #     images_articles_folder = f'C:/og-assets/images/articles'
-    #     images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
-    #     try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
-    #     except: 
-    #         print(f'MISSING: IMAGE FOLDER >>> {article_filename}')
-    #         continue
-
-    #     images_filpaths_out = [
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
-    #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
-    #     ]
-
-    #     # print(images_filepath[0])
-    #     print(images_filpaths_out[0])
-    #     for image_filepath_out in images_filpaths_out:
-    #         try:
-    #             image_filepath = images_filepath.pop(0)
-    #             if not os.path.exists(image_filepath_out):
-    #                 util_img.resize(
-    #                     image_filepath, 
-    #                     image_filepath_out
-    #                 )
-    #         except: 
-    #             print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {article_filename}')
+#         # print(images_filpaths_out[0])
+#         for image_filepath_out in images_filpaths_out:
+#             try:
+#                 image_filepath = images_filepath.pop(0)
+#                 if not os.path.exists(image_filepath_out):
+#                     util_img.resize(
+#                         image_filepath, 
+#                         image_filepath_out
+#                     )
+#             except: 
+#                 print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {images_article_folder}')
 
 
-def gen_article_applications():
-    filepath_in = 'articles/public/ozono/sanificazione/applicazioni.json'
-    filepath_out = 'public/ozono/sanificazione/applicazioni.html'
 
-    article_html = ''
+#     # # IMAGES
+#     # articles_folder = f'articles/public/ozono/sanificazione/settori/{sector}'
+#     # for article_filename in os.listdir(articles_folder):
+#     #     article_filename_no_ext = article_filename.replace('.json', '')
+
+#     #     article_filepath = f'{article_filename}/{article_filename}'
+#     #     images_articles_folder = f'C:/og-assets/images/articles'
+#     #     images_article_folder = f'{images_articles_folder}/{article_filename_no_ext}'
+#     #     try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+#     #     except: 
+#     #         print(f'MISSING: IMAGE FOLDER >>> {article_filename}')
+#     #         continue
+
+#     #     images_filpaths_out = [
+#     #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-introduzione.jpg',
+#     #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-definizione.jpg',
+#     #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-problemi.jpg',
+#     #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-benefici.jpg',
+#     #         f'public/assets/images/ozono-sanificazione-{article_filename_no_ext}-applicazioni.jpg',
+#     #     ]
+
+#     #     # print(images_filepath[0])
+#     #     print(images_filpaths_out[0])
+#     #     for image_filepath_out in images_filpaths_out:
+#     #         try:
+#     #             image_filepath = images_filepath.pop(0)
+#     #             if not os.path.exists(image_filepath_out):
+#     #                 util_img.resize(
+#     #                     image_filepath, 
+#     #                     image_filepath_out
+#     #                 )
+#     #         except: 
+#     #             print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {article_filename}')
+
+
+# def gen_article_applications():
+#     filepath_in = 'articles/public/ozono/sanificazione/applicazioni.json'
+#     filepath_out = 'public/ozono/sanificazione/applicazioni.html'
+
+#     article_html = ''
     
-    title = 'Quali sono le applicazioni della sanificazione ad ozono?'
-    article_html += f'<h1>{title}</h1>' + '\n'
-    article_html += f'<p><img src="/assets/images/ozono-sanificazione-applicazioni-introduzione.jpg" alt=""><p>' + '\n'
+#     title = 'Quali sono le applicazioni della sanificazione ad ozono?'
+#     article_html += f'<h1>{title}</h1>' + '\n'
+#     article_html += f'<p><img src="/assets/images/ozono-sanificazione-applicazioni-introduzione.jpg" alt=""><p>' + '\n'
 
-    data = util.json_read(filepath_in)
-    for application in data['applications']:
-        application_name = application['application_name']
-        application_a_1 = util.csv_get_rows_by_entity('database/tables/applications.csv', application_name)[0][1]
-        application_desc = application['application_desc']
-        application_dash = application_name.strip().lower().replace(' ', '-').replace("'", '-')
-        application_desc_with_link = application_desc.replace(
-            f'La sanificazione ad ozono {application_a_1}{application_name}',
-            f'<a href="/ozono/sanificazione/applicazioni/{application_dash}.html">La sanificazione ad ozono {application_a_1}{application_name}</a>',
-        )
-        article_html += f'<h2>{application_name.title()}</h2>' + '\n'
-        article_html += f'<p><img src="/assets/images/ozono-sanificazione-{application_dash}-introduzione.jpg" alt=""><p>' + '\n'
-        article_html += util.text_format_1N1_html(application_desc_with_link) + '\n'
+#     data = util.json_read(filepath_in)
+#     for application in data['applications']:
+#         application_name = application['application_name']
+#         application_a_1 = util.csv_get_rows_by_entity('database/tables/applications.csv', application_name)[0][1]
+#         application_desc = application['application_desc']
+#         application_dash = application_name.strip().lower().replace(' ', '-').replace("'", '-')
+#         application_desc_with_link = application_desc.replace(
+#             f'La sanificazione ad ozono {application_a_1}{application_name}',
+#             f'<a href="/ozono/sanificazione/applicazioni/{application_dash}.html">La sanificazione ad ozono {application_a_1}{application_name}</a>',
+#         )
+#         article_html += f'<h2>{application_name.title()}</h2>' + '\n'
+#         article_html += f'<p><img src="/assets/images/ozono-sanificazione-{application_dash}-introduzione.jpg" alt=""><p>' + '\n'
+#         article_html += util.text_format_1N1_html(application_desc_with_link) + '\n'
 
-    # META
-    breadcrumbs = generate_breadcrumbs(filepath_in)
-    reading_time = len(article_html.split(' ')) // 200
+#     # META
+#     breadcrumbs = generate_breadcrumbs(filepath_in)
+#     reading_time = len(article_html.split(' ')) // 200
 
-    publishing_date = ''
-    try: publishing_date = md.Meta['publishing_date'][0]
-    except: pass
+#     publishing_date = ''
+#     try: publishing_date = md.Meta['publishing_date'][0]
+#     except: pass
 
-    author = 'Ozonogroup Staff'
-    try: author = md.Meta['author'][0]
-    except: pass
+#     author = 'Ozonogroup Staff'
+#     try: author = md.Meta['author'][0]
+#     except: pass
 
-    last_update_date = ''
-    try: last_update_date = md.Meta['last_update_date'][0]
-    except: pass
+#     last_update_date = ''
+#     try: last_update_date = md.Meta['last_update_date'][0]
+#     except: pass
 
-    article_html = generate_toc(article_html)
+#     article_html = generate_toc(article_html)
 
-    # COMPONENTS
-    with open('components/header.html', encoding='utf-8') as f:
-        header_html = f.read()
+#     # COMPONENTS
+#     with open('components/header.html', encoding='utf-8') as f:
+#         header_html = f.read()
 
-    # HTML
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
+#     # HTML
+#     html = f'''
+#         <!DOCTYPE html>
+#         <html lang="en">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="/style-blog.css">
-            <link rel="stylesheet" href="/util.css">
-            <title>{title}</title>
-            {g.GOOGLE_TAG}
-        </head>
+#         <head>
+#             <meta charset="UTF-8">
+#             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#             <link rel="stylesheet" href="/style-blog.css">
+#             <link rel="stylesheet" href="/util.css">
+#             <title>{title}</title>
+#             {g.GOOGLE_TAG}
+#         </head>
 
-        <body>
-            <section class="header-section">
-                <div class="container-xl h-full">
-                    {header_html}
-                </div>
-            </section>
+#         <body>
+#             <section class="header-section">
+#                 <div class="container-xl h-full">
+#                     {header_html}
+#                 </div>
+#             </section>
 
-            <section class="breadcrumbs-section">
-                <div class="container-xl h-full">
-                    <a href="/index.html">Home</a>{breadcrumbs}
-                </div>
-            </section>
+#             <section class="breadcrumbs-section">
+#                 <div class="container-xl h-full">
+#                     <a href="/index.html">Home</a>{breadcrumbs}
+#                 </div>
+#             </section>
 
-            <section class="meta-section mt-48">
-                <div class="container-md h-full">
-                    <div class="flex justify-between mb-8">
-                        <span>by {author} • {publishing_date}</span>
-                        <span>Tempo Lettura: {reading_time} min</span>
-                    </div>
-                </div>
-            </section>
+#             <section class="meta-section mt-48">
+#                 <div class="container-md h-full">
+#                     <div class="flex justify-between mb-8">
+#                         <span>by {author} • {publishing_date}</span>
+#                         <span>Tempo Lettura: {reading_time} min</span>
+#                     </div>
+#                 </div>
+#             </section>
 
-            <section class="container-md">
-                {article_html}
-            </section>
+#             <section class="container-md">
+#                 {article_html}
+#             </section>
 
-            <section class="footer-section">
-                <div class="container-xl h-full">
-                    <footer class="flex items-center justify-center">
-                        <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
-                    </footer>
-                </div>
-            </section>
-        </body>
+#             <section class="footer-section">
+#                 <div class="container-xl h-full">
+#                     <footer class="flex items-center justify-center">
+#                         <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+#                     </footer>
+#                 </div>
+#             </section>
+#         </body>
 
-        </html>
-    '''
+#         </html>
+#     '''
 
-    util.file_write(filepath_out, html)
+#     util.file_write(filepath_out, html)
 
 
-def sectors():
-    filepath_in = f'database/articles/ozono/sanificazione/settori.json'
-    filepath_out = f'public/ozono/sanificazione/settori.html'
+# def sectors():
+#     filepath_in = f'database/articles/ozono/sanificazione/settori.json'
+#     filepath_out = f'public/ozono/sanificazione/settori.html'
 
-    data = util.json_read(filepath_in)
+#     data = util.json_read(filepath_in)
 
-    article_html = ''
+#     article_html = ''
     
-    title = data['title']
-    article_html += f'<h1>{title}</h1>' + '\n'
+#     title = data['title']
+#     article_html += f'<h1>{title}</h1>' + '\n'
 
-    intro = ''
-    try: intro = data['intro_desc']
-    except: print(f'MISSING: INTRO >>> settori')
-    if intro != '':
-        # image_path = f'/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg'
-        # article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
-        try: article_html += util.text_format_1N1_html(intro) + '\n'
-        except: print(f'MISSING: INTRO >>> settori')
+#     intro = ''
+#     try: intro = data['intro_desc']
+#     except: print(f'MISSING: INTRO >>> settori')
+#     if intro != '':
+#         # image_path = f'/assets/images/ozono-sanificazione-{keyword}-introduzione.jpg'
+#         # article_html += f'<p><img src="{image_path}" alt=""></p>' + '\n'
+#         try: article_html += util.text_format_1N1_html(intro) + '\n'
+#         except: print(f'MISSING: INTRO >>> settori')
         
-    sectors = []
-    try: sectors = data['sectors']
-    except: print(f'MISSING: SECTORS >>> settori')
-    if sectors != []:
-        for i, sector in enumerate(sectors):
-            # print(sector)
-            # continue
-            slug = sector['slug'].strip()
-            name = slug.replace('-', ' ').title()
-            desc = sector['desc'].strip()
-            a_1 = sector['a_1']
-            desc_link = desc.replace(
-                f'sanificazione ad ozono nel settore {name.lower()}',
-                f'<a href="/ozono/sanificazione/settori/{slug}.html">sanificazione ad ozono nel settore {a_1}{name.lower()}</a>',
-                1
-            )
-            article_html += f'<h2>{i+1}. {name}</h2>' + '\n'
-            article_html += f'<p><img src="/assets/images/ozono-sanificazione-settori-{slug}.jpg" alt=""></p>' + '\n'
-            article_html += util.text_format_1N1_html(desc_link) + '\n'
+#     sectors = []
+#     try: sectors = data['sectors']
+#     except: print(f'MISSING: SECTORS >>> settori')
+#     if sectors != []:
+#         for i, sector in enumerate(sectors):
+#             # print(sector)
+#             # continue
+#             slug = sector['slug'].strip()
+#             name = slug.replace('-', ' ').title()
+#             desc = sector['desc'].strip()
+#             a_1 = sector['a_1']
+#             desc_link = desc.replace(
+#                 f'sanificazione ad ozono nel settore {name.lower()}',
+#                 f'<a href="/ozono/sanificazione/settori/{slug}.html">sanificazione ad ozono nel settore {a_1}{name.lower()}</a>',
+#                 1
+#             )
+#             article_html += f'<h2>{i+1}. {name}</h2>' + '\n'
+#             article_html += f'<p><img src="/assets/images/ozono-sanificazione-settori-{slug}.jpg" alt=""></p>' + '\n'
+#             article_html += util.text_format_1N1_html(desc_link) + '\n'
 
-    # META
-    breadcrumbs = generate_breadcrumbs(filepath_in)
-    reading_time = len(article_html.split(' ')) // 200
+#     # META
+#     breadcrumbs = generate_breadcrumbs(filepath_in)
+#     reading_time = len(article_html.split(' ')) // 200
 
-    publishing_date = ''
-    try: publishing_date = md.Meta['publishing_date'][0]
-    except: pass
+#     publishing_date = ''
+#     try: publishing_date = md.Meta['publishing_date'][0]
+#     except: pass
 
-    author = 'Ozonogroup Staff'
-    try: author = md.Meta['author'][0]
-    except: pass
+#     author = 'Ozonogroup Staff'
+#     try: author = md.Meta['author'][0]
+#     except: pass
 
-    last_update_date = ''
-    try: last_update_date = md.Meta['last_update_date'][0]
-    except: pass
+#     last_update_date = ''
+#     try: last_update_date = md.Meta['last_update_date'][0]
+#     except: pass
 
-    article_html = generate_toc(article_html)
+#     article_html = generate_toc(article_html)
 
-    # COMPONENTS
-    header_html = component_header_no_logo()
+#     # COMPONENTS
+#     header_html = util.component_header_no_logo()
 
-    # HTML
-    html = f'''
-        <!DOCTYPE html>
-        <html lang="en">
+#     # HTML
+#     html = f'''
+#         <!DOCTYPE html>
+#         <html lang="en">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <link rel="stylesheet" href="/style-blog.css">
-            <link rel="stylesheet" href="/util.css">
-            <title>{title}</title>
-            {g.GOOGLE_TAG}
-        </head>
+#         <head>
+#             <meta charset="UTF-8">
+#             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#             <link rel="stylesheet" href="/style-blog.css">
+#             <link rel="stylesheet" href="/util.css">
+#             <title>{title}</title>
+#             {g.GOOGLE_TAG}
+#         </head>
 
-        <body>
-            <section class="header-section">
-                <div class="container-xl h-full">
-                    {header_html}
-                </div>
-            </section>
+#         <body>
+#             <section class="header-section">
+#                 <div class="container-xl h-full">
+#                     {header_html}
+#                 </div>
+#             </section>
 
-            <section class="breadcrumbs-section">
-                <div class="container-xl h-full">
-                    <a href="/index.html">Home</a>{breadcrumbs}
-                </div>
-            </section>
+#             <section class="breadcrumbs-section">
+#                 <div class="container-xl h-full">
+#                     <a href="/index.html">Home</a>{breadcrumbs}
+#                 </div>
+#             </section>
 
-            <section class="meta-section mt-48">
-                <div class="container-md h-full">
-                    <div class="flex justify-between mb-8">
-                        <span>by {author} • {publishing_date}</span>
-                        <span>Tempo Lettura: {reading_time} min</span>
-                    </div>
-                </div>
-            </section>
+#             <section class="meta-section mt-48">
+#                 <div class="container-md h-full">
+#                     <div class="flex justify-between mb-8">
+#                         <span>by {author} • {publishing_date}</span>
+#                         <span>Tempo Lettura: {reading_time} min</span>
+#                     </div>
+#                 </div>
+#             </section>
 
-            <section class="container-md">
-                {article_html}
-            </section>
+#             <section class="container-md">
+#                 {article_html}
+#             </section>
 
-            <section class="footer-section">
-                <div class="container-xl h-full">
-                    <footer class="flex items-center justify-center">
-                        <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
-                    </footer>
-                </div>
-            </section>
-        </body>
+#             <section class="footer-section">
+#                 <div class="container-xl h-full">
+#                     <footer class="flex items-center justify-center">
+#                         <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+#                     </footer>
+#                 </div>
+#             </section>
+#         </body>
 
-        </html>
-    '''
+#         </html>
+#     '''
 
-    util.file_write(filepath_out, html)
+#     util.file_write(filepath_out, html)
     
     
-    # IMAGES
-    if sectors != []:
-        for i, sector in enumerate(sectors):
-            slug = sector['slug'].strip()
-            images_article_folder = f'C:/og-assets/images/settori/{slug}'
-            try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
-            except: 
-                print(f'MISSING: IMAGE FOLDER >>> {slug}')
-                continue
+#     # IMAGES
+#     if sectors != []:
+#         for i, sector in enumerate(sectors):
+#             slug = sector['slug'].strip()
+#             images_article_folder = f'C:/og-assets/images/settori/{slug}'
+#             try: images_filepath = [f'{images_article_folder}/{filepath}' for filepath in os.listdir(images_article_folder)]
+#             except: 
+#                 print(f'MISSING: IMAGE FOLDER >>> {slug}')
+#                 continue
             
-            print(images_filepath)
+#             print(images_filepath)
             
-            images_filpaths_out = [
-                f'public/assets/images/ozono-sanificazione-settori-{slug}.jpg',
-            ]
+#             images_filpaths_out = [
+#                 f'public/assets/images/ozono-sanificazione-settori-{slug}.jpg',
+#             ]
 
-            for image_filepath_out in images_filpaths_out:
-                try:
-                    image_filepath = images_filepath.pop(0)
-                    if not os.path.exists(image_filepath_out):
-                        util_img.resize(
-                            image_filepath, 
-                            image_filepath_out
-                        )
-                except: 
-                    print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {article_filename}')
+#             for image_filepath_out in images_filpaths_out:
+#                 try:
+#                     image_filepath = images_filepath.pop(0)
+#                     if not os.path.exists(image_filepath_out):
+#                         util_img.resize(
+#                             image_filepath, 
+#                             image_filepath_out
+#                         )
+#                 except: 
+#                     print(f'MISSING: NOT ENOUGH IMAGES IN FOLDER >> {article_filename}')
 
 
-def sector():
-    rows = util.csv_get_rows('database/tables/applications.csv')
+# def sector():
+#     rows = util.csv_get_rows('database/tables/applications.csv')
 
-    cols = {}
-    for i, item in enumerate(rows[0]): cols[item] = i
+#     cols = {}
+#     for i, item in enumerate(rows[0]): cols[item] = i
     
-    sector_dict = {}
-    for row in rows[1:]:
-        try: sector_dict[row[cols['sector']]].append(row)
-        except: sector_dict[row[cols['sector']]] = [row]
+#     sector_dict = {}
+#     for row in rows[1:]:
+#         try: sector_dict[row[cols['sector']]].append(row)
+#         except: sector_dict[row[cols['sector']]] = [row]
     
-    for sector, values in sector_dict.items():
-        print(sector)
-        filepath_in = f'database/articles/ozono/sanificazione/settori/{sector}.json'
-        filepath_out = f'public/ozono/sanificazione/settori/{sector}.html'
-        print(filepath_in)
+#     for sector, values in sector_dict.items():
+#         print(sector)
+#         filepath_in = f'database/articles/ozono/sanificazione/settori/{sector}.json'
+#         filepath_out = f'public/ozono/sanificazione/settori/{sector}.html'
+#         print(filepath_in)
 
-        if not os.path.exists(filepath_in): continue
+#         if not os.path.exists(filepath_in): continue
 
-        data = util.json_read(filepath_in)
-        title = data['title']
-        sector_name = data['sector_name']
-        filename = sector_name + '.json'
+#         data = util.json_read(filepath_in)
+#         title = data['title']
+#         sector_name = data['sector_name']
+#         filename = sector_name + '.json'
 
-        article_html = ''
+#         article_html = ''
         
-        article_html += f'<h1>{title}</h1>' + '\n'
-        article_html += f'<p><img src="/assets/images/ozono-sanificazione-settori-{sector}.jpg" alt=""></p>' + '\n'
+#         article_html += f'<h1>{title}</h1>' + '\n'
+#         article_html += f'<p><img src="/assets/images/ozono-sanificazione-settori-{sector}.jpg" alt=""></p>' + '\n'
         
-        intro = ''
-        try: intro = data['intro_desc']
-        except: print(f'MISSING: INTRO >>> {filename}')
-        if intro != '':
-            try: article_html += util.text_format_1N1_html(intro) + '\n'
-            except: print(f'MISSING: INTRO >>> {filename}')
+#         intro = ''
+#         try: intro = data['intro_desc']
+#         except: print(f'MISSING: INTRO >>> {filename}')
+#         if intro != '':
+#             try: article_html += util.text_format_1N1_html(intro) + '\n'
+#             except: print(f'MISSING: INTRO >>> {filename}')
             
-        applications = []
-        try: applications = data['applications']
-        except: print(f'MISSING: APPLICATIONS >>> {filename}')
-        if applications != []:
-            for i, application in enumerate(applications):
+#         applications = []
+#         try: applications = data['applications']
+#         except: print(f'MISSING: APPLICATIONS >>> {filename}')
+#         if applications != []:
+#             for i, application in enumerate(applications):
 
-                slug = application['slug'].strip()
-                name = application['name'].title()
-                a_1 = application['a_1']
-                desc = application['desc'].strip()
-                print(name)
-                # print(f'sanificazione ad ozono {a_1}{name.lower()}')
-                desc_link = desc.replace(
-                    f'sanificazione ad ozono {a_1}{name.lower()}',
-                    f'<a href="/ozono/sanificazione/settori/{sector}/{slug}.html">sanificazione ad ozono {a_1}{name.lower()}</a>',
-                    1
-                )
-                article_html += f'<h2>{i+1}. {name}</h2>' + '\n'
-                article_html += f'<p><img src="/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg" alt=""></p>' + '\n'
-                article_html += util.text_format_1N1_html(desc_link) + '\n'
-
-
-        # META
-        breadcrumbs = generate_breadcrumbs(filepath_in)
-        reading_time = len(article_html.split(' ')) // 200
-
-        publishing_date = ''
-        try: publishing_date = md.Meta['publishing_date'][0]
-        except: pass
-
-        author = 'Ozonogroup Staff'
-        try: author = md.Meta['author'][0]
-        except: pass
-
-        last_update_date = ''
-        try: last_update_date = md.Meta['last_update_date'][0]
-        except: pass
-
-        article_html = generate_toc(article_html)
-
-        # COMPONENTS
-        header_html = component_header_no_logo()
+#                 slug = application['slug'].strip()
+#                 name = application['name'].title()
+#                 a_1 = application['a_1']
+#                 desc = application['desc'].strip()
+#                 print(name)
+#                 # print(f'sanificazione ad ozono {a_1}{name.lower()}')
+#                 desc_link = desc.replace(
+#                     f'sanificazione ad ozono {a_1}{name.lower()}',
+#                     f'<a href="/ozono/sanificazione/settori/{sector}/{slug}.html">sanificazione ad ozono {a_1}{name.lower()}</a>',
+#                     1
+#                 )
+#                 article_html += f'<h2>{i+1}. {name}</h2>' + '\n'
+#                 article_html += f'<p><img src="/assets/images/ozono-sanificazione-{sector}-{slug}-introduzione.jpg" alt=""></p>' + '\n'
+#                 article_html += util.text_format_1N1_html(desc_link) + '\n'
 
 
-        # HTML
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
+#         # META
+#         breadcrumbs = generate_breadcrumbs(filepath_in)
+#         reading_time = len(article_html.split(' ')) // 200
 
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="/style-blog.css">
-                <link rel="stylesheet" href="/util.css">
-                <title>{title}</title>
-                {g.GOOGLE_TAG}
-            </head>
+#         publishing_date = ''
+#         try: publishing_date = md.Meta['publishing_date'][0]
+#         except: pass
 
-            <body>
-                <section class="header-section">
-                    <div class="container-xl h-full">
-                        {header_html}
-                    </div>
-                </section>
+#         author = 'Ozonogroup Staff'
+#         try: author = md.Meta['author'][0]
+#         except: pass
 
-                <section class="breadcrumbs-section">
-                    <div class="container-xl h-full">
-                        <a href="/index.html">Home</a>{breadcrumbs}
-                    </div>
-                </section>
+#         last_update_date = ''
+#         try: last_update_date = md.Meta['last_update_date'][0]
+#         except: pass
 
-                <section class="meta-section mt-48">
-                    <div class="container-md h-full">
-                        <div class="flex justify-between mb-8">
-                            <span>by {author} • {publishing_date}</span>
-                            <span>Tempo Lettura: {reading_time} min</span>
-                        </div>
-                    </div>
-                </section>
+#         article_html = generate_toc(article_html)
 
-                <section class="container-md">
-                    {article_html}
-                </section>
+#         # COMPONENTS
+#         header_html = util.component_header_no_logo()
 
-                <section class="footer-section">
-                    <div class="container-xl h-full">
-                        <footer class="flex items-center justify-center">
-                            <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
-                        </footer>
-                    </div>
-                </section>
-            </body>
 
-            </html>
-        '''
+#         # HTML
+#         html = f'''
+#             <!DOCTYPE html>
+#             <html lang="en">
 
-        util.file_write(filepath_out, html)
+#             <head>
+#                 <meta charset="UTF-8">
+#                 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#                 <link rel="stylesheet" href="/style-blog.css">
+#                 <link rel="stylesheet" href="/util.css">
+#                 <title>{title}</title>
+#                 {g.GOOGLE_TAG}
+#             </head>
+
+#             <body>
+#                 <section class="header-section">
+#                     <div class="container-xl h-full">
+#                         {header_html}
+#                     </div>
+#                 </section>
+
+#                 <section class="breadcrumbs-section">
+#                     <div class="container-xl h-full">
+#                         <a href="/index.html">Home</a>{breadcrumbs}
+#                     </div>
+#                 </section>
+
+#                 <section class="meta-section mt-48">
+#                     <div class="container-md h-full">
+#                         <div class="flex justify-between mb-8">
+#                             <span>by {author} • {publishing_date}</span>
+#                             <span>Tempo Lettura: {reading_time} min</span>
+#                         </div>
+#                     </div>
+#                 </section>
+
+#                 <section class="container-md">
+#                     {article_html}
+#                 </section>
+
+#                 <section class="footer-section">
+#                     <div class="container-xl h-full">
+#                         <footer class="flex items-center justify-center">
+#                             <span class="text-white">Ozonogroup s.r.l. | Tutti i diritti riservati</span>
+#                         </footer>
+#                     </div>
+#                 </section>
+#             </body>
+
+#             </html>
+#         '''
+
+#         util.file_write(filepath_out, html)
 
 
 
@@ -715,40 +715,40 @@ def sector():
 ###################################################################################################################
 
 
-def component_header():
-    return f'''
-        <header>
-            <div class="logo">
-                [logo]
-            </div>
-            <nav>
-                <input type="checkbox" class="toggle-menu">
-                <div class="hamburger"></div>
-                <ul class="menu">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/settori.html">Settori</a></li>
-                    <li><a href="/servizi.html">Servizi</a></li>
-                    <li><a href="/missione.html">Missione</a></li>
-                    <li><a href="/contatti.html">Contatti</a></li>
-                    <li><a href="/ozono.html">Ozono</a></li>
-                </ul>
-            </nav>
-        </header>
-    '''
+# def component_header():
+#     return f'''
+#         <header>
+#             <div class="logo">
+#                 [logo]
+#             </div>
+#             <nav>
+#                 <input type="checkbox" class="toggle-menu">
+#                 <div class="hamburger"></div>
+#                 <ul class="menu">
+#                     <li><a href="/">Home</a></li>
+#                     <li><a href="/settori.html">Settori</a></li>
+#                     <li><a href="/servizi.html">Servizi</a></li>
+#                     <li><a href="/missione.html">Missione</a></li>
+#                     <li><a href="/contatti.html">Contatti</a></li>
+#                     <li><a href="/ozono.html">Ozono</a></li>
+#                 </ul>
+#             </nav>
+#         </header>
+#     '''
 
 
-def component_header_logo():
-    logo = '<a href="/"><img src="logo-white.png" alt="logo ozonogroup"></a>'
-    header = component_header()
-    header = header.replace('[logo]', logo)
-    return header
+# def util.component_header_logo():
+#     logo = '<a href="/"><img src="logo-white.png" alt="logo ozonogroup"></a>'
+#     header = component_header()
+#     header = header.replace('[logo]', logo)
+#     return header
     
 
-def component_header_no_logo():
-    logo = '<a href="/">Ozonogroup</a>'
-    header = component_header()
-    header = header.replace('[logo]', logo)
-    return header
+# def util.component_header_no_logo():
+#     logo = '<a href="/">Ozonogroup</a>'
+#     header = component_header()
+#     header = header.replace('[logo]', logo)
+#     return header
 
 
 
@@ -762,7 +762,7 @@ def component_header_no_logo():
 def page_home():
     template = util.file_read('templates/index.html')
 
-    header = component_header_logo()
+    header = util.component_header_logo()
     
     template = template.replace('[header]', header)
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
@@ -774,7 +774,7 @@ def page_home():
 def page_servizi():
     template = util.file_read('templates/servizi.html')
 
-    header = component_header_logo()
+    header = util.component_header_logo()
     
     template = template.replace('[header]', header)
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
@@ -785,7 +785,7 @@ def page_servizi():
 def page_settori():
     template = util.file_read('templates/settori.html')
 
-    header = component_header_logo()
+    header = util.component_header_logo()
 
     rows = util.csv_get_rows('database/tables/sectors.csv')[1:]
     
@@ -858,7 +858,7 @@ def page_settori():
 def page_missione():
     template = util.file_read('templates/missione.html')
 
-    header = component_header_logo()
+    header = util.component_header_logo()
     
     template = template.replace('[header]', header)
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
@@ -869,7 +869,7 @@ def page_missione():
 def page_contatti():
     template = util.file_read('templates/contatti.html')
 
-    header = component_header_logo()
+    header = util.component_header_logo()
     
     template = template.replace('[header]', header)
     template = template.replace('[google_tag]', g.GOOGLE_TAG)
@@ -913,7 +913,7 @@ def static_article(filepath):
     article_html = generate_toc(article_html)
 
     # COMPONENTS
-    header_html = component_header_no_logo()
+    header_html = util.component_header_no_logo()
 
     html = f'''
         <!DOCTYPE html>
@@ -973,29 +973,23 @@ def static_article(filepath):
 
 
 # MAIN PAGES
-# page_home()
-# page_servizi()
-# page_settori()
-# page_missione()
-# page_contatti()
+page_home()
+page_servizi()
+page_settori()
+page_missione()
+page_contatti()
 
 # STATIC ARTICLES
-# static_article('articles/public/ozono.md')
-# static_article('articles/public/ozono/chimica.md')
-# static_article('articles/public/ozono/sanificazione.md')
-# static_article('articles/public/ozono/stratosfera.md')
-# static_article('articles/public/ozono/troposfera.md')
-# static_article('articles/public/ozono/effetti.md')
-# static_article('articles/public/ozono/benefici.md')
+static_article('articles/public/ozono.md')
+static_article('articles/public/ozono/chimica.md')
+static_article('articles/public/ozono/sanificazione.md')
+static_article('articles/public/ozono/stratosfera.md')
+static_article('articles/public/ozono/troposfera.md')
+static_article('articles/public/ozono/effetti.md')
+static_article('articles/public/ozono/benefici.md')
 
-gen_applications()
-
+# gen_applications()
 # gen_article_applications()
-
-
-
-
-
 # sectors()
 # sector()
 

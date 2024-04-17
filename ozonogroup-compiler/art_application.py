@@ -26,8 +26,11 @@ def applications_pages():
         application_sector_id = application_row[applications_cols['application_sector_id']]
         title = f'Sanificazione ozono {application_a_1}{application_name}'
 
+        sector_row = util.csv_get_rows_by_entity(sectors_csv_filepath, application_sector_id, col_num=sectors_cols['sector_id'])[0]
+        sector_slug = sector_row[sectors_cols['sector_slug']].strip().lower()
+
         # JSON
-        application_json_filepath = f'database/json/ozono/sanificazione/settori/residenziale/{application_slug}.json'
+        application_json_filepath = f'database/json/ozono/sanificazione/settori/{sector_slug}/{application_slug}.json'
         util.create_folder_for_filepath(application_json_filepath)
         util.json_generate_if_not_exists(application_json_filepath)
         data = util.json_read(application_json_filepath)
@@ -102,6 +105,19 @@ def applications_pages():
             time.sleep(30)
             
         key = 'applications'
+        # del data[key] # (debug only)
+        if key not in data:
+            prompt = f'''
+                scrivi un paragrafo di 100 parole spiegando quali sono le applicazioni della sanificazione ad ozono {application_a_1}{application_name}.
+                non spiegare cos'è l'ozono e non spiegare come funziona.
+                inizia la risposta con queste parole: La sanificazione ad ozono ha diverse applicazioni {application_a_1}{application_name}, come 
+            '''
+            reply = util_ai.gen_reply(prompt).strip()
+            data[key] = reply
+            util.json_write(application_json_filepath, data)
+            time.sleep(30)
+
+        studies = 'studies'
         # del data[key] # (debug only)
         if key not in data:
             prompt = f'''
@@ -570,6 +586,6 @@ def sectors_page():
 
 
 
-
-
-sectors_page()
+applications_pages()
+# sector_page()
+# sectors_page()
