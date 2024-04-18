@@ -11,13 +11,14 @@ applications_csv_filepath = 'database/csv/applications.csv'
 applications_rows = util.csv_get_rows(applications_csv_filepath)
 applications_cols = util.csv_get_header_dict(applications_rows)
 
-sectors_csv_filepath = 'database/csv/sectors.csv'
-sectors_rows = util.csv_get_rows(sectors_csv_filepath)
-sectors_cols = util.csv_get_header_dict(sectors_rows)
 
 
 
 def applications_pages():
+    sectors_csv_filepath = g.CSV_SECTORS_FILEPATH
+    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
+    sectors_cols = util.csv_get_header_dict(sectors_rows)
+
     for application_row in applications_rows[1:]:
         application_id = application_row[applications_cols['application_id']]
         application_name = application_row[applications_cols['application_name']].strip().lower()
@@ -239,12 +240,17 @@ def applications_pages():
 
 
 def sector_page():
+    sectors_csv_filepath = g.CSV_SECTORS_FILEPATH
+    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
+    sectors_cols = util.csv_get_header_dict(sectors_rows)
+
     for sector_row in sectors_rows[1:]:
         sector_id = sector_row[sectors_cols['sector_id']]
         sector_name = sector_row[sectors_cols['sector_name']].lower().strip()
         sector_slug = sector_row[sectors_cols['sector_slug']].lower().strip()
         sector_a_1 = sector_row[sectors_cols['sector_a_1']].lower()
 
+        # GET NUM APPLICATIONS PER SECTOR
         applications_num = 0
         for application_row in applications_rows[1:]:
             application_sector_id = application_row[applications_cols['application_sector_id']]
@@ -252,11 +258,6 @@ def sector_page():
                 applications_num += 1
 
         title = f'{applications_num} applicazioni della sanificazione ad ozono nel settore {sector_a_1}{sector_name}'
-
-        # print(sector_id)
-        # print(sector_name)
-        # print(sector_slug)
-        # print(sector_a_1)
 
         # JSON
         sector_json_filepath = f'database/json/ozono/sanificazione/settori/{sector_slug}.json'
@@ -585,7 +586,36 @@ def sectors_page():
     util.file_write(sectors_html_filepath, html)
 
 
+def applications_missing_images_csv():
+    sectors_csv_filepath = g.CSV_SECTORS_FILEPATH
+    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
+    sectors_cols = util.csv_get_header_dict(sectors_rows)
 
-applications_pages()
+    applications_csv_filepath = g.CSV_APPLICATIONS_FILEPATH
+    applications_rows = util.csv_get_rows(applications_csv_filepath)
+    applications_cols = util.csv_get_header_dict(applications_rows)
+
+    for sector_row in sectors_rows[1:]:
+        sector_id = sector_row[sectors_cols['sector_id']]
+        sector_slug = sector_row[sectors_cols['sector_slug']]
+        # print(sector_row)
+        print(sector_id)
+
+        applications_rows_filtered = []
+        for application_row in applications_rows:
+            application_sector_id = application_row[applications_cols['application_sector_id']]
+            if application_sector_id == sector_id:
+                applications_rows_filtered.append(application_row)
+                # print(application_row)
+
+        for application_row in applications_rows_filtered:
+            application_slug = application_row[applications_cols['application_slug']]
+
+            application_images_folderpath = f'C:/og-assets/images/articles/{sector_slug}/{application_slug}'
+            print(application_images_folderpath)
+
+# applications_pages()
 # sector_page()
 # sectors_page()
+
+applications_missing_images_csv()

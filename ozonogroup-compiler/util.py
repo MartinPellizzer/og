@@ -89,6 +89,16 @@ def csv_get_header_dict(rows):
 
 
 
+def csv_get_cols(rows):
+    cols = {}
+    i = 0
+    for col_name in rows[0]:
+        cols[col_name] = i
+        i += 1
+    return cols
+
+
+
 
 ###################################
 # MD
@@ -338,7 +348,6 @@ def component_header():
                 <div class="hamburger"></div>
                 <ul class="menu">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/prodotti.html">Prodotti</a></li>
                     <li><a href="/settori.html">Settori</a></li>
                     <li><a href="/servizi.html">Servizi</a></li>
                     <li><a href="/missione.html">Missione</a></li>
@@ -348,6 +357,7 @@ def component_header():
             </nav>
         </header>
     '''
+                    # <li><a href="/prodotti.html">Prodotti</a></li>
 
 
 def component_header_logo():

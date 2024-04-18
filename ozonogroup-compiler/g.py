@@ -12,3 +12,7 @@ GOOGLE_TAG = '''
 '''
 
 ARTICLES_AUTHOR = 'Ozonogroup Staff'
+
+
+CSV_SECTORS_FILEPATH = 'database/csv/sectors.csv'
+CSV_APPLICATIONS_FILEPATH = 'database/csv/applications.csv'
