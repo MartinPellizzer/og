@@ -7,27 +7,83 @@ import util
 import util_ai
 import util_img
 
-applications_csv_filepath = 'database/csv/applications.csv'
-applications_rows = util.csv_get_rows(applications_csv_filepath)
+applications_rows = util.csv_get_rows(g.CSV_APPLICATIONS_FILEPATH)
 applications_cols = util.csv_get_header_dict(applications_rows)
 
+sectors_rows = util.csv_get_rows(g.CSV_SECTORS_FILEPATH)
+sectors_cols = util.csv_get_header_dict(sectors_rows)
 
+'''
+OUTLINE:
+    - intro
+    - definition
+    - problems
+    - benefits 
+    - applications 
+        - equipment
+    - studies
+'''
+
+
+def delete_applications_key(key):
+    for application_row in applications_rows[1:]:
+        application_id = application_row[applications_cols['application_id']]
+        application_slug = application_row[applications_cols['application_slug']].strip().lower()
+        application_sector_id = application_row[applications_cols['application_sector_id']]
+
+        sector_row = util.csv_get_rows_by_entity(g.CSV_SECTORS_FILEPATH, application_sector_id, col_num=sectors_cols['sector_id'])[0]
+        sector_slug = sector_row[sectors_cols['sector_slug']].strip().lower()
+
+        application_json_filepath = f'database/json/ozono/sanificazione/settori/{sector_slug}/{application_slug}.json'
+        util.create_folder_for_filepath(application_json_filepath)
+        util.json_generate_if_not_exists(application_json_filepath)
+        data = util.json_read(application_json_filepath)
+
+        if application_sector_id == '9':
+            if key in data: del data[key] # (debug only)
+            util.json_write(application_json_filepath, data)
+
+# delete_applications_key('applications_equipment_list')
+# quit()
+
+
+def ai_intro(application_json_filepath, data):
+    key = 'intro'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        prompt = f'''
+            Scrivi in Italiano 5 frasi brevi sulla sanificazione ad ozono {application_a_1}{application_name}.
+            Nella frase 2, spiega cos'è la sanificazione ad ozono {application_a_1}{application_name} e quali problemi elimina {application_a_1}{application_name}.
+            Nella frase 2, spiega quali sono le ripercussioni di questi problemi in termini di salute.
+            Nella frase 3, spiega quali sono le ripercussioni di questi problemi in termini econimici.
+            Nella frase 4, spiega quali sono le applicazioni dell'ozono {application_a_1}{application_name}.
+            Nella frase 5, spiega quali sono i vantaggi dell'ozono {application_a_1}{application_name} confronto ad altri metodi di sanificazione.
+            Rispondi in meno di 100 parole.
+            Rispondi con una lista numerata.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+        reply = util_ai.reply_list_to_paragraph(reply)
+        data[key] = reply
+        util.json_write(application_json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
 
 
 def applications_pages():
-    sectors_csv_filepath = g.CSV_SECTORS_FILEPATH
-    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
-    sectors_cols = util.csv_get_header_dict(sectors_rows)
-
     for application_row in applications_rows[1:]:
         application_id = application_row[applications_cols['application_id']]
         application_name = application_row[applications_cols['application_name']].strip().lower()
         application_slug = application_row[applications_cols['application_slug']].strip().lower()
         application_a_1 = application_row[applications_cols['application_a_1']].lower()
         application_sector_id = application_row[applications_cols['application_sector_id']]
+        to_process = application_row[applications_cols['to_process']].strip().lower()
+
+        if to_process == '': continue
+        print(f'>> {application_name}')
+
         title = f'Sanificazione ozono {application_a_1}{application_name}'
 
-        sector_row = util.csv_get_rows_by_entity(sectors_csv_filepath, application_sector_id, col_num=sectors_cols['sector_id'])[0]
+        sector_row = util.csv_get_rows_by_entity(g.CSV_SECTORS_FILEPATH, application_sector_id, col_num=sectors_cols['sector_id'])[0]
         sector_slug = sector_row[sectors_cols['sector_slug']].strip().lower()
 
         # JSON
@@ -47,25 +103,8 @@ def applications_pages():
         util.json_write(application_json_filepath, data)
 
         # JSON AI
-        key = 'intro'
-        # del data[key] # (debug only)
-        if key not in data:
-            prompt = f'''
-                Scrivi in Italiano 5 frasi brevi sulla sanificazione ad ozono {application_a_1}{application_name}.
-                Nella frase 2, spiega cos'è la sanificazione ad ozono {application_a_1}{application_name} e quali problemi elimina {application_a_1}{application_name}.
-                Nella frase 2, spiega quali sono le ripercussioni di questi problemi in termini di salute.
-                Nella frase 3, spiega quali sono le ripercussioni di questi problemi in termini econimici.
-                Nella frase 4, spiega quali sono le applicazioni dell'ozono {application_a_1}{application_name}.
-                Nella frase 5, spiega quali sono i vantaggi dell'ozono {application_a_1}{application_name} confronto ad altri metodi di sanificazione.
-                Rispondi in meno di 100 parole.
-                Rispondi con una lista numerata.
-            '''
-            reply = util_ai.gen_reply(prompt).strip()
-            reply = util_ai.reply_list_to_paragraph(reply)
-            data[key] = reply
-            util.json_write(application_json_filepath, data)
-            time.sleep(30)
-            
+        ai_intro(application_json_filepath, data)
+
         key = 'definition'
         # del data[key] # (debug only)
         if key not in data:
@@ -76,7 +115,7 @@ def applications_pages():
             reply = util_ai.gen_reply(prompt).strip()
             data[key] = reply
             util.json_write(application_json_filepath, data)
-            time.sleep(30)
+            time.sleep(g.PROMPT_DELAY_TIME)
             
         key = 'problems'
         # del data[key] # (debug only)
@@ -90,7 +129,7 @@ def applications_pages():
             reply = util_ai.gen_reply(prompt).strip()
             data[key] = reply
             util.json_write(application_json_filepath, data)
-            time.sleep(30)
+            time.sleep(g.PROMPT_DELAY_TIME)
             
         key = 'benefits'
         # del data[key] # (debug only)
@@ -103,7 +142,7 @@ def applications_pages():
             reply = util_ai.gen_reply(prompt).strip()
             data[key] = reply
             util.json_write(application_json_filepath, data)
-            time.sleep(30)
+            time.sleep(g.PROMPT_DELAY_TIME)
             
         key = 'applications'
         # del data[key] # (debug only)
@@ -116,7 +155,51 @@ def applications_pages():
             reply = util_ai.gen_reply(prompt).strip()
             data[key] = reply
             util.json_write(application_json_filepath, data)
-            time.sleep(30)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        if application_sector_id == '9':
+            key = 'applications_equipment_desc'
+            if key not in data:
+                prompt = f'''
+                    Scrivi in Italiano un paragrafo di 100 parole spiegando quali attrezzature {application_a_1}{application_name} l'ozono può sanificare.
+                    inizia la risposta con queste parole: L'ozono viene usato per sanificare diverse attrezzature {application_a_1}{application_name}, come 
+                '''
+                reply = util_ai.gen_reply(prompt).strip()
+                data[key] = reply
+                util.json_write(application_json_filepath, data)
+                time.sleep(g.PROMPT_DELAY_TIME)
+
+            key = 'applications_equipment_list'
+            # if key in data: del data[key] # (debug only)
+            if key not in data:
+                items_num = 10
+                prompt = f'''
+                    Scrivi in Italiano una lista numerata di {items_num} attrezzature {application_a_1}{application_name} che l'ozono può sanificare.
+                    Includi una breve descrizione per ogni attrezzatura spiegando come l'ozono sanifica quell'attrezzatura.
+                '''
+                reply = util_ai.gen_reply(prompt).strip()
+
+                lines = reply.split('\n')
+                list_items = []
+                for line in lines:
+                    line = line.strip()
+                    if line == '': continue
+
+                    if not line[0].isdigit(): continue
+                    line = '.'.join(line.split('.')[1:])
+                    line = line.replace('*', '')
+
+                    line = line.strip()
+                    if line == '': continue
+                    list_items.append(line)
+
+                if len(list_items) == items_num:
+                    print('*****************************************')
+                    print(list_items)
+                    print('*****************************************')
+                    data[key] = list_items
+                    util.json_write(application_json_filepath, data)
+                    time.sleep(g.PROMPT_DELAY_TIME)
 
         studies = 'studies'
         # del data[key] # (debug only)
@@ -129,7 +212,7 @@ def applications_pages():
             reply = util_ai.gen_reply(prompt).strip()
             data[key] = reply
             util.json_write(application_json_filepath, data)
-            time.sleep(30)
+            time.sleep(g.PROMPT_DELAY_TIME)
 
         # HTML
         intro = data['intro']
@@ -170,11 +253,25 @@ def applications_pages():
         if os.path.exists(f'public{image_path}'):
             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector_name} {application_name} benefici"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(benefits)}</p>\n'
+
         article_html += f'<h2>Quali applicazioni ha la sanificazione ad ozono {application_a_1}{application_name}?</h2>\n'
         image_path = f'/assets/images/ozono-sanificazione-{application_sector_slug}-{application_slug}-applicazioni.jpg'
         if os.path.exists(f'public{image_path}'):
             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector_name} {application_name} applicazioni"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(applications)}</p>\n'
+
+        if 'applications_equipment_desc' in data and 'applications_equipment_list' in data:
+            applications_equipment_desc = data['applications_equipment_desc']
+            applications_equipment_list = data['applications_equipment_list']
+            article_html += f'<h3>Quali attrezzature l\'ozono sanifica {application_a_1}{application_name}?</h3>\n'
+            article_html += f'<p>{util.text_format_1N1_html(applications_equipment_desc)}</p>\n'
+
+            article_html += f'<ul>\n'
+            for item in applications_equipment_list:
+                chunk_1 = item.split(':')[0]
+                chunk_2 = ':'.join(item.split(':')[1:])
+                article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+            article_html += f'</ul>\n'
 
         breadcrumbs = util.generate_breadcrumbs(application_json_filepath)
         header_html = util.component_header_no_logo()
@@ -235,15 +332,11 @@ def applications_pages():
             </html>
         '''
 
-        application_html_filepath = f'public/ozono/sanificazione/settori/residenziale/{application_slug}.html'
+        application_html_filepath = f'public/ozono/sanificazione/settori/{sector_slug}/{application_slug}.html'
         util.file_write(application_html_filepath, html)
 
 
 def sector_page():
-    sectors_csv_filepath = g.CSV_SECTORS_FILEPATH
-    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
-    sectors_cols = util.csv_get_header_dict(sectors_rows)
-
     for sector_row in sectors_rows[1:]:
         sector_id = sector_row[sectors_cols['sector_id']]
         sector_name = sector_row[sectors_cols['sector_name']].lower().strip()
@@ -285,7 +378,7 @@ def sector_page():
             reply = util_ai.gen_reply(prompt).strip()
             sector_data[key] = reply
             util.json_write(sector_json_filepath, sector_data)
-            time.sleep(30)
+            time.sleep(g.PROMPT_DELAY_TIME)
 
         if 'applications' not in sector_data: sector_data['applications'] = []
         applications_rows_filtered = []
@@ -327,7 +420,7 @@ def sector_page():
                 reply = util_ai.gen_reply(prompt).strip()
                 application_obj[key] = reply
                 util.json_write(sector_json_filepath, sector_data)
-                time.sleep(30)
+                time.sleep(g.PROMPT_DELAY_TIME)
 
 
         # HTML
@@ -418,10 +511,6 @@ def sector_page():
 
 
 def sectors_page():
-    sectors_csv_filepath = 'database/csv/sectors.csv'
-    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
-    sectors_cols = util.csv_get_header_dict(sectors_rows)
-
     sectors_json_filepath = f'database/json/ozono/sanificazione/settori.json'
     util.create_folder_for_filepath(sectors_json_filepath)
     util.json_generate_if_not_exists(sectors_json_filepath)
@@ -446,7 +535,7 @@ def sectors_page():
         reply = util_ai.gen_reply(prompt).strip()
         sectors_data[key] = reply
         util.json_write(sectors_json_filepath, sectors_data)
-        time.sleep(30)
+        time.sleep(g.PROMPT_DELAY_TIME)
 
     if 'sectors' not in sectors_data: sectors_data['sectors'] = []
     for sector_row in sectors_rows[1:]:
@@ -484,7 +573,7 @@ def sectors_page():
             reply = util_ai.gen_reply(prompt).strip()
             sector_obj[key] = reply
             util.json_write(sectors_json_filepath, sectors_data)
-            time.sleep(30)
+            time.sleep(g.PROMPT_DELAY_TIME)
 
     # HTML
     title = sectors_data['title']
@@ -514,7 +603,6 @@ def sectors_page():
         image_path = f'/assets/images/ozono-sanificazione-settori-{sector_slug}.jpg'
         if os.path.exists(f'public{image_path}'):
             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione settore {sector_a_1}{sector_name} introduzione"></p>' + '\n'
-            print(sector_name)
         sector_desc = sector_desc.replace(
             f'sanificazione ad ozono nel settore {sector_a_1}{sector_name}',
             f'<a href="/ozono/sanificazione/settori/{sector_slug}.html">sanificazione ad ozono nel settore {sector_a_1}{sector_name}</a>',
@@ -587,14 +675,6 @@ def sectors_page():
 
 
 def applications_missing_images_csv():
-    sectors_csv_filepath = g.CSV_SECTORS_FILEPATH
-    sectors_rows = util.csv_get_rows(sectors_csv_filepath)
-    sectors_cols = util.csv_get_header_dict(sectors_rows)
-
-    applications_csv_filepath = g.CSV_APPLICATIONS_FILEPATH
-    applications_rows = util.csv_get_rows(applications_csv_filepath)
-    applications_cols = util.csv_get_header_dict(applications_rows)
-
     for sector_row in sectors_rows[1:]:
         sector_id = sector_row[sectors_cols['sector_id']]
         sector_slug = sector_row[sectors_cols['sector_slug']]
@@ -614,8 +694,12 @@ def applications_missing_images_csv():
             application_images_folderpath = f'C:/og-assets/images/articles/{sector_slug}/{application_slug}'
             print(application_images_folderpath)
 
-# applications_pages()
+
+
+
+
+applications_pages()
 # sector_page()
 # sectors_page()
 
-applications_missing_images_csv()
+# applications_missing_images_csv()

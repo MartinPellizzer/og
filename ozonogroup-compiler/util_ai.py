@@ -1,7 +1,7 @@
 from groq import Groq
 
 client = Groq(
-    api_key='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',
+    api_key='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',
 )
 
 
@@ -20,6 +20,7 @@ def gen_reply(prompt):
             }
         ],
         model="mixtral-8x7b-32768",
+        # model="llama3-70b-8192",
     )
 
     reply = completion.choices[0].message.content

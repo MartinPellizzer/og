@@ -11,8 +11,11 @@ GOOGLE_TAG = '''
     </script>
 '''
 
+PROMPT_DELAY_TIME = 30
+
 ARTICLES_AUTHOR = 'Ozonogroup Staff'
 
 
 CSV_SECTORS_FILEPATH = 'database/csv/sectors.csv'
 CSV_APPLICATIONS_FILEPATH = 'database/csv/applications.csv'
+CSV_EQUIPMENT_FILEPATH = 'database/csv/applications_equipment.csv'
