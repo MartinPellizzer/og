@@ -19,3 +19,5 @@ ARTICLES_AUTHOR = 'Ozonogroup Staff'
 CSV_SECTORS_FILEPATH = 'database/csv/sectors.csv'
 CSV_APPLICATIONS_FILEPATH = 'database/csv/applications.csv'
 CSV_EQUIPMENT_FILEPATH = 'database/csv/applications_equipment.csv'
+
+CSV_APPLICATIONS_STUDIES_FILEPATH = 'database/csv/applications_studies.csv'

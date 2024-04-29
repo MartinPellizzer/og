@@ -13,6 +13,9 @@ applications_cols = util.csv_get_header_dict(applications_rows)
 sectors_rows = util.csv_get_rows(g.CSV_SECTORS_FILEPATH)
 sectors_cols = util.csv_get_header_dict(sectors_rows)
 
+studies_rows = util.csv_get_rows(g.CSV_APPLICATIONS_STUDIES_FILEPATH)
+studies_cols = util.csv_get_cols(studies_rows)
+
 '''
 OUTLINE:
     - intro
@@ -39,13 +42,17 @@ def delete_applications_key(key):
         util.json_generate_if_not_exists(application_json_filepath)
         data = util.json_read(application_json_filepath)
 
-        if application_sector_id == '9':
-            if key in data: del data[key] # (debug only)
-            util.json_write(application_json_filepath, data)
+        # if application_sector_id == '9':
+        if key in data: del data[key] # (debug only)
+        util.json_write(application_json_filepath, data)
 
-# delete_applications_key('applications_equipment_list')
+# delete_applications_key('benefits_list')
 # quit()
 
+
+############################################################
+# APPLICATIONS
+############################################################
 
 def ai_intro(application_json_filepath, data):
     key = 'intro'
@@ -67,6 +74,151 @@ def ai_intro(application_json_filepath, data):
         data[key] = reply
         util.json_write(application_json_filepath, data)
         time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def ai_definition(application_json_filepath, data):
+    key = 'definition'
+    if key not in data:
+        application_name = data['application_name']
+        prompt = f'''
+            scrivi un paragrafo di 100 parole spiegando cos'è e a cosa serve la sanificazione ad ozono per il seguente campo di applicazioni: {application_name}.
+            Includi solo informazioni specifiche su questo campo di applicazione, e non informazioni generiche sull'ozono.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+        data[key] = reply
+        util.json_write(application_json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def ai_problems(application_json_filepath, data):
+    key = 'problems'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        prompt = f'''
+            scrivi un paragrafo di 100 parole spiegando quali problemi risolve la sanificazione ad ozono {application_a_1}{application_name}.
+            includi nomi di batteri, virus, muffe, parassiti e odori.
+            non spiegare cos'è l'ozono e non spiegare come funziona.
+            inizia la risposta con queste parole: La sanificazione ad ozono elimina diversi problemi {application_a_1}{application_name}, come 
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+        data[key] = reply
+        util.json_write(application_json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def ai_benefits(application_json_filepath, data):
+    key = 'benefits'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        prompt = f'''
+            scrivi un paragrafo di 100 parole spiegando quali sono i benefici della sanificazione ad ozono per {application_a_1}{application_name}.
+            non spiegare cos'è l'ozono e non spiegare come funziona.
+            inizia la risposta con queste parole: La sanificazione ad ozono ha diversi benefici {application_a_1}{application_name}, come
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+        data[key] = reply
+        util.json_write(application_json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    key = 'benefits_list'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        items_num = 10
+        prompt = f'''
+            Scrivi in Italiano una lista numerata di {items_num} benefici che la sanificazione ad ozono ha {application_a_1}{application_name} confronto ad altri sistemi tradizionali di sanificazione.
+            Includi una breve descrizione di una frase per ogni beneficio, spiegando perché l'ozono ha questo beneficio {application_a_1}{application_name} confronto i sistemi di sanificazione tradizionale.
+            Sistema eventuali errori grammaticali e ortografici.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        list_items = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+
+            if not line[0].isdigit(): continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.replace('*', '')
+
+            line = line.strip()
+            if line == '': continue
+            list_items.append(line)
+
+        if len(list_items) == items_num:
+            print('*****************************************')
+            print(list_items)
+            print('*****************************************')
+            data[key] = list_items
+            util.json_write(application_json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def ai_applications(application_json_filepath, data):           
+    key = 'applications'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        prompt = f'''
+            scrivi un paragrafo di 100 parole spiegando quali sono le applicazioni della sanificazione ad ozono {application_a_1}{application_name}.
+            non spiegare cos'è l'ozono e non spiegare come funziona.
+            inizia la risposta con queste parole: La sanificazione ad ozono ha diverse applicazioni {application_a_1}{application_name}, come 
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+        data[key] = reply
+        util.json_write(application_json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def ai_applications_equipment(application_json_filepath, data):
+    key = 'applications_equipment_desc'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        prompt = f'''
+            Scrivi in Italiano un paragrafo di 100 parole spiegando quali attrezzature {application_a_1}{application_name} l'ozono può sanificare.
+            inizia la risposta con queste parole: L'ozono viene usato per sanificare diverse attrezzature {application_a_1}{application_name}, come 
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+        data[key] = reply
+        util.json_write(application_json_filepath, data)
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+    key = 'applications_equipment_list'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        items_num = 10
+        prompt = f'''
+            Scrivi in Italiano una lista numerata di {items_num} attrezzature {application_a_1}{application_name} che l'ozono può sanificare.
+            Includi una breve descrizione per ogni attrezzatura spiegando come l'ozono sanifica quell'attrezzatura.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        list_items = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+
+            if not line[0].isdigit(): continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.replace('*', '')
+
+            line = line.strip()
+            if line == '': continue
+            list_items.append(line)
+
+        if len(list_items) == items_num:
+            print('*****************************************')
+            print(list_items)
+            print('*****************************************')
+            data[key] = list_items
+            util.json_write(application_json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
 
 
 def applications_pages():
@@ -104,115 +256,70 @@ def applications_pages():
 
         # JSON AI
         ai_intro(application_json_filepath, data)
+        ai_definition(application_json_filepath, data)
+        ai_problems(application_json_filepath, data)
+        ai_benefits(application_json_filepath, data)
 
-        key = 'definition'
-        # del data[key] # (debug only)
-        if key not in data:
-            prompt = f'''
-                scrivi un paragrafo di 100 parole spiegando cos'è e a cosa serve la sanificazione ad ozono per il seguente campo di applicazioni: {application_name}.
-                Includi solo informazioni specifiche su questo campo di applicazione, e non informazioni generiche sull'ozono.
-            '''
-            reply = util_ai.gen_reply(prompt).strip()
-            data[key] = reply
-            util.json_write(application_json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-            
-        key = 'problems'
-        # del data[key] # (debug only)
-        if key not in data:
-            prompt = f'''
-                scrivi un paragrafo di 100 parole spiegando quali problemi risolve la sanificazione ad ozono {application_a_1}{application_name}.
-                includi nomi di batteri, virus, muffe, parassiti e odori.
-                non spiegare cos'è l'ozono e non spiegare come funziona.
-                inizia la risposta con queste parole: La sanificazione ad ozono elimina diversi problemi {application_a_1}{application_name}, come 
-            '''
-            reply = util_ai.gen_reply(prompt).strip()
-            data[key] = reply
-            util.json_write(application_json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-            
-        key = 'benefits'
-        # del data[key] # (debug only)
-        if key not in data:
-            prompt = f'''
-                scrivi un paragrafo di 100 parole spiegando quali sono i benefici della sanificazione ad ozono per {application_a_1}{application_name}.
-                non spiegare cos'è l'ozono e non spiegare come funziona.
-                inizia la risposta con queste parole: La sanificazione ad ozono ha diversi benefici {application_a_1}{application_name}, come
-            '''
-            reply = util_ai.gen_reply(prompt).strip()
-            data[key] = reply
-            util.json_write(application_json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-            
-        key = 'applications'
-        # del data[key] # (debug only)
-        if key not in data:
-            prompt = f'''
-                scrivi un paragrafo di 100 parole spiegando quali sono le applicazioni della sanificazione ad ozono {application_a_1}{application_name}.
-                non spiegare cos'è l'ozono e non spiegare come funziona.
-                inizia la risposta con queste parole: La sanificazione ad ozono ha diverse applicazioni {application_a_1}{application_name}, come 
-            '''
-            reply = util_ai.gen_reply(prompt).strip()
-            data[key] = reply
-            util.json_write(application_json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-
+        ai_applications(application_json_filepath, data)
         if application_sector_id == '9':
-            key = 'applications_equipment_desc'
-            if key not in data:
+            ai_applications_equipment(application_json_filepath, data)
+
+
+        # STUDIES
+        key = 'studies'
+        if key not in data: data[key] = []
+
+        studies_rows_filtered = util.csv_get_rows_by_entity(g.CSV_APPLICATIONS_STUDIES_FILEPATH, application_id, col_num=studies_cols['application_id'])
+        for study_row in studies_rows_filtered:
+            study_id = study_row[studies_cols['study_id']]
+            study_title = study_row[studies_cols['study_title']]
+            study_journal = study_row[studies_cols['study_journal']]
+            study_abstract = study_row[studies_cols['study_abstract']]
+            found = False
+            for study_obj in data[key]:
+                if study_obj['study_id'] == study_id:
+                    found = True
+                    break
+            if not found:
+                data[key].append({
+                    'study_id': study_id,
+                    'study_title': study_title,
+                    'study_journal': study_journal,
+                    'study_abstract': study_abstract,
+                })
+
+        util.json_write(application_json_filepath, data)
+
+        for study_obj in data['studies']:
+            key = 'study_summary'
+            if key not in study_obj:
+                study_journal = study_obj['study_journal']
+                study_abstract = study_obj['study_abstract']
+
                 prompt = f'''
-                    Scrivi in Italiano un paragrafo di 100 parole spiegando quali attrezzature {application_a_1}{application_name} l'ozono può sanificare.
-                    inizia la risposta con queste parole: L'ozono viene usato per sanificare diverse attrezzature {application_a_1}{application_name}, come 
+                    Scrivi in Italiano un riassunto del seguente studio scientifico sulla sanificazione ad ozono {application_a_1}{application_name} : {study_abstract}
+                    Inizia la risposta con queste parole: Secondo uno studio scientifico pubblicato dal {study_journal}, 
                 '''
+
                 reply = util_ai.gen_reply(prompt).strip()
-                data[key] = reply
+                study_obj[key] = reply
                 util.json_write(application_json_filepath, data)
                 time.sleep(g.PROMPT_DELAY_TIME)
 
-            key = 'applications_equipment_list'
-            # if key in data: del data[key] # (debug only)
-            if key not in data:
-                items_num = 10
-                prompt = f'''
-                    Scrivi in Italiano una lista numerata di {items_num} attrezzature {application_a_1}{application_name} che l'ozono può sanificare.
-                    Includi una breve descrizione per ogni attrezzatura spiegando come l'ozono sanifica quell'attrezzatura.
-                '''
-                reply = util_ai.gen_reply(prompt).strip()
+        # if key not in data:
+            # prompt = f'''
+            #     scrivi un paragrafo di 100 parole spiegando quali sono le applicazioni della sanificazione ad ozono {application_a_1}{application_name}.
+            #     non spiegare cos'è l'ozono e non spiegare come funziona.
+            #     inizia la risposta con queste parole: La sanificazione ad ozono ha diverse applicazioni {application_a_1}{application_name}, come 
+            # '''
+            # reply = util_ai.gen_reply(prompt).strip()
+            # data[key] = reply
+            # util.json_write(application_json_filepath, data)
+            # time.sleep(g.PROMPT_DELAY_TIME)
 
-                lines = reply.split('\n')
-                list_items = []
-                for line in lines:
-                    line = line.strip()
-                    if line == '': continue
 
-                    if not line[0].isdigit(): continue
-                    line = '.'.join(line.split('.')[1:])
-                    line = line.replace('*', '')
 
-                    line = line.strip()
-                    if line == '': continue
-                    list_items.append(line)
 
-                if len(list_items) == items_num:
-                    print('*****************************************')
-                    print(list_items)
-                    print('*****************************************')
-                    data[key] = list_items
-                    util.json_write(application_json_filepath, data)
-                    time.sleep(g.PROMPT_DELAY_TIME)
-
-        studies = 'studies'
-        # del data[key] # (debug only)
-        if key not in data:
-            prompt = f'''
-                scrivi un paragrafo di 100 parole spiegando quali sono le applicazioni della sanificazione ad ozono {application_a_1}{application_name}.
-                non spiegare cos'è l'ozono e non spiegare come funziona.
-                inizia la risposta con queste parole: La sanificazione ad ozono ha diverse applicazioni {application_a_1}{application_name}, come 
-            '''
-            reply = util_ai.gen_reply(prompt).strip()
-            data[key] = reply
-            util.json_write(application_json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
 
         # HTML
         intro = data['intro']
@@ -272,6 +379,19 @@ def applications_pages():
                 chunk_2 = ':'.join(item.split(':')[1:])
                 article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
             article_html += f'</ul>\n'
+
+        studies_objs = data['studies']
+        if len(studies_objs) > 0:
+            article_html += f'<h2>Quali studi scientifici provano l\'efficacia della sanificazione ad ozono {application_a_1}{application_name}?</h2>\n'
+            image_path = f'/assets/images/ozono-sanificazione-{application_sector_slug}-{application_slug}-studi.jpg'
+            if os.path.exists(f'public{image_path}'):
+                article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector_name} {application_name} studi"></p>' + '\n'
+            for study_obj in studies_objs:
+                study_title = study_obj['study_title']
+                study_summary = study_obj['study_summary']
+                article_html += f'<h3>{study_title}</h3>\n'
+                article_html += f'<p>{util.text_format_1N1_html(study_summary)}</p>\n'
+
 
         breadcrumbs = util.generate_breadcrumbs(application_json_filepath)
         header_html = util.component_header_no_logo()
