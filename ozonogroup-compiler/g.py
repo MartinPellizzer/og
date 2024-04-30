@@ -20,4 +20,10 @@ CSV_SECTORS_FILEPATH = 'database/csv/sectors.csv'
 CSV_APPLICATIONS_FILEPATH = 'database/csv/applications.csv'
 CSV_EQUIPMENT_FILEPATH = 'database/csv/applications_equipment.csv'
 
+
+# MAIN CSVS
+CSV_BACTERIA_FILEPATH ='database/csv/bacteria.csv'
+
+# JUNCTIONS CSVS
 CSV_APPLICATIONS_STUDIES_FILEPATH = 'database/csv/applications_studies.csv'
+CSV_APPLICATIONS_BACTERIA_FILEPATH = 'database/csv/junctions/applications_bacteria.csv'

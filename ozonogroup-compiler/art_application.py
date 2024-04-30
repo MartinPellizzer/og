@@ -9,12 +9,22 @@ import util_img
 
 applications_rows = util.csv_get_rows(g.CSV_APPLICATIONS_FILEPATH)
 applications_cols = util.csv_get_header_dict(applications_rows)
+applications_rows = applications_rows[1:]
 
 sectors_rows = util.csv_get_rows(g.CSV_SECTORS_FILEPATH)
 sectors_cols = util.csv_get_header_dict(sectors_rows)
 
 studies_rows = util.csv_get_rows(g.CSV_APPLICATIONS_STUDIES_FILEPATH)
 studies_cols = util.csv_get_cols(studies_rows)
+
+bacteria_rows = util.csv_get_rows(g.CSV_BACTERIA_FILEPATH)
+bacteria_cols = util.csv_get_cols(bacteria_rows)
+bacteria_rows = bacteria_rows[1:]
+
+applications_bacteria_rows = util.csv_get_rows(g.CSV_APPLICATIONS_BACTERIA_FILEPATH)
+applications_bacteria_cols = util.csv_get_cols(applications_bacteria_rows)
+applications_bacteria_rows = applications_bacteria_rows[1:]
+
 
 '''
 OUTLINE:
@@ -29,7 +39,7 @@ OUTLINE:
 
 
 def delete_applications_key(key):
-    for application_row in applications_rows[1:]:
+    for application_row in applications_rows:
         application_id = application_row[applications_cols['application_id']]
         application_slug = application_row[applications_cols['application_slug']].strip().lower()
         application_sector_id = application_row[applications_cols['application_sector_id']]
@@ -53,6 +63,72 @@ def delete_applications_key(key):
 ############################################################
 # APPLICATIONS
 ############################################################
+
+def csv_applications():
+    for application_row in applications_rows:
+        application_id = application_row[applications_cols['application_id']]
+        application_slug = application_row[applications_cols['application_slug']]
+        application_name = application_row[applications_cols['application_name']]
+        application_a_1 = application_row[applications_cols['application_a_1']]
+
+        print(application_row)
+
+        if application_id == '': continue
+        if application_slug == '': continue
+        if application_name == '': continue
+
+        found = False
+        for application_bacteria_row in applications_bacteria_rows:
+            application_bacteria_id = application_bacteria_row[applications_bacteria_cols['application_id']]
+            if application_bacteria_id == application_id:
+                found = True
+                break
+
+        if not found:            
+            prompt = f'''
+                Scrivi in Italiano una lista numerata di nomi scientifici dei batteri più comuni {application_a_1} {application_name}.
+                Scrivi solo i nomi scientifici dei batteri, non le descrizioni.
+            '''
+            reply = util_ai.gen_reply(prompt).strip()
+
+            lines = reply.split('\n')
+            list_items = []
+            for line in lines:
+                line = line.strip()
+                if line == '': continue
+
+                if not line[0].isdigit(): continue
+                line = '.'.join(line.split('.')[1:])
+                line = line.split('(')[0]
+                line = line.replace('*', '')
+
+                line = line.strip()
+                if line == '': continue
+
+                bacteria_rows_filtered = util.csv_get_rows_by_col_val(
+                    g.CSV_BACTERIA_FILEPATH, bacteria_cols['bacteria_name'], line
+                )
+
+                if bacteria_rows_filtered != []:
+                    bacteria_row = bacteria_rows_filtered[0]
+                    bacteria_id = bacteria_row[bacteria_cols['bacteria_id']]
+                    bacteria_name = bacteria_row[bacteria_cols['bacteria_name']]
+                else:
+                    bacteria_id = ''
+                    bacteria_name = ''
+
+                list_items.append([application_id, application_name, bacteria_id, line])
+
+            if len(list_items) > 0:
+                print('*****************************************')
+                print(list_items)
+                print('*****************************************')
+                util.csv_add_rows(g.CSV_APPLICATIONS_BACTERIA_FILEPATH, list_items)
+
+            time.sleep(g.PROMPT_DELAY_TIME)
+
+        break
+
 
 def ai_intro(application_json_filepath, data):
     key = 'intro'
@@ -105,6 +181,41 @@ def ai_problems(application_json_filepath, data):
         data[key] = reply
         util.json_write(application_json_filepath, data)
         time.sleep(g.PROMPT_DELAY_TIME)
+
+    
+    key = 'problems_list'
+    if key not in data:
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+        items_num = 10
+        prompt = f'''
+            Scrivi in Italiano una lista numerata di {items_num} problemi che la sanificazione ad ozono risolve {application_a_1}{application_name}.
+            Includi una breve descrizione di una frase per ogni problema, spiegando perché l'ozono risolve questo problema {application_a_1}{application_name}.
+            Sistema eventuali errori grammaticali e ortografici.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        list_items = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+
+            if not line[0].isdigit(): continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.replace('*', '')
+
+            line = line.strip()
+            if line == '': continue
+            list_items.append(line)
+
+        if len(list_items) == items_num:
+            print('*****************************************')
+            print(list_items)
+            print('*****************************************')
+            data[key] = list_items
+            util.json_write(application_json_filepath, data)
+            time.sleep(g.PROMPT_DELAY_TIME)
 
 
 def ai_benefits(application_json_filepath, data):
@@ -218,11 +329,11 @@ def ai_applications_equipment(application_json_filepath, data):
             print('*****************************************')
             data[key] = list_items
             util.json_write(application_json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
+        time.sleep(g.PROMPT_DELAY_TIME)
 
 
 def applications_pages():
-    for application_row in applications_rows[1:]:
+    for application_row in applications_rows:
         application_id = application_row[applications_cols['application_id']]
         application_name = application_row[applications_cols['application_name']].strip().lower()
         application_slug = application_row[applications_cols['application_slug']].strip().lower()
@@ -339,6 +450,8 @@ def applications_pages():
                 application_sector_name = sector_name
                 break
 
+
+
         article_html = ''
         article_html += f'<h1>{title}</h1>\n'
         image_path = f'/assets/images/ozono-sanificazione-{application_sector_slug}-{application_slug}-introduzione.jpg'
@@ -355,11 +468,25 @@ def applications_pages():
         if os.path.exists(f'public{image_path}'):
             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector_name} {application_name} problemi"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(problems)}</p>\n'
+
+
+
         article_html += f'<h2>Quali benefici porta la sanificazione ad ozono {application_a_1}{application_name}?</h2>\n'
         image_path = f'/assets/images/ozono-sanificazione-{application_sector_slug}-{application_slug}-benefici.jpg'
         if os.path.exists(f'public{image_path}'):
             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector_name} {application_name} benefici"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(benefits)}</p>\n'
+
+        if 'benefits_list' in data:
+            benefits_list = data['benefits_list']
+            article_html += f'<ul>\n'
+            for item in benefits_list:
+                chunk_1 = item.split(':')[0]
+                chunk_2 = ':'.join(item.split(':')[1:])
+                article_html += f'<li><strong>{chunk_1}</strong>: {chunk_2}</li>\n'
+            article_html += f'</ul>\n'
+
+
 
         article_html += f'<h2>Quali applicazioni ha la sanificazione ad ozono {application_a_1}{application_name}?</h2>\n'
         image_path = f'/assets/images/ozono-sanificazione-{application_sector_slug}-{application_slug}-applicazioni.jpg'
@@ -456,6 +583,10 @@ def applications_pages():
         util.file_write(application_html_filepath, html)
 
 
+############################################################
+# SECTORS
+############################################################
+
 def sector_page():
     for sector_row in sectors_rows[1:]:
         sector_id = sector_row[sectors_cols['sector_id']]
@@ -465,7 +596,7 @@ def sector_page():
 
         # GET NUM APPLICATIONS PER SECTOR
         applications_num = 0
-        for application_row in applications_rows[1:]:
+        for application_row in applications_rows:
             application_sector_id = application_row[applications_cols['application_sector_id']]
             if application_sector_id == sector_id:
                 applications_num += 1
@@ -502,7 +633,7 @@ def sector_page():
 
         if 'applications' not in sector_data: sector_data['applications'] = []
         applications_rows_filtered = []
-        for application_row in applications_rows[1:]:
+        for application_row in applications_rows:
             application_sector_id = application_row[applications_cols['application_sector_id']]
             if application_sector_id == sector_id:
                 application_id = application_row[applications_cols['application_id']].strip()
@@ -817,8 +948,10 @@ def applications_missing_images_csv():
 
 
 
+csv_applications()
 
-applications_pages()
+
+# applications_pages()
 # sector_page()
 # sectors_page()
 
