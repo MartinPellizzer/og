@@ -177,6 +177,8 @@ def scrape_phone(e):
 	except: return ''
 
 
+
+
 def find_new_business(old_businesses):
 	global driver
 	try: feed = driver.find_element(By.XPATH, '//div[@role="feed"]')
@@ -187,12 +189,14 @@ def find_new_business(old_businesses):
 		a_href = a.get_attribute('href')
 		if 'support.' in a_href: continue
 		if 'google.' not in a_href: continue
+		if '/maps/' not in a_href: continue
 		label = a.get_attribute('aria-label')
 		label = sanitize(label)
 		label = label.replace('Link visitato', '')
 		if label not in old_businesses:
 			return item, label
 	return None, None
+
 
 
 def debug_info(name, address, district, website, phone, emails):
@@ -238,7 +242,9 @@ def scrape_new_business(search_text, search_industry, search_district, i):
 		scroll_down_up_down()
 		return 'failed_to_click_listing'
 
-	sleep(3)
+	# TODO: if time is not enough to open new card, manage it
+	# otherwise it will take business info from previous card, which is wrong!!!
+	sleep(5)
 	
 	card_element = get_card_element(business)
 
@@ -320,8 +326,8 @@ def main():
 	# search_district = input('Inserisci la provincia (es. TV): ')
 	# scrapes_num = int(input('Inserisci il numero di azioni (es. 30): '))
 
-	search_industry = 'salumifici'
-	search_district = 'TV'
+	search_industry = 'caseifici'
+	search_district = 'MO'
 	scrapes_num = 30
 
 	# GET COMUNI FROM PROVINCIA
@@ -347,7 +353,7 @@ def main():
 			err = scrape_new_business(search_text, search_industry, search_district, k)
 			print(err, '\n')
 			# if err == 'name_not_equal_label': break
-	
+
 	driver.quit()
 
 main()
@@ -372,3 +378,58 @@ main()
 
 # card_element = get_card_element(business)
 # e.find_element(By.XPATH, './/h1').text
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# search_industry = 'caseifici'
+# search_district = 'MO'
+# scrapes_num = 10
+
+# # GET COMUNI FROM PROVINCIA
+# with open('comuni.csv', 'r', encoding="utf-8") as f: comuni = [line.split(sep) for line in f.readlines()]
+# comuni_filtered = [line for line in comuni if line[2].strip().lower() == search_district.strip().lower()]
+
+# for i, comune in enumerate(comuni_filtered):
+# 	print('*********************************')
+# 	print(comune)
+# 	print(f'{i}/{len(comuni_filtered)}')
+# 	print('*********************************')
+
+# 	comune_nome = comune[1]
+# 	search_text = f'{search_industry} {comune_nome.lower()}'
+# 	search(search_text)
+# 	sleep(10)
+# 	# if i >= 3: break
+
+# 	for k in range(scrapes_num):
+# 		err = scrape_new_business(search_text, search_industry, search_district, k)
+# 		print(err, '\n')
+# 		# if err == 'name_not_equal_label': break
+
+# 	break
+
+# search_industry = 'caseifici'
+# search_district = 'MO'
+# scrapes_num = 6
+
+
+# for k in range(scrapes_num):
+# 	output_file = f'./exports/{search_industry}-{search_district}.csv'.replace(' ', '_')
+
+# 	old_businesses = get_old_businesses(output_file)
+# 	business, label = find_new_business(old_businesses)
+# 	print(f'{k}: {label}')
+# 	print(f'{business}')
