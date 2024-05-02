@@ -23,7 +23,9 @@ CSV_EQUIPMENT_FILEPATH = 'database/csv/applications_equipment.csv'
 
 # MAIN CSVS
 CSV_BACTERIA_FILEPATH ='database/csv/bacteria.csv'
+CSV_VIRUS_FILEPATH ='database/csv/virus.csv'
 
 # JUNCTIONS CSVS
 CSV_APPLICATIONS_STUDIES_FILEPATH = 'database/csv/applications_studies.csv'
 CSV_APPLICATIONS_BACTERIA_FILEPATH = 'database/csv/junctions/applications_bacteria.csv'
+CSV_APPLICATIONS_VIRUS_FILEPATH = 'database/csv/junctions/applications_virus.csv'

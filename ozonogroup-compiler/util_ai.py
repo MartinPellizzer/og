@@ -1,7 +1,10 @@
 from groq import Groq
+import util
+
+api_key = util.file_read('C:/api/groq.txt')
 
 client = Groq(
-    api_key='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',
+    api_key=api_key,
 )
 
 

@@ -17,6 +17,8 @@ sectors_cols = util.csv_get_header_dict(sectors_rows)
 studies_rows = util.csv_get_rows(g.CSV_APPLICATIONS_STUDIES_FILEPATH)
 studies_cols = util.csv_get_cols(studies_rows)
 
+
+
 bacteria_rows = util.csv_get_rows(g.CSV_BACTERIA_FILEPATH)
 bacteria_cols = util.csv_get_cols(bacteria_rows)
 bacteria_rows = bacteria_rows[1:]
@@ -24,6 +26,20 @@ bacteria_rows = bacteria_rows[1:]
 applications_bacteria_rows = util.csv_get_rows(g.CSV_APPLICATIONS_BACTERIA_FILEPATH)
 applications_bacteria_cols = util.csv_get_cols(applications_bacteria_rows)
 applications_bacteria_rows = applications_bacteria_rows[1:]
+
+
+
+virus_rows = util.csv_get_rows(g.CSV_VIRUS_FILEPATH)
+virus_cols = util.csv_get_cols(virus_rows)
+virus_rows = virus_rows[1:]
+
+applications_virus_rows = util.csv_get_rows(g.CSV_APPLICATIONS_VIRUS_FILEPATH)
+applications_virus_cols = util.csv_get_cols(applications_virus_rows)
+applications_virus_rows = applications_virus_rows[1:]
+
+
+
+num_applications = 1
 
 
 '''
@@ -61,11 +77,173 @@ def delete_applications_key(key):
 
 
 ############################################################
+# JUNCTIONS
+############################################################
+
+def csv_get_bacteria_by_application(application_id):
+    applications_bacteria_rows_filtered = util.csv_get_rows_by_col_val(
+        g.CSV_APPLICATIONS_BACTERIA_FILEPATH, applications_bacteria_cols['application_id'], application_id
+    )
+
+    bacteria_rows_filtered = []
+    for application_bacteria_row in applications_bacteria_rows_filtered:
+        bacteria_id = application_bacteria_row[applications_bacteria_cols['problem_id']]
+        for bacteria_row in bacteria_rows:
+            if bacteria_row[bacteria_cols['bacteria_id']] == bacteria_id:
+                bacteria_rows_filtered.append(bacteria_row)
+                break
+
+    return bacteria_rows_filtered
+
+
+def csv_get_virus_by_application(application_id):
+    applications_virus_rows_filtered = util.csv_get_rows_by_col_val(
+        g.CSV_APPLICATIONS_BACTERIA_FILEPATH, applications_virus_cols['application_id'], application_id
+    )
+
+    virus_rows_filtered = []
+    for application_virus_row in applications_virus_rows_filtered:
+        virus_id = application_virus_row[applications_virus_cols['virus_id']]
+        for virus_row in virus_rows:
+            if virus_row[virus_cols['virus_id']] == virus_id:
+                virus_rows_filtered.append(virus_row)
+                break
+
+    return virus_rows_filtered
+
+
+############################################################
 # APPLICATIONS
 ############################################################
 
+def csv_gen_applications_bacteria_by_application(application_id):
+    applications_rows = util.csv_get_rows_by_col_val(
+        g.CSV_APPLICATIONS_FILEPATH, applications_cols['application_id'], application_id
+    )
+    if applications_rows != []:
+        application_row = applications_rows[0]
+        application_name = application_row[applications_cols['application_name']]
+        application_a_1 = application_row[applications_cols['application_a_1']]
+    else:
+        print('MISSING: application in csv_gen_applications_bacteria_by_application() ')
+        return
+
+    found = False
+    for application_bacteria_row in applications_bacteria_rows:
+        application_bacteria_id = application_bacteria_row[applications_bacteria_cols['application_id']]
+        if application_bacteria_id == application_id:
+            found = True
+            break
+
+    if not found:            
+        prompt = f'''
+            Scrivi in Italiano una lista numerata di nomi scientifici dei batteri più comuni {application_a_1} {application_name}.
+            Scrivi solo i nomi scientifici dei batteri, non le descrizioni.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        list_items = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+
+            if not line[0].isdigit(): continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.split('(')[0]
+            line = line.replace('*', '')
+
+            line = line.strip()
+            if line == '': continue
+
+            bacteria_rows_filtered = util.csv_get_rows_by_col_val(
+                g.CSV_BACTERIA_FILEPATH, bacteria_cols['bacteria_name'], line
+            )
+
+            if bacteria_rows_filtered != []:
+                bacteria_row = bacteria_rows_filtered[0]
+                bacteria_id = bacteria_row[bacteria_cols['bacteria_id']]
+                bacteria_name = bacteria_row[bacteria_cols['bacteria_name']]
+            else:
+                bacteria_id = ''
+                bacteria_name = ''
+
+            list_items.append([application_id, application_name, bacteria_id, line])
+
+        if len(list_items) > 0:
+            print('*****************************************')
+            print(list_items)
+            print('*****************************************')
+            util.csv_add_rows(g.CSV_APPLICATIONS_BACTERIA_FILEPATH, list_items)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+        
+
+def csv_gen_applications_virus_by_application(application_id):
+    applications_rows = util.csv_get_rows_by_col_val(
+        g.CSV_APPLICATIONS_FILEPATH, applications_cols['application_id'], application_id
+    )
+    if applications_rows != []:
+        application_row = applications_rows[0]
+        application_name = application_row[applications_cols['application_name']]
+        application_a_1 = application_row[applications_cols['application_a_1']]
+    else:
+        print('MISSING: application in csv_gen_applications_bacteria_by_application() ')
+        return
+
+    found = False
+    for application_virus_row in applications_virus_rows:
+        application_virus_id = application_virus_row[applications_virus_cols['application_id']]
+        if application_virus_id == application_id:
+            found = True
+            break
+
+    if not found:            
+        prompt = f'''
+            Scrivi in Italiano una lista numerata di nomi scientifici dei virus più comuni {application_a_1} {application_name}.
+            Scrivi solo i nomi scientifici dei virus, non le descrizioni.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        list_items = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+
+            if not line[0].isdigit(): continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.split('(')[0]
+            line = line.replace('*', '')
+
+            line = line.strip()
+            if line == '': continue
+
+            virus_rows_filtered = util.csv_get_rows_by_col_val(
+                g.CSV_BACTERIA_FILEPATH, virus_cols['virus_name'], line
+            )
+
+            if virus_rows_filtered != []:
+                virus_row = virus_rows_filtered[0]
+                virus_id = virus_row[virus_cols['virus_id']]
+                virus_name = virus_row[virus_cols['virus_name']]
+            else:
+                virus_id = ''
+                virus_name = ''
+
+            list_items.append([application_id, application_name, virus_id, line])
+
+        if len(list_items) > 0:
+            print('*****************************************')
+            print(list_items)
+            print('*****************************************')
+            util.csv_add_rows(g.CSV_APPLICATIONS_VIRUS_FILEPATH, list_items)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
 def csv_applications():
-    for application_row in applications_rows:
+    for application_row in applications_rows[:num_applications]:
         application_id = application_row[applications_cols['application_id']]
         application_slug = application_row[applications_cols['application_slug']]
         application_name = application_row[applications_cols['application_name']]
@@ -77,57 +255,10 @@ def csv_applications():
         if application_slug == '': continue
         if application_name == '': continue
 
-        found = False
-        for application_bacteria_row in applications_bacteria_rows:
-            application_bacteria_id = application_bacteria_row[applications_bacteria_cols['application_id']]
-            if application_bacteria_id == application_id:
-                found = True
-                break
+        csv_gen_applications_bacteria_by_application(application_id)
+        csv_gen_applications_virus_by_application(application_id)
 
-        if not found:            
-            prompt = f'''
-                Scrivi in Italiano una lista numerata di nomi scientifici dei batteri più comuni {application_a_1} {application_name}.
-                Scrivi solo i nomi scientifici dei batteri, non le descrizioni.
-            '''
-            reply = util_ai.gen_reply(prompt).strip()
-
-            lines = reply.split('\n')
-            list_items = []
-            for line in lines:
-                line = line.strip()
-                if line == '': continue
-
-                if not line[0].isdigit(): continue
-                line = '.'.join(line.split('.')[1:])
-                line = line.split('(')[0]
-                line = line.replace('*', '')
-
-                line = line.strip()
-                if line == '': continue
-
-                bacteria_rows_filtered = util.csv_get_rows_by_col_val(
-                    g.CSV_BACTERIA_FILEPATH, bacteria_cols['bacteria_name'], line
-                )
-
-                if bacteria_rows_filtered != []:
-                    bacteria_row = bacteria_rows_filtered[0]
-                    bacteria_id = bacteria_row[bacteria_cols['bacteria_id']]
-                    bacteria_name = bacteria_row[bacteria_cols['bacteria_name']]
-                else:
-                    bacteria_id = ''
-                    bacteria_name = ''
-
-                list_items.append([application_id, application_name, bacteria_id, line])
-
-            if len(list_items) > 0:
-                print('*****************************************')
-                print(list_items)
-                print('*****************************************')
-                util.csv_add_rows(g.CSV_APPLICATIONS_BACTERIA_FILEPATH, list_items)
-
-            time.sleep(g.PROMPT_DELAY_TIME)
-
-        break
+        
 
 
 def ai_intro(application_json_filepath, data):
@@ -216,6 +347,116 @@ def ai_problems(application_json_filepath, data):
             data[key] = list_items
             util.json_write(application_json_filepath, data)
             time.sleep(g.PROMPT_DELAY_TIME)
+            
+
+def ai_bacteria(json_filepath, data):
+    key = 'bacteria_desc'
+    if key not in data:
+        application_id = data['application_id']
+        application_slug = data['application_slug']
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+
+        bacteria_rows_filtered = csv_get_bacteria_by_application(application_id)
+        bacteria_names = [bacteria_row[bacteria_cols['bacteria_name']] for bacteria_row in bacteria_rows_filtered]
+        bacteria_names_prompt = ', '.join(bacteria_names[:5])
+
+        prompt = f'''
+            Scrivi in Italiano 1 paragrafo di 100 parole spiegando quali batteri la sanificazione ad ozono elimina {application_a_1}{application_name}.
+            Includi i seguenti batteri e spiega perché sono un problema: {bacteria_names_prompt}.
+            Inizia la risposta con queste parole: La sanificazione ad ozono elimina i principali batteri presenti {application_a_1}{application_name}, come .
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            lines_formatted.append(line)
+
+        if lines_formatted != []:
+            reply_formatted = ' '.join(lines_formatted)
+            print('**************************************************')
+            print(reply_formatted)
+            print('**************************************************')
+            data[key] = reply_formatted
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+    
+    # key = 'problems_list'
+    # if key not in data:
+    #     application_name = data['application_name']
+    #     application_a_1 = data['application_a_1']
+    #     items_num = 10
+    #     prompt = f'''
+    #         Scrivi in Italiano una lista numerata di {items_num} problemi che la sanificazione ad ozono risolve {application_a_1}{application_name}.
+    #         Includi una breve descrizione di una frase per ogni problema, spiegando perché l'ozono risolve questo problema {application_a_1}{application_name}.
+    #         Sistema eventuali errori grammaticali e ortografici.
+    #     '''
+    #     reply = util_ai.gen_reply(prompt).strip()
+
+    #     lines = reply.split('\n')
+    #     list_items = []
+    #     for line in lines:
+    #         line = line.strip()
+    #         if line == '': continue
+
+    #         if not line[0].isdigit(): continue
+    #         line = '.'.join(line.split('.')[1:])
+    #         line = line.replace('*', '')
+
+    #         line = line.strip()
+    #         if line == '': continue
+    #         list_items.append(line)
+
+    #     if len(list_items) == items_num:
+    #         print('*****************************************')
+    #         print(list_items)
+    #         print('*****************************************')
+    #         data[key] = list_items
+    #         util.json_write(application_json_filepath, data)
+    #         time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def ai_virus(json_filepath, data):
+    key = 'virus_desc'
+    if key not in data:
+        application_id = data['application_id']
+        application_slug = data['application_slug']
+        application_name = data['application_name']
+        application_a_1 = data['application_a_1']
+
+        virus_rows_filtered = csv_get_virus_by_application(application_id)
+        virus_names = [virus_row[virus_cols['virus_name']] for virus_row in virus_rows_filtered]
+        virus_names_prompt = ', '.join(virus_names[:5])
+
+        prompt = f'''
+            Scrivi in Italiano 1 paragrafo di 100 parole spiegando quali virus la sanificazione ad ozono inattiva {application_a_1}{application_name}.
+            Includi i seguenti virus e spiega perché sono un problema: {virus_names_prompt}.
+            Inizia la risposta con queste parole: La sanificazione ad ozono inattiva i principali virus presenti {application_a_1}{application_name}, come .
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            lines_formatted.append(line)
+
+        if lines_formatted != []:
+            reply_formatted = ' '.join(lines_formatted)
+            print('**************************************************')
+            print(reply_formatted)
+            print('**************************************************')
+            data[key] = reply_formatted
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
 
 
 def ai_benefits(application_json_filepath, data):
@@ -333,7 +574,7 @@ def ai_applications_equipment(application_json_filepath, data):
 
 
 def applications_pages():
-    for application_row in applications_rows:
+    for application_row in applications_rows[:num_applications]:
         application_id = application_row[applications_cols['application_id']]
         application_name = application_row[applications_cols['application_name']].strip().lower()
         application_slug = application_row[applications_cols['application_slug']].strip().lower()
@@ -368,8 +609,12 @@ def applications_pages():
         # JSON AI
         ai_intro(application_json_filepath, data)
         ai_definition(application_json_filepath, data)
+        
         ai_problems(application_json_filepath, data)
-        ai_benefits(application_json_filepath, data)
+        ai_bacteria(application_json_filepath, data)
+        ai_virus(application_json_filepath, data)
+        
+        # ai_benefits(application_json_filepath, data)
 
         ai_applications(application_json_filepath, data)
         if application_sector_id == '9':
@@ -463,11 +708,21 @@ def applications_pages():
         if os.path.exists(f'public{image_path}'):
             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector_name} {application_name} definizione"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(definition)}</p>\n'
+
+
+
         article_html += f'<h2>Quali problemi risolve la sanificazione ad ozono {application_a_1}{application_name}?</h2>\n'
         image_path = f'/assets/images/ozono-sanificazione-{application_sector_slug}-{application_slug}-problemi.jpg'
         if os.path.exists(f'public{image_path}'):
             article_html += f'<p><img src="{image_path}" alt="ozono sanificazione {sector_name} {application_name} problemi"></p>' + '\n'
         article_html += f'<p>{util.text_format_1N1_html(problems)}</p>\n'
+
+        article_html += f'<h3>Batteri {application_a_1}{application_name}</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data["bacteria_desc"])}\n'
+
+        article_html += f'<h3>Virus {application_a_1}{application_name}</h3>\n'
+        article_html += f'{util.text_format_1N1_html(data["virus_desc"])}\n'
+
 
 
 
@@ -948,10 +1203,10 @@ def applications_missing_images_csv():
 
 
 
-csv_applications()
+# csv_applications()
 
 
-# applications_pages()
+applications_pages()
 # sector_page()
 # sectors_page()
 
