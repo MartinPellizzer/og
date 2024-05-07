@@ -1,11 +1,11 @@
 application_id\application_name\mold_id\mold_name
-0\Case\\aspergillus
-0\Case\\penicillium
-0\Case\\cladosporium
-0\Case\\alternaria
-0\Case\\mucor
-0\Case\\rhizopus
-0\Case\\trichoderma
-0\Case\\fusarium
-0\Case\\acremonium
-0\Case\\stachybotrys
+0\case\0\aspergillus fumigatus
+0\case\1\penicillium chrysogenum
+0\case\2\cladosporium herbarum
+0\case\3\alternaria alternata
+0\case\4\eurotium amstelodami
+0\case\5\chaetomium globosum
+0\case\6\stachybotrys chartarum
+0\case\7\fusarium solani
+0\case\8\trichoderma viride
+0\case\9\ulocladium atrum

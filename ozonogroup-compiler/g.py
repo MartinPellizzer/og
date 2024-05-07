@@ -25,10 +25,12 @@ CSV_EQUIPMENT_FILEPATH = 'database/csv/applications_equipment.csv'
 CSV_BACTERIA_FILEPATH ='database/csv/bacteria.csv'
 CSV_VIRUS_FILEPATH ='database/csv/virus.csv'
 CSV_MOLDS_FILEPATH ='database/csv/molds.csv'
+CSV_INSECTS_FILEPATH ='database/csv/insects.csv'
 
 # JUNCTIONS CSVS
 CSV_APPLICATIONS_STUDIES_FILEPATH = 'database/csv/applications_studies.csv'
 CSV_APPLICATIONS_BACTERIA_FILEPATH = 'database/csv/junctions/applications_bacteria.csv'
 CSV_APPLICATIONS_VIRUS_FILEPATH = 'database/csv/junctions/applications_virus.csv'
 CSV_APPLICATIONS_MOLDS_FILEPATH = 'database/csv/junctions/applications_molds.csv'
+CSV_APPLICATIONS_INSECTS_FILEPATH = 'database/csv/junctions/applications_insects.csv'
 
