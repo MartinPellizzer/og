@@ -146,59 +146,92 @@ def csv_get_insects_by_application(application_id):
 # APPLICATIONS
 ############################################################
 
-
-def ai_intro(application_json_filepath, data):
-    key = 'intro'
+def ai_sentences(json_filepath, data, key, lines_num, prompt):
+    print('here')
     if key not in data:
-        application_name = data['application_name']
-        application_a_1 = data['application_a_1']
-        prompt = f'''
-            Scrivi in Italiano 5 frasi brevi sulla sanificazione ad ozono {application_a_1}{application_name}.
-            Nella frase 2, spiega cos'è la sanificazione ad ozono {application_a_1}{application_name} e quali problemi elimina {application_a_1}{application_name}.
-            Nella frase 2, spiega quali sono le ripercussioni di questi problemi in termini di salute.
-            Nella frase 3, spiega quali sono le ripercussioni di questi problemi in termini econimici.
-            Nella frase 4, spiega quali sono le applicazioni dell'ozono {application_a_1}{application_name}.
-            Nella frase 5, spiega quali sono i vantaggi dell'ozono {application_a_1}{application_name} confronto ad altri metodi di sanificazione.
-            Rispondi in meno di 100 parole.
-            Rispondi con una lista numerata.
-        '''
+
         reply = util_ai.gen_reply(prompt).strip()
-        reply = util_ai.reply_list_to_paragraph(reply)
-        data[key] = reply
-        util.json_write(application_json_filepath, data)
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            if ';' in line: continue
+            if not line[0].isdigit(): continue
+            if '.' not in line: continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.strip()
+            if line == '': continue
+            lines_formatted.append(line)
+        
+        if len(lines_formatted) == lines_num:
+            paragraph = ' '.join(lines_formatted)
+            print('**************************************************')
+            print(paragraph)
+            print('**************************************************')
+            data[key] = paragraph
+            util.json_write(json_filepath, data)
+
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def ai_definition(application_json_filepath, data):
-    key = 'definition'
+def ai_paragraph(json_filepath, data, key, prompt):
     if key not in data:
-        application_name = data['application_name']
-        prompt = f'''
-            scrivi un paragrafo di 100 parole spiegando cos'è e a cosa serve la sanificazione ad ozono per il seguente campo di applicazioni: {application_name}.
-            Includi solo informazioni specifiche su questo campo di applicazione, e non informazioni generiche sull'ozono.
-        '''
+
         reply = util_ai.gen_reply(prompt).strip()
-        data[key] = reply
-        util.json_write(application_json_filepath, data)
+
+        reply = reply.replace('\n', ' ')
+        reply = reply.replace('  ', ' ')
+
+        # paragraphs = reply.split('\n')
+        # paragraphs_formatted = []
+        # for paragraph in paragraphs:
+        #     paragraph = paragraph.strip()
+        #     if paragraph == '': continue
+        #     if paragraph[0].isdigit(): continue
+        #     if ':' in paragraph: continue
+        #     paragraphs_formatted.append(paragraph)
+        
+        if reply != '':
+            print('**************************************************')
+            print(reply)
+            print('**************************************************')
+            data[key] = reply
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def ai_list(json_filepath, data, key, items_num, prompt):
+    prompt = prompt.replace('[items_num]', items_num)
+    if key not in data:
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        list_items = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.replace('*', '')
+            line = line.strip()
+            if line == '': continue
+            list_items.append(line)
+
+        if len(list_items) == items_num:
+            print('*****************************************')
+            print(list_items)
+            print('*****************************************')
+            data[key] = list_items
+            util.json_write(application_json_filepath, data)
+
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
 def ai_problems(application_json_filepath, data):
-    key = 'problems'
-    if key not in data:
-        application_name = data['application_name']
-        application_a_1 = data['application_a_1']
-        prompt = f'''
-            scrivi un paragrafo di 100 parole spiegando quali problemi risolve la sanificazione ad ozono {application_a_1}{application_name}.
-            includi nomi di batteri, virus, muffe, parassiti e odori.
-            non spiegare cos'è l'ozono e non spiegare come funziona.
-            inizia la risposta con queste parole: La sanificazione ad ozono elimina diversi problemi {application_a_1}{application_name}, come 
-        '''
-        reply = util_ai.gen_reply(prompt).strip()
-        data[key] = reply
-        util.json_write(application_json_filepath, data)
-        time.sleep(g.PROMPT_DELAY_TIME)
-
     
     key = 'problems_list'
     if key not in data:
@@ -232,10 +265,111 @@ def ai_problems(application_json_filepath, data):
             print('*****************************************')
             data[key] = list_items
             util.json_write(application_json_filepath, data)
-            time.sleep(g.PROMPT_DELAY_TIME)
-            
+        time.sleep(g.PROMPT_DELAY_TIME)
 
-def ai_bacteria(json_filepath, data):
+
+
+
+
+def json_application_intro(json_filepath, data):
+    application_name = data['application_name']
+    application_a_1 = data['application_a_1']
+
+    key = 'intro_desc'
+    if key not in data:
+        prompt = f'''
+            Scrivi in Italiano 5 frasi brevi sulla sanificazione ad ozono {application_a_1}{application_name}.
+            Nella frase 1, spiega cos'è la sanificazione ad ozono {application_a_1}{application_name} e quali problemi elimina {application_a_1}{application_name}.
+            Nella frase 2, spiega quali sono le ripercussioni di questi problemi in termini di salute.
+            Nella frase 3, spiega quali sono le ripercussioni di questi problemi in termini econimici.
+            Nella frase 4, spiega quali sono le applicazioni dell'ozono {application_a_1}{application_name}.
+            Nella frase 5, spiega quali sono i vantaggi dell'ozono {application_a_1}{application_name} confronto ad altri metodi di sanificazione.
+            Rispondi con una lista numerata.
+        '''
+        reply = util_ai.gen_reply(prompt).strip()
+
+        lines = reply.split('\n')
+        lines_formatted = []
+        for line in lines:
+            line = line.strip()
+            if line == '': continue
+            if ':' in line: continue
+            if ';' in line: continue
+            if not line[0].isdigit(): continue
+            if '.' not in line: continue
+            line = '.'.join(line.split('.')[1:])
+            line = line.strip()
+            if line == '': continue
+            lines_formatted.append(line)
+        
+        if len(lines_formatted) == 5:
+            paragraph = ' '.join(lines_formatted)
+            print('**************************************************')
+            print(paragraph)
+            print('**************************************************')
+            data[key] = paragraph
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def json_application_definition(json_filepath, data):
+    application_name = data['application_name']
+    application_a_1 = data['application_a_1']
+
+    key = 'definition_desc'
+    if key not in data:
+        prompt = f'''
+            Scrivi un paragrafo di 100 parole spiegando cos'è e a cosa serve la sanificazione ad ozono per il seguente campo di applicazioni: {application_name}.
+            Includi solo informazioni specifiche su questo campo di applicazione, e non informazioni generiche sull'ozono.
+        '''
+
+        reply = util_ai.gen_reply(prompt).strip()
+
+        reply = reply.replace('\n', ' ')
+        reply = reply.replace('  ', ' ')
+
+        
+        if reply != '':
+            print('**************************************************')
+            print(reply)
+            print('**************************************************')
+            data[key] = reply
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def json_application_problems(json_filepath, data):
+    application_name = data['application_name']
+    application_a_1 = data['application_a_1']
+
+    key = 'problems_desc'
+    if key not in data:
+        prompt = f'''
+            Scrivi un paragrafo di 100 parole spiegando quali problemi risolve la sanificazione ad ozono {application_a_1}{application_name}.
+            Icludi nomi di batteri, virus, muffe, parassiti e odori.
+            Non spiegare cos'è l'ozono e non spiegare come funziona.
+            Inizia la risposta con queste parole: La sanificazione ad ozono elimina diversi problemi {application_a_1}{application_name}, come 
+        '''
+
+        reply = util_ai.gen_reply(prompt).strip()
+
+        reply = reply.replace('\n', ' ')
+        reply = reply.replace('  ', ' ')
+
+        
+        if reply != '':
+            print('**************************************************')
+            print(reply)
+            print('**************************************************')
+            data[key] = reply
+            util.json_write(json_filepath, data)
+
+        time.sleep(g.PROMPT_DELAY_TIME)
+
+
+def json_application_bacteria(json_filepath, data):
     key = 'bacteria_desc'
     if key not in data:
         items_num = 3
@@ -247,7 +381,7 @@ def ai_bacteria(json_filepath, data):
         bacteria_rows_filtered = csv_get_bacteria_by_application(application_id)
         bacteria_names = [bacteria_row[bacteria_cols['bacteria_name']].capitalize() for bacteria_row in bacteria_rows_filtered]
         bacteria_a_1 = [bacteria_row[bacteria_cols['bacteria_a_1']].capitalize() for bacteria_row in bacteria_rows_filtered]
-        # bacteria_names_prompt = ', '.join(bacteria_names[:3])
+
         bacteria_names_prompt_list = ''
         for bacteria_name in bacteria_names[:items_num]:
             bacteria_names_prompt_list += f'- {bacteria_name}\n'
@@ -282,17 +416,17 @@ def ai_bacteria(json_filepath, data):
             lines_formatted.append(line)
 
         if len(lines_formatted) == items_num:
-            reply_formatted = ' '.join(lines_formatted)
+            # reply_formatted = ' '.join(lines_formatted)
             print('**************************************************')
-            print(reply_formatted)
+            print(lines_formatted)
             print('**************************************************')
-            data[key] = reply_formatted
+            data[key] = lines_formatted
             util.json_write(json_filepath, data)
 
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def ai_virus(json_filepath, data):
+def json_application_virus(json_filepath, data):
     key = 'virus_desc'
     if key not in data:
         items_num = 3
@@ -339,17 +473,17 @@ def ai_virus(json_filepath, data):
             lines_formatted.append(line)
 
         if len(lines_formatted) == items_num:
-            reply_formatted = ' '.join(lines_formatted)
+            # reply_formatted = ' '.join(lines_formatted)
             print('**************************************************')
-            print(reply_formatted)
+            print(lines_formatted)
             print('**************************************************')
-            data[key] = reply_formatted
+            data[key] = lines_formatted
             util.json_write(json_filepath, data)
 
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def ai_molds(json_filepath, data):
+def json_application_molds(json_filepath, data):
     key = 'molds_desc'
     if key not in data:
         items_num = 3
@@ -396,17 +530,17 @@ def ai_molds(json_filepath, data):
             lines_formatted.append(line)
 
         if len(lines_formatted) == items_num:
-            reply_formatted = ' '.join(lines_formatted)
+            # reply_formatted = ' '.join(lines_formatted)
             print('**************************************************')
-            print(reply_formatted)
+            print(lines_formatted)
             print('**************************************************')
-            data[key] = reply_formatted
+            data[key] = lines_formatted
             util.json_write(json_filepath, data)
 
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def ai_insects(json_filepath, data):
+def json_application_insects(json_filepath, data):
     key = 'insects_desc'
     if key not in data:
         items_num = 3
@@ -453,14 +587,17 @@ def ai_insects(json_filepath, data):
             lines_formatted.append(line)
 
         if len(lines_formatted) == items_num:
-            reply_formatted = ' '.join(lines_formatted)
+            # reply_formatted = ' '.join(lines_formatted)
             print('**************************************************')
-            print(reply_formatted)
+            print(lines_formatted)
             print('**************************************************')
-            data[key] = reply_formatted
+            data[key] = lines_formatted
             util.json_write(json_filepath, data)
 
         time.sleep(g.PROMPT_DELAY_TIME)
+
+
+
 
 
 def ai_benefits(application_json_filepath, data):
@@ -628,8 +765,16 @@ def html_sectors_sector_applications_problems_table(data):
     return article_html
 
 
-def art_applications():
-    for application_row in applications_rows[:num_applications]:
+
+def art_applications(_id=-1):
+    if _id == -1:
+        applications_rows_filtered = applications_rows[:num_applications]
+    else:
+        applications_rows_filtered = util.csv_get_rows_by_col_val(
+            g.CSV_APPLICATIONS_FILEPATH, applications_cols['application_id'], str(_id)
+        )
+
+    for application_row in applications_rows_filtered:
         application_id = application_row[applications_cols['application_id']]
         application_name = application_row[applications_cols['application_name']].strip().lower()
         application_slug = application_row[applications_cols['application_slug']].strip().lower()
@@ -638,6 +783,7 @@ def art_applications():
         to_process = application_row[applications_cols['to_process']].strip().lower()
 
         if to_process == '': continue
+
         print(f'>> {application_name}')
 
         title = f'Sanificazione {application_name} con ozono'
@@ -662,15 +808,15 @@ def art_applications():
         util.json_write(application_json_filepath, data)
 
         # JSON AI
-        ai_intro(application_json_filepath, data)
-        ai_definition(application_json_filepath, data)
-        
-        ai_problems(application_json_filepath, data)
-        ai_bacteria(application_json_filepath, data)
-        ai_virus(application_json_filepath, data)
-        ai_molds(application_json_filepath, data)
-        ai_insects(application_json_filepath, data)
-        
+        json_application_intro(application_json_filepath, data)
+        json_application_definition(application_json_filepath, data)
+
+        json_application_problems(application_json_filepath, data)
+        json_application_bacteria(application_json_filepath, data)
+        json_application_virus(application_json_filepath, data)
+        json_application_molds(application_json_filepath, data)
+        json_application_insects(application_json_filepath, data)
+
         # ai_benefits(application_json_filepath, data)
 
         ai_applications(application_json_filepath, data)
@@ -735,9 +881,9 @@ def art_applications():
 
 
         # HTML
-        intro = data['intro']
-        definition = data['definition']
-        problems = data['problems']
+        intro = data['intro_desc']
+        definition = data['definition_desc']
+        problems = data['problems_desc']
         benefits = data['benefits']
         applications = data['applications']
 
@@ -783,7 +929,10 @@ def art_applications():
 
         article_html += f'<h3>Batteri {application_a_1}{application_name}</h3>\n'
         article_html += f'<p>La sanificazione ad ozono elimina i principali batteri presenti {application_a_1}{application_name}, come {bacteria_names_str}.</p>\n'
-        article_html += f'{util.text_format_1N1_html(data["bacteria_desc"])}\n'
+        # article_html += f'{util.text_format_1N1_html(data["bacteria_desc"])}\n'
+        for item in data["bacteria_desc"]:
+            article_html += f'<p>{item}</p>\n'
+
 
         article_html += f'<p>I batteri più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
         article_html += '<ul>\n'
@@ -798,7 +947,9 @@ def art_applications():
 
         article_html += f'<h3>Virus {application_a_1}{application_name}</h3>\n'
         article_html += f'<p>La sanificazione ad ozono inattiva i principali virus presenti {application_a_1}{application_name}, come {virus_names_str}.</p>\n'
-        article_html += f'{util.text_format_1N1_html(data["virus_desc"])}\n'
+        # article_html += f'{util.text_format_1N1_html(data["virus_desc"])}\n'
+        for item in data["virus_desc"]:
+            article_html += f'<p>{item}</p>\n'
 
         article_html += f'<p>I virus più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
         article_html += '<ul>\n'
@@ -814,7 +965,9 @@ def art_applications():
 
         article_html += f'<h3>Muffe {application_a_1}{application_name}</h3>\n'
         article_html += f'<p>La sanificazione ad ozono inattiva le principali muffe presenti {application_a_1}{application_name}, come {molds_names_str}.</p>\n'
-        article_html += f'{util.text_format_1N1_html(data["molds_desc"])}\n'
+        # article_html += f'{util.text_format_1N1_html(data["molds_desc"])}\n'
+        for item in data["molds_desc"]:
+            article_html += f'<p>{item}</p>\n'
 
         article_html += f'<p>Le muffe più comuni che si trovano {application_a_1}{application_name} sono elencate nella seguente lista.</p>\n'
         article_html += '<ul>\n'
@@ -829,7 +982,9 @@ def art_applications():
 
         article_html += f'<h3>Insetti {application_a_1}{application_name}</h3>\n'
         article_html += f'<p>La sanificazione ad ozono repelle i principali insetti presenti {application_a_1}{application_name}, come {insects_names_str}.</p>\n'
-        article_html += f'{util.text_format_1N1_html(data["insects_desc"])}\n'
+        # article_html += f'{util.text_format_1N1_html(data["insects_desc"])}\n'
+        for item in data["insects_desc"]:
+            article_html += f'<p>{item}</p>\n'
 
         article_html += f'<p>Gli insetti più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
         article_html += '<ul>\n'
@@ -950,6 +1105,9 @@ def art_applications():
 
         application_html_filepath = f'public/ozono/sanificazione/settori/{sector_slug}/{application_slug}.html'
         util.file_write(application_html_filepath, html)
+
+
+
 
 
 ############################################################
@@ -1345,7 +1503,7 @@ def applications_missing_images_csv():
 
 
 
-art_applications()
+art_applications(81)
 # sector_page()
 # sectors_page()
 

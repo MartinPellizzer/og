@@ -108,7 +108,7 @@ def csv_gen_applications_bacteria_by_application(application_id):
     )
     if applications_rows != []:
         application_row = applications_rows[0]
-        application_name = application_row[applications_cols['application_name']]
+        application_name = application_row[applications_cols['application_name']].strip().lower()
         application_a_1 = application_row[applications_cols['application_a_1']]
     else:
         print('MISSING: application in csv_gen_applications_bacteria_by_application() ')
@@ -131,7 +131,7 @@ def csv_gen_applications_bacteria_by_application(application_id):
         lines = reply.split('\n')
         list_items = []
         for line in lines:
-            line = line.strip()
+            line = line.strip().lower()
             if line == '': continue
 
             if not line[0].isdigit(): continue
@@ -141,6 +141,9 @@ def csv_gen_applications_bacteria_by_application(application_id):
 
             line = line.strip()
             if line == '': continue
+
+            if line == 'salmonella spp.': line = 'salmonella enterica'
+            if line == 'shigella spp.': line = 'shigella dysenteriae'
 
             bacteria_rows_filtered = util.csv_get_rows_by_col_val(
                 g.CSV_BACTERIA_FILEPATH, bacteria_cols['bacteria_name'], line
@@ -188,6 +191,14 @@ def csv_gen_applications_virus_by_application(application_id):
         prompt = f'''
             Scrivi in Italiano una lista numerata di nomi scientifici dei virus più comuni {application_a_1}{application_name}.
             Scrivi solo i nomi scientifici dei virus, non le descrizioni.
+            Scrivi il nome del virus specifico, non quello della sua famiglia.
+            Non scrivere nomi di batteri.
+        '''
+        prompt = f'''
+            Scrivi in Italiano una lista numerata di nomi scientifici dei virus {application_a_1}{application_name}.
+            Scrivi solo i nomi scientifici dei virus, non le descrizioni.
+            Scrivi il nome del virus specifico, non quello della sua famiglia.
+            Non scrivere nomi di batteri.
         '''
         reply = util_ai.gen_reply(prompt).strip()
 
@@ -205,8 +216,11 @@ def csv_gen_applications_virus_by_application(application_id):
             line = line.strip()
             if line == '': continue
 
+            if line == 'Hepatitis E Virus': line = 'Hepatitis E'
+            if line == 'Hepatitis A Virus': line = 'Hepatitis A'
+
             virus_rows_filtered = util.csv_get_rows_by_col_val(
-                g.CSV_BACTERIA_FILEPATH, virus_cols['virus_name'], line
+                g.CSV_VIRUS_FILEPATH, virus_cols['virus_name'], line
             )
 
             if virus_rows_filtered != []:
@@ -217,7 +231,7 @@ def csv_gen_applications_virus_by_application(application_id):
                 virus_id = ''
                 virus_name = ''
 
-            list_items.append([application_id, application_name, virus_id, line])
+            list_items.append([application_id, application_name.lower(), virus_id, line])
 
         if len(list_items) > 0:
             print('*****************************************')
@@ -257,7 +271,7 @@ def csv_gen_applications_molds_by_application(application_id):
         lines = reply.split('\n')
         list_items = []
         for line in lines:
-            line = line.strip().lower()
+            line = line.strip()
             if line == '': continue
 
             if not line[0].isdigit(): continue
@@ -332,7 +346,7 @@ def csv_gen_applications_insects_by_application(application_id):
             if line == '': continue
 
             insects_rows_filtered = util.csv_get_rows_by_col_val(
-                g.CSV_MOLDS_FILEPATH, insects_cols['insect_name'], line
+                g.CSV_INSECTS_FILEPATH, insects_cols['insect_name'], line
             )
 
             if insects_rows_filtered != []:
@@ -354,8 +368,15 @@ def csv_gen_applications_insects_by_application(application_id):
         time.sleep(g.PROMPT_DELAY_TIME)
 
 
-def csv_applications():
-    for application_row in applications_rows[:NUM_APPLICATIONS]:
+def csv_applications(_id=-1):
+    if _id == -1:
+        applications_rows_filtered = applications_rows[:NUM_APPLICATIONS]
+    else:
+        applications_rows_filtered = util.csv_get_rows_by_col_val(
+            g.CSV_APPLICATIONS_FILEPATH, applications_cols['application_id'], str(_id)
+        )
+
+    for application_row in applications_rows_filtered:
         application_id = application_row[applications_cols['application_id']]
         application_slug = application_row[applications_cols['application_slug']]
         application_name = application_row[applications_cols['application_name']]
@@ -372,10 +393,8 @@ def csv_applications():
         csv_gen_applications_molds_by_application(application_id)
         csv_gen_applications_insects_by_application(application_id)
 
-        
-
-csv_applications()
 
 
+csv_applications(81)
 
 

@@ -104,7 +104,9 @@ def csv_get_rows_by_col_val(filepath, col_index, cell_val, delimiter='\\'):
         reader = csv.reader(f, delimiter=delimiter)
         for i, line in enumerate(reader):
             if line != []:
-                if line[col_index].lower().strip().replace(' ', '-').replace("'", '-') == cell_val.lower().strip().replace(' ', '-').replace("'", '-'):
+                line_formatted = line[col_index].lower().strip().replace(' ', '-').replace("'", '-')
+                cell_val_formatted = cell_val.lower().strip().replace(' ', '-').replace("'", '-')
+                if line_formatted == cell_val_formatted:
                     rows.append(line)
     return rows
 
