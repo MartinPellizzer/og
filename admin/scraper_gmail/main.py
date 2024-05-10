@@ -327,8 +327,8 @@ def main():
 	# scrapes_num = int(input('Inserisci il numero di azioni (es. 30): '))
 
 	search_industry = 'caseifici'
-	search_district = 'MO'
-	scrapes_num = 30
+	search_district = 'BO'
+	scrapes_num = 20
 
 	# GET COMUNI FROM PROVINCIA
 	with open('comuni.csv', 'r', encoding="utf-8") as f: comuni = [line.split(sep) for line in f.readlines()]
