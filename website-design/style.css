@@ -1,0 +1,123 @@
+@font-face {
+    font-family: KumbhSans-Regular;
+    src: url(fonts/KumbhSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: KumbhSans-Medium;
+    src: url(fonts/KumbhSans-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: KumbhSans-Bold;
+    src: url(fonts/KumbhSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(fonts/Lato-Bold.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.8rem;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    /* font-family: Lato-Regular; */
+    font-family: KumbhSans-Regular;
+    /* color: #0f172a; */
+}
+
+.hero {
+    height: 60rem;
+    background-image: url('/assets/hero-01.jpg');
+    background-image: url('/assets/hero-02.jpg');
+    background-image: url('/assets/microbe-01.jpeg');
+    background-image: url('/assets/hero-03.png');
+    background-position: top;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 7.2rem;
+    /* line-height: 1; */
+}
+
+p {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.why {
+    height: 100vh;
+    /* background-color: #070b0e; */
+}
+
+header {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-family: KumbhSans-Medium;
+}
+
+header nav {
+    display: flex;
+    gap: 2.4rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #0f172a;
+}
+
+.button-secondary {
+    display: inline-flex;
+    border-radius: 9999px;
+    padding: 0.8rem 2.4rem;
+    text-decoration: none;
+    color: #070b0e;
+    text-transform: uppercase;
+    /* font-family: Lato-Bold; */
+    font-family: KumbhSans-Medium;
+    font-size: 1.4rem;
+    /* border: 1px solid #070b0e; */
+    box-shadow: 0px 0px 2px 0px #0f172a;
+}
+
+.button-secondary svg {
+    height: 1.6rem;
+}
+
+
+.hero-1 {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 9.6rem;
+}
+
+.hero-1-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
