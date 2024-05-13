@@ -8,6 +8,13 @@
 
 .text-48 {
     font-size: 4.8rem;
+    line-height: 1;
+}
+
+
+.text-30 {
+    font-size: 3.0rem;
+    line-height: 3.6rem;
 }
 
 
@@ -48,10 +55,47 @@
     margin-top: 3.2rem;
 }
 
+.py-96 {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
 .flex {
     display: flex;
 }
 
 .items-center {
     align-items: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
+.gap-24 {
+    gap: 2.4rem;
+}
+
+.gap-32 {
+    gap: 3.2rem;
+}
+
+.gap-48 {
+    gap: 4.8rem;
+}
+
+.gap-64 {
+    gap: 6.4rem;
+}
+
+.font-bold {
+    font-weight: bold;
 }
