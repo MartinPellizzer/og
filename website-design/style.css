@@ -1,4 +1,14 @@
 @font-face {
+    font-family: KumbhSans-ExtraLight;
+    src: url(fonts/KumbhSans-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: KumbhSans-Light;
+    src: url(fonts/KumbhSans-Light.ttf);
+}
+
+@font-face {
     font-family: KumbhSans-Regular;
     src: url(fonts/KumbhSans-Regular.ttf);
 }
@@ -72,8 +82,13 @@ a {
     color: #0f172a;
 }
 
+img {
+    width: 100%;
+}
+
 .why {
-    height: 100vh;
+    padding-bottom: 9.6rem;
+    padding-top: 9.6rem;
     /* background-color: #070b0e; */
 }
 
@@ -128,4 +143,82 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.problems-card {
+    position: relative;
+}
+
+.problems-card img {
+    position: absolute;
+}
+
+.content-card {
+    position: absolute;
+    background-color: #1d4ed8;
+    width: 50%;
+    color: white;
+    padding: 3.2rem;
+    bottom: 0;
+    transform: translate(4.8rem, 1.6rem);
+}
+
+.content-card h3 {
+    font-family: KumbhSans-Regular;
+    font-size: 3.2rem;
+}
+
+.content-card p {
+    font-family: KumbhSans-Light;
+}
+
+.img-bacteria {
+    height: 60rem;
+    background-image: url(images/bacteria-18.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-virus {
+    height: 60rem;
+    background-image: url(images/virus-03.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img-mold {
+    height: 60rem;
+    background-image: url(images/mold-04.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.problem-card {
+    background-color: #070b0e;
+    width: 75%;
+    color: white;
+    padding: 3.2rem;
+    opacity: 0.9;
+
+}
+
+.problem-card h3 {
+    font-family: KumbhSans-ExtraLight;
+    font-size: 3.2rem;
+}
+
+.problem-card p {
+    font-family: KumbhSans-Light;
+}
+
+.benefits img {
+    height: 80rem;
+    object-fit: cover;
+}
+
+.benefits-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 64.0rem;
 }
