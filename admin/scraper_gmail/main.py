@@ -322,13 +322,13 @@ def scrape_new_business(search_text, search_industry, search_district, i):
 # MAIN
 ######################################################################################
 def main():
-	# search_industry = input('Inserisci il settore (es. salumifici): ')
-	# search_district = input('Inserisci la provincia (es. TV): ')
-	# scrapes_num = int(input('Inserisci il numero di azioni (es. 30): '))
+	search_industry = input('Inserisci il settore (es. salumifici): ')
+	search_district = input('Inserisci la provincia (es. TV): ')
+	scrapes_num = int(input('Inserisci il numero di azioni (es. 30): '))
 
-	search_industry = 'caseifici'
-	search_district = 'BO'
-	scrapes_num = 20
+	# search_industry = 'caseifici'
+	# search_district = 'BO'
+	# scrapes_num = 20
 
 	# GET COMUNI FROM PROVINCIA
 	with open('comuni.csv', 'r', encoding="utf-8") as f: comuni = [line.split(sep) for line in f.readlines()]
