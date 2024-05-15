@@ -143,3 +143,16 @@
 .mr-auto {
     margin-right: auto;
 }
+
+.object-bottom {
+    object-position: bottom;
+}
+
+.object-center {
+    object-position: center;
+}
+
+.text-16 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}

@@ -222,3 +222,13 @@ header a {
     justify-content: center;
     max-width: 64.0rem;
 }
+
+.applications img {
+    height: 32rem;
+    object-fit: cover;
+}
+
+.applications p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
