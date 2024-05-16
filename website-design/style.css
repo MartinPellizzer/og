@@ -51,7 +51,8 @@ body {
     /* font-family: Arial, Helvetica, sans-serif; */
     /* font-family: Lato-Regular; */
     font-family: KumbhSans-Regular;
-    /* color: #0f172a; */
+    font-family: Arial, Helvetica, sans-serif
+        /* color: #0f172a; */
 }
 
 .hero {
@@ -67,13 +68,24 @@ body {
 h1 {
     font-size: 7.2rem;
     /* line-height: 1; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    /* font-family: KumbhSans-Regular; */
 }
 
 h2 {
     font-size: 4.8rem;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 3.0rem;
+    line-height: 1.5;
+    font-weight: 400;
 }
 
 p {
+    /* font-family: 'Times New Roman', Times, serif; */
     font-size: 1.8rem;
     line-height: 2.7rem;
 }
@@ -231,4 +243,9 @@ header a {
 .applications p {
     font-size: 1.6rem;
     line-height: 2.4rem;
+}
+
+.img-water {
+    height: 40rem;
+    object-fit: cover;
 }
