@@ -1,40 +1,3 @@
-@font-face {
-    font-family: KumbhSans-ExtraLight;
-    src: url(fonts/KumbhSans-ExtraLight.ttf);
-}
-
-@font-face {
-    font-family: KumbhSans-Light;
-    src: url(fonts/KumbhSans-Light.ttf);
-}
-
-@font-face {
-    font-family: KumbhSans-Regular;
-    src: url(fonts/KumbhSans-Regular.ttf);
-}
-
-@font-face {
-    font-family: KumbhSans-Medium;
-    src: url(fonts/KumbhSans-Medium.ttf);
-}
-
-
-@font-face {
-    font-family: KumbhSans-Bold;
-    src: url(fonts/KumbhSans-Bold.ttf);
-}
-
-@font-face {
-    font-family: Lato-Regular;
-    src: url(fonts/Lato-Regular.ttf);
-}
-
-@font-face {
-    font-family: Lato-Bold;
-    src: url(fonts/Lato-Bold.ttf);
-}
-
-
 * {
     margin: 0;
     padding: 0;
@@ -48,11 +11,7 @@ html {
 
 body {
     font-size: 1.8rem;
-    /* font-family: Arial, Helvetica, sans-serif; */
-    /* font-family: Lato-Regular; */
-    font-family: KumbhSans-Regular;
     font-family: Arial, Helvetica, sans-serif
-        /* color: #0f172a; */
 }
 
 .hero {
@@ -67,10 +26,7 @@ body {
 
 h1 {
     font-size: 7.2rem;
-    /* line-height: 1; */
-    font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    /* font-family: KumbhSans-Regular; */
 }
 
 h2 {
@@ -80,7 +36,7 @@ h2 {
 
 h3 {
     font-size: 3.0rem;
-    line-height: 1.5;
+    line-height: 3.6rem;
     font-weight: 400;
 }
 
@@ -98,11 +54,6 @@ img {
     width: 100%;
 }
 
-.why {
-    padding-bottom: 9.6rem;
-    padding-top: 9.6rem;
-    /* background-color: #070b0e; */
-}
 
 header {
     padding-top: 2.4rem;
@@ -132,7 +83,6 @@ header a {
     color: #070b0e;
     text-transform: uppercase;
     /* font-family: Lato-Bold; */
-    font-family: KumbhSans-Medium;
     font-size: 1.4rem;
     /* border: 1px solid #070b0e; */
     box-shadow: 0px 0px 2px 0px #0f172a;
@@ -157,31 +107,16 @@ header a {
     justify-content: space-between;
 }
 
+/****************************************************************/
+/* PROBLEMS */
+/****************************************************************/
+
 .problems-card {
     position: relative;
 }
 
 .problems-card img {
     position: absolute;
-}
-
-.content-card {
-    position: absolute;
-    background-color: #1d4ed8;
-    width: 50%;
-    color: white;
-    padding: 3.2rem;
-    bottom: 0;
-    transform: translate(4.8rem, 1.6rem);
-}
-
-.content-card h3 {
-    font-family: KumbhSans-Regular;
-    font-size: 3.2rem;
-}
-
-.content-card p {
-    font-family: KumbhSans-Light;
 }
 
 .img-bacteria {
@@ -214,13 +149,8 @@ header a {
 
 }
 
-.problem-card h3 {
-    font-family: KumbhSans-ExtraLight;
-    font-size: 3.2rem;
-}
-
 .problem-card p {
-    font-family: KumbhSans-Light;
+    font-size: 1.6rem;
 }
 
 .benefits img {
@@ -248,4 +178,79 @@ header a {
 .img-water {
     height: 40rem;
     object-fit: cover;
+}
+
+.blog-1 .img-big {
+    height: 40rem;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.blog-1 .img-small {
+    height: 14rem;
+    object-fit: cover;
+}
+
+/* 
+.blog-1 h2 {
+    font-size: 3.0rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    line-height: 0.5;
+} */
+
+/* 
+.blog-1 h2:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    background-color: #0f172a;
+    top: 5px;
+    width: 100%;
+} */
+
+.blog-1 h3 {
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+.blog-1 .separator {
+    border-bottom: 3px solid #f5f5f5;
+}
+
+.sup-header {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #1d4ed8;
+    font-weight: 700;
+    /* letter-spacing: 0.5px; */
+}
+
+.meta {
+    font-size: 1.4rem;
+    color: #737373;
+    color: #a3a3a3;
+    /* font-weight: bold; */
+}
+
+
+.benefits-1 img {
+    height: 60rem;
+    object-fit: cover;
+}
+
+.applications-1 {
+    --opacity: 0.5;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, var(--opacity)), rgba(0, 0, 0, var(--opacity))), url(images/planet-01.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+hr {
+    height: 2px;
+    font-size: 0;
+    border: 0;
 }
