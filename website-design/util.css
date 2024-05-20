@@ -64,8 +64,16 @@
     margin-bottom: 4.8rem;
 }
 
+.mb-64 {
+    margin-bottom: 4.8rem;
+}
+
 .mb-96 {
     margin-bottom: 9.6rem;
+}
+
+.mb-192 {
+    margin-bottom: 19.2rem;
 }
 
 .mt-16 {
@@ -80,9 +88,23 @@
     margin-top: 3.2rem;
 }
 
+.mt-48 {
+    margin-top: 4.8rem;
+}
+
 .py-96 {
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
+}
+
+.py-24 {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+}
+
+.py-32 {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
 }
 
 .py-192 {
@@ -117,6 +139,10 @@
 
 .pb-96 {
     padding-bottom: 9.6rem;
+}
+
+.pb-192 {
+    padding-bottom: 19.2rem;
 }
 
 .flex {

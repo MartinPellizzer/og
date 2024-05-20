@@ -254,3 +254,61 @@ hr {
     font-size: 0;
     border: 0;
 }
+
+
+.section-4 .img-1 {
+    height: 72rem;
+    object-fit: cover;
+}
+
+.section-4 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-left: 3.2rem;
+}
+
+.section-4 .category {
+    text-transform: uppercase;
+}
+
+
+.section-4 .category .number {
+    margin-right: 1.6rem;
+    border: 1px solid #070b0e;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+}
+
+.section-why-1 {
+    height: 60rem;
+    background-image: url('/assets/hero-03.png');
+    background-position: top;
+    background-size: cover;
+}
+
+
+.problem-section {
+    background-color: #f1f5f9;
+}
+
+.problem-section .sup-header {
+    margin-bottom: 1.6rem;
+    color: #1d4ed8;
+    letter-spacing: 1px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.problem-section .sup-header svg {
+    height: 1.6rem;
+    color: #1d4ed8;
+}
+
+.problem-section img {
+    height: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
