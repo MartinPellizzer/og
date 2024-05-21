@@ -77,6 +77,11 @@ void loop()
         buff[k] = 0;
       }
 
+      if (ppb >= 10000)
+      {
+        ppb = 9999;
+      } 
+      
       // send 0-10V
       uint8_t pwm_val = map(ppb, 0, 10000, 0, 255);
 

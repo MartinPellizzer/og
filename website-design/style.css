@@ -289,7 +289,18 @@ hr {
 
 
 .problem-section {
-    background-color: #f1f5f9;
+    /* background-color: black; */
+    /* color: white; */
+}
+
+.problem-section .sub-header {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+.problem-section p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
 }
 
 .problem-section .sup-header {
