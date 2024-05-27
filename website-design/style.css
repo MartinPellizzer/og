@@ -342,3 +342,9 @@ hr {
 }
 
 .problem-section li {}
+
+.problems-step {
+    margin-left: 1.6rem;
+    padding-left: 1.6rem;
+    border-left: 1px solid #070b0e;
+}
