@@ -348,3 +348,16 @@ hr {
     padding-left: 1.6rem;
     border-left: 1px solid #070b0e;
 }
+
+.pathogens-section {
+    /* padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+    background-color: #f5f5f5; */
+}
+
+.laws-section {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+    background-color: #f5f5f5;
+    background-color: #fafafa;
+}

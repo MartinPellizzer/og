@@ -255,6 +255,10 @@
     margin-right: auto;
 }
 
+.mr-96 {
+    margin-right: 9.6rem;
+}
+
 .object-bottom {
     object-position: bottom;
 }
