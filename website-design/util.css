@@ -231,6 +231,10 @@
     gap: 6.4rem;
 }
 
+.gap-96 {
+    gap: 9.6rem;
+}
+
 .pl-auto {
     padding-left: auto;
 }
