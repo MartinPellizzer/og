@@ -376,3 +376,11 @@
 .text-center {
     text-align: center;
 }
+
+.h-full {
+    height: 100%;
+}
+
+.w-full {
+    width: 100%;
+}
