@@ -49,7 +49,7 @@ applications_insects_rows = applications_insects_rows[1:]
 
 
 
-num_applications = 1
+num_applications = 0
 
 
 def delete_applications_key(key):
@@ -768,7 +768,10 @@ def html_sectors_sector_applications_problems_table(data):
 
 def art_applications(_id=-1):
     if _id == -1:
-        applications_rows_filtered = applications_rows[:num_applications]
+        if num_applications == 0:
+            applications_rows_filtered = applications_rows
+        else:
+            applications_rows_filtered = applications_rows[:num_applications]
     else:
         applications_rows_filtered = util.csv_get_rows_by_col_val(
             g.CSV_APPLICATIONS_FILEPATH, applications_cols['application_id'], str(_id)
@@ -812,10 +815,10 @@ def art_applications(_id=-1):
         json_application_definition(application_json_filepath, data)
 
         json_application_problems(application_json_filepath, data)
-        json_application_bacteria(application_json_filepath, data)
-        json_application_virus(application_json_filepath, data)
-        json_application_molds(application_json_filepath, data)
-        json_application_insects(application_json_filepath, data)
+        # json_application_bacteria(application_json_filepath, data)
+        # json_application_virus(application_json_filepath, data)
+        # json_application_molds(application_json_filepath, data)
+        # json_application_insects(application_json_filepath, data)
 
         # ai_benefits(application_json_filepath, data)
 
@@ -923,74 +926,73 @@ def art_applications(_id=-1):
 
         article_html += html_sectors_sector_applications_problems_table(data)
 
-        bacteria_rows_filtered = csv_get_bacteria_by_application(application_id)
-        bacteria_names = [bacteria_row[bacteria_cols['bacteria_name']].capitalize() for bacteria_row in bacteria_rows_filtered]
-        bacteria_names_str = ', '.join(bacteria_names[:3])
-
-        article_html += f'<h3>Batteri {application_a_1}{application_name}</h3>\n'
-        article_html += f'<p>La sanificazione ad ozono elimina i principali batteri presenti {application_a_1}{application_name}, come {bacteria_names_str}.</p>\n'
-        # article_html += f'{util.text_format_1N1_html(data["bacteria_desc"])}\n'
-        for item in data["bacteria_desc"]:
-            article_html += f'<p>{item}</p>\n'
-
-
-        article_html += f'<p>I batteri più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
-        article_html += '<ul>\n'
-        for bacteria_name in bacteria_names[:7]:
-            article_html += f'<li>{bacteria_name}</li>\n'
-        article_html += '</ul>\n'
-
-
-        virus_rows_filtered = csv_get_virus_by_application(application_id)
-        virus_names = [virus_row[virus_cols['virus_name']].capitalize() for virus_row in virus_rows_filtered]
-        virus_names_str = ', '.join(virus_names[:3])
-
-        article_html += f'<h3>Virus {application_a_1}{application_name}</h3>\n'
-        article_html += f'<p>La sanificazione ad ozono inattiva i principali virus presenti {application_a_1}{application_name}, come {virus_names_str}.</p>\n'
-        # article_html += f'{util.text_format_1N1_html(data["virus_desc"])}\n'
-        for item in data["virus_desc"]:
-            article_html += f'<p>{item}</p>\n'
-
-        article_html += f'<p>I virus più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
-        article_html += '<ul>\n'
-        for virus_name in virus_names[:7]:
-            article_html += f'<li>{virus_name}</li>\n'
-        article_html += '</ul>\n'
+        key = 'bacteria_desc'
+        if key in data:
+            bacteria_rows_filtered = csv_get_bacteria_by_application(application_id)
+            bacteria_names = [bacteria_row[bacteria_cols['bacteria_name']].capitalize() for bacteria_row in bacteria_rows_filtered]
+            bacteria_names_str = ', '.join(bacteria_names[:3])
+            article_html += f'<h3>Batteri {application_a_1}{application_name}</h3>\n'
+            article_html += f'<p>La sanificazione ad ozono elimina i principali batteri presenti {application_a_1}{application_name}, come {bacteria_names_str}.</p>\n'
+            # article_html += f'{util.text_format_1N1_html(data["bacteria_desc"])}\n'
+            for item in data[key]:
+                article_html += f'<p>{item}</p>\n'
+            article_html += f'<p>I batteri più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
+            article_html += '<ul>\n'
+            for bacteria_name in bacteria_names[:7]:
+                article_html += f'<li>{bacteria_name}</li>\n'
+            article_html += '</ul>\n'
 
 
+        key = 'virus_desc'
+        if key in data:
+            virus_rows_filtered = csv_get_virus_by_application(application_id)
+            virus_names = [virus_row[virus_cols['virus_name']].capitalize() for virus_row in virus_rows_filtered]
+            virus_names_str = ', '.join(virus_names[:3])
+            article_html += f'<h3>Virus {application_a_1}{application_name}</h3>\n'
+            article_html += f'<p>La sanificazione ad ozono inattiva i principali virus presenti {application_a_1}{application_name}, come {virus_names_str}.</p>\n'
+            # article_html += f'{util.text_format_1N1_html(data["virus_desc"])}\n'
+            for item in data[key]:
+                article_html += f'<p>{item}</p>\n'
+            article_html += f'<p>I virus più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
+            article_html += '<ul>\n'
+            for virus_name in virus_names[:7]:
+                article_html += f'<li>{virus_name}</li>\n'
+            article_html += '</ul>\n'
 
-        molds_rows_filtered = csv_get_molds_by_application(application_id)
-        molds_names = [row[molds_cols['mold_name']].capitalize() for row in molds_rows_filtered]
-        molds_names_str = ', '.join(molds_names[:3])
-
-        article_html += f'<h3>Muffe {application_a_1}{application_name}</h3>\n'
-        article_html += f'<p>La sanificazione ad ozono inattiva le principali muffe presenti {application_a_1}{application_name}, come {molds_names_str}.</p>\n'
-        # article_html += f'{util.text_format_1N1_html(data["molds_desc"])}\n'
-        for item in data["molds_desc"]:
-            article_html += f'<p>{item}</p>\n'
-
-        article_html += f'<p>Le muffe più comuni che si trovano {application_a_1}{application_name} sono elencate nella seguente lista.</p>\n'
-        article_html += '<ul>\n'
-        for mold_name in molds_names[:7]:
-            article_html += f'<li>{mold_name}</li>\n'
-        article_html += '</ul>\n'
 
 
-        insects_rows_filtered = csv_get_molds_by_application(application_id)
-        insects_names = [row[insects_cols['insect_name']].capitalize() for row in insects_rows_filtered]
-        insects_names_str = ', '.join(insects_names[:3])
+        key = 'molds_desc'
+        if key in data:
+            molds_rows_filtered = csv_get_molds_by_application(application_id)
+            molds_names = [row[molds_cols['mold_name']].capitalize() for row in molds_rows_filtered]
+            molds_names_str = ', '.join(molds_names[:3])
+            article_html += f'<h3>Muffe {application_a_1}{application_name}</h3>\n'
+            article_html += f'<p>La sanificazione ad ozono inattiva le principali muffe presenti {application_a_1}{application_name}, come {molds_names_str}.</p>\n'
+            # article_html += f'{util.text_format_1N1_html(data["molds_desc"])}\n'
+            for item in data[key]:
+                article_html += f'<p>{item}</p>\n'
+            article_html += f'<p>Le muffe più comuni che si trovano {application_a_1}{application_name} sono elencate nella seguente lista.</p>\n'
+            article_html += '<ul>\n'
+            for mold_name in molds_names[:7]:
+                article_html += f'<li>{mold_name}</li>\n'
+            article_html += '</ul>\n'
 
-        article_html += f'<h3>Insetti {application_a_1}{application_name}</h3>\n'
-        article_html += f'<p>La sanificazione ad ozono repelle i principali insetti presenti {application_a_1}{application_name}, come {insects_names_str}.</p>\n'
-        # article_html += f'{util.text_format_1N1_html(data["insects_desc"])}\n'
-        for item in data["insects_desc"]:
-            article_html += f'<p>{item}</p>\n'
 
-        article_html += f'<p>Gli insetti più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
-        article_html += '<ul>\n'
-        for insect_name in insects_names[:7]:
-            article_html += f'<li>{insect_name}</li>\n'
-        article_html += '</ul>\n'
+        key = 'insects_desc'
+        if key in data:
+            insects_rows_filtered = csv_get_molds_by_application(application_id)
+            insects_names = [row[insects_cols['insect_name']].capitalize() for row in insects_rows_filtered]
+            insects_names_str = ', '.join(insects_names[:3])
+            article_html += f'<h3>Insetti {application_a_1}{application_name}</h3>\n'
+            article_html += f'<p>La sanificazione ad ozono repelle i principali insetti presenti {application_a_1}{application_name}, come {insects_names_str}.</p>\n'
+            # article_html += f'{util.text_format_1N1_html(data["insects_desc"])}\n'
+            for item in data[key]:
+                article_html += f'<p>{item}</p>\n'
+            article_html += f'<p>Gli insetti più comuni che si trovano {application_a_1}{application_name} sono elencati nella seguente lista.</p>\n'
+            article_html += '<ul>\n'
+            for insect_name in insects_names[:7]:
+                article_html += f'<li>{insect_name}</li>\n'
+            article_html += '</ul>\n'
 
 
 
@@ -1503,7 +1505,7 @@ def applications_missing_images_csv():
 
 
 
-art_applications(81)
+art_applications()
 # sector_page()
 # sectors_page()
 
