@@ -412,7 +412,29 @@ svg {
     background-size: cover;
 }
 
+.section-offer-01 h3 {
+    margin-bottom: 2.4rem;
+}
+
+.section-offer-01 p {
+    margin-bottom: 1.6rem;
+}
+
 .section-offer-01 img {
-    height: 60rem;
+    height: 80rem;
     object-fit: cover;
+}
+
+.section-offer-01 .content-right {
+    max-width: 76.8rem;
+    margin-right: auto;
+    padding-left: 6.4rem;
+    padding-right: 2.4rem;
+}
+
+.section-offer-01 .content-left {
+    max-width: 76.8rem;
+    margin-left: auto;
+    padding-left: 2.4rem;
+    padding-right: 6.4rem;
 }
