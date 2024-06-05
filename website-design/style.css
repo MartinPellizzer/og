@@ -438,3 +438,81 @@ svg {
     padding-left: 2.4rem;
     padding-right: 6.4rem;
 }
+
+.img-industry {
+    height: 60rem;
+    background-image: url(/images/industry.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-hospital {
+    height: 60rem;
+    background-image: url(/images/hospital.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-train {
+    height: 60rem;
+    background-image: url(/images/train-0002.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-wellness {
+    height: 60rem;
+    background-image: url(/images/wellness-02.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-hotel {
+    height: 60rem;
+    background-image: url(/images/hotel-01.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.img-services {
+    height: 60rem;
+    background-image: url(/images/services-02.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.problem-section-01 .content-right {
+    max-width: 99.6rem;
+    margin-right: auto;
+    padding-left: 6.4rem;
+    padding-right: 2.4rem;
+}
+
+
+.problem-section-01 .sub-header {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+}
+
+.problem-section-01 .sup-header svg {
+    height: 1.6rem;
+    color: #1d4ed8;
+}
+
+
+.hero-img {
+    height: 60rem;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.bg-dark {
+    background-color: #000;
+}
