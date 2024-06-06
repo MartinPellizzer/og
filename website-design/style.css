@@ -108,8 +108,6 @@ header a {
 
 
 .hero-1 {
-    padding-top: 9.6rem;
-    padding-bottom: 9.6rem;
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 9.6rem;
@@ -515,4 +513,29 @@ svg {
 
 .bg-dark {
     background-color: #000;
+}
+
+.bg-light {
+    background-color: #cdcdcd;
+}
+
+.bg-blue {
+    background-color: #1d4ed8;
+}
+
+.sup-header svg {
+    height: 1.6rem;
+    color: #1d4ed8;
+}
+
+.template-2 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin-left: 2.4rem;
+}
+
+.template-2 li {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
 }

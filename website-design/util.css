@@ -48,6 +48,18 @@
     margin-left: 1.6rem;
 }
 
+.ml-24 {
+    margin-left: 2.4rem;
+}
+
+.ml-32 {
+    margin-left: 3.2rem;
+}
+
+.ml-48 {
+    margin-left: 4.8rem;
+}
+
 .mb-16 {
     margin-bottom: 1.6rem;
 }
@@ -209,6 +221,14 @@
 
 .grid-4 {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.gap-4 {
+    gap: 0.4rem;
+}
+
+.gap-8 {
+    gap: 0.8rem;
 }
 
 .gap-16 {
