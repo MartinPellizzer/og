@@ -1,6 +1,16 @@
 from PIL import Image, ImageDraw, ImageFont
 import random
 
+
+body_font_size = 30
+body_font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", body_font_size)
+
+def cell_pos(col_index, row_index):
+    x = grid_col_w * col_index + grid_col_padding
+    y = grid_row_h * row_index + grid_row_padding
+    return x, y
+
+
 def draw_grid():
     for i in range(grid_col_num+1):
         draw.line((grid_col_w*i + grid_col_padding, 0, grid_col_w*i + grid_col_padding, page_h), fill='#ff00ff', width=4)
@@ -10,11 +20,45 @@ def draw_grid():
     for i in range(grid_row_num+1):
         draw.line((0, grid_row_h*i + grid_row_padding, page_w, grid_row_h*i + grid_row_padding), fill='#ff00ff', width=4)
 
-def draw_text_col(lines, col_index, row_index):
+
+def draw_grid_num():
+    font_size = 72
+    font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", font_size)
+
+    for i in range(grid_col_num):
+        for k in range(grid_row_num):
+            x = grid_col_w*i + grid_col_padding
+            y = grid_row_h*k + grid_row_padding
+            draw.text((x, y), f'{k}:{i}', '#ff00ff', font=font)
+
+
+def text_to_lines(text):
+    words = text.split(' ')
+    lines = []
+    line_curr = ''
+    for word in words:
+        _, _, line_curr_w, _ = body_font.getbbox(line_curr)
+        _, _, word_w, _ = body_font.getbbox(word)
+        if line_curr_w + word_w < grid_col_w - grid_col_gap*2:
+            line_curr += f'{word} '
+        else:
+            lines.append(line_curr)
+            line_curr = f'{word} '
+    lines.append(line_curr)
+    
+    return lines 
+
+
+def draw_text_col(text, col_index, row_index):
+    lines = text_to_lines(text)
+
     for i, line in enumerate(lines):
         x = grid_col_w*col_index + grid_col_padding + grid_col_gap*col_index
         y = grid_row_h*row_index + grid_row_padding + font_size*i
         draw.text((x, y), line, (0, 0, 0), font=font)
+
+
+
 
 
 page_w = 2480
@@ -33,44 +77,94 @@ grid_row_num = 16
 grid_row_padding = 512
 grid_row_h = (page_h - grid_row_padding*2) // grid_row_num
 
-draw_grid()
+# draw_grid()
+# draw_grid_num()
+
+grid_map = []
+for _ in range(grid_row_num):
+    row = []
+    for _ in range(grid_col_num):
+        row.append(0)
+    grid_map.append(row)
 
 
-with open('placeholder_text.txt', 'r', encoding='utf-8', errors='ignore') as f: text = f.read()
-text = text.replace('\n', ' ')
 
-font_size = 30
-font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", font_size)
+# images
 
-words = text.split(' ')
-lines = []
-line_curr = ''
-for word in words:
-    _, _, line_curr_w, _ = font.getbbox(line_curr)
-    _, _, word_w, _ = font.getbbox(word)
-    if line_curr_w + word_w < grid_col_w - grid_col_gap*2:
-        line_curr += f'{word} '
-    else:
-        lines.append(line_curr)
-        line_curr = f'{word} '
-lines.append(line_curr)
+for i in range(1):
+    rand_col_num = random.randint(0, grid_col_num-1)
+    rand_row_num = random.randint(0, grid_row_num-1)
+    # rand_col_num = 0 # TODO: remove
+    # rand_row_num = 8 # TODO: remove
+    x_1 = grid_col_w * rand_col_num + grid_col_padding
+    y_1 = grid_row_h * rand_row_num + grid_row_padding
 
-# draw_text_col(lines, 0, 0)
-# draw_text_col(lines, 1, 8)
-# draw_text_col(lines, 2, 3)
+    rand_col_span = random.randint(1, grid_col_num - rand_col_num)
+    rand_row_span = random.randint(1, grid_row_num - rand_row_num)
+    # rand_col_span = 1 # TODO: remove
+    # rand_row_span = 2 # TODO: remove
+    x_2 = x_1 + grid_col_w * rand_col_span
+    y_2 = y_1 + grid_row_h * rand_row_span
+
+    draw.rectangle(((x_1, y_1), (x_2, y_2)), fill="#cdcdcd")
+
+    for y in range(rand_row_num, rand_row_num + rand_row_span):
+        for x in range(rand_col_num, rand_col_num + rand_col_span):
+            grid_map[y][x] = 1
+
+print()
+for row in grid_map:
+    print(row)
 
 
-rand_cols = random.randint(1, grid_col_num)
-rand_rows = random.randint(1, grid_row_num)
 
-x_1 = grid_col_w*0 + grid_col_padding
-y_1 = grid_row_h*0 + grid_row_padding
-x_2 = x_1 + grid_col_w*rand_cols
-y_2 = y_1 + grid_row_h*rand_rows
+# text
 
-draw_text_col(lines[:32], 0, 5)
+def draw_text_col_around(start_row_i, start_col_i):
+    with open('placeholder_text.txt', 'r', encoding='utf-8', errors='ignore') as f: text = f.read()
+    text = text.replace('\n', ' ')
 
-draw.rectangle(((x_1, y_1), (x_2, y_2)), fill="#cdcdcd")
+    lines = text_to_lines(text)
+
+    curr_line_i = 0
+    for i, _ in enumerate(lines):
+        x = grid_col_w*start_col_i + grid_col_padding + grid_col_gap*start_col_i
+        y = grid_row_h*start_row_i + grid_row_padding + body_font_size*i
+        curr_row = (y - grid_row_padding) // grid_row_h
+        if (grid_map[curr_row-1][start_col_i] == 0 and
+            grid_map[curr_row+0][start_col_i] == 0 and
+            grid_map[curr_row+1][start_col_i] == 0):
+            line = lines[curr_line_i]
+            draw.text((x, y), line, (0, 0, 0), font=body_font)
+            curr_line_i += 1
+
+draw_text_col_around(0, 0)
+draw_text_col_around(0, 1)
+draw_text_col_around(0, 2)
+
+# font_size = 30
+# font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", font_size)
+
+# for i in range(grid_row_num):
+#     for k in range(grid_col_num):
+#         if grid_map[i][k] == 0:
+#             x, y = cell_pos(k, i)
+#             draw.text((x, y), text, '#000', font=font)
+
+
+# with open('placeholder_text.txt', 'r', encoding='utf-8', errors='ignore') as f: text = f.read()
+# text = text.replace('\n', ' ')
+
+# draw_text_col(text, 0, 0)
+# draw_text_col(text, 1, 8)
+# draw_text_col(text, 2, 3)
+
+
+# draw_text_col(lines[:32], 0, rand_rows + 1)
+
+
+
+
 
 img.show()
 # img.save('test.jpg')
