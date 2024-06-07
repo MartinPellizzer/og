@@ -91,7 +91,7 @@ for _ in range(grid_row_num):
 
 # images
 
-for i in range(1):
+for i in range(5):
     rand_col_num = random.randint(0, grid_col_num-1)
     rand_row_num = random.randint(0, grid_row_num-1)
     # rand_col_num = 0 # TODO: remove
@@ -120,27 +120,137 @@ for row in grid_map:
 
 # text
 
-def draw_text_col_around(start_row_i, start_col_i):
-    with open('placeholder_text.txt', 'r', encoding='utf-8', errors='ignore') as f: text = f.read()
-    text = text.replace('\n', ' ')
+# def draw_text_col_around(start_row_i, start_col_i):
+#     with open('demo_article.txt', 'r', encoding='utf-8', errors='ignore') as f: text = f.read()
+#     text = text.replace('\n', ' ')
 
+#     lines = text_to_lines(text)
+
+#     curr_line_i = 0
+#     curr_col_i = start_col_i
+#     curr_line_i = start_row_i
+#     for _ in lines:
+#         y = grid_row_h*start_row_i + grid_row_padding + body_font_size*curr_line_i
+#         if y > grid_row_h*grid_row_num + grid_row_padding: 
+#             curr_col_i += 1
+#             curr_line_i = start_row_i
+
+#         x = grid_col_w*curr_col_i + grid_col_padding + grid_col_gap*curr_col_i
+#         y = grid_row_h*start_row_i + grid_row_padding + body_font_size*curr_line_i
+
+#         # line_row_i = (y - grid_row_padding) // grid_row_h
+#         # if line_row_i < grid_row_num and curr_col_i < grid_col_num:
+#         #     if grid_map[line_row_i][curr_col_i] == 0:
+#         line = lines[curr_line_i]
+#         draw.text((x, y), line, (0, 0, 0), font=body_font)
+
+#         curr_line_i += 1
+
+# draw_text_col_around(3, 0)
+
+
+
+
+
+
+
+# def draw_text_block(start_col_i, start_row_i, spawn_i):
+
+#     line_i = 0
+#     for _ in lines:
+#         x_1 = grid_col_w*start_col_i + grid_col_padding + grid_col_gap*start_col_i
+#         y_1 = grid_row_h*start_row_i + grid_row_padding + body_font_size*line_i
+        
+#         line_row_i = (y_1 - grid_row_padding) // grid_row_h
+#         if line_row_i - start_row_i > spawn_i - 1: return 
+
+#         draw.text((x_1, y_1), lines[line_i], (0, 0, 0), font=body_font)
+#         line_i += 1
+
+# draw_text_block(1, 2, 3)
+
+
+
+
+
+def draw_text_blocks(text, blocks_list):
     lines = text_to_lines(text)
 
-    curr_line_i = 0
-    for i, _ in enumerate(lines):
-        x = grid_col_w*start_col_i + grid_col_padding + grid_col_gap*start_col_i
-        y = grid_row_h*start_row_i + grid_row_padding + body_font_size*i
-        curr_row = (y - grid_row_padding) // grid_row_h
-        if (grid_map[curr_row-1][start_col_i] == 0 and
-            grid_map[curr_row+0][start_col_i] == 0 and
-            grid_map[curr_row+1][start_col_i] == 0):
-            line = lines[curr_line_i]
-            draw.text((x, y), line, (0, 0, 0), font=body_font)
-            curr_line_i += 1
+    block_i = 0
 
-draw_text_col_around(0, 0)
-draw_text_col_around(0, 1)
-draw_text_col_around(0, 2)
+    start_row_i = blocks_list[block_i][0]
+    start_col_i = blocks_list[block_i][1]
+    end_row_i = blocks_list[block_i][2]
+
+    line_i = 0
+    for line in lines:
+        x_1 = grid_col_w*start_col_i + grid_col_padding + grid_col_gap*start_col_i
+        y_1 = grid_row_h*start_row_i + grid_row_padding + body_font_size*line_i
+
+        line_row_i = (y_1 - grid_row_padding) // grid_row_h
+        if line_row_i > end_row_i - 1: 
+            block_i += 1
+            if block_i < len(blocks_list):
+                start_row_i = blocks_list[block_i][0]
+                start_col_i = blocks_list[block_i][1]
+                end_row_i = blocks_list[block_i][2]
+                line_i = 0
+                x_1 = grid_col_w*start_col_i + grid_col_padding + grid_col_gap*start_col_i
+                y_1 = grid_row_h*start_row_i + grid_row_padding + body_font_size*line_i
+            else:
+                return
+
+        draw.text((x_1, y_1), line, (0, 0, 0), font=body_font)
+        line_i += 1
+
+
+def map_to_blocks():
+    blocks_list = []
+    block_curr = [-1, -1, -1]
+    for k in range(grid_col_num):
+        for i in range(grid_row_num):
+            if grid_map[i][k] == 0:
+                if block_curr[0] == -1: block_curr[0] = i
+                if block_curr[1] == -1: block_curr[1] = k
+            elif grid_map[i][k] == 1:
+                if block_curr != [-1, -1, -1]:
+                    if block_curr[2] == -1: block_curr[2] = i
+                    blocks_list.append(block_curr)
+                    block_curr = [-1, -1, -1]
+        if block_curr != [-1, -1, -1]:
+            if block_curr[2] == -1: block_curr[2] = i
+            blocks_list.append(block_curr)
+            block_curr = [-1, -1, -1]
+    return blocks_list
+
+
+
+
+with open('demo_article.txt', 'r', encoding='utf-8', errors='ignore') as f: text = f.read()
+text = text.replace('\n', ' ')
+
+blocks_list = [
+    [2, 0, 7],
+    [10, 0, 13],
+    [0, 1, 4],
+    [7, 1, 10],
+    [11, 2, 15],
+]
+
+# blocks_list = [
+#     [0, 0, 5], 
+#     [11, 0, 15], 
+#     [0, 1, 5], 
+#     [11, 1, 15], 
+#     [0, 2, 15]
+# ]
+
+blocks_list = map_to_blocks()
+
+draw_text_blocks(text, blocks_list)
+
+# draw_text_col_around(0, 1)
+# draw_text_col_around(0, 2)
 
 # font_size = 30
 # font = ImageFont.truetype("assets/fonts/arial/ARIAL.TTF", font_size)
