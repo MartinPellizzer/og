@@ -539,3 +539,12 @@ svg {
     font-size: 1.8rem;
     line-height: 2.7rem;
 }
+
+
+.phone-num-big {
+    display: inline-block;
+    font-size: 2.4rem;
+    border-radius: 9999px;
+    border: 1px solid white;
+    padding: 0.8rem 1.6rem;
+}
