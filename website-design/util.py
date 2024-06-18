@@ -3,6 +3,30 @@ import requests
 import json
 
 
+
+###################################
+# FILE
+###################################
+
+def file_read(filepath):
+    with open(filepath, 'a', encoding='utf-8') as f: pass
+    with open(filepath, 'r', encoding='utf-8') as f: 
+        text = f.read()
+    return text
+
+
+def file_append(filepath, text):
+    with open(filepath, 'a', encoding='utf-8') as f: 
+        f.write(text)
+
+
+def file_write(filepath, text):
+    create_folder_for_filepath(filepath)
+    with open(filepath, 'w', encoding='utf-8') as f: f.write(text)
+
+
+
+
 def unsplash_image_get():
     with open('C:/api-keys/unsplash-api-key.txt', 'r') as f:
         ACCESS_KEY = f.read().strip()
@@ -67,3 +91,13 @@ def file_read(filepath):
 def file_append(filepath, text):
     with open(filepath, 'a', encoding='utf-8') as f: 
         f.write(text)
+
+
+
+def create_folder_for_filepath(filepath):
+    chunks = filepath.split('/')
+    chunk_curr = ''
+    for chunk in chunks[:-1]:
+        chunk_curr += chunk + '/'
+        try: os.makedirs(chunk_curr)
+        except: pass
