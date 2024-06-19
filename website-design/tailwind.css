@@ -1,0 +1,54 @@
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.gap-96 {
+    gap: 9.6rem;
+}
+
+.py-96 {
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.text-64 {
+    font-size: 6.4rem;
+    line-height: 1;
+}
+
+.text-18 {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+.mb-24 {
+    margin-bottom: 2.4rem;
+}
+
+.mb-48 {
+    margin-bottom: 4.8rem;
+}
+
+.no-underline {
+    text-decoration-line: none;
+}
+
+.text-neutral-900 {
+    color: #171717;
+}
+
+.font-bold {
+    font-weight: 700;
+}

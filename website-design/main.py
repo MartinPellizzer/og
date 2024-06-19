@@ -13,25 +13,6 @@ import layout
 SLEEP_TIME = 30
 
 
-def unsplash_random():
-    with open('C:/api-keys/unsplash-api-key.txt', 'r') as f:
-        ACCESS_KEY = f.read().strip()
-
-    url = f'https://api.unsplash.com/photos/random?client_id={ACCESS_KEY}'
-    response = requests.get(url)
-    print(response)
-
-    data = response.json()
-    image_url = data['urls']['regular']
-
-    filepath = 'unsplash/random/picture.jpg'
-    util.file_append(filepath, f'{image_url}\n')
-    print(image_url)
-
-    return image_url
-
-
-
 def unsplash_image_get(tag):
     filepath = f'unsplash/{tag}.txt'
     if not os.path.exists(filepath):
@@ -91,51 +72,24 @@ def ai_page_home_outline():
         time.sleep(SLEEP_TIME)
 
 
-def block_sentence():
-    s = lorem.sentence()
-    return f'<p>{s}</p>'
+def ai_page_home_hero():
+    content = ''
+    filepath = 'content/page_home_hero.html'
 
+    if os.path.exists(filepath):
+        with open(filepath) as f:
+            content = f.read()
 
-def block_paragraph():
-    p = lorem.paragraph()
-    return f'<p>{p}</p>'
+    if content.strip() == '':
+        prompt = f'''
+            Write the html and inline css for an hero section of a homepage about ozone sanitization.
+            '''
+        reply = util_ai.gen_reply(prompt)
 
+        with open(filepath, 'w') as f:
+            f.write(reply)
 
-def block_text():
-    t = lorem.text()
-    return f'<p>{t}</p>'
-
-
-def block_image():
-    filepath = f'unsplash/nature.txt'
-    content = util.file_read(filepath)
-    urls = content.strip().split('\n')
-    url = random.choice(urls)
-    return f'<img src="{url}" alt="">'
-
-def block_image_random():
-    url = unsplash_random()
-    return f'<img src="{url}" alt="">'
-
-
-# def ai_page_home_hero():
-#     content = ''
-#     filepath = 'content/page_home_hero.html'
-
-#     if os.path.exists(filepath):
-#         with open(filepath) as f:
-#             content = f.read()
-
-#     if content.strip() == '':
-#         prompt = f'''
-#             Write the html and inline css for an hero section of a homepage about ozone sanitization.
-#             '''
-#         reply = util_ai.gen_reply(prompt)
-
-#         with open(filepath, 'w') as f:
-#             f.write(reply)
-
-#         time.sleep(SLEEP_TIME)
+        time.sleep(SLEEP_TIME)
 
 
 
@@ -145,10 +99,7 @@ ai_page_home_outline()
 
 
 
-hero = layout.layout_0001()
-html_h1 = f'<h1>Sanificazione Ozono</h1>' 
-html_p = block_text()
-html_img = block_image_random()
+hero = layout.hero_0001()
 
 html = f'''
     <!DOCTYPE html>
@@ -158,17 +109,13 @@ html = f'''
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <link rel="stylesheet" href="style-auto.css">
+        <link rel="stylesheet" href="tailwind.css">
     </head>
     <body>
         <header></header>
         
         <main>
-            <section id="hero">
-                <div class="container-lg">
-                    {hero}
-                    {html_img}
-                </div>
-            </section>
+            {hero}
         </main>
         <footer></footer>
     </body>
