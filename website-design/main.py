@@ -100,6 +100,23 @@ ai_page_home_outline()
 
 
 hero = layout.hero_0001()
+cta = layout.cta_0001(theme='dark')
+
+random_theme = random.choice(['', 'holy', 'dark'])
+random_swap = random.choice([True, False])
+content_1 = layout.content_0001(random_theme, random_swap)
+
+random_theme = random.choice(['', 'holy', 'dark'])
+random_swap = random.choice([True, False])
+content_2 = layout.content_0002(random_theme, random_swap)
+
+# content_3 = layout.content_0003(theme='', swap=False)
+
+for i in range(3):
+    random_theme = random.choice(['', 'holy', 'dark'])
+    random_swap = random.choice([True, False])
+    random_func = random.choice(layout.functions)
+    content_3 = random_func(random_theme, random_swap)
 
 html = f'''
     <!DOCTYPE html>
@@ -116,6 +133,10 @@ html = f'''
         
         <main>
             {hero}
+            {cta}
+            {content_1}
+            {content_2}
+            {content_3}
         </main>
         <footer></footer>
     </body>
