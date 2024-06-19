@@ -8,8 +8,28 @@ import lorem
 
 import util
 import util_ai
+import layout
 
 SLEEP_TIME = 30
+
+
+def unsplash_random():
+    with open('C:/api-keys/unsplash-api-key.txt', 'r') as f:
+        ACCESS_KEY = f.read().strip()
+
+    url = f'https://api.unsplash.com/photos/random?client_id={ACCESS_KEY}'
+    response = requests.get(url)
+    print(response)
+
+    data = response.json()
+    image_url = data['urls']['regular']
+
+    filepath = 'unsplash/random/picture.jpg'
+    util.file_append(filepath, f'{image_url}\n')
+    print(image_url)
+
+    return image_url
+
 
 
 def unsplash_image_get(tag):
@@ -93,6 +113,10 @@ def block_image():
     url = random.choice(urls)
     return f'<img src="{url}" alt="">'
 
+def block_image_random():
+    url = unsplash_random()
+    return f'<img src="{url}" alt="">'
+
 
 # def ai_page_home_hero():
 #     content = ''
@@ -121,9 +145,10 @@ ai_page_home_outline()
 
 
 
+hero = layout.layout_0001()
 html_h1 = f'<h1>Sanificazione Ozono</h1>' 
 html_p = block_text()
-html_img = block_image()
+html_img = block_image_random()
 
 html = f'''
     <!DOCTYPE html>
@@ -140,8 +165,7 @@ html = f'''
         <main>
             <section id="hero">
                 <div class="container-lg">
-                    {html_h1}
-                    {html_p}
+                    {hero}
                     {html_img}
                 </div>
             </section>
