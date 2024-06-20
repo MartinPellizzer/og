@@ -148,13 +148,17 @@ content_2 = layout.content_0002(random_theme, random_swap)
 
 # content_3 = layout.content_0003(theme='', swap=False)
 
-features_1 = layout.features_0001(theme='holy', swap=False)
-
+contents_html = []
 for i in range(3):
     random_theme = random.choice(['holy', 'dark'])
     random_swap = random.choice([True, False])
-    random_func = random.choice(layout.functions)
-    content_3 = random_func(random_theme, random_swap)
+    random_func = random.choice(layout.contents)
+    contents_html.append(random_func(random_theme, random_swap))
+
+
+
+features_1 = layout.features_0001(theme='holy', swap=False)
+
 
 html = f'''
     <!DOCTYPE html>
@@ -173,9 +177,9 @@ html = f'''
             {menu}
             {hero}
             {cta}
-            {content_1}
-            {content_2}
-            {content_3}
+            {contents_html[0]}
+            {contents_html[1]}
+            {contents_html[2]}
             {features_1}
         </main>
         <footer></footer>
