@@ -138,16 +138,6 @@ hero = layout.hero_0001(random_theme)
 random_theme = random.choice(['holy', 'dark'])
 cta = layout.cta_0001(random_theme)
 
-random_theme = random.choice(['holy', 'dark'])
-random_swap = random.choice([True, False])
-content_1 = layout.content_0001(random_theme, random_swap)
-
-random_theme = random.choice(['holy', 'dark'])
-random_swap = random.choice([True, False])
-content_2 = layout.content_0002(random_theme, random_swap)
-
-# content_3 = layout.content_0003(theme='', swap=False)
-
 contents_html = []
 for i in range(3):
     random_theme = random.choice(['holy', 'dark'])
@@ -155,9 +145,16 @@ for i in range(3):
     random_func = random.choice(layout.contents)
     contents_html.append(random_func(random_theme, random_swap))
 
+features_html = []
+for i in range(1):
+    random_theme = random.choice(['holy', 'dark'])
+    random_swap = random.choice([True, False])
+    random_func = random.choice(layout.features)
+    features_html.append(random_func(random_theme, random_swap))
 
 
-features_1 = layout.features_0001(theme='holy', swap=False)
+
+block_curr = layout.features_0001(theme='holy', swap=False)
 
 
 html = f'''
@@ -177,10 +174,14 @@ html = f'''
             {menu}
             {hero}
             {cta}
+
             {contents_html[0]}
             {contents_html[1]}
             {contents_html[2]}
-            {features_1}
+
+            {features_html[0]}
+
+            {block_curr}
         </main>
         <footer></footer>
     </body>

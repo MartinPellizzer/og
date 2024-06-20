@@ -376,3 +376,4 @@ def features_0001(theme='holy', swap=False):
 
 
 contents = [content_0001, content_0002, content_0003]
+features = [features_0001]
