@@ -3,7 +3,10 @@ import requests
 
 import lorem
 
+import g
 import util
+
+
 
 
 #############################################################################
@@ -28,18 +31,29 @@ def unsplash_random():
         util.file_append(filepath, f'{image_url}\n')
     except:
         image_url = random.choice(util.file_read(filepath).split('\n')[:-1])
+        print(image_url)
 
 
     return image_url
 
 
+def color_scheme(theme):
+    background_color = ''
+    color = ''
+    if theme == 'holy':
+        background_color = 'bg-holy'
+        color = 'text-dark'
+    elif theme == 'dark':
+        background_color = 'bg-dark'
+        color = 'text-holy'
 
-#############################################################################
-# COMPONENTS
-#############################################################################
+    return color, background_color
 
-def block_title(title, size, color, mb=0):
-    return f'<h1 class="{size} {color} mb-{mb}">{title}</h1>'
+
+
+
+def block_title(title, size, color, mb):
+    return f'<h1 class="{size} {color} {mb}">{title}</h1>'
     
 
 def block_sentence():
@@ -52,22 +66,22 @@ def block_sentence():
 #     return f'<p>{p}</p>'
 
 
-def block_lorem(length, size, color, mb=0):
+def block_lorem(length, size, color, align, mb):
     if length == 0: t = lorem.text()
     else: t = (' '.join(lorem.text().split(' ')[:length]) + '.').replace('..', '.')
-    return f'<p class="{size} {color} mb-{mb}">{t}</p>'
+    return f'<p class="{size} {color} {align} {mb}">{t}</p>'
 
 
-def block_text(text, color, mb=0):
-    return f'<p class="text-18 {color} mb-{mb}">{text}</p>'
+def block_text(text, size, color, mb):
+    return f'<p class="{size} {color} {mb}">{text}</p>'
 
 
 def block_paragraph(text, size, weight, color, mb):
     return f'<p class="{size} {weight} {color} {mb}">{text}</p>'
 
     
-def block_link(color):
-    return f'<a class="text-16 no-underline {color} font-bold" href="">Action link ></a>'
+def block_link(text, size, weight, color, transform):
+    return f'<a class="{size} no-underline {color} {weight} {transform}" href="">{text}</a>'
 
 
 def block_image(height):
@@ -102,28 +116,85 @@ def block_icon(width, mb):
     '''
 
 
+#############################################################################
+# COMPONENTS
+#############################################################################
+
+def title_primary(text, align, color):
+    return f'<h1 class="text-64 {align} {color} mb-24">{text}</h1>'
+
+
+def title_secondary(text, align, color):
+    return f'<h2 class="text-48 {align} {color} mb-24">{text}</h2>'
+
+
+def title_tertiary(text, align, color):
+    return f'<h3 class="text-24 {align} {color} mb-24">{text}</h3>'
+
+
+def link_primary(text, color):
+    return block_link(text, 'text-16', 'font-bold', color, transform='')
+
+
+def link_secondary(text, color):
+    return block_link(text, 'text-14', 'font-normal', color, transform='uppercase')
+
+
+
 
 #############################################################################
 # LAYOUTS
 #############################################################################
 
 
+def menu_0001(theme, swap=True):
+    color, background_color = color_scheme(theme)
 
-def hero_0001(theme=''):
-    color = ''
-    if theme == '':
-        color = 'text-neutral-900'
+    if swap: swap='flex-row-reverse'
+    else: swap = ''
 
-    h1 = block_title('Medium length display headline', size='text-64', color=color, mb=24)
-    p = block_lorem(24, size='text-18', color=color, mb=48)
+    logo = link_secondary('Ozonogroup', color)
+    link_1 = link_secondary('Ozono', color)
+    link_2 = link_secondary('Proditti', color)
+    link_3 = link_secondary('Servizi', color)
+    link_4 = link_secondary('Contatti', color)
+
+    html = f'''
+        <section class="py-24 {background_color}">
+            <div class="container-xl flex justify-between items-center gap-96 {swap}">
+                {logo}
+                <nav class="flex gap-16">
+                    {link_1}
+                    {link_2}
+                    {link_3}
+                    {link_4}
+                </nav>
+            </div>
+        </section>
+    '''
+
+    return html
+
+
+def hero_0001(theme, swap=True):
+    color, background_color = color_scheme(theme)
+
+    if swap: swap='flex-row-reverse'
+    else: swap = ''
+
+    title = random.choice(util.file_read(f'content/homepage/hero-title.txt').split('\n')[:-1]).strip()
+    desc = util.file_read(f'content/homepage/hero-desc.txt').strip()
+
+    title = title_primary(title, align='', color=color)
+    p = block_text(desc, g.PARAGRAPH_SIZE, color, mb='mb-48')
     img = block_image_random(480)
-    link = block_link(color)
+    link = link_primary('Action Link >', color)
     
     html = f'''
-        <section class="py-96">
-            <div class="container-xl flex items-center gap-96">
+        <section class="py-96 {background_color}">
+            <div class="container-xl flex items-center gap-96 {swap}">
                 <div class="flex-1">
-                    {h1}
+                    {title}
                     {p}
                     {link}
                 </div>
@@ -137,28 +208,18 @@ def hero_0001(theme=''):
     return html
 
 
-def cta_0001(theme=''):
-    background_color = ''
-    color = ''
-    if theme == '':
-        background_color = ''
-        color = 'text-neutral-900'
-    elif theme == 'holy':
-        background_color = 'bg-neutral-100'
-        color = 'text-neutral-900'
-    elif theme == 'dark':
-        background_color = 'bg-neutral-900'
-        color = 'text-neutral-100'
+def cta_0001(theme):
+    color, background_color = color_scheme(theme)
 
-    p = block_text('Tagline', color, mb=24)
-    h1 = block_title('Long headline to turn your visitors into users', size='text-64', color=color, mb=24)
-    link = block_link(color)
+    p = block_text('Tagline', g.PARAGRAPH_SIZE, color, 'mb-24')
+    title = title_primary('Long headline to turn your visitors into users', align='', color=color)
+    link = link_primary('Action Link >', color)
     
     html = f'''
         <section class="py-96 {background_color}">
             <div class="container-md text-center">
                 {p}
-                {h1}
+                {title}
                 {link}
             </div>
         </section>
@@ -166,25 +227,15 @@ def cta_0001(theme=''):
 
     return html
 
-    
-def content_0001(theme='', swap=True):
-    background_color = ''
-    color = ''
-    if theme == '':
-        background_color = ''
-        color = 'text-neutral-900'
-    elif theme == 'holy':
-        background_color = 'bg-neutral-100'
-        color = 'text-neutral-900'
-    elif theme == 'dark':
-        background_color = 'bg-neutral-900'
-        color = 'text-neutral-100'
+
+def content_0001(theme, swap=True):
+    color, background_color = color_scheme(theme)
 
     if swap: swap='flex-row-reverse'
     else: swap = ''
 
-    title = block_title('Medium length headline', size='text-24', color=color, mb=24)
-    paragraph = block_lorem(32, size='text-18', color=color, mb=24)
+    title = title_tertiary('Medium length headline', align='', color=color)
+    paragraph = block_lorem(32, size='text-18', color=color, align='', mb='mb-24')
     list_unordered = block_list_unordered(color=color)
     img = block_image_random(480)
     
@@ -206,34 +257,23 @@ def content_0001(theme='', swap=True):
     return html
     
 
-def content_0002(theme='', swap=True):
-    background_color = ''
-    color = ''
-
-    if theme == '':
-        background_color = ''
-        color = 'text-neutral-900'
-    elif theme == 'holy':
-        background_color = 'bg-neutral-100'
-        color = 'text-neutral-900'
-    elif theme == 'dark':
-        background_color = 'bg-neutral-900'
-        color = 'text-neutral-100'
+def content_0002(theme, swap=True):
+    color, background_color = color_scheme(theme)
 
     if swap: swap='flex-row-reverse'
     else: swap = ''
 
-    title = block_title('Medium length headline', size='text-24', color=color, mb=24)
-    paragraph = block_lorem(32, size='text-18', color=color, mb=24)
+    title = title_tertiary('Medium length headline', align='', color=color)
+    paragraph = block_lorem(32, size='text-18', color=color, align='', mb='mb-24')
     img = block_image_random(480)
 
     big_number_1 = block_paragraph('32', size='text-64', weight='font-normal', color=color, mb='mb-0')
     big_number_desc_1 = block_paragraph('GB', size='text-18', weight='font-bold', color=color, mb='mb-0')
-    paragraph_small_1 = block_lorem(6, size='text-18', color=color, mb=0)
+    paragraph_small_1 = block_lorem(6, size='text-18', color=color, align='', mb='mb-24')
 
     big_number_2 = block_paragraph('2.6', size='text-64', weight='font-normal', color=color, mb='mb-0')
     big_number_desc_2 = block_paragraph('Milion', size='text-18', weight='font-bold', color=color, mb='mb-0')
-    paragraph_small_2 = block_lorem(6, size='text-18', color=color, mb=0)
+    paragraph_small_2 = block_lorem(6, size='text-18', color=color, align='', mb='mb-24')
     
     html = f'''
         <section class="py-96 {background_color}">
@@ -268,25 +308,14 @@ def content_0002(theme='', swap=True):
     return html
 
 
-def content_0003(theme='', swap=True):
-    background_color = ''
-    color = ''
-
-    if theme == '':
-        background_color = ''
-        color = 'text-neutral-900'
-    elif theme == 'holy':
-        background_color = 'bg-neutral-100'
-        color = 'text-neutral-900'
-    elif theme == 'dark':
-        background_color = 'bg-neutral-900'
-        color = 'text-neutral-100'
+def content_0003(theme, swap=True):
+    color, background_color = color_scheme(theme)
 
     if swap: swap='flex-row-reverse'
     else: swap = ''
 
-    title = block_title('Medium length headline', size='text-24', color=color, mb=24)
-    paragraph = block_lorem(64, size='text-18', color=color, mb=24)
+    title = title_tertiary('Medium length headline', align='', color=color)
+    paragraph = block_lorem(64, size='text-18', color=color, align='', mb='mb-24')
     img = block_image_random(480)
     icon = block_icon(width='w-48', mb='mb-16')
 
@@ -294,12 +323,48 @@ def content_0003(theme='', swap=True):
         <section class="py-96 {background_color}">
             <div class="container-xl flex items-center gap-96 {swap}">
                 <div class="flex-1"> 
-                    
+                    {icon}
                     {title}
                     {paragraph}
                 </div>
                 <div class="flex-1">
                     {img}
+                </div>
+            </div>
+        </section>
+    '''
+
+    return html
+
+
+def features_0001(theme='holy', swap=False):
+    color, background_color = color_scheme(theme)
+
+    if swap: swap='flex-row-reverse'
+    else: swap = ''
+
+    title_1 = title_tertiary('Feature One', align='text-center', color=color)
+    title_2 = title_tertiary('Feature ', align='text-center', color=color)
+    desc_1 = block_lorem(24, size='text-18', color=color, align='text-center', mb='mb-24')
+    desc_2 = block_lorem(24, size='text-18', color=color, align='text-center', mb='mb-24')
+    img = block_image_random(480)
+
+    icons = util.file_read('assets/icons/hero.txt').split('\n')[:-1]
+    icon_1 = icons[0].replace('<svg', '<svg class="w-48 mb-16"')
+    icon_2 = icons[1].replace('<svg', '<svg class="w-48 mb-16"')
+
+    html = f'''
+        <section class="py-96 {background_color}">
+            <div class="container-xl flex items-center gap-96 {swap}">
+                <div class="flex-1 text-center"> 
+                    {icon_1}
+                    {title_1}
+                    {desc_1}
+                </div>
+                <div class="flex-1 text-center">
+                    {icon_2}
+                    {title_2}
+                    {desc_2}
                 </div>
             </div>
         </section>

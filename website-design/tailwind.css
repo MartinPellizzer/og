@@ -32,6 +32,10 @@
     flex-direction: row-reverse;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
 .items-center {
     align-items: center;
 }
@@ -56,6 +60,14 @@
     gap: 4.8rem;
 }
 
+.gap-24 {
+    gap: 2.4rem;
+}
+
+.gap-16 {
+    gap: 1.6rem;
+}
+
 .gap-8 {
     gap: 0.8rem;
 }
@@ -63,6 +75,11 @@
 .py-96 {
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
+}
+
+.py-24 {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
 }
 
 .text-96 {
@@ -98,6 +115,11 @@
 .text-16 {
     font-size: 1.6rem;
     line-height: 2.4rem;
+}
+
+.text-14 {
+    font-size: 1.4rem;
+    line-height: 2.0rem;
 }
 
 .mb-48 {
@@ -148,6 +170,22 @@
     text-align: center;
 }
 
+.bg-dark {
+    background-color: #000000;
+}
+
+.bg-holy {
+    background-color: #ffffff;
+}
+
+.text-dark {
+    color: #000000;
+}
+
+.text-holy {
+    color: #ffffff;
+}
+
 .bg-neutral-100 {
     background-color: #f5f5f5;
 }
@@ -170,4 +208,9 @@
 
 .w-48 {
     width: 4.8rem;
+}
+
+
+.uppercase {
+    text-transform: uppercase;
 }

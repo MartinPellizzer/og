@@ -34,7 +34,7 @@ def unsplash_image_get(tag):
 
 def ai_website_outline():
     content = ''
-    filepath = 'content/outline.html'
+    filepath = 'content/outline.txt'
 
     if os.path.exists(filepath):
         with open(filepath) as f:
@@ -54,7 +54,7 @@ def ai_website_outline():
 
 def ai_page_home_outline():
     content = ''
-    filepath = 'content/page_home.html'
+    filepath = 'content/page_home.txt'
 
     if os.path.exists(filepath):
         with open(filepath) as f:
@@ -74,7 +74,7 @@ def ai_page_home_outline():
 
 def ai_page_home_hero():
     content = ''
-    filepath = 'content/page_home_hero.html'
+    filepath = 'content/page_home_hero.txt'
 
     if os.path.exists(filepath):
         with open(filepath) as f:
@@ -99,21 +99,59 @@ ai_page_home_outline()
 
 
 
-hero = layout.hero_0001()
-cta = layout.cta_0001(theme='dark')
+filepath = f'content/homepage/hero-title.txt'
+util.file_append(filepath, '')
+content = util.file_read(filepath)
+if content.strip() == '':
+    prompt = f'''
+        Write me a numbered list of 10 titles for a homepage about ozone sanitization.
+        The topic is: Engaging headline highlighting the benefits of ozone generation for sanitization.
+        Write just the titles, don't add descriptions.
+        Write the titles in 5 words or less.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    util.file_write(filepath, reply)
 
-random_theme = random.choice(['', 'holy', 'dark'])
+    
+filepath = f'content/homepage/hero-desc.txt'
+util.file_append(filepath, '')
+content = util.file_read(filepath)
+if content.strip() == '':
+    prompt = f'''
+        Write me a short descriptive paragraph for a homepage about ozone sanitization.
+        The topic is: Brief overview of your brand and its mission
+        Write just the description, don't add other content.
+        Write the description in 32 words or less.
+    '''
+    reply = util_ai.gen_reply(prompt)
+    util.file_write(filepath, reply)
+
+
+random_theme = random.choice(['holy', 'dark'])
+random_swap = random.choice([True, False])
+menu = layout.menu_0001(random_theme, random_swap)
+
+random_theme = random.choice(['holy', 'dark'])
+random_swap = random.choice([True, False])
+hero = layout.hero_0001(random_theme)
+
+random_theme = random.choice(['holy', 'dark'])
+cta = layout.cta_0001(random_theme)
+
+random_theme = random.choice(['holy', 'dark'])
 random_swap = random.choice([True, False])
 content_1 = layout.content_0001(random_theme, random_swap)
 
-random_theme = random.choice(['', 'holy', 'dark'])
+random_theme = random.choice(['holy', 'dark'])
 random_swap = random.choice([True, False])
 content_2 = layout.content_0002(random_theme, random_swap)
 
 # content_3 = layout.content_0003(theme='', swap=False)
 
+features_1 = layout.features_0001(theme='holy', swap=False)
+
 for i in range(3):
-    random_theme = random.choice(['', 'holy', 'dark'])
+    random_theme = random.choice(['holy', 'dark'])
     random_swap = random.choice([True, False])
     random_func = random.choice(layout.functions)
     content_3 = random_func(random_theme, random_swap)
@@ -132,11 +170,13 @@ html = f'''
         <header></header>
         
         <main>
+            {menu}
             {hero}
             {cta}
             {content_1}
             {content_2}
             {content_3}
+            {features_1}
         </main>
         <footer></footer>
     </body>
