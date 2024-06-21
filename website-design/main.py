@@ -127,13 +127,18 @@ if content.strip() == '':
     util.file_write(filepath, reply)
 
 
+
+
 random_theme = random.choice(['holy', 'dark'])
 random_swap = random.choice([True, False])
 menu = layout.menu_0001(random_theme, random_swap)
 
-random_theme = random.choice(['holy', 'dark'])
-random_swap = random.choice([True, False])
-hero = layout.hero_0001(random_theme)
+
+hero = layout.hero_extra_0001(title='', desc='', cta='', img='', theme='holy', swap=False)
+
+# random_theme = random.choice(['holy', 'dark'])
+# random_swap = random.choice([True, False])
+# hero = layout.hero_0001(random_theme)
 
 random_theme = random.choice(['holy', 'dark'])
 cta = layout.cta_0001(random_theme)
@@ -146,15 +151,16 @@ for i in range(3):
     contents_html.append(random_func(random_theme, random_swap))
 
 features_html = []
-for i in range(1):
+for i in range(2):
     random_theme = random.choice(['holy', 'dark'])
     random_swap = random.choice([True, False])
-    random_func = random.choice(layout.features)
-    features_html.append(random_func(random_theme, random_swap))
+    # random_func = random.choice(layout.features)
+    func = layout.features[i]
+    features_html.append(func(random_theme, random_swap))
 
+features_html = ''.join(features_html)
 
-
-block_curr = layout.features_0001(theme='holy', swap=False)
+block_curr = layout.footer_0001(theme='holy', swap=False)
 
 
 html = f'''
@@ -179,7 +185,7 @@ html = f'''
             {contents_html[1]}
             {contents_html[2]}
 
-            {features_html[0]}
+            {features_html}
 
             {block_curr}
         </main>

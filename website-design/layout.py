@@ -92,9 +92,9 @@ def block_image(height):
     return f'<img class="object-cover" src="{url}" alt="" height={height}>'
 
 
-def block_image_random(height):
+def block_image_random(height, mb):
     url = unsplash_random()
-    return f'<img class="object-cover" src="{url}" alt="" height={height}>'
+    return f'<img class="object-cover {mb}" src="{url}" alt="" height={height}>'
 
 
 def block_list_unordered(color):
@@ -187,7 +187,7 @@ def hero_0001(theme, swap=True):
 
     title = title_primary(title, align='', color=color)
     p = block_text(desc, g.PARAGRAPH_SIZE, color, mb='mb-48')
-    img = block_image_random(480)
+    img = block_image_random(480, mb='mb-0')
     link = link_primary('Action Link >', color)
     
     html = f'''
@@ -237,7 +237,7 @@ def content_0001(theme, swap=True):
     title = title_tertiary('Medium length headline', align='', color=color)
     paragraph = block_lorem(32, size='text-18', color=color, align='', mb='mb-24')
     list_unordered = block_list_unordered(color=color)
-    img = block_image_random(480)
+    img = block_image_random(480, mb='mb-0')
     
     html = f'''
         <section class="py-96 {background_color}">
@@ -265,7 +265,7 @@ def content_0002(theme, swap=True):
 
     title = title_tertiary('Medium length headline', align='', color=color)
     paragraph = block_lorem(32, size='text-18', color=color, align='', mb='mb-24')
-    img = block_image_random(480)
+    img = block_image_random(480, mb='mb-0')
 
     big_number_1 = block_paragraph('32', size='text-64', weight='font-normal', color=color, mb='mb-0')
     big_number_desc_1 = block_paragraph('GB', size='text-18', weight='font-bold', color=color, mb='mb-0')
@@ -316,7 +316,7 @@ def content_0003(theme, swap=True):
 
     title = title_tertiary('Medium length headline', align='', color=color)
     paragraph = block_lorem(64, size='text-18', color=color, align='', mb='mb-24')
-    img = block_image_random(480)
+    img = block_image_random(480, mb='mb-0')
     icon = block_icon(width='w-48', mb='mb-16')
 
     html = f'''
@@ -347,7 +347,7 @@ def features_0001(theme='holy', swap=False):
     title_2 = title_tertiary('Feature ', align='text-center', color=color)
     desc_1 = block_lorem(24, size='text-18', color=color, align='text-center', mb='mb-24')
     desc_2 = block_lorem(24, size='text-18', color=color, align='text-center', mb='mb-24')
-    img = block_image_random(480)
+    img = block_image_random(480, mb='mb-0')
 
     icons = util.file_read('assets/icons/hero.txt').split('\n')[:-1]
     icon_1 = icons[0].replace('<svg', '<svg class="w-48 mb-16"')
@@ -373,7 +373,109 @@ def features_0001(theme='holy', swap=False):
     return html
 
 
+def features_0008(theme='holy', swap=False):
+    color, background_color = color_scheme(theme)
 
+    img_h = 240
+    desc_word_num = 16
+
+    img_1 = block_image_random(img_h, mb='mb-24')
+    title_1 = title_tertiary('Medium length headline', align='text-left', color=color)
+    desc_1 = block_lorem(desc_word_num, size='text-18', color=color, align='text-left', mb='mb-24')
+    link_1 = link_primary('Action Link >', color)
+
+    img_2 = block_image_random(img_h, mb='mb-24')
+    title_2 = title_tertiary('Medium length headline', align='text-left', color=color)
+    desc_2 = block_lorem(desc_word_num, size='text-18', color=color, align='text-left', mb='mb-24')
+    link_2 = link_primary('Action Link >', color)
+
+    img_3= block_image_random(img_h, mb='mb-24')
+    title_3 = title_tertiary('Medium length headline', align='text-left', color=color)
+    desc_3 = block_lorem(desc_word_num, size='text-18', color=color, align='text-left', mb='mb-24')
+    link_3 = link_primary('Action Link >', color)
+    
+
+    html = f'''
+        <section class="py-96 {background_color}">
+            <div class="container-xl flex items-center gap-96 {swap}">
+                <div class="flex-1"> 
+                    {img_1}
+                    {title_1}
+                    {desc_1}
+                    {link_1}
+                </div>
+                <div class="flex-1"> 
+                    {img_2}
+                    {title_2}
+                    {desc_2}
+                    {link_2}
+                </div>
+                <div class="flex-1"> 
+                    {img_3}
+                    {title_3}
+                    {desc_3}
+                    {link_3}
+                </div>
+            </div>
+        </section>
+    '''
+
+    return html
+
+
+def footer_0001(theme='holy', swap=False):
+    color, background_color = color_scheme(theme)
+
+    copy = block_text('&#169 Ozonogroup s.r.l. 2024 | Tutti i diritti riservati', size='text-18', color=color, mb='mb-0')
+    privacy_policy = block_text('Privacy Policy', size='text-18', color=color, mb='mb-0')
+    terms_of_service = block_text('Terms of Service', size='text-18', color=color, mb='mb-0')
+    
+
+    html = f'''
+        <section class="py-24 {background_color}">
+            <div class="container-xl flex items-center justify-between {swap}">
+                {copy}
+                <div class="flex gap-24"> 
+                    {privacy_policy}
+                    {terms_of_service}
+                </div>
+            </div>
+        </section>
+    '''
+
+    return html
+
+
+
+
+def hero_extra_0001(title='', desc='', cta='', img='', theme='holy', swap=False):
+    color, background_color = color_scheme(theme)
+
+    title = 'Sanificazione <span class="text-blue-700">Ozono</span>.<br>Veloce, Naturale, Sicura.'
+    desc = 'Elimina batteri, virus, muffe e altri patogeni da ambienti e prodotti in modo rapido ed ecologico.'
+    cta = 'Richiedi Prova Gratuita'
+
+    _title = title_primary(title, align='align-left', color=color)
+    _desc = block_text(desc, size='text-18', color=color, mb='mb-24')
+    _cta = link_primary(cta, color=color)
+    _img = f'<img class="object-cover object-bottom" src="/assets/hero-03.png" alt="" height="600">'
+
+    html = f'''
+        <section class="py-96 {background_color}">
+            <div class="container-xl flex items-center gap-96 pb-96 {swap}">
+                <div class="flex-3"> 
+                    {_title}
+                </div>
+                <div class="flex-1"> 
+                    {_desc}
+                    {_cta}
+                </div>
+            </div>
+            {_img}
+        </section>
+    '''
+
+    return html
 
 contents = [content_0001, content_0002, content_0003]
-features = [features_0001]
+features = [features_0001, features_0008]

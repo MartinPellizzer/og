@@ -28,6 +28,14 @@
     flex: 1;
 }
 
+.flex-2 {
+    flex: 2;
+}
+
+.flex-3 {
+    flex: 3;
+}
+
 .flex-row-reverse {
     flex-direction: row-reverse;
 }
@@ -74,6 +82,10 @@
 
 .py-96 {
     padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.pb-96 {
     padding-bottom: 9.6rem;
 }
 
@@ -213,4 +225,12 @@
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.text-blue-700 {
+    color: #1d4ed8;
+}
+
+.object-bottom {
+    object-position: bottom;
 }
