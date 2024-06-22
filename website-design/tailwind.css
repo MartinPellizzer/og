@@ -94,6 +94,20 @@
     padding-bottom: 2.4rem;
 }
 
+.py-8 {
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+}
+
+.p-16 {
+    padding: 1.6rem;
+}
+
+.px-16 {
+    padding-left: 1.6rem;
+    padding-right: 1.6rem;
+}
+
 .text-96 {
     font-size: 9.6rem;
     line-height: 1;
@@ -233,4 +247,32 @@
 
 .object-bottom {
     object-position: bottom;
+}
+
+.object-center {
+    object-position: center;
+}
+
+.rounded-full {
+    border-radius: 9999px;
+}
+
+.border-1 {
+    border-width: 1px;
+}
+
+.border-black {
+    border-color: rgb(0 0 0);
+}
+
+.border-solid {
+    border-style: solid;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
 }

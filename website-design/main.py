@@ -9,6 +9,7 @@ import lorem
 import util
 import util_ai
 import layout
+import components
 
 SLEEP_TIME = 30
 
@@ -26,10 +27,6 @@ def unsplash_image_get(tag):
         image_url = image['urls']['regular']
         util.file_append(filepath, f'{image_url}\n')
         print(image_url)
-
-
-# unsplash_image_get('travel')
-# unsplash_image_get('nature')
 
 
 def ai_website_outline():
@@ -93,106 +90,145 @@ def ai_page_home_hero():
 
 
 
-ai_website_outline()
-ai_page_home_outline()
-# ai_page_home_hero()
+# ai_website_outline()
+# ai_page_home_outline()
 
 
 
-filepath = f'content/homepage/hero-title.txt'
-util.file_append(filepath, '')
-content = util.file_read(filepath)
-if content.strip() == '':
-    prompt = f'''
-        Write me a numbered list of 10 titles for a homepage about ozone sanitization.
-        The topic is: Engaging headline highlighting the benefits of ozone generation for sanitization.
-        Write just the titles, don't add descriptions.
-        Write the titles in 5 words or less.
-    '''
-    reply = util_ai.gen_reply(prompt)
-    util.file_write(filepath, reply)
+# filepath = f'content/homepage/hero-title.txt'
+# util.file_append(filepath, '')
+# content = util.file_read(filepath)
+# if content.strip() == '':
+#     prompt = f'''
+#         Write me a numbered list of 10 titles for a homepage about ozone sanitization.
+#         The topic is: Engaging headline highlighting the benefits of ozone generation for sanitization.
+#         Write just the titles, don't add descriptions.
+#         Write the titles in 5 words or less.
+#     '''
+#     reply = util_ai.gen_reply(prompt)
+#     util.file_write(filepath, reply)
 
     
-filepath = f'content/homepage/hero-desc.txt'
-util.file_append(filepath, '')
-content = util.file_read(filepath)
-if content.strip() == '':
-    prompt = f'''
-        Write me a short descriptive paragraph for a homepage about ozone sanitization.
-        The topic is: Brief overview of your brand and its mission
-        Write just the description, don't add other content.
-        Write the description in 32 words or less.
-    '''
-    reply = util_ai.gen_reply(prompt)
-    util.file_write(filepath, reply)
+# filepath = f'content/homepage/hero-desc.txt'
+# util.file_append(filepath, '')
+# content = util.file_read(filepath)
+# if content.strip() == '':
+#     prompt = f'''
+#         Write me a short descriptive paragraph for a homepage about ozone sanitization.
+#         The topic is: Brief overview of your brand and its mission
+#         Write just the description, don't add other content.
+#         Write the description in 32 words or less.
+#     '''
+#     reply = util_ai.gen_reply(prompt)
+#     util.file_write(filepath, reply)
 
 
 
-
-random_theme = random.choice(['holy', 'dark'])
-random_swap = random.choice([True, False])
-menu = layout.menu_0001(random_theme, random_swap)
-
-
-hero = layout.hero_extra_0001(title='', desc='', cta='', img='', theme='holy', swap=False)
 
 # random_theme = random.choice(['holy', 'dark'])
 # random_swap = random.choice([True, False])
-# hero = layout.hero_0001(random_theme)
-
-random_theme = random.choice(['holy', 'dark'])
-cta = layout.cta_0001(random_theme)
-
-contents_html = []
-for i in range(3):
-    random_theme = random.choice(['holy', 'dark'])
-    random_swap = random.choice([True, False])
-    random_func = random.choice(layout.contents)
-    contents_html.append(random_func(random_theme, random_swap))
-
-features_html = []
-for i in range(2):
-    random_theme = random.choice(['holy', 'dark'])
-    random_swap = random.choice([True, False])
-    # random_func = random.choice(layout.features)
-    func = layout.features[i]
-    features_html.append(func(random_theme, random_swap))
-
-features_html = ''.join(features_html)
-
-block_curr = layout.footer_0001(theme='holy', swap=False)
+# menu = layout.menu_0001(random_theme, random_swap)
 
 
-html = f'''
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style-auto.css">
-        <link rel="stylesheet" href="tailwind.css">
-    </head>
-    <body>
-        <header></header>
+# hero = layout.hero_extra_0001(title='', desc='', cta='', img='', theme='holy', swap=False)
+
+# random_theme = random.choice(['holy', 'dark'])
+# cta = layout.cta_0001(random_theme)
+
+# contents_html = []
+# for i in range(3):
+#     random_theme = random.choice(['holy', 'dark'])
+#     random_swap = random.choice([True, False])
+#     random_func = random.choice(layout.contents)
+#     contents_html.append(random_func(random_theme, random_swap))
+
+# features_html = []
+# for i in range(2):
+#     random_theme = random.choice(['holy', 'dark'])
+#     random_swap = random.choice([True, False])
+#     # random_func = random.choice(layout.features)
+#     func = layout.features[i]
+#     features_html.append(func(random_theme, random_swap))
+
+# features_html = ''.join(features_html)
+
+# block_curr = layout.footer_0001(theme='holy', swap=False)
+
+
+# html = f'''
+#     <!DOCTYPE html>
+#     <html lang="en">
+#     <head>
+#         <meta charset="UTF-8">
+#         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+#         <title>Document</title>
+#         <link rel="stylesheet" href="style-auto.css">
+#         <link rel="stylesheet" href="tailwind.css">
+#     </head>
+#     <body>
+#         <header></header>
         
-        <main>
-            {menu}
-            {hero}
-            {cta}
+#         <main>
+#             {menu}
+#             {hero}
+#             {cta}
 
-            {contents_html[0]}
-            {contents_html[1]}
-            {contents_html[2]}
+#             {contents_html[0]}
+#             {contents_html[1]}
+#             {contents_html[2]}
 
-            {features_html}
+#             {features_html}
 
-            {block_curr}
-        </main>
-        <footer></footer>
-    </body>
-    </html>
-'''
+#             {block_curr}
+#         </main>
+#         <footer></footer>
+#     </body>
+#     </html>
+# '''
 
-with open('index-auto.html', 'w') as f:
-    f.write(html)
+# with open('index-auto.html', 'w') as f:
+#     f.write(html)
+
+
+
+def preview_atoms():
+    atoms = []
+
+    atoms.append(components.atom_title_primary())
+    atoms.append(components.atom_title_secondary())
+    atoms.append(components.atom_title_tertiary())
+    atoms.append(components.atom_paragraph_primary())
+    atoms.append(components.atom_link_primary())
+    atoms.append(f'<div>{components.atom_button_primary()}</div>')
+    atoms.append(components.atom_image())
+
+    atoms = '<div class="py-8"></div>'.join(atoms)
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style-auto.css">
+            <link rel="stylesheet" href="tailwind.css">
+        </head>
+        <body>
+            <header></header>
+            <main>
+                <section>
+                    <div class="container-lg">
+                        {atoms}
+                    </div>
+                </section>
+            </main>
+            <footer></footer>
+        </body>
+        </html>
+    '''
+
+    with open('preview-atoms.html', 'w') as f:
+        f.write(html)
+
+preview_atoms()
