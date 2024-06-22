@@ -191,7 +191,7 @@ def ai_page_home_hero():
 
 
 
-def preview_atoms():
+def preview_components():
     atoms = []
     atoms.append(components.atom_title_primary())
     atoms.append(components.atom_title_secondary())
@@ -202,15 +202,28 @@ def preview_atoms():
     atoms.append(components.atom_image())
     atoms = '<div class="py-8"></div>'.join(atoms)
 
-    atoms_white = []
-    atoms_white.append(components.atom_title_primary(color='text-holy'))
-    atoms_white.append(components.atom_title_secondary(color='text-holy'))
-    atoms_white.append(components.atom_title_tertiary(color='text-holy'))
-    atoms_white.append(components.atom_paragraph_primary(color='text-holy'))
-    atoms_white.append(components.atom_link_primary(color='text-holy'))
-    atoms_white.append(f'<div>{components.atom_button_primary(color='text-holy')}</div>')
-    atoms_white.append(components.atom_image(color='text-holy'))
-    atoms_white = '<div class="py-8"></div>'.join(atoms_white)
+    # atoms_dark = []
+    # atoms_dark.append(components.atom_title_primary(color='text-holy'))
+    # atoms_dark.append(components.atom_title_secondary(color='text-holy'))
+    # atoms_dark.append(components.atom_title_tertiary(color='text-holy'))
+    # atoms_dark.append(components.atom_paragraph_primary(color='text-holy'))
+    # atoms_dark.append(components.atom_link_primary(color='text-holy'))
+    # atoms_dark.append(f'<div>{components.atom_button_primary(color="text-holy")}</div>')
+    # atoms_dark.append(components.atom_image())
+    # atoms_dark = '<div class="py-8"></div>'.join(atoms_dark)
+
+    molecules = []
+    molecules.append(components.molecule_title_paragraph_link())
+    molecules.append(components.molecule_title_paragraph_button())
+    molecules = '<div class="py-48"></div>'.join(molecules)
+
+    organisms = []
+    organisms.append(components.organism_tpl_i())
+    organisms = '<div class="py-48"></div>'.join(organisms)
+
+    population = []
+    population.append(components.population_tpl_i_x3_alt())
+    population = '<div class="py-48"></div>'.join(population)
 
     html = f'''
         <!DOCTYPE html>
@@ -225,12 +238,24 @@ def preview_atoms():
         <body>
             <header></header>
             <main>
-                <section>
-                    <div class="container-lg">
+                <section class="py-192">
+                    <div class="container-xl">
                         {atoms}
                     </div>
-                    <div class="container-lg bg-dark">
-                        {atoms_white}
+                </section>
+                <section class="py-192">
+                    <div class="container-xl">
+                        {molecules}
+                    </div>
+                </section>
+                <section class="py-192">
+                    <div class="container-xl">
+                        {organisms}
+                    </div>
+                </section>
+                <section class="py-192">
+                    <div class="container-xl">
+                        {population}
                     </div>
                 </section>
             </main>
@@ -239,7 +264,49 @@ def preview_atoms():
         </html>
     '''
 
-    with open('preview-atoms.html', 'w') as f:
+    with open('preview-components.html', 'w') as f:
         f.write(html)
 
-preview_atoms()
+# preview_components()
+
+
+
+def preview_homepage():
+    populations = []
+
+    title = 'Sanificazione Ozono Veloce, Sicura, Ecologica'
+    paragraph = 'Elimina batteri, virus, muffe e altri microrganismi patogeni in modo veloce ed ecologico.'
+    button = 'Prova Gratuita'
+    image = '/assets/hero-03.png'
+    hero = components.population_t_pb_i(title, paragraph, button, image)
+    populations.append(hero)
+
+    benefits = components.population_tpl_i_x3_alt()
+    populations.append(benefits)
+    
+    populations = ''.join(populations)
+
+    html = f'''
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style-auto.css">
+            <link rel="stylesheet" href="tailwind.css">
+        </head>
+        <body>
+            <header></header>
+            <main>
+                {populations}
+            </main>
+            <footer></footer>
+        </body>
+        </html>
+    '''
+
+    with open('preview-homepage.html', 'w') as f:
+        f.write(html)
+
+preview_homepage()

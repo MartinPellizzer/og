@@ -85,6 +85,16 @@
     padding-bottom: 9.6rem;
 }
 
+.py-192 {
+    padding-top: 19.2rem;
+    padding-bottom: 19.2rem;
+}
+
+.py-48 {
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
+}
+
 .pb-96 {
     padding-bottom: 9.6rem;
 }
@@ -97,6 +107,11 @@
 .py-8 {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+}
+
+.py-4 {
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
 }
 
 .p-16 {
@@ -146,6 +161,10 @@
 .text-14 {
     font-size: 1.4rem;
     line-height: 2.0rem;
+}
+
+.mb-96 {
+    margin-bottom: 9.6rem;
 }
 
 .mb-48 {
