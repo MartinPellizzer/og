@@ -193,7 +193,6 @@ def ai_page_home_hero():
 
 def preview_atoms():
     atoms = []
-
     atoms.append(components.atom_title_primary())
     atoms.append(components.atom_title_secondary())
     atoms.append(components.atom_title_tertiary())
@@ -201,8 +200,17 @@ def preview_atoms():
     atoms.append(components.atom_link_primary())
     atoms.append(f'<div>{components.atom_button_primary()}</div>')
     atoms.append(components.atom_image())
-
     atoms = '<div class="py-8"></div>'.join(atoms)
+
+    atoms_white = []
+    atoms_white.append(components.atom_title_primary(color='text-holy'))
+    atoms_white.append(components.atom_title_secondary(color='text-holy'))
+    atoms_white.append(components.atom_title_tertiary(color='text-holy'))
+    atoms_white.append(components.atom_paragraph_primary(color='text-holy'))
+    atoms_white.append(components.atom_link_primary(color='text-holy'))
+    atoms_white.append(f'<div>{components.atom_button_primary(color='text-holy')}</div>')
+    atoms_white.append(components.atom_image(color='text-holy'))
+    atoms_white = '<div class="py-8"></div>'.join(atoms_white)
 
     html = f'''
         <!DOCTYPE html>
@@ -220,6 +228,9 @@ def preview_atoms():
                 <section>
                     <div class="container-lg">
                         {atoms}
+                    </div>
+                    <div class="container-lg bg-dark">
+                        {atoms_white}
                     </div>
                 </section>
             </main>
