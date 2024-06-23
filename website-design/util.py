@@ -1,6 +1,42 @@
 
 import requests
 import json
+import csv
+
+
+
+
+###################################
+# CSV
+###################################
+
+
+def csv_get_rows(filepath, delimiter='\\'):
+    rows = []
+    with open(filepath, encoding='utf-8', errors='ignore') as f:
+        reader = csv.reader(f, delimiter=delimiter)
+        for i, line in enumerate(reader):
+            rows.append(line)
+    return rows
+
+
+def csv_add_rows(filepath, rows, delimiter='\\'):
+    with open(filepath, 'a', encoding='utf-8', errors='ignore', newline='') as f:
+        writer = csv.writer(f, delimiter=delimiter)
+        writer.writerows(rows)
+
+
+def csv_set_rows(filepath, rows, delimiter='\\'):
+    with open(filepath, 'w', encoding='utf-8', errors='ignore', newline='') as f:
+        writer = csv.writer(f, delimiter=delimiter)
+        writer.writerows(rows)
+
+        
+def csv_get_cols(rows):
+    cols = {}
+    for i, val in enumerate(rows[0]):
+        cols[val] = i
+    return cols
 
 
 
@@ -25,6 +61,11 @@ def file_write(filepath, text):
     with open(filepath, 'w', encoding='utf-8') as f: f.write(text)
 
 
+
+
+###################################
+# 
+###################################
 
 
 def unsplash_image_get():
@@ -77,6 +118,11 @@ def img_resize(img, w, h):
     return img
 
 
+
+
+###################################
+# JSON
+###################################
 
 def json_write(filepath, data):
     with open(filepath, 'w', encoding='utf-8') as f:

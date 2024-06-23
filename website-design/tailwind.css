@@ -5,6 +5,27 @@
     padding-right: 2.4rem;
 }
 
+.container-md {
+    max-width: 76.8rem;
+}
+
+.container-half {
+    max-width: 64.0rem;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
 .container-lg {
     max-width: 99.2rem;
     margin: 0 auto;
@@ -34,6 +55,42 @@
 
 .flex-3 {
     flex: 3;
+}
+
+.flex-4 {
+    flex: 4;
+}
+
+.flex-5 {
+    flex: 5;
+}
+
+.flex-6 {
+    flex: 6;
+}
+
+.flex-7 {
+    flex: 7;
+}
+
+.flex-8 {
+    flex: 8;
+}
+
+.flex-9 {
+    flex: 9;
+}
+
+.flex-10 {
+    flex: 10;
+}
+
+.flex-11 {
+    flex: 11;
+}
+
+.flex-12 {
+    flex: 12;
 }
 
 .flex-row-reverse {
@@ -121,6 +178,10 @@
 .px-16 {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+}
+
+.pl-24 {
+    padding-left: 2.4rem;
 }
 
 .text-96 {
@@ -215,9 +276,6 @@
     text-align: center;
 }
 
-.bg-dark {
-    background-color: #000000;
-}
 
 .bg-holy {
     background-color: #ffffff;
@@ -294,4 +352,17 @@
 
 .block {
     display: block;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+
+.bg-dark {
+    background-color: #030712;
 }
