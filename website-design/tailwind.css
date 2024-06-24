@@ -109,6 +109,10 @@
     align-items: baseline;
 }
 
+.items-end {
+    align-items: flex-end;
+}
+
 .object-cover {
     object-fit: cover;
 }
@@ -154,6 +158,10 @@
 
 .pb-96 {
     padding-bottom: 9.6rem;
+}
+
+.pb-192 {
+    padding-bottom: 19.2rem;
 }
 
 .py-24 {
@@ -365,4 +373,98 @@
 
 .bg-dark {
     background-color: #030712;
+}
+
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-full {
+    height: 100%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bottom-0 {
+    bottom: 0px;
+}
+
+.top-0 {
+    top: 0px;
+}
+
+.top-100 {
+    top: 100px;
+}
+
+.left-0 {
+    left: 0px;
+}
+
+.right-0 {
+    right: 0px;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.block {
+    position: absolute;
+    background-color: #000000;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bg-holy {
+    background-color: #1d4ed8;
+}
+
+.my-192 {
+    margin-top: 19.2rem;
+    margin-bottom: 19.2rem;
+}
+
+.image-bacteria {
+    background-image: url("images/bacteria-03.jpeg");
+}
+
+.image-virus {
+    background-image: url("images/virus-03.jpeg");
+}
+
+.image-mold {
+    background-image: url("images/mold-04.jpeg");
+}
+
+.h-600 {
+    height: 60rem;
+}
+
+.pt-96 {
+    padding-top: 9.6rem;
 }
