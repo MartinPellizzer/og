@@ -22,8 +22,16 @@
     margin-left: auto;
 }
 
+.ml-96 {
+    margin-left: 9.6rem;
+}
+
 .mr-auto {
     margin-right: auto;
+}
+
+.mr-96 {
+    margin-right: 9.6rem;
 }
 
 .container-lg {
@@ -230,6 +238,10 @@
 .text-14 {
     font-size: 1.4rem;
     line-height: 2.0rem;
+}
+
+.mb-192 {
+    margin-bottom: 19.2rem;
 }
 
 .mb-96 {
