@@ -102,7 +102,13 @@ def template_0001():
 
     return html
 
-def template_content_image(bg_color='', color=''):
+def template_content_image(theme=''):
+    bg_color = ''
+    color = ''
+    if theme == 'dark':
+        bg_color = 'bg-dark'
+        color = 'text-white'
+        
     return f'''
         <div class="{bg_color}">
             <div class="container-xl flex items-center gap-96">
@@ -140,7 +146,13 @@ def template_content_image_ext(theme=''):
         </div>
     '''
 
-def template_image_content(bg_color='', color=''):
+def template_image_content(theme=''):
+    bg_color = ''
+    color = ''
+    if theme == 'dark':
+        bg_color = 'bg-dark'
+        color = 'text-white'
+
     return f'''
         <div class="{bg_color}">
             <div class="container-xl flex items-center gap-96">
@@ -162,7 +174,7 @@ def template_image_content_ext(theme=''):
     if theme == 'dark':
         bg_color = 'bg-dark'
         color = 'text-white'
-        
+
     return f'''
         <div class="{bg_color} flex items-center">
             <div class="flex-1">
