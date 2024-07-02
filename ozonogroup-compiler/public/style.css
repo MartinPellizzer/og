@@ -39,7 +39,8 @@ html {
 body {
     font-size: 1.8rem;
     /* font-family: Helvetica, Arial, sans-serif; */
-    font-family: Lato-Body;
+    /* font-family: Lato-Body; */
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -64,7 +65,6 @@ body {
 /* TAGS -------------------------------------------------------------- */
 
 h1 {
-    font-family: Lato-Bold;
     color: #0f172a;
     font-size: 6.4rem;
     line-height: 1;
@@ -207,7 +207,10 @@ nav {
 .menu li a {
     text-decoration: none;
     /* color: var(--slate-950); */
-    color: white;
+    /* color: white; */
+    color: black;
+    text-transform: uppercase;
+    font-size: 1.6rem;
 }
 
 .home .menu li a {
@@ -860,12 +863,12 @@ svg {
 
 
 .flex-2 {
-    flex: 1;
+    flex: 2;
 }
 
 
 .flex-3 {
-    flex: 1;
+    flex: 3;
 }
 
 
@@ -981,6 +984,10 @@ svg {
     padding-bottom: 9.6rem;
 }
 
+.mt-96 {
+    padding-top: 9.6rem;
+}
+
 
 
 
@@ -996,4 +1003,25 @@ svg {
 
 .text-blue-600 {
     color: #2563eb;
+}
+
+.text-blue-700 {
+    color: #1d4ed8;
+}
+
+.py-24 {
+    padding-top: 2.4rem;
+    padding-bottom: 2.4rem;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+.object-center {
+    object-position: center;
+}
+
+.font-normal {
+    font-weight: normal;
 }

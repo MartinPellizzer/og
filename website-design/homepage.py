@@ -21,10 +21,14 @@ def homepage():
     _spacer_xl = layouts_og.spacer_xl()
 
     header = layouts_og.header_0000()
-    _template_0000 = layouts_og.template_0000()
+    _template_0000 = layouts_og.template_0000(
+        title_text='Sanificazione <span class="text-blue-700">Ozono</span> Veloce, Sicura, Ecologica', 
+        paragraph_text='Sviluppiamo sistemi di sanificazione ad ozono per aziende che vogliono diventare leader nel campo della sanificazione ecologica.',
+    )
     _template_0001 = layouts_og.template_0001()
     _template_0004 = layouts_og.template_0004()
     _template_0005 = layouts_og.template_0005()
+    _template_0006 = layouts_og.template_0006()
     
 
     _footer_0000 = layouts_og.footer_0000()
@@ -63,6 +67,7 @@ def homepage():
             <main>
                 {_template_0000}
                 {_section_our_work}
+                {_template_0006}
                 {_template_0004}
                 {_template_0005}
 
@@ -129,4 +134,4 @@ def homepage():
     with open('homepage.html', 'w') as f:
         f.write(html)
 
-homepage()
+# homepage()

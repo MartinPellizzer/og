@@ -21,7 +21,12 @@ def title_big(text=None):
 
 def title_mid(text=None, color='text-black'):
     if not text: text = 'Medium length engaging title'
-    html = f'<h1 class="text-48 mb-24 {color}">{text}</h1>'
+    html = f'<h2 class="text-48 mb-24 {color}">{text}</h2>'
+    return html
+
+def title_small(text=None, color='text-black'):
+    if not text: text = 'Medium length engaging title'
+    html = f'<h3 class="text-24 mb-24 {color}">{text}</h3>'
     return html
 
     
@@ -79,14 +84,14 @@ def header_0000():
 # LAYOUTS
 #########################################################################
 
-def template_0000():
+def template_0000(title_text='', paragraph_text=''):
     html = f'''
         <div class="container-xl flex items-center gap-96 mb-48">
             <div class="flex-3">
-                {title_big('Sanificazione Ozono Veloce, Sicura, Ecologica')}
+                {title_big(title_text)}
             </div>
             <div class="flex-1">
-                {paragraph()}
+                {paragraph(paragraph_text)}
             </div>
         </div>
         <div class="bg-dark">
@@ -261,6 +266,34 @@ def template_0005():
                 </div>
                 <div class="flex-1">
                     {image(height=image_height)}
+                </div>
+            </div>
+        </section>
+    '''
+
+    return html
+
+def template_0006():
+    image_height = 400
+    html = f'''
+        <section class="pt-96 pb-192">
+            <div class="container-xl flex gap-96">
+                <div class="flex-2">
+                    {title_mid('Come capire se la sanificazione ad ozono fa per te?')}
+                </div>
+                <div class="flex-1">
+                    <div class="mb-48">
+                        <h3 class="text-24">Come capire se la sanificazione ad ozono fa per te?</h3>
+                        {paragraph()}
+                    </div>
+                    <div class="mb-48">
+                        {title_small('Come capire se la sanificazione ad ozono fa per te?')}
+                        {paragraph()}
+                    </div>
+                    <div>
+                        {title_small('Come capire se la sanificazione ad ozono fa per te?')}
+                        {paragraph()}
+                    </div>
                 </div>
             </div>
         </section>

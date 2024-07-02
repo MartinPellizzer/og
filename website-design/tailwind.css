@@ -53,6 +53,10 @@
     display: flex;
 }
 
+.flex-col {
+    flex-direction: column;
+}
+
 .flex-1 {
     flex: 1;
 }
@@ -125,6 +129,10 @@
     object-fit: cover;
 }
 
+.gap-192 {
+    gap: 19.2rem;
+}
+
 .gap-96 {
     gap: 9.6rem;
 }
@@ -172,9 +180,19 @@
     padding-bottom: 19.2rem;
 }
 
+.py-32 {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
 .py-24 {
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
+}
+
+.py-16 {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
 }
 
 .py-8 {
@@ -191,9 +209,27 @@
     padding: 1.6rem;
 }
 
+.p-24 {
+    padding: 2.4rem;
+}
+
+.p-32 {
+    padding: 3.2rem;
+}
+
 .px-16 {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
+}
+
+.px-24 {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+}
+
+.px-32 {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
 }
 
 .pl-24 {
@@ -463,14 +499,20 @@
 
 .image-bacteria {
     background-image: url("images/bacteria-03.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 .image-virus {
     background-image: url("images/virus-03.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 .image-mold {
     background-image: url("images/mold-04.jpeg");
+    background-size: cover;
+    background-position: center;
 }
 
 .h-600 {
@@ -479,4 +521,28 @@
 
 .pt-96 {
     padding-top: 9.6rem;
+}
+
+.pt-192 {
+    padding-top: 19.2rem;
+}
+
+.text-white {
+    color: white;
+}
+
+.border-white {
+    border-color: white;
+}
+
+.bg-blue-700 {
+    background-color: #1d4ed8;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-2 {
+    grid-template-columns: 1fr 1fr;
 }
