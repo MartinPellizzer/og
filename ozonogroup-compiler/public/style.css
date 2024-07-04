@@ -65,13 +65,6 @@ body {
 /* TAGS -------------------------------------------------------------- */
 
 
-h3 {
-    color: #0f172a;
-    font-size: 2.4rem;
-    line-height: 1;
-    font-weight: 700;
-    /* margin-bottom: 1.6rem; */
-}
 
 p {
     color: #334155;
@@ -133,6 +126,17 @@ img {
     border: 2px solid #fff;
     padding: 1.2rem 2.8rem;
 }
+
+
+.button-1 {
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    /* border-radius: 9999px; */
+    padding: 0.8rem 1.6rem;
+}
+
+
 
 
 .icon {
@@ -824,19 +828,19 @@ svg {
 
 
 .image-bacteria {
-    background-image: url("assets/images-static/bacteria-03.jpeg");
+    background-image: url("assets/images-static/bacteria-0000.png");
     background-size: cover;
     background-position: center;
 }
 
 .image-virus {
-    background-image: url("assets/images-static/virus-03.jpeg");
+    background-image: url("assets/images-static/virus-0000.png");
     background-size: cover;
     background-position: center;
 }
 
 .image-mold {
-    background-image: url("assets/images-static/mold-04.jpeg");
+    background-image: url("assets/images-static/mold-0000.png");
     background-size: cover;
     background-position: center;
 }
@@ -1024,6 +1028,22 @@ svg {
     padding-left: 4.8rem;
 }
 
+.pl-64 {
+    padding-left: 6.4rem;
+}
+
+.pl-80 {
+    padding-left: 8.0rem;
+}
+
+.pr-80 {
+    padding-right: 8.0rem;
+}
+
+.pr-24 {
+    padding-right: 2.4rem;
+}
+
 .px-32 {
     padding-left: 3.2rem;
     padding-right: 3.2rem;
@@ -1047,6 +1067,10 @@ svg {
 .py-96 {
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
+}
+
+.mt-48 {
+    padding-top: 4.8rem;
 }
 
 .mt-96 {
@@ -1154,4 +1178,8 @@ svg {
 
 .pr-auto {
     padding-right: auto;
+}
+
+.br-1 {
+    border-right: 1px solid black;
 }
