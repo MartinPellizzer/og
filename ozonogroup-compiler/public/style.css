@@ -1177,8 +1177,16 @@ svg {
     object-fit: cover;
 }
 
+.object-top {
+    object-position: top;
+}
+
 .object-center {
     object-position: center;
+}
+
+.object-bottom {
+    object-position: bottom;
 }
 
 .font-normal {
