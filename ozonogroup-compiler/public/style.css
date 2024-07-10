@@ -137,6 +137,15 @@ img {
 }
 
 
+.button-1-white {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    /* border-radius: 9999px; */
+    padding: 0.8rem 1.6rem;
+}
+
+
 
 
 .icon {
@@ -1295,4 +1304,8 @@ svg {
 
 .br-1 {
     border-right: 1px solid black;
+}
+
+.no-underline {
+    text-decoration-line: none;
 }
