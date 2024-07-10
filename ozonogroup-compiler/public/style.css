@@ -523,14 +523,6 @@ nav input:checked~.menu {
 
 
 
-/* FOOTER ------------------------------------------------------------ */
-.footer-section {
-    background-color: #020617;
-    padding: 1.6rem 0;
-}
-
-
-
 /* ICONS ------------------------------------------------------------ */
 svg {
     width: 24px;
@@ -911,6 +903,11 @@ svg {
 /* UTILS */
 /* ***************************************************** */
 
+.text-96 {
+    font-size: 9.6rem;
+    line-height: 1;
+}
+
 .text-64 {
     font-size: 6.4rem;
     line-height: 1;
@@ -919,6 +916,11 @@ svg {
 .text-48 {
     font-size: 4.8rem;
     line-height: 1;
+}
+
+.text-32 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
 }
 
 .text-24 {
@@ -1161,11 +1163,15 @@ svg {
 }
 
 .mt-48 {
-    padding-top: 4.8rem;
+    margin-top: 4.8rem;
 }
 
 .mt-96 {
-    padding-top: 9.6rem;
+    margin-top: 9.6rem;
+}
+
+.mt-192 {
+    margin-top: 19.2rem;
 }
 
 .uppercase {
@@ -1187,6 +1193,10 @@ svg {
 
 .text-blue-600 {
     color: #2563eb;
+}
+
+.text-black {
+    color: #000000;
 }
 
 .text-blue-700 {
