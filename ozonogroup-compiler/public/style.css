@@ -1309,3 +1309,13 @@ svg {
 .no-underline {
     text-decoration-line: none;
 }
+
+
+
+.magazine-latest {
+    width: 496px;
+}
+
+.magazine {
+    width: 248px;
+}
