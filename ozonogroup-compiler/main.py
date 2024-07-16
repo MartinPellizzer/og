@@ -1503,7 +1503,10 @@ def applications_missing_images_csv():
             print(application_images_folderpath)
 
 
+def art_ozone():
 
+
+art_ozone()
 
 art_applications()
 # sector_page()
