@@ -1,0 +1,991 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Download full issue
+Outline
+Highlights
+Abstract
+Graphical abstract
+1. Introduction
+2. Material and methods
+3. Results and discussion
+4. Conclusions
+CRediT authorship contribution statement
+Declaration of competing interest
+Acknowledgements
+Appendix A. Supplementary data
+Data availability
+References
+Show full outline
+Figures (4)
+Extras (1)
+Multimedia component 1
+Environmental Pollution
+Volume 359
+, 15 October 2024, 124542
+Effects of massive desiccation of olive waste residues on air quality
+☆
+Author links open overlay panel
+Gabriela Viteri a
+,
+Alfonso Aranda a
+,
+Yolanda Díaz de Mera a
+,
+Ana Rodríguez b
+,
+Diana Rodríguez b
+,
+Nuria Rodríguez-Fariñas b
+,
+Nicolás Valiente c
+,
+Susana Seseña b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.envpol.2024.124542
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+The treatments for olive mill waste revaluation have environmental effects.
+•
+Carboxylic acids were the VOCs with higher concentrations.
+•
+Aldehydes were the major contributors to olfactory nuisance.
+•
+Cutibacterium and Bacillus were dominant genus in the cold/warm seasons, respectively.
+•
+The most abundant elements in PM2.5 were Na, K, Al, Zn Ca, Fe and Mg.
+Abstract
+New industries are proliferating in the recovery of agri-food wastes, such as those involved in the revaluation of alperujo, generated in the production of olive oil. Despite the potential environmental benefits, their activity is not exempt from new forms of emissions, aggravated by the massification of waste treatments.
+This work reports a six-month field campaign carried out in an alperujo desiccation plant which can serve as a proxy for these emerging industries in the Mediterranean countries. The study focused on air quality parameters, covering criteria pollutants, metals and microbiological load of particulate matter and the characterization of volatile organic compounds (VOCs).
+The results show a slight contribution of the factory to the NOx levels in the surroundings (3.0–12.5 μg/m3). Statistically significant effects were not observed for ozone, CO, SO2, or PM10. Concerning the levels of metals, concentrations were low and calculated health risk indexes indicated safe conditions in the area. The most abundant elements were Na (6.5 × 102 ng/m3), K (4.0 × 102 ng/m3), Al (2.7 × 102 ng/m3), Zn (2.1 × 102 ng/m3), Ca (2.16 × 102 ng/m3), Fe (3.6 × 101 ng/m3) and Mg (3.2 × 101 ng/m3).
+Bacterial counts, with a mean value of 15.9 CFU/m3, showed a seasonal shift, mainly explained by weather (air moisture and temperature) and PM2.5 concentration. The genomic analysis showed Cutibacterium as the dominant genus during the cold months while Bacillus predominated in the warm season.
+The VOCs with higher average concentrations were acetic acid (130 μg/m3), nonanoic acid (124 μg/m3), benzoic acid (29.7 μg/m3), octanoic acid (19.9 μg/m3) and nonanal (4.70 μg/m3), with the rest of compounds in concentrations below 4 μg/m3. Odorant pollutants with the greatest contribution to olfactory nuisance were aldehydes (from pentanaldehyde to decanaldehyde), acetic acid and phenol.
+Although the observable effects of the waste treatments were low, several parameters showed an influence on the environment which should be assessed to foresee and prevent long-term consequences.
+Graphical abstract
+Download: Download high-res image (587KB)
+Download: Download full-size image
+Alperujo pond and desiccation chimney plume dispersion
+Previous article in issue
+Next article in issue
+1. Introduction
+Olive oil production has tripled in the last 60 years, reaching 3266500 t in the 2019/20 crop year (
+IOC, 2024
+). Most of the cultivated area, around 97%, is found in Mediterranean countries, with Spain being the world's leading producer. Nevertheless, despite the culinary, social, or economic benefits of olive oil industry, environmental concerns have to be considered since residues or wastes have increased parallelly to production. Thus, olive mill wastes (OMW) are the main residues in the extraction of olive oil, amounting around 80% of the initial olives mass w/w, (
+Hernández et al., 2014
+). Additionally, water is required during the extraction and contributes to the final residues.
+Currently, most olive mills have installed the known as “two phases” extraction procedure which generates olive oil, and alperujo as OMW. Despite its natural origin, alperujo cannot be directly used as soil fertilizer due to its fitotoxic effects. (
+Martın et al., 2002
+;
+Leontopoulos et al., 2020
+;
+Bouhia et al., 2023
+). Alperujo is generally stored in large open-air ponds and due to its high acidity, antimicrobial activity and fitotoxicity, it is hardly degraded biologically (
+Abbattista et al., 2021
+). Thus, this OMW may constitute a significant problem for the sustainability of the olive trees cultivation and olive oil industry if it can't be eliminated or exploited for further applications.
+Due to its composition, alperujo can potentially be used to produce pomace olive oil, biodiesel fuels, pellets for combustion, compost, food, non-hazardous organic phytochemicals, etc. (
+Hernández et al., 2018
+;
+Leontopoulos et al., 2020
+;
+Foti et al., 2022
+;
+Bouhia et al., 2023
+). Nevertheless, for most applications, the large water content of alperujo, 60–70%, must be previously reduced to levels below 10%. In the past most olive mills had evaporation ponds, or olive wastes were directly dumped into the environment. Recently, due to the environmental restrictions and the emerging possibilities to valorize and use olive residues, different industries have appeared, such as alperujo desiccation plants, that can be considered as a necessary tool in the establishment of a Circular Economy. However, there are different environmental aspects that must be evaluated. For example, these drying plants agglutinate the storage and management of alperujo from different production areas and mills. And it is this massive concentration of OMW and its treatment that can constitute a significant pollution source for soil, water, and air in the vicinity of the industry. Therefore, it is necessary to assess the environmental and health effects in the surroundings of these agri-food waste operation plants. Although there are numerous studies about the composition and potential uses of alperujo, there are still very few studies regarding the effect on air quality in the regions that massively concentrate the storage and treatment of this waste (
+Nasini et al., 2016
+;
+Hernández et al., 2018
+).
+Apart from the direct emissions from the storage ponds, an additional atmospheric source of VOCs is the thermal treatment of alperujo. In the desiccation ovens, vaporization of volatile compounds or even the decomposition or transformation of the most unstable ones occurs. Thus, together with water vapor, particulate matter (PM), condensable products, SO2, NOx, benzene, xylenes, chlorobenzenes, furans, alcohols, and other VOCs may be emitted (
+Fagernäs et al., 2010
+). Additionally, the emission of odorous compounds (
+Ruiz-Méndez et al., 2013
+) generally induce and triggers complaints from the surrounding populations.
+Previous studies show that the presence of high concentrations of phenolic compounds in OMW has negative effects on insects, fungi, bacteria, and plants (
+Babić et al., 2019
+;
+Bailón-Salas et al., 2021
+), and can act as a strong “natural” chemosterilant (
+Di Ilio and Cristofaro, 2020
+). In fact, OMW has applications in the field of pest control, against bacterial, fungal phytopathogens, insects and weed species (
+El-Abbassi et al., 2017
+;
+Leontopoulos et al., 2020
+;
+Bailón-Salas et al., 2021
+). Nevertheless, it is not yet known if undesired emissions of phenolic compounds from large evaporation ponds can have an effect on the flora, fauna and crops in the surrounding areas, especially if natural protected areas are close.
+This study is aimed to the assessment of the potential effects of massive treatment of OMW on air quality parameters. In this sense, this work reports a six month campaign of field measurements in an industrial facility designed for the storage, desiccation and use of OMW from many cooperatives and private mills. The study assesses the temporal evolution of different air quality parameters such as criteria pollutants, a wide set of VOCs, PM, metals, fungi and bacteria. The results from this study may serve as reference for similar olive oil industries in the Mediterranean countries in the assessment of the environmental impact of revalorization treatments of alperujo on the surroundings.
+2. Material and methods
+2.1. Measurement site
+The studied industry agglutinates six cooperatives in the North of Ciudad Real Province (in south-central Spain) and 7500 members with an olive production of around 4.0 × 104 tons/year, mainly aimed at the production of olive oil. In addition, the desiccation plant collects alperujo from oil mills of other towns, having a maximum treatment capacity of 600 tons/day. The alperujo drying process is centralized in a single plant (39°09′1.46"N 3°52′25.72"W) placed in a rural location approximately at 3 km southwest of Malagón, 6 km from “Las Navas” Nature Reserve and about 15 km from Las “Tablas de Daimiel” National Park (PNTD), also declared as UNESCO biosphere reserve (
+Fig. S1
+).
+As for the nearby town, Malagón with 7842 inhabitants (2022 census), it has a basically agricultural economy, mainly based on barley, vineyards, and olive trees. Olive oil, cheese and wine industries are also significant. The region is characterized by hot dry summers with maximum temperatures around 40 °C in summer and humid cold winters, with minimum temperatures around -5 °C. Two different landscapes are present, the flat high plateau of “La Mancha” with altitude ranging from 600 to 700m, in the East, and a hill chain in the North and West (“Montes de Toledo-Sierra de Malagón”) with peaks around 1000m. The desiccating plant is close (at 100m distance) to the N401 national road that connects Ciudad Real (25 km to the South) with Toledo (90 km to the North).
+The industrial process begins with the transport by road of the alperujo produced in different oil mills during December and January. This vegetal waste is stored in large pools (
+Fig. S1b
+) and the desiccation campaign proceeds for months until all the alperujo has been removed. A constant flow of alperujo is partially dehydrated by using centrifugal decanters which also extract olive stones. Subsequently (
+Gomez-de la Cruz et al., 2017
+), a drying phase occurs heating by means of a trommel-type evaporator which reduces the humidity to 10% or below, leading to a dry solid fat pomace as the final product. This pomace may be treated in extractor factories that obtain pomace olive oil using solvents and generate a de-oiled pomace as a by-product which is useful as biofuel. In fact, this defatted solid waste is used in the study desiccation plant as the main fuel for all its processes, thus reducing waste to a minimum, in line with the circular economy production and consumption model. Furthermore, olive stone residues may be converted to pellets or directly sold as solid fuel for industrial or domestic heating.
+Thus, in the plant there are pools of alperujo and water from the decanters, and mounds of olive stones, solid fat and defatted pomace. The main emissions from the plant are the visible plume from the 22m high, 1.9m diameter chimney and the evaporation from the pools,
+Fig. S1
+. The desiccation plant is intended to operate continuously and under ideal conditions all the stored alperujo is usually processed before summer. Nevertheless, during the study campaign several breakdowns and a long transport strike forced the shutdown of the plant on many dates.
+2.2. Field measurements
+The gas analyzers used to measure NOx, ozone, CO and SO2 surface concentrations were T200P, T400, T300, and T100U, respectively, and have been described elsewhere (
+Viteri et al., 2023
+). They were installed inside a cabin with thermal regulation to preserve them from the rain and from the ambient temperature changes to keep the sampling manifold at 22 ± 2 °C. PM10, was measured by the β-ray absorption method with a Met One instrument, BAM 1022, with a heated inlet to dry the aerosol samples. All the analyzers were placed at 50 m from the evaporator and 150 m from the alperujo ponds.
+Fig. S1
+.
+VOCs were measured by sampling air with an automated programmable sampler, Markes MTS-32. It enables the placement of up to 32 sorbing tubes which were sequentially open at a constant flow rate for the assigned time period and then closed until the last sample was collected. Multi-bed tubes (Tenax TA/Carbograph 1TD/Carboxen 1003), from Markes, designed to fix VOCs in the range C3 to C30, were used. For each tube the sampling time was 6 h in the range times 0:00–06:00, 06:00–12:00, 12:00–18:00 and 18:00–0:00, for a total air volume set at 9–10L. The tubes were then analyzed in the laboratory through thermal desorption (TD-30R Shimadzu), and subsequent GC-MS analysis under conventional MS or MS-MS procedures with a triple quadrupole mass spectrometer, GC–MS TQ804, Shimadzu.
+For the assessment of metals, fungi and bacteria in air aerosols, air samples were collected through 47 mm fiberglass filters (Whatman) using a PM2.5 analyzer, Derenda LVS3.1 (2.3 m3/h). Each filter was placed to trap the particulate matter in the air pumped along a whole week. Finally, the filters were weighted and cut to separately analyze metals and microbiological loads.
+To measure the load of metals, a quarter of the sampling filter was digested as stated by the UNE-EN 14902:2006 (
+Viteri et al., 2024
+). The same procedure was followed for blank filters. For calibration, solutions from commercial certified stocks standards with 1 g/L (Inorganic Ventures (USA)) were prepared for each element (Na, Al, K, Ca, Fe, Zn, Ni, As, Cd, Pb, Cr, Co, Mn, Cu, Mg, Hg and Se) and the quantification of the samples was carried out by ICP-MS (iCap-TQ (Thermo Electron Corporation).
+The statistical analysis of data was carried out using SPSS (IBM SPSS Statistics 28). To assess normally and not normally distributed variables, ANOVA with Tukey post hoc tests and Kruskal-Wallis tests were carried out and, to infer relationships between variables, the Spearman's rank correlation test was used with 0.05 p-value as significance limit.
+2.3. Microbial analysis
+Half of the glass fiber filters with PM2.5 samples were bathed in 10 mL of sterile saline solution (9 g/L NaCl) with glass beads and shaken for 24 h (600 rpm). Aliquots were spread-plated, in duplicate, onto the surface of trypticase soy agar (TSA), supplemented with 100 ppm cycloheximide, and rose Bengal agar, supplemented with 50 ppm chloramphenicol, to count culturable bacteria and fungi in global ambient PM2.5, respectively. Incubations were performed at 30 °C for 3 days for bacteria, and at 25 °C for 5 days for fungi. The growing colonies were counted, and the mean count was calculated, expressing concentration as colony forming units per cubic meter of air (CFU/m3).
+Another quarter of the filter was used for genomic DNA extraction by means of the Dneasy PowerSoil purification kit (Qiagen, Netherlands). In order to identify bacterial communities from the DNA extracts, the V3–V4 region of the 16S rRNA gene was amplified as described before (
+Viteri et al., 2024
+). In brief, sequencing was performed using the Illumina MiSeq platform (2 x 250 bp) at Seqplexing (Valencia, Spain) using the primer set 341F and 785R (
+Klindworth et al., 2013
+). The following bioinformatics were performed in R version 4.1.0 (
+R Core TeamR., 2013
+). Adapter sequences from raw data were removed using Cutadapt (
+Martin, 2011
+). Then, paired-end reads were trimmed, denoised, dereplicated and assembled using dada2 (
+Callahan et al., 2016
+). Trimming was performed after manual inspection of quality score plots at 230 and 210 bp length, for forward and reverse reads, respectively. Reads were truncated when the quality score dropped to less than 2 (trunQ = 2). Subsequently, reads were assembled, and chimaeras removed using the ‘removeBiomeraDenova’ function in the dada2 pipeline, resulting in a final taxa table based on 116,438 reads. Taxonomic annotation was performed using the SILVA 138 database (
+Quast et al., 2012
+).
+Amplicon sequencing variants (ASVs) assigned to bacteria were imported into a phyloseq object within the phyloseq package (
+McMurdie and Holmes, 2013
+). Relative abundances and ordination plots were constructed using the package ggplot2 (
+Wickham et al., 2016
+). Correlation heatmaps were produced using the ‘cor_heatmap’ function from the microViz package (
+Barnett et al., 2021
+) to reveal associations (i.e. Pearson correlation) between environmental variables and microbial abundances (i.e. prevalence and clr-transformed abundances). Then, alpha diversity measures (i.e. observed ASV number, Shannon index, Fisher index, ACE index, and Camargo Evenness index) of bacterial communities were computed using microbiome package (
+Lahti and Shetty, 2017
+). To visually inspect the factors affecting bacterial community composition, non-metric multidimensional scaling (NMDS) was conducted using the Bray-Curtis distance based on Hellinger transformed abundance with the ‘monoMDS’ function in the vegan package (
+Oksanen, 2015
+). Distance-based canonical redundancy analysis (dbRDA) was performed using the ‘capscale’ function to identify environmental variables co-varying with bacterial beta diversity. The significance of the dbRDA model was assessed through the Monte Carlo permutational analysis (n = 1000) for both the overall model and individual factors (marginal effects) with the ‘anova.cca’ function.
+3. Results and discussion
+3.1. Nitrogen oxides, ozone, SO2 and CO
+The average values of NO, NO2 and NOx for the studied period were 1.5 ± 0.2 μg/m3, 5.3 ± 0.4 μg/m3 and 7.5 ± 0.4 μg/m3, respectively. These levels were higher than those observed in the near PNTD in a previous campaign: 0.6 ± 0.2 μg/m3, 2.5 ± 0.4 μg/m3 and 3.4 ± 0.4 μg/m3 respectively (
+Viteri et al., 2023
+). The lowest concentrations were recorded in the hottest months, June, and July, concurring with the continued interruption of the plant's activity (
+Fig. S2
+). Thus, statistically significant differences were observed between the cold season in this study (February–March) and the warm season (April–July) (p-value <0.05).
+When comparing the average concentrations measured during the periods of operation of the plant (ON) and the days of interruption of industrial activity (OFF), it was observed that, on average, the days with higher levels of NOx corresponded to the periods of activity of the desiccation plant. Thus,
+Fig. 1
+a shows periods of several consecutive days in which the plant was operating or stopped, so that the weather conditions or the different variables of both periods were similar. As observed, the increases in the NOx concentration during the operating days with respect to the days under “OFF conditions” were between 3.0 and 12.5 μg/m3 for the different periods studied.
+Download: Download high-res image (272KB)
+Download: Download full-size image
+Fig. 1. a. Average NOx concentrations during different periods with the desiccation process operating (ON) or under shutdown (OFF). b. NOx weekly average concentrations: working days (Monday-Saturday) versus Sundays.
+Given that activity from Monday to Sunday didn't usually change, If the emission from the chimney were the unique or main source of NOx in the area, a "weekend effect" shouldn't be observed. Nevertheless, when plotting the average NOx concentration for working days and Sundays for all the different weeks of the study (
+Fig. 1
+b), statistically significant drops in NOX (p-value <0.05) were observed on Sundays compared to weekdays. These results suggest a traceable contribution of nitrogen oxides from an additional source, being the traffic from the road N401, at 100m from the measuring site, the most probable. The N401 road section in Malagón has an average traffic density of 7x103 vehicles per day (
+DGCDirección General de carreteras, 2021
+).
+Furthermore, when observing the hourly profile of NO, NO2 and NOX (
+Fig. S3
+), a peak was identified early in the morning (6–7:00 UTC, approximately), coinciding with the traffic rush hour. Additionally, these profiles were similar for months when the desiccation activity was continuous during the whole day (May 2022) and for months with total shutdown (July 2022). Thus, even though NOx levels are low in the area, they are influenced by the contributions of both the emissions from the desiccation process and the traffic.
+With respect to SO2 and CO concentrations, the levels were very low and close to the detection limits of the analyzers. The average monthly SO2 concentrations ranged between 0.7 and 1.3 μg/m3, with a mean value of 1.1 ± 0.1 μg/m3, higher than that obtained previously in the PNTD (0.4 ± 0 0.1 μg/m3) (
+Viteri et al., 2023
+). For CO, the average concentration was 0.15 ± 0.02 mg/m3, with average monthly values between 0.12 and 0.17 mg/m3, similar to those observed in the PNTD (0.14 ± 0.02 mg/m3). Seasonal or weekend effects could not be observed. Nonetheless, the measurements show that the desiccation plant didn't contribute significantly to the levels of SO2 or CO in the area.
+Concerning ozone, due to a failure in the analyzer, data could be recorded only in the period April–July 2022, with an average of 79.2 ± 0.6 μg/m3 (
+Fig. S2
+,
+Fig. S4
+). For the same months in 2021, a similar average was obtained in the PNTD (77.5 ± 0.6 μg/m3).
+As observed in previous studies in the region for near natural areas such as Cabañeros National Park (
+Notario et al., 2013
+) or PNTD (
+Viteri et al., 2023
+), the ozone AOT40 values were above the established threshold for the protection of vegetation (18,000 μg/m3). During the study period ozone exceeded the threshold limit value for population in 15 days (120 μg/m3). Similar to the PNTD, the "weekend effect" was not observed. Differences between the O3 levels measured in the periods of activity and stoppage of the industrial plant were not found, either. The absolute changes of NOx and other ozone precursor within days (weekdays/weekends, operational days/shutdown) were very low in the site, which probably flattened variations in ozone production. Furthermore, O3 is a secondary pollutant with a complex chemistry in the troposphere and so linear effects from precursor emissions changes are not expected.
+3.2. Particulate matter
+The monthly averaged PM10 concentrations ranged between 11.6 and 25.2 μg/m3, with a mean of 18.7 ± 5.5 μg/m3 (
+Fig. 2
+a). In June and July, an increase in PM10 was observed compared to the previous months, with statistically significant differences between the warm and cold seasons (p-value <0.05). Comparing the PM10 concentrations with those of the rural background monitoring station of San Pablo de los Montes and the suburban station of Ciudad Real in the same period, it is observed that the levels in the desiccation plant were similar to those of the rural area (without statistically significant differences). On the other hand, the PM10 levels in the reference city (Ciudad Real) were higher, showing the effect of anthropogenic emissions. These results show that the contribution of the plant to the suspended PM in the site must be very low.
+Download: Download high-res image (333KB)
+Download: Download full-size image
+Fig. 2. a. Monthly average PM10 concentrations from the alperujo desiccation plant, San Pablo de los Montes (rural background station) and Ciudad Real (suburban station). b. Monthly average PM10 concentrations versus the number of days recorded with Saharan dust intrusions in the central area of Spain during the period from January to December 2022.
+During the study period, numerous Saharan dust intrusions occurred in the Iberian Peninsula, with an outstanding event in mid-March 2022, one of the most intense in recent decades. The average monthly levels of PM10 measured in the plant correlated with the number of Saharan intrusions,
+Fig. 2
+b, showing that the background level of the area was 8.5 μg/m3, similar to the rural station of San Pablo de los Montes. Likewise, it is confirmed that the effect of intrusions on the behavior of PM10 is very similar in the 3 sites, with the highest concentrations in Ciudad Real probably due to a greater anthropogenic contribution.
+The “weekend” and “ON and OFF” effects were not observed for PM10. All these results show that the activity in the desiccating plant or other anthropogenic actions in the surroundings do not contribute noticeably to the levels of PM10 particles.
+3.3. Metals in PM
+Along with the PM10 continuous measurements, PM2.5 samples were also collected to analyze metals and microbiological loads in particulate matter. The results showed that the total average concentration of metals was (1.8 ± 1.0) x 103 ng/m3, contributing only 5% of the PM2.5 mass. The most abundant elements were Na (6.5 × 102 ng/m3), K (4.0 × 102 ng/m3), Al (2.7 × 102 ng/m3), Zn (2.1 × 102 ng/m3), Ca (2.16 × 102 ng/m3), Fe (3.6 × 101 ng/m3) and Mg (3.2 × 101 ng/m3), which represented about 99% of the total concentration of the elements while the rest of metals were in concentrations lower than 10 ng/m3 (
+Table S1
+).
+The enrichment factor (EF) is a parameter which provides the relative mass ratio of a metal in an air sample compared to a reference geological material (
+Watson et al., 2002
+) and, so, it helps to assess the origin of given metals in air (
+Cesari et al. (2012)
+,
+EFM= (M/R)sample/(M/R)crust
+where (M/R)crust is the known mass concentration ratio in the crust of the trace element, M, and a reference metal which proceeds exclusively from natural sources, R, and (M/R)sample is the mass ratio in the sample. In this study Fe was considered as the reference element,
+Wedepohl (1995)
+.
+The results obtained for As, Cr, Mg, Al, Ca, Mn, and Co (
+Fig. S5
+) with FE values below 10 suggest a crustal origin for these elements (
+Cesari et al., 2012
+). On the other hand, an EF data between 10 and 20 was obtained for K, indicating that its origin could be mixed, both natural and anthropogenic. Finally, the FE values for Se, Na, Ni, Cu, Zn, Hg and Pb were greater than 20 and so their presence in the PM air samples could be significantly contributed by anthropogenic sources. Some of these elements (Na, K, Zn, As, Cd, Ni, Cr, Cu, Pb, Mn) have been found in wastewaters from olive mills, (
+Moraetis et al., 2011
+;
+Danellakis et al., 2011
+;
+Sanchez-Hernandez et al., 2020
+;
+Saez et al., 2021
+). On the other hand, especially in the cases of Zn, Cu and Pb, these elements are usually considered as traffic tracers (
+Qi et al., 2016
+;
+Adams and Roy, 2021
+) and so they may proceed predominantly from the traffic in the near N-401 road.
+With respect to time evolution of metals in PM2.5 samples, statistically significant differences were not found between the cold and warm months during the study period (f p-value >0.05,
+Fig. S6
+).
+To assess health effects of the exposure to metals in air particles, carcinogenic risks (CR) were calculated using the average concentrations for each metal according to the EPA procedure, from its pollutant's average daily dose of exposure and the corresponding cancer slope factor (
+EPA, 2009
+;
+Singh et al., 2016
+). Additionally, the non-carcinogenic risk was quantified using the hazard index (HI), which provides the relationship between the pollutant's average daily dose of exposure and the reference dose (
+Widiana et al., 2019
+;
+Li et al., 2022
+). The results for both parameters (CR < 10−6, HI < 1,
+Table S1
+) show negligible health risks for population in the area (
+Zhang et al., 2018
+).
+Being the studied site a rural area near protected natural reserves, the ecological risk index (ERI) was also calculated from the average concentrations and the toxicity factor of each metal (
+Hakanson, 1980
+;
+Xu et al., 2008
+). According to the classification ranges of ERI (
+Al-Shidi et al., 2021
+), for Hg, due to is high toxicity factor, the resulting ERI was 4.7x103, showing a potentially high ecological risk. On the other hand, for the rest of metals, from the ERI values (4.0 for Zn and <1 for the rest of metals,
+Table S1
+) the expected ecological impact is negligible.
+The Hg average concentration for the study period was 6.6 ng/m3, above the northern hemisphere background, 1.5 ng/m3 (
+Sprovieri et al., 2016
+). Having Hg as the target, several samples of alperujo were analyzed by ICP-MS. The study confirmed the existence of Hg, with average concentrations of 2.6 ± 0.4 ng/g for surface samples and 10.9 ± 1.2 ng/g for 30 cm depth samples. Several studies have shown that olive trees may accumulate Hg from the environment in leaves, stems and fruits (
+Higueras et al., 2016
+;
+Tabaja et al. al., 2023
+) which may justify the presence of this metal in alperujo and wastewaters. Thus, the treatment of alperujo from different and extensive crop areas in a unique location, as in the study case, could lead to the increase of air Hg levels in the site either from the direct evaporation from the ponds or from the desiccation of alperujo at high temperature.
+3.4. Microbiological load in PM
+The results of the microbial counts are presented in
+Fig. 3
+a. Bacteria and fungi associated with PM2.5 were sampled in the period between February 2022 and July 2022. However, due to contaminations of the culture media, data of bacteria counts could not be obtained in June and July nor fungi counts data in May and June.
+Download: Download high-res image (309KB)
+Download: Download full-size image
+Fig. 3. a. Bacteria and fungi counts during the study period at the alperujo drying plant. b. Relative abundance at genus level for the top 15 taxa identified monthly using the 16S rRNA gene.
+Bacterial counts in this study ranged from 12.7 to 18.1 CFU/m3 with a mean value of 15.9 ± 2.6 CFU/m3 (±SD), and fungal counts ranged from 4.4 to 39.6 CFU/m3 with an average value of 15.8 ± 16.1 CFU/m3. These levels are relatively close to those obtained previously in the PNTD, 19.8 ± 31.8 CFU/m3 and 11.6 ± 22.4 CFU/m3 for bacteria and fungi, respectively (
+Viteri et al., 2024
+). The statistical analysis of counts showed no significant differences, for both bacteria and fungi, between the cold and warm seasons (p-value >0.05). However, in the case of fungi, the high concentration in March 2022 was notable, which can be attributed to the fact that the meteorological conditions were conducive to their growth (during the March campaign, the highest RH levels were recorded along with moderate temperature values and the occurrence of precipitation). As shown in previous studies, the combination of these factors benefits the proliferation of fungal colonies (
+Pasanen et al., 1991
+;
+Talley et al., 2002
+). Furthermore, the frequent Saharan intrusions that occurred during the March sampling campaign, could have contributed to the increase of fungi since African dust transport has been described as a possible source of bioaerosols (
+Gat et al., 2021
+).
+Bacterial community composition could be obtained for all the campaigns. Thus,
+Fig. 3
+b shows the monthly variability at genus level. Cutibacterium was the dominant genus during the first months of the study (i.e., February, March and April) with an average relative abundance of (37 ± 11)%. The most abundant genus in May and June was Bacillus (61 ± 8)%, not detected during the previous months. Such differences were also observed for other abundant taxa like Staphylococcus and Corynebacterium, with average relative abundances for Feb-Mar-Apr of 9.7% and 5.1%, respectively. These were almost undetected in May and June (<0.5% relative abundance), while other genera such as Tepidiphilus (10.2%) and Paenibacillus (3.2%) were significantly more abundant in May and June, respectively.
+Members of Cutibacterium are opportunistic bacteria related to human skin or body (
+Corvec, 2018
+). In our study, these taxa showed a significant positive correlation with the moisture (r = 0.97, p-value = 0.008) (
+Fig. S7
+). Recent studies have shown that Cutibacterium taxa dominate tanks of wastewater from edible oil production, likely related to their ability to produce lipolytic enzymes (
+Welz et al., 2021
+). In this sense, certain Cutibacterium strains are able to use and remove a wide range of crude oil substrates (
+Lenchi et al., 2024
+). Bacillus correlated significantly and positively with temperature (r = 0.94, p-value = 0.016), solar radiation (r = 0.88, p-value = 0.048) and Al concentration (r = 0.89, p-value = 0.042), while correlated negatively with moisture (r = −0.92, p-value = 0.027). Olive waste have been shown as an optimal carbon source for several Bacillus strains (
+Maass et al., 2016
+;
+Ereqat et al., 2018
+). Previous studies have shown the dominant role of opportunistic Bacillus pathogens in airborne microbiota (
+Li et al., 2020
+). Staphylococcus also showed a strong positive correlation with moisture (r = 0.99, p-value = 0.002), similar trend to the one observed for Corynebacterium (r = 0.86, p-value = 0.059). Both Staphylococcus and Corynebacterium taxa are common in farm-related (
+Kozajda et al., 2019
+) and landfill environments (
+Nair, 2021
+). Tepidiphilus showed a strong positive correlation with concentrations of Zn (r = 0.99, p-value <0.001), As (r = 0.99, p-value <0.001) and Se (r = 0.95, p-value = 0.013). While few studies described Tepidiphilus taxa in airborne microbiota (
+Long et al., 2023
+), recent ones have identified them in oil reservoirs (
+Bedoya et al., 2021
+;
+Voskuhl et al., 2021
+). In summary, although previous studies have shown that OMW are effective in inhibition of bacteria (
+Tafesh et al., 2011
+), this study shows how certain bacterial genera, with strains related to oil environments, are able to dominate seasonally the airborne microbial communities.
+The ordination plots visualizing the Bray-Curtis distances showed a clear clustering between samples collected in February, March and April, and those collected in May and June, respectively (
+Fig. S8
+and S8. b). The dbRDA was conducted based on the Bray-Curtis distance to explore the significance of the relevant environmental variables in the airborne microbial communities. The dbRDA was significant for airborne bacterial community (p-value = 0.008). The explanatory variables air moisture (RH), temperature (T) and PM2.5 explained 47% of the variance in community composition, with the dbRDA1 axis (p-value = 0.008) explaining 31% of bacterial assemblage variability. The dbRDA model identified a dominant gradient related to two variables: positively to air temperature and negatively to RH, and a secondary gradient mainly determined by positive correlations with R PM2.5. These results are in line with those discussed previosly, where Cutibacterium taxa positively correlated with RH and Bacillus dominated warmer air environments (i.e. May and June samples).
+3.5. VOCs
+The VOCs samples from the Alperujo drying plant were taken from March to July 2022 and analyzed in the laboratory using TD-GC-MS analytical methods. The MS spectra were initially used to tentatively identify different species in the samples. Then, using commercial mixes (mix 8260 Restek, DM471 Scharlab) and pure compounds, up to 118 chemicals were calibrated for quantification through conventional MS or MS-MS. In this study area, 53 VOCs were confirmed,
+Table S2
+. Oxygenated organic and aromatic compounds were the groups with the greatest contribution to the total concentration of VOCs, representing 87% and 11%, respectively. The VOCs with the higher average concentrations were acetic acid (130 μg/m3), nonanoic acid (124 μg/m3), benzoic acid (29.7 μg/m3), octanoic acid (19.9 μg/m3) and nonanal (4.70 μg/m3), with the rest of compounds in concentrations below 4 μg/m3. The high concentrations of carboxylic acids and aldehydes may originate from the degradation processes of alperujo (
+Hernández et al., 2018
+) and so they may be emitted directly from the alperujo ponds and during the desiccation treatment. Aldehydes, carboxylic acids, and hydrocarbons measured in this study have been found also at the outlet of drying trommels
+Hernández et al. (2019)
+, being the emissions dependent on the temperature of the process (
+Fagernäs et al., 2010
+).
+Overall, a statistically significant monthly trend in VOC concentrations was not observed (
+Fig. S9
+). Likewise, VOCs concentrations did not show statistical differences (p-value >0.05) between the measured time intervals (0:00–06:00, 06:00–12:00, 12:00–18:00 and 18:00–0:00) (
+Fig. S10
+). The absence of clear hourly or monthly variations may be caused by multiple factors, including the unexpected and long stops of the desiccation plant due to the transport strike, breakdowns that coincided partially with the sampling campaigns, and the meteorological conditions.
+Similarly, comparing the concentrations measured during weekdays and weekends for the whole set of detected compounds, statistical differences were not found (
+Fig. S11
+). Nevertheless, the levels were slightly higher from Monday to Friday and individually some pollutants had statistically significant differences (toluene, ethylbenzene, xylenes, styrene, n-propylbenzene, 1,3,5-trimethylbenzene and tetrachloroethene) probably due to the influence of traffic or other activities that take place in the vicinity of the industrial plant. On the other hand, the comparison for the “ON and OFF” effect could not be carried out since unexpected short periods of shutdown of the desiccating plant due to maintenance or breakdowns didn't let obtain a database wide enough for the statistical study.
+The identification of given VOCs and their quantification in a specific site enable the assessment of individual and combined effects of such pollutants. Thus,
+Table S2
+table shows the calculated ozone formation potential (OFP), the carcinogenic and non-carcinogenic risks (CR an HI, defined previously for metals), and odor impact values (OIV).
+Concerning the influence of organic compounds in the chemical production of O3 and given that each VOC contributes differently to its formation (
+Geng et al., 2009
+), the OFP was calculated for those VOCs with available maximum incremental reactivity coefficients (MIR) (
+Carter, 2009
+) and the experimental average concentrations. The highest OFP values were for acetic acid, phenol, octanal, hexanal, heptanal, n-hexane, toluene, etc. (
+Table S2
+). Although aromatic VOCs usually show the major contribution to the total OFP, (
+Kumar et al., 2018
+;
+Mojarrad et al., 2020
+), the main contribution in this area comes from acetic acid and aldehydes. Other studies have also found significant contributions from aldehydes in urban sites (
+Alvim et al., 2018
+). For other carboxylic acids the MIR are not available and the corresponding OFP could not be calculated. Nevertheless, since their concentrations in the site are high (
+Table S2
+), they may also contribute to the formation of ozone.
+With respect to health risk effects, persistent exposure to given VOCs of the workers in these kinds of industries or in the surrounding cities should be assessed. Thus, CR and non-CR for each compound were estimated following the same procedures as for metals. A “possible” CR (defined as 10−6<CR < 10−5) was obtained only for benzene and carbon tetrachloride. For the rest of VOCs the CR was negligible (CR < 10−6). For the non-carcinogenic risk, HI values were all below 1, the threshold for negligible nCR, (
+EPA, 2011
+) showing that for the measured VOCs the concentrations are under safe levels. In the case of benzene, different studies state that there is no harmless level since any concentration may contribute to cancer risks (
+Baan et al., 2009
+) and, so, benzene levels in these kinds of industries should be monitored. In any case, the measured average level for benzene (0.39 μg/m3) was below those reported for cities or the air quality standard for protecting human health (5 μg/m3).
+Apart from health issues, agriculture wastes may lead to unpleasant odors and the need to regulate activities or emplacements in the vicinity of cities. Likewise, any operation dealing with the treatment or recovery of wastes should be accountable for the generation of odors and their minimization. OIV may be obtained by dividing the average concentrations of each compound by its odor threshold (
+Hernández et al., 2019
+). In this work, odor threshold values for VOCs were taken from
+Nagata and Takeuchi (2003)
+and
+Daikoku et al. (2019)
+. As it can be seen in
+Table S2
+odorant pollutants with the greatest contribution were aldehydes (from pentanaldehyde to decanaldehyde with OIVs in the range 192–24200), acetic acid (383), phenol (68.9), n-butanol (5.34), nonanoic acid (2.99) n-propylbenzene (1.30), α-pinene (1.28) and octanoic acid (1.01). For the rest of VOCs, the concentrations were below their odor thresholds, or no reference thresholds were available. Although carboxylic acids were the VOCs with higher concentrations, their odor thresholds are relatively high, except for acetic acid, (
+Daikoku et al., 2019
+) and so their global contribution to olfactory nuisance was small.
+In addition, in order to determine the displacement of air pollutants emitted by the desiccation plant, the wind roses were analyzed.
+Fig. S12
+shows the average wind speeds and directions for the whole study period. The wind direction is influenced by the orography in the area, with different hill chains. As expected, the closest town, Malagón, may promptly result affected by fresh emissions from the plant. Similarly, winds from the West (which are significant, as found in the wind rose) may transport air pollutants to the PNTD. Nevertheless, the criterion pollutants NOx, SO2, CO and O3 in the plant were below the recommended values and a previous campaign carried out in the PNTD (
+Viteri et al., 2023
+) showed that the effect of surrounding industries on the air quality in the park was negligible for the measured parameters in the study period. Even though, due to the proximity of the plant and the windows regime in the area, further studies should be carried out in the future to confirm the absence of pollution effects on Malagón and the national park, including additional chemical species.
+4. Conclusions
+This work shows a comprehensive approach of the air quality parameters in an alperujo drying plant that concentrates the waste from olive oil production from a wide area. The study has evaluated temporal variations, weather effects, and operating conditions of the industrial plant on air quality. As for CO and SO2, the observed levels were very low and similar to those obtained in a recent study in the PNTD. So, it is estimated that the effect of the plant on these pollutants must be very low. In the case of nitrogen oxides, a slight but statistically significant effect could be observed in the concentrations, with surface increases between 3 and 12.5 μg/m³ during periods when alperujo was being processed.
+The PM10 values were low and with a temporal evolution similar to that of a nearby rural station belonging to the background pollution network. Therefore, it is estimated that the plant's contribution to the average particle concentration in the area was very low during the study period. In contrast, it was observed that the area was significantly affected by Saharan air intrusions.
+Concerning the elemental composition of PM2.5 particles, the analysis of metals load and the enrichment factors compared to crustal composition indicates anthropogenic sources for Se, Na, Ni, Cu, Zn, Hg and Pb. Zn, Cu and Pb may proceed predominantly from the traffic in the near N-401 road. Our results suggest the need of further studies to assess the potential effect of massive concentration of OMW on Hg levels in air.
+Airborne bacterial communities showed a seasonal pattern, with composition shifts mainly explained by weather parameters (air moisture and temperature) and PM2.5 concentration. Cutibacterium was the dominant genus during the cold months in the study while Bacillus predominated in the warm season.
+Relating to organic compounds, up to 53 VOCs were quantified with carboxylic acids as the main contributors. This study shows that the measured concentrations of benzene (on average 0.39 μg/m3) were below the air quality standard for protecting human health (5 μg/m3). Nevertheless, further studies are required in this kind of industries to ensure safe conditions in the surroundings.
+The presence of phenolic compounds in alperujo and the consequent evaporation and emission during active desiccation in these large industries may also imply a potential effect on sensitive plants, insects, fungi and bacteria in the surroundings, affecting the biodiversity and yield of the crops. So specific studies concerning the effects on flora and fauna should be carried out.
+Regarding the formation of surface ozone, emissions of VOCs from alperujo desiccation plants can contribute on a regional scale. The characterization of VOCs shows thar the major contributions to OFP come from acetic acid and the group of aldehydes, which surpass the contributions due to aromatic compounds that are usually predominant in industrial and urban environments.
+In this study the main contributions to nasty odors came from aldehydes, with OIVs in the range 192-24,200, acetic acid (OIV 383) and phenol (OIV 68.9). Although some treatments might be followed to minimize unpleasant odors (
+Ruiz-Méndez et al., 2013
+), due to the large scale of alperujo ponds, the best solution seems to choose proper locations, with suitable wind roses and far enough from urban areas.
+Concerning the workers, in previous decades the extraction of olive oil concentrated the activity within two months, involving short seasonal jobs. On the other hand, the new industries in the revaluation of olive wastes may extend the campaigns continuously during the whole year. Even though HI values found in this study were all below 1 for the measured VOCs, the continuous exposition to a chemically laden atmosphere could eventually lead to allergic responses or multiple chemical sensitivity (
+Zucco and Doty, 2021
+). Since, up to the moment, there is not a sufficient database concerning the possible effects due to the continuous and long-term exposition to the particular chemical “cocktail” found in alperujo industries, statistical studies are required involving possible symptoms, and preventive protection measures should be assessed.
+CRediT authorship contribution statement
+Gabriela Viteri: Writing – original draft, Investigation, Formal analysis, Data curation. Alfonso Aranda: Writing – review & editing, Supervision, Investigation, Funding acquisition, Conceptualization. Yolanda Díaz de Mera: Writing – original draft, Methodology, Investigation. Ana Rodríguez: Writing – original draft, Supervision, Investigation, Conceptualization. Diana Rodríguez: Writing – original draft, Methodology, Investigation. Nuria Rodríguez-Fariñas: Writing – original draft, Methodology, Investigation, Data curation. Nicolás Valiente: Writing – original draft, Investigation, Formal analysis. Susana Seseña: Writing – original draft, Investigation, Data curation.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was supported by the Spanish Ministerio de Ciencia, Innovación y Universidades, Reference
+RTI 2018-099503-B-I00
+, by Junta de Comunidades de Castilla-La Mancha
+SBPLY/21/180501/000283
+and the University of Castilla-La Mancha
+2022-GRIN-34057
+.
+Appendix A. Supplementary data
+The following is/are the supplementary data to this article:
+Download: Download Word document (69MB)
+Multimedia component 1.
+Data availability
+Data will be made available on request.
+References
+Abbattista et al., 2021
+R. Abbattista, G. Ventura, C.D. Calvano, T.R. Cataldi, I. Losito
+Bioactive compounds in waste by-products from olive oil production: applications and structural characterization by mass spectrometry techniques
+Foods, 10 (6) (2021), p. 1236
+Crossref
+View in Scopus
+Google Scholar
+Adams and Roy, 2021
+K. Adams, H. Roy
+Analysis of the air pollution climate of a central urban roadside supersite: London, Marylebone Road
+Atmos. Environ., 258 (2021), Article 118479,
+10.1016/j.atmosenv.2021.118479
+Google Scholar
+Al-Shidi et al., 2021
+H.K. Al-Shidi, H. Sulaiman, H.A. Al-Reasi, F. Jamil, M. Aslam
+Human and ecological risk assessment of heavy metals in different particle sizes of road dust in Muscat, Oman
+Environ. Sci. Pollut. Control Ser., 28 (26) (2021), pp. 33980-33993,
+10.1007/s11356-020-09319-6
+View in Scopus
+Google Scholar
+Alvim et al., 2018
+D.S. Alvim, L.V. Gatti, S.M. Corrêa, J.B. Chiquetto, G.M. Santos, C. de Souza Rossatti, et al.
+Determining VOCs reactivity for ozone forming potential in the megacity of São Paulo
+Aerosol Air Qual. Res., 18 (9) (2018), pp. 2460-2474
+Crossref
+View in Scopus
+Google Scholar
+Baan et al., 2009
+R. Baan, Y. Grosse, K. Straif, B. Secretan, F. El Ghissassi, V. Bouvard, L. Benbrahim-Tallaa, N. Guha, C. Freeman, L. Galichet, V. Cogliano, WHO International Agency for Research on Cancer Monograph Working Group
+A review of human carcinogens–Part F: chemical agents and related occupations
+Lancet Oncol., 10 (2009), pp. 1143-1144,
+10.1016/S1470-2045(09)70358-4
+View PDF
+View article
+View in Scopus
+Google Scholar
+Babić et al., 2019
+S. Babić, O. Malev, M. Pflieger, A.T. Lebedev, D.M. Mazur, A. Kužić, R. Čož-Rakovac, P. Trebše
+Toxicity evaluation of olive oil mill wastewater and its polar fraction using multiple whole-organism bioassays
+Sci. Total Environ., 686 (2019), pp. 903-914,
+10.1016/j.scitotenv.2019.06.046
+View PDF
+View article
+View in Scopus
+Google Scholar
+Bailón-Salas et al., 2021
+A.M. Bailón-Salas, L.A. Ordaz-Diaz, P.M. López-Serrano, M.Y. Flores-Villegas, P.A. Dominguez-Calleros
+Wastewater as a resource for pest control: an overview
+Bioresources, 16 (3) (2021)
+Google Scholar
+Barnett et al., 2021
+D.J. Barnett, I.C. Arts, J. Penders
+microViz: an R package for microbiome data visualization and statistics
+J. Open Source Softw., 6 (63) (2021), p. 3201
+Crossref
+Google Scholar
+Bedoya et al., 2021
+K. Bedoya, J. Niño, J. Acero, R. Jaimes-Prada, F. Cabarcas, J.F. Alzate
+Metagenomic analysis of biocide-treated neotropical oil reservoir water unveils microdiversity of thermophile Tepidiphilus
+Front. Microbiol., 12 (2021), Article 741555
+View in Scopus
+Google Scholar
+Bouhia et al., 2023
+Y. Bouhia, M. Hafidi, Y. Ouhdouch, K. Lyamlouli
+Olive mill waste sludge: from permanent pollution to a highly beneficial organic biofertilizer: a critical review and future perspectives
+Ecotoxicol. Environ. Saf., 259 (2023), Article 114997
+View PDF
+View article
+View in Scopus
+Google Scholar
+Callahan et al., 2016
+B.J. Callahan, P.J. McMurdie, M.J. Rosen, A.W. Han, A.J.A. Johnson, S.P. Holmes
+DADA2: high-resolution sample inference from Illumina amplicon data
+Nat. Methods, 13 (2016), pp. 581-583
+Crossref
+View in Scopus
+Google Scholar
+Carter, 2009
+W.P. Carter
+Updated maximum incremental reactivity scale and hydrocarbon bin reactivities for regulatory applications
+California Air Resources Board Contract, 339 (2009), p. 2009
+https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=fcb814cbc3a4f611629fc596839093685ce3ce3c
+Google Scholar
+Cesari et al., 2012
+D. Cesari, D. Contini, A. Genga, M. Siciliano, C. Elefante, F. Baglivi, L. Daniele
+Analysis of raw soils and their re-suspended PM10 fractions: characterisation of source profiles and enrichment factors
+Appl. Geochem., 27 (6) (2012), pp. 1238-1246,
+10.1016/j.apgeochem.2012.02.029
+View PDF
+View article
+View in Scopus
+Google Scholar
+Corvec, 2018
+S. Corvec
+Clinical and biological features of Cutibacterium (formerly Propionibacterium) avidum, an underrecognized microorganism
+Clin. Microbiol. Rev., 31 (3) (2018), pp. 10-1128
+Google Scholar
+Daikoku et al., 2019
+S. Daikoku, M. Mitsuda, T. Tanamura, K. Uchiyama
+Measuring odor threshold using a simplified olfactory measurement method
+J. Hum. Environ. Syst., 21 (1) (2019), pp. 1-8
+Crossref
+Google Scholar
+Danellakis et al., 2011
+D. Danellakis, I. Ntaikou, M. Kornaros, S. Dailianis
+Olive oil mill wastewater toxicity in the marine environment: alterations of stress indices in tissues of mussel Mytilus galloprovincialis
+Aquat. Toxicol., 101 (2) (2011), pp. 358-366,
+10.1016/j.aquatox.2010.11.015
+View PDF
+View article
+View in Scopus
+Google Scholar
+DGCDirección General de carreteras, 2021
+DGC, Dirección General de carreteras
+Ministerio de transportes
+https://www.mitma.es/carreteras/trafico-velocidades-y-accidentes-mapa-estimacion-y-evolucion/mapas-de-trafico
+(2021)
+Google Scholar
+Di Ilio and Cristofaro, 2020
+V. Di Ilio, M. Cristofaro
+Polyphenolic extracts from the olive mill wastewater as a source of biopesticides and their effects on the life cycle of the Mediterranean fruit fly Ceratitis capitata (Diptera, Tephriditae)
+International Journal of Tropical Insect Science Online (2020), pp. 1-8,
+10.1007/s42690-020-00224-6
+Google Scholar
+El-Abbassi et al., 2017
+A. El-Abbassi, N. Saadaoui, H. Kiai, J. Raiti, A. Hafidi
+Potential applications of olive mill wastewater as biopesticide for crops protection
+Sci. Total Environ., 576 (2017), pp. 10-21,
+10.1016/j.scitotenv.2016.10.032
+View PDF
+View article
+View in Scopus
+Google Scholar
+EPAUSA Environmental Protection Agency, 2009
+EPA, USA Environmental Protection Agency
+Risk assessment guidance for superfund. Volume I: human health evaluation manual (Part F, supplemental guidance for inhalation risk assessment), 1-31EPA-540-R-070e002. OSWER 9285.7-82, Office of Superfund Remediation and Technology Innovation, Washington, D.C. (2009)
+https://semspub.epa.gov/work/HQ/140530.pdf
+Google Scholar
+EPAUSA Environmental Protection Agency, 2011
+EPA, USA Environmental Protection Agency
+Risk assessment guidance for superfund. Volume I: human health evaluation manual (Part E, supplemental guidance for dermal risk assessment)
+https://www.epa.gov/risk/risk-assessment-guidance-superfund-rags-part-e
+(2011)
+Google Scholar
+Ereqat et al., 2018
+S.I. Ereqat, A.A. Abdelkader, A.F. Nasereddin, A.O. Al-Jawabreh, T.M. Zaid, I. Letnik, Z.A. Abdeen
+Isolation and characterization of phenol degrading bacterium strain Bacillus thuringiensis J20 from olive waste in Palestine
+Journal of Environmental Science and Health, Part A, 53 (1) (2018), pp. 39-45
+Crossref
+View in Scopus
+Google Scholar
+Fagernäs et al., 2010
+L. Fagernäs, J. Brammer, C. Wilén, M. Lauer, F. Verhoeff
+Drying of biomass for second generation synfuel production
+Biomass Bioenergy, 34 (9) (2010), pp. 1267-1277
+View PDF
+View article
+View in Scopus
+Google Scholar
+Foti et al., 2022
+P. Foti, A. Pino, F.V. Romeo, A. Vaccalluzzo, C. Caggia, C.L. Randazzo
+Olive pomace and pâté olive cake as suitable ingredients for food and feed
+Microorganisms, 10 (2) (2022), p. 237
+Crossref
+View in Scopus
+Google Scholar
+Gat et al., 2021
+D. Gat, N. Reicher, S. Schechter, M. Alayof, M.D. Tarn, B.V. Wyld, R. Zimmermann, Y. Rudich
+Size-resolved community structure of bacteria and fungi transported by dust in the Middle East
+Front. Microbiol., 12 (2021), Article 744117,
+10.3389/fmicb.2021.744117
+View in Scopus
+Google Scholar
+Geng et al., 2009
+F. Geng, C. Cai, X. Tie, Q. Yu, J. An, L. Peng, G. Zhou, J. Xu
+Analysis of VOC emissions using PCA/APCS receptor model at city of Shanghai, China
+J. Atmos. Chem., 62 (3) (2009), pp. 229-247,
+10.1007/s10874-010-9150-5
+View in Scopus
+Google Scholar
+Gomez-de la Cruz et al., 2017
+Gomez-de la Cruz, P.J. Casanova-Pelaez, J.M. Palomar-Carnicero, F. Cruz-Peragón
+Characterization and analysis of the drying real process in an industrial olive-oil mill waste rotary dryer: A case of study in Andalusia
+Appl. Therm. Eng., 116 (2017), pp. 1-10
+View PDF
+View article
+View in Scopus
+Google Scholar
+Hakanson, 1980
+L. Hakanson
+An ecological risk index for aquatic pollution control. A sedimentological approach
+Water Res., 14 (8) (1980), pp. 975-1001,
+10.1016/0043-1354(80)90143-8
+View PDF
+View article
+View in Scopus
+Google Scholar
+Hernández et al., 2014
+D. Hernández, L. Astudillo, M. Gutiérrez, C. Tenreiro, C. Retamal, C. Rojas
+Biodiesel production from an industrial residue: alperujo
+Ind. Crop. Prod., 52 (2014), pp. 495-498
+View PDF
+View article
+View in Scopus
+Google Scholar
+Hernández et al., 2018
+D. Hernández, C.A. Astudillo, E. Fernández-Palacios, F. Cataldo, C. Tenreiro, D. Gabriel
+Evolution of physical-chemical parameters, microbial diversity and VOC emissions of olive oil mill waste exposed to ambient conditions in open reservoirs
+Waste Manag., 79 (2018), pp. 501-509
+View PDF
+View article
+View in Scopus
+Google Scholar
+Hernández et al., 2019
+D. Hernández, H. Quinteros-Lama, C. Tenreiro, D. Gabriel
+Assessing concentration changes of odorant compounds in the thermal-mechanical drying phase of sediment-like wastes from olive oil extraction
+Appl. Sci., 9 (3) (2019), p. 519
+https://www.mdpi.com/2076-3417/9/3/519
+Crossref
+View in Scopus
+Google Scholar
+Higueras et al., 2016
+P.L. Higueras, J.A. Amoros, J.M. Esbri, C. Perez-de-los-Reyes, M.A. Lopez-Berdonces, F.J. Garcia-Navarro
+Mercury transfer from soil to olive trees. A comparison of three different contaminated sites
+Environ. Sci. Pollut. Control Ser., 23 (7) (2016), pp. 6055-6061,
+10.1007/s11356-015-4357-2
+View in Scopus
+Google Scholar
+IOC, 2024
+IOC
+International Olive Council (2024)
+https://www.internationaloliveoil.org/the-world-of-olive-oil/
+Google Scholar
+Klindworth et al., 2013
+A. Klindworth, E. Pruesse, T. Schweer, J. Peplies, C. Quast, M. Horn, et al.
+Evaluation of general 16S ribosomal RNA gene PCR primers for classical and next-generation sequencing-based diversity studies
+Nucleic Acids Res., 41 (2013), Article e1,
+10.1093/nar/gks808
+View in Scopus
+Google Scholar
+Kozajda et al., 2019
+A. Kozajda, K. Jeżak, A. Kapsa
+Airborne Staphylococcus aureus in different environments—a review
+Environ. Sci. Pollut. Control Ser., 26 (2019), pp. 34741-34753
+Crossref
+View in Scopus
+Google Scholar
+Kumar et al., 2018
+A. Kumar, D. Singh, K. Kumar, B.B. Singh, V.K. Jain
+Distribution of VOCs in urban and rural atmospheres of subtropical India: temporal variation, source attribution, ratios, OFP and risk assessment
+Sci. Total Environ., 613 (2018), pp. 492-501
+View PDF
+View article
+View in Scopus
+Google Scholar
+Lahti and Shetty, 2017
+L. Lahti, S. Shetty
+Microbiome R Package
+(2017)
+Google Scholar
+Lenchi et al., 2024
+N. Lenchi, W.N.E.H. Ahmedi, M. Llirós
+Simultaneous removal of crude oil and heavy metals by highly adapted bacterial strain Cutibacterium sp. NL2 isolated from Algerian oilfield
+Int. Microbiol., 27 (2) (2024), pp. 615-630
+View in Scopus
+Google Scholar
+Leontopoulos et al., 2020
+S. Leontopoulos, P. Skenderidis, I.K. Vagelas
+Potential use of polyphenolic compounds obtained from olive mill waste waters on plant pathogens and plant parasitic nematodes
+Plant Defence: Biol. Control (2020), pp. 137-177
+Crossref
+Google Scholar
+Li et al., 2020
+L. Li, Q. Wang, W. Bi, J. Hou, Y. Xue, D. Mao, et al.
+Municipal solid waste treatment system increases ambient airborne bacteria and antibiotic resistance genes
+Environ. Sci. Technol., 54 (7) (2020), pp. 3900-3908
+Crossref
+View in Scopus
+Google Scholar
+Li et al., 2022
+X. Li, C. Yan, C. Wang, J. Ma, W. Li, J. Liu, Y. Liu
+PM2.5-bound elements in Hebei Province, China: pollution levels, source apportionment and health risks
+Sci. Total Environ., 806 (2022), Article 150440,
+10.1016/j.scitotenv.2021.150440
+View PDF
+View article
+View in Scopus
+Google Scholar
+Long et al., 2023
+T. Long, Z. Ye, Y. Tang, J. Shi, J. Wen, C. Chen, Q. Huo
+Comparison of bacterial community structure in PM2. 5 during hazy and non-hazy periods in Guilin, South China
+Aerobiologia, 39 (1) (2023), pp. 87-103
+Crossref
+View in Scopus
+Google Scholar
+Maass et al., 2016
+D. Maass, I. Moya Ramirez, M. Garcia Roman, E. Jurado Alameda, A.A. Ulson de Souza, J.A. Borges Valle, D. Altmajer Vaz
+Two‐phase olive mill waste (alpeorujo) as carbon source for biosurfactant production
+J. Chem. Technol. Biotechnol., 91 (7) (2016), pp. 1990-1997
+Crossref
+View in Scopus
+Google Scholar
+Martin, 2011
+M. Martin
+Cutadapt removes adapter sequences from high-throughput sequencing reads
+EMBnet. journal, 17 (1) (2011), pp. 10-12
+Crossref
+Google Scholar
+Martın et al., 2002
+J. Martın, I. Sampedro, I. Garcıa-Romera, J.M. Garcıa-Garrido, J.A. Ocampo
+Arbuscular mycorrhizal colonization and growth of soybean (Glycine max) and lettuce (Lactuc sativa) and phytotoxic effects of olive mill residues
+Soil Biol. Biochem., 34 (11) (2002), pp. 1769-1775
+View PDF
+View article
+View in Scopus
+Google Scholar
+McMurdie and Holmes, 2013
+P.J. McMurdie, S. Holmes
+phyloseq: an R package for reproducible interactive analysis and graphics of microbiome census data
+PLoS One, 8 (4) (2013), Article e61217
+Crossref
+View in Scopus
+Google Scholar
+Mojarrad et al., 2020
+H. Mojarrad, R. Fouladi Fard, M. Rezaali, H. Heidari, H. Izanloo, A. Mohammadbeigi, et al.
+Spatial trends, health risk assessment and ozone formation potential linked to BTEX
+Hum. Ecol. Risk Assess., 26 (10) (2020), pp. 2836-2857,
+10.1080/10807039.2019.1688640
+View in Scopus
+Google Scholar
+Moraetis et al., 2011
+D. Moraetis, F.E. Stamati, N.P. Nikolaidis, N. Kalogerakis
+Olive mill wastewater irrigation of maize: impacts on soil and groundwater
+Agric. Water Manag., 98 (7) (2011), pp. 1125-1132
+View PDF
+View article
+View in Scopus
+Google Scholar
+Nagata and Takeuchi, 2003
+Y. Nagata, N. Takeuchi
+Measurement of odor threshold by triangle odor bag method
+Odor measurement review, 118 (2003), pp. 118-127
+View in Scopus
+Google Scholar
+Nair, 2021
+A.T. Nair
+Bioaerosols in the landfill environment: an overview of microbial diversity and potential health hazards
+Aerobiologia, 37 (2) (2021), pp. 185-203
+Crossref
+View in Scopus
+Google Scholar
+Nasini et al., 2016
+L. Nasini, G.D. De Luca, A. Ricci, F. Ortolani, A. Caselli, L. Massaccesi, et al.
+Gas emissions during olive mill waste composting under static pile conditions
+Int. Biodeterior. Biodegrad., 107 (2016), pp. 70-76
+View PDF
+View article
+View in Scopus
+Google Scholar
+Notario et al., 2013
+A. Notario, I. Bravo, J.A. Adame, Y. Díaz-de-Mera, A. Aranda, A. Rodriguez, D. Rodríguez
+Variability of oxidants (OX= O3+ NO2), and preliminary study on ambient levels of ultrafine particles and VOCs, in an important ecological area in Spain
+Atmos. Res., 128 (2013), pp. 35-45
+View PDF
+View article
+View in Scopus
+Google Scholar
+Oksanen, 2015
+J. Oksanen
+Vegan: an Introduction to Ordination
+(2015)
+Google Scholar
+Pasanen et al., 1991
+A.L. Pasanen, P. Kalliokoski, P. Pasanen, M.J. Jantunen, A. Nevalainen
+Laboratory studies on the relationship between fungal growth and atmospheric temperature and humidity
+Environ. Int., 17 (4) (1991), pp. 225-228,
+10.1016/0160-4120(91)90006-C
+View PDF
+View article
+View in Scopus
+Google Scholar
+Qi et al., 2016
+L. Qi, Y. Zhang, Y. Ma, M. Chen, X. Ge, Y. Ma, J. Zheng, Z. Wang, S. Li
+Source identification of trace elements in the atmosphere during the second Asian Youth Games in Nanjing, China: influence of control measures on air quality
+Atmos. Pollut. Res., 7 (3) (2016), pp. 547-556,
+10.1016/j.apr.2016.01.003
+View PDF
+View article
+View in Scopus
+Google Scholar
+Quast et al., 2012
+C. Quast, E. Pruesse, P. Yilmaz, J. Gerken, T. Schweer, P. Yarza, et al.
+The SILVA ribosomal RNA gene database project: improved data processing and web-based tools
+Nucleic Acids Res., 41 (2012), pp. D590-D596
+Crossref
+Google Scholar
+R Core TeamR., 2013
+R Core Team, R.
+R: A Language and Environment for Statistical Computing
+(2013)
+Google Scholar
+Ruiz-Méndez et al., 2013
+M.V. Ruiz-Méndez, C. Romero, E. Medina, A. García, A. De Castro, M. Brenes
+Acidification of Alperujo paste prevents off-odors during their storage in open air
+J. Am. Oil Chem. Soc., 90 (2013), pp. 401-406
+Crossref
+View in Scopus
+Google Scholar
+Saez et al., 2021
+J.A. Saez, M.D. Perez-Murcia, A. Vico, M.R. Martinez-Gallardo, F.J. Andreu-Rodriguez, M.J. Lopez, M.A. Bustamante, J.C. Sanchez-Hernandez, J. Moreno, R. Moral
+Olive mill wastewater-evaporation ponds long term stored: integrated assessment of in situ bioremediation strategies based on composting and vermicomposting
+J. Hazard Mater., 402 (2021), Article 123481,
+10.1016/j.jhazmat.2020.123481
+View PDF
+View article
+View in Scopus
+Google Scholar
+Sanchez-Hernandez et al., 2020
+J.C. Sanchez-Hernandez, J.A. Saez, A. Vico, J. Moreno, R. Moral
+Evaluating Earthworms'Potential for remediating soils contaminated with olive mill waste sediments
+Appl. Sci., 10 (7) (2020), p. 2624
+https://www.mdpi.com/2076-3417/10/7/2624
+Crossref
+View in Scopus
+Google Scholar
+Singh et al., 2016
+D. Singh, A. Kumar, K. Kumar, B. Singh, U. Mina, B.B. Singh, V.K. Jain
+Statistical modeling of O3, NOx, CO, PM2.5, VOCs and noise levels in commercial complex and associated health risk assessment in an academic institution
+Sci. Total Environ., 572 (2016), pp. 586-594,
+10.1016/j.scitotenv.2016.08.086
+View PDF
+View article
+View in Scopus
+Google Scholar
+Sprovieri et al., 2016
+F. Sprovieri, N. Pirrone, M. Bencardino, F. D'amore, F. Carbone, S. Cinnirella, et al.
+Atmospheric mercury concentrations observed at ground-based monitoring sites globally distributed in the framework of the GMOS network
+Atmos. Chem. Phys., 16 (18) (2016), pp. 11915-11935
+Crossref
+View in Scopus
+Google Scholar
+Tabaja et al., 2023
+N. Tabaja, D. Amouroux, L. Chalak, F. Fourel, E. Tessier, I. Jomaa, M. El Riachy, I. Bentaleb
+Seasonal variation of mercury concentration of ancient olive groves of Lebanon
+Biogeosciences, 20 (3) (2023), pp. 619-633,
+10.5194/bg-20-619-2023
+View in Scopus
+Google Scholar
+Tafesh et al., 2011
+A. Tafesh, N. Najami, J. Jadoun, F. Halahlih, H. Riepl, H. Azaizeh
+Synergistic antibacterial effects of polyphenolic compounds from olive mill wastewater
+Evid. base Compl. Alternative Med., 2011 (2011)
+Google Scholar
+Talley et al., 2002
+S.M. Talley, P.D. Coley, T.A. Kursar
+The effects of weather on fungal abundance and richness among 25 communities in the Intermountain West
+BMC Ecol., 2 (1) (2002), p. 7,
+10.1186/1472-6785-2-7
+View in Scopus
+Google Scholar
+Viteri et al., 2023
+G. Viteri, A. Aranda, Y.D. de Mera, A. Rodríguez, D. Rodríguez
+Air quality assessment in biosphere reserves close to emission sources. The case of the Spanish “Tablas de Daimiel” national park
+Sci. Total Environ., 858 (2023), Article 159818
+View PDF
+View article
+View in Scopus
+Google Scholar
+Viteri et al., 2024
+G. Viteri, A. Rodríguez, A. Aranda, N. Rodriguez-Fariñas, N. Valiente, D. Rodriguez, S. Seseña
+Trace elements and microbial community composition associated with airborne PM2. 5 in wetlands: A case study in Tablas de Daimiel National Park
+Sci. Total Environ., 906 (2024), Article 167502
+View PDF
+View article
+View in Scopus
+Google Scholar
+Voskuhl et al., 2021
+L. Voskuhl, A. Akbari, H. Müller, M. Pannekens, D. Brusilova, S. Dyksma, V.S. Brauer
+Indigenous microbial communities in heavy oil show a threshold response to salinity
+FEMS (Fed. Eur. Microbiol. Soc.) Microbiol. Ecol., 97 (12) (2021), Article fiab157
+View in Scopus
+Google Scholar
+Watson et al., 2002
+J.G. Watson, T. Zhu, J.C. Chow, J. Engelbrecht, E.M. Fujita, W.E. Wilson
+Receptor modeling application framework for particle source apportionment
+Chemosphere, 49 (9) (2002), pp. 1093-1136,
+10.1016/S0045-6535(02)00243-6
+View PDF
+View article
+View in Scopus
+Google Scholar
+Wedepohl, 1995
+K.H. Wedepohl
+The composition of the continental crust
+Geochem. Cosmochim. Acta, 59 (7) (1995), pp. 1217-1232,
+10.1016/0016-7037(95)00038-2
+Google Scholar
+Welz et al., 2021
+P. Welz, G. Swanepoel, S. Weels, M. Le Roes-Hill
+Wastewater from the edible oil industry as a potential source of lipase-and surfactant-producing actinobacteria
+Microorganisms, 9 (9) (2021), p. 1987
+Crossref
+View in Scopus
+Google Scholar
+Wickham et al., 2016
+H. Wickham, W. Chang, M.H. Wickham
+Package ‘ggplot2’
+Create elegant data visualisations using the grammar of graphics. Version, 2 (1) (2016), pp. 1-189
+View in Scopus
+Google Scholar
+Widiana et al., 2019
+D.R. Widiana, Y.-F. Wang, S.-J. You, H.-H. Yang, L.-C. Wang, J.-H. Tsai, H.-M. Chen
+Air pollution profiles and health risk assessment of ambient volatile organic compounds above a municipal wastewater treatment plant, taiwan
+Aerosol Air Qual. Res., 19 (2) (2019), pp. 375-382,
+10.4209/aaqr.2018.11.0408
+View in Scopus
+Google Scholar
+Xu et al., 2008
+Z.Q. Xu, S. Ni, X.G. Tuo, C.J. Zhang
+Calculation of heavy metal's toxicity coefficient in the evaluation of potential ecological risk index
+Environ. Sci. Technol., 31 (2008), pp. 112-115
+View in Scopus
+Google Scholar
+Zhang et al., 2018
+J. Zhang, X. Zhou, Z. Wang, L. Yang, J. Wang, W. Wang
+Trace elements in PM2.5 in Shandong Province: source identification and health risk assessment
+Sci. Total Environ., 621 (2018), pp. 558-577,
+10.1016/j.scitotenv.2017.11.292
+View PDF
+View article
+Google Scholar
+Zucco and Doty, 2021
+G.M. Zucco, R.L. Doty
+Multiple chemical sensitivity
+Brain Sci., 12 (1) (2021), p. 46
+Crossref
+Google Scholar
+Cited by (0)
+☆
+This paper has been recommended for acceptance by Alessandra De Marco.
+© 2024 The Authors. Published by Elsevier Ltd.
+Recommended articles
+A closer look at plastic colonisation: Prokaryotic dynamics in established versus newly synthesised marine plastispheres and their planktonic state
+Environmental Pollution, Volume 358, 2024, Article 124479
+Lauren F. Messer, …, Sabine Matallana-Surget
+View PDF
+Melatonin mitigates PNMC-induced disruption of spindle assembly and mitochondrial function in mouse Oocytes
+Ecotoxicology and Environmental Safety, Volume 282, 2024, Article 116703
+Cong Ma, …, Yunxia Cao
+View PDF
+Exosomal proteomics and cytokine analysis distinguish silicosis cases from controls
+Environmental Pollution, Volume 357, 2024, Article 124469
+Jiahui Yao, …, Jianlin Lou
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

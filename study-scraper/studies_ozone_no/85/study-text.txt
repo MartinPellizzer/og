@@ -1,0 +1,114 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Abstract
+Keywords
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Uncited References
+Conflict of Interest
+Acknowledgements
+References
+Show full outline
+Tables (8)
+Table 1
+Table 2
+Table 3
+Table 4
+Table 5
+Table 6
+Show all tables
+Poultry Science
+Available online 10 July 2024, 104085
+In Press, Journal Pre-proof
+What’s this?
+Effects of in-package cold plasma treatment on poultry breast meat packaged in high CO2 atmosphere
+1
+Author links open overlay panel
+H. Zhuang
+,
+M.J. Rothrock Jr.
+,
+K.C. Lawrence
+,
+G.R. Gamble
+,
+B.C. Bowker
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.psj.2024.104085
+Get rights and content
+Under a Creative Commons
+license
+open access
+Abstract
+High CO2 in packages significantly extends microbiological shelf life of poultry meat. Cold plasma is an emerging antimicrobial treatment, which generates various reactive gas species and inactivates microbials effectively. The objective of this study was to explore the potential effects of combining high CO2 package and in-package cold plasma (IPCP) treatments on the quality and safety of raw chicken breast meat. Non-inoculated samples and samples inoculated with Campylobacter jejuni and Salmonella Typhimurium were packaged in 0, 30, 70, or 100% CO2 (with make-up gas N2) and treated with IPCP at 70 kV for 3 min. Ozone formation, microbial counts, drip loss, pH, and color were measured. There was no interaction effect between high CO2 package and IPCP on microbial counts, drip loss, and color measurements. IPCP reduced spoilage microbial growth by 0.43 log (from 7.00 log to 6.57 log, P = 0.033) and C. jejuni populations by 0.67 log (from 4.82 log to 4.15 log, P < 0.001) on meat surface but did not affect S. Typhimurium (P = 0.206). Increased CO2 in packages had more effect on spoilage microbial growth (more than 1.5 log from 8.08 log to 6.35 log, P < 0.001) and S. Typhimurium populations (more than 0.5 log from 4.94 log to 4.39 log, P = 0.004) than IPCP but did not affect C. jejuni (P = 0.163). IPCP resulted in increases in changes in L* by 1.67 units (0.70 versus 2.37, P = 0.016) and a* values by 0.56 units (0.73 versus 1.29, P < 0.001) and decreases in b* values by 0.91 units (0.46 versus -0.45, P = 0.015). High CO2 levels caused increases in changes in L* values by 4.35 units (-0.82 versus 3.53, P < 0.001) with no effects on a* and b* values (P > 0.05). Data demonstrate that there are no combined effects by high CO2 package and IPCP on meat quality and safety of raw chicken breast meat under our experimental conditions. Either high CO2 package or IPCP can retain microbial quality and safety, even though they may cause changes in appearance of stored chicken breast meat.
+Keywords
+dielectric barrier dischargeCampylobacter jejuniSalmonella Typhimuriummeat qualitynon-thermal plasma
+Introduction
+Modified atmosphere packaging (MAP) can be used for preservation of fresh meat quality. In MAP, O2, N2, and CO2 are the most used components, but CO2 is the only one with a direct antimicrobial effect (
+Arvanitoyannis and Stratakos, 2012
+). It has been well documented that high CO2 in packages can significantly extend microbiological shelf life of poultry meat. However, the achievable shelf-life of modified atmosphere packed raw poultry products depend on the species, fat content, initial microbial load, packaging type, gas mixture, and temperature of storage (
+Stiles, 1991
+).
+Holck et al. (2014)
+stored chicken fillets in 0, 30, 60, or 100% CO2 with N2 makeup gas and reported that the inhibition of microbial growth on raw chicken fillets was proportional to the CO2 concentration in package headspace.
+Sante et al. (1994)
+reported that poultry packed in a 100% CO2 atmosphere showed the lowest microbial counts in comparison to 100% O2, 100% N2, or a mixture of 25% CO2, 66% O2, and 9% N2. High CO2 packages also inhibit Salmonella effectively.
+Sukumaran et al. (2015)
+found that storage of untreated chicken breast fillets under MAP condition (95% CO2 and 5% O2) reduced Salmonella counts by 0.4 to 0.6 log10 CFU/g. Inhibition of Salmonella was noted for chicken legs stored in high barrier bags at 10°C under 100% CO2 but not for those in vacuum packages (
+Gray et al., 1984
+). In Europe, the typical MAP used by manufacturers for broiler meat contains 80% CO2 and 20% N2 (
+Susiluoto et al., 2003
+).
+Plasma is a fundamental state of matter consisting of a gas of ions. Cold plasma (CP) is a plasma that is not in thermodynamic equilibrium and stays at temperatures well below those used for pasteurization or sterilization. Therefore, it is also called nonthermal plasma. During CP generation, gas molecules are broken down and form various reactive species (RGS), such as photos (UV), free radicals, energetic ions, and high oxidative atoms/molecules, which inactivate contaminating microbes on foods (
+Gaunt, 2006
+; Niemera, 2012). It has been well documented that the type of working gas employed principally determines the nature and quantities of RGS produced in the discharge as well as the efficacy of the treatment against microbes (
+Liao et al., 2019
+; Lopez et al., 2019).
+Rowan et al. (2007)
+investigated the effects of four working gases N2, CO2, O2, and air on the effectiveness of a CP (high-voltage pulsed-plasma gas-discharge) system to decontaminate poultry wash water. They found that the use of O2 alone produced the greatest reduction of Bacillus cereus endospores, followed by CO2, air, and N2. With a diffuse coplanar surface barrier discharge system,
+Hertwig et al. (2017)
+also evaluated N2, CO2, O2, and air for the efficacy of CP inactivation. They found that similar to O2 working gas, CO2 resulted in significant ozone formation (2150 ppm) during discharge and inactivated B. subtilis wildtype spores. The D-value was 1.21 for air-plasma, 1.52 min for O2-plasma; however, it was 1.10 min for CO2.
+Takamatsu et al. (2015)
+used a multi-gas plasma jet to generate atmospheric non-thermal plasmas with various gases to treat microbial suspensions. Results showed that either CO2 or N2 plasma resulted in >6 log kill of S. aureus bacteria within 60 s, while O2 plasma produced a 3-log kill and air and Ar plasmas <1-log kill at 120 s. These results demonstrated that the utilization of CO2 as a working gas can effectively generate RGS in plasma and may enhance microbial inactivation by CP treatment.
+In-package cold plasma (IPCP) is a type of non-thermal plasma system (
+Misra et al., 2019
+). In the IPCP system, plasma is generated with dielectric barrier discharge (DBD) and localized inside a sealed package to disinfect packed food materials. Compared with the other CP systems, the advantages of IPCP include reducing the risk of microbial contamination on packaging materials and post-processing food and basically having no limits to food package configurations, materials, and atmosphere (
+Misra et al., 2019
+;
+Ziuzina et al., 2016
+). Experiments showed that effectiveness of the inactivation by the IPCP is also significantly influenced by working gases within packages or modified atmosphere. The modified atmosphere consisting of 30% CO2/65% O2 /5% N2 resulted in significant increases in the formation of RGS and inactivation of B. spores, spoilage bacteria, and pathogens on fresh poultry meat (
+Keener et al., 2012
+;
+Kronn et al., 2015
+;
+Zhuang et al., 2020
+). Therefore, the objective of the present study was to explore the interaction effects between high CO2 packaging and IPCP treatments on the quality and safety of raw chicken breast meat. The data collected from this study will provide useful information on the application of CP treatments in the retention of meat products.
+Materials and Methods
+Meat samples, packaging, and storage
+Boneless skinless chicken breast fillets (Pectoralis major) were collected from a local commercial processing facility. A total of 100 cutlets and 60 whole fillets were collected for each trial. A total of two trials were conducted on separate dates using raw meat from different flocks. Prior to treatments, meat samples, containing two fillet cutlets (approximately 96.3 g each) and two muscle samples (2.5 cm diameter, 2.5 - 3.0 cm thick, average weight 21 g) cored from the cranial end of a single whole fillet (approximately 180.1 g), were placed in polymeric trays (19.5 cm x 14.5 cm x 4.0 cm, Sealed Air Corp., Duncan, SC, USA). One cutlet was skin/ventral side up and used for microbial analysis (psychrophiles). The other cutlet was bone/dorsal side up and used for surface color (International Commission on Illumination (CIE) L*a*b*) measurements. One of the muscle core samples was inoculated with Campylobacter and the other with Salmonella with the inoculated side up. Individual trays were flushed with CO2 with make-up N2 gas for 0, 30, 70, or 100% of CO2 packages using a gas mixer (Gas Mixer KM-Flow, Witt-Gasetechnik, Deutschland, Germany), and sealed with a polypropylene-based barrier film (Toplex HB60, Plastopil Europe, Netherlands) using a tray sealer (Koch Kats 100 Single Head Tray Sealer, Ultra Source LLC, Kansas City, Missouri, USA). Immediately after sealing, headspace compositions in packages were verified with a headspace gas analyzer (CheckPoint-Handheld Gas Analyzer, Dansensor, DK-4100 Ringsted, Denmark). The packaged samples were then set at ambient temperature for at least 45 min so that the relative humidity in the packages reached > 80% (based on a preliminary test result with a gas/humidity logger) before IPCP treatments. Packaged samples were then stored in a 4°C cold room for 5 days after IPCP treatments.
+Inoculation with foodborne pathogens Salmonella and Campylobacter
+The microbiological protocols (including both inoculation and microbial analysis) used in this study were previously described in Rothrock et al. (2017) and
+Zhuang et al. (2019a)
+. In short, Campylobacter jejuni isolate and Salmonella Typhimurium isolate (both originally recovered from poultry carcasses rinses from a commercial poultry processing facility) were used during this study. The C. jejuni isolate was grown in Tryptic Soy Broth/Agar biphasic cultures, which were sealed in 2 gal Ziploc bags under under a hydrogen-enriched micro-aerobic atmosphere (7.5% H2, 2.5% O2, 10% CO2, and 80% N2) and incubated at 42°C, for 24 h (
+Lynch, Cagney, McDowell, & Duffy, 2010
+;
+Stintzi, 2003
+). The S. Typhimurium isolate was grown in Tryptic Soy Broth (TSB) at 37°C for 24 h at 200 rpm (
+Garrity, Bell, & Lilburn, 2005
+). After incubation, 5 mL of the C. jejuni or S. Typhimurium growth was added to 495 mL of 1 X phosphate buffered saline (PBS) to create the 106 cfu/mL inoculum, which was verified spectrophotometrically (OD600) based on a standard curve (we were targeting a specific OD600 range, which This allow us to perform the inoculation with the isolates, but was also then quantified the isolates using serial dilution plating to have a specific starting concentration from which to determine the log reduction of the treatments). The actual concentrations of inocula were 6.6 ± 0.3 log10 for Campylobacter and 6.9 ± 0.4 log10 for Salmonella. The inoculation process began by pipetting 75 mL of inoculum into a plastic food tray (CS979, Cryovac, Duncan, SC). Fillet core samples were placed skin side down in each tray so that only the surface sat in the liquid. The core samples soaked for 30 min to allow the microorganisms to attach to the surface. After soaking, the core samples were removed and allowed to drip for 5 min before they were placed in the tray package (
+Kronn et al., 2015
+).
+In-package DBD-IPCP treatment
+The same IPCP device as described by
+Kronn et al. (2015)
+was used in this study. The treatments were performed with a BK-130 AC dielectric test set consisting of a high voltage transformer, power supply, and control system (Phenix Technologies, Accident, Md.). Two 15.24 cm diameter spun-aluminum electrodes were connected to the high-voltage transformer. The two electrodes were arranged parallel to one another on the top and bottom of the sample. The electrodes were separated from the sample package by dielectric barriers and insulated from the bench with a yellow low-voltage electrical blanket (Velcro, 36 × 36 in, Class 0 Type 1, Salisbury standard rubber insulating blanket, Lab Safety Supply, Chicago, Ill.). The top electrode was connected to the 130 kV tap of the high-voltage transformer with a 1.09 m high-voltage spark plug wire (8.5 mm super conductor spark plug wire, MSD, El Paso, Tex.). For additional insulation, the high-voltage wire was fed through a 1.09 m length of Tygon tubing of 1.27 cm diameter. The bottom electrode was connected to the return terminal of the transformer with the supplied ground wire, and a jumper connected the ground and guard terminals. Before treatments, the system was warmed up with a sealed empty tray at 80 kV for at least 5 min. Sample packages were treated at 70 kV for 3 min. To ensure treatment consistency, meat package temperature

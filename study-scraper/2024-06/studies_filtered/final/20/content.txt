@@ -1,0 +1,132 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (49)
+Science of The Total Environment
+Volume 947
+, 15 October 2024, 174304
+Emissions of volatile organic compounds from Chinese coal-fired power plants: Characteristics, source profile, inventories, and impacts
+Author links open overlay panel
+Zhiqiang Fu a b
+,
+Wei Liu a b
+,
+Xiaoxuan Bai a b
+,
+Junqi Yang a b
+,
+Bobo Wu a b
+,
+Hezhong Tian a b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.scitotenv.2024.174304
+Get rights and content
+Highlights
+•
+Characteristics of 117 VOCs from CFPPs in China were investigated by field tests at four representative CFPPs.
+•
+Latest localized source profile for VOCs from CFPPs was established based on field tests and selected literature reviews.
+•
+The potential contributions of CFPP VOC emissions on secondary atmospheric pollutants were estimated.
+•
+The spatiotemporal variations in VOC emissions from CFPPs between 2018 and 2022 were analyzed.
+Abstract
+Volatile organic compounds (VOCs) are key precursors for secondary organic aerosols (SOA) and ozone, imposing severe impacts on human health and environment. Considering the massive coal consumption, coal fired power plants (CFPPs) in China are non-negligible VOCs contributors, whose emission characteristics remain inadequately understood. Here, we investigated emission characteristics of 117 VOCs by field tests in four typical CFPPs, and a latest localized CFPPs source profile was compiled by integrating literature reviews. Then speciated-VOCs emission inventories for 2018–2022 were established based on dynamic emission factors and unit-level activity data. The results suggested that oxygenated VOCs (OVOCs) constituted the dominant group (76.5 %), with propionaldehyde (32.0 %) and formaldehyde (24.5 %) being the predominant species. OVOCs (93.2 %) and aromatics (77.4 %) were identified as the primary contributors to ozone and SOA, respectively. Driven by both the rise in coal consumption and technological advancements, nationwide VOCs emissions decreased from 83,393 t in 2018 to 53,251 t in 2022. Regional disparities and varying rates of decline in provincial emissions were evident, with VOCs emissions predominantly concentrated in northern and eastern provinces. Neimenggu, Shandong, Shanxi, Jiangsu, and Guangdong were identified as the top five provinces with the highest emissions. We believe this study would be conducive to a more comprehensive understanding and effective control of VOCs emissions from CFPPs in China.
+Graphical abstract
+Download: Download high-res image (183KB)
+Download: Download full-size image
+Introduction
+For a long time, particulate matter and ozone have remained among the most significant air pollutants in China (Wang et al., 2020; Xiao et al., 2022), imposing severely negative impacts on human health and the environment (Ferrari et al., 2022; Abbasi-Kangevari et al., 2020; Lelieveld et al., 2015). The secondary organic aerosols (SOA) and surface ozone are both regarded as significant secondary air pollutants (Atkinson, 2000), primarily formed through complex atmospheric photochemical reactions (Huang et al., 2014; Sillman, 1999). Prior researches have indicated that volatile organic compounds (VOCs) are indispensable precursors for both SOA and ozone (Meng et al., 1997), and part of VOCs themselves are also toxic and harmful (Zhou et al., 2023). VOCs originate not only from terrestrial biosphere (Guenther et al., 2006) but also from anthropogenic sources (Zuo et al., 2024a). Although emissions from coal fired power plants (CFPPs) are much lower than those from sources like solvent use, CFPPs remain notable contributors in China due to their substantial coal consumption for power generation (Li et al., 2019, MEIC). Furthermore, advancements in the measurement of VOCs, including various species, are crucial for accurate emission estimation (von Schneidemesser et al., 2023). However, previous studies have primarily concentrated on key sources such as industrial activities and solvent usage, while investigations pertaining to VOCs from CFPPs remain relatively sparse.
+Generated from incomplete combustion of fuel in CFPPs, VOCs undergo complex physiochemical changes with the flue gas flowing out the chimney. Air pollution control devices (APCDs), including selective catalytic/non-catalytic reduction systems, dry/wet electrostatic precipitators, and wet flue-gas desulfurization systems, are widely equipped in CFPPs for the emission control of NOx, particulate matter, and SO2 (Tang et al., 2019). Part of VOCs could be synergistically removed by these APCDs owing to physiochemical processes like condensation, catalytic oxidation, adsorption, and absorption etc. (Sun et al., 2021), with the collaborative removal efficiency reaching over 80 % (Liu et al., 2020). There have been several field studies focusing on the local emission characteristics of VOCs from CFPPs, which varied with tested CFPPs and analytical methods. For studies with species number of the tested VOCs >40, the total mass concentration widely ranged from 290 to 19,652 μg·m−3 (Xu et al., 2022), and the compositional ratios of species groups or species showed visible inconsistency among those works. The most abundant VOCs group and species identified by Xu et al. (Xu et al., 2021a) were alkanes and 1-hexene, which were oxygenated VOCs (OVOCs) and ethyl acetate, alkenes and 1-butene, alkanes and isobutane in the work of Shi et al. (Shi et al., 2015), Yan et al. (Yan et al., 2016), and Wang et al. (Wang et al., 2022), respectively. Based on field measurements, local source profiles and emission factors for VOCs from CFPPs have been proposed, which have further promoted the more accurate estimation of speciated VOCs emissions and assessment on their impacts (Li et al., 2018; Lu et al., 2023; Mo et al., 2016; Sha et al., 2021).
+However, current understanding of VOCs from CFPPs in China remains inadequate and requires further updates and in-depth exploration. First, the inconsistency of analytical methods, especially the differences in the coverage of target VOCs species, lead to disparities among existing works (Xu et al., 2022). This further results in gaps and bias in source profiles and emission factors, consequently causing discrepancies in estimations on speciated VOCs emissions. What's more, the widespread and fast application of advanced clean and efficient power generation technologies in CFPPs (State Council, 2018), the rapid increase in installed capacities, and changes on special distribution of the industry in recent years (CEC, 2023), would inevitably reshape the characteristics and overall pattern of VOCs emissions from CFPPs in China (Zheng et al., 2018). In this study, field tests were conducted in four selected CFPPs to investigate status quo of VOCs emissions from CFPPs. By integrating selected existing source profiles and our results of field measurements, we then complemented target species and established a latest local VOCs source profile covering 117 species for CFPPs in China. Furthermore, speciated VOCs emissions from CFPPs during 2018–2022 were estimated by using bottom-up method, and their potential impacts were assessed. This study would be conducive to improvement on source apportionment (Brown et al., 2007), air quality modelling (Choi et al., 2020), and VOCs control policy making (Ou et al., 2015).
+Section snippets
+Sampling and analysis
+In this study, VOCs sampling was conducted at the inlet of stacks in four selected typical CFPPs, with operating conditions of the units remaining stable during sampling (sampling sites are detailed in Text S1 and Fig. S1). Equipped with efficient facilities to control nitrogen oxide, sulfur dioxide and particulate matter, 94 % of Chinese CFPPs had achieved ultra-low emission (ULE) by the end of 2022. CFPPs with larger installed capacity (>300 MW) and pulverized coal furnaces (PC) are
+Emission characteristics and source profile of VOCs from CFPPs
+Fig. 1 presents the concentrations of individual species, total mass concentrations and the proportions of seven groups of the 117 analyzed VOCs, showcasing variations across the four tested CFPPs. The average total mass concentration was 1243.9 μg/m3, ranging from 516.2 to 2924.0 μg/m3. On average, the top 10 VOCs species with the highest mass percentages for tested CFPPs were identified as acetone, i-propanol, propionaldehyde, vinyl chloride, formaldehyde, chloromethane, 3-methylpentane,
+CRediT authorship contribution statement
+Zhiqiang Fu: Writing – original draft, Visualization, Methodology, Data curation, Conceptualization. Wei Liu: Visualization, Methodology, Conceptualization. Xiaoxuan Bai: Visualization, Methodology, Conceptualization. Junqi Yang: Methodology, Conceptualization. Bobo Wu: Methodology, Conceptualization. Hezhong Tian: Writing – review & editing, Supervision, Funding acquisition, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgment
+This work was funded by the National Natural Science Foundation of China (22176014) and the National Key Research and Development Plan of China (2022YFC3700601, 2023YFC3708501). We would like to thank the editors and anonymous reviewers for their valuable suggestions and comments for improving this article.
+References (49)
+R. Atkinson
+Atmospheric chemistry of VOCs and NOx
+Atmos. Environ.
+(2000)
+S.G. Brown et al.
+Source apportionment of VOCs in the Los Angeles area using positive matrix factorization
+Atmos. Environ.
+(2007)
+W.P.L. Carter
+Development of the SAPRC-07 chemical mechanism
+Atmos. Environ.
+(2010)
+R.G. Derwent et al.
+Secondary organic aerosol formation from a large number of reactive man-made organic compounds
+Sci. Total Environ.
+(2010)
+G. Li et al.
+A comprehensive classification method for VOC emission sources to tackle air pollution based on VOC species reactivity and emission amounts
+J. Environ. Sci.
+(2018)
+J. Liu et al.
+Distribution and emission of speciated volatile organic compounds from a coal-fired power plant with ultra-low emission technologies
+J. Clean. Prod.
+(2020)
+X. Lu et al.
+A recent high-resolution PM2.5 and VOCs speciated emission inventory from anthropogenic sources: a case study of central China
+J. Clean. Prod.
+(2023)
+Z. Mo et al.
+Compilation of a source profile database for hydrocarbon and OVOC emissions in China
+Atmos. Environ.
+(2016)
+J. Ou et al.
+Speciated OVOC and VOC emission inventories and their implications for reactivity-based ozone control strategy in the Pearl River Delta region, China
+Sci. Total Environ.
+(2015)
+Q. Sha et al.
+A newly integrated dataset of volatile organic compounds (VOCs) source profiles and implications for the future development of VOCs profiles in China
+Sci. Total Environ.
+(2021)
+View more references
+Cited by (0)
+View full text
+© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+The observation of atmospheric HONO by wet-rotating-denuder ion chromatograph in a coastal city: Performance and influencing factors
+Environmental Pollution, Volume 356, 2024, Article 124355
+Baoye Hu, …, Lei Tong
+Probability and severity of climate change threats to natural world heritage sites vary across site specifics and over time
+Science of The Total Environment, Volume 946, 2024, Article 174291
+Martin Thomas Falk, Eva Hagsten
+Effects of microplastics and combined pollution of polystyrene and di-n-octyl phthalate on photosynthesis of cucumber ( L.)
+Science of The Total Environment, Volume 947, 2024, Article 174426
+Haoran Zhuang, …, Ziyu Lin
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

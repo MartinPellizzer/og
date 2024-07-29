@@ -1,0 +1,279 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Air
+All Article Types
+Advanced
+  Journals Air Volume 2 Issue 3 10.3390/air2030012
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Ling Tim Wong
+Subscribe SciFeed
+Recommended Articles
+Author Biographies
+Related Info Link
+More by Authors Links
+Article Views
+322
+Table of Contents
+Abstract
+Introduction
+Material and Methods
+Results and Discussion
+Conclusions
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Use of Artificial Intelligence
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Conditional Sampling of Passive Samplers: Application to the Measurement of 8 h Ozone and Nitrogen Dioxide Concentration
+by Ivo Allegrini
+1,*, Cinzia Perrino
+2, Elena Rantica
+2 and Federica Valentini
+3
+1
+Envint Srl, Via Paradiso 65a, Montopoli di Sabina, 02434 Rieti, Italy
+2
+CNR (National Research Council), Institute for Atmospheric Pollution Research, Monterotondo St., 00015 Roma, Italy
+3
+Department of Chemistry, University “Tor Vergata”, 00133 Rome, Italy
+*
+Author to whom correspondence should be addressed.
+Air 2024, 2(3), 209-219; https://doi.org/10.3390/air2030012
+Submission received: 27 April 2024 / Revised: 11 June 2024 / Accepted: 17 June 2024 / Published: 21 June 2024
+(This article belongs to the Topic Accessing and Analyzing Air Quality and Atmospheric Environment)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Review Reports Versions Notes
+Abstract
+Passive samplers have long been used to measure atmospheric pollutants in both indoor and outdoor environments. They are simple to operate, and can now monitor several chemical species. However, their use is limited because they usually require a long exposition time and provide a mean value that cannot control or evidence expected or non-expected events of environmental significance. A new apparatus specifically developed for exposing Analyst© passive samplers has been used to monitor ozone and nitrogen dioxide by automatically selecting a sampling duration of 8 h, as most legislation requires. The instrument was designed to accumulate ozone or NO2 in one passive sampler for 8 h over each day, and in another passive sampler for the remaining hours. This allows for a long-time accumulation of the 8 h ozone or nitrogen dioxide in a dedicated sampler. Measurements were carried out NE of Rome at a rural site. A description of the experiments is given, with special emphasis on the quality controls. Very low uncertainties and good comparability of the data with the reference methods were obtained for both pollutants.
+Keywords: ozone; nitrogen dioxide; passive samplers; air pollution monitoring
+1. Introduction
+While stratospheric ozone is beneficial as it exerts a filtering action against solar ultraviolet radiation, which is dangerous to human health, tropospheric ozone is one of the most important air pollutants and a major health hazard, whose effects have been recognised worldwide. These include acute effects such as eye and nose irritation, respiratory disease emergencies, and lung function impairment [1,2]. In addition, ozone exposure affects many vegetable species, reducing crop productivity, damaging cells, and causing the destruction of leaf tissue [3,4]. Exposure to ozone causes substantial damage to various materials such as rubber, plastics, fabrics, paint, and metals [5]. For these reasons, ozone has been one of the pollutants most closely targeted by public authorities over the past fifty years.
+The most important source of tropospheric ozone is the reaction of volatile organic compounds with nitrogen oxides under solar irradiation. The chemical reactions leading to ozone are also responsible for forming many other species that may be harmful even at low concentrations (e.g., PM2.5). In addition, by converting nitrogen oxide, ozone generates nitrogen dioxide, a critical pollutant whose limits have recently been proposed downwards in Europe.
+The need for protection against ozone pollution stimulated the enforcement of standards based on the occurrence of this pollutant in the ambient atmosphere. Some legislation still adopts a one-hour standard, but most legislation enforces a standard that considers the average concentration occurring over the central part of the day, when ozone maxima are observed. This parameter is known as the eight-hour average (8hO3). In October 2015, the US-EPA lowered the national eight-hour standard from 0.075 ppm to 0.070 ppm (about 150 µg/m3), while the current standard in the European Union is 120 µg/m3, to be exceeded no more than 25 days per year [6]. The WHO (World Health Organisation), in its Air Quality Guideline (AQG), established a recommended level of 60 μg/m3 during the “peak season”, which refers to the six consecutive months with the highest running average ozone concentration [7]. Within that timeframe, the ozone concentrations are averaged over a daily maximum 8 h mean concentration. In addition to this standard, the WHO recommends a limit value of 100 µg/m3 for the daily 8 h peak.
+A recent evaluation by the European Environmental Agency underlines that 21 reporting countries, including 15 EU (European Union) Member States, registered levels above the EU target value threshold of 120 µg/m3 [8]. All 34 reporting countries registered ozone levels above the WHO peak season guideline of 60 µg/m3 and above the WHO guideline of 100 µg/m3. This means that people living in most European locations are affected by ozone concentrations higher than the EU standard, and that approximately 94% of the European Union residents are exposed to ozone levels higher than those recommended by the WHO. These findings highlight the need for a diffuse ozone monitoring system, especially targeted to evaluate eight-hour data.
+Photometric automatic analysers providing ozone concentration data at high time frequency can be easily used to extract 8hO3 values. This method offers good accuracy and precision, as well as excellent sensitivity and interference rejection. Therefore, it has been selected by most legislation as the measurement reference method.
+Recently, some sensor-based instruments have also become available to monitor ozone. However, some of them do not show sufficient sensitivity, precision, and accuracy to be used even as indicative measurements, while some others are affected by changes in environmental parameters such as temperature, relative humidity, and the presence of interfering gases [9,10].
+Automatic analysers are expensive in terms of investment and maintenance, and are used in relatively small numbers. The European Directive in attachment IX [6] establishes the minimum number of ozone-monitoring stations in agglomerates according to the number of people living there. For instance, the recommended number of stations for large agglomerates of 2 million people is three. Although it conforms to the legislation, such coverage is not ideal, considering the effect of ozone on public health.
+The cost of investment and maintenance of automatic instruments, such as photometric instruments intended to be reference measurement methods, prevents, in many cases, a detailed assessment of ozone concentration; thus, alternative analytical systems can be of utmost interest. The use of these non-standard methods is allowed by the EU legislation in terms of preliminary assessment or indicative measurements. In these cases, the required precision and accuracy are below those established for the reference methods. For instance, measurements conforming to the reference method should have an uncertainty better than 15%, with time coverage of 90% in summer and 75% in winter. Indicative or preliminary assessment measurements should have uncertainties lower than 30% and minimum data coverage of 90%.
+Simpler measurement techniques for assessing air quality may offer a cost-effective alternative to conventional techniques for large-scale measurements to map the air quality distribution as required by the Directive. In principle, passive sampling represents a perfect tool to characterise areas where the limit values are expected to be exceeded and/or other assessment methods are needed to comply with EU legislation [11]. Passive samplers rely on diffusion to bring the pollutant into contact with a sorbent, offering a simple, low-cost, and effective monitoring system. Among diffusive samplers, the one based on the oxidation of nitrites to nitrates is the best candidate for ozone monitoring, and has been used in several measurement campaigns [12]. In addition, radial passive samplers characterised by a high sampling flow rate (81.5 ± 5.3 cm3 min−1) have been considered for individual eight-hour sampling [13,14]. However, these devices can only be used once, and several samplings and analyses are required to characterise the 8hO3 concentration fully.
+Since they are typically used over a very long sampling period, passive samplers only evaluate the average concentration of pollutants over the exposition time, losing any information related to its time evolution. To overcome this difficulty, a device for the automatic exposition of passive samplers has been developed. The instrument exposes passive samplers according to programmed timing over eight hours or specific inputs by the user. Then, ozone accumulates in the sampler only during this period, providing the average concentration of 8hO3. This approach was adopted for a testing campaign, in which the capability of the instrument and passive samplers to characterise ozone and nitrogen dioxide pollution during the eight-hour period was fully exploited.
+2. Material and Methods
+2.1. Measurement Site
+The experiments were conducted at the Arnaldo Liberti Observatory, a facility of the Institute of Atmospheric Pollution Research of the National Research Council of Italy. The Observatory is situated in Central Italy (42°06′ N, 12°38′ E) at 48 m above sea level. It is located less than 1 km from the Tiber River, about 5 km from the closest city, Monterotondo (about 40.000 inhabitants), about 20 km from the outskirts of Rome and 30 km from its centre, about 45 km from the coast of the Tyrrhenian Sea. Most of the land surrounding the station can be attributed to meadows and low-intensity agricultural areas.
+The transport of air masses from the urban area of Rome, located to the SW, generally occurs during the sea breeze (early afternoon) and affects the hourly ozone concentration. In addition to horizontal transport, vertical mixing of the atmosphere is the main parameter influencing the concentration of ozone and other pollutants in the test area.
+2.2. Measurement Protocols
+The measurements were performed over five periods from September 2021 to February 2022. The sampling instruments were programmed to measure both 8hO3 and Not8hO3 (ozone during the other periods of the day). Of course, the sum of the two terms equals the daily ozone mean concentration, and the term 24hO3 can be calculated as (8hO3 ∗ 8 + Not8hO3 ∗ 16)/24 = 24hO3.
+The measurement of 24hO3 was also carried out experimentally by continuously exposing a set of dedicated passive samplers side-by-side to the automatic exposition instrument for the whole duration of each experiment. This schedule allowed for a check of the self-consistency of the measurements.
+To increase the reliability of the study design, each measurement was carried out in triplicate. Also, in each test, three passive samplers were co-located near the automatic exposition instruments and were not exposed, serving as field blanks. The same protocol was adopted for the measurement of nitrogen dioxide. The sampling protocol is summarized in Table 1, together with the main meteorological parameters recorded during the sampling periods.
+Table 1. Sampling protocol.
+2.3. Passive Samplers and Analysis
+The passive samplers used in the experiment are based on the “Analyst” design [15]. It is an “axial type” passive sampler, consisting of a cylinder with the active surface for pollutant adsorption at one end. In the open end, an anti-turbulence ring allows for a reproducible adsorption rate, which becomes largely independent of wind speed and turbulence. The active surface for nitrogen dioxide consisted of a carbon paper filter coated with a solution of 1% (w/v) sodium carbonate + 1% (w/v) glycerine in water/ethanol.
+The active surface of the passive sampler intended for ozone is a disk of a microfiber filter impregnated with an alkaline 1% solution of sodium nitrite. The use of sodium nitrite allows for the sampling of ozone with good sensitivity, precision, and accuracy. Laboratory and field comparisons with the automatic analysers confirmed the good performance of the passive sampler [12]. However, to achieve such good results, the active surface of ozone should be protected from light because the nitrite ion is sensitive to solar radiation. Therefore, the ozone sampler is made of a black plastic body, and the active surface is placed in front of the bottom of the sampler, as shown in Figure 1. The configuration of passive samplers used for nitrogen dioxide is the classical Analyst design, where the active surface is at the bottom of the cylinder.
+Figure 1. Basic design of passive samplers for ozone and nitrogen dioxide.
+For the analyses of the diffusive sampler, the filters were extracted by adding 3 mL of a buffer solution containing 0.3 mM NaHCO3 and 2.7 mM NaCO3 directly into the sampler. The solution was then stirred for 30 min using a Vibromix (model 203 EVT, Tehtnica, Železniki, Slovenia), and then was analysed using ion chromatography for nitrite and nitrate ions (ICS1000, Dionex Co., Sunnyvale, CA, USA).
+To evaluate the blank values, we considered both the analytical detection limits and the values of the field blanks. These are diffusive samplers set in parallel to the sampling ones, but are kept closed during the entire sampling duration.
+In the case of NO2, the nitrite values in the field blanks were always below the analytical detection limit (10 ppb). In the case of ozone, the analytical detection limit of nitrate was 15 ppb, and the blank values were 169 ± 67 ppb (N = 12). For these determinations, the blank values of each trial were subtracted from the corresponding analytical results. The lower detectable air concentrations of O3 and NO2 for sampling times between 1 and 30 days are reported in Table 2. LOD values were calculated by assuming that the apparent flow rates for the two pollutants were 10.6 ± 0.5 and 12.3 ± 0.7 mL min−1, respectively. Although passive samplers can also be used down to very short time periods, the Analyst was designed to measure the average pollution level over several days. Accordingly, although the LODs for 1-day sampling periods appear to be quite high, considering the typical exposition time (about 15 days or more), the data in Table 2 show that the performance of the passive samplers is excellent.
+Table 2. Limits of detection (LOD) for nitrogen dioxide and ozone.
+To evaluate the repeatability, 15 series of triplicate measurements for exposition times between 5 and 20 days were performed. The repeatability values consider the variability of both the sampling and analytical steps. The standard deviation of each set of measurements was 3.9–12.7% for NO2 and 2.1–14.7% for ozone, and the distribution of the results was not dependent on the concentration of the samples.
+These results show that the uncertainty of the measurements can be much better than the 30% set by the EU legislation for indicative and preliminary measurements. The measurement of ozone and nitrogen dioxide for an exposition time of more than one week is sufficiently accurate, and the method is suitable for the indicative measurement of pollutants.
+2.4. Instrument for Automatic Exposition
+In this research, an instrument presented in a previous study houses the automatic exposure of passive samplers [16]. The instrument is specifically designed for Analyst passive samplers, and can simultaneously perform sampling on one or more passive samplers through date, event, and time programming. It can start or interrupt sampling according to predefined conditions and restart sampling when they are satisfied. In addition, the sampler records ambient temperature and relative humidity, and can read several analogical inputs from other sensors and analysers. An important feature of the instrument is the relatively low cost that makes it suitable for applications in ambient air monitoring.
+The basic design of the sampler is depicted in Figure 2. It consists of two plates 220 mm in diameter. The upper plate accommodates up to six passive samplers with anti-turbulence nets to avoid excess sampling due to air turbulence; the bottom plate has holes corresponding to the position of the samplers. When the holes are open, the passive samplers operate. When the holes are closed with plastic plugs, the passive samplers are closed, and sampling does not occur. For the selection of passive samplers, one motor separates the two plates, while another motor rotates the mobile plate to open or close the corresponding passive sampler. Different sampling combinations and applications are possible by changing the passive sampler position and the distribution of holes and plugs.
+Figure 2. Schematic diagram of the sampler instrument PAS06/15.
+For this experiment, the fixed plate was equipped with two sets of three passive samplers for ozone: one intended for 8hO3 time periods, and the other set off the 8hO3 periods (Not8hO3). The switching to and from the two sets is time-programmed to activate the 8hO3 period between 10:00 a.m. and 06:00 p.m. Measurements carried out in most locations, including the sampling station, indicate that the interval of 8hO3 (maximum O3 concentration) occurs during this period.
+Figure 3a shows the typical configuration used during the ozone test. The fixed plate hosts three passive samplers for measuring 8hO3 (in red) and three samplers for Not8hO3 (in yellow). The mobile plate has three consecutive open holes through which sampling occurs, whereas the other three holes are plugged and do not allow for air sampling. The configuration shown in the Figure allows for the sampling of passive samplers intended for 8hO3 only. At 06:00 p.m., the mobile plate rotates 180° to enable the Not8hO3 passive samplers to be sampled.
+Figure 3. (a) Arrangement of passive samplers and plugs/holes used in the monitoring campaign. (b) Arrangement of single passive samplers and plugs/holes for monitoring ozone (in yellow) and nitrogen dioxide (in red).
+Cycling between 8hO3 and Not8hO3 allows for the accumulation of pollutants in the proper passive samplers so that, at the end of sampling, each sample will allow for the determination of the mean ozone concentration during the selected time frame and period. This information is not the same as that required by the Directive (one data per day), but it provides a good estimation of the impact of ozone peaks on public health during the 8 h critical period.
+The configuration for the monitoring of nitrogen dioxide is similar to that for ozone already described in Figure 3. Therefore, two instruments have been used for the monitoring campaign. It is worth stressing that the planning of the experiment required the evaluation of internal precision of the method by exposing passive samplers in triplicate. Using one passive sampler per each measurement, it would be possible to use only one instrument equipped with four passive samplers (two for Ozone and two for NO2), as it is shown in Figure 3b.
+Switching from 8h to Not8h is provided by rotating the mobile plate by 60° and back.
+2.5. Reference Analysers
+Ozone and nitrogen oxide reference analysers were provided by Teledyne API (San Diego, CA, USA), as follows: a model T400 UV Absorption analyser for ozone, and a model 200E chemiluminescence analyser for NOx. These instruments were calibrated according to manufacturer protocol.
+3. Results and Discussion
+The objective of the experiments was to demonstrate that the system based on the sampler PAS06/15 and passive samplers for ozone and nitrogen dioxide was able to determine the parameter 8hO3. The dataset collected during the test periods was evaluated in terms of reproducibility, accuracy, and self-consistency.
+3.1. Field Blanks
+Field blanks for ozone showed average nitrate values of 169 ppb in the 3 mL extraction solution (corresponding to 506 ng total nitrate) with a standard deviation of 67 ppb (39%) for 15 samples. Individual data per period consistently showed low blanks, usually less than 10% of the observed ambient concentration, indicating that the blanks do not strongly affect the performance of the analytical system. The field blank values were subtracted from the concentrations observed in the operating passive samplers. As mentioned before, the blank values for nitrogen dioxide were near zero.
+3.2. Field Data: Ozone
+Field data concerns experimental data relevant to 8h, Not8h, and 24h for ozone and nitrogen dioxide. The average amount of nitrate in the extraction solution of the passive samplers intended for ozone was 3.79 µg, while the average blanks were 0.54 µg. After the blank correction, the average concentrations in the atmosphere can be obtained. The individual triples of exposed passive samplers showed standard deviations between 2.1 and 14.7%, confirming a good reproducibility among the samplers.
+Table 3 reports the concentration data relevant to the ozone tests (left section of Table) and the results of the self-consistency tests (right section of Table). Self-consistency can be evaluated by comparing the sum of analytes found in the time intervals 8hO3 and Not8hO3 with that determined experimentally in the overall 24 h samples (expressed in micrograms) and calculating the ratio R of the two data. Since the two sets of data are independent, this comparison offers a significant parameter to assess the reliability of the method.
+Table 3. Results for the monitoring of ozone.
+The data in Table 3 show that the average consistency ratio is very close to one. Ozone concentrations were relatively low compared with the current standards, being less than 60 µg/m3, and the amount of 8hO3 was higher than that of Not8hO3, with an average ratio near 2 (1.97 with a standard deviation of 0.11). In fact, most ozone recorded at the sampling site is the result of vertical fumigation and horizontal transport, which is very effective during the daytime.
+Data gathered from passive samplers were compared with those obtained with the automatic analysers, cited in 2.5. The results of three tests for each sampling period (four tests for 24hO3) are reported in Figure 4.
+Figure 4. Comparison of responses from passive samplers and reference analysers for ozone.
+The agreement between the two methods is satisfactory, since the correlation between the two data shows an R2 value of 0.90 and an intercept of 0.2. The slope of the regression line is 0.8, indicating that the results of passive samplers are about 20% less than the values recorded with the analyser. In addition to the cited effect of ambient light on nitrite ions, a possible reason for this inconsistency is the so-called “starvation”, occurring when the wind speed is low. However, for the analyst, passive samplers starvation start at wind speeds below 0.15 m/s [17]. However, a total uncertainty of 20% can be considered a good result, and the devices can be considered to be suitable to evaluate air quality in preliminary assessments and to integrate data from fixed stations.
+3.3. Field Data: Nitrogen Dioxide
+As stated previously, the field blanks of passive samplers intended for nitrogen dioxide are near zero; therefore, blank corrections are not necessary. The average amount of analyte (nitrite ions) in the extraction solution of the four tests was 2.84 µg, corresponding to an average concentration of 17.8 µg/m3. A Table similar to that reported for ozone is reported below, showing nitrogen dioxide concentrations in µg/m3 (left section of Table 4) and the mass of analyte for the evaluation of the self-consistency (sum of 8hNO2 and Not8hNO2 compared with the measured 24hNO2, right section of Table).
+Table 4. Results for the monitoring of nitrogen dioxide.
+For nitrogen dioxide, the consistency data show that the sum of the analytes was, on average, higher than that obtained on 24 h samplers. The average ratio was 1.16, with a low standard deviation (0.02). The deviation between the data is about 15%, which is still a good result. A possible explanation for the lower amount found in the 24 h samples may be due to continuous exposure to solar radiation, which may partially reduce the nitrite formed on the active surface by photolysis. While the samplers for 8hNO2 and Not8hNO2 are contained in instrument PAS06, the samplers intended for 24hNO2 are directly exposed to air.
+Even for nitrogen dioxide, the concentrations found during the test period were much smaller than the standards (40 and 200 µg/m3 as yearly and hourly average, respectively), as was expected for this semi-rural measurement site. Nitrogen dioxide does not show a clear difference between 8hNO2 and Not8hNO2 because the dynamics of the formation and removal of these species are very complex, and the system is very sensitive to local emissions and atmospheric chemical and physical properties. Over time, NO2 is generated by the reaction of ozone with nitrogen oxide, but it is removed by photolysis and vertical turbulence. In this measurement site, which is not urban, morning rush hour peaks are not pronounced, and are included in the Not8hNO2 period. Moreover, during the Not8hNO2, prevailing conditions of atmospheric stability prevent the dilution of NO2, increasing its concentration.
+A comparison of the passive sample data with the reference analyser is shown in Figure 5 (three tests for 8hNO2 and Not8hNO2, four tests for 24hNO2).
+Figure 5. Comparison of responses from passive samplers and reference analyser for nitrogen dioxide.
+The agreement between the methods is quite good, since the average concentration recorded with the analyser was 13.48, while the average concentration found on passive samplers was 15.22. Then, the two data sets differ by 13%. In this case, regression analysis is unsuitable, since the individual data variability is low, i.e., the concentration of nitrogen dioxide at the sampling site was quite constant.
+4. Conclusions
+For the first time, a time-programmed passive sampler system addressed to the monitoring of ozone was used, allowing for the direct evaluation of 8hO3, a metric that almost all legislations take into consideration to protect people exposed to excess ozone.
+The experiment described in this paper demonstrates that passive samplers can conveniently monitor air pollution under a programmed sequence. The program depends on time; in this case, it was used to evaluate the 8hO3 data. However, the instrument can also be programmed under specific events sensed using an I2C interface. In addition, the flexibility offered by the set plugs-holes in the mobile plate opens up a great deal of applications for monitoring air pollutants in ambient and indoor environments.
+The performance of the system, according to the good values of auto-consistency and comparison with the reference instrument, is such that it can be conveniently used for indicative and preliminary monitoring. For this kind of assessment, the Directive states that the uncertainty should be less than 30%, while the data gathered in this experiment show a maximum uncertainty of 20%. In addition, the minimum data coverage of 90% is assured because pollutants accumulate on an individual passive sampler and are collected every day. In addition, it should be stressed that a comparison addressed to the full evaluation of the system in terms of certification according to the Directive requires measures in several locations and in several periods of time, and possibly with ambient concentrations within the limit value for the considered pollutant.
+The scope of this experiment was to evaluate the possibility of gathering 8hO3 through a simple system based on the use of passive samplers, and was not addressed to a certification. We believe that the goal has been reached, opening new strategies for the monitoring of atmospheric pollutants.
+Author Contributions
+Conceptualization: I.A. and C.P., Methodology: C.P., E.R. and I.A. Validation: F.V. and C.P. All authors have read and agreed to the published version of the manuscript.
+Funding
+This research was funded by the Italian Ministry for Economic Development (MISE), project “Brevetti+”, BRE0000220.
+Institutional Review Board Statement
+Not applicable.
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+Data available on request by ivo.allegrini@tiscali.it.
+Use of Artificial Intelligence
+AI or AI-assisted tools were not used in drafting any aspect of this manuscript.
+Conflicts of Interest
+The authors declare no conflict of interest.
+References
+Wang, Y.; Wild, O.; Chen, X.; Wu, Q.; Gao, M.; Chen, H.; Qi, Y.; Wang, Z. Health impacts of long-term ozone exposure in China over 2013–2017. Environ. Int. 2020, 144, 106030. [Google Scholar] [CrossRef] [PubMed]
+Holm, S.M.; Balmes, J.R. Systematic review of ozone effects on human lung function, 2013 through 2020. Chest 2022, 161, 190–201. [Google Scholar] [CrossRef]
+Grulke, N.E.; Heath, R.L. Ozone effects on plants in natural ecosystems. Plant Biol. 2020, 22, 12–37. [Google Scholar] [CrossRef] [PubMed]
+Juráň, S.; Grace, J.; Urban, O. Temporal changes in ozone concentrations and their impact on vegetation. Atmosphere 2021, 12, 82. [Google Scholar] [CrossRef]
+Shen, J.; Gao, Z. Ozone removal on building material surface: A literature review. J. Affect. Disord. 2018, 134, 205–217. [Google Scholar] [CrossRef]
+World Health Organization. WHO Global Air Quality Guidelines: Particulate Matter (PM2.5 and PM10), Ozone, Nitrogen Dioxide, Sulfur Dioxide and Carbon Monoxide; World Health Organization: Geneva, Switzerland, 2021; p. 97. Available online: https://iris.who.int/handle/10665/345329 (accessed on 26 April 2024).
+European Environmental Agency (EEA). Europe’s Air Quality Status 2023. Publised 24 April 2023. Available online: https://www.eea.europa.eu/publications/europes-air-quality-status-2023 (accessed on 26 April 2024).
+Spinelle, L.; Gerboles, M.; Villani, M.G.; Aleixandre, M.; Bonavitacola, F. Field calibration of a cluster of low-cost available sensors for air quality monitoring. Part A: Ozone and nitrogen dioxide. Sensors Actuators B Chem. 2015, 215, 249–257. [Google Scholar] [CrossRef]
+Broday, D.M.; Citi-Sense Project Collaborators. Wireless distributed environmental sensor networks for air pollution measurement—The promise and the current reality. Sensors 2017, 17, 2263. [Google Scholar] [CrossRef]
+EC Directive 2008/50/EC of the European Parliament and of the Council of 21 May 2008 on Ambient Air Quality and Cleaner Air for Europe, Attachment. IX; UK Legislation: London, UK, 2020.
+Saitanis, C.J.; Sicard, P.; De Marco, A.; Feng, Z.; Paoletti, E.; Agathokleous, E. On the atmospheric ozone monitoring methodologies. Curr. Opin. Environ. Sci. Heal. 2020, 18, 40–46. [Google Scholar] [CrossRef]
+De Santis, F.; Dogeroglu, T.; Menichelli, S.; Vazzana, C.; Allegrini, I. The use of a new passive sampler for ozone and nitrogen oxides monitoring in ecological effects research. Sci. World J. 2001, 1, 475–482. [Google Scholar] [CrossRef] [PubMed]
+Plaisance, H.; Gerboles, M.; Piechocki, A.; Detimmerman, F.; de Saeger, E. Radial diffusive sampler for the determination of 8-h ambient ozone concentrations. Environ. Pollut. 2007, 148, 1–9. [Google Scholar] [CrossRef] [PubMed]
+Gülnihal, K. Development of a highly sensitive sampler for atmospheric monitoring of 8-H ambient ozone concentrations. Environ. Eng. Res. 2020, 25, 938–945. [Google Scholar]
+Bertoni, G.; Tappa, R.; Allegrini, I. Assessment of a new device for the monitoring of benzene and other volatile aromatic compounds in the atmosphere. Ann. Chim. 2000, 90, 249–263. [Google Scholar]
+Allegrini, I. A new device for automatic exposition of passive samplers in air pollution monitoring. Mod. Environ. Sci. Eng. 2018, 4, 712–718. [Google Scholar]
+Bertoni, G.; Tappa, R.; Allegrini, I. The internal consistency of the ‘analyst’ diffusive sampler—A long-term field test. Chromatographia 2001, 54, 653–657. [Google Scholar] [CrossRef]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Allegrini, I.; Perrino, C.; Rantica, E.; Valentini, F. Conditional Sampling of Passive Samplers: Application to the Measurement of 8 h Ozone and Nitrogen Dioxide Concentration. Air 2024, 2, 209-219. https://doi.org/10.3390/air2030012
+AMA Style
+Allegrini I, Perrino C, Rantica E, Valentini F. Conditional Sampling of Passive Samplers: Application to the Measurement of 8 h Ozone and Nitrogen Dioxide Concentration. Air. 2024; 2(3):209-219. https://doi.org/10.3390/air2030012
+Chicago/Turabian Style
+Allegrini, Ivo, Cinzia Perrino, Elena Rantica, and Federica Valentini. 2024. "Conditional Sampling of Passive Samplers: Application to the Measurement of 8 h Ozone and Nitrogen Dioxide Concentration" Air 2, no. 3: 209-219. https://doi.org/10.3390/air2030012
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views21. Jun23. Jun25. Jun27. Jun29. Jun1. Jul3. Jul5. Jul7. Jul9. Jul11. Jul13. Jul15. Jul17. Jul19. Jul21. Jul23. Jul0100200300400
+Multiple requests from the same IP address are counted as one view.
+
+
+Air, EISSN 2813-4168, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

@@ -1,0 +1,14 @@
+**Paragraph 1**
+Urban green spaces (UGS) have been widely advocated as a means of mitigating urban atmospheric pollution. However, this study reveals that UGS can exacerbate ozone (O3) levels in certain conditions. Specifically, the high-resolution modeling study conducted by Wang et al. (2024) suggests that biogenic volatile organic compounds (BVOCs) emitted from UGS can have a significant impact on O3 formation.
+
+**Paragraph 2**
+To assess the impact of UGS-related BVOC emissions on urban O3, Wang et al. (2024) utilized the Weather Research and Forecasting Model with the Model of Emissions of Gases and Aerosols from Nature (WRF-MEGAN) and the Community Multiscale Air Quality (CMAQ) model with a high horizontal resolution of 1 km. The WRF-MEGAN model was used to estimate BVOC emissions, while the CMAQ model was employed to simulate O3 concentrations. Additionally, land use cover changes (LUCC) were also integrated into the models.
+
+**Paragraph 3**
+The results of the study indicate that UGS-BVOC emissions in Guangzhou amounted to 666.49 Gg, primarily from isoprene (ISOP) and terpenes (TERP). These emissions contributed approximately 30% of urban ISOP concentrations and significantly improved simulation biases for NO2 and O3 against observations. The study also shows that the integration of UGS-BVOC and LUCC into air quality models enhanced surface monthly mean O3 predictions by 3.6-8.0 μg/m3 (+3.8-8.5%) and contributed up to 18.7 μg/m3 (+10.0%) to maximum daily average 8-hour (MDA8) O3 levels during ozone pollution episodes.
+
+**Paragraph 4**
+The findings of this study highlight the importance of considering BVOC emissions from UGS in air quality modeling. The results suggest that UGS-BVOC emissions can have a significant impact on urban O3 levels, particularly during ozone pollution episodes. Additionally, the study underscores the need to select low-emission vegetation and refine vegetation classification in urban planning to mitigate the effects of UGS on O3 formation.
+
+**Paragraph 5**
+In conclusion, this high-resolution modeling study demonstrates that UGS-BVOC emissions can significantly impact urban O3 levels in Guangzhou. The results highlight the importance of considering BVOC emissions from UGS in air quality modeling and underscore the need for selecting low-emission vegetation and refining vegetation classification in urban planning. Further research is needed to better understand the mechanisms underlying UGS-BVOC-O3 interactions and to develop effective strategies for mitigating the effects of UGS on O3 formation.

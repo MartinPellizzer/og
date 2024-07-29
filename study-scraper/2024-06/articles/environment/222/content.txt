@@ -1,0 +1,14 @@
+**Paragraph 1**
+The global rubber industry is seeking alternatives to traditional antiozonants due to environmental toxicity concerns. The development of new antiozonants relies on understanding the fundamental physical parameter of ozone-induced tearing energy threshold for crack growth in rubber products. This study presents a novel experimental-numerical approach to determine this threshold, which is essential for assessing the resistance of rubber to ozone crack growth.
+
+**Paragraph 2**
+The proposed methodology combines in-situ optical analysis of ozone crack growth on the rubber surface with finite element method (FEM) simulations using Ansys software. The approach involves stretching the rubber specimen and measuring the crack growth rate under different ozone concentrations. The calculated energy release rates are then compared to experimentally measured crack growth rates to determine the threshold tearing energy.
+
+**Paragraph 3**
+The study found that the tearing energy threshold for carbon black reinforced natural rubber exposed to ozone was a maximum of 2.12 J/m2, which is 96% lower than the threshold for non-ozone-exposed specimens. This value represents the critical tearing energy required for crack growth under ozone exposure.
+
+**Paragraph 4**
+The results highlight the importance of understanding the interaction between initiated cracks and the role of stress relief in reducing the energy release rate. The proposed methodology provides a powerful tool for efficiently developing environmentally friendly antiozonants, which is crucial for improving the sustainability of rubber products.
+
+**Paragraph 5**
+In conclusion, this study demonstrates the feasibility of determining the ozone-induced tearing energy threshold using an experimental-numerical approach. The results provide valuable insights into the mechanisms of ozone crack growth in rubber and offer a promising solution for developing sustainable antiozonants that mitigate environmental toxicity concerns.

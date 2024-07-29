@@ -1,0 +1,304 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular/Main.js
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Remote Sensing
+All Article Types
+Advanced
+  Journals Remote Sensing Volume 16 Issue 13 10.3390/rs16132369
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Daniele Bortoli
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+505
+Table of Contents
+Abstract
+Introduction
+Equipment and Sites
+Results
+Discussion
+Conclusions
+Author Contributions
+Funding
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Accuracy Evaluation of Differential Absorption Lidar for Ozone Detection and Intercomparisons with Other Instruments
+by Guangqiang Fan
+1, Bowen Zhang
+1,2, Tianshu Zhang
+1,*, Yibin Fu
+1, Chenglei Pei
+3, Shengrong Lou
+4, Xiaobing Li
+5, Zhenyi Chen
+6 and Wenqing Liu
+1
+1
+Key Laboratory of Environmental Optics and Technology, Anhui Institute of Optics and Fine Mechanics, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei 230031, China
+2
+Science Island Branch, Graduate School, University of Science and Technology of China, Hefei 230026, China
+3
+Guangzhou Environmental Monitoring Center, Guangzhou 510030, China
+4
+State Environmental Protection Key Laboratory of Formation and Prevention of the Urban Air Pollution Complex, Shanghai Academy of Environmental Sciences, Shanghai 200233, China
+5
+Guangdong-Hongkong-Macau Joint Laboratory of Collaborative Innovation for Environmental Quality, Institute for Environmental and Climate Research, College of Environment and Climate, Jinan University, Guangzhou 511443, China
+6
+School of Light Industry Science and Engineering, Beijing Technology and Business University, Beijing 100048, China
+*
+Author to whom correspondence should be addressed.
+Remote Sens. 2024, 16(13), 2369; https://doi.org/10.3390/rs16132369
+Submission received: 10 May 2024 / Revised: 25 June 2024 / Accepted: 25 June 2024 / Published: 28 June 2024
+(This article belongs to the Special Issue Stereoscopic Remote Sensing of Air Pollutants: Emission, Formation, and Transport)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Differential absorption lidar is an advanced tool for investigating tropospheric ozone transport and development. High-quality differential absorption lidar data are the basis for studying the temporal and spatial evolution of ozone pollution. We assessed the quality of the ozone data generated via differential absorption lidar. By correcting the ozone lidar profile in real-time with an atmospheric correction term and comparing the lidar data to ozone data collected using an unmanned aerial vehicle (UAV), we quantified the statistical error of the ozone lidar data in the vertical direction and determined that the data from the two instruments were generally in agreement. To verify the reliability of the ozone lidar system and the atmospheric correction algorithm, we conducted a long-term comparison experiment using data from the Canton Tower. Over the two months, the UAV and lidar data were consistent with one another, which confirmed the viability of the ozone lidar optomechanical structure and the atmospheric correction algorithm, both in real-time and over a given time duration. In addition, we also quantified the relationship between statistical error and signal-to-noise ratio. When the SNR is less than 10, the corresponding statistical error is about 40%. The statistical error was less than 15% when the signal-to-noise ratio was greater than 20, and the statistical error was mostly less than 8% when the signal-to-noise ratio was greater than 40. In general, the statistical error of the differential absorption lidar data was inversely proportional to the signal-to-noise ratio of each echo signal.
+Keywords: ozone DIAL; atmospheric correction; error analysis; remote sensing
+1. Introduction
+Ozone in the troposphere plays a central role in the oxidation of chemically and climatically relevant trace gases [1]. Urban ozone is photo-chemically produced from nitrogen oxides and volatile organic compounds (VOCs) from primarily anthropogenic sources [2,3]. In recent years, ozone pollution has been a recurring problem throughout China, especially in central and southern China [4,5,6,7]. Researchers have developed a variety of detection methods to measure the types and concentrations of air pollutants in the atmosphere, including balloons with ozone sondes [8,9,10], tethered balloons [11,12,13], unmanned aerial vehicles (UAV) [14,15], satellites [16,17,18], and lidar. Except for lidar, these methods are limited to only collecting ozone profile data at one point in time; lidar can detect vertical variations in ozone characteristics both temporally and spatially.
+Differential absorption lidar is based on the principle that gases absorb light wavelengths differently, depending on the types and concentrations of gases present in a given area [19,20,21,22]. In this method, a transmitter emits two laser pulses with different wavelengths; those laser pulses can be strongly absorbed by the atmospheric gases, weakly absorbed, or not absorbed at all. The differential absorption of the two laser pulses by the gas defines a common laser pulse path that can be used to determine the concentration of the gas in the vertical direction. Differential absorption lidar is a powerful tool for continuously monitoring the spatial and temporal distribution of ozone in the troposphere with high resolution and accuracy. The researchers developed a series of differential absorption lidar systems for ozone monitoring. For example, the University of Alabama developed a differential absorption lidar system based on two wavelength-tunable dye lasers and three telescopes. The system can measure the ozone concentration profile of 0.125~12 km [23]. The Langley mobile ozone lidar was built and utilized a Ce:LiCAF laser to produce 286 nm and 291 nm ultraviolet lasers. The system provided ozone profiles from the ground to approximately 4 km and had been validated by numerous ozone launches. This technique is the latest detection technique in differential absorption lidar of ozone, and it is also a rare technique to measure the vertical profile of ozone with high repetition frequency [24]. Deutsches and Raumfahrt developed a pulsed optical parametric oscillator with intracavity sum-frequency mixing generating energies of up to 16 mJ in the 281–293 nm wavelength range and built a very compact set-up and stable and reliable operation. This system was successfully employed to measure tropospheric ozone [25]. Other studies used excimer lasers or Nd:YAG lasers as pumping light sources and pumped H2, D2 [26], and CO2 reactive gas Raman media to produce Stokes lights as differential absorption sources for ozone detection. The ozone profiling atmospheric lidar developed by National Oceanic and Atmospheric Administration (NOAA) is a scanning four-wavelength ultraviolet differential absorption lidar that measures tropospheric ozone and aerosols [27]. The ozone data ranged from 280 m to about 1.2 km with 100 m resolution. The Nd:YAG quadruply-frequency 266 nm laser pumped D2 and H2 mixed gas Raman cell to produce 289 nm and 299 nm wavelength laser as the light source for detecting tropospheric ozone, and 355 nm laser as the light source for aerosol measurement. The meteorological research institute developed and evaluated a UV ozone differential-absorption lidar utilizing a Nd:YAG laser and a single Raman cell filled with carbon dioxide, the observations confirmed that 30 min of integration were sufficient to observe ozone concentration profiles up to 10 km [28]. The Tropospheric Ozone Lidar Network (TOLNet) [29] was formed by National Aeronautics and Space Administration (NASA) in conjunction with NOAA, the University of Alabama, and Environmental and Climate Change Canada. TOLNet is a unique network of lidar systems that measure high-resolution atmospheric profiles of ozone. TOLNet provided time and space distribution measurements of ozone from the planetary boundary to the top of the troposphere for scientific research, satellite validation, and model evaluation.
+As differential absorption lidar is a vital tool in the effort to quantify ozone pollution in time and space [30,31], researchers must constantly evaluate the quality of differential absorption lidar data to ensure that their conclusions and recommendations are backed by robust data. Lidar data are primarily assessed in two ways: detection accuracy and detection height, and detection reliability analysis (e.g., deformation of instrument optics may cause signal misalignment).
+Before 2017, an ozone lidar system was developed based on the Q-smart 850 laser developed by Quantel (Les Ulis Cedex, France) and self-developed Raman tube, known as the first-generation ozone lidar. This technology scheme is widely used in environmental monitoring systems and it is necessary to conduct a detailed assessment of the accuracy of this system. From 2018 to 2020, efforts were focused on developing a second-generation ozone lidar system based on self-developed solid-state Raman light sources. For a detailed introduction of the second-generation ozone lidar, please refer to [32]. From 2020 to 2023, a third-generation ozone lidar system was developed, which has full independent intellectual property rights from the pump source to the Raman light source. Currently, there is the capacity to conduct a systematic assessment of the accuracy of these three generations of ozone lidar. This study is the first work in this series.
+The ozone differential absorption lidar includes a high-efficiency Raman frequency-shifting source and a multi-wavelength grating spectrometer. We compared the ozone lidar data to additional data collected via a personal ozone monitor (POM) in a UAV, which verified the accuracy of the ozone lidar data and the detection height. This comparison also enabled us to determine the detection errors of the ozone lidar results through statistical analyses.
+Using lidar and the ultraviolet method analyzer at the Canton Tower, we conducted a long-term joint observation experiment from September to November of 2017 in Guangzhou. Ozone mass concentrations measured at a height of 498 m (Canton Tower) and 495 m (ozone lidar) with both methods were comparable, a finding which validates the accuracy and reliability of the ozone lidar data. Finally, we quantified the relationship between statistical errors within the lidar data and the signal-to-noise ratio (SNR), which allows us to quickly and accurately determine the quality of any given set of ozone lidar data.
+2. Equipment and Sites
+2.1. Ozone Lidar
+2.1.1. Lidar Equation
+A differential absorption laser echo signal can be expressed as [33]:
+P λ i , z = C i β λ i , z z 2 e x p − 2 ∫ 0 z α λ i , z + N ( z ) δ ( λ i , z ) ] d z ,   i = o n , o f f .
+(1)
+where P(λi,z) is the atmospheric backscatter echo signal at certain wavelengths (the “on” wavelength is on the strong absorption line, and the “off” wavelength is on the weak absorption line). z is the altitude, Ci is the lidar system constant, β(λi,z) is the atmospheric backscatter coefficient, α(λi,z) is the atmospheric extinction coefficient (excluding the extinction effect caused by atmospheric ozone), N(z) is the ozone concentration, and δ(λi,z) is the ozone absorption cross-section at λi.
+The ozone concentration is derived from the dual-wavelength echo signal equation:
+N z = 1 2 ∆ δ d d z − ln ⁡ P λ o n , z P λ o f f , z + B − E a − E m − E g a s ,
+(2)
+B = 1 2 Δ δ d d z ln ⁡ β λ o n , z β λ o f f , z ,
+(3)
+E a = 1 Δ δ [ α a λ o n , z − α a λ o f f , z ] ,
+(4)
+E m = 1 Δ δ [ α m λ o n , z − α m λ o f f , z ] ,
+(5)
+E g a s = Δ δ g a s N g a s ′ Δ δ ,
+(6)
+where B, Ea, and Em are the systematic errors introduced by atmospheric backscattering, aerosol extinction, and molecular extinction, respectively, on ozone concentration inversion, and Egas is the systematic error introduced by the presence of other trace gases in the ozone concentration inversion calculation. Δδ and Δδgas are the absorption cross-section differences of ozone and other trace gases, respectively, at λon and λoff. Ngas’ is the concentration of the other trace gases, and αa and αm are the extinction coefficients of aerosol and atmospheric molecular extinction, respectively, at a specific wavelength.
+2.1.2. System Error Correction, Statistical Errors, and Effective Vertical Resolution
+Ozone lidar measurement uncertainties are mainly attributed to systematic errors caused by atmospheric molecular extinction, aerosol extinction, atmospheric backscatter, and absorption by other gases, but other statistical errors may be introduced by signal quantum noise and background radiation. We apply corrections to systematic errors B, Ea, and Em to minimize their effect on the ozone concentration inversion calculation. In our experiment, echo signals of laser pulses with wavelengths of 266 nm, 289 nm, and 316 nm were used in the inversion calculation for the vertical ozone profile. The atmospheric molecular distribution is stable and changes minimally over time. Therefore, we used the extinction coefficient of atmospheric molecular extinction given by the American standard atmosphere model to correct for Em [34]. Because ozone absorption at a wavelength of 316 nm is almost negligible, we used that echo signal in the inversion calculation to determine the aerosol extinction and backscattering coefficients via the aerosol wavelength index and the Fernald algorithm [35], which is well-suited for measuring scenarios where aerosols are unevenly distributed in the vertical spatial range; these calculations allow us to correct for B and Ea.
+After these corrections, we defined the expression of trace gas concentration by signal inversion:
+N z = 1 2 ∆ δ d d z − ln ⁡ P λ o n , z P λ o f f , z ,
+(7)
+The statistical error is [36,37]:
+δ ( N ( z ) ) N ( z ) = 1 2 ∆ δ ∆ z N ( z ) δ P ( λ o n , z ) 2 P ( λ o n , z ) 2 + δ P ( λ o n , z + Δ z ) 2 P ( λ o n , z + Δ z ) 2 + δ P ( λ o f f , z ) 2 P ( λ o f f , z ) 2 + δ P ( λ o n , z + Δ z ) 2 P ( λ o n , z + Δ z ) 2 .
+(8)
+The statistical error of ozone lidar data is inversely proportional to the absorption cross-section difference, the difference distance, the unknown gas concentration, and the SNR of the ozone data. Under the same laser energy, the signal-to-noise ratio (SNR) at the “on” echo is lower due to greater absorption. Ideally, it is usually desired that both “on” and “off” echo have the same SNR, so optimization is carried out in terms of energy distribution. In this paper, we use the effective vertical resolution of 100 m to analyze and invert the signals.
+2.1.3. Saturation (Pulse Pile-Up) and Signal Induced Noise
+Pulse pile-up is one of the key problems of the photon counter. The output pulse of the photomultiplier tube (PMT) has a certain width, which is also known as the resolution time of PMT. The pulse width and the discriminator of the photon counter determine the dead zone time of the system. To measure the photon pulse width, a photonic pulse experiment platform was built. LED was used as the light source, Hamamatsu R7400 PMT produced by Hamamatsu Corporation (Hamamatsu, Japan) was used as the detector, and a high-speed oscilloscope was used to collect the photon pulse signal. The full width of the photon pulse is 4 ns.
+The correction of saturation can be written as [38]:
+S = N 1 − N τ d ,
+(9)
+where S is the true photon count rate, N is the measured count rate, and τd is the dead time parameter.
+When the ozone lidar is exposed to strong backscattered light or stray light, it will cause the pulse delay of the PMT. The main characteristic of the effect is the long delay of the exponential distribution of the background signal. The addition of the background signal to the original echo signal will cause signal distortion and the signal will have a higher detection altitude than the actual value. Theoretically, the signal after the correction of the distance square of the original echo signal (denoted by PRR) should decrease with the increase in distance. However, the PRR will increase with the increase of distance when significantly affected by the signal-induced noise (denoted by SIN). The laser emission unit and the near-field light from the laser emission to the emission window are all sealed with a sealing cover to avoid stray light in the emission path entering the subsequent path and reduce the SIN. The comparison between the normalized PRR measured by ozone lidar and the simulated PRR can effectively identify whether there is a SIN effect in the signal. Simulated PRR is determined with aerosol backscattering coefficient, backscattering coefficient of air molecules, and ozone profile given by a reference standard atmosphere (US standard, 1976) [39]. As can be seen from Figure 1, the PRR simulated by the model and the PRR measured by ozone lidar above 4 km show the same trend, confirming that the SIN effect does not exist in the signal. If the SIN effect appears in the ozone lidar, the PRR will show a trend of increasing with height.
+Figure 1. The comparison between simulated PRR and that was measured by ozone lidar.
+2.2. 3 Ozone Lidar System
+The Ozone lidar system consists of three instruments: the laser transmitter, the optical receptors, and the data acquisition and control units (Figure 2, Table 1). A Quantel Q-Smart 850 pulsed Nd:YAG laser has been optimized with one independent parallel laser cavity. Dual lamps side pump YAG rods and the energy of fundamental frequency laser reaches 850 mJ pulse−1. The beam then passes through potassium di-deuterium phosphate (KD*P) crystal and Barium metaborate crystal (BBO). The nonlinear optical crystals serve the purpose of generating the second and fourth harmonics of the fundamental Nd:YAG frequency. The quadrature fundamental frequency laser has an energy output of 90 mJ pulse−1 and the initial pump beam is approximately 9 mm in diameter with a beam divergence of 0.5 mrad. The frequency of the laser is 10 Hz.
+Figure 2. Block diagram of the Ozone lidar setup.
+Table 1. The key parameters of the differential absorption lidar system.
+It pumps Raman cells to produce laser sources with wavelengths of 289 nm and 316 nm using a D2 Raman cell with a length of 1 m. The converging lens also acts as a seal for the Raman cell, which focuses the beam waist near the center of the Raman cell giving the highest interaction of pump photons into first Stokes shift photons. The 266 nm laser pumps D2, which produces laser pulses with wavelengths of 289 nm and 316 nm by first- and second-order Stokes shifts, respectively. The energy of the 289 nm and 316 nm laser pulses reach 10 mJ and 9 mJ, respectively. An achromatic lens is used to reduce the dispersion difference between the 289 nm and 316 nm wavelength laser and to reduce the difference of the incomplete overlap between the two differential echo signals. After the beams exit the Raman cell, they are collimated with the achromatic lens to minimize beam divergence to 0.2 mrad.
+These pumped laser sources and the original 266 nm laser beam are propagated vertically into the atmosphere, where they experience Rayleigh scattering with air molecules, Mie scattering with atmospheric aerosol particles, and absorption by trace gases. The ozone lidar has a 250 mm diameter Cassegrain telescope. The backscattered lights are focused at the field stop with a 1.0 mrad aperture, which defines the field of view of the telescope. The grating spectrometer is located behind the optical receiving telescope and consists of a collimating mirror, a high-resolution planar holographic grating, a concave mirror, a high-efficiency optical reflector, and multiple photomultiplier tubes. The use of a grating spectrometer can improve the signal-to-noise ratio and long-term stability of the subsequent optical system.
+A/D and photon counter-acquisition systems are used to simultaneously collect differential Lidar echo signals. The selected AD acquisition card has an accuracy of 12 bits and a sampling rate of 40 MHz. The maximum count rate of the photon counter is 250 MHz. This process is controlled by a data acquisition program. The data acquisition program completes the initialization of the A/D and photon counter, determines whether the acquisition software and the acquisition system communicate normally, and then carries out the collection and suspension of the working cycle, realizing automatic saving of the acquisition data during the cycle.
+In this paper, two ozone lidars are utilized to acquire data separately in Shanghai and Guangzhou. Both ozone lidar hardware configurations are identical. However, the ozone lidar in Shanghai adopts the coaxial design of transmitting and receiving optical paths while the ozone lidar in Guangzhou adopts the off-axis design, so the overlap of the two ozone lidars is different. The data of ozone lidar are valid from 0.2 km at Shanghai while the data of ozone lidar are valid beginning at 0.4 km at Guangzhou. The ozone unit from the ozone lidar is in the unit of number density, the ozone unit from POM is parts per billion (ppb), and the ozone concentration unit from the analyzer mounted on the tower is µg m−3. In order to better evaluate the quality of the ozone lidar data using third-party detection equipment, it is necessary to convert the number density from the ozone lidar into the unit corresponding to the respective device.
+2.3. Unmanned Aerial Vehicle (UAV) and Personal Ozone Monitor (POM)
+To verify the accuracy of the ozone lidar data, we collected additional ozone data on the Lingang campus of the Shanghai Maritime University using a personal ozone monitor (POM produced by 2B Technologies, Inc. (Broomfield, CO, USA) [40] mounted onto an unmanned aerial vehicle (UAV) with an ascending and descending speed of 2 m s−1 (Figure 3). The Lingang campus is about 70 km from the center of Shanghai, facing the East China Sea. The POM adopts the principle of ultraviolet absorption; ozone molecules have an absorption peak at 254 nm, coincident with the principal emission wavelength of a low-pressure mercury lamp. The device is equipped with such a lamp, which emits light with a wavelength of 254 nm. An air pump draws sample air into the instrument at a flow rate of approximately 0.75 L min−1. A solenoid valve switch sends the air either directly into the absorption cell or through an ozone scrubber and then into the absorption cell. The intensity of light at the photodiode is measured in air before and after the ozone scrubber. The ozone volume mixing ratio (in parts per billion) of the air in the absorption cell is obtained by comparing the light intensities pre- and post-scrubbing. A POM can measure ozone concentrations from 2 ppb to 10 ppm, with an uncertainty of less than 2 ppb.
+Figure 3. (a) Unmanned aerial vehicle (UAV). (b) Personal ozone monitor (POM).
+2.4. Canton Tower
+Ozone measurement sites are located in the Canton Tower in Guangzhou City [41,42]. Canton Tower (23°6′31.4′′N, 113°19′4.1′′E, Figure 4), which has a tower height of 454 m, is located on the new central axis of Guangzhou City, where the primary north-south and east-west pollutant paths of Guangzhou City intersect one another. There are four air quality monitoring platforms in the Canton Tower air quality monitoring station: they are located at ground level and heights of 118 m, 168 m, and 488 m. The instrumentation on the observation platforms in Canton Tower can measure the ozone mass concentration at heights of 128 m, 178 m, and 498 m. The ozone monitoring instrument employs the 49i ultraviolet method analyzer produced by Thermo Scientific (Waltham, MA, USA). The analyzer, which has been certified by the Environmental Protection Agency (EPA), has a detection limit of 1 ppb and a response time of 20 s. The ozone lidar resides in the Guangdong Environmental Monitoring Center 1.2 km southeast of the Canton Tower. The ozone mass concentration measured by the instrument at 498 m is data we use as a benchmark for our ozone lidar analysis.
+Figure 4. Location of the four layers of the air pollutants sampled on the Canton Tower.
+3. Results
+3.1. Comparison and Analysis with UAV-Mounted Equipment
+While the ozone concentration profile measured by differential absorption lidar is the cumulative average of 7 min worth of data (averaged from 18:39 to 18:46 LT on 24 July 2017), the UAV-mounted POM recorded ozone data during a takeoff and landing cycle that took 21 min (from 18:28 to 18:49 LT on 24 July 2017). The ascending and descending vertical ozone profiles are quite similar as shown in Figure 5b; the vertical ozone distribution did not change during this time. Because the UAV can only fly to an altitude of 1 km, we only compared the UAV vertical ozone distribution profile with ozone lidar data below 1 km. Because aerosol interference cannot be ignored in ozone measurements, we used the real-time aerosol backscattering coefficient for a 316 nm wavelength signal to correct for aerosol influence after formula conversion. Correcting for air molecule extinction, aerosol extinction, and atmospheric backscattering has a significant effect on the ozone profiles as shown in Figure 5a. After applying the corrections, the ozone vertical distribution profiles measured by ozone lidar and the POM largely agree between 0.2 km and 1.0 km. The effective vertical resolution of the ozone profile is 100 m. Seven ozone profiles from 18:14 to 19:41 LT on 24 July 2017 were used for statistical analysis, as shown in Figure 6, and the average statistical error of the ozone lidar dataset is 6.4%. The statistical error of ozone between 200 m and 300 m is more than 10%. That is because the ozone concentration is only about 50 ppb, so the changes in ozone within one and a half hours caused a dramatic increase in the statistical error of ozone. The statistical error of the zone at 1.8 km increased sharply by more than 15% since the SNR decreased to less than 10.
+Figure 5. (a) Corrections of ozone lidar caused by air molecule extinction, aerosol extinction, and atmospheric backscattering during the comparison period. (b) The comparison between POM and the ozone lidar profiles.
+Figure 6. (a) The mean ozone concentration measured by ozone lidar at 18:42 LT on 24 July 2017. Error bars give uncertainties for ozone measurement. (b) The statistical error of ozone concentration was measured by ozone lidar at 18:42 LT on 24 July 2017.
+Figure 7 shows the spatial and temporal distribution of ozone measured by ozone lidar during the comparison period. The first two panels show the wind speed and direction derived from the WRF (Weather Research and Forecasting) model. The bottom panel shows the ozone concentrations. From 24 July to 25 July, the wind direction in the upper air is mainly northwest, and the wind direction in the lower altitudes is mainly southeast. The wind speeds at high altitudes are greater than those at lower altitudes; when wind shear occurs at higher altitudes, and fast wind speeds spread to lower altitudes, upper air ozone undergoes mixing and transport to lower altitudes. From Figure 7c, it can be seen that the height of the ozone pollution plume at 2 km is continuously decreasing over time, until the afternoon of July 25th, when a significant high value of near-surface ozone begins to appear.
+Figure 7. Spatial and temporal distribution of (a) WRF wind speed; (b) WRF wind direction; and (c) lidar ozone concentration data.
+3.2. Comparison with Ozone Instrument of Canton Tower
+From September to October 2017, we collected ozone data from the Canton Tower instrument at 498 m and used these data as a benchmark against which to judge both the stability of the optical-mechanical structure of the ozone lidar methodology and the influence of complex atmospheric conditions on the inversion accuracy of the lidar results. While the weather in Guangzhou was cloudy and sunny in the middle of September 2017, the latter part of September was dominated by thunderstorms. At times, these high-humidity and stormy weather conditions affected data quality above 2 km. However, the use of a heating module to rapidly evaporate rainwater on the skylight glass helped to preserve the quality of the ozone data near 2 km. In October, weather conditions were mainly cloudy and sunny, but it rained heavily from 14 October to 18 October, resulting in data loss during that period. Figure 8 shows the ozone lidar data and the Canton Tower ozone data at 498 m. Excluding the rainfall-induced data loss, the data recorded by the two instruments are a close match and the correction coefficient reached 0.87; the lidar instrumentation setup is stable and reliable, and no deformation affects the detection of ozone lidar signals during the observation period. At the same time, we have shown that the atmospheric correction algorithm can account for the interference of complex atmospheric conditions with ozone detection in real time.
+Figure 8. (a) Spatial and temporal distribution of ozone measured by ozone lidar in Guangzhou. (b) The comparison with the ozone instrument mounted on the Canton tower and (c) correlation analysis.
+4. Discussion
+As mentioned previously, the statistical error of the ozone lidar method depends on the SNR of the echo signal, the difference distance, and the difference of the absorption cross-sections of the different wavelengths. After selecting a difference distance and differential absorption wavelength pairs, the statistical error mainly depends on the SNR of the differential absorption lidar echo signals.
+The laser pulse energy, the degree of optical coupling, the reflectivity of the transmitting optical unit, the telescope aperture, the reception efficiency of the optical units, and the quantum efficiency of photomultiplier tubes all influence the reception of echo signals in differential absorption lidar. Fortunately, the aperture of the telescope, the reception efficiency of the subsequent optical unit, and the quantum efficiency of the photomultiplier tube remain essentially unchanged. The main variables affecting the lidar signal are the laser monopulse energy, the transmitting optical unit, the amount of deformation in the optical mechanical structure, and the external environmental conditions.
+According to the SNR formula, SNR is proportional to the laser monopulse energy, and the attenuation of the laser energy directly impacts the SNR of the echo signal. The transmitting optical unit of ozone lidar is mainly composed of an Nd:YAG quadruple frequency laser, ultraviolet high reflection mirrors, a Raman cell, and a beam expander. Dust and water vapor in the air can adhere to the reflector mirrors and window plates of the Raman cell, which can prove problematic when it comes to data collection. Additionally, the reflector mirrors and the window plates are prone to damage when exposed to the high-powered 266 nm laser for long periods. Deformation of the optical-mechanical structure can also cause the misalignment of the receiving and transmitting optical units, which prevents the effective reception of high-altitude signals. Lastly, the ozone lidar instrumentation has to contend with complex atmospheric conditions such as high humidity, heavy haze, thunderstorms, and extensive cloud cover. Weather conditions impact both the SNR of the echo signal and the degree of aerosol interference. These factors are difficult to evaluate independently; therefore, after correcting for aerosol extinction and atmospheric backscattering in real-time, we only use the SNR to judge the quality of the ozone differential absorption lidar data.
+Figure 9 shows the spatial and temporal distribution of ozone in Guangzhou from 15 September to 20 September 2017. At the height of 0.4–2.0 km, there is no obvious noise in the upper air data, and the ozone accumulated, diffused away, and accumulated again during these five days. The local ozone concentration at night was relatively high, and the ozone above 0.5 km was essentially not consumed. The ozone distribution from 0.4 km to 2.0 km cycled diurnally between 19–20 September; the concentration of ozone decreased significantly at night and then accumulated again during the day.
+Figure 9. Spatial and temporal distribution of ozone in Guangzhou from 15 September to 20 September.
+Figure 10 shows the correction terms for air molecule extinction, aerosol extinction, and atmospheric backscattering, as well as the ozone concentration after atmospheric correction at a height of 495 m. The correction terms of air molecular extinction and aerosol extinction are both negative values and have values of −23 µg m−3 and between −20 µg m−3 and −70 µg m−3, with an average value of −41.5 µg m−3, respectively. The atmospheric backscattering correction typically falls between −10 µg m−3 and 40 µg m−3, with an average value of 14.2 µg m−3. The combined mean value of the three corrections is −50 µg m−3. NOAA, NASA, Jet Propulsion Laboratory, and other research institutions have conducted a detailed assessment of the aerosol interference and Rayleigh scattering effects in the TROPospheric Ozone (TROPOZ) lidar, the Tunable Optical Profiler for Aerosol and oZone (TOPAZ) lidar, and the Langley Mobile Ozone Lidar (LMOL). Among these, the aerosol interference is approximately 10%. Aerosol interference is mainly composed of two parts: B and Ea. The average of the B and Ea is about 27.3 µg m−3 and the aerosol interference is approximately 13.7% when ozone concentration is 200 µg m−3. The conclusion is roughly the same. However, we can reduce its impact on ozone retrieval through aerosol correction. The uncertainty assessed by the three pieces of equipment is about 14% to 25%, and our results indicate that the performance of the ozone lidar has reached the same level as that of the three pieces of equipment.
+Figure 10. Correction terms for air molecule extinction, aerosol extinction and atmospheric backscattering, and ozone concentration after atmospheric correction at a height of 495 m.
+Figure 11 compares the inversion results of ozone lidar after the application of the atmospheric correction and the measurement results of the ozone instrument mounted on Canton Tower. The two datasets are generally consistent with one another from 15 September to 20 September. The correction coefficient reached 0.9. Figure 12 shows the SNR of the echo signals and the statistical error of the ozone inversion results. Weather conditions and the variable distribution of aerosols dramatically affect the atmospheric transmittance, resulting in changes in the intensity of the echo signals at different heights, which in turn affects the SNR of the echo signals with wavelengths of 289 nm and 316 nm. At a height of 495 m, however, the echo signals for those two wavelengths have similar SNR values; the average SNR values for the 289 nm and 316 nm sources are 40 and 42, respectively. In differential absorption lidar, two echo signals with similar SNR values will generate the best ozone inversion results. For most of our dataset, the statistical errors of the ozone inversion results are less than 20% but can be as high as 40% in some instances. Furthermore, when the SNR is less than 10, signal uncertainties are on the order of 40 µg m−3 and the corresponding statistical error is about 40%. When the SNR is equal to 20, the corresponding statistical error is about 15%. When the SNR is equal to 40, the corresponding statistical error is approximately 8%.
+Figure 11. (a) Comparison of the ozone lidar inversion results after atmospheric correction and the data collected from the ozone instrument mounted on Canton Tower and (b) the correlation analysis.
+Figure 12. (a) The SNR of the signals at 289 nm and 316 nm wavelength; (b) The statistical error of the ozone concentration; (c) The relationship between ozone statistical error and SNR of the signal at 289 nm wavelength.
+5. Conclusions
+Throughout this experiment, we tested the detection accuracy and environmental adaptability of the ozone lidar instrumentation setup by comparing the lidar results with those collected via UAV-mounted POM and the ozone instrument mounted on Canton Tower. Using the three correction terms—air molecular extinction, aerosol extinction, and atmospheric backscattering–we were able to correct the ozone inversion calculation in real time. With those corrections applied, the vertical ozone distribution profile is consistent with the POM data from 0.1 km to 1.0 km. With respect to the Canton tower data, over the course of the two-month experiment, the ozone lidar results were a good match for the tower data in both high and low ozone regions, which confirmed the stability and reliability of the lidar optomechanical structure. Furthermore, it demonstrates that the atmospheric correction algorithm can minimize the effects of complex atmospheric conditions on ozone lidar data in real-time. We also concluded that the statistical error of ozone lidar data is inversely proportional to the SNR of the echo signal. Therefore, in the absence of other ozone instruments, the quality of upper-air ozone observations can be judged solely (and accurately) on the SNR of the echo signals.
+Author Contributions
+Conceptualization, G.F., T.Z. and W.L.; Methodology, G.F., T.Z. and Y.F.; Software, G.F.; Validation, G.F., C.P., S.L. and X.L.; Writing—review and editing, G.F., B.Z. and Z.C. All authors have read and agreed to the published version of the manuscript.
+Funding
+This research has been supported by the National Key R&D Program of China (2022YFC3700400, 2022YFC3704000), and the National Natural Science Foundation of China (42305149) and Hefei Comprehensive National Science Center.
+Data Availability Statement
+The datasets used and analyzed during the current study are available from the corresponding author upon reasonable request.
+Acknowledgments
+The authors thank Jirui Liu and Guangbin Fan from Key Laboratory of Environmental Optics and Technology, Anhui Institute of Optics and Fine Mechanics for their experiment with the ozone lidars.
+Conflicts of Interest
+The authors declare no conflicts of interest.
+References
+Wang, T.; Xue, L.; Brimblecombe, P.; Lam, Y.; Li, L.; Zhang, L. Ozone pollution in China: A review of concentrations, meteorological influences, chemical precursors, and effects. Sci. Total Environ. 2017, 575, 1582–1596. [Google Scholar] [CrossRef]
+Geng, F.; Tie, X.; Xu, J.; Zhou, G.; Peng, L.; Gao, W.; Tang, X.; Zhao, C. Characterizations of ozone, NOx, and VOCs measured in Shanghai, China. Atmos. Environ. 2008, 42, 6873–6883. [Google Scholar] [CrossRef]
+Tang, G.; Wang, Y.; Li, X.; Ji, D.; Hsu, S.; Gao, X. Spatial-temporal variations in surface ozone in Northern China as observed during 2009–2010 and possible implications for future air quality control strategies. Atmos. Chem. Phys. 2012, 12, 2757–2776. [Google Scholar] [CrossRef]
+Chung, V.; Wang, T. Observational study of ozone pollution at a rural site in the Yangtze Delta of China. Atmos. Environ. 2001, 35, 4947–4958. [Google Scholar] [CrossRef]
+Ding, A.; Wang, T.; Zhao, M.; Wang, T.; Li, Z. Simulation of sea-land breezes and a discussion of their implications on the transport of air pollution during a multi-day ozone episode in the Pearl River Delta of China. Atmos. Environ. 2004, 38, 6737–6750. [Google Scholar] [CrossRef]
+Mbululo, Y.; Qin, J.; Hong, J.; Yuan, Z. Characteristics of Atmospheric Boundary Layer Structure during PM2.5 and Ozone Pollution Events in Wuhan, China. Atmosphere 2018, 9, 359. [Google Scholar] [CrossRef]
+Shu, L.; Xie, M.; Wang, T.; Gao, D.; Chen, P.; Han, Y.; Li, S.; Zhuang, B.; Li, M. Integrated studies of a regional ozone pollution synthetically affected by subtropical high and typhoon system in the Yangtze River Delta region, China. Atmos. Chem. Phys. 2016, 16, 15801–15819. [Google Scholar] [CrossRef]
+Minschwaner, K.; Giljum, A.; Manney, G.; Petropavlovskikh, I.; Johnson, B.J.; Jordan, A.F. Detection and classification of laminae in balloon-borne ozonesonde profiles: Application to the long-term record from Boulder, Colorado. Atmos. Chem. Phys. 2019, 19, 1853–1865. [Google Scholar] [CrossRef]
+Rohtash; Mandal, T.K.; Peshin, S.K.; Sharma, S.K. Study on Comparison of Indian Ozonesonde Data with Satellite Data. MAPAN 2016, 31, 197–217. [Google Scholar] [CrossRef]
+Stauffer, R.; Thompson, A.; Witte, J. Characterizing Global Ozonesonde Profile Variability from Surface to the UT/LS With a Clustering Technique and MERRA-2 Reanalysis. J. Geophys. Res. Atmos. 2018, 123, 6213–6229. [Google Scholar] [CrossRef]
+Johnson, B.; Helmig, D.; Oltmans, S. Evaluation of ozone measurements from a tethered balloon-sampling platform at South Pole Station in December 2003. Atmos. Environ. 2008, 42, 2780–2787. [Google Scholar] [CrossRef]
+Zhang, K.; Zhou, L.; Fu, Q.; Yan, L.; Bian, Q.; Wang, D.; Xiu, G. Vertical distribution of ozone over Shanghai during late spring: A balloon-borne observation. Atmos. Environ. 2019, 208, 48–60. [Google Scholar] [CrossRef]
+Pisano, J.; McKendry, I.; Steyn, D.; Hastie, D. Vertical nitrogen dioxide and ozone concentrations measured from a tethered balloon in the Lower Fraser Valley. Atmos. Environ. 1997, 31, 2071–2078. [Google Scholar] [CrossRef]
+Illingworth, S.; Allen, G.; Percival, C.; Hollingsworth, P.; Gallagher, M.; Ricketts, H. Measurement of boundary layer ozone concentrations on-board a Skywalker unmanned aerial vehicle. Atmos. Sci. Lett. 2014, 15, 252–258. [Google Scholar] [CrossRef]
+Li, X.; Wang, D.; Lu, Q.; Peng, Z.; Fu, Q.; Hu, X.-M.; Huo, J.; Xiu, G.; Li, B.; Li, C.; et al. Three-dimensional analysis of ozone and PM2.5 distributions obtained by observations of tethered balloon and unmanned aerial vehicle in Shanghai, China. Stoch. Environ. Res. Risk Assess. 2018, 32, 1189–1203. [Google Scholar] [CrossRef]
+Boynard, A.; Hurtmans, D.; Garane, K.; Goutail, F.; Hadji-Lazaro, J.; Koukouli, M.E.; Wespes, C.; Vigouroux, C.; Keppens, A.; Pommereau, J.-P.; et al. Validation of the IASI FORLI/EUMETSAT ozone products using satellite (GOME-2), ground-based (Brewer–Dobson, SAOZ, FTIR) and ozonesonde measurements. Atmos. Meas. Tech. 2018, 11, 5125–5152. [Google Scholar] [CrossRef]
+Kuttippurath, J.; Kumar, P.; Nair, P.; Chakraborty, A. Accuracy of satellite total column ozone measurements in polar vortex conditions: Comparison with ground-based observations in 1979–2013. Remote Sens. Environ. 2018, 209, 648–659. [Google Scholar] [CrossRef]
+Rupakheti, D.; Kang, S.; Rupakheti, M. Long-term trends in the total columns of ozone and its precursor gases derived from satellite measurements during 2004–2015 over three different regions in South Asia: Indo-Gangetic Plain, Himalayas and Tibetan Plateau. Int. J. Remote Sens. 2018, 39, 7384–7404. [Google Scholar] [CrossRef]
+Dolgii, S.; Nevzorov, A.; Nevzorov, A. Lidar Differential Absorption System for Measuring Ozone in the Upper Troposphere–Stratosphere. J. Appl. Spectrosc. 2019, 85, 1114–1120. [Google Scholar] [CrossRef]
+Innocenti, F.; Robinson, R.; Gardiner, T.; Finlayson, A.; Connor, A. Differential Absorption Lidar (DIAL) Measurements of Landfill Methane Emissions. Remote Sens. 2017, 9, 953. [Google Scholar] [CrossRef]
+Romanovskii, O.; Sadovnikov, S.; Kharchenko, O.; Yakovlev, S. Development of Near/Mid IR differential absorption OPO lidar system for sensing of atmospheric gases. Opt. Laser Technol. 2019, 116, 43–47. [Google Scholar] [CrossRef]
+Yang, X.; Lindberg, R.; Larsson, J.; Bood, J.; Brydegaard, M.; Laurell, F. 1.57 µm fiber source for atmospheric CO2 continuous-wave differential absorption lidar. Opt. Express 2019, 27, 10304–10310. [Google Scholar] [CrossRef] [PubMed]
+Kuang, S.; Burris, J.; Newchurch, M.; Johnson, S.; Long, S. Differential Absorption Lidar to Measure Subhourly Variation of Tropospheric Ozone Profiles. IEEE Trans. Geosci. Remote Sens. 2011, 49, 557–571. [Google Scholar] [CrossRef]
+Young, R.; Carrion, W.; Ganoe, R.; Pliutau, D.; Gronoff, G.; Berkoff, T.; Kuang, S. Langley mobile ozone lidar: Ozone and aerosol atmospheric profiling for air quality research. Appl. Opt. 2017, 56, 721–730. [Google Scholar] [CrossRef] [PubMed]
+Fix, A.; Wirth, M.; Meister, A.; Ehret, G.; Pesch, M.; Weidauer, D. Tunable ultraviolet optical parametric oscillator for differential absorption lidar measurements of tropospheric ozone. Appl. Phys. B 2002, 75, 153–163. [Google Scholar] [CrossRef]
+Ancellet, G.; Ravetta, F. Compact airborne lidar for tropospheric ozone: Description and field measurements. Appl. Opt. 1998, 37, 5509–5521. [Google Scholar] [CrossRef] [PubMed]
+Machol, J.; Marchbanks, R.; Senff, C.; McCarty, B.J.; Eberhard, W.L.; Brewer, W.A.; Richter, R.A.; Alvarez, I.R.J.; Law, D.C.; Weickmann, A.M.; et al. Scanning tropospheric ozone and aerosol lidar with double-gated photomultipliers. Appl. Opt. 2009, 48, 512–524. [Google Scholar] [CrossRef] [PubMed]
+Nakazato, M.; Nagai, T.; Sakai, T.; Hirose, Y. Tropospheric ozone differential-absorption lidar using stimulated Raman scattering in carbon dioxide. Appl. Opt. 2007, 46, 2269–2279. [Google Scholar] [CrossRef] [PubMed]
+Newchurch, M.; Kuang, S.; Leblanc, T.; Alvarez, R.J.; Langford, A.O.; Senff, C.J.; Burris, J.F.; McGee, T.J.; Sullivan, J.T.; DeYoung, R.J.; et al. TOLNET—A Tropospheric Ozone Lidar Profiling Network for Satellite Continuity and Process Studies. EPJ Web Conf. 2016, 119, 20001. [Google Scholar] [CrossRef]
+Wang, X.; Zhang, T.; Xiang, Y.; Lv, L.; Fan, G.; Ou, J. Investigation of atmospheric ozone during summer and autumn in Guangdong Province with a lidar network. Sci. Total Environ. 2021, 751, 141740. [Google Scholar] [CrossRef]
+Wang, X.; Xiang, Y.; Liu, W.; Yun, L.; Lv, L.; Zhang, M. Characteristics and Source Apportionment of the Vertical Distribution of Ozone at a Site of the Pearl River Delta Region of China. Earth Space Sci. 2020, 8, 2020EA001578. [Google Scholar] [CrossRef]
+Liu, P.; Zhang, T.; Sun, X.; Fan, G.; Xiang, Y.; Fu, Y.; Dong, Y. Compact and movable ozone differential absorption lidar system based on an all-solid-state, tuning-free laser source. Opt. Express 2020, 28, 13786–13800. [Google Scholar] [CrossRef]
+Browell, E.; Ismail, S.; Shipley, S. Ultraviolet DIAL measurements of O3 profiles in regions of spatially inhomogeneous aerosols. Appl. Opt. 1985, 24, 2827–2836. [Google Scholar] [CrossRef]
+Krueger, A.; Minzner, R. A mid-latitude ozone model for the 1976 U.S. Standard Atmosphere. J. Geophys. Res. 1976, 81, 4477–4481. [Google Scholar] [CrossRef]
+Fernald, F.G. Analysis of atmospheric lidar observations: Some comment. Appl. Opt. 1984, 23, 652–653. [Google Scholar] [CrossRef]
+David, C.; Haefele, A.; Keckhut, P.; Marchand, M.; Jumelet, J.; Leblanc, T.; Cenac, C.; Laqui, C.; Porteneuve, J.; Haeffelin, M.; et al. Evaluation of stratospheric ozone, temperature, and aerosol profiles from the LOANA lidar in Antarctica. Polar Sci. 2012, 6, 209–225. [Google Scholar] [CrossRef]
+Fiorani, L.; Durieux, E. Comparison among error calculations in differential absorption lidar measurements. Opt. Laser Technol. 2001, 33, 371–377. [Google Scholar] [CrossRef]
+Sullivan, J.; McGee, T.; Sumnicht, G.; Twigg, L.; Hoff, R. A mobile differential absorption lidar to measure sub-hourly fluctuation of tropospheric ozone profiles in the Baltimore–Washington, D.C. region. Atmos. Meas. Tech. 2014, 7, 3529–3548. [Google Scholar] [CrossRef]
+Minzner, R.A. The 1976 Standard Atmosphere and Its Relationship to Earlier Standards. Rev. Geophys. 1976, 15, 375–384. [Google Scholar] [CrossRef]
+Andersen, P.; Williford, C.; Birks, J. Miniature Personal Ozone Monitor Based on UV Absorbance. Anal. Chem. 2010, 82, 7924–7928. [Google Scholar] [CrossRef] [PubMed]
+Truong, T.; Cho, S.; Yun, C.; Sohn, H. Finite element model updating of Canton Tower using regularization technique. Smart Struct. Syst. 2012, 10, 459–470. [Google Scholar] [CrossRef]
+Yi, T.; Li, H.; Wang, X. Multi-dimensional sensor placement optimization for Canton Tower focusing on application demands. Smart Struct. Syst. 2013, 12, 235–250. [Google Scholar] [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Fan, G.; Zhang, B.; Zhang, T.; Fu, Y.; Pei, C.; Lou, S.; Li, X.; Chen, Z.; Liu, W. Accuracy Evaluation of Differential Absorption Lidar for Ozone Detection and Intercomparisons with Other Instruments. Remote Sens. 2024, 16, 2369. https://doi.org/10.3390/rs16132369
+AMA Style
+Fan G, Zhang B, Zhang T, Fu Y, Pei C, Lou S, Li X, Chen Z, Liu W. Accuracy Evaluation of Differential Absorption Lidar for Ozone Detection and Intercomparisons with Other Instruments. Remote Sensing. 2024; 16(13):2369. https://doi.org/10.3390/rs16132369
+Chicago/Turabian Style
+Fan, Guangqiang, Bowen Zhang, Tianshu Zhang, Yibin Fu, Chenglei Pei, Shengrong Lou, Xiaobing Li, Zhenyi Chen, and Wenqing Liu. 2024. "Accuracy Evaluation of Differential Absorption Lidar for Ozone Detection and Intercomparisons with Other Instruments" Remote Sensing 16, no. 13: 2369. https://doi.org/10.3390/rs16132369
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details here.
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views28. Jun30. Jun2. Jul4. Jul6. Jul8. Jul10. Jul12. Jul14. Jul16. Jul18. Jul0200400600
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Remote Sens., EISSN 2072-4292, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

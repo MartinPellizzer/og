@@ -1,0 +1,160 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Journal of the Indian Society of Remote Sensing Article
+Using Sentinel-5P TROPOMI Data for Air Quality Assessment in the City of Oran, Western Algeria
+Research Article
+Published: 13 July 2024
+(2024)
+Cite this article
+Journal of the Indian Society of Remote Sensing
+Aims and scope
+Submit manuscript
+Abdelhalim Bendib
+& Mohamed Lamine Boutrid 
+5 Accesses
+Explore all metrics
+Abstract
+With economic development, the emergence of cities, and the growth of transportation, air quality has become a significant concern. This leads to ecological imbalance and threatens the health of millions of people. The city of Oran, due to its importance and economic growth in recent decades, is no exception. The primary objective of this study is to conduct a comprehensive analysis of pollutant trends for the period 2019–2022 and their relationships with surface temperatures. The data for four pollutants from Sentinel-5P, namely ozone (O3), carbon monoxide (CO), nitrogen dioxide (NO2), and sulfur dioxide (SO2), were obtained and processed using the Google Earth Engine (GEE) platform. Given the variability in emissions from year to year, the results from the Air Pollution Index (API) indicate a trend toward moderate to high pollutant concentrations (> 1.54e-2 mol/m2), with the city being the primary source of pollutants. In 2019, 61% of the study area was heavily polluted, with concentrations exceeding 1.54e-2 mol/m2. This percentage was 45% in 2020, 58% in 2021, and 44% in 2022, while concentrations below 1.54e-2 mol/m2 represented 15%, 26%, 17%, and 30%, respectively. Except for SO2 (> 40 µg/m3), the levels of NO2 (~ 10 µg/m3) and CO (< 4 mg/m3) align with the levels recommended by the World Health Organization (WHO). Furthermore, a comparison of the results with surface temperatures shows that, except for O3, no significant correlation exists. In the context of sustainable development, these findings represent a proactive strategy for understanding pollutant concentrations and formulating effective policies to improve air quality in the city of Oran.
+This is a preview of subscription content, log in via an institution to check access.
+
+Similar content being viewed by others
+Machine learning-based country-level annual air pollutants exploration using Sentinel-5P and Google Earth Engine
+Article Open access
+17 May 2023
+Short-term trends of air quality and pollutant concentrations in Nigeria from 2018–2022 using tropospheric sentinel-5P and 3A/B satellite data
+Article Open access
+03 April 2024
+Spatio-temporal patterns and trends of the air pollution integrating MERRA-2 and in situ air quality data over Egypt (2013–2021)
+Article Open access
+19 May 2023
+References
+Ackermann-Liebrich, U. (2011). Respiratory and cardiovascular effects of NO2 in epidemiological studies. In J. Nriagu (Ed.), Encyclopedia of environmental health. Elsevier. https://doi.org/10.1016/B978-0-444-52272-6.00065-9
+Chapter
+  Google Scholar
+  Acwin Dwijendra, N. K., Mohammadi, M. J., Aravindhan, S., Turki Jalil, A., Taherian, M., et al. (2023). Investigating the effects of air pollution on plant species resistance in urban areas. Health Scope, 12(1), e129786. https://doi.org/10.5812/jhealthscope-129786
+Article
+  Google Scholar
+  Akimoto, H. (2006). Tropospheric ozone a growing threat. Acid deposition and oxidant research center. https://www.acap.asia/wp-content/uploads/Ozone.pdf. (Accessed 6/7/2024)
+Al-Alola, S. S., Alkadi, I. I., Alogayell, H. M., Mohamed, S. A., & Ismail, I. Y. (2022). Air quality estimation using remote sensing and GIS-spatial technologies along Al-Shamal train pathway, Al-Qurayyat city in Saudi Arabia. Environmental and Sustainability Indicators, 15, 100184. https://doi.org/10.1016/j.indic.2022.100184
+Article
+  Google Scholar
+  Atlas Magazine. (2023). Algérie : le parc national automobile en 2018. https://www.atlas-mag.net/article/algerie-le-parc-national-automobile-en-2018 (Accessed 9/24/2023)
+Bodah, B. W., Neckel, A., Maculan, L. S., Milanes, C. B., Korcelski, C., Ramírez, O., Mendez-Espinosa, J. F., Bodah, E. T., & Oliveira, M. L. S. (2022). Sentinel-5P TROPOMI satellite application for NO2 and CO studies aiming at environmental valuation. Journal of Cleaner Production, 357, 131960. https://doi.org/10.1016/j.jclepro.2022.131960
+Article
+  CAS
+  Google Scholar
+  Breeze technologies. (2021). Air pollution–How to convert between mg/m3, µg/m3 and ppm, ppb. https://www.breeze-technologies.de/blog/air-pollution-how-to-convert-between-mgm3-%C2%B5gm3-ppm-ppb/ (Accessed 9/24/2023)
+Campos, P., Esteves, A. F., Leitão, A. A., & Pires, J. (2021). Design of air quality monitoring network of Luanda, Angola: Urban air pollution assessment. Atmospheric Pollution Research, 12(8), 101128. https://doi.org/10.1016/j.apr.2021.101128
+Article
+  CAS
+  Google Scholar
+  Commission du Développement Durable CDD. (2011). Rapport national de l’Algérie, 19ème session de la commission du developpement durable des Nations Unies (CDD-19). https://www.un.org/esa/dsd/dsd_aofw_ni/ni_pdfs/NationalReports/algeria/full_report.pdf (Accessed 9/26/2023)
+Chen, T. M., Kuschner, W. G., Gokhale, J., & Shofer, S. (2007). Outdoor air pollution: nitrogen dioxide, sulfur dioxide, and carbon monoxide health effects. The American Journal of the Medical Sciences, 333(4), 249–256. https://doi.org/10.1097/MAJ.0b013e31803b900f
+Article
+  Google Scholar
+  Das, S. (2020). Toxic gases. In H. Ketha & U. Garg (Eds.), Toxicology cases for the clinical and forensic laboratory. Academic Press. https://doi.org/10.1016/B978-0-12-815846-3.00020-X
+Chapter
+  Google Scholar
+  Deng, X., Chen, J., Dai, R., Zhai, Z., He, D., Zhao, L., et al. (2023). The effects of planetary boundary layer features on air pollution based on ERA5 data in East China. Atmosphere, 14(8), 1273. https://doi.org/10.3390/atmos14081273
+Article
+  CAS
+  Google Scholar
+  European Environment Agency EEA. (2020). Air quality in Europe: 2020 Report, technical report. Office of the European Union: Luxembourg. https://www.eea.europa.eu/publications/air-quality-in-europe-2020-report (Accessed 7/12/2023)
+Elshorbany, Y. F., Kapper, H. C., Ziemke, J. R., & Parr, S. A. (2021). The status of air quality in the United States during the COVID-19 pandemic: A remote sensing perspective. Remote Sens, 13, 369. https://doi.org/10.3390/rs13030369
+Article
+  Google Scholar
+  Emekwuru, N., & Ejohwomu, O. (2023). Temperature, humidity and air pollution relationships during a period of rainy and dry seasons in Lagos West Africa. Climate, 11(5), 113. https://doi.org/10.3390/cli11050113
+Article
+  Google Scholar
+  Fino, A. (2019). Air quality legislation. In J. Nriagu (Ed.), Encyclopedia of environmental health (second edition). Elsevier. https://doi.org/10.1016/B978-0-12-409548-9.11045-0
+Chapter
+  Google Scholar
+  Huang, Y. D., Hou, R. W., Liu, Z. Y., Song, Y., Cui, P. Y., & Kim, C. N. (2019). Effects of wind direction on the airflow and pollutant dispersion inside a long street canyon. Aerosol and air quality research, 19(5), 1152–1171. https://doi.org/10.4209/aaqr.2018.09.0344
+Article
+  CAS
+  Google Scholar
+  IQAir (2024). How wind and weather affect air pollution. https://www.iqair.com/us/newsroom/wind-weather-air-pollution. (Accessed 6/9/2024)
+Jasani, S. (2015). Chapter 147-Smoke inhalation. In D. C. Silverstein & K. Hopper (Eds.), Small animal critical care medicine (Second Edition). W.B. Saunders. https://doi.org/10.1016/B978-1-4557-0306-7.00147-1
+Chapter
+  Google Scholar
+  Jung, M. I., Son, S. W., Kim, H., & Chen, D. (2022). Tropical modulation of East Asia air pollution. Nature Communications, 13(1), 5580. https://doi.org/10.1038/s41467-022-33281-1
+Article
+  CAS
+  Google Scholar
+  Kang, Y., Choi, H., Im, J., Park, S., Shin, M., Song, C. K., & Kim, S. (2021). Estimation of surface-level NO2 and O3 concentrations using TROPOMI data and machine learning over East Asia. Environmental Pollution, 288, 117711. https://doi.org/10.1016/j.envpol.2021.117711
+Article
+  CAS
+  Google Scholar
+  Karimi, H., Nikaeen, M., Shamsizadeh, Z., Hajizadeh, Y. (2024). Characterizing bioaerosols in PM2.5 in a semi-arid region experiencing desert dust events. Frontiers in Environmental Science, Vol. 11, pp. 1307426. https://doi.org/10.3389/fenvs.2023.1307426
+Katsouyanni, K., Samoli, E., Dimakopoulou, K., & Gryparis, A. (2019). Short-term effects of air pollution on health. In J. Nriagu (Ed.), Encyclopedia of environmental health (second edition). Elsevier. https://doi.org/10.1016/B978-0-12-409548-9.10956-X
+Chapter
+  Google Scholar
+  Khedekar, S., Thakare, S. (2023). Correlation analysis of atmospheric pollutants and meteorological factors using statistical tools in Pune, Maharashtra. In: E3S Web of conferences, Vol. 391, pp 01190. https://doi.org/10.1051/e3sconf/202339101190
+Kulshrestha, U., & Mishra, M. (2022). Chapter 3-Atmospheric chemistry in Asia: Need of integrated approach. In R. P. Singh (Ed.), Asian atmospheric pollution. Elsevier. https://doi.org/10.1016/B978-0-12-816693-2.00002-0
+Chapter
+  Google Scholar
+  Lahlaf, M.F., Mosbah, O., Sahila, A., Zekri, N., Bouamrane, R. (2020). Analysis of pollution caused by road traffic in the city of Oran. In: A Belasri, S Beldjilali (eds) In: ICREEC 2019 Proceedings of the 1st international conference on renewable energy and energy conversion. Springer, Singapore. https://doi.org/10.1007/978-981-15-5444-5_70
+Lu, X., Zhang, L., & Shen, L. (2021). Tropospheric ozone interacts with weather and climate. In M. Gao, Z. Wang, & G. Carmichael (Eds.), In: air pollution, climate, and health. Elsevier. https://doi.org/10.1016/B978-0-12-820123-7.00006-1
+Chapter
+  Google Scholar
+  Maurya, N. K., Pandey, P. C., Sarkar, S., Kumar, R., & Srivastava, P. K. (2022). Spatio-temporal monitoring of atmospheric pollutants using earth observation sentinel 5P TROPOMI data: Impact of stubble burning a case study. ISPRS International Journal of Geo-Information, 11, 301. https://doi.org/10.3390/ijgi11050301
+Article
+  Google Scholar
+  Medjahed, B., Djellouli, A., Hamidat, D., & Bouzit, M. (2018). Impact of the Methane (CH4) and dispersion in an urban area. Applied Journal of Environmental Engineering Science, 4(3), 387–397. https://doi.org/10.48422/IMIST.PRSM/ajees-v4i3.12975
+Article
+  Google Scholar
+  Medjahed, B., Naili, S., & Bouzit, M. (2017). Experimental Study of the impact of pollutants on air quality in the urban city. Journal of Materials and Environmental Science, 8(1), 144–153.
+CAS
+  Google Scholar
+  Ministère de l’environnement et des energies renouvelables MEER. (2022). Qualité de l’air. https://www.me.gov.dz/fr/environnement-urbain/air/ (Accessed 9/16/2023)
+Mejía, D. C., Alvarez, H., Zalakeviciute, R., Macancela, D., Sanchez, C., & Bonilla, S. (2023). Sentinel satellite data monitoring of air pollutants with interpolation methods in Guayaquil, Ecuador. Remote Sensing Applications: Society and Environment, 31, 100990. https://doi.org/10.1016/j.rsase.2023.100990
+Article
+  Google Scholar
+  Miller, B.G. (2011). The effect of coal usage on human health and the environment. In B.G. Miller (Ed) Clean coal engineering technology, Butterworth-Heinemann, pp. 85–132. https://doi.org/10.1016/B978-1-85617-710-8.00004-2
+Naili, S., & Morsli, A. (2018). Impact of industrial atmospheric emissions on ambient air quality in the region of Arzew (north-western Algeria). International Journal of Environmental Studies, 77, 38–42. https://doi.org/10.1080/00207233.2018.1517956
+Article
+  CAS
+  Google Scholar
+  Nguyen, D. H., Lin, C., Vu, C. T., Cheruiyot, N. K., Nguyen, M. K., Le, T. H., et al. (2022). Tropospheric ozone and NOx: A review of worldwide variation and meteorological influences. Environmental Technology & Innovation, 28, 102809. https://doi.org/10.1016/j.eti.2022.102809
+Article
+  CAS
+  Google Scholar
+  Ni, F., Wang, Q., Shao, W., Zhang, J., Shan, Y., Sun, X., & Guan, Q. (2023). Spatiotemporal characteristics and driving mechanisms of PM10 in arid and semi-arid cities of northwest China. Journal of Cleaner Production, 419, 138273. https://doi.org/10.1016/j.jclepro.2023.138273
+Article
+  CAS
+  Google Scholar
+  Parida, B. R., Bar, S., Roberts, G., Mandal, S. P., Pandey, A. C., Kumar, M., & Dash, J. (2021). Improvement in air quality and its impact on land surface temperature in major urban areas across India during the first lockdown of the pandemic. Environmental Research, 199, 111280. https://doi.org/10.1016/j.envres.2021.111280
+Article
+  CAS
+  Google Scholar
+  Petkova, E. P., Jack, D. W., Volavka-Close, N. H., & Kinney, P. L. (2013). Particulate matter pollution in African cities. Air Quality, Atmosphere and Health, 6, 603–614. https://doi.org/10.1007/s11869-013-0199-6
+Article
+  CAS
+  Google Scholar
+  Prunet, P., Lezeaux, O., Camy-Peyret, C., & Thevenon, H. (2020). Analysis of the NO2 tropospheric product from S5P TROPOMI for monitoring pollution at city scale. City and Environment Interactions, 8, 100051. https://doi.org/10.1016/j.cacint.2020.100051
+Article
+  Google Scholar
+  Rahal, F., Hadjou, Z., Blond, N., & Aguejdad, R. (2018). Croissance urbaine, mobilité et émissions de polluants atmosphériques dans la région d’Oran, Algérie (Urban growth, mobility and emissions of air pollutants in the Oran Region, Algeria). Cybergeo. https://doi.org/10.4000/cybergeo.29111
+Article
+  Google Scholar
+  Rahal, F., Rezak, S., & Benabadji, N. (2018). Influence de la pandemie du Covid-19 sur la pollution par le dioxyde d’azote dans la ville D’Oran Algérie. Algerian Journal of Health Sciences, 3(2), 52–57.
+Google Scholar
+  Rahal, F., Rezak, S., & Benabadji, N. (2021). Influence de la pandémie du COVID-19 sur la pollution par le dioxyde d’azote dans la ville d’Oran, Algérie (Influence of the COVID-19 pandemic on nitrogen dioxide in the city of Oran, Algeria). Algerian Journal of Health Science, 3(2), 52–57.
+Google Scholar
+  Rahaman, S. N., Ahmed, S. M. M., Zeyad, M., & Zim, A. H. (2023). Effect of vegetation and land surface temperature on

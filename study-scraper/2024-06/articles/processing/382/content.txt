@@ -1,0 +1,14 @@
+**Paragraph 1**
+The COVID-19 pandemic led to a significant reduction in anthropogenic emissions in China, resulting in improved air quality and unexpected haze events in certain regions. During the first two months of 2020, Northern China (NC) and Southern Coast China (SC) experienced severe haze pollution and decreased O3 situations, respectively. This study aims to identify the weather patterns responsible for these unusual phenomena and quantify the importance of various meteorological factors.
+
+**Paragraph 2**
+The authors employed a novel structural self-organising map (S-SOM) algorithm to identify the most meaningful clustering number of weather patterns and compared it with traditional SOM methods. The dataset consisted of hourly observations from 2015 to 2020, including air pollutants PM2.5 and O3, and six meteorological factors: pressure, precipitation, temperature, relative humidity, wind speed, and wind direction. A machine learning (ML) model was built using the training dataset and evaluated with the test dataset.
+
+**Paragraph 3**
+The results revealed that a double-centre high-pressure system across China effectively explained the unexpected PM2.5 pollution and O3 decline from climatology in NC and SC. The gradient-boosting machine (GBM) model provided a quantitative assessment of the importance of each meteorological factor in driving predictions of PM2.5 and O3 under specific weather conditions. Temperature played the most crucial role in the haze event in NC and the O3 change in SC.
+
+**Paragraph 4**
+The study's findings highlight the critical impact of meteorological conditions on air pollution, particularly temperature and humidity. The S-SOM algorithm effectively identified the most meaningful clustering number of weather patterns, while the GBM model quantified the importance of each meteorological factor. The results provide valuable insights into predicting air pollution under future emission scenarios and changing weather patterns influenced by climate change.
+
+**Paragraph 5**
+In conclusion, this study demonstrates the significance of weather patterns and meteorological factors in shaping air pollution responses during unusual events like the COVID-19 lockdown. The novel S-SOM algorithm and GBM model provide a framework for understanding the complex interactions between atmospheric chemistry processes and meteorology. Future studies can build upon these findings to improve predictive models and inform strategies for mitigating air pollution under changing environmental conditions.

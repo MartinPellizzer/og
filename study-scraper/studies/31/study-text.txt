@@ -1,0 +1,144 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (251)
+Atmospheric Research
+Volume 309
+, 15 October 2024, 107586
+Invited review article
+A systematic review of reactive nitrogen simulations with chemical transport models in China
+Author links open overlay panel
+Haoran Zhang a
+,
+Xueyu Zhou a
+,
+Chuanhua Ren a
+,
+Mengmeng Li a b
+,
+Tengyu Liu a b
+,
+Xin Huang a b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.atmosres.2024.107586
+Get rights and content
+Highlights
+•
+Reactive nitrogen plays a vital role in the formation of secondary air pollution.
+•
+Parameterizations of reactive nitrogen in chemical transport models are summarized.
+•
+Numerous studies have been conducted in China to model inorganic nitrates and HONO.
+•
+Organic nitrates are rarely simulated due to their high computational complexity.
+•
+More attention has been paid to amines due to their importance in particle nucleation.
+Abstract
+As primary emissions have been declining in recent decades in China, secondary pollution, like ozone (O3) and secondary aerosols are main pollutants deteriorating air quality. The chemistry of reactive nitrogen (Nr) plays a crucial role in the chemical transformation of secondary aerosols and O3, and its representation in three-dimensional (3-D) regional/global chemical transport models is vital for quantitatively understanding Nr's role in air pollution as well as future emission control. This study reviews the parameterizations of the Nr modeling in chemical transport models (CTMs) and their environmental implications over the past decade in China. A number of Nr species are present in the atmosphere. Given the significant impact of Nr on air quality, we have identified four research topics within the broader field of Nr research. These Nr topics include the multiphase chemistry of inorganic nitrates (which involves NO, NO2, NH3, HNO3, NO3 radicals, N2O5, ClNO2 and nitrate), organic nitrates (which involves NO, NO3, RONO2 and HNO3), HONO (which involves NO, NO2, HONO, and nitrate), and reduced‑nitrogen (which involves NH3 and amines). Regional CTM modeling of inorganic nitrates mainly focuses on homogeneous NO2 oxidation and heterogeneous N2O5 hydrolysis, which contribute to over 80% of inorganic nitrate formation in China. During hazy days, the contribution of heterogeneous uptake of N2O5 can be amplified. By contrast, organic nitrates modeling, including their gas-phase reactions, gas-particle conversion, and hydrolysis, is poorly explored in China, despite their importance for secondary organic aerosol (SOA) formation. HONO sources and their impacts on atmospheric oxidizing capacity (AOC) are an emerging research topic. Parameterizations of major HONO sources were presented, including the homogeneous pathway, direct emissions, heterogeneous uptake of NO2 on solid surfaces, and nitrate photolysis. The heterogeneous uptake of NO2 is the predominant pathway of HONO formation. HONO affects AOC by regulating the OH budget, particularly during the early morning when O3 photochemistry is not efficient. For NH3 and amines, current CTMs fail to accurately represent their sources in urban regions due to the lack of non-agricultural emissions. Although amines do not significantly influence chemical cycles, they show strong potential in inducing new particle formation. Overall, further work is needed to improve Nr modeling in China by developing parameterizations suitable for the Chinese atmospheric conditions, establishing accurate sector-based emission inventories for NH3 and amines, and realizing effective modeling of organic nitrates in the future.
+Introduction
+China has faced unprecedented environmental and public health challenges in the past decade due to severe haze events (Apte et al., 2015; Ding et al., 2019b; Maji et al., 2018). To mitigate PM2.5 pollution, China has implemented the Air Pollution Prevention and Control Action Plan (APPCAP), which imposed stringent ultra-low emission standards on power plants and industrial activities (Tang et al., 2019; Zhang et al., 2019d). As a consequence of the APPCAP project, there has been a remarkable reduction in SO2 emissions, concentrations, and associated sulfate concentrations nationwide (Zheng et al., 2018; Zhai et al., 2019; Meng et al., 2023). Concurrently, particulate nitrate has emerged as the dominant chemical component of PM2.5 and garnered increased attention (Chen et al., 2020; Ding et al., 2019a; Li et al., 2023c, Lin et al., 2020; Xie et al., 2022).
+Unlike the effective strategy for controlling sulfate, significant reductions in NOx (NO + NO2) emissions have shown limited efficacy in reducing nitrate levels in China (Fu et al., 2020), particularly during periods of COVID-19 lockdowns (Chang et al., 2020; Huang et al., 2021b; Le et al., 2020; Yan et al., 2023). This unexpected phenomenon can be explained by the complicated interactions between atmospheric oxidizing capacity (AOC) and reactive nitrogen species (Nr), including ammonium nitrate (NH4NO3), nitric acid (HNO3), ammonia (NH3), NOx, nitrate radical (NO3), and nitrogen pentoxide (N2O5). Specifically, the decrease in NOx inhibits the titration efficiency of ozone (O3) and leads to an elevated AOC, thereby facilitating the production of HNO3, NO3, N2O5, and subsequent formation of nitrates with abundant NH3 (Fu et al., 2020; Huang et al., 2021b). The other Nr species do not directly participate in the O3-Nr cycle but influence ambient AOC through Nr species like HONO or act as reservoirs for NOx such as nitryl chloride (ClNO2) and organic nitrates (RONO2). Apart from alkaline nitrogen-containing substances like NH3 and amines, all remaining Nr species are collectively referred to as NOy. Furthermore, NOy can be categorized into two groups: NOx and NOz. The latter represents a sum of NH4NO3, HNO3, HONO, NO3, N2O5, ClNO2, and RONO2, and acts both as oxidation products and reactive intermediates in reactions initiated by NOx (Seinfeld and Pandis, 2016).
+Chemical transport models (CTM) are widely applied in air quality studies. Previous studies have extensively used CTMs to quantitatively investigate the spatiotemporal patterns of air pollutants, simulate transboundary transport, diagnose pollution regimes, and assess the effectiveness of emission control measures (Giani et al., 2020; Lin et al., 2014; Zhai et al., 2023a; Zhou et al., 2023). However, the absence of cutting-edge chemical mechanisms can impede its accuracy, particularly for secondary air pollution. Consequently, numerous studies have incorporated state-of-the-art parameterizations into CTMs based on novel insights from laboratory experiments and field measurements to better capture essential characteristics and causes of air pollutants (Cheng et al., 2016; Li et al., 2023d; Miao et al., 2020; Qiu et al., 2019; Zhang et al., 2022a).
+Given the emerging research interests in Nr species and the lag in understanding their associated modeling in China, this paper focuses on reviewing parameterizations of Nr species in 3-D CTMs and their environmental impacts. In Section 2, we present an overview of the overall chemical cycle of Nr species. Section 3 demonstrates the current state of Nr modeling using CTMs in China. The specific parameterizations for modeling inorganic nitrates, organic nitrates, HONO, and reduced‑nitrogen (NH3 and amines) are discussed separately in 4 Multiphase chemistry modeling of inorganic nitrate, 5 Organic nitrate modeling, 6 HONO modeling, 7 Reduced‑nitrogen modeling. Finally, implications for future works on Nr chemistry modeling based on our findings are summarized in the concluding section. Our study differs from previous works as it systematically reviews interactions among different Nr species rather than just focusing on individual nitrogen-containing compounds.
+Section snippets
+Nr chemical cycle
+The entire Nr cycle can be further classified into the following five components based on its interactive reactions, as illustrated in Fig. 1.
+Overview of the Nr modeling studies in China
+The Chinese government has continued to implement long-term control projects following the success of the APPCAP, including the Three-Year Action Plan (from 2018 to 2020) and the 14th Five-Year Plan (from 2021 to 2025). Based on statistics from the Web of Science (WOS), Fig. 2a shows an increasing trend in inter-annual publication numbers of Nr studies in China from 2013 to 2022. The total number of publications exhibited a period of accelerated growth during the implementation of the
+Homogenous reactive pathway
+During daytime hours, nitrate from the homogenous reactive pathway primarily depends on two key steps: the reaction between NO2 and OH, as well as HNO3 and NH3. The reaction between NO2 and OH is a termolecular collision with an additional medium M (R2.2). The third molecule (M) is not directly involved in the association between NO2 and OH but instead absorbs the excess energy of the intermediate to form stable HNO3 molecules (Seinfeld and Pandis, 2016). The rate constant for this reaction (k,
+Gas-phase chemistry
+In order to model organic nitrates, a comprehensive framework is required that encompasses the chemical production and loss of RONO2 over multiple generations. Previous studies have continuously incorporated the latest RONO2-related reactions into VOC mechanisms to more accurately characterize the evolution of organic nitrates (Browne et al., 2014; Fisher et al., 2016; Kenagy et al., 2021; Mao et al., 2013; Qin et al., 2018a; Xie et al., 2013; Zare et al., 2018, Zare et al., 2019). This
+Homogeneous reactive pathway
+Similar to R2.2, the homogeneous reactive pathway of HONO (R4.1) also results from a termolecular collision involving an additional medium. The rate constant for this reaction can be calculated using the expression given in Eq. 13 of Table 3. The fitting parameters for this pseudo-second-order rate depend on various gas-phase chemical mechanisms (Zhang et al., 2020b, Zhang et al., 2021b). Although modeling studies largely account for this reaction, this standard pathway explains <10% of the
+NH3 sources
+In polluted regions, NH3 is mainly emitted from anthropogenic sources. The prevailing consensus suggests that NH3 emissions to the air are mainly driven by agricultural activities, such as fertilizer application and livestock (Kurokawa et al., 2013; Li et al., 2017c, Li et al., 2017b). Based on estimates from the Multi-resolution Emission Inventory for China (MEIC), one of the most advanced bottom-up emission inventories available, it is concluded that 93% of NH3 emissions in 2017 are
+Summary and implications for future works
+This paper presents a systematic review of the modeling of Nr species using 3-D CTMs and their environmental impacts on air quality in China. Based on the developed parameterizations, we explicitly show the modeling principles of inorganic and organic nitrates, HONO, and reduced‑nitrogen species.
+Previous studies have elucidated that the sum of NO2 homogeneous reaction and N2O5 heterogeneous hydrolysis contributes to >80% of inorganic nitrate formation in China. It should be noted that the
+CRediT authorship contribution statement
+Haoran Zhang: Writing – original draft, Visualization, Software, Resources, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Xueyu Zhou: Writing – review & editing, Formal analysis. Chuanhua Ren: Writing – review & editing, Formal analysis. Mengmeng Li: Writing – review & editing, Formal analysis. Tengyu Liu: Writing – review & editing, Formal analysis. Xin Huang: Writing – review & editing, Supervision, Project administration, Funding acquisition,
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was supported by the Ministry of Science and Technology of the People's Republic of China (2022YFC3701105) and the National Natural Science Foundation of China (42293322).
+References (251)
+B. Aumont et al.
+Contribution of HONO sources to the NOx/HOx/O3 chemistry in the polluted boundary layer
+Atmos. Environ.
+(2003)
+Y. Chang et al.
+Nonagricultural emissions enhance dimethylamine and modulate urban atmospheric nucleation
+Sci. Bull.
+(2023)
+D. Chen et al.
+Primary sources of HONO vary during the daytime: insights based on a field campaign
+Sci. Total Environ.
+(2023)
+M.-T. Chuang et al.
+Simulating nitrate formation mechanisms during PM2.5 events in Taiwan and their implications for the controlling direction
+Atmos. Environ.
+(2022)
+L. Cui et al.
+Nitrous acid emission from open burning of major crop residues in mainland China
+Atmos. Environ.
+(2021)
+T. Feng et al.
+Wintertime nitrate formation during haze days in the Guanzhong basin, China: A case study
+Environ. Pollut.
+(2018)
+T. Feng et al.
+Nitrate debuts as a dominant contributor to particulate pollution in Beijing: Roles of enhanced atmospheric oxidizing capacity and decreased sulfur dioxide emission
+Atmos. Environ.
+(2021)
+Y. Gao et al.
+Impacts of biogenic emissions from urban landscapes on summer ozone and secondary organic aerosol formation in megacities
+Sci. Total Environ.
+(2022)
+X. Ge et al.
+Atmospheric amines – part I. A review
+Atmos. Environ.
+(2011)
+P. Giani et al.
+Short-term and long-term health impacts of air pollution reductions from COVID-19 lockdowns in China and Europe: a modelling study
+Lancet Planet. Health
+(2020)
+View more references
+Cited by (0)
+View full text
+© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+Application of machine learning to analyze ozone sensitivity to influencing factors: A case study in Nanjing, China
+Science of The Total Environment, Volume 929, 2024, Article 172544
+Chenwu Zhang, …, Qin'geng Wang
+Nitrate formation mechanisms causing high concentration of PM2.5 in a residential city with low anthropogenic emissions during cold season
+Environmental Pollution, Volume 352, 2024, Article 124141
+Ji-Won Jeon, …, Philip K. Hopke
+Observing a dust aerosol layer at a height of 3–4 km above the ground on the southern margin of the Tarim Basin
+Atmospheric Environment, Volume 318, 2024, Article 120236
+Qing He, …, Lu Meng
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

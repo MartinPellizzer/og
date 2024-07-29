@@ -1,0 +1,296 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Buildings
+All Article Types
+Advanced
+  Journals Buildings Volume 14 Issue 7 10.3390/buildings14071980
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editors
+João Carlos Gonçalves Lanzinha
+Eduardo Qualharini
+Eugeniusz Koda
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+422
+Table of Contents
+Abstract
+Introduction
+Methodology
+Results and Discussions
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Life Cycle Assessment of Single-Story Low-Income Housing: A Brazilian Case Study †
+by Marianne Di Domênico
+1, Lauro André Ribeiro
+2 and Thaísa Leal da Silva
+2,*
+1
+Programa de Pós-Graduação em Engenharia Civil e Ambiental (PPGEng), Universidade de Passo Fundo, BR 285 Km 292.7, Campus I, Bairro São José, Passo Fundo 99052-900, RS, Brazil
+2
+Programa de Pós-Graduação em Arquitetura e Urbanismo (PPGARQ), Atitus Educação, Rua Senador Pinheiro 304, Campus Santa Teresinha, Bairro Vila Rodrigues, Passo Fundo 99052-900, RS, Brazil
+*
+Author to whom correspondence should be addressed.
+†
+This paper is an extended version of our paper published in Proceedings of CIRMARE 2023, VI International Congress on Recovery, Maintenance and Rehabilitation of Buildings.
+Buildings 2024, 14(7), 1980; https://doi.org/10.3390/buildings14071980
+Submission received: 31 March 2024 / Revised: 1 June 2024 / Accepted: 21 June 2024 / Published: 1 July 2024
+(This article belongs to the Special Issue Selected Papers of the CIRMARE 2023 – VI International Congress on Recovery, Maintenance and Rehabilitation of Buildings)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+This study aims to assess the environmental impacts of different construction systems employed in a single-story low-income housing development utilizing Life Cycle Assessment (LCA). The LCA was applied to the roof, wall, coating, and floor systems, considering the initial and recurring impacts from extraction to material replacement. Data were quantified using the CML 2001 method with OpenLCA 1.9 software. The analyzed impact categories are the potential for the depletion of abiotic resources—non-fossil (ADP); potential for the depletion of abiotic resources—fossil (ADP f); soil and water acidification potential (AP); eutrophication potential (EP); global warming potential—100 (GWP); stratospheric ozone layer depletion potential (ODP); and photochemical oxidation potential (POCP). The results highlight the impacts related to the maintenance and replacement of materials as the most significant, with walls being the system with the highest concentration of impacts, presenting the highest results among five of the seven categories. In the GWP category, the wall system resulted in 42% of total impacts (initial + recurring impacts). These findings show that the selection and definition of construction materials in the design phase can either mitigate or exacerbate environmental burdens. Therefore, this research contribution lies in pinpointing the environmental impacts of each construction system of low-income housing to support architects and engineers in addressing environmental impacts when making project decisions.
+Keywords: environmental impacts; life cycle assessment; low-income housing; construction materials
+1. Introduction
+The built environment’s contribution to climate change is significant and plays a fundamental role in both greenhouse gas emissions and adaptation to climate change consequences. The built environment encompasses buildings, infrastructure, and urban spaces, and its interactions with the climate are complex and extensive, spanning both the mitigation of greenhouse gas emissions and adaptation to climate change impacts. According to the latest “Global Status Report for Buildings and Construction” [1], the construction and building sector accounts for over 34% of energy demand and approximately 37% of CO2 emissions.
+As identified in the 2022 Global Status Report for Buildings and Construction [1], and based on the Guide for Incorporating Building Actions into NDCs, actions including sustainable material choices and building design, urban planning measures, adaptation and resilience plans, clean energy transitions, and building operations and renovations offer opportunities to achieve the goals of the Paris Agreement, namely, to keep the global temperature increase well below 2 degrees Celsius, and preferably below 1.5 degrees Celsius, by the end of the century.
+According to the UN-Habitat [2] (p. 78) report, “currently about 1.6 billion people or over 20 per cent of the global population live in inadequate, crowded and unsafe housing. Another two billion people are expected to be living in slums in the next 30 years”. In the same report, it is stated that this scenario is worse in developing countries and that affordable housing for low-income households is needed.
+In Brazil, according to a survey carried out in 2019 by the João Pinheiro Foundation in partnership with the Ministry of Regional Development, the Brazilian housing deficit was 5.9 million homes in the country, which represents 8% of all Brazilian households [3]. To solve this problem, it would be necessary to build 1.18 million housing units per year throughout the country to supply the housing deficit in ten years.
+Through the Brazilian national subsidy program for the acquisition of housing by low-income families called the Minha Casa Minha Vida Program (PMCMV—My House My Life Program—our translation), 4 million housing units were built to alleviate housing difficulties in Brazil [4]. In this way, the importance of the civil construction sector becomes evident, significantly impacting people’s lives and the environment [5].
+In this sense, the importance of encouraging buildings with lower environmental impacts is highlighted so that, in addition to minimizing the housing deficit, it is possible to build homes with lower environmental impacts. In this sense, it is possible to measure the environmental impacts of a product or process with the Life Cycle Assessment (LCA). The LCA makes it possible to analyze products and inputs to better understand their cycles and thus contribute to proposing solutions that reduce their impacts on the environment. Silva et al. [6] (p. 11) define the LCA as an “Assessment used to quantify the environmental burden of a product from the removal from nature of the elementary raw materials that enter the production system (cradle) to the disposal of the final product (grave)”.
+Thus, the LCA emerges as an important tool for analyzing environmental impacts in civil construction, a methodology that can guide sustainable practices throughout the entire life cycle of a building. Based on analysis carried out using the LCA methodology, Chamasemani et al. [7] highlight the use of sustainable materials as an essential strategy to reduce the carbon footprint during the construction process. The authors conclude that sustainable materials can significantly reduce the carbon footprint of reinforced concrete buildings, with a 41% decrease. Furthermore, the research reveals substantial reductions in pollution levels in several categories, highlighting the importance of carefully choosing materials in the search for more sustainable construction practices.
+In another study focused on the LCA of reinforced concrete structures, Mostafaei et al. [8] mention cement as the main contributor to the impacts incorporated in the systems analyzed and highlight the influence of design parameters on the carbon footprint of buildings.
+Besides the construction phase, the LCA can also be used to assess environmental impacts in the building’s end-of-life phase, seeking to identify carbon saving strategies and promote sustainable construction. Lei et al. [9,10] explore these strategies, analyzing the benefits of recycling, remanufacturing and reuse in different types of construction.
+A review of the literature on low-income housing LCA studies highlights a predominance in simplified life cycle analysis, with a particular focus on embodied energy consumption and CO2 emissions [11,12,13,14,15,16,17]. Studies such as those of Caldeira [15] and Macias et al. [16] provide valuable insights into the impact of energy consumption in different construction systems, highlighting the importance of a pre-operational phase in determining environmental impacts. However, a significant gap is observed in relation to the scope of analysis throughout the complete life cycle of housing, with little research extending to the maintenance phase of buildings, indicating the need for deeper investigations in this regard.
+Furthermore, the literature reveals a growing concern with expanding analysis beyond energy consumption and CO2 emissions, exploring other impact categories, such as the consumption of non-renewable resources, toxicity, and resource depletion [18,19,20]. Studies such as that of Oyarzo and Peuportier [21] demonstrate an integrated approach, combining the LCA with thermal simulations, aiming to implement strategies to reduce environmental impacts from the design phase. However, gaps persist in relation to the complete approach to the phases of the life cycle of buildings, highlighting the need for additional research for a more comprehensive and holistic understanding of the environmental impacts associated with low-income housing.
+New research on the LCA of low-income housing units can significantly contribute to filling these gaps and providing valuable insights for decision-making in the design and management phases of these housing units. Therefore, it is important to expand the analysis of environmental impacts beyond energy consumption and CO2 emissions, covering other categories of environmental impacts. Furthermore, it is necessary to further investigate the role of maintenance in contributing to the total impacts throughout the life cycle of buildings in order to develop effective strategies to reduce these impacts.
+Another relevant aspect to be taken into consideration is the building envelope elements, such as walls and roofs, and their impact on the LCA results. The analysis of different construction systems and materials can reveal opportunities to improve the environmental efficiency of low-income housing.
+Thus, the objective of this research is to assess the environmental impacts of different construction systems employed in a low-income housing development utilizing the Life Cycle Assessment (LCA). Therefore, this research can contribute to a more comprehensive and accurate understanding of the environmental impacts of low-income housing buildings, bringing new perspectives on environmental impacts, and new analysis on buildings’ envelopes that can support decisions in the design stage.
+2. Methodology
+The LCA of this work was based on a case study of low-income housing located in the city of Passo Fundo (Brazil). The selected project refers to housing units at Residencial Canaã, which benefited two hundred and ten low-income families. The housing units in the allotment were implemented through the Minha Casa Minha Vida Federal Program (PMCMV).
+The development covers 5.8 hectares, where 210 single-story housing units were built that follow the same building pattern. The housing units in the allotment have an area of 45.19 m2, a living room, a kitchen with an integrated service area, two bedrooms, a bathroom, and an open garage. The house floor plan is presented in Figure 1.
+Figure 1. House floor design plan of the residential unit studied. Source: Adapted from Martins et al. [22].
+In the present study, as a form of delimitation, the elements of the envelope and floor of the house were divided into five parts for a better understanding of the elements, namely, the slab, roof, walls, coatings, and floor (Figure 2).
+Figure 2. Elements analyzed in this study. Source: authors (2023).
+The elements and their quantities are described in the inventory survey stage (Table 1). The method for applying the LCA followed the guidelines of ISO 14040 [23] and ISO 14044 [24]. These international standards establish guidelines and principles for the Life Cycle Assessment (LCA). ISO 14040 defines the principles and structure of the LCA, including the objectives, scope, definitions, and requirements for carrying out an LCA. ISO 14044 establishes detailed requirements and guidelines for the implementation of the LCA, including methodological aspects, inventory analysis, impact assessment, and interpretation of results.
+The main objective of the LCA in this study is to evaluate the environmental impacts of construction systems of residential buildings to assist in decision-making in the design stage, aiming at future constructions with less environmental impacts. The product system adopted in the present study is the life cycle of the construction systems of single-family low-income housing with an area of 45.19 m2. The study period adopted for the building was a 50-year life cycle, taking into account the time used found in the literature [20,25]. The functional unit used in this study was the square meters (m2) of floor area.
+Due to the absence of a specific Brazilian standard for the application of the LCA in buildings, the life cycle phases considered follow the guidelines of the European standard EN 15978:2011 [26]. This European standard establishes principles and requirements for the Life Cycle Assessment of buildings and infrastructure. It provides a set of guidelines and methodologies to quantify and evaluate the environmental performance of a building throughout its entire life cycle. Its aim is to provide a standardized framework for evaluating and comparing the environmental performance of different buildings and infrastructure, enabling decision-making to minimize the environmental impact throughout the entire project life cycle.
+The scope adopted for the life cycle comprises the stages of raw material extraction, production of construction materials (including transport from the factory to the distributor and later from distribution to the construction site), construction of the building, waste of materials during construction, and maintenance of building systems (Figure 3).
+Figure 3. Product system and system boundaries Source: adapted from EN 15978 [26].
+This study covers LCA levels A1, A2, A3, A4, A5, B3, and B4 of buildings specified in the mentioned standard (Figure 3). Levels A1 to A3 refer to cradle-to-gate processes, that is, the production stage of construction materials, covering the stages of raw material extraction, transportation to the factory, and manufacturing [26]. Levels A4 and A5 include the transportation of necessary materials for construction to the construction site and the construction of the building itself. In this research, as the focus is to analyze construction systems, only the transportation of construction materials to the site and its construction were surveyed, and elements such as the transportation of workers and machinery were not evaluated. In the building use stage, the levels called B3 and B4 were analyzed, stages that are equivalent to components’ maintenance and replacement according to their specified useful life.
+For the life cycle impact assessment stage, the OpenLCA 1.9 software was used to calculate the impact assessment. The selected impact method follows the approach of the Institute of Environmental Sciences (CML—Centrum voor Milieuwetenschappen Leiden) created by the University of Leiden in The Netherlands, in 2001 [27]. All the input and output parameters are presented in Supplementary Materials.
+The impact categories used are those recommended by EN 15804 [28], which describes indicators to be used in the analysis of the environmental impacts of construction products. The categories of analyzed impacts are the potential for the depletion of abiotic resources—non-fossil (ADP); the potential for the depletion of abiotic resources—fossil (ADP f); soil and water acidification potential (AP); eutrophication potential (EP); global warming potential—100 (GWP); stratospheric ozone layer depletion potential (ODP); and photochemical oxidation potential (POCP). The description of each category is presented in Table 1.
+Table 1. Impact categories used in this study. Source: adapted from EN 15804 [28].
+The inventory survey was carried out using primary data referring to the project and secondary data available in the Ecoinvent version 3.6 database using the cut-off system model. Brazilian data were prioritized; however, in the absence of national data, GLO and RoW data were used. For the inventory survey in the first stage of this research, the cut-off system model with Market processes was used. In the second stage, the transformation and transport data of the elements were surveyed separately.
+The quantitative inventory of the materials used is shown in Table 2. To obtain information on the materials used and their quantities, data were gathered from the descriptive memorials of Residencial Canaã, from SINAPI [31] (data from 2020), and from manufacturers. Waste materials on site are already accounted for in the inventory and are indicated by SINAPI. For the analysis of the first stage, transport was calculated with Market data, and in the next stage, it was considered as a separate process.
+Table 2. Quantitative inventory for 1 m2 of the construction systems. Source: authors (2023).
+For the construction stage of the building, the electrical consumption by equipment for the execution of construction systems was considered. For the execution of the areas in concrete, slab, and subfloor, the use of ready-mixed concrete was considered. The preparation of the laying mortar and mortar for roughcasting and plastering was carried out on site. The electric consumption to the execution of 1 m2 was used to calculate the total consumption of each system (Table 3).
+Table 3. Electric consumption for the analyzed construction systems. Source: authors (2024).
+To define the scenario for the maintenance and replacement of the analyzed building materials, over the 50-year useful life of the building, the guidelines established in NBR 15.575-1: residential buildings: performance: Part 1: General requirements [32] and the minimum design lifetime (VUP) were used. Table 4 defines the minimum VUP of the construction systems studied and the number of replacements required during the 50-year life cycle of the building.
+Table 4. Project lifetime (VUP) and number of substitutions. Source: adapted from NBR 15.575-1 [32].
+3. Results and Discussions
+To conduct the analyses, this study was separated into two stages: first, the evaluation of 1 m2 of all systems, and later, the analysis of the system with the greatest total impacts in detail to determine which elements of the system in question have the greatest influence on the impact generation. The results were interpreted for 1 m2 of each of the building systems, namely, the roof, walls, floors, and coatings (Figure 4).
+Figure 4. Initial and recurrent embedded impacts of each system. Source: authors (2023).
+Analyzing the results in Figure 4, in the abiotic resource depletion (ADP) category, the floor and coating systems are the ones that have the most impact with 47% and 46% of the total impacts, respectively. The wall system contributes 4% of the total impacts, with 2% for initial embedded impacts and recurring ones, while the roof has the smallest share, with 1% for initial impacts and 2% for recurring impacts.
+In the eutrophication potential (EP) category, the floor system has the highest total impact, with 9% of initial impacts and 21% of recurring impacts, followed by the coating system with 7% of initial impacts and 21% of recurring impacts. The walls contribute 13% of initial impacts and 8% of recurring impacts, while the roof registers the lowest impacts, with 9% of initial impacts and 8% of recurring impacts.
+In terms of global warming potential (GWP), walls stand out with 42% of total impacts, while the roof contributes 10% of initial impacts and 12% of recurring impacts. The flooring and covering systems have similar recurring impacts with 13%, while the initial impacts for flooring are lower, representing just 4% of the total share of results.
+In the depletion of the stratospheric ozone layer (ODP), in the photochemical oxidation potential (POCP), and in the acidification potential (AP), it is observed that the contributions vary between different construction systems, with coating and flooring systems presenting the smaller shares in the total impacts, while the walls and roof stand out with significant contributions.
+In general, it is possible to identify that recurring impacts have a decisive influence on the share of each system. Another point to be considered is that systems with greater total mass also presented greater impact results. Furthermore, the results show that the construction system referring to the walls presents the greatest impact contributions for five of the seven categories analyzed. Therefore, this system will be analyzed in greater depth in the next section.
+3.1. Initial and Recurring Embedded Impacts of the Wall System
+In this step, the results referring to the analyses of the initial and recurrent embedded impacts of the case study wall system were analyzed. For a more complete and detailed analysis, the wall system was divided into four subsystems referring to each element used for the execution of the present system: sealing, roughcast, plastering, and transport of materials. The results of each subsystem in the seven impact categories analyzed are presented in Figure 4.
+There is no need for maintenance on the sealing set. Thus, for this item, only the initial embedded impacts of the materials used and initial embedded impacts for their transportation were considered. This set expresses results that vary between 20% and 50% of participation in the total impacts. Among categories, this element is the largest contributor to the ADP; the smallest participation occurs in the ODP category.
+The set of roughcast elements refers to mortar elements used to carry out this stage of masonry. Mortar for roughcast is composed of cement, sand, and water. Water was not analyzed in this study, taking into account that at the time of execution of this work, the site already had piped water infrastructure. The set for roughcast showed the smallest participation in the seven impact categories; the total results (EI + ER) of this set participate in portions of between 1% and 7% of the total impacts. The lowest participation is observed in the ADP category and the most representative in the GWP. Comparing the initial and recurring embedded impacts of this set, it is noted that the recurring results double the initial ones.
+Data representing the plastering subsystem are highly representative of the selected impact categories. In this study, plaster-coating mortar is composed of sand, lime, cement, and water. As demonstrated by Maia de Souza et al. [33], for the category related to climate change (GWP), the greatest impacts are concentrated in coating mortar elements—plaster—mainly due to the large presence of cement in this element. In the same sense, Mostafaei et al. [8] also identified that cement is the main contributor to environmental impacts on construction elements. Furthermore, for the authors, an increase in the use of cement is linked to an increase in toxicity.
+In the GWP category, this subsystem participates in 48% of the total impacts. Likewise, the plaster expressed the highest impact results in the POCP category, where it participated in 50% of the impacts. It is important to reinforce that the major impacts of the plastering subsystem are influenced by its replacements throughout life.
+Total impacts related to the transport of materials showed the highest results in four of the seven categories analyzed (Figure 5). However, it is possible to notice that the greatest contribution in the transport results occurred in the ODP category, with 42% of the total, due to its great contribution to the burning of fuels. The ODP category is mainly related to the production of petroleum-derived fuels, such as diesel used in transport trucks.
+Figure 5. Initial and recurrent embedded impacts of the wall system. Source: authors (2023).
+Given that the sealing subsystem plays a significant role in the impacts related to transportation and that substitutions are not considered within this subsystem, it is evident that the initial embedded impacts in transportation were higher in all analyzed categories compared to recurring impacts (Figure 5). This can be explained by the direct contribution of the total mass participation of the elements to transportation-related impacts, as the sealing subsystem accounts for 70% of the total mass in the wall system (Figure 6).
+Figure 6. Mass participation and initial embedded impacts in subsystems. Source: authors (2023).
+According to Moraga [18] and Caldas et al. [14], greater mass participation also leads to higher impacts. Thus, a comparative analysis was conducted, as illustrated in Figure 6, where it is possible to correlate the total mass of each element with its initial embedded impacts, confirming that for the studied elements, the higher the mass participation of an element in the system, the greater its initial embedded impacts.
+According to Kim et al. [34], the main impacts of cement are generated during limestone extraction and clinker transformation, where large amounts of polluting gases are emitted, mainly due to cement production using high-temperature kilns, thus requiring a lot of energy in the process and the heavy consumption of fossil fuels.
+Related to that study, analyzing Figure 7, the participation of cement in the impacts of roughcast and plaster subsystems is remarkable. In both mentioned subsystems, cement did not show the highest results only in the ADP category. However, the impacts in GWP category stand out, where cement results were higher. For the roughcast subsystem, results referring to cement reach 76% of the total impacts. In the plastering subsystem, cement impacts vary between 18% and 50% of the total. In the sealing subsystem, cement results were not expressive due to the small amount used.
+Figure 7. Results of the elements of each wall subsystem. Source: authors (2023).
+In the plastering subsystem, impacts related to lime are also significant, with expressive results in all impact categories. The POCP category stands out, where it accounts for 45% of the total impacts, the largest share among the materials in the set. Based on the data used in this study, lime calcination follows similar processes to clinker production. Thus, another aspect to be considered is that the trace of the mortar directly interferes in the impacts generated, since, mainly in the plastering subsystem, cement and lime play a large role, that is, mortars with a greater presence of these elements result in a greater impact.
+Although the greatest impacts of concrete are in cement production processes, the extraction of aggregates used in the concrete mixture directly impacts the ecosystem, mainly causing erosion of the soil where extractions are carried out [34]. However, it is important to specify that additives also have a great participation in the impacts. Concrete, used only in the sealing subsystem, showed more expressive results in the AP and GWP categories, with the lowest participation of concrete being found in the ADP impact category. In this way, the concrete results vary between 13% and 30% of the total impacts of the sealing subsystem.
+Still, regarding the sealing subsystem, the ceramic blocks participated significantly in the results of all impact categories, highlighting the ADP, GWP, and ODP categories where it obtained the largest share of the subsystem impacts. As for the impacts of GWP and ODP, a significant portion of emissions is derived from block-burning processes. Ceramic blocks presented portions of between 20% and 55% of the total impacts of the sealing subsystem. These results are linked to their mass participation in the analyzed subsystem.
+The results of transport impacts also showed an important participation in the analyzed categories. Regarding transport inventory data, data referring to trucks with a size class of 3.5–7.5 tons, 16–32 tons, and greater than 32 metric tons of gross vehicle weight were used. The datasets used refer to the entire transport life cycle, taking into account the infrastructure of the road network and trucks, materials needed for maintenance, fuel consumption, transport services, and, finally, emissions to air, soil, and water.
+The transport data used in this study are available at Ecoinvent and represent average European load factors; thus, in all data used in this step, the Euro III emission class was defined for this study. According to Moraga [18], this class is similar to Brazilian emissions class P5, which is the vehicle emissions control in force between the years 2009 and 2011. The transport results range from 20% to 70% of impacts on each subsystem. As cited by Caldas et al. [14] and Moraga [18], elements with greater mass representations are responsible for greater impacts on transport. Caldas et al. [14] also point out that, logically, greater distances also result in greater environmental impacts.
+3.2. Comparison with Related Works
+In this subsection, related studies are examined, and it is found that some of them employed different methodologies compared to this study. For example, Sposto and Paulsen [11], Pedroso [12], Caldeira [15], and Macias et al. [16] quantified and analyzed the embodied energy (EE) in specific materials used in residential buildings using the Life Cycle Assessment (LCA). As a result, their findings cannot be directly compared to the conclusions of this research, since this dissertation did not assess the embodied energy in the analyzed construction systems due to methodological choices.
+Regarding the methodologies used, Lira et al. [13] and Caldas et al. [14] also employed simplified LCA methodologies to analyze energy consumption and CO2 emissions. However, due to substantial methodological differences, especially in terms of inventory data collection, the results of these studies are not directly comparable, even though they resulted in CO2eq emissions in the global warming potential (GWP) category. Moraga [18] asserts that there is still ongoing debate surrounding the methodologies of LCA-CO2 and LCA-EE, as different studies using these methods often yield discrepancies among authors. As a result, a consensus has not yet been reached in the literature regarding the comparability of results from the full LCA, LCA-EE, and LCA-CO2, as noted by Chau et al. [35].
+Braga [17] also investigated global warming potential, one of the impact categories considered in this study, by comparing concrete walls with conventional partition walls. The author employed two methods: one utilizing secondary data and conducting a hybrid assessment and the other using the GaBi software educational version (Database Edition 2017) with data from its database to assess the global warming potential of the analyzed systems. Since the author also evaluates the conventional wall system, which consists of ceramic blocks and mortar, some similarities in results with this research may be found.
+Consistent with the findings in the second stage of this dissertation, Braga [17] indicated that cement and ceramic blocks have a significant influence on CO2 emissions. The author attributed this to their mass representation and the use of high temperatures in their production processes. Similarly, Azevedo et al. [36] emphasized the significance of cement as a major factor in the environmental impacts of construction systems. Morales et al. [20] conducted studies that yielded similar results to our study. They found that the masonry system also had significant environmental impacts, especially up to the building construction stage, with the use of cementitious materials being the main contributor to global warming potential. However, it is important to note that Morales et al. [20] conducted their study using data adapted to Brazilian reality, which may result in some differences in the results. Moraga [18] conducted a Life Cycle Assessment (LCA) on a low-income housing unit that is comparable in terms of area and construction systems to our case study. However, the author utilized different materials and adapted the data to the Brazilian context. While a direct comparison is not feasible, there are similarities found when examining Moraga’s LCA. Specifically, both studies emphasize the influence of cement in the embedded impacts of construction systems, as well as the significance of systems with greater total mass in terms of material transportation impacts. Moreover, Moraga’s findings regarding the maintenance stage align with our own, illustrating that the higher the need for material replacements, the greater the recurring embedded impacts of a building.
+Therefore, our interpretation of the Residential Canaã LCA results affirms and reinforces the findings of previous studies. The initial embedded impacts of a system are directly influenced by its total mass, and the impacts associated with maintenance activities can often surpass the initial impacts, leading to an escalation in the overall impacts of the construction system.
+3.3. Strategies for Project Decision-Making
+Analyzing the results obtained, it is possible to highlight strategic decisions for reducing environmental impacts in construction systems and, in this way, point out paths that can be taken into account in the design decision-making process, as shown in Figure 7. As observed in the present study and studies by Morales et al. [20] and Evangelista et al. [19], the total mass of a building system can lead to greater environmental impacts, both concerning building materials and their transportation. Thus, in order to reduce environmental impacts influenced by the total mass of the system, it is important to invest in lighter materials.
+Regarding impacts related to transport, in addition to studying the use of lighter materials, a strategic decision is to prioritize the use of local materials or those that come from locations closer to the construction site because, as observed in the results of this study and according to Caldas et al. [14], the greater the distance between the product and its final destination, the greater the impacts, since this distance directly impacts fuel consumption and also emissions.
+As for construction systems, it is clear that to reduce the initial impacts embedded in the materials, it is important to invest in technological and alternative materials which have a cleaner production process and are less aggressive to the environment. In this sense, it is also necessary to look for materials that have lower energy consumption and use renewable energies in their production.
+Furthermore, in order to reduce the impacts embedded in materials, another aspect considered is the definition of materials that use less cement in their composition, opting for materials with cleaner raw materials or even that have recycled materials in their composition. Still, regarding the use of cement, one strategy is to implement the use of alternative mortars or those with reduced cement content, such as the use of biomass or polymeric mortars. Furthermore, another factor to be considered is the mortar trait, as this directly interferes with the impacts generated, since, mainly in the plastering subsystem, cement and lime have a large participation.
+However, in addition to prioritizing elements that have lower initial impacts, it is important to check in detail the information and specifications of materials and systems used, since material maintenance was a decisive aspect for most elements, being the main aggravating factor of impacts embedded in the construction systems analyzed. Often, recurrent embedded impacts can be much higher than the initial ones. In this sense, professionals involved in the project design must be aware of the specificities of the materials used, in particular the maintenance and replacement of products used in their projects, to identify advantages and disadvantages concerning the environmental impacts of the elements used.
+Furthermore, in order to reduce environmental impacts during the execution of buildings, designers/architects/engineers must act to avoid wasting materials on site. Thus, it is important to prioritize the execution of rationalized works, avoiding waste and the greater consumption of raw materials.
+The mentioned strategies were determined from the results found in the LCA carried out and studies available in the literature, in which critical points were found in the studied elements and, thus, action decisions that could be implemented by professionals in the area were identified. Based on information about the impacts of materials and construction systems, professionals in the area and the interested population can use these strategies to develop their guidelines for the design of less impactful projects and possess autonomy in decision-making regarding the sustainability of the project.
+4. Conclusions
+The establishment of new low-income housing holds significant importance for developing nations. Nonetheless, civil construction processes give rise to a multitude of environmental impacts. Therefore, the objective of this research was to conduct analyses aimed at mitigating the environmental impacts associated with widely used construction systems in low-income housing. The LCA results and interpretations have enabled the identification of strategic decisions to support architects, engineers, and other industry professionals in addressing environmental impacts inherent in building construction systems. The main conclusions are presented as follows:
+Upon comparison of the impact results across each analyzed system, it was evident that the wall system exhibited the highest participation in five out of the seven categories examined. Consequently, in the second stage of this study, this component was subjected to separate analysis.
+In the wall subsystem analysis, data representing the plaster subsystem showed a significant participation in the total impacts.
+The system mass participation directly contributes to the aggravation of its environmental impacts, primarily due to material transportation.
+Certain materials, such as cementitious elements and ceramic blocks, predominantly contribute to the environmental impacts of the system.
+For architects, engineers, and other industry professionals, it is imperative to opt for products manufactured through cleaner production processes and utilizing renewable or environmentally certified raw materials. Additionally, minimizing the use of cementitious materials and favoring locally sourced or regionally manufactured materials emerge as crucial considerations.
+To mitigate environmental impacts during the maintenance and replacement phases, a thorough assessment of the lifespan of materials employed in projects becomes imperative. This entails evaluating the requisite maintenance and replacement needs over the building’s life cycle, prioritizing materials and construction systems with extended service life to reduce the replacement frequency.
+It is believed that equipping both construction practitioners and the general public with pertinent information empowers them to pursue sustainable development objectives, prioritizing the construction of buildings with minimal environmental footprints and thereby contributing to sustainability within the civil construction sector.
+Supplementary Materials
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/buildings14071980/s1. Table S1. Data input in the Ecoinvent database version 3.7 for surveying the inventory of the sys-tems analyzed (datasets). Table S2. Data input in the Ecoinvent database version 3.7 for surveying the inventory of the second stage of this study. Table S3. Results of the first stage of this study—assessment of the life cycle of the construction systems of Canaã Residence (output)—initial embedded impacts. Table S4. Results of the first stage of this study—assessment of the life cycle of the construction systems of Canaã Residence (output)—recurrent embedded impacts. Table S5. Results of the second stage of this study—assessment of the life cycle of the wall system (output)—total impacts. Table S6. Results of the second stage of this study—assessment of the life cycle of the wall system (output)—initial embedded impacts in each subsystem. Table S7. Results of the second stage of this study—assessment of the life cycle of the wall system (output)—recurrent embedded impacts in each subsystem.
+Author Contributions
+Conceptualization, M.D.D. and T.L.d.S.; methodology, M.D.D. and T.L.d.S.; software, M.D.D.; validation, M.D.D.; formal analysis, M.D.D.; investigation, M.D.D.; resources, M.D.D. and T.L.d.S.; data curation, M.D.D.; writing—original draft preparation, M.D.D., T.L.d.S. and L.A.R.; writing—review and editing, T.L.d.S. and L.A.R.; visualization, M.D.D., T.L.d.S. and L.A.R.; supervision, T.L.d.S. and L.A.R.; project administration, T.L.d.S.; funding acquisition, T.L.d.S. All authors have read and agreed to the published version of the manuscript.
+Funding
+The authors would like to thank the National Council for Scientific and Technological Development (CNPq), Process number: 31324/2022-1, Postgraduation Program of Architecture and Urbanism of ATITUS Educação, and Fundação Meridional, which provided the means to carry out this research.
+Data Availability Statement
+The raw data supporting the conclusions of this article will be made available by the authors on request.
+Conflicts of Interest
+The authors declare no conflicts of interest.
+References
+United Nations Environment Programme. 2022 Global Status Report for Buildings and Construction: Towards a Zero-Emission, Efficient and Resilient Buildings and Construction Sector; United Nations Environment Programme: Nairobi, Kenya, 2022; Volume 224, ISBN 978-92-807-3768-4. [Google Scholar]
+United Nations Human Settlements Programme (UN-Habitat). World Cities Report 2022: Envisaging the Future of Cities; United Nations Human Settlements Programme (UN-Habitat): Nairobi, Kenya, 2022. [Google Scholar]
+Fundação João Pinheiro. Deficit Habitacional No Brasil—2016–2019; Fundação João Pinheiro: Belo Horizonte, Brazil, 2021. [Google Scholar]
+Confederação Nacional de Municípios (CNM) CNM Faz Análise Dos 10 Anos Do Minha Casa, Minha Vida. Available online: https://www.cnm.org.br/comunicacao/noticias/cnm-faz-analise-dos-10-anos-do-minha-casa-minha-vida (accessed on 20 March 2022).
+de Barbosa Júnior, I.O.; Macêdo, A.N.; Martins, V.W.B. Construction Industry and Its Contributions to Achieving the SDGs Proposed by the UN: An Analysis of Sustainable Practices. Buildings 2023, 13, 1168. [Google Scholar] [CrossRef]
+Silva, G.A.; Brasher, M.; de Lima, J.A.O.; Lamb, C.R. Avaliação Do Ciclo de Vida—Terminologia Ontológica; Instituto Brasileiro de Informação em Ciência e Tecnologia (Ibict): Brasília, Brazil, 2014; ISBN 978-857-013-1034. [Google Scholar]
+Chamasemani, N.F.; Kelishadi, M.; Mostafaei, H.; Najvani, M.A.D.; Mashayekhi, M. Environmental Impacts of Reinforced Concrete Buildings: Comparing Common and Sustainable Materials: A Case Study. Constr. Mater. 2023, 4, 1–15. [Google Scholar] [CrossRef]
+Mostafaei, H.; Badarloo, B.; Chamasemani, N.F.; Rostampour, M.A.; Lehner, P. Investigating the Effects of Concrete Mix Design on the Environmental Impacts of Reinforced Concrete Structures. Buildings 2023, 13, 1313. [Google Scholar] [CrossRef]
+Lei, B.; Yang, W.; Yan, Y.; Zaland, S.; Tang, Z.; Dong, W. Carbon-Saving Benefits of Various End-of-Life Strategies for Different Types of Building Structures. Dev. Built Environ. 2023, 16, 100264. [Google Scholar] [CrossRef]
+Lei, B.; Yang, W.; Yan, Y.; Tang, Z.; Dong, W. Carbon Emission Reduction Evaluation of End-of-Life Buildings Based on Multiple Recycling Strategies. Sustainability 2023, 15, 15711. [Google Scholar] [CrossRef]
+Sposto, R.M.; Paulsen, J.S. Energia Incorporada Em Habitações de Interesse Social Na Fase de Pré-Uso: O Caso Do Programa Minha Casa Minha Vida No Brasil. Oculum Ens. 2014, 11, 39. [Google Scholar] [CrossRef]
+Pedroso, G.M. Avaliação de Ciclo de Vida Energético (Acve) de Sistemas de Vedação de Habitações; Universidade de Brasília: Brasília, Brazil, 2015. [Google Scholar]
+Lira, J.; Caldas, L.; Silveira, A.; Sposto, R. Avaliação do Ciclo de Vida de Emissões de CO2 e Desempenho Térmico de Habitações: Estudo de Caso do Sistema Construtivo Casa Express na Cidade de Teresina—PI. In Proceedings of the XVI Encontro Nacional de Tecnologia do Ambiente Construído, São Paulo, Brazil, 21–23 September 2016. [Google Scholar]
+Caldas, L.R.; Sposto, R.M.; Pires, A.C.; Paulsen, J.S. Sustainability in Construction: An Assessment of the Energy Life Cycle and of CO2 Emissions for Social Housing Facades. Sustain. Debate 2016, 7, 238–256. [Google Scholar] [CrossRef]
+Caldeira, D.M. Avaliação do Ciclo de Vida Energético na Fase de Pré-Uso de Telhas Termoacústicas com Poliestireno Expandido Para Edificação Habitacional No DF; Universidade de Brasília: Brasília, Brazil, 2016. [Google Scholar]
+Macias, J.; Iturburu, L.; Rodriguez, C.; Agdas, D.; Boero, A.; Soriano, G. Embodied and Operational Energy Assessment of Different Construction Methods Employed on Social Interest Dwellings in Ecuador. Energy Build. 2017, 151, 107–120. [Google Scholar] [CrossRef]
+Braga, N.K.M. Potencial de Aquecimento Global de Paredes de Concreto a Partir Da Avaliação Do Ciclo de Vida; Universidade de Brasília: Brasília, Brazil, 2018. [Google Scholar]
+Moraga, G.L. Avaliação Do Ciclo de Vida Em Unidade Habitacional Unifamiliar Do Programa Minha Casa Minha Vida; Universidade Federal do Rio Grande do Sul: Farroupilha, Brazil, 2017. [Google Scholar]
+Evangelista, P.P.A.; Kiperstok, A.; Torres, E.A.; Gonçalves, J.P. Environmental Performance Analysis of Residential Buildings in Brazil Using Life Cycle Assessment (LCA). Constr. Build. Mater. 2018, 169, 748–761. [Google Scholar] [CrossRef]
+Morales, M.; Moraga, G.; Kirchheim, A.P.; Passuello, A. Regionalized Inventory Data in LCA of Public Housing: A Comparison between Two Conventional Typologies in Southern Brazil. J. Clean. Prod. 2019, 238, 117869. [Google Scholar] [CrossRef]
+Oyarzo, J.; Peuportier, B. Life Cycle Assessment Model Applied to Housing in Chile. J. Clean. Prod. 2014, 69, 109–116. [Google Scholar] [CrossRef]
+Martins, M.S.; Romanini, A.; Mussi, A.Q.; Folle, D. Flexible Social Housing Project. Oculum Ens. Rev. Arquitetura e Urban. PUC Camp. 2013, 10, 301–310. [Google Scholar]
+ISO 14040; Environmental Management—Life Cycle Assessment—Principles and Framework. ISO: Geneva, Switzerland, 2006.
+ISO 14044; Environmental Management—Life Cycle Assessment—Requirements and Guidelines. ISO: Geneva, Switzerland, 2006.
+Atmaca, A.; Atmaca, N. Life Cycle Energy (LCEA) and Carbon Dioxide Emissions (LCCO2A) Assessment of Two Residential Buildings in Gaziantep, Turkey. Energy Build. 2015, 102, 417–431. [Google Scholar] [CrossRef]
+EN 15978:2011; Sustainability of Construction Works. Assessment of Environmental Performance of Buildings—Calculation Method. CEN—European Committee for Standardization: Luxemburg, 2011.
+Acero, A.P.; Rodríguez, C.; Ciroth, A. LCIA Methods: Impact Assessment Methods in Life Cycle Assessment and Their Impact Categories; GreenDelta GmbH: Berlin, Germany, 2015. [Google Scholar]
+EN 15.804:2012+A2:2019; Sustainability of Construction Works—Environmental Product Declarations—Core Rules for the Product Category of Construction Products. CEN—European Committee for Standardization: Luxemburg, 2019.
+Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT). Manual do Sistema ILCD: Sistema Internacional de Referência de Dados Do Ciclo de Vida de Produtos e Processos; Instituto Brasileiro de Informação em Ciência e Tecnologia (IBICT): Brasília, Brazil, 2014. [Google Scholar]
+Ministry of the Environment PNIA—Painel Nacional de Indicadores Ambientais: Indicadores Nacionais. Available online: https://antigo.mma.gov.br/pnia/Arquivos/Temas/Atmosfera_e_Mudancas_Climaticas_AMC/1_Mudancas_Climaticas/AMC_1_1/Metadado_AMC_1_1.pdf (accessed on 21 June 2024).
+Caixa Econômica Federal Sistema Nacional de Pesquisa de Custos e Índices Da Construção Civil (SINAPI). Available online: https://www.caixa.gov.br/site/ (accessed on 19 November 2019).
+NBR 15575-1; Edificações Habitacionais: Desempenho: Parte 1: Requisitos Gerais. Associação Brasileira de Normas Técnicas: Rio de Janeiro, Brazil, 2013.
+Maia de Souza, D.; Braga, T.; Brito de Figueirêdo, M.C.; Folegatti Matsuura, M.I.S.; Teixeira Dias, F.R.; Ugaya, C.M.L. Life Cycle Thinking in Brazil: Challenges and Advances towards a More Comprehensive Practice. Int. J. Life Cycle Assess. 2017, 22, 462–465. [Google Scholar] [CrossRef]
+Kim, T.; Tae, S.; Chae, C.U. Analysis of Environmental Impact for Concrete Using LCA by Varying the Recycling Components, the Compressive Strength and the Admixture Material Mixing. Sustainability 2016, 8, 389. [Google Scholar] [CrossRef]
+Chau, C.K.; Leung, T.M.; Ng, W.Y. A Review on Life Cycle Assessment, Life Cycle Energy Assessment and Life Cycle Carbon Emissions Assessment on Buildings. Appl. Energy 2015, 143, 395–413. [Google Scholar] [CrossRef]
+de Azevedo, L.D.; Geraldi, M.S.; Ghisi, E. Avaliação Do Ciclo de Vida de Diferentes Envoltórias Para Habitações de Interesse Social Em Florianópolis. Ambient. Construído 2020, 20, 123–141. [Google Scholar] [CrossRef]
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Di Domênico, M.; Ribeiro, L.A.; Silva, T.L.d. Life Cycle Assessment of Single-Story Low-Income Housing: A Brazilian Case Study. Buildings 2024, 14, 1980. https://doi.org/10.3390/buildings14071980
+AMA Style
+Di Domênico M, Ribeiro LA, Silva TLd. Life Cycle Assessment of Single-Story Low-Income Housing: A Brazilian Case Study. Buildings. 2024; 14(7):1980. https://doi.org/10.3390/buildings14071980
+Chicago/Turabian Style
+Di Domênico, Marianne, Lauro André Ribeiro, and Thaísa Leal da Silva. 2024. "Life Cycle Assessment of Single-Story Low-Income Housing: A Brazilian Case Study" Buildings 14, no. 7: 1980. https://doi.org/10.3390/buildings14071980
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details here.
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views1. Jul3. Jul5. Jul7. Jul9. Jul11. Jul13. Jul15. Jul17. Jul19. Jul0100200300400500
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Buildings, EISSN 2075-5309, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

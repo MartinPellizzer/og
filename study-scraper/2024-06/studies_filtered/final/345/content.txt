@@ -1,0 +1,131 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/fonts/Gyre-Pagella/Main/Regular/Main.js
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Agronomy
+All Article Types
+Advanced
+  Journals Agronomy Volume 14 Issue 6 10.3390/agronomy14061233
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Daniela Romano
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+968
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results
+Discussion
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Foliar Application of Wood Distillate Protects Basil Plants against Ozone Damage by Preserving Membrane Integrity and Triggering Antioxidant Mechanisms
+by Gemma Bianchi
+1,†, Riccardo Fedeli
+2,†, Lorenzo Mariotti
+1, Claudia Pisuttu
+1, Cristina Nali
+1, Elisa Pellegrini
+1,* and Stefano Loppi
+2
+1
+Department of Agriculture, Food and Environment, University of Pisa, Via del Borghetto 80, 56124 Pisa, Italy
+2
+BioAgry Lab, Department of Life Sciences, University of Siena, Via PA Mattioli 4, 53100 Siena, Italy
+*
+Author to whom correspondence should be addressed.
+†
+These authors contributed equally to this work.
+Agronomy 2024, 14(6), 1233; https://doi.org/10.3390/agronomy14061233
+Submission received: 23 April 2024 / Revised: 29 May 2024 / Accepted: 31 May 2024 / Published: 6 June 2024
+(This article belongs to the Section Horticultural and Floricultural Crops)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Ozone (O3) pollution is a critical issue for human health, crop yield, vegetation growth biodiversity, and food safety. Several protection strategies from O3-induced injuries have been proposed for crops. Here, we investigated if the foliar application of wood distillate (WD), a plant-based biostimulant applied once a week (0.2%, v/v) for four consecutive weeks, could have a protective effect against the damage caused by chronic O3 concentrations (80 ppb O3, 5 h day−1 for 28 days) in basil plants (chosen as model horticultural plant). The results revealed that plants exposed to O3 showed severe chlorotic spots localized in the interveinal adaxial surface, chlorophyll loss (−25% compared to controls maintained in filtered air), and membrane impairment as indicated by the significant increase in malondialdehyde content (+62%). Conversely, plants exposed to O3 and treated with WD exhibited a reduction in visible injuries, preservation of membrane integrity, and production of antioxidant compounds such as abscisic and salicylic acids (+21 and +62%, respectively), suggesting a protective effect of WD. This research highlights new results regarding the efficacy of WD in mitigating the negative effects of O3-induced oxidative pressure in basil plants.
+Keywords: Ocimum basilicum; oxidative stress; crop protection; bio-based products; physiochemical parameters; wood vinegar
+1. Introduction
+Ozone (O3) concentrations near the ground have hugely risen throughout the northern hemisphere, from less than 10 ppb before the industrial revolution to a daytime concentration of about 40 ppb [1]. This phenomenon is due to the increase in precursors formation (like volatile organic compounds, nitrogen oxides, and carbon monoxide [2,3,4]). For this reason, O3 is regarded as a principal contributor to the current climate change scenario, challenging the scientific community to evaluate its impacts on cultivated plants, natural vegetation, and forests [5]. Ozone may enter the leaf tissues through the open stomata, starting its reactions with the apoplastic component of the mesophyll cells by producing reactive oxygen species (ROS) and causing cascades of signals, resulting in inhibition of the photosynthetic performance, alterations of metabolic activities, visible foliar injury, and an overall reduction in the plant growth [6,7]. The cellular response mechanisms against these deleterious effects depend on the O3 regimen (i.e., concentrations and exposure time), plant species, leaf age, and developmental stage [8,9].
+Considering the ongoing situation, several protection strategies from O3-induced injuries have been proposed for crops, among which are screening for O3-tolerant cultivars, no tillage practices, shift of the crop calendar, proper weed management, and application of chemicals (e.g., fertilizers, pesticides, growth regulators, and soil improvers; [7,10]). However, each method has its own limitations, being time- and/or resource-demanding, having the mode of action/working mechanism still unclear, and being potentially toxic to the plant. In particular, the use of (agro)chemicals to alleviate O3-induced phytotoxicity could be useful to minimize costs related to agriculture, since the same substance could potentially have a dual goal by inhibiting the target pests and simultaneously enhancing plant capacity to handle with O3-oxidative pressure (“hormesis”; [11]). Nevertheless, the consequences of their use in the environment and the subsequent human/animal exposures are not yet completely understood. In particular, low concentrations of chemicals that shield plants from O3 may be so low to ultimately stimulate pests’ population outbreaks, by leading to chemicals tolerance in the same or subsequent generations [12]. Agro-chemicals have recently been subjected to much criticism because of their possible harmful effects on the environment. To date, there is a strong demand for eco-friendly alternatives, in terms of circular economy and resource optimization; this could effectively protect plants from O3 while simultaneously being more environmentally friendly.
+In addition, natural compounds can act as growth promoters, activators, biostimulants, or defense inducers against pathogens. In this context, wood distillate (WD, also known as pyroligneous acid or wood vinegar; [13]), together with biochar, one of two by-products of the pyrolysis process of woody biomass, has been recognized as an agri-product, which can be used also in organic farming, with various actions such as biofertilizer and biostimulant [14]. The quality of WD is based on the feedstock used and the management of the pyrolytic process. Generally, WD consists of more than 300 water-soluble chemical compounds belonging to various groups (e.g., carboxylic acids, polyphenols, organic acids, flavonoids, esters, and alcohols; [15]). Several studies report the positive effects of WD on the yield and nutritional quality of several crops [14,16,17] but also the absence of toxicity for sensitive non-target bioindicators [18,19,20] and human health [21]. The mechanism of action of WD is still unclear, but Fedeli et al. [22] suggested that WD acts by inducing mild oxidative stress in plants, allowing plants to trigger antioxidant defense systems (i.e., secondary metabolites; [23]), by supporting a “plant immune system” and enhancing plants’ tolerance to several environmental stresses (e.g., trace elements toxicity, drought; [22,24]). To date, the protective effects of WD against O3 phytotoxicity is still an unexplored topic, and, to the best of our knowledge, there is only one experimental research that investigated the efficacy of foliar application on WD against the impact of chronic O3 exposure (60 ppb, 5 h day−1 for 30 consecutive days) on lettuce plants [25]. This study suggested that WD could have a dual role by acting as a strengthener of plant antioxidant defense mechanisms and/or stimulator of ROS-scavenger molecules/enzymes in order to protect lettuce plants against O3-induced oxidative stress.
+The current research investigated if the foliar application of WD could have a protective effect against the damage caused by chronic O3 exposure in basil, considered as a model horticultural plant due to the long scientific experience from studies that investigated the physiochemical responses of this plant to several abiotic stress (e.g., heavy metal toxicity, salt, drought, high temperature, and elevated carbon dioxide concentrations; [26,27,28]). Specific research objectives were to investigate the biochemical bases of the potential defense role of WD and to discover the role of the phytohormones/antioxidants activated under O3-induced oxidative stress.
+2. Materials and Methods
+2.1. Plant Material and Experimental Design
+Seeds of Ocimum basilicum cv. Riviera Ligure were drenched in deionized water for 1 h and then singly sown in plastic phytocells (5 × 5 × 7 cm) filled with growing medium (Vigor Plant Srl, Fombio, Italy). Eleven days after sowing, homogeneous basil seedlings were transplanted into pots (10 × 10 × 8 cm; 1 seedling/1 pot) filled with the growing medium and maintained under controlled environmental conditions (25 ± 2 °C, 80 ± 10% RH, and 14/10 h photoperiod) for three consecutive days. The used growing medium (300 g per each pot) was a mixture of acid peat, non-composted organic amendment, pumice, perlite, and organic fertilizer (Table 1). One hundred and twenty uniform seedlings were equally divided into four groups and placed into four fumigation chambers. Two groups of plants were exposed to O3-free charcoal-filtered air or a target O3 concentration of 80 ppb (1 ppb = 1.96 μg m−3, at 25 °C and 101.325 kPa) consequently for 28 days (5 h day−1, from 10:00 a.m. to 03:00 p.m., as a square wave). Half of the untreated and O3-treated plants were foliar-sprayed with WD by following the timing and the concentration recommended by the owner company (0.2% v/v in water, one treatment once a week for four consecutive weeks; O3−/WD+ and O3+/WD+, respectively), while the other two were treated with distilled water (O3−/WD− and O3+/WD−, respectively; Figure 1). Further information regarding the conditions of experimentation was provided in Marchica et al. [29]. The WD used in this experiment was produced by BioDea (BioDea, Arezzo, Italy). This WD is one of the two by-products, with biochar, derived through the pyrolysis process of sweet chestnut (Castanea sativa Mill.) wood sourced from local residual materials from forest management. It is extracted via steam distillation, utilizing solely the moisture inherent in the wood sap. This procedure involves subjecting the wood to varying temperature gradients, with an upper limit of 75 °C as the output temperature from the reactor. Through the counter current flow of steam, the essence of the wood is coaxed out, yielding a concentrated distillate. Following this initial distillation phase, the extracted wood essence is channeled into a natural filter, where any residues are removed. The filtration process ensures the purity and the integrity of the final product. Finally, it is then left to rest and mature for a minimum duration of three months. The complete chemical characterization of WD used in this study was reported in Celletti et al. [15].
+Figure 1. Visual summary of the experimental steps [exposure of ozone (O3)-free charcoal-filtered air (O3−) or O3 concentration of 80 ppb (O3+) 5 h day−1 for 28 consecutive days, and application of wood distillate (WD+) or distilled water (WD−), their combination and sampling timing]. Abbreviations: O3−/WD−, maintained in filtered air and sprayed with distillate water; O3+/WD−, treated with O3 and sprayed with distilled water; O3−/WD+, maintained in filtered air and sprayed with WD; O3+/WD+, treated with O3 and sprayed with WD.
+Table 1. Physiochemical characteristics of the growing medium used. Abbreviations: EC: electrical conductivity, CEC: cation exchange capacity; DW: dry weight.
+Biometric and biochemical analyses were carried out before the onset of macroscopic alterations, i.e., at 14 days from the beginning of the exposure (FBE), and after two weeks (at 28 days FBE). Eight plants were randomly selected at each time of analysis and devoted to the biomass evaluation. From the other four plants, three completely expanded leaves per plant were collected, frozen in liquid nitrogen, and stored at −80 °C for the assays.
+2.2. Visible Injury and Leaf Biometric Traits
+Leaf visible injury was assessed by visual monitoring during the whole experiment and recorded when the O3 exposure finished, i.e., 28 days FBE [30]. Further details are reported in the Supplementary Materials (S1.1).
+Leaf fresh weight (FW), dry weight (DW), and dry matter (DM) were recorded at 14 and 28 days FBE by randomly selecting fully expanded leaves of eight plants for each group of plants. In order to determine DW values, samples were oven-dried at 80 °C. The DM levels were determined starting from FW and DW by using the following equation:
+DM   ( % ) = ( DW / FW ) × 100
+2.3. Photosynthetic Pigments Determination
+The content of chlorophyll (ChlTOT) and carotenoids (Car) was measured following the method reported in Marchica et al. [28], minimally changed. Further details are reported in the Supplementary Materials (S1.2).
+2.4. Hydrogen Peroxide and Malondialdehyde Determination
+The AmplexTM Red Hydrogen Peroxide/Peroxidase Assay Kit (Molecular Probes, Life Technologies Corp., Milan, Italy) was used to measure the hydrogen peroxide (H2O2) content, by following the indications of Shin et al. [31]. Further information is reported in the Supplementary Materials (S1.3).
+The concentration of malondialdehyde (MDA) by-product was quantified in order to estimate the oxidative damage according to Hodges et al. [32], modified according to Landi et al. [33]. Further details

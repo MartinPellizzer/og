@@ -1,0 +1,120 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Air
+All Article Types
+Advanced
+  Journals Air Volume 2 Issue 2 10.3390/air2020011
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Alan W. Gertler
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+484
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results
+Conclusions and Discussion
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Ozone Pollution in the North China Plain during the 2016 Air Chemistry Research in Asia (ARIAs) Campaign: Observations and a Modeling Study
+by Hao He
+1,*, Zhanqing Li
+1,2 and Russell R. Dickerson
+1,2
+1
+Department of Atmospheric and Oceanic Science, University of Maryland, College Park, MD 20742, USA
+2
+Earth System Science Interdisciplinary Center, University of Maryland, College Park, MD 20740, USA
+*
+Author to whom correspondence should be addressed.
+Air 2024, 2(2), 178-208; https://doi.org/10.3390/air2020011
+Submission received: 11 April 2024 / Revised: 23 May 2024 / Accepted: 28 May 2024 / Published: 5 June 2024
+(This article belongs to the Topic Accessing and Analyzing Air Quality and Atmospheric Environment)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+To study air pollution in the North China Plain (NCP), the Air Chemistry Research in Asia (ARIAs) campaign conducted airborne measurements of air pollutants in spring 2016. High pollutant concentrations, with O3 > 100 ppbv, CO > 500 ppbv, and NO2 > 10 ppbv, were observed. CMAQ simulations with the 2010 EDGAR emissions capture the spatial and temporal variations in ozone and its major precursors such as NO2 and VOCs, with significant underestimation. Differences between CMAQ simulations and satellite observations reflect changes in anthropogenic emissions, decreased NOx emissions in megacities such as Beijing, but slight increases in other cities and rural areas. CMAQ also underestimates HCHO and CO, suggesting adjustments of the 2010 EDGAR emissions are necessary. HCHO/NO2 column ratios derived from OMI measurements and CMAQ simulations show that VOC-sensitive chemistry dominates the ozone photochemical production in eastern China, suggesting the importance of tightening regulations on anthropogenic VOC emissions. After adjusting emissions based on satellite observations, better model performance was achieved. Because of the VOC-sensitive environment in ozone chemistry over the NCP, the underestimation of anthropogenic emissions could be important for CMAQ simulations, while future study and regulations should focus on VOC emissions with continuous controls on NOx emissions in China.
+Keywords: airborne measurements; ozone production sensitivity; OMI; CMAQ
+1. Introduction
+With rapid economic growth in the past three decades, the consumption of energy in China has increased dramatically [1,2,3]. Fossil fuels dominate total energy consumption, with coal still accounting for more than 50% of the carbon dioxide (CO2) emissions in China [1]. This drastic increase in fossil fuel energy consumption has been accompanied by the deterioration of air quality [4,5], posing a threat to public health [6,7,8,9]. Particulate matter (PM) pollution, especially particulate matter with a diameter of less than 2.5 μm (PM2.5) in the North China Plain (NCP), drew public concern and governmental actions [10,11,12,13,14,15,16]. PM pollution also has complex interactions with the planetary boundary layer (PBL) and its evolution, which can further degrade the air quality [17,18]. Recent studies showed that tropospheric ozone (O3) pollution increased in China, exacerbating its complex air pollution problem [19,20,21,22,23,24,25,26,27,28].
+Elevated ozone concentrations have adverse impacts on both human health [29,30,31] and the ecosystem [32,33,34]. Tropospheric ozone absorbs thermal radiation and acts as the third most important anthropogenic contribution to radiative forcing of climate [35,36,37]. In the lower troposphere, the photolysis of ozone is an important source of atmospheric hydroxyl (OH) radicals that control the lifetimes of atmospheric species such as CO and volatile organic compounds (VOCs) [38,39,40]. Tropospheric ozone has a relatively long lifetime of several days to weeks [41,42], leading to significant long-range transport of ozone and its precursors [43,44,45]. Thus, investigation of ozone pollution in China is essential to support national and international policy decisions for air quality and the climate.
+Tropospheric ozone is produced through complex photochemical reactions of precursors including nitrogen oxides (NOx = NO + NO2) and VOCs in the presence of sunlight [46,47,48,49]. In China, the sectors of power generation, industry, and transportation are the dominant sources of NOx emissions [50,51,52]. Before 2010, NOx emissions in China increased substantially [53,54]. Analysis of satellite data revealed that recently, NOx emissions have started decreasing in highly developed regions such as the Pearl River Delta (PRD), but still increased in other regions [55,56,57]. Anthropogenic VOC emissions had a similar increasing trend in the past decades [58,59,60,61] and are projected to increase in the future [62]. Therefore, the recent increase in tropospheric ozone in China could likely be explained by the enhanced anthropogenic emissions of ozone precursors.
+Due to the complex O3-NOx-VOCs chemistry, we need to understand the photochemical regime for local ozone production, i.e., whether it is NOx-sensitive or VOC-sensitive [63,64]. Duncan et al. [65] used the ratio of tropospheric columns of formaldehyde (HCHO) and nitrogen dioxide (NO2) observed by the National Aeronautics and Space Administration (NASA) Ozone Monitoring Instrument (OMI) onboard the Aura satellite to characterize ozone sensitivity. Studies show that a NOx-sensitive regime dominates in the United States, except in megacities such as Los Angles and New York City, where the local ozone production is in VOC-sensitive or transition regimes [65,66,67]. However, studies reported that VOC-sensitive and transition regimes for ozone photochemical production exist ubiquitously in China due to the large amount of NOx emissions, especially over the NCP [67,68,69,70]. As such, although the current regulations in China focus only on reduction of NOx emissions [71,72,73], air quality can also benefit from VOC controls [74,75].
+Aircraft measurements are essential to study the precursor emissions, photochemical production, and transport of ozone pollution at regional scale, while airborne campaigns are sparse in China [76,77,78,79,80]. To better understand the characteristics of ozone pollution, the Air Chemistry Research in Asia (ARIAs) aircraft campaign was conducted in Hebei Province in the NCP during May–June 2016, and was affiliated with the Aerosol Atmosphere Boundary-Layer Cloud (A2BC) experiment [81,82,83,84]. Concentrations of major air pollutants in the lower atmosphere were measured during 11 research flights over the NCP, which were conducted in association with NASA’s Korea U.S. Air Quality Study (KORUS-AQ) campaign in downwind South Korea. Measurements collected by the ARIAs research flights and the A2BC surface observations can provide a comprehensive dataset to thoroughly study the tropospheric ozone pollution and emissions of its precursors in China.
+In this study, we evaluated anthropogenic emissions and ozone pollution in the NCP using a combination of aircraft measurements, satellite observations, and modeling results. The U.S. Environmental Protection Agency (EPA) Community Multiscale Air Quality (CMAQ) model was used to simulate the atmospheric chemistry for the ARIAs campaign. We evaluated the emission data through comparison with aircraft measurements and satellite products, and adjusted emissions to improve the CMAQ performance. Lastly, we investigated the sensitivity of ozone production derived from CMAQ simulations and OMI observations and discussed the future ozone pollution in China.
+2. Materials and Methods
+2.1. Aircraft Campaign in the NCP
+With more than 250 million tons of iron and steel produced in 2016 (data from http://data.stats.gov.cn, accessed in 10 September 2018), Hebei Province in the NCP is the most industrialized area in China. Due to its high emissions and proximity to megacities Beijing and Tianjin, the Beijing-Tianjin-Hebei area had severe air pollution in the past decade [85,86]. In May and June 2016, the ARIAs aircraft campaign was conducted over Hebei Province to investigate emissions, chemical evolution, and transport of air pollutants. The airborne campaign was coordinated with the A2BC field campaign in Xingtai (XT, 37.18° N, 114.36° E, 182 m above sea level, ASL) and the NASA KORUS-AQ campaign to expand the study to East Asia [81,87]. A Harbin Y12 research airplane (similar to the de Havilland Twin Otter) was employed to measure concentrations of air pollutants including O3, carbon monoxide (CO), CO2, and NO2, and aerosol optical properties [81,88,89]. The research airplane was based in Luancheng airport (hereafter referred to as LC, 37.91° N, 114.59° E, 58 m ASL), south of Shijiazhuang, the capital city of Hebei province with 10 million population. Eleven research flights were conducted during the ARIAs campaign (Figure S1 in the Supplementary Materials). Vertical profiles of air pollutants from near-surface (~100 m above ground level, AGL) to the free troposphere (>3000 m) were conducted over LC, XT (the supersite of the A2BC campaign), Julu (JL, 37.22° N, 115.02° E, 30 m ASL), and Quzhou (QZ, 36.76° N, 114.96° E, 40 m ASL).
+The airborne measurements of ozone were conducted using a commercially available analyzer (Model 49C, Thermo Environmental Instruments, TEI, Franklin, MA, USA) [90]. NO2 was measured using a modified commercially available cavity ring-down spectroscopy (CRDS) detector [91,92]. Nitrogen oxide (NO) and reactive nitrogen compound (NOy) concentrations were analyzed using a commercially available NO analyzer (Model 42C, Thermo Environmental Instruments) with a hot molybdenum convertor working at 375 °C [93,94]. Ambient gas input was switched with and without the converter frequently to measure NO and NOy simultaneously. However, due to high power demand of the instrument and converter, NO and NOy were only measured during some research flights. Concentrations of CO and CO2 were monitored with a 4-channel Picarro CRDS instrument (Model G2401-m, Picarro Inc., Santa Clara, CA, USA), calibrated with CO/CO2 standards certified at the National Institute of Standards and Technology [95]. All the instruments were routinely serviced, calibrated and used for airborne measurements in the United States and China [79,90,95,96,97,98,99]. Detailed information about the instrumentation including the sampling frequency, precisions and accuracies is listed in Table S1 of the Supplementary Materials. Measurements of ambient air pollutants were logged at 1 Hz frequency, but the average times for different instruments were different, as shown in Table S1. All measurements were synchronized based on the Picarro measurements of CO2 and CO with time, geolocation, and altitude from the Global Positioning System (GPS). The delay and lag time of each instrument was considered during the post-processing of observation data and averaged to a 1-minute record for further analysis and model evaluation.
+In the ARIAs research flights, 28 whole air samples (WAS) were collected in vertical spirals at different altitudes from ~400 m to ~3500 m. The WAS were analyzed using gas chromatography (GC) with Flame Ionization Detection (FID) and Mass Spectroscopy (MS) by the College of Environment Sciences and Engineering at Peking University. Seventy-four species of alkanes, alkenes/alkynes, aromatics, and halocarbons were identified and quantified for a study on ozone photochemical chemistry (see details in [88,100]). Detection limits for the compounds ranged from 2 to 60 pptv. Hourly surface O3, CO, and NO2 concentrations for May and June 2016 were obtained from the public website of the China Ministry of Ecology and Environment (CMEE, available at https://quotsoft.net/air/ (accessed on 15 February 2020). The CMEE network had ~1450 monitoring sites in 2016 (Figure S2 in the Supplementary Materials). The units of CMEE measurements for O3/NO2 and CO are µg/m3 and mg/m3, respectively. We converted them to parts per billion by volume (ppbv) and parts per million by volume (ppmv) at standard temperature and pressure (STP) for model evaluation.
+2.2. Satellite Products
+To evaluate the emissions and atmospheric chemistry in the NCP and greater East Asia, we used satellite observations of CO, NO2, and HCHO for May and June 2016. The Measurements of Pollution In the Troposphere (MOPITT) instrument onboard the NASA Terra satellite retrieved CO column contents with ~10:30 a.m. local overpass time [101]. We used the latest version 7 MOPITT Level 3 daily gridded average products (1° × 1° spatial resolution, available at https://eosweb.larc.nasa.gov/project/mopitt/mop03j_v007, accessed on 15 February 2020) for the ARIAs campaign period [102]. MOPITT thermal-infrared and near-infrared (TIR + NIR) products show improved sensitivity to near-surface CO in China [103]. We used MOPITT near-surface CO (~900 hPa) products and related averaging kernels (AKs) to evaluate the CMAQ results [104].
+OMI, onboard the NASA Aura satellite, is

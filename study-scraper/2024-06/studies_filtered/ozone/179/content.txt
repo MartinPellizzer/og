@@ -1,0 +1,120 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Atmosphere
+All Article Types
+Advanced
+  Journals Atmosphere Volume 15 Issue 6 10.3390/atmos15060733
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editors
+Kei Sato
+Aikaterini Bougiatioti
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+379
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+Appendix A
+Appendix B
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Investigating the Effect of Fine Particulate Matter (PM2.5) Emission Reduction on Surface-Level Ozone (O3) during Summer across the UK
+by Lydia Curley
+1, Rayne Holland
+1, M. Anwar H. Khan
+1 and Dudley E. Shallcross
+1,2,*
+1
+School of Chemistry, University of Bristol, Cantock’s Close, Bristol BS8 1TS, UK
+2
+Department of Chemistry, University of the Western Cape, Robert Sobukwe Road, Bellville 7305, South Africa
+*
+Author to whom correspondence should be addressed.
+Atmosphere 2024, 15(6), 733; https://doi.org/10.3390/atmos15060733
+Submission received: 16 May 2024 / Revised: 14 June 2024 / Accepted: 18 June 2024 / Published: 19 June 2024
+(This article belongs to the Special Issue Air Quality in the UK (2nd Edition))
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+UK air pollutant data collected over a 10-year period (2010–2019) from 46 sites with Urban Traffic, Urban Background, Suburban Background, Rural Background, and Urban Industrial environmental types were analysed to study the relationships between [NO] vs. [PM2.5] and [O3] vs. [PM2.5] during the summer for each site type. These results were used to describe the consequence of recent PM2.5 reductions on NO and O3 concentrations at different site types across the UK. The strongest positive [NO] vs. [PM2.5] correlation was observed for the Urban Traffic site type overall, but it displayed the weakest positive [O3] vs. [PM2.5] correlation. Analysis of individual Urban Traffic sites revealed an overall negative [O3] vs. [PM2.5] gradient at the London Marylebone Road (LMR) site. A sharp 35% PM2.5 decrease occurred at LMR between 2011 and 2015 before annual mean concentrations plateaued. Further examination of annual correlations revealed negative [O3] vs. [PM2.5] gradients in each year directly proceeding the sharp 35% PM2.5 decrease at LMR. NOx fluctuations were minimal and accompanied by comparable volatile organic compound (VOC) decreases; thus, VOC-limited chemistry at LMR was deemed to not be the primary cause of O3 increases. Instead, PM2.5 reductions are suggested to be a more significant factor in causing O3 increases, as suppression of O3 production by PM2.5 chemistry decreases with declining [PM2.5]. The remaining two Urban Traffic sites in Birmingham did not display a negative [O3] vs. [PM2.5] correlation in the years studied. This was partly ascribed to the Birmingham measurement sites not being under the influence of the street canyon effect like LMR. Principal attribution was to the lower-average absolute initial PM2.5 concentrations and absence of a significant (>26%) continuous mean PM2.5 decline of greater than 2 years. This study therefore proposed a threshold initial PM2.5 concentration (t) above which O3 suppression by PM2.5 chemistry is sufficient to induce O3 increases when average PM2.5 concentrations significantly decline (by >26% across >2 years), where 17 μg m−3 < t < 26 μg m−3. Extending this analysis to additional cities across the UK as sufficient data become available would allow refinement of the proposed threshold and improved understanding of the influence from the street canyon effect. These results inform future air pollution policies, in the UK and across the globe, in which further joint reductions of PM2.5 and O3 are crucial to achieve maximum benefits to human health.
+Keywords: ozone; particulate matter; secondary PM2.5; human health impact; VOC-limited; urban traffic site
+1. Introduction
+Fine particulate matter (PM2.5) is a source of chemicals and the source-specific contributions of PM2.5 are variable across different regions [1], seasons [2], and times [3]. Each source emits a combination of various chemical constituents that have different adverse effects on air quality, climate, and human health.
+Primary PM2.5 can originate from natural sources, such as dust storms and forest fires [4,5] and anthropogenic sources, such as fossil fuel combustion, e.g., road transport including exhaust (e.g., diesel vehicles) and non-exhaust (e.g., tyre wear, brake wear, road surface abrasion from vehicles), cigarette smoke and biomass burning [6]. Secondary PM2.5 is produced through physical and chemical processes by the gas precursors emitted from anthropogenic and biogenic sources. The Urban Background concentrations of PM2.5 are dominated by secondary PM2.5, e.g., in the central and southern UK reported by DEFRA [7], in the Greater Paris region reported by Beekmann et al. [8], in Northern Italy reported by De Meij et al. [9] and Larsen et al. [10]. The formation of secondary PM2.5 is highly uncertain and varies regionally and seasonally due to meteorological changes and other variables that affect atmospheric chemistry. Thus, knowing the mass concentration of PM2.5 alone is insufficient in identifying contributing sources or in attributing a reduction in PM2.5 to a particular control measure. However, the relationships of PM2.5 with co-emitted and co-produced species can provide valuable information for understanding the sources, formation, and evolution of PM2.5 pollution.
+The key precursors that allow secondary PM2.5 formation are sulfur dioxide (SO2), nitrogen oxides (NOx = NO + NO2), ammonia (NH3), and volatile organic compounds (VOCs). The secondary formation of PM2.5 due to chemical reactions in the atmosphere generally downwind and/or some distances from the original emission source [11]. Thus, the precursors, especially VOCs emitted by multiple sources, pose further problems to the identification and quantification of individual source contributions to atmospheric concentrations of PM2.5.
+Like PM2.5, tropospheric ozone (O3) at surface level has been subject of significant research owing to its harmful impact on human health [12,13] and adverse effects on climate and vegetation [14,15]. Ozone’s strong oxidizing properties cause damage to airway cells and lining fluids, as well as causing immune-inflammatory responses inside and outside the lungs [12]. Both short-term and long-term exposure to ozone were found to be linked with increased mortality due to respiratory and cardiovascular diseases [12,13]. Ozone has phytotoxic effects on vegetation, causing injury to plant tissue and a significant decrease in crop and timber yield [15]. Tropospheric O3 production occurs as a result of a photochemical cycle beginning with gas-phase oxidation of VOCs, catalysed by HOx radicals, and requiring the presence of NOx. Evidence in the literature suggests that heterogenous reactions are an important loss process for NOx impacting O3 production efficiency [16]. The principal heterogenous NOx removal mechanism is via the hydrolysis of N2O5 which is much slower in the gas phase. Field observations and laboratory studies support the efficient uptake of N2O5 [17,18], with said studies measuring the reaction probability (γ) to be in the range of 0.01–1 for aqueous solutions such as H2SO4 largely independent of aerosol composition [19]. Importantly, the timescale for N2O5 removal on tropospheric aerosol is estimated to range from minutes in heavily polluted air, characterised by increased particle density and surface area, to hours in more remote regions [16].
+Owing to the human health impact of PM2.5, significant reductions in direct PM2.5 and gaseous precursor emissions have been appended to many global air pollution policies, and relative concentrations have begun decreasing. Following significant PM2.5 decreases in Beijing, China, from 2013, a non-linear relationship of PM2.5 and O3 between the years of 2013 and 2017 was recently reported [20]. Their observations showed that in highly polluted regions (i.e., high PM2.5 concentrations), the aerosol chemistry involving reactive uptake of the gaseous precursors (e.g., HO2) dominated over the loss of HO2 by NO, resulting in decreased ozone formation. Significant reductions in PM2.5 since the State Council of China enacted the Clean Air Action Plan in 2013 were postulated to have induced a rise in surface-level O3, due to reduced reactive uptake of HO2. The GEOS-Chem model simulation results were also found to be in agreement with this postulation, attributing most of the observed suppression to HO2 radical-scavenging by PM2.5 [20]. To compliment the observational evidence presented in the study by Li et al. [20], a corresponding study has been performed using measurement data from UK sites.
+In 2010, the UK published Air Quality Standards Regulations (AQSR) which prompted national PM2.5 reduction measures, including a specific annual average concentration aim to be met by 2020 [21]. In UK urban areas, the yearly average PM2.5 concentrations are decreasing over time due to pollution control strategies [22] and ground-level O3 concentrations were reported to have been increasing over the preceding decade [23,24,25]. However, the current levels of PM2.5 in urban sites still exceed legislation. Using UK Automatic Urban and Rural Monitoring Network (AURN) hourly measured data for a 10-year period beginning from 2010, this study analysed the impact of UK PM2.5 emission reductions on ground-level O3 concentrations, which were reported to be rising in the UK according to the most recent UK Air Quality Expert Group (AQEG) report in 2021 [23]. Therefore, this study aims to assess the impact of PM2.5 reductions on the ground-level O3 increases in the UK, using observational data from the 10-year period following the publication of the 2010 AQSR. Findings from this study will be important in guiding future air pollution policies and reduction strategies involving both O3 and PM2.5 in the UK, which will be beneficial in terms of improved quality of life, for both people and ecosystems.
+2. Materials and Methods
+2.1. Measurement Data
+Measured data of O3, NOx, and PM2.5 concentrations were extracted for the 10-year period from January 2010 to December 2019 from the UK’s national compliance monitoring network, the AURN data archive [26]. The data selection specifically avoided measurements taken during the COVID-19 pandemic and associated lockdowns that may skew pollutant analyses. The AURN is supported by the UK’s Department for Environment, Food and Rural Affairs (DEFRA); it records measurement data for a number of air pollutants across 170 air quality monitoring sStations (AQMS) [27].
+For O3 and NOx concentrations, the measurement techniques used by AURN are UV absorption and chemiluminescence, respectively [26]. For particulate matter measurements, the standard gravimetric reference method does not facilitate continuous on-line monitoring [28]. This is due to the time delay introduced from the requirement to weigh the exposed filters before the analysis of results can take place. In order to supply near-real-time, hourly information on PM2.5 concentrations, the AURN instead uses automated measuring systems accepted to be equivalent to the reference method, in accordance with the automated techniques standard. The AURN employs six equivalent techniques: ‘Tapered Element Oscillating Microbalance (TEOM)’, ‘Beta Attenuation monitor (BAM)’, ‘Gravimetric monitor (GM)’, ‘Filter Dynamics Measurement System (FDMS)’, ‘Optical light scattering (OLS)’, and ‘Fine Dust Analysis System (FIDAS)’. The instruments all have a minimum performance criterion of 25% measurement uncertainty, which also accounts for natural measurement fluctuations. In addition, PM2.5 concentration measurements require valid data capture of at least 85%. Data validation consists of a manual review of the data, ensuring use of the most recent calibration factors for data scaling [29]. Additionally, validation excludes any data obtained during instrument malfunctions or faulty calibrations, but incorporates any data missed due to monitoring station communication failures.
+The daily mean NOx and PM2.5 data were calculated from measured hourly concentrations. The measured O3 data were obtained as the daily maximum 8 h running mean (MDA8), which is the maximum 8 h running mean measured on a specific day, from midnight to midnight [30]. The calculation progresses with a one-hour step, generating running mean values for intervals such as 00:00–07:59 or 01:00–08:59. Consequently, a total of 24 values for 8 h running means is possible within a day, but 75% valid data capture is required for a valid running mean. The highest (maximum) mean value is selected from the valid calculated values. MDA8 data are used for O3 because production occurs during daylight hours and are suppressed during the night-time. DEFRA’s Automatic Hydrocarbon Network employs an automated PerkinElmer gas chromatograph to monitor 29 VOCs (12 alkanes, 10 olefins, 1 alkyne, and 6 aromatic hydrocarbons)

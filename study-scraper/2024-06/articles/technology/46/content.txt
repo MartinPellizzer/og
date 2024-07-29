@@ -1,0 +1,16 @@
+Here are the five detailed paragraphs based on the scientific study:
+
+**Paragraph 1: Introduction**
+The monitoring of partial discharges (PDs) in hydrogenerators is crucial for predictive maintenance and preventing power outages. PDs occur when high voltage stresses create tiny sparks within the insulation, indicating potential problems. Online PD testing offers several advantages since real-time data can be acquired continuously during normal operation. However, accurately pinpointing the location of PDs within a hydrogenerator from their electromagnetic emissions presents a significant challenge.
+
+**Paragraph 2: Materials and Methods**
+The study uses computational fluid dynamics (CFD) modeling to analyze the influence of the positions of internal sources of ozone produced by partial discharges on the detection of ozone concentrations at radiator outlets. The model is created using COMSOL Multiphysics software version 5.5, based on a generating unit from the Brazilian Campos Novos hydroelectric plant. The stator winding is made up of 378 coil-type bars with an interior made of copper and an external surface with a semiconductor coating layer.
+
+**Paragraph 3: Fluid Dynamics Theory**
+The study uses the Navier-Stokes equations to describe the flow of viscous incompressible fluids, and the mass conservation law for a chemical species (ozone) is used to simulate the transport of ozone in an operating hydrogenerator. The parameter associated with ozone generation is calculated using the ozone generation efficiency, power of partial discharges, molar mass of ozone, and volume of the region where ozone is generated.
+
+**Paragraph 4: Results**
+The results demonstrate a possibility of localization of partial discharges in hydrogenerator stator bars by ozone emission. The transport of ozone in an operating hydrogenerator is analyzed using CFD modeling, and the main aim of this work is to evaluate the ozone distribution in the generator radiators. Ozone sources are introduced into the stator model in different positions to analyze their effect on the measured values at the sensing points of radiators.
+
+**Paragraph 5: Conclusions**
+In conclusion, the study demonstrates that CFD modeling can be used to simulate the transport of ozone in an operating hydrogenerator and evaluate the ozone distribution in the generator radiators. The results show a possibility of localization of partial discharges in hydrogenerator stator bars by ozone emission. This study provides valuable insights into the use of ozone monitoring for predictive maintenance and preventing power outages in hydrogenerators.

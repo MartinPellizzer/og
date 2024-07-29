@@ -1,0 +1,283 @@
+We are aware of an issue impacting some readers trying to access content via their library’s proxy service. We are working to resolve this as soon as possible and apologize for any inconvenience.
+Search within
+Login / Register
+Food Frontiers
+REVIEW ARTICLE
+Open Access
+Roles of non-visible light and temperature in the regulation of anthocyanin synthesis in fruits and vegetables
+Haining Yin, 
+Lin Wang, 
+Yanjun Wu, 
+Zhumei Xi
+First published: 20 June 2024 https://doi.org/10.1002/fft2.426
+SECTIONS
+PDF
+TOOLS
+SHARE
+Abstract
+The depletion of the ozone layer creates a gate for non-visible spectra to impact the Earth's surface and interfere with fruit and vegetable growth and developments by affecting their morphology and physiology. The potential contribution of visible light to photosynthetic activity has received significant attention, particularly blue and red/far-red light in the visible spectrum. However, plants are also inevitably exposed to relatively high doses of non-visible spectra, including ultraviolet (UV) and infrared (IR) radiation. This review examines the literature on the impact of such non-visible spectra on fruit and vegetable growth and development. The accumulation of radiation-absorbing compounds is a primary mechanism of acclimation to changing radiation levels. Anthocyanins are compounds that exhibit high sensitivity to UV and IR radiation as well as temperature variations, playing a crucial protective role against detrimental radiation in plants. Current research helps to elucidate the involvement of low and high temperatures in the control of UVB-induced anthocyanin accumulation. Different UV radiation types have been shown to affect fruit and vegetable growth and pigment content differentially. Recent studies have also revealed that IR radiation increases anthocyanin content. Furthermore, specific non-visible spectra mitigate the inhibitory effect of high and low temperature stress on anthocyanin accumulation in fruits and vegetables. These findings have important implications for the horticultural industry, as they suggest that the application of specific of non-visible light spectra could be a promising approach to increasing the nutritional value and marketability of fruits and vegetables.
+1 INTRODUCTION
+The light environment is crucial for plant growth and development, especially the synthesis and accumulation of anthocyanins, which are affected by spectral components and light intensity (Blancquaert et al., 2019a). Decreases in the ozone layer have led to increased ultraviolet (UV) and infrared (IR) radiation received by plants. The selective absorption of red and blue light by the leaf canopies and the selective transmission of IR and UV radiation enrich the UV and IR radiation in the light environment of the plant. In addition, high-altitude planting areas characterized by high intensity and high proportion of non-visible light wavelengths are increasing, and the prominent color characteristics of the fruits in these areas have already attracted the interest of plant researchers (Mansour et al., 2022). Although there have been reports on the impact of the light environment on anthocyanin biosynthesis in fruits and vegetables, they are mainly focused on the influence of visible light and its underlying mechanisms. In contrast, relevant research on the response mechanism to non-visible light, especially IR radiation, is still relatively scarce. Therefore, in-depth systematic research on the regulatory mechanisms of non-visible light affecting the synthesis and accumulation of anthocyanins is of great significance for adjusting the plant light environment and improving fruit quality.
+The color of vegetables and fruits is an important quality indicator, determined by the presence and concentration of specific anthocyanin compounds. Anthocyanin biosynthesis and accumulation are influenced by various environmental factors, among which light and temperature factors play instrumental roles (Liu et al., 2018; Martinez-Luescher et al., 2016). High light intensity, blue/UV light, and low temperature can be applied to promote anthocyanin production in Solanaceous vegetables (Liu et al., 2018). Visible light is mainly involved in photosynthesis, whereas non-visible light plays key roles in the synthesis and accumulation of phenolic compounds, especially anthocyanins (Fernandes De Oliveira & Nieddu, 2016). This review focuses on UV and IR radiation, and by assessing blocking and artificial irradiation experiments, it aims to elucidate the promoting effect of non-visible light on anthocyanin biosynthesis and accumulation in fruits. Moreover, it demonstrates that different non-visible light intensities can alleviate the inhibitory effect of low temperature and high temperature stress on the synthesis of anthocyanins. Transcriptome and metabolome analysis revealed that UVA and IR radiation significantly induce genes related to the flavonoid synthesis pathway and metabolites, promoting the synthesis of anthocyanins (Yin, Wang, Wang, et al., 2022; Yin, Wang, & Xi, 2022).
+2 THE CHARACTERISTICS OF NON-VISIBLE SPECTRA
+Light, in the form of electromagnetic waves, is the radiant energy emitted by the sun and projected onto the Earth. Its wavelength can range from 100 nm, corresponding to X-rays, to 100 m, corresponding to radio waves (Maverakis et al., 2010). The wavelength range of solar radiation reaching the Earth's surface is 280–2500 nm. However, wavelengths shorter than 280 nm and longer than 2500 nm are absorbed by atmospheric molecules such as ozone and water vapor and cannot reach the ground (Maverakis et al., 2010). The solar radiation absorbed by the ground is reflected back into space as thermal energy, with a proportion of it being blocked by greenhouse gases and reflected back to the ground (Figure 1). The wavelength range of the light spectrum and the respective plant photoreceptors or photosynthetic pigments are shown in Figure 1. Most studies on solar radiation have focused solely on photosynthetically active radiation (PAR), with limited research conducted on non-visible spectra such as UV and IR radiation. UV radiation, which is divided into three types based on wavelength [UVC (100–280 nm), UVB (280–320 nm), and UVA (320–400 nm)], is mainly absorbed by the stratospheric ozone layer (Semenova et al., 2022; Yang et al., 2018). However, UVA and a small portion of UVB can reach the Earth's surface and be absorbed by plants (Loconsole & Santamaria, 2021). UVA radiation accounts for approximately 95% of the UV radiation reaching the Earth's surface (Rai et al., 2021). When harvesting light, plants’ photosynthetic organs are inevitably exposed to relatively high dose of non-visible spectra, including UV and IR radiation (Koyama et al., 2012). Plants can also sense short-wavelength spectra, including UVA and UVB, in addition to the blue and red/far-red light in the visible spectra (Xu & Zhu, 2020). Because of the high diffusive capacity of the UVB radiation, the UVB/PAR ratio is significantly lower on the plant canopy parts exposed to full sunlight than on those in the shade. Furthermore, the long-wavelength spectra of near IR radiation (800–2000 nm) are transmitted (less than 50%), reflected (more than 40%), and absorbed (approximately 10%) by plant leaves. These non-visible spectra play a significant role in plant growth and development.
+FIGURE 1
+Open in figure viewer
+PowerPoint
+The light spectrum wavelength range and the respective plant photoreceptors or photosynthetic pigments. UVB photoreceptor UVR8, blue light receptor CRY1, red light receptor phyA/phyB, and far-red light receptor phyA (Luo & Shi, 2019; Verdaguer et al., 2017).
+2.1 Photosynthetic pigments
+When green photosynthetic plants are subjected to visible radiation with wavelengths corresponding to the absorption spectra of chlorophyll, carotenoids, and phytochromes, they demonstrate unique bioelectric responses (Mironova & Romanovski, 2001). The pigment chlorophyll plays a crucial role in photosynthesis. Previously, only four types of chlorophyll were known—chlorophyll a, b, c, and d. Chlorophyll a is present in all plants, whereas chlorophyll b is mainly found in higher plants. Both of them can only absorb visible light at 400–700 nm, with the strongest absorption capacity at 640–660 and 430–450 nm (Figure 1). Chlorophyll d has a unique absorption peak in the 710 nm IR region and is exclusively discovered in acaryochloris. In 2010, Chen et al. (2010) reported the discovery of chlorophyll f in cyanobacteria, which has an absorption maximum at 706 nm and fluorescence at 722 nm, determined under in vitro conditions. Further studies revealed that charge separation in photosystem (PS) I and II uses chlorophyll f at 745 nm and chlorophyll f (or d) at 727 nm, respectively (Nürnberg et al., 2018). Additionally, chlorophyll f in the PS is advantageous in environments enriched in far-red light (Mascoli et al., 2020). These findings indicate that photosynthesis can be extended further into the IR region. Photosynthesis in plants can increase the accumulation of sugars, which are important precursor substances for synthesizing anthocyanins (Yan et al., 2023; Yin et al., 2024). There is a close relationship between sugars and anthocyanin synthesis (Yin et al., 2024).
+2.2 Photoreceptors
+According to the current scientific findings, more than three distinct types of light receptors have been identified and characterized. These include phytochromes (phyA and phyB), which are capable of absorbing both red and far-red light; cryptochromes (CRY1), which are responsive to UVA and blue light; and the recently identified UVR8 receptor, which is specifically activated by UVB radiation (Figure 1) (Yang et al., 2018; Zhang et al., 2021). Phytochromes are present in two different forms, Pr (red-light-absorbing phytochrome) and Pfr (far-red-light-absorbing phytochrome), that are photo-interconvertible depending on the light conditions present (Cho et al., 2003). In plant tissues not previously exposed to UVB, UV RESISTANCE LOCUS 8 (UVR8) proteins are present as homodimers, but upon exposure to UVB radiation, they rapidly dissociate into monomerize (Fernández-Milmanda & Ballaré, 2021). Recent research has indicated that UVR8 receptors may be involved in the perception of both UVB and short-wavelength UVA (UVASW315–350 nm) radiation (Rai et al., 2021). UVR8 and cryptochromes have also been demonstrated to function together to regulate gene expression, altering plant cells’ relative sensitivity to UVB, UVA, and blue wavelengths through their interactions (Rai et al., 2021). These findings suggest that different light receptors may be involved in distinct plant regulatory mechanisms under varying UVA and UVB radiation conditions.
+2.3 Plant responses to non-visible spectra
+Due to global climate change, it has been projected that increased UV radiation is going to be a significant environmental stressor (Smith, 2023). The depletion of stratospheric ozone associated with climate change has led to elevated levels of UV radiation reaching the Earth's surface (Bernhard et al., 2023). Both UVA and UVB radiation, natural components of solar radiation, can cause plant stress and trigger various acclimatory responses mediated by photoreceptors (Badmus et al., 2022). The rapid modulation of UV shielding in plants is influenced by solar UV radiation and is linked to changes in flavonoid biosynthesis and accumulation (Barnes, Tobler, et al., 2016). The activation of phytochromes and cryptochromes in berries promotes the accumulation of flavonoid and non-flavonoid compounds, such as anthocyanins, flavonols, flavanols, phenolic acids, and stilbenes (Veronica Gonzalez et al., 2015). Flavonoids, widely abundant plant secondary metabolites involved in several biological functions, preferentially accumulate in response to UV exposure and are involved directly in UV absorption and possess antioxidant activity (Jaakola & Hohtola, 2010; Neugart et al., 2021). Although solar UV radiation exclusion did not impact proanthocyanidin concentration and composition, it significantly reduced flavonol concentration (Koyama et al., 2012). Furthermore, exposure to UV radiation did not affect ovule production or seed set per flower but decreased pollen production and total seed production per plant by 31% and 69%, respectively (Carlos Del Valle et al., 2020). The Okra (Abelmoschus esculentus) diurnal rhythms were shown to be regulated by UV radiation, resulting in up to a 50% increase (full UV condition compared to UV-excluding condition) in flavonoid content (Neugart et al., 2021). In addition, although high doses of UV radiation are known to reduce yield and quality parameters, low doses of UV may stimulate biomass accumulation and the synthesis of protective compounds that mainly absorb UV (Loconsole & Santamaria, 2021). Therefore, plants can respond and adapt to non-visible spectra through photosynthetic pigments and photoreceptors to control flavonoid synthesis.
+3 ANTHOCYANIN METABOLISM
+Fruit skin pigmentation is determined by the amount and composition of anthocyanins produced in the cytoplasm and stored in vacuoles as anthocyanin vacuolar inclusions (Azuma, 2018; Flamini et al., 2013). Anthocyanin biosynthesis occurs through the flavonoid biosynthesis pathways, with shared enzymatic steps for the biosynthesis of proanthocyanidins and flavonol derivatives (Sun et al., 2020). Anthocyanin biosynthesis can be divided into three stages: the initial stage involving the phenylpropanoid pathway, the middle stage involving the flavonoid pathway, and the final stage involving the anthocyanin pathway (Figure 2). The mechanisms of anthocyanin biosynthesis and transport in conjunction with photodamage and photoprotection in plants are shown in Figure 2. Initially, glycosides from dihydric anthocyanins, such as cyanidin and peonidin, are accumulated, followed by trihydroxylated anthocyanins, such as delphinidin, petunidin, and malvidin (Downey et al., 2006). B-ring influences the stability of anthocyanin in their structure and the presence of hydroxyl or methoxyl groups (Mattioli et al., 2020). The diversity of anthocyanins is primarily attributed to the activity of O-methyltransferases and anthocyanin acyltransferases, which respectively catalyze the methylation and acylation of anthocyanins (Sun et al., 2020). Anthocyanin transport is facilitated by binding proteins and transporters, such as glutathione S-transferases, ATP binding cassette C family (formerly named multidrug resistance-associated proteins), and multidrug and toxic compound extrusion family (Figure 2) (Sun et al., 2020). Both anthocyanin biosynthesis and transport affect their accumulation in plant tissues.
+FIGURE 2
+Open in figure viewer
+PowerPoint
+The mechanisms of anthocyanin biosynthesis and transport in response to photodamage and photoprotection in plants. Under unfavorable environmental conditions and when photosynthesis is impaired, high solar radiation fluxes induce direct or indirect ROS-mediated damage to plants. Certain mechanisms are responsible for the decrease in ROS levels in the cell and to protect against the consequences of photodamage. The screening pigments attenuate the incident radiation, thereby removing, to a considerable extent, the cause of photodamage (excessively absorbed ultraviolet (UV) and infrared (IR) radiation) (Azuma, 2018; Solovchenko & Merzlyak, 2008). (a) Anthocyanin biosynthesis (b) Anthocyanin transport (c) Anthocyanin involved in light attenuation.
+Currently, four major categories of photoprotective pigments have been identified, namely, mycosporine-like amino acids, phenolic compounds (including phenolic acids, flavonols, and anthocyanins), alkaloids (betalains), and carotenoids (Solovchenko & Merzlyak, 2008). Anthocyanin biosynthesis and accumulation are particularly sensitive to environmental fluctuations that impact their supply and demand, affecting their quantity and chemical variability (Jaakola & Hohtola, 2010). Certain UV and IR radiation spectra or intensities can prove detrimental to plants. Anthocyanins not only function as antioxidants and reactive oxygen species scavengers under osmotic and/or oxidative stress but also offer photoprotection from the epidermis to the mesophyll (as illustrated in Figure 2) (Bao et al., 2022; Kim et al., 2022). Even when not acylated, anthocyanins are able to attenuate visible radiation considerably (Chalker-Scott, 1999). Covalent attachment of the copigment molecule to the anthocyanin results in more effective photoprotection properties than intermolecular anthocyanin-copigment complexes (Da Silva et al., 2012). Anthocyanins can attenuate UV radiation when appropriately acylated with hydroxycinnamic acids (Chalker-Scott, 1999). As a result, non-visible spectra strongly influence anthocyanin formation.
+Variations in fruits and vegetables nutrient composition and quality are influenced by environmental factors, including soil conditions, seasonal changes, and climate fluctuations (Askari-Khorasgani & Pessarakli, 2019). Light and temperature are significant factors regulating the biosynthesis of anthocyanins in fruits and vegetables (Liu et al., 2018). The light can be categorized into visible and non-visible spectra. Non-visible spectra are particularly noteworthy for their pivotal role in enhancing anthocyanin synthesis and buildup in fruits and vegetables.
+3.1 Non-visible spectra affect anthocyanin biosynthesis
+A common plant response to UV exposure is the production of phenolic compounds that absorb damaging light wavelengths (Valenta et al., 2020). The accumulation of UV-absorbing compounds (flavonoids and related phenylpropanoids) in the epidermis of higher plants reduces solar UV radiation penetration to underlying tissues. It is a major acclimation mechanism to changing UV conditions resulting from ozone depletion and climate change (Barnes, Flint, et al., 2016). Anthocyanins are crucial for long-term adaptation to changing illumination conditions and protection against multiple stresses, particularly photodamage (Askari-Khorasgani & Pessarakli, 2019; Solovchenko & Merzlyak, 2008). Plant cultivation at high altitudes poses a challenge due to the increased ratio of non-visible spectra, as the effects of increased UV radiation can lead to enhanced vegetable and fruit pigmentation due to an increase in the synthesis of anthocyanins, flavonols, and tannins (Karagiannis et al., 2020; Mansour et al., 2022). In vivo screening of anthocyanins and carotenoids in leaves has been shown to mitigate the harmful effects of UV stress (Pfuendel et al., 2007; Wang et al., 2019). Anthocyanin biosynthesis and accumulation under UV radiation vary between plant species. Most plants are well-equipped to defend against UV stress at regular altitudes. However, this changes at high altitudes where atmospheric gases and water vapor are inadequate to prevent radiation from reaching plants (Saini et al., 2020). The acylated anthocyanin compounds exhibit efficient mechanisms for rapidly converting the absorbed excitation energy into heat, making acylation a simple yet elegant way for the plant to strengthen its defense mechanisms and capacity against excess UV radiation (Da Silva et al., 2012). The leaves and stems of dropwort (Oenanthe stolonifera) plants exposed to UVA, UVB, and UVC became more red in color compared to the control plants (Jeon et al., 2018). Anthocyanin biosynthesis and accumulation under UV radiation also depend on the plant's developmental stages. The monomers cyanidin and delphinidin exhibited the greatest concentration increase in response to pre and postharvest UV radiation in the turning blueberries (Vaccinium corymbosum L.) fruit ripening stage (Yang et al., 2018). UV radiation significantly impacted the young berries compared to mature berries (Yang et al., 2018). Del-Castillo-Alonso et al. (2021) found that the pea-size and harvest phenological stages exhibited the most significant responses to UV in grapes (Vitis vinifera L. cv. Tempranillo), with the berry skin being the most UV-responsive grape tissue (Del-Castillo-Alonso et al., 2021). Furthermore, preharvest UVB, UVC, and postharvest UVA, UVB, and UVC irradiation significantly promoted blueberries (V. corymbosum L.) anthocyanin biosynthesis, especially the expression of late biosynthesis genes VcDFR, VcANS, VcUFGT, and the transcription factor VcMYB, as well as increased DFR and UFGT activities in a developmental stage and UV wavelength-dependent manner (Yang et al., 2018). When UV wavelengths were excluded, Silene littorea anthocyanin concentrations significantly decreased in petals, stems, and calyces (Carlos Del Valle et al., 2020). At the same time, UV exclusion did not affect the transcript levels of proanthocyanidin-related genes but significantly decreased flavonol-related genes in Cabernet Sauvignon grape (Koyama et al., 2012). There are commonalities in plant responses to UV radiation. However, the differences and specificities in response profiles should not be disregarded.
+3.2 Anthocyanins production in response to various UV spectra
+The responses of fruits to the various UV radiation types exhibit significant differences (Table 1). Although the UVB radiation effects on plants have been extensively investigated, UVA radiation has been comparatively understudied (Rai et al., 2021). UVA radiation was shown to only slightly increase anthocyanin content in green butter lettuce (Lactuca sativa cv.), whereas it did not significantly impact shoot growth or leaf pigment concentration in Chrysobalanus icaco (Li et al., 2020; Nissim-Levi et al., 2003). However, UVA supplementation has been found to increase flavonoid, polyphenol, and anthocyanin contents in lettuce (He et al., 2021). Grape berries exhibited an increase in anthocyanin content with increasing UVA intensity (Yang et al., 2018). Furthermore, applying UVA radiation in young berries resulted in a more pronounced response in terms of anthocyanin content and accumulation rate (Yang et al., 2018; Yin, Wang, Wang, et al., 2022). On the other hand, increasing UVC intensity has been found to initially increase anthocyanin content in young grape berries, followed by a gradual or immediate decrease (Yang et al., 2018). In sweet basil, UVC radiation had the most significant effect on anthocyanin content, with a 50% increase observed compared to 27% and 0% after UVA and UVB radiation treatment, respectively (Semenova et al., 2022). Ambient UVB levels have been found to have stronger effects than ambient UVA in increasing grape flavonol contents (particularly quercetins and kaempferols) and the expression of flavonol synthase and chalcone synthase genes (VvFLS4 and VvCHS1) (Del-Castillo-Alonso et al., 2021). UVB radiation is absorbed or screened by phenols and flavonoids to protect plant cells from its harmful consequences, and as a consequence, an upregulation of flavonol and anthocyanin biosynthesis is observed (Cechin et al., 2012; Grifoni et al., 2008; Martinez-Luescher et al., 2016). Young grape berries exhibit an initial increase in anthocyanin content with increasing UVB intensity, followed by a gradual or immediate decrease (Yang et al., 2018). Negative feedback loops on the action of UVR8 and cryptochromes can arise from gene expression, signaling crosstalk, and absorption of UV photons by phenolic metabolites (Rai et al., 2021). Therefore, based on the research evidence listed here, UVA, UVB, and UVC play a positive role in anthocyanin biosynthesis.
+TABLE 1. Roles of non-visible spectra in fruits and vegetables.
+Irradiation Species/tissue Responses Reference
+UVA (365 nm) + white light vs. white light Sweet basil (Ocimum basilicum L.)/leaf
+Anthocyanins ↑
+Chlorophyll a ↑
+Chlorophyll b ↑
+Carotenoids ↑
+Semenova et al. (2022)
+UVA (340 nm) vs. dark Cabernet Sauvignon (Vitis vinifera cv.)/fruit Total anthocyanin ↑ Yin, Wang, Wang et al. (2022)
+UVA exclusion vs. solar radiation Cabernet Sauvignon (Vitis vinifera cv.)/fruit Total anthocyanin ↓ Yin, Wang, Wang et al. (2022)
+UVA (340 nm) + PAR vs. PAR in a greenhouse under natural daylight Cucumber (Cucumis sativus L.)/seedling
+Flavonoid ↑
+Antioxidant capacity ↑
+Leaf dry weight ↑
+Stem dry weight ↑
+Root dry weight ↑
+Qian et al. (2020, 2021)
+UVA (380 ± 10 nm) + (red + white light) vs. red + white light Lettuce (Lactuca sativa L.)/leaf
+Chlorophyll ↑
+Chlorophyll a ↑
+Chlorophyll b ↑
+Flavonoids ↑
+Polyphenols ↑
+Anthocyanins ↑
+He et al. (2021)
+End of day UVA (350–400 nm) + white light vs. white light Green butter (Lactuca sativa cv.)/leaf
+Chlorophyll a ↑
+Chlorophyll b ↑
+Total anthocyanins ↑
+Li et al. (2020)
+End of day UVA (350–400 nm) + white light vs. white light Red butter (Lactuca sativa cv.)/leaf Total anthocyanins ↓ Li et al. (2020)
+UVA + UVB + PAR radiation vs. UVA + PAR Arabidopsis thaliana/leaf
+Carotenoids ↑
+Photosystem II ↓
+Badmus et al. (2022)
+UVB (280–313 nm) + (solar radiation without UV) + well water vs. (solar radiation without UV) + well water Pinot noir clone 115 (Vitis vinifera L. var.)
+α-Ketoglutarate ↓
+Shikimate ↓
+Pyruvate ↓
+Aspartate ↓
+3-Phosphoglycerate ↓
+Zhu et al. (2022)
+UVB (280–313 nm) + (solar radiation without UV) + water stress vs. (solar radiation without UV) + water stress Pinot noir clone 115 (Vitis vinifera L. var.)
+α-Ketoglutarate ↓
+Shikimate ↓
+Pyruvate ↓
+Aspartate ↓
+3-Phosphoglycerate ↓
+Zhu et al. (2022)
+UVB (280–320 nm, peak at 310 nm) supplementation + white light vs. white light Canola (Brassica napus L.)/leaf
+Flavonoids ↑
+Anthocyanins ↑
+Lee et al. (2022)
+UVB (300–320 nm, peak at 310 nm) supplementation + white light vs. white light Canola (Brassica napus L.)/leaf
+Flavonoids ↑
+Anthocyanins ↑
+Lee et al. (2022)
+UVB + PAR vs. PAR in a greenhouse under natural daylight Cucumber (Cucumis sativus L.)/seedling
+Flavonoids ↑
+Antioxidant capacity ↑
+Leaf dry weight ↓
+Stem dry weight ↓
+Root dry weight ↓
+Qian et al. (2020, 2021)
+UVB exclusion vs. solar UVB radiation Shiraz (Vitis vinifera L. cv.)/fruit
+Total soluble solid ↑
+Titratable acid ↓
+Total phenolic ↑
+Linalool ↑
+Miao et al. (2020)
+UVB + white light vs. white light Zinnia Profusion series/leaf UVB reflectance ↑ Valenta et al. (2020)
+UVB (305–315 nm, peak at 311 nm) supplementation + solar UVB radiation vs. solar UVB radiation Tempranillo (Vitis vinifera L. cv.)/fruit
+Phenols ↑
+Antioxidant capacity ↑
+Flavanols ↑
+Flavonols ↑
+Anthocyanins ↑
+Del-Castillo-Alonso et al. (2020)
+UVB (305 nm) irradiation in the morning once a week for eight times (S1–S8) + solar radiation vs. solar radiation Half-highbush blueberry (Vaccinium corymbosum L.)
+Flavonol (S3–S4) ↑
+Proanthocyanidins (S3–S4, S7–S8) ↑
+Anthocyanins (S3–S8) ↑
+Yang et al. (2019)
+UVB (280–320 nm) vs. white light in plant chamber Alfalfa (Medicago sativa L.)/seedling
+Chlorophyll ↓
+Fluorescence ↓
+Kaempferol ↑
+Isoliquiritigenin ↑
+Apigenin ↑
+Daidzein ↑
+Gao et al. (2019)
+UVB exclusion + leaf removal vs. leaf removal Cabernet sauvignon (Vitis vinifera L. cv.)/fruit
+Total soluble solid ↑
+pH ↓
+Total acid ↓
+Total seed tannin ↓
+Blancquaert et al. (2019a, 2019b)
+UVB exclusion vs. solar radiation Cabernet sauvignon (Vitis vinifera L. cv.)/fruit
+Total soluble solids ↑
+Total acid ↑
+Total skin tannin ↓
+Blancquaert et al. (2019a, 2019b)
+(UVA + UVB) + white light vs. white light Sweet basil (Ocimum basilicum L.)/leaf
+Chlorophyll a ↑
+Chlorophyll b ↑
+Carotenoids ↑
+Semenova et al. (2022)
+(UVA + UVB) exclusion vs. solar radiation Shiraz (Vitis vinifera L. cv.)/fruit
+Total soluble solid ↑
+Titratable acidity ↓
+Total phenolic ↑
+Miao et al. (2020)
+(UVA + UVB) exclusion vs. solar radiation Silene littorea/seedling
+Petal anthocyanins ↓
+Calyce anthocyanins ↓
+Stem anthocyanins ↓
+Carlos Del Valle et al. (2020)
+(UVA + UVB) exclusion vs. solar radiation Okra (Abelmoschus esculentus L.) leaf
+Flavonoid ↓
+Antioxidant activity ↓
+Neugart et al. (2021)
+(UVA + UVB) exclusion (<350 nm) vs. solar radiation Faba bean (Vicia faba L.) leaf Quercetin ↓ Yan et al. (2019)
+(UVA + UVB) exclusion (<400 nm) vs. solar radiation Faba bean (Vicia faba L.) leaf Quercetin ↓ Yan et al. (2019)
+Solar UV (UVA + UVB) Pinot noir (Vitis vinifera L.)/leaf Total antioxidant capacities of leaf extracts were positively correlated to solar UV Csepregi et al. (2019)
+UVC (275 nm) + white light vs. white light Sweet basil (Ocimum basilicum L.) leaf
+Anthocyanins ↑
+Chlorophyll a ↑
+Chlorophyll b ↑
+Carotenoids ↑
+Semenova et al. (2022)
+UVC (254 nm) irradiation in the morning once a week for eight times (S1–S8) + solar radiation vs. solar radiation Half-highbush blueberry (Vaccinium corymbosum L.)
+Flavonol (S3–S4) ↑
+Proanthocyanidins (S3–S8) ↑
+Anthocyanins (S3–S8) ↑
+Yang et al. (2019)
+Infrared irradiation (300–5800 nm, peak at 1200 nm) vs. dark Cabernet Sauvignon (Vitis vinifera cv.)/fruit
+Malvidin 3-O-glucoside and its derivatives ↑
+Peonidin 3-O-glucoside and its derivatives ↓
+Yin, Wang, & Xi (2022)
+Infrared exclusion vs. solar radiation Cabernet Sauvignon (Vitis vinifera cv.)/fruit
+Malvidin 3-O-glucoside and its derivatives ↓
+Peonidin 3-O-glucoside and its derivatives ↓
+Yin, Wang, and Xi (2022)
+Far-red (730 ± 30 nm) + (red + blue) light vs. (red + blue) light Romaine lettuce (Lactuca sativa cv. Amadeus)/leaf
+Anthocyanins ↓
+β-Carotene ↓
+Chlorophyll ↓
+Kong and Nemali (2021)
+Far-red (730 ± 10 nm) + (red + white) light vs. (red + white) light Lettuce (Lactuca sativa L.)/leaf
+Flavonoid ↑
+Polyphenol ↑
+Anthocyanins ↓
+Chlorophyll a ↓
+Chlorophyll b ↑
+Chlorophyll ↓
+He et al. (2021)
+End of day far-red light (700–800 nm) + white light vs. white light Green butter lettuce (Lactuca sativa cv.)/leaf
+Chlorophyll (a + b) ↑
+Total anthocyanins ↓
+Li et al. (2020)
+End of day far-red light (700–800 nm) + white light vs. white light Red butter lettuce (Lactuca sativa cv.)/leaf Total anthocyanins ↓ Li et al. (2020)
+Far-red (724–732 nm) + white light vs. white light Tomato (Solanum lycopersicum)/leaf Soluble sugars ↑ Courbier et al. (2020)
+Far-red (700–800 nm, peak at 732 nm) + blue + red radiation vs. blue + red radiation Lettuce (Lactuca sativa)/seedling
+Shoot weight ↑
+Growth ↑
+Chlorophyll ↓
+Meng and Runkle (2019)
+Far-red (730 ± 10 nm) + UVA (380 ± 10 nm) + (red + white) light vs. (red + white) light Lettuce (Lactuca sativa L.)/leaf
+Flavonoids ↑
+Polyphenols ↑
+Anthocyanins ↓
+Chlorophyll a ↓
+Chlorophyll b ↑
+Chlorophyll ↓
+He et al. (2021)
+Abbreviations: PAR, photosynthetically active radiation; UV, ultraviolet.
+3.3 UVR8 mediates the UVB response signaling for the induction of anthocyanin biosynthesis
+Recent studies have shed light on the UVR8 mediated UVB signal transduction pathways, including UVR8-COP1, UVR8-WRKY36, UVR8-BES1/BIM1, UVR8-HY5/HYH, UVR8-RUP1/2, and UVR8-phytochrome-interacting factor (PIF4) (Brown et al., 2005; Liang et al., 2019; Yao et al., 2020). Among them, COP1 and HY5 are indispensable components of the UVB signaling pathway (Yao et al., 2020). Moreover, the canonical negative regulator in response to visible light, COP1, acts as a positive regulator during UVB exposure (Jin & Zhu, 2019). The last 17 amino acids (C17) in the protein tail of the UVR8 photoreceptor inhibit UVB signaling by attenuating the binding between the C27 domain and COP1 (Lin et al., 2020). Supplementary illumination with UVB radiation increases the affinity of UVR8 to COP1, thereby outcompeting HY5 from interacting with COP1, which results in the accumulation of HY5, promoting the photomorphogenesis of young seedlings (Wang & Lin, 2019). HY5 is a key effector of the UVR8 pathway and is required for anthocyanin biosynthesis under UVB radiation. HY5 binds to the decreased wax biosynthesis promoter elements to repress its expression, promoting anthocyanin biosynthesis in Arabidopsis (Arabidopsis thaliana), thereby affecting plant survival under UVB irradiation stress (Saini et al., 2020). UVR8 interacts with MYB transcription factors (MYB13, MYB 73, and MYB 77) in a UVB dependent manner (Xu & Zhu, 2020). Further genetic and phenotypic observations demonstrate that MYB13 is required for cotyledon expansion and flavonoid biosynthesis in response to UVB exposure (Xu & Zhu, 2020). Exposure to broadband UVB downregulates BES1 expression, thus promoting flavonol accumulation by enhancing the expression of AtMYB11. AtMYB12 and AtMYB111 activate flavonol biosynthesis (Liang et al., 2020). CaMYB113 was shown to interact with CabHLH143 and CaHY5 based on yeast two-hybrid assays, and these three genes may participate collaboratively in UVB-induced anthocyanin biosynthesis in pepper fruit (Wang et al., 2022). Virus-induced gene silencing demonstrated that fruit peels of CaMYB113-silenced plants were unable to turn purple under UVB irradiation (Wang et al., 2022). UVB exposure upregulated the expression of VcPAL, VcCHS, VcF3’H, VcBBX, VcMYB21, and VcR2R3MYB in blueberry fruits (Nguyen et al., 2017). MdWRKY72 promotes MdMYB1 expression both indirectly and directly via binding to a W-box element in the MdHY5 promoter and the MdMYB1 promoter, respectively, to increase anthocyanin synthesis under UVB radiation (Hu et al., 2020). UVR8 is a UVB specific signaling component that orchestrates the expression of a range of genes with vital UV-protective functions, including the induction of the phenylalanine pathway, resulting in the further accumulation of polyphenols, especially anthocyanins, in response to UVB radiation (Brown et al., 2005). Therefore, UVR8 is a key receptor protein regulating plant responses to UVB radiation.
+3.4 Anthocyanin accumulation in response to various IR spectra
+Among the solar radiation reaching the Earth's surface, UV radiation accounts for only about 3%, visible light accounts for 44%, and IR radiation accounts for 53% (Loconsole & Santamaria, 2021; Rai et al., 2021). In particular, IR radiation not only serves as a form of light signal but also has the ability to generate heat. Current research on IR radiation mainly focuses on its heating effects, which are primarily used in postharvest processing of agricultural products such as drying processes for blueberries and grape seeds (Adak et al., 2017; Fu et al., 2019). IR radiation is also widely applied in quality inspection and breeding of agricultural products. However, research on the role of IR radiation in physiological and biochemical processes in plants, as well as improving fruit quality, is still relatively scarce. Consequently, a comprehensive examination of the available red-to-far red (R/FR) light ratio studies on plants may provide valuable insights into IR radiation function in plants. A high R/FR light ratio induced anthocyanin accumulation in A. thaliana, alpine, and prairie plants (Stellaria longipes) (Alokam et al., 2002; Kim et al., 2022). A low R/FR light ratio induced the expression of CmMYB4, which suppressed the anthocyanin activator complex CmMYB6-CmbHLH2, leading to a reduction in anthocyanin accumulation in Chrysanthemum (Chrysanthemum morifolium) petals (Zhou et al., 2022). On the other hand, under a high R/FR light ratio, CmbHLH16 was upregulated, impeding the formation of the CmMYB4-CmTPL complex and releasing the suppression of CmbHLH2, thus promoting anthocyanin accumulation in Chrysanthemum petals (Zhou et al., 2022). These results suggest that anthocyanin accumulation can be influenced by far-red light. Recently, Yin, Wang, & Xi (2022) demonstrated that in the absence of IR radiation, the anthocyanin content was decreased, whereas the opposite was observed the presence of IR radiation, which increased anthocyanin content (Yin, Wang, & Xi, 2022). The anthocyanin acylation was also found to be affected by IR radiation (Yin, Wang, & Xi, 2022). In the near IR radiation region (800–2000 nm), plant leaf transmittance is less than 50%, the reflectance exceeds 40%, and the absorption rate is 10%. Nonetheless, Mascoli et al. (2020) found that despite the lower energy output, the insertion of redshifted chlorophyll f (whose absorption wavelength can extend up to 750–800 nm) in the PSs remains advantageous in environments that are enriched in FR light and therefore represents a viable strategy for extending the PAR in plants (Mascoli et al., 2020). When the plant IR radiation reflection coefficient is reduced, plant growth and development are limited, negatively affecting yield (Michalak et al., 2018). Sunlight contains a considerable proportion of IR radiation, which has heating and light-signaling effects on plants.
+4 NON-VISIBLE SPECTRA × TEMPERATURE INTERACTION
+4.1 Non-visible spectra × high temperature interaction
+As global warming persists, incidents of sunburn damage (due to both high light and temperature) in vineyards are becoming more frequent, leading to the destruction of photosynthetic pigments and the accumulation of polyphenols (Gambetta et al., 2022). Carotenoid pigments, such as orange carotenoid protein (OCP), convert excess light energy into heat (Hamant, 2021). OCP can regulate fluorescence in light, temperature, and other types of sensors in cyanobacteria (Muzzopappa & Kirilovsky, 2020). The anticipated rise in average temperatures is projected to impact plant phenological stages differently based on the temperature gradient, with warmer areas experiencing a greater acceleration of phenological stages, particularly veraison and maturity, which appear earlier (Ramos & Martinez de Toda, 2020). At harvest, a negative correlation between anthocyanin content and ambient temperature has been observed (Gutierrez-Gamboa et al., 2021; Yin et al., 2023). High temperatures can lead to the hydrolysis of anthocyanins, producing methanol pseudoalkaloid (Ramos & Martinez de Toda, 2020). The higher the temperature, the faster the degradation rate of anthocyanins, ultimately resulting in the discoloration of anthocyanins. Although ambient temperature increases may reduce plant protection by decreasing the UVB-mediated accumulation of phenolics, other defense-related compounds have been shown to increase under such elevated temperature conditions (Escobar-Bravo et al., 2017). Micrometeorological changes shift the balance between the most abundantly accumulated flavonoids, with increased solar exposure associated with lower levels of anthocyanins and flavan-3-ols and a higher flavonol accumulation (Reshef et al., 2018). UV radiation and high temperature stimulate anthocyanin acylation in the Bovale grande grape cultivar, particularly toward the formation of coumaroylglucosides (Fernandes de Oliveira & Nieddu, 2016). Both temperature and light have a synergistic effect on the expression of the anthocyanin biosynthesis pathway genes, which determines anthocyanin accumulation (Azuma, 2018). The expression of anthocyanin biosynthesis genes VvMYBA1, VvGST, VvOMT2, and VvCHS2 increases under elevated UVB and temperature conditions (Martinez-Luescher et al., 2016). A simplified schematic representation of the main TFs/genes involved in the regulation of anthocyanins under high temperature and UVB radiation. The expression of MdCOL4 is reduced by UVB but promoted by high temperature (Fang, Dong, Yue, Chen, et al., 2019). MdCOL4 interactes with MdHY5 to synergistically inhibit the expression of MdMYB1 or directly binds to the promoters of MdANS and MdUFGT, which encode genes in the anthocyanin biosynthesis pathway, to suppress their expression (Fang, Dong, Yue, Chen, et al., 2019). Therefore, the effect of UVB compensates for the deleterious effect of increased temperature on berry anthocyanin concentration (Martinez-Luescher et al., 2016). The negative role of high temperature in anthocyanin accumulation can be reduced by application of non-visible spectra.
+4.2 Non-visible spectra × low temperature interaction
+Non-visible spectra have also been shown to interact with low temperatures in the regulation of anthocyanin biosynthesis (Sytar et al., 2018). As shown in Table 2, UVB radiation was more effective at inducing anthocyanin synthesis in peel tissues and improving fruit coloration at 27°C than at 17°C (Zhang et al., 2012). A lower temperature of 10°C during UVB + visible light irradiation prevented anthocyanins and quercetin glycoside accumulation in apple fruit skin compared to 20°C (Reay & Lancaster, 2001). Acclimation to low temperatures was also shown to increase PS II sensitivity to UVB radiation (Schultze & Bilger, 2019). The regulation of light and cold signaling in plants is coordinated by the photoreceptor and thermosensor phyB, as well as the transcription factors PIFs and CBFs, which form complex regulatory networks (Xu & Deng, 2020). PIF3, a basic helix–loop–helix transcription factor, plays a critical role in light signaling and was shown to negatively regulate freezing tolerance in Arabidopsis (Lin et al., 2018). As shown in Figure 3, which describes a model of UVR8-mediated signaling, the apple B-box protein, MdCOL11, is involved in UVB and low temperature-induced anthocyanin biosynthesis (Bai et al., 2014). Furthermore, MdBBX20 was shown to interact with MdHY5 in vitro and in vivo, which greatly enhanced the promoter activity of MdMYB1 and induced anthocyanin biosynthesis (Fang, Dong, Yue, Hu, et al., 2019). MdBBX20 was also responsive to low temperatures (14°C) with the involvement of MdbHLH3, which directly binds to low temperature response cis-elements in the MdBBX20 promoter (Fang, Dong, Yue, Hu, et al., 2019). The levels of UV radiation predominantly influence the accumulation of flavonoids and anthocyanins, whereas temperature plays a more significant role in the accumulation of phenolic acids (Sytar et al., 2018). Low temperatures more strongly influence the expression of CaMYB, CaF3’5’H, CaDFR, and CaANS than UVB radiation in bell pepper (Gerardo Leon-Chan et al., 2020). The expression of PyMYB10 and five anthocyanin structural genes, PpPAL, PpCHI, PpCHS, PpF3H, and PpANS, were also higher in fruits irradiated with UVB at 27°C than at 17°C (Zhang et al., 2012). The expression of MdCHS, MdF3H, MdDFR, MdANS, and MdUFGT was enhanced by UVB and low temperature (17°C) treatments, resulting in the accumulation of anthocyanins in the apple fruit skin (Ubi et al., 2006). Therefore, UV radiation can enhance cold tolerance and relieve the repression of low temperatures on anthocyanin biosynthesis.
+TABLE 2. Non-visible spectra and temperature effects on plant growth and development.
+Irradiation and temperature Materials Response Reference
+UVB treatment at 21°C and at 9°C of plants grown at 21°C Arabidopsis thaliana (L.) Fv/Fm was higher in 21°C than 9°C. At low temperature PS II was more vulnerable to UVB induced damage Schultze and Bilger (2019)
+UVB treatment of plants grown at 21°C and of plants acclimated to 9°C Arabidopsis thaliana (L.) When treated at 9°C, the UVB induced decrease of Fv/Fm was much stronger in plants grown at 21°C than 9°C. Acclimation to low temperature mitigates UVB induced damage of PS II Schultze and Bilger (2019)
+UVB treatment at 21°C and at 9°C of plants with varying epidermal UVB transmittance Arabidopsis thaliana (L.) PS II function was negatively correlated to the epidermal transmittance. Treatment at low temperature doubled the damage Schultze and Bilger (2019)
+Inhibition of repair of PS II by lincomycin before experiment (UVB treatment at 21°C and at 9°C of plants grown at 21°C) Arabidopsis thaliana (L.) Lincomycin treatment enhanced the decrease of Fv/Fm Schultze and Bilger (2019)
+Absence of UVB radiation after experiment (UVB treatment of plants grown at 21°C and of plants acclimated to 9°C) Arabidopsis thaliana (L.) Low temperature reduced repair of PS II, but acclimation to 9°C positively affects the repair rate Schultze and Bilger (2019)
+0 kJ/(m2∙d) UVB vs. 5.98 kJ/(m2∙d) UVB vs. 9.66 kJ/(m2∙d) UVB at 700 umol/mol CO2-28/18°C Tempranillo (Vitis vinifera cv.) Flavonols increased with improvement of UVB intensity Martinez-Luescher et al. (2016)
+0 kJ/(m2∙d) UVB vs. 5.98 kJ/(m2∙d) UVB vs. 9.66 kJ/(m2∙d) UVB at 390 umol/mol CO2-24/14°C Tempranillo (Vitis vinifera cv.) Flavonols increased with improvement of UVB intensity Martinez-Luescher et al. (2016)
+Low temperature (15/10°C, day/night) vs. low temperature + UVB Bell pepper stem (C. annuum) F3H was significantly increased by low temperature + UVB Gerardo Leon-Chan et al. (2020)
+Abbreviation: PS II, photosystem II.
+FIGURE 3
+Open in figure viewer
+PowerPoint
+Model of UVR8-mediated signaling. UVB signaling is known to be relayed to the nucleus during sunlight exposure. In response to UVB, UVR8 monomerizes, and UVR8-COP1 dimerizes and is then transported to the nucleus. The interaction of UVR8 with COP1 prevents COP1 from targeting HY5 for destruction, thereby allowing HY5 to activate target genes. HY5 activates UVB responsive genes in the phenylpropanoid biosynthesis pathway, including FLS and CHS. A schematic diagram for the proposed light- and temperature-regulated anthocyanin biosynthesis mechanism. Proposed model for COL4-regulated anthocyanin biosynthesis under UVB and high temperature. Proposed model for BBX20-regulated anthocyanin biosynthesis in response to UVB and low temperature. BBX20, a transcription factor induced by UVB, responds to low temperature with the involvement of bHLH3. It subsequently interacts with HY5 to induce MYB1 expression and binds to promoters of downstream structural genes, promoting anthocyanin synthesis. A proposed model for UVB induced anthocyanin synthesis mediated by WRKY72. UVR8 interacts with MYB13 under UVB irradiation and induces MYB13 target gene expression to stimulate the flavonoid metabolic pathway. (Bai et al., 2014; Fang, Dong, Yue, Chen, et al., 2019; Fang, Dong, Yue, Hu, et al., 2019; Henry-Kirk et al., 2018; Hu et al., 2020; Xu & Zhu, 2020).
+5 CONCLUSION
+The accumulation of UV-absorbing compounds in the epidermis of higher plants is a primary mechanism of acclimation to changing UV conditions resulting from ozone depletion and climate change. Anthocyanins are crucial in protecting plants against multiple stresses, particularly photodamage caused by increased UV radiation. In vivo protection by anthocyanins and carotenoids can mitigate the effects of UV stress in the leaves. The biosynthesis and accumulation of anthocyanins under UV irradiation depend on the genotype, organism, and the developmental stage. Different UV radiation types affect fruit growth and pigment content differently. UVA radiation has been observed to slightly increase anthocyanin content in some plants, whereas it was shown to improve flavonoid, polyphenol, and anthocyanin contents in lettuce. On the other hand, increasing UVC intensity initially increases anthocyanin content but could lead to a gradual or immediate decrease. UVB radiation is absorbed or screened by phenols and flavonoids to protect against its harmful consequences and upregulate flavonol and anthocyanin biosynthesis. Recent studies have identified several UVR8-mediated UVB signal transduction pathways, including UVR8-COP1 and UVR8-HY5, as key components of UVB signaling. HY5 is a key effector of the UVR8 pathway, promoting anthocyanin biosynthesis and affecting plant survival under UVB irradiation stress. UVR8 orchestrates the expression of genes with vital UV-protective functions, resulting in the increased accumulation of polyphenols, especially anthocyanins, in response to UVB radiation.
+Although various research studies have examined the impact of UV irradiation on plants, research on the application of IR radiation to plants is limited. However, recent research has shown that anthocyanin content is reduced in the absence of IR radiation but enhanced in the presence of IR radiation. Moreover, IR radiation was shown to affect the acylation of anthocyanins. Decreasing the IR radiation reflection coefficient can limit plant growth and development, negatively affecting yield. Drawing on the research results of red light and far-red light, theoretical foundations and directions for the research on IR radiation can be provided. Further research on the photoreceptors of IR radiation and the study of their physiological effects on plants under conditions of heat isolation.
+Both non-visible spectra and temperature influence anthocyanin accumulation in fruits and vegetables. UVB radiation effectively induces anthocyanin synthesis and improves fruit coloration at higher temperatures. Furthermore, UVB radiation relieves the low temperature repression effect on anthocyanin biosynthesis. Several photoreceptors and transcription factors coordinate the regulation of light and cold signaling. Transcription factors from various families, including C3H, MYB, BBX, bHLH, and WRKY, may contribute to color differences in fruits and vegetables. Therefore, exposure to certain non-visible spectra, such as UV and IR radiation, can significantly increase the anthocyanin content in certain crops. The information covered here and their interpretation will contribute to a complete understanding of how environmental factors affect coloration, enabling growers to develop cultivation practices that contribute to the consistent production of uniform, high-quality fruits and vegetables. In the future, we should place more emphasis on the exploitation and utilization of non-visible light, identify the optimal wavelengths for specific plants and developmental stages, and provide ideas for efficient and sustainable food production in the horticultural industry.
+ACKNOWLEDGMENTS
+This work was supported by Diqing Academician Expert Station Project in Yunnan [Grant Number K4050423702], Key Research and Development Program of Shaanxi Province [Grant Number 2024NC-YBXM-019], and Key Project of the Science and Technology Department of Zhejiang Province [Grant Number 2021C2066-9]. Figures 2 and 3 were produced by Figdraw. We thank Bullet Edits Limited for the linguistic editing and proofreading of the manuscript.
+CONFLICT OF INTEREST STATEMENT
+The authors declare no conflicts of interest.
+ETHICS STATEMENT
+This article does not contain any studies with animals performed by any of the authors.
+REFERENCES
+Early View
+Online Version of Record before inclusion in an issue
+Figures
+References
+Related
+Information
+Download PDF
+Additional links
+ABOUT WILEY ONLINE LIBRARY
+Privacy Policy
+Terms of Use
+About Cookies
+Manage Cookies
+Accessibility
+Wiley Research DE&I Statement and Publishing Policies
+Developing World Access
+HELP & SUPPORT
+Contact Us
+Training and Support
+DMCA & Reporting Piracy
+OPPORTUNITIES
+Subscription Agents
+Advertisers & Corporate Partners
+CONNECT WITH WILEY
+The Wiley Network
+Wiley Press Room
+Copyright © 1999-2024 John Wiley & Sons, Inc or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies.

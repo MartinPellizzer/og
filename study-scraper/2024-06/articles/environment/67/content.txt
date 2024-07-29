@@ -1,0 +1,14 @@
+**Paragraph 1**
+Growing evidence suggests a link between air pollution and late-life cognitive health. While particulate matter (PM) has been extensively studied, gaseous pollutants have received less attention. Exposure to gaseous pollutants may induce systemic and cerebrovascular inflammatory and oxidative processes, leading to brain cell damage. This study explores the associations between exposure to gaseous pollutants, such as nitrogen dioxide, nitrogen oxides, ozone, and carbon monoxide, and brain magnetic resonance imaging (MRI) markers among participants in the Atherosclerosis Risk in Communities (ARIC) Study.
+
+**Paragraph 2**
+The ARIC cohort comprised 15,792 individuals recruited from 1987 to 1989. We used three methods to estimate 10-year mean air pollution concentrations: Method 1 (M1), which combined a chemical transport model with emission inventories and observational data; Method 2 (M2), which used national log-normal ordinary kriging; and Method 3 (M3), which derived estimated concentrations using regionalized universal kriging with land-use regression and partial least squares regression. We linked these estimates to geocoded participant addresses.
+
+**Paragraph 3**
+The results showed that within-site exposure distributions varied across exposure estimation methods. Meta-analytic associations were generally not statistically significant, regardless of exposure or outcome. Point estimates suggested associations between higher nitrogen dioxide and nitrogen oxides levels and smaller regional brain volumes, as well as between carbon monoxide levels and smaller temporal and frontal lobe volumes.
+
+**Paragraph 4**
+The patterns of local variation in estimated air pollution concentrations differed by estimation method. Although we did not find strong evidence supporting an impact of gaseous pollutants on brain changes detectable by MRI, point estimates suggested associations between higher exposure to certain pollutants and smaller regional brain volumes. Analyses that did not account for study site may underestimate uncertainty and be susceptible to confounding bias.
+
+**Paragraph 5**
+In conclusion, this study found mixed evidence linking gaseous ambient air pollution to dementia-related neuroimaging markers in the ARIC cohort. While point estimates suggested associations between higher exposure to certain pollutants and smaller regional brain volumes, the results were not statistically significant. The choice of exposure estimation method impacted results, highlighting the importance of considering spatial confounding when studying air pollution and health outcomes. Further research is needed to better understand the relationships between gaseous air pollutants and late-life cognitive health.

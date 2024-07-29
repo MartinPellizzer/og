@@ -1,0 +1,444 @@
+Advertisement
+plos.org
+create account
+sign in
+PUBLISH
+ABOUT
+BROWSE
+advanced search
+0
+Save
+0
+Citation
+138
+View
+0
+Share
+OPEN ACCESS PEER-REVIEWED
+RESEARCH ARTICLE
+A meta-analysis of elevated O3 effects on herbaceous plants antioxidant oxidase activity
+Yi Zhao ,
+Bing Guo,
+Zhouli Liu ,
+Xiaohan Wang,
+Guangmin Xiao,
+Roland Bol
+Published: June 25, 2024
+https://doi.org/10.1371/journal.pone.0305688
+Article
+Authors
+Metrics
+Comments
+Media Coverage
+Abstract
+1. Introduction
+2. Material and methods
+3. Results and discussion
+4. Conclusions
+Supporting information
+References
+Reader Comments
+Figures
+Abstract
+Increases in near-surface ozone (O3) concentrations is a global environmental problem. High-concentration O3 induces stress in plants, which can lead to visible damage to plants, reduced photosynthesis, accelerated aging, inhibited growth, and can even plant death. However, its impact has not been comprehensively evaluated because of the response differences between individual plant species, environmental O3 concentration, and duration of O3 stress in plants. We used a meta-analysis approach based on 31 studies 343 observations) to examine the effects of elevated O3 on malondialdehyde (MDA), superoxide dismutase (SOD), and peroxidase (POD) activities in herbaceous plants. Globally, important as they constitute the majority of the world’s food crops. We partitioned the variation in effect size found in the meta-analysis according to the presence of plant species (ornamental herb, rice, and wheat), O3 concentration, and duration of O3 stress in plants. Our results showed that the effects of elevated O3 on plant membrane lipid peroxidation depending on plant species, O3 concentration, and duration of O3 stress in plants. The wheat SOD and POD activity was significantly lower compared to the herbs and rice (P<0.01). The SOD activity of all herbaceous plants increased by 34.6%, 10.5%, and 26.3% for exposure times to elevated O3 environments of 1–12, 13–30, and 31–60 days, respectively. When the exposure time was more than 60 days, SOD activity did not increase but significantly decreased by 12.1%. However, the POD activity of herbaceous plants increased by 30.4%, 57.3%, 21.9% and 5.81%, respectively, when exposure time of herbaceous plants in elevated O3 environment was 1–12, 13–30, 31–60 and more than 60 days. Our meta-analysis revealed that (1) rice is more resistant to elevated O3 than wheat and ornamental herbs likely because of the higher activity of antioxidant components (e.g., POD) in the symplasts, (2) exposure to elevated O3 concentrations for >60 days, may result in antioxidant SOD lose its regulatory ability, and the antioxidant component POD in the symplast is mainly used to resist O3 damage, and (3) the important factors affected the activity of SOD and POD in plants were not consistent: the duration of O3 stress in plants was more important than plant species and O3 concentration for SOD activity. However, for POD activity, plant species was the most important factor.
+Figures
+    Citation: Zhao Y, Guo B, Liu Z, Wang X, Xiao G, Bol R (2024) A meta-analysis of elevated O3 effects on herbaceous plants antioxidant oxidase activity. PLoS ONE 19(6): e0305688. https://doi.org/10.1371/journal.pone.0305688
+Editor: Mojtaba Kordrostami, Nuclear Science and Technology Research Institute, ISLAMIC REPUBLIC OF IRAN
+Received: February 7, 2024; Accepted: June 4, 2024; Published: June 25, 2024
+Copyright: © 2024 Zhao et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Data Availability: All relevant data are within the paper and its Supporting information S2 File.
+Funding: National Natural Science Foundation of China (No. 32301437), Grant Recipient:Yi Zhao; Project of Education Department of Liaoning Province (LJKZ0616), Grant Recipient:Yi Zhao; Northeast Geological S&T Innovation Center of China Geological Survey (QCJJ2022-44), Grant Recipient:Zhouli Liu.
+Competing interests: The authors have declared that no competing interests exist.
+1. Introduction
+Surface ozone (O3) is one of the main air pollutants and a powerful greenhouse gas, and its concentrations are increasing globally and regionally [1]. The near-surface O3 concentration has now reached the global average of approximately 50 nmol·mol-1 [2], which exceeds the appropriate concentration (40 nmol·mol-1) for plant growth [3], increasing at an annual rate of 0.5%–2% over the past decades [4]. In the past two decades, elevated O3 levels in many countries have been sufficient to cause damage to plants, especially in some areas with high O3 concentrations, causing huge economic losses [5–10]. The toxic effects of O3 on plants are mainly due to its strong oxidation ability, which is a concern. Elevated O3 is taken by plants through stomata, causing visible damage to leaf [11], reduces photosynthesis [12,13], accelerates plant aging [14], inhibits plant growth [15,16], and can even lead to plant death. When plants are subjected to O3 stress, they can adapt to (or slow down) the stress of elevated O3 levels by adjusting their physiological and biochemical metabolic pathways, such as by reducing stomatal conductance, increasing antioxidant activity, increasing the synthesis of antioxidant substances, and enhancing the expression of antioxidant genes, which improves their self-protection and repair ability [16,17].
+Herbaceous plants are an important part of ecosystems. They exist partly as crops and partially as ornamental plants. They provide the necessary food for people and storage as well as play an important role in regulating the ecological environment. Regarding ecological effects, ornamental plants have the functions of reducing dust, reducing noise, conserving water and soil, absorbing toxic gases, and reducing air pollution [18]. Therefore, some studies consider that ornamental plants can be used as indicators of O3 pollution [19,20]. Researchers are more concerned with the yield and food security of herbaceous crops in elevated O3 environments [7,10]. Different plants have different adaptation and defense capabilities to elevated O3, and the degree of influence of O3 on plants and the ability of plants to adapt to O3 also depend on the sensitivity of plants to O3 [21]. Grulke and Heath (2020) reported that herbaceous crops are more sensitive to O3 than deciduous woody plants, conifers, and grasses [11]. However, previous studies have mainly focused on individuals of different plant genera, with no systematic and comprehensive comparisons. Some results of previous independent studies have shown differences in the response of different species of herbaceous plants to elevated O3 [19], but it is necessary to assess the overall effect on a global scale.
+As the most important defense system in plants, the study of antioxidant systems will inevitably help reveal the response mechanisms of plants to high O3 concentrations. We searched for the keywords O3, plant, and stress in the Web of Science (WOS) and imported the retrieved literature into the VOSviewer bibliometric software (S1 Fig in S1 File). The results showed that previous studies on the effects of O3 on plants have primarily focused on plant growth, yield, sensitivity, and oxidative stress [5,6,21]. More researches have focused on one-species photosynthetic indicators (such as chlorophyll and stomatal conductance). The investigation of the effects of elevated O3 on vegetation antioxidant systems is more complex than the impacts of yield and photosynthesis, and the available information is limited and includes controversial results. In this state, meta-analysis is an important statistical analysis method that integrates the results of previous independent studies to assess the overall effect and arrive at more reliable results globally. At present, no meta-analysis has been carried out on the effects of elevated O3 on the antioxidant systems of different herbaceous plants, limiting our exploring an effective strategy to inhibit or alleviate the harm caused by elevated O3 to plants on global terrestrial ecosystems. Therefore, it is necessary to integrate the results of the previous experimental researches to comprehensively assess the effects of elevated O3 on various types of herbaceous plants, which will provide scientific basis for the study of plant adaptation mechanism to O3 stress under global change.
+Malondialdehyde (MDA) is a product of membrane lipid peroxidation when plant organs age or are under stress, and its content reflects the degree of membrane lipid peroxidation in plants [22]. Superoxide dismutase (SOD) and peroxidase (POD) are the most important protective enzymes in the plant antioxidant system; they can effectively remove reactive oxygen species (ROS) produced during metabolism and prevent membrane lipid peroxidation and damage caused by ROS [13,23]. To comprehensively analyze the effect of elevated O3 on herbaceous plants and the response of the antioxidant indices of herbaceous plants to O3, we performed a meta‐analysis of the available information (31 studies, 343observations) to examine the effects of elevated O3 levels on MDA content and SOD and POD activities in herbaceous plants. The main objective of this meta‐analysis is to address the following three questions: (1) Whether different plant species, different O3 concentration and different stress time have significant effects on the damage of plant membrane lipid in a high concentration O3 environment; (2) whether the antioxidant enzyme activity of ornamental herbs and herbaceous crops (rice and wheat) is similar in response to elevated O3; (3) Plant species, O3 concentration, and stress time which one is the most important factor affecting the response of plant SOD and POD enzyme activity to elevated O3?
+2. Material and methods
+2.1 Data source
+A survey of peer-reviewed papers was published by the WOS and China National Knowledge Infrastructure (CNKI). All peer-reviewed literature published on this topic between 1990 and 2024 (the most recent search date for the literature is February 8, 2024) were obtained using the keywords: “herbaceous plants,” “ornamental herb,” “grass,” “rice,” “wheat,” “ozone or O3 or elevated O3 or O3 stress or environmental O3 concentration” and “impact or respond or affect or alter or effect.” The relevant research reports were 121 publications in the WOS and 150 publications in CNKI. And then160 researches which were repetitive studies and did not conform to the subject of this research were eliminated, by read their abstracts and material methods (Fig 1). After examining the relevance of duplications in the WOS and CNKI, 111 publications (46 publications in the WOS and 65 publications in the CNKI) were identified for further screening (Fig 1).
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 1. The PRISMA flowchart of database query and study selection process.
+https://doi.org/10.1371/journal.pone.0305688.g001
+To include a research report in this meta-analysis, we examined if it met the following criteria (Fig 2): (1) plant species were rice or wheat or ornamental herbs; (2) plants were exposed to elevated O3 at least for 1 day; (3) O3 concentration in the control treatment (CK) of the experiment was less than 40 nmol·mol-1; (4) environmental O3 concentrations were higher (40 nmol·mol-1) in treatments during exposure; (5) the research indices included MDA content, SOD and POD activities, and (6) the means, standard deviation (SD) or standard error (SE), and replicate numbers (n) were recorded clearly and could be obtained. The final database consisted of 31 research reports published, including 10 articles indexed by the WOS and 21 studies indexed by the CNKI. All data were obtained from tables or extracted from figures using the graph digitizing software (GetData Graph Digitizer V2.25; http://getdata-graph-digitizer.com/). A total of 343 sets of observations were included in the meta-analysis.
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 2. Meta-analysis of the effects of elevated O3 on MDA content of herbaceous plants.
+(a) categorized into (b) plant species, (c) O3 concentration, and (d) experiment duration. MDA content responses were expressed as the relative increase (%) compared to the control (CK), with 95% CIs represented by the error bars. The numbers of paired observations are shown in parentheses. Between-group heterogeneity (QB) and between-group probability (P) was used to describe the statistical differences in MDA content responses between the different levels of the categorized factors.
+https://doi.org/10.1371/journal.pone.0305688.g002
+To distinguish the sources of variation in the responses of MDA content and SOD and POD activities to elevated O3, the paired measurements were further subdivided into subgroups according to the categorical variables listed in Table 1.
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Table 1. Classification of categorical variables used as explanatory factors.
+https://doi.org/10.1371/journal.pone.0305688.t001
+2.2 Meta-analyses
+The meta‐analysis method was as that described in Hedges et al. (1999) [24].
+The effect size is an index that reflects the magnitude of the elevated O3 effect in comparison with the CK treatment [25]. In this study, the effect size of each observation (taken to be the comparison between elevated O3 and CK) for MDA content, SOD and POD activities was calculated as the natural log of the response ratio (RR), which was used as the metric for analysis [24,26], as shown in Eq (1):
+(1)
+where Xt and Xc are the mean values of groups exposed to elevated O3 treatment and CK treatment, respectively.
+The variance (V) of R was calculated as shown in Eq (2):
+(2)
+where SDt and SDc are the standard deviations for the elevated O3 treatment and the CK treatment, and Nt and Nc are the sample sizes for the elevated O3 treatment and the CK treatment, respectively. The random effect model was used to calculate the weighed response ratio (RR++), and bootstrapping (9999 iterations) was used to assess 95% confidence intervals (95% CI) for the average effect size and bias correction for each categorical variable [5,27]. The relative change in the effects of elevated O3 is reported as a percentage [28], as shown in Eq (3):
+(3)
+Positive percentage changes indicated an increase in the herbaceous plant variables in response to the elevated O3 treatment relative CK, whereas negative values indicated a decrease. Significant responses (p < 0.05) were considered if the 95% CIs did not overlap with zero [28,29].
+To examine whether differences between individual plant species, environmental O3 concentration, and duration of O3 stress in plants alter the effects of O3 on plant growth, the categorical analysis was proceeded across all data by dividing the QT into the within-group heterogeneity (QW) and between-group heterogeneity (QB). The analyses were performed with MetaWin 2.1 statistical software (Sinauer Associates Inc.) [26]. The QT of each variable was tested against a χ2-distribution with degrees (n-1) of freedom. If the test result indicated no heterogeneity (P>0.05), chose the fixed effect model; if P<0.05 chose the random effect model [30]. In this study, the QT tested results of MDA, SOD and POD were P<0.05 (Table 2), we chose a random model. It was accepted that the mean effect sizes of the categories were significantly different between the levels of the factors if the P values of the QB were less than the 0.05 level (P<0.05) [31,32].
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Table 2. The total heterogeneity (QT) and Rosenthal’s fail-safe numbers in this study.
+https://doi.org/10.1371/journal.pone.0305688.t002
+The possibility of publication bias of MDA, SOD and POD were evaluated with Rosenthal’s fail-safe number at α = 0.05 (Table 2) [30,33]. No publication bias was existed if Rosenthal’s fail-safe number was more than 5k + 10, where k is the observation number [30,33].
+Random forest algorithm is suitable to handle large numbers of variables without assuming their causalities [34]. In this study R programming language version 3.5.1, the random forest algorithm, was used evaluate the relative importance (%IncMSE) of factors influencing MDA content, SOC and POC activity.
+3. Results and discussion
+3.1 Effects of elevated O3 on oxidative stress of herbaceous plants
+Considering the entire dataset of the overall effects of O3 on MDA were positive, elevated O3 increased the MDA content of herbaceous plants by 54.4% (n = 136) (Fig 2a). When the data were subdivided by plant species, the elevated O3 increased the MDA content of ornamental herbs, rice and wheat by 54.8%, 32.3% and 82.7%, respectively (Fig 2b); When the data were considered to distinguish by environmental O3 concentration, the MDA content was increased by 26.1%, 65.5%, and 80%, respectively, in the O3 environment of 40–80, 81–140, and >140 nmol·mol-1 (Fig 2c); When the data were subdivided by duration of O3 stress in plants, the plants were subjected to elevated O3 stress for 1–12, 13–30, 31–60, and more than 60 days, with MDA content increases of 65.9%, 80.9%, 44.3%, and 29.3%, respectively (Fig 2d).
+The selective permeability of the protoplasmic membranes of plant cells is one of the most important functions of plants, and membrane peroxidation is considered an important characteristic of plant oxidative damage under O3 stress [35]. MDA is one of the main products of membrane lipid peroxidation when plants are subjected to elevated O3 stress, and its content reflects the degree of membrane lipid peroxidation: the higher the MDA content, the more damaged the plant [36]. Our global synthesis showed that when the concentration of O3 in the environment exceeds the natural state (40 nmol·mol-1), it will cause membrane lipid peroxidation damage to herbs. The effects of elevated O3 on plant membrane lipid peroxidation depending on plant species, O3 concentration, and duration of O3 stress in plants.
+In this study, the response of MDA content of different plant species to elevated O3 concentration was significantly different. The order of MDA content increased was wheat > ornamental herbs > rice, i.e. elevated O3 was the most damage to wheat and the least damage to rice. Compared to wheat and ornamental herbs, rice causes the least O3 damage, which may be due to two reasons. (1) The antioxidant system of rice may be stronger than that of wheat and ornamental plants. When O3 enters rice leaves through the stomata, a rapid antioxidant enzyme reaction may occur, and the damage caused by O3 to rice may be reduced over time. (2) Elevated O3 and other environmental factors in which plants are located may interact and affect the response of plants to stress [37–39]. Compared with wheat and ornamental herbs, the growth environment of rice promotes a richer water supply, which may mitigate elevated O3 oxidation damage.
+The effects of different O3 concentrations on the MDA content of herbaceous plants were significantly different (Fig 2c). The MDA content in herbaceous plants increased with an increase O3 concentrations in their environment, which is consistent with other studies on the effect of O3 on membrane lipid peroxidation in trees [16,40].
+The decreasing magnitudes occurred for responses of MDA content to duration of O3 stress in plants from short time to long time (Fig 2d). When the duration of O3 stress in plants was more than 60 days, the increase in MDA content significantly decreased (P<0.01), only increasing by 29.3% (21.6%–38.6%). Two possible reasons are: (1) when herbaceous plants are exposed to O3 for too long (more than 60 days), they are irreversibly damaged, causing their cells to die, resulting in lower MDA levels that can be measured, or (2) the experiment with more than 60 days of stress is likely to adopt a low treatment concentration of 40–80 nmol·mol-1. This concentration is close to the O3 concentration in areas with serious O3 pollution [41–43], and plants are not only passive recipients of external stress but also can quickly perceive and actively adapt to changes in environmental conditions [44]. When herbs are in such an environment for a long time, they may gain stronger resistance, thus reducing the damage caused by O3 to membrane lipid peroxidation and decreasing MDA content.
+3.2 Effects of elevated O3 on the activities of antioxidative enzymes in leaves of herbaceous plants
+Elevated O3 significantly increased the activity of antioxidant enzyme across all studies. In this study, SOD and POD activities of herbaceous plants significantly increased by 13.8% (n = 111; Fig 3a) and 25.4% (n = 96; Fig 4a), respectively. SOD and POD are the most important protective enzymes in the plant antioxidant system [45]. In an elevated O3 environment, when O3 enters the intercellular space of plant leaves, it dissolves in the binding water of the cell wall and forms ROS through a series of chemical reactions that destroy the cell wall and react with unsaturated fatty acids in the cell membrane, causing herbaceous plant leaf damage [46,47]. Antioxidant substances (such as SOD) in plant exosomes react with ROS for primary detoxification and become a defense mechanism against O3 damage [48,49]. The remaining ROS that are not eliminated will pass through the plasma membrane and reach the symplast, where the antioxidant components (antioxidant oxidase substances such as POD) in the symplast are induced to participate in redox processes such as the “ascorbate-glutathione (ASA-GSH) cycle” as a secondary detoxification response mechanism, which used to eliminate ROS [45,50,51]. Our results showed that all herbaceous plants in this study mobilized both exosomal and endoplastid antioxidants to defend against elevated O3.
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 3. Meta-analysis of the effects of elevated O3 on SOD activity of herbaceous plants.
+(a) categorized into (b) plant species, (c) O3 concentration, and (d) experiment duration. SOD activity responses were expressed as the relative increase (%) compared to the control (CK), with 95% CIs represented by the error bars. The numbers of paired observations are shown in parentheses. Between-group heterogeneity (QB) and between-group probability (P) was used to describe the statistical differences in SOD activity responses between the different levels of the categorized factors.
+https://doi.org/10.1371/journal.pone.0305688.g003
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 4. Meta-analysis of the effects of elevated O3 on POD activity of herbaceous plants.
+(a) categorized into (b) plant species, (c) O3 concentration, and (d) experiment duration. POD activity responses were expressed as the relative increase (%) compared to the control (CK), with 95% CIs represented by the error bars. The numbers of paired observations are shown in parentheses. Between-group heterogeneity (QB) and between-group probability (P) was used to describe the statistical differences in POD activity responses between the different levels of the categorized factors.
+https://doi.org/10.1371/journal.pone.0305688.g004
+When the data were subdivided by plant species, there were significant differences in the response of SOD and POD activities in different plant species to elevated O3. The elevated O3 increased the SOD activity of ornamental herbs and rice by 23.4% and 16.4%, respectively (Fig 3b); and increased the POD activity of ornamental herbs and rice by 29.3% and 93.1%, respectively (Fig 4b); however, there was no significant effect on SOD and POD activity of wheat (Figs 3b and 4b). Based on the analysis of the activities of these two antioxidant enzymes, the resistance of wheat to high O3 concentrations was the weakest, and the resistance of rice was strongest. In our discussion of MDA above, the MDA content of rice increased the least, and we raised the possibility that it may be the least damaged by membrane lipid peroxidation. Here, our results further demonstrated the possibility that this is because antioxidant components, such as POD, in the rice symplast are more resistant to elevated O3 than those in ornamental herbs and wheat. From the perspective of antioxidant enzyme activity, the order of O3 resistance in the herbaceous plants was rice > ornamental herbs > wheat.
+O3 concentration were classified in 40–80, 81–140, and > 140 nmol·mol-1. Comparing the effects of different O3 concentrations on the SOD and POD activities of herbaceous plants, the differences between them were not significant (Figs 3c and 4c). This result is different from some results that have investigated the response of enzyme activity in single plant species to elevated O3. We assume that this is because the enzyme activity of herbaceous plants increased significantly when they were exposed to O3 concentrations above 40 nmol·mol-1. The elevated O3 in the atmosphere is increasingly serious and common pollution, and many plants are likely to grow in an environment with an O3 concentration of approximately 40–80 nmol·mol-1, especially in the summer [41–43], SOD and POD activities in herbaceous plants have been activated. But there is a limit to the enzyme activity in plants: when the concentration of O3 in the environment continues to rise, the enzyme activity in plants does not continue to rise.
+The different exposure time of herbaceous plants to elevated O3 concentrations had a significant effect on SODand POD activity (Figs 3d and 4d). The SOD activity of herbaceous plants increased by 34.6%, 10.5%, and 26.3%, respectively, when exposure time of herbaceous plants in elevated O3 environment was 1–12, 13–30 and 31–60 days. When the exposure time was more than 60 days, SOD activity did not increase but significantly decreased by 12.1% (Fig 3d). However, the POD activity of herbaceous plants increased by 30.4%, 57.3%, 21.9% and 5.81%, respectively, when exposure time of herbaceous plants in elevated O3 environment was 1–12, 13–30, 31–60 and more than 60 days (Fig 4d). This result may indicate that for most herbaceous plants, when exposed to elevated O3 concentration environment for more than 60 days, their antioxidant systems are more severely damaged [52]. At this stage, for most herbs the antioxidant SOD in plant exosomes loses its regulatory ability, and the antioxidant component peroxidase (POD) in the symplast is primarily used for ROS clearance.
+3.3 Relative importance of explanatory factors
+The %IncMSE results of random forest algorithm represent the relative importance of factors with significant influence on elevated O3 -induced changes in oxidation and antioxidant indexes (Fig 5). The environmental O3 concentration was identified as the most important factor to induced the increased of MDA content, followed by plant species and duration of O3 stress in plants (Fig 5a). The results may suggest that when the concentration of O3 in the environment exceeds 40 nmol·mol-1, it is likely to cause membrane lipid peroxidation damage to plants, even if some damage is not significantly observed. The important factors affected the activity of SOD and POD in plants were not consistent (Fig 5b and 5c), which may be a new discovery. The duration of O3 stress in plants was more important than plant species and O3 concentration for SOD activity. However, for POD activity, plant species was the most important factor. There were probably two reasons for this. First, there are significant differences in the response of POD activity of different plants to elevated O3 environment. The second is that rice and wheat may be more affected by human factors, such as fertilization, than ornamental herbs. At the same time, the result of POD activity R2 = 0.11 (Fig 5c), which was lower than that of MDA and SOD (Fig 5a and 5b), which may also indicate that there are other important factors affecting POD activity. In the future, to study the effect of elevated O3 on POD activity, human factors (such as fertilization, pesticide spraying, etc.) may need to be included in meta-analysis to further verify this.
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 5. Relative importance (%IncMSE) of explanatory factors in oxidation and antioxidant indexes responses to elevated O3.
+(a) MDA, (b) SOD, and (c) POD. P-values < 0.05 are considered significant. * P < 0.05; ** P < 0.01.
+https://doi.org/10.1371/journal.pone.0305688.g005
+4. Conclusions
+A comprehensive understanding of the effects of elevated O3 levels on the antioxidant systems of herbaceous plants is important for exploring effective strategies to mitigate the harmful effects of O3 pollution on plants. The present meta-analysis revealed that (1) the antioxidant enzyme activities of ornamental herbs, rice, and wheat were not similar in response to elevated O3. Rice is more resistant to elevated O3 than wheat and ornamental herbs likely because of the higher activity of antioxidant components (e.g. POD) in the symplasts; (2) exposure to elevated O3 concentrations more than60 days, may result in antioxidant SOD lose its regulatory ability, and the antioxidant component POD in the symplast is mainly used to resist O3 damage, and (3) the important factors affected the activity of SOD and POD in plants were not consistent: the duration of O3 stress in plants was more important than plant species and O3 concentration for SOD activity. However, for POD activity, plant species was the most important factor. The limited number of literature studies available for our meta-analysis indicates that O3 stress on herbaceous plants from an antioxidant enzyme activity perspective remains underexplored and reported.
+Supporting information
+PRISMA checklist, S1 Fig, and Appendix.
+Showing 1/2: pone.0305688.s001.docx
+1 / 2
+Download
+figshare
+S1 File. PRISMA checklist, S1 Fig, and Appendix.
+https://doi.org/10.1371/journal.pone.0305688.s001
+(DOCX)
+S2 File. Data for meta-analysis in this study.
+https://doi.org/10.1371/journal.pone.0305688.s002
+(XLSX)
+References
+1.
+Ziemke J.R.; Oman L.D.; Strode S.A.; Douglass A.R.; Olsen M.A.; McPeters R.D.; et al. Trends in global tropospheric ozone inferred from a composite record of TOMS/OMI/MLS/OMPS satellite measurements and the MERRA-2 GMI simulation. Atmospheric Chemistry and Physics. 2019, 19(5), 3257–3269.
+View Article
+Google Scholar
+2.
+Fiscus E.L.; Booker F.L.; Burkey K.O. Crop responses to ozone: uptake, modes of action, carbon assimilation and partitioning. Plant Cell And Environment Plant Cell & Environment. 2005, 28(8), 997–1011.
+View Article
+Google Scholar
+3.
+Fuhrer J.; Skärby L.; Ashmore M.R. Critical levels for ozone effects on vegetation in Europe. Environmental Pollution. 1997, 97(1–2), 91–106. pmid:15093382
+View Article
+PubMed/NCBI
+Google Scholar
+4.
+Vingarzan R. A review of surface ozone background levels and trends. Atmospheric Environment. 2004, 38(21), 3431–3442.
+View Article
+Google Scholar
+5.
+Feng Z.Z; Kobayashi K. Assessing the impacts of currentand future concentrations of surface ozone on crop yield with meta-analysis. Atmospheric Environment. 2009, 43(8), 1510–1519.
+View Article
+Google Scholar
+6.
+Mills G.; Sharps K.; Simpson D.; Pleijel H.; Broberg M.; Uddling J.; et al. Ozone pollution will compromise efforts to increase global wheat production. Global Change Biology. 2008, 24(8), 3560–3574.
+View Article
+Google Scholar
+7.
+Broberg M.C.; Feng Z.Z.; Xin Y.; Pleijel H. Ozone effects on wheat grain quality-a summary. Environmental Pollution. 2005, 197(59), 203–213.
+View Article
+Google Scholar
+8.
+Chen Z.; Maltz M.R.; Cao J.X.; Yu H.; Shang H.; Aronson E. Elevated O3 alters soil bacterial and fungal communities and the dynamics of carbon and nitrogen. Science of the Total Environment. 2019, 677, 272–280.
+View Article
+Google Scholar
+9.
+Gao C.; Xiu A.J.; Zhang X.L.; Chen W.W.; Liu Y.; Zhao H.M.; et al. Spatiotemporal characteristics of ozone pollution and policy implications in Northeast China. Atmospheric Pollution Research. 2019, 11(2), 357–369.
+View Article
+Google Scholar
+10.
+Wang X.P.; Mauzerall D.L. Characterising distributions of surface ozone and its impacts on grain production in China, Japan and South Korea:1990–2020. Atmospheric Environment. 2004, 38(26), 4383–4402.
+View Article
+Google Scholar
+11.
+Grulke N.E.; Heath R.L. Ozone effects on plants in natural ecosystems. Plant Biology. 2020, 22, 12–37. pmid:30730096
+View Article
+PubMed/NCBI
+Google Scholar
+12.
+Wang Y.J.; Xu S.; Zhang W.W.; Li Y.; Wang N.; He X.Y.; et al. Responses of growth, photosynthesis and related physiological characteristics in leaves of Acer ginnala Maxim, to increasing air temperature and/or elevated O3. Plant Biology. 2021, 23, 221–231.
+View Article
+Google Scholar
+13.
+Xu S.; He X.Y.; Du Z.; Chen W.; Li B.; Li Y.; et al. Tropospheric ozone and cadmium do not have interactive effects on growth, photosynthesis and mineral nutrients of Catalpa ovata seedlings in the urban areas of Northeast China. Science of the Total Environment. 2020, 704, 135307. pmid:31812382
+View Article
+PubMed/NCBI
+Google Scholar
+14.
+Yan K.; Chen W.; He X.Y.; Zhang G.Y.; Xu S.; Wang L.L. Response of photosynthesis, lipid peroxidation and antioxidant system in leaves of Quercus mongolica to elevated O3. Environmental and Experimental Botany. 2010, 69(2), 198–204.
+View Article
+Google Scholar
+15.
+He X.Y.; Huang W.; Chen W.; Dong T.; Liu C.B.; Chen Z.J.; Xu S.; Ruan Y.N. Changes of main secondary metabolites in leaves of Ginkgo Biloba in response to ozone fumigation. Journal of Environmental Sciences. 2009, 21(2), 199–203. pmid:19402422
+View Article
+PubMed/NCBI
+Google Scholar
+16.
+Xu S.; Wang Y.J.; Zhang W.W.; Li B.; Du Z.; He X.Y.; et al. Experimental warming alleviates the adverse effects from tropospheric ozone on two urban tree species. Environmental Pollution. 2021, 268, 115289. pmid:33190075
+View Article
+PubMed/NCBI
+Google Scholar
+17.
+Ainsworth E.A. Understanding and improving global crop response to ozone pollution. The Plant Journal. 2017, 90(5), 886–897. pmid:27739639
+View Article
+PubMed/NCBI
+Google Scholar
+18.
+Wang L.H.; Li X.; Liu W.; Gan Y.M. A study on resistance and purifying ability of SO2 on four warm season turfgrasses. Acta Prataculturae Sinica. 2013, 22(1), 225–233.
+View Article
+Google Scholar
+19.
+Zhao Y.; Xu S.; He X.Y.; Chen W.; Li M.; Zhang N.; et al. Ecophysiological responses of three cool-season types of turfgrass to elevated O3 concentrations. Chinese Journal of Ecology. 2014, 33(12), 3203–3208.
+View Article
+Google Scholar
+20.
+Severino J.F.; Stich K.; Soja G. Ozone stress and antioxidant substances in Trifolium repens and Centaurea jacea leaves. Environmental Pollution. 2007, 146(3), 707–714. pmid:16753243
+View Article
+PubMed/NCBI
+Google Scholar
+21.
+Hays F.; Jones M.L.M.; Mills G.; Ashmore M. Meta-analysis of the relative sensitivity of semi-natural vegetation species to ozone. Environmental Pollution. 2007, 146(3), 754–762. pmid:16899330
+View Article
+PubMed/NCBI
+Google Scholar
+22.
+Fatima A.; Singh A.A.; Mukherjee A.; Agrawal M.; Agrawal S.B. Variability in defence mechanism operating in three wheat cultivars having different levels of sensitivity against elevated ozone. Environmental And Experimental Botany. 2018, 155, 66–78.
+View Article
+Google Scholar
+23.
+Du H.M.; Zhou P.; Huang B. Antioxidant enzymatic activities and gene expression associated with heat tolerance in a cool-season grass species. Environmental and Experimental Botany. 2013, 87, 159–166.
+View Article
+Google Scholar
+24.
+Hedges L.V.; Gurevitch J.; Curtis P.S. The meta-analysis of response ratios in experimental ecology. Ecology. 1999, 80(4), 1150–1156.
+View Article
+Google Scholar
+25.
+Borenstein M.; Hedges L.V.; Higgins J.P.T.; Rothsein H.R. Introduction to Meta-Analysis, 1st Edn., John Wiley And Sons, Ltd, 2009.
+26.
+Rosenberg, M.S.; Adams, D.C.; Gurevitch, J. Metawin: Statistical Software for Meta-Analysis, Version 2.1. Sinauer Associates, Inc, Sunderland. 2000, MA, USA.
+27.
+Adams D.C.; Gurevitch J.; Rosenberg M.S. Resampling tests for meta-analysis of ecological data. Ecology. 1997, 78(4), 1277–1283.
+View Article
+Google Scholar
+28.
+Chivenge P.; Vanlauwe B.; Six J.; Does the combined application of organic and mineral nutrient sources influence maize productivity? A meta-analysis. Plant And Soil. 2011, 342(1–2), 1–30.
+View Article
+Google Scholar
+29.
+Morgan P.B.; Ainsworth E.A.; Long S.P. How does elevated ozone impact soybean? A meta-analysis of photosynthesis, growth and yield. Plant Cell And Environment. 2010, 26(8), 1317–1328.
+View Article
+Google Scholar
+30.
+Rosenberg, M.S.; Adams, D.C.; Gurevitch, J. MetaWin: Statistical Software for Meta-Analysis; Version 2.1; Sinauer Associates, Inc.: Sunderland, MA, USA, 2000.
+31.
+Wittig V.E.; Ainsworth E.A.; Naidu S.L.; Karnosky D.F.; Long S.P. Quantifying the impact of current and future tropospheric ozone on tree biomass, growth, physiology and biochemistry: A quantitative meta-analysis. Global Chang Biology. 2009, 15, 396–424.
+View Article
+Google Scholar
+32.
+Han X.; Xu C.; Dungait J.A.J.; Bol R.; Wang X.J.; Wu W.L.; Meng F.Q. Straw incorporation increases crop yield and soil organic carbon sequestration but varies under different natural conditions and farming practices in China: a system analysis. Biogeosciences. 2018, 15(7), 1933–1946.
+View Article
+Google Scholar
+33.
+Rosenthal R. The file drawer problem and tolerance for null results. Psychological Bulletin. 1979, 86, 638–641.
+View Article
+Google Scholar
+34.
+Li B.Z.; Guo Y.L.; Liang F.; Liu W.X.; Wang Y.J.; Cao W.C.; et al; Global integrative meta-analysis of the responses in soil organic carbon stock to biochar amendment. Journal of Environmental Management. 2024, 351, 119745. pmid:38061094
+View Article
+PubMed/NCBI
+Google Scholar
+35.
+Singh A.A.; Chaurasia M.; Gupta V.; Agrawal M.; Agrawal S.B. Responses of Zea mays L. cultivars ‘Buland’ and ‘Prakash’ to an antiozonant ethylene diurea grown under ambient and elevated levels of ozone. Acta Physiologiae Plantarum. 2018, 40(5), 92–107.
+View Article
+Google Scholar
+36.
+Podda A.; Pisuttu C.; Hoshika Y.; Pellegrini E.; Carrari E.; Lorenzini G.; et al. Can nutrient fertilization mitigate the effects of ozone exposure on an ozone-sensitive poplar clone. Science of the Total Environment. 2019, 657(20), 340–350.
+View Article
+Google Scholar
+37.
+Ollinger S.V.; Aber JD.; Reich P.B.; Freuder R.J. Interactive effects of nitrogen deposition, tropospheric ozone, elevated CO2 and land use history on the carbon dynamics of northern hardwood forests. Global Change Biology. 2002, 8(6), 545–562.
+View Article
+Google Scholar
+38.
+Eltayeb A.E.; Kawano N.; Badawi G.H.; Kaminaka H.; Sanekata T.; Morishima I.; et al. Enhanced tolerance to ozone and drought stresses in transgenic tobacco overexpressing dehydroascorbate reductase in cytosol. Physiologia Plantarum. 2006, 127(1), 57–65.
+View Article
+Google Scholar
+39.
+Ghimire R.P.; Kasurinen A.; Häikiö E.; Holopainen J.K.; Julkunen-Tiitto R.; Holopainen T.; et al. Combined effects of elevated ozone, temperature, and nitrogen on stem phenolic concentrations of Scots pine (Pinus sylvestris) seedlings. Canadian Journal of Forest Research. 2018, 49(3), 246–255.
+View Article
+Google Scholar
+40.
+Xu S.; He X.Y.; Chen W.; Huang Y.Q.; Zhao Y.; Li B. Differential sensitivity of four urban tree species to elevated O3. Urban Forestry And Urban Greening. 2015, 14(4), 1166–1173.
+View Article
+Google Scholar
+41.
+Feng Z.Z.; Hu E.Z.; Wang X.K.; Jiang L.J.; Liu X.J. Ground-level O3 pollution and its impacts on food crops in China: A review. Environmental Pollution. 2015, 199, 42–48.
+View Article
+Google Scholar
+42.
+Wang X.K.; Manning W.; Feng Z.W.; Zhu Y.G. Ground-level ozone in China: distribution and effects on crop yields. Environmental Pollution. 2007, 147(2), 394–400. pmid:16973249
+View Article
+PubMed/NCBI
+Google Scholar
+43.
+Zou X.D.; Cai F.; Wang X.Y.; Li K.F.; Zhang Y.H.; Wang H.Y.; et al. Study on the Change of Ozone Concentration in Liaoning Province. Ecology and Environmental Sciences. 2020, 29(9): 1830–1838.
+View Article
+Google Scholar
+44.
+Zhao Y.; Xu S.; He X.Y.; Chen W. Physiological response of two Lolium varieties to the enhancements of tropospheric O3 concentration. Acta Agrestia Sinica. 2015, 23(5), 1013–1020.
+View Article
+Google Scholar
+45.
+Vendruscolo E.C.G.; Schuster I.; Pileggi M.; Scapim C.A.; Molinari H.B.C.; Marur C.J.; et al. Stress-induced synthesis of proline confers tolerance to water deficit in transgenic wheat. Journal of Plant Physiology. 2007, 164(10), 1367–1376. pmid:17604875
+View Article
+PubMed/NCBI
+Google Scholar
+46.
+Tausz M.; Grulke N.E.; Wieser G. Defense and avoidance of ozone under global change. Environmental Pollution. 2007, 147(3), 525–531. pmid:17055629
+View Article
+PubMed/NCBI
+Google Scholar
+47.
+Pellegrini E.; Campanella A.; Cotrozzi L.; Tonelli M.; Nali C.; Lorenzini G. What about the detoxification mechanisms underlying ozone sensitivity in Liriodendron tulipifera. Environmental Science and Pollution Research. 2018, 25(9), 8148–8160. pmid:28357799
+View Article
+PubMed/NCBI
+Google Scholar
+48.
+Vaultier M.N.; Jolivet Y. Ozone sensing and early signaling in plants: an outline from the cloud. Environmental and Experimental Botany. 2015, 114, 144–152.
+View Article
+Google Scholar
+49.
+Dai L.L.; Feng Z.Z.; Pan X.D.; Xu Y.S.; Li P.; Lefohn A.S.; Harmens H.; et al. Increase of apoplastic ascorbate induced by ozone is insufficient to remove the negative effects in tobacco, soybean and poplar. Environmental Pollution. 2019, 245, 380–388. pmid:30448508
+View Article
+PubMed/NCBI
+Google Scholar
+50.
+Luwe M. Antioxidants in the apoplast and symplast of beech (Fagus sylvatica L.) leaves: seasonal variations and responses to changing ozone concentrations in air. Plant Cell And Environment. 2010, 19(3), 321–328.
+View Article
+Google Scholar
+51.
+Feng Z.Z.; Yuan X.Y.; Li P.; Shang B.; Ping Q.; Hu T.J.; et al. Progress in the effects of elevated ground-level ozone on terrestrial ecosystems. Chinese Journal of Plant Ecology. 2020, 44 (5): 526–542.
+View Article
+Google Scholar
+52.
+Cao J.C.; Zheng Y.F.; Zhao H.; Xu J.X. Impact of elevated ozone concentration on growth and yield of winter wheat and soybean. Asian Journal of Ecotoxicology. 2017, 12(2): 129–136.
+View Article
+Google Scholar
+Download PDF
+  Print
+Share
+ADVERTISEMENT
+Subject Areas
+?
+Antioxidants
+  Plants
+  Rice
+  Herbs
+  Wheat
+  Metaanalysis
+  Superoxide dismutase
+  Lipid peroxidation
+  Publications
+PLOS Biology
+PLOS Climate
+PLOS Complex Systems
+PLOS Computational Biology
+PLOS Digital Health
+PLOS Genetics
+PLOS Global Public Health
+  PLOS Medicine
+PLOS Mental Health
+PLOS Neglected Tropical Diseases
+PLOS ONE
+PLOS Pathogens
+PLOS Sustainability and Transformation
+PLOS Water
+Home
+Blogs
+Collections
+Give feedback
+LOCKSS
+Privacy Policy
+Terms of Use
+Advertise
+Media Inquiries
+Contact
+PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in San Francisco, California, US
+Cookie Preference Center
+Our website uses different types of cookies. Optional cookies will only be set with your consent and you may withdraw this consent at any time. Below you can learn more about the types of cookies PLOS uses and register your cookie preferences.
+Accept All Cookies
+Customize Your Cookie Preference
++
+Strictly Necessary
+Always On
++
+Functional
+Off
++
+Performance and Analytics
+Off
++
+Marketing
+Off
+Save Selected Preferences and Close
+For more information about the cookies and other technologies used by us, please read our Cookie Policy.

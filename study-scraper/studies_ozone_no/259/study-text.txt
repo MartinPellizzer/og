@@ -1,0 +1,128 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular/Main.js
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Buildings
+All Article Types
+Advanced
+  Journals Buildings Volume 14 Issue 7 10.3390/buildings14072001
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Ricardo M. S. F. Almeida
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+513
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results
+Discussion
+Conclusions
+Author Contributions
+Funding
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+A Review of In-Flight Thermal Comfort and Air Quality Status in Civil Aircraft Cabin Environments
+by Shanran Wang
+1,3, Xiaodong Cao
+1,2,*, Dan Miao
+1, Liping Pang
+1 and Jiayu Li
+4,*
+1
+School of Aeronautic Science and Engineering, Beihang University, Beijing 100191, China
+2
+Tianmushan Laboratory, Hangzhou 311115, China
+3
+Wuhan Second Ship Design and Research Institute, Wuhan 430205, China
+4
+Center for the Built Environment, University of California, Berkeley, CA 94720, USA
+*
+Authors to whom correspondence should be addressed.
+Buildings 2024, 14(7), 2001; https://doi.org/10.3390/buildings14072001
+Submission received: 10 April 2024 / Revised: 17 June 2024 / Accepted: 19 June 2024 / Published: 2 July 2024
+(This article belongs to the Special Issue Effect of Indoor Environment Quality on Human Comfort)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+The civil aircraft cabin is enclosed and highly occupied, making it susceptible to a decline in indoor environmental quality. The environmental quality of civil aircraft cabins not only depends on objective factors such as temperature, relative humidity, and the presence of air pollutants such as carbon dioxide (CO2), carbon monoxide (CO), ozone (O3), particle matter (PM), and volatile organic compounds (VOCs) but also the subjective factors pertaining to the perceptions and health symptoms of passengers and crew. However, few studies have thoroughly examined the air quality and thermal comfort parameters that are measured during in-flight testing in airplane cabins, as well as the passengers’ subjective perceptions. In order to evaluate the in-flight thermal comfort and air quality status, this study conducted a review of the recent literature to compile data on primary categories, standard limits, and distribution ranges of in-flight environmental factors within civil aircraft cabins. Following a search procedure outlined in this paper, 54 papers were selected for inclusion. Utilizing the Monte Carlo method, the Predicted Mean Vote (PMV) distributions under different exercise intensities and clothing thermal resistance were measured with the in-cabin temperature and humidity from in-flight tests. Recommendations based on first-hand data were made to maintain the relative humidity in the cabin below 40%, ensure wind speed remains within the range of 0–1 m/s, and regulate the temperature between 25–27 °C (for summer) and 22–27 °C (for winter). The current estimated cabin air supply rate generally complies with the requirements of international standards. Additionally, potential carcinogenic and non-carcinogenic risks associated with formaldehyde, benzene, tetrachloroethylene, and naphthalene were calculated. The sorted data of in-flight tests and the evaluation of the subjective perception of the occupants provide an evaluation of current cabin thermal comfort and air quality status, which can serve as a reference for optimizing indoor environmental quality in future generations of civil aircraft cabins.
+Keywords: aircraft cabin environment; thermal comfort; air quality; carbon dioxide; VOCs
+1. Introduction
+The environmental quality of civil cabins significantly influences the safety, health, and comfort of passengers [1,2,3]. Cabins are environments where passengers and crew members are in direct contact with and experience a variety of sensations, including thermal sensations, moisture levels, wind sensations, and odor [4,5]. The objective parameters of civil aircraft cabin environments, such as temperature, humidity, wind speed, ventilation volume, and airborne pollutant concentrations, are often intertwined [6]. This interdependence means that adjusting a single parameter alone cannot provide an optimal environment. Thus, clarifying the controllable parameters of cabin environments and assessing passengers’ subjective perceptions while also quantifying the health effects can enhance the comfort of the cabin environment. Studies have investigated the controllable parameters of cabin environments, the concentration of gaseous pollutants, and their corresponding health hazards, but limited flights were tested due to the high cost of onboard testing [7,8,9]. Determining the present state of the cabin’s environmental factors would be made easier by comprehensively compiling data from the flight test activities that have been carried out. A more understandable representation of the current condition of cabin thermal comfort and air quality can be obtained by combining multivariate and subjective assessments, as opposed to studying environmental characteristics and their distribution patterns.
+The thermal environment and ventilation airflow have the primary impact on passengers’ perception of cabin environmental quality [10,11]. However, the air supply outlet in the cabin environment is close to the passenger area, the air supply velocity is fast, and the temperature is low, which makes it easy for passengers to feel the wind [12]. Besides the wind sensation, the low humidity and high occupancy of the cabin environment also led to passengers feeling dry and stuffy [8,13,14]. Due to the variations in clothing and differing sensitivities to the surrounding thermal environment, it’s challenging to maintain a high level of satisfaction in the cabin. A previous study attempted to alleviate members’ discomfort by increasing the relative humidity to 30% and reducing the ventilation flow rate to 1.4 L/s per person, but this exacerbated reported symptoms of headache and dizziness [15,16]. Clearly, the reduction in fresh air volume has made passengers feel more restricted in their breathing. Common thermal comfort methods are utilized to evaluate the temperature and humidity from the measured data of in-flight tests, which are then combined with the characteristics of the flying members’ clothing in winter and summer to give more accurate recommendations.
+Typically, the carbon dioxide (CO2) concentration in the cabin does not adversely affect the human body but can, to some extent, reflect the adequacy of ventilation volume in the cabin [17,18,19]. The mandatory regulations of aviation airworthiness set standards for CO2 concentrations within the cabin. The Federal Aviation Administration (FAA) has set an exposure limit for CO2 in aircraft cabins at 5000 ppm [20,21,22]. In indoor buildings, the American Society of Heating, Refrigeration and Air-Conditioning Engineers (ASHRAE) suggests an exposure limit of 700 ppm for CO2 in buildings. Indoor environments with concentrations exceeding 1000 ppm are considered of low quality [23]. A measurement study on A321 cabin environments revealed that many flights had CO2 concentrations ranging from approximately 1000–5000 ppm [24]. This results in CO2 concentrations significantly higher than those found in typical indoor environments, which typically have concentrations below 1000 ppm [25]. Exposure to such levels of CO2 has been reported to significantly impact the performance of commercial pilots during simulated flight training [26]. In addition, the CO2 concentration is often used as an indicator to evaluate the quality of cabin air quality as it is related to the volume of cabin ventilation.
+The CO2 concentration within a cabin can be reduced by introducing fresh air. Simultaneously, high-efficiency particulate air (HEPA), ozone converters, and activated carbon (AC) filters can decrease the concentration of other air pollutants in the cabin [27]. Of particular concern are the potential health risks from volatile organic compounds, such as formaldehyde and benzene, which are classified as a class of carcinogens by the U.S. Environmental Protection Agency (USEPA) [28]. For frequent air travelers and aviation professionals, it’s crucial to be aware of the lifetime exposure and its corresponding health risks. One study evaluated the concentrations of benzene, toluene, ethylbenzene, and xylene in 14 cabin flights, quantifying the carcinogenic and non-carcinogenic risks for adults, children, teenagers, and the elderly, which are significantly below the U.S. Environmental Protection Agency’s limit of 1 × 10−6 (acceptable level of risk, dimensionless) [29]. Given the occupational exposure, flight attendants face a much higher cancer risk than adult passengers; a study indicates that their exposure to formaldehyde in the cabin has surpassed 1 × 10−6 in terms of carcinogenic risk. Previous studies have investigated the concentrations of gaseous pollutants and their corresponding health hazards; however, the number of flights surveyed was limited by the cost of on-board measurement campaigns [30,31]. A health risk assessment for the mean and maximum values of measured in-site data of gaseous pollutants in the cabin environment helps to reveal the subjective health perception of the occupants.
+In sum, the cabin environmental quality depends on the comprehensive perception of passengers and crew and the coupling effect of subjective and objective factors. Based on the analysis of the aforementioned literature, this study first reviewed the measured data of cabin environment in the published literature since 1987 and summarized the cabin environmental thermal ventilation parameters and air pollutant concentration levels. Based on the Monte Carlo method and predictive mean vote (PMV) [5], recommendations of in-cabin temperature and humidity under different exercise intensities and clothing thermal resistance were made for thermal comfort. The estimated cabin ventilation based on measured CO2 concentrations was also evaluated. Furthermore, this paper uses the health risk assessment method [28,32] to calculate and analyze the health risk that VOCs in the cabin may cause to passengers and crew, taking formaldehyde, benzene, tetrachloroethylene, and naphthalene as examples.
+2. Materials and Methods
+2.1. Literature Selection
+The purpose of this paper is to review the articles and reports on air quality measurement of commercial aircraft and collect the measured values of cabin environmental parameters of commercial aircraft, including the temperature, relative humidity, ventilation, the concentrations of air contaminants such as CO2, CO, O3, PM, and VOCs. The relevant industry journals, meeting records, and books were processed through screening, reading, and organizing the collection of information. Search keywords include aircraft cabin air quality, air pollution, CO2, CO, O3, PM, and VOCs. The databases used in this paper include ScienceDirect, Web of Science, and PubMed. The search time ended by March 2023, and articles unrelated to the theme were excluded.
+Article selection followed the standard PRISMA processes in Figure 1. The literature search identified 6597 peer-reviewed articles and publicly accessible industry reports. After this, 642 duplicates were removed after comparison. Titles and abstracts were then reviewed, and the articles were excluded if they did not directly measure the values of cabin environmental parameters of commercial aircraft through in-flight tests. From this pool, 210 articles were assessed as meeting full-text eligibility, and of these, 54 articles met the selection criteria. During the literature review, the title, year of publication, and types of flights were recorded. The frequency distribution of the measured temperature, RH, and CO2 concentrations is provided. For the measured CO2, CO, O3, PM, and TVOC concentrations, the average, maximum, and minimum values were given. Since there were significant differences in VOC detection types and concentrations for different flights in the literature (due to variations in sampling methods and locations), only the literature that mentioned the most commonly measured VOC concentrations was analyzed.
+Figure 1. Flowchart of literature selection.
+2.2. Evaluation Methods of Thermal Comfort and Ventilation Rate
+The thermal comfort of the aircraft cabin is evaluated by the PMV method [5]. Considering the temperature, relative humidity, average radiation temperature, air velocity, thermal resistance of human clothing, and metabolic rate in the aircraft cabin, the calculation formula is as follows:
+P M V = [ 0.303 exp ⁡ − 0.036 M + 0.0275 ] × L
+(1)
+where: M is the human metabolic rate (W/m2), and L is the intermediate variable:
+L = M − W − 3.05 5.733 − 0.07 M − W − P a − 0.42 M − W − 58.2 − 0.0173 M 5.867 − P a − 0.0014 M 34 − t a − 3.96 × 10 − 8 × f c l [ t c l + 273 4 − t r + 273 4 − f c l h c [ ( t c l + t a ) ]
+(2)
+where W is the mechanical work performed by humans towards the environment (W/m2); Pa is the partial pressure of water vapor in the cabin (kPa); ta is the cabin temperature (k); tr is the average radiation temperature in the cabin (k); fcl is the area of clothes worn by passengers (m2); tcl

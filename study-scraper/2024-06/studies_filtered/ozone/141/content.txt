@@ -1,0 +1,150 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+
+
+
+
+
+
+
+
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Sensors
+All Article Types
+Advanced
+  Journals Sensors Volume 24 Issue 13 10.3390/s24134063
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Subscribe SciFeed
+Recommended Articles
+Related Info Links
+More by Authors Links
+Article Views
+412
+Table of Contents
+Abstract
+Introduction
+Related Work
+Power Supply Topologies
+Practical Implementation
+Conclusions
+Author Contributions
+Funding
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Performance Evaluation of Sinusoidal Power Supplies for Ozone Generation in Water Purification Applications
+by Mostafa M. Shibl
+*,†, Omar Shouman
+, Ahmed Mahmoud
+and Ahmed M. Massoud
+Department of Electrical Engineering, Qatar University, Doha 2713, Qatar
+*
+Author to whom correspondence should be addressed.
+†
+Current address: Elmore Family School of Electrical and Computer Engineering, Purdue University, West Lafayette, IN 47907, USA.
+Sensors 2024, 24(13), 4063; https://doi.org/10.3390/s24134063
+Submission received: 3 September 2023 / Revised: 27 September 2023 / Accepted: 3 October 2023 / Published: 22 June 2024
+(This article belongs to the Section Electronic Sensors)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Ozone generation is a water disinfection method, superior to chlorine in terms of fewer byproducts and no residual taste. However, its high production cost limits its widespread adoption. This paper designs an ozone generation sinusoidal power supply for water treatment. Ozone generation requires a high-frequency and high-voltage power supply to produce ozone from oxygen molecules. The study evaluates two power supply topologies, one with a parallel LC filter and the other with an LCL filter, assessing their feasibility, effectiveness, and reliability. Theoretically, the LCL filter achieves higher gains than the parallel LC filter. The larger inductance in the parallel LC filter reduces gain, while the larger inductance in the LCL filter increases gain. Simulation and practical results validate these findings, achieving gains of 40 for the parallel LC filter and 150 for the LCL filter.
+Keywords: ozone generators; sinusoidal power supplies; passive filters; resonance; water purification; ozone chamber
+1. Introduction
+According to a report by WaterAid, 771 million people do not have access to clean water. This causes the death of a newborn every minute due to infections from a lack of clean water [1]. Furthermore, more than 2 billion people use contaminated drinking water, which leads to approximately 700,000 yearly deaths related to pathogens in drinking water [2]. In addition, the global demand for freshwater use has increased exponentially since the beginning of the 20th century [3]. Additionally, the lack of clean water causes a lack of hygiene, such that 2.3 billion people lack basic hygiene facilities, including 670 million people who do not have handwashing facilities [4].
+Thus, nowadays, many technological advancements are responsible for a more sustainable future, especially after the release of the Sustainable Development Goals (SDGs) in 2015 [5] by the United Nations. A clean water supply contributes to two goals: clean water and sanitation (goal 6) and good health and well-being (goal 3). Moreover, another driving factor for developing water purification (WP) methods is the importance of always having a secure clean water supply, despite external factors such as water intoxication. Thus, the increased importance of having a clean water supply in all countries has increased research efforts in the pursuit of finding WP methods that are simple, effective, and cheap. However, despite efforts to find an effective WP method, advances in clean-water-related services have been slow [5].
+Approximately 75% of the Earth’s surface is water. However, only 2% of this water is clean freshwater because most of the Earth’s surface is covered by oceans and seas. Previously, many WP methods have allowed the use of the Earth’s water sources, and these have their benefits and drawbacks. WP methods such as boiling, sedimentation and decantation, and solar disinfection are considered old and ineffective due to the destruction of mineral salts in the water, the inadequate removal of soluble pathogens, and the inefficiency when used for large volumes of water. This has led to chlorination being the most adopted WP method since the beginning of the 20th century because of its inexpensiveness and availability. However, the disadvantages of chlorination and its reported health issues have caused a change in global WP trends and the discovery of new technologies, such as the utilization of ozone for WP.
+WP using ozone is based on on-site ozone generation from pure oxygen, air, or water, as presented in Figure 1. First, the oxygen source is filtered to remove any immiscible substances. Afterward, ozone generators supply energy to oxygen molecules in pure oxygen, air, or water. This causes the split of the oxygen molecule into two single oxygen atoms, which, in turn, combine with the oxygen molecules to form ozone in an endothermic reaction. After that, ozone gas can be pumped into untreated water to oxidize pathogens. It is noteworthy to mention that ozone gas is a stronger oxidizing agent compared to chlorine gas [6].
+Figure 1. Stages of ozone generation.
+As a result, WP using ozone generation is effective and its benefits are plentiful. However, the technology behind ozone generation is costly and under intense development. Thus, plenty of research efforts are headed toward finding a cost-effective and reliable method of ozone generation for WP. Consequently, the main contributions of the paper can be summarized as follows:
+Development of a sinusoidal power supply for an ozone generator for WP that is reliable and meets the required properties for ozone generation.
+Conducting a performance assessment on the designed power supply to ensure the reliability of the power supply and provide a comparison between different sinusoidal power supply topologies, including the effect of the filter parameters on the converter gain.
+In the upcoming sections, Section 2 surveys the literature. Next, Section 3 describes the different power supply topologies. After that, Section 4 discusses the results. Finally, Section 5 concludes the paper, and proposes prospective future work.
+2. Related Work
+This paper addresses two main research issues, namely ozone chamber models and sinusoidal power supplies, which are surveyed in the following subsections.
+2.1. Ozone Chamber Model
+In the existing literature, different designs considered modeling the ozone chamber using different methods, depending on the input of the ozone chamber, which could be air or oxygen. Aqui-Tapia et al. [7] modeled the ozone chamber as a series RC with the input being either air or oxygen. The capacitor and resistor values were 2.71 nF and 19.16 k
+Ω
+, respectively. Moreover, Tang et al. [8] modeled the chamber with two series capacitors having values of 0.157 µF and 0.5248 µF, where back-to-back zener diodes are connected in parallel with the 0.5248 µF capacitor. The zener diodes’ voltage is 2100 V and the input of the chamber is oxygen. On the other hand, Ibarra et al. [9] utilized a parallel RC model, where the input of the chamber can be air, dry air, or oxygen. Finally, using the values of 700 k
+Ω
+and 87 pF, Facta et al. [10] created a parallel RC model with the input being either oxygen or air.
+As seen in Table 1, the most common model for the ozone chamber is the capacitor in parallel with a resistor. Ideally, the ozone chamber would act as a pure capacitor. In this paper, the parallel capacitor and resistor model is utilized.
+Table 1. Ozone chamber models.
+2.2. Sinusoidal Power Supplies for Ozone Generation
+Nassour et al. [11] compared the use of surface and volume dielectric barrier discharge generators utilizing a sinusoidal power supply. The two models were compared in terms of ozone concentration, energy efficiency, and cooling performance. The research showed that the surface discharge model has better ozone generation efficiency.
+Further, Gnapowski et al. [12] examined the effect of geometry on the performance of glass dielectric barrier discharges in terms of efficiency, power, and homogeneity. The results showed that homogeneous discharges increase ozone efficiency, decreasing the cost of ozone generation.
+Aqui-Tapia et al. [7] analyzed the use of inverters for ozone generation. The paper compared two main topologies: a voltage source full-bridge inverter (Figure 2) and a current source full-bridge inverter. It was seen that the decrease in the duty cycle of the modulation signal increases ozone generation, which is due to evading the dissociation of ozone molecules. The voltage source full-bridge inverter provided the highest concentration and efficacy in ozone generation, while the current source full-bridge inverter with closed-loop control provided the highest electrical efficiency.
+Figure 2. Voltage source full-bridge inverter topology [7].
+Tang et al. [8] examined the utilization of series-resonant inverters in ozone generators with a wide-range frequency model, as shown in Figure 3. The proposed topology allows the use of the ozone generator in a range of working conditions. Simulation and practical results proved the validity of the designed power supply. However, due to designing the model for various conditions, its performance is lower than other power supplies designed for specific conditions.
+Figure 3. Series-resonant inverter’s wide-frequency topology [8].
+Additionally, Ibarra et al. [9] tested ozone generation for the WP of a water well in Colombia using a high-frequency, high-voltage flyback inverter. The utilized inverter controlled the generated ozone volume through the duty cycle modulation. The experimental results proved the validity of the prototype for the continuous generation of ozone. The prototype successfully removed all pathogenic micro-organisms in the water and improved the water’s physiochemical properties.
+The utilization of a double dielectric barrier discharge chamber for ozone generation was researched by Facta et al. [10]. The ozone generator is operated at atmospheric pressure and is supplied by a high-frequency power converter. Experimental results showed that production levels of 40, 60, and 157 parts per million of ozone were reached from natural air, dry air, and oxygen. The advantage of the design is the low cost, which makes it suitable for low-density applications such as WP at homes.
+In addition, Alonso et al. [13] worked on the design of low-power, high-voltage, and high-frequency power supply for ozone generation. The simulation and experimental results showed that the designed converter is effective for low-power output and can be scaled for high-power applications.
+Kuwahara [14] reviewed the decrease in the energy consumption in fuel cells used for WP through the bubbling of ozone. The proposed solution is based on water electrolysis, where oxygen and hydrogen are produced. Oxygen is utilized in ozone generation, while hydrogen is utilized in fuel cells for electric power generation. The results proved that this solution provides an alternative method of ozone generation using water rather than air or oxygen tanks.
+Wellawatta et al. [15] and Neretti and Ricco [16] explored the usage of a high-voltage half-bridge inverter topology, shown in Figure 4. Wellawatta et al. [15] compared the usage of sinsuoidal power supplies compared to pulsed power supplies for ozone generation. It was shown that sinusoidal power supplies produce more ozone due to a larger activation time. In the work by Neretti and Ricco [16], it was shown that such a topology can produce up to 6 kV. However, the main downside of such a topology is the use of a high-frequency transformer, which can be costly.
+Figure 4. High-voltage half-bridge inverter topology [15,16].
+Table 2 compares some of the different topologies in the literature.
+Table 2. Comparison between different topologies in the literature.
+Figure 5 displays the tree diagram of the designs that will be presented in this paper. As seen in the figure, two designs will be presented, which are the inverter with a parallel LC filter (Section 3.1 and Section 4.1) and an inverter with an LCL filter (Section 3.2 and Section 4.2). Both designs will be analyzed mathematically, through simulation, and will be implemented practically.
+Figure 5. Tree diagram of practical implementation of proposed designs.
+3. Power Supply Topologies
+As previously mentioned, the parallel ozone chamber model is utilized for the analysis of the power supply topologies due to its simplicity. Moreover, the parallel ozone chamber model has been highly utilized in previous studies since the ozone chamber is a dielectric discharge chamber, which acts as a capacitor in parallel with a resistor with a very high resistance (in the M
+Ω
+range). In this study,

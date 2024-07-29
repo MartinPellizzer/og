@@ -1,0 +1,110 @@
+Acerca de
+Equipo editorial Código de ética Número actual Números anteriores Avisos
+Buscar
+Registrarse Entrar
+Inicio / Archivos / Núm. 26 (2024) / Artículos
+Comodidad revitalizante
+diseño de un Sistema HVAC Energéticamente Eficiente para el Auditorio Universitario
+Abdul Samad Khan
+NED University of Engineering and Technology, Pakistán image/svg+xml
+https://orcid.org/0009-0005-5449-635X
+Muhammad Ehtesham ul Haque
+NED University of Engineering and Technology, Pakistán image/svg+xml
+https://orcid.org/0000-0001-8751-348X
+Adeel Ahmed Khan
+NED University of Engineering and Technology, Pakistán image/svg+xml
+https://orcid.org/0009-0004-6790-8176
+Syed Izhar ul haque
+NED University of Engineering and Technology, Pakistán image/svg+xml
+https://orcid.org/0009-0002-5693-5879
+Syed Obaidullah
+NED University of Engineering and Technology, Pakistán image/svg+xml
+https://orcid.org/0009-0000-0168-6196
+Muhammad Umer Khan
+NED University of Engineering and Technology, Pakistán image/svg+xml
+https://orcid.org/0009-0001-7173-6395
+DOI: https://doi.org/10.36561/ING.26.2
+Palabras clave: HVAC, Auditorio, Dimensionamiento de ductos, Carga de enfriamiento, Piping
+Resumen
+Hoy en día, el confort térmico se está convirtiendo en un gran problema para las personas debido al aumento del calentamiento global y los cambios climáticos, pero puede ser resuelto por el concepto de sistemas de Calefacción, Ventilación y Aire Acondicionado (HVAC). El objetivo de HVAC es proporcionar a los ocupantes una zona de confort para que puedan sentirse cómodos de acuerdo con su confort térmico. El objetivo central de este estudio es diseñar y proponer un sistema HVAC según las condiciones de diseño reales para el Auditorio Universitario ubicado en Karachi, Pakistán. En el Auditorio se encuentra instalado un sistema de Expansión Directa (Tipo DX) que ha superado la vida útil de veinte años, el refrigerante R-22 que se utiliza actualmente ha quedado obsoleto por su alto GWP (Global Warming Potential) y ODP (Ozone Depletion Potencial) valores que son 1810 y 0.05 respectivamente. Para lograr el objetivo de este estudio, se emplean dos enfoques. Método de diferencia de temperatura de carga de enfriamiento (CLTD) y software de programa de análisis por hora (HAP). La carga de refrigeración calculada a partir del método CLTD es de 202 kW equivalente a 57,5 Toneladas de Refrigeración (TR). Por otro lado, la carga de refrigeración calculada a partir del software HAP es de 192,8 kW equivalente a 55 TR. Al considerar la carga de enfriamiento calculada para el Auditorio Universitario, se proponen dos sistemas HVAC diferentes, basados en el ciclo de compresión de vapor enfriado por agua y enfriado por aire. Después de este estudio, los ingenieros podrán diseñar un sistema HVAC para cualquier instalación según las condiciones de diseño. Además, pueden proponer diferentes sistemas HVAC rentables y energéticamente eficientes para ese espacio en particular.
+Descargas
+Citas
+M. H. A. R. B. F. U. R. A. S. I. A. R. B. Yousaf, "A comprehensive review of climate change impacts, adaptation, and mitigation on environmental and natural calamities in Pakistan," 2019, doi: https://doi.org/10.1007/s10661-019-7956-4.
+D. G. R. Dr. Qamar uz Zaman Chaudhry, Ahmad Kamal, Munir Ahmad Mangrio and Shahbaz Mahmood, "Technical Report on Karachi Heat wave June 2015," 2015.
+A. Yatim, I. Pamuntjak, and F. Yudhi, "Thermal Comfort Analysis of Art Centre Auditorium Utilizing R290 Refrigerant Chiller," International Journal on Advanced Science, Engineering and Information Technology, vol. 11, p. 1246, 06/30 2021, doi: 10.18517/ijaseit.11.3.14485.
+J. Hoof, M. Mazej, and J. Hensen, "Thermal comfort: Research and practice," Frontiers in Bioscience, vol. 15, pp. 765-788, 01/01 2010, doi: 10.2741/3645.
+P. Thirumal, K. S. Amirthagadeswaran, and S. Jayabal, "Optimization of Indoor Air Quality Characteristics in an Air-Conditioned Car Using Multi-objective Genetic Algorithm," Arabian Journal for Science and Engineering, vol. 39, no. 11, pp. 8307-8317, 2014/11/01 2014, doi: 10.1007/s13369-014-1392-0.
+O. M. Al-Rabghi, A. S. Al-Ghamdi, and M. M. Kalantan, "Thermal Comfort Around the Holy Mosques," Arabian Journal for Science and Engineering, vol. 42, no. 5, pp. 2125-2139, 2017/05/01 2017, doi: 10.1007/s13369-017-2464-8.
+Thermal Environmental Conditions for Human Occupancy, A. A. S. 55-2010, 2010. [Online]. Available: http://arco-hvac.ir/wp-content/uploads/2015/11/ASHRAE-55-2010.pdf
+R. Lathia and J. Mistry, "Process of designing efficient, emission free HVAC systems with its components for 1000 seats auditorium," Pacific Science Review A: Natural Science and Engineering, vol. 18, no. 2, pp. 109-122, 2016.
+S. M. Hussain, W. Jamshed, and M. R. Eid, "Solar-HVAC Thermal Investigation Utilizing (Cu-AA7075/C6H9NaO7) MHD-Driven Hybrid Nanofluid Rotating Flow via Second-Order Convergent Technique: A Novel Engineering Study," Arabian Journal for Science and Engineering, vol. 48, no. 3, pp. 3301-3322, 2023/03/01 2023, doi: 10.1007/s13369-022-07140-6.
+K. Rabhi, C. Ali, R. Nciri, and H. Ben Bacha, "Novel Design and Simulation of a Solar Air-Conditioning System with Desiccant Dehumidification and Adsorption Refrigeration," Arabian Journal for Science and Engineering, vol. 40, no. 12, pp. 3379-3391, 2015/12/01 2015, doi: 10.1007/s13369-015-1839-y.
+M. W. Ellis and E. H. Mathews, "Needs and trends in building and HVAC system design tools," Building and Environment, vol. 37, pp. 461-470, 05/01 2002, doi: 10.1016/S0360-1323(01)00040-3.
+S. Mat Dahan, S. N. Nina, M. Taib, and A. A. S. Basirul, "Analysis of heat gain in computer laboratory and excellent centre by using CLTD/CLF/SCL method," Procedia Engineering, vol. 53, pp. 655–664, 11/20 2012, doi: 10.1016/j.proeng.2013.02.085.
+M. Ramzan, M. S. Kamran, M. W. Saleem, H. Ali, and M. I. M. Zeinelabdeen, "Energy Efficiency Improvement of the Split Air Conditioner Through Condensate Assisted Evaporative Cooling," Arabian Journal for Science and Engineering, vol. 46, no. 8, pp. 7719-7727, 2021/08/01 2021, doi: 10.1007/s13369-021-05494-x.
+T. Nadeem et al., "Designing of Heating, Ventilation, and Air Conditioning (HVAC) System for Workshop Building in Hot and Humid Climatic Zone Using CLTD Method and HAP Analysis: A Comparison," Arabian Journal for Science and Engineering, vol. 47, 01/30 2022, doi: 10.1007/s13369-021-06428-3.
+S. Saragasan, "The Comparison Of Cooling Load Calculation Using Manual Method And Hourly Analysis Program," Research Progress in Mechanical and Manufacturing Engineering, vol. 2, no. 2, pp. 972-981, 2021.
+R. Sirwan and A. Mohammed, "Comparison between hand calculation and HAP programs for estimating total cooling load for buildings," Zanco Journal of Pure and Applied Sciences, vol. 28, pp. 90-96, 10/10 2016.
+C. Mao, J. Baltazar, and J. Haberl, "Comparison of ASHRAE peak cooling load calculation methods," Science and Technology for the Built Environment, vol. 25, pp. 1-45, 08/13 2018, doi: 10.1080/23744731.2018.1510240.
+G. Acharya, G. Yewale, M. Tendolkar, and S. Kulkarni, "Estimation and Analysis of Cooling Load for Indian Subcontinent by CLD/SCL/CLF method at part load conditions," Journal of Physics: Conference Series, vol. 1240, p. 012031, 07/01 2019, doi: 10.1088/1742-6596/1240/1/012031.
+K. Mahmud, U. Amin, M. Hossain, and J. Ravishankar, "Computational tools for design, analysis, and management of residential energy systems," Applied Energy, vol. 221, pp. 535-556, 2018.
+A. A. A. Ahmed, A. A. A. Mohammed, and M. A. H. Elnoor, "Design of Air Conditioning System for Sport Hall for 1000 Occupant," Sudan University of Science and Technology, 2017.
+V. Khakre, A. Wankhade, and M. Ali, "Cooling load estimation by CLTD method and hap 4.5 for an evaporative cooling system," International Research Journal of Engineering and Technology, vol. 4, no. 1, pp. 1457-1460, 2017.
+K. Salhi, K. Mohamed Ramadan, M. M. Hadjiat, and A. Hamidat, "Energetic and Exergetic Performance of Solar-Assisted Direct Expansion Air-Conditioning System with Low-GWP Refrigerants in Different Climate Locations," Arabian Journal for Science and Engineering, vol. 45, no. 7, pp. 5385-5398, 2020/07/01 2020, doi: 10.1007/s13369-020-04426-5.
+T. Aized and A. Hamza, "Thermodynamic Analysis of Various Refrigerants for Automotive Air Conditioning System," Arabian Journal for Science and Engineering, vol. 44, no. 2, pp. 1697-1707, 2019/02/01 2019, doi: 10.1007/s13369-018-3646-8.
+J. U. Ahamed, R. Saidur, and H. H. Masjuki, "Investigation of Environmental and Heat Transfer Analysis of Air Conditioner Using Hydrocarbon Mixture Compared to R-22," Arabian Journal for Science and Engineering, vol. 39, no. 5, pp. 4141-4150, 2014/05/01 2014, doi: 10.1007/s13369-014-0961-6.
+Fundamentals, ASHRAE–American society of heating, Ventilating and Air-Conditioning Engineers, A. Handbook, 2017.
+American Society of Heating, Refrigerating and Air-Conditioning Engineers, Inc. (ASHRAE), A. Handbook, 2013.
+"Air - Thermal Conductivity vs. Temperature and Pressure." https://www.engineeringtoolbox.com/air-properties-viscosity-conductivity-heat-capacity-d_1509.html (accessed.
+W. F. S. J. W. Jones, Refrigeration and Air Conditioning. Mcgraw Hill Higher Education, 1982, p. 440.
+"Hollow Dense Concrete Block." https://source.thenbs.com/product/hollow-dense-concrete-block/77i2jw4eN9TZCzQooqeZJq/ua2LtG5fr28yKnpspdabHt (accessed.
+Fundamentals, ASHRAE–American society of heating, Ventilating and Air-Conditioning Engineers, A. Handbook, 2001.
+B. Chenari, J. Dias Carrilho, and M. Gameiro da Silva, "Towards sustainable, energy-efficient and healthy ventilation strategies in buildings: A review," Renewable and Sustainable Energy Reviews, vol. 59, pp. 1426-1447, 2016/06/01/ 2016, doi: https://doi.org/10.1016/j.rser.2016.01.074.
+A. M. Elsaid and M. S. Ahmed, "Indoor Air Quality Strategies for Air-Conditioning and Ventilation Systems with the Spread of the Global Coronavirus (COVID-19) Epidemic: Improvements and Recommendations," Environmental Research, vol. 199, p. 111314, 2021/08/01/ 2021, doi: https://doi.org/10.1016/j.envres.2021.111314.
+Ventilation for Acceptable Indoor Air Quality, A. Handbook, 2015.
+J. Ligade and A. Razban, "Investigation of Energy Efficient Retrofit HVAC Systems for a University: Case Study," Sustainability, vol. 11, no. 20, p. 5593, 2019.
+S. A. Hashmi, C. R. Prasad, S. Faheem, S. O. U. Rahman, and S. M. Ali, "Cooling Load Calculation during Summer & Duct Design and Duct Drafting for Commercial Project," Int. J. Sci. Res. Sci. Eng. Technol., vol. 3, no. 2, pp. 501-508, 2017.
+Fundamentals, ASHRAE–American society of heating, Ventilating and Air-Conditioning Engineers, A. Handbook, 1997.
+S. Agarwal and D. Gera, "Study and optimisation of supply duct bend and diffuser in HVAC system for a classroom," International Journal of Innovative Science and Research Technology, vol. 5, no. 7, pp. 988-995, 2020.
+Price - Round cone diffuser, 2021. [Online]. Available: https://www.priceindustries.com/content/uploads/assets/literature/catalogs/catalog-pages/section%20c/rcd-round-cone-diffuser-catalog.pdf.
+Price - Louvered Grille, 2019. [Online]. Available: https://www.priceindustries.com/content/uploads/assets/literature/catalogs/catalog-pages/section%20d/500600700-louvered-grille-catalog.pdf.
+C. C. C. A. C. Company, Handbook of Air Conditioning System Design (no. v. 1). McGraw-Hill, 1965.
+PDF HTML
+Publicado
+2024-07-03
+Cómo citar
+A. Samad Khan, M. Ehtesham ul Haque, A. Ahmed Khan, S. Izhar ul haque, S. Obaidullah, y M. Umer Khan, «Comodidad revitalizante: diseño de un Sistema HVAC Energéticamente Eficiente para el Auditorio Universitario», Memoria investig. ing. (Facultad Ing., Univ. Montev.), n.º 26, pp. 2–37, jul. 2024.
+Más formatos de cita
+Número
+Núm. 26 (2024)
+Sección
+Artículos
+Licencia
+Esta obra está bajo una licencia internacional Creative Commons Atribución 4.0.
+0
+
+0
+
+Artículos más leídos del mismo autor/a
+Adeel Ahmed Khan, Muhammad Ehtesham ul Haque, Farjad Siddiqui, Syed Muhammad Taha Nasir, Talha Shafique, Hassan Khalid, Reducción del consumo de energía del compresor de refrigerador mediante nanopartículas de óxido de aluminio , Memoria Investigaciones en Ingeniería: Núm. 26 (2024)
+Idioma
+English
+Español (España)
+Português (Brasil)
+Información
+Para lectores/as
+Para autores/as
+Para bibliotecarios/as
+Indexada en:
+Directorios y catálogos
+    Portales:
+  Base de datos:
+Miembro de:
+Indicadores:
+Redes sociales:
+Palabras clave
+calidadconexión matricialcharlieplexingrebotehiperespaciosmétodos numéricosmatlabespañatics en educaciónriesgoautotrabanteataquesvqicenizacalderasfusióntdtqoeelectrónicalean
+Memoria Investigaciones en Ingeniería
+ISSN: 2301-1092 (en papel) ISSN: 2301-1106 (en línea)
+Publicación de la Facultad de Ingeniería de la Universidad de Montevideo.
+Esta obra está bajo una licencia de Creative Commons Atribución 4.0 Internacional (CC BY 4.0).

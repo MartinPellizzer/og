@@ -1,0 +1,509 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature scientific reports articles article
+Article
+Open access
+Published: 13 July 2024
+Assessing long-term effects of gaseous air pollution exposure on mortality in the United States using a variant of difference-in-differences analysis
+Yong Yu, Ziqing Tang, Yuqian Huang, Jingjing Zhang, Yixiang Wang, Yunquan Zhang & Qun Wang 
+Scientific Reports
+ 14, Article number: 16220 (2024) Cite this article
+207 Accesses
+7 Altmetric
+Metrics
+Abstract
+Long-term mortality effects of particulate air pollution have been investigated in a causal analytic frame, while causal evidence for associations with gaseous air pollutants remains extensively lacking, especially for carbon monoxide (CO) and sulfur dioxide (SO2). In this study, we estimated the causal relationship of long-term exposure to nitrogen dioxide (NO2), CO, SO2, and ozone (O3) with mortality. Utilizing the data from National Morbidity, Mortality, and Air Pollution Study, we applied a variant of difference-in-differences (DID) method with conditional Poisson regression and generalized weighted quantile sum regression (gWQS) to investigate the independent and joint effects. Independent exposures to NO2, CO, and SO2 were causally associated with increased risks of total, nonaccidental, and cardiovascular mortality, while no evident associations with O3 were identified in the entire population. In gWQS analyses, an interquartile range-equivalent increase in mixture exposure was associated with a relative risk of 1.067 (95% confidence interval: 1.010–1.126) for total mortality, 1.067 (1.009–1.128) for nonaccidental mortality, and 1.125 (1.060–1.193) for cardiovascular mortality, where NO2 was identified as the most significant contributor to the overall effect. This nationwide DID analysis provided causal evidence for independent and combined effects of NO2, CO, SO2, and O3 on increased mortality risks among the US general population.
+Similar content being viewed by others
+Disparities in air pollution attributable mortality in the US population by race/ethnicity and sociodemographic factors
+Article 01 July 2024
+Health impacts of air pollution exposure from 1990 to 2019 in 43 European countries
+Article Open access
+18 November 2021
+Short and long term exposure to air pollution increases the risk of ischemic heart disease
+Article Open access
+03 March 2021
+Introduction
+Ambient air pollution has posed a significant and persistent threat to global public health over several decades1. The Global Burden of Disease (GBD) Project estimated that in 2019, air pollution, as the 4th highest-ranking driver of mortality worldwide, caused approximately 6.67 million premature deaths per year2. A large number of population-based studies suggested the associations between prolonged air pollution exposure and heightened risk of total and cause-specific mortality, but these accumulating evidences have been dominated by modeling associations rather than establishing causality3. Some scientists advocated for a shift in focus when updating and revising air quality standards, emphasizing the importance of the evidence from causal inference methods rather than relying largely on that of traditional association analysis particularly in cases where the causality of confounding factors was not clear4. Estimated effects of exposure from traditional association assessment models often suffered from residual biases introduced by unmeasured confounders5, but causal inference models, exemplified by the difference-in-differences (DID) approach, could be recognized as a viable approach to address this issue of residual confounding that frequently bedevils observational investigations6.
+DID analysis, characterized by its quasi-experimental nature, has gradually gained prominence in the scientific field of environmental epidemiology for estimating causality. Standard DID methods could leverage the assumption of parallel trends and well allow controlling for unobserved confounders, thereby facilitating the identification of causal associations between exposures and outcomes of interest within a counterfactual framework7. Building upon this traditional framework, Wang and colleagues developed a variant of DID analysis to quantify the causal effects of particulate air pollutants on mortality through comparing annual fluctuations in mortality and exposure levels across designated geographical units8. The revised DID design could not only enhance the capacity to capture the temporal and spatial effects of environmental exposure, but also well account for the potential impacts engendered by socioeconomic factors and unobserved variables9.
+Several emerging DID studies provided causal evidence linking particulate air pollution with mortality7,9,10,11, while causal effects of gaseous air pollutants remained extensively lacking12,13. Moreover, given that individuals were generally exposed to increasingly complex and ever-changing environmental mixtures, there have been surprisingly few studies examining the combined associations of prolonged air pollutants exposure with total and cardiorespiratory mortality14. To fill these research gaps, we designed a variant of DID analysis to assess the causal effects of four criteria gaseous air pollutants on mortality based on 108 municipalities in the United States (US) covering the years 1987–2000. The primary objective of this investigation was to examine the individual and joint associations between prolonged exposure to gaseous air pollutants and four mortality endpoints. A secondary objective was to explore the potential effect modifications by age in these causal associations. The investigation into age-related vulnerabilities concerning air pollution exposure could provide a valuable basis for the development of targeted public health interventions, a matter of increasing importance in an aging global population.
+Methods
+Data collection
+The principal data for our analysis were sourced from National Morbidity, Mortality, and Air Pollution Study (NMMAPS) database, and the NMMAPS incorporated data from the US National Center for Health Statistics, the 2000 US Census, US Environmental Protection Agency (EPA), and the National Climatic Data Centre15,16. The NMMAPS consists of daily time-series data of mortality, air pollution, and weather conditions for 108 municipalities across the continental US over the period 1987–2000 (Fig. S1). Daily counts of deaths from total and nonaccidental causes, as well as cardiovascular disease (CVD) and respiratory disease (RD) were collected from US National Center for Health Statistics and subdivided into three age categories (≤64, 65–74, ≥75 years). Additionally, total population data was sourced from the 2000 U.S. Census. Daily average concentrations of particulate (PM2.5 and PM10) and gaseous (NO2, O3, SO2, CO) pollutants were averaged across all monitoring sites within each of the metropolitan areas, provided by the US EPA, and daily meteorological data including mean temperatures and relative humidity were derived from the National Climatic Data Centre. A detailed description of the NMMAPS dataset can be found in prior publications17,18. In our analytic stage, for each year (1987–2000) and each municipality, daily time-series data of total and cause-specific deaths were aggregated into annual sums, and daily air pollutants and temperatures were summarized as annual averages and seasonal averages or deviations in summers (June to August) and winters (December to February), respectively19.
+Statistical analysis
+Descriptive characteristics were summarized as means (standard deviations, SDs) for continuous variables or frequencies (proportions) for categorical variables. Spearman rank correlation coefficient (rs) was used to measure the pairwise correlations among gaseous air pollutants.
+DID design
+A developed variant of the DID approach, a causal modeling method that could control for unmeasured confounders and capture broader temporal trends over the period 1987 to 2000, was utilized to estimate the effect of long-term exposure to each gaseous air pollutant on total and cause-specific mortality8. This modified DID analysis was primarily designed in this study through comparing year-to-year (e.g., 1988 vs. 1987, 1989 vs. 1988) changes in annual concentrations of the four gaseous air pollutants (NO2, CO, SO2, and O3) with concurrent changes in total and cause-specific (i.e., nonaccidental, CVD, RD) death number in given 108 municipality units9. Under this DID framework, some factors such as socio-economic status, demographic characteristics, and behavioral influences may vary rarely between adjacent years so their confounding effects could be counteracted. However, other time-variant factors that were associated with exposure remained to be adjusted. In accordance to recent DID studies based on aggregated times-series data9,10,20, it is hypothesized that such potential confounders might only be seasonal temperatures in our DID analysis on air pollution-mortality associations. The parallel trend assumption is key to causal estimation in DID design, which means that differences in mortality between spatial units in the absence of exposure effects remained stable over time12.
+Individual analysis
+We used conditional Poisson regression (CPR) model with time-varying exposure at a 1-year scale, to estimate the causal effects of prolonged individual exposure to gaseous pollutants on mortality. CPR model could be a good solution to address the issues of overdispersion and autocorrelation of time series data20. We fitted the following DID model to analyze the mortality effects of individual gaseous air pollutants, considering spatial and temporal factors, as well as seasonal variation and population-level characteristics:
+$$\text{ln}\left[E\left({Y}_{s,t}\right)\right]={\beta }_{0}+{\beta }_{1}{I}_{s}+{\beta }_{2}{I}_{t}+{\beta }_{3}{Temp}_{sum}+{\beta }_{4}{Temp}_{win}+{\beta }_{5}SD({Temp}_{sum})+{\beta }_{6}SD({Temp}_{win})+{\beta }_{7}{AP}_{s,t}+\text{ln}({Pop}_{s,t})$$
+where \({Y}_{s,t}\) represents the number of total and cause-specific deaths in spatial unit s (i.e., 108 US municipalities), calendar year t (14-y period, 1987–2000). \({AP}_{s,t}\) refers to the annual mean concentrations of air pollutants in spatial unit s, calendar year t. \({\text{ln}(Pop}_{s,t})\) is an offset term representing the natural logarithm of the population in spatial unit s, which controlled for the confounding effect due to city-level population variations. \({I}_{s}\) is a dummy variable for each spatial unit s.\({I}_{t}\) is a dummy variable for each calendar year t. \({\beta }_{0}\) is the fixed intercept term. \({\beta }_{1}\), \({\beta }_{2}\) are regression coefficients of the spatial and temporal effects. \({\beta }_{3},{\beta }_{4},{\beta }_{5},{\beta }_{6}\) are regression coefficients for the effects of mean summer and winter temperatures and their standard deviations, respectively. \({\beta }_{7}\) represents the independent effect of each gaseous pollutant.
+The estimated associations were expressed as relative risks (RRs) and their 95% confidence intervals (CIs) per interquartile range (IQR) increase in individual exposure to gaseous air pollutant, and statistical significance was defined as P <0.05 (two-tailed). Given the potential departure of linear assumptions in modeling the relationships between independent exposure to four gaseous air pollutants and total and cause-specific mortality, a natural cubic spline (NCS) term of each pollutant with 3 degrees of freedom was incorporated into the CPR model to derive the exposure–response (E-R) association curves10. Likelihood ratio test was employed to examine the nonlinearity in associations between gaseous pollutants and mortality via comparing goodness of fit between linear and NCS smoothed models21.
+Several sensitivity analyses were carried out to testify the robustness of the estimated associations. Firstly, age-stratified analysis was conducted to investigate potentially differential susceptibility to gaseous air pollutants across distinct age groups (≤64, 65–74, and ≥75 years), and meta-regression approach was adopted to examine effect heterogeneity between groups. Secondly, we re-ran the CPR models by extending exposure lag periods, from the current year (lag 0) up to previous 3 years (lag 3) and moving averages of current and previous 1–3 year’s exposure (lag 01, lag 02, and lag 03). Thirdly, bi-, tri-, and quad-pollutant models were fitted to check the influence of co-pollutant adjustments. Finally, since reliable PM2.5 monitoring did not begin until around 1999 in the US, we performed co-pollutant analyses by additionally adjusting for PM10 in the DID model given the potential confounding effect of particulate air pollution on the mortality effect of gaseous pollutants.
+gWQS regression analysis
+To measure the overall joint effect of NO2, CO, SO2, and O3 along with their relative contributions to the targeted mortality outcomes, we introduced the generalized weighted quantile sum regression (gWQS) by constructing a gWQS index to facilitate mixture-exposure analysis6. Pollutant exposures were classified into quartiles separately and combined into a gWQS index by determining weights according to their relevance to the overall associations with the outcome, which could thus reduce dimensionality and avoid covariance issues22. In this study, we incorporated the gWQS approach into main CPR analysis to estimate the combined effect and relative contributions of individual gaseous pollutants to the overall mortality effect. The formula of gWQS model was specified as follows:
+$$\text{ln}\left[E\left({Y}_{s,t}\right)\right]={\beta }_{0}+{\beta }_{1}{I}_{s}+{\beta }_{2}{I}_{t}+{\beta }_{3}{Temp}_{sum}+{\beta }_{4}{Temp}_{win}+{\beta }_{5}SD({Temp}_{sum})+{\beta }_{6}SD({Temp}_{win})+{\beta }_{7}{AP}_{s,t}+{\beta }_{8}\sum_{i=1}^{4}{w}_{i}{q}_{i}+\text{ln}({Pop}_{s,t}){|}_{b}$$
+where \({\beta }_{8}\) represents the regression coefficient of the gWQS index; \({q}_{i}\) (0, 1, 2, 3) denotes the quantile (1st, 2nd, 3rd, or 4th) of component \(i\). \({w}_{i}\) was the estimated weight (0–1) of the \({i}^{th}\) component. b denotes the \({b}^{th}\) bootstrap step. \(\sum_{i=1}^{4}{w}_{i}{q}_{i}\) refers to the weighted index for the set of four targeted air contaminants. The final weights for air pollutants were obtained by averaging all the weights with significant coefficient of overall mixture effect23. The sum of all weights is equal to 1, with larger weights indicating greater contributions in the overall effects. We randomly split the data into training set (40%) for estimating empirical weights and validation set (60%) for deriving statistical significance. A total of 1000 bootstrap steps were performed in the training set to increase the sensitivity in detecting significant predictors and obtain stable weights. We finally set the direction of the regression coefficient effect to be positive based on the results of single-pollutant DID model24. The combined effect was presented as RR (95% CI) of total and cause-specific mortality per IQR-equivalent increase of exposure in mixture pollutants.
+All statistical analyses were conducted using the R version 4.3.1 (R Foundation for Statistical Computing, Vienna, Austria), with the package “gnm” (version 1.1-2) for the CPR model analysis, “mvmeta” (version 1.0.3) for comparing effect differences between subgroups, “splines” (version 4.3.1) for smoothing NCS term, and “gWQS” (version 3.0.4) for assessing the joint associations.
+Results
+Table 1 describes the summary statistics of deaths, gaseous air pollutants, and climate variables in the 108 US municipalities from 1987 to 2000. We observed 10,794,553 total and 10,395,583 nonaccidental deaths, including 4,546,977 and 894,157 deaths from cardiovascular and respiratory diseases, respectively. Annual mean (SD) concentrations of gaseous air pollutants were 20.88 (6.65) ppb for NO2, 5.43 (3.59) ppb for SO2, 26.45 (5.28) ppb for O3, and 0.94 (0.37) ppm for CO, respectively (Fig. S1). NO2, CO, and SO2 exhibited low-to-moderate correlations (0.25 < rs < 0.52) with each other, but were inversely and lowly correlated with O3 (− 0.25 < rs < − 35, Fig. S2).
+Table 1 Summary statistics of annual deaths, air pollution levels, and meteorological factors in 108 US municipalities over the period 1987–2000.
+Full size table
+Figure 1 estimates the associations between mortality endpoints and independent and joint exposure to four criteria gaseous air pollutants. Single exposures to NO2, CO, and SO2 were consistently associated with increased total, nonaccidental, and CVD mortality, while no evidence for O3-mortality associations was seen in the entire population. For instance, the RR estimates of total mortality were 1.056 (95% CI: 1.039–1.073), 1.082 (1.067–1.097), 1.004 (0.992–1.016), and 1.028 (1.017–1.038) for each IQR increase in NO2, SO2, O3, and CO exposure, respectively. Only SO2 was found to be significantly associated with elevated RD mortality, with an excess risk of 11.0% (8.3%–13.8%) for each IQR rise in exposure. These findings were largely robust to sensitivity analyses via using various lag periods and fitting co-pollutant models (Table 2, Tables S1, S2). Traditional and DID analyses based on NMMAPS provided consistent associations between gaseous pollution and mortality, and the association magnitudes were found to be comparable in both estimates. Overall, approximately J-shaped curves with steeper slopes under higher exposure conditions were observed for the exposure–response relationships of mortality risks with NO2, CO, and SO2 exposure, while O3-associated risk curves tended to be inverted U-shaped (Fig. 2).
+Figure 1
+Risk estimates (with 95% CIs) of total and cause-specific mortality associated with per IQR increase in O3, SO2, NO2, CO, and an IQR-equivalent increase in mixture exposure. NO2 nitrogen dioxide, CO carbon monoxide, SO2 sulfur dioxide, O3 ozone, CVD cardiovascular disease, RD respiratory disease, CI confidence interval, IQR interquartile range.
+Full size image
+Table 2 Risk estimates (with 95% CIs) of total and cause-specific mortality associated with per IQR increase in individual and mixture exposure to gaseous air pollutants across different lag years.
+Full size table
+Figure 2
+Estimated exposure–response curves for the associations of gaseous pollutant concentrations with total, nonaccidental, cardiovascular, and respiratory mortality. The solid black line represents the effect estimates and the shaded area represents its 95% confidence interval. NO2 nitrogen dioxide, CO carbon monoxide, SO2 sulfur dioxide, O3 ozone, CVD cardiovascular disease, RD respiratory disease, RR relative risk, CI confidence interval, ppb part per billion, ppm part per million.
+Full size image
+In the multi-pollutant analysis via gWQS regression, one IQR-equivalent increase in mixture exposure was associated with an estimated RR of 1.067 (1.010–1.126) for total mortality, 1.067 (1.009–1.128) for nonaccidental mortality, 1.125 (1.060–1.193) for CVD mortality, and 0.986 (0.898–1.083) for RD mortality, respectively (Fig. 1). Figure 3 displays relative contributions (weights) of each gaseous air pollutant in the overall effects on mortality estimated by gWQS models. The combined mortality effects of exposure to four gaseous pollutants were mostly contributed by NO2 but least contributed by CO. Specifically, NO2 was responsible for 38.9%–49.3% of the increased mortality risks related to overall mixture exposure, while CO accounted for only 0.7%–2.4% of the joint associations with total and cause-specific mortality. It is noteworthy that the relative importance measured by gWQS weights did not match the sequence of effect sizes estimated by the single-pollutant DID models.
+Figure 3
+gWQS-derived mean weights of each gaseous air pollutants in the joint effects of mixture exposure on total and cause-specific mortality. NO2 nitrogen dioxide, CO carbon monoxide, SO2 sulfur dioxide, O3 ozone, CVD cardiovascular disease, RD respiratory disease.
+Full size image
+Figure 4 illustrates age-stratified risk estimates for mortality associated with individual exposure to gaseous pollutants. A mixed pattern was detected for age modification in pollutants-mortality associations. Our stratified analysis revealed evidently higher CO-related risks in younger group aged ≤64 years, with estimated RRs of 1.041 (1.029–1.053) for total mortality, 1.044 (1.031–1.057) for nonaccidental mortality, 1.037 (1.022–1.052) for CVD mortality, and 1.022 (0.992–1.053) for RD mortality associated with one IQR increase in CO exposure, respectively (Table S3). Despite no O3-related excess risks in the entire population, O3-mortality associations were found to be more pronounced in individuals aged 65–74 years. For total mortality, per IQR increase in O3 was associated with a risk of 1.020 (1.008–1.033) in those aged 65–74 years, 0.999 (0.985–1.013) in younger group (≤64 years) and 1.002 (0.989–1.016) in older group (≥75 years), respectively. In terms of NO2 and SO2, no evidence for age modification was identified in this analysis (P >0.05 for heterogeneity).
+Figure 4
+Age-stratified associations between total and cause-specific mortality and gaseous air pollution exposure. NO2 nitrogen dioxide, CO carbon monoxide, SO2 sulfur dioxide, O3 ozone, CVD cardiovascular disease, RD respiratory disease, RR relative risk, CI confidence interval; *P <0.05, **P <0.01.
+Full size image
+Discussion
+In the context of decades of rapid industrial growth in the United States, coupled with challenges within environmental legislation, air pollution and mortality have been on a parallel upward trend over the 14-year period 1987–2000. This nationwide DID study provided compelling evidence for elevated risks for total, nonaccidental, and CVD mortality in the US population causally associated with independent and combined exposures to NO2, CO, SO2, and O3. Mixture effects associated with co-exposure to four gaseous pollutants were predominantly attributed to NO2. Our study identified approximately J-shaped curves for mortality outcomes in association with NO2, CO, and SO2, while O3-associated risk curves tended to be inverted U-shaped. Age-stratified analysis revealed mixed patterns of effect modification in exposure-mortality associations. This present study is essential in furnishing supplementary causal evidence derived from observational data, thereby substantiating the revision of air quality guidelines.
+Our adapted DID analysis demonstrated robustly positive associations of long-term NO2 exposure with mortality of US population, echoing with a growing body of epidemiological studies relying on several causal modelling frameworks3. Causal evidence for excess mortality risks due to long-term NO2 exposure were reported in an Australian DID study of 2193 statistical areas level-212, instrumental variable (IV)-based analysis of 7.3 million deaths in 135 US cities25, and US national Medicare cohort analyses based on inverse probability weighting (IPW)26 and generalized propensity score (GPS)27. Similarly, in a pooled analysis from 8 European cohorts28, consistently positive NO2-mortality nexuses were seen through parallel Cox modelling strategies weighted by IPW and adjusted for GPS, wherein both approaches estimated largely comparable effect sizes. Also, our study generally supported the causal evidence for elevated mortality risk associated with long-term exposure to SO2 and CO. While SO2-associated risks were reported in another two DID analyses in China13 and Germany29, such causal evidence for CO in the general population remains extensively sparse to date. Collectively, mortality relationships with SO2 and CO were between suggestive and causal, as summarized by US Environmental Protection Agency30,31.
+For O3-mortality associations, given the heterogeneous findings from population-based cohorts in the USA and Europe32, we believed that the evidence suggested "likely to be causal" for respiratory effects and “suggestive of a causal relationship” for cardiovascular effects33. Inconsistent with one Korean IV analysis34 and two US cohort studies (using GPS and IPW)26,27, our DID analysis did not identify causally positive relationship between annual O3 exposure and total and cardiopulmonary mortality. These null associations were also reported in a prior review of 20 traditional cohort analyses focusing on annual O3 metric35. Overall, current cohort evidence on O3-mortality association was largely mixed and exhibited considerable regional heterogeneity36. On the whole, national cohorts in North America37,38,39 and China40,41,42 linked elevated mortality risks (e.g., all-cause, CVD, and RD) with annual average or peak-season O3 exposure. This was in marked contrast to the large volume of epidemiological cohort evidence from South Korea43 and European countries such as Denmark44, France45, and England46, which mostly reported null or protective effects on long-term survival. Several factors such as demographic characteristics, control of potential confounders, air pollution levels, different exposure metrics and analytic methodology might be responsible for regional variations in observed mortality effects44,47.
+As suggested in our mixture exposure analysis, NO2 constituted the most prominent contributor to the joint effects of four criteria gaseous air pollutants on excess risk of mortality. In a 22-year cohort study in Northern China, PM2,5 was reported as the principal contributor to the conjoined cardiopulmonary mortality effects of exposure mixture (PM10, PM2.5, SO2, and NO2)14. Generally consistent evidence was seen in two investigations48,49 from developed countries (Canada and the US), suggesting PM2.5-dominated mortality effects under co-existing exposure scenario with NO2. This further could attest to a discernible corollary that the detrimental effects of NO2 could be possibly masked to a considerable extent by particulate matter, particularly PM2.550. It has been evidenced that the presence of PM2.5 may exert an attenuating influence upon the fatality effects of NO2, given that both PM2.5 and NO2 are atmospheric pollutants emanating from common sources, such as vehicular emissions and industrial activities51. Additonally, the greatest association estimates of mixture pollutant exposure were seen at lag 02 year (Table 2), suggesting a cumulative effect of gaseous pollutants on mortality risk. In accordance with prior DID analyses9,52, the risk effects for multi-year lags were marginally larger and more stable than those for single-year lags, which well underscored the importance of considering accumulated exposure in environmental health-risk assessments. Currently available investigations pertaining to the co-exposure of air pollutants remain relatively lacking, and the complexity arising from variations in geographical locations, analytic methodologies, and combinations of pollutants may introduce great challenges in achieving comparative evidence on mixed exposures. Therefore, national and global initiatives are pressingly needed to illuminate the intricate interplay of combined exposure to multiple atmospheric pollutants and its multifaceted implications for human health.
+There have been mixed findings on effect modification by age concerning the associations of gaseous pollutants with mortality. In this study, individuals aged ≤64 years showed higher CO-associated risks of total and cardiorespiratory mortality, echoing with two multi-city time-series studies in China53,54. Additionally, we observed higher O3-associated mortality risks among individuals aged 65–74 years. In two Chinese national cohort studies, more pronounced O3-mortality associations were reported in older adults aged ≥65 years40,42. By comparison, evidence from mega cohorts suggested no age difference among older people (65 years and older) in US55 and higher risk in younger (age ≤60 years) group in Rome56. Age disparities in O3-mortality associations could be possibly related to geographical and demographic variations between studies, as well as differential population exposure levels and time-activity patterns39,44. In accordance with three preceding investigations from developed countries (i.e., US and Canada)37,57 and China58, we found no evidence of effect modification by age on association between SO2/NO2 and mortality. Notably, both pollutants demonstrated a positive linkage with total and cardiopulmonary mortality across diverse age strata. As such, fostering a synergistic approach to govern and mitigate the mortality risks of these air pollutants should become an indispensable imperative, in order to achieve a state of collective health benefits in the general population.
+A major feature of this study is the DID causal analysis which effectively controls for unmeasured confounders in the causal links between gaseous air pollutants and total as well as cause-specific mortality. Expanding upon the conventional DID approach, the DID “variant” well controls for additionally potential confounders (e.g., seasonal factors) that fluctuate across locations and over time, thereby mitigating potential biases in estimating exposure effects and capturing well long-term trends in gaseous pollution-morality associations. Furthermore, the application of the gWQS model in our study provides an enhanced exploration on the joint mortality effects of combined exposure to gaseous pollutants and its individual relative contributions. Nevertheless, this study has several limitations that should be acknowledged. First, although the variant DID method counteracts the effects of temporally stable individual and behavioral factors (including unmeasured ones), it remains plausible that there exist additional latent confounding factors, including socioeconomic status, health behaviors (e.g., smoking), and changes in residential characteristics, which could vary across location and time9. Additionally, DID model has the potential power for causal inference and advantages over traditional analytical approaches by reducing confounding, but established causality on the basis of data analysis still need to be validated physiologically by high-quality human and animal experiments. Second, exposure misclassifications may arise from our exclusive utilization of population-level air pollution data rather than incorporating more granular data sources such as individual-level measurements11. Third, some missing records of daily time series air pollution data in NMMAPS database, may introduce some uncertainty into the effect estimates but its impact on the association is deemed to be relatively inconspicuous59. Forth, one of the fundamental assumptions of the gWQS method is unidirectional exposure effect, encompassing either a positive or negative trend. However, this assumption may potentially lead to issues such as non-convergence of the model or biased estimation60. Fifth, the NMMAPS database comprised predominantly outdated monitoring data, and therefore the results may not be representative of current exposures and pollution sources.
+Conclusions
+In summary, our DID analysis provided compelling evidence for elevated risks of total, nonaccidental, and CVD mortality causally associated with both combined and independent exposure to gaseous air pollutants in US population. Age-specific analyses produced very mixed results of effect modification regarding long-term effects of gaseous pollutants on mortality, emphasizing the necessity for further investigation of age-related vulnerabilities with the aim of pinpointing specific susceptible populations at higher risks and ultimately contributed to more effective public health. Our study added national evidence of causality and highlighted that targeted policies should be formulated to strengthen the response to the health threats of gaseous pollutant exposure.
+Data availability
+The datasets used and/or analysed during the current study available from the corresponding author on reasonable request.
+References
+Shaddick, G., Thomas, M. L., Mudu, P., Ruggeri, G. & Gumy, S. Half the world’s population are exposed to increasing air pollution. npj Clim. Atmos. Sci. 3, 23. https://doi.org/10.1038/s41612-020-0124-2 (2020).
+Article
+  CAS
+  Google Scholar
+  Murray, C. J. L. et al. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: A systematic analysis for the Global Burden of Disease Study 2019. Lancet 396, 1223–1249. https://doi.org/10.1016/s0140-6736(20)30752-2 (2020).
+Article
+  CAS
+  Google Scholar
+  Bind, M. A. Causal modeling in environmental health. Annu. Rev. Public Health 40, 23–43. https://doi.org/10.1146/annurev-publhealth-040218-044048 (2019).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Wu, X., Braun, D., Schwartz, J., Kioumourtzoglou, M. A. & Dominici, F. Evaluating the impact of long-term exposure to fine particulate matter on mortality among the elderly. Sci. Adv. 6, eaba5692. https://doi.org/10.1126/sciadv.aba5692 (2020).
+Article
+  ADS
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Zhang, Y. et al. Potential causal links between long-term ambient particulate matter exposure and cardiovascular mortality: New evidence from a large community-based cohort in South China. Ecotoxicol. Environ. Saf. 254, 114730. https://doi.org/10.1016/j.ecoenv.2023.114730 (2023).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Wang, S. et al. The causal links between long-term exposure to major PM2.5 components and the burden of tuberculosis in China. Sci. Total Environ. 870, 161745. https://doi.org/10.1016/j.scitotenv.2023.161745 (2023).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Schwartz, J. et al. A national difference in differences analysis of the effect of PM2.5 on annual death rates. Environ. Res. 194, 110649. https://doi.org/10.1016/j.envres.2020.110649 (2021).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Wang, Y. et al. Estimating causal effects of long-term PM2.5 exposure on mortality in New Jersey. Environ. Health Perspect. 124, 1182–1188. https://doi.org/10.1289/ehp.1409671 (2016).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Yu, P. et al. Exposure to wildfire-related PM2.5and site-specific cancer mortality in Brazil from 2010 to 2016: A retrospective study. PLoS Med. 19, e1004103. https://doi.org/10.1371/journal.pmed.1004103 (2022).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Yu, W., Guo, Y., Shi, L. & Li, S. The association between long-term exposure to low-level PM2.5 and mortality in the state of Queensland, Australia: A modelling study with the difference-in-differences approach. PLoS Med. 17, e1003141. https://doi.org/10.1371/journal.pmed.1003141 (2020).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Renzi, M. et al. Long-term PM10 exposure and cause-specific mortality in the Latium region (Italy): A difference-in-differences approach. Environ. Health Perspect. 127, 67004. https://doi.org/10.1289/ehp3759 (2019).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Xu, R., Li, S., Abramson, M. & Guo, Y. Long-term exposure to low PM2.5 and NO2 and all-cause mortality in Australia: A difference-in-differences analyses. Int. J. Epidemiol. https://doi.org/10.1093/ije/dyab168.727 (2021).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Fan, M., Jiang, H. & Zhou, M. Beyond particulate matter: New evidence on the causal effects of air pollution on mortality. J. Health Econ. 91, 102799. https://doi.org/10.1016/j.jhealeco.2023.102799 (2023).
+Article
+  PubMed
+  Google Scholar
+  Huang, W. et al. Individual and joint associations of long-term exposure to air pollutants and cardiopulmonary mortality: A 22-year cohort study in Northern China. Lancet Reg. Health West. Pac. 36, 100776. https://doi.org/10.1016/j.lanwpc.2023.100776 (2023).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Samet, J. M., Dominici, F., Zeger, S. L., Schwartz, J. & Dockery, D. W. The national morbidity, mortality, and air pollution study. Part I: Methods and methodologic issues. Res. Rep. Health Eff. Inst. 94, 5–14 (2000).
+CAS
+  PubMed
+  Google Scholar
+  Samet, J. M. et al. The national morbidity, mortality, and air pollution study. Part II: Morbidity and mortality from air pollution in the United States. Res. Rep. Health Eff. Inst. 94, 5–70 (2000).
+CAS
+  PubMed
+  Google Scholar
+  Samet, J. M., Dominici, F., Curriero, F. C., Coursac, I. & Zeger, S. L. Fine particulate air pollution and mortality in 20 US cities, 1987–1994. N. Engl. J. Med. 343, 1742–1749. https://doi.org/10.1056/nejm200012143432401 (2000).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Smith, R. L., Xu, B. & Switzer, P. Reassessing the relationship between ozone and short-term mortality in U.S. urban communities. Inhal. Toxicol. 21(Suppl 2), 37–61. https://doi.org/10.1080/08958370903161612 (2009).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Zhang, Y. et al. Socio-geographic disparity in cardiorespiratory mortality burden attributable to ambient temperature in the United States. Environ. Sci. Pollut. Res. Int. 26, 694–705. https://doi.org/10.1007/s11356-018-3653-z (2019).
+Article
+  PubMed
+  Google Scholar
+  Han, C. et al. Socioeconomic disparity in the association between long-term exposure to PM2.5 and mortality in 2640 Chinese counties. Environ. Int. 146, 106241. https://doi.org/10.1016/j.envint.2020.106241 (2021).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Beelen, R. et al. Effects of long-term exposure to air pollution on natural-cause mortality: An analysis of 22 European cohorts within the multicentre ESCAPE project. Lancet 383, 785–795. https://doi.org/10.1016/s0140-6736(13)62158-3 (2014).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Zhu, L. et al. Assocaitions of metal exposure with hyperuricemia and gout in general adults. J. Am. Coll. Cardiol. 81, 1720–1720. https://doi.org/10.1016/S0735-1097(23)02164-2 (2023).
+Article
+  Google Scholar
+  Qiu, X. et al. Fine particle components and risk of psychiatric hospitalization in the U.S. Sci Total Environ 849, 157934. https://doi.org/10.1016/j.scitotenv.2022.157934 (2022).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Lee, M. et al. A generalized weighted quantile sum approach for analyzing correlated data in the presence of interactions. Biom. J. 61, 934–954. https://doi.org/10.1002/bimj.201800259 (2019).
+Article
+  MathSciNet
+  PubMed
+  Google Scholar
+  Schwartz, J., Fong, K. & Zanobetti, A. A national multicity analysis of the causal effect of local pollution, NO2, and PM2.5 on Mortality. Environ. Health Perspect. 126, 87004. https://doi.org/10.1289/ehp2732 (2018).
+Article
+  CAS
+  Google Scholar
+  Wei, Y. et al. Emulating causal dose-response relations between air pollutants and mortality in the Medicare population. Environ. Health 20, 53. https://doi.org/10.1186/s12940-021-00742-x (2021).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Wei, Y. et al. Causal effects of air pollution on mortality rate in Massachusetts. Am. J. Epidemiol. 189, 1316–1323. https://doi.org/10.1093/aje/kwaa098 (2020).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Stafoggia, M. et al. Comparing “causal” and “traditional” approaches in the association of long-term exposure to ambient air pollution on mortality: How sensitive are the results?. Environ. Int. 174, 107872. https://doi.org/10.1016/j.envint.2023.107872 (2023).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Luechinger, S. Air pollution and infant mortality: A natural experiment from power plant desulfurization. J. Health Econ. 37, 219–231. https://doi.org/10.1016/j.jhealeco.2014.06.009 (2014).
+Article
+  PubMed
+  Google Scholar
+  EPA, U. S. Integrated Science Assessment for Sulfur Oxides – Health Criteria (2017).
+EPA, U. S. Integrated Science Assessment for Carbon Monoxide (2010).
+Sun, H. Z. et al. Cohort-based long-term ozone exposure-associated mortality risks with adjusted metrics: A systematic review and meta-analysis. Innovation 3, 100246. https://doi.org/10.1016/j.xinn.2022.100246 (2022).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  EPA, U. S. Integrated Science Assessment (ISA) for Ozone and Related Photochemical Oxidants (U.S. Environmental Protection Agency, 2020).
+Bae, S., Lim, Y. H. & Hong, Y. C. Causal association between ambient ozone concentration and mortality in Seoul, Korea. Environ. Res. 182, 109098. https://doi.org/10.1016/j.envres.2019.109098 (2020).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Huangfu, P. & Atkinson, R. Long-term exposure to NO2 and O3 and all-cause and respiratory mortality: A systematic review and meta-analysis. Environ. Int. 144, 105998. https://doi.org/10.1016/j.envint.2020.105998 (2020).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Turner, M. C. et al. Long-term ozone exposure and mortality in a large prospective study. Am. J. Respir. Crit. Care Med. 193, 1134–1142. https://doi.org/10.1164/rccm.201508-1633OC (2016).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Yazdi, M. D. et al. Long-term effect of exposure to lower concentrations of air pollution on mortality among US Medicare participants and vulnerable subgroups: A doubly-robust approach. Lancet Planet. Health 5, e689–e697. https://doi.org/10.1016/s2542-5196(21)00204-7 (2021).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Shi, L. et al. Low-concentration air pollution and mortality in American older adults: A national cohort analysis (2001–2017). Environ. Sci. Technol. 56, 7194–7202. https://doi.org/10.1021/acs.est.1c03653 (2022).
+Article
+  ADS
+  CAS
+  PubMed
+  Google Scholar
+  Crouse, D. L. et al. Ambient PM2.5, O3, and NO2 exposures and associations with mortality over 16 years of follow-up in the Canadian census health and environment cohort (CanCHEC). Environ. Health Perspect. 123, 1180–1186. https://doi.org/10.1289/ehp.1409276 (2015).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Yuan, Y. et al. Excess mortality associated with high ozone exposure: A national cohort study in China. Environ. Sci. Ecotechnol. 15, 100241. https://doi.org/10.1016/j.ese.2023.100241 (2023).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Zhang, Y. et al. Ambient PM2.5, ozone and mortality in Chinese older adults: A nationwide cohort analysis (2005–2018). J. Hazard. Mater. 454, 131539. https://doi.org/10.1016/j.jhazmat.2023.131539 (2023).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Niu, Y. et al. Long-term exposure to ozone and cardiovascular mortality in China: A nationwide cohort study. Lancet Planet. Health 6, e496–e503. https://doi.org/10.1016/s2542-5196(22)00093-6 (2022).
+Article
+  PubMed
+  Google Scholar
+  Byun, G., Choi, Y., Kim, S. & Lee, J. T. Long-term exposure to ambient ozone and mortality in a population-based cohort of South Korea: Considering for an alternative exposure time metric. Environ. Pollut. 314, 120300. https://doi.org/10.1016/j.envpol.2022.120300 (2022).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Raaschou-Nielsen, O. et al. Long-term exposure to air pollution and mortality in the Danish population a nationwide study. EClinicalMedicine 28, 100605. https://doi.org/10.1016/j.eclinm.2020.100605 (2020).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Bentayeb, M. et al. Association between long-term exposure to air pollution and mortality in France: A 25-year follow-up study. Environ. Int. 85, 5–14. https://doi.org/10.1016/j.envint.2015.08.006 (2015).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Carey, I. M. et al. Mortality associations with long-term exposure to outdoor air pollution in a national English cohort. Am. J. Respir. Crit. Care Med. 187, 1226–1233. https://doi.org/10.1164/rccm.201210-1758OC (2013).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Atkinson, R. W. et al. Long-term exposure to ambient ozone and mortality: A quantitative systematic review and meta-analysis of evidence from cohort studies. BMJ Open 6, e009493. https://doi.org/10.1136/bmjopen-2015-009493 (2016).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Zhao, N. et al. Long-term exposure to a mixture of industrial SO2, NO2, and PM2.5 and anti-citrullinated protein antibody positivity. Environ. Health 19, 86. https://doi.org/10.1186/s12940-020-00637-3 (2020).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Li, H. et al. Health effects of air pollutant mixtures on overall mortality among the elderly population using Bayesian kernel machine regression (BKMR). Chemosphere 286, 131566. https://doi.org/10.1016/j.chemosphere.2021.131566 (2022).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Parajuli, R. P., Shin, H. H., Maquiling, A. & Smith-ron, M. Multi-pollutant urban study on acute respiratory hospitalization and mortality attributable to ambient air pollution in Canada for 2001–2012. Atmos. Pollut. Res. https://doi.org/10.1016/j.apr.2021.101234 (2021).
+Article
+  Google Scholar
+  Ji, J. S. et al. NO2 and PM2.5 air pollution co-exposure and temperature effect modification on pre-mature mortality in advanced age: A longitudinal cohort study in China. Environ. Health 21, 97. https://doi.org/10.1186/s12940-022-00901-8 (2022).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Yu, P. et al. Loss of life expectancy from PM2.5 in Brazil: A national study from 2010 to 2018. Environ Int 166, 107350. https://doi.org/10.1016/j.envint.2022.107350 (2022).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Li, G. et al. Six air pollutants and cause-specific mortality: A multi-area study in nine counties or districts of Anhui Province, China. Environ. Sci. Pollut. Res. Int. https://doi.org/10.1007/s11356-021-15730-4 (2022).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Liu, C. et al. Ambient carbon monoxide and cardiovascular mortality: A nationwide time-series analysis in 272 cities in China. Lancet Planet. Health https://doi.org/10.1016/S2542-5196(17)30181-X (2018).
+Article
+  PubMed
+  Google Scholar
+  Kazemiparkouhi, F., Eum, K. D., Wang, B., Manjourides, J. & Suh, H. H. Long-term ozone exposures and cause-specific mortality in a US Medicare cohort. J. Expo. Sci. Environ. Epidemiol. 30, 650–658. https://doi.org/10.1038/s41370-019-0135-4 (2020).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Cesaroni, G. et al. Long-term exposure to urban air pollution and mortality in a cohort of more than a million adults in Rome. Environ. Health Perspect. 121, 324–331. https://doi.org/10.1289/ehp.1205862 (2013).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Chen, H. et al. Long-term exposure to traffic-related air pollution and cardiovascular mortality. Epidemiology 24, 35–43. https://doi.org/10.1097/EDE.0b013e318276c005 (2013).
+Article
+  PubMed
+  Google Scholar
+  Dong, G. H. et al. Long-term exposure to ambient air pollution and respiratory disease mortality in Shenyang, China: A 12-year population-based retrospective cohort study. Respiration 84, 360–368. https://doi.org/10.1159/000332930 (2012).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Meng, X. et al. Short term associations of ambient nitrogen dioxide with daily total, cardiovascular, and respiratory mortality: Multilocation analysis in 398 cities. BMJ 372, n534. https://doi.org/10.1136/bmj.n534 (2021).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Yu, Z. et al. Association of long-term exposure to ambient air pollution with the incidence of sleep disorders: A cohort study in China. Ecotoxicol. Environ. Saf. 211, 111956. https://doi.org/10.1016/j.ecoenv.2021.111956 (2021).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Download references
+Acknowledgements
+We thank the developers of the National Mortality Morbidity Air Pollution Studies (NMMAPS), and thank Dr. Roger D. Peng and his colleagues for making the NMMAPS database publicly available.
+Funding
+This work was supported by the Key Research Center for Humanities and Social Sciences in Hubei Province (Hubei University of Medicine, Grant No. 2022ZD001), the Chunhui Program Collaborative Research Project of the Ministry of Education (Grant No. HZKY20220336), and Wuhan Knowledge Innovation Project (Grant No. 2023020201020410).
+Author information
+These authors contributed equally: Yong Yu and Ziqing Tang .
+Authors and Affiliations
+Center of Health Administration and Development Studies, School of Public Health, Hubei University of Medicine, Shiyan, 442000, China
+Yong Yu, Yunquan Zhang & Qun Wang
+Institute of Social Development and Health Management, Hubei Province Key Laboratory of Occupational Hazard Identification and Control, School of Public Health, Wuhan University of Science and Technology, Wuhan, 430065, China
+Ziqing Tang, Yuqian Huang, Jingjing Zhang, Yixiang Wang & Yunquan Zhang
+Contributions
+Yong Yu and Ziqing Tang: Methodology, Formal analysis, Visualization, and Writing original draft. Yuqian Huang: Data curation, Methodology, Formal analysis, Software, and Visualization. Jingjing Zhang and Yixiang Wang: Data curation, Formal analysis, and Visualization. Yunquan Zhang and Qun Wang: Conceptualization, Software, Methodology, Formal analysis, Review & editing, Supervision, Funding acquisition.
+Corresponding authors
+Correspondence to Yunquan Zhang or Qun Wang.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher's note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary Information
+Supplementary Information.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Yu, Y., Tang, Z., Huang, Y. et al. Assessing long-term effects of gaseous air pollution exposure on mortality in the United States using a variant of difference-in-differences analysis. Sci Rep 14, 16220 (2024). https://doi.org/10.1038/s41598-024-66951-9
+Download citation
+Received
+09 March 2024
+Accepted
+05 July 2024
+Published
+13 July 2024
+DOI
+https://doi.org/10.1038/s41598-024-66951-9
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Gaseous pollutant
+Causal association
+Mortality
+Difference-in-differences
+Joint effect
+Subjects
+Environmental impact
+Environmental sciences
+Risk factors
+Comments
+By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.
+Download PDF
+Sections
+Figures
+References
+Abstract
+Introduction
+Methods
+Results
+Discussion
+Conclusions
+Data availability
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Supplementary Information
+Rights and permissions
+About this article
+Comments
+Advertisement
+Scientific Reports (Sci Rep) ISSN 2045-2322 (online)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

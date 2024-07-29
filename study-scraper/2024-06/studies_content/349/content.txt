@@ -1,0 +1,326 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/jax.js
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Sustainability
+All Article Types
+Advanced
+  Journals Sustainability Volume 16 Issue 11 10.3390/su16114851
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Antonio Boggia
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+636
+Table of Contents
+Abstract
+Introduction
+Data and Methods
+Results and Discussion
+Impact Mechanism Analysis
+Conclusions and Policy Recommendations
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Conflicts of Interest
+Abbreviations
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Can Environmental Protection Tax Decrease Urban Ozone Pollution? A Quasi-Natural Experiment Based on Cities in China
+by Wenhao Xue
+1, Zhenwu Xiong
+1, Liyun Wang
+1, Zhe Yang
+1,* and Xinyao Li
+2
+1
+School of Economics, Qingdao University, Qingdao 266071, China
+2
+Institute of Marine Development, Ocean University of China, Qingdao 266100, China
+*
+Author to whom correspondence should be addressed.
+Sustainability 2024, 16(11), 4851; https://doi.org/10.3390/su16114851
+Submission received: 5 May 2024 / Revised: 3 June 2024 / Accepted: 3 June 2024 / Published: 6 June 2024
+(This article belongs to the Section Air, Climate Change and Sustainability)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+The air pollution control in China has gradually transitioned from single pollutant control to multi-pollutant collaborative governance. Among the relevant factors, the control of ozone (O3) pollution has received widespread attention. Among the numerous air pollution regulations, environmental protection tax (EPT) is highly valued, as it can effectively control the emissions of O3 precursors. The objective of this study is to investigate whether the implementation of an EPT can reduce urban O3 pollution in China. Based on this, we used the difference-in-differences (DID) method, combined with the panel data from 221 cities in China from 2015 to 2020, to conduct an empirical analysis of the impacts of EPT reform policy on O3 pollution. The econometrics results indicate that the EPT reform policy can effectively inhibit urban near-surface O3 pollution by approximately 2.1%, and this result was confirmed to be accurate by multiple robustness tests. Additionally, significant spatial heterogeneities of this control effect are captured in this paper. Due to urban development levels and geographical factors, the better pollution reduction effects were national-model environmental protection, and efforts based on inland cities and high-level financial cities. Furthermore, three potential mechanisms, including cutting energy consumption, industrial structure optimization, and technological advance, were verified as being relevant to the impact path of EPT reform policy as to O3 pollution. This paper can provide empirical evidence for O3 pollution control in China, and also contribute to the further improvement of environmental protection policies.
+Keywords: environmental protection tax; ozone; difference-in-differences; energy consumption; technological advances
+1. Introduction
+Since the reform and opening up, economic growth has appeared to be an accelerating trend in China. However, serious challenges to environmental carrying-capacity, especially air pollution problems, exist behind the extensive economic development model [1,2]. Due to this issue, the Chinese government adopted a series of environmental protection policies aiming to reduce air pollution exposure at the national and local scales [3]. By 2022, the city-level average PM2.5 (fine particles) concentration in China reached 29 μg/m, with a year-on-year decrease of 3.3%, which was lower than the national secondary standard (35 μg/m) for three consecutive years. However, surface O3 pollution has increased recently [4]. Long-term exposure to high levels of ozone (O3) pollution poses serious threats to the health of residents, crop production, and vegetation growth [5,6]. Therefore, effectively reducing urban O3 pollution has become the key point for the government in seeking to improve the atmospheric environment in China.
+Among all anti-pollution economic policies, the environmental protection tax (EPT), as a market-based environmental regulation, is one of the most effective methods for emission reduction and air pollution control [7]. Using panel data from 15 countries along the Belt and Road, Fang et al. [8] found that EPT is beneficial for renewable energy consumption. Then, based on data from 29 Organization for Economic Co-operation and Development (OCED) countries, Rafique et al. [9] found that EPT contributes to economic and environmental sustainability in OCED countries experiencing ecological footprint issues. Meanwhile, different types of environmental taxes will generate different environmental benefits. Fuel-tax reform and green taxes are proven to curb harmful road transport air pollutants and reduce negative environmental externalities, respectively [10,11], eventually realizing green dividends [12].
+The EPT system carried out in China was relatively late in coming. It was not until 2018 that the EPT policy was formally implemented, with the promulgation of the EPT Law of the People’s Republic of China. Notably, the EPT standards for gas pollutants have become stricter, especially for sulphur dioxide (SO2) and nitrogen oxides (NOX), which are important precursors for O3 generation. Compared with other taxes, the standards are highly professional, representing an optimization and transformation of environmental regulation policies in China, although the EPT has only been levied for a short time [13]. Notably, although the EPT is a fiscal policy tool, its main purpose is to make pollutant dischargers bear the negative external costs of necessary pollution discharge and treatment through the tax levy capacity of the EPT rather than to obtain fiscal revenue. Meanwhile, by the regulating role of green tax levers, the government can promote regional enterprises, encouraging them to carry out energy conservation and emission reduction, increase pollution control efforts, accelerate green transformation and upgrading, and eventually promote ecological civilization construction in China [14]. Currently, some studies indicate that the implementation of EPT can bring significant emission reduction effects in China. Using data from fossil fuel power plants in 30 provinces in China, Li et al. [15] found that EPT policies reduce pollutant emissions from power plants and that there is an inverted U-shaped relationship between emission reduction effects and tax rates. Subsequently, Gao et al. [16] used panel data from 107 cities to examine the impacts of EPT on the synergistic effects of pollution emission reduction and carbon emission reduction in China, showing that EPT may enhance the synergy between pollution emission reduction and carbon emission reduction. In addition, at a micro level, Lu [17] empirically analyzed the impacts of EPT on the illegal emission behavior of heavily polluting enterprises, based on datasets from Chinese listed companies, suggesting that EPT can significantly reduce the day–night differences in PM2.5 concentrations around the nearest monitoring site to the company and effectively inhibit the illegal emissions of enterprises.
+Many socio-economic factors are recognized as key determinants of air pollution [18]. In an investigation of the factors influencing air pollution, Zhao et al. [19] found through empirical analysis that education expenditure is conducive to lowering PM2.5 concentrations, Dong et al. [20] found that green technology innovation is conducive to lowering the AQI index, and Levinson [21] found that international trade is also an important factor influencing air pollution.
+However, previous studies have mainly focused on the effects of EPT on PM2.5 concentrations, SO2 concentrations, and carbon emissions [16,22,23,24]. There is no research investigating the quantitative impacts and potential mechanisms of the EPT reform on O3 pollution. In addition, previous studies usually select pollution fees and quasi-environmental protection taxes as economic indicators to analyze the environmental dividends of the EPT in China, but this is inaccurate, and it has certain measurement biases caused by possible endogeneity problems. To avoid this uncertainty, we use the EPT reform as a quasi-natural experiment to explore the policy effect of the EPT.
+The purpose of this study is to explore the impact and underlying mechanisms of the EPT reform on O3 pollution in China by econometric methods. Based on this, we employ the EPT reform as a quasi-natural experiment and apply the DID model to evaluate its impacts on O3 pollution at the city level in China from 2015 to 2020. Thus, the research on the effects of EPT emission reductions is expanded. Then, we discuss the mechanism paths of reduced energy consumption, industrial structure optimization, and technological advances in regional O3 pollution reduction; thereby, the understanding of the emission reduction pathway of EPT is deeply enriched. In addition, the heterogeneities of the effects of the EPT reform on O3 pollution were captured with positioning scales, region-specific analyses, and with attention to urban intrinsic characteristics; empirical evidence is provided to support the implementation of differentiated environmental regulatory policies in diverse localities. This study will enrich the relevant air pollution research and help to provide a realistic reference for O3 pollution control. Furthermore, we have combined the analyses of O3 pollution and EPT reform for the first time, which has groundbreaking significance for the future evaluation of environmental policies in China.
+The layout of the article is structured as follows: Section 1. Introduction; Section 2. Data and Methods; Section 3. Results; Section 4. Impact Mechanism Analysis; and Section 5. Conclusions and Policy Recommendations.
+2. Data and Methods
+2.1. Study Area
+Figure 1 shows the spatial distribution of the changes in SO2- and NOX-EPT standards across China. (The software used to create the maps was ArcMap10.8, and the data for the maps came from the data center of the Institute of Geography, Chinese Academy of Sciences). Overall, 13 provinces have seen increases in the strictness of SO2- and NOX-EPT standards, among 31 provincial-level administrative regions in mainland China; the administrative regions are concentrated in the eastern and central regions. The increases in the stringency of the standards for the two air pollutants in other provinces are generally consistent, except for Tianjin, with an increase in regulated levels of SO2 (NOX) of 3.70 (1.50) Yuan/pollution equivalent. Among all regions in which SO2- and NOX-EPT standards improved, the maximum improvement value was captured in Nanjing, with an increase of 4.80 Yuan/pollution equivalent. Approximately 43.1% of regions have increased their EPT-regulated standards for air pollutants by more than 2.00 Yuan/pollution equivalent, indicating the determination of the Chinese government with respect to environmental governance.
+Figure 1. The spatial distribution of the changes in the collection standards of EPT for SO2 and NOX in China.
+2.2. Data Employed
+2.2.1. Ground-Level O3
+To explore the effect of the EPT reform on O3 pollution, we used panel data of 221 cities in China from 2015 to 2020 as samples in our empirical model. These panel data trim all continuous variables by dropping observations outside the range of the 1st to the 99th percentile to reduce the effects of uncertainty of heteroscedasticity upon the results. Table 1 shows the descriptive statistics for the explained, explanatory, control, and mechanism variables used here. Among them, the ground level maximum eight-hour O3 concentration ( M D A 8   O 3 ) was selected as the explained variable, which was collected from the China High Air Pollutants (CHAP) dataset (https://weijing-rs.github.io/product.html, accessed on 5 June 2024) [25]. Based on surface measurements and satellite remote sensing records, the M D A 8   O 3 concentration was calculated by the ensemble learning method called extremely randomized trees (extra-trees, or ERT), at spatiotemporal resolutions of 10 km and 1 day. The annual mean M D A 8   O 3 concentration was 94.921 μg/m3, and the maximum value reached 123.850 μg/m3, indicating that O3 pollution was relatively severe in China during our study period. In addition, to eliminate the heteroscedasticity caused by different data units, we took logarithmic measurements of M D A 8   O 3 concentration ( ln O 3 ).
+Table 1. The descriptive statistics for all variables.
+2.2.2. Environmental Protection Tax
+To accurately identify the potential impacts of EPT reform on O3 pollution, a dummy variable ( E P T R ) was established in our econometric model. If the standard of EPT reform was improved in a certain city in 2018 and in subsequent years, the values of this variable are 1, and 0 is used in other cases. Table 1 also shows the descriptive statistics of the E P T R . The mean value was 0.260, which met the construction requirements of DID model-building.
+2.2.3. Other Control Data
+According to the environmental Kuznets curve, there is an inverted “U” relationship between economic development and environmental pollution [26]. For this item, we selected the GDP per capita ( P G D P ) and its square term ( P G D P 2 ), which could reveal the overall level of the regional economy. Moreover, population density ( P o p ) is often considered an influencing factor in environmental pollution [27]. High population density usually means a higher degree of industrialization and urbanization, resulting in higher levels of polluting emissions [28]. Meanwhile, local residents will tend to be more concerned about changes in local environmental conditions and are more willing to improve environmental quality. Accordingly, we measure population density by using the ratio of the total population to the land area of the administrative region at the end of the year [29]. The level of openness to the outside world and to the development of science and technology both can reflect the potential for pollution control at the local scale [30,31]. Here, we selected the proportion of foreign direct investment in GDP and the ratio of science and technology expenditure to local fiscal general budget expenditure to measure the openness level ( O p e n ) and regional technology level ( T e c ), respectively. All of the socioeconomic index data are collected from the China City Statistical Yearbook. Furthermore, natural factors could affect the relationships among the policy effects on air pollution [32]. To control these effects, we added the annual average precipitation ( T p ), as a control variable, to the DID model. The T p data were sourced from the ERA5 dataset available in the European Centre for Medium-Range Weather Forecasts (ECMWF), which has been confirmed to be accurate for model building [33]. In a treatment similar to that used for the O3 concentration, all dimensional variables were logarithmically calculated to eliminate erroneous estimates caused by heteroscedasticity.
+2.2.4. Mechanism Variables
+Energy consumption, technological progress, and industrial structure were important channels through which EPT reforms affected O3 concentration. From the perspective of energy consumption, the taxation standards for pollutants such as SO2 and NOX were raised by the EPT reform, the costs of using coal and other energy sources were indirectly increased, and enterprises were prompted to vigorously develop cleaner new energy sources [31]. SO2 and NOX emissions would be reduced by this shift, which, in turn, would lead to a reduction in O3 pollution. Based on this, energy consumption ( E c ) was measured in this study by industrial electricity consumption (switched to standard coal, the same as below) [30]. From the perspective of industrial structure, the production methods of heavily polluting enterprises became unsustainable, as affected by the EPT reform, leading to their forced withdrawal from the market; thus, the industrial structure was optimized [34]. In addition, optimizing the industrial structure, that is, reducing the proportion of secondary industry in the GDP while increasing the proportion of tertiary industry in the GDP, directly reduces O3 pollution. The reason is that the higher the proportion of secondary industry in GDP is, the more serious the air pollution is [35]. Based on this, industrial structure ( I s o ) was measured in this study by the ratio of the output value of secondary industry to the output value of tertiary industry [36]. From the perspective of technological progress, the production and operation costs of enterprises were increased by the EPT reform, and enterprises were prompted to strengthen technological innovation, achieve a sustainable development based on making up for cost losses [37], and then reduce O3 pollution. The technological progress aspect was divided into two parts in this study. The first part was innovation input ( I n n v ), which was measured by the ratio of research and development (R&D) internal expenditure to the number of R&D personnel [38]. The second part was innovation output, which is expressed in terms of green technological innovation ( G p p ) and energy efficiency ( E e ). Green patent ownership per capita (considering the lag in patent acquisition, the lag was processed together on the return) [39] and the ratio of GDP to energy consumption were measured [30]. In addition to the green patent data from the Chinese Research Data Services Platform, all the socioeconomic index data are collected from the China City Statistical Yearbook. In a treatment similar to that used for the O3 concentration, all dimensional variables were logarithmically calculated to eliminate erroneous estimates caused by heteroscedasticity.
+2.3. Methods Employed
+2.3.1. Econometric Model
+The main purpose of this paper is to explore the impacts of the EPT reform on O3 pollution. The flowchart of this paper’s methodology is reported as Figure 2. A DID model was established based on the practice of Liu et al. [40], with the EPT reform implementation considered a quasi-natural experiment in order to quantitatively identify its effectiveness on O3 pollution. The DID model is set as follows:
+ln O 3   i , t = α 0 + α 1 E P T R P i , t + α 2 X i , t + λ i + ν t + ε i , t
+(1)
+E P T R P i , t = T i m e t × T r e a t i
+(2)
+where i and t represent regions and time, respectively.   ln O 3   i , t represents the logarithmic value of the near-surface M D A 8   O 3 concentration. E P T R P i , t is the policy item, indicating EPT implementation, which was calculated according to Formula (2). Among them, T r e a t i is an individual dummy variable; if the city value belongs to a city with an EPT reform and the pollution standard was raised, it takes the value of 1; otherwise, it is 0. T i m e t is a time dummy variable which takes the value of 1 in 2018 and beyond, and 0 otherwise. α 1 is the average change in O3 concentrations in cities that raised discharge standards relative to other cities during the implementation of the policy. X i , t represents a set of control variable vectors, including ln P G D P , ln P G D P 2 , ln P o p , O p e n , T e c and ln T p . λ i is the city-fixed effect to control all the influencing factors that do not change with the city, e.g., climate, geographical features, and natural endowments. ν t is a year-fixed effect to control all influencing factors that do not change with the individual over time, e.g., macroeconomic shocks, and fiscal and monetary policies and economic cycles. ε i , t is the random perturbation term.
+Figure 2. The flowchart of this study.
+2.3.2. Parallel Trend
+The parallel-trend test can identify the reasonableness and reliability of our DID model, and thus can test the consistency of O3 concentration in the treatment and control groups before the implementation of the EPT reform policy. Here, we conducted parallel-trend tests according to Li et al. [41], as follows:
+ln O 3   i , t = β 0 + ∑ t = 2015 2020 β j t r e a t × ν t + X i , t + λ i + ν t + ε i , t
+(3)
+Among all years, 2017 is the base year of our study. β j represents the estimated coefficient of the variables from 2015 to 2020, and other variables are set the same as in Model (1). β j is the core coefficient of interest for the parallel-trend test, as it can reflect the difference in O3 pollution between the experimental and control groups in year t . If the results of our DID model are reliable, β j will be insignificant before the EPT reform implementation.
+2.3.3. Mechanism Analysis Model
+To investigate the mechanisms by which the EPT reform can effectively mitigate O3 pollution, based on Model (1) in this paper, Model (3) was constructed by replacing the explained variables:
+M V i , t = α 0 + α 1 E P T R P i , t + α 2 X i , t + λ i + ν t + ε i , t
+(4)
+Among them, mechanism variables ( M V ) represent energy consumption ( ln E c ), industrial structure ( I s o ), innovation input ( ln I n n v ), green technological innovation ( ln G p p ) and energy efficiency ( ln E e ). The remaining variables and their explanations were consistent with those in Model (1). If α 1 is significant and meets expectations, then it is a reasonable channel of influence.
+2.3.4. Placebo Test
+Specifically, the policy randomly disturbed the sample cities, while the number of treatment and control groups equal to the benchmark regression was selected. To represent the real state of affairs, the cities in the treatment groups implement EPT reforms, and the cities in the control groups do not. Furthermore, the benchmark regression is performed according to Equation (1) and repeated 500 times. Here, we calculated the kernel density values of 500 estimated coefficients.
+3. Results and Discussion
+3.1. The Effect of the EPT Reform on O3
+Table 2 shows the results of our DID model. Among them, columns (1) to (3) are listed as the regression results, with the gradual addition of control variables. Overall, the coefficient of E P T R P is significantly negative with or without control variables (p < 0.1). In particular, the coefficient of the policy shock variable ( E P T R P ) in column (3) is −0.021 (p < 0.1), indicating that the O3 concentration can be decreased by 2.1% with the reformation of the EPT policy.
+Table 2. Regression results of the DID model.
+For the control variables, the coefficients of ln P G D P and ln P G D P 2 are 1.530 (p < 0.05) and −0.070 (p < 0.05), respectively. This proves that the inverted “U” shape of the environmental Kuznets curve indicates that economic development and environmental pollution are not simply linear relationships in China. The coefficient of T e c is significantly positive, suggesting that the improvement of the technological level will increase the emission of pollution. Here, the level of technology does not refer to green technology and therefore does not necessarily inhibit polluting emissions, especially for some precursors. In addition, the improvement of the technology level may prompt enterprises to expand their scales of production, resulting in aggravated pollution emissions [42]. The coefficient of ln T p is significantly negative, indicating that an increase in precipitation will have a certain wet removal effect on air pollutants. Notably, the regression results of the remaining control variables ( O p e n and ln P o p ) are not the determinants of O3 concentration, which shows that it is necessary to further optimize the urban industrial structure, give full play to the emission reduction effect of population agglomeration, and introduce advanced pollution control concepts and equipment to reduce O3 pollution.
+3.2. Parallel-Trend Test
+Figure 3 shows the results of the parallel-trend test. Before the implementation of the policy, there were no significant differences as to change in O3 concentration between cities with and without raised discharge standards, which satisfies the parallel-trend hypothesis. In addition, a significant decline was captured in the second year (2020) after the implementation of the EPT reform, indicating that there is a lag period in the impact of the EPT reform on O3 pollution. As an important source of precursor emissions, enterprise production often optimizes and updates its own equipment to reduce pollution emissions. However, the improvement of enterprise equipment may take a long time, resulting in a lag in the impacts of EPT reform on O3 pollution [43].
+Figure 3. The results of the parallel-trend test.
+3.3. Robustness Tests
+3.3.1. Placebo Test
+We performed robustness tests to ensure the accuracy of our benchmark regression. First, to further determine whether the results of this study are influenced by random factors at the city or year level, we performed a placebo test according to the method of Li et al. [41]. Figure 4 shows the mean of the regression estimate coefficients after 500 random assignments. The mean of the estimated coefficients of all values is concentrated around the 0 value, indicating that the virtual policy shock does not affect O3 pollution. Moreover, the p values (red, solid circles) of 500 estimated coefficients are shown in Figure 4. Most of the p values are above 0.1, suggesting that most of the 500 regression results are not significant. In addition, the true regression coefficient (−0.021, i.e., the red vertical line) is a significant outlier, proving the robustness of our benchmark regression results.
+Figure 4. The results of the placebo test.
+3.3.2. Exclude Municipality Data
+Considering that the administrative levels, as well as the economic, political, and cultural levels, of municipalities are all higher than those of ordinary prefecture-level cities [36], this possibly leads to significant uncertainty in benchmark regression results. Therefore, we exclude the sample of four municipalities and perform a benchmark regression according to Equation (1) to eliminate the errors caused by extreme values [44]. Column (1) of Table 3 shows the regression results. The regression coefficient is −0.023 (p < 0.1), indicating that the EPT reform will significantly reduce O3 pollution, which is consistent with the results of our benchmark regression. This phenomenon confirms the robustness of our DID model.
+Table 3. The regression results of robustness test.
+3.3.3. Exclude Other Policy Implications
+During our study period, other environmental policies were successively promulgated in China, which could cause uncertainties in the evaluation of the impacts of the EPT reform on O3 pollution. To accurately evaluate the effectiveness of the EPT reform, referring to the method of Li et al. [41], we excluded other policy implications affecting our DID model. Because the Three-Year Action Plan for Winning the Blue Sky Defence War was implemented at the same time as the EPT reform (in 2018), this policy acted to reduce contemporaneous O3 pollution and its precursors (NOX, etc.) [45,46]; therefore, we excluded the samples from the key regional cities set out in the Three-Year Action Plan for Winning the Blue Sky Defence War, as issued by the State Council. In addition, the samples of the third batch of low-carbon pilot cities (set in 2017) are excluded here. Then, we performed regression according to Model (1), and column (2) of Table 3 shows the results of the DID model. The benchmark regression results are still significantly negative, with a regression coefficient of −0.028 (p < 0.05), indicating that the results of our benchmark regression are not disturbed by the implementation of other environmental policies.
+3.3.4. Prior Policy Implementation Times
+In the time before the EPT reform, the environmental tax law was first issued in 2016, and may have had a foreseeable effect on the relationships between O3 pollution and the EPT. Thus, to eliminate concerns about the time in which the policy was implemented, we set the policy implementation time of EPT reform to 2016 for robustness testing here. Column (3) of Table 3 shows the results of the virtual implementation time of the EPT reform. Obviously, the regression coefficient is not significant for this DID model, suggesting that the expected effects of the EPT law can be excluded, and this can also verify that our benchmark regression results are robust.
+3.4. Heterogeneity Analysis
+3.4.1. Impacts of EPT Reform by Means of Environmental Regulations
+Through the benchmark regression model, we have found that EPT reform can significantly reduce O3 pollution. However, due to the differences in urban geographical and internal characteristics at the city scale, there may be differences in the responsiveness of O3 pollution levels to EPT reforms. Based on this, we investigated the heterogeneity between National Environmental Protection Model (EPM) cities and non-EPM cities, coastal and inland cities, and fiscally high- and low-level cities. Figure 5a depicts the spatial distribution of EPM cities and non-EPM cities. These cities were proposed by the Ministry of Environmental Protection of China in accordance with the Ninth Five-Year Plan for National Environmental Protection and the Long-term Objectives for 2010; they have played active, exemplary roles in promoting the construction of ecological civilization and are excellent representatives of sustainable-development cities. EPM cities account for approximately 26.3% of all sample elements, and are mainly distributed in the eastern and central regions of China. Columns (1) and (2) of Table 4 show the regression results of the heterogeneity analysis. The EPT reform policy mainly has the expected policy effect in non-EPM cities, with a regression coefficient of −0.025 (p < 0.1). The reason is that the EPM cities have done relatively well in matters of air pollution control, and the EPT reform did not play its expected role.
+Figure 5. The spatial distribution of sample heterogeneity: (a–c) show the differences in the environmental protection model (EPM), spatial location, and financial level, respectively.
+Table 4. The results of heterogeneity analysis.
+3.4.2. Impacts of EPT Reform by Region
+Figure 5b shows the spatial distribution of coastal and inland cities, which account for approximately 39.8% and 60.2% of cities, respectively; the coastal cities are concentrated in eastern and southeastern China. Then, we performed regression according to Model (1); the regression results are shown in columns (3) and (4) of Table 4. Obviously, the EPT reform mainly plays a role in controlling O3 pollution in inland cities, with a regression coefficient of −0.050 (p < 0.01), while it is not significant in coastal cities (p > 0.1). Inland cities are heavily polluted and more sensitive to environmental policies. Meanwhile, due to the influence of their own geographical environment, natural factors, e.g., sea breezes, in coastal cities may also reduce O3 pollution.
+3.4.3. Impacts of EPT Reform by Financial Level
+In accord with the method of Yin et al. [47], we used the ratio of local fiscal general budget expenditure to regional GDP to measure the regional fiscal level. The sample was divided into two equal parts (high-level and low-level fiscal) according to the 2015 financial levels. Note that the base period was set before the implementation of the policy, which is beneficial for mitigating the interference of the policy with the sample group and reducing endogenous interference. Columns (5) and (6) of Table 4 show the heterogeneity regression results. In general, regions with higher regional financial levels usually have more financial strength, allowing them to carry out energy-saving and emission reduction activities, and more investment is made in introducing advanced green technologies and equipment. Therefore, the impact of EPT reform on O3 pollution in cities with high-level fiscal arrangements is significantly negative, with a regression coefficient of −0.044 (p < 0.05), while the impact on cities with low-level fiscal arrangements is not significant (p > 0.1).
+4. Impact Mechanism Analysis
+The implementation of environmental regulations can increase the production and operation costs of enterprises; if the profits obtained by enterprises are less than the costs of production losses, then enterprises will choose to reduce production to meet the standards of environmental regulations, resulting in a decrease in energy consumption, such as electricity consumption [48]. The reduction of energy consumption favors the reduction of O3 pollution. In addition, with the introduction of environmental protection and energy conservation enterprises, a ‘crowding out effect’ on pollution-intensive industries was magnified at the regional scale. In these cases, commercial banks would reduce loans to heavily polluting enterprises, resulting in the enhancement of the financing costs of heavily polluting enterprises. Eventually, the producing enterprises would be withdrawn from the market, the proportion of secondary and tertiary industries would be reduced, and the urban industrial structure would be optimized [49]. Furthermore, at the market-mechanism level, the EPT reform policy can increase the enterprise’s green patent output by increasing the R&D investment, and then improve the enterprise’s innovation ability [16], and this improvement of innovation ability will increase the total factor productivity of enterprises so that less resource input produces more output, reducing the pollution emissions per unit output of enterprises [50,51]. Based on the above theoretical aspects, as combined with the mediating-effect model, we explored the impact mechanisms of EPT reform on O3 as to the levels of energy consumption reduction, industrial structure optimization, and scale of technological progress.
+Table 5 shows the regression results of the impact mechanism analysis of EPT reform relative to O3. At the energy consumption reduction level, column (1) in Table 5 reveals that the regression coefficient of ln E c is significantly negative, with a value of −0.030 (p < 0.1), indicating that environmental tax reform can curb O3 pollution by reducing industrial electricity. Because industrial electricity consumption is highly correlated with the level of total energy consumption [30], the EPT reform would reduce energy consumption, which is beneficial for reducing O3 pollution.
+Table 5. The results of the mechanism analysis.
+Column (2) in Table 5 shows the impact mechanism of industrial structure optimization. Obviously, EPT reform can significantly promote the transformation and upgrading of industrial structure, and the regression coefficient of the policy shock variable to I s o was −0.070 (p < 0.05). This means that the path of optimizing industrial structure through EPT reform to reduce urban O3 pollution is effective [32].
+For technological progress, we further conducted the mechanism analysis from both the input and output perspectives. Column (3) in Table 5 shows that the implementation of the EPT reform can significantly promote innovation investment, with the regression coefficient of the policy shock variable to ln I n n v being 0.256 (p < 0.05). Among all variables, upgrading production processes and introducing advanced processing equipment are important means used to control O3 pollution [40]. For output perspectives, columns (4) and (5) of Table 5 suggest that increasing innovative output is a way to reduce O3 pollution through EPT reform, with regression coefficients of ln G p p and ln E e being 0.111 (p < 0.05) and 0.032 (p < 0.1), respectively.
+5. Conclusions and Policy Recommendations
+Currently, the Chinese government has attached great importance to environmental pollution issues, especially O3 pollution, and many environmental regulatory measures have been gradually applied for the purpose of O3 pollution control. Overall, the contributions of the EPT reform policy cannot be ignored. In this context, we used the difference-in-differences method to empirically analyze the impacts of the implementation of the EPT reform policy on O3 pollution control. The empirical analysis results indicate that the EPT reform policy can effectively reduce regional O3 pollution by approximately 2.1%, which is accurate and reliable, after many robustness tests. Furthermore, the potential impact mechanism has been explored. Energy consumption, industrial structure optimization, and technological progress are confirmed as the essential paths for O3 pollution control. However, due to the differences in urban geographical characteristics and economic development, there is significant spatial heterogeneity in the effectiveness of the EPT reform policy in O3 pollution control. More effective effects were captured in national environmental protection model cities, inland cities, and fiscally high-level cities.
+The limitations of the research in this paper include the following: First, there is no further delving into the spatial effects of EPT policies on O3 impacts, because of the specific spatial spillover effects of O3 pollution. Second, there is no further delving into the enterprise level to specifically study the ways in which EPT reduces O3 pollution. Third, there is no further delving into enterprise-level analysis to specifically investigate the ways in which EPT reduces O3 pollution.
+To further leverage the control effects of the EPT reform policy as to O3 pollution, we draw some policy recommendations. First, support and accelerate the transformation and upgrading of the regional industrial structure. During the implementation of the EPT, local governments should take the initiative to support relevant measures that are beneficial to the adjustment of the industrial structure. While introducing high-precision and cutting-edge technology enterprises, resource-intensive enterprises should be actively guided to transform into capital-intensive enterprises.
+Second, urban innovation capabilities should be strengthened. For EPT reform, it is necessary to optimize the market business environment, increase environmental protection investment-related incentives, and help enterprises improve their innovation capabilities. In addition, the local government needs to ease the financing constraints of enterprises and solve the problems of difficult and expensive financing for small and medium-sized enterprises.
+Third, the transfer of pollution from enterprises should be prevented and controlled. To avoid the costs of environmental regulation, governments should strengthen cooperation in environmental regulation and jointly address regional O3 pollution issues to prevent companies from choosing to transfer pollution. Additionally, collaborative management of multiple pollutants, especially PM2.5 and O3, ultimately achieves comprehensive improvements in air quality in China.
+Finally, control measures for O3 need to be strengthened to effectively improve air quality. This paper found that the implementation of EPT led to a significant reduction in urban O3 concentrations. Therefore, local governments need to gradually raise the pollutant levy standards and form effective constraints on the pollutant emission behavior of enterprises in order to strengthen the control of O3 and improve the overall air environment.
+Author Contributions
+Methodology, Z.X.; validation, W.X., Z.X. and Z.Y.; formal analysis, W.X. and Z.X.; investigation, W.X. and Z.X.; data curation, X.L. and L.W.; writing—original draft preparation, W.X., Z.X. and Z.Y.; writing—review and editing, W.X., Z.X., X.L. and Z.Y.; visualization, L.W. and X.L.; funding acquisition, W.X. All authors have read and agreed to the published version of the manuscript.
+Funding
+This study was supported by the National Natural Science Foundation of China Youth Fund (42207541).
+Institutional Review Board Statement
+Not applicable.
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+The data that support the findings of this study are available on request from the corresponding author. The data are not publicly available due to privacy or ethical restrictions.
+Conflicts of Interest
+The authors declare no conflicts of interest.
+Abbreviations
+Explained variable Ozone O3
+Explanatory variable Environmental protection tax EPTR
+Control variables GDP per capita and its square term PGDP and PGDP2
+Population density POP
+Openness level Open
+Technology level Tec
+Annual average precipitation TP
+Mechanism variables Energy consumption Ec
+Industrial structure Iso
+Innovation input Invv
+Green technological innovation Gpp
+Energy efficiency Ee
+References
+Wu, H.; Hao, Y.; Weng, J. How does energy consumption affect China’s urbanization? New evidence from dynamic threshold panel models. Energy Policy 2019, 127, 24–38. [Google Scholar] [CrossRef]
+Zhu, L.; Hao, Y.; Lu, Z.; Wu, H.; Ran, Q. Do economic activities cause air pollution? Evidence from China’s major cities. Sustain. Cities Soc. 2019, 49, 101593. [Google Scholar] [CrossRef]
+Zhang, J.; Liu, Y.; Zhou, M.; Chen, B.; Liu, Y.; Cheng, B.; Xue, J.; Zhang, W. Regulatory effect of improving environmental information disclosure under environmental tax in China: From the perspectives of temporal and industrial heterogeneity. Energy Policy 2022, 164, 112760. [Google Scholar] [CrossRef]
+Huang, L.; Zhu, Y.; Liu, H.; Wang, Y.; Allen, D.T.; Chel Gee Ooi, M.; Manomaiphiboon, K.; Talib Latif, M.; Chan, A.; Li, L. Assessing the contribution of open crop straw burning to ground-level ozone and associated health impacts in China and the effectiveness of straw burning bans. Environ. Int. 2023, 171, 107710. [Google Scholar] [CrossRef]
+Wang, Y.; Wang, Y.; Feng, Z.; Yuan, X.; Zhao, Y. The impacts of ambient ozone pollution on China’s wheat yield and forest production from 2010 to 2021. Environ. Pollut. 2023, 330, 121726. [Google Scholar] [CrossRef]
+Malashock, D.A.; Delang, M.N.; Becker, J.S.; Serre, M.L.; West, J.J.; Chang, K.; Cooper, O.R.; Anenberg, S.C. Global trends in ozone concentration and attributable mortality for urban, peri-urban, and rural areas between 2000 and 2019: A modelling study. Lancet Planet. Health 2022, 6, e958–e967. [Google Scholar] [CrossRef]
+Long, F.; Lin, F.; Ge, C. Impact of China’s environmental protection tax on corporate performance: Empirical data from heavily polluting industries. Environ. Impact Assess. Rev. 2022, 97, 106892. [Google Scholar] [CrossRef]
+Fang, G.; Yang, K.; Tian, L.; Ma, Y. Can environmental tax promote renewable energy consumption?—An empirical study from the typical countries along the Belt and Road. Energy 2022, 260, 125193. [Google Scholar] [CrossRef]
+Rafique, M.Z.; Fareed, Z.; Ferraz, D.; Ikram, M.; Huang, S. Exploring the heterogenous impacts of environmental taxes on environmental footprints: An empirical assessment from developed economies. Energy 2022, 238, 121753. [Google Scholar] [CrossRef]
+Zimmer, A.; Koch, N. Fuel consumption dynamics in Europe: Tax reform implications for air pollution and carbon emissions. Transp. Res. Part A Policy Pract. 2017, 106, 22–50. [Google Scholar] [CrossRef]
+Esen, Ö.; Yıldırım, D.Ç.; Yıldırım, S. Pollute less or tax more? Asymmetries in the EU environmental taxes—Ecological balance nexus. Environ. Impact Assess. Rev. 2021, 91, 106662. [Google Scholar] [CrossRef]
+Parry, I.W.H. Reforming the tax system to promote environmental objectives: An application to Mauritius. Ecol. Econ. 2012, 77, 103–112. [Google Scholar] [CrossRef]
+Wang, L.; Ma, P.; Song, Y.; Zhang, M. How does environmental tax affect enterprises’ total factor productivity? Evidence from the reform of environmental fee-to-tax in China. J. Clean Prod. 2023, 413, 137441. [Google Scholar] [CrossRef]
+He, Y.; Zhu, X.; Zheng, H. The influence of environmental protection tax law on total factor productivity: Evidence from listed firms in China. Energy Econ. 2022, 113, 106248. [Google Scholar] [CrossRef]
+Li, P.; Lin, Z.; Du, H.; Feng, T.; Zuo, J. Do environmental taxes reduce air pollution? Evidence from fossil-fuel power plants in China. J. Environ. Manag. 2021, 295, 113112. [Google Scholar] [CrossRef]
+Gao, X.; Liu, N.; Hua, Y. Environmental Protection Tax Law on the synergy of pollution reduction and carbon reduction in China: Evidence from a panel data of 107 cities. Sustain. Prod. Consum. 2022, 33, 425–437. [Google Scholar] [CrossRef]
+Lu, J. Can environmental protection tax aggravate illegal pollution discharge of heavy polluting enterprises? Environ. Sci. Pollut. Res. 2022, 29, 33796–33808. [Google Scholar] [CrossRef] [PubMed]
+Lamla, M.J. Long-run determinants of pollution: A robustness analysis. Ecol. Econ. 2009, 69, 135–144. [Google Scholar] [CrossRef]
+Zhao, N.; Wang, C.; Shi, C.; Liu, X. The effect of education expenditure on air pollution: Evidence from China. J. Environ. Manag. 2024, 359, 121006. [Google Scholar] [CrossRef]
+Dong, S.; Ren, G.; Xue, Y.; Liu, K. How does green innovation affect air pollution? An analysis of 282 Chinese cities. Atmos. Pollut. Res. 2023, 14, 101863. [Google Scholar] [CrossRef]
+Levinson, A. Technology, International Trade, and Pollution from US Manufacturing. Am. Econ. Rev. 2009, 99, 2177–2192. [Google Scholar] [CrossRef]
+Yang, Z.; Xiong, Z.; Wang, L.; Xue, W. Can PM2.5 concentration reduced by China’s environmental protection tax? Sci. Total Environ. 2024, 937, 173499. [Google Scholar] [CrossRef] [PubMed]
+Du, J.; Li, Z.; Shi, G.; Wang, B. Can “environmental protection fee to tax” reduce carbon emissions? Evidence from China. Financ. Res. Lett. 2024, 62, 105184. [Google Scholar] [CrossRef]
+Xue, W.; Wang, L.; Yang, Z.; Xiong, Z.; Li, X.; Xu, Q.; Cai, Z. Can clean heating effectively alleviate air pollution: An empirical study based on the plan for cleaner winter heating in northern China. Appl. Energy 2023, 351, 121923. [Google Scholar] [CrossRef]
+Wei, J.; Li, Z.; Li, K.; Dickerson, R.R.; Pinker, R.T.; Wang, J.; Liu, X.; Sun, L.; Xue, W.; Cribb, M. Full-coverage mapping and spatiotemporal variations of ground-level ozone (O3) pollution from 2013 to 2020 across China. Remote Sens. Environ. 2022, 270, 112775. [Google Scholar] [CrossRef]
+Grossman, G.M.; Krueger, A.B. Economic Growth and the Environment. Q. J. Econ. 1995, 110, 353–377. [Google Scholar] [CrossRef]
+Jia, R.; Shao, S.; Yang, L. High-speed rail and CO2 emissions in urban China: A spatial difference-in-differences approach. Energy Econ. 2021, 99, 105271. [Google Scholar] [CrossRef]
+Xie, Y.; Wu, D.; Zhu, S. Can new energy vehicles subsidy curb the urban air pollution? Empirical evidence from pilot cities in China. Sci. Total Environ. 2021, 754, 142232. [Google Scholar] [CrossRef]
+Chen, Y.; Wang, Y.; Zhao, C. How do high-speed rails influence city carbon emissions? Energy 2023, 265, 126108. [Google Scholar] [CrossRef]
+Tu, Z.; Hu, T.; Shen, R. Evaluating public participation impact on environmental protection and ecological efficiency in China: Evidence from PITI disclosure. China Econ. Rev. 2019, 55, 111–123. [Google Scholar] [CrossRef]
+Fang, G.; Chen, G.; Yang, K.; Yin, W.; Tian, L. Can green tax policy promote China’s energy transformation?—A nonlinear analysis from production and consumption perspectives. Energy 2023, 269, 126818. [Google Scholar] [CrossRef]
+Wang, X.; Zhang, Q.; Chang, W. Does economic agglomeration affect haze pollution? Evidence from China’s Yellow River basin. J. Clean. Prod. 2022, 335, 130271. [Google Scholar] [CrossRef]
+Xue, W.; Zhang, J.; Zhong, C.; Li, X.; Wei, J. Spatiotemporal PM2.5 variations and its response to the industrial structure from 2000 to 2018 in the Beijing-Tianjin-Hebei region. J. Clean. Prod. 2021, 279, 123742. [Google Scholar] [CrossRef]
+He, Y.; Zheng, H. How does environmental regulation affect industrial structure upgrading? Evidence from prefecture-level cities in China. J. Environ. Manag. 2023, 331, 117267. [Google Scholar] [CrossRef] [PubMed]
+Zheng, Y.; Peng, J.; Xiao, J.; Su, P.; Li, S. Industrial structure transformation and provincial heterogeneity characteristics evolution of air pollution: Evidence of a threshold effect from China. Atmos. Pollut. Res. 2020, 11, 598–609. [Google Scholar] [CrossRef]
+Sun, L.; Li, W. Has the opening of high-speed rail reduced urban carbon emissions? Empirical analysis based on panel data of cities in China. J. Clean. Prod. 2021, 321, 128958. [Google Scholar] [CrossRef]
+Porter, M.E.; Linde, C.V.D. Toward a New Conception of the Environment-Competitiveness Relationship. J. Econ. Perspect. 1995, 9, 97–118. [Google Scholar] [CrossRef]
+Huang, J.; Zhao, J.; Cao, J. Environmental regulation and corporate R&D investment—Evidence from a quasi-natural experiment. Int. Rev. Econ. Financ. 2021, 72, 154–174. [Google Scholar]
+Feng, Y.; Chen, Z.; Nie, C. The effect of broadband infrastructure construction on urban green innovation: Evidence from a quasi-natural experiment in China. Econ. Anal. Policy 2023, 77, 581–598. [Google Scholar] [CrossRef]
+Liu, G.; Yang, Z.; Zhang, F.; Zhang, N. Environmental tax reform and environmental investment: A quasi-natural experiment based on China’s Environmental Protection Tax Law. Energy Econ. 2022, 109, 106000. [Google Scholar] [CrossRef]
+Li, X.; Du, K.; Ouyang, X.; Liu, L. Does more stringent environmental regulation induce firms’ innovation? Evidence from the 11th Five-year plan in China. Energy Econ. 2022, 112, 106110. [Google Scholar] [CrossRef]
+Fisher-Vanden, K.; Sue Wing, I. Accounting for quality: Issues with modeling the impact of R&D on economic growth and carbon emissions in developing economies. Energy Econ. 2008, 30, 2771–2784. [Google Scholar]
+Zhang, B.; Yu, L.; Sun, C. How does urban environmental legislation guide the green transition of enterprises? Based on the perspective of enterprises’ green total factor productivity. Energy Econ. 2022, 110, 106032. [Google Scholar] [CrossRef]
+Yang, X.; Lin, S.; Li, Y.; He, M. Can high-speed rail reduce environmental pollution? Evidence from China. J. Clean. Prod. 2019, 239, 118135. [Google Scholar] [CrossRef]
+Feng, Y.; Ning, M.; Lei, Y.; Sun, Y.; Liu, W.; Wang, J. Defending blue sky in China: Effectiveness of the “Air Pollution Prevention and Control Action Plan” on air quality improvements from 2013 to 2017. J. Environ. Manag. 2019, 252, 109603. [Google Scholar] [CrossRef] [PubMed]
+Li, T.; Yang, Q.; Wang, Y.; Wu, J. Joint estimation of PM2.5 and O3 over China using a knowledge-informed neural network. Geosci. Front. 2023, 14, 101499. [Google Scholar] [CrossRef]
+Yin, X.; Chen, D.; Ji, J. How does environmental regulation influence green technological innovation? Moderating effect of green finance. J. Environ. Manag. 2023, 342, 118112. [Google Scholar] [CrossRef] [PubMed]
+Xie, Y.; Dai, H.; Dong, H. Impacts of SO2 taxations and renewable energy development on CO2, NOX and SO2 emissions in Jing-Jin-Ji region. J. Clean. Prod. 2018, 171, 1386–1395. [Google Scholar] [CrossRef]
+Yang, J.; Shi, D.; Yang, W. Stringent environmental regulation and capital structure: The effect of NEPL on deleveraging the high polluting firms. Int. Rev. Econ. Financ. 2022, 79, 643–656. [Google Scholar] [CrossRef]
+Dai, X.; Sun, Z. Does firm innovation improve aggregate industry productivity? Evidence from Chinese manufacturing firms. Struct. Chang. Econ. Dyn. 2021, 56, 1–9. [Google Scholar] [CrossRef]
+Dong, K.; Shahbaz, M.; Zhao, J. How do pollution fees affect environmental quality in China? Energy Policy 2022, 160, 112695. [Google Scholar] [CrossRef]
+
+
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Xue, W.; Xiong, Z.; Wang, L.; Yang, Z.; Li, X. Can Environmental Protection Tax Decrease Urban Ozone Pollution? A Quasi-Natural Experiment Based on Cities in China. Sustainability 2024, 16, 4851. https://doi.org/10.3390/su16114851
+AMA Style
+Xue W, Xiong Z, Wang L, Yang Z, Li X. Can Environmental Protection Tax Decrease Urban Ozone Pollution? A Quasi-Natural Experiment Based on Cities in China. Sustainability. 2024; 16(11):4851. https://doi.org/10.3390/su16114851
+Chicago/Turabian Style
+Xue, Wenhao, Zhenwu Xiong, Liyun Wang, Zhe Yang, and Xinyao Li. 2024. "Can Environmental Protection Tax Decrease Urban Ozone Pollution? A Quasi-Natural Experiment Based on Cities in China" Sustainability 16, no. 11: 4851. https://doi.org/10.3390/su16114851
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details here.
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views6. Jun11. Jun16. Jun21. Jun26. Jun1. Jul6. Jul11. Jul16. Jul21. Jul0200400600800
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Sustainability, EISSN 2071-1050, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

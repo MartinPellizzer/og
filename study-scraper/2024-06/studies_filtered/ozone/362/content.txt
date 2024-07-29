@@ -1,0 +1,80 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature scientific reports articles article
+Article
+Open access
+Published: 05 June 2024
+Spatiotemporal changes in fine particulate matter and ozone in the oasis city of Korla, northeastern Tarim Basin of China
+Tayierjiang Aishan, Yaxin Sun, Ümüt Halik, Florian Betz, Asadilla Yusup & Remila Rezhake 
+Scientific Reports
+ 14, Article number: 12904 (2024) Cite this article
+239 Accesses
+Metrics
+Abstract
+Air pollution is a serious environmental health concern for humans and other living organisms. This study analyzes the spatial and temporal characteristics of air pollutant concentrations, changes in the degree of pollution, and the wavelet coherence of the air quality index (AQI) with pollutants in various monitoring stations. The analysis is based on long-term time series data (January 2016 to December 2023) of air pollutants (PM2.5, PM10, and O3) from Korla, an oasis city in the northeastern part of the Tarim Basin, China. The concentrations of PM2.5, PM10, and O3 in Korla showed a cyclical trend from 2016 to 2023; PM10 concentrations exhibited all-season exceedance and PM2.5 exhibited exceedance only in spring. PM2.5 and PM10 showed a seasonal distribution of spring > winter > fall > summer; O3 concentrations showed a seasonal distribution of summer > spring > fall > winter. Strong positive wavelet coherence between PM and Air Quality Index (AQI) data series suggests that the AQI data series can effectively characterize fluctuating trends in PM concentrations. Moreover, PM10 levels IV and VI were maintained at approximately 10%, indicating that sand and dust have a substantial influence on air quality and pose potential threats to the health of urban inhabitants. Based on the results of this study, future efforts must strengthen relative countermeasures for sand prevention and control, select urban greening species with anti-pollution capabilities, rationally expand urban green spaces, and restrict regulations for reducing particulate matter emissions within city areas.
+Similar content being viewed by others
+Spatial and temporal variations of air quality and six air pollutants in China during 2015–2017
+Article Open access
+23 October 2019
+Temporal variations in ambient air quality indicators in Shanghai municipality, China
+Article Open access
+09 July 2020
+Spatiotemporal variations of air pollutants based on ground observation and emission sources over 19 Chinese urban agglomerations during 2015–2019
+Article Open access
+11 March 2022
+Introduction
+Air pollution is a pressing global environmental concern that has significant impacts on atmospheric visibility, local climate, and the physical and mental health of human beings1,2. Air pollution is defined as a condition in which the concentration of specific substances in the air exceeds a certain threshold over a certain period, causing harm to humans or ecosystems3,4. Even brief exposure to air pollution raises a noteworthy risk to human health, exacerbating the Global Burden of Disease (GBD) and ultimately contributing to hospitalization and mortality rates3,5,6.
+Given rapid economic growth, industrialization, and urbanization, the deterioration of urban living environments has become a significant concern. There are up to 3.7 million premature deaths worldwide due to outdoor air pollution7. Recent data shows that 7 of the 10 most polluted cities in the world are in China8. Air pollution in China exceeds the levels recommended by the WHO9 and is the leading cause of death after heart attacks, dietary risks, and smoking10,11,12. Therefore, air quality has garnered significant attention from both the Chinese government and the general public.
+Particulate matter (PM) is of great concern due to its small size and large surface area, which makes it easy to adsorb airborne microorganisms, heavy metals, and other toxic substances. PM can penetrate the human body by respiration and settle in the lungs, posing a threat to human health13. The 2018 Environmental Performance Index [EPI] shows that the environmental quality of China ranked fourth, including PM2.514, China's PM2.5 concentrations tend to be well above the National Ambient Air Quality Standards (GB3095-2012 Level 2), which is equivalent to the WHO Interim Target I [IT-1]4.
+Since China implemented the ‘Ten Measures to Prevent and Control Air Pollution’ in 2013, air quality has improved to some extent; however, the situation remains prominent15,16. In recent years, many studies in developed areas of China, such as the Yangtze River Delta, the Pearl River Delta, and the North China Plain, have been conducted on urban air quality based on long-term air pollution data combined with a variety of experimental and modeling methods17,18. However, in Xinjiang, a relatively underdeveloped region in northwest China, urban air research has focused on the characteristics, meteorological effects and sources of air pollution in heavily industrialized cities on the northern slopes of the Tianshan Mountains19; The impact of the 2015 Taklamakan dust event on the air quality of urban areas in China20; Analysis of emission reduction measures and simulation study of PM2.5 concentration in Xinjiang's main cotton production area, and study of spatial21 and temporal characteristics of air pollution (PM2.5, PM10, SO2, NO2, CO, and O3) in surrounding areas caused by a large amount of wind-blown sand from the desert (Taklamakan Desert)22.
+Korla, an arid zone oasis city, is located adjacent to the Taklamakan Desert and experiences a high number of dust and sandy days throughout the year23. As such, it offers the potential to conduct studies related to urban air pollutants and their impact on human health under the influence of sandy and dusty weather. In this study, we utilized long-term daily average data of major PMs—PM2.5, PM10, and ozone (O3)—in Korla from 2016 to 2023 to quantify the spatiotemporal pattern of each pollutant. Additionally, we investigated the relationship between pollutant concentrations and Air Quality Index (AQI) wavelet coherence (WTC). The results of this study provide valuable scientific references for air quality management in Korla and are of great practical importance for improving air quality conditions, transitioning from natural sand and dust mixed with soot to natural sand and dust, in Korla and other arid oasis urban areas.
+Materials and methods
+Study area
+Korla is the capital city of Bayingolin (Bayin'guoleng) Mongolian Autonomous Prefecture (BMAP), China's largest prefecture-level administrative region, is located in Southern Xinjiang. The city sits at the southern foot of the Tianshan Mountains, on the northeastern edge of the Taklamakan Desert, southwest of Lake Bosten. Korla is situated in the transitional zone between the distinct climates of the northern and southern borders; cold and humid air from the north enters the territory of Korla, where it is blocked by the Khora and Kuruk mountains, resulting in a gradual decrease in humidity. It belongs to a warm temperate continental arid climate, characterized by adequate light and heat resources, with an average altitude of 950 m, an average annual rainfall of about 65 mm, and an average annual sunshine of about 2920 hours23. The dominant wind direction on the ground throughout the year is northeasterly. The city borders the Taklamakan Desert, experiencing 47.1 days of sand and dust weather per year, leading to severe sand and dust pollution23,24. Covering an area of approximately 7,268 km2, Korla serves as the gateway to the Middle Road of the ancient Silk Road.
+Methodology
+Data sources
+PM2.5, PM10, and O3 concentration data for Korla between January 1, 2016, and December 31, 2023, were retrieved from the Air Quality Data Network (www.aqistudy.cn/historydata). We selected three state-controlled monitoring stations in Korla that offer uninterrupted data monitoring, namely, Peacock Park (S1), Cotton Spinning Factory (S2), and Economic Development Zone (S3). These stations represent commercial, industrial, and residential areas within the primary urban area of Korla (Fig. 1 and Table 1).
+Figure 1
+Map of air quality monitoring stations in the study area. The figure is created using ArcMap 10.5 (ESRI Co., Ltd.; www.esri.com).
+Full size image
+Table 1 Overview of air quality monitoring stations in Korla.
+Full size table
+Air quality index
+The AQI was calculated according to the Technical Provisions from Ambient Air Quality Index (for Trial Implementation) [HJ 633–2012] and Air Quality Standards" (GB 3095–2012)25, as specified below:
+$${IAQI}_{P}=\frac{{IAQI}_{Hi}-{IAQI}_{L0}}{{BP}_{Hi}-{BP}_{L0}}\left({C}_{P}-{BP}_{L0}\right)+{IAQI}_{L0}$$ (1)
+where IAQIP stands for the air quality score of pollutant P, CP is the concentration of pollutant P, BPHi and BPL0 represent the upper and lower limits of the corresponding standard concentration, respectively, IAQIHi and IAQIL0 are the air quality sub-indexes corresponding to BPHi and BPL0, respectively.
+$$AQI=\text{max}\left\{{AIQI}_{1},{AIQI}_{2},{AIQI}_{3},\cdots {AIQI}_{n}\right\}$$ (2)
+where IAQI and n are the air quality subindex and pollutant item, respectively. As known from the formula (2), if the air quality sub-index for multi-pollutants exceeds the standard, then AQI takes the largest air quality sub-index of pollutants.
+All three monitoring sites are categorized as the Class II zone of the ambient air functional area classification (AAFC). Based on the associated requirements, the Class II zone applies to National Secondary Concentration Limits [NSCL]25. The 24-h average NSCL limits corresponding to PM2.5 and PM10 are 75 and 150 µg·m-3, respectively; the NSCL for the daily maximum 8-h average concentration of O3 is 160 µg·m-3.
+Based on the AQI levels and corresponding concentration limits of PM2.5, PM10, and O3 in the Technical Provisions on Ambient AQI (for Trial Implementation) [HJ 633–2012], PM2.5, PM10, and O3 were classified into six levels26 (Table 2). The higher the ambient AQI, the more serious the pollution is.
+Table 2 Ambient air quality level standards and pollutant concentration limits.
+Full size table
+Data processing
+Origin2021 was used to measure the average concentrations of PM2.5, and PM10 over 24 h, and O3 over 8 h at the three monitoring stations. Additionally, the software was used to visualize the characteristic curves of the spatiotemporal changes of each pollutant, along with the percentage of the pollution level. Additionally, Origin2021 was employed to chart the characteristic curves depicting the spatiotemporal pattern of each pollutant along with the percentage of the pollution level. Differences in PM2.5, PM10, and O3 data between sites and temporal variations within sites were tested by one-way analysis of variance (ANOVA; significance. level of P = 0.05). SPSS 26.0 was used for all statistical analyses.
+The Wavelet Coherence function in MATLAB was employed to analyze wavelet coherence between the AQI and PM2.5, PM10, and O3 in Korla from 2016 to 2023. Wavelet analysis is based on Fourier analysis and can reveal the local characteristics of the object under analysis in both the time and frequency domains. Wavelet coherence was applied to examine the correlation between two sequential data points on several timescales. This coherence is interpreted as a correlation coefficient with a value ranging from 0 to 1, where s represents a smoothing parameter. If smoothing is absent, the wavelet coherence is 1. The squared value of the wavelet coherence coefficient ranges from 0 ≤ R2 ≤ 1. Values near 0 suggest a poor correlation, whereas values near 1 indicate a robust correlation27. Thus, wavelet coherence can be considered a useful approach for assessing the association between specific parameters and time. Using the following equation, the coefficients can be computed from the wavelet energy spectrum28:
+$${R}_{YZ}^{2}\left(s\right)=\frac{{\left|<{W}^{YZ}>\left(s\right)\right|}^{2}}{{\left|<{W}^{Y}\left(s\right)>\right|}^{2}{\left|<{W}^{Z}\left(s\right)>\right|}^{2}}$$
+$$\left|{W}_{i}^{YZ}\left(s\right)\right|=\left|{W}_{i}^{Y}\left(s\right)\overline{{W }_{i}^{Z}\left(s\right)}\right|$$ (3)
+where Y and Z are the data sequences; R2YZ(s) represents the wavelet coherence coefficient; WiYZ(s) stands for the wavelet cross-spectrum of the data sequence YZ; WiY and WiZ are the wavelet coefficients for the data sequences Y and Z, respectively; and " <  > " indicates the smooth function of the wavelet energy spectrum. Detailed computations were conducted using the wavelet toolbox in MATLAB.
+Results and discussion
+Characteristics of spatial and temporal variations in air pollutant concentrations
+Figure 2 illustrates a nearly identical concentration trend between the air pollutants PM2.5 and PM10 in Korla from 2016 to 2023, showing an "L" cycle

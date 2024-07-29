@@ -1,0 +1,149 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (62)
+Journal of Environmental Sciences
+Available online 22 June 2024
+In Press, Uncorrected Proof
+What’s this?
+Research Article
+Atmospheric chemistry of the coastal area is influenced by the convergence between the inland and marine air: Insight into carbonyl compounds
+Author links open overlay panel
+Jinhe Wang 1
+,
+Ouyang Li 1
+,
+Pengcheng Zhang 1 2
+,
+Xue Yang 1
+,
+Ravi Yadav 3
+,
+Shan Chen 1
+,
+Yuhong Liu 4
+,
+Chao Zhu 1
+,
+Yangang Ren 3 5 7
+,
+Abdelwahid Mellouki 4 6 7
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jes.2024.06.019
+Get rights and content
+Highlights
+•
+The study identified inland agricultural emissions were responsible for high levels of carbonyls in the coastal city of Qingdao during autumn.
+•
+Clean and humid sea winds helped to reduce the concentration of carbonyls in summer but also brought air masses from ships, vegetation, and marine organisms, which contributed to high levels of carbonyls in spring in the coastal area.
+•
+The secondary formation of carbonyls during air mass transport was also important, with alkene oxidation being the main contributor.
+•
+Carbonyl compounds primarily originate from agricultural activities in the hinterland, and the air masses from the marine environment have a significant impact on the atmospheric chemistry of the coastal areas.
+Abstract
+Marine biological activity has long been recognized to impact the atmospheric chemistry of coastal areas. In this work, we monitored the seasonal variation of carbonyl compounds in the coastal city of Qingdao, located in the north of China's coastline and the south of Jiaodong Peninsula, with the vast hinterland in the west. The mean total concentration of the 15 carbonyls varied significantly between seasons, with the highest observed in autumn (10.2 ± 6.2 ppbv), followed by spring (9.0 ± 3.0 ppbv), winter (6.4 ± 4.0 ppbv) and summer (3.4 ± 1.4 ppbv). Using bivariate analysis, the agricultural emissions from inland areas were responsible for the high levels of carbonyls in the autumn. In summer, clean and humid sea winds helped reduce the concentration of carbonyls, but they also brought air masses from vegetation, and marine organisms, which contributed to high levels of carbonyls in the spring of coastal areas. The observation-based chemistry box model found that the formation of formaldehyde and acetaldehyde was primarily controlled by the RO + O2 reaction, and alkenes oxidation was the main contributing factor. Based on the OH radical loss rate (LOH) and ozone formation potential (OFP) calculation, we found that autumn and spring seasons have significantly higher values of LOH and OFP than winter and summer due to the presence of high concentrations of carbonyl compounds. Therefore, it is believed that these carbonyl compounds primarily originate from agricultural activities, and marine air influences the atmospheric chemistry of the coastal areas.
+Graphical abstract
+Download: Download high-res image (171KB)
+Download: Download full-size image
+Introduction
+The coastal area represents a vital and highly stressed component of the earth system due to growing populations and associated increased emissions to the atmosphere. It is challenging to understand the atmospheric chemistry in this area because of the complex, diverse, and ever-changing sources of air pollutants. This is especially true when attempting to comprehend the atmospheric chemistry of coastal areas during different seasons. Here, we focus on the carbonyl compounds, which have varying emission sources during different seasons, to evaluate the impact of air masses from the hinterland and ocean on the atmospheric chemistry of coastal areas.
+Carbonyl compounds are a type of oxygenated volatile organic compound (OVOC) found in the atmosphere. They are primarily made up of aldehydes and ketones. During photochemical pollution episodes, high levels of O3 and carbonyls are often monitored simultaneously (Wang et al., 2018; Yang et al., 2017). Additionally, carbonyls are toxic and irritating and pose a direct threat to human health. Formaldehyde and acetaldehyde, in particular, are classified as potentially carcinogenic by the World Health Organization (WHO, 2000). Considering the fundamental role of atmospheric carbonyls in O3 formation, it is essential to investigate their concentration levels, seasonal variations, photochemical reactivities, and influence on O3 formation.
+In recent years, scholars at home and abroad have carried out a large number of observational studies on the characteristics of changes in the concentration of atmospheric carbonyl compounds, and it has been found that the concentration levels and types of atmospheric carbonyl compounds are not the same at different observational sites, and even the concentration levels and types of carbonyl compounds at the same site are different in different seasons. Twenty-five carbonyls, including formaldehyde, acetaldehyde, acetone, acrolein, propionaldehyde, and butenal, have been observed in recent years (Jiang et al., 2019; Li et al., 2022; Wang et al., 2020a, 2023). In China, observational studies have focused on three areas of rapid economic and industrialization: the North China Plain (Beijing-Tianjin-Hebei region) (Liu et al., 2022a; Qian et al., 2019; Wang et al., 2020a, 2023), the Pearl River Delta (PRD) (Chen et al., 2020; Yang et al., 2020) and the Yangtze River Delta (YRD) (Xia et al., 2021; Zhen et al., 2020), where high concentrations of carbonyl compounds are measured and ozone pollution events are frequently observed. Formaldehyde, acetaldehyde and acetone were found to be the main carbonyl compounds with a high percentage in the studies (Wang et al., 2020a, 2020b, 2023). Other carbonyl species have lower observed concentrations and less reported data due to their high reactivity and other reasons.
+Carbonyls are emitted from both natural and human sources, such as vehicle exhaust (Xu et al., 2010), biological emissions (Ho et al., 2014), biomass burning (Wang et al., 2016), ship emissions (Wang et al., 2020c), agricultural activities (Li et al., 2022), industrial sources (Cai et al., 2023; Liu et al., 2021). Carbonyls can also be produced in-situ in the atmosphere through photochemical reactions (Jiang et al., 2019; Liu et al., 2022c; Wang et al., 2022a; Xu et al., 2010). Recent reports suggest that agricultural activities, such as straw crushing and returning to the field, can also produce large amounts of carbonyls (Li et al., 2022). Locally, the emissions of carbonyls and their in-situ formation are strongly impacted by several factors such as vegetation cover, traffic conditions, and meteorological conditions (Liu et al., 2015; Shen et al., 2021; Yang et al., 2020). Previous studies have investigated the sources and seasonal variation of carbonyls in China, but most of the studied sites are located in the inland regions (Lui et al., 2017; Qian et al., 2019; Wang et al., 2020a, 2023). The emissions in coastal areas have been mainly conducted in south China (Xia et al., 2021; Zhen et al., 2020), and the seasonal variation in the coastal cities of northern China is quite rare so far.
+Section snippets
+Sampling site
+The field experiment was conducted in Qingdao, China which is located in the north of China's coastline and the south of the Jiaodong Peninsula, with the vast hinterland in the west. Qingdao has a temperate monsoon climate with significant maritime characteristics. The monitoring of carbonyl compounds was conducted on the roof of a five-story office building in Jimo Blue Valley, Qingdao (120.68°E, 36.35°N) (as shown in Fig. 1), which is a typical coastal suburban site, located in the east of
+Overview
+Appendix A Fig. S1 depicts the time series of measured carbonyl compounds, and Appendix A Table S2 shows the average concentration of 15 carbonyl compounds detected in Qingdao for four seasons. The total carbonyl concentrations ranged between 3.5 ± 1.5 to 10.3 ± 6.3 ppbv, with an average of 7.3 ± 3.7 ppbv. During the period of our measurements, formaldehyde, acetone, and acetaldehyde were the three major carbonyls, with average concentrations of 3.8 ± 2.7, 1.4 ± 0.8, 1.1 ± 0.7 ppbv,
+Conclusions and atmospheric implication
+During our study, we monitored 15 different carbonyl compounds across four seasons in Qingdao, a coastal city located in northeastern China to determine the impact of air masses transported from hinterland and marine areas to the atmospheric chemistry of coastal areas. The three most common carbonyl compounds found in Qingdao throughout all the seasons were formaldehyde (3.9 ± 2.7 ppbv), acetone (1.4 ± 0.8 ppbv) and acetaldehyde (1.1 ± 0.7 ppbv), which accounted for 73 %−95 % of the total
+Data availability
+The authors confirm that the data supporting the findings of this study are available within the article. Data related to the study are available from the authors and can be provided upon request.
+Uncited references
+Hui et al., 2019, Liu et al., 2022b, Wang et al., 2015, Xue et al., 2016.
+CRediT authorship contribution statement
+Jinhe Wang: Project administration, Investigation, Formal analysis. Ouyang Li: Writing – original draft, Investigation, Formal analysis. Pengcheng Zhang: Investigation. Xue Yang: Writing – review & editing, Investigation. Ravi Yadav: Writing – review & editing. Shan Chen: Investigation. Yuhong Liu: Investigation. Chao Zhu: Investigation. Yangang Ren: Writing – review & editing, Supervision, Project administration. Abdelwahid Mellouki: Writing – review & editing.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was supported by the National Natural Science Foundation of China (Nos. 21976106, 42005092, 42105111), the Natural Science Foundation of Shandong Province (Nos. ZR2020QD058, ZR2021QD144), and the Introduction and Cultivation Plan for Young Innovative Talents of Colleges and Universities by the Education Department of Shandong Province (No. 142, 2019). The authors also thank the support of funding of youth scientist from Research Center for Eco-Environmental Sciences-Chinese Academy of
+References (62)
+R. Atkinson
+Atmospheric chemistry of VOCs and NOx
+Atmos. Environ.
+(2000)
+R.M. Cerón et al.
+Diurnal and seasonal trends in carbonyl levels in a semi-urban coastal site in the Gulf of Campeche
+Mexico. Atmos. Environ.
+(2007)
+T.S. Chen et al.
+Characteristics and formation mechanisms of atmospheric carbonyls in an oilfield region of northern China
+Atmos. Environ.
+(2022)
+Y. Cheng et al.
+Diurnal and seasonal trends of carbonyl compounds in roadside, urban, and suburban environment of Hong Kong
+Atmos. Environ.
+(2014)
+X.F. Huang et al.
+Sources of oxygenated volatile organic compounds (OVOCs) in urban atmospheres in North and South China
+Environ. Pollut.
+(2020)
+L.R. Hui et al.
+VOC characteristics, sources and contributions to SOA formation during haze events in Wuhan
+Central China. Sci. Total Environ.
+(2019)
+Z.H. Jiang et al.
+Seasonal and diurnal characteristics of carbonyls in the urban atmosphere of Changsha, a mountainous city in south-central China
+Environ. Pollut.
+(2019)
+K.H. Kim et al.
+Investigation of carbonyl compounds in air from various industrial emission sources
+Chemosphere
+(2008)
+A. Kumar et al.
+Gridded 1 km× 1 km emission inventory for paddy stubble burning emissions over north-west India constrained by measured emission factors of 77 VOCs and district-wise crop yield data
+Sci. Total Environ.
+(2021)
+C. Li et al.
+An AIS-based high-resolution ship emission inventory and its uncertainty in Pearl River Delta region
+China. Sci Total Environ.
+(2016)
+View more references
+Cited by (0)
+View full text
+© 2024 The Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences. Published by Elsevier B.V.
+Recommended articles
+Spatial variations of PM2.5-bound parent, nitrated and oxygenated PAHs at urban and suburban sites in the Ili River Valley: Characteristics, sources and health risks
+Journal of Environmental Sciences, 2024
+Xueyan Zhao, …, Wen Yang
+Economic and carbon emission analysis of two typical denitrification systems for sintering process in the iron and steel industry
+Journal of Environmental Sciences, 2024
+Jianguo Yang, …, Yang Yang
+Impacts of synoptic weather patterns on Hefei's ozone in warm season and analysis of transport pathways during extreme pollution events
+Journal of Environmental Sciences, 2024
+Feng Hu, …, Xin Tian
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

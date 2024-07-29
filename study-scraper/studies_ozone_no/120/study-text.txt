@@ -1,0 +1,366 @@
+i 
+UNIVERSIDAD NACIONAL DE HUANCAVELICA 
+(Creada por ley Nº 25265) 
+ 
+ 
+ 
+ 
+FACULTAD DE INGENIERÍA ELECTRÓNICA-SISTEMAS 
+ESCUELA PROFESIONAL DE INGENIERÍA ELECTRÓNICA 
+ 
+TESIS 
+ 
+ 
+ 
+LÍNEA DE INVESTIGACIÓN: 
+Telecomunicaciones 
+ 
+ 
+PRESENTADO POR: 
+Bach. Williams Aníbal Quispe Huamán 
+Bach. Trinidad Vargas Poma 
+ 
+ 
+PARA OPTAR EL TÍTULO PROFESIONAL DE: 
+INGENIERO ELECTRÓNICO 
+ 
+ 
+HUANCAVELICA, PERÚ 
+ 
+2019 
+“SISTEMA INALÁMBRICO MÓVIL DE MONITOREO REMOTO DE 
+LA RADIACIÓN ULTRAVIOLETA SOLAR PARA LA PREVENCIÓN 
+DE DAÑOS POR ERITEMA EN LA PIEL DE LAS PERSONAS EN EL 
+DISTRITO DE PAMPAS - TAYACAJA” 
+ii 
+ACTA DE SUSTENTACIÓN 
+ 
+  
+iii 
+ 
+ 
+ 
+ 
+ 
+TITULO 
+ 
+“SISTEMA INALÁMBRICO MÓVIL DE MONITOREO REMOTO 
+DE LA RADIACIÓN ULTRAVIOLETA SOLAR PARA LA 
+PREVENCIÓN DE DAÑOS POR ERITEMA EN LA PIEL DE LAS 
+PERSONAS EN EL DISTRITO DE PAMPAS - TAYACAJA” 
+ 
+  
+iv 
+ 
+ 
+ 
+ 
+ 
+AUTORES 
+ 
+Bach. Ing. Williams Aníbal Quispe Huamán 
+Bach. Ing. Trinidad Vargas Poma 
+ 
+  
+v 
+ 
+ 
+ 
+ 
+ 
+ASESOR 
+ 
+Mg. Ing. Everth Manuel Ramos Lapa 
+ 
+  
+vi 
+DEDICATORIA 
+ 
+ 
+El presente trabajo va dedicado a Dios, quien 
+como guía estuvo presente en mi vida, 
+bendiciéndome y dándome fuerzas para 
+continuar. A mis padres que, con su apoyo 
+incondicional, permitieron que logre culminar mi 
+carrera profesional. 
+Williams Aníbal Quispe Huamán 
+ 
+ 
+ 
+ 
+ 
+ 
+Dedico este trabajo a Dios porque ha estado 
+conmigo, cuidándome, guiándome y dándome 
+fortaleza para continuar sin rendirme fácilmente; 
+a mis queridos progenitores, quienes son los 
+pilares fundamentales, han velado por mi 
+bienestar y educación; sin ellos jamás hubiese 
+podido conseguir, lo conseguido hasta ahora. 
+Cuento con el apoyo de todos ellos. Me tienen 
+plena confianza en cada reto que se me presenta, 
+sin dudar en mi inteligencia y capacidad. Los amo 
+a todos. 
+Trinidad Vargas Poma 
+ 
+  
+vii 
+AGRADECIMIENTO 
+ 
+ 
+Agradezco a Dios por permitirme culminar con 
+mi objetivo. 
+A mis padres por ser ejemplo y haberme 
+apoyado incondicionalmente. 
+A mis hermanos y hermana por estar siempre 
+presentes, por el apoyo que me brindan. 
+Agradezco a todos los docentes que, con su 
+sabiduría, conocimiento; motivaron a 
+desarrollarme como persona profesional en la 
+UNH (E.P.I.E). 
+Williams Aníbal Quispe Huamán. 
+ 
+ 
+ 
+A Dios por haberme guiado por el camino de la 
+felicidad hasta ahora. 
+A mis padres; PAPITO Eulogio Vargas, a mi 
+MAMITA Paulina Poma, a mis hermanas, por 
+haberme dado su fuerza siempre y apoyo 
+incondicional hasta ahora. 
+A mis docentes de la E.P.I.E., a quienes les 
+debo gran parte de mis conocimientos, gracias 
+a su paciencia y enseñanza de todas sus 
+experiencias y disciplina. Por último, a mi 
+compañero de tesis por su paciencia. 
+Trinidad Vargas Poma. 
+ 
+ 
+viii 
+RESUMEN 
+ 
+La radiación solar es un importante factor natural que determina el clima y tiene 
+influencia significativa sobre el medio ambiente. La componente ultravioleta (UV) 
+del espectro solar tiene varios efectos beneficiosos en la salud humana, pero 
+también es dañina si se exceden ciertos límites; en particular la piel y los ojos son 
+afectados, por lo que es necesario contar con mecanismos de información oportuna 
+para evitar daños. 
+ 
+En la investigación se planteó como problema general: ¿Cómo medir los índices de 
+la radiación UV solar y como informar los riesgos asociados, para prevenir daños 
+por eritema en la piel de las personas en el distrito de Pampas?, el objetivo general 
+fue: diseñar e implementar un sistema inalámbrico móvil de monitoreo remoto e 
+informe adecuado de los índices de radiación UV solar y los niveles de riesgo 
+asociados, para prevenir daños por eritema en la piel de las personas en el distrito 
+de Pampas, siendo la hipótesis general: el sistema inalámbrico móvil de monitoreo 
+remoto permite informar adecuadamente sobre los índices de radiación UV solar y 
+los niveles de riesgo asociados, para prevenir daños por eritema en la piel de las 
+personas en el distrito de Pampas. 
+ 
+La investigación es del tipo tecnológico con nivel correlacional, se empleó el 
+método sistémico en todo el proceso investigativo, el diseño fue experimental con 
+la implementación de un prototipo. Como resultado se obtuvo un sistema 
+inalámbrico movilizado por un dron, visualizando su ubicación y el nivel de 
+radiación sobre un aplicativo desarrollado sobre Android y en un terminal PC 
+desarrollado en LabVIEW, los mismos que permitieron informar adecuadamente 
+sobre los índices de radiación UV solar y los niveles de riesgo asociados, para 
+prevenir daños por eritema en la piel. Finalmente se concluye que el sistema 
+inalámbrico móvil implementado permite monitorear e informa adecuadamente los 
+índices de radiación UV solar y los niveles de riesgo asociados para prevenir daños 
+por eritema en la piel de las personas en el distrito de Pampas.   
+Palabra clave: Radiación, Eritema, Monitoreo, Inalámbrico.   
+ix 
+ABSTRACT 
+ 
+Solar radiation is important factor that determines the weather and has a significant 
+influence on the environment. The ultraviolet (UV) component of the solar 
+spectrum has several beneficial effects on human health, but it is also harmful if 
+certain limits are exceeded; In particular, the skin and eyes are affected, so it is 
+necessary to have timely information mechanisms to avoid damage. 
+In the investigation it was raised as a general problem: How to measure the rates of 
+solar UV radiation and how to report the associated risks, to prevent damage by 
+erythema on the skin of people in the Pampas district ?, the general objective was: 
+to design and implement a mobile wireless remote monitoring system and adequate 
+report of solar UV radiation rates and associated risk levels, to prevent skin damage 
+from people in the Pampas district, the general hypothesis being: the system 
+Wireless mobile remote monitoring allows you to properly report solar UV 
+radiation rates and associated risk levels, to prevent skin damage from people in the 
+Pampas district. 
+The research is of the technological type with a correlational level, the systematic 
+method was used throughout the research process, the design was experimental with 
+the implementation of a prototype. As a result, a wireless system mobilized by a 
+drone was obtained, visualizing its location and the level of radiation on an 
+application developed on Android and on a PC terminal developed in LabVIEW, 
+which allowed to report on the solar UV radiation rates and levels associated risks, 
+to prevent damage from erythema on the skin. Finally, it is concluded that the 
+mobile wireless system implemented allows monitoring and controlled information 
+of the solar UV radiation indexes and the associated risk levels to prevent skin 
+damage from people in the Pampas district. 
+Keyword: Radiation, Erythema, Monitoring, Wireless. 
+  
+x 
+ÍNDICE 
+ Página 
+ACTA DE SUSTENTACIÓN ......................................................................................... ii 
+TITULO  ................................................................................................................... iii 
+AUTORES  ................................................................................................................... iv 
+ASESOR  .................................................................................................................... v 
+DEDICATORIA ............................................................................................................... vi 
+AGRADECIMIENTO .................................................................................................... vii 
+RESUMEN  ................................................................................................................. viii 
+ABSTRACT  ................................................................................................................... ix 
+ÍNDICE  .................................................................................................................... x 
+ÍNDICE DE FIGURAS ................................................................................................. xiv 
+ÍNDICE DE TABLAS ................................................................................................... xvi 
+INTRODUCCIÓN ........................................................................................................ xvii 
+CAPÍTULO I  ................................................................................................................... 1 
+PLANTEAMIENTO DEL PROBLEMA ..................................................................... 1 
+ Descripción del problema ............................................................................... 1 
+ Formulación del problema .............................................................................. 3 
+  
+  
+ Objetivos ......................................................................................................... 3 
+  
+  
+ Justificación .................................................................................................... 4 
+  
+  
+  
+ Limitaciones ................................................................................................... 5 
+CAPÍTULO II ................................................................................................................... 6 
+MARCO TEÓRICO ......................................................................................................... 6 
+ Antecedentes ................................................................................................... 6 
+xi 
+  
+  
+ Bases teóricas................................................................................................ 11 
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+ Bases conceptuales ....................................................................................... 20 
+  
+  
+  
+  
+  
+ Efectos cutáneos ............................................................... 26 
+ Cánceres de piel no melánicos (CPNM) .......................... 28 
+  
+  
+ La latitud .......................................................................... 32 
+ La longitud ....................................................................... 32 
+ Medición de la latitud y la longitud ................................. 33 
+  
+ Latitud .............................................................................. 34 
+ Longitud ........................................................................... 34 
+ Altura ................................................................................ 34 
+ Sistemas de coordenadas geográficas .............................. 35 
+ Unidades de medida para las coordenadas GPS ............... 35 
+xii 
+  
+Características .................................................................................. 37 
+ Definición de términos ................................................................................. 38 
+ Hipótesis ....................................................................................................... 39 
+  
+  
+ Variables ....................................................................................................... 39 
+  
+  
+ Operacionalización de variables ................................................................... 39 
+CAPÍTULO III................................................................................................................ 41 
+METODOLOGÍA DE LA INVESTIGACIÓN .......................................................... 41 
+3.1 Ámbito temporal y espacial .......................................................................... 41 
+3.2 Tipo de investigación .................................................................................... 41 
+3.3 Nivel de investigación .................................................................................. 42 
+3.4 Método de investigación ............................................................................... 42 
+  
+  
+ 
+ 
+3.5 Población, muestra, muestreo ....................................................................... 56 
+  
+  
+  
+3.6 Técnicas e instrumentos de recolección de datos ......................................... 57 
+3.7 Técnicas y procesamiento de análisis de datos ............................................. 57 
+CAPÍTULO IV ............................................................................................................... 58 
+RESULTADOS .............................................................................................................. 58 
+ Análisis de la información ............................................................................ 58 
+  
+ Prueba de hipótesis ....................................................................................... 62 
+xiii 
+ Discusión de resultados ................................................................................ 66 
+CONCLUSIONES ......................................................................................................... 70 
+RECOMENDACIONES ............................................................................................... 71 
+REFERENCIA BIBLIOGRÁFICA ............................................................................. 72 
+ANEXO 1  ................................................................................................................. 77 
+MATRIZ DE CONSISTENCIA .................................................................................. 77 
+ANEXO 2  ................................................................................................................. 78 
+Programación  ................................................................................................................. 78 
+ANEXO 3  ................................................................................................................. 81 
+Calibración del sensor UV ............................................................................................ 81 
+ANEXO 4  ................................................................................................................. 83 
+Radiación UV teórico y medido durante 10 días ....................................................... 83 
+ANEXO 5  ................................................................................................................. 85 
+Tabla de niveles de riesgo asociados a índices de radiación UV ............................. 85 
+ANEXO 6  ................................................................................................................. 86 
+Fotografías  ................................................................................................................. 86 
+  
+xiv 
+ÍNDICE DE FIGURAS 
+ 
+ Página 
+Figura 1. Módulo UVM30A medidor de radiación UV ................................................... 12 
+Figura 2. Módulo Lolin ESP8266 V3 ............................................................................ 14 
+Figura 3. Modulo SIM 800L. ......................................................................................... 15 
+Figura 4. Dron FY550 Phantom - II .............................................................................. 17 
+Figura 5. Conexión GPS NEO-6M. .............................................................................. 18 
+Figura 6. Componentes del App de Virtuino. ................................................................ 19 
+Figura 7. Panel frontal y diagrama de bloques en LabVIEW. ....................................... 20 
+Figura 8. Espectro electromagnético de la radiación solar. .......................................... 22 
+Figura 9. La radiación ultravioleta en el Perú. .............................................................. 24 
+Figura 10. Quemadura solar en la cara. ......................................................................... 27 
+Figura 11. Carcinoma de células basales. ..................................................................... 29 
+Figura 12. Carcinoma de células escamosas ................................................................. 29 
+Figura 13. Coordenadas geográficas. ............................................................................ 31 
+Figura 14. Medición de la latitud. ................................................................................... 32 
+Figura 15. Medición de la longitud. ................................................................................ 32 
+Figura 16. Determinación de latitud y longitud en el planisferio. .................................... 33 
+Figura 17. Ubicación de proyecto ................................................................................... 37 
+Figura 18. Diagrama del sistema de monitoreo desarrollado. ........................................ 43 
+Figura 19. Diagrama de flujo para obtener la irradiancia e IUV. ..................................... 44 
+Figura 20. Diagrama de flujo para obtener la posición del Dron. ................................... 45 
+Figura 21. Diagrama de flujo de transmisión de datos para almacenamiento. ............... 46 
+Figura 22. Diagrama de acceso a datos a la web de ThingSpeak. ................................ 47 
+Figura 23. Diagrama de flujo de la interface. .................................................................. 47 
+Figura 24. Interface de la aplicación en Virtuino para celular. ........................................ 48 
+Figura 25. Diagrama de flujo para la aplicación desarrollada en LabVIEW. ................... 49 
+Figura 26. Interface de monitoreo desarrollado en LabVIEW. ........................................ 49 
+Figura 27. Diagrama en bloques de los parámetros medidos. ....................................... 50 
+Figura 28. Diagrama en bloques de la activación de colores del semáforo. .................. 50 
+xv 
+Figura 29. Semáforo indicador del IUV solar relacionado con eritema........................... 51 
+Figura 30. Usuarios establecidos para recepción de mensaje de prevención. ............... 52 
+Figura 31. Texto enviado a usuarios cuando el IUV es de 0-2. ...................................... 52 
+Figura 32. Texto enviado a usuarios cuando el IUV es de 3-5. ...................................... 53 
+Figura 33. Texto enviado a usuarios cuando el IUV es de 6-7. ...................................... 53 
+Figura 34. Texto enviado a usuarios cuando el IUV es de 8-10. .................................... 54 
+Figura 35. Texto enviado a usuarios cuando el IUV es más de 11. ............................... 54 
+Figura 36. Mensaje asociado al semáforo para prevenir los daños por eritema. ........... 55 
+Figura 37. Activación del color para IUV mayor a 11. .................................................... 55 
+Figura 38. Radiación UV en un día despejado en Pampas. ........................................... 58 
+Figura 39. Prueba de hipótesis de una población de dos muestras independientes. ..... 64 
+Figura 40. Prueba de hipótesis sobre informe de señales visuales. .............................. 65 
+ 
+  
+xvi 
+ÍNDICE DE TABLAS 
+ 
+ Página 
+Tabla 1.

@@ -1,0 +1,128 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/fonts/Gyre-Pagella/Normal/Regular/Main.js
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Applied Sciences
+All Article Types
+Advanced
+  Journals Applied Sciences Volume 14 Issue 12 10.3390/app14125026
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Abdeltif Amrane
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+583
+Table of Contents
+Abstract
+Introduction
+Data Sources and Methods
+Method
+Results
+Discussion
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+Abbreviation
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Quantitative Analysis of Spatiotemporal Patterns and Factor Contributions of Surface Ozone in the North China Plain
+by Yi Li
+1,2,3, Mengjiao Liu
+1, Lingyue Lv
+1,2,3, Jinhui Liang
+1,2,3, Mingliang Ma
+1,*, Mengnan Liu
+1 and Pingjie Fu
+1,*
+1
+School of Surveying and Geo-Informatics, Shandong Jianzhu University, Jinan 250101, China
+2
+State Environmental Protection Key Laboratory of Land and Sea Ecological Governance and Systematic Regulation, Jinan 250101, China
+3
+Shandong Academy for Environmental Planning, Jinan 250101, China
+*
+Authors to whom correspondence should be addressed.
+Appl. Sci. 2024, 14(12), 5026; https://doi.org/10.3390/app14125026
+Submission received: 18 April 2024 / Revised: 29 May 2024 / Accepted: 6 June 2024 / Published: 9 June 2024
+(This article belongs to the Special Issue Air Pollution and Its Impact on the Atmospheric Environment)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Over the past decade, surface ozone has emerged as a significant air pollutant in China, especially in the North China Plain (NCP). For effective ozone management in the NCP, it is crucial to accurately estimate the surface ozone levels and identify the primary influencing factors for ozone pollution in this region. This study utilized ozone precursors such as volatile organic compounds (VOCs) and nitrogen oxides (NOX), meteorological data, land cover, normalized difference vegetation index (NDVI), terrain, and population data to build an extreme gradient boosting (XGBoost)-based ozone estimation model in the NCP during 2019 to 2021. Four ozone estimation models were developed using different NO2 and formaldehyde (HCHO) datasets from the Sentinel-5 TROPOMI observations and Copernicus Atmosphere Monitoring Service (CAMS) reanalysis data. Site-based validation results of these four models showed high accuracy with R2 values above 0.86. Among these four models, two models with higher accuracy and higher spatial coverage ratio were selected, and their results were averaged to produce the final ozone estimation products. The results indicated that VOCs and NOX were the two main pollutants causing ozone pollution in the NCP, and their relative contributions accounted for more than 23.34% and 10.23%, respectively, while HCHO also played a significant role, contributing over 5.64%. Additionally, meteorological factors also had a notable impact, contributing 28.63% to ozone pollution, with each individual factor contributing more than 2.38%. The spatial distribution of ozone pollution identified the Hebei–Shandong–Henan junction as a pollution hotspot, with the peak occurring in summer, particularly in June. Therefore, for this hotspot region in the NCP, promoting the reduction in VOCs and NOx can play an important role in the mitigation of O3 pollution and the improvement in air quality in this region.
+Keywords: surface O3; O3 pollution; North China Plain; XGBoost; O3 estimation
+1. Introduction
+Ozone (O3) has significant negative effects on the atmospheric environment and human health [1,2,3]. In addition, it also affects the Earth’s ecosystem and climate system [4,5,6,7]. First, tropospheric ozone, especially near-surface ozone pollution, poses a serious threat to human health [1,2,3]. Surface ozone is particularly harmful to the respiratory system [2], especially for children, the elderly, and people with respiratory diseases. Second, ozone has a significant impact on the water cycle by prompting plant stomata to close [4]. Ozone has a negative impact on the growth of crops and vegetation, interfering with crop yields and ecosystem stability, threatening plant photosynthesis, reducing crop output, and weakening the carbon absorption capacity of ecosystems [5,6]. Ozone pollution also poses a threat to biodiversity, and increases in ozone have led to significant reductions in bird populations [7]. In addition, as the third largest greenhouse gas, ozone may also disrupt the Earth’s radiation balance and affect the global climate system [5].
+The continued deterioration of surface ozone pollution in China has been confirmed by many previous studies [8,9,10,11,12,13,14]. Among them, the NCP (including Beijing, Tianjin, Hebei, Shandong, Henan, and Shanxi Provinces) is the most economically developed and most populous region in China, one of the regions with the highest population density and urbanization level as well as being the region with the most serious air pollution, especially ozone pollution, in China [8,15].
+Previous studies have shown that ozone pollution in the NCP is mainly caused by vehicle exhaust [16,17,18], industrial emissions [19,20,21,22,23,24], and domestic pollution sources [25,26,27,28,29]. In addition, topography, meteorological conditions, and seasonal changes also have an impact on ozone pollution. In terms of ozone precursors, NOX and VOCs are the two main kinds of precursors of ozone pollution. With the improvement in urbanization level in the NCP, the continued increase in the number of vehicles has led to an increase in exhaust emissions. NOX and VOCs in automobile exhaust are an important emission source of ozone precursors. In addition to automobile exhaust, industrial emissions are another important emission source of ozone precursors [30]. Due to the high population density in the NCP, domestic pollution sources emitted by human activities including household coal burning, emissions from the catering industry, and domestic waste disposal are also important sources of ozone precursors. In addition to ozone precursors, ozone pollution in the NCP is also significantly affected by meteorological conditions. Among the meteorological factors, temperature, radiation, wind, humidity, boundary layer height, precipitation, and cloud cover can directly or indirectly affect the diffusion and transmission of the ozone precursors (such as NOX and VOCs) as well as the photochemical reaction processes of ozone. Furthermore, the Taihang Mountains and Yanshan Mountains in the northwest of the BTH and the Taishan Mountains in central Shandong affect the diffusion of ozone precursors in the region, further affecting ozone pollution in this region.
+In existing studies, surface ozone is generally estimated using three main methods: deterministic models, empirical models, and machine learning models. Deterministic models are based on principles of atmospheric chemistry and aerodynamics, utilizing mathematical models to simulate the transport, diffusion, and chemical reactions of atmospheric gases to estimate surface ozone concentrations. This method, exemplified by models such as WRF-Chem, CMAQ, and GEOS-Chem, demands extensive meteorological and chemical data and a profound comprehension of the atmospheric chemical processes, enabling it to yield more precise results. Empirical models, based on statistical principles, involve analyzing historical observational data and environmental conditions to establish mathematical models that forecast surface ozone concentrations. Models such as land use regression (LUR), Bayesian maximum entropy (BME), generalized additive model (GAM), and geographically weighted regression (GWR) are all statistical models. Statistical models are relatively simple to implement, but these models are often relatively low in accuracy and are limited by data quality and reliability. Artificial intelligence including machine learning and deep learning is popular for its powerful data mining capabilities. It facilitates the extraction of valuable insights from vast datasets, leading to more accurate parameter estimation through various techniques such as neural networks, random forests (RF), and extreme gradient boosting (XGBoost). Machine learning and deep learning models are simpler than the implementation of deterministic models, and the accuracy of parameter estimation is higher than that of statistical models.
+Compared with previous studies, this paper utilized high spatial resolution NO2 and HCHO observations derived from S5P satellite. These S5P-NO2 and S5P-HCHO datasets have been used sparingly in previous studies and have higher integrity than other satellite observations. In addition, the spatial resolution of the ozone estimation results in most studies was 0.1° × 0.1° or coarser, and only a few studies have estimated surface ozone products with a resolution of 0.05° × 0.05°, therefore, it is necessary to estimate O3 concentration products with a higher resolution of 0.05° × 0.05°. In recent years, as machine learning models have seen rapid development, the XGBoost model, recognized for its efficiency as an integrated learning algorithm, has been demonstrated to possess robust predictive capabilities and has been projected to have extensive applications in the fields of data mining and predictive modeling. The NCP, which is characterized by a developed economy, dense population, and high degree of urbanization, is also considered to be one of the most polluted areas in China, especially in terms of ozone pollution, so it was selected as the study area for the study. Consequently, an XGBoost-based model was developed to estimate the concentration of ozone in the NCP. Once the model was constructed, its precision was validated. Subsequently, an assessment was conducted to determine the relative significance and the extent of the contribution of various factors affecting near-surface ozone pollution. Subsequently, it was utilized to calculate the gridded daily maximum daily 8-h average (MDA8) concentration data at a resolution of 0.05° × 0.05° for the NCP over the period from 2019 to 2021. Utilizing the MDA8 estimation outcomes, insights into the spatial and temporal patterns of O3 pollution were uncovered. Additionally, the study provided a further analysis of the spatiotemporal distribution of ozone pollution in the region, considering the frequency of ozone pollution exceedances. These studies have been instrumental in enhancing our comprehension of ground-level O3 pollution and in the development of targeted environmental protection policies.
+2. Data Sources and Methods
+2.1. Data Sources
+Hourly ground-based ozone concentration observations from 235 ground stations of China’s National Ground-Level Air Quality Observation Network were used to construct a surface ozone concentration estimation model in the NCP. The data from the National Environmental Monitoring Center of China covers the period 2019–2021. To ensure the quality of the data, the 8-h moving average ozone concentration was calculated only when at least six valid measurements had been recorded within the 8-h time period. In addition, the maximum value of the daily 8-h average surface ozone concentration was extracted as the MDA8 value. Strict quality control measures were implemented to exclude records with insufficient samples. In order to safeguard the precision of the surface ozone estimations from being compromised by variations in the data sample sizes, this study eliminated hourly records that lacked surface ozone data for a continuous ten days period within any given month and those with a sample loss exceeding 30% during the entire research timeframe. Moreover, to reduce interference from proximate monitoring stations and enhance the establishment of an accurate ozone estimation model, a threshold distance of 0.05° was implemented to consolidate the observational data from 235 sites in the NCP into a set of 133 sites. Figure 1 presents a visualization of the geographical arrangement of these 133 ozone monitoring locations within the NCP.
+Figure 1. Distribution of 133 ground-based observation sites in the NCP from 2019 to 2021. Different colors represent the foundation sites of different provinces, among them, red represents Shandong Province, green represents Hebei Province, blue represents Shanxi Province, pink represents Hebei Province, orange represents Tianjin City, cyan represents Beijing City, and yellow represents the Inner Mongolia Autonomous Region.
+2.2. Ozone Precursors
+The formation of ozone is predominantly initiated by photochemical processes that involve the oxidation of VOCs and carbon monoxide (CO). These reactions are catalyzed by NOX and are further stimulated by UV radiation. Thus, the inclusion of these two key ozone precursors into surface ozone estimation models was deemed of paramount importance for elucidating the mechanisms of ozone production and for the prediction of air quality. This research utilized daily nitrogen dioxide (NO2) and HCHO data collected by the S5P satellite, along with a reanalysis dataset comprising NO2 profiles at 1000 hPa, HCHO total column densities (with a resolution of 0.1° × 0.1°), and NOX emissions from the CAMS inventory spanning the years 2019 to 2021. These datasets were integrated to develop an enhanced model for estimating the surface ozone concentrations in the NCP. Furthermore, six VOC datasets (propane, cyclopentene, methane, hydrogen peroxide, hydroxyl radical, and peroxyacetyl nitrate) from the 2019–2021 CAMS emission inventory (0.1° × 0.1°) were

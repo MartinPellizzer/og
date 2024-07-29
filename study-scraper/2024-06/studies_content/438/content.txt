@@ -1,0 +1,522 @@
+Processing math: 100%
+Atmospheric Chemistry and Physics
+ARTICLES & PREPRINTS
+SUBMISSION
+POLICIES
+PEER REVIEW
+EDITORIAL BOARD
+AWARDS
+ABOUT
+EGU PUBLICATIONS
+  Article  
+Articles
+Volume 24, issue 10
+ACP, 24, 6433–6454, 2024
+
+https://doi.org/10.5194/acp-24-6433-2024
+© Author(s) 2024. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Article
+Assets
+Peer review
+Metrics
+Related articles
+Research article
+ | 
+31 May 2024
+Investigating long-term changes in polar stratospheric clouds above Antarctica during past decades: a temperature-based approach using spaceborne lidar detections
+Mathilde Leroux and Vincent Noel
+Abstract
+Polar stratospheric clouds play a significant role in the seasonal thinning of the ozone layer by facilitating the activation of stable chlorine and bromine reservoirs into reactive radicals, as well as prolonging the ozone depletion by removing HNO3 and H2O from the stratosphere by sedimentation. In a context of climate change, the cooling of the lower polar stratosphere could enhance polar stratospheric cloud (PSC) formation and by consequence cause more ozone depletion. There is thus a need to document the evolution of the PSC cover to better understand its impact on the ozone layer. In this article we present a statistical model based on the analysis of the CALIPSO (Cloud–Aerosol Lidar and Infrared Pathfinder Satellite Observations) PSC product from 2006 to 2020. The model predicts the daily regionally averaged PSC density by pressure level derived from stratospheric temperatures. Applied to stratospheric temperatures from the CALIPSO PSC product, our model reproduces observed and interannual variations in PSC density well between 10 and 150 hPa over the 2006–2020 period. The model reproduces the PSC seasonal progression well, even during disruptive events like stratospheric sudden warmings, except for years characterized by volcanic eruptions. We also apply our model to gridded temperatures from Modern Era Retrospective analysis for Research and Application (MERRA-2) reanalyses over the complete South Pole region to evaluate changes in PSC season duration over the 1980–2021 period. We find that over the 1980–2000 period, the PSC season gets significantly longer between 30 and 150 hPa. Lengthening of the PSC season from 22 d (30–50 hPa) to 32 d (100–150 hPa) is possibly related to volcanic eruptions occurring over this period. Over 1980–2021, we find that the PSC season gets significantly longer between 30 and 100 hPa, but due to biases in MERRA-2 temperatures, the reliability of these trends is hard to evaluate.
+How to cite. 
+Leroux, M. and Noel, V.: Investigating long-term changes in polar stratospheric clouds above Antarctica during past decades: a temperature-based approach using spaceborne lidar detections, Atmos. Chem. Phys., 24, 6433–6454, https://doi.org/10.5194/acp-24-6433-2024, 2024.
+Received: 16 Jan 2024 – Discussion started: 19 Jan 2024 – Revised: 07 Apr 2024 – Accepted: 19 Apr 2024 – Published: 31 May 2024
+1 Introduction
+In the 1980s, the attention of the scientific community was captured by the discovery of a hole in the ozone layer. Research revealed that ozone thinning is driven by the presence of chlorine (Molina and Rowland, 1974) that is mainly emitted by human activities in the form of chlorofluorocarbons (CFCs), which due to their long lifetime persist in the atmosphere for a long time. Photolysis, a chemical reaction triggered by sunlight, converts the CFCs into active chlorine, which then reacts with ozone, leading to its depletion. However, the high levels of chlorine observed at the poles could not be entirely explained by the presence of CFCs alone (Solomon et al., 1986). Polar stratospheric clouds (PSCs) emerged as a significant contributor to this phenomenon.
+PSCs form in the polar stratosphere between 15 and 30 km in altitude during hemispheric winters when the polar vortex lowers the stratospheric temperature sufficiently (T < 195 K) to enable their formation. Cold temperatures trigger chemical nucleation processes involving water vapor (H2O), nitric acid (HNO3), and sulfuric acid (H2SO4), causing the formation of three types of particles that are often mixed within PSCs. (1) Liquid droplets of supercooled ternary solution (STS) form when water vapor and nitric acid condense on stratospheric background aerosols. (2) Solid particles of nitric acid trihydrate (NAT) exclusively form through heterogeneous nucleation processes, occurring either on ice particles or meteoritic nuclei (e.g., Hoyle et al., 2013; James et al., 2018). The nucleation of NAT particles on meteoritic nuclei was first documented by laboratory studies (e.g., Bogdan et al., 2003). Observations showed that despite an absence of stratospheric dehydration and temperatures above the freezing point, low-density, large NAT particles known as “NAT rock” or “mother NAT” can form (Tritscher et al., 2021). (3) Ice crystals also form in the polar stratosphere through both homogeneous and heterogeneous nucleation. Homogeneous nucleation is well-understood and requires extremely low temperatures (3–4 K below the freezing point). These can be generated by gravity waves triggered by orography and lead to the fast formation of a specific PSC type known as wave ice PSC. NAT particles can nucleate on these ice particles and propagate over vast regions, a phenomenon called the “NAT belt” (e.g., Höpfner et al., 2006). Heterogeneous nucleation of ice PSC particles can occur over pre-existing NAT particles (Fortin et al., 2003) or foreign nuclei. Even though temperatures are key in driving the formation of specific PSC particles, other parameters are important, for instance water vapor: studies have shown that a wetter and cooler stratosphere would produce more PSC (e.g., Stenke and Grewe, 2005; Khosrawi et al., 2016). Even if measurements suggest stratospheric water vapor could have increased locally since 1980, satellite data records show little overall net change since then (Hegglin et al., 2014). According to the AR6 report there is low confidence in trends of stratospheric water vapor over the era of satellite observation (IPCC, 2021).
+PSCs have a dual role in the thinning of the ozone layer. First, by being the site for heterogeneous reactions, they activate the stable reservoirs of chlorine and bromine of the stratosphere into free radicals which subsequently interact with ozone and contribute to its destruction during polar spring with the return of sunlight (Solomon, 1999). Secondly, solid PSC particles by the uptake of the HNO3 and H2O have the potential to grow to larger sizes and settle out of the stratosphere. This sedimentation induces the denitrification and dehydration of the stratosphere, which delays the deactivation of chlorine and thus prolongs the ozone depletion (e.g., Toon et al., 1986; Jensen et al., 2002; Khosrawi et al., 2017). Although since the implementation of the Montreal Protocol ozone-depleting substances like CFCs have decreased (Montzka et al., 2003), fluctuations in stratospheric temperatures also influence the future recovery of stratospheric ozone (Eyring et al., 2007). Indeed, the rate of chemical reactions causing ozone destruction and PSC formation is temperature-dependent (e.g., Hanson and Mauersberger, 1988; Marti and Mauersberger, 1993). Moreover, the increasing trend in greenhouse gases (GHGs) due to anthropic emissions induces a cooling effect of the lower stratospheric levels (AR6, IPCC, 2021) which could enhance PSC formation, resulting in increasing ozone depletion despite a decrease in stratospheric chlorine loading (Shindell et al., 1998). Equilibrium-doubled CO2 experiments in different models and experimental setups confirmed this trend by predicting a cooler stratosphere (Wang et al., 2020). It is therefore crucial to document the PSC cover and understand what drives its evolution in a context of climate change to better understand its impact on the reformation of the ozone hole.
+Our goal is to better understand if changes in PSC cloud cover over climate timescales could potentially affect the reformation of polar stratospheric ozone. To make progress toward this goal, our objective in this paper is to evaluate if the seasonal evolution of PSC over Antarctica has gone through significant changes over the past decades (1980–2021). We first use PSC detections obtained from spaceborne lidar measurements between 60 and 82° S over the 2006–2020 period to develop a statistical model that predicts by pressure level the daily average PSC density over the polar region based on stratospheric temperatures. We apply this model to a gridded dataset of stratospheric temperatures from reanalyses that cover the entire Antarctica region (60–90° S) to evaluate seasonal PSC changes over the past decades.
+We first present the data used for our study in Sect. 2, including observations and reanalysis. Section 3 outlines the methodology to create our statistical model. In Sect. 4, we verify the robustness of our model by comparing the observed evolution of PSC density, as measured by spaceborne CALIPSO (Cloud–Aerosol Lidar and Infrared Pathfinder Satellite Observations) from 2006 to 2020, with the estimated PSC density generated by our model. In Sect. 5, we apply our model to the gridded stratospheric temperatures from reanalysis covering the years 1980 to 2021, allowing us to document the evolution of PSC seasons. In Sect. 6, we discuss the influence of sudden stratospheric warmings and volcanic eruptions on our model predictions. Section 7 consists of a discussion and conclusion based on the results obtained in the study.
+2 Data
+2.1 Spaceborne lidar PSC product
+From 2006 to 2018, CALIPSO (Cloud–Aerosol Lidar and Infrared Pathfinder Satellite Observations) was part of the A-Train, a constellation of satellites flying at an altitude of 705 km above sea level (a.s.l.) along a sun-synchronous polar orbit inclined at 98° (Winker et al., 2009). In 2018, CALIPSO moved to a lower orbit called the C-Train, 16.5 km lower (Braun et al., 2019). CALIPSO crossed the Equator 15 times per day and provided coverage between 82° N and 82° S, making it a satellite of interest for the study of the polar regions. CALIPSO ended operations in July 2023.
+The main CALIPSO instrument is CALIOP (Cloud–Aerosol LIdar with Orthogonal Polarization), a two-wavelength lidar (532 and 1064 nm) which measures polarized backscatter from atmospheric components. Here we use the CALIPSO PSC product level 2 (LID_L2_PSCMask-Standard-V2-00), obtained by applying the V2 PSC detection and composition classification algorithm to CALIOP level 1B data as described in Pitts et al. (2009, 2018). This product describes the spatial distribution, composition, and optical properties of PSC layers along the CALIPSO orbit track. The product is presented as daily files. Each daily file contains vertical profiles every 5 km along-track, each containing 121 altitude levels between 8 and 30 km a.s.l. with a vertical resolution of 180 m. In the product, from May to October, daily files contain profiles sampled over the South Pole region (50–82° S), and from December to March daily files contain profiles sampled over the North Pole region (50–82° N). Here, we focus only on the South Pole (May–October). The product includes complementary information, such as the temperature from reanalysis (Sect. 2.2) interpolated on the PSC data product grid.
+In the CALIPSO PSC product, PSC detection is limited to nighttime observations as they ensure a high signal-to-noise ratio. This means the PSC sampling changes along a season (Appendix A). Near the end of the season, the polar region near 90° S is increasingly illuminated by the sun, and most of the nighttime measurements are spread between 55 and 75° S (Pitts et al., 2007). Moreover, the density of CALIPSO sampling changes across latitude bands. It is largest near 82° S due to intersections of CALIPSO overpasses, while it decreases further away from the pole. Those facts are taken into account in our analysis by (1) ignoring days with limited sampling and (2) zonally weighting our average PSC densities above Antarctica. In the rest of the study, when the total number of points sampled by CALIPSO for a given day falls below one-third of the maximum number of points over a season, the day is not considered.
+2.2 Globally gridded temperatures from MERRA-2 reanalysis
+From the CALIPSO PSC product, we use stratospheric temperatures from the Modern Era Retrospective analysis for Research and Application (MERRA-2), which are produced by the NASA Global Modeling and Assimilation Office (GMAO). MERRA-2 incorporates aerosol data assimilation and ozone representation. In the CALIPSO PSC product, these stratospheric temperatures are interpolated to the PSC data product grid into profiles and altitude levels.
+In addition to the temperatures from the CALIPSO PSC product, we consider temperatures from the gridded MERRA-2 dataset. We utilize the M2I6NPANA.5.12.4 collection, which consists of analyzed meteorological fields including temperature and is available at a 6 h time frequency starting from 00:00 UTC daily from 1980 to the present (Gelaro et al., 2017). The spatial grid has a horizontal resolution of 0.5° × 0.625° (latitude × longitude). The vertical structure of this collection is configured with 42 pressure levels from 1000 to 0.1 hPa, with nine levels in the stratosphere: 10, 20, 30, 40, 50, 70, 100, 150, and 200 hPa.
+The SPARC Reanalysis Intercomparison Project (SPARC, 2022) concludes that MERRA-2 presents a strong cold bias compared to the reanalysis ensemble mean (REM) between 10 and 30 hPa over the 1980–1999 period, more pronounced since 1995 by reaching −3 K at maximum, and another cold bias, albeit less significant (−1 K), between 70 and 100 hPa. Over the same period, a warm bias is observed between 30 and 70 hPa (+2 K). After 1999, these biases become insignificant (< 0.5 K) at all pressure levels. Moreover, a long-duration balloon observation campaign in late 2010 around 60 hPa showed that both MERRA-2 and ERA-Interim suffer from a zonally increasing warm bias from 0.4 K at 60° S to 1.3 K at 85° S (Hoffmann et al., 2017). Still, according to the SPARC report, gravity waves are not well-captured in MERRA-2 temperatures, implying they will miss extremely cold temperatures able to generate wave ice PSCs. However, wave ice PSCs represent only a little fraction of all PSCs. Overall, SPARC indicates that MERRA-2 temperatures are suitable for studies of the lower polar stratosphere and after 1998 – prior to 1998, temperatures should be used with caution.
+3 Temperature-based model of PSC density
+This section provides an overview of the methodology followed to construct our statistical model. Our intent is to evaluate the daily average PSC density in the polar region at a given pressure level based on geographical maps of stratospheric temperature. In the first part, we build our model by combining PSC detections from the CALIPSO PSC product with temperatures from reanalysis above the South Pole. In the second part, we select for each pressure level the temperature threshold to connect PSC densities with temperature maps. Finally, we explain how our model can be applied to stratospheric temperatures to evaluate PSC cover.
+3.1 Statistical model design
+CALIPSO PSC daily files organize parameters in profiles containing 121 altitude height bins from 8 to 30 km. A mask indicates for each point if a PSC was detected close to or far above the tropopause. In each profile, we use this mask to identify points with a PSC down to the tropopause. In the following, we make no distinction of PSC type (STS, enhanced NAT, liquid NAT, ice and wave ice) and consider them all together.
+First, we construct a 3D spatial grid (latitude × longitude × pressure) above Antarctica from 82 to 60° S. Horizontally, each grid box has the size 2° × 4°. This resolution provides each grid box with a reasonable number of CALIOP samples on a daily scale and is close to the horizontal resolutions of general circulation models (GCMs) and reanalyses. Vertically we use the pressure levels of the gridded MERRA-2 data (Sect. 2.2) to make our model relevant for reanalysis resolutions. For a given day d, within the associated CALIPSO PSC daily file we find the profiles that fall in each 2D grid box (latitude, longitude). Then, using the values of pressure by height bins present in the PSC product, we identify the vertical height bins of each profile that fall into each MERRA-2 pressure range (between 10 and 20 height bins per profile on average). Thus, in each 3D grid box, we get a number of CALIPSO-sampled height bins N (Fig. 1a) and a number of PSC detections n (Fig. 1b) out of the sampled height bins, and we calculate a PSC density as the ratio Flat,long(P)=
+n
+N
+(Fig. 1c). For the same grid box, we also calculate 〈Tlat,long〉 the average MERRA-2 temperature (Fig. 1d). On 1 July 2009, at 50–70 hPa, the PSC density (Fig. 1c) is higher in the northeast region (82–70° S; 0–60° E) and in the southeast region (82–70° S; 120–180° E), where temperatures drop below 190 K (Fig. 1d). Conversely, warmer temperatures lead to small or zero PSC densities.
+Figure 1Output of daily gridding for 1 July 2009 between 50 and 70 hPa. (a) Number of sampled points N. (b) Number of PSC detections n. (c) PSC density Flat,long(P) and (d) mean stratospheric temperature 〈Tlat,long〉 from MERRA-2.
+Still for day d, we spatially average the daily gridded map of PSC density Flat,long(P) for the level P (Fig. 1c) over the entire region to obtain a mean daily PSC density
+‾
+Fd(P)
+=
+1
+Nb
+∑lat,longFlat,long(P)⋅w, with Nb the number of lat–long grid boxes sampled by CALIPSO and w the weight as a function of latitude, to take into account the zonal variation in grid box size. In parallel, in each lat–long grid box at the same level P we check if the temperature 〈Tlat,long〉 (Fig. 1d) is colder than a threshold Tpsc (Fig. 2) to derive a map of cold density. The way Tpsc is selected is described in Sect. 3.2. From the resulting map filled with 1 and 0 depending on whether the condition is met or not, we calculate a daily cold density
+‾
+Cd(P)
+=
+1
+Nb
+∑lat,longx⋅w with x = 1, where 〈Tlat,long〉<Tpsc, Nb is the number of lat–long grid boxes sampled by CALIPSO, and w is the weight as a function of latitude. The daily
+‾
+Fd(P)
+and
+‾
+Cd(P)
+sum up the maps of Fig. 1c and d as a couple of single numbers for the entire polar region at a pressure level P. These values provide a convenient way to describe the extent of the PSC spatial cover on a given day, enabling the study of PSC evolution over long periods.
+Figure 2Flowchart describing the methodology. Green rectangles are input variables; in purple are the temperature thresholds which vary and in red the output parameters.
+Download
+We follow the steps above to get (
+‾
+Fd(P)
+,
+‾
+Cd(P)
+) for each pressure level P and day of the PSC dataset. Then, we establish a relationship between these parameters for each pressure level P and month M of the PSC season (May to October, blue text in Fig. 2). Figure 3 shows an example of this process considering the 50–70 hPa pressure level. One point in these plots sums up daily maps like in Fig. 1. There are 465 or 450 points in each scatter plot, corresponding to the 31 or 30 d in each month from 2006 to 2020. Tests have shown that the lowest-order regression that provides the best fit for most of the plots is a polynomial fit of degree 2 (red lines, Fig. 3). The regression takes the form
+‾
+Fd(P)
+=a⋅
+‾
+Cd(P)
+2+b⋅
+‾
+Cd(P)
++c. These equations relate
+‾
+Fd(P)
+and
+‾
+Cd(P)
+for each pressure level P during each month of the PSC season and constitute our PSC model. They allow us to produce a mean estimated PSC density called
+‾
+F
+′
+d
+(P)
+from a known mean cold density
+‾
+Cd(P)
+. This methodology is repeated for each month of the PSC season. In the next subsection, we explain the process of selecting Tpsc and its significance in our analysis.
+Figure 3Monthly scatter plots for the 50–70 hPa pressure level over 2006–2020. Red lines are the trends, with their equations in white inset panels along with the correlation coefficients R2 and Tpsc.
+Download
+3.2 Determination of Tpsc
+The selection of the temperature threshold Tpsc is a crucial step. It is the temperature above which PSCs are not detected in the CALIPSO PSC product and above which our model will not predict PSC presence in a grid box. Here, we select Tpsc as the temperature threshold that optimizes the agreement between the mean PSC density
+‾
+Fd(P)
+observed by CALIOP and the estimated mean PSC density
+‾
+F
+′
+d
+(P)
+generated by our model over the entire time period considered. In addition to cold temperatures, PSC formation requires appropriate concentrations of chemical species like HNO3 and H2O. These concentrations are not constant temporally or spatially, which is why we calculate a different Tpsc for each pressure level and each month.
+To find the optimal Tpsc, for each pressure level P and each month M, we consider candidate temperature thresholds Tpsc from 186 to 206 K. For each candidate Tpsc, we calculate the mean cold density
+‾
+Cd(P)
+and conduct a polynomial regression between
+‾
+Cd(P)
+and
+‾
+Fd(P)
+(blue text in Fig. 2), which lets us estimate
+‾
+F
+′
+d
+(P)
+. We then calculate between
+‾
+Fd(P)
+and
+‾
+F
+′
+d
+(P)
+the mean absolute error (MAE) (red text in Fig. 2), which quantifies the quality of the regression. The Tpsc and regression parameters which lead to the smallest MAE are selected for the month and pressure level considered. MAE minima are well-defined enough to specify a Tpsc with a precision of 1–2 K.
+Below we compare the retrieved Tpsc with the temperature of nitric acid nucleation TNAT, which is the warmest temperature at which PSC particles can in theory start to form and subsist, considering all available chemical species (Tritscher at al., 2021). Using the formula of Hanson and Mauersberger (1988), we calculate TNAT from the profiles of stratospheric temperature and of mixing ratio for HNO3 and H2O reported in the PSC product over separate pressure levels. For each daily file in the PSC product, we extracted HNO3 and H2O mixing ratios between 10 and 250 hPa and interpolated the H2O mixing ratios on HNO3 pressure levels. We calculated daily TNAT from the mixing ratios and temperature at each pressure level. We interpolated TNAT on the 121 altitude levels of the CALIPSO PSC product. As in Sect. 3.1, we averaged the TNAT in our 3D spatial grid (latitude × longitude × pressure) and calculated the latitude-weighted spatial average to obtain a mean daily TNAT vertical profile. Finally, we averaged these daily profiles to get an average TNAT vertical profile for a given time period.
+The TNAT vertical profiles we calculated over the 2006–2020 period (Fig. 4) are consistent with the literature: at 14 km altitude (100 hPa), typical stratospheric mixing ratios are around 3 ppm for H2O and 5 ppb for HNO3, resulting in a TNAT value of about 197 K (Hanson and Mauersberger, 1988), similar to our results. At 50 hPa, mixing ratios of 10 ppbv for HNO3 and 5 ppmv for H2O lead to a TNAT value of about 195.7 K (Pitts et al., 2018), consistent with our result of 194 K. The Tpsc vertical profiles we calculated over 2006–2020 are relatively close to the TNAT profiles, especially in July. Both temperature thresholds TNAT and Tpsc become colder in the upper stratosphere and warmer at lower altitudes, except at 10–20 hPa for the September and October Tpsc profiles. Apart from July, Tpsc is generally significantly colder than TNAT (more than several standard deviations apart). The difference is particularly important at lower altitudes between 30 and 100 hPa (Fig. 4, bottom left).
+Figure 4Vertical profiles of monthly Tpsc (colored lines) and TNAT (colored symbols). The colored envelopes represent the standard deviation of daily TNAT.
+Download
+PSC particles observed by CALIPSO in the lower stratosphere can come from nucleation processes when temperatures are below the threshold formation temperature TNAT, but they can also be sedimenting from upper levels. The formation of PSC particles requires a long time in cold temperatures; thus, the mere occurrence of temperatures colder than TNAT might not be sufficient for PSC detection in CALIPSO measurements. NAT particles may form but in concentrations too small to be detected. All these elements could explain why there is often a large difference between the temperature threshold TNAT at which PSCs can form and the temperature threshold Tpsc at which PSCs are observed. In the end, using Tpsc significantly colder than TNAT provides the best match between observed and predicted PSC densities.
+3.3 Estimating PSC densities
+‾
+F
+′
+d
+(P)
+Once we have derived appropriate regression parameters and Tpsc for each month M and pressure level P, we can use those to generate PSC densities
+‾
+F
+′
+d
+(P)
+on daily timescales across a specific period. To do so, for a given pressure level, we require a daily gridded map of temperature at large spatial scales. This map can be obtained either by regridding the temperatures profiles from the CALIPSO PSC product (as in Sect. 4) or straight from the MERRA-2 reanalysis dataset (as in Sect. 5). Considering the appropriate Tpsc for the pressure level under study, from a daily map of temperatures we derive a daily average cold density
+‾
+Cd(P)
+. We then apply the polynomial model (as in Sect. 3.1, Fig. 3) to the daily average cold density
+‾
+Cd(P)
+to output a daily average estimated PSC density
+‾
+F
+′
+d
+(P)
+. Results for the 50–70 hPa pressure level of the estimated PSC densities
+‾
+F
+′
+d
+(P)
+derived from our model (Sect. 3.1) are shown in Appendix C.
+4 Evolution of PSC densities over 14 years (2006–2020)
+4.1 Model performance in estimating PSC densities
+In this section, we compare the daily evolution of the observed PSC density
+‾
+Fd(P)
+(blue in Fig. 5, left column) with the estimated PSC density
+‾
+F
+′
+d
+(P)
+(red) generated by our model applied to MERRA-2 temperatures contained in the PSC product over the 2006–2020 period. PSC densities averaged (lines) over the whole period are well-reproduced by our model at all pressure levels. The MAE over the entire season between the average observed and estimated PSC densities is low overall but is slightly higher at lower levels from 0.003 (10–20 hPa) to 0.009 (100–150 hPa). Our model performance is the best in May, early June, and September–October: the discrepancies between average PSC densities observed and estimated are extremely low, and standard deviations from both our model and observations are similar. In those months, the maxima and minima are well-represented, especially between 50 and 150 hPa. At upper levels (10–20 and 20–30 hPa), even if some short-lived peaks in PSC densities are missed during the middle of the season, our model accurately captures the interannual variability and minima during the PSC season. Our model has a harder time estimating PSC density during the middle of the season, particularly in July and occasionally in August, resulting in a deteriorating MAE (0.01–0.02 on average). This is particularly visible at lower altitudes (50–70 and 70–100 hPa), where average PSC densities are sometimes overestimated or underestimated by our model, combined with a poorer interannual variability.
+Figure 5Left column: time series from 1 May to 31 October of the daily PSC density averaged over the 2006–2020 period (blue line for
+‾
+Fd(P)
+, red line for
+‾
+F
+′
+d
+(P)
+) with their standard deviation (blue and red envelopes) for each pressure level. Blue and red triangles represent the maximum and minimum daily densities. The black (gray) lines represent (twice) the mean standard deviations of the observed time series Fσ (F2σ). Right column: 2D histogram of
+‾
+F
+′
+d
+(P)
+-
+‾
+Fd(P)
+differences vs.
+‾
+Fd(P)
+for each pressure level.
+Download
+At 10–20 hPa, the PSC densities are low compared to other pressure levels, and the daily differences between
+‾
+F
+′
+d
+(P)
+and
+‾
+Fd(P)
+are thus also low. For low observed PSC densities (
+‾
+Fd(P)
+< 0.1), although the error of our model can reach 0.05, with these values being less than 10 %, they remain negligible. For larger observed PSC densities (
+‾
+Fd(P)
+> 0.1), the daily differences can reach up to −0.1 (Fig. 5, right column). Finally, 80 % of simulated PSC densities are within ±0.02 (red lines) of retrievals, and 96 % are within ±0.05 (orange lines). Below 20 hPa, PSC densities are overall higher (0.4–0.5 at maximum) and more similar across pressure levels, resulting in a similar Fσ. Between 20 and 150 hPa, 50 % of estimated PSC densities are within ±0.02 of retrievals, and 74 % are within ±0.05. For low PSC densities (
+‾
+Fd(P)
+< 0.2), our model tends to overestimate the densities, with 20 % of the differences between
+‾
+Fd(P)
+and
+‾
+F
+′
+d
+(P)
+being above 0.02 vs. 10 % of the differences under −0.02. As observed PSC densities increase (
+‾
+Fd(P)
+> 0.2), our model tends to increasingly underestimate PSC densities in a linear way, with 47 % of the differences between
+‾
+Fd(P)
+and
+‾
+F
+′
+d
+(P)
+being under −0.02 vs. 29 % of differences above 0.02. These results suggest that our model manages to reproduce the distribution of daily PSC densities along the season over a long time period with appropriate accuracy.
+4.2 Model performance in estimating PSC season start and end dates
+We focus now on the start and end of the PSC season, according to observations and our model. For each pressure level, we mark the start of the PSC season when PSC densities first exceed Fσ the standard deviation of
+‾
+Fd(P)
+averaged over the 2006–2020 period (Fig. 5) and the end of the PSC season when PSC densities last dip below Fσ. In the rest of the paper, we define Pσ as the period when the PSC densities are larger than the standard deviation (Pσ=
+‾
+Fd(P)
+>Fσ) and P2σ as the period when PSC densities are larger than twice the standard deviation: P2σ=
+‾
+Fd(P)
+>F2σ. PSC observations from 2006 were excluded from this part of the analysis since PSC data are not available before 13 June 2006.
+Figure 6 shows the start and end dates of the PSC seasons for the 50–70 hPa pressure level, considering PSC densities from observations (lines) and from our model applied to temperatures from the CALIPSO PSC product (hatched regions). Overall, our model manages to estimate the PSC season start and end compared to observations with accuracy. At that pressure level on average over the 2007–2020 period our model and observations estimates the same start date and a quite similar end of the PSC season on 6 and 8 September, respectively (orange). Observations and the model agree that P2σ starts on 22 June and ends on 20 August (blue). The largest disparity between observations and our model concerns the 2015 season, which our model ends 23 d late due to an overestimation of PSC densities (Appendix C).
+Figure 6Start and end dates of Pσ (orange) and P2σ (blue) for the 50–70 hPa pressure level for the time period 2007–2020. Full lines are based on PSC densities
+‾
+Fd(P)
+retrieved from CALIPSO PSC detections, and hatched surfaces are based on PSC densities
+‾
+F
+′
+d
+(P)
+derived from our model applied to MERRA-2 temperatures provided by the CALIPSO PSC product.
+Download
+Looking at all pressure levels, our model and observations agree well on PSC season start and end dates, as differences never exceed 2–3 d (Fig. 7). Our model starts the PSC season (Pσ) slightly late (Fig. 7a), except at 20–30 and 70–100 hPa (red, Fig. 7a). The best performance of our model is between 10 and 100 hPa, with differences being on average less than a day with standard deviations between 3 and 4 d. The largest difference from observations is found at 100–150 hPa (2.6 ± 3 d) and remains small compared to the average length of seasons (months). Concerning the end of the PSC season (blue, Fig. 7a), our model puts it slightly too early except at 100–150 hPa. The average differences vary from 0 to 3 d with standard deviations between 5 and 10 d. Our model's most accurate estimation is at 70–100 hPa, with an average difference shorter than a day. Overall, the PSC season dates produced by our model and observed by CALIPSO agree extremely well within a few days at all pressure levels.
+Figure 7Vertical profiles of the average differences between the start (red) and end (blue) of Pσ (a) and P2σ (b) periods according to CALIPSO observations and our model estimations over the 2007–2020 period. Our model is applied to MERRA-2 temperatures provided by the CALIPSO PSC product. The horizontal bars represent the standard deviations of differences.
+Download
+Our model and observations generally start the P2σ period within 2 d of each other on average (red, Fig. 7b), with the best agreement at 50–70 hPa. Standard deviations for the differences in start dates range between 4 and 10 d. Like with Pσ, we find the worst agreement for P2σ at 100–150 hPa (with an average difference of 4.9 ± 10 d). The agreement for end dates is generally very good (blue in Fig. 7b), with differences below 3.5 d and standard deviations between 7 and 12 d. We find that end dates agree best between 20 and 100 hPa (< 1 d on average). While P2σ estimation start dates are slightly less accurate than Pσ, they remain robust overall. However, P2σ estimation end dates are more accurate than Pσ.
+In summary, the boundaries of the Pσ and P2σ periods derived from our model and observations agree extremely well, especially at 50–70 hPa. In general, our model tends to slightly shorten both periods due to a late start and an early end. Differences remain below 2–5 d, i.e., small relative to the typical season duration (months). As PSC seasons provided by our model appear to be consistent with the one derived from observations over the period 2007–2020, in the next section we extend our analysis into the past using MERRA-2 gridded temperatures over the 1980–2021 period.
+5 Changes of the PSC season length over the 1980–2021 period
+In this section, we investigate long-term changes in the length of the PSC season over the entire polar region (60–90° S) and over the CALIPSO sampling region (60–82° S) during the 1980–2021 period. To do so, we estimate daily PSC densities
+‾
+F
+′
+d
+(P)
+using MERRA-2 gridded temperatures, which cover the entire Antarctic region homogeneously every day. We assume that the PSC–temperature relationship we derived between 60 and 82° S is still valid south of 82° S. Since our model is built on the relationship between PSC detections from CALIPSO and MERRA-2 temperatures at large spatial resolutions, it is directly applicable to gridded temperatures from the same dataset. Compared to using temperatures from the CALIPSO PSC product, which sample different parts of the polar region every day, this approach leads to a more complete representation of daily PSC densities that does not suffer from sampling degradation due to variations in instrument operation or incoming sunlight.
+5.1 PSC season duration
+Over 1980–2021, between 60 and 90° S, the PSC season typically starts in early June, except between 20 and 50 hPa, where it starts in late May (Table 1 and red line in Fig. 8). The start dates of PSC season are quite stable, with standard deviations going from 4 d (50–100 hPa) to 9 d. Start dates appear relatively stable with pressure. A clear trend appears for end dates with increasingly later dates as we descend in altitude (blue line), going from 19 August at 10–20 hPa to 7 October at 100–150 hPa. Moreover, compared to start dates, end dates appear more variable, with standard deviations going from 6 d at 20–30 hPa to 13 d at 70–100 hPa. At lower altitudes, the PSC season begins later and finishes later, explaining why the PSC season last 1 to 2 months longer at lower altitudes.
+Table 1Average start and end dates of the PSC season over 1980–2021, the average length of the Pσ season, and the changes in the PSC season duration according to linear regressions for each pressure level and over the two latitudinal regions of 60–90 and 60–82° S.
+Download Print Version | Download XLSX
+Figure 8Start (pink) and end (blue) of the PSC season averaged over 1980–2021 across pressure levels. Colored lines are over the entire polar region (60–90° S), and gray lines are over the CALIPSO sampling region (60–82° S). Triangles represent the earliest start and end dates over the 1980–2021 period. Envelopes represent the standard deviations.
+Download
+Between 60 and 82° S, the PSC season typically starts in June and begins approximately 4 to 11 d later than when considering the entire polar region. End dates are less spread than between 60 and 90° S, from 14 August at 10 hPa to 29 September at 150 hPa. Differences are largest at 30–50 hPa, where there is an 11 d gap. Between 60 and 82° S, the PSC season presents a later onset as well as an earlier end, and by consequence seasons are shorter (Appendix D). These results suggests that as CALIPSO does not sample the region poleward of 82° S, it misses early PSC close to the pole and late PSCs that persist there towards the end of the season. At 10–20 hPa, the season begins more than 1 week later for 14 years and more than 2 weeks later for 5 years compared to the period considered across the entire polar region. ln 1982 and 2010, the start of the PSC season is delayed by 26 d, and in 2006, it is delayed by 35 d. For other pressure levels, the PSC season starts between 1 and 2 weeks later than between 60 and 90° S. The pressure level least impacted by the latitudinal region is at 50–70 hPa, where it shows minimal start date differences, with only 4 years beginning more than 1 week later. Most of the time, the gap remains less than a week and is very often zero. This result suggests that PSCs form first between 82 and 60° S each year at 50–70 hPa. For end dates, when comparing the 60–82 and the 60–90° S regions, the greatest differences appear between 30 and 100 hPa, with on average 29 years ending more than 1 week earlier and 12 years ending more than 2 weeks earlier. The largest gap is at 70–100 hPa, with 2 years ending 32 and 36 d earlier.
+5.2 Changes in PSC season duration
+Here, we describe the evolution of the PSC season length according to trends retrieved over several decades (1980–2021). Over each pressure level, we examine the time series describing the annual duration of the PSC season (Appendix D), and on this time series we conduct a linear regression to retrieve the slope of the trend in PSC season length vs. time. From these regressions we estimate a change in PSC season length over long periods. Statistical tests on the estimated slope coefficients (Seabold and Perktold, 2010) are used to establish if the retrieved trends are statistically significant (p value < 0.05). We look independently at periods before and after 2000, as we found them to exhibit different behaviors.
+Over the 1980–2000 period (Fig. 9a), we find that the PSC seasons get significantly longer (red lines, Fig. 9a). The increase exceeds the standard deviation of the series (dark green) at all pressure levels. Increases in PSC season length get longer at lower altitudes – they exceed twice the standard deviation (light green) and are found to be statistically significant (30–150 hPa). We find the PSC season increases the most at 70–100 hPa (+39 d between 60 and 90° S, +34 d between 60 and 82° S). We note that over the 1980–2000 period, MERRA-2 stratospheric temperatures exhibit substantial biases in the polar southern hemisphere (Lawrence et al., 2018), notably a warm bias (up to +1.5 K) at 30–70 hPa and a cold bias (−1 K) at 70–150 hPa. These biases could impact the length of the PSC season retrieved through our model, but as they remained constant over the 1980–2000 period, trends should not be affected. Between 10 and 30 hPa, MERRA-2 shows a cold bias over the 1980–2000 period, which increases to reach −3 K between 1994 and 1999. This bias could lead us to overestimate the length of PSC season at the end of the 1980–2000 period and overestimate the increasing trend. At those levels, however, the trends we retrieve are the weakest ones.
+Figure 9PSC season duration changes between 1980 and 2000 (a), between 2000 and 2021 (b), and between 1980 and 2021 (c) for each pressure level over the polar region (60–90° S) and over the CALIPSO sampling region (60–82° S) derived from trend analyses using from linear regressions. The red (pink) lines represent the changes in the number of days of the PSC season duration in the 60–90° S (60–82° S) region. The envelopes represent the standard deviations associated with the time series of the PSC season duration. The stars indicate significant trends.
+Download
+Over the 2000–2021 period (Fig. 9b), we find no significant trend. This is explained by the small change in PSC season length according to regressions (less than 10 d between 20 and 100 hPa, red lines) combined with the enhanced variability of the PSC season length (gray shading) due to sudden stratospheric warming (SSW) events (e.g., 2002, 2019, Sect. 6) and warmer polar vortex occurrences (e.g., 2010, 2012). The PSC season tends to get shorter between 30 and 70 hPa over 60–90° S and between 30 and 100 hPa over 60–82° S. This result is in agreement with CALIPSO observations, which observed a statistically significant decrease in the PSC season length at 50–70 and 70–100 hPa (Appendix D). We note that at 70–100 hPa, the sign of the trend depends on the region: across the entire polar region the PSC season extends by 5 d, while it is shortened by 10 d over the CALIPSO sampling region. This result suggests that due to their incomplete spatial and temporal sampling CALIPSO observations are not always representative of long-term trends in the variability of the PSC cover across the entire polar region.
+Over the 1980–2021 period (Fig. 9c), changes in PSC season lengths (red lines) are modest and often stay below a single standard deviation (blue shade). We find, however, a statistically significant increase between 30 and 100 hPa of up to +18 d at 50–70 hPa, twice the standard deviation. As discussed before, until 1999 MERRA-2 exhibits a substantial warm bias between 30 and 70 hPa, which disappears at once afterwards. This bias could lead to a sudden drop in MERRA-2 temperatures and an increase in PSC season duration as retrieved from our model. When examining the PSC season length (Appendix D), we find no sudden increase in PSC season length after 1999, suggesting that MERRA-2 biases do not substantially impact our results. At upper levels (10–30 hPa), the PSC season gets shorter over the 1980–2021 period, while it appeared to get longer over both the 1980–2000 and the 2000–2021 periods. We relate those trends to the 1999 disappearance of the strong cold bias in MERRA-2 temperatures at those levels, leading to a shortening of the PSC seasons.
+6 Influence of synoptic events affecting the stratosphere
+Large-scale atmospheric waves moving upwards into the stratosphere can disrupt the polar vortex. In extreme cases, this disruption triggers a reversal of wind directions and a rapid warming, known as a sudden stratospheric warming (e.g., SSW, Butler et al., 2015). In the Southern Hemisphere SSW events are rare, approximately one in 22 years (Jucker et al., 2021). The first SSW observed over the Antarctic was in 1988 with two warming events (Roy et al., 2022), the first a few days long and the second from 24 September to 3 October with a warming from 205 to 245 K. In our results, 1988 shows the earliest end of the PSC season at 50–70 hPa, and the early season ends between 70 and 150 hPa (Fig. 10). During the second SSW, in 2002, multiple wave events (Newman and Nash, 2005) led to a warming in June which became extremely intense by early July. We find at 50–70 hPa low PSC densities (< 0.2) in June compared to other years (not shown) and an early season end between 50 and 150 hPa. Combined with a late onset of the PSC season (early July), this led to a short PSC season (Fig. 10), the shortest at 100–150 hPa (78 d over 60–90° S and 69 d over 60–82° S, Appendix D) and 50–70 hPa over 60–82° S (68 d). During a third SSW in 2019 a strong planetary wave led to an exceptional rise in MERRA-2 temperature of +50.8 K at 10 hPa from 5 to 11 September (Yamazaki et al., 2020; Lim et al., 2021). By comparison, the maximum warming during September 2002 was 38.5 K per week. At 10–20 hPa, this warming did not impact our results since the PSC season was already over. Between 20 and 150 hPa, the PSC season end in early September due to the warming. Moreover, between 50 and 150 hPa, we notice a significant decrease in estimated PSC densities in late August (not shown), consistent with the SSW, leading to an early PSC end of season (Fig. 10). Based on these findings, we conclude that our model captures the impact that the SSW events have on PSC well, as long as their influence is correctly represented in the reanalyses. Other dynamic events that disturb the polar vortex appear equally well-captured by our model: for instance, in July 2010, a negative quasi-biennial oscillation favored the channeling of planetary waves, which produced a warming at high altitudes, especially at 10 hPa (Klekociuk et al., 2011). The related intense July warming leads to the earliest end of the PSC season at 10–20 hPa (Fig. 10).
+Figure 10(a) Start and end of PSC seasons for each year between 1980 and 2021 over (a) the entire polar region (60–90° S) and (b) the CALIPSO sampling region (60–82° S). The red points represent volcanic eruptions and purple stars SSWs.
+Download
+In addition to SSW, the polar stratosphere can be affected by volcanic events. The eruption of Mount Calbuco in April 2015, injected water and sulfate aerosols into the stratosphere, which slowly descended during transport from midlatitudes towards the poles (Stone et al., 2017). These injections began penetrating the Antarctic vortex in May, causing strong early denitrification and thus limiting PSC formation for the rest of the season (Zhu et al., 2018). CALIOP observations at the end of May reveal high PSC densities at 50–70 hPa compared to other years (Appendix C). This early surge in PSC densities is mostly due to NAT PSC (Appendix E) and is followed by a decline in early June, providing confirmation of early denitrification. Moreover, between 50 and 150 hPa, we found low STS and NAT densities (< 0.2) during the middle of the season, unlike other years where densities are twice as high. The absence of high PSC STS and NAT densities in this period suggests there is no longer enough HNO3 and H2O available in the stratosphere due to the early denitrification. Moreover, our temperature-based model overestimates the observed PSC densities between 50 and 100 hPa in July and August. The aerosols injected by volcanic eruptions capture some of the solar radiation, warming the atmosphere near their height of injection but cooling the lower altitudes. MERRA-2 temperatures at 50–70 and 100–150 hPa show a cold anomaly (Appendix E) compared to the 1980–2021 mean temperature from mid-July toward October, probably due to the cooling effect of the sulfate aerosols. Also notable is the prolonged 2015 PSC season at 100–150 hPa according to CALIPSO observations, showing uncommon high densities (∼ 0.2) in early October when PSC densities are in general below 0.1. Our model underestimates these high PSC densities, suggesting that factors beyond temperature influence the PSC formation, such as the aerosol supply resulting from the eruption. Overall, when considering CALIPSO PSC detections, volcanic eruptions appear to have a much weaker impact on the length of the PSC season than SSWs.
+While our model can react to volcanic eruptions when their radiative effects are accounted for in the stratospheric temperatures, it cannot take into account their impacts on stratospheric polar chemistry. Such changes will depend on the volcano location and distance to the poles, on the eruption intensity and position within the season timeline, and on which chemical compounds are released by the eruption to reach the polar stratosphere. For example, the Hunga Tonga-Hunga Ha'apai eruption in 2022 injected huge amounts of water vapor into the stratosphere, but these did not penetrate the polar vortex: satellite measurements revealed that within the vortex, water vapor, ozone, and other chemical species maintained levels close to historical averages through spring 2022 (Manney et al., 2023). Complications with the calibration of the CALIPSO signal in the stratosphere affected by Hunga Tonga explains why the PSC product is not available for the 2022 Antarctic winter and why we cannot yet conclude anything about the effect of this eruption on the PSC formation and season. Outside the CALIPSO period and inside the 1980–2021 period, other volcanic eruptions include El Chichón (17° N, 93° W) in 1982, as well as Mount Cerro Hudson (46° S, 73° W) and Mount Pinatubo (15° N, 120° E), both in 1991. The Pinatubo eruption between 12 and 16 June 1991 was the most significant in the past century, releasing sulfur dioxide (SO2) into the stratosphere, which was transformed into sulfate aerosols (H2SO4/H2O) (McCormick et al., 1995), mostly affecting the Southern Hemisphere. MERRA-2 shows an episodic temperature increase between 10 and 100 hPa associated with the eruptions cited above (Gelaro et al., 2017). The cooling of the global mean stratosphere was more pronounced over the 1979–1998 period due to intense ozone depletion and increasing GHG emissions compared to the 1998–2016 period when ozone-depleting substances decreased (Maycock et al., 2018). Those results are consistent with the trends of the PSC season duration estimated by our model (Sect. 5). Indeed, our model finds that over 1980–2000 the PSC season gets longer at all pressure levels, consistent with a global cooling of the stratosphere. After 2000, the PSC season duration is stable, consistent with relatively warm years. To our knowledge, there is no evidence in the literature that confirms a PSC season extension over the 1980–2000 period. Merging retrievals from several satellites (Fromm et al., 2003) showed that PSCs were less frequent in July at 20 km a.s.l. in the Antarctic vortex in years characterized by volcanic eruptions, such as after the eruptions of El Chichón, Nevado del Ruiz, and Mount Pinatubo. Moreover, those years were characterized by a strong aerosol extinction inside the Antarctic vortex. These results suggest that in the case of major stratospheric eruptions, enhanced aerosol loading inside the polar vortex could trigger early denitrification and by consequence less PSC formation in the middle of the season, like for the Calbuco eruption in 2015. However, this does not imply a shortening of the PSC season, only lower PSC densities during the middle of the season.
+7 Conclusions
+In this article, we aimed to evaluate if the seasonal evolution of PSCs went through significant changes over the past decades (1980–2021). To reach this objective, we defined the daily PSC density as an indicator to track the fraction of the polar stratosphere covered by PSCs for pressure level ranges. By relating the PSC density to temperature data from MERRA-2, we developed a statistical model which estimates by pressure level the daily average PSC density over the polar region. We evaluated the robustness of our model by conducting comparisons between the observed PSC density data from CALIPSO and those estimated by our model.
+The PSC–temperature relationship proposed by our model tracks the daily evolution of PSCs well throughout each season and at each pressure level between 10 and 150 hPa. Our model manages to reproduce the observed evolution of PSC in the case of well-understood stratospheric temperature changes driven by SSW (e.g., 2019, Sect. 6). However, if radiative forcing by aerosols from eruptions is not accounted for in stratospheric temperatures, the PSC–temperature relationship can be disrupted and our model will deviate from reality. Moreover, variations in aerosols and chemical species abundance, following volcanic eruptions, can affect our model's performance (e.g., the Calbuco eruption in 2015) in hard-to-predict ways due to the complex nature of their impact on PSC formation. Nevertheless, temperature generally appears to be a robust proxy for PSC formation at daily scales in most seasons, which enables a realistic capture of long-term changes. After defining the beginning and end of each PSC season based on variations of the PSC density, we found the results of our model to be in very good agreement with observations, with an accuracy better than 5 d at all pressure levels.
+Applying our model to gridded MERRA-2 temperatures enabled us to quantify the PSC density (1) considering the whole Antarctica domain (2) at daily scales and (3) over the 1980–2021 period. This leads to an integrated view of PSC occurrence that is free from the sampling issues that spaceborne measurements can incur. Analyzing this dataset shows that the length of the estimated PSC season duration is systematically longer when considering the entire polar region than only the CALIPSO sampling region. We find that the PSC season gets significantly longer during the 1980–2000 period across all levels except at 10–20 hPa, with the largest increase (+39 d) at 70–100 hPa. The lengthening of the PSC season at upper levels (10–30 hPa) must be considered with caution due to the increasing cold bias in MERRA-2 temperatures between 1980 and 2000. However, all the significant trends found between 30 and 150 hPa are reliable even considering MERRA-2 biases. At high altitudes, the increasing PSC season length is attributed to an earlier start date and a later end date, while at other pressure levels, the lengthening of the season is due to later end dates only. After 2000, MERRA-2 temperature bias are reduced to become insignificant, inducing a drop in the PSC season length at 10–20, 20–30, and 100–150 hPa. Between 30 and 70 hPa, the PSC season tends to be slightly shortened; however, those trends are not significant. Over the 1980–2021 period, between 30 and 100 hPa, the PSC season gets significantly longer by 17 d on average. This lengthening is linked to a period of general stratospheric cooling. However, due to the bias present at all pressure levels in MERRA-2 before 1999, the trends found over the 1980–2021 period should be considered with caution.
+Since our study associates observed PSC cover with MERRA-2 temperatures, applying our model to temperatures from other sources (e.g., ERA5 or climate models) would require re-training the model to account for baseline shifts in stratospheric temperatures for a particular dataset. Considering other reanalysis could help when examining the PSC season length, extracting MERRA-2 biases. According to Chap. 10 of the SPARC report, the best reanalysis with the lowest bias over the 1980–2021 period and all pressure levels seems to be JRA-55. Moreover, CALIPSO did not sample Antarctic regions south of 82° S, and variations in the PSC–temperature relationship in that region cannot be taken into account. There is, however, to our knowledge, no evidence for such variations. Finally, events of regional-scale gravity wave cooling, which might be underrepresented in reanalyses, can trigger PSC formation (Noel and Pitts, 2012). These PSCs, however, constitute a relatively small fraction of the overall PSC cover and their impact on the model's performance is considered negligible.
+Future work may involve extending the scope of the present study to PSCs from the Arctic region, where stratospheric temperatures are less stable and PSC season durations more variable. First results suggest that our model can reproduce the PSC densities observed over the North Pole over the 2006–2020 period as well as over Antarctica. Adding PSC speciation to our model would enable the study of the evolution of a particular PSC type over long periods. Moreover, the gridded MERRA-2 temperatures are available four times a day, so we could document the PSC density evolution at sub-daily scales. Finally, we intend to apply our model to stratospheric temperatures predicted by general circulation models over the next century to better understand the evolution of PSC cover in the context of climate change and how it could impact the reformation of the hole in the ozone layer.
+Appendix A: CALIPSO sampling
+The total daily number of CALIPSO profiles over a PSC season (May to October) from 2006 to 2020 at 10–20 hPa exhibits a yearly pattern, which illustrates the deterioration of CALIPSO PSC sampling as the season ends due to the return of sunlight during austral spring. Low mid-season daily numbers of CALIPSO profiles can be related to CALIOP satellite maneuvers. In such cases, the payload is turned off, leading to irregular sampling and days excluded from the time series. In October, the daily number drops below 16 % of its maximum.
+Figure A1Total daily number of CALIPSO points from 2006 to 2020 at 10–20 hPa.
+Download
+We sum up the percentage of available CALIPSO daily files from 2007 to 2020 below for each month of the PSC season (May to October).
+Figure A2Percentage of available daily files for each month of the PSC season from 2007 to 2020.
+Download
+Appendix B: Monthly temperature thresholds and statistical parameters (2006–2020)
+Table B1Monthly temperature thresholds Tpsc by pressure level P and statistical parameters derived from comparisons between PSC densities observed by CALIPSO and those simulated by our model over the 2006–2020 period.
+Download Print Version | Download XLSX
+MAE (mean absolute error) is a measure of the prediction difference between two time series.
+MAE=
+∑days|
+‾
+Fd(P)
+-
+‾
+F
+′
+d
+(P)
+|
+n
+,
+withnthe number of days
+RMSE (root mean square error) is a measure of the overall error between two time series. The lower the RMSE, the better the fit between the two series.
+RMSE=
+√
+∑days(
+‾
+Fd(P)
+-
+‾
+F
+′
+d
+(P)
+)2
+n
+,
+withnthe number of days
+R2 (coefficient of determination) is a measure of the proportion of the variance of the reference series compared to the series to be evaluated. An R2 of 1 indicates a perfect fit, while an R2 of 0 indicates that there is no relationship between two series.
+Appendix C: Estimated PSC densities by our model at 50–70 hPa
+Figure C1 depicts, for the 50–70 hPa pressure level, the estimated PSC density
+‾
+F
+′
+d
+(P)
+compared to those observed by CALIPSO. Our model represents PSC densities well, except in July and August 2015 when
+‾
+F
+′
+d
+(P)
+values are larger than observations by up to 25 %. This year was characterized by the Calbuco eruption, which impacted stratospheric aerosol concentrations (Zhu et al., 2018). Such changes cannot be taken into account in our model, which is temperature-based.
+Figure C1Time series from 1 May to 31 October of the daily PSC densities observed by CALIPSO
+‾
+Fd(P)
+(blue) and estimated by our model
+‾
+F
+′
+d
+(P)
+(red) from 2007 to 2020 at 50–70 hPa.
+Download
+Appendix D: PSC season duration evolution over all pressure levels
+Figure D1PSC season duration from 1980 to 2021 over all pressure levels according to our model applied to gridded MERRA-2 temperatures over 60–82° S (black) and over 60–90° S (green). In blue is the PSC season duration observed by CALIPSO and in red is that estimated by our model applied to temperatures provided by the CALIPSO PSC product. The red points represent the volcanic eruptions and purple stars the SSW. Only statistically significant trends are shown in dashed lines.
+Download
+Appendix E: PSC density evolution and season changes at 50–70 hPa
+Figure E1Time series of daily average PSC densities
+‾
+Fd(P)
+observed by CALIPSO (blue curve) and PSC densities estimated by our model
+‾
+F
+′
+d
+(P)
+(red dots) at 50–70 hPa (a) and at 100–150 hPa (b) for the year 2015. Colored lines represent the different PSC types. Green is for STS, orange for NAT, and blue for ICE.
+Download
+Figure E2Daily MERRA-2 gridded stratospheric temperature average between 60–90° S and over each PSC season from 1980 to 2021 at 50–70 hPa (a) and at 100–150 hPa (b). The time series goes from 1 May (day 0) to 31 October (day 184). The mean of MERRA-2 (blue triangles) and its standard deviation (blue vertical lines) are shown.
+Download
+Data availability
+The CALIPSO/CALIOP L2 PSC product dataset available at https://doi.org/10.5067/CALIOP/CALIPSO/CAL_LID_L2_PSCMASK-STANDARD-V2-00 (NASA/LARC/SD/ASDC, 2024).
+The MERRA-2 gridded dataset reanalysis is available at https://doi.org/10.5067/A7S6XP56VZWS (Global Modeling and Assimilation Office (GMAO), 2015).
+Supplement
+The supplement related to this article is available online at: https://doi.org/10.5194/acp-24-6433-2024-supplement.
+Author contributions
+All the authors contributed to this paper. The methodology used in this work is developed by ML.
+Competing interests
+The contact author has declared that neither of the authors has any competing interests.
+Disclaimer
+Publisher's note: Copernicus Publications remains neutral with regard to jurisdictional claims made in the text, published maps, institutional affiliations, or any other geographical representation in this paper. While Copernicus Publications makes every effort to include appropriate place names, the final responsibility lies with the authors.
+Acknowledgements
+The authors thank Michael Pitts and the CALIPSO team of the Langley research center for suggesting paths of exploration for this article. The authors also thank the CNES and CNRS for supporting this work through the funding of the EECLAT project. This study has been supported through grant EUR TESS (no. ANR-18-EURE-0018) in the framework of the Programme des Investissements d'Avenir.
+Financial support
+This research has been supported by the Centre National d'Etudes Spatiales (grant Tosca) and the Centre National de la Recherche Scientifique (grant Lefe).
+Review statement
+This paper was edited by Farahnaz Khosrawi and reviewed by two anonymous referees.
+References
+Bogdan, A., Molina, M. J., Kulmala, M., MacKenzie, A. R., and Laaksonen, A.: Study of finely divided aqueous systems as an aid to understanding the formation mechanism of polar stratospheric clouds: Case of HNO3/H2O and H2SO4/H2O systems, J. Geophys. Res.-Atmos., 108, 4302, https://doi.org/10.1029/2002JD002605, 2003.
+Braun, B., Sweetser, T., Graham, C., and Bartsch, J.: CloudSat's A-Train Exit and the Formation of the C-Train: An Orbital Dynamics Perspective, in: 2019 IEEE Aerospace Conference, Big Sky, MT, USA, 2–9 March 2019, IEEE, 1–10, https://doi.org/10.1109/AERO.2019.8741958, 2019.
+Butler, A. H., Seidel, D. J., Hardiman, S. C., Butchart, N., Birner, T., and Match, A.: Defining Sudden Stratospheric Warmings, B. Am. Meteorol. Soc., 96, 1913–1928, https://doi.org/10.1175/BAMS-D-13-00173.1, 2015.
+Eyring, V., Waugh, D. W., Bodeker, G. E., Cordero, E., Akiyoshi, H., Austin, J., Beagley, S. R., Boville, B. A., Braesicke, P., Brühl, C., Butchart, N., Chipperfield, M. P., Dameris, M., Deckert, R., Deushi, M., Frith, S. M., Garcia, R. R., Gettelman, A., Giorgetta, M. A., Kinnison, D. E., Mancini, E., Manzini, E., Marsh, D. R., Matthes, S., Nagashima, T., Newman, P. A., Nielsen, J. E., Pawson, S., Pitari, G., Plummer, D. A., Rozanov, E., Schraner, M., Scinocca, J. F., Semeniuk, K., Shepherd, T. G., Shibata, K., Steil, B., Stolarski, R. S., Tian, W., and Yoshiki, M.: Multimodel projections of stratospheric ozone in the 21st century, J. Geophys. Res.-Atmos., 112, D16303, https://doi.org/10.1029/2006JD008332, 2007.
+Fortin, T. J., Drdla, K., Iraci, L. T., and Tolbert, M. A.: Ice condensation on sulfuric acid tetrahydrate: Implications for polar stratospheric ice clouds, Atmos. Chem. Phys., 3, 987–997, https://doi.org/10.5194/acp-3-987-2003, 2003.
+Fromm, M., Alfred, J., and Pitts, M.: A unified, long-term, high-latitude stratospheric aerosol and cloud database using SAM II, SAGE II, and POAM II/III data: Algorithm description, database definition, and climatology, J. Geophys. Res.-Atmos., 108, 4366, https://doi.org/10.1029/2002JD002772, 2003.
+Gelaro, R., McCarty, W., Suárez, M. J., Todling, R., Molod, A., Takacs, L., Randles, C. A., Darmenov, A., Bosilovich, M. G., Reichle, R., Wargan, K., Coy, L., Cullather, R., Draper, C., Akella, S., Buchard, V., Conaty, A., Silva, A. M. da, Gu, W., Kim, G.-K., Koster, R., Lucchesi, R., Merkova, D., Nielsen, J. E., Partyka, G., Pawson, S., Putman, W., Rienecker, M., Schubert, S. D., Sienkiewicz, M., and Zhao, B.: The Modern-Era Retrospective Analysis for Research and Applications, Version 2 (MERRA-2), J. Climate, 30, 5419–5454, https://doi.org/10.1175/JCLI-D-16-0758.1, 2017.
+Global Modeling and Assimilation Office (GMAO): MERRA-2 inst6_3d_ana_Np: 3d,6-Hourly,Instantaneous,Pressure-Level,Analysis,Analyzed Meteorological Fields V5.12.4, Goddard Earth Sciences Data and Information Services Center (GES DISC) [data set], Greenbelt, MD, USA, https://doi.org/10.5067/A7S6XP56VZWS, 2015.
+Hanson, D. and Mauersberger, K.: Laboratory studies of the nitric acid trihydrate: Implications for the south polar stratosphere, Geophys. Res. Lett., 15, 855–858, https://doi.org/10.1029/GL015i008p00855, 1988.
+Hegglin, M. I., Plummer, D. A., Shepherd, T. G., Scinocca, J. F., Anderson, J., Froidevaux, L., Funke, B., Hurst, D., Rozanov, A., Urban, J., von Clarmann, T., Walker, K. A., Wang, H. J., Tegtmeier, S., and Weigel, K.: Vertical structure of stratospheric water vapour trends derived from merged satellite data, Nat. Geosci., 7, 768–776, https://doi.org/10.1038/ngeo2236, 2014.
+Hoffmann, L., Hertzog, A., Rößler, T., Stein, O., and Wu, X.: Intercomparison of meteorological analyses and trajectories in the Antarctic lower stratosphere with Concordiasi superpressure balloon observations, Atmos. Chem. Phys., 17, 8045–8061, https://doi.org/10.5194/acp-17-8045-2017, 2017.
+Höpfner, M., Larsen, N., Spang, R., Luo, B. P., Ma, J., Svendsen, S. H., Eckermann, S. D., Knudsen, B., Massoli, P., Cairo, F., Stiller, G., v. Clarmann, T., and Fischer, H.: MIPAS detects Antarctic stratospheric belt of NAT PSCs caused by mountain waves, Atmos. Chem. Phys., 6, 1221–1230, https://doi.org/10.5194/acp-6-1221-2006, 2006.
+Hoyle, C. R., Engel, I., Luo, B. P., Pitts, M. C., Poole, L. R., Grooß, J.-U., and Peter, T.: Heterogeneous formation of polar stratospheric clouds – Part 1: Nucleation of nitric acid trihydrate (NAT), Atmos. Chem. Phys., 13, 9577–9595, https://doi.org/10.5194/acp-13-9577-2013, 2013.
+IPCC: Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change, edited by: Masson-Delmotte, V., Zhai, P., Pirani, A., Connors, S. L., Péan, C., Berger, S., Caud, N., Chen, Y., Goldfarb, L., Gomis, M. I., Huang, M., Leitzell, K., Lonnoy, E., Matthews, J. B. R., Maycock, T. K., Waterfield, T., Yelekçi, O., Yu, R., and Zhou, B., Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, in press, https://doi.org/10.1017/9781009157896, 2021.
+James, A. D., Brooke, J. S. A., Mangan, T. P., Whale, T. F., Plane, J. M. C., and Murray, B. J.: Nucleation of nitric acid hydrates in polar stratospheric clouds by meteoric material, Atmos. Chem. Phys., 18, 4519–4531, https://doi.org/10.5194/acp-18-4519-2018, 2018.
+Jensen, E. J., Toon, O. B., Tabazadeh, A., and Drdla, K.: Impact of polar stratospheric cloud particle composition, number density, and lifetime on denitrification, J. Geophys. Res.-Atmos., 107, SOL 27-1–SOL 27-8, https://doi.org/10.1029/2001JD000440, 2002.
+Jucker, M., Reichler, T., and Waugh, D. W.: How Frequent Are Antarctic Sudden Stratospheric Warmings in Present and Future Climate?, Geophys. Res. Lett., 48, e2021GL093215, https://doi.org/10.1029/2021GL093215, 2021.
+Khosrawi, F., Urban, J., Lossow, S., Stiller, G., Weigel, K., Braesicke, P., Pitts, M. C., Rozanov, A., Burrows, J. P., and Murtagh, D.: Sensitivity of polar stratospheric cloud formation to changes in water vapour and temperature, Atmos. Chem. Phys., 16, 101–121, https://doi.org/10.5194/acp-16-101-2016, 2016.
+Khosrawi, F., Kirner, O., Sinnhuber, B.-M., Johansson, S., Höpfner, M., Santee, M. L., Froidevaux, L., Ungermann, J., Ruhnke, R., Woiwode, W., Oelhaf, H., and Braesicke, P.: Denitrification, dehydration and ozone loss during the 2015/2016 Arctic winter, Atmos. Chem. Phys., 17, 12893–12910, https://doi.org/10.5194/acp-17-12893-2017, 2017.
+Klekociuk, A. R., Tully, M. B., Alexander, S. P., Dargaville, R. J., Deschamps, L. L., Gies, H. P., Henderson, S. I., Javorniczky, J., Krummel, P. B., Petelina, S. V., Siddaway, J. M., and Stone, K. A.: The Antarctic ozone hole during 2010, Aust. Meteorol. Ocean., 61, 253–267, 2011.
+Lawrence, Z. D., Manney, G. L., and Wargan, K.: Reanalysis intercomparisons of stratospheric polar processing diagnostics, Atmos. Chem. Phys., 18, 13547–13579, https://doi.org/10.5194/acp-18-13547-2018, 2018.
+Lim, E.-P., Hendon, H. H., Butler, A. H., Thompson, D. W. J., Lawrence, Z. D., Scaife, A. A., Shepherd, T. G., Polichtchouk, I., Nakamura, H., Kobayashi, C., Comer, R., Coy, L., Dowdy, A., Garreaud, R. D., Newman, P. A., and Wang, G.: The 2019 Southern Hemisphere Stratospheric Polar Vortex Weakening and Its Impacts, B. Am. Meteorol. Soc., 102, E1150–E1171, https://doi.org/10.1175/BAMS-D-20-0112.1, 2021.
+Manney, G. L., Santee, M. L., Lambert, A., Millán, L. F., Minschwaner, K., Werner, F., Lawrence, Z. D., Read, W. G., Livesey, N. J., and Wang, T.: Siege in the Southern Stratosphere: Hunga Tonga-Hunga Ha'apai Water Vapor Excluded From the 2022 Antarctic Polar Vortex, Geophys. Res. Lett., 50, e2023GL103855, https://doi.org/10.1029/2023GL103855, 2023.
+Marti, J. and Mauersberger, K.: A survey and new measurements of ice vapor pressure at temperatures between 170 and 250 K, Geophys. Res. Lett., 20, 363–366, https://doi.org/10.1029/93GL00105, 1993.
+Maycock, A. C., Randel, W. J., Steiner, A. K., Karpechko, A. Y., Christy, J., Saunders, R., Thompson, D. W. J., Zou, C.-Z., Chrysanthou, A., Luke Abraham, N., Akiyoshi, H., Archibald, A. T., Butchart, N., Chipperfield, M., Dameris, M., Deushi, M., Dhomse, S., Di Genova, G., Jöckel, P., Kinnison, D. E., Kirner, O., Ladstädter, F., Michou, M., Morgenstern, O., O'Connor, F., Oman, L., Pitari, G., Plummer, D. A., Revell, L. E., Rozanov, E., Stenke, A., Visioni, D., Yamashita, Y., and Zeng, G.: Revisiting the Mystery of Recent Stratospheric Temperature Trends, Geophys. Res. Lett., 45, 9919–9933, https://doi.org/10.1029/2018GL078035, 2018.
+McCormick, M. P., Thomason, L. W., and Trepte, C. R.: Atmospheric effects of the Mt Pinatubo eruption, Nature, 373, 399–404, https://doi.org/10.1038/373399a0, 1995.
+Molina, M. J. and Rowland, F. S.: Stratospheric sink for chlorofluoromethanes: chlorine atom-catalysed destruction of ozone, Nature, 249, 810–812, https://doi.org/10.1038/249810a0, 1974.
+Montzka, S. A., Butler, J. H., Hall, B. D., Mondeel, D. J., and Elkins, J. W.: A decline in tropospheric organic bromine, Geophys. Res. Lett., 30, 1826, https://doi.org/10.1029/2003GL017745, 2003.
+NASA/LARC/SD/ASDC: CALIPSO Lidar Level 2 Polar Stratospheric Clouds presents, composition, and optical properties, V2-00, NASA Langley Atmospheric Science Data Center DAAC [data set], https://doi.org/10.5067/CALIOP/CALIPSO/CAL_LID_L2_PSCMASK-STANDARD-V2-00, last access: 29 May 2024.
+Newman, P. A. and Nash, E. R.: The Unusual Southern Hemisphere Stratosphere Winter of 2002, J. Atmos. Sci., 62, 614–628, https://doi.org/10.1175/JAS-3323.1, 2005.
+Noel, V. and Pitts, M.: Gravity wave events from mesoscale simulations, compared to polar stratospheric clouds observed from spaceborne lidar over the Antarctic Peninsula, J. Geophys. Res.-Atmos., 117, D11207, https://doi.org/10.1029/2011JD017318, 2012.
+Pitts, M. C., Thomason, L. W., Poole, L. R., and Winker, D. M.: Characterization of Polar Stratospheric Clouds with spaceborne lidar: CALIPSO and the 2006 Antarctic season, Atmos. Chem. Phys., 7, 5207–5228, https://doi.org/10.5194/acp-7-5207-2007, 2007.
+Pitts, M. C., Poole, L. R., and Thomason, L. W.: CALIPSO polar stratospheric cloud observations: second-generation detection algorithm and composition discrimination, Atmos. Chem. Phys., 9, 7577–7589, https://doi.org/10.5194/acp-9-7577-2009, 2009.
+Pitts, M. C., Poole, L. R., and Gonzalez, R.: Polar stratospheric cloud climatology based on CALIPSO spaceborne lidar measurements from 2006 to 2017, Atmos. Chem. Phys., 18, 10881–10913, https://doi.org/10.5194/acp-18-10881-2018, 2018.
+Roy, R., Kuttippurath, J., Lefèvre, F., Raj, S., and Kumar, P.: The sudden stratospheric warming and chemical ozone loss in the Antarctic winter 2019: comparison with the winters of 1988 and 2002, Theor. Appl. Climatol., 149, 119–130, https://doi.org/10.1007/s00704-022-04031-6, 2022.
+Seabold, S. and Perktold, J. Statsmodels: Econometric and Modeling with Python, in: Proceedings of the 9th Python in Science Conference (SciPy 2010), Austin, Texas, 28 June–3 July 2010, 57–61, https://doi.org/10.25080/Majora-92bf1922-011, 2010.
+Shindell, D. T., Rind, D., and Lonergan, P.: Increased polar stratospheric ozone losses and delayed eventual recovery owing to increasing greenhouse-gas concentrations, Nature, 392, 589–592, https://doi.org/10.1038/33385, 1998.
+Solomon, S.: Stratospheric ozone depletion: A review of concepts and history, Rev. Geophys., 37, 275–316, https://doi.org/10.1029/1999RG900008, 1999.
+Solomon, S., Garcia, R. R., Rowland, F. S., and Wuebbles, D. J.: On the depletion of Antarctic ozone, Nature, 321, 755–758, https://doi.org/10.1038/321755a0, 1986.
+SPARC: SPARC Reanalysis Intercomparison Project (S-RIP) Final Report, edited by: Fujiwara, M., Manney, G. L., Gray, L. J., and Wright, J. S., SPARC Report No. 10, WCRP-6/2021, https://doi.org/10.17874/800dee57d13, 2022.
+Stenke, A. and Grewe, V.: Simulation of stratospheric water vapor trends: impact on stratospheric ozone chemistry, Atmos. Chem. Phys., 5, 1257–1272, https://doi.org/10.5194/acp-5-1257-2005, 2005.
+Stone, K. A., Solomon, S., Kinnison, D. E., Pitts, M. C., Poole, L. R., Mills, M. J., Schmidt, A., Neely III, R. R., Ivy, D., Schwartz, M. J., Vernier, J.-P., Johnson, B. J., Tully, M. B., Klekociuk, A. R., König-Langlo, G., and Hagiya, S.: Observing the Impact of Calbuco Volcanic Aerosols on South Polar Ozone Depletion in 2015, J. Geophys. Res.-Atmos., 122, 11862–11879, https://doi.org/10.1002/2017JD026987, 2017.
+Toon, O. B., Hamill, P., Turco, R. P., and Pinto, J.: Condensation of HNO3 and HCl in the winter polar stratospheres, Geophys. Res. Lett., 13, 1284–1287, https://doi.org/10.1029/GL013i012p01284, 1986.
+Tritscher, I., Pitts, M. C., Poole, L. R., Alexander, S. P., Cairo, F., Chipperfield, M. P., Grooß, J.-U., Höpfner, M., Lambert, A., Luo, B., Molleker, S., Orr, A., Salawitch, R., Snels, M., Spang, R., Woiwode, W., and Peter, T.: Polar Stratospheric Clouds: Satellite Observations, Processes, and Role in Ozone Depletion, Rev. Geophys., 59, e2020RG000702, https://doi.org/10.1029/2020RG000702, 2021.
+Wang, T., Zhang, Q., Kuilman, M., and Hannachi, A.: Response of stratospheric water vapour to CO2 doubling in WACCM, Clim. Dynam., 54, 4877–4889, https://doi.org/10.1007/s00382-020-05260-z, 2020.
+Winker, D., Vaughan, M., Omar, A., Hu, Y., Powell, K., Liu, Z., Hunt, W., and Young, S.: Overview of the CALIPSO mission and CALIOP data processing algorithms, J. Atmos. Ocean. Tech., 26, 2310–2323, https://doi.org/10.1175/2009JTECHA1281.1, 2009.
+Yamazaki, Y., Matthias, V., Miyoshi, Y., Stolle, C., Siddiqui, T., Kervalishvili, G., Laštovička, J., Kozubek, M., Ward, W., Themens, D. R., Kristoffersen, S., and Alken, P.: September 2019 Antarctic Sudden Stratospheric Warming: Quasi-6-Day Wave Burst and Ionospheric Effects, Geophys. Res. Lett., 47, e2019GL086577, https://doi.org/10.1029/2019GL086577, 2020.
+Zhu, Y., Toon, O. B., Kinnison, D., Harvey, V. L., Mills, M. J., Bardeen, C. G., Pitts, M., Bègue, N., Renard, J.-B., Berthet, G., and Jégou, F.: Stratospheric Aerosols, Polar Stratospheric Clouds, and Polar Ozone Depletion After the Mount Calbuco Eruption in 2015, J. Geophys. Res.-Atmos., 123, 12308–12331, https://doi.org/10.1029/2018JD028974, 2018.
+Download
+Article (11149 KB)
+Full-text XML
+Supplement (291 KB)
+BibTeX
+EndNote
+Short summary
+This study investigates the long-term changes in the polar stratospheric cloud (PSC) season from...
+Read more
+Share
+Altmetrics
+Final-revised paper
+Preprint
+Similar articles
+A simple model to assess the impact of...
+Corcos et al.
+Simulation of convective moistening of...
+Qu et al.
+Convective hydration in the tropical...
+Lee et al.
+Turn MathJax on
+Sections
+Abstract
+Introduction
+Data
+Temperature-based model of PSC density
+Evolution of PSC densities over 14 years (2006–2020)
+Changes of the PSC season length over the 1980–2021 period
+Influence of synoptic events affecting the stratosphere
+Conclusions
+Appendix A: CALIPSO sampling
+Appendix B: Monthly temperature thresholds and statistical parameters (2006–2020)
+Appendix C: Estimated PSC densities by our model at 50–70 hPa
+Appendix D: PSC season duration evolution over all pressure levels
+Appendix E: PSC density evolution and season changes at 50–70 hPa
+Data availability
+Author contributions
+Competing interests
+Disclaimer
+Acknowledgements
+Financial support
+Review statement
+References
+Supplement
+Atmospheric Chemistry and Physics
+An interactive open-access journal of the European Geosciences Union
+All site content, except where otherwise noted, is licensed under the Creative Commons Attribution 4.0 License.
+Contact
+|
+Imprint
+|
+Data protection

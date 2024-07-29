@@ -1,0 +1,870 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Highlights
+Abstract
+Graphical abstract
+Keywords
+Abbreviations
+1. Introduction
+2. Materials & Methods
+3. Results
+4. Discussion
+5. Conclusion
+Uncited reference
+Declaration of Competing Interest
+Acknowledgements
+Appendix A. Supplementary data
+Data availability
+References
+Show full outline
+Figures (4)
+Tables (2)
+Table 1
+Table 2
+Extras (2)
+Download all
+Spreadsheet
+Document
+Environmental Research
+Available online 11 July 2024, 119609
+In Press, Journal Pre-proof
+What’s this?
+How do different marine engine fuels and wet scrubbing affect gaseous air pollutants and ozone formation potential from ship emissions?
+Author links open overlay panel
+Jan Bendl a
+,
+Mohammad Reza Saraji-Bozorgzad a
+,
+Uwe Käfer b
+,
+Sara Padoan a
+,
+Ajit Mudan a
+,
+Uwe Etzien d
+,
+Barbara Giocastro a b
+,
+Julian Schade a
+,
+Seongho Jeong a c
+,
+Evelyn Kuhn a b
+,
+Martin Sklorz b
+,
+Christoph Grimmer c
+,
+Thorsten Streibel c
+,
+Bert Buchholz d
+,
+Ralf Zimmermann b c
+,
+Thomas Adam a b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.envres.2024.119609
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Ship engine gaseous emissions vary widely with fuel type and engine load
+•
+Wet sulphur scrubbers are ineffective in reducing especially water-insoluble gases
+•
+SECA compliant fuels generally emit less than non-complaint fuels with scrubber
+•
+Wet scrubbers effectively reduce carbonyls acting as ozone precursors
+•
+Further legislation is required to address non-SO2 gaseous pollutants
+Abstract
+Sulphur Emission Control Areas (SECAs), mandated by the International Maritime Organization (IMO), regulate fuel sulphur content (FSC) to mitigate the environmental and health impact of shipping emissions in coastal areas. Currently, FSC is limited to 0.1% (w/w) within and 0.5% (w/w) outside SECAs, with exceptions for ships employing wet sulphur scrubbers. These scrubbers enable vessels using non-compliant fuels such as high-sulphur heavy fuel oils (HFOs) to enter SECAs. However, while sulphur reduction via scrubbers is effective, their efficiency in capturing other potentially harmful gases remains uncertain. Moreover, emerging compliant fuels like highly aromatic fuels or low-sulphur blends lack characterisation and may pose risks.
+Over three years, we assessed emissions from an experimental marine engine at 25% and 75% load, representative of manoeuvring and cruising, respectively. First, characterizing emissions from five different compliant and non-compliant fuels (marine gas oil MGO, hydro-treated vegetable oil HVO, high-, low- and ultra-low sulphur HFOs), we calculated emission factors (EF). Then, the wet scrubber gas-phase capture efficiency was measured using compliant and non-compliant HFOs.
+NOx EF varied among fuels (5200-19700 mg/kWh), with limited scrubber reduction. CO (EF 750-13700 mg/kWh) and hydrocarbons (HC; EF 122-1851 mg/kWh) showed also insufficient abatement. Carcinogenic benzene was notably higher at 25% load and about an order of magnitude higher with HFOs compared to MGO and HVO, with no observed scrubber reduction. In contrast, carbonyls such as carcinogenic formaldehyde and acetaldehyde, acting as ozone precursors, were effectively scrubbed due to their polarity and water solubility. The ozone formation potential (OFP) of all fuels was examined.
+Significant EF differences between fuels and engine loads were observed, with the wet scrubber providing limited or no reduction of gaseous emissions. We suggest enhanced regulations and emission abatements in the marine sector to mitigate gaseous pollutants harmful to human health and the environment.
+Graphical abstract
+Download: Download high-res image (333KB)
+Download: Download full-size image
+Keywords
+air qualityIMO regulationsSECA zonesheavy fuel oilmarine gas oilwet sulfur scrubber
+Abbreviations
+CCAI
+Calculated Carbon Aromaticity Index
+DMA
+Distillate Marine Fuel (category according to ISO 8217)
+ECA
+Emission-Controlled Area
+EF
+Emission Factor
+FAME
+Fatty Acid Methyl Ester
+FID
+Flame Ionization Detector
+FTIR
+Fourier Transform Infrared Spectroscopy
+FSC
+Fuel Sulphur Content
+HFO
+Heavy Fuel Oil
+HVO
+Hydrotreated Vegetable Oil
+IMO
+International Maritime Organization
+LS-HFO
+Low Sulphur HFO
+MC
+Measurement Campaign
+MGO
+Marine Gas Oil
+MIR
+Maximum Incremental Reactivity
+NECA
+Nitrogen ECA
+OFP
+Ozone Formation Potential
+RME
+Rapeseed Oil Methyl Ester
+RMG
+Residual Marine Gasoil
+SECA
+Sulphur ECA
+ULS-HFOar
+Ultra-Low Sulphur Aromatic HFO
+VOC
+Volatile Organic Compounds
+1. Introduction
+About 90% of global trade goods is transported by ships [Bundesregierung, 2017]. As a consequence, international maritime transport significantly contributes to pollutants related to global warming, water quality, and air pollution [e.g. Eyring 2010, Toscano 2019]. The latter is well known to cause serious adverse human health effects, such as lung cancer, chronic obstructive pulmonary disease (COPD), lower respiratory infections, cardiovascular disease, and diabetes [e.g. State Global Air 2019]. Ship engines are a significant source of anthropogenic combustion emissions, such as nitrogen oxides (NOx), sulphur oxides (SOx), particulate matter (PM), carbon monoxide (CO), and volatile organic compounds (VOCs). This is a major concern especially for coastal communities [e.g. Aakko-Saksa 2023,
+Corbett 2007
+, Chu-Van 2018]. Besides these primary pollutants, the emissions are important sources for secondary aerosol formation and also contribute to increased ground level ozone (O3) concentrations, another important secondary air pollutant especially at local and regional scales [Perez 2016, Tang 2012].
+Regarding the health effects, NOx causes inflammation of the lungs, with the primary site of toxicity being the lower respiratory tract. Populations that may be particularly sensitive to NOx include asthmatics and those with COPD and heart disease [
+CDC 2014
+]. Furthermore, NOx contributes to particle and ozone formation and also potentially causes acidification and eutrophication upon deposition on land, lakes, and seas. It can be transported in the atmosphere over long distances [Karl 2019]. A review of model studies on ship emissions showed that NOx emissions from international shipping on European seas could be equal to land-based emission sources in Europe (EU-27) from 2020 onwards [
+EEA 2013
+].
+CO in combustion emissions has its origin in incomplete combustion of hydrocarbons from the fuel in particular through lack of oxygen. The adverse health effects are due to the binding with haemoglobin to form carboxyhaemoglobin, which affects gas exchange and cellular respiration. Inhaling excessive concentrations of CO can lead to hypoxic injury, nervous system damage, and death [Wilbur 2012].
+Hydrocarbon (HC) emissions is a collective term for VOC substances comprising hundreds of different compounds, some of them being toxic or even carcinogenic. In addition, many HC compounds act as ozone precursors. HC combustion emissions have their origin in the incomplete combustion of the fuels. Thereby, HC constituents from the fuels can either combust incompletely or pass unburned through the combustion process [
+Russel, 2013
+].
+Benzene is a natural constituent of fossil fuels and originates in combustion emissions from incomplete combustion of organic substances as well as its non-decomposition during the combustion process. It is one of the numerous unregulated HC constituents being measured and, for road traffic, regulated in the framework of the HC sum value [
+Russel, 2013
+]. Nevertheless, benzene is known to be a human carcinogen due to sufficient evidence that it causes leukemia i.e. it is classified by the International Agency for Research on Cancer (IARC) as a class 1 carcinogen [
+IARC 2006
+]. Due to this extraordinary hazard to human health, special attention is drawn to this compound in this study.
+Carbonyl compounds can be present in combustion emissions due to incomplete combustion and partially due to oxidization of HC. These oxygenated HC are a group of intermediates formed during lower-temperature reactions during the combustion process. This group of species predominantly consists of formaldehyde and acetaldehyde [e.g. Lemel 2005]. Carbonyls are well known to play an important role in atmospheric chemistry [e.g. Sawant 2007] and also act as ozone precursors [Bhattacharya 2008,
+IARC 2006
+,
+European Commission 2002
+, Karavalakis 2011]. In addition, some attract attention due to their adverse health effects and thus have been identified as hazardous air pollutants for humans [Weng 2010]. In this regard, acetaldehyde is classified by IARC as a class 2B carcinogen i.e. possibly carcinogenic to humans, and formaldehyde even as a class 1 carcinogen i.e. carcinogenic to humans.
+Over the last two decades, there have been strong efforts to reduce the environmental impact of maritime transport. The International Maritime Organization (IMO) adopted strict regulations under Annex VI of the International Convention for the Prevention of Marine Pollution from Ships (MARPOL) by implementing so-called Emission Control Areas (ECAs). These ECAs include e.g. Baltic Sea, North Sea, English Channel, North America, and U.S. Caribbean Sea for all vessels over 300 gross tons. Within these designated ECAs, SOx emissions are indirectly controlled by regulating the marine fuel sulphur content (FSC). Since 2015 there is a maximum value of 0.1% (w/w). On 1 January 2020 outside ECAs (also called SECAs as sulphur ECAs) the max. FSC was reduced from 3.5% to 0.5% [
+IMO 2008
+]. Global NOx ship emissions are regulated under the IMO treaty [IMO2008b] in three progressively more stringent tiers. Tier 1 (since 2000) and Tier 2 (since 2011) limits are valid worldwide and apply to all new marine diesel engines. Tier 3 only affects vessels sailing inside designated Nitrogen ECAs (NECAs) and came into force in the North American and the U.S. Caribbean ECAs on 1 January 2016 and in the Baltic Sea, North Sea, and British Channel ECAs on 1 January 2021.
+Common marine low-speed engines have been designed to burn heavy fuel oil (HFO) or marine gas oil (MGO). HFO is produced from residuals of the crude oil refining process and, therefore, contains higher values of inorganic components, such as sulphur, ash, and metals as well as organic compounds such as polycyclic aromatic hydrocarbons (PAHs) and asphaltenes in comparison to MGO [Streibel 2017].
+MGO is a middle distillate fuel, which usually consists of a blend of various distillates. It is similar to diesel fuel but has a higher density and is typically compliant to the open sea as well as within an ECA due to low sulphur contents [Jeong 2023]. Therefore, conventional low-grade HFOs have been replaced by distillate fuels or low-sulphur HFOs (LS-HFO). However, alternative shipping fuels are increasingly entering the market such as e.g. liquefied natural gas (LNG) and hydrotreated vegetable oils (HVO). Hydrotreatment of vegetable oils is an alternative process to esterification to form paraffinic hydrocarbons similar to those found in petroleum-based diesel. It is an option to produce renewable diesel fuels since HVO is made from the same biomass as fatty acid methyl ester (FAME), but it may also be produced from residual crops and industrial waste like wood spills [Szeto, Leung, 2022]. Apart from this other (modern) fuel types may enter the market depending on availability, political situation, and price.
+Another option to comply with IMO regulations is the usage of emission abatement systems to reduce pollutants. In this regard, a legal and effective approach to reduce SOx emissions is the usage of a scrubber. This alternative allows vessels to run on high sulphur and potentially less expensive HFOs instead of higher quality fuels. For the maritime sector, wet scrubbers are usually applied to remove SOx emissions, whereby the exhaust is directed through a liquid media i.e. sprays of seawater or chemically treated fresh water [Oikawa 2003, Andreasen 2007]. Wet scrubbers can be operated in open-loop and closed-loop modes, whereby hybrid systems are also common [Zetterdahl 2016]. In open-loop systems, seawater is used to wash out SOx from the exhaust. The contaminated wash water is then discharged to the sea with minimal or no treatment [Teuchies 2020]. Pollutants thus enter the aquatic ecosystem and become a potential source of marine pollution. [Oikawa 2003, Ushakov 2020, Enders 2018]. In the closed-loop mode, fresh or sea water together with some added sodium hydroxide is used to take up SOx from the exhaust. The washing water is continuously circulating and cleaned in the system and finally discharged and purified on-land in a treatment plant to remove the polluted residue sludge [Zetterdahl 2016, Lehtoranta 2019].
+Fuel type as well as engine load have been shown to significantly influence chemical and physical properties of exhaust gas components. It is known that, besides SO2, high FSC in HFO can also cause elevated PM emissions [Winnes 2009,
+Cordtz 2013
+]. Therefore, in most studies, the focus has been on the physicochemical properties of particles in relation to various FSCs [e.g. Lehtoranta 2019, Winnes 2009]. Some papers have also reported significant emission reductions from NOx and CO by the use of low sulphur HFO [e.g. Zetterdahl 2016, Yusuf 2012,
+McCaffery 2021
+]. Furthermore, several studies have dealt with the investigation of marine engine exhaust after passing through scrubber systems. Several studies report the reduction of SOx and a few other main gaseous components, such as NOx as well as PM [Lack 2011, Petzold 2010, Petzold 2011]. However, while SOx removal efficiency is undisputed, studies investigating other, less targeted gaseous pollutants are rare.
+Therefore, in this study, we investigated how different marine fuels (i) as well as wet scrubbing (ii) can affect gaseous air pollutants in exhaust emissions of a marine test-bed engine operated at different engine loads. The focus is on a comprehensive overview of gaseous (trace) compounds relevant to the environment and human health. A comparable study of this depth could not be found in the literature.
+(i)
+Five different fuels were applied, namely two HFOs with various FSC (2.2% and 0.5% w/w), conventional MGO, HVO, and a test fuel not available on the free market yet (ULS-HFOar).
+(ii)
+The influence of wet scrubbing on the exhaust was examined by comparing the gaseous emission before and after having passed a scrubber system. This investigation has been carried out on the same two HFO fuels (2.2% and 0.5%).
+In all test series, a comprehensive chemical analysis of the exhaust was carried out by investigating more than 40 individual gaseous constituents, several of them being climate-damaging, toxic, or even cancerogenic. 26 of them belong to the list of 30 main ozone precursors in ambient air according to the European directive 2002/3/EC [
+European Commission 2002
+]. Subsequently, the corresponding ozone formation potentials (OFP) of all settings and fuels were determined and compared. Particle emissions are not the subject of this paper but have been thoroughly discussed by the authors in another publication [Jeong 2023].
+2. Materials & Methods
+All marine engine emission measurements were conducted during three different campaigns, each lasting several weeks between June 2020 and April 2022 at the Chair of Piston Machines and Internal Combustion Engines (Lehrstuhl für Kolbenmaschinen und Verbrennungsmotoren, LKV), Faculty of Mechanical Engineering and Marine Technology at the University of Rostock, Germany.
+2.1. Marine engine & test series
+A single-cylinder four-stroke research engine was used (1 VDS 18/15 CR, Elbewerk, Roßlau). The layout of the engine represents a typical modern medium-speed marine diesel engine with a displacement of 3.18 L and a rated power of 80 kW at 1500 rpm. It can be operated with various fuels from distillates and paraffinic fuels to high-sulphur and high-viscosity marine fuels. Though the engine has a maximum output of 80 kW, its combustion processes are comparable to those of full-size engines. It features common-rail injection and adjustable external charge air compression as well as adjustable exhaust gas back pressure. The engine was operated at constant speed but with varying loads of the maximum continuous rate (MCR) in accordance with the E2 test cycle for heavy-duty, constant speed marine propulsion engines based on ISO 8178-4. For the comparison of the five different fuels, the engine was operated during measurement campaign 1 (MC1) at 25% (20 kW), 50% (40 kW), 75% (60 kW), and 100% (80 kW) load. In contrast, for the investigation of the effects of wet scrubbing, it was run during two further test series i.e. measurement campaign 2 (MC2) and measurement campaign 3 (MC3) at 25% (20 kW) and 75% (60 kW) engine loads. For all tests and fuel types three replicates during three different days have been performed. This was followed by a change of the lubricating oil for the next test cycle when a new fuel type was introduced. The exchange of the lubrication oil took one day and consisted of full draining of the used oil over night, four flushing cycles, exchange of oil filters, and a running-in program on different engine loads with MGO for two hours. The order of fuel tests was from light to heavy.
+Thereby, the 75% engine load stands for the typical optimum fuel oil consumption point. This engine load was considered to be representative of cruising speeds at open sea as well as for stationary power generation operation [Klein Woud 2002]. In contrast, the engine load of 25% represents typical manoeuvring operation at ports and harbours. Engine type and related combustion emissions have been described in former studies [Sippula 2014; Streibel 2017], however, engine parameters had to be modified for this study and differ from previous works, with the exception of the particle phase characterization paper [Jeong 2023] and other recent studies [Anders 2023,
+Schneider 2023
+].
+2.2. Fuels
+For MC1 the engine was fed with the following five fuels: high sulphur heavy fuel oil with 2.2 %S (HFO 2.2), low sulphur heavy fuel oil with 0.5 %S (HFO 0.5), marine gas oil (MGO), hydrotreated vegetable oil (HVO), and ultra-low sulphur aromatic heavy fuel oil (ULS-HFOar). Latter fuel was a test fuel provided by a ship engine manufacturer, which is not commercially available yet. The four other fuels were provided by a marine fuel supplier (not named due to non-disclosure agreement). The physicochemical characterization of the fuels was conducted according to ISO 8217 and is presented in
+Table 1
+.
+Table 1. Physicochemical properties of the applied fuels.
+Empty Cell
+Method MGO HVO ULS-HFOar HFO 0.5 HFO 2.2
+Classification ISO 8217 DMA DMA RME 180 RMG 380 RMG 380
+Density@15 °C [g/cm3] ISO 12185 0.835 0.78 0.975 0.96 0.990
+Viscosity@50 °C [mm2/s] ASTM D7042 2 2.47 6 340 350
+Sulphur [% w/w] 0.001 <LOD 0.048 0.51 2.16
+Water [mg/kg] 23 20 214 423 586
+Flash point [°C] 72 80 75 156 135
+Ash [% w/w] ISO 6245 0.001 0.001 < 0.001 0.019 0.051
+Heating value [MJ/kg] 42.7 43.8 40.3 41.1 40.1
+C [%] DIN 51732 87.4 86.4 88.5 86.8 85.6
+CCAI ISO 8217 796 739 907.4 822 852
+MGO is considered one of the highest quality marine fuels due to its naturally low sulphur content. The distillate fuel had concentrations of metals commonly found in HFO fuels, such as V, Ni, and Fe, below the limit of detection.
+HVO is a synthetic premium fuel, obtained by hydrogenation and cracking of vegetable oils. It can be regarded as a second-generation biofuel and diesel substitute with good ignition properties. Its density is significantly lower than MGO, however, in almost all other specified parameters it is comparable to traditional diesel. In principle, HVO can be used in a diesel engine neat or blended with other fuels. Currently, it is rarely used in practice due to its higher price. In this study, HVO represents the extreme case for a high paraffinic fuel.
+HFO fuels typically have a much higher density and viscosity and contain residues from refinery processes [Fritt-Rasmussen et al., 2018]. Therefore, HFOs can contain significant amounts of metals (mainly V, Ni, Fe), sulphur, and nitrogen. By definition, HFO has a density at 15°C greater than 0.9 g/cm3 or a kinematic viscosity exceeding 180 mm2/s1 at 50°C. Therefore, a wide range of marine fuels can be produced by blending different product streams from crude oil refining.
+HFO 0.5 is an example of a commercial low sulphur fuel oil, which is not allowed inside an ECA zones but is compliant for open-sea operation. It should be noted that in-house analyses showed a sulphur content of actually 0.51%. However, this issue of marginal violations near the 0.5% sulphur cap was reported to happen in the IMO 2020 transition phase quite regularly. Therefore, in the framework of this study, this HFO 0.5 fuel is considered as compliant outside an ECA. Compared to HVO and MGO, the much higher density, viscosity, and content of metals refers to the presence of residue fractions.
+HFO 2.2 is a commercial non-compliant high sulphur fuel (2.2% S) and was included to account for open-sea operation before 1 January 2020. Nowadays, this fuel must be used in combination with a scrubber. Density and viscosity are similar to HFO 0.5, however, the flashpoint is lower.
+ULS-HFOar is very similar to high-quality distillate fuels such as MGO, although it is classified as HFO. However, ULS-HFOar may exhibit low ignition quality (low cetane number), resulting in poor combustion at low loads, potentially leading to increased emissions of organic compounds and operational challenges. It refers to a clarified cycle oil, that was produced by fluid catalytic cracking, and contains mainly alkylated 2- to 4-ring aromatics (ar) [Käfer 2019]. Its density of 0.975 exceeds ISO 8217 specification significantly and its high carbon-to-hydrogen ratio, as well as high content of aromatics (illustrated as a Calculated carbon aromaticity index CCAI, where lower values indicate better ignition quality), resulted in a rather poor ignition behaviour in comparison to the other investigated fuels [
+Latarche 2021
+]. However, shipowners could decide on this fuel in the future depending on price and availability, since there is no obligation to follow ISO 8217. Consequently, it would be a compliant marine fuel in an ECA.
+For MC2 and MC3, the two commercial heavy fuel oils HFO 0.5 and HFO 2.2 were applied.
+2.3. Wet scrubber
+A downscaled research open-loop wet sulphur scrubber (EGCS40HB, SAACKE, Germany, schematic in SI) was used, operated with Baltic Sea water with a salinity of 10.5 ± 3.6 in practical salinity unit (PSU) and a pH of about 8. The components of the scrubber consisted of a quench with three sprays, a wash tower with a total volume of 0.9 m3 including the spray, a randomly structured filling body and a demister structure. During operation, the SO2/CO2 ratio was maintained at a maximum of 4.3 SO2 (ppm)/CO2 (% v/v), corresponding to the emission of fuel oil with 0.1% w/w of sulphur content [MECP 2015]. Prior to introducing the exhaust gas into the wash tower, the exhaust gas temperature was reduced by adjusting the sprays inside the quench to optimize the solubility of SOx in the wash water [Bandyopadhyaya 2006]. The cooled exhaust gas was then introduced into the wash tower, which was equipped with a filling body package of metal saddle rings to improve the mass transfer of SOx from the gas to the liquid phase and to remove particles in the exhaust gas.
+2.4. Experimental set-up
+Measurements were conducted during three measurements campaigns (MC). For MC2/MC3 (with vs. without scrubber;
+Fig. 1
+), two sampling points in the stack were used for comparison between the scrubber upstream (before scrubber; Au in
+Fig. 1
+) and downstream (after scrubber; Ad) consisting of two identical multi-hole perforated sampling probes and heated transfer lines. A heat-resistant ball valve and insulated Y-connector were used to switch between up- and downstream. The temperature of the transfer lines and the valve was always set at 200 °C. In the case of MC1 (fuel comparison, no scrubber), only one sampling point was used (Au) with the same temperature setting. In all campaigns, the exhaust gas was sampled undiluted for the investigation of the main gas phase compounds and VOCs.
+Download: Download high-res image (369KB)
+Download: Download full-size image
+Fig. 1. Illustration of the exhaust sampling setup for MC1: five fuels, no scrubber, sampling probes Au and Bu only; and MC2/MC3: two fuels, with scrubber (sampling probes Ad and Bd) vs. without scrubber (Au and Bu).
+In addition, sampling of the DNPH cartridges for the investigation of carbonyls was performed after a primary dilution step of the raw emissions (
+Fig. 1
+, probes Bu and Bd). The temperature of the transfer line and ball valve was set to 200 °C for upstream (Bu) and 60 °C for downstream (Bd) measurements due to cooled emissions after the scrubber.
+The primary dilution factor (DF) of the exhaust sample from the engine stack was adjusted according to the fuel types using a two-stage ejector diluter system (eDiluter Pro, Dekati Ltd., Finland). A dilution ratio of 1:25 was set for MGO, HVO, and ULS-HFOar and between 1:50 and 1:100 for the two HFOs. VOC- and particle-free air (737-15, Aadco Instruments Inc., USA) preheated to transfer line temperature was used for dilution. After the primary dilution step, the exhaust flow was split into different sampling lines with individual dilution ratios for online analysers and offline sampling, respectively.
+Fig. 1
+illustrates the experimental setup for this study, while other measurements and analyses are shown in previous papers [Anders 2023, Jeong 2023,
+Schneider 2023
+]. The instrumentation is described in the following sections.
+It should be noted that the emission factors for identical fuels and conditions could have slightly varied between MC1 (no scrubber installed) and MC2/MC3 (scrubber installed) because the exhaust back-pressure in the experimental setup might have been influenced, which could also have affected the emission pattern.
+2.5. Analytical techniques
+2.5.1. Main exhaust components
+The main exhaust gas components CO2, CO, CH4, NO, NO2, N2O, and SO2 were analysed by Fourier transform infrared spectroscopy (FTIR; model: DX4000; Gasmet Technologies, Finland) with the results reported on a wet basis as this is the more realistic way of expressing the data according to the instrument manufacturer. The system also included an O2-analyser (PMA 10, M&C TechGroup, Ratingen, Germany) and a flame ionisation detector (FID; Thermo-FID EN 15267, SK-Elektronik, Leverkusen, Germany) for total hydrocarbon (THC) content, measured as an equivalent of C3 (propane). Sampling was carried out undiluted with sampling rates of 3 L/min by a five-meter heated transfer line (Winkler GmbH, Heidelberg, Germany) at 180°C. A Portable Gas Sample Probe (PSP4000-H, M&C, Germany) containing the filter heated to 180°C was installed upstream of the heated transfer line. The FTIR measurements were checked at least once a week using standard gas mixtures containing the main exhaust gas compounds and cross-checked with another FTIR system on site.
+2.5.2. Carbonyls
+In total, nine carbonyls were investigated in this work, see SI. For sampling the diluted exhaust was directed through 2,4-dinitrophenyl hydrazine (DNPH) cartridges (Supelco, Orbo 555 at MC1 and Waters, Sep-Pak DNPH-Silica Short Cartridge, 350 mg of Sorbent, 55 – 105 μm at MC2 and MC3) to rapidly produce the carbonyls‘ stable hydrazone derivatives. Sampling rates were 500 mL/min for a total sampling time of 20 minutes using a two-channel sampling pump (BIVOC2V2, Umweltanalytik Holbach GmbH, Germany). The cartridges were collected immediately after the test and frozen (-20°C) until further treatment in the lab. There, hydrazones have been eluted with 5 mL of acetonitrile (Roth, Rotisolv HPLC gradient). These extracts have been concentrated to a final volume of 0.5 mL using a nitrogen solvent evaporation system (Biotage, TurboVap). Extracts have been re-diluted with acetonitrile to a final volume of 1 mL and filtered through a 0.2 μm syringe filter (VWR, 0.2 PTFE).
+Analysis was done by high-performance liquid chromatography with diode array detection (HPLC-DAD; Agilent 1260 Infinity II). Separation has been performed using an Eclipse plus C18 column (4.6 × 150 mm, 1.8 μm) coupled with an Eclipse plus C18 pre-column (4.6 × 5 mm, 1.8 μm) column working under gradient conditions. Calibration standard lines of 5, 10, 50, 100, 200, 500, 1000 ng/mL and 7.85, 15.7, 157, 785, 1570, 3140 ng/mL respectively have been used for the quantification. The calibration standard lines have been prepared from the single initial calibration verification standard (Sigma-Aldrich, DNPH-standard).
+2.5.3. VOC
+Regarding VOCs, the focus was on the C2 - C9 hydrocarbons being listed as ozone precursors for ambient air in the EU directive 2002/3/EC [
+European Commission 2002
+]. Sampling and chemical analysis were performed immediately afterwards on-site by using a sample enrichment and thermal desorption (TD) module (KORI-Xr water condenser and Unity-Xr thermal desorber, Markes International Ltd, Bridgend, United Kingdom), followed by a 2D gas chromatograph (GC, 8890, Agilent Inc., USA) consisting of two analytical columns (DB-1 50 m × 320 μm × 1.2 μm and HP-AL/KCL, 50 m × 320 μm × 8 μm and Al2O3/KCl, both from Agilent Inc., USA), each connected to an FID. The sampling volume was set to 50 NmL for all experiments. The thermal desorbtion gas chromatography system (TD-VOC-GC) was directly connected to the output of the absorption cell of the FTIR beside the FID and O2 sensor. The functional principle of the TD-VOC-GC and other applications, e.g. measurements of ozone precursor levels in ambient air and in motor vehicle combustion have been described in detail in Latella et al. [Latella 2005]. Identification and quantitative measurement of the C2 - C9 hydrocarbons were achieved by using a certified standard mixture containing the ozone precursors (approximately 200 ppbV each, National Physical Laboratory, Teddington, United Kingdom). In so doing, 22 VOCs could be addressed, see Table S1 in the Supplementary Material.
+2.5.4. Calculations
+Emission factors were calculated as mass pollutant per engine energy in mg/kWh and are illustrated in excerpts in
+Table 2
+,
+Fig. 2
+a-g as well as the entire data set in Table S1 in the Supplementary Material. Emission factors expressed in mass pollutant per exhaust volume as well as mass pollutant per mass fuel can be also found in the Supplementary Material.
+Table 2. Emission factors and OFP of gaseous air pollutants for the engine loads 20 kW (25%) and 60 kW (75%) operated with the ship fuels MGO, HVO, ULS-HFOar, HFO 0.5, and HFO 2.2 from MC1. For HFO 0.5 and HFO 2.2 comparative tests with and without wet scrubbing have been carried out at MC2 and MC3. Emission factors are illustrated in pollutant mass per generated energy [mg/kWh].
+20 kW MGO HVO ULS-HFOar HFO 0.5 Scr HFO 2.2 Scr HFO 0.5 HFO 2.2
+NOx 9462 ± 298 5207 ± 103 19728 ± 932 9736 ± 218 10361 ± 345 8983 ± 467 9307 ± 605
+CO 2461 ± 98 1919 ± 580 12508 ± 624 6169 ± 1014 8132 ± 279 7973 ± 414 9954 ± 214
+HC 512 ± 37 408 ± 8 1160 ± 120 965 ± 25 1411 ± 246 1468 ± 84 1851 ± 102
+Acetylene 18.0 ± 0.3 1.6 ± 0.8 87.2 ± 10.4 61.3 ± 3.2 84.4 ± 6.2 175.2 ± 5.5 146.4 ± 7.7
+Ethylene 40.4 ± 0.4 22.2 ± 1.6 63.2 ± 11.3 144.5± 19.0 221 ± 0.5 219.7 ± 3.8 246.9 ± 15.0
+Benzene 4.0 ± 0.03 2.0 ± 0.3 13.3 ± 4.9 33.4 ± 2.2 47.7 ± 4.8 36.9 ± 1.8 34.9 ± 4.0
+Formaldehyde 39.3 ± 3.8 31.8 ± 1.8 83.4 ± 5.7 3.7 ± 1.7 6.6 ± 5.3 141.5 ± 13.1 150.3 ± 52.4
+Acetaldehyde 14.9 ± 1.5 13.2 ± 1.1 40.7 ± 2.2 6.6 ± 2.1 8.7 ± 3.5 54.7 ± 7.8 74.7 ± 18.4
+OFP 1376 ± 107 1061 ± 119 2586 ± 125 2003 ± 190 2827 ± 59 5048 ± 154 5787 ± 560
+60 kW MGO HVO ULS-HFOar HFO 0.5 Scr HFO 2.2 Scr HFO 0.5 HFO 2.2
+NOx 7857 ± 117 6915 ± 104 13668 ± 428 8376 ± 181 7793 ± 237 7488 ± 264 8330 ± 392
+CO 1556 ± 279 1570 ± 230 750 ± 81 1183 ± 24 1138 ± 124 1706 ± 167 1367 ± 114
+HC 182 ± 33 186 ± 17 122 ± 2 138 ± 18 156 ± 37 218 ± 29 147 ± 12
+Acetylene 6.4 ± 0.8 1.0 ± 0.4 3.4 ± 0.4 1.9 ± 0.1 1.4 ± 0.2 8.6 ± 1.6 5.7 ± 0.5
+Ethylene 31.4 ± 5.6 27.6 ± 4.66 7.9 ± 0.8 11.6 ± 0.8 9.7 ± 1.2 34.7 ± 5.2 16.8 ± 2.5
+Benzene 2.5 ± 0.3 2.1 ± 0.1 1.4 ± 0.1 2.6 ± 0.2 2.2 ± 0.2 5.1 ± 0.4 2.8 ± 0.4
+Formaldehyde 32.7 ± 5.8 37.2 ± 3.6 15.8 ± 2.4 2.8 ± 0.5 1.7 ± 1,9 34.7 ± 16 17.9 ± 4.2
+Acetaldehyde 9.9 ± 2.2 11.8 ± 1.2 11.4 ± 3.5 <LOQ 1.9 ± 0.7 15.6 ± 2.9 18.8 ± 4.9
+OFP 837 ± 90 891 ± 80 406 ± 35 249 ± 25 278 ± 99 923 ± 153 925 ± 163
+Download: Download high-res image (799KB)
+Download: Download full-size image
+Fig. 2. a-g (in color): Emission factors of the air pollutants NOx (
+Fig. 2
+a), CO (
+Fig. 2
+b), HC (
+Fig. 2
+c), Benzene (
+Fig. 2
+d), Formaldehyde (
+Fig. 2
+e), Acetaldehyde (
+Fig. 2
+f) as well as OFP (
+Fig. 2
+g) for 20 kW (25% engine load) and 60 kW (75% engine load) for the ship fuels MGO, HVO, ULS-HFOar, HFO 0.5, and HFO 2.2. Latter two fuels with (Scr) and without wet scrubbing. EURO III and EURO VI emission limits of heavy-duty engines (ESC and WHSC test cycles) are added for NOx, CO, and HC for comparison. MARPOL Annex VI NOx limits for Tier 1, 2, and 3 are added for this engine (rpm 1500).
+In addition, the ship emission factors were compared to two different road-traffic emission standards for heavy-duty (HD) engines in Europe, EURO III (EU Directive 98/69/EC) and EURO VI (EU Directive 715/2007). Although this approach seems bold, it enables us to better classify the ship emission factors since exhaust gases from road traffic have been regulated and stepwise reduced by technical measures for decades. HD engines had to comply with EURO III emission standards from the year 2000 to 2005. It therefore represents outdated but still frequently encountered engine technology on European roads. In contrast, EURO VI emission standards, established in 2013, are the current standards and remain compliant with legislation. The introduction of EURO VII is not expected before 2025. Therefore, EURO VI emission standards represent modern engine technology. Legislative HD emission factors can slightly differ depending on the applied homologation procedure. In this study, exhaust limits of ramped steady-state test cycles were chosen (ESC for EURO III and WHSC for EURO VI) because these cycles are more similar to the applied E2 test cycle for ship engines than transient HD test cycles. However, emission factors of road traffic and ship emissions are not one-to-one comparable but should be considered as an approach to classify the results.
+The concept of maximum incremental reactivity (MIR) of ozone formation was applied to evaluate the ozone formation potential (OFP) of the emissions. In general, the MIR method is based on a scenario in which optimum conditions of precursor/NOx ratios yield maximum ozone formation. For all sorts of ozone precursors, MIR factors have been derived, whose product with the compound’s emission factor results in the potential amount of ozone formed [Carter 1994]. The OFP of a mixture is determined by adding up the individual contributions of all emission constituents. By following this procedure OFP of VOC, carbonyls, and CO were calculated.
+3. Results
+The following sections present the experimental results of the gaseous emissions for the comparison of the five investigated ship fuels MGO, HVO, ULS-HFOar, HFO 0.5, and HFO 2.2 as well as the pre- and post-scrubber analyses for HFO 0.5 and HFO 2.2. In marine engine technology, scrubbers are implemented to remove SO2 from the emission. Results in this study confirm the high effectivity of this application (see Table S1 in Supplementary Material), however, this is not the subject of the presented paper and will not be discussed further. The results of all test series and investigated compounds can be found in excerpts in
+Table 2
+and the entire data set in Table S1 in the Supplementary Material.
+Figures 2
+a-f illustrate the emission factors of the air pollutants NOx, CO, HC, benzene, formaldehyde, and acetaldehyde operated under 20 kW (25% engine load) and 60 kW (75% engine load) for the five different fuels. Results for MGO, HVO, ULS-HFOar, HFO 0.5, and HFO 2.2, the latter two without wet scrubbing, originate from MC1. Results for HFO 0.5 and HFO 2.2 with wet scrubbing (Scr) originate from MC2 and MC3, respectively.
+3.1. NOx
+Emission factors of NOx (
+Fig. 2
+a) were in the same range for all fuels and engine loads except HVO and ULS-HFOar. Operation with the latter fuel resulted in extraordinarily high NOx values between 13668 ± 428 mg/kWh (60 kW) and 19728 ± 932 mg/kWh (20 kW) whereas HVO at 20 kW featured the lowest NOx emission factors with 5207 ± 103 mg/kWh. All other fuels and engine loads ranged from 7488 ± 264 mg/kWh (HFO 0.5, 60 kW) to 10361 ± 345 mg/kWh (HFO 2.2 Scr, 20 kW). For all fuels except HVO, NOx emission factors were slightly lower at 60 kW in comparison to 20 kW ranging from a 25% reduction for HFO 2.2 Scr to 10% for HFO 2.2.
+NOx in ship emission is dependent on the combustion parameters and temperatures inside the engine, which leads to the generation of thermal NOx by the Zeldovich mechanism [Heywood 2018]. Harsh conditions result in higher degradation rates of excess atmospheric oxygen and nitrogen during the compression ignition process, which in turn, recombines to NO, which is partially further oxidized to NO2 [Heywood 2018]. Differing NOx values from the same engine but operated with different fuels, as observed in this study, originate from different engine settings. The injection timing for ULS-HFOar had to be advanced to compensate for its low estimated cetane number (ECN), resulting in relatively poor ignition qualities, especially at the lowest load.
+According to the NOx limits in MARPOL Annex VI, the NOx emission factor for this engine should be below 8180 mg/kWh (Tier 2 and n = 1500 rpm), which was not completely fulfilled. For comparison Tier 1 would be 10420 mg/kWh and Tier 3 2080 mg/kWh. This means that for this engine a shift from Tier 2 to Tier 3 entails a NOx reduction by the factor of 4. Tier 1 to 3 are also illustrated in
+Fig. 2
+a.
+NOx emission limits for road-based HD engines are 5000 mg/kWh for EURO III and 400 mg/kWh for EURO VI. Therefore, it can be seen that all ship emission factors exceeded EURO III limits – between 4% for HVO at 20 kW and almost 400% for ULS-HFOar at 20 kW – and were far beyond EURO VI limits. It can also be noted that wet scrubbing does not seem to have any effect on NOx emission.
+In conclusion, when compared to road-traffic HD engines, ship emissions resulted in significantly elevated NOx levels regardless of which ship fuel is used. The compliance with stepwise stricter NOx limits in road traffic was technically achieved by the implementation of primary and secondary exhaust after-treatment devices like exhaust gas circulation and selective catalytic reduction, which is not yet state-of-the-art in ship engine technology.
+3.2. CO
+Emission factors of CO are illustrated in
+Fig. 2
+b. For this compound significant differences between fuel type and engine load could be determined. All fuels showed higher CO values for 20 kW in comparison to 60 kW with the only exception of HVO where no influence of the engine load could be observed. While the differences for MGO were smaller (20 kW: 2461 ± 98 mg/kWh, 60 kW: 1556 ± 279 mg/kWh → -36%) the HFO fuels showed t concerning absolute values and differences with ULS-HFOar the highest ranging from 12508 ± 624 mg/kWh (20 kW) to 750 ± 81 mg/kWh (60 kW), which is equivalent to a reduction of 95%. Emission factors and reduction rates for the commercial HFO-fuels were with scrubber -84% (HFO 0.5 Scr: 6169 ± 1013 mg/kWh to 1183 ± 24 mg/kWh) and -86% (HFO 2.2 Scr: 8132 ± 279 mg/kWh to 1138 ± 124 mg/kWh) as well as -79% (HFO 0.5: 7973 ± 414 mg/kWh to 1706 ± 167 mg/kWh) and -86% (HFO 2.2: 9954 ± 214 mg/kWh to 1367 ± 114 mg/kWh) without scrubber. In general, the HFO fuels generated about 2.5 (MGO to HFO 0.5 Scr) to 5.5 (HVO to ULS-HFOar) times higher CO emission factors for the 20 kW engine load. For the engine load of 60 kW, the CO emissions were much more balanced and reached values between 1183 ± 124 mg/kWh (HFO 0.5 Scr) and 1706 ± 167 mg/kWh (HFO 2.2 Scr) except ULS-HFOar.
+The CO emission limits for HD engines in Europe are 2100 mg/kWh for EURO III and 1500 mg/kWh for EURO VI. All 60 kW test series in this study as well as HVO 20 kW fell below this road-traffic threshold. MGO 20 kW exceeded the EURO III threshold by +17% (2461 ± 98 mg/kWh), whereby the HFO fuels with and without wet scrubbing resulted in much higher emission factors ranging from 6169 ± 1014 mg/kWh for HFO 0.5 Scr to 12508 ± 624 mg/kWh for ULS-HFOar. All 60 kW CO emission factors were below or in the range of the EURO VI road traffic limit. This proves that optimized combustion conditions can significantly lower the CO emissions of ship engines.
+Wet scrubbing had no or insignificant effects on CO emissions, which becomes even clearer when the post-scrubbing emissions (
+Fig. 2
+b and
+Table 2
+) are directly compared with the corresponding pre-scrubbing values of the same test series, which is illustrated in Table S1 in the Supplementary Material. Neither for HFO 0.5 (pre-scrubber at MC3: 5468 ± 90 mg/kWh, post-scrubber at MC3: 6169 ± 1014 mg/kWh) nor for HFO 2.2 (pre-scrubber at MC3: 8263 ± 398 mg/kWh, post-scrubber at MC3: 8132 ± 279 mg/kWh) significant effects of wet-scrubbing could be determined.
+3.3. Hydrocarbons
+Emission factors of HC are shown in
+Fig. 2
+c. When operating the engine at 60 kW, HC emissions were comparable throughout all fuels and resulted in values between 122 ± 2 mg/kWh (ULS-HFOar) and 218 ± 29 mg/kWh (HFO 0.5). However, at lower engine loads (20 kW) HC emissions increased significantly between factors of 2.2 (HVO) to 12.6 (HFO 2.2) and ranging from 408 ± 8 mg/kWh (HVO) to 1851 ± 102 mg/kWh (HFO 2.2). For this engine load, MGO and HVO featured similar HC emissions, whereas fuels containing HFO had significantly higher yields.
+The HC limits for HD engines in Europe are 660 mg/kWh for EURO III and 130 mg/kWh for EURO VI. The EURO III threshold was met for all fuels at 60 kW engine load ranging from 122 ± 3 mg/kWh for ULS-HFOar to 218 ± 29 mg/kWh for HFO 0.5 and exceeded significantly for all HFO-fuels at 20 kW with emission factors from 965 ± 25 mg/kWh for HFO 0.5 Scr up to 1851 ± 102 mg/kWh for HFO 2.2. In contrast, MGO and HVO complied with the EURO III emission limits. The EURO VI HC emission limit was only met by ULS-HFOar at 60 kW, however, the exceedances of the other fuels were relatively low ranging from 138 ± 18 mg/kWh for HFO 0.5 Scr to 218 ± 29 mg/kWh for HFO 0.5.
+In contrast to NOx and CO, some reductions of HC emissions could be observed at 20 kW engine load when a wet scrubber was applied (see
+Table 2
+). For HFO 2.2 a reduction rate of 30% (2015 ± 265 mg/kWh to 1411 ± 246 mg/kWh) and for HFO 0.5 of 36% (1498 ± 142 mg/kWh to 965 ± 25 mg/kWh) was determined. However, engine loads of 60 kW did not feature significantly lowered HC emission factors.
+3.4. Benzene
+The emission factors of benzene are illustrated in
+Fig. 2
+d. Similar to the HC sum values all fuels featured relatively low numbers for the engine load of 60 kW with emission factors from 2.2 ± 0.16 mg/kWh (HFO 2.2 Scr) to 5.07 ± 0.42 mg/kWh (HFO 0.5). When running at 20 kW engine load, benzene emission increased significantly, particularly, for the commercial HFO fuels. In doing so, the benzene yields ranged from 33.4 ± 2.2 mg/kWh (HFO 0.5 Scr) to 47.7 ± 4.8 mg/kWh (HFO 2.2 Scr), which corresponds to increase rates of more than 20 for HFO 2.2 Scr. MGO (3.96 ± 0.03 mg/kWh) and HVO (2.02 ± 0.3 mg/kWh) resulted in about one order of magnitude lower values whereby for them, no significant differences between the engine loads could be determined. The same trend has been observed for HC. Wet scrubbing showed no influence on the benzene emissions.
+3.5. Carbonyls
+The carbonylic compounds formaldehyde and acetaldehyde featured a unique behaviour in comparison to the previously presented emission constituents. The commercial HFO fuels had the highest emission factors when operated without a scrubber at 20 kW engine load. For formaldehyde (
+Fig. 2
+e), values reached 141.5 ± 13.1 mg/kWh (HFO 0.5) and 150.3 ± 52.4 mg/kWh (HFO 2.2), for acetaldehyde (
+Fig. 2
+f) 54.7 ± 7.8 mg/kWh (HFO 0.5) and 74.7 ± 18.4 mg/kWh (HFO 2.2). At 60 kW engine load without scrubber emission factors for both HFO fuels were reduced significantly to 34.7 ± 16 mg/kWh (HFO 0.5; 72% reduction) and 17.9 ± 4.2 mg/kWh (HFO 2.2; 88% reduction) for formaldehyde as well as 15.6 ± 2.9 mg/kWh (HFO 0.5; 71% reduction) and 18.8 ± 4.9 mg/kWh (HFO 2.2; 75% reduction) for acetaldehyde. These values were in the same range as for the non-HFO-fuels MGO (formaldehyde 20 kW: 39.3 ± 3.8 mg/kWh and 60 kW: 32.7 ± 5.8 mg/kWh; acetaldehyde 20 kW: 14.9 ± 1.5 mg/kWh and 60 kW: 9.9 ± 2.2 mg/kWh,) and HVO (formaldehyde 20 kW: 31.8 ± 1.8 mg/kWh and 60 kW: 37.2 ± 3.6 mg/kWh; acetaldehyde 20 kW: 13.2 ± 1.1 mg/kWh and 60 kW: 11.8 ± 1.2 mg/kWh). However, for MGO and HVO no significant differences between high and low engine loads could be determined. Interestingly, when wet scrubbing was applied, the emissions of both carbonyl compounds were significantly reduced resulting in reduction rates between 97% for formaldehyde with HFO 0.5 to 88% for acetaldehyde with HFO 2.2. Obviously, these polar organic compounds were washed out almost completely from the exhaust by wet scrubbing. The same reduction effect was observed for the engine load of 60 kW. The fuel ULS-HFOar featured the same trend as the commercial HFOs but with lower emission factors.
+3.6. OFP
+Values of OFP are illustrated in
+Fig. 2
+g. For the 20 kW engine load, three main groups can be observed. HVO showed the lowest OFP with 1061 ± 119 mg/kWh closely followed by MGO with 1376 ± 107 mg/kWh. The commercial HFO fuels with operating scrubber as well as ULS-HFOar featured OFP varying between 2003 ± 190 mg/kWh (HFO 0.5 Scr) and 2827 ± 59 mg/kWh (HFO 2.2 Scr). As a third group, both commercial HFOs without wet scrubbing could be identified as having the highest OFP with 5048 ± 154 mg/kWh (HFO 0.5) and 5787 ± 560 mg/kWh (HFO 2.2). Subsequently, from the fuel with the lowest OFP to the fuel with the highest OFP, a ratio of more than 1:5 was determined. For higher engine loads e.g. 60 kW a somewhat different picture emerges. In this case, the fuels MGO, HVO as well as HFO 0.5 and HFO 2.2, both without scrubbing, lead to similar OFP ranging from 837 ± 90 mg/kWh (MGO) to 925 ± 163 mg/kWh (HFO 2.2). In contrast, after scrubbing HFO 0.5 (249 ± 25 mg/kWh) and HFO 2.2 (278 ± 99 mg/kWh) had the lowest OFP. In conclusion, the pattern of OFP for all experiments (
+Fig. 2
+g) resembled the pattern of HC (
+Fig. 2
+c) with the exception that OFP yields with scrubber operation (HFO 0.5 Scr and HFO 2.2 Scr) were lowered due to the almost absent OFP contributions by carbonylic compounds.
+In general, OFP is strongly influenced by CO and certain hydrocarbons. Although CO has a relatively weak ozone formation potential with an MIR factor of 0.057, the high CO emissions still result in a notable fraction. Hydrocarbons contributing the most to OFP have (alternating) C-C double bonds or C-O double bonds. This leads to MIR-factors from 0.31 for ethane to e.g. 13.47 for benzene, 7.877 for formaldehyde, and 6.829 for acetaldehyde (see
+Table 2
+). The percentage contribution of CO as well as hydrocarbons separated in carbonyl compounds and VOC (without carbonyls) to the OFP of the different fuels is illustrated in
+Fig 3
+.
+Download: Download high-res image (253KB)
+Download: Download full-size image
+Fig. 3. (in color): Percentage contribution of CO, VOC (without carbonyls) and carbonyls to the OFP for the ship fuels MGO, HVO, ULS-HFOar, HFO 0.5 and HFO 2.2. Latter two fuels with (Scr) and without wet scrubbing.
+Remarkable is the modified pattern for both test series with/without scrubber where the percentage contribution without scrubber changed from 8-10% from CO, 55% from VOC, and 35-37% from carbonyls to 13-23% from CO, 66-83% from VOC and only 4-10% from carbonyls with scrubber. Subsequently, the above-mentioned removal of carbonyl compounds by wet scrubbing modifies the overall matrix of chemical constituents in the gaseous emission and significantly influences the secondary formation of ozone. In contrast, the emission patterns of MGO, HVO and commercial HFO without scrubbing were similar besides the different absolute values.
+4. Discussion
+Regarding the presence of gaseous air pollutants in marine exhaust, a clear relation to the engine operation was observed. At the lowest engine load of 20 kW, the commercial HFO fuels (without scrubbing) as well as the ULS-HFOar featured significantly higher emissions for most studied pollutants than MGO and HVO. Emissions of the latter two fuels were mostly in the same range with sometimes slightly lower values for HVO e.g. for HC. With higher engine loads the differences in emissions between all fuels were converging (see
+Fig. 2
+and
+Table 2
+).
+4.1. Environmental benefits from sulphur cap outside a SECA
+On 1st January 2020 the upper limit for FSC was reduced from 3.5% (w/w) to 0.5% [
+IMO 2008
+]. In our study, the effects of this regulation tightening should be noticed when comparing any emission factors of HFO 0.5 with HFO 2.2 (both without scrubber). However, for the investigated gaseous air pollutants, with the exception of SO2, only little to no significant effects could be determined by this act. Although at 20 kW engine load CO and HC emission factors of HFO 0.5 were lower than that of HFO 2.2 (CO: -20%; HC: -21%), this positive effect was not seen at 60 kW, which should be the far more important engine load at open sea. However, the benefits of this regulation tightening on SO2 emission and other directly related effects like aerosol formation from SOx, which are not subject in this paper, are out of the question.
+4.2. Environmental benefits from sulphur cap inside a SECA
+Since 1st January 2015 the upper limit for FSC in a SECA has been reduced from 1.0% (w/w) to 0.1% [
+IMO 2008
+]. Compliance with this regulation can be achieved by either (i) operating on (modern) fuels with reduced FSC or (ii) by implementing a proven effective exhaust after-treatment technology for SO2. In this study i) is addressed by running test series on the fuels MGO, HVO, and ULS-HFOar in comparison to HFO 0.5, whereas ii) is investigated by running test series on commercial HFO fuels (here HFO 0.5 and HFO 2.2) with and without wet scrubbing.
+i)
+The transformation from HFO 0.5 to the commercial cleaner fuels MGO and HVO showed positive effects for almost all pollutants (except NOx) when operating the engine at low speeds. Reduction rates in the range of one order of magnitude were feasible e.g. 1:18 (HVO) and 1:9 (MGO) for benzene, 1:3 (MGO) and 1:4 (HVO) for CO, 1:4 (MGO) and 1:4 (HVO) for formaldehyde or 1:4 (MGO) and 1:5 (HVO) for OFP. The benefits of ULS-HFOar are less pronounced, for some compounds like NOx and CO even negative. At higher engine loads little (e.g. benzene) to no significant effects could be observed. Taking into account that ships often undergo manoeuvring operations at ports and close to coastal areas, which brings the focus to lower engine loads, residents should have profited from the switch to better fuel qualities like MGO and HVO in terms of air quality.
+ii)
+Many air pollutants were not significantly affected by the wet scrubbing process i.e. their emission factors with or without scrubbing were about the same. However, this was not the case for carbonylic compounds, first and foremost formaldehyde and acetaldehyde as the two dominating representatives. These compounds were significantly reduced, sometimes even almost entirely removed by wet scrubbing, most likely due to the molecules‘ polarity, which makes them very water-soluble. Reduction rates of up to 97% could be determined. Although higher engine loads resulted also here in lower emissions wet scrubbing further reduced these values. This behaviour is also reflected in OFP, where values for scrubbed HFO fuels were in between unscrubbed HFO fuels and the cleaner fuels MGO and HVO.
+Consequently, a clear positive effect on air quality by these technical measures can be derived for these specific pollutants.
+4.3. Environmental benefits of different fuels inside a SECA
+For this evaluation, the five fuels/conditions MGO, HVO, ULS-HFOar, HFO 0.5 Scr, and HFO 2.2 Scr were compared. In general, it can be said that emission factors of different fuels partially differed significantly at low engine loads but converged at higher rates. This brings the situation in harbours, estuaries, etc. more into focus where ship engines might run more often on low speeds/loads. The test fuel ULS-HFOar did not entail substantial improvements. Some emission factors were lower than those of scrubbed HFO fuels (e.g. benzene), some even higher (e.g. NOx, CO), or in the same range as commercial scrubbed HFO fuels (e.g. HC). The fuels MGO and HVO generated the lowest air pollutant yields and featured, in general, a similar behaviour for most compounds with HVO being the even cleaner fuel (e.g. NOx). However, differences between MGO and HVO were marginal. Commercial HFO fuels (with scrubber) featured the highest emission factors for most of the investigated air pollutants. Increase rates of one order of magnitude were common in comparison to MGO/HVO (e.g. CO, benzene) except for carbonylic compounds. Representatives of this compound class (formaldehyde, acetaldehyde) were very effectively removed by wet scrubbing.
+4.4. Environmental benefits from a NECA
+Since 1st January 2016 in the U.S. and since 1st January 2021 in Europe NECAs were established where new ships must comply with Tier 3. This law tightening entails great environmental benefits as the permitted NOx emissions have been reduced significantly. These NOx emission standards are only to be fulfilled by the implementation of NOx emission abatement systems, which have been state-of-the-art in road traffic for a long time.
+These and other well-established technical measures to reduce air pollutants should finally also find entry into the marine engine sector. From this implementation of modern emission abatement systems (e.g. oxidation catalyst, selective catalytic reduction catalyst, diesel particle filter, wet scrubber) in combination with high-quality fuels, accompanied with (stricter) emission standards, coastal residents and the marine ecosystem would profit likewise. Based on our results we emphasize that the wet sulphur scrubber alone cannot sufficiently reduce NOx, so an additional abatement system would be required.
+5. Conclusion
+Significant differences in gaseous emission factors between different fuels and engine operation were revealed, with the wet scrubber providing limited or no reduction of gaseous emissions, especially for water-insoluble gases. We suggest enhanced regulations and emission abatements in the marine sector to mitigate gaseous pollutants harmful to human health and the environment.
+In future research, it will be important to explore the interaction between gas phase plume chemistry and particulate emissions, especially in context of secondary PM formation.
+Jan Bendl: Writing – review & editing, Writing – original draft, Supervision, Methodology, Investigation, Conceptualization. Martin Sklorz: Supervision, Methodology, Conceptualization. Julian Schade: Writing – review & editing, Investigation. Barbara Giocastro: Writing – review & editing, Investigation. Evelyn Kuhn: Investigation. Seongho Jeong: Writing – review & editing, Investigation. Sara Padoan: Writing – review & editing, Writing – original draft, Investigation, Data curation, Conceptualization. Ralf Zimmermann: Writing – review & editing, Supervision, Resources, Project administration, Funding acquisition. Uwe Käfer: Writing – review & editing, Validation, Methodology, Investigation, Formal analysis, Data curation. Bert Buchholz: Resources, Project administration. Uwe Etzien: Writing – review & editing, Methodology, Investigation, Conceptualization. Ajit Mudan: Investigation, Data curation. Thomas Adam: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Resources, Project administration, Methodology, Funding acquisition, Formal analysis, Data curation, Conceptualization. Mohammad Reza Saraji-Bozorgzad: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Thorsten Streibel: Writing – review & editing, Supervision, Resources, Project administration, Conceptualization. Christoph Grimmer: Investigation
+Uncited reference
+Bundesregierung,
+;
+Eyring et al., 2010
+;
+Aakko-Saksa et al., 2023
+;
+Corbett et al., 2007
+;
+Toscano and Murena, 2019
+;
+Cames et al., 2015
+;
+Smith et al., 2015
+;
+State Global Air, 2019
+;
+Chu-Van et al., 2018
+;
+Perez et al., 2016
+;
+Tang et al., 2020
+;
+Wilbur et al., 2012
+;
+IMO Reg,
+;
+Winnes and Fridell, 2009
+;
+Cordtz et al., 2013
+;
+Szeto and Leung, 2022
+;
+Zetterdahl et al., 2016
+;
+Yusuf et al., 2012
+;
+McCaffery et al., 2021
+;
+Lehtoranta et al., 2019
+;
+Winnes and Fridell, 2009a
+;
+Oikawa et al., 2003
+;
+Andreasen and Mayer, 2007
+;
+Teuchies et al., 2020
+;
+Ushakov et al., 2020
+;
+Endres and Endres, 2018
+;
+Lack et al., 2009
+;
+Petzold et al., 2010
+;
+Petzold et al., 2011
+;
+ISO 8178-4, 2020
+;
+Klein Woud and Stapersma, 2002
+;
+Sippula et al., 2014
+;
+Streibel et al., 2017
+;
+Jeong et al., 2023
+;
+MEPC, 2015
+;
+Bandyopadhyaya and Biswasa, 2006
+;
+Anders et al., 2023
+;
+Schneider et al., 2023
+;
+ISO, 2017
+;
+Fritt-Rasmussen et al., 2018
+;
+Käfer et al., 2019
+;
+ISO 12185, 1996
+;
+ASTM D7042, 2021
+;
+ISO 6245, 2001
+;
+DIN 51732
+;
+Sawant et al., 2007
+;
+Weng et al., 2010
+;
+Bhattacharya and Tulsawani, 2008
+;
+Karavalakis et al., 2011
+;
+Latella et al., 2005
+;
+Carter and Carter, 1994
+;
+Heywood,
+;
+Lemel et al., 2005
+;
+IMO, 2008a
+;
+IMO, 2008b
+.
+Declaration of Competing Interest
+☒ The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+☐ The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:
+Acknowledgements
+This work was supported by the German Federal Ministry for Economic Affairs and Climate Action by the project SAARUS (grant number 03SX483D) as well as by the dtec.bw-Digitalization and Technology Research Center of the Bundeswehr (projects “LUKAS” and “MORE”). dtec.bw is funded by the European Union – NextGenerationEU. We acknowledge financial support by Universität der Bundeswehr München.
+Appendix A. Supplementary data
+Download all supplementary files included with this article
+What’s this?
+The following are the Supplementary data to this article:
+Download: Download spreadsheet (122KB)
+Download: Download Word document (2MB)
+Data availability
+Data will be made available on request.
+References
+Bundesregierung,
+Bundesregierung:
+https://www.bundesregierung.de/breg-de/aktuelles/gut-fuer-handel-und-umwelt-474066
+, last accessed on 1st February 2024
+Google Scholar
+Eyring et al., 2010
+Eyring 2010, Eyring V., Isaksen I.S.A., Berntsen T., Collins W.J., Corbett J.J., Endresen O., et al.
+Transport impacts on atmosphere and climate: shipping
+Atmos Environ, 44 (37) (2010), pp. 4735-4771
+View in Scopus
+Google Scholar
+Aakko-Saksa et al., 2023
+Aakko-Saksa P.T., Lehtoranta K., Kuittinen N., Järvinen A., Jalkanen J.-P., Johnson K., Jung H., Ntziachristos L., Gagné S.
+Reduction in greenhouse gas and other emissions from ship engines: Current trends and future options
+Progress in Energy and Combustion Science, 94 (2023),
+10.1016/j.pecs.2022.101055
+Google Scholar
+Corbett et al., 2007
+Corbett J.J., Winebrake J.J., Green E.H., Kasibhatla P., Eyring V., Lauer A.
+Mortality from ship emissions: a global assessment
+Environ. Sci. Technol., 41 (24) (2007), pp. 8512-8518
+Crossref
+View in Scopus
+Google Scholar
+Toscano and Murena, 2019
+Toscano D., Murena F.
+Atmospheric ship emissions in ports: A review. Correlation with data of ship traffic
+Atmospheric Environment: X, 4 (2019), Article 100050
+View PDF
+View article
+View in Scopus
+Google Scholar
+Cames et al., 2015
+Cames M., Graichen J., Siemons A., Cook V.
+Emission reduction targets for international aviation and shipping. European Parliament
+Directorate General for Internal Policies, Policy Department A: Economic and Scientific Policy, November (2015)
+Retrieved from
+Google Scholar
+Smith et al., 2015
+Smith 2015: Smith, T. W. P., Jalkanen, J. P., Anderson, B. A., Corbett, J. J., Faber, J.; Hanayama, S., O’Keeffe, E.; Parker, S., Johansson, L., Aldous, L., Raucci, C., Traut, M., Ettinger, S., Nelissen, D., Lee, D. S., Ng, S., Agrawal, A., Winebrake, J. J., Hoen, M., Chesworth, S., Pandey, A. Third IMO Greenhouse Gas Study 2014. International Maritime Organization (IMO) London, UK, April 2015.
+Google Scholar
+State Global Air, 2019
+State Global Air 2019: State of Global Air/2019. Health Effect Institute and Institute of Health Metrics and Evaluations.
+www.stateofglobalair.org
+, last accessed on 1st February 2024
+Google Scholar
+Chu-Van et al., 2018
+Chu-Van 2018, Chu-Van T., Ristovski Z., Pourkhesalian A.M., Rainey T., Garaniya V., Abbassi R., et al.
+On-board measurements of particle and gaseous emissions from a large cargo vessel at different operating conditions
+Environ Pollut, 237 (2018), pp. 832-841
+View in Scopus
+Google Scholar
+Perez et al., 2016
+Perez N., Pey J., Reche C., Cort´es J., Alastuey A., Querol X.
+Impact of harbour emissions on ambient PM10 and PM2.5 in Barcelona (Spain): evidences of secondary aerosol formation within the urban area
+Sci Total Environ, 571 (2016), pp. 237-250
+View PDF
+View article
+View in Scopus
+Google Scholar
+Tang et al., 2020
+Tang L., Ramacher M.O.P., Moldanova J., Matthias V., Karl M., Johansson L., et al.
+The impact of ship emissions on air quality and human health in the Gothenburg area – Part 1: 2012 emissions
+Atmos Chem Phys, 20 (2020), pp. 7509-7530
+Crossref
+View in Scopus
+Google Scholar
+Wilbur et al., 2012
+Wilbur S., Williams M., Williams R., et al. Toxicological Profile for Carbon Monoxide. Atlanta (GA): Agency for Toxic Substances and Disease Registry (US); 2012 Jun. 3. Retreived from
+https://www.ncbi.nlm.nih.gov/books/NBK153687/
+, last accessed on 3rd July 2024Russel 2013:
+Google Scholar
+Russel, 2013
+Russel, A. T., Chapter 4. Combustion Emissions, in: Straif K., Cohen A., Samet J. Air Pollution and Cancer, IARC Scientific Publication No. 161, 2013, ISBN: 978-92-832-2166-1
+Google Scholar
+IMO, 2008
+IMO 2008: IMO, 2008. Report of the Marine Environment Protection Committee on its Fifty-Eighth Session MEPC 58/23 16. Oct. 2008.
+Google Scholar
+IMO Reg,
+IMO Reg. 13: Regulation 13 of MARPOL Annex VI
+Google Scholar
+Winnes and Fridell, 2009
+Winnes H., Fridell E.
+Particle emissions from ships: dependence on fuel type
+J Air Waste Manage Assoc, 59 (2009), pp. 1391-1398
+Crossref
+View in Scopus
+Google Scholar
+Cordtz et al., 2013
+Cordtz R., Schramm J., Andreasen A., Eskildsen S.S., Mayer S.
+Modeling the distribution of sulphur compounds in a large two stroke diesel engine
+Energy Fuels, 27 (3) (2013), pp. 1652-1660
+Crossref
+View in Scopus
+Google Scholar
+Szeto and Leung, 2022
+Szeto Q., Leung D.
+Is hydrotreated vegetable oil a superior substitute for fossil diesel? A comprehensive review on physicochemical properties, engine performance and emissions
+Fuel (2022), Article 125065,
+10.1016/j.fuel.2022.125065
+ISSN 0016-2361
+View in Scopus
+Google Scholar
+Zetterdahl et al., 2016
+Zetterdahl M., Moldanova J., Pei X., Pathak R.K., Demirdjian B.
+Impact of the 0.1% fuel sulphur content limit in SECA on particle and gaseous emissions from marine vessels
+Atmos Environ, 145 (2016), pp. 338-345
+View PDF
+View article
+View in Scopus
+Google Scholar
+Yusuf et al., 2012
+Yusuf K.M., Giordano M., Gutierrez J., Welch W.A., Asa-Awuku A., Wayne Miller J., et al.
+Benefits of two mitigation strategies for container vessels: cleaner engines and cleaner fuels
+Environ Sci Technol, 46 (9) (2012), pp. 5049-5056
+Google Scholar
+McCaffery et al., 2021
+McCaffery C., Zhu H., Karavalakis G., Durbin T.D., Wayne Miller J., Johnson Kent C.
+Sources of air pollutants from a Tier 2 ocean-going container vessel: main engine, auxiliary engine, and auxiliary boiler
+Atmos Environ, 245 (2021), Article 118023,
+10.1016/j.atmosenv.2020.118023
+View PDF
+View article
+View in Scopus
+Google Scholar
+Lehtoranta et al., 2019
+Lehtoranta K., Aakko-Saksa P., Murtonen T., Vesala H., Ntziachristos L., Ronkko T., Karjalainen P., Kuittinen N., Timonen H.
+Particulate mass and nonvolatile particle number emissions from marine engines using low-sulphur fuels, natural gas, or scrubbers
+Environ. Sci. Technol., 53 (6) (2019), pp. 3315-3322,
+10.1021/acs.est.8b05555
+View in Scopus
+Google Scholar
+Winnes and Fridell, 2009a
+Winnes H., Fridell E.
+Particle emissions from ships: dependence on fuel type
+J.Air Waste Manag. Assoc., 59 (12) (2009), pp. 1391-1398,
+10.3155/1047-3289.59.12.1391
+View in Scopus
+Google Scholar
+Oikawa et al., 2003
+Oikawa K., Yongsiri C., Takeda K., Harimoto T.
+Seawater flue gas desulphurization: Its technical implications and performance results
+Environ. Prog., 22 (2003), pp. 67-73
+View in Scopus
+Google Scholar
+Andreasen and Mayer, 2007
+Andreasen A., Mayer S.
+Use of seawater scrubbing for SO2 removal from marine engine exhaust gas
+Energy Fuels, 21 (2007), pp. 3274-3279
+Crossref
+View in Scopus
+Google Scholar
+Teuchies et al., 2020
+Teuchies J., Cox T.J.S., Van Itterbeeck K., Meysman F.J., Blust R.
+The impact of scrubber discharge on the water quality in estuaries and ports
+Environ. Sci. Eur., 32 (2020), p. 130
+Google Scholar
+Ushakov et al., 2020
+Ushakov S., Stenersen D., Einang P.M., Ask T.Ø.
+Meeting future emission regulation at sea by combining low-pressure EGR and seawater scrubbing
+J. Mar. Sci.Technol., 25 (2020), pp. 482-497
+Crossref
+View in Scopus
+Google Scholar
+Endres and Endres, 2018
+Endres 2018, Endres S.
+A New Perspective at the Ship-Air-Sea-Interface: The Environmental Impacts of Exhaust Gas Scrubber Discharge
+Frontiers in Marine Science, 2018 (2018), p. 5
+Google Scholar
+Lack et al., 2009
+Lack D.A., Corbett J.J., Onasch T., Lerner B., Massoli P., Quinn P.K., Bates T.S., Covert D.S., Coffman D., Sierau B., Herndon S., Allan J., Baynard T., Lovejoy E., Ravishankara A.R., Williams E.
+Particulate emissions from commercial shipping: Chemical, physical, and optical properties
+J. Geophys. Res.: Atmos., 114 (2009), pp. 1-16
+Crossref
+Google Scholar
+Petzold et al., 2010
+Petzold A., Weingartner, Hasselbach J., Lauer P., Kurok C., Fleischer F.
+Physical Properties, Chemical Composition, and Cloud Forming Potential of Particulate Emissions from a Marine Diesel Engine at Various Load Conditions
+Environ. Sci. Technol., 44 (2010), pp. 3800-3805
+Crossref
+View in Scopus
+Google Scholar
+Petzold et al., 2011
+Petzold A., Lauer P., Fritsche U., Hasselbach J., Lichtenstern M., Schlager H., Fleischer F.
+Operation of Marine Diesel Engines on Biogenic Fuels: Modification of Emissions and Resulting Climate Effects
+Environ. Sci.Technol., 45 (2011), pp. 10394-10400
+Crossref
+View in Scopus
+Google Scholar
+ISO 8178-4, 2020
+ISO 8178-4:2020. Reciprocating internal combustion engines. Exhaust emission measurement. Part 4: Steady-state and transient test cycles for different engine applications. 2020
+Google Scholar
+Klein Woud and Stapersma, 2002
+Klein Woud, J., Stapersma, D., 2002. Design of Propulsion and Electric Power Generation Systems. Publisher: IMarEST, Place of publication: London. Number of pages: 494, ISBN: 1-902536-47-9
+Google Scholar
+Sippula et al., 2014
+Sippula O., Stengel B., Sklorz M., Streibel T., Rabe R., Orasche J., Lintelmann J., Michalke B., Abbaszade G., Radischat C., Groger T., Schnelle-Kreis J., Harndorf H., Zimmermann R.
+Particle emissions from a marine engine: chemical composition and aromatic emission profiles under various operating conditions
+Environ. Sci. Technol., 48 (19) (2014), pp. 11721-11729,
+10.1021/es502484z
+View in Scopus
+Google Scholar
+Streibel et al., 2017
+Streibel T., Schnelle-Kreis J., Czech H., Harndorf H., Jakobi G., Jokiniemi J., Karg E., Lintelmann J., Matuschek G., Michalke B., Muller L., Orasche J., Passig J., Radischat C., Rabe R., Reda A., Ruger C., Schwemer T., Sippula O., Stengel B., Sklorz M., Torvela T., Weggler B., Zimmermann R.
+Aerosol emissions of a ship diesel engine operated with diesel fuel or heavy fuel oil
+Environ. Sci. Pollut., 24 (2017), pp. 10976-10991
+2017
+Crossref
+View in Scopus
+Google Scholar
+Jeong et al., 2023
+Jeong 2023, Jeong S., Bendl J., Saraji-Bozorgzad M., Käfer U., Etzien U., Schade J., Bauer M., Jakobi G., Orasche J., Fisch K., Cwierz P.P., Rüger C., Czech H., Karg E., Heyen G., Krausnick M., Geisler A., Geipel G., Streibel T., Schnelle-Kreis J., Sklorz M., Schulz-Bull D.E., Buchholz B., Adam T., Zimmermann R.
+Aerosol emissions from a marine diesel engine running on different fuels and effects of exhaust gas cleaning measures
+Enviormental Pollution, 316 (Part 1) (Jan 2023), Article 120526
+View in Scopus
+Google Scholar
+MEPC, 2015
+MEPC, 2015. Guidelines for Exhaust Gas Cleaning Systems MEPC 68/21/Add.1 Annex1, pp. 1–23.
+Google Scholar
+Bandyopadhyaya and Biswasa, 2006
+Bandyopadhyaya A., Biswasa M.N.
+Prediction of the removal efficiency of a novel two-stage hybrid scrubber for flue gas desulphurization
+Chem. Eng. Technol.: Industrial Chemistry-Plant Equipment-Process Engineering-Biotechnology, 29 (1) (2006), pp. 130-145,
+10.1002/ceat.200500160
+Google Scholar
+Anders et al., 2023
+Anders L., Schade J., Rosewig E.I., Kröger-Badge T., Irsig R., Jeong S., Bendl J., Saraji-Bozorgzad M.R., Huang J.-H., Zhang F.-Y., Wang C.C., Adam T., Sklorz M., Etzien U., Buchholz B., Czech H., Streibel T., Passig J., Zimmermann R.
+Detection of ship emissions from distillate fuel operation via single-particle profiling of polycyclic aromatic hydrocarbons
+Environ. Sci.: Atmos., 3 (8) (2023), pp. 1134-1144,
+10.1039/D3EA00056G
+View article
+View in Scopus
+Google Scholar
+Schneider et al., 2023
+Schneider E., Czech H., Hansen H.J., Jeong S., Bendl J., Saraji-Bozorgzad M., Sklorz M., Etzien U., Buchholz B., Streibel T., Adam T.W., Rüger C.P., Zimmermann R.
+Humic-like Substances (HULIS) in Ship Engine Emissions: Molecular Composition Effected by Fuel Type, Engine Mode, and Wet Scrubber Usage
+Environmental science & technology (2023),
+10.1021/acs.est.3c04390
+Google Scholar
+ISO, 2017
+ISO 8217: Petroleum products, Fuels (class F), Specifications of marine fuel; 2017
+Google Scholar
+Fritt-Rasmussen et al., 2018
+2018: Fritt-Rasmussen, J., Wegeberg, S., Gustavson, K., Sørheim, K. R., Daling, P. S., Jørgensen, K., Tonteri, O., Holst-Andersen, J. P. Heavy Fuel Oil (HFO): A review of fate and behaviour of HFO spills in cold seawater, including biodegradation, environmental effects and oil spill response, Nordic Council of Ministers, ISBN 978-92-893-5851-4
+Google Scholar
+Käfer et al., 2019
+Käfer U., Gröger T., Rohbogner C.J., Struckmeier D., Saraji-Bozorgzad M.R., Wilharm T., Zimmermann R.
+Detailed Chemical Characterization of Bunker Fuels by High-Resolution Time-of-Flight Mass Spectrometry Hyphenated to GC × GC and Thermal Analysis
+Energy & Fuels, 33 (11) (2019), pp. 10745-10755,
+10.1021/acs.energyfuels.9b02626
+View in Scopus
+Google Scholar
+Latarche, 2021
+Latarche M. Chapter Five - Oil fuels chemistry and treatment, in: Pounder's Marine Diesel Engines and Gas Turbines (Tenth Edition), Butterworth-Heinemann, 2021, Pages 117-149, ISBN 9780081027486, DOI 10.1016/B978-0-08-102748-6.00005-0
+Google Scholar
+ISO 12185, 1996
+ISO 12185:1996. Crude petroleum and petroleum products, Determination of density, 1996
+Google Scholar
+ASTM D7042, 2021
+ASTM D7042. Standard Test Method for Dynamic Viscosity and Density of Liquids by Stabinger Viscometer (and the Calculation of Kinematic Viscosity). 2021. DOI: 10.1520/D7042-21A
+Google Scholar
+ISO 6245, 2001
+ISO 6245:2001. Petroleum products — Determination of ash. 2001
+Google Scholar
+DIN 51732:2014-07, 2014
+DIN 51732:2014-07. Testing of solid mineral fuels - Determination of total carbon, hydrogen and nitrogen - Instrumental methods. 2014. DOI: 10.31030/2151764
+Google Scholar
+Sawant et al., 2007
+Sawant A.A., Shah S.D., Zhu X., Miller J.W., Cocker D.R.
+Real-world emissions of carbonyl compounds from in-use heavy-duty diesel trucks and diesel Back-Up Generators (BUGs)
+Atmos. Environ., 41 (21) (2007), Article 4535e4547
+Google Scholar
+Weng et al., 2010
+Weng M., Zhu L., Yang K., Chen S.
+Levels, sources, and health risks of carbonyls in residential indoor air in Hangzhou, China
+Environ. Monit. Assess., 163 (1e4) (2010), Article 573e581
+Google Scholar
+Bhattacharya and Tulsawani, 2008
+Bhattacharya R., Tulsawani R.
+In vitro and in vivo evaluation of various carbonyl compounds against cyanide toxicity with particular reference to alpha-ketoglutaric acid
+Drug Chem. Toxicol., 31 (1) (2008), p. 149e161
+Google Scholar
+IARC, 2006
+IARC
+Formaldehyde, 2-butoxyethanol and 1-tert-butoxypropan-2-ol
+IARC Monogr Eval Carcinog Risks Hum., 88 (2006), p. 1e478
+Google Scholar
+Karavalakis et al., 2011
+Karavalakis G., Boutsika V., Stournas S., Bakeas E.
+Biodiesel emissions profile in modern diesel vehicles. Part 2: effect of biodiesel origin on carbonyl, PAH, nitro-PAH and oxy-PAH emissions
+Sci. Total Environ., 409 (4) (2011), Article 738e747
+Google Scholar
+European Commission, 2002
+European Commission
+Directive 2002/3/EC of the European parliament and of the council of 12 February 2002 relating to ozone in ambient air
+Official Journal of the European (2002)
+Communities OJ L67 2002/3/EC
+Google Scholar
+Latella et al., 2005
+Latella A., Stani G., Cobelli L., Duane M., Junninen H., Astorga-Llorens C., Larsen B.
+Semicontinuous GC analysis and receptor modelling for source apportionment of ozone precursor hydrocarbons in Bresso, Milan, 2003
+Journal of Chromatography A, 1071 (2005), Article 29e39
+Google Scholar
+Carter and Carter, 1994
+Carter 1994, Carter W.P.L.
+Development of ozone reactivity scales for volatile organic compounds
+Journal of the Air and Waste Management Association, 44 (1994), Article 881e899
+Google Scholar
+Heywood,
+Heywood, J. B. “Nitrogen oxides” Chapter 11.2 in Internal Combustion Engine Fundamentals. 2nd ed. New York: McGraw-Hill Education. ISBN: 9781260116106
+Google Scholar
+Lemel et al., 2005
+Lemel M., Hultqvist A., Vressner A., Nordgren H., Persson H., Johansson B.
+Quantification of the Formaldehyde Emissions from Different HCCI Engines Running on a Range of Fuels
+SAE Transactions, 14 (4) (2005), pp. 1347-1357
+Google Scholar
+EEA, 2013
+EEA
+The impact of international shipping on European air quality and climate forcing
+Tech. Rep. No. 4/2013, European Environ. Agency (2013), p. 84,
+10.2800/75763,2013
+Google Scholar
+CDC, 2014
+CDC 2014: The Centers for Disease Control and Prevention (CDC): Medical Management Guidelines for Nitrogen Oxides,
+https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=394&toxid=69
+, last accessed on 1st February 2024
+Google Scholar
+IMO, 2008a
+IMO: The International Convention for the Prevention of Marine Pollution from Ships, 1973 as modified by the Protocol of 1978 relating thereto (MARPOL 73/78), Annex VI: Prevention of Air Pollution from Ships, 2008 Amendments, International Maritime Organization, London, UK, 2008a.
+Google Scholar
+IMO, 2008b
+IMO: Prevention of air pollution from ships, Information on NOX Emissions from Shipping in the Baltic Sea Area, MEPC 57/INF.14, International Maritime Organization, 2008b, available at:
+http://docs.imo.org
+, last accessed on 1st February 2024.
+Google Scholar
+Cited by (0)
+© 2024 The Authors. Published by Elsevier Inc.
+Recommended articles
+Gene therapy offers promise, but timing is crucial for SMA treatment
+European Journal of Paediatric Neurology, 2024
+Renu Suthar, …, Prashant Jauhari
+Sources and secondary transformation potentials of aromatic hydrocarbons observed in a medium-sized city in yangtze river delta region: Emphasis on intermediate-volatility naphthalene
+Atmospheric Environment, Volume 318, 2024, Article 120239
+Hua Fang, …, Xinming Wang
+Xanthan gum short-chain modified TiO2 nanoparticles for the preparation of high-stability foam to effectively improve the efficiency of foam oil repulsion
+Vacuum, Volume 227, 2024, Article 113461
+Jianwei You, …, Yixuan Cao
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

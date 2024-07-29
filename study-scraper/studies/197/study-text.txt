@@ -1,0 +1,155 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (84)
+Renewable and Sustainable Energy Reviews
+Volume 202
+, September 2024, 114727
+Hourly solar radiation estimation and uncertainty quantification using hybrid models
+Author links open overlay panel
+Lunche Wang a b
+,
+Yunbo Lu a 1
+,
+Zhitong Wang a
+,
+Huaping Li a
+,
+Ming Zhang a b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.rser.2024.114727
+Get rights and content
+Highlights
+•
+The high uncertainty of cloud and aerosol parameters is the main obstacle to estimation.
+•
+A hybrid model for global solar radiation estimation was constructed.
+•
+The uncertainty of global radiation estimation was quantified.
+•
+A bias correction method based on the solar zenith angle was proposed.
+Abstract
+Solar energy, considered to be the most abundant renewable resource, is one of the most effective methods for reducing carbon emissions. The quantification of the uncertainty in the model estimates due to the uncertainty in the input parameters has received very little attention, although models with different computational principles have been developed to estimate surface solar radiation. This study aims to establish and compare four hybrid models by coupling a physical model with machine learning models. Uncertainty in model estimations caused by uncertainty in cloud optical thickness, aerosol optical depth, precipitable water vapor, and total column ozone is quantified. The results of the radiative transfer model reveal a strong dependence on aerosol optical depth, cloud optical thickness, and total column ozone, but not on precipitable water vapor. The average uncertainties in the radiative transfer model estimates caused by the uncertainties in aerosol optical depth, cloud optical thickness, precipitable water vapor, total column ozone, and all of them together reached 37.76, 182.19, 22.76, 3.00, and 219.67 W m−2 at all sites, respectively. Uncertainties in atmospheric parameters greatly limit the performance of hybrid models. RTM-RF has the strongest robustness compared to RTM-XGBoost, RTM-CatBoost, and RTM-LightGBM. The proposed hybrid model can be considered as a pertinent decision-support framework for the estimation of solar radiation components to further support clean energy utilization. Optimization of cloud inversion algorithms to improve the product accuracy of cloud optical properties over land and oceans is central to improving the accuracy of surface solar radiation estimates.
+Introduction
+Solar energy, characterized as the most dependable, economically viable, and sustainably expanding renewable energy source, holds a prominent position in the landscape of future energy transformation. Its versatility allows for both direct and indirect conversion into various forms of energy. The development of solar energy can help to reduce carbon emissions and decrease dependence on traditional non-renewable energy sources such as natural gas fuels and oil and the economic risks associated with them [1].
+Many countries have initiated the formulation of carbon neutrality strategic goals to address the risks and impacts of global climate change. These goals aim to promote the transformation of energy and power systems towards a cleaner and low-carbon direction, thereby inducing profound changes in global energy production and consumption patterns. As a significant participant, China has explicitly set forth the ambitious target of peaking CO₂ emissions by 2030 and aiming to achieve carbon neutrality by 2060. This marks China's first firm commitment to the international community [2]. China has devised a low-carbon transition strategy for its energy system, centered on the replacement of fossil fuels with renewable energy and the clean utilization of fossil energy to achieve this goal. China has actively invested in the development and utilization of renewable and new energy sources since 2010. By 2020, China's installed capacities for solar, hydro, and wind energy reached 261 TW-hours, 1355 TW-hours, and 467 TW-hours, respectively [3]. Although the energy system is transitioning from a coal-dominated structure to a clean, low-carbon, and sustainable diversified structure, energy consumption and carbon emissions continue to grow. In 2020, China's primary energy consumption reached 4.98 billion tons of standard coal, accounting for 26 % of the global energy consumption total; meanwhile, its carbon dioxide emissions reached 9.9 billion tons, making up 31 % of the global carbon dioxide emissions total [4]. The transformation of the energy system is constrained by various factors, including technology, infrastructure, institutions, and markets. This transformation process is a cumulative and long-term task that requires a comprehensive consideration and optimization of multiple pathways.
+The power system stands as a potential cornerstone or nexus in the future energy framework [5]. Solar energy utilization projects have emerged as an indispensable approach to addressing climate change, mitigating energy shortages, and achieving the ‘dual carbon’ targets”. Among these, solar thermal utilization technology, which converts solar energy into heat energy, is widely used in fields such as hot water heating, high-temperature steam generation, and electricity production. Photovoltaic (PV) power generation technology, as a primary means of harnessing solar energy, holds particularly promising development prospects. China's solar power generation market has undergone fundamental changes due to multiple measures, including the Chinese government's financial incentives, adjustments to renewable energy subsidy policies, and encouragement for major cities to use renewable energy instead of traditional fossil fuels for heating to reduce carbon emissions. In this context, accurate forecasting of PV power generation is crucial. It not only helps optimize grid dispatch plans and reduce electricity production costs but is also key to ensuring the stable operation of the grid and improving energy utilization efficiency. However, the accuracy of PV power generation forecasts highly depends on the precision of estimated solar radiation data reaching the Earth's surface.
+Accurate forecasting of solar energy remains a formidable challenge, primarily stemming from its nonlinear behavior, which is attributed to the stochastic nature of climatic conditions [6]. Studies have developed a series of solar radiation estimation algorithms based on different input parameters to address this challenge. These algorithms can be classified into two categories: (1) algorithms that consider surface and atmospheric characteristics, which comprehensively take into account the entire physical process of solar radiation incident on the ground, reflected back into space, and received by satellites; and (2) algorithms that do not rely on atmospheric and surface properties and only consider observations at the top of the atmosphere, establishing models to obtain the relationship between top-of-atmosphere observations and surface radiation. Although many radiation estimation models have been developed based on different principles, comprehensive investigation into the uncertainty of modeling outcomes remains limited. Predominantly, research efforts have focused on the development of high-precision solar radiation estimation models, often overlooking the explicit quantification of uncertainties introduced by the models and the input parameters. Solar radiation passes through the atmosphere and reaches the ground through complex physical processes. The amount of solar radiation reaching the ground is primarily influenced by astronomical and atmospheric factors. Astronomical factors include the distance between the sun and the earth and the sun's altitude angle. Astronomical factors remain relatively stable and undergo minimal changes within short time periods. Atmospheric factors are mainly ozone, aerosol particles, clouds and water vapor, which absorb, reflect and scatter solar radiation. The levels of aerosols and clouds are the primary determinants of the solar radiation received in a given area [7]. In particular, the uncertainty of cloud observation and prediction brings significant challenges to the accurate estimation of surface solar radiation.
+The Earth's surface receives approximately 1000 W m−2 of solar radiation under clear-sky conditions. Solar radiation is scattered and absorbed by clouds, resulting in most of the solar radiation received at the surface being scattered in the presence of clouds, when clouds may result in solar radiation received at the surface as low as 150 W m−2 [8]. Although precipitable water vapor (PWV) is a minor component of the atmosphere, the contributions of aerosol optical depth (AOD) and PWV to accurate estimates of global radiation are comparable in some regions. Ozone is an important trace gas that selectively absorbs short-wave radiation. For every 1 DU reduction in total ozone, the ratio of ultraviolet to total shortwave solar radiation decreases by about 0.30 % [9]. Consequently, a large measurement uncertainty in these atmospheric factors will introduce too much error into the final estimate in surface solar radiation estimation. Quantifying the sensitivity of solar radiation from aerosols, clouds, ozone, and water vapor can help to understand the sources of error in surface solar radiation estimates.
+Reviewing the literature concerning the quantification of uncertainty in solar radiation estimation, it is found that different research employ varying definitions of uncertainty, lacking a standardized quantification approach. For instance, Urraca et al. [10] calculated deviations between estimated radiances and ground-based observations as a way to represent the uncertainties present in the observations. They emphasize that the term “deviation” is not “error”. This is expressed in equation (1):
+where,
+represents the value estimated based on the model;
+represents an observation-based value. Sengupta et al. [11] evaluated the national solar radiation data base using the quantification method based on the guide to the expression of uncertainty in measurement as a way to quantify the uncertainty of the ground measurements and expressed the model bias in terms of confidence intervals. This is expressed in equation (2):
+where,
+is ground-based percentage bias; MPE is mean percentage error, and %RMSE is the percentage of root mean square error. Huang et al. [12] estimated solar radiation at the surface of mountainous regions using different atmospheric transmittance models and digital elevation model data, and clarified the uncertainties in the estimates. Here, they used the RMSE to account for the uncertainty in the model estimates. Similar quantification methods were also implemented by Carpentieri et al. [13]. Three terrain parameter algorithms and their respective uncertainties in the downward surface solar radiation component were quantified by Wu et al. [14]. Here, the uncertainty is given by the difference in the estimated radiation values under two different conditions. The uncertainty in estimated surface solar radiation due to uncertainty in temperature measurements (k = 2) was analyzed by Ekici and Teke [15]. The results showed an uncertainty of 0.40 MJ m−2 day−1 in the model-estimated total daily radiation. A similar approach to uncertainty quantification can be found in the study of Román et al. [16] and Wu et al. [17]. This method directly introduces the uncertainty in the parameters into the model and then obtains radiation values that take into account the uncertainty in the parameters. To be precise, such methods explicitly give quantitative values for the uncertainties. This study aims to address two questions.
+(1)
+How to construct a hybrid model that combines both physical foundations and computational speed, and can operate independently of historical observation data, thereby overcoming the limitations of a single model and enhancing calculation accuracy?
+(2)
+How significant are the estimation errors caused by the measurement uncertainties of key atmospheric parameters such as aerosols and clouds during the model estimation process?
+Although ground-based observations of cloud and aerosol optical properties theoretically provide the optimal all-sky estimation of global radiation, complete ground-based cloud optical property information is difficult to obtain in the study area. Therefore, this study proposes an all-sky global radiation estimation algorithm. This algorithm combines multi-source satellite data and reanalysis data and is based on radiative transfer theory and machine learning techniques to estimate global solar radiation (GSR) on an hourly scale. The innovation and contributions of this study are primarily reflected in the following aspects:
+(1)
+A hybrid model of all-sky global radiation estimation with verifiable accuracy, traceable errors and quantifiable uncertainties is constructed by coupling a physical radiative transfer model with machine learning models.
+(2)
+A bias correction strategy based on the solar zenith angle was proposed, further enhancing the accuracy and reliability of the estimations.
+(3)
+The impact of measurement uncertainties of parameters such as aerosols, clouds, ozone, and water vapor on the model's estimation results was quantified.
+It is important to emphasize that the primary focus of this study is on quantifying the uncertainty in the global radiation estimate due to uncertainties in the model input parameters, rather than on developing a most accurate model. The model framework proposed in this study has important practical value for distribution system operators in power grid planning and operation, and serves as a reference for the development of surface solar radiation estimation models.
+Section snippets
+Literature review of developed solar radiation estimation models
+Here, the latest research on solar radiation prediction, estimation and simulation model development, including its fundamentals, challenges, and the way forward is comprehensively reviewed. The various types of models developed can be categorized into numerical weather prediction models, satellite remote sensing models, physical models, machine learning models, and hybrid models.
+Site observation data
+The global radiation observations used for validation in this study were mainly from the China Ecosystem Research Network (CERN). Established to facilitate long-term and comprehensive monitoring and research across various ecosystems and environments in China, CERN comprises thirty-six field research stations spanning farmland, forests, wetlands, water bodies, and other ecological domains [55]. In addition, radiation observations from the Xianghe (XH) station provided by the Baseline Surface
+Simulation result of radiative transfer model
+The comparison between the estimated results of RTM across all stations and the ground observation results is shown in Fig. 4(a). Ground-based observations reveal that global radiation can peak at 1200 W m−2 in summer, while it may plummet to less than 100 W m−2 in winter. Estimated global solar radiation usually shows an underestimation (RMB = −11.22 %, MD = −41.48 W m−2), especially for high solar radiation values, where the negative bias is more pronounced. As illustrated in Fig. 4(b), the
+Discussion
+As shown in Fig. 13, the sensitivity of the simulation of RTM to AOD was first examined using the original database. Fig. 13(a) shows that RTM simulation exhibits a high dependence on AOD, with simulated deviation of global radiation decreasing gradually as AOD increases. When the AOD is less than 0.5, the bias can be as high as ±800 W m−2. This high deviation was improved when the AOD was greater than 2.5. As shown in Fig. 13(b), the bias is filtered by AOD (550 nm). The underestimation of the
+Conclusions
+This research, which supports ongoing efforts to develop hybrid models for surface solar radiation and PV power generation potential prediction, has constructed four hybrid models by way of physical models coupled with integrated machine learning models. The proposed models have the advantage of not relying on historical global radiation observations. The modeling framework provides rapid access to global solar radiation for any area by integrating satellite and reanalysis data on a spatial and
+CRediT authorship contribution statement
+Lunche Wang: Conceptualization, Methodology, Software, Writing – review & editing, Supervision, Project administration, Funding acquisition, revision. Yunbo Lu: Writing – original draft, revision. Zhitong Wang: Methodology, Software. Huaping Li: Methodology, Software, Supervision, data. Ming Zhang: Methodology, Software.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was financially supported by the National Natural Science Foundation of China (42371354, 42375129) and Fundamental Research Funds for National University, China University of Geosciences, Wuhan (CUGDCJJ202201).
+References (84)
+L. Goliatt et al.
+Development of a hybrid computational intelligent model for daily global solar radiation prediction
+Expert Syst Appl
+(2023)
+W. Li et al.
+Drivers of renewable energy transition: the role of ICT, human development, financialization, and R&D investment in China
+Renew Energy
+(2023)
+X. Su et al.
+Regional energy transition path and the role of government support and resource endowment in China
+Renew Sustain Energy Rev
+(2023)
+N. Krishnan et al.
+How solar radiation forecasting impacts the utilization of solar energy: a critical review
+J Clean Prod
+(2023)
+Z. Wang et al.
+Investigating the all-sky surface solar radiation and its influencing factors in the Yangtze River Basin in recent four decades
+Atmos Environ
+(2021)
+A. De Miguel et al.
+Evolution of erythemal and total shortwave solar radiation in Valladolid, Spain: effects of atmospheric factors
+J Atmos Sol Terr Phys
+(2011)
+R. Urraca et al.
+Quantifying the amplified bias of PV system simulations due to uncertainties in solar radiation estimates
+Sol Energy
+(2018)
+M. Sengupta et al.
+The national solar radiation data base (NSRDB)
+Renew Sustain Energy Rev
+(2018)
+A. Carpentieri et al.
+Satellite-derived solar radiation for intra-hour and intra-day applications: biases and uncertainties by season and altitude
+Sol Energy
+(2023)
+R. Román et al.
+Solar radiation simulations in the Iberian Peninsula: accuracy and sensitivity to uncertainties in inputs of a radiative transfer model
+J Quant Spectrosc Radiat Transf
+(2014)
+View more references
+Cited by (0)
+1
+This author contribute equally to this work.
+View full text
+© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+Wave power extraction from an integrated system composed of a three-unit oscillating water column array and an inclined breakwater
+Renewable and Sustainable Energy Reviews, Volume 202, 2024, Article 114645
+Chen Wang, …, Wenchuang Chen
+Optimal sizing of renewables-to-hydrogen systems in a suitable-site-selection geospatial framework: The case study of Italy and Portugal
+Renewable and Sustainable Energy Reviews, Volume 202, 2024, Article 114620
+Leonardo Vidas, …, Armando Pires
+Recent advances in synthesis strategies for biomass-derived high-energy-density jet fuels
+Renewable and Sustainable Energy Reviews, Volume 202, 2024, Article 114715
+Zhenquan Fang, …, Longlong Ma
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

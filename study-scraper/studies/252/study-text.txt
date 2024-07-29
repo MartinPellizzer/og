@@ -1,0 +1,570 @@
+Books
+Book Series
+Journals
+Publish
+About
+News
+Author Panel
+Submit
+Home > Books > Zinc Oxide Nanoparticles - Fundamentals and Applications [Working Title]
+OPEN ACCESS PEER-REVIEWED CHAPTER - ONLINE FIRST
+Perspective Chapter: Vertically Aligned 1D ZnO Nanostructures – Influence of Synthesis Parameters on the Nanomaterials’ Properties
+WRITTEN BY
+Maria Morais, Mariana Cortinhal, Ana Rovisco, Jorge Martins, Rodrigo Martins and Pedro Barquinha
+Submitted: 29 February 2024 Reviewed: 22 March 2024 Published: 01 July 2024
+DOI: 10.5772/intechopen.1005167
+IntechOpen
+Zinc Oxide Nanoparticles - Fundamentals and Applications
+Edited by Ana Rovisco
+FROM THE EDITED VOLUME
+Zinc Oxide Nanoparticles - Fundamentals and Applications [Working Title]
+Dr. Ana Rovisco and Dr. Ana Pimentel
+CHAPTER METRICS OVERVIEW
+9 Chapter Downloads
+View Full Metrics
+REGISTER TO DOWNLOAD FOR FREE
+Share
+Cite
+ADVERTISEMENT
+ADVERTISEMENT
+Abstract
+Zinc oxide (ZnO) is a widely explored semiconductor metal oxide. This material has interesting properties for several research areas, including energy storage and harvesting, sensing and electronic applications. Its versatility has led to the development of various approaches for synthesizing nanostructures with different morphologies according to the application. In this chapter, a literature review on vapor phase and solution phase synthesis approaches for synthesizing one-dimensional (1D) ZnO nanostructures on different substrates will be provided to establish a comparison between different processes’ parameters. Since hydrothermal synthesis is the most widely used approach for growing ZnO on different substrates due to its simplicity and cost-effectiveness, the principles of this technique will be detailed. As an experimental demonstration of such technique, novel results obtained at CENIMAT on microwave-assisted hydrothermal synthesis of ZnO nanorods, exploring the influence of seed layer thickness, ultraviolet/ozone (UVO) treatment to this layer, and synthesis time and temperature on the nanostructures’ morphology, will be presented. The nanostructures’ length, diameter and density were measured to establish a correlation between synthesis conditions and nanostructures’ features. A seed layer thickness of 100 nm, a 5 min UVO treatment, and a synthesis time and temperature of 60 min and 100°C led to the formation of ZnO nanorods with increased length and aspect ratio.
+Keywords
+zinc oxidevertically aligned nanostructuresvapor phase synthesissolution phase synthesishydrothermal synthesis
+Author Information
+Show +
+1. Introduction
+Zinc oxide (ZnO) is an inorganic II-VI n-type semiconductor with a wide and direct band gap (around 3.37 eV) and large exciton binding energy (approximately 60 meV) [1, 2]. Additionally, this metal oxide presents high electron mobility (205 to 300 cm2 V-1 s-1) and tunable conductivity [3, 4, 5, 6].
+Zinc oxide nanostructures present good physicochemical and electrochemical properties [1], chemical and thermal stability [2, 7, 8], and high mechanical strength [8]. Besides, this metal oxide also presents biocompatibility and non-toxicity [8, 9].
+Zinc oxide can crystallize into one of the three structures depicted in Figure 1: rock salt (cubic), zinc-blend (cubic), or wurtzite (hexagonal) [1, 11]. The rock salt can only be produced at high temperatures, whereas the zinc-blend is stabilized by cubic structures [11]. As such, crystallization in the wurtzite structure is the most thermodynamically favorable [4]. Oxygen atoms tetrahedrally coordinated to four zinc cations (and vice versa) compose the hexagonal wurtzite crystal structure that comprises alternating planes of zinc and oxygen atoms stacked along the c-axis [2, 4]. The net positively charged zinc-terminated planes and the negatively charged oxygen-terminated planes have high energy and act as basal facets of the hexagonal structure, where a zinc-terminated plane is at the top while an oxygen-terminated plane is at the bottom [12]. In contrast, the prismatic lateral faces of the metal oxide crystal are non-polar and present lower energy [2, 4].
+Figure 1.
+Different crystal structures of ZnO: (a) rock salt, (b) zinc-blend, and (c) wurtzite. Adapted with permission [10]. Copyright 2023. Advanced Energy and Sustainability Research published by Wiley-VCH GmbH.
+A crystal’s preferential growth is determined by the energy of each surface and the amount of active sites [1]. In ZnO, the polar planes have higher energy than the unit cell’s lateral surfaces because polar surfaces are more susceptible to electrostatic interactions [1, 13]. As such, the growth along the direction parallel to the c-axis is favorable since it decreases the free surface energy [1, 2], which is also favored by the increase of the non-polar surfaces’ area during growth [1]. It is worth mentioning that the growth along the c-axis is often promoted by moderate temperatures (at least 80°C), as the growth medium reaches an energy level sufficiently high to allow the attachment of molecules to the crystal’s surfaces [14].
+Interestingly, ZnO presents spontaneous polarization due to the noncentrosymmetric nature of its wurtzite structure and the presence of zinc and oxygen basal planes [4, 12]. As there is no center of inversion along the c-axis in a ZnO hexagonal crystal, which leads to asymmetry, the metal oxide nanostructures present piezoelectric properties [1, 4, 9]. Besides the piezoelectricity, ZnO’s properties have led to its use in several applications, including photocatalytic degradation of organic contaminants present in water [14, 15], surface acoustic wave devices [16], solar cells [3, 17], photodetectors [5, 7, 8, 12], scintillator applications [2], photoelectrochemically related applications [18, 19, 20], gas sensors [21], field-emission devices [22], energy storage [23], or radiation absorption [24]. The properties of the ZnO nanostructures, such as the aspect ratio, crystallinity, growth orientation, vertical alignment, density, and lateral ordering, will influence their performance [12, 25]. As such, precise tuning of the nanostructures’ properties by determining their synthesis method and controlling their synthesis kinetics is decisive in the final performance [12].
+Advertisement
+2. Approaches for the synthesis of vertically aligned ZnO nanostructures
+The variety of fabrication techniques to synthesize ZnO has led to a wide assortment of nanostructures [2]. ZnO nanostructures can be synthesized in different morphologies, such as nanotubes, nanowires, nanorods (NRs), nanocombs, nanoneedles, nanorings, microspheres, nanobelts, nanosheets, tetrapods, and nanohelices, depending on the synthesis parameters [1, 17, 18].
+Among the several ZnO nanostructures, one-dimensional (1D) ZnO materials have been the focus of many research groups due to their physical, mechanical, and electronic properties [12, 25] and improved optical performance compared to bulk form [2]. Namely, when compared with films, 1D nanostructures present lower recombination rates and larger surface-to-volume ratio, desirable features in several areas such as electronics and sensing [12, 20, 26]. Moreover, ZnO nanowires, nanorods, and nanotubes’ features also promote electron conduction in the uniaxial direction [5, 26].
+Several approaches have been reported to synthesize aligned ZnO nanostructures, including synthesis from both solution and vapor phases [4] techniques, such as pulsed laser deposition (PLD), chemical vapor deposition (CVD), and vapor-liquid-solid (VLS) [25, 27]. On the other hand, these materials have also been synthesized using chemical bath deposition (CBD) and electrodeposition [25, 27].
+2.1 Vapor phase synthesis of ZnO nanostructures
+VLS, PLD, CVD, and microwave-plasma assisted thermal evaporation (MPATE) have been employed to grow ZnO nanostructures under vacuum and at high temperatures, as summarized in Table 1. These techniques offer versatility in tailoring the nanostructure’s properties, making them valuable for applications in electronics, sensors, and optoelectronics [1].
+Synthesis technique Substrate Growth Ref
+Seed layer Source material Carrier gas Conditions
+VLS Sapphire None ZnO and carbon powders Ar and O2 1050°C, 20 min [28]
+(2019)
+Sapphire 50 nm ZnO (RF sputtering) ZnO and graphite powders Ar and O2 1050°C, 30 min [6]
+(2019)
+PLD c-cut Al2O3 (0001) None Au/ZnO target O2 500°C; 45° laser angle; 420 mJ laser energy; 5 Hz pulsed laser frequency [29]
+(2020)
+n-doped Si (111)
+wafer; ITO coated on glass; Al2O3 substrate None ZnO target O2 500–600°C; laser energy density between 3 and 4 J cm−2; 10 Hz pulsed laser frequency; pulse duration of 20 ns [30]
+(2018)
+CVD AlN film on a Si substrate 70 nm ZnO (ALD) ZnO and graphite powders Ar and O2 750°C (Sample)
+950°C (Furnace) [31]
+(2023)
+ITO 1 mM ZAD (spin-coating) None Ar and O2 600°C, 10 min [22]
+(2021)
+Si/SiO2 wafers None ZnO and graphite powders Ar 270°C (Sample) 930°C (Furnace)
+100 min [32]
+(2021)
+Pt-coated Si wafer (p-type) None Bulk zinc wire Ar and O2 700°C, 1 min [33]
+(2021)
+Si/SiO2 substrates 450 nm ZnO (PLD) ZnO and carbon powders Ar and O2 850°C, 30 min [34]
+(2019)
+Glass 5 mM ZAD (drop-coating) Zinc Ar and acetone vapor 400 to 500°C (Sample)
+850°C (Furnace) 30 min [35]
+(2019)
+p-GaN/sapphire None ZnO and graphite powders Ar 1150°C, 45 min [36]
+(2020)
+MPATE Glass None Zinc powder Ar and H2O2 RT, 7 min [37]
+(2018)
+Table 1.
+Vapor-based synthesis approaches to produce 1D ZnO nanostructures.
+RF: radio frequency; ITO: indium tin oxide; AIN: aluminum nitride; PLD: pulsed laser deposition; ALD: atomic layer deposition; ZAD: zinc acetate dihydrate; p-GAN: p-type gallium nitride; RT: room temperature.
+2.1.1 Vapor-liquid-solid method
+Vapor-liquid-solid is a widely utilized method where a metal catalyst acts as a seed for the nanostructures’ growth, guiding the vapor phase precursor to solidify into the desired morphology on the catalyst surface [38].
+One-dimensional nanorods can be fabricated through a process known as the vapor phase method. This method produces vapor through chemical and gaseous reactions and evaporation. The targeted vapor undergoes rapid heating before slowly cooling on the substrate, forming 1D nanomaterials. Although the theory makes the procedure look straightforward, it must be done at extremely high temperatures of around 1000°C to evaporate the source materials, such as zinc or ZnO powder. It is essential to analyze this process’s additional reactions and breakdown [39]. You et al. reported the fabrication of vertically aligned ZnO nanowire arrays by the vapor phase transport approach to be employed as self-driven solar-blind photodetectors with superior sensitivity. This study used a mixture of ZnO and carbon powders as precursors that were heated at 1050°C for 20 min. The produced arrays were then homogeneously coated with 20 nm thick monoclinic gallium oxide (Ga2O3) through sputtering methods to form vertically aligned ZnO/Ga2O3 core/shell nanowire arrays [28]. Also in 2019, You et al. reported a similar process; however, before the powder evaporation, a thin 50 nm ZnO seed layer was deposited by radio frequency (RF) sputtering. Here, the evaporation of ZnO and graphite powders at 1050°C for 30 min produced nanowires of around 300 nm in diameter. Finally, a zinc tellurium (ZnTe) layer was grown as a shell on the ZnO nanorod array surface by RF sputtering, creating a self-powered photodetector that relied on the coupling between the photovoltaic and pyroelectric effects [6].
+2.1.2 Pulsed laser deposition
+Pulsed laser deposition of ZnO nanowires uses a femtosecond pulsed laser to ablate a ZnO target, creating a plume of material that subsequently condenses on a substrate to form nanowire structures [30]. It is worth noting that this process requires high temperatures (between 500 and 600°C) [30]. The femtosecond laser pulses enable precise control over the deposition process, offering advantages, such as high spatial resolution and minimal damage to the substrate. Zhang et al. reported the use of this approach to grow ZnO nanowires with good crystallinity and reasonably uniform diameters, which can be attributed to the homogeneity of femtosecond laser-produced precursor vapor in which micron-sized particulates are minimal [40].
+2.1.3 Chemical vapor deposition
+Chemical vapor deposition involves the controlled deposition of ZnO on a substrate through chemical reactions in the vapor phase [41]. It is a vapor route process frequently used to manufacture ZnO nanorods on horizontal tube furnace systems, where oxygen gas is required. Zinc [42] and ZnO powder [43] are typical precursors used in forming ZnO nanorods by CVD, where temperatures between 450 and 900°C or up to 1200°C (respectively) are required to perform the synthesis. Zinc vapor is deposited on the surface of the heated substrate and reacts with oxygen to form ZnO nanorods. Synthesis parameters, such as substrate type, vacuum pressure, type of carrier gas, and synthesis temperature, are essential factors affecting ZnO nanorods’ structural and piezoelectric properties [44]. Schaper et al. reported in 2021 the fabrication of a novel and advanced approach to directly grow ZnO nanowires on single-walled carbon nanotubes and graphene surfaces through successfully forming 1D-1D and 1D-2D (two-dimensional) heterostructure interfaces. In this study, a mixture of ZnO and graphite precursors was placed in a small quartz boat that was heated up to 930°C, while the samples were heated to 270°C, using only Argon [32]. Kolhelp et al. reported a similar method but with two modifications. An initial 70 nm ZnO seed layer was deposited by atomic layer deposition (ALD), and the nanostructures’ growth was performed employing a controlled oxygen flow. The procedure led to the formation of nanowires with lengths up to 12 µm [31]. Furthermore, Swathi et al. reported the fabrication of branched ZnO nanorods by adding a second step after the initial ZnO growth by CVD, in which zinc seeds were coated on the obtained nanorods through spin-coating [22]. The versatility of CVD is mirrored in the wide choice of precursors. In this scope, it is worth mentioning the synthesis of ZnO nanostructures using a bulk zinc wire precursor reported by Kim et al. [33].
+Metal-organic chemical vapor deposition (MOCVD) has been reported to grow ZnO nanorods using the free catalytic-agent process, with a temperature between 400 and 500°C, which is far from the CVD-based reported studies, carried out using higher temperatures [39].
+2.1.4 Microwave plasma-assisted thermal evaporation
+Although VLS, CVD, and PLD offer the possibility of carefully controlling the ZnO nanorods’ growth and tuning their properties, they require long processing times, high temperatures, and complex and high-cost equipment. In addition, catalysts and seed layers are essential for growing vertically aligned ZnO nanorods on substrates. Therefore, developing a simple, catalyst-free, fast, and economical approach to growing vertically aligned ZnO nanorods remains a significant challenge. In this scope, Thongsuksai et al. reported successful growth of vertically aligned ZnO nanorods on glass substrates by MPATE. The nanorods’ growth was carried out at room temperature using only zinc powder as the source material. The growth lasted 7 min, which is much faster than other methods and resulted in nanowires with diameters of 319 nm [37].
+2.2 Solution phase synthesis of ZnO nanostructures
+Solution phase syntheses are also called CBD and include approaches, such as emulsion methods, sol-gel, precipitation from saturated solutions of zinc salts, spray pyrolysis, and hydrothermal synthesis [4]. These wet chemical approaches offer the possibility of synthesizing ZnO without vacuum and at relatively low temperatures (around 80°C) [2] through simple, time- and cost-effective routes [1, 2, 4]. Moreover, they pose no limitation regarding substrate material and scalability [2, 3, 4]. The properties of the resulting material and the nanostructures’ distribution on the substrate can be tuned by controlling the growth parameters of different synthesis approaches, including growth time and temperature or nature and concentration of precursors [4, 25].
+Being 1D ZnO nanostructures vastly explored materials, several synthesis techniques, such as electrochemical and sonochemical methods, ultrasonic spray pyrolysis, and hydrothermal synthesis, have been developed and optimized over the years. Table 2 presents relevant information regarding some synthesis procedures of nanorods and nanowires reported in the literature.
+Synthesis technique Substrate Seed layer Growth Ref
+Deposition techniques Conditions Solution Conditions
+Anodization Zinc foil Non-applicable Non-applicable Zinc foil
+Electrolyte: KHCO3 (50 mM–230 mM) 5 to 15 V
+RT, 5 to 20 min [20]
+(2020)
+CBD synthesis FTO Sol-gel
+Spin-coating 0.5 M ZAD 0.081 M ZAD
+1.2 M NaOH
+PVP (5 wt%) 70°C, time up to 15 min [3]
+(2020)
+Si (100) wafer Sol-gel
+Dip-coating 375 mM ZAD
+375 mM ME 50 mM Zn(NO3)2·6H2O
+50 mM HMTA 95°C, 2 h [25]
+(2020)
+Glass Dip-coating 0.22 M ZAD
+0.1 M PVA
+NH3 (pH between 7 and 8) 0.05 M Zn(NO3)2·6H2O
+0.05 M HMTA 90°C for 2, 4, and 6 h [14]
+(2020)
+Stainless steel Drop-casting 0.5 mM ZAD 0.1 M Zn(NO3)2·6H2O
+0.1 M HMTA
+NH4OH (pH ≈ 6) 70°C, 3 to 6 h [23]
+(2020)
+Glass DC magnetron reactive sputtering Non-applicable Zn(NO3)2·6H2O
+HMTA
+(equimolar) 97°C, 4 h [45]
+(2019)
+Electrodeposition ITO-coated glass None None 5 × 10−3 M ZnCl2
+5 × 10−3 M H2O2
+0.1 M KCl −1.0 V
+65°C, 40 min [15]
+(2019)
+FTO-coated glass Sol-gel
+Spin-coating 0.3 M ZAD
+0.3 M ME 0.01 M Zn(NO3)2·6H2O
+0.1 M KCl
+HMTA (0 to 9 mM) −1.3 V
+70°C, 10 min [17]
+(2018)
+Au electrodes of AT-cut QCM J = 0.012
+mA cm−2
+2000 s 5 mM ZnCI2
+0.1 M KCI 1.5 to 12 mM KCl
+1.25 to 10 mM ZnCl2 - 0.9 V
+80°C, 3000 s [21]
+(2020)
+ITO-coated glass None None 5 × 10−4 M ZnCl2
+0.1 M KCl −0.9 to −1.1 V
+80°C, 4600 and 9700 s [19]
+(2018)
+FTO-coated glass −1.3 V
+80°C, 10 to 90 s 1 mM Zn(NO3)2·6H2O
+0.1 M NaNO3
+1 mM HMTA
+HNO3 (pH ≈ 6) 1 mM Zn(NO3)2·6H2O
+0.1 M NaNO3
+1 mM HMTA
+HNO3 (pH ≈ 6) −1.0 V
+80°C, 30 min [46]
+(2020)
+Hydrothermal synthesis ITO-coated glass Sol-gel
+Spin-coating 0.1 M ZAD
+0.1 M ME 25 mM ZAD
+25 mM HMTA 95°C, 24 h [13]
+(2020)
+ITO Sol-gel
+Dip-coating 0.1 to 0.7 M ZAD
+0.1 to 0.7 M Et3N Zn(NO3)2·6H2O
+HMTA
+(equimolar) 90°C, 2 h [12]
+(2020)
+(100) Si wafer Spray pyrolysis 50 mM ZAD 25 mM Zn(NO3)2·6H2O
+25 mM HMTA
+(molar ratios of 3:1, 2:1, 1:1, 1:2, and 1:3) 85°C, 180 min [2]
+(2018)
+ITO Sol-gel
+Dip-coating 0.2 M ZAD
+0.2 M DE 0.04 M Zn(NO3)2·6H2O
+0.04 M HMTA 90–130°C, 4 h [18]
+(2018)
+Au precoated glass Sol-gel
+Spin-coating 157 g L−1 ZAD
+4% ME 0.03 M Zn(NO3)2·6H2O
+0.05 M HMTA 80°C, 5 h [8]
+(2020)
+Glass Sol-gel
+Spin-coating 1 M ZAD
+0.395 M Et3N 0.01 M Zn(NO3)2·6H2O
+0.01 M HMTA 90°C, 4 h [27]
+(2020)
+Glass Sol-gel
+Spin-coating 0.05 M ZAD
+0.06 M DE
+ZnO nanorods (up to 0.01 g) 0.001 M Zn(NO3)2·6H2O
+0.1 M NaOH 70°C, 90 min [5]
+(2019)
+Flexible carbon cloth None None 16 mM Zn(NO3)2·6H2O or 25 mM ZnCl2 or 10 mM ZAD
+16 mM HMTA
+1 mL of ammonia (25%) 105°C, 20 h [24]
+(2019)
+Sonochemical method Glass RF sputtering Non-applicable 0.05 M Zn(NO3)2·6H2O
+0.05 M HMTA 2 h at 40% amplitude
+(maximum of 27 W) [7]
+(2019)
+Ultrasonic spray pyrolysis Glass Ultrasonic spray pyrolysis 0.5 M ZAD
+0.5 M ME 0.1 M Zn(NO3)2·6H2O
+0.1 M HMTA 400°C, 2 min [11]
+(2023)
+Glass Ultrasonic spray pyrolysis 0.5 M ZAD
+0.5 M ME 0.5 M Zn(NO3)2·6H2O
+0.5 M HMTA 400°C, 2 min [26]
+(2023)
+Table 2.
+Solution-based synthesis approaches to produce 1D ZnO nanostructures.
+ZAD: zinc acetate dihydrate; ME: monoethanolamine; ITO: Indium tin oxide; DE: diethanolamine; FTO: fluorine-doped tin oxide; DC: direct current; HMTA: hexamethylenetetramine; Et3N: trimethylamine; PVA: polyvinyl alcohol; PVP: polyvinylpyrrolidone; AT-cut QCM: AT-cut quartz crystal microbalance; RT: room temperature.
+2.2.1 Electrochemical anodization
+Zinc oxide nanowires can be synthesized through electrochemical anodization of a zinc foil. A two-electrode electrochemical cell with a graphite rod as a counter electrode and an electrolyte is required for the synthesis. The working electrode is zinc foil that acts as a source of zinc cations. At the beginning of the reaction, the current reaches maximum values, as the resistance offered by the zinc foil is very low. As the reaction continues, the current decreases due to the formation of an oxide layer.
+Tantray and Shah produced nanowires with diameters of around 99 nm at room temperature, under an applied potential between 5 and 15 V, for different periods of time (5–20 min) via electrochemical anodization. Anodization time and temperature, electrolyte characteristics (nature and concentration), and applied voltage were reported to influence the properties of the resulting nanowire films, which determined the final samples’ optoelectric properties [20].
+2.2.2 Electrodeposition
+Nanostructures can be synthesized on conductive substrates at atmospheric pressure and low temperature without substrate dimension limitations using electrodeposition [19, 46]. Furthermore, a high growth rate can be achieved using this simple and cost-effective technique [46].
+Generally, the electrochemical growth of ZnO nanorods is carried out in an electrolyte with dissolved oxygen [19]. This electrochemical-assisted growth depends on the electroreduction of nitrate and molecular oxygen [17]. The oxygen and nitrate reduction reactions form hydroxyl radicals, which react with zinc cations, forming zinc hydroxide that later produces ZnO when the temperature is adequate (at least 70°C) [17, 46]. In general, pure and highly crystalline phases can be obtained without posttreatment [46]. It is important to note that different ZnO morphologies can be synthesized by tuning the growth solution concentration and the deposition potential of the electrochemical process, as these parameters condition the nitrate reduction reaction and the subsequent formation of hydroxyl radicals [17] whose origin has also been proposed to derive from hydrogen peroxide reduction [15]. A metal catalyst or templates can also be used to tune the nanostructures’ morphology [46].
+The seed layer features have also proven fundamental in determining the properties of the synthesized nanorod arrays, such as diameter, morphology, and density. Additionally, increasing the electrodeposition time for producing a seed layer on fluorine-doped tin oxide (FTO) substrates affected the nanostructures’ crystallinity. It also led to a decrease in their diameter and an increase in the nanorods’ density due to a higher number of nucleation sites [46].
+Marimuthu et al. reported the synthesis of ZnO nanostructures (agglomerated flowers and rods) without metallic zinc phase by a potentiostatic method (−1.3 V) using a 0.01 M zinc nitrate hexahydrate and 0.1 M potassium chloride solution to which hexamethylenetetramine (HMTA, 9 mM) was added. The results underlined HMTA’s essential role in determining the crystallinity of the produced nanostructures [17].
+Yang’s work highlighted the importance of the voltage used in the electrochemical process on the ZnO properties [19]. The electrodeposition-assisted growth of ZnO nanorods on indium tin oxide (ITO)-coated glass was performed by a potentiostatic method at three different potentials (−0.9, −1.0, and −1.1 V (saturated calomel electrode (SCE)). Although the dimensions of the ZnO nanostructures were similar for the three tested voltage values, their density and, consequently, the surface area decreased with decreasing deposition potential. Moreover, at −1.1 V (SCE), the nanorods’ growth was random and unordered. The aligned growth along the c-axis was promoted only during syntheses at −0.9 and −1.0 V (SCE). These observations were pointed to be associated with the formation of a zinc hydroxide depletion layer near the interface between the substrate and the electrolyte, which limited the supply of zinc ions and consequently hindered the nanorods’ growth [19].
+2.2.3 Sonochemical synthesis
+Sonochemical synthesis is a simple and cost-effective approach for producing nanostructures with a uniform size distribution, high surface area, and purity [7]. Hammed et al. reported the synthesis of ZnO nanostructures using this approach. During this process, ultrasounds are applied to the growth solution through acoustic cavitation, creating specific conditions of high temperature and pressure (up to 5000 K and 1000 atm) where ZnO can be formed. The underlying reactions include zinc precursor decomposition and subsequent reaction with hydroxyl radicals, leading to the formation of ZnO. Nanorods with 529 and 668 nm lengths were grown on glass substrates based on this approach by using a zinc nitrate and HMTA equimolar growth solution [7].
+2.2.4 Ultrasonic spray pyrolysis
+Ultrasonic spray pyrolysis is a valuable alternative for the fast synthesis of ZnO nanostructures. During this process, films are produced by spraying a precursor solution onto a heated substrate [26]. This technique is a time- and cost-effective approach for producing nanostructures on large areas without resorting to expensive apparatus [11, 26]. By tuning the deposition parameters, the film growth kinetics can be tailored according to the intended application [26]. Reports on the ultrasonic spray pyrolysis growth of ZnO nanorods with lengths between 0.9 and 1.45 μm and diameters ranging from 20 to 70 nm on glass substrates have already been presented in the literature [11, 26]. Although the synthesis is fast (2 min), high temperatures (around 400°C) are required for the crystallization of the precursors [11, 26].
+2.2.5 Hydrothermal synthesis
+Hydrothermal synthesis is the most used technique to synthesize ZnO nanostructures due to its cost-effectiveness, simplicity [8, 9], and environmental friendliness [9]. Besides, the synthesis can be carried out at relatively low growth temperatures of at least 100°C [5, 7, 8].
+During a hydrothermal synthesis, the thermal decomposition of the precursors and, subsequently, of the newly formed intermediate products takes place [2, 5]. Briefly, the precursors decompose, originating zinc cations and ammonia (NH3). Then, the latter reacts with water, producing hydroxyl radicals that react with zinc cations to form zinc hydroxide (Zn(OH)2). Zinc hydroxide, in turn, dehydrates due to increasing temperature, forming ZnO crystals [2, 5]. Since the chemical principles leading to the formation of ZnO are similar for different precursors, as an example, the reactions leading to the formation of ZnO from zinc acetate and HMTA are presented next:
+(CH2)6N4+6H2O↔6HCHO+4NH3
+E1
+Zn(CH3COO)2⋅2H2O↔Zn2++2CH3COO-+2H2O
+E2
+NH3+H2O↔NH4++2OH-
+E3
+Zn2++2OH-↔Zn(OH)2
+E4
+Zn(OH)2 Δ↔  ZnO+H2O
+E5
+The growth rate of each crystal plane is as follows: v(0001) > v(0111) > v(0110) > v(0001). Since v(0001) is the highest, the ZnO nanostructures grow along this direction [2, 5].
+Similarly to other CBD approaches, the hydrothermal synthesis conditions, such as synthesis time and temperature, precursors’ nature and concentration, and the characteristics of the seed layer (thickness and orientation), strongly influence the properties of the resulting nanostructures [2, 7, 9]. For example, the aspect ratio of hydrothermally synthesized nanostructures can be tuned by controlling the growth kinetics [4].
+Several research groups have investigated the role of the hydrothermal synthesis parameters in the properties of the produced nanostructures. Remarks regarding the importance of the seed layer properties, the growth solution composition, and synthesis time and temperature will be presented next. Given that the controlled growth of 1D nanostructures has become a central research focus, an innovative alternative for density-controlled growth will also be described.
+2.2.5.1 Seed layer properties
+The crystallographic surface quality of the substrate influences the growth of ZnO nanorods through CBD, i.e., the properties of the substrate determine the lattice mismatch between this material and ZnO, which creates structural defects that hinder the growth of high-quality ZnO nanostructures [4, 7, 25]. One of two approaches can be followed to minimize this mismatch: use of a single crystalline substrate (gallium nitride, alumina, or ZnO) with a heteroepitaxial ZnO film or resort to non-epitaxial substrates coated with a seed layer. Single crystalline substrates are expensive, so the seed layer approach is the most explored [4, 25].
+The deposition of a seed layer is fundamental to the growth of vertically aligned ZnO nanostructures, which encompasses three steps: the deposition of a seed layer followed by nucleation and growth phases [1, 7]. The seed layer decreases the interfacial mismatch between ZnO and the substrate [5, 7]. As such, this layer provides nucleation sites and thus reduces the thermodynamic barrier to crystallization [1, 2].
+Several techniques have proven efficient in depositing seed layers for the subsequent growth of aligned ZnO nanostructures [1, 17]. These approaches include physical vapor methods, such as PLD [47], sputtering [48], and thermal evaporation and wet chemical procedures, including sol-gel/spin-coating [49] and electrochemical deposition [17].
+It is worth mentioning that the properties of the seed layer influence those of hydrothermally synthesized ZnO nanostructures. The seed layer’s thickness, orientation, and crystallinity determine the aspect ratio, crystal structure, crystallinity, optical properties, alignment, and density of ZnO nanostructures [7, 12, 50]. In particular, the concentration of the seed layer was reported to improve the density of ZnO nanorods, leading to a decrease in their diameter [51].
+The growth of vertically aligned ZnO nanorods requires high-quality seed layers [4]. In this scope, Basinova et al. studied changes in morphology and crystallinity caused by the seed layer preheating and annealing. Changes in these two properties influenced the vertical alignment of the ZnO nanorods grown on silicon substrates where zinc acetate seed layers were deposited via dip-coating. The dip-coating was repeated 3 times, and the preheating step was performed after each cycle at temperatures between 300 and 400°C. Higher temperatures, besides degrading by-products of the deposited xerogel, also promoted the coalescence of the seed layer crystallites, which stimulated the vertical alignment of the nanostructures grown by CBD as the seed layer presented lower roughness and porosity. After the three dip-coating cycles, an annealing step was carried out to decrease the number of structural defects and promote ZnO crystallization. This step was performed in an argon atmosphere and in the air at 600 and 800°C. The annealing in air improved the properties of the seed layer by decreasing its roughness [4].
+2.2.5.2 Growth solution composition
+The nature and concentration of the precursors used for the synthesis of ZnO nanostructures have a vital role to play in the growth kinetics, i.e., varying the precursors’ concentration alters the properties of the hydrothermally synthesized ZnO nanostructures [2].
+Generally, two precursors are required in a ZnO hydrothermal synthesis: one to provide zinc cations and the other to supply hydroxyl radicals. The zinc precursor (such as zinc nitrate, chloride, sulfate, or acetate) provides cations that will integrate ZnO nanostructures [1]. On the other hand, the non-polar chelating agent HMTA is often used as the pH buffer [2], as it functions as a hydroxyl radicals’ source [14, 46], and it also acts as a complexing agent [17]. HMTA hydrolyzes at elevated temperatures [46] and preferentially attaches to the non-polar faces of ZnO crystals, promoting the nanostructures’ growth along the c-axis since radial growth is hindered [1, 2]. As such, a higher concentration of HMTA leads to longer and thinner 1D nanostructures, whereas the reverse is observed when HMTA concentration is lower compared to zinc concentration [2]. These morphological features will influence other properties, such as the nanostructures’ optical properties [2].
+Gill et al. studied the influence of ammonia addition on the properties of hydrothermally synthesized ZnO nanorods on ITO glass substrates. Ammonia addition promoted the nanostructures’ growth along the c-axis since this species reacts with zinc cations, forming complexes such as Zn(NH3)2+ and Zn(NH3)32+. These complexes increase the nanorods’ density and stimulate their growth as their solubility in water is higher than that of zinc hydroxide, translating into a decreased tendency to precipitate [13].
+The solvent properties, namely its polarity, also influence the hydrothermal synthesis growth kinetics, as depending on the solvent’s overall charge, its molecules attach to different crystal facets and can act as structure-directing agents [52].
+Several additives can be added to the growth solution to promote the formation of the intended ZnO crystal morphology. In this scope, polymeric surfactants such as poly(vinyl alcohol) have been proven to interact with zinc cations, producing zinc hydroxide, which is then confined in the polymer’s structure. Although heating leads to polymer decomposition, carbon backbone grids with ZnO nanoparticles can stay in solution, leading to the growth of aligned nanorod arrays along the c-axis [14].
+2.2.5.3 Synthesis time and temperature
+The variation of the hydrothermal synthesis time has also been reported to influence ZnO nanorods’ properties [3, 18]. A study of the impact of the reaction time proved that longer nanorods could be produced by increasing the synthesis duration [3]. In this work, a zinc acetate seed layer was primarily deposited on FTO substrates through spin-coating. Afterward, syntheses with different durations (up to 15 min) were performed using a zinc acetate, sodium hydroxide, and polyvinylpyrrolidone growth solution. Nanostructures with lengths between 300 and 1500 nm were obtained [3].
+The growth of ZnO nanorods at several temperatures and at different times on ITO glass precoated with a zinc acetate layer through dip-coating has also been reported [18]. First, the syntheses were performed at 120°C with variable durations (1–4 h), and the results revealed a band gap decrease with increasing synthesis time (3.24 and 3.13 eV, for 1 and 4 h synthesis time). Then, the temperature was varied from 90 to 130°C, and the results indicate that a 130°C synthesis temperature might lead to the vaporization of zinc nitrate hexahydrate, which could inhibit the nanorods’ growth. As such, in the study mentioned above, a temperature of 120°C and a synthesis duration of 4 h were considered optimal as they maximized the nanorods’ length, leading to improved photoresponse [18].
+2.2.5.4 Filling ratio
+Efafi and colleagues presented a study on the influence of the filling volume on the properties of ZnO nanorods grown on glass substrates. Samples were prepared by filling 25, 50, and 75% of an autoclave volume with a zinc nitrate and HMTA growth solution. The samples resulting from the synthesis with the highest filling percentage presented an increased number of charge carriers and reduced band gap energy. Moreover, these samples’ XRD patterns presented an enhanced intensity of the (002) peak, pointing to a higher growth along the c-axis. Additionally, the ZnO nanorods produced with the highest solution volume demonstrated higher density and improved alignment, which are attributed to the higher pressure and, consequently, temperature inside the autoclave (PV = nRT) [27].
+2.2.5.5 Controlled growth-patterning
+Chalangar and co-workers proposed an approach to grow density-controlled ZnO nanorod arrays on silicon substrates. First, a zinc acetate seed layer was deposited on the substrate through dip-coating, followed by the deposition of a poly(methyl methacrylate) sacrificial layer and a photoresist film. Then, the samples were covered with poly(diallyl dimethylammonium) to promote the electrostatic adhesion of polystyrene nanobeads. These nanobeads were posteriorly removed, creating nanoholes where ZnO nanorods were selectively hydrothermally grown. Nanobeads with different sizes were tested: while smaller beads led to heterogeneous growth, larger ones caused the growth of star-shaped structures and ZnO nanorods. The reported results indicate that choosing an appropriate nanohole size makes it possible to grow a single aligned ZnO nanorod on each hole [25].
+Having in mind the influence of the hydrothermal synthesis parameters on the properties of the synthesized materials, in this work, a thorough study was carried out on the impact of seed layer properties and synthesis time and temperature on the morphological features of nanorod arrays grown on glass substrates by microwave-assisted hydrothermal synthesis. The length, diameter, aspect ratio, and density of nanorods synthesized under different conditions were estimated in order to establish a correlation between the synthesis conditions and each of these features. Therefore, the study carried out in this work becomes an essential tool when producing ZnO nanostructures by microwave-assisted hydrothermal synthesis since it presents itself as a guide of synthesis conditions for obtaining nanostructures with morphological features suited to the intended application.
+Advertisement
+3. Synthesis and characterization of aligned ZnO nanorods grown on glass substrates by microwave-assisted hydrothermal synthesis
+3.1 Materials and methods
+At CENIMAT, ZnO nanorod arrays were synthesized on Corning Eagle XG glass (Goodfellow, Cambridge, United Kingdom) by microwave-assisted hydrothermal synthesis. Prior to the nanostructures’ growth, the substrate was coated with a seed layer by RF magnetron sputtering in an AJA ATC-1300F system without intentional substrate heating. A ceramic oxide target of ZnO supplied by Alineason Materials Technology GmbH, with a purity of 99.99%, was used for the deposition. First, the chamber was evacuated to a base pressure of 10−6 Torr, and then the process was performed with a power density of 4.2 W cm−2 and a pressure of 2.3 mTorr under an argon and oxygen atmosphere. The target and substrate were spaced by 18 cm.
+After uniformly coating the Corning glass with the seed layer, ZnO nanorod arrays were synthesized by hydrothermal synthesis using a Discover SP Microwave Reaction System from CEM. For the ZnO nanorods growth, an equimolar (25 mM) aqueous mixture was prepared by combining zinc nitrate hexahydrate (Zn(NO3)2·6H2O; 98%; CAS: 10196-18-6) and HMTA ((C6H12N4)2; 99%; CAS: 100-97-0), both from Sigma-Aldrich. Before the synthesis, 25 mL of this solution was transferred to a 35 mL Pyrex vessel, and then, the substrate (25 × 12.5 mm) was placed at an angle against the inside vessel wall with the seed layer facing down. Different synthesis durations (15, 30, or 60 min) and temperatures (80, 100, or 120°C) were tested. A maximum pressure of 280 psi and a power of 100 W were kept for all syntheses. After each synthesis, the substrates were cleaned with deionized water and isopropyl alcohol and dried with nitrogen.
+Ultraviolet/ozone (UVO) treatment with different durations (up to 30 min) was performed on the seed layer before the hydrothermal synthesis to analyze possible changes in this layer and the resulting nanostructures. The treatment was performed using a Novascan system equipped with two ultraviolet (UV) lamps with 185 nm and 254 nm wavelengths. The distance between the substrates and UV lamps was kept at 10 cm.
+The morphological characterization of the seed layers and the ZnO nanorods was done by scanning electron microscopy (SEM) using either a Carl Zeiss AURIGA CrossBeam Workstation instrument or a Hitachi Regulus 8220 Scanning Electron Microscope. The nanorods’ features, such as length, diameter, and density, were estimated using the ImageJ software and the SEM images. It is important to highlight that the nanorod density for each sample was calculated on a 0.2 μm2 area from the SEM images. A Dektak XT stylus profilometer was used to determine seed layer thicknesses.
+3.2 Results and discussion
+3.2.1 ZnO seed layer thickness
+The deposition of the ZnO seed layer on Corning glass was carried out by RF magnetron sputtering. A growth rate of 1.49 nm min−1 was estimated based on the data obtained by profilometry. Seed layers with 50, 100, and 400 nm thicknesses were produced using a 33, 67, and 268 min deposition time, respectively. Figure 2 shows the secondary electrons (SE) scanning electron microscopy images of the surface morphology of the seed layers.
+Figure 2.
+SE mode SEM image of surface morphology of the 50, 100, and 400 nm ZnO seed layers (power = 85 W).
+Considering the images presented in Figure 2, it can be concluded that an increase in the seed layer thickness causes the coalescence of the sputtered seed layer particles, as observed in the 400 nm ZnO layer image. This coalescence effect has been reported Ghayour et al. [53], where a regular grain distribution with a spherical shape was observed to grow in size with increasing deposition time. A decrease in deposition time, reaching 100 nm thickness, leads to a regular grain distribution, forming a smoother surface. Discontinuities are observed in the 50 nm seed layer surface.
+Zinc oxide nanorods were successfully grown from the seed layers with different thicknesses by a 30 min and 100°C hydrothermal synthesis. Before the synthesis, the seed layer underwent a 5 min UVO treatment to promote growth along the c-axis [54]. The SEM images of the obtained samples are presented in Figure 3.
+Figure 3.
+SE mode SEM image of ZnO nanorods produced by hydrothermal synthesis from seed layers with different thicknesses (50, 100, and 400 nm).
+As the seed layer thickness duplicates from 50 to 100 nm, an increase in the nanorods’ length can be observed (from 244 to 317 nm), as depicted in Table 3, presented at the end of the chapter. Upon increasing the seed layer thickness to 400 nm, a decrease in the nanorods’ mean length (122 nm) is observed. This decrease is associated with the heterogeneity of the seed layer, which hinders the nanorods’ growth. As such, regarding the length of the produced 1D nanostructures, the highest value was reached for a 100 nm seed layer.
+Feature NRs density (NRs μm−2) NRs mean diameter (nm) NRs mean length (nm) NRs aspect ratio
+Seed layer thickness 50 nm 158 ± 8 45 ± 10 244 ± 54 5
+100 nm 754 ± 38 37 ± 9 317 ± 71 8
+400 nm 533 ± 26 37 ± 8 122 ± 68 3
+Seed layer UVO treatment time 0 min 344 ± 18 50 ± 11 187 ± 28 4
+5 min 754 ± 38 37 ± 9 317 ± 71 8
+15 min 524 ± 27 38 ± 9 225 ± 32 6
+30 min 437 ± 22 44 ± 10 184 ± 41 4
+Synthesis time 15 min 375 ± 19 48 ± 17 220 ± 31 5
+30 min 754 ± 38 37 ± 9 317 ± 71 8
+60 min 435 ± 22 35 ± 4 395 ± 63 11
+Synthesis temperature 80°C 438 ± 22 42 ± 6 220 ± 42 5
+100°C 754 ± 38 37 ± 9 317 ± 71 8
+120°C 443 ± 22 56 ± 22 153 ± 43 3
+Table 3.
+Summary of the obtained ZnO nanorods’ morphological features according to the synthesis conditions.
+It is well known that the diameter of ZnO nanorods strongly depends on the size of the seed layer particles. With an increase in seed layer thickness, the size of its grains and particles increases, which is expected to cause an increase in the nanorods’ diameter as this layer acts as a template for their growth [55]. However, no significant differences were detected in the diameter of the nanorods (about 40 nm) produced from the different seed layers, which might be associated with the effect of the UVO treatment in stimulating the nanostructures’ growth.
+The nanorods’ density is expected to decrease with increasing seed layer thickness as the number of nucleation sites on the surface of this layer decreases [56]. As such, as expected, a decrease in the seed layer thickness from 400 to 100 nm prompted an increase in nanorod density from 533 to 754 NRs μm−2. A lower nanorod density (306 NRs μm−2) was obtained when the seed layer thickness was further reduced to 50 nm. The decrease in nanorod density can be ascribed to a lower number of nucleation sites, i.e., thinning of the seed layer might result in an uneven or discontinuous surface, which hinders the vertical growth of ZnO nanorods, as shown in Figure 2.
+It is worth mentioning that the inverse relation between nanorod density and diameter for samples produced from seed layers with different thicknesses listed in Table 3 was similar to the results reported by Song et al. [57].
+3.2.2 UVO treatment to the seed layer prior to the synthesis
+Before the hydrothermal growth of ZnO nanorods, a UVO treatment was performed on 100 nm thick seed layers to induce polarity in their surface and consequently promote the nanorods’ vertical alignment [54]. The ZnO nanorods successfully grown from seed layers that underwent 5, 15, and 30 min UVO treatments and without this treatment are presented in Figure 4. The syntheses were carried out at 100°C for 30 min.
+Figure 4.
+SE mode SEM image of ZnO nanorods produced by hydrothermal synthesis from 100 nm seed layers that underwent UVO treatments with different durations (0, 5, 15, and 30 min).
+By exposing the ZnO seed layer to UV radiation, the oxygen adsorbed to its surface will decompose, and the surface will become more polar, promoting the growth of ZnO nanorods with a direction perpendicular to the seed layer surface [54]. The UVO treatment stimulated growth was observed in the prepared samples as the nanorods resulting from a seed layer without UVO treatment presented a mean length of 187 nm, whereas the nanostructures grown from a layer that underwent 5 and 15 min treatments exhibited higher lengths of 317 and 225 nm, respectively, as listed in Table 3. In turn, the length of the nanorods produced from a seed layer that underwent a 30 min UVO treatment was similar to that of the nanostructures produced from the sample that received no treatment. As such, a 5 min UVO treatment was considered the optimal condition to maximize the nanorods’ length.
+Changes in aspect ratio were also observed, as the nanorods’ diameter decreased from 50 (no UVO treatment) to around 37 nm for a UVO treatment duration of up to 15 min. Further increasing the UVO treatment duration led to the formation of nanorods with diameters of approximately 44 nm. A similar trend was reported by Song et al.[57].
+The UVO treatment also influenced the density of nanorod arrays. The samples grown from a 5 min UVO-treated layer presented a density twice higher than that of the nanostructures produced from the seed layer without UVO treatment (from 344 to 754 NRs μm−2). Increasing the UVO treatment duration from 5 to 15 min caused a decrease in the nanorods’ density to 524 NRs μm−2.
+As can be seen from the studies above, the duration of UVO treatment is not proportionally related to these features, indicating that the UVO treatment’s dynamics might change for longer durations. Thus, the UV radiation penetration depth might increase, leading to the effects of the UVO treatment being more significant in depth than at the surface of the seed layer. Moreover, the possible increase in penetration depth also allows the reabsorption of oxygen molecules on the seed layer surface, which lowers the induced polarization of this layer by the UVO treatment.
+3.2.3 Synthesis time
+Zinc oxide nanorods were grown at 100°C in syntheses whose duration varied between 15 and 60 min. A 100 nm seed layer, which underwent a 5 min UVO treatment, was used to grow the nanostructures presented in Figure 5.
+Figure 5.
+SE mode SEM image of ZnO nanorods produced by hydrothermal synthesis with different durations (15, 30, and 60 min) from a 100 nm seed layer.
+The average diameter of the ZnO nanorods decreased from 48 nm to 35 nm for increasing synthesis time (15–60 min), resulting in a continuous increase in the nanorods’ aspect ratio, as presented in Table 3.
+The nanorods’ mean length and density values for each synthesis duration are presented in Figure 6.
+Figure 6.
+Plot representing the evolution of ZnO nanorods’ average density (black) and length (blue) as a function of synthesis time.
+The nanorods’ mean length increases with increasing synthesis time, i.e., nanorods resulting from a 15 min synthesis present a 220 nm length. In contrast, nanostructures resulting from a 60 min synthesis have a 395 nm length.
+The data presented in Figure 6 depict a decrease in growth per minute, directly impacting the nanorods’ density. For synthesis durations of up to 15 min, the growth rate presents a value of around 15 nm min−1. However, for intervals between 15 and 30 min, the growth rate is about 7 nm min−1, and a nanorod density increase from 375 to 754 NRs μm−2 is detected. Finally, a decrease in nanorod density, from 754 to 435 NRs μm−2, was observed when the synthesis time was increased from 30 to 60 min. This decrease in density and the continuous increase in the nanorods’ mean length with increasing synthesis time can be attributed to the Ostwald ripening process. During this process, small nanorods dissolve, and larger ones keep growing until an equilibrium is reached [58].
+3.2.4 Synthesis temperature
+The ZnO nanorods’ growth is a thermo-activated process, so the temperature significantly conditions the nanorods’ formation and growth along the c-axis [59]. In this scope, ZnO nanorods were grown at different temperatures of 80, 100, and 120°C from a 100 nm seed layer that underwent a 5 min UVO treatment prior to the synthesis. The synthesis duration was fixed at 30 min. The SEM images of the nanorods produced at different temperatures are presented in Figure 7.
+Figure 7.
+SE mode SEM images of ZnO nanorods produced by hydrothermal synthesis at several temperatures (80, 100, and 120°C) for 30 min.
+The image of the nanorods grown at 120°C shows the detachment of the seed layer from the substrate in specific areas, which hinders the nanorods’ growth. In turn, when the synthesis temperature was decreased from 120 to 100°C, the nanorods’ length duplicated from 153 to 317 nm (Table 3), with a growth rate of around 8 nm°C−1. However, when the temperature was further decreased to 80°C, the nanorods’ mean length decreased to 220 nm, which was associated with the lower energy level of the reaction medium derived from the lower temperature. Regarding the growth rate, a value of about 5 nm°C−1 is reached for synthesis temperatures between 80 and 100°C.
+The nanorods’ diameter presented a minimum value for a 100°C temperature, which would be expected since this sample presents nanostructures with the highest length. By varying the synthesis temperature, the energy state of the reaction medium is controlled, which promotes or hinders the growth of the nanorods along the c-axis [14]. In turn, higher growth in the direction normal to the substrate tends to lead to a decrease in the nanostructures’ diameter.
+The nanorod density increased when the synthesis temperature was varied between 80 and 100°C. However, when the temperature was further increased, the nanorods’ density decreased, which is probably associated with the seed layer detachment from the Corning glass substrate.
+The obtained results establish a clear relation between the nanorods’ morphological features and the hydrothermal synthesis conditions. As such, the data presented in Table 3 can serve as guidelines for future work where tailoring the nanostructures’ properties according to the application in question might be needed since maximizing different parameters such as surface area or density might be fundamental depending on the research area.
+Advertisement
+4. Conclusions
+Zinc oxide (ZnO) nanostructures present non-toxicity, which, jointly with their other properties such as piezoelectricity, high stability, and mechanical strength, make them attractive materials for use in several applications such as water splitting, sensing, or energy harvesting and storage. Among the several nanostructures, one-dimensional (1D) materials have been widely used due to their properties, such as improved optical performance and high surface-to-volume ratio, desirable features in electronic and optoelectronics. Vapor- and solution-based synthesis approaches have been proposed to grow these nanostructures on different substrates. Vapor phase approaches, such as VLS, PLD, CVD, and MPATE, offer precise control of the nanostructures’ growth and allow the careful tuning of their properties, a valuable tool for (opto)electronic and sensing applications. On the other hand, solution phase syntheses, such as spray pyrolysis, emulsion methods, and hydrothermal synthesis, offer the possibility of producing ZnO through time- and cost-effective approaches, where ZnO properties can be tailored by controlling the reaction kinetics. Therefore, the method for synthesizing ZnO nanostructures should be chosen depending on the final application and the available equipment.
+Since hydrothermal synthesis is a simple, cost- and time-effective method, it is the most used for growing ZnO nanorods on substrates. In this scope, a study was conducted on the influence of various parameters on the morphological properties of 1D ZnO nanostructures. In this work, ZnO nanorods were grown from seed layers with different thicknesses, which underwent an ultraviolet/ozone treatment prior to the hydrothermal synthesis. Synthesis time and temperature were also varied. Nanorods with lengths up to 317 nm were obtained using Corning glass precoated with a 100 nm seed layer that underwent a 5 min ultraviolet/ozone treatment to induce polarization on its surface. The aligned nanorods with improved aspect ratio were synthesized at 100°C for 60 min. The highest nanorod density values were obtained in the same conditions but for a synthesis time of 30 min. Thus, the obtained data indicate that each parameter impacts the synthesized nanostructures’ properties. As such, the growth process details must be carefully selected depending on the final application aiming to optimize the nanostructures’ performance.
+The described results are the cornerstone for developing high-performance electronic three-dimensional (3D) devices and pressure sensors for monitoring human movements, as they provide a detailed report on the procedure to obtain nanorods with the desirable morphology, directly impacting the devices’ operation.
+Advertisement
+Acknowledgments
+This work was financed by national funds from FCT—Fundação para a Ciência e a Tecnologia, I.P., under the scope of the projects LA/P/0037/2020, UIDP/50025/2020 and UIDB/50025/2020 of the Associate Laboratory Institute of Nanostructures, Nanomodelling and Nanofabrication—i3N, and by the European Union’s Horizon 2020 Research and Innovation Programme under the EMERGE project (N° 101008701) and the SYNERGY project (N° 952169). M.M and M.C. acknowledge funding from FCT-MCTES, I.P., through the PhD Grants 2022.13806.BD and 2022.09516.BD.
+Advertisement
+Conflict of interest
+The authors declare no conflict of interest.
+INVEST IN YOUR HEALTH
+Ads By
+Women are Losing Weight Fast with this OTC Solution!
+Alpilean
+Hot Spring Books: The Theatre Of Magic (Now a Best Seller)
+Amazon Books
+No Dentures Needed! New Formula Repairs Teeth & Gums
+ProDentim
+Ridiculously Tasty Vegan Recipes From Scratch
+Plant Based Cook Book
+The Biggest Smile, Rejuvenated Gums & Better Breathe
+Prodentim
+Powerful Weight Loss Without a Prescription
+Alpilean
+References
+1.
+Abubakar S, Tan ST, Liew JYC, Talib ZA, Sivasubramanian R, Vaithilingam CA, et al. Controlled growth of semiconducting ZnO Nanorods for piezoelectric energy harvesting-based Nanogenerators. Nanomaterials. 2023;13(6):1025
+2.
+Angub MCM, Vergara CJT, Husay HAF, Salvador AA, Empizo MJF, Kawano K, et al. Hydrothermal growth of vertically aligned ZnO nanorods as potential scintillator materials for radiation detectors. Journal of Luminescence. 2018;203:427-435. Available from: https://linkinghub.elsevier.com/retrieve/pii/S002223131732135X
+3.
+Yun S, Guo T, Li Y, Gao X, Huang A, Kang L. Well-ordered vertically aligned ZnO nanorods arrays for high-performance perovskite solar cells. Materials Research Bulletin. 2020;130:110935. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0025540820308941
+4.
+Basinova N, Cernohorsky O, Grym J, Kucerova S, Faitova H, Yatskiv R, et al. Highly textured seed layers for the growth of vertically oriented ZnO Nanorods. Crystals. 2019;9(11):566. Available from: https://www.mdpi.com/2073-4352/9/11/566
+5.
+Rastialhosseini SMAA, Khayatian A, Shariatzadeh R, Almasi KM. Three-dimensional ZnO nanorods growth on ZnO nanorods seed layer for high responsivity UV photodetector. Applied Physics A: Materials Science & Processing. 2019;125(12):829. Available from: http://link.springer.com/10.1007/s00339-019-3123-6
+6.
+You D, Xu C, Zhang W, Zhao J, Qin F, Shi Z. Photovoltaic-pyroelectric effect coupled broadband photodetector in self-powered ZnO/ZnTe core/shell nanorod arrays. Nano Energy. 2019;62:310-318. Available from: https://linkinghub.elsevier.com/retrieve/pii/S2211285519304562
+7.
+Hammed NA, Aziz AA, Usman AI, Qaeed MA. The sonochemical synthesis of vertically aligned ZnO nanorods and their UV photodetection properties: Effect of ZnO buffer layer. Ultrasonics Sonochemistry. 2019;50:172-181. Available from: https://linkinghub.elsevier.com/retrieve/pii/S1350417718309271
+8.
+Zheng H, Jiang Y, Yang S, Zhang Y, Yan X, Hu J, et al. ZnO nanorods array as light absorption antenna for high-gain UV photodetectors. Journal of Alloys and Compounds. 2020;812:152158. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0925838819334048
+9.
+Kammel RS, Sabry RS. Effects of the aspect ratio of ZnO nanorods on the performance of piezoelectric nanogenerators. Journal of Science: Advanced Materials and Device. 2019;4(3):420-424. Available from: https://linkinghub.elsevier.com/retrieve/pii/S2468217919302102
+10.
+Han Y, Guo J, Luo Q , Ma C. solution-processable zinc oxide for printed photovoltaics: Progress, challenges, and prospect. Advanced Energy and Sustainability Research. 2023;4:2200179. DOI: 10.1002/aesr.202200179
+11.
+Çolak H, Karaköse E, Sungür Ç. Niobium doping effect on electrical and optical properties of ZnO nanorods produced by ultrasonic spray pyrolysis. Physica B: Condensed Matter. 2023;671:415455. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0921452623008220
+12.
+Gu P, Zhu X, Yang D. Vertically aligned ZnO nanorods arrays grown by chemical bath deposition for ultraviolet photodetectors with high response performance. Journal of Alloys and Compounds. 2020;815:152346. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0925838819335923
+13.
+Gill R, Ghosh S, Sharma A, Kumar D, Nguyen VH, Vo DVN, et al. Vertically aligned ZnO nanorods for photoelectrochemical water splitting application. Materials Letters. 2020;277:128295. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0167577X20310004
+14.
+Kardeş M, Öztürk K. Photocatalyst ZnO nanorod arrays on glass substrates: The critical role of seed layer in nanorod alignment and photocatalytic efficiencies. Chemical Engineering Communications. 2020;207(11):1522-1535. Available from: https://www.tandfonline.com/doi/full/10.1080/00986445.2019.1660651
+15.
+Henni A, Harfouche N, Karar A, Zerrouki D, Perrin FX, Rosei F. Synthesis of graphene–ZnO nanocomposites by a one-step electrochemical deposition for efficient photocatalytic degradation of organic pollutant. Solid State Sciences. 2019;98:106039. Available from: https://linkinghub.elsevier.com/retrieve/pii/S1293255819304698
+16.
+Heo YW, Norton DP, Tien LC, Kwon Y, Kang BS, Ren F, et al. ZnO nanowire growth and devices. Materials Science and Engineering: R: Reports. 2004;47(1-2):1-47. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0927796X04001135
+17.
+Marimuthu T, Anandhan N, Thangamuthu R. Electrochemical synthesis of one-dimensional ZnO nanostructures on ZnO seed layer for DSSC applications. Applied Surface Science. 2018;428:385-394. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0169433217327654
+18.
+Mohd Fudzi L, Zainal Z, Lim H, Chang SK, Holi A, Sarif@Mohd Ali M. Effect of temperature and growth time on vertically aligned ZnO Nanorods by simplified hydrothermal technique for Photoelectrochemical cells. Materials (Basel). 2018;11(5):704. Available from: http://www.mdpi.com/1996-1944/11/5/704
+19.
+Yang Y, Cheng YF. One-step facile preparation of ZnO nanorods as high-performance photoanodes for photoelectrochemical cathodic protection. Electrochimica Acta. 2018;276:311-318. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0013468618309915
+20.
+Mateen Tantray A, Shah MA. Photo electrochemical ability of dense and aligned ZnO nanowire arrays fabricated through electrochemical anodization. Chemical Physics Letters. 2020;747:137346. Available from: https://linkinghub.elsevier.com/retrieve/pii/S000926142030261X
+21.
+Alev O, Sarıca N, Özdemir O, Arslan LÇ, Büyükköse S, Öztürk ZZ. Cu-doped ZnO nanorods based QCM sensor for hazardous gases. Journal of Alloys and Compounds. 2020;826:154177 Available from: https://linkinghub.elsevier.com/retrieve/pii/S0925838820305405
+22.
+Swathi S, Babu ES, Yuvakkumar R, Ravi G, Chinnathambi A, Alharbi SA, et al. Branched and unbranched ZnO nanorods grown via chemical vapor deposition for photoelectrochemical water-splitting applications. Ceramics International. 2021;47(7):9785-9790. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0272884220337202
+23.
+Chen HC, Lyu YR, Fang A, Lee GJ, Karuppasamy L, Wu JJ, et al. The design of ZnO Nanorod arrays coated with MnOx for high electrochemical stability of a Pseudocapacitor electrode. Nanomaterials. 2020;10(3):475. Available from: https://www.mdpi.com/2079-4991/10/3/475
+24.
+Wang L, Li X, Li Q , Yu X, Zhao Y, Zhang J, et al. oriented polarization tuning broadband absorption from flexible hierarchical ZnO arrays vertically supported on carbon cloth. Small. 2019;15:1900900. DOI: 10.1002/smll.201900900
+25.
+Chalangar E, Nur O, Willander M, Gustafsson A, Pettersson H. Synthesis of vertically aligned ZnO Nanorods using sol-gel seeding and colloidal lithography patterning. Nanoscale Research Letters. 2021;16(1):46. Available from: https://link.springer.com/10.1186/s11671-021-03500-7
+26.
+Çolak H, Karaköse E. Fabrication and investigation of zinc oxide nanorods doped with molybdenum via ultrasonic spray pyrolysis. International Journal of Applied Ceramic Technology. 2023;21(1):114-123. Available from: https://ceramics.onlinelibrary.wiley.com/doi/10.1111/ijac.14498
+27.
+Efafi B, Mazandarani H, Ara MHM, Ghafary B. Improvement in photoluminescence behavior of well-aligned ZnO nanorods by optimization of thermodynamic parameters. Physica B: Condensed Matter. 2020;579:411915. Available from: https://linkinghub.elsevier.com/retrieve/pii/S092145261930794X
+28.
+You D, Xu C, Zhao J, Zhang W, Qin F, Chen J, et al. Vertically aligned ZnO/Ga 2 O 3 core/shell nanowire arrays as self-driven superior sensitivity solar-blind photodetectors. Journal of Materials Chemistry C. 2019;7(10):3056-3063. Available from: http://xlink.rsc.org/?DOI=C9TC00134D
+29.
+Paldi RL, Sun X, Wang X, Zhang X, Wang H. Strain-driven In-plane ordering in vertically aligned ZnO–Au nanocomposites with highly correlated metamaterial properties. ACS Omega. 2020;5(5):2234-2241. Available from: https://pubs.acs.org/doi/10.1021/acsomega.9b03356
+30.
+Karnati P, Haque A, Taufique M, Ghosh K. A systematic study on the structural and optical properties of vertically aligned zinc oxide Nanorods grown by high pressure assisted pulsed laser deposition technique. Nanomaterials. 2018;8(2):62. Available from: http://www.mdpi.com/2079-4991/8/2/62
+31.
+Kolhep M, Bläsing J, Strittmatter A, Zacharias M. Spontaneous and position-controlled epitaxial growth of ZnO nanowires on AlN/Si by CVD. Crystal Growth & Design. 2023;23(10):7095-7102. Available from: https://pubs.acs.org/doi/10.1021/acs.cgd.3c00320
+32.
+Schaper N, Alameri D, Kim Y, Thomas B, McCormack K, Chan M, et al. Controlled fabrication of quality ZnO NWs/CNTs and ZnO NWs/gr Heterostructures via direct two-step CVD method. Nanomaterials. 2021;11(7):1836. Available from: https://www.mdpi.com/2079-4991/11/7/1836
+33.
+Kim Y, Deshmukh PR, Shin WG. Enhanced photoelectrochemical performance of vertically aligned ZnO nanowires. Materials Letters. 2021;297:129871. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0167577X2100567X
+34.
+Cao P, Yang Z, Navale ST, Han S, Liu X, Liu W, et al. Ethanol sensing behavior of Pd-nanoparticles decorated ZnO-nanorod based chemiresistive gas sensors. Sensors and Actuators B: Chemical. 2019;298:126850. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0925400519310494
+35.
+Rodwihok C, Choopun S, Ruankham P, Gardchareon A, Phadungdhitidhada S, Wongratanaphisan D. UV sensing properties of ZnO nanowires/nanorods. Applied Surface Science. 2019;477:159-165. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0169433217332993
+36.
+Miao C, Jiang M, Xu H, Ji J, Kan C. Vertically-aligned ZnO microrod for high-brightness light source. CrystEngComm. 2020;22(39):6453-6464. Available from: http://xlink.rsc.org/?DOI=D0CE00933D
+37.
+Thongsuksai W, Panomsuwan G, Rodchanarowan A. Fast and convenient growth of vertically aligned ZnO nanorods via microwave plasma-assisted thermal evaporation. Materials Letters. 2018;224:50-53. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0167577X18306542
+38.
+Ramgir NS, Subannajui K, Yang Y, Grimm R, Michiels R, Zacharias M. Reactive VLS and the reversible switching between VS and VLS growth modes for ZnO nanowire growth. Journal of Physical Chemistry C. 2010;114(23):10323-11039. Available from: https://pubs.acs.org/doi/10.1021/jp909377b
+39.
+Aspoukeh PK, Barzinjy AA, Hamad SM. Synthesis, properties and uses of ZnO nanorods: A mini review. International Nano Letters. 2022;12(2):153-168. Available from: https://link.springer.com/10.1007/s40089-021-00349-7
+40.
+Zhang Y, Russo RE, Mao SS. Femtosecond laser assisted growth of ZnO nanowires. Applied Physics Letters. 2005;87(13):1-3. Available from: https://pubs.aip.org/apl/article/87/13/133115/117229/Femtosecond-laser-assisted-growth-of-ZnO-nanowires
+41.
+Wan H, Ruda HE. A study of the growth mechanism of CVD-grown ZnO nanowires. Journal of Materials Science: Materials in Electronics. 2010;21(10):1014-1019. Available from: http://link.springer.com/10.1007/s10854-010-0118-7
+42.
+Barreca D, Bekermann D, Comini E, Devi A, Fischer RA, Gasparotto A, et al. 1D ZnO nano-assemblies by plasma-CVD as chemical sensors for flammable and toxic gases. Sensors and Actuators B: Chemical. 2010;149(1):1-7. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0925400510005393
+43.
+Phan TL, Yu SC, Vincent R, Dan NH, Shi WS. Photoluminescence properties of various CVD-grown ZnO nanostructures. Journal of Luminescence. 2010;130(7):1142-1146. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0022231310000499
+44.
+Le AT, Ahmadipour M, Pung SY. A review on ZnO-based piezoelectric nanogenerators: Synthesis, characterization techniques, performance enhancement and applications. Journal of Alloys and Compounds. 2020;844:156172. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0925838820325366
+45.
+Ranjith Kumar D, Ranjith KS, Nivedita LR, Asokan K, Rajendra Kumar RT. Swift heavy ion induced effects on structural, optical and photo-catalytic properties of Ag irradiated vertically aligned ZnO nanorod arrays. Nuclear instruments and methods in physics research section B: Beam interactions with materials and atoms. 2019;450:95-99. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0168583X1830185X
+46.
+Hssi AA, Atourki L, Labchir N, Ouafi M, Abouabassi K, Elfanaoui A, et al. Electrodeposition of oriented ZnO nanorods by two-steps potentiostatic electrolysis: Effect of seed layer time. Solid State Sciences. 2020;104:106207. Available from: https://linkinghub.elsevier.com/retrieve/pii/S1293255820302314
+47.
+Sakai D, Nagashima K, Yoshida H, Kanai M, He Y, Zhang G, et al. Substantial narrowing on the width of “concentration window” of hydrothermal ZnO nanowires via ammonia addition. Scientific Reports. 2019;9(1):14160. Available from: https://www.nature.com/articles/s41598-019-50641-y
+48.
+Morais M, Marques AC, Ferreira SH, Pinheiro T, Pimentel A, Macedo P, et al. Visible Photoluminescent zinc oxide Nanorods for label-free nonenzymatic glucose detection. ACS Applied Nano Materials. 2022;5(3):4386-4396. Available from: https://pubs.acs.org/doi/10.1021/acsanm.2c00474
+49.
+Parize R, Garnier JD, Appert E, Chaix-Pluchery O, Consonni V. Effects of Polyethylenimine and its molecular weight on the chemical Bath deposition of ZnO nanowires. ACS Omega. 2018;3(10):12457-12464. Available from: https://pubs.acs.org/doi/10.1021/acsomega.8b01641
+50.
+Son NT, Noh JS, Park S. Role of ZnO thin film in the vertically aligned growth of ZnO nanorods by chemical bath deposition. Applied Surface Science. 2016;379:440-445. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0169433216308595
+51.
+Fraleoni-Morgera A, Cesini I, Kumar P, Oddo CM. Hydrothermally grown ZnO Nanorods as promising materials for low cost electronic skin. ChemNanoMat. 2020;6(1):15-31. Available from: https://onlinelibrary.wiley.com/doi/10.1002/cnma.201900620
+52.
+Pimentel A, Rodrigues J, Duarte P, Nunes D, Costa FM, Monteiro T, et al. Effect of solvents on ZnO nanostructures synthesized by solvothermal method assisted by microwave radiation: A photocatalytic study. Journal of Materials Science. 2015;50(17):5777-5787
+53.
+Gonçalves RS, Barrozo P, Brito GL, Viana BC, Cunha F. The effect of thickness on optical, structural and growth mechanism of ZnO thin film prepared by magnetron sputtering. Thin Solid Films 2018;661(December 2017):40-45. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0040609018304632
+54.
+Pimentel A, Samouco A, Nunes D, Araújo A, Martins R, Fortunato E. Ultra-fast microwave synthesis of ZnO nanorods on cellulose substrates for UV sensor applications. Materials (Basel). 2017;10(11):4-10
+55.
+Ghayour H, Rezaie HR, Mirdamadi S, Nourbakhsh AA. The effect of seed layer thickness on alignment and morphology of ZnO nanorods. Vacuum. 2011;86(1):101-105. Available from: https://linkinghub.elsevier.com/retrieve/pii/S0042207X11001679
+56.
+Pokai S, Limnonthakul P, Horprathum M, Eiamchai P, Pattantsetakul V, Limwichean S, et al. Influence of seed layer thickness on well-aligned ZnO nanorods via hydrothermal method. Materials Today Proceedings. 2017;4(5):6336-6341. Available from: https://linkinghub.elsevier.com/retrieve/pii/S2214785317309252
+57.
+Song J, Lim S. Effect of seed layer on the growth of ZnO Nanorods. Journal of Physical Chemistry C. 2007;111(2):596-600. Available from: https://pubs.acs.org/doi/10.1021/jp0655017
+58.
+Alshehri NA, Lewis AR, Pleydell-Pearce C, Maffeis TGG. Investigation of the growth parameters of hydrothermal ZnO nanowires for scale up applications. Journal of Saudi Chemical Society. 2018;22(5):538-545. Available from: https://linkinghub.elsevier.com/retrieve/pii/S1319610317301114
+59.
+Chevalier-César C, Capochichi-Gnambodoe M, Leprince-Wang Y. Growth mechanism studies of ZnO nanowire arrays via hydrothermal method. Applied Physics A: Materials Science & Processing. 2014;115(3):953-960. Available from: http://link.springer.com/10.1007/s00339-013-7908-8
+Sections
+Author information
+1.
+Introduction
+2.
+Approaches for the synthesis of vertically aligned ZnO nanostructures
+3.
+Synthesis and characterization of aligned ZnO nanorods grown on glass substrates by microwave-assisted hydrothermal synthesis
+4.
+Conclusions
+Acknowledgments
+Conflict of interest
+References
+REGISTER TO DOWNLOAD FOR FREE
+Share
+Cite
+Publish with IntechOpen
+WRITTEN BY
+Maria Morais, Mariana Cortinhal, Ana Rovisco, Jorge Martins, Rodrigo Martins and Pedro Barquinha
+Submitted: 29 February 2024 Reviewed: 22 March 2024 Published: 01 July 2024
+REGISTER TO DOWNLOAD FOR FREE
+Share
+Cite
+© The Author(s). Licensee IntechOpen. This chapter is distributed under the terms of the Creative Commons Attribution 3.0 License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+BOOKS OPEN FOR CHAPTER SUBMISSIONS
+View All
+IntechOpen
+Tannins - Biological Significance, New ...
+(Tentative title)
+Edited by Alfredo Aires
+SUBMISSION DEADLINE
+17 May 2023
+Deadline Extended:
+Open for Submission
+Submit your Work
+IntechOpen
+Advanced Studies on Naval Architecture
+(Tentative title)
+Edited by Tien Anh Tran
+SUBMISSION DEADLINE
+18 May 2023
+Deadline Extended:
+Open for Submission
+Submit your Work
+IntechOpen
+Sedentary Behavior and Public Health
+(Tentative title)
+Edited by Priscila Marconcin
+SUBMISSION DEADLINE
+07 July 2023
+Deadline Extended:
+Open for Submission
+Submit your Work
+IntechOpen
+Cosmology - The Past, Present and Futur...
+(Tentative title)
+Edited by Herman J. Mosquera Cuesta
+SUBMISSION DEADLINE
+18 July 2023
+Deadline Extended:
+Open for Submission
+Submit your Work
+
+
+
+
+
+
+
+
+
+
+
+
+Home
+News
+Contact
+Careers
+SDG Hub
+About
+Our Authors and Editors
+Scientific Advisors
+Team
+Events
+Advertising
+Memberships and Partnerships
+Publish
+About Open Access
+How it Works
+OA Publishing Fees
+Open Access Funding
+Peer Review
+Editorial Policies
+IntechOpen Limited
+167-169 Great Portland Street,
+London, W1W 5PF,
+UNITED KINGDOM
+Phone: +44 20 8089 5702
+Submit
+AUTHOR PANEL SIGN IN
+Terms and Conditions Privacy Policy Customer Complaints
+© 2024 IntechOpen. All rights reserved.

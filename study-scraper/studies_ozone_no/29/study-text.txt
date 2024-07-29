@@ -1,0 +1,140 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (36)
+Atmospheric Environment
+Volume 334
+, 1 October 2024, 120688
+Concentration characteristics and emission estimates of major HCFCs and HFCs at three typical fluorochemical plants in China based on a Gaussian diffusion model
+Author links open overlay panel
+Zehua Liu a
+,
+Jing Wu b c
+,
+Tengfei Ma a
+,
+Minde An d
+,
+Tong Ye e
+,
+Xingchen Zhao d
+,
+Mingzhu Li e
+,
+Fan Wang a
+,
+Mao Yuan e
+,
+Dongmei Hu a
+,
+Yueling Zhang a
+,
+Lin Peng b c
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.atmosenv.2024.120688
+Get rights and content
+Highlights
+•
+The substance with the largest difference between upwind and downwind sites was HCFC in each plant.
+•
+The HFC production of the three plants had reached a huge scale with the phase-out of ODSs.
+•
+HCFCs and HFCs production emissions of China were roughly estimated by IPCC 2006 or IPCC 2019 emission factor.
+•
+Using IPCC 2006 emission factors, China's HCFCs and HFC emissions may be underestimated.
+Abstract
+Estimating the emissions of hydrochlorofluorocarbons (HCFCs) and hydrofluorocarbons (HFCs) is of great significance for assessing global ozone depletion and climate change, where the emissions from fluorochemical plants play an important role. However, no research has been conducted on the HCFC and HFC emissions from fluorochemical plants based on observation data and diffusion model. This study observed the concentration of two HCFCs and six HFCs around three typical fluorochemical plants in China. It used the Gaussian plume diffusion model to explore their emissions. The results showed that the concentration difference between the downwind and upwind sites (from now on referred to as down-up difference) of each substance is ranked. Only in plant A, the substance with the largest down-up difference is HCFC. The total HFC down-up differences of the three plants were higher than that of HCFCs, and the total emissions of six HFCs accounted for 46% of three plant's emission, suggesting that the HFC production of the three typical fluorochemical plants in China had reached a large scale with the phase-out of ODSs (ozone-depleting substances). The total emissions of HCFCs and HFCs from the three plants are 56.62 Mt (million ton) CO2-equiv yr−1. The emissions from the three plants are approximately 20–76% of the bottom-up national emissions estimated using IPCC 2019 emission factors. On the contrary, the emissions of the three plants are 2–6 times higher than the national emissions (contained 20 fluorochemical plants) based on the IPCC 2006 emission factor. This revealed that using the default emission factors for fluorochemical production recommended by IPCC 2006 to estimate the emissions of HCFCs and HFCs from fluorochemical plants in China may lead to underestimation.
+Introduction
+Hydrochlorofluorocarbons (HCFCs) and hydrofluorocarbons (HFCs) are controlled substances under the Montreal Protocol. HCFCs are widely used in refrigeration, air-conditioning, foam, and other sectors (UNEP, 2011; Wan et al., 2009). Owing to their long atmospheric lifetime (1.3 to over 10 years) and the ability to release free chlorine atoms into the stratosphere and absorb infrared irradiation (thermal radiation), HCFCs are both ozone-depleting substances (ODSs) and potent greenhouse gases (GHGs). HFCs contain no chlorine or bromine and do not deplete the ozone layer. Therefore, HFCs are used to substitute HCFCs, and are mainly used in the refrigeration, air-conditioning, foam, and firefighting sectors(UNEP, 2016), and a small amount is used in the aerosol, solvent, and other sectors(UNEP, 2019; Velders et al., 2012). However, they are potent GHGs with the atmospheric lifetime ranging from hundreds to thousands of years, and global warming potential (GWP) from tens to tens of thousands. They are not only controlled by the Montreal Protocol but also one of the seven controlled substances listed in the United Nations Framework Convention on Climate Change (UNEP, 2008). An accurate estimation of HCFC and HFC emissions is essential for assessing ozone depletion and climate change.
+There were differences between top-down emissions (based on observation data) and bottom-up emissions (based on production and consumption data) for HCFCs and HFCs (Flerlage et al., 2021; Western et al., 2022). As one of the major emission processes, the fluorochemical production process includes product emissions, by-product emissions, and raw material use emissions (IPCC, 2019). Potential emission sources include process vents, equipment leaks, and container venting (IPCC, 2019). At present, most studies (Li et al., 2016; Wu et al., 2022) directly use the emission-factor approach to estimate the emissions of HCFCs and HFCs during the production process based on the emission factors recommended by the Intergovernmental Panel on Climate Change (IPCC). The emission factor recommended by the Guidelines for National Greenhouse Gas Inventories (from now on referred to as IPCC, 2006) for production of HCFCs and HFCs was 0.5% (0%–1%)(IPCC, 2006), which was updated by 2019 Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories (from now on referred to as IPCC, 2019) to 4% (0.1%–20%)(IPCC, 2019). There is a big gap between these two emission factors, with the latter having a larger range of uncertainty. The default emission factors recommended by the IPCC guidelines were not country-specific and could not reflect the actual situation of a specific country. An effective practice is to determine the emission factor based on a country-specific study of the equipment units (IPCC, 2000).
+In addition to the emission-factor approach, the calculation methods for production process emissions include the mass-balance approach and the direct measurement method (IPCC, 2006). The mass-balance approach is to calculate the emission by multiplying the mass of flue gas by the mass concentration of pollutants in the flue gas (IPCC, 2019). It is highly dependent on the industrial material data, which is difficult to obtain. The direct measurement method is usually based on the observation data around the plant (IPCC, 2006) and mainly uses the Gaussian plume diffusion model to establish the source–receptor relationship to estimate emissions. This method can avoid not only the shortcomings of the default emission factor from the IPCC guidelines, which cannot accurately reflect the actual situation of countries, regions, and plants, but also the difficulty in the mass-balance approach to obtain industrial material data. At present, some studies (Bai et al., 2019; Duan, 2017; Lu et al., 2023; Lv et al., 2015; Wang et al., 2020; Wei et al., 2016; Wei et al., 2018; Zou et al., 2017) have carried out VOC sampling around plants to estimate VOC emission based on the Gaussian diffusion virtual point source postposition method combined with remote sensing FTIR (Fourier Transform Infrared Spectroscopy) or least square method, and based on the ISC3 (Industrial Source Complex 3) model, ISCST-3 (Industrial Source Complex Short Term-3) model or AERMOD (AMS/EPA Regulatory Model) in the steady-state Gaussian plume diffusion model. However, no research has been conducted on the HCFC and HFC emissions from fluorochemical plants based on observation data and diffusion model.
+China is the largest producer, consumer, and emitter of HCFCs and HFCs worldwide(Bie et al., 2017). The fluorochemical plants in China are mainly distributed in the Shandong, Jiangsu, and Zhejiang Provinces(MEE, 2018). We chose one typical fluorochemical plant from each of the above three provinces. The sum of production quotas of these selected plants was about 55.5% of the total HCFC production quotas, which can represent the emission characteristics of the plants in China to some extent. Air samples around the fluorochemical plants were collected and the mixing ratio characteristics of atmospheric concentration of HCFCs and HFCs were analyzed. In addition, the emission rates and annual emissions of six major HFCs and two major HCFCs in three plants were estimated based on the Gaussian diffusion virtual point source postposition method in modified Gaussian diffusion models, which is often used in the study of VOCs area source emissions (Lu et al., 2023; Wang et al., 2020; Wu et al., 2007; Zou et al., 2017). The total HCFC and HFC emissions from the three plants were compared with their national bottom-up emissions in China and the applicability of emission factors from IPCC 2006; 2019 in China were further discussed. This study firstly evaluated the emissions of fluorochemical plants based on observation data around fluorochemical plants, which provided scientific support for accurately estimating the HCFCs and HFCs emissions of the production process.
+Section snippets
+HCFC and HFC sampling and analysis
+We selected fluorochemical plants A, B, and C to carry out atmospheric observations in November 2021 and May 2022. The three plants are located in Shandong, Jiangsu, and Zhejiang Provinces, which are the main distribution provinces of HCFC and HFC plants. Fig. 1 illustrates the three chosen typical plants. In this study, the terrain around the three plants was open and flat. There are no other emission sources within 2 km of the plants. These conditions are suitable for application to a
+Concentration differences between the downwind and upwind sites
+We collected a total of 104 atmospheric samples based on 52 sampling times, and analyzed the concentrations of 6 HFCs (HFC-32, HFC-125, HFC-134a, HFC-143a, HFC-152a, HFC-227ea) and 2 HCFCs (HCFC-22, HCFC-141b). The concentration difference between the downwind and upwind sites could reflect the emission characteristics of the plants. As shown in Fig. 2, the differences in the total concentrations of HCFCs and HFCs in the three plants during the daytime (at 9:00, 16,723–19,583 pptv; or 15:00,
+Conclusions
+In our study, 52 atmospheric observations were conducted in three typical Chinese fluorochemical plants. The results showed that the substances with the highest down-up atmospheric concentration difference among the three plants are all HCFCs (Plant A: HCFC-22; Plant B: HFC-227ea; Plant C: HFC-134a). The total HFC down-up difference (10,143 pptv; 58%) of the three plants is higher than that of HCFCs. The rough emission estimation results showed that the total emissions of HCFCs and HFCs during
+CRediT authorship contribution statement
+Zehua Liu: Writing – review & editing, Writing – original draft, Validation, Methodology, Investigation, Data curation, Conceptualization. Jing Wu: Writing – review & editing, Supervision, Project administration, Methodology, Conceptualization. Tengfei Ma: Writing – original draft, Validation, Methodology, Investigation, Data curation, Conceptualization. Minde An: Writing – review & editing, Methodology, Conceptualization. Tong Ye: Supervision, Investigation. Xingchen Zhao: Writing – review &
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgment
+This work was supported by the National Natural Science Foundation of China (NSFC) (Grant No. 42375187 and No. 42330606), Beijing Municipal Natural Science Foundation (Grant No. 8232042), and Talent Fund of Beijing Jiaotong University (Grant No. 2023JBRC001).
+References (36)
+P. Bie
+Emissions estimates of carbon tetrachloride for 1992–2014 in China
+Environmental Pollution
+(2017)
+H. Flerlage
+A review of bottom-up and top-down emission estimates of hydrofluorocarbons (HFCs) in different parts of the world
+Chemosphere
+(2021)
+B.W. Li
+Emission factors of ozone-depleting chloromethanes during production processes based on field measurements surrounding a typical chloromethane plant in China
+J. Clean. Prod.
+(2023)
+Z. Li
+Estimated HCFC-22 emissions for 1990–2050 in China and the increasing contribution to global emissions
+Atmos. Environ.
+(2016)
+S. Mao
+Comparison of the impacts of empirical power-law dispersion schemes on simulations of pollutant dispersion during different atmospheric conditions
+Atmos. Environ.
+(2020)
+S. Mao
+Impacts of typical atmospheric dispersion schemes on source inversion
+Atmos. Environ.
+(2020)
+D. Wan
+Historical and projected emissions of major halocarbons in China
+Atmos. Environ.
+(2009)
+W. Wei
+VOCs emission rate estimate for complicated industrial area source using an inverse-dispersion calculation method: a case study on a petroleum refinery in Northern China
+Environmental Pollution
+(2016)
+H. Bai
+VOCs emission characteristics of rubber tire manufacturing industry based on diffusion model inversion
+Environmental Science
+(2019)
+HCFC and HFC Annual Production
+(2022)
+View more references
+Cited by (0)
+View full text
+© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+The missing information of aliphatic-like & aromatic-like Unresolved Complex Mixtures (UCMs) in background oceanic atmosphere: occurrence, identification and deposition
+Atmospheric Environment, Volume 332, 2024, Article 120619
+Hanyang Liu, …, Zhouqing Xie
+Long-term escape behavior and release mechanism of organic emissions from asphalt materials
+Science of The Total Environment, Volume 947, 2024, Article 174601
+Rui Zhang, …, Gengren Hao
+Characterization of biomass burning tracers in particulate matter at 12 sites in China: Significant increase of coal combustion emitted levoglucosan in northern China during winter
+Science of The Total Environment, 2024, Article 174520
+Jun-Qi Wang, …, Xin-Ming Wang
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use

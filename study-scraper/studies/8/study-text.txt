@@ -1,0 +1,191 @@
+of 493
+Automatic Zoom
+Actual Size
+Page Fit
+Page Width
+0%
+50%
+75%
+100%
+125%
+150%
+200%
+300%
+400%
+435
+
+B14
+ -
+ Life Cycle Assessment of an Ammonia Transportation as a
+
+Hydrogen Carrier
+
+Meisam Ansarpour
+,
+ Tohid Borhani, Aman Dhir
+
+Faculty of Science and Engineering
+
+Abstract
+
+Nowadays, the world is dealing with major challenges such as environmental
+
+pollution, global warming, ozone depletion, and waste accumulation. Consequently,
+
+scholarly literature has directed its
+ attention towards these concerns and has
+
+documented that climate change is occurring at a rapid pace. Furthermore, it has
+
+been asserted that this change will persist in the future. The transition to hydrogen
+
+(H
+2
+) as a fuel source is the most viable option for reducing carbon emissions.
+
+Consequently, in this research, an inquiry is undertaken on the life cycle assessment
+
+(LCA) of the ammonia transportation, covering various phases such as production of
+
+pipelines,
+ reservoir tank, and pump station facility, al
+ong with hydrogen production
+
+from ammonia. The findings indicated that the predominantly impacted classification
+
+in relation to harm evaluation is linked with the human health. Besides, the amount of
+
+CO
+2
+ emission per various functional units which are considered foe each phase, are
+
+reported.
+
+Keywords:
+ Ammonia
+ –
+ CO
+2
+ emission
+ –
+ Global warming
+ –
+ Hydrogen carrier
+ –
+ Life
+
+cycle assessment
+
+Introduction
+
+The utilization of fossil fuels across different sectors such as industry, transportation,
+
+commerce, and residence has given rise to significant challenges concerning human
+
+health. To mitigate the detrimental impacts of fossil fuels, it is imperative to
+
+pr
+ogressively implement sustainable fuels and solutions. Environmental compatibility
+
+is considered a fundamental characteristic of sustainable sources. The feasibility of
+
+establishing a worldwide hydrogen
+-
+based economy is currently impractical, even
+
+though h
+ydrogen is acknowledged as a highly promising source of fuel. This is
+
+primarily due to the absence of a viable storage medium unless one is discovered
+ [1]
+
+In addition, there is a requirement for substantial capital investments to establish a
+436
+
+hydrogen distribution system. This gives rise to complex safety concerns due to the
+
+volatility of hydrogen and its low flash point, thus posing an explosion hazard in the
+
+presence of air. In addition, hydrogen exhibits a significantly reduced volumetric
+
+en
+ergy density in comparison to conventional fuels employed in transportation
+
+vehicles. However, the transport of hydrogen through pipelines to these industries
+
+presents challenges. For example, the low energy density of hydrogen necessitates
+
+the use of sign
+ificantly high flow rates to meet the energy demands of end
+-
+users.
+
+Therefore, there is a need for alternative methods of transporting hydrogen, such as
+
+hydrogen "carriers". Interestingly, ammonia presents a more cost
+-
+effective option for
+
+energy storage, as
+ its cost per unit volume of stored energy is three times cheaper
+
+than that of hydrogen
+ [2]
+. Ammonia promises due to its high hydrogen storage
+
+capacity (17.65 wt.%H
+2
+), the ability to transport and store it in liquid phase under
+
+moderate conditions (10bar
+ and 25
+℃
+), over 5 decades of industrial experience in its
+
+use, and the relative ease of extracting hydrogen by "cracking" ammonia. Besides,
+
+ammonia possesses similar characteristics to hydrogen in that it can serve as a
+
+clean energy carrier and storage medium. Thi
+s is due to its potential for
+
+environmentally friendly combustion, resulting in the emission of only water and
+
+nitrogen. Storage of ammonia follows a similar process to propane, with a vapor
+
+pressure of 8 bar at room temperature
+ [3]
+.
+
+LCA quantifies the environmental consequences linked to the complete life cycle of a
+
+product, process, or service. Each stage of
+ a product's life cycle, from raw material
+
+extraction to production, use, and disposal, can have various environmental impacts.
+
+These stages are referred to as life cycle stages. LCA allows for the assessment of
+
+the environmental impacts of a product or ser
+vice throughout its entire life cycle or at
+
+any specific stage in between
+ [4]
+.
+
+Various studies in the literature have delved into the LCA related to hydrogen
+
+production. For instance, Momirlan and Veziroglu
+ [5]
+ conducted an analysis on the
+
+current state of hydrogen energy and different methods of hydrogen production,
+
+focusing on as
+pects such as economics, environmental implications, applications,
+
+and the global status of hydrogen energy. Koroneos et al.
+ [6]
+ carried out an LCA to
+
+assess the environmental impact of different hydrogen production techniques, with

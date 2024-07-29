@@ -1,0 +1,251 @@
+of 14
+Automatic Zoom
+Actual Size
+Page Fit
+Page Width
+0%
+50%
+75%
+100%
+125%
+150%
+200%
+300%
+400%
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/382137336
+
+Robot Germicida con Sistema Sostenible Germicidal Robot with Sustainable
+
+System
+
+Article
+ · January 2024
+
+CITATIONS
+
+0
+
+READS
+
+3
+
+6 authors
+, including:
+
+Ernesto Enciso Contreras
+
+Tecnologico de Estudios Superiores de Ecatepec
+
+10
+ PUBLICATIONS
+ 3
+ CITATIONS
+
+SEE PROFILE
+
+Adolfo Meléndez Ramírez
+
+Tecnologico de Estudios Superiores de Ecatepec
+
+24
+ PUBLICATIONS
+ 42
+ CITATIONS
+
+SEE PROFILE
+
+Humberto Sossa
+
+Instituto Politécnico Nacional
+
+262
+ PUBLICATIONS
+ 2,595
+ CITATIONS
+
+SEE PROFILE
+
+All content following this page was uploaded by Adolfo Meléndez Ramírez on 10 July 2024.
+
+The user has requested enhancement of the downloaded file.
+Abstraction & Application
+ 4
+4
+ (202
+4
+)
+ 67
+ –
+ 79
+ UADY
+
+Reception date: October 22, 2023 / Acce
+p
+tance dat
+e
+:
+ February 6, 2024
+
+67
+
+Robot Germicida con Sistema Sostenible
+
+Germicidal Robot with Sustainable System
+
+Griselda Cortés Barrera
+1
+,2
+,
+ Ernesto Enciso Contreras
+1,2
+,
+ Sergio Vigueras Carmona
+1
+,
+ Jacob Ávila
+
+Camacho
+1
+,
+ Adolfo Meléndez Ramírez
+1
+,
+ Humberto Sossa Azuela
+3
+
+1
+ Tecnológico Nacional de México/TES Ecatepec
+,
+ Estado de
+ México.
+
+2
+ Laboratorio Nacional CONAHCYT en Inteligencia Artificial y Ciencia de Datos (LNC
+-
+IACD)
+
+3
+ Centro de Investigación en Computación del IPN,
+ México.
+
+gcortes@tese.edu.mx
+,
+ ernesto_contreras@tese.edu.mx
+,
+ svigueras@tese.edu.mx
+,
+
+fjacobavila@tese.edu.mx
+,
+ adolfo_melendez@tese.edu.mx
+,
+ humbertosossa@gmail.com
+
+Abstract
+
+The importance of sustainable cities and communities is increasingly critical in the quest to reverse
+
+environmental damage. During the COVID
+-
+19 pandemic and even today, disinfection methods
+ were
+
+used to keep enclosed and crowded spaces constantly disinfect
+ed. In favor of sustainable
+
+development and public health destabilized by the COVID
+-
+19 pandemic, a 253.7
+ nanometers
+
+ultraviolet
+ robot
+ was
+ built with strategic distribution, remotely controlled with autonomous and
+
+sustainable ozone control system to sanitiz
+e, and eliminate ribonucleic acid from viruses, and
+
+bacteria present on surfaces and closed and agglomerated spaces. Our results show that
+ the robot
+
+with 6
+ UVC cylindrical lamps of 253.7 nm, radiates an energy
+ of
+ 4
+.
+5382
+ 𝐽
+ 𝑚
+2
+⁄
+ end
+ the optimal
+
+disinfection ti
+me is
+ 14.76
+ seconds
+ in an irradiated area of 0.98
+ -
+ 1.04
+ 𝑚
+2
+, using 0.98
+ -
+ 1.04
+ 𝑚
+2
+ of
+
+radiated energy and
+ 30
+ 𝑤
+ of power in each lamp
+.
+ This data and the calibration of the MQ
+-
+131 and
+
+MQ
+-
+135 sensors of the sustainable disinfection system will
+ automatically turn off avoiding
+
+contamination of the environment where the robot operates
+.
+
+Resumen
+
+La importancia de las ciudades y comunidades sostenibles es cada vez más crítica en la búsqueda de
+
+revertir el daño ambiental. Durante la pandemia de COVID
+-
+1
+9 e incluso hoy en día, se utilizan
+
+métodos de desinfección para mantener constantemente desinfectados los espacios cerrados y
+
+concurridos. A favor del desarrollo sostenible y la salud pública desestabilizada por la pandemia de
+
+COVID
+-
+19, se construye un ro
+bot
+ ultravioleta
+ de 253
+.
+7 n
+anó
+m
+etros
+ con distribución estratégica,
+
+controlado remotamente con sistema de control de ozono autónomo y sostenible para higienizar, y
+
+eliminar el ácido ribonucleico de virus, y bacterias presentes en superficies y espacios cerrados y
+
+aglomerados.
+ Nuestros resulta
+dos muestran que el robot con 6 lámparas cilíndricas UVC de
+ 253.7

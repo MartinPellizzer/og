@@ -1,0 +1,21 @@
+Here are the five detailed paragraphs using the information and data from the scientific study:
+
+**Paragraph 1**
+Introduction
+Urban forests play a crucial role in mitigating environmental pollution and greenhouse emissions. However, they also release biogenic volatile organic compounds (BVOCs) that contribute to tropospheric ozone and secondary organic aerosols formation. This study aimed to understand the role of urban forests in carbon stock and BVOCs emission by establishing optimal biomass models for six typical tree species in Beijing.
+
+**Paragraph 2**
+Methods
+A total of 61 remote sensing parameters were extracted from Landsat-8, Sentinel-2, and ASTER GDEM V3 images across mountainous regions of northwest Beijing and major urban centers. Field surveys and remote sensing data were used to develop optimal biomass models for six dominant tree species in Beijing: Robinia pseudoacacia, Quercus, Populus, Pinus tabulaeformis, Betula platyphylla, and Larix gmelinii. Biomass models were developed using univariate regression, multiple linear regression, and random forest model regressions.
+
+**Paragraph 3**
+Results
+The total carbon stock for pure forest tree species in Beijing was estimated at 5.638 million tons, with a carbon density of 58.86 t/ha. The carbon density ranking for pure forest tree species was: Robinia pseudoacacia > Populus tomentosa > Betula platyphylla > Quercus Linn > Pinus tabulaeformis > Larix gmelinii. Total BVOCs emission from the studied species were calculated at 25,789.72 t, with an average emission of 0.27 t/ha.
+
+**Paragraph 4**
+Discussion
+This study demonstrates the importance of integrating multiple data sources to accurately estimate forest above-ground biomass and carbon stock. The results highlight the need for careful selection of tree species in urban forests that balance carbon sequestration potential with low BVOCs emissions. Future studies should consider incorporating additional factors such as soil type, climate, and land-use changes to further refine predictions.
+
+**Paragraph 5**
+Conclusions
+In conclusion, this study demonstrates the efficacy of combining field measurements with remote sensing data to develop optimal biomass models for six dominant tree species in Beijing. The results highlight the importance of considering both carbon sequestration potential and BVOCs emissions when selecting tree species for urban forests. Future studies should aim to integrate additional factors and develop more sophisticated models to inform sustainable urban forest management practices.

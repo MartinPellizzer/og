@@ -1,0 +1,147 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Typesetting math: 33%
+
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Atmosphere
+All Article Types
+Advanced
+  Journals Atmosphere Volume 15 Issue 6 10.3390/atmos15060690
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Hui Zhao
+Subscribe SciFeed
+Recommended Articles
+Author Biographies
+Related Info Link
+More by Authors Links
+Article Views
+400
+Table of Contents
+Abstract
+Introduction
+Experiment and Data
+Results
+Conclusions and Discussion
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+The Comprehensive Vertical Ozone Observation Experiment and Result Analysis of Ozone Lidars in China
+by Haiyang Cai
+1,2,3, Junli Jin
+1,*, Shanshan Lv
+1, Xiaorui Song
+4, Ningzhang Wang
+5, Guicai Long
+6, Wen Shi
+5, Zhengxin Qin
+7 and Kui Wu
+8
+1
+CMA Meteorological Observation Center, Beijing 100081, China
+2
+Akedala Regional Atmospheric Background Station, Altay 836500, China
+3
+Akedala Atmospheric Background Field Science Experiment Base China Meteorological Administration, Urumqi 830002, China
+4
+Shangri-La National Atmospheric Background Station, Diqing 674400, China
+5
+China Atmospheric Background Benchmark Observatory, Xining 810001, China
+6
+Wuzhou Meteorological Bureau, Wuzhou 543002, China
+7
+Jinsha National Atmospheric Background Station, Wuhan 430074, China
+8
+Xilin Gol League Meteorological Bureau, Xilinhot 026000, China
+*
+Author to whom correspondence should be addressed.
+Atmosphere 2024, 15(6), 690; https://doi.org/10.3390/atmos15060690
+Submission received: 9 May 2024 / Revised: 27 May 2024 / Accepted: 30 May 2024 / Published: 6 June 2024
+(This article belongs to the Special Issue Ozone Pollution and Effects in China)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+To evaluate the detection performance of ozone lidars, the first comprehensive vertical ozone observation experiment in China was conducted at the Xilinhot National Climate Observatory in Inner Mongolia from August to December 2023. The ozone profiles and concentrations of four ozone lidars were systematically compared and assessed with ozone radiosonde measurements and ozone analyzer observations both at ground-based stations and on an Unmanned Aerial Vehicle. The results show that the relative deviations of four ozone lidars are less than 20% compared with ozone radiosonde measurements at a height between 150 and 400 m. Ozone lidars have better behavior between 400 m and 2000 m than the lower altitude, with the deviation within 10% and the correlation coefficient around 0.8. However, relative deviations of lidars increased with altitude above 2000 m. The surface ozone concentrations observed using ozone lidars agreed well with the ground-based ozone analyzer, especially during periods with ozone concentrations higher than 40 µg·m−3. The correlation coefficients for most models of ozone lidar are higher than 0.53. A further investigation of the influence of precipitation events on ozone lidar measurement has been conducted, which revealed that thick cloud layers, low cloud base, and an intensive precipitation event with large raindrop particles can result in high anomalies and reduce the inversion accuracy of the ozone lidar. During the experiment, four ozone lidars were assessed quantitatively according to the comprehensive performance, which could help to improve inversion algorithms and the system design of this promising technique.
+Keywords: ozone lidar; ozone radiosonde; unmanned aerial vehicle observations; comprehensive observation experiment
+1. Introduction
+Ozone is one of the important trace constituents of the Earth’s atmosphere. Although its concentrations vary greatly along with altitude, it plays a significant role in atmospheric chemistry [1]. The formation and variations in near-surface ozone concentration have become a cutting-edge topic in atmospheric environmental research. On one hand, studies have shown that high concentrations of near-surface ozone can pose serious threats to human health, plant growth, and the ecological environment [2,3,4]. On the other hand, the decrease in ozone concentration in the stratosphere brings severe consequences to the ecology on Earth. Conducting observations of the vertical concentration of ozone is of great importance for studying the evolution of tropospheric ozone concentrations, pollution processes, and their origins [5].
+In China, the current ground-level ozone monitoring network consists of traditional monitoring equipment such as ozone analyzers, which can accurately measure the concentration of ozone in the air. However, it is limited to obtaining ozone concentration changes within a local and small geographical area. In recent years, with the rapid development of analytical instruments combined with satellite remote sensing, radiosonde balloons, and meteorological gradient towers, the vertical distribution characteristics of some aerosols and ozone can also be observed. However, due to temporal and spatial factors, these devices still have shortcomings [6]. Satellite remote sensing directly acquires a total column of atmospheric pollution, and there are certain errors in the inversion of near-surface pollution [7]. Ozone radiosondes are widely used to obtain atmospheric ozone distribution profiles from the ground to the upper troposphere [8,9,10], but they are limited by factors such as the quality of the radiosonde releases, background current, and the efficiency of the air pump. This can lead to measurement precision, accuracy, and response issues at different altitudes or under different ozone concentration conditions [11,12], not to mention the high cost and low temporal resolution of ozone sounding. Meteorological gradient towers can be equipped with the continuous time-based observations of an ozone analyzer at observational platforms of different heights. High ozone concentration precision can be offered, but is restricted to only a limited number of vertical height layers [13,14].
+Ozone lidar uses the differential absorption of laser wavelengths by ozone to determine the concentration of ozone along the common path of a pulsed laser. It can obtain vertical profiles of ozone concentration with high temporal and spatial resolution, and has become one of the effective methods for measuring ozone profiles. The technique has been widely applied in environmental monitoring and satellite validation in different regions worldwide [15,16]. It not only enables the effective monitoring of polluted areas, determining their sources and transport, but it also aids in making decisions to effectively prevent impending significant pollution events. However, more and more brands and models of ozone lidar have appeared with different technical approaches and retrieval algorithms. Researchers have found a various range of differences, even in ozone vertical profiles, acquired using co-located ozone lidars [17,18,19,20,21]. Therefore, there is an urgent need to conduct comparative observation experiments on the detection capabilities and precision of ozone lidar, to comprehensively evaluate the performance of ozone lidar detection, and to provide a basis and support for the development of related technical standards and norms.
+Here, we report on the first comprehensive vertical ozone observation experiment in China, organized by CMA Meteorological Observation Center and conducted from August to December 2023 at the Xilinhot National Climate Observatory in Inner Mongolia. The paper is organized as follows: in Section 2, the experimental site, the instrument and methods are elaborated. In Section 3, the comparative studies of four models of ozone lidar, as well as comparisons with ozone radiosondes, a near-surface ozone analyzer, and ozone observations on an unmanned aerial vehicle (UAV for short) are presented, assessing the detection performance of ozone lidar multi-dimensionally. Finally, conclusions and discussions on the further improvement of the detection accuracy of ozone lidar are given.
+2. Experiment and Data
+2.1. Experimental Site
+The geographic location of the site and the experimental field are shown in Figure 1. The Xilinhot National Climate Observatory (43°57′00″ N, 116°07′11″ E, 1003.5 m asl.) is located 25 km northeast of Xilinhot City in the Inner Mongolia Autonomous Region in China, situated within the mid-latitude westerlies zone and characterized by a temperate semi-arid continental monsoon climate. The station covers an area of 10 hectares, with no tall obstructions within a 2000 m radius around it. The terrain is flat, open, and far from urban regions. There are relatively few pollution sources around, indicated by the ozone column distribution analysis based on satellite detector Atmospheric Infrared Sounder (AIRS for short) from Aqua, NASA, averaged from 2021 to 2023 (Figure 1b).
+Figure 1. Schematic of the geographic location of the Xilinhot National Climate Observatory (a), the ozone total column distribution at the experiment location and surrounding regions derived from satellite observation (b) and four ozone lidars in the experimental field (c).
+2.2. Instruments and Methods
+2.2.1. Ozone Lidar
+Ozone lidar measures the spatiotemporal distribution of ozone concentration through utilizing the differences in absorption characteristics of ozone at two or more wavelengths. It emits two pulsed lasers along the same optical path into the atmosphere, where one laser wavelength is on the absorption line of ozone, undergoing strong absorption by it, while the wavelength of the other laser is on the edge of the absorption line or outside it, where absorption by ozone is small or non-existent. For these two wavelengths, the extinction by other gas molecules and aerosols as well as the backscattering effect on the two lasers are essentially the same. The photoelectric receiving system’s parameters for receiving these two beams of light are also basically identical, and the emission energy of the two lasers is constant. Therefore, the difference in echo intensity between the two lasers is mainly caused by the absorption of ozone molecules. The ozone mass concentration is then retrieved based on the difference in echo intensity at the two wavelengths, combined with the differential absorption lidar equation [22].
+Four different brands and models of ozone lidar participated in the comparative observation experiment, labeled as L1, L2, L3, and L4 (not corresponding to location of ozone lidars). Detailed parameters are presented in Table 1.
+Table 1. Technical parameters of the four ozone lidar models.
+2.2.2. Ozone Radiosonde
+Ozone radiosonde involves the use of a satellite navigation radiosonde equipped with the CYT-1 type ozone radiosonde sensor (ECC dual-cell type) produced by Aerospace New Meteorological Science and Technology Co., Ltd. in Wuxi, China [23]. The sensor is carried into the sky using a radiosonde balloon, which collects real-time meteorological data such as atmospheric pressure, temperature, humidity, partial pressure of ozone, and positional information from near the ground to the burst height of balloon. The data collected are transmitted back to ground receiving equipment, where they are received and demodulated using the radiosonde receiver.
+The Xilinhot National Climate Observatory conducts ozone radiosonde observations punctually at 13:15 Beijing Time every Wednesday. If the launch cannot be performed due to unforeseen reasons, it is postponed to the same time on Thursday.
+2.2.3. Other Observations
+The Xilinhot Municipal Environmental Protection Monitoring Station (EPS for short), located approximately 2.3 km southwest of the Xilinhot National Climate Observatory, and the Xilinhot Municipal Government Monitoring Station (MGS for short), about 3.8 km southwest, are both equipped with a near-surface ozone analyzer based on the ultraviolet absorption method.
+For UAV platforms, a quadrotor DJI M300 model has been selected in this study. This UAV has an operational payload capacity of 2.7 kg, a maximum ascent speed of 5–6 m/s, a maximum descent speed of 4–5 m/s, a maximum flight altitude of 5000 m, and a payload hover time of 30 min. The UAV platform is equipped with the POM pocket-size ultraviolet ozone analyzer (based on the 254 nm absorption band), developed by 2B Technologies.
+It is recommended that UAV observations are conducted under clear weather conditions, with high visibility, low wind speeds and no cloud coverage. The observation period was from 13:00 to 15:00 Beijing Time on 1 November 2023, during which ozone mass concentration data along the processes of vertical ascent, descent, as well as hovering at different altitudes (300, 450, and 500 m), were obtained. Specifically, the UAV hovered at 300 m from 13:43:34 to 13:53:34. The vertical ascent from ground to 500 m took place from 14:05:04 to 14:11:44 with uniform velocity, then it hovered at 500 m height for 10 min. The UAV went down to hover at 450 m height from 14:22:24 to 14:32:24. The descent from 450 m to the ground occurred from 14:32:25 to 14:37:54 with uniform velocity.
+Figure 2 shows the co-current ozone profile time series observed via four models of ozone lidar, ozone radiosonde and ozone analyzer loaded on UAV platform, and surface ozone time series at EPS on 1st November 2023. The color bars of ozone concentrations measured via ozone lidar, radiosonde and analyzer on UAV are set to be different to distinguish their results. The surface ozone variation at EPS was the most consistent

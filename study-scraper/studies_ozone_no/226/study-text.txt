@@ -1,0 +1,131 @@
+Science that inspires
+A Cell Press journal
+Submit
+Log in
+Register
+This journal
+Journals
+Publish
+News & events
+About
+Advanced search
+RESEARCH ARTICLE| VOLUME 10, ISSUE 13, E34021, JULY 15, 2024
+PDF [3 MB]
+Figures
+Save
+Share
+Reprints
+Request
+Toward a more resilient Thailand: Developing a machine learning-powered forest fire warning system
+Jing Tang
+Manapat Weeramongkolkul
+Supanida Suwankesawong
+Kumpol Saengtabtim
+Natt Leelawat
+Kritchart Wongwailikhit
+Open AccessPublished:July 02, 2024DOI:https://doi.org/10.1016/j.heliyon.2024.e34021
+Abstract
+Keywords
+Introduction
+Method
+Results
+Discussion
+Conclusions
+Data availability statement
+CRediT authorship contribution statement
+Declaration of competing interest
+Acknowledgments
+References
+Article info
+Figures
+Tables
+Related Articles
+Abstract
+Forest fires in Thailand are a recurring and formidable challenge, inflicting widespread damage and ranking among the nation's most devastating natural disasters. Most detection methods are labor-intensive, lack speed for early detection, or result in high infrastructure costs. An essential approach to mitigating this issue involves establishing an efficient forest fire warning system based on amalgamating diverse available data sources and optimized algorithms. This research endeavors to develop a binary machine-learning classifier based on Thailand's forest fire occurrences from January 2019 to October 2022 using data acquired from satellite resources, including the Google Earth engine. We use four gas variables including carbon monoxide, sulfur dioxide, nitrogen dioxide, and ozone. The study explores a range of classification models, encompassing linear classifiers, gradient-boosting classifiers, and artificial neural networks. The XGBoost model is the top-performing option across various classification evaluation metrics. The model provides the accuracy of 99.6 % and ROC-AUC score of 0.939. These findings underscore the necessity for a comprehensive forest fire warning system that integrates gas measurement sensor devices and geospatial data. A feedback mechanism is also imperative to enable model retraining post-deployment, thereby diminishing reliance on geospatial attributes. Moreover, given that decision-tree-based algorithms consistently yield superior results, future research in machine learning for forest fire prediction should prioritize these approaches.
+Keywords
+Forest fire
+Machine learning
+Thailand
+Warning system
+1. Introduction
+Forest fires have substantial and far-reaching consequences, affecting humans and natural ecosystems. These fires present immediate dangers to individuals, leading to injuries and, tragically, even death. Furthermore, the smoke contributes to air pollution, causing respiratory problems, coughing, wheezing, and eye, nose, and throat discomfort. Besides these health concerns, forest fires cause irreparable harm to the ecosystems of the affected regions, causing long-term issues such as soil erosion, biodiversity loss, and habitat destruction [1
+]. Additionally, fine particulate matter in smoke from forest fires (PM2.5) increases the risk of lung cancer [2
+]. The environmental impact is equally significant, as forest fires cause air pollution that releases carbon dioxide, a primary cause of global warming, leading to climate change and detrimental effects on plant life [3
+]. Moreover, the consequences of forest fires extend to ecological imbalances, resulting in heightened mortality rates among plant and animal populations and harm to their habitats [4
+].
+Forest fires in Thailand have substantially affected the environment and economy. The World Wide Fund for Nature [5
+
+] reports that 159,490 rai were burned in 2020, equivalent to 255.184 km2 of land, causing damages estimated at 14,312,230,685.20 baht. The nation has grappled with persistent air pollution issues for several years, primarily attributed to agricultural burning and forest fires [6
+]. For example, on March 30, 2023, Chiang Mai Province recorded PM2.5 levels surpassing the World Health Organization's clean air standards by an unprecedented factor of 45.7, marking a global record [7
+
+].
+Historical data from the Forest Fire Control Office [8
+], a suborganization of Thailand's Department of National Parks, Wildlife, and Plant Conservation, indicates that forest fires have presented a severe challenge to the country for over 25 years. This chronic issue has necessitated the annual extinguishing of an average of 6558 forest fires, resulting in the loss of nearly 3 million rai, equivalent to 4800 km2 of forested land as shown in Fig. 1.
+Fig. 1Number of forest fires extinguished, and forest area lost to forest fire in Thailand annually.
+View Large Image Figure ViewerDownload Hi-res image Download (PPT)
+The Forest Fire Control Office [8
+] emphasizes forest fires’ intricate and multifaceted nature, necessitating a thorough investigation of the factors contributing to their initiation and spread. This exploration has generated substantial data relevant to forest fire issues. Machine learning is a subset of artificial intelligence, allowing computers to learn from data and perform tasks without explicit programming. Machine-learning models excel at automatically identifying patterns and relationships within extensive datasets. This capacity enables comprehensive data analysis, uncovering concealed insights, precise predictions, and innovative solutions to complex challenges [9
+]. Fig. 2 shows the exponential growth in scientific publications focusing on applying machine learning to forest fire concerns over recent decades.
+Fig. 2Number of publications containing the keywords “Artificial Intelligence” and “Forest Fire” over the past decades.
+View Large Image Figure ViewerDownload Hi-res image Download (PPT)
+However, it is imperative to emphasize that several challenges limit the application of machine learning for forest fire warnings. These challenges include the substantial infrastructure costs associated with deploying and maintaining ground-based sensors, concerns regarding data quality, the need for real-time processing, and the complexity of environmental factors influencing fire behavior. Furthermore, the scalability of machine-learning models, particularly complex deep learning models, can be challenging for large-scale monitoring. This study used various data sources to investigate the efficiency of machine-learning models focusing on forest fire prediction in Thailand. These models can be classified into three categories: linear, nonlinear, and decision-tree-based [10
+]. The specific models included in each category are listed in Table 1.
+Table 1Categories of machine-learning models and algorithms considered in this study.
+Model
+
+Classification Categories Machine-Learning Models and Algorithms
+Linear Models Logistic Regression, Naive Bayes
+Nonlinear Models K-Nearest Neighbor (KNN), Support Vector Machine (SVM), Artificial Neural Network (ANN), Voting Classifier
+Decision-Tree-Based Models Decision Tree, Random Forest, Gradient Boosting, XGBoost, LightGBM
+Open table in a new tab
+This study uses fire radiative power (FRP) to indicate fire occurrence. FRP, as defined by the National Aeronautics and Space Administration (NASA) [11
+
+], is the rate of radiative energy emitted by a fire at the time of observation. FRP is measured in Watts using satellite technology. Bylow [12
+] reported that forest fires generate FRP and demonstrated that low-intensity fires typically result in insignificant FRP levels. Additionally, Kumssa [13
+] showed that the confidence level of fire detection increases with the increase in FRP. The FRP data employed in this study were collected from various locations in Thailand, and specific FRP values were used as forest fire occurrence indicators.
+When forest fire occurred, there are multiple gases and water vapors emit to the atmosphere [14
+]. Urbanski et al. [15
+] stated that the forest fire could be the results of incomplete combustion, which lead to the release of smoke, dust, fog, ash, and various toxic gases including carbon monoxide (CO), nitrogen dioxide (NO2), sulfur dioxide (SO2), ozone (O3), are likely to emit to the air. Moreover, Arikan and Yildiz [16
+] mentioned these gases could be used to assess the quality of the air after the forest fire and environmental effects.
+Recently, machine learning has been used in forest fire warning systems to deal with forest fire problems. The research can be classified into two categories based on the research objective: 1) prediction and 2) detection. Machine-learning studies have generally focused more on fire prediction than real-time detection. The objective of previous studies on forest fire prediction was to maximize the accuracy of their machine-learning models. Gulati [17
+] and Nissa [18
+] trained their models using data from the University of California, Irvine, Machine-Learning Repository. In these datasets, a confidence ratio of forest fire occurrence is included. Bui et al. [19
+], Amiri and Pourghasemi [20
+], Watson et al. [21
+], and Sayad et al. [22
+] used publicly available geographical information system data in their studies. However, a feedback system that allows machine-learning models to be retrained and model integration in real-time prediction systems have not been reported.
+Another objective of previous studies on forest fire detection was to optimize the speed of the detection algorithm and warning system because the damage caused by forest fires often increases exponentially with time [23
+]. Unlike prediction methods, the models used in this work were integrated with sensor devices to evaluate their performance. For example, Pragati and Umbrajkar [24
+] combined a decision-tree model across a network of sensors to develop a fire warning system in India. However, in some studies, no further integration was made. For example, Ma et al. [25
+] left the integration of the model with an Internet of Things system as a future improvement.
+This study aims to enhance Thailand's resilience against forest fires, a significant threat to the nation's ecosystems, economy, and environment, by developing a machine-learning-powered forest fire warning system. Existing forest fire warning systems are frequently inefficient and ineffective, requiring a more sophisticated and reliable alternative. The research question is, “How can machine learning be harnessed to create near-real-time forest fire predictions?” The hypothesis is grounded in the potential of machine-learning models to uncover complex patterns from historical data, offering a more advanced forest fire warning system. The study collects the fire warning index and potential fire occurrence indicators, uses data-preprocessing techniques to address data issues, such as missing data, disparate features across diverse datasets, and highly imbalanced data, and develops a forest fire prediction model as the foundation for intelligent forest fire warning systems. Furthermore, the research provides recommendations for these systems and outlines future developments in machine-learning solutions for forest fire prediction to reduce economic and environmental losses and improve the quality of life for forest-dependent communities in Thailand.
+2. Method
+The study flowchart is presented in Fig. 3. Based on several predetermined conditions, data from multiple sources are collected and merged to form a raw dataset. After performing data exploration to understand the available data, the raw dataset is split into training and testing datasets, and the corresponding datasets are preprocessed. Randomized search cross-validation (RandomizedSearchCV) is then applied to the “cleaned” dataset to determine the best hyperparameters. Further splitting can be done to create a validation dataset that can be used for hyperparameter tuning using a similar process [9
+]. The testing dataset is preprocessed according to the training dataset, and the models are trained and evaluated against the testing dataset. Based on the evaluation metrics, the best model is identified and exported from the development environment to be integrated into sensor devices.
+Fig. 3Study flowchart.
+View Large Image Figure ViewerDownload Hi-res image Download (PPT)
+This study used Google Colab [26
+
+] as the primary integrated development environment. The Google Colab tensor processing unit (TPU) uses Cloud TPU v2 by default to accelerate the computational power. As a result, the time required for model training, particularly for complex models, is significantly reduced. Google Colab does not allow the configuration to use other versions of Cloud TPU [27
+]. The Python libraries and associated versions used in this study are presented in Table 2.
+Table 2Python libraries and their associated versions used in this study.
+Library Version
+NumPy 1.22.4
+Pandas 1.5.3
+Matplotlib 3.7.1
+Seaborn 0.12.2
+Scikit-Learn 1.2.2
+Imbalanced-Learn 0.10.1
+XGBoost 1.7.5
+LightGBM 3.3.5
+TensorFlow 2.12.0
+Eras 2.12.0
+Open table in a new tab
+2.1 Data collection
+The first step in this study was data collection. The data were collected from three distinct sources. The specific attribute analyzed was the fire warning index, which incorporates geospatial data and the atmosphere's physical properties with particular emphasis on gas data. These data were obtained from sensor devices in Thailand [28
+] and satellites using the Google Earth engine application programming interface (API). The API was used to process the geospatial gas data of a specified area; these data were provided by the Department of Provincial Administration of Thailand [29
+
+]. The forest fire occurrences [30
+
+], which are the points indicating where the forest fire occurred, was the dependent variable used in this study. Each of the data point location representing a district in Thailand was determined by the minimum and maximum values of the latitude and longitude of each subdistrict within a district for the gas datasets obtained from sensor devices and satellites. Furthermore, the time data of the gas dataset obtained from satellites were formatted at a period during which the satellite measured the gas values. This formatted dataset was then merged with other datasets in a subsequent step.
+The data obtained from three distinct sources were combined using three different methods. Each dataset was collected over a different period; gas data were collected from sensor devices between July 21st, 2020, and November 7th, 2022, and from satellites between November 22nd, 2018, and December 14th, 2022; near real-time active-fire data, which included FRP data, were collected between January 1st, 2001 and December 17th, 2022. In the

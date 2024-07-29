@@ -1,0 +1,16 @@
+Here are five detailed paragraphs based on the scientific study:
+
+**Paragraph 1**
+The COVID-19 pandemic has had a significant impact on global health, causing widespread illness and death. Hong Kong, with its stringent public health measures, recorded a relatively low number of cases and mortality rate in the early stages of the pandemic. However, the pandemic's effects on other respiratory viruses and air pollution remain unclear. This study aimed to estimate the variation in disease burden associated with air pollutants and other respiratory viruses during the COVID-19 pandemic in Hong Kong.
+
+**Paragraph 2**
+This study used a machine learning approach, XGBoost, to calculate excess mortality attributable to air pollutants and influenza from 2014 to 2021 in Hong Kong. The model incorporated weekly age-specific population size, meteorological data, air pollution data, and influenza surveillance data as covariates. We also compared the XGBoost model estimates with those from a classical time-series modeling approach, general additive model (GAM), which has been used in previous studies on the disease burden of influenza.
+
+**Paragraph 3**
+During the pandemic period (2020-2021), there were 8,762 and 12,496 excess all-cause deaths in Hong Kong, corresponding to 117.4 and 167.9 per 100,000 population. Excess deaths from all-causes, cardiovascular and respiratory diseases, pneumonia, and influenza attributable to influenza A and B significantly decreased in all age groups. However, excess deaths associated with ozone increased in all age-disease categories, while the relative change of nitrogen dioxide (NO2) and particulate matter less than 10 μm (PM10) showed a varied pattern.
+
+**Paragraph 4**
+The results suggest that both direct and indirect impacts should be considered when assessing the global and regional burden of COVID-19. The pandemic's effects on other respiratory viruses, such as influenza, are significant, and air pollution levels may have been influenced by social distancing measures. Further studies are needed to fully understand these interactions and their implications for public health policy.
+
+**Paragraph 5**
+In conclusion, this study highlights the importance of considering both direct and indirect impacts when assessing the disease burden associated with COVID-19. The results suggest that influenza activity decreased significantly during the pandemic period in Hong Kong, while ozone levels increased. These findings have important implications for public health policy and highlight the need for continued monitoring of air pollution and other environmental factors to inform effective mitigation strategies.

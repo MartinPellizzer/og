@@ -1,0 +1,469 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home BMC Public Health Article
+Short-term exposure to air pollution on peripheral white blood cells and inflammation biomarkers: a cross-sectional study on rural residents
+Research
+Open access
+Published: 26 June 2024
+Volume 24, article number 1702, (2024)
+Cite this article
+Download PDF
+You have full access to this
+open access
+article
+BMC Public Health
+Aims and scope
+Submit manuscript
+Yishu Yang, Hui Wu, Yuling Zeng, Fei Xu, Shuaiqi Zhao, Ling Zhang, Zhen An, Huijun Li, Juan Li, Jie Song & Weidong Wu 
+463 Accesses
+12 Altmetric
+1 Mention
+Explore all metrics
+Abstract
+Effects of short-term exposure to ambient air pollution on systemic immunological and inflammatory biomarkers in rural population have not been adequately characterized. From May to July 2021, 5816 participants in rural villages of northern Henan Province, China, participated in this cross-sectional study. Blood biomarkers of systemic inflammation were determined including peripheral white blood cells (WBC), eosinophils (EOS), basophils (BAS), monocytes (MON), lymphocytes (LYM), neutrophils (NEU), neutrophil-lymphocyte ratio (NLR), and serum high-sensitivity C-reactive protein (hs-CRP). The concentrations of ambient fine particulate matter (PM2.5), PM10, nitrogen dioxide (NO2), carbon monoxide (CO), and ozone (O3) were assessed up to 7 days prior to the blood draw. A generalized linear model was used to analyze the associations between air pollution exposure and the above-mentioned blood biomarkers. Significantly positive associations were revealed between PM2.5, CO and WBC; CO, O3 and LYM; PM2.5, PM10, SO2, CO and NEU; PM2.5, PM10, SO2, CO and NLR; PM2.5, PM10, SO2, NO2, CO, O3 and hs-CRP. Meanwhile, negative associations were found between SO2 and WBC; PM2.5, PM10, NO2, CO, or O3 and EOS; PM2.5, SO2, or CO and BAS; SO2, NO2 or O3 and MON; PM2.5, PM10, SO2, or NO2 and LYM. Moreover, men, individuals with normal body mass index (BMI), current smokers, and those older than 60 years were found vulnerable to air pollution effects. Taken together, short-term exposure to air pollution was associated with systemic inflammatory responses, providing insight into the potential mechanisms for air pollution-induced detrimental systemic effects in rural residents.
+View this article's peer review reports
+Similar content being viewed by others
+Association of ambient air pollution with hemoglobin levels and anemia in the general population of Korean adults
+Article Open access
+09 April 2024
+The Wuhan-Zhuhai (WHZH) cohort study of environmental air particulate matter and the pathogenesis of cardiopulmonary diseases: study design, methods and baseline characteristics of the cohort
+Article Open access
+24 September 2014
+Associations between short-term exposure to ambient air pollution and lung function in adults
+Article 13 May 2023
+Introduction
+Air pollution is a major environmental threat to human health worldwide and has been shown to be associated with a wide range of adverse health outcomes. Previous epidemiological studies have shown that exposure to air pollution leads to a variety of adverse health outcomes, including cardiorespiratory and autoimmune diseases, and can even increase mortality in the population [1,2,3,4]. Many pathophysiological alterations, such as inflammation, oxidative stress, and immunological disorders, have been attributed to air pollution exposure [5, 6]. Documented studies have indicated that air pollutants are capable of stimulating airway epithelial cells and immune cells, resulting in airway epithelial damage and detrimental effects beyond the lung, including systemic immunological and inflammatory responses [7,8,9,10].
+One of the primary systemic inflammatory responses is the stimulation of the haematopoietic system to release leukocytes and platelets into the circulation. Previous studies have shown that leukocytes are a reliable predictor for air pollution-induced short- and long-term health effects [11,12,13]. Epidemiological investigations have discovered the relationships between short-term exposure to ambient air pollutants and the alterations of peripheral white blood cells in urban populations, such as peripheral white blood cells (WBC), eosinophils (EOS), basophils (BAS), monocytes (MON), lymphocytes (LYM), and neutrophils (NEU), neutrophil/lymphocyte ratio (NLR) [13,14,15]. In particular, NLR responds to the dynamic changes in neutrophils and lymphocytes and can be applied to quantify the dynamic action of cellular innate and adaptive immune responses, being considered as a new perspective marker of and a valid indicator of systemic inflammation [16,17,18]. Thus far, the association of short-term air pollution exposure with NLR has been less characterized, with no evidence available for rural populations. In addition, high-sensitivity C-reactive protein (hs-CRP), a simple, rapid and cost-effective biomarker of systemic inflammation [18], has been widely utilized to assess health effects of short-term air pollution exposure due to its high sensitivity, but the existing evidence appears inconsistent [19,20,21].
+Xinxiang is located north of Henan province, one of the most populous provinces and the top region by rural population in China, and is one of the regions in the country with severe air pollution [22]. Noteworthy, the population in this present study was living in a typical and modern rural area with traditional agriculture and community-managed industries. This represents the new trend of village development (rural revitalization) in modern China. Thus, the findings from this study could apply to other rural areas in Henan province or part of other provinces. Therefore, it is of practical significance to evaluate health consequences of air pollution on rural dwellers in this developing regions. Given that systemic inflammation is a common and essential event in the pathogenesis of many diseases, examination of blood biomarkers for systemic inflammation is crucial to identify early alterations of adverse health effects and take measures to prevent progression of diverse noncommunicable chronic diseases. It should also be noted that examination of white blood cells as well as soluble biomarkers of systemic inflammation was an indispensable part of the funded national project which supported this present study. In this context, the aim of this present study was to evaluate the effects of short-term exposure to ambient air pollution on peripheral white blood cells and serumm biomarker for systemic inflammattion in the rural population of Xinxiang, and to provide clues for design of preventive and therapeutic strategies.
+Methods
+Study participants
+5816 participants were finally recruited in rural villages of Xinxiang from May to July 2021. Trained investigators employed standardized questionnaires to gather individual data, such as demographic characteristics, lifestyle habits, and disease history. Smoking, drinking, and physical activities were specified as previously reported [23]. Herein, smoking was defined as a minimum of one cigarette a day for more than 6 months; drinking as consuming alcohol 12 or more times annually, and physical activity levels as high, moderate, and low based on the physical activity-metabolic equivalent. The disease status of the participants was designated by the Charlson Comorbidity Index (CCI) [24]. Body mass index (BMI) was calculated as the ratio of body weight in kilograms(kg) divided by the square of height in meters (m2). The Ethics Committee of Xinxiang Medical University for Human Studies authorized this investigation (XYLL-2,016,242). Moreover, the informed consent was given willingly and in writing by each participant.
+Estimation of air pollution exposures
+Ambient air pollutant concentrations included the 24-h average concentrations of PM2.5 (particulate matter with a diameter of 2.5 μm and less), PM10, nitrogen dioxide (NO2), sulfur dioxide (SO2), carbon monoxide (CO), and the daily maximum 8-h average concentrations of ozone (O3) from May 26 to July 20, 2021, were obtained from Xinxiang Environmental Monitoring Station. The distance between the participant’s dwellings and the environmental monitoring site was less than 10 km. The daily average temperature and relative humidity was obtained from the China Meteorological Data Network. In addition to single-day lag models (lag0 to lag7), moving average lag models (lag01 and lag07) were also used to assess the impacts of air pollution exposure.
+Measurements of peripheral blood biomarkers
+15.0 ml peripheral venous blood was drawn by medical staff from each participant fasting for at least 8 h. 10.0 ml of blood was put into an anticoagulant-treated tube and gently mixed before cell counting. The other 5.0 ml of blood was drained into a tube without anticoagulant treatment and sat for 30–60 min at room temperature to collect serum for hs-CRP measurement. WBC, EOS, BAS, MON, LYM, and NEU were counted using an automated hematology analyzer (XS-500i, Sysmex Corporation, Kobe, Japan) and NLR calculated. Serum hs-CRP was measured using an automated clinical chemistry analyzer (CS-2000, Dirui Industrial, China). The biomarkers were examined by a certified clinical laboratory with standardized operating and quality control procedures.
+Statistical analyses
+Continuous variables’ normal and non-normal distributions were presented, respectively, as mean (standard deviation) and median (interquartile range); categorical variables were expressed as number (percentage).
+The association between exposure to air pollution and meteorological factors were assessed by Spearman correlation analyses. The short-term impact of ambient air pollution on blood biomarkers was evaluated using multivariable linear regression models. To assess the lag-associated effects of air pollution exposure, the model incorporated a spectrum of lagged, including single-day lags and moving averages of multiple lagged days (lag0-7, 01–07). Blood biomarker values were normalized using log10 transformation before being included into the models. Those estimated effects were displayed as a percentage change (95% CI) for every 10 µg/m3 increasing concentration of each air pollutant.
+For each air pollutant, its effect on a single biomarker was evaluated individually. The air pollution exposure model was adjusted for age, BMI, and category-type variables including sex, villages, marital, smoking and drinking status, education, average monthly income, and physical activity levels, CCI, allergy, and meteorological factors including temperature and relative humidity. For the latter, only those lag dates that produced minimum moving average values of Akaike Information Criterion (AIC) were selected.
+To investigate the confounding effects of sex (male vs. female), BMI (< 24 vs. ≥ 24 kg/m2), smoking status (current smoker, never or former smokers), and age (≥ 60 vs. < 60 years) on the relationship between air pollution exposure and blood biomarkers, stratification analyses were preformed. To verify the robustness of the estimated effects and allow for the adjustment of co-pollutants, sensitivity analyses were carried out with two-pollutant models.
+R software (version 4.1.3) was used for all data analyses, and the “ggplot2” package was used to visualize data. The threshold for statistical significance was set at P < 0.05.
+Results
+Demographic characteristics of the participants
+Demographic characteristics and blood biomarkers of the participants are presented in Table 1. In this study, 2157 males (37.1%) and 3659 females (62.9%) with an average age of 57.79 years and BMI of 25.59 kg/m2 were recruited. Of 5816 subjects, 16.5% were current smokers and 77.6% former smokers; 63.8% had high physical activity and 31.5% moderate activity. The median counts for WBC, EOS, BAS, MON, LYM, and NEU were 5.97 × 109/L, 0.09 × 109/L, 0.03 × 109/L, 0.27 × 109/L, 1.98 × 109/L, and 3.48 × 109/L, respectively, and the median of NLR was 1.7%. Meanwhile, the mean serum level of hs-CRP was 2.04 mg/L.
+Table 1 Descriptive characteristics and blood biomarkers of the participants
+Full size table
+Correlations of ambient air pollutants and meteorological variables
+Table 2 shows the distribution of air pollutant concentrations and meteorological variables over the survey period. The median levels of PM2.5, PM10, SO2, NO2, O3, and CO were 24.50 (8.0–65.0), 56.50 (20.0-148.0), 10.00 (2.0–16.0), 19.00 (7.0–37.0), 86.00 (39.6–68.0) µg/m3 and 0.60 (0.3–1.3) µg/m3, respectively. PM2.5 and PM10 concentrations were above the current World Health Organization’s air quality guidelines. In addition, the median temperature and relative humidity were 28.10 (23.3–31.7) ℃ and 64.5 (26–100) %, respectively.
+Table 2 Summary statistics for air pollutant concentrations and meteorological variables during the study period
+Full size table
+The associations of air pollutant concentrations with meteorological factors were assessed with Spearman correlation analyses. The varied correlations were shown in Fig. S1.
+Effects of air pollution exposure on blood biomarkers
+After adjustment for confounding factors, the associations between air pollutant levels and blood cellular biomarkers are depicted in Fig. 1.
+Fig. 1
+Association of short-term exposure to air pollutants with WBC and subtypes at different lags. The effects were presented as percentage changes (%) per 10 µg/m3 changes in air pollutant concentrations. Abbreviations WBC, white blood cells; EOS, eosinophils; BAS, basophils; MON, monocytes; LYM, lymphocytes; NEU, neutrophils
+Full size image
+As shown in Fig. 1, exposure to PM2.5 (lag5, lag6) or CO (lag5, lag6, lag06, and lag07) was positively correlated to total WBC counts, respectively. Every 10 µg/m3 increment in PM2.5 (lag5) and CO (lag07) was related to 0.51% (95% CI: 0.19%, 0.82%) and 0.04% (95 CI: 0.01%, 0.07%) increase in total WBC counts, respectively. In contrast, SO2 exposure was negatively correlated with this parameter, each 10 µg/m3 increase in SO2 (lag5) was negatively associated with − 1.34% (95CI: -0.08%, -2.6%) decrease in WBC counts. No correlations were detected between PM10, NO2, or O3 exposure with WBC count.
+In addition, Fig. 1 also shows the associations of air pollution exposures with EOS counts. Exposures to PM2.5 (lag1, 6, 7, 03–07), PM10 (lag1, 3, 6, 02–07), NO2 (lag7), CO (lag7) and O3 (lag1, 6), but not for SO2 exposure, were negatively associated with EOS counts. The strongest effects on EOS was seen with PM2.5 (lag07), PM10 (07), NO2 (lag7), CO (lag7), and O3 (lag1) exposures. Each 10 µg/m3 rise in PM2.5, PM10, NO2, CO, and O3 levels under these exposure scenarios was related to a decrease of -2.99% (95 CI: -0.99%, -5%), -1.08% (95 CI: -0.29%, -1.88%), -2.48% (95 CI: -0.85%, -4.12%), -0.07% (95 CI: -0.01%, -0.12%) and − 0.38% (95 CI: -0.04%, -0.73%) in EOS, respectively.
+The negative effects of air pollution on BAS were also detected as for EOS. Each 10 µg/m3 increment in PM2.5, SO2, and CO concentrations was related to a decline of -0.65% (95% CI: 0.00%, -1.30%), -2.22% (95% CI: -0.03%, -4.40%), and − 0.04% (95% CI: 0.00%, -0.08%) in BAS (lag1), respectively. The decreasing trends for BAS count following PM10 and NO2 exposure were observed, but not significant.
+Short-term exposure to SO2, NO2, or O3 posed negative effect on MON count. Each 10 µg/m3 increase in SO2 (lag5), NO2 (lag7), and O3 (lag04) was associated with a decrease of -1.61% (95% CI: -0.28%, -2.94%), -0.89% (95% CI: -0.27%, -1.51%) and − 0.31% (95% CI: 0.08%, -0.54%) in MON count, respectively. Nevertheless, there was no significant associations between PM2.5, PM10, or CO levels and MON count.
+The concentrations of PM2.5 (lag1, 7), PM10 (lag1-3, lag6 and lag01-07), SO2 (lag7, lag07) and NO2 (lag7) were negatively associated with LYM count, while CO (lag0, 5) and O3 (lag0, 4) were positively related to this parameter. And the largest estimated effects on LYM for the aforementioned air pollutants were observed with PM2.5 (lag1) (-0.39% CI: -0.02, -0.76), PM10 (lag07) (-0.59%, 95% CI: -0.23%, -0.95%), SO2 (lag07) (-5.54%, 95% CI: -1.53%, -9.56%), NO2 (lag7) (-0.90%, 95% CI: -0.14%, -1.66%), CO (lag0) (0.03%, 95% CI: 0.01%, 0.05%), or O3 (lag4) (0.15%, 95% CI: 0.04%, 0.27%).
+There existed significantly positive associations of PM2.5 (lag5-7, lag06-07), PM10 (lag7), SO2 (lag7), or CO (lag2,5–7, lag 05–07) exposure with NEU count, respectively. The maximum effects of air pollution exposure on NEU count occurred with PM2.5 (lag07), PM10 (lag7), SO2 (lag7), or CO (lag07). Under this circumstance, each 10 ug/m3 increase in PM2.5, PM10, SO2, and CO correlated to an increase of 1.23% (95%CI: 0.37%, 2.09%), 0.17% (95%CI: 0.00%, 0.33%), 2.51% (95%CI: 0.48%, 4.54%), and 0.06% (95%CI: 0.03%, 0.1%) in NEU count.
+As illustrated in Fig. 2, significantly positive associations were revealed between PM2.5 (lag1, 5–7, lag05-07), PM10 (lag1, 5, 6, lag 02, 05–07), SO2 (lag6, lag7), or CO (lag6, lag7, lag07) exposure and NLR. Moreover, PM2.5 (lag07), PM10 (lag07), SO2 (lag7), and CO (lag07) posed strongest effects, corresponding to rises in NLR of 1.82% (95%CI: 0.83%, 2.82%), 0.57% (95%CI: 0.17%, 0.97%), 4.99% (95%CI: 2.62%, 7.36%), and 0.05% (95%CI: 0.01%, 0.1%).
+Fig. 2
+Association of short-term exposure to air pollutants with NLR and hs-CRP at different lags. The effects were represented as percentage changes (%) for each 10 µg/m3 changes in air pollutants concentration. Abbreviations NLR, neutrophil-lymphocyte ratio; hs-CRP, high-sensitivity C-reactive protein
+Full size image
+Short-term air pollution exposure was found to be significantly related to serum hs-CRP (Fig. 2). Specifically, PM2.5 (lag5-7, lag02-07), PM10 (lag4-7, lag06, lag07), SO2 (lag1-3, lag01-07), NO2 (lag7), CO (lag2-7, lag01-07), and O3 (lag1-7, lag01-07) exposures had significantly positive associations with serum levels of hs-CRP. Hs-CRP increased by 4.51% (95%CI: 2.72%, 6.29%), 1.21% (95%CI: 0.45%, 1.97%), 18.96% (95%CI: 9.66%, 28.26%), 2.08% (95%CI: 0.83%, 3.33%), 0.17% (95%CI: 0.1%, 0.24%), and 1.54% (95%CI: 1.04%, 2.05%) for each 10 µg/m3 increase in PM2.5 (lag07), PM10 (lag07), SO2 (lag07), NO2 (lag7), CO (lag07), and O3 (lag07), respectively.
+Confounding factor stratification and two-pollutant model analyses
+The stratification by sex, BMI, smoking status, and age was performed. It was shown that the impacts of PM2.5 and SO2 on EOS were significantly higher in males than in females, but no sex difference in NLR (Fig. 3). The effects of SO2 on NEU and hs-CRP were significantly greater in people with a BMI less than 24 kg/m2 than people with a BMI ≥ 24 kg/m2. This was not seen for PM2.5 and PM10 in those with a BMI less than 24 kg/m2 (Fig. 4). Current smoking was found to strengthen SO2-induced decrease in EOS counts than non-smoking. Additionally, the effects of PM10 exposure on NLR and NEU were significantly stronger in smokers than in non-smokers (Fig. 5). Older ages (≥ 60 years) significantly increased the effects of PM2.5 exposure on EOS and LYM as well as the effect of SO2 on LYM than younger ages (< 60 years) (Fig. 6).
+Fig. 3
+Changes in age-stratified effects on blood biomarkers associated with a 10 µg/m3 increase in concentrations of air pollutants. The effects were represented as percentage changes (%) for each 10 µg/m3 changes in air pollution concentrations. Older, age ≥ 60 years; Younger, age < 60 years
+Full size image
+Fig. 4
+Changes in sex-stratified effects on blood biomarkers associated with a 10 µg/m3 increase in concentrations of air pollutants. The effects were represented as percentage changes (%) for every 10 µg/m3 changes in air pollution concentrations
+Full size image
+Fig. 5
+Changes in BMI-stratified effects on blood biomarkers associated with a 10 µg/m3 increase in concentrations of air pollutants. The effects were represented as percentage changes (%) for every 10 µg/m3 changes in air pollution concentrations. Normal, BMI < 24 kg/m2; Overweight, BMI ≥ 24 kg/m2
+Full size image
+Fig. 6
+Changes in smoking-stratified effects on blood biomarkers associated with a 10 µg/m3 increase in concentrations of air pollutants. The effects were represented as percentage changes (%) for every 10 µg/m3 changes in air pollution concentrations. Non-smokers, never or former smokers; Smokers, current smokers
+Full size image
+In the two-pollutant model analyses, significant associations were detected between PM2.5 and counts of WBC, NEU, and NLR, as well as serum levels of hs-CRP after controlling other co-pollutants. In addition, although the significant association of PM2.5 with EOS or BAS became insignificant after inclusion of PM10 or SO2 in the two-pollutant model, these resultant differences were not significant (Table 3). Given minimal differences in the impacts of air pollution between one-pollutant and two-pollutant models, it was assumed that the influence of each air pollutant on blood biomarkers was predominant (Table S1-5).
+Table 3 Percent Changes (95% CI) of immunological and inflammatory biomarkers with a 10 µg/m3 increase in PM2.5 in two-pollutant model
+Full size table
+Discussion
+Thus far, the evidence of air pollution exposure in rural areas on peripheral white blood cells and inflammation biomarkers is scarce and inconsistent. This study revealed significant associations of short-term exposure to ambient air pollution with peripheral white blood cells and a serum inflammatory biomarker of the population living in rural areas of Northern Henan Province, China. Interestingly, men, normal BMI, current smokers, and old age rendered the participants more susceptible to the harmful effects induced by air pollution exposure.
+WBC are considered as systemic effector cells of inflammatory stimuli [25]. In the present study, we found that exposure to PM2.5 and CO significantly increased WBC count, while SO2 exposure markedly reduced WBC count. These findings were consistent with the previous reports. For example, previous studies with an American population and a Chinese community have shown that short-term exposure to ambient PM2.5 enhances counts of circulating WBC [26, 27]. Increased WBC count following CO exposure was also reported in a Japanese population [14]. The underlying mechanism for WBC effect is assumed to be due to released cytokines in the circulation, further rendering leukocyte mobilization from bone marrow [28]. An interesting finding from 125 healthy young adults was that exposure to lower levels of gaseous and particulate pollution did not significantly boost WBC counts [29]. Another study showed that circulating WBC count was even reduced following short-term exposure to atmospheric PM in postmenopausal women aged 50–79 years [30]. Whether these discrepancies in WBC effect were due to the curvilinear association of SO2 with WBC counts remains unclear [31]. In addition, the variations in the study subjects’ demographics and exposure to air pollution over time may also have an impact.
+The present study discovered that the subtypes of WBC including EOS, BAS, and MON were also significantly associated with air pollution exposure. Specifically, exposure to PM2.5, PM10, NO2, CO, and O3 were negatively related to EOS counts, while exposure to PM2.5, SO2, and CO were also negatively related to BAS counts. Moreover, gaseous air pollutants including SO2, NO2, and O3 exposures were negatively associated with MON counts. In addition, this study also showed that short-term exposures to PM2.5, PM10, SO2, and NO2 decreased LYM counts but CO and O3 exposures increased LYM counts. Noteworthy, exposures to PM2.5, PM10, SO2, and CO were significantly correlated with the increase in NEU counts. These findings were in line with some previous studies. For instance, in a study with 31 subjects from five different locations, Steenhof et al. reported a negative correlation between NO2 exposure and LYM counts, and a positive association of PM with NEU counts [15]. In another study of healthy men in North Carolina, USA, Riediker et al. showed that exposure to PM2.5 was negatively correlated with LYM and positively associated with NEU count [32]. Additionally, a Copenhagen research showed that short-term exposure to ambient CO increased counts of NEU and LYM [14]. However, there was one study showing no correlation between exposure to air pollution and BAS, EOS, and MOS counts of healthy people’s [33]. Another study with non-smoking, healthy adults living in northern France demonstrated that exposure to lower concentrations of O3 was associated with a significantly higher EOS count [34]. In addition, an investigation of 15 healthy volunteers showed a decrease in LYM after short-term exposure to O3 [35]. A recent study with an urban population reported a significant positive association between NEU and LYM counts and short-term exposure to air pollutants (PM2.5, PM10, SO2, NO2, CO, O3) [13]. Overall, the associations of ambient air pollution with the subtypes of WBC counts appeared to be air pollutant- and cell type-dependent, and were also affected by the participant’s health status, air pollution levels, and the physicochemical characteristics of air pollutants.
+NLR has been proposed as a more sensitive and systemic biomarker of inflammation and immune responses induced by diverse stimuli [36,37,38,39]. However, the studies used NLR as a biomarker of air pollutant effects on humans are limited and inconsistent. For instance, a Swedish epidemiological investigation revealed that moderate PM2.5 and PM10 exposures were associated with increased NLR [40]. In contrast, a study of Chinese schoolchildren did not find significant alteration in NLR between the polluted and control areas [41]. Interestingly, according to a cross-sectional study of urban Chinese adults, exposure to CO was positively correlated with NLR whereas exposure to PM10 negatively correlated with NLR [13]. This present study in rural areas showed an association between short-term exposures to PM2.5, PM10, SO2, and CO with elevations in NLR, suggesting that exposure to air pollutants induced systemic immunological and inflammatory responses.
+Hs-CRP is the specific biomarker of low but persistent levels of inflammation [20]. A previous study has demonstrated that short-term exposure to either PM2.5 or PM10 raised hs-CRP levels, with PM2.5 having a larger effect than PM10 [42]. In addition, gaseous air pollutants including SO2, NO2, and CO also induced significant increases in hs-CRP [19]. In line with these observations, this study revealed positive correlations between PM2.5, PM10, SO2, NO2, CO, or O3 and hs-CRP, and PM2.5 also showed a stronger effect than PM10. Whether air pollution-induced oxidative stress is involved in this process remains to be elucidated [43, 44].
+This study revealed that men, individuals with normal BMI, current smokers, and those older than 60 years were also shown to be more vulnerable to the harmful effects of acute exposure to air pollutants. The impact of sex factor may be due to biological and lifestyle differences between males and females, the latter having better innate immunity than men [45, 46]. The effects of SO2 exposure on NEU and hs-CRP were more evident in the non-overweight population than in the overweight population in this study. Similarly, a previous research demonstrated that the effect of PM10 on hs-CRP was more evident in non-obese individuals [47]. The explanation for this observation could be that the people with obesity or overweight had slightly higher baseline of oxidative stress and inflammation, rendering the effects of air pollution in these people difficult to identify [48]. Both air pollutants and cigarettes have been reported to induce acute epithelial injury and neutrophil inflammation [49, 50]. It is assumed that the airways of smokers are vulnerable to air pollutant adverse effects [51,52,53]. With regard to the age, the elderly are more susceptible to health problems when exposed to air pollutants given their age-related impairment of immune system, ineffective cardiovascular and respiratory systems, and existence of other adverse co-factors [54].
+The present study was conducted on a rural population to assess the effects of short-term exposure to air pollution on peripheral white blood cells and serum inflammatory biomarker. A study conducted on a population in Kaohsiung City, Japan, showed similar results, with air pollution exposure being associated with white blood cells alterations, implying that air pollution is associated with systemic inflammation in humans [14]. Another study conducted on 22 healthy young subjects from highly polluted urban areas and low-polluted rural areas, respectively, demonstrated that air pollution was associated with hs-CRP and white blood cells levels, with a greater effect on leukocyte counts in urban populations probably due to differences in air pollution levels, sources and other socioeconomic factors between urban and rural areas [55].
+This study used peripheral leukocytes and a serum inflammatory biomarker as exposure outcomes to assess the potential response to short-term air pollution exposure on populations in rural areas, with the innovative use of NLR as a composite marker. The strength of this study mainly lied on the use of comprehensive data of sociodemographic characteristics, lifestyle, health conditions, and other factors. In addition, all results were adjusted for potential confounders, which made the findings of the study more robust and credible. Several limitations should also be pointed out for this study. First, air pollution exposure might be underestimated using monitoring station data since environmental monitoring stations might not accurately capture personal exposure levels, especially if individuals spend significant time indoors or away from the monitoring locations. In addition, air pollutant levels could vary significantly over small distances and short time periods, which might not be captured fully by the data from monitoring stations. Second, there could be additional uncontrolled confounding factors in the study, such as indoor air pollution or occupational exposures, or socioeconomic status, which might influence both exposure and biomarker levels. Third, some biomarkers used in this study might not be sensitive enough to detect subtle changes caused by short-term exposures, or they may not reflect longer-term health effects.
+Conclusions
+This cross-sectional study on a rural population revealed that short-term exposure to ambient air pollutants was associated with alterations of blood inflammatory biomarker, offering new epidemiological evidence for understanding air pollution adverse effects on the health of rural residents. Examination of blood samples for inflammatory biomarkers is important in these rural populations because it not only helps individuals and communities understand their health status, but also helps the early detection of many common diseases, such as diabetes and hypertension. This may reduce healthcare costs and improve the overall health of the rural population. Future researches will investigate long-term exposure to air pollution on peripheral white blood cells and inflammation biomarkers to test the validity of these cellular and molecular biomarkers in rural populations. Animal models will also be introduced to examine the causal relationship between exposure to ambient air pollutants collected from rural areas and systemic inflammation, and examine intervention measures.
+Data availability
+The data used and/or analyzed during the study will be available upon the request.
+References
+Schraufnagel DE, Balmes JR, Cowl CT, De Matteis S, Jung S-H, Mortimer K, et al. Air Pollution and Noncommunicable diseases: a review by the Forum of International Respiratory Societies’ Environmental Committee, Part 2: Air Pollution and Organ systems. Chest. 2019;155:417–26.
+Article
+  PubMed
+  Google Scholar
+  Liu Y, Pan J, Zhang H, Shi C, Li G, Peng Z, et al. Short-term exposure to Ambient Air Pollution and Asthma Mortality. Am J Respir Crit Care Med. 2019;200:24–32.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Cohen AJ, Brauer M, Burnett R, Anderson HR, Frostad J, Estep K, et al. Estimates and 25-year trends of the global burden of disease attributable to ambient air pollution: an analysis of data from the Global Burden of diseases Study 2015. Lancet Lond Engl. 2017;389:1907–18.
+Article
+  Google Scholar
+  Liu C, Chen R, Sera F, Vicedo-Cabrera AM, Guo Y, Tong S, et al. Ambient Particulate Air Pollution and Daily Mortality in 652 cities. N Engl J Med. 2019;381:705–15.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Pope CA, Bhatnagar A, McCracken JP, Abplanalp W, Conklin DJ, O’Toole T. Exposure to fine Particulate Air Pollution is Associated with Endothelial Injury and systemic inflammation. Circ Res. 2016;119:1204–14.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Li Z, Liu Q, Xu Z, Guo X, Wu S. Association between short-term exposure to ambient particulate air pollution and biomarkers of oxidative stress: a meta-analysis. Environ Res. 2020;191:110105.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Tang H, Cheng Z, Li N, Mao S, Ma R, He H, et al. The short- and long-term associations of particulate matter with inflammation and blood coagulation markers: a meta-analysis. Environ Pollut Barking Essex 1987. 2020;267:115630.
+CAS
+  Google Scholar
+  Salvi S, Blomberg A, Rudell B, Kelly F, Sandström T, Holgate ST, et al. Acute inflammatory responses in the airways and peripheral blood after short-term exposure to diesel exhaust in healthy human volunteers. Am J Respir Crit Care Med. 1999;159:702–9.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Mumby S, Chung KF, Adcock IM. Transcriptional effects of ozone and impact on Airway inflammation. Front Immunol. 2019;10:1610.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Zhang JJ, Wei Y, Fang Z. Ozone Pollution: a Major Health Hazard Worldwide. Front Immunol. 2019;10:2518.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Chen J-C, Schwartz J. Metabolic syndrome and inflammatory responses to long-term Particulate Air pollutants. Environ Health Perspect. 2008;116:612–7.
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Bekwelem W, Lutsey PL, Loehr LR, Agarwal SK, Astor BC, Guild C, et al. White Blood Cell Count, C-Reactive protein, and Incident Heart failure in the atherosclerosis risk in communities (ARIC) Study. Ann Epidemiol. 2011;21:739–48.
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Qiu W, He H, Wang B, Wang D, Mu G, Xu T, et al. Short-term impacts of air pollution on the platelet-lymphocyte ratio and neutrophil-lymphocyte ratio among urban adults in China. J Environ Sci China. 2023;125:101–11.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Hung S-C, Cheng H-Y, Yang C-C, Lin C-I, Ho C-K, Lee W-H, et al. The Association of White Blood Cells and Air Pollutants-A Population-based study. Int J Environ Res Public Health. 2021;18:2370.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Steenhof M, Janssen NAH, Strak M, Hoek G, Gosens I, Mudway IS, et al. Air pollution exposure affects circulating white blood cell counts in healthy subjects: the role of particle composition, oxidative potential and gaseous pollutants - the RAPTES project. Inhal Toxicol. 2014;26:141–65.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Buonacera A, Stancanelli B, Colaci M, Malatino L. Neutrophil to lymphocyte ratio: an emerging marker of the relationships between the Immune System and diseases. Int J Mol Sci. 2022;23:3636.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Zahorec R. Neutrophil-to-lymphocyte ratio, past, present and future perspectives. Bratisl Lek Listy. 2021;122:474–88.
+CAS
+  PubMed
+  Google Scholar
+  Sproston NR, Ashworth JJ. Role of C-Reactive protein at sites of inflammation and infection. Front Immunol. 2018;9:754.
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Xu Z, Wang W, Liu Q, Li Z, Lei L, Ren L, et al. Association between gaseous air pollutants and biomarkers of systemic inflammation: a systematic review and meta-analysis. Environ Pollut Barking Essex 1987. 2022;292 Pt A:118336.
+Google Scholar
+  Darras-Hostens M, Achour D, Muntaner M, Grare C, Zarcone G, Garçon G, et al. Short-term and residential exposure to air pollution: associations with inflammatory biomarker levels in adults living in northern France. Sci Total Environ. 2022;833:154985.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Song J, Zhu J, Tian G, Li H, Li H, An Z, et al. Short time exposure to ambient ozone and associated cardiovascular effects: a panel study of healthy young adults. Environ Int. 2020;137:105579.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Song J, Liu Y, Lu M, An Z, Lu J, Chao L, et al. Short-term exposure to nitrogen dioxide pollution and the risk of eye and adnexa diseases in Xinxiang, China. Atmos Environ. 2019;218:117001.
+Article
+  CAS
+  Google Scholar
+  Hou J, Liu X, Tu R, Dong X, Zhai Z, Mao Z, et al. Long-term exposure to ambient air pollution attenuated the association of physical activity with metabolic syndrome in rural Chinese adults: a cross-sectional study. Environ Int. 2020. https://doi.org/10.1016/j.envint.2020.105459.
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Charlson ME, Pompei P, Ales KL, MacKenzie CR. CCI: a new method of classifying prognostic comorbidity in longitudinal studies: development and validation. J Chronic Dis. 1987;40:373–83.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Lee H, Myung W, Jeong B-H, Choi H, Jhun BW, Kim H. Short- and long-term exposure to ambient air pollution and circulating biomarkers of inflammation in non-smokers: a hospital-based cohort study in South Korea. Environ Int. 2018;119:264–73.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Wei T, Chen C, Yang Y, Li L, Wang J, Ye M, et al. Associations between short-term exposure to ambient air pollution and lung function in adults. J Expo Sci Environ Epidemiol. 2023. https://doi.org/10.1038/s41370-023-00550-0.
+Article
+  PubMed
+  Google Scholar
+  Schwartz J. Air pollution and blood markers of cardiovascular risk. Environ Health Perspect. 2001;109(Suppl 3 Suppl 3):405–9.
+CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Khafaie MA, Salvi SS, Ojha A, Khafaie B, Gore SS, Yajnik CS. Systemic inflammation (C-reactive protein) in type 2 diabetic patients is associated with ambient air pollution in Pune City, India. Diabetes Care. 2013;36:625–30.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Rich DQ, Kipen HM, Huang W, Wang G, Wang Y, Zhu P, et al. Association between changes in air pollution levels during the Beijing olympics and biomarkers of inflammation and thrombosis in healthy young adults. JAMA. 2012;307:2068–78.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Gondalia R, Holliday KM, Baldassari A, Justice AE, Stewart JD, Liao D, et al. Leukocyte traits and exposure to ambient particulate Matter Air Pollution in the women’s Health Initiative and Atherosclerosis Risk in communities Study. Environ Health Perspect. 2020;128:17004.
+Article
+  PubMed
+  Google Scholar
+  Liao D, Heiss G, Chinchilli VM, Duan Y, Folsom AR, Lin HM, et al. Association of criteria pollutants with plasma hemostatic/inflammatory markers: a population-based study. J Expo Anal Environ Epidemiol. 2005;15:319–28.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Riediker M, Cascio WE, Griggs TR, Herbst MC, Bromberg PA, Neas L, et al. Particulate matter exposure in cars is associated with cardiovascular effects in healthy young men. Am J Respir Crit Care Med. 2004;169:934–40.
+Article
+  PubMed
+  Google Scholar
+  Zuurbier M, Hoek G, Oldenwening M, Meliefste K, Krop E, van den Hazel P, et al. In-traffic air pollution exposure and CC16, blood coagulation, and inflammation markers in healthy adults. Environ Health Perspect. 2011;119:1384–9.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Dauchet L, Hulo S, Cherot-Kornobis N, Matran R, Amouyel P, Edmé J-L, et al. Short-term exposure to air pollution: associations with lung function and inflammatory markers in non-smoking, healthy adults. Environ Int. 2018;121:610–9.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Stiegel MA, Pleil JD, Sobus JR, Madden MC. Inflammatory cytokines and White Blood Cell counts response to environmental levels of Diesel Exhaust and ozone inhalation exposures. PLoS ONE. 2016;11:e0152458.
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Shi G, Zhao J-W, Ming L. Clinical significance of peripheral blood neutrophil-lymphocyte ratio and platelet- lymphocyte ratio in patients with asthma. Nan Fang Yi Ke Da Xue Xue Bao. 2017;37:84–8.
+PubMed
+  Google Scholar
+  Prats-Puig A, Gispert-Saüch M, Díaz-Roldán F, Carreras-Badosa G, Osiniri I, Planella-Colomer M, et al. Neutrophil-to-lymphocyte ratio: an inflammation marker related to cardiovascular risk in children. Thromb Haemost. 2015;114:727–34.
+Article
+  PubMed
+  Google Scholar
+  Aksoy E, Karakurt Z, Gungor S, Ocakli B, Ozmen İ, Yildirim E, et al. Neutrophil to lymphocyte ratio is a better indicator of COPD exacerbation severity in neutrophilic endotypes than eosinophilic endotypes. Int J Chron Obstruct Pulmon Dis. 2018;13:2721–30.
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Afari ME, Bhat T. Neutrophil to lymphocyte ratio (NLR) and cardiovascular diseases: an update. Expert Rev Cardiovasc Ther. 2016;14:573–7.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Azzouz M, Xu Y, Barregard L, Fagerberg B, Zöller B, Molnár P, et al. Air pollution and biomarkers of cardiovascular disease and inflammation in the Malmö Diet and Cancer cohort. Environ Health Glob Access Sci Source. 2022;21:39.
+CAS
+  Google Scholar
+  Li X, Zhang X, Zhang Z, Han L, Gong D, Li J, et al. AP 免疫和系统炎症标志物 中国儿童 Air pollution exposure and immunological and systemic inflammatory alterations among schoolchildren in China. Sci Total Environ. 2019;657:1304–10.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Liu Q, Gu X, Deng F, Mu L, Baccarelli AA, Guo X, et al. Ambient particulate air pollution and circulating C-reactive protein level: a systematic review and meta-analysis. Int J Hyg Environ Health. 2019;222:756–64.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Yan Z, Jin Y, An Z, Liu Y, Samet JM, Wu W. Inflammatory cell signaling following exposures to particulate matter and ozone. Biochim Biophys Acta. 2016;1860:2826–34.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Chen R, Hu B, Liu Y, Xu J, Yang G, Xu D, et al. Beyond PM2.5: the role of ultrafine particles on adverse health effects of air pollution. Biochim Biophys Acta. 2016;1860:2844–55.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Ghazeeri G, Abdullah L, Abbas O. Immunological differences in women compared with men: overview and contributing factors. Am J Reprod Immunol N Y N. 1989. 2011;66:163–9.
+Chen W, Mempel M, Schober W, Behrendt H, Ring J. Gender difference, sex hormones, and immediate type hypersensitivity reactions. Allergy. 2008;63:1418–27.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Pilz V, Wolf K, Breitner S, Rückerl R, Koenig W, Rathmann W, et al. C-reactive protein (CRP) and long-term air pollution with a focus on ultrafine particles. Int J Hyg Environ Health. 2018;221:510–8.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Gutiérrez-Solis AL, Garrido-Dzib AG, Rochel-Pérez A, Magallón-Zertuche V, Chávez-Loría G, Medina-Vera I, et al. Oxidative stress biomarkers in Mexican subjects with overweight and obesity: a systematic review. Metab Syndr Relat Disord. 2023;21:188–96.
+Article
+  PubMed
+  Google Scholar
+  Pouwels SD, Zijlstra GJ, van der Toorn M, Hesse L, Gras R, Ten Hacken NHT, et al. Cigarette smoke-induced necroptosis and DAMP release trigger neutrophilic airway inflammation in mice. Am J Physiol Lung Cell Mol Physiol. 2016;310:L377–386.
+Article
+  PubMed
+  Google Scholar
+  Wigenstam E, Elfsmark L, Bucht A, Jonasson S. Inhaled sulfur dioxide causes pulmonary and systemic inflammation leading to fibrotic respiratory disease in a rat model of chemical-induced lung injury. Toxicology. 2016;368–369:28–36.
+Article
+  PubMed
+  Google Scholar
+  Danov O, Wolff M, Bartel S, Böhlen S, Obernolte H, Wronski S, et al. Cigarette smoke affects dendritic cell populations, epithelial barrier function, and the Immune response to viral infection with H1N1. Front Med. 2020;7:571003.
+Article
+  Google Scholar
+  Heijink IH, Brandenburg SM, Postma DS, van Oosterhout AJM. Cigarette smoke impairs airway epithelial barrier function and cell-cell contact recovery. Eur Respir J. 2012;39:419–28.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Mehta H, Nazzal K, Sadikot RT. Cigarette smoking and innate immunity. Inflamm Res off J Eur Histamine Res Soc Al. 2008;57:497–503.
+CAS
+  Google Scholar
+  Arbex MA, Santos U, de Martins P, Saldiva LC, Pereira PHN, Braga LAA. Air pollution and the respiratory system. J Bras Pneumol Publicacao Soc Bras Pneumol E Tisilogia. 2012;38:643–55.
+Google Scholar
+  Jaafari J, Naddafi K, Yunesian M, Nabizadeh R, Hassanvand MS, Shamsipour M, et al. Associations between short term exposure to ambient particulate matter from dust storm and anthropogenic sources and inflammatory biomarkers in healthy young adults. Sci Total Environ. 2021;761:144503.
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Download references
+Acknowledgements
+The field investigator and all participants are acknowledged by the authors for their contributions to this study.
+Funding
+This work was supported by the National Key Research and Development Program Precision Medicine Initiative of China (2016YFC0900803), and the National Natural Science Foundation of China (81961128031; 81573112).
+Author information
+Authors and Affiliations
+Henan International Collaborative Laboratory for Health Effects and Intervention of Air Pollution, School of Public Health, Xinxiang Medical University, Xinxiang, 453003, Henan Province, China
+Yishu Yang, Hui Wu, Yuling Zeng, Fei Xu, Shuaiqi Zhao, Ling Zhang, Zhen An, Huijun Li, Juan Li, Jie Song & Weidong Wu
+School of Public Health, Xinxiang Medical University, Xinxiang, 453003, Henan Province, China
+Weidong Wu
+Contributions
+Yishu Yang: Investigation, Methodology, Data collection, Verification, Visualization, Software, Formal analysis, writing – original draft. Hui Wu: Methodology, Software, Validation, Visualization, Writing-review. Fei Xu: Investigation, Methodology, Validation. Shuaiqi Zhao: Methodology, Validation. Yuling Zeng: Methodology, Validation. Ling Zhang: Methodology, Validation. Zhen An: Investigation, Methodology, Validation. Huijun Li: Investigation, Methodology, Validation. Juan Li: Investigation, Methodology, Validation. Jie Song: Methodology, Software, Validation, Visualization. Weidong Wu: Conceptualization, Funding acquisition, Supervision, Writing-review & editing, Project administration, Resources, Validation. All authors read and approved the final manuscript.
+Corresponding author
+Correspondence to Weidong Wu.
+Ethics declarations
+Ethics approval and consent to participate
+The Ethics Committee of Xinxiang Medical University for Human Studies authorized this investigation (XYLL-2016242). Informed consent was obtained from all individual participants included in the study.
+Consent for publication
+Not applicable.
+Competing interests
+The authors declare that they have no known competing financial interests or personal relationships that influence the work reported in this paper.
+Additional information
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Electronic supplementary material
+Below is the link to the electronic supplementary material.
+Supplementary Material 1
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Reprints and permissions
+About this article
+Cite this article
+Yang, Y., Wu, H., Zeng, Y. et al. Short-term exposure to air pollution on peripheral white blood cells and inflammation biomarkers: a cross-sectional study on rural residents. BMC Public Health 24, 1702 (2024). https://doi.org/10.1186/s12889-024-19116-2
+Download citation
+Received
+07 April 2024
+Accepted
+12 June 2024
+Published
+26 June 2024
+DOI
+https://doi.org/10.1186/s12889-024-19116-2
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Air pollution
+Inflammation
+Cross-sectional study
+Neutrophil-lymphocyte ratio
+Sections
+Figures
+References
+Abstract
+Introduction
+Methods
+Results
+Discussion
+Conclusions
+Data availability
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Electronic supplementary material
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

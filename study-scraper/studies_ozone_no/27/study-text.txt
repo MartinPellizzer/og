@@ -1,0 +1,116 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (90)
+Water Research
+Available online 14 July 2024, 122091
+In Press, Journal Pre-proof
+What’s this?
+Relating Microbial Community Composition to Treatment Performance in an Ozone-Biologically Active Carbon Filtration Potable Reuse Treatment Train
+Author links open overlay panel
+Matthew F. Blair 1
+,
+Ramola Vaidya 2
+,
+Germano Salazar Benites 3
+,
+Charles Bott 3
+,
+Amy Pruden 1
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.watres.2024.122091
+Get rights and content
+Highlights
+•
+An O3-BAC-GAC-based potable water reuse train was studied with time
+•
+Microbial community profiling was assessed as a diagnostic tool
+•
+Baseline microbial profiles were related to treatment and operational conditions
+•
+Identified microbes revealed distinct functions of BAC versus GAC
+•
+The approach demonstrated inoculation as a means to improve BAC performance
+Abstract
+Treatment trains that couple ozone (O3) with biologically active carbon (BAC) filtration are of interest as a lower cost, more sustainable, membrane-free approach to water reuse. However, little is known about the microbial communities that are the fundamental drivers of O3-BAC treatment. The objective of this study was to demonstrate microbial community profiling as a diagnostic tool for assessing the functionality, biological stability, and resilience of coupled physical, chemical, advanced oxidative and biological processes employed in water reuse treatment. We utilized 16S rRNA gene amplicon sequencing to profile the bacterial microbiota over time throughout a potable reuse train employing coagulation, flocculation, sedimentation, ozonation, BAC filtration, granular activated carbon (GAC) adsorption, and UV disinfection. A distinct baseline microbiota was associated with each stage of treatment (ANOSIM, p<0.05, r-stat=0.52), each undergoing succession with time and operational shifts. Ozonation resulted in the sharpest shifts (i.e., 83.3% average change in Genus level relative abundances, when adjusted O3:TOC ratio>1), and also variance, in microbial community composition. Adjustment in O3:TOC ratios, temperature, filter-aid polymer, monochloramine quenching agent, and empty-bed contact time also resulted in measurable changes in the baseline microbial community composition of individual processes, but to a lesser degree. Of these, supplementation of nitrogen and phosphorus resulted in the strongest bifurcation, especially in the microbial communities inhabiting the BAC (ANOSIM: p<0.05, BAC5 r-stat=0.32; BAC10 r-stat=0.54) and GAC (ANOSIM: p<0.05, GAC10 r-stat=0.54; GAC20 r-stat=0.63) units. Additionally, we found that the BAC microbial community was responsive to an inoculation of microbially active media, which resulted in improved TOC removal. The findings of this study improve understanding of bacterial dynamics occurring in advanced water treatment trains and can inform improved system design and operation.
+Graphical abstract
+Download: Download high-res image (208KB)
+Download: Download full-size image
+Introduction
+Advanced tertiary treatment of secondary wastewater effluents is a promising means to enhance water supplies, while also addressing issues such as ground-level subsidence, sea water intrusion, and eutrophication of receiving water bodies. Cost-effective tertiary treatment trains that can reliably eliminate associated health risks and environmental hazards of wastewater effluents; specifically, pathogens, nutrients, organic pollutants, and contaminants of emerging concern (CECs), will be essential for expanding potable reuse applications (Kalkan et al., 2011).
+Often, the default means of achieving high quality water for potable reuse purposes is through membrane filtration; such as reverse osmosis (RO) and ultrafiltration (UF), which has significant drawbacks in terms of elevated costs, operational complexities, and the production of waste streams that are difficult to dispose. An alternative to membrane filtration is the use of biologically-active filtration (BAF), which can take a number of forms, including biologically-active carbon (BAC) filtration. In BAC treatment, granular activated carbon (GAC) provides synergistic advantages of high surface area for adsorption and microbial colonization, which can further drive degradation of organics and uptake or transformation of nutrients. Further, ozone pre-treatment, a widely used advanced oxidative processes (AOP), can be applied to oxidize CECs and achieve pathogen removal, as well as to enhance bioavailability of refractory organic compounds for biodegradation in a subsequent BAF unit. Implementation of BAC following ozone pretreatment has been reported to achieve similar quality effluents as RO and UF systems with respect to trace organic carbon composition, but at a much lower cost (Plumlee et al., 2014). Thus, such “carbon-based” advanced water treatment (AWT) trains are a promising alternative to membrane treatment, but a fundamental understanding of the ultimate range of achievable water quality is needed to advance full-scale application. In particular, there is a lack of understanding of the role of the microbial community in metabolizing organic matter and the factors governing the microbiological and organic content of final effluents.
+Addressing the above knowledge gap is challenging from a methodological standpoint. Conventional microbiological monitoring of drinking water and wastewater treatment processes relies on culture-based methods, with regulatory requirements generally focusing on fecal indicator bacteria. However, culture-based methods are severely hampered when the aim is to characterize the broader microbial community composition, given the diversity and lack of culturability of the vast majority of microbes inhabiting these systems. Next generation DNA sequencing (NGS) technologies hold promise for both research and practical application in the water sector (Garner et al., 2021). In particular, NGS techniques can help improve understanding of microbial dynamics and interactions that underlie full-scale biological treatment processes through their ability to rapidly recover millions of DNA sequences from complex environmental samples (Shokralla et al., 2012).
+Given that microbial communities are fundamental drivers of ozone-BAF treatment, better understanding their composition and function can potentially yield new insight into treatment performance and interactions between coupled treatment processes. Of particular interest is the nature of microbes that initially colonize BAF units and key attributes of their succession, with time and in response to changing environmental and operational conditions. Further, there is a lack of understanding of how the upstream highly antimicrobial oxidative environment created by ozone influences the microbes that flourish in downstream BAC filters and their overall performance. Also, while GAC treatment is intended to be driven primarily by adsorption, the reality is that GAC contactors are a rich environmental niche for a wide diversity of microbes (Boon et al., 2011, Feng et al., 2013, Lautenschlager et al., 2014). The extent to which microbes colonizing GAC contribute to removal of organic carbon in general and CECs in particular is an open question, especially as the adsorption capacity of the GAC is exhausted.
+Thus far, there are few reported studies devoted to characterizing microbial populations and their activities in large-scale ozone-BAC-based systems. However, these have primarily relied on low resolution measurements and markers for biological activity, such as: oxygen uptake (Liao et al., 2013), acetate uptake (Liao et al., 2013, Stoquart et al., 2014), culture-based methods (Balcioǧlu and Ötker, 2003), total cell counts (Stoquart et al., 2014, Lohwacharin et al., 2015, Gibert et al., 2013), ATP (Lohwacharin et al., 2015, Gibert et al., 2013, Magic-Knezev and van der Kooij, 2004, Sundaram et al., 2020), or no biological analysis at all (Reungoat et al., 2012). Interestingly, surrogate measures of total biomass do not consistently correlate with dissolved organic carbon removal efficiency via BAC (Moll et al., 1999, Fonseca et al., 2001) and some studies have shown the ability to improve CEC removal through co-substrate enhanced co-metabolism (Stohr et al., 2023). Such observations underscore the need for a deeper, higher resolution understanding of the role of microbial communities in treatment trains incorporating BAF (Boon et al., 2014, Guarin and Pagilla, 2021).
+16S rRNA gene amplicon sequencing provides a powerful NGS approach to addressing key knowledge gaps in the understanding of water reuse systems by enabling comprehensive profiling of bacterial community compositions. 16S rRNA gene amplicon sequencing has previously been applied to characterize AWT (Gerrity et al., 2018, Stamps et al., 2018). However, even in the context of more oligotrophic drinking water, where BAC-based treatment is much more common and better characterized, available information lacks temporal characterization to map maturation and microbial community dynamics (Liao et al., 2013) In reuse applications especially, little is known regarding microbial community adaptability and resiliency to operational parameters, environmental conditions (Guarin and Pagilla, 2021, Guarin et al., 2024), and process upsets, such as algal blooms, which have been shown to decrease BAF diversity (Jeon et al., 2024).
+Here we utilized 16S rRNA gene amplicon sequencing to characterize the bacterial microbiota characteristic of each stage of treatment in a carbon-based potable reuse train employing coagulation, flocculation and sedimentation (Floc-Sed), ozonation, BAC filtration, GAC adsorption, and UV disinfection. The overarching objective was to demonstrate the potential for microbial community profiling as a diagnostic tool for assessing the functionality and resilience of each treatment stage and to identify specific taxa that are indicative of treatment performance and key water quality characteristics. The specific objectives, hypotheses, means by which they were evaluated and general observations are summarized in Table 1.
+Section snippets
+Site Description, Sample Collection, and Preservation
+Samples were collected from the (4.3 gpm) Sustainable Water Initiative for Tomorrow (SWIFT) Pilot indirect potable reuse facility at the Hampton Roads Sanitation District's York River Wastewater Treatment Plant (SI Figure 1) over an ∼18-month period. The SWIFT Pilot treated tertiary (denitrified/filtered secondary) effluent and employed: coagulation-flocculation-sedimentation (Floc-Sed), ozonation, BAC filtration, GAC adsorption, and UV disinfection. To assess the impact of empty-bed contact
+Full Treatment Train
+PCoA ordination of unweighted and weighted UniFrac distances for the entire treatment train are presented in Figure 1a and 1b, respectively, and indicated highly similar trends. Therefore, subsequent beta diversity analysis reported here focus on unweighted analysis, unless noted otherwise. When analyzing the entire dataset, all factors tested were found to be significantly associated with the composition of the bacterial microbiota; however, variation in the bacterial microbiota was best
+Discussion
+This study provides insight into the microbial community composition of a carbon-based potable water reuse treatment train and its succession as the water passes through a series of physical, chemical, and biological treatment processes. While carbon-based treatment trains are being considered as an alternative to more costly membrane-based processes, it is important to develop a thorough understanding of the microbial populations involved. This is especially the case in potable reuse
+Conclusions and Future Directions
+Overall, this study demonstrated the utility of microbial community profiling via 16S rRNA amplicon sequencing as a diagnostic tool for assessing the functionality of a series of treatments employed in a AWT train. The findings not only provided new insight into the treatment mechanisms at play in carbon-based potable reuse treatment, but also the resilience of the microbial communities involved in the face of intentional and unintentional operational changes. Key observations and insights
+CRediT authorship contribution statement
+Matthew F. Blair: Writing – review & editing, Writing – original draft, Visualization, Validation, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. Ramola Vaidya: Writing – review & editing, Funding acquisition. Germano Salazar Benites: Writing – review & editing, Supervision, Project administration. Charles Bott: Writing – review & editing, Resources, Project administration, Funding acquisition, Conceptualization. Amy Pruden: Writing – review
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+The authors would like to thank the operators and staff at Hampton Road Sanitation District's York River Treatment Plant and the SWIFT Research Center. Funding for this effort was provided in part by Water Research Foundation Unsolicited Award U1R16 (PI Pruden), US Bureau of Reclamation grant R21 AC10162 (PI Pruden) 09/01/2020-08/31/2023 and US Environmental Protection Agency Enhanced Aquifer Recharge grant (PI Widdowson) 09/01/2023-08/31/2026, leveraged with additional financial and in-kind
+References (90)
+N. Boon et al.
+Nutrient gradients in a granular activated carbon biofilter drives bacterial community organization and dynamics
+Water Res
+(2011)
+I. Covarrubias-García et al.
+Effects of ozone treatment on performance and microbial community composition in biofiltration systems treating ethyl acetate vapours
+Chemosphere
+(2019)
+D. Gerrity
+Microbial community characterization of ozone-biofiltration systems in drinking water and potable reuse applications
+Water Res
+(2018)
+O Gibert
+Characterising biofilm development on granular activated carbon used for drinking water production
+Water Res
+(2013)
+M. Gong et al.
+Microbial biofilm formation and community structure on low-density polyethylene microparticles in lake water microcosms
+Environmental Pollution
+(2019)
+A. González-Martínez
+Mycobacterium infections
+Encyclopedia of Infection and Immunity
+(2022)
+T.C. Guarin et al.
+Contaminants of emerging concern reduction and microbial community characterization across a three-barrier advanced water treatment system
+Science of The Total Environment
+(2024)
+T.C. Guarin et al.
+Microbial community in biofilters for water reuse applications: A critical review
+Science of the Total Environment
+(2021)
+Y. Jeon
+Impact of harmful algal bloom severity on bacterial communities in a full-scale biological filtration system for drinking water treatment
+Science of The Total Environment
+(2024)
+Ç. Kalkan et al.
+Evaluation of Biological Activated Carbon (BAC) process in wastewater treatment secondary effluent for reclamation purposes
+Desalination
+(2011)
+View more references
+Cited by (0)
+View

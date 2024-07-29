@@ -1,0 +1,87 @@
+Geoscientific Model Development
+ARTICLES & PREPRINTS
+SUBMISSION
+POLICIES
+PEER-REVIEW PROCESS
+EDITORIAL BOARD
+ABOUT
+EGU PUBLICATIONS
+  Preprint  
+Preprints
+Preprint gmd-2024-48
+
+https://doi.org/10.5194/gmd-2024-48
+© Author(s) 2024. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Abstract
+Assets
+Discussion
+Metrics
+Submitted as: model description paper
+ | 
+11 Jun 2024
+Status: this preprint has been withdrawn by the authors.
+Comprehensive Air Quality Model With Extensions, v7.20: Formulation and Evaluation for Ozone and Particulate Matter Over the US
+Christopher A. Emery, Kirk R. Baker, Gary M. Wilson, and Greg Yarwood
+Abstract. The Comprehensive Air quality Model with extensions (CAMx) is an open-source, state-of-the-science photochemical grid model that addresses tropospheric air pollution (ozone, particulates, air toxics) over spatial scales ranging from neighborhoods to continents. CAMx has been in continuous development for over 25 years and used by numerous entities ranging from government to industry to academia to support regulatory actions and scientific research addressing a variety of air quality issues. Here we describe the technical formulation of CAMx v7.20, the current publicly available model version. To illustrate an example of regional and seasonal model performance for predicted ozone and fine particulate matter (PM2.5), we summarize a model evaluation from a recent 2016 national-scale CAMx application over nine climate zones contained within the conterminous US. From that evaluation, we find that statistical performance for warm season maximum 8-hour ozone is consistently within benchmark statistical criteria for bias, gross error, and correlation over all climate zones, and often near statistical goals. Statistical performance for 24-hour PM2.5 and constituents fluctuate around statistical criteria with more seasonal and regional variability that can be attributed to different sources of uncertainty among PM2.5 species (e.g., weather influences, chemical treatments and interactions, emissions uncertainty, and ammonia treatments). We close with a mention of new features and capabilities that will be included in upcoming public releases of the model.
+This preprint has been withdrawn.
+How to cite. Emery, C. A., Baker, K. R., Wilson, G. M., and Yarwood, G.: Comprehensive Air Quality Model With Extensions, v7.20: Formulation and Evaluation for Ozone and Particulate Matter Over the US, Geosci. Model Dev. Discuss. [preprint], https://doi.org/10.5194/gmd-2024-48, 2024.
+Received: 11 Mar 2024 – Discussion started: 11 Jun 2024
+Publisher's note: Copernicus Publications remains neutral with regard to jurisdictional claims made in the text, published maps, institutional affiliations, or any other geographical representation in this preprint. The responsibility to include appropriate place names lies with the authors.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Download
+This preprint has been withdrawn.
+Preprint (3355 KB)
+Metadata XML
+Supplement (5097 KB)
+BibTeX
+EndNote
+Short summary
+We describe the Comprehensive Air quality Model with extensions (CAMx) and evaluate a model...
+Read more
+Share
+Geoscientific Model Development
+An interactive open-access journal of the European Geosciences Union
+All site content, except where otherwise noted, is licensed under the Creative Commons Attribution 4.0 License.
+Contact
+|
+Imprint
+|
+Data protection

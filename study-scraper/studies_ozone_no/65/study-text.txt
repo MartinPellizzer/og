@@ -1,0 +1,181 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Highlights
+Abstract
+Graphical abstract
+Keywords
+Abbreviations
+1. Introduction
+2. Materials & Methods
+3. Results
+4. Discussion
+5. Conclusion
+Uncited reference
+Declaration of Competing Interest
+Acknowledgements
+Appendix A. Supplementary data
+Data availability
+References
+Show full outline
+Figures (4)
+Tables (2)
+Table 1
+Table 2
+Extras (2)
+Download all
+Spreadsheet
+Document
+Environmental Research
+Available online 11 July 2024, 119609
+In Press, Journal Pre-proof
+What’s this?
+How do different marine engine fuels and wet scrubbing affect gaseous air pollutants and ozone formation potential from ship emissions?
+Author links open overlay panel
+Jan Bendl a
+,
+Mohammad Reza Saraji-Bozorgzad a
+,
+Uwe Käfer b
+,
+Sara Padoan a
+,
+Ajit Mudan a
+,
+Uwe Etzien d
+,
+Barbara Giocastro a b
+,
+Julian Schade a
+,
+Seongho Jeong a c
+,
+Evelyn Kuhn a b
+,
+Martin Sklorz b
+,
+Christoph Grimmer c
+,
+Thorsten Streibel c
+,
+Bert Buchholz d
+,
+Ralf Zimmermann b c
+,
+Thomas Adam a b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.envres.2024.119609
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Ship engine gaseous emissions vary widely with fuel type and engine load
+•
+Wet sulphur scrubbers are ineffective in reducing especially water-insoluble gases
+•
+SECA compliant fuels generally emit less than non-complaint fuels with scrubber
+•
+Wet scrubbers effectively reduce carbonyls acting as ozone precursors
+•
+Further legislation is required to address non-SO2 gaseous pollutants
+Abstract
+Sulphur Emission Control Areas (SECAs), mandated by the International Maritime Organization (IMO), regulate fuel sulphur content (FSC) to mitigate the environmental and health impact of shipping emissions in coastal areas. Currently, FSC is limited to 0.1% (w/w) within and 0.5% (w/w) outside SECAs, with exceptions for ships employing wet sulphur scrubbers. These scrubbers enable vessels using non-compliant fuels such as high-sulphur heavy fuel oils (HFOs) to enter SECAs. However, while sulphur reduction via scrubbers is effective, their efficiency in capturing other potentially harmful gases remains uncertain. Moreover, emerging compliant fuels like highly aromatic fuels or low-sulphur blends lack characterisation and may pose risks.
+Over three years, we assessed emissions from an experimental marine engine at 25% and 75% load, representative of manoeuvring and cruising, respectively. First, characterizing emissions from five different compliant and non-compliant fuels (marine gas oil MGO, hydro-treated vegetable oil HVO, high-, low- and ultra-low sulphur HFOs), we calculated emission factors (EF). Then, the wet scrubber gas-phase capture efficiency was measured using compliant and non-compliant HFOs.
+NOx EF varied among fuels (5200-19700 mg/kWh), with limited scrubber reduction. CO (EF 750-13700 mg/kWh) and hydrocarbons (HC; EF 122-1851 mg/kWh) showed also insufficient abatement. Carcinogenic benzene was notably higher at 25% load and about an order of magnitude higher with HFOs compared to MGO and HVO, with no observed scrubber reduction. In contrast, carbonyls such as carcinogenic formaldehyde and acetaldehyde, acting as ozone precursors, were effectively scrubbed due to their polarity and water solubility. The ozone formation potential (OFP) of all fuels was examined.
+Significant EF differences between fuels and engine loads were observed, with the wet scrubber providing limited or no reduction of gaseous emissions. We suggest enhanced regulations and emission abatements in the marine sector to mitigate gaseous pollutants harmful to human health and the environment.
+Graphical abstract
+Download: Download high-res image (333KB)
+Download: Download full-size image
+Keywords
+air qualityIMO regulationsSECA zonesheavy fuel oilmarine gas oilwet sulfur scrubber
+Abbreviations
+CCAI
+Calculated Carbon Aromaticity Index
+DMA
+Distillate Marine Fuel (category according to ISO 8217)
+ECA
+Emission-Controlled Area
+EF
+Emission Factor
+FAME
+Fatty Acid Methyl Ester
+FID
+Flame Ionization Detector
+FTIR
+Fourier Transform Infrared Spectroscopy
+FSC
+Fuel Sulphur Content
+HFO
+Heavy Fuel Oil
+HVO
+Hydrotreated Vegetable Oil
+IMO
+International Maritime Organization
+LS-HFO
+Low Sulphur HFO
+MC
+Measurement Campaign
+MGO
+Marine Gas Oil
+MIR
+Maximum Incremental Reactivity
+NECA
+Nitrogen ECA
+OFP
+Ozone Formation Potential
+RME
+Rapeseed Oil Methyl Ester
+RMG
+Residual Marine Gasoil
+SECA
+Sulphur ECA
+ULS-HFOar
+Ultra-Low Sulphur Aromatic HFO
+VOC
+Volatile Organic Compounds
+1. Introduction
+About 90% of global trade goods is transported by ships [Bundesregierung, 2017]. As a consequence, international maritime transport significantly contributes to pollutants related to global warming, water quality, and air pollution [e.g. Eyring 2010, Toscano 2019]. The latter is well known to cause serious adverse human health effects, such as lung cancer, chronic obstructive pulmonary disease (COPD), lower respiratory infections, cardiovascular disease, and diabetes [e.g. State Global Air 2019]. Ship engines are a significant source of anthropogenic combustion emissions, such as nitrogen oxides (NOx), sulphur oxides (SOx), particulate matter (PM), carbon monoxide (CO), and volatile organic compounds (VOCs). This is a major concern especially for coastal communities [e.g. Aakko-Saksa 2023,
+Corbett 2007
+, Chu-Van 2018]. Besides these primary pollutants, the emissions are important sources for secondary aerosol formation and also contribute to increased ground level ozone (O3) concentrations, another important secondary air pollutant especially at local and regional scales [Perez 2016, Tang 2012].
+Regarding the health effects, NOx causes inflammation of the lungs, with the primary site of toxicity being the lower respiratory tract. Populations that may be particularly sensitive to NOx include asthmatics and those with COPD and heart disease [
+CDC 2014
+]. Furthermore, NOx contributes to particle and ozone formation and also potentially causes acidification and eutrophication upon deposition on land, lakes, and seas. It can be transported in the atmosphere over long distances [Karl 2019]. A review of model studies on ship emissions showed that NOx emissions from international shipping on European seas could be equal to land-based emission sources in Europe (EU-27) from 2020 onwards [
+EEA 2013
+].
+CO in combustion emissions has its origin in incomplete combustion of hydrocarbons from the fuel in particular through lack of oxygen. The adverse health effects are due to the binding with haemoglobin to form carboxyhaemoglobin, which affects gas exchange and cellular respiration. Inhaling excessive concentrations of CO can lead to hypoxic injury, nervous system damage, and death [Wilbur 2012].
+Hydrocarbon (HC) emissions is a collective term for VOC substances comprising hundreds of different compounds, some of them being toxic or even carcinogenic. In addition, many HC compounds act as ozone precursors. HC combustion emissions have their origin in the incomplete combustion of the fuels. Thereby, HC constituents from the fuels can either combust incompletely or pass unburned through the combustion process [
+Russel, 2013
+].
+Benzene is a natural constituent of fossil fuels and originates in combustion emissions from incomplete combustion of organic substances as well as its non-decomposition during the combustion process. It is one of the numerous unregulated HC constituents being measured and, for road traffic, regulated in the framework of the HC sum value [
+Russel, 2013
+]. Nevertheless, benzene is known to be a human carcinogen due to sufficient evidence that it causes leukemia i.e. it is classified by the International Agency for Research on Cancer (IARC) as a class 1 carcinogen [
+IARC 2006
+]. Due to this extraordinary hazard to human health, special attention is drawn to this compound in this study.
+Carbonyl compounds can be present in combustion emissions due to incomplete combustion and partially due to oxidization of HC. These oxygenated HC are a group of intermediates formed during lower-temperature reactions during the combustion process. This group of species predominantly consists of formaldehyde and acetaldehyde [e.g. Lemel 2005]. Carbonyls are well known to play an important role in atmospheric chemistry [e.g. Sawant 2007] and also act as ozone precursors [Bhattacharya 2008,
+IARC 2006
+,
+European Commission 2002
+, Karavalakis 2011]. In addition, some attract attention due to their adverse health effects and thus have been identified as hazardous air pollutants for humans [Weng 2010]. In this regard, acetaldehyde is classified by IARC as a class 2B carcinogen i.e. possibly carcinogenic to humans, and formaldehyde even as a class 1 carcinogen i.e. carcinogenic to humans.
+Over the last two decades, there have been strong efforts to reduce the environmental impact of maritime transport. The International Maritime Organization (IMO) adopted strict regulations under Annex VI of the International Convention for the Prevention of Marine Pollution from Ships (MARPOL) by implementing so-called Emission Control Areas (ECAs). These ECAs include e.g. Baltic Sea, North Sea, English Channel, North America, and U.S. Caribbean Sea for all vessels over 300 gross tons. Within these designated ECAs, SOx emissions are indirectly controlled by regulating the marine fuel sulphur content (FSC). Since 2015 there is a maximum value of 0.1% (w/w). On 1 January 2020 outside ECAs (also called SECAs as sulphur ECAs) the max. FSC was reduced from 3.5% to 0.5% [
+IMO 2008
+]. Global NOx ship emissions are regulated under the IMO treaty [IMO2008b] in three progressively more stringent tiers. Tier 1 (since 2000) and Tier 2 (since 2011) limits are valid worldwide and apply to all new marine diesel engines. Tier 3 only affects vessels sailing inside designated Nitrogen ECAs (NECAs) and came into force in the North American and the U.S. Caribbean ECAs on 1 January 2016 and in the Baltic Sea, North Sea, and British Channel ECAs on 1 January 2021.
+Common marine low-speed engines have been designed to burn heavy fuel oil (HFO) or marine gas oil (MGO). HFO is produced from residuals of the crude oil refining process and, therefore, contains higher values of inorganic components, such as sulphur, ash, and metals as well as organic compounds such as polycyclic aromatic hydrocarbons (PAHs) and asphaltenes in comparison to MGO [Streibel 2017].
+MGO is a middle distillate fuel, which usually consists of a blend of various distillates. It is similar to diesel fuel but has a higher density and is typically compliant to the open sea as well as within an ECA due to low sulphur contents [Jeong 2023]. Therefore, conventional low-grade HFOs have been replaced by distillate fuels or low-sulphur HFOs (LS-HFO). However, alternative shipping fuels are increasingly entering the market such as e.g. liquefied natural gas (LNG) and hydrotreated vegetable oils (HVO). Hydrotreatment of vegetable oils is an alternative process to esterification to form paraffinic hydrocarbons similar to those found in petroleum-based diesel. It is an option to produce renewable diesel fuels since HVO is made from the same biomass as fatty acid methyl ester (FAME), but it may also be produced from residual crops and industrial waste like wood spills [Szeto, Leung, 2022]. Apart from this other (modern) fuel types may enter the market depending on availability, political situation, and price.
+Another option to comply with IMO regulations is the usage of emission abatement systems to reduce pollutants. In this regard, a legal and effective approach to reduce SOx emissions is the usage of a scrubber. This alternative allows vessels to run on high sulphur and potentially less expensive HFOs instead of higher quality fuels. For the maritime sector, wet scrubbers are usually applied to remove SOx emissions, whereby the exhaust is directed through a liquid media i.e. sprays of seawater or chemically treated fresh water [Oikawa 2003, Andreasen 2007]. Wet scrubbers can be operated in open-loop and closed-loop modes, whereby hybrid systems are also common [Zetterdahl 2016]. In open-loop systems, seawater is used to wash out SOx from the exhaust. The contaminated wash water is then discharged to the sea with minimal or no treatment [Teuchies 2020]. Pollutants thus enter the aquatic ecosystem and become a potential source of marine pollution. [Oikawa 2003, Ushakov 2020, Enders 2018]. In the closed-loop mode, fresh or sea water together with some added sodium hydroxide is used to take up SOx from the exhaust. The washing water is continuously circulating and cleaned in the system and finally discharged and purified on-land in a treatment plant to remove the polluted residue sludge [Zetterdahl 2016, Lehtoranta 2019].
+Fuel type as well as engine load have been shown to significantly influence chemical and physical properties of exhaust gas components. It is known that, besides SO2, high FSC in HFO can also cause elevated PM emissions [Winnes 2009,
+Cordtz 2013
+]. Therefore, in most studies, the focus has been on the physicochemical properties of particles in relation to various FSCs [e.g. Lehtoranta 2019, Winnes 2009]. Some papers have also reported significant emission reductions from NOx and CO by the use of low sulphur HFO [e.g. Zetterdahl 2016, Yusuf 2012,
+McCaffery 2021
+]. Furthermore, several studies have dealt with the investigation of marine engine exhaust after passing through scrubber systems. Several studies report the reduction of SOx and a few other main gaseous components, such as NOx as well as PM [Lack 2011, Petzold 2010, Petzold 2011]. However, while SOx removal efficiency is undisputed, studies investigating other, less targeted gaseous pollutants are rare.
+Therefore, in this study, we investigated how different marine fuels (i) as well as wet scrubbing (ii) can affect gaseous air pollutants in exhaust emissions of a marine test-bed engine operated at different engine loads. The focus is on a comprehensive overview of gaseous (trace) compounds relevant to the environment and human health. A comparable study of this depth could not be found in the literature.
+(i)
+Five different fuels were applied, namely two HFOs with various FSC (2.2% and 0.5% w/w), conventional MGO, HVO, and a test fuel not

@@ -1,0 +1,16 @@
+Here are five detailed paragraphs summarizing the study:
+
+**Paragraph 1: Introduction**
+Despite efforts to reduce air pollution, surface ozone (O3) remains a significant issue in the North China Plain (NCP). This region has experienced persistent high concentrations of O3, which can have adverse effects on human health and ecosystems. Understanding the long-term changes in O3 concentrations and their causes is essential for developing effective strategies to mitigate this problem. In this study, we investigate the annual changes in surface O3 concentrations over the NCP from 2015 to 2021 using satellite retrievals.
+
+**Paragraph 2: Methods**
+Our analysis was based on satellite data from the Ozone Mapping and Profiler Suite (OMI) and the TROPOspheric Monitoring Instrument (TROPOMI). We calculated the mean summer maximum daily 8-hour average ozone concentration (MDA8O3) for each year. To evaluate the causes of O3 changes, we used satellite-based formaldehyde (HCHO) and nitrogen dioxide (NO2) columns to track volatile organic compounds (VOCs) and nitrogen oxides (NOx) emissions. We also calculated the HCHO/NO2 ratio as an indicator of ozone formation sensitivity.
+
+**Paragraph 3: Results**
+Our analysis showed that the mean summer MDA8O3 in the NCP increased by 12.77 μg m−3 annually from 2015 to 2019, followed by a decline from 174 μg m−3 in 2019 to 157 μg m−3 in 2021. The HCHO column showed an increase during this period, while the NO2 column decreased sharply. The HCHO/NO2 ratio exhibited a transitional regime ranging from 4.23 to 5.05, indicating a shift towards VOC-limited ozone formation regimes.
+
+**Paragraph 4: Discussion**
+The observed increases in O3 concentrations were likely due to the growth of VOC emissions and a decrease in NOx emissions. The decline in O3 concentrations after 2020 may be attributed to the reduction in VOC emissions and an increase in NOx emissions. Our results also suggest that ozone formation regimes varied among different mega-city clusters, with some areas transitioning from VOC-limited to transitional (or from transitional to VOC-limited) regimes.
+
+**Paragraph 5: Conclusions**
+This study highlights the importance of understanding long-term changes in O3 concentrations and their causes in the NCP. Our analysis demonstrates that satellite retrievals can provide valuable information on ozone formation sensitivity and precursor emissions, which is essential for developing effective strategies to reduce O3 pollution. The optimal HCHO/NO2 ratio for reducing O3 concentrations was found to be 4.66 for the NCP region. These findings have significant implications for air quality management and mitigation efforts in this region.

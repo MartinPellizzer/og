@@ -1,0 +1,164 @@
+of 14
+Automatic Zoom
+Actual Size
+Page Fit
+Page Width
+0%
+50%
+75%
+100%
+125%
+150%
+200%
+300%
+400%
+Process bene
+ﬁ
+ts of ozone/BAC as pretreatment to membrane-based advanced treatment
+
+for direct potable reuse
+
+R. Shane Trussell
+ * and Aleksey N. Pisarenko
+
+Trussell Technologies, Inc., 4350 Executive Drive, Suite 300, San Diego, CA 92121, USA
+
+*
+Corresponding author. E-mail: shanet@trusselltech.com
+
+ANP, 0000-0001-5287-8219
+
+ABSTRACT
+
+The state of California, USA, has developed regulations for projects that want to pursue direct potable reuse. One of the most signi
+ﬁ
+cant
+
+requirements is that the treatment train must include ozone and biological activated carbon (ozone/BAC) as pretreatment to a mem-
+
+brane-based treatment train. Ozone/BAC mitigates chemical peaks and diversi
+ﬁ
+es the removal mechanisms of low molecular weight
+
+compounds likely to persist in advanced treated water. This paper will present the process bene
+ﬁ
+ts of ozone/BAC as pretreatment to the
+
+membrane-based treatment train based on testing at a 3,785 m
+3
+ /d demonstration facility in San Diego, California, USA. One of the most sig-
+
+ni
+ﬁ
+cant bene
+ﬁ
+ts of ozone/BAC pretreatment is the improved water quality that bene
+ﬁ
+ts not only the product water produced for potable
+
+consumption but also the residual stream that is generated with the implementation of the RO process, commonly known as RO concentrate.
+
+This improved water quality originates from TOC reduction which is achieved through a combination of chemical oxidation with ozonation
+
+and biological growth in the BAC process that results in reduced operating pressures and chemical use for the membrane systems.
+
+These process bene
+ﬁ
+ts were quanti
+ﬁ
+ed to develop an overall water cost comparison between a DPR and an indirect potable reuse train.
+
+Key words:
+ BAC, chemical peaks, cost of water, direct potable reuse, low molecular weight compounds, ozone
+
+HIGHLIGHTS
+
+•
+ Bene
+ﬁ
+ts of O
+3
+/BAC for potable reuse are substantial but underappreciated.
+
+•
+ O
+3
+ /BAC-MF-RO-UV/AOP treatment train provides a greater degree of public health protection.
+
+•
+ The experimental DPR treatment train operated at lower O&M costs compared to FAT.
+
+•
+ Bene
+ﬁ
+ts were quanti
+ﬁ
+ed for a 30-year basis and show that this train has a similar cost despite higher CAPEX.
+
+•
+ O
+3
+ /BAC-based DPR treatment trains are economically viable.
+
+INTRODUCTION
+
+California has large agencies, serving 20 million people, that are planning and developing large-scale potable reuse projects
+
+that will be regulated as direct potable reuse (DPR). Signi
+ﬁ
+cant investments will be made in new treatment processes and
+
+pipelines that will total more than $20 billion US. To support the development of these projects, California regulators
+
+have been working over the past decade to develop DPR regulations. One of the most signi
+ﬁ
+cant requirements of the
+
+DPR regulatory criteria is a requirement to include ozone and BAC as pretreatment to the membrane-based full advanced
+
+treatment (FAT) train, commonly comprised of membrane
+ ﬁ
+ltration (MF), reverse osmosis (RO), and ultraviolet light (UV)
+
+advanced oxidation process (AOP), that is already in operation at more than a half dozen facilities in California with
+
+more than 8 m
+3
+ /s (
+.
+180 million gallons per day (MGD)) production capacity today. California is currently the second
+
+state after Colorado with DPR regulations. In Colorado, ozone/BAC are optional treatment processes in contrast to Califor-
+
+nia but Colorado also requires speci
+ﬁ
+c pathogen removal goals. Ozone is speci
+ﬁ
+cally identi
+ﬁ
+ed as an alternative treatment for
+
+disinfection and ozone/BAC as an example of an alternative
+ ﬁ
+ltration process. Both disinfection processes, whether by ozone
+
+or UV, and
+ ﬁ
+ltration are required in Colorado for DPR. Other states such as Texas have implemented a case-by-case approval
+
+of DPR projects that rely on a blending of puri
+ﬁ
+ed water with other waters to achieve regulatory approvals. Other past studies
+
+This is an Open Access article distributed under the terms of the Creative Commons Attribution Licence (CC BY 4.0), which permits copying, adaptation and
+
+redistribution, provided the original work is properly cited (http://creativecommons.org/licenses/by/4.0/).
+
+© 2024 The Authors
+ Water Reuse Vol 00 No 0, 1 doi: 10.2166/wrd.2024.113
+
+corrected Proof
+
+Downloaded from http://iwaponline.com/jwrd/article-pdf/doi/10.2166/wrd.2024.113/1399369/jwrd2024113.pdf
+
+by guest

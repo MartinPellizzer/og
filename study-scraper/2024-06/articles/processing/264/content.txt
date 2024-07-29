@@ -1,0 +1,16 @@
+Here are five paragraphs summarizing the study on stability requirements of satellites to detect long-term stratospheric ozone trends based upon Monte Carlo simulations:
+
+**Paragraph 1**
+The recovery of stratospheric ozone is a critical issue in climate science. The Montreal Protocol and its amendments aimed to phase out ozone-depleting substances, leading to recovery in some regions after the late 1990s. However, long-term changes in ozone also depend on the evolution of greenhouse gases and feedback mechanisms between ozone and climate. To detect these trends, satellite instruments require specific stability requirements, which have been set at 3% per decade for stratospheric ozone and 1% per decade for total ozone.
+
+**Paragraph 2**
+To investigate how a stability requirement translates into uncertainties in long-term trends, we conducted Monte Carlo simulations of time series and derived trend uncertainties. We assumed that individual observing systems with a given lifetime (segment) compose a long-term merged dataset. Each segment has varying drifts following a Gaussian distribution with a given 1σ stability requirement. The variability seen in the sample is solely due to instrument drifts.
+
+**Paragraph 3**
+Our results show that a stability requirement of 3% per decade for individual observing systems yields a trend uncertainty of 2% per decade over a 30-year period, which is barely sufficient for stratospheric ozone but too high for total ozone. Having two or three observing systems simultaneously reduces the uncertainty by 30% and 42%, respectively. Additionally, varying lifetimes with a mean of 7 years and Poisson distribution increase trend uncertainties.
+
+**Paragraph 4**
+The simulation also shows that biases between individual segments can significantly impact trend uncertainties. Adding a 1% bias between segments increases trend uncertainties from 0.77% per decade to 1.1% per decade. These results highlight the importance of considering instrument drifts and biases in the design of satellite instruments and data merging algorithms.
+
+**Paragraph 5**
+In conclusion, our study demonstrates that stability requirements for satellites are crucial for detecting long-term stratospheric ozone trends. A stability requirement of 3% per decade is barely sufficient for stratospheric ozone, and higher requirements may be necessary to achieve statistical significance in observed long-term trends. Furthermore, the impact of instrument drifts and biases on trend uncertainties highlights the need for careful consideration in designing satellite instruments and data merging algorithms.

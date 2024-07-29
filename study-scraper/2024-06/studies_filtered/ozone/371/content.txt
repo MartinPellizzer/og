@@ -1,0 +1,87 @@
+IEEE.org
+IEEE Xplore
+IEEE SA
+IEEE Spectrum
+More Sites
+Subscribe
+Donate
+Cart
+Create Account
+Personal Sign In
+Browse
+My Settings
+Help
+Institutional Sign In
+All
+Books
+Conferences
+Courses
+Journals & Magazines
+Standards
+Authors
+Citations
+ADVANCED SEARCH
+Conferences >2024 3rd International Confer...
+Forecasting Air Pollution of Urban Chennai Localities using Artificial Intelligence
+Publisher: IEEE
+Cite This
+PDF
+Rayaan Faiz; Tisha Agarwal; D Rajeswari
+All Authors
+Abstract
+Document Sections
+1.
+Introduction
+II.
+Literature Review
+III.
+Proposed Methodology
+IV.
+Experiment Results
+V.
+Conclusions
+Authors
+Figures
+References
+Keywords
+Abstract:
+India’s air quality deteriorated significantly in 2023, ranking third worst globally, highlighting the urgency for effective monitoring and mitigation measures. To comprehend past trends and predict future patterns, historical air pollution data from seven urban areas in Chennai was analyzed using the XGBoost Algorithm. This study aims to gain insights into Chennai’s air quality, identify abnormalities, and issue timely warnings to the public and governing authorities. XGBoost was employed to forecast AQI, NO2, PM2.5, NOx, PM10, CO, SO2, NH3, and Ozone levels, outperforming traditional LSTM, Prophet, and ARIMA models. Evaluation using RMSE and MAE scores revealed XGBoost’s efficacy, with scores of 20.65 and 14.35, respectively. The research highlights regions like Alandur, Arumbakkam, and Manali with notable concentrations of contaminants, emphasizing the need for immediate action. These findings highlight the significance of utilizing advanced algorithms for accurate air quality forecasting and proactive pollution management.
+Published in: 2024 3rd International Conference on Applied Artificial Intelligence and Computing (ICAAIC)
+Date of Conference: 05-07 June 2024
+Date Added to IEEE Xplore: 02 July 2024
+ISBN Information:
+DOI: 10.1109/ICAAIC60222.2024.10575220
+Publisher: IEEE
+Conference Location: Salem, India
+1. Introduction
+The issue of air pollution come up as a critical challenge with significant consequences for public health, environmental sustainability, and economic development. Among Indian cities grappling with deteriorating air quality, the focus has been on cities like Delhi and Mumbai. However, Chennai, as a bustling urban centre, also confronts complex and multifaceted air pollution challenges. Diseases such as respiratory diseases, asthma, and chronic conditions in humans are directly linked to air pollution. According to the 2013 publication of the Global Burden of Disease Study for 2010, outdoor air pollution ranked as India’s fifth leading cause of mortality, with 620,000 premature deaths attributed to air pollution-related diseases in that year. [1]. Recently, India was declared as the third-most polluted country in 2023 right after Bangladesh and Pakistan [2]. Thirteen of the world’s twenty most polluted cities are in India, per a WHO research. It is estimated that 1.33 billion people, 96 per cent of the Indian population, experience PM2.5 concentrations exceedingly more than 7 times the WHO annual guideline. Over a million Indians die prematurely every year due to air pollution, according to the non-profit Health Effects Institute [3]. This study focuses on investigating the trends and predicting air pollutants and AQI in Chennai’s urban areas, targeting to provide comprehensive understanding into the dynamics of air pollution within the different localities in the city. Figure 1 represents the 7 different monitoring stations under CPCB (Centre for Pollution Control Board India) and TNPCB (Tamil Nadu Pollution Control Board) from which the data has been gathered The station’s locations are shown below in Table 1:
+Sign in to Continue Reading
+Authors
+Figures
+References
+Keywords
+More Like This
+Combined Prediction Algorithm for Coal Gas Emission Amount
+2020 12th International Conference on Measuring Technology and Mechatronics Automation (ICMTMA)
+Published: 2020
+Class Imbalance SS-ELM for Regional Air Pollution Prediction
+2020 7th International Conference on Information, Cybernetics, and Computational Social Systems (ICCSS)
+Published: 2020
+Show More
+IEEE Personal Account
+CHANGE USERNAME/PASSWORD
+Purchase Details
+PAYMENT OPTIONS
+VIEW PURCHASED DOCUMENTS
+Profile Information
+COMMUNICATIONS PREFERENCES
+PROFESSION AND EDUCATION
+TECHNICAL INTERESTS
+Need Help?
+US & CANADA: +1 800 678 4333
+WORLDWIDE: +1 732 981 0060
+CONTACT & SUPPORT
+Follow
+About IEEE Xplore | Contact Us | Help | Accessibility | Terms of Use | Nondiscrimination Policy | IEEE Ethics Reporting | Sitemap | IEEE Privacy Policy
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2024 IEEE - All rights reserved, including rights for text and data mining and training of artificial intelligence and similar technologies.

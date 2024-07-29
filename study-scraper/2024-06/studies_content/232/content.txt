@@ -1,0 +1,36 @@
+0
+LOG IN SIGN UP
+DOWNLOAD PDF
+81
+10
+Air Quality Index Prediction Model Utilizing Random Forest and NodeMCU
+COMMUNICATION, NETWORKING AND BROADCAST TECHNOLOGIESCOMPONENTS, CIRCUITS, DEVICES AND SYSTEMSCOMPUTING AND PROCESSINGROBOTICS AND CONTROL SYSTEMS
+AQIINTERNET OF THINGSMACHINE LEARNINGNODEMCUPREDICTIVE MODELINGRANDOM FORESTSENSORS
++4
+Neha Rajas Patil, Amruta Amune, Ishan Shivankar, Tanishk Shrivastava, Shivam Mattoo, Prathmesh Sonawane, Shruti Sood
+Abstract
+Air pollution, a silent public health crisis, demands smarter solutions. This research explores a novel approach: using machine learning and the Internet of Things (IoT) to predict hyper-local Air Quality Index (AQI). We integrate a Random Forest algorithm with NodeMCU for pinpoint-accurate AQI forecasts. The core lies in a robust machine learning model trained on historical data rich in environmental parameters-air quality indicators like PM2.5 and ozone, coupled with meteorological factors. This empowers the model to predict future AQI levels with exceptional accuracy. Real-time data acquisition is handled by NodeMCU, an IoT platform acting as our environmental guardian. It gathers live data and feeds it to the model, enabling real-time, location-specific AQI predictions. The model's effectiveness is rigorously evaluated, achieving a promising 99% accuracy-a testament to its potential to revolutionize air quality management. By harnessing the power of machine learning and IoT, this research paves the way for a future where proactive air quality management fosters healthier cities and a more sustainable future.
+Peer review timeline
+13 Jun 2024
+Submitted to TechRxiv
+24 Jun 2024
+Published in TechRxiv
+Cite as: Neha Rajas Patil, Amruta Amune, Ishan Shivankar, et al. Air Quality Index Prediction Model Utilizing Random Forest and NodeMCU. TechRxiv. June 24, 2024.
+DOI: 10.36227/techrxiv.171925120.04152469/v1
+
+
+
+
+e-Prints posted on TechRxiv are preliminary reports that are not peer reviewed. They should not be regarded as conclusive, guide clinical practice/health-related behavior, or be reported in the media as established information.
+File
+New Changes.pdf
+
+TechRxiv
+| Powered by Authorea.com
+Home
+About
+Submission Guidelines
+FAQs
+Terms of Use
+Privacy Policy
+Contact Us

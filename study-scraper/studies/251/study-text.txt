@@ -1,0 +1,77 @@
+Skip to main content
+We gratefully acknowledge support from the Simons Foundation, member institutions, and all contributors. Donate
+>
+astro-ph
+>
+arXiv:2407.02444
+Help | Advanced Search
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+Search
+Astrophysics > Earth and Planetary Astrophysics
+[Submitted on 2 Jul 2024]
+Asymmetries in the simulated ozone distribution on TRAPPIST-1e due to orography
+Anand Bhongade, Daniel R Marsh, Felix Sainsbury-Martinez, Gregory J Cooke
+TRAPPIST-1e is a tidally locked rocky exoplanet orbiting the habitable zone of an M dwarf star. Upcoming observations are expected to reveal new rocky exoplanets and their atmospheres around M dwarf stars. To interpret these future observations we need to model the atmospheres of such exoplanets. We configured CESM2-WACCM6, a chemistry climate model, for the orbit and stellar irradiance of TRAPPIST-1e assuming an initial Earth-like atmospheric composition. Our aim is to characterize the possible ozone (O_3) distribution and explore how this is influenced by the atmospheric circulation shaped by orography, using the Helmholtz wind decomposition and meridional mass streamfunction. The model included Earth-like orography and the substellar point was located over the Pacific Ocean. For such a scenario, our analysis reveals a North-South asymmetry in the simulated O_3 distribution. The O_3 concentration is highest below 10 hPa level (below \sim30 km) near the South pole. This asymmetry results from the presence of land masses on the night side that cause drag in near-surface flows and lead to an asymmetric meridional overturning circulation. Catalytic species were roughly symmetrically distributed and were not found to be primary driver for the O_3 asymmetry. The total ozone column (TOC) density was higher for TRAPPIST-1e compared to Earth, with 8000 Dobson Units (DU) near the South pole and 2000 DU near the North pole. The results emphasize the sensitivity of O_3 to model parameters, illustrating how incorporating Earth-like orography can affect atmospheric dynamics and O_3 distribution. This link between surface features and atmospheric dynamics underlines the importance of how changing model parameters used to study exoplanet atmospheres can influence the interpretation of observations.
+Comments: Submitted to ApJ
+Subjects: Earth and Planetary Astrophysics (astro-ph.EP)
+Cite as: arXiv:2407.02444 [astro-ph.EP]
+  (or arXiv:2407.02444v1 [astro-ph.EP] for this version)
+  https://doi.org/10.48550/arXiv.2407.02444
+Focus to learn more
+Submission history
+From: Felix Sainsbury-Martinez [view email]
+[v1] Tue, 2 Jul 2024 17:21:00 UTC (7,846 KB)
+Access Paper:
+View PDF
+HTML (experimental)
+TeX Source
+Other Formats
+view license
+Current browse context:
+astro-ph.EP
+< prev   |   next >
+new | recent | 2024-07
+Change to browse by:
+astro-ph
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+Export BibTeX Citation
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer (What is the Explorer?)
+Litmaps Toggle
+Litmaps (What is Litmaps?)
+scite.ai Toggle
+scite Smart Citations (What are Smart Citations?)
+Code, Data, Media
+Demos
+Related Papers
+About arXivLabs
+Which authors of this paper are endorsers? | Disable MathJax (What is MathJax?)
+About
+Help
+Contact
+Subscribe
+Copyright
+Privacy Policy
+Web Accessibility Assistance
+arXiv Operational Status
+Get status notifications via email or slack

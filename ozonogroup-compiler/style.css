@@ -61,6 +61,12 @@ body {
     padding: 0 3.2rem;
 }
 
+.container-xl {
+    max-width: 128.0rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
 /* TAGS -------------------------------------------------------------- */
 
 h1 {
@@ -582,11 +588,6 @@ svg {
 /* ************************************************************ */
 /* LAYOUT ***************************************************** */
 /* ************************************************************ */
-.container-xl {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 0 32px;
-}
 
 .container-half {
     max-width: 60rem;
@@ -848,9 +849,12 @@ svg {
     align-items: center;
 }
 
-
 .justify-center {
     justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
 }
 
 
@@ -896,6 +900,14 @@ svg {
 
 .gap-96 {
     gap: 9.6rem;
+}
+
+.text-48 {
+    font-size: 4.8rem;
+}
+
+.text-64 {
+    font-size: 6.4rem;
 }
 
 .text-white {
@@ -996,4 +1008,8 @@ svg {
 
 .text-blue-600 {
     color: #2563eb;
+}
+
+.object-cover {
+    object-fit: cover;
 }

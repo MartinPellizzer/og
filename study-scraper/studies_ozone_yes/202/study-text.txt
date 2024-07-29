@@ -1,0 +1,113 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (64)
+Chemosphere
+Volume 362
+, August 2024, 142749
+Efficient degradation of p-nitrophenol from water by enhancing dielectric barrier discharge (DBD) plasma through ozone circulation: Optimization, kinetics and mechanism
+Author links open overlay panel
+Amirhossein Khourshidi a
+,
+Fatemeh Ajam a
+,
+Masoud Rabieian a
+,
+Mohsen Taghavijeloudar b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.chemosphere.2024.142749
+Get rights and content
+Highlights
+•
+Circulation of O3 generate during DBD plasma was investigated for PNP degradation.
+•
+DBD-O3 could increase the PNP degradation efficiency from 57.4 % to 94.4 %.
+•
+Energy yield significantly improved (130 %) by the O2 injection and O3 circulation.
+•
+More reactive species (ROS) were released in the DBD-O3 system than DBD alone.
+•
+The operation time and cost decreased 83 % and 91 %, respectively.
+Abstract
+Non-thermal dielectric barrier discharge (DBD) plasma has received great attention for degradation of persistent organic pollutants such as p-nitrophenol (PNP). However, the feasibility of the DBD implementation is not clear due to its high energy consumption and relatively low degradation efficiency. In this research, a novel strategy was suggested based on re-circulation of the generated O3 in the DBD system to enhance the PNP degradation efficiency and energy yield. The potential mechanism and possible pathway of PNP degradation were studied by EPR, ESR, DFT and GS-MS analytical tests. According to the results, the PNP degradation efficiency and energy yield increased from 57.4% to 94.4% and from 0.52 to 1.18 g kW−1h−1, respectively through ozone circulation into the DBD reactor. This was due to the more release of long-lived and short-lived reactive species (ROS) in the DBD-O3 system by the O3 circulation. The variations in pH (4–10), initial concentration (50–90 mg L−1), and the presence of co-existing substances in the water matrix had minimal impact on the DBD-O3 system, in comparison to the conventional system. The biological toxicity evaluation revealed that the hybrid DBD-O3 system transform PNP to less toxic intermediates. This study proposes a promising strategy to improve the utilization of DBD for the degradation of PNP.
+Graphical abstract
+Download: Download high-res image (303KB)
+Download: Download full-size image
+Introduction
+The rapid agricultural and industrial expansion led to the widespread utilization of chemical materials and pesticides which contain non-biodegradable organic compounds (Van et al., 2023). As a result, our planet's water resources face a serious increasingly threat of contaminations (Kyere-Yeboah et al., 2023). Among them p-Nitrophenol (PNP) which is one of the phenolic compounds has widely employed in both industrial and agricultural fields (Khourshidi et al., 2023; Zhao et al., 2022). Consequently, a huge amount of PNP released into the environment which poses a severe ecological hazard for both human and animal populations (Zhao et al., 2010). The European Economic Community (EEC) and the United States Environmental Protection Agency (EPA) added PNP to the list of priority pollutants as one of the most hazardous pollutants (Kuosa et al., 2009; Wang and Chen, 2020). Thus, there is an essential need to develop efficient methods for PNP removal from environment. So far, several researches have been conducted for PNP degradation including carbon adsorption (Yue et al., 2021), extraction (He et al., 2021), biological treatment (Mei et al., 2019), membrane filtration (Tan et al., 2019), and advanced oxidation processes (AOPs) (Abdolalian and Taghavijeloudar, 2022; Ajam et al., 2023).
+Among the AOPs, the gas-liquid discharge non-thermal plasma (NTP) technique has received great attention for the treatment of organic pollutants from water due to its relatively high degradation efficiency, operating at lower temperatures and minimal adverse impact on the environment (Fang et al., 2022; Zhao et al., 2021). Dielectric barrier discharge (DBD) is one of the NTPs, that can be applied at large a scale owing to its easy operation, uniform/stable discharge and wide treatment area (Dolezalova and Lukes, 2015; Li et al., 2016; Taghavijeloudar et al., 2022). Applying an electric or electromagnetic field induced by DBD plasma to a gas phase leads to the ionization of the gas atoms and molecules (Pan and Qiao, 2019; Singh et al., 2016). This process generates highly reactive species (such as OH•, H•, H2O2 and O3) and additional free electrons which can be employed for breaking down stubborn compounds (Li et al., 2019; Xin et al., 2020). Among them, OH• and O3 which are the main characteristics of AOPs and strong oxidizing agent, exhibit high degradation potentials of 2.80 and 2.07 eV, respectively (Ma et al., 2021; Rasheed et al., 2011). To sum up, DBD plasma technology offers a hybrid AOPs that encompasses both physical and chemical effects by producing high-energy electronic collisions, reactive species, ultraviolet light, and shock waves (SHANG et al., 2017; Trinh and Mok, 2016; Zhao et al., 2021).
+However, the application of DBD alone for organic pollutant treatment failed to gain proper attention due to its unacceptable economic feasibility (i.e., low energy utilization rate) (Deng et al., 2023). Various studies have tried to improve the performance of DBD by integrating it with other AOPs (Crema et al., 2020; Zhu et al., 2020). For example, Shang et al. combined the DBD process with the Fe+2/per-sulfate oxidation process for PNP degradation. They could increase the removal efficiency from 63.6% to 81.1% after 50 min by adding 360 μM (Shang et al., 2019). In another attempt, Gue et al. combined DBD and graphene-ZnO to increase the degradation efficiency of PNP from water. They reported a high removal efficiency of 90% for PNP after 30 min (Guo et al., 2022). However, besides the high expense of the nanoparticles, these approaches release huge amounts of nanoparticles into the environment. Some other studies focused on improving DBD performance by injecting various gases into the reactor which increases the potential of reactive species and achieves higher degradation (Liu et al., 2023). Recently, Fang et al. injected helium (He), nitrogen (N2), and oxygen (O2) into the DBD system to remove methyl parathion from water. They reported that the best performance was achieved when helium was used as the working gas (90%) (Fang et al., 2022). Ren et al. injected O3 from outside (using an ozone generator) into DBD to depredate trans-ferulic acid from an aqueous solution. They achieved a 96.9% degradation rate after a 40 min treatment (Ren et al., 2018). There is no doubt that injecting gases (e.g., He, O3) from outside into the DBD system increases degradation efficiency. However, it should be noted that these approaches are not easy to operate and result in additional costs, especially on a large scale.
+During the conventional DBD process, a significant amount of O3(g) is generated at top space of the reactor which has minimal effect on the degradation of pollution in the water (Hafeez et al., 2021a, 2021b; Qasim et al., 2022) and is wasted because of its limited lifetime (Xu et al., 2023). Some previous works including Deng et al. (2023), (Hafeez et al., 2021a, 2021b) and Qasim et al. (2022) used this plasma based O3 for water purification in a separate reactor. However, circulation of the generated O3(g) into the same DBD reactor can be a promising approach to enhance the performance of the conventional DBD system. We hypothesized that circulating a carrier gas such as O2 into the water body in the same DBD reactor not only causes the O3(g) circulation but also improves the PNP degradation efficiency. In such a hybrid DBD system (DBD-O3), the injected O2 and recycled O3(g) will be ionized by the DBD electrodes release more reactive species which resulting in higher PNP degradation and energy efficiency.
+Therefore, in this study a novel hybrid DBD system with ozone circulation (DBD-O3) was developed to efficiently degrade PNP in water. To do this, first the performance of the conventional DBD (without O3 circulation) and DBD-O3 systems was evaluated and optimized in terms of PNP degradation efficiency and energy yield. In addition, the impact of temperature variation on the performance of the both systems was investigated. Also, the effect of initial conditions (e.g., pH, PNP concentration and co-existing substance in the water matrix) on the performance of the two systems was investigated. Furthermore, Pseudo-fist-order (PFO) and Pseudo-second-order (PSO) models were used to simulate the reaction kinetics of the processes. The optical emission spectra (OES) and electron paramagnetic resonance (EPR) were conducted to identify the short-lived species, and further analysis were carried out to detection of long-lived species. Moreover, the degradation mechanism of PNP was discussed through the density functional theory (DFT). Finally, the possible degradation pathway of PNP was explored under the DBD and DBD-O3 systems and the biological toxicity of intermediate products was compared.
+Section snippets
+Materials
+p-Nitrophenol (PNP: C6H5NO3 with purity >95%) was purchased from Merck (Germany). To prepare synthetic wastewater, PNP standard stock solution was made by mixing 200 mg of PNP in 1 L of deionized water. The stock solution was then stored at 4 °C for up to 7 days. Potassium indigo trisulfonate (as ozone-scavenging reagent), Phosphoric acid (85% v/v), sodium dihydrogen phosphate, Hydrogen Peroxide (H2O2) Test Strips [Vial of 100 Strips] were purchased from Sigma Aldrich. The study employed
+Performance of the DBD and DBD-O3 on PNP degradation
+Fig. 2a shows the performance of the conventional DBD system (without O3 recycling) on PNP degradation under various applied voltages (10, 12, 14 and 16 kV) during 30 min treatment with an initial PNP concentration of 50 mg L−1, pH = 7 and O2 flow rate = 0.5 L min−1. It was observed that in all cases by increasing the treatment time, the degradation efficiency increased gradually which is attributed to the more contact between PNP molecules and reactive species (Calcio Gaudino et al., 2021;
+Conclusion
+A hybrid circulation-generated DBD-O3 system was proposed to improve the performance of the conventional DBD system. Based on our findings, the degradation efficiency of PNP significantly improved from 57.4% to 94.4% by enhancing DBD through ozone circulation. In addition, the proposed model showed faster degradation (almost in two-fold) and higher energy yield compared to the conventional DBD. This was attributed to the release of more long-lived and short-lived reactive species (RONS) in the
+CRediT authorship contribution statement
+Amirhossein Khourshidi: Writing – original draft, Software, Investigation, Formal analysis, Conceptualization. Fatemeh Ajam: Writing – original draft, Validation, Resources, Investigation, Data curation. Masoud Rabieian: Writing – original draft, Validation, Investigation, Data curation, Conceptualization. Mohsen Taghavijeloudar: Writing – review & editing, Writing – original draft, Supervision, Methodology, Formal analysis, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+The authors would like to express their sincere gratitude to all whom shared their pearls of wisdom with us in this research including the reviewers. We would like to acknowledge Mr. Behrad Farzinfar for assisting with the DBD reactor design and operations.
+References (64)
+S. Abdolalian et al.
+Performance evaluation and optimization of ZnO-PVP nanoparticles for photocatalytic wastewater treatment: interactions between UV light intensity and nanoparticles dosage
+J. Clean. Prod.
+(2022)
+A. Alvarez et al.
+Enhanced biodegradation of hexachlorocyclohexane (HCH) isomers by Sphingobium sp. strain D4 in the presence of root exudates or in co-culture with HCH-mobilizing strains
+J. Hazard Mater.
+(2022)
+A.P.S. Crema et al.
+Degradation of indigo carmine in water induced by non-thermal plasma, ozone and hydrogen peroxide: a comparative study and by-product identification
+Chemosphere
+(2020)
+R. Deng et al.
+The enhancing energy efficiency of sulfadiazine degradation using a DBD-contact plasma treatment process
+Chem. Eng. J.
+(2023)
+E. Dolezalova et al.
+Membrane damage and active but nonculturable state in liquid cultures of Escherichia coli treated with an atmospheric pressure plasma jet
+Bioelectrochemistry
+(2015)
+C. Fang et al.
+Study of detoxification of methyl parathion by dielectric barrier discharge (DBD) non-thermal plasma at gas-liquid interface:mechanism and bio-toxicity evaluation
+Chemosphere
+(2022)
+H. Guo et al.
+Theoretical and experimental insight into plasma-catalytic degradation of aqueous p-nitrophenol with graphene-ZnO nanoparticles
+Sep. Purif. Technol.
+(2022)
+A. Hafeez et al.
+Intensification of ozone generation and degradation of azo dye in non-thermal hybrid corona-DBD plasma micro-reactor
+Chem. Eng. Process. - Process Intensif.
+(2021)
+A. Hafeez et al.
+Developing multiplexed plasma micro-reactor for ozone intensification and wastewater treatment
+Chem. Eng. Process. - Process Intensif.
+(2021)
+X.Q. He et al.
+Fabrication of magnetic polydopamine@naphthyl microporous organic network nanosphere for efficient extraction of hydroxylated polycyclic aromatic hydrocarbons and p-nitrophenol from wastewater samples
+J. Chromatogr. A
+(2021)
+View more references
+Cited by (0)
+View full text
+© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+PFDA promotes cancer metastasis through macrophage M2 polarization mediated by Wnt/β-catenin signaling
+Chemosphere, Volume

@@ -1,0 +1,16 @@
+Here are five detailed paragraphs based on the scientific study:
+
+**Paragraph 1: Introduction**
+Portable Sensor Nodes (PSNs) have emerged as a promising solution to supplement geographically sparse government-run static air quality monitoring stations (AQMSs). PSNs typically consist of several low-cost pollution sensors that require calibration to ensure accurate measurements. However, calibrating these sensors can be challenging due to the lack of access to high-accuracy monitoring equipment (HAME) at AQMSs. This study proposes a novel AI-driven model, UNI-CAL, for calibrating air pollutant sensors using domain-specific knowledge inputs.
+
+**Paragraph 2: Methods**
+The proposed UNI-CAL model uses a residual block architecture that captures the complex non-linear interactions between raw measurements and citywide domain-specific information, including meteorology, background pollution, and temporal characteristics. The model is trained on a dataset of sensor readings from multiple PSNs and HAMEs at AQMSs. To improve calibration accuracy, UNI-CAL allows transfer calibration, where sensors from calibrated PSNs are used to calibrate uncalibrated ones.
+
+**Paragraph 3: Results**
+The results show that UNI-CAL improves the performance of direct calibration by 3.143% on average compared to the best baseline across all pollutants and PSNs on all evaluation metrics. Additionally, incorporating domain-specific information into the model significantly improves the direct calibration performance of UNI-CAL by 4.852% on average. The model also demonstrates strong capabilities in transfer calibration, achieving the best performance in most scenarios after incorporating domain-specific information.
+
+**Paragraph 4: Discussion**
+The study highlights the importance of integrating domain-specific knowledge inputs into air pollutant sensor calibration models to improve accuracy and reliability. The proposed UNI-CAL model shows promising results in direct and transfer calibration tasks, paving the way for large-scale deployment of PSNs. Future studies can explore advanced semi-supervised learning techniques to further improve the consistency, robustness, generalizability, and transferability of the proposed calibration framework.
+
+**Paragraph 5: Conclusions**
+In conclusion, this study proposes a novel AI-driven model, UNI-CAL, for calibrating air pollutant sensors using domain-specific knowledge inputs. The results demonstrate improved performance in direct and transfer calibration tasks, highlighting the potential of the proposed model for large-scale deployment of PSNs. Further research can build upon the proposed framework to develop more advanced calibration methods that can better cope with diverse environmental conditions and sensor types.

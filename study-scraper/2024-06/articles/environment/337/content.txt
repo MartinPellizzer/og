@@ -1,0 +1,19 @@
+**Paragraph 1**
+Introduction
+The relationship between air pollution and adverse birth outcomes has been understudied despite its potential to impact public health. This study aims to assess the association between air pollution exposure during pregnancy and housing context with birth outcomes in Wisconsin mothers. We linked air pollution data from the Environmental Protection Agency (EPA) with housing data from the American Community Survey and birth records from 13 Wisconsin counties over a nine-year period. Our findings suggest that ozone exposure and housing cost-burden have significant negative associations with birthweight and gestational age, while fine particulate matter exposure has no correlation with these outcomes.
+
+**Paragraph 2**
+Methods
+We constructed a dataset using 2011-2019 birth records from 13 Wisconsin counties combined with EPA data on air pollution, Census Data on housing context, and U.S. Department of Health and Human Services data on infant emergency healthcare access. We used residential census tracts and counties to append pollution and housing measures, excluding multiple births, births under the age of 16 or over the age of 44, and observations with birthweights under 500 g. We imputed missing data using multiple imputation by chained equations (MICE) and extrapolated ozone and PM2.5 data using an average of the nearest non-missing neighbors.
+
+**Paragraph 3**
+Results
+Our results show that ozone exposure has a significant negative association with birthweight, gestational age, and NICU admission. For every additional tenth of one part-per-million daily average exposure to ozone, there is a 33 g decrease in birthweight, which is comparable to the effects of smoking during pregnancy. Housing cost-burden also had a negative association with birth outcomes, while fine particulate matter exposure showed no correlation.
+
+**Paragraph 4**
+Discussion
+Our findings highlight the importance of reducing atmospheric ozone and addressing housing cost-burden as public health priorities. The associations between air pollution and adverse birth outcomes are significant and warrant further study. Moreover, our results suggest that accounting for individual sociodemographic characteristics, access to emergency infant healthcare, and neighborhood housing factors is crucial in understanding the independent association of air pollution on birth outcomes.
+
+**Paragraph 5**
+Conclusion
+In conclusion, this study demonstrates the importance of considering air pollution exposure during pregnancy and housing context when investigating adverse birth outcomes. Our findings suggest that ozone exposure has a significant negative impact on birthweight, gestational age, and NICU admission, while fine particulate matter exposure showed no correlation with these outcomes. Addressing atmospheric ozone levels and addressing housing cost-burden are crucial public health priorities to promote healthy births and reduce health disparities. Future studies should continue to investigate the complex relationships between air pollution, housing context, and birth outcomes.

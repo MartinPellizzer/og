@@ -1,0 +1,86 @@
+Home About
+Current Archives Announcements Search Contact
+Search
+Register Login
+Home / Archives / Vol 6 No 2 (2024): Journal of Information Systems and Informatics / Articles
+Air Quality Prediction Using the Support Vector Machine Algorithm
+Liza Widyarini
+Universitas Kristen Satya Wacana, Indonesia
+Hindriyanto Dwi Purnomo
+Universitas Kristen Satya Wacana, Indonesia
+DOI: 10.51519/journalisi.v6i2.705
+Keywords: Air Quality, Prediction, SVM Algorithm, Air Pollution, Support Vector Machine.
+Abstract
+Air quality is an important factor in maintaining the health and well-being of humans and the environment. To anticipate and manage air pollution, air quality prediction has become an important research topic. In this research, researchers propose using the Support Vector Machine (SVM) algorithm to predict air quality. SVM has proven to be an effective method in classification and regression, especially in the context of complex and non-linear data such as air quality data. Researchers utilized historical air quality datasets that include various parameters such as particulates, ozone, nitrogen dioxide and carbon monoxide. Experiments were conducted to compare the performance of SVM with other prediction methods, and the results show that SVM provides accurate and reliable predictions in modeling air quality.
+Downloads
+References
+S. T. Li and L. Y. Shue, "Data mining to aid policy making in air pollution management," Expert Systems with Applications, vol. 27, no. 3, pp. 331-340, 2004.
+Y. Bai, Y. Li, X. Wang, J. Xie, and C. Li, "Air pollutants concentrations forecasting using back propagation neural network based on wavelet decomposition with meteorological conditions," Atmospheric Pollution Research, vol. 7, no. 3, pp. 557-566, 2016.
+S. Mahajan, P. Kumar, J. A. Pinto, A. Riccetti, K. Schaaf, G. Camprodon, V. Smári, A. Passani, and G. Forino, "A citizen science approach for enhancing public understanding of air pollution," Sustainable Cities and Society, vol. 52, p. 101800, 2020.
+B. Novianti, T. Rismawan, and S. Bahri, "Implementasi Data Mining Dengan Algoritma C4.5 Untuk Penjurusan Siswa (Studi Kasus: Sma Negeri 1 Pontianak)," J. Coding, Sist. Komput. Untan, vol. 4, no. 3, pp. 75-84, 2016.
+P. M. S. Tarigan, J. T. Hardinata, H. Qurniawan, M. Safii, and R. Winanjaya, "Implementasi Data Mining Menggunakan Algoritma Apriori Dalam Menentukan Persediaan Barang: Studi Kasus: Toko Sinar Harahap," Jurnal Janitra Informatika dan Sistem Informasi, vol. 2, no. 1, pp. 9-19, 2022.
+A. M., Puspitasari, D. E. Ratnawati, and A. W. Widodo, "Klasifikasi Penyakit Gigi dan Mulut Menggunakan Metode Support Vector Machine," Pengembangan Teknologi Informasi dan Ilmu Komputer, vol. 2, no. 2, 2018.
+W. Purnami, A. M. Regresi, and L. Ordinal, "Perbandinganl Klasifikasi Tingkat Keganasan Breast Cancer Dengan Menggunakan Regresi Logistik Ordinal Dan Support Vector Machine (SVM)," J. Sains Dan Seni ITS, vol. 1, no. 1, 2012.
+R. Tineges, T. Agung, and D. S. Ira, "Analisis Sentimen Terhadap Layanan Indihome Berdasarkan Twitter Dengan Metode Klasifikasi Support Vector Machine (SVM)," Jurnal Media Informatika Budidarma, vol. 4, no. 3, p. 650, 2020.
+S. H. Wibowo and R. Toyib, "Support Vector Machine Method for Recognizing Patterns in Signatures," Jurnal Media Infotama, vol. 18, no. 2, pp. 323-327, 2022.
+A. Laturiuw and Y. Singgalen, "Sentiment Analysis of Raja Ampat Tourism Destination Using CRISP-DM: SVM, NBC, DT, and k-NN Algorithm," J. Inf. Syst. Informatics, vol. 5, no. 2, pp. 518-535, May 2023.
+A. Darmawan, M. Al Wajieh, M. Setyawan, T. Yandi, and H. Hoiriyah, "Hoax News Analysis for the Indonesian National Capital Relocation Public Policy with the Support Vector Machine and Random Forest Algorithms," J. Inf. Syst. Informatics, vol. 5, no. 1, pp. 150-173, Mar. 2023.
+Y. Singgalen, "Sentiment Analysis on Customer Perception towards Products and Services of Restaurant in Labuan Bajo," J. Inf. Syst. Informatics, vol. 4, no. 3, pp. 511-523, Sep. 2022.
+Minister of Environment and Forestry Regulation number 14 of 2020 concerning the Air Pollution Standard Index (ISPU).
+Download PDF
+Published
+2024-06-13
+Abstract views: 144 times
+Download PDF: 78 times
+How to Cite
+Widyarini, L., & Purnomo, H. (2024). Air Quality Prediction Using the Support Vector Machine Algorithm. Journal of Information Systems and Informatics, 6(2), 652-661. https://doi.org/10.51519/journalisi.v6i2.705
+More Citation Formats
+Issue
+Vol 6 No 2 (2024): Journal of Information Systems and Informatics
+Section
+Articles
+Copyright (c) 2024 Journal of Information Systems and Informatics
+This work is licensed under a Creative Commons Attribution 4.0 International License.
+I certify that I have read, understand and agreed to the Journal of Information Systems and Informatics (Journal-ISI) submission guidelines, policies and submission declaration. Submission already using the provided template.
+I certify that all authors have approved the publication of this and there is no conflict of interest.
+I confirm that the manuscript is the authors' original work and the manuscript has not received prior publication and is not under consideration for publication elsewhere and has not been previously published.
+I confirm that all authors listed on the title page have contributed significantly to the work, have read the manuscript, attest to the validity and legitimacy of the data and its interpretation, and agree to its submission.
+I confirm that the paper now submitted is not copied or plagiarized version of some other published work.
+I declare that I shall not submit the paper for publication in any other Journal or Magazine till the decision is made by journal editors.
+If the paper is finally accepted by the journal for publication, I confirm that I will either publish the paper immediately or withdraw it according to withdrawal policies
+I Agree that the paper published by this journal, I transfer copyright or assign exclusive rights to the publisher (including commercial rights)
+Most read articles by the same author(s)
+Afelia Jozalin Elisa Sakalessy, Hindriyanto Dwi Purnomo, Assessing Employee Performance in the Information Technology Department Using K-Means Clustering: A Case Study Approach , Journal of Information Systems and Informatics: Vol 6 No 1 (2024): Journal of Information Systems and Informatics
+Akhfan Setiyaji, Hindriyanto Dwi Purnomo, Analyzing the Distribution of Health Workers in Semarang City Using K-Means Clustering Method , Journal of Information Systems and Informatics: Vol 6 No 1 (2024): Journal of Information Systems and Informatics
+Publisher
+      Home
+      About the Journal
+      Submissions
+      Ethics Statement
+      Editorial Team
+      Peer Review Process
+      Authors Affiliation
+      Licensing and Copyright
+      Open Access & Archiving
+      Fee and Information
+      Privacy Statement
+      Browse By Authors
+      Blacklist Authors
+Editor & Reviewer Certificate
+Download Certificate
+Supported By
+Article Template
+ISSN
+e-ISSN: 2656-4882
+p-ISSN: 2656-5935
+Reference Tools
+
+Journal Achievement
+Journal Indexing
+
+
+Our Visitors
+
+View Details
+
+Licensed under a Creative Commons Attribution 4.0 International License.

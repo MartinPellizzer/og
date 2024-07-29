@@ -1,0 +1,169 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We also use optional cookies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to the processing of your personal data - including transfers to third parties. Some third parties are outside of the European Economic Area, with varying standards of data protection.
+See our privacy policy for more information on the use of your personal data.
+Manage preferences for further information and to change your choices.
+Accept all cookies
+Reject optional cookies
+Skip to main content
+Advertisement
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Advances and Trends in Artificial Intelligence. Theory and Applications Conference paper
+Enhancing False-Sentence Pairs of BERT-Pair for Low-Frequency Aspect Category Detection
+Conference paper
+First Online: 10 July 2024
+pp 135–146
+Cite this conference paper
+Advances and Trends in Artificial Intelligence. Theory and Applications
+(IEA/AIE 2024)
+Masato Kikuchi, Shogo Anda & Tadachika Ozono 
+Part of the book series: Lecture Notes in Computer Science ((LNAI,volume 14748))
+Included in the following conference series:
+International Conference on Industrial, Engineering and Other Applications of Applied Intelligent Systems
+55 Accesses
+Abstract
+Aspect category detection (ACD), a task for detecting the aspect categories from texts, helps to extract the information customers need from review sentences automatically. BERT-pair was proposed, effectively solving this task by constructing auxiliary sentences from categories and classifying pairs of review and auxiliary sentences. In contrast, several product genres with multiple components include various low-frequency aspect categories in their reviews. Nevertheless, BERT-pair struggles to detect these categories; thus, the ACD performance for such products is poor. Moreover, to the best of our knowledge, no study on low-frequency category detection exists. Thus, we propose improved methods of BERT-pair to increase the performance for low-frequency categories. Our methods replace the review sentences in “false sentence pairs” that train BERT-pairs with similar sentences. This replacement enhances the diversity of sentences for low-frequency categories without additional training costs. Our experiment demonstrates that one of our methods increases the macro-F1 value for low-frequency categories by up to 0.11 points while maintaining the macro-F1 value for all categories.
+This is a preview of subscription content, log in via an institution to check access.
+Notes
+1.
+https://nlpaug.readthedocs.io/en/latest/augmenter/char/keyboard.html.
+2.
+We conducted preliminary experiments using similar sentence generation methods, including AEDA [6], BT [4], DRAWS [8], PWSS [8], EDA [14], and KA. Consequently, we selected KA, which exhibited the best performance. In addition, we selected the LLM-based method inspired by its rich language generation capability.
+3.
+https://alt.qcri.org/semeval2016/task5/.
+4.
+https://huggingface.co.
+5.
+KA-BERT-pair outperforms other data augmentation methods, not discussed in this paper owing to space limitations.
+References
+Chebolu, S.U.S., et al.: Survey on aspect category detection. ACM Comput. Surv. 55(7, 132), 1–37 (2022)
+Google Scholar
+  Cheng, Z., et al.: Tell model where to attend: improving interpretability of aspect-based sentiment classification via small explanation annotations. In: Proceedings of the ICASSP 2023, pp. 1–5 (2023)
+Google Scholar
+  Devlin, J., et al.: BERT: pre-training of deep bidirectional transformers for language understanding. In: Proceedings of the NAACL-HLT 2019, pp. 4171–4186 (2019)
+Google Scholar
+  Edunov, S., et al.: Understanding back-translation at scale. In: Proceedings of the EMNLP 2018, pp. 489–500 (2018)
+Google Scholar
+  Hong, H., Song, J.: Utilizing BERT for detecting aspect categories on TABSA via adjusting self-attention among words. In: Proceedings of the ICHCI 2020, pp. 66–70 (2020)
+Google Scholar
+  Karimi, A., Rossi, L., Prati, A.: AEDA: an easier data augmentation technique for text classification. In: Findings of EMNLP 2021, pp. 2748–2754 (2021)
+Google Scholar
+  Ke, C., et al.: SimCPD: a simple framework for contrastive prompts of target-aspect-sentiment joint detection. Neural Comput. Appl. 35, 16577–16592 (2023)
+Article
+  Google Scholar
+  Li, G., et al.: Data augmentation for aspect-based sentiment analysis. Int. J. Mach. Learn. Cybern. 14, 125–133 (2023)
+Article
+  Google Scholar
+  Nooten, J.V., Daelemans, W.: Improving Dutch vaccine hesitancy monitoring via multi-label data augmentation with GPT-3.5. In: Proceedings of the WASSA 2023, pp. 251–270 (2023)
+Google Scholar
+  Okimura, I., et al.: On the impact of data augmentation on downstream performance in natural language processing. In: Proceedings of the insights 2022, pp. 88–93 (2022)
+Google Scholar
+  Pontiki, M., et al.: SemEval-2016 Task 5: aspect based sentiment analysis. In: Proceedings of the SemEval-2016, pp. 19–30 (2016)
+Google Scholar
+  Sun, C., Huang, L., Qiu, X.: Utilizing BERT for aspect-based sentiment analysis via constructing auxiliary sentence. In: Proceedings of the NAACL-HLT 2019, pp. 380–385 (2019)
+Google Scholar
+  Wan, H., et al.: Target-aspect-sentiment joint detection for aspect-based sentiment analysis. In: Proceedings of the AAAI 2020, pp. 9122–9129 (2020)
+Google Scholar
+  Wei, J., et al.: EDA: Easy data augmentation techniques for boosting performance on text classification tasks. In: Proceedings of the EMNLP-IJCNLP 2019, pp. 6382–6388 (2019)
+Google Scholar
+  Zhou, X., et al.: Dynamic multichannel fusion mechanism based on a graph attention network and BERT for aspect-based sentiment classification. Appl. Intell. 53, 6800–6813 (2023)
+Article
+  Google Scholar
+  Download references
+Acknowledgment
+This work was supported in part by JSPS KAKENHI Grant Numbers JP22K18006, JP24K03052 and the Hibi Science Foundation.
+Author information
+Authors and Affiliations
+Nagoya Institute of Technology, Nagoya, Aichi, 4668555, Japan
+Masato Kikuchi, Shogo Anda & Tadachika Ozono
+Corresponding author
+Correspondence to Masato Kikuchi .
+Editor information
+Editors and Affiliations
+Malaysia-Japan International Institute of Technology (MJIIT), University of Technology Malaysia, Kuala Lumpur, Malaysia
+Hamido Fujita
+University of Hradec Kralove, Hradec Kralove, Czech Republic
+Richard Cimler
+Meiji University, Tokyo, Japan
+Andres Hernandez-Matamoros
+Department of Computer Science, Texas State University, San Marcos, TX, USA
+Moonis Ali
+Rights and permissions
+Reprints and permissions
+Copyright information
+© 2024 The Author(s), under exclusive license to Springer Nature Singapore Pte Ltd.
+About this paper
+Cite this paper
+Kikuchi, M., Anda, S., Ozono, T. (2024). Enhancing False-Sentence Pairs of BERT-Pair for Low-Frequency Aspect Category Detection. In: Fujita, H., Cimler, R., Hernandez-Matamoros, A., Ali, M. (eds) Advances and Trends in Artificial Intelligence. Theory and Applications. IEA/AIE 2024. Lecture Notes in Computer Science(), vol 14748. Springer, Singapore. https://doi.org/10.1007/978-981-97-4677-4_12
+Download citation
+.RIS.ENW.BIB
+DOI
+https://doi.org/10.1007/978-981-97-4677-4_12
+Published
+10 July 2024
+Publisher Name
+Springer, Singapore
+Print ISBN
+978-981-97-4676-7
+Online ISBN
+978-981-97-4677-4
+eBook Packages
+Computer Science
+Computer Science (R0)
+Publish with us
+Policies and ethics
+Access this chapter
+Log in via an institution
+Chapter
+EUR 29.95
+Price includes VAT (Italy)
+Available as PDF
+Read on any device
+Instant download
+Own it forever
+Buy Chapter
+eBook
+EUR 145.51
+Softcover Book
+EUR 76.95
+Tax calculation will be finalised at checkout
+Purchases are for personal use only
+Institutional subscriptions
+Sections
+References
+Abstract
+Notes
+References
+Acknowledgment
+Author information
+Editor information
+Rights and permissions
+Copyright information
+About this paper
+Publish with us
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

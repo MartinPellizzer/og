@@ -1,0 +1,731 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Download full issue
+Outline
+Highlights
+Abstract
+Graphical abstract
+Keywords
+1. Introduction
+2. Materials and methods
+3. Results
+4. Discussion
+5. Conclusions
+Funding
+CRediT authorship contribution statement
+Declaration of competing interest
+Acknowledgments
+Appendix A. Supplementary data
+Data availability
+References
+Show full outline
+Figures (7)
+Show 1 more figure
+Extras (1)
+Multimedia component 1
+Journal of Cereal Science
+Volume 118
+, July 2024, 103973
+Fungicidal effect of gaseous ozone in malting barley: Implications for Fusarium infections and grain germination
+Author links open overlay panel
+Daniela Rodarte Sanchez a
+,
+Birthe Møller Jespersen b
+,
+Lars Holm Rasmussen c
+,
+Mogens Larsen Andersen a
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jcs.2024.103973
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Gaseous ozone reduces fungal count and Fusarium incidence in malting barley.
+•
+Dose-dependent effects on seed germination with adverse effect at high ozone level.
+•
+Ozone concentration has a greater effect than exposure time on fungal deactivation.
+Abstract
+Fungal infections pose a challenge in cereal grains, with Fusarium species, especially in malting barley, causing substantial economic losses and quality degradation. We investigated the effect of gaseous ozone on fungal deactivation and grain germination in spring malting barley, with focus on Fusarium spp. Five studies were performed: (1) ozone concentration (10–100 ppm) and exposure time (1–24 h) on high-moisture barley (19.8%); (2) ozone-treated barley stability over 120 days at 4 °C; (3) grain moisture content (12–20%); (4) relative humidity (23%, 54%, and 98%); and (5) temperature (13 °C, 20 °C, and 33 °C). Significant reductions in total fungal count and Fusarium spp. across all treatments were observed. Higher ozone concentrations and longer exposure times yielded greater reductions, with 100 ppm for 24 h achieving 99.2% and 98.2% reductions in total fungal count and Fusarium incidence, respectively. Grain germination exhibited a negative dose-dependent response but remained within recommended values. Ozone-treated barley preserved quality for 60 days in storage. Grain moisture content, relative humidity, and temperature did not significantly affect ozone's efficacy on fungi and grain germination. This study demonstrates ozone's efficacy against fungi while preserving barley germination, suggesting it as an eco-friendly fungicidal alternative.
+Graphical abstract
+Download: Download high-res image (412KB)
+Download: Download full-size image
+Previous article in issue
+Next article in issue
+Keywords
+Malting barleyOzone treatmentFusarium inactivationGrain germination
+1. Introduction
+Cereal grains are essential staples in the global food supply. They may host a diverse and dynamic array of microorganisms, including bacteria, fungi, and viruses (
+Noots et al., 1999
+). Among these, fungi are the most abundant and are primarily responsible for spoilage in cereal grains (
+Różewicz et al., 2021
+). Despite the use of fungicides and genetic resistant varieties, fungal infections still lead to significant losses throughout the entire cereal production chain, from field to storage, estimated to be at least 20% of total production worldwide (
+Radzikowski et al., 2023
+). These losses can vary significantly between regions, influenced by factors such as climate, agricultural practices, storage conditions, and economic infrastructures. Regions with warm and humid conditions exacerbate fungal infections, and with ongoing global warming, the incidence and severity of these infections are expected to rise, further jeopardizing food security (
+Nnadi and Carter, 2021
+). These infections also reduce grain quality and market value due to discolorations, blights, and reduced germination (
+Pitt and Hocking, 2009
+;
+Różewicz et al., 2021
+). Moreover, fungal infections pose food safety risks, as many fungal species produce mycotoxins, secondary metabolites highly toxic to humans and livestock (
+Różewicz et al., 2021
+).
+Malting barley, valued for its premium quality, must meet strict quality standards including absence of fungal diseases (
+Kunze, 2019
+). Fusarium and Alternaria are among the most common fungal genera found in the barley fields, while Penicillium and Aspergillus predominantly develop during storage (
+Noots et al., 1999
+). Fusarium species notably impact the quality of barley grain, malt, and beer (
+Jin et al., 2018
+). Besides producing mycotoxins that persist through malting and brewing processes, Fusarium aggravates quality defects such as reduced seed germination, altered beer colour and flavour, and beer gushing (
+Jin et al., 2018
+;
+Mastanjević et al., 2017
+;
+Oliveira et al., 2012
+).
+Traditionally, post-harvest grains have been dried and treated with synthetic preservatives like triazoles to prevent fungal growth (
+Jørgensen and Heick, 2021
+). While very effective, the use of fungicides in modern agriculture has resulted in fungal resistance, human health risks due to exposure to the fungicides and their toxic by-products, water pollution, and other environmental hazards (
+Kontoyiannis and Lewis, 2002
+;
+Lucas et al., 2015
+;
+Zubrod et al., 2019
+). This highlights the urgent need for new, effective, safe, and environmentally friendly grain disinfectant technologies.
+Ozone (O3) is a potent oxidant with antimicrobial properties (
+Brodowska et al., 2017
+). Its non-residual nature, breaking down into oxygen without direct by-products, reduces health risks and environmental impact compared to traditional fungicides. Noteworthy, its high reactivity can potentially generate toxic by-products under specific conditions and product nature, necessitating further research for product safety assurance. Ozone's mechanism of action against microorganisms involves oxidizing and disrupting various constituents of the cell outer layers, leading to cell lysis (
+Khadre et al., 2001
+). This broad-spectrum oxidative action reduces the likelihood of fungal resistance (
+Pascual et al., 2007
+).
+Ozone, both in aqueous and gaseous forms, is currently used for surface decontamination, water purification, and treating various food products. Previous research has demonstrated its fungicidal efficacy in cereal grains and derivatives, including Fusarium species (
+Allen et al., 2003
+;
+Beber-Rodrigues et al., 2015
+;
+Mylona et al., 2014
+;
+Piacentini et al., 2017
+;
+Santos et al., 2016
+;
+Savi et al., 2014
+;
+Trombete et al., 2017
+;
+Wu et al., 2006
+). However, ozone's oxidative power, beneficial for inactivating microorganisms, may unintentionally damage grain components, potentially affecting crucial processes such as seed germination, vital for planting and brewing. Research has indicated a dose-dependent effect on germination, with low doses enhancing it and high doses reducing it (
+Allen et al., 2003
+;
+Violleau et al., 2008
+;
+Wu et al., 2006
+).
+Furthermore, ozone treatment presents economic advantages by eliminating ongoing expenses linked to traditional methods, like purchasing, storing, and disposing of chemical agents like fungicides. Instead, it uses on-site generated ozone from atmospheric air. However, initial adoption may require substantial investments in specialized equipment and facility adjustments to ensure safe operations. Adequate training of personnel is also essential to comply with health and safety standards, given the potential hazards of ozone at high concentrations.
+The efficacy of ozone in reducing microbial load is directly associated with grain moisture content, relative humidity, and temperature (
+Khadre et al., 2001
+), yet their complex interactions remain underexplored. A high-water environment enhances ozone efficacy because it promotes the formation of reactive oxygen species (ROS) like superoxide anion (O2‾·), hydroperoxyl radical (HO2·), and hydroxyl radical (·OH), which enhance disinfection power (
+Han et al., 2002
+;
+Khadre et al., 2001
+;
+Zhao and Cranston, 1995
+). Additionally, water accelerates ozone reactivity by facilitating increased contact with grains and gas (
+Savi et al., 2014
+). The effects of ozone become negligible below 45% relative humidity (
+Elford and Van Den Ende, 1942
+) and below 18% grain moisture content (
+Raila et al., 2006
+). On the other hand, temperature plays a crucial role in the solubility, stability, and reactivity of ozone. While ozone becomes more reactive with increasing temperatures, it also becomes less stable (
+Coll Cárdenas et al., 2011
+;
+Khadre et al., 2001
+). Wet and warm conditions, which are detrimental for storage of grains, can paradoxically enhance ozone treatment efficacy. While this presents a challenge for ozone disinfection during storage of dry grains, it opens opportunities for post-harvest treatment during drying.
+To optimize postharvest ozone treatment of malting barley, a comprehensive investigation is required to understand the influence of key factors. This study focuses on malting barley, mainly under high-moisture environments, to enhance ozone treatment efficacy and replicate the elevated moisture levels in freshly harvested barley. Ozone concentration, exposure time, grain moisture content, relative humidity, temperature, and storage stability are examined to assess their impact on fungal and Fusarium spp. reduction, alongside grain germination. These findings will be instrumental for future implementations and refinements in utilizing gaseous ozone to treat other cereal crops.
+2. Materials and methods
+2.1. Barley samples
+Spring malting barley (RGT Planet; 100 kg) was collected from the University of Copenhagen farm “Højbakkegård” (Taastrup, Denmark) in August 2019. The barley (moisture content = 9.0% ± 0.3%; water activity = 0.42 ± 0.02) was packed in 25-kg cotton bulk bags and stored within an enclosed plastic container at 4 °C before use. The fungal load on the barley resulted solely from natural contamination during growing, harvesting, precleaning, and drying.
+2.2. Ozonation unit
+The ozonation of barley was carried out inside a specially designed, custom-made, air-tight polycarbonate box measuring 60 × 40 × 30 cm (
+Fig. S1
+). Ozone was generated within the box using a UV Excimer lamp at 172 nm (model: UXFLUST 16L160 – 01A; power: 17 W; Ushio America; Cypress, USA) and continuously monitored by an ozone monitor (model: 108-L; 2B Technologies; Colorado, USA), measuring ozone concentrations in parts per million (ppm). The setup maintained a constant ozone concentration during treatment using a PID (proportional integral derivative) control system. This system regulated the operation of the UV lamp and monitored ozone levels to ensure consistent ozone concentrations. To achieve uniform ozone distribution and maximize exposure, an integrated fan facilitated ozone circulation within the chamber. Additionally, barley grains were arranged in a single layer (7 mm) on stainless steel grain test sieves (20 cm diameter and 1 mm mesh aperture) to ensure consistent treatment across samples. Test sieves were positioned on two stainless-steel grids, with the first grid placed 10 cm above a saturated salt slurry (see section
+2.3
+. below). The relative humidity was regulated by selected saturated salt slurries and monitored by a hygrometer (model: ES 991; LS Control; Herlufmagle, Denmark) affixed to the box. Temperature was monitored by a temperature data-logger (model: Hygrolog HL-1D; Rotronic; Bassersdorf, Switzerland) situated on the outside the ozonation unit due to incompatibility with ozone. Most experiments were conducted at room temperature 20 °C ± 1 °C), with additional investigations at 13 °C (±1 °C) and 33 °C (±1 °C), achieved using cold and heated rooms. After each experiment, the UV lamp was turned off and any residual ozone was safely released into a fume hood using two exhaust valves before the box was opened.
+2.3. Saturated salt slurries
+To maintain specific relative humidity levels within the ozonation unit, saturated salt slurries of potassium sulphate (K2SO4; Merck KGaA; Darmstadt, Germany), magnesium nitrate (Mg(NO3)2 · 6H₂O; Merck KGaA; Darmstadt, Germany), and potassium acetate (CH3COOK; Merck KGaA; Darmstadt, Germany) were utilized. These salts were chosen based on their theoretical relative humidity of 97.6% (±0.5%), 54.4% (±0.2%), and 23.1% (±0.3%), respectively, at 20 °C (
+Fontana, 2007
+). Slurries were prepared with approximately 500 g of salts to cover the surface of the glass container (40 × 30 × 7 cm), ensuring a large ratio of salt slurry to the sample. The solid salts were lightly moistened with distilled water to achieve dampness while preventing complete dissolution.
+2.4. Moisture content and water activity of grains
+Grain moisture content was determined using a halogen moisture analyser (model: HR73; Mettler Toledo; Columbus OH, USA), while water activity was determined with a portable analyser (model: Hygropalm-HP23-AW-A; Rotronic; Bassersdorf, Switzerland). Measurements were conducted in triplicate.
+2.5. Barley moisture content adjustment
+Barley grains were placed in sterile air-tight containers and rehydrated with sterile distilled water to reach the target moisture content following the method described by
+Ramakrishna et al. (1993)
+. The volume of water required for rehydration was calculated using the formulae: v =
+, where v is the volume of water to be added (mL), w is the weight of grains to be treated (g), a is the desired moisture content of the grain (%), b is the initial moisture content of the grain (%), and I is the volume of water added with the inoculum (mL). In this case, the inoculation volume (I) was zero, as no inoculation was performed. The rehydrated barley samples were then sealed and stored at 4 °C for 5 days, with regular mixing to ensure equilibration. The ozone treatment was administered on the fifth day following the addition of water to the barley samples.
+2.6. Ozonation of barley grains
+2.6.1. Effect of ozone concentration and exposure time
+Barley grains (approx. 500 g) with an adjusted moisture content of 20%, were subjected to ozone treatments within the ozonation unit. Room temperature of 20 °C (±1 °C) and high relative humidity values (97.6%) were maintained by a potassium sulphate slurry. The investigation employed a full factorial design (5 × 4; no replicates), treating barley systematically with ozone concentrations of 0, 10, 30, 50, and 100 ppm for durations of 1, 6, 12, and 24 h. Samples without ozone exposure (0 ppm) served as biological controls. Each ozonation treatment was replicated three times. After treatments, grains were stored in sterile closed containers at 4 °C until further analysis. Additionally, a separate portion of treated samples was stored in sterile, hermetically sealed containers at 4 °C for 1, 20, 60, and 120 days for storage studies.
+2.6.2. Effect of moisture content of grains, relative humidity, and temperature
+Approximately 300 g of barley grains underwent gaseous ozone treatment (50 ppm for 6 h) across various levels of each factor. Moisture content (12%, 15%, 18%, and 20%), relative humidity (23%, 54%, and 98%), and temperature (13 °C, 20 °C, and 33 °C) were examined using both four- and three-level designs in independent studies. Each level was replicated three times, and the treated grains were stored in sterile closed containers at 4 °C until further analysis.
+2.7. Enumeration and identification of fungi
+To enumerate the total fungal load of barley samples serial dilution and direct plating methods were performed, following the protocols outlined by
+Pitt and Hocking (2009)
+. Morphological identification was limited to the genus level and was done directly on the Petri plates.
+2.7.1. Culture media
+Petri dishes (90 × 15 mm) containing sterilized potato dextrose agar (PDA; Sigma-Aldrich, Merck KGaA; Darmstadt, Germany) were used. To prevent bacterial growth, PDA plates were supplemented with 100 μg/mL of Streptomycin/Penicillin antibiotic suspension (10,000 U/mL; Ref: 15140122; Gibco, Fisher Scientific; Göteborg, Sweden). Peptone water (0.1%) was prepared by dissolving bacteriological peptone (Sigma-Aldrich, Merck KGaA; Darmstadt, Germany) in distilled water, followed by sterilization at 121 °C for 15 min.
+2.7.2. Direct plating method (surface disinfection)
+Approximately 30 g of barley grains were aseptically transferred into a sterile beaker and immersed in a 10% chlorine (commercial bleach) solution for 2 min to remove inevitable airborne fungal spores and enable the recovery of actively colonizing fungi. The samples were continuously swirled, followed by two 1-min rinses with sterile distilled water. Using 95% ethanol-flamed forceps, ten barley grains were aseptically plated on the surface of solidified PDA media plates, totalling 100 grains per sample. The plates were incubated for 5 days at 25 °C (±0.1 °C), covered with a plastic bag to prevent contamination and preserve the moisture. On day 2, when the seeds were fixed in the media, the plates were turned upside down inside the incubator. Total fungal count and Fusarium incidence were expressed as percentages.
+2.7.3. Serial dilution plating method
+Barley grains (25 g) were immersed in 225 mL of 0.1% peptone water for 3 h under sterile conditions with subsequent homogenization in a Stomacher for 2 min. The serial dilutions (10−1, 10−2, 10−3, and 10−4) were prepared by adding 1 mL of homogenized sample into test tubes containing 9 mL of 0.1% peptone water. Inoculation was performed by spreading 0.1 mL of each dilution on PDA plates in triplicate. The plates were then incubated upside down at 25 °C (±0.1 °C) for 5 days and covered in a plastic bag. The results of total fungal count and Fusarium incidence were quantified as colony-forming units per gram of sample (CFU/g barley).
+2.7.4. Morphological identification
+Fusarium spp. identification was conducted directly on PDA media plates, utilizing visual cues such as colony, morphology, and colour. The occurrence of Penicillium spp., Aspergillus spp., and Alternaria spp. were also observed. The identification keys used to classify genera were based on the work of
+Pitt and Hocking (2009)
+.
+2.8. Grain germination
+The germination of barley grains was examined following the European Brewery Convention method 3.6.2 (
+European Brewery Convention, 1998
+). Germinated kernels were counted and removed every 24 h for 5 days and the analysis was done in quadruplicate. To assess the germination profile of barley samples, three measures of quality were calculated: germination energy, germination index, and germination homogeneity (
+Riis and Bang-Olsen, 1991
+). Germination energy (%) was calculated as the percentage of grains with visible germination within the 5-day test period. Germination index (GI) was determined using the formulae GI = 10/MGT, where MGT is the mean germination time of the germinated seeds in the test period and ni is germinated and removed seeds at day i. It is calculated as follows:
+Germination homogeneity (GH) was defined as GH = 100 (1 –
+. SD is the standard deviation of the MGT and is calculated with the following formulae:
+The maximum standard deviation (SDmax) of this study was calculated as follows:
+A minimum germination energy of 95% is necessary for malting barley (
+Mebak, 2018
+). No specific specifications exist for germination homogeneity and index; nevertheless, values closer to 100% and 10, respectively, are desired.
+2.9. Statistical tests
+Data analysis was performed using one-way analysis of variance (ANOVA) to evaluate the significance (p-value <0.05) for each factor and their interaction. Tukey's post-hoc pairwise comparisons were conducted for a single factor after observing significant effects. For Tukey's test, groups were pooled based on the most significant factor. The statistical analysis was performed using the R software (version R 4.3.0). When reporting mean values, values represent the mean ± one standard deviation. To ensure the validity of the statistical approach, the models were assessed by examining residuals and Q-Q (quantile-quantile) plots.
+3. Results
+3.1. Effect of ozone concentration and exposure times
+The moisture content of barley grains (9.0% ± 0.3%) was adjusted to 20%, reaching equilibrium at 19.8% (±1.6%) five days after water addition, corresponding to a water activity of 0.89 (±0.03). There was no significant variation in moisture content and water activity among samples, indicating good homogeneity (p-value > 0.05). Following moisture adjustment, barley samples were treated with varied ozone concentrations (10, 30, 50, and 100 ppm) for different durations (1, 6, 12, and 24 h) under high relative humidity (98%) to increase ozone efficacy and room temperature conditions (20 °C ± 1 °C). These conditions were used throughout the entire study. After the ozone treatments, the moisture content and water activity of all treated samples were slightly reduced to an average of 19.3% (±0.6%) and 0.87 (±0.02), respectively, but these changes were not statistically significant (p-value >0.05). Notably, the variation among samples was minor after the ozonation.
+Due to high contamination levels in barley samples, the direct method yielded a total fungal count of 100% across all samples, preventing accurate quantification and highlighting insufficient sensitivity for this study. Consequently, further discussion on the total fungal count obtained via direct plating will not be pursued. On the other hand, significant reductions in total fungal count were observed across all ozone treatments using the serial dilution method (
+Fig. 1
+). Higher ozone concentrations and longer exposure times correlated with greater reductions, with the most substantial reduction of 99.2% (2.1 log cycle) achieved with the most intense treatment at 100 ppm for 24 h. The mildest treatment (10 ppm for 1 h) resulted in the lowest, but still significant, reduction of 41.6% (0.23 log cycle) compared to untreated barley, which had a total fungal count of 7.6 × 104 CFU/g barley. Ozone concentration (p-value < 0.001) had a greater influence on reductions compared to exposure time (p-value = 0.031), and their interaction was not significant (p-value = 0.602). Significant differences were observed between each ozone concentration and the control (
+Fig. 1
+). A plateau effect was observed from 50 ppm (89.3% reduction), where higher ozone concentrations, namely 100 ppm (89.5% reduction) showed minimal and no longer significant reductions in total fungal count. No statistically significant differences (p-values > 0.05) were found between exposure time points (1, 6, 12, and 24 h) for each ozone concentration.
+Download: Download high-res image (196KB)
+Download: Download full-size image
+Fig. 1. Effect of ozone treatment on total fungal count (CFU/g barley) in barley grains (serial dilution). Each box represents the data distribution within each treatment group (n = 3) showing median, quartiles, and range. Whiskers indicate minimum and maximum values. Groups with different letters are significantly different (p-value < 0.05). Ozone treatments (0, 10, 30, 50, and 100 ppm for 1, 6, 12, and 24 h) were conducted at room temperature (20 °C ± 1 °C), 98% relative humidity, and grain moisture content of 19.8% ± 1.6%.
+Fusarium incidence assessed using the serial dilution method showed significant dependence on both ozone concentration (p-value < 0.001) and exposure time (p-value = 0.040), with no significant interaction between them (p-value = 0.117). Reductions were observed across all ozone concentration levels, with noticeable effects even at the lowest treatment level of 10 ppm for 1 h, resulting in an 81.0% reduction (0.71 log cycle). However, the most intense treatment (100 ppm for 24 h) led to the highest reduction of 98.2% (1.7 log cycle). Significant differences in Fusarium incidence were observed between ozone-treated samples and the control (0 ppm) (p-value < 0.05), but not among the ozone-treated groups (p > 0.05) (
+Fig. 2
+a). No significant differences (p-value > 0.05) among exposure time points were found. A plateau effect from 10 ppm, like that observed for the total fungal count, was observed (
+Fig. 2
+a). Fusarium incidence, assessed using the direct plating method, was significantly impacted only by ozone concentrations (p-value < 0.001), particularly evident from 50 ppm onwards (
+Fig. 2
+b), contrasting with the challenges in accurately quantifying total fungal counts. Ozone treatments at 50 ppm were sufficient to reduce 29.2% of Fusarium incidence, while 100 ppm treatments achieved a reduction of 45.0%.
+Download: Download high-res image (348KB)
+Download: Download full-size image
+Fig. 2. Effect of ozone treatment on Fusarium incidence determined with (a) serial dilution method (CFU/g barley) and (b) direct plating (%). Each box represents the data distribution within each treatment group (n = 3) showing median, quartiles, and range. Whiskers indicate minimum and maximum values. Groups with different letters are significantly different (p-value < 0.05). Ozone treatments (0, 10, 30, 50, and 100 ppm for 1, 6, 12, and 24 h) were conducted at room temperature (20 °C ± 1 °C), 98% relative humidity, and grain moisture content of 19.8% ± 1.6%.
+In control barley samples, Penicillium incidence was measured at 2.5 × 103 CFU/g barley via serial dilution and accounted for 16% of the total fungal load measured through direct plating. While ozone concentrations reduced Penicillium incidence to an extent, it did not reach statistical significance (serial dilution p-value = 0.052; direct plating p-value = 0.094). Alternaria incidence accounted for 0.1% of the total fungal count (direct plating) of untreated barley samples, while Aspergillus spp. were undetected. No significant changes were observed in the incidence of Alternaria and Aspergillus between ozone-treated and control samples (p-values > 0.05).
+Ozone treatments had varying effects on the three grain germination parameters tested. Germination energy was solely influenced by ozone concentration (p-value <0.05). However, significant reductions were only identified at the 100-ppm level (
+Fig. 3
+a), where the average germination energy was 96.0%, compared to 99.3% for control samples. While most ozone-treated samples surpassed the recommended 95% threshold for germination energy, a dose-related reduction was observed as ozone treatment intensity increased (
+Fig. 3
+a). Germination homogeneity was significantly affected by both ozone concentration and exposure time (p-values < 0.001). Like germination energy, it was only appreciated at the 100-ppm level (p-value = 0.038) (
+Fig. 3
+b). Exposure times of 12 and 24 h showed significantly lower germination homogeneity scores compared to 1 or 6 h (p-values < 0.01). Lastly, germination index was primarily affected by exposure time (p-value < 0.001) rather than ozone concentration (p-value = 0.024) (
+Fig. 3
+c). Treatments exceeding 1-h resulted in significant reductions in germination index, with no discernible differences among 6-, 12-, and 24-h durations (p-value < 0.001).
+Download: Download high-res image (373KB)
+Download: Download full-size image
+Fig. 3. Effect of ozone treatment on (a) germination energy (%), (b) germination homogeneity, and (c) germination index on barley grains. Each box represents the data distribution within each treatment group (n = 3) showing median, quartiles, and range. Whiskers indicate minimum and maximum values. Groups with different letters are significantly different (p-value < 0.05). Ozone treatments (0, 10, 30, 50, and 100 ppm for 1, 6, 12, and 24 h) were conducted at room temperature (20 °C ± 1 °C), 98% relative humidity, and grain moisture content of 19.8% ± 1.6%.
+3.2. Effect of moisture content of barley
+The efficacy of ozone treatment on grains with varying moisture content was evaluated to assess its effectiveness in different scenarios, including high-moisture contents of freshly harvested grains and low-moisture contents typical during storage. Before ozonation, barley samples were adjusted to 12% (11.6% ± 0.2%), 15% (15.3% ± 0.7%), 18% (18.3% ± 1.0%), and 20% (20.0% ± 0.2%), with corresponding water activities of 0.66 ± 0.01, 0.80 ± 0.02, 0.88 ± 0.02 and 0.89 ± 0.02, respectively. Despite the high relative humidity during the ozonation, minor and not significant changes were observed in both the moisture content and water activity of treated barley grains after ozonation.
+Following ozone treatment with 50 ppm for 6 h, a correlation emerged between higher moisture content and a greater reduction in total fungal count (
+Fig. S2a
+). However, significant reductions were only observed at the 20% moisture content level, where the total fungal count was the lowest at 7.5 × 103 CFU/g barley, representing an 84.0% reduction (0.80 log cycle) compared to the 12% moisture content level (p-value = 0.007). Fusarium spp. were not detected using the serial dilution method, with yeast and other fungi predominating the total fungal counts (CFU/g barley). However, Fusarium spp. were detected in all samples using the direct plating method, with incidence ranging from 1% to 15% of the total fungal count (
+Fig. S2a
+). No significant differences in Fusarium incidence were observed among the grain moisture content groups (p-value = 0.462) (
+Fig. S2b
+). Likewise, the germination markers were not significantly affected by different moisture levels (p-values > 0.05), and all treated samples achieved germination energy values above the recommended thresholds (
+Fig. S3
+).
+3.3. Effect of relative humidity
+Barley grains adjusted to 19.7% ± 0.7% moisture and with a corresponding water activity of 0.88 (±0.02) were treated with ozone at relative humidities 23%, 54%, and 98%. The ozone treatments consisted of 50 ppm for 6 h under each relative humidity condition. The two lower relative humidities gave post-treatment moisture content in the grains 11.8% (±0.3%) and 14.4% (±0.9%) and water activities 0.66 (±0.01) and 0.73 (±0.04), respectively. The treatment at 98% relative humidity gave only minor change with 17.9% (±0.7%) moisture content and 0.85 (±0.01) water activity post-treatment. The variation of the relative humidity did not give statistically significant impact on total fungal count (serial dilution method) and Fusarium incidence (direct plating method) (p-values > 0.05) (
+Fig. S4
+). The grain germination profile analysis did also not show any significant differences among the treated samples under various relative humidities (p-value > 0.05), and all samples achieved germination energy levels above the recommendations for malting barley (
+Fig. S5
+).
+3.4. Effect of temperature
+Barley samples, adjusted to a moisture content of 20% (19.2% ± 1.4) and a corresponding water activity of 0.87 ± 0.02, underwent ozone treatment at temperatures of 13 °C (±1 °C), 20 °C (±1 °C), and 33 °C (±1 °C) for 6 h with 50 ppm under high relative humidity of 98%. Temperature fluctuations influenced the ozone unit's average relative humidity due to temperature-dependent humidity levels of saturated salts, but the chamber consistently maintained high relative humidity levels above 96% (±0.5%). Following ozonation, significant differences in moisture content among the samples were observed (p-value = 0.002), but reductions were particularly significant at the 30 °C level (p-value <0.001), where the sample's moisture content decreased to 14.5% ± 0.6% (water activity = 0.80 ± 0.04).
+An average total fungal count of 1.55 × 104 CFU/g barley (±8.23 × 103 CFU/g barley) was observed among all treated samples, showing no significant differences between them (p-value = 0.081) (
+Fig. S6a
+). Similarly, Fusarium incidence (direct plating method), was not significantly influenced by temperature (p-value = 0.204) (
+Fig. S6b
+).
+Germination energy (%) significantly varied with temperature (p-value = 0.026), with higher temperature treatments (30 °C) showing improved levels (99.5% ± 0.0), compared to the lowest temperatures (13 °C) which scored 96.8% (±1.5%) (
+Fig. S7a
+). However, germination homogeneity (p-value = 0.310) and germination index (p-value = 0.113) showed no statistically significant correlation with temperature (
+Figs. S7b–c
+). Notably, samples treated at 33 °C exhibited the lowest values for both germination homogeneity and index.
+3.5. Storage of ozone-treated barley
+Ozone-treated samples from section
+3.1
+, with a high moisture content (≈19%) were stored at 4 °C for further analyses at different time points (1, 20, 60, and 120 days). The moisture content of barley samples treated with ozone at 50 and 100 ppm showed no significant changes throughout the 120 days of storage (p-value > 0.05). Conversely, both control and ozone-treated samples at 10 and 30 ppm, exhibited a significant increase at day 120 (p-value < 0.05) (
+Fig. 4
+).
+Download: Download high-res image (201KB)
+Download: Download full-size image
+Fig. 4. Moisture content of ozone-treated barley samples during storage days at 4 °C. Each box represents the data distribution within each ozone treatment group (n = 3) at a specific storage day, including the median, quartiles, range, and outliers. Whiskers indicate the minimum and maximum values.
+To assess fungal population dynamics during storage, total fungal count, Fusarium, and Penicillium incidence were evaluated using the serial dilution method. During the first 60 days of storage, the total fungal count in ozone-treated samples consistently remained significantly lower compared to the control (p-values < 0.05) (
+Fig. 5
+a). However, by day 120, all ozone-treated samples exhibited a substantial increase in fungal count, ranging from 4 to 12 times higher than at day 1, while the control sample remained statistically unchanged (p-value > 0.05) throughout this storage period. No significant differences were observed among control and ozone-treated samples at day 120 (p-value = 0.447). The notable rise in total fungal count in ozone-treated samples was primarily due to Penicillium spp., which exhibited a significant increase at day 120 (p < 0.05). Similarly, control samples experienced a significant surge in Penicillium spp. levels, significantly higher (p-value < 0.05) than ozone-treated ones, though earlier at day 60 (
+Fig. 5
+c). However, by day 120, no discernible differences in Penicillium incidence were observed (p-value > 0.05). In contrast, Fusarium incidence exhibited a notable decline over the storage period (
+Fig. 5
+b), particularly evident in control samples, where Fusarium incidence decreased by 84% from day 1 to day 120. Except for the 10-ppm ozone-treated sample, Fusarium spp. levels remained relatively stable during storage (p-values > 0.05).
+Download: Download high-res image (321KB)
+Download: Download full-size image
+Fig. 5. Dynamics of (a) total fungal count, (b) Fusarium, and (c) Penicillium incidence on ozone-treated barley samples during storage at 4 °C. Each box represents the data distribution within each ozone treatment group (n = 3) at a specific storage day, including the median, quartiles, range, and outliers. Whiskers indicate the minimum and maximum values.
+Grain germination tests at day 120 were excluded from the germination analyses due to visible Penicillium contamination of the grains. The dose-dependency trend in germination markers persisted throughout storage. Germination energy was significantly affected by ozone concentration (p-value <0.01), exposure time (p-value < 0.05), and storage day (p-value < 0.05). On day 1, significant differences were found only between the 100 ppm ozone-treated samples and the control, however subsequent days showed no statistical differences (p > 0.05). Germination homogeneity was unaffected by storage days (p = 0.142) but significantly influenced by ozone concentration and exposure time (p < 0.01). Germination index was the most affected by storage, but also by ozone concentration and exposure time (p-values < 0.001), with reductions observed as the ozone concentration increased and storage duration extended. While no statistical differences were observed among ozone-treated groups and control on day 1 (p-values > 0.05), 100 ppm samples were significantly reduced by day 20 (p-value < 0.05); and by day 60, 30- and 50 ppm samples were also significantly lower than the control (p-values < 0.05). The germination profile of barley samples during storage is illustrated in
+Fig. 6
+a–c.
+Download: Download high-res image (330KB)
+Download: Download full-size image
+Fig. 6. Effect of ozone treatment on (a) germination energy (%), (b) germination homogeneity, and (c) germination index on barley grains during storage at 4 °C. Each box represents the data distribution within each ozone treatment group (n = 3) at a specific storage day, including the median, quartiles, range, and outliers. Whiskers indicate the minimum and maximum values.
+4. Discussion
+The gaseous ozone treatments employed in this study effectively deactivated fungi, including Fusarium spp., in naturally contaminated high-moisture malting barley. Ozone concentration emerged as the predominant factor influencing fungal deactivation efficiency, with higher concentrations leading to greater and more significant reductions. However, the efficacy levelled off at 50 ppm ozone. Notably, exposure to 100 ppm ozone for 24 h resulted in a 99.2% reduction (2.1 log cycle) in total fungal count and a 98.2% reduction (1.7 log cycle) in Fusarium incidence. Our findings further revealed a dose-dependent effect on barley germination, with ozone doses exceeding certain thresholds adversely impacting it. This phenomenon is consistent with observations from previous studies investigating the fungicidal effects of ozone treatments in cereal grains (
+Allen et al., 2003
+;
+Savi et al., 2014
+;
+Wu et al., 2006
+). For example,
+Wu et al. (2006)
+achieved significant reductions in fungal spores using ozone doses that were much lower than the threshold required to reduce grain germination, which was 0.98 mg ozone/(g wheat) per minute over a 20-min period. Similarly, our study showed that treatments at 50 ppm for 1–6 h resulted in significant fungal reductions while simultaneously preserving grain germination quality. This indicates that effective fungal inactivation can be achieved without compromising barley germination. These results emphasize the importance of carefully considering ozone treatment dosages to maintain optimal grain germination parameters. The importance of ozone concentration over exposure time is advantageous not only to preserve grain germination properties but also for industrial settings, where optimizing efficiency by reducing treatment duration can save resources. Furthermore, the minor influence of factors such as moisture content, relative humidity, and temperature on ozone efficacy offers additional advantages by simplifying process control and reducing the need for extensive environmental adjustments.
+The significant reductions in total fungal count and Fusarium incidence observed across the various ozone treatments in this study highlight the efficacy of gaseous ozone as a fungicide. These findings are consistent with previous research on various cereal grains. For instance,
+Allen et al. (2003)
+achieved a 96% reduction in fungi by applying 0.16 mg ozone/(g barley) per minute for 5 min. Similarly,
+Beber-Rodrigues et al. (2015)
+reduced fungal spores by 99.95% on rice with a 40 mg ozone/L gas mixture (ozone + air) concentration for 30 min, whereas
+Wu et al. (2006)
+observed a 96.9% reduction of fungal spores within 5 min using a treatment of 0.33 mg ozone/(g wheat) per minute. Furthermore,
+Kottapalli et al. (2005)
+reported significant reductions of 36% of Fusarium graminearum in malting barley at ozone concentrations of 26 mg ozone/(g barley) for 15 min. The plateau effect in the reductions of total fungal count and Fusarium spp. with ozone treatments observed in this study is consistent with findings from similar studies by
+Allen et al. (2003)
+and
+Wu et al. (2006)
+. These studies reported minimal reductions in fungal concentrations beyond specific thresholds (0.16 mg ozone/(g barley) and 0.33 mg ozone/(g wheat), respectively). This phenomenon can be attributed to ozone's surface-level impact (
+Tabakoglu and Karaca, 2015
+), coupled with its limited capability to penetrate the different layers of the kernels (
+Mendez et al., 2003
+), resulting in limited microbial inactivation once ozone has reacted with grain compounds and microorganisms on the surface.
+Sensitivity to ozone among different fungal genera and species is well documented, with Penicillium spp. notably exhibiting greater resistance compared to other fungi, including Fusarium spp. (
+Beber-Rodrigues et al., 2015
+;
+White et al., 2010
+). In the present study, Penicillium spp. showed statistically insignificant reductions and displayed higher resistance to ozone compared to Fusarium spp. However, Penicillium spp. can still be inactivated by ozone, as demonstrated by
+Santos et al. (2016)
+, although with much higher doses than those utilized in our experiments. The minimal or null presence of mycotoxigenic Alternaria and Aspergillus species prevented drawing any conclusive conclusions on the ozone effect in this study. Nonetheless, previous research suggests that both Aspergillus spp. and Alternaria spp. can be deactivated with ozone (
+Santos et al., 2016
+;
+Sehim et al., 2023
+;
+Trombete et al., 2017
+).
+The presence of water, either as a high atmospheric relative humidity or high grain moisture content during ozone treatments has been found to enhance the reduction of microorganisms.
+Zhao and Cranston (1995)
+observed that higher moisture contents led to higher reductions in black pepper treated with ozone. In cereal grains,
+Wu et al. (2006)
+and
+Allen et al. (2003)
+found a direct correlation between higher moisture content and increased inactivation of fungal spores, aligning with our findings. In the present study, although higher reductions in total fungal load were observed at higher relative humidities, the effect was not statistically significant. Similarly,
+McDonough et al. (2011)
+reported no significant difference in fungal viability on corn grains treated with either humidified ozone or dry ozone.
+Contradictory findings exist in literature regarding the impact of temperature on ozone's biocidal efficacy. While some studies indicate higher microbial inactivation at increasing temperatures (
+Allen et al., 2003
+;
+Wu et al., 2006
+), others report the opposite trend, with greater efficacy observed at lower temperatures (
+Coll Cárdenas et al., 2011
+). Our study, however, found no significant differences across temperatures. This observation suggests that as temperatures rise, the increased reactivity of ozone may compensate for its reduced stability, aligning with the proposition by
+Achen and Yousef (2001)
+, who obtained similar results to ours.
+The significant presence of Penicillium spp. in the barley grain samples after 120 days is in line with the information provided by
+Kunze (2019)
+, indicating barley grains with a moisture content between 18% and 20% typically can be stored safely 3–4 months. While reduced microbial counts could potentially lead to extended shelf life of food products, our ozone-treated barley samples did not show a prolonged shelf life compared to the control samples. However, the microbial quality of ozone-treated samples was significantly better than that of control samples during the first 60 days of storage. The substantial increase in fungal load observed in ozone-treated samples by day 120 suggests that ozone may not have completely inactivated fungal spores at the utilized doses.
+Mylona et al. (2014)
+reported similar fungal spore recovery (Fusarium verticillioides) after 8–10 days of storage following ozone treatment, implying that significantly higher concentrations may be necessary to achieve long lasting lethal effects.
+Low doses of ozone have been shown to enhance seed germination through several proposed mechanisms (
+Violleau et al., 2008
+). However, the mechanisms responsible for decreased viability at high doses of ozone remain poorly understood. Like hydrogen peroxide (H2O2), elevated concentrations of ozone can become toxic and damage cellular components such as lipids, proteins, and nucleic acids. This damage may disrupt cell structures, membranes, enzymatic activity, and DNA integrity which can hinder the grain germination processes and potentially lead to grain death (
+Wawrzyniak et al., 2020
+).
+Fluctuations in grain moisture content, fungal population, and germination quality are expected during storage. The increase in moisture content observed in control samples and those treated with 10 and 30 ppm ozone may be attributed to fungal growth, inadequate aeration, and ongoing metabolic processes of stored barley (
+Kunze, 2019
+). Conversely, the notable decrease in moisture content observed in samples treated with 50 and 100 ppm ozone by day 120 may contribute to extending shelf life and improving quality, although additional research is needed. The shift in fungal population during storage was anticipated, given that Fusarium primarily affects plants as “field fungi”, while Penicillium acts as a “storage fungi”, contributing to barley spoilage during storage, as evidenced in our study. Furthermore, apart from being associated with ozone treatment, reduced grain germination rates observed at longer storage periods can also be attributed to the natural loss of vitality, resulting in slower germination rates and, in severe cases, grain death (
+Mwazha et al., 2022
+).
+Overall, ozone treatments have been observed to decrease the moisture content of barley grains, even when applied under conditions of high relative humidities. Although results are not consistently significant to classify ozone treatment as a drying method, it has been shown to facilitate drying processes (
+White et al., 2010
+). The efficacy of ozone is improved in the presence of high humidity levels (
+Dubuis et al., 2020
+;
+Mahfoudh et al., 2010
+). The rehydration of dry surfaces at high humidity levels may provide better contact between microorganisms and ozone. Furthermore, ozone generate highly reactive radical in the presence of water, that increase the microbial inactivation.
+Raila et al. (2006)
+reported a 20% reduction in drying time for wheat grains with the application of 700 ppb ozone. This reduction is valuable for the time-consuming and costly nature of grain drying processes. In the present investigation, lower moisture content of grains was achieved when utilizing lower relative humidities (20% and 55%) and higher temperatures (33 °C). Maintaining a low grain moisture content is essential for ensuring the safe storage of grains, but it also help sustain optimal germination markers, as high grain moisture content has been associated to decreased germination rates (
+Owolade et al., 2011
+). Treating freshly harvested grains with elevated moisture content using ozone during the drying process could offer a dual advantage: reducing drying time and fungal microbial load while preserving grain germination.
+5. Conclusions
+The gaseous ozone treatments applied to malting barley resulted in significant reductions in both total fungal count and Fusarium incidence across all tested conditions. A clear correlation between ozone concentration and fungal reductions was evident, with ozone concentration exerting the primary influence, followed by exposure time. The effect of ozone on grain germination was found to be dose-dependent, yet the germination quality of barley was not compromised at ozone concentrations below 50 ppm. Grain moisture, relative humidity, and temperature during ozonation had minor effects on fungal reductions and barley germination. Moreover, the long-term microbial quality of ozone-treated samples exhibited significant superiority over control samples during the initial 60 days of storage of barley with a high moisture content (≈19%). An alternative approach to conventional cereal grain disinfection involving post-harvest ozone treatment of high-moisture grains before drying appears possible. This strategy presents potential avenues for process development and the exploration of alternative approaches in traditional grain disinfection processing, drying, and storage, particularly concerning high-moisture grains post-harvest.
+Funding
+This work was supported by the Innovation Fund Denmark [
+9065-00075B
+].
+CRediT authorship contribution statement
+Daniela Rodarte Sanchez: Writing – review & editing, Writing – original draft, Resources, Methodology, Investigation, Formal analysis, Conceptualization. Birthe Møller Jespersen: Writing – review & editing, Writing – original draft, Supervision, Methodology, Funding acquisition, Conceptualization. Lars Holm Rasmussen: Writing – review & editing, Supervision, Methodology, Funding acquisition, Conceptualization. Mogens Larsen Andersen: Writing – review & editing, Writing – original draft, Supervision, Conceptualization.
+Declaration of competing interest
+The authors declare no conflict of interest.
+Acknowledgments
+Mette Rosenfjeld provided invaluable assistance in conducting experiments and collecting data for this study. Florien Leplat offered valuable statistical guidance. Infuser ApS significantly contributed by providing installations, expertise, and assistance in ozone technology and science, as well as by building the ozone unit used in this study. Sorivan Chhem-Kieth is thanked for his constructive discussions on ozone.
+Appendix A. Supplementary data
+The following is the Supplementary data to this article:
+Download: Download Word document (539KB)
+Multimedia component 1.
+Data availability
+Data will be made available on request.
+References
+Achen and Yousef, 2001
+M. Achen, A.E. Yousef
+Efficacy of ozone against Escherichia coli O157:H7 on apples
+J. Food Sci., 66 (2001), pp. 1380-1384,
+10.1111/j.1365-2621.2001.tb15218.x
+View in Scopus
+Google Scholar
+Allen et al., 2003
+B. Allen, J. Wu, H. Doan
+Inactivation of fungi associated with barley grain by gaseous ozone
+J. Environ. Sci. Health Part B Pestic. Food Contam. Agric. Wastes, 38 (2003), pp. 617-630,
+10.1081/PFC-120023519
+View in Scopus
+Google Scholar
+Beber-Rodrigues et al., 2015
+M. Beber-Rodrigues, G.D. Savi, V.M. Scussel
+Ozone effect on fungi proliferation and genera susceptibility of treated stored dry paddy rice (oryza Sativa L.)
+J. Food Saf., 35 (2015), pp. 59-65,
+10.1111/jfs.12144
+View in Scopus
+Google Scholar
+Brodowska et al., 2017
+A.J. Brodowska, A. Nowak, A. Kondratiuk-Janyska, M. Piątkowski, K. Śmigielski
+Modelling the ozone-based treatments for inactivation of microorganisms
+Int. J. Environ. Res. Publ. Health, 14 (2017),
+10.3390/ijerph14101196
+Google Scholar
+Coll Cárdenas et al., 2011
+F. Coll Cárdenas, S. Andrés, L. Giannuzzi, N. Zaritzky
+Antimicrobial action and effects on beef quality attributes of a gaseous ozone treatment at refrigeration temperatures
+Food Control, 22 (2011), pp. 1442-1447,
+10.1016/j.foodcont.2011.03.006
+View in Scopus
+Google Scholar
+Dubuis et al., 2020
+M.E. Dubuis, N. Dumont-Leblond, C. Laliberté, M. Veillette, N. Turgeon, J. Jean, C. Duchaine
+Ozone efficacy for the control of airborne viruses: bacteriophage and norovirus models
+PLoS One, 15 (2020), pp. 1-19,
+10.1371/journal.pone.0231164
+Google Scholar
+Elford and Van Den Ende, 1942
+W.J. Elford, J. Van Den Ende
+An investigation of the merits of ozone as an aerial disinfectant
+J. Hyg., 42 (1942), pp. 240-265,
+10.1017/s0022172400035464
+View in Scopus
+Google Scholar
+European Brewery Convention, 1998
+European Brewery Convention
+Method 3.6.2. Germinative energy of barley: BRF method
+Analytica-EBC (1998)
+Google Scholar
+Fontana, 2007
+A.J. Fontana
+A water activity of saturated salt solutions
+G.V. Barbosa-Cánovas, A.J. Fontana, S.J. Schmidt, T.P. Labuza (Eds.), Water Activity in Foods, Blackwell Publishing (2007), pp. 391-393
+Crossref
+Google Scholar
+Han et al., 2002
+Y. Han, J.D. Floros, R.H. Linton, S.S. Nielsen, P.E. Nelson
+Response surface modeling for the inactivation of Escherichia coli O157:H7 on green peppers (Capsicum annuum) by ozone gas treatment
+J. Food Sci., 67 (2002), pp. 1188-1193,
+10.4315/0362-028x-64.8.1128
+View in Scopus
+Google Scholar
+Jin et al., 2018
+Z. Jin, J. Gillespie, J. Barr, J.J. Wiersma, M.E. Sorrells, S. Zwinger, T. Gross, J. Cumming, G.C. Bergstrom, R. Brueggeman, R.D. Horsley, P.B. Schwarz
+Malting of Fusarium head blight-infected rye (secale cereale): growth of Fusarium graminearum, trichothecene production, and the impact on malt quality
+Toxins, 10 (2018),
+10.3390/toxins10090369
+Google Scholar
+Jørgensen and Heick, 2021
+L.N. Jørgensen, T.M. Heick
+Azole use in agriculture, horticulture, and wood preservation – is it indispensable?
+Front. Cell. Infect. Microbiol., 11 (2021), pp. 1-16,
+10.3389/fcimb.2021.730297
+Google Scholar
+Khadre et al., 2001
+M. Khadre, A. Yousef, J. Kim
+Microbiological aspects of ozone applications in food: a review
+J. Food Sci., 66 (2001), pp. 1242-1252,
+10.1111/j.1365-2621.2001.tb15196.x
+View in Scopus
+Google Scholar
+Kontoyiannis and Lewis, 2002
+D.P. Kontoyiannis, R.E. Lewis
+Antifungal drug resistance of pathogenic fungi
+Lancet, 359 (2002), pp. 1135-1144,
+10.1016/S0140-6736(02)08162-X
+View in Scopus
+Google Scholar
+Kottapalli et al., 2005
+B. Kottapalli, C.E. Wolf-Hall, P. Schwarz
+Evaluation of gaseous ozone and hydrogen peroxide treatments for reducing Fusarium survival in malting barley
+J. Food Protect., 68 (2005), pp. 1236-1240,
+10.4315/0362-028x-68.6.1236
+View in Scopus
+Google Scholar
+Kunze, 2019
+W. Kunze
+1 raw materials
+O. Hendel (Ed.), Technology Brewing and Malting, VLB, Berlin, Berlin (2019), pp. 39-106
+Google Scholar
+Lucas et al., 2015
+J.A. Lucas, N.J. Hawkins, B.A. Fraaije
+The evolution of fungicide resistance
+Advances in Applied Microbiology, Elsevier Ltd (2015),
+10.1016/bs.aambs.2014.09.001
+Google Scholar
+Mahfoudh et al., 2010
+A. Mahfoudh, M. Moisan, J. Séguin, J. Barbeau, Y. Kabouzi, D. Ḱroack
+Inactivation of vegetative and sporulated bacteria by dry gaseous ozone
+Ozone Sci. Eng., 32 (2010), pp. 180-198,
+10.1080/01919511003791971
+View in Scopus
+Google Scholar
+Mastanjević et al., 2017
+Kristina Mastanjević, Krešimir Mastanjević, V. Krstanović
+The gushing experience—a quick overview
+Beverages, 3 (2017),
+10.3390/beverages3020025
+Google Scholar
+McDonough et al., 2011
+M.X. McDonough, C.A. Campabadal, L.J. Mason, D.E. Maier, A. Denvir, C. Woloshuk
+Ozone application in a modified screw conveyor to treat grain for insect pests, fungal contaminants, and mycotoxins
+J. Stored Prod. Res., 47 (2011), pp. 249-254,
+10.1016/j.jspr.2011.04.001
+View in Scopus
+Google Scholar
+Mebak, 2018
+Mebak
+Collection of brewey analysis methods of the mitteleuropäische brautechnische analysenkomission
+MEBAK - Raw Materials, Self-published by MEBAK, Freising, Germany (2018), pp. 78-80
+Google Scholar
+Mendez et al., 2003
+F. Mendez, D.E. Maier, L.J. Mason, C.P. Woloshuk
+Penetration of ozone into columns of stored grains and effects on chemical composition and processing performance
+J. Stored Prod. Res., 39 (2003), pp. 33-44,
+10.1016/S0022-474X(02)00015-2
+View in Scopus
+Google Scholar
+Mwazha et al., 2022
+M. Mwazha, D.T. Mugadza, S. Manhokwe, M. Njini, T.Z. Jombo
+Comparison of the changes in seed germination vigour with prolonged postharvest storage for hordeum vulgare varieties, hope and sierra malting barley varieties
+Zimbabwe. J. Food Qual., 2022 (2022),
+10.1155/2022/9612855
+Google Scholar
+Mylona et al., 2014
+K. Mylona, E. Kogkaki, M. Sulyok, N. Magan
+Efficacy of gaseous ozone treatment on spore germination, growth and fumonisin production by Fusarium verticillioides invitro and in situ in maize
+J. Stored Prod. Res., 59 (2014), pp. 178-184,
+10.1016/j.jspr.2014.08.001
+View in Scopus
+Google Scholar
+Nnadi and Carter, 2021
+N.E. Nnadi, D.A. Carter
+Climate change and the emergence of fungal pathogens
+PLoS Pathog., 17 (2021), pp. 1-6,
+10.1371/journal.ppat.1009503
+View in Scopus
+Google Scholar
+Noots et al., 1999
+I. Noots, J.A. Delcour, C.W. Michiels
+From field Barley to Malt: detection and specification of microbial activity for quality aspects
+Crit. Rev. Microbiol., 25 (1999), pp. 121-153,
+10.1080/10408419991299257
+View in Scopus
+Google Scholar
+Oliveira et al., 2012
+P.M. Oliveira, A. Mauch, F. Jacob, D.M. Waters, E.K. Arendt
+Fundamental study on the influence of Fusarium infection on quality and ultrastructure of barley malt
+Int. J. Food Microbiol., 156 (2012), pp. 32-43,
+10.1016/j.ijfoodmicro.2012.02.019
+View in Scopus
+Google Scholar
+Owolade et al., 2011
+O.F. Owolade, J.O. Olasojl, C.G. Afolabi
+Effect of storage temperature and packaging materials on seed germination and seed-borne fungi of sorghum (Sorghum bicolor (L.) Moench.) in South West Nigeria
+Afr. J. Plant Sci., 5 (2011), pp. 873-877,
+10.5897/AJPS11.209
+Google Scholar
+Pascual et al., 2007
+A. Pascual, I. Llorca, A. Canut
+Use of ozone in food industries for reducing the environmental impact of cleaning and disinfection activities
+Trends Food Sci. Technol., 18 (2007), pp. 29-35,
+10.1016/j.tifs.2006.10.006
+View in Scopus
+Google Scholar
+Piacentini et al., 2017
+K.C. Piacentini, G.D. Savi, V.M. Scussel
+The effect of ozone treatment on species of Fusarium growth in malting barley (Hordeum vulgare L.) grains
+Qual. Assur. Saf. Crop Foods, 9 (2017), pp. 383-389,
+10.3920/QAS2016.0881
+View in Scopus
+Google Scholar
+Pitt and Hocking, 2009
+J.I. Pitt, A.D. Hocking
+Fungi and food spoilage
+Fungi and Food Spoilage (third ed.), Springer Science + Business Media (2009)
+Google Scholar
+Radzikowski et al., 2023
+P. Radzikowski, K. Jończyk, B. Feledyn-Szewczyk, T. Jóźwicki
+Assessment of resistance of different varieties of winter wheat to leaf fungal diseases in organic farming
+Agric. For., 13 (2023),
+10.3390/agriculture13040875
+Google Scholar
+Raila et al., 2006
+A. Raila, A. Lugauskas, D. Steponavičius, M. Railienė, A. Steponavičienė, E. Zvicevičius
+Original articles application of ozone for reduction of mycological infection
+Ann. Agric. Environ. Med., 13 (2006), pp. 287-294
+View in Scopus
+Google Scholar
+Ramakrishna et al., 1993
+N. Ramakrishna, J. Lacey, J.E. Smith
+Effects of water activity and temperature on the growth of fungi interacting on barley grain
+Mycol. Res., 97 (1993), pp. 1393-1402,
+10.1016/S0953-7562(09)80175-5
+View in Scopus
+Google Scholar
+Riis and Bang-Olsen, 1991
+P. Riis, K. Bang-Olsen
+Germination profile—a new term in barley analyses
+Eur. Brew. Conv. (1991), pp. 101-108
+Crossref
+Google Scholar
+Różewicz et al., 2021
+M. Różewicz, M. Wyzińska, J. Grabiński
+The most important fungal diseases of cereals—problems and possible solutions
+Agronomy, 11 (2021),
+10.3390/agronomy11040714
+Google Scholar
+Santos et al., 2016
+R.R. Santos, L.R.D. Faroni, P.R. Cecon, A.P.S. Ferreira, O.L. Pereira
+Ozone as fungicide in rice grains
+Rev. Bras. Eng. Agrícola Ambient., 20 (2016), pp. 230-235,
+10.1590/1807-1929/agriambi.v20n3p230-235
+View in Scopus
+Google Scholar
+Savi et al., 2014
+G.D. Savi, K.C. Piacentini, K.O. Bittencourt, V.M. Scussel
+Ozone treatment efficiency on Fusarium graminearum and deoxynivalenol degradation and its effects on whole wheat grains (Triticum aestivum L.) quality and germination
+J. Stored Prod. Res., 59 (2014), p. 245e253,
+10.1016/j.jspr.2014.03.008
+253
+Google Scholar
+Sehim et al., 2023
+A.E. Sehim, R.Y. Abd Elghaffar, A.M. Emam, T.A. El-Desoukey
+Evaluation of the efficacy of ozonated olive oil for controlling the growth of Alternaria alternata and its toxins
+Heliyon, 9 (2023), Article e17885,
+10.1016/j.heliyon.2023.e17885
+View in Scopus
+Google Scholar
+Tabakoglu and Karaca, 2015
+N. Tabakoglu, H. Karaca
+Enhanced degradation of azoxystrobin in grapes and model systems by ozone fumigation during storage
+Ozone Sci. Eng., 37 (2015), pp. 479-488,
+10.1080/01919512.2015.1064763
+View in Scopus
+Google Scholar
+Trombete et al., 2017
+F.M. Trombete, Y.D. Porto, O. Freitas-Silva, R.V. Pereira, G.M. Direito, T. Saldanha, M.E. Fraga
+Efficacy of ozone treatment on mycotoxins and fungal reduction in artificially contaminated soft wheat grains
+J. Food Process. Preserv., 41 (2017), pp. 1-10,
+10.1111/jfpp.12927
+Google Scholar
+Violleau et al., 2008
+F. Violleau, K. Hadjeba, J. Albet, R. Cazalis, O. Surel
+Effect of oxidative treatment on corn seed germination kinetics
+Ozone Sci. Eng., 30 (2008), pp. 418-422,
+10.1080/01919510802474631
+View in Scopus
+Google Scholar
+Wawrzyniak et al., 2020
+M.K. Wawrzyniak, E.M. Kalemba, E. Ratajczak, P. Chmielarz
+Oxidation processes related to seed storage and seedling growth of Malus sylvestris, Prunus avium and Prunus padus
+PLoS One, 15 (2020), pp. 1-21,
+10.1371/journal.pone.0234510
+Google Scholar
+White et al., 2010
+S.D. White, P.T. Murphy, C.J. Bern, J.Hans van Leeuwen
+Controlling deterioration of high-moisture maize with ozone treatment
+J. Stored Prod. Res., 46 (2010), pp. 7-12,
+10.1016/j.jspr.2009.07.002
+View in Scopus
+Google Scholar
+Wu et al., 2006
+J. Wu, H. Doan, M.A. Cuenca
+Investigation of gaseous ozone as an anti-fungal fumigant for stored wheat
+J. Chem. Technol. Biotechnol., 81 (2006), pp. 1288-1293,
+10.1002/jctb.1550
+View in Scopus
+Google Scholar
+Zhao and Cranston, 1995
+J. Zhao, P.M. Cranston
+Microbial decontamination of black pepper by ozone and the effect of the treatment on volatile oil constituents of the spice
+J. Sci. Food Agric., 68 (1995), pp. 11-18,
+10.1002/jsfa.2740680103
+View in Scopus
+Google Scholar
+Zubrod et al., 2019
+J.P. Zubrod, M. Bundschuh, G. Arts, C.A. Brühl, G. Imfeld, A. Knäbel, S. Payraudeau, J.J. Rasmussen, J. Rohr, A. Scharmüller, K. Smalling, S. Stehle, R. Schulz, R.B. Schäfer
+Fungicides: an overlooked pesticide class?
+Environ. Sci. Technol., 53 (2019), pp. 3347-3365,
+10.1021/acs.est.8b04392
+View in Scopus
+Google Scholar
+Cited by (0)
+© 2024 The Authors. Published by Elsevier Ltd.
+Recommended articles
+Phycobiliprotein from Arthrospira maxima: Conversion to nanoparticles by high-energy ball milling, structural characterization, and evaluation of their anti-inflammatory effect
+International Journal of Biological Macromolecules, Volume 275, Part 2, 2024, Article 133679
+C. Galván-Colorado, …, R.V. García-Rodríguez
+Molecular delineation and genetic diversity of Fusarium species complex causing tea dieback in India and their sensitivity to fungicides
+Crop Protection, Volume 181, 2024, Article 106707
+Abhay K. Pandey, …, Azariah Babu
+Improving dried mango physicochemical properties using conventional hot-air drying coupled with a novel technology “intensification of vaporization by decompression to the vacuum”
+Innovative Food Science & Emerging Technologies, Volume 95, 2024, Article 103739
+Paola Labaky, …, Nicolas Louka
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

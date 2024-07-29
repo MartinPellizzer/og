@@ -1,0 +1,124 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Typesetting math: 40%
+
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Remote Sensing
+All Article Types
+Advanced
+  Journals Remote Sensing Volume 16 Issue 13 10.3390/rs16132409
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Costas Varotsos
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+462
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results
+Discussion
+Supplementary Materials
+Author Contributions
+Funding
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+AIRS and MODIS Satellite-Based Assessment of Air Pollution in Southwestern China: Impact of Stratospheric Intrusions and Cross-Border Transport of Biomass Burning
+by Puyu Lian
+1, Kaihui Zhao
+2,* and Zibing Yuan
+1
+1
+School of Environment and Energy, South China University of Technology, Guangzhou 510006, China
+2
+Yunnan Key Laboratory of Meteorological Disasters and Climate Resources in the Greater Mekong Subregion, Yunnan University, Kunming 650091, China
+*
+Author to whom correspondence should be addressed.
+Remote Sens. 2024, 16(13), 2409; https://doi.org/10.3390/rs16132409
+Submission received: 15 April 2024 / Revised: 26 June 2024 / Accepted: 26 June 2024 / Published: 1 July 2024
+(This article belongs to the Special Issue Application of Satellite Aerosol Remote Sensing in Air Quality)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+The exacerbation of air pollution during spring in Yunnan province, China, has attracted widespread attention. However, many studies have focused solely on the impacts of anthropogenic emissions while ignoring the role of natural processes. This study used satellite data spanning 21 years from the Moderate Resolution Imaging Spectroradiometer (MODIS) and the Atmospheric Infrared Sounder (AIRS) to reveal two natural processes closely related to springtime ozone (O3) and PM2.5 pollution: stratospheric intrusions (SIs) and cross-border transport of biomass burning (BB). We aimed to assess the mechanisms through which SIs and cross-border BB transport influence O3 and PM2.5 pollution in Southwestern China during the spring. The unique geographical conditions and prevalent southwest winds are considered the key driving factors for SIs and cross-border BB transport. Frequent tropopause folding provides favorable dynamic conditions for SIs in the upper troposphere. In the lower troposphere, the distribution patterns of O3 and stratospheric O3 tracer (O3S) are similar to the terrain, indicating that O3 is more likely to reach the surface with increasing altitude. Using stratospheric tracer tagging methods, we quantified the contributions of SIs to surface O3, ranging from 6 to 31 ppbv and accounting for 10–38% of surface O3 levels. Additionally, as Yunnan is located downwind of Myanmar and has complex terrain, it provides favorable conditions for PM2.5 and O3 generation from cross-border BB transport. The decreasing terrain distribution from north to south in Yunnan facilitates PM2.5 transport to lower-elevation border cities, whereas higher-elevation cities hinder PM2.5 transport, leading to spatial heterogeneity in PM2.5. This study provides scientific support for elucidating the two key processes governing springtime PM2.5 and O3 pollution in Yunnan, SIs and cross-border BB transport, and can assist policymakers in formulating optimal emission reduction strategies.
+Keywords: AIRS and MODIS satellites; aerosol; stratospheric intrusions; biomass burning; PM2.5 and O3 pollution; Southwestern China
+Graphical Abstract
+1. Introduction
+Elevated amounts of PM2.5 (particulate matter with an aerodynamic equivalent diameter of 2.5 μm or less) and ozone (O3) are currently the two major bottleneck issues constraining the continuous improvement of air quality in China. The complexity of their source mechanisms has brought enormous challenges to the prevention and control of air pollution. Although implementing the Air Pollution Prevention and Control Action Plan (APPCAP) has effectively controlled PM2.5 pollution in most parts of China, the emphasis on reducing PM2.5 emissions has led to a continuous increase in O3 concentrations. In some areas, this has resulted in combined pollution from PM2.5 and O3 [1,2]. Owing to its harmful impact on human health, vegetation growth, and climate change [3,4], the synergistic control of O3 and PM2.5 constitutes a critical priority in China’s long-term air quality management agenda.
+The main sources of PM2.5 depend on local primary emissions, secondary photochemical reactions, and regional transport. Industrial, traffic, and residential sources can directly emit PM2.5 [5]. Meanwhile, these sources also release other pollutants, which undergo various chemical and physical processes to transform into sulfate, nitrate, and secondary organic aerosols, constituting fine particulate matter [6,7]. Numerous studies have used source apportionment, numerical simulations, and other methods to quantify the contributions of primary emissions and secondary generation to PM2.5 during high-pollution events [8,9,10,11]. Apart from local sources, regional transport is another significant contributor to local PM2.5 pollution, and it can directly carry large amounts of pollutants from other areas, exacerbating local air pollution [12,13,14]. Under specific meteorological conditions, regional transport plays a dominant role in PM2.5 pollution events in regions such as the North China Plain (NCP), the Sichuan Basin (SCB), and the Yunnan Plateau (YP), with contribution rates reaching exceptionally high levels [12,15,16]. Zhang et al. [17] investigated the difference in PM2.5 transport flux between NCP and SCB in autumn and winter. They observed that NCP was controlled by a cold front weather system and transported PM2.5 to surrounding areas. In contrast, PM2.5 in SCB was affected by interbasin transport because of the complex terrain that hindered horizontal diffusion. Unlike the other two regions, PM2.5 in YP was found to be influenced by biomass burning (BB) in the Indo-China Peninsula during spring, a source of cross-border BB transport [16,18].
+Unlike PM2.5 pollution, O3 is a secondary pollutant primarily formed through local photochemical reactions. These reactions involve interactions between precursor pollutants, such as nitrogen oxides (NOx) and volatile organic compounds (VOCs), in the presence of solar radiation. Influenced by anthropogenic and natural emissions, the local photochemical environment plays an important role in shaping O3 concentrations [19,20]. Additionally, regional transport from neighboring areas and stratospheric intrusions (SIs) are also important O3 budget sources [21]. Regional transport is a driving factor behind surface O3 pollution in regions like Beijing–Tianjin–Hebei (BTH), the Yangtze River Delta (YRD), and the Pearl River Delta (PRD) [15,22,23]. SIs involve the downward transport of O3 from the stratosphere to the troposphere and even the surface, under the influence of physical mechanisms such as tropopause folding, cut-off lows, subtropical jet streams, and wave breaking [24,25,26,27]. Under specific meteorological conditions such as typhoons, tropical cyclones, and subtropical highs, local circulation intensifies, leading to enhanced regional transport and SIs, impacting the near-surface O3 concentration [28,29,30].
+Compared with plains such as the BTH, the YRD, and the PRD, Yunnan boasts a unique and complex topography as a high-altitude plateau with substantial elevation variations among its cities. While Yunnan’s overall altitude is relatively high, a considerable difference in elevation exists among its cities, creating a topographical landscape with higher elevations in the northwest and lower elevations in the southeast, resulting in a stair-step descent from south to north. Additionally, the climate of Yunnan is characterized by its complexity in both the horizontal and vertical dimensions, featuring a combination of boreal, temperate, and tropical climates, and temperature variations are notably influenced by changes in elevation. In contrast to the other major city clusters, such as BTH, the YRD, and the PRD, where PM2.5 pollution is concentrated in winter and O3 pollution is concentrated in summer [12,20,31], Yunnan experiences PM2.5 and O3 pollution primarily during spring. High-frequency tropopause folding provides favorable dynamic conditions for the downward transport of O3-rich air mass from the stratosphere to the troposphere during springtime, influencing near-surface O3 concentrations [25,30,32]. Additionally, BB is active in the spring over the Indo-China Peninsula (ICP), and the prevailing westerly winds transport BB-generated PM2.5 and O3 to Yunnan [33,34]. Numerous studies of pollution cases have confirmed the existence of transport channels between Yunnan and the ICP [16,18]. Given the unique topographic conditions and geographical location of Yunnan, these two distinct transport processes, SIs and cross-border BB transport, exert a more profound impact on PM2.5 and O3 pollution in Yunnan during the spring. However, current emission reduction policymaking has predominantly focused on reducing local anthropogenic sources, and there remains a notable lack of research on the impact of these two natural sources on the mechanism of springtime O3 pollution in Yunnan.
+Satellite remote sensing technology can provide vertical profile data, real-time observations, and extensive spatiotemporal coverage, which can help to better understand the mechanisms governing PM2.5 and O3 pollution [35,36,37]. Instruments such as the Moderate Resolution Imaging Spectroradiometer (MODIS), the Ozone Monitoring Instrument (OMI), and Cloud–Aerosol Lidar and Infrared Satellite Observations (CALIPSO) have been widely used to retrieve the spatiotemporal distribution of Aerosol Optical Depth (AOD), which quantifies the solar attenuation caused by aerosols [38,39,40]. Shaik et al. [41] and others have confirmed the accuracy of MODIS-derived AOD by comparing it to ground-based AOD, showing strong agreement with a correlation coefficient (R) of 0.86 and a root mean square error (RMSE) of 0.14. Additionally, satellite-based AOD has been instrumental in revealing the impact of BB on the optical properties and vertical structure of aerosols [35,42]. Satellite-based vertical profiles of O3, obtained from instruments like the Atmospheric Infrared Sounder (AIRS), are crucial for investigating SIs [43,44]. Ma et al. [45] used vertical AIRS profiles of O3 to provide evidence of SIs in cities such as Chaoyang, Shijiazhuang, and Hangzhou during the spring and summer of 2019. By characterizing the three-dimensional spatiotemporal distribution of pollutants, satellite observations can significantly enhance our understanding of pollutant transport processes and largely compensate for a lack of vertical observation data.
+To study and quantify the impact of SIs and cross-border BB transport on O3 and PM2.5 concentrations in Yunnan province during spring, 21-year satellite observations from MODIS and AIRS were used to investigate the spatial and temporal variations in O3 and PM2.5. The Whole Atmosphere Community Climate Model (WACCM) dataset was used to quantify the contributions of SIs and cross-border BB transport to O3 and PM2.5 concentrations under complex topographic conditions. Finally, the sources of PM2.5 and O3 in Yunnan during spring were determined by using the Hybrid Single Particle Lagrangian Integrated Trajectory (HYSPLIT) model to simulate air mass trajectories. The objectives of this study are to: (1) analyze the general characteristics of O3 and AOD; (2) explain the mechanisms of SIs and cross-border BB transport; and (3) investigate the influence of SIs and cross-border BB transport on O3 and PM2.5 under complex topographic conditions.
+2. Materials and Methods
+2.1. Studied Area
+Two nested domains were used in this study: the 16°–36°N, 85°–125°E region, and Yunnan province (Figure 1). Previous studies indicate that the westerly jet stream is an important midlatitude circulation in region d01 during the spring [33]. This area is known for frequent tropopause folding and is also a hotspot for BB during the spring [32].
+Figure 1. Elevation map of studied area: (a) the 16°–36°N, 85°–125°E region, (b) Yunnan province.
+2.2. Satellite Datasets
+We used two types of satellite datasets from different instruments, MODIS and AIRS. Table 1 and Table 2, respectively, present their instrument specifications and the attributes of their corresponding datasets.
+Table 1. Specifications of MODIS and AIRS instruments.
+Table 2. Attributes of the satellite datasets used in this study.
+2.2.1. MODIS
+MODIS is part of the National Aeronautics and Space Administration (NASA) and is deployed on two satellites, Aqua and Terra, which are in near-polar orbits. This positioning allows for global observations multiple times a day. MODIS captures data in 36 inter-aligned spectral bands ranging from 0.4 µm to 14.4 µm and acquires them at three spatial resolutions: 250 m, 500 m, and 1000 m, providing global data over a wide range. The daily level 2 Collection 6.1 AOD dataset (MYD04_L2) is used to provide AOD data, which are available from the website: https://ladsweb.modaps.eosdis.nasa.gov/, accessed on 3 November 2023. Each file in this dataset corresponds to a 5-min MODIS orbital fragment with a spatial resolution of 10 × 10 km, containing a total of 203 × 135 pixels. The MODIS retrieval algorithm for aerosol properties is divided into the Dark Target (DT) and Deep Blue (DB) algorithms. The DT algorithm is used for retrieving AOD over the ocean and vegetated land, while the DB algorithm is

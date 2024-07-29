@@ -1,0 +1,105 @@
+Processing math: 100%
+Top bar navigation
+About us
+All journals
+All articles
+Submit your research
+Search
+Login
+Frontiers in Public Health
+Sections
+Articles
+Research Topics
+Editorial board
+About journal
+Download article
+226
+Total views
+62
+Downloads
+View article impact
+View altmetric score
+Share on
+Edited by
+Xihao Du
+Shanghai Jiao Tong University, China
+Reviewed by
+Pengpeng Wang
+Zhengzhou University, China
+Shuxiao Shi
+Shanghai Jiao Tong University, China
+Table of contents
+Abstract
+1 Introduction
+2 Materials and methods
+3 Results
+4 Discussion
+5 Strengths and limitations
+6 Conclusion
+Data availability statement
+Ethics statement
+Author contributions
+Funding
+Acknowledgments
+Conflict of interest
+Publisher’s note
+Supplementary material
+Footnotes
+References
+Export citation
+Check for updates
+People also looked at
+ORIGINAL RESEARCH article
+Front. Public Health, 13 June 2024
+Sec. Environmental Health and Exposome
+Volume 12 - 2024 | https://doi.org/10.3389/fpubh.2024.1353384
+Assessing the impact of short-term ozone exposure on excess deaths from cardiovascular disease: a multi-pollutant model in Nanjing, China’s Yangtze River Delta
+Fengxia Sun†Xing Gong†Li WeiYi ZhangMing GeLiling Xiong*
+Department of Environment Health, Nanjing Municipal Center for Disease Control and Prevention, Nanjing, China
+Background: Ozone pollution is associated with cardiovascular disease mortality, and there is a high correlation between different pollutants. This study aimed to assess the association between ozone and cardiovascular disease deaths and the resulting disease burden in Nanjing, China.
+Methods: A total of 151,609 deaths from cardiovascular disease were included in Nanjing, China from 2013 to 2021. Daily data on meteorological and air pollution were collected to apply a generalized additional model with multiple pollutants to perform exposure-response analyses, stratification analysis, and evaluation of excess deaths using various standards.
+Results: In the multi-pollutant model, an increase of 10 μg/m3 in O3 was significantly associated with a 0.81% (95%CI: 0.49, 1.12%) increase in cardiovascular disease deaths in lag05. The correlation weakened in both the single-pollutant model and two-pollutant models, but remained more pronounced in females, the older group, and during warm seasons. From 2013 to 2021, the number of excess deaths attributed to ozone exposure in cardiovascular disease continued to rise with an increase in ozone concentration in Nanjing. If the ozone concentration were to be reduced to the WHO standard and the minimum level, the number of deaths would decrease by 1,736 and 10,882, respectively.
+Conclusion: The risk of death and excess deaths from cardiovascular disease due to ozone exposure increases with higher ozone concentration. Reducing ozone concentration to meet WHO standards or lower can provide greater cardiovascular disease health benefits.
+1 Introduction
+Ambient air pollution has become a significant global public health concern. Ozone, one of the primary ambient pollutants, is involved in various atmospheric photochemical reactions with high chemical activity. This leads to tropospheric pollution, including the formation of photochemical smog, reduced atmospheric visibility, and direct or indirect harm to human health. Ozone is primarily produced through the photochemical reaction of nitrogen oxides (NOx) and volatile organic compounds (VOCs) under ultraviolet radiation. The diverse range of influencing factors and the uncertainty surrounding precursor sources present a challenge in efforts to control ozone pollution.
+In recent decades, the global economy has experienced a significant growth spurt, resulting in a continuous increase in global tropospheric ozone concentrations. Low-latitude areas have witnessed a higher rate of ozone concentration increase compared to middle and high latitudes, such as North America and Europe (1). In China specifically, the annual average concentration of ozone has roughly shown an increasing trend during 2013–2021 (2), and since 2018 it has been consistently exceeding 100 μg/m3,1 which is significantly higher than the recommended AQG levels. In 2013, the Chinese government implemented the “Regulations on the Prevention and Control of Air Pollution” to address severe air pollution issues. Despite these efforts, persistent VOCs emissions and meteorological factors have contributed to a severe situation of ambient ozone pollution, posing significant health risks to the population (3, 4). A growing trend of studies has then linked ozone exposure to mortality in populations, particularly from cardiovascular disease (CVD) (5, 6).
+CVD is the leading cause of morbidity and mortality globally. From 1990 to 2019, the number of CVD deaths steadily increased from 12.1 million to 18.6 million (7), while the number of deaths increased from 2.4 million to 4.6 million in China (8). And there is growing evidence that exposure to ozone pollution can increase CVD mortality. Quantification of the CVD mortality burden indicates that the ozone-attributable CVD deaths in 2019 were 1,467.8 thousand, and by 2050, the estimated ozone-attributable CVD deaths in Chinese adults are expected to be 1,082.4 thousand and 359.2 thousand, respectively, according to SSP 585 and SSP 126 (9). A cohort study found that a 10 μg/m3 increase in long-term annual average ozone exposure was associated with a 1.22 (95% confidence interval [CI]: 1.13–1.33) increase in adjusted hazard ratio for CVD deaths (10), while for short term ozone exposure, with lag 0–1 day, the odds ratio (OR) for CVD mortality ranged from 1.009 to 1.012 for each 10 μg/m3 increase (11). During 2015–2021, the ozone concentration in Jiangsu Province showed an increasing trend (11), and Nanjing, a key development city and the capital city of Jiangsu Province, has maintained the same increasing trend of ozone pollution as Jiangsu Province, whose cardiovascular disease burden caused by ozone has aroused widespread public concern. Additionally, in recent years, there is growing evidence that other air pollutants are also markedly associated with CVD deaths (12–14). The single-pollutant approach may misestimate the strength and direction of this association. Therefore, it is more reasonable to employ a multi-pollutant model to comprehensively assess the effects of exposure to ozone on CVD deaths.
+The present study collected data on major air pollutants and population health surveillance in Nanjing during the period of 2013–2021, with the aim of assessing the excess risk of CVD deaths due to ozone pollution in Nanjing by using a multi-pollutant model, and estimating the number of excess deaths by using exposure-response coefficients. The study can effectively and accurately quantify the extent of CVD deaths due to ozone exposure and provide a basis for planners and policy makers to make relevant decisions.
+2 Materials and methods
+2.1 Study population and outcome
+We collected daily death data covering the period of January 1st, 2013 to December 31st, 2021 in Nanjing from the “China Disease Surveillance System Death Surveillance Network Reporting Database”. The causes of death were classified based on the tenth revision of the International Statistical Classification of Disease (ICD-10), with cardiovascular disease being coded as I00-I99.
+2.2 Meteorological and pollution data
+Daily meteorological data including daily mean temperature, and mean relative humidity were collected from the China meteorological sharing service system network2 during the corresponding mortality data period. Daily air pollution data including 24-h average concentrations of fine particular matter (PM2.5), inhalable particles (PM10), nitrogen dioxide (NO2), sulfur dioxide (SO2), and carbon monoxide (CO), and daily maximum 8-h mean concentrations of ozone (O3–8h) were obtained from the Nanjing environmental monitoring center.
+2.3 Statistical analysis
+2.3.1 Correlation analysis
+To explore the correlation between the daily mean values of each factor, including meteorological factors (temperature and relative humidity) and six air pollutants (PM2.5, PM10, SO2, NO2, CO, and O3), and considering that these data may not conform to a normal distribution, a Spearman’s correlation test was performed using the “psych” R package. Moreover, the correlation coefficients were plotted using the “corrplot” R package.
+2.3.2 Time-series analysis
+We developed a foundational model using the Generalized Additive Model (GAM) to investigate the impact of O3 on the number of cardiovascular disease deaths.
+Yt~quasiPoisson(Ut)
+Where Yt represents the count of cardiovascular diseases death at day t following a Poisson distribution. In this study, the associations of daily O3 concentration with cardiovascular diseases deaths were estimated utilizing GAM with quasi-Poisson regression as follows:
+log(Yt)=β∗Xt+s(time,df)+s(PM2.5,df)+s(PM10,df)+s(SO2,df)+s(NO2,df)+s(CO,df)+s(temperature,df)+s(humidity,df)+Holiday+DOW+α
+Where β indicates the exposure response coefficient, X indicates the daily O3 concentration. s denotes splines function. Holiday and DOW are two categorical variables that represent the presence of a public holiday and the day of the week, respectively. α represents the intercept.
+In our research, we included five air pollutants in our multi-pollutant model, including PM2.5, PM10, SO2, NO2, and CO. 7 degrees of freedom (df) per year was used to control for the long-term trend and seasonality of daily deaths, while the df of temperature, and relative humidity were 3 factors in our research. The lag effects associations between the O3 and cardiovascular deaths were assessed, with a maximum lag period of 7 days. Lag1 presents single day lag and lag01 presents moving average over 2 days.
+Excessive risk (ER) presents a percentage increase or decrease in daily deaths for every 10 μg/m3 increase in ambient O3 concentration.
+ER%=[exp(β∗10)−1]∗100%
+Based on the model parameters obtained from the main analyses, we conducted additional subgroup analyses to explore potential modifications of the effects by age (≤65 years, >65 years), sex (male, female), seasonal (warm period: from April to September; cold period: from October to March) factors. To test for statistically significant differences between effect estimates of the potential effect modifier strata, we calculated the 95% confidence interval as presented below:
+(Q1−Q2)±1.96√SE21+SE22
+Where Q1 and Q2 represent the estimates for the two categories, while SE1 and SE2 represent their respective standard errors.
+2.3.3 Excess death calculation
+The exposure-response relationship coefficient between ozone and cardiovascular diseases obtained by the time-series analyses in Nanjing, China was used to estimate the endemic excess death attributed to ozone exposure. We calculate the excess death based on the following:
+ΔX=X∗{1−1exp[β×(C−C0)]}
+Where ΔX is the excess death; X is the daily death of cardiovascular diseases in Nanjing, China; β is the exposure-response relationship coefficient. In this study, we selected the largest effect with lag days to estimate excess death; C is the daily maximum 8-h mean ozone concentration; C0 is reference concentration. The WHO air quality guidelines (AQG) were developed to provide recommendations for mitigating the health impacts of air pollution. These guidelines have set 100 μg/m3 as the annual standard of O3–8h concentration globally. To evaluate the potential reduction in excess death, we considered the year 2013 as the baseline scenario and assessed the avoidance of excess death in line with the attainment of the WHO guidelines, referred to as the AQG scenario.
+In China, the National Environmental Quality Standards (CNAAQS Grade II) have set the limit for O3–8h concentration at 160 μg/m3. We developed and compared scenarios based on these standards to calculate the excess death and the potential avoidable excess death resulting from the reduction in ambient ozone concentration.
+2.4 Sensitivity analysis
+We conducted sensitivity analyses to ensure the robustness of our results by examining the impact of variations in the models, specifically in terms of the degree of freedom and lag days. The association between O3 and CVD deaths was considered robust if the effect estimates yielded by these models did not exhibit significant differences.
+All analyses were performed with R software (version 4.0.2), using the mgcv and ggplot2 packages. Statistical significance was defined as two-sided p < 0.05.
+3 Results
+3.1 Descriptive statistics
+3.1.1 Ambient pollutants and meteorological factors
+As shown in Figure 1, the daily average concentration of O3–8h ranged from 8.40 μg/m3 to 316.00 μg/m3, with a mean concentration of 99.93 μg/m3. The median ambient O3 concentration (O3–8h) in Nanjing from 2013 to 2021 was 80.40 μg/m3, 87.80 μg/m3, 88.20 μg/m3, 84.85 μg/m3, 95.00 μg/m3, 98.29 μg/m3, 101.79 μg/m3, 100.43 μg/m3, and 94.71 μg/m3, respectively. Figure 1 depicts the temporal distribution of ozone concentration, which peaked during summer. The annual average concentration of PM10, PM2.5, SO2, NO2, CO were 86.79 μg/m3, 48.93 μg/m3, 16.44 μg/m3, 42.86 μg/m3, 0.91 mg/m3. The mean daily temperature and relative humidity were 16.94°C and 72.89%. From 2013 to 2021, the number of days with ozone concentration exceeding the CAAQS Grade II (China Ambient Air Quality Standards) threshold of 160 μg/m3 was 425, with an excessive rate of 12.93%. Further details about other air pollutants and meteorological data can be found in Table 1.
+figure 1
+Figure 1. Time series of ozone concentration and daily deaths of cardiovascular disease in Nanjing, China, from January 1st, 2013 to December 31st, 2021. Red cycle, the concentration of ozone; blue cycle, daily death number of cardiovascular disease.
+table 1
+Table 1. Descriptive summary of daily ambient pollutants and meteorological factors in Nanjing, China, from 2013 to 2021.
+3.1.2 The changing trend of cardiovascular disease deaths
+Table 2 provides a summary of daily resident deaths of cardiovascular disease in Nanjing from 2013 to 2021. The number of deaths attributable to cardiovascular disease increased from 15,543 to 18,733. In total, there were 151,609 deaths, accounting for 43.87% of non-accidental deaths. Among these, 76,563 deaths (50.50%) were male and 75, 046 deaths (49.50%) were female. The number of male deaths was 76,563 (50.50%). Additionally, of the total deaths, 11.86% (17,976) of the deaths were aged 65 years or younger, while 88.14% (133,633) of the deaths were

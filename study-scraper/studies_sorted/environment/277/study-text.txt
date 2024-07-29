@@ -1,0 +1,112 @@
+Submit Article
+Log in
+Register
+This journal
+Journals
+Publish
+Clinical
+Global health
+Multimedia
+Events
+About
+Advanced search
+ARTICLES| VOLUME 8, ISSUE 7, E452-E462, JULY 2024
+Download Full Issue
+PDF [1 MB]
+Figures
+Save
+Share
+Reprints
+Request
+All-cause, cardiovascular, and respiratory mortality and wildfire-related ozone: a multicountry two-stage time series analysis
+Gongbo Chen, PhD
+Prof Yuming Guo, PhD
+Prof Xu Yue, PhD
+Rongbin Xu, PhD
+Wenhua Yu, MPH
+Tingting Ye, MSc
+et al.
+
+
+Show all authors
+Show footnotes
+
+Open AccessPublished:July, 2024DOI:https://doi.org/10.1016/S2542-5196(24)00117-7
+PlumX Metrics
+Summary
+Introduction
+Methods
+Results
+Discussion
+Declaration of interests
+Acknowledgments
+Supplementary Materials
+References
+Article info
+Figures
+Tables
+Summary
+Background
+Wildfire activity is an important source of tropospheric ozone (O3) pollution. However, no study to date has systematically examined the associations of wildfire-related O3 exposure with mortality globally.
+Methods
+We did a multicountry two-stage time series analysis. From the Multi-City Multi-Country (MCC) Collaborative Research Network, data on daily all-cause, cardiovascular, and respiratory deaths were obtained from 749 locations in 43 countries or areas, representing overlapping periods from Jan 1, 2000, to Dec 31, 2016. We estimated the daily concentration of wildfire-related O3 in study locations using a chemical transport model, and then calibrated and downscaled O3 estimates to a resolution of 0·25° × 0·25° (approximately 28 km2 at the equator). Using a random-effects meta-analysis, we examined the associations of short-term wildfire-related O3 exposure (lag period of 0–2 days) with daily mortality, first at the location level and then pooled at the country, regional, and global levels. Annual excess mortality fraction in each location attributable to wildfire-related O3 was calculated with pooled effect estimates and used to obtain excess mortality fractions at country, regional, and global levels.
+Findings
+Between 2000 and 2016, the highest maximum daily wildfire-related O3 concentrations (≥30 μg/m3) were observed in locations in South America, central America, and southeastern Asia, and the country of South Africa. Across all locations, an increase of 1 μg/m3 in the mean daily concentration of wildfire-related O3 during lag 0–2 days was associated with increases of 0·55% (95% CI 0·29 to 0·80) in daily all-cause mortality, 0·44% (–0·10 to 0·99) in daily cardiovascular mortality, and 0·82% (0·18 to 1·47) in daily respiratory mortality. The associations of daily mortality rates with wildfire-related O3 exposure showed substantial geographical heterogeneity at the country and regional levels. Across all locations, estimated annual excess mortality fractions of 0·58% (95% CI 0·31 to 0·85; 31 606 deaths [95% CI 17 038 to 46 027]) for all-cause mortality, 0·41% (–0·10 to 0·91; 5249 [–1244 to 11 620]) for cardiovascular mortality, and 0·86% (0·18 to 1·51; 4657 [999 to 8206]) for respiratory mortality were attributable to short-term exposure to wildfire-related O3.
+Interpretation
+In this study, we observed an increase in all-cause and respiratory mortality associated with short-term wildfire-related O3 exposure. Effective risk and smoke management strategies should be implemented to protect the public from the impacts of wildfires.
+Funding
+Australian Research Council and the Australian National Health and Medical Research Council.
+Introduction
+In the past few decades, wildfire occurrence has increased worldwide, with widened geographical extent and prolonged fire seasons.1
+In recent years, many locations globally have had unprecedented wildfires, including Australia, Brazil, northern California (USA), Canada, and the Mediterranean region of Europe, causing substantial economic loss and health impacts.2
+,  3
+,  4
+,  5
+,  6
+For example, the total economic cost due to wildfires in California during 2018 was estimated to be US$148·5 billion (95% CI 126·1–192·9), accounting for approximately 1·5% of annual gross domestic product (GDP) in the state.7
+Due to rapid climate change and population growth, the occurrence and related health burden of wildfires are expected to increase in the future.8
+Both wildfires and planned or controlled fires are categorised as landscape fires, with wildfires comprising the predominant share (approximately 95%) of such occurrences.1
+Wildfire smoke is a chemically complex mixture of contaminants that are hazardous to human health, including particulate matter, ozone (O3), and other toxic gaseous pollutants.9
+A growing body of scientific literature has examined the health impacts from wildfire-related air pollutants. However, the majority of previous studies have focused on fine particulate matter (PM2·5), with little knowledge about the health effects of O3 from wildfire sources.10
+O3 is a highly reactive and oxidative gaseous pollutant that shows various toxic effects. Both short-term and long-term O3 exposure has been linked to a number of adverse health effects, including respiratory and cardiovascular mortality and morbidity.11
+Wildfire activity is an important source of tropospheric O3. Wildfires can contribute to tropospheric O3 by releasing a large amount of O3 precursors, such as nitrogen oxides (NOx) and volatile organic compounds, which form O3 by reacting in the presence of sunlight.12
+,  13
+Existing studies on the adverse health effects of wildfire-related O3 have either been challenged by accurate population exposure assessment or restricted to single location or country.14
+,  15
+,  16
+To the best of our knowledge, no previous study has assessed the health effects or health burden of wildfire-related O3 comprehensively across different populations and geographical regions globally. To fill these research gaps, we systematically analysed the associations between short-term exposure to wildfire-related O3 and daily all-cause, cardiovascular, and respiratory mortality across various regions and populations worldwide, based on data from the established Multi-City Multi-Country (MCC) Collaborative Research Network. The MCC Network comprises international research teams collaborating on a programme dedicated to generating epidemiological evidence on associations between weather and health.
+Methods
+Study design and data collection
+We did a multicountry two-stage time series analysis to examine the associations between wildfire-related O3 exposure and mortality. Time-series mortality data were collected from the database of the established MCC Network on Jan 15, 2021, at which time the database covered 750 locations (location refers to city or county) in 43 countries or areas. Based on data from the MCC Network, we have previously examined the excess mortality associated with urban air pollution and ambient temperature.17
+,  18
+Daily counts of deaths from all causes, cardiovascular causes (International Classification of Diseases, 10th Revision [ICD-10] codes I00–I99), and respiratory causes (ICD-10 codes J00–J99) were collected from each location in overlapping periods from Jan 1, 2000, to Dec 31, 2016, with the extraction of cardiovascular and respiratory causes based on the underlying cause (the primary reason leading to death). Cardiovascular disease refers to a group of disorders of the heart and blood vessels, including coronary heart disease, cerebrovascular disease, peripheral arterial disease, rheumatic heart disease, congenital heart disease, and deep vein thrombosis and pulmonary embolism. In places where mortality data were unavailable for all causes, non-external cause mortality data (ICD-10 codes A0–R99) were used instead. The availability of all-cause mortality data (or non-external cause mortality data) was a prerequisite for inclusion, resulting in the inclusion of 749 locations in the 43 countries or areas. In addition, daily data on mean temperature (°C) and relative humidity (%) and GDP per capita (US$) were collected for each location from the MCC Network database, as in our previous study.18
+Procedures
+We estimated population-weighted exposure to wildfire-related O3. As wildfires constitute most landscape fires worldwide, and distinguishing between wildfires and non-wildfires presents challenges with current satellite detection methods,1
+the prevailing approach involves the use of landscape fire exposure as a surrogate metric for wildfire exposure, as exemplified by initiatives such as the Lancet Countdown reports.19
+,  20
+The approach for estimation of daily wildfire-related O3 concentration has been reported previously.1
+In brief, daily wildfire-related O3 concentration across study locations was estimated with the 3D GEOS-Chem model (version 12.0.0). The model simulates tropospheric O3 concentration based on the O3–NOx–hydrocarbon–aerosol chemical mechanisms for each global grid cell (2·0° × 2·5° spatial resolution; about 220 km × 280 km at the equator).21
+,  22
+O3 photolysis rates were computed based on the Fast-JXv7.0 scheme.23
+Dry deposition of O3 was computed based on a multiple-resistance model.24
+The fire emission data were from the Global Fire Emissions Database (version 4.1 with small fires, GFED4.1s),25
+in which the amount of biomass burned has been calculated with use of satellite-based burn area and active fire information.26
+In this study, daily O3 perturbations caused by fires were calculated as the difference between simulations with and without fire emissions for each day and global grid cell from 2000 to 2016.
+As no ground-level measurements were available specifically for wildfire-related O3 concentration, the GEOS-Chem-derived wildfire-related O3 concentration was validated, adjusted, and downscaled via a three-step approach, which is shown in detail in appendix 1 (pp 2–4). In brief, daily concentration of ambient O3 from all sources derived from the GEOS-Chem model was compared with ground monitoring data from 6851 stations in 58 countries and areas (sources of ground monitoring data reported previously27
+), and their difference was applied to calibrate wildfire-related O3 concentration derived from the GEOS-Chem model. According to results of ten-fold cross-validation, the GEOS-Chem-derived O3 concentration from all sources explained 80% of the variability of ground measurements globally (R2=80%), and the continent-specific results ranged from 43% to 82% (appendix 1 p 4). With use of the validated and adjusted model, daily concentration of wildfire-related O3 was estimated in each of the 749 locations at 0·25° × 0·25° spatial resolution (approximately 28 km2 at the equator). For locations with multiple grid cells, the mean value of all cells that included each location was used.
+We sourced annual population counts spanning from Jan 1, 2000, to Dec 31, 2016, for every 1 km × 1 km grid through the WorldPop project.28
+These population data were subsequently aggregated to a spatial resolution of 0·25° × 0·25° to align with the daily wildfire-related O3 data. To compute population-weighted mean daily wildfire-related O3 exposure, we calculated the exposure by calculating the mean of the values of all 0·25° × 0·25° grids that were fully or partially within the community boundaries. The community boundary information was obtained from OpenStreetMap (version 0.7.56). In this calculation, we weighted each grid's contribution based on its specific population count, multiplied by the proportion (0–100%) of the grid's area intersecting with the community.
+Statistical analysis
+We present the maximum, mean, and IQR of daily concentrations of population-weighted wildfire-related O3 exposure for each study location during the study period, and the monthly mean of the maximum daily wildfire-related O3 concentrations.
+The associations of short-term exposure to O3 from wildfire sources with daily mortality were first examined at each location with consideration of potential lag effects, and then the results were pooled at country, regional, and global levels. To examine the relationship of wildfire-related O3 exposure with all-cause, cardiovascular, and respiratory mortality separately, a location-specific quasi-Poisson regression model was fitted to the time series, as follows:
+log(Dij)=bs(O3ij) + ns(time, 8/year) + ns(TEMPij, 3) + dowj
+
+
+where Dij is count of deaths in location i on day j, and bs(O3ij) is the concentration of O3 from wildfire sources fitted with use of a constrained distributed lag model, which can flexibly examine both the exposure–response relationship and lag effect (where bs is a function in the model that is used to generate the basis matrices for the two dimensions of predictor and lag).29
+According to the quasi-likelihood version of the Akaike information criterion (qAIC) for various lag times (appendix 1 p 5), we considered the cumulative effects (mean concentration) of wildfire-related O3 on the current day and previous 2 days of exposure (lag 0–2 days), which is also consistent with our previous work.30
+In the model, ns(time, 8/year) is a time variable fitted with a natural cubic spline (with 8 degrees of freedom per year) to account for the long-term time trends and seasonality;17
+ns(TEMPij, 3) is mean temperature during lag 0–2 days fitted with a natural cubic spline (with 3 degrees of freedom).31
+The selections of degrees of freedom for natural cubic splines of time and lag times for temperature were also based on the qAIC information. A range of potential degrees of freedom and lag days were considered and the ones with the smallest qAIC value were selected (appendix 1 pp 5–6). dow is day of the week, numbered from 1 to 7 (1 being Monday). In the model, the association between variability of O3 concentration and that of counts of deaths over time (per day) was examined for the whole study period.
+The second-stage analysis pooled location-specific effect estimates at the country, regional, and global levels via a random-effect meta-analysis, which accounted for both within-location and between-location variabilities in effect estimates.32
+Considering that the number of locations was small in some countries or areas and the mortality data did not cover the whole study period in some countries, we used the best linear unbiased predictions at this stage and set location as the random-effect term.33
+This approach has been shown to provide estimates for countries accurately and robustly, especially for those with a small number

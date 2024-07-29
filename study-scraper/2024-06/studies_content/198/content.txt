@@ -1,0 +1,354 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature npj climate and atmospheric science articles article
+Article
+Open access
+Published: 18 June 2024
+Hemispherical scale mechanisms of nitrate formation in global marine aerosols
+Qibin Lao, Hongliang Li, Jinpei Yan, Guangzhe Jin, Guirong He, Chunqing Chen, Qingmei Zhu & Fajin Chen
+  npj Climate and Atmospheric Science
+ 7, Article number: 139 (2024) Cite this article
+486 Accesses
+1 Altmetric
+Metrics
+Abstract
+Nitrogen oxides (NOx) in the atmosphere directly affect air quality; however, their oxidation products (e.g., nitrate) are essential nutrients in terrestrial and marine ecosystems. To date, the mechanism and rate of nitrate formation in the global-scale marine boundary layer remains uncertain. Herein, aerosol nitrate isotopes covering the global ocean were analysed and observations indicated that nitrate formation was dominated by the proportion between the hydroxyl radical (daytime) and ozone (nighttime) pathways in the Northern Hemisphere (NH), whereas it changed to the BrO (Antarctic iceberg emission) pathway in the Southern Hemisphere (SH). These differences in the pathways suggested that the NOx removal (nitrate formation) efficiency was higher in the NH, which could be responsible for the much higher nitrate concentrations in the NH than in the SH (over twice). This study can assist in formulating effective policies to mitigate global NOx pollution and improve our understanding of the impact of increasing NOx concentrations on global ocean productivity.
+Similar content being viewed by others
+Changes in atmospheric oxidants over Arctic Ocean atmosphere: evidence of oxygen isotope anomaly in nitrate aerosols
+Article Open access
+23 August 2023
+A diurnal story of Δ17O( $$\rm{NO}_{3}^{-}$$ ) in urban Nanjing and its implication for nitrate aerosol formation
+Article Open access
+21 June 2022
+Increased aerosol concentrations in the High Arctic attributable to changing atmospheric transport patterns
+Article Open access
+01 August 2022
+Introduction
+Nitrogen oxides (NOx = NO2 + NO) are essential for the formation of secondary atmospheric aerosols and atmospheric oxidants, including ozone (O3) and hydroxyl radicals (OH), which control the self-cleaning capacity of the atmosphere1. Although NOx emissions have generally decreased in Europe and North America owing to effective control measures2,3, they continue to increase in most regions (such as East and South Asia) because of intensive anthropogenic activities4,5,6, resulting in a substantial elevation in global atmospheric nitrogen deposition over the last 100 years7. Nitrate (NO3−), an essential nutrient in terrestrial and marine ecosystems, is the main oxidation product of NOx and is therefore considered its primary sink8. After NOx is converted into NO3− in the atmosphere, it can enter surface and marine environments through dry and wet deposition, significantly impacting land and marine productivity and carbon biological pumps9,10. The ocean is the largest active carbon reservoir on Earth, with enormous carbon sequestration potential11,12. Atmospheric nitrogen deposition has been widely demonstrated to play an extremely important role in global ocean productivity and biochar pumping, especially under global warming9,13,14. The contribution of atmospheric nitrogen deposition becomes more significant because warming strengthens ocean stratification, decreasing nutrient supply from deep water to the upper ocean15. However, the mechanism and rate of NO3− formation in the global-scale marine boundary layer remain uncertain, which greatly limits our ability to predict the effects of the lifetimes of NOx and their oxidation products on marine ecology and global climate change.
+Atmospheric NOx and its derived nitrogen-compounds deposited on the ocean surface originate mainly from continents16,17 as direct NOx emissions from the ocean are negligible1. Therefore, comprehensively understanding the fate of NOx over the marine atmospheric boundary layer (MABL) is critical, which can not only develop more effective mitigation strategies but also further evaluate the impact of their oxidation products on marine ecosystems. Several oxidation pathways act for NO3− formation from NOx in the atmosphere (Supplementary Text 1). Globally, ozone (O3) and hydroxyl radical (OH) oxidation are the two dominant pathways that convert NOx to NO3−, and account for approximately 41% of the total NO3− generation18,19. In addition, other oxidants such as BrO, hydrocarbons (HC), and dimethyl sulphide (DMS) are regionally important19. On a global scale, the distribution of these oxidations is non-uniform, particularly between the northern (NH) and southern (SH) hemispheres20,21. Furthermore, NOx oxidation differs between daytime (mainly by OH) and night-time (mainly by O3, HC, and DMS). Day length directly affects the formation of OH in the atmosphere and is an important factor affecting atmospheric NO3− formation22. Thus, the NO3−-formation pathways may differ in the two hemispheres. In addition, the NO3− formation efficiencies of different pathways vary greatly, with a higher OH production rate20,23. Therefore, understanding the mechanisms controlling NO3− formation pathways in the global MABL can deepen our understanding of the impact of increased anthropogenic NOx emissions on global marine primary productivity and oceanic CO2 sinks.
+The oxygen isotope of nitrate (δ18O-NO3−) provides original information on the nature and relative importance of NOx oxidation pathways for NO3− formation24. Usually, the NO3− produced via the OH pathway is characterised by negative δ18O-NO3− as one-third of oxygen atoms in formed NO3− comes from OH, which characterises negative δ18O (−15~0‰)25. NO3− formed via the O3 pathway has higher δ18O because five-sixth of the oxygen atoms in two formed NO3− come from O3 (90~120‰)26. In addition, NO3− formed via BrO, DMS, or HC exhibits the highest δ18O since these processes originate from the terminal oxygen atom of O3 (~130‰)17. Therefore, the composition of δ18O-NO3− depends on the relative importance of these oxidants in NOx oxidation, enabling researchers to identify and apportion NOx sinks27. Herein, we conducted a total of eight cruises covering the Pacific, Indian, Atlantic, Arctic, and Southern Oceans to analyse aerosol NO3− and its oxygen isotope (δ18O-NO3-) in the MABL to present a comprehensive understanding of the NO3− formation mechanism (removal of NOx) over the global ocean.
+Results
+Characteristics of NO3 − and δ18O-NO3 − in global marine aerosols
+For the Indian Ocean, Northwest Pacific Ocean, and Arctic cruises, NO3− concentrations and δ18O-NO3− compositions ranged from 0.5 to 217.0 nmol m−3 and 53.3 to 91.8‰, respectively (Supplementary Table 1). Globally, the aerosol NO3− concentrations have wide variation (0.2–467.2 nmol m−3), with a higher concentration around the coastal areas, particularly in marginal seas of Asia and Europe, and lower concentrations in the open oceans and polar regions (Fig. 1a). Generally, aerosol NO3− concentration in the MABL is higher in the NH (23.9 ± 46.3 nmol m−3), which is more than twice that of the SH (10.9 ± 18.3 nmol m−3) (Fig. 2a).
+Fig. 1: The distribution of NO3− concentration and its isotopic composition in the global ocean.
+Panels a and b show the distribution characteristics of aerosol NO3− concentrations and δ18O-NO3− values in the global ocean, respectively.
+Full size image
+Fig. 2: Characteristics of NO3− and its oxygen isotope in oceanic aerosols from the Northern and Southern Hemispheres.
+The purple dashed line in a marks the mean value of the Northern Hemisphere and Southern Hemisphere. a Samples with latitudes higher 60° S represent the Southern Ocean, samples with latitudes higher 65° N represent the Arctic ocean, and other oceanic regions are aerosol samples covered by their respective regions in Supplementary Fig. S5. Solid lines in b and c represent the linear regressions, the light pink backgrounds represent the 95% Prediction Band, and the dark pink backgrounds represent the 95% Confidence Band.
+Full size image
+δ18O-NO3− values varied greatly over the global MABL (Fig. 1b). In the NH, the δ18O-NO3− values generally decreased with latitude, with a significant trend from the mid (30°N) to high latitudes (Fig. 2). The high δ18O-NO3− values occurred in the Northwest Pacific Ocean (mid-low latitudes), and the values gradually decreased toward high latitudes in the Arctic, with low values in the Arctic regions. However, the δ18O-NO3− values showed a different trend in the Eastern Pacific and Atlantic Oceans, with latitudinal increases and low values appearing in the mid-eastern Pacific Ocean (Fig. 1b). The difference in the trend of δ18O-NO3− values in the MABL of NH may be related to the sampling period, which directly determines the major pathway of NO3− formation. Conversely, the δ18O-NO3− values generally exhibited lower values in the low latitudes whereas high values in the high latitudes (Fig. 1b), with a significantly increased trend with latitude (Fig. 2). Additionally, the δ18O-NO3− value in the Southern Ocean (an average of 73.5 ± 7.7‰) is remarkably higher than in the Arctic Ocean (an average of 61.0 ± 5.0‰), reflecting the difference in the oxidants that influence the formation of NO3− between these two polar regions.
+Discussion
+The obvious difference in variations of δ18O-NO3− values between the NH and SH (Fig. 2) reflected different NO3− production pathways. In the NH, unlike the variation of δ18O-NO3− values (Fig. 2), the distribution of O3 exhibited a decreased trend from higher latitudes to the tropics (Supplementary Fig. 1). Although the O3 values exhibited significant seasonal changes, the decoupling of δ18O-NO3− and O3 (Fig. 3a) suggested that the O3 value and its seasonal variation were not the major factors controlling NO3− formation. Similarly, BrO concentrations generally increase with latitude in both the NH and SH20,28. However, although enhanced BrO occurs in the polar regions, the BrO levels in the high-latitudes of the Arctic are much lower than that of the high-latitudes of the Antarctic28,29. Therefore, BrO is unlikely to be the major factor controlling NO3− formation in the NH. This is also supported by the decoupling of δ18O-NO3− and tropospheric BrO column in the NH (Fig. 3c). Nevertheless, regionally, the BrO pathway can be important for NO3− production19. For example, modelling results have shown that BrO concentrations in the eastern North Pacific and northern North Pacific are higher than those in other regions of the Pacific20, and NO3− generation via the BrO pathway is responsible for the higher δ18O-NO3− values in these regions30. However, this is not the case in the western North Pacific. As the lowest BrO concentration occurred in the western North Pacific20, higher δ18O-NO3− values were observed in this region (Fig. 1b).
+Fig. 3: Correlation of δ18O-NO3− values with ozone, BrO and day length in the Northern and Southern Hemispheres.
+Panels a–f show the relationship between δ18O-NO3− and O3 (a and b), BrO (c and d), and day length (e and f), respectively. The monthly average O3 from 2006 to 2021 (the time range of all field observation cruises) for eight latitude bands (0–10°N, 10–30°N, 30–60°N, 60–90°N, 0–10°S, 10–30°S, 30–60°S, and 60–90°S) were obtained from National Aeronautics and Space Administration Ozone Watch (NASA Ozone Watch, https://ozonewatch.gsfc.nasa.gov/). The correlation between δ18O-NO3− and O3 is the average O3 value in a certain latitude range (one out of the eight bands) in a specific month corresponds to the average δ18O-NO3− value in that latitude range during that month. The monthly average BrO for eight latitude bands were obtained from the GOME-2 satellite instrument28 and the data presented by Schmidt et al.20. Each sample corresponds to a day length value according to the sampling date and latitude. Solid lines represent the linear regressions and the light shading represents the 95% confidence intervals.
+Full size image
+NO3- formation via the OH pathway likely dominated that of NH. The OH concentrations in the atmosphere mainly depend on the length of the day (duration of formation through daytime and night-time reactions) because the OH is a photolytic product31,32. Thus, OH formation exhibits seasonality proportional to the solar radiation intensity (day length), and OH concentrations in the tropics are remarkably higher than those in the polar regions21. Additionally, the OH concentration exhibited a remarkable decrease from summer to winter owing to weaker solar radiation and shorter day length in winter21. However, after corresponding to the sampling date, the δ18O-NO3− value exhibited a significantly negative correlation with day length (Fig. 3e), suggesting that a longer day length and more substantial solar radiation favour the formation of a lower δ18O in NO3− (mainly via the OH pathway). In the Arctic, the sampling data during summer was on permanent daytime (Supplementary Fig. 2), which completely inhibited the night-time reaction (O3 pathway) owing to the photolytic sensitivity of NO3[−17. During this period, the suppressed night reaction (O3 pathway) and dominant day reaction (OH pathway) were responsible for the low δ18O-NO3− value in the Arctic regions18. Contrarily, the Northwest Pacific Ocean cruise occurred in winter, during which the day length was shorter, and solar radiation was weaker, favouring the formation of NO3− via the O3 pathway18.
+Night-time reactions play a key role in the reactive nitrogen budget, and this process is important at the Intertropical Convergence Zone (ITCZ) boundary of the NH because of the large aerosol surface area during N2O5 hydrolysis24. Moreover, nocturnal oxidation driven by nitrate radicals has significantly increased over continents off the Northwest Pacific33. Therefore, NO3− formed mainly via the O3 pathway could be responsible for the higher δ18O-NO3− values observed during this period (Fig. 1b). However, although the Indian Ocean cruise was conducted in winter, the latitude was lower than that of the Northwest Pacific Ocean cruise, indicating that the Indian Ocean cruise had a longer day length and higher solar radiation. Thus, δ18O-NO3− values in the northern Indian Ocean (an average of 69.1 ± 5.0‰) are lower than those in the Northwest Pacific Ocean (an average of 81.9 ± 7.3‰). Similarly, the sampling dates of the eastern Pacific Ocean-G15 cruise are in late spring to early winter, during which the day length decreases with the latitude (Supplementary Fig. 2), reflecting an increased proportion of NO3− formation via the O3 pathway (an increase of δ18O-NO3− value with latitude, Fig. 1b). Overall, day length was the dominant factor controlling NO3− formation in the NH.
+In the low latitudes (0−30°S) of the SH, δ18O-NO3− values were lower, except in the eastern Pacific (Fig. 1b). Along the longitude (similar day length, 13.8 − 14.5 h) in the eastern Pacific Ocean-G16, the proportion of NO3− formation via the OH pathway is similar, and the variation of δ18O-NO3− value may depend on the distribution of marine alkyl nitrate and O334. However, both O3 and BrO concentrations are low in the low latitudes20, suggesting that the NO3− formation by the oxidation of O3 and BrO is minor in these regions. The lower δ18O-NO3− values could be affected by the dominance of the OH reaction pathway due to the high OH concentration in these regions21. A quantitative estimation showed that the OH pathway contributes up to 80 ± 5% of the NO3− formation in the tropical MABL of the Pacific Ocean in the SH17. The O3 pathway is unlikely to be a factor in elevating the δ18O-NO3− value at mid-high latitudes. The higher O3 concentration occurred in the mid-latitudes (30 − 60°S), whereas the concentration in the high latitudes (>60°S) was even lower than that in low latitudes (Supplementary Fig. 1), which differs from the distribution of δ18O-NO3−. In addition, most sampling activities were conducted under sunlight conditions (long day length) at high latitudes, which are not favourable for NO3− formation via the O3 pathway. No correlation was observed between the δ18O-NO3− value and the O3 concentration or day length in the SH (Fig. 3). However, the BrO concentration increased remarkably from approximately 30°S toward the polar regions, with an extremely high concentration in the polar regions20. Correspondingly, the increasing trend of δ18O-NO3− value in the mid-high latitudes (Fig. 1b) reflected the importance of NO3− formation via the BrO pathway in the mid-high SH17,24. This was also supported by the significant positive correlation between δ18O-NO3− values and tropospheric BrO column in the SH after corresponding to the sampling month (Fig. 3d). Bromide ion concentrations in sea ice are approximately three times higher than those in seawater, and tropospheric BrO columns are usually enhanced in larger sea ice-covered areas20,28. Modelling predictions also suggest that NO3− formation via the BrO pathway is dominant at high latitudes in SH19.
+Unlike in the NH, the O3 concentration was lower in the SH, decreasing significantly over the past few decades (Supplementary Fig. 1). In addition to anthropogenic influences35, the level of NOx can affect the production (polluted regions with a NOx-rich atmosphere, mainly in the NH) and removal of O3 (cleaner regions with a low-NOx atmosphere, mainly in the SH) (Supplementary Text 2 and Supplementary Fig. 3). Although O3 destruction in the SH causes a significant increase in the ultraviolet (UV) radiation at the Earth’s surface, this is not conducive to OH formation. The primary generation of OH depends on the photolysis of O3 by UV sunlight in the presence of water vapour21. In addition to the photodissociation of O3, sources of OH generation, include the reactions of O3 with terpenes emitted by vegetation, unsaturated hydrocarbons, and aromatic compounds in polluted air21. Thus, the OH concentrations in the extratropical SH (6.6 × 105 molecules cm−3) are remarkably lower than those in the extratropical NH (9.1 × 105 molecules cm−3)21. With sufficient OH and O3, daytime (OH pathway) and night-time (O3 pathway) reactions controlled by day length were the major pathways of NO3− formation in the NH. Although the seasonal variation in day length in the SH was consistent with that in the NH, O3 loss and low OH concentrations led to less importance of daytime and night-time reactions in the mid-high latitudes of the SH. Moreover, particle size dramatically affects the NO3− formation mechanism24. The δ18O-NO3− value in the supermicron mode was significantly higher than that in the submicron mode. This is primarily because the OH pathway significantly affects NO3− in the submicron mode24. The aerosol optical depth in the NH was substantially higher than that in the SH (Supplementary Fig. 4) and was dominated by submicron-mode particles in the NH36. A recent study revealed that high concentrations of aerosol particles provide more expansive space for the reaction to generate OH, which then affects the formation of NO3[−24. Combining these factors, the effect of the OH pathway on nitrate formation was more evident in the NH than in the SH.
+According to the formation pathway of NO3− (R1-R7 in Supplementary Text 1), the theoretical values of δ18O-NO3− for different formation pathways can be calculated. Assuming that 2/3 of NO3−-O originates from O3 and 1/3 of O from OH in the OH pathway37, the δ18O value of NO3− formed by this pathway can be calculated to be 55‰ when the minimum δ18O values of OH (−15‰) and O3 (90‰) are chosen. Similarly, if 5/6 of NO3−-O originates from O3 and 1/6 of O from OH in the O3 pathway37, the maximum δ18O value of NO3− is 100‰ using the maximum theoretical δ18O values of OH (0‰) and O3 (120‰). Since the NO3− formation via the BrO pathway is similar to that of terminal O3, the maximum δ18O value of NO3− formed by this way is 130‰. In this study, since the formation of NO3− in the NH is mainly controlled by the OH pathway (day length), the proportion of NO3− formed through this pathway can reach 60–100% (the theoretical minimum δ18O value of the OH pathway divided by the measured value), reaching an average of 91% in the Arctic region. This is consistent with the nearly permanent daytime during the sampling period in Arctic27. At mid-high latitudes in the SH, since the BrO pathway is dominant for NO3− formation, the proportion of NO3− formed via this pathway ranges from 41% to 81% (the measured value divided by the theoretical maximum δ18O value of the BrO pathway), reaching an average of 58% at higher latitudes (>60°S).
+In addition to these three oxidants, other oxidants such as DMS and peroxy radicals can affect the atmospheric δ18O-NO3− value, this may introduce some uncertainty into our results. For instance, the low δ18O-NO3− value in the Arctic, besides being influenced by the day-length-controlled OH pathway, could also be partially attributed to the involvement of peroxy radicals (~23.9‰), as its O mainly originates from atmospheric O2 rather than O337. Regionally, these oxidants may be important for NO3− production, and NOx is inevitably affected by their oxidation during long-distance atmospheric transport to remote oceans. However, current research has shown that the impact of these factors on NO3− production is minimal on a global scale, with a contribution of less than 6%18. For local regions, fractionation during anthropogenic emissions cannot be denied and should not be overlooked, though their impact is comparatively small compared to natural oxidation pathways like OH, O3 and BrO from a global perspective.
+Differences in NOx removal processes between the NH and SH can profoundly impact global tropospheric chemistry, such as secondary aerosol formation and oxidants33. The rate of OH-driven NOx removal is much higher than that of NOx removal by halogens (approximately 20% of the rate by OH)20,23, which indicates that higher concentrations of NOx in the NH correspond to higher removal efficiencies. Conversely, lower concentrations of NOx in the SH correspond to lower removal efficiencies (Fig. 4). Low NOx removal in the SH may gradually accumulate in the atmosphere, resulting in increased formation of new secondary aerosols in the clean atmosphere of remote Antarctica38. The high NOx level and removal rate could be responsible for the much higher NO3− concentrations in the NH than in the SH (nearly twice). This suggests that the contribution of atmospheric nitrogen deposition to ocean productivity is more significant in the NH than in the SH. Model analyses have shown that global ocean productivity is declining39,40, mainly due to the strengthening of ocean stratification under global warming15. However, with the continuous increase in NOx emissions, the higher efficiency of NO3− formation in the MABL of the NH will increase the contribution of atmospheric deposition to ocean productivity, especially in persistently N-limited regions such as the North Atlantic Subtropical Gyres15. Therefore, the marine ecological effects of atmospheric deposition should be given more attention in the future, especially in remote oligotrophic oceans.
+Fig. 4: Schematics of aerosol NO3− formation mechanisms in the global ocean.
+Panels a and b show the aerosol NO3− formation mechanisms in the northern hemisphere and the southern hemisphere, respectively. MABL marine atmospheric boundary layer.
+Full size image
+Methods
+Field sampling
+Total suspended particulates (TSP) in the MABL were collected in precombusted (450 °C for 4 h) microquartz fibre filters (203 × 254 mm, Munktell, Sweden) using a high-volume air sampler (flow rate: 1.05–1.34 m3 min−1, KB-1000-180815, Xiamen, China) during the Northwest Pacific and Indian Ocean cruises (Supplementary Fig. 5) aboard the R/V Xiangyanghong 06. The sampler during these two cruises was placed on the top deck and the front of the scientific research vessel at 3 m above sea level. The Indian Ocean cruise was conducted from the coast of Eastern China (Shanghai, China; 29.95°N, 122.18°E), through the South China Sea, to the northern Indian Ocean (3.00°S, 91.50°E), from November 2019 to March 2020. A Northwest Pacific cruise was conducted from the coast of Eastern China (Shanghai, 29.90°N, 122.22°E) to the Northwest Pacific Ocean (3.11°N, 155.95°E) between December 2020 and February 2021. A total of 26 and 15 TSP samples were collected during the Indian Ocean and Northwest Pacific Ocean cruises, respectively (Supplementary Table 1).
+TSP samples were collected in precombusted (450 °C for 4 h) polytetrafluoroethylene membranes (90-mm diameter, Whatman) using TH-150A intelligent volumetric samplers (Wuhan Tianhong Intelligent Instruments, Inc., Wuhan, China, flow rate: 0.10 m3 min−1) during the Arctic cruise, which was placed on the top deck and the front of the Chinese icebreaker RV Xuelong at 3 m above sea level. The Arctic cruise was conducted from the Northwest Pacific Ocean (42.32°N, 136.75°E) to the Arctic Ocean (86.04°N, 161.85°W) during the 11th Chinese Arctic Research Expedition (CHINARE) from July to September 2020. A total of 14 TSP samples were collected during the Arctic cruise. In addition, a total of 2, 3, and 2 field blanks were collected during the Northwest Pacific Ocean, Indian Ocean, and Arctic cruises, respectively. Clean pre-combusted filters installed in the air sampler without pumping were considered field blank samples for the three cruises. After sampling, the TSP and field black samples were wrapped in aluminium foil and stored under –20 °C in the laboratory.
+To avoid contamination from the scientific research vessel exhaust, the sampler was operated only under conditions where the relative wind direction was within ±90° of the bow and the wind speed was higher than 1 m s−1 during those three cruises. Sampling duration for each aerosol sample was 48–168 h during the Northwest Pacific and Indian Ocean cruises, and was 33–95 h during the Arctic cruise. Detailed sampling information is presented in Supplementary Table 1.
+Sample treatment and analysis
+The procedure for extracting NO3− and its oxygen isotopes was followed as described in a previous study41. Samples for the Indian Ocean and Northwest Pacific cruises and 1/8 filters were extracted with 30 mL of ultrapure water and shaken for 30 min. For the Arctic cruise, all filter samples were extracted using similar processes owing to the smaller filters. The extraction procedure was repeated thrice, and all the extraction solutions for each sample were transferred to a pre-cleaned polyethene plastic bottle and diluted to 100 mL with ultrapure water. The extraction solutions were filtered by a GF/F membrane (0.7-μm-pore-size, 47 mm diameter, Millipore) for NO3− and its oxygen isotope measurements.
+NO3− concentrations in the extraction solutions were measured using a San++ continuous flow analyser (Skalar, Netherlands). The detection limit for NO3− measurement was 0.1 μmol L−1. Finally, the measured NO3− concentration is converted to gas volume concentration (μmol L−1) based on the sampling volume of air sampled (m3) and the volume of extraction solutions (L). In this study, NO3− concentrations in the blank field samples were found to be all below the detection limit.
+The composition of oxygen isotope (δ18O-NO3−) was measured using a chemical method (cadmium-azide) modified from McIlvin and Altabet42, and the detailed analysis procedure can be found in our previous study41. In the extraction solutions, NO3− was firstly removed by sulfamic acid, and then NO3− was reduced to nitrite (NO2−) by adding spongy Cd. NO2− was further reduced to nitrous oxide by sodium azide in an acetic acid buffer, and then nitrous oxide was separated and determined for δ18O-NO3− using a Precon-GasBench II-253 plus (Thermo Scientific, United States). The composition of δ18O-NO3− was calibrated using the international standard of the International Atomic Energy Agency (IAEA)-N3, and the reproducibility of duplicate analysis was <0.6‰, with a mean of ±0.3‰.
+Literature and open-source data
+To comprehensively evaluate the mechanism of NO3− formation in the global marine boundary layer, NO3− and its oxygen isotope data were collected from five other cruises in the Atlantic24, Antarctic17, Western-Central Pacific Ocean30, and Eastern Pacific Ocean34,43 (Supplementary Fig. 5). An Antarctic cruise was conducted from the coast of Eastern China to the Southern Ocean (69.37°S, 76.37°E) from November 2015 to April 2016 during the 32nd CHINARE. The Eastern Pacific Ocean-G15 cruise was conducted along the Eastern Pacific latitude (55.1°N, 155.7°W-20.0°S, 152.0°W) from 20 September to 22 November 2018. The Eastern Pacific Ocean-G16 cruise was conducted along the Eastern Pacific with longitude (from 4.07°S, 81.90°W to 10.50°S, 152.00°W) from 26 October to 16 December 2013. Atlantic cruises were conducted in the Weddell Sea area from 05 September 2006 to 28 October 2006 and between Cape Town (South Africa) and Bremerhaven (Germany) from 13 April 2007 to 03 May 2007. Western Central Pacific cruises were conducted from Japan to New Zealand (37°S, 172°W) from 11 December 2013 to 12 February 2014 and the North Pacific Ocean from 23 June to 11 August 2014. All eight cruises were conducted over the open oceans, which are less directly affected by human activities. Therefore, the NO3− isotopes reflect the transformation processes of NO3− in the MABL.
+Calculation of day length
+The calculation of day length was primarily based on the solar altitude angle22. The formula used was as follows:
+$${\rm{PD}}=90^{\circ} -{\rm{SAA}}$$ (1)
+$${\rm{DDL}}=12{\rm{h}}/{\rm{PD}}$$ (2)
+$${\rm{DL}}=12{\rm{h}}+({\rm{DDL}}\times {\rm{L}})$$ (3)
+where, PD represents the latitude of the polar day, SAA represents the solar altitude angle, DDL represents the difference in day length at different latitudes, DL represents the day length at a certain latitude, and L represents the value at that latitude. This study assumed that the moving speed of the solar altitude angle from the Equator to the Tropic of Cancer (23.4333°N) (93 d from 21 March to 21 June) and the Tropic of Cancer (93 d from 22 June to 22 September) was 0.252°/d (23.4333°/93 d). The speed from the Equator to the Tropic of Capricorn (23.4333°S) (90 d from 23 September to 21 December) and the Tropic of Capricorn to the Equator (89 d from 22 December to 20 March) were 0.260°/d (23.4333°/90 d) and 0.263°/d (23.4333°/89 d), respectively. The variations in day length by month in the SH and NH groups are shown in Supplementary Fig. S2.
+Data processing
+Research on NO3− in global ocean aerosols remains limited because it is challenging to conduct marine field surveys. In this study, in addition to the samples collected from our three cruises (Indian Ocean cruise, Northwest Pacific cruise and Arctic cruise), we also collected data from other cruises. Due to the focus of this study on the formation process of NO3− in the global MABL, the influence of sources on nitrate oxygen isotopes is less27. Therefore, even if the sampling periods of these cruises differed, we could still merge them to discuss the mechanism of hemispherical scale formation. However, aerosol NO3− concentrations typically exhibit significant seasonal variations in continental and coastal waters, particularly in areas affected by monsoons. This is because the monsoon conversion directly determines the input of pollution sources. This influence gradually weakens toward the sea and becomes less significant in the open ocean, as these areas are far from land and are less affected by the monsoon17,44. Therefore, to calculate the global average concentration of marine aerosols, this study removed the concentration in coastal areas that are susceptible to monsoon influence, and the final result reflects the concentration of aerosol NO3− in open-sea areas, which can reduce the impact of different sampling periods on the voyages.
+Statistical information
+Pearson correlation analyses (Figs. 2 and 3) were performed using the SPSS 19.0 statistical package (SPSS Inc., Chicago, IL, USA) and Origin 2022 statistical package (OriginLab Corporation, USA). The average values and standard deviations (SD) are reported.
+Data availability
+This article presents the data underlying the results of this study. The source data are provided in this paper.
+Code availability
+The codes to reproduce the analyses presented in this study are available upon request from the corresponding author.
+References
+Ye, C. et al. Rapid cycling of reactive nitrogen in the marine boundary layer. Nature 532, 489–491 (2016).
+Article
+  CAS
+  Google Scholar
+  Miyazaki, K. et al. Decadal changes in global surface NOx emissions from multi-constituent satellite data assimilation. Atmos. Chem. Phys. 17, 807–837 (2017).
+Article
+  CAS
+  Google Scholar
+  Crippa, M. et al. Forty years of improvements in European air quality: regional policy-industry interactions with global impacts. Atmos. Chem. Phys. 16, 3825–3841 (2016).
+Article
+  CAS
+  Google Scholar
+  Song, W. et al. Important contributions of non-fossil fuel nitrogen oxides emissions. Nat. commun. 12, 243 (2021).
+Article
+  CAS
+  Google Scholar
+  Chen, Z. L. et al. Significant contributions of combustion-related sources to ammonia emissions. Nat. Commun. 13, 7710 (2022).
+Article
+  CAS
+  Google Scholar
+  Liu, X. et al. Enhanced nitrogen deposition over China. Nature 494, 459–462 (2013).
+Article
+  CAS
+  Google Scholar
+  Hastings, M. G., Jarvis, J. C. & Steig, E. J. Anthropogenic impacts on nitrogen isotopes of ice-core nitrate. Science 324, 1288–1288 (2009).
+Article
+  CAS
+  Google Scholar
+  Finlayson-Pitts, B. J., Pitts Jr J. N. Chemistry of the upper and lower atmosphere: theory, experiments, and applications (Elsevier, 1999).
+Duce, R. A. et al. Impacts of atmospheric anthropogenic nitrogen on the open ocean. Science 320, 893–897 (2008).
+Article
+  CAS
+  Google Scholar
+  Altieri, K. E., Fawcett, S. E. & Hastings, M. G. Reactive nitrogen cycling in the atmosphere and ocean. Annu. Rev. Earth Pl. Sc. 49, 523–550 (2021).
+Article
+  CAS
+  Google Scholar
+  Renforth, P. & Henderson, G. Assessing ocean alkalinity for carbon sequestration. Rev. Geophys. 55, 636–674 (2017).
+Article
+  Google Scholar
+  Krause-Jensen, D. & Duarte, C. M. Substantial role of macroalgae in marine carbon sequestration. Nat. Geosci. 9, 737–742 (2016).
+Article
+  CAS
+  Google Scholar
+  Reay, D. S., Dentener, F., Smith, P., Grace, J. & Feely, R. A. Global nitrogen deposition and carbon sinks. Nat. Geosci. 1, 430–437 (2008).
+Article
+  CAS
+  Google Scholar
+  Hutchins, D. A. & Capone, D. G. The marine nitrogen cycle: new developments and global change. Nat. Rev. Microbiol. 20, 401–414 (2022).
+Article
+  CAS
+  Google Scholar
+  Dai, M. et al. Upper ocean biogeochemistry of the oligotrophic North Pacific Subtropical Gyre: from nutrient sources to carbon export. Rev. Geophys. 61, e2022RG000800 (2023).
+Article
+  Google Scholar
+  Prospero, J. M. & Savoie, D. L. Effect of continental sources on nitrate concentrations over the Pacific Ocean. Nature 339, 687–689 (1989).
+Article
+  CAS
+  Google Scholar
+  Shi, G. et al. Using stable isotopes to distinguish atmospheric nitrate production and its contribution to the surface ocean across hemispheres. Earth Planet. Sci. Lett. 564, 116914 (2021).
+Article
+  CAS
+  Google Scholar
+  Alexander, B. et al. Quantifying atmospheric nitrate formation pathways based on a global model of the oxygen isotopic composition (Δ17O) of atmospheric nitrate. Atmos. Chem. Phys. 9, 5043–5056 (2009).
+Article
+  CAS
+  Google Scholar
+  Alexander, B. et al. Global inorganic nitrate production mechanisms: comparison of a global model with nitrate isotope observations. Atmos. Chem. Phys. 20, 3859–3877 (2020).
+Article
+  CAS
+  Google Scholar
+  Schmidt, J. A. et al. Modeling the observed tropospheric BrO background: Importance of multiphase chemistry and implications for ozone, OH, and mercury. J. Geophys. Res. Atmos. 121, 11–819 (2016).
+Article
+  Google Scholar
+  Lelieveld, J., Gromov, S., Pozzer, A. & Taraborrelli, D. Global tropospheric hydroxyl distribution, budget and reactivity. Atmos. Chem. Phys. 16, 12477–12493 (2016).
+Article
+  CAS
+  Google Scholar
+  Luo, L. et al. Quantifying the formation pathways of nitrate in size-segregated aerosols during winter haze pollution. Gondwana Res. 115, 71–80 (2023).
+Article
+  CAS
+  Google Scholar
+  Savarino, J. et al. Isotopic composition of atmospheric nitrate in a tropical marine boundary layer. Proc. Natl Acad. Sci. 110, 17668–17673 (2013).
+Article
+  CAS
+  Google Scholar
+  Morin, S. et al. Comprehensive isotopic composition of atmospheric nitrate in the Atlantic Ocean boundary layer from 65 S to 79 N. J. Geophys. Res. Atmos. 114, D05303 (2009).
+Article
+  Google Scholar
+  Vicars, W. C. & Savarino, J. Quantitative constraints on the 17O-excess (Δ17O) signature of surface ozone: Ambient measurements from 50N to 50S using the nitrite-coated filter technique. Geochim. Cosmochim. Acta 135, 270–287 (2014).
+Article
+  CAS
+  Google Scholar
+  Krankowsky, D. et al. Measurement of heavy isotope enrichment in tropospheric ozone. Geophys. Res. Lett. 22, 1713–1716 (1995).
+Article
+  CAS
+  Google Scholar
+  Morin, S. et al. Tracing the origin and fate of NOx in the Arctic atmosphere using stable isotopes in nitrate. Science 322, 730–732 (2008).
+Article
+  CAS
+  Google Scholar
+  Theys, N. et al. Global observations of tropospheric BrO columns using GOME-2 satellite data. Atmos. Chem. Phys. 11, 1791–1811 (2011).
+Article
+  CAS
+  Google Scholar
+  Richter, A., Wittrock, F., Ladstätter-Weißenmayer, A. & Burrows, J. P. GOME measurements of stratospheric and tropospheric BrO. Adv. Space Res. 29, 1667–1672 (2002).
+Article
+  CAS
+  Google Scholar
+  Kamezaki, K. et al. Tracing the sources and formation pathways of atmospheric particulate nitrate over the Pacific Ocean using stable isotopes. Atmos. Environ. 209, 152–166 (2019).
+Article
+  CAS
+  Google Scholar
+  Gligorovski, S., Strekowski, R., Barbati, S. & Vione, D. Environmental implications of hydroxyl radicals (• OH). Chem. Rev. 115, 13051–13092 (2015).
+Article
+  CAS
+  Google Scholar
+  Pfannerstill, E. Y. et al. Total OH reactivity over the Amazon rainforest: variability with temperature, wind, rain, altitude, time of day, season, and an overall budget closure. Atmos. Chem. Phys. 2020, 1–42 (2020).
+Google Scholar
+  Wang, H. et al. Increased night-time oxidation over China despite widespread decrease across the globe. Nat. Geosci. 16, 217–223 (2023).
+Article
+  CAS
+  Google Scholar
+  Joyce, E. E., Balint, S. J. & Hastings, M. G. Isotopic evidence that alkyl nitrates are important to aerosol nitrate formation in the Equatorial Pacific. Geophys. Res. Lett. 49, e2022GL099960 (2022).
+Article
+  CAS
+  Google Scholar
+  Friedel, M. et al. Springtime arctic ozone depletion forces northern hemisphere climate anomalies. Nat. Geosci. 15, 541–547 (2022).
+Article
+  CAS
+  Google Scholar
+  Bates, T. S., Coffman, D. J., Covert, D. S. & Quinn, P. K. Regional marine boundary layer aerosol size distributions in the Indian, Atlantic, and Pacific Oceans: A comparison of INDOEX measurements with ACE‐1, ACE‐2, and Aerosols99. J. Geophys. Res. -Atmos. 107, INX2–25 (2002).
+Article
+  Google Scholar
+  Fang, Y. T. et al. Anthropogenic imprints on nitrogen and oxygen isotopic composition of precipitation nitrate in a nitrogen-polluted city in southern China. Atmos. Chem. Phys. 11, 1313–1325 (2011).
+Article
+  CAS
+  Google Scholar
+  Brean, J. et al. Open ocean and coastal new particle formation from sulfuric acid and amines around the Antarctic Peninsula. Nat. Geosci. 14, 383–388 (2021).
+Article
+  CAS
+  Google Scholar
+  Boyce, D. G., Lewis, M. R. & Worm, B. Global phytoplankton decline over the past century. Nature 466, 591–596 (2010).
+Article
+  CAS
+  Google Scholar
+  Polovina, J. J., Howell, E. A. & Abecassis, M. Ocean’s least productive waters are expanding. Geophys. Res. Lett. 35, 618 (2008).
+Article
+  Google Scholar
+  Luo, H. et al. Nitrate sources and formation in aerosol and precipitation in a tropical city in South China: Insight from nitrate dual isotopes. Atmos. Environ. 278, 119087 (2022).
+Article
+  CAS
+  Google Scholar
+  McIlvin, M. R. & Altabet, M. A. Chemical conversion of nitrate and nitrite to nitrous oxide for nitrogen and oxygen isotopic analysis in freshwater and seawater. Anal. Chem. 77, 5589–5595 (2005).
+Article
+  CAS
+  Google Scholar
+  Carter, T. T. S., Joyce, E. E. & Hastings, M. G. Quantifying Nitrate Formation Pathways in the Equatorial Pacific Atmosphere from the GEOTRACES Peru-Tahiti Transect. ACS Earth Space Chem. 5, 2638–2651 (2021).
+Article
+  CAS
+  Google Scholar
+  Prospero, J. M., Savoie, D. L., Nees, R. T., Duce, R. A. & Merrill, J. Particulate sulfate and nitrate in the boundary layer over the North Pacific Ocean. J. Geophys. Res. Atmos. 90, 10586–10596 (1985).
+Article
+  Google Scholar
+  Download references
+Acknowledgements
+This study was supported by the National Natural Science Foundation of China (U1901213, 92158201, 42276047, 42176039), Global Change and Air-Sea Interaction II Program (GASI-01-EIND-STwin), and Innovation and Entrepreneurship Project of Shantou (2021112176541391).
+Author information
+Authors and Affiliations
+College of Ocean and Meteorology, Guangdong Ocean University, Zhanjiang, China
+Qibin Lao, Guangzhe Jin, Guirong He, Chunqing Chen, Qingmei Zhu & Fajin Chen
+Key Laboratory of Marine Ecosystem Dynamics, Second Institute of Oceanography, Ministry of Natural Resources, Hangzhou, China
+Hongliang Li
+Key Laboratory of Global Change and Marine Atmospheric Chemistry, Ministry of Natural Resources, Xiamen, China
+Jinpei Yan
+Key Laboratory of Climate, Resources and Environment in Continental Shelf Sea and Deep Sea of Department of Education of Guangdong Province, Guangdong Ocean University, Zhanjiang, China
+Guangzhe Jin, Qingmei Zhu & Fajin Chen
+Contributions
+Q.L. processed the data, and wrote the manuscript. Q.L. and F.C. conceived the idea and designed the study. F.C., H.L., J.Y., and Z.L. provided key suggestions on this work, and helped to improve the design of the figures. G.H., C.C., and Q.Z. assisted in the data analysis. Q.L., H.L., J.Y., G.H., Z.L., C.C., Q.Z., and F.C. discussed the results and contributed to the final manuscript.
+Corresponding author
+Correspondence to Fajin Chen.
+Ethics declarations
+Competing interests
+The authors declare no competing interest.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary information
+Supplementary Information
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Lao, Q., Li, H., Yan, J. et al. Hemispherical scale mechanisms of nitrate formation in global marine aerosols. npj Clim Atmos Sci 7, 139 (2024). https://doi.org/10.1038/s41612-024-00694-2
+Download citation
+Received
+08 March 2024
+Accepted
+11 June 2024
+Published
+18 June 2024
+DOI
+https://doi.org/10.1038/s41612-024-00694-2
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+Atmospheric chemistry
+Marine chemistry
+Download PDF
+npj Climate and Atmospheric Science (npj Clim Atmos Sci) ISSN 2397-3722 (online)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

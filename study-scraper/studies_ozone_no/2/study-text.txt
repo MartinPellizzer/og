@@ -1,0 +1,91 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Search ScienceDirect
+Outline
+Highlights
+Abstract
+Graphical abstract
+Keywords
+Data availability
+Figures (1)
+Science of The Total Environment
+Available online 15 July 2024, 174804
+In Press, Journal Pre-proof
+What’s this?
+Estimating black carbon levels using machine learning models in high-concentration regions
+Author links open overlay panel
+Pratima Gupta a 1
+,
+Pau Ferrer-Cid b 1
+,
+Jose M. Barcelo-Ordinas b
+,
+Jorge Garcia-Vidal b
+,
+Vijay Kumar Soni c
+,
+Mira L. Pöhlker d
+,
+Ajit Ahlawat d
+,
+Mar Viana e
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.scitotenv.2024.174804
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Different machine learning techniques are used to estimate black carbon (BC).
+•
+Multilayer perceptron showed the most promising results: Delhi (R2: 0.80) and Agra (R2: 0.79).
+•
+Proxy models can predict BC concentrations at different locations (i.e., spatial gap filling).
+•
+Valuable for low- and medium-income regions
+Abstract
+Black carbon (BC) is emitted into the atmosphere during combustion processes, often in conjunction with emissions such as Nitrogen oxides (NOx) and Ozone (O3), which are also by-products of combustion. In highly polluted regions, combustion processes are one of the main sources of aerosols and particulate matter (PM) concentrations, which affect the radiative budget. Despite the high relevance of this air pollution metric, BC monitoring is quite expensive in terms of instrumentation and of maintenance and servicing. With the aim to provide tools to estimate BC while minimising instrumentation costs, we use machine learning approaches to estimate BC from air pollution and meteorological parameters (NOx, O3, PM2.5, relative humidity (RH), and solar radiation (SR)) from currently available networks. We assess the effectiveness of various machine learning models, such as random forest (RF), support vector regression (SVR), and multilayer perceptron (MLP) artificial neural network, for predicting black carbon (BC) mass concentrations in areas with high BC levels such as Northern Indian cities (Delhi and Agra), across different seasons. The results demonstrate comparable effectiveness among the models, with the multilayer perceptron (MLP) showing the most promising results. In addition, the comparability between estimated and monitored BC concentrations was high. In Delhi, the MLP shows high correlations between measured and modelled concentrations during winter (R2: 0.85) and post-monsoon (R2: 0.83) seasons, and notable metrics in the pre-monsoon (R2: 0.72). The results from Agra are consistent with those from Delhi, highlighting the consistency of the neural network's performance. These results highlight the usefulness of machine learning, particularly MLP, as a valuable tool for predicting BC concentrations. This approach provides critical new opportunities for urban air quality management and mitigation strategies and may be especially valuable for megacities in medium- and low-income regions.
+Graphical abstract
+Download: Download high-res image (134KB)
+Download: Download full-size image
+Keywords
+Air qualityAir pollutionBlack carbonMonitoringAethalometerModellingPrediction
+View PDF
+Data availability
+Data will be made available on request.
+Cited by (0)
+1
+Equal authorship.
+© 2024 The Authors. Published by Elsevier B.V.
+Recommended articles
+TFAN: A Task-adaptive Feature Alignment Network for few-shot website fingerprinting attacks on Tor
+Computers & Security, Volume 144, 2024, Article 103980
+Qiuyun Lyu, …, Zhen Wang
+Assessing aquifer vulnerability from lumped parameter modeling of modern water proportions in groundwater mixtures: Application to California's South Coast Range
+Science of The Total Environment, Volume 624, 2018, pp. 1550-1560
+Benjamin Hagedorn, …, Kirsten Faulkner
+Proposing hybrid prediction approaches with the integration of machine learning models and metaheuristic algorithms to forecast the cooling and heating load of buildings
+Energy, Volume 291, 2024, Article 130297
+He Dasi, …, MD Faisal Bin Ashab
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

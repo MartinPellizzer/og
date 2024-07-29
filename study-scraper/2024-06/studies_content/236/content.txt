@@ -1,0 +1,344 @@
+Top bar navigation
+About us
+All journals
+All articles
+Submit your research
+Search
+Login
+Frontiers in Reproductive Health
+Sections
+Articles
+Research Topics
+Editorial board
+About journal
+Download article
+183
+Total views
+54
+Downloads
+View article impact
+View altmetric score
+Share on
+Edited by
+Justin C. Konje
+University of Leicester, United Kingdom
+Reviewed by
+Anna-Sophie Rommel
+Icahn School of Medicine at Mount Sinai, United States
+Laura Mitchell
+University of Texas Health Science Center at Houston, United States
+Table of contents
+Abstract
+Introduction
+Materials and methods
+Results
+Discussion
+Data availability statement
+Ethics statement
+Author contributions
+Funding
+Acknowledgments
+Conflict of interest
+Publisher's note
+Author disclaimer
+Supplementary material
+References
+Export citation
+Check for updates
+People also looked at
+ORIGINAL RESEARCH article
+Front. Reprod. Health, 11 July 2024
+Sec. Gynecology
+Volume 6 - 2024 | https://doi.org/10.3389/frph.2024.1304749
+This article is part of the Research Topic
+Environmental Impacts on Women’s Health Disparities and Reproductive Health: Advancing environmental health equity in clinical and public health practice
+View all 8 articles
+Examining modification of the associations between air pollution and birth outcomes by neighborhood deprivation in a North Carolina birth cohort, 2011–2015
+Kristen N. Cowan1,2Alison K. Krajewski3Monica P. Jimenez1Thomas J. Luben3Lynne C. Messer4Kristen M. Rappazzo3*
+1Oak Ridge Institute for Science and Education (ORISE), US EPA, Research Triangle Park, NC, United States
+2Department of Epidemiology, Gillings School of Global Public Health, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States
+3Office of Research and Development, Center for Public Health & Environmental Assessment, United States Environmental Protection Agency, Research Triangle Park, NC, United States
+4Departments of Community Health and Health Promotion and Epidemiology, OHSU-PSU School of Public Health, Portland, OR, United States
+Background: Evidence from studies of air pollutants and birth outcomes suggests an association, but uncertainties around geographical variability and modifying factors still remain. As neighborhood-level social characteristics are associated with birth outcomes, we assess whether neighborhood deprivation level is an effect measure modifier on the association between air pollution and birth outcomes in a North Carolina birth cohort.
+Methods: Using birth certificate data, all North Carolina residential singleton live births from 1 January 2011 to 31 December 2015 with gestational ages of 20–44 weeks (n = 566,799) were examined for birth defect diagnoses and preterm birth. Exposures were daily average fine particulate matter (PM2.5), daily 8-h maximum nitrogen dioxide (NO2), and daily 8-h maximum ozone (O3) modeled concentrations, and the modifier of interest was the neighborhood deprivation index (NDI). Linear binomial models were used to estimate the prevalence differences and 95% confidence intervals (CI) for the association between ambient air pollution and birth defect diagnoses. Modified Poisson regression models were used to estimate risk differences (RDs) and 95% CIs for air pollution and preterm birth. Models were stratified by the neighborhood deprivation index group (low, medium, or high) to assess potential modification by NDI.
+Results: Approximately 3.1% of the study population had at least one birth defect and 8.18% were born preterm. For preterm birth, associations with PM2.5 and O3 did not follow a conclusive pattern and there was no evidence of modification by NDI. The associations between NO2 and preterm birth were generally negative across exposure windows except for a positive association with NO2 and preterm birth for high NDI [RD: 34.70 (95% CI 4.84–64.56)] for entire pregnancy exposure. There was no evidence of associations between pollutants examined and birth defects.
+Conclusions: There may be differences in the association between NO2 exposure and preterm birth by NDI but we did not observe any evidence of associations for birth defects. Our results support the public health protection afforded by reductions in air pollution, even in areas of neighborhood deprivation, but future research conducted in areas with higher levels of air pollution and evaluating the potential for modification by neighborhood deprivation level would be informative.
+Introduction
+Preterm birth (PTB) and birth defects are two of the leading causes of infant mortality in the United States (1–3). These adverse birth outcomes are also associated with high medical expenses, higher risk of medical conditions across the life course, and developmental disabilities (4–9). Across live born infants in the United States since 2010, about 10% (9.57–10.49) were preterm, defined as being born before 37 weeks of gestation (10); and about 3% had at least one birth defect diagnosed in their first year of life. Birth defects can range in severity with over 1,000 different types identified (11). There are several established risk factors for adverse birth outcomes, e.g., age of the birthing person and smoking for preterm birth (12–14), and heavy alcohol use, certain medications, and uncontrolled diabetes for birth defects (15–19). Researchers have also reported associations between environmental exposures, such as lack of greenspace, extreme heat, and air pollution, and adverse birth outcomes (20–31).
+Over the past few decades, evidence has accumulated suggesting an association between air pollution and birth outcomes. A number of studies have identified a positive association between increases in exposure to air pollutants (i.e., NO2, PM2.5, O3) and preterm birth (32–34), with some studies finding that exposure to O3 specifically during the first two trimesters of pregnancy heightens the risk of preterm birth (32). While most studies have found positive associations between air pollution and preterm birth, a 2020 systematic review identified five (among 24 total studies on PM2.5 and preterm birth) that did not find an association when measuring exposure across pregnancy or by trimester (35). However, evidence regarding the association between air pollution and birth defects is less consistent. Some studies have reported associations between NO2 and congenital heart defects (36), but others have not (37), and findings between O3 and PM2.5 with birth defects are very inconsistent (32, 34). Given the heterogeneity reported across studies, there are uncertainties around the role of exposure timing, birthing parent characteristics, geographical variability, and other mediating or modifying factors in the relationship between air pollution and poor birth outcomes (38). In addition, there is limited knowledge on the mechanisms by which air pollution may affect birth outcomes (39, 40).
+Given the well-documented sociodemographic disparities in both air pollution exposure, particularly with higher levels of pollution occurring in areas with a higher proportion of non-White residents (41–43), and racial disparities observed in birth defects and preterm birth (44–47), structural factors may potentially modify air pollutant–birth outcome associations. Research has also shown that neighborhood-level characteristics such as neighborhood deprivation are associated with poor birth outcomes (48–53). Environmental and social factors likely contribute to cumulatively impact birth outcomes, worsening disparities (54, 55). However, there is limited information on how air pollutants and neighborhood deprivation interact with one another to impact birth outcomes.
+To address this gap, the goal of this study was to examine if the neighborhood deprivation level is an effect measure modifier on the association between air pollution and birth outcomes using data from all eligible births in North Carolina (NC).
+Materials and methods
+Study population
+Birth certificate data for live births were provided by the NC Department of Health and Human Services’ Division of Public Health linked with data from the Birth Defects Monitoring Program (n = 588,135). The population for this study included all live, singleton births with gestational age between 20 and 44 weeks delivered from 1 January 2011 to 31 December 2015 with residence at delivery in NC. These specific years were selected due to data availability and consistency of records as a result of changes made to the North Carolina birth cohort in 2010. After excluding multiple births (n = 20,586), deliveries outside of 20–44 weeks gestational age (n = 642), and missing residential address at time of delivery that precluded geocoding (n = 8), the final sample was 566,799 births. The residential address at time of delivery was geocoded to the corresponding census tract using ArcGIS (ESRI, version 10.8, Redlands, CA).
+Birth outcomes
+The outcomes of interest in this study were birth defects and preterm birth. Birth defects were identified from the North Carolina birth defect monitoring program (NCBDMP), which is a surveillance system that uses medical records to identify all birth defects by type that are diagnosed in the first year of life in NC (56). We chose birth defects with previous evidence of associations with air pollutant exposures to examine in this analysis: these included pulmonary valve atresia/stenosis, tetralogy of Fallot, atrioventricular septal defects, and lower limb reduction defects; we also examined gastroschisis due to higher prevalence among non-White births (57–59).
+PTB was defined as delivery at less than 37 weeks completed gestation based on clinical estimate of gestational age as reported on the birth certificate. All live, singleton births without any birth defects, gestational age between 20 and 44 weeks, and birth weight between 1,000 and 6,000 g were included in analyses of preterm birth.
+Air pollution exposures
+The air pollutants of interest in this study were daily average fine particulate matter (PM2.5), daily 8-h maximum nitrogen dioxide (NO2), and daily 8-h maximum ozone (O3) concentrations. Daily census tract–level concentration estimates for daily average PM2.5 and 8-h maximum for O3 came from the EPA's Fused Community Multiscale Air Quality model surface using Downscaling (fCMAQ) model. The fCMAQ model links observed pollution data from EPA monitoring sites with deterministic chemistry and meteorology data from the Community Multiscale Air Quality model through a spatially and temporally varying coefficient model (60–62). These data are available for download at RSIG-related downloadable data files (https://www.epa.gov/hesc/rsig-related-downloadable-data-files). Daily 8-h maximum NO2 concentration estimates were extracted from a hybrid ensemble model with 1 km2 spatial resolution, which used multiple machine learning algorithms and predictor variables, including satellite data, meteorological variables, land-use variables, elevation, and chemical transport model predictions to estimate daily concentrations for NO2 at 1 km2 grid resolution (63). PM2.5 and O3 data were provided at the census tract level, and NO2 data were aggregated to census tract level. Births were then linked to air pollutant concentrations by census tract of residential address at time of birth, and daily concentrations of PM2.5, NO2, and O3 were averaged across each trimester. Trimester 1 was considered to go through week 12, and trimester 2 began at the start of week 13 and continued through week 26.
+Modifier
+A neighborhood deprivation index (NDI) was created using principal component analysis on 2010 census variables including housing, poverty, employment, occupation, and education at the census tract level (64). The NDI used here is a relative ranking of neighborhood deprivation for NC census tracts compared to one another; a higher index value is interpreted as having more deprivation. Neighborhood deprivation categories were determined by visually examining the distribution of NDI across all census tracts in NC and using a nearest centroid sorting clustering method to group census tracts into three NDI levels (low, medium, or high deprivation) (65). Individuals were assigned an NDI category based on census tract of the residential address at time of birth.
+Covariates
+Covariates of interest in this study were obtained from the birth certificate records and included birthing parent demographic characteristics of age at delivery, race/ethnicity (white, non-Hispanic, Black, non-Hispanic; Hispanic; Asian or Pacific Islander, non-Hispanic; American Indian, non-Hispanic; other), marital status (married or unmarried), Medicaid status at time of delivery (yes or no), education (<high school, high school, >high school), and month of conception (estimated using clinical estimate of gestational age and birth date). In the context of these analyses, race and ethnicity are used to represent potential stress from experiencing interpersonal and structural racism as well as residential segregation within the US and not as a biological construct (66).
+Statistical analysis
+As the objective of these analyses was to evaluate the potential for effect measure modification of air pollutant–birth outcome associations by neighborhood deprivation, unstratified and NDI-stratified (low, medium, and high) models were run. The presence of effect measure modification was evaluated qualitatively by examining the separation of stratified effect estimates from the unstratified effect estimate. Confounders of interest were determined using a directed acyclic graph (DAG, Supplementary Figure S1) (67).
+Linear binomial regression models were used to estimate the prevalence differences (PDs) and 95% confidence intervals (CIs) for the association between ambient air pollution concentration and individual birth defect diagnoses for any birth defects and specific birth defect types. Any birth defect includes all diagnosed birth defect phenotypes and not just the specific phenotypes examined individually. The associations were estimated per 10,000 births for each individual air pollutant (PM2.5, NO2, and O3). Exposure contrasts for each pollutant were approximately 10% increases with values: 1 µg/m3 increase for PM2.5, 4 ppb increase in O3, and 7 ppb increase in NO2. Exposures were assigned as the average daily pollutant concentration across the first trimester (weeks 1–12). Models for birth defects were adjusted for birthing parent age at delivery (centered at age 26 with a quadratic term), race/ethnicity (white, non-Hispanic as reference), and education (>high school as reference).
+Modified Poisson regression models were used to estimate risk differences (RDs) and 95% CIs for air pollution and PTB. The associations were estimated per 10,000 births for each individual air pollutant (PM2.5, NO2, and O3), with approximately 10% increases as reported above. Exposures were assigned as the average daily pollutant concentration per each day, each gestational week, first and second trimester, and the entire pregnancy. We did not examine third trimester due to inconsistent exposure windows for PTBs. Models for PTB were adjusted for birthing parent race/ethnicity (white, non-Hispanic as reference), birthing parent age at delivery (centered at age 26 with a quadratic term), marital status (married as reference), Medicaid status (no as reference), education (>HS as reference), and month of conception (index variable as referent).
+Linear binomial regression models were fit for birth defects rather than modified Poisson regression models due to low count numbers of specific defects but were checked across model types where possible and produced identical results.
+Statistical analyses were performed using SAS (version 9.4; Cary, NC). All figures were created using R (version 4.1.0; Vienna, Austria; packages: ggplot2).
+Sensitivity analyses
+Due to the relatively low prevalence of birth defects in comparison to PTB, we were unable to adjust for the same number of covariates across models for birth defects and PTB. We conducted sensitivity analyses using linear binomial regression to estimate the PDs for the association between air pollution and birth defects stratified by NDI adjusting for marital status and month of conception in addition to the current adjustment set reported. Due to small cell counts, the convergence of these models was uncertain. For specific birth defects, (pulmonary valve atresia/stenosis, tetralogy of Fallot, atrioventricular septal defects, and lower limb reduction defects), sensitivity analyses were conducted using the exposure over weeks 3–8 only due to previous literature on sensitive windows for these outcomes (28, 36, 68). In addition, sensitivity analyses were conducted examining the interaction between NDI and air pollution, with both terms and an interaction term in the linear models. For interaction effects, we set an alpha level of 0.10.
+IRB approval/human subjects research approval
+This analysis was approved as minimal risk/existing data under the University of North Carolina (IRB) (09–0828). This study was also approved as observational research involving human subjects by the EPA's Human Subject's Research Review Official [HSRRO Project # F09-019CS].
+Results
+Descriptive information on this cohort and outcomes
+Overall, there were 566,799 live births eligible for our study of birth defects from 2011 to 2015. Among those, 17,691 (3.1%) had at least one birth defect, 479 (0.08%) had pulmonary valve atresia or stenosis, 245 (0.04%) had tetralogy of Fallot, 299 (0.05%) had atrioventricular septal defects, and 80 (0.01%) had a lower limb reduction defect. Among the 566,512 birthing parent–infant pairs included in the analysis on PTB (which excluded those with any birth defects), there were 46,289 (8.17%) PTB cases. The majority of the full population (55.81%) identified as white, non-Hispanic, 23.67% identified as Black, non-Hispanic, 15.04% as Hispanic, 3.92% as Asian/Pacific Islander, non-Hispanic, 1.31% as American Indian, non-Hispanic, and 0.25% as another race. Among this population, the majority (60.0%) had more than a high school diploma, 22.50% completed high school, and another 17.19% completed less than high school. About 55.38% of the people who gave birth in this population were on Medicaid at the time of birth and 41.03% were unmarried. Demographic characteristics by outcome are presented in Table 1.
+table 1
+Table 1 Descriptive information on cohort of births from 2011 to 2015 (N = 566,799).
+Exposure and modifier information
+Across North Carolina from 2011 to 2015, average daily PM2.5 exposure during trimester 1 ranged from 5.05 to 22.36 µg/m3 with an interquartile range (IQR) of 8.55–10.47 µg/m3. The average daily O3 exposure during trimester 1 ranged from 26.93 to 60.54 ppb with an IQR of 34.73–46.15 ppb. The daily average NO2 exposure across trimester 1 ranged from 0.32 to 41.73 ppb with an IQR of 9.63–17.53 ppb. The exposures did not differ substantially across trimester or neighborhood deprivation level (Tables 2,3). Neighborhood deprivation levels across the state ranged from −2.00 to 4.39 (Supplementary Figure S2) and the IQR for NDI was −0.63 to 0.65. The low NDI group ranged from −2.000 to −0.323, the medium NDI group ranged from −0.324 to 0.986, and the highest NDI group ranged from 0.987 to 4.390. The magnitude of pollutant exposure did not differ across NDI levels (Tables 2,3).
+table 2
+Table 2 Descriptive statistics for exposure to PM2.5 (μg/m3), O3 (ppb), NO2 (ppb) among preterm births stratified by NDI level.
+table 3
+Table 3 Descriptive statistics for exposure to PM2.5 (μg/m3), O3 (ppb), NO2 (ppb) among preterm births stratified by NDI level.
+Risk differences for preterm birth
+Associations between PM2.5 and PTB were generally negative among low and medium NDI strata across the entire pregnancy, but there were positive leaning associations for those residing in a high NDI; however, these generally had confidence intervals that overlapped with the null value of 1 (Figure 1 and Supplementary Table S1). Despite this, for the associations between PM2.5 and PTB, there was no statistical evidence of modification by NDI with confidence intervals overlapping.
+figure 1
+Figure 1 Risk differences (95% CI) for gestational exposure to PM2.5, O3, and NO2 and preterm birth per 10,000 births. Risk differences represent the absolute increase in number of preterm births per 10,000 associated with a 10% increase in the exposure of interest (PM2.5: 1 µg/m3; O3: 4 ppb; NO2: 7 ppb). Unstratified models were adjusted for birthing parent race/ethnicity (white, non-Hispanic as reference), birthing parent age at delivery (centered at age 26 with a quadratic term), marital status (married as reference), Medicaid status (no as reference), education (>HS as reference), and month of conception (index variable as referent). Models were further stratified by NDI levels at low (−2 to −0.323), medium (−0.324 to 0.986), high (0.987–4.39).
+Across time periods and NDI values, the relationship was generally insignificantly different from the null value of 1, across exposure windows. There was a negative association [RD: −9.32 (95% CI: −17.44 to −1.19)] between O3 and PTB in the second trimester in the adjusted model. There was no evidence of modification by NDI.
+We observed negative associations between NO2 and preterm birth for the entire pregnancy for the adjusted model [RD: −39.53 (95% CI: −50.77 to −28.28)], low NDI [RD: −42.78 (95% CI: −60.80 to −24.76)], and medium NDI [RD: −44.24 (95% CI: −61.79 to −26.68)], but a positive association was observed between NO2 and preterm birth for the entire pregnancy among those residing in a high NDI [RD: 34.70 (95% CI: 4.84–64.56)]. This pattern of association was similar for trimesters 1 and 2, with negative associations between NO2 and preterm birth for the adjusted models, low NDI, and medium NDI, and a positive association between NO2 and preterm birth for high NDI. When comparing across strata of the NDI, we see evidence of effect modification for NO2 by NDI level across all exposure windows.
+Prevalence differences for birth defects
+In general, across all pollutants examined, no evidence of association was observed between pollutants and birth defect prevalence, and associations did not differ across NDI levels or trimesters (Figure 2 and Supplementary Table S2).
+figure 2
+Figure 2 Prevalence difference (95% CI) for first trimester exposure to PM2.5, O3, and NO2 and selected birth defects per 10,000 births. Prevalence differences represent the absolute increase in the number of preterm births per 10,000 associated with a 10% increase in the exposure of interest (PM2.5: 1 µg/m3; O3: 4 ppb; NO2: 7 ppb). Unstratified models were adjusted for birthing parent age at delivery (centered at age 26 with a quadratic term), race/ethnicity (white, non-Hispanic as reference), and education (>HS as reference). Models were further stratified by NDI levels at low (−2 to −0.323), medium (−0.324 to 0.986), high (0.987–4.39).
+In the sensitivity analysis that additionally adjusted for month of conception and marital status, we observed associations that were not significantly different from the null value of 1 (Supplementary Table S3). When examining exposures across gestational weeks 3–8, only similar null associations were observed (Supplementary Table S4).
+Results for sensitivity analyses examining the interaction between NDI and air pollution for PTB and birth defects are shown in Supplementary Tables S5 and S6, respectively.
+Discussion
+Summary of results
+Overall, we did not observe any strong associations between PM2.5, O3 and NO2 with prevalence of birth defects in this cohort of singleton live births in North Carolina from 2011 to 2015 and stratifying by neighborhood deprivation level did not substantially alter these associations. In terms of preterm birth, associations with PM2.5 were generally negative. It is possible that areas with higher levels of PM2.5 are also areas with higher access to resources and high-quality healthcare leading to negative associations between PM2.5 and poor birth outcomes. Modest associations were observed between O3 exposure during trimester 3 and preterm birth for those in neighborhoods considered to be at medium and high levels of neighborhood deprivation. In earlier trimesters, negative associations were generally observed between O3 exposure and preterm birth. Across all trimesters, there was an increased risk of preterm birth associated with NO2 exposure for those in highly deprived neighborhoods.
+We evaluated air pollution exposures over trimesters of pregnancy. Previous studies have examined weeks and months of pregnancy as well (69, 70), though inconsistency in the exposure window associated with preterm birth is a noted uncertainty (32–34). For example, Krajewski et al. (70) reported an increased risk of PTB associated with PM2.5 and O3 exposure across gestational weeks and generally null effects for NO2. Alman et al. (69) observed elevated odds of preterm birth with PM2.5 exposure in months 3 and 4 as well as weeks 9–12, while Wang et al. reported increased hazard ratios for weeks 20–28 for PM2.5, 18–31 for NO2, and 23–31 for O3 (71). In general, the results of weekly, monthly, and trimester-specific average air pollutant exposure concentrations have yielded inconsistent associations with preterm birth, and no single exposure window has been identified as etiologically relevant.
+We expected to see higher prevalence differences or risk differences for air pollution and birth outcomes for more deprived neighborhoods, but we only saw this for the association between NO2 and preterm birth. Since the inception of the Clean Air Act and the National Ambient Air Quality Standards in the United States, criteria air pollutant levels have steadily decreased over time (72, 73). It is possible that the levels for the other pollutants in North Carolina from 2011 to 2015 do not vary enough across the state to observe an association or that they are generally lower due to air pollution controls that have been put in place and have reduced air pollution. It is also possible that other correlated exposures that may exist in high deprivation neighborhoods are interacting with air pollution to create a higher association between NO2 and preterm birth such as noise pollution or limited green space. These other harmful exposures may be correlated with neighborhood deprivation due to environmental injustices in lower income neighborhoods.
+Context with other literature
+There are few studies examining if neighborhood deprivation level modifies the association between air pollution and birth outcomes. In general, some studies have identified links between heightened exposure to air pollution and some specific birth defects and preterm birth during critical periods of pregnancy (59, 74–76); however, these studies are in places with higher levels of ambient air pollution than observed in North Carolina for this study period. Our results are consistent with another study that reported mostly null non-significant associations between air pollution and birth defects in North Carolina. A study similar to ours in New York City reported inverse associations between NO2 and birthweight in the most and least deprived neighborhoods indicating that the associations between NO2, neighborhood deprivation, and birth outcomes may be complicated (77). In addition, only a few studies have observed associations between neighborhood deprivation and the prevalence of birth defects overall, but one showed an association between increased neighborhood deprivation and higher prevalence of gastroschisis (50, 78). Some studies report positive associations with air pollution and preterm birth, especially with NO2 (79–81). Further research has identified that neighborhood deprivation is associated with increased preterm birth risk and one study demonstrated that neighborhood deprivation and urbanicity are associated with a higher risk, implying that there may be risks associated with the interaction between neighborhood deprivation and traffic-related air pollution (38, 64).
+Potential strengths and limitations
+There are some limitations that may affect these results and their generalizability. Air pollutant exposures and neighborhood deprivation were assigned to parent–infant dyads based on the census tract they resided in at the time of birth, which does not account for any movement during pregnancy prior to birth or general day-to-day movement in areas outside of the census tract in which individuals live. Movement may be differential by neighborhood deprivation if people residing in more deprived areas need to leave their neighborhoods more often to access resources during pregnancy. A limitation specific to our birth defects analysis is that we were limited in how many covariates we could adjust for and in our ability to examine interaction between co-exposure to high levels of NDI and air pollution due to small counts of more rare birth defects during the study period. In addition, owing to the use of birth certificate records, we do not have access to behavioral factors or conditions that might exacerbate risk of adverse outcomes. In addition, by using birth certificate records, we had to use proxy measures for some covariates, such as partner status is defined using marital status in the birth certificate data and people who are unmarried and live with their partner may be classified as unmarried. We used spatiotemporal models to predict air pollution concentrations averaged at the census tract level. While these models provide well-validated predictions for PM2.5, O3, and NO2, they are not available for other criteria or hazardous air pollutants. In addition, we used modeled output at the census tract level for each of the three criteria pollutants examined even though there is known variability in the spatial heterogeneity of these three criteria pollutants.
+Despite these limitations, there are several strengths of this study. By using this large North Carolina birth cohort, which includes all live births and registered birth defects identified through active case ascertainment, we were able to examine the associations for very rare birth defects. The use of modeled air pollution data allowed us to include all births for which the residence at delivery could be geocoded and linked with a census tract, including both urban and rural census tracts, regardless of the distance from a stationary monitor. The modeled air pollution data allowed us to predict daily concentrations and incorporated atmospheric conditions as part of the concentrations estimates.
+In addition, we were able to examine possible critical periods for preterm birth by assigning exposures across trimesters. Previous work examined weekly exposure averages to the same pollutants but did not identify a consistent week or weeks of exposure thought to be critical for preterm birth. Thus, we chose to evaluate trimesters of exposure to facilitate comparison with results of other studies of air pollution or NDI and birth outcomes. The etiology for, and timing of, insults for the different birth defect phenotypes examined in our analyses varies. The critical window of exposure for congenital heart defects and limb defects includes gestational weeks 2–8, while the critical window of exposure for gastroschisis is later, gestational weeks 7–12. For ease of interpretation and to facilitate comparison of results with our analyses as well as with other published results, we used the first trimester as the exposure window of interest for all birth defect phenotypes.
+Public health implications
+Overall, our study found a notable association between NO2 exposure and preterm birth, but we did not observe any strong associations for birth defects. This study examined modification by NDI and not the joint effect of neighborhood deprivation and air pollution, so further research measuring the joint effect of the two coexisting exposures would address this gap in data. In addition, this study was done in North Carolina where air pollution concentrations are relatively low. In general, our results support the public health protection afforded by EPA's National Ambient Air Quality Standards, even in areas of neighborhood deprivation. Future research conducted in areas with higher air pollution levels and evaluating the potential for modification by neighborhood deprivation level will be informative.
+Data availability statement
+The data analyzed in this study are subject to the following licenses/restrictions: data used in this study contain personally identifiable information and are not available without authorization from the NC Department of Health and Human Services. Requests to access these datasets should be directed to https://schs.dph.ncdhhs.gov/contacts.htm.
+Ethics statement
+The studies involving humans were approved by University of North Carolina at Chapel Hill Institutional Review Board. The studies were conducted in accordance with the local legislation and institutional requirements. Written informed consent for participation was not required from the participants or the participants’ legal guardians/next of kin in accordance with the national legislation and institutional requirements.
+Author contributions
+KC: Formal Analysis, Investigation, Methodology, Visualization, Writing – original draft, Writing – review & editing. AK: Formal Analysis, Methodology, Validation, Visualization, Writing – original draft. MJ: Data curation, Methodology, Writing – review & editing. TL: Data curation, Project administration, Writing – review & editing. LM: Methodology, Writing – review & editing. KR: Conceptualization, Methodology, Supervision, Writing – review & editing.
+Funding
+The authors declare that no financial support was received for the research, authorship, and/or publication of this article.
+Acknowledgments
+The authors acknowledge Adrien Wilkie and Sarah Haight for their review and comments, and Debora Andrews for quality assurance review.
+Conflict of interest
+The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+Publisher's note
+All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article, or claim that may be made by its manufacturer, is not guaranteed or endorsed by the publisher.
+Author disclaimer
+The views expressed in this article are those of the author(s) and do not necessarily represent the views or policies of the U.S. Environmental Protection Agency. Mention of trade names or commercial products does not constitute endorsement or recommendation for use. This research was supported, in part, by appointments to the Research Participation Program for the U.S. Environmental Protection Agency, Office of Research and Development, administered by the Oak Ridge Institute for Science and Education (ORISE) through an interagency agreement between the U.S. Department of Energy and Environmental Protection Agency.
+Supplementary material
+The Supplementary Material for this article can be found online at: https://www.frontiersin.org/articles/10.3389/frph.2024.1304749/full#supplementary-material
+References
+1. Centers for Disease Control and Prevention. Infant Mortality. (2022). Available online at: https://www.cdc.gov/reproductivehealth/maternalinfanthealth/infantmortality.htm#:∼:text=Causes%20of%20Infant%20Mortality,-Almost%2020%2C000%20infants &text=Birth%20defects.,Injuries%20(e.g.%2C%20suffocation) (Accessed July 21, 2023).
+2. Petrini J, Damus K, Russell R, Poschman K, Davidoff MJ, Mattison D. Contribution of birth defects to infant mortality in the United States. Teratology. (2002) 66(S1):S3–6. doi: 10.1002/tera.90002
+PubMed Abstract | Crossref Full Text | Google Scholar
+3. Callaghan WM, MacDorman MF, Rasmussen SA, Qin C, Lackritz EM. The contribution of preterm birth to infant mortality rates in the United States. Pediatrics. (2006) 118(4):1566–73. doi: 10.1542/peds.2006-0860
+PubMed Abstract | Crossref Full Text | Google Scholar
+4. Luu TM, Rehman Mian MO, Nuyt AM. Long-term impact of preterm birth: neurodevelopmental and physical health outcomes. Clin Perinatol. (2017) 44(2):305–14. doi: 10.1016/j.clp.2017.01.003
+PubMed Abstract | Crossref Full Text | Google Scholar
+5. Waitzman NJ, Jalali A, Grosse SD. Preterm birth lifetime costs in the United States in 2016: an update. Semin Perinatol. (2021) 45(3):151390. doi: 10.1016/j.semperi.2021.151390
+PubMed Abstract | Crossref Full Text | Google Scholar
+6. Decouflé P, Boyle CA, Paulozzi LJ, Lary JM. Increased risk for developmental disabilities in children who have major birth defects: a population-based study. Pediatrics. (2001) 108(3):728–34. doi: 10.1542/peds.108.3.728
+Crossref Full Text | Google Scholar
+7. Riehle-Colarusso T, Autry A, Razzaghi H, Boyle CA, Mahle WT, Van Naarden Braun K, et al. Congenital heart defects and receipt of special education services. Pediatrics. (2015) 136(3):496–504. doi: 10.1542/peds.2015-0259
+PubMed Abstract | Crossref Full Text | Google Scholar
+8. Hamrick SEG, Strickland MJ, Shapira SK, Autry A, Schendel D. Use of special education services among children with and without congenital gastrointestinal anomalies. Am J Intellect Dev Dis. (2010) 115(5):421–32. doi: 10.1352/1944-7558-115-5.421
+Crossref Full Text | Google Scholar
+9. Arth AC, Tinker SC, Simeone RM, Ailes EC, Cragan JD, Grosse SD. Inpatient hospitalization costs associated with birth defects among persons of all ages—United States, 2013. MMWR Morb Mortal Wkly Rep. (2017) 66(2):41–6. doi: 10.15585/mmwr.mm6602a1
+PubMed Abstract | Crossref Full Text | Google Scholar
+10. Centers for Disease Control and Prevention. Preterm Birth. (2022). Available online at: https://www.cdc.gov/reproductivehealth/maternalinfanthealth/pretermbirth.htm#:∼:text=Preterm%20birth%20is%20when%20a,2020%20to%2010.5%25%20in%202021 (Accessed July 21, 2023).
+11. Kirby RS. The prevalence of selected major birth defects in the United States. Semin Perinatol. (2017) 41(6):338–44. doi: 10.1053/j.semperi.2017.07.004
+PubMed Abstract | Crossref Full Text | Google Scholar
+12. Ekwo EE, Gosselink CA, Moawad A. Unfavorable outcome in penultimate pregnancy and premature rupture of membranes in successive pregnancy. Obstet Gynecol. (1992) 80(2):166–72.1635725
+PubMed Abstract | Google Scholar
+13. Koullali B, van Zijl MD, Kazemier BM, Oudijk MA, Mol BWJ, Pajkrt E, et al. The association between parity and spontaneous preterm birth: a population based study. BMC Pregnancy Childbirth. (2020) 20(1):233. doi: 10.1186/s12884-020-02940-w
+PubMed Abstract | Crossref Full Text | Google Scholar
+14. Soneji S, Beltrán-Sánchez H. Association of maternal cigarette smoking and smoking cessation with preterm birth. JAMA Netw Open. (2019) 2(4):e192514. doi: 10.1001/jamanetworkopen.2019.2514
+PubMed Abstract | Crossref Full Text | Google Scholar
+15. Harris BS, Bishop KC, Kemeny HR, Walker JS, Rhee E, Kuller JA. Risk factors for birth defects. Obstet Gynecol Surv. (2017) 72(2):123–35. doi: 10.1097/OGX.0000000000000405
+PubMed Abstract | Crossref Full Text | Google Scholar
+16. Coberly S, Lammer E, Alashari M. Retinoic acid embryopathy: case report and review of literature. Pediatr Pathol Lab Med. (1996) 16(5):823–36. doi: 10.1080/15513819609169308
+PubMed Abstract | Crossref Full Text | Google Scholar
+17. Dyląg KA, Anunziata F, Bandoli G, Chambers C. Birth defects associated with prenatal alcohol exposure—a review. Children (Basel). (2023) 10(5). doi: 10.3390/children10050811
+Crossref Full Text | Google Scholar
+18. Wu Y, Liu B, Sun Y, Du Y, Santillan MK, Santillan DA, et al. Association of maternal prepregnancy diabetes and gestational diabetes mellitus with congenital anomalies of the newborn. Diabetes Care. (2020) 43(12):2983–90. doi: 10.2337/dc20-0261
+PubMed Abstract | Crossref Full Text | Google Scholar
+19. Tinker SC, Gilboa SM, Moore CA, Waller DK, Simeone RM, Kim SY, et al. Specific birth defects in pregnancies of women with diabetes: national birth defects prevention study, 1997–2011. Am J Obstet Gynecol. (2020) 222(2):176.e1–11. doi: 10.1016/j.ajog.2019.08.028
+PubMed Abstract | Crossref Full Text | Google Scholar
+20. Burris HH, Baccarelli AA, Wright RO, Wright RJ. Epigenetics: linking social and environmental exposures to preterm birth. Pediatr Res. (2016) 79(1):136–40. doi: 10.1038/pr.2015.191
+PubMed Abstract | Crossref Full Text | Google Scholar
+21. Burris HH, Collins JW Jr, Wright RO. Racial/ethnic disparities in preterm birth: clues from environmental exposures. Curr Opin Pediatr. (2011) 23(2):227–32. doi: 10.1097/MOP.0b013e328344568f
+PubMed Abstract | Crossref Full Text | Google Scholar
+22. Padula AM, Huang H, Baer RJ, August LM, Jankowska MM, Jellife-Pawlowski LL, et al. Environmental pollution and social factors as contributors to preterm birth in Fresno county. Environ Health. (2018) 17(1):70. doi: 10.1186/s12940-018-0414-x
+PubMed Abstract | Crossref Full Text | Google Scholar
+23. Cushing L, Morello-Frosch R, Hubbard A. Extreme heat and its association with social disparities in the risk of spontaneous preterm birth. Paediatr Perinat Epidemiol. (2022) 36(1):13–22. doi: 10.1111/ppe.12834
+PubMed Abstract | Crossref Full Text | Google Scholar
+24. Son J-Y, Choi HM, Miranda ML, Bell ML. Exposure to heat during pregnancy and preterm birth in North Carolina: main effect and disparities by residential greenness, urbanicity, and socioeconomic status. Environ Res. (2022) 204:112315. doi: 10.1016/j.envres.2021.112315
+PubMed Abstract | Crossref Full Text | Google Scholar
+25. Runkle JD, Matthews JL, Sparks L, McNicholas L, Sugg MM. Racial and ethnic disparities in pregnancy complications and the protective role of greenspace: a retrospective birth cohort study. Sci Total Environ. (2022) 808:152145. doi: 10.1016/j.scitotenv.2021.152145
+PubMed Abstract | Crossref Full Text | Google Scholar
+26. Boyd R, McMullen H, Beqaj H, Kalfa D. Environmental exposures and congenital heart disease. Pediatrics. (2021) 149(1). doi: 10.1542/peds.2021-052151
+Crossref Full Text | Google Scholar
+27. Weber KA, Yang W, Carmichael SL, Collins RT, Luben TJ, Desrosiers TA, et al. Assessing associations between residential proximity to greenspace and birth defects in the national birth defects prevention study. Environ Res. (2023) 216:114760. doi: 10.1016/j.envres.2022.114760
+PubMed Abstract | Crossref Full Text | Google Scholar
+28. Choi G, Stingone JA, Desrosiers TA, Olshan AF, Nembhard WN, Shaw GM, et al. Maternal exposure to outdoor air pollution and congenital limb deficiencies in the national birth defects prevention study. Environ Res. (2019) 179:108716. doi: 10.1016/j.envres.2019.108716
+PubMed Abstract | Crossref Full Text | Google Scholar
+29. Haghighi MM, Wright CY, Ayer J, Urban MF, Pham MD, Boeckmann M, et al. Impacts of high environmental temperatures on congenital anomalies: a systematic review. Int J Environ Res Public Health. (2021) 18(9). doi: 10.3390/ijerph18094910
+Crossref Full Text | Google Scholar
+30. Hu C-Y, Huang K, Fang Y, Yang X-J, Ding K, Jiang W, et al. Maternal air pollution exposure and congenital heart defects in offspring: a systematic review and meta-analysis. Chemosphere. (2020) 253:126668. doi: 10.1016/j.chemosphere.2020.126668
+PubMed Abstract | Crossref Full Text | Google Scholar
+31. Lin S, Lin Z, Ou Y, Soim A, Shrestha S, Lu Y, et al. Maternal ambient heat exposure during early pregnancy in summer and spring and congenital heart defects—a large US population-based, case-control study. Environ Int. (2018) 118:211–21. doi: 10.1016/j.envint.2018.04.043
+PubMed Abstract | Crossref Full Text | Google Scholar
+32. U.S. Environmental Protection Agency (U.S. EPA). Integrated science assessment (ISA) for ozone and related photochemical oxidants. Final Report, April 2020. Washington, DC (2020).
+Google Scholar
+33. U.S. Environmental Protection Agency (U.S. EPA). Integrated science assessment (ISA) for oxides of nitrogen—health criteria. Final Report, January 2016. Washington, DC (2016).
+Google Scholar
+34. U.S. Environmental Protection Agency (U.S. EPA). Integrated science assessment (ISA) for particulate matter. Final Report, December 2019. Washington, DC (2019).
+Google Scholar
+35. Bekkar B, Pacheco S, Basu R, Denicola N. Association of air pollution and heat exposure with preterm birth. Low birth weight, and stillbirth in the US. JAMA Network Open. (2020) 3(6):e208243. doi: 10.1001/jamanetworkopen.2020.8243
+PubMed Abstract | Crossref Full Text | Google Scholar
+36. Stingone JA, Luben TJ, Daniels JL, Fuentes M, Richardson DB, Aylsworth AS, et al. Maternal exposure to criteria air pollutants and congenital heart defects in offspring: results from the national birth defects prevention study. Environ Health Perspect. (2014) 122(8):863–72. doi: 10.1289/ehp.1307289
+PubMed Abstract | Crossref Full Text | Google Scholar
+37. Schembari A, Nieuwenhuijsen MJ, Salvador J, de Nazelle A, Cirach M, Dadvand P, et al. Traffic-related air pollution and congenital anomalies in Barcelona. Environ Health Perspect. (2014) 122(3):317–23. doi: 10.1289/ehp.1306802
+PubMed Abstract | Crossref Full Text | Google Scholar
+38. Nyadanu SD, Dunne J, Tessema GA, Mullins B, Kumi-Boateng B, Lee Bell M, et al. Prenatal exposure to ambient air pollution and adverse birth outcomes: an umbrella review of 36 systematic reviews and meta-analyses. Environ Pollut. (2022) 306:119465. doi: 10.1016/j.envpol.2022.119465
+PubMed Abstract | Crossref Full Text | Google Scholar
+39. Blanc N, Liao J, Gilliland F, Zhang JJ, Berhane K, Huang G, et al. A systematic review of evidence for maternal preconception exposure to outdoor air pollution on children’s health. Environ Pollut. (2023) 318:120850. doi: 10.1016/j.envpol.2022.120850
+PubMed Abstract | Crossref Full Text | Google Scholar
+40. Hung TH, Chen PH, Tung TH, Hsu J, Hsu TY, Wan GH. Risks of preterm birth and low birth weight and maternal exposure to NO2/PM2.5 acquired by dichotomous evaluation: a systematic review and meta-analysis. Environ Sci Pollut Res. (2023) 30(4):9331–49. doi: 10.1007/s11356-022-24520-5
+Crossref Full Text | Google Scholar
+41. Jayajit C, Paul AZ. Children at risk: measuring racial/ethnic disparities in potential exposure to air pollution at school and home. J Epidemiol Community Health. (2007) 61(12):1074. doi: 10.1136/jech.2006.054130
+PubMed Abstract | Crossref Full Text | Google Scholar
+42. Hajat A, Hsia C, O’Neill MS. Socioeconomic disparities and air pollution exposure: a global review. Curr Environ Health Rep. (2015) 2(4):440–50. doi: 10.1007/s40572-015-0069-5
+PubMed Abstract | Crossref Full Text | Google Scholar
+43. Ash M, Boyce JK. Racial disparities in pollution exposure and employment at US industrial facilities. Proc Natl Acad Sci U S A. (2018) 115(42):10636–41. doi: 10.1073/pnas.1721640115
+PubMed Abstract | Crossref Full Text | Google Scholar
+44. Kucik JE, Alverson CJ, Gilboa SM, Correa A. Racial/ethnic variations in the prevalence of selected major birth defects, metropolitan Atlanta, 1994–2005. Public Health Rep. (2012) 127(1):52–61. doi: 10.1177/003335491212700106
+PubMed Abstract | Crossref Full Text | Google Scholar
+45. Yang Q, Chen H, Correa A, Devine O, Mathews TJ, Honein MA. Racial differences in infant mortality attributable to birth defects in the United States, 1989–2002. Birth Defects Res A Clin Mol Teratol. (2006) 76(10):706–13. doi: 10.1002/bdra.20308
+PubMed Abstract | Crossref Full Text | Google Scholar
+46. Braveman PA, Heck K, Egerter S, Marchi KS, Dominguez TP, Cubbin C, et al. The role of socioeconomic factors in black–white disparities in preterm birth. Am J Public Health. (2015) 105(4):694–702. doi: 10.2105/AJPH.2014.302008
+PubMed Abstract | Crossref Full Text | Google Scholar
+47. Thoma ME, Drew LB, Hirai AH, Kim TY, Fenelon A, Shenassa ED. Black-White disparities in preterm birth: geographic, social, and health determinants. Am J Prev Med. (2019) 57(5):675–86. doi: 10.1016/j.amepre.2019.07.007
+PubMed Abstract | Crossref Full Text | Google Scholar
+48. Phillips-Bell GS, Mohamoud YA, Kirby RS, Parks SE, Cozier YC, Shapiro-Mendoza CK. Neighborhood deprivation and privilege: an examination of racialized-economic segregation and preterm birth, Florida 2019. J Racial Ethn Health Disparities. (2023). doi: 10.1007/s40615-022-01498-x
+PubMed Abstract | Crossref Full Text | Google Scholar
+49. Klumper J, Ravelli ACJ, Roos C, Abu-Hanna A, Oudijk MA. Deprived neighborhoods and spontaneous preterm birth: a national cohort study. Eur J Obstet Gynecol Reprod Biol. (2022) 274:88–95. doi: 10.1016/j.ejogrb.2022.05.012
+PubMed Abstract | Crossref Full Text | Google Scholar
+50. Neo DT, Desrosiers TA, Martin CL, Carmichael SL, Gucsavas-Calikoglu M, Conway KM, et al. Neighborhood-level socioeconomic position during early pregnancy and risk of gastroschisis. Epidemiology. (2023) 34(4):576–88. doi: 10.1097/EDE.0000000000001621
+PubMed Abstract | Crossref Full Text | Google Scholar
+51. Eick SM, Cushing L, Goin DE, Padula AM, Andrade A, DeMicco E, et al. Neighborhood conditions and birth outcomes: understanding the role of perceived and extrinsic measures of neighborhood quality. Environ Epidemiol. (2022) 6(5):e224. doi: 10.1097/EE9.0000000000000224
+PubMed Abstract | Crossref Full Text | Google Scholar
+52. Bertens LCM, Burgos Ochoa L, Van Ourti T, Steegers EAP, Been JV. Persisting inequalities in birth outcomes related to neighbourhood deprivation. J Epidemiol Community Health. (2020) 74(3):232–9. doi: 10.1136/jech-2019-213162
+PubMed Abstract | Crossref Full Text | Google Scholar
+53. Fong KC, Yitshak-Sade M, Lane KJ, Fabian MP, Kloog I, Schwartz JD, et al. Racial disparities in associations between neighborhood demographic polarization and birth weight. Int J Environ Res Public Health. (2020) 17(9). doi: 10.3390/ijerph17093076
+Crossref Full Text | Google Scholar
+54. Burris HH, Hacker MR. Birth outcome racial disparities: a result of intersecting social and environmental factors. Semin Perinatol. (2017) 41(6):360–6. doi: 10.1053/j.semperi.2017.07.002
+PubMed Abstract | Crossref Full Text | Google Scholar
+55. Kramer MR, Hogue CR. What causes racial disparities in very preterm birth? A biosocial perspective. Epidemiol Rev. (2009) 31(1):84–98. doi: 10.1093/ajerev/mxp003
+PubMed Abstract | Crossref Full Text | Google Scholar
+56. North Carolina Department of Health and Human Services. Birth Defects Monitoring Program (2022). Available online at: https://schs.dph.ncdhhs.gov/units/bdmp/ (Accessed July 24, 2023).
+57. Gilboa SM, Mendola P, Olshan AF, Langlois PH, Savitz DA, Loomis D, et al. Relation between ambient air quality and selected birth defects, seven county study, Texas, 1997–2000. Am J Epidemiol. (2005) 162(3):238–52. doi: 10.1093/aje/kwi189
+PubMed Abstract | Crossref Full Text | Google Scholar
+58. Padula AM, Tager IB, Carmichael SL, Hammond SK, Yang W, Lurmann F, et al. Ambient air pollution and traffic exposures and congenital heart defects in the San Joaquin Valley of California. Paediatr Perinat Epidemiol. (2013) 27(4):329–39. doi: 10.1111/ppe.12055
+PubMed Abstract | Crossref Full Text | Google Scholar
+59. Girguis MS, Strickland MJ, Hu X, Liu Y, Bartell SM, Vieira VM. Maternal exposure to traffic-related air pollution and birth defects in Massachusetts. Environ Res. (2016) 146:1–9. doi: 10.1016/j.envres.2015.12.010
+PubMed Abstract | Crossref Full Text | Google Scholar
+60. Berrocal VJ, Gelfand AE, Holland DM. A bivariate space-time downscaler under space and time misalignment. Ann Appl Stat. (2010) 4(4):1942–75. doi: 10.1214/10-AOAS351
+PubMed Abstract | Crossref Full Text | Google Scholar
+61. Berrocal VJ, Gelfand AE, Holland DM. Space-time data fusion under error in computer model output: an application to modeling air quality. Biometrics. (2012) 68(3):837–48. doi: 10.1111/j.1541-0420.2011.01725.x
+PubMed Abstract | Crossref Full Text | Google Scholar
+62. Di Q, Kloog I, Koutrakis P, Lyapustin A, Wang Y, Schwartz J. Assessing PM2.5 exposures with high spatiotemporal resolution across the continental United States. Environ Sci Technol. (2016) 50(9):4712–21. doi: 10.1021/acs.est.5b06121
+PubMed Abstract | Crossref Full Text | Google Scholar
+63. Di Q, Amini H, Shi L, Kloog I, Silvern R, Kelly J, et al. An ensemble-based model of PM(2.5) concentration across the contiguous United States with high spatiotemporal resolution. Environ Int. (2019) 130:104909. doi: 10.1016/j.envint.2019.104909
+PubMed Abstract | Crossref Full Text | Google Scholar
+64. Messer LC, Laraia BA, Kaufman JS, Eyster J, Holzman C, Culhane J, et al. The development of a standardized neighborhood deprivation index. J Urban Health. (2006) 83(6):1041–62. doi: 10.1007/s11524-006-9094-x
+PubMed Abstract | Crossref Full Text | Google Scholar
+65. Anderberg MR. Cluster Analysis for Applications. New York: Academic Press (1973).
+Google Scholar
+66. Adkins-Jackson PB, Chantarat T, Bailey ZD, Ponce NA. Measuring structural racism: a guide for epidemiologists and other health researchers. Am J Epidemiol. (2022) 191(4):539–47. doi: 10.1093/aje/kwab239
+PubMed Abstract | Crossref Full Text | Google Scholar
+67. Greenland S, Pearl J, Robins JM. Causal diagrams for epidemiologic research. Epidemiology. (1999) 10(1):37–48. doi: 10.1097/00001648-199901000-00008
+PubMed Abstract | Crossref Full Text | Google Scholar
+68. Vinikoor-Imler LC, Davis JA, Meyer RE, Luben TJ. Early prenatal exposure to air pollution and its associations with birth defects in a state-wide birth cohort from North Carolina. Birth Defects Res A Clin Mol Teratol. (2013) 97(10):696–701. doi: 10.1002/bdra.23159
+PubMed Abstract | Crossref Full Text | Google Scholar
+69. Alman BL, Stingone JA, Yazdy M, Botto LD, Desrosiers TA, Pruitt S, et al. Associations between PM(2.5) and risk of preterm birth among liveborn infants. Ann Epidemiol. (2019) 39:46–53.e2. doi: 10.1016/j.annepidem.2019.09.008
+PubMed Abstract | Crossref Full Text | Google Scholar
+70. Krajewski AK, Luben TJ, Warren JL, Rappazzo KM. Associations between weekly gestational exposure of fine particulate matter, ozone, and nitrogen dioxide and preterm birth in a North Carolina birth cohort, 2003–2015. Environ Epidemiol. (2023) 7(6):e278. doi: 10.1097/EE9.0000000000000278
+PubMed Abstract | Crossref Full Text | Google Scholar
+71. Wang Q, Benmarhnia T, Zhang H, Knibbs LD, Sheridan P, Li C, et al. Identifying windows of susceptibility for maternal exposure to ambient air pollution and preterm birth. Environ Int. (2018) 121(Pt 1):317–24. doi: 10.1016/j.envint.2018.09.021
+PubMed Abstract | Crossref Full Text | Google Scholar
+72. Environmental Protection Agency (EPA). Our Nation’s Air (2019). Available online at: https://gispub.epa.gov/air/trendsreport/2019/#home (Accessed April 30, 2024).
+73. Environmental Protection Agency (EPA). Benefits and Costs of the Clean Air Act 1990–2020, the Second Prospective Study (2011).
+74. Ritz B, Yu F, Fruin S, Chapa G, Shaw GM, Harris JA. Ambient air pollution and risk of birth defects in Southern California. Am J Epidemiol. (2002) 155(1):17–25. doi: 10.1093/aje/155.1.17
+PubMed Abstract | Crossref Full Text | Google Scholar
+75. Xiong L, Xu Z, Wang H, Liu Z, Xie D, Wang A, et al. The association between ambient air pollution and birth defects in four cities in Hunan province, China, from 2014 to 2016. Medicine (Baltimore). (2019) 98(4):e14253. doi: 10.1097/MD.0000000000014253
+PubMed Abstract | Crossref Full Text | Google Scholar
+76. Qiu Z, Li W, Qiu Y, Chen Z, Yang F, Xu W, et al. Third trimester as the susceptibility window for maternal PM(2.5) exposure and preterm birth: a nationwide surveillance-based association study in China. Sci Total Environ. (2023) 880:163274. doi: 10.1016/j.scitotenv.2023.163274
+PubMed Abstract | Crossref Full Text | Google Scholar
+77. Shmool JL, Bobb JF, Ito K, Elston B, Savitz DA, Ross Z, et al. Area-level socioeconomic deprivation, nitrogen dioxide exposure, and term birth weight in New York city. Environ Res. (2015) 142:624–32. doi: 10.1016/j.envres.2015.08.019
+PubMed Abstract | Crossref Full Text | Google Scholar
+78. Deguen S, Kihal W, Jeanjean M, Padilla C, Zmirou-Navier D. Neighborhood deprivation and risk of congenital heart defects, neural tube defects and orofacial clefts: a systematic review and meta-analysis. PLoS One. (2016) 11(10):e0159039. doi: 10.1371/journal.pone.0159039
+PubMed Abstract | Crossref Full Text | Google Scholar
+79. Jones SI, Pruszynski JE, Spong CY, Nelson DB. Traffic-related air pollution is associated with spontaneous extremely preterm birth and other adverse perinatal outcomes. Am J Obstet Gynecol. (2023) 229(4):17–25. doi: 10.1016/j.ajog.2023.07.040
+Crossref Full Text | Google Scholar
+80. Stieb DM, Chen L, Eshoul M, Judek S. Ambient air pollution, birth weight and preterm birth: a systematic review and meta-analysis. Environ Res. (2012) 117:100–11. doi: 10.1016/j.envres.2012.05.007
+PubMed Abstract | Crossref Full Text | Google Scholar
+81. Yang L, Xie G, Yang W, Wang R, Zhang B, Xu M, et al. Short-term effects of air pollution exposure on the risk of preterm birth in Xi’an, China. Ann Med. (2023) 55(1):325–34. doi: 10.1080/07853890.2022.2163282
+PubMed Abstract | Crossref Full Text | Google Scholar
+Keywords: air pollution, birth outcomes, neighborhood deprivation, modification, preterm birth, birth defects
+Citation: Cowan KN, Krajewski AK, Jimenez MP, Luben TJ, Messer LC and Rappazzo KM (2024) Examining modification of the associations between air pollution and birth outcomes by neighborhood deprivation in a North Carolina birth cohort, 2011–2015. Front. Reprod. Health 6:1304749. doi: 10.3389/frph.2024.1304749
+Received: 29 September 2023; Accepted: 17 June 2024;
+Published: 11 July 2024.
+Edited by:
+Justin C. Konje, University of Leicester, United Kingdom
+Reviewed by:
+Anna-Sophie Rommel, Icahn School of Medicine at Mount Sinai, United States
+Laura Mitchell, University of Texas Health Science Center at Houston, United States
+© 2024 Cowan, Krajewski, Jimenez, Luben, Messer and Rappazzo. This is an open-access article distributed under the terms of the Creative Commons Attribution License (CC BY). The use, distribution or reproduction in other forums is permitted, provided the original author(s) and the copyright owner(s) are credited and that the original publication in this journal is cited, in accordance with accepted academic practice. No use, distribution or reproduction is permitted which does not comply with these terms.
+*Correspondence: Kristen M. Rappazzo, rappazzo.kristen@epa.gov
+Disclaimer: All claims expressed in this article are solely those of the authors and do not necessarily represent those of their affiliated organizations, or those of the publisher, the editors and the reviewers. Any product that may be evaluated in this article or claim that may be made by its manufacturer is not guaranteed or endorsed by the publisher.
+Footer
+Guidelines
+Author guidelines
+Editor guidelines
+Policies and publication ethics
+Fee policy
+Explore
+Articles
+Research Topics
+Journals
+Outreach
+Frontiers Forum
+Frontiers Policy Labs
+Frontiers for Young Minds
+Connect
+Help center
+Emails and alerts
+Contact us
+Submit
+Career opportunities
+Follow us
+© 2024 Frontiers Media S.A. All rights reserved
+Privacy policy | Terms and conditions
+We use cookies
+Our website uses cookies that are essential for its operation and additional cookies to track performance, or to improve and personalize our services. To manage your cookie preferences, please click Cookie Settings. For more information on how we use cookies, please see ourCookie Policy
+Cookies Settings
+Reject non-essential cookies
+Accept cookies

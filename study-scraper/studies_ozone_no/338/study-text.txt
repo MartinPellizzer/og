@@ -1,0 +1,211 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Loading [MathJax]/jax/output/HTML-CSS/fonts/Gyre-Pagella/Size3/Regular/Main.js
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Energies
+All Article Types
+Advanced
+  Journals Energies Volume 17 Issue 13 10.3390/en17133173
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editors
+Junhao Li
+Xutao Han
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+336
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Fluid Dynamics Theory
+Numerical Model
+Results and Discussion
+Conclusions
+Author Contributions
+Funding
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+Abbreviations
+Appendix A. Validation of CFD Model Using Stator Bar Experiments
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Localization of Partial Discharges in Hydrogenerators by Ozone Emission
+by Victor Dmitriev
+1, Rodrigo M. S. de Oliveira
+1,*, Licinius D. S. de Alcantara
+2 and Gustavo G. Girotto
+1
+1
+Instituto de Tecnologia (ITEC), Federal University of Pará (UFPA), Rua Augusto Correa n° 01, Belem 66075-110, Brazil
+2
+Instituto Ciberespacial (ICIBE), Federal Rural University of Amazon (UFRA), Avenida Presidente Tancredo Neves, n∘ 2501, Belem 66077-830, Brazil
+*
+Author to whom correspondence should be addressed.
+Energies 2024, 17(13), 3173; https://doi.org/10.3390/en17133173
+Submission received: 20 May 2024 / Revised: 12 June 2024 / Accepted: 17 June 2024 / Published: 27 June 2024
+(This article belongs to the Special Issue Advanced Technologies in Partial Discharge Detection and Fault Diagnosis)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+We suggest a new method of localization of partial discharges in high-power electrical systems. Ozone in a hydrogenerator is produced by chemical reactions induced by partial discharges in the stator region. The transport of ozone in an operating hydrogenerator is analyzed using a computational fluid dynamics model. The main aim of this work is to evaluate the ozone distribution in the generator radiators. Ozone sources are introduced into the stator model in different positions to analyze their effect on the measured values at the sensing points of radiators. Our results demonstrate a possibility of localization of partial discharges in hydrogenerator stator bars by ozone emission.
+Keywords: hydrogenerator; ozone distribution; sensors; computational fluid dynamics; localization of partial discharges
+1. Introduction
+Power outages caused by hydrogenerator failures are costly and disruptive. Predictive maintenance based on online partial discharge (PD) testing has emerged as a powerful tool to avoid failures. Researchers focused on PD levels as an indicator of insulation weakness in hydrogenerators. PDs occur when high voltage stresses create tiny sparks within the insulation, indicating potential problems. PDs are provoked by various issues: poor impregnation, faulty coatings, inadequate coil spacing, loose windings, overheating, contamination, and even foreign objects like screws [1].
+Monitoring PDs has become a common method for assessing generator health. When assessing insulation conditions in the equipment, like stator windings, technical staff often use offline PD measurements during testing [2]. The International Electrotechnical Commission (IEC) recommends using low frequencies (below 3 MHz) for the electrical tests due to the electrical properties of the windings, since they act like capacitors and inductors [3]. However, high-frequency components of the PD signal can weaken depending on where the sensor is placed relative to the PD source. This means that using a wider range of frequencies for detection leads to a more accurate identification of PD activity, as confirmed by several studies [4,5].
+Online PD testing offers several advantages since real-time data can be acquired continuously during normal operation [6]. It allows analysis and diagnostics during operation to identify issues early and plan corrective actions to minimize downtime [7]. Proactive maintenance also prevents unexpected failures, reducing the risk of unscheduled outages.
+However, it is important to mention that PD tests are not immune to errors and imprecision. Their primary role is to alert operators about potential problems, identify the cause, and isolate the issue [8].
+Partial discharges within hydrogenerators manifest through various phenomena, including electromagnetic (EM) and acoustic emissions, along with chemical reactions like ozone formation. However, for practical measurement, electrical methods dominate the field. In the most common and straightforward approach, capacitive couplers [9] are used, but alternative solutions are directional couplers [10,11,12] and antennas [13].
+Accurately pinpointing the location of PDs within a hydrogenerator from their electromagnetic emissions presents a significant challenge. This difficulty exists in an individual bar and aggravates in groups of bars. The complexity stems from the excitation of high-frequency EM waves by PD events, which propagate within the bar’s insulation and diffract in conductive parts and bar ends. Furthermore, EM waves radiate from the bar into the surrounding air and reflect from neighboring structures, creating numerous electromagnetic couplings [13]. As a consequence, sensors register intricate transient electromagnetic signals (voltages and currents) that necessitate sophisticated analysis for PD localization.
+The presence of ozone within air-cooled generators and motors serves as a strong indicator of partial discharge activity [14]. Studies suggest that deterioration of semiconductive coatings is the primary culprit for ozone generation. However, the rate of ozone formation is influenced by numerous variables and may not always offer a reliable assessment of the state’s health. While the direct correlation with total PDs might not exist, ozone concentrations can provide valuable insights into specific types of surface PDs, including slot discharges, corona at coating junctions, and PDs between coils or connections. Therefore, monitoring ozone becomes a valuable tool for predictive maintenance.
+A significant challenge in using ozone for PD localization lies in ventilation. Airflow significantly impacts concentrations, as demonstrated by a laboratory experiment where ozone levels dropped dramatically with increased airflow [15]. This imposes some limitations on the absolute ozone level measurements.
+Air velocity, temperature, and voltage are all likely to play a role, with the specific impact depending on the specific operating conditions of the hydrogenerator. In [16], a developed ozone prediction model based on the mechanism of ozone generation in a corona discharge region shows that ozone concentration decays as the air velocity increases. This occurs because the gas velocity becomes the main factor in governing the ozone transport characteristics. At even higher air velocities, the gas with diluted ozone will experience increased turbulence. This turbulence can enhance the mixing of the ozone with the surrounding air, leading to faster diffusion and a wider distribution of the ozone. For example, large-scale climate patterns like El Niño Southern Oscillation (ENSO) can significantly impact the ozone in the atmosphere. El Niño events are linked to a decrease in ozone concentration specifically within the lower-middle stratosphere [17].
+Higher temperatures generally increase the kinetic energy of gas molecules, including ozone. This increased energy leads to more frequent collisions between molecules, promoting faster diffusion [18,19]. An hydrogenerator operating at a higher voltage may lead to the production of more partial discharges and ozone molecules. However, the impact on diffusion is less straightforward. The increased energy imparted to the gas and the local increase of temperature [20] during the discharge process could promote diffusion.
+Combining ozone data with PD levels, machine load, voltage, and temperature leads to a more comprehensive diagnostic panorama. For instance, rising PD levels with stable ozone concentrations could suggest internal insulation PD. Furthermore, ozone measurements can complement traditional PD tests, particularly in high humidity conditions where surface PDs through capacitive couplers become less detectable [21].
+Typical ozone concentrations in generators range from dozens to hundreds of ppb (parts per billion). Therefore, initial measurements should utilize equipment with high precision in this range. The measurement range of various ozone sensors using different techniques for measurement was reported in [22]. Portable devices often rely on optical sensors with wide dynamic ranges. However, if electrochemical sensors are chosen, establishing a baseline measurement beforehand is crucial to selecting the sensor with the most appropriate range.
+While the importance of ozone monitoring in hydrogenerators for detecting partial discharges is well-established, the definition of the sensor positions remains open. This lack of guidance poses challenges for accurate and reliable diagnostics, potentially hindering effective maintenance and insulation condition assessment. Therefore, investigation of the influence of the sensor position on ozone concentration measurements and PD detection accuracy is a relevant subject of scientific research. Using computational fluid dynamic (CFD) modeling of a hydrogenerator in operation, this work aims to analyze the influence of the positions of the internal sources of ozone produced by PDs on the detection of ozone concentrations at the radiator outlets. This allows one to associate distinct insulation defects in the generator with ozone concentration measurements.
+2. Materials and Methods
+Figure 1a is a photo of a typical hydrogenerator. Our structure model for the following analysis is presented in Figure 1b. The structure was created by the COMSOL Multiphysics 5.5 software using as a base a generating unit from the Brazilian Campos Novos hydroelectric plant.
+Figure 1. (a) Photo of a real hydrogenerator [23] where the rotor is removed for maintenance; (b) the model with rotor created in this work.
+The hydrogenerator stator winding is made up of 378 coil-type bars with an interior made of copper and an external surface with a semiconductor coating layer. The bars have dimensions of 672.7 mm × 3.961 m, and their details are shown in Figure 2. The material of the floor and walls of the generator were modeled using concrete. The floor has an octagonal shape with edges measuring 5.385 m, and the walls are 4.20 m high. The radiators have dimensions of 1.72 m × 4.20 m. They are made of copper, and their grid structure was approximated by a surface as defined in [24].
+Figure 2. Model of the hydrogenerator bars. (a) Several bars positioned in the stator, (b) a single bar and its dimensions.
+The air directors guide the air flow from the rotor to the radiators. These elements are made of stainless steel and have a wedge-like shape with side dimensions of 1.615 m, an external side at a radius of 5.468 m, and a height of 4.20 m. The stator core is made up of 47.2 mm thick sections of stainless steel sheets with a spacing between the sections for ventilation of 15 mm. Its total height is 2.658 m, and it has an external radius of 4.180 m and an internal radius of 3.820 m. To accommodate the stator bars, the structure has grooves measuring 128 mm × 33.3 mm and teeth measuring 128 mm × 30.2 mm. Finally, the rotor was modeled by a cylinder with a radius of 3.8075 m, a height of 3.3418 m, and an external surface with epoxy resin coating.
+3. Fluid Dynamics Theory
+3.1. Basic Equations and Boundary Conditions
+Viscous incompressible fluids flow as described in the steady-state Navier-Stokes equations [25] of conservation of momentum given by
+( u → m · ∇ ) u → m = − 1 ρ 0 ∇ p + ν ∇ 2 u → m + a → ,
+(1)
+∇ · u → m = 0 ,
+(2)
+where ∇ is the vetorial operator ∇ = def ( ∂ / ∂ x , ∂ / ∂ y , ∂ / ∂ z )
+, u → m = ( u , v , w )
+is the flow speed in m/s, and u , v
+, and w are the components of the velocity vector; p is the scalar pressure field in Pa, ρ 0
+is the fluid density in kg/m3, ν
+is the kinematic viscosity of the fluid in m2/s, and a →
+is the gravitational acceleration in m/s2.
+On rigid surfaces, walls are considered impermeable and non-slippery. Therefore, the following boundary conditions can be used:
+u n = 0 ,
+(3)
+and
+u t = 0 ,
+(4)
+where the subscripts n and t indicate, respectively, the components of u → m
+normal and tangential to a considered solid surface. Equation (3) guarantees impermeability, and (4) ensures that the obstacle is not slippery.
+The mass conservation law [25] for a chemical species i in the steady state is given by
+∇ · J → i + u → m · ∇ c i = R i ,
+(5)
+and
+J → i = − D i ∇ c i ,
+(6)
+where c i
+is the species concentration given in mol/m2, J → i
+is the diffusion flux vector given in mol/(m2s), u → m
+is the average mass velocity given in m/s, R i
+is the reaction rate for the species given in mol/(m3s), and D i
+is

@@ -1,0 +1,153 @@
+Search within
+Login / Register
+Plasma Processes and Polymers
+RESEARCH ARTICLE
+Open Access
+Selective productions of reactive species in dielectric barrier discharge by controlling dual duty cycle
+Jun S. Lim, 
+Kirubel A. Admasu, 
+Eun H. Choi
+First published: 04 July 2024 https://doi.org/10.1002/ppap.202400098
+SECTIONS
+PDF
+TOOLS
+SHARE
+Abstract
+This study analyzes the selective productions of nitrogen oxides and ozone in dielectric barrier discharge due to temperature controlled by the dual duty cycle. In this work, we varied the dual duty cycle of the output voltage in the power supply, which alternatively generates distinguished high and low-temperature modes for selective productions of nitrogen oxides and ozone. The alternating nitric oxide and ozone by dual duty cycle were measured at a maximum of 100 ppm and 100 ppm in the gas phase, respectively. In the evaluation of DI water treated by dual duty cycle, nitrogen oxides, and ozone have been observed simultaneously in the liquid phase. These results offer new insights into the selective production of temperature-dependent chemical characteristics for advanced plasma applications.
+1 INTRODUCTION
+Atmospheric pressure air plasma contributes to the generation of chemical species such as hydroxyl radical (OH), ozone (O3), nitric oxide (NO), and nitrogen dioxide (NO2) mainly due to the high probability of collision with nitrogen (N2) and oxygen (O2) molecules at atmospheric pressure.[1, 2] Hence, it is widely used in diverse industries such as medical, environment, agricultural, and semiconductor processes where specific reactive species are required. For instance, in environmental usage, O3 or OH production is necessary for water purification.[3, 4] In contrast, an appropriate density of NO is necessary for medical inhalation therapy.[5, 6] In particular, NO plays a pivotal role in disease resistance through immunity in plants.[7, 8] Further, nitrate (NO3−) holds high significance for plant seed germination and growth.[9] Thus, from the aforementioned studies, it can be inferred that the simultaneous presence of NO and NO3− in water could be synergetic to the growth of the immune system in plants.[7-9]
+As a result, there has been active research on establishing ways to control the selective production of reactive oxygen and nitrogen species in the atmospheric pressure dielectric barrier discharge (DBD). Park and Kim studied the chemical kinetics of reactive species based on the temperature in the DBD and the competitive formation of reactive oxygen and nitrogen species.[10, 11] Malik et al. studied nitrogen oxides (NOx) and O3 production using temperature variation with voltage and input energy.[12] Lu et al. studied the effects of gas flow, dielectric material, and electrodes with nitrogen and oxygen molecules in the air to understand the homogeneous mode and filamentary mode transition in the DBD.[13] T. Homola studied ozone generation with a gas flow rate in the DBD.[14] Reuter, Ito, and Schmidt-Bleker elucidated the control of plasma-induced RONS production in both gas and liquid phases by employing various shielding gases around the plasma effluent.[15-17] Hawtof et al. utilized multiple gas environments and purging techniques for the selective production of nitrogen oxides.[18] Hensel et al. also explored a variety of discharge conditions, including water electrodes, water electrospray, indirect plasma irradiation, and plasma jet systems, to adjust the ratio of reactive oxygen species (ROS) and reactive nitrogen species (RNS).[19] Uchida et al. reported that changing the plasma irradiation distance away from the liquid surface can alter the concentration ratio of ROS to RNS in the target liquid.[20] Lamichhane et al. utilized variable jet lengths for the selective production of ROS and RNS.[21]
+These studies show that the temperature, feeding gas, distance, and input energy using external resources could control the reactive species in the plasma. However, simultaneous production of NO and NO3 with O3 is difficult, mainly because NO has often been produced at the high temperature of plasma, and NO3 and O3 are produced at low temperatures due to their temperature-dependent rate coefficient.[22]
+Here, we studied physicochemical characteristics under a dual duty cycle for alternated temperature control at the surface dielectric barrier discharge (SDBD) source by temperature-dependent production of chemical species in two distinct temperature regions. The duty so-called pulse modulation is already used in the DBD operation to control the temperature or production of reactive species.[23-27] The duty consists of on-time duration with sinusoidal voltage bunch and off-time without voltage bunch.[26, 28] This duty maintains a limited temperature during plasma discharge and allows temperature control by specific duty.[24] In this work, we employed a dual duty cycle to allow alternating between two distinct temperature regions of plasma. The higher duty cycle can first lead to a temperature increase, and the alternated lower duty cycle can lead to a temperature decrease, which could result in a change in the chemical characteristics without external resources. In this report, we found the surface temperatures of SDBD for the beginning of production in O3, NO, NO2, and N2O5 in the single duty cycle. Based on the measured surface temperature of SDBD under the single duty cycle, we designed the dual duty cycle of output voltage in the power supply for the alternated reactive species productions. The reactive species productions of SDBD by single and dual duty cycles have been analyzed by gas-FTIR with temperature evolution. Further, we performed the evaluations of NO, NO2−, NO3−, and O3 in the plasma-activated water for the production of specific reactive species for treatment using one plasma source.
+2 EXPERIMENTAL SETUP
+In this work, we used SDBD. The dielectric material substrate based on the 45 mm width, 25 mm length, and 0.5 mm thickness of SiO2 has been used for the SDBD. The copper electrodes for 48 discharge cells were patterned on the inside of the dielectric material substrate, as shown in Figure 1. The dry air (19% oxygen-balanced nitrogen gas) was used as feeding gas for SDBD operation at a rate of 3.0 L/min. The quartz tube is used as a reactor chamber 200 mm long, which possesses inner and outer diameters of 30 and 32 mm, respectively. The two ports are installed on the chamber for the input of dry air gas and an output connected with the liquid reservoir and gas-FTIR with control valves.
+Figure 1
+Open in figure viewer
+PowerPoint
+Schematic of the experimental setup with a photograph of the reactor.
+The SDBD was operated using an inverter which used input DC voltage and outputs an AC high voltage according to a peak voltage of 5.7 kV with 30-kHz sinusoidal wave. To control the time length of the voltage bunch from the inverter, the duty cycle of the applied voltage was adopted, which is expressed as follows:
+Duty = on − time ( ms ) on − time ( ms ) + off − time ( ms ) × 100 ( % ) ,
+(1)
+where the on-time is the time during which plasma is on, and the off-time is the time during which plasma is off.[25] The voltage and current signals of SDBD are measured using a high-voltage probe (P6015A, Tektronix) and pickup probe (P6021A, Tektronix), as shown in Figure 1, respectively. The measured voltage and current signal are recorded as a function of time using an oscilloscope (DSOX3104T, Keysight). The gas FTIR (Matrix-MG5 gas analyzer, Bruker) is connected to the outlet of the quartz reactor chamber to evaluate the O3 and NOx generation from SDBD. The temperature on the SDBD surface is measured using a thermometer probe on the SDBD surface versus time (FOT lab kit, Luxton). The relative NO concentration in the liquid is measured using NO microsensor (USNO-100, Unisense) for liquids. The NO2− and NO3− concentrations in the liquid are measured using the UV absorbance method[29] with a spectropolarimeter (J-815, JASCO). The O3 concentration in the liquid is measured using an ozone meter (DOZ30, Clean instrument).
+3 RESULTS AND DISCUSSIONS
+3.1 Electrical characteristics of SDBD with single and dual duty cycles
+The electrical characteristics of SDBD for voltage and current curve versus time are displayed in Figure 2. The waveforms consist of on-time and off-time voltage signals. Each on-time signal has a sinusoidal wave packet of voltage for discharge, and an off-time signal has a non-operation time with no voltage for cooling, as shown in Figure 2a,b. The measured root mean square (RMS) voltage and current were 3.8 kV and 37 mA within a period in Figure 2a, respectively. The used single duty cycle with fixed 5 ms of on-time in this work is summarized in Table 1.
+Figure 2
+Open in figure viewer
+PowerPoint
+Voltage and current curve versus time of surface dielectric barrier discharge (SDBD), (a) voltage (black line) and discharge current (red line) curve in the voltage wave packet, (b) voltage form for single duty cycle of 12.5%, (c) voltage form of dual duty cycle with 1st duty cycle (black line) and 2nd duty cycle (blue line).
+Table 1. Selected values for duty cycle (%) for tailoring the production of NOx and O3.
+Duty (%) On-time (ms) Off-time (ms) Duty (%) On-time (ms) Off-time (ms)
+50.0 5 5 12.5 5 35
+25.0 5 15 10.0 5 45
+16.7 5 25 8.3 5 55
+The voltage waveform under the single duty cycle of 12.5% is displayed in Figure 2b. The dual duty cycle consists of alternative operations by 1st and 2nd duty cycles with a given duration time for each other, as shown in Figure 2c. In this work, the 1st duty cycle used only 50% with 1 min duration time, and the 2nd duty cycle used 25%, 16.7%, 12.5%, 10%, and 8.3% conditions with a given duration time, respectively. These alternated 1st and 2nd duty cycles are continuously repeated with a given duration time, respectively. Each on-time and off-time duty value of 1st and 2nd duty cycles have been followed in Table 1.
+The electrical dissipated power (P) is calculated using the following equation [25, 30]:
+P = ( duty cycle ) × 1 T ∫ 0 T v ( t ) i ( t ) dt [ W ] ,
+(2)
+where T is the period of voltage, and v(t) and i(t) are the recorded voltage and current signals, respectively. In the dual duty cycle, the reduced duty cycle between 1st and 2nd duty cycle is calculated using the following expression for dissipated power calculation as shown in Table 2.
+R educed duty cycle = 1 st duty cycle × D 1 + 2 nd duty cycle × D 2 D 1 + D 2 ( % ) ,
+(3)
+where D1 and D2 are the duration time of 1st duty cycle and 2nd duty cycle, respectively. In the calculation of the dissipated power of the dual duty cycle, reduced duty has been used as a duty cycle in Equation (2). The dissipated power calculated linearly increased with single and dual duty cycles by Equation (2), as shown in Figure 3.
+Table 2. Reduced duty cycle calculation table of dual duty cycle.
+(%) 1 Min duration of 2nd duty cycle
+1st duty cycle (on-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms)
+2nd duty cycle (on-time: 5 ms) 25.0 (off-time: 15 ms) 16.7 (off-time: 15 ms) 12.5 (off-time: 15 ms) 10.0 (off-time: 15 ms) 8.3 (off-time: 15 ms)
+Reduced duty cycle 37.5 33.4 31.3 30.0 29.2
+(%) 2 Min duration of 2nd duty cycle
+1st duty cycle (on-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms)
+2nd duty cycle (on-time: 5 ms) 25.0 (off-time: 15 ms) 16.7 (off-time: 15 ms) 12.5 (off-time: 15 ms) 10.0 (off-time: 15 ms) 8.3(off-time: 15 ms)
+Reduced duty cycle 33.3 27.8 25.0 23.3 22.2
+Figure 3
+Open in figure viewer
+PowerPoint
+Dissipated power with single duty cycle (black-circle), dual duty cycle with 1 min duration time of 2nd duty cycle (red-triangle), and dual duty cycle with 2 min duration time of 2nd duty cycle (blue-star) versus single duty cycle and reduced duty cycle for dual duty cycle (the reduced duty cycle of dual duty cycle has been used as a duty cycle in x-axis).
+3.2 NOx and O3 characteristics with the temperature of SDBD surface in the gas phase by single and dual duty cycles
+3.2.1 Chemical characteristics in the single duty cycle
+The time-resolved temperature on the SDBD surface with a given single duty cycle is measured until 5 min, as shown in Figure 4a. The measured time-resolved temperature shows a rapid increase during the initial 1 min, and it is then saturated at all given duty cycles. The oscillation of temperature value has been observed, but it was caused by the fluctuation noise of the probe on the SDBD by gas flow, not the plasma effect. The time-averaged temperature is calculated during the first to fifth minute after SDBD operation, as shown in Figure 4b. The measured time-averaged temperature exhibits a linear increase of 6°C per duty cycle. This effect is caused by the ratio of on-time for heat accumulation and off-time for cooling effect in the duty cycle, respectively.
+Figure 4
+Open in figure viewer
+PowerPoint
+Temperature variation in the single duty cycle. (a) Temperature on the surface dielectric barrier discharge (SDBD) surface with duty cycle versus time, (b) Time-averaged temperature with duty cycle.
+The temperature changes according to a single duty cycle not only change the amount of chemical species formation but lead to a difference in the rate coefficient of the chemical species. According to the temperature-dependent rate coefficients of chemical reactions in Table 3, the sequential transformation of NO to NO2, NO3, and N2O5 is enhanced as temperature decreases. The O3 is enhanced at low temperatures due to production and consumption reactions, as shown in reactions R2–R4. Consequently, NOx and O3 are strongly coupled with temperature-dependent reactions, and temperature control may provide the desired species production.
+Table 3. Temperature-dependent chemical reaction list in the gas phase.
+No. Reaction Rate coefficient (cm3/s or cm6/s) Reference
+R1 N + O 2 → NO + O k 1 = 1.5 × 10 − 14 T g exp ⁡ ( − 3270 / T g ) [31]
+R2 O + O 2 + M → O 3 + M k 2 = 5.6 × 10 − 34 ( T g / 300 ) − 2.8 [32]
+R3 O 3 + NO → N O 2 + O 2 k 3 = 1.8 × 10 − 12 exp ⁡ ( − 1370 / T g ) [32]
+R4 O 3 + N O 2 → N O 3 + O 2 k 4 = 1.2 × 10 − 13 exp ⁡ ( − 2450 / T g ) [33]
+R5 O + NO + M → N O 2 + M k 5 = 1.0 × 10 − 31 ( T g / 300 ) − 1.6 [32]
+R6 O + N O 2 + M → N O 3 + M k 6 = 1.31 × 10 − 31 ( 298 / T g ) 1.5 [34]
+R7 N O 2 + N O 3 + M → N 2 O 5 + M k 7 = 3.7 × 10 − 30 exp ( 300 / T g ) 4.1 [34]
+Note: M is the N2 or O2.
+The productions of chemical species that were measured by gas FTIR are compared with those measured according to temperature evolution with a single duty cycle of 50%, 25%, 16.7%, 12.5%, 10%, and 8.3% are shown in Figure 5. The absolute values were automatically calculated by inbuild OPUS GA software and spectrum library in gas-FTIR. Among these, a single duty cycle of 50% well explains the chemical species productions according to temperature evolution in Figure 5a. It was observed that the production of O3 increased from the beginning of SDBD operation to a temperature of 100°C and then rapidly decreased. After the beginning of O3 production, the N2O5 production was detected to rise at the temperature of 60°C and began to decrease at 150°C. Simultaneous, NO2 production was detected at 150°C. The NO production was detected to rise at 170°C, and simultaneously, NO2 production was saturated. These temperature-dependent productions of reactive species were observed within all the given single duty cycles at the corresponding temperature. At a single duty cycle lower than 25%, the maximum surface temperature of DBD is less than 150°C, as shown in Figure 5c–f, which is lower than the measured temperature of NO and NO2 productions. Therefore, the SDBD operations with a single duty cycle below 25% show that NO and NO2 productions were not observed in the FTIR measurement, and O3 and N2O5 productions were sustained, as shown in Figure 5c–f. According to the chemical reaction listed in Table 3, the NO first transformed to NO2 and then transformed to NO3, which appears in the formation of N2O5 as the temperature decreases. In contrast, at temperatures greater than 170°C, NO is sustained and no longer transformed to NO2, and thus, there is NO3 and N2O5 production, as shown in Figure 5a,b. Consequently, the production of reactive species occurred sequentially depending on the temperature. Especially, NO with NO2 and N2O5 with O3 did not coexist for a long time, and they were exclusively produced depending on the temperature, respectively.
+Figure 5
+Open in figure viewer
+PowerPoint
+Temperature and reactive species productions versus time with single duty cycle, (a) single duty cycle of 50%, (b) single duty cycle of 25%, (c) single duty cycle of 16.7%, (d) single duty cycle of 12.5%, (e) single duty cycle of 10%, and (f) single duty cycle of 8.3%.
+3.2.2 Chemical characteristics in the dual duty cycle
+For the production of reactive species for high and low temperatures, we used the aforementioned dual duty cycle for alternated production. For productions of NO and NO2, we used 50% for the 1st duty cycle during 1 min to increase the temperature, and we alternately used the 2nd duty cycle during the given duration to decrease the temperature for O3 and N2O5 productions, respectively. Figure 6 shows the relationship between the temperature versus time under the dual duty cycle. In the condition of 1 min duration for the 2nd duty cycle in Figure 6a, the temperature increased up to 300°C within the 1st duty cycle duration time and then decreased during the 2nd duty cycle duration time. For the lower 2nd duty cycle, the cooling rate has been increased, and the temperature could be lowered. However, the duration time of 1 min for the given 2nd duty cycle is not a lower enough temperature to reach 100°C, which is the production temperature of O3 and N2O5, as shown in Figure 5. To decrease the temperature below 100°C in the 2nd duty cycle duration time, we increased the duration time of the 2nd duty cycle to 2 min to expand the longer cooldown time, as shown in Figure 6b. Among these, less than 12.5% of the 2nd duty cycle reached 100°C. For the production of N2O5 and O3 species by alternated temperature effect, we chose the 2 min duration time of the 2nd duty cycle for the dual duty cycle.
+Figure 6
+Open in figure viewer
+PowerPoint
+Temperature measurement versus time with dual duty cycle. (all conditions have a fixed 1 min duration time of 1st duty cycle with 50%), (a) Temperature variation versus time with 1 min duration time of the 2nd duty cycle and (b) Temperature variation versus time with 2 min duration time of the 2nd duty cycle.
+The production of chemical species of SDBD with dual duty cycle set to 1 min for the 1st duty cycle and 2 min for the 2nd duty cycle versus time according to gas FTIR are shown in Figure 7. The productions of NO, NO2, N2O5, and O3 have been alternately produced by temperature variation for the given duty except for 25% of the 2nd duty cycle. The NO and NO2 are produced during the 1st duty cycle duration time for high temperature, and O3 and N2O5 have been alternatively produced during the 2nd duty cycle duration time for low temperature, as shown in Figure 7. In the initial 1st duty cycle region for all given conditions, chemical species were sequentially produced as O3, N2O5, NO2, and NO depending on the temperature. Here, we found different chemical dynamics between the temperature falling and rising regions.
+Figure 7
+Open in figure viewer
+PowerPoint
+NO, NO2, N2O5, and O3 productions with temperature versus time in the dual duty cycle for the fixed 1st duty cycle of 50%, (a) 2nd duty cycle of 50%, (b) 2nd duty cycle of 25%, (c) 2nd duty cycle of 16.7%, (d) 2nd duty cycle of 12.5%, (e) 2nd duty cycle of 10%, and (f) 2nd duty cycle of 8.3% (red and blue boxes represent the duration of the2nd duty cycle and the 1st duty cycle duration, respectively).
+In the temperature falling region for the 2nd duty cycle duration of the red box in Figure 8b–e, except for Figure 8a, NO2 slightly increased and suddenly decreased in the temperature range of 190°C–180°C. This instantaneous increase and decrease in NO2 coincides with the formations of N2O5 and O3, as shown in Figure 7b. This further shows that the NO2 formation from NO enhanced in the 190–180°C region as the temperature decreased, and it then transformed to N2O5 at a temperature below 180°C.
+Figure 8
+Open in figure viewer
+PowerPoint
+NO (relative), NO2−, NO3−, and O3 concentrations in 10 min surface dielectric barrier discharge (SDBD) treated DI water. (a, b) Treated by single duty cycle versus duty. (c, d) Treated by dual duty cycle versus the 2nd duty cycle (1st duty cycle fixed at 50% and 2 min of duration for the 2nd duty cycle).
+In the temperature rising region for the 1st duty cycle duration in the blue box in Figure 7c–e, N2O5 production instantaneously enhanced in the temperature range of 120–170°C. For a short period of time, both NO2 and O3 coexist in the above region. Furthermore, according to the N2O5 detection, NO3 also coexists. Thus, this further accelerates reactions R4, R6, and R7 for N2O5 formation. This phenomenon has also been reported to synthesize N2O5 by mixing two types of plasma sources of O3 and NOx production, respectively.[35-37] Then, N2O5 and NO2 decreased as the temperature increased. It shows that the formation of NO2 and NO3 for the subsequent N2O5 formation according to reactions R3, R4, and R6 is reduced due to the depletion of O3 and the increase in temperature. These differences in N2O5 enhancement stem from the presence of O3 as a precursor. In the initial time of temperature rising of the repeated 1st duty cycle, the presence of O3 could rapidly react with increasing NO2 for NO3 production according to reaction R4, consequently temporarily enhancing the N2O5 formation as shown in Figure 7c–e. In contrast, in the temperature falling time with no initial O3, N2O5 gradually increases with O3 for R3 and R4.
+In Figure 7a, where the 2nd duty cycle is 50%, the NO2 formation was instantaneously saturated at the 2nd duty region when the temperature decreased in the red box region. The instantaneous saturation of NO2 production with suppressed NO production according to the decreasing temperature could be attributed to the transformation of NO2 to NO3 by reaction R6. A similar phenomenon is shown in Figure 7b–e; NO2 instantaneously increased when the initial temperature decreased in the region of the red box. After that, N2O5 started to increase. It might be the transient region of NO3 formation before transforming to N2O5.
+It is noted that in Figure 7b–e, although the temperature did not reach 100°C, the O3 and N2O5 were produced at approximately 170°C and increased to 125°C. These differences in temperature at the beginning for O3 and N2O5 productions between Figures 5 and 7 are correlated to the difference in cooling time due to the heat capacity between the real plasma gas temperature and SDBD surface material.
+3.3 Characteristics in the liquid phase
+The evaluation of NO, NO2−, NO3−, and O3 in the SDBD-treated DI water is shown in Figure 8. It should be noted that NO concentrations, as shown in Figure 8b,d are the relative concentrations. The absolute values of NO2− and NO3− have been measured by the absorption spectrum calibrated by NaNO2 and NaNO3 solutions, respectively (see Supporting Information S1).[29] Here, 50 mL DI water was treated by SDBD with single and dual duty cycles for 10 min. In Figure 8a, for the O3 concentrations observed below 25% single duty cycle, there was no significant difference for different duties. Below 50% single duty cycle, NO3− is dominant, and there are different pathways to produce from the gas phase to the water, according to the following reactions.[38-40]
+2 N O 2 + H 2 O → N O 3 − + H + + HN O 2 ,
+(R8)
+N 2 O 5 + H 2 O → 2 HN O 3 → 2 H + + N O 3 − ,
+(R9)
+N 2 O 5 + H 2 O → 2 HN O 3 → 2 H + + N O 3 − ,
+(R10)
+In the 25% single duty cycle, the NO2 is dominant in the gas phase, and the NO3− production in the DI water could be transformed according to the reaction R8. Further, the gas phase of NO3 is directly transformed according to reaction R10. Below 25% of the single duty cycle, the O3 and N2O5 are dominant in the gas phase, and NO3− could be transformed according to reaction R9. Below 25% of the single duty cycle, the NO2− and NO3− decreased according to the decrease in the single duty cycle. According to these results, the NO3− transformation under the water is more effective from N2O5 than NO2. In Figure 8b, for the chemical species in the DI water treated by a single duty cycle, the relative NO concentration in the treated DI water was detected for the single duty cycle of 50% and 25%. The detected NO originates from the gas phase, as shown in Figure 5a,b.
+In Figure 8c, for the chemical species in the DI water according to dual duty cycle, NO2−, and NO3− are detected in the given all 2nd duty cycle. The measured relative NO concentration decreases with the 2nd duty cycle, as shown in Figure 8d. This occurs due to the reaction R3, given that the remaining O3 in the DI water at the boundary of the 1st and 2nd duty cycle could affect the NO. The NO3− slightly increased as the 2nd duty cycle decreased. This may be attributed to the increase in N2O5 in the gas phase for reaction R9. In particular, N2O5 was not detected at 25% of the 2nd duty cycle in the gas phase, but the amount of NO3− was measured in the treated DI water. In this case, NO2 has been continuously maintained, and we assumed that NO3 is produced due to the NO2 dynamics, as shown in Figure 7a. Thus, NO3− is mainly produced from reactions R8 and R10.
+4 CONCLUSION
+In this work, we studied the selective productions of NOx and O3 productions by dual duty cycle in SDBD. We measured the surface temperature of SDBD according to a single duty cycle, and we showed that we can control the surface temperature range of 60–300°C. Within this temperature range, we found that O3 and N2O5 are produced at the temperature ranges of 30–100°C and 60–150°C, respectively. The NO and NO2 productions begin at temperatures higher than 170°C and 150°C, respectively. Even though the temperature was measured in the DBD solid surface, it well defined the NOx and O3 generation timing with temperature and was enough to show characteristics of plasma reactive species with temperature. From these results, we designed the dual duty cycle of output voltage in the power supply for alternated temperatures for different chemical species. In the dual duty cycle, NO with NO2 and N2O5 with O3 are alternatively produced according to temperature variation. Further, different chemical dynamics were observed according to the rise and fall in temperature due to the presence of O3 as a precursor to N2O5 enhancement. In the evaluation of DI water treatment by SDBD with single and dual duty cycles, the NO, NO2−, NO3−, and O3 in the liquid phase are measured according to the given duty. In the single duty cycle, exclusive chemical species for NO or NO3− in the DI water are measured. In the dual duty cycle, the NO and NO3− coexist. Thus, it can be inferred that the dual duty cycle enables hybrid treatment of the sample with alternated high and low temperatures of plasma. This dual duty cycle is applicable to the temperature-dependent chemical species, and it offers new insights into temperature-dependent chemical characteristics for advanced plasma applications.
+ACKNOWLEDGMENTS
+This research was supported by the Basic Science Research Program through the National Research Foundation of Korea (NRF), which was funded by 2022R1I1A1A01054752 from the Ministry of Education, in part by NRF-2021R1A6A1A03038785, and also partially by Kwangwoon University, Seoul, Korea, 2023.
+CONFLICT OF INTEREST STATEMENT
+The authors declare no conflict of interest.
+Open Research
+Supporting Information
+REFERENCES
+Early View
+Online Version of Record before inclusion in an issue
+e2400098
+Figures
+References
+Related
+Information
+Download PDF
+Additional links
+ABOUT WILEY ONLINE LIBRARY
+Privacy Policy
+Terms of Use
+About Cookies
+Manage Cookies
+Accessibility
+Wiley Research DE&I Statement and Publishing Policies
+Developing World Access
+HELP & SUPPORT
+Contact Us
+Training and Support
+DMCA & Reporting Piracy
+OPPORTUNITIES
+Subscription Agents
+Advertisers & Corporate Partners
+CONNECT WITH WILEY
+The Wiley Network
+Wiley Press Room
+Copyright © 1999-2024 John Wiley & Sons, Inc or related companies. All rights reserved, including rights for text and data mining and training of artificial intelligence technologies or similar technologies.

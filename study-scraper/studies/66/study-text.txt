@@ -1,0 +1,161 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (32)
+Environmental Research
+Volume 260
+, 1 November 2024, 119608
+Air pollution and acute kidney injury with comorbid disease: A nationwide case-crossover study in South Korea
+Author links open overlay panel
+Jieun Min a b
+,
+Whanhee Lee c
+,
+Duk-Hee Kang d
+,
+Seoyeong Ahn c
+,
+Ayoung Kim e
+,
+Cinoo Kang e
+,
+Jongmin Oh a f g
+,
+Hyemin Jang e
+,
+Chor Ho Jo h
+,
+Jieun Oh e
+,
+Jinah Park e
+,
+Jeongmin Moon e
+,
+Sooyoung Kim c
+,
+Jungsil Lee a f
+,
+Minho Kim i
+,
+Youngrin Kwag a
+,
+Eunhee Ha a b f
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.envres.2024.119608
+Get rights and content
+Highlights
+•
+We studied the association between air pollution and incident AKI with comorbidity.
+•
+The risk of AKI associated with PM2.5 was prominent with cardiovascular disease.
+•
+It was also evident with gastrointestinal bleeding and pneumonia.
+•
+The risk of AKI associated with O3 was prominent with ischemic heart disease.
+•
+The comorbidity-specific risk of AKI due to air pollution varied by sex and age.
+Abstract
+Emerging evidence suggests that air pollution is a significant contributor to the global burden of kidney disease. Although acute kidney injury (AKI) is a common secondary event in ill patients, evidence regarding the association between air pollution and AKI accompanied by specific comorbidities is limited. This study aimed to estimate the association between short-term exposure to air pollution (fine particulate matter ≤2.5 μm [PM2.5] and ozone [O3]) and incident AKI by comorbid diseases using the Korea National Health Information Database (NHID). Total of 160,390 incident AKI cases, defined as an emergency department (ED) visit due to AKI, were observed within the period 2015–2021 in inland South Korea. A time-stratified case-crossover design was applied for PM2.5 and O3 individually, using a conditional logistic regression model within each case and its own control (three or four days of the same day of the week in the same month) to estimate the association between short-term air pollution exposure and ED visits due to AKI. Short-term exposure to PM2.5 and O3 was associated with ED visits due to AKI with ORs of 1.008 (95% confidence interval [CI]: 0.999, 1.017) and 1.019 (95% CI: 1.005, 1.033) for an interquartile range (IQR) increase in lag 0–1 day PM2.5 and O3 respectively, although OR for PM2.5 was marginally significant. The odds of incident AKI associated with PM2.5 was evident in conjunction with ischemic heart disease, cerebrovascular disease, gastrointestinal bleeding, and pneumonia. For O3, the estimated odds was prominent for AKI with ischemic heart disease. In addition, the comorbid disease-specific odds of AKI attributed to air pollution varied by sex and age. Our findings provide epidemiological evidence of a plausible mechanism between air pollution and incident AKI and suggest the need for personalized AKI prevention strategies attributed to air pollution.
+Graphical abstract
+Download: Download high-res image (304KB)
+Download: Download full-size image
+Introduction
+Acute kidney injury (AKI) is a clinical syndrome characterized by a sudden decline in kidney function within hours or days (Kellum et al., 2021). An episode of AKI is not only related to acute adverse outcomes, such as electrolyte and acid-base imbalances and immune dysfunction, but also has chronic impact on the kidneys leading to chronic kidney disease (CKD) or end-stage renal disease (ESRD) by inducing irreversible loss in nephrons (Hoste et al., 2018). Certain medical conditions significantly increase AKI risk, with its incidence exceeding 50% among intensive care unit (ICU) patients (Xu et al., 2023). As 5% of ICU patients with severe AKI need renal replacement therapy, coupled with the progression to CKD, the socioeconomic burden of AKI may be significantly greater than previously recognized (Farooqi and Dickhout, 2016; Hoste et al., 2018). Moreover, an increased prevalence of chronic diseases with the aging population is expected to further contribute to the increasing risk of AKI (Kellum et al., 2021).
+Emerging evidence suggests that air pollution is a significant contributor to the global burden of kidney disease. The kidneys are particularly vulnerable to environmental pollutants because nearly one-fifth of the cardiac output of blood flows through the kidneys, where it undergoes filtration and potential concentration of environmental toxins (Xu et al., 2018). Concentrated toxins promote oxidative stress, an increase in cytokines, and DNA damage to the kidney tissue (Al-Aly and Bowe, 2020; Miller et al., 2017). Recent epidemiological studies have reported that ambient fine particulate matter ≤2.5 μm in aerodynamic diameter (PM2.5) and ozone (O3) are associated with an increased risk of incident AKI, CKD progression, and ESRD (Bowe et al., 2018; Chu et al., 2023; Lee et al., 2022), although studies regarding AKI are lacking compared to other kidney diseases.
+AKI often occurs concomitantly with other diseases. Comorbid diseases that predispose patients to AKI include sepsis, ischemia, gastroenteritis, liver disease, urinary tract obstruction, diabetes mellitus, and pneumonia, which are also known to be associated with air pollution exposure (Farooqi and Dickhout, 2016; Hystad et al., 2020; Singbartl and Kellum, 2012; Wang et al., 2021; Wei et al., 2019). Air pollutants might indirectly affect AKI through development or deterioration of these diseases or may directly cause AKI via a decline in kidney function (Hsu et al., 2023). Previous studies on AKI and air pollution rarely considered comorbid diseases. Recognizing the comorbidities of AKI associated with air pollution will help to prevent AKI and suggest AKI pathogenesis related to air pollution.
+Therefore, this study aimed to investigate the association between short-term exposure to air pollution (PM2.5 and O3) and incident AKI by comorbid diseases using the Korea National Health Information Database (NHID), which includes the entire population of South Korea. In addition, we examined whether comorbid disease-specific associations differ by sex and age to provide personalized suggestion on AKI prevention.
+Section snippets
+Study population and design
+This study used the Korean NHID, 2015–2021. The NHID, developed by the National Health Insurance Service (NHIS), is a nationwide claim-based database on health care utilization for the entire population of South Korea (Cheol Seong et al., 2017). Data on health care utilization consists of one record per hospital visit, including the start date of medical care, primary and additional diagnostic codes (International Classification of Diseases 10th Revision, ICD-10), medical care classification
+Results
+A total of 160,390 ED visits due to AKI were observed from 2015 to 2021 in inland South Korea and the prevalent comorbid diseases were gastroenteritis (N = 10,151) and urinary tract infection (N = 8,353) (Table 1). The number of ED visits due to AKI before and after the COVID-19 outbreak is presented in Supplementary Material 1. Table S2 and the number of comorbid diseases stratified by sex and age is described in Supplementary Material 1. Table S3. The incidence of ED visits due to AKI
+Discussion
+This study examined the association between short-term exposure to air pollution (PM2.5 and O3) and incident AKI and identified which comorbid diseases elevated the risk of AKI associated with air pollution using a nationwide claim-based health insurance database covering the entire population of South Korea from 2015 to 2021. Increased exposure to short-term air pollution was associated with increased odds of ED visits due to AKI. The odds associated with PM2.5 were prominent when AKI occurred
+Conclusions
+In conclusion, we found that increased exposure to short-term PM2.5 and O3 was associated with increased odds of an ED visit due to AKI and the odds was pronounced in AKI co-occurring with ischemic heart disease, cerebrovascular disease, gastrointestinal bleeding, and pneumonia in South Korea. To the best of our knowledge, this is the first study to examine the comorbid diseases of AKI associated with short-term exposure to air pollution. Our findings provide epidemiological evidence on
+CRediT authorship contribution statement
+Jieun Min: Writing – original draft, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Whanhee Lee: Writing – original draft, Methodology, Data curation, Conceptualization. Duk-Hee Kang: Writing – review & editing, Investigation, Conceptualization. Seoyeong Ahn: Writing – original draft, Data curation. Ayoung Kim: Writing – original draft, Data curation. Cinoo Kang: Writing – review & editing, Methodology, Data curation. Jongmin Oh: Writing – review & editing,
+Declaration of competing interest
+The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:Youngrin Kwag, Eunhee Ha reports financial support was provided by Korea Ministry of Science and ICT. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT, Ministry of Science and ICT) (No. 2022R1A2C2092353). This study was also supported as a trainee of the environmental health training program which was provided by the Environmental Health Centre of the Catholic University of Korea, funded by the Ministry of Environment, Republic of Korea (2023).
+References (32)
+L. Chu
+Associations between short-term exposure to PM(2.5), NO(2) and O(3) pollution and kidney-related conditions and the role of temperature-adjustment specification: a case-crossover study in New York state
+Environ Pollut
+(2023)
+P. Hystad
+Associations of outdoor fine particulate air pollution and cardiovascular disease in 157 436 individuals from 21 high-income, middle-income, and low-income countries (PURE): a prospective cohort study
+Lancet Planet. Health
+(2020)
+R. Murugan
+Acute kidney injury in non-severe pneumonia is associated with an increased immune response and lower survival
+Kidney Int.
+(2010)
+J. Park
+Association of long-term exposure to air pollution with chronic sleep deprivation in South Korea: a community-level longitudinal study, 2008-2018
+Environ. Res.
+(2023)
+K. Singbartl et al.
+AKI in the ICU: definition, epidemiology, risk stratification, and outcomes
+Kidney Int.
+(2012)
+L. Tian
+Association between emergency admission for peptic ulcer bleeding and air pollution: a case-crossover analysis in Hong Kong's elderly population
+Lancet Planet. Health
+(2017)
+M.E. Vlasschaert
+Validity of administrative database coding for kidney disease: a systematic review
+Am. J. Kidney Dis.
+(2011)
+Z. Al-Aly et al.
+Air pollution and kidney disease
+Clin. J. Am. Soc. Nephrol.
+(2020)
+B. Bowe
+Particulate matter air pollution and the risk of incident CKD and progression to ESRD
+J. Am. Soc. Nephrol.
+(2018)
+S. Cheol Seong
+Data Resource Profile: the national health information database of the national health insurance Service in South Korea
+Int. J. Epidemiol.
+(2017)
+View more references
+Cited by (0)
+View full text
+© 2024 Published by Elsevier Inc.
+Recommended articles
+Biomethanisation of sewage sludge: Sonication pretreatment and monitoring of microbial communities
+Environmental Technology & Innovation, Volume 36, 2024, Article 103750
+M. Ángeles Martín, …, José Ángel Siles
+Environmental effects of waste electrical and electronic equipment valorization in burkina faso
+Environmental Advances, Volume 17, 2024, Article 100559
+Wendyam Assumpta Missa SAWADOGO, Tibi Didier ZOUNGRANA
+Water quality management in a tropical karstic system influenced by land use in Chiapas, Mexico
+Environmental Challenges, 2024, Article 100981
+Mazari-Hiriart Marisa, …, Díaz-Vázquez Diego
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

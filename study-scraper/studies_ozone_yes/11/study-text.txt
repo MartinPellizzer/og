@@ -1,0 +1,45 @@
+Atmospheric Measurement Techniques
+ARTICLES & PREPRINTS
+SUBMISSION
+POLICIES
+PEER REVIEW
+EDITORIAL BOARD
+ABOUT
+EGU PUBLICATIONS
+  Preprint  
+Preprints
+Preprint amt-2024-114
+
+https://doi.org/10.5194/amt-2024-114
+© Author(s) 2024. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Abstract
+Discussion
+Metrics
+15 Jul 2024
+Status: this preprint is currently under review for the journal AMT.
+Maximizing the Use of Pandora Data for Scientific Applications
+Prajjwal Rawat, James H. Crawford, Katherine R. Travis, Laura M. Judd, Mary Angelique G. Demetillo, Lukas C. Valin, James J. Szykman, Andrew Whitehill, Eric Baumann, and Thomas F. Hanisco
+Abstract. As part of the Pandonia Global Network (PGN), Pandora spectrometers are widely deployed around the world. These ground-based, remote-sensing instruments are federated such that they employ a common algorithm and data protocol for reporting on trace gas column densities and lower atmospheric profiles using two modes based on direct-sun and sky-scan observations. To aid users in the analysis of Pandora observations, the PGN standard quality assurance procedure assigns flags to the data indicating high, medium, and low quality. This work assesses the suitability of these data quality flags for filtering data in the scientific analysis of nitrogen dioxide (NO2) and formaldehyde (HCHO), two critical precursors controlling tropospheric ozone production. Pandora data flagged as high quality assures scientifically valid data and is often more abundant for direct-sun NO2 columns. For direct-sun HCHO and sky-scan observations of both molecules, large amounts of data flagged as low quality also appear to be valid. Upon closer inspection of the data, independent uncertainty is shown to be a better indicator of data quality than the standard quality flags. After applying an independent uncertainty filter, Pandora data flagged as medium or low quality in both modes can be demonstrated to be scientifically useful. Demonstrating the utility of this filtering method is enabled by correlating contemporaneous but independent direct-sun and sky-scan observations. When evaluated across 15 Pandora sites in North America, this new filtering method increased the availability of scientifically useful data by as much as 90 % above that tagged as high quality. A method is also developed for combining the direct-sun and sky-scan observations into a single dataset by accounting for biases between the two observing modes and differences in measurement integration times. This combined data provides a more continuous record useful for interpreting Pandora observations against other independent variables such as hourly observations of surface ozone. When Pandora HCHO columns are correlated with surface ozone measurements, data filtered by independent uncertainty exhibits similarly strong and more robust relationships than high-quality data alone. These results suggest that Pandora data users should carefully assess data across all quality flags and consider their potential for useful application to scientific analysis. The present study provides a method for maximizing use of Pandora data with expectation of more robust satellite validation and comparisons with ground-based observations in support of air quality studies.
+How to cite. Rawat, P., Crawford, J. H., Travis, K. R., Judd, L. M., Demetillo, M. A. G., Valin, L. C., Szykman, J. J., Whitehill, A., Baumann, E., and Hanisco, T. F.: Maximizing the Use of Pandora Data for Scientific Applications, Atmos. Meas. Tech. Discuss. [preprint], https://doi.org/10.5194/amt-2024-114, in review, 2024.
+Received: 01 Jul 2024 – Discussion started: 15 Jul 2024
+Publisher's note: Copernicus Publications remains neutral with regard to jurisdictional claims made in the text, published maps, institutional affiliations, or any other geographical representation in this preprint. The responsibility to include appropriate place names lies with the authors.
+
+Download
+Preprint (12151 KB)
+Metadata XML
+Supplement (1650 KB)
+BibTeX
+EndNote
+Short summary
+The Pandonia Global Network (PGN) consists of Pandora spectrometers that observe trace gases at...
+Read more
+Share
+Atmospheric Measurement Techniques
+An interactive open-access journal of the European Geosciences Union
+All site content, except where otherwise noted, is licensed under the Creative Commons Attribution 4.0 License.
+Contact
+|
+Imprint
+|
+Data protection

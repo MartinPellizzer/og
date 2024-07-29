@@ -1,0 +1,291 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Pure and Applied Geophysics Article
+Characteristics of the Tropical Tropopause over Chennai (13.0° N, 80.06° E) in the Northeast Monsoon Region
+Published: 17 June 2024
+Volume 181, pages 2243–2264, (2024)
+Cite this article
+Pure and Applied Geophysics
+Aims and scope
+Submit manuscript
+Purushotham Pooja, Sanjay Kumar Mehta, Sachin Philip Kakkanattu, K. B. Betsy, C. J. Seetha & P. P. Musaid 
+71 Accesses
+Explore all metrics
+Abstract
+Knowledge of the tracer characteristics, such as water vapor and ozone in the tropical tropopause layer (TTL), is vital in quantifying the radiation budget and critical to understanding the exchange processes between the troposphere and stratosphere. In this study, we have characterized the tropical tropopause parameters such as the cold point tropopause (CPT) height (CPT-H) and temperature (CPT-T), convective tropopause (COT) height (COT-H) and temperature (COT-T), and the tropical tropopause layer (TTL) using radiosonde observations during 2014–2019 over Chennai (13.0° N, 80.06° E) located in the northeast (NE) monsoon region. The water vapor and ozone data from the microwave limb sounder (MLS) simultaneous to the radiosonde observations are also utilized to understand their roles on the CPT variations for different convective conditions obtained from Infrared brightness temperature (IRBT) data. CPT over Chennai becomes higher (17.6 ± 0.3 km) and colder (189.7 ± 0.9 K) during the winter season and lower (16.6 ± 0.2 km) and warmer (192.1 ± 1.0 K) during the summer monsoon season, however, not in the same month. The water vapor (CPT-W) and ozone (CPT-O) mixing ratios at CPT are found to be lower (~ 70 ± 1.4 ppmv and 3.1 ± 0.4 ppmv) during the winter season and higher (153 ± 4.2 ppbv and 4.8 ± 0.6 ppmv) during summer monsoon season. COT, however, becomes lower (12.4 ± 0.3 km) and higher (13.3 ± 0.3 km) during pre-monsoon and summer monsoon seasons, respectively. The TTL thickness is lesser (3.5 ± 0.6 km) during the winter and greater (4.8 ± 0.8 km) during the summer monsoon seasons. Over Chennai, the seasonal variation of the upper troposphere and lower stratospheric temperature, water vapor, and ozone anomalies are in phase. We have categorized tropical convections as non-penetrative and penetrative using IRBT data. It is observed that the TTL temperature warms with the increasing strength of the non-penetrative convections and cools for the penetrative convection.
+This is a preview of subscription content, log in via an institution to check access.
+
+Similar content being viewed by others
+Analysing Seasonal Variations in the Tropical Tropopause and the Impact of Deep Convection on the Tropopause Structure Over a High-Altitude Station in the Western Ghats
+Article 21 January 2022
+Extreme variability of the tropical tropopause over the Indian monsoon region
+Article 30 March 2022
+ENSO signatures observed in tropical tropopause layer parameters using long-term COSMIC RO data
+Article 30 July 2020
+Data Availability and Software
+The radiosonde data used in this study can be downloaded from https://weather.uwyo.edu/upperair/sounding.html. Aura-MLS and IRBT data are obtained from the NASA GES DISC website https://disc.gsfc.nasa.gov/datasets. The entire study is analysed using Matlab software.
+References
+Akhil Raj, S. T., Venkat Ratnam, M., Narayana Rao, D., & Krishna Murthy, B. V. (2018). Long-term trends in stratospheric ozone, temperature, and water vapor over the Indian region. Paper presented at the Annales Geophysicae.
+Ali, S., Mehta, S. K., Ananthavel, A., & Reddy, T. V. R. (2022). Temporal and vertical distributions of the occurrence of cirrus clouds over a coastal station in the Indian monsoon region. Atmospheric Chemistry and Physics, 22(12), 8321–8342.
+CAS
+  Google Scholar
+  Ali, S., Mehta, S. K., Vanmathi, A., Aravindhavel, A., & Reddy, R. (2020). Qualitative observations of the cirrus clouds effect on the thermal structure of the tropical tropopause. JASTP. https://doi.org/10.1016/j.jastp.2020.105440
+Article
+  Google Scholar
+  Annamalai, V., & Mehta, S. K. (2022). Extreme variability of the tropical tropopause over the Indian monsoon region. Climate Dynamics, 59(9), 2929–2948.
+Google Scholar
+  Corti, T., Luo, B. P., Fu, Q., Vömel, H., & Peter, T. (2006). The impact of cirrus clouds on tropical troposphere-to-stratosphere transport. Atmospheric Chemistry and Physics, 6(9), 2539–2547.
+CAS
+  Google Scholar
+  Dauhut, T., Chaboureau, J. P., Escobar, J., & Mascart, P. (2015). Large-eddy simulations of Hector the convector making the stratosphere wetter. Atmospheric Science Letters, 16(2), 135–140.
+Google Scholar
+  Dion, I.-A., Ricaud, P., Haynes, P., Carminati, F., & Dauhut, T. (2019). Ice injected into the tropopause by deep convection–Part 1: In the austral convective tropics. Atmospheric Chemistry and Physics, 19(9), 6459–6479.
+CAS
+  Google Scholar
+  Emmanuel, M., Sunilkumar, S., Muhsin, M., Chandran, P. S., Parameswaran, K., Kumar, B. S., et al. (2021). Effect of monsoon dynamics and deep convection on the upper troposphere lower stratosphere water vapour over Indian monsoon region. Atmospheric Research, 249, 105336.
+Google Scholar
+  Emmanuel, M., Sunilkumar, S., Satheesh Chandran, P., & Muhsin, M. (2023). On the signatures of local and regional dynamics in the distribution of lower stratospheric water vapour over Indian region using balloon-borne and satellite observations. Climate Dynamics, 61(7), 3379–3396.
+Google Scholar
+  Fueglistaler, S., Dessler, A., Dunkerton, T., Folkins, I., Fu, Q., & Mote, P. W. (2009). Tropical tropopause layer. Reviews of Geophysics. https://doi.org/10.1029/2008RG000267
+Article
+  Google Scholar
+  Gage, K., & Reid, G. (1982). Coherent annual and interannual variations in temperature and height fields in the tropical troposphere and lower stratosphere. Geophysical Research Letters, 9(10), 1199–1201.
+Google Scholar
+  Ganguly, N. D., Chakraborty, R., & Maitra, A. (2017). Can Nor’wester events initiate stratospheric moistening? Journal of Atmospheric and Solar-Terrestrial Physics, 164, 1–9.
+Google Scholar
+  Gettelman, A., Birner, T., Eyring, V., Akiyoshi, H., Bekki, S., Brühl, C., et al. (2009). The tropical tropopause layer 1960–2100. Atmospheric Chemistry and Physics, 9(5), 1621–1637.
+CAS
+  Google Scholar
+  Gettelman, A., & Forster, P. M. (2002). A climatology of the tropical tropopause layer. Journal of the Meteorological Society of Japan, 80(4B), 911–924. https://doi.org/10.2151/jmsj.80.911
+Article
+  Google Scholar
+  Guha, B. K., Chakraborty, R., Saha, U., & Maitra, A. (2017). Tropopause height characteristics associated with ozone and stratospheric moistening during intense convective activity over Indian sub-continent. Global and Planetary Change, 158, 1–12.
+Google Scholar
+  Holloway, C. E., & Neelin, J. D. (2007). The convective cold top and quasi equilibrium. Journal of the Atmospheric Sciences, 64(5), 1467–1487.
+Google Scholar
+  Holton, J. R., Haynes, P. H., McIntyre, M. E., Douglass, A. R., Rood, R. B., & Pfister, L. (1995). Stratosphere-troposphere exchange. Reviews of Geophysics, 33(4), 403–439.
+Google Scholar
+  Houze, R. A. (2004). Mesoscale convective system. Reviews of Geophysics, 42(RG4003/2004), 1–43.
+Google Scholar
+  Jain, A., Das, S. S., Mandal, T. K., & Mitra, A. (2006). Observations of extremely low tropopause temperature over the Indian tropical region during monsoon and postmonsoon months: Possible implications. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2005JD005850
+Article
+  Google Scholar
+  Kuang, Z., & Bretherton, C. S. (2004). Convective influence on the heat balance of the tropical tropopause layer: A cloud-resolving model study. Journal of the Atmospheric Sciences, 61(23), 2919–2927.
+Google Scholar
+  Kumar, A. H., Ratnam, M. V., Sunilkumar, S., Parameswaran, K., & Murthy, B. K. (2015). Role of deep convection on the tropical tropopause characteristics at sub-daily scales over the South India monsoon region. Atmospheric Research, 161, 14–24.
+Google Scholar
+  Livesey, N. J., Van Snyder, W., Read, W. G., & Wagner, P. A. (2006). Retrieval algorithms for the EOS Microwave limb sounder (MLS). IEEE Transactions on Geoscience and Remote Sensing, 44(5), 1144–1155.
+Google Scholar
+  Matsuno, T. (1966). Quasi-geostrophic motions in the equatorial area. Journal of the Meteorological Society of Japan Series II, 44(1), 25–43.
+Google Scholar
+  Meenu, S., Rajeev, K., Parameswaran, K., & Nair, A. K. M. (2010). Regional distribution of deep clouds and cloud top altitudes over the Indian subcontinent and the surrounding oceans. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2009JD011802
+Article
+  Google Scholar
+  Mehta, S. K. (2024). Observational evidence of the relationship between the tropical tropopause and tropical easterly jet streams over the Indian monsoon region. Atmospheric Science Letters, 25, e1230. https://doi.org/10.1002/asl.1230
+Article
+  Google Scholar
+  Mehta, S. K., Fujiwara, M., Tsuda, T., & Vernier, J.-P. (2015). Effect of recent minor volcanic Eruptions on Temperatures in the upper troposphere and lower stratosphere. J. Atmospheric and Solar-Terrestrial Physics, 129, 99–110. https://doi.org/10.1016/j.jastp.2015.04.009
+Article
+  Google Scholar
+  Mehta, S. K., Murthy, B. K., Rao, D. N., Ratnam, M. V., Parameswaran, K., Rajeev, K., et al. (2008). Identification of tropical convective tropopause and its association with cold point tropopause. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2007JD009625
+Article
+  Google Scholar
+  Mehta, S. K., Ratnam, M. V., & Murthy, B. K. (2011). Characteristics of the tropical tropopause over different longitudes. Journal of Atmospheric and Solar-Terrestrial Physics, 73(17–18), 2462–2473.
+Google Scholar
+  Mehta, S. K., Ratnam, M. V., Sunilkumar, S. V., Rao, D. N., & Krishna Murthy, B. V. (2017). Diurnal variability of the atmospheric boundary layer height over a tropical station in the indian monsoon region. Atmospheric Chemistry and Physics, 17(1), 531–549.
+CAS
+  Google Scholar
+  Mehta, S. K., Venkat Ratnam, M., & Krishna Murthy, B. (2010). Variability of the tropical tropopause over Indian monsoon region. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2009JD012655
+Article
+  Google Scholar
+  Meng, L., Liu, J., Tarasick, D. W., Randel, W. J., Steiner, A. K., Wilhelmsen, H., et al. (2021). Continuous rise of the tropopause in the Northern Hemisphere over 1980–2020. Science Advances, 7(45), eabi8065.
+CAS
+  Google Scholar
+  Mote, P. W., Rosenlof, K. H., McIntyre, M. E., Carr, E. S., Gille, J. C., Holton, J. R., et al. (1996). An atmospheric tape recorder: The imprint of tropical tropopause temperatures on stratospheric water vapor. Journal of Geophysical Research: Atmospheres, 101(D2), 3989–4006.
+Google Scholar
+  Muhsin, M., Sunilkumar, S., Ratnam, M. V., Parameswaran, K., Murthy, B. K., & Emmanuel, M. (2018). Effect of convection on the thermal structure of the troposphere and lower stratosphere including the tropical tropopause layer in the South Asian monsoon region. Journal of Atmospheric and Solar-Terrestrial Physics, 169, 52–65.
+Google Scholar
+  Munchak, L. A., & Pan, L. L. (2014). Separation of the lapse rate and the cold point tropopauses in the tropics and the resulting impact on cloud toptropopause relationships. Journal of Geophysical Research: Atmospheres, 119, 7963–7978. https://doi.org/10.1002/2013JD021189
+Article
+  Google Scholar
+  Norton, W. (2006). Tropical wave driving of the annual cycle in tropical tropopause temperatures. Part II: Model results. Journal of the Atmospheric Sciences, 63(5), 1420–1431.
+Google Scholar
+  Pan, L. L., Honomichl, S. B., Kinnison, D. E., Abalos, M., Randel, W. J., Bergman, J. W., & Bian, J. (2016). Transport of chemical tracers from the boundary layer to stratosphere associated with the dynamics of the Asian summer monsoon. Journal of Geophysical Research: Atmospheres, 121(23), 14159–114174.
+Google Scholar
+  Pan, L. L., Paulik, L. C., Honomichl, S. B., Munchak, L. A., Bian, J., Selkirk, H. B., & Vömel, H. (2014). Identification of the tropical tropopause transition layer using the ozone-water vapor relationship. Journal of Geophysical Research: Atmospheres, 119(6), 3586–3599.
+CAS
+  Google Scholar
+  Rajeev, K., Parameswaran, K., Meenu, S., Sunilkumar, S. V., Thampi, B. V., Suresh Raju, C., Krishna Murthy, B. V., Jagannath, K. S., Mehta, S. K., Narayana Rao, D., & Rao, K. G. (2008). Observational assessment of the potential of satellite-based water vapour and thermal IR brightness temperatures in detecting semitransparent cirrus. Geophysical Research Letters, 35, L08808. https://doi.org/10.1029/2008GL033393
+Article
+  CAS
+  Google Scholar
+  Ramkumar, T. K., NiranjanKumar, K., & Mehta, S. K. (2010). MST radar observations of characteristics of lower atmospheric high frequency gravity waves passing through the tropical easterly jet. Journal of Geophysical Research, 115, D24109. https://doi.org/10.1029/2009JD013733
+Article
+  Google Scholar
+  Randel, W. J., & Wu, F. (2005). Kelvin wave variability near the equatorial tropopause observed in GPS radio occultation measurements. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2004JD005006
+Article
+  Google Scholar
+  Randel, W. J., Wu, F. & Rivera Rı´os, W. (2003). Thermal variability of the tropical tropopause region derived from GPS/MET observations. Journal of Geophysical Research, 108(D1), 4024. https://doi.org/10.1029/2002JD002595.
+Ratnam, M. V., Basha, G., Raman, M. R., Mehta, S. K., Nath, D., Krishna Murthy, B. V., Rajeevan, M., Vijaya Bhaskara Rao, S., & Narayana Rao, D. (2011). Sub-daily variations observed in tropical easterly jet (TEJ) streams. JASTP, 73, 731–740.
+Google Scholar
+  Ratnam, M. V., Pravallika, N., Babu, S. R., Basha, G., Pramitha, M., & Murthy, B. K. (2014). Assessment of GPS radiosonde descent data. Atmospheric Measurement Techniques, 7, 1011–1025.
+Google Scholar
+  Reid, G. C. (1994). Seasonal and interannual temperature variations in the tropical stratosphere. Journal of Geophysical Research: Atmospheres, 99(D9), 18923–18932.
+Google Scholar
+  Reid, G., & Gage, K. (1996). The tropical tropopause over the western Pacific: Wave driving, convection, and the annual cycle. Journal of Geophysical Research: Atmospheres, 101(D16), 21233–21241.
+Google Scholar
+  Santer, B. D., Thorne, P. W., Haimberger, L., Taylor, K. E., Wigley, T. M., Lanzante, J. R., et al. (2008). Consistency of modelled and observed temperature trends in the tropical troposphere. International Journal of Climatology: A Journal of the Royal Meteorological Society, 28(13), 1703–1722.
+Google Scholar
+  Satheesan, K., & Murthy, B. K. (2005). Modulation of tropical tropopause by wave disturbances. Journal of Atmospheric and Solar-Terrestrial Physics, 67(10), 878–883.
+Google Scholar
+  Schmidt, T., Wickert, J., Beyerle, G., & Reigber, C. (2004). Tropical tropopause parameters derived from GPS radio occultation measurements with CHAMP. Journal of Geophysical Research: Atmospheres, 109(D13).
+Schumacher, C., Houze, R. A., Jr., & Kraucunas, I. (2004). The tropical dynamical response to latent heating estimates derived from the TRMM precipitation radar. Journal of Atmospheric Science, 61, 1341–1358.
+Google Scholar
+  Seidel, D. J., & Randel, W. J. (2006). Variability and trends in the global tropopause estimated from radiosonde data. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2006JD007363
+Article
+  Google Scholar
+  Seidel, D. J., Ross, R. J., Angell, J. K., & Reid, G. C. (2001). Climatological characteristics of the tropical tropopause as revealed by radiosondes. Journal of Geophysical Research: Atmospheres, 106(D8), 7857–7878.
+Google Scholar
+  Selkirk, H. B. (1993). The tropopause cold trap in the Australian monsoon during STEP/AMEX 1987. Journal of Geophysical Research: Atmospheres, 98(D5), 8591–8610.
+Google Scholar
+  Sherwood, S. C., & Wahrlich, R. (1999). Observed evolution of tropical deep convective events and their environment. Monthly Weather Review, 127(8), 1777–1795.
+Google Scholar
+  Son, S. W., Tandon, N. F., & Polvani, L. M. (2011). The fine-scale structure of the global tropopause derived from COSMIC GPS radio occultation measurements. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2011JD016030
+Article
+  Google Scholar
+  Sunilkumar, S., Muhsin, M., Venkat Ratnam, M., Parameswaran, K., Krishna Murthy, B., & Emmanuel, M. (2017). Boundaries of tropical tropopause layer (TTL): A new perspective based on thermal and stability profiles. Journal of Geophysical Research: Atmospheres, 122(2), 741–754.
+Google Scholar
+  Sunilkumar, S. V., Parmeshwaran, K., Rajeev, K., Krishna Murthy, B. V., Meenu, S., Mehta, S. K., & Babu, A. (2010). Semitransparent cirrus clouds in the tropical tropopause layer during two contrasting seasons. JASTP, 72, 745–762.
+Google Scholar
+  Tegtmeier, S., Anstey, J., Davis, S., Dragani, R., Harada, Y., Ivanciu, I., et al. (2020). Temperature and tropopause characteristics from reanalyses data in the tropical tropopause layer. Atmospheric Chemistry and Physics, 20(2), 753–770.
+CAS
+  Google Scholar
+  Thompson, A. M., Witte, J. C., McPeters, R. D., Oltmans, S. J., Schmidlin, F. J., Logan, J. A., et al. (2003). Southern Hemisphere Additional Ozonesondes (SHADOZ) 1998–2000 tropical ozone climatology 1. Comparison with Total Ozone Mapping Spectrometer (TOMS) and ground-based measurements. Journal of Geophysical Research: Atmospheres. https://doi.org/10.1029/2001JD000967
+Article
+  Google Scholar
+  Thompson, D. W., Baldwin, M. P., & Solomon, S. (2005). Stratosphere–troposphere coupling in the Southern Hemisphere. Journal of the Atmospheric Sciences, 62(3), 708–715.
+Google Scholar
+  Tsuda, T., Murayama, Y., Wiryosumarto, H., Harijono, S. W. B., & Kato, S. (1994). Radiosonde observations of equatorial atmosphere dynamics over Indonesia: 1. Equatorial waves and diurnal tides. Journal of Geophysical Research: Atmospheres, 99(D5), 10491–10505.
+Google Scholar
+  Ueyama, R., Jensen, E. J., Pfister, L., & Kim, J. E. (2015). Dynamical, convective, and microphysical control on wintertime distributions of water vapor and clouds in the tropical tropopause layer. Journal of Geophysical Research: Atmospheres, 120(19), 10483–410500.
+Google Scholar
+  Waters, J. W., Froidevaux, L., Harwood, R. S., Jarnot, R. F., Pickett, H. M., Read, W. G., et al. (2006). The earth observing system microwave limb sounder (EOS MLS) on the Aura satellite. IEEE Transactions on Geoscience and Remote Sensing, 44(5), 1075–1092.
+Google Scholar
+  World Meteorological Organization (WMO). (1957). Meteorology—A three dimensional science. WMO Bull, 6, 34–138.
+Yamamoto, M. K., Oyamatsu, M., Horinouchi, T., Hashiguchi, H., & Fukao, S. (2003). High time resolution determination of the tropical tropopause by the Equatorial Atmosphere Radar. Geophysical Research Letters. https://doi.org/10.1029/2003GL018072
+Article
+  Google Scholar
+  Yulaeva, E., Holton, J. R., & Wallace, J. M. (1994). On the cause of the annual cycle in tropical lower-stratospheric temperatures. Journal of Atmospheric Sciences, 51(2), 169–174.
+Google Scholar
+  Download references
+Acknowledgements
+This work is carried out under the Scheme for Promotion of Academic and Research Collaboration (SPARC) project (grant no. SPARC/2018–2019/P835/SL), fully supported by MHRD, the Government of India. Sanjay Kumar Mehta thanks MHRD for sanctioning the SPARC Project. Pooja Purushotham thanks SRMIST for providing the fellowship to carry out the work under the SPARC project.
+Funding
+This work is supported by Scheme for Promotion of Academic and Research Collaboration (SPARC) project (grant no. SPARC/2018-2019/P835/SL).
+Author information
+Authors and Affiliations
+Atmospheric Observations and Modelling Laboratory (AOML), Department of Physics and Nanotechnology, SRM Institute of Science and Technology, Kattankulathur, Chennai, 603203, Tamil Nadu, India
+Purushotham Pooja, Sanjay Kumar Mehta, Sachin Philip Kakkanattu, K. B. Betsy, C. J. Seetha & P. P. Musaid
+Contributions
+PP contributed to data curation, carried out the investigation, and prepared the original draft of the paper. SKM was responsible for conceptualizing and supervising the study, conducting the research, and writing, reviewing, and editing the article. SPK, KBB, CJS and MPP participated in the discussion, contributed to data curation, and carried out the investigation.
+Corresponding author
+Correspondence to Sanjay Kumar Mehta.
+Ethics declarations
+Conflict of interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Ethical approval
+This research does not involves human participants; their tissue and /or data to ensure that the dignity, rights, safety and well-being of all participants are the primary consideration of the research project.
+Consent to participate
+This research doesnot involvie any human subjects and doesnot require consent to participate.
+Consent for publication
+I hereby certify that this paper consists of original, unpublished work which is not under consideration for publication in springer. The original manuscript and figures will be transferred, following the instruction by the Editorial Committee when the paper is accepted.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary Information
+Below is the link to the electronic supplementary material.
+Supplementary file1 (DOCX 380 KB)
+Rights and permissions
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+Reprints and permissions
+About this article
+Cite this article
+Pooja, P., Mehta, S.K., Kakkanattu, S.P. et al. Characteristics of the Tropical Tropopause over Chennai (13.0° N, 80.06° E) in the Northeast Monsoon Region. Pure Appl. Geophys. 181, 2243–2264 (2024). https://doi.org/10.1007/s00024-024-03519-8
+Download citation
+Received
+07 June 2023
+Revised
+09 April 2024
+Accepted
+27 May 2024
+Published
+17 June 2024
+Issue Date
+July 2024
+DOI
+https://doi.org/10.1007/s00024-024-03519-8
+Keywords
+Cold point tropopause
+Temperature water vapor
+Ozone
+Convection
+Access this article
+Log in via an institution
+Buy article PDF 39,95 €
+Price includes VAT (Italy)
+Instant access to the full article PDF.
+Rent this article via DeepDyve
+Institutional subscriptions
+Sections
+Figures
+References
+Abstract
+Data Availability and Software
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Supplementary Information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.72.143
+Not affiliated
+© 2024 Springer Nature

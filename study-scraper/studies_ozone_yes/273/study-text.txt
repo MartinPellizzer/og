@@ -1,0 +1,82 @@
+All Content
+AIP Publishing Portfolio
+Physics of Plasmas
+Advanced Search
+|
+Citation Search
+Sign In
+HOME
+BROWSE
+COLLECTIONS
+PUBLISH WITH US
+ABOUT
+Volume 31, Issue 7
+July 2024
+Previous Article
+Next Article
+I. INTRODUCTION
+II. EXPERIMENTAL AND SIMULATION SETUP
+A. Device Design And Fabrication
+B. Characterization Of Plasma Generation Process
+C. Microscopic Simulation Of Plasma Evolution
+D. Evaluation Of Sterilization Efficacy
+III. RESULTS AND DISCUSSION
+A. Plasma Generation Process Characterization
+B. Plasma Microscopic Evolution
+C. Sterilization Efficacy Evaluation
+IV. CONCLUSIONS
+SUPPLEMENTARY MATERIAL
+ACKNOWLEDGMENTS
+AUTHOR DECLARATIONS
+Conflict Of Interest
+Author Contributions
+DATA AVAILABILITY
+REFERENCES
+RESEARCH ARTICLE| JULY 01 2024
+Flexible thin-layer plasma sterilizer based on polyimide and efficacy evaluation under bending deformation
+Yu-Hao Sun
+;
+Yuan-Yang Liu
+;
+Bo Zhang
+;
+Hang Zhao
+;
+Ming-Yang Sun
+;
+Lei Fan
+;
+Guan-Jun Zhang
+Author & Article Information
+Phys. Plasmas 31, 073501 (2024)
+https://doi.org/10.1063/5.0205582
+Article history
+Split-Screen
+Views
+PDF
+Share
+Tools
+Cold atmospheric pressure plasma is receiving attention in biomedical treatment for its non-thermal, dry-type, and high-efficiency disinfection effects on bacteria, fungi, and viruses, compared to typical sterilization methods, such as pasteurization, chemical solutions, and ultraviolet radiation. There are great demands of plasma decontamination on the surface of complex 3D objects, with the request of large coverage, convenience, and uniformity, which still remains a challenge for the current plasma devices. In this work, a flexible thin-layer plasma source for sterilization is developed based on a polyimide substrate, and its plasma generation process is characterized by experiment and simulation. The influences of bending deformation are studied and evaluated by electrical waveforms, heat radiation, and ozone production, of which the mechanisms are further explained. Results illustrate that the variation in electron impact ionization induced by different curvatures is the main cause leading to the change in microparticle production, thus affecting the macroscopic properties of plasmas. Activations of the plasma sterilizer for 30 and 120 s reduce both S. aureus and P. aeruginosa on the flat surface by around 2.5 and 5 log colony forming units (CFU). However, the plasma sterilization effect decreases with an extent of about 1 log CFU when treating the curved surface, while being regained after conforming the plasma sterilizer to the curved surface. This kind of plasma generator offers significant flexibility and efficacy, being promising for the treatment of objects with irregular surfaces in future plasma biomedicine and material processing.
+Topics
+Thermal radiation, Ozone, Polymers, Electron impact ionization, Plasma processing, Plasma devices, Plasma sources, Bacteria, Fungi, Colony counter
+I. INTRODUCTION
+Sterilization refers to the microbial process that causes all the bacteria, viruses, and fungi barren or infertile. In some specific situations, such as the disinfection treatment of fresh products and skin wounds, there are demands for a nonthermal and waterless decontamination technology, to which pasteurization and chemical solutions (alcohol or iodine) may not be suitable. Cold atmosphere plasma (written as plasma below) provides a hopeful sterilization method for these requirements. Plasma is produced under the action of high voltage and strong electric field, containing electrons, ions, excited atoms, free radicals, and chemically reactive neutral particles. Due to these active and high-energy particles, plasma has shown its highly effective inactivation efficacy on bacteria, viruses, fungi, and biofilms in recent years,1–4 while the buildup of resistance against plasma has not been reported yet. Plasma is found to be able to destroy cell membranes and damage various intracellular macromolecules, which leads to cell leakage and protein degeneration.5,6 The oxidation of amino acids and nucleic acids caused by plasma treatment may furthermore trigger the death or damage of microorganisms. It is reported that the vital factors of this sterilization effect are reactive oxygen species (atomic oxygen O, singlet oxygen 1O2, superoxide anion O 2 −⁠, and ozone O3) and reactive nitrogen species [atomic nitrogen N, excited nitrogen N2(A), and nitric oxide NO] within the plasma gas phase.7 The electromagnetic field and ultraviolet radiation accompanying plasma generation also contribute to decontamination.
+Various approaches are available to produce plasma in the atmosphere for biomedical disinfection, including plasma sources of corona discharge, gliding arc discharge, and dielectric barrier discharge (DBD).8–10 However, when plasma is applied to 3D objects with irregular and large-area surfaces for sterilization, such as skin wounds near joints, an adaptive fitness of plasma source to the surface is always required. Not limited to biomedical applications, plasma treatment with high quality, efficiency, and uniformity on complex 3D objects and surfaces has become a common concern for researchers in the field of plasma source development. Conventional plasma generation methods are always limited by the narrow discharge space, confined plasma contact area, and rigid dielectric materials, hardly satisfying the demands above. Therefore, developing a plasma source with high surface adaptability, efficiency, and stability has prominent research and application significance.
+The advent of flexible electronic technology provides an innovative development direction for microelectronic devices and integrated circuits. After years of rapid progress, research in this field has achieved great prosperity, including thin-layer transistors, flexible displays, and wearable medical electronics.11–14 By utilizing the material capabilities, structural designs, and manufacturing methods from flexible electronic technology, plasma sources can be realized with flexibility, which will expand the applications of plasmas.
+The earliest investigation into the flexible plasma source can be traced back to 2009 when a plasma device was developed consisting of microcavity arrays.15 The construction of this device incorporated two sections of Al mesh that were bonded together, and an integral dielectric barrier with a thickness of less than 100 μm was created using nanoporous alumina. During the experimental bending of the plasma source, its discharge current kept constant, while the light emission of curved electrodes decreased by half. In the last few years, there has been continued research focused on the structural design of flexible plasma sources. A flexible plasma source is optimized for minimal displacement current and maximum dissipated power, employing various electrode geometries for device optimization purpose.16 In another research, a surface DBD structure was used to create a flexible plasma sheet. Ground electrodes and high-voltage electrodes were fabricated on the back and front sides of a polyimide film, respectively.17 To reduce leakage current, high-voltage electrodes were positioned in between ground electrodes. The economy for the fabrication of flexible plasma sources is also considered. Within 30 min, and for less than $0.25, researchers created a flexible plasma source using a printed circuit board fabrication method.18 The flexible plasma sources are typically excited by sine waves or pulses with kilovolt amplitude and kilohertz frequency in the atmosphere. Specific gas environments for device excitation are also reported such as Ar, He, Ne, mixtures of Ar/N2, He/O2, He/c-C4F8, and Ne/Xe.15,18,19 The lifetime of these flexible plasma sources can range from nearly 1 h18 to several hours,15,20 and even over 24 h,21 which mainly depends on the dielectric materials and excitation intensities.
+In the realm of microbiological sterilization, flexible plasma sources have demonstrated outstanding results for their unique capacity to adapt to uneven surfaces and their wide range of plasma coverage. It has been reported that treatment with flexible plasma sterilizers leads to a rapid decline in the microbial load on the surfaces of pork, beef, and cheese samples.22,23 The decontamination effects of flexible plasma sterilizers are also obtained on the spinach leaves and tomato surfaces.24 Notably, the microbial load reduction occurs without any alteration to the physicochemical characteristics of these fresh products. Moreover, ideal eradication of pathogens by using the flexible plasma sterilizer has been achieved on agar, collagen/elastin matrix, mouse skin, ex vivo human skin, and intact skin of volunteers,20,25,26 with no significant impact on cellular activity or DNA integrity being observed. The flexible plasma sources exhibit great potential for their exceptional efficiency, cost-effectiveness, and remarkable surface compatibility.
+However, the existing flexible plasma sources in numerous pieces of research usually have a structure of exposed electrodes, which consistently encounter an uneven discharge caused by moisture or stains. The risk of high-voltage electrocution also remains a challenging problem. In addition, the current research primarily concentrates on the structural design and practical effect of flexible plasma sources in applications, leaving the characteristic regulation by deformation and its mechanisms largely unexplored. In this study, a plasma reactor is realized with a flexible thin-layer structure based on a polyimide substrate for sterilization. In order to guarantee the device flexibility, discharge stability, and human safety, a significantly refined processing technology is required and has been scarcely achieved in the past. The plasma generation process is thoroughly investigated using both experimental and simulation techniques. Then the effects of bending plasma sterilizer are examined by analyzing electrical waveforms, heat radiation, and ozone production, with detailed explanations for the underlying mechanisms being provided. In the last, the microbial decontamination efficacies on flat or artificially curved surfaces before and after deforming the plasma sterilizer are compared and evaluated, aiming to illustrate the potential feasibility of efficient plasma treatment on 3D objects with irregular surfaces. The work on the characteristics and application effect of this plasma sterilizer under deformation, together with the mechanism revelation, will contribute toward the optimal design and futural utility of plasma sources based on flexible substrates.
+II. EXPERIMENTAL AND SIMULATION SETUP
+A. Device design and fabrication
+The flexible plasma sterilizer is designed as a sandwich-like structure, as shown in Fig. 1, with a whole thickness of 100 μm. The electrode array is located in the interlayer of the polyimide films. Half of the electrode array is connected to a high-voltage source, while the others are grounded. Both the high-voltage part and ground part of the electrode array are made up of a copper busbar and several copper strips, of which the width is 100 μm and the thickness is 18 μm. High-voltage copper strips are printed with the ground ones fixed in each middle with a distance of 150 μm by an interdigital pattern, forming the structure of coplanar DBD. To fabricate the sandwiched structure, the electrode array is first patterned through photolithography on the polyimide substrate. Then the upper polyimide film is bonded by thermal compression. The bonding temperature is approximately 430 K, while the pressure is approximately 10 MPa. To ensure there are no air gaps between the polyimide films, epoxy adhesive is utilized during this process. The relative dielectric constant εr of the polyimide films is 3.4, and the low value of εr can prevent discharge from becoming intense and unstable, thus prolonging the lifetime of the device.27,28 The sterilizer in this work can be typically used continuously for at least 30 min with its discharge strength and uniformity being unaffected, while the cumulative use time of the sterilizer can reach 2 h.
+FIG. 1.
+VIEW LARGEDOWNLOAD SLIDE
+3D models of the flexible thin-layer plasma sterilizer. HV: high voltage, GND: ground.
+B. Characterization of plasma generation process
+1. Plasma generation
+Figure 2 shows the schematic experimental setup for plasma generation and characterization. The plasma sterilizer is stimulated by pulses with ns-rising/falling edges of unipolar square wave from a high-voltage pulse generator, with the amplitude, repetition frequency, and pulse width set at 3 kV, 1 kHz, and 10 μs. Both the rising edge and falling edge of the pulses are fixed at 100 ns, for a steeper slope from the excitation pulse will bring more active particles during the plasma production.29 After applying the excitation pulses, discharge initiates on the top surface of the sterilizer in the atmosphere and plasma will be generated. During the generation, the plasma sterilizer is fixed to a flat mold or a mold with a concave cylindrical surface [shown in Fig. 2(c)] for the comparison of plasma characteristics under bending deformation.
+FIG. 2.
+VIEW LARGEDOWNLOAD SLIDE
+(a) Experimental apparatus and their setup. HVPG: high-voltage pulse generator, OSC: oscilloscope, HV: high voltage. (b) Flexible thin-layer plasma sterilizer. (c) Artificial mold for bending the plasma sterilizer with a concave cylindrical surface.
+2. Electrical waveforms during generation
+A high-voltage probe (Tektronix P6015A, 1 000:1) and Rogowski coil (Pearson 2877, 1 V/A) are used to capture the excitation pulses and discharge current, respectively, and an oscilloscope (Tektronix MDO3054) is employed to display the results. The sampling frequency of the oscilloscope is set at 2.5 G S s−1 while the number of sampling points is fixed at 100 k. The waveforms monitored directly in the experiment are the excitation pulses U and the total current I flowing through the sterilizer. For each measurement of the waveforms, it is the running average of 512 pulses to improve the signal-to-noise ratio. The excitation pulse U is separated to the voltage Ud applied on the dielectric barrier and the voltage Ug on the air gap, and the total current I consists of the displacement current Id and the conduction current Ig. Displacement current Id represents the charging

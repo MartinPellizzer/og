@@ -1,0 +1,42 @@
+Home
+Sfoglia
+
+IT
+LOGIN
+IRIS
+Catalogo dei Prodotti della Ricerca
+4 Contributo in Atti convegno
+4.2 Abstract in Atti di convegno
+Effects of air pollution and climate change on all-cause mortality: a case study in the Po Valley, Italy
+paolo girardi;ilaria prosdocimi;carlo gaetan
+2024-01-01
+Abstract
+Understanding the exogenous drivers of increased mortality risk is a key factor in the planning and management of health systems. There is therefore increasing interest in quantifying the potential impact of variations in air pollution levels and climatic factors on all-cause mortality measured at a given location. This is particularly relevant in areas with high levels of pollution and in light of the challenges associated with climate change and global warming. In this study, we therefore present a novel model using Functional Data Analysis (FDA), a statistical framework that departs from conventional scalar time series by treating continuous curves. This departure from traditional approaches allows for a more nuanced understanding of the dynamic interplay between air pollution and its effects on human health. We considered data from the main cities of the Lombardy region in Italy, a region located in the middle of the Po Valley, one of the most polluted areas in Europe and, due to its large spatial extent, differentially affected by air pollution and the potential effects of climate change. Information on total mortality by sex and age groups was provided by the National Institute of Statistics (ISTAT), while information on air pollution was obtained from the Regional Agency for the Protection of the Environment (ARPA) (ARPALData R package).We focus our analysis on the association between all-cause mortality and ozone concentration. Several studies have found that short- and long-term exposure to ozone is associated with an increased risk of several causes of mortality. In addition, ozone is particularly linked to climate change because of its positive association with temperature, an indicator that is increasing due to climate change and, in turn, an additional risk factor for mortality. We considered different models to explore the long and short term association: using the daily 8h maximum ozone concentration, we evaluated its influence on total mortality, while using an hourly resolution on the previous day, we evaluated which moment of the day is the most risky in the short term scenario. This improvement demonstrates the effectiveness of FDA-based models in capturing the complexity of the weather-health relationship. The results of this study underscore that flexible approaches can help us better understand intricate patterns and relationships that elude classical models. This study serves as a pioneering exploration into the field of FDA applications and offers a promising avenue for future public health research efforts.
+Scheda breve
+Scheda completa
+Scheda completa (DC)
+Anno pubblicazione
+2024
+Titolo del volume
+Risk in Time & Space - SRA Europe 32nd Conference 2024, E-Book of Abstracts
+Appare nelle tipologie:
+4.2 Abstract in Atti di convegno
+File in questo prodotto:
+File Dimensione Formato  
+SRA-E 2024 Athens - Book of Abstracts - Final-177.pdf accesso aperto
+Tipologia: Versione dell'editore
+Licenza: Accesso libero (no vincoli)
+192.17 kB Adobe PDF Visualizza/Apri
+I documenti in ARCA sono protetti da copyright e tutti i diritti sono riservati, salvo diversa indicazione.
+ Informazioni
+Utilizza questo identificativo per citare o creare un link a questo documento: https://hdl.handle.net/10278/5063241
+Citazioni
+ND
+ND
+ND
+social impact
+
+
+
+Powered by IRIS - about IRIS - Utilizzo dei cookie
+ Copyright © 2024 

@@ -1,0 +1,104 @@
+HOME ABOUT
+PEOPLE
+ISSUE
+REGISTER SUBMISSIONS LOGIN
+SEARCH
+REGISTER LOGIN
+HOME / ARCHIVES / VOL 8 NO 1 (2024): JULY 2024 / Articles
+Forecasting Air Quality Indeks Using Long Short Term Memory
+Irfan Wahyu Ramadhani
+Dian Nuswantoro University
+Filmada Ocky Saputra
+Dian Nuswantoro University
+Ricardus Anggi Pramunendar
+Dian Nuswantoro University
+Galuh Wilujeng Saraswati
+Dian Nuswantoro University
+Nurul Anisa Sri Winarsih
+Dian Nuswantoro University
+Muhammad Syaifur Rohman
+Dian Nuswantoro University
+Danny Oka Ratmana
+Dian Nuswantoro University
+Guruh Fajar Shidik
+Dian Nuswantoro University
+DOI: https://doi.org/10.30871/jaic.v8i1.7402
+Keywords: Air Quality Index, Air Pollution, Forecasting, LSTM, Sports
+ABSTRACT
+Exercise offers significant physical and mental health benefits. However, undetected air pollution can have a negative impact on individual health, especially lung health when doing physical activity in crowded sports venues. This study addresses the need for accurate air quality predictions in such environments. Using the Long Short-Term Memory (LSTM) method or what is known as high performance time series prediction, this research focuses on forecasting the Air Quality Index (AQI) around crowded sports venues and its supporting parameters such as ozone gas, carbon dioxide, etc. -others as internal factors, without involving external factors causing the increase in AQI. Preprocessing of the data involves removing zero values and calculating correlations with AQI and the final step performs calculations with the LSTM model. The LSTM model which adds tuning parameters, namely with epoch 100, learning rate with a value of 0.001, and batch size with a value of 64, consistently shows a reduction in losses. The best results from the AQI, PM2.5, and PM10 features based on performance are MSE with the smallest value of 6.045, RMSE with the smallest value of 4.283, and MAE with a value of 2.757.
+DOWNLOADS
+REFERENCES
+H. Chen, M. Guan, and H. Li, “Air Quality Prediction Based on Integrated Dual LSTM Model,” IEEE Access, vol. 9, pp. 93285–93297, 2021, doi: 10.1109/ACCESS.2021.3093430.
+S. M. Grath, E. Garrigan, and L. Zeng, “Predicting Air Quality Index Using Deep Neural Networks,” in 2021 IEEE International Conference on Electronic Technology, Communication and Information, ICETCI 2021, Institute of Electrical and Electronics Engineers Inc., 2021, pp. 341–344. doi: 10.1109/ICETCI53161.2021.9563356.
+R. Saha, S. N. M. A. Hoque, M. M. R. Manu, and A. Hoque, “Monitoring Air Quality of Dhaka using IoT: Effects of COVID-19,” in International Conference on Robotics, Electrical and Signal Processing Techniques, 2021, pp. 715–721. doi: 10.1109/ICREST51555.2021.9331026.
+A. Catovic, E. Kadusic, C. Ruland, N. Zivic, and N. Hadzajlic, “Air pollution prediction and warning system using IoT and machine learning,” in International Conference on Electrical, Computer, Communications and Mechatronics Engineering, ICECCME 2022, Institute of Electrical and Electronics Engineers Inc., 2022. doi: 10.1109/ICECCME55909.2022.9987957.
+A. Desai, E. Gujarathi, S. Parikh, S. Yadav, Z. Patel, and N. Batra, “Deep Gaussian Processes for Air Quality Inference,” in ACM International Conference Proceeding Series, Association for Computing Machinery, Jan. 2023, pp. 278–279. doi: 10.1145/3570991.3571004.
+S. Ameer et al., “Comparative Analysis of Machine Learning Techniques for Predicting Air Quality in Smart Cities,” IEEE Access, vol. 7, pp. 128325–128338, 2019, doi: 10.1109/ACCESS.2019.2925082.
+Y. Wang and T. Kong, “Air Quality Predictive Modeling Based on an Improved Decision Tree in a Weather-Smart Grid,” IEEE Access, vol. 7, pp. 172892–172901, 2019, doi: 10.1109/ACCESS.2019.2956599.
+N. Syed et al., “Effects of Traffic-Related Air Pollution on Exercise Endurance, Dyspnea, and Cardiorespiratory Responses in Health and COPD,” Chest, vol. 161, no. 3, pp. 662–675, Mar. 2022, doi: 10.1016/j.chest.2021.10.020.
+A. Hung, H. Nelson, and M. S. Koehle, “The Acute Effects of Exercising in Air Pollution: A Systematic Review of Randomized Controlled Trials,” Sports Medicine, vol. 52, no. 1, pp. 139–164, Jan. 2022, doi: 10.1007/s40279-021-01544-4.
+E. Brumancia, S. Justin Samuel, and L.Mary Gladence, “Air Pollution Detection and Prediction Using Multi Sensor Data Fusion,” in Proceedings of the International Conference on Intelligent Computing and Control Systems (ICICCS 2020) : 13-15 May, 2020, Madurai, India: IEEE, Jun. 2020, pp. 844–849.
+F. Qin et al., “Exercise and air pollutants exposure: A systematic review and meta-analysis,” Life Sciences, vol. 218. Elsevier Inc., pp. 153–164, Feb. 01, 2019. doi: 10.1016/j.lfs.2018.12.036.
+B. Marmett, R. B. Carvalho, G. P. Dorneles, R. B. Nunes, and C. R. Rhoden, “Should I stay or should I go: Can air pollution reduce the health benefits of physical exercise?,” Med Hypotheses, vol. 144, Nov. 2020, doi: 10.1016/j.mehy.2020.109993.
+Y. Yu, X. Si, C. Hu, and J. Zhang, “A review of recurrent neural networks: Lstm cells and network architectures,” Neural Computation, vol. 31, no. 7. MIT Press Journals, pp. 1235–1270, Jul. 01, 2019. doi: 10.1162/neco_a_01199.
+K. Smagulova and A. P. James, “A survey on LSTM memristive neural network architectures and applications,” European Physical Journal: Special Topics, vol. 228, no. 10. Springer Verlag, pp. 2313–2324, Oct. 01, 2019. doi: 10.1140/epjst/e2019-900046-x.
+S. Siami-Namini, N. Tavakoli, and A. S. Namin, “The Performance of LSTM and BiLSTM in Forecasting Time Series,” in 2019 IEEE International Conference on Big Data (Big Data), 2019, pp. 3285–3292. doi: 10.1109/BigData47090.2019.9005997.
+E. Sharma, R. C. Deo, R. Prasad, A. V. Parisi, and N. Raj, “Deep Air Quality Forecasts: Suspended Particulate Matter Modeling with Convolutional Neural and Long Short-Term Memory Networks,” IEEE Access, vol. 8, pp. 209503–209516, 2020, doi: 10.1109/ACCESS.2020.3039002.
+Y. C. Jin, Q. Cao, K. N. Wang, Y. Zhou, Y. P. Cao, and X. Y. Wang, “Prediction of COVID-19 Data Using Improved ARIMA-LSTM Hybrid Forecast Models,” IEEE Access, vol. 11, pp. 67956–67967, 2023, doi: 10.1109/ACCESS.2023.3291999.
+B. Wang, W. Kong, H. Guan, and N. N. Xiong, “Air Quality Forecasting Based on Gated Recurrent Long Short Term Memory Model in Internet of Things,” IEEE Access, vol. 7, pp. 69524–69534, 2019, doi: 10.1109/ACCESS.2019.2917277.
+T. Li, M. Hua, and X. Wu, “A Hybrid CNN-LSTM Model for Forecasting Particulate Matter (PM2.5),” IEEE Access, vol. 8, pp. 26933–26940, 2020, doi: 10.1109/ACCESS.2020.2971348.
+D. Komarasamy, G. C. Nandhidha, S. Nandhinidevi, P. L. Nanthini, Mohanasaranya, and K. Kousalya, “Air Quality Prediction and Classification using Machine Learning,” in Proceedings - 7th International Conference on Computing Methodologies and Communication, ICCMC 2023, Institute of Electrical and Electronics Engineers Inc., 2023, pp. 187–191. doi: 10.1109/ICCMC56507.2023.10083760.
+W. Xin and W. Bin, “Visual Analysis of Precision Teaching Research Based on VOS Viewer in Data-Driven Perspective,” in 2023 IEEE 12th International Conference on Educational and Information Technology, ICEIT 2023, Institute of Electrical and Electronics Engineers Inc., 2023, pp. 179–185. doi: 10.1109/ICEIT57125.2023.10107845.
+M. S. Rohman, H. A. Santoso, G. W. Saraswati, N. Anisa, and S. Winarsih, “Pemanfaatan Topic-Focused Crawler untuk Pembangunan Corpus Berita Bencana menggunakan Teknik Scrapy CSS Selector.” [Online]. Available: http://bpbdjateng.com
+M. Alysha Zulia Larasati, N. Anisa Sri Winarsih, M. Syaifur Rohman, and G. Wilujeng Saraswati, “Penerapan Metode K-Means Clustering dalam Menganalisis Sentimen Masyarakat terhadap K-Popers pada Twitter,” Progresif: Jurnal Ilmiah Komputer, vol. 18, no. 2, pp. 201–210, 2022, Accessed: Jan. 15, 2024. [Online]. Available: doi:10.35889/progresif.v18i2.877
+S. Masmoudi, H. Elghazel, D. Taieb, O. Yazar, and A. Kallel, “A machine-learning framework for predicting multiple air pollutants’ concentrations via multi-target regression and feature selection,” Science of the Total Environment, vol. 715, May 2020, doi: 10.1016/j.scitotenv.2020.136991.
+F. Hamami and I. A. Dahlan, “Univariate Time Series Data Forecasting of Air Pollution using LSTM Neural Network,” in 2020 International Conference on Advancement in Data Science, E-Learning and Information Systems, ICADEIS 2020, Institute of Electrical and Electronics Engineers Inc., Oct. 2020. doi: 10.1109/ICADEIS49811.2020.9277393.
+H. 1, T. Wahyuningsih , and E. Rahwanto, “Comparison of Min-Max normalization and Z-Score Normalization in the K-nearest neighbor (kNN) Algorithm to Test the Accuracy of Types of Breast Cancer.” [Online]. Available: http://archive.ics.uci.edu/ml.
+G. F. Shidik et al., “LUTanh Activation Function to Optimize BI-LSTM in Earthquake Forecasting,” International Journal of Intelligent Engineering and Systems, vol. 17, no. 1, pp. 572–583, Feb. 2024, doi: 10.22266/ijies2024.0229.48.
+PDF
+PUBLISHED
+2024-07-07
+HOW TO CITE
+I. Ramadhani, “Forecasting Air Quality Indeks Using Long Short Term Memory”, JAIC, vol. 8, no. 1, pp. 22-29, Jul. 2024.
+More Citation Formats
+ISSUE
+Vol 8 No 1 (2024): July 2024
+SECTION
+Articles
+Copyright (c) 2024 Irfan Wahyu Ramadhani, Filmada Ocky Saputra, Ricardus Anggi Pramunendar, Galuh Wilujeng Saraswati, Nurul Anisa Sri Winarsih, Muhammad Syaifur Rohman, Danny Oka Ratmana, Guruh Fajar Shidik
+This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
+Authors who publish with this journal agree to the following terms:
+Authors retain copyright and grant the journal right of first publication with the work simultaneously licensed under a Creative Commons Attribution License (Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) ) that allows others to share the work with an acknowledgement of the work's authorship and initial publication in this journal.
+Authors are able to enter into separate, additional contractual arrangements for the non-exclusive distribution of the journal's published version of the work (e.g., post it to an institutional repository or publish it in a book), with an acknowledgement of its initial publication in this journal.
+Authors are permitted and encouraged to post their work online (e.g., in institutional repositories or on their website) prior to and during the submission process, as it can lead to productive exchanges, as well as earlier and greater citation of published work (See The Effect of Open Access).
+ ..:: MAIN MENU ::..
+Editorial Team
+Reviewer List
+Review Process
+Focus and Scope
+Author Guidelines
+Publication Ethics
+Open Access Statement
+Copyright and License
+Plagiarism Policy
+Archiving
+Announcement
+Indexing JAIC
+ ..:: Journal Accreditation ::..
+       Donwload: SK No 79/E/KPT/2023
+ ..:: SUBMIT YOUR PAPER ::..
+     Donwload: Template JAIC
+ ..:: RECOMMENDED TOOLS ::..
+               Download: Handout Mendeley  
+ ..:: VISIT COUNTER ::..
+      View JAIC Statcounter
+ ..:: e-ISSN ::..
+    ISSN Online: 2548-6861
+ ..:: Member of ::..
+Organized by : Department of Informatic Engineering Politeknik Negeri Batam
+Published by : Politeknik Negeri Batam
+Jl. Ahmad Yani, Batam Center, Batam 29461
+Phone: +62 778 469856 Ext 1041
+E-mail: jaic@polibatam.ac.id | jaic.polibatam@gmail.com 
+
+JAIC is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.

@@ -1,0 +1,48 @@
+18th PLINIUS Conference on Mediterranean Risks Chania | Greece | 30 September–3 October 2024
+ABOUT
+PROGRAMME
+REGISTRATION
+VENUE
+LOGINS
+My profile
+My network
+  Abstract Plinius18-49 
+Home
+Plinius18
+PL7
+Plinius18-49
+[Back] [Session PL7]
+Plinius Conference Abstracts
+Vol. 18, Plinius18-49, 2024, updated on 11 Jul 2024
+https://doi.org/10.5194/egusphere-plinius18-49
+18th Plinius Conference on Mediterranean Risks
+© Author(s) 2024. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Oral | Monday, 30 Sep, 15:45–16:00 (CEST)| Lecture room
+Influence of Temperature and air Pollution on Provincial Mortality in Spain: A Seasonal AI Approach
+Juan Pedro Montávez1, Ginés Garnés-Morales1, Javier Tortosa2, Salvador Gil-Guirado1, Ester García-Fernández1, Marcio Cataldi1, Leandro Segado-Moreno1, Eloisa Raluy1, Victoria Gallardo1, and Pedro JIménez-Guerrero1
+1Grupo de Modelización Atmosférica Regional, Universidad de Murcia, Murcia, Spain (montavez@um.es)
+2Instituto Andaluz de Geofísica, Universidad de Granada, Granada, Spain
+In this study, we analyze weekly mortality series at the provincial level for all seasons of the year. Using an artificial intelligence model, we examine the importance of various meteorological and atmospheric pollution variables on the temporal variability of mortality. The variables analyzed include maximum and minimum temperatures (Aemet ROCIO 5km), concentrations of ozone, PM10, PM25, and NO2 (CAMS 10km) for both the concurrent week and the previous week. To obtain the provincial series, we developed a methodology that involves calculating the weighted average of all grid points within the province, weighted by the population of the covered area.
+In summer, the results show that the artificial intelligence model can reasonably explain the variability in mortality in many Spanish provinces, especially in large cities such as Madrid and Barcelona, where the temporal correlations between predicted and observed values exceed 0.6. The minimum temperature is the most important variable in most provinces, followed by the maximum temperature for both the current and previous weeks. The results indicate that atmospheric pollution plays a significant role. However, there is considerable interprovincial variability. Analyzing extreme events reveals that, in most cases, temperature extremes coincide with atmospheric pollution episodes.
+In winter, the most significant variable is the minimum temperature of the previous week in almost all provinces, with correlation indices above 0.5. Regarding extremes, we again find coincidences of several factors, especially at the beginning of major mortality episodes, with the most notable being high levels of nitrogen oxides and particulate matter.
+We conclude that the proposed methodology is capable of reasonably explaining the temporal variability of mortality and that a significant portion of extreme mortality events have a composite nature (compound events), where the coincidence and succession of several factors seems to play a determining role.
+How to cite: Montávez, J. P., Garnés-Morales, G., Tortosa, J., Gil-Guirado, S., García-Fernández, E., Cataldi, M., Segado-Moreno, L., Raluy, E., Gallardo, V., and JIménez-Guerrero, P.: Influence of Temperature and air Pollution on Provincial Mortality in Spain: A Seasonal AI Approach, 18th Plinius Conference on Mediterranean Risks, Chania, Greece, 30 Sep–3 Oct 2024, Plinius18-49, https://doi.org/10.5194/egusphere-plinius18-49, 2024.
+ABOUT EGU
+EGU, the European Geosciences Union, is Europe's premier geosciences union, dedicated to the pursuit of excellence in the Earth, planetary, and space sciences for the benefit of humanity, worldwide. It was established in September 2002 as a merger of the European Geophysical Society (EGS) and the European Union of Geosciences (EUG), and has headquarters in Munich, Germany.
+Header image: EGU Flags at EGU General Assembly 2016 (Credit: Kai Boggild, distributed via imaggeo.egu.eu)
+FOLLOW US
+INFORMATION FOR
+Researchers
+Early career scientists
+Media
+Educators & children
+EXTERNAL LINKS
+EGU blogs
+Blogs hosted by the EGU
+Imaggeo
+The geosciences image and video repository
+EGU NEWSLETTER
+Subscribe to our monthly newsletter and stay up to date with the latest EGU news.
+© 2024 Copernicus GmbH
+Imprint | Data protection | EGU.eu

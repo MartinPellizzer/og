@@ -1,0 +1,103 @@
+This website utilizes technologies such as cookies to enable essential site functionality, as well as for analytics, personalization, and targeted advertising. You may change your settings at any time or accept the default settings. You may close this banner to continue with only essential cookies. Privacy Policy
+Manage Preferences
+Accept All
+Reject All
+We are aware of an issue impacting some readers trying to access content via their library’s proxy service. We are working to resolve this as soon as possible and apologize for any inconvenience.
+Search within
+Login / Register
+Reviews in Aquaculture
+REVIEW
+Open Access
+More than just geosmin and 2-methylisoborneol? Off-flavours associated with recirculating aquaculture systems
+Pedro Martínez Noguera, 
+Matteo Egiddi, 
+Julia Södergren, 
+Mariana Rodrigues da Silva, 
+Jonathan Beauchamp, 
+Mikael Agerlin Petersen, 
+Andrea Buettner, 
+Niels O. G. Jørgensen
+First published: 03 July 2024 https://doi.org/10.1111/raq.12949
+P. Martinez Noguera and M. Egiddi wish to be joint first authors of this review paper.
+SECTIONS
+PDF
+TOOLS
+SHARE
+Abstract
+The consumption of seafood is driven by flavour, yet achieving its high quality remains a challenge for many species reared in recirculating aquaculture systems (RAS). A comprehensive knowledge of off-odour sources in aquatic foods is indispensable in ensuring flavour quality standards. At the beginning of the production chain, early post-harvest lipid oxidation products develop into endogenous off-odours and accumulate over time. These malodours add to those already absorbed exogenously, namely from the water and feeds, although the information on the interactions between these sources is currently scarce. Despite geosmin and 2-methylisoborneol receiving significant attention in relation to fish off-flavour, only limited knowledge on the molecular and ecological mechanisms driving their production in aquatic environments has been reported. Moreover, RAS-hosted bacteria have been associated with a wide range of other odour-active compounds, such as pyrazines, terpenoids, and other degradation byproducts that are frequently overlooked when studying flavour taint in fish. The influence of aquaculture feeds on the flavour of fish flesh has been underestimated, too, both as a source of off-odours but also as a novel modulator strategy to achieve desirable aquatic food flavours. Finally, the influence of water treatment processes widely used in RAS operations, such as advance oxidation process, ozone, ultraviolet and hydrogen peroxide disinfections, is greatly underexplored with respect to odour quality. This article reviews the current scientific evidence with supporting data on the chemical diversity of off-odours found in aquaculture fish worldwide and their potential sources and highlights knowledge gaps that should be addressed in future research.
+1 INTRODUCTION
+Recirculating aquaculture systems (RAS) are land-based and controlled-environment farming systems, resulting from over four decades of research and development in both the private and public sectors.1, 2 The advancement of RAS technology has been accelerated by the rising environmental regulations in European countries with limited access to water.3, 4 RAS are deemed promising aquaculture technologies since they can increase the economic viability of aquaculture businesses by improving production efficiency. RAS allows the control of biotic and abiotic environmental parameters, the stabilisation of production capacities, assurance in high-quality seafood standards avoiding the influence of seasonality, and can greatly expand the opportunities to produce blue foods anywhere on land, such as close to the major food markets.1-7 Furthermore, RAS significantly reduces land and water usage, and permits the upcycling of waste streams into nitrogen- and phosphorous-rich fertilisers.3, 4 As food production systems, RAS are potentially devoid of environmental pollutants, independent of site, salinity, and species restrictions, and are bio-secure.7 Overall, when compared to other fisheries, RAS can produce the highest yield per unit area with the smallest environmental footprint, largely depending on aquaculture feeds and non-renewable energy consumption.1, 3, 4, 7
+Despite their productive advantages, RAS are associated with high technological complexity. The success of RAS operators relies on their ability to closely monitor and understand the individual system parameters, from physical to chemical and biological.1 Hence, this multidisciplinary technology requires advanced competences in aquatic biology and microbiology, as well as environmental, electrochemical and process engineering. Additionally, commercial-scale RAS operations require substantial capital investment and high energy consumption rates, which have limited their development and implementation to wealthy nations.5, 8-10 As a result, successful RAS businesses are currently scarce, with most being hatcheries and Atlantic salmon pre-smolt rearing facilities, which operate before the animals are moved to sea cages.5
+Bacterial biofilms easily develop in RAS systems. During the continuous water circulation, bacteria encounter numerous surfaces, for example, in the mechanical and biological filters and other water treatment units. After settling on a surface, many species of bacteria produce extracellular material that forms a slimy biofilm, ensuring surface adhesion, protection from harmful water-borne compounds and nutrient trapping.11 Since most RAS systems use natural freshwater or seawater in the production tanks, naturally occurring bacteria colonise the water, despite various in-take water treatment systems. Species that produce earthy- and musty-smelling volatile compounds also thrive among such bacteria.12, 13 Their presence and production of volatiles, in combination with the water recirculation within the system, leads to an accumulation of these odours compounds in the water, from where they are readily absorbed into fish flesh.14 The tainting of RAS fish with these malodours—referred to as off-odour or off-flavour—is considered one of the main challenges of RAS production worldwide, as it leads to consumer rejection and consequently a significant reduction in the marketability of the fish, leading to a negative economic impact on RAS farms.15, 16 Moreover, the prevalence of such odours in cultured fish has created a socio-cultural discredit of these products over the last decades that continues to negatively impacts the development of the sector.17
+Given the urgency of the issue and the lack of exhaustive information, this review attempts to compile the existing scientific knowledge on off-flavour in aquaculture-reared fish, with a special emphasis on perception qualities, chemical diversity, and provenance. This article reviews an extensive collection of literature available on odour and off-odour sources in aquaculture and sets out to unravel the current knowledge gaps on aquaculture aquatic food flavour, although the state-of-the-art with respect to sensory-analytical techniques used to study aquatic food odour is not addressed here. A comprehensive overview of chemical classes and subclasses, sensory-relevant physicochemical data, and specific aquatic species or aquaculture-related products wherein most of the off-odours addressed here have been reported, is provided in Table 1.
+TABLE 1. Summary of aquaculture-related off-odours reported in the literature. Odour threshold, LogP value and the species/products wherein the off-odours were found are detailed. Percentages (%) displayed next to some sensory attributes refer to their frequency of description (n × 100/total attributes) if repetitions across publications were encountered.
+Chemical class; subclass/specification Compound IUPAC name (common name if relevant) CAS number Odour attributes OT in water (μg/L)a log Pb Species/sources References
+Carboxylic acids
+Acetic acid 64–19-7 Vinegar 6 −0.2 Multiple (fish collagen peptides) 18
+Butanoic acid (Butyric acid) 107–92-6 Sweat, cheesy 240 0.8 Rainbow trout, flow-through system 19
+2-Methylbutanoic acid 116–53-0 Sweat, cheesy - 1.2 Rainbow trout, flow-through system 19
+3-Methylbutanoic acid 503–74-2 Sweat, cheesy 120–700 1.2 Rainbow trout, flow-through system 19, 20
+2,3-Dimethylbutanoic acid 14,287–61-7 Sweaty - 1.6 Aquafeed 21
+Propanoic acid (Propionic acid) 79–09-4 Fruity, cheesy 20,000 0.3 Aquafeed; Microalgae 21, 22
+Pentanoic acid (Valeric acid) 109–52-4 Fruity, sweaty, pungent, cheesy, fruity, butter-like 3000 1.4 Aquafeed; Multiple (fish collagen peptides) 18, 21
+Hexanoic acid (Caproic acid) 142–62-1 Musty, pungent, goat-like 3000 1.9 Aquafeed; Rainbow trout, flow-through system; Rainbow trout, pilot scale RAS 19-21
+Heptanoic acid (Enanthic acid) 111–14-8 Sweaty, dusty 3000 2.5 Aquafeed 21
+Octanoic acid (Caprylic acid) 124–07-2 Fruity-acid, irritating, musty, coriander-like, fresh, roasty 3000 3 Atlantic salmon; Aquafeed; Rainbow trout, flow-through system; Rainbow trout, pilot scale RAS 19-21, 23
+4-Ethyloctanoic acid 16,493–80-4 Goat-like - 3.6 Rainbow trout, flow-through system 19
+Nonanoic acid (Pelargonic acid) 112–05-0 Fatty, musty 3000//100 3.5 Multiple (fish collagen peptides) 18
+Decanoic acid (Capric acid) 334–48-5 Coriander-like, plastic-like, leather-like 10,000 4.1 Aquafeed 21
+2-Methyldecanoic acid 24,323–23-7 Pungent, soapy, citrus-like - 4.5 Aquafeed 21
+Undecanoic acid (Undecylic acid) 112–37-8 Coriander-like, fatty 10,000 3.7 Aquafeed 21
+Dodecanoic acid (Lauric acid) 143–07-7 Musty, plastic-like, rubber like, acidic, smokey 10,000 4.2 Aquafeed 21
+Tetradecanoic acid (Myristic acid) 544–63-8 Marine, fatty, cheese 10,000 5.3 Atlantic salmon 23
+Hexadecanoic acid (Palmitic acid) (55) 57–10-3 Plastic 10,000 6.4 Rainbow trout, flow-through system 19
+Phenyl acetic acid 103–82-2 Honey, bee wax-like - 1.4 Aquafeed 21
+Alcohols
+Ethanol 64–17-5 Alcohol 520 −0.1 Atlantic salmon; Microalgae; Multiple (fish collagen peptides); Brown trout 18, 22-24
+2-Methyl-1-propanol 75–65-0 Musty 40,000 0.5 Multiple (fish collagen peptides) 18
+1-Butanol 71–36-3 Alcohol-like 500//38 0.9 Multiple (fish collagen peptides) 18
+2-Methylbutan-1-ol 137–32-6 - - 1.2 Microalgae 22
+3-Methylbutan-1-ol 123–51-3 - 250–300 1.2 Microalgae 22
+Pentan-1-ol 71–41-0 Earthy (57.1%), floral (14.3%), fruity (28.6%), mushroom (57.1%) 4000 1.6 Multiple; Multiple (fish collagen peptides) 18, 25
+Cyclopentanol 96–41-3 Mint 125 0.8 Multiple (fish collagen peptides) 18
+1-Penten-3-ol 616–25-1 Grassy, chemical, plastic 400/400 1.1 Microalgae; Rainbow trout 22, 26
+(Z)-Pent-2-en-1-ol 928–96-1 - - 1.3 Microalgae 22
+Hexan-1-ol 111–27-3 Fishy 2500/500 2 Multiple (fish collagen peptides) 18
+2-Ethylhexan-1-ol 104–76-7 Cucumber, mushroom, roasted, green, grassy, minty, aromatic, bubble gum, flowery 270,000 3.1 Atlantic salmon; Multiple; Pagrus Major (Red seabream); Rainbow trout 23, 25-27
+3-Hexen-1-ol 928–95-0 - 70 1.4 Microalgae 22
+Octan-1-ol 111–87-5 Alcohol 110–130//2.7 3 Multiple (fish collagen peptides) 18
+Oct-1-en-3-ol 3391-86-4 Fishy, grassy, mushroom, spicy, herbaceous, plant-like, fermented, potato 1/1.5 2.6 Multiple; Multiple (fish collagen peptides); Rainbow trout 18, 25, 26
+(E)-2-Octen-1-ol 18,409–17-1 Grassy 40 2.5 Multiple (fish collagen peptides) 18
+(5Z)-Octa-1,5-dien-3-ol 50,306–18-8 Flowery, geranium-like, metallic, earthy - 2 Multiple (fish collagen peptides); Rainbow trout, flow-through system; Rainbow trout 18, 19, 26
+2-(2-Butoxyethoxy)ethanol (butyldiglycol) 112–34-5 Plastic-like, roasty - 0.6 Rainbow trout, flow-through system 19
+Decan-1-ol 36,729–58-5 Plastic, fatty - 4.6 Atlantic salmon 23
+Dodecan-1-ol 112–53-8 Pungent, vegetable-like - 5.1 Aquafeed; Rainbow trout, flow-through system 19, 21
+Hexadecan-1-ol 36,653–82-4 Fruity, flowery - 7.3 Rainbow trout, flow-through system 19
+Phenylmethanol (Benzyl alcohol) 100–51-6 Herbaceous, wet wood, floral 10,000 1.1 Atlantic salmon 23
+Aldehydes Butanal 123–72-8 Pungent 9–37.3/0.67 0.9 Atlantic salmon; Multiple (fish collagen peptides) 18, 23
+3-methylbutanal 590–86-3 - - 1 Microalgae 22
+Pentanal 110–62-3 - 12–42 1.1 Microalgae 22
+(E)-Pent-2-enal 1576-87-0 Green (25%), grass (50%), tomato (25%) 1500 1 Microalgae; Multiple (fish collagen peptides); Brown trout 18, 22, 24
+Hexanal (39) 66–25-1 Grassy, fishy, fruity, plastic, lettuce, oily, green, earthy 4–5.5/97 1.8 Aquafeed; Rainbow trout, pilot scale RAS 20, 21
+(E)-Hex-2-enal (40) 6728-26-3 Grassy (20%), moss (20%), mushroom (40%), eucalyptus (20%) 17/17 1.5 Atlantic salmon; Microalgae; Brown trout 23, 24
+(Z)-Hex-3-enal 6789-80-6 Grassy 0.25 1.1 Aquafeed 21
+Heptanal (41) 111–71-7 Citrus-like, potato-like, fatty, cooked potatoe, Rancid, Green, floral; fishy; pungent 3/0.18 2.3 Multiple; Aquafeed 18, 21
+Hept-1-enal 89,723–55-7 Oily, fatty - 3.1 Brown trout 24
+(E)-Hept-2-enal (42) 57,266–86-1 Cooked fish, sulphuric, soapy 13 2.1 Brown trout 24
+(Z)-Hept-4-enal 6728-31-0 Fishy (29%), boiled potatoe (14%), cooked vegetable (14%), fatty (14%), powerful green (14%), biscuit (14%) 0.8 1.4 Rainbow trout, flow-through system; Microalgae 19, 21, 22
+(2E,4E)-hepta-2,4-dienal 4313–03-5 Roasted, fatty, boiled potato, grassy, fishy - 1.6 Atlantic salmon; Aquafeed; Microalgae; Multiple (fish collagen peptides); Brown trout 18, 21-24
+(2Z,4E)-hepta-2,4-dienal 4313–02-4 - - 1.6 Microalgae 21-23
+Octanal 124–13-0 Grassy, citrus-like, cooked potato, fat, fishy, wax, citrus, soapy, oily, fatty, fruity 0.7/25 2.7 Aquafeed; Rainbow trout, pilot scale RAS 20, 21
+(E)-Oct-2-enal (43) 2548-87-0 Fishy (6%), oily (13%), fatty (19%), green leaf (6%), aromatic (6%), savoury (6%), nutty (6%), soapy (6%), grassy (6%), mouldy (6%), pungent (6%), cucumber (6%), moss (6%) 3 2.6 Aquafeed; Microalgae; Multiple 21, 22, 25
+(2E,4E)-Octa-2,4-dienal 30,361–28-5 Fishy (8.3%), cod-liver oil (8.3%), cucumber (25%), pine (8.3%), resin (8.3%), phenolic (8.3%), cooked (8.3%), fat (8.3%), green (8.3%), roasted (8.3%) - 2.2 Atlantic salmon; Multiple (fish collagen peptides); Rainbow trout; Brown trout 18, 23, 24, 26
+Nonanal (45) 124–19-6 Fatty, grassy, citrussy, green, floral, hospital, cucumber, vegetal, waxy, soapy, tallowy 1/0,34 3.3 Aquafeed 21
+(E)-Non-2-enal 18,829–56-6 Earthy (8%), Green (8%), musty (8%), cardboard-like (15%), moss (8%), woody (8%), floral (8%), fatty (15%), tallowy (8%), grassy (8%), cucumber (8%) 0.08–0.1 3.1 Multiple; Aquafeed 21, 25
+(Z)-Non-2-enal 60,784–31-8 Cardboard-like, fatty 0.02 3.1 Rainbow trout, flow-through system 19
+(2E,4E)-Nona-2,4-dienal 5910-87-2 Fatty 0.09/200 2.7 Multiple; Aquafeed 18, 21
+(2E,4Z)-Nona-2,4-dienal 21,661–99-4 Fatty, cucumber-like, cardboard like - 2.7 Atlantic salmon; Aquafeed; Rainbow trout 21, 23, 26
+(2E,6E)-Nona-2,6-dienal 17,587–33-6 Cucumber (50%), green (50%) - 2.2 Multiple (fish collagen peptides); Rainbow trout, flow-through system; Rainbow trout; Brown trout 18, 19, 24, 26
+(2E,6Z)-Nona-2,6-dienal 557–48-2 Fatty, floral, cucumber 0.01/900 2.2 Aquafeed; Multiple (fish collagen peptides) 18, 21
+(2E,4E,6E)-Nona-2,4,6-trienal 100,113–51-7 - - 2.3 Microalgae 22
+(2Z,4E,6E)-Nona-2,4,6-trienal 56,269–22-8 - - 2.3 Microalgae 22
+Decanal (50) 112–31-2 Citrus-like, plastic, fishy, cardboard 0.1–2 3.8 Aquafeed 21
+(E)-Dec-2-enal (51) 3913-81-3 Orange (11%), fatty (22%), fried (11%), tallowy (11%), coriander-like (11%), roasty (11%), plastic (11%), cooked (11%) 0.3–0.4 3.7 Aquafeed; Atlantic Salmon; Microalgae;

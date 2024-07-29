@@ -1,0 +1,288 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Environmental Monitoring and Assessment Article
+Multi-source observations on the effect of atmospheric blocking on air quality in İstanbul: a study case
+Research
+Published: 04 July 2024
+Volume 196, article number 698, (2024)
+Cite this article
+Environmental Monitoring and Assessment
+Aims and scope
+Submit manuscript
+Emrah Tuncay Özdemir, Enes Birinci
+& Ali Deniz 
+87 Accesses
+1 Altmetric
+Explore all metrics
+Abstract
+Air pollution is affected by the atmospheric dynamics. This study aims to determine that air pollution concentration values in İstanbul increased significantly and reached peak values due to atmospheric blocking between the 30th of December 2022 and the 5th of January 2023. In this study, hourly pollutant data was obtained from 16 air quality monitoring stations (AQMS), the exact reanalysis data was extracted from ERA5 database, and inversion levels and meteorological and synoptic analyses were used to determine the effects of atmospheric blocking on air pollution. Also, cloud base heights and vertical visibility measurements were taken with a ceilometer. Statistical calculations and data visualizations were performed using the R and Grads program. Omega-type blocking, which started in İstanbul on December 30, 2022, had a significant impact on the 1st and 2nd of January 2023, and PM10 and PM2.5 concentration values reached their peak values at 572.8 and 254.20 µg/m3, respectively. In addition, it was found that the average concentration values in the examined period in almost all stations were higher than the averages for January and February. As a result, air quality in İstanbul was determined as “poor” between these calendar dates. It was found that the blocking did not affect the ozone (µg/m3) concentration. It was also found that the concentrations of particulate matter (PM) 10 µm or less in diameter (PM10) and PM 2.5 µm or less in diameter (PM2.5) were increased by the blocking effect in the İstanbul area. Finally, according to the data obtained using the ceilometer, cloud base heights decreased to 30 m and vertical visibility to 10 m.
+This is a preview of subscription content, log in via an institution to check access.
+
+Similar content being viewed by others
+Comprehensive analysis of air pollution and the influence of meteorological factors: a case study of adiyaman province
+Article 09 May 2024
+Spatio-temporal patterns and trends of the air pollution integrating MERRA-2 and in situ air quality data over Egypt (2013–2021)
+Article Open access
+19 May 2023
+The evaluation of forty years of air quality and trend of air pollutants in Erzurum City
+Article 22 April 2024
+Data availability
+O3, PM10 and PM2.5 data publicly available online at http://sim.csb.gov.tr/SERVICES/airquality  or https://havakalitesi.ibb.gov.tr/. Metar and Speci data publicly available online at https://mesonet.agron.iastate.edu/request/download.phtml. However, Ceilometer data can be requested from the corresponding author with a reasonable request.
+References
+Anenberg, S. C., Miller, J., Minjares, R., Du, L., Henze, D. K., Lacey, F., Malley, C. S., Emberson, L., Franco, V., Klimont, Z., & Heyes, C. (2017). Impacts and mitigation of excess diesel-related NO x emissions in 11 major vehicle markets. Nature, 545(7655), 467–471. https://doi.org/10.1038/nature22086
+Article
+  CAS
+  Google Scholar
+  Baltaci, H., Alemdar, C. S. O., & Akkoyunlu, B. O. (2020). Background atmospheric conditions of high PM10 concentrations in Istanbul Turkey. Atmospheric Pollution Research, 11(9), 1524–1534. https://doi.org/10.1016/j.apr.2020.06.020
+Article
+  CAS
+  Google Scholar
+  Barriopedro, D., García-Herrera, R., Lupo, A. R., & Hernández, E. (2006). A climatology of Northern Hemisphere blocking. Journal of Climate, 19(6), 1042–1063. https://doi.org/10.1175/JCLI3678.1
+Article
+  Google Scholar
+  Beard, J. D., Beck, C., Graham, R., Packham, S. C., Traphagan, M., Giles, R. T., & Morgan, J. G. (2012). Winter temperature inversions and emergency department visits for asthma in Salt Lake County, Utah, 2003–2008. Environmental Health Perspectives, 120(10), 1385–1390. https://doi.org/10.1289/ehp.1104349
+Article
+  Google Scholar
+  Bian, Y., Huang, Z., Ou, J., Zhong, Z., Xu, Y., Zhang, Z., Xiao, X., Ye, X., Wu, Y., Yin, X., Li, C., Chen, L., Shao, M., & Zheng, J. (2019). Evolution of anthropogenic air pollutant emissions in Guangdong Province, China, from 2006 to 2015. Atmospheric Chemistry and Physics, 19, 11701–11719. https://doi.org/10.5194/acp-19-11701-2019
+Article
+  CAS
+  Google Scholar
+  Birinci, E., Deniz, A., & Özdemir, E. T. (2023a). The relationship between PM10 and meteorological variables in the mega city İstanbul. Environmental Monitoring and Assessment, 195, 304. https://doi.org/10.1007/s10661-022-10866-3
+Article
+  CAS
+  Google Scholar
+  Birinci, E., Denizoğlu, M., Özdemir, H., Özdemir, E. T., & Deniz, A. (2023b). Ambient air quality assessment at the airports based on a meteorological perspective. Environmental Monitoring and Assessment, 195, 1542. https://doi.org/10.1007/s10661-023-12135-3
+Article
+  CAS
+  Google Scholar
+  Birinci, E., Özdemir, E. T., & Deniz, A. (2023c). An investigation of the effects of sand and dust storms in the North East Sahara Desert on Turkish airports and PM10 values: 7 and 8 April, 2013 events. Environmental Monitoring and Assessment, 195, 708. https://doi.org/10.1007/s10661-023-11288-5
+Article
+  CAS
+  Google Scholar
+  Çapraz, Ö., & Deniz, A. (2021). Particulate matter (PM10 and PM2.5) concentrations during a Saharan dust episode in İstanbul. Air Quality, Atmosphere and Health, 14, 109–116. https://doi.org/10.1007/s11869-020-00917-4
+Article
+  CAS
+  Google Scholar
+  Carrera, M. L., Higgins, R. W., & Kousky, V. E. (2004). Downstream weather impacts associated with atmospheric blocking over the northeast Pacific. Journal of Climate, 17(24), 4823-4839. https://doi.org/10.1175/JCLI-3237.1
+Cho, J. H., Kim, H. S., & Yoon, M. B. (2022). The influence of atmospheric blocking on regional PM10 aerosol transport to South Korea during February–March of 2019. Atmospheric Environment, 277, 119056. https://doi.org/10.1016/j.atmosenv.2022.119056
+Article
+  CAS
+  Google Scholar
+  Copernicus. (2023). https://atmosphere.copernicus.eu/air-quality. Accessed on 10.01.2023.
+Cumhuriyet. (2023) https://www.cumhuriyet.com.tr/turkiye/istanbulda-hava-kirliligi-alarmi-bu-ilcelerde-pencere-bile-acmayin-2018082. Accessed on 01.01.2023. (in Turkish).
+Dempsey, F. (2018). A survey of regional-scale blocking patterns and effects on air quality in Ontario, Canada. Atmosphere, 9(6), 226. https://doi.org/10.3390/atmos9060226.
+ECMWF (2023). https://cds.climate.copernicus.eu/cdsapp#!/dataset/reanalysis-era5-single-levels?tab=overview. Accessed on 15.01.2023.
+Efe, B., & Lupo, A. R. (2022). Global trends in the occurrence and characteristics of blocking anticyclones using Şen innovative trend analysis. Theoretical and Applied Climatology, 2022(150), 763–776. https://doi.org/10.1007/s00704-022-04195-1
+Article
+  Google Scholar
+  Efe, B., Lupo, A. R., & Deniz, A. (2019). The relationship between atmospheric blocking and precipitation changes in Turkey between 1977 and 2016. Theoretical and Applied Climatology, 138, 1573–1590. https://doi.org/10.1007/s00704-019-02902-z
+Article
+  Google Scholar
+  Eliasson. (2024). http://www.eliasson.com/products/cbme80.shtml. Accessed on 10 April 2024.
+Fedorovich, E., Kaiser, P., Rau, M., & Plate, E. (1996). Wind tunnel study of turbulent flow structure in the convective boundary layer capped by a temperature inversion. Journal of Atmospheric Science, 53(9), 1273–1289. https://doi.org/10.1175/1520-0469(1996)053%3c1273:WTSOTF%3e2.0.CO;2
+Article
+  Google Scholar
+  Francis Ch, I., Alexander, O., Pascal Chu, N., & Jude Ikech, A. (2017). Ambient air quality assessment of Orlu, Southeastern, Nigeria. Nigeria. Journal of Applied Sciences, 17(9), 441–457. https://doi.org/10.3923/jas.2017.441.457
+Article
+  CAS
+  Google Scholar
+  GISS. (2023). https://www.giss.nasa.gov/tools/panoply/. Accessed on 25 October 2023.
+He, B.-J., Ding, L., & Prasad, D. (2019). Enhancing urban ventilation performance through the development of precinct ventilation zones: A case study based on the Greater Sydney. Australia. Sustainable Cities and Society, 47, 101472. https://doi.org/10.1016/j.scs.2019.101472
+Article
+  Google Scholar
+  Huang, Y., Surawski, N. C., Yam, Y. S., Lee, C. K., Zhou, J. L., Organ, B., & Chan, E. F. (2020). Re-evaluating effectiveness of vehicle emission control programmes targeting high-emitters. Nature Sustainability, 3(11), 904–907. https://doi.org/10.1038/s41893-020-0573-y
+Article
+  Google Scholar
+  IBB. (2024). https://havakalitesi.ibb.gov.tr/Icerik/%C4%B0stanbul-hava-kalitesi/guncel-durum. Accessed on 10 February 2024.
+Incecik, S., & Im, U. (2012). Air pollution in mega cities: A case study of Istanbul. In Air Pollution - Monitoring, Modelling and Health. https://doi.org/10.5772/32040
+Article
+  Google Scholar
+  IOWA. (2023). https://mesonet.agron.iastate.edu/request/download.phtml?network=TR__ASOS. Accessed on 25 October 2023.
+Jiang, N., Dirks, K. N., & Luo, K. (2014). Effects of local, synoptic and large-scale climate conditions on daily nitrogen dioxide concentrations in Auckland, New Zealand. International Journal of Climatology, 34(6), 1883–1897. https://doi.org/10.1002/joc.3808
+Article
+  CAS
+  Google Scholar
+  Karagulian, F., Belis, C. A., Dora, C. F. C., Prüss-Ustün, A. M., Bonjour, S., Adair-Rohani, H., & Amann, M. (2015). Contributions to cities’ ambient particulate matter (PM): A systematic review of local source contributions at global level. Atmospheric Environment, 120, 475–483. https://doi.org/10.1016/j.atmosenv.2015.08.087
+Article
+  CAS
+  Google Scholar
+  Liu, W., Xu, Z., & Yang, T. (2018). Health effects of air pollution in China. International Journal of Environmental Research and Public Health, 15(7), 1471. https://doi.org/10.3390/ijerph15071471
+Article
+  Google Scholar
+  Liu, Y., Zhou, Y., & Lu, J. (2020). Exploring the relationship between air pollution and meteorological conditions in China under environmental governance. Science and Reports, 10, 14518. https://doi.org/10.1038/s41598-020-71338-7
+Article
+  CAS
+  Google Scholar
+  Lupo, A. R., Jensen, A. D., Mokhov, I. I., Timazhev, A. V., Eichler, T., & Efe, B. (2019). Changes in global blocking character in recent decades. Atmosphere, 10(2), 92.  https://doi.org/10.3390/atmos10020092.
+Mentese, S., & Ogurtani, S. Ö. (2022). Spatial and temporal look at ten-years air quality of Istanbul city. International Journal of Environmental Science and Technology, 19, 925–938. https://doi.org/10.1007/s13762-020-03061-9
+Article
+  CAS
+  Google Scholar
+  Mishra, S. R., Pradhan, R. P., Prusty, B. A. K., & Sahu, S. K. (2016). Meteorology drives ambient air quality in a valley: A case of Sukinda chromite mine, one among the ten most polluted areas in the world. Environmental Monitoring and Assessment, 188, 402. https://doi.org/10.1007/s10661-016-5393-1
+Article
+  CAS
+  Google Scholar
+  NTV. (2023). https://www.ntv.com.tr/galeri/turkiye/istanbulda-hava-kirliligi-alarmi-bu-ilcelerde-pencere-bile-acmayin,UUJEfJyhAUCEMU2u px1Qg/XKQ5GakM6UuWpCibrPgYnQ. Accessed on 01.01.2023. (in Turkish).
+Orfanoz-Cheuquelaf, A., Rozanov, A., Weber, M., Arosio, C., Ladstätter-Weißenmayer, A., & Burrows, J. P. (2021). Total ozone column from Ozone Mapping and Profiler Suite Nadir Mapper (OMPS-NM) measurements using the broadband weighting function fitting approach (WFFA). Atmospheric Measurement Techniques, 14(8), 5771–5789. https://doi.org/10.5194/amt-14-5771-2021
+Article
+  Google Scholar
+  Özdemi̇r, E. T. (2019). Investigations of a southerly non-convective high wind event in Turkey and effects on PM10 values: A case study on April 18, 2012. Pure and Applied Geophysics, 176(10), 4599–4622. https://doi.org/10.1007/s00024-019-02240-1
+Article
+  Google Scholar
+  Ozdemir, H., Mertoglu, B., Demir, G., Deniz, A., & Toros, H. (2012). Case study of PM pollution in playgrounds in Istanbul. Theoretical and Applied Climatology, 108, 553–562. https://doi.org/10.1007/s00704-011-0543-4
+Article
+  Google Scholar
+  Patriarca, R., Simone, F., & Di Gravio, G. (2023). Supporting weather forecasting performance management at aerodromes through anomaly detection and hierarchical clustering. Expert Systems with Applications, 213, 119210. https://doi.org/10.1016/j.eswa.2022.119210
+Article
+  Google Scholar
+  Pyrgou, A., Hadjinicolaou, P., & Santamouris, M. (2018). Enhanced near-surface ozone under heatwave conditions in a Mediterranean island. Science and Reports, 8, 9191. https://doi.org/10.1038/s41598-018-27590-z
+Article
+  CAS
+  Google Scholar
+  Şahin, F., Işik, G., Şahin, G., & Kara, M. K. (2020). Estimation of PM10 levels using feed forward neural networks in Igdir Turkey. Urban Climate, 34, 100721. https://doi.org/10.1016/j.uclim.2020.100721
+Article
+  Google Scholar
+  Scherrer, S., & Appenzeller, C. (2006). Swiss Alpine snow pack variability: Major patterns and links to local climate and large-scale flow. Climate Research, 32, 187–199. https://doi.org/10.3354/cr032187
+Article
+  Google Scholar
+  Ser-Giacomi, E., Vasile, R., Recuerda, I., Hernández-García, E., & López, C. (2015). Dominant transport pathways in an atmospheric blocking event. Chaos, 25, 087413. https://doi.org/10.1063/1.4928704
+Article
+  Google Scholar
+  Shahgedanova, M., Burt, T. P., & Davies, T. D. (1998). Synoptic climatology of air pollution in Moscow. Theoretical and Applied Climatology, 61, 85–102. https://doi.org/10.1007/s007040050054
+Article
+  Google Scholar
+  Sirdas, S. A., Özdemir, E. T., Sezen, İ, Efe, B., & Kumar, V. (2017). Devastating extreme Mediterranean cyclone’s impacts in Turkey. Natural Hazards, 87(1), 255–286. https://doi.org/10.1007/s11069-017-2762-1
+Article
+  Google Scholar
+  Summak, G., Özdemir, H., Oruç, İ., Kuzu, S., Saral, A., & Demir, G. (2018). Statistical evaluation and predicting the possible sources of particulate matter in a Mediterranean metropolitan city. Global Nest Journal, 20(2). https://doi.org/10.30955/gnj.002333
+TUIK. (2024). https://www.tuik.gov.tr/. Accessed on 10.04.2024.
+Viatte, C., Clerbaux, C., Maes, C., Daniel, P., Garello, R., Safieddine, S., & Ardhuin, F. (2020). Air pollution and sea pollution seen from space. Surveys in Geophysics, 41, 1583–1609. https://doi.org/10.1007/s10712-020-09599-0
+Article
+  Google Scholar
+  Wallace, J., & Kanaroglou, P. (2009). The effect of temperature inversions on ground-level nitrogen dioxide (NO2) and fine particulate matter (PM2. 5) using temperature profiles from the Atmospheric Infrared Sounder (AIRS). Science of the Total Environment, 407(18), 5085–5095. https://doi.org/10.1016/j.scitotenv.2009.05.050
+Article
+  CAS
+  Google Scholar
+  Wendisch, M., Mertes, S., Ruggaber, A., & Nakajima, T. (1996). Vertical profiles of aerosol and radiation and the influence of a temperature inversion: Measurements and radiative transfer calculations. Journal of Applied Meteorology and Climatology, 35(10), 1703–1715. https://doi.org/10.1175/1520-0450(1996)035%3c1703:vpoaar%3e2.0.co;2
+Article
+  Google Scholar
+  Wyoming. (2023). https://weather.uwyo.edu/upperair/sounding.html. Accessed on 15.01.2023.
+Yang, J., Liu, S., Geng, Q., Chen, G., & Wang, Y. (2022). Estimation of PM2.5 concentration considering meteorological factors, policy, and interregional atmospheric transport. International Journal of Environmental Science and Technology, 19, 8479–8490. https://doi.org/10.1007/s13762-021-03717-0
+Article
+  Google Scholar
+  Yavuz, V., Özen, C., Çapraz, Ö., Özdemir, E. T., Deniz, A., Akbayır, İ., & Temur, H. (2022). Analysing of atmospheric conditions and their effects on air quality in İstanbul using SODAR and CEILOMETER. Environmental Science and Pollution Research, 1–20. https://doi.org/10.1007/s11356-021-16958-w
+Yun, S. G., & Yoo, C. (2019). The effects of spring and winter blocking on PM10 concentration in Korea. Atmosphere, 10(7), 410. https://doi.org/10.3390/atmos10070410
+Article
+  CAS
+  Google Scholar
+  Zoran, M. A., Savastru, R. S., Savastru, D. M., & Tautan, M. N. (2020). Assessing the relationship between surface levels of PM2. 5 and PM10 particulate matter impact on COVID-19 in Milan. Italy. Science of the Total Environment, 738, 139825. https://doi.org/10.1016/j.scitotenv.2020.139825
+Article
+  CAS
+  Google Scholar
+  Download references
+Acknowledgements
+We thank İstanbul Metropolitan Municipality for providing Air quality data. We also thank Dr. Hüseyin OZDEMIR and Associate Professor Bahtiyar EFE, as well as the editor and reviewers, for their valuable comments and suggestions.
+Funding
+This work was supported by the Scientific Research Projects Department of İstanbul Technical University (İTÜ), project Number: 44538.
+Author information
+Authors and Affiliations
+Department of Meteorological Engineering, İstanbul Technical University, 34469, Maslak, Istanbul, Turkey
+Emrah Tuncay Özdemir, Enes Birinci & Ali Deniz
+Contributions
+Emrah Tuncay Özdemir: conception, designed, and wrote the first draft of the manuscript. Enes Birinci: visualization, data process, and methodology. Ali Deniz: review and editing. All authors checked the manuscript and made additions and corrections.
+Corresponding author
+Correspondence to Enes Birinci.
+Ethics declarations
+Ethics approval and consent to participate
+Not applicable.
+Consent for publication
+Not applicable.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary Information
+Below is the link to the electronic supplementary material.
+Supplementary file1 (DOCX 1298 KB)
+Rights and permissions
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+Reprints and permissions
+About this article
+Cite this article
+Özdemir, E.T., Birinci, E. & Deniz, A. Multi-source observations on the effect of atmospheric blocking on air quality in İstanbul: a study case. Environ Monit Assess 196, 698 (2024). https://doi.org/10.1007/s10661-024-12873-y
+Download citation
+Received
+21 January 2024
+Accepted
+28 June 2024
+Published
+04 July 2024
+DOI
+https://doi.org/10.1007/s10661-024-12873-y
+Keywords
+Boundary layer
+Ceilometer
+Omega-type blocking
+PM10
+PM2.5
+Total column ozone
+Access this article
+Log in via an institution
+Buy article PDF 39,95 €
+Price includes VAT (Italy)
+Instant access to the full article PDF.
+Rent this article via DeepDyve
+Institutional subscriptions
+Sections
+Figures
+References
+Abstract
+Data availability
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Supplementary Information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

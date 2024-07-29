@@ -1,0 +1,267 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Sustainability
+All Article Types
+Advanced
+  Journals Sustainability Volume 16 Issue 13 10.3390/su16135420
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Behnaz Saboori
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+828
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Continuous Ozonation Coupled with UV-C Irradiation for a Sustainable Post-Harvest Processing of Vaccinium macrocarpon Ait. Fruits to Reduce Storage Losses
+by Natalia Matłok
+1,*, Tomasz Piechowiak
+2, Miłosz Zardzewiały
+1, Bogdan Saletnik
+3 and Maciej Balawejder
+2
+1
+Department of Food and Agriculture Production Engineering, Collegium of Natural Sciences, University of Rzeszów, 35-601 Rzeszów, Poland
+2
+Department of Chemistry and Food Toxicology, Collegium of Natural Sciences, University of Rzeszów, 35-601 Rzeszów, Poland
+3
+Department of Bioenergetics, Food Analysis and Microbiology, Institute of Food Technology and Nutrition, College of Natural Science, Rzeszow University, 35-601 Rzeszów, Poland
+*
+Author to whom correspondence should be addressed.
+Sustainability 2024, 16(13), 5420; https://doi.org/10.3390/su16135420
+Submission received: 22 May 2024 / Revised: 21 June 2024 / Accepted: 24 June 2024 / Published: 26 June 2024
+(This article belongs to the Special Issue Environmental and Economic Sustainability in Agri-Food System)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Ozonation and UV irradiation are promising sustainable methods for extending the shelf life of stored fruits. The aim of this research was to evaluate the effectiveness of the constructed system, enabling simultaneous ozonation and UV-C irradiation of cranberry fruits in extending their shelf life. The effectiveness of this solution was determined by analyzing the properties of fruits subjected to the processes. The impact of these processes on the shelf life of fruits was assessed during 42 days of storage at a temperature of 8 °C and 80% humidity. It was demonstrated that applying the ozonation process to fruits, as facilitated by the developed solution’s throughput, led to a reduction in microbiological load (fermentation bacteria count reduction by 3.4 log cfu−1), resulting in an extension of their shelf life and a reduction in storage losses (8.98% by mass). The implementation of the developed solution, by reducing water loss and limiting fruit losses (approximately 5% less compared to the control group) during storage, contributes to tangible benefits for the producers and distributors of these fruits. The proposed modification has a positive environmental effect by reducing waste and makes the cultivation of cranberries more sustainable and environmentally friendly.
+Keywords: Vaccinium macrocarpon Ait. fruits; cranberry fruit; ozone treatment; UV-C irradiation; microbiological load; shelf life; waste
+1. Introduction
+Cranberries, also known as American cranberries (Vaccinium macrocarpon Ait.), are a species of evergreen shrubs native to North America. They are well-known for their large, tart, and red berries. These cranberries grow in acidic bogs and wetlands and are an important commercial crop in several regions, especially in the United States and Canada [1]. Cranberry cultivation usually involves flooding the cranberry bogs during harvest season [2,3]. When the bogs are flooded, the cranberries float to the surface due to small air pockets inside the berries, making them easier to harvest. Cranberries are typically harvested in the fall and are used in various culinary applications, especially during holiday seasons.
+Cranberries are highly regarded for their potential health benefits, being abundant sources of antioxidants [4] and anti-inflammatory [5]. Cranberries are considered to be among the best antioxidant-rich foods due to their richness in polyphenols. They are a good source of dietary fiber, vitamins, sugars, essential dietary minerals and micronutrients, polyphenols, flavonols, phenolic and organic acids, pentacyclic triterpenoids, quercetin, anthocyanins, and proanthocyanidins [6,7,8]. Similar to other sources of antioxidants, cranberry consumption is recommended when protection against oxidative stress is necessary [9].
+Vaccinium macrocarpon is one of the most commonly cultivated species for commercial use. Reducing losses in the cranberry supply chain involves implementing strategic measures to minimize wastage and enhance overall efficiency. For cranberries, immediate cooling ranging from 0 to 7 °C after harvest is crucial to prolong shelf life. A relative humidity of around 80% is recommended to maximize their storage duration [10].
+To extend the shelf life of fruits and vegetables, conventional chemical treatments, known as antibacterial solutions, were introduced. As consumers have become more critical of the use of synthetic food additives or the application of peroxyacetic acid and/or sodium hypochlorite to control foodborne pathogens on food products, more ecological technologies have been introduced to maintain the safety and quality of plant raw materials. Among the available technologies, gaseous ozone [11] and ultraviolet radiation [12] have been introduced into widespread use. These methods are non-toxic and non-invasive. Additionally, these methods offer many advantages, including not having chemical residues, reduced waste, and low energy consumption [13,14]. UV-C radiation [15] and ozone gas are used in the food industry in continuous food preservation processes [16]. Other methods of preserving plant raw materials are used primarily in periodic processes and are not intended for post-harvest processing [17].
+Enhancing the quality and extending the market lifespan of fresh cranberries is pivotal for accessing new markets and adding value to the fruits [17]. Post-harvest fruit quality degradation primarily occurs due to factors such as decay, physiological breakdown, physical damage, and dehydration [10]. To maximize shelf life, it is imperative that the fruit is of high initial quality. Several factors influence initial quality, including the specific cultivar, cultural practices, growing conditions, and harvesting methods [18].
+Finding reliable post-harvest technologies to optimize the marketing of high-quality fresh fruits remains a challenge [19]. By integrating efficient storage strategies, the cranberry supply chain can become more efficient, reducing losses and ensuring a more sustainable and profitable industry [20]. Some post-harvest treatments, such as UV light [10] and ozone [15], have been tested to enhance the storage life of fruit. There are numerous scientific reports that refer to the use of UV-C radiation on plant raw materials. The doses of radiation used vary and depend on the type of raw material subjected to this factor [21].
+Modifying the shelf life of fruits after harvest and controlling microbiological contamination often rely on the use of chemical compounds that are harmful to human health and the environment. Currently, alternatives to standard technologies are being sought to ensure consumer safety and raw material quality [22]. Ozone is one of the most promising methods for disinfecting fresh products, with several areas of application in the food industry [23,24,25]. Additionally, it is worth noting that there are scientific reports indicating the use of combined variable factors such as UV-C radiation and gaseous ozone on plant materials. Gutiérrez et al. [26] applied UV-C radiation at doses of 5, 10, and 20 kJ·m−2 and ozone at concentrations of 1, 2, and 5 ppm to freshly cut arugula. The researchers found that UV-C radiation and gaseous ozone did not have a negative impact on the freshly cut arugula. Martínez-Hernández [27] reports that the combined application of disinfecting treatments such as UV-C radiation and gaseous ozone can have a synergistic effect, allowing for a greater reduction in microorganisms in products.
+The aim of this research was to evaluate the effectiveness of the constructed system, enabling simultaneous ozonation and UV-C irradiation of cranberry fruits to extend their shelf life. The effectiveness of the developed solution was determined through storage tests lasting 42 days, during which the microbiological load, water content, mechanical properties, and storage losses of the cranberry fruits were analyzed.
+2. Materials and Methods
+2.1. Construction of a System for Continuous Ozonation and UV Exposure
+The system for reducing the microbiological load is a composition of a spiral conveyor enabling a continuous process of ozonation and UV-C radiation (Figure 1). This system is composed of an ozone chamber (1) of a regular hexagonal shape with a side length (3) of 1.2 m and a height of 3 m for large cranberries harvested using the wet harvesting method. Ozone gas is supplied to the chamber through nozzles (2). Ozone is generated by a set of Korona L 400 TOWER generators (Korona Lab, Piotrków Trybunalski, Poland) with a capacity of 240 g h−1. The chamber (1) is equipped with an inlet (4) for the fruits located in the lower part of the chamber and an outlet (6) for the fruits in the upper part of the chamber. In the chamber, a centrally placed spiral conveyor (8) with a length ensuring a 1.5 min residence time for the fruits in the chamber is located. The chamber is equipped with an inlet (51) and an outlet (71), which are used for fruit transportation. UV-C ultraviolet radiation sources (9) are located in the lower housing (5) and upper housing (7) of the chamber. Each UV-C radiation source consists of two sets of UltraViol NBV 2 × 30 N lamps (UltraViol, Zgierz, Poland) (9) with a total radiation intensity of 20 W m−2 (exposure time 3 s), positioned at the inlet and outlet for the fruits. The irradiation source is located 30 cm away from the layer of fruits. The lower and upper housings prevent UV-C radiation from escaping outside the device. The chamber is equipped with a ventilation system (10) that generates slight negative pressure and is located along the axis of the spiral conveyor. Ozone concentration in the chamber is measured using a 2B Technolgies 106M sensor (2B Technologies, Broomfield, CO, USA) with a measurement range of 0–1000 ppm. The flow of gaseous ozone is directed counter to the direction of cranberry transport and is induced by the ventilation system. This system includes a blower and is equipped with a frequency converter, allowing for smooth adjustment of the blower’s capacity, which can reduce the pressure by a maximum of 1% compared to atmospheric pressure. The system allows a combined process of ozone treatment and UV-C irradiation of large cranberries from 0 to 100 ppm in 1.5 min, determined by the system’s dimensions. It should be noted that this time can be modified by changing the geometric parameters of the system. In order to design the effective technical solution presented in this manuscript, preliminary research was carried out. This allowed us to improve the effective technical solution presented in the article and thus eliminate possible defects.
+Figure 1. Schematic diagram of the effective technical solution apparatus allowing for the combined process of ozone treatment and UV-C irradiation of cranberries in a continuous system ((A) top view; (B) side view). Figure description: chamber (1), chamber nozzles (2), chamber walls (3), inlet (4), lower housing (5), outlet (6), upper housing (7), spiral conveyor (8), UV-C ultraviolet radiation sources (9), ventilation system (10), inlet (51) and outlet (71) fruit transportation system.
+2.2. Research Material
+The research material consisted of fresh cranberries of the ‘Pilgrim’ variety, harvested directly using the wet harvesting method. The fruits exhibited a red-purple color, had no mechanical damage, and had a water content of approximately 90%. The fruits were harvested from a private plantation on 25 October 2022, at the field GPS location of 50°42′00″ N 21°54′13″ E (Original Food Sp. z o.o.; Nowiny, Poland). After harvesting, the cranberries were stored with the proposed procedures (control, i.e., without extra treatment; cranberries subjected to UV-C irradiation; cranberries subjected to ozone treatment; cranberries subjected to the combined method of UV-C irradiation and ozone treatment) in a climatic chamber at a temperature of 8 °C and a humidity of 80% for 42 days.
+2.3. Determination of Microbiological Load
+On day 42 of storage (temperature 8 °C, humidity 80%), the representative samples of cranberries for each variant in the amount of 20 kg were subjected to microbiological analyses depending on the applied modification of post-harvest processing technology. The total bacterial and yeast counts, counts of mesophilic lactic acid fermentation bacteria, and counts of mesophilic aerobic bacteria were determined. The analyses were conducted following the methods described in the work by Matłok et al. [28]. The measurements were carried out in triplicate.
+2.4. Determination of Water Content in Fruit
+To determine the water content in cranberries during their storage, depending on the applied modification of post-harvest processing technology, approximately 100 g of fruit (50 fruits) were randomly (14, 28, and 42 days of storage) sampled from each experimental variant. Subsequently, a Radwag MA50.R moisture balance (RADWAG; Radom, Poland) was used to dry the fruit samples at a temperature of 105 °C. The drying process continued until a constant weight was achieved. The water content in the raw material was expressed as a percentage (%).
+2.5. Mechanical Properties of Fruit
+At selected time intervals (14, 28, and 42 days of storage), fruit samples for each variant (approximately 300 g) were taken from the respective experimental variants to determine the effect of the applied post-harvest modification on the fruit’s resistance to mechanical damage occurring during storage. The fruits were subjected to a puncture process using a stamp with a diameter (φ) of 6 mm. Measurements were conducted using a Zwick/Roell Z010 strength testing machine (Zwick Roell Polska Sp. z o.o. Sp. K.; Wrocław, Poland) following the methodology described in the work by Zapałowska et al. [29].
+2.6. Determining the Extent of Fruit Losses
+To determine an effect of the applied post-harvest processing technology modifications on the shelf life of cranberries, the level of fruit losses during 42 days of storage was assessed. The level of losses was determined through visual inspection, expressed as a percentage of the mass of fruit damaged by storage-related diseases in relation to the initial mass of all stored fruits per treatment (excluding fruits used for other analyses). Fruits with visible signs of infection, irregular geometry, and visible symptoms of fungal diseases were detected. Each variant of the experiment consisted of 10 packages of cranberries. Each package contained 1 kg of fruit.
+2.7. Statistical Analysis
+The statistical analysis of the obtained research results was conducted following the methodology described in the work by Matłok et al. [30]. The analysis was performed based on the Tukey test (significance level p < 0.05).
+3. Results and Discussion
+3.1. Modification of the Post-Harvest Processing Technology for Wet-Harvested Cranberries
+To modify the post-harvest processing of cranberries (washing and drying of the fruit), a prototype device for the combined process of ozone treatment and UV-C irradiation was designed and constructed, allowing for a continuous system (2.1) [30,31]. This is achieved by maintaining an ozone atmosphere of 100 ppm for 1.5 min. These conditions are sufficient to reduce the number of microorganism colonies. As indicated by Matłok et al. [28], concentrations of just a few ppm are sufficient to extend the shelf life of fruit, but the required exposure times are much longer. This solution is dedicated to reducing the microbiological load of harvested raw materials, ultimately leading to a reduction in losses during storage. The modifications involve expanding the standard installation for the harvesting of cranberries by incorporating a continuous ozonation and UV-C irradiation system prior to the final processing stage after harvesting, typically involving fruit drying. This is significant because microorganisms are more susceptible to the action of disinfecting agents when there is appropriate water activity and the microorganisms are not in spore forms [29].
+3.2. Reducing the Microbiological Load on Large Fruit
+The berries are particularly susceptible to microbial contamination due to water usage during harvesting, and the high water activity of the fruit surface promotes pathogen development [32]. To reduce microbial contamination, a prototype device was designed to combine ozone treatment and UV-C irradiation, or to use them separately (Figure 1).
+Various technological tests were performed to confirm the effectiveness of the proposed solutions. Ozone treatment alone, in particular, reduced the mesophilic lactic acid fermentation bacteria count by 3.4 log cfu−1 compared to the control group. Similar effects were observed for other analyzed microbial organism types (Figure 2).
+Figure 2. Microbiological load of cranberries on day 42 of storage. UV-C—cranberries subjected to UV-C irradiation; O—cranberries subjected to ozone treatment; UV-C + O—cranberries subjected to the combined method of UV-C irradiation and ozone treatment. Different letters indicate significant differences between experimental variants, significance level is defined as p < 0.05 (based on the Tukey test).
+The effectiveness of each treatment method depended on factors such as intensity and duration of exposure. Ozone treatment demonstrated the higher effectiveness due to its oxidative potential and the technical solution’s design. Additionally, the time of exposure to ozone was longer (1.5 min) compared to UV-C irradiation (3 s). The presented results also highlighted the importance of the direction of gas flow and its impact on treatment effectiveness. It should be noted that when using UV-C radiation, in most cases we treat the fruit surfaces directly facing the radiation source. However, the use of ozone in gaseous form is more effective because this factor is able to reduce the microbiological load on the entire surface. The observations carried out indicate that the fruits on the conveyor line are arranged in one layer and there are free spaces between them, allowing penetration of the gas.
+The combined method, which involved both ozone treatment and UV-C irradiation, did not demonstrate the expected superior antimicrobial effectiveness. However, the presence of UV lamps in the system is justified because certain microorganisms in other cases may be selectively resistant to ozone (Gram-negative bacteria) [32] but susceptible to UV-C radiation (Fusarium, Cladosporium, and Acremonium) [14].
+The diversity of cranberry raw materials, variable weather conditions during production and harvesting, different fertilization methods, and other factors were noted as reasons for the varying microbial contamination of cranberries [31]. It should be noted that microorganisms were analyzed whose presence causes storage losses [33]. Each batch of fruits met the microbiological criteria defined in Commission Regulation (EC) No 2073/2005 of 15 November 2005 on microbiological criteria for foodstuffs.
+3.3. Cranberry Fruit Texture Analysis
+3.3.1. Water Content
+Cranberries are structured in multiple layers, with their surface covered by an exocarp [32] which is coated with hydrophobic substances. Storage diseases primarily arise due to pathogenic microorganisms. These microbes damage the exocarp, leading to escalated water loss, loss of turgor, and ultimately, spoilage of stored fruits [34]. Macroscopically, the occurrence of such damages can be analyzed by assessing the water content in the fruits.
+The use of the prototype apparatus for the combined ozone and UV-C irradiation process at the initial post-harvest stage of cranberries affected the kinetics of water loss (Figure 3). The water content in cranberries immediately after harvest and treatments did not differ significantly, averaging 88.6%. The post-harvest treatments significantly influenced the water content in the fruits on the 14th day of storage. The smallest water loss during this period was observed for cranberries subjected to ozone treatment and the combined method (average water content was approximately 87.7%). Surprisingly, the largest water loss was found for fruits subjected to UV-C irradiation, and was comparable to the water loss in the control group. This observation may indicate that the UV-C irradiation process applied at the post-harvest stage damaged the exocarp of the fruits, resulting in a relatively increased water loss during the 14-day storage period. These results, to some extent, explain the reduced effectiveness in reducing the microflora using UV-C radiation and the combined technique (UV-C radiation and ozone treatment). Exocarp damage due to UV-C radiation facilitates the penetration of microorganisms into the mesocarp, reducing the effectiveness of surface disinfection methods. As pointed out by other researchers [35,36], strong UV-C radiation can, under certain conditions, damage the external layers of plants. On the last day of the storage experiment (day 42), it was confirmed that the applied post-harvest treatment modifications of cranberries worked preventively to limit water loss in all variants. The best results were observed for the ozone-treated variant, with an average water content of 85.3%, which was over 2% higher than the water content in the control group. Water content was determined by the mass method, meaning that comparable batches of stored fruits ultimately differed by 2% in weight. This is highly significant from an economic perspective because with large volumes of stored raw materials, the difference ultimately results in increased supply of raw materials to the market. It is also important to note that after 42 days of storage, the average market price significantly increases compared to the price immediately after harvest, which amplifies the economic effects of implementing the proposed solutions [37].
+Figure 3. Water content in cranberries on the 42nd day of storage. Lowercase letters indicate significant differences between experimental variants on specific days of the experiment; uppercase letters indicate significant differences between the days of the experiment for the same experimental variants; significance level is defined as p < 0.05 (based on the Tukey test). UV-C—cranberries subjected to UV-C irradiation; O—cranberries subjected to ozone treatment; UV-C + O—cranberries subjected to the combined method of UV-C irradiation and ozone treatment.
+3.3.2. Mechanical Properties of Cranberry Fruits
+The obtained results regarding the microbiological load and water content in cranberries indicate varying effectiveness of the applied modifications in reducing the microbiological burden, and in some cases, the hypothesis of exocarp damage due to UV-C irradiation was postulated. One method used to confirm this hypothesis and determine the fruit’s durability is the measurement of mechanical properties. Figure 4 presents the values of the force required to pierce the exocarp and mesocarp of the fruit, depending on the applied post-harvest treatment. It is important to note that the measurements were conducted on representative fruit samples without visible signs of storage diseases or other mechanical damage. It was found that the applied modifications (ozonation and UV-C irradiation, as well as the combined method) did not significantly affect the recorded maximum force values (Figure 4). However, it was observed that the parameters of the force required on the 14th and 28th days of storage for the fruit samples subjected to UV-C irradiation and the combined method were lower than in the other experimental variants. This confirms the hypothesis that UV-C irradiation slightly damages the exocarp in the case of fruits, consequently affecting the microbiological load, water content, and fruit resistance to mechanical force. The measurement and analysis of the mechanical properties of fruits are indicators of their durability during storage and distribution. Several variable factors influence the mechanical properties of fruits and vegetables, such as storage conditions and the application of post-harvest processing techniques (washing, drying, etc.) [38]. Among the post-harvest techniques applied, UV irradiation and ozone treatment are frequently used on fruits and vegetables after harvesting. There is a body of scientific literature indicating that controlled ozone treatment enhances the mechanical properties of cucumbers [39]. Additionally, UV-C irradiation can affect the firmness of fruits, which is closely related to the mechanical properties of plant materials. However, the impact varies depending on the parameters of the UV-C irradiation process, the type of raw material, and its properties. In most cases, plant materials subjected to UV-C irradiation contribute to maintaining firmness during storage compared to control samples. Research results for peppers treated with moderate UV-C doses (6.6 and 7.0 kJ m−2) confirm that the applied variable factor limits the decrease in firmness of the tested fruits compared to the control sample [40,41,42,43]. Similar results were obtained for tomatoes. After applying UV-C radiation (3.7 kJ m−2), the fruits were characterized by higher values of parameters determining their peel and pulp resistance to damage [38]. However, these fruits have a different morphological structure and react differently from V. macrocarpon fruits.
+Figure 4. The force values required to pierce cranberries in the puncture test depending on the applied post-harvest processing technology modifications. UV-C—fruit subjected to UV-C irradiation; O—fruit subjected to ozone treatment; UV-C + O—fruit subjected to the combined method of UV-C irradiation and ozone treatment. Lowercase letters indicate significant differences between experimental variants on specific days of the experiment; uppercase letters indicate significant differences between the days of the experiment for the same experimental variants; significance level is defined as p < 0.05 (based on the Tukey test).
+3.3.3. Reduction in the Level and Value of Fruit Losses of Cranberries
+The final stage of fruit storage before their distribution is the sorting process, aimed at separating damaged fruits and those affected by storage diseases. At this stage, the effectiveness of post-harvest processing technology modifications implemented during the initial sorting can be quantitatively assessed, thus increasing the shelf life of stored raw materials.
+The level of fruit losses, depending on the applied post-harvest processing modifications, was evaluated on the 14th, 28th, and 42nd days of storage. From an economic perspective, the most significant observations are those made on the last day of the experiment, i.e., after 42 days of storage of cranberries. Typically, the harvesting of these fruits ends in the first days of November, and there is increased demand for them at the end of December (Christmas time).
+Figure 5 shows the level of fruit losses (% by mass) during storage, depending on the applied post-harvest processing modification after harvesting. The lowest fruit losses were observed in the batch subjected to ozone treatment (8.98% by mass) at the end of the experiment. Comparable results were obtained when implementing the combined method, which involved ozone treatment combined with UV-C irradiation. The results obtained correlate with the reduction in microbiological contamination and the analysis of changes in the water content in the stored cranberries. Gaseous ozone likely exhibits the highest activity, as the highest losses were recorded in the variant where only UV-C irradiation treatment was applied.
+Figure 5. The level of fruit losses [%] in cranberries depending on the applied pre-harvest post-processing technology modification. UV-C—fruits subjected to UV-C irradiation; O—fruits subjected to ozone treatment; UV-C + O—fruits subjected to the combined method of UV-C irradiation and ozone treatment. Small letters indicate significant differences between experimental variants on individual days of the experiment; capital letters indicate significant differences between days of conducting the experiment for the same experimental variants.; significance level is defined as p < 0.05 (based on the Tukey test).
+The results regarding the level of fruit losses during storage clearly indicate that the proposed thesis about the destructive impact of UV-C irradiation is highly probable. Fruit losses in the control samples averaged 13.9% and were 4.92% higher than the level observed for fruits subjected to ozone treatment (Figure 5). Reducing the level of losses generated during the storage of cranberries due to the applied modification in the form of ozone treatment directly translates into the economic benefits of the producers and distributors of fruit. Assuming that 100 tons of cranberries were subjected to the modified pre-harvest ozone treatment, after 42 days of storage, the volume of fruits for sale is 4920 kg greater than in the case of fruits from the control batches. Considering the average price per kg of cranberries at approximately EUR 5.3, the actual profit from the implementation of ozone treatment amounts to EUR 26,076. It is challenging to estimate the costs incurred for the practical implementation of the developed technical solutions since the prototype manufacturing costs are usually much higher than those of commercial devices. However, given the estimated operational life of no less than 10 years, such an investment should quickly amortize while simultaneously yielding significant financial benefits. The environmental aspect of the proposed changes in the post-harvest processing technology of cranberries is as important as the economic one [38]. The proposed modification makes the whole cultivation process of cranberries more sustainable and environmentally friendly.
+4. Conclusions
+An innovative technical solution enabling continuous ozone treatment and a UV-C irradiation process during the post-processing of cranberries was developed and implemented. It was demonstrated that the application of ozone treatment, in the conditions provided by the developed solution’s throughput, results in a reduction in the microbiological load on the fruits, leading to an extension of their shelf life and a reduction in storage losses. The analysis of the obtained results revealed the susceptibility of cranberries to damage caused by UV-C radiation. However, the combined process of ozone treatment and UV-C irradiation, through the synergistic action of these factors, positively affects the shelf life of the produce compared to the control sample. Moreover, these results are not as great as in the case of the ozonation process itself, which proved to be the most effective in extending the shelf life of large-fruited cranberries. The implementation of the developed solution, by reducing fruit losses and limiting water loss during their storage, contributes to tangible benefits for the producers and distributors of this fruit. Moreover, the proposed modification makes the cultivation of cranberries more sustainable and environmentally friendly. Simultaneously, due to its versatility, the proposed solution should be adapted for post-harvest processing of other fruits with limited storage durability.
+Author Contributions
+Conceptualization, methodology, visualization, investigation and writing—original draft preparation, N.M.; investigation, T.P. and M.Z.; formal analysis, B.S.; conceptualization, investigation and writing—original draft preparation, M.B. All authors have read and agreed to the published version of the manuscript.
+Funding
+This work was partially financed (investigation) by the European Agricultural Fund for Rural Development RDP for 2014–2020/Measure 16 Cooperation within the project entitled “Innovative technology for the production of berries on the example of raspberries with an increased content of bioactive compounds and increased commercial value” project number 00024.DDD6509.00014.2019.07.
+Institutional Review Board Statement
+Not applicable.
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+The data presented in this study are available in this article.
+Conflicts of Interest
+The authors declare no conflicts of interest.
+References
+Majeed, M.; Nagabhushanam, K.; Arumugam, S.; Natarajan, S.; Majeed, S.; Pande, A.; Beede, K.; Ali, F. Cranberry seed fibre: A promising prebiotic fibre and its fermentation by the probiotic Bacillus coagulans MTCC 5856. Int. J. Food Sci. Technol. 2018, 53, 1640–1647. [Google Scholar] [CrossRef]
+Kennedy, C.D. Hydrologic and nutrient response of groundwater to flooding of cranberry farms in southeastern Massachusetts, USA. J. Hydrol. 2015, 525, 441–449. [Google Scholar] [CrossRef]
+Negri, C.; Chiaradia, E.; Rienzner, M.; Mayer, A.; Gandolfi, C.; Romani, M.; Facchi, A. On the effects of winter flooding on the hydrological balance of rice areas in northern Italy. J. Hydrol. 2020, 590, 125401. [Google Scholar] [CrossRef]
+Rasool, M.; Malik, A.; Abdul Basit Ashraf, M.; Mubbin, R.; Ayyaz, U.; Waquar, S.; Asif, M.; Umar, M.; Hua, G.S.; Iqbal, Z.; et al. Phytochemical analysis and protective effects of Vaccinium macrocarpon (cranberry) in rats (Rattus norvegicus) following ethylene oxide-induced oxidative insult. Bioengineered 2021, 12, 4593–4604. [Google Scholar] [CrossRef]
+Thimóteo, N.S.B.; Iryioda, T.M.V.; Alfieri, D.F.; Rego, B.E.F.; Scavuzzi, B.M.; Fatel, E.; Lozovoy, M.A.B.; Simão, A.N.C.; Dichi, I. Cranberry juice decreases disease activity in women with rheumatoid arthritis. Nutrition 2019, 60, 112–117. [Google Scholar] [CrossRef]
+Karboune, S.; Davis, E.J.; Fliss, I.; Spadoni Andreani, E. In-vitro digestion and fermentation of cranberry extracts rich in cell wall oligo/polysaccharides. J. Funct. Foods 2022, 92, 105039. [Google Scholar] [CrossRef]
+Khairnar, M.R.; Karibasappa, G.N.; Dodamani, A.S.; Vishwakarma, P.; Naik, R.G.; Deshmukh, M.A. Comparative assessment of cranberry and chlorhexidine mouthwash on streptococcal colonization among dental students: A randomized parallel clinical trial. Contemp. Clin. Dent. 2015, 6, 35–39. [Google Scholar] [CrossRef] [PubMed]
+Oszmiański, J.; Lachowicz, S.; Gorzelany, J.; Matłok, N. The effect of different maturity stages on phytochemical composition and antioxidant capacity of cranberry cultivars. Eur. Food Res. Technol. 2018, 244, 705–719. [Google Scholar] [CrossRef]
+Del Rio, D.; Rodriguez-Mateos, A.; Spencer, J.P.E.; Tognolini, M.; Borges, G.; Crozier, A. Dietary (Poly)phenolics in Human Health: Structures, Bioavailability, and Evidence of Protective Effects Against Chronic Diseases. Antioxid. Redox Signal. 2013, 18, 1818–1892. [Google Scholar] [CrossRef] [PubMed]
+Forney, C.F. Postharvest Issues in Blueberry and Cranberry and Methods to Improve Market-Life. Acta Hortic. 2009, 810, 785–798. [Google Scholar] [CrossRef]
+Gu, G.; Bolten, S.; Mowery, J.; Luo, Y.; Gulbronson, C.; Nou, X. Susceptibility of foodborne pathogens to sanitizers in produce rinse water and potential induction of viable but non-culturable state. Food Control 2020, 112, 107138. [Google Scholar] [CrossRef]
+Fundo, J.F.; Miller, F.A.; Mandro, G.F.; Tremarin, A.; Brandão, T.R.S.; Silva, C.L.M. UV-C light processing of Cantaloupe melon juice: Evaluation of the impact on microbiological, and some quality characteristics, during refrigerated storage. LWT 2019, 103, 247–252. [Google Scholar] [CrossRef]
+Abdul Karim Shah, N.N.; Shamsudin, R.; Abdul Rahman, R.; Adzahan, N.M. Fruit Juice Production Using Ultraviolet Pasteurization: A Review. Beverages 2016, 2, 22. [Google Scholar] [CrossRef]
+Miller, F.A.; Silva, C.L.M.; Brandão, T.R.S. A Review on Ozone-Based Treatments for Fruit and Vegetables Preservation. Food Eng. Rev. 2013, 5, 77–106. [Google Scholar] [CrossRef]
+Tchonkouang, R.D.; Lima, A.R.; Quintino, A.C.; Cristofoli, N.L.; Vieira, M.C. UV-C Light: A Promising Preservation Technology for Vegetable-Based Nonsolid Food Products. Foods 2023, 12, 3227. [Google Scholar] [CrossRef]
+Sarron, E.; Gadonna-Widehem, P.; Aussenac, T. Ozone Treatments for Preserving Fresh Vegetables Quality: A Critical Review. Foods 2021, 10, 605. [Google Scholar] [CrossRef]
+Mrozek-Szetela, A.; Rejda, P.; Wińska, K. A Review of Hygienization Methods of Herbal Raw Materials. Appl. Sci. 2020, 10, 8268. [Google Scholar] [CrossRef]
+Gidado, M.J.; Gunny, A.; Gopinath, C.B.; Ali, A.; Chalermchai, W.; Salleh, N. Challenges of postharvest water loss in fruits: Mechanisms, influencing factors, and effective control strategies—A comprehensive review. J. Agric. Food Res. 2024, 17, 101249. [Google Scholar] [CrossRef]
+Benkeblia, N.; Tennant, D.P.F.; Jawandha, S.K.; Gill, P.S. Preharvest and harvest factors influencing the postharvest quality of tropical and subtropical fruits. In Woodhead Publishing Series in Food Science, Technology and Nutrition, Postharvest Biology and Technology of Tropical and Subtropical Fruits; Elsevier: Amsterdam, The Netherlands, 2011; pp. 112–142. [Google Scholar] [CrossRef]
+Strano, M.C.; Altieri, G.; Allegra, M.; Di Renzo, G.C.; Paterna, G.; Matera, A.; Genovese, F. Postharvest Technologies of Fresh Citrus Fruit: Advances and Recent Developments for the Loss Reduction during Handling and Storage. Horticulturae 2022, 8, 612. [Google Scholar] [CrossRef]
+Botondi, R.; Barone, M.; Grasso, C. A Review into the Effectiveness of Ozone Technology for Improving the Safety and Preserving the Quality of Fresh-Cut Fruits and Vegetables. Foods 2021, 10, 748. [Google Scholar] [CrossRef]
+Darré, M.; Vicente, A.R.; Cisneros-Zevallos, L.; Artés-Hernández, F. Postharvest Ultraviolet Radiation in Fruit and Vegetables: Applications and Factors Modulating Its Efficacy on Bioactive Compounds and Microbial Growth. Foods 2022, 11, 653. [Google Scholar] [CrossRef] [PubMed]
+Tzortzakis, N.; Chrysargyris, A. Postharvest ozone application for the preservation of fruits and vegetables. Food Rev. Int. 2016, 33, 270–315. [Google Scholar] [CrossRef]
+Khadre, M.A.; Yousef, A.E.; Kim, J.-G. Microbiological Aspects of Ozone Applications in Food: A Review. J. Food Sci. 2001, 66, 1242–1252. [Google Scholar] [CrossRef]
+Kim, J.G.; Yousef, A.E.; Dave, S. Application of ozone for enhancing the microbiological safety and quality of foods: A review. J. Food Prot. 1999, 62, 1071–1087. [Google Scholar] [CrossRef] [PubMed]
+Gutiérrez, D.R.; Chaves, A.R.; Rodríguez, S.D.C. Use of UV-C and Gaseous Ozone as Sanitizing Agents for Keeping the Quality of Fresh-Cut Rocket (Eruca sativa mill). J. Food Process. Preserv. 2017, 41, e12968. [Google Scholar] [CrossRef]
+Martínez-Hernández, G.B.; Artés-Hernández, F.; Gómez, P.A.; Formica, A.C.; Artés, F. Combination of electrolysed water, UV-C and superatmospheric O2 packaging for improving fresh-cut broccoli quality. Postharvest Biol. Technol. 2013, 76, 125–134. [Google Scholar] [CrossRef]
+Matłok, N.; Piechowiak, T.; Zardzewiały, M.; Gorzelany, J.; Balawejder, M. Effects of Ozone Treatment on Microbial Status and the Contents of Selected Bioactive Compounds in Origanum majorana L. Plants. Plants 2020, 9, 1637. [Google Scholar] [CrossRef] [PubMed]
+Zapałowska, A.; Matłok, N.; Zardzewiały, M.; Piechowiak, T.; Balawejder, M. Effect of Ozone Treatment on the Quality of Sea Buckthorn (Hippophae rhamnoides L.). Plants 2021, 10, 847. [Google Scholar] [CrossRef] [PubMed]
+Matłok, N.; Lachowicz, S.; Gorzelany, J.; Balawejder, M. Influence of Drying Method on Some Bioactive Compounds and the Composition of Volatile Components in Dried Pink Rock Rose (Cistus creticus L.). Molecules 2020, 25, 2596. [Google Scholar] [CrossRef]
+Laichmanová, M.; Sedláček, I. Fungal species associated with fruit and vegetables transported to the J.G. Mendel station and the influence of UV-C treatment on their fungal community. Czech Polar Rep. 2019, 9, 78–87. [Google Scholar] [CrossRef]
+Ziyaina, M.; Rasco, B. Inactivation of microbes by ozone in the food industry: A review. Afr. J. Food Sci. 2021, 15, 113–120. [Google Scholar] [CrossRef]
+Pisani Gareau, T.L.; Gao, L.; Gareau, B.J. The enduring nature of cranberry production in a changing climate: The interplay of extreme weather, knowledge networks, and adaptation. PLoS Clim. 2024, 3, e0000350. [Google Scholar] [CrossRef]
+Juríková, T.; Mlček, J.; Balla, Š.; Ondrášová, M.; Dokoupil, L.; Sochor, J.; Ďurišová, L.; Eliáš, P., Jr.; Adámková, A.; Baroň, M.; et al. The Elucidation of Total Polyphenols, Individual Phenolic Compounds, Antioxidant Activity of Three Underutilized Fruit Species—Black Crowberry, Honeyberry, European Cranberry with Their Accumulation. Agronomy 2021, 11, 73. [Google Scholar] [CrossRef]
+Lorenzo, J.M.; Munekata, P.E.; Dominguez, R.; Pateiro, M.; Saraiva, J.A.; Franco, D. Main Groups of Microorganisms of Relevance for Food Safety and Stability: General Aspects and Overall Description. In Innovative Technologies for Food Preservation; Academic Press: Cambridge, MA, USA, 2018; pp. 53–107. [Google Scholar] [CrossRef]
+Nawkar, G.M.; Maibam, P.; Park, J.H.; Sahi, V.P.; Lee, S.Y.; Kang, C.H. UV-Induced cell death in plants. Int. J. Mol. Sci. 2013, 14, 1608–1628. [Google Scholar] [CrossRef] [PubMed]
+Çavuşoğlu, K.; Kalefetoğlu Macar, T.; Macar, O.; Çavuşoğlu, D.; Yalçın, E. Comparative investigation of toxicity induced by UV-A and UV-C radiation using Allium test. Environ. Sci. Pollut. Res. Int. 2022, 29, 33988–33998. [Google Scholar] [CrossRef] [PubMed]
+Available online: https://www.selinawamucii.com/insights/prices/poland/cranberries/ (accessed on 15 May 2024).
+Available online: https://openknowledge.fao.org/server/api/core/bitstreams/12a578c2-47c3-4095-9ab3-c95126878d7d/content (accessed on 15 May 2024).
+Pandiselvam, R.; Mayookha, V.P.; Kothakota, A.; Sharmila, L.; Ramesh, S.V.; Bharathi, C.P.; Gomathy, K.; Srikanth, V. Impact of Ozone Treatment on Seed Germination—A Systematic Review. Ozone Sci. Eng. 2020, 42, 331–346. [Google Scholar] [CrossRef]
+Promyou, S. Effect of ultraviolet-C (UV-C) illumination on postharvest quality and bioactive compounds in yellow bell pepper fruit (Capsicum annuum L.) during storage. Afr. J. Agric. Res. 2012, 7, 4084–4096. [Google Scholar] [CrossRef]
+Vicente, A.R.; Pineda, C.; Lemoine, L.; Civello, P.M.; Martinez, G.A.; Chaves, A.R. UV-C treatments reduce decay, retain quality and alleviate chilling injury in pepper. Postharvest Biol. Technol. 2005, 35, 69–78. [Google Scholar] [CrossRef]
+Barka, E.A.; Kalantari, S.; Makhlouf, J.; Arul, J. Impact of UV-C Irradiation on the Cell Wall-Degrading Enzymes during Ripening of Tomato (Lycopersicon esculentum L.) Fruit. J. Agric. Food Chem. 2000, 48, 667–671. [Google Scholar] [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Matłok, N.; Piechowiak, T.; Zardzewiały, M.; Saletnik, B.; Balawejder, M. Continuous Ozonation Coupled with UV-C Irradiation for a Sustainable Post-Harvest Processing of Vaccinium macrocarpon Ait. Fruits to Reduce Storage Losses. Sustainability 2024, 16, 5420. https://doi.org/10.3390/su16135420
+AMA Style
+Matłok N, Piechowiak T, Zardzewiały M, Saletnik B, Balawejder M. Continuous Ozonation Coupled with UV-C Irradiation for a Sustainable Post-Harvest Processing of Vaccinium macrocarpon Ait. Fruits to Reduce Storage Losses. Sustainability. 2024; 16(13):5420. https://doi.org/10.3390/su16135420
+Chicago/Turabian Style
+Matłok, Natalia, Tomasz Piechowiak, Miłosz Zardzewiały, Bogdan Saletnik, and Maciej Balawejder. 2024. "Continuous Ozonation Coupled with UV-C Irradiation for a Sustainable Post-Harvest Processing of Vaccinium macrocarpon Ait. Fruits to Reduce Storage Losses" Sustainability 16, no. 13: 5420. https://doi.org/10.3390/su16135420
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details here.
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views26. Jun28. Jun30. Jun2. Jul4. Jul6. Jul8. Jul10. Jul12. Jul14. Jul16. Jul18. Jul20. Jul22. Jul01000250500750
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Sustainability, EISSN 2071-1050, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

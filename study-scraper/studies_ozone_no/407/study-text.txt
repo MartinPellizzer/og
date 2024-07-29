@@ -1,0 +1,73 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home The International Journal of Life Cycle Assessment Article
+Comparison of ReCiPe 2016, ILCD 2011, CML-IA baseline and IMPACT 2002+ LCIA methods: a case study based on the electricity consumption mix in Europe
+UNCERTAINTIES IN LCA
+Open access
+Published: 24 June 2024
+(2024)
+Cite this article
+Download PDF
+You have full access to this
+open access
+article
+The International Journal of Life Cycle Assessment
+Aims and scope
+Submit manuscript
+Magdalena Rybaczewska-Błażejowska
+& Dominik Jezierski
+  694 Accesses
+Explore all metrics
+Abstract
+Purpose
+The international standards ISO 14040 and ISO 14044 do not specify a single method for the performance of life cycle impact assessment (LCIA). As a result, many different LCIA methods have been developed and the choice between them is not always obvious. Therefore, the main aim of this research is to systematically compare the most commonly used multi-impact LCIA methods worldwide to support practitioners in confronting the question of how the choice of LCIA method affects the LCA results.
+Methods
+Four LCIA methods: ReCiPe 2016, ILCD 2011, CML-IA baseline and IMPACT 2002+ at the midpoint level were applied to compare the environmental profiles of the electricity consumption mix in the EU-27, Norway, Switzerland and the United Kingdom, taking into account the electricity consumption mix in individual countries. The results of the impact categories were converted into common metrics using unit conversion factors to allow the comparison of the results in absolute values across LCIA methods.
+Results and discussion
+In the LCA study, four common LCIA methods were compared across 12 defined midpoint areas of impacts. Results were consistent for climate change and ozone depletion, with the exception of the ReCiPe 2016 method, and acidification and eutrophication, with the exception of the IMPACT 2002+ method. Significant disparities were noted for ozone formation/respiratory organics, particulate matter/respiratory inorganics ecotoxicity and water consumption. The rankings of environmental profiles remained largely consistent across LCIA methods, with only a few exceptions concerning the following midpoint areas of impacts: ozone formation/respiratory organics, ecotoxicity and resource scarcity (minerals). Contribution analysis highlighted the crucial role of only a few key substances in each area.
+Conclusions
+The methodological choices during LCIA have significant implications for the characterisation results in absolute values, but lead, in most cases, to comparable conclusions on the ranking of environmental profiles of the electricity consumption mix in the EU-27, Norway, Switzerland and the United Kingdom. This results from large methodological discrepancies between LCIA methods, concerning, among others, the geographical differentiation (either the European or global context), the scope of the impact categories grouped into the same midpoint area of impacts (for instance eutrophication) and the contribution of specific environmental flows to a given result of the impact category. Consequently, the findings of this research underpin the importance of careful selection of the LCIA method and impact categories, following the goal and scope definition and unique attributes of each method.
+Similar content being viewed by others
+Global guidance on environmental life cycle impact assessment indicators: progress and case study
+Article 28 January 2016
+Toward more comprehensive environmental impact assessments: interlinked global models of LCIA and IAM applicable to this century
+Article Open access
+21 July 2020
+Global guidance on environmental life cycle impact assessment indicators: impacts of climate change, fine particulate matter formation, water consumption and land use
+Article 16 March 2018
+1 Introduction
+The continuously increasing role and number of conducted life cycle assessment (LCA) studies, coupled with growing social awareness, long-term economic goals and environmental protection regulations, necessitate a deeper understanding of the methods used in life cycle impact assessment (LCIA) among practitioners. To meet this challenge, previous reviews of LCIA methods using various case studies have been conducted. However, considering recent methodological developments in LCA, further research is necessary.
+The international standards LCA ISO 14040 and ISO 14044 do not specify a single particular method for performing LCIA as such. However, they provide a series of recommendations for the selection of impact categories, category indicators and characterisation models. These recommendations include international acceptance level, scientific and technological validation and environmental relevance (ISO 2006a, b, 2017 2020a, b; Finkbeiner et al. 2006). Simultaneously, the European Commission, building upon the existing standards, formulated a recommended practice for characterisation modelling in LCIA, known as ILCD 2009/2011 (EC-JRC-IES 2010, 2011, 2012). Although various LCIA methods have been developed and are available for the assessment of environmental impacts in LCA, practice shows that ReCiPe, followed by ILCD 2011, CML 2012 and IMPACT 2002+, are the most commonly used multi-impact LCIA methods at the midpoint level worldwide (Wahl 2018).
+Differences in methodological approaches to characterisation modelling and the substance coverage by individual impact categories are, as previous studies have shown, influential on the final results of LCA. A comparative LCA of four types of windows for residential buildings, conducted using the IMPACT 2002+, ReCiPe 2008 and ILCD 2009 methods by the Joint Research Centre (JRC) of the European Commission, is significant in this respect (Owsianiak et al. 2014; EC-JRC-IES 2010, 2012; Hauschild et al. 2013). The research has shown though significant differences in results in the following impact categories: toxic impacts, ionising radiation, land use and mineral/metal depletion. It did not cover the LCIA optional elements, such as normalisation and weighting, which would most likely also reveal significant discrepancies in the results stemming from the selection of the LCIA method. Additionally, earlier versions of the IMPACT 2002+, ReCiPe 2008 and ILCD 2009 methods were used in the study, which now have their characterisation model updates. However, updates of LCIA methods could change the interpretation of some results of the LCA research. This is the case, for instance, with ReCiPe 2008 and its latest release – ReCiPe 2016 (Dekker et al. 2020).
+Another example of research addressing methodological choices during LCIA is the comparison of the EDIP 97, CML 2001 and Eco-indicator 99 methods based on a case study of UV water-based lacquer (Dreyer et al. 2003). This study demonstrated that the choice of the LCIA method does not have a significant impact on the final results in the majority of impact categories, except for those related to toxicity. The large differences observed in the toxicity impact categories revealed variations in the characterisation modelling and factors between the CML 2001 and EDIP 97 methods. An important challenge in this comparison arises from different levels of characterisation – midpoints (EDIP 97 and CML 2001) and endpoints (Eco-indicator 99). Such selection of LCIA methods complicates the understanding of methodological differences between LCIA methods.
+The comparison of seven LCIA methods, i.e. CML 2001 (midpoint), IMPACT 2002+ (midpoint and endpoint), EDIP 2003 (midpoint), Eco-indicator 99 (endpoint), TRACI 2 (midpoint), ReCiPe 2008 (midpoint and endpoint) and Ecological Scarcity 2006 (endpoint), as illustrated by a case study of gasoline and ethanol from sugarcane in Brazil, showed how the use of different LCIA methods affects the final results at both the midpoint and endpoint level (Cavalett et al. 2013). The conducted research demonstrated that ReCiPe 2008, EDIP 2003 and IMPACT 2002+ methods take a more holistic view of environmental impacts than CML 2001 and TRACI 2 methods; however, results of environmental impacts obtained using different LCIA methods at the midpoint level for equivalent impact categories are essentially similar. Consequently, using five LCIA midpoint methods, ethanol has been proven to perform better than gasoline in the following impact categories: global warming, fossil fuel depletion, ecotoxicities and ozone layer depletion. However, it does perform worse than gasoline in acidification, eutrophication, photochemical oxidation and agricultural land use. At the same time, further testing using four endpoint LCIA methods revealed large discrepancies in the results regarding areas of protection, which consequently led to different conclusions.
+Despite the fact that comparative LCA studies based on different combinations of LCIA methods and various case studies have previously been conducted, showing differences in LCA results and their interpretation ranging from small to significant, depending on the choice of method and cases studied (Owsianiak et al. 2014; Borghesi et al. 2022; Silva et al. 2013; Wu and Su 2020), comprehensive studies addressing large data inventories and incorporating recent advances in LCIA methods are still very much limited. Currently, with a wide range of mid- and endpoint LCIA methods available, the choice between them is no longer obvious (Finnveden et al. 2009).
+The aim of this research was to systematically compare the characterisation results based on ReCiPe 2016, ILCD 2011, CML-IA baseline and IMPACT 2002+ methods, and to discuss the implications of methodological choices during LCIA for the interpretation of LCA results from the perspective of practitioners, thereby building upon previous reviews of LCIA methods. For the comparison, a case study of the electricity consumption in the 27 member states of the European Union (the EU-27), Norway, Switzerland and the United Kingdom was conducted, using different LCIA methods. Despite the fact that energy management is the top priority in the prevention of CO2 emissions, to the best of our knowledge, this is the first attempt to analyse the relationship between the inventory analysis (life cycle inventory, LCI) and LCIA results using different characterisation models for the electricity consumption mix. The choice of LCIA methods was dictated by their popularity and thus the research supports practitioners to better understand the significance, uncertainty and sensitivity of their methodological choices.
+2 Methods
+For the comparison of LCIA results using ReCiPe 2016, ILCD 2011, CML-IA baseline and IMPACT 2002+ methods, a cradle-to-gate LCA model was developed for the electricity consumption mix in the EU-27, Norway, Switzerland and the United Kingdom in 2021. LCA is governed by ISO 14040:2006/Amd 1:2020 (Environmental management—Life cycle assessment—Principles and framework) and ISO 14044:2006/Amd 1:2017 and Amd 2:2020 (Environmental management—Life cycle assessment—Requirements and guidelines). Therefore, the research was entirely conducted in accordance with the aforementioned standards with a few necessary adjustments regarding the choice of the functional unit, the scope and the LCIA methods (Fig. 1).
+Fig. 1
+Source: own study
+Design of the methodological approach for the comparison of ReCiPe 2016, ILCD 2011, CML-IA baseline and IMPACT 2002+ LCIA methods
+Full size image
+2.1 Goal and scope
+LCA is a relative approach, structured around a functional unit. A unit of electricity of \(1\;MJ\) (megajoule) is used as a functional unit in the presented research. This is a derived unit within the International System of Units (SI), where \(1\;MJ\;=\;{10}^{6}\;J\) (joule), and \(J\;=\;kg\cdot {m}^{2}\cdot {s}^{-2}\). Approximately, \(1\;MJ\) corresponds to \(\sim 0.278\;kWh\) (kilowatt-hour). For tharity in data presentation, a larger prefix of the SI system, petajoule (\(PJ\)), was introduced, where \(1\, PJ={10}^{15}\;J\) (BIPM 2019).
+The system boundary of the research encompasses processes from the extraction of raw materials, through the production of electricity, until the introduction of electricity to the power grid (cradle-to-gate model) in the EU-27, i.e. Austria (AT), Belgium (BE), Bulgaria (BG), Croatia (HR), Cyprus (CY), the Czech Republic (CZ), Denmark (DK), Estonia (EE), Finland (FI), France (FR), Germany (DE), Greece (GR), Hungary (HU), Ireland (IE), Italy (IT), Latvia (LV), Lithuania (LT), Luxembourg (LU), Malta (MT), the Netherlands (NL), Poland (PL), Portugal (PT), Romania (RO), Slovakia (SK), Slovenia (SI), Spain (ES) and Sweden (SE), and the EU-27 associated countries – Norway (NO), Switzerland (CH) and the United Kingdom (GB).
+2.2 Life cycle inventory
+LCI encompasses data on electricity consumption mix by sector, including industry, transport, commercial and public services and households, and by source, including coal, natural gas, oil, nuclear, biofuels and waste and hydro as well as

@@ -1,0 +1,393 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Journal of Food Measurement and Characterization Article
+In vitro and in vivo antimicrobial activity of the fumigant, ethyl formate, against bacteria and fungi of date fruits in postharvest phase
+Original Paper
+Open access
+Published: 08 June 2024
+(2024)
+Cite this article
+Download PDF
+You have full access to this
+open access
+article
+Journal of Food Measurement and Characterization
+Aims and scope
+Submit manuscript
+Mahmoud M. Abo-El-Saad, Mohamed E. I. Badawy
+, Mohamed S. Shawir, Yasser H. Hegazi & Youssef M. M. Mohammed 
+605 Accesses
+Explore all metrics
+Abstract
+The search is on for safer alternatives to fumigants like methyl bromide and phosphine, which harm the ozone layer and pose other risks. Ethyl formate is a promising candidate due to its potential antimicrobial and insecticidal action in stored products like date fruits. The susceptibility of date fruits to microbial spoilage is significantly influenced by factors such as moisture content, storage practices, and environmental conditions. In the present study, the in vitro antimicrobial effect of ethyl formate against three microbial species, namely Aspergillus niger F4, Mucor circinelloides YMM22, and Pseudomonas aeruginosa B1 was tested under laboratory conditions. In addition, two common date fruit varieties, semi-dry El-Wady I and the dry Frehi, were fumigated with ethyl formate alone in a laboratory-scale prototype and with a mixture of ethyl formate and CO2 at a semi-industrial scale prototype. Both varieties had an initial moisture content of around 13.40 and 12.48% for El-Wady I and Frehi, respectively. The fumigation was conducted using the optimal concentration of 70 mg/L air for 24 h incubation period. Fumigation with ethyl formate alone or in combination with CO2 significantly reduced the number of viable bacteria and fungi (CFU/g), but the potential for a combined effect with CO2 was not investigated. The percentages of reduction in the fungal count were 78.18 and 90.76% for Frehi and El-Wady I varieties, respectively in a semi-industrial scale prototype. Moreover, the percentages of reduction in the bacterial count were 53.31 and 65.20%, respectively for Frehi and El-Wady I varieties. Ethyl formate showed promise as a natural alternative to control microbial contamination of stored date fruits. Further research suggests that increasing fumigation duration or concentration could provide comprehensive control of microbial pathogens at all stages of development.
+Similar content being viewed by others
+Biological Control of Postharvest Spoilage in Fresh Mandarins (Citrus Reticulata Blanco) Fruits Using Bacteria During Storage
+Article 13 December 2018
+Novel Prosopis juliflora leaf ethanolic extract as natural antimicrobial agent against food spoiling microorganisms
+Article Open access
+12 April 2021
+Natural antimicrobials for beet leaves preservation: in vitro and in vivo determination of effectiveness
+Article 12 July 2018
+Introduction
+Date fruits provide essential growth factors such as many minerals, vitamins, sugars, and amino acids that are necessary for human and animal nutrition [1, 2]. Fruits possess specific features, such as high sugar content, moisture availability, and varying acidity, that readily nurture diverse microorganisms, resulting in their proliferation and subsequent spoilage [3,4,5]. Microbial attack, which encompasses contamination by bacteria, yeasts, and molds, poses a significant threat to date fruits, causing substantial damage and impacting both quantity and quality [5, 6]. Certain mold species, such as Fusarium, Aspergillus, and Penicillium, are known to be associated with the production of toxic chemicals called mycotoxins, including fumonisin, aflatoxin, and ochratoxin [5, 7]. It has been common practice for the control of these pests to use fumigants like phosphine and methyl bromide [8]. There are, however, some pests that become resistant to these fumigants [9].
+Therefore, the search for alternative fumigants to conventional hazardous chemicals (such as methyl bromide and phosphine) has included studies using ethyl formate as a fumigant [10,11,12]. Unlike conventional chemicals that get trapped in products, low molecular weight of ethyl formate allows it to break down easily, minimizing residue concerns [13, 14]. Among agricultural products, ethyl formate gives them their unique taste and smell. It is generally considered safe for consumption at the levels typically found in food. Regulatory and scientific authorities, such as the Food and Drug Administration (FDA) and European Food Safety Authority (EFSA) have established acceptable daily intake (ADI) limits [15,16,17]. Ethyl formate has been used as a post-harvest treatment disinfectant to treat dried fruits, and its effectiveness has been confirmed on major pests found in dried fruits [18, 19]. Many fruits naturally produce ethyl formate as volatile compounds in trace amounts that have antimicrobial properties [14, 20]. Ethyl formate has proven effective against a wide range of stored-product pests infesting dried fruits, including insects, mites, and even some types of mold. This makes it a valuable tool for protecting dried fruits from spoilage and ensuring their quality [21]. Some studies have revealed the antimicrobial properties of ethyl formate as well as its insecticidal effect [17, 22]. However, its high volatility, flammability, and susceptibility to degradation pose challenges for practical application. In addition, it is desirable to obtain data on its residues under different conditions.
+The current study aimed to test the in vitro antimicrobial effect of ethyl formate at different concentrations against three microbial species, namely Aspergillus niger F4, Mucor circinelloides YMM22, and Pseudomonas aeruginosa B1 under laboratory conditions. In addition, the promising concentration of ethyl formate was also evaluated in vivo on two common date fruits (Phoenix dactylifera L.) including semi-dry El-Wady I from El-Wady El-Gadeed region (El-Wady El-Gadeed Governorate, Egypt) and dry variety Frehi from Siwa Oasis (Matrouh Governorate, Egypt) in laboratory-scale and pilot-scale prototypes against total microbial loads. The residues of ethyl formate in fumigated date fruits under pilot-scale prototype were also determined by gas chromatography-flam ionization detector (GC-FID) for prediction of environmental impact. In terms of postharvest and storage conditions of protected date fruits, our findings reveal the importance of ethyl formate fumigation for improving environmental sustainability.
+Materials and methods
+Chemicals and microbiological media
+Ethyl formate (97%) and dimethyl sulphoxide (DMSO) were purchased from Sigma-Aldrich Chemical Co. (St. Louis, MO, USA). Methanol and ammonium nitrate were obtained from El-Gomhoria for Pharmaceutical and Chemicals Co. (Alexandria, Egypt). Chloramphenicol (99%) was purchased from Pharco Pharmaceuticals Inc. (Alexandria, Egypt). Culture media like potato dextrose agar (PDA), nutrient agar (NA), nutrient broth (NB), and potato dextrose broth (PDB) were sourced from Oxoid Ltd (Basingstoke, Hampshire, UK). All other chemicals were obtained locally from El-Gomhoria for Pharmaceutical and Chemicals Co. (Alexandria, Egypt) and utilized directly, without further purification.
+Preparation of microbial inoculants
+Fungal strains Aspergillus niger F4 (GenBank accession number MW811390.1) and Mucor circinelloides YMM22 (GenBank accession number OQ067101.1) were grown on PDA plates and incubated at 28 °C for seven days. Spore suspensions were prepared in Tween 80 (0.05%, v/v) and adjusted to a concentration of 1.8 × 104 spore/mL using a hemocytometer [23]. A culture of Pseudomonas aeruginosa B1 (GenBank accession number MW811391.1) was grown on NA plates for 48 h at 28 °C. The bacteria were then harvested and suspended in NB medium with 0.05% Tween 80. The suspension was adjusted to a concentration of 1 × 105 colony-forming units per milliliter (CFU/mL) using the viable plate count method [24].
+In vitro antimicrobial efficacy of ethyl formate
+In vitro antifungal activity of ethyl formate against fungal spores
+Fungal spore’s suspension (1 × 105 CFU/mL) was prepared using tween 80 (0.05%, v/v). The center of the PDA plates was inoculated with 100 μL of the fungal suspension. Ethyl formate (0–10 mg/L) was placed in a sterile filter paper disc ((1 cm2) attached to the lid of the plate. The plates were then tightly closed with parafilm and incubated at 28 °C in the inverted position [25, 26]. A control group included inoculated spores in the same condition but not fumigated. Conidia germination was assessed microscopically at 400 × magnification, after 48 h of the treatment. In addition, the plates were further incubated for 6 days, and the diameter of their growth zones was measured. Growth inhibition was then calculated as the percentage reduction in radial growth compared to a control group. A linear regression analysis was used to determine the EC50, which is the concentration of the inhibitory agent that reduces fungal growth by half (EC50) [27].
+In vitro antifungal activity of ethyl formate against mycelial growth
+The centers of the PDA plates were inoculated by a fungal disc (0.8 cm) of the tested fungus. Ethyl formate (0–10 mg/L) was placed on a filter paper disc (1 cm2) attached to the lid of the plate and the plates were sealed with parafilm [25]. A control group included inoculated plates in the same condition but not fumigated. Next, the plates were maintained at 28 °C. Finally, after 6 days of incubation, linear colony growth was measured and inhibition (%) was calculated relative to the control. In addition, the EC50 value was calculated by a linear regression method [27].
+In vitro antibacterial activity of ethyl formate
+The centers of the NA plates were inoculated by the tested bacterium P. aeruginosa B1. Different concentrations of ethyl formate (0–10 mg/L) were placed on filter paper discs (1 cm2) attached to the lid of the plate and the plates were sealed with parafilm [25, 28]. The parallel controls were maintained with NA plates inoculated by P. aeruginosa B1 without ethyl formate. Next, the plates were maintained at 28 °C. Finally, after 48 h of incubation, linear colony growth was measured and inhibition (%) was calculated relative to the control. In addition, the antibacterial activity of ethyl formate was evaluated using NB medium. Experiments were conducted in 100 mL Erlenmeyer flasks containing 20 mL of nutrient broth, inoculated with 100 μL of a bacterial suspension (1 × 105 CFU/mL), and treated with ethyl formate at various concentrations (0.1–2 mg/L) [29]. The flasks were then immediately rubberized and maintained at 28 °C and 150 rpm for 48 h. Finally, the bacterial growth (OD600nm) was measured spectrophotometrically and the inhibition (%) was calculated relative to the control. In addition, the minimum inhibitory concentration (MIC) was calculated.
+In vivo efficacy of promising ethyl formate concentration against microbial pests
+In vivo efficacy on dates-borne microbial load in a laboratory-scale prototype
+A preliminary experiment in a laboratory-scale prototype was studied to determine the antimicrobial activity of the ethyl formate alone by fumigation technique. Two common date fruits (Phoenix dactylifera L.) varieties were obtained including semi-dry El-Wady I from El-Wady El-Gadeed region (El-Wady El-Gadeed Governorate, Egypt) and dry variety Frehi from Siwa Oasis (Matrouh Governorate, Egypt). Date fruits (five fruits) were placed in sterilized Petri plates. Plates were transferred to 1 L glass jars (10 replicates) for fumigation as a simple prototype. Ethyl formate (70 mg/L air) was applied to the filter paper affixed to the bottom surface of the rubber band screw caps of the jar, then screwed on tightly and left for 24 h of exposure time. The control group (10 replicates) was not exposed to ethyl formate under the same conditions. After fumigation, the samples were obtained and each date sample (1 g of dry or semi-dry) was cut and serially diluted under aseptic conditions with sterile distilled water. Then, after sample homogenization, a 0.1 mL aliquot was used as an inoculum for the microbiological analysis [30]. Fungi were enumerated by pour plate technique from dates using PDA plates supplemented with chloramphenicol (100 mg/L) to suppress bacterial growth. Three replicate plates were prepared for each dilution of the date sample. 0.1 mL aliquots of each dilution were spread onto the PDA plates. Plates were incubated at 28 °C for 6 days. The number of fungal colonies on each plate was counted. Similarly, bacteria were enumerated by the pour plate technique. NA plates were used. The same pour plate technique was applied for fungi and inoculation with 0.1 mL aliquots of date’s dilution. The plates were incubated at 28 °C for 48 h. The number of bacterial colonies on each plate was counted [31].
+In vivo efficacy on dates-borne microbial load in a pilot-scale prototype
+To evaluate the feasibility of a new fumigation method, our technical team successfully designed and constructed a pilot-scale prototype for semi-industry trials as shown in Fig. 1. It is constructed from heavy duty and proper metal enclosure (1.5 × 1.2 × 1.9 m = 3.42 m3) with a sealed cover connected to the cylinder of a fumigant mixture (16.70% ethyl formate + 83.30% CO2) by a copper pipe (diameter 1 cm) fitted with a barometer [21]. A high-precision balance (accurate to ± 0.005 kg) was used to measure the amount of fumigant injected into a prototype enclosure. The fumigant concentration was 70 mg/L of air, equivalent to 2291.4 g of fumigant mixture per 3.42 m3 of prototype space. Semi-industrial treatments were run with fifty crates (boxes, ca. 30 × 40 × 15 cm) containing 250 kg of the most common variety date (El-Wady I as a semi-dry and Frehi as a dry) were used for a fumigation experiment (25 crates for each date variety). These crates were arranged in columns and rows of crates. Each crate contains about 5 kg of date fruits. Treated and untreated date samples were collected, then they were inspected to determine the efficacy of ethyl formate against microbial pests after 24 h of incubation at 25ºC. Microbial analysis was performed as previously investigated in a laboratory-scale prototype section.
+Fig. 1
+Schematic representation of a designed semi-industrial scale prototype containing date fruit boxes (El-Wady I as a Semi-dry and Frehi as a dry) for fumigation with ethyl formate in combination with CO2
+Full size image
+Determination of ethyl formate residues in date fruits under a pilot-scale prototype
+After fumigation with ethyl formate, the prototype chamber was opened and ventilated for 1 h. In order to determine the residues, the treatments were transferred to the room conditions (25 ± 1 °C) and maintained until 7 days after fumigation, when the residue analysis ended. Samples (50 g per each) from dry and semi-dry date fruits after 1, 2, 3, 5, and 7 days of fumigation were extracted in sealed flasks (100 mL) containing 100 mL of ammonium nitrate solution (25%) by shacking at room temperature (25 ± 2 °C) for 24 h [32]. The mixture was centrifuged at 5000 rpm for 15 min. The supernatant was then filtered through a 0.2 µm PTFE syringe filter and stored at − 20 °C until analysis. An aliquot of 1 µL was injected directly into a gas chromatograph equipped with a flame ionization detector (GC-FID, Thermo Scientific GC TRACE ULTRA 1300, Germany) for analysis. Ethyl formate was separated on a 30 m, 0.30 mm (i.d.) capillary column (TG-5MS). The oven temperature was maintained at 80 °C. The amount of ethyl formate was determined based on the area of its peak in the chromatogram compared to the calibration curve. Three subsamples were analyzed for each sample, and each subsample was injected in triplicate. Prior to sample analysis, a calibration curve was prepared using five different standard solution concentrations. The strength of the linear relationship in data is commonly evaluated by considering the correlation coefficient (R2), the y-intercept, and the slope of the fitted line [33]. Limit of detection (LOD) and limit of quantification were also determined. The LOD is 3σ/S, and the LOQ is 10σ/S, where σ is the standard deviation and S is the calibration curve slope [33, 34].
+Statistical analysis
+Data analysis was conducted using IBM SPSS Statistics version 25.0 [35]. The study employed descriptive statistics (means and standard errors) to summarize the property values. Subsequently, inferential statistics (ANOVA and SNK test) were used to assess potential differences between groups and identify specific groups with significantly dissimilar average property values at p ≤ 0.05. The concentration of the compound that reduces fungal growth by half (EC50), along with its associated statistical parameters, was derived from log-transformed dose–response curves generated through probit analysis [27].
+Results and discussion
+In vitro antifungal activity of ethyl formate against fungal spores
+The effect of different concentrations of ethyl formate (0.25, 0.625, 1.25, 2.5, and 5 mg/L) compared to the control on spore germination of A. niger F4 and M. circinelloides YMM22 was evaluated microscopically after 48 h of incubation at 28 °C on PDA medium. In general, it was observed that there is a significant relationship between increasing the concentration and the inhibition rates in spore germination, as the higher the concentration, the greater the inhibition rate in a linear relationship. The highest concentration (5 mg/L) of ethyl formate completely prevented spore germination for both A. niger F4 and M. circinelloides YMM22, as shown in Fig. 2. Also, the concentrations of 1.25 and 2.5 mg/L were highly effective as they reduced the linear growth of the tested fungal spores. In contrast, at lower concentrations of ethyl formate, the germination of spores and spore linear germination was observed. However, germ tube length was inhibited by ethyl formate compared to the control (Fig. 2). Table 1 summarizes the EC50 values of ethyl formate and their statistical parameters against spore germination of A. niger F4 and M. circinelloides YMM22. A remarkable inhibition of spore germination was observed with EC50 values of 0.641 and 0.895 mg/L against A. niger and M. circinelloides, respectively). Thus, ethyl formate is an effective agent against the germination of fungal spores and can be used as a fumigation agent during fruit preservation.
+Fig. 2
+Effect of different concentrations of ethyl formate (0.25, 0.625, 1.25, 2.5, and 5 mg/L) compared to the control on spore germination of A. niger F4 (A) and M. circinelloides YMM22 (B) after 48 h at 28 °C on PDA
+Full size image
+Table 1 Antifungal activity of ethyl formate against spore germination of A. niger F4 and M. circinelloides YMM22
+Full size table
+The proposed mechanisms of the antifungal activity of ethyl formate against spores involve membrane disruption, inhibition of enzyme activity, and DNA damage. Ethyl formate may disrupt the fungal cell membrane, leading to increased permeability and leakage of essential cellular components [36, 37]. It can inhibit key enzymes involved in fungal growth and spore germination, such as dehydrogenases and succinate dehydrogenase [38]. Other studies suggest that ethyl formate can induce DNA damage in fungal cells, potentially contributing to its fungicidal activity [37].
+In vitro antifungal activity of ethyl formate against mycelial growth
+The effect of different concentrations of ethyl formate (1.25, 2.5, 5, 7.5, and 10 mg/L) compared to the control on mycelial growth of A. niger F4 and M. circinelloides YMM22 was tested and the results are shown in Fig. 3 after 6 days at 28 °C on PDA. It was observed that there is a significant relationship between increasing the concentration and the inhibition rates in mycelial growth inhibition of A. niger F4 (Fig. 3A), as the higher the concentration, the greater the inhibition rate in a linear relationship. However, a slight inhibition was observed of fungal mycelia at lower concentrations compared to the control for M. circinelloides YMM (Fig. 3B). However, higher concentrations of ethyl formate (5, 7.5, and 10 mg/L) completely inhibited the mycelial growth of this fungus. Table 2 indicates the EC50 values of ethyl formate and their statistical parameters against mycelial growth of A. niger F4 and M. circinelloides YMM22. The compound was significantly higher activity against A. niger F4 than M. circinelloides YMM22 with EC50 values of 1.962 and 4.002 mg/L, respectively).
+Fig. 3
+Effect of different concentrations of ethyl formate (1.25, 2.5, 5, 7.5, and 10 mg/L) compared to the control on mycelial growth of A. niger F4 (A) and M. circinelloides YMM22 (B) after 6 days at 28 °C on PDA
+Full size image
+Table 2 Antifungal activity of ethyl formate against mycelial growth of A. niger F4 and M. circinelloides YMM22
+Full size table
+Ethyl formate has been gaining interest for its potential as an antifungal agent. Numerous studies have explored it’s in vitro activity against various fungal species, demonstrating promising results, particularly against those causing post-harvest decay in fruits and vegetables [39, 40]. The exact mechanisms of the antifungal action of ethyl formate against mycelia growth remain under investigation, but several potential pathways have been proposed including membrane disruption, enzyme inhibition, and antioxidant activity. Ethyl formate exhibits antioxidant properties that could scavenge free radicals and damage fungal DNA [39, 40].
+In vitro antibacterial activity of ethyl formate
+The effect of different concentrations of ethyl formate (0.1–8 mg/L) compared to the control on P. aeruginosa B1 growth after 48 h of incubation at 28 °C was tested in in liquid NB medium and solid NA medium as shown in Fig. 4. The compound gradually reduced bacterial growth as the concentration increased linearly. However, the response to the concentrations was higher through inhibition of bacterial growth in the liquid medium (NB, Fig. 4A) compared to the solid medium (NA, Fig. 4B). This result was confirmed by the values of MIC (minimum inhibitory concentration), which were 2 and 8 mg/L for NB and NA techniques, respectively. The results of this study also concluded that ethyl formate effectively inhibited bacterial growth using relatively lower concentrations. Hence, it can be used safely as a fumigating agent while preserving fruits.
+Fig. 4
+Effect of different concentrations of ethyl formate (0.1–8 mg/L) compared to the control on P. aeruginosa B1 growth after 48 h of incubation at 28 °C. A In liquid medium NB. B In solid medium NA. MIC: Minimum inhibitory concentration. Different letters on the bars indicate the range from higher to lower rank as significant differences according to the Student–Newman–Keuls (SNK) test (P ≤ 0.05)
+Full size image
+Ethyl formate has potential as an antibacterial agent, offering promising results both in vitro and, to a lesser extent, in vivo. The precise mechanisms underlying the antibacterial activity of ethyl formate remain under investigation. Proposed mechanisms include membrane disruption, protein and enzyme inhibition, and DNA damage [36, 41]. However, further research is needed to fully understand its mechanisms of action, optimize its use, and address safety and regulatory aspects before widespread application.
+In vivo antimicrobial efficacy of ethyl formate
+In vivo efficacy on dates-borne microbial load in a laboratory-scale prototype
+Fungi and bacteria were enumerated (CFU/g) by pour plate technique in date fruits (dry and semi-dry) that were fumigated with 70 mg/L ethyl formate alone compared to the untreated control. The total viable count (CFU/g) of fungi and bacteria in date samples (El-Wady I variety as semi-dry and Frehi variety as dry) are shown in Table 3 and Fig. 5. This measurement reflects the general level of microbial community complexity. The fungal counts were 2475.0 and 32,725.0 CFU/g in the Frehi variety and El-Wady I variety, respectively after 6 days of incubation in the PDA medium, confirming a high fungal contamination. However, the total number of fungal microbes decreased significantly in date fruits (dry and semi-dry) after fumigation by ethyl formate alone with fungal counts of 712.90 and 6871.43 CFU/g in the Frehi variety and El-Wady I variety, respectively with reduction values 71.20 and 78.91%. In the same manner, there was a significant reduction in the total count of bacteria after the fumigation process by ethyl formate alone in both types of dates, where there was a reduction from 84562.50 CFU/g in non-fumigated dry dates (Frehi) to 34375.00 CFU/g in fumigated fruits (Table 3). This confirmed a reduction of 59.35%. In addition, the total count of bacteria was significantly decreased to 14437.50 CFU/g in fumigated compared to 160187.50 CFU/g in non-fumigated semi-dry date fruits (El-Wady I variety) with a reduction of 90.99%.
+Table 3 Total viable counts (CFU/g) of bacteria and fungi on the PDA and NA media after 2 and 6 days of incubation, respectively for fumigated and non-fumigated date samples (dry and semi-dry) by ethyl formate at 70 mg/L in a laboratory-scale prototype
+Full size table
+Fig. 5
+Fungal colonies (A) and bacterial colonies (B) isolated from fumigated date fruit samples by ethyl formate alone (70 mg/L) compared to the non-fumigated fruits in a laboratory-scale prototype on the PDA (A) and NA (B) media after 2 and 6 days of incubation for bacteria and fungi, respectively of incubation. Semi-dry date fruits (El-Wady I). Dry date fruits (Frehi)
+Full size image
+In vivo efficacy on dates-borne microbial load in a pilot-scale prototype
+Figure 1 shows the semi-industrial scale prototype fumigation system, visualized schematically, where El-Wady I (semi-dry) and Frehi (dry) date fruits were treated with ethyl formate/CO2 mixture. The efficacy of ethyl formate against microbial count in treated date fruits after 24 h of fumigation is shown in Table 4 and Fig. 6. The data show the total viable counts (CFU/g) of fungi and bacteria found in fumigated fruits by ethyl formate at 70 mg/L compared to the non-fumigated fruits (dry and semi-dry). Overall, the results indicate a high level of contamination in the non-fumigated samples. The fungal counts were 4926.67 and 44000.00 CFU/g in non-fumigated Frehi (dry) and El-Wady I (semi-dry) varieties, respectively after 6 days of incubation in the PDA medium, confirming a high fungal contamination. In addition, the bacterial counts were 95666.67 and 136000.00 CFU/g in non-fumigated Frehi and El-Wady I varieties, respectively after 2 days of incubation in the NA medium. However, the total number of microbes (bacteria and fungi) decreased significantly in fumigated date fruits (dry and semi-dry). The fungal counts were 1033.33 and 4066.67 CFU/g in fumigated Frehi and El-Wady I varieties, respectively with reduction values of 78.18 and 90.76%. The bacterial counts were 44666.67 and 47333.33 CFU/g in fumigated Frehi and El-Wady I varieties, respectively with reduction values of 53.31 and 65.20%.
+Table 4 Total viable counts (CFU/g) of bacteria and fungi on the PDA and NA media after 2 and 6 days of incubation, respectively for fumigated and non-fumigated date samples (dry and semi-dry) by ethyl formate at 70 mg/L and CO2 in a pilot-scale prototype
+Full size table
+Fig. 6
+Fungal colonies (A) and bacterial colonies (B) isolated from fumigated date fruit samples by ethyl formate (70 mg/L) + CO2 compared to the non-fumigated fruits in a pilot-scale prototype on the PDA (A) and NA (B) media after 2 and 6 days of incubation for bacteria and fungi, respectively of incubation. Semi-dry date fruits (El-Wady I). Dry date fruits (Frehi)
+Full size image
+Microbial pathogens that infect dates are the main cause of spoilage of date fruits during storage [42,43,44]. The presence and proliferation of microorganisms in date fruits are significantly influenced by factors like moisture content and sugar concentration. As dates ripen and dry, the moisture content decreases (about 20% in commercially available dates). This changes the phase, favoring mold growth due to its tolerance for drier conditions. Fungi such as Aspergillus and Penicillium can cause spoilage and affect the quality of stored dates [45]. In vitro studies have shown that ethyl formate inhibits spore germination and mycelial growth in the fungi tested. The fungal spores and mycelia lost their ability to germinate and grow again even after being transferred to fresh PDA plates, confirming the lethal effect of ethyl formate. Similar results have also been observed for the bacteria tested. Likewise, in vivo studies revealed that ethyl formate significantly reduced microbial load. Therefore, ethyl formate can be successfully used as a general and safe fumigant to control microbial contamination in small and large disinfection operations. It is similar to previous studies that have demonstrated that ethyl formate is potent antimicrobial and insecticidal and may be used as an alternative to toxic fumigants (e.g., methyl bromide and phosphine) [18, 21, 22, 46].
+Residues of ethyl formate in date fruits after fumigation in a pilot-scale prototype
+The calibration curve was linear up to 3.5 µg injected, and the correlation coefficient (R2) was 0.9975. The regression equation analysis of the data (n = 5) for the calibration curve was y = 74193905.9777x + 1848632.8125. The LOD and LOQ values were 2.42 and 8.08 µg injected, respectively (Table 5). The residues of ethyl formate in fumigated Frehi and El-Wady I fruits after 24 h, without aeration, were 10.39 and 1.19 mg/kg, respectively (Table 6). Each value is the mean ± standard error of three replicate determinations. Figure 7 shows the GC-FID chromatograms of ethyl formate residues present in date fruits (Frehi as dry and El-Wady I as semi-dry) after 24 h of fumigation by 70 mg/L air. The absence of a matrix effect was confirmed by comparing both the non-fumigated (control) and fumigated samples (Fig. 7A vs Fig. 7B–D). The results indicated that a high amount of residue of ethyl formate (10.39 and 1.19 mg/kg in Frehi and El-Wady I fruits, respectively) was found in two varieties of date fruits fumigated with ethyl formate. This finding refers to that the samples were directly taken after the fumigation period without ventilation. However, the residues were non-detectable or declined to zero level after 1, 2, 3, 5, and 7 days of fumigation and ventilation at room temperature. Analysis of residues after ethyl formate fumigation and ventilation showed its quick decline. While this suggests reduced environmental impact, further research is needed to confirm the absence of any harmful residues and fully assess the feasibility of residue-free pest control using this method.
+Table 5 Chromatographic standard curve information, limit of detection (LOD), and limit of quantification (LOQ) for ethyl formate residue analysis by GC-FID with TG-5MS column
+Full size table
+Table 6 Residues by GC-FID of ethyl formate extracted from Frehi as a dry date fruit and El-Wady I as semi-dry date fruits at different time intervals of fumigation by 70 mg/L air in a semi-industrial scale prototype
+Full size table
+Fig. 7
+GC-FID chromatograms of ethyl formate present in date fruits (Frehi as a dry and El-Wady I as semi-dry) after 24 h of fumigation by 70 mg/L air. A Control group, B ethyl format stock (70 mg/30 mL ammonium nitrate solution 10%) with calibration curve, C semi-dry date sample, and D dry date sample
+Full size image
+Ethyl formate is being explored as a potential alternative to conventional fumigants for pest control in date fruits due to its effectiveness and lower toxicity. However, concerns exist regarding potential residues and their impact on fruit quality and safety. Research indicates that ethyl formate residues in dates are minimal and dissipate quickly, suggesting minimal risk to consumers. Previous research found low levels of ethyl formate residues in treated dates, mostly below detectable limits and well below safety thresholds [47]. In addition, ethyl formate residues dissipate rapidly, often disappearing within a few days of storage [21, 48]. Other studies found no significant impact of ethyl formate fumigation on date color, pH, acidity, sugar content, or volatile compounds [47, 49].
+Analysis of ethyl formate in different commodities was relatively straightforward, except where the level of interference in non-fumigated commodities was significant relative to the residue to be determined [11, 13, 50]. Ethyl formate levels (background) in the non-fumigated date fruits tested were non-detectable. This result is based on the similarity of results from a variety of extraction conditions (e.g., solvent type, extraction durations) [19, 50]. The apparent increase in ethyl formate levels resulting from methanol extraction is due to methyl acetate, formed by esterification of acetic acid with methanol [13, 51].
+Historically, numerous volatile and toxic chemicals were used as fumigants. However, most have been phased out due to concerns about chemical residues, worker safety, and environmental impact [52, 53]. While ethyl formate naturally occurs in various food products, its levels can decline over time depending on storage conditions like temperature, humidity, and duration. This makes it a safe and environmentally friendly choice for certain applications, as it leaves minimal residue after use. Beyond its industrial uses, ethyl formate finds application as a food additive with global acceptance. Notably, the US Food and Drug Administration (FDA) has approved its use, while many countries additionally register it as a fumigant for dried fruits [46, 54].
+Conclusion
+Date fruits are generally resistant to microbial contamination due to their high sugar content, but they are affected by various types of bacteria, fungi, and insect infections. It reduces the texture, taste, and shelf life of dates. In the present investigation, the in vitro antimicrobial effect of ethyl formate as a promising fumigant was examined against three microbial species, namely A. niger F4, M. circinelloides YMM22, and P. aeruginosa B1 under laboratory conditions. In addition, the in vivo antimicrobial action was evaluated against total microbial count (CFU/g) on two common date fruits including semi-dry El-Wady I and dry variety Frehi varieties after fumigation with ethyl formate alone in a laboratory-scale prototype and in combination with CO2 in a pilot-scale prototype at the optimum concentration (70 mg/L air) for 24 h. The total viable count of bacteria and fungi was significantly reduced in fumigated fruits compared to non-fumigated fruits. The reduction (%) values in bacterial count were 53.31 and 65.20%, for Frehi and El-Wady I varieties, respectively in a pilot-scale prototype. In addition, the reduction (%) values in fungal count were 78.18 and 90.76% for Frehi and El-Wady I varieties, respectively. Therefore, the results obtained in this study confirm that the ethyl formate can be used as a safe alternative in fumigation of date fruit in postharvest phase to protect them from destructive microbial attack and to increase the preservation period and prolong the shelf-life period. Further research can optimize the concentration of ethyl formate, exposure time, and temperature for different date cultivars and target microorganisms to achieve optimal efficacy while maintaining product quality.
+Data availability
+The datasets used and/or analyzed during the current study are available from the corresponding author upon reasonable request.
+References
+Z.X. Tang, L.E. Shi, S.M. Aleid, Date fruit: chemical composition, nutritional and medicinal values, products. J. Sci. Food Agric. 93, 2351–2361 (2013)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  M.I. Hussain, M. Farooq, Q.A. Syed, Nutritional and biological characteristics of the date palm fruit (Phoenix dactylifera L.)–a review. Food Biosci. 34, 100509 (2020)
+Article
+  CAS
+  Google Scholar
+  S. Ibrahim, M. Rahma, Isolation and indentification of fungi associated with date fruits (Phoenix dactylifera, Linn) sold at Bayero University, Kano, Nigeria, Bayero. J. Pure Appl. Sci. 2, 127–130 (2009)
+Google Scholar
+  M. Quaglia, M. Santinelli, M. Sulyok, A. Onofri, L. Covarelli, G. Beccari, Aspergillus, Penicillium and Cladosporium species associated with dried date fruits collected in the Perugia (Umbria, Central Italy) market. Int. J. Food Microbiol. 322, 108585 (2020)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  M.M. Abo-El-Saad, M.E.I. Badawy, Y.M.M. Mohammed, Analysis and identification of microbial species associated with the Egyptian date fruits during postharvest storage. J. Appl. Biol. Sci. 17, 138–154 (2023)
+Google Scholar
+  F. Al-Asmari, N. Nirmal, M. Chaliha, D. Williams, R. Mereddy, K. Shelat, Y. Sultanbawa, Physico-chemical characteristics and fungal profile of four Saudi fresh date (Phoenix dactylifera L.) cultivars. Food Chem. 221, 644–649 (2017)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  I. Azaiez, G. Font, J. Mañes, M. Fernández-Franzón, Survey of mycotoxins in dates and dried fruits from Tunisian and Spanish markets. Food Control 51, 340–346 (2015)
+Article
+  CAS
+  Google Scholar
+  C. Bell, Fumigation in the 21st century. Crop Protect. 19, 563–569 (2000)
+Article
+  CAS
+  Google Scholar
+  M.K. Nayak, G.J. Daglish, T.W. Phillips, P.R. Ebert, Resistance to the fumigant phosphine and its management in insect pests of stored products: a global perspective. Ann. Rev. Entomol. 65, 333–350 (2020)
+Article
+  CAS
+  Google Scholar
+  R. Kaushik, Methyl bromide: risk assessment, environmental, and health hazard (Elsevier, Hazardous Gases, 2021), pp.239–250
+Google Scholar
+  M.G. Park, C.G. Park, J.O. Yang, G.H. Kim, Y. Ren, B.H. Lee, D.H. Cha, Ethyl formate as a methyl bromide alternative for phytosanitary disinfestation of imported banana in Korea with logistical considerations. J. Econ. Entomol. 113, 1711–1717 (2020)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  T.-H. Kwon, D.-B. Kim, B.-H. Lee, D.H. Cha, M.-G. Park, Comparison of methyl bromide and ethyl formate for fumigation of snail and fly pests of imported orchids. Insects 14, 66 (2023)
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  J.M. Desmarchelier, F.M. Johnston, L.T. Vu, Ethyl formate, formic acid and ethanol in air, wheat, barley and sultanas: analysis of natural levels and fumigant residues. Pestic. Sci. 55, 815–824 (1999)
+Article
+  CAS
+  Google Scholar
+  Y.L. Ren, Natural levels of ethyl formate in stored grains determined using an improved method of analysis. J. Stored Prod. Res. 40, 77–85 (2004)
+Article
+  Google Scholar
+  R.F. Ryan, C.P.F. De Lima, Ethyl formate fumigation an overview update, Proceedings of the 11th International Working Conference on Stored Product Protection, Chiang Mai, Thailand, 2014, pp. 24–28.
+E.M. Coetzee, H. McKirdy, X. Du, S.J. McKirdy, Y. Ren, Ethyl formate+ nitrogen fumigant: a new, safe, and environmentally friendly option for treating a 20 ft shipping container loaded with general freight. J. Environ. Sci. Health B 56, 650–657 (2021)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  K. Kim, D. Kim, S.H. Kwon, G.-H. Roh, S. Lee, B.-H. Lee, S.-E. Lee, A novel ethyl formate fumigation strategy for managing yellow tea thrips (Scirtothrips dorsalis) in greenhouse cultivated mangoes and post-harvest fruits. Insects 14, 568 (2023)
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  B.-H. Lee, K.-J. Hong, M.-G. Park, The efficacy, phytotoxicity, and safety of liquid ethyl formate used to control the grape (Campbell early) quarantine pest Pseudococcus comstocki. Appl. Sci. 12, 9769 (2022)
+Article
+  CAS
+  Google Scholar
+  T.-H. Kwon, J.-H. Cho, D.-B. Kim, G.-M. Kwon, K.-J. Hong, Y. Ren, B.-H. Lee, M.-G. Park, Ethyl formate fumigation for control of the scale insect Asiacornococcus kaki, a quarantine pest on sweet persimmon Diospyros kaki: Efficacy, phytotoxicity and safety. Insects 14, 341 (2023)
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  P. Kumar, T.R. Chauhan, R.K.N. Gera, N. Kumar, Significance of ethyl formate in controlling the fungal growth in stored grains, Annual International Research Conference on Methyl Bromide Alternatives and Emissions Reductions:[proceedings], 2007.
+H. Bessi, C. Ferchichi, S. Yousfi, F. Guido, M. Issaoui, V. Bikoba, E.J. Mitcham, K. Grissa, S. Bellagha, Determining effect of ethyl formate and Vapormate® on disinfestation efficiency and organoleptic quality of date fruits. Tunisian J. Plant Protect. 11, 51–62 (2016)
+Google Scholar
+  A. Zaitoon, A. Jabeen, C. Ahenkorah, C. Scott-Dupree, L.-T. Lim, In-package fumigation of blueberries using ethyl formate: Effects on spotted-wing drosophila (Drosophila suzukii Matsumura) mortality and fruit quality. Food Packag. Shelf Life 30, 100717 (2021)
+Article
+  CAS
+  Google Scholar
+  C. Thom, K.B. Raper, A Manual of the Aspergilli, LWW1945.
+J.I. Qazi, H. Asif, R. Shahid, Economical method for estimation of bacterial viable count, Pak. J. Zool. 40, (2008)
+A.B. Perumal, P.S. Sellamuthu, R.B. Nambiar, E.R. Sadiku, Antifungal activity of five different essential oils in vapour phase for the control of Colletotrichum gloeosporioides and Lasiodiplodia theobromae in vitro and on mango. Int. J. Food Sci. Tech. 51, 411–418 (2016)
+Article
+  CAS
+  Google Scholar
+  M.E. Guynot, A.J. Ramos, L. Seto, P. Purroy, V. Sanchis, S. Marin, Antifungal activity of volatile compounds generated by essential oils against fungi commonly causing deterioration of bakery products. J. Appl. Microbiol. 94, 893–899 (2003)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  D.J. Finney, Probit analysis. 3d Ed, 1971.
+R.B. Lopes, R.A. Laumann, M.C. Blassioli-Moraes, M. Borges, M. Faria, The fungistatic and fungicidal effects of volatiles from metathoracic glands of soybean-attacking stink bugs (Heteroptera: Pentatomidae) on the entomopathogen Beauveria bassiana. J. Invertebr. Pathol. 132, 77–85 (2015)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  R. Shemesh, M. Krepker, D. Goldman, Y. Danin-Poleg, Y. Kashi, N. Nitzan, A. Vaxman, E. Segal, Antibacterial and antifungal LDPE films for active packaging. Polym. Adv. Technol. 26, 110–116 (2015)
+Article
+  CAS
+  Google Scholar
+  R.O. Risiquat, Microbiological assessment of date fruits purchased from Owode market, in Offa, Kwara state Nigeria. IOSR J. Environ. Sci. Toxicol. Food Technol. 4, 23–26 (2013)
+Article
+  Google Scholar
+  E. Piombo, A. Abdelfattah, Y. Danino, S. Salim, O. Feygenberg, D. Spadaro, M. Wisniewski, S. Droby, Characterizing the fungal microbiome in date (Phoenix dactylifera) fruit pulp and peel from early development to harvest. Microorganisms 8, 641 (2020)
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  H. Asimah, L. Albert, R. Nazarudin, M. Razali, S. Mamot, A. Idris, A laboratory assessment on efficacy of ethyl formate as fumigant against four major cocoa pests. Acad. J. Entomol. 7, 122–127 (2014)
+Google Scholar
+  ICH Guideline, Validation of analytical procedures: text and methodology, Q2 (R1) 1, (2005)
+ICH, ICH Q2B validation of analytical procedures: methodology. London (CPMP/ICH/281/95): European agency for the evaluation of medicinal products, International Commission on Harmonisation, 1996.
+IBM, Corp. Released 2017. IBM SPSS Statistics for windows, version 25.0. Armonk, NY: IBM Corp. (2017)
+I.M.S. Utama, R.B.H. Wills, S. Ben-Yehoshua, C. Kuek, In vitro efficacy of plant volatiles for inhibiting the growth of fruit and vegetable decay microorganisms. J. Agric. Food Chem. 50, 6371–6377 (2002)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  C.M.C. Yuen, J.E. Paton, R. Hanawati, L.Q. Shen, Effects of ethanol, acetaldehyde and ethyl formate vapour on the growth of Penicillium italicum and P. digitatum on oranges. J. Hortic. Sci. 70, 81–84 (1995)
+Article
+  CAS
+  Google Scholar
+  T. Dao, P. Dantigny, Control of food spoilage fungi by ethanol. Food Control 22, 360–368 (2011)
+Article
+  CAS
+  Google Scholar
+  H. Choi, B.-H. Lee, Y.-S. Moon, K. Kim, H.-S. Lee, S.-E. Lee, Antifungal and antiaflatoxigenic effects of a fumigant, ethanedinitrile, on Aspergillus flavus. Appl. Biol. Chem. 60, 473–476 (2017)
+Article
+  CAS
+  Google Scholar
+  X. Zhao, J. Zhou, R. Tian, Y. Liu, Microbial volatile organic compounds: Antifungal mechanisms, applications, and challenges. Front. Microbiol. 13, 922450 (2022)
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  A. Zaitoon, L.-T. Lim, C. Scott-Dupree, Synthesis and characterization of ethyl formate precursor for activated release application. J. Agric. Food Chem. 67, 13914–13921 (2019)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  J.E. Moore, J. Xu, B. Millar, S. Elshibly, Edible dates (Phoenix dactylifera), a potentialsource of Cladosporium cladosporioides and Sporobolomyces roseus: Implications for public health. Mycopathologia 154, 25–28 (2002)
+Article
+  PubMed
+  Google Scholar
+  A. Hasnaoui, M.A. ElHoumaizi, A. Asehraou, M. Sindic, C. Deroanne, A. Hakkou, Chemical composition and microbial quality of dates grown in Figuig oasis of Morocco. Int. J. Agric. Biol. 12, 311–314 (2010)
+CAS
+  Google Scholar
+  A.A. Al Hazzani, A.I. Shehata, H. Rizwana, N.M.S. Moubayed, A.A. Alshatwi, A. Munshi, G. Elgaaly, Postharvest fruit spoilage bacteria and fungi associated with date palm (Phoenix dactylifera L) from Saudi Arabia, Afr. J. Microbiol. Res. 8, 1228–1236 (2014)
+S.H. Hamad, 20 Factors affecting the growth of microorganisms in food, progress in food Preservation 405 (2012)
+M. Muthu, S. Rajendran, T.S. Krishnamurthy, K.S. Narasimhan, J.R. Rangaswamy, M. Jayaram, S.K. Majumder, Ethyl formate as a safe general fumigant, Developments in Agricultural Engineering, Elsevier. 1984, pp. 369–393.
+H. Bessi, C. Ferchichi, S. Bellagha, K. Grissa, V. Bikoba, E. Mitcham, Effects of fumigation with ethyl formate on the quality of date fruit, VII International Postharvest Symposium, 2012, pp. 693–698.
+H. Bessi, S. Bellagha, K.G. Lebdi, V. Bikoba, E.J. Mitcham, Ethyl formate fumigation of dry and semidry date fruits: Experimental kinetics, modeling, and lethal effect on carob moth. J. Econ. Entomol. 108, 993–999 (2015)
+Article
+  CAS
+  PubMed
+  Google Scholar
+  C. Ferchichi, H. Bessi, K. Grissa, V. Bikoba, E.J. Mitcham, S. Bellagha, Efficiency of ethyl formate and Vapormate® on dates fumigation: Effects on fruit quality, in: A. S, B.H. J, J.D. S, B.C. H, N.R. T, F.A. G, E. M, I.A. A, A. K (Eds.) Proc 9th. Int. Conf. on Controlled Atmosphere and Fumigation in Stored Products, RBER Professional Congress Services, Antalya, Turkey, 2012, pp. 321–324.
+T.h. Kwon, D.b. Kim, K.w. Kim, M.g. Park, G.h. Roh, B.h. Lee, Scaled-up ethyl formate fumigation to replace methyl bromide on traded mushroom to disinfest mushroom fly (Lycoriella mali), Applied Biological Chemistry 64, 1–11 (2021)
+J. Plácido, Y. Zhang, Evaluation of esterification and membrane based solvent extraction as methods for the recovery of short chain volatile fatty acids from slaughterhouse blood anaerobic mixed fermentation. Waste Biomass Valoriz. 9, 1767–1777 (2018)
+Article
+  Google Scholar
+  J.B. Ristaino, W. Thomas, Agriculture, methyl bromide, and the ozone hole: can we fill the gaps? Plant Dis. 81, 964–977 (1997)
+Article
+  PubMed
+  Google Scholar
+  L.O. Ruzo, Physical, chemical and environmental properties of selected chemical alternatives for the pre-plant use of methyl bromide as soil fumigant. Pest Manage. Sci. 62, 99–113 (2006)
+Article
+  CAS
+  Google Scholar
+  U. Food, D. Administration, Formic acid, sodium and ethyl formate, Proposed affirmation of GRAS status as direct and indirect human food ingredients. Fed. Regist. 44, 18242–18246 (1979)
+Google Scholar
+  Download references
+Acknowledgements
+The authors would like to thank the Science and Technology Development Fund (STDF) for supporting this work under project code 37143.
+Funding
+Open access funding provided by The Science, Technology & Innovation Funding Authority (STDF) in cooperation with The Egyptian Knowledge Bank (EKB).
+Author information
+Authors and Affiliations
+Department of Pesticide Chemistry and Technology, Faculty of Agriculture, Alexandria University, Aflatoun St., 21545-El-Shatby, Alexandria, Egypt
+Mahmoud M. Abo-El-Saad, Mohamed E. I. Badawy, Mohamed S. Shawir & Yasser H. Hegazi
+Department of Botany and Microbiology, Faculty of Science, Damanhour University, Damanhour, 22516, Egypt
+Youssef M. M. Mohammed
+Corresponding author
+Correspondence to Mohamed E. I. Badawy.
+Ethics declarations
+Conflict of interest
+The authors confirm that this article’s content has no conflict of interest.
+Ethical approval
+Not applicable.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Abo-El-Saad, M.M., Badawy, M.E.I., Shawir, M.S. et al. In vitro and in vivo antimicrobial activity of the fumigant, ethyl formate, against bacteria and fungi of date fruits in postharvest phase. Food Measure (2024). https://doi.org/10.1007/s11694-024-02609-4
+Download citation
+Received
+12 February 2024
+Accepted
+02 May 2024
+Published
+08 June 2024
+DOI
+https://doi.org/10.1007/s11694-024-02609-4
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Date fruits
+Microbial analysis
+Ethyl formate fumigation
+Antimicrobial activity
+Residue analysis
+Use our pre-submission checklist
+Avoid common mistakes on your manuscript.
+Sections
+Figures
+References
+Abstract
+Introduction
+Materials and methods
+Results and discussion
+Conclusion
+Data availability
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.72.143
+Not affiliated
+© 2024 Springer Nature

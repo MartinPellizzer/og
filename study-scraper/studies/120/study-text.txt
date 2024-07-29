@@ -1,0 +1,2905 @@
+i 
+UNIVERSIDAD NACIONAL DE HUANCAVELICA 
+(Creada por ley Nº 25265) 
+ 
+ 
+ 
+ 
+FACULTAD DE INGENIERÍA ELECTRÓNICA-SISTEMAS 
+ESCUELA PROFESIONAL DE INGENIERÍA ELECTRÓNICA 
+ 
+TESIS 
+ 
+ 
+ 
+LÍNEA DE INVESTIGACIÓN: 
+Telecomunicaciones 
+ 
+ 
+PRESENTADO POR: 
+Bach. Williams Aníbal Quispe Huamán 
+Bach. Trinidad Vargas Poma 
+ 
+ 
+PARA OPTAR EL TÍTULO PROFESIONAL DE: 
+INGENIERO ELECTRÓNICO 
+ 
+ 
+HUANCAVELICA, PERÚ 
+ 
+2019 
+“SISTEMA INALÁMBRICO MÓVIL DE MONITOREO REMOTO DE 
+LA RADIACIÓN ULTRAVIOLETA SOLAR PARA LA PREVENCIÓN 
+DE DAÑOS POR ERITEMA EN LA PIEL DE LAS PERSONAS EN EL 
+DISTRITO DE PAMPAS - TAYACAJA” 
+ii 
+ACTA DE SUSTENTACIÓN 
+ 
+  
+iii 
+ 
+ 
+ 
+ 
+ 
+TITULO 
+ 
+“SISTEMA INALÁMBRICO MÓVIL DE MONITOREO REMOTO 
+DE LA RADIACIÓN ULTRAVIOLETA SOLAR PARA LA 
+PREVENCIÓN DE DAÑOS POR ERITEMA EN LA PIEL DE LAS 
+PERSONAS EN EL DISTRITO DE PAMPAS - TAYACAJA” 
+ 
+  
+iv 
+ 
+ 
+ 
+ 
+ 
+AUTORES 
+ 
+Bach. Ing. Williams Aníbal Quispe Huamán 
+Bach. Ing. Trinidad Vargas Poma 
+ 
+  
+v 
+ 
+ 
+ 
+ 
+ 
+ASESOR 
+ 
+Mg. Ing. Everth Manuel Ramos Lapa 
+ 
+  
+vi 
+DEDICATORIA 
+ 
+ 
+El presente trabajo va dedicado a Dios, quien 
+como guía estuvo presente en mi vida, 
+bendiciéndome y dándome fuerzas para 
+continuar. A mis padres que, con su apoyo 
+incondicional, permitieron que logre culminar mi 
+carrera profesional. 
+Williams Aníbal Quispe Huamán 
+ 
+ 
+ 
+ 
+ 
+ 
+Dedico este trabajo a Dios porque ha estado 
+conmigo, cuidándome, guiándome y dándome 
+fortaleza para continuar sin rendirme fácilmente; 
+a mis queridos progenitores, quienes son los 
+pilares fundamentales, han velado por mi 
+bienestar y educación; sin ellos jamás hubiese 
+podido conseguir, lo conseguido hasta ahora. 
+Cuento con el apoyo de todos ellos. Me tienen 
+plena confianza en cada reto que se me presenta, 
+sin dudar en mi inteligencia y capacidad. Los amo 
+a todos. 
+Trinidad Vargas Poma 
+ 
+  
+vii 
+AGRADECIMIENTO 
+ 
+ 
+Agradezco a Dios por permitirme culminar con 
+mi objetivo. 
+A mis padres por ser ejemplo y haberme 
+apoyado incondicionalmente. 
+A mis hermanos y hermana por estar siempre 
+presentes, por el apoyo que me brindan. 
+Agradezco a todos los docentes que, con su 
+sabiduría, conocimiento; motivaron a 
+desarrollarme como persona profesional en la 
+UNH (E.P.I.E). 
+Williams Aníbal Quispe Huamán. 
+ 
+ 
+ 
+A Dios por haberme guiado por el camino de la 
+felicidad hasta ahora. 
+A mis padres; PAPITO Eulogio Vargas, a mi 
+MAMITA Paulina Poma, a mis hermanas, por 
+haberme dado su fuerza siempre y apoyo 
+incondicional hasta ahora. 
+A mis docentes de la E.P.I.E., a quienes les 
+debo gran parte de mis conocimientos, gracias 
+a su paciencia y enseñanza de todas sus 
+experiencias y disciplina. Por último, a mi 
+compañero de tesis por su paciencia. 
+Trinidad Vargas Poma. 
+ 
+ 
+viii 
+RESUMEN 
+ 
+La radiación solar es un importante factor natural que determina el clima y tiene 
+influencia significativa sobre el medio ambiente. La componente ultravioleta (UV) 
+del espectro solar tiene varios efectos beneficiosos en la salud humana, pero 
+también es dañina si se exceden ciertos límites; en particular la piel y los ojos son 
+afectados, por lo que es necesario contar con mecanismos de información oportuna 
+para evitar daños. 
+ 
+En la investigación se planteó como problema general: ¿Cómo medir los índices de 
+la radiación UV solar y como informar los riesgos asociados, para prevenir daños 
+por eritema en la piel de las personas en el distrito de Pampas?, el objetivo general 
+fue: diseñar e implementar un sistema inalámbrico móvil de monitoreo remoto e 
+informe adecuado de los índices de radiación UV solar y los niveles de riesgo 
+asociados, para prevenir daños por eritema en la piel de las personas en el distrito 
+de Pampas, siendo la hipótesis general: el sistema inalámbrico móvil de monitoreo 
+remoto permite informar adecuadamente sobre los índices de radiación UV solar y 
+los niveles de riesgo asociados, para prevenir daños por eritema en la piel de las 
+personas en el distrito de Pampas. 
+ 
+La investigación es del tipo tecnológico con nivel correlacional, se empleó el 
+método sistémico en todo el proceso investigativo, el diseño fue experimental con 
+la implementación de un prototipo. Como resultado se obtuvo un sistema 
+inalámbrico movilizado por un dron, visualizando su ubicación y el nivel de 
+radiación sobre un aplicativo desarrollado sobre Android y en un terminal PC 
+desarrollado en LabVIEW, los mismos que permitieron informar adecuadamente 
+sobre los índices de radiación UV solar y los niveles de riesgo asociados, para 
+prevenir daños por eritema en la piel. Finalmente se concluye que el sistema 
+inalámbrico móvil implementado permite monitorear e informa adecuadamente los 
+índices de radiación UV solar y los niveles de riesgo asociados para prevenir daños 
+por eritema en la piel de las personas en el distrito de Pampas.   
+Palabra clave: Radiación, Eritema, Monitoreo, Inalámbrico.   
+ix 
+ABSTRACT 
+ 
+Solar radiation is important factor that determines the weather and has a significant 
+influence on the environment. The ultraviolet (UV) component of the solar 
+spectrum has several beneficial effects on human health, but it is also harmful if 
+certain limits are exceeded; In particular, the skin and eyes are affected, so it is 
+necessary to have timely information mechanisms to avoid damage. 
+In the investigation it was raised as a general problem: How to measure the rates of 
+solar UV radiation and how to report the associated risks, to prevent damage by 
+erythema on the skin of people in the Pampas district ?, the general objective was: 
+to design and implement a mobile wireless remote monitoring system and adequate 
+report of solar UV radiation rates and associated risk levels, to prevent skin damage 
+from people in the Pampas district, the general hypothesis being: the system 
+Wireless mobile remote monitoring allows you to properly report solar UV 
+radiation rates and associated risk levels, to prevent skin damage from people in the 
+Pampas district. 
+The research is of the technological type with a correlational level, the systematic 
+method was used throughout the research process, the design was experimental with 
+the implementation of a prototype. As a result, a wireless system mobilized by a 
+drone was obtained, visualizing its location and the level of radiation on an 
+application developed on Android and on a PC terminal developed in LabVIEW, 
+which allowed to report on the solar UV radiation rates and levels associated risks, 
+to prevent damage from erythema on the skin. Finally, it is concluded that the 
+mobile wireless system implemented allows monitoring and controlled information 
+of the solar UV radiation indexes and the associated risk levels to prevent skin 
+damage from people in the Pampas district. 
+Keyword: Radiation, Erythema, Monitoring, Wireless. 
+  
+x 
+ÍNDICE 
+ Página 
+ACTA DE SUSTENTACIÓN ......................................................................................... ii 
+TITULO  ................................................................................................................... iii 
+AUTORES  ................................................................................................................... iv 
+ASESOR  .................................................................................................................... v 
+DEDICATORIA ............................................................................................................... vi 
+AGRADECIMIENTO .................................................................................................... vii 
+RESUMEN  ................................................................................................................. viii 
+ABSTRACT  ................................................................................................................... ix 
+ÍNDICE  .................................................................................................................... x 
+ÍNDICE DE FIGURAS ................................................................................................. xiv 
+ÍNDICE DE TABLAS ................................................................................................... xvi 
+INTRODUCCIÓN ........................................................................................................ xvii 
+CAPÍTULO I  ................................................................................................................... 1 
+PLANTEAMIENTO DEL PROBLEMA ..................................................................... 1 
+ Descripción del problema ............................................................................... 1 
+ Formulación del problema .............................................................................. 3 
+  
+  
+ Objetivos ......................................................................................................... 3 
+  
+  
+ Justificación .................................................................................................... 4 
+  
+  
+  
+ Limitaciones ................................................................................................... 5 
+CAPÍTULO II ................................................................................................................... 6 
+MARCO TEÓRICO ......................................................................................................... 6 
+ Antecedentes ................................................................................................... 6 
+xi 
+  
+  
+ Bases teóricas................................................................................................ 11 
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+ Bases conceptuales ....................................................................................... 20 
+  
+  
+  
+  
+  
+ Efectos cutáneos ............................................................... 26 
+ Cánceres de piel no melánicos (CPNM) .......................... 28 
+  
+  
+ La latitud .......................................................................... 32 
+ La longitud ....................................................................... 32 
+ Medición de la latitud y la longitud ................................. 33 
+  
+ Latitud .............................................................................. 34 
+ Longitud ........................................................................... 34 
+ Altura ................................................................................ 34 
+ Sistemas de coordenadas geográficas .............................. 35 
+ Unidades de medida para las coordenadas GPS ............... 35 
+xii 
+  
+Características .................................................................................. 37 
+ Definición de términos ................................................................................. 38 
+ Hipótesis ....................................................................................................... 39 
+  
+  
+ Variables ....................................................................................................... 39 
+  
+  
+ Operacionalización de variables ................................................................... 39 
+CAPÍTULO III................................................................................................................ 41 
+METODOLOGÍA DE LA INVESTIGACIÓN .......................................................... 41 
+3.1 Ámbito temporal y espacial .......................................................................... 41 
+3.2 Tipo de investigación .................................................................................... 41 
+3.3 Nivel de investigación .................................................................................. 42 
+3.4 Método de investigación ............................................................................... 42 
+  
+  
+ 
+ 
+3.5 Población, muestra, muestreo ....................................................................... 56 
+  
+  
+  
+3.6 Técnicas e instrumentos de recolección de datos ......................................... 57 
+3.7 Técnicas y procesamiento de análisis de datos ............................................. 57 
+CAPÍTULO IV ............................................................................................................... 58 
+RESULTADOS .............................................................................................................. 58 
+ Análisis de la información ............................................................................ 58 
+  
+ Prueba de hipótesis ....................................................................................... 62 
+xiii 
+ Discusión de resultados ................................................................................ 66 
+CONCLUSIONES ......................................................................................................... 70 
+RECOMENDACIONES ............................................................................................... 71 
+REFERENCIA BIBLIOGRÁFICA ............................................................................. 72 
+ANEXO 1  ................................................................................................................. 77 
+MATRIZ DE CONSISTENCIA .................................................................................. 77 
+ANEXO 2  ................................................................................................................. 78 
+Programación  ................................................................................................................. 78 
+ANEXO 3  ................................................................................................................. 81 
+Calibración del sensor UV ............................................................................................ 81 
+ANEXO 4  ................................................................................................................. 83 
+Radiación UV teórico y medido durante 10 días ....................................................... 83 
+ANEXO 5  ................................................................................................................. 85 
+Tabla de niveles de riesgo asociados a índices de radiación UV ............................. 85 
+ANEXO 6  ................................................................................................................. 86 
+Fotografías  ................................................................................................................. 86 
+  
+xiv 
+ÍNDICE DE FIGURAS 
+ 
+ Página 
+Figura 1. Módulo UVM30A medidor de radiación UV ................................................... 12 
+Figura 2. Módulo Lolin ESP8266 V3 ............................................................................ 14 
+Figura 3. Modulo SIM 800L. ......................................................................................... 15 
+Figura 4. Dron FY550 Phantom - II .............................................................................. 17 
+Figura 5. Conexión GPS NEO-6M. .............................................................................. 18 
+Figura 6. Componentes del App de Virtuino. ................................................................ 19 
+Figura 7. Panel frontal y diagrama de bloques en LabVIEW. ....................................... 20 
+Figura 8. Espectro electromagnético de la radiación solar. .......................................... 22 
+Figura 9. La radiación ultravioleta en el Perú. .............................................................. 24 
+Figura 10. Quemadura solar en la cara. ......................................................................... 27 
+Figura 11. Carcinoma de células basales. ..................................................................... 29 
+Figura 12. Carcinoma de células escamosas ................................................................. 29 
+Figura 13. Coordenadas geográficas. ............................................................................ 31 
+Figura 14. Medición de la latitud. ................................................................................... 32 
+Figura 15. Medición de la longitud. ................................................................................ 32 
+Figura 16. Determinación de latitud y longitud en el planisferio. .................................... 33 
+Figura 17. Ubicación de proyecto ................................................................................... 37 
+Figura 18. Diagrama del sistema de monitoreo desarrollado. ........................................ 43 
+Figura 19. Diagrama de flujo para obtener la irradiancia e IUV. ..................................... 44 
+Figura 20. Diagrama de flujo para obtener la posición del Dron. ................................... 45 
+Figura 21. Diagrama de flujo de transmisión de datos para almacenamiento. ............... 46 
+Figura 22. Diagrama de acceso a datos a la web de ThingSpeak. ................................ 47 
+Figura 23. Diagrama de flujo de la interface. .................................................................. 47 
+Figura 24. Interface de la aplicación en Virtuino para celular. ........................................ 48 
+Figura 25. Diagrama de flujo para la aplicación desarrollada en LabVIEW. ................... 49 
+Figura 26. Interface de monitoreo desarrollado en LabVIEW. ........................................ 49 
+Figura 27. Diagrama en bloques de los parámetros medidos. ....................................... 50 
+Figura 28. Diagrama en bloques de la activación de colores del semáforo. .................. 50 
+xv 
+Figura 29. Semáforo indicador del IUV solar relacionado con eritema........................... 51 
+Figura 30. Usuarios establecidos para recepción de mensaje de prevención. ............... 52 
+Figura 31. Texto enviado a usuarios cuando el IUV es de 0-2. ...................................... 52 
+Figura 32. Texto enviado a usuarios cuando el IUV es de 3-5. ...................................... 53 
+Figura 33. Texto enviado a usuarios cuando el IUV es de 6-7. ...................................... 53 
+Figura 34. Texto enviado a usuarios cuando el IUV es de 8-10. .................................... 54 
+Figura 35. Texto enviado a usuarios cuando el IUV es más de 11. ............................... 54 
+Figura 36. Mensaje asociado al semáforo para prevenir los daños por eritema. ........... 55 
+Figura 37. Activación del color para IUV mayor a 11. .................................................... 55 
+Figura 38. Radiación UV en un día despejado en Pampas. ........................................... 58 
+Figura 39. Prueba de hipótesis de una población de dos muestras independientes. ..... 64 
+Figura 40. Prueba de hipótesis sobre informe de señales visuales. .............................. 65 
+ 
+  
+xvi 
+ÍNDICE DE TABLAS 
+ 
+ Página 
+Tabla 1. Índice ultravioleta (IUV). ................................................................................ 28 
+Tabla 2. Las variables y sus indicadores .................................................................... 40 
+Tabla 3. Instrumento de recolección de datos. ......................................................... 57 
+Tabla 4. Correspondencia del IUV solar y mensaje de prevención de daños ............. 59 
+Tabla 5. Relación del IUV solar y señal visual de prevención de daños ..................... 61 
+Tabla 6. Prueba t para muestras independientes ....................................................... 63 
+Tabla 7. Prueba t para muestras relacionadas ......................................................... 65 
+ 
+  
+xvii 
+INTRODUCCIÓN 
+ 
+La radiación Ultravioleta (UV), se encuentra en el intervalo de longitud de onda 
+entre 100 nm y 400 nm que corresponde al espectro electromagnético, 
+correspondiente a una energía de aproximadamente doce electrones voltios (eV). 
+Del rango mencionado del espectro solar el ozono atmosférico atrae toda la 
+radiación de los 100 y 280 nm, y para el rango entre los 280 y 315, la atmósfera 
+atrae casi el 90% de esta radiación nombrada UVB. Ya que el total de irradiación 
+UVB que llega a la zona es muy afín con la capa de ozono y debido al quebranto de 
+la capa de ozono por la contaminación y otros factores, que deriva en un 
+acentuación enorme en la radiación ultravioleta que llega hasta la superficie 
+terrestre (Quiñones & Almanza, 2014). Por ello mundialmente es la inquietud, 
+teniendo en cuenta que en el intervalo de 315 a 400 nm la radiación UV es poco 
+atraída por la atmósfera (radiación UVA) y si no es muy energética como las 
+primeras, también induce efectos perjudiciales y crecientes sobre la piel. 
+Esta radiación se mide como una irradiación incidente expresada en W/m2, o como 
+una exhibición radiante, o porción de energía que incide en una unidad de área de 
+superficie en un período de tiempo. Todas las personas estamos expuestas a esta 
+irradiación, independientemente de la raza o etnia existe la susceptibilidad a los 
+efectos nocivos de mucha exposición al sol. La piel oscura de las personas tienen 
+mayor protección natural contra el daño solar, que las personas que tienen la dermis 
+clara, aún son sensibles a los efectos desfavorables de la sobreexposición solar, 
+como el eritema, incluido el cáncer de piel (Ballesteros, 2005). 
+La medida de la intensidad de la radiación ultravioleta (IUV), de acuerdo a la 
+Organización Mundial de la Salud OMS, en el rango de radiación de 2 hasta 10 es 
+manejable. Por encima de 10 la radiación UV se considera un índice 
+considerablemente alto y de más riesgo. Por otro lado, la exposición a los rayos UV 
+es mayor cerca de la línea ecuatorial, pero también se considera el factor de la 
+altitud. En Perú hasta la actualidad, los índices de radiación se han agrandado, 
+llegando a limites muy peligrosos en el centro y sur de nuestro país donde el índice 
+xviii 
+de radiación ultravioleta llego hasta 20, siendo las regiones más afectadas: Junín, 
+Cuzco, Arequipa, Puno Moquegua y Tacna; según (EFE/ElComercio, 2016). 
+Por lo señalado es necesario contar con un equipo capaz de monitorear las 
+variaciones del índice de radiación ultravioleta (IUV), el mismo que se implementó 
+como un sistema electrónico móvil para la monitorización de niveles de radiación 
+ultravioleta, empleando para las comunicaciones, la tecnología inalámbrica 
+implementada sobre la plataforma Android y LabVIEW. 
+La investigación realizada está organizada en cuatro secciones que describimos a 
+continuación: 
+Capítulo I; en este capítulo se aborda el planteamiento del problema, así como la 
+formulación y los objetivos del estudio. 
+Capítulo II; contiene el marco teórico incluyendo los antecedentes y las bases 
+teóricas que son el soporte para el desarrollo del trabajo de investigación. También 
+contiene la hipótesis y las variables de estudio. 
+Capítulo III; menciona la metodología de la investigación, la población, muestra y 
+muestreo, así como también las técnicas e instrumentos utilizados y los 
+procedimientos de toma de datos como la técnica de análisis de datos. 
+Capítulo IV; menciona la exposición de resultados y la discusión donde se prueba 
+las hipótesis planteadas. 
+Se complementa la estructura del informe con las conclusiones y recomendaciones. 
+ 
+Los autores. 
+ 
+1 
+ 
+ 
+CAPÍTULO I 
+PLANTEAMIENTO DEL PROBLEMA 
+ 
+ Descripción del problema 
+La radiación solar es un significativo factor natural que establece el clima del 
+planeta tierra y tiene un dominio significativo en el medio ambiente. El 
+elemento ultravioleta (UV) del espectro solar juega un papel muy 
+significativo en varios procesos de la biósfera. Tiene muchos efectos 
+fructuosos en la salud humana, también puede ser muy perjudicial si se sale 
+de los límites de seguridad; si el conjunto de radiación UV es eminente se 
+agotan los componentes de autodefensa de algunas variedades biológicas y 
+sus cuerpos pueden ser dañados, también perjudica al organismo humano, 
+específicamente a la piel y los ojos. Para impedir el daño producido por las 
+eminentes exposiciones a la radiación UV, ya sea agudo o crónico, las 
+personas deben evitar su exposición al rayo solar usando protectores. Todas 
+las personas, sin tomar en cuenta su raza o etnia, son aptos a los efectos 
+nocivos de la excesiva exhibición al Sol. Las personas que tienen piel oscura 
+tienen defensa natural contra el daño solar que las de piel con tonos más 
+claros, pero son también perceptibles a los daños de la sobreexposición solar, 
+como el cáncer de piel es lo que menciona (Marcos Soriano Quiroga, 2016). 
+Según la Organización Mundial de la Salud (OMS) la intensidad de la 
+radiación ultravioleta del Sol, que se encuentra en el rango de radiación de 2 
+a 7 es. Si es más de 10 la radiación UV se toma en cuenta como un índice 
+muy alto y de más riesgo1. También menciona, que la exposición a los rayos 
+                                                 
+1 Orlando Ccora, SENAMHI. Nivel de radiación solar en Perú. URL: 
+http://www.americatv.com.pe/noticias/actualidad/peru-pais-mayor-radiacion-solar-mundo-
+n214020. Visitado el 25 de mayo de 2016. 
+2 
+UV es más si estamos cerca de la línea ecuatorial, pero también se considera 
+el factor de la altitud. El índice de radiación en el Perú han aumentado en los 
+últimos años, llegando a limites muy peligrosos en el centro y sur del país 
+como en la ciudad de Puno donde el índice ultravioleta llega a alcanzar a 20, 
+según Richard McKenzie, científico que realizó un estudio sobre los rayos 
+UV en el Perú2. 
+De acuerdo a estimaciones del COER que es el Centro de Operaciones de 
+Emergencia Regional, tomados en base a reportes emitidos por el Servicio 
+Nacional de Meteorología e Hidrología SENAMHI, en los días soleados de 
+enero a febrero de 2016 registraron niveles picos de 17 de radiación ultra 
+violeta en la región Huancavelica3. Sin embargo, no refiere en detalle la 
+radiación UV en el valle de Pampas, debido a la falta de instrumento 
+adecuado. 
+El año 2013 el Ministerio de Salud del Perú menciona que, la causa principal 
+de riesgo para el desarrollo de cáncer en la piel es la exposición progresiva 
+y/o intermitente intenso de radiación UV. La degeneración a la piel es la 
+cuarta enfermedad más común en el Perú, después del cáncer de cérvix, 
+estómago y mama (período 2006-2011). El ministerio de salud también tasó 
+que anualmente se muestran 1,200 nuevos casos, del cual 500 son mortales4. 
+Siendo necesario contar con un equipo capaz de monitorear las variaciones 
+del índice ultravioleta, por lo que nos propusimos realizar el diseño y la 
+ejecución de un sistema electrónico móvil para la monitorización de niveles 
+de radiación ultravioleta, empleando para las comunicaciones, la tecnología 
+                                                 
+2 Radiacion-extrema-en-el-peru.URL: El Comercio: http://goo.gl/Fbt4EB. Visitado el 25 de mayo 
+de 2016. 
+3 Héctor Huayllani- COER. Huancavelica y Junín registran radiación ultravioleta muy alta. URL: 
+http://elcomercio.pe/sociedad/huancavelica/huancavelica-y-junin-registran-radiacion-
+ultravioleta-muy-alta-noticia-1857526. Visitado el 25 de mayo de 2016. 
+4 Luis E. Mendoza. La verdad sobre el cáncer de piel y la radiación solar. URL: 
+https://sophimania.pe/ciencia/medicina-salud-y-alimentos/la-verdad-sobre-el-cancer-de-piel-y-
+la-radiacion-solar/. Visitado el 25 de mayo de 2016. 
+3 
+inalámbrica implementada sobre la plataforma Android y LabVIEW y activar 
+una señal de alarma en presencia de niveles altos de la radiación UV para 
+prevenir daños en la salud de los pobladores del valle de Pampas. 
+ Formulación del problema 
+ Problema general 
+¿Cómo medir los índices de la radiación UV solar y como informar 
+los riesgos asociados, para prevenir daños por eritema en la piel de 
+las personas en el distrito de Pampas? 
+ Problemas específicos 
+ ¿Cómo medir remotamente la radiación UV solar en el distrito de 
+Pampas? 
+ ¿Cómo determinar, e informar el índice ultravioleta y los riesgos 
+asociados para prevenir daños por eritema en la piel de las 
+personas en el distrito de Pampas? 
+ Objetivos 
+ Objetivo general 
+Implementar un sistema inalámbrico móvil de monitoreo remoto que 
+mida la radiación ultravioleta solar e informe el IUV de riesgo 
+asociado, para prevenir daños por eritema en la piel de las personas en 
+el distrito de Pampas. 
+ Objetivos específicos 
+ Implementar un sistema para medir de forma remota la radiación 
+UV solar en el distrito de Pampas. 
+ Desarrollar un programa aplicativo que determine e informe el 
+índice ultravioleta y los riesgos asociados para prevenir daños por 
+eritema en la piel de las personas en el distrito de Pampas. 
+4 
+ Justificación 
+ Justificación económica 
+El sistema electrónico que se desarrolló tiene la capacidad de 
+monitorear en forma remota las señales de radiación UV que 
+provienen de la radiación solar en el distrito de Pampas, con un 
+aplicativo desarrollado en LabVIEW y Android para dispositivos 
+móviles, que de manera económica permite tener los datos y su 
+respectivo monitoreo de las señales ultravioleta en el rango de 280 a 
+390 nm. Así mismo, tiene la capacidad de informar el índice 
+ultravioleta (IUV) con los riesgos asociados para prevenir daños por 
+eritema en la piel de las personas (quemaduras a la piel), por medio de 
+mensajes de texto en los equipos móviles. 
+ Justificación social 
+La causa principal para desarrollar un cáncer de piel es la exposición 
+con mucha frecuencia a la radiación ultravioleta de la radiación solar, 
+que producen mutaciones en el ADN de las células que se acumulan 
+durante años; la exposición a los rayos ultravioletas (UV) del Sol es 
+el elemento ambiental más significativo en la aparición del cáncer de 
+dermis y otros de salud ocular. El cáncer de la dermis puede dejar a 
+muy temprana edad huérfanos debido a que los padres trabajan en el 
+campo exponiéndose a la radiación solar e igualmente en la salud 
+ocular, la catarata severa producida por la exposición a la radiación 
+solar, puede producir la ceguera, convirtiéndose esta persona en una 
+carga social. 
+Las medidas para protegerse de la radiación solar pueden prevenir el 
+cáncer de piel (SENAMHI, 2012). Por lo que es necesario determinar 
+el IUV en el distrito de Pampas, y esta información enviar a la 
+5 
+población mediante la tecnología GSM el cual puede prevenir los 
+riesgos asociados a la exposición a la radiación solar. 
+ Justificación tecnológica 
+El sistema remoto tiene la capacidad de conexión a una página web 
+por medio de Internet. La comunicación entre el sistema electrónico 
+móvil y la aplicación de monitoreo de la radiación UV solar se 
+desarrolló usando la tecnología GSM/GPRS. Por lo que el prototipo 
+se implementará con tecnología reciente de fácil adaptación al usuario, 
+permitiendo obtener un producto tecnológico que integra tecnologías 
+emergentes. 
+ Limitaciones 
+La investigación se desarrolló dentro de la superficie del distrito de pampas, 
+en los meses de mayo, junio, julio y agosto del año 2018, debido a que en 
+estos meses se presenta los niveles muy altos del IVU. 
+Los IUV se obtienen de los sensores ubicados siempre en posición horizontal, 
+es decir no sigue perpendicularmente a la trayectoria que sigue el sol. Uno de 
+los sensores se ubica en la zona rural denominado Chalampampa, y otro 
+sensor se ubica en el dron, pudiéndose realizar la medida del IUV en cualquier 
+punto del distrito de Pampas. 
+La investigación se realiza solo para determinar los niveles de IUV y avisar 
+de estos niveles para prevenir posibles eritemas en los habitantes de Pampas; 
+el estudio no determinara los tipos de eritemas producidos en la piel. 
+  
+6 
+ 
+ 
+CAPÍTULO II 
+MARCO TEÓRICO 
+ Antecedentes 
+Como antecedentes para realizar la investigación se han considerado a 
+artículos de revistas y tesis siguientes: 
+ Antecedentes internacionales 
+Según el artículo de revista “Sistema para la medición, 
+visualización y registro de la radiación solar” (Díaz, Escoto, 
+Tinajero, Hernández, & Pioquinto, 2017), el cáncer a la dermis es uno 
+de los problemas graves al exponerse a los rayos del sol.  
+Menciona que aproximadamente 1000 casos anuales ocurren en 
+México; las regiones con mayor registro de muertes por cáncer son 
+algunas localidades como México, Estado de México, Veracruz y 
+Jalisco. Por ello desarrollaron un sistema electrónico que proporciona 
+a las personas información en tiempo real de la radiación ultravioleta 
+a la que se exponen. 
+La adquisición de datos en el transmisor, se basó en el controlador 
+Arduino que toma los datos de 6 sensores de radiación ultravioleta 
+ML8511, reloj calendario DS13307, memoria MicroSD y el 
+transceptor NRF24L01 para comunicación inalámbrica con el 
+receptor. Se muestra el índice ultravioleta en un display de 7 
+segmentos en el receptor. 
+7 
+De esta referencia se considera utilizar un controlador Arduino, 
+sensores de IUV, para la comunicación inalámbrica se mejora 
+utilizando módulos SIM800L con tecnología GSM/GPRS (Internet). 
+Se utilizó el índice ultravioleta según la categoría de exposición 
+basado en colores en un aplicativo desarrollado en LabVIEW y app 
+para equipo de telefonía móvil con Android. 
+Según el trabajo de titulación, titulado “Implementación de un 
+sistema electrónico de monitoreo autosustentable para la difusión 
+de índices de radiación solar en la ESPOCH” (Lopez & Mancheno, 
+2016), se desarrolló un sistema electrónico de monitoreo automático 
+autosustentable con panel solar de 100W, para la difusión de índices 
+de radiación solar en la ESPOCH en la Facultad de Informática y 
+Electrónica. La adquisición de datos se basó en un controlador 
+Arduino que toma los datos del sensor de Radiación UV TOCON E2 
+y se accedió a los datos en línea desde una página web utilizando la 
+red de comunicación inalámbrica se emplearon los módulos Xbee, 
+entre el controlador conectado al sensor y el servidor. 
+De esta referencia se utilizó el controlador Arduino; respecto al sensor 
+de IUV, utiliza de otro tipo y para la comunicación inalámbrica se 
+mejora utilizando módulos SIM800L con tecnología GSM/GPRS 
+(Internet); para nuestro caso no se accedió a los datos en línea desde 
+una página web, mostrándose en línea el índice ultravioleta según la 
+categoría de exposición basado en colores en un aplicativo 
+desarrollado en LabVIEW y app para equipo de telefonía móvil con 
+Android. 
+En la tesis de grado titulado “Administración remota para el 
+monitoreo de sensores en base a radiofrecuencia aplicando 
+Arduino” (Gutiérrez, 2016), señala que emplearon el controlador 
+Arduino, una dedicada al software y la otra al hardware; logrando un 
+8 
+prototipo totalmente libre. Utiliza controlador Arduino, sensor de IUV 
+ML8511, sensor de temperatura LM35 y módulo NRF24L01 para 
+comunicación inalámbrica. El aplicativo desarrollado en Java muestra 
+los niveles del IUV numéricamente y barras de colores, y la 
+temperatura. 
+De esta referencia tomamos el controlador Arduino, otro sensor de 
+IUV y para la comunicación inalámbrica se mejoró utilizando 
+módulos SIM800L con tecnología GSM/GPRS (Internet) y aplicativo 
+desarrollado en LabVIEW y para equipo móvil en Android. 
+En la tesis titulado “Medidas de radiación ultravioleta solar en el 
+municipio de Sica Sica” (Fanola, Guzmán, Peñaloza, & Zaratti, 
+2012), señala haber determinado en el altiplano paceño de la provincia 
+Aroma en cotejo con la ciudad de La Paz el acrecentamiento de la 
+radiación ultravioleta. Para este fin se realizaron medidas paralelas en 
+el municipio de Sica Sica (3917 m.s.n.m.) ubicado al sur del 
+departamento de La Paz - Bolivia y en el Laboratorio de Física de la 
+Atmósfera (3430 m.s.n.m.) de la ciudad de La Paz. Para sensibilizar, 
+se desarrollaron campañas de concientización entregando 2900 gorros 
+a estudiantes de la ciudad de Sica Sica con información de foto 
+defensa y entrega de banners con información de los riesgos de la 
+RUV en cada institución educativa. También, se desarrollaron 
+actividades académicas como talleres a la población y se 
+proporcionando información, a través de las emisoras locales y 
+nacionales, sobre el tema en referencia, sus efectos y cuidados 
+pertinentes. 
+En la investigación titulado “Diseño de un radiómetro ultravioleta, 
+para su aplicación en modelos de radiación UV” (Pérez, 2014), se 
+implementó un modelo de radiómetro ultravioleta, con el uso de los 
+9 
+siguientes módulos: sensor UV-A (fotodiodo), amplificador 
+operacional, Arduino uno y Ethernet Shield. 
+Al principio realizó una investigación sobre radiación ultravioleta 
+para saber sus principales peculiaridades, así como las maneras que 
+existen para su estudio. 
+Luego, con la interacción de los módulos mencionados anteriormente, 
+se realizó un prototipo capaz de medir la radiación UVA, el cual 
+permite realizar como: comunicación a distancia y generar un base de 
+datos. Tiene un costo final relativamente bajo. 
+ Antecedentes nacionales 
+En el trabajo de investigación “Sistema de monitoreo del índice de 
+radiación ultravioleta para difundir el peligro a la exposición de 
+la radiación solar en el campus de la EPIE” (Quinto, 2018), 
+presentó un sistema electrónico que consta de dos unidades: La 
+primera corresponde a la unidad de monitoreo, desarrollada en 
+LabVIEW 2018 se encargó de solicitar los datos remotamente que 
+corresponde al índice de radiación ultravioleta, recibirlos, procesarlos 
+y mostrarlo gráficamente y numéricamente en la pantalla de una 
+laptop; con el microcontrolador PIC18F2550. La segunda 
+corresponde a la unidad de adquisición; gobernado por otro 
+microcontrolador PIC18F2550, el cual realiza la lectura de los datos 
+del sensor ultravioleta ML8511A, sensor de temperatura y humedad. 
+Los niveles de IUV, temperatura y humedad se muestran en un display 
+LCD y señaléticas de color según el índice de radiación UV 
+establecida por la Organización Mundial de la Salud, todo instalado 
+en un módulo de metal y madera. 
+Este trabajo se mejoró con un controlador Arduino, sensores de 
+radiación UV y para la comunicación inalámbrica se mejora utilizando 
+10 
+módulos SIM800L con tecnología GSM/GPRS y aplicativo 
+desarrollado en LabVIEW para PC y app para equipo móvil con 
+Android. 
+La tesis titulado “Diseño de un sistema de señalización utilizando 
+sensores fotovoltaicos para la prevención de los efectos de la 
+radiación solar para los estudiantes de la EPIE” (Paredes, 2017), 
+trata del diseño de un señalizador que permite a los estudiantes de la 
+Escuela Profesional de Ingeniería Electrónica tener conocimiento 
+acerca de los niveles de exposición de la radiación solar, muestra cuán 
+importante es de medir, en tiempo real y dar a conocer en forma clara, 
+sobre los niveles de la radiación ultravioleta que se está registrando, e 
+informar por cuanto tiempo máximo las personas puedan estar 
+expuestas al sol para prevenir la causa principal del cáncer a la piel y 
+sensibiliza a los estudiantes acerca de los riesgos que se tiene la 
+exposición por mucho tiempo a la radiación solar. Entonces los 
+colores varían desde violeta, rojo, anaranjado, amarillo y verde, que la 
+intensidad respectivamente es: extrema, muy alta, alta, moderada y 
+baja. Para obtener este resultado, se realizó un estudio de los niveles 
+de radiación solar detectando niveles temibles de radiación 
+ultravioleta procediendo a realizar un sistema de señalización UV. 
+La tesis titulada “Influencia de la radiación solar en la salud de las 
+personas en la ciudad de Moquegua 2015” (Ordoñez, 2015), realiza 
+con el objetivo de demostrar cuanto influye la radiación solar en la 
+salud de la población, a través del índice ultravioleta; para concretar 
+esta investigación se aplicaron las técnicas: análisis de contenido, 
+fichaje y una encuesta, con materiales preparados de acuerdo a los 
+objetivos específicos de su investigación. Se solicitó datos históricos 
+de la radiación solar al Servicio Nacional de Meteorología e 
+Hidrología del Perú (SENAMHI); al Hospital Regional de la ciudad 
+de Moquegua, sobre enfermedades por efectos de la radiación 
+11 
+ultravioleta, estos fueron procesados mediante cálculos estadísticos y 
+sus respectivas evaluaciones, admisiones y contrastación de 
+resultados. Concluyendo que las perturbaciones a la dermis y del 
+tejido subcutáneo no pertenecen a una incidencia directa de la 
+radiación solar ultravioleta (UV), pero indica que es la principal causa 
+porque se da en las personas que se encuentran en edades que están 
+expuestas diariamente a la radiación solar ultravioleta. 
+ Bases teóricas 
+ Monitoreo remoto 
+El monitoreo remoto es el proceso de visualizar imágenes o una 
+secuencia de estas que grafican o muestran una determinada variable. 
+Al provenir esta variable de una fuente distante y visualizado sobre un 
+monitor o pantalla se refiere a monitoreo remoto. 
+En nuestra investigación el proceso de monitoreo se llevó a cabo sobre 
+una aplicación desarrollada en la plataforma de Android. 
+ Sensor de radiación UV solar 
+El módulo UVM30A (Ventura, 2016) es de fácil uso, al alimentarlo 
+lee el voltaje que representa el nivel de radiación ultravioleta que 
+detecta. Se alimenta con voltaje entre 3 VDC y 5 VDC y puede entregar 
+en el pin de salida entre 0 y 1200 mV. Cuando la salida es por encima 
+de 1100 mV, que corresponde a un índice UV extremadamente alto, 
+se puede tomar en cuenta la referencia de 1100 mV para mejorar su 
+sensibilidad.  
+Si se trabaja con la referencia interna de 1100 mV en las placas 
+basadas en el microcontrolador ATmega168 o ATmega328, se usan 
+los comandos analogReference (INTERNAL) y para la placa Arduino 
+Mega 2560 se utiliza analogReference (INTERNAL1V1). 
+12 
+El fotodiodo Schottky GUVA-S12SD que utiliza como sensor el 
+módulo UVM30A, mide en el rango de longitudes de onda entre los 
+240 nm y los 380 nm aproximadamente, el cual es muy adecuado para 
+determinar la radiación ultravioleta que afecta la piel. 
+Hay dispositivos que incorporan sólo la función de medida del índice 
+UV, como el GUVA-S12SD y ML8511 que incorporan amplificación, 
+ambos analógicos. 
+El periodo de lectura del GUVA-S12SD (Ventura, 2016) es rápido y 
+con respuesta muy estable. En los circuitos de experimento, la entrada 
+analógica que se realiza con el módulo UVM30A desde Arduino, 
+resulta aceptable medir el índice UV, para eliminar las desviaciones 
+de posibles interferencias, el programa a desarrollar debe realizar 
+varios cotejos, la cantidad como sea posible en cierto ciclo de tiempo, 
+y las promedia para establecer un valor que debe compararse con el 
+índice UV dadas por el fabricante. Los fabricantes del módulo 
+muestran una tabla con los valores de salida en mV vs el índice UV, 
+para ser utilizados en la edición del programa. 
+Ya que la entrada analógica con tiene una capacidad de 10 bits para 
+tener la tensión de entrada por el módulo UVM30A debemos convertir 
+el rango de 0 a 1023, que brinda la función, al intervalo que es de 0 a 
+1100, que forma los milivoltios que se establece como referencia con 
+analogReference(). 
+ 
+Figura 1. Módulo UVM30A medidor de radiación UV 
+Fuente: (Ventura, 2016) 
+13 
+ Módulo LOLIN ESP8266 V3 
+El ESP8266 es un chip con WiFi integrado, producido por la compañía 
+china Espressif Systems, y que se ha vuelto muy popular en los 
+últimos dos años debido a su bajo costo y a la posibilidad de usarse 
+sin necesidad de un microcontrolador externo, ya que cuenta con su 
+propio procesador y memoria interna, brindando la posibilidad de 
+crear dispositivos IoT muy pequeños y de bajo costo. 
+Por su parte, el NodeMCU es un firmware de código abierto que 
+permite programar fácilmente el ESP8266 en lenguaje Lua, y el 
+NodeMCU dev kit, es la placa de desarrollo oficial de NodeMCU. 
+NodeMCU dev kit v3 de LoLin ha sido el módulo que he estado 
+utilizando desde hace tiempo y es la base de los artículos que he 
+publicado sobre los módulos ESP8266. 
+El pin VU asociado al pin G que proporcionan alimentación directa 
+desde el puerto USB al que hemos conecto nuestro módulo. De esta 
+forma, podemos obtener una salida de 5v para nuestros proyectos. 
+1.  G: GND 
+2. VU: Vcc USB 
+ 
+Características son las siguientes: 
+ 
+ Módulo ESP-12E, 80MHz (3.3V) 
+ Chip USB CH340G 
+ Conectividad WiFi 2.4GHz 802.11b/g/n 
+ Soporta seguridad WPA y WPA2 
+ Soporta tres modos de operación: STA/AP/STA+AP 
+ Protocolo TCP/IP integrado 
+ Pueda programarse de forma remota vía OTA 
+ 16 puertos GPIO (funcionan a 3,3V 15mA max.) 
+ Entrada ADC de 10bits (1,8V máx. pero solo mide hasta 1V) 
+ CPU 80MHz (default) pudiendo llevarse a 160MHz 
+14 
+ RAM 128Bytes 
+ ROM 4MBytes 
+ PWM/I2C/IIC/1-Wire/SPI/SDIO 
+ Un pin GND otro de 5V extras. 
+ 
+Figura 2. Módulo Lolin ESP8266 V3  
+Fuente: (Mactronica, 2018). 
+ 
+ Módulo SIM 800L 
+Este módulo SIM 800L de (MercadoLibre, 2018), permite añadir voz, 
+texto, datos y SMS. Se requiere un microcontrolador para controlarlo, 
+se puede usar por ejemplo cualquier Arduino, microcontrolador PIC o 
+cualquier otro microcontrolador con alimentación entre 3 a 5 VDC, con 
+por lo menos un UART para que puede enviar y recibir comandos a 
+través de los pines RX/TX (ver figura 3). 
+Especificaciones técnicas (MercadoLibre, 2018): 
+ Voltaje de Operación: 3.4 VDC a 4.4 VDC. 
+ Nivel Lógico de 3 VDC a 5 VDC. 
+ Consumo de corriente máximo: 500 mA, en reposo: 0.7 mA. 
+ Interfaz: Serial UART. 
+15 
+ Quad-band: 850/900/1800/1900 MHz, se conectan a cualquier red 
+mundial GSM con cualquier SIM 2G. 
+ Trabaja solo con tecnología 2G (en Perú Movistar, Claro y Entel) 
+ Hacer y recibir llamadas de voz usando un auricular o un altavoz 
+de 8Ω externo y micrófono electret. 
+ Enviar y recibir mensajes SMS. 
+ Enviar y recibir datos GPRS (TCP/IP, HTTP, etc.) 
+ Escanear y recibir emisiones de radio FM 
+ Controlado por comandos AT (3GPP TS 27.007, 27.005 y 
+SIMCOM enhanced AT Commands) 
+ Interfaz de comandos AT con detección “automática” de velocidad 
+de transmisión. 
+ Datos GPRS: 
+- Velocidad máxima de transmisión 85.6 Kbps 
+- Protocolo TCP/IP en chip 
+- Codificación: CS-1, CS-2, CS-3 y CS-4 
+- Soporta USSD 
+ Soporta reloj en tiempo real (RTC). 
+ Velocidades de transmisión serial de 1200 bps hasta 115 200 bps. 
+ Tamaño de la SIM: Micro SIM. 
+ 
+Figura 3. Modulo SIM 800L. 
+Fuente: (MercadoLibre, 2018) 
+16 
+El módulo (Ventura, 2016) de telefonía móvil, permite incluir voz, 
+texto, datos y SMS al proyecto en pequeño espacio. Esta versión 
+cuenta con un conector uFL. Como el módulo FONA utiliza el mismo 
+chip SIM800L, se pueden utilizar las mismas librerías. 
+Solo el módulo no hace nada, se requiere un microcontrolador para 
+controlarlo; se sugiere usar cualquier módulo Arduino u otro 
+microcontrolador con alimentación entre 3 a 5 Vdc, con un puerto 
+UART para transmitir y recepcionar comandos a través de los pines 
+RX/TX. Además, se requiere dispositivos o accesorios adicionales. 
+Durante la transmisión el módulo puede requerir picos de corriente de 
+hasta 2 amperios. Es necesario asegurarse de que su fuente de 
+alimentación pueda suministrarlo. 
+ Vehículo aéreo no tripulado (Dron) 
+Un vehículo aéreo no tripulado. Son capaces de mantener de manera 
+autónoma un nivel de vuelo controlado y sostenido, estos vehículos 
+son atractivos para aplicaciones ecológicas y medioambientes debidos 
+a la facilidad de manipulación y guiados de trayecto. Con el 
+equipamiento adecuado en este trabajo de investigación serán capaces 
+de permitir el monitoreo remoto de las señales de la radiación 
+ultravioleta solar. 
+Drone Quadcopter Explorers teledirigido (ver figura 4), que hace 
+adecuado su integración al sistema inalámbrico móvil de monitoreo 
+de radiación UV, presenta las características siguientes: 
+ 4 canales de control remoto. El sistema de 6 axis permite que el 
+dron sea estable. Tres velocidades. 
+17 
+ 6-Axis giroscopio de vuelo con cuatro hélices, fuerte estabilidad, 
+puede implementar fácilmente varios vuelos y con resistencia al 
+viento, fácil de controlar. 
+ Tecnología de 2.4 GHz adoptada para anti-interferencia. Más de un 
+dron puede volar al mismo tiempo sin interferir unos con otros. 
+ El dron puede volar al aire libre. Incluye sistema de 4 CH digital 
+proporcional con sistema RC y batería recargable de alto 
+rendimiento. 
+ Funciones: arriba/abajo, izquierda/derecha, inclinación hacia los 
+lados, hacia delante/atrás, girar a la izquierda/girar a la derecha. 
+Fayee FY550 Phantom-II (Amazon.es, 2014) 
+ 
+ 
+ 
+Figura 4. Dron FY550 Phantom - II 
+Fuente: (Amazon.es, 2014) 
+ 
+ GPS NEO-6M 
+Los dispositivos NEO-6 (ContinentalElectornics, 2017) son de la 
+gama de receptores fabricados por U-Blox, que se conecta con 
+facilidad a una plataforma o procesador como Arduino. 
+18 
+Los GPS NEO-6 como el de la figura 5, disponen de interface de 
+comunicación UART, SPI, I2C y USB. Toleran los protocolos 
+NMEA, UBX binary y RTCM (Llamas, 2016). 
+La familia de receptores GPS NEO-6, están diseñadas en pequeño 
+tamaño, costo y consumo barato. La intensidad de corriente es de unos 
+37 mA en modo de medición continuo. 
+La fuente de alimentación es de 2.7 a 3.6 VDC para los modelos NEO-
+6Q/6M, y 1.75-2.0 VDC para los modelos NEO-6G. 
+Continuamente se encuentran compuestos en módulos que incorporan 
+la electrónica necesaria para enlazar de forma sencilla a un Arduino. 
+En la mayoría de las plataformas, incluye un regulador de voltaje que 
+admite alimentar directamente a 5 VDC. 
+GPS NEO-6 tiene un tiempo de encendido en frio de unos 30 s y en y 
+caliente de 1 s. La frecuencia máxima de medición es 5Hz. 
+La precisión en posición es de 2.5 m, en velocidad 0.1 m/s y en 
+orientación 0.5º, valores aceptables para un sistema de 
+posicionamiento GPS. 
+ 
+Figura 5. Conexión GPS NEO-6M. 
+Fuente: (ContinentalElectornics, 2017) 
+19 
+ Virtuino 
+Según (Iliaslamprou, 2016), Virtuino es una aplicación de Android 
+para monitoreo de sensores o dispositivos eléctricos de control a través 
+de Bluetooth, wifi local o Internet. Sobre esta aplicación se 
+implementó el sistema de monitoreo de radiación UV. 
+Características: 
+ Controlar Arduino desde BLUETOOTH 
+ Controlar Arduino desde INTERNET 
+ Controlar Arduino desde WIFI 
+ Controlar Arduino con control de SMS 
+ Monitor de datos de Thingspeak 
+ Vigila al mismo tiempo varias placas Arduino 
+Crear interfaces visuales con widgets como LEDs, botones, 
+conmutadores, visualizadores de valores, visualizadores gráficos, 
+instrumentos, reguladores, etc; como se muestra en la figura 6. 
+ 
+Figura 6. Componentes del App de Virtuino. 
+Fuente: (Iliaslamprou, 2016) 
+20 
+ LabVIEW 
+LabVIEW simplifica la integración de hardware, se puede adquirir y 
+visualizar los datos ligeramente desde cualquier módulo de E/S, ya sea 
+de NI o de otros. Combinado la programación gráfica y la sintaxis que 
+reduce el tiempo de programación, LabVIEW simplifica el 
+tratamiento de sistemas complejos con herramientas e IP al avance de 
+la tecnología de hoy en día (NI, 2018). En la figura 7 se muestra el 
+aplicativo desarrollado en LabVIEW 2018 para el monitoreo del IUV 
+remoto. 
+ 
+Figura 7. Panel frontal y diagrama de bloques en LabVIEW. 
+Fuente: (NI, 2018) 
+ 
+ Bases conceptuales 
+ Radiación solar 
+Medir la radiación solar (Benavides, 2010) es significativo para una 
+amplia gama de aplicaciones; en el sector agrícola, entre otros, 
+destacándose el monitoreo del desarrollo de plantas, análisis de la 
+vaporización e irrigación, arquitectura y esquema de edificios, 
+generación de electricidad, diseño y uso de sistemas de calentamiento 
+solar, implicancias en la salud (eritemas, ejemplo cáncer de piel), 
+21 
+modelos de predicción del tiempo y el clima, y muchas otras 
+aplicaciones más. 
+De acuerdo a lo que menciona  (Proteccioncivil.es, 2017), el Sol es la 
+estrella más cercana a la Tierra que está a una distancia aproximada 
+de 149.597.870 km. Es la principal fuente primaria de luz y calor para 
+la Tierra, tiene 330000 veces la masa de la Tierra. La energía solar que 
+se crea en el interior del Sol, donde la temperatura llega a los 
+15.000.000°K, con una presión altísima, provoca reacciones 
+nucleares. 
+Asimismo indica (Proteccioncivil.es, 2017) que la radiación solar, es 
+la energía que emite el Sol, que radia en todas las trayectorias a través 
+del espacio mediante ondas electromagnéticas. Es la energía que 
+determina los procesos meteorológicos y el clima. La energía 
+proveniente del Sol es radiación electromagnética entregada por el 
+hidrogeno que reacciona en el núcleo del Sol por fundición nuclear y 
+emitida por la extensión solar. El Sol expone energía en forma de 
+radiación de onda corta. Después de transitar por la atmósfera, donde 
+sufre un proceso de debilidad por la expansión, deliberación en las 
+nubes y de impregnación por las moléculas de gases (como el ozono 
+y el vapor de agua) y por partículas en suspensión, la emisión solar 
+que ocasionalmente superan 1 kW/m2 en días despejados, alcanza la 
+extensión terrestre oceánica y continental que la refleja o la absorbe. 
+La cantidad de emisión asumida por la superficie es restituida en 
+dirección al espacio exterior en forma de radiación de onda larga, con 
+lo cual se transmite calor a la atmósfera. 
+Manifiesta (Benavides, 2010), que el espectro de la radiación 
+electromagnética se puede ordenar en diferentes longitudes de onda, 
+como se muestra en la figura 8. Se extiende desde longitudes de onda 
+corta de billonésimas de metro, así como los rayos gama, que va hasta 
+22 
+longitudes de onda larga de varios kilómetros como las que consideran 
+las ondas de radio. El espectro electromagnético en su amplitud no 
+define su límite superior ni inferior entonces mencionamos que la 
+energía de una fracción diminuta de radiación, llamada fotón, es 
+inversamente proporcional a su longitud de onda; entonces a menor 
+longitud de onda del espectro, mayor contenido energético. 
+ 
+Figura 8. Espectro electromagnético de la radiación solar. 
+Fuente: (Benavides, 2010) 
+La región visible (entre 400 nm <  < 700 nm) corresponde a la 
+radiación que puede percibir el ojo humano e incluye los colores: 
+violeta (420 nm), azul (480 nm), verde (520 nm), amarillo (570 nm), 
+naranja (600 nm) y rojo (700 nm). 
+El rango del ultravioleta se encuentra entre los 100 y los 400 
+nanómetros. 
+El rango del infrarrojo se encuentra cerca entre los 700 y los 4000 nm. 
+ Cantidad de radiación solar y los factores que los determinan 
+La cantidad de radiación (Benavides, 2010) en la superficie está 
+determinada por los siguientes factores: La posición del Sol, la latitud, 
+la altitud, la nubosidad, cantidad de ozono en la atmosfera y la 
+reflexión terrestre. 
+Todo el día y durante el año la cantidad de radiación solar varía; cerca 
+del 60% se dan entre las 10 de la mañana a las 14 horas de la tarde 
+cuando el Sol se encuentra en su máxima elevación estos son los 
+23 
+mayores niveles de radiación solar; y cuando el ángulo de la radiación 
+solar se acerca al horizonte los niveles de radiación son bajos en la 
+superficie de la tierra por que atraviesa mayor distancia en la 
+atmosfera y encuentra más ozono, que permite mayor absorción. 
+Como se observa en la figura 9, la radiación varía con la ubicación 
+geográfica, mostrándose en el mapa a través de colores que van desde 
+el violeta hasta el rojo; la radiación solar es más intensa en la zona 
+ecuatorial, porque los rayos solares inciden más directamente que en 
+las latitudes medias (Ballesteros, 2005). La radiación solar crece  de 
+un 10 por ciento a 12 porciento por cada 1000 metros de aumento de 
+altitud, es por eso que a mayor altitud hay mayor emisión solar (Rivas, 
+Rojas, & Madronich, 2008). 
+Por otro lado, las nubes intervienen en la cantidad de radiación que 
+llega a la tierra. Las nubes densas acortan la radiación. Las 
+condiciones asociadas a las precipitaciones de lluvias reducen la 
+cantidad de radiación solar. La contaminación del aire mengua un 
+poco la cantidad de radiación solar que llega a la superficie terrestre. 
+Cuando existe nieve en la superficie terrestre es la que más refleja la 
+radiación solar, llegando hasta un 80%, el concreto refleja hasta un 
+12%, la arena seca de la playa llega al 15% y el agua de mar refleja 
+hasta el 25% (Benavides, 2010). 
+En su opinión de  (Ccora, 2015), menciona que la cantidad de 
+radiación UV que llega a la superficie de un lugar, está relacionada 
+con la cantidad de ozono existente; deduciendo que a menor cantidad 
+de ozono mayor radiación ultravioleta. Los máximos valores se 
+alcanzan en las superficies del Altiplano de Argentina, Bolivia, Chile 
+y Perú, llegando con un registro en el año 1989 un promedio diario de 
+22.5 MJ/m2 en Patacamaya-Bolivia; también se presenta valores 
+24 
+elevados en la árida Guajira colombiana. Los valores mínimos se dan 
+en los faldeos occidentales de los Andes en Chile, y en Ecuador y 
+Colombia. 
+ 
+Figura 9. La radiación ultravioleta en el Perú. 
+Fuente: (Ccora, 2015) 
+ 
+ El índice UV 
+El enunciado del índice UV solar mundial está basado en el espectro 
+de acción de referencia de la Comisión Internacional sobre 
+Iluminación (CIE) para la lesión provocado por la radiación UV en la 
+piel humana (ISO 17166:1999/CIE S 007/E-1998). El índice UV tiene 
+equivalencia física (1 IUV= 25 mW/m² de irradiancia efectiva) 
+(WMO, 1994). Dicho índice es una cantidad de la radiación UV 
+aplicable y definida para una superficie horizontal. El IUV es 
+adimensional y se define mediante la siguiente fórmula dada por 
+(OMS, PNUMA, OMM, & ICNIRP, 2002), (Alfaro, Llacza, & Odón, 
+2016): 
+𝐼𝑈𝑉 = 𝑘𝑒𝑟 ∫ 𝐸𝜆
+400 𝑛𝑚
+250 𝑛𝑚
+𝑆𝑒𝑟(𝜆)𝑑𝜆 
+25 
+donde Eλ es la irradiancia espectral solar expresada en W/(m2 . nm) a 
+la longitud de onda λ y dλ es la diferencia de longitud de onda utilizado 
+en la integración. Ser(λ) es el espectro de acción de referencia para el 
+eritema y ker es una constante igual a 40 m2/W. 
+El IUV se puede determinar mediante mediciones o cálculos basados 
+en modelos. Existen dos posibles enfoques basados en mediciones: el 
+primero consiste en utilizar un espectrorradiómetro y calcular el IUV 
+mediante la fórmula anterior. El segundo consiste en utilizar un 
+detector de banda ancha calibrado y programado para proporcionar el 
+IUV directamente. 
+ La irradiancia eritematica 
+La radiación tiene efectos biológicos, en el intervalo espectral 
+ultravioleta, presentando una fuerte dependencia con la longitud de 
+onda. El intervalo espectral corresponde a la longitud de onda λ= [280 
+nm, 400 nm], ya que las longitudes de onda menores son atraídas. Sin 
+embargo, el dominio de la radiación en este intervalo está modulada 
+por un factor llamado coeficiente de acción eritemática. Este 
+coeficiente espectral, ε(λ), que caracteriza el efecto de eritema, es 
+máximo a partir de las 0.280μm y va disminuyendo a medida que 
+crece la longitud de onda. Así, el poder eritemático total de la 
+radiación se define mediante la integral de irradiancia espectral total 
+ponderada por el coeficiente de acción eritemático. La irradiancia 
+eritemática aún es incompleta para determinar efectos nocivos en los 
+individuos ya que hace referencia a un tamaño de radiación 
+instantánea con unidades de potencia por unidad de superficie. Ya que 
+los efectos emanados por la radiación solar se muestran con 
+posterioridad a la exposición, éstos tienen un efecto acumulativo, por 
+lo que hay que introducir el tiempo de ostentación. 
+26 
+ Efectos sobre la salud de la radiación UV 
+Cuando el ser humano se expone a la radiación solar (OMS, PNUMA, 
+OMM, & ICNIRP, 2002), puede producir efectos agudos y crónicos 
+en la piel, en los ojos y su sistema inmunitario. 
+Aunque se cree que solo las personas de piel clara deben preocuparse 
+por la sobreexposición al sol, las personas de piel oscura también son 
+afectadas. Las personas de piel más oscura contienen más melanina 
+protectora, por lo que la incidencia de cáncer de piel es menor; sin 
+embargo, se producen casos de cáncer de piel en estas personas y, por 
+desgracia, estos son a menudo detectados en estado muy avanzado y 
+nivel más peligroso. 
+El riesgo de sufrir efectos en la vista y del sistema inmunitario por 
+sobreexposición a la radiación solar, relacionada con la radiación UV 
+es independiente del tipo de piel. En la publicación de la OMS “Índice 
+UV solar mundial”, se señala los efectos de la exposición a la 
+radiación UV sobre la salud, que se detalla a continuación: 
+ Efectos cutáneos 
+Los autores (OMS, PNUMA, OMM, & ICNIRP, 2002), 
+manifiestan, que los efectos cutáneos se manifiestan en 
+quemaduras solares, bronceado y envejecimiento de la piel: 
+El efecto agudo más conocido de la sobreexposición a la 
+radiación UV es conocido como eritema, se manifiesta por el 
+enrojecimiento de la piel que se conoce como quemadura 
+solar que se ve en la figura 10. Así; mismo la mayoría de las 
+personas adquieren un bronceado por la estimulación de la 
+producción de melanina, tras unos pocos días de exposición 
+a la radiación ultravioleta. Otro efecto menos evidente, es el 
+27 
+engrosamiento de la capa más externa de la piel, que atenúa 
+la penetración de la radiación UV a capas más profundas. 
+ 
+Figura 10. Quemadura solar en la cara. 
+Fuente: (Lasaludiinfo, 2016) 
+Ambos efectos indican, que la piel ha sufrido daños por 
+sobreexposición a la radiación UV. El tiempo de eritema y la 
+capacidad de adaptación a la exposición de radiación UV 
+varía mucho dependiendo del tipo de piel de cada persona. 
+También la exposición rutinaria a la radiación UV ocasiona 
+varios cambios de tipo degenerativo en las células, el tejido 
+fibroso y los vasos sanguíneos de la piel, como las pecas y 
+nuevas zonas pigmentadas de diversos colores y los lentigos 
+(pigmentación parda difusa). La sobreexposición a la 
+radiación UV acelera el envejecimiento de la piel, y se 
+manifiesta con la pérdida gradual de su elasticidad, produce 
+descamación, arrugas y una piel seca, y áspera. 
+Según (OMS, PNUMA, OMM, & ICNIRP, 2002), se tiene 
+dos conceptos diferentes de protección solar: el primero que 
+admite dos opciones; uno señala protegerse al pasar el umbral 
+del IUV y el otro recomienda protegerse conforme aumenta 
+el nivel del IUV; en el segundo concepto, si es necesario 
+protegerse del sol, se debe utilizar todos los medios como 
+28 
+prendas, gafas de sol, sombra, paraguas, sombreros y crema 
+protectora. Se puede aceptar el enfoque gradual; ya que, si 
+aumenta la intensidad de la radiación UV, se debe aumentar 
+la protección. 
+La tabla 1 informa respecto a la protección solar 
+recomendado, con recomendaciones sencillos y fáciles de 
+recordar; se debe tomar en cuenta que las personas de dermis 
+clara, muy sensibles, el riesgo de daños debido a la 
+exposición de radiación UV, para el caso inferior a 3 los 
+danos son escasos. Por encima de una exposición con IUV 
+mayor a 3, es necesario protegerse y debe reforzarse esta 
+protección para un IUV de 8 y valores superiores. 
+Tabla 1. Índice ultravioleta (IUV). 
+ 
+Fuente: (OMS, PNUMA, OMM, & ICNIRP, 2002). 
+ 
+ Cánceres de piel no melánicos (CPNM) 
+En ello está incluido los carcinomas de células basales y los 
+tumores de células escamosas (ver figura 11 y figura 12). Su 
+29 
+tratamiento quirúrgico es doloroso y a menudo desfigurante, 
+aunque raramente son mortales. 
+ 
+Figura 11. Carcinoma de células basales. 
+Fuente: (OMS, PNUMA, OMM, & ICNIRP, 2002) 
+ 
+ 
+Figura 12. Carcinoma de células escamosas 
+Fuente: (OMS, PNUMA, OMM, & ICNIRP, 2002) 
+ 
+Examinado el riesgo de CPNM en relación con la exposición 
+personal (OMS, PNUMA, OMM, & ICNIRP, 2002) se puede 
+concluir en lo siguiente: 
+ Los CPNM se presentan frecuentemente en las partes del 
+cuerpo expuestas al sol, como las orejas, la cara, el cuello 
+y los antebrazos. La exposición a largo plazo, de forma 
+30 
+rutinaria, a la radiación UV es un importante factor de su 
+causal. 
+ Para algunos países existe una relación directa entre el 
+aumento de CPNM y la disminución de la latitud, es decir, 
+con una mayor intensidad de la radiación UV. 
+ 
+ GSM y SMS 
+Las siglas GSM provienen de las palabras anglosajonas Global 
+System for Mobile comunications; es un estándar de comunicación de 
+telefonía móvil, que utiliza la combinación de satélites y antenas 
+terrestres (Master Magazine, 2015). Según el estándar GSM usa las 
+bandas de frecuencia de 850 MHz, 900 MHz, 1800MHz y 1900 MHz. 
+El tipo GSM admite un rendimiento máximo de 9.6 kbps, que permite 
+la transferencia señales de voz y de datos digitales de bajo volumen, 
+por ejemplo, mensajes de texto (SMS, Servicio de mensajes cortos) o 
+mensajes multimedia (MMS, Servicio de mensajes multimedia). 
+La tarjeta SIM (CCM, 2017) contiene además datos básicos de 
+identificación, así también otras informaciones específicas del 
+usuario, tal como dígito de identificación de suscriptor, claves de 
+autenticación, información sobre los servicios de telefonía de pagos 
+anticipados. El terminal móvil sólo puede ser utilizado con la 
+activación de la tarjeta del operador definido. 
+El SMS fue planteado al principio como parte del estándar de telefonía 
+móvil digital GSM, sin embargo, a la fecha tiene disponibilidad en una 
+amplia variedad de redes de comunicación, incluyendo las redes 3G. 
+La idea de permitir enviar pequeños mensajes de texto a los terminales 
+surgió durante el desarrollo de las redes GSM, casi sobre el año 1985, 
+y se pensaba como una manera de avisar al usuario, por ejemplo, de 
+llamadas perdidas o mensajes en el buzón de voz. A pesar de eso, ya 
+31 
+en los primeros documentos donde se habla de ellos, se define que el 
+terminal podrá enviarlos como recibirlos dichos mensajes. 
+El servicio de mensajería, tal como SMS (Short Message Services) 
+con la posibilidad de enviar un máximo de 160 caracteres entre dos 
+puntos o con la eventualidad de enviar un mensaje a todas las 
+estaciones móviles en la celda. 
+ Coordenadas geográficas 
+Las coordenadas geográficas son un conjunto de líneas imaginarias 
+como se ve en la figura 13, que permiten situar con exactitud cualquier 
+lugar en la superficie de la Tierra (EducARTE, 2016). 
+Este conjunto de líneas son los meridianos y paralelos. Los meridianos 
+son las líneas imaginarias que son trazados pasan por los polos. Los 
+paralelos son las líneas de círculos imaginarios que se trazan paralelos 
+a la línea del Ecuador. 
+ 
+Figura 13. Coordenadas geográficas. 
+Fuente: (EducARTE, 2016). 
+ 
+ 
+ 
+32 
+ La latitud 
+Como se observa en la figura 14, la latitud puede ser norte o 
+sur, según la posición de un punto dado en relación con el 
+ecuador, y aumenta a medida que nos acercamos a los polos, 
+que marcan los 90º. 
+Los paralelos han sido trazados a intervalos de 10º, tomando 
+como origen el Ecuador. Hay 90 paralelos en el hemisferio 
+Norte y otro 90 en el hemisferio Sur. 
+  
+Figura 14. Medición de la latitud. 
+Fuente: (EducARTE, 2016) 
+ 
+ La longitud 
+La longitud es la distancia existente entre el meridiano de un 
+punto cualquiera y el meridiano de Greenwich, como se 
+puede observar en la figura 15. 
+  
+Figura 15. Medición de la longitud. 
+Fuente: (EducARTE, 2016) 
+33 
+Las líneas de meridianos también han sido diseñadas a 
+intervalos de 10º, tomando como origen el meridiano 0° o el 
+meridiano de Greenwich. Hay 180 meridianos en el 
+hemisferio Este y otros 180 en el hemisferio Oeste. 
+La longitud puede ser este u oeste y aumenta a medida que 
+nos alejamos del meridiano de Greenwich. 
+La mayor longitud que se puede medir en cada uno es de 
+180º; bien 180º hacia el Este o 180º hacia el Oeste. 
+ Medición de la latitud y la longitud 
+ La latitud y longitud, se miden en grados, minutos y 
+segundos. 
+ A un grado sexagesimal le corresponde aproximadamente 
+111 kilómetros sobre la superficie terrestre; a un minuto, 
+le corresponde 1850 metros y a un segundo, le 
+corresponde unos 30.8 metros. 
+ Para la ubicación de un punto, necesitamos su latitud en 
+grados, minutos y segundos, indicando si es Norte o Sur. 
+Lo mismo con la longitud, indicando Este u Oeste. 
+ 
+ 
+ 
+Figura 16. Determinación de latitud y longitud en el planisferio. 
+Fuente: (EducARTE, 2016). 
+34 
+ Coordenadas GPS 
+Según (ServerGrove, 2017), las coordenadas GPS están formadas por 
+dos componentes que son latitud y longitud. La posición Norte o Sur 
+de un punto está dada por su latitud, mientras que su longitud brinda 
+información de su posición Este u Oeste. 
+ 
+ Latitud 
+La latitud de un punto es la medida del ángulo formado por 
+el plano ecuatorial con la línea que une a este punto al centro 
+de la tierra. Por regla general está comprendido entre -90° y 
+90°. Valores negativos son para ubicaciones en el hemisferio 
+Sur, y la latitud 0° le corresponde la línea ecuatorial. 
+ 
+ Longitud 
+La longitud tiene la misma premisa, con la discrepancia en 
+que no existe una referencia natural como lo es el Ecuador 
+para la latitud. La base para la longitud ha sido establecida a 
+la deriva en el Meridiano de Greenwich (que pasa a través del 
+Real Observatorio de Greenwich en las afueras de Londres). 
+La distancia de un punto, es la medida angular formada por 
+el semiplano del eje de la tierra que pasa por el meridiano de 
+Greenwich, y el semiplano del eje de la Tierra que pasa por 
+el punto. 
+ Altura 
+Para localizar un punto hace falta un tercer elemento, que es 
+la altitud. En la mayoría de los casos las coordenadas GPS 
+son necesarias para ubicar lugares en la superficie terrestre, 
+lo que le resta su importancia. La altura siembre es necesario 
+35 
+como la latitud y longitud para poder concretar una ubicación 
+GPS de manera completa y precisa. 
+ Sistemas de coordenadas geográficas 
+Así como revisamos las definiciones anteriores se toman en 
+cuenta varios factores que deben ser establecidos o 
+identificados para futuras referencias. 
+ El plano ecuatorial y el modelo de la forma de la Tierra 
+elegido. 
+ Un conjunto de puntos de referencia. 
+ La posición del centro de la Tierra. 
+ El eje de la Tierra. 
+ El meridiano de referencia. 
+Estos cinco criterios son las bases de los distintos sistemas de 
+coordenadas usados a través de la historia. 
+Actualmente el sistema geodésico más usado, es el WGS 84 
+(usado mayormente para las coordenadas GPS). 
+ Unidades de medida para las coordenadas GPS 
+Las dos principales unidades de medidas son las coordenadas 
+decimales y sexagesimales. 
+Coordenadas decimales 
+La latitud y longitud son números decimales con las 
+siguientes características: 
+ Latitud entre 0° y 90°: hemisferio Norte, con 6 decimales. 
+ Latitud entre 0° y -90°: hemisferio Sur, con 6 decimales 
+ Longitud entre 0° y 180°: Al este del meridiano de 
+Greenwich, con 6 decimales. 
+36 
+ Longitud entre 0° y -180°: Al Oeste del meridiano de 
+Greenwich, con 6 decimales. 
+ 
+Coordenadas sexagesimales 
+La coordenada sexagesimal está compuesta por tres 
+componentes: grados, minutos y segundos. Estos 
+componentes son a veces un número entero, pero se puede 
+utilizar en forma decimal en los segundos si se desea una 
+mayor precisión. 
+Un grado sexagesimal tiene 60 minutos y un minuto contiene 
+60 segundos de ángulo del arco. 
+Las coordenadas decimales tienen la diferencia de las 
+sexagesimales no pueden ser negativas. En dicho caso, las 
+letras E u O son añadidas a la longitud para definir la posición 
+Este u Oeste desde el meridiano de Greenwich, y a la latitud 
+se le agrega la letra N o S para destinar el hemisferio Norte o 
+Sur. 
+ Google Maps 
+Según (Cultiva Cultura: Online Megazine, 2014), Google Maps es una 
+plataforma de mapas web desarrollada por el gigante Google. Su 
+facilidad de uso y sus múltiples herramientas lo convierten en un 
+referente para consultar de forma rápida cualquier lugar del mundo. 
+Ofrece imágenes de mapas desplazables, así como fotografías por 
+satélite del mundo e incluso la ruta entre diferentes ubicaciones o 
+imágenes a pie de calle con Google Street View. Existe una variante 
+llamada Google Earth, también de forma gratuita. 
+37 
+Con Google Maps es posible navegar por cualquier calle del mundo, 
+permitiendo que los usuarios puedan realizar movimientos de 360° de 
+forma horizontal y 290° de forma vertical. 
+ 
+Figura 17. Ubicación de proyecto 
+Fuente: Google Maps 
+ 
+Características 
+Google Maps ofrece la capacidad de realizar acercamientos y 
+alejamientos al mostrar el mapa. El usuario puede controlar el mapa 
+con el mouse o las teclas de dirección para moverse a la ubicación que 
+desee. Para permitir un movimiento más rápido, las teclas «+» y «-» 
+pueden ser usadas para aumentar o disminuir el tamaño. El usuario 
+puede ingresar una dirección, una intersección o un área en general 
+para buscar en el mapa. 
+Como otros servicios de mapa, Google Maps permite la creación de 
+pasos para llegar a alguna dirección. Esto permite al usuario crear una 
+lista paso a paso para saber cómo llegar a su destino, calculando el 
+tiempo y la distancia recorrida entre las ubicaciones. 
+Se emplea en la investigación para determinar la ubicación del móvil 
+que mide la radiación UV gracias a las APIS. 
+38 
+Las coordenadas de Google Maps están en el sistema WGS84 y 
+mostrará la latitud y la longitud, positiva para Norte y Este, negativa 
+para Sur y Oeste. 
+ Definición de términos 
+ SMS: El servicio de mensajes cortos, más conocido como SMS (por las 
+siglas del inglés Short Message Service), es un servicio disponible en los 
+teléfonos móviles que permite el envío de mensajes cortos. Un SMS es una 
+cadena alfanumérica de hasta 140 caracteres, cuya trama incluye una serie 
+de parámetros, pero solo se recibe el mensaje enviado. 
+ Eritema: El eritema solar es comúnmente llamado quemadura solar. 
+Ocurre cuando hay demasiada exposición al Sol en las horas de más calor, 
+la piel sufre lo que se denomina una quemadura térmica, que se caracteriza 
+por el enrojecimiento y dolor de la zona afectada, así como por no dejar 
+cicatrices y siendo una de las causantes del cáncer de piel. 
+ Monitorización: Visualización de señales de radiación UV en pantalla de 
+la aplicación sobre Android o PC en LabVIEW. 
+ Móvil: Sensor en movimiento para medición de radiación UV solar. 
+ Radiación UV solar: Es la radiación electromagnética cuya longitud de 
+onda está comprendida aproximadamente entre los 100 a 400 nm. La 
+radiación solar viaja a través de la atmósfera terrestre antes de llegar a la 
+superficie, en este recorrido toda la radiación UV-C y el 90% de la UV-B 
+es absorbida por el ozono, vapor de agua, oxígeno y dióxido de carbono, 
+mientras que, la radiación UV-A es débilmente absorbida. 
+ Remota: Envío y adquisición de datos a distancia por medio inalámbrico. 
+ Sistema: Conjunto de subsistemas compuesto por ejemplo de transmisor 
+de señales y subsistema de monitorización. 
+ UVA: La mayoría de este tipo de radiación ultravioleta llega a la superficie 
+terrestre, tiene una longitud de onda entre 400 a 320 nm. 
+ UVB: La radiación ultravioleta tipo B, cuya longitud de onda esta entre 
+320 a 280 nm. llega a la Tierra muy atenuada por la capa de ozono. La 
+39 
+radiación UV-B, que llega a la superficie de la Tierra es potencialmente 
+dañina, una exposición prolongada a este tipo de radiación puede causar 
+daños a la salud. 
+ UVC: Radiación ultravioleta tipo C, cuya longitud de onda es de 280 a 
+100 nm, es la más dañina de los rayos ultravioleta, pero son absorbidos por 
+el oxígeno y el ozono en la estratosfera y no llega a la superficie terrestre. 
+ Hipótesis 
+ Hipótesis general 
+El sistema inalámbrico móvil de monitoreo remoto mide e informa el 
+índice ultravioleta y los riesgos asociados, para prevenir daños por 
+eritema en la piel de las personas en el distrito de Pampas. 
+ Hipótesis específicas 
+ El sistema inalámbrico móvil mide en forma remota el índice 
+ultravioleta con comunicación inalámbrica integrada a un 
+transductor de radiación ultravioleta solar en el distrito de Pampas. 
+ El programa desarrollado informa el índice ultravioleta y los 
+riesgos asociados. 
+ Variables 
+ Variable independiente 
+ Índice de radiación UV solar =IRUVS. 
+ Sistema inalámbrico móvil de monitoreo remoto = SIMMR. 
+ Variable dependiente 
+ Niveles de riesgo = NR. 
+ Operacionalización de variables 
+En la tabla 2, la variable dependiente, es operacionalizado como una función 
+dependiente de la variable “Índice ultravioleta IUV”. 1 IUV = 25 mW/m². 
+ 
+40 
+Tabla 2. Las variables y sus indicadores 
+VARIABLES 
+OPERACIONALIZACIÓ
+N DE LAS VARIABLES 
+INDICADORES 
+Variable independiente: 
+ PDEPP = f(IUV, 
+NR, SIMMR) 
+ 
+ Índice ultravioleta =IUV 
+ 1, 2, 3, 4, 5, 6, 7, 8, … 
+Se señala según el 
+color. 
+0-2: verde 
+3-5: amarillo 
+6-7: naranja 
+8-10: rojo 
+11+ violeta 
+Variable dependiente:  
+ Informar para prevenir 
+daños por eritema en 
+la piel de 
+personas=IDEPP 
+ Mensajes de texto 
+recibidos con el color 
+señalado por IUV y 
+con avisos de 
+prevención. 
+  
+41 
+ 
+ 
+CAPÍTULO III 
+METODOLOGÍA DE LA INVESTIGACIÓN 
+ 
+3.1 Ámbito temporal y espacial 
+La investigación se desarrolló desde el mes de agosto del año 2018 hasta el 
+mes de marzo del año 2019. 
+La investigación se limitó al diseño e implementación de un prototipo del 
+sistema electrónico móvil que permitió la monitorización de la radiación UV 
+solar (es decir IUV), que informa los riesgos a la exposición según IUV que 
+se muestra en colores establecidos por la OMS; abarcando la superficie del 
+distrito de Pampas, teniendo como centro de monitoreo el “Laboratorio de 
+Control y Automatización” de la Escuela de Ingeniería Electrónica; en el cual 
+se realizó las pruebas de funcionamiento del prototipo que fue desarrollado 
+tanto en hardware y software. 
+El distrito de Pampas se encuentra al suroeste de la provincia de Tayacaja en 
+el departamento de Huancavelica; su capital se localiza a 12° 23’ 42” de 
+latitud Sur y 74° 52’ 02” de longitud Oeste, a una altitud de 3.276 m.s.n.m. 
+(wikipedia, 2019) tiene una superficie de 109.07 km². Limita por el Norte, con 
+los distritos de Huaribamba y Daniel Hernández; por el Sur, con los distritos 
+de Acoria, Mariscal Cáceres e Izcuchaca; el Este, con los distritos de Daniel 
+Hernández y Colcabamba y por el Oeste con los distritos de Pazos, Ahuaycha 
+y Acostambo. 
+3.2 Tipo de investigación 
+La investigación desarrollada es del tipo experimental, donde se aplicó la 
+tecnología electrónica y las comunicaciones inalámbricas para la 
+42 
+implementación del sistema electrónico móvil, que monitorea de modo 
+remoto la radiación ultravioleta solar, e informa en tiempo real el IUV, para 
+prevenir daños por eritema en la piel de las personas. 
+3.3 Nivel de investigación 
+El nivel de investigación es cuasiexperimental (Lozada, 2014), debido a que 
+se determinó y monitorizó, la irradiancia solar y el índice ultravioleta 
+(variable independiente IUV), utilizando el sensor GUVA-S12SD del módulo 
+UVM30A, circuito de acondicionamiento de señal y todo un sistema 
+electrónico de comunicación remota para su adquisición, conjuntamente con 
+los programas para ser mostrados en un equipo móvil con Android y en la PC 
+a través de LabVIEW. 
+3.4 Método de investigación 
+Se empleó el método general de investigación, el método científico y como 
+método especifico el método experimental. 
+3.4.1. Prototipo final del sistema 
+El sistema inalámbrico móvil de monitoreo remoto de la radiación UV 
+solar fue implementado con la finalidad de realizar la medición de la 
+irradiancia de la radiación UV solar por medio del sensor UVM30A, 
+esta señal eléctrica es tomado por el Arduino nano y procesado con un 
+algoritmo que permite determinar el índice de radiación UV de 
+acuerdo a lo establecido por la OMS. Por otro lado, se localiza cada 
+medición con el Sistema de Posicionamiento Global (GPS) GPS 
+NEO-6M que también es procesado por el algoritmo implementado en 
+Arduino. El diagrama del sistema se muestra en la figura 18. 
+ 
+43 
+ 
+Figura 18. Diagrama del sistema de monitoreo desarrollado. 
+ 
+3.4.2. Adquisición de Datos 
+La radiación UV se adquiere por el sensor UV, estos datos van desde 
+los 0 mV, que representa un índice de radiación UV 0, hasta más de 
+1,465 mV, que representa un índice de radiación UV más de 14. El 
+sensor que se empleó para la lectura de estas señales UV fue el 
+UVM30A, este sensor provee señales de voltaje que debe ser 
+relacionado con la irradiancia UV. La respuesta del sensor frente a la 
+irradiancia UV no es lineal por lo que se linealizó en dos tramos 
+empleando la ecuación de la figura 19. 
+ 
+44 
+ 
+Figura 19. Diagrama de flujo para obtener la irradiancia e IUV. 
+ 
+La posición del móvil se adquiere con el GPS NEO 6M. Este GPS se 
+activa cuando existe señal de satélites en el medio donde se ubica el 
+móvil portador del módulo UV solar. Las señales obtenidas desde el 
+GPS son: latitud, longitud y altitud (ver figura 20). 
+45 
+ 
+Figura 20. Diagrama de flujo para obtener la posición del Dron. 
+ 
+Los datos obtenidos y procesados de la radicación UV solar con su 
+respectiva localización son enviados por medio de la comunicación 
+Wifi-Ethernet al servidor web ThingSpeak para su almacenamiento. 
+Para este proceso requiere de la conexión a través de Wifi a Internet. 
+El acceso al servidor Web se ejecuta por medio de un canal y una 
+interface de escritura APIKey generado al momento de la 
+configuración de la página web. Por este medio se envían cinco 
+campos que contiene los datos PRUV, IUV, y la Latitud, Longitud y 
+Altitud del móvil que transporta al módulo sensor de la radiación UV 
+solar (ver figura 21). 
+46 
+ 
+ 
+Figura 21. Diagrama de flujo de transmisión de datos para almacenamiento. 
+ 
+Los datos almacenados en el servidor web ThingSpeak son accedidos 
+desde la aplicación desarrollada en Virtuino para celulares, así como 
+la interface desarrollada en LabVIEW. 
+47 
+ 
+Figura 22. Diagrama de acceso a datos a la web de ThingSpeak. 
+ 
+La aplicación desarrollada en Virtuino tiene la capacidad de mostrar 
+la irradiancia e índice de la radiación UV solar son su respectiva hora 
+y localización, el índice de radiación UV solar es representado en un 
+semáforo de 5 colores recomendado por la OMS (OMS, OMM, & 
+PNUMA, Indice UV solar mundial, 2003). Estos índices están 
+asociados a los niveles de riesgo con información SMS para la 
+prevención de daños por eritema en la piel de las personas en el distrito 
+de Pampas. 
+El diagrama de flujo que se implementó en la plataforma de Virtuino 
+para celulares se muestra en la figura 23. La interface implementada 
+en el celular se muestra en la figura 24. 
+ 
+Figura 23. Diagrama de flujo de la interface. 
+48 
+ 
+Figura 24. Interface de la aplicación en Virtuino para celular. 
+ 
+La aplicación desarrollada en LabVIEW (ver diagrama de flujo en la 
+figura 25) permite monitorear de manera remota la irradiancia y el 
+índice UV solar con su respectiva localización, la localización se 
+establece sobre un mapa de Google Maps. El índice UV solar se asocia 
+a los niveles de riesgo para la prevención de daños por eritema en la 
+piel de las personas en el distrito de Pampas. 
+La interface en LabVIEW muestra el índice de la radiación UV sobre 
+un semáforo y la trayectoria del sistema inalámbrico móvil sobre un 
+mapa (ver figura 26). Los datos de la PRUV, IUV, Latitud, Longitud 
+y altitud que ocupan cinco campos (fiel) provenientes del servidor web 
+ThingSpeak son identificados empleando la herramienta “Json”. El 
+diagrama se muestra en la figura 27. 
+49 
+ 
+Figura 25. Diagrama de flujo para la aplicación desarrollada en LabVIEW. 
+ 
+ 
+Figura 26. Interface de monitoreo desarrollado en LabVIEW. 
+50 
+ 
+Figura 27. Diagrama en bloques de los parámetros medidos. 
+ 
+Los colores del semáforo están diseñados de acuerdo a lo que 
+establece la OMS. Los colores se activan en función a los índices de 
+la radiación UV solar, ver figura 28. 
+ 
+Figura 28. Diagrama en bloques de la activación de colores del semáforo. 
+51 
+3.4.3. Mecanismo para la prevención de daños por eritema en la piel de 
+las personas 
+La radiación eritemática es la relación de la radiación UV solar con 
+el tiempo de exposición de una persona al Sol (Delgado, 2007). Para 
+la prevención de daños por esta radiación en la piel de las personas 
+se establece un mecanismo de prevención desarrollado tanto para 
+celulares como para PC. 
+ 
+Figura 29. Semáforo indicador del IUV solar relacionado con eritema. 
+ 
+En Virtuino se desarrolló una interface con cinco indicadores del 
+índice de radiación UV solar como indica la OMS (OMS, OMM, & 
+PNUMA, Indice UV solar mundial, 2003), cada indicador de índice 
+de radiación está asociada a un mensaje para prevenir los daños por 
+eritema, como se muestra en la figura 29. Estos mensajes son enviados 
+por medio de mensaje de texto a diferentes usuarios que previamente 
+fueron establecidos tal como se muestra en la figura 30. 
+ 
+ 
+52 
+ 
+Figura 30. Usuarios establecidos para recepción de mensaje de prevención. 
+ 
+Los mensajes de texto cuando el índice de radiación UV solar está en 
+el rango de 0 – 2 bajo, es: Piel blanca exponerse de 27 a 60 minutos; 
+Piel mate, exponerse de 67 a 90 minutos (ver figura 31). 
+ 
+ 
+Figura 31. Texto enviado a usuarios cuando el IUV es de 0-2. 
+53 
+Los mensajes de texto a los usuarios previamente establecidos, cuando 
+el índice de radiación UV solar está en el rango de 3 – 5 (moderado), 
+son: Piel blanca exponerse de 25 a 40 minutos; Piel mate, exponerse 
+de 45 a 60 minutos (ver Figura 32). 
+ 
+Figura 32. Texto enviado a usuarios cuando el IUV es de 3-5. 
+Los mensajes de texto a los usuarios previamente establecidos, cuando 
+el índice de radiación UV solar está en el rango de 6 – 7 (alto), son: 
+Piel blanca exponerse de 17 a 27 minutos; Piel mate, exponerse de 30 
+a 40 minutos (ver Figura 33). 
+ 
+Figura 33. Texto enviado a usuarios cuando el IUV es de 6-7. 
+54 
+Los mensajes de texto a los usuarios previamente establecidos, cuando 
+el índice de radiación UV solar está en el rango de 8 – 10 (muy alto), 
+son: Piel blanca exponerse de 10 a 16 minutos; Piel mate, exponerse 
+de 18 a 24 minutos (ver figura 34). 
+ 
+Figura 34. Texto enviado a usuarios cuando el IUV es de 8-10. 
+El mensaje de texto a los usuarios previamente establecidos, cuando 
+el índice de radiación UV solar es superior a 11 (extremo), es: No 
+exponerse (ver figura 35). 
+ 
+Figura 35. Texto enviado a usuarios cuando el IUV es más de 11. 
+55 
+En la aplicación desarrollado para PC en la plataforma de LabVIEW 
+se implementó la interface con los cinco indicadores del índice de 
+radiación UV solar establecido por la OMS, cada indicador de índice 
+de radiación está asociada a un mensaje para prevenir los daños por 
+eritema (ver figura 36). 
+ 
+Figura 36. Mensaje asociado al semáforo para prevenir los daños por eritema. 
+ 
+La activación es secuencial quedando activo las luces del semáforo de 
+colores hasta que el indicador del índice UV solar corresponda a la 
+medición, tal como se muestra en la figura 37. 
+ 
+Figura 37. Activación del color para IUV mayor a 11. 
+56 
+3.5 Población, muestra, muestreo 
+ Población 
+La población estuvo constituida por las mediciones de la variable 
+índice de radiación UV solar, que puede ser medido con el sistema de 
+monitoreo remoto de manera indefinida, por lo que la población es 
+homogénea e infinita. 
+ 
+ Muestra 
+Por tratarse de una población infinita se empleó la relación de las 
+ecuaciones 3.1 y 3.2, para calcular el tamaño de muestra de las 
+mediciones de la radiación UV solar. 
+(3.1) 
+ 
+ 
+(3.2) 
+Donde: 
+Z= 1.96, desviación estándar asociado al nivel de confianza. 
+N = infinito, tamaño de la población. 
+P = 0.50, probabilidad de fracaso. 
+Q = 0.50, probabilidad de éxito. 
+E = 0.05, error deseado de estimación. 
+n ≅ 384 muestras. 
+Por lo que, por la naturaleza del estudio se tomaron en total 480 
+muestras de índices de radiación ultravioleta solar que relacionan a 
+señales de prevención de daños por eritema. 
+ 
+ Muestreo 
+El muestreo fue dirigido para tomar las muestras a partir de las 6:00 
+am hasta las 6.00 pm, por cada 15 minutos. Luego se agrupó las 
+muestras en grupos que abarcan de 0 a 14 que representan el índice de 
+radiación UV. 
+2
+2
+0
+.
+E
+QPZ
+n 
+ 
+N
+n
+n
+n
+0
+0
+1
+
+57 
+3.6 Técnicas e instrumentos de recolección de datos 
+Se empleó la técnica de la observación intensional selectiva y toma de datos 
+desde el sistema de monitoreo remoto, siendo almacenado estos datos en el 
+instrumento de recolección que se presenta en la tabla 3. 
+ 
+Tabla 3. Instrumento de recolección de datos. 
+Nº 
+Muestra 
+Latitud Longitud 
+Índice de radiación UV 
+solar 
+Señal visual de 
+prevención de daños 
+01     
+02     
+03     
+04     
+05     
+06     
+07     
+08     
+. 
+. 
+. 
+    
+384     
+ 
+3.7 Técnicas y procesamiento de análisis de datos 
+Para procesar los datos del trabajo de investigación se aplicó la técnica de 
+procesamiento apareado y se realizó el análisis correlacional de muestras por 
+tratarse de 490 muestras relacionadas agrupadas en 49 grupos de 10 muestras 
+cada una, para un nivel de confianza de 95% (ver tabla 3). Para la prueba de 
+hipótesis se formularon las hipótesis de trabajo (hipótesis alternas y nulas). 
+Se sometieron a prueba las hipótesis nulas para el nivel establecido, éstas se 
+rechazaron, por lo que se aceptaron las hipótesis alternas (ver la sección 4). 
+  
+58 
+ 
+ 
+CAPÍTULO IV 
+RESULTADOS 
+ 
+ Análisis de la información 
+ Procesamiento y presentación de resultados 
+Para la ejecución de las mediciones el sensor de radiación UV solar 
+UVM 30A fue calibrado empleando el manual del producto, la 
+calibración se muestra en el Anexo 2. 
+Con el sensor de radiación UV calibrado, las mediciones se llevaron a 
+cabo durante 10 días despajados teniendo resultados de los niveles de 
+radiación UV similares para diferentes horas. La medición diaria se 
+muestra en la figura 38. 
+ 
+Figura 38. Radiación UV en un día despejado en Pampas. 
+ 
+En los resultados de la tabla 4, la irradiancia UV se agrupó 10 lecturas 
+realizadas cada 15 segundos por cada 15 minutos. Las mediciones se 
+inician a las 6:00 am. con el móvil (dron) estacionado en las 
+59 
+coordenadas geográficas: Latitud -12.391096, Longitud -74.858124 y 
+una altitud de 3285.3 msnm, el móvil vario su posición geográfica, 
+transmitiendo del mismo la irradiancia UV, en el lado receptor se 
+realiza el monitoreo remoto de la radiación UV solar con una señal 
+visual asociada a cada índice UV representado por colores y mensaje 
+de texto. 
+ 
+Tabla 4. Correspondencia del IUV solar y mensaje de prevención 
+de daños 
+ 
+Hora Latitud Longitud 
+Irradiancia 
+UV 
+mW/cm2 
+IUV 
+medid
+o 
+IUV 
+teórico 
+Eficiencia 10 
+(1-
+|
+𝐼𝑈𝑉 𝑡𝑒ó𝑟𝑖𝑐𝑜−𝐼𝑈𝑉
+𝐼𝑈𝑉 𝑡𝑒ó𝑟𝑖𝑐𝑜
+|) ∗
+100 
+Señal visual de prevención de 
+daños 
+6:00 -12.391096 -74.858124 0.000 0.000 0.197   
+6:15 -12.391086 -74.858114 8.500 0.340 0.365 93.28 
+SEMÁFORO VERDE: 
+ACTIVADO  
+Piel blanca exponerse de 27 a 
+60 minutos; Piel mate, 
+exponerse de 67 a 90 minutos  
+6:30 -12.391086 -74.858117 13.750 0.550 0.604 91.04 
+6:45 -12.391089 -74.858115 22.500 0.900 0.930 96.73 
+7:00 -12.391084 -74.858113 30.000 1.200 1.355 88.56 
+7:15 -12.391088 -74.858112 45.000 1.800 1.885 95.49 
+7:30 -12.391087 -74.858119 37.000 1.480 2.524 58.64 
+7:45 -12.391088 -74.858115 77.750 3.110 3.269 95.14 SEMÁFORO AMARILLO: 
+ACTIVADO 
+ Piel blanca exponerse de 25 a 
+40 minutos; Piel mate, 
+exponerse de 45 a 60 minutos  
+8:00 -12.391087 -74.858112 100.000 4.000 4.113 97.25 
+8:15 -12.391084 -74.858119 125.000 5.000 5.045 99.11 
+8:30 -12.391087 -74.858118 139.500 5.580 6.049 92.25 
+8:45 -12.391089 -74.858116 173.750 6.950 7.108 97.78 SEMÁFORO 
+ANARANJADO: ACTIVO 
+Piel blanca exponerse de 17 a 
+27 minutos; Piel mate, 
+exponerse de 30 a 40 minutos 
+9:00 -12.391083 -74.858112 200.000 8.000 8.200 97.56 
+9:15 -12.391088 -74.858115 228.000 9.120 9.302 98.04 
+SEMÁFORO ROJO: 
+ACTIVO 
+Piel blanca exponerse de 10 a 
+16 minutos; Piel mate, 
+exponerse de 18 a 24 minutos  
+9:30 -12.391089 -74.858116 248.750 9.950 10.390 95.77 
+9:45 -12.391089 -74.858115 285.000 11.400 11.440 99.65 
+SEMÁFORO VIOLETA: 
+ACTIVADO 
+10:00 -12.391085 -74.858118 302.250 12.090 12.430 97.26 
+10:15 -12.391084 -74.858118 324.750 12.990 13.330 97.45 
+10:30 -12.391081 -74.858115 350.000 14.000 14.140 99.01 
+10:45 -12.391084 -74.858116 362.500 14.500 14.810 97.91 
+11:00 -12.391082 -74.858118 381.250 15.250 15.350 99.35 
+No exponerse  
+11:15 -12.391081 -74.858111 388.750 15.550 15.740 98.79 
+60 
+11:30 -12.391085 -74.858112 396.750 15.870 15.970 99.37 
+No exponerse  
+11:45 -12.391085 -74.858118 399.750 15.990 16.030 99.75 
+12:00 -12.391086 -74.858119 402.500 16.100 15.920 98.87 
+No exponerse  
+12:15 -12.391087 -74.858117 400.000 16.000 15.660 97.83 
+12:30 -12.391086 -74.858117 397.250 15.890 15.230 95.67 
+No exponerse  
+12:45 -12.391087 -74.858113 387.500 15.500 14.650 94.20 
+13:00 -12.391087 -74.858118 362.500 14.500 13.940 95.98 
+No exponerse  
+13:15 -12.391087 -74.858116 340.000 13.600 13.110 96.26 
+13:30 -12.391088 -74.858114 312.500 12.500 12.180 97.37 
+No exponerse  
+13:45 -12.391086 -74.858115 282.500 11.300 11.180 98.93 
+14:00 -12.391087 -74.858113 257.500 10.300 10.120 98.22 SEMÁFORO ROJO: 
+ACTIVO 
+Piel blanca exponerse de 10 a 
+16 minutos; Piel mate, 
+exponerse de 18 a 24 minutos  
+14:15 -12.391086 -74.858115 232.500 9.300 9.022 96.92 
+14:30 -12.391085 -74.858115 199.500 7.980 7.913 99.15 SEMÁFORO 
+ANARANJADO: ACTIVO 
+Piel blanca exponerse de 17 a 
+27 minutos; Piel mate, 
+exponerse de 30 a 40 minutos 
+14:45 -12.391082 -74.858114 177.500 7.100 6.836 96.14 
+15:00 -12.391086 -74.858112 147.500 6.00 5.789 98.08 
+15:15 -12.391087 -74.858115 125.000 5.000 4.801 95.86 
+ SEMÁFORO AMARILLO: 
+ACTIVADO  
+Piel blanca exponerse de 25 a 
+40 minutos; Piel mate, 
+exponerse de 45 a 60 minutos  
+15:30 -12.391085 -74.858113 100.250 4.010 3.891 96.94 
+15:45 -12.391087 -74.858112 80.000 3.200 3.072 95.83 
+16:00 -12.391086 -74.858112 60.000 2.400 2.354 98.05 
+SEMÁFORO VERDE: 
+ACTIVADO 
+Piel blanca exponerse de 27 a 
+60 minutos; Piel mate, 
+exponerse de 67 a 90 minutos  
+16:15 -12.391085 -74.858112 41.250 1.650 1.742 94.72 
+16:30 -12.391084 -74.858117 31.250 1.250 1.239 99.11 
+16:45 -12.391085 -74.858118 22.500 0.900 0.840 92.90 
+17:00 -12.391088 -74.858116 13.750 0.550 0.537 97.58 
+17:15 -12.391086 -74.858117 8.750 0.350 0.317 89.56 
+17:30 -12.391084 -74.858114 4.250 0.170 0.163 95.96 
+17:45 -12.391081 -74.858113 1.725 0.069 0.068 98.20 
+18:00 -12.391088 -74.858116 0.000 0.00 0.015    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+61 
+Tabla 5. Relación del IUV solar y señal visual de prevención de 
+daños 
+ 
+Hora IUV Señal visual de prevención de daños 
+6:00 0 
+SEMÁFORO VERDE: ACTIVADO 
+Piel blanca exponerse de 27 a 60 minutos; Piel mate, 
+exponerse de 67 a 90 minutos. 
+6:15 0 
+6:30 0 
+6:45 0 
+7:00 1 
+7:15 1 
+7:30 1 
+7:45 3 
+8:00 4 
+SEMAFORO AMARILLO: ACTIVADO 
+Piel blanca exponerse de 25 a 40 minutos; Piel mate, 
+exponerse de 45 a 60 minutos. 
+8:15 5 
+8:30 5 
+8:45 6 
+9:00 8 SEMÁFORO ANARANJADO: ACTIVO 
+Piel blanca exponerse de 17 a 27 minutos; Piel mate, 
+exponerse de 30 a 40 minutos. 9:15 
+9 
+9:30 9 
+SEMÁFORO ROJO: ACTIVO 
+Piel blanca exponerse de 10 a 16 minutos; Piel mate, 
+exponerse de 18 a 24 minutos. 
+9:45 11 
+10:00 12 
+10:15 12 
+10:30 14 
+SEMÁFORO VIOLETA: ACTIVADO 
+10:45 14 
+11:00 15 
+No exponerse 
+11:15 15 
+11:30 15 
+No exponerse 
+11:45 15 
+12:00 16 
+No exponerse 
+12:15 16 
+12:30 15 No exponerse 
+62 
+12:45 15 
+13:00 14 
+No exponerse 
+13:15 13 
+13:30 12 
+No exponerse 
+13:45 11 
+14:00 10 
+SEMAFORO ROJO: ACTIVO 
+Piel blanca exponerse de 10 a 16 minutos; Piel mate, 
+exponerse de 18 a 24 minutos. 
+14:15 9 
+14:30 7 
+14:45 7 
+15:00 6 
+15:15 5 SEMAFORO ANARANJADO: ACTIVO 
+Piel blanca exponerse de 17 a 27 minutos; Piel mate, 
+exponerse de 30 a 40 minutos. 
+15:30 4 
+15:45 3 
+16:00 2 
+SEMAFORO AMARILLO: ACTIVADO 
+ Piel blanca exponerse de 25 a 40 minutos; Piel mate, 
+exponerse de 45 a 60 minutos. 
+16:15 1 
+16:30 1 
+16:45 0 
+17:00 0 
+SEMAFORO VERDE: ACTIVADO 
+Piel blanca exponerse de 27 a 60 minutos; Piel mate, 
+exponerse de 67 a 90 minutos. 
+17:15 0 
+17:30 0 
+17:45 0 
+18:00 0 
+ 
+ Prueba de hipótesis 
+Se establecen las hipótesis nulas con respecto a las hipótesis de la 
+investigación que son las hipótesis alternas, por cada hipótesis específica y se 
+somete a prueba. 
+ Hipótesis específica 1: El índice de radiación UV solar se mide en 
+forma remota desde un móvil con comunicación inalámbrica integrada 
+a un transductor de radiación ultravioleta solar que capta señales en el 
+espectro UV-B y UV-A, con una efectividad superior al 95%. 
+63 
+ Hipótesis estadística: 
+Hipótesis nula= H0:  𝜇 ≤ 95% 
+Donde: 
+𝜇 = media de la muestra poblacional de efectividad de medición, en 
+forma remota desde un móvil con comunicación inalámbrica 
+integrada a un transductor, de la radiación ultravioleta solar que 
+capta señales en el espectro UV-B y UV-A. 
+ 
+Hipótesis alternativa= Ha:  𝜇 > 95 % 
+ 
+Prueba de hipótesis específica 1: 
+Se realiza la prueba t para muestras independientes del índice de 
+radiación UV solar, agrupados en “IUV medida” e “IUV teórica”. y su 
+respectiva efectividad promedio determinados durante 10 días (ver 
+tabla del Anexo 3). 
+ 
+La prueba se realiza con un nivel de significancia: 𝛼 = 0.05 
+ 
+Del resultado de la Tabla 6, el estadístico Sig. (unilateral)=0.020 es 
+menor que el valor de 𝜶 = 𝟎. 𝟎𝟓 por lo que se debe rechazar la hipótesis 
+nula y aceptar la hipótesis alternativa.  
+ 
+Tabla 6. Prueba t para muestras unilateral derecha 
+Prueba para una muestra 
+ 
+Valor de prueba = 95 
+t gl 
+Sig. 
+(unilateral) 
+Diferencia 
+de medias 
+95% de intervalo de 
+confianza de la 
+diferencia 
+Inferior Superior 
+Eficiencia_medición
+_índice de Radiación 
+UV solar 
+2.11 46 0.020 0.96 0.044 1.87 
+64 
+En consecuencia se debe rechazar la hipótesis nula y aceptar la hipótesis 
+alternativa. 
+ 
+La prueba de hipótesis en forma gráfica se muestra en la Figura 39. 
+ 
+ 
+Figura 39. Prueba de hipótesis unilateral derecha representado por la eficiencia. 
+ 
+ Hipótesis específica 2: Los niveles de riesgo de la radiación UV solar 
+son determinados en función al índice de radiación UV solar y se informa 
+por medio de señales visuales, con una precisión mayor al 99 %. 
+ 
+Hipótesis estadística: 
+Hipótesis nula= H0:  𝜇 ≤ 99% 
+Donde: 
+𝜇 = media de la muestra poblacional de precisión de informe de niveles 
+de riesgos de la radiación UV solar, por medio de señales 
+visuales. 
+ 
+Hipótesis alternativa= Ha:  𝜇 > 99 % 
+ 
+ 
+65 
+Prueba de hipótesis específica 2: 
+Se realiza la prueba t para una muestra poblacional de precisión de 
+informe de niveles de riesgos de la radiación UV solar, por medio de 
+señales visuales (ver tabla del Anexo 4). 
+La prueba se realiza con un nivel de significancia: 𝛼 = 0.05 
+Del resultado de la Tabla 7, el estadístico Sig. (unilateral)=0.048 es 
+menor que el valor de 𝜶 = 𝟎. 𝟎𝟓 por lo que se debe rechazar la hipótesis 
+nula y aceptar la hipótesis alternativa.  
+ 
+Tabla 7. Prueba t para muestra unilateral derecha 
+Prueba para una muestra 
+ 
+Valor de prueba = 99 
+t gl 
+Sig. 
+(unilateral) 
+Diferencia 
+de medias 
+95% de intervalo de 
+confianza de la 
+diferencia 
+Inferior Superior 
+Precisión_informe_nivele
+s  riesgos_radiación 
+UV_solar. 
+1.790 14 0.048 0.50 -0.099 1.099 
+ 
+En consecuencia, se acepta la hipótesis alternativa. La prueba de 
+hipótesis en forma gráfica se muestra en la Figura 40. 
+ 
+ 
+Figura 40. Prueba de hipótesis unilateral derecha . 
+66 
+Por lo que se puede afirmar con una certeza del 95% que: Los niveles de 
+riesgo de la radiación UV solar son determinados en función al índice de 
+radiación UV solar y se informa adecuadamente por medio de señales 
+visuales. 
+ 
+Demostradas las hipótesis específicas 1 y 2, en consecuencia, queda 
+demostrado el cumplimiento de la hipótesis general de la tesis. 
+ 
+ Discusión de resultados 
+Según el artículo de revista “Sistema para la medición, visualización y 
+registro de la radiación solar” (Díaz, Escoto, Tinajero, Hernández, & 
+Pioquinto, 2017), el cáncer a la dermis es uno de los problemas graves al 
+exponerse a los rayos del sol, teniendo como consecuencia hasta la muerte. 
+Implementa un sistema con Arduino, 5 sensores RUV ML8511, NFR24L01, 
+reloj calendario y dos displays de gran tamaño de 7 segmentos que muestra; 
+la IUV. Realizo medidas en los 5 sensores UV en laboratorio, con diversos 
+niveles de lámparas UV a 5 cm de altura del sensor y un radiómetro 
+profesional, con lo cual se comprueba que el nivel de precisión de las medidas 
+de IUV es similar a las medidas realizadas con el radiómetro profesional. 
+En nuestra investigación, se utilizó Lolin Nodecpu V3 (basado en el módulo 
+WiFi 8266), sensor de RUV ML8511 (se utiliza por la precisión señalada en 
+la referencia), aplicativo desarrollado en LabVIEW y app desarrollado en 
+Virtuino para teléfono móvil con Android. El sistema realizó en campo, 
+medidas remotas del IUV en diversos lugares a una altura de 1.70 m (altura 
+promedio de una persona); utilizando WiFi y en el aplicativo de LabVIEW se 
+visualiza el lugar donde se realizó la medida, utilizando las coordenadas del 
+GPS, el valor numérico del IUV y el color correspondiente al nivel del IUV 
+establecido por OMS con sugerencias de prevención. Así, mismo se informa 
+vía SMS (utilizando Virtuino) a los números registrados, el nivel del IUV con 
+67 
+sugerencias de prevención. En las mediciones realizadas se obtuvo un IUV 
+máximo de 14 aproximadamente a las 12:15 horas. 
+ 
+En el trabajo de tesis, titulado “Implementación de un sistema electrónico 
+de monitoreo autosustentable para la difusión de índices de radiación 
+solar en la ESPOCH” (Lopez & Mancheno, 2016); la adquisición de datos 
+utiliza Arduino Uno, sensor de RUV TOCON E2 y utiliza una web donde 
+almacenan los datos para ser visualizados en línea, el enlace radial utiliza 
+módulos Xbee desde el sensor al controlador. Utilizando un radiómetro 
+profesional, se comprueba la linealidad del sensor que presenta un error de 
+medida menor al 10%, el prototipo mide valores máximos del IUV entre 
+10:00 y 14:30 horas. 
+Para nuestro caso no utilizamos radiómetro profesional para validar los datos 
+obtenidos en las medidas realizadas, debido a que utilizamos el sensor UV 
+ML8511 que fue ya validada en la primera referencia y nos ocupamos en 
+informar y sugerir de dos maneras el IUV; utilizando un aap desarrollado en 
+Virtuino con diagramas y colores o enviando SMS a los números de móviles 
+registrados. Así mismo el enlace de RF presentaría alguna dificultad si esta 
+no fuera en línea de vista. 
+En la tesis de grado titulada “Administración remota para el monitoreo de 
+sensores en base a radiofrecuencia aplicando Arduino” (Gutiérrez, 2016), 
+señala que emplearon el controlador Arduino, una dedicada al software y la 
+otra al hardware; logrando un prototipo totalmente libre. Utiliza controlador 
+Arduino, sensor de IUV ML8511, sensor de temperatura LM35 y módulo 
+NRF24L01 para comunicación inalámbrica. El aplicativo desarrollado en 
+Java muestra los niveles del IUV numéricamente y barras de colores, y la 
+temperatura. 
+En la tesis titulada “Medidas de radiación ultravioleta solar en el 
+municipio de Sica Sica” (Fanola, Guzmán, Peñaloza, & Zaratti, 2012), 
+señala haber determinado en el altiplano paceño de la provincia Aroma en 
+68 
+cotejo con la ciudad de La Paz el acrecentamiento de la radiación ultravioleta. 
+Realiza las medidas paralelas en el municipio de Sica Sica y laboratorio de 
+Física de la Atmósfera de la ciudad de La Paz. Con los niveles del IUV 
+obtenidos se realiza la sensibilización (se informa el IUV y según su 
+intensidad se realizan sugerencias de prevención sobre el cáncer de piel). 
+En nuestra investigación, igualmente se informa el IUV y se realizan 
+sugerencias de prevención; además se informa a través de diagramas 
+considerando su intensidad y los colores establecidos por la OMS, a través de 
+la app desarrollado en Virtuino, para equipos móviles registrados o mediante 
+SMS se envía el IUV y sugerencias de prevención sobre el cáncer de piel. 
+ 
+En la investigación titulado “Diseño de un radiómetro ultravioleta, para 
+su aplicación en modelos de radiación UV” (Pérez, 2014), se implementó 
+un modelo de radiómetro ultravioleta, con el uso de los siguientes módulos: 
+sensor UV-A (fotodiodo), amplificador operacional, Arduino uno y Ethernet 
+Shield, el cual se validó con un radiómetro profesional. 
+En nuestra investigación solo se informa a los teléfonos móviles registrados 
+sobre el IUV con sugerencias de prevención para prevención sobre eritema y 
+cáncer de piel, por la exposición a la RUV producida por el Sol; no nos 
+ocupamos al diseño de un radiómetro UV, solo se toma la forma de afrontar 
+el enlace RF por Internet. 
+ 
+Con la tendencia al aumento de eritema y cáncer de piel se correlaciona con 
+la tendencia a nivel mundial (Rivas A., Rojas E., Méndez C., & Contreras A., 
+2014), debido a que los aumentos en nuevos casos de eritema y posterior 
+cáncer de piel a nivel mundial se encuentran relacionados con una mayor 
+exposición a la radiación UV, aumento de actividades al aire libre, cambios 
+en la forma de  vestirse, mayor esperanza de vida y a la destrucción de la capa 
+de ozono estratosférico. 
+El presente trabajo de investigación busca difundir el hecho de informar el 
+IUV que varía hasta un máximo de 14 en la ciudad de Pampas (por ejemplo: 
+69 
+corresponde al nivel extremadamente alto y color violeta, que sugiere la 
+prevención de quedarse dentro de casa). Para informar y sugerir la 
+prevención, utiliza la red inalámbrica de WiFi o SMS. 
+  
+70 
+CONCLUSIONES 
+Después de haber obtenido los resultados, desde los datos del trabajo de 
+investigación titulado “Sistema inalámbrico móvil de monitoreo remoto de la radiación 
+ultravioleta solar para la prevención de daños por eritema en la piel de las personas en el 
+distrito de Pampas – Tayacaja”; presentamos las conclusiones siguientes: 
+1. Se diseñó e implementó un sistema inalámbrico móvil de monitoreo remoto, que 
+informa los niveles del IUV asociados a la prevención de daños por eritema en 
+el distrito de Pampas. 
+2. El sistema implementado tanto en hardware y software, conjuntamente con el 
+subsistema móvil, mide en forma remota en tiempo real, por medio de un dron 
+el IUV en el distrito de Pampas. Los niveles medidos presentan un nivel mínimo 
+cero del IUV aproximadamente a las 6 horas, y un nivel máximo de 15 del IUV 
+a las 12 horas. 
+3. En tiempo real todas las mediciones realizadas del IUV señalan la ubicación del 
+lugar en donde se realizó la medida a través del GPS. 
+4. El algoritmo implementado, determino e informo los niveles de riesgo asociados 
+a los IUV, a travéz de un semáforo con los colores establecidos por la OMS, 
+utilizando el aplicativo denominado RADIACIÓN UV. 
+5. Los mensajes de textos enviados de prevención de daños por eritema, son 
+visualizados en los equipos móviles sin aplicativo y con aplicativo desarrollado 
+en Virtuino. 
+  
+71 
+RECOMENDACIONES 
+ 
+Presentamos las recomendaciones siguientes: 
+ 
+1. Se debe considerar, utilizar baterías de alta eficiencia para garantizar la 
+obtención de la mayor cantidad de datos. 
+2. Debido a que la estura está comprendida entre 1.5 m y 1.80 m, que corresponde 
+a una persona; las mediciones con el dron deben considerar esta altura. 
+3. Se debe utilizar GPS de mayor precisión, para garantizar una mayor exactitud de 
+la ubicación del lugar donde se realiza la medición. 
+4. Se podría enviar mensajes más persuasivos que contribuyan a la utilización 
+adecuada de los protectores según el nivel del IUV. 
+5. Los mensajes enviados deben contener textos y gráficos a colores para una mejor 
+comprensión y aceptación de uso de los protectores de prevención. 
+ 
+  
+72 
+REFERENCIA BIBLIOGRÁFICA 
+ 
+Alfaro, L., Llacza, A., & Odón, S. (2016). Pronóstico con cobertura nacional del 
+índice de radiación solar ultravioleta. Recuperado el 10 de Mayo de 2018, 
+de NOTA TÉCNICA N° 002 - 2016 SENAMHI: 
+https://senamhi.gob.pe/load/file/01402SENA-10.pdf 
+Amazon.es. (2014). Fayee FY550 Phantom-II. Obtenido de 
+https://www.amazon.es/Phantom-II-Quadcopter-Explorers-
+Helic%C3%B3ptero%20-teledirigido/dp/B00OH9PJW4 
+Ballesteros, H. O. (2005). INFORMACIÓN TECNICA SOBRE LARADIACIÓN 
+ULTRAVIOLETA,EL ÍNDICE UV Y SU PRONÓSTICO. 91-98. 
+Obtenido de 
+http://www.psa.es/es/projects/solarsafewater/documents/libro/06_Capitulo
+_06.pdf 
+Benavides, H. (Febrero de 2010). Información técnica sobre la radiación 
+ultravioleta, el índice UV y su pronóstico. Instituto de Hidrología, 
+Meteorología y Estudios Ambientales – IDEAM. Recuperado el 20 de 
+Agosto de 2018, de 
+http://documentacion.ideam.gov.co/openbiblio/bvirtual/022454/Notatecnic
+aIUVPaginaWEBfinal.pdf 
+Catherine’s College, O. (2000). Proceedings of an international workshop on 
+ultraviolet radiation exposure, measurement and protection. Radiation 
+Protection Dosimetry, 91(1-3). 
+CCM. (2017). Recuperado el 26 de Mayo de 2018, de Estándar GSM (Sistema 
+global de comunicaciones móviles) - CCM: http://es.ccm.net/contents/681-
+estandar-gsm-sistema-global-de-comunicaciones-moviles 
+Ccora, O. (Enero de 2015). Radiación Ultravioleta–B, Vulnerabilidad y Riesgos 
+en el Verano. Recuperado el 10 de Mayo de 2018, de 
+http://www.minam.gob.pe/educacion/wp-
+content/uploads/sites/20/2015/02/2.8.-SENAMHI-radicaci%C2%B4no-
+ultravioleta.pdf 
+73 
+ContinentalElectornics. (2017). GPS MODULE NEO-6M. Recuperado el 15 de 
+Agosto de 2018, de http://www.continental.sg/module/products/gps-
+module-neo-6m 
+Cultiva Cultura: Online Megazine. (20 de Octubre de 2014). Google Maps sus 
+características y funciones. Recuperado el 10 de Junio de 2018, de 
+https://cultivacultura.jimdo.com/2014/10/20/google-maps-y-sus-
+%C3%BAtiles-funciones/ 
+Delgado, O. (2007). Exposición laboral a la radiación ultravioleta de origen 
+Solar. Chile: Departamento de salud ocupacional y contaminación 
+ambiental. 
+Díaz, I., Escoto, M. d., Tinajero, E., Hernández, L., & Pioquinto, G. (24 de 
+Noviembre de 2017). Sistema para la medición, visualización y registro de 
+la radiación solar. INGENIERÍA Y TECNOLOGÍA. Recuperado el 10 de 
+Junio de 2018, de 
+https://www.researchgate.net/publication/323845495_Sistema_para_la_me
+dicion_visualizacion_y_registro_de_la_radiacion_solar 
+EducARTE. (2016). Latitud y longitud. Paralelos y meridianos. Recuperado el 10 
+de Junio de 2018, de EducARTE: 
+http://mggm3000.wixsite.com/educarte/blank 
+EFE/ElComercio. (9 de Enero de 2016). Radiación solar en el Perú alcanzará 
+niveles históricos. El Comercio. Recuperado el 7 de Agosto de 2018, de 
+https://elcomercio.pe/tecnologia/ciencias/radiacion-solar-peru-alcanzara-
+niveles-historicos-260535 
+Fanola, L., Guzmán, D., Peñaloza, M., & Zaratti, F. (2012). Medidas de radiación 
+ultravioleta solar en el municipio de Sica Sica. Revista Boliviana de Física 
+21. Recuperado el 10 de Agosto de 2018, de 
+https://www.researchgate.net/publication/280557343_MEDIDAS_DE_RA
+DIACION_ULTRA_VIOLETA_SOLAR_EN_EL_MUNICIPIO_DE_SIC
+A_SICA 
+74 
+Geneva, W. H. (1996). Ultraviolet radiation. An authoritative scientific review of 
+environmental and health effects of UV, with reference to global ozone. 
+Environmental Health Criteria Monograph(160). 
+Gutiérrez, O. (2016). Administración remota para el monitoreo de sensores en 
+base a radiofrecuencia aplicando Arduino. La Paz-Bolivia. Recuperado el 
+10 de Agosto de 2018 
+Iliaslamprou. (2016). Virtuino: Iliaslamprou. Recuperado el 20 de Julio de 2018, 
+de 
+http://iliaslamprou.mysch.gr/index.php/en/component/content/%20categor
+y/75-virtuino 
+Jkbh. (s.f.). Google Maps. Recuperado el 10 de Junio de 2017, de 
+https://es.wikipedia.org/wiki/Google_Maps 
+Lasaludiinfo. (2016). Cuidado de la piel. Obtenido de SALUD Y BIENESTAR 
+BLOG: https://lasaludi.info/descamacion-de-la-piel-en-la-cara.html 
+Llamas, L. (27 de Setiembre de 2016). LOCALIZACIÓN GPS CON ARDUINO Y 
+LOS MÓDULOS GPS NEO-6. Recuperado el 10 de Junio de 2018, de 
+https://www.luisllamas.es/localizacion-gps-con-arduino-y-los-modulos-
+gps-neo-6/ 
+Lopez, C., & Mancheno, J. (2016). Implementación de un sistema electrónico de 
+monitoreo autosustentable para la difusión de índices de radiación solar 
+en la ESPOCH. Trabajo de titulación, Escuela Superior Politécnica de 
+Chimborazo, Riobamba-Ecuador. Recuperado el 10 de Agosto de 2018, de 
+http://dspace.espoch.edu.ec/handle/123456789/4964 
+Lozada, J. (2014). Recuperado el 6 de Junio de 2017, de Investigación Aplicada - 
+Universidad Tecnológica Indoamérica: 
+www.uti.edu.ec/documents/investigacion/volumen3/06Lozada-2014.pdf 
+Marcos Soriano Quiroga. (2016). CLASIFICACION DE LA RADIACION 
+ULTRAVIOLETA. Recuperado el 20 de Agosto de 2018 
+Master Magazine. (2015). Recuperado el 26 de Mayo de 2018, de Definición de 
+GSM - Significado y Definición de GSM - MasterMagazine: 
+https://www.mastermagazine.info/termino/5188.php 
+75 
+Matta, J. L., Ramos, J. M., Armstrong, R. A., & D' Antoni, H. (2006). Niveles de 
+luz ultravioleta ambiental asociados con apoptosis y necrosis en 
+fibroblastos humanos. Acta Bioquímica Clínica Latinoamericana, 40(4), 
+553-560. Obtenido de http://www.redalyc.org/articulo.oa?id=53540416 
+MercadoLibre. (2018). Módulo Gsm/gprs Sim800l. Recuperado el 15 de Julio de 
+2018, de MercadoLibre Perú: https://articulo.mercadolibre.com.pe/MPE-
+433216736-modulo-gsmgprs-sim800l-
+_JM?quantity=1#position=31&type=item&tracking_id=60f7108e-aab3-
+4fef-9dc2-f1a95b4a31a2 
+Naylampmechatronics. (2018). Arduino Nano CH340G:. Recuperado el 7 de 
+Marzo de 2018 
+NI. (2018). Labview 2017. Recuperado el 10 de Junio de 2018, de 
+http://www.ni.com/es-cr/shop/labview.html 
+OMS, OMM, & PNUMA. (2003). Indice UV solar mundial. INTERSUN, 1, 21. 
+OMS, PNUMA, OMM, & ICNIRP. (2002). Índice UV solar mundial. Recuperado 
+el 20 de agosto de 2018, de Organización Mundial de la Salud: Sitio web 
+mundial: 
+https://apps.who.int/iris/bitstream/handle/10665/42633/9243590073.pdf;js
+essionid=2D5448F4E87CAF87F34EA217275A259D?sequence=1 
+Ordoñez, F. R. (2015). Influencia de la radiación solar en la salud de las 
+personas en la ciudad de moquegua, 2001-2010. Tesis de posgrado, 
+Universidad Nacional de Jorge Basadre Grohmann, Tacna-Perú. 
+Recuperado el 15 de Julio de 2018, de 
+http://repositorio.unjbg.edu.pe/bitstream/handle/UNJBG/1031/TM187_Ro
+driguez_Ordonez_FR%20.pdf?sequence=1&isAllowed=y 
+Paredes, P. (2017). Diseño de un sistema de señalización utilizando sensores 
+fotovoltaicos para la prevención de los efectos de la radiación solar para 
+los estudiantes de la EPIE. Tesis de pregrado, Universidad Nacional del 
+Altiplano, Puno-Perú. Recuperado el 12 de Agosto de 2018 
+76 
+Pérez, M. (2014). Diseño de un radiómetro ultravioleta, para su aplicación en 
+modelos de radiación UV. Tesis de grado, Universidad Nacional 
+Autónoma de México, México D.F. 
+Proteccioncivil.es. (Junio de 2017). Radiación solar: REMER-Red Radio de 
+Emergencia. Obtenido de 
+http://www.proteccioncivil.es/catalogo/carpeta02/carpeta24/vademecum17
+/vade01.htm 
+Quinto, L. (2018). Sistema de monitoreo del índice de radiación ultravioleta para 
+difundir el peligro a la exposición de la radiación solar en el campus de la 
+EPIE. Trabajo de investigacion, Escuela profesional de ingenieria 
+electronica-UNH, Huancavelica-Perú. 
+Quiñones, A., & Almanza, R. (2014). Modeling Ultraviolet Radiation for Mexican 
+Conditions. Energy Procedia 57, 1220-1262. Recuperado el 10 de 
+Diciembre de 2017 
+Rivas A., M., Rojas E., E., Méndez C., J., & Contreras A., G. (Julio de 2014). 
+Dosis eritémicas, sobrexposición a la radiación solar ultravioleta y su 
+relación con el cáncer de piel en Arica, Chile. Interciencia, 39(7), 506-
+510. Obtenido de http://www.redalyc.org/articulo.oa?id=33931446009 
+Rivas, M., Rojas, E., & Madronich, S. (2008). Ingeniare, 383-388. Recuperado el 
+12 de Agosto de 2018, de 
+https://www.researchgate.net/publication/251067967_AUMENTO_DEL_I
+NDICE_SOLAR_ULTRAVIOLETA_CON_LA_ALTURA 
+SENAMHI. (2012). Radiación Ultravioleta – B en el Perú. Lima. 
+ServerGrove. (2017). Sistema de coordenadas. Recuperado el 10 de Mayo de 
+2018, de http://www.coordenadas-gps.com/sistema-de-coordenadas 
+Ventura, V. (29 de Marzo de 2016). Sensor de radiación ultravioleta con Arduino: 
+Polaridad.es. Recuperado el 15 de Julio de 2018, de https://polaridad.es/sensor-
+radiacion-ultravioleta-arduino-indice-uv-uvm30a-guva-s12sd/ 
+WMO. (1994). WMO Technical Report. WMO, 95. Recuperado el 10 de Agosto de 2018 
+ 
+  
+77 
+ANEXO 1 
+MATRIZ DE CONSISTENCIA 
+TITULO: SISTEMA INALÁMBRICO MÓVIL DE MONITOREO REMOTAO DE LA RADIACIÓN ULTRAVIOLETA SOLAR PARA LA PREVENCION DE DAÑOS POR 
+ERITEMA EN LA PIEL DE LAS PERSONAS EN EL DISTRITO DE PAMPAS - TAYACAJA. 
+PROBLEMAS OBJETIVOS HIPÓTESIS 
+OPERACIONALIZACIÓN 
+METODOLOGÍA 
+VARIABLES 
+OPERACIÓN DE LAS 
+VARIABLES 
+Problema General: 
+ ¿Cómo medir los índices de la 
+radiación UV solar  y como informar 
+los riesgos asociados, para prevenir 
+daños por eritema en la piel de las 
+personas en el distrito de Pampas? 
+ 
+ 
+ 
+Problemas Específicos: 
+ ¿Cómo medir remotamente la 
+radiación UV solar en el distrito de 
+Pampas? 
+ 
+ ¿Cómo determinar, e informar el 
+índice ultravioleta y los riesgos 
+asociados para prevenir daños por 
+eritema en la piel de las personas en 
+el distrito de Pampas?  
+Objetivo General: 
+ Implementar un sistema inalámbrico 
+móvil de monitoreo remoto que mida 
+la radiación ultravioleta solar e 
+informe el IUV de riesgo asociado, 
+para prevenir daños por eritema en la 
+piel de las personas en el distrito de 
+Pampas. 
+ 
+Objetivos Específicos: 
+ Implementar un sistema para medir 
+de forma remota la  radiación UV 
+solar en el distrito de Pampas. 
+ 
+ Desarrollar un programa aplicativo 
+que determine e informe el índice 
+ultravioleta y los riesgos asociados 
+para prevenir daños por eritema en la 
+piel de las personas en el distrito de 
+Pampas. 
+Hipótesis General: 
+ El sistema inalámbrico móvil de monitoreo 
+remoto mide e informa el índice ultravioleta y 
+los riesgos asociados, para prevenir daños por 
+eritema en la piel de las personas en el distrito 
+de Pampas. 
+ 
+ 
+ 
+Hipótesis Específicas: 
+ El sistema inalámbrico móvil mide en forma 
+remota el índice ultravioleta con comunicación 
+inalámbrica integrada a un transductor de 
+radiación ultravioleta solar en el distrito de 
+Pampas. 
+ 
+ El programa desarrollado informa el índice  
+ultravioleta y los riesgos asociados. 
+Variable Independiente:  
+ 
+ Índice de radiación UV 
+solar = IRUVS. 
+ 
+ Sistema inalámbrico 
+móvil de monitoreo 
+remoto = SIMMR. 
+ 
+ 
+Variable Dependiente: 
+ 
+ Niveles de riesgo = NR 
+ 
+ 
+ PDEPP = f(IUV, 
+NR,SIMMR) 
+ 
+ 
+ Tipo de investigación: 
+Experimental. 
+ Nivel de investigación: 
+Cuasiexperimental. 
+ Método de investigación:  
+Científico y  Experimental. 
+ 
+78 
+ANEXO 2 
+Programación 
+ 
+/*Sistema inalámbrico móvil de monitoreo remoto de la radiación ultravioleta solar para la prevención 
+de daños por eritema en la piel de las personas en el distrito de Pampas – Tayacaja*/ 
+ 
+#include <TinyGPS++.h>  // Librería GPS 
+#include <SoftwareSerial.h>  // Software Serial 
+#include "ThingSpeak.h" 
+#include <ESP8266WiFi.h> 
+static const int RXPin = 12, TXPin = 13; // TX=D6, RX=D7 
+static const uint32_t GPSBaud = 9600; // Comunicación de GPS a 9600 
+ 
+//***************************************************************** 
+   char buf[16]; 
+   String Latitud; 
+   String Longitud; 
+   String Altitud; // msnm 
+   float PRUV=0; // Irradiancia UV mW/m2 
+   float IUV=0; 
+ 
+//***************************************************************** 
+//*****************Radiacion UV*************** 
+float RUV; // Irradiancia UV mW/m2 
+//******************************************* 
+// Configuración de la conexión a internet por medio de la red inalámbrica 
+const char* ssid = "Tesis"; 
+const char* password = "Tesis@"; 
+ 
+unsigned long myChannelNumber = 334851; 
+const char * myWriteAPIKey = "XG1DKTQ6AAG04LV1"; 
+ 
+IPAddress ip(192, 168, 1, 250);  // Conexión TCP/IP 
+IPAddress gateway(192, 168, 1, 1); 
+IPAddress subnet(255, 255, 255, 0); 
+WiFiClient client; 
+//***************************************************************** 
+TinyGPSPlus gps; 
+SoftwareSerial ss(RXPin, TXPin); 
+ 
+void setup() 
+{ 
+  Serial.begin(9600); // Inicio de comunicación 
+//******************************************************** 
+Serial.print("Connecting to"); 
+Serial.println(ssid); 
+ 
+WiFi.mode(WIFI_STA); 
+79 
+WiFi.config(ip, gateway, subnet); 
+ 
+  WiFi.begin(ssid, password); 
+   
+  while (WiFi.status() != WL_CONNECTED) 
+  { 
+    delay(500); 
+    Serial.print("."); 
+  } 
+   Serial.println(""); 
+  Serial.println("WiFi connected"); 
+  Serial.println("IP address: "); 
+  Serial.println(WiFi.localIP()); 
+  Serial.print("Netmask: "); 
+  Serial.println(WiFi.subnetMask()); 
+  Serial.print("Gateway: "); 
+  Serial.println(WiFi.gatewayIP()); 
+  ThingSpeak.begin(client); 
+//******************************************************** 
+ 
+ss.begin(GPSBaud); // Inicio de la comunicación con GPS 
+} 
+ 
+void loop() 
+{ 
+ 
+  smartDelay(500); // Retardo de 0.5 segundos 
+  if (gps.altitude.meters()!=0) 
+  { 
+  Serial.print("Latitud: "); 
+  Latitud = dtostrf(gps.location.lat(), 4, 6, buf); 
+  Serial.println(Latitud); 
+ 
+  Serial.print("Longitud: "); 
+  Longitud = dtostrf(gps.location.lng(), 4, 6, buf); 
+  Serial.println(Longitud); 
+ 
+  Serial.print("Satélites:"); 
+  Serial.println(gps.satellites.value()); 
+  Serial.print("Altitud: "); 
+  Altitud = dtostrf(gps.altitude.meters(), 4, 2, buf); 
+  Serial.println(Altitud); 
+  Serial.println(""); 
+ 
+//*************************************************** 
+    RadiacionUV (); 
+    String PRUV; 
+    PRUV += (String(RUV,2)); 
+    Serial.print("La Irradiancia UV (mW/cm^2) es: "); 
+    Serial.println(PRUV); 
+80 
+    
+    String IUV; 
+    IUV += (String (RUV/25,2)); 
+    Serial.print("El IUV es: ");  
+    Serial.println(IUV); 
+ 
+  //************************************************** 
+    ThingSpeak.setField(1, PRUV); 
+    ThingSpeak.setField(2, IUV); 
+    ThingSpeak.setField(3, Latitud); 
+    ThingSpeak.setField(4, Longitud); 
+    ThingSpeak.setField(5, Altitud); 
+     
+     
+    ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey); 
+    Delay (10000); 
+    //************************************************** 
+  } 
+     
+  if (millis() > 5000 && gps.charsProcessed() < 10) 
+    Serial.println(F("No está presente GPS")); 
+} 
+ 
+ 
+void RadiacionUV() 
+{ 
+    float EntradaSensor; 
+    float UV_Val; 
+//    float PRUV; //Irradiancia UV mW/m2 
+    EntradaSensor=((3300*float(analogRead(A0)))/1024); // Lectura mV 
+ 
+    if (EntradaSensor< 225)  // Entrada sensor menor a 225 mV 
+    {   
+      RUV=0.11*EntradaSensor; 
+      } 
+ 
+    else 
+    { 
+      RUV=0.2625*EntradaSensor-32.638; // potencia con ecuación corrección 
+    } 
+ 
+    delay(100); 
+ 
+} 
+  
+81 
+ANEXO 3 
+Calibración del sensor UV 
+ 
+Calibración del sensor UVM 30A para índice UV menor a 1. En esta calibración se 
+considera la entrada del sensor que perite hallar directamente la radiación UV. Una 
+vez obtenido la radiación UV, se calcula el índice de radiación UV. 
+RUV=0.11*EntradaSensor 
+IUV= RUV/25 
+ 
+ 
+Figura A. Línea de calibración del sensor UVM 30A para IUV<= 1. 
+ 
+La calibración del sensor de radiación UVM 30A para IUV>1, es la que se muestra 
+en la siguiente figura B. 
+RUV=0.2625*EntradaSensor-32.638 
+IUV= RUV/25 
+W/𝑚2 
+82 
+ 
+Figura B. Línea de calibración del sensor UVM 30A para IUV> 1. 
+ 
+ 
+y = 0.0105x - 1.3055
+0
+2
+4
+6
+8
+10
+12
+14
+16
+0 200 400 600 800 1000 1200 1400 1600
+IUV
+W/𝑚2
+83 
+ANEXO 4 
+Radiación UV teórico y medido durante 10 días 
+Hora 
+IUV 
+Teórico 
+Día 1 
+IUV 
+Teórico 
+Día 2 
+IUV 
+Teórico 
+Día 3 
+IUV 
+Teórico 
+Día 4 
+IUV 
+Teórico 
+Día 5 
+IUV 
+Teórico 
+Día 6 
+IUV 
+Teórico 
+Día 7 
+IUV 
+Teórico 
+Día 8 
+IUV 
+Teórico 
+Día 9 
+IUV 
+Teórico 
+Día 10 
+IUV 
+Medido 
+Día 1 
+IUV 
+Medido 
+Día 2 
+IUV 
+Medido 
+Día 3 
+IUV 
+Medido 
+Día 4 
+IUV 
+Medido 
+Día 5 
+IUV 
+Medido 
+Día 6 
+IUV 
+Medido 
+Día 7 
+IUV 
+Medido 
+Día 8 
+IUV 
+Medido 
+Día 9 
+IUV 
+Medido 
+Día 10 
+06:00 0.160 0.165 0.169 0.174 0.179 0.181 0.183 0.188 0.193 0.197 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+06:15 0.314 0.320 0.327 0.333 0.339 0.342 0.346 0.352 0.358 0.365 0.280 0.288 0.295 0.303 0.310 0.318 0.321 0.325 0.333 0.340 
+06:30 0.536 0.544 0.553 0.561 0.570 0.574 0.578 0.587 0.596 0.604 0.520 0.524 0.528 0.531 0.535 0.539 0.541 0.543 0.546 0.550 
+06:45 0.842 0.853 0.864 0.875 0.886 0.892 0.897 0.908 0.919 0.930 0.820 0.830 0.840 0.850 0.860 0.870 0.875 0.880 0.890 0.900 
+07:00 1.245 1.259 1.273 1.286 1.300 1.307 1.314 1.328 1.341 1.355 1.190 1.191 1.193 1.194 1.195 1.196 1.197 1.198 1.199 1.200 
+07:15 1.754 1.770 1.787 1.803 1.820 1.828 1.836 1.852 1.869 1.885 1.690 1.704 1.718 1.731 1.745 1.759 1.766 1.773 1.786 1.800 
+07:30 2.373 2.392 2.411 2.430 2.449 2.458 2.467 2.486 2.505 2.524 2.100 2.125 2.150 2.175 2.200 2.400 2.500 2.600 2.500 1.480 
+07:45 3.100 3.121 3.142 3.163 3.185 3.195 3.206 3.227 3.248 3.269 3.000 3.014 3.028 3.041 3.055 3.069 3.076 3.083 3.096 3.110 
+08:00 3.928 3.951 3.974 3.997 4.021 4.032 4.044 4.067 4.090 4.113 3.700 3.738 3.775 3.813 3.850 3.888 3.906 3.925 3.963 4.000 
+08:15 4.847 4.872 4.897 4.921 4.946 4.958 4.971 4.996 5.020 5.045 4.700 4.738 4.775 4.813 4.850 4.888 4.906 4.925 4.963 5.000 
+08:30 5.841 5.867 5.893 5.919 5.945 5.958 5.971 5.997 6.023 6.049 5.600 5.598 5.595 5.593 5.590 5.588 5.586 5.585 5.583 5.580 
+08:45 6.895 6.922 6.948 6.975 7.002 7.015 7.028 7.055 7.081 7.108 6.500 7.250 8.000 7.800 7.000 7.500 7.000 6.975 6.963 6.950 
+09:00 7.985 8.012 8.039 8.066 8.093 8.106 8.119 8.146 8.173 8.200 7.990 7.495 7.000 7.498 7.995 7.996 7.997 7.998 7.999 8.000 
+09:15 9.089 9.116 9.142 9.169 9.196 9.209 9.222 9.249 9.275 9.302 9.300 9.350 9.400 9.350 9.300 9.255 9.300 9.210 9.165 9.120 
+09:30 10.180 10.206 10.233 10.259 10.285 10.298 10.311 10.338 10.364 10.390 9.500 9.556 9.613 9.669 9.725 9.781 9.809 9.838 9.894 9.950 
+09:45 11.240 11.265 11.290 11.315 11.340 11.353 11.365 11.390 11.415 11.440 11.200 11.050 10.900 10.950 11.000 11.000 10.200 11.000 11.300 11.400 
+10:00 12.240 12.264 12.288 12.311 12.335 12.347 12.359 12.383 12.406 12.430 12.000 12.011 12.023 12.034 12.045 12.056 12.062 12.068 12.079 12.090 
+10:15 13.150 13.173 13.195 13.218 13.240 13.251 13.263 13.285 13.308 13.330 13.010 13.008 13.005 13.003 13.000 12.998 12.996 12.995 12.993 12.990 
+10:30 13.970 13.991 14.013 14.034 14.055 14.066 14.076 14.098 14.119 14.140 13.850 13.938 14.025 14.000 14.200 13.990 13.800 14.600 14.000 14.000 
+10:45 14.660 14.679 14.698 14.716 14.735 14.744 14.754 14.773 14.791 14.810 14.600 14.588 14.575 14.700 14.550 14.538 14.000 14.525 14.800 14.500 
+11:00 15.210 15.228 15.245 15.263 15.280 15.289 15.298 15.315 15.333 15.350 15.100 15.200 15.300 15.150 15.000 14.990 14.800 15.125 15.000 15.250 
+11:15 15.620 15.635 15.650 15.665 15.680 15.688 15.695 15.710 15.725 15.740 15.700 15.681 15.663 15.644 15.625 15.606 15.597 15.588 15.569 15.550 
+11:30 15.860 15.874 15.888 15.901 15.915 15.922 15.929 15.943 15.956 15.970 15.900 15.896 15.893 15.889 15.885 15.881 15.879 15.878 15.874 15.870 
+11:45 15.930 15.943 15.955 15.968 15.980 15.986 15.993 16.005 16.018 16.030 16.010 16.115 16.220 16.110 16.000 16.200 16.300 16.400 16.200 15.990 
+12:00 15.840 15.850 15.860 15.870 15.880 15.885 15.890 15.900 15.910 15.920 16.000 15.950 15.900 15.975 16.050 15.900 15.990 16.220 16.000 16.100 
+84 
+12:15 15.580 15.590 15.600 15.610 15.620 15.625 15.630 15.640 15.650 15.660 15.880 15.895 15.910 15.925 15.940 15.965 15.978 15.990 15.995 16.000 
+12:30 15.160 15.169 15.178 15.186 15.195 15.199 15.204 15.213 15.221 15.230 15.500 15.549 15.598 15.646 15.695 15.744 15.768 15.793 15.841 15.890 
+12:45 14.600 14.606 14.613 14.619 14.625 14.628 14.631 14.638 14.644 14.650 15.000 15.063 15.125 15.300 15.250 15.313 15.344 15.375 15.438 15.500 
+13:00 13.890 13.896 13.903 13.909 13.915 13.918 13.921 13.928 13.934 13.940 14.200 14.238 14.275 14.313 14.350 14.388 14.406 14.425 14.463 14.500 
+13:15 13.060 13.066 13.073 13.079 13.085 13.088 13.091 13.098 13.104 13.110 13.400 13.425 13.450 13.475 13.500 13.250 13.125 13.000 13.300 13.600 
+13:30 12.140 12.145 12.150 12.155 12.160 12.163 12.165 12.170 12.175 12.180 12.540 12.620 12.700 12.610 12.520 12.000 12.255 12.510 12.505 12.500 
+13:45 11.130 11.136 11.143 11.149 11.155 11.158 11.161 11.168 11.174 11.180 11.300 11.300 11.300 11.300 11.300 11.000 10.995 10.990 11.200 11.300 
+14:00 10.070 10.076 10.083 10.089 10.095 10.098 10.101 10.108 10.114 10.120 10.500 10.375 10.250 10.125 10.000 10.075 10.113 10.150 10.225 10.300 
+14:15 8.974 8.980 8.986 8.992 8.998 9.001 9.004 9.010 9.016 9.022 8.300 8.650 9.000 9.120 9.000 9.075 9.113 9.150 9.225 9.300 
+14:30 7.871 7.876 7.882 7.887 7.892 7.895 7.897 7.903 7.908 7.913 8.020 7.910 7.800 7.250 8.500 8.400 8.130 8.270 8.440 7.980 
+14:45 6.784 6.791 6.797 6.804 6.810 6.813 6.817 6.823 6.830 6.836 7.000 7.013 7.025 7.038 7.050 7.063 7.069 7.075 7.088 7.100 
+15:00 5.737 5.744 5.750 5.757 5.763 5.766 5.770 5.776 5.783 5.789 5.600 5.800 6.000 6.010 6.020 6.010 6.300 6.000 6.000 6.000 
+15:15 4.749 4.756 4.762 4.769 4.775 4.778 4.782 4.788 4.795 4.801 4.000 4.400 4.800 4.990 5.100 5.000 5.025 5.050 5.025 5.000 
+15:30 3.839 3.846 3.852 3.859 3.865 3.868 3.872 3.878 3.885 3.891 4.000 4.001 4.003 4.200 4.005 4.006 3.500 4.008 4.009 4.010 
+15:45 3.021 3.027 3.034 3.040 3.047 3.050 3.053 3.059 3.066 3.072 3.030 3.051 3.073 3.094 3.115 3.136 3.147 3.158 3.179 3.200 
+16:00 2.305 2.311 2.317 2.323 2.330 2.333 2.336 2.342 2.348 2.354 2.080 2.120 2.160 2.200 2.240 2.280 2.300 2.320 2.360 2.400 
+16:15 1.698 1.704 1.709 1.715 1.720 1.723 1.726 1.731 1.737 1.742 1.670 1.668 1.665 1.663 1.660 1.658 1.656 1.655 1.653 1.650 
+16:30 1.200 1.205 1.210 1.215 1.220 1.222 1.224 1.229 1.234 1.239 1.220 1.105 0.990 1.020 1.050 1.090 1.100 1.150 1.200 1.250 
+16:45 0.807 0.811 0.815 0.819 0.824 0.826 0.828 0.832 0.836 0.840 0.910 0.909 0.908 0.906 0.905 0.953 0.976 1.000 0.950 0.900 
+17:00 0.510 0.513 0.517 0.520 0.524 0.525 0.527 0.530 0.534 0.537 0.520 0.524 0.528 0.531 0.535 0.539 0.541 0.543 0.546 0.550 
+17:15 0.296 0.299 0.302 0.304 0.307 0.308 0.309 0.312 0.314 0.317 0.290 0.298 0.305 0.313 0.320 0.328 0.331 0.335 0.343 0.350 
+17:30 0.151 0.152 0.154 0.155 0.157 0.158 0.159 0.160 0.162 0.163 0.160 0.161 0.163 0.164 0.165 0.166 0.167 0.168 0.169 0.170 
+17:45 0.058 0.059 0.061 0.062 0.063 0.064 0.064 0.065 0.067 0.068 0.048 0.059 0.070 0.073 0.072 0.074 0.070 0.090 0.080 0.069 
+18:00 0.011 0.011 0.012 0.012 0.013 0.013 0.013 0.014 0.014 0.015 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000 
+ 
+ 
+ 
+ 
+85 
+ANEXO 5 
+Tabla de niveles de riesgo asociados a índices de radiación UV 
+SEMÁFORO ACTIVADO 
+ 
+IUV 
+En celular En PC   
+Cantidad de 
+muestras=A 
+Aplicación en 
+virtuino 
+SMS enviado 
+Aplicación en 
+Labview 
+Mensaje Asociado 
+Muestras 
+ejecutadas=B 
+Precisión 
+(1-|
+𝐴−𝐵
+𝐴
+|)*100 
+60 0 Verde  
+Piel blanca exponerse de 27 a 60 minutos; 
+Piel mate, exponerse de 67 a 90 minutos Verde  
+Piel blanca exponerse de 27 a 60 minutos; 
+Piel mate, exponerse de 67 a 90 minutos 
+59 98.33 
+40 1 Verde  
+Piel blanca exponerse de 27 a 60 minutos; 
+Piel mate, exponerse de 67 a 90 minutos Verde  
+Piel blanca exponerse de 27 a 60 minutos; 
+Piel mate, exponerse de 67 a 90 minutos 
+40 100 
+30 2 Verde  
+Piel blanca exponerse de 27 a 60 minutos; 
+Piel mate, exponerse de 67 a 90 minutos Verde  
+Piel blanca exponerse de 27 a 60 minutos; 
+Piel mate, exponerse de 67 a 90 minutos 
+30 100 
+30 3 Amarillo 
+Piel blanca exponerse de 25 a 40 minutos; 
+Piel mate, exponerse de 45 a 60 minutos Amarillo 
+Piel blanca exponerse de 25 a 40 minutos; 
+Piel mate, exponerse de 45 a 60 minutos 
+30 100 
+30 4 Amarillo 
+Piel blanca exponerse de 25 a 40 minutos; 
+Piel mate, exponerse de 45 a 60 minutos Amarillo 
+Piel blanca exponerse de 25 a 40 minutos; 
+Piel mate, exponerse de 45 a 60 minutos 
+30 100 
+20 5 Amarillo 
+Piel blanca exponerse de 25 a 40 minutos; 
+Piel mate, exponerse de 45 a 60 minutos Amarillo 
+Piel blanca exponerse de 25 a 40 minutos; 
+Piel mate, exponerse de 45 a 60 minutos 
+20 100 
+20 6 Anaranjado 
+Piel blanca exponerse de 17 a 27 minutos; 
+Piel mate, exponerse de 30 a 40 minutos  Anaranjado 
+Piel blanca exponerse de 17 a 27 minutos; 
+Piel mate, exponerse de 30 a 40 minutos  
+20 100 
+30 7 Anaranjado 
+Piel blanca exponerse de 17 a 27 minutos; 
+Piel mate, exponerse de 30 a 40 minutos  Anaranjado 
+Piel blanca exponerse de 17 a 27 minutos; 
+Piel mate, exponerse de 30 a 40 minutos  
+30 100 
+20 8 Rojo Piel blanca exponerse de 10 a 16 minutos; 
+Piel mate, exponerse de 18 a 24 minutos 
+Rojo Piel blanca exponerse de 10 a 16 minutos; 
+Piel mate, exponerse de 18 a 24 minutos 
+20 100 
+40 9 Rojo Piel blanca exponerse de 10 a 16 minutos; 
+Piel mate, exponerse de 18 a 24 minutos 
+Rojo Piel blanca exponerse de 10 a 16 minutos; 
+Piel mate, exponerse de 18 a 24 minutos 
+39 97.5 
+20 10 Rojo 
+Piel blanca exponerse de 10 a 16 minutos; 
+Piel mate, exponerse de 18 a 24 minutos Rojo 
+Piel blanca exponerse de 10 a 16 minutos; 
+Piel mate, exponerse de 18 a 24 minutos 
+20 100 
+30 11 Violeta No exponerse Violeta No exponerse 30 100 
+30 12 Violeta No exponerse Violeta No exponerse 30 100 
+20 13 Violeta No exponerse Violeta No exponerse 20 100 
+60 14 Violeta No exponerse Violeta No exponerse 58 96.67 
+ 
+86 
+ANEXO 6 
+Fotografías 
+ 
+Foto1. Dron con el módulo sensor UV y GPS. 
+ 
+ 
+Foto 2. Interface de la aplicación en Virtuino para celular 
+87 
+ 
+Foto 3. Interface de la aplicación en LabVIEW para PC. 
+ 

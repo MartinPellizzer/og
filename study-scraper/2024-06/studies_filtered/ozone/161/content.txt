@@ -1,0 +1,52 @@
+Home
+Journal Info
+Browse
+Journal Policies
+Guide for Authors
+Submit Manuscript
+Contact Us
+Login
+PERSIAN
+Modeling the concentration distribution of NO2 and O3 pollutants with an appropriate spatial resolution by combining ground and satellite data
+Document Type : Original Article
+Authors
+Amir Hadian 1 Mina Moradizadeh 2
+1 MSc student, Department of Geomatics, Faculty of Civil and Transportation Engineering, University of Isfahan, Isfahan, Iran
+2 Assistant Professor, Department of Geomatics, Faculty of Civil and Transportation Engineering, University of Isfahan, Isfahan, Iran
+10.48308/GISJ.2023.103726
+Abstract
+Introduction: Air pollution represents one of the most important challenges currently facing the majority of countries, largely as a consequence of the advancement of industry and technology. . It is evident that the country of Iran, and in particular  the city of Tehran, is not exempt from this phenomenon. The impact of urban air pollution on the environment and human health has raised increasing concerns among researchers, policy makers, and citizens. In order to minimize  the adverse effects on human health, it is of paramount importance to monitor  air pollution at high temporal and spatial resolution. On the other hand, air pollution measurement stations in the urban areas, despite their high accuracy in pollutant measurement, are not generalisable due to temporal and spatial limitations and point measurement. An alternative solution is the use of remote sensing and satellite data, which is a suitable method for monitoring air pollution due to the optimal cost and wide coverage. Nitrogen dioxide (NO2) and ozone (O3) pollutants are among the most important indicators of air pollution. Therefore, the objective of this research,  is to develop a for the  concentration distribution of these pollutants inTehran with an equal spatial resolution (approximately one kilometer) and a higher level of accuracy than satellite data.
+Material and methods: In order to model the concentration distribution of two pollutants, NO2 and O3, with appropriate accuracy and resolution, an innovative method based on the kriging interpolation method has been  employed. This modeling method has been developed by simultaneously utilizing the advantages of both pollution measurement station data and high resolution Sentinel-5P satellite data. The former comprises 21 active air pollution measurement stations that have been identified as offering the highest accuracy in measuring parameters in different parts of Tehran. The Google Earth Engine system, has been employed to generate concentration distribution maps of the two pollutants in all 22 districts of Tehran on a monthly basis. Additionally, the system has been used to generate point satellite data of the two pollutants in the spatial coordinates of the ground stations on an hourly, daily and monthly basis. The data was prepared and collected in the Google Earth system over the course of one year, from 1 April 1400 to 1 April 1401. Following the correlation between the satellite data and the ground measurement station data and removal of the bias from the satellite data, different stages of innovative kriging interpolation modeling were employed to model the concentration distribution of the two parameters.
+Results and discussion: In order to validate the output data from pollutant distribution modeling, 70% of the stations were selected as training data (Train) and 30% of the stations were selected as test data (Test). The points were randomly selected for each month of the year. The final modeling of pollutant distribution was conducted using the training data with the model subsequently validated using the test data. Validation was conducted using both the average error between the predicted data by the model and the station data extracted from the Tehran Air Quality Control Company (in ppb units) and also calculating the RMSE index. The results demonstarte that the average monthly error of the proposed model has decreased from 16.8 to 1.73% for NO2 pollutant and from 21.9 to 2.53% for O3 pollutant compared to the data of the Steinel 5P satellite. Additionally, the root mean square error (RMSE) of this model is equal to 2.79 ppb and 0.86 ppb for NO2 and O3 pollutant, respectively. In a comparable scenario, the RMSE index of the Sentinel 5P satellite output map in relation to the pollution measurement station data for NO2 and O3 pollutants is 10.083 ppb and 6.238 ppb, respectively.
+Conclusion: Considering that the proposed integrated model has performed very well in modeling the concentration distribution of the two pollutants throughout the year with an accuracy and spatial resolution of almost one kilometer, it is recommended that the simultaneous use of satellite and ground data be employed in the estimation of pollutants.
+Keywords
+Air pollution Traffic pollutants Kriging interpolation Sentinel5P satellite NO2 pollutant O3 pollutant
+References
+Volume 16, Issue 2 - Serial Number 62
+2024
+Pages 85-104
+Files
+XML
+PDF 3.24 M
+Share
+How to cite
+Statistics
+Article View: 1,302
+PDF Download: 218
+Explore Journal
+Home
+About Journal
+Editorial Board
+Submit Manuscript
+Contact Us
+Glossary
+Sitemap
+Latest News
+Satisfaction assessment 2023-11-06
+Change the number 2021-12-11
+This work is licensed under a Creative Commons
+Attribution 4.0 International License
+Newsletter Subscription
+Subscribe to the journal newsletter and receive the latest news and updates
+Subscribe
+© Journal Management System. Powered by Sinaweb

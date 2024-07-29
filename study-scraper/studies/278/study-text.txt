@@ -1,0 +1,272 @@
+Our website uses cookies to enhance your experience. By continuing to use our site, or clicking "Continue," you are agreeing to our Cookie Policy | Continue
+JAMA Network Open
+JAMA Network Open
+Sign In
+contents icon
+CONTENTS
+figure icon
+FIGURES /
+TABLES
+attach icon
+SUPPLEMENTAL
+CONTENT
+references icon
+REFERENCES
+related icon
+RELATED
+comments icon
+COMMENTS
+Download PDF
+Comment
+Top of Article
+Key Points
+Abstract
+Introduction
+Method
+Results
+Discussion
+Conclusions
+Article Information
+References
+1.
+
+
+
+
+This Issue
+Views 1,847
+Citations 0
+119
+PDF
+More
+Cite
+Permissions
+Original Investigation Pediatrics
+July 9, 2024
+Prenatal Exposure to Ambient Air Pollution and Cerebral Palsy
+Yu Zhang, PhD1; Yuhong Hu, MS1; Robert Talarico, MSc2,3; et al
+Author Affiliations Article Information
+JAMA Netw Open. 2024;7(7):e2420717. doi:10.1001/jamanetworkopen.2024.20717
+Key Points
+Question  Is ambient air pollutant exposure during pregnancy associated with cerebral palsy (CP) risk among full term births?
+Findings  In this cohort study of over 1 million singleton full term births from all hospitals in Ontario, Canada (2002-2017), a per IQR increase in prenatal residential ambient fine particulate matter with a diameter 2.5 μm (PM2.5) concentration (2.7 μg/m3) was associated with a 1.12 times higher risk of CP.
+Meaning  These findings suggest that prenatal interventions to reduce ambient PM2.5 exposure are needed to mitigate the potential risk of CP during fetus development.
+Importance  Air pollution is associated with structural brain changes, disruption of neurogenesis, and neurodevelopmental disorders. The association between prenatal exposure to ambient air pollution and risk of cerebral palsy (CP), which is the most common motor disability in childhood, has not been thoroughly investigated.
+Objective  To evaluate the associations between prenatal residential exposure to ambient air pollution and risk of CP among children born at term gestation in a population cohort in Ontario, Canada.
+Design, Setting, and Participants  Population-based cohort study in Ontario, Canada using linked, province-wide health administrative databases. Participants were singleton full term births (≥37 gestational weeks) born in Ontario hospitals between April 1, 2002, and March 31, 2017. Data were analyzed from January to December 2022.
+Exposures  Weekly average concentrations of ambient fine particulate matter with a diameter 2.5 μm (PM2.5) or smaller, nitrogen dioxide (NO2), and ozone (O3) during pregnancy assigned by maternal residence reported at delivery from satellite-based estimates and ground-level monitoring data.
+Main outcome and measures  CP cases were ascertained by a single inpatient hospitalization diagnosis or at least 2 outpatient diagnoses for children from birth to age 18 years.
+Results  The present study included 1 587 935 mother-child pairs who reached term gestation, among whom 3170 (0.2%) children were diagnosed with CP. The study population had a mean (SD) maternal age of 30.1 (5.6) years and 811 745 infants (51.1%) were male. A per IQR increase (2.7 μg/m3) in prenatal ambient PM2.5 concentration was associated with a cumulative hazard ratio (CHR) of 1.12 (95% CI, 1.03-1.21) for CP. The CHR in male infants (1.14; 95% CI, 1.02-1.26) was higher compared with the CHR in female infants (1.08; 95% CI, 0.96-1.22). No specific window of susceptibility was found for prenatal PM2.5 exposure and CP in the study population. No associations or windows of susceptibility were found for prenatal NO2 or O3 exposure and CP risk.
+Conclusions and relevance  In this large cohort study of singleton full term births in Canada, prenatal ambient PM2.5 exposure was associated with an increased risk of CP in offspring. Further studies are needed to explore this association and its potential biological pathways, which could advance the identification of environmental risk factors of CP in early life.
+Introduction
+Cerebral palsy (CP) is the most common cause of physical disability in childhood, representing a group of nonprogressive clinically heterogeneous neurodevelopmental disorders that are characterized by motor impairment. CP appears early in life and leads to lifelong motor disability.1,2 The motor disorders of CP are often accompanied by disturbances of sensation, perception, cognition, communication, and behavior, as well as by epilepsy and secondary musculoskeletal problems.3 Despite decreases in perinatal and neonatal morbidity and major changes in prenatal and neonatal care, the overall prevalence of CP has remained stable over time at between 1 and 4 per 1000 live births.4-6 The prevalence, severity, and burden of CP and its comorbidities make prevention a public health priority. The cause of CP, however, has proved complex given its heterogeneity with respect to clinical subtypes and ranges of comorbidities and functional outcomes.7 Although preterm birth is one of the known important risk factors for CP, three-fourths of CP cases are born at term and the mechanism of CP among full term births remains elusive.8 One recent study in California reported conceptions in winter and spring seasons had higher CP risk than those conceived in summer and fall, and preterm birth only mediated a small proportion of the association, suggesting an environmental cause for CP among full term births.9 Recognizing that prenatal and perinatal exposures are greatly linked to the risk of CP among full term births, identifying and understanding potential risk factors provides opportunities for prevention.7
+Prenatal exposure to air pollution is associated with decelerated neurological development early in life and increased risk of neurodevelopmental problems.10 Although no animal or human study has ever reported a direct link between air pollution and CP, it is possible that air pollution may increase the risk of CP following similar pathophysiological pathways.
+In animal models, in utero exposure to fine particles is associated with structural changes in white matter, delay in cognitive development, and disruption of neurogenesis.11-13 Proposed mechanisms for the association between prenatal air pollution and adverse health effects include epigenetic changes,14 proinflammatory pathways,15 and oxidative stress.16-19 Evidence from human studies is also mounting to support air pollution–related neurodevelopmental disorders (eg, elevated risks of autism and structural brain alterations among other disorders).20
+Recent evidence showed the transfer of black carbon particles across to the fetal side of the human placenta,21 indicating air pollutants in maternal circulation can cross the placenta and directly affect the fetus.22 Furthermore, brain development starts as early as the third week of gestation and continues until birth.23 Environmental exposures at different gestational weeks can have different effects due to sensitive periods of brain development, which few studies have investigated.
+In this study, we leveraged the population-based health administrative data from the province of Ontario, Canada (2002-2017) and assembled a population cohort to examine the associations between prenatal exposure to ambient air pollutants and CP among full term births. We further assessed windows of susceptibility by gestational weeks and heterogeneity by infant sex.
+Method
+Study Population and Data Sources
+Ethical approval for this cohort study was obtained from the research ethics boards of Health Canada and the Ottawa Health Science Network. Informed consent was waived because ICES is a prescribed entity under Ontario’s Personal Health Information Protection Act. The study followed the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) reporting guideline for cohort studies.
+We included all full term births (37 or more gestational weeks completed [259 days]) born in hospitals in Ontario, Canada between April 1, 2002, and March 31, 2017, leveraging the administrative health data housed at ICES, an independent, nonprofit research institute, which collects and analyzes health care and demographic data of all legal residents with a valid health card in Ontario, Canada (>99% of the population).24 We excluded children from a multiple birth pregnancy, invalid health card numbers, missing 6-digit postal codes for exposure assessment, missing or invalid covariates and exposure estimates, and mothers or children who were ineligible for provincial health insurance (Ontario Health Insurance Plan [OHIP]) at birth (eFigure 1 in Supplement 1). eTable 1 in Supplement 1 summarizes the distribution of gestational weeks at birth among CP cases in all births born in hospitals in Ontario, Canada between 2002 and 2017.
+We compiled databases from various sources in our analyses. The Discharge Abstract Database from the Canadian Institute for Health Information (CIHI-DAD), which contains information from all hospital admissions, and the OHIP Records Database, which contains health services billing data from all physicians in Ontario, were used for outcome ascertainment. Demographic information and maternal data were obtained from the Registered Persons Database, which included demographic information on those registered for health insurance, and MOMBABY, an ICES-derived cohort that links hospital admission records of mothers with their newborns for all hospital births in the province based on records from CIHI-DAD. Area-level socioeconomic status variables were obtained from the Ontario Marginalization Index (ON-Marg), which is a specific version of the Canadian Marginalization Index that explores multiple dimensions of social and economic marginalization in Ontario.25
+Exposure Assessment
+Prenatal residential exposures to ambient air pollutants, including fine particulate matter with a diameter 2.5 μm or less (PM2.5), nitrogen dioxide (NO2), and ozone (O3), were assigned to the study population as the estimated weekly concentrations at the geographic center of each 6-digit postal code area, using the reported residential address at delivery. Weekly average concentrations of residential air pollutants during pregnancy were obtained using the recorded gestational age available in the MOMBABY dataset. Details on the measurements of ambient air pollutants were described in a previously published study.24
+In brief, annual PM2.5 concentrations were estimated incorporating data from geophysically driven satellite-derived estimates and ground-level monitor data at a 1 × 1 km resolution.26 Annual NO2 concentration was estimated based on a national land-use regression using data from the Canadian National Air Pollution Surveillance (NAPS) monitoring network, coupled with data from satellites, road lengths within 10 km, areas of industrial land use within 2 km, and the mean summer rainfall.27 NO2 concentration was estimated at a 10 × 10 km resolution. The model explained 73% variation in the NO2 measurements from NAPS.27 Peak-season O3 was assessed with 21-km grid values and estimated based on the average of daily maximum O3 concentrations in the warm seasons (May 1 to October 31) and these estimates were used as the annual estimates for O3.28 The estimated annual pollutant concentrations were then spatiotemporally interpolated by scaling factors obtained from land-use regressions to calculate estimates of the weekly pollutant concentrations using information from monitors in the NAPS network and satellite data.29 The interpolation model showed large spatial and temporal coverage that is useful for national-scale longitudinal research on ambient air pollution.29
+Outcome Ascertainment
+CP diagnosis was ascertained as (1) a single inpatient hospitalization diagnosis from CIHI-DAD (International Statistical Classification of Diseases and Related Health Problems, Tenth Revision, Canada [ICD-10-CA]) code: G80), or 2 or more outpatient diagnoses at least 2 weeks apart on physician billing claims (modified ICD-9 code: 343) using OHIP.30 Data for outcome ascertainment was available up to March 2020. Person-time of follow-up was calculated from birthdate to the first diagnosis of CP, loss to follow-up due to emigration from Ontario, death, or the end of follow-up (March 2020), whichever came first. The longest follow-up time was 18 years.
+Covariates
+Demographic and delivery information were obtained from the databases as described previously and included maternal age at delivery, season of birth, calendar year of birth, and infant sex. Area-level socioeconomic status variables were obtained from ON-Marg and included indexes of community size, residential instability, material deprivation, dependency, and ethnic concentration.31 These marginalization indexes were first constructed from principal component analysis based on a broad range of indicators, and then encoded in categorical quintiles with a higher level of quintile suggesting the mother resided in a more marginalized area.25 Residential instability is the area-level concentration of people who experience high rates of family or housing instability. Material deprivation measures the ability for individuals and communities to access and attain basic material needs, including income, quality of housing, educational attainment, and family structure characteristics. Dependency is the area-level concentration of people who do not have income from employment. Ethnic concentration refers to area-level concentrations of people who are recent immigrants and/or people belonging to a visible minority group, which is defined by Statistics Canada as “persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in color.”32
+Statistical Analyses
+Descriptive analyses were conducted for characteristics of the study population and distributions of ambient air pollutants during pregnancy. We calculated Pearson correlation coefficients for prenatal average ambient PM2.5, NO2, and O3 concentrations.
+We performed multiple-pollutant Cox proportional hazards regression in combination with a distributed lag model (DLM) to estimate cumulative hazard ratios (CHR) as well as weekly hazard ratios (WHR) for CP per IQR increase in the cumulative or weekly ambient PM2.5, NO2, and O3 concentrations during pregnancy. Pollutant concentrations were standardized by their IQR to facilitate estimate interpretation. DLM allowed us to explore the weekly susceptibility of CP in relation to air pollutant exposure. Specifically, DLM incorporated average weekly concentrations of PM2.5, NO2, and O3 during gestational weeks 0 to 36 simultaneously as a cross-basis, which combined a linear dose-response function and a natural cubic spline time lag–response function with 3 degrees of freedom.33,34 The selection of degrees of freedom was based on model fitness by Akaike information criterion and visual inspections of the association patterns. The 3 pollutants were fitted as 3 separate cross-bases simultaneously in the model to control for confounding from each other. Models were adjusted for confounders identified a priori by a directed acyclic graph (DAG) (eFigure 2 in Supplement 1), and included maternal age at delivery, season of birth, fiscal year of birth, community size, quintile groups of residential instability, maternal deprivation, dependency, ethnic concentration, and infant sex.
+Because sexually dimorphic differences have been identified and extensively studied in the CP literature, we further assessed heterogeneity by infant sex for the associations between prenatal ambient air pollutant exposure and CP risk. We conducted secondary analyses by infant sex and conducted likelihood ratio tests to obtain the P values for the interaction terms between sex and the cross-basis of each pollutant, which were regarded as the P values for heterogeneity by infant sex. Statistical significance was set at a 2-sided P value less than .05.
+Because the majority of CP cases in the study population were diagnosed before age 3 years (80%) and more than 90% of cases were diagnosed before preschool (age 6 years), including cases diagnosed in later childhood or adolescence might dilute the observed association since it adds person-time at very low risk of CP diagnosis. Thus, as a sensitivity analysis, we restricted the Cox model (both main model and sex stratified) to CP cases diagnosed before age 6, adjusting for the previously mentioned covariates. Person-time of follow-up in this sensitivity analysis was calculated from birthdate to the first diagnosis of CP, age 6 years, loss to follow-up due to emigration from Ontario, death, or the end of follow-up (March 2020), whichever came first. Because ambient air pollution levels decreased over study years in Canada, we additionally examined heterogeneity by fiscal year at birth on the association between prenatal air pollutants and CP. Due to concerns over the potential collinearities among the 3 pollutants in the multiple-pollutant models, we fit single-pollutant models for the association between prenatal residential exposure of each pollutant and CP in sensitivity analyses. We further conducted multiple-pollutant models with higher degrees of freedom (4 and 5) to examine the robustness of the association shapes across pregnancy in the primary analyses. All data management steps and descriptive statistics were completed in SAS EG version 7.1 (SAS Institute). The dlnm package version 2.4.7 in RStudio version 3.3.0 (R Project for Statistical Computing) was used to perform multivariable regression modeling. Data were analyzed from January to December 2022.
+Results
+Descriptive Statistics
+The present study included 1 587 935 mother-child pairs who reached term gestation, among whom 3170 children (0.2%) were diagnosed with CP. The median (IQR) age at time of CP diagnosis was 1 (0-3) year. Table 1 summarizes the characteristics of the study population for children with CP and children without CP. The overall mean (SD) maternal age at delivery was 30.1 (5.5) years, and mean (SD) gestational weeks at delivery were similar among children with CP (39.1 [1.2] weeks) and children without CP (39.2 [1.1] weeks) (Table 1). There was a higher percentage of male children among those with CP (1786 children [56.3%]) than among those without CP (809 959 children [51.1%]). Compared with children without CP, children with CP were slightly more likely to be born to mothers with a higher regional marginalization index and in smaller communities (Table 1).
+The median (IQR) prenatal average concentrations of the 3 pollutants were 8.3 (7.0-9.7) ug/m3 for PM2.5, 13.0 (7.2-17.1) parts per billion (ppb) for NO2, and 47.4 (44.0-51.1) ppb for O3. Children with CP had slightly higher prenatal average ambient air pollutant levels than those without CP (Table 1). Prenatal average PM2.5 concentration was moderately correlated with NO2 (r = 0.57) but had a weaker correlation with O3 (r = 0.28), and the correlation between NO2 and O3 averaged across pregnancy was negative (r = −0.18).
+Associations Between Prenatal Ambient Air Pollution Concentrations and CP
+A per IQR increase in the prenatal average PM2.5 concentration (2.7 ug/m3) across 37 gestational weeks was associated with an increased risk of CP (CHR, 1.12; 95% CI, 1.03-1.21) (Table 2). After stratifying the analyses by infant sex, we observed a statistically significant positive association between prenatal PM2.5 concentration and CP in male children (CHR, 1.14; 95% CI, 1.03-1.26) but not in female children (CHR, 1.08; 95% CI, 0.96-1.22), although the P value for heterogeneity was large (Table 2).
+Among all full term births, prenatal PM2.5 concentration was associated with higher hazards for CP across gestational weeks and no specific window of susceptibility was found (Figure 1). Among males, the point estimates for the WHR of PM2.5 and CP risk during gestational weeks 0 to 4 and 8 to 33 were higher than 1, with the highest WHR at gestational weeks 0 and 1 (WHR, 1.01) and 16 to 22 (WHR, 1.01), although the 95% CIs all crossed 1 (Figure 2). In female children, the WHR estimates of PM2.5 and CP risk were higher than 1 during gestational weeks 3 to 19, and estimates were highest during weeks 5 to 7 (WHR, 1.01), although all 95% CIs included 1 as similar to results found in male children (Figure 2). No overall association or windows of susceptibility were found for prenatal NO2 or O3 concentrations in relation to CP risks (Table 2; eFigure 3 in Supplement 1).
+Sensitivity Analyses
+Restricting CP cases diagnosed before age 6 did not materially change the estimates (eTable 2 in Supplement 1). We did not find evidence of effect modification by birth year. Estimates from single-pollutant models were similar to those obtained from multiple-pollutant models (eTable 3 and eFigure 4 in Supplement 1). Results from multiple-pollutant models with higher degrees of freedom for the lag-response relationships showed similar overall patterns compared with the primary models (eFigure 5 in Supplement 1).
+Discussion
+Average prenatal residential exposure to ambient PM2.5 was associated with an elevated risk of CP among full term births. The risk estimate in male infants was slightly higher compared with the estimate in female infants, although the difference did not reach statistical significance. No specific window of susceptibility was found among all full term births, but after stratification by infant sex, imprecise elevated CP risks were found for the weekly PM2.5 concentrations in the first and second trimesters among male infants and in the first trimester among female infants. We did not observe associations or sensitive windows for prenatal residential exposure to ambient NO2 or O3 in relation to the risk of CP.
+Our results were consistent with the literature investigating the association between prenatal PM2.5 and other neurodevelopmental disorders such as autism spectrum disorder (ASD), attention-deficit/hyperactivity disorder (ADHD), and neurocognitive functions.33,35,36 Specifically, 1 study35 among a US Southern California cohort found ambient PM2.5 exposure in the first 2 trimesters was associated with increased risks of ASD from 2001 to 2014. Notably, prenatal PM2.5 concentration in this cohort is 1.7 times the concentration in our study population (14.2 vs 8.3 μg/m3). One study36 assessing prenatal NO2 exposure and gross motor and fine motor scores among 225 mother–full term birth pairs in Shanghai, China, did not find associations over the whole gestational period, which was consistent with the null result in our study. However, they suggested that weekly average NO2 concentrations had adverse associations with gross motor scores during gestational weeks 33 to 36, and with fine motor scores in weeks 26 to 36. The NO2 concentration in this Chinese study was twice that in our cohort (26 vs 13 ppb).
+We found a slightly higher cumulative risk associated with prenatal PM2.5 exposure among male than female infants, although the P value for heterogeneity was large. This finding was consistent with the previous research showing male predominance in neurodevelopmental disorders, including ASD, ADHD, and CP.37,38 Additionally, we found no specific critical windows of exposure when analyzing all full term births together. However, after stratifying by sex, male infants had imprecisely elevated CP risk associated with ambient PM2.5 exposure in the early and middle pregnancy, while female infants were at higher CP risk in early pregnancy. The sex-specific difference in susceptible windows could be due to the sexually dimorphic susceptibility to specific CP subtypes which may have different vulnerable periods in utero but may also reflect the increased uncertainty in the weekly effect estimates.38,39 Nevertheless, the underlying mechanism of this male predominance and the sex difference in the windows of susceptibility warrant research to understand the underplay of genetic, hormonal, and environmental factors.
+Some underlying mechanisms may help explain the findings. The fetal brain begins to develop during the third week of gestation,23 and cortisol neurogenesis takes place until the 24th week of gestation, which is characterized by proliferation, migration, and organization of neurons. Malformations at this stage such as cortical dysplasia are established causes of CP.40 Destructive injuries such as inflammation during brain development can also lead to CP.40,41 Myelination, which starts in the first trimester and is closely related to white matter disorders such as CP, is shown to be most susceptible to damage from particulate pollution.10,20,42 Animal model studies also suggest that particulate pollution is related to chronic neuroinflammation, which is also a potential cause of CP due to inflammation and oxidative stress via the placental pathway.15,16,18,19 An additional mode of mechanism could be through epigenetic changes, which is a recently hypothesized mechanism of CP,43 and prenatal air pollution has been shown to be related to differential DNA methylation.44 Mechanistic evidence supports the heterogeneity in inflammatory responses among male and female individuals, potentially explaining slightly higher CP risk related to PM2.5 exposure in male than female individuals. It was suggested that higher levels of proinflammatory cytokines (IL-1β, IL-6, and TNF-α) were observed in males, and were associated with less efficient and effective response when returning to homeostasis during acute inflammation.45 Animal studies also supported male predominance and found prenatal air pollution exposure could induce sexually dimorphic neuroinflammatory outcomes in adult offspring.15,46
+Strengths and Limitations
+Our study has several strengths. First, using a Canadian provincial administrative database, this population-based cohort study captured sufficient sample sizes, person-time, and CP cases to achieve adequate statistical power, making this study the first and largest cohort study we know of on prenatal exposure to air pollution and risk of cerebral palsy. Moreover, since all the live births with valid exposure and outcome information in the province of Ontario were included in our study over almost 2 decades, our results could be generalizable to other populations of full term births with similar characteristics. Furthermore, by using the distributed lag models, we were able to estimate the weekly effect of prenatal exposure to air pollution, which enabled us to assess the granular windows of susceptibility, instead of a trimester-based manner, which may instead hinder some critical windows during fetal development. Additionally, we performed multiple-pollutant models which adjusted for the potential copollutant confounding.47 Since neither abnormal patterns nor estimates were found comparing results based on the multipollutant model vs single-pollutant model, we expected limited collinearity issues impacting the result. However, this study had some limitations. First, since the prenatal air pollution exposure was assigned by residence at delivery, there could be nondifferential measurement error in exposure assessment due to lack of consideration for residential movement during pregnancy, driving the observed associations toward the null and limiting our ability to detect vulnerable windows. The magnitude of measurement error is likely to be slight since mothers tend to move small distances during pregnancy.48 Second, we were unable to assess the subtypes of CP, which limited our ability to detect the associations and vulnerability windows of some specific subtypes of CP in relation to prenatal air pollution exposure. Third, although we adjusted for comprehensive variables of neighborhood socioeconomic status, residual and unmeasured confounding cannot be ruled out. Fourth, we limited our analyses to full term births, therefore, the findings may not be generalizable to those born preterm. Besides, there could be potential nondifferential outcome misclassification due to using administrative databases, potentially biasing the observed associations toward the null.30,49 Live birth bias may arise since we conditioned the analyses among live births, and prenatal air pollution was found to be related to pregnancy loss,50 which could potentially bias the association of interest downward.51,52 However, we would not expect the bias to be high given the relatively small effect of prenatal air pollution exposure on pregnancy loss.50 Additionally, the air pollution level in the Canadian population is one of the lowest in the world.53-55 Future studies with varying air pollutant levels are needed to validate our findings.
+Conclusions
+In this large-scale population cohort, prenatal PM2.5 exposure was associated with an increased risk of CP. No specific window of susceptibility was found during pregnancy. The findings of this large cohort study could advance the identification of existing environmental risk factors for CP development and better inform interventions to mitigate the potential risk of CP during fetus development. Further studies are needed to validate the associations and explore potential modifiers.
+Back to top
+Article Information
+Accepted for Publication: April 25, 2024.
+Published: July 9, 2024. doi:10.1001/jamanetworkopen.2024.20717
+Open Access: This is an open access article distributed under the terms of the CC-BY License. © 2024 Zhang Y et al. JAMA Network Open.
+Corresponding Author: Carmen Messerlian, PhD, Harvard T.H. Chan School of Public Health, 665 Huntington Ave, Bldg 1, 1310C, Boston, MA 02115 (cmesser@hsph.harvard.edu).
+Author Contributions: Dr Zhang and Mr Talarico had full access to all of the data in the study and take responsibility for the integrity of the data and the accuracy of the data analysis. Dr Zhang and Ms Hucontributed equally to this work and should be considered as joint first authors.
+Concept and design: Zhang, Hu, Talarico, Qiu, Fell, Oskoui, Lavigne, Messerlian.
+Acquisition, analysis, or interpretation of data: Zhang, Hu, Talarico, Schwartz, Fell, Oskoui, Lavigne, Messerlian.
+Drafting of the manuscript: Zhang, Hu, Lavigne, Messerlian.
+Critical review of the manuscript for important intellectual content: All authors.
+Statistical analysis: Zhang, Hu, Talarico, Qiu, Lavigne, Messerlian.
+Obtained funding: Lavigne, Messerlian.
+Administrative, technical, or material support: Qiu, Schwartz, Lavigne.
+Supervision: Lavigne, Messerlian.
+Conflict of Interest Disclosures: Dr Fell reported receiving personal fees from Pfizer. No other disclosures were reported.
+Funding/Support: This work is supported by the US National Institute of Environmental Health Sciences grant No. R01ES031657, and the Addressing Air Pollution Horizontal Initiative research program of Health Canada. Parts of this material are based on data and/or information compiled and provided by Canadian Institute for Health Information (CIHI).
+Role of the Funder/Sponsor: The funders had no role in the design and conduct of the study; collection, management, analysis, and interpretation of the data; preparation, review, or approval of the manuscript; and decision to submit the manuscript for publication.
+Disclaimer: The analyses, conclusions, opinions, and statements expressed in the material are those of the authors, and not necessarily those of CIHI.
+Data Sharing Statement: See Supplement 2.
+Additional Contributions: We thank Eric Crighton, PhD (Department of Geography, Environment and Geomatics, University of Ottawa) for his valuable review and suggestion for this work and Elizabeth Yang for her research assistance. Neither were compensated for their contributions.
+References
+1.
+Himmelmann  K﻿, Ahlin  K﻿, Jacobsson  B﻿, Cans  C﻿, Thorsen  P﻿.  Risk factors for cerebral palsy in children born at term. ﻿  Acta Obstet Gynecol Scand. 2011;90(10):1070-1081. doi:10.1111/j.1600-0412.2011.01217.xPubMedGoogle ScholarCrossref
+2.
+Oskoui  M﻿, Gazzellone  MJ﻿, Thiruvahindrapuram  B﻿,  et al.  Clinically relevant copy number variations detected in cerebral palsy. ﻿  Nat Commun. 2015;6(1):7949. doi:10.1038/ncomms8949PubMedGoogle ScholarCrossref
+3.
+Rosenbaum  P﻿, Paneth  N﻿, Leviton  A﻿,  et al.  A report: the definition and classification of cerebral palsy April 2006. ﻿  Dev Med Child Neurol Suppl. 2007;109:8-14.PubMedGoogle Scholar
+4.
+Blair  E﻿, Watson  L﻿.  Epidemiology of cerebral palsy. ﻿  Semin Fetal Neonatal Med. 2006;11(2):117-125. doi:10.1016/j.siny.2005.10.010PubMedGoogle ScholarCrossref
+5.
+Himmelmann  K﻿, Ahlin  K﻿, Jacobsson  B﻿, Cans  C﻿, Thorsen  P﻿.  Risk factors for cerebral palsy in children born at term. ﻿  Acta Obstet Gynecol Scand. 2011;90(10):1070-1081. doi:10.1111/j.1600-0412.2011.01217.xGoogle ScholarCrossref
+6.
+McIntyre  S﻿, Goldsmith  S﻿, Webb  A﻿,  et al; Global CP Prevalence Group.  Global prevalence of cerebral palsy: a systematic analysis. ﻿  Dev Med Child Neurol. 2022;64(12):1494-1506. doi:10.1111/dmcn.15346PubMedGoogle ScholarCrossref
+7.
+Korzeniewski  SJ﻿, Slaughter  J﻿, Lenski  M﻿, Haak  P﻿, Paneth  N﻿.  The complex aetiology of cerebral palsy. ﻿  Nat Rev Neurol. 2018;14(9):528-543. doi:10.1038/s41582-018-0043-6PubMedGoogle ScholarCrossref
+8.
+Moster  D﻿, Wilcox  AJ﻿, Vollset  SE﻿, Markestad  T﻿, Lie  RT﻿.  Cerebral palsy among term and postterm births. ﻿  JAMA. 2010;304(9):976-982. doi:10.1001/jama.2010.1271
+ArticlePubMedGoogle ScholarCrossref
+9.
+Zhuo  H﻿, Ritz  B﻿, Warren  JL﻿, Liew  Z﻿.  Season of conception and risk of cerebral palsy. ﻿  JAMA Netw Open. 2023;6(9):e2335164. doi:10.1001/jamanetworkopen.2023.35164
+ArticlePubMedGoogle ScholarCrossref
+10.
+Sunyer  J﻿, Dadvand  P﻿.  Pre-natal brain development as a target for urban air pollution. ﻿  Basic Clin Pharmacol Toxicol. 2019;125(S3):81-88. doi:10.1111/bcpt.13226Google ScholarCrossref
+11.
+Tachibana  K﻿, Takayanagi  K﻿, Akimoto  A﻿,  et al.  Prenatal diesel exhaust exposure disrupts the DNA methylation profile in the brain of mouse offspring. ﻿  J Toxicol Sci. 2015;40(1):1-11. doi:10.2131/jts.40.1PubMedGoogle ScholarCrossref
+12.
+Yokota  S﻿, Sato  A﻿, Umezawa  M﻿, Oshio  S﻿, Takeda  K﻿.  In utero exposure of mice to diesel exhaust particles affects spatial learning and memory with reduced N-methyl-D-aspartate receptor expression in the hippocampus of male offspring. ﻿  Neurotoxicology. 2015;50:108-115. doi:10.1016/j.neuro.2015.08.009PubMedGoogle ScholarCrossref
+13.
+Yokota  S﻿, Oshio  S﻿, Takeda  K﻿.  In utero exposure to diesel exhaust particles induces anxiogenic effects on male offspring via chronic activation of serotonergic neuron in dorsal raphe nucleus. ﻿  J Toxicol Sci. 2016;41(5):583-593. doi:10.2131/jts.41.583Google ScholarCrossref
+14.
+Ladd-Acosta  C﻿, Feinberg  JI﻿, Brown  SC﻿,  et al.  Epigenetic marks of prenatal air pollution exposure found in multiple tissues relevant for child health. ﻿  Environ Int. 2019;126:363-376. doi:10.1016/j.envint.2019.02.028PubMedGoogle ScholarCrossref
+15.
+Bolton  JL﻿, Huff  NC﻿, Smith  SH﻿,  et al.  Maternal stress and effects of prenatal air pollution on offspring mental health outcomes in mice. ﻿  Environ Health Perspect. 2013;121(9):1075-1082. doi:10.1289/ehp.1306560PubMedGoogle ScholarCrossref
+16.
+Saenen  ND﻿, Vrijens  K﻿, Janssen  BG﻿,  et al.  Placental nitrosative stress and exposure to ambient air pollution during gestation: a population study. ﻿  Am J Epidemiol. 2016;184(6):442-449. doi:10.1093/aje/kww007PubMedGoogle ScholarCrossref
+17.
+Hougaard  KS﻿, Jensen  KA﻿, Nordly  P﻿,  et al.  Effects of prenatal exposure to diesel exhaust particles on postnatal development, behavior, genotoxicity and inflammation in mice. ﻿  Part Fibre Toxicol. 2008;5:3. doi:10.1186/1743-8977-5-3PubMedGoogle ScholarCrossref
+18.
+Win-Shwe  TT﻿, Yamamoto  S﻿, Fujitani  Y﻿, Hirano  S﻿, Fujimaki  H﻿.  Spatial learning and memory function-related gene expression in the hippocampus of mouse exposed to nanoparticle-rich diesel exhaust. ﻿  Neurotoxicology. 2008;29(6):940-947. doi:10.1016/j.neuro.2008.09.007PubMedGoogle ScholarCrossref
+19.
+Hougaard  KS﻿, Saber  AT﻿, Jensen  KA﻿, Vogel  U﻿, Wallin  H﻿.  Diesel exhaust particles: effects on neurofunction in female mice. ﻿  Basic Clin Pharmacol Toxicol. 2009;105(2):139-143. doi:10.1111/j.1742-7843.2009.00407.xPubMedGoogle ScholarCrossref
+20.
+Peterson  BS﻿, Rauh  VA﻿, Bansal  R﻿,  et al.  Effects of prenatal exposure to air pollutants (polycyclic aromatic hydrocarbons) on the development of brain white matter, cognition, and behavior in later childhood. ﻿  JAMA Psychiatry. 2015;72(6):531-540. doi:10.1001/jamapsychiatry.2015.57
+ArticlePubMedGoogle ScholarCrossref
+21.
+Bové  H﻿, Bongaerts  E﻿, Slenders  E﻿,  et al.  Ambient black carbon particles reach the fetal side of human placenta. ﻿  Nat Commun. 2019;10(1):3866. doi:10.1038/s41467-019-11654-3PubMedGoogle ScholarCrossref
+22.
+Ghosh  R﻿, Rankin  J﻿, Pless-Mulloli  T﻿, Glinianaia  S﻿.  Does the effect of air pollution on pregnancy outcomes differ by gender? A systematic review. ﻿  Environ Res. 2007;105(3):400-408. doi:10.1016/j.envres.2007.03.009PubMedGoogle ScholarCrossref
+23.
+Konkel  L﻿.  The Brain before birth: using fMRI to explore the secrets of fetal neurodevelopment. ﻿  Environ Health Perspect. 2018;126(11):112001. doi:10.1289/EHP2268PubMedGoogle ScholarCrossref
+24.
+Elten  M﻿, Benchimol  EI﻿, Fell  DB﻿,  et al.  Ambient air pollution and the risk of pediatric-onset inflammatory bowel disease: a population-based cohort study. ﻿  Environ Int. 2020;138:105676. doi:10.1016/j.envint.2020.105676PubMedGoogle ScholarCrossref
+25.
+Matheson  FI﻿, Moloney  G﻿, van Ingen  T﻿. 2016 Ontario marginalization index: user guide. 1st revision. 2022. Accessed October 31, 2022. https://www.publichealthontario.ca/-/media/documents/o/2017/on-marg-userguide.pdf
+26.
+van Donkelaar  A﻿, Martin  RV﻿, Spurr  RJ﻿, Burnett  RT﻿.  High-resolution satellite-derived PM2.5 from optimal estimation and geographically weighted regression over North America. ﻿  Environ Sci Technol. 2015;49(17):10482-10491. doi:10.1021/acs.est.5b02076PubMedGoogle ScholarCrossref
+27.
+Hystad  P﻿, Setton  E﻿, Cervantes  A﻿,  et al.  Creating national air pollution models for population exposure assessment in Canada. ﻿  Environ Health Perspect. 2011;119(8):1123-1129. doi:10.1289/ehp.1002976PubMedGoogle ScholarCrossref
+28.
+Robichaud  A﻿, Ménard  R﻿.  Multi-year objective analyses of warm season ground-level ozone and PM2.5 over North America using real-time observations and Canadian operational air quality models. ﻿  Atmos Chem Phys. 2014;14(4):1769-1800. doi:10.5194/acp-14-1769-2014Google ScholarCrossref
+29.
+Bechle  MJ﻿, Millet  DB﻿, Marshall  JD﻿.  National spatiotemporal exposure surface for NO2: monthly scaling of a satellite-derived land-use regression, 2000-2010. ﻿  Environ Sci Technol. 2015;49(20):12297-12305. doi:10.1021/acs.est.5b02882PubMedGoogle ScholarCrossref
+30.
+Ahmed  A﻿, Rosella  LC﻿, Oskoui  M﻿, Watson  T﻿, Yang  S﻿.  In utero exposure to maternal injury and the associated risk of cerebral palsy. ﻿  JAMA Pediatr. 2023;177(1):53-61. doi:10.1001/jamapediatrics.2022.4535
+ArticlePubMedGoogle ScholarCrossref
+31.
+Urquia  ML﻿, Frank  JW﻿, Glazier  RH﻿, Moineddin  R﻿, Matheson  FI﻿, Gagnon  AJ﻿.  Neighborhood context and infant birthweight among recent immigrant mothers: a multilevel analysis. ﻿  Am J Public Health. 2009;99(2):285-293. doi:10.2105/AJPH.2007.127498PubMedGoogle ScholarCrossref
+32.
+Statistics Canada. Visible minority of person. Accessed June 12, 2024. https://www23.statcan.gc.ca/imdb/p3Var.pl?Function=DEC&Id=45152
+33.
+Chiu  YHM﻿, Hsu  HHL﻿, Coull  BA﻿,  et al.  Prenatal particulate air pollution and neurodevelopment in urban children: examining sensitive windows and sex-specific associations. ﻿  Environ Int. 2016;87:56-65. doi:10.1016/j.envint.2015.11.010PubMedGoogle ScholarCrossref
+34.
+Gasparrini  A﻿, Armstrong  B﻿, Kenward  MG﻿.  Distributed lag non-linear models. ﻿  Stat Med. 2010;29(21):2224-2234. doi:10.1002/sim.3940PubMedGoogle ScholarCrossref
+35.
+Rahman  MM﻿, Shu  YH﻿, Chow  T﻿,  et al.  Prenatal exposure to air pollution and autism spectrum disorder: sensitive windows of exposure and sex differences. ﻿  Environ Health Perspect. 2022;130(1):17008. doi:10.1289/EHP9509PubMedGoogle ScholarCrossref
+36.
+Yu  T﻿, Zhou  L﻿, Xu  J﻿,  et al.  Effects of prenatal exposures to air sulfur dioxide/nitrogen dioxide on toddler neurodevelopment and effect modification by ambient temperature. ﻿  Ecotoxicol Environ Saf. 2022;230:113118. doi:10.1016/j.ecoenv.2021.113118PubMedGoogle ScholarCrossref
+37.
+May  T﻿, Adesina  I﻿, McGillivray  J﻿, Rinehart  NJ﻿.  Sex differences in neurodevelopmental disorders. ﻿  Curr Opin Neurol. 2019;32(4):622-626. doi:10.1097/WCO.0000000000000714PubMedGoogle ScholarCrossref
+38.
+Johnston  MV﻿, Hagberg  H﻿.  Sex and the pathogenesis of cerebral palsy. ﻿  Dev Med Child Neurol. 2007;49(1):74-78. doi:10.1017/S0012162207000199.xPubMedGoogle ScholarCrossref
+39.
+Romeo  DM﻿, Venezia  I﻿, Pede  E﻿, Brogna  C﻿.  Cerebral palsy and sex differences in children: a narrative review of the literature. ﻿  J Neurosci Res. 101(5):783-795. doi:10.1002/jnr.25020Google ScholarCrossref
+40.
+Marret  S﻿, Vanhulle  C﻿, Laquerriere  A﻿. Pathophysiology of cerebral palsy. In: Dulac  O﻿, Lassonde  M﻿, Sarnat  HB﻿, eds.  Handbook of Clinical Neurology. Elsevier; 2013:169-176.
+41.
+Magalhães  RC﻿, Moreira  JM﻿, Lauar  AO﻿, da Silva  AAS﻿, Teixeira  ALE﻿, E Silva  ACS﻿.  Inflammatory biomarkers in children with cerebral palsy: a systematic review. ﻿  Res Dev Disabil. 2019;95:103508. doi:10.1016/j.ridd.2019.103508PubMedGoogle ScholarCrossref
+42.
+Kinney  HC﻿.  Human myelination and perinatal white matter disorders. ﻿  J Neurol Sci. 2005;228(2):190-192. doi:10.1016/j.jns.2004.10.006PubMedGoogle ScholarCrossref
+43.
+Romero  B﻿, Robinson  KG﻿, Batish  M﻿, Akins  RE﻿.  An emerging role for epigenetics in cerebral palsy. ﻿  J Pers Med. 2021;11(11):1187. doi:10.3390/jpm11111187PubMedGoogle ScholarCrossref
+44.
+Gruzieva  O﻿, Xu  CJ﻿, Breton  CV﻿,  et al.  Epigenome-wide meta-analysis of methylation in children related to prenatal NO2 air pollution exposure. ﻿  Environ Health Perspect. 2017;125(1):104-110. doi:10.1289/EHP36PubMedGoogle ScholarCrossref
+45.
+Engler  H﻿, Benson  S﻿, Wegner  A﻿, Spreitzer  I﻿, Schedlowski  M﻿, Elsenbruch  S﻿.  Men and women differ in inflammatory and neuroendocrine responses to endotoxin but not in the severity of sickness symptoms. ﻿  Brain Behav Immun. 2016;52:18-26. doi:10.1016/j.bbi.2015.08.013PubMedGoogle ScholarCrossref
+46.
+Bolton  JL﻿, Auten  RL﻿, Bilbo  SD﻿.  Prenatal air pollution exposure induces sexually dimorphic fetal programming of metabolic and neuroinflammatory outcomes in adult offspring. ﻿  Brain Behav Immun. 2014;37:30-44. doi:10.1016/j.bbi.2013.10.029PubMedGoogle ScholarCrossref
+47.
+Ananth  CV﻿, Kioumourtzoglou  MA﻿, Huang  Y﻿,  et al.  Exposures to air pollution and risk of acute-onset placental abruption: a case-crossover study. ﻿  Epidemiology. 2018;29(5):631-638. doi:10.1097/EDE.0000000000000859PubMedGoogle ScholarCrossref
+48.
+Chen  L﻿, Bell  EM﻿, Caton  AR﻿, Druschel  CM﻿, Lin  S﻿.  Residential mobility during pregnancy and the potential for ambient air pollution exposure misclassification. ﻿  Environ Res. 2010;110(2):162-168. doi:10.1016/j.envres.2009.11.001PubMedGoogle ScholarCrossref
+49.
+Oskoui  M﻿, Joseph  L﻿, Dagenais  L﻿, Shevell  M﻿.  Prevalence of cerebral palsy in Quebec: alternative approaches. ﻿  Neuroepidemiology. 2013;40(4):264-268. doi:10.1159/000345120PubMedGoogle ScholarCrossref
+50.
+Xue  T﻿, Zhu  T﻿, Geng  G﻿, Zhang  Q﻿.  Association between pregnancy loss and ambient PM2·5 using survey data in Africa: a longitudinal case-control study, 1998-2016. ﻿  Lancet Planet Health. 2019;3(5):e219-ee225. doi:10.1016/S2542-5196(19)30047-6PubMedGoogle ScholarCrossref
+51.
+Raz  R﻿, Kioumourtzoglou  MA﻿, Weisskopf  MG﻿.  Live-birth bias and observed associations between air pollution and autism. ﻿  Am J Epidemiol. 2018;187(11):2292-2296. doi:10.1093/aje/kwy172PubMedGoogle ScholarCrossref
+52.
+Liew  Z﻿, Olsen  J﻿, Cui  X﻿, Ritz  B﻿, Arah  OA﻿.  Bias from conditioning on live birth in pregnancy cohorts: an illustration based on neurodevelopment in children after prenatal exposure to organic pollutants. ﻿  Int J Epidemiol. 2015;44(1):345-354. doi:10.1093/ije/dyu249PubMedGoogle ScholarCrossref
+53.
+Shaddick  G﻿, Thomas  ML﻿, Mudu  P﻿, Ruggeri  G﻿, Gumy  S﻿.  Half the world’s population are exposed to increasing air pollution. ﻿  NPJ Clim Atmos Sci. 2020;3(1):23. doi:10.1038/s41612-020-0124-2Google ScholarCrossref
+54.
+Rentschler  J﻿, Leonova  N﻿.  Global air pollution exposure and poverty. ﻿  Nat Commun. 2023;14(1):4432. doi:10.1038/s41467-023-39797-4PubMedGoogle ScholarCrossref
+55.
+World Health Organization. Concentrations of fine particulate matter (PM2.5). Accessed November 20, 2023. https://www.who.int/data/gho/data/themes/air-pollution/ambient-air-pollution
+JAMA Network Open
+CONTENT
+Home New Online Current Issue
+PODCAST
+JAMA Network Open Editors' Summary
+JOURNAL INFORMATION
+For Authors Editors & Publishers RSS Contact Us
+JN Learning / CME Store Apps Jobs Institutions Reprints & Permissions
+JAMA Network
+PUBLICATIONS
+JAMA JAMA Network Open JAMA Cardiology JAMA Dermatology JAMA Health Forum JAMA Internal Medicine JAMA Neurology JAMA Oncology JAMA Ophthalmology JAMA Otolaryngology–Head & Neck Surgery JAMA Pediatrics JAMA Psychiatry JAMA Surgery Archives of Neurology & Psychiatry (1919-1959)
+SITES
+AI in Clinical Practice Art and Images in Psychiatry Best of the JAMA Network Caring for the Critically Ill Patient Clinical Crosswords from JAMA Coronavirus Resource Center Evidence-Based Medicine: An Oral History Fishbein Fellowship Genomics and Precision Health Hypertension JAMA Forum Archive JAMA Network Audio JAMA Network Video JAMA Network Conferences JAMA Summit JAMA Surgery Guide to Statistics and Methods Medical News Mpox (Monkeypox) Research Ethics Topics and Collections Visual Abstracts War and Health Women's Health
+FEATURED ARTICLES
+Antiretroviral Drugs for HIV Treatment and Prevention in Adults - 2022 IAS-USA Recommendations CONSERVE 2021 Guidelines for Reporting Trials Modified for the COVID-19 Pandemic Creation and Adoption of Large Language Models in Medicine Global Burden of Cancer, 2010-2019 Global Burden of Long COVID Global Burden of Melanoma Global Burden of Skin Diseases, 1990-2017 Global Disparities in Parkinson Disease Guidelines for Reporting Outcomes in Trial Protocols: The SPIRIT-Outcomes 2022 Extension Mass Violence and the Complex Spectrum of Mental Illness and Mental Functioning Neuropsychiatry Sequelae of COVID-19 A New Framework for Dementia Nomenclature Organization and Performance of US Health Systems Pharmacy Benefit Managers: History, Business Practices, Economics, and Policy Promoting EDI in Genetics Research PTSD and Cardiovascular Disease Red Blood Cell Transfusion: 2023 AABB International Guidelines Reimagining Children’s Rights in the US Spirituality in Serious Illness and Health The US Medicaid Program: Coverage, Financing, Reforms, and Implications for Health Equity
+USPSTF RECOMMENDATION STATEMENTS
+Screening for Colorectal Cancer Screening for Hypertension Screening for Lung Cancer Screening for Prediabetes and Type 2 Diabetes In Children Screening for Prediabetes and Type 2 Diabetes In Adults Statins for Primary Prevention of Cardiovascular Disease Vitamin and Mineral Supplements for Primary Prevention of of Cardiovascular Disease and Cancer
+BLOGS
+AMA Style Insider
+INFORMATION
+For Authors For Institutions & Librarians For Advertisers For Subscription Agents For Employers & Job Seekers For the Media Equity, Diversity, Inclusion Online Commenting Policy Public Access and Open Access Policy Statement on Potentially Offensive Content
+JAMA NETWORK PRODUCTS
+AMA Manual of Style JAMAevidence Peer Review Congress
+JN LEARNING
+Home State CME Clinical Challenge CME Atrial Fibrillation Course Women's Health Course CME / MOC Reporting Preferences About CME & MOC
+Help
+Subscriptions & Renewals Manage Emails Update My Address Support Center My Account
+JAMA CAREER CENTER
+Physician Job Listings
+Get the latest from JAMA Network Open
+Sign Up
+Privacy Policy | Terms of Use
+© 2024 American Medical Association. All rights reserved, including those for text and data mining, AI training, and similar technologies.
+Terms of Use| Privacy Policy| Accessibility Statement| Cookie Settings
+X

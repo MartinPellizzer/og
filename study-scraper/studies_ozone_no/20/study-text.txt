@@ -1,0 +1,80 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Water, Air, & Soil Pollution Article
+Treatability of BPA Containing Wastewater by Catalytic and Photocatalytic Ozone Processes Using n.TiO2
+Open access
+Published: 15 July 2024
+Volume 235, article number 526, (2024)
+Cite this article
+Download PDF
+You have full access to this
+open access
+article
+Water, Air, & Soil Pollution
+Aims and scope
+Submit manuscript
+Melisa Sırma
+, İ. Ayhan Şengil & N. Pınar Tanatti 
+58 Accesses
+Explore all metrics
+Abstract
+In this study, the treatment of synthetic wastewater containing 10 mg/L Bisphenol A (BPA) has been investigated by the catalytic and photocatalytic ozonation process. n.TiO2 nanocatalysts have been used in catalytic (COP) and photocatalytic (PCOP) ozonation processes. Optimum parameters have been determined as pH 6.32, 1200 mg/L ozone dose, 50 mg/L n.TiO2 catalyst dose and 12.5 min reaction time for COP. Optimum parameters have been found as pH 6.32, 1200 mg/L ozone dose, 50 mg/L n.TiO2 catalyst dose, 18 Watt UV light intensity, and 10 min reaction time for PCOP. The removal efficiencies of BPA have been obtained as 95.51% and 98.09% for COP and PCOP, respectively. Kinetic analyses showed that BPA removal has been carried out Pseudo second order kinetics with R2 values of 99.1 for both processes.
+1 Introduction
+Bisphenol A is an industrial chemical produced in very high volumes. BPA is used as the main material in the production of polycarbonate, epoxy resin, and thermal paper. High transparency, good thermal stability, high mechanical strength, and high degradation temperature are among the important physical and chemical properties of BPA (Jang & Wilkie, 2004). BPA, an organic synthetic compound, is a water-soluble, white, solid, and crystalline structure synthetic chemical, also known as [2,2-bis(4-hydroxyphenyl) propane], containing a methyl bridge between two phenol rings (Cousins et al., 2002). The chemical structure of BPA is shown in Fig. 1 (Prokop et al., 2004).
+Fig. 1
+The chemical structure of BPA (Prokop et al., 2004)
+Full size image
+Since BPA is preferred in the first place in many consumer products, it is seen that it is detected in surface waters and soil environments. Discovered that BPA has effects on hormones, it is classified among endocrine disrupting chemicals (EDC) because it shows estrogenic activity (Steinmetz et al., 1997). BPA has been recognized as a concern for human health and the environment due to its endocrine system-disrupting effect (Delfosse et al., 2012). EDCs have been stated that EDCs will cause occlusion of the heart and vessels (cardiovascular diseases), eating disorders (obesity) (Grün & Blumberg, 2009), and diabetes (Lang et al., 2008) in human health. Bisphenol A, one of the EDCs, has been found in wastewater, drinking water, air, and dust due to its wide variety of applications worldwide (Huang et al., 2012). For this reason, many methods have been used for BPA treatment in recent years. Ozone oxidation (Deborde et al., 2008), ultrasonic radiation (Guo et al., 2018), Fenton oxidation (Ioan et al., 2007), photocatalysis oxidation (Ohko et al., 2001), and electrochemical oxidation (Kuramitz et al., 2001) are among the methods used for BPA treatment.
+Ozone is a powerful oxidant with a high electrode potential. However, ozone only selectively attacks some of the organic pollutants at low pH and can’t readily react with many organic pollutants such as inactivated aromatics (Liu et al., 2019). It is clear that ozonation efficiency increases in the presence of a catalyst. Only the ozonation process requires an extended processing time and more minor mineralization. The use of catalysts that mediate hydroxyl radical (OH•) formation increases both treatment efficiency and effectiveness (Chen et al., 2019a).
+In general, in heterogeneous advanced oxidation processes, solid form catalysts are used to degrade the desired compounds. The heterogeneous catalysts used compared to homogeneous catalyzed oxidation processes have a quicker and easier product separation feature. Decomposition of ozone on the surface of metal oxide structures is the general method in heterogeneous catalytic ozonation. In heterogeneous catalytic ozonation, it is also known as the decomposition of ozone on the metal oxide surface by combining metal oxide components such as metal oxides TiO2, MnO2, and Al2O3 or metal structures such as Cu-TiO2, Fe2O3/Al2O3 with metal oxide groups. The efficiency of such ozonation methods generally depends on the physical and chemical properties of the metal oxide surfaces and the pH range of the solution.
+There are two basic processes for the heterogeneous catalytic ozonation process. (1) The formation of hydroxyl radical groups as a result of the adsorption of ozone molecules on the surface of the catalyst structure and the degradation of ozone molecular groups (Cooper & Burch, 1999; Ma & Graham, 2000). (2) As a result of adsorption on the surface of the used catalyst and decomposition of ozone molecular structures, it causes the production of many OH− radicals due to active oxidative surfaces (Beltrán et al., 2002; Gracia et al., 2000).
+Photocatalyst is defined as a potential semiconductor that creates a strong oxidizing structure on the surface with the effect of UV light. Photocatalyst is a type of catalyst that is activated in the presence of light. The adsorbing of the incoming light maximizes the energy and initiates the chemical reaction by transmitting the generated energy to the reactive materials.
+This study investigates BPA removal by catalytic and photocatalytic ozonation processes using nano titanium dioxide (n.TiO2) particles. It was aimed to determine the effects of pH, ozone dose, catalyst dose, UV light intensity, and reaction time parameters on the removal efficiency of BPA removal. It was found that the catalytic and photocatalytic processes are more suitable for BPA removal. Thus, two innovative processes for BPA removal, which are rare in the literature, have been determined. In addition, different kinetic models have been examined for both processes, and reaction rate constants were calculated depending on the formation reaction time.
+2 Materials and Methods
+2.1 Materials
+Bisphenol A, branded as ACROS ORGANICS, was used to prepare synthetic BPA samples. Hydrochloric acid (HCl) and sodium hydroxide (NaOH) solutions were used for acid–base adjustment for pH measurements (HANNA) in the prepared samples. As a catalyst, n.TiO2 with a diameter of 21 nm was obtained from SIGMA-ALDRICH. BPA concentration measurements were made with SHIMADZU brand UV-1700 model UV–Vis spectrophotometer. HS33 model magnetic stirrer of MTOPS brand was used to provide a homogeneous environment in the reactor. To obtain ozone gas, an ozone generator with SABO OZONE SYSTEMS branded SL-10 model was used.
+2.2 Synthetic BPA Sample Preparation and Measurement
+Experiments were performed with synthetic BPA solutions with an initial BPA concentration of 10 mg/L. For BPA measurements, spectrum scanning was taken and maximum wavelength (λmax) value was obtained at 278 nm wavelength. For the measurement of BPA values in the experiments, a calibration curve between 0.5 and 10 mg/L was prepared and Eq. (1) was obtained. Figure 2.
+Fig. 2
+Calibration chart
+Full size image
+$$BPA(mg/L)=\frac{ABS}{0.0134}$$ (1)
+2.3 Reactor Design
+Two different reactors have been used for catalytic ozonation and photocatalytic ozonation processes. The ozone generator used in catalytic and photocatalytic ozonation can produce 3 g/h of ozone. The catalytic ozonation process is shown in Fig. 3. The catalytic ozonation system consisted of a 250 mL sample reactor, ozone generator, and magnetic stirrer. The photocatalytic ozonation system is shown in Fig. 4 and includes the ozone generator, magnetic stirrer, and reactor with an outer layer of stainless steel. The reactor main system was 300 mm in length and 100 mm in diameter. 6 UV lamps (6 Watt each) with a wavelength of 254 nm were used in the reactor. Experiments were carried out by placing the sample in a quartz sample cup with a volume of 150 mL.
+Fig. 3
+Experimental setup for COP
+Full size image
+Fig. 4
+Experimental setup for PCOP
+Full size image
+3 Results and Discussion
+3.1 Effect of pH on BPA Removal in COP and PCOP Processes
+The pH parameter is a very important parameter for catalytic and photocatalytic ozonation processes. The pH value can significantly affect the ionization state of organic molecules, the charge of the TiO2 surface, and the precipitation of the chosen catalyst (Sobral-Romao, 2015).
+Experimental studies have been carried out on a synthetic water sample with an initial BPA concentration of 10 mg/L. The effect of pH on BPA removal has been investigated for pH 3–11 values. Meanwhile investigating the effect of pH, ozone dose has been studied at 1200 mg/L, 250 mg/L n.TiO2 dose and 10 min reaction time, and an additional 18 Watt light intensity was used in photocatalytic ozonation.
+The effect of pH on BPA removal efficiency is shown in Fig. 5. As Fig. 5 examined, BPA removal efficiency is highest at neutral pH values for catalytic and photocatalytic ozonation processes. BPA removal efficiency is at the lowest level at alkaline pH values. It was determined that the highest removal in BPA removal was at the sample's own pH (pH 6.32). However, it is evident from Fig. 6 that the photocatalytic process has a higher BPA removal efficiency than catalytic ozonation. However, it is understood from Fig. 6 that the photocatalytic process has higher BPA removal efficiency than the catalytic process. The BPA removal efficiency for COP is 71.92%, while it is 86.46% for PCOP at pH 6.32.
+Fig. 5
+The effect of pH on BPA removal (C0BPA: 10 mg/L, O3 dose: 1200 mg/L, n-TiO2 dose: 250 mg/L, t: 10 min., UV light intensity: 18 Watt)
+Full size image
+Fig. 6
+Zeta potentials of n.TiO2 depending on the pH
+Full size image
+The reason for the low removal of BPA at high pH is due to the pH-dependent zeta potential of n.TiO2. Figure 6 shows the zeta potential change of n.TiO2 used in the experiments depending on pH. As can be seen from the figure, the zeta potential value of the n.TiO2 particle decreases as the pH increases. At neutral pH, the zeta potential approaches almost zero. Therefore, BPA removal is low in alkaline conditions. BPA removal for COP and PCOP processes was 4.62 mg/L and 1.93 mg/L at pH 11, respectively.
+The treatment efficiency of the BPA pollutant at pH 2, 7, and 12 does not change independently of the pH value (Lee et al., 2003). For the treatment of BPA pollutant with 10 mg/L inlet concentration, ozone dose discharge was studied at 4.05 mg/min, pH 3–6 and 11, and BPA removal efficiencies were obtained as 17%-12%-35%, respectively (Gultekin et al., 2009). The purification of the synthetic BPA sample with an initial concentration of 8 mg/L by discharging a 2.2 mg/L ozone dose was investigated. They obtained an increase in the removal efficiency with the increase in pH values in the reaction time of 14 min. At pH 2–5 and 7, the percentage BPA removal efficiencies of 53%, 79%, and 92% were obtained, respectively, for BPA purification (Garoma & Matsumoto, 2009). The studies reported that the removal efficiency of high pH scales (10 ≤) decreased as a result.
+3.2 Effect of O3 Dose on BPA Removal in COP and PCOP Processes
+The heterogeneous catalytic ozonation process is a process that provides an easy decomposition of organic pollutants and rapid degradation of carbon dioxide and water compounds (Gao et al., 2017; Nawrocki & Kasprzyk-Hordern, 2010). Ozone-based advanced oxidation processes (AOPs) provide more hydroxyl radical formation of organic target pollutants compared to single systems (Gogate & Pandit, 2004; Rodríguez et al., 2013). Compared to the single ozonation technique, the main advantage of this

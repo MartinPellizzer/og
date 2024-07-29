@@ -1,0 +1,1452 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Healthcare
+All Article Types
+Advanced
+  Journals Healthcare Volume 12 Issue 12 10.3390/healthcare12121176
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Abdel-Latif Mohamed
+Subscribe SciFeed
+Related Info Links
+More by Authors Links
+Article Views
+626
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results
+Discussion
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessSystematic Review
+Does Exposure to Ambient Air Pollution Affect Gestational Age and Newborn Weight?—A Systematic Review
+by Bartlomiej Grabowski
+1, Stepan Feduniw
+2,*, Anna Orzel
+3, Marcin Drab
+3, Jan Modzelewski
+4, Michal Pruc
+5,6,7, Zuzanna Gaca
+5, Lukasz Szarpak
+7,8, Michal Rabijewski
+4, Arkadiusz Baran
+3 and Anna Scholz
+4
+1
+Department of Urology, Military Institute of Medicine, Szaserow 128, 04-349 Warsaw, Poland
+2
+Department of Gynecology, University Hospital Zürich, Frauenklinikstrasse 10, 8091 Zürich, Switzerland
+3
+I Department of Obstetrics and Gynecology, Centre of Postgraduate Medical Education, 01-004 Warsaw, Poland
+4
+Department of Reproductive Health, Centre of Postgraduate Medical Education, 01-813 Warsaw, Poland
+5
+Research Unit, Polish Society of Disaster Medicine, 05-806 Warsaw, Poland
+6
+Department of Public Health, International European University, 03187 Kyiv, Ukraine
+7
+Department of Clinical Research and Development, LUXMED Group, 02-676 Warsaw, Poland
+8
+Henry JN Taub Department of Emergency Medicine, Baylor College of Medicine, Houston, TX 77030, USA
+*
+Author to whom correspondence should be addressed.
+Healthcare 2024, 12(12), 1176; https://doi.org/10.3390/healthcare12121176
+Submission received: 3 May 2024 / Revised: 3 June 2024 / Accepted: 5 June 2024 / Published: 11 June 2024
+(This article belongs to the Section Perinatal and Neonatal Medicine)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figure Versions Notes
+Abstract
+Current evidence suggests that airborne pollutants have a detrimental effect on fetal growth through the emergence of small for gestational age (SGA) or term low birth weight (TLBW). The study’s objective was to critically evaluate the available literature on the association between environmental pollution and the incidence of SGA or TLBW occurrence. A comprehensive literature search was conducted across Pubmed/MEDLINE, Web of Science, Cochrane Library, EMBASE, and Google Scholar using predefined inclusion and exclusion criteria. The methodology adhered to the PRISMA guidelines. The systematic review protocol was registered in PROSPERO with ID number: CRD42022329624. As a result, 69 selected papers described the influence of environmental pollutants on SGA and TLBW occurrence with an Odds Ratios (ORs) of 1.138 for particulate matter ≤ 10 μm (PM10), 1.338 for particulate matter ≤ 2.5 μm (PM2.5), 1.173 for ozone (O3), 1.287 for sulfur dioxide (SO2), and 1.226 for carbon monoxide (CO). All eight studies analyzed validated that exposure to volatile organic compounds (VOCs) is a risk factor for SGA or TLBW. Pregnant women in the high-risk group of SGA occurrence, i.e., those living in urban areas or close to sources of pollution, are at an increased risk of complications. Understanding the exact exposure time of pregnant women could help improve prenatal care and timely intervention for fetuses with SGA. Nevertheless, the pervasive air pollution underscored in our findings suggests a pressing need for adaptive measures in everyday life to mitigate worldwide environmental pollution.
+Keywords: small for gestational age (SGA); term low birth weight (TLBW); ambient air pollution; particulate matter ≤ 10 μm (PM10); particulate matter ≤ 2.5 μm (PM2.5); ozone (O3); sulfur dioxide (SO2); carbon monoxide (CO); nitrogen dioxide (NO2)
+1. Introduction
+Intra-uterine growth is a crucial indicator reflecting the well-being of the fetus. Therefore, fetal growth abnormalities could arise from various pregnancy-related complications and are directly linked to increased fetal mortality [1]. According to the Royal College of Obstetricians and Gynaecologists guidelines, a newborn is considered small for gestational age (SGA) if the birth weight is below the 10th percentile based on customized growth charts [2,3,4]. It is estimated that while the majority of hypotrophic infants fall under the SGA definition, about 50–70% are constitutionally small but otherwise healthy newborns with growth aligned with parental metrics [5].
+Conversely, the term low birth weight (TLBW) refers to an infant with a birth weight < 2500 g [6]. Historically, TLBW was widely used as an indicator to assess infant well-being, influencing subsequent clinical decisions. At the same time, SGA is a more precise term, reflecting the underlying pathology, not only lower neonatal weight. The SGA diagnosis could be made if the estimated fetal weight falls below the 10th percentile [5,7,8]. The exact pathomechanism underlying SGA is not fully understood. There are several contributing factors, including maternal chronic conditions, fetal abnormalities, and those related to placental dysfunction [3,8]. Maternal exposure to environmental factors, including exposure to medications, residential building materials, and tobacco, significantly increases the risks of adverse outcomes such as preterm delivery, spontaneous abortion, growth restriction, and other postnatal complications [9,10,11]. Exogenous substances from the maternal diet and air quality also significantly affect fetal well-being.
+It should be noted that environmental factors are challenging to evaluate because of individual preferences, varying environments, and differing socioeconomic conditions. According to the World Health Organization (WHO), air pollution has emerged as the single biggest environmental threat to human health, estimated to cause 7 million premature deaths annually, making it the fourth most significant risk factor for early death globally in 2019, preceded only by hypertension, tobacco use, and poor diet [12,13]. Airborne pollutants that have been identified as responsible for multifactorial damage to the body include particulate matter ≤ 10 μm (PM10) and particulate matter ≤ 2.5 μm (PM2.5), ozone (O3), carbon monoxide (CO), NOx as combined nitric oxide (NO) and nitrogen dioxide (NO2), sulfur dioxide (SO2), and volatile organic compounds (VOCs) or other less explored pollutants. Most anthropogenic air pollutants enter the atmosphere as a consequence of contemporary industrialization and urbanization, the combustion of fossil fuels in thermal power plants, industrial production, and transportation vehicles, known as traffic-related air pollutants (TRAPs) [13,14,15,16]. While the adverse health effects of these substances have already been thoroughly researched in the adult population, more knowledge is still needed about their impact on health during the prenatal period. Gaining a comprehensive understanding of the precise effects of prenatal exposure to these environmental contaminants is crucial. Acquiring such knowledge is important for creating accurate public health interventions and establishing strong policy frameworks that aim to safeguard the health of pregnant women and their developing fetuses. This disparity is especially noticeable due to the susceptibility of the developing fetus to environmental stressors.
+Past reviews have confirmed the overall effect of ambient air pollution on health outcomes [15,16]. There is a lack of systematic reviews that thoroughly analyze and study the impacts of certain air pollutants, mainly because it is difficult to isolate and evaluate the influence of individual pollutants on fetal development [17]. Existing assessments have shown a simultaneous impact on cases of preterm delivery and fetal growth restriction, the latter being a condition where the baby is naturally smaller if born prematurely [18,19]. This overlap complicates the study and presents a potential for severe confounding bias. To fill this important knowledge vacuum, we conducted a systematic review specifically on fetal growth restriction at term, known as SGA or TLGW.
+The aim of this study was to determine the environmental factors that pose the highest risk for unfavorable fetal development outcomes throughout pregnancy. This systematic review focuses on analyzing the complex relationships between previously reported findings on the impact of various environmental pollutants, such as PM10, PM2.5, O3, CO, NOx, and SO2, on the occurrence of SGA or TLBW in infants. We aimed to analyze the existing research and pinpoint key areas that require additional investigation to strengthen the body of information that supports the development of effective public health interventions.
+2. Materials and Methods
+The current systematic review was conducted in adherence to the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines [20]. The systematic review protocol was registered in PROSPERO under the ID number: CRD42022329624.
+A comprehensive literature search was performed across databases, including Pubmed/MEDLINE, Web of Science, Cochrane Library, EMBASE, and Google Scholar, using the search strategy presented in Table 1.
+Table 1. Search strategy.
+All searches were conducted on 1 August 2023 and confined to articles in English, German, or Polish without any restrictions to the publication date. Additionally, the references of all the included studies were hand-searched for any additional relevant articles.
+All types of evaluative study designs were included and assessed. Two reviewers (SF and BG) independently screened the studies based on the title, abstract, and full text. Studies that met the selection criteria were included. The reference lists of the included studies underwent additional screening. Each included study was assessed on a scale (0 = not relevant, 1 = possibly relevant, and 2 = very relevant). Only studies that scored at least 1 point were included in the analysis. Any disagreements between reviewers were resolved by the third researcher (AK).
+The PI(E)CO question was “Does exposure to ambient air pollution influence the risk of small-for-gestational-age?”. The Population (P) comprised pregnant women exposed to ambient air pollution. The Exposure (E) was various ambient air pollution (PM2.5—particle matter ≤ 2.5 µm, PM10—particle matter ≤ 10 µm, CO—carbon monoxide, VOC—volatile organic compounds, NOx—nitrogen dioxide, SO2—sulfur dioxide, ground-level O3—ozone). Studies, including air concentrations of individual heavy metals as a compartment of particle matter pollution, were not included, as the information was not reported in standard pollution measurements. As the included studies were mostly retrospective, none of them adjusted for specific information about the concentration of molecules, including particulate matters (PMs). Exposure had to last at least three months during pregnancy, excluding indoor and natural sources of pollution. The Comparative group (C) consisted of pregnant women either not exposed to ambient air pollution or minimally exposed to ambient air pollutants (values in the first quartile). The study populations were compared to historic cohorts or cohorts from healthy environments, as defined by the authors. The outcome (O) was the occurrence of SGA (as defined by the authors of included studies) or TLBW < 2500 g. Studies (S) included in the analyses were either retrospective or prospective, with a control group of unaffected or minimally affected pregnant women.
+Due to the large amplitude of air pollution values, the exposed and unexposed groups differ between the studies. Despite different values used as the cut-off point for inclusion in the exposed group, authors in the studies always compared the exposed group (from the second to the fourth quartile) to the group considered unexposed (values in the first quartile). This distinction between the exposed and unexposed groups based on pollution thresholds allows for comparisons of the impact of air pollution within culturally, geographically, socially, and environmentally similar cohorts.
+The risk of bias was assessed independently by two authors (SF and BG) using the Newcastle–Ottawa scale [21]. The third reviewer (JM) resolved any discrepancies in the selection process. Predominantly, the studies included were of moderate to high quality.
+Due to the included studies’ heterogeneity, it was impossible to perform a quantitative synthesis. Nevertheless, a comprehensive comparison of the included studies is provided in the summary.
+3. Results
+The study selection process is comprehensively presented in Figure 1, providing a flow diagram of the evaluation process. Initially, a total of 7932 articles were identified from the database search (Pubmed/MEDLINE = 1778, Web of Science = 2035, Cochrane Library = 138, EMBASE = 674, and Google Scholar = 3307). After removing duplicates, 3064 publications underwent preliminary evaluations based on their titles and abstracts. Just 353 articles were selected for full-text screening, as shown in Figure 1. The study was written according to guidelines, and the PRISMA checklist is published in Supplementary Table S1 [20].
+Figure 1. PRISMA systematic review flow diagram.
+The systematic review comprised a total of 69 papers [22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90]. Supplementary Table S2 shows the Newcastle–Ottawa risk bias score of the included studies.
+Among these, 25 studies were from North America. Of these, 19 studies were conducted in the United States of America [29,41,43,44,45,53,55,58,60,63,64,66,67,78,84,85,87,88,90] and six studies in Canada [50,51,52,54,74,77].
+There were 19 conducted in Asia: 11 in China [23,25,26,28,30,32,33,34,36,37,46], three in Korea [42,76,81], three in Taiwan [80,82,86], one in Israel [27], and one in Japan [69].
+There were 16 studies performed throughout Europe: three in Lithuania [48,83,89], three in the Netherlands [38,65,70], three in the UK [35,57,61], two in Spain [22,72], two in Sweden [62,68], one in Norway [71], one in Poland [39], and one in Italy [49].
+Six studies were conducted in South America: four in Brazil [47,56,59,73], one in Chile [31], and one in Peru [40]. Two studies were from the other parts of the world—one from Australia [75] and one from South Africa [24]. The selected studies encompassed aggregated data from 20,024,479 pregnant women between 1975 and 2021. The quality of the included studies showed that the majority of the studies were of intermediate to high quality [21].
+Emphasis was placed on pollution with PM2.5 and PM10. Among the included studies, 33 examined the impact of PM10 [22,25,26,28,30,31,36,38,41,42,43,47,49,54,56,57,61,64,65,66,67,71,73,75,76,77,78,79,81,82,84,86,87] while 35 analyzed the impact of PM2.5 [23,24,25,26,27,28,30,31,32,33,34,35,36,39,40,41,43,44,46,50,51,52,53,54,55,57,58,59,60,63,66,67,71,74,78] and showed an association with SGA or TLBW. This was particularly noticeable in the case of PM2.5, for which the association with SGA was far more frequently seen than for PM10. Of the papers describing the influence of PM10, 55% showed an association between PM10 and SGA (Table 2 provides a detailed description of the included studies), while for PM2.5, this was as high as 74% (Table 3 provides a detailed description of the included studies). The average Odds Ratio (OR) of PM10 exposure influence on TLBW occurrence was 1.138 (minimal-maximal: 1.02–1.57) and 1.338 (minimal-maximal: 1.02–4.3) for PM2.5. Only seven papers performed analyses to estimate the influence of PM10 [22,25,43,57,64,65,66] and seven examined the influence of PM2.5 on SGA occurrence [23,27,33,43,44,58,74]. There were also two papers that showed a paradoxical protective effect of both PM10 (aOR 0.72) (95%CI: 0.56–0.92) and PM2.5 (aOR 0.86) (95%CI: 0.81–0.92) on TLBW [47,53].
+Table 2. Characteristics of the included studies on the influence of Particulate Matter ≤ 10 μm (PM 10).
+Table 3. Characteristics of included studies about the influence of Particulate. Matter ≤ 2.5 μm (PM 2.5).
+A total of 16 studies showed an association between NOx and the occurrence of SGA or TLBW [26,28,30,38,43,48,49,50,57,63,64,68,72,74,81,86]. This represents 66% of the papers about NOx included in the review. Table 4 provides a detailed description of the included studies. The average OR of the influence of NOx exposure on TLBW occurrence was 1.12 (min-max: 1.04–1.89). Only five papers performed analyses to estimate the influence of NOx on SGA occurrence [43,49,50,72,74]. One study found a counterintuitive protective effect of exposure to NO2 substances during pregnancy with aOR 0.9 (95%CI: 0.93–0.95) [24].
+Table 4. Characteristics of the included studies about the influence of nitrogen substances (Nitrogen oxides (NOx): nitric oxide—NO and nitrogen dioxide—NO2).
+A total of 12 studies showed an association between O3 and the occurrence of SGA or TLBW. Approximately 66% of the works selected for review showed a positive association between O3 and SGA or TLBW [26,28,36,37,43,47,53,58,64,73,74,79]. One study showed a protective effect of prenatal exposure to O3 [43]. The average OR of the influence of O3 exposure on TLBW occurrence was 1.173 (min-max: 1.02–1.48). Only two papers performed analyses to estimate the influence of O3 on SGA occurrence [43,64]. Interestingly, two studies reported that O3 exposure is associated with an increased incidence of macrosomia with OR 1.02 (95%CI: 1.017–1.03) [30,36]. Table 5 provides a detailed description of the included studies.
+Table 5. Characteristics of the included studies about the influence of ozone (O3).
+A total of 14 Studies examined SO2 [24,25,28,36,38,54,57,73,77,79,80,82,86,87] and 12 studies on CO [25,32,36,57,59,64,78,80,81,87,88,90] analyzed in the review showed a significant association with SGA and TLBW, with 87% of papers indicating an association for SO2 and 73% for CO, respectively. Table 6 provides a detailed description of the included studies. The average OR of the influence of SO2 exposure on TLBW occurrence was 1.29 (min-max: 1.03–1.81), and for CO, the OR was 1.23 (min-max: 1.01–1.49). Three studies estimated the influence on SGA occurrence [24,25,64]. All eight studies about VOCs showed the influence of exposure on the incidence of SGA or TLBW [29,32,38,45,83,85,86,89]. However, the influence of the VOC could not be compared as each study analyzed a different molecule.
+Table 6. Characteristics of the included studies about the influence of sulfur dioxide (SO2), carbon monoxide (CO), and volatile organic compounds (VOCs).
+Proximity to major roads was shown to be a risk factor for SGA and TLBW in four studies [63,69,70,74].
+In the reviewed studies, air pollution measurements were based on data from research stations monitoring air quality in the area inhabited by the study cohorts. In all works, exposure assessment consisted of extracting pollution data from national or regional air quality databases. The assessment of individual pollution exposure was determined based on the residence location of a mother relative to the locations of the monitoring sites during a given time window using models such as Distributed Lag Models (DLMs), the General Additive Model (GAM), and the Land Use Regression Model (LUR). This process is called spatial-temporal exposure assessment and is one of the most popular methods used in air quality research. It involves using statistical models to determine the relationship between the level of air pollution and landscape characteristics and land use within a given area. This method can be used to estimate the level of air pollution based on geographic data, such as terrain maps, traffic flow, pollutant emission sources, and other variables. Geocoding the addresses of study participants is also a popular method used in air quality research. It involves assigning geographic coordinates to the addresses of study participants, enabling a comprehensive analysis of the relationship between the level of air pollution and geographical location.
+The studies included in the systematic review presented here usually divided patients into two populations: those exposed to a specific air pollutant and those not exposed to that pollutant. The most common division was the quartile (Q) division, which was present in 54 studies [23,24,25,26,27,28,30,31,32,33,34,35,36,37,38,40,41,42,43,46,47,49,50,51,53,54,55,56,57,58,59,60,61,62,63,64,65,68,69,70,71,72,73,74,75,76,77,78,79,80,81,84,86,87]. The authors provided a cut-off point for those not exposed to the pollution, set at the I Q. In two studies, the quintile division by analogy as the exposed group establishing the I quintile was used [25,90]. Four papers divided the population into tertiles [48,82,83,85]. Three papers considered patients above the median concentration of air pollutants as the exposed group [66,67,88]. In addition, three papers used the World Health Organisation (WHO), European Union (EU), and United States of America Environmental Protection Agency (US EPA) air quality guidelines in their exposure criteria [22,39,44]. In yet another three papers, the authors arbitrarily set a cut-off level for the exposed and unexposed groups due to the lack of specific and unambiguous norms of concentration for the substances they analyzed [29,52,89].
+Upon evaluation, the majority of the included studies demonstrated a moderate to high quality, as assessed using the Newcastle–Ottawa Scale [21]. All but 12 studies were adjusted for associated variables such as maternal age, BMI, pregnancy, ethnicity, and socioeconomic status. Those without aOR scored lower on the Ottawa–Newcastle scale [43,50,51,63,68,72,74,79,80,82,88,90]. The studies were based on retrospective and prospective cohorts compared with adjusted healthy pregnancies, producing high-quality results. Each study in the table has its Newcastle–Ottawa risk bias score (NOS) listed [21]. The detailed quality assessment of the included studies is presented in Supplementary Table S2.
+4. Discussion
+Most of the included studies showed an established direct association between ambient air pollution and the incidence of SGA or TLBW [22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,53,54,55,57,58,59,60,61,63,64,65,66,67,68,72,73,74,76,77,78,79,80,81,82,83,84,85,86,87,88]. The pattern in the results above suggests that pollutants such as PM2.5, PM10, SO2, CO, and NO2 significantly impact low birth weight. Moreover, some studies indicated that a reduction in pollution concentration (NO2, PM10, etc.) is positively associated with increased birth weight [22,50,84]. Many studies consistently showed that there is a significantly increased risk of SGA for each 10 μg/m3 increase in PM10 and PM2.5 during pregnancy [26,27,33,34,51,72]. Most of the analyzed studies emphasize the harmful impact of these pollutants on fetal birth weight. On the other hand, a small proportion of the studies indicated a potential protective effect of certain air pollutants such as PM2.5, PM10, O3, and NOx in reducing the incidence of SGA or TLBW [24,43,47,53]. Studies conducted by Huang et al. and Shang et al. established that O3 exposure was linked to increased term birth weight and a higher incidence of macrosomia [30,36].
+4.1. PM2.5 and PM10 Exposure
+There are four critical pollutants that the WHO considers crucial to human health: particulate matter, O3, NOx, and SO2. Despite the relatively large amount of epidemiological data on the impact of particulate matter, epidemiological data on gaseous pollutants are less abundant, especially regarding nitrogen compounds and sulfur dioxide.
+PM10 and PM2.5 are atmospheric aerosols smaller than 10 and 2.5 micrometers in diameter, respectively. The toxicity of the pollutants is the result of many factors, including the location of deposition, which is different depending on particle size and reactivity [91]. The smaller the particles are, the more they sediment into the lower airways, which allows them to affect the alveolar–capillary barrier directly [13]. They trigger cytotoxicity, leading to a local and systemic inflammatory response (via cytokines and mediators) [92]. Similar results were shown in a meta-analysis conducted by Liu et al. [93].
+PMs trigger pro-inflammatory signals through a Reactive Oxygen Species-dependent mechanism [94]. Oxidative stress, characterized by an imbalance between oxidants and antioxidants, can cause cell damage by oxidizing nucleic acids, proteins, and lipids, leading to cell death via apoptosis or necrosis [95]. There is much high-quality evidence in the literature from in vivo studies that chronic exposure to PM2.5 increases serum Interleucin 6 (IL-6), Tumor Necrosis Factor alpha (TNF-α), total cholesterol (TC), and Low-density lipoprotein C (LDL-C) levels, increases the expression of oxidative stress-related genes, causes progression of atherosclerosis, and leads to increased inflammation and redox levels in mice [95]. Increasing the antioxidant capacity of exposed cells has been shown to reduce the harmful effects of PM2.5 and PM10 [96].
+It is speculated that PM2.5 and smaller particles (<0.1 um), called ultrafine particles (UFP), are able to reach other distant organs via the cardiovascular system [97]. The toxic effects of PM2.5 may be realized directly at the level of the placenta and the developing fetus, which in turn may trigger inflammation and oxidative stress, finally impeding trophoblast invasion, placental vascularisation via anti-angiogenic factors such as the sFlt-1 pathway, and placental dysfunction, a pivotal contributor to SGA [98,99,100]. This smaller size may explain the demonstrated significantly higher incidence of SGA for PM2.5.
+In studies by Fernando Costa Nascimento et al. and Brown et al., a paradoxical protective effect of both PM2.5 and PM10 on TLBW was shown [47,53]. The possible reason for these negative associations may be the fact that high levels of exposure to air contamination throughout gestation led to miscarriage or stillbirth, which was not included as an outcome in those studies, thereby resulting in a selective survival bias for healthier fetuses.
+4.2. O3 Exposure
+O3 has the most evidence linking it to adverse health effects among gaseous pollutants. It is a pollutant formed by chemical reactions between nitrogen oxides (NOx) and VOCs in the presence of sunlight. In addition to being a highly reactive molecule capable of inducing oxidative stress, O3 has been shown to stimulate the synthesis of inflammatory cytokines by alveolar macrophages, such as IL-1ß, IL-6, IL-8, and TNF-α [101]. Studies conducted by Huang et al. and Shang et al. established that O3 exposure was linked to increased term birth weight and a higher incidence of macrosomia [30,36], and the study of Nobles et al. showed a protective effect of exposure to O3 [43]. This phenomenon might be explained by the observation by Beckerman et al. that O3 concentrations increased with proximity to the expressway, possibly due to O3 being scrubbed by NO to form NO2 [102]. The negative association with O3 may suggest a low level of exposure to TRAP, which may result in decreased SGA or TLBW occurrence.
+4.3. Exposure to Traffic-Related Air Pollutants (TRAPs)
+As almost every study shows, inconsistent results could result from exposure to multiple air pollutants. For example, in the study of Gan et al., while SO2 was found to have a significant impact on the prevalence of SGA, its exposure effects were reported in conjunction with other pollutants [28]. Evidence from car emissions studies emphasizes that the combined effect of air pollutants should be recognized as a primary risk factor for SGA [63,69,70,74]. While the composition of emissions may vary depending on differences in fuel type between gasoline and diesel vehicles [103], the emissions contain all of the pollutants evaluated in our study (PM2.5, PM10, O3, CO, NOx, SO2, VOCs, and more) [104,105]. Hence, the studies where only the influence of one pollutant was assessed neglect the combined, synergistic effect of other pollutants. It is also important to note that numerous factors potentially influence placental function and increase SGA risk. Only in some studies was the OR adjusted, and this should be considered when interpreting the findings from those studies.
+4.4. NOx Exposure
+NOx contributes to oxidative stress by generating reactive oxygen species that can overpower the placenta’s natural antioxidant barriers, causing cellular and molecular harm. NOx exposure can cause inflammation in placental tissues, leading to functional damage and disrupting the exchange of nutrients and oxygen between the mother and fetus [106]. The inflammatory environment in the placenta can cause decreases in placental blood flow by constricting blood vessels and impairing endothelial function [107]. Furthermore, a discrepancy in the levels of NO and NO2 within blood vessels might lead to endothelial dysfunction, negatively impacting placental blood flow. The severity of these adverse outcomes depends on the level and duration of NOx exposure. These alterations could lead to SGA and TLBW [26,28,30,38,43,48,49,50,57,63,64,68,72,74,81,86].
+In the study by Mitku et al., the counterintuitive protective effect of exposure to NO2 was shown. The protective effect may result from simultaneous exposure to other environmental substances with a stronger protective impact, which conceals the negative effects of NO2 [24].
+4.5. SO2 Exposure
+There are few studies about the mechanism of SO2-induced changes in fetal weight [24,25,28,36,38,54,57,73,77,79,80,82,86,87]. It has been theorized that SO2 may cause changes in inflammatory factors in the blood, oxidative stress response, and deoxyribonucleic acid (DNA) methylation. Reactome pathway analysis showed that mainly NOTCH gene signalling was involved in genes associated with prenatal SO2 exposure [108].
+4.6. CO Exposure
+The fetotoxic effect of CO is associated with impaired cellular respiratory function. It irreversibly binds to the hemoproteins (cytochrome a-3 and myoglobin) that carry oxygen in the cell, leading to cellular respiration dysfunction. This results in mitochondrial degradation in CNS and heart cells, which require higher energy levels, cellular damage, and ultimately irreversible tissue damage. It also promotes the formation of oxygen-free radicals [109]. At the supracellular level, it prevents hemoglobin from delivering oxygen to tissues. The affinity of CO for hemoglobin is stronger in the fetus compared to children and adults. It is important to remember that fetal damage can occur even if the mother’s CO levels are not toxic [110], which could result in the appearance of SGA or TLBW [25,32,36,57,59,64,78,80,81,87,88,90].
+4.7. VOC Exposure
+Various potential processes have been proposed, including the impact of VOCs on developing fetuses, its influence on blood viscosity, and its effect on placental perfusion efficiency on the maternal side. Polycyclic aromatic hydrocarbons (PAHs) are believed to have a direct impact on fetal development and DNA transcription [29,111]. These air pollutants can impact maternal well-being by affecting the cardiovascular system and causing metabolic alterations. Consequently, there is a reduction in blood supply to the placenta, resulting in a higher occurrence of SGA [29,32,38,45,83,85,86,89]. Nevertheless, there was insufficient data to compare VOC substances in different populations, as each study analyzed a different molecule. Therefore, more studies are needed to compare these substances to other pollutants, such as PM2.5, PM10, SO2, O3, or NOx.
+4.8. Exposure at a Particular Time of Pregnancy
+Another important conclusion from the study is the association regarding exposure time. There appear to be specific windows during which the fetus is especially vulnerable or resistant to harmful substances, including air pollutants. Some studies have shown a positive association between SGA and exposure to harmful substances at any time during the pregnancy [25,26,30,37,76]. Other studies show a more significant influence in the first trimester, which is vital for organogenesis [26,34,40,57,63,64,72,76]. Nevertheless, it is believed that the influence in the first trimester has a binary effect on the pregnancy, either leading to a miscarriage or not leaving the pregnancy unaffected by any adverse consequences during pregnancy [26], as was shown by Bai et al. and Liu et al. in their meta-analyses assessing pregnancy outcomes including miscarriage [112,113]. The influence in the second and third trimesters may better reflect the influence of air pollutants on SGA as organogenesis is almost complete, and the fetus mainly grows during this period [25,31,33,37,43,49,59,64,72,76,81,87,88]. Compounds such as PM10 or PM2.5 can enter the bloodstream, accumulate in the fetal circulation, and cause oxidative stress. Chronic inflammation during pregnancy prevents the developing fetus from effectively utilizing nutrients to build reserves of adipose tissue, which is most intense in the third trimester.
+Another possible cause for SGA after exposure to pollutants in the second and third trimesters could be individually and collaboratively mediated by increases in maternal blood pressure and hemoglobin levels caused by PM2.5, PM10, or CO. Hence, monitoring and controlling the mother’s blood pressure and hemoglobin levels during prenatal care may lower the risk of SGA through gestational exposure to PM2.5 [33]. An additional analysis of fetal growth restriction, especially its early and late variants, could explain the influence of air pollutants during the second and third trimesters of pregnancy. The discrepancies observed in the analyzed studies regarding the timing and effect on the incidence of SGA after pollution exposure might arise due to exposure to different pollutants, varying concentrations, or socioeconomic differences. These factors should be included in further prospective studies and evaluated using multivariate regression models.
+4.9. Clinical Implementation and Further Research Directions
+This study emphasizes the pressing concern of air pollution in a broader context, extending beyond just greenhouse gases responsible for global climate change. Air pollutants, including SO2, PM10, PM2.5, O3, and NOx compounds, can negatively impact the maternal body and the developing fetus. Research has shown that being exposed to air pollution can alter placental DNA methylation, which may lead to disturbances in placental trophic function. This, in turn, can impede the delivery of nutrients to the developing fetus and obstruct the elimination of metabolic waste products from the fetal system [54].
+Comparing all air pollutants, it seems that PM2.5 has the most influence on SGA and TLBW occurrence, as the OR of these pollutants seems to be most associated with the evaluated pregnancy complications. Nevertheless, further investigation of separate components of PM should be performed to evaluate the substances that affect the fetuses most. This knowledge is relevant as this compound could be eliminated from our ecosystem or minimized in global production, thus improving maternal and fetal outcomes.
+The precise levels of heavy metals, a notable component of PM, have not been extensively examined in previous research. Prospective investigations are needed to measure these different components in particulate matter systematically and to comprehend their distinct impacts on air quality and potential perinatal complications, such as SGA or TLBW occurrence. This detailed method could result in a deeper comprehension of the risks linked to air pollution [114].
+4.10. Strength and Limitations
+To the best of our knowledge, this study is the latest and most comprehensive investigation of the effects of air pollution on the occurrence of SGA or TLBW infants. A particular strength of this review is the wide range of studies included and their number. The included research papers have evaluated the influence of exposure to different air pollutants on SGA or TLBW, with most being of moderate to high quality. The studies included in our analysis were mainly retrospective and did not account for specific molecular quantities in particulate matter, such as heavy metals. This exclusion is significant since typical pollution measurements often do not include such information. The lack of precise data highlights the necessity for a more detailed method of measuring pollution that can accurately quantify individual pollutant concentrations.
+Nevertheless, the study has its limitations. One limitation is the absence of a cohort entirely unexposed to air pollution. Unfortunately, such a cohort is impossible to find because pollution-free environments are rare. Therefore, our study compared the effects of pollution between groups experiencing the highest exposure and those with the lowest measured exposure. Such division accurately reflects the living conditions among different populations across continents, considering similar national, geographic, cultural, and social backgrounds. Our outcomes might have been affected by the uneven distribution of the study and control groups, especially in terms of air quality and related factors. The different criteria and possible bias of the various studies may be significant weaknesses. The study group might live in regions with more industrial activity and air pollution; however, they also have better access to advanced healthcare facilities and higher levels of public health awareness. This difference in comparison to the control group, who may live in less polluted areas with restricted access to modern fetal monitoring, could unintentionally impact the reported occurrence of SGA and TLBW because of varying standards of medical care. However, these differences seem to be similar in the included studies.
+Another limitation is the inability to monitor individual exposure precisely. The results of the included studies are based on estimating the level of air pollution based on the place of residence during pregnancy. The literature indicates that about one-quarter of pregnant women change their location during pregnancy [67]. One significant limitation was that the results were too heterogeneous to perform a meta-analysis. A notable oversight in several studies was that they failed to evaluate the confounding effect of maternal smoking, as smoke also contains several air pollutants that might influence SGA or TLBW rates. Finally, since it was effectively a combination of air pollutants that was assessed and its makeup changes based on location, assessing the influence of each pollutant proved challenging.
+5. Conclusions
+Air pollution is a real threat to the health of both the mother and the fetus. It is a global problem that is particularly pronounced in large urban areas. The ongoing industrialization and urbanization of society, especially in developing countries, will lead to the even greater exposure of pregnant women to air pollution, such as PM2.5, PM10, O3, NO2, CO, SO2, and other less-discovered pollutants. Patients in the high-risk group for SGA living in large cities and residing close to sources of pollution increase their risk of pregnancy complications, postpartum complications, and developmental issues. Relocating to less polluted environments can reduce the risk of SGA and may benefit the mother and the fetus. The nature, magnitude, and timing of pollutant exposure influence pregnancy outcomes. Understanding the detailed mechanisms of the effect of air pollution during pregnancy and identifying the most vulnerable windows during pregnancy require further research. Clarifying the exact exposure–time association will improve SGA prevention, especially in high-risk pregnancies. Using standardized exposure criteria and methods for individual assessments of exposure to air pollutants will improve our understanding of this pressing issue, one of the biggest challenges of our times.
+There is a strong need to objectify individual exposure to pollutants, which can be achieved by prospective cohort studies and measurement of personal exposure or blood biomarkers. Systematizing exposures will allow better characterization of the association between air pollution and adverse birth outcomes.
+However, it is essential to note that finding a place on Earth unaffected by air pollution is almost impossible. Thus, humans must adapt to escalating environmental pollution or undertake significant steps to stop the pollution of the Earth.
+Supplementary Materials
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/healthcare12121176/s1, Supplementary Table S1: PRISMA checklist; Supplementary Table S2: Newcastle–Ottawa risk bias score of the included studies.
+Author Contributions
+Conceptualization, A.S. and S.F.; methodology, B.G. and S.F.; formal analysis, Z.G. and M.D.; investigation, A.B. and M.R.; resources, J.M. and M.P.; data curation—Z.G.; writing—original draft preparation, B.G., S.F., A.B., M.R., M.P. and J.M.; writing—review and editing, L.S., Z.G., A.O. and A.S.; supervision, A.S.; project administration, A.O. All authors have read and agreed to the published version of the manuscript.
+Funding
+This research received no external funding.
+Institutional Review Board Statement
+Not applicable.
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+Not applicable.
+Conflicts of Interest
+Author Lukasz Szarpak and Michal Pruc were employed by the company Lux Med. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+References
+Kajdy, A.; Feduniw, S.; Modzelewski, J.; Sys, D.; Filipecka-Tyczka, D.; Muzyka-Placzyńska, K.; Kiczmer, P.; Grabowski, B.; Rabijewski, M. Growth Abnormalities as a Risk Factor of Adverse Neonatal Outcome in Hypertensive Pregnancies—A Single-Center Retrospective Cohort Study. Children 2021, 8, 522. [Google Scholar] [CrossRef] [PubMed]
+Beune, I.M.; Bloomfield, F.H.; Ganzevoort, W.; Embleton, N.D.; Rozance, P.J.; van Wassenaer-Leemhuis, A.G.; Wynia, K.; Gordijn, S.J. Consensus Based Definition of Growth Restriction in the Newborn. J. Pediatr. 2018, 196, 71–76.e1. [Google Scholar] [CrossRef] [PubMed]
+Kajdy, A.; Sys, D.; Modzelewski, J.; Bogusławska, J.; Cymbaluk-Płoska, A.; Kwiatkowska, E.; Bednarek-Jędrzejek, M.; Borowski, D.; Stefańska, K.; Rabijewski, M.; et al. Evidence of Placental Aging in Late SGA, Fetal Growth Restriction and Stillbirth—A Systematic Review. Biomedicines 2023, 11, 1785. [Google Scholar] [CrossRef] [PubMed]
+Figueras, F.; Gratacós, E. Update on the Diagnosis and Classification of Fetal Growth Restriction and Proposal of a Stage-Based Management Protocol. Fetal Diagn. Ther. 2014, 36, 86–98. [Google Scholar] [CrossRef] [PubMed]
+Kajdy, A.; Modzelewski, J.; Jakubiak, M.; Pokropek, A.; Rabijewski, M. Effect of Antenatal Detection of Small-for-Gestational-Age Newborns in a Risk Stratified Retrospective Cohort. PLoS ONE 2019, 14, e0224553. [Google Scholar] [CrossRef] [PubMed]
+American College of Obstetricians and Gynecologists. Practice Bulletin No. 134. Obstet. Gynecol. 2013, 121, 1122–1133. [Google Scholar] [CrossRef]
+Lausman, A.; Kingdom, J.; Gagnon, R.; Basso, M.; Bos, H.; Crane, J.; Davies, G.; Delisle, M.F.; Hudon, L.; Menticoglou, S.; et al. Intrauterine Growth Restriction: Screening, Diagnosis, And Management. J. Obstet. Gynaecol. Can. 2013, 35, 741–748. [Google Scholar] [CrossRef]
+Kajdy, A.; Modzelewski, J.; Cymbaluk-Płoska, A.; Kwiatkowska, E.; Bednarek-Jędrzejek, M.; Borowski, D.; Stefańska, K.; Rabijewski, M.; Torbé, A.; Kwiatkowski, S. Molecular Pathways of Cellular Senescence and Placental Aging in Late Fetal Growth Restriction and Stillbirth. Int. J. Mol. Sci. 2021, 22, 4186. [Google Scholar] [CrossRef]
+Zhang, Q.; Zhang, Z.C.; He, X.Y.; Liu, Z.M.; Wei, G.H.; Liu, X. Maternal Smoking during Pregnancy and the Risk of Congenital Urogenital Malformations: A Systematic Review and Meta-Analysis. Front. Pediatr. 2022, 10, 973016. [Google Scholar] [CrossRef]
+Akter, S.; Islam, M.R.; Rahman, M.M.; Rouyard, T.; Nsashiyi, R.S.; Hossain, F.; Nakamura, R. Evaluation of Population-Level Tobacco Control Interventions and Health Outcomes: A Systematic Review and Meta-Analysis. JAMA Netw. Open 2023, 6, e2322341. [Google Scholar] [CrossRef]
+Athanasiadou, K.I.; Paschou, S.A.; Papakonstantinou, E.; Vasileiou, V.; Kanouta, F.; Kazakou, P.; Stefanaki, K.; Kassi, G.N.; Psaltopoulou, T.; Goulis, D.G.; et al. Smoking during Pregnancy and Gestational Diabetes Mellitus: A Systematic Review and Meta-Analysis. Endocrine 2023, 82, 250–262. [Google Scholar] [CrossRef] [PubMed]
+Health Effects Institute. Institute for Health Metrics and Evaluation’s Global Burden of Desease Project State of Global Air 2020. Available online: https://www.stateofglobalair.org/resources (accessed on 14 June 2023).
+WHO. WHO Global Air Quality Guidelines: Particulate Matter (PM2.5 and PM10), Ozone, Nitrogen Dioxide, Sulfur Dioxide and Carbon Monoxide; WHO: Geneva, Switzerland, 2021; ISBN 9789812837134. [Google Scholar]
+Rehman, A.; Liu, G.; Yousaf, B.; Ijaz, S.; Irshad, S.; Cheema, A.I.; Riaz, M.U.; Ashraf, A. Spectroscopic Fingerprinting, Pollution Characterization, and Health Risk Assessment of Potentially Toxic Metals from Urban Particulate Matter. Environ. Sci. Pollut. Res. Int. 2023, 30, 92842–92858. [Google Scholar] [CrossRef] [PubMed]
+Nyadanu, S.D.; Dunne, J.; Tessema, G.A.; Mullins, B.; Kumi-Boateng, B.; Lee Bell, M.; Duko, B.; Pereira, G. Prenatal Exposure to Ambient Air Pollution and Adverse Birth Outcomes: An Umbrella Review of 36 Systematic Reviews and Meta-Analyses. Environ. Pollut. 2022, 306, 119465. [Google Scholar] [CrossRef] [PubMed]
+Song, S.; Gao, Z.; Zhang, X.; Zhao, X.; Chang, H.; Zhang, J.; Yu, Z.; Huang, C.; Zhang, H. Ambient Fine Particulate Matter and Pregnancy Outcomes: An Umbrella Review. Environ. Res. 2023, 235, 116652. [Google Scholar] [CrossRef] [PubMed]
+Shah, P.S.; Balkhair, T.; Knowledge Synthesis Group on Determinants of Preterm/LBW Births. Air Pollution and Birth Outcomes: A Systematic Review. Environ. Int. 2011, 37, 498–516. [Google Scholar] [CrossRef] [PubMed]
+Simoncic, V.; Enaux, C.; Deguen, S.; Kihal-Talantikite, W. Adverse Birth Outcomes Related to NO2 and PM Exposure: European Systematic Review and Meta-Analysis. Int. J. Environ. Res. Public Health 2020, 17, 8116. [Google Scholar] [CrossRef]
+Luo, M.; Liu, T.; Ma, C.; Fang, J.; Zhao, Z.; Wen, Y.; Xia, Y.; Zhao, Y.; Ji, C. Household Polluting Cooking Fuels and Adverse Birth Outcomes: An Updated Systematic Review and Meta-Analysis. Front. Public Health 2023, 11, 978556. [Google Scholar] [CrossRef] [PubMed]
+Page, M.J.; McKenzie, J.E.; Bossuyt, P.M.; Boutron, I.; Hoffmann, T.C.; Mulrow, C.D.; Shamseer, L.; Tetzlaff, J.M.; Akl, E.A.; Brennan, S.E.; et al. The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews. BMJ 2021, 372, n71. [Google Scholar] [CrossRef] [PubMed]
+Wells, G.; Shea, B.; O’Connell, D.; Peterson, J.; Welch, V.; Losos, M.; Tugwell, P. The Newcastle-Ottawa Scale (NOS) for Assessing the Quality of Nonrandomised Studies in Meta-Analyses. Available online: https://www.ohri.ca/programs/clinical_epidemiology/oxford.asp (accessed on 28 May 2024).
+Canto, M.V.; Guxens, M.; García-Altés, A.; López, M.J.; Marí-Dell’Olmo, M.; García-Pérez, J.; Ramis, R. Air Pollution and Birth Outcomes: Health Impact and Economic Value Assessment in Spain. Int. J. Environ. Res. Public Health 2023, 20, 2290. [Google Scholar] [CrossRef]
+Chen, X.; Chen, S.; Zhu, Z.; Luo, J.; Wang, H.; Wulayin, M.; Huang, C.; Zhao, W.; Wang, Q. Identifying the Critical Windows and Joint Effects of Temperature and PM2.5 Exposure on Small for Gestational Age. Environ. Int. 2023, 173, 107832. [Google Scholar] [CrossRef]
+Mitku, A.A.; Zewotir, T.; North, D.; Jeena, P.; Asharam, K.; Muttoo, S.; Tularam, H.; Naidoo, R.N. Impact of Ambient Air Pollution Exposure during Pregnancy on Adverse Birth Outcomes: Generalized Structural Equation Modeling Approach. BMC Public Health 2023, 23, 45. [Google Scholar] [CrossRef] [PubMed]
+Zhang, F.; Zhang, X.X.; Zhong, Y.; Zhu, S.; Zhao, G.; Zhang, X.X.; Li, T.; Zhang, Y.; Zhu, W. Joint Exposure to Ambient Air Pollutants Might Elevate the Risk of Small for Gestational Age (SGA) Infants in Wuhan: Evidence From a Cross-Sectional Study. Int. J. Public Health 2023, 67, 1605391. [Google Scholar] [CrossRef] [PubMed]
+Zhou, W.; Ming, X.; Yang, Y.; Hu, Y.; He, Z.; Chen, H.; Li, Y.; Cheng, J.; Zhou, X. Associations between Maternal Exposure to Ambient Air Pollution and Very Low Birth Weight: A Birth Cohort Study in Chongqing, China. Front. Public Health 2023, 11, 1123594. [Google Scholar] [CrossRef] [PubMed]
+Ahmad, W.A.; Nirel, R.; Golan, R.; Jolles, M.; Kloog, I.; Rotem, R.; Negev, M.; Koren, G.; Levine, H. Mother-Level Random Effect in the Association between PM2.5 and Fetal Growth: A Population-Based Pregnancy Cohort. Environ. Res. 2022, 210, 112974. [Google Scholar] [CrossRef] [PubMed]
+Gan, Q.; Ye, W.; Zhao, X.; Teng, Y.; Mei, S.; Long, Y.; Ma, J.; Rehemutula, R.; Zhang, X.; Zeng, F.; et al. Mediating Effects of Gut Microbiota in the Associations of Air Pollutants Exposure with Adverse Pregnancy Outcomes. Ecotoxicol. Environ. Saf. 2022, 234, 113371. [Google Scholar] [CrossRef] [PubMed]
+Gong, X.; Zhan, F.B. A Method for Identifying Critical Time Windows of Maternal Air Pollution Exposures Associated with Low Birth Weight in Offspring Using Massive Geographic Data. Environ. Sci. Pollut. Res. 2022, 29, 33345–33360. [Google Scholar] [CrossRef] [PubMed]
+Huang, H.J.; Yu, Q.Y.; Zheng, T.; Wang, S.S.; Yang, X.J. Associations between Seasonal Ambient Air Pollution and Adverse Perinatal Outcomes: A Retrospective Cohort Study in Wenzhou, China. Environ. Sci. Pollut. Res. 2022, 29, 59903–59914. [Google Scholar] [CrossRef] [PubMed]
+Rodríguez-Fernández, A.; Ramos-Castillo, N.; Ruiz-De la Fuente, M.; Parra-Flores, J.; Maury-Sintjago, E. Association of Prematurity and Low Birth Weight with Gestational Exposure to PM2.5 and PM10 Particulate Matter in Chileans Newborns. Int. J. Environ. Res. Public Health 2022, 19, 6133. [Google Scholar] [CrossRef] [PubMed]
+Shen, Y.; Wang, C.; Yu, G.; Meng, X.; Wang, W.; Kan, H.; Zhang, J.; Cai, J. Associations of Ambient Fine Particulate Matter and Its Chemical Constituents with Birth Weight for Gestational Age in China: A Nationwide Survey. Environ. Sci. Technol. 2022, 56, 8406–8415. [Google Scholar] [CrossRef]
+Zhu, Z.; Hu, H.; Benmarhnia, T.; Ren, Z.; Luo, J.; Zhao, W.; Chen, S.; Wu, K.; Zhang, X.; Wang, L.; et al. Gestational PM2.5 Exposure May Increase the Risk of Small for Gestational Age through Maternal Blood Pressure and Hemoglobin: A Mediation Analysis Based on a Prospective Cohort in China, 2014–2018. Ecotoxicol. Environ. Saf. 2022, 242, 113836. [Google Scholar] [CrossRef]
+Chen, J.; Li, P.H.; Fan, H.; Li, C.; Zhang, Y.; Ju, D.; Deng, F.; Guo, X.; Guo, L.; Wu, S. Weekly-Specific Ambient Fine Particular Matter Exposures before and during Pregnancy Were Associated with Risks of Small for Gestational Age and Large for Gestational Age: Results from Project ELEFANT. Int. J. Epidemiol. 2022, 51, 202–212. [Google Scholar] [CrossRef] [PubMed]
+Chen, Y.; Hodgson, S.; Gulliver, J.; Granell, R.; Henderson, A.J.; Cai, Y.; Hansell, A.L. Trimester Effects of Source-Specific PM10 on Birth Weight Outcomes in the Avon Longitudinal Study of Parents and Children (ALSPAC). Environ. Health Glob. Access Sci. Source 2021, 20, 4. [Google Scholar] [CrossRef] [PubMed]
+Shang, L.; Huang, L.; Yang, L.; Leng, L.; Qi, C.; Xie, G.; Wang, R.; Guo, L.; Yang, W.; Chung, M.C. Impact of Air Pollution Exposure during Various Periods of Pregnancy on Term Birth Weight: A Large-Sample, Retrospective Population-Based Cohort Study. Environ. Sci. Pollut. Res. 2021, 28, 3296–3306. [Google Scholar] [CrossRef] [PubMed]
+Wang, Q.; Miao, H.; Warren, J.L.; Ren, M.; Benmarhnia, T.; Knibbs, L.D.; Zhang, H.; Zhao, Q.; Huang, C. Association of Maternal Ozone Exposure with Term Low Birth Weight and Susceptible Window Identification. Environ. Int. 2021, 146, 106208. [Google Scholar] [CrossRef] [PubMed]
+Bergstra, A.D.; Brunekreef, B.; Burdorf, A. The Influence of Industry-Related Air Pollution on Birth Outcomes in an Industrialized Area. Environ. Pollut. 2021, 269, 115741. [Google Scholar] [CrossRef] [PubMed]
+Wojtyla, C.; Zielinska, K.; Wojtyla-Buciora, P.; Panek, G. Prenatal Fine Particulate Matter (PM2.5) Exposure and Pregnancy Outcomes—Analysis of Term Pregnancies in Poland. Int. J. Environ. Res. Public Health 2020, 17, 5820. [Google Scholar] [CrossRef] [PubMed]
+Tapia, V.L.; Vasquez, B.V.; Vu, B.; Liu, Y.; Steenland, K.; Gonzales, G.F. Association between Maternal Exposure to Particulate Matter (PM2.5) and Adverse Pregnancy Outcomes in Lima, Peru. J. Expo. Sci. Environ. Epidemiol. 2020, 30, 689–697. [Google Scholar] [CrossRef] [PubMed]
+Enders, C.; Pearson, D.; Harley, K.; Ebisu, K. Exposure to Coarse Particulate Matter during Gestation and Term Low Birthweight in California: Variation in Exposure and Risk across Region and Socioeconomic Subgroup. Sci. Total Environ. 2019, 653, 1435–1444. [Google Scholar] [CrossRef] [PubMed]
+Kim, Y.J.; Song, I.G.; Kim, K.N.; Kim, M.S.; Chung, S.H.; Choi, Y.S.; Bae, C.W. Maternal Exposure to Particulate Matter during Pregnancy and Adverse Birth Outcomes in the Republic of Korea. Int. J. Environ. Res. Public Health 2019, 16, 633. [Google Scholar] [CrossRef]
+Nobles, C.J.; Grantz, K.L.; Liu, D.; Williams, A.; Ouidir, M.; Seeni, I.; Sherman, S.; Mendola, P. Ambient Air Pollution and Fetal Growth Restriction: Physician Diagnosis of Fetal Growth Restriction versus Population-Based Small-for-Gestational Age. Sci. Total Environ. 2019, 650, 2641–2647. [Google Scholar] [CrossRef]
+Percy, Z.; DeFranco, E.; Xu, F.; Hall, E.S.; Haynes, E.N.; Jones, D.; Muglia, L.J.; Chen, A. Trimester Specific PM2.5 Exposure and Fetal Growth in Ohio, 2007–2010. Environ. Res. 2019, 171, 111–118. [Google Scholar] [CrossRef] [PubMed]
+Gong, X.; Lin, Y.; Bell, M.L.; Zhan, F.B. Associations between Maternal Residential Proximity to Air Emissions from Industrial Facilities and Low Birth Weight in Texas, USA. Environ. Int. 2018, 120, 181–198. [Google Scholar] [CrossRef]
+Wu, H.; Jiang, B.; Geng, X.; Zhu, P.; Liu, Z.; Cui, L.; Yang, L. Exposure to Fine Particulate Matter during Pregnancy and Risk of Term Low Birth Weight in Jinan, China, 2014–2016. Int. J. Hyg. Environ. Health 2018, 221, 183–190. [Google Scholar] [CrossRef] [PubMed]
+Fernando Costa Nascimento, L.; Blanco Machin, A.; Antonio Almeida Dos Santos, D. Existem Diferenças No Peso Ao Nascer de Acordo Com Sexo e Associações Com Exposição Materna a Poluentes Do Ar? Estudo de Coorte. Sao Paulo Med. J. 2017, 135, 347–354. [Google Scholar] [CrossRef]
+Dedele, A.; Grazuleviciene, R.; Miskinyte, A. Individual Exposure to Nitrogen Dioxide and Adverse Pregnancy Outcomes in Kaunas Study. Int. J. Environ. Health Res. 2017, 27, 230–240. [Google Scholar] [CrossRef]
+Capobussi, M.; Tettamanti, R.; Marcolin, L.; Piovesan, L.; Bronzin, S.; Gattoni, M.E.; Polloni, I.; Sabatino, G.; Tersalvi, C.A.; Auxilia, F.; et al. Air Pollution Impact on Pregnancy Outcomes in Como, Italy. J. Occup. Environ. Med. 2016, 58, 47–52. [Google Scholar] [CrossRef]
+Stieb, D.M.; Chen, L.; Hystad, P.; Beckerman, B.S.; Jerrett, M.; Tjepkema, M.; Crouse, D.L.; Omariba, D.W.; Peters, P.A.; van Donkelaar, A.; et al. A National Study of the Association between Traffic-Related Air Pollution and Adverse Pregnancy Outcomes in Canada, 1999–2008. Environ. Res. 2016, 148, 513–526. [Google Scholar] [CrossRef]
+Stieb, D.M.; Chen, L.; Beckerman, B.S.; Jerrett, M.; Crouse, D.L.; Omariba, D.W.R.; Peters, P.A.; Van Donkelaar, A.; Martin, R.V.; Burnett, R.T.; et al. Associations of Pregnancy Outcomes and PM2.5 in a National Canadian Study. Environ. Health Perspect. 2016, 124, 243–249. [Google Scholar] [CrossRef] [PubMed]
+Lavigne, E.; Yasseen, A.S.; Stieb, D.M.; Hystad, P.; van Donkelaar, A.; Martin, R.V.; Brook, J.R.; Crouse, D.L.; Burnett, R.T.; Chen, H.; et al. Ambient Air Pollution and Adverse Birth Outcomes: Differences by Maternal Comorbidities. Environ. Res. 2016, 148, 457–466. [Google Scholar] [CrossRef]
+Brown, J.M.; Harris, G.; Pantea, C.; Hwang, S.A.; Talbot, T.O. Linking Air Pollution Data and Adverse Birth Outcomes: Environmental Public Health Tracking in New York State. J. Public Health Manag. Pract. 2015, 21, S68–S74. [Google Scholar] [CrossRef]
+Poirier, A.; Dodds, L.; Dummer, T.; Rainham, D.; Maguire, B.; Johnson, M. Maternal Exposure to Air Pollution and Adverse Birth Outcomes in Halifax, Nova Scotia. J. Occup. Environ. Med. 2015, 57, 1291–1298. [Google Scholar] [CrossRef] [PubMed]
+Twum, C.; Zhu, J.; Wei, Y. Maternal Exposure to Ambient PM2.5 and Term Low Birthweight in the State of Georgia. Int. J. Environ. Health Res. 2015, 26, 92–100. [Google Scholar] [CrossRef] [PubMed]
+Habermann, M.; Gouveia, N. Socioeconomic Position and Low Birth Weight among Mothers Exposed to Traffic-Related Air Pollution. PLoS ONE 2014, 9, e113900. [Google Scholar] [CrossRef] [PubMed]
+Hannam, K.; McNamee, R.; Baker, P.; Sibley, C.; Agius, R. Air Pollution Exposure and Adverse Pregnancy Outcomes in a Large UK Birth Cohort: Use of a Novel Spatio-Temporal Modelling Technique. Scand. J. Work Environ. Health 2014, 40, 518–530. [Google Scholar] [CrossRef] [PubMed]
+Vinikoor-Imler, L.C.; Davis, J.A.; Meyer, R.E.; Messer, L.C.; Luben, T.J. Associations between Prenatal Exposure to Air Pollution, Small for Gestational Age, and Term Low Birthweight in a State-Wide Birth Cohort. Environ. Res. 2014, 132, 132–139. [Google Scholar] [CrossRef] [PubMed]
+da Silva, A.M.C.; Moi, G.P.; Mattos, I.E.; de Souza Hacon, S. Low Birth Weight at Term and the Presence of Fine Particulate Matter and Carbon Monoxide in the Brazilian Amazon: A Population-Based Retrospective Cohort Study. BMC Pregnancy Childbirth 2014, 14, 309. [Google Scholar] [CrossRef]
+Hyder, A.; Lee, H.J.; Ebisu, K.; Koutrakis, P.; Belanger, K.; Bell, M.L. PM2.5 Exposure and Birth Outcomes. Use of Satellite- and Monitor-Based Data. Epidemiology 2014, 25, 58–67. [Google Scholar] [CrossRef] [PubMed]
+Candela, S.; Ranzi, A.; Bonvicini, L.; Baldacchini, F.; Marzaroli, P.; Evangelista, A.; Luberto, F.; Carretta, E.; Angelini, P.; Sterrantino, A.F.; et al. Air Pollution from Incinerators and Reproductive Outcomes: A Multisite Study. Epidemiology 2013, 24, 863–870. [Google Scholar] [CrossRef] [PubMed]
+Olsson, D.; Mogren, I.; Forsberg, B. Air Pollution Exposure in Early Pregnancy and Adverse Pregnancy Outcomes: A Register-Based Cohort Study. BMJ. Open 2013, 3, e001955. [Google Scholar] [CrossRef]
+Sathyanarayana, S.; Zhou, C.; Rudra, C.B.; Gould, T.; Larson, T.; Koenig, J.; Karr, C.J. Prenatal Ambient Air Pollution Exposure and Small for Gestational Age Birth in the Puget Sound Air Basin. Air Qual. Atmos. Health 2013, 6, 455–463. [Google Scholar] [CrossRef]
+Le, H.Q.; Batterman, S.A.; Wirth, J.J.; Wahl, R.L.; Hoggatt, K.J.; Sadeghnejad, A.; Hultin, M.L.; Depa, M. Air Pollutant Exposure and Preterm and Term Small-for-Gestational-Age Births in Detroit, Michigan: Long-Term Trends and Associations. Environ. Int. 2012, 44, 7–17. [Google Scholar] [CrossRef] [PubMed]
+van den Hooven, E.H.; Pierik, F.H.; de Kluizenaar, Y.; Willemsen, S.P.; Hofman, A.; van Ratingen, S.W.; Zandveld, P.Y.J.; Mackenbach, J.P.; Steegers, E.A.P.; Miedema, H.M.E.; et al. Air Pollution Exposure during Pregnancy, Ultrasound Measures of Fetal Growth, and Adverse Birth Outcomes: A Prospective Cohort Study. Environ. Health Perspect. 2012, 120, 150–156. [Google Scholar] [CrossRef] [PubMed]
+Salihu, H.M.; August, E.M.; Mbah, A.K.; Alio, A.P.; De Cuba, R.; Jaward, F.M.; Berry, E. Lo Effectiveness of a Federal Healthy Start Program in Reducing the Impact of Particulate Air Pollutants on Feto-Infant Morbidity Outcomes. Matern. Child Health J. 2012, 16, 1602–1611. [Google Scholar] [CrossRef] [PubMed]
+Salihu, H.M.; Ghaji, N.; Mbah, A.K.; Alio, A.P.; August, E.M.; Boubakari, I. Particulate Pollutants and Racial/Ethnic Disparity in Feto-Infant Morbidity Outcomes. Matern. Child Health J. 2012, 16, 1679–1687. [Google Scholar] [CrossRef] [PubMed]
+Malmqvist, E.; Rignell-Hydbom, A.; Tinnerberg, H.; Björk, J.; Stroh, E.; Jakobsson, K.; Rittner, R.; Rylander, L. Maternal Exposure to Air Pollution and Birth Outcomes. Environ. Health Perspect. 2011, 119, 553–558. [Google Scholar] [CrossRef] [PubMed]
+Kashima, S.; Naruse, H.; Yorifuji, T.; Ohki, S.; Murakoshi, T.; Takao, S.; Tsuda, T.; Doi, H. Residential Proximity to Heavy Traffic and Birth Weight in Shizuoka, Japan. Environ. Res. 2011, 111, 377–387. [Google Scholar] [CrossRef] [PubMed]
+Gehring, U.; Van Eijsden, M.; Dijkema, M.B.A.; Van Der Wal, M.F.; Fischer, P.; Brunekreef, B. Traffic-Related Air Pollution and Pregnancy Outcomes in the Dutch ABCD Birth Cohort Study. Occup. Environ. Med. 2011, 68, 36–43. [Google Scholar] [CrossRef]
+Madsen, C.; Gehring, U.; Erik Walker, S.; Brunekreef, B.; Stigum, H.; Næss, Ø.; Nafstad, P. Ambient Air Pollution Exposure, Residential Mobility and Term Birth Weight in Oslo, Norway. Environ. Res. 2010, 110, 363–371. [Google Scholar] [CrossRef]
+Ballester, F.; Estarlich, M.; Iñiguez, C.; Llop, S.; Ramón, R.; Esplugues, A.; Lacasaña, M.; Rebagliato, M. Air Pollution Exposure during Pregnancy and Reduced Birth Size: A Prospective Birth Cohort Study in Valencia, Spain. Environ. Health A Glob. Access Sci. Source 2010, 9, 14–16. [Google Scholar] [CrossRef]
+Nascimento, L.F.C.; Moreira, D.A. Are Environmental Pollutants Risk Factors for Low Birth Weight? TT—Os Poluentes Ambientais São Fatores de Risco Para o Baixo Peso Ao Nascer? Cad. Saude Publica 2009, 25, 1791–1796. [Google Scholar] [CrossRef]
+Brauer, M.; Lencar, C.; Tamburic, L.; Koehoorn, M.; Demers, P.; Karr, C. A Cohort Study of Traffic-Related Air Pollution Impacts on Birth Outcomes. Environ. Health Perspect. 2008, 116, 680–686. [Google Scholar] [CrossRef] [PubMed]
+Hansen, C.; Neller, A.; Williams, G.; Simpson, R. Low Levels of Ambient Air Pollution during Pregnancy and Fetal Growth among Term Neonates in Brisbane, Australia. Environ. Res. 2007, 103, 383–389. [Google Scholar] [CrossRef] [PubMed]
+Kim, O.J.; Ha, E.H.; Kim, B.M.; Seo, J.H.; Park, H.S.; Jung, W.J.; Lee, B.E.; Suh, Y.J.; Kim, Y.J.; Lee, J.T.; et al. PM10 and Pregnancy Outcomes: A Hospital-Based Cohort Study of Pregnant Women in Seoul. J. Occup. Environ. Med. 2007, 49, 1394–1402. [Google Scholar] [CrossRef] [PubMed]
+Dugandzic, R.; Dodds, L.; Stieb, D.; Smith-Doiron, M. The Association between Low Level Exposures to Ambient Air Pollution and Term Low Birth Weight: A Retrospective Cohort Study. Environ. Health A Glob. Access Sci. Source 2006, 5, 1–8. [Google Scholar] [CrossRef] [PubMed]
+Wilhelm, M.; Ritz, B. Local Variations in CO and Particulate Air Pollution and Adverse Birth Outcomes in Los Angeles County, California, USA. Environ. Health Perspect. 2005, 113, 1212–1221. [Google Scholar] [CrossRef] [PubMed]
+Lin, C.M.; Li, C.Y.; Mao, I.F. Increased Risks of Term Low-Birth-Weight Infants in a Petrochemical Industrial City with High Air Pollution Levels. Arch. Environ. Health 2004, 59, 663–668. [Google Scholar] [CrossRef] [PubMed]
+Lin, C.M.; Li, C.Y.; Yang, G.Y.; Mao, I.F. Association between Maternal Exposure to Elevated Ambient Sulfur Dioxide during Pregnancy and Term Low Birth Weight. Environ. Res. 2004, 96, 41–50. [Google Scholar] [CrossRef] [PubMed]
+Lee, B.E.; Ha, E.H.; Park, H.S.; Kim, Y.J.; Hong, Y.C.; Kim, H.; Lee, J.T. Exposure to Air Pollution during Different Gestational Phases Contributes to Risks of Low Birth Weight. Human Reprod. 2003, 18, 638–643. [Google Scholar] [CrossRef] [PubMed]
+Yang, C.Y.; Tseng, Y.T.; Chang, C.C. Effects of Air Pollution on Birth Weight among Children Born between 1995 and 1997 in Kaohsiung, Taiwan. J. Toxicol. Environ. Health Part A 2003, 66, 807–816. [Google Scholar] [CrossRef]
+Maroziene, L.; Grazuleviciene, R. Maternal Exposure to Low-Level Air Pollution and Pregnancy Outcomes: A Population-Based Study. Environ. Health 2002, 1, 6. [Google Scholar] [CrossRef]
+Chen, L.; Yang, W.; Jennison, B.L.; Goodrich, A.; Omaye, S.T. Air Pollution and Birth Weight in Northern Nevada, 1991–1999. Inhal. Toxicol. 2002, 14, 141–157. [Google Scholar] [CrossRef] [PubMed]
+Vassilev, Z.P.; Robson, M.G.; Klotz, J.B. Outdoor Exposure to Airborne Polycyclic Organic Matter and Adverse Reproductive Outcomes: A Pilot Study. Am. J. Ind. Med. 2001, 40, 255–262. [Google Scholar] [CrossRef] [PubMed]
+Lin, M.C.; Yu, H.S.; Tsai, S.S.; Cheng, B.H.; Hsu, T.Y.; Wu, T.N.; Yang, C.Y. Adverse Pregnancy Outcome in a Petrochemical Polluted Area in Taiwan. J. Toxicol. Environ. Health Part A 2001, 63, 565–574. [Google Scholar] [CrossRef] [PubMed]
+Maisonet, M.; Bush, T.J.; Correa, A.; Jaakkola, J.J.K. Relation between Ambient Air Pollution and Low Birth Weight in the Northeastern United States. Environ. Health Perspect. 2001, 109, 351–356. [Google Scholar] [CrossRef] [PubMed]
+Ritz, B.; Yu, F. The Effect of Ambient Carbon Monoxide on Low Birth Weight among Children Born in Southern California between 1989 and 1993. Environ. Health Perspect. 1999, 107, 17–25. [Google Scholar] [CrossRef] [PubMed]
+Gražulevičiené, R.; Dulskiené, V.; Vencloviené, J. Formaldehyde Exposure and Low Birth Weight Incidence. J. Occup. Health 1998, 40, 61–67. [Google Scholar] [CrossRef]
+Alderman, B.W.; Baron, A.E.; Savitz, D.A. Maternal Exposure to Neighborhood Carbon Monoxide and Risk of Low Infant Birth Weight. Public Health Rep. 1987, 102, 410–414. [Google Scholar] [PubMed]
+Ghio, A.J.; Kim, C.; Devlin, R.B. Concentrated Ambient Air Particles Induce Mild Pulmonary Inflammation in Healthy Human Volunteers. Am. J. Respir. Crit. Care Med. 1999, 162, 981–988. [Google Scholar] [CrossRef] [PubMed]
+Jiang, Y.; Van Nguyen, T.; Jin, J.; Yu, Z.N.; Song, C.H.; Chai, O.H. Bergapten Ameliorates Combined Allergic Rhinitis and Asthma Syndrome after PM2.5 Exposure by Balancing Treg/Th17 Expression and Suppressing STAT3 and MAPK Activation in a Mouse Model. Biomed. Pharmacother. 2023, 164, 114959. [Google Scholar] [CrossRef]
+Liu, J.; Chen, Y.; Liu, D.; Ye, F.; Sun, Q.; Huang, Q.; Dong, J.; Pei, T.; He, Y.; Zhang, Q. Prenatal Exposure to Particulate Matter and Term Low Birth Weight: Systematic Review and Meta-Analysis. Environ. Sci. Pollut. Res. Int. 2023, 30, 63335–63346. [Google Scholar] [CrossRef]
+Gangwar, R.S.; Bevan, G.H.; Palanivel, R.; Das, L.; Rajagopalan, S. Oxidative Stress Pathways of Air Pollution Mediated Toxicity: Recent Insights. Redox Biol. 2020, 34, 101545. [Google Scholar] [CrossRef] [PubMed]
+Checa, J.; Aran, J.M. Reactive Oxygen Species: Drivers of Physiological and Pathological Processes. J. Inflamm. Res. 2020, 13, 1057–1073. [Google Scholar] [CrossRef] [PubMed]
+Dick, C.A.J.; Singh, P.; Daniels, M.; Evansky, P.; Becker, S.; Gilmour, M.I. Murine Pulmonary Inflammatory Responses Following Instillation of Size-Fractionated Ambient Particulate Matter. J. Toxicol. Environ. Health A 2003, 66, 2193–2207. [Google Scholar] [CrossRef] [PubMed]
+Simkhovich, B.; Kleinman, M.T.; Kloner, R.A. Air Pollution and Cardiovascular Injury. Am. Coll. Cardiol. Found. 2008, 52, 719–726. [Google Scholar] [CrossRef]
+Bearblock, E.; Aiken, C.E.; Burton, G.J. Air Pollution and Pre-Eclampsia; Associations and Potential Mechanisms. Placenta 2021, 104, 188–194. [Google Scholar] [CrossRef] [PubMed]
+Kosinska-Kaczynska, K.; Malicka, E.; Szymusik, I.; Dera, N.; Pruc, M.; Feduniw, S.; Rafique, Z.; Szarpak, L. The sFlt-1/PlGF Ratio in Pregnant Patients Affected by COVID-19. J. Clin. Med. 2023, 12, 1059. [Google Scholar] [CrossRef]
+Hettfleisch, K.; Carvalho, M.A.; Hoshida, M.S.; Pastro, L.D.M.; Saldiva, S.R.D.M.; Vieira, S.E.; Francisco, R.P.V.; Saldiva, P.H.N.; Bernardes, L.S. Individual Exposure to Urban Air Pollution and Its Correlation with Placental Angiogenic Markers in the First Trimester of Pregnancy, in São Paulo, Brazil. Environ. Sci. Pollut. Res. Int. 2021, 28, 28658–28665. [Google Scholar] [CrossRef]
+Arsalane, K.; Gosset, P.; Vanhee, D.; Voisin, C.; Hamid, Q.; Tonnel, A.B.; Wallaert, B. Ozone Stimulates Synthesis of Inflammatory Cytokines by Alveolar Macrophages in Vitro. Am. J. Respir. Cell Mol. Biol. 1995, 13, 60–68. [Google Scholar] [CrossRef]
+Beckerman, B.; Jerrett, M.; Brook, J.R.; Verma, D.K.; Arain, M.A.; Finkelstein, M.M. Correlation of Nitrogen Dioxide with Other Traffic Pollutants near a Major Expressway. Atmos. Environ. 2008, 42, 275–290. [Google Scholar] [CrossRef]
+Gentner, D.R.; Jathar, S.H.; Gordon, T.D.; Bahreini, R.; Day, D.A.; El Haddad, I.; Hayes, P.L.; Pieber, S.M.; Platt, S.M.; De Gouw, J.; et al. Review of Urban Secondary Organic Aerosol Formation from Gasoline and Diesel Motor Vehicle Emissions. Environ. Sci. Technol. 2017, 51, 1074–1093. [Google Scholar] [CrossRef]
+Peitzmeier, C.; Loschke, C.; Wiedenhaus, H.; Klemm, O. Real-World Vehicle Emissions as Measured by in Situ Analysis of Exhaust Plumes. Environ. Sci. Pollut. Res. 2017, 24, 23279–23289. [Google Scholar] [CrossRef] [PubMed]
+Hata, H.; Okada, M.; Yanai, K.; Kugata, M.; Hoshi, J. Exhaust Emissions from Gasoline Vehicles after Parking Events Evaluated by Chassis Dynamometer Experiment and Chemical Kinetic Model of Three-Way Catalytic Converter. Sci. Total Environ. 2022, 848, 157578. [Google Scholar] [CrossRef] [PubMed]
+Mendoza-Ramirez, J.; Barraza-Villarreal, A.; Hernandez-Cadena, L.; de la Garza, O.H.; Sangrador, J.L.T.; Torres-Sanchez, L.E.; Cortez-Lugo, M.; Escamilla-Nuñez, C.; Sanin-Aguirre, L.H.; Romieu, I. Prenatal Exposure to Nitrogen Oxides and Its Association with Birth Weight in a Cohort of Mexican Newborns from Morelos, Mexico. Ann. Glob. Health 2018, 84, 274–280. [Google Scholar] [CrossRef] [PubMed]
+Cyr, A.R.; Huckaby, L.V.; Shiva, S.S.; Zuckerbraun, B.S. Nitric Oxide and Endothelial Dysfunction. Crit. Care Clin. 2020, 36, 307–321. [Google Scholar] [CrossRef] [PubMed]
+Choi, Y.-J.; Cho, J.; Hong, Y.-C.; Lee, D.; Moon, S.; Park, S.J.; Lee, K.; Shin, C.H.; Lee, Y.A.; Kim, B.-N.; et al. DNA Methylation Is Associated with Prenatal Exposure to Sulfur Dioxide and Childhood Attention-Deficit Hyperactivity Disorder Symptoms. Sci. Rep. 2023, 13, 3501. [Google Scholar] [CrossRef]
+Gozubuyuk, A.A.; Dag, H.; Kacar, A.; Karakurt, Y.; Arica, V. Epidemiology, Pathophysiology, Clinical Evaluation, and Treatment of Carbon Monoxide Poisoning in Child, Infant, and Fetus. North Clin. Istanb. 2017, 4, 100–107. [Google Scholar] [CrossRef] [PubMed]
+Chou, K.J.; Fisher, J.L.; Silver, E.J. Characteristics and Outcome of Children with Carbon Monoxide Poisoning with and without Smoke Exposure Referred for Hyperbaric Oxygen Therapy. Pediatr. Emerg. Care 2000, 16, 151–155. [Google Scholar] [CrossRef] [PubMed]
+Perera, F.P.; Jedrychowski, W.; Rauh, V.; Whyatt, R.M. Molecular Epidemiologic Research on the Effects of Environmental Pollutants on the Fetus. Environ. Health Perspect. 1999, 107, 451–460. [Google Scholar] [CrossRef]
+Liu, J.; Dai, Y.; Yuan, J.; Li, R.; Hu, Y.; Su, Y. Does Exposure to Air Pollution during Different Time Windows Affect Pregnancy Outcomes of in Vitro Fertilization Treatment? A Systematic Review and Meta-Analysis. Chemosphere 2023, 335, 139076. [Google Scholar] [CrossRef]
+Bai, W.; Li, Y.; Niu, Y.; Ding, Y.; Yu, X.; Zhu, B.; Duan, R.; Duan, H.; Kou, C.; Li, Y.; et al. Association between Ambient Air Pollution and Pregnancy Complications: A Systematic Review and Meta-Analysis of Cohort Studies. Environ. Res. 2020, 185, 109471. [Google Scholar] [CrossRef]
+Issah, I.; Duah, M.S.; Arko-Mensah, J.; Bawua, S.A.; Agyekum, T.P.; Fobil, J.N. Assessing the Combined Effect of Multiple Metal Exposures on Pregnancy and Birth Outcomes: Methodological Insights in Systematic Review Research. MethodsX 2024, 12, 102558. [Google Scholar] [CrossRef]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Grabowski, B.; Feduniw, S.; Orzel, A.; Drab, M.; Modzelewski, J.; Pruc, M.; Gaca, Z.; Szarpak, L.; Rabijewski, M.; Baran, A.; et al. Does Exposure to Ambient Air Pollution Affect Gestational Age and Newborn Weight?—A Systematic Review. Healthcare 2024, 12, 1176. https://doi.org/10.3390/healthcare12121176
+AMA Style
+Grabowski B, Feduniw S, Orzel A, Drab M, Modzelewski J, Pruc M, Gaca Z, Szarpak L, Rabijewski M, Baran A, et al. Does Exposure to Ambient Air Pollution Affect Gestational Age and Newborn Weight?—A Systematic Review. Healthcare. 2024; 12(12):1176. https://doi.org/10.3390/healthcare12121176
+Chicago/Turabian Style
+Grabowski, Bartlomiej, Stepan Feduniw, Anna Orzel, Marcin Drab, Jan Modzelewski, Michal Pruc, Zuzanna Gaca, Lukasz Szarpak, Michal Rabijewski, Arkadiusz Baran, and et al. 2024. "Does Exposure to Ambient Air Pollution Affect Gestational Age and Newborn Weight?—A Systematic Review" Healthcare 12, no. 12: 1176. https://doi.org/10.3390/healthcare12121176
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details here.
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views11. Jun16. Jun21. Jun26. Jun1. Jul6. Jul11. Jul16. Jul21. Jul0200400600800
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Healthcare, EISSN 2227-9032, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

@@ -1,0 +1,16 @@
+Here are five detailed paragraphs based on the provided scientific study:
+
+**Paragraph 1 - Introduction**
+Surface ozone (O3) is a critical air pollutant that poses significant challenges in urban environments. In Chaozhou, China, O3 pollution has become increasingly prominent, with an overall upward trend in ambient concentrations and frequent episodes exceeding air quality standards. To address this issue, it is essential to conduct an in-depth investigation into the temporal changes and spatial sources of O3. This study employs a novel combination of trend analysis and spatial source attribution techniques to evaluate the long-term dynamics of surface ozone in Chaozhou.
+
+**Paragraph 2 - Methods**
+The study used daily maximum 8 h moving average ozone (MDA8 O3) concentrations from 2014 to 2023, obtained from Qingyue Data. The Kolmogorov-Zurbenko (KZ) filter method was applied to decompose the MDA8 O3 time series into long-term, seasonal, and short-term components. Variance analysis was performed using ANOVA to examine the contribution of each component to the total variance of MDA8 O3. Additionally, percentile regression was used to analyze the temporal variation at different percentile levels of the MDA8 O3 concentration.
+
+**Paragraph 3 - Results**
+The analysis revealed a general long-term downward trend in MDA8 O3 values alongside notable monthly fluctuations, with peak concentrations typically occurring in October and April. The short-term component contributed 62.2% to the total variance of MDA8 O3, while the long-term fraction was relatively small. Trajectory cluster analysis identified the northeast air mass as the main transport air mass in Chaozhou during the study period, accounting for 39.1% of occurrences. PSCF results indicated potential high O3 sources from the northeast, especially in autumn.
+
+**Paragraph 4 - Discussion**
+The findings suggest that Chaozhou's elevated O3 levels are influenced by both regional transport from the northeast and local emissions. The short-term component plays a significant role in shaping the temporal dynamics of MDA8 O3. The results also highlight the effectiveness of air pollution control measures implemented in Chaozhou, which have led to a decline in MDA8 O3 concentrations across nearly all percentiles.
+
+**Paragraph 5 - Conclusion**
+In conclusion, this study provides valuable insights into the long-term dynamics and spatial sources of surface ozone in Chaozhou, China. The analysis reveals a complex relationship between regional transport and local emissions, highlighting the importance of considering both factors when developing effective O3 pollution mitigation strategies. The findings can inform targeted air quality management policies and improve ambient air quality in Chaozhou, ultimately benefiting public health and environmental sustainability.

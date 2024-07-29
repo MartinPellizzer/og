@@ -1,0 +1,538 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Earth Systems and Environment Article
+A Multivariate Geostatistical Framework to Assess the Spatio-Temporal Dynamics of Air Pollution and Land Surface Temperature in Bangladesh
+Original Article
+Open access
+Published: 23 June 2024
+(2024)
+Cite this article
+Download PDF
+You have full access to this
+open access
+article
+Earth Systems and Environment
+Aims and scope
+Submit manuscript
+Sk Nafiz Rahaman
+, Jake Nelson, Al Artat Bin Ali
+, Nishat Shermin, Narcisa G. Pricope
+, Abdulla Al Kafy, Md Shahaduzzaman Sabuj & Sharmin Sultana Toa 
+1023 Accesses
+Explore all metrics
+Abstract
+In the context of escalating urban heat dynamics, the effect of air pollutants on Land Surface Temperature (LST) is an urgent concern, especially in the Global South. These regions are experiencing rapid industrialization, leading to an increase in greenhouse gas concentrations. Although the heat-absorbing capacity of air pollutants is well-recognized, the spatiotemporal relationship between these pollutants and LST remains underexplored, particularly in densely populated and industrialized metropolitan areas. Moreover, studies examining multiple pollutants simultaneously to understand their cumulative impact on surface temperature anomalies are scarce. Our study addresses this research gap by developing a spatial–temporal framework using remote sensing data from Google Earth Engine (GEE). We assessed the levels of Nitrogen Dioxide (NO2), Carbon Monoxide (CO), Aerosol Optical Depth (AOD), Ozone (O3), Sulfur Dioxide (SO2), and Formaldehyde (HCHO) in Bangladesh. Utilizing Emerging Hotspot Analysis and Geographically Weighted Regression (GWR) and complementing these with Principal Component Analysis (PCA) to create a Pollutant Impact Index (PII), we provide a detailed understanding of pollutant's impact on LST. The results revealed a global R-squared value of 0.61 with maximum local R-squared value of 0.68. Over 30% of the areas studied exhibit high-high clusters for air pollutant coefficients, with notably alarming levels of NO2 and O3, affecting 48.53% and 54.67% of the area, respectively. The PCA underscored the significant role of these pollutants, with the first three principal components accounting for 75% of the variance. Notably, the spatial distribution of the PII across Bangladesh showed substantial regional variations. Urban areas, like Dhaka and Sylhet, exhibited much higher PII values compared to less industrialized regions. These insights highlight the need for targeted environmental strategies to mitigate the impact of air pollution on urban heat dynamics and public health. The study’s findings underscore the urgency of addressing these environmental challenges, particularly in rapidly developing areas of the Global South.
+Similar content being viewed by others
+Temporal dynamics of urban air pollutants and their correlation with associated meteorological parameters: an investigation in northern Indian cities
+Article 03 May 2024
+Assessing air quality dynamics in Punjab, Pakistan: Pre, during, and post COVID-19 lockdown and evaluating strategies for mitigating
+Article 19 June 2024
+Changes in air quality during and after large-scale social restriction periods in Jakarta city, Indonesia
+Article 26 July 2022
+1 Introduction
+The implementation of stricter pollution emission regulations by local governments and international organizations has resulted in a general decrease in pollutant concentrations worldwide (Baldasano et al. 2003). For example, recent global air quality studies conducted over the past decade reveal that noxious pollutants levels have been on the decline across most regions of the world (Venter et al. 2020). However, this decline does not hold true for all pollutants nor for all areas of the world (Lelieveld et al. 2015; Van Donkelaar et al. 2015). Concentrations of NO2 are routinely found to be at or near the safety threshold guidelines established by the World Health Organization (WHO) (WHO 2018). Particulate matter has also emerged as a critical environmental issue in Asia, with some areas experiencing concentrations in excess of 300 g/m3 (Gupta & Christopher 2009), far above the safety threshold. Furthermore, Ozone levels have consistently exceeded established guideline limits for many regions of the world, indicating that it remains a global problem of significant concern (EPA 2021; UNEP/WMO, 2011). Other studies have suggested that despite advancements in some regions (i.e. the Global North), developing nations and those with low average incomes (Global South) continue to experience comparatively high levels of air pollution (Brauer et al. 2016; Chowdhury et al. 2019; Shaddick et al. 2018). Moreover, as Global South countries continue to grow, there is a tendency for air pollution levels to increase further, thereby exacerbating the already dire situation (Baldasano et al. 2003; Mage et al. 1996). In fact, the Global South now accounts for roughly 80% of the world's population and has been marked by extensive urbanization, industrialization, and rampant deforestation (Bologna and Aquino 2020; Patinvoh and Taherzadeh 2019; United Nations 2019) which is associated with further degradation in air quality.
+In addition to respiratory and other health related issues associated with a decline in air quality (Domingo and Rovira 2020), there are other important implications related to the ambient environment. Specifically, increases in air pollution are associated with an increase in LST (Cao et al. 2016). Research indicates that urban aerosols or haze is one of the leading factors for this increase because it can substantially exacerbate the Urban Heat Island (UHI) effect. Haze contributes to an increase in nighttime surface temperature UHI by approximately 0.7 ± 0.3˚C (mean ± 1 standard error). Notably, this effect varies spatially and tends to intensify with seasonal changes in humidity and the associated AOD (Cao et al. 2016). The utilization of remote sensing data is particularly advantageous when it comes to monitoring AOD. For instance, Biswas et al. (2017) utilized remote sensing to reveal that the highest AOD concentrations in India are observed during the pre-monsoon season (March–May) that gradually diminishes in the post-monsoon period (October–November). Others have used remote sensing to evaluate a more explicit connection between the AOD and LST (He 2022; Islam et al. 2022; Z. Liu et al. 2020; Perone 2022; Wu et al. 2022).
+Increases in LST contribute to the UHI effect. The UHI effect is marked by elevated temperatures in metropolitan regions when contrasted with their rural counterparts. Given the relationship between air pollution and LST, the UHI effect can be partly attributed to the assimilation and preservation of heat by pollutants, including nitrogen oxides and particulate matter (Akbari et al. 2001; Kafy et al. 2022; Z. A. Rahaman et al. 2022a, b; Ruan et al. 2021), which work to alter the reflectance of the earth's surface and lead to changes in temperature (Bond et al. 2013). Moreover, studies have established that air pollution can exert a substantial influence on vegetation health which is an important urban heat regulator (Park et al. 2021). For example, Kumari et al. (2021) and others (Rahaman et al. 2023; Tian et al. 2020) have found that elevated levels of pollutants, such as ozone and sulfur dioxide, can harm vegetation and lead to fluctuations in surface temperatures.
+The interplay between LST and air pollutants' concentration, pivotal for urban and environmental planning, can be discerned through the lens of remote sensing data and statistical analysis. Leveraging correlation and regression analyses, researchers have shed light on this intricate relationship, advocating for the integration of more nuanced methods like GWR and PCA to refine predictions' precision and locality. Henderson et al. (2007) demonstrated the application of Land Use Regression (LUR) in predicting nitrogen oxides and fine particulate matter concentrations, employing GIS-generated variables to construct models with enhanced spatial resolution (Henderson et al. 2007). This methodology echoes through the work of Hoek et al. (2008), who underscored LUR models' efficacy in modeling pollutants like NO2 and PM2.5 and called for models that incorporate additional predictors, such as wind direction, to increase applicability across various locales (Hoek et al. 2008). Further, Mo et al. (2021) reviewed LST reconstruction methods, categorizing them and emphasizing the importance of validating reconstructed LST datasets, a crucial step for the practical application of remote sensing in environmental studies (Mo et al. 2021). Voogt and Oke (2003) discussed the application of thermal remote sensing in urban areas, particularly in assessing urban heat islands, yet observed a lag in advancing beyond qualitative descriptions to quantitative analysis, suggesting a potential for incorporating PCA for deeper insights (Voogt and Oke 2003). Steinle et al. (2013) pointed towards a paradigm shift towards using sensor technology for detailed spatial and temporal monitoring of pollutant concentrations, which could significantly benefit from advanced statistical techniques including PCA (Steinle et al. 2013). While these studies collectively highlight advanced statistical methods' potential, such as GWR and PCA, in enhancing our understanding of pollution patterns, a direct examination of PCA in creating a pollutant index was not identified, indicating a possible research gap or an area ripe for further exploration.
+The correlation between air pollution and LST, particularly in industrializing nations, is an area of growing global concern (Tan et al. 2010; Ahmed et al. 2023). Research has demonstrated a link between changes in land use, often due to industrialization, and intensification of UHI (L. Liu and Zhang 2011). The use of remote sensing data has also proven effective in assessing UHI, as exemplified by a study in Hong Kong (L. Liu and Zhang 2011). The potential exacerbation of worldwide global warming, due to the contribution of air pollutants to LST cannot be ignored, particularly given the prevalence of air pollution in many developing countries. To comprehensively evaluate the spatial–temporal connection of multiple air pollutants and LST, there is a pressing need for new spatial–temporal methods that leverage remote sensing data. Current research underscores the complex interplay between air pollutants, urban land use, and LST, but often falls short in capturing the nuanced dynamics over time and space due to limitations in traditional modeling approaches. For example, studies such as Weissert et al. (2019) and Zimmerman et al. (2020) have made significant strides in understanding pollution variability and the impact of local sources using low-cost sensors and land use regression models. However, these approaches may not fully exploit the potential of remote sensing data to capture the broader spatial extent and temporal variability of air quality and LST across diverse urban landscapes (Weissert et al. 2019; Zimmerman et al. 2020). The reliance on ground-level monitoring and local sensor networks, while invaluable for high-resolution local analysis, may not adequately represent the spatial heterogeneity and temporal patterns captured by satellite observations. This gap highlights the need to develop innovative methodologies that incorporate remote sensing data, enabling a more comprehensive understanding of how LST depends on air pollutants.
+Bangladesh, particularly its capital city, Dhaka, has been identified as one of the most polluted urban areas worldwide in terms of air quality (IQAir 2020; Salam et al. 2021; Zaman et al. 2021). A report by the World Bank indicates that from 2018 to 2021, Bangladesh ranked second highest in air pollution levels due in part to rapid urbanization, uncontrolled vehicular regulations, and deforestation (Begum and Hopke 2019; THE WORLD BANK 2022) that are responsible for high levels of PM2.5 from the combustion of fossil fuels (gasoline, oil, and diesel), as well as PM10 from the burning of wood. The precipitous rise in air pollution has exacerbated the UHI phenomenon (Kafy et al. 2020, 2021; Naim and Kafy 2021). Although there is considerable research examining the connection between air pollutants and LST in various regions of Bangladesh, focusing on either single or multiple pollutants, the spatial–temporal relationship between multiple air pollutants and LST at a national scale remains unexplored. This study aims to elucidate the relationship between air pollutants and LST of Bangladesh by employing cloud-based spatial–temporal remote sensing data at the national level and develop a pollutant index, in order to identify the locations where air pollutants are increasing LST over time.
+2 Methods
+2.1 Study Area
+Situated in the southern region of Asia, Bangladesh is bordered by India to its west, north, and east, and Myanmar to its southeast. As of 2021, the country accommodates approximately 166.50 million people, which makes up 2.11% of the global population (Khatun et al. 2021). The south of the country opens onto the Bay of Bengal, offering a natural maritime outlet, with only sparse hills found in the northeastern and southeastern corners (Ali et al. 2023). The country's coordinates roughly fall between 20.34° and 26.39° North in latitude and 88.01° and 92.41° East in longitude.
+Administratively, Bangladesh is divided into eight divisions, representing the second-tier administrative delineations. These divisions are Barisal, Chattagram (Chittagong), Dhaka, Khulna, Mymensingh, Rajshahi, Rangpur, and Sylhet. Each of these is further subdivided into districts, or 'Zilas', making up the third tier of the administrative structure. The country consists of 64 such districts. These districts are further divided into 'Upazilas' or sub-districts, forming the fourth administrative level. The smallest rural administrative units are the unions into which these Upazilas are divided. Conversely, urban areas in Bangladesh are systematically divided into administrative divisions known as wards and 'mahallas'. Bangladesh is composed of twelve distinct city corporation areas, as illustrated in Fig. 1. Dhaka, the nation's capital, is also its largest city. (Central Intelligence Agency 2022). Our study focuses predominantly on this fourth-tier administrative boundary for its analysis. Figure 1 illustrates a detailed map of the area under study.
+Fig. 1
+Detailed map of the Study Area (Bangladesh) with its administrative boundaries
+Full size image
+2.2 Data
+GEE was used to extract remote sensing data pertaining to air pollutants and LST. One of the significant advantages of utilizing GEE is its preprocessed data, which is readily available on a global scale through various remote sensing satellite sources (S. N. Rahaman et al. 2022a, b; S. N. Rahaman and Shermin 2022). The datasets utilized in this study cover November 2018 to June 2022 and includes LST, AOD, and measurements of NO2, CO, O3, SO2, and HCHO. All datasets, their source, and resolution are detailed in Table 1. The resolution of Sentinel-5p is slightly lower than MODIS, however, we did not resample as we are not directly analyzing the image but extracting the image data in feature (Angal et al. 2020). The project team created a custom processing algorithm using the GEE user interface to extract and process the data prior to use. The algorithm is detailed in Appendix I.
+Table 1 List of remote sensing data
+Full size table
+Sentinel-5 Precursor (Sentinel-5P) is a cutting-edge satellite launched by the European Space Agency (ESA) that plays a vital role in monitoring Earth's atmosphere. Equipped with the TROPOMI (TROPOspheric Monitoring Instrument), Sentinel-5P provides high-resolution data on various air pollutants, including NO2, SO2, CO, HCHO, and O3. The satellite's ability to measure these pollutants daily on a global scale offers invaluable insights for understanding and addressing air quality issues, climate change, and public health impacts. Studies utilizing Sentinel-5P data have revealed significant variations in pollutant concentrations due to natural phenomena and human activities, such as the COVID-19 lockdowns, which led to observable decreases in NO2 and CO levels across many urban areas. Sentinel-5P's comprehensive and accurate atmospheric data support efforts to mitigate pollution and improve environmental policy making (Ayoobi et al. 2022; Goldberg et al. 2022; Levelt et al. 2022).
+The MCD19A2.061 product represents a significant advancement in satellite-based monitoring of aerosols and air quality, utilizing the Multi-Angle Implementation of Atmospheric Correction (MAIAC) algorithm on both Terra and Aqua MODIS data to produce daily Land AOD at a 1 km spatial resolution (Lyapustin and Wang 2022). This high-resolution AOD data, including Optical_Depth_047, is critical for understanding atmospheric particles' effects on climate, weather, and human health. The MAIAC algorithm enhances AOD retrieval by dynamically isolating aerosol and land contributions, offering improved accuracy over traditional methods.
+Several studies have validated and applied MCD19A2.061 data for air quality monitoring and research. For instance, Just et al. (2018) corrected measurement error in satellite AOD using machine learning, significantly improving air pollution modeling in the Northeastern USA (Just et al. 2018). Similarly, Just et al. (2020) utilized machine learning to enhance satellite-derived column water vapor measurements, demonstrating the potential to improve atmospheric correction and AOD retrieval accuracy (Just et al. 2020). Moreover, Li et al. (2019) developed a provisional surface reflectance product from Himawari-8 AHI using the MAIAC algorithm, highlighting the algorithm's versatility across different satellite platforms (Li et al. 2019). These studies underscore the value of high-resolution MAIAC AOD data for environmental monitoring and climate research, offering a deeper understanding of aerosol distribution and dynamics at local and regional scales.
+The MOD11A2.061 product provides an 8-day composite of LST and emissivity at a 1 km spatial resolution, derived from the Terra platform's MODIS (Moderate Resolution Imaging Spectroradiometer) instrument (Giglio 2021). This dataset is crucial for a broad range of Earth science research, offering insights into the Earth's surface conditions, energy balance, and environmental changes.
+Several studies have focused on evaluating and improving the accuracy and consistency of MODIS LST products. Wang et al. (2007) conducted a detailed evaluation of MODIS LST/emissivity products using ground-based measurements in a semi-desert site on the Tibetan Plateau, showing good agreement between satellite and ground observations, which underscores the reliability of MODIS data in capturing LST across diverse landscapes (K. Wang et al. 2007). Hulley and Hook (2011) aimed to generate consistent LST and emissivity products between ASTER and MODIS data, highlighting the importance of high-spatial-resolution emissivity products for various applications and the potential for improved utilization of MODIS data alongside higher resolution datasets like ASTER (Hulley and Hook 2011). Furthermore, Wang and Liang (2009) assessed ASTER and MODIS LST and emissivity products against long-term surface longwave radiation observations at SURFRAD sites, indicating that both datasets provide valuable temperature information but with noted differences due to their distinct spatial, spectral, and temporal resolutions (K. Wang and Liang 2009). Chen and Song (2011) integrated Terra/Aqua MODIS measurements for simultaneous retrieval of atmospheric temperature-humidity profiles and LST-emissivity, demonstrating a method to enhance retrieval accuracy by leveraging the complementary strengths of Terra and Aqua observations (Chen and Song 2011).
+2.3 Spatial–Temporal Analysis
+We utilized the Space Time Cube analysis in ArcGIS Pro 3.0.2 to examine LST and pollution over the study extent and time. The “Defined Locations” option was used to aggregate the spatial and temporal data for LST and air pollutants to discrete geographic locations to identify variations in spatial patterns over time. We use the fourth administrative boundary of Bangladesh as the defined locations and associated all the monthly LST and air pollutant data to each defined location (Fig. 1).
+Each of the panels within the cube represents a bin with an independent time series temporal trend, which has been calculated utilizing the Mann–Kendall trend test. This test determines the rank correlation between the bin count or value and its respective time sequence. This approach enabled the examination of temporal trends for LST and air pollutant data, thus facilitating a more comprehensive understanding of the spatiotemporal patterns of these variables (ESRI 2021a; Kendall and Gibbons 1990; Mann 1945). The comparison between the bin values of each subsequent period involves adding one to the outcome if the first number (t) is less than the second (t + 1) and assigning a value of -1 if the opposite is true. In case of a tie, the resulting value is 0. The cumulative sum of each paired time period is then calculated. The absence of a discernible pattern over time will thus result in a value of zero. To ascertain the statistical significance of the difference between the observed total and the predicted sum, the variance of the values in the time series bin, the number of ties, and the number of periods are considered. A z-score and an associated p-value are used to track the trend for each binned time series. A low p-value indicates a high likelihood of a significant trend, while a positive/negative z-score implies an increasing/decreasing trend (ESRI 2021a). The test statistics S for the time series of air pollutants are calculated through Eq. (1),
+$$S= \sum_{i=1}^{n-1}\sum_{j=i+1}^{n}{a}_{ij}$$ (1)
+where,
+$${a}_{ij}=sign\left({x}_{j}-{x}_{i}\right)=sign\left({R}_{j}-{R}_{i}\right)=\left\{\begin{array}{c}1\\ 0\\ -1\end{array} \begin{array}{c}{x}_{i}<{x}_{j}\\ {x}_{i}={x}_{j}\\ {x}_{i}>{x}_{j}\end{array}\right.$$ (2)
+The ranks of xi and xj time series are defined as Ri and Rj, respectively. Assuming the data are independent and identically distributed, the mean and variance of S statistics are,
+$$E\left(s\right)=0$$ (3)
+$${V}_{o}\left(S\right)=\frac{n\left(n-1\right)\left(2n+5\right)}{18}$$ (4)
+where n is the number of observations. This results in a reduction of the variance of S due to the existence of tied ranks (equal observations).
+$${V}_{o}^{*}\left(S\right)=\frac{n\left(n-1\right)\left(2n+5\right)}{18}-\sum_{j=1}^{m}\frac{{t}_{j}\left({t}_{j}-1\right)\left(2{t}_{j}+5\right)}{18}$$ (5)
+where m is the number of groups of tied ranks, each with tj tied observation. The methods iterate over the independent data and calculate the exact distribution of S. The method makes the S closer to a normal distribution with the observation increment, which means the more the study time, the more accurate the model.
+2.4 Emerging Hotspot Analysis
+We leveraged the Space Time Cube to identify temporal trends in pollution levels by identifying spatial hotspots that emerge or persist over time (Esri 2021a, b; Getis & Ord 1992; Ord and Getis 1995). This approach uses Getis-Ord local statistics on the reduction of variance value from Eq. (5) and uses Eq. (6) for calculating the z-score.
+$${G}_{i}^{*}=\frac{\sum_{j=1}^{n}{w}_{i,j}{x}_{j}-\overline{X }\sum_{j=1}^{n}{w}_{i,j}}{S\sqrt{\frac{\left[n\sum_{j=1}^{n}{w}_{i,j}^{2}-{\left(\sum_{j=1}^{n}{w}_{i,j}\right)}^{2}\right]}{n-1}}}$$ (6)
+where xj is the attribute value for feature j, wi,j is the spatial weight between feature i and j, and n is the total number of features. The calculation of \(\overline{X }\) and S is followed by Eqs. (7) and (8).
+$$\overline{X }=\frac{\sum_{j=1}^{n}{x}_{j}}{n}$$ (7)
+$$S=\sqrt{\frac{\sum_{j=1}^{n}{x}_{j}^{2}}{n}-{(\overline{X })}^{2}}$$ (8)
+The analysis of emerging hotspots identifies sixteen distinct spatial–temporal clusters using the Mann-Kendell test statistics (ESRI 2021b). A "New Hot Spot" is recognized for the first time as a statistically significant hot spot in the latest observed time step without any previous record of such classification. On the other hand, a "Consecutive Hot Spot" is defined by achieving significant hot spot status for at least two sequential time steps towards the end of the observation period, without prior instances and with less than 90% of observations in this category. An "Intensifying Hot Spot" is noted for its continuous recognition as a significant hot spot in more than 90% of the time steps, including the most recent one, with a statistically significant increase in the intensity of clustering. The "Persistent Hot Spot" retains its significant status across more than 90% of the time steps without a discernible trend in the intensity of clustering, whereas a "Diminishing Hot Spot" is observed in more than 90% of the periods as well but with a significant decline in clustering intensity. The "Sporadic Hot Spot" appears in the last time step without regular previous significance, indicating a variable pattern, and the "Oscillating Hot Spot" switches between hot and cold statuses, being significant in less than 90% of the intervals. A "Historical Hot Spot" has lost its current significance but was significant in at least 90% of earlier intervals. For cold spots, similar categories exist, including "New," "Consecutive," "Intensifying," "Persistent," "Diminishing," "Sporadic," "Oscillating," and "Historical Cold Spots," which mirror the hot spot criteria but focus on areas of low counts or clustering. This approach highlights the intricate patterns of spatial–temporal variation and their importance in the fields of geography and environmental studies.
+2.5 GWR
+We used GWR to evaluate the local relationship between pollution and LST. GWR is useful approach in this context because it considers variations at a local scale rather than utilizing a single, global measure like traditional regression models (Brunsdon et al., 1996; ESRI 2019; O’Sullivan 2003). In our study, we opted for a distance band over a fixed number of neighbors. This decision was based on the understanding that all features within a certain distance can be relevant to our analysis, irrespective of their number (Brunsdon et al., 1996). To find the optimal neighborhood size, we applied the golden search neighborhood selection methods (Kiefer 1953). We utilized robust prediction as a strategy to lessen the impact of outliers, which could otherwise skew our regression results (Huber 1992). As for our choice of weighting scheme, we went with the bisquare weighting scheme. We believe this scheme is suitable as it gives more weight to closer observations, which often hold more relevance for our analysis (Cleveland 1979). We opted to use the z-score value of LST as the dependent variable, and the z-score values of air pollutants that are both generated from the Emerging Hotspot Analysis (Sect. 2.4). We do this to add a more dynamic component to the analysis. Specifically, the Z-score from the Emerging Hotspot indicates the level of significance of each feature while simultaneously signifying whether there is an increasing or decreasing trend. A Z-score value ranging from 0 to more than 2.74 indicates a significant hotspot, suggesting that the value of that feature is increasing over time. Conversely, a value ranging from less than -2.74 to 0 means the value is decreasing over time. In short, we can assess how an increase (positive z-score) or decrease (negative z-score) in pollution over time contributes to LST over that same time period. Formally, the GWR formula is:
+$${y}_{i}={a}_{i0}+\sum_{k=1,m}{a}_{ik}{x}_{ik}+{\varepsilon }_{i}$$ (9)
+where yi is the ith observation of the dependent variable (LST z-score), xik is the ith observation of the kth independent variable (pollution z-score), the \({\varepsilon }_{i}\) are independent normally distributed error terms with zero means, and each ak must be determined from a sample of n observations. In Ordinary Least Squares (OLS), the coefficient estimates minimize the sum of the squared differences between the predicted and observed dependent variable (Brunsdon et al., 1996). In weighted least squares, a weighting factor (w) is assigned to each squared difference before minimizing the errors, ensuring that inaccuracies in specific predictions are penalized more heavily than (Ziegel 2003). In many weighted regression models, the wi values remain constant, necessitating only a single calibration to generate a set of coefficient estimates. However, in this particular case, the weighting factor (w) varies with each observation (i), resulting in a distinct calibration for every point in the study area (Brunsdon et al. 2002). In this instance, the estimating formula for coefficients might be expressed more generically as:
+$$a\left(i\right)={\left({x}^{t}w\left(i\right)x\right)}^{-1}{x}^{t}w\left(i\right)y$$ (10)
+2.6 PCA
+To address the complex interplay between various air pollutants and their cumulative impact on LST, the Pollutant Impact Index (PII) was developed using PCA conducted in the GeoDa software package. PCA is particularly advantageous for this study because it effectively reduces the dimensionality of complex, multivariate datasets while retaining the most significant information, thus simplifying the analysis of pollutant impacts on LST (Thurston and Spengler 1985; Vu et al. 2020). Compared to other methods like Multiple Regression Analysis or Factor Analysis, PCA provides a more robust and clear-cut approach for handling high-dimensional data, ensuring that only the most impactful components are considered (Tenenbaum et al. 2000; Y. F. Wang and Tang 2014). The process began with standardizing the GWR coefficients for each pollutant via the Standardize (Z) transformation, ensuring uniformity in scale and comparability. PCA, executed through the Singular Value Decomposition (SVD) method, allowed for the extraction of principal components (PCs) from the standardized data. The selection of PCs was based on their eigenvalues, with a threshold set at values greater than 1, to focus on those most significant in explaining the variance. The utilization of eigenvalues greater than 1 as a threshold for selecting PCs is grounded in the Kaiser criterion, a commonly used rule of thumb in factor analysis and PCA. It is based on the idea that each principal component represents the amount of variance (or 'information') that it explains in the dataset. An eigenvalue of 1 indicates that the principal component explains an amount of variance equivalent to that of one original variable. Therefore, PCs with eigenvalues greater than 1 are considered significant as they explain more variance than a single variable, justifying their inclusion in the analysis (Stieb et al. 2008; Stylianou and Nicolich 2009). The formulation of the PII from these selected PCs provided a singular, quantifiable measure, encapsulating the combined impact of air pollutants on LST across different geographical areas. This index is instrumental in identifying regions with heightened pollution effects, thereby guiding targeted interventions and informed policy-making. By creating the PII, the study bridges the gap between multifactorial pollutant effects and their spatial representation, offering a vital tool for comprehending and addressing the spatial dynamics of air pollution in relation to LST.
+2.7 PII Development
+The PCA was conducted on standardized GWR coefficients of pollutants (AOD, O3, SO2, HCHO, CO, NO2) to integrate their varied impacts on LST into a singular PII. The standard deviation of the components indicated the spread of each component, with the first three components showing higher values (1.276, 1.211, 1.188), suggesting their greater importance in variance. The eigenvalues, which reflect the amount of variance accounted for by each principal component, showed that the first three components had values greater than 1 (1.628, 1.466, 1.412), satisfying the Kaiser criterion of retaining components with eigenvalues over 1. These three components cumulatively explained 75.11% of the variance.
+The variable loadings (Table 2) indicated how each pollutant correlated with the principal components. For instance, O3 had a strong positive loading on PC1, whereas HCHO had a strong negative loading on the same. This reflects how each pollutant uniquely contributes to the overall variance captured by each component. The squared correlations (Table 3) provided insight into how well each pollutant was represented by the components. For instance, HCHO showed a high squared correlation with PC1, indicating that this component effectively captured the variance associated with HCHO.
+Table 2 Variable Loadings on Principal Components—This table displays the loadings of each air pollutant (AOD, O3, SO2, HCHO, CO, NO2) on the six principal components derived from PCA
+Full size table
+Table 3 Squared Correlations of Pollutants with Principal Components—This table outlines the squared correlations between each air pollutant and the six principal components
+Full size table
+Based on these results, the PII was formulated by averaging the first three principal components, given their substantial contribution to the explained variance and their eigenvalues surpassing the Kaiser criterion. The index thus provides a comprehensive representation of the combined impact of multiple air pollutants on LST, enabling a more targeted approach in environmental analysis and policy-making.
+3 Results
+3.1 Spatial–Temporal Variation
+Plotting the monthly average air pollutants concentration over time unveils a notable pattern throughout the year, as shown in Fig. 2. All pollutant concentrations peak from January through March, while they are at their lowest from July through September. This clear seasonal trend, with higher concentrations of air pollution during the winter months and lower concentrations during the summer, aligns with previous studies (S. N. Rahaman et al. 2023). HCHO and SO2 exhibit the highest seasonal variability in concentration levels, while NO2 and CO show the least. Regardless, there has been a general uptick in the overall concentration levels of NO2, CO, AOD, O3 over time. These pollutants exhibit a relatively parallel trend over time, suggesting a common underlying dynamic driving their presence.
+Fig. 2
+Monthly average concentration (mol/m2) of air pollutants over Bangladesh. Air pollutants have visible monthly fluctuation with SO2 has the highest ups and downs. January and February are cold season for Bangladesh which has a high concentration of air pollutants where July and August have lower concentration
+Full size image
+Figures 3 and 4 present the results from the space–time cube and emerging hotspot analysis further elucidate regional patterns in air pollution trends over time. CO and NO2 present similar and distinct spatial and temporal patterns. Notably, persistent and intensifying hotspots coincide with the locations of major metropolitan areas of Bangladesh situated in the middle, northeast, northwest, southeast, southern, and southwest parts of the country (Fig. 3). Across all regions of Bangladesh, the levels of LST, AOD, and SO2 exhibit fluctuating hotspots and cold spots, suggesting their growth is not consistent, but rather highly variable. This pattern also reflects the seasonal trends identified in Fig. 2. Intriguingly, consecutive cold spots for both, NO2 and CO are found across rural and suburban areas in the south and east (NO2), and north (CO) regions of Bangladesh. This underscores the strong correlation between increased urbanization and these two air pollutants. However, the fluctuations of other pollutants (AOD, HCHO, O3, and SO2) seem to be less connected to urbanization and are perhaps more indicative of seasonal climate changes that have a more widespread spatial effect on air quality.
+Fig. 3
+NO2 has the highest variation of temporal trend, focusing the capital Dhaka on the middle with persistent and intensifying hotspot. CO also has the variation, focusing major cities, Sylhet on the north-east, Rajshahi on the north-west, Khulna in the south-west, Barishal in the south and Chattagram in the south-east. Chattagram and Rajshahi have persistent hotspot where all the other cities have intensifying hotspot along with new hotspot areas. LST, AOD, SO2, and HCHO have mostly oscillating hotspot and cold spot, indicating their frequent ups and downs over the years from Fig. 1
+Full size image
+Fig. 4
+Detailed percent distributions of temporal trend for LST and each air pollutants. NO2 and CO have sporadic, persistent, and intensifying hotspot where only CO has consecutive hotspot
+Full size image
+Table 4 presents the distribution of various emerging hotspot patterns for different air pollutants and LST across several administrative divisions in Bangladesh. The LST data shows that the "Oscillating Hot Spot" pattern is dominant in all divisions, especially in Barisal (99.50%) and Khulna (98.13%). This indicates frequent fluctuations between high and low temperatures in these areas. For AOD, the "Oscillating Hot Spot" pattern is consistently at or near 100% across all divisions, reflecting frequent changes in aerosol concentrations. The "New Hot Spot" is almost negligible, showing no significant new areas of high aerosol concentration emerging recently.
+Table 4 Division wise percentage of spatial–temporal pattern for LST and air pollutants
+Full size table
+The CO data highlights various patterns. The "No Pattern Detected" is notably high in Chittagong (62.75%) and Rangpur (57.88%), suggesting stable CO levels in these regions. The "Diminishing Cold Spot" is prominent in Barisal (30.67%) and Mymensingh (24.87%), indicating a reduction in low CO concentration areas. "Intensifying Hot Spot" patterns in Dhaka (15.96%) and Barisal (13.47%) show increasing CO concentrations. The "Oscillating Hot Spot" and "Sporadic Hot Spot" patterns are present but with lower percentages, indicating occasional fluctuations and irregular high CO levels. For HCHO, the "Oscillating Hot Spot" pattern is significant across all divisions, especially in Rangpur (79.12%) and Dhaka (71.71%), suggesting frequent changes between high and low formaldehyde concentrations.
+The NO2 data shows a diverse pattern distribution. The "Oscillating Hot Spot" is prominent in Mymensingh (49.47%) and Rajshahi (37.77%), indicating frequent changes in NO2 levels. The "Persistent Cold Spot" is significant in Barisal (30.42%) and Sylhet (16.36%), reflecting consistently low NO2 levels. The "No Pattern Detected" is notable in Rangpur (30.44%) and Khulna (26.64%), suggesting stable NO2 concentrations. For O3, the "Oscillating Hot Spot" is consistently at 100% across all divisions, indicating frequent fluctuations in ozone levels. Lastly, the SO2 data shows a significant presence of the "Oscillating Cold Spot" pattern in Rangpur (66.19%) and Mymensingh (61.11%), suggesting frequent changes between low and high SO2 levels. The "No Pattern Detected" is notable in Rajshahi (30.28%) and Dhaka (35.16%), indicating stable SO2 concentrations.
+3.2 Nexus with LST
+The GWR estimates individual regression coefficients for each unit of analysis included in the local model along with measures of significance. We applied a local and global Moran's I test to the coefficient values assigned to each unit of analysis to depict overall patterns (either positive or negative) between the pollution variable of interest and LST. We provide the coefficient estimates in Appendix II. As previously mentioned, the trend Z-score of LST was the dependent variable, and trend Z-scores of air contaminants were used as explanatory variables. The Global R-square value of our GWR model was 0.6091, with Local R-square values ranging from 0.68 to 0. Supporting tests for local autocorrelation in favor of the GWR model are disclosed in Table 5.
+Table 5 Global Moran's I, Local Moran's I, Local R-squared and Coefficient distributions. The percentages are of the total administrative area
+Full size table
+Our study indicates a significant environmental concern in Bangladesh, with over 30% of all air pollutant coefficient areas showcasing high-high clusters, which represent substantial pollution hotspot zones (refer to Table 5, Fig. 5). Air pollutant concentrations, notably NO2 and O3, are alarmingly high across the country, with 48.53% and 54.67% of the area respectively displaying a high coefficient cluster of LST and air pollutants. On average, these high-high clusters affect about 43% of Bangladesh's total area. The local R-squared value reinforces this, indicating a 47.36% high-high cluster region in the nation. Interestingly, the proportion of positive coefficients discloses that NO2 has an extraordinarily high coefficient percentage of 78.57%, followed by CO at 39.36% of the total area. Positive coefficients for all other air contaminants remain below 32%.
+Fig. 5
+GWR coefficient cluster map of LST and air pollutants. Interesting is that four of the air pollutants (AOD, O3, SO2, and HCHO) have high-high cluster coefficient in the south-east part of Bangladesh, the Chattagram division. NO2 and CO has high coefficient over major cities. Overall Local R-squared connects the urbanized path of each major cities and isolate the southern coastal and south-east Chattagram
+Full size image
+Table 6 presents the division wise bivariate cluster categories of model strength along with coefficients between LST and air pollutants. Dhaka exhibits dominant HH clustering for Local R2 (76.94%), indicating a strong correlation between pollutants and LST. A notable portion of LL clustering (21.91%) is also observed. For pollutants, AOD shows significant HH (47.62%) and LL (50.06%) clustering. CO and HCHO display primarily LL clustering (71.54% and 83.49%, respectively). In Barisal, the Local R2 values predominantly fall into the LL category (84.93%), indicating that the coefficients of determination between pollutants and LST are generally low. A smaller portion (15.07%) shows HH clustering, indicating areas where both pollutants and LST are highly correlated. For pollutants, AOD also shows significant LL clustering (44.17%), while CO is mainly HH (84.59%). HCHO exhibits a very high HH clustering (96.91%), suggesting a strong correlation between HCHO levels and LST.
+Table 6 Division wise bivariate cluster category percentage for model strength and air pollutant coefficients
+Full size table
+Chittagong shows a significant proportion of Local R2 values in the LL category (70.30%), with some areas in the HH category (29.07%). For AOD, LL clustering (56.54%) is predominant, while for CO, HH (13.82%) is less frequent compared to LL (85.43%). HCHO has a balanced distribution, with significant HH (54.51%) and LL (44.95%) clustering. In Khulna, Local R2 values are mostly in the LL category (58.83%), with a substantial HH clustering (41.17%). For pollutants, AOD shows significant HH clustering (75.33%), indicating strong correlations with LST. CO exhibits predominant LL clustering (95.57%), while HCHO shows a balanced distribution with 43.37% HH and 56.63% LL. Mymensingh has a balanced distribution of Local R2 values with 57.52% in the HH category and 42.48% in the LL category. For pollutants, AOD shows a significant HH clustering (56.38%). CO and NO2 exhibit very high LL clustering (93.92% and 100.00%, respectively), indicating low correlations with LST.
+Rajshahi predominantly shows HH clustering for Local R2 (68.07%), indicating strong correlations between pollutants and LST. A significant portion of LL clustering (31.93%) is also present. For pollutants, AOD and HCHO exhibit notable HH clustering (77.91% and 47.16%, respectively). CO shows a balanced distribution with 29.24% HH and 70.76% LL. Rangpur demonstrates a high proportion of HH clustering for Local R2 (65.75%) and a significant Low-Low (LL) clustering (33.33%). For pollutants, AOD exhibits dominant HH clustering (94.80%), indicating strong correlations with LST. CO also shows a high proportion of HH clustering (98.59%). Sylhet predominantly displays HH clustering for Local R2 (94.28%), indicating strong correlations between pollutants and LST. For pollutants, AOD exhibits very high LL clustering (98.63%), while CO shows a significant HH clustering (95.49%). HCHO has a balanced distribution with 34.54% HH and 65.46% LL.
+3.3 PII Scenario
+Figure 6 displays the spatial distribution of the Pollutant Impact Index (PII) values across Bangladesh, showcasing a gradient of pollution intensity. The color-coded legend correlates with the PII values, ranging from low (blue) to high (red), indicating the combined impact of various air pollutants on LST.
+Fig. 6
+Spatial distribution of the Pollutant Impact Index (PII)—The color gradient represents the PII from low impact (blue) to high impact (red) on Land Surface Temperature, highlighting regional variations in air pollution levels from November 2018 to June 2022
+Full size image
+Table 7 presents the division-wise percentage of different ranges of PII values. We divide PII into three distinct categories: Low (< 0.33), Medium (≥ 0.33 to < 0.66), and High (≥ 0.66). In Barisal, the majority of PII values fall within the Medium category (61.35%), followed by Low (38.40%), with a negligible presence in the High category (0.25%). Chittagong demonstrates a predominant Medium impact (81.36%), with High and Low impacts constituting 16.48% and 2.17%, respectively. Dhaka presents a more balanced distribution, with Medium and High categories both contributing approximately equally (47.72% and 26.14%, respectively), and the Low category also at 26.14%.
+Table 7 Division-wise percentage of different ranges of PII values
+Full size table
+Khulna's PII values are predominantly Medium (89.41%), with Low and High categories making up 9.66% and 0.93%, respectively. In Mymensingh, Medium and High impacts dominate, accounting for 60.32% and 39.68%, respectively, with no Low category presence. Rajshahi shows a high prevalence of Medium category values (55.98%), followed by Low (43.40%) and a minimal High category (0.61%). Rangpur exhibits a majority in the Low category (68.85%), with the remaining values in the Medium category (31.15%), and no High category presence. Sylhet displays an overwhelming majority in the High category (93.92%), with very few values in the Low (0.79%) and Medium (5.29%) categories. These results highlight regional disparities in pollutant impacts on LST, with Sylhet showing the highest proportion of severe impacts, while Rangpur has predominantly low impacts, and other regions exhibit varying distributions between the categories.
+4 Discussion
+The results of this study paint a stark picture of the environmental challenges faced by Bangladesh, particularly with regard to the correlation between air pollutants and LST. The spatial–temporal analysis, culminating in the creation of the PII, has offered critical insights into the patterns and intensity of pollution across the country. The higher PII values in urban areas, especially in Dhaka, as compared to rural areas, are indicative of the heightened UHI effect exacerbated by pollutants such as NO2 and O3. These findings are in line with existing literature which suggests that urbanization, with its associated increase in built-up areas and decrease in vegetative cover, leads to an accumulation of heat, further intensified by the presence of air pollutants. This finding is echoed among existing literature, for example, in the work by Shobnom et.al (2023) who show a strong relationship between NO2 concentration and population density, alongside LULC impacts in the Dhaka region (Shobnom et al. 2023). Additionally, the research by Hua et al. (2008) and Qian et al. (2022) on the impact of urbanization on air temperature in China offers comparative insights that can enhance our understanding of the relationship between air pollutants and LST within the context of rapid urban development. These studies collectively highlight the necessity of accounting for geographic, economic, and policy variations when exploring the dynamic between air pollutants and LST. Building on this foundation, our study advances the discussion by pinpointing specific locations where increased LST due to air pollutants has been observed over time, effectively bridging the gap identified in previous research within this domain. Such comparative analyses highlight the need for localized environmental strategies that are tailored to the specific urban and industrial profiles of different regions within the Global South (Marcotullio et al. 2008; Qian et al. 2022).
+This study's findings also bring to light the regional variability in air pollution levels and their impact on LST. The northwest regions of Bangladesh, which are primarily agricultural and less industrialized, show lower PII values, suggesting a lesser impact of air pollution on LST. In contrast, the eastern regions, which include Sylhet and its environs, exhibit higher PII values. This could be attributed to the combined effects of industrial activities and urbanization, which are prevalent in these regions. The significant impact of air pollutants on LST in the central regions around Dhaka highlights the consequences of rapid urbanization without adequate environmental regulations and urban planning. For example, Hassan et al. (2023) investigate the climatic determinants of population exposure to PM2.5, emphasizing the significant impact of urban areas on PM2.5 concentrations due to changes in land use and climatic variables. They note that urban regions showed the highest level of PM2.5 concentration in 2021, demonstrating a direct correlation between urbanization and air pollution levels (Hassan et al. 2023). The variations in PII values across different regions also reflect the complex interplay between land use, topography, and human activities. For instance, the Sundarbans mangrove forest in the southern part of the country, despite its proximity to industrial activities, shows moderate PII values, potentially due to the mitigating impact of this extensive forested area on pollution levels and LST. An in-depth comparison with similar studies in other regions of the Global South, such as those detailed by Vardoulakis et al. (2014) in their comprehensive review of UHI intensity and mitigation strategies, provides a broader context to our findings which includes adopting cool roofs to control temperature in small cities (Vardoulakis et al. 2014). This review article serves as a foundational comparison for understanding how methodologies and mitigation strategies applied across different regions can inform localized environmental strategies.
+Our findings underscore previously investigated linkages between air pollutants, urban heat dynamics, and potential public health risks, necessitating the integration of air quality management with urban planning and public health policies. Using LST proxies to measure the potential footprint of urbanization contributes to initiatives aimed at enhancing urban greenery as a pivotal strategy for mitigating the adverse effects of air pollution on public health (Mueller et al. 2017). Furthermore, the examination by Lelieveld et al. (2015) of the relationship between air pollution and public health risks reinforces the imperative for comprehensive strategies that encompass stricter emissions regulations and the promotion of sustainable transportation options (Lelieveld et al. 2015). We acknowledge the socio-economic challenges unique to the Global South and the open-source approach taken by this research contributes to solutions that are both equitable and accessible. The convergence of strategies that connect air pollution and urban dynamics can not only mitigate the immediate health impacts identified in our study but also contribute to a resilient public health infrastructure capable of addressing emerging environmental hazards.
+Finally, while our study focuses on the immediate impact of air pollutants on LST, this work has broader implications in the climate change arena. The interaction between air pollutants and urban heat dynamics, as detailed in our research, could exacerbate both local and global climate change effects, potentially leading to more severe weather events and temperature extremes. Supporting this notion, Demuzere et al. (2014) highlight the role of urban green infrastructure in mitigating climate change effects, underscoring the importance of integrating such infrastructure to offset the warming impacts of urban air pollutants (Demuzere et al. 2014). Furthermore, D'Amato et al. (2010) discuss how urban air pollution and climate change act as compounding environmental risk factors for respiratory infections, reinforcing the need for comprehensive climate resilience planning in urban environments (D’amato et al. 2001). Together, these studies provide a robust foundation to support our findings and emphasize the critical need for sustainable urban planning practices that enhance climate resilience while addressing public health concerns.
+We also acknowledge several limitations to our work. The scope of the remote sensing data, while comprehensive, does not capture the complete array of pollutants or the full spectrum of their sources. Also, remotely-sensed datasets may introduce biases due to atmospheric interference, sensor limitations, or data processing algorithms and, in this work, we assume the accuracy of the data sources but acknowledge that such biases could affect the precision of our pollutant concentration and LST measurements. The spatial resolution of the datasets used may not capture microscale variations in air pollutant concentrations or LST and this limitation could lead to underestimation or overestimation of hotspot areas and their impacts. Our statistical analysis, including Emerging Hotspot Analysis, GWR, and PCA, relies on certain assumptions regarding the spatial continuity and distribution of environmental variables. While these methods provide a robust framework for analyzing complex spatial–temporal data, they may oversimplify the nuanced interactions between air pollutants and LST. Future studies could explore alternative statistical models or machine learning approaches to capture these dynamics more accurately. Future work should aim to incorporate a broader set of pollution data, including emerging pollutants and their secondary products, to provide a more detailed understanding of their environmental impact. High-resolution urban data could enhance our understanding of pollutant dispersion patterns and their interactions with urban morphology. Longitudinal studies are also needed to evaluate the effectiveness of urban planning interventions over time. Moreover, integrating socio-economic data could offer insights into the social determinants of pollution exposure and their correlation with public health outcomes. In-depth studies involving in-situ measurements would complement the remote sensing approach, providing validation for the models used and a ground-truth reference for the PII. Exploring the bi-directional relationship between LST and air pollution—how each influences the other over time—could also provide valuable feedback for refining urban climate models.
+5 Conclusion
+Our findings indicate that air pollution remains a persistent challenge in urban areas, exacerbating the UHI effect and potentially leading to adverse health outcomes. The positive correlation between air pollutants and LST underscores the role of pollutants in absorbing and re-radiating heat, contributing to the UHI effect and increasing surface temperatures. These findings are of particular concern given the dense population of Bangladesh and the vulnerability of its citizens to heat-related stress and diseases. The broader environmental implications of these results are significant. The elevation in LST associated with air pollution can lead to increased energy consumption for cooling, further contributing to the release of pollutants if the energy is derived from fossil fuels. Additionally, the impact on vegetation health can lead to a vicious cycle where reduced vegetation leads to less cooling and increased LST, which in turn can stress vegetation further. The PII serves as an essential tool for identifying the regions most affected by pollution and for understanding the dynamics of air pollution's impact on LST. This knowledge is invaluable for informing strategies to reduce pollution levels, enhance urban resilience, and protect public health and indispensable for policymakers and urban planners, providing a data-driven foundation to strategize effective interventions aimed at pollution control and urban heat mitigation. Such interventions could range from enhancing green spaces to optimizing urban design and improving emissions regulations, all of which could significantly reduce the UHI effect and improve urban livability.
+This study contributes to the field of environmental science by elucidating the intricate relationship between air pollution and urban temperature dynamics. Furthermore, the study introduces empirical novelty in the field of spatio-temporal monitoring. The methodology employed in this study is comprehensive within the statistics field as it surpasses conventional methods such as correlation, linear regression, and spatial regression. It integrates a space–time cube along with GWR, offering vital insights into how and where air pollutants impact surface temperature over time. The model's flexibility also opens up further opportunities to monitor other factors affecting surface temperature changes, including vegetation dynamics, land cover change, meteorological factors, and climate. The study highlights areas of concern, particularly in rapidly urbanizing regions of the Global South, and sets the stage for future research to further unravel the complexities of this relationship. The ultimate goal remains clear: to inform policy and practice that will lead to healthier, more sustainable urban environments for all.
+References
+Ahmed A, Ali AAB, Mahboob M, Humaira F (2023) Comparison between local and global methods to develop AQI in representing the spatial pattern of air quality of Dhaka City. Dhaka Univ J Earth Environ Sci 11(1):131–149. https://doi.org/10.3329/dujees.v11i1.63716
+Article
+  Google Scholar
+  Akbari H, Pomerantz M, Taha H (2001) Cool surfaces and shade trees to reduce energy use and improve air quality in urban areas. Sol Energy 70(3):295–310. https://doi.org/10.1016/S0038-092X(00)00089-X
+Article
+  Google Scholar
+  Ali AAB, Sumiya NN, Islam MS (2023) Floods of Gorai-Madhumati and Arial Khan Rivers, Bangladesh. Springer, Cham, pp 529–550
+Google Scholar
+  Angal A, Xiong X, Shrestha A (2020) Cross-calibration of MODIS reflective solar bands with sentinel 2A/2B MSI instruments. IEEE Trans Geosci Remote Sens 58(7):5000–5007. https://doi.org/10.1109/TGRS.2020.2971462
+Article
+  Google Scholar
+  Ayoobi AW, Ahmadi H, Inceoglu M, Pekkan E (2022) Seasonal impacts of buildings’ energy consumption on the variation and spatial distribution of air pollutant over Kabul City: application of Sentinel—5P TROPOMI products. Air Qual Atmos Health 15(1):73–83. https://doi.org/10.1007/s11869-021-01085-9
+Article
+  CAS
+  Google Scholar
+  Baldasano JM, Valera E, Jiménez P (2003) Air quality data from large cities. Sci Total Environ 307(1–3):141–165. https://doi.org/10.1016/S0048-9697(02)00537-5
+Article
+  CAS
+  Google Scholar
+  Begum BA, Hopke PK (2019) Identification of sources from chemical characterization of fine particulate matter and assessment of ambient air quality in Dhaka, Bangladesh. Aerosol Air Qual Res 19(1):118–128. https://doi.org/10.4209/aaqr.2017.12.0604
+Article
+  CAS
+  Google Scholar
+  Biswas J, Pathak B, Patadia F, Bhuyan PK, Gogoi MM, Babu SS (2017) Satellite-retrieved direct radiative forcing of aerosols over North-East India and adjoining areas: climatology and impact assessment. Int J Climatol 37:298–317. https://doi.org/10.1002/joc.5004
+Article
+  Google Scholar
+  Bologna M, Aquino G (2020) Deforestation and world population sustainability: a quantitative analysis. Sci Rep 10(1):1–9. https://doi.org/10.1038/s41598-020-63657-6
+Article
+  CAS
+  Google Scholar
+  Bond TC, Doherty SJ, Fahey DW, Forster PM, Berntsen T, Deangelo BJ, Flanner MG, Ghan S, Kärcher B, Koch D, Kinne S, Kondo Y, Quinn PK, Sarofim MC, Schultz MG, Schulz M, Venkataraman C, Zhang H, Zhang S, Zender CS (2013) Bounding the role of black carbon in the climate system: a scientific assessment. J Geophys Res Atmos 118(11):5380–5552. https://doi.org/10.1002/jgrd.50171
+Article
+  CAS
+  Google Scholar
+  Brauer M, Freedman G, Frostad J, Van Donkelaar A, Martin RV, Dentener F, Dingenen RV, Estep K, Amini H, Apte JS, Balakrishnan K, Barregard L, Broday D, Feigin V, Ghosh S, Hopke PK, Knibbs LD, Kokubo Y, Liu Y, Cohen A (2016) Ambient air pollution exposure estimation for the global burden of disease 2013. Environ Sci Technol 50(1):79–88. https://doi.org/10.1021/acs.est.5b03709
+Article
+  CAS
+  Google Scholar
+  Brunsdon C, Fotheringham AS, Charlton ME (1996) Geographically weighted regression: a method for exploring spatial nonstationarity. Geogr Anal 28(4):281–298. https://doi.org/10.1111/j.1538-4632.1996.tb00936.x
+Article
+  Google Scholar
+  Brunsdon C, Fotheringham AS, Charlton M (2002) Geographically weighted summary statistics—a framework for localised exploratory data analysis. Comput Environ Urban Syst 26(6):501–524. https://doi.org/10.1016/S0198-9715(01)00009-6
+Article
+  Google Scholar
+  Cao C, Lee X, Liu S, Schultz N, Xiao W, Zhang M, Zhao L (2016) Urban heat islands in China enhanced by haze pollution. Nat Commun 7(1):1–7. https://doi.org/10.1038/ncomms12509
+Article
+  CAS
+  Google Scholar
+  Central Intelligence Agency. (2022). Bangladesh - The World Factbook. The World Factbook. https://www.cia.gov/the-world-factbook/countries/bangladesh/
+Chen SB, Song JH (2011) Physics-based simultaneous retrieval of atmospheric temperaturehumidity profiles and land surface temperature-emissivity by integrating Terra/Aqua MODIS measurements. Sci China Phys Mech Astron 54(8):1420–1428. https://doi.org/10.1007/s11433-011-4402-1
+Article
+  CAS
+  Google Scholar
+  Chowdhury S, Dey S, Guttikunda S, Pillarisetti A, Smith KR, Girolamo LD (2019) Indian annual ambient air quality standard is achievable by completely mitigating emissions from household sources. Proc Natl Acad Sci USA 166(22):10711–10716. https://doi.org/10.1073/pnas.1900888116
+Article
+  CAS
+  Google Scholar
+  Cleveland WS (1979) Robust locally weighted regression and smoothing scatterplots. J Am Stat Assoc 74(368):829–836. https://doi.org/10.1080/01621459.1979.10481038
+Article
+  Google Scholar
+  D’amato G, Liccardi G, D’amato M, Cazzola M (2001) The role of outdoor air pollution and climatic changes on the rising trends in respiratory allergy. Respir Med 95(7):606–611. https://doi.org/10.1053/rmed.2001.1112
+Article
+  Google Scholar
+  Demuzere M, Orru K, Heidrich O, Olazabal E, Geneletti D, Orru H, Bhave AG, Mittal N, Feliu E, Faehnle M (2014) Mitigating and adapting to climate change: multi-functional and multi-scale assessment of green urban infrastructure. J Environ Manag 146:107–115. https://doi.org/10.1016/j.jenvman.2014.07.025
+Article
+  CAS
+  Google Scholar
+  Domingo JL, Rovira J (2020) Effects of air pollutants on the transmission and severity of respiratory viral infections. Environ Res 187:109650. https://doi.org/10.1016/j.envres.2020.109650
+Article
+  CAS
+  Google Scholar
+  EPA. (2021). Ozone and your health. In EPA Publications (Issues 452 F-99–003, pp. 1–4). https://www.epa.gov/ozone-pollution-and-your-patients-health
+ESRI. (2019). How Geographically Weighted Regression (GWR) works—ArcGIS Pro | Documentation. 1–5. https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-statistics/how-geographicallyweightedregression-works.htm
+ESRI. (2021a). How Create Space Time Cube works—ArcGIS Pro | Documentation. https://pro.arcgis.com/en/pro-app/latest/tool-reference/space-time-pattern-mining/learnmorecreatecube.htm#ESRI_SECTION2_4518F0A12E194690AA986118D508E9F7
+ESRI. (2021b). How Emerging Hot Spot Analysis works—ArcGIS Pro | Documentation. https://pro.arcgis.com/en/pro-app/latest/tool-reference/space-time-pattern-mining/learnmoreemerging.htm
+Getis A, Ord JK (1992) The analysis of spatial association by use of distance statistics. Geogr Anal 24(3):189–206. https://doi.org/10.1111/J.1538-4632.1992.TB00261.X/ABSTRACT
+Article
+  Google Scholar
+  Giglio LJC (2021) MODIS/Terra Thermal Anomalies/Fire Daily L3 Global 1km SIN Grid V061. NASA EOSDIS Land Process Distrib Active Arch Center. https://doi.org/10.5067/MODIS/MOD11A1.061
+Goldberg DL, Harkey M, de Foy B, Judd L, Johnson J, Yarwood G, Holloway T (2022) Evaluating NOx emissions and their effect on O3 production in Texas using TROPOMI NO2 and HCHO. Atmos Chem Phys 22(16):10875–10900. https://doi.org/10.5194/acp-22-10875-2022
+Article
+  CAS
+  Google Scholar
+  Gupta P, Christopher SA (2009) Particulate matter air quality assessment using integrated surface, satellite, and meteorological products: 2. A neural network approach. J Geophys Res Atmos 114(20):20205. https://doi.org/10.1029/2008JD011497
+Article
+  CAS
+  Google Scholar
+  Hassan MS, Gomes RFL, Bhuiyan MAH, Rahman MT (2023) Land use and the climatic determinants of population exposure to PM2.5 in central Bangladesh. Pollutants 3(3):381–395. https://doi.org/10.3390/pollutants3030026
+Article
+  Google Scholar
+  He BJ (2022) Urban morphology, urban ventilation and urban heat island mitigation: a methodological framework. Adv Sci Technol Innov. https://doi.org/10.1007/978-3-031-12015-2_14
+Article
+  Google Scholar
+  Henderson SB, Beckerman B, Jerrett M, Brauer M (2007) Application of land use regression to estimate long-term concentrations of traffic-related nitrogen oxides and fine particulate matter. Environ Sci Technol 41(7):2422–2428. https://doi.org/10.1021/es0606780
+Article
+  CAS
+  Google Scholar
+  Hoek G, Beelen R, de Hoogh K, Vienneau D, Gulliver J, Fischer P, Briggs D (2008) A review of land-use regression models to assess spatial variation of outdoor air pollution. Atmos Environ 42(33):7561–7578. https://doi.org/10.1016/j.atmosenv.2008.05.057
+Article
+  CAS
+  Google Scholar
+  Huber PJ (1992) Robust Estimation of a Location Parameter. Springer, New York, pp 492–518. https://doi.org/10.1007/978-1-4612-4380-9_35
+Book
+  Google Scholar
+  Hulley GC, Hook SJ (2011) Generating consistent land surface temperature and emissivity products between ASTER and MODIS data for earth science research. IEEE Trans Geosci Remote Sens 49(4):1304–1315. https://doi.org/10.1109/TGRS.2010.2063034
+Article
+  Google Scholar
+  IQAir. (2020). 2020 World Air Quality Report:Region & City PM2.5 Ranking. IQAir, August, 2020, 1–41. https://www.iqair.com/world-most-polluted-cities/world-air-quality-report-2020-en.pdf%0Aonline air quality information platform
+Islam MR, Li T, Mahata K, Khanal N, Werden B, Giordano MR, Praveen Puppala S, Dhital NB, Gurung A, Saikawa E, Panday AK, Yokelson RJ, Decarlo PF, Stone EA (2022) Wintertime air quality across the Kathmandu valley, Nepal: concentration, composition, and sources of fine and coarse particulate matter. ACS Earth Space Chem 6(12):2955–2971. https://doi.org/10.1021/acsearthspacechem.2c00243
+Article
+  CAS
+  Google Scholar
+  Just AC, De Carli MM, Shtein A, Dorman M, Lyapustin A, Kloog I (2018) Correcting measurement error in satellite aerosol optical depth with machine learning for modeling PM2.5 in the Northeastern USA. Remote Sens. https://doi.org/10.3390/rs10050803
+Article
+  Google Scholar
+  Just AC, Liu Y, Sorek-Hamer M, Rush J, Dorman M, Chatfield R, Wang Y, Lyapustin A, Kloog I (2020) Gradient boosting machine learning to improve satellite-derived column water vapor measurement error. Atmos Meas Techn 13(9):4669–4681. https://doi.org/10.5194/amt-13-4669-2020
+Article
+  Google Scholar
+  Kafy AA, Rahman MS, Faisal AA, Hasan MM, Islam M (2020) Modelling future land use land cover changes and their impacts on land surface temperatures in Rajshahi, Bangladesh. Remote Sens Appl Soc Environ 18(March):100314. https://doi.org/10.1016/j.rsase.2020.100314
+Article
+  Google Scholar
+  Kafy AA, Faisal AA, Rahman MS, Islam M, Al Rakib A, Islam MA, Khan MHH, Sikdar MS, Sarker MHS, Mawa J, Sattar GS (2021) Prediction of seasonal urban thermal field variance index using machine learning algorithms in Cumilla, Bangladesh. Sustain Cities Soc. https://doi.org/10.1016/j.scs.2020.102542
+Article
+  Google Scholar
+  Kafy AA, Saha M, Faisal A-A, Rahaman ZA, Rahman MT, Liu D, Fattah MA, Al Rakib A, AlDousari AE, Rahaman SN, Hasan MZ, Ahasan MAK (2022) Predicting the impacts of land use/land cover changes on seasonal urban thermal characteristics using machine learning algorithms. Build Environ 217(March):109066. https://doi.org/10.1016/j.buildenv.2022.109066
+Article
+  Google Scholar
+  Kendall MG, Gibbons JD (1990) Rank Correlation Methods, fifthed. Griffin, London
+Google Scholar
+  Khatun H, Sumiya NN, Ali AA, Bin. (2021) Achieving sustainable development goals in Bangladesh: does population density matter? Dhaka Univ J Earth Environ Sci 8(2):1–15. https://doi.org/10.3329/dujees.v8i2.54834
+Article
+  Google Scholar
+  Kiefer J (1953) Sequential minimax search for a maximum. Proc Am Math Soc 4(3):502. https://doi.org/10.2307/2032161
+Article
+  Google Scholar
+  Kumari N, Srivastava A, Dumka UC (2021) A long-term spatiotemporal analysis of vegetation greenness over the Himalayan region using google earth engine. Climate 9(7):109. https://doi.org/10.3390/cli9070109
+Article
+  Google Scholar
+  Lelieveld J, Evans JS, Fnais M, Giannadaki D, Pozzer A (2015) The contribution of outdoor air pollution sources to premature mortality on a global scale. Nature 525(7569):367–371. https://doi.org/10.1038/nature15371
+Article
+  CAS
+  Google Scholar
+  Levelt PF, Stein Zweers DC, Aben I, Bauwens M, Borsdorff T, De Smedt I, Eskes HJ, Lerot C, Loyola DG, Romahn F, Stavrakou T, Theys N, Van Roozendael M, Veefkind JP, Verhoelst T (2022) Air quality impacts of COVID-19 lockdown measures detected from space using high spatial resolution observations of multiple trace gases from Sentinel-5P/TROPOMI. Atmos Chem Phys 22(15):10319–10351. https://doi.org/10.5194/acp-22-10319-2022
+Article
+  CAS
+  Google Scholar
+  Li S, Wang W, Hashimoto H, Xiong J, Vandal T, Yao J, Qian L, Ichii K, Lyapustin A, Wang Y, Nemani R (2019) First provisional land surface reflectance product from geostationary satellite Himawari-8 AHI. Remote Sens 11(24):2990. https://doi.org/10.3390/rs11242990
+Article
+  Google Scholar
+  Liu L, Zhang Y (2011) Urban heat island analysis using the landsat TM data and ASTER Data: a case study in Hong Kong. Remote Sens 3(7):1535–1552. https://doi.org/10.3390/RS3071535
+Article
+  Google Scholar
+  Liu Z, Ciais P, Deng Z, Lei R, Davis SJ, Feng S, Zheng B, Cui D, Dou X, Zhu B, Guo R, Ke P, Sun T, Lu C, He P, Wang Y, Yue X, Wang Y, Lei Y, Schellnhuber HJ (2020) Near-real-time monitoring of global CO2 emissions reveals the effects of the COVID-19 pandemic. Nat Commun 11(1):1–12. https://doi.org/10.1038/s41467-020-18922-7
+Article
+  CAS
+  Google Scholar
+  Lyapustin A, Wang Y (2022) MODIS/Terra+Aqua land aerosol optical depth daily L2G global 1km SIN grid V061. NASA EOSDIS Land Process Distrib Active Archive Center. https://doi.org/10.5067/MODIS/MCD19A2.061
+Mage D, Ozolins G, Peterson P, Webster A, Orthofer R, Vandeweerd V, Gwynne M (1996) Urban air pollution in megacities of the world. Atmos Environ 30(5):681–686. https://doi.org/10.1016/1352-2310(95)00219-7
+Article
+  CAS
+  Google Scholar
+  Mann HB (1945) Nonparametric tests against trend. Econometrica 13(3):245. https://doi.org/10.2307/1907187
+Article
+  Google Scholar
+  Marcotullio PJ, Braimoh AK, Onishi T (2008) The impact of urbanization on soils. Land Use Soil Resour 93(3–4):201–250. https://doi.org/10.1007/978-1-4020-6778-5_10
+Article
+  Google Scholar
+  Mo Y, Xu Y, Chen H, Zhu S (2021) A review of reconstructing remotely sensed land surface temperature under cloudy conditions. Remote Sens. https://doi.org/10.3390/rs13142838
+Article
+  Google Scholar
+  Mueller N, Rojas-Rueda D, Basagaña X, Cirach M, Hunter TC, Dadvand P, Donaire-Gonzalez D, Foraster M, Gascon M, Martinez D, Tonne C, Triguero-Mas M, Valentín A, Nieuwenhuijsen M (2017) Urban and transport planning related exposures and mortality: a health impact assessment for cities. Environ Health Perspect 125(1):89–96. https://doi.org/10.1289/EHP220
+Article
+  Google Scholar
+  Naim MNH, Kafy A-A (2021) Assessment of urban thermal field variance index and defining the relationship between land cover and surface temperature in Chattogram city: a remote sensing and statistical approach. Environmental Challenges 4:100107. https://doi.org/10.1016/j.envc.2021.100107
+Article
+  Google Scholar
+  O’Sullivan D (2003) Geographically weighted regression: the analysis of spatially varying relationships (review). Geogr Anal 35(3):272–275. https://doi.org/10.1353/geo.2003.0008
+Article
+  Google Scholar
+  Ord JK, Getis A (1995) Local spatial autocorrelation statistics: distributional issues and an application. Geogr Anal 27(4):286–306. https://doi.org/10.1111/j.1538-4632.1995.tb00912.x
+Article
+  Google Scholar
+  Park Y, Guldmann JM, Liu D (2021) Impacts of tree and building shades on the urban heat island: Combining remote sensing, 3D digital city and spatial regression approaches. Comput Environ Urban Syst 88:101655. https://doi.org/10.1016/j.compenvurbsys.2021.101655
+Article
+  Google Scholar
+  Patinvoh RJ, Taherzadeh MJ (2019) Challenges of biogas implementation in developing countries. Curr Opin Environ Sci Health 12:30–37. https://doi.org/10.1016/j.coesh.2019.09.006
+Article
+  Google Scholar
+  Perone G (2022) Assessing the impact of long-term exposure to nine outdoor air pollutants on COVID-19 spatial spread and related mortality in 107 Italian provinces. Sci Rep 12(1):1–24. https://doi.org/10.1038/s41598-022-17215-x
+Article
+  CAS
+  Google Scholar
+  Qian Y, Chakraborty TC, Li J, Li D, He C, Sarangi C, Chen F, Yang X, Leung LR (2022) Urbanization impact on regional climate and extreme weather: current understanding, uncertainties, and future research directions. Adv Atmos Sci 39(6):819–860. https://doi.org/10.1007/s00376-021-1371-9
+Article
+  Google Scholar
+  Rahaman SN, Shermin N (2022) Identifying the effect of monsoon floods on vegetation and land surface temperature by using Google Earth Engine. Urban Clim 43:101162. https://doi.org/10.1016/j.uclim.2022.101162
+Article
+  Google Scholar
+  Rahaman SN, Shehzad T, Sultana M (2022a) Effect of seasonal land surface temperature variation on COVID-19 infection rate: a google earth engine-based remote sensing approach. Environ Health Insights 16:117863022211314. https://doi.org/10.1177/11786302221131467
+Article
+  Google Scholar
+  Rahaman ZA, Kafy AA, Saha M, Rahim AA, Almulhim AI, Rahaman SN, Fattah MA, Rahman MT, Kalaivani S, Al RA (2022b) Assessing the impacts of vegetation cover loss on surface temperature, urban heat island and carbon emission in Penang city, Malaysia. Build Environ 222:109335. https://doi.org/10.1016/j.buildenv.2022.109335
+Article
+  Google Scholar
+  Rahaman SN, Ahmed SMM, Zeyad M, Zim AH (2023) Effect of vegetation and land surface temperature on NO2 concentration: a Google Earth Engine-based remote sensing approach. Urban Climate 47(2):101336. https://doi.org/10.1016/j.uclim.2022.101336
+Article
+  Google Scholar
+  Ruan H, Chen H, Wang T, Chen J, Li H (2021) Modeling flood peak discharge caused by overtopping failure of a landslide dam. Water (switzerland) 13(7):921. https://doi.org/10.3390/w13070921
+Article
+  Google Scholar
+  Salam A, Andersson A, Jeba F, Haque MI, Hossain Khan MD, Gustafsson Ö (2021) Wintertime air quality in megacity Dhaka, Bangladesh strongly affected by influx of black carbon aerosols from regional biomass burning. Environ Sci Technol 55(18):12243–12249. https://doi.org/10.1021/ACS.EST.1C03623/ASSET/IMAGES/LARGE/ES1C03623_0004.JPEG
+Article
+  CAS
+  Google Scholar
+  Shaddick G, Thomas ML, Green A, Brauer M, van Donkelaar A, Burnett R, Chang HH, Cohen A, Dingenen RV, Dora C, Gumy S, Liu Y, Martin R, Waller LA, West J, Zidek JV, Prüss-Ustün A (2018) Data integration model for air quality: a hierarchical approach to the global estimation of exposures to ambient air pollution. J R Stat Soc Ser C Appl Stat 67(1):231–253. https://doi.org/10.1111/rssc.12227
+Article
+  Google Scholar
+  Shobnom N, Hossain MS, Roni R (2023) Monitoring spatiotemporal changes of NO2 using TROPOMI and sentinel-5 images for Dhaka city and its surrounding areas of Bangladesh. J Air Pollut Health 8(3):269–284. https://doi.org/10.18502/japh.v8i3.13785
+Article
+  Google Scholar
+  Steinle S, Reis S, Sabel CE (2013) Quantifying human exposure to air pollution-Moving from static monitoring to spatio-temporally resolved personal exposure assessment. Sci Total Environ 443:184–193. https://doi.org/10.1016/j.scitotenv.2012.10.098
+Article
+  CAS
+  Google Scholar
+  Stieb DM, Burnett RT, Smith-Doiron M, Brion O, Hwashin HS, Economou V (2008) A new multipollutant, no-threshold air quality health index based on short-term associations observed in daily time-series analyses. J Air Waste Manag Assoc 58(3):435–450. https://doi.org/10.3155/1047-3289.58.3.435
+Article
+  CAS
+  Google Scholar
+  Stylianou M, Nicolich MJ (2009) Cumulative effects and threshold levels in air pollution mortality: data analysis of nine large US cities using the NMMAPS dataset. Environ Pollut 157(8–9):2216–2223. https://doi.org/10.1016/j.envpol.2009.04.011
+Article
+  CAS
+  Google Scholar
+  Tan J, Zheng Y, Tang X, Guo C, Li L, Song G, Zhen X, Yuan D, Kalkstein AJ, Li F, Chen H (2010) The urban heat island and its impact on heat waves and human health in Shanghai. Int J Biometeorol 54(1):75–84. https://doi.org/10.1007/s00484-009-0256-x
+Article
+  Google Scholar
+  Tenenbaum JB, De Silva V, Langford JC (2000) A global geometric framework for nonlinear dimensionality reduction. Science 290(5500):2319–2323. https://doi.org/10.1126/science.290.5500.2319
+Article
+  CAS
+  Google Scholar
+  THE WORLD BANK. (2022). High Air Pollution Level is Creating Physical and Mental Health Hazards in Bangladesh: World Bank. https://www.worldbank.org/en/news/press-release/2022/12/03/high-air-pollution-level-is-creating-physical-and-mental-health-hazards-in-bangladesh-world-bank
+Thurston GD, Spengler JD (1985) A quantitative assessment of source contributions to inhalable particulate matter pollution in metropolitan Boston. Atmos Environ 19(1):9–25. https://doi.org/10.1016/0004-6981(85)90132-5
+Article
+  CAS
+  Google Scholar
+  Tian J, Fang C, Qiu J, Wang J (2020) Analysis of pollution characteristics and influencing factors of main pollutants in the atmosphere of Shenyang city. Atmosphere 11(7):766. https://doi.org/10.3390/ATMOS11070766
+Article
+  CAS
+  Google Scholar
+  UNEP/WMO. (2011). Integrated Assessment of Black Carbon and Tropospheric Ozone. United Nations Environment Programme (UNEP), Nairobi, Kenya., UNEP/GC.26/INF/20, 30. https://www.ccacoalition.org/en/resources/integrated-assessment-black-carbon-and-tropospheric-ozone
+United Nations. (2019). World Population Prospects - Population Division - United Nations. https://population.un.org/wpp/
+Van Donkelaar A, Martin RV, Brauer M, Boys BL (2015) Use of satellite observations for long-term exposure assessment of global concentrations of fine particulate matter. Environ Health Perspect 123(2):135–143. https://doi.org/10.1289/ehp.1408646
+Article
+  Google Scholar
+  Vardoulakis E, Karamanis D, Mihalakakou G (2014) Heat island phenomenon and cool roofs mitigation strategies in a small city of elevated temperatures. Adv Build Energy Res 8(1):55–62. https://doi.org/10.1080/17512549.2014.890537
+Article
+  Google Scholar
+  Venter ZS, Aunan K, Chowdhury S, Lelieveld J (2020) COVID-19 lockdowns cause global air pollution declines. Proc Natl Acad Sci USA 117(32):18984–18990. https://doi.org/10.1073/pnas.2006853117
+Article
+  CAS
+  Google Scholar
+  Voogt JA, Oke TR (2003) Thermal remote sensing of urban climates. Remote Sens Environ 86(3):370–384. https://doi.org/10.1016/S0034-4257(03)00079-8
+Article
+  Google Scholar
+  Vu PT, Larson TV, Szpiro AA (2020) Probabilistic predictive principal component analysis for spatially misaligned and high-dimensional air pollution data with missing observations. Environmetrics. https://doi.org/10.1002/env.2614
+Article
+  Google Scholar
+  Wang K, Liang S (2009) Evaluation of ASTER and MODIS land surface temperature and emissivity products using long-term surface longwave radiation observations at SURFRAD sites. Remote Sens Environ 113(7):1556–1565
+Article
+  Google Scholar
+  Wang YF, Tang ZN (2014) Dimensionality reduction method based on combination of PCA and ICA. Opt Techn 2(3):180–183
+Article
+  Google Scholar
+  Wang K, Wan Z, Wang P, Sparrow M, Liu J, Haginoya S (2007) Evaluation and improvement of the MODIS land surface temperature/emissivity products using ground-based measurements at a semi-desert site on the western Tibetan Plateau. Int J Remote Sens 28(11):2549–2565. https://doi.org/10.1080/01431160600702665
+Article
+  Google Scholar
+  Weissert LF, Alberti K, Miskell G, Pattinson W, Salmond JA, Henshaw G, Williams DE (2019) Low-cost sensors and microscale land use regression: Data fusion to resolve air quality variations with high spatial and temporal resolution. Atmos Environ 213:285–295. https://doi.org/10.1016/j.atmosenv.2019.06.019
+Article
+  CAS
+  Google Scholar
+  WHO. (2018). Ambient (outdoor) air pollution. World Health Organisation Geneva. https://www.who.int/news-room/fact-sheets/detail/ambient-(outdoor)-air-quality-and-health
+Wu L, Xie J, Kang K (2022) Changing weekend effects of air pollutants in Beijing under 2020 COVID-19 lockdown controls. NPJ Urban Sustain 2(1):1–10. https://doi.org/10.1038/s42949-022-00070-0
+Article
+  Google Scholar
+  Zaman SU, Yesmin M, Pavel MRS, Jeba F, Salam A (2021) Indoor air quality indicators and toxicity potential at the hospitals’ environment in Dhaka, Bangladesh. Environ Sci Pollut Res 28(28):37727–37740. https://doi.org/10.1007/s11356-021-13162-8
+Article
+  CAS
+  Google Scholar
+  Ziegel ER (2003) The elements of statistical learning. Technometrics 45(3):267–268. https://doi.org/10.1198/tech.2003.s770
+Article
+  Google Scholar
+  Zimmerman N, Li HZ, Ellis A, Hauryliuk A, Robinson ES, Gu P, Shah RU, Ye Q, Snell L, Subramanian R, Robinson AL, Apte JS, Presto AA (2020) Improving correlations between land use and air pollutant concentrations using wavelet analysis: insights from a low-cost sensor network. Aerosol Air Qual Res 20(2):314–328. https://doi.org/10.4209/aaqr.2019.03.0124
+Article
+  Google Scholar
+  Download references
+Funding
+There is no external funding associated with this work.
+Author information
+Authors and Affiliations
+Department of Geosciences, Auburn University, Auburn, AL, 36849, USA
+Sk Nafiz Rahaman, Jake Nelson & Al Artat Bin Ali
+Department of Geosciences, Mississippi State University, Mississippi State, MS, 39762, USA
+Nishat Shermin & Narcisa G. Pricope
+Department of Geography and The Environment, The University of Texas at Austin, Austin, TX, 78712, USA
+Abdulla Al Kafy
+Urban and Rural Planning Discipline, Khulna University, Khulna, 9208, Bangladesh
+Md Shahaduzzaman Sabuj
+College of Forestry, Wildlife and Environment, Auburn University, Auburn, AL, 36849, USA
+Sharmin Sultana Toa
+Corresponding author
+Correspondence to Sk Nafiz Rahaman.
+Ethics declarations
+Conflict of interest
+The authors confirm that there is no conflict of interest associated with this manuscript.
+Supplementary Information
+Below is the link to the electronic supplementary material.
+Supplementary file1 (DOCX 1910 KB)
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Rahaman, S.N., Nelson, J., Ali, A.A.B. et al. A Multivariate Geostatistical Framework to Assess the Spatio-Temporal Dynamics of Air Pollution and Land Surface Temperature in Bangladesh. Earth Syst Environ (2024). https://doi.org/10.1007/s41748-024-00418-9
+Download citation
+Received
+25 January 2024
+Revised
+18 May 2024
+Accepted
+11 June 2024
+Published
+23 June 2024
+DOI
+https://doi.org/10.1007/s41748-024-00418-9
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Air pollutants
+Land surface temperature
+Spatial–temporal analysis
+Geostatistical analysis
+Remote sensing
+Use our pre-submission checklist
+Avoid common mistakes on your manuscript.
+Sections
+Figures
+References
+Abstract
+Introduction
+Methods
+Results
+Discussion
+Conclusion
+References
+Funding
+Author information
+Ethics declarations
+Supplementary Information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

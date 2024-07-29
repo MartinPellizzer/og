@@ -1,0 +1,407 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Foods
+All Article Types
+Advanced
+  Journals Foods Volume 12 Issue 10 10.3390/foods12102056
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Mike Sissons
+Subscribe SciFeed
+Recommended Articles
+Related Info Links
+More by Authors Links
+Article Views
+1624
+Citations
+3
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Influence of Non-Thermal Plasma Treatment on Structural Network Attributes of Wheat Flour and Respective Dough
+by Muhammad Jehanzaib Khan
+1,*, Vojislav Jovicic
+1, Ana Zbogar-Rasic
+1, Viktoria Zettel
+2, Antonio Delgado
+1,3 and Bernd Hitzmann
+2
+1
+Institute of Fluid Mechanics (LSTM), Friedrich-Alexander-University Erlangen-Nuremberg (FAU), 91058 Erlangen, Germany
+2
+Department of Process Analytics and Cereal Science, University of Hohenheim, 70599 Stuttgart, Germany
+3
+German Engineering Research and Development Center, LSTME Busan, Busan 46742, Republic of Korea
+*
+Author to whom correspondence should be addressed.
+Foods 2023, 12(10), 2056; https://doi.org/10.3390/foods12102056
+Submission received: 13 March 2023 / Revised: 14 May 2023 / Accepted: 16 May 2023 / Published: 19 May 2023
+(This article belongs to the Section Plant Foods)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Due to its “generally recognized as safe status” (GRAS) and moderate treatment temperatures, non-thermal plasma (NTP) has lately been considered a suitable replacement for chemicals in the modification of food properties and for preserving food quality. One of the promising areas for the application of NTP is the treatment of wheat flour, leading to improved flour properties and product quality and consequently to higher customer satisfaction. In the present research, the German wheat flour type 550, equivalent to all-purpose flour, was treated using NTP in a rotational reactor to determine the influence of short treatment times (≤5 min) on the properties of flour (moisture and fat content, protein, starch, color, microbial activity, and enzymes), dough (visco-elastic properties, starch, wet and dry gluten, and water absorption), and baking products (color, freshness, baked volume, crumb structure, softness, and elasticity). Based on the properties of NTP, it was expected that even very short treatment times would have a significant effect on the flour particles, which could positively affect the quality of the final baking product. Overall, the experimental analysis showed a positive effect of NTP treatment of wheat flour, e.g., decreased water activity value (<0.7), which is known to positively affect flour stability and product shelf life; dough stability increased (>8% after 5 min. treatment); dough extensibility increased (ca. 30% after 3 min treatment); etc. Regarding the baking product, further positive effects were detected, e.g., enhanced product volume (>9%), improved crumb whiteness/decreased crumb yellowness, softening of breadcrumb without a change in elasticity, and limited microorganism and enzymatic activity. Furthermore, no negative effects on the product quality were observed, even though further food quality tests are required. The presented experimental research confirms the overall positive influence of NTP treatment, even for very low treatment times, on wheat flour and its products. The presented findings are significant for the potential implementation of this technique on an industrial level.
+Keywords: wheat flour; cold plasma; dough rheology; microstructure; protein and starch properties; hydration; microbial activity
+1. Introduction
+Plant-based food, such as cereals, grains, and their products, are an important source of energy for humans and animals due to their constituents, i.e., carbohydrates, proteins, vitamins, fats, and minerals [1]. In the human diet, grains are usually present in powder form, i.e., as flour, produced by grain milling and its products.
+Food processing is a crucial step in the food supply chain of the modern food industry, which ensures food safety and intensifies food functional properties (swelling capacity, water absorption, elasticity, gas retention, gelatinization temperature, bulk density, shelf life, etc.) [2,3,4]. The processing of plant-based food is mainly categorized into primary (starting immediately after harvesting, which ensures ease of transportation) and secondary processing (conversion into different food products, improving functionality, shelf life, etc.) [5]. Thermal processing (including drying and evaporation) of food is a common and simple yet effective method that uses heat to restrict microbial activity, and in this way reduces spoilage and increases a product’s shelf life. However, it can seriously reduce food quality, e.g., color, texture, flavor, freshness, and nutrient value [6,7]. Other conventional food sterilization and processing techniques, e.g., chemicals [8,9], high pressure [10], microwaves [11], ultra-sonication [12,13], bio-preservatives [14], and vacuum processing [15], are also being practiced, but their influence on food quality preservation and retention have its drawbacks.
+Modern lifestyles and the aspiration towards healthy eating have created a demand for minimally processed food, fewer synthetic additives, clean-label products, and highly natural ingredients [16]. Sustaining the equilibrium between the necessities for intensive food processing prior to intake and consumer demand for minimally processed food is challenging due to the risk of foodborne illness. This situation indicates the need for novel food processing methods, which would help in obtaining a balance between the minimal food processing necessary to enhance food functional properties and food safety.
+Wheat is ranked as the prime staple crop that ensures food and nutritional security [17]. Chemically, the whole wheat grain is composed of starch (≈58%), protein (≈11%), non-starch polysaccharides (≈13%), lipids (≈2%), minerals (≈2%), and water [18]. Wheat proteins are traditionally classified according to their solubility properties, i.e., albumin (soluble in water), globulin (in a salt solution), gliadin (in 70% ethanol), and glutenin (in acid or alkali) [19]. Gliadin and glutenin (about 85% of the total proteins), also known as gluten proteins, contribute to special functional properties of dough (viscosity, extensibility, gas retention, cohesiveness properties, etc.) [20,21,22,23] and allow wheat to be processed into a wide range of products, including bread, cakes, pasta, noodles, etc. [24,25,26]. All the wheat varieties developed for broad-acre agriculture share similar gluten proteins in their structure [25,27,28].
+In the wheat dough formation process, gluten proteins are hydrated and are transformed into a continuous cohesive visco-elastic gluten protein network, accompanied by an increase in the extractability of gluten proteins [29]. The functionality of these proteins in a dough strongly depends on several factors such as dough recipe, water temperature, enzymes, etc. [30]. Dough network formation is affected by the formation, number, and distribution of intermolecular Sulphur–Sulphur or disulfide (S-S) bonds between gluten protein networks [31]. The amino acid cysteine and its oxidized form cystine are naturally found in wheat flour and play an important role in the formation and termination of S-S bonds [32]. The formation of covalent bonds via disulfide linkage starts during the kneading process, where cysteine residues (an S-H containing amino acid) react with each other (oxidation of reactive S-H groups to cystine) to form S-S bonds [33,34,35]. The weakening of dough starts with the presence of a free cysteine, which reduces single S-S bonds to two –SH bonds [32].
+The processing of wheat flour is a common practice on an industrial level, not only to improve its hygiene, safety, textural properties, and shelf life of products but also to affect the dough strength and weakening agents according to product specifications. In the food industry, chemicals such as ascorbic acid, azodicarbonamide (ADA), and potassium bromate are used as dough properties enhancers [36]. For example, ADA, patented in 1959, is one of the fastest oxidants used as a dough conditioner that reduces the content of free –SH groups in the dough, hence promoting the S-S bond networking [37,38]. Ozone, which is a topic of extensive research [39,40,41], can be used as an alternative to chemicals for improving wheat dough properties, as it is termed “generally recognized as safe” (GRAS) [42,43]. Its strong oxidizing potential, clean nature, i.e., only oxygen remains after the treatment, and in situ generation by an electrical discharge, make ozone an ideal substitute for many chemicals in food processing [44].
+One promising approach to food treatment is the treatment with non-thermal plasma (NTP). Plasma, representing the fourth state of matter, is an overall neutral, ionized gas consisting of ozone in abundant amounts, along with other active species (positive and negative high-energy particles, electrons, and neutrons) [45,46,47,48]. Contrary to ozone generators, NTP ozone is produced in situ, together with other active species. An electron temperature and a thermodynamic equilibrium inside an ionized gas are the decisive factors for plasma classifications [49]. In thermal plasma, electrons and bulk gas molecules are in the state of thermal equilibrium, which contributes to very high plasma gas temperatures [50,51], thus not suitable for thermally sensitive applications, i.e., food. Such a thermodynamic equilibrium is lacking in NTP, as the electron temperature of the gas is much higher (~105 K) than of the gas bulk molecules (~300 K) [52,53]. Atmospheric plasma jet, low-pressure glow, microwave discharge, laser-produced plasma, and dielectric barrier discharge (DBD) are a few examples of NTP types. However, DBD is widely used due to its simple formation, non-thermal nature, and production of abundant amounts of ozone.
+Lately, NTP has gained much attention in food applications due to promising results in impacting quality attributes, food preservation, safety, and microbial inactivation [54,55]. The interaction between different types of NTP with wheat grains and flour and the effects on their functional properties have been investigated [56,57,58,59,60]. Bahrami et al. [56] and Mishra et al. [61] reported an increase in visco-elastic properties of wheat dough after the NTP treatment of flour. NTP treatment was reported to lead to starch modifications that significantly alter the dough viscosity [62]. Some studies showed that the NTP treatment did not affect the total protein count; however, a trend towards conversion to higher molecular weight proteins was determined, together with changes in surface morphology [61,63]. However, the literature does not offer detailed information on the effects of specific NTP types on wheat flour constituents, dough, and baked products.
+The goal of the present study is to investigate in detail the influence of the DBD type of NTP on wheat flour functionality and the properties of its products. NTP-type DBD was chosen due to its low, controllable temperature level and abundant amount of ozone production, along with other active species. To evaluate the potential of this method for an industrial application, very short treatment times (1, 3, and 5 min) were applied. The analysis was based on evaluating the changes in properties of flour (moisture content, protein, starch, color, microbial activity, enzymes, and fat amount), dough (visco-elastic properties, starch, wet and dry gluten, and water absorption), and baking product properties (color, freshness, baked volume, crumb structure, softness, and elasticity). Based on the detected positive and negative aspects of the NTP treatment, the applicability of this method for wheat flour treatment was discussed.
+2. Materials and Methods
+In this research, Germany’s wheat flour type 550 (Rettenmeier GmbH Kunstmühle, Horb am Neckar, Baden-Württemberg, Germany), equivalent to all-purpose flour, was used for treatment, preparation of dough, and baking products (test bread). Flour, dough, and baked products were analyzed before and after the NTP treatment.
+2.1. NTP Treatment Experimental Setup
+The experimental setup (Figure 1), which was used for the flour treatment, consisted of three main parts: (1) a high-voltage power supply (HVG80–3000, company Diener, Ebhausen, Germany) for NTP generation, (2) a cylindrical, rotational reactor, where flour was treated by in situ produced NTP, and (3) a data acquisition (DAQ) system.
+Figure 1. Experimental setup for Non-thermal plasma (NTP) treatment of wheat flour.
+A high-voltage power supply (P = 120 W, f = 80 kHz, U = 7 kV) was used to generate the DBD plasma (shown as purple color in Figure 1) inside the reactor. Flour was placed inside a cylindrical, rotational batch reactor (shown as blue color dots in Figure 1), which was open to the atmosphere, in order to avoid the formation of combustible/explosive dust. The reactor consisted of two concentric electrodes:
+(1) the outer (ground) electrode, in the form of a hollow cylinder (D = 150 mm, L = 300 mm) made of stainless steel and mounted axially on a rotating shaft. To stop the formation of arcs, a dielectric barrier (thickness = 2 mm) made of Plexiglass was attached to the inner side of this ground electrode.
+(2) the stationary, inner (high-voltage) electrode is positioned coaxially to the ground electrode. A row of aluminum pins (H = 43 mm, thickness = 5 mm) was attached to the high-voltage electrode to reduce the discharge gap to 2 mm and to reduce the overall power needed to generate DBD plasma inside the reactor. The uniform flour treatment inside the reactor is ensured by the presence of plastic baffles (H = 30 mm, thickness = 3 mm). Further details of the setup can be found in our previous publication [64].
+2.2. Dough Preparation
+Doughs were prepared from untreated and treated flour samples in order to identify and compare the changes induced by the NTP. Flour (3000 g), water (60% i.e., 1800 g), salt (60 g), dry yeast (75 g), fat (30 g), and sugar (30 g) were mixed in a dough-preparing machine (SP 12–DIOSNA spiral kneading machine, DIOSNA Dierks & Söhne GmbH, Osnabrück, Germany). The kneading process included a mixing phase (at 25 Hz mixing frequency) of 2 min, followed by a kneading phase (at 50 Hz) for 6 min. After kneading, the dough was left to rest for 10 min, followed by a proofing step. The dough was divided into 6 parts weighing 600 g each. Three of them were left for normal proofing and the rest for extended proofing. Normal proofing was performed for 60 min (90 min in case of extended proofing) at 32 °C and 85% relative humidity. Afterward, the dough was used for a series of analyses.
+2.3. Baking Parameters
+Six sandwich breads were prepared to observe the baking properties. They were baked free and settled on a baking plate (top-bottom heating at 210 and 220 °C, respectively) in an electric oven for 30 min. They were left to cool for 10 h at room temperature prior to baking analysis.
+2.4. Analysis of Flour, Dough, and Baked Products
+2.4.1. Flour Hydration Analysis
+Moisture content was determined three times per sample, according to the standard method (ICC Nr. 110/1) approved by the International Association for Cereal Science and Technology. Based on these measurements, the standard deviation was calculated.
+The variation in the water activity (aw-values) of the flour samples treated by NTP was obtained using the sorption isotherm method [65]. The analysis was repeated three times, based on which the standard deviation was obtained.
+Near-infrared (NIR) spectroscopy is a rapid, accurate, and non-destructive technique that is commonly used in food analysis using the interaction between electromagnetic energy (in the range of 800–2500 nm) with the matter in question [66]. It was used to determine wheat flour quality parameters, e.g., moisture, protein content, ash, water absorption, etc. [67]. Contrary to the conventional water content analysis, where a sample is heated to 130 °C, NIR does not need heating. The standard deviation of this measurement set was determined based on three measurements per sample.
+2.4.2. Flour Protein Analysis
+In the present research, a standard method for determining gluten (ICC Nr. 155) was used to quantify the wet and dry gluten content and the gluten index (GI). The GI is correlated with the protein strength, which is calculated based on the percentage of wet gluten that remained on a sieve (84 microns for wheat flour) after centrifuging [68]. The analysis was repeated four times, based on which the standard deviation was calculated.
+Sedimentation analysis is a physicochemical test that provides information about the protein swelling capacity, which directly affects the baking quality (e.g., loaf volume) of a wheat flour dough. This analysis involves the absorption of water and the swelling of protein in a water-flour, lactic acid, and isopropyl alcohol slurry. The absorption capacity is dependent on the protein quality [69]; higher protein quality leads to higher water absorption, which reduces the protein particle compactness, hence reducing the density and leading to lower sediment velocities of protein particles and vice versa. The sedimentation analysis (according to Zeleny) was performed using a standard method (ICC Nr. 116/1) and repeated two times to calculate the standard deviation.
+The adhesive properties of wheat flour were analyzed by kneading gluten balls ten times in a 2% indium, sodium chloride, and water solution for one hour.
+The farinograph analysis was performed according to the standard method (ICC Nr. 115/1). Dough quality is additionally characterized by dough stability. This is the ability of the shaped piece of leavened dough to maintain its shape during the proofing phase, which can be estimated by a farinograph. Stability is connected to the tolerance of flour to kneading and overmixing, and it is measured as the time during which a dough sustains its maximum consistency. It corresponds to the difference between the dough development time (i.e., the point at which the top of the farinograph curve intercepts the 500 BU line) and the departure time (i.e., the point where the top farinograph curve leaves the 500 BU line) on a farinograph chart. Dough softening is the difference between the heights of the farinograph curve between the point of the maximum resistance to mixing and the point measured 12 min afterward. Softening is concerned with the extensibility of dough. Flour that is too hard (higher protein content or S-H bonding) needs softening agents to break down the dough’s strength in order to meet the handling and similarity in baked products on an industrial level. The analysis was repeated two times, based on which the standard deviation was calculated.
+Dough’s resistance to stretch and gluten protein extensibility was analyzed by an apparatus, “Kieffer rig” [70]. This apparatus can be connected to any material testing machine to measure the stretch force by adjusting the stretch speed and, finally, the temperature to calculate the offered resistance to stretchiness or extension and capability of extensibility (distance to break) of wheat dough [71]. The kneading was done in Perten Glutomatic for 3 min, and the dough rest time was 10 min. The test was repeated 11 times, based on which the standard deviation was calculated.
+2.4.3. Other Flour Quality Analysis
+The Falling number (FN) records the activity of α-amylase, which is responsible for the gelatinization and breakage of starch granules. α-amylase is an enzyme that breaks down a long-chain starch to simple sugars, which in the end, impacts the quality of baked products. The Perten-Hagberg number is the measure of the time (in seconds) required to travel a certain distance for a stirrer through a hot water-flour slurry [72]. If the stirrer falls slowly (higher FN number), the structural integrity of starch chains is preserved, i.e., it is not destroyed by α-amylase activity, and vice versa. FN was performed using the ICC Nr. 107/1 and repeated six times to calculate the standard deviation.
+The gelatinization and pasting behavior of wheat flour can be studied by amylograph, which provides an easy and standardized performance and an effective correlation with the final product quality [73]. The gelatinization, or the peak temperature, indicates the temperature at which swollen starch granules in water dispersion under a shear force tend to disintegrate from a crystalline state to a gel [73]. Accordingly, the starch viscosity at this temperature is called gelatinization or peak viscosity. At this viscosity, a balance between granules’ swelling and granules’ breakage is reached shortly before their physical breakdown. The test was done according to the ICC Nr. 126/1. The tests involved the heating of samples from 30 to 95 °C at a constant heating rate of 1.5 °C/min. The starch gelatinization temperature, the viscosity change, and the starch damage were then analyzed based on the experimental findings. The tests were repeated two times to calculate the standard deviation.
+2.4.4. Color Analysis of Flour and Products
+In 1976, the International Commission on Illumination (CIE) recommended a method CIE L*a*b color space that expresses color numerically and can be used for precise color communication [74]. The color of flour and products was analyzed by the color measurement device (Konica Minolta, Konica Minolta Business Solutions Deutschland GmbH, Langenhagen, Germany). In this method, the L coordinate represents the lightness (0 = black, 100 = white), the a coordinate indicates the red to the green range, and the b coordinate indicates the yellowness. E* represents color uniformity, and ΔE shows the difference in colors. The analysis was repeated three times, based on which standard deviation was calculated.
+2.4.5. Baked Product Analysis
+Changes in starch and protein functional properties due to plasma treatment also affect the baking product properties. Starch and gluten interact to form a stable network that entraps the fermentation gas and resists a bread collapse during the baking and cooling stage [75]. Starch damage, which is regulated by amylase activity, increases the water absorption capacity of flour [29]. This moisture gradient affects the starch gelatinization and swelling in a dough, thus affecting the dough’s softness and resilience properties [29,76].
+To analyze the effects of NTP treatment on the baking product, the dough was prepared as presented in Section 2.2. Six equal size (600 g) sandwich breads were made, three from normal proofing time, i.e., 60 min, and three from extended proofing time, i.e., 90 min. The apparent bread volume was determined by the Rapeseed displacement method. The texture analyzer, based on the American Association of Cereal Chemists (AACC) bread firmness method, was used to evaluate the bread’s freshness. Within this test, the resilience, i.e., the ability of a pastry product to absorb energy when deformed elastically and to release it upon unloading, was determined.
+2.4.6. Microbiological Analysis
+Wheat grains and flour can carry different contaminants from the environment as they are raw agricultural products. Microbial contaminants are mostly present on a grain surface, which are mostly removed during the milling process. However, flour can still contain dangerous contaminants [77]. Enterobacteriaceae such as Serratia, Pantoea, Escherichia, Enterobacter, and Raoutella are commonly listed microorganisms in flour microbiota. It is usually considered by food manufacturers as a hygiene indicator to monitor the effectiveness of the implemented preventive measures [78].
+The presence of the microorganisms sulfite-reducing clostridium, yeast, mold, E.coli, Salmonella, Lactobacillus, Staphylococcus, Bacillus cereus, and Enterobacteriaceae in flour was analyzed according to the German standard DIN ISO 21528-1/2.
+2.5. Experimental Procedure
+Before the treatment, the NTP reactor was thoroughly cleaned, and 150 g of type 550 flour was added to it. The reactor rotated at a constant speed of 10 RPM to ensure uniform flour-plasma contact. A high-voltage generator was operated at the maximum power (120 W). A maximum of 3000 g of plasma-treated flour was needed for flour, dough, and baked products analysis. Therefore, twenty batches of 150 g were treated in the batch reactor and mixed together in a vessel (SP 12–DIOSNA spiral kneading machine) before their use in the respective analysis.
+3. Results and Discussion
+In order to investigate the effects of NTP on wheat constituents, the analysis was performed on untreated and treated wheat flour and corresponding wheat dough and wheat baked products. Following section lists and encloses the performed analysis in detail.
+3.1. Influence on the Flour Hydration Properties
+Quantification of the amount of water is the first step in reporting the wheat quality attributes, especially the hygienic conditions. A variation in the amount of water within the wheat flour directly influences the flour’s stability and supports chemical reactions. Flour moisture content also affects its transportation properties, such as flow from silos, long-term transportation, compression, mixing, and packaging. Water content significantly affects the formation of liquid bridges and the capillary forces acting between the flour particles [79]. This part of the research encloses the analysis of free and bound water content in untreated and plasma-treated wheat flour samples by different analytical techniques.
+3.1.1. Moisture Content Analysis
+Moisture content accounts for the bound and the free water present in flour. The dependency of the moisture content of wheat flour on the treatment time (1, 3, and 5 min) is shown in Figure 2.
+Figure 2. Moisture content of the untreated and treated wheat flour (type 550) samples at different plasma treatment times with analysis of variance (letters with alike are not significantly different).
+Obtained results show a change of less than 1% in the moisture content of the treated samples with respect to the control samples. According to the literature [80], the moisture content between 12 and 15% keeps the flour stable at room temperature. A slight increase in the moisture content of the treated samples indicates the surface modifications of flour particles due to NTP. The literature reports that the plasma treatment results in a decrease in water contact angle, hence supporting the high permeability of water [81]. Obtained results confirm that the moisture content of plasma-treated flour samples stays in the range where flour stays stable at room conditions, i.e., 12–15%. However, these results must be taken with a reserve, as the p-value obtained by analysis of variance (ANOVA) is greater than 0.05 (provided in the Supplementary Materials), indicating the lack of significant statistical difference existence between the samples.
+3.1.2. Water Activity Analysis (aw–Value)
+The moisture content itself is not enough to predict the safety, stability, and shelf life of a product. The amount of free water available to support chemical or biological processes in flour, which determines the potential growth capability of microorganisms, is expressed by the water activity analysis in terms of the aw-value. The optimal value range of the water activity (0.4–0.7) limits flour spoilage by microbial activity, also reported by Labuza et al. [82].
+Obtained results (Figure 3) demonstrate a decline in the water activity of the treated wheat flour with the increased NTP treatment time. The aw-value remained in the optimal aw—range for the tested treatment time, thus ensuring the flour’s safety and stability during storage at room temperature. The ANOVA analysis (p < 0.05) (provided in the Supplementary Materials) confirms the existence of significant statistical differences between untreated and treated samples, i.e., the effect of NTP treatment on flour properties was statistically significant.
+Figure 3. Water activity value (aw-value) of the untreated and treated wheat flour (type 550) samples at different plasma treatment times, measured by the sorption isotherm method.
+3.1.3. Near-Infrared Spectroscopy for Moisture Content Analysis
+The findings of NIR spectroscopy also confirmed that NTP treatment slightly decreased the water content in wheat flour; however, it stayed close to 14%. Obtained results also coincide with the findings presented in Figure 3 (therefore not shown separately), where the water activity is shown to decrease with the plasma treatment times.
+All three analysis techniques lead to the conclusion that NTP does not significantly alter the free and bound water content of wheat flour, which stays at the optimal, permissible level to sustain its stability and promote chemical reactions at a later stage.
+3.2. Flour Protein Properties
+Wheat proteins (11.1 g/100 g flour type 550), especially gluten protein (85% of the total protein amount), are important constituents of wheat flour that play a significant role in dough network development through the formation of disulfide bonds within protein molecules. They also have an important impact on the baking product quality due to their effect on the water absorption capacity, cohesivity, viscosity, and elasticity of a wheat dough [68]. The following part of the research encloses the effects of the treatment time on the wheat proteins through different protein analysis techniques.
+3.2.1. Gluten Content (Wet and Dry) and Gluten Index
+The quantity and quality of gluten proteins are considered one of the major quality parameters for wheat flour. It has a major impact on the cooking quality, e.g., appearance, loss of solids in cooking water, and texture (crumb structure, thickness, and adhesiveness) [83]. The effects of gluten on baking properties can be found elsewhere [84]. The wet and dry gluten content expresses the amount of gluten present in flour, which depends on the genotypes, intensity of breeding as fertilizer dose, and pedoclimatic conditions [85]. Table 1 lists the determined gluten quantity and quality parameters of untreated and treated flour samples.
+Table 1. Effects of NTP treatment times on the gluten content and the GI of wheat flour samples.
+Obtained results revealed that the wheat gluten content (dry and wet) of samples treated up to 3 min is comparable to the control sample, i.e., no significant change in the total protein level of wheat flour was noticed (ANOVA analysis, provided in the Supplementary Materials). This was also confirmed by Bahrami et al. [56]. However, further treatment (up to 5 min) results in lowering the gluten (dry and wet) amount. Negative effects of longer NTP treatment (45 min), which, i.e., deteriorates the hydration capacity of gluten, were reported elsewhere [86].
+The GI, as a quality attribute of wheat gluten, showed a progressive increase with the NTP treatment time. It reached the maximum value of 97.2 ± 1.6, corresponding to an almost 7% increase in comparison to untreated wheat flour. A number of studies [56,61,86] confirmed the contribution of NTP in enhancing the disulfide bonds between the glutenin subunits, thus leading to significant changes in the distribution of higher molecular weight glutenins and to a higher GI.
+3.2.2. Zeleny’s Sedimentation Analysis and Adhesive Properties Analysis
+Results revealed that plasma treatment did not change (p > 0.05) (provided in the Supplementary Materials) the sedimentation values. However, the obtained sedimentation values of 36 ± 1 mL confirm the presence of medium flour (type 550) under investigation.
+3.2.3. Water Absorption: Farinograph Tests
+Farinograph analysis is used to observe dough behavior during the kneading process. Dough attributes are dependent on the water absorption capacity and can be determined by the amount of water that is used to reach the standard consistency (500 BU line of Farinograph) [87,88]. Water absorption plays an important role in dough network building, as it provides a ground for chemical reactions to occur during the dough development step.
+Table 2 shows the water absorption capacity of doughs made from untreated and treated flour obtained by the Farinograph test.
+Table 2. Water absorption capacity of dough samples made from untreated and treated wheat flour and measured by Farinograph.
+Treated dough samples made from treated and untreated flour show the same water absorption behavior, which can be also confirmed by the p-value (>0.05) obtained by ANOVA analysis (provided in the Supplementary Materials). Depicted results lie in the standard range (>58–60%) for the water absorption capacity of the wheat flour, confirming no negative effects of NTP on wheat flour water absorption capacity.
+3.2.4. Dough Stability and Softening: Farinograph
+Results shown in Table 3 demonstrate the ability of NTP to intensify the dough stability, which accelerates with the treatment time (p < 0.05, ANOVA, provided in the Supplementary Materials) and reaches the maximum value (i.e., above 15%) at the treatment time of 5 min. Results concerning the softening properties indicate a trend towards a decline in softening properties (i.e., higher dough strength) with NTP treatment. The change in these properties is connected to the change in gluten proteins, as described in Section 3.2.1.
+Table 3. Stability and softening of dough samples prepared from untreated and treated wheat flour andmeasured by Farinograph.
+3.2.5. Dough Stretch Resistance, Dough Extensibility, and Their Ratio: Kieffer Rig
+Table 4 encloses the results for the stretch resistance, extensibility, and their ratio for dough samples, prepared by untreated and treated flour as a function of treatment time. The p-value (<0.05) obtained by ANOVA analysis (provided in the Supplementary Materials) confirms the existence of a significant statistical difference between the control and the NTP-treated samples.
+Table 4. Stretch resistance and extensibility of doughs made of untreated and treated flour samples and measured by the Kieffer rig.
+The results demonstrate that the dough strength or firmness increased for samples prepared from treated flour, in comparison to the control samples, i.e., dough produced from untreated wheat flour. The maximum change in dough extensibility properties and resistance to elongation were observed at the treatment time of 3 min, which corresponds to an increase of 30% and 36%, respectively.
+The variation (increase or decrease) in wheat flour-dough protein properties is strongly related to the end product specifications. Thus, it is not easy to claim the extent of positive or negative change in protein properties due to NTP treatment. For example, due to the formation of –SH bonds, the dough is stronger, meaning that the handling of the dough is good and it can better retain its structure. On the other hand, loaf strength can negatively affect the volume of the baked bread while CO2 release faces more resistance, and thus, the crumb volume might be lower.
+3.3. Other Flour Quality Analysis
+Starch, which is a pure carbohydrate, represents the major part (63–72%) of the wheat grain consisting of glucose polymers, amylose, and amylopectin [89]. Two types of starch granules, type A (long and lenticular shape) and type B (small and spherical), are identified in wheat flour [90]. Scanning electron microscopy (SEM) images of starch types can be found in our previous study [64].
+Starch quality and quantity directly affect the wheat dough’s strength, as starch is physically entrapped in a gluten network and acts as an inert filler during dough making [89]. In baked goods, starch is responsible for pasting properties due to its viscosity change during heating and water absorption [91]. In this section, the results of starch component analysis before and after the NTP treatment are presented.
+3.3.1. Falling Number
+The FN numbers of untreated and treated flour samples were compared. Obtained results showed a reduced α–enzymatic activity, i.e., a higher FN number (>300) for all the samples. The p-value obtained by ANOVA analysis (provided in the Supplementary Materials) was above 0.05, representing no significant statistical difference between the control and plasma-treated samples. Hence, it was concluded that NTP does not affect the structural integrity of the starch chain.
+3.3.2. Starch Gelatinization Temperature, Viscosity, and Starch Damage
+Obtained results show no significant change (p > 0.05, provided in the Supplementary Materials) in the pasting properties of starch after the plasma treatment.
+3.4. Color Properties of Flour and Baked Products
+The color of flour and baked products is an important quality attribute that can be evaluated by human vision and by instruments. In the current research, the CIE criterion was used to evaluate the influence of plasma treatment on the color of flour and baked products.
+3.4.1. Color Analysis of Flour
+The values of color grade for control wheat flour confirmed its color close to white. Obtained results show that the color grades of the treated samples remain close to the untreated sample (>90 for L and >10 for b). This confirmed no negative effect of the NTP treatment, i.e., the color of flour particles remained unchanged and uniform.
+3.4.2. Color Analysis of Baked Products
+The CIE color coordinates values were also obtained for baked products made of untreated and NTP-treated flour and are summarized in Table 5. In contrast to the findings regarding the wheat flour samples, a change in the color of the wheat-baked products produced from treated flour was observed. The values of L, b, a, and ΔE showed that plasma caused a lighter color in the baked wheat products.
+Table 5. Color analysis of wheat-baked products produced from untreated and treated wheat flour samples, according to CIE methods.
+3.5. Baking Product Quality
+In the presented research, the NTP effects on the baked product, i.e., bread volume, its softness, extension, and aroma properties, were investigated.
+3.5.1. Product Volume
+Figure 4 shows the volume of sandwich bread produced from untreated and plasma-treated flour at two different proofing times, i.e., (a) 60 min and (b) 90 min. In both cases, plasma treatment clearly resulted (p < 0.05) (ANOVA analysis, provided in the Supplementary Materials) in a higher loaf volume, i.e., on average, 9%. This effect is connected to the influence of plasma on the protein and the starch network formation, which were addressed in Section 3.2 and Section 3.3.
+Figure 4. Effect of NTP treatment of flour on the bread volume (a) normal proofing time (b) extended proofing time.
+Studies [92,93] indicate that an increased proofing time can result in an increased loaf volume. Figure 4b shows that the extended proofing time (90 min) also significantly changes (p < 0.05) the dough volume when the flour was treated with plasma. However, at the treatment time of 1 min, a maximum increase of 5% in volume was observed. This corresponds to the finding shown in Section 3.2 and Section 3.3, where an increased protein-starch network formation was noticed at higher treatment times. The dough is more stable and resists restoring its form on the production of CO2 gas by yeasts.
+3.5.2. Product Freshness
+The texture and pliability of bread are indicators of freshness and can be evaluated through texture analysis. Figure 5 shows the measured freshness of products, expressed through the softness and the elasticity of the tested bread. Results indicate softening of bread produced from NTP-treated flour (with p < 0.05, provided in the Supplementary Materials), which could be related to increased visco-elastic properties of the dough (increase in GI, Table 1). On the other hand, the elasticity of bread samples was not significantly affected (provided in the Supplementary Materials) by increased plasma treatment times (p > 0.05).
+Figure 5. Effect of the NTP treatment on the bread freshness, expressed in terms of (a) softness and (b) elasticity.
+3.5.3. Sensory Analysis
+Sensory analysis is vital for food products, as it establishes the quality and the acceptance of a product among defined target customer groups and markets. The sensory organs (eyes, nose, mouth, skin, and ears) are applied to analyze and evaluate the food product characteristics according to various schemes. DLG (Deutsche Landwirtschafts-Gesellschaft, i.e., German Agricultural Society) is one of the oldest institutions in Germany that provides certified sensory tests for food and beverages [94]. Ozone, which is extensively produced during the NTP treatment, is known for its specific smell. Therefore, treated flour and corresponding baking product were tested for smell and taste using the DLG—sensory analysis scheme. The obtained results excluded the retention of ozone smell in the flour and baked products, which is beneficial for the future application of NTP in wheat flour treatment.
+3.6. Flour Microbiology (Bacteria and Enzymes)
+The studied flour was free from most of the detrimental microbial colonies; therefore, no reduction of the overall microorganism activity due to plasma treatment could be established. However, plasma treatment did result in a statistically significant reduction of Enterobacteriaceae (p < 0.05, provided in the Supplementary Materials), as shown in Figure 6. The presented results demonstrate the ability of NTP treatment to reduce the microorganism count between 20 and 80%.
+Figure 6. Effect of plasma treatment times on the Enterobacteriaceae microorganism count.
+3.7. Flour Fat Amount
+The function of fat is versatile during bread making. The chemistry and the physical properties of fat impart richness and tenderness to improve flavor and mouth-feel properties [95]. The role of fat in enhancing the aeration of dough by CO2 and supporting the role in leavening and volume of baked products was also reported in the literature [96,97].
+An amount of unsaturated fat, present in both untreated and treated flour samples (Figure 7), is represented as the iodine value (IV), which shows the mass of iodine consumed by 100 g of fat.
+Figure 7. Effect of NTP treatment on the fat amount in untreated and treated wheat flour, expressed through the iodine value.
+Analysis showed that the NTP treatment of up to 3 min did not change the fat amount in the flour. However, the treatment time of 5 min resulted in an 18% reduction of fat amount in wheat flour. This means that short plasma treatment times do not deteriorate the properties induced by fat in the baked products; however, it reduces the amount of fat in the treated flour at higher plasma treatment times.
+3.8. NTP Treatment vs. Ascorbic Acid
+In order to compare the impact of flour improver (ascorbic acid (ASC), glucose oxidase (GOX)), and the NTP treatment on flour properties, the extensographic properties were emphasized rather than the farinographic. In this study, ASC and ASC + GOX were added (0.2%) to untreated flour samples to compare their enhancement properties with the potential of NTP treatment.
+Obtained results (Figure 8) depict that the 3 min plasma treatment resulted in a similar extenographic properties enhancement of flour as induced by the ASC. On the other hand, it did not reach the extenographic properties enhancement of ASC + GOX. Furthermore, too short or too long NTP-treatment did not enhance extenographic properties in comparison to the control sample.
+Figure 8. The extenographic properties of control, plasma treated, and ascorbic acid flour samples.
+This finding indicates that the proper NTP treatment of flour could significantly affect the flour’s extenographic properties and, in this sense, would be able to replace chemicals for this purpose. However, further investigation in terms of the optimal treatment time is needed.
+4. Conclusions
+The overall conclusion, which can be drawn from the presented experimental analysis, is that the NTP treatment of wheat flour showed positive effects on flour properties and properties of its products, even for very short treatment times (≤5 min). Plasma species produced during NTP treatment showed a potential to affect the flour and dough structural network attributes, i.e., protein, starch, color, surface structure, enzymatic, and microorganisms activity to a certain extent. An important finding is that no negative effects on the product quality were observed.
+NTP treatment made treated flour slightly moister, which is expressed as an increase in the moisture content, but the amount of free water, expressed as the water activity, decreased. Decreased water activity (<0.7) is expected to result in improved flour stability and product shelf life. For the treatment duration of 5 min, flour protein strength (expressed through the GI) increased by 8%, which is an indicator of a more stable dough. The NTP treatment of 3 min resulted in an increased dough extensibility and resistance to elongation, i.e., an increase of >30% and >45%, respectively.
+Regarding a baking product, an increase in dough volume of, on average, 9% was observed for the loaves made from plasma-treated flour. This finding indicates the softening of a breadcrumb without causing a change in the bread elasticity. Even though the color of treated flour samples stayed unchanged, the whiteness of a breadcrumb was increased (>6%). The enzyme activity within flour decreased, which has a positive effect on safety; however, α amylase activity is reduced, which is essential for the dough’s softness. Longer treatment times (5 min) resulted in a decreased amount of fat in flour, which may reduce the flavor and mouth-feel properties of the baked goods.
+Presented results indicate that the NTP treatment of flour could be used as an alternative to chemicals for changing the flour and respective dough functional properties on an industrial scale. However, as an outlook to this work, the upscaling of this technology can be challenging in terms of the reactor design to provide a uniform, direct contact between flour and plasma species, as the optimal flour treatment procedure is vital for further implementation of NTP-based flour treatment. Even though some aspects of food safety were investigated, the applicability of NTP treatment in the food industry still needs to be approved, e.g., a review of the processes with regard to the Novel Food Regulation is suggested.
+Supplementary Materials
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/foods12102056/s1.
+Author Contributions
+Conceptualization, M.J.K., A.Z.-R. and V.J.; methodology, M.J.K., A.Z.-R., V.Z. and V.J.; software, M.J.K.; validation, M.J.K.; formal analysis, M.J.K. and A.Z.-R.; investigation, M.J.K.; resources, A.D. and V.J.; writing—original draft preparation, M.J.K., A.Z.-R. and V.J.; writing—review and editing, M.J.K., A.Z.-R., V.Z. and V.J.; visualization, M.J.K., A.Z.-R. and V.J.; supervision, V.J., A.D. and B.H.; project administration, A.Z.-R. and V.Z.; funding acquisition, V.J., A.D. and B.H. All authors have read and agreed to the published version of the manuscript.
+Funding
+This IGF Project of the FEI was supported via AiF within the program for promoting the Industrial Collective Research (IGF) of the German Ministry of Economics and Climate Action (BMWK), based on a resolution of the German Parliament. Project AiF 20629 N.
+Data Availability Statement
+Data is contained within the article or Supplementary Material.
+Acknowledgments
+We acknowledge financial support by Deutsche Forschungsgemeinschaft and Friedrich-Alexander-Universität Erlangen-Nürnberg within the funding programme “Open Access Publication Funding”. We express our gratitude to the company Diener, for the support in establishing the non-thermal plasma set-up. We also express our special gratitude to the company DIOSNA Dierks & Söhne GmbH, for the support in analysis of the flour, dough, and baked products. Furthermore, we are also thankful to Bernd Hitzmann, Viktoria Zettel and Sarah Moll from Institute of Food Science and Biotechnology, University of Hohenheim, for conception and moderation of the project.
+Conflicts of Interest
+The authors declare no conflict of interest. The founding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript; and in the decision to publish the results.
+References
+Laskowski, W.; Górska-Warsewicz, H.; Rejman, K.; Czeczotko, M.; Zwolińska, J. How Important are Cereals and Cereal Products in the Average Polish Diet? Nutrients 2019, 11, 679. [Google Scholar] [CrossRef] [PubMed]
+Stokes, J.R.; Xu, Y. Rheology of Food Materials: Impact on and Relevance in Food Processing. In Reference Module in Food Science; Elsevier: Amsterdam, The Netherlands, 2019. [Google Scholar]
+Ramli, A.N.M.; Hong, P.K.; Manas, N.H.A.; Azelee, N.I.W. An overview of enzyme technology used in food industry. In Value-Addition in Food Products and Processing Through Enzyme Technology; Elsevier: Amsterdam, The Netherlands, 2022. [Google Scholar]
+Vitale, M.; Schillaci, D. Food Processing and Foodborne Illness. In Reference Module in Food Science; Elsevier: Amsterdam, The Netherlands, 2016. [Google Scholar]
+Park, S.H.; Lamsal, B.P.; Balasubramaniam, V.M. Principles of Food Processing. In Food Processing Principles and Applications, 2nd ed.; Wiley: Hoboken, NJ, USA, 2014. [Google Scholar]
+Lee, S.H.; Choi, W.; Jun, S. Conventional and Emerging Combination Technologies for Food Processing. Food Eng. Rev. 2016, 8, 414–434. [Google Scholar] [CrossRef]
+Jadhav, H.B.; Annapure, U.S.; Deshmukh, R.R. Non-thermal Technologies for Food Processing. Front. Nutr. 2021, 8, 657090. [Google Scholar] [CrossRef] [PubMed]
+Jay, J.M. Food Preservation with Chemicals BT-Modern Food Microbiology; Jay, J.M., Ed.; Springer: Boston, MA, USA, 1995; pp. 273–303. [Google Scholar]
+D’souza, A.A.; Kumari, D.; Banerjee, R. Nanocomposite biosensors for point-of-care—Evaluation of food quality and safety. Nanobiosensors 2017, 629–676. [Google Scholar] [CrossRef]
+Hogan, E.; Kelly, A.L.; Sun, D.W. High pressure processing of foods. An Overview. In Emerging Technologies for Food Processing; Elsevier: Amsterdam, The Netherlands, 2005. [Google Scholar]
+Chandrasekaran, S.; Ramanathan, S.; Basak, T. Microwave food processing—A review. Food Res. Int. 2013, 52, 243–261. [Google Scholar] [CrossRef]
+Bhargava, N.; Mor, R.S.; Kumar, K.; Sharanagat, V.S. Advances in application of ultrasound in food processing: A review. Ultrason. Sonochem. 2021, 70, 105293. [Google Scholar] [CrossRef]
+McHugh, T. Putting ultrasound to use in food processing. Food Technol. 2016, 12, 16. [Google Scholar]
+Jhandai, P.; Jadhav, V.J.; Gupta, R. Bio-preservation of Foods: A Review. Eur. J. Nutr. Food Saf. 2019, 11, 164–174. [Google Scholar] [CrossRef]
+Ravindra, M.R. Vacuum processing of food–A Mini Review. MOJ Food Process. Technol. 2018, 6, 283–290. [Google Scholar] [CrossRef]
+Fellows, P.J. Food Processing Technology: Principles and Practice. In Food Processing Technology, 2nd ed.; parts 1–4; Elsevier: Amsterdam, The Netherlands, 2000. [Google Scholar]
+EL Sabagh, A.; Islam, M.S.; Skalicky, M.; Raza, M.A.; Singh, K.; Hossain, M.A.; Hossain, A.; Mahboob, W.; Iqbal, M.A.; Ratnasekera, D.; et al. Salinity Stress in Wheat (Triticum aestivum L.) in the Changing Climate: Adaptation and Management Strategies. Front. Agron. 2021, 3, 661932. [Google Scholar] [CrossRef]
+Wieser, H.; Koehler, P.; Scherf, K.A. Chapter 2—Chemical Composition of Wheat Grains. In Wheat—An Exceptional Crop; Wieser, H., Koehler, P., Scherf, K.A., Eds.; Woodhead Publishing: Cambridge, UK, 2020; pp. 13–45. [Google Scholar]
+Uthayakumaran, S.; Wrigley, C. Chapter 5—Wheat: Grain-Quality Characteristics and Management of Quality Requirements. In Cereal Grains: Assessing and Managing Quality, 2nd ed.; Woodhead Publishing Series in Food Science, Technology and Nutrition; Wrigley, C., Batey, I., Miskelly, D., Eds.; Woodhead Publishing: Cambridge, UK, 2017; pp. 91–134. [Google Scholar]
+Colmenero, F.J. Chemistry and Physics of Comminuted Products Nonmeat Proteins. In Encyclopedia of Meat Sciences, 2nd ed.; Dikeman, M., Devine, C., Eds.; Academic Press: Oxford, UK, 2014; pp. 289–295. [Google Scholar]
+Carson, G.R.; Edwards, N.M. Chapter 4—Criteria of Wheat and Flour Quality. In American Associate of Cereal Chemists International, 4th ed.; Khan, K., Ed.; AACC International Press: Washington, DC, USA, 2009; pp. 97–118. [Google Scholar]
+Posner, E.S. Chapter 5—Wheat Flour Milling. In American Associate of Cereal Chemists International, 4th ed.; Khan, K., Ed.; AACC International Press: Washington, DC, USA, 2009; pp. 119–152. [Google Scholar]
+Békés, F.; Wrigley, C.W. The Protein Chemistry of Cereal Grains. In Encyclopedia of Food Grains, 2nd ed.; Elsevier: Amsterdam, The Netherlands, 2015. [Google Scholar]
+Shewry, P.R. Wheat. J. Exp. Bot. 2009, 60, 1537–1553. [Google Scholar] [CrossRef] [PubMed]
+Scherf, K.A.; Köhler, P. Wheat and gluten: Technological and health aspects. Ernahr. Umsch. 2016, 63, 166–175. [Google Scholar]
+Cato, L.; Mullan, D. Chapter 8—Wheat quality: Wheat breeding and quality testing in Australia. In Woodhead Publishing Series in Food Science, Technology and Nutrition, 3rd ed.; Woodhead Publishing: Cambridge, UK, 2020; pp. 221–259. [Google Scholar]
+Cracknell, R.L. Wheat: The Crop. In Encyclopedia of Food and Health; Caballero, B., Finglas, P.M., Toldrá, F., Eds.; Academic Press: Oxford, UK, 2016; pp. 478–485. [Google Scholar]
+Gras, P.W.; Anderssen, R.S.; Keentok, M.; Békés, F.; Appels, R. Gluten protein functionality in wheat flour processing: A review. Aust. J. Agric. Res. 2001, 52, 1311. [Google Scholar] [CrossRef]
+Goesaert, H.; Brijs, K.; Veraverbeke, W.; Courtin, C.; Gebruers, K.; Delcour, J. Wheat flour constituents: How they impact bread quality, and how to impact their functionality. Trends Food Sci. Technol. 2005, 16, 12–30. [Google Scholar] [CrossRef]
+Ooms, N.; Delcour, J.A. How to impact gluten protein network formation during wheat flour dough making. Curr. Opin. Food Sci. 2019, 25, 88–97. [Google Scholar] [CrossRef]
+Jekle, M.; Becker, T. Wheat Dough Microstructure: The Relation between Visual Structure and Mechanical Behavior. Crit. Rev. Food Sci. Nutr. 2015, 55, 369–382. [Google Scholar] [CrossRef] [PubMed]
+Dogan, C.E.; Cebi, N.; Develioglu, A.; Olgun, E.O.; Sagdic, O. Detection of cystine and cysteine in wheat flour using a robust LC-MS/MS method. J. Cereal Sci. 2018, 84, 49–54. [Google Scholar] [CrossRef]
+Li, M.; Lee, T.-C. Effect of Cysteine on the Functional Properties and Microstructures of Wheat Flour Extrudates. J. Agric. Food Chem. 1996, 44, 1871–1880. [Google Scholar] [CrossRef]
+Stauffer, C.E. Principles of dough formation. In Technology of Breadmaking; Springer: Berlin/Heidelberg, Germany, 2007. [Google Scholar]
+Rombouts, I.; Lagrain, B.; Brijs, K.; Delcour, J.A. Cross-linking of wheat gluten proteins during production of hard pretzels. Amino Acids 2012, 42, 2429–2438. [Google Scholar] [CrossRef]
+Alldrick, A.J. Chemical contamination of cereals. In Chemical Contaminants and Residues in Food; Elsevier: Amsterdam, The Netherlands, 2012. [Google Scholar]
+Wieser, H. The use of redox agents in breadmaking. In Breadmaking: Improving Quality, 2nd ed.; Woodhead Publishing: Cambridge, UK, 2012. [Google Scholar]
+Cauvain, S.P. The use of redox agents in breadmaking. In Breadmaking: Improving Quality, 3rd ed.; Woodhead Publishing: Cambridge, UK, 2020. [Google Scholar]
+Obadi, M.; Zhu, K.-X.; Peng, W.; Sulieman, A.A.; Mahdi, A.A.; Mohammed, K.; Zhou, H.-M. Shelf life characteristics of bread produced from ozonated wheat flour. J. Texture Stud. 2018, 49, 492–502. [Google Scholar] [CrossRef]
+Sandhu, H.P.; A Manthey, F.; Simsek, S. Quality of bread made from ozonated wheat (Triticum aestivum L.) flour. J. Sci. Food Agric. 2011, 91, 1576–1584. [Google Scholar] [CrossRef] [PubMed]
+Mei, J.; Liu, G.; Huang, X.; Ding, W. Effects of ozone treatment on medium hard wheat (Triticum aestivum L.) flour quality and performance in steamed bread making. CyTA J. Food 2016, 14, 1–8. [Google Scholar] [CrossRef]
+Rice, R.G.; Graham, D.M. U.S. FDA Regulatory Approval of Ozone as an Antimicrobial Agent—What Is Allowed and What Needs to Be Understood. Ozone News. Available online: https://technozone.in/img/pdf/FDA-e.pdf (accessed on 10 January 2023).
+Dutta, D.; Nath, A.; Mukhim, K.; Swer, T.; Verma, N.; Deka, B.C.; Gangwar, B. A Review on Application of Ozone in the Food Processing and Packaging. J. Food Prod. Dev. Packag. 2014, 1, 7–21. [Google Scholar]
+Takeuchi, K. OZONE, 2nd ed.; Worsfold, P., Townshend, A., Eds.; Elsevier: Oxford, UK, 2005; pp. 462–471. [Google Scholar]
+Yehia, A. Characteristics of the dielectric barrier corona discharges. AIP Adv. 2019, 9, 045214. [Google Scholar] [CrossRef]
+Zhang, J.; Zhou, Z.; Ye, T.; Xu, Z.; Xia, W. Corona Inducing Dielectric Barrier Discharge. Ispc_20. 2011. Available online: https://www.ispc-conference.org/ispcproc/ispc20/290.pdf (accessed on 1 March 2023).
+Penetrante, B.M.; Hsiao, M.C.; Merritt, B.T.; Vogtlin, G.E.; Wallman, P.H.; Neiger, M.; Wolf, O.; Hammer, T.; Broer, S. Pulsed corona and dielectric-barrier discharge processing of NO in N2. Appl. Phys. Lett. 1996, 68, 3719–3721. [Google Scholar] [CrossRef]
+Adhikari, B.R.; Khanal, R. Introduction to the Plasma State of Matter. Himal. Phys. 2013, 4, 60–64. [Google Scholar] [CrossRef]
+Rezaei, F.; Vanraes, P.; Nikiforov, A.; Morent, R.; De Geyter, N. Applications of Plasma-Liquid Systems: A Review. Materials 2019, 12, 2751. [Google Scholar] [CrossRef]
+Zhang, B. Principles, Methods, Formation Mechanisms, and Structures of Nanomaterials Prepared via Gas-Phase Processes. In Physical Fundamentals of Nanomaterials; Elsevier: Amsterdam, The Netherlands, 2018. [Google Scholar]
+Frank-Kamenetskii, D.A. Plasma Thermodynamics BT-Plasma: The Fourth State of Matter; Frank-Kamenetskii, D.A., Ed.; Macmillan Education: London, UK, 1972; pp. 25–34. [Google Scholar]
+O’Neill, T.; Rynk, R.; Black, G.; Bokowa, A.F. Odor management and community relations. In The Composting Handbook; Elsevier: Amsterdam, The Netherlands, 2022. [Google Scholar]
+Holubová, L.; Kyzek, S.; Ďurovcová, I.; Fabová, J.; Horváthová, E.; Ševčovičová, A.; Gálová, E. Non-Thermal Plasma—A New Green Priming Agent for Plants? Int. J. Mol. Sci. 2020, 21, 9466. [Google Scholar] [CrossRef]
+López, M.; Calvo, T.; Prieto, M.; Múgica-Vidal, R.; Muro-Fraguas, I.; Alba-Elías, F.; Alvarez-Ordóñez, A. A Review on Non-thermal Atmospheric Plasma for Food Preservation: Mode of Action, Determinants of Effectiveness, and Applications. Front. Microbiol. 2019, 10, 622. [Google Scholar] [CrossRef]
+Patil, S.; Bourke, P.; Cullen, P.J. Principles of Nonthermal Plasma Decontamination. In Cold Plasma in Food and Agriculture: Fundamentals and Applications; Elsevier: Amsterdam, The Netherlands, 2016. [Google Scholar]
+Bahrami, N.; Bayliss, D.; Chope, G.; Penson, S.; Perehinec, T.; Fisk, I.D. Cold plasma: A new technology to modify wheat flour functionality. Food Chem. 2016, 202, 247–253. [Google Scholar] [CrossRef]
+Scholtz, V.; Šerá, B.; Khun, J.; Šerý, M.; Julak, J. Effects of Nonthermal Plasma on Wheat Grains and Products. J. Food Qual. 2019, 2019, 7917825. [Google Scholar] [CrossRef]
+Li, X.; Wen, Y.; Zhang, J.; Ma, D.; Zhang, J.; An, Y.; Song, X.; Ren, X.; Zhang, W.; Xuejie, L.; et al. Effects of non-thermal plasma treating wheat kernel on the physicochemical properties of wheat flour and the quality of fresh wet noodles. Int. J. Food Sci. Technol. 2022, 57, 1544–1553. [Google Scholar] [CrossRef]
+Wannicke, N. Potential on non-thermal plasma techniques for decontamination of wheat grains for agricultural use. Cereal Technol. 2018, 4, 244–255. [Google Scholar] [CrossRef]
+Montenegro, F.M.; Júnior, A.M.; Berteli, M.N.; Campelo, P.H.; Pedrosa, M.T.; Clerici, S. Effects of microwave-generated non-thermal plasma treatment applied to wheat flour and bran. Soc. Dev. 2021, 10, e12810817035. [Google Scholar] [CrossRef]
+Misra, N.N.; Kaur, S.; Tiwari, B.K.; Kaur, A.; Singh, N.; Cullen, P. Atmospheric pressure cold plasma (ACP) treatment of wheat flour. Food Hydrocoll. 2015, 44, 115–121. [Google Scholar] [CrossRef]
+Selvamuthukumaran, M. Non-Thermal Processing Technologies for the Grain Industry; CRC Press: Boca Raton, FL, USA, 2021. [Google Scholar]
+Muhammad, A.I.; Xiang, Q.; Liao, X.; Liu, D.; Ding, T. Understanding the Impact of Nonthermal Plasma on Food Constituents and Microstructure—A Review. Food Bioprocess Technol. 2018, 11, 463–486. [Google Scholar] [CrossRef]
+Khan, M.J.; Jovicic, V.; Zbogar-Rasic, A.; Delgado, A. Enhancement of Wheat Flour and Dough Properties by Non-Thermal Plasma Treatment of Wheat Flour. Appl. Sci. 2022, 12, 7997. [Google Scholar] [CrossRef]
+U.S. Food and Drug. Water Activity (aw) in Foods. Available online: https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods (accessed on 15 November 2022).
+Millar, S.J. The Development of Near Infrared (NIR) Spectroscopy Calibrations for the Prediction of Wheat and Flour Quality; HGCA Project Report; 1 January 2000–31 May 2003; Rothamsted Reaearch: Harpenden, UK, 2003. [Google Scholar]
+Dowell, F.E.; Maghirang, E.B.; Xie, F.; Lookhart, G.L.; Pierce, R.O.; Seabourn, B.W.; Bean, S.R.; Wilson, J.D.; Chung, O.K. Predicting Wheat Quality Characteristics and Functionality Using Near-Infrared Spectroscopy. Cereal Chem. 2006, 83, 529–536. [Google Scholar] [CrossRef]
+Oikonomou, N.A.; Bakalis, S.; Rahman, M.S.; Krokida, M.K. Gluten Index for Wheat Products: Main Variables in Affecting the Value and Nonlinear Regression Model. Int. J. Food Prop. 2015, 18, 1–11. [Google Scholar] [CrossRef]
+Foote, D. The Sedimentation Test of Wheat Quality; No. May; University of Nebraska-Lincoln: Lincoln, NE, USA, 2014. [Google Scholar]
+Dunnewind, B.; Sliwinski, E.; Grolle, K.; Vliet, T. The Kieffer Dough and Gluten Extensibility Rig—An Experimental Evaluation. J. Texture Stud. 2003, 34, 537–560. [Google Scholar] [CrossRef]
+Sissons, M.J.; Soh, H.N.; A Turner, M. Role of gluten and its components in influencing durum wheat dough properties and spaghetti cooking quality. J. Sci. Food Agric. 2007, 87, 1874–1885. [Google Scholar] [CrossRef]
+Kiszonas, A.M.; Engle, D.A.; Pierantoni, L.A.; Morris, C.F. Relationships between Falling Number, α-amylase activity, milling, cookie, and sponge cake quality of soft white wheat. Cereal Chem. 2018, 95, 373–385. [Google Scholar] [CrossRef]
+Pojić, M.; Hadnađev, M.; Hadnađev, T.D. Gelatinization properties of wheat flour as determined by empirical and fundamental rheometric method. Eur. Food Res. Technol. 2013, 237, 299–307. [Google Scholar] [CrossRef]
+CIE. International Comission on Illumination. Available online: http://cie.co.at/about-cie (accessed on 6 July 2022).
+Delcour, J.A.; Hoseney, R.C. Principles of Cereal Science and Technology; Amer Assn of Cereal Chemists: Egan, MN, USA, 2010. [Google Scholar]
+Calvin, O. Starch and modified starch in bread making: A review. Afr. J. Food Sci. 2016, 10, 344–351. [Google Scholar] [CrossRef]
+Rose, D.J.; Bianchini, A.; Martinez, B.; Flores, R.A. Methods for Reducing Microbial Contamination of Wheat Flour and Effects on Functionality. Cereal Foods World 2012, 57, 104–109. [Google Scholar] [CrossRef]
+Cordier, J.-L. 17-Enterobacteriaceae. In Woodhead Publishing Series in Food Science, Technology and Nutrition; Motarjemi, Y., Adams, M., Eds.; Woodhead Publishing: Cambridge, UK, 2006; pp. 450–475. [Google Scholar]
+Domian, E.; Poszytek, K. Wheat flour flowability as affected by water activity, storage time and consolidation. Int. Agrophysics 2005, 19, 119–124. [Google Scholar]
+Nasir, M.; Butt, M.S.; Faqir, M.A.; Sharif, K.; Minhas, R. Effect of Moisture on the Shelf Life of Wheat Flour. Int. J. Agric. Biol. 2003, 5, 458–459. [Google Scholar]
+Los, A.; Ziuzina, D.; Boehm, D.; Cullen, P.J.; Bourke, P. Investigation of mechanisms involved in germination enhancement of wheat (Triticum aestivum) by cold plasma: Effects on seed surface chemistry and characteristics. Plasma Process. Polym. 2019, 16, 1800148. [Google Scholar] [CrossRef]
+Labuza, T.P.; McNally, L.; Gallagher, D.; Hawkes, J.; Hurtado, F. Stability of Intermediate Moisture Foods. 1. Lipid Oxidation. J. Food Sci. 1972, 37, 154–159. [Google Scholar] [CrossRef]
+Kadkol, G.P.; Sissons, M. Durum Wheat: Overview. In Encyclopedia of Food Grains, 2nd ed.; Elsevier: Amsterdam, The Netherlands, 2015. [Google Scholar]
+Czuchajowska, Z.; Paszczyñska, B. Is wet gluten good for baking? Cereal Chem. 1996, 73, 483–489. [Google Scholar]
+Ionescu, V.; Stoenescu, G. Comparative evaluation of wet gluten quantity and quality through Different Methods. Food Technol. 2010, 34, 49–53. [Google Scholar]
+Menkovska, M.; Mangova, M.; Dimitrov, K. Effect of Cold Plasma on Wheat Flour and Bread Making Quality. Maced. J. Anim. Sci. 2014, 4, 27–30. [Google Scholar] [CrossRef]
+Xhabiri, G.Q. Rheological Qualities of Dough from Mixture of Flour and Wheat Bran and Possible Correlation between Bra Bender and Mixolab Chopin Equipments. MOJ Food Process. Technol. 2016, 2, 121–128. [Google Scholar] [CrossRef]
+Okuda, R.; Tabara, A.; Okusu, H.; Seguchi, M. Measurement of Water Absorption in Wheat Flour by Mixograph Test. Food Sci. Technol. Res. 2016, 22, 841–846. [Google Scholar] [CrossRef]
+Van Der Borght, A.; Goesaert, H.; Veraverbeke, W.S.; Delcour, J.A. Fractionation of wheat and wheat flour into starch and gluten: Overview of the main processes and the factors involved. J. Cereal Sci. 2005, 41, 221–237. [Google Scholar] [CrossRef]
+Maningat, C.C.; Seib, P.A. Understanding the Physicochemical and Functional Properties of Wheat Starch in Various Foods. Cereal Chem. 2010, 87, 305–314. [Google Scholar] [CrossRef]
+Ma, Y.; Wu, D.; Guo, L.; Yao, Y.; Yao, X.; Wang, Z.; Wu, K.; Cao, X.; Gao, X. Effects of Quinoa Flour on Wheat Dough Quality, Baking Quality, and in vitro Starch Digestibility of the Crispy Biscuits. Front. Nutr. 2022, 9, 846808. [Google Scholar] [CrossRef]
+Almeida, E.L.; Kil Chang, Y. Effect of proving time on the quality of frozen pre-baked French style rolls elaborated with the addition of wholegrain flour and enzymes. J. Food Sci. Technol. 2014, 51, 3390–3396. [Google Scholar] [CrossRef] [PubMed]
+Junqueira, R.M.; Rocha, F.; Moreira, M.A.; Castro, I.A. Effect of Proofing Time and Wheat Flour Strength on Bleaching, Sensory Characteristics, and Volume of French Breads with Added Soybean Lipoxygenase. Cereal Chem. 2007, 84, 443–449. [Google Scholar] [CrossRef]
+V. DLG e. Deutsche Landwirtschafts-Gesellschaft–German Agricultural Society. Available online: https://www.dlg.org/en/ (accessed on 8 December 2022).
+Pareyt, B.; Delcour, J.A. The Role of Wheat Flour Constituents, Sugar, and Fat in Low Moisture Cereal Based Products: A Review on Sugar-Snap Cookies. Crit. Rev. Food Sci. Nutr. 2008, 48, 824–839. [Google Scholar] [CrossRef]
+Manley, D. Technology of Biscuits, Crackers, and Cookies, 3rd ed.; Elsevier: Amsterdam, The Netherlands, 2000. [Google Scholar]
+Hui, Y.H.; Corke, H.; De Leyn, I.; Nip, W.K.; Cross, N. Bakery Products: Science and Technology; Wiley: Hoboken, NJ, USA, 2007. [Google Scholar]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2023 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Khan, M.J.; Jovicic, V.; Zbogar-Rasic, A.; Zettel, V.; Delgado, A.; Hitzmann, B. Influence of Non-Thermal Plasma Treatment on Structural Network Attributes of Wheat Flour and Respective Dough. Foods 2023, 12, 2056. https://doi.org/10.3390/foods12102056
+AMA Style
+Khan MJ, Jovicic V, Zbogar-Rasic A, Zettel V, Delgado A, Hitzmann B. Influence of Non-Thermal Plasma Treatment on Structural Network Attributes of Wheat Flour and Respective Dough. Foods. 2023; 12(10):2056. https://doi.org/10.3390/foods12102056
+Chicago/Turabian Style
+Khan, Muhammad Jehanzaib, Vojislav Jovicic, Ana Zbogar-Rasic, Viktoria Zettel, Antonio Delgado, and Bernd Hitzmann. 2023. "Influence of Non-Thermal Plasma Treatment on Structural Network Attributes of Wheat Flour and Respective Dough" Foods 12, no. 10: 2056. https://doi.org/10.3390/foods12102056
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details here.
+Article Metrics
+Citations
+Scopus
+  3
+Crossref
+  2
+Web of Science
+  2
+Google Scholar
+  [click to view]
+Article Access Statistics
+Article access statisticsArticle Views24. Apr4. May14. May24. May3. Jun13. Jun23. Jun3. Jul13. Jul0500100015002000
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Foods, EISSN 2304-8158, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

@@ -1,0 +1,72 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature communications earth & environment articles article
+Article
+Open access
+Published: 14 June 2024
+Earth’s atmosphere protects the biosphere from nearby supernovae
+Theodoros Christoudias
+, Jasper Kirkby
+, Dominik Stolzenburg
+, Andrea Pozzer
+, Eva Sommer
+, Guy P. Brasseur, Markku Kulmala
+& Jos Lelieveld
+  Communications Earth & Environment
+ 5, Article number: 326 (2024) Cite this article
+1664 Accesses
+356 Altmetric
+Metrics
+Abstract
+Geological evidence indicates that a supernova within 100 parsecs of Earth occurs around once per million years. Such nearby supernovas can produce an intense gamma-ray burst and a 100-fold increase of cosmic rays, lasting several centuries. We find that the effect of a short burst of gamma rays is small since they are strongly attenuated before reaching the lower stratosphere. Intense cosmic radiation affects stratospheric ozone but, due to compensating effects in catalytic chemical cycles, ozone depletion is moderate and comparable to that from current anthropogenic emissions. This also holds for the low-oxygen atmosphere during early evolution of terrestrial life. We estimate the increase in aerosol and clouds from a 100-fold increase of cosmic rays exerts a radiative forcing comparable in magnitude but opposite in sign to current anthropogenic climate forcing. We conclude that Earth’s atmosphere is effective at shielding the biosphere from nearby supernovae.
+Similar content being viewed by others
+Cosmogenic radionuclides reveal an extreme solar particle storm near a solar minimum 9125 years BP
+Article Open access
+11 January 2022
+Impact gardening on Europa and repercussions for possible biosignatures
+Article 12 July 2021
+The Toba supervolcano eruption caused severe tropical stratospheric ozone depletion
+Article Open access
+12 April 2021
+Introduction
+Supernovae (SN) are exploding, massive stars caused by gravitational collapse during their final stage of evolution. They are the main source of galactic cosmic rays (GCRs; ionising radiation, mainly protons) and can also generate intense gamma-ray bursts. Detection of 60Fe (half-life 2.60 My) in ocean sediments1,2, and the presence of a local gas- and dust-depleted bubble in the Milky Way, imply that several nearby core-collapse SN within about 100 parsec (pc, ~300 light years) of Earth occurred in the last 10 My3. Nearby SN were postulated to have the potential to cause mass extinctions4,5 due to the depletion of stratospheric ozone6 and consequent high ultraviolet (UV) exposure, and from increased number of aerosol particles and cloud cover, resulting in climate cooling (Fig. 1).
+Fig. 1: Supernova impacts.
+Potential atmospheric and climate impacts of a nearby supernova.
+Full size image
+Ruderman7 was the first to suggest that increased cosmic radiation from a nearby SN may deplete Earth’s atmospheric ozone. A number of studies4,8,9,10,11 have corroborated this conclusion. However, Crutzen and Brühl, and Gehrels et al.12,13, disputed catastrophic impacts, using two-dimensional chemistry-transport atmospheric models to infer that ozone depletion was significantly less severe than previously thought. They concluded that a supernova must occur within 8 pc to have a catastrophic effect on the biosphere. A signature of such a close supernova, however, has not been found in the geological record. Thomas14 concluded that supernova-induced stratospheric ozone loss and consequent increased UV exposure can contribute to changes in species abundances, but probably not to mass extinctions. Nonetheless, Fields et al.5 suggested that a nearby (~20 pc) supernova could intensify ionising radiation to such an extent that species extinctions can be expected. Furthermore, a connection between GCRs and cloud formation has been suggested to account for palaeoclimatic observations of solar-climate variability15,16. Svensmark et al.17 argued that if a near-Earth supernova were to occur, the increase in ionising radiation would strongly increase cloud condensation nuclei (CCN) concentrations. Svensmark18 proposed that SN strongly influences climate and, in turn, ocean circulation and marine biodiversity during the Phanerozoic.
+Results and discussion
+Atmospheric chemical composition
+Although low-dimensional atmospheric models have been used in previous studies, Earth system models (ESM), capturing the complex atmospheric circulation dynamics, chemistry, and process feedbacks, are needed to simulate stratospheric ozone loss in response to elevated ionisation16, leading to ion-induced nucleation and particle growth to CCN19,20. Here we use the ESM with Atmospheric Chemistry (EMAC) model21 with ion-induced aerosol processes based on CERN CLOUD experiments to study the impacts of nearby SN on Earth’s atmosphere and climate. We assume a representative nearby SN with GCR ionisation rates in the atmosphere that are 100 times present levels4,7. Though the energy spectrum of the incident GCRs from a nearby SN may change with time and can be modulated by the heliospheric magnetic field (solar wind) and the geomagnetic field, these influences on the GCR flux are relatively minor relative to that of the SN and galactic magnetic field alignment. The factor 100 represents the peak GCR flux estimated by Melott et al.22 for a SN at 50 pc and with a turbulent galactic magnetic field. Our model incorporates comprehensive atmospheric chemistry, propagation of GCR ionisation, ion-induced nucleation of new particles and their growth to CCN, and aerosol-cloud interactions, between Earth’s surface and 80 km altitude (see Methods for details).
+Ionising radiation dissociates stratospheric nitrogen and oxygen molecules into ground-state and excited N and O atoms. Excited N(2D) atoms may react with O2 to produce nitric oxide radicals, N(2D) + O2 → NO + O. The yield is 1.25 NO molecule per ion pair23. Nitric oxide rapidly reacts with ozone to produce nitrogen dioxide, NO + O3 → NO2 + O224,25. The NO2 may then be photolysed, NO2 + hν(<420 nm) → NO + O(3P), which is rapidly followed by O(3P) + O2 + M → O3 + M, thereby regenerating NO and causing no net ozone loss per cycle. However, the NO2 may alternatively interact with an O atom, NO2 + O → NO + O2, which represents a catalytic cycle that regenerates the NO radical and destroys two ozone molecules26,27. The oxidation of ground-state N(4S) is slow compared with the reaction N(4S) + NO → N2 + O, which limits the amount of NO that can accumulate and, in turn, ozone depletion12. In fact, a large fraction of the odd nitrogen (N + NO + NO2 + 2N2O5 + HNO2 + HNO3 + HNO4) is present as compounds other than chemically-active NOx (NO + NO2)—in particular HNO3—regardless of the initial formation in the atmosphere as NO12.
+Ionising radiation also produces hydroxyl radicals (OH), from the reaction O(1D) + H2O → 2OH. The yield is two OH molecules per ion pair16,28. In the lower and middle atmosphere, OH and HO2 radicals rapidly cycle, establishing the HOx family and, in the absence of NO, causing net catalytic destruction of ozone29. The reaction cycle is OH +O 3 → HO2 + O2 followed by HO2 + O3 → OH + O2 + O2 or HO2 + O → OH + O2. However, in the presence of NO, the hydroperoxyl radical, HO2, may regenerate OH via HO2 + NO → NO2 + OH. The NO2 can then photolyse to produce an oxygen atom which then forms O3, resulting in a null cycle for ozone removal30. GCRs therefore produce reactive radicals that contribute to both the destruction and the formation of ozone, leading to a relatively smaller net change.
+The overall relative change of NOx and HOx throughout the atmosphere is shown in Fig. 2a and b, respectively. While NOx increases throughout the troposphere and stratosphere, HOx decreases in the stratosphere and moderately increases in the troposphere. Our model simulations reveal substantially less ozone loss by cosmic rays from a nearby SN than previous estimates31; Fig. 2c shows the relative change of ozone versus latitude and altitude, and Fig. 3a shows the change in ozone column thickness versus time-of-year and latitude.
+Fig. 2: Relative annual mean change factor in atmospheric composition from a nearby supernova.
+Top: relative change of (a) NOx (NO + NO2), (b) HOx (OH + HO2), and (c) O3. The dashed line shows the mean tropopause height. Bottom: relative increase factor of (d) bisulfate ions (\({{{{{\mathrm{HSO}}}}}}_{4}^{-}\)), (e) new particle formation rates (>1.7 nm), and (f) total aerosol concentrations, due to a 100-fold increase in GCR intensity from a nearby supernova.
+Full size image
+Fig. 3: Change in atmospheric ozone from a nearby supernova.
+Atmospheric ozone column percentage decrease (colour) due to a 100-fold increase in GCR intensity over nominal versus latitude and time of year. Black contours with numerical contour level magnitudes indicate the annual average O3 column thickness in Dobson Units (1 Dobson Unit corresponds to 2.7 × 1016 molecules cm−2) for nominal GCR intensities: (a) Present-day atmospheric composition, without ozone-hole-inducing anthropogenic emissions. (b) Sensitivity test for 2% oxygen atmosphere, similar to conditions on Earth during the early Cambrian, a period renowned for its remarkable surge in biodiversity and evolutionary pace. The figure shows the important shielding effect of the geomagnetic field, which deflects a large fraction of the GCRs at low latitudes.
+Full size image
+Even though the increase of GCR flux incident on Earth is isotropic, the impact is largely localised over the polar regions due to the weak shielding (magnetic deflection) by the geomagnetic field, together with atmospheric circulations that dynamically isolate high- from middle latitudes in the lower stratosphere. The maximum ozone depletion over the poles is less than the present-day anthropogenic ozone hole over Antarctica, which amounts to an ozone column loss of 60–70%32. On the other hand, there is an increase of ozone in the troposphere, but it is well within the levels resulting from recent anthropogenic pollution33.
+We find that the maximum mean stratospheric O3 depletion, occurring at the end of the boreal summer, is of the order of 1011 kg, equivalent to around 10% globally, which is close to the observed global ozone depletion due to anthropogenic halogen compounds of about 5–6%32. Although significant, it is unlikely that such ozone changes would have a major impact on the biosphere, especially because most of the ozone loss is found to occur at high latitudes.
+Low oxygen atmosphere
+We have also studied the impact of nearby SN on a low-oxygen atmosphere, to assess their possible effect on the evolution of life. We considered atmospheric conditions that prevailed during the Cambrian between 540 and 485 million years ago. During this period, the diversity of life forms sharply increased, and plants and animals began to populate the land, abandoning the UV protection of the oceans34. The emerging vegetation used photosynthesis to assimilate CO2 and release O2, raising its atmospheric fraction from about 2% to 10% and facilitating the evolution of terrestrial animals35.
+We simulated a 2% oxygen atmosphere since this would likely represent conditions where the emerging biosphere on land would still be particularly sensitive to ozone depletion. We have conducted a sensitivity test with reduced atmospheric oxygen levels to be directly comparable to the nominal simulation with SN-enhanced GCR. This does not purport to be a full paleoclimate assessment, but reducing the oxygen content of the atmosphere to a few percent allows us to quantify the nearby SN impacts on the ozone layer. In the absence of SN, the global average ozone column thickness under 2% O2 conditions was about 100 DU (black contours in Fig. 3b), i.e. only a factor of three less than today’s atmospheric average of roughly 300 DU, as observed by the WMO Global Ozone Observing System, despite the presence of only one-tenth the oxygen. A reduced amount of stratospheric ozone allows deeper penetration of short-wave UV radiation that photodissociates oxygen (hv < 242 nm). Therefore, O3 formation relocates to lower altitudes with higher air and oxygen density, causing a vertical redistribution of ozone, which moderates ozone reduction in the vertical column. The relatively thinner 100 DU ozone layer was already able to absorb sufficient UV to allow evolution of life on land. The effect on this atmosphere of a 100-fold increase in GCR ionisation from a nearby supernova is shown in Fig. 3b). Ozone loss is about 10–25% at mid-latitudes and an order of magnitude lower in the tropics (Fig. 3). At high latitudes,

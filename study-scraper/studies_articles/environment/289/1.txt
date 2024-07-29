@@ -1,0 +1,1 @@
+This study tested the C4.5 algorithm to classify air quality data based on six measurement parameters: PM10, PM2.5, CO, O3, and NO2. The C4.5 algorithm is a decision-tree-based machine learning algorithm that can classify data with high accuracy. In this study, the algorithm was used to process air quality data collected from various monitoring stations in Samarinda.

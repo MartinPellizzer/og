@@ -1,0 +1,100 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Environmental Science and Pollution Research Article
+Recent contemporary advancements in solar energy engineering
+Editorial
+Published: 13 July 2024
+(2024)
+Cite this article
+Download PDF
+Environmental Science and Pollution Research
+Aims and scope
+Submit manuscript
+Rajneesh Kumar 
+136 Accesses
+Explore all metrics
+Introduction
+The drastic increase in the world’s population (nearly three times higher than that in the mid-1950s) results in an exponential rise in energy demand. Industrialization and urbanization are also a few other factors that burden the available energy sources. It is expected that the world’s population will increase by 2 billion people in the next 30 years and reach 9.7 billion by 2050. This population growth would create a considerable increase in energy demand. The expected increase in global energy demand over the next 20 years is 48%, and at the moment, fossil fuels account for almost 80% of that demand. Different issues are linked to the use of fossil fuels, like air pollution, ozone depletion, and global warming, which degrade the quality of the environment. Considering all these issues, there is a need for time to search for renewable and environmentally friendly energy sources for a better future for society.
+Among all other renewable energy sources, solar energy is the best choice because of its abundance, and it is emitted by the sun at a rate of 3.8 × 1023 kW, but only 1.8 × 1014 kW of radiation reaches the Earth. All the available energy demands can only be met freely with solar energy because of its abundance in nature. Flat-plate collectors (FPC) are used for harvesting solar energy for drying and space-heating applications. The FPC collectors consist of a flow passage, a heat-absorbing surface (which is usually painted black for better heat absorption), a blower (either suction or forces type), etc. The temperature achieved using the FPC is not that high, and it is limited to low-temperature operations. For getting higher temperatures through solar radiation, concentrated solar power (CSP) technology can be used, which gives a maximum temperature of 500 °C.
+The governments of various countries have taken various initiatives to promote renewable energy sources. Worldwide, approximately 4275 TWh of energy is harvested using renewable sources. In 2022, India increased renewable energy installation by 9.83% in a single year, which improved the solar energy harvesting capacity to 67.07 GW. There are different renewable sources that exist on Earth, like geothermal, hydropower, wind energy, and solar energy, and there are different methods that are used for harvesting the energy from them. For space heating applications, air is used as a working fluid (and the device is called a solar air heater; SAH), and because of its poor thermal conductivity, it has low performance. Different methods, like surface treatment methods, fluid velocity methods, combination methods, and compound augmentation methods, are used to improve the performance of solar collectors. Among all these methods, the surface treatment method is quite common for improving the thermal performance of the SAH. In the surface treatment method, the heated surface is artificially roughened to avoid the development of a viscous sublayer that exists on the surface under the turbulence flow. The break-up of these sublayers enhances the mixing of free-stream air with the heated surface and leads to better heat transfer. This heat augmentation is achieved at the expense of higher-pressure loss in comparison to an unroughened surface. The artificial roughness can have different shapes, and it may be configured in different orientations on the heated surface. The proper working of SAH in the sun’s absence is ensured by using energy storage materials that absorb heat in the sun’s presence and emit it in its absence.
+Solar energy can also be used for cooking purposes, and the device used for the same is called a solar cooker. In traditional cooking processes, biomass needs to be collected from cooking food, and a lot of time is wasted in this process. Solar cooking is a sustainable solution for a better future that operates on clean energy and produces no carbon emissions.
+This special issue is dedicated to the recent contemporary advancements in solar energy engineering (CASEE 2022). The selective papers that focused on latent modification in solar air heaters, solar cookers, energy storage materials used in solar heating, solar parabolic troughs, etc., have been considered for publication in this special issue.
+Articles selected in SI of contemporary advancements in solar energy engineering (CASEE 2022)
+Raju et al. have proposed a novel solar air heating system in which they have created a triangular cross-sectional SAH with one rounded corner (opposite the absorber plate). The hybrid roughness (consists of two different-shaped roughness elements arranged alternatively on the absorber plate) is used to improve the performance, and an attempt has been made by them to optimize the roughness parameters for optimum performance. The local vortex formation takes place in the flow, which leads to considerable enhancement in performance, and it is found at a relative transverse length of 20. A generalized solution has also been provided for other similar problems in the form of a correlation for the Nusselt number and friction factor.
+The performance of solar water heating systems is improved by Munusamy et al., in which they have introduced the dimples in the flow pipe, and also provided the aluminum coated on it. At a water flow rate of 2.5 kg/min, the maximum efficiency was noticed, that is, 11% more than the plain tube, while the pressure losses are higher at a water flow rate of 3 kg/min. A mathematical model is also been developed and verified (with an accuracy of 土3.24%) with the experimental findings for a fixed range of water flow rates.
+A novel solar cooker that consists of capsules containing the energy storage material (paraffin wax) was developed by Kumar et al., and the proposed capsules are attached to the cooking tray for fast cooking and with this design, the maximum temperature of 150 °C. The thermal efficiency that can be achieved by the proposed design is around 45.7% with a total power production of 54.71 W. On the other hand, the proposed of solar cooker has a payback period of only three years.
+Kumar et al. have investigated the performance of SAH having staggered V-ribs. Different design parameters, like roughness-length and staggered-distance, have been considered, and their effect has been examined on the performance. The flow separation and vortex generation in the flow resulted in 3.41 times higher energy augmentation with 2.56 times higher pressure loss in the SAH, and overall thermal efficiency improved to 73.64%. Conclusively, the proposed SAH is 2.69 times more effective than the conventional.
+Sharma and Jilte have proposed a novel design for a solar parabolic trough which consists of a convex-concave receiver pipe. The investigation of the suggested design was carried out numerically by the authors using CFD. The flow structure inside the receiver pipe varies considerably because of its convex-concave shape which increases local turbulence. The maximum 28.52% enhancement in heat transfer is achieved with the suggested design.
+Kumar et al. have modeled a hybrid renewable energy system to reduce the actual consumption for a health center that is located in Arunachal Pradesh, and its optimization has been done with the help of software. With the help of design-side management, a significant cost can be saved in the building using the proposed model. In the health center, a total cost of Rs. 3013482 can be saved by optimizing the energy resources.
+Singh et al. have investigated the solar air heating system, which is suitable for both space and drying purposes. A total of four different designs have been proposed and compared with each other to find the best among them. The design consists of a serrated absorber with and without PCM (phase-change material). The maximum efficiency that is claimed is 63%, which corresponds to 0.03 kg/s. The serrated absorber with PCM results in 23% higher efficiency than the one without PCM.
+Kumar et al. proposed a novel triangular cross-sectional solar air-heating system that includes an artificial roughness on the heating surface. The surface roughness is an elliptical-shaped cavity that creates multiple flow separation points along with the vortex formulation in flow. The heat augmentation improves by 2.57 times which gives an effective increment of 1.75 times the unroughened SAH.
+Author information
+Authors and Affiliations
+Chitkara University Institute of Engineering and Technology, Chitkara University, Rajpura, Punjab, 140401, India
+Rajneesh Kumar
+Corresponding author
+Correspondence to Rajneesh Kumar.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Reprints and permissions
+About this article
+Cite this article
+Kumar, R. Recent contemporary advancements in solar energy engineering. Environ Sci Pollut Res (2024). https://doi.org/10.1007/s11356-024-34327-1
+Download citation
+Published
+13 July 2024
+DOI
+https://doi.org/10.1007/s11356-024-34327-1
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Use our pre-submission checklist
+Avoid common mistakes on your manuscript.
+Sections
+Introduction
+Articles selected in SI of contemporary advancements in solar energy engineering (CASEE 2022)
+Author information
+Additional information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

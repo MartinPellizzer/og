@@ -1,0 +1,19 @@
+**Paragraph 1**
+
+Air pollution has become a major concern in China, with ozone concentrations increasing significantly over the years. This study aims to investigate the spatial-temporal evolution characteristics of ozone pollution in China and its response to urbanization. Using dynamic spatial panel data, we found that the average annual increase of ozone concentration was 1.68 μg/m3 from 2015 to 2019, with a significant increase in 2019 compared to 2015. The Moran's I value indicates a spatial distribution characteristic of "east heavy and west light" and "south low and north high".
+
+**Paragraph 2**
+
+This study employed the dynamic spatial Durbin model and geographically weighted regression (GTWR) model to analyze the driving mechanisms of ozone pollution in the context of urbanization. We selected four indicators of urbanization development: per capita GDP, industrial structure, population density, land expansion, and education level. The results show that these indicators have significant spillover effects on ozone concentration, with regional spillover effects being greater than local effects.
+
+**Paragraph 3**
+
+The results also indicate that R&D intensity and education level have a significant negative impact on ozone concentration, while population urbanization rate, land expansion, and economic development have an increasing trend. Furthermore, we found a decreasing trend in the inhibitory effect of educational attainment and R&D intensity on ozone concentration.
+
+**Paragraph 4**
+
+The findings suggest that urbanization is an important driving force behind ozone pollution in China. The spatial distribution characteristics of ozone pollution are influenced by the regional differences in economic development, population density, and land use. To mitigate ozone pollution, it is essential to adopt comprehensive policies that address the complex interplay between urbanization, economy, and environment.
+
+**Paragraph 5**
+
+In conclusion, this study provides new insights into the spatial-temporal evolution characteristics of ozone pollution in China and its response to urbanization. The results have important implications for policy-making and environmental protection efforts. To effectively control ozone pollution, it is crucial to consider the complex interplay between urbanization, economy, and environment, and adopt comprehensive policies that address these factors.

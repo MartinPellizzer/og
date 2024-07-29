@@ -1,0 +1,85 @@
+Browse
+Search
+Publish
+Login  |  Register
+Home All Journals International Journal of Remote Sensing List of Issues Volume 45, Issue 13 Retrieval of upper stratospheric ozone p ....
+Search in:
+This Journal
+Anywhere
+Advanced search
+International Journal of Remote Sensing
+Volume 45, 2024 - Issue 13
+Submit an article Journal homepage
+24
+Views
+0
+CrossRef citations to date
+Altmetric
+Research Article
+Retrieval of upper stratospheric ozone profiles from SCIAMACHY Hartley-Huggins limb scatter spectra using WMART
+Fang Zhu
+, Suwen Li
+& Jing Luo
+Pages 4385-4406 | Received 17 Sep 2023, Accepted 17 May 2024, Published online: 25 Jun 2024
+Cite this article https://doi.org/10.1080/01431161.2024.2360705
+  Full Article Figures & data References Supplemental Citations Metrics Reprints & Permissions Read this article
+ABSTRACT
+The hyperspectral SCanning Imaging Absorption spectroMeter for Atmospheric CHartographY (SCIAMACHY) instrument, launched by Envisat in March 2002, measures atmospheric scattered radiance within the ultraviolet (UV) to near infrared range and has three geometric observation modes: nadir, occultation, and limb. This study describes a retrieval scheme to obtain middle and upper stratospheric ozone profiles from SCIAMACHY limb-scattered solar radiance. Owing to the low ozone concentration at high altitudes and rapid changes in ozone absorption cross-sections in the Hartley – Huggins band, a fundamental objective of this study was to establish a simple and effective retrieval scheme to derive reliable ozone profiles at high altitudes from UV spectral bands. In this study, short UV wavelengths of 302, 312, and 322 nm and a long wavelength of 331 nm were used for wavelength pairing to simplify the retrieval algorithm. Moreover, we employed the weighted multiplicative algebraic reconstruction technique (WMART), which is straightforward to understand, and easy to implement, combined with a radiative transfer model (i.e. SCIATRAN), and produced stable results. The retrieval error estimates for the upper stratosphere were provided, and the total retrieval error of the ozone profile was usually < 18% in the altitude range of 30–53 km. The results were compared with the SCIAMACHY v3.5 product and validated against profiles derived from Optical Spectrometer and InfraRed Imaging System (OSIRIS) v7.1, and Atmospheric Chemistry Experiment Fourier Transform Spectrometer (ACE-FTS) v4.0 for 30–53 km altitude. The retrieved ozone profiles agreed with data from SCIAMACHY v3.5 within − 10%–5%, except at an altitude of 45 km, where the bias became larger (approximately −15%). The comparison of retrieved profiles with OSIRIS v7.1 showed differences within ± 10% for 30–53 km altitude. The errors were mostly less than − 5% below 43 km compared with ACE-FTS v4.0, but there was a large negative deviation in the upper stratosphere.
+KEYWORDS: SCIAMACHYlimb observationozone profileweighted multiplicative algebraic reconstruction technique (WMART)
+Acknowledgements
+We are grateful for the SCIAMACHY L1B limb radiance data by ESA, and the SCIAMACHY v3.5 ozone limb profiles, SCIATRAN model, and SCIAMACHY Calibration and Extraction Tool (SciaL1C) provided by the Institute of Environmental Physics (IUP), University of Bremen. The calibrated tool was downloaded from https://earth.esa.int/eogateway/tools/scial1c-command-line-tool, accessed on October 13, 2019. We are also grateful for OSIRIS v7.1 ozone product provided by University of Saskatchewan, and for ACE-FTS v4.0 ozone product supported by the CSA.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+Data availability statement
+The data presented in this study are available on request from the corresponding author.
+Supplementary material
+Supplemental data for this article can be accessed online at https://doi.org/10.1080/01431161.2024.2360705
+Additional information
+Funding
+This work was supported by National Natural Science Foundation of China [41875040], the excellent scientific research and innovation team of Education Department of Anhui Province [2023AH010043], and Anhui Natural Science Foundation Youth Program [2208085QF215].
+Related research
+
+People also read
+Recommended articles
+Cited by
+Information for
+Authors
+R&D professionals
+Editors
+Librarians
+Societies
+Open access
+Overview
+Open journals
+Open Select
+Dove Medical Press
+F1000Research
+Opportunities
+Reprints and e-prints
+Advertising solutions
+Accelerated publication
+Corporate access solutions
+Help and information
+Help and contact
+Newsroom
+All journals
+Books
+Keep up to date
+Register to receive personalised research and resources by email
+Sign me up
+Copyright © 2024Informa UK Limited Privacy policy Cookies Terms & conditions Accessibility
+Registered in England & Wales No. 3099067
+5 Howick Place | London | SW1P 1WG
+
+
+
+
+Cookies Button
+We Care About Your Privacy
+We and our 845 partners store and/or access information on a device, such as unique IDs in cookies to process personal data. You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.Privacy Policy
+We and our partners process data to provide:
+Use precise geolocation data. Actively scan device characteristics for identification. Store and/or access information on a device. Personalised advertising and content, advertising and content measurement, audience research and services development.
+List of Partners (vendors)
+I Accept
+Essential Only
+Show Purposes

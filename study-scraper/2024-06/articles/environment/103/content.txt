@@ -1,0 +1,16 @@
+Here are five detailed paragraphs based on the scientific study:
+
+**Paragraph 1**
+This study aims to develop a retrieval scheme to obtain middle and upper stratospheric ozone profiles from SCIAMACHY limb-scattered solar radiance. The SCanning Imaging Absorption spectroMeter for Atmospheric CHartographY (SCIAMACHY) instrument, launched by Envisat in March 2002, measures atmospheric scattered radiance within the ultraviolet (UV) to near infrared range and has three geometric observation modes: nadir, occultation, and limb. The low ozone concentration at high altitudes and rapid changes in ozone absorption cross-sections in the Hartley – Huggins band make it challenging to derive reliable ozone profiles at high altitudes from UV spectral bands.
+
+**Paragraph 2**
+The retrieval scheme employed short UV wavelengths of 302, 312, and 322 nm and a long wavelength of 331 nm for wavelength pairing to simplify the retrieval algorithm. The weighted multiplicative algebraic reconstruction technique (WMART) was used in combination with a radiative transfer model (i.e. SCIATRAN). This straightforward and easy-to-implement approach produced stable results. The limb-scattered solar radiance data from SCIAMACHY L1B were used as input for the retrieval algorithm.
+
+**Paragraph 3**
+The retrieved ozone profiles agreed with data from SCIAMACHY v3.5 within -10% to 5%, except at an altitude of 45 km, where the bias became larger (approximately -15%). The comparison with OSIRIS v7.1 showed differences within ±10% for 30-53 km altitude. The errors were mostly less than -5% below 43 km compared with ACE-FTS v4.0, but there was a large negative deviation in the upper stratosphere. The total retrieval error of the ozone profile was usually <18% in the altitude range of 30-53 km.
+
+**Paragraph 4**
+The results demonstrate that the proposed retrieval scheme is effective in retrieving middle and upper stratospheric ozone profiles from SCIAMACHY limb-scattered solar radiance. However, there are some limitations and uncertainties associated with the retrieval algorithm, such as the sensitivity to instrument calibration and the accuracy of the radiative transfer model. Further validation and comparison with other datasets are needed to fully evaluate the performance of the retrieval scheme.
+
+**Paragraph 5**
+In conclusion, this study presents a novel approach for retrieving middle and upper stratospheric ozone profiles from SCIAMACHY limb-scattered solar radiance using WMART in combination with SCIATRAN. The results show that the proposed retrieval scheme is effective in deriving reliable ozone profiles at high altitudes from UV spectral bands. This study contributes to the improvement of atmospheric science research and applications by providing a new tool for retrieving upper stratospheric ozone profiles from SCIAMACHY data.

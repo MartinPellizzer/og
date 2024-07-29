@@ -1,0 +1,85 @@
+Product & Services
+Subscribe
+Submit a paper
+Browse
+Rankings
+Blog↗
+Contact
+Create account
+Sign in
+  This is a preprint article, it offers immediate access but has not been peer reviewed.
+Download This Paper
+Open PDF in Browser
+Add Paper to My Library
+Share:
+Spatial and Temporal Prediction of Ozone Concentration in the Pearl River Delta Region Based on a Dynamic Graph Convolutional Network
+20 Pages Posted: 2 Jul 2024
+Tongshu Yang
+Guangdong Ocean University
+Sheng Li
+Guangdong Ocean University
+Baoqin Chen
+Guangdong Ocean University
+Abstract
+The variation of ozone (O3) concentration is closely related to other meteorological factors such as temperature and wind speed, and there is significant dynamic uncertainty, making related research very complex and difficult. This paper will establish a time-space ozone prediction model based on dynamic graph convolution network to study the O3 pollution in the Pearl River Delta (PRD) region of China. Firstly, use an isolated forest (iForest) for anomaly detection in data preprocessing. Secondly, based on data such as wind direction, wind speed, and station geographic location, establish the diffusion distance of the wind field and construct a dynamic graph sequence accordingly. Finally, a spatio-temporal dynamic graph convolutional network (STD-GCN) based on dynamic graph sequences was established for predicting O3 concentration. The experimental results showed that STD-GCN outperformed long short-term memory (LSTM) and graph convolutional embedded LSTM (GC-LSTM). Specifically, by integrating wind field factors, STD-GCN exhibits better spatial interpretability.
+Keywords: Ozone concentration predictions, Spatio-Temporal Graph Convolutional Network, Dynamic wind-field, Monitoring of isolated forest outliers
+Suggested Citation:
+Yang, Tongshu and Li, Sheng and Chen, Baoqin, Spatial and Temporal Prediction of Ozone Concentration in the Pearl River Delta Region Based on a Dynamic Graph Convolutional Network. Available at SSRN: https://ssrn.com/abstract=4882468 or http://dx.doi.org/10.2139/ssrn.4882468
+
+
+
+Download This Paper
+Open PDF in Browser
+32 References
+S Agarwal , S Sharma , R Suresh , M H Rahman , S Vranckx , B Maiheu , L Blyth , S Ja Nssen , P Gargava , V K Shukla , S Batra
+Air quality forecasting using arti ficial neural networks with real time dynamic error correction in highly polluted regio ns
+Science of The Total Environment , volume 735 Posted: 2020
+Y Chabchoub , M U Togbe , A Boly , R Chiky
+An In-Depth Study and Improve ment of Isolation Forest
+IEEE Access , volume 10 , p. 10219 - 10237 Posted: 2022
+G Chattopadhyay , S K Midya , S Chattopadhyay
+MLP based predictive model for surface ozone concentration over an urban area in the Gangetic West Bengal during p re-monsoon season
+Journal of Atmospheric and Solar-Terrestrial Physics , volume 184 , p. 57 - 62 Posted: 2019
+J X Chen , J L Zhang , R X Qian , J F Yuan , Y J Ren
+An Anomaly Detection Met hod for Wireless Sensor Networks Based on the Improved Isolation Forest
+Applied S ciences , volume 13 , issue 2 Posted: 2023
+Load more
+0 Citations
+Do you have a job opening that you would like to promote on SSRN?
+Place Job Opening
+Paper statistics
+DOWNLOADS
+1
+ABSTRACT VIEWS
+14
+32 References
+PlumX Metrics
+Related eJournals
+Atmospheric Sciences eJournal
+Follow
+Feedback
+Submit a Paper
+Section 508 Text Only Pages
+SSRN Quick Links
+SSRN Solutions
+Research Paper Series
+Conference Papers
+Partners in Publishing
+Jobs & Announcements
+Special Topic Hubs
+SSRN Rankings
+Top Papers
+Top Authors
+Top Organizations
+About SSRN
+Network Directors
+Announcements
+Contact us
+FAQs
+Copyright Terms and Conditions Privacy Policy
+All content on this site: Copyright © 2023 Elsevier Inc., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies to help provide and enhance our service and tailor content.
+To learn more, visit Cookie Settings.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

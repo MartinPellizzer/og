@@ -1,0 +1,366 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home International Journal of Fracture Article
+The tearing energy threshold of crack growth in rubber exposed to ozone: an experimental–numerical approach
+Research
+Open access
+Published: 13 June 2024
+(2024)
+Cite this article
+Download PDF
+You have full access to this
+open access
+article
+International Journal of Fracture
+Aims and scope
+Submit manuscript
+Ondřej Peter, Martin Stěnička, Gert Heinrich, Christopher G. Robertson, Jakub Pawlas, Radek Stoček & Jan Ondrík 
+346 Accesses
+Explore all metrics
+Abstract
+The global rubber industry is seeking alternatives to the widely-used antiozonant, N-(1,3-dimethylbutyl)-N′-phenyl-p-phenylenediamine (6PPD), due to its environmental toxicity concerns when used in automobile tires. These substantial research and development efforts on new antiozonants for rubber are hindered by a general inability to characterize the fundamental physical parameter of ozone-induced tearing energy threshold for crack growth, which underlies the practical ozone resistance of rubber products. Therefore, this paper presents, for the first time, a novel experimental–numerical combined approach to determine the tearing energy threshold in rubber exposed to ozone, which is a key criterion for assessing the resistance of rubber to ozone crack growth. The approach is based on in-situ optical analysis of ozone crack growth on the rubber surface and the determination of the crack growth rate when the rubber is stretched. Subsequently, the growth rates form the basis for calculating the energy release rates at the crack tips using the finite element method in Ansys software. By comparing the calculated energy release rates and experimentally measured crack growth rates, the energy release rate interval corresponding to the threshold tearing energy is determined. Based on this approach, the tearing energy threshold for carbon black reinforced natural rubber exposed to ozone was found to be a maximum of 2.12 J/m2. This value is 96% lower than the threshold for the non-ozone-exposed specimens. In conclusion, this novel methodology was able to determine the ozone threshold tearing energy and represents a powerful, unique tool for an efficient future development of environmentally friendly antiozonants.
+Similar content being viewed by others
+Investigation of Ozone Cracking on Natural Rubber
+Article 01 June 2018
+An experimental investigation on the degradation effect of ozone on hyperelastic behavior of an NR/BR blend
+Article 14 October 2015
+Temperature-Dependent Tearing Behavior of Rubber Materials: Characterization and Modeling
+Article 07 February 2024
+1 Introduction
+One of the most common and aggressive chemical processes causing rubber degradation is the reaction of atmospheric ozone in polydiene rubbers with unsaturated main chains, resulting in chain scission and a reduction in the surface strength of the rubber. This degradation process is commonly prevented by the use of chemical raw materials known as antiozonants. However, the recent studies have highlighted the toxicity and its negative effects on organisms associated with the antiozonant N-(1,3-dimethylbutyl)-N′-phenyl-p-phenylenediamine (6PPD), an essential component of rubber compounds used in tires and other rubber products containing unsaturated elastomers (Brinkmann et al. 2022; Foldvik et al. 2022; Tian et al. 2022; Chen et al. 2023; Lo et al. 2023). The reaction of 6PPD with ozone forms 6PPD-quinone, which enters the environment through tire wear particles (Kole et al. 2017; Sommer et al. 2018; Wagner et al. 2018; Klockner et al. 2021; Giere and Dietze 2022) and can contaminate streams near road run-offs, where it is particularly toxic to coho salmon, as uncovered in the seminal work in this area (Tian et al. 2022). Therefore, the development of suitable, more organism-friendly antiozonants is currently an extremely important challenge for rubber scientists.
+Ozone is a relatively unstable molecule made up of three oxygen atoms. Although it is present in very small quantities in the atmosphere, it is of great importance to living organisms. Depending in which parts of the atmosphere it is found, it can play a positive or negative role (Fabian and Dameris 2014). Ozone in the stratosphere acts as a “UV filter”—a shield that prevents harmful short-wave UV radiation from reaching the Earth’s surface. In addition, ozone is found in the lower part of the atmosphere—the troposphere (Monks et al. 2014)—where it is more relevant to our daily lives. This is where it gets in as a product of burning fossil fuels, mainly from car traffic (Shindell et al. 2012). In the troposphere, ozone is considered a pollutant, because, as a strong oxidizing agent, it attacks the respiratory tract, has harmful effects on flora and fauna (Shindell et al. 2012) and damages materials such as natural rubber (Lake 1970). Therefore, its exposure is identified as a significant factor impacting the longevity of rubber components.
+The exposure of unsaturated rubber compounds to ozone induces oxidative cleavage on the rubber’s surface, a phenomenon extensively studied (Harries 1905; Criegee 1975; Coran 2002). This oxidative cleavage results in the breakage of molecules, leading to the formation of what is commonly referred to as ozone cracks. To prevent this phenomenon, antiozonants are added to the formulation during the production of rubber compounds (Braden and Gent 1962). A combination of para-phenylenediamines (PPDs) (Cataldo 2019) and wax (Dimauro et al. 1979) is most commonly used to prevent ozone cracking. PPDs are classified as chemical protection, as they chemically react directly with the degradant. On the other hand, wax serves as physical protection, migrating to the surface of rubber compound, thus forming a physical barrier between the polymer and the external environment.
+Numerous research papers (Braden and Gent 1960a, 1962; b; Kamaruddin and Muhr 2018; Lake and Lindley 1965; Lake 1970, 1992; Ruggs 1952; Serrano et al. 1993; Treib et al. 2022; Zheng et al. 2021) have reported the effects of ozone on crack initiation, as well as on the mechanical and chemical properties of rubber materials. Specifically, the aging behaviour of natural rubber (NR) under ozone exposure was examined by Zheng et al. (2021), where it was concluded that the duration of ozone aging plays a crucial role in the process, resulting in significant changes in the mechanical properties of NR. It was also determined that ozone aging progresses from the material’s surface towards its interior. Additionally, Treib et al. (2022) conducted an investigation about the ozone aging of NR mixtures containing 6PPD and paraffin wax as antiozonants, using various experimental techniques. They concluded, that NR is always somewhat sensitive to ozone even when 6PPD and paraffin wax are present in the mixture. Finally, Bensalem et al. (2024) conducted a comprehensive review summarizing the current understanding of elastomer degradation, encompassing various mechanisms, notably the ozone degradation mechanism.
+To assess the resistance of rubber materials to ozone cracking, the ISO 1431-1 standard (ISO 2022) is currently the most widely utilized. However, this standard evaluates the ozone resistance of rubber under specific static or dynamic loading and at a given ozone concentration, only visually. Then, based on a visual inspection of the specimen, it is possible to qualitatively assess whether cracks are present in the specimen, determine the time to crack initiation as well as the strain threshold for crack initiation. The result is then simply a qualitative assessment of the rubber’s resistance to ozone-induced crack initiation. For a quantitative description of the effect of antiozonants or the composition of the rubber itself on the already ozone-induced cracks, this standard is inadequate.
+The behaviour of already ozone-induced cracks has been studied in the work (Lake and Lindley 1965), where the authors concluded that the tearing energy threshold value of crack growth rate under ozone exposure, denoted as Tz, is significantly different and orders of magnitude lower compared to the threshold value under mechanical loading, denoted as T0. Consequently, the crack grows under ozone exposure even below the T0. Furthermore, the authors found that the crack growth rate under ozone exposure is similar under both dynamic and static loading conditions. In a later study (Lake 1970), the author stated that with increasing ozone concentration, the rate of growth is also increasing. Furthermore, the use of antiozonants increases the Tz and simultaneously retards the crack growth rate in the region above this threshold. All these effects are illustrated in the scheme in Fig. 1.
+Fig. 1
+Generalized crack growth rate curve for rubber under ozone exposure. Shown are the tear strength (critical tearing energy, Tc), the mechanical tearing energy threshold (T0), and the ozone-induced tearing energy threshold (Tz), the latter shown with and without an effective antiozonant in the rubber formulation
+Full size image
+This work is a continuation of the aforementioned studies, focusing primarily on describing a novel methodology for determining the tearing energy threshold value of crack growth under ozone exposure, Tz. The aim is to establish a methodology capable of reproducibly quantifying the influence of different antiozonants on the value of Tz in the future. This paper deals only with detailing the methodology itself, with the research on the influence of various antiozonants to be reported in the follow-up scientific work.
+2 Theoretical background
+The proposed methodology relies on an experimental–numerical approach and is based on the theoretical interaction between initiated cracks. Stress concentration occurs at the crack tip, while stress relief takes place near the crack faces. If a smaller crack is near a larger crack, the stress at the tip of the smaller crack is significantly influenced by the stress relief of a larger crack face. This leads to a considerably lower energy release rate for the affected crack. For a clearer understanding, one can consider the following examples, assuming an infinitely long specimen loaded with uniaxial tension.
+In the first case (see Fig. 2a), we assume that only one crack is initiated in the specimen. The stress concentration occurs at the crack tip, while stress relief takes place along the crack faces. It can be presumed that if the energy release rate is higher than the threshold value for crack growth rate, the crack will grow, and vice versa.
+Fig. 2
+Schematic explanation of crack interaction. The red shaded regions represent stress concentration, and the blue shaded regions represent stress relief
+Full size image
+In the second case (see Fig. 2b), we consider the initiation of two cracks, each with a different size and sufficiently far apart. Again, it can be presumed that if the energy release rate for each individual crack is higher than the threshold value for crack growth rate, the cracks will grow, and vice versa. There is no mutual influence between the cracks in this scenario.
+In the third case (see Fig. 2c), we explore the initiation of two cracks, each with a different size, but initiated in close proximity. For a larger crack, it can be expected to behave independently of a shorter crack, and if the energy release rate for larger crack exceeds the threshold value, a larger crack will grow, and vice versa. However, the shorter crack is influenced by the stress relief occurring near the larger crack face, resulting in a reduction of stress concentration at the shorter crack tip and thus in a reduction in the energy release rate. Due to this stress relief, the energy release rate may fall below the threshold value, causing the crack to cease growth.
+When observing crack growth on a specimen during an experiment, where cracks are initiated in close proximity, according to this hypothesis, the gradual arrest of shorter cracks can be expected. By determining the sizes of individual cracks and their relative positions at different times, utilizing the FEM, the Tz value can be determined by classifying the calculated energy release rates based on whether the crack continued to grow or not. This requires also the knowledge of the specimen dimensions, pre-straining conditions and material stiffness.
+3 Material and experimental methods
+3.1 Material
+The rubber material used in this study was NR of Standard Malaysian Rubber (SMR) grade 10. The polymer was compounded with various additives, including 50 phr of N550 type carbon black (CB), 1 phr of antiozonant/antioxidant 6PPD and 1 phr of antioxidant 4-and 5-methyl-2-mercaptobenzimidazole (MMBI), along with other ingredients. The complete formulation for the rubber compound is provided in Table 1.
+Table 1 Rubber compound formulation
+Full size table
+The rubber compound was produced in an internal mixer (Everplast Machinery, Taiwan) with the chamber volume 2 L, the fill factor 0.75, and an open mill (LabTech, Taiwan) in two mixing steps.
+In the first step, masterbatch containing rubber, filler, antioxidant, antiozonant, ZnO and stearic acid was prepared in the internal mixer. The total mixing time in this case was 5 min until temperature reached 130–140 °C. Afterwards mixture was cooled down and shaped on an open mill. Then, masterbatch with the curatives (accelerators and sulphur) was mixed for 3 min to the final temperature of less than 110 °C (the second mixing step).
+After relaxation for at least 24 h, the rheological behaviour of the rubber compound was analysed on Moving Die Rheometer (MonTech MDR 3000 Basic, USA) at 160 °C. Obtained parameters are summarized in Table 2.
+Table 2 Cure characteristic of rubber compound
+Full size table
+Mechanical properties were tested on test specimens cut from vulcanized (cured) rubber sheets using a die. The sheets were produced by compression moulding of the compound on the hydraulic press (Fontijne LabEcon Series 300, the Netherlands) under the temperature of 160 °C and pressure 150 kN. The rubber sheets (150 × 150 × 2 mm) were vulcanized in accordance to the determined curing time, t90 (Table 2). Test specimens were consequently cut out of the sheets according to standard requirements for ozone ageing test (ISO 2022).
+3.2 Ozone test
+The specimen for ozone test was fixed to a clamping system and subsequently exposed to ozone in an ozone cabinet (Gibitre Ozone Check-UV, Italy). The dimensions of the specimen were as follows: 125 mm in length, L0 + 2 Lc, with a working length, L0, of 100 mm after clamping in position, width, w, of 13 mm and a thickness, t, of 2 mm. The specimen was placed between clamps in an unstrained state, see Fig. 3a out of the cabinet, fixed, and then stretched by ΔL, 20 mm, corresponding to a 20% elongation of its total length, see Fig. 3b, resulting in deformed length, L1, of 120 mm. Finally, the complete fixing assembly with the stretched specimen was located into the cabinet.
+Fig. 3
+Clamping system with unstretched specimen (a), and with stretched specimen (b)
+Full size image
+The test was conducted under controlled conditions with a 50 pphm ozone concentration, a temperature of 30 °C, and relative humidity of 60%. The time dependence of ozone concentration, temperature and humidity is shown in Fig. 4. The sudden drops, after certain times (2 h, 4 h, and 8 h), corresponds to suspensions of the test due to removing of the specimen from the ozone cabinet and its optical observation and surface recording under a microscope (Leica DVM2500, Germany), whereas the specimen stayed still in elongated state. The microscopically observed area of the surface was located approx. at its centre from the length viewpoint, but at the edge from the width viewpoint (see Fig. 3b). The dimensions of the captured area were approx. 6 mm in length and 4.5 mm in width. To observe the evolution of the cracks, the same area was captured during all observations.
+Fig. 4
+Time dependence of ozone concentration, temperature and relative humidity during the ozone test
+Full size image
+3.3 Determination of the tearing energy threshold value under mechanical loading
+The measurement of the tearing energy threshold value under mechanical loading is not directly related to the methodology for determining the Tz, but it was conducted to verify the difference in threshold values under mechanical loading, T0, and ozone exposure alone, Tz.
+Two “planar extension” or so called “pure-shear” specimens (Stocek et al. 2020) were used for the experimental analysis determining the threshold value, T0, of crack growth rate. These specimens were dimensioned to be 100 mm in width, with a working length of 10 mm after clamping into a position, and a thickness of 2 mm. The testing was conducted using the Intrinsic Strength Analyser (ISA), produced by company Coesfeld GmbH & Co. KG, Germany, an experimental device utilizing the Lake-Yeoh cutting method (Lake and Yeoh 1978) to determine T0.
+The measurement was based on the following procedure. Two specimens were first stretched for 5 cycles up to a strain of 30% at a loading rate of 0.1 mm/min. Then, the specimen was cut in a defined manner on one side so that the crack tip was located in the pure-shear region of the specimen. In the next step, the specimen was subjected to strains ranging from 0.1 to 20%. For each strain, the specimen was first relaxed for 3 min to a steady state stress level. The blade then cut the material at three successive constant rates (10 mm/min, 0.1 mm/min, and 0.01 mm/min). During cutting, the strain energy density, w, and cutting force, f, were recorded. These values were the basis for calculating the threshold value, T0. The general scheme of the tearing energy threshold test is shown in Fig. 5.
+Fig. 5
+General scheme of the tearing energy threshold test
+Full size image
+For more details about the ISA as well as the test protocol used (based on Lake and Yeoh’s cutting method), the authors refer to information provided in publications (Mars et al. 2019; Robertson et al. 2019a, b, 2021).
+4 Experimental results and discussion
+The images captured during the experiment are depicted in Fig. 6. From these images, the evolution of cracks on the specimen surface over time is evident. In the majority, crack initiation occurred at the edge of the specimen. However, the initiation of two cracks from the centre of the specimen was also observed. The initiation and propagation of cracks during the test can be described as similar to those in the publications (Zheng et al. 2021; Treib et al. 2022). Furthermore, the selected cracks for the 3D finite element analysis (FEA) are represented by the red region in the Fig. 6.
+Fig. 6
+Output images of the ozone test
+Full size image
+The examination and discussion will begin with the microscope images of the cracks, specifically those taken after 8 h and 24 h. The aim is to determine the observability of the hypothesized crack behaviour described in Theoretical background. The cracks that were initiated after 8 h of ozone exposure but are shorter and surrounded by larger cracks in the images, did not grow further. These non-growing cracks can be seen in Fig. 7 with red dots at their tips. Conversely, cracks whose tips were not in proximity to any larger crack continued to grow. This behaviour is evident for cracks initiated both at the specimen’s edge and in the centre of the specimen surface. Thus, it can be concluded that there is a phenomenon where the growth of certain cracks ceases while others continue, and the hypothesis described in Theoretical background provides an explanation for this phenomenon.
+Fig. 7
+Crack behaviour on microscope images after 8 h and 24 h of ozone exposure
+Full size image
+A specific group of 5 cracks was carefully selected and analysed in detail, their relative positions (Fig. 8a) and their lengths at different time intervals (Fig. 8b) were evaluated. However, the depth of cracks was impossible to determine. The cracks were labelled from 1 to 5, and their growth behaviour on the specimen surface was assessed. The results are summarized in Table 3 and graphically represented in Fig. 9. This group was selected because the cracks located in the middle of this group ceased to grow, indicating that the energy release rate fell below the threshold value. However, the outermost cracks continued to grow, with their energy release rate surpassing the threshold. This visual information obtained from the images, which indicate the crack lengths associated with growth or cessation, enable the use of computational simulations to determine the specific range in which the Tz value has to be located.
+Fig. 8
+Mutual distances between individual cracks in mm (a), the length of the cracks in measured time intervals (b)
+Full size image
+Table 3 Summary of crack lengths and determination of crack growth state
+Full size table
+Fig. 9
+Graphical representation of selected crack lengths with respect to ozone exposure time
+Full size image
+5 Numerical modelling
+5.1 Material model
+To utilize the FEM for calculating the energy release rate of individual cracks, it is necessary to determine the material stiffness of the investigated rubber compound. As the “uniaxial” specimens used for ozone exposure test are manually elongated in the clamps, it is not feasible to directly measure the necessary force for elongation. Hence, data from pre-cycles on planar strain specimens used for measurement of T0, particularly the last pre-cycle, were employed to estimate the material constants for simulation of tearing energy threshold values. The pre-cycles were conducted at very small displacement rates, ensuring that the measured data correspond to the relaxed state, for the utilization of only a hyperelastic material model for the simulation.
+As the material model, the Extended Tube model (Kaliske and Heinrich 1999) was selected. As two planar strain specimens were tested, material parameters were sought to best match the simulation results to both sets of experimental data. The optimal agreement between the simulation results and measured curves was achieved using the response surface methodology (Myers et al. 2016) in the Ansys Workbench (Ansys 2020) environment.
+FEA model geometrically corresponded to the working area of the planar strain specimens. The area of the specimens used for clamping was replaced with boundary conditions in the model. The dimensions of the working area were 100 mm in width, 10 mm in height and 2 mm in thickness. The FE mesh was created using 16,000 hexahedral quadratic elements (SOLID186). The boundary conditions are shown in Fig. 10a, and the deformed shape of the specimen model is shown in Fig. 10b.
+Fig. 10
+The boundary conditions (a) and deformed shape (b) of the specimen model
+Full size image
+As mentioned earlier, the response surface methodology was chosen to find the optimal combination of material parameters that would correspond to the conducted measurements. A total of 144 simulations were performed with various combinations of material parameters. Based on them, a response surface was determined between the inputs (material parameters) and outputs (computed forces at different levels of elongation). The identified material parameters are presented in Table 4, and the graphical comparison of the measured and computed curves is shown in the Fig. 11. As shown in the figure, the calculated curve is slightly below the measured curves up to 10% elongation. Above 10% elongation, it falls within the range of the measured curves. Thus, the identified material parameters provide a good fit to the measured curves. However, they are considered only as mathematical fit without going into discussions of the physical background of the model.
+Table 4 Extended Tube material model parameters
+Full size table
+Fig. 11
+Validation of material model
+Full size image
+5.2 Determination of cracks energy release rate
+Once the material model is determined, the dimensions of the specimen used for the ozone test are known, along with the applied pre-strain during the test and the lengths and mutual distances of selected cracks at different time intervals are evaluated, it is possible to perform numerical simulations to determine the energy release rate at the crack tips of each individual crack.
+However, it is important to introduce several assumptions at this stage. Due to limitations in the microscopic observation during the ozone test, only the length of individual cracks on the surface of the specimen can be accurately determined, while their depth remains unknown. To address this, it is assumed that the cracks possess a semi-elliptical shape. The scheme of this shape is shown in Fig. 12.
+Fig. 12
+Scheme of semi-elliptical crack used in numerical modelling
+Full size image
+Furthermore, based on previous studies (Zheng et al. 2021; Treib et al. 2022) that describe material degradation primarily on the surface of the specimen, it can be further assumed that the crack growth will mainly occur along the surface rather than into the depth. Treib et al. (2022) measured a maximum crack depth of approx. 0.3 mm on NR rubber containing 6PPD after 96 h of exposure to 75 pphm ozone. Therefore, this study performed simulations considering different crack depths (assuming the same depth for all cracks) at 0.05 mm, 0.1 mm, 0.2 mm, and 0.3 mm from the specimen’s surface. The influence of these depths on determining the Tz value, under the influence of ozone, was examined. Additionally, the cracks were assumed to be straight for simplification purposes. It is worth noting that slight curvature of the cracks can be observed in the microscope images (see Fig. 8a). It was assumed that this curvature did not have any influence on Tz results.
+The FEA utilized two models in this part of the study. The first model represented the complete specimen without any cracks, which was pre-strained to 20% elongation, mirroring the actual test conditions, see Fig. 13a. This model consisted of 20,800 quadratic hexahedral elements (SOLID186) and was fixed at one end while allowing movement in the elongation direction at the other end. To optimize computation time, a sub-model was derived from this initial model, reducing its length to 3 mm instead of the original 100 mm, as shown in Fig. 13b. Within the sub-model, the entire group of cracks was modelled with crack lengths on the specimen surface according to the measured values during the experiment for times 2 h, 4 h, 8 h, and 24 h, and crack depths of 0.05 mm, 0.1 mm, 0.2 mm, and 0.3 mm. Subsequently, the calculations were performed. The mesh consisted of quadratic tetrahedral elements (SOLID187), with the number of elements ranging from 160,160 to 3,332,692 depending on the crack sizes (see Fig. 13c for an illustrative example). Additionally, the model accounted for frictional contact between the crack faces with friction coefficient μ = 0.3, enabling simulation of potential complete closure of the cracks. The boundary conditions applied were based on the displacements obtained from the first full-model and were inserted at both ends of the sub-model. Finally, the energy release rates along the entire crack tip were calculated, but only the rates on the surface of the specimen model were evaluated because, as mentioned earlier, material degradation due to ozone primarily occurs on the surface. The rates were calculated using well-established Material Force method, which is implemented within the Ansys software. This method is very similar to well-known J-integral method and differs only in the integration algorithm. For more details about the method, the authors refer to information provided in a white paper (Ansys 2014).
+Fig. 13
+Full-model with boundary conditions (a), sub-model with boundary conditions and mesh example (b), detail of fine mesh around the cracks (c)
+Full size image
+6 Results and discussion
+First and foremost, it is crucial to consider the discussion regarding the interaction of cracks as outlined in Theoretical background. The experimental results clearly reveal the cessation of certain cracks, providing substantial support for the proposed hypothesis. In order to validate the presented hypothesis, computational simulations of such scenarios, as detailed in Theoretical background, were firstly conducted using FEM. The computational normal stress σx distribution profile around the cracks is illustrated in Fig. 14. In cases where smaller cracks are either independent (Fig. 14a) or located at a greater distance from larger cracks (Fig. 14b), the profile of normal stress distribution is as expected. Stress concentration is observed at the crack tip, while stress relief is located near the cracks faces. Conversely, when a smaller crack is in close proximity to a larger crack, a significant decrease in stress concentration at the crack tip is observed, leading to a lower energy release rate at the tip of the smaller crack. In contrast, stress concentration at the larger crack tip remains unaffected. This illustrative example suggests the validity of the proposed hypothesis in Theoretical background. To confirm this hypothesis, simulations of a selected group of cracks were conducted based on the experiment and compared with the measured cracks behaviour.
+Fig. 14
+Normal stress σx distribution profile (MPa) of 1 small crack (a), of larger and smaller cracks at a greater distance (b), of larger and smaller cracks in close proximity (c)
+Full size image
+The normal stress distribution profile resulting from computational simulations around a studied group of cracks, each with a depth of 0.1 mm, following 4 h and 8 h of ozone exposure, is depicted in Fig. 15. Notably, the outermost cracks (designated as 1 and 5) exhibited continuous growth in the experiment (see Fig. 9) at both time intervals, aligning with the absence of any impact on the cracks due to crack interaction in the simulations. From the images in Fig. 15, it is evident that the most affected crack is crack 2, surrounded by material that is nearly unloaded (without stress), indicated by the blue colour. The second most affected crack is crack 4, followed by crack 3. These results are consistent with the experimental findings, where crack propagation stopped first at crack 2, then at crack 4, and finally at crack 3 (see Table 3). Consequently, these specific instances of observation confirm the presented hypothesis that the cessation of certain cracks is attributed to the stress relief zone created by neighbouring cracks.
+Fig. 15
+Normal stress σx distribution profile around cracks with the depth of 0.1 mm after 4 h (a), and after 8 h (b)
+Full size image
+Furthermore, computational simulations were conducted to determine the energy release rates at the crack tips on the surface of the specimen model. The crack lengths corresponded to the measured values (see Table 3) for each ozone exposure time, covering four different crack depths. The results are depicted in Fig. 16. It is evident that the highest energy release rates were observed at the outermost cracks 1 and 5, which were unaffected by interactions with other cracks. Conversely, the rates at cracks 2, 3, and 4 were notably lower. For crack depths of 0.2 mm and 0.3 mm, these rates dropped to zero after 8 h of ozone exposure, indicating cessation of mechanical loading due to the specimen pre-straining. Subsequently, these results were categorized into two groups: cracks that continued to propagate and those that ceased. The ozone exposure times at which each crack continued or ceased to propagate are detailed in Table 3. By analysing these categories, we identified the minimum energy release rate for crack propagation and the maximum energy release rate at which crack propagation ceased. Following this procedure, the minimum and maximum values of the energy release rate can be obtained, thus allowing the determination of the interval within which the threshold value Tz is located. Tz is derived as the average of these two rates, accompanied by the deviation to the maximum and minimum values of the rate.
+Fig. 16
+Calculated energy release rates of each crack for different crack depths and ozone exposure times
+Full size image
+The categorized values of energy release rates are summarized in Fig. 17, while Table 5 provides the average Tz values. Notably, for a crack depth of 0.05 mm, the computed energy release rate results in an illogical scenario where the maximum value for a crack that has ceased exceeds the minimum value for a crack that is still growing. This discrepancy suggests that the actual crack depth exceeded 0.05 mm, making it impossible to determine the Tz value for this specific depth. However, the results for other crack depths are meaningful. Specifically, for a crack depth of 0.10 mm, the Tz value is determined to be 2.12 ± 0.70 J/m2. Likewise, for a crack depth of 0.20 mm, Tz is 0.90 ± 0.70 J/m2, and for a crack depth of 0.30 mm, Tz is 0.20 ± 0.10 J/m2.
+Fig. 17
+Energy release rates results and estimated average tearing energy threshold values for different crack depths
+Full size image
+Table 5 Tearing energy threshold values for crack growth under ozone exposure determined for different crack depths
+Full size table
+These findings reveal significantly lower values compared to the measured values on two specimens of the same rubber compound under mechanical loading on the ISA device and ambient environmental conditions. The tearing energy threshold values, T0, were measured to be 56.32 J/m2, and 57.43 J/m2. This results in an average T0, avg. value of 56.88 J/m2. Thus, there is a decrease of 96% on the specimen surface in the threshold value under ozone exposure (for crack depths of 0.10 mm) compared to the average value measured on the ISA device under mechanical loading. These results confirm the existence of two distinct threshold values for crack propagation in rubber. The first is the threshold value T0 from mechanical loading of the material, and the second is the threshold value Tz from ozone exposure. If a material already contained an initiated crack and was subjected to both mechanical loading and ozone exposure, then if its tearing energy was higher than Tz but lower than T0, the crack would only propagate due to ozone exposure. Once the crack enlarged to the point where the tearing energy exceeded the threshold value T0, mechanical loading would also become damaging to the material. If the tearing energy of the crack was lower than both threshold values T0 and Tz, the crack would not propagate.
+7 Conclusions
+This article presents a novel methodology for determining the tearing energy threshold for crack growth of a rubber compound subjected to ozone. This method combines experimental and numerical techniques. It begins by observing crack development on the surface of a stretched specimen during an ozone exposure test, followed by evaluation and computational modelling using FEM to calculate the energy release rate at the crack tips on the specimen surface. Finally, the threshold value is determined from the calculated and measured data.
+The results confirm previous studies, asserting significant differences between the threshold value under mechanical loading and ozone exposure. For the given rubber compound, the threshold value under mechanical loading was found to be T0 = 56.88 J/m2, while under ozone exposure the highest estimated value is Tz = 2.12 J/m2 for an assumed cracks depth of 0.10 mm.
+However, it should be noted that the presented methodology assumes the initiation of multiple cracks in close proximity. If only a few isolated cracks are initiated that do not influence each other, this approach for determining threshold values under ozone exposure cannot be applied. There is also room for refinement in determining the threshold value, particularly in the experimental part. If it were possible to record both the length and depth of the cracks at the edges of the specimen, it would enhance the accuracy of determining the threshold value. Additionally, increasing the number of measurements could contribute to reducing the variability in the determined threshold value.
+For outlook, it can now, for the first time, be conducted a quantitative assessment of the impact of different antiozonants within rubber compounds on the tearing energy threshold when exposed to ozone. This innovative approach, together with current standards for ozone resistance in rubber, holds the potential to discover more effective antiozonants, ultimately enhancing the durability of rubber components. This will enable a comprehensive description of the fatigue resistance of rubber to ozone, including both crack initiation resistance and resistance to crack growth.
+Data availability statement
+The datasets generated and/or analysed during the current study are available from the corresponding author on reasonable request.
+References
+Ansys (2014) Material forces: a novel approach to fracture mechanics in Ansys
+Ansys (2020) Ansys mechanical enterprise, Release 2020R2, Ansys, Inc
+Bensalem K, Eesaee M, Hassanipour M, Elkoun S, David E, Agbossou K, Nguyen-Tri P (2024) Lifetime estimation models and degradation mechanisms of elastomeric materials: a critical review. Polym Degrad Stab 220:110644. https://doi.org/10.1016/j.polymdegradstab.2023.110644
+Article
+  Google Scholar
+  Braden M, Gent AN (1960) The attack of ozone on stretched rubber vulcanizates. I. The rate of cut growth. J Appl Polym Sci 3(7):90–99. https://doi.org/10.1002/app.1960.070030713
+Article
+  Google Scholar
+  Braden M, Gent AN (1960) The attack of ozone on stretched rubber vulcanizates. II. Conditions for cut growth. J Appl Polym Sci 3(7):100–106. https://doi.org/10.1002/app.1960.070030714
+Article
+  Google Scholar
+  Braden M, Gent AN (1962) The attack of ozone on stretched rubber vulcanizates. III. Actions of antiozonants. J Appl Polym Sci 6(22):449–455. https://doi.org/10.1002/app.1962.070062209
+Article
+  Google Scholar
+  Brinkmann M, Montgomery D, Selinger S, Miller JGP, Stock E, Alcaraz AJ, Challis JK, Weber L, Janz D, Hecker M, Wiseman S (2022) Acute toxicity of the tire rubber-derived chemical 6PPD-quinone to four fishes of commercial, cultural, and ecological importance. Environ Sci Technol Lett 9(4):333–338. https://doi.org/10.1021/acs.estlett.2c00050
+Article
+  Google Scholar
+  Cataldo F (2019) Protection mechanism of rubber from ozone attack. Ozone Sci Eng 41(4):358–368. https://doi.org/10.1080/01919512.2018.1542518
+Article
+  Google Scholar
+  Chen X, He T, Yang X, Gan Y, Qing X, Wang J, Huang Y (2023) Analysis, environmental occurrence, fate and potential toxicity of tire wear compounds 6PPD and 6PPD-quinone. J Hazard Mater 452:131245. https://doi.org/10.1016/j.jhazmat.2023.131245
+Article
+  Google Scholar
+  Coran AY (2002) Chemistry of the vulcanization and protection of elastomers: a review of the achievements. J Appl Polym Sci 87(1):24–30. https://doi.org/10.1002/app.11659
+Article
+  Google Scholar
+  Criegee R (1975) Mechanism of ozonolysis. Angew Chem Int Ed 14(11):745–752. https://doi.org/10.1002/anie.197507451
+Article
+  Google Scholar
+  Dimauro PJ, Paris HL, Fath MA (1979) Wax protection. Rubber Chem Technol 52(5):973–984. https://doi.org/10.5254/1.3535259
+Article
+  Google Scholar
+  Fabian P, Dameris M (2014) Ozone in the atmosphere. Basic principles, natural, and human impacts. Springer, Berlin. https://doi.org/10.1007/978-3-642-54099-8
+Foldvik A, Kryuchkov F, Sandodden R, Uhlig S (2022) Acute toxicity testing of the tire rubber-derived chemical 6PPD-quinone on Atlantic salmon (Salmo salar) and brown trout (Salmo trutta). Environ Toxicol Chem 41(12):3041–3045. https://doi.org/10.1002/etc.5487
+Article
+  Google Scholar
+  Giere R, Dietze V (2022) Tire-abrasion particles in the environment. In: Heinrich G, Kipscholl R, Stocek R (eds) Degradation of elastomers in practice, experiments and modeling. Adv Polym Sci, vol 289, pp 71−101. Springer, Cham. https://doi.org/10.1007/12_2022_118
+Harries C (1905) Ueber die Einwirkung des Ozons auf organische Verbindungen. Justus Liebigs Ann Chem 343(2–3):311–344. https://doi.org/10.1002/jlac.19053430209
+Article
+  Google Scholar
+  ISO (2022) ISO 1431-1: rubber, vulcanized or thermoplastic—resistance to ozone cracking—part 1: static and dynamic strain testing. International Organization for Standardization, Geneva
+Kaliske M, Heinrich G (1999) An extended tube-model for rubber elasticity: statistical mechanical theory and finite element implementation. Rubber Chem Technol 72(4):602–632. https://doi.org/10.5254/1.3538822
+Article
+  Google Scholar
+  Kamaruddin S, Muhr AH (2018) Investigation of ozone cracking on natural rubber. J Rubber Res 21(2):73–93. https://doi.org/10.1007/BF03449163
+Article
+  Google Scholar
+  Klockner P, Seiwert B, Weyrauch S, Escher BI, Reemtsma T, Wagner S (2021) Comprehensive characterization of tire and road wear particles in highway tunnel road dust by use of size and density fractionation. Chemosphere 279:130530. https://doi.org/10.1016/j.chemosphere.2021.130530
+Article
+  Google Scholar
+  Kole PJ, Lohr AJ, Van Belleghem FGAJ, Ragas AMJ (2017) Wear and tear of tyres: a stealthy source of microplastics in the environment. Int J Environ Res Public Health 14(10):1265. https://doi.org/10.3390/ijerph14101265
+Article
+  Google Scholar
+  Lake GJ (1970) Ozone cracking and protection of rubber. Rubber Chem Technol 43(5):1230–1254. https://doi.org/10.5254/1.3547321
+Article
+  Google Scholar
+  Lake GJ (1992) The determination of threshold strain of rubber in ozone resistance tests. Polym Test 11(2):117–137. https://doi.org/10.1016/0142-9418(92)90042-A
+Article
+  Google Scholar
+  Lake GJ, Lindley PB (1965) Role of ozone in dynamic cut growth of rubber. J Appl Polym Sci 9(6):2031–2045. https://doi.org/10.1002/app.1965.070090604
+Article
+  Google Scholar
+  Lake GJ, Yeoh OH (1978) Measurement of rubber cutting resistance in the absence of friction. Int J Fract 14(5):509–526. https://doi.org/10.1007/BF01390472
+Article
+  Google Scholar
+  Lo BP, Marlatt VL, Liao X, Reger S, Gallilee C, Ross ARS, Brown TM (2023) Acute toxicity of 6PPD-quinone to early life stage juvenile Chinook (Oncorhynchus tshawytscha) and coho (Oncorhynchus kisutch) salmon. Environ Toxicol Chem 42(4):815–822. https://doi.org/10.1002/etc.5568
+Article
+  Google Scholar
+  Mars WV, Robertson CG, Stocek R, Kipscholl C (2019) Why cutting strength is an indicator of fatigue threshold. In: Huneau B, Le Cam JB, Marco Y, Verron E (eds) Constitutive models for rubber XI. CRC Press, London, pp 351–356
+Chapter
+  Google Scholar
+  Monks PS, Archibald AT, Colette A, Cooper O, Coyle M, Derwent R, Fowler D, Granier C, Law KS, Stevenson DS, Tarasova OA, Thouret V, von Schneidemesser E, Sommariva R, Wild O, Williams ML (2014) Tropospheric ozone and its precursors from the urban to the global scale from air quality to short-lived climate forcer. Atmos Chem Phys Discuss 14:32709–32933. https://doi.org/10.5194/acpd-14-32709-2014
+Article
+  Google Scholar
+  Myers, RH, Montgomery DC, Andersoon-Cook CM (2016) Response surface methodology: process and product optimization using designed experiments, 4th ed. Wiley, p 856
+Robertson CG, Stocek R, Kipscholl R, Mars WV (2019a) Characterizing durability of rubber for tires. Tire Technol Int Ann Rev 78–82
+Robertson CG, Stocek R, Kipscholl Ch, Mars WV (2019b) Characterizing the intrinsic strength (fatigue threshold) of natural rubber/butadiene rubber blends. Tire Sci Technol 47(4):292–307. https://doi.org/10.2346/tire.19.170168
+Article
+  Google Scholar
+  Robertson CG, Stocek R, Mars WV (2021) The fatigue threshold of rubber and its characterization using the cutting method. In: Heinrich G, Kipscholl R, Stocek R (eds) Fatigue crack growth in rubber materials. Adv Polym Sci, vol 286, pp 57–83. Springer, Cham. https://doi.org/10.1007/12_2020_71
+Rugg JS (1952) Ozone crack depth analysis for rubber. Anal Chem 24(5):818–821. https://doi.org/10.1021/ac60065a015
+Article
+  Google Scholar
+  Serrano E, Castro M, Macias A (1993) An improved direct method of rubber cracking analysis for estimating 24-hour ozone levels. Atmos Environ 27(3):431–442. https://doi.org/10.1016/0960-1686(93)90117-H
+Article
+  Google Scholar
+  Shindell D, Kuylenstierna JCI, Vignati E, van Dingenen R, Amann M, Klimont Z, Anenberg SC, Muller N, Janssens-Maenhout G, Raes F, Schwartz J, Faluvegi G, Pozzoli L, Kupiainen K, Höglund-Isaksson L, Emberson L, Streets D, Ramanathan V, Hicks K, Oanh NTK, Milly G, Williams M, Demkine V, Fowler D (2012) Simultaneously mitigating near-term climate change and improving human health and food security. Science 335(6065):183–189. https://doi.org/10.1126/science.1210026
+Article
+  Google Scholar
+  Sommer F, Dietze V, Baum A, Sauer J, Gilge S, Maschowski C, Giere R (2018) Tire abrasion as a major source of microplastics in the environment. Aerosol Air Qual Res 18(8):2014–2028. https://doi.org/10.4209/aaqr.2018.03.0099
+Article
+  Google Scholar
+  Stocek R, Stenicka M, Maloch J (2020) Determining parametrical functions defining the deformations of a plane strain tensile rubber sample. In: Heinrich G, Kipscholl R, Stocek R (eds) Fatigue crack growth in rubber materials. Adv Polym Sci, vol 286, pp 19–38. Springer, Cham. https://doi.org/10.1007/12_2020_78
+Tian Z, Gonzalez M, Rideout CA, Zhao HN, Hu X, Wetzel J, Mudrock E, James CA, McIntyre JK, Kolodziej EP (2022) 6PPD-quinone: Revised toxicity assessment and quantification with a commercial standard. Environ Sci Technol Lett 9(2):140–146. https://doi.org/10.1021/acs.estlett.1c00910
+Article
+  Google Scholar
+  Treib C, Loos K, Johlitz M, Lion A (2022) Ozone ageing: experimental methods on pristine and protected natural rubber. Contin Mech Thermodyn 34:1563–1577. https://doi.org/10.1007/s00161-022-01148-x
+Article
+  Google Scholar
+  Wagner S, Huffer T, Klockner P, Wehrhahn M, Hofmann T, Reemtsma T (2018) Tire wear particles in the aquatic environment—A review on generation, analysis, occurrence, fate and effects. Water Res 139:83–100. https://doi.org/10.1016/j.watres.2018.03.051
+Article
+  Google Scholar
+  Zheng T, Zheng X, Zhan S, Zhou J, Liao S (2021) Study on the ozone aging mechanism of natural rubber. Polym Degrad Stab 186:109514. https://doi.org/10.1016/j.polymdegradstab.2021.109514
+Article
+  Google Scholar
+  Download references
+Acknowledgements
+This work was supported by the Ministry of Education, Youth and Sports of the Czech Republic—DKRVO (RP/CPS/2022/006) and within the project OP RDE Junior Grants of TBU in Zlín, Reg. No. CZ.02.2.69/0.0/0.0/19_073/0016941. GH acknowledges the DFG (Deutsche Forschungsgemeinschaft) research training group “Interactive Fiber-Rubber Composites” Project 380321452/GRK2430.
+Funding
+Open access publishing supported by the National Technical Library in Prague.
+Author information
+Authors and Affiliations
+Centre of Polymer Systems, University Institute, Tomas Bata University in Zlín, tř. Tomáše Bati 5678, Zlín, 760 01, Czech Republic
+Ondřej Peter, Martin Stěnička, Christopher G. Robertson, Jakub Pawlas & Radek Stoček
+Bonatrans Group a.s., Revoluční 1234, Bohumín, 735 81, Czech Republic
+Ondřej Peter
+Institut für Textilmaschinen und Textile Hochleistungswerkstofftechnik, Technische Universität Dresden, Hohe Str. 6, 010 69, Dresden, Germany
+Gert Heinrich
+Polymer Technology Services LLC, Akron, OH, 443 21, USA
+Christopher G. Robertson
+Faculty of Technology, Tomas Bata University in Zlín, Vavrečkova 275, Zlín, 760 01, Czech Republic
+Jan Ondrík
+Contributions
+OP: modelling, simulation; MS: analyses; GH: editing, review; CR: editing, review; JP: analyses; RS: supervision, review; JO: design of the experiment.
+Corresponding author
+Correspondence to Radek Stoček.
+Ethics declarations
+Conflict of interest
+The authors declare that they have no conflict of interest.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Peter, O., Stěnička, M., Heinrich, G. et al. The tearing energy threshold of crack growth in rubber exposed to ozone: an experimental–numerical approach. Int J Fract (2024). https://doi.org/10.1007/s10704-024-00799-y
+Download citation
+Received
+12 February 2024
+Accepted
+23 May 2024
+Published
+13 June 2024
+DOI
+https://doi.org/10.1007/s10704-024-00799-y
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Rubber
+Ozone
+Crack
+Threshold
+Antiozonant
+FEM
+Use our pre-submission checklist
+Avoid common mistakes on your manuscript.
+Sections
+Figures
+References
+Abstract
+Introduction
+Theoretical background
+Material and experimental methods
+Experimental results and discussion
+Numerical modelling
+Results and discussion
+Conclusions
+Data availability statement
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.72.143
+Not affiliated
+© 2024 Springer Nature

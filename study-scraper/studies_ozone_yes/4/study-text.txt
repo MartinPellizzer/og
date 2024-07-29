@@ -1,0 +1,131 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (49)
+Journal of Environmental Chemical Engineering
+Volume 12, Issue 5
+, October 2024, 113591
+Cu2S/Ni3S2 nanosheets combined with nickel foam substrate for efficient catalytic ozonation of p-nitrophenol in wastewater
+Author links open overlay panel
+Linjie Zhu a
+,
+Siyi Zhou a
+,
+Hao Cheng b
+,
+Jianfeng Ma a
+,
+Gunel Imanova c d e f
+,
+Sridhar Komarneni g
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jece.2024.113591
+Get rights and content
+Highlights
+•
+Cu2S/Ni3S2@NF catalyst was synthesized by a simple hydrothermal method.
+•
+Catalyst shows high activity and stability in catalytic ozonation of p-nitrophenol.
+•
+Cu2S/Ni3S2@NF is a kind of supported catalyst which is easy to separate and recover.
+•
+Singlet oxygen and superoxide radicals were the primary species for PNP degradation.
+Abstract
+Cu2S/Ni3S2@NF catalyst was prepared by hydrothermal method, and the catalytic ozonation of PNP solution (100 mg/L) was carried out. The removal rate of PNP under optimal experimental conditions was 99.9 % in 40 minutes, which was a significant increase over other systems. ESR revealed that singlet oxygen and superoxide radicals were the primary active ingredients. After the catalyst was used for five times, the catalytic activity remained basically unchanged. The possible degradation pathway and mechanism of Cu2S/Ni3S2@NF catalytic ozonation of PNP were proposed by gas chromatography-mass spectrometry. In real wastewater samples with complex compositions, the Cu2S/Ni3S2@NF/O3 system also achieved efficient degradation. The mechanism and possible pathway of Cu2S/Ni3S2@NF catalytic ozonation of PNP were proposed. This study provides an efficient, durable, and easy-to-recycle ozone catalyst, which provides a feasible pathway for the treatment of phenolic pollutants.
+Introduction
+P-nitrophenol (PNP) is an important organic synthetic raw material, which is widely used in medicine, agriculture, industrial products and other fields [1], [2]. In the process of production, transportation and use, PNP could be released into the environment and cause pollution. PNP has significant toxicity and can cause serious effects on the environment and organisms. Its acute toxicity manifests in lower semi-lethal doses, which is particularly lethal to aquatic organisms, and can cause DNA damage and lead to cell mutations. PNP tends to accumulate in organisms, especially those at the top of the food chain, which may lead to toxic accumulation [3]. The chemical structure of PNP contains benzene ring and nitro, which makes it to have a certain stability and the ability to resist external oxidation. There are several reasons why existing wastewater treatment technologies are difficult to effectively remove PNP. Although physical methods such as adsorption and extraction can effectively separate PNP, they cannot degrade and mineralize it, while membrane separation method has good selectivity and significant effect, but the cost is high. Biological treatment is economical and environmentally friendly, but the treatment period is long and it is difficult to degrade PNP significantly [4], [5]. Therefore, the development of efficient, economical and sustainable PNP removal technology is of great significance for protecting the environment and public health.
+Treating refractory organic pollutants with advanced oxidation processes (AOPs) is an efficient method [6], [7], [8]. Among them, catalytic ozonation, which can achieve complete mineralization of organic pollutants, is considered to be a promising technology [9], [10]. However, due to the selectivity and low solubility of ozone in water, the direct mineralization of ozone treated pollutants is slow. The destruction of refractory pollutants by reactive oxygen species is usually the main process of pollutant degradation [9]. Catalysts for heterogeneous catalytic ozonation (HCO) have been reported, such as metal-based catalysts (CeO2 [11], Mn3O4 [11], FeOOH [12], Co3O4 [13], etc.) and carbon-based catalysts (graphene oxide [14], carbon nanotubes [15], activated carbon [16], etc).
+It is important to note that the majority of catalysts are powders, which limits their practical application by making recovery processes more complicated and raising the possibility of secondary pollutants [17]. In addition, nanocatalysts are prone to particle agglomeration, which can lead to serious loss of activity [9]. Loading catalysts on foam metals is thought to be a successful tactic for overcoming this drawback. In this method, the catalyst grown on the metal foam can improve its conductivity and expose more active centers. In addition, the integrity of the metal foam simplifies the recycling steps. Since nickel foam (NF) is inexpensive, highly conductive, and highly malleable, it is frequently chosen as the substrate [18]. Thus, one efficient method for creating ozone catalysts is to build nanostructures with active nickel on NF substrates. Among the nanostructures, nickel-based sulfides have superior electrical conductivity and excellent electrochemical performance due to special metal bonds and superior electronic arrangement [19], [20], [21]. Therefore, Ni3S2 may be a potential catalyst for ozone. However, the catalytic ozonation process often leads to the accumulation of high-valent metals, thereby shortening the life of the catalyst. In this study, the second metal copper was introduced into the nickel-based catalyst, and the synergistic mechanism between the two metals was studied. Copper-based sulfides are currently investigated as catalysts for the evolution of hydrogen due to their wide range of redox characteristics, low cost, and strong electrical conductivity [22], [23]. Seldom reported are the heterostructures of Cu2S and Ni3S2, which deserve further investigation.
+In this work, we designed and synthesized Cu2S/Ni3S2 nanosheets on NF, which were tightly bound to the NF to improve the catalytic activity and stability. The synthesized Cu2S/Ni3S2@NF catalyst was used to catalyze the ozonation degradation of p-nitrophenol.
+Our hypothesis is that Cu2S/Ni3S2@NF catalyst can effectively catalyze ozonation of PNP, thereby significantly increasing its removal rate in wastewater. We also define the research question of how to optimize the application conditions of the catalyst for optimal PNP removal. Investigations were conducted on the effects of initial pH, inorganic anions, ozone dose, and catalyst dosage on the degradation of PNP by catalytic process. A probable removal mechanism and degradation pathway were suggested, and the stability of the catalyst was also investigated. At the same time, the application prospect in the actual water body is discussed. This study provides an effective solution for the removal of PNP, and explores the application potential of nickel foam-based catalyst in wastewater treatment. It also aims to advance wastewater treatment technology and contribute to more sustainable environmental management.
+Section snippets
+Materials and reagents
+Nickel chloride (NiCl2·6 H2O), urea (CH4N2O), copper chloride (CuCl2·2 H2O), ammonium fluoride (NH4F) and sodium sulfide (Na2S·9 H2O) were purchased from Adamas Reagent Co., Ltd. 2,2,6,6-Tetramethylpiperidin-4-amine and dimethyl-1-pyrroline N-oxide and were procured by Shanghai Maokang Biotechnology Co., Ltd. NF was supplied by Guangjiayuan New Material Co., Ltd. The foam nickel is 1 mm in thickness, the pore-density is 110 ppi, and ultrasonically cleaned with ethanol, acetone, dilute
+XRD analysis
+The elemental composition, crystallinity of phases and structure of Cu2S/Ni3S2@NF, Ni3S2@NF and Cu2S were determined by XRD, as shown in Fig. 2a. In the enlarged figure (Fig. 2b), the characteristic peaks are located at 44.2°, 52.6°, and 76.5°, respectively, corresponding to the nickel foam bracket. We can observe that the peaks of Cu2S/Ni3S2@NF, Ni3S2@NF are roughly similar. In the XRD pattern, 48.2°, 45.8° and 37.3° correspond to the (103), (110) and (102) crystal planes of Cu2S (pdf card
+Conclusion
+In this study, Cu2S/Ni3S2@NF catalyst was prepared by hydrothermal technology for catalytic ozonation of PNP. The results showed that Cu2S/Ni3S2@NF had excellent catalytic performance. The degradation rate of PNP reached 99.9 % within 40 min, and the removal rate was not significantly affected by parameter changes. The synergistic effect of the bimetallic active components Ni3+/Ni2+ and Cu2+/Cu+ in the Cu2S/Ni3S2@NF catalyst can promote the catalytic decomposition of ozone, thereby enhancing
+CRediT authorship contribution statement
+Hao Cheng: Writing – review & editing. Siyi Zhou: Writing – original draft, Investigation. Gunel Imanova: Writing – review & editing. Jianfeng Ma: Writing – review & editing, Supervision, Funding acquisition, Conceptualization. Linjie Zhu: Writing – original draft, Methodology, Investigation. Sridhar Komarneni: Writing – review & editing.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+References (49)
+B. Lai et al.
+Removal of p-nitrophenol (PNP) in aqueous solution by the micron-scale iron-copper (Fe/Cu) bimetallic particles
+Appl. Catal. B: Environ.
+(2014)
+J. Li et al.
+Characteristics and regulatory pathway of the PrupeSEP1 SEPALLATA gene during ripening and softening in peach fruits
+Plant Sci.
+(2017)
+Y. Pang et al.
+Degradation of p-nitrophenol through microwave-assisted heterogeneous activation of peroxymonosulfate by manganese ferrite
+Chem. Eng. J.
+(2016)
+Z. Xiong et al.
+Removal of nitrophenols and their derivatives by chemical redox: A review
+Chem. Eng. J.
+(2019)
+P. Zhao et al.
+Basic concepts and recent advances in nitrophenol reduction by gold- and other transition metal nanoparticles
+Coord. Chem. Rev.
+(2015)
+A.C. Mecha et al.
+Synergistic effect of UV–vis and solar photocatalytic ozonation on the degradation of phenol in municipal wastewater: A comparative study
+J. Catal.
+(2016)
+J. Wang et al.
+Activation of persulfate (PS) and peroxymonosulfate (PMS) and application for the degradation of emerging contaminants
+Chem. Eng. J.
+(2018)
+X. Jin et al.
+Development, dilemma and potential strategies for the application of nanocatalysts in wastewater catalytic ozonation: A review
+J. Environ. Sci.
+(2023)
+B. Zhou et al.
+Catalytic performance and insight into the mechanism of CeO2 nanorod catalysts in phenol ozone oxidation reaction
+Ceram. Int.
+(2024)
+X. Fan et al.
+The role of multiwalled carbon nanotubes (MWCNTs) in the catalytic ozonation of atrazine
+Chem. Eng. J.
+(2014)
+View more references
+Cited by (0)
+View full text
+© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+BiOIO3/Bi12SiO20 core-shell S-type heterojunction for efficient photocatalytic removal of bisphenol A: Performance and mechanism study
+Journal of Environmental Chemical Engineering, Volume 12, Issue 5, 2024, Article 113455
+Min Huang, …, Yongli Chen
+Modification of the photocatalytic performance of various metal oxides by the addition of β-cyclodextrin under visible light irradiation
+Journal of Water Process Engineering, Volume 16, 2017, pp. 329-337
+Sakthivel Pitchaimuthu, Ponnusamy Velusamy
+Measurement and modeling of heavy metal behaviors during the incineration of RDF in a pilot-scale kiln incinerator-Part 1: Modeling using multizonal thermodynamic equilibrium calculation
+Process Safety and Environmental Protection, Volume 150, 2021, pp. 373-384
+Kazuko Yui, …, Masahiro Osako
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

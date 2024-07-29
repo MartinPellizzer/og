@@ -1,0 +1,577 @@
+LOGIN
+Skip main navigation
+JOURNAL HOME
+FOR AUTHORS
+ARTICLES
+ABOUT THE JOURNAL
+SUBSCRIBE
+ASM Journals
+Applied and Environmental Microbiology
+Vol. 90, No. 6
+Oxygenation of Earth’s atmosphere induced metabolic and ecologic transformations recorded in the Lomagundi-Jatuli carbon isotopic excursion
+Advertisement
+OPEN ACCESS
+Spotlight Selection
+Ecology
+Research Article
+31 May 2024
+Share on
+Oxygenation of Earth’s atmosphere induced metabolic and ecologic transformations recorded in the Lomagundi-Jatuli carbon isotopic excursion
+Author: Dawn Y. Sumner https://orcid.org/0000-0002-7343-2061 dysumner@ucdavis.eduAUTHORS INFO & AFFILIATIONS
+DOI: https://doi.org/10.1128/aem.00093-24
+Special Series: Planetary Microbiology 
+614
+CITE
+PDF/EPUB
+
+Information & Contributors
+Metrics & Citations
+References
+Figures and Media
+Tables
+Share
+ABSTRACT
+The oxygenation of Earth’s atmosphere represents the quintessential transformation of a planetary surface by microbial processes. In turn, atmospheric oxygenation transformed metabolic evolution; molecular clock models indicate the diversification and ecological expansion of respiratory metabolisms in the several hundred million years following atmospheric oxygenation. Across this same interval, the geological record preserves 13C enrichment in some carbonate rocks, called the Lomagundi-Jatuli excursion (LJE). By combining data from geologic and genomic records, a self-consistent metabolic evolution model emerges for the LJE. First, fermentation and methanogenesis were major processes remineralizing organic carbon before atmospheric oxygenation. Once an ozone layer formed, shallow water and exposed environments were shielded from UVB/C radiation, allowing the expansion of cyanobacterial primary productivity. High primary productivity and methanogenesis led to preferential removal of 12C into organic carbon and CH4. Extreme and variable 13C enrichments in carbonates were caused by 13C-depleted CH4 loss to the atmosphere. Through time, aerobic respiration diversified and became ecologically widespread, as did other new metabolisms. Respiration displaced fermentation and methanogenesis as the dominant organic matter remineralization processes. As CH4 loss slowed, dissolved inorganic carbon in shallow environments was no longer highly 13C enriched. Thus, the loss of extreme 13C enrichments in carbonates marks the establishment of a new microbial mat ecosystem structure, one dominated by respiratory processes distributed along steep redox gradients. These gradients allowed the exchange of metabolic by-products among metabolically diverse organisms, providing novel metabolic opportunities. Thus, the microbially induced oxygenation of Earth’s atmosphere led to the transformation of microbial ecosystems, an archetypal example of planetary microbiology.
+IMPORTANCE
+The oxygenation of Earth’s atmosphere represents the most extensive known chemical transformation of a planetary surface by microbial processes. In turn, atmospheric oxygenation transformed metabolic evolution by providing oxidants independent of the sites of photosynthesis. Thus, the evolutionary changes during this interval and their effects on planetary-scale biogeochemical cycles are fundamental to our understanding of the interdependencies among genomes, organisms, ecosystems, elemental cycles, and Earth’s surface chemistry through time.
+INTRODUCTION
+Earth and life have co-evolved over billions of years. Interdependencies among environments, ecosystems, organisms, and genomes promote this co-evolution, simultaneously transforming life and Earth’s surface through metabolic activities and interactions. Some of the most significant biogeochemical transformations were associated with the production of O2 from photosynthesis. Molecular oxygen transformed habitable environments in response to shifting geological boundary conditions; its accumulation affected the biosphere at all scales from mutations to ecosystem structure. These transformations are partially preserved in both the geological record and the genomes of extant organisms. Reconstructing the history and consequences of this planetary-scale, microbially induced redox change requires integrating clues from these disparate records into self-consistent explanatory models that make predictions that can be tested by data from both types of records. Sufficient clues are now available to make this possible for the aftermath of the oxygenation of Earth’s atmosphere.
+In the geological record, geochemical signatures like the carbon isotopic composition of carbonates and organic matter record ecosystem and metabolic processes. Carbon-based molecules and reactions are the foundation of biological activity, and changes in carbon isotope ratios have been used extensively to interpret biosphere processes [e.g., references (1–3)]. In general, primary productivity preferentially incorporates 12C over heavier 13C atoms. This leads to a depletion of 13C in organic matter and enrichment in the remaining dissolved inorganic carbon (DIC) in the environment. The long-term balance in 13C to 12C ratios in DIC in the oceans depends on inputs of carbon from Earth’s interior and weathering of rocks, the burial of organic matter, and the burial of carbonate rocks, which form from environmental DIC, recording its isotopic composition [e.g., reference (3)]. In general, the more organic carbon that gets buried relative to other processes, the higher the enrichment of 13C in DIC and thus carbonate rocks. These signatures can be measured in the rock record and are interpreted as reflecting local, regional, or global processes, depending on their patterns and context. The global burial of organic carbon is also tied to the oxidation state of the Earth’s surface; high net burial rates of reduced organic carbon increase the oxidation state of the Earth’s surface [e.g., reference (3)]. Thus, carbon isotopic values and the oxidation state of Earth’s surface are commonly co-interpreted to understand global biogeochemical processes.
+Sometimes, biosphere processes create DIC carbon isotopic variations that are challenging to understand without also considering interdependencies among contemporaneous evolutionary and environmental changes. One of these examples is the global ~2.3–2.1 Ga Lomagundi-Jatuli carbon isotopic excursion (LJE), which followed the oxygenation of Earth’s atmosphere (3–10). This excursion is characterized by extreme 13C enrichment in carbonates, which has been traditionally interpreted as due to enhanced organic carbon burial [(3) and references therein (5, 8)]. Enhanced organic carbon burial should lead to an increase in oxidation state for the oceans and atmosphere [e.g., reference (8)]. However, the LJE postdates oxygenation of the atmosphere rather than predating or being contemporaneous with it, and organic-rich rocks are not particularly abundant during this interval (3, 6, 8–10). In addition, the observed 13C enrichment of carbonate rocks varies significantly with their depositional environment. The extreme enrichments are mostly present in the shallowest water environments with most of the deeper marine carbonates having 13C to 12C ratios typical of most of Earth’s history (6, 9, 10). Thus, the details in the timing and patterns of 13C enrichments are not consistent with a traditional interpretation of globally enhanced organic carbon burial causing the LJE and oxygenation of the atmosphere (3, 10). Some researchers have called on local processes to cause local 13C enrichments in DIC, for example, microbial methanogenesis with the loss of methane to the atmosphere or alteration of the carbonate isotopic signatures [e.g., references (1, 6, 9–12)]. However, these local models do not provide mechanisms for the global-scale initiation and end of the LJE; the conditions for these enrichments have existed locally throughout Earth’s history, including in modern environments [see Discussion in reference (3)]. If methanogenesis or carbonate alteration were the causes of the LJE, additional mechanisms are necessary for making these local conditions particularly abundant in the 100–250 million years after oxygenation of the atmosphere.
+In this contribution, I present a novel conceptual metabolism evolution model that explains the initiation of the LJE as the proliferation of cyanobacterial primary productivity in shallow environments after the formation of an ozone layer. This expansion in primary productivity was followed by the evolution and diversification of new respiratory metabolisms that led to a transformation in organic carbon remineralization and eventually to the end of the LJE. This explanatory model is consistent with the patterns in both the geologic and genomic records and provides testable predictions for future work.
+The Lomagundi-Jatuli excursion
+The LJE is defined as a 100–250 million year long interval that is characterized by unusually high carbonate carbon isotope values, commonly between +5‰ and +10‰ with some up to +30‰ [δ13Ccarb, where δ13C ={[(13C/12C)sample/(13C/12C)standard] − 1} × 1,000, all values reported relative to the VPDB standard; (3–10, 13)]. Its absolute age and duration are poorly constrained due to challenges in dating the near-shore carbonate rocks that preserve the excursion. However, it started after evidence of oxygenation of the atmosphere within the same sequences, giving an initiation age of roughly 2.3 Ga and likely ended around 2.1 Ga, but data in hand do not require a globally synchronous initiation nor termination for the LJE [see Discussion and Fig. 8 in reference (3)]. These characteristics make the excursion exceptional and difficult to interpret both with respect to its duration and its evidence for extremely 13C-enriched DIC (δ13CDIC). In addition, isotopic variations within the LJE are unusual. δ13Ccarb values tend to have two peaks, one centered at 0‰ and one centered at +7‰ (3, 10). In addition, carbon isotopic curves for any given sequence usually lack the typical rising or falling isotopic trends characteristic of most carbon isotopic excursions that reflect global changes in the rates of organic carbon burial (3). Rather, “normal” values near 0‰ and 13C-enriched values are intermixed or vary with depositional environment, suggesting that δ13Ccarb values do not reflect changes to oceanic δ13CDIC (3, 4, 6, 10, 13).
+Studies of organic carbon isotopic values (δ13Corg) through the LJE are sparse [but see references (5, 8, 9)], in part because the shallow water carbonates hosting the LJE isotopic excursion usually contain little organic carbon. For those sections with organic matter hosted in 13C-enriched shallow water carbonates, δ13Corg values are either typical of cyanobacterial photosynthesis from a “normal” DIC pool [−25‰ to −30‰; (9)] or are enriched in 13C consistent with primary productivity from a DIC pool enriched in 13C [−14‰ to −25‰; (8)]. Organic carbon associated with deeper water deltaic shales that accumulated within the LJE interval has values from −20‰ to −47‰ (8, 9). Some of the heavier values are consistent with primary productivity from seawater with δ13CDIC of approximately 0‰, but those below −30‰ likely require methanotrophy to provide a significant proportion of the preserved organic matter (8, 9). Given the large number of processes that can influence δ13Corg, distinguishing among them with sparse data is challenging, and insufficient constraints make the data difficult to use for testing specific models.
+The long duration, extreme δ13Ccarb values, and variations in δ13Ccarb with the depositional environment make the LJE dissimilar to most other global isotopic excursions that can be interpreted as intervals of enhanced organic carbon burial (1, 3, 10, 12). Specifically, variability within the LJE suggests that local processes influenced the δ13CDIC of specific environments (3, 6, 7, 9–12) even though it is expressed globally. Local DIC can become enriched in 13C due to microbial ecosystem processes. Specifically, methanogenesis can lead to very high local δ13CDIC, sometimes exceeding +10‰ (11, 12). Others have proposed that methanogenesis explains the high δ13Ccarb values in the LJE interval, whether methanogenesis occurred within the sediment or with CH4 loss to the atmosphere (1, 11, 12). However, these prior models have not provided a mechanism for explaining the global initiation of the LJE or its termination if local processes are causing the extreme 13C enrichments. In this contribution, I propose that ecological and evolutionary responses to the oxygenation of the atmosphere provide mechanisms for the initiation and termination of the LJE that are consistent with the isotopic record as well as molecular clock models based on the analyses of extant genomes.
+Organic matter remineralization and metabolic evolution
+The remineralization of organic carbon to DIC and CH4 is a key aspect of the biological carbon cycle. When oxidants like O2, sulfate, nitrate, and redox-sensitive metals are abundant, organic carbon is mostly oxidized to CO2, which contributes to local DIC. When oxidants are sparse or the communities are unable to use them, fermentation and methanogenesis predominate (14). Oxidation of organic matter has a different isotopic effect on DIC than methanogenesis (11, 12, 15). The carbon isotopic composition of DIC produced by organic matter oxidation is similar to that of the original organic carbon and to the δ13C of DIC removed by primary productivity (Fig. 1A). Thus, oxidation of organic matter that was locally produced rarely leads to isotopic shifts in local DIC; even in cases of very high primary productivity, isotopic enrichments relative to oceanic DIC are typically less than 5‰–6‰ (3, 16). In contrast, remineralization through fermentation breaks larger organics into smaller ones. When CO2 and CH4 are produced, the CO2 is significantly enriched and the CH4 is significantly depleted in 13C relative to the original organic matter, with a difference of at least 40‰ (14). Specifically, CH4 released to the local environment has δ13CCH4 values at least 20‰ lower than the original organic matter. Because CH4 is a relatively insoluble gas, some of it escapes to the atmosphere from shallow or exposed environments (Fig. 1B). In contrast, the 13C-enriched CO2 becomes part of the local DIC pool. Thus, the net result of methanogenesis and loss of CH4 to the atmosphere is the evolution of local δ13CDIC to higher values [Fig. 1B; (11, 12)]. The magnitude of the 13C enrichment depends on the specific methanogenic metabolisms active and the rate of CH4 loss relative to re-equilibration of local DIC with oceanic DIC and atmospheric CO2 (12, 14).
+Fig 1
+Fig 1 Local carbon cycle models for respiration-dominated (A), methanogenesis-dominated (B), and methanogenesis plus methanotrophy (C) cyanobacterial mats. The schematic environment is supratidal or sabkha, where water depth is on the order of centimeters. Processes that have a minimal impact on isotope dynamics for each condition are rendered with low opacity to demonstrate that they are present even if they do not dominate isotopic signatures. Blue arrows represent fluxes with δ13C values approximately equivalent to local DIC. Green arrows represent fluxes with δ13C values approximately equivalent to local photosynthetically produced organic matter (25‰–30‰ below δ13CDIC). Orange arrows represent fluxes with δ13C values significantly lower than local photosynthetically produced organic matter (50‰ to >100‰ below δ13CDIC). The δ13C of atmospheric CO2 is fixed by exchange with open ocean DIC (not shown). The loss of CH4 with very low δ13C enriches the overall environment in 13C through time, producing high δ13Ccarb values (B and C). A flux of O2 out of the microbial mat provides an approximate redox balance for the CH4 flux if nearly all organic carbon is remineralized and very little is buried. Predicted δ13Corg values in environments with methanotrophs (C) are highly variable because the organic carbon is a mix of organics from photosynthesis and highly 13C-depleted organics from methanotrophy. The δ13Corg values measured would be very sensitive to the relative proportions of these two sources. Oxidation of CH4 to DIC within the mat or water column would reduce the 13C enrichment of DIC for any of the models, a condition that may be present in open ocean and deep-water environments (not shown).
+If organic matter remineralization style caused the LJE, a global mechanism is required for restricting extreme δ13CDIC values in time and space. The evolution and ecological expansion of respiration metabolisms provide this mechanism, and evidence for their evolution is preserved in the genomes of extant organisms. The timing of gene origins and diversifications can be reconstructed using the phylogeny of genes from extant organisms in molecular clock models [e.g., reference (17)]. Molecular clock models require assumptions about the rates of evolution and calibration to the rock record, both of which are poorly constrained for microbial evolution in early Earth’s history. However, the models highlight intervals of rapid ecological expansion of key metabolisms through processes of gene evolution, duplication, and transfer among organisms. The origin of genes coding for a specific metabolism marks the first time a lineage of organisms can construct the necessary enzymes. However, metabolism does not necessarily become ecologically widespread until it provides a distinct advantage in diverse environmental conditions (18). When this happens, gene phylogenies tend to show numerous duplication and lateral gene transfer events (18). Thus, molecular clock models of organic remineralization metabolisms provide important insights into the ecological importance of these metabolisms before versus during or after the LJE interval.
+Fermentation and CH4 metabolisms
+Molecular clock models suggest that the last common ancestor of extant life was capable of fermentation and that methanogenesis emerged before 3 Ga [e.g., reference (19–21)]. Although modern methanogenesis in anaerobic environments is dominated by Archaea, methane production via fermentation was likely an early bacterial metabolism as well. Aerobic methanogenesis by bacteria is common in oxic seawater and lake water (22–25), including by Cyanobacteria (26). In these environments, methane is sometimes a byproduct of other metabolisms that transform organic molecules (24, 26). Given the antiquity of methanogenesis as a metabolism, it may have been a major energy source for diverse Bacteria as well as Archaea during Archean time.
+Methanotrophy likely evolved prior to a negative excursion in δ13Corg at about 2.7 Ga (15, 27, 28). Thus, fermentation, methanogenesis, and methanotrophy were ecologically widespread metabolisms for processing organic carbon prior to, during, and after the LJE.
+Sulfur
+Molecular clock models suggest that sulfite reduction and sulfide oxidation genes (dsrAB) likely originated very early in the history of life (18). The origination of sulfate reduction genes (aprAB) is harder to date with molecular clocks, but results are consistent with an origin prior to 2.5 Ga (18). Interestingly, dsrAB and aprAB genes show significant diversification during the interval of atmospheric oxygenation and the LJE (18). Similarly, sox genes for sulfate-thiosulfate transformations originated at about 2.4 Ga, near the start of the LJE, although they diversified later (18). Thus, there is significant evidence for diversification and ecological expansion of sulfur redox metabolisms in the LJE interval. In addition, others have suggested that the ecological importance of sulfate reducers was highly variable during the LJE due to low seawater sulfate concentrations [e.g., reference (28)]. Thus, sulfur-based respiration rates were likely highly variable during the LJE, depending on the metabolic capabilities of the organisms present and the availability of sulfur in various oxidation states in local environments.
+Nitrogen
+Nitrate reduction likely evolved early in the history of life (29–31), but molecular clock models suggest that it was not a common metabolism until after the oxygenation of the atmosphere and surface oceans, possibly near 1.5 Ga (31). These models are consistent with a paucity of nitrate and availability of ammonia in anoxic seawater prior to 2.4 Ga, leading to little evolutionary pressure to use nitrate. The oxygenation of the atmosphere and surface oceans would have significantly increased those pressures, likely leading to the evolution of more effective and diverse nitrogen metabolisms (31, 32). For example, the annamox metabolism appears not to have evolved until the oxygenation of the atmosphere even though it is a strictly anaerobic process (33). Overall, nitrate reduction was likely an available metabolism during the LJE, with evidence that it became more efficient and ecologically widespread after this interval.
+Oxygen
+The evolutionary history of aerobic respiration and other oxygen-based metabolisms is complicated by extensive lateral gene transfer of oxidase and oxygenase genes among distantly related organisms in addition to the conversion of numerous enzymes and non-enzymatic proteins to oxidases (34–42). For example, the evolution of a specific group of oxygenases (Baeyer–Villiger monooxygenases) in Chloroflexi, Actinobacteria, and Proteobacteria is associated with at least 68 lateral gene transfers, the first of which occurred within the LJE interval (42). Cytochrome oxidases that interact directly with O2 are important for aerobic respiration and may have evolved in terrestrial environments in the ancestors of extant acidophilic Fe(II) oxidizers (within Proteobacteria) (38, 39); molecular clock models suggest they expanded to other organisms through extensive lateral gene transfer associated with the oxygenation of the atmosphere (38, 39), including within the LJE interval. Similarly, different oxidases essential to aerobic respiration were acquired by the Cyanobacteria, Melainabacteria, and Sericytochromatia after their divergence as clades, and oxidases continued to be exchanged through lateral gene transfer during the diversification of these lineages (35–37). Although the ages of these acquisitions are not well constrained, comparisons of organismal and gene phylogenies require that some lateral gene transfer events must have occurred prior to the diversification of oxygenic Cyanobacteria, whereas others occurred afterward (34–36), possibly during the LJE.
+Antioxidant systems also evolved and expanded ecologically after the oxygenation of the atmosphere, including within Cyanobacteria (43). Others evolved in different lineages. For example, nickel superoxide dismutases, which convert 2O2- into H2O2 and O2, likely originated in Actinobacteria and were then transferred to diverse other clades, including Cyanobacteria, although possible timings of such transfers were not reported (34). Molecular clock models for iron, manganese, and nickel superoxide dismutases in Cyanobacteria show that the relevant genes are polyphyletic and thus the result of multiple gene transfers (44). Results also suggest that all three classes of superoxide dismutases were present in some organisms during Paleoproterozoic time, although they may not have been widely available until after the LJE interval (44).
+Overall, the timeline of evolution and diversification of various enzymes that interact with O2 is poorly constrained but often tied to the oxygenation of the atmosphere, either quantitatively or conceptually, with continued diversification and lateral gene transfer extending into Phanerozoic time.
+Other metabolisms
+There is growing evidence for the expansion of other metabolisms after the oxygenation of the atmosphere and during the LJE. For example, molybdenum-based enzymes (MopB group) use diverse substrates, many of which became significantly more abundant after the oxygenation of the atmosphere, likely leading to significant lateral gene transfer and diversification of these enzymes during the LJE interval (45). Similarly, while ancestral dimethyl sulfoxide reductase (DMSO) enzymes were likely present in the last common ancestor of life, some DMSO groups emerged and diversified within the LJE interval (45). Even some anaerobic metabolisms, such as anaerobic ammonium oxidation and anaerobic methane oxidation, appear to have diversified during the LJE interval (33, 46), reflecting the ecologic importance of extremes in oxidation state between organic-rich sediments and oxygenated waters and atmosphere.
+Methane solubility
+If fermentation and methanogenesis were the major processes remineralizing organic carbon prior to and during the LJE, the fate of the resulting CH4 is critical to the resulting isotopic signatures. Gas solubility is governed by Henry’s Law: the concentration of the dissolved gas is the product of its partial pressure in the gas phase and its Henry solubility, which is a function of temperature, pressure, and water chemistry. In general, gas solubility decreases with increasing temperature in sedimentary environments. Solubility also decreases with decreasing pressure, so gases are less soluble in warm shallow water than in cold deep water.
+For CH4, the Henry solubility constant at standard conditions in pure water is about 1.4 × 10−5 mol/m3 Pa, similar to that of O2 at 1.3 × 10−5 mol/m3 Pa (47). The Henry solubility constant for CO2aq is more than an order of magnitude higher at 3.3 × 10−4 mol/m3 Pa. In addition, CO2 reacts with water to form HCO3- and CO32-, so the relative concentration of dissolved inorganic carbon (DIC = [CO2aq] + [H2CO3] + [HCO3-] + [CO32-]) is much higher than for CH4 or O2 at the same gas partial pressure (47). At pH values high enough to precipitate carbonate minerals, most of the DIC is HCO3- or CO32- (48). Thus, the solubility of CO2 produced by microbial communities in environments relevant to the LJE model is orders of magnitude higher than CH4 or O2 in the same environments.
+Water composition has complicated effects on gas solubility (47). For gases that do not ionize in water, such as CH4 or O2, increasing salinity decreases solubility. However, salinity and pH complicate CO2 solubility due to the ion pairing of HCO3- and CO32- with cations in the water. In general, DIC increases with both increasing salinity and increasing pH at a constant partial pressure of CO2 (48). Thus, evaporitic environments on ocean margins contain more DIC and less CH4 or O2 than open ocean water.
+The composition of the atmosphere is also important for gas solubility because the equilibrium concentration of a dissolved gas depends on its partial pressure in the gas phase. When the atmosphere contains more CH4, more CH4 remains dissolved in local water where it can be consumed by methanotrophs or oxidized to DIC.
+Overall, the solubility of CH4 is lowest under an oxygenated atmosphere in warm, saline, shallow water environments, including intertidal, supratidal, and sabkha environments. These environments also have the shortest diffusion path between microbial sources of CH4 and the atmosphere, and any wave mixing of these shallow waters with the atmosphere would increase the rate of CH4 loss. Thus, the loss of CH4 to the atmosphere was likely rapid from many of the environments represented by the 13C-enriched carbonates of the LJE. Therefore, microbial CH4 production and its subsequent loss to the atmosphere have the potential to cause the 13C enrichments observed during the LJE.
+RESULTS
+An explanatory metabolism evolution model for the LJE interval
+Molecular clock data suggest that oxygenation of the atmosphere led to a significant expansion of microbial respiration metabolisms. When these evolutionary changes are interpreted within the context of carbon isotopic data from the rock record, an explanatory metabolic evolution model emerges, which predicts the key characteristics of the LJE. In the model, the LJE initiated an ecological expansion of cyanobacterial primary productivity in shallow water environments. Organic carbon remineralization at the beginning of the LJE was dominated by fermentation and methanogenesis, producing extreme enrichments in 13C in environments where CH4 was lost to the atmosphere. Through time, environmental selection led to the evolution and proliferation of respiration metabolisms. As these respiratory metabolisms spread, they displaced fermentation and methanogenesis in most environments, leading to the loss of the extreme 13C-enrichment characteristics of the LJE. Thus, the overall duration of the LJE was determined by the rate of ecologic expansion of respiration metabolisms that did not create large carbon isotopic fractionations.
+Initiation of the LJE with atmospheric oxygenation
+In the metabolism evolution model, the LJE was enabled by the oxygenation of the atmosphere and the formation of a stratospheric ozone layer between 2.45 and 2.3 Ga (49–51). An ozone layer significantly reduced atmospheric UVB and UVC transmission; its formation as a permanent feature provided protection from this ionizing radiation to terrestrial and shallow water environments exposed to direct sunlight (41). Although life was present in these environments prior to the LJE interval [e.g., references (52, 53)], the reduction of UVB and UVC exposure significantly reduced radiative damage, allowing substantial increases in cyanobacterial primary productivity. High primary productivity can shift local δ13Ccarb to higher values (by up to 5‰–6‰) by preferentially removing 12CDIC faster than DIC re-equilibrates with the atmosphere during the day (16). Thus, increased primary productivity in shallow marine intertidal, supratidal, and sabkha environments likely provided part of the isotopic shift defining the start of the LJE.
+Cyanobacterial primary productivity still faced challenges early in the LJE. UVA is poorly absorbed by ozone, and it creates reactive oxygen species in the presence of O2 (45). In response, Cyanobacteria evolved new antioxidant systems (41, 43) and the pigment scytonemin (54). They also diversified into many of the lineages extant today based on both molecular clock models and microfossils in the rock record (41, 55, 56). These innovations likely led to increased photosynthetic efficiency and additional increases in primary productivity within the LJE interval.
+Causes of high δ13CDIC
+High primary productivity provides substantial organic matter for fermentation and methanogenesis. In the explanatory metabolism evolution model, high primary productivity during the LJE supported methanogenesis that produced highly 13C-depleted CH4 and 13C-enriched CO2. The CO2 remained dissolved in local water, contributing to 13C enrichment of DIC and thus carbonates, whereas CH4 was lost to the atmosphere (Fig. 1B). Any CH4 that reacted with O2 to form CO2 lowered the 13C enrichment of DIC. Thus, 13C enrichment of DIC was highly influenced by the solubility of CH4 in local water and the rate of its loss to the atmosphere. The solubility of CH4 is very low in warm, saline, shallow water. These environments also have short diffusion paths between microbial sources of CH4 and the atmosphere, making CH4 loss rapid relative to deeper marine environments. The model predicts that open ocean δ13CDIC was not affected by CH4 loss due to higher gas solubility, a longer residence time allowing oxidation of CH4 to CO2, the high volume of water relative to primary productivity, and wave mixing that facilitated equilibrium between DIC and atmospheric CO2. Thus, open marine environments likely retained global marine δ13CDIC values near 0‰ even if methanogenesis was an important organic remineralization process. In contrast, restricted environments with low water volumes, high DIC, and little wave mixing were furthest from carbon isotopic equilibrium. All these factors predict that warm, restricted environments with high pH, especially shallow marine supratidal and sabkha environments, developed the highest δ13CDIC values during the early LJE when methanogenesis was a major remineralizing metabolism. These environments are also those most supersaturated with respect to carbonate minerals, providing a mechanism for preserving the very high δ13Ccarb observed in the rock record [(3) and references therein (10)].
+The isotopic composition of organic matter depended on both DIC and microbial metabolisms. In the explanatory metabolic evolution model for the LJE, the majority of organic matter was produced by cyanobacterial primary productivity, predicting a δ13Corg that is 25‰–30‰ lower than local δ13CDIC and δ13Ccarb [Fig. 1B; e.g., reference (1)]. However, in some cases, methanotrophy incorporated 13C-depleted CH4 into its biomass, and the resulting organic matter had a much lower δ13Corg value [Fig. 1C; (8, 14, 15)]. If methanotrophy produced some of the biomass, the isotopic difference between preserved organic matter and associated carbonate minerals may have been significantly greater than the typical 25‰–30‰ from photosynthesis, and the organic matter may not have been 13C-enriched even if local DIC was (5, 8, 9).
+Termination of the LJE due to respiration
+In the explanatory metabolic evolution model, the end of the LJE reflects the ecological expansion of aerobic and other forms of respiration to the extent that they outcompeted fermentation and methanogenesis as remineralization processes. This transition likely occurred at different times in different places, depending on the details of the oxidants and microbial communities present. Mat communities continued to emit CH4 in addition to O2, as they do today (11, 12, 26, 57), but through time, improved efficiency and more diversity of carbon-oxidizing metabolisms decreased the proportion of primary productivity remineralized by methanogenesis. Once the CO2 provided to local DIC had approximately the same isotopic composition as the CO2 removed during primary productivity, local δ13CDIC did not evolve to values greater than those that can be produced by high primary productivity alone.
+DISCUSSION
+The explanatory metabolic evolution model for the LJE integrates atmospheric oxygenation, microbial metabolisms, and evolutionary change to explain observed δ13Ccarb in the context of genomic records of metabolic evolution. It provides testable predictions and addresses several outstanding problems with interpreting the LJE (3), including: (i) the timing of the LJE and its connection to the oxygenation of the atmosphere, (ii) the poorly defined beginning and end to the LJE, (iii) the environmental distribution of high δ13Ccarb values, and (iv) an absence of evidence of enhanced organic carbon burial during the LJE. It predicts interdependencies among microbial evolution, ecology, and environmental conditions that worked together to produce both the geologic and genomic records.
+Atmosphere-LJE dynamics
+The proposed model mechanistically ties the LJE to the oxygenation of the atmosphere. Thus, it requires an explanation for why methanogenesis did not produce carbonates with high δ13Ccarb during Archean time even though methanogenesis is predicted to have been a major metabolism. One explanation is that primary productivity in shallow marine environments was low due to a high UVB and UVC flux. However, a paucity of highly 13C-enriched carbonates could also be due to the composition of the Archean atmosphere. Several models suggest that prior to about 2.45 Ga, the partial pressure of CH4 was orders of magnitude higher than after atmospheric oxygenation (58–60). An atmospheric CH4 partial pressure as high as 20 µbars was proposed as a minimum to allow the formation of observed mass-independent sulfur isotopic fractionations (61). At these high partial pressures, significantly more CH4 would have remained within Archean ecosystems where it could have been oxidized by locally produced O2. Without the loss of CH4 to the atmosphere, local DIC would not have become as 13C enriched in most environments. However, environments with an appropriate sink for CH4 could have produced high δ13Ccarb values prior to the oxygenation of the atmosphere. Such environments could include particularly high-temperature or saline environments with low gas solubility or ecosystems with high methanotrophy consuming the CH4. Facies variations in δ13Ccarb or lower than normal δ13Corg relative to δ13Ccarb provide potential geological tests for these processes (6, 8, 16).
+During the transition from an anoxic to oxygenated atmosphere, high δ13Ccarb values are possible [e.g., reference (62)]. The explanatory metabolism evolution model predicts that high δ13Ccarb values would be associated with low atmospheric CH4 and the presence of an ozone layer as documented by an absence of mass-independent sulfur isotopic signatures (49, 51, 60, 62, 63). Intervals of low atmospheric CH4 could be indicated by cooler temperatures, including glaciation, because it is a very potent greenhouse gas. Detailed comparisons of sulfur isotopic signatures, intervals of glaciation, and δ13Ccarb can be used to test and refine the metabolic evolution model.
+Even though the LJE is the result of atmospheric oxygenation, the metabolic evolution model does not predict that the LJE led to an increase in atmosphere O2. δ13Ccarb is usually interpreted as reflecting oceanic δ13CDIC in the context of mass balance between carbonate and organic carbon burial (1, 2). This interpretational framework requires substantial organic carbon burial to produce exceptionally high δ13Ccarb. Since organic carbon is reduced, redox balance requires the accumulation of an oxidant when organic matter is buried. The oxidant is typically interpreted to be atmospheric O2, and the organic burial model has led to a proposed “overshoot” to high atmospheric O2 during the LJE (3, 5, 9, 13, 50, 64, 65). However, if the metabolic evolution model can explain all 13C-enriched carbonate rocks, shallow water δ13Ccarb values were decoupled from global atmospheric O2 concentrations. In fact, given the similar solubilities of O2 and CH4, their fluxes to the atmosphere from high δ13Ccarb environments may have been balanced. Thus, the metabolism evolution model for the LJE does not require that global net organic matter burial increased, although the model also does not exclude increased burial. Similarly, it does not imply an increase in the partial pressure of O2 of Earth’s atmosphere during the LJE interval. The explanatory metabolism evolution model is consistent with any atmospheric composition with enough O2 to provide a sufficient ozone layer to allow high cyanobacterial primary productivity in shallow water and exposed environments.
+Heterogeneity in δ13Ccarb and δ13Corg
+The explanatory metabolic evolution model for the LJE makes several predictions for δ13Ccarb and δ13Corg. First, high δ13Ccarb values emerged from ecological responses to a newly oxygenated atmosphere and formation of an ozone layer. Specifically, high δ13Ccarb values developed locally and were influenced by conditions that affected CH4 production and escape to the atmosphere, such as primary productivity, temperature, and physical mixing processes like waves and tides. These vary on such short time scales that it is unlikely that carbonate precipitation captured rises and falls in δ13CDIC in any given section (16). Rather, the sensitivity of δ13CDIC to small changes in the rates of both physical and biological processes predicts that δ13CDIC and thus preserved δ13Ccarb would have been highly variable (16).
+Second, the sensitivity of δ13CDIC to CH4 loss predicts highly heterogenous δ13Ccarb across depositional environments. The model predicts the highest δ13Ccarb values in exposed and shallowest water environments, which would have had the fastest CH4 loss to the atmosphere. Deeper environments would have had δ13CDIC close to global marine values due to slower loss of CH4 and more water exchange with global DIC reservoirs. Even though shallow water environments were the most likely to produce high δ13Ccarb, specific deeper environments could have produced them if there was a significant sink of CH4 such as bubble nucleation, an oxic zone in a nearby part of the water column, or very high rates of methanotrophy. Significant methanotrophy would be recorded by particularly low δ13Corg values relative to δ13Ccarb, which can be observed in the rock record [Fig. 1C; (8, 9, 14, 15)]. Similarly, CH4 bubble formation might leave physical signatures in sedimentary rocks [e.g., references (8, 9)], and O2 oases in the water column might leave observable geochemical signatures [e.g., references (66–69)].
+Third, the highest δ13Ccarb values in the LJE are predicted soon after the oxygenation of the atmosphere and the formation of an ozone layer. Specifically, LJE conditions would be widespread as soon as cyanobacterial primary productivity significantly increased in previously UV-irradiated environments. At this time, the proportion of methanogenesis relative to carbon-oxidizing metabolisms would have been the highest across environments. With time, δ13Ccarb would have declined as carbon-oxidizing metabolisms proliferated in diverse ecosystems. This predicted decline in high δ13Ccarb can be tested as the ages and depositional environments of relevant carbonates become better characterized.
+Evolutionary end to the LJE
+The colonization of shallow depositional environments under an oxygenated atmosphere represents a significant ecological change that drove evolutionary innovation. High cyanobacterial productivity in newly UV-protected environments produced co-located organic matter and diverse oxidants, which provided opportunities for evolutionary innovation of novel and more effective metabolisms (18, 41, 43). The diversification of numerous gene families has been tied to the oxygenation of the atmosphere and its aftermath using molecular clock models, but these calibrations are too imprecise to constrain the rates of evolution through the LJE. However, the explanatory metabolism evolution model couples the duration of the LJE to the time it took for aerobic and other respiration metabolisms to displace methanogenesis in most shallow water environments. Because ecological expansion was likely gradual and spatially heterogeneous, the model predicts that the end of the LJE interval was indistinct, with the loss of high δ13Ccarb spatially and temporally variable across preserved sequences. The indistinct termination of the LJE can be tested in the geological record, whereas additional molecular clock models for the evolution of respiration metabolisms will provide insights into its duration.
+An indistinct end for the LJE interval is consistent with the observed complexity of microbial ecosystems. Modern microbial communities are highly diverse with different dominant processes depending on niche structure and environmental interdependencies. For example, rare environments dominated by methanogenic carbon remineralization still exist as do those dominated by aerobic respiration and sulfate reduction. These produce different isotopic signatures on a heterogenous Earth. Similar heterogeneity was likely even more widespread as the biosphere first adjusted to a newly oxygenated atmosphere.
+Ecological implications
+If the explanatory LJE metabolism evolution model is correct, this interval of time represents the emergence of a new ecosystem structure. Prior to the LJE, remineralization of organic matter was performed predominantly through fermentation and methanogenesis. The main control on the spatial distribution of microbial metabolisms would have been the availability of bond types in local organic matter. Thus, the spatial structure of ecosystems prior to the oxygenation of the atmosphere was probably mostly controlled by the locations of primary productivity that provided molecules for fermentation. The subsequent evolution of respiration processes would have changed this structure. Respiration uses oxidants whose concentrations depend on the biogeochemical production of the oxidants, their consumption, and transport within ecosystems. In microbial mats, these processes create steep redox gradients, which lead to layered ecosystems with organisms using and tolerating O2 most abundant at the surface, with anaerobic organisms arranged in the subsurface based on O2 tolerance and the distributions of the oxidants they require [e.g., reference (70)]. This structure allows the efficient use of energy for organic carbon remineralization. It also creates highly reducing environments as little as a millimeter away from the ones containing O2. These very steep redox gradients allow the cross-diffusion of reduced and oxidized species across small spatial scales. This shift in ecosystem structure likely influenced the evolution of the organisms constructing the ecosystems, creating a system greater than the sum of its parts.
+Planetary microbiology
+Interestingly, the explanatory metabolism evolution model for the LJE highlights connections among genome evolution, ecosystem structure, and Earth’s surface chemistry at the planetary scale. Earth’s atmosphere is well mixed, and oxygenation of the atmosphere was a global process. This planetary-scale change was a result of microbial metabolic production of O2, in the context of all the other geological and biogeochemical processes that influence fluxes of reductants and oxidants to Earth’s surface. In turn, the planet-wide accumulation of atmospheric O2 changed selection pressures for genome evolution, and the combined environmental and metabolic changes transformed ecosystem structures. New ecosystems and resulting changes in organic carbon remineralization reshaped carbon fluxes in Earth’s surface environments, thus influencing the dynamics of the global carbon cycle. More efficient organic matter remineralization released more nutrients that likely fueled additional primary productivity, increasing the rate of carbon turnover within the biosphere. A new dynamic equilibrium was likely reached within the carbon cycle by the end of the LJE, one that set the stage for ecosystem structures until the evolution of animals with their ability to prey on other organisms, creating an even faster turnover of carbon within communities [e.g., reference (71)].
+These changes are also connected to other global-scale processes, including nutrient and metal biogeochemical cycles, that moderate environments for ecosystems. The interdependences of geological, ecological, biogeochemical, and genomic change have created an intricately habitable and inhabited planet.
+MATERIALS AND METHODS
+This manuscript is part of a larger project to reevaluate biogeochemical changes through early Earth’s history as represented in both the geologic and genomic records. The explanatory metabolism evolution model presented here was developed to solve specific problems with the LJE posed by Prave et al. (10) and Hodgskiss et al. (3). It is informed by insights from decades of research on relevant rocks on Earth and Mars; modern microbial mat communities in the context of their environments and biogeochemistry; and science and technology studies with an emphasis on intersectional feminist theory applied to science as a generative process [e.g., reference (72)]. No new data were produced.
+ACKNOWLEDGMENTS
+Intellectual contributions from numerous collaborators, especially my students, over the years have been essential to the development of these ideas. I deeply appreciate how much I have learned from each of them. I also wish to thank Tony Prave and two anonymous reviewers for their thoughtful comments that significantly improved this paper.
+Funding for relevant research over the decades has come from NASA, NSF, and the Agouron Institute.
+EDITOR'S NOTE
+This article was handled by Betül Kaçar, who acted as a Guest Editor in consultation with the Editor in Chief, Gemma Reguera.
+REFERENCES
+1.
+Hayes JM, Waldbauer JR. 2006. The carbon cycle and associated redox processes through time. Phil Trans R Soc B 361:931–950.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+2.
+Krissansen-Totton J, Kipp MA, Catling DC. 2021. Carbon cycle inverse modeling suggests large changes in fractional organic burial are consistent with the carbon isotope record and may have contributed to the rise of oxygen. Geobiology 19:342–363.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+3.
+Hodgskiss MSW, Crockford PW, Turchyn AV. 2023. Deconstructing the Lomagundi-Jatuli carbon isotope excursion. Annu Rev Earth Planet Sci 51:301–330.
+Crossref
+Web of Science
+Google Scholar
+4.
+Schidlowski M, Eichmann R, Junge CE. 1976. Carbon isotope geochemistry of the Precambrian Lomagundi carbonate province, Rhodesia. Geochim Cosmochim Acta 40:449–455.
+Crossref
+Google Scholar
+5.
+Karhu JA, Holland HD. 1996. Carbon isotopes and the rise of atmospheric oxygen. Geology 24:867.
+Crossref
+Web of Science
+Google Scholar
+6.
+Melezhik VA, Fallick AE, Medvedev PV, Makarikhin VV. 1999. Extreme 13Ccarb enrichment in ca. 2.0 Ga magnesite–stromatolite–dolomite– ‘red beds’ association in a global context: a case for the world-wide signal enhanced by a local environment. Earth Sci Rev 48:71–120.
+Crossref
+Web of Science
+Google Scholar
+7.
+Melezhik V, Prave AR, Hanski EJ, Fallick AE, Lepland A, Kump LR, Strauss H. 2012. Reading the archive of Earth’s oxygenation. Springer.
+Google Scholar
+8.
+Bekker A, Holmden C, Beukes NJ, Kenig F, Eglinton B, Patterson WP. 2008. Fractionation between inorganic and organic carbon during the Lomagundi (2.22–2.1 Ga) carbon isotope excursion. Earth Planet Sci L 271:278–291.
+Crossref
+Web of Science
+Google Scholar
+9.
+Mayika KB, Moussavou M, Prave AR, Lepland A, Mbina M, Kirsimäe K. 2020. The Paleoproterozoic Francevillian succession of Gabon and the Lomagundi-Jatuli event. Geology 48:1099–1104.
+Crossref
+Web of Science
+Google Scholar
+10.
+Prave AR, Kirsimäe K, Lepland A, Fallick AE, Kreitsmann T, Deines YuE, Romashkin AE, Rychanchik DV, Medvedev PV, Moussavou M, Bakakas K, Hodgskiss MSW. 2022. The grandest of them all: the Lomagundi–Jatuli event and Earth's oxygenation. JGS 179:jgs2021–036.
+Crossref
+Web of Science
+Google Scholar
+11.
+Birgel D, Meister P, Lundberg R, Horath TD, Bontognali TRR, Bahniuk AM, de Rezende CE, Vasconcelos C, McKenzie JA. 2015. Methanogenesis produces strong 13C enrichment in stromatolites of Lagoa Salgada, Brazil: A modern analogue for Palaeo-/Neoproterozoic stromatolites. Geobiology 13:245–266.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+12.
+Cadeau P, Jézéquel D, Leboulanger C, Fouilland E, Le Floc’h E, Chaduteau C, Milesi V, Guélard J, Sarazin G, Katz A, d’Amore S, Bernard C, Ader M. 2020. Carbon isotope evidence for large methane emissions to the Proterozoic atmosphere. Sci Rep 10:18186.
+Crossref
+PubMed
+Google Scholar
+13.
+Shang H, Rothman DH, Fournier GP. 2022. Oxidative metabolisms catalyzed Earth’s oxygenation. Nat Commun 13.
+Crossref
+Google Scholar
+14.
+Whiticar MJ. 1999. Carbon and hydrogen isotope systematics of bacterial formation and oxidation of methane. Chem Geol 161:291–314.
+Crossref
+Web of Science
+Google Scholar
+15.
+Garcia AK, Cavanaugh CM, Kacar B. 2021. The curious consistency of carbon biosignatures over billions of years of Earth-life coevolution. ISME J 15:2183–2194.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+16.
+Geyman EC, Maloof AC. 2019. A diurnal carbon engine explains 13C-enriched carbonates without increasing the global production of oxygen. Proc Natl Acad Sci U S A 116:24433–24439.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+17.
+Ho SYW. 2021. The molecular evolutionary clock. Springer.
+Go to Citation
+Google Scholar
+18.
+Mateos K, Chappell G, Klos A, Le B, Boden J, Stüeken E, Anderson R. 2023. The evolution and spread of sulfur cycling enzymes reflect the redox state of the early Earth. Sci Adv 9:eade4847.
+Crossref
+PubMed
+Google Scholar
+19.
+Wolfe JM, Fournier GP. 2018. Horizontal gene transfer constrains the timing of methanogen evolution. Nat Ecol Evol 2:897–903.
+Go to Citation
+Crossref
+PubMed
+Google Scholar
+20.
+Ou Y-F, Dong H-P, McIlroy SJ, Crowe SA, Hallam SJ, Han P, Kallmeyer J, Simister RL, Vuillemin A, Leu AO, Liu Z, Zheng Y-L, Sun Q-L, Liu M, Tyson GW, Hou L-J. 2022. Expanding the phylogenetic distribution of cytochrome b-containing methanogenic Archaea sheds light on the evolution of methanogenesis. ISME J 16:2373–2387.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+21.
+Wells M, Kim M, Akob DM, Basu P, Stolz JF. 2023. Impact of the dimethyl sulfoxide reductase superfamily on the evolution of biogeochemical cycles. Microbiol Spectr 11:e0414522.
+Go to Citation
+Crossref
+PubMed
+Google Scholar
+22.
+Damm E, Helmke E, Thoms S, Schauer U, Nöthig E, Bakker K, Kiene RP. 2010. Methane production in aerobic oligotrophic surface water in the central Arctic Ocean. Biogeosciences 1861:148304.
+Go to Citation
+Crossref
+Google Scholar
+23.
+Günthel M, Donis D, Kirillin G, Ionescu D, Bizic M, McGinnis DF, Grossart H-P, Tang KW. 2019. Contribution of oxic methane production to surface methane emission in lakes and its global importance. Nat Commun 10:5497.
+Go to Citation
+Crossref
+PubMed
+Google Scholar
+24.
+Wang Q, Alowaifeer A, Kerner P, Balasubramanian N, Patterson A, Christian W, Tarver A, Dore JE, Hatzenpichler R, Bothner B, McDermott TR. 2021. Aerobic bacterial methane synthesis. Proc Natl Acad Sci U S A 118:e2019229118.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+25.
+Mao S-H, Zhang H-H, Zhuang G-C, Li X-J, Liu Q, Zhou Z, Wang W-L, Li C-Y, Lu K-Y, Liu X-T, Montgomery A, Joye SB, Zhang Y-Z, Yang G-P. 2022. Aerobic oxidation of methane significantly reduces global diffusive methane emissions from shallow marine waters. Nat Commun 13:7309.
+Go to Citation
+Crossref
+PubMed
+Google Scholar
+26.
+Bižić M, Klintzsch T, Ionescu D, Hindiyeh MY, Günthel M, Muro-Pastor AM, Eckert W, Urich T, Keppler F, Grossart H-P. 2020. Aquatic and terrestrial cyanobacteria produce methane. Sci Adv 6:eaax5343.
+Crossref
+PubMed
+Google Scholar
+27.
+Battistuzzi FU, Feijao A, Hedges SB. 2004. A genomic timescale of prokaryote evolution: insights into the origin of methanogenesis, phototrophy, and the colonization of land. BMC Evol Biol 4:44.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+28.
+Havig JR, Hamilton TL, Bachan A, Kump LR. 2017. Sulfur and carbon isotopic evidence for metabolic pathway evolution and a four-stepped Earth system progression across the Archean and Paleoproterozoic. Ear Sci Rev 174:1–21.
+Crossref
+Web of Science
+Google Scholar
+29.
+Godfrey LV, Falkowski PG. 2009. The cycling and redox state of nitrogen in the Archaean ocean. Nature Geosci 2:725–729.
+Go to Citation
+Crossref
+Google Scholar
+30.
+Koehler MC, Buick R, Kipp MA, Stüeken EE, Zaloumis J. 2018. Transient surface ocean oxygenation recorded in the ∼2.66-Ga Jeerinah Formation, Australia. Proc Natl Acad Sci U S A 115:7711–7716.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+31.
+Parsons C, Stüeken EE, Rosen CJ, Mateos K, Anderson RE. 2021. Radiation of nitrogen‐metabolizing enzymes across the tree of life tracks environmental transitions in Earth history. Geobiology 19:18–34.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+32.
+Cuevas-Zuviría B, Garcia AK, Rivier AJ, Rucker HR, Carruthers BM, Kaçar B. 2024. Emergence of an orphan nitrogenase protein following atmospheric oxygenation. Mol Biol Evol 41:msae067.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+33.
+Liao T, Wang S, Stüeken EE, Luo H. 2022. Phylogenomic evidence for the origin of obligate anaerobic anammox bacteria around the great oxidation event. Mol Biol Evol 39:msac170.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+34.
+Schmidt A, Gube M, Schmidt A, Kothe E. 2009. In Silico analysis of nickel containing superoxide dismutase evolution and regulation. J Basic Microbiol 49:109–118.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+35.
+Soo RM, Hemp J, Parks DH, Fischer WW, Hugenholtz P. 2017. On the origins of oxygenic photosynthesis and aerobic respiration in Cyanobacteria. Science 355:1436–1440.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+36.
+Soo RM, Hemp J, Hugenholtz P. 2019. Evolution of photosynthesis and aerobic respiration in the Cyanobacteria. Free Radic Biol Med 140:200–205.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+37.
+Matheus Carnevali PB, Schulz F, Castelle CJ, Kantor RS, Shih PM, Sharon I, Santini JM, Olm MR, Amano Y, Thomas BC, Anantharaman K, Burstein D, Becraft ED, Stepanauskas R, Woyke T, Banfield JF. 2019. Hydrogen-based metabolism as an ancestral trait in lineages sibling to the Cyanobacteria. Nat Commun 10:463.
+Crossref
+PubMed
+Google Scholar
+38.
+Esposti MD. 2020. On the evolution of cytochrome oxidases consuming oxygen. Biochim Biophys Acta Bioenerg 1861:148304.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+39.
+Degli Esposti M, Moya-Beltrán A, Quatrini R, Hederstedt L. 2021. Respiratory heme A-containing oxidases originated in the ancestors of iron-oxidizing bacteria. Front Microbiol 12:664216.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+40.
+Jabłońska J, Tawfik DS. 2022. Innovation and tinkering in the evolution of oxidases. Protein Sci. 31:e4310.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+41.
+Tamre E, Fournier GP. 2022. Inferred ancestry of scytonemin biosynthesis proteins in Cyanobacteria indicates a response to Paleoproterozoic oxygenation. Geobiology 20:764–775.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+42.
+Shang H, Rothman DH, Fournier GP. 2022. Oxidative metabolisms catalyzed Earth’s oxygenation. Nat Commun 13:1328.
+Crossref
+PubMed
+Google Scholar
+43.
+Fischer WW, Hemp J, Valentine JS. 2016. How did life survive Earth's great oxygenation. Curr Opin Chem Biol 31:166–178.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+44.
+Boden JS, Konhauser KO, Robbins LJ, Sánchez-Baracaldo P. 2021. Timing the evolution of antioxidant enzymes in Cyanobacteria. Nat Commun 12:4742.
+Crossref
+PubMed
+Google Scholar
+45.
+Wells M, Kanmanii NJ, Al Zadjali AM, Janecka JE, Basu P, Oremland RS, Stolz JF. 2020. Methane, arsenic, selenium and the origins of the DMSO reductase family. Sci Rep 10:10946.
+Crossref
+PubMed
+Google Scholar
+46.
+Wang Y, Xie R, Hou J, Lv Z, Li L, Hu Y, Huang H, Wang F. 2022. The late Archaean to early Proterozoic origin and evolution of anaerobic methane‐oxidizing Archaea. mLife 1:96–100.
+Go to Citation
+Crossref
+PubMed
+Google Scholar
+47.
+Sander R. 2015. Compilation of Henry's law constants (version 4.0) for water as solvent. Atmos Chem Phys 15:4399–4981.
+Crossref
+Web of Science
+Google Scholar
+48.
+Morse J, Mackenzie F. 1990. Geochemistry of sedimentary carbonates. Elsevier.
+Google Scholar
+49.
+Farquhar J, Wing BA. 2003. Multiple sulfur Isotopes and the evolution of the atmosphere. EPSL 213:1–13.
+Crossref
+Web of Science
+Google Scholar
+50.
+Fakhraee M, Tarhan LG, Reinhard CT, Crowe SA, Lyons TW, Planavsky NJ. 2023. Earth’s surface oxygenation and the rise of eukaryotic life: relationships to the Lomagundi positive carbon Isotope excursion revisited. Earth Sci Rev 240:104398.
+Crossref
+Web of Science
+Google Scholar
+51.
+Uveges BT, Izon G, Ono S, Beukes NJ, Summons RE. 2023. Reconciling discrepant minor sulfur Isotope records of the great oxidation event. Nat Commun 14:279.
+Crossref
+PubMed
+Google Scholar
+52.
+Lalonde SV, Konhauser KO. 2015. Benthic perspective on Earth’s oldest evidence for oxygenic photosynthesis. Proc Natl Acad Sci U S A 112:995–1000.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+53.
+Retallack GJ, Schmitz MD. 2023. Archean (3.3 Ga) paleosols and paleoenvironments of Western Australia. PLoS ONE 18:e0291074.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+54.
+Garcia-Pichel F, Lombard J, Soule T, Dunaj S, Wu SH, Wojciechowski MF. 2019. Timing the evolutionary advent of Cyanobacteria and the later great oxidation event using gene phylogenies of a sunscreen. mBio 10:e00561-19.
+Go to Citation
+Crossref
+PubMed
+Google Scholar
+55.
+Fournier GP, Moore KR, Rangel LT, Payette JG, Momper L, Bosak T. 2021. The Archean origin of oxygenic photosynthesis and extant cyanobacterial lineages. Proc Biol Sci 288:20210675.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+56.
+Sánchez-Baracaldo P, Bianchini G, Wilson JD, Knoll AH. 2022. Cyanobacteria and biogeochemical cycles through Earth history. Trends Microbiol 30:143–157.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+57.
+Kelley CA, Poole JA, Tazaz AM, Chanton JP, Bebout BM. 2012. Substrate limitation for methanogenesis in hypersaline environments. Astrobiology 12:89–97.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+58.
+Claire MW, Catling DC, Zahnle KJ. 2006. Biogeochemical modelling of the rise in atmospheric oxygen. Geobiology 4:239–269.
+Go to Citation
+Crossref
+Web of Science
+Google Scholar
+59.
+Avice G, Marty B, Burgess R, Hofmann A, Philippot P, Zahnle K, Zakharov D. 2018. Evolution of atmospheric xenon and other noble gases inferred from Archean to Paleoproterozoic rocks. Geochim Cosmochim Acta 232:82–100.
+Go to Citation
+Crossref
+Web of Science
+Google Scholar
+60.
+Catling DC, Zahnle KJ. 2020. The archean atmosphere. Sci Adv 6:eaax1420.
+Crossref
+PubMed
+Google Scholar
+61.
+Zahnle K, Claire M, Catling D. 2006. The loss of mass-independent fractionation in sulfur due to a Palaeoproterozoic collapse of atmospheric methane. Geobiology 4:271–283.
+Go to Citation
+Crossref
+Web of Science
+Google Scholar
+62.
+Poulton SW, Bekker A, Cumming VM, Zerkle AL, Canfield DE, Johnston DT. 2021. A 200-million-year delay in permanent atmospheric oxygenation. Nature 592:232–236.
+Crossref
+PubMed
+Web of Science
+Google Scholar
+63.
+Wogan NF, Catling DC, Zahnle KJ, Claire MW. 2022. Rapid timescale for an oxic transition during the great oxidation event and the instability of low atmospheric O 2. Proc Natl Acad Sci U S A 119:e2205618119.
+Go to Citation
+Crossref
+PubMed
+Google Scholar
+64.
+Bekker A, Holland HD. 2012. Oxygen overshoot and recovery during the early Paleoproterozoic. Earth Planet Sci L 317–318:295–304.
+Go to Citation
+Crossref
+Google Scholar
+65.
+Canfield DE, Ngombi-Pemba L, Hammarlund EU, Bengtson S, Chaussidon M, Gauthier-Lafaye F, Meunier A, Riboulleau A, Rollion-Bard C, Rouxel O, Asael D, Pierson-Wickmann A-C, El Albani A. 2013. Oxygen dynamics in the aftermath of the great oxidation of Earth’s atmosphere. Proc Natl Acad Sci U S A 110:16736–16741.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+66.
+Anbar AD, Duan Y, Lyons TW, Arnold GL, Kendall B, Creaser RA, Kaufman AJ, Gordon GW, Scott C, Garvin J, Buick R. 2007. A whiff of oxygen before the great oxidation event? Science 317:1903–1906.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+67.
+Kaufman AJ, Johnston DT, Farquhar J, Masterson AL, Lyons TW, Bates S, Anbar AD, Arnold GL, Garvin J, Buick R. 2007. Late Archean biospheric oxygenation and atmospheric evolution. Science 317:1900–1903.
+Go to Citation
+Crossref
+PubMed
+Web of Science
+Google Scholar
+68.
+Duan Y, Anbar AD, Arnold GL, Lyons TW, Gordon GW, Kendall B. 2010. Molybdenum Isotope evidence for mild environmental oxygenation before the great oxidation event. Geochim Cosmochim Acta 74:6655–6668.
+Go to Citation
+Crossref
+Web of Science
+Google Scholar
+69.
+Czaja AD, Johnson CM, Roden EE, Beard BL, Voegelin AR, Nägler TF, Beukes NJ, Wille M. 2012. Evidence for free oxygen in the Neoarchean ocean based on coupled iron–molybdenum isotope fractionation. Geochim Cosmochim Acta 86:118–137.
+Go to Citation
+Crossref
+Web of Science
+Google Scholar
+70.
+Visscher PT, Stolz JF. 2005. Microbial mats as bioreactors: populations, processes, and products, p 87–100. In Geobiology: objectives, concepts, perspectives. Vol. 219.
+Go to Citation
+Crossref
+Google Scholar
+71.
+Butterfield NJ. 2009. Macroevolutionary turnover through the Ediacaran transition: Ecological and biogeochemical implications, Vol. 326, p 55–66. Geological Society, London, Special Publications.
+Go to Citation
+Google Scholar
+72.
+Sharma K. 2015. Interdependence: Biology and beyond. Fordham Univ Press.
+Go to Citation
+Google Scholar
+Advertisement
+View full text|Download PDF
+We recommend
+Large Hydrogen Isotope Fractionation Distinguishes Nitrogenase-Derived Methane from Other Methane Sources | Applied and Environmental Microbiology
+Appl Environ Microbiol, 2020
+Isotopic Signatures of Carbon Transfer in a Proterozoic Analogue Microbial Mat
+Appl Environ Microbiol, 2023
+Microbial central carbon metabolism in a tidal freshwater marsh and an upland mixed conifer soil under oxic and anoxic conditions
+Appl Environ Microbiol, 2024
+Evaluation of a portable, lightweight modular system to deliver high inspired oxygen to trauma casualties without the use of pressurised cylinders
+Emrys Kirkman et al., BMJ Military Health, 2024
+Climate change for gastroenterologists: understanding the basics
+Judith Chantal Eling et al., Frontline Gastroenterol, 2024
+Colonic epithelial hypoxia remains constant during the progression of diabetes in male UC Davis type 2 diabetes mellitus rats
+Brian D Piccolo et al., BMJ Open Diabetes Research & Care, 2024
+Powered by
+I consent to the use of Google Analytics and related cookies across the TrendMD network (widget, website, blog). For more information, see our Privacy Settings and Terms of Use.
+YES NO
+
+JOURNALS
+Antimicrobial Agents and Chemotherapy
+Applied and Environmental Microbiology
+Clinical and Vaccine Immunology
+Clinical Microbiology Reviews
+EcoSal Plus
+Eukaryotic Cell
+Infection and Immunity
+Journal of Bacteriology
+Journal of Clinical Microbiology
+Journal of Microbiology & Biology Education
+Journal of Virology
+mBio
+Microbiology and Molecular Biology Reviews
+Microbiology Resource Announcements
+Microbiology Spectrum
+mSphere
+mSystems
+RESOURCES
+About Us
+Author Center
+Permissions
+ASM Journal Collections
+Publishing Ethics
+Migration Information
+Advertising
+ASM Membership
+Privacy Policy
+Terms & Conditions
+Proprietary Rights Notices
+Non-Commercial TDM License
+STAY CONNECTED
+Alerts
+RSS Feeds
+Contact Us
+ASM Communities
+NEWS
+Press Releases
+Policy Statements
+Copyright © 2024 American Society for Microbiology
+American Society for Microbiology ("ASM") is committed to maintaining your confidence and trust with respect to the information we collect from you on websites owned and operated by ASM ("ASM Web Sites") and other sources. This Privacy Policy sets forth the information we collect about you, how we use this information and the choices you have about how we use such information.
+ACCEPT  
+THE COOKIE POLICY AND
+&  
+CONTINUE
+FIND OUT MORE
+ABOUT THE PRIVACY POLICY

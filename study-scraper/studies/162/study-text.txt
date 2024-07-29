@@ -1,0 +1,480 @@
+Advertisement
+plos.org
+create account
+sign in
+PUBLISH
+ABOUT
+BROWSE
+advanced search
+0
+Save
+0
+Citation
+267
+View
+1
+Share
+OPEN ACCESS PEER-REVIEWED
+RESEARCH ARTICLE
+Effective degradation of various bacterial toxins using ozone ultrafine bubble water
+Fumio Takizawa,
+Hisanori Domon,
+Satoru Hirayama,
+Toshihito Isono,
+Karin Sasagawa,
+Daisuke Yonezawa,
+Akiomi Ushida,
+Satomi Tsutsuura,
+Tomohiro Miyoshi,
+Hitomi Mimuro,
+Akihiro Yoshida,
+Koichi Tabeta,
+Yutaka Terao
+Published: July 10, 2024
+https://doi.org/10.1371/journal.pone.0306998
+Article
+Authors
+Metrics
+Comments
+Media Coverage
+Peer Review
+Abstract
+Introduction
+Materials and methods
+Results
+Discussion
+Supporting information
+Acknowledgments
+References
+Reader Comments
+Figures
+Abstract
+Infectious and foodborne diseases pose significant global threats, with devastating consequences in low- and middle-income countries. Ozone, derived from atmospheric oxygen, exerts antimicrobial effects against various microorganisms, and degrades fungal toxins, which were initially recognized in the healthcare and food industries. However, highly concentrated ozone gas can be detrimental to human health. In addition, ozonated water is unstable and has a short half-life. Therefore, ultrafine-bubble technology is expected to overcome these issues. Ultrafine bubbles, which are nanoscale entitles that exist in water for considerable durations, have previously demonstrated bactericidal effects against various bacterial species, including antibiotic-resistant strains. This present study investigated the effects of ozone ultrafine bubble water (OUFBW) on various bacterial toxins. This study revealed that OUFBW treatment abolished the toxicity of pneumolysin, a pneumococcal pore-forming toxin, and leukotoxin, a toxin that causes leukocyte injury. Silver staining confirmed the degradation of pneumolysin, leukotoxin, and staphylococcal enterotoxin A, which are potent gastrointestinal toxins, following OUFB treatment. In addition, OUFBW treatment significantly inhibited NF-κB activation by Pam3CSK4, a synthetic triacylated lipopeptide that activates Toll-like receptor 2. Additionally, OUFBW exerted bactericidal activity against Staphylococcus aureus, including an antibiotic-resistant strain, without displaying significant toxicity toward human neutrophils or erythrocytes. These results suggest that OUFBW not only sterilizes bacteria but also degrades bacterial toxins.
+Figures
+   Citation: Takizawa F, Domon H, Hirayama S, Isono T, Sasagawa K, Yonezawa D, et al. (2024) Effective degradation of various bacterial toxins using ozone ultrafine bubble water. PLoS ONE 19(7): e0306998. https://doi.org/10.1371/journal.pone.0306998
+Editor: Aijaz Ahmad, University of the Witwatersrand, SOUTH AFRICA
+Received: March 28, 2024; Accepted: June 26, 2024; Published: July 10, 2024
+Copyright: © 2024 Takizawa et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Data Availability: All relevant data are within the manuscript and its Supporting Information files.
+Funding: This study was supported by Terumo Life Science Foundation (grant no. 22-IIII003 to YT), the Japan Society for the Promotion of Science KAKENHI (grant nos. JP20H03858, JP22Kl96l4, and JP23H00445 to YT; JP20K09903 and JP23K18355 to HD; JP22K09923 to SH; and JP19H03829 to KT), and JST, the establishment of University fellowships towards the creation of science technology innovation (grant no. JPMJFS2II4 to FT). The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.
+Competing interests: The authors have declared that no competing interests exist.
+Introduction
+A million infection-related deaths caused by bacterial pathogens occurred worldwide in 2019, with Staphylococcus aureus and Streptococcus pneumoniae accounting for approximately 26% of these fatalities [1]. Antimicrobial resistance poses a significant challenge in the management of infections caused by these bacterial species. In 2019, infectious diseases caused by antibiotic-resistant S. aureus and S. pneumoniae were responsible for 900,000 and 700,000 deaths, respectively. The burden of bacterial infectious diseases is particularly severe in low- and middle-income countries (LMIC) [2], underscoring the urgency to explore universally applicable hygiene control methods.
+Although antibiotics are commonly used to treat infectious diseases, toxins produced by bacteria can cause diseases even after sterilization [3]. For example, S. aureus produces staphylococcal enterotoxins (SEs), which are significant contributors to the development of foodborne diseases [4]. In the European Union alone, 114 foodborne disease outbreaks in 2018 were attributed to SEs [5]. SEs cause symptoms such as nausea, vomiting, abdominal pain, cramps, and diarrhea, even at intakes of less than 1 μg [4]. Moreover, SEs are resistant to heat treatment and low pH [6], necessitating the development of novel approaches to treat and prevent diseases caused by bacteria and their toxins.
+Ozone gas demonstrates potent antimicrobial activity against various micro-organisms, such as bacteria, viruses, fungi, yeast, and protozoa [7–9]. Ozone disrupts the integrity of bacterial cell envelope by oxidizing phospholipids and lipoproteins. In addition, ozone inhibits fungal cell growth. In the case of viruses, ozone has been reported to damage the viral capsid and disrupt the reproductive cycle by interfering with viral cell contact through peroxidation [7]. Additionally, ozone gas degrades fungal toxins such as mycotoxins [10]. However, high concentrations of ozone gas are harmful to humans. Exposure to more than 0.08 ppm of ozone gas for a few hours significantly decreases lung function in healthy adults [11]. Furthermore, in vitro exposure to ozone gas causes the death of human oral epithelial cells and gingival fibroblasts [12].
+Ozonated water also exhibits antimicrobial activity. Because ozone volatilization from the surface of ozonated water is relatively low, ozonated water is less harmful than ozone gas. Previous studies on ozonated water primarily focused on assessing hand hygiene protocols in healthcare settings and the sterilizing food processing equipment [13–15]. However, ozone gas exhibits instability when dissolved in water, resulting in a relatively short half-life of less than 1 h [16, 17]. To address these challenges, the ultrafine bubble (UFB) technology has attracted considerable attention.
+UFBs, with a diameter of less than 1 μm, demonstrate high stability in water [18]. In a previous study, we developed an ozone ultrafine bubble water (OUFBW) generator that exerted bactericidal activity against various bacterial species, including antibiotic-resistant strains [19]. However, the effects of OUFBW on bacterial toxins remain unclear. In this study, we aimed to determine whether OUFBW can degrade bacterial toxins and examine the effects of OUFBW treatment on various bacterial toxins.
+Materials and methods
+Production of OUFB-solution (OUFBW, OUFB-phosphate-buffered saline (OUFB-PBS), OUFB-Roswell Park Memorial Institute (OUB-RPMI)), and ultrafine bubble water (UFBW)
+OUFBW was manufactured using oxygen present in air and distilled water (DW), as described in our previous study [19]. Briefly, ozone gas was generated using a dielectric barrier discharge ozone generator (10 g/h) (Futech-Niigata LLC, Niigata, Japan) with 90% of the oxygen supplied by an oxygen concentrator (flow rate: 1 L/min) (BMC Medical Co., Ltd, Beijing, China). The OUFBW was generated using a micro blender (Futech-Niigata LLC) and circulated in a stainless steel tank. UFBW was produced in the same manner as OUFBW using room air instead of ozone gas. The structure of the OUFBW generator is shown in Fig 1. To prepare OUFBW at various ozone concentrations, OUFBW containing 3–5 ppm ozone was serially diluted with DW. For the cytotoxicity assays, OUFB-PBS and OUFB-RPMI were prepared by diluting OUFBW with 10×PBS (Nacalai Tesque Inc., Kyoto, Japan) and 10×RPMI-1640 medium (Sigma-Aldrich, St. Louis, MO, USA), respectively. The ozone concentrations in the OUFB solutions were measured using a digital pack Test Ozone (Kyoritsu Chemical Check Lab, Tokyo, Japan).
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 1. Structure of ozone ultrafine bubble water (OUFBW) generator.
+(A) Schematic of the OUFBW generator. (B) Overall image of the OUFBW generator. It can generate 4 L of OUFBW (3–5 ppm ozone concentration) and ultrafine bubbles (UFBW) in 15 min. (C) Red arrows indicate the dielectric barrier discharge ozone generators that generate ozone gas (10 g/h). (D) Filling the cooling tank with ice and water keeps the water temperature < 10˚C inside the OUFBW generator.
+https://doi.org/10.1371/journal.pone.0306998.g001
+Silver staining assay and western blotting assay
+Purified leukotoxin (LtxA) (3.6 μg), recombinant pneumolysin (rPLY) (2.2 μg), and purified staphylococcal enterotoxin A (SEA) (3.5 μg) were added to 500 μL of OUFBW or UFBW and incubated for 5 min. After that, the mixture was concentrated using Amicon Ultra-0.5 centrifugal filter devices (Merck KGaA, Darmstadt, Germany) and separated by standard sodium dodecyl-sulfate polyacrylamide gel electrophoresis (SDS-PAGE) using 12% acrylamide gel (Bio-Rad, Hercules, CA, USA). The resulting gels were stained with silver using the PierceTM Silver Stain Kit (Thermo Fisher Scientific, Waltham, MA, USA).
+Isolation of human neutrophils and erythrocytes
+Heparinized whole blood samples were obtained from three healthy donors (A, B and C) between April 17, 2023, and July 26, 2023. Neutrophils were isolated using Polymorphprep (Axis-Shield, Dundee, UK) in a 1:1 ratio of PBS, and centrifuged at 470×g for 30 min. The layers containing neutrophils were carefully collected, and residual red blood cells were lysed using ACK Lysing Buffer (Lonza, Basel, Switzerland). Human neutrophils were counted using a Countess II FL (Thermo Fisher Scientific) and used for subsequent experiments. Erythrocytes were isolated by centrifugation at 180×g for 10 min from whole blood and washed thrice with PBS. All experimental procedures were approved by the Ethics Committee of Niigata University and were conducted following the approved guidelines. Written informed consent was obtained from all donors in the presence of a third party before participation in the study (permit # 2018–0075). Human blood was obtained from one donor per experiment (Fig 2B; N = 5 wells from donor A, Fig 2D; N = 4 wells from donor B, Fig 3B; N = 5 wells from donor C), and human cells were used for the experiment immediately after blood collection.
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 2. Ozone ultrafine bubble (OUFB) degraded recombinant pneumolysin (rPLY).
+(A) rPLY was added to OUFBW (0.28–4.26 ppm of ozone concentration) or distilled water, followed by SDS-PAGE and silver staining. (B) Human neutrophils (1×105 cells/100 μL) were exposed to rPLY (10 pg/cells) in the presence or absence of OUFB-PBS containing 4.47 ppm of ozone for 3 h, followed by LDH assay. Data are presented as the mean ± SD of quintuplicate experiments and were evaluated using one-way analysis of variance with Dunnett’s multiple-comparison test, * P < 0.05. N = 5 wells per each group (from one healthy donor). (C) Human neutrophils (5×105 cells/100 μL) were exposed to rPLY (10 pg/cells) in the presence or absence of OUFB-RPMI (3.52 ppm ozone) for 1 h. Representative microscopic images were shown. (D) rPLY (final concentration 1 μg/mL) or Triton X-100 (TX-100) were added to human erythrocytes in PBS or OUFB-PBS (4.42 ppm of ozone concentration). Samples were incubated at 37˚C for 1 h, followed by a hemolytic assay. TX-100 was used as a positive control. Data are presented as the mean ± SD of quadruplicate experiments and were evaluated using a one-way analysis of Dunnett’s multiple-comparison test, * P < 0.05. N = 4 wells per each group (from one health donor).
+https://doi.org/10.1371/journal.pone.0306998.g002
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 3. Ozone ultrafine bubble (OUFB) degraded Aggregatibacter actinomycetemcomitans leukotoxin (LtxA) and abolish the cytotoxicity.
+(A) LtxA was exposed to OUFBW (0.28–4.26 ppm of ozone concentration) or distilled water, followed by SDS-PAGE and silver staining. (B) Human neutrophils (1×105 cells/100 μL) were exposed to LtxA (50 fg/cells) in the presence or absence of OUFB-PBS containing 4.47 ppm of ozone for 3 h, followed by lactate dehydrogenase (LDH) assay. Triton X-100 (TX-100) was used as a positive control. Data are presented as the mean ± SD of quintuplicate experiments and were evaluated using one-way analysis of variance with Dunnett’s multiple-comparisons test, * P < 0.05. N = 5 wells per each group (from one healthy donor). (C) Human neutrophils (5×105 cells/100 μL) were exposed to LtxA (50 fg/cell) in the presence or absence of OUFB-RPMI (3.52 ppm ozone) for 1 h. Representative microscopic images were shown.
+https://doi.org/10.1371/journal.pone.0306998.g003
+Cytotoxicity assay and hemolytic assay
+For cytotoxicity assay, 1 μL of LtxA (0.05 μg/mL) and 1 μL of rPLY (1 μg/mL) were added to 1 mL of PBS or OUFB-PBS containing 4.47 ppm of ozone followed by abolishment of OUFB by ultrasonication at 43 kHz for 5 min [18]. Human neutrophils were seeded onto a 96-well plate at a density of 1.0×105 cells/well in 100 μL of serum-free RPMI-1640 medium. After that, PBS, OUFB-PBS, LtxA (final concentration: 50 fg/cell), rPLY (final concentration: 10 pg/cell), OUFB-treated LtxA, OUFB-treated rPLY, or 0.1% Triton X-100 was added to the culture and incubated at 37˚C in an atmosphere of 95% air and 5% CO2 for up to 3 h followed by cytotoxicity analysis using a lactate dehydrogenase (LDH)-cytotoxicity test (Wako Pure Chemical Industries, Osaka, Japan) and optical microscopic analysis using BIOREVO BZ-9000 microscope (Keyence, Osaka, Japan). For hemolytic assay, 10 μL of rPLY (0.05 mg/mL) or 0.002% Triton X-100 was added to human erythrocytes (1% ν/v) in 500 μL of PBS or OUFB-PBS containing 4.42 ppm of ozone. The samples were incubated at 37˚C for 30 min and centrifuged at 420×g for 10 min. The supernatant was pipetted into a 96-well plate, and hemolysis was measured using a Multiskan FC microplate photometer (Thermo Fisher Scientific, Waltham, MA, USA) at 450 nm.
+Bacterial culture and reagents
+The methicillin-resistant S. aureus strain NILS2 and methicillin-susceptible strain NILS6 isolated from patients with severe S. aureus pneumonia [20] were cultured in tryptic soy broth (TSB; Becton Dickinson) for 48 h at 37˚C under aerobic conditions. Subsequently, the cultures were inoculated into fresh TSB and allowed to grow until they reached the exponential phase (optical density: 600 nm, 0.1). The bacteria were subsequently used for the bactericidal activity assays.
+Measurement of bactericidal activity of OUFBW
+Bactericidal assays were performed as previously described [19]. Briefly, 1 μL of the bacterial cultures of S. aureus strains NILS2 and NILS6 with an optional density at 600 nm of 0.1 were added to 1 mL of OUFBW containing various concentrations (0.2–4 ppm) of ozone or UFBW for 1 min. After that, the cultures were diluted with DW and seeded onto TSB agar plates (Becton Dickinson). The agar plates were incubated under aerobic conditions at 37˚C for two days.
+Secreted alkaline phosphatase (SEAP) activity assay
+HEK-Blue human Toll-like receptor (hTLR) 2 and hTLR4 cells (InvivoGen, San Diego, CA, USA) were cultured at 37˚C with 5% CO2 in Dulbecco’s modified Eagle’s medium (Fujifilm Wako Pure Chemical Corporation), supplemented with 10% fetal bovine serum, 100 U/mL penicillin, 100 μg/mL streptomycin, 100 μg/mL Normocin (InvivoGen), and 100 μg/mL Zeocin (InvivoGen). These cell lines were suspended in HEK-Blue detection medium (InvivoGen), which contains a specific SEAP substrate that enables colorimetric detection of SEAP activity, and seeded at a density of 5×104 cells per 200 μL in 96-well plates. Then, 1 μL of Pam3CSK4 (1 mg/mL) or 1 μL of lipopolysaccharides (LPS) (0.5 mg/mL) from Escherichia coli strain O55:B5 (TLR4 ligand; Merck KGaA) was added to OUFBW or DW. After that, preprocessed Pam3CSK4 (final concentration, 2 ng/mL) and LPS (final concentration, 10 ng/mL) were added to HEK-Blue hTLR2 and hTLR4 cells, respectively, followed by incubation for 16 h. SEAP activity was measured at 620 nm using a Multiskan FC microplate photometer (Thermo Fisher Scientific).
+Statistical analysis
+Data were analyzed by analysis of variance with Dunnett’s multiple comparison test or Student’s t-test using GraphPad Prism software version 9.4.0 (GraphPad Software, Inc., La Jolla, CA, USA).
+Results
+Degradation of rPLY by OUFB and inhibition of toxicity against human neutrophils and erythrocytes
+Previous studies have indicated that PLY, a pneumococcal toxin, forms transmembrane pores through the cell membrane [21], inducing cell death and hemolysis in human neutrophils and erythrocytes, respectively [22, 23]. Therefore, we investigated the ability of OUFB to degrade rPLY and inhibit its cytotoxicity. rPLY was treated with OUFBW, followed by SDS-PAGE and silver staining. Following exposure to OUFBW containing > 0.28 ppm of ozone, the rPLY band almost disappeared (Fig 2A). However, the UFBW treatment did not affect the intensity of the rPLY bands (S1A Fig). Human neutrophils were exposed to rPLY in the presence or absence of OUFB-PBS for 3 h, followed by an LDH assay. Fig 2B illustrates a significant decrease in the release of LDH from human neutrophils following OUFB-PBS treatment compared to untreated cells (PBS + rPLY). Microscopic examination revealed that although treatment with rPLY appears damaged the cell membranes of neutrophils, OUFB-RPMI-treated rPLY did not induce any morphological changes in human neutrophils (Fig 2C). Additionally, OUFB-PBS significantly inhibited the hemolytic activity of rPLY (Fig 2D). These findings indicate that OUFB degrades rPLY, thereby reducing its toxicity.
+Degradation of LtxA by OUFB and inhibition of cytotoxicity against human neutrophils
+LtxA, a toxin produced by Aggregatibacter actinomycetemcomitans, damages the human neutrophil membranes and causes cell death [24]. LtxA was treated with OUFBW or UFBW and subjected to SDS-PAGE and silver staining. Treatment of LtxA with OUFBW, containing > 1 ppm of ozone led to the near disappearance of the LtxA band (Fig 3A). In addition, S1B Fig shows that the band intensity was almost unchanged by the treatment of LtxA with UFBW. Therefore, we investigated the potential of OUFBW to eliminate LtxA toxicity. Human neutrophils were cultured with LtxA in the presence or absence of OUFB-PBS for 3 h, and subsequently subjected to LDH assay. Fig 3B shows a notable reduction in LDH release from human neutrophils following OUFB-PBS treatment compared to untreated cells (PBS + LtxA). Although LtxA appears damaged the neutrophil cell membranes, OUFB-RPMI-treated LtxA did not induce morphological changes in human neutrophils (Fig 3C). These data indicated that OUFB degraded LtxA and abolished its cytotoxicity.
+Bactericidal effects against S. aureus and degradation of SEA by OUFBW
+S. aureus causes staphylococcal food poisoning by producing SEs in food [25]. We investigated the bactericidal effects of OUFBW and UFBW on S. aureus and determined their ability to degrade SEA, a type of SE that causes staphylococcal food poisoning. First, methicillin-resistant S. aureus strain NILS2 and methicillin-susceptible strain NILS6 were exposed to OUFBW containing 0.2–4 ppm of ozone or UFBW for 1 min. Fig 4A shows that exposure to approximately ≥ 0.8 ppm OUFBW resulted in a > 99.9% decrease in the viability of both strains. On the other hand, the viability of S. aureus strains NILS2 and NILS6 hardly decreased upon exposure to UFBW (S2 Fig). Next, purified SEA was added to OUFBW and incubated for 5 min, followed by SDS-PAGE and silver staining. Fig 4B illustrates the complete disappearance of the SEA band after the OUFBW treatment, which strongly indicates the degradation of SEA by OUFBW. In the case of treatment with UFBW, the SEA band intensity remained almost unchanged (S1C Fig).
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 4. OUFBW induced bactericidal effect against Staphylococcus aureus and decomposition of Staphylococcus enterotoxin A (SEA).
+(A) Methicillin-resistant S. aureus strain (MRSA) NILS2 and methicillin-susceptible S. aureus strain (MSSA) NILS6 were exposed to OUFBW (0.2–4 ppm of ozone concentration) for 1 min. The bacterial load of S. aureus NILS2 and NILS6 was determined by colony count. Data are presented as the mean ± SD of triplicate experiments and were evaluated using a one-way analysis of variance with Dunnett’s multiple-comparisons test. *P < 0.05 compared to 0 ppm (control) group. N = 3 for each bacterial strain. ND stands for undetected and indicates below the detection limit (< 105 CFU/mL). (B) Purified SEA was exposed to OUFBW (3.52 ppm of ozone concentration) or distilled water (DW), followed by SDS-PAGE and silver staining.
+https://doi.org/10.1371/journal.pone.0306998.g004
+Inhibition of Pam3CSK4-induced NF-κB activation by OUFBW in HEK 293 cells expressing hTLR2
+Pathogen-associated molecular patterns derived from micro-organisms [26], such as lipoproteins, lipopeptides, and LPS, induce TLR-mediated proinflammatory cytokine production in host innate immune cells [27, 28]. Next, we examined the potential of OUFBW to inhibit the proinflammatory activities of Pam3CSK4, a synthetic triacylated lipopeptide that activates TLR2, and LPS, a major bacterial outer membrane component that activates TLR4. We used HEK-Blue cells expressing hTLR2 and hTLR4 as NF-κB receptor cells. HEK-Blue cells release SEAP into the cell culture medium in an NF-κB-dependent manner. Therefore, the activation of hTLR2 or hTLR4 was assessed by measuring SEAP activity. The OUFBW-treated Pam3CSK4 did not induce SEAP activity in HEK-Blue cells expressing hTLR2 (Fig 5A). Although treatment with LPS and OUFBW induced significantly lower SEAP activity in HEK-Blue cells expressing hTLR4 than in the DW + LPS group, the difference observed between the groups was relatively minor (Fig 5B).
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 5. Pam3CSK4 pretreated by ozone ultrafine bubble induces minimal TLR2 activation.
+(A) Pam3CSK4 (Pam) or Escherichia coli LPS were added to ozone ultrafine bubble water (OUFBW) containing 4.21 ppm of ozone or distilled water (DW). After that, (A) HEK-Blue TLR-2 or (B) HEK-Blue TLR cells were stimulated with the Pam and the LPS, respectively. Secreted alkaline phosphatase (SEAP) levels were quantified using spectrophotometry at 620 nm. Data are presented as the mean ± SD of sextuplicate experiments and were evaluated using one-way analysis of variance with Tukey’s multiple-comparison test, * P < 0.05. N = 6 for each experiment.
+https://doi.org/10.1371/journal.pone.0306998.g005
+Discussion
+Infectious and foodborne diseases are common global health concerns that emphasize the critical need for universally applicable and effective hygiene methods. Previous studies have highlighted the antimicrobial properties of ozone gas and ozonated water and demonstrated their efficacy in degrading fungal toxins [29]. Ozone, derived from oxygen, is attracting attention as a cost-effective disinfectant [30]. However, few studies have investigated the effects of OUFBW on bacterial toxins. Our findings indicated that OUFBW sterilizes S. aureus, including antibiotic-resistant strains, and degrades various bacterial protein toxins.
+A previous study demonstrated a significant decrease in aflatoxin B1, a potent hepatocarcinogenic fungal toxin, following exposure to ozonated water containing 1.7 ± 0.17 mg/L for 60 min [29]. In addition, Luo et al. suggested that the toxicity of the degradation products of aflatoxin B1 produced by ozone significantly decreased [31]. Consistent with these findings, our results indicated that OUFB treatment degraded rPLY, LtxA, and SEA within 5 min and abolished the cytotoxicity of rPLY and LtxA. Notably, SEA, a significant contributor to foodborne diseases, exhibits remarkable resistance to environments where S. aureus cannot thrive, such as high temperatures or the presence of proteolytic enzymes [32, 33]. These data underscore the potential of OUFBW as a valuable disinfectant in both the food industry and healthcare.
+Bacteria induce inflammation in the human body through the release of pathogen-associated molecular patterns from bacterial cells [34]. Our study revealed a significant reduction in NF-κB activation by the synthetic bacterial lipopeptide Pam3CSK4, following treatment with OUFBW. However, the effect of OUFB treatment on LPS-induced NF-κB activation was minimal. Consistent with our findings, Noguchi et al. reported that therapy with ozonated water containing 2 ppm ozone partially suppressed the proinflammatory activity of LPS from A. actinomycetemcomitans and lipid A from E. coli [35]. LPS, a macromolecular glycolipid comprising a hydrophobic lipid A region attached to a long-branched carbohydrate chain, activates TLR4 [36, 37]. These findings suggest that ozone can degrade proteins and peptides such as bacterial toxins and Pam3CSK4, but not lipid A.
+Although widely used disinfectants such as sodium hypochlorite, povidone-iodine, and ethanol demonstrate effective antimicrobial properties, they are also recognized for their cytotoxic effects on human cells [38–40] and pose a significant environmental burden [41, 42]. For example, although sodium hypochlorite can degrade a wide variety of biological molecules, such as proteins, amino acid peptides, lipids, and DNA [43], it is associated with substantial cytotoxicity in human cells [44]. Ozone is converted into oxygen and water immediately after oxidation by organic compounds [45, 46]. Consequently, ozone is considered harmless to living organisms and the environment after the reaction [10]. Previous in vitro studies have reported that OUFB solutions have low cytotoxicity toward various human cells, such as primary periodontal ligament fibroblasts and gingival epithelial cells [19, 47]. In this study, the OUFB solutions demonstrated minimal toxicity toward human neutrophils and erythrocytes. These results strongly imply that OUFBW is safer than the existing disinfectants.
+Previous studies have indicated that ozone gas and ozonated water exert antimicrobial activities against various microorganisms such as bacteria, fungi, and viruses [48]. In the present study, OUFBW (0.8–4 ppm of ozone concentration) sterilized planktonic S. aureus, including antibiotic-resistant strains. However, in our previous study, OUFBW containing approximately 5 ppm ozone was unable to sterilize bacteria adhered to toothbrush and gauze completely [19]. Shichiri-Negoro et al. reported that treatment with OUFBW (9 or 11 ppm ozone) reduced the viable counts of Candida albicans in biofilms. However, the biofilms formed within 24 h were not completely removed [49]. These results indicate that OUFBW could not sterilize bacteria and fungi in a complicated structure. Microorganisms need to be directly exposed to OUFB to exert their antimicrobial properties.
+The high burden of infectious diseases in LMICs is due to long-term health system deficiencies, compounded by poor living conditions, inadequate sanitation, limited access to health facilities and running water, overcrowding, and overpopulation [50]. Furthermore, LMICs are the most affected by foodborne diseases, with an estimated annual cost of US$ 110 billion in productivity losses, trade-related losses, and medical treatment expenses resulting from the consumption of unsafe food. This predicament is due to a lack of hygiene and sanitation facilities that are crucial for ensuring food safety [51]. The global commitment encapsulated in the Sustainable Development Goal 6 emphasizes the achievement of universal access to hygiene by 2030. Hence, to ensure accessibility, it is important to explore hygiene management methods that transcend material and financial constraints, ensuring accessibility for all [52]. OUFBW, which is produced from water and oxygen, is a safe and low-cost disinfectant that prevent infectious and foodborne diseases in LMIC.
+Supporting information
+Ultrafine bubble water (UFBW) does not degrade bacterial toxins.
+Showing 1/4: pone.0306998.s001.tif
+1 / 4
+Download
+figshare
+S1 Fig. Ultrafine bubble water (UFBW) does not degrade bacterial toxins.
+(A) Recombinant penumolysin, (B) Aggregatibacter actinomycetemcomitans leukotoxin, and (C) purified Staphylococcus enterotoxin A were added to UFBW or distilled water, followed by SDS-PAGE and silver staining.
+https://doi.org/10.1371/journal.pone.0306998.s001
+(TIF)
+S2 Fig. Ultrafine bubble water (UFBW) does not induce a bactericidal effect against Staphylococcus aureus.
+Methicillin-resistant S. aureus strain (MRSA) NILS2 and methicillin-susceptible S. aureus strain (MSSA) NILS6 were exposed to UFBW or distilled water (DW) for 1 min. The bacterial loads of S. aureus NILS2 and NILS6 were determined using colony counting. Data are presented as the mean ± SD of triplicate experiments and were evaluated using a one-way analysis of variance with a Student’s t-test. *P < 0.05. N = 3 for each bacterial strain. ND was undetected or below the detection limit (< 105 CFU/mL).
+https://doi.org/10.1371/journal.pone.0306998.s002
+(TIF)
+S3 Fig. Original images of silver stain gels.
+Unprocessed silver-stained images are shown in each figure. Lanes not induced in the final figure marked with an “X” above the lane. Images were obtained by scanning the gel using an image scanner.
+https://doi.org/10.1371/journal.pone.0306998.s003
+(TIF)
+S1 Table. The minimal data set of each graph.
+https://doi.org/10.1371/journal.pone.0306998.s004
+(XLSX)
+Acknowledgments
+We thank Mr. Tadashi Hiwatashi (Futech-Niigata LLC) for providing technical support.
+References
+1.
+Ikuta KS, Swetschinski LR, Aguilar GR, Sharara F, Mestrovic T, Gray AP, et al., Global mortality associated with 33 bacterial pathogens in 2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet. 2022;400(10369): 2221–2248. pmid:36423648
+View Article
+PubMed/NCBI
+Google Scholar
+2.
+Murray CJL, Ikuta KS, Sharara F, Swetschinski L, Robles Aguilar G, Gray A, et al. Global burden of bacterial antimicrobial resistance in 2019: a systematic analysis. Lancet. 2022;399(10325): 629–655. pmid:35065702
+View Article
+PubMed/NCBI
+Google Scholar
+3.
+Ghazaei C. Advances in the Study of Bacterial Toxins, Their Roles and Mechanisms in Pathogenesis. Malays J Med Sci. 2022;29(1): 4–17. pmid:35283688
+View Article
+PubMed/NCBI
+Google Scholar
+4.
+Pinchuk IV, Beswick EJ, Reyes VE. Staphylococcal Enterotoxins. Toxins (Basel). 2010;2(8): 2177–2197. pmid:22069679
+View Article
+PubMed/NCBI
+Google Scholar
+5.
+European Food Safety Authority, European Centre for Disease Prevention and Control, The European Union One Health 2018 Zoonoses Report. EFSA J. 2019;17(12): e05926. pmid:32626211
+View Article
+PubMed/NCBI
+Google Scholar
+6.
+Le Loir Y, Baron F, Gautier M. Staphylococcus aureus and food poisoning. Genet. Mol. Res. 2003;2(1): 63–76.
+View Article
+Google Scholar
+7.
+Elvis AM, Ekta JS. Ozone therapy: A clinical review. J Nat Sci Biol Med. 2011;2(1): 66–70. pmid:22470237
+View Article
+PubMed/NCBI
+Google Scholar
+8.
+Song M, Zeng Q, Xiang Y, Gao L, Huang J, Huang J, et al. The antibacterial effect of topical ozone on the treatment of MRSA skin infection. Mol Med Rep. 2018;17(2): 2449–2455. pmid:29207120
+View Article
+PubMed/NCBI
+Google Scholar
+9.
+Komanapalli IR, Lau BH. Inactivation of bacteriophage lambda, Escherichia coli, and Candida albicans by ozone. Appl. Microbiol. Biotechnol. 1998;49(6):766–9. pmid:9684309
+View Article
+PubMed/NCBI
+Google Scholar
+10.
+Afsah-Hejri L, Hajeb P, Ehsani RJ. Application of ozone for degradation of mycotoxins in food: A review. Compr. Rev Food Sci Food Saf. 2020;19(4): 1777–1808. pmid:33337096
+View Article
+PubMed/NCBI
+Google Scholar
+11.
+Holm SM, Balmes JR. Systematic review of ozone effects on human lung function, 2013 through 2020. Chest. 2022;161(1): 190–201. pmid:34389296
+View Article
+PubMed/NCBI
+Google Scholar
+12.
+Huth KC, Jakob FM, Saugel B, Cappello C, Paschos E, Hollweck R, et al. Effect of ozone on oral cells compared with established antimicrobials. Eur J Oral Sci. 2006;114(5): 435–440. pmid:17026511
+View Article
+PubMed/NCBI
+Google Scholar
+13.
+Guzel-Seydim ZB, Wyffels JT, Greene AK, Bodine AB. Removal of Dairy Soil from Heated Stainless Steel Surfaces: Use of ozonated water as a prerinse. J Dairy Sci. 2000;83(8): 1887–1891. pmid:10984167
+View Article
+PubMed/NCBI
+Google Scholar
+14.
+Greene AK, Vergano PJ, Few BK, Serafini JC. Effect of ozonated water sanitization on gasket materials used in fluid food processing. J Food Eng. 1994;21(4): 439–446.
+View Article
+Google Scholar
+15.
+Breidablik HJ, Lysebo DE, Johannessen L, Skare Å, Andersen JR, Kleiven OT. Ozonized water as an alternative to alcohol-based hand disinfection. J Hosp Infect. 2019;102(4): 419–424. pmid:30731184
+View Article
+PubMed/NCBI
+Google Scholar
+16.
+Tomiyasu H, Fukutomi H, Gordon G. Kinetics and mechanism of ozone decomposition in basic aqueous solution. Inorg Chem. 1985;24(19): 2962–2966.
+View Article
+Google Scholar
+17.
+Seki M, Ishikawa T, Terada H, Nashimoto M. Microbicidal effects of stored aqueous ozone solution generated by nano-bubble technology. In Vivo. 2017;31(4): 579–583. pmid:28652423
+View Article
+PubMed/NCBI
+Google Scholar
+18.
+Kobayashi T, Ushida A. Stability of ultra-fine bubbles against temperature, phase change, and shear stress. Exp Therm Fluid Sci. 2023;145: 110899.
+View Article
+Google Scholar
+19.
+Takizawa F, Domon H, Hiyoshi T, Tamura H, Shimizu K, Maekawa T, et al. Ozone ultrafine bubble water exhibits bactericidal activity against pathogenic bacteria in the oral cavity and upper airway and disinfects contaminated healthcare equipment. PLOS ONE. 2023;18(4): e0284115. pmid:37043490
+View Article
+PubMed/NCBI
+Google Scholar
+20.
+Domon H, Uehara Y, Oda M, Seo H, Kubota N, Terao Y. Poor survival of Methicillin-resistant Staphylococcus aureus on inanimate objects in the public spaces. MicrobiologyOpen. 2016;5(1): 39–46. pmid:26503447
+View Article
+PubMed/NCBI
+Google Scholar
+21.
+Tilley SJ, Orlova EV, Gilbert RJC, Andrew PW, Saibil HR. Structural basis of pore formation by the bacterial toxin pneumolysin. Cell. 2005;121(2): 247–256. pmid:15851031
+View Article
+PubMed/NCBI
+Google Scholar
+22.
+Domon H, Oda M, Maekawa T, Nagai K, Takeda W, Terao Y. Streptococcus pneumoniae disrupts pulmonary immune defense via elastase release following pneumolysin-dependent neutrophil lysis. Sci Rep. 2016;6(1): 38013. pmid:27892542
+View Article
+PubMed/NCBI
+Google Scholar
+23.
+Sasagawa K, Domon H, Sakagami R, Hirayama S, Maekawa T, Isono T, et al. Matcha green tea exhibits bactericidal activity against Streptococcus pneumoniae and inhibits functional pneumolysin. Antibiotics (Basel). 2021;10(12): 1550. pmid:34943762
+View Article
+PubMed/NCBI
+Google Scholar
+24.
+Hiyoshi T, Domon H, Maekawa T, Nagai K, Tamura H, Takahashi N, et al. Aggregatibacter actinomycetemcomitans induces detachment and death of human gingival epithelial cells and fibroblasts via elastase release following leukotoxin-dependent neutrophil lysis. Microbiol Immunol. 2019;63(3–4): 100–110. pmid:30817027
+View Article
+PubMed/NCBI
+Google Scholar
+25.
+Tsutsuura S, Murata M. Production of staphylococcal enterotoxin A in cooked rice and limitation of its organoleptic detection. Food Sci Technol Res. 2017;23(2): 267–274.
+View Article
+Google Scholar
+26.
+Tang D, Kang R, Coyne CB, Zeh HJ, Lotze MT. PAMPs and DAMPs: signal 0s that spur autophagy and immunity. Immunol Rev. 2012;249(1): 158–175. pmid:22889221
+View Article
+PubMed/NCBI
+Google Scholar
+27.
+Takeda K, Takeuchi O, Akira S. Recognition of lipopeptides by Toll-like receptors. J Endotoxin Res. 2002;8(6): 459–463. pmid:12697090
+View Article
+PubMed/NCBI
+Google Scholar
+28.
+Virzì GM, Mattiotti M, de Cal M, Ronco C, Zanella M, De Rosa S. Endotoxin in sepsis: Methods for LPS detection and the use of omics techniques. Diagnostics (Basel). 2022;13(1): 79. pmid:36611371
+View Article
+PubMed/NCBI
+Google Scholar
+29.
+Zorlugenç B, Kıroğlu Zorlugenç F, Öztekin S, Evliya IB. The influence of gaseous ozone and ozonated water on microbial flora and degradation of aflatoxin B1 in dried figs. Food Chem Toxicol. 2008;46(12): 3593–3597. pmid:18824207
+View Article
+PubMed/NCBI
+Google Scholar
+30.
+Kim JG, Yousef AE, Dave S. Application of ozone for enhancing the microbiological safety and quality of foods: a review. J Food Prot. 1999;62(9): 1071–1087. pmid:10492485
+View Article
+PubMed/NCBI
+Google Scholar
+31.
+Luo X, Wang R, Wang L, Wang Y, Chen Z. Structure elucidation and toxicity analyses of the degradation products of aflatoxin B1 by aqueous ozone. Food Control. 2013;31(2): 331–336.
+View Article
+Google Scholar
+32.
+Hu DL, Nakane A. Mechanisms of staphylococcal enterotoxin-induced emesis. Eur J Pharmacol. 2014;722: 95–107. pmid:24184671
+View Article
+PubMed/NCBI
+Google Scholar
+33.
+Grispoldi L, Karama M, Armani A, Hadjicharalambous C, Cenci-Goga BT. Staphylococcus aureus enterotoxin in food of animal origin and staphylococcal food poisoning risk assessment from farm to table. Ital J Anim Sci. 2021;20(1): 677–690.
+View Article
+Google Scholar
+34.
+Mogensen TH. Pathogen recognition and inflammatory signaling in innate immune defenses. Clin Microbiol Rev. 2009;22(2): 240–273, Table of Contents. pmid:19366914
+View Article
+PubMed/NCBI
+Google Scholar
+35.
+Noguchi F, Kitamura C, Nagayoshi M, Chen K-K, Terashita M, Nishihara T. Ozonated water improves lipopolysaccharide-induced responses of an odontoblast-like cell line. J Endod. 2009;35(5): 668–672. pmid:19410080
+View Article
+PubMed/NCBI
+Google Scholar
+36.
+Park BS, Lee JO. Recognition of lipopolysaccharide pattern by TLR4 complexes. Exp Mol Med. 2013;45(12): e66. pmid:24310172
+View Article
+PubMed/NCBI
+Google Scholar
+37.
+Raetz CRH, Whitfield C. Lipopolysaccharide endotoxins. Annu Rev Biochem. 2002;71: 635–700. pmid:12045108
+View Article
+PubMed/NCBI
+Google Scholar
+38.
+Hidalgo E, Bartolome R, Dominguez C. Cytotoxicity mechanisms of sodium hypochlorite in cultured human dermal fibroblasts and its bactericidal effectiveness. Chem Biol Interact. 2002;139(3): 265–282. pmid:11879816
+View Article
+PubMed/NCBI
+Google Scholar
+39.
+Romano V, Di Gennaro D, Sacco AM, Festa E, Roscetto E, Basso MA, et al. Cell toxicity study of antiseptic solutions containing povidone-iodine and hydrogen peroxide. Diagnostics (Basel). 2022;12(8): 2021. pmid:36010371
+View Article
+PubMed/NCBI
+Google Scholar
+40.
+Tyulina OV, Huentelman MJ, Prokopieva VD, Boldyrev AA, Johnson P. Does ethanol metabolism affect erythrocyte hemolysis? Biochim Biophys Acta Mol Basis Dis. 2000;1535(1): 69–77. pmid:11113633
+View Article
+PubMed/NCBI
+Google Scholar
+41.
+Husain Khan A, Abdul Aziz H, Palaniandy P, Naushad M, Cevik E, Zahmatkesh S. Pharmaceutical residues in the ecosystem: Antibiotic resistance, health impacts, and removal techniques. Chemosphere. 2023;339: 139647. pmid:37516325
+View Article
+PubMed/NCBI
+Google Scholar
+42.
+Atolani O, Baker MT, Adeyemi OS, Olanrewaju IR, Hamid AA, Ameen OM, et al. COVID-19: Critical discussion on the applications and implications of chemicals in sanitizers and disinfectants. EXCLI J. 2020;19: 785–799. pmid:32636732
+View Article
+PubMed/NCBI
+Google Scholar
+43.
+Fukuzaki S. Mechanisms of actions of sodium hypochlorite in cleaning and disinfection processes. Biocontrol Sci. 2006;11(4): 147–157. pmid:17190269
+View Article
+PubMed/NCBI
+Google Scholar
+44.
+Severing AL, Rembe JD, Koester V, Stuermer EK. Safety and efficacy profiles of different commercial sodium hypochlorite/hypochlorous acid solutions (NaClO/HClO): antimicrobial efficacy, cytotoxic impact and physicochemical parameters in vitro. J Antimicrob Chemother. 2018;74(2): 365–372. pmid:30388236
+View Article
+PubMed/NCBI
+Google Scholar
+45.
+Kasprzyk-Hordern B, Ziółek M, Nawrocki J. Catalytic ozonation and methods of enhancing molecular ozone reactions in water treatment. Appl Catal B. 2003;46(4): 639–669.
+View Article
+Google Scholar
+46.
+Banach JL, Sampers I, Van Haute S, van der Fels-Klerx HJ. Effect of disinfectants on preventing the cross-contamination of pathogens in fresh produce washing water. Int J Environ Res Public Health. 2015;12(8): 8658–8677. pmid:26213953
+View Article
+PubMed/NCBI
+Google Scholar
+47.
+Leewananthawet A, Arakawa S, Okano T, Daitoku Kinoshita R, Ashida H, Izumi Y, et al. Ozone ultrafine bubble water induces the cellular signaling involved in oxidative stress responses in human periodontal ligament fibroblasts. Sci Technol Adv Mater. 2019;20(1): 589–598. pmid:31258824
+View Article
+PubMed/NCBI
+Google Scholar
+48.
+Guzel-Seydim ZB, Greene AK, Seydim AC. Use of ozone in the food industry. LWT—Food Sci Technol. 2004;37(4): 453–460.
+View Article
+Google Scholar
+49.
+Shichiri-Negoro Y, Tsutsumi-Arai C, Arai Y, Satomura K, Arakawa S, Wakabayashi N. Ozone ultrafine bubble water inhibits the early formation of Candida albicans biofilms. PLOS ONE. 2021;10;16(12): e0261180. pmid:34890423
+View Article
+PubMed/NCBI
+Google Scholar
+50.
+Cárdenas G, Salgado P, Laura-Foronda E, Popoca-Rodriguez I, Delgado-Hernández RD, Rojas R, et al. Neglected and (re-)emergent infections of the CNS in low-/middle-income countries. Infez Med. 2021;29(4): 513–525. pmid:35146359
+View Article
+PubMed/NCBI
+Google Scholar
+51.
+World Health Organization; Food safety: A public health and socioeconomic priority, WHO global strategy for food safety 2022–2030: towards stronger food safety systems and global cooperation. WHO [internet]. 2022 October 12 [cited 2023 Dec 27]. Available from: https://www.who.int/publications/i/item/9789240057685
+View Article
+Google Scholar
+52.
+United Nations Children’s Fund, World Health Organization; Executive Summary, State of the world’s hand hygiene: A global call to action to make hand hygiene a priority in policy and practice. WHO [internet]. 2021 Oct 15 [cited 2023 Dec 27]. Available from: https://www.who.int/publications/i/item/9789240036444
+View Article
+Google Scholar
+Download PDF
+  Print
+Share
+ADVERTISEMENT
+Subject Areas
+?
+Ozone
+  Neutrophils
+  Methicillin-resistant Staphylococcus aureus
+  Silver staining
+  Staphylococcus aureus
+  Toxins
+  Bacterial toxins
+  Red blood cells
+  Publications
+PLOS Biology
+PLOS Climate
+PLOS Complex Systems
+PLOS Computational Biology
+PLOS Digital Health
+PLOS Genetics
+PLOS Global Public Health
+  PLOS Medicine
+PLOS Mental Health
+PLOS Neglected Tropical Diseases
+PLOS ONE
+PLOS Pathogens
+PLOS Sustainability and Transformation
+PLOS Water
+Home
+Blogs
+Collections
+Give feedback
+LOCKSS
+Privacy Policy
+Terms of Use
+Advertise
+Media Inquiries
+Contact
+PLOS is a nonprofit 501(c)(3) corporation, #C2354500, based in San Francisco, California, US
+Cookie Preference Center
+Our website uses different types of cookies. Optional cookies will only be set with your consent and you may withdraw this consent at any time. Below you can learn more about the types of cookies PLOS uses and register your cookie preferences.
+Accept All Cookies
+Customize Your Cookie Preference
++
+Strictly Necessary
+Always On
++
+Functional
+Off
++
+Performance and Analytics
+Off
++
+Marketing
+Off
+Save Selected Preferences and Close
+For more information about the cookies and other technologies used by us, please read our Cookie Policy.

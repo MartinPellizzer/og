@@ -1,0 +1,202 @@
+Menu
+Buletin Poltanesa
+Sign in
+EN
+Journal article // Buletin Poltanesa
+Air Pollution Assessment of Samarinda Using the C4.5 Algorithm
+Anton Prafanto, Indah Fitri Astuti, Ummi Salamah, Fahrul Agus, Awang Harsa Kridalaksana + 1 more author
+Download PDF
+Cite this
+Share
+Abstract
+The degradation of air quality in numerous Indonesian cities is attributed to the swift proliferation of motorised vehicles, rapid population growth, and inadequate green spaces. Samarinda, the capital of East Kalimantan province, is plagued by high levels of pollution resulting from heavy vehicle exhaust emissions. The provision of accurate air quality information can mitigate respiratory issues. However, the public does not have access to air quality information due to the high cost of air quality measuring devices. Therefore, an Internet of Things (IoT)-based air pollution monitoring system using ESP32 is needed to provide interactive and real-time information. This study tested the C4.5 algorithm to classify air quality data based on six measurement parameters: PM10, PM2.5, CO, O3, and NO2. PM10 and PM2.5 particles are the primary pollutants that significantly impact human health. The World Health Organization (WHO) has set an annual quality standard value of 20μg/m3 for PM10 and 10μg/m3 for PM2.5. Carbon Monoxide (CO) can reduce the blood's ability to carry oxygen, which can affect the function of vital organs such as the heart and brain. Ozone (O3) on the Earth's surface is a harmful pollutant that can damage the lungs and other respiratory systems. Nitrogen dioxide (NO2) can cause lung inflammation and lower immunity to infections, such as influenza and pneumonia. This study uses the C4.5 algorithm to classify air quality data based on these parameters, which are important for determining air quality. The results show that air quality is divided into two types: good and moderate, with different proportions each day. The C4.5 algorithm achieved a success rate of 99.5074% and a failure rate of 0.4926% when processing air quality data. It was effective in classifying air quality and processing data. An Internet of Things (IoT)-based air pollution monitoring system using ESP32 is needed to provide interactive and real-time information to the public.
+Full text
+Buletin Poltanesa Vol. 24 No. 2 (December 2023
+) 235-241 p-ISSN 2721-5350 e-ISSN 2721-5369 
+https://doi.org/10.51967/tanesa.v24i2.2946 
+©   2023 Politeknik Pertanian Negeri Samarinda 
+ This work is licensed under a Creative Commons Attributio
+n 4.0 License CC 
+BY
+-SA 
+CC
+–
+  235 
+–
+Air Pollution Assessment of Samarinda Using 
+the C4.5 Algorithm 
+Anton Prafanto* 
+Informatic
+, Mulawarman University
+, 
+Samarinda 
+antonprafanto@fkti.unmul.ac.id 
+*
+Corresponding author 
+Fahrul Agus 
+Informatic, Mulawarman University, 
+Samarinda 
+fahrulagus@unmul.ac.id 
+Indah Fitri Astuti 
+Informatic, Mulawarman University, 
+Samarinda 
+indahfitriastuti@unmul.ac.id 
+Awang Harsa Kridalaksana 
+Informatic, Mulawarman University, 
+Samarinda 
+awanghk@unmul.ac.id 
+Ummi Salamah 
+Informatic, Mulawarman University, 
+Samarinda 
+ummi.syarofhana@gmail.com 
+Vina Zahrotun Kamila 
+Information System Department, 
+Mulawarman University, Samarinda 
+vinakamila@ft.unmul.ac.id 
+Abstract
+—
+The  degradation  of  air  quality  in  numerous 
+Indonesian cities is attributed to the swift proliferat
+ion of 
+motorised   vehicles,   rapid   population   growth,   and 
+inadequate  green  spaces.  Samarinda,  the  capital  of  East
+Kalimantan  province,  is  plagued  by  high  levels  of 
+pollution resulting from heavy vehicle exhaust emiss
+ions. 
+The  provision  of  accurate  air  quality  information  c
+an 
+mitigate respiratory issues. However, the public does not
+have access to air quality information due to the h
+igh cost 
+of air quality measuring devices. Therefore, an Inter
+net of 
+Things (IoT)-based air pollution monitoring system u
+sing 
+ESP32  is  needed  to  provide  interactive  and  real-time
+information.  This  study  tested  the  C4.5  algorithm  to
+classify  air  quality  data  based  on  six  measurement 
+parameters: PM10, PM2.5, CO, O3, and NO2. PM10 and 
+PM2.5   particles   are   the   primary   pollutants   that 
+significantly  impact  human  health.  The  World  Health 
+Organization  (WHO)  has  set  an  annual  quality  standard 
+value  of  20μg/m3  for  PM10  and  10μg/m3  for  PM2.5. 
+Carbon Monoxide (CO) can reduce the blood's ability t
+o 
+carry  oxygen,  which  can  affect  the  function  of  vital
+organs  such  as  the  heart  and  brain.  Ozone  (O3)  on  the 
+Earth's surface is a harmful pollutant that can dam
+age the 
+lungs  and  other  respiratory  systems.  Nitrogen  dioxide
+(NO2) can cause lung inflammation and lower immunity 
+to  infections,  such  as  influenza  and  pneumonia.  This
+study uses the C4.5 algorithm to classify air quality
+ data 
+based  on  these  parameters,  which  are  important  for 
+determining air quality. The results show that air qu
+ality 
+is  divided  into  two  types:  good  and  moderate,  with 
+different  proportions  each  day.  The  C4.5  algorithm 
+achieved a success rate of 99.5074% and a failure rat
+e of 
+0.4926%   when   processing   air   quality   data.   It   was 
+effective  in  classifying  air  quality  and  processing 
+data. 
+An   Internet   of   Things   (IoT)-based   air   pollution 
+monitoring  system  using  ESP32  is  needed  to  provide 
+interactive and real-time information to the public
+. 
+Keywords
+—
+ESP32, Air quality, C4.5 Algorithm, Internet 
+of Things, Classifying air quality. 
+I.
+I
+NTRODUCTION
+Air  pollution  occurs  when  substances,  energy,  and 
+other  components  enter  the  air  as  a  result  of  human 
+activities, causing air quality to drop to an unhea
+lthy level 
+that  can  harm  human  health  (Decree  of  the  Indonesian 
+Minister 
+of 
+Health 
+Number 
+1407/MENKES/SK/XI/2002).  Clean  air  quality  must  be 
+prioritised,  as  low  air  quality  can  directly  impact  t
+he 
+health  of  living  organisms  on  the  Earth,  particular
+ly 
+humans  (Rahmawati  &  Khairina,  2021).  Some  of  the 
+health  consequences  resulting  from  exposure  to  air 
+pollution  are  headaches,  dizziness,  nausea,  irritatio
+n  of 
+the   nose,   throat,   eyes   and   skin,   acute   respiratory 
+infections  (ARI),  asthma,  and  the  deadliest  disease, 
+pneumonia (Sari & Mayasari, 2020). 
+The  high  level  of  human  activity  and  population 
+density in urban areas has resulted in significantly 
+higher 
+levels   of   air   pollutants   compared   to   other   areas 
+(Rahmawati  &  Khairina,  2021).  The  degradation  of  air 
+quality in multiple cities in the Indonesian region p
+ersists 
+in   its   escalation   (Greenstone   &   Fan,   2019).   This 
+phenomenon  has  multiple  causes.  One  of  them  is  the 
+swift  progress  of  motorised  transportation,  which  is 
+directly  linked  to  the  increase  in  population,  but 
+not 
+correlated  with  the  expansion  of  green  open  spaces  an
+d 
+the  conservation  of  green  zones,  particularly  in  urba
+n 
+regions. 
+Samarinda,   the   capital   city   of   East   Kalimantan 
+province in Indonesia, is the largest city on the isla
+nd of 
+Kalimantan  with  a  population  of  858,080  residents, 
+consisting   of   443,379   males   and   414,701   females 
+(Central  Bureau  of  Statistics,  2019).  The  city  spans
+  an 
+area  of  718  km²,  possessing  hilly  terrain  with  altitu
+des 
+ranging from 10 to 200 metres above sea level. Exce
+ssive 
+amounts  of  exhaust  emissions  from  motorised  vehicle
+s 
+contribute  to  the  high  levels  of  pollution  experienc
+ed  in 
+the city. Every year, there has been a noticeable in
+crease 
+in  the  use  of  motorised  vehicles  in  Samarinda  City,  a
+s 
+stated  by  the  Central  Bureau  of  Statistics  (BPS)  of  E
+ast 
+Kalimantan Province (Hidayat & Noor, 2020)
+.  
+🤓
+LOAD NEXT PAGE
+More from this journal
+Sistem Informasi Penjadwalan Petugas Ibadah dan Kehadiran Jemaat Sektor 3 di Gereja Hebron Protestan Samarinda
+Open Access Dec 1, 2019
+Veronaldo Yoga Saputra, Yulianto Yulianto, Erina Hertianti
+Revealing Research Trends: A Bibliometric Review of Publications on Transformational Leadership
+Open Access
+Eko Yulianto, Yusuf Iskandar
+Generating Digital Literacy Website: Upgrading the Understanding of Digital Literacy at SMA Yuppentek 1 Tangerang
+Open Access
+Arin Fithriana, Anggun Puspitasari, Samsinar Samsinar
+🧐  Browse all from this journal
+Metrics
+0 views
+0 downloads
+Table of contents
+Title & authors
+Abstract
+Full text
+Powered by Neliti
+About Buletin Poltanesa
+About Neliti
+Browse
+OAI-PMH API
+Terms
+Privacy

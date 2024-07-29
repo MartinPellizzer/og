@@ -1,0 +1,14 @@
+**Paragraph 1**
+Air quality is a crucial aspect of environmental health, and understanding long-term changes in air quality is essential for making informed decisions. The contiguous United States (CONUS) has a large and diverse population, with varying levels of industrialization, urbanization, and natural environments that can impact air quality. A comprehensive air quality dataset is necessary to understand these trends and variations across the CONUS. This study presents a 14-year, high-resolution air quality reanalysis dataset over the CONUS, created by assimilating satellite observations and meteorological data.
+
+**Paragraph 2**
+The methods used to create this dataset involved assimilating Moderate Resolution Imaging Spectroradiometer (MODIS) aerosol optical depth (AOD) and Measurement of Pollution in the Troposphere (MOPITT) carbon monoxide (CO) observations into the Community Multiscale Air Quality Model (CMAQ). The Weather Research and Forecasting (WRF) model simulated meteorological fields were used to drive CMAQ offline, generating meteorology-dependent anthropogenic emissions. Both weather and air quality simulations were evaluated against multi-platform observations to establish the credibility of the dataset and characterize its uncertainties.
+
+**Paragraph 3**
+The resulting dataset shows excellent agreement with observed surface ozone and particulate matter (PM2.5) concentrations across the CONUS. The correlation coefficients between observed and simulated values ranged from 0.49 to 0.91, while mean biases and root-mean-squared errors were relatively low. Trends in annual averaged maximum daily 8-hour average (MDA8) ozone and PM2.5 concentrations were also estimated, with decreasing trends for both pollutants.
+
+**Paragraph 4**
+The discussion highlights the importance of this dataset for air quality management and research. The high-resolution reanalysis enables stakeholders to visualize and interpret county-level air quality measures and trends using an ArcGIS dashboard or download data in simplified formats through a Streamlit application. The dataset's strengths include its long-term coverage, hourly resolution, and ability to capture regional variability. However, uncertainties are acknowledged, particularly with regards to satellite observation errors and model biases.
+
+**Paragraph 5**
+In conclusion, this study presents a valuable tool for understanding long-term changes in air quality over the CONUS. The high-resolution reanalysis dataset provides critical information for air quality managers, researchers, and policymakers. By leveraging this dataset, stakeholders can better understand the complex relationships between meteorology, emissions, and air quality, ultimately informing more effective strategies for improving air quality and protecting public health.

@@ -1,0 +1,142 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (53)
+Volume 40
+, August 2024, 109820
+A-site doped LaFeO3 perovskite for highly active O3 catalytic decomposition
+Author links open overlay panel
+Jian Guan a b c
+,
+Lingling Lu d
+,
+Yacong Guo d
+,
+Guijun Fan a b c
+,
+Hang Yu a b c
+,
+Qiuyi Zhu a b c
+,
+Guojun Ma a b c
+,
+Ning Han a b c
+,
+Yunfa Chen a b c
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.mtcomm.2024.109820
+Get rights and content
+Highlights
+•
+Mg, Ca, Sr and Ce were doped on A-site of LaFeO3 successfully by sol-gel method.
+•
+The conversion could reach 97 % and 90 % under 720,000 and 1440,000 mL g−1 h−1.
+•
+The distortion of [FeO6] octahedra was the biggest among the Ce doped samples.
+•
+The peroxides regarded as intermediate were probed by in-situ DRIFTs.
+•
+La0.5Ce0.5FeO3 has the lowest Arrhenius activation energy among the samples.
+Abstract
+Nowadays, the treatment of ozone has become critically important due to the health risks caused by even minimal amount of ozone in the ambient air. In this work, LaFeO3 doped with Mg, Ca, Sr and Ce on A-site are synthesized by sol-gel method and adopted as a highly active ozone decomposition catalyst. The results show that the Ce doped LaFeO3 exhibits the highest catalytic activity with the optimal doping concentration marked as La0.5Ce0.5FeO3. It reaches high conversion efficiency of 97 % and 90 % to 1000 ppm ozone at high weight hourly space velocity of 720,000 and 1440,000 mL g−1 h−1, which is one of the highest in the literature. The distortion of [FeO6] octahedra reached the maximum when the doping amount of Ce was 0.5 as revealed by X-ray diffraction and Rietveld fitting. The high ozone catalytic activity could be assigned to the easy electron loss from eg orbit caused by high crystal field splitting energy, abundant oxygen vacancies resulting from the biggest distortion of [FeO6] octahedra and quick transfer between Fe2+ and Fe3+.
+Graphical Abstract
+Download: Download high-res image (141KB)
+Download: Download full-size image
+Introduction
+The near-ground ozone is considered as one of the main pollutants, originating from direct industrial emissions, indoor laser printers and indoor dust-removal equipment, etc. It greatly threatens people’s health even at very low concentrations and can even be fatal at high concentrations, due to its high oxidation properties [1], [2]. Meanwhile, ozone can react with other pollutants to generate secondary pollutants [3]. So the maximum permitted concentration of near-ground ozone has been lowered from 75 ppb to 70 ppb by the U.S. Environmental Protection Agency (EPA) to meet the environmental quality demands [4]. And in this way, it is of vital importance to deal with near-ground ozone contamination. There are plenty of methods to degrade ozone including adsorption, plasma decomposition and catalytic decomposition, etc., amongst which catalytic decomposition method is widely used for its low cost and high decomposition efficiency [5]. Catalysts for degradation of ozone can be categorized into noble metal catalysts and transition metal oxide catalysts. Noble metal catalysts have high activity, but are limited by their high cost. Conversely, the transition metal oxides are more cost-effective but their ozone catalytic activity is low. And in this circumstance, it is crucial to synthesize oxide catalysts that could combine both high activity and low cost simultaneously.
+Perovskite is a special kind of metal oxide with the formula ABO3, where A-site is generally a rare earth element with a relatively larger atomic radius and B-site is generally a transition metal element with a relativity smaller atomic radius. An ideal perovskite is a kind of Pm-3 m space group with A-site at the center of BO6 octahedral coordination. This special structure leads to exceptional structural stability, making perovskite applicable in many areas such as energy storage fields, capacitor fields and catalyst fields. For instance, Pecchi et al. synthesized LaFe1−xNixO3 (x=0.1, 0.2 and 0.3) successfully by the citrate method and acetyl acetate and ethanol were totally converted below the temperature of 640 and 550 K, respectively [6]. Li et al. doped Cu and Pd to LaFeO3 and the Pd-doped sample showed outstanding N2 yield even at 200–300 °C [7].
+Meanwhile the octahedra can be distorted by the dope of A-site leading to changes in the number of oxygen vacancies and the state of B, in which way ozone catalytic ability could be affected. For example, Li et al. synthesized a series of A-site Sr doped La2-xSrxCoMnO6 (x=0.2, 0.4, 0.6, 0.8, and 1.0) and the OER overpotential of La1.2Sr0.8CoMnO6 was 0.39 V reduced by 80 mV compared with the undoped sample, which may due to the higher content of oxygen vancancies [8]. Dong et al. synthesized La2-xAgxCuO4-δ and the tuning of Cu2+, construction of oxygen vacancies caused by Ag doping at A-site enabled its use as as efficient electrocatalysts of CO2RR [9]. Ding et al. synthesized La1-xMxMnO3 (M=Sr, Ag and Sn) and the formation of oxygen vacancies was facilitated by the doping at A-site which also reduced the activation energy of O2 dissociation [10].
+In our previous report, the influence of B-site doping on the ozone decomposition activity of LaFeO3 was investigated, and a highly active La(FeNi)O3 catalyst was developed [11]. In this paper, a series of A-site (Mg, Ca, Sr and Ce) doped perovskite catalysts were synthesized using sol-gel method for ozone decomposition. The results show that Ce is the optimal doping element, and La0.5Ce0.5FeO3 behaves with high ozone decomposition performance. The conversion efficiency to 1000 ppm ozone can reach 97 % under a high weight hourly space velocity (WHSV) of 720,000 mL g−1 h−1, and 90 % under higher WHSV of 1440,000 mL g−1 h−1, far higher than those of B-site doped LaFeO3, which is also one of the highest in the literature.
+Section snippets
+Synthesis
+The La1-xMxFeO3 catalysts (M= Mg, Ca, Sr and Ce) with different doping elements and concentrations were synthesized via sol-gel method as reported in the literature. All raw materials used in the synthesis including La(NO3)3·6 H2O, Fe(NO3)3·9 H2O, Mg(NO3)2·6 H2O, Ca(NO3)2·6 H2O, Sr(NO3)2·6 H2O, Ce(NO3)3·6 H2O and citric acid, were of analytical purity. Typically in the synthesis, all the raw materials were added to 40 mL deionized water with stoichiometric amount under magnetic stirring. After
+Results and discussion
+The ozone catalytic performance was tested at an ozone concentration of 1000 ppm, WHSV of 720,000 mL g−1 h−1 (gas flow of 600 mL min−1) as shown in Fig. 1a. The results indicated that all the doped samples showed better catalytic performance than the undoped one, with La0.9Ce0.1FeO3 showing the highest catalytic performance. And thus different doping concentrations of Ce were further investigated, and La0.5Ce0.5FeO3 and La0.3Ce0.7FeO3 showed relatively higher ozone catalytic activities as shown
+Conclusion
+Mg, Ca, Sr and Ce A-site doped LaFeO3 were successfully synthesized by sol-gel method, which shows enhanced ozone decomposition activity. Specifically, Ce was identified as the optimal doping element with a doping concentration of 50 mol% showing the highest activity enhancement. La0.5Ce0.5FeO3 exhibits high conversion efficiency of approximately 97 % towards 1000 ppm ozone at a high weight hourly space velocity (WHSV) of 720,000 mL g-1 h-1 and approximately 90 % at WHSV of 1440,000 mL g-1 h-1,
+CRediT authorship contribution statement
+Jian Guan: Conceptualization, Data curation, Formal analysis, Investigation, Methodology, Software, Validation, Visualization, Writing – original draft. Lingling Lu: Funding acquisition. Yacong Guo: Funding acquisition. Guijun Fan: Software. Hang Yu: Software. Qiuyi Zhu: Software. Guojun Ma: Methodology. Ning Han: Project administration, Supervision, Writing – review & editing. Yunfa Chen: Supervision, Resources, Project administration, Funding acquisition.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+This work was funded by the National Key Research and Development Program of China (2022YFC3702800) and by research fund of State Key Laboratory of Mesoscience and Engineering (MESO-23-A06).
+References (53)
+Y. Nagarjuna et al.
+Nanoporous ZnO structure prepared by HiPIMS sputtering for enhanced ozone gas detection
+Mater. Today Commun.
+(2023)
+C.A. Corona-García et al.
+Adsorption of small pollutant molecules on monolayer blue phosphorus
+Mater. Today Commun.
+(2021)
+Y. Shi et al.
+Catalysts for highly water-resistant catalytic decomposition of ozone: Hausmannite Mn3O4 on exposed (101) crystal surface
+J. Hazard. Mater.
+(2023)
+G. Pecchi et al.
+Surface properties and performance for VOCs combustion of LaFe1−yNiyO3 perovskite oxides
+J. Solid State Chem.
+(2008)
+P. Li et al.
+Efficiency of Cu and Pd substitution in Fe-based perovskites to promote N2 formation during NH3 selective catalytic oxidation (NH3-SCO)
+Appl. Catal. B: Environ.
+(2017)
+G. Dong et al.
+Boosting the CO2 electroreduction performance of La2-xAgxCuO4-δ perovskites via A-site substitution mechanism
+Appl. Catal. B: Environ.
+(2024)
+J. Ding et al.
+Understanding A-site tuning effect on formaldehyde catalytic oxidation over La-Mn perovskite catalysts
+J. Hazard. Mater.
+(2022)
+S. Gong et al.
+Highly active and humidity resistive perovskite LaFeO3 based catalysts for efficient ozone decomposition
+Appl. Catal. B: Environ.
+(2019)
+Y. Liu et al.
+Catalytic decomposition of gaseous ozone over todorokite-type manganese dioxides at room temperature: Effects of cerium modification
+Appl. Catal. A: Gen.
+(2017)
+X. Chen et al.
+Ce–Fe–Mn ternary mixed-oxide catalysts for catalytic decomposition of ozone at ambient temperatures
+J. Rare Earths
+(2020)
+View more references
+Cited by (0)
+View full text
+© 2024 Published by Elsevier Ltd.
+Recommended articles
+(Fe, Nd) codoped ZnO micro– and nanostructures with multifunctional characteristics like photocatalytic activity, optical and ferromagnetic properties
+Ceramics International, Volume 44, Issue 17, 2018, pp. 21962-21975
+Lucian Diamandescu, …, Monica Enculescu
+Effect of cooling medium on microstructure evolution and tensile properties of creep-strength-enhanced ferritic steel
+Science and Technology of Materials, Volume 30, Issue 2, 2018, pp. 86-91
+C. Pandey, …, P. Kumar
+Structure and microwave absorption properties of Pr–Fe–Ni alloys
+Journal of Magnetism and Magnetic Materials, Volume 384, 2015, pp. 106-112
+Jilei Xiong, …, Peihao Lin
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

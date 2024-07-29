@@ -1,0 +1,131 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Buildings
+All Article Types
+Advanced
+  Journals Buildings Volume 14 Issue 7 10.3390/buildings14071980
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editors
+João Carlos Gonçalves Lanzinha
+Eduardo Qualharini
+Eugeniusz Koda
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+422
+Table of Contents
+Abstract
+Introduction
+Methodology
+Results and Discussions
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Life Cycle Assessment of Single-Story Low-Income Housing: A Brazilian Case Study †
+by Marianne Di Domênico
+1, Lauro André Ribeiro
+2 and Thaísa Leal da Silva
+2,*
+1
+Programa de Pós-Graduação em Engenharia Civil e Ambiental (PPGEng), Universidade de Passo Fundo, BR 285 Km 292.7, Campus I, Bairro São José, Passo Fundo 99052-900, RS, Brazil
+2
+Programa de Pós-Graduação em Arquitetura e Urbanismo (PPGARQ), Atitus Educação, Rua Senador Pinheiro 304, Campus Santa Teresinha, Bairro Vila Rodrigues, Passo Fundo 99052-900, RS, Brazil
+*
+Author to whom correspondence should be addressed.
+†
+This paper is an extended version of our paper published in Proceedings of CIRMARE 2023, VI International Congress on Recovery, Maintenance and Rehabilitation of Buildings.
+Buildings 2024, 14(7), 1980; https://doi.org/10.3390/buildings14071980
+Submission received: 31 March 2024 / Revised: 1 June 2024 / Accepted: 21 June 2024 / Published: 1 July 2024
+(This article belongs to the Special Issue Selected Papers of the CIRMARE 2023 – VI International Congress on Recovery, Maintenance and Rehabilitation of Buildings)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+This study aims to assess the environmental impacts of different construction systems employed in a single-story low-income housing development utilizing Life Cycle Assessment (LCA). The LCA was applied to the roof, wall, coating, and floor systems, considering the initial and recurring impacts from extraction to material replacement. Data were quantified using the CML 2001 method with OpenLCA 1.9 software. The analyzed impact categories are the potential for the depletion of abiotic resources—non-fossil (ADP); potential for the depletion of abiotic resources—fossil (ADP f); soil and water acidification potential (AP); eutrophication potential (EP); global warming potential—100 (GWP); stratospheric ozone layer depletion potential (ODP); and photochemical oxidation potential (POCP). The results highlight the impacts related to the maintenance and replacement of materials as the most significant, with walls being the system with the highest concentration of impacts, presenting the highest results among five of the seven categories. In the GWP category, the wall system resulted in 42% of total impacts (initial + recurring impacts). These findings show that the selection and definition of construction materials in the design phase can either mitigate or exacerbate environmental burdens. Therefore, this research contribution lies in pinpointing the environmental impacts of each construction system of low-income housing to support architects and engineers in addressing environmental impacts when making project decisions.
+Keywords: environmental impacts; life cycle assessment; low-income housing; construction materials
+1. Introduction
+The built environment’s contribution to climate change is significant and plays a fundamental role in both greenhouse gas emissions and adaptation to climate change consequences. The built environment encompasses buildings, infrastructure, and urban spaces, and its interactions with the climate are complex and extensive, spanning both the mitigation of greenhouse gas emissions and adaptation to climate change impacts. According to the latest “Global Status Report for Buildings and Construction” [1], the construction and building sector accounts for over 34% of energy demand and approximately 37% of CO2 emissions.
+As identified in the 2022 Global Status Report for Buildings and Construction [1], and based on the Guide for Incorporating Building Actions into NDCs, actions including sustainable material choices and building design, urban planning measures, adaptation and resilience plans, clean energy transitions, and building operations and renovations offer opportunities to achieve the goals of the Paris Agreement, namely, to keep the global temperature increase well below 2 degrees Celsius, and preferably below 1.5 degrees Celsius, by the end of the century.
+According to the UN-Habitat [2] (p. 78) report, “currently about 1.6 billion people or over 20 per cent of the global population live in inadequate, crowded and unsafe housing. Another two billion people are expected to be living in slums in the next 30 years”. In the same report, it is stated that this scenario is worse in developing countries and that affordable housing for low-income households is needed.
+In Brazil, according to a survey carried out in 2019 by the João Pinheiro Foundation in partnership with the Ministry of Regional Development, the Brazilian housing deficit was 5.9 million homes in the country, which represents 8% of all Brazilian households [3]. To solve this problem, it would be necessary to build 1.18 million housing units per year throughout the country to supply the housing deficit in ten years.
+Through the Brazilian national subsidy program for the acquisition of housing by low-income families called the Minha Casa Minha Vida Program (PMCMV—My House My Life Program—our translation), 4 million housing units were built to alleviate housing difficulties in Brazil [4]. In this way, the importance of the civil construction sector becomes evident, significantly impacting people’s lives and the environment [5].
+In this sense, the importance of encouraging buildings with lower environmental impacts is highlighted so that, in addition to minimizing the housing deficit, it is possible to build homes with lower environmental impacts. In this sense, it is possible to measure the environmental impacts of a product or process with the Life Cycle Assessment (LCA). The LCA makes it possible to analyze products and inputs to better understand their cycles and thus contribute to proposing solutions that reduce their impacts on the environment. Silva et al. [6] (p. 11) define the LCA as an “Assessment used to quantify the environmental burden of a product from the removal from nature of the elementary raw materials that enter the production system (cradle) to the disposal of the final product (grave)”.
+Thus, the LCA emerges as an important tool for analyzing environmental impacts in civil construction, a methodology that can guide sustainable practices throughout the entire life cycle of a building. Based on analysis carried out using the LCA methodology, Chamasemani et al. [7] highlight the use of sustainable materials as an essential strategy to reduce the carbon footprint during the construction process. The authors conclude that sustainable materials can significantly reduce the carbon footprint of reinforced concrete buildings, with a 41% decrease. Furthermore, the research reveals substantial reductions in pollution levels in several categories, highlighting the importance of carefully choosing materials in the search for more sustainable construction practices.
+In another study focused on the LCA of reinforced concrete structures, Mostafaei et al. [8] mention cement as the main contributor to the impacts incorporated in the systems analyzed and highlight the influence of design parameters on the carbon footprint of buildings.
+Besides the construction phase, the LCA can also be used to assess environmental impacts in the building’s end-of-life phase, seeking to identify carbon saving strategies and promote sustainable construction. Lei et al. [9,10] explore these strategies, analyzing the benefits of recycling, remanufacturing and reuse in different types of construction.
+A review of the literature on low-income housing LCA studies highlights a predominance in simplified life cycle analysis, with a particular focus on embodied energy consumption and CO2 emissions [11,12,13,14,15,16,17]. Studies such as those of Caldeira [15] and Macias et al. [16] provide valuable insights into the impact of energy consumption in different construction systems, highlighting the importance of a pre-operational phase in determining environmental impacts. However, a significant gap is observed in relation to the scope of analysis throughout the complete life cycle of housing, with little research extending to the maintenance phase of buildings, indicating the need for deeper investigations in this regard.
+Furthermore, the literature reveals a growing concern with expanding analysis beyond energy consumption and CO2 emissions, exploring other impact categories, such as the consumption of non-renewable resources, toxicity, and resource depletion [18,19,20]. Studies such as that of Oyarzo and Peuportier [21] demonstrate an integrated approach, combining the LCA with thermal simulations, aiming to implement strategies to reduce environmental impacts from the design phase. However, gaps persist in relation to the complete approach to the phases of the life cycle of buildings, highlighting the need for additional research for a more comprehensive and holistic understanding of the environmental impacts associated with low-income housing.
+New research on the LCA of low-income housing units can significantly contribute to filling these gaps and providing valuable insights for decision-making in the design and management phases of these housing units. Therefore, it is important to expand the analysis of environmental impacts beyond energy consumption and CO2 emissions, covering other categories of environmental impacts. Furthermore, it is necessary to further investigate the role of maintenance in contributing to the total impacts throughout the life cycle of buildings in order to develop effective strategies to reduce these impacts.
+Another relevant aspect to be taken into consideration is the building envelope elements, such as walls and roofs, and their impact on the LCA results. The analysis of different construction systems and materials can reveal opportunities to improve the environmental efficiency of low-income housing.
+Thus, the objective of this research is to assess the environmental impacts of different construction systems employed in a low-income housing development utilizing the Life Cycle Assessment (LCA). Therefore, this research can contribute to a more comprehensive and accurate understanding of the environmental impacts of low-income housing buildings, bringing new perspectives on environmental impacts, and new analysis on buildings’ envelopes that can support decisions in the design stage.
+2. Methodology
+The LCA of this work was based on a case study of low-income housing located in the city of Passo Fundo (Brazil). The selected project refers to housing units at Residencial Canaã, which benefited two hundred and ten low-income families. The housing units in the allotment were implemented through the Minha Casa Minha Vida Federal Program (PMCMV).
+The development covers 5.8 hectares, where 210 single-story housing units were built that follow the same building pattern. The housing units in the allotment have an area of 45.19 m2, a living room, a kitchen with an integrated service area, two bedrooms, a bathroom, and an open garage. The house floor plan is presented in Figure 1.
+Figure 1. House floor design plan of the residential unit studied. Source: Adapted from Martins et al. [22].
+In the present study, as a form of delimitation, the elements of the envelope and floor of the house were divided into five parts for a better understanding of the elements, namely, the slab, roof, walls, coatings, and floor (Figure 2).
+Figure 2. Elements analyzed in this study. Source: authors (2023).
+The elements and their quantities are described in the inventory survey stage (Table 1). The method for applying the LCA followed the guidelines of ISO 14040 [23] and ISO 14044 [24]. These international standards establish guidelines and principles for the Life Cycle Assessment (LCA). ISO 14040 defines the principles and structure of the LCA, including the objectives, scope, definitions, and requirements for carrying out an LCA. ISO 14044 establishes detailed requirements and guidelines for the implementation of the LCA, including methodological aspects, inventory analysis, impact assessment, and interpretation of results.
+The main objective of the LCA in this study is to evaluate the environmental impacts of construction systems of residential buildings to assist in decision-making in the design stage, aiming at future constructions with less environmental impacts. The product system adopted in the present study is the life cycle of the construction systems of single-family low-income housing with an area of 45.19 m2. The study period adopted for the building was a 50-year life cycle, taking into account the time used found in the literature [20,25]. The functional unit used in this study was the square meters (m2) of floor area.
+Due to the absence of a specific Brazilian standard for the application of the LCA in buildings, the life cycle phases considered follow the guidelines of the European standard EN 15978:2011 [26]. This European standard establishes principles and requirements for the Life Cycle Assessment

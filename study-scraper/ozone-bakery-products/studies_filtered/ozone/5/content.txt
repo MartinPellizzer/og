@@ -1,0 +1,48 @@
+The EGU interactive community platform
+ABSTRACTS & PRESENTATIONS
+PREPRINTS
+ABOUT
+  Preprint  
+Preprints
+Preprint egusphere-2023-2742
+
+https://doi.org/10.5194/egusphere-2023-2742
+© Author(s) 2023. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Abstract
+Discussion
+Metrics
+27 Nov 2023
+A better representation of VOC chemistry in WRF-Chem and its impact on ozone over Los Angeles
+Qindan Zhu, Rebecca H. Schwantes, Matthew Coggon, Colin Harkins, Jordan Schnell, Jian He, Havala O. T. Pye, Meng Li, Barry Baker, Zachary Moon, Ravan Ahmadov, Eva Y. Pfannerstill, Bryan Place, Paul Wooldridge, Benjamin C. Schulze, Caleb Arata, Anthony Bucholtz, John H. Seinfeld, Carsten Warneke, Chelsea E. Stockwell, Lu Xu, Kristen Zuraski, Michael A. Robinson, Andy Neuman, Patrick R. Veres, Jeff Peischl, Steven S. Brown, Allen H. Goldstein, Ronald C. Cohen, and Brian C. McDonald
+Abstract. The declining trend in vehicle emissions has underscored the growing significance of Volatile Organic Compound (VOC) emissions from Volatile Chemical Products (VCP). However, accurately representing VOC chemistry in simplified chemical mechanisms remains challenging due to its chemical complexity including speciation and reactivity. Previous studies have predominantly focused on VOCs from fossil fuel sources, leading to an underrepresentation of VOC chemistry from VCP sources. We developed an integrated chemical mechanism, RACM2B-VCP, that is compatible with WRF-Chem and is aimed to enhance the representation of VOC chemistry, particularly from VCP sources, within the present urban environment. Evaluation against the Air Quality System (AQS) network data demonstrates that our model configured with RACM2B-VCP reproduces both the magnitude and spatial variability of O3 as well as PM2.5 in Los Angeles. Furthermore, evaluation against comprehensive measurements of O3 and PM2.5 precursors from the Reevaluating the Chemistry of Air Pollutants in California (RECAP-CA) airborne campaign and the Southwest Urban NOx and VOC Experiment (SUNVEx) ground site and mobile laboratory campaign, confirm the model's accuracy in representing NOx and many VOCs and highlight remaining biases. Although there exists an underprediction in the total VOC reactivity of observed VOC species, our model with RACM2B-VCP exhibits good agreement for VOC markers emitted from different sectors, including biogenic, fossil fuel, and VCP sources. Through sensitivity analyses, we probe the contributions of VCP and fossil fuel emissions to total VOC reactivity and O3. Our results reveal that 52 % of the VOC reactivity and 35 % of the local enhancement of MDA8 O3 arise from anthropogenic VOC emissions in Los Angeles. Significantly, over 50 % of this anthropogenic fraction of either VOC reactivity or O3 is attributed to VCP emissions. The RACM2B-VCP mechanism created, described, and evaluated in this work is ideally suited for accurately representing ozone for the right reasons in the present urban environment where mobile, biogenic, and VCP VOCs are all important contributors to ozone formation.
+How to cite. Zhu, Q., Schwantes, R. H., Coggon, M., Harkins, C., Schnell, J., He, J., Pye, H. O. T., Li, M., Baker, B., Moon, Z., Ahmadov, R., Pfannerstill, E. Y., Place, B., Wooldridge, P., Schulze, B. C., Arata, C., Bucholtz, A., Seinfeld, J. H., Warneke, C., Stockwell, C. E., Xu, L., Zuraski, K., Robinson, M. A., Neuman, A., Veres, P. R., Peischl, J., Brown, S. S., Goldstein, A. H., Cohen, R. C., and McDonald, B. C.: A better representation of VOC chemistry in WRF-Chem and its impact on ozone over Los Angeles, EGUsphere [preprint], https://doi.org/10.5194/egusphere-2023-2742, 2023.
+Received: 17 Nov 2023 – Discussion started: 27 Nov 2023
+Journal article(s) based on this preprint
+07 May 2024
+A better representation of volatile organic compound chemistry in WRF-Chem and its impact on ozone over Los Angeles
+Qindan Zhu, Rebecca H. Schwantes, Matthew Coggon, Colin Harkins, Jordan Schnell, Jian He, Havala O. T. Pye, Meng Li, Barry Baker, Zachary Moon, Ravan Ahmadov, Eva Y. Pfannerstill, Bryan Place, Paul Wooldridge, Benjamin C. Schulze, Caleb Arata, Anthony Bucholtz, John H. Seinfeld, Carsten Warneke, Chelsea E. Stockwell, Lu Xu, Kristen Zuraski, Michael A. Robinson, J. Andrew Neuman, Patrick R. Veres, Jeff Peischl, Steven S. Brown, Allen H. Goldstein, Ronald C. Cohen, and Brian C. McDonald
+Atmos. Chem. Phys., 24, 5265–5286, https://doi.org/10.5194/acp-24-5265-2024, 2024
+Short summary
+
+
+Download
+The requested preprint has a corresponding peer-reviewed final revised paper. You are encouraged to refer to the final revised version.
+Preprint (6383 KB)
+Metadata XML
+Supplement (4066 KB)
+BibTeX
+EndNote
+Final revised paper
+Short summary
+Volatile organic compounds (VOCs) fuel the production of air pollutants like ozone and...
+Read more
+Share
+The EGU interactive community platform
+The preprint repository of the EGU
+All site content, except where otherwise noted, is licensed under the Creative Commons Attribution 4.0 License.
+Contact
+|
+Imprint
+|
+Data protection

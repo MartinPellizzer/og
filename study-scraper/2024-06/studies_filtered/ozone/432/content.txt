@@ -1,0 +1,70 @@
+Advertisement
+plos.org
+create account
+sign in
+PUBLISH
+ABOUT
+BROWSE
+advanced search
+0
+Save
+0
+Citation
+211
+View
+0
+Share
+OPEN ACCESS PEER-REVIEWED
+RESEARCH ARTICLE
+Spatialtemporal evolution characteristics of ozone in China and its response to urbanization
+Li-Min Wang,
+Zi-Yi Ran,
+Xiang-Li Wu ,
+Heng-Yu Wang,
+Li-Bin Zhao
+Published: May 31, 2024
+https://doi.org/10.1371/journal.pone.0300185
+Article
+Authors
+Metrics
+Comments
+Media Coverage
+Peer Review
+Abstract
+Introduction
+Materials and method
+Results
+Discussion
+Conclusion
+Supporting information
+References
+Reader Comments
+Figures
+Abstract
+Based on the background of urbanization in China, we used the dynamic spatial panel Durbin model to study the driving mechanism of ozone pollution empirically. We also analyzed the spatial distribution of ozone driving factors using the GTWR. The results show that: i) The average annual increase of ozone concentration in ambient air in China from 2015 to 2019 was 1.68μg/m3, and 8.39μg/m3 elevated the year 2019 compared with 2015. ii) The Moran’s I value of ozone in ambient air was 0.027 in 2015 and 0.209 in 2019, showing the spatial distribution characteristics of "east heavy and west light" and "south low and north high". iii) Per capita GDP industrial structure, population density, land expansion, and urbanization rate have significant spillover effects on ozone concentration, and the regional spillover effect is greater than the local effect. R&D intensity and education level have a significant negative impact on ozone concentration. iv) There is a decreasing trend in the inhibitory effect of educational attainment and R&D intensity on ozone concentration, and an increasing trend in the promotional effect of population urbanization rate, land expansion, and economic development on ozone concentration. Empirical results suggest a twofold policy meaning: i) to explore the causes behind the distribution of ozone from the new perspective of urbanization, and to further the atmospheric environmental protection system and ii) to eliminate the adverse impacts of ozone pollution on nature and harmonious social development.
+Figures
+    Citation: Wang L-M, Ran Z-Y, Wu X-L, Wang H-Y, Zhao L-B (2024) Spatialtemporal evolution characteristics of ozone in China and its response to urbanization. PLoS ONE 19(5): e0300185. https://doi.org/10.1371/journal.pone.0300185
+Editor: Shazia Rehman, Second Xiangya Hospital, Central South University, CHINA
+Received: November 1, 2023; Accepted: February 22, 2024; Published: May 31, 2024
+Copyright: © 2024 Wang et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Data Availability: All relevant data are within the manuscript and its Supporting Information files.
+Funding: This work was supported by the National Social Science Foundation of China (grant numbers: 16BJY039), Harbin Normal University Graduate Student Innovation Project (grant numbers: HSDBSCX2023-12).
+Competing interests: NO authors have competing interests.
+Introduction
+In the early days, China’s economic development was driven at the expense of serious environmental pollution. With the intensification of atmospheric environmental pollution, strengthening environmental governance has become a rigid demand for China’s economic development. In 2013, the Chinese government launched the "Air Pollution Prevention and Control Action Plan" with PM2.5 as the main control index, among which PM10, SO2, NO2, PM2.5, and CO pollutant emissions have been effectively improved. The increase in ozone concentration in ambient air has become more and more serious in recent years [1–3]. Ozone plays a decisive role in the atmospheric environment, and high-altitude ozone is the Earth’s protective film against ultraviolet burns on human skin. The environmental effects of surface ozone on humans are mainly due to the fact that ozone is very harmful to biological life and health [4], and high ozone concentrations lead to increased mortality from cardiovascular and respiratory diseases in the population [5, 6]. From the perspective of changes in urban ozone concentrations, the formation of ozone in the urban environment is complex. Ozone pollution caused by human activities is mainly caused by photochemical reactions of pollutants such as nitrogen oxides produced by production, construction, transportation, and fuel combustion [7]. At this stage, ozone pollution control is facing severe challenges. Since the "Twelfth Five-Year Plan" period, China has given great importance to the prevention and control of air pollution and has considered improving air quality as a major livelihood project. The concentration of a number of air pollutants focusing on PM2.5 has dropped significantly, and the number of days of heavy air pollution has also decreased significantly [8]. However, near-surface Ozone pollution has become increasingly prominent [9], especially in summer has become the primary factor leading to excessive air quality in some cities [10]. Therefore, how to control the concentration of PM2.5 and at the same time curb the increase of Ozone is the current air pollution prevention, and control of the urgent need to solve the problem, should attract the attention of the government and the public.
+Urbanization is the process of economic, social, land, and population transformation from countryside to towns in the course of a country’s development. Among them, the core of urbanization is population urbanization, and the carrier of urbanization is land urbanization [11]. With the intensification of atmospheric environmental pollution, scholars from all walks of life have studied the effect of pollution reduction and carbon reduction from multiple perspectives and found that urbanization is an important factor affecting the atmospheric environment [12]. "China’s New Urbanization Report 2012" points out that the non-intensive and crude production of China’s urbanization focuses on the quantity and scale of urban development, which ignores the value of environmental resources and is an important cause of the decline in the quality of the atmospheric environment. The problem of air pollution in China has changed from single pollutant pollution to compound pollution, which is increasing with the rapid development of urbanization in China [13, 14]. Civerolo et al. [15] used the SLEUTH model to extrapolate New York City’s land cover data from 1990 to the next 2050 and predicted that future urbanization in New York will lead to elevated ozone concentrations. Scholars agree with the conclusion that urbanization has an impact on air pollution. Carbon emissions and haze are the main control gases. Scholars from all walks of life have done a lot of research on them, and the methods are diverse. From the existing literature, the STIRPAT model [16], Dubin model [17], DPSIR model [18], the geographically weighted regression model (GWR) [19], geographical detector [20], and so on are mainly used to study the development law of air pollution. The Theil coefficient, Theil coefficient, coefficient of variation, and spatial autocorrelation (global Moran’s I index and local G coefficient) are often used to reveal the regional differences and spatial correlation of air pollution intensity. For example, Sun Yaohua et al. [21] explored the differences in carbon emission intensity between provinces and regions in China-based on the Theil index and found that there were differences in carbon emission intensity between provinces in China and accumulated. Zhao Yuntai et al. [22] divided the entire country into eight economic regions and used the Theil index, global autocorrelation Moran’s I, and cold and hot spot analysis methods to explore the spatial evolution characteristics of regional carbon emission intensity. It was found that the widening difference between regions caused the widening difference of regional carbon emission intensity in the entire country, while the difference within the region was small. The research on the relationship between urbanization and air pollution mainly forms three conclusions: the positive linear relationship between urbanization and air pollution [23, 24], the negative linear relationship between urbanization and air pollution [25], and the nonlinear curve relationship between urbanization and air pollution [26]. Among them, scholars have conducted empirical investigations on the different influencing factors of ozone on air pollution, but there are few studies on the impact of ozone distribution in air pollution from the perspective of urbanization. Chameides [27] believed that the urban heat island effect caused by urbanization is the main reason for the increase in urban ozone concentration. Many scholars use the WRF Chem model to check ozone pollution, and it shows that urbanization increases ozone concentration [28, 29]. Overall, the existing research results are relatively rich and provide an empirical basis for exploring the relationship between urbanization and air pollution. However, the exploration of urbanization on ozone pollution is still relatively small. In recent years, the causes of atmospheric pollution have strengthened from a purely environmental problem to a complex ecosystem problem of population, land, economy, and society. Current urbanization studies mostly use land cover data to select indicators and fail to consider other factors that influence ozone concentration. There is also limited research on the atmospheric environment effect from the perspective of urbanization. Therefore, understanding the characteristics of spatial and temporal changes in ozone and the driving mechanisms from the perspective of urbanization is essential to further promote the harmonious development of nature and society.
+Considering all the above explanations, the present study proposes to address the following questions: i) The distribution characteristics of ozone in time and space. ii) Under the background of urbanization development, the driving mechanism of ozone pollution is analyzed (from the four urbanization development directions of economy, population, land, and society). iii) To unify the distribution of factors affecting ozone concentration by urbanization development in all provinces of the country. In addition, the distribution and driving mechanisms of ozone pollution from the perspective of China’s urbanization are less frequently studied. To answer these questions above, we attempt to use ozone concentration data and statistical yearbook data of 31 provinces in China to study the driving mechanism of ozone pollution under the context of urbanization. We intensify on the impact of urbanization indicators on ozone and analyze the geographical spatial distribution of urbanization impact factors on the ozone impact index. By citing urbanization, hope to be more comprehensive on the causes of China’s distribution characteristics of ozone pollution and how to solve this problem are discussed, and thus draw more accurate results and set forward more constructive suggestions. The intensification of atmospheric environmental pollution in China has attracted extensive attention from the government and academia, but the domestic existing literature, focuses on exploring the micro-channels of urbanization on ozone pollution, and the index selection is based on urban land cover data. The research on the impact of other influencing factors of urbanization on ozone concentration is indeed more insufficient. Therefore, this study aims to empirically analyze the impact mechanism and driving factors of ozone pollution in the context of urbanization in China using the dynamic spatial Durbin model and the spatio-temporal geographically weighted regression model. Producing a new explanation for the causes of the spatial and temporal distribution characteristics of ozone pollution, producing a basis for regional ozone and pollution prevention and control measures, has important theoretical and practical relevance for the government to formulate and improve atmospheric environmental protection policies, and how the government will carry out macro in the future.
+Materials and method
+Scholars from all walks of life have conducted extensive research on the impact of urbanization on the atmospheric environment. Some scholars analyzed the influencing factors of environmental pollutant emissions based on the STIRPAT model [30, 31]. Some scholars used the WRF Chem model to analyze ozone pollution by using the urban land cover rate as the research index in the process of urbanization [28, 29]. Some scholars have also analyzed the mechanism of urbanization on air pollution by dividing the urbanization process into economic, demographic, social, and land based on the OLS model [17]. Due to the complexity of today’s air pollution, it is not sufficiently detailed to study the driving mechanisms of ozone pollution in terms of urban land cover or a single demo-graphically calculated urbanization rate the context of urbanization development in China. Based on the above method of dividing the urbanization process, combined with the actual situation in China, this paper breaks down the urbanization process into four parts, as shown in Fig 1, and analyzes the correlation mechanism between the two from the perspective of urbanization development in different situations.
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 1. Flow chart of urbanization ozone pollution.
+https://doi.org/10.1371/journal.pone.0300185.g001
+Methods
+Spatial correlation analysis.
+This paper analyzes the spatial agglomeration effect of ozone based on global spatial autocorrelation. When I < 0, it indicates that ozone has a significant spatial negative correlation. When I > 0, it indicates that ozone has a significant spatial positive correlation, and the larger the value, the stronger the agglomeration effect of ozone. The basic formula is

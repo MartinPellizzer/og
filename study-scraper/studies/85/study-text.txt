@@ -1,0 +1,801 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Abstract
+Keywords
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Uncited References
+Conflict of Interest
+Acknowledgements
+References
+Show full outline
+Tables (8)
+Table 1
+Table 2
+Table 3
+Table 4
+Table 5
+Table 6
+Show all tables
+Poultry Science
+Available online 10 July 2024, 104085
+In Press, Journal Pre-proof
+What’s this?
+Effects of in-package cold plasma treatment on poultry breast meat packaged in high CO2 atmosphere
+1
+Author links open overlay panel
+H. Zhuang
+,
+M.J. Rothrock Jr.
+,
+K.C. Lawrence
+,
+G.R. Gamble
+,
+B.C. Bowker
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.psj.2024.104085
+Get rights and content
+Under a Creative Commons
+license
+open access
+Abstract
+High CO2 in packages significantly extends microbiological shelf life of poultry meat. Cold plasma is an emerging antimicrobial treatment, which generates various reactive gas species and inactivates microbials effectively. The objective of this study was to explore the potential effects of combining high CO2 package and in-package cold plasma (IPCP) treatments on the quality and safety of raw chicken breast meat. Non-inoculated samples and samples inoculated with Campylobacter jejuni and Salmonella Typhimurium were packaged in 0, 30, 70, or 100% CO2 (with make-up gas N2) and treated with IPCP at 70 kV for 3 min. Ozone formation, microbial counts, drip loss, pH, and color were measured. There was no interaction effect between high CO2 package and IPCP on microbial counts, drip loss, and color measurements. IPCP reduced spoilage microbial growth by 0.43 log (from 7.00 log to 6.57 log, P = 0.033) and C. jejuni populations by 0.67 log (from 4.82 log to 4.15 log, P < 0.001) on meat surface but did not affect S. Typhimurium (P = 0.206). Increased CO2 in packages had more effect on spoilage microbial growth (more than 1.5 log from 8.08 log to 6.35 log, P < 0.001) and S. Typhimurium populations (more than 0.5 log from 4.94 log to 4.39 log, P = 0.004) than IPCP but did not affect C. jejuni (P = 0.163). IPCP resulted in increases in changes in L* by 1.67 units (0.70 versus 2.37, P = 0.016) and a* values by 0.56 units (0.73 versus 1.29, P < 0.001) and decreases in b* values by 0.91 units (0.46 versus -0.45, P = 0.015). High CO2 levels caused increases in changes in L* values by 4.35 units (-0.82 versus 3.53, P < 0.001) with no effects on a* and b* values (P > 0.05). Data demonstrate that there are no combined effects by high CO2 package and IPCP on meat quality and safety of raw chicken breast meat under our experimental conditions. Either high CO2 package or IPCP can retain microbial quality and safety, even though they may cause changes in appearance of stored chicken breast meat.
+Keywords
+dielectric barrier dischargeCampylobacter jejuniSalmonella Typhimuriummeat qualitynon-thermal plasma
+Introduction
+Modified atmosphere packaging (MAP) can be used for preservation of fresh meat quality. In MAP, O2, N2, and CO2 are the most used components, but CO2 is the only one with a direct antimicrobial effect (
+Arvanitoyannis and Stratakos, 2012
+). It has been well documented that high CO2 in packages can significantly extend microbiological shelf life of poultry meat. However, the achievable shelf-life of modified atmosphere packed raw poultry products depend on the species, fat content, initial microbial load, packaging type, gas mixture, and temperature of storage (
+Stiles, 1991
+).
+Holck et al. (2014)
+stored chicken fillets in 0, 30, 60, or 100% CO2 with N2 makeup gas and reported that the inhibition of microbial growth on raw chicken fillets was proportional to the CO2 concentration in package headspace.
+Sante et al. (1994)
+reported that poultry packed in a 100% CO2 atmosphere showed the lowest microbial counts in comparison to 100% O2, 100% N2, or a mixture of 25% CO2, 66% O2, and 9% N2. High CO2 packages also inhibit Salmonella effectively.
+Sukumaran et al. (2015)
+found that storage of untreated chicken breast fillets under MAP condition (95% CO2 and 5% O2) reduced Salmonella counts by 0.4 to 0.6 log10 CFU/g. Inhibition of Salmonella was noted for chicken legs stored in high barrier bags at 10°C under 100% CO2 but not for those in vacuum packages (
+Gray et al., 1984
+). In Europe, the typical MAP used by manufacturers for broiler meat contains 80% CO2 and 20% N2 (
+Susiluoto et al., 2003
+).
+Plasma is a fundamental state of matter consisting of a gas of ions. Cold plasma (CP) is a plasma that is not in thermodynamic equilibrium and stays at temperatures well below those used for pasteurization or sterilization. Therefore, it is also called nonthermal plasma. During CP generation, gas molecules are broken down and form various reactive species (RGS), such as photos (UV), free radicals, energetic ions, and high oxidative atoms/molecules, which inactivate contaminating microbes on foods (
+Gaunt, 2006
+; Niemera, 2012). It has been well documented that the type of working gas employed principally determines the nature and quantities of RGS produced in the discharge as well as the efficacy of the treatment against microbes (
+Liao et al., 2019
+; Lopez et al., 2019).
+Rowan et al. (2007)
+investigated the effects of four working gases N2, CO2, O2, and air on the effectiveness of a CP (high-voltage pulsed-plasma gas-discharge) system to decontaminate poultry wash water. They found that the use of O2 alone produced the greatest reduction of Bacillus cereus endospores, followed by CO2, air, and N2. With a diffuse coplanar surface barrier discharge system,
+Hertwig et al. (2017)
+also evaluated N2, CO2, O2, and air for the efficacy of CP inactivation. They found that similar to O2 working gas, CO2 resulted in significant ozone formation (2150 ppm) during discharge and inactivated B. subtilis wildtype spores. The D-value was 1.21 for air-plasma, 1.52 min for O2-plasma; however, it was 1.10 min for CO2.
+Takamatsu et al. (2015)
+used a multi-gas plasma jet to generate atmospheric non-thermal plasmas with various gases to treat microbial suspensions. Results showed that either CO2 or N2 plasma resulted in >6 log kill of S. aureus bacteria within 60 s, while O2 plasma produced a 3-log kill and air and Ar plasmas <1-log kill at 120 s. These results demonstrated that the utilization of CO2 as a working gas can effectively generate RGS in plasma and may enhance microbial inactivation by CP treatment.
+In-package cold plasma (IPCP) is a type of non-thermal plasma system (
+Misra et al., 2019
+). In the IPCP system, plasma is generated with dielectric barrier discharge (DBD) and localized inside a sealed package to disinfect packed food materials. Compared with the other CP systems, the advantages of IPCP include reducing the risk of microbial contamination on packaging materials and post-processing food and basically having no limits to food package configurations, materials, and atmosphere (
+Misra et al., 2019
+;
+Ziuzina et al., 2016
+). Experiments showed that effectiveness of the inactivation by the IPCP is also significantly influenced by working gases within packages or modified atmosphere. The modified atmosphere consisting of 30% CO2/65% O2 /5% N2 resulted in significant increases in the formation of RGS and inactivation of B. spores, spoilage bacteria, and pathogens on fresh poultry meat (
+Keener et al., 2012
+;
+Kronn et al., 2015
+;
+Zhuang et al., 2020
+). Therefore, the objective of the present study was to explore the interaction effects between high CO2 packaging and IPCP treatments on the quality and safety of raw chicken breast meat. The data collected from this study will provide useful information on the application of CP treatments in the retention of meat products.
+Materials and Methods
+Meat samples, packaging, and storage
+Boneless skinless chicken breast fillets (Pectoralis major) were collected from a local commercial processing facility. A total of 100 cutlets and 60 whole fillets were collected for each trial. A total of two trials were conducted on separate dates using raw meat from different flocks. Prior to treatments, meat samples, containing two fillet cutlets (approximately 96.3 g each) and two muscle samples (2.5 cm diameter, 2.5 - 3.0 cm thick, average weight 21 g) cored from the cranial end of a single whole fillet (approximately 180.1 g), were placed in polymeric trays (19.5 cm x 14.5 cm x 4.0 cm, Sealed Air Corp., Duncan, SC, USA). One cutlet was skin/ventral side up and used for microbial analysis (psychrophiles). The other cutlet was bone/dorsal side up and used for surface color (International Commission on Illumination (CIE) L*a*b*) measurements. One of the muscle core samples was inoculated with Campylobacter and the other with Salmonella with the inoculated side up. Individual trays were flushed with CO2 with make-up N2 gas for 0, 30, 70, or 100% of CO2 packages using a gas mixer (Gas Mixer KM-Flow, Witt-Gasetechnik, Deutschland, Germany), and sealed with a polypropylene-based barrier film (Toplex HB60, Plastopil Europe, Netherlands) using a tray sealer (Koch Kats 100 Single Head Tray Sealer, Ultra Source LLC, Kansas City, Missouri, USA). Immediately after sealing, headspace compositions in packages were verified with a headspace gas analyzer (CheckPoint-Handheld Gas Analyzer, Dansensor, DK-4100 Ringsted, Denmark). The packaged samples were then set at ambient temperature for at least 45 min so that the relative humidity in the packages reached > 80% (based on a preliminary test result with a gas/humidity logger) before IPCP treatments. Packaged samples were then stored in a 4°C cold room for 5 days after IPCP treatments.
+Inoculation with foodborne pathogens Salmonella and Campylobacter
+The microbiological protocols (including both inoculation and microbial analysis) used in this study were previously described in Rothrock et al. (2017) and
+Zhuang et al. (2019a)
+. In short, Campylobacter jejuni isolate and Salmonella Typhimurium isolate (both originally recovered from poultry carcasses rinses from a commercial poultry processing facility) were used during this study. The C. jejuni isolate was grown in Tryptic Soy Broth/Agar biphasic cultures, which were sealed in 2 gal Ziploc bags under under a hydrogen-enriched micro-aerobic atmosphere (7.5% H2, 2.5% O2, 10% CO2, and 80% N2) and incubated at 42°C, for 24 h (
+Lynch, Cagney, McDowell, & Duffy, 2010
+;
+Stintzi, 2003
+). The S. Typhimurium isolate was grown in Tryptic Soy Broth (TSB) at 37°C for 24 h at 200 rpm (
+Garrity, Bell, & Lilburn, 2005
+). After incubation, 5 mL of the C. jejuni or S. Typhimurium growth was added to 495 mL of 1 X phosphate buffered saline (PBS) to create the 106 cfu/mL inoculum, which was verified spectrophotometrically (OD600) based on a standard curve (we were targeting a specific OD600 range, which This allow us to perform the inoculation with the isolates, but was also then quantified the isolates using serial dilution plating to have a specific starting concentration from which to determine the log reduction of the treatments). The actual concentrations of inocula were 6.6 ± 0.3 log10 for Campylobacter and 6.9 ± 0.4 log10 for Salmonella. The inoculation process began by pipetting 75 mL of inoculum into a plastic food tray (CS979, Cryovac, Duncan, SC). Fillet core samples were placed skin side down in each tray so that only the surface sat in the liquid. The core samples soaked for 30 min to allow the microorganisms to attach to the surface. After soaking, the core samples were removed and allowed to drip for 5 min before they were placed in the tray package (
+Kronn et al., 2015
+).
+In-package DBD-IPCP treatment
+The same IPCP device as described by
+Kronn et al. (2015)
+was used in this study. The treatments were performed with a BK-130 AC dielectric test set consisting of a high voltage transformer, power supply, and control system (Phenix Technologies, Accident, Md.). Two 15.24 cm diameter spun-aluminum electrodes were connected to the high-voltage transformer. The two electrodes were arranged parallel to one another on the top and bottom of the sample. The electrodes were separated from the sample package by dielectric barriers and insulated from the bench with a yellow low-voltage electrical blanket (Velcro, 36 × 36 in, Class 0 Type 1, Salisbury standard rubber insulating blanket, Lab Safety Supply, Chicago, Ill.). The top electrode was connected to the 130 kV tap of the high-voltage transformer with a 1.09 m high-voltage spark plug wire (8.5 mm super conductor spark plug wire, MSD, El Paso, Tex.). For additional insulation, the high-voltage wire was fed through a 1.09 m length of Tygon tubing of 1.27 cm diameter. The bottom electrode was connected to the return terminal of the transformer with the supplied ground wire, and a jumper connected the ground and guard terminals. Before treatments, the system was warmed up with a sealed empty tray at 80 kV for at least 5 min. Sample packages were treated at 70 kV for 3 min. To ensure treatment consistency, meat package temperature was checked before and after treatment and treatment voltage and current were monitored during IPCP treatments. The plasma power or total energy was 55.7 ± 7.3 Watts. The average temperature of meat packages prior to treatments was 23.0 ± 0.7°C and the average temperature of meat packages immediately after treatments was 32.5 ± 2.2°C.
+Ozone gas measurement
+Ozone gas was used as a reference for system performance, as it served as an indicator for cold plasma generation and antimicrobial activity within the package (
+Klockow and Keener, 2009
+;
+Kronn et al., 2015
+;
+Wang et al., 2016
+,
+2017
+;
+Ziuzina et al., 2013
+,
+2014
+). Immediately following IPCP treatments, headspace gas was taken from the sample tray and ozone content in the package was measured using a spectral method. A gas-tight syringe (25 mL Gastight #1025, Hemilton Co., Reno, Nevada) was used to collect gas samples (10 mL) from the package headspace. The syringe volume (with the needle on) was expelled into a 0.2 cm UV cell, which was inserted in a Jenway 7305 Spectrophotometer (Bibby Scientific, Ltd, Stone, Staffs, UK), through tubing that was connected to cell inlet. Absorbance values were recorded. Ozone concentration was calculated using the following formula based on the Beer-Lambert law: A = Ɛ x l x c, where Ɛ is the extinction coefficient of ozone gas at 254 nm, l is the cell path length, and c is the ozone concentration in mol L−1 (M). An Ɛ value of 3000 M−1cm−1 was used (
+Rakness, et al., 1996
+). Resultant concentration values were converted to parts per million by volume (PPMV) using the ideal gas equation. The UV cell was flushed with air (at least 10 mL) between ozone measurements.
+Microbial analysis
+For microbiological recovery, the fillet cutlets or cores (including 3 extra cutlets and 3 meat cores inoculated with C. Jejuni and 3 meat cores inoculated with S. Typhimurium for initial microbial load and the samples treated with IPCP and stored for 5 days) were rinsed with phosphate buffered saline (PBS, Gibco by Life Technologies, Grand Island, N.Y.), about 22.5 mL for a cutlet and 5.25 mL for a cylinder. The PBS diluents were then serially diluted 4 times (∼107 to 103 CFU/mL). C. jejuni rinse dilutions were plated onto Campy-Cefex agar. The Salmonella was initially recovered using TSB from frozen stocks. This Salmonella isolate possessed resistance to nalidixic acid (NAL), so in order to recover only the Salmonella isolate we inoculated the filet with (and not any potential naturally occurring already on the filet), the Brilliant Green Sulfa agar (BGS) + 100 ppm NAL was used. This was the same method used in the previously published paper (
+Zhuang et al., 2019a
+,
+b
+, 2020) to evaluate log reductions based on these types of treatments. Both Campylobacter and Salmonella were incubated at the same temperature and atmosphere conditions as described in section 2.2. To assess the effect of the treatment on naturally occurring psychrophiles populations (representative of spoilage organisms), rinse dilutions were plated onto TSA agar and incubated at 4°C for 10 days. Plates containing between 30 and 300 colonies were used for enumeration of Salmonella, Campylobacter, and psychrophile. Since selective and differential plates were used for both Salmonella and Campylobacter, only the colonies that displayed the appropriate colony characteristics were counted.
+Drip loss, pH, and surface color measurements
+For drip loss, chicken cutlets were weighed before they were packed in the trays and after removal from storage. Drip loss was calculated by the formula below:
+Drip loss (%) = 100 × [(Winitial − Wpost−storage)/Winitial] where Winitial was cutlet weight measured pre-packaging; Wpost-storage was cutlet weight measured after the samples were stored at 4°C for 5 day.
+Surface pH of chicken fillets was measured using a pH meter (Extech pH100, LIR Systems, Inc., Nahua, NH, USA) with a flat top probe placed perpendicular to the surface of the meat. Measurements were carried out before samples were sealed in the package and after storage. pH changes were expressed as pHpost-storage – pHinitial; where pHinitial was measured pre-packaging; pHpost-storage was measured after the samples were stored at 4°C for 5 days.
+The surface color (CIE L*a*b*) on the bone-side surface of the chicken cutlets was measured using a spectrophotometer (CM-2600d, Konica Minolta, Inc., Tokyo, Japan) with settings of illuminant C, 10° observer, specular component excluded, and an 8-mm aperture. Color was measured before fillets were packed and after the samples were treated and stored at 4°C for 5 days. Surface areas free from obvious defects (bruises, discolorations, hemorrhages, or any other conditions that might have prevented uniform color readings) were selected for measurements. Two measurements were taken for each fillet cutlet. Results were expressed as differences in L*a*b* values between initial measurements before fillets were packed and final measurements after 5 days of storage.
+Statistical analysis
+A factorial design was used for the experiments. The entire experiment was independently replicated two times. Microbial and quality measurements in each experiment were performed in triplicate (6 pieces of cutlets per treatment). Data analyses were performed using two-way ANOVA via the Proc GLMMIX of SAS. Cold plasma treatment and CO2 levels were the main effects and replication was a random effect. Means were separated using Tukey's range test (P < 0.05). For pH and color, the differences in parameters between post-storage and pre-treatment (fresh meat) were calculated first and then used for the ANOVA analysis.
+Results and Discussion
+Ozone formation in package
+Table 1
+shows the effect of IPCP treatments on ozone formation in packages with elevated CO2 content. Virtually no ozone formation was detected in 0, 30, and 70% CO2 packages after packages were treated at 70 kV for 3 min (P > 0.05); however, significant ozone formation (21.9 ppm) was observed in 100% CO2 packages after CP treatments (P < 0.05). With CO2 as the sole working gas,
+Hertwig et al. (2017)
+measured ozone formation during a diffuse coplanar surface barrier discharge. The ozone formation in 100% CO2 packages could be due to CO2 decomposition during DBD. Recently, several published reports have shown that non-thermal DBD-based plasma treatments can decompose CO2 (
+Mei et al., 2016a
+,
+b
+;
+Zeng and Tu, 2017
+;
+Ramakers et al., 2015
+;
+Wang et al., 2017
+;
+Mei and Tu, 2017
+).
+Ray and Subrahmanyam (2016)
+and
+Wang et al. (2017)
+demonstrated the formation of O2 and single O when 100% CO2 gas passed a DBD plasma reactor. Horvath et al. (2008) found CO and ozone were the main products in plasma-induced CO2 decomposition. In addition,
+Ray and Subrahmanyam (2016)
+also showed that dielectric materials in the DBD plasma reactor could affect CO2 decomposition. Our present study indicates that CO2 decomposition may also occur in raw meat packages during DBD-based CP treatments.
+Table 1. Effects of dielectric barrier discharge on ozone formation in high CO2 chicken meat packages
+CO2 Content (%)* Ozone formation (ppm)
+0 0 ± 0b
+30 0.5 ± 0.5b
+70 0.0 ± 0.0b
+100 21.9 ± 7.5a
+Notes: a-b Means with no common letter differ significantly (P < 0.05). * Make-up gas in packages was N2.
+CO2 contents in packages
+Table 2
+shows the effects of the IPCP treatment on headspace gas CO2 content in raw chicken breast meat packages flushed with different levels of CO2 immediately after the backflushing (initial CO2) and after 5-d storage. The initial CO2 content in packages were consistent with the targeted concentrations for CO2 treatments (0.3% for 0%; 30.6% for 30%; 71.1% for 70%; and 100.0 for 100% targeted concentration) in our experimental design. Storage time and especially IPCP treatments affected CO2 content in packages (P < 0.05). In the elevated CO2 content (≥ 30%) packages, IPCP treatments with refrigerated storage resulted in reduced CO2 (P < 0.05). For example, CO2 content reduced more than 8% in 30% package; it was more than 20% in 70% package; and 13% in 100% CO2 packages (
+Table 2
+). There were also consistent reductions (more than 5%) in CO2 content in the elevated CO2 non-treated packages after storage compared with the initial content, although a statistical difference was only noticed for the 70% CO2 treatment (P < 0.05). A similar relationship was noted between the IPCP-treated and non-treated packages, with treated packages being consistently lower (more than 3%) than non-treated packages. The reduction in CO2 in modified atmosphere food packages has been attributed to high dissolution of CO2 in a food matrix (
+Chaix et al., 2014
+). These results also indicate that CP treatments may significantly impact CO2 content in the package. The reduction in CO2 content in the treated packages may result from decomposition of CO2 by DBD-based CP treatments (
+Zhang et al., 2017
+;
+Ray and Subrahmanyam, 2016
+;
+Ray et al., 2017
+). The reason why CO2 content in 70% treatment reduced much more (more than 10% in non-treated control and more than 20% in IPCP-treated package than the other treatments (less than 9% in 30% treatment and less than 15% in 100% treatment) is unknown. However, the standard error indicated that the results may not be solely due to the experimental variation (
+Table 2
+).
+Table 2. Effects of cold plasma treatment and storage on CO2 content in packages
+CO2 treatment (%)* Initial CO2 (%) CO2 in non-treated package (5 d) CO2 in treated package (70 kV for 3 min + 5 d)
+0 0.3 ± 0.0h 3.4 ± 0.1h 3.3 ± 0.1h
+30 30.6 ± 0.1f 25.1 ± 0.3fg 22.1 ± 0.9g
+70 71.1 ± 0.7c 60.5 ± 0.9d 48.6 ± 2.3e
+100 100.0 ± 0.1a 93.7 ± 2.6ab 87.0 ± 3.5b
+a-h Means with no common letter differ significantly (P < 0.05). * Make-up gas in packages was N2.
+Microbiota populations on raw chicken fillets
+Table 3
+shows the effect of IPCP treatments on psychrophiles on raw chicken breast meat packed in high CO2 atmosphere. Statistical analysis showed that there was no interaction between CO2 content in package and IPCP treatment (P > 0.05). However, both CO2 and IPCP affected psychrophilic populations on raw chicken breast meat (P < 0.05). Cold plasma treatments resulted in more than a 60% (or 0.4 log10 cycles) reduction in overall mean of bacterial populations (from 7.00 to 6.57 log in overall mean of cold plasma treatment row). CO2 of 30% in package resulted in more than a 0.6 log10 cycles reduction (from 8.08 to 7.44 log in CO2 mean column); 70% and 100% CO2 resulted in more than a 1.4 log10 cycle reduction (from 8.08 to 6.63 and 6.35 log, respectively). These results further demonstrated that either IPCP treatments or high CO2 content in packages can effectively reduce spoilage microorganisms on raw poultry meat. High CO2 gas was more effective against psychrophilic growth than IPCP treatments.
+Table 3. Effects of cold plasma treatment and storage on populations (Log 10 CFU/mL) of psychrophiles on raw chicken fillets packed in different CO2 atmospheres
+Empty Cell
+Psychrophiles Factor Significance
+CO2 Content (%)* Control (non-treated) Treatment (70 kV for 3 min) CO2 mean CO2 Cold plasma CO2 x Cold plasma
+— (0 d) 3.85 — 3.85d < 0.001 0.033 0.648
+0 (5 d) 8.09 8.08 8.08a SEM (CO2) = 0.20
+30 (5 d) 7.59 7.30 7.44b SEM (cold plasma) = 0.18
+70 (5 d) 6.84 6.41 6.63c SEM (CO2 x cold plasma) = 0.23
+100 (5 d) 6.49 6.20 6.35c
+Overall Mean of Cold Plasma Treatments 7.00a 6.57b
+Notes: a-d Means with no common letter differ significantly (P < 0.05). SEM = the standard error of the mean. * Make-up gas in packages was N2.
+There was no interaction effect between CO2 content and IPCP treatment or effect of CO2 content by itself (P > 0.05) on Campylobacter jejuni populations on raw chicken breast meat packed in high CO2 atmosphere (
+Table 4
+). However, overall mean of C. Jejuni populations on IPCP-treated raw chicken breast meat (4.15 log) were more than 0.6 log10 cycles lower than overall mean on the non-treated controls (4.82) (P < 0.05). These results further demonstrate that enhanced CO2 content in anaerobic package does not affect Campylobacter populations on raw chicken meat; however, the IPCP treatment significantly reduced Campylobacter populations on raw chicken meat even in anaerobic/high CO2 packages.
+Table 4. Effects of cold plasma treatment and storage on populations (Log 10 CFU/mL) of Campylobacter jejuni on raw chicken fillets packed in different CO2 atmospheres
+CO2 Content (%)* C. jejuni (log10 cfu/mL) Factor Significance
+Control (non-treated) Treatment (70 kV for 3 min) CO2 mean CO2 Cold plasma CO2 x Cold plasma
+— (0 d) 4.98 — 4.98 0.163 < 0.001 0.939
+0 (5 d) 4.73 4.07 4.40 SEM (CO2) = 0.09
+30 (5 d) 4.64 4.03 4.34 SEM (cold plasma) = 0.06
+70 (5 d) 4.77 4.23 4.50 SEM (CO2 x cold plasma) = 0.13
+100 (5 d) 4.97 4.27 4.62
+Overall Mean of Cold Plasma Treatments 4.82a 4.15b
+Note: C. Typhimurium population used for the inoculation was log10 6.61 CFU/mL. a-b Means with no common letter differ significantly (P < 0.05). SEM = the standard error of the mean. * Make-up gas in packages was N2.
+There was no interaction effect between CO2 content and IPCP treatment and no difference between the non-treated and IPCP treated samples (P > 0.05) regarding S. Typhimurium on raw chicken breast meat packed in high CO2 atmosphere (
+Table 5
+). However, 100% CO2 content in packages reduced S. Typhimurium populations (P < 0.05) on raw chicken breast meat (more than 0.5 log10 cycles from 4.94 to 4.39 log in CO2 mean column), although no difference (P > 0.05) was noted between 0% CO2, 30, and 70% CO2. These results demonstrate that IPCP treatment does not influence Salmonella populations on raw chicken meat in anaerobic/high-CO2 packages. Increasing CO2 content in anaerobic packages can reduce S. Typhimurium population on raw chicken meat.
+Table 5. Effects of cold plasma treatment and storage on populations (Log 10 CFU/mL) of Salmonella Typhimurium on raw chicken fillets packed in different CO2 atmospheres
+Empty Cell
+S. Typhimurium (log10 cfu/mL) Factor Significance
+CO2 Content (%)* Control (non-treated) Treatment (70 kV for 3 min) CO2 mean CO2 Cold plasma CO2 x Cold plasma
+— (0 d) 4.85 — 4.85ab 0.004 0.206 0.427
+0 (5 d) 4.73 5.15 4.94a SEM (CO2) = 0.42
+30 (5 d) 4.86 5.07 4.97a SEM (cold plasma) = 0.41
+70 (5 d) 4.66 4.66 4.66ab SEM (CO2 x cold plasma) = 0.43
+100 (5 d) 4.42 4.37 4.39b
+Overall Mean of Cold Plasma Treatments 4.81 4.70
+Note: S. Typhimurium population used for the inoculation was log10 6.43 CFU/mL. a-b Means with no common letter differ significantly (P < 0.05). SEM = the standard error of the mean. * Make-up gas in packages was N2.
+Inactivation of microbes by IPCP treatments in high CO2 experiments agrees with previous reports.
+Kronn et al. (2013
+;
+2015
+) demonstrated that the same DBD-based IPCP treatment resulted in about 2.0 log10 CFU/mL reductions in both spoilage organism and C. jejuni on chicken breast meat packed in a modified atmosphere (65% O2 + 30% CO2) after storage.
+Rothrock et al. (2016)
+evaluated the same IPCP system for inactivating microbial organisms Pseudomonas, Campylobacter, and Salmonella in suspensions and found that Campylobacter bacterium was much more sensitive to IPCP treatments than Salmonella and Pseudomonas.
+It has been well noted that high CO2 in packages can significantly extend microbiological shelf life of poultry meat (
+Stiles, 1991
+).
+Jimenez et al (1997)
+packaged chicken breasts in air, under vacuum, or high CO2 (30% or 70% CO2 with N2 as a make-up gas) modified atmosphere and found that spoilage bacteria pseudomonas grew well in air or under vacuum, but growth was suppressed in the high CO2 modified atmosphere packaging.
+Sante et al. (1994)
+reported that poultry packed in a 100% CO2 atmosphere showed the lowest microbial counts in comparison to 100% O2, 100% N2, or a mixture of 25% CO2, 66% O2, and 9% N2.
+Holck et al. (2014)
+stored chicken fillets in 0, 30, 60, or 100% CO2 with makeup gas N2 and reported that the inhibition of microbial growth on raw chicken fillets was proportional to the CO2 concentration in package headspace. For Salmonella, inhibitory effect by high CO2 in packages has also been observed.
+Sukumaran et al. (2015)
+found that storage of untreated chicken breast fillets under MAP condition (95% CO2 and 5% O2) reduced Salmonella counts by 0.4 to 0.6 log10 CFU/g.
+Baker et al. (1986)
+reported around 0.5 log10 CFU/g reduction of S. Typhimurium in ground chicken when stored under 80% CO2.
+Al-Haddad et al. (2005)
+reported reduction (< one log) in S. Infantis on chicken skin stored under 70% CO2/30% N2 conditions. Inhibition of Salmonella was noted for chicken legs stored in high barrier bags at 10°C under 100% CO2 but not for those in vacuum packages (
+Gray et al 1984
+). On the other hand,
+Wesley et al. (1985)
+studied the behavior of Campylobacter jejuni at 4°C on broilers in oxygen permeable packs and in packs containing 100% CO2 and found that CO2-enriched atmosphere had no detectable effect on the organism. With turkey rolls,
+Phebus et al. (1991)
+reported that increasing concentrations of CO2 inside the packs from 0 to 100% resulted in lower rates of inactivation of Campylobacter regardless of storage temperature.
+Meredith et al. (2014)
+concluded that CO2 in the MAP mixture apparently assisted the survival of Campylobacter and attributed the survival to the CO2 inhibition of other microorganisms that compete with Campylobacter in air.
+Quality indicators of raw chicken fillets
+Tables 6
+,
+7
+, and
+8
+show the changes in pH and color L*a*b* before and after IPCP treatment and storage. The reason for using the changes in these quality measurements for IPCP and CO2 effects is to avoid the effects on measured results due to variation in raw chicken meat. The variation in color and pH of chicken breast meat has been demonstrated in many published reports (
+Fletcher, 1999
+;
+Petracci et al., 2009
+).
+Table 6. Effects of cold plasma treatment on pH changes in raw chicken fillets packed in different high CO2 atmospheres
+CO2 Treatment (%) pH change* in non-treated fillet (5 d) pH change in Treated fillets (70 kV for 3 min + 5 d)
+0 -0.10 ± 0.16a 0.01 ± 0.08ab
+30 -0.19 ± 0.02a 0.18 ± 0.09a
+70 -0.09 ± 0.03a -0.17 ± 0.00ab
+100 -0.28 ± 0.08ab -0.31 ± 0.03b
+Notes: Mean ± stderr; P-value (CO2) = 0.009; P-value (cold plasma) = 0.114; P-value (CO2 x cold plasma) = 0.046. a,b Means with no common letter differ significantly (P < 0.05). * pH changes = pHpost-storage – pHinitial.
+Table 7. Effects of cold plasma treatment on changes in L* values (lightness) of raw chicken fillets packed in different high CO2 atmospheres
+CO2 Content (%) ΔL* (= L*post-storage – L*initial) Factor Significance
+Non-treated Treated (70 kV for 3 min) CO2 mean CO2 Cold plasma CO2 x Cold plasma
+0 -2.41 0.77 -0.82b P < 0.001 P = 0.016 P = 0.125
+30 1.79 0.96 1.37ab SEM (CO2) = 0.84
+70 1.43 2.70 2.07a SEM (cold plasma) = 0.69
+100 2.00 5.05 3.53a SEM (CO2 x cold plasma) = 0.125
+Overall Mean of Cold Plasma Treatments 0.70b 2.37a
+a-b Means with no common letter differ significantly (P < 0.05).
+Table 8. Effects of cold plasma treatment on changes in a* (redness) and b* (yellowness) of raw chicken fillets packed in different high CO2 atmospheres
+CO2 content (%) Δa* (= a*post-storage – a*initial) Δb* (= b*post-storage – b*initial)
+Non-treated Treated + 5d storage Non-treated Treated + 5d storage
+0 0.63 1.47 -0.77 -0.05
+30 0.72 1.50 0.89 -0.51
+70 0.79 1.07 1.00 -0.59
+100 0.80 1.13 0.72 -0.64
+Overall Mean of Cold Plasma Treatments 0.73b 1.29a 0.46a -0.45b
+Significance for a* P (CO2) = 0.675 P (cold plasma) = < 0.001 P (CO2 x cold plasma) = 0.193
+Significance for b* P (CO2) = 0.582 P (cold plasma) = 0.015 P (CO2 x cold plasma) = 0.858
+a-b Means with no common letter within a parameter differ significantly (P < 0.05).
+There was no interaction (P > 0.05) between IPCP treatment and package CO2 content for drip loss. There were no differences (P > 0.05) in drip loss between the treatments regardless of IPCP or CO2 content in packages (data not shown). However, interaction between IPCP treatment and CO2 content existed (P < 0.05) for pH changes in samples (
+Table 6
+). There were no differences in meat pH changes between non-treated and treated samples regardless of CO2 content in packages (P > 0.05). Changes in pH (absolute value) were consistently greater in 100% CO2 packages than in 0% CO2 packages. It was more than 0.15 units in untreated fillets and mor 0.30 units differences in IPCP treated fillets (
+Table 6
+). These data indicate that CO2 content could affect pH of chicken breast meat in packages under our experimental conditions. Negative value of pH changes indicated a decrease in pH on surface of meat samples after storage. Overall, these data are consistent with published reports.
+Zhuang et al. (2020)
+and
+Wang et al. (2017)
+found no difference in meat pH between non-treated and plasma-treated samples after storage. Although CO2 in the packaging atmosphere could theoretically be absorbed in the food, resulting in the formation of H2CO3 and subsequently reduced pH in the food matrix, the effects of high CO2 package on meat pH have not been consistent in published reports. For example,
+Jakobsen and Bertelsen (2002)
+reported that a decrease in pH of 0.05-0.35 units was observed in five out of fifteen studies on red meat packed in elevated CO2 atmosphere. With poultry meat,
+Hotchkiss et al. (1985)
+studied high CO2 (up to 80%) for packaging poultry and found no clear effect on pH of chicken quarters due to elevated CO2.
+Baker et al. (1985)
+stored ground chicken meat under elevated CO2 (up to 100%) and found that the differences in pH was within 0.10 units throughout the test period.
+Chouliara et al. (2007
+,
+2008
+) and
+Patsias et al. (2006)
+did not observe significant effects of high CO2 packaging on pH in chicken breast meat. However,
+Jurdi et al. (1980)
+found that the pH values of mechanically deboned chicken meat treated with elevated CO2 (up to 100%) were consistently lower compared with those samples exposed to 100% N2 or air regardless of fat content. The controversy has been attributed to buffering capacity of the meat stored in high CO2 atmospheres (
+Jakobsen and Bertelsen, 2002
+).
+Table 7
+shows the effect of IPCP treatments on differences in surface color CIE L* values of raw chicken breast meat packed with different CO2 contents. Statistical analysis showed no interaction effect (P > 0.05); however, both CO2 and CP affected L* values (P < 0.05). The change in L* values between CP treated and stored samples and pre-treatment samples was greater (P < 0.05) than for the non-treated samples (more than 1.5 units), indicating that CP treatment resulted in significant increases in lightness of raw chicken breast meat. High CO2 content in packages also resulted in increasing (P < 0.05) changes in L* value (from -0.82 to 3.53) and there were no differences in L* value changes (P > 0.05) in treated meat after storage between the three high CO2 packages. These results indicate that higher CO2 levels may cause increased lightness in raw chicken meat.
+Table 8
+shows the effect of IPCP treatments on differences in surface color CIE a* and b* values of raw chicken breast meat packed with different CO2 contents. Statistical analysis showed no interaction effect (P > 0.05) between CO2 content and CP treatment and CO2 content by itself on changes in a* and b* values. However, CP affected the changes in both a* and b* values (P < 0.05). Cold plasma treatments increased changes in a* by more than 0.5 units and decreased changes in b* by more than 0.9 units. These results indicate that CP treatment could cause increases in redness and decreases in yellowness of raw chicken breast meat after refrigerated storage.
+Similar findings have been reported in published literature. For example, with the same IPCP system,
+Zhuang et al. (2019a
+,
+b
+) showed that IPCP treatments resulted in increased L* values.
+Wang et al. (2017)
+found IPCP treatment could significantly affect a* and b* values of raw chicken breast fillets. Zhuang et al. (2000) reported that IPCP treatment significantly affected a* and b* values of raw chicken breast meat and the effects varied with IPCP treatment conditions, such as voltage, treatment time, and package headspace.
+Baker et al. (1985)
+and Hurdi et al. (1980) reported that high CO2 atmospheres resulted in increased L* value of further processed chicken products.
+Hotchkiss et al. (1985)
+demonstrated that CO2-stored samples had lower scores for color of chicken quarters. In addition,
+Patsias et al. (2006)
+and
+Chouliara et al. (2007
+,
+2008
+) found that elevated CO2 package had no effects on a* and b* values of raw chicken breast meat. Our present study demonstrated that either high CO2 package or cold plasma treatments could result in changes in the appearance of raw chicken breast meat.
+Conclusions
+Our data showed that there were no interaction effects between CO2 and in-package cold plasma treatment for most quality parameters except for changes in meat pH and CO2 content in packages under the conditions evaluated in this study. The cold plasma treatment significantly reduced spoilage microbial growth and Campylobacter populations on the meat surface but did not affect Salmonella populations regardless of CO2 content in packages. Increasing CO2 in packages significantly reduced spoilage microbial growth and Salmonella populations regardless of cold plasma treatment and the effect was greater than that of the cold plasma treatment. However, CO2 did not affect Campylobacter populations. The cold plasma treatment affected different color parameters, causing changes in lightness, yellowness, and redness (increased L* and b* values and reduce a* values, respectively) on the surface of treated raw chicken breast meat, indicating it affects appearance of raw meat. High CO2 in packages (30 to 100%) also caused increases in lightness (L* values) of the raw chicken meat. However, further increases in CO2 above 30% did not significantly increase changes in meat L* values. The recommended treatment conditions for extending microbiological shelf life and reducing foodborne pathogens on fresh chicken breast meat in higher CO2 packages for DBD-based in-package cold plasma treatments is 100% CO2 and 70 kV for 3 min. Further treatment parameter optimization is needed to reduce the adverse effects of high CO2 package and cold plasma treatment on appearance of treated poultry breast meat as well as further enhance the antimicrobial effectiveness against foodborne pathogens.
+Uncited References
+Horváth et al., 2008
+,
+López et al., 2019
+,
+Niemira, 2012
+Conflict of Interest
+The authors have no conflicts of interest to declare.
+Acknowledgements
+This research was supported by the U.S. Poultry & Egg Foundation, project no.
+F066
+. The authors would like to thank Kelli L. Hiett and Latoya Wiggins (USDA-ARS) for their technical assistance in completing this research.
+References
+Al-Haddad et al., 2005
+K.S.H. Al-Haddad, R.A.S. Al-Qassemi, R.K. Robinson
+The use of gaseous ozone and gas packaging to control populations of Salmonella infantis and Pseudomonas aeruginosa on the skin of chicken portions
+Food Control, 16 (2005), pp. 405-410
+View PDF
+View article
+View in Scopus
+Google Scholar
+Arvanitoyannis and Ch. Stratakos, 2012
+I.S. Arvanitoyannis, A. Ch. Stratakos
+Application of modified atmosphere packaging and active/smart technologies to red meat and poultry: A review
+Food Bioprocess. Tech., 5 (2012), pp. 1423-1446
+Crossref
+View in Scopus
+Google Scholar
+Baker et al., 1985
+R.C Baker, J.H. Hotchkiss, R.A. Qureshi
+Elevated carbon dioxide atmospheres for packaging poultry. I. Effects on ground chicken
+Poult. Sci., 64 (1985), pp. 328-332
+View PDF
+View article
+Crossref
+Google Scholar
+Baker et al., 1986
+R.C. Baker, R.A. Qureshi, J.H. Hotchkiss
+Effect of an elevated level of carbon dioxide containing atmosphere on the growth of spoilage and pathogenic bacteria at 2, 7, and 13°C
+Poult. Sci., 65 (1986), pp. 729-737
+View PDF
+View article
+Crossref
+View in Scopus
+Google Scholar
+Chaix et al., 2014
+E. Chaix, C. Guillaume, V. Guillard
+Oxygen and carbon dioxide solubility and diffusivity in solid food matrices: A review of past and current knowledge
+Compr. Rev. Food Sci. F., 13 (2014), pp. 261-286
+Crossref
+View in Scopus
+Google Scholar
+Chouliara et al., 2007
+E. Chouliara, A. Karatapanis, I.N. Savvaidis, M.G. Kontominas
+Combined effect of oregano essential oil and modified atmosphere packaging on shelf life extension of fresh chicken breast meat stored at 4°C
+Food Microbiol, 24 (2007), pp. 607-617
+View PDF
+View article
+View in Scopus
+Google Scholar
+Chouliara et al., 2008
+E. Chouliara, A. Badeka, I. Savvaidis, M.G. Kontominas
+Combined effect of irradiation and modified atmosphere packaging on shelf life extension of chicken breast meat: microbiological, chemical and sensory changes
+Eur. Food Res. Technol., 226 (2008), pp. 877-888
+Crossref
+View in Scopus
+Google Scholar
+Fletcher, 1999
+D.L. Fletcher
+Broiler breast meat color variation, pH, and texture
+Poult. Sci., 78 (1999), pp. 1323-1327,
+10.1093/ps/78.9.1323
+View PDF
+View article
+View in Scopus
+Google Scholar
+Garrity et al., 2005
+Garrity, G., J. Bell, and T. Lilburn. 2005. Pseudomonadales Orla-Jensen 1921, 270AL. Pages 323- 442 in Bergey's Manual® of Systematic Bacteriology. Brenner, J. D., et al., Springer, Boston, MA.
+10.1007/0-387-28022-7_9
+Google Scholar
+Gray et al., 1984
+R.J.H. Gray, P.H. Elliot, R.J. Tomkins
+Control of two major pathogens on fresh poultry using a combination potassum sorbate/karbon dioxide packaging treatment
+J. Food Sci., 49 (1984), pp. 142-145
+Crossref
+View in Scopus
+Google Scholar
+Gaunt et al., 2006
+L.F. Gaunt, C.B. Beggs, G.E. Georghiou
+Bactericidal action of the reactive species produced by gas-discharge nonthermal plasma at atmospheric pressure: A review
+IEEE Trans. Plasma Sci., 34 (2006), pp. 1257-1269
+View in Scopus
+Google Scholar
+Hertwig et al., 2017
+C. Hertwig, K. Reineke, C. Rauh, O. Schlüter
+Factors involved in Bacillus spore's resistance to cold atmospheric pressure plasma
+Innov. Food Sci. Emerg. Technol., 43 (2017), pp. 173-181
+View PDF
+View article
+View in Scopus
+Google Scholar
+Holck et al., 2014
+A.L. Holck, M.K. Pettersen, M.H. Moen, O. Sorheim
+Prolonged shelf life and reduced drip loss of chicken filets by the use of carbon dioxide emitters and modified atmosphere packaging
+J. Food Prot., 77 (2014), pp. 1133-1141
+View PDF
+View article
+View in Scopus
+Google Scholar
+Horváth et al., 2008
+G. Horváth, J.D. Skalný, N.J. Mason
+FTIR study of decomposition of carbon dioxide in dc corona discharges
+J. Phys. D: Appl. Phys. (2008),
+10.1088/0022-3727/41/22/225207
+Google Scholar
+Hotchkiss et al., 1985
+J.H. Hotchkiss, R.C. Baker, R.A. Qureshi
+Elevated carbon dioxide atmospheres for packaging poultry. II. Effects of chicken quarters and bulk packages
+Poult. Sci., 64 (1985), p. 333
+View PDF
+View article
+Crossref
+Google Scholar
+Jakobsen and Bertelsen, 2002
+M. Jakobsen, G. Bertelsen
+The use of CO2 in packaging of fresh red meats and its effect on chemical quality changes in the meat: a review
+J. Muscle Foods., 13 (2002), pp. 143-168
+Crossref
+View in Scopus
+Google Scholar
+Jimenez et al., 1997
+S.M. Jimenez, M.S. Salsi, M.C. Tiburzi, R.C. Rafaghelli, M.A. Tessi, V.R. Coutaz
+Spoilage microflora in fresh chicken breast stored at 4°C influence of packaging methods
+J. Appl. Microbiol., 83 (1997), pp. 613-618
+Crossref
+View in Scopus
+Google Scholar
+Jurdi et al., 1980
+D. Jurdi, M.G. Mast, J.H. MacNeil
+Effects of carbon dioxide and nitrogen atmospheres on the quality of mechanically deboned chicken meat during frozen and non-frozen storage
+J. Food Sci., 45 (641-644) (1980), p. 666
+Google Scholar
+Keener et al., 2012
+Keener, K. M., J. L. Jensen, V. P. Valdramidis, E. Byrne, J. Connolly, J. P. Mosnier, and P. J. Cullen. 2012. Decontamination of Bacillus subtilis spores in a sealed package using a non-thermal plasma system. Pages 445-455 in Plasma for Bio-Decontamination, Medicine and Food Security, NATO Science for Peace and Security Series A: Chemistry and Biology. Machala, Z., Hensel, K., and Akishev, Y., Springer, Dordrecht.
+10.1007/978-94-007-2852-3_34
+.
+Google Scholar
+Klockow and Keener, 2009
+P.A. Klockow, K.M. Keener
+Safety and quality assessment of packaged spinach treated with a novel ozone-generation system
+LWT, 42 (2009), pp. 1047-1053
+View PDF
+View article
+View in Scopus
+Google Scholar
+Kronn, 2013
+Kronn, T. G. 2013. Nonthermal plasma treatment of packaged broiler breast fillets to reduce natural microflora and Campylobacter jejuni.
+http://purl.galileo.usg.edu/uga_etd/kronn_taylor_g_201305_ms
+.
+Google Scholar
+Kronn et al., 2015
+T. Kronn, L. Lawrence, H. Zhuang, K. Hiett, M. Rothrock, Y.-W. Huang, K. Keener, Z. Abdo
+Nonthermal plasma system for extending shelf life of raw broiler breast fillets
+Trans. ASABE, 58 (2015), pp. 493-500
+View in Scopus
+Google Scholar
+Liao et al., 2019
+X. Liao, A.I. Muhammad, S. Chen, Y. Hu, X. Ye, D. Liu, T. Ding
+Bacterial spore inactivation induced by cold plasma
+Crit. Rev. Food Sci. Nutr., 59 (2019), pp. 2562-2572,
+10.1080/10408398.2018.1460797
+View in Scopus
+Google Scholar
+López et al., 2019
+M. López, T. Calvo, M. Prieto, R. Múgica-Vidal, I. Muro-Fraguas, F. Alba-Elías, A. Alvarez-Ordóñez
+A Review on non-thermal atmospheric plasma for food preservation: Mode of action, determinants of effectiveness, and applications
+Front. Microbiol., 10 (2019), p. 622,
+10.3389/fmicb.2019.00622
+View in Scopus
+Google Scholar
+Lynch et al., 2010
+O.A. Lynch, C. Cagney, D.A. McDowell, G. Duffy
+A method for the growth and recovery of 17 species of Campylobacter and its subsequent application to inoculated beef
+J. Microbiol. Methods., 83 (2010), pp. 1-7,
+10.1016/j.mimet.2010.06.003
+View PDF
+View article
+View in Scopus
+Google Scholar
+Mei and Tu, 2017
+D. Mei, X. Tu
+Conversion of CO2 in a cylindrical dielectric barrier discharge reactor: Effects of plasma processing parameters and reactor design
+J. CO2 Util, 19 (2017), pp. 68-78
+View PDF
+View article
+View in Scopus
+Google Scholar
+Mei et al., 2016a
+D. Mei, Y.L. He, S. Liu, J. Yan, X. Tu
+Optimization of CO2 conversion in a cylindrical dielectric barrier discharge reactor using design of experiments
+Plasma Process. Polym., 13 (2016), pp. 544-556
+Crossref
+View in Scopus
+Google Scholar
+Mei et al., 2016b
+D. Mei, X. Zhu, C. Wu, B. Ashford, T.P. Williams, X. Tu
+Plasma-photocatalytic conversion of CO2 at low temperatures: Understanding the synergistic effect of plasma-catalysis
+Appl. Catal. B-Environ., 182 (2016), pp. 525-532
+View PDF
+View article
+View in Scopus
+Google Scholar
+Meredith et al., 2014
+H. Meredith, V. Valdramidis, B.T. Rotabakk, M. Sivertsvik, D. McDowell, D.J. Bolton
+Effect of different modified atmospheric packaging (MAP) gaseous combinations on Campylobacter and the shelf-life of chilled poultry fillets
+Food Microbiol, 44 (2014), pp. 196-203
+View PDF
+View article
+View in Scopus
+Google Scholar
+Misra et al., 2019
+N.N. Misra, Y. Ximena, L. Xu, K. Keener
+In-package cold plasma technologies
+J. Food Eng., 244 (2019), pp. 21-31
+View PDF
+View article
+View in Scopus
+Google Scholar
+Niemira, 2012
+B.A. Niemira
+Cold plasma decontamination of foods
+Annu. Rev. Food Sci. Technol., 3 (2012), pp. 125-142
+Crossref
+View in Scopus
+Google Scholar
+Patsias et al., 2006
+A. Patsias, I. Chouliara, I.N. Savvaidis, M.G. Kontominas
+Shelf-life of a chilled precooked chicken product stored in air and under modified atmospheres: microbiological, chemical, sensory attributes
+Food Microbiol, 23 (2006), pp. 423-429
+View PDF
+View article
+View in Scopus
+Google Scholar
+Petracci et al., 2009
+M. Petracci, M. Bianchi, C. Cavani
+The European perspective on pale, soft, exudative conditions in poultry
+Poult. Sci., 88 (2009), pp. 1518-1523
+View PDF
+View article
+Crossref
+View in Scopus
+Google Scholar
+Phebus et al., 1991
+R.K. Phebus, F.A. Draughon, J.R. Mount
+Survival of Campylobacter jejuni in modified atmosphere packaged turkey roll
+J. Food Prot., 54 (1991), pp. 194-199
+View PDF
+View article
+View in Scopus
+Google Scholar
+Rakness et al., 1996
+K. Rakness, L. DeMers, B. Blank
+Ozone fundamentals for drinking water treatment
+Opflow, 22 (1996), pp. 1-5
+Crossref
+Google Scholar
+Ramakers et al., 2015
+M. Ramakers, I. Michielsen, R. Aerts, V. Meynen, A. Bogaerts
+Effect of argon or helium on the CO2 conversion in a dielectric barrier discharge
+Plasma Process. Polym., 12 (2015), pp. 755-763
+Crossref
+View in Scopus
+Google Scholar
+Ray and Subrahmanyam, 2016
+D. Ray, C. Subrahmanyam
+CO2 decomposition in a packed DBD plasma reactor: Influence of packing materials
+RSC Adv, 6 (2016), pp. 39492-39499
+View in Scopus
+Google Scholar
+Ray et al., 2017
+D. Ray, R. Saha, C. Subrahmanyam Ch
+DBD plasma assisted CO2 decomposition: Influence of diluent gases
+Catal, 7 (2017), p. 244
+Crossref
+View in Scopus
+Google Scholar
+Rothrock et al., 2016
+Jr. Rothrock, M.J.H. Zhuang, K.C. Lawrence, B.C. Bowker, G.R. Gamble, K.L. Hiett
+In-package inactivation of pathogenic and spoilage bacteria associated with poultry using dielectric barrier discharge-cold plasma treatments
+Curr. Microbiol., 74 (2016), pp. 149-158
+Google Scholar
+Rowan et al., 2007
+N.J. Rowan, S. Espie, J. Harrower, J.G. Anderson, L. Marsili, S.J. MacGregor
+Pulsed-plasma gas discharge inactivation of microbial pathogens in chilled poultry wash water
+J. Food Prot., 70 (2007), pp. 2805-2810,
+10.4315/0362-028X-70.12.2805
+View PDF
+View article
+View in Scopus
+Google Scholar
+Sante et al., 1994
+V. Sante, M. Renerre, A. Lacourt
+Effect of modified atmosphere packaging on color stability and on microbiology of turkey breast meat
+J. Food Qual., 17 (1994), pp. 177-195
+Crossref
+View in Scopus
+Google Scholar
+Stiles, 1991
+Stiles, M. E. 1991. Modified atmosphere packaging of meat, poultry and their products. Pages 118–147 in Modified Atmosphere Packaging of Food. Ooraikul, B. and Stiles, M. E., Ellis Horwood Ltd., Chichester, England.
+Google Scholar
+Stintzi, 2003
+A. Stintzi
+Gene expression profile of Campylobacter jejuni in response to growth temperature variation
+J. Bacteriol., 185 (2003), pp. 2009-2016
+View in Scopus
+Google Scholar
+Sukumaran et al., 2015
+A.T. Sukumaran, R. Nannapaneni, A. Kiess, C.S. Sharma
+Reduction of Salmonella on chicken breast fillets stored under aerobic or modified atmosphere packaging by the application of lytic bacteriophage preparation SalmoFreshTM
+Poult. Sci., 95 (2015), pp. 668-675
+Google Scholar
+Susiluoto et al., 2003
+T. Susiluoto, H. Korkeala, K.J. Bjorkroth
+Leuconostoc gasicomitatum is the dominating lactic acid bacterium in retail modified-atmosphere-packaged marinated broiler meat strips on sell-by-day
+Int. J. Food Microbiol., 80 (2003), pp. 89-97
+View PDF
+View article
+View in Scopus
+Google Scholar
+Takamatsu et al., 2015
+T. Takamatsu, K. Uehara, Y. Sasaki, M. Hidekazu, Y. Matsumura, A. Iwasawa, N. Ito, M. Kohno, T. Azuma, A. Okino
+Microbial inactivation in the liquid phase induced by multigas plasma jet
+PLoS ONE, 10 (2015), Article e0132381,
+10.1371/journal.pone.0132381
+View in Scopus
+Google Scholar
+Wang et al., 2017
+T. Wang, H. Liu, X. Xiong, X. Feng
+Conversion of carbon dioxide to carbon monoxide by pulse dielectric barrier discharge plasma
+IOP Conf. Series: EES., 52 (2017)
+012100
+Google Scholar
+Wang et al., 2016
+J. Wang, H. Zhuang, A. Hinton Jr., J. Zhang
+Influence of in-package cold plasma treatment on microbiological shelf life and appearance of fresh chicken breast fillets
+Food Microbiol, 60 (2016), pp. 142-146
+View PDF
+View article
+Google Scholar
+Wesley and Stadelman, 1985
+R.D. Wesley, W.J. Stadelman
+The effect of carbon dioxide packaging on detection of Campylobacter jejuni from chicken carcasses
+Poult. Sci., 64 (1985), pp. 763-764
+View PDF
+View article
+Crossref
+View in Scopus
+Google Scholar
+Zeng and Tu, 2017
+Y. Zeng, X. Tu
+Plasma-catalytic hydrogenation of CO2 for the cogeneration of CO and CH4 in a dielectric barrier discharge reactor: Effect of argon addition
+J. Phys. D Appl. Phys., 50 (2017), Article 184004
+Crossref
+View in Scopus
+Google Scholar
+Zhang et al., 2017
+K. Zhang, G. Zhang, X. Liu, A.N. Phan, K. Luo
+A study on CO2 decomposition to CO and O2 by the combination of catalysis and dielectric-barrier discharges at low temperatures and ambient pressure
+Ind. Eng. Chem. Res., 56 (2017), pp. 3204-3216,
+10.1021/acs.iecr.6b04570
+View in Scopus
+Google Scholar
+Zhuang et al., 2019
+H. Zhuang, M.J. Rothrock Jr., K.L. Hiett, K.C. Lawrence, G.R. Gamble, B.C. Bowker, K.M Keener
+In-package air cold plasma treatment of chicken breast meat: Treatment time effect
+J. Food Qual. (2019),
+10.1155/2019/1837351
+2019, Article 1837351(7 pages)
+Google Scholar
+Zhuang et al., 2019b
+H. Zhuang, M.J. Rothrock Jr., K.L. Hiett, K.C. Lawrence, G.R. Gamble, B.C. Bowker, K.M Keener
+In-package antimicrobial treatment of chicken breast meat with high voltage dielectric barrier discharge–electric voltage effect
+J. Appl. Poult. Res., 28 (2019), pp. 801-807
+View PDF
+View article
+Crossref
+View in Scopus
+Google Scholar
+Zhuang et al., 2020
+H. Zhuang, M.J. Rothrock Jr., J.E. Line, K.C. Lawrence, G.R. Gamble, B.C. Bowker, K.M. Keener
+Optimization of in-package cold plasma treatment conditions for raw chicken breast meat with response surface methodology
+Innov. Food Sci. Emerg. Technol., 66 (2020), Article 102477
+View PDF
+View article
+View in Scopus
+Google Scholar
+Ziuzina et al., 2016
+D. Ziuzina, N.N. Misra, P.J. Cullen, K. Keener, J.P. Mosnier, I. Vilaró, E. Gaston, P. Bourke
+Demonstrating the potential of industrial scale in-package atmospheric cold plasma for decontamination of cherry tomatoes
+Plasma Med, 6 (2016), pp. 397-412
+View in Scopus
+Google Scholar
+Ziuzina et al., 2013
+D. Ziuzina, S. Patil, P.J. Cullen, K.M. Keener, P. Bourke
+Atmospheric cold plasma inactivation of Escherichia coli in liquid media inside a sealed package
+J. Appl. Microbiol., 114 (2013), pp. 778-787
+Crossref
+View in Scopus
+Google Scholar
+Ziuzina et al., 2014
+D. Ziuzina, S. Patil, P.J. Cullen, K.M. Keener, P. Bourke
+Atmospheric cold plasma inactivation of Escherichia coli, Salmonella enterica serovar Typhimurium and Listeria monocytogenes inoculated on fresh produce
+Food Microbiol, 42 (2014), pp. 109-116
+View PDF
+View article
+View in Scopus
+Google Scholar
+Cited by (0)
+1
+The use of trade, firm, or corporation names in this publication is for the information and convenience of the reader. Such use does not constitute an official endorsement or approval by the USDA or the Agricultural Research Service of any product or service to the exclusion of others that may be suitable.
+© 2024 Published by Elsevier Inc. on behalf of Poultry Science Association Inc.
+Recommended articles
+A Novel Rat Lung Transplantation Model Using Veno-Arterial Extracorporeal Membrane Oxygenation Support
+JTCVS Techniques, 2024
+Xiucheng Yang, …, Jingyu Chen
+View PDF
+Evaluation of physical and chemical characteristics of bean and cup quality of arabica coffee genotypes grown in Southern Ethiopia
+Heliyon, Volume 10, Issue 14, 2024, Article e34378
+Habtamu Gebreselassie, …, Kassaye Tolessa
+View PDF
+Surgical damage control: How I do a crash laparotomy and a laparostomy (with video)
+Surgery Open Digestive Advance, Volume 15, 2024, Article 100155
+Charles de Ponthaud, …, Sébastien Gaujoux
+View PDF
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

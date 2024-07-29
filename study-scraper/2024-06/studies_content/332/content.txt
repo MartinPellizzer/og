@@ -1,0 +1,401 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature npj climate and atmospheric science articles article
+Article
+Open access
+Published: 07 June 2024
+Global agricultural N2O emission reduction strategies deliver climate benefits with minimal impact on stratospheric O3 recovery
+James Weber
+, James Keeble
+, Nathan Luke Abraham
+, David J. Beerling
+& Maria Val Martin
+  npj Climate and Atmospheric Science
+ 7, Article number: 121 (2024) Cite this article
+1329 Accesses
+53 Altmetric
+Metrics
+Abstract
+Agricultural nitrous oxide (N2O) emission reduction strategies are required given the potency of N2O as a greenhouse gas. However, the growing influence of N2O on stratospheric ozone (O3) with declining stratospheric chlorine means the wider atmospheric impact of N2O reductions requires investigation. We calculate a N2O emission reduction of 1.35 TgN2O yr-1 (~5% of 2020 emissions) using spatially separate deployment of nitrification inhibitors ($70–113 tCO2e−1) and crushed basalt (no-cost co-benefit) which also sequesters CO2. In Earth System model simulations for 2025–2075 under high (SSP3-7.0) and low (SSP1-2.6) surface warming scenarios, this N2O mitigation reduces NOx-driven O3 destruction, driving regional stratospheric O3 increases but with minimal impact on total O3 column recovery. By 2075, the radiative forcing of the combined N2O and CO2 reductions equates to a beneficial 9–11 ppm CO2 removal. Our results support targeted agricultural N2O emission reductions for helping nations reach net-zero without hindering O3 recovery.
+Similar content being viewed by others
+Unexpected response of nitrogen deposition to nitrogen oxide controls and implications for land carbon sink
+Article Open access
+06 June 2022
+A comprehensive quantification of global nitrous oxide sources and sinks
+Article 07 October 2020
+Precipitation trend increases the contribution of dry reduced nitrogen deposition
+Article Open access
+07 June 2023
+Introduction
+Nitrous oxide (N2O) is the third most important anthropogenic greenhouse gas (GHG) after carbon dioxide (CO2) and methane (CH4)1. On a per molecule basis N2O is ~273 times stronger than CO2 and ~9 times stronger than CH4 over a 100-year period (GWP100)1. Atmospheric mixing ratios of N2O have risen from ~270 ppbv in the pre-industrial period to 332 ppbv in 2019, causing an effective radiative forcing of 0.21 ± 0.03 Wm−2, about 10% of that from atmospheric CO2 increases1. The rise in atmospheric N2O has largely been driven by increases in human-induced emissions over the past 40 years, dominated by agricultural N2O emissions2,3,4, due to the use of N-fertilisers.
+The potency of N2O as a GHG has led to climate change and net-zero strategies recognising the importance of reducing N2O emissions alongside CO2 and CH45,6. Given the importance of the agricultural sector in the growth of N2O emissions, there is an international focus on developing soil N2O mitigation strategies, including nitrification inhibitors, biochar, and pH management7,8.
+N2O is also an important stratospheric O3-depleting substance9 (Supplementary Eqs. 1, 2), and therefore N2O emission reductions may be beneficial for both the recovery of stratospheric O3 and from a global warming perspective10,11,12. However, the net effect of a sustained reduction in N2O emissions is also dependent on the wider stratospheric evolution (e.g., changing temperatures driven by the particular GHG emission scenario). Chemical coupling between NOx(=NO + NO2) and other O3-destroying chemical families (e.g., HOx = H + OH + HO2 and ClOx = Cl+ClO; Supplementary Eqs 5 - 12. 3,4) could also be influential for O3 destruction11. This coupling can change the balance between the active and less reactive reservoir forms for not only NOx but also within the ClOx and HOx cycles and thus how much O3 each can destroy. For example, increases in N2O have been simulated to reduce ClOx-driven O3 destruction as more chlorine is sequestered into ClONO211,13. These factors complicate the prediction of the impact of N2O emission reductions on O3. Few studies have explored a sustained N2O emission reduction within a chemistry-climate model simulation considering concurrent changes to other influential species (e.g., CFCs) across multiple future stratospheric climate scenarios.
+Here, we investigate the impact of an N2O emissions reduction (~5% of present-day global total emissions and ~25% of direct agriculture emissions) from the spatially separate application of basalt and nitrification inhibitors to agricultural land, on stratospheric O3 over the next 50 years (Methods). These two approaches are emerging strategies for reducing N2O emissions from agricultural soils: application of nitrification inhibitors is a straightforward technique while amending soils with crushed basalt which undergoes chemical weathering in the soil profile increases pH, thus acting in a similar manner to liming14,15,16,17,18. Additional benefits of amending soils with crushed basalt, a technique known as enhanced rock weathering (ERW), include CO2 sequestration and improved soil health14,19. Combined, these techniques are projected to reduce N2O emissions by 1.35 TgN2O yr-1 (Fig. 1a, b) which corresponds to a reduction of 0.37 GtCO2e yr-1 (based on a GWP100 of 273).
+Fig. 1: N2O Emission Changes,LBCs and Chlorinated Species.
+a Change in N2O emissions from the application of basalt and nitrogen inhibitors and b change in emissions by regions shown by dashed lines in a from enhanced rock weathering (ERW) and inhibitor (Inh) contributions. c Control and perturbed N2O lower boundary conditions used in SSP126/SSP370 and SSP126_low_N2O /SSP370_low_N2O simulations. d Sum of major CFCs (CFC11 and CFC12) global mean mixing ratio and ClOx(=Cl + ClO) burden in SSP126 and SSP370. Shaded regions in (c,d) show periods of particular focus.
+Full size image
+We use the state-of-the-art Earth System model, UKESM1, with fully interactive tropospheric and stratospheric chemistry20,21 to simulate the effects of N2O reductions across two stratospheric futures, SSP3-7.0 (high tropospheric warming, greater stratospheric cooling) and SSP1-2.6 (lower tropospheric warming, lower stratospheric cooling), which are both Montreal Protocol-compliant. The different tropospheric and stratospheric conditions in SSP3-7.0 and SSP1-2.6 arise from their diverging emission pathways for GHGs (Supplementary Fig. 1) and other climate forcers and can influence stratospheric O3. This allows for a comprehensive examination of the effect of implementing an N2O emission reduction plan across a wide window of future trajectories to broaden the applicability of the results. The temporal evolution of the lower boundary condition (LBC) of N2O in UKESM1 (effectively N2O’s surface concentration) is lowered to simulate the sustained emission reduction of 1.35 Tg N2O yr-1 (Fig. 1(c); Methods). This adjustment is performed in simulations where all other conditions (e.g., CO2, CH4, other well-mixed GHG concentrations and anthropogenic and biomass burning emissions) follow the relevant SSP scenario.
+To isolate the impact of N2O emission reductions, we compare the output from the simulations with lowered N2O LBC, denoted SSP370_low_N2O and SSP126_low_N2O (Table 1), to the respective SSP3-7.0 and SSP1-2.6 simulations performed for the ScenarioMIP part of CMIP622, denoted SSP370 and SSP126 respectively. Comparison between the control and low_N2O scenarios are referred to in terms of the background scenario (e.g., “SSP370 comparison” refers to SSP370_low_N2O vs SSP370). Since the ScenarioMIP SSP370 and SSP126 simulations did not output the key stratospheric O3 loss fluxes, a single simulation was performed using the same conditions as SSP370 and SSP126 with these fluxes output and denoted SSP370_flux and SSP126_flux, respectively (Table 1). We present first the impact of N2O emission reductions on N2O concentrations, then on stratospheric O3 (identifying the drivers of the changes where possible) and wider stratospheric composition, total column O3 (TCO) and finally the associated radiative forcing from N2O, CO2 and O3 changes. We consider the TCO change over the full 2025-2075 period and zonal changes in O3 in particular detail for the periods 2040-2050 and 2065-2075 to examine the progressive reduction in stratospheric chlorine (Fig. 1d) and in build-up of the difference in N2O between the control and low_N2O scenarios (Fig. 1c).
+Table 1 UKESM1 simulations
+Full size table
+Results
+Zonal mean changes in N2O and O3
+The reductions in the N2O LBC applied to simulate the 1.35 TgN2O yr-1 decrease in N2O emissions from agricultural sources (Methods) lead to decreases in low altitude concentrations which propagate vertically as N2O enters the stratosphere and is destroyed by photolysis and reaction with O(1D)11. These reductions exceed 5 ppb throughout the low and mid-stratosphere (2065-2075 mean) in both SSP scenarios, with attendant reductions in total reactive nitrogen (NOy, Supplementary Fig. 2).
+In both low_N2O scenarios, there are increased annual mean stratospheric O3 mixing ratios relative to their respective base SSP scenario around 5-20 hPa across mid-latitudes and tropics (Fig. 2). This increase persists throughout all seasons (Supplementary Figs. 3–6), with statistical significance (95% confidence) observed on an annual basis only in the SSP370_low_N2O vs. SSP370 comparison, where the increase exceeds 100 ppb (~1-1.5%, Supplementary Fig. 7) in 2065–2075. Under both SSP370 and SSP126 conditions, the O3 increase is more pronounced in 2065–2075 than in 2040–2050, reflecting the greater reduction in N2O (see NOx as the main driver of O3 change). The spatial change in tropical and mid-latitude O3 in Fig. 2 is largely replicated when the trend in ozone difference from 2025-2075 is also considered (Supplementary Fig. 8).
+Fig. 2: O3 Changes.
+Zonal mean change in O3 mixing ratio averaged over 2040-2050 for a SSP370_low_N2O - SSP370 and b SSP126_low_N2O - SSP126 and 2065-2075 for c SSP370_low_N2O - SSP370 and d SSP126_low_N2O - SSP126. Stippling shows regions of statistical significance (95% confidence) and the grey line shows mean tropopause location.
+Full size image
+Additionally, increased annual mean O3 mixing ratios are modelled throughout the northern hemisphere (NH) polar stratosphere for 2040-2050 in the SSP126_low_N2O relative to the SSP126 scenario. This increase is most pronounced during wintertime (DJF; Supplementary Fig. 3). In contrast, for the 2065-2075 period, decreased annual mean ozone mixing ratios are simulated in the same region, with the largest changes also occurring in DJF. However, we note that neither of these changes are statistically significant at the 95% confidence level. These variations likely reflect the large, dynamically induced variability observed in stratospheric ozone over the Arctic (e.g.23,24,25,26,27,), rather than a direct response to changes in N2O.
+NOx as the main driver of O3 change
+To investigate the chemical processes driving the differences in O3 between the control and low_N2O runs shown in Fig. 2, we first examine changes to the NO2 + O flux, as this is the O3 loss flux most closely linked to the N2O changes explored in this study. Then, we follow this analysis by considering changes in the O3 loss from the ClOx and HOx catalytic cycles. Specifically, we compare the fluxes of the catalytic O3 loss reactions in the three low_N2O runs (e.g., SSP370_low_N2O) to those in the single control run with reaction fluxes (e.g., SSP370_flux), since the other control runs did not have reaction fluxes output. To assess if the single control run is representative of the wider control ensemble (e.g., SSP370), we compare in Fig. 3 the zonal mean O3 change between the low_N2O and single control (e.g., SSP370_low_N2O vs. SSP370_flux) and the low_N2O and full ensemble member comparisons (e.g. SSP370_low_N2O vs. SSP370), denoting these as the “single” and “full” comparisons, respectively. In cases where the O3 change is consistent in sign and magnitude between the “single” and “full” comparisons, we propose the attribution of O3 changes based on the flux differences in the “single” comparison also applies to the “full” comparison.
+Fig. 3: Changes to O3 and NOx-driven O3 Loss.
+Zonal mean change in annual mean O3 between a SSP370_low_N2O and SSP370 (same as 2c), b SSP370_low_N2O and SSP370_flux and c annual mean change in NO2 + O flux between SSP370_low_N2O and SSP370_flux. Stippling shows regions of statistical significance (95% confidence).
+Full size image
+The clearest example is the SH mid-latitude O3 increase evident in both the SSP370_low_N2O vs. SSP370 (Fig. 3a) and SSP370_low_N2O vs. SSP370_flux (Fig. 3b) comparisons at altitudes of around 5–20 hPa for the 2065-2075 period. Examining the SSP370_low_N2O vs. SSP370_flux case in more detail, the area of increased ozone mixing ratios, along with neighbouring O3 decreases, shows spatial anticorrelation with changes in NOx-driven O3 destruction, specifically the flux of NO2 + O (Fig. 3c). This provides evidence that these local ozone changes represent a direct response to changes in NOx-driven loss and thus N2O. While the consistency of mid-latitude O3 changes in the full and single comparisons is weaker on an annual basis for 2040–2050 (Supplementary Fig. 9), there is greater consistency on a seasonal level (e.g., MAM; Supplementary Fig. 10), with spatial anticorrelation persisting between O3 changes and NOx-driven O3 destruction.
+For the SSP126 scenarios, mid-latitude O3 changes also exhibit consistency between the full (SSP126_low_N2O vs. SSP126) and single (SSP126_low_N2O vs. SSP126_flux) comparisons in 2065-2075, particularly during DJF and MAM, and display anticorrelation with NOx-driven O3 destruction changes (Supplementary Fig. 11). By contrast, mid-latitude O3 changes are less consistent between the full and single comparisons for SSP126 at 2040-2050, even on a seasonal basis, hindering attribution.
+The increase of O3 in response to reduced N2O is in line with prior studies28,29 which simulated reductions to stratospheric O3 following increases to future N2O concentrations. While this study only employs a single model (UKESM1), the robustness of our results is supported by reference to studies where UKESM1 (or its atmospheric chemistry and aerosols component, UKCA) was compared to other chemistry-climate models running the same experiments designed to examine the impact of changing N2O on stratospheric O3. Specifically, O3 in the lower and mid-stratosphere (Fig. 2) showed similar sensitivity to changes in surface N2O in UKCA and most of the models involved in the CCMI project30 and AerChemMIP31.
+We next consider the impact of NOx changes to the ClOx (Supplementary Eqs. 5, 6) and HOx (Supplementary Eqs. 7–10) catalytic cycles via chemical coupling (Supplementary Eqs. 3, 4). We find the anti-correlation between changes in O3 and ClOx-driven O3 destruction (specifically ClO + O) is weak (Supplementary Fig. 12). There is some anti-correlation between changes in O3 and HOx-driven O3 destruction (HO2 + O and HO2 + O3; Supplementary Fig. 13) under SSP1-2.6 conditions, but this mostly occurs in regions where the change in O3 is not consistent between the “full” and “single” comparisons (Supplementary Fig. 10), making assessment of this signal’s robustness difficult. Overall, our findings suggest the impact of cross-family coupling (i.e. changes in NOx driving changes in ClOx or HOx and thus O3) is small relative to impact of direct changes to NOx-driven O3 loss. This small impact is consistent with prior studies which identified these interactions as having small significant effects; for example Meul et al.15 found that interactions between chlorine and N2O and methane products increased O3 by 2.5% (relative to simulations where coupling was prevented).
+For the SSP126 northern high latitude O3 changes (Fig. 2b, d), consistency is observed between the SSP126_low_N2O vs. SSP126 and SSP126_low_N2O vs. SSP126_flux comparisons, particularly for DJF. However, attributing the drivers presents a challenge. Neither NOx- nor ClOx-driven O3 destruction correlates well with changes to O3. As stated above, polar regions exhibit greater dynamical variability, and the fact that the NH high latitude O3 changes are dominated by winter (DJF) changes, suggests these statistically non-significant changes are unlikely to be a direct response to changes in N2O emissions.
+Wider atmospheric chemistry response
+N2O can affect the HOx and ClOx cycles by perturbing the partitioning between their active and reservoir species (Supplementary Eqs. 3, 4). Although we find the effect of this cross-family coupling on O3 is limited, we extend our analysis to examine the response of wider atmospheric composition. This includes the families involved in catalytic O3-destruction (ClOx, NOx and HOx) and the reservoir species (ClONO2 and HONO2), all of which are considered in our simulations. Having already identified a lack of clear coupling between NOx and ClOx/HOx in the context of O3 destruction (Supplementary Figs. 9, 10), we find the changes in the global vertical profiles of NOx, ClOx, HOx, and ClONO2 below 2% and nearly all fall within ±1 standard deviation (σ) of the control ensemble mean (Supplementary Figs. 12, 13). Changes in HNO3 exceed 1 σ, but remain below 2%. This small signal relative to the control ensemble is consistent at both poles (75–90 latitude) in winter and summer, with only HNO3 regularly exceeding 1 σ from the control ensemble mean (Supplementary Figs. 14, 15). Overall, this suggests the N2O emissions reduction considered here is unlikely to alter wider stratospheric composition, with the background climate scenario (i.e. SSP) exerting a more pronounced influence.
+Total column O3 response to N2O mitigation
+Previously, we considered vertically resolved stratospheric O3 changes in response to reductions in N2O emissions. When considering the impact of N2O mitigation on O3 recovery, we must consider total column O3 (TCO, the amount of O3 in a vertical column from the surface to the edge of space) as well, since this is often used to evaluate future projections of O3 recovery (e.g., O3 return dates are calculated using TCO values32. This is also important from a human health perspective as TCO has a direct relation to the attenuation of harmful ultraviolet solar radiation. Although we report local, and in some instances statistically significant, changes in stratospheric O3 concentrations (Fig. 2), there are no significant differences between the control and low_N2O scenarios for TCO on a global annual basis (Fig. 4a) or in the high latitude band 75–90 S in October (historically the period and region with lowest TCO) (Fig. 4b, c). Future TCO projections are more dependent on the wider climate scenario than N2O mitigation. The greater stratospheric cooling (Supplementary Fig. 16) (which increases O3 as the odd-oxygen loss reaction in the Chapman cycle slows; Supplementary Eqs. 13–1628) and higher tropospheric O3 burden seen in SSP3-7.0 projections contribute to higher TCO values in this scenario when compared to SSP1-2.632.
+Fig. 4: TCO and radiative forcing.
+a TCO timeseries for control and low_N2O simulations. TCO timeseries for 75-90 S for October (lowest historical TCO) for b SSP370 and SSP370_low_N2O and c SSP126 and SSP126_low_N2O. Shading in a–c shows standard deviation and values in square brackets show regression slope ± error (95% confidence). d Radiative forcing from changes to N2O and CO2 (from ERW’s associated 2 GtCO2 yr-1 CDR) in 2050 and 2075. Text on bars shows change in CO2 concentrations (in ppm) required to achieve the same radiative forcing.
+Full size image
+The time evolution of the TCO difference between the control and low_N2O simulations also displays no clear trend when decomposed latitudinally (Supplementary Fig. 17). At high northern latitudes, several periods during 2040–2050 exhibit anomalously large TCO increases in SSP126_low_N2O relative to SSP126, while this trend is reversed for 2065–2075, in line with the zonal mean changes in Fig. 2b, d) which we attribute to dynamical variability.
+Radiative impact of N2O, CO2 and O3 changes
+The reduction in N2O emissions from agricultural lands, and attendant lower atmospheric N2O concentrations, leads to a radiative forcing of −10 (−18) and −12 (−22) mWm−2 at 2050 (2075) relative to the contemporaneous SSP370 and SSP126 controls (Methods). The values at 2075 are equivalent in magnitude to 11% and 13% of the multi-model pre-industrial to present day forcing from N2O increases33. Despite exhibiting very similar reductions in global mean N2O concentrations, the associated forcing is smaller in the SSP370 case. This is primarily because CO2 and CH4, whose absorption of LW outgoing radiation partially overlaps with that of N2O, are present at higher concentrations in SSP370 than SSP126. The predicted net 2 Gt CO2 yr-1 removal by ERW19 from the basalt application to croplands considered here yields atmospheric CO2 concentrations which are 4.3 (8.6) and 4.1 (7.4) ppm lower at 2050 (2075) than those of the SSP370 and SSP126 controls, respectively (Methods). Combined, these relatively modest changes are equivalent to reductions of 10.9 ppm for SSP370 and 9.4 ppm for SSP126, approximately 4% and 22% of the respective increases in CO2 over 2025–2075 (Fig. 4d).
+O3 itself also acts as a GHG but is most potent in the mid and upper troposphere and much weaker in the stratosphere34 where most of the change occurs in this study. While stratospheric O3 changes can affect tropospheric O3 via stratosphere-troposphere exchange and photolysis, we do not find a robust radiative forcing from O3 changes under either scenario or time period (Supplementary Fig. 18; Methods).
+Discussion
+The stratospheric O3 layer is critically important to protecting life on Earth from harmful ultraviolet radiation. Consequently, any climate change mitigation strategy which could perturb it must be rigorously evaluated. Nitrous oxide is an important stratospheric O3 depleting substance in the 21st Century10,11, thus emission abatement strategies, critical to limiting anthropogenic warming, warrant detailed investigation from an O3 perspective.
+Our simulation of N2O emissions reductions over five decades within two climatic futures captures the effect of concurrent changes to N2O and other important variables. Our findings suggest the TCO recovery is protected, both globally and at high latitudes, with modest, and in places statistically significant, O3 increases in mid-latitude stratospheric regions likely driven by reductions in NOx-driven O3 destruction. Although the wider stratospheric conditions complicate the influence of N2O on stratospheric O3, we capture these effects in our Earth System model simulation experiments. Increasing concentrations of atmospheric CO2 will cool the stratosphere due to the radiative balance between the heating from solar radiation absorption by O3 and the cooling from the emission of infra-red radiation from CO2 (and H2O). This CO2-driven stratospheric cooling, combined with higher CH4 concentrations which drive greater HOx concentrations, is more pronounced in the scenarios with greater tropospheric warming (e.g., SSP3-7.0) than with lower warming (e.g., SSP1-2.6). Consequently, this dual effect reduces the efficiency of the NOx-driven O3 destruction. In contrast, the long-term decline of stratospheric chlorine following the Montreal Protocol has the opposite effect, increasing the efficiency of N2O in destroying O3 as less NOx is sequestered into its less reactive reservoir forms35. However, the minimal impact on TCO is consistent in both climate scenarios, suggesting such N2O emission abatement strategies would not hinder the existing, carefully planned international policies that facilitate O3 recovery (e.g., the Montreal Protocol) under a broad window of atmospheric composition and climate futures.
+Furthermore, there are substantial climatic and ecological co-benefits from efforts to curb agricultural N2O emissions. Reducing N2O emissions yields lower atmospheric concentrations, thus providing a climatic benefit (i.e., negative radiative forcing relative to the control). This reinforces the importance of reducing emissions identified in multiple net zero and climate change mitigation plans (e.g.6,36,37). The application of nitrification inhibitors can reduce nitrate leaching into water courses and natural habitats (e.g.38,39), and therefore, reduce the negative impacts of excessive nitrogen burdens on ecosystems and human health.
+We highlight an important economic distinction between N2O mitigation strategies considered here. For ERW practices involving amending agricultural soils with crushed basalt for CO2 removal purposes, N2O mitigation (0.47 TgN2O yr-1) is a cost-free co-benefit18. When converted to CO2 equivalents, N2O emissions reductions from ERW (19; Table 1) reduce abatement costs by between 2.3% (North America) and 9% (China). In contrast, the application of nitrification inhibitors to farmland incurs specific additional costs. Application at $28–45 ha−1 40 to the 600 Mha of agriculture soils considered in this study for nitrification inhibitors (Methods) would cost $17–27 billion annually. The associated abatement (0.87 TgN2O yr-1) corresponds to $70–113/tCO2e.
+Unlike CO2 emissions, which are projected to reach net-zero by 2035–2070 for scenarios with 1.5 °C warming, emissions of CH4 and N2O are predicted to remain positive given the challenges of complete abatement41. The use of nitrogen fertilisers and manure in agriculture constitutes the largest anthropogenic source of N2O, making both practices the focus of mitigation via agricultural practices and policies in efforts to reach net-zero40. Such policies include, for example, incentivised targeting of increased cropland N-use efficiency (i.e., increasing yields with the same amount of N input)42. Our analysis of possible worldwide efforts to deliver sustained reductions in agricultural N2O emissions for five decades in two diverging future climatic scenarios (SSP3-7.0 and SSP1-2.6) suggests such efforts will not disrupt TCO recovery. The benefit of ERW is it delivers a cost saving of $8.5–$13 billion a year for comparable N2O reductions obtained with nitrification inhibitors. Our analyses further emphasise the importance of N2O mitigation for delivering co-benefits for climate and sustainable agriculture (with no additional costs in the case of ERW), and thus the requirement for urgent exploration of the wide-scale deployment of N2O mitigation schemes. This will be particularly important in future decades as the drive to reach net-zero emissions, and pressures to increase food production to feed a rising human population, intensify.
+Methods
+Agriculture soil N2O emission reduction
+To develop a mitigation scenario for direct agricultural soil N2O emissions, we used the agriculture emissions from the global N2O multimodel intercomparison project (NMIP43). This dataset was derived from seven process-based terrestrial biosphere models in natural and crop ecosystems and formed the basis of the IPCC 2021 soil N2O budget estimates44. As a baseline, we used the averaged direct N2O emissions from nitrogen additions in the agricultural sector from all seven models in 2010–16, with a spatial distribution of 50 × 50 km horizontal resolution and monthly temporal resolution.
+For abatement strategies, we considered enhanced rock weathering (ERW) and fertilizer nitrification inhibitors. Following Val Martin et al.15, we implemented ERW by considering the impact of basalt amendments in croplands on soil N2O emissions. This involved a reduction in soil N2O emissions resulting from increases in soil pH from basalt amendments, strategically applied across five main agricultural regions (North America, Brazil, Europe, India, and China) to achieve a targeted removal of 2 GtCO2yr-1 19. This resulted in a reduction of direct agriculture soil N2O from 5.19 to 4.69 TgN2O yr-1 with basalt applied across 400 Mha of cropland soils.
+For fertiliser nitrification inhibitors, we implemented this strategy in agriculture grid cells without ERW, considering a 50% reduction in soil N2O emissions (ref. 40; 8). Given the high cost of fertiliser nitrification inhibitors (28-45 $ ha−1; 40), application was limited to agricultural regions in countries in the global north. This strategy was applied to about 600 Mha of agriculture soils, leading to a further reduction of total soil N2O crop emissions from 4.69 to 3.84 TgN2O yr−1.
+The integration of these two mitigation strategies yielded a substantial N2O reduction of 1.35 TgN2O yr-1, constituting about 40% reduction in our primary agricultural regions and a 25% reduction in global direct agricultural N2O emissions. This approach reflects a moderate nitrogen regulation scenario, strategically focusing on specific countries and agricultural areas while considering economic feasibility. The spatial distribution of the changes in soil agriculture N2O emissions is illustrated in Fig. 1(a).
+UKESM1 model setup
+All simulations were conducted using the fully coupled configuration of UKESM1.020, with a horizontal resolution of 1.25° × 1.9° with 85 vertical levels up to 85 km, as used in CMIP6. This setup considers all aspects of the Earth System, including the atmosphere, land surface, ocean, and cryosphere, and allows them to interact.
+The atmosphere is simulated with fully interactive stratospheric and tropospheric chemistry21 and the GLOMAP‐mode aerosol scheme, which simulates sulfate, sea‐salt, black carbon, organic matter, and dust but not currently nitrate aerosol45. While a nitrate scheme is now available in UKESM46, it was not available for CMIP6 and, as the runs performed for this study used the same model version as those done specifically for CMIP6, nitrate aerosol was not used here either.
+Emissions of well‐mixed greenhouse gases, including N2O, CH4, and CO2, were not explicitly simulated; rather lower boundary conditions (LBC) were applied which evolved over time to represent the concentrations assumed by the SSP1-2.6 and SSP3-7.0 pathways47. The LBCs of N2O were adjusted as described below.
+Anthropogenic and biomass burning time series emissions, nitrogen deposition, and crop and pasture fraction constraints for the appropriate scenario were supplied as input.
+UKESM1 simulations
+This study considered four scenarios, including standard SSP3-7.0 and SSP1-2.6 alongside two perturbed scenarios, SSP370_low_N2O and SSP126_low_N2O (Table 1). The perturbed scenarios are identical to their corresponding SSP, but consider an adjusted lower boundary condition (LBC) of N2O to simulate an annual emission reduction of 1.35 TgN2O yr-1 (Fig. 1c) (see LBC Adjustment).
+Simulations SSP370_flux and SSP126_flux, identical to the control SSP3-7.0 and SSP1-2.6 but with the inclusion of important reaction flux diagnostics, were also performed.
+All simulations used the same UKESM1 model version and setup as the UKESM1 simulations performed for ScenarioMIP, to ensure comparability.
+We compared model output from 16/15 ensemble members for both SSP1-2.6 and SSP3-7.0 performed in UKESM1 for ScenarioMIP to output from three ensemble members each for SSP370_low_N2O and SSP126_low_N2O. The SSP370_low_N2O and SSP126_low_N2O were initialised at 2025 from three different members of the corresponding base SSP at 2025 and run for 51 years (2025-2075 inclusive).
+To increase confidence in our findings, we chose to perform simulations of three ensemble members with a sustained emission reduction of 1.35 TgN2O yr-1, considering the computational expense and variability of fully coupled simulations.
+All simulations used a fully-coupled setup with interactive ocean and land surface, with the land surface constrained only by SSP-specific crop and pasture fractions for each grid cell. SSP-specific time-dependent LBCs of other well-mixed greenhouse gases (CO2, CH4, CFC12, and HFC134a), nitrogen deposition, and anthropogenic and biomass burnings from Input4MIPs remained consistent across all simulations based on the same SSP. For example, SSP370 and SSP370_low_N2O had the same LBC time series for CH4 and anthropogenic and biomass-burning emissions, differing only in their N2O LBC.
+Reaction fluxes were calculated online during the model runs and output as total flux through a reaction in moles per second for each grid cell. Fluxes were divided by grid cell volume to normalise for the varying cell volume and allow for comparison of flux between different regions of the atmosphere (e.g. Fig. 3).
+LBC Adjustment
+To ensure comparability with the simulations performed for ScenarioMIP (where N2O concentrations were controlled using LBCs rather than emissions), the reduction of N2O emissions here was implemented by altering N2O LBC.
+Total simulated N2O emissions for SSP3-7.0 and SSP1-2.6 were first extracted from Meinshausen et al.47 where anthropogenic emissions are time-dependent (Fig. 2 in 47) and natural emissions are fixed over time. The concentration of N2O can be expressed as in Eq. 1.
+$$\frac{{{\rm{dN}}}_{2}{\rm{O}}}{{\rm{dt}}}={\rm{E}}({\rm{t}})-\frac{{{\rm{N}}}_{2}{\rm{O}}}{{\rm{\tau }}({{\rm{N}}}_{2}{\rm{O}})}$$ (1)
+where \({\rm{E}}({\rm{t}})\) are the time-dependent N2O emissions and the lifetime of N2O, \({\rm{\tau }}({{\rm{N}}}_{2}{\rm{O}})\), is a function of N2O concentration (Eq. 2) (Meinshausen et al.47).
+$${\rm{\tau }}({{\rm{N}}}_{2}{\rm{O}})=139{\left(\frac{{{\rm{C}}}_{{\rm{N}}2{\rm{O}}}^{{\rm{t}}}}{{{\rm{C}}}_{{\rm{N}}2{\rm{O}}}^{0}}\right)}^{-0.04}$$ (2)
+where \({{\rm{C}}}_{{\rm{N}}2{\rm{O}}}^{0}\) and \({{\rm{C}}}_{{\rm{N}}2{\rm{O}}}^{{\rm{t}}}\) are mixing ratios of N2O in the pre-industrial period (273 ppbv) and the time of interest, respectively.
+To calculate the impact of the emission reduction, \({\rm{E}}({\rm{t}})\) is reduced by 1.35 TgN2O yr-1, and Eq. 1 solved to yield a new N2O mixing ratio. Finally, these mixing ratios are scaled by 1.033 to reflect the fact that the N2O LBC value in UKESM1 is consistently 3.3 ± 0.1% higher than the global mean N2O concentrations for both SSP3-7.0 and SSP1-2.6 up to 2100.
+FAIR Simulation for atmospheric CO2 estimates
+To estimate the effect of a sustained 2 GtCO2 yr-1 removal on atmospheric CO2 mixing ratio, we used the FAIR model v2.1.048 with the AR6 calibration (https://zenodo.org/record/7545157#.Y85wwC-l30o; last accessed 24th Jan 2023).
+We conducted four simulations: control SSP3-7.0 and SSP1-2.6 simulations, and perturbed simulations identical to the respective control, except that from 2025 onward, CO2 emissions were lowered by 2 GtCO2 yr-1. For example, the perturbed SSP3-7.0 simulation had identical forcing and emissions as the control SSP3-7.0, except that at 2025, its CO2 emissions were reduced by 2 GtCO2 yr-1.
+These simulations were run with every configuration of FAIR to span assessment of the IPCC AR6 (ECS best estimate 3 °C, 5–95% range 2 °C–5 °C) along with several other assessed ranges from the IPCC AR6 including historical warming, transient climate response, and aerosol radiative forcing. The average difference in atmospheric CO2 concentration between the respective control and perturbed simulations at 2075 was then considered as the impact of the sustained 2 GtCO2 yr-1 removal.
+Radiative forcing calculations
+The radiative forcing from changes to N2O and CO2 were estimated using the radiative kernel from Etminan et al.49 with scenario- and time-appropriate background concentrations.
+The radiative forcing from changes to O3 was calculated by taking the difference between the mean control O3 field (e.g. SSP370 at 2040-2050) and mean low_N2O O3 field (e.g. SSP370_low_N2O at 2040-2050) and applying this to the radiative kernel of Rap et al.50) updated for the whole atmosphere as described in Iglesias-Suarez et al.51.
+Data availability
+Model output from simulations performed for this study is freely available on the Zenodo repository https://doi.org/10.5281/zenodo.10401772 with accompanying explanatory documentation. Output from model simulations performed for CMIP6 are available on the Earth System Grid Federation website and can be downloaded from there (https://esgf-index1.ceda.ac.uk/search/cmip6-ceda/, ESGF, last accessed 10th January 2024).
+Code availability
+Input emissions from SSP3-7.0 and SSP1-2.6 are available from the input4MIPs repository (https://esgf-node.llnl.gov/projects/input4mips/) maintained by ESGF. Due to intellectual property right restrictions, we cannot provide either the source code or documentation papers for the Unified Model/UKESM. The Met Office Unified Model/UKESM is available for use under licence. For further information on how to apply for a licence, see https://www.metoffice.gov.uk/research/approach/modelling-systems/unified-model (last accessed 1st August 2023). Suite numbers for the runs are listed in the README which accompanies the UKESM1 data repository on Zenodo.
+References
+Forster, P. T. et al. The Earth’s Energy Budget, Climate Feedbacks, and Climate Sensitivity. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (Cambridge University Press, 2021).
+Thompson, R. L. et al. Acceleration of global N2O emissions seen from two decades of atmospheric inversion. Nat. Clim. Chang. 9, 993–998 (2019).
+Article
+  CAS
+  Google Scholar
+  Tian, H. et al. A comprehensive quantification of global nitrous oxide sources and sinks. Nature 586, 248–256 (2020).
+Article
+  CAS
+  Google Scholar
+  Tian, H. et al. Global nitrous oxide budget 1980–2020. Preprint at https://doi.org/10.5194/essd-2023-401 (2023).
+Nisbet, E. G. et al. Atmospheric methane and nitrous oxide: Challenges along the path to Net Zero. Philos. Trans. R. Soc. A 379, 20200457 (2021).
+Article
+  CAS
+  Google Scholar
+  Climate Change Act (2008) https://www.legislation.gov.uk/ukpga/2008/27/contents (last accessed 14th November 2023).
+Eory, V. et al. Non-CO2 abatement in the UK agricultural sector by 2050. Summary report submitted to support the 6th carbon budget in the UK December 2020 https://www.theccc.org.uk/wp-content/uploads/2020/12/Non-CO2-abatement-in-the-UK-agricultural-sector-by-2050-Scottish-Rural-College.pdf, (last accessed 20th November 2023).
+Grados, D. et al. Synthesizing the evidence of nitrous oxide mitigation practices in agroecosystems. Environ. Res. Lett. 17, 114024 (2020).
+Article
+  Google Scholar
+  Solomon, S. Stratospheric ozone depletion: a review of concepts and history. Review of Geophysics 37, 275–316 (1999).
+Article
+  CAS
+  Google Scholar
+  Ravishankara, A. R. et al. Nitrous oxide (N2O): The dominant ozone-depleting substance emitted in the 21st century. Science 326, 123–125 (2009).
+Article
+  CAS
+  Google Scholar
+  Portmann, R. W., Daniel, J. S. & Ravishankara, A. R. Stratospheric ozone depletion due to nitrous oxide: influences of other gases. Philos. Trans. R. Soc. B 367, 1256–1264 (2012).
+Article
+  CAS
+  Google Scholar
+  Revell, L. E., Bodeker, G. E., Huck, P. E., Williamson, B. E. & Rozanov, E. The sensitivity of stratospheric ozone changes through the 21st century to N2O and CH4. Atmos. Chem. Phys. 12, 11309–11317 (2012).
+Article
+  CAS
+  Google Scholar
+  Meul, S., Oberländer-Hayn, S., Abalichin, J. & Langematz, U. Nonlinear response of modelled stratospheric ozone to changes in greenhouse gases and ozone depleting substances in the recent past. Atmos. Chem. Phys. 15, 6897–6911 (2015).
+Article
+  CAS
+  Google Scholar
+  Beerling, D. J. et al. Farming with crops and rocks to address global climate, food and soil security. Nat. Plants 4, 138–147 (2018).
+Article
+  Google Scholar
+  Val Martin, M. et al. Improving nitrogen cycling in a land surface model (CLM5) to quantify soil N2O, NO, and NH3 emissions from enhanced rock weathering with croplands. Geosci. Model Dev. 16, 5783–5801 (2023).
+Article
+  Google Scholar
+  Blanc‐Betes, E. et al. In silico assessment of the potential of basalt amendments to reduce N2O emissions from bioenergy crops. GCB Bioenergy 13, 224–241 (2021).
+Article
+  Google Scholar
+  Kantzas, E. P. et al. Substantial carbon drawdown potential from enhanced rock weathering in the United Kingdom. Nat. Geosci. 15, 382–389 (2022).
+Article
+  CAS
+  Google Scholar
+  Chiaravalloti, I. et al. Mitigation of soil nitrous oxide emissions during maize production with basalt amendments. Frontiers in Climate 5, 1203043 (2023).
+Article
+  Google Scholar
+  Beerling, D. J. et al. Potential for large-scale CO2 removal via enhanced rock weathering with croplands. Nature 583, 242–248 (2020).
+Article
+  CAS
+  Google Scholar
+  Sellar, A. et al. UKESM1: Description and Evaluation of the U.K. Earth System Model. Journal of Advances in Modeling Earth System 11, 4513–4558 (2019).
+Article
+  Google Scholar
+  Archibald, A. T. et al. Description and evaluation of the UKCA stratosphere–troposphere chemistry scheme (StratTrop vn 1.0) implemented in UKESM1. Geoscientific Model Dev 13, 1223–1266 (2020).
+Article
+  CAS
+  Google Scholar
+  O’Neill, B. et al. The Scenario Model Intercomparison Project (ScenarioMIP) for CMIP6. Geosci. Model Dev 9, 3461–3482 (2016).
+Article
+  Google Scholar
+  World Meteorological Organization (WMO), Scientific Assessment of Ozone Depletion: 2022, GAW Report No. 278, 509, WMO, Geneva, (2022).
+Strahan, S. E., Douglass, A. R. & Steenrod, S. D. Chemical and dynamical impacts of stratospheric sudden warmings on Arctic ozone variability. J. Geophys. Res. Atmos. 121, 11, 836–11,851 (2016).
+Article
+  CAS
+  Google Scholar
+  Weber, M. et al. The Brewer-Dobson circulation and total ozone from seasonal to decadal time scales. Atmos. Chem. Phys. 11, 11221–11235 (2011).
+Article
+  CAS
+  Google Scholar
+  Tegtmeier, S., Rex, M., Wohltmann, I. & Kruger, K. Relative importance of dynamical and chemical contributions to Arctic wintertime ozone. Geophys. Res. Lett. 35, L17801 (2008).
+Article
+  Google Scholar
+  Randel, W. J., Wu, F. & Stolarski, R. Changes in column ozone correlated with the stratospheric EP flux. J. Meteorol. Soc. Jpn. 80, 849–886 (2002).
+Article
+  Google Scholar
+  Fleming, E. L., Jackman, C. H., Stolarski, R. S. & Douglass, A. R. A model study of the impact of source gas changes on the stratosphere for 1850–2100. Atmos. Chem. Phys. 11, 8515–8541 (2011).
+Article
+  CAS
+  Google Scholar
+  Stolarski, R. S., Douglass, A. R., Oman, L. D. & Waugh, D. W. Impact of future nitrous oxide and carbon dioxide emissions on the stratospheric ozone layer. Environ. Res. Lett. 10, 034011 (2015).
+Article
+  Google Scholar
+  Morgenstern, O. et al. Ozone sensitivity to varying greenhouse gases and ozone-depleting substances in CCMI-1 simulations. Atmos. Chem. Phys. 18, 1091–1114 (2018).
+Article
+  CAS
+  Google Scholar
+  Zeng, G. et al. Attribution of stratospheric and tropospheric ozone changes between 1850 and 2014 in CMIP6. models. J. Geophys. Res. 127, e2022JD036452 (2022).
+Article
+  CAS
+  Google Scholar
+  Keeble, J. et al. Evaluating stratospheric ozone and water vapour changes in CMIP6 models from 1850 to 2100. Atmos. Chem. Phys. 21, 5015–5061 (2021).
+Article
+  CAS
+  Google Scholar
+  Thornhill, G. D. et al. Effective radiative forcing from emissions of reactive gases and aerosols – a multi-model comparison. Atmos. Chem. Phys. 21, 853–874 (2021).
+Article
+  CAS
+  Google Scholar
+  Lacis, A. A., Wuebbles, D. J. & Logan, J. A. Radiative forcing of climate by changes in the vertical distribution of ozone. J. Geophys. Res.: Atmospheres 95, 9971–9981 (1990).
+Article
+  Google Scholar
+  Revell, L. E. et al. The effectiveness of N2O in depleting stratospheric ozone. Geophys. Res. Lett. 39, L15806 (2012).
+Article
+  Google Scholar
+  U.S. Department of States, The long-term strategy of the United States: pathways to net-zero greenhouse gas emissions by 2050. U.S. Department of State and U.S. Exec. Off. President, Washington DC, pp.1–65 (2021).
+European Comission, Directorate for Climate Action, EU Emissions Trading System (EU ETS), https://climate.ec.europa.eu/eu-action/eu-emissions-trading-system-eu-ets_en (last access April 25, 2024).
+Cui, M. et al. Effective mitigation of nitrate leaching and nitrous oxide emissions in intensive vegetable production systems using a nitrification inhibitor, dicyandiamide. J. Soils Sediments 11, 722–730 (2011).
+Article
+  CAS
+  Google Scholar
+  Gao D. et al. 2021 IOP Conf. Ser.: Earth Environ. Sci. 690 012012.
+MacLeod, M. et al. Cost-Effectiveness of Greenhouse Gas Mitigation Measures for Agriculture: A Literature Review, OECD Food, Agriculture and Fisheries Papers, No. 89, OECD Publishing, Paris (2015).
+Riahi, K. R. et al. Mitigation pathways compatible with long-term goals. In IPCC, 2022: Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change (Cambridge University Press, 2022).
+Kanter, D. R. et al. Improving the social cost of nitrous oxide. Nat. Clim. Chang 11, 1008–1010 (2021).
+Article
+  Google Scholar
+  Tian, H. et al. The global N2O model intercomparison project. BAMS 99, 1231–1251 (2018).
+Article
+  Google Scholar
+  Canadell, J. G. et al: Global Carbon and other Biogeochemical Cycles and Feedbacks. In Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change.(Cambridge University Press, 2021).
+Mulcahy, J. P. et al. Description and evaluation of aerosol in UKESM1 and HadGEM3-GC3.1 CMIP6 historical simulations. Geosci. Model Dev. 13, 6383–6423 (2020).
+Article
+  CAS
+  Google Scholar
+  Jones, A. C. et al. Exploring the sensitivity of atmospheric nitrate concentrations to nitric acid uptake rate using the Met Office’s Unified Model. Atmos. Chem. Phys. 21, 15901–15927 (2021).
+Article
+  CAS
+  Google Scholar
+  Meinshausen, M. et al. The shared socio-economic pathway (SSP) greenhouse gas concentrations and their extensions to 2500. Geosci. Model Dev. 13, 3571–3605 (2020).
+Article
+  CAS
+  Google Scholar
+  Leach, N. et al. FaIRv2.0.0: a generalized impulse response model for climate uncertainty and future scenario exploration. Geosci. Model Dev. 14, 3007–3036 (2021).
+Article
+  CAS
+  Google Scholar
+  Etminan, M. et al. Radiative forcing of carbon dioxide, methane, and nitrous oxide: A significant revision of the methane radiative forcing. Geophys. Res. Lett 43, 24 (2016).
+Article
+  Google Scholar
+  Rap, A. et al. Satellite constraint on the tropospheric ozone radiative effect. Geophys. Res. Lett. 42, 5074–5081 (2015).
+Article
+  CAS
+  Google Scholar
+  Iglesias-Suarez, F. et al. Key drivers of ozone change and its radiative forcing over the 21st century. Atmos. Chem. Phys. 18, 6121–6139 (2018).
+Article
+  CAS
+  Google Scholar
+  Download references
+Acknowledgements
+This work was supported by the UKRI Future Leaders Fellowship Programme awarded to Maria Val Martin (MR/T019867/1) and the Leverhulme Research Centre Award (RC-2015–02) to David J. Beerling. This work used Monsoon2, a collaborative high-performance computing facility funded by the Met Office and the Natural Environment Research Council, the ARCHER2 UK National Supercomputing Service, and JASMIN, the UK collaborative data analysis facility. We also thank Isabella Chiaravalloti and Noah Planavsky for useful comments in an initial draft of the manuscript.
+Author information
+James Weber
+Present address: Department of Meteorology, University of Reading, Reading, RG6 6ET, UK
+Authors and Affiliations
+Leverhulme Centre for Climate Change Mitigation, School of Biosciences, University of Sheffield, Sheffield, S10 2TN, UK
+James Weber, David J. Beerling & Maria Val Martin
+Lancaster Environment Centre, Lancaster University, Lancaster, UK
+James Keeble
+Centre for Atmospheric Science, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK
+Nathan Luke Abraham
+National Centre for Atmospheric Science, Yusuf Hamied Department of Chemistry, University of Cambridge, Cambridge, CB2 1EW, UK
+Nathan Luke Abraham
+Contributions
+J.W., M.V.M., and D.J.B. conceived the study. M.V.M. calculated changes in N2O emissions from nitrification inhibitor application and ERW scenario. J.W. set up and performed simulations with advice from N.L.A. J.W. performed the analysis with advice from J.K., M.V.M., and D.J.B. J.W. drafted the manuscript with input from M.V.M. and D.J.B. All authors reviewed and commented on the manuscript.
+Corresponding author
+Correspondence to James Weber.
+Ethics declarations
+Competing interests
+D.J.B. has a minority equity stake in companies (Future Forest/Undo), is a member of the Advisory Board of The Carbon Community, a UK carbon removal charity, and the Scientific Advisory Council of the non-profit Carbon Technology Research Foundation. M.V.M. is a member of the UK Government Defra Air Quality Expert Group. The remaining authors declare that they have no competing interests.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary information
+Supplementary information
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Weber, J., Keeble, J., Abraham, N.L. et al. Global agricultural N2O emission reduction strategies deliver climate benefits with minimal impact on stratospheric O3 recovery. npj Clim Atmos Sci 7, 121 (2024). https://doi.org/10.1038/s41612-024-00678-2
+Download citation
+Received
+22 January 2024
+Accepted
+29 May 2024
+Published
+07 June 2024
+DOI
+https://doi.org/10.1038/s41612-024-00678-2
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+Atmospheric chemistry
+Climate-change mitigation
+Download PDF
+Sections
+Figures
+References
+Abstract
+Introduction
+Results
+Discussion
+Methods
+Data availability
+Code availability
+References
+Acknowledgements
+Author information
+Ethics declarations
+Additional information
+Supplementary information
+Rights and permissions
+About this article
+Advertisement
+npj Climate and Atmospheric Science (npj Clim Atmos Sci) ISSN 2397-3722 (online)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

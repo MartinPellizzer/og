@@ -1,0 +1,47 @@
+Geoscientific Model Development
+ARTICLES & PREPRINTS
+SUBMISSION
+POLICIES
+PEER-REVIEW PROCESS
+EDITORIAL BOARD
+ABOUT
+EGU PUBLICATIONS
+  Preprint  
+Preprints
+Preprint gmd-2024-107
+
+https://doi.org/10.5194/gmd-2024-107
+© Author(s) 2024. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Abstract
+Discussion
+Metrics
+Submitted as: model evaluation paper
+ | 
+26 Jun 2024
+Status: this preprint is currently under review for the journal GMD.
+Updates and evaluation of NOAA’s online-coupled air quality model version 7 (AQMv7) within the Unified Forecast System
+Wei Li, Beiming Tang, Patrick C. Campbell, Youhua Tang, Barry Baker, Zachary Moon, Daniel Tong, Jianping Huang, Kai Wang, Ivanka Stajner, Raffaele Montuoro, and Robert C. Gilliam
+Abstract. Air quality forecasting system is an essential tool widely used by environmental managers to mitigate adverse health effects of air pollutants. This work presents the latest development of the next generation regional air quality model (AQM) forecast system within the Unified Forecast System (UFS) framework in the National Oceanic and Atmospheric Administration (NOAA). The UFS air quality model incorporates the U.S. Environmental Protection Agency (EPA)’s Community Multiscale Air Quality (CMAQ) model as its main chemistry component. In this system, CMAQ is integrated as a column model to solve gas and aerosol chemistry while the transport of chemical species is processed by UFS. The current AQM version 7 (AQMv7) is coupled with an earlier version of CMAQ (version 5.2.1). Here we describe the development of the updated AQMv7 by coupling to a ‘state-of-the-science’ CMAQ version 5.4. The updates include improvements in gas and aerosol chemistry, dry deposition processes, and structural changes to the Input/Output (IO) interface, enhancing both computational efficiency and the representation of air-surface exchange processes. A simulation was conducted for the period of August 2023 to assess the effects of these updates on the forecast performance of ozone (O3) and fine particulate matter (PM2.5), two major air pollutants over the continental United States (CONUS). The results show that the updated model demonstrates a significantly enhanced capability in simulating O3 over the CONUS by reducing the positive bias during both day and night, leading to a reduction of the mean bias by 50 % and 72 % for hourly and the maximum daily 8-hour average O3, respectively. Spatially, the updated model lowers the positive bias of hourly O3 in all of the ten EPA regions, particularly within the Great Plains. Similarly, the updates induce uniformly lower fine particulate matter (PM2.5) concentrations across the CONUS domain, reducing the positive bias in the northeast and central Great Plain and exacerbating the negative bias in the west and south. The updated model does not improve model performance for PM2.5 in the vicinity of fire emission sources as compared to AQMv7, thus indicating a focal point of model uncertainty and needed improvement. Despite these challenges, the study highlights the importance of the ongoing refinements for reliable air quality predictions from the UFS-AQM model, which is the future replacement of NOAA’s current operational air quality forecast system.
+How to cite. Li, W., Tang, B., Campbell, P. C., Tang, Y., Baker, B., Moon, Z., Tong, D., Huang, J., Wang, K., Stajner, I., Montuoro, R., and Gilliam, R. C.: Updates and evaluation of NOAA’s online-coupled air quality model version 7 (AQMv7) within the Unified Forecast System, Geosci. Model Dev. Discuss. [preprint], https://doi.org/10.5194/gmd-2024-107, in review, 2024.
+Received: 04 Jun 2024 – Discussion started: 26 Jun 2024
+Publisher's note: Copernicus Publications remains neutral with regard to jurisdictional claims made in the text, published maps, institutional affiliations, or any other geographical representation in this preprint. The responsibility to include appropriate place names lies with the authors.
+
+Download
+Preprint (2106 KB)
+Metadata XML
+Supplement (1421 KB)
+BibTeX
+EndNote
+Short summary
+The study describes the updates of NOAA's current UFS-AQMv7 air quality forecast model by...
+Read more
+Share
+Geoscientific Model Development
+An interactive open-access journal of the European Geosciences Union
+All site content, except where otherwise noted, is licensed under the Creative Commons Attribution 4.0 License.
+Contact
+|
+Imprint
+|
+Data protection

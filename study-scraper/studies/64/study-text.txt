@@ -1,0 +1,326 @@
+Processing math: 100%
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Computational Statistics Article
+Bayesian diagnostics in a partially linear model with first-order autoregressive skew-normal errors
+Original Paper
+Published: 11 July 2024
+(2024)
+Cite this article
+Computational Statistics
+Aims and scope
+Submit manuscript
+Yonghui Liu, Jiawei Lu, Gilberto A. Paula & Shuangzhe Liu
+  37 Accesses
+Explore all metrics
+Abstract
+This paper studies a Bayesian local influence method to detect influential observations in a partially linear model with first-order autoregressive skew-normal errors. This method appears suitable for small or moderate-sized data sets (n=200{\sim }400) and overcomes some theoretical limitations, bridging the diagnostic gap for small or moderate-sized data in classical methods. The MCMC algorithm is employed for parameter estimation, and Bayesian local influence analysis is made using three perturbation schemes (priors, variances, and data) and three measurement scales (Bayes factor, \phi -divergence, and posterior mean). Simulation studies are conducted to validate the reliability of the diagnostics. Finally, a practical application uses data on the 1976 Los Angeles ozone concentration to further demonstrate the effectiveness of the diagnostics.
+This is a preview of subscription content, log in via an institution to check access.
+
+Similar content being viewed by others
+Estimation and diagnostic for partially linear models with first-order autoregressive skew-normal errors
+Article 10 July 2021
+Statistical Inferences in a Partially Linear Model with Autoregressive Errors
+Article 19 October 2022
+Influence diagnostic analysis in the possibly heteroskedastic linear model with exact restrictions
+Article 14 July 2015
+References
+Albert J (2007) Bayesian Computation with R. Springer
+Book
+  Google Scholar
+  Azzalini A (1985) A class of distribution which includes the normal ones. Scandinavian Journal of Statistics 12:171–178
+MathSciNet
+  Google Scholar
+  Cardozo CA, Paula GA, Vanegas LH (2022) Generalized log-gamma additive partial linear models with P-spline smoothing. Statistical Papers 63(6):1953–1978
+Article
+  MathSciNet
+  Google Scholar
+  Cook RD (1986) Assessment of local influence. Journal of the Royal Statistical Society B 48:133–169
+Article
+  MathSciNet
+  Google Scholar
+  Crainiceanu C, Ruppert D, Wand M (2005) Bayesian analysis for penalized spline regression using WinBUGS. Journal of Statistical Software 14(14):1–24
+Article
+  Google Scholar
+  Dai XW, Jin LB, Tian MZ, Shi L (2019) Bayesian local influence for spatial autoregressive models with heteroscedasticity. Statistical Papers 60(5):1423–1446
+Article
+  MathSciNet
+  Google Scholar
+  Dominici F, McDermott A, Hastie T (2004) Improved semiparametric time series models of air pollution and mortality. Journal of the American Statistical Association 9(468):938–948
+Article
+  MathSciNet
+  Google Scholar
+  Ferreira CS, Montoril MH, Paula GA (2022) Partially linear models with p-order autoregressive skew-normal errors. Brazilian Journal of Probability and Statistics 36(4):792–806
+MathSciNet
+  Google Scholar
+  Ferreira CS, Paula GA (2017) Estimation and diagnostic for skew-normal partially linear models. Journal of Applied Statistics 44(16):3033–3053
+Article
+  MathSciNet
+  Google Scholar
+  Ferreira CS, Paula GA, Lana GC (2022) Estimation and diagnostic for partially linear models with first-order autoregressive skew-normal errors. Computational Statistics 37:445–468
+Article
+  MathSciNet
+  Google Scholar
+  Ferreira G, Castro LM, Lachos VH, Dias R (2013) Bayesian modeling of autoregressive partial linear models with scale mixture of normal errors. Journal of Applied Statistics 8:1976–1816
+MathSciNet
+  Google Scholar
+  Galea MP, Paula GA, Bolfarine H (1997) Local influence in elliptical linear regression models. Journal of the Royal Statistical Society: Series D (The Statistician) 46:71–79
+Google Scholar
+  Gelman A, Carlin JB, Stern HS, Dunson DB, Vehtari A, Rubin DB (2013) Bayesian Data Analysis, Third Edition. Chapman and Hall/CRC
+Hao HX, Lin JG (2019) Wang HX (2019) Bayesian local influence analysis and its application of GARCH model. Journal of Mathematical Statistics and Management 4:602–618
+Google Scholar
+  Ju YY, Yang Y, Hu MX, Dai L, Wu LC (2022) Bayesian influence analysis of the skew-normal spatial autoregression models. Mathematics 10(8):1306
+Article
+  Google Scholar
+  Lee SY, Xu L (2004) Influence analysis of nonlinear mixed-effects models. Computational Statistics & Data Analysis 45:321–441
+Article
+  MathSciNet
+  Google Scholar
+  Liu S (2000) On local influence for elliptical linear models. Statistical Papers 41:211–224
+Article
+  MathSciNet
+  Google Scholar
+  Liu S (2004) On diagnostics in conditionally heteroscedastic time series models under elliptical distributions. Journal of Applied Probability 41A:394–405
+Google Scholar
+  Liu S, Leiva V, Zhuang D, Ma T, Figueroa-Zúñiga JI (2022) Matrix differential calculus with applications in the multivariate linear model and its diagnostics. Journal of Multivariate Analysis 188:104849
+Article
+  MathSciNet
+  Google Scholar
+  Liu YH, Mao GH, Leiva V, Liu S, Tapia A (2020) Diagnostic analytics for an autoregressive model under the skew-normal distribution. Mathematics 8(5):693
+Article
+  Google Scholar
+  Liu YH, Sang RC, Liu S (2017) Diagnostic analysis for a vector autoregressive model under Student’s t-distributions. Statistica Neerlandica 71(2):86–114
+Article
+  MathSciNet
+  Google Scholar
+  Liu YH, Wang J, Leiva V, Tapia A, Tan W, Liu S (2024) Robust autoregressive modeling and its diagnostic analytics with a COVID-19 related application. Journal of Applied Statistics 51(7):1318–1343
+Article
+  MathSciNet
+  Google Scholar
+  Liu YH, Wang J, Shi DW, Leiva V, Liu S (2023) A score test for detecting extreme values in a vector autoregressive model. Journal of Statistical Computation and Simulation 93(15):2751–2779
+Article
+  MathSciNet
+  Google Scholar
+  Liu YH, Wang J, Yao Z, Liu C, Liu S (2022) Diagnostic analytics for a GARCH model under skew-normal distributions. Communication in Statistics -Simulation and Computation. https://doi.org/10.1080/03610918.2022.2157015
+Article
+  Google Scholar
+  Marriott J, Newbold P (1998) Bayesian comparison of ARIMA and stationary ARMA models. International Statistical Review 66(3):323–336
+Article
+  Google Scholar
+  Oliveira RA, Paula GA (2021) Additive models with autoregressive symmetric errors based on penalized regression splines. Computational Statistics 36(4):2435–2466
+Article
+  MathSciNet
+  Google Scholar
+  Paula GA, Leiva V, Barros M, Liu S (2012) Robust statistical modeling using the Birnbaum-Saunders-t distribution applied to insurance. Applied Stochastic Models in Business & Industry 28(1):16–34
+Article
+  MathSciNet
+  Google Scholar
+  Poon WY, Poon YS (1999) Conformal normal curvature and assessment of local influence. Journal of the Royal Statistical Society B 61:51–61
+Article
+  MathSciNet
+  Google Scholar
+  Ruppert D, Wand M, Carroll R (2003) Semiparametric Regression. Cambridge University Press, Cambridge, UK
+Book
+  Google Scholar
+  Sahu SK, Dey DK, Branco MD (2003) A new class of multivariate distributions with applications to Bayesian regression models. Canadian Journal of Statistics 31:129–150
+Article
+  MathSciNet
+  Google Scholar
+  Seber GAF, Wild CL (1989) Nonlinear Regression. Wiley, New York
+Book
+  Google Scholar
+  Sturtz S, Ligges U, Gelman A (2005) R2WinBUGS: A package for running WinBUGS from R. Journal of Statistical Software 12(3):1–16
+Article
+  Google Scholar
+  Tang N, Duan XD (2014) Bayesian influence analysis of generalized partial linear mixed models for longitudinal data. Journal of Multivariate Analysis 126:86–99
+Article
+  MathSciNet
+  Google Scholar
+  Zeger S, Diggle P (1994) Semiparametric models for longitudinal data with application to CD4 cell numbers in HIV seroconverters. Biometrics 50(3):689–699
+Article
+  Google Scholar
+  Zhu H, Ibrahim JG, Tang N (2011) Bayesian influence analysis: a grometric approach. Biometrika 98(2):307–323
+Article
+  MathSciNet
+  Google Scholar
+  Zhu H, Lee SY (2001) Local influence for incomplete data models. Journal of the Royal Statistical Society Series B 63(1):111–126
+Article
+  MathSciNet
+  Google Scholar
+  Download references
+Acknowledgements
+We extend our sincere gratitude to the Reviewers and Editors for their constructive and insightful comments, which have significantly enhanced the presentation of our manuscript.
+Author information
+Authors and Affiliations
+School of Statistics and Information, Shanghai University of International Business and Economics, Shanghai, China
+Yonghui Liu & Jiawei Lu
+Institute of Mathematics and Statistics, University of São Paulo, São Paulo, Brazil
+Gilberto A. Paula
+Faculty of Science and Technology, University of Canberra, Canberra, Australia
+Shuangzhe Liu
+Corresponding author
+Correspondence to Shuangzhe Liu.
+Ethics declarations
+Conflict of interest
+There are no conflict of interest.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Appendix
+Appendix
+1.1 A1: Deviation of model reduction
+Proof
+By Lemma 2, model (3) can be further expressed as:
+\begin{aligned} \begin{aligned} y_i&={{\textbf{x}}_i}^\top \varvec{\beta }+g(t_i)+\rho (y_{i-1}-{{\textbf{x}}_{i-1}}^\top \varvec{\beta }-g(t_{i-1}))+e_i,\\ e_i&=-\sqrt{2/\pi }\lambda +\lambda \left| h_{0i}\right| +\sigma h_{1i}, i=1,2,3\ldots n. \end{aligned} \end{aligned} (9)
+In model (9), h_{0i} and h_{1i} are mutually independent standard normal random variables. Let h_i = \left| h_{0i}\right| and \eta _i = \sigma h_{1i}. Then, we can further simplify the model to:
+\begin{aligned} y_i&={\bf{x}_i}^\top \varvec{\beta }+g(t_i)+\rho (y_{i-1}-{\bf{x}}_{i-1}^\top \varvec{\beta }-g(t_{i-1}))-\sqrt{2/\pi }\lambda +\lambda h_i+\eta _i, \\ \eta _i&{\mathop {\sim }\limits ^{iid}} N(0,\sigma ^2), i=1,2,3\ldots n.\\ \end{aligned} (10)
+Ruppert et al. (2003) addressed the semiparametric modeling problem by demonstrating the equivalence of penalized splines and additive mixed models. In this paper, similar to Ruppert, we aim to use the low-rank thin-plate spline to represent the non-parametric part of the model in a different manner. We will expand the smooth function g(t) as follows:
+\begin{aligned} g(t)=\alpha _0+\alpha _1t+\sum _{s=1}^Ku_s|t-\kappa _s|^3, \end{aligned} (11)
+where t_{min}\le \kappa _1\le \kappa _2\ldots \le \kappa _K\le t_{max}, and they are fixed knots. In spline expansion, the selection of knots is crucial. Typically, these knots are determined as the sample quantiles of the covariate t’s corresponding to probability k/(K+1), where K is the number of knots. Having too many or too few knots can lead to poor spline estimation. In this paper, we adopt the knots selection method proposed by Ruppert et al. (2003) and choose 20 knots (K=20) for the spline expansion of the non-parametric part. After a series of matrix transformations (Crainiceanu et al. 2005), we can express Eq. (7) in the following form:
+\begin{aligned} \varvec{g(t)}&=\varvec{T}\varvec{\alpha }+\varvec{Z}_K{\varvec{u}}\\&=\varvec{T}\varvec{\alpha }+(\varvec{Z}_K{\varvec{\Omega }_K}^{-\frac{1}{2}})({\varvec{\Omega }_K}^{\frac{1}{2}}{\varvec{u}})\\&=\varvec{T}\varvec{\alpha }+\varvec{Zb},\end{aligned}
+where \varvec{g(t)}=(g(t_1),g(t_2),\ldots ,g(t_n))^\top , {\textbf{t}}=(t_1,t_2,\ldots ,t_n)^\top , \varvec{\alpha } = (\alpha _0, \alpha _1)^\top , {\varvec{T}}=({\textbf{1}}_{n\times 1},{\varvec{t}}), {\varvec{u}}=(u_1,u_2,\ldots ,u_K)^\top , {\varvec{Z}}_K is a matrix with i-th row {\varvec{Z}}_{Ki}=\{|t_i-\kappa _1|^3,\ldots ,|t_i-\kappa _K|^3\}, \varvec{\Omega }_K is a penalty coefficient matrix with k-th row \varvec{\Omega }_{Kk}=\{|\kappa _k-\kappa _1|^3,\ldots ,|\kappa _k-\kappa _K|^3\} (to avoid overfitting), {\varvec{Z}}=\varvec{Z_K\Omega }^{-\frac{1}{2}}_K, {\varvec{b}} = {\varvec{\Omega }}^{\frac{1}{2}}_K{\varvec{u}} is assumed to be normally distributed with mean zero and variance \sigma^2_b.
+Then we get
+\begin{aligned} Y_i&={\textbf{w}_i}^\top \varvec{\Lambda }+{\varvec{z}}_i^\top {\varvec{b}} +\rho (y_{i-1}-{\textbf{w}_{i-1}}^\top \varvec{\Lambda } -{\varvec{z}}_{i-1}{\varvec{b}})-\sqrt{2/\pi }\lambda +\lambda h_i+\eta _i, \\ \eta _i&{\mathop {\sim }\limits ^{iid}} N(0,\sigma ^2),\quad i=1,2,3\ldots n, \\ \end{aligned} (12)
+which gives model (4). \square
+1.2 A2: Perturbation of priors
+We established perturbations of the parameters.
+\begin{aligned} p(y,\varvec{\theta }|\varvec{\omega }_{p+5+20})\propto & {} \prod _{i=1}^p \varphi \Big (\frac{\beta _i-\beta _{0i}-\omega _{\beta _i}}{\sigma _{\beta _i}}\Big ) \times \varphi \Big (\frac{\alpha _0-\omega _{\alpha _0}}{\sigma _{\alpha _0}}\Big )\times \varphi \Big (\frac{\alpha _1-\omega _{\alpha _1}}{\sigma _{\alpha _1}}\Big )\times \varphi \Big (\frac{\lambda -\mu _\lambda -\omega _\lambda }{\sigma _{\lambda }}\Big )\\\times & {} \frac{1}{B(a_\rho {}_0+\omega _\rho {}_0,b_\rho {}_0)}\,\rho _0^{a_\rho {}_0+\omega _\rho {}_0-1}\,(1-\rho _0)^{b_\rho {}_0-1}\\\times & {} \frac{(\frac{1}{2}q_1+\omega _{\sigma ^2})^{\frac{1}{2}q_0}}{\Gamma (\frac{1}{2}q_0)}\,\sigma ^{-q_0-2}\, \exp \Big \{-\frac{q_1+\omega _{\sigma ^2}}{2\sigma ^2}\Big \}\times \prod _{j=1}^{20} \varphi \Big (\frac{b_j-\omega _{b_j}}{\sigma _{bj}}\Big ), \end{aligned}
+where \varvec{\omega }_{p+5+20}=(\omega _{\varvec{\beta }},\omega _{\varvec{\alpha }},\omega _\lambda ,\omega _\rho ,\omega_{\sigma^2},\omega _{\textbf{b}}), and \varvec{\omega }_{p+5+20}^0={\textbf{0}} represents the scenario without any perturbation, B(\cdot ) means beta function, \Gamma (\cdot ) means gamma function. The perturbation model {\mathcal {M}}=\{p(y,\varvec{\theta }|\varvec{\omega }):\varvec{\omega }\in R^{p+5+20}\} yields a Riemannian manifold and the tangent space T_{\varvec{\omega }} spanned by {\mathcal {M}} is given by
+\begin{aligned} \dot{l}(y,\varvec{\theta }|\varvec{\omega })= & {} \Big (\frac{\beta _1-\beta _{01}-\omega _{\beta _1}}{\sigma _{\beta _1}^2},\ldots ,\frac{\beta _p-\beta _{0p}-\omega _{\beta _p}}{\sigma _{\beta _p}^2},\frac{\alpha _0-\omega _{\alpha _0}}{\sigma _{\alpha _0}^2},\frac{\alpha _1-\omega _{\alpha _1}}{\sigma _{\alpha _1}^2},\frac{\lambda -\mu _\lambda -\omega _\lambda }{\sigma _\lambda ^2},\\{} & {} -\frac{\int _{0}^{1} \text{ln}\rho _0(1-\rho _0)^{b_\rho {}_0-1}\rho _0^{a_\rho {}_0+\omega _\rho {}_0-1}d\rho _0}{B(a_\rho {}_0+\omega _\rho {}_0,b_\rho {}_0)}+\text{ln}\rho _0,\, \frac{q_0}{q_1+2\omega _{\sigma ^2}}-\frac{1}{2\sigma ^2},\, \frac{b_1-\omega _b{}_1}{\sigma _{\beta _1}^2},\\{} & {} \ldots ,\frac{b_{20}-\omega _{b_{20}}}{\sigma _{b_{20}}^2}\Big ). \end{aligned}
+Then, we obtain
+\begin{aligned} {\textbf {G}}(\varvec{\omega }^0)= \,& {} \textrm{diag}\Big (\frac{1}{\sigma _{\beta _1}^2},\ldots ,\frac{1}{\sigma _{\beta _p}^2},\frac{1}{\sigma _{\alpha _0}^2},\frac{1}{\sigma _{\alpha _1}^2},\frac{1}{\sigma _\lambda ^2},D(\text{ln}\rho _0),\, \frac{2q_0}{q_1},\, \frac{1}{\sigma _{b}^2},\ldots ,\frac{1}{\sigma _{b_{20}}^2}\Big ), \end{aligned}
+where
+\begin{aligned} D({\text{ln}}\rho _0)= {} \int _{0}^{1} \text{ln}^2\rho _0\frac{1}{B(a_\rho {}_0,b_\rho {}_0)}(1-\rho _0)^{b_\rho {}_0-1}\rho _0^{a_\rho {}_0-1}d\rho _0-\Big (\int _{0}^{1} \text{ln}\rho _0\frac{1}{B(a_\rho {}_0,b_\rho {}_0)}(1-\rho _0)^{b_\rho {}_0-1}\rho _0^{a_\rho {}_0-1}d\rho _0\Big )^2. \end{aligned}
+1.3 A3: Perturbation of variances
+By incorporating the perturbations, we obtain a refined posterior distribution that helps in better understanding the model’s behavior under different variance scenarios. We have that:
+\begin{aligned} p(y,\varvec{\theta }|\varvec{\omega })= \,& {} p(\varvec{\theta })\cdot L(\varvec{\theta }|\varvec{\omega })\\\propto\, & {} L(\varvec{\theta }|\varvec{\omega })\\=\, & {} \exp [-\frac{1}{2}{\text{ln}}\frac{\sigma ^2}{\omega _1}-\frac{\omega _1}{2\sigma ^2}(y_1-m_1+\sqrt{2/\pi }\lambda -\lambda h_1)^2-\sum _{i=2}^n \frac{1}{2}{\text{ln}}\frac{\sigma ^2}{\omega _i}\\{} & {} -\sum _{i=2}^n \frac{\omega _i}{2\sigma ^2}(y_i-\mu _i+\sqrt{2/\pi }\lambda -\lambda h_i)^2],\\ \dot{l}(y,\varvec{\theta }|\varvec{\omega })= \,& {} \Big (\frac{1}{2\omega _1}-\frac{(y_1-m_1+\sqrt{2/\pi }\lambda -\lambda h_1)^2}{2\sigma ^2},\,\frac{1}{2\omega _2}-\frac{(y_2-\mu _2+\sqrt{2/\pi }\lambda -\lambda h_2)^2}{2\sigma ^2}, \ldots ,\\ {}{} & {} \frac{1}{2\omega _n}-\frac{(y_n-\mu _n+\sqrt{2/\pi }\lambda -\lambda h_n)^2}{2\sigma ^2}\Big ), \end{aligned}
+Then, we obtain:
+\begin{aligned} {\textbf {G}}(\varvec{\omega }^0)= \,& {} \frac{1}{2} {\textbf {I}}_{n\times n}. \end{aligned}
+1.4 A4: Perturbation of data
+A4A: Response variable
+Establishing perturbations on the response variable {\textbf{y}}
+\begin{aligned} \left[ \begin{array}{cc} y_1+\omega _1\\ y_2+\omega _2\\ y_3+\omega _3\\ \vdots \\ y_{n}+\omega _n \end{array} \right] = \left[ \begin{array}{cc} m_1\\ m_2\\ m_3\\ \vdots \\ m_{n} \end{array} \right] +\rho \left[ \begin{array}{cc} 0\\ y_1+\omega _1-m_1\\ y_2+\omega _2-m_2\\ \vdots \\ y_{n-1}+\omega _{n-1}-m_{n-1} \end{array} \right] -\lambda \left[ \begin{array}{cc} \sqrt{2/\pi }-h_1\\ \sqrt{2/\pi }-h_2\\ \sqrt{2/\pi }-h_3\\ \vdots \\ \sqrt{2/\pi }-h_{n}\\ \end{array} \right] + \left[ \begin{array}{cc} \eta _1\\ \eta _2\\ \eta _3\\ \vdots \\ \eta _n \end{array} \right] . \end{aligned} (13)
+We have that
+\begin{aligned} p(y,\varvec{\theta }|\varvec{\omega })= \,& {} p(\varvec{\theta })\cdot L(\varvec{\theta }|\varvec{\omega })\\\propto \,& {} L(\varvec{\theta }|\varvec{\omega })\\\propto \,& {} \exp [-\frac{1}{2\sigma ^2}\,(R_1^2+\sum _{i=2}^n R_i^2\,)],\\ \dot{l}(y,\varvec{\theta }|\varvec{\omega })=\, & {} \Big (\frac{\rho R_2-R_1}{\sigma ^2},\,\ldots ,\frac{\rho R_{i+1}-R_i}{\sigma ^2},\,\ldots ,\frac{\rho R_n-R_{n-1}}{\sigma ^2},\,-\frac{R_n}{\sigma ^2}\Big ). \end{aligned}
+Then, we obtain:
+\begin{aligned} {\textbf {G}}(\varvec{\omega }^0)= \,& {} \textrm{diag}\Big ({\textbf {E}}_{\varvec{\omega }^0}[\frac{\rho ^2+1}{\sigma ^2}],\ldots ,\,{\textbf {E}}_{\varvec{\omega }^0}[\frac{\rho ^2+1}{\sigma ^2}],{\textbf {E}}_{\varvec{\omega }^0}[\frac{1}{\sigma ^2}]\Big ), \end{aligned}
+where
+\begin{aligned} R_1= \,& {} (y_1+\omega _1)-m_1+\sqrt{2/\pi }\lambda -\lambda h_1,\\ R_i= \,& {} (y_i+\omega _i)-m_i-\rho [(y_{i-1}+\omega _{i-1})-{m_i-1})]+\sqrt{2/\pi }\lambda -\lambda h_i,\qquad i=2,3,\ldots ,n. \end{aligned}
+A4B: Explanatory variable
+Establishing perturbations on the explanatory variable \mathbf {x_k} (assumed continuous)
+\begin{aligned} \mathbf {X_k}(\omega ) = \left[ \begin{matrix} x_{11} &{} x_{21} &{} \ldots &{} x_{n1}\\ x_{12} &{} x_{22} &{} \ldots &{} x_{n2}\\ \vdots &{} \vdots &{} \ddots &{} \vdots \\ x_{1k}+\omega _1 &{} x_{2k}+\omega _2 &{} \ldots &{} x_{nk}+\omega _n\\ \vdots &{} \vdots &{} \ddots &{} \vdots \\ x_{1p} &{} x_{2p} &{} \ldots &{} x_{np} \end{matrix} \right] . \end{aligned} (14)
+As a result, we obtain
+\begin{aligned} p(y,\varvec{\theta }|\varvec{\omega })= \,& {} p(\varvec{\theta })\cdot L(\varvec{\theta }|\varvec{\omega })\\\propto & {} L(\varvec{\theta }|\varvec{\omega })\\\propto & {} \exp \left[-\frac{1}{2\sigma ^2}\,(U_1^2+\sum _{i=2}^n U_i^2\,)\right], \\ \dot{l}(y,\varvec{\theta }|\varvec{\omega })= \,& {} \Big (\frac{\beta _k}{\sigma ^2}(U_1-\rho U_2),\,\ldots ,\frac{\beta _k}{\sigma ^2}(U_i-\rho U_{i+1}),\,\ldots ,\frac{\beta _k}{\sigma ^2}(U_{n-1}-\rho U_{n}),\,\frac{\beta _k}{\sigma ^2}U_n\Big ). \end{aligned}
+Then, it follows that
+\begin{aligned} {\textbf {G}}(\omega ^0)= & {} \textrm{diag}\left({\textbf {E}}_{\varvec{\omega }^0}\left[\beta _k\frac{\rho ^2+1}{\sigma ^2}\right],\ldots ,\,{\textbf {E}}_{\varvec{\omega }^0}\left[\beta _k\frac{\rho ^2+1}{\sigma ^2}\right],{\textbf {E}}_{\varvec{\omega }^0}\left[\beta _k\frac{1}{\sigma ^2}\right]\right ), \end{aligned}
+where
+\begin{aligned} U_1= \,& {} y_1-(x_{1k}+\omega _1)\beta _k-x_{1(-k)}^\top \beta _{(-k)}-t_1^\top \alpha -z_1^\top b+\sqrt{2/\pi }\lambda -\lambda h_1\\ U_i= \,& {} y_i-(x_{ik}+\omega _i)\beta _k-x_{i(-k)}^\top \beta _{(-k)}-t_i^\top \alpha -z_i^\top b-\rho [y_{i-1}-(x_{i-1,k}+\omega _{i-1})\beta _k\\{} & {} -x_{i-1,(-k)}^\top \beta _{(-k)}-t_{i-1}^\top \alpha -z_{i-1}^\top b]+\sqrt{2/\pi }\lambda -\lambda h_i,\qquad i=2,3,\ldots ,n. \end{aligned}
+1.5 A5: Metropolis-Hastings algorithm
+As a widely used MCMC method, the Metropolis-Hastings (MH) algorithm generates samples from complex probability distributions where direct sampling is challenging. For detailed introductions, we refer to two books Albert (2007) and Gelman et al. (2013), which provide a comprehensive overview of Bayesian statistical methods, including WinBUGS, covering both theory and practical applications. Here’s how the MH algorithm works:
+Step 1. Initialization: Start with an initial sample from the target distribution, preferably drawn from a distribution similar to the target.
+Step 2. Proposal Distribution: Choose a proposal distribution for suggesting new samples, often selected for convenience and ease of sampling.
+Step 3. Proposing a Candidate: Generate a new sample (candidate sample) by drawing from the proposal distribution.
+Step 4. Acceptance Probability: Calculate the acceptance probability for the candidate sample based on the ratio of the target distribution at the candidate sample and the current sample.
+Step 5. Acceptance or Rejection: Accept the candidate sample with a probability determined by the acceptance probability; otherwise, reject it and remain at the current sample.
+Step 6. Iteration: Repeat Steps 3-5 for numerous iterations until convergence criteria are met.
+The algorithm constructs a Markov chain with the desired target distribution as its stationary distribution, leading to convergence of the generated samples over iterations.
+To address low acceptance rates in MCMC sampling, careful selection of the proposed distribution g(x) is crucial. This distribution should encompass the support set of the target distribution; be easily samplable, often chosen from known distributions like the normal or student distributions; facilitate easy calculation of the acceptance probability; have a thicker tail compared to the target distribution; and minimise the frequency of rejecting new candidate points. Adhering to these conditions ensures that the resulting Markov chain satisfies normalisation conditions and possesses a stationary distribution f(x), crucial for effective sampling from complex target distributions.
+Given f(x) as the target distribution (posterior distribution), g(x) as the proposed distribution, and h(x) as the acceptance rate, we iteratively generate a sample sequence {\rho _0^0, \rho _0^1, \cdots , \rho _0^N} from the target probability distribution f(x). Below is our pseudo-code outlining the MH algorithm:
+Algorithm 1
+Metropolis-Hastings algorithm
+Full size image
+1.6 A6: The sampling process of parameters in parameter estimation (simulation)
+In the iterative process of parameter estimation, it is evident that the vast majority of parameters have reached a convergent state. The primary emphasis of our paper lies in statistical diagnostics rather than extensive parameter estimation. Therefore, our requirement may be limited to obtaining a parameter estimate that closely approximates the true value.
+Figures 11, 12, 13, 14 and 15 depict the iterative process of three Markov chains through curves represented in three distinct colors. These curves illustrate three independent parameter estimation sampling processes, offering valuable insights into the fluctuation range of each sampling procedure.
+Fig. 11
+The iterative process of parameter \beta _1
+Full size image
+Fig. 12
+The iterative process of parameter \beta _2
+Full size image
+Fig. 13
+The iterative process of parameter \lambda
+Full size image
+Fig. 14
+The iterative process of parameter \rho
+Full size image
+Fig. 15
+The iterative process of parameter \sigma
+Full size image
+Rights and permissions
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+Reprints and permissions
+About this article
+Cite this article
+Liu, Y., Lu, J., Paula, G.A. et al. Bayesian diagnostics in a partially linear model with first-order autoregressive skew-normal errors. Comput Stat (2024). https://doi.org/10.1007/s00180-024-01504-2
+Download citation
+Received
+01 October 2023
+Accepted
+28 April 2024
+Published
+11 July 2024
+DOI
+https://doi.org/10.1007/s00180-024-01504-2
+Keywords
+Bayesian local influence method
+Gibbs algorithm
+Matrix differential calculus
+Time series model
+Access this article
+Log in via an institution
+Buy article PDF 39,95 €
+Price includes VAT (Italy)
+Instant access to the full article PDF.
+Rent this article via DeepDyve
+Institutional subscriptions
+Sections
+Figures
+References
+Abstract
+References
+Acknowledgements
+Author information
+Ethics declarations
+Additional information
+Appendix
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

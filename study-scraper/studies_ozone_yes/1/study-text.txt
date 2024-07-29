@@ -1,0 +1,108 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (85)
+Atmospheric Environment
+Available online 15 July 2024, 120703
+In Press, Journal Pre-proof
+What’s this?
+On ozone’s weekly cycle for different seasons in Arizona
+Author links open overlay panel
+Meghan Greenslade 1
+,
+Yafang Guo 2
+,
+Grace Betito 2
+,
+Mohammad Amin Mirrezaei 2
+,
+Chayan Roychoudhury 2
+,
+Avelino F. Arellano 1 2
+,
+Armin Sorooshian 1 2
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.atmosenv.2024.120703
+Get rights and content
+Highlights:
+•
+Weekend effect characteristics most evident in winter and fall seasons
+•
+Monsoon period shown to be distinct from other periods for O3 characteristics
+•
+Regional O3 reductions are influential for O3 levels during Mar-Apr of COVID lockdown period
+Abstract
+This study advances insights on ozone (O3) concentration temporal cycles in Arizona, exploring differences between weekdays and weekends to understand the impact of anthropogenic activities on O3 fluctuations. By examining data from six areas across Arizona and with a more detailed look across the Phoenix metropolitan area, this study compares O3 and NO2 levels based on day of the week and time of day as well as during five distinct seasons between January 2015 and December 2021: fall (Sep-Nov), winter (Dec-Feb), spring (Mar-May), dry summer (June), and monsoon summer (Jul-Aug). Results highlight associations between O3 levels and O3 precursor levels, particularly for nitrogen oxides (NOx) and volatile organic compounds (VOCs). Results show that O3 levels are contingent on diurnal, day-of-week, and seasonally-dependent factors. This dependence influences the phenomena called the "weekend effect", which is most clearly observed at urban sites across Arizona in fall and winter seasons, wherein O3 concentrations exhibit higher levels during weekends compared to weekdays. This study reveals opposing features during Arizona’s warmer months and especially the monsoon summer period in which O3 regimes reverse from VOC-sensitive (in fall and winter) to transition and NOx-sensitive regimes. A specific case study for Phoenix during the first COVID-19 lockdown (spring 2020) accounting for planetary boundary layer height normalization of gas concentrations shows that although NO2 was reduced in March-April compared to other years, O3 was also reduced due to a regional O3 response as most areas surrounding western U.S. were typically either transitioning to, or already under, a NOx-limited regime. These findings provide insights into understanding the intricate relationship among anthropogenic emissions, seasonal fluctuations, and pollutant emissions and transport that influence O3 levels across Arizona, potentially providing guidance for future study designs focused on effective control strategies for the sensitive months with most exceedances (∼June-August).
+Introduction
+There is a pressing need to better understand tropospheric ozone (O3) characteristics in arid regions like Arizona owing to factors such as less treatment in model evaluation studies relevant to atmospheric chemistry, non-attainment challenges, unique aspects associated with desert landscape and climate, and influence of transport (Sorooshian et al., 2024). Surface level O3 in Arizona poses unhealthy implications for public health and the environment. The abundance of O3 is intrinsically dependent on its precursors, nitrogen oxides (NOx), and volatile organic compounds (VOCs), reacting in the presence of sunlight. NOx and VOCs are released into the atmosphere through biomass burning and anthropogenic activities such as transportation, industrial processes, and fossil fuel combustion. VOCs predominantly originate from biogenic sources in the region (Sorooshian et al., 2024) while natural sources such as lightning and agriculture activities additionally contribute in part to NOx emissions.
+It is important to proactively consider the prevailing meteorological conditions and chemical regime of an area, particularly to identify if O3 in an area is sensitive to VOCs or NOx so that appropriate control strategies may be effective in reducing surface-level O3. Improper NOx regulations in certain areas can actually exacerbate O3 issues (Akimoto and Tanimoto, 2022; Chaum et al., 1978; Elkus and Wilson, 1977; Heuss et al., 2003). An approach to investigating this problem is to analyze O3 formation on weekend days versus weekdays to gain insights into the dynamics of O3 for specific regions. The weekend effect (e.g., Cleveland et al., 1974) occurs when O3 is higher on weekends (i.e., Saturday-Sunday in the U.S.), even though NOx emissions decrease with reduced vehicular traffic and other forms of outdoor anthropogenic emissions dependent on the work week. This effect is typical for VOC-limited (sensitive) areas, where the VOC:NOx ratio is low, resulting in increased O3 levels with increasing VOC and/or decreasing NOx levels (Nussbaumer and Cohen, 2020). On the other hand, areas characterized by NOx limitations (i.e., high VOC:NOx ratio) are less likely to exhibit a weekend effect (in fact, O3 levels may decrease) as NOx decreases. O3 production is anticipated to reach its peak when sunlight is abundant (high photolysis), and also during the transition from being limited by VOCs to NOx, or vice versa, within the chemical regime (Baidar et al., 2015; Nussbaumer and Cohen, 2020; Pusede et al., 2014).
+Past works on the weekend effect in Arizona found that O3 levels are dependent on geographical setting, anthropogenic emissions, season, and natural variability. Within Arizona, rural areas are usually NOx-limited as there are more biogenic VOC (BVOC) emissions compared to NOx emissions (high VOC:NOx ratio) and a reduction in NOx is expected to yield a reduction in O3 production. However, depending on temporal factors, urban areas are often considered VOC-limited as anthropogenic activities dominate, which results in higher NOx emissions and a low VOC:NOx ratio. Hence, a reduction in NOx can indirectly lead to an increase in O3 production. It is important to consider location when studying O3 due to NOx- and VOC-limited regimes having opposite responses to increased NOx emissions. Research done in Phoenix, Arizona in May-September from 2001-2003 found that urban core sites exhibited a more pronounced weekend effect as compared to fringe sites on the outskirts of the urban core that did not show such an effect (Atkinson-Palombo et al., 2006). Another study done in Phoenix from January 1996 to September 2004 concluded that vehicular traffic flows, which vary within a week (higher activity on weekdays compared to weekends), largely influence NOx emissions and thus O3 levels (Shutters and Balling, 2006). These were older studies though and what has been less studied in Arizona in past weekly cycle studies is both how the diurnal pattern of O3 changes throughout the week and the sensitivity of weekly cycle results to different seasons. In terms of the latter, the only study to our knowledge that examined this for Arizona was exclusively focused on the monsoon season in Tucson, Arizona. Diem (2000) found that O3 production was sensitive to the abrupt (albeit short) change of dry to moist summer conditions, which coincided with a chemical regime reversal from VOC-sensitive to NOx-sensitive, respectively.
+Beyond Arizona, research in other parts of the U.S. and around the world provide more insights into the weekend effect (e.g., Cerveny and Balling, 1998; Elansky et al., 2020; Huryn and Gough, 2014; Sadanaga et al., 2012; Sicard et al., 2020; Stephens et al., 2008; Wang et al., 2014). Studies done in southern California concluded that the high traffic, VOC-sensitive area paired with the weekend’s decreased NOx emissions explains the cause of the weekend effect (Chinkin et al., 2003; Fujita et al., 2003; Marr and Harley, 2002a; Pollack et al., 2012; Qin et al., 2004). Similar conclusions of NOx reductions yielding more O3 were found in northern and coastal California as this state has been studied at length in the early 1980s to late 1990s (Altshuler et al., 1995; Heuss et al., 2003). Typically in these weekly O3 cycle studies, urban areas with high populations show a great decline in anthropogenic emissions from the weekdays to weekends, which causes this change in NOx emissions (e.g., Heuss et al., 2003). However, another study that analyzed sites in 23 states including Atlanta, Chicago, New York, and Denver among others found that 83% of the sites showed no statistically significant O3 differences between the weekdays and weekends (Blanchard et al., 2008). Despite these extensive studies, attention is now needed towards more recent data under NOx reductions since the 1990s (Koplitz et al., 2022; Simon et al., 2024), especially during the COVID-19 lockdown, and more stringent O3 standards requiring policy attention. For instance, Simon et al. (2024) recently showed in their analysis of May-September (2002-2019) across many O3 non-attainment areas of the U.S. that some previous VOC-limited areas like Phoenix are transitioning more to NOx-limited regimes.
+This study aims to further previous research by re-evaluating weekly cycles of O3 concentrations in Arizona. This paper distinguishes itself by focusing on diverse sites (i.e., urban and rural) around Arizona, evaluating an extended time period including more recent years, and comparing five distinct seasons with unique meteorology with attention also given to diurnal characteristics on weekends versus weekdays. Notably, this paper is the first to examine the influence of the initial COVID-19 lockdown period on the weekly periodicity of O3 levels in Arizona. Attention is given to the influence of chemical regimes (e.g., NOx-limited, transition, VOC-limited) using the formaldehyde to NO2 ratio based on satellite data. The structure of this paper is as follows: Section 2 describes the datasets and methods used, Section 3 covers the results and discussion, and Section 4 provides conclusion and outlook.
+Section snippets
+U.S. EPA AQS
+Hourly O3 and NO2 data are sourced from the U.S. Environmental Protection Agency Air Quality System (US EPA, 2014). This work focuses on the 7-year period between 1 January 2015 to 31 December 2021 for six Arizona sites shown in Figure 1. We caution that results for a study like this are sensitive to the time duration chosen due to interannual variations in meteorology and other factors influencing O3 levels. Table 1 summarizes each of the six site’s exact location, elevation, site
+Day of Week Analysis
+Figure 2 shows how O3 concentration varies each day of the week for the six study sites across the full study period. The urban sites of JLG Supersite, Children’s Park, and Yuma Supersite show the weekend effect with highest O3 concentrations on Sundays and lowest on Wednesdays and Thursdays. However, the rural sites, Chiricahua, Grand Canyon, and Alamo Lake, do not show the weekend effect, with the highest O3 concentrations being on Fridays and lowest on Tuesdays. Rural sites systematically
+Conclusions
+This study examines the weekly periodicity of O3 levels in urban and rural sites in Arizona with the goal of gaining insight into how seasonal factors matter in this unique arid environment with significant seasonal changes in meteorology. While the methods and seasonal classifications used here are not perfectly aligned with policy-driven analysis choices, the results can guide future study designs aiming to gain confidence in possible regulatory actions to reduce O3 levels.
+The weekend effect
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Uncited reference
+Diem, 2004; ESA, 2021; US Census Bureau, 2020; US EPAO, 2014; US EPAO, 2016.
+Declaration of Competing Interest
+☒ The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+☐ The authors declare the following financial interests/personal relationships which may be considered as potential competing interests:
+Acknowledgments
+Funding from this work was provided by the Arizona Board of Regents (ABOR) Regent’s Grant from the Technology and Research Initiative Fund (TRIF). We thank Rene Nsanzineza (Arizona Department of Environmental Quality) for a helpful review and thoughtful suggestions of this manuscript.
+References (85)
+AkimotoH. et al.
+Rethinking of the adverse effects of NOx-control on the reduction of methane and tropospheric ozone – Challenges toward a denitrified society
+Atmospheric Environment
+(2022)
+Atkinson-PalomboC.M. et al.
+Quantifying the ozone “weekend effect” at various locations in Phoenix, Arizona
+Atmospheric Environment
+(2006)
+BlanchardC.L. et al.
+Spatial mapping of VOC and NOx-limitation of ozone formation in central California
+Atmospheric Environment
+(2001)
+BrönnimannS. et al.
+Weekend-weekday differences of near-surface ozone concentrations in Switzerland for different meteorological conditions
+Atmospheric Environment
+(1997)
+CampbellP.C. et al.
+Impacts of the COVID-19 economic slowdown on ozone pollution in the U.S
+Atmospheric Environment
+(2021)
+ChaumD. et al.
+A statistically tested short term oxidant control strategy
+Atmospheric Environment
+(1978)
+ChuB. et al.
+Significant concurrent decrease in PM2.5 and NO2 concentrations in China during COVID-19 epidemic
+Journal of Environmental Sciences
+(2021)
+de FoyB. et al.
+Changes in ozone photochemical regime in Fresno, California from 1994 to 2018 deduced from changes in the weekend effect
+Environmental Pollution
+(2020)
+DiemJ.E.
+Comparisons of weekday–weekend ozone: importance of biogenic volatile organic compound emissions in the semi-arid southwest USA
+Atmospheric Environment
+(2000)
+DuncanB.N. et al.
+Application of OMI

@@ -1,0 +1,123 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/fonts/Gyre-Pagella/Variants/Regular/Main.js
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Atmosphere
+All Article Types
+Advanced
+  Journals Atmosphere Volume 15 Issue 6 10.3390/atmos15060717
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Yoshihiro Tomikawa
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+459
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Influence of Natural Tropical Oscillations on Ozone Content and Meridional Circulation in the Boreal Winter Stratosphere
+by Tatiana Ermakova
+1,2,*, Andrey Koval
+1, Kseniia Didenko
+1,3, Olga Aniskina
+2 and Arina Okulicheva
+2
+1
+Atmospheric Physics Department, Saint Petersburg University, 7/9 Universitetskaya Nab., St. Petersburg 199034, Russia
+2
+Department of Meteorological Forecasts, Russian State Hydrometeorological University, 79 Voronezhskaya Ulitsa, St. Petersburg 192007, Russia
+3
+Pushkov Institute of Terrestrial Magnetism, Ionosphere and Radio Wave Propagation, Russian Academy of Sciences (IZMIRAN), 4 Kaluzhskoe Hw., Moscow 108840, Russia
+*
+Author to whom correspondence should be addressed.
+Atmosphere 2024, 15(6), 717; https://doi.org/10.3390/atmos15060717
+Submission received: 23 March 2024 / Revised: 3 June 2024 / Accepted: 11 June 2024 / Published: 15 June 2024
+(This article belongs to the Special Issue Ozone Evolution in the Past and Future (2nd Edition))
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Review Reports Versions Notes
+Abstract
+The dependence of ozone content in the polar stratosphere upon different phases of the quasi-biennial oscillation (QBO) of the zonal wind and the El Niño–Southern Oscillation (ENSO) during winter was studied. The monthly (from November to January) mean residual meridional circulation (RMC) was calculated for four different combinations of the main phases of ENSO and QBO using MERRA2 reanalysis data. It has been demonstrated that the QBO phase manifests itself in different vertical distributions of ozone in the equatorial stratosphere, as well as in strengthening/weakening of the secondary meridional circulation in the tropics. The enhancement of the RMC from the tropical to the polar stratosphere is stronger at altitudes where ozone is higher in the tropics under El Niño conditions. The RMC modification and intensification are observed from ozone-depleted areas under La Niña conditions. A “cumulative” effect is observed by February under La Niña conditions and the easterly QBO, which is expressed in the lowest ozone content in the polar stratosphere. The numerical experiments carried out using the Middle and Upper Atmosphere Model (MUAM) confirmed tendencies in changes in the meridional transport detected from the reanalysis data for different combinations of QBO and ENSO.
+Keywords: stratospheric ozone; residual meridional circulation; El Niño–Southern Oscillation; quasi-biennial oscillation
+1. Introduction
+The state of the ozone layer has recently attracted increased attention due to changes in its global content [1,2], as well as an understanding of the role of ozone not only as a protector of life on Earth from the harmful effects of hard ultraviolet solar radiation but also as a factor influencing climate and the whole biosphere [3]. Ozone can be considered as an indicator of thermal and chemical imbalance in the Earth–atmosphere system. Most of the ozone (about 90%) is found in the stratosphere. Minor changes in the ozone content in this layer affect dynamic, chemical, and radiation processes in the atmosphere and climate forecasts in general. Many studies have noted an increase in total ozone after the mid-1990s since the adoption of the Montreal Protocol and its Amendments and Adjustments on the protection of the ozone layer and the reduction of concentration of halogenated ozone-depleting gases [4]. However, in recent decades, there has also been an increase in chlorine-containing chemicals, which impede the restoration of ozone in the stratosphere [5,6,7]. The expected future recovery of stratospheric ozone is now being questioned due to both the observed increase in ozone-depleting gases and the mismatch between predictions of numerical models and measured data [8,9,10,11,12].
+Ozone is mainly formed in the tropical stratosphere as the solar insolation is the highest over the tropics, which is necessary for photodissociation reactions. Atmospheric meridional circulation redistributes ozone to the middle and high latitudes, where it sinks and accumulates in the stratosphere. Ozone concentration is low in the troposphere. It increases sharply above the tropopause, reaching a maximum in the lower stratosphere, between 15 and 25 km in winter at high latitudes and between 25 and 30 km in the tropics. An ozone enhancement near the tropopause is observed due to a rise in the frequency of stratospheric–tropospheric ozone exchange. This sharp increase in concentration, in turn, affects the total ozone content and its ground-level concentration [13,14,15,16]. Above 30 km altitude, ozone concentration decreases exponentially with altitude but less rapidly than air density. This slower decrease in ozone concentration explains why the maximum ozone mixing ratio is observed at higher altitudes than that of maximum ozone concentration.
+The ozone content in the Polar Regions has seasonal dependence: minimum concentrations are present in winter and maximum concentrations in summer. Antarctica experiences an ozone hole every winter, while ozone holes are less common over the Arctic. The low ozone content in the winter polar stratosphere is associated with the absence of solar radiation during the polar night and the formation of the stratospheric polar vortex. In winter, significant meridional temperature gradients between the tropics and the poles in the stratosphere lead to the formation of strong westerly winds (the polar night jet). The air inside this circle of winds becomes increasingly colder, and strong winds prevent the mixing of polar and tropical air masses, which leads to the formation of an ozone hole.
+The ozone variability and its connection with mean meridional circulation in the stratosphere in both hemispheres in different months is investigated in numerous studies (e.g., [17,18]). It is noted that weak meridional circulation with low polar stratospheric temperature leads to polar ozone depletion. Since the process of stratospheric polar vortex development is not identical each autumn, ozone variability in early January could be concerned with the thermodynamics in the stratosphere [19]. From the point of view of remote sensing, the polar stratosphere is a complex object of study. Polyakov et al. [20] showed that low signal and small vertical temperature gradients significantly increase the errors in satellite ozone determinations. To increase the accuracy of satellite sensing, the highest quality a priori information is used—modeling and reanalysis data. Thus, modeling of dynamic processes in the polar stratosphere becomes an important aspect of the current research.
+Tropical oscillations, such as the El Niño–Southern Oscillation (ENSO) and the quasi-biennial oscillation (QBO) of the equatorial zonal wind in the stratosphere, as well as solar cycles and volcanic activity, influence regional and global circulations, thus impacting the state of the stratospheric polar vortex in winter over the Arctic through teleconnections [21]. ENSO is generated by the interaction of the ocean and the atmosphere in the tropical Pacific. Positive temperature anomalies in the eastern or central equatorial Pacific associated with El Niño (the positive phase of ENSO) reduce the typically large sea surface temperature difference in the tropical Pacific. Trade winds weaken as a result, the Southern Oscillation index becomes anomalously negative, and sea level falls in the west and rises in the east as warming progresses [22,23]. La Niña is the opposite (negative) phase of the Southern Oscillation relative to El Niño, with unusually low pressure west of the date line and high pressure—east during periods of abnormally low equatorial Pacific sea surface temperatures. ENSO is one of the most important climate events on Earth due to its ability to alter global atmospheric circulation, which, in turn, influences temperature and precipitation across the globe [24].
+Observations, as well as the results of numerical experiments, show that the stratospheric polar vortex is warmer and more disturbed under conditions of a positive ENSO phase [20]; the situation is the opposite during a cold phase [25]. The activity of stationary planetary waves with the zonal wave number 1 (SPW1) is higher in the stratosphere and weaker at middle latitudes at the stratospheric jet maximum region during El Niño’s mid-winter. The modeled and observed SPW2 amplitude behaves in the opposite way and is larger in the stratosphere during La Niña. The observed changes in SPW1 and SPW2 amplitudes under La Niña and El Niño events should affect the potency of the stratosphere–troposphere coupling, and the influence of stratospheric processes on circulation patterns in the troposphere can be evinced in different longitudinal sectors [26].
+The QBO manifests itself in the tropical stratosphere as a change in the direction of the zonal wind with an average period of 28 months, which also has a significant impact on the global atmospheric circulation. The QBO is characterized by alternating westerly and easterly wind regimes, the boundary between which gradually moves down from the middle stratosphere to the lower one. The QBO influences the width and location of extratropical waveguides along which planetary waves (PWs) propagate from the troposphere to the upper atmosphere [27]. It is assumed that during the boreal winter, the polar vortex under the easterly QBO phase (EQBO) is weaker and more disturbed than under the westerly phase (WQBO) due to PWs’ activity increase. These data were also confirmed recently using numerical simulations [27]. PWs spread disturbances from the QBO into high latitudes and the upper atmosphere, including the thermosphere, while propagating in different ways along modified waveguides [28].
+A growing number of works are dedicated to studying the joint influence of QBO and ENSO on atmospheric and oceanic processes. The authors of the investigation [29] considered the joint influence of the stratospheric QBO and ENSO on the polar vortex, subtropical westerly jets, and wave patterns during boreal winter. They showed the strengthening of the stratospheric polar vortex during the westerly phase of the QBO and also that the manifestation of the QBO in the stratosphere is stronger under La Niña conditions [30]. They also examined the combined influence of ENSO and QBO on the relationship between sea ice extent and Eurasian climate in winter through planetary wave activity and the stratospheric polar vortex. They note that warm winters are observed in Europe, mostly under La Niña and easterly QBO. Under these conditions, the propagation of planetary waves from the troposphere to the stratosphere is weaker, which leads to a strengthening of the stratospheric polar vortex.
+In this study, based on the Merra2 reanalysis data [31], the joint influence of QBO and ENSO phases on the global meridional circulation and, as a consequence, on the transport of stratospheric ozone from low to high latitudes is considered. The main goal of the study is to demonstrate the relationship between the phases of tropical atmospheric ocean oscillations and changes in global ozone content in the extra-tropical stratosphere during the boreal winter, including the possible formation of ozone holes. To verify the conclusions obtained from the reanalysis, a number of numerical calculations of atmospheric circulation were also carried out using the MUAM (Middle and Upper Atmosphere Model) for various QBO/ENSO combinations.
+2. Materials and Methods
+MERRA-2. In order to study the ENSO-QBO influence on RMC and ozone content in the polar stratosphere during boreal winter, we use “Modern-Era Retrospective analysis for Research and Applications, version 2” (MERRA-2) [31]. The data cover the time interval from 1980 to the present with a spatial resolution of 0.5° × 0.625° and a time step of 3 h. The vertical pressure scale is ranging from 1000 to 0.1 hPa. MERRA-2 also provides an ozone mass mixing ratio, which is assimilated from different sources (the solar backscatter ultraviolet SBUV; Microwave Limb Sounder on Aura satellite; ozone parameterization in GEOS-5 by Rienecker et al. [32]).
+MERRA2 data are widely used to study atmospheric ozone variability (see, e.g., [33,34,35,36,37,38]). The main advantages of these data are their spatial and temporal homogeneity, as well as the duration. The quality of MERRA2 ozone data has also been checked many times (see, e.g., [33,35]). In particular, good agreement was demonstrated between the reanalysis and satellite data on the ozone mixing ratio in the stratosphere.

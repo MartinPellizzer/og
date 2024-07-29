@@ -1,0 +1,298 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Molecules
+All Article Types
+Advanced
+  Journals Molecules Volume 29 Issue 13 10.3390/molecules29133228
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Eun Duck Park
+Subscribe SciFeed
+Recommended Articles
+Related Info Links
+More by Authors Links
+Article Views
+430
+Table of Contents
+Abstract
+Introduction
+Results and Discussion
+Materials and Methods
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+The Synergetic Reduction of the Condensation Degree of Dissolved Lignin (DL) during the Refining Process of Wheat Straw Biomass Based on the MA/O3 System
+by Xiuguang Chen
+1, Zhulan Liu
+1,2,*, Zhenyu Zhou
+2, Renai Li
+1, Lizi Li
+2 and Yunfeng Cao
+1,*
+1
+Jiangsu Co-Innovation Center for Efficient Processing and Utilization of Forest Resources, Jiangsu Provincial Key Lab Pulp & Paper Science and Technology, Nanjing Forestry University, Nanjing 210037, China
+2
+Zhejiang Kan New Materials Co., Ltd., Lishui 323300, China
+*
+Authors to whom correspondence should be addressed.
+Molecules 2024, 29(13), 3228; https://doi.org/10.3390/molecules29133228
+Submission received: 30 May 2024 / Revised: 30 June 2024 / Accepted: 5 July 2024 / Published: 8 July 2024
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Lignin, a natural pol2ymer with a complex structure that is difficult to separate, is prone to C-C bond condensation during the separation process. To reduce the condensation of lignin, here, a novel method is proposed for separating the components by using a combination of maleic acid (MA)/ozone (O3) to co-treat wheat straw. The removal of lignin, glucan, and xylan was 38.07 ± 0.2%, 31.44 ± 0.1%, and 71.98 ± 0.1%, respectively, under the conditions of ball-milling of wheat straw for 6 h, reaction temperature of 60 °C, and O3 holding time of 9 min. Lignin-rich solutions were collected to extract the dissolved lignin (DL) after washing the treated samples. The DL obtained under MA/O3 conditions had a carboxyl group (-COOH) content of 2.96 mmol/g. The carboxyl group of MA underwent esterification with the hydroxyl group (-OH) at the γ position of lignin and O3 reacted on the positions of the lignin side chain or the phenolic ring, resulting in a break in the side chain and the opening of the phenolic ring to introduce the carboxyl group. The 2D-HSQC-NMR results revealed that the phenolic ring-opening reaction of lignin in the presence of O3 was essentially free of β-β and β-5 condensation bonds.
+Keywords: wheat straw; MA; O3; component separation; lignin
+1. Introduction
+Lignocellulosic biomass stands as the most abundant natural resource, stored in various forms such as in agricultural residues [1], wood [2], graminoids [3], waste paper [4], kitchen waste [5], etc. These materials are recognized as cost-effective feedstocks for producing biomaterials, biofuels, and platform chemicals. Among agricultural wastes, wheat straw is particularly rich in lignin, cellulose, and hemicellulose. Lignin, a natural polymer, boasts a three-dimensional network composed of guaiacyl (G), syringyl (S), and p-hydroxyphenyl (H) units interconnected by ether (C-O-C) and carbon–carbon (C-C) bonds [6]. This complex structure endows lignin with numerous functional groups, such as hydroxyl (-OH), double bonds (C=C), and ether bonds, making it highly suitable for antimicrobial [7] and anti-ultraviolet applications [8]. Additionally, lignin’s excellent biodegradability, reactivity, and biocompatibility make it a promising candidate for use as an antimicrobial agent, drug and gene carrier, and wound healing material [9,10,11,12]. Its potential extends to biomedical applications, including drug delivery and tissue engineering [13,14,15,16]. Some scholars have already elaborated on the biomedical applications of lignin [17].
+In biomass systems, lignin reinforces structural components through physical or chemical binding, thereby enhancing the mechanical strength of the cell wall but also hindering the separation of these components [18]. Moreover, the structure of lignin also contains hydroxyl groups and many polar groups, which can form strong intramolecular and intermolecular hydrogen bonds, making lignin extremely stable and difficult to dissolve [19]. The chemical separation process of lignocellulose is usually performed with the help of inorganic acids [20], alkalis [21], ionic liquids [22], or organic solvents in total solvent systems [23]. However, the traditional method has the disadvantages of difficult solvent recovery, low lignin utilization, the high cost of ionic liquids, and the severe C-C bond condensation of lignin under vigorous separation conditions [24]. Condensed lignin in particular has increased molecular weight and decreased reactivity, rendering it unfavorable for further depolymerization into platform molecular compounds [25] and the production of high-value products.
+Compared with conventional methods, the use of solid organic acid such as maleic acid (MA) is versatile, and both wood feedstocks [26] and herbaceous feedstocks [27] can be rapidly delignified at atmospheric pressure. Cai et al. found that 49.4% of lignin was removed from birch at 100 °C, with a solid–liquid ratio of 1:10, reaction time of 60 min, and acid concentration of 50 wt% [28]. Su et al. found that 71% of lignin was removed from wheat straw at 120 °C, with a solid–liquid ratio of 1:15, reaction time of 90 min, and acid concentration of 60 wt% [29]. They also revealed that the treatment using MA hydrotropic fractionation also introduced carboxyl groups into lignin and enhanced antioxidant activity. However, the lignin obtained at high temperatures (>100 °C) with high solid–liquid ratios (>1:10) and acid concentrations (>50 wt.%) had a severe degree of condensation, especially the S and G units. Although the degree of lignin condensation was reduced compared to traditional methods, condensed lignin is still a problem that cannot be ignored. Reducing the reaction temperature and the solid–liquid ratio has limited effects on reducing the degree of lignin condensation and decreases the removal ratios of the components of wheat straw. To further reduce lignin condensation, this study introduced O3, which has great oxidizing properties.
+O3 is an allotrope of oxygen, a colorless gas at room temperature and pressure, and soluble in water. Among the common oxygen-containing reactive groups, O3 is the strongest oxidant other than hydroxyl radicals, with an oxidation potential of 2.07 V. It has been reported that O3 can attack the C3-C4 position of lignin to form a muconic acid structure [30], which introduces carboxyl groups into the lignin structure. In addition, the lignin side chain can be oxidized with O3, destroying the double bond structure while introducing hydroxyl and carboxyl groups to increase lignin reactivity [31,32]. It is worth noting that O3 is extremely unstable [33]; the higher the temperature, the shorter the half-life, and it is not easy to transport or store, which determines that it must be prepared on-site. Therefore, the present study envisaged the introduction of O3 into an MA system for rapid lignin removal at lower treatment temperatures and reduced lignin condensation.
+In this study, MA and O3 were combined to separate wheat straw fractions and investigate the effects of wheat straw pulverization degree, O3 holding time, and reaction temperature on the removal ratio of the fractions. The experimental procedure and reaction mechanism are depicted in Figure 1. Optimal conditions yielded removal ratios of 38.07 ± 0.2% for lignin, 31.44 ± 0.1% for glucan, and 71.98 ± 0.1% for xylan. Remarkably, the obtained lignin was free from β-β and β-5 condensation bonds and exhibited a carboxyl group content of 2.96 mmol/g.
+Figure 1. Experimental flow chart and degradation mechanism of lignin.
+2. Results and Discussion
+2.1. Effect of MA/O3 on the Removal of Components of Wheat Straw
+Table S1 shows the component removal ratio of the wheat straw after treatment under different conditions. For ground wheat straw without ball-milling, the removal ratios initially increased with time but subsequently decreased under constant temperature conditions. This trend was attributed to the dense structure and high crystallinity of the raw material, which impeded the penetration of acid and O3 into the wheat straw [34]. Generally, the removal ratios decreased as the temperature increased to 70 °C or 80 °C when O3 was used as the sole treatment. This decline was due to the decreased stability of O3 (shorter half-life and accelerated decomposition) at higher temperatures, which reduced its reactivity with the feedstock. The removal ratios of components of wheat straw were higher under MA/O3 and O3/H2SO4 conditions compared to O3 treatment alone. The presence of acid promoted the reaction between O3 and the components of wheat straw [35]. The component removal ratio after MA/O3 treatment was higher than that of O3/H2SO4 treatment, indicating that the synergistic effect of MA and O3 was superior to that of O3 and H2SO4.
+At 60 °C with an O3 holding time of 6 min, the lignin removal ratio under MA/O3 treatment was 25.21%, an increase of 6.41 percentage points compared to the 18.80% observed with MA treatment alone. When the temperature was raised to 80 °C, the lignin removal ratio increased from 23.75% to 26.70%, representing an increase of only 2.95 percentage points. This demonstrates that although increasing the temperature could enhance the MA reaction, the gain in lignin removal ratio at 80 °C was limited due to O3 decomposition. With an O3 holding time of 6 min, lignin removal was hindered by the O3 decomposition induced by the temperature increase.
+The carboxyl group in the MA structure could react with the hydroxyl group in xylan or dextran to form an ester bond, introducing a carboxyl group into the cellulose. However, this reaction did not cause significant removal of dextran or xylan, but more of a structural change. As shown in Table S1, the removal of xylan and dextran was also relatively high with MA/O3 treatment because the O3 was a non-selective substance that could react with lignin, dextran, and xylan. O3 underwent oxidation reactions with carbohydrates, converting reducing end groups to carboxyl groups, converting hydroxyl groups to carbonyl groups, and breaking ligand bonds through ozonolysis [36].
+If the wheat straw was ball-milled for 6 h, the rigid structure made of cellulose, hemicellulose, and lignin was destroyed and the crystallinity was reduced (Figure 2). The ball-milled wheat straw was more accessible to MA and O3, allowing these agents to penetrate the straw more thoroughly and facilitating the removal of lignin. As shown in Table S1, the overall lignin removal ratio from ball-milled wheat straw increased significantly. As shown in Table 1, under the optimal conditions of 60 °C and an O3 holding time of 9 min, the lignin removal ratio reached 38.07%, which was 11.37% higher than the 23.32% achieved with ground wheat straw without ball-milling. However, as the temperature increased, the lignin removal ratio slightly decreased, likely due to the accelerated, ineffective decomposition of O3 at higher temperatures.
+Figure 2. X-ray diffraction patterns of wheat straw before and after ball-milling.
+Table 1. WIS a yield and component removal at a reaction temperature of 60 °C and O3 holding time of 9 min.
+The oxidation of hydroxylated (HO•) and hydroperoxyl (HOO•) radicals produced by O3 decomposition affected the removal of glucan and xylan. HOO• free radicals oxidize the reducing terminal groups of carbohydrates to carboxyl groups (-COOH); HO• free radicals oxidized both the reducing terminal groups and the aliphatic hydroxyl groups to carboxyl groups and formed the ketol structure on the polysaccharide chain, leading to chain breakage [37].
+After treatment under the conditions of 6 h of ball-milling, reaction temperature of 60 °C, and O3 holding time of 9 min, the removal ratios of lignin, xylan, and dextran reached 38.07%, 71.98%, and 31.44%, respectively.
+2.2. Particle Size, Zeta Potential, and Carboxyl Content of Lignin
+In Figure 3a,b, the zeta potential and particle size of the DL under the MA/O3 condition were −21.45 mV and 221.6 nm, which was smaller than that of MWL (371.5 nm). This indicated that the lignin underwent significant fragmentation due to the action of O3 and MA. In Figure 3c, the carboxyl group content of DL obtained under the MA/O3 conditions was 2.96 mmol/g, whereas the carboxyl group contents of MWL and DL obtained from MA treatment alone were just 0.31 mmol/g and 0.37 mmol/g, respectively. This suggested that a substantial number of carboxyl groups were introduced through the esterification by MA [28] and the oxidation by O3 [32,38]. Due to the introduction of a large number of hydrophilic carboxyl groups, the lignin from the MA/O3 system needed to be dissolved in the more polar deuterated water (D2O) in the subsequent 2D-HSQC-NMR experiments, while the lignin obtained from the MA system could only be dissolved in the less polar dimethyl sulfoxide-d6 (DMSO-d6).
+Figure 3. Zeta potential (a), particle size (b), and carboxyl groups (c) of MWL and DL (reaction conditions: ball-milling time: 6 h, T: 60 °C, O3 holding time: 9 min).
+2.3. UV and FT-IR Spectra Analysis
+In Figure 4a, three absorbance bands can be observed at approximately 219 nm, 284 nm, and 324 nm. The introduction of two methoxy groups into the phenolic ring resulted in a red shift of the maximum absorption of lignin from 280 to 284 nm. This indicated that DL contained a lower amount of S units than the previously extracted lignin [39].
+Figure 4. UV (a) and FT-IR (b) of MWL and DL (reaction conditions: ball–milling time: 6 h, T: 60 °C, O3 holding time: 9 min).
+The FT-IR spectrum of lignin, as shown in Figure 4b, exhibited characteristic absorption bands at 3434 cm−1 and 2929 cm−1, which were attributed to -OH and -CH groups, respectively. The strong C=O absorption band at 1735 cm−1 was indicative of the esterification of MA and the potent oxidative properties of O3, which introduced carboxyl groups into the lignin structure [40]. Additionally, the -OH and C=O signals of DL obtained under MA/O3 conditions were significantly stronger compared to those obtained under other conditions. The characteristic absorption bands at 1637 cm−1, 1511 cm−1, and 1454 cm−1 corresponded to the vibrational modes of the phenolic ring backbone [41]. The vibrational absorption at 1250 cm−1 in the lignin was attributed to the C-O bond stretching vibration of the guaiacyl (G) [42]. The presence of hemicellulose in the lignin was suggested by the characteristic absorption at 1049 cm−1.
+2.4. Thermal Stability Analysis
+The TG and DTG analyses of lignin are shown in Figure 5, from which the maximum pyrolysis temperature (Tm) and amount of residual carbon of the lignin for each condition were derived, presented in Table S2. The Tm of DL obtained from the MA/O3 condition was 256 °C and the residual carbon was 22.02%. Both the Tm and the residual carbon contents were significantly lower than those observed for lignin treated with O3, MA, or O3/H2SO4. The Tm of lignin was influenced by the content of β-O-4 bonds and the Mw, which were the two most critical factors [43]. The reduction in Tm indicated that the thermal stability of lignin was reduced after MA and O3 treatments. This reduction was attributed to the depolymerization reaction induced by MA and the oxidation reaction of O3, which broke the β-O-4 bonds in the lignin, leading to a decrease in its molecular weight [29,31,44].
+Figure 5. TG (a) and DTG (b) of MWL and DL (reaction conditions: ball–milling time: 6 h, T: 60 °C, O3 holding time: 9 min).
+2.5. Molecular Weight Analysis
+Table 2 shows the MW, Mn, and PI for each of the lignins. Compared with MWL, the MW and Mn of DL obtained under MA/O3 conditions were significantly smaller, and the polydispersity index of the samples was on the large side, reaching 3.97. This was attributed to the strong oxidizing properties of O3 [45] and its significantly accelerated molecular motion rate at 60 °C compared to ambient temperature. O3 continuously penetrated the wheat straw and reacted with lignin, leading to the opening of the phenolic ring and oxidation of the side chains [46]. The reactions between O3 and the lignin structures are illustrated in Figure S1. Due to the inhomogeneity of lignin distribution in the wheat straw [47], the reaction degree of lignin with MA or O3 varied, resulting in polydisperse Mw.
+Table 2. Weight-average (Mw), number-average (Mn) molecular weights, and polydispersity indexes (PI, Mw/Mn) of lignin.
+The Mw of DL under O3/H2SO4 conditions was smaller than that obtained with the O3 treatment alone. However, the Mw of DL under MA/O3 conditions was even lower than that under O3/H2SO4 conditions. This indicated that the combination of MA and O3 produced synergistic effects on the lignin, making the lignin macromolecules more susceptible to fragmentation.
+2.6. 2D-HSQC-NMR Spectra Analysis
+Previous studies were used to assign the signals of lignin and carbohydrate linkage bonds [48,49,50]. The 2D-HSQC-NMR profiles of the lignin phenolic ring region and side chain region are shown in Figure 6 and the semi-quantitative analysis of the units in the lignin structure is shown in Table 3.
+Figure 6. The 2DHSQCNMR of lignin (a,c,e,g,i are lignin phenolic ring regions; b,d,f,h,j are lignin side chain regions).
+Table 3. HSQC semi–quantitative analysis of lignin structural units.
+2.6.1. Lignin Cross-Signals
+Compared with MWL, both G and S unit signals were detected in the phenolic ring region (δC/δH 90–150/8.0–6.0 ppm) of the 2D-HSQC-NMR spectra of the DL obtained under O3 and O3/H2SO4 conditions. These signals primarily included the C5-H5 signals (G5) of the guaiacyl unit and the etherified syringyl units’ C2-H2 and C6-H6 signals (S2,6). The S/G ratio of MWL was 0.87, while the S/G ratios of DL obtained under O3 and O3/H2SO4 conditions were 0.61 and 0.45, respectively, indicating a significant decrease in the proportion of S units. Only G-unit signals, mainly C5-H5 signals of the guaiacyl unit (G5), could be detected in the phenolic ring region of the lignin under MA/O3 conditions. In contrast, the DL obtained by MA treatment was rich in G, S, and H unit signals, which was similar to MWL. The S/G ratio in DL directly decreased from 0.81 to 0 in the MA/O3 condition compared to the MA condition. The reason for this was that under the strong oxidizing effect of O3, the aromatic ring structure in lignin underwent a 1,3-even ring addition reaction, and the phenolic ring was cleaved to generate structures such as lactone bonds. Under the further action of O3, the lactone bond broke and substances such as muconic acid were generated [30,51], resulting in the missing phenolic ring signal of the lignin. In contrast, lignin obtained in different separation environments was condensed to varying degrees, and the phenolic ring was essentially not ring-opened [29]. The signals at δC/δH 136.13/6.37 ppm and δC/δH 128.73/6.29 ppm for lignin obtained under MA conditions and MA/O3 conditions were due to the esterification of the γ-OH of lignin by MA to form Eγ(MA)2,3 [28]. The signal located at δC/δH 114.81/6.11 ppm (PCAβ) belonged to C8-H8 in p-coumaric acid. In contrast to the MWL and DL obtained from MA conditions, the DL obtained with the participation of O3 in the reaction did not find the signals of tricin located at δC/δH 94.2/6.60 ppm (T8), δC/δH 98.8/6.31 ppm (T6), and δC/δH 104.1/7.07 ppm (T3).
+In the side chain region of 2D-HSQC-NMR (δC/δH 50–110/3.1–5.5 ppm), the methoxy signal was located at δC/δH 55.74/3.81 ppm (-OCH3). The correlation signals of Cα-Hα and Cγ-Hγ in the β-O-4 structure were identified at δC/δH 72.89/4.73 ppm (Aα) and δC/δH 61.47/3.74 ppm (Aγ), respectively. Cβ-Hβ cross-peaks centered at δC/δH 89.31/4.09 ppm (Aβ(S)), 87.15/4.39 ppm (Aβ(G)), and 89.96/4.41 ppm (Aβ(H)) were from β-O-4 substructures linked to S, G, and H units, respectively. The Cγ-Hγ signal in the resinol structure and the Cγ-Cγ cross-signal at the cinnamyl alcohol end-group were located at δC/δH 67.87/3.97 ppm (Cγ) and δC/δH 65.56/4.13 ppm (Iγ), respectively.
+The resinol structure and the phenyl coumarin structure represent the common β-β and β-5 condensation bonds in lignin, respectively. The Cα-Hα signal (Cα) was located at δC/δH 88.05/4.75 ppm in the resinol structure and the Cα-Hα signal (Bα) was located at δC/δH 90.3/5.55 ppm in the phenyl coumarin structure. However, the above signals were not found in the DL structure obtained with O3 participation in the reaction. As shown in Table 3, the contents of β-β bonds and β-5 bonds in MA lignin were 10% and 7%, respectively, which were increased by 9 and 5 percentage points compared to MWL. This indicated that DL underwent significant condensation in the presence of MA. However, after the introduction of O3, the condensation bonds of lignin were significantly reduced, with the value directly decreased from 10% to 0, which effectively inhibited the condensation of lignin.
+2.6.2. Carbohydrate Cross-Signals
+In Figure 6, the cross-signal peaks of C2-H2, C3-H3, C4-H4, and C5-H5 of β-D-xylopyranose were located at δC/δH 75.59/3.27 ppm (X2), δC/δH 73.87/3.50 ppm (X3), δC/δH 76.29/3.55 ppm (X4), and δC/δH 62.86/3.49 ppm (X5) [52]. The cross-signal peaks of C1-H1, C2-H2, and C3-H3 of furan-type arabinose were located at δC/δH 103.11/4.97 ppm (Ara1), δC/δH 79.07/3.77 ppm (Ara2), and at δC/δH 77.38/3.71 ppm (Ara3) [29]. C3-H3 signals in 1-O-acetyl-β-D-xylose were located at δC/δH 99.11/4.67 ppm (X31). The cross-signal peaks of C2-H2 and C3-H3 of O-acetyl-β-D-xylopyranose were located at δC/δH 72.78/4.34 ppm (X’2) and δC/δH 76.08/4.68 ppm (X’3). The C4-H4 cross-signal in 4-O-methyl-α-D-glucuronic acid was located at δC/δH 75.48/3.18 ppm (U4) [53].
+The lignin obtained by different separation methods except MWL had different degrees of arabinose and xylose signals. This indicated that the DLs contained some hemicellulose presence, which corresponded to the results of the FT-IR. Compared with other lignin, the side chain signals of DL obtained by MA/O3 conditions were more complex and contained more sugar group signals, corresponding to higher glucan and xylan solubilization rates.
+3. Materials and Methods
+3.1. Materials
+Air-dried wheat straw was harvested from Jurong (Jurong, China). It was processed to obtain stems (without internodes), ground using a Wiley mill, and screened to retain the part of 40–80 mesh. The moisture content of the wheat straw was determined to be 8.57 ± 0.1% and the wheat straw was vacuum-dried and prepared for use. Extracts from the ground wheat straw were removed using benzene/ethanol (2:1, v/v) extraction for 8 h. The extractive-free ground wheat straw was ball-milled in a PULVERISETTE 7 reinforced planetary ball-mill (Beijing Feiqi Scientific Instrument Co., Ltd., Beijing, China) at 600 rpm for 6 h at room temperature. To prevent overheating, it was set to pause for 5 min every 10 min of operation. An ozone generator (Nanjing Qiangti Drying Equipment Co., Ltd., Nanjing, China) with a flow rate of 2 g/h was used. Maleic acid (MA) was purchased from Shanghai Macklin Biochemical Technology Co., Ltd., Shanghai, China.
+3.2. Pretreatment Procedure with MA/O3
+The ball-milled wheat straw was homogeneously mixed with liquids (60 wt% MA, H2O, or 60% H2SO4) at a controlled concentration of 30%. The O3 holding time (0, 3, 6, or 9 min) and reaction temperature (50, 60, 70, or 80 °C) during the liquid pretreatments were adjusted accordingly. After that, the samples were centrifuged and washed to neutral. The remaining water-insoluble solids (WISs) were recovered by vacuum freeze-drying. DL was obtained by dialysis of the supernatant, rotary evaporation, and lyophilization.
+3.3. Chemical Composition
+The chemical compositions of the wheat straw raw material and final products (WISs) were determined according to the method of the U.S. Department of Energy NREL/TP-510-42618 [54]. The amount of acid-soluble lignin was measured by its absorption at 205 nm using a UV spectrophotometer (TU-1900, Beijing General Instrument Co., Beijing, China). The glycosyl content was detected and analyzed using an HPLC system (Agilent 1200 Series, Santa Clara, CA, USA) equipped with a BioRad Aminex HPX-87H column (300 mm × 7.8 mm) and a refractive index detector (RID) (RI-101, Shodex, Tokyo, Japan). The contents of lignin, glucan, xylan, and extractives in the ground wheat straw were obtained as 21.95 ± 0.2%, 36.8 ± 0.3%, 20.9 ± 0.2%, and 3.49 ± 0.1%, respectively.
+3.4. Analytical Procedures
+Crystallinity was determined using a combined multifunctional X-ray diffractometer (XRD Ultima IV, Tokyo, Japan) for the ground wheat straw and the 6 h ball-milled wheat straw. The 2θ angles ranged from 10° to 40°.
+The particle size and zeta potential were determined by dynamic light scattering (DLS). Here, 10 mg of samples was dispersed in 150 mL of deionized water and sonicated for 30 min until completely dissolved. Then, an appropriate amount of this solution was taken to measure the particle size and zeta potential of the lignin by DLS.
+Conductivity titration was used to determine the carboxyl group content in lignin [55].
+3.5. Lignin Structure Analysis
+MWL was isolated based on previous studies [28]. A total of 6–8 mg of the sample was weighed in a crucible and its thermal stability was measured using a thermogravimetric analyzer (TG) in a N2 environment. The temperature range was set between 30 and 800 °C, with a gas flow rate of 20 mL/min and a heating rate of 10 K/min.
+UV spectra were obtained with a UV spectrophotometer (TU-1900, Beijing General Instrument, Beijing, China) in the wavelength range of 200–600 nm. The FTIR spectra of the lignin were measured by an FT-IR spectrometer (VERTEX 80V, Bruker, Berlin, Germany). The 2D-HSQC-NMR of lignin was conducted using Bruker AVANCE 600 MHz spectrometer, following our previous work [56]. The 2D-HSQC-NMR spectra obtained were analyzed using MestRenova-14.0.0-23239 software. The semi-quantitative calculation of lignin structural units was based on existing references [57,58].
+Gel permeation chromatography analysis (GPC, LC-20A, Shimadzu Co., Kyoto, Japan) was used to determine the molecular weight of the lignin to obtain the weight-average molecular weight (MW), number-average molecular weight (Mn), and polydispersity index (PI, MW/Mn). The acetylated lignin was dissolved in THF at a 1 mg/mL concentration [28]. The gel column, which was 300 mm × 8.0 mm in size, was calibrated using polystyrene standards with peak average molecular weights of 43,600, 30,000, 20,000, 10,000, 4050, and 2400 Da. The elution rate of THF was maintained at 1 mL/min, while the column temperature was set at 40 °C.
+4. Conclusions
+In this study, a novel biomass refining method was developed under the following experimental conditions: ball-milling for 6 h, MA concentration of 60%, wheat straw concentration of 30%, and O3 holding time of 9 min. Under these conditions, the lignin, dextran, and xylan removal ratios from the wheat straw were 38.07 ± 0.2%, 71.98 ± 0.1%, and 31.44 ± 0.1%, respectively. The results demonstrated the feasibility of using the MA/O3 system to separate components of lignocellulosic raw materials. The lignin obtained from this separation process introduced a substantial number of carboxyl groups through the esterification by MA and oxidation by O3, with a carboxyl group content of approximately 2.96 mmol/g. Due to the presence of O3, the lignin phenolic ring opened and the side chains were oxidized, preventing the condensation of G and S units. As a result, the β-β and β-5 condensation bonds almost disappeared. The lignin obtained in this study had a small average molecular weight of 7758 and a particle size of only 221.6 nm. This nanoscale lignin has the potential to be used in functional materials. However, this study is only a theoretical study of lignin and did not perform effective application research, which needs to be further explored.
+Supplementary Materials
+The following supporting information can be downloaded at: https://www.mdpi.com/article/10.3390/molecules29133228/s1, Figure S1: Reactions between O3 and lignin; Table S1: WIS yield and the removal ratio of each component; Table S2: Tm and residual carbon of lignin.
+Author Contributions
+X.C.: Writing—original draft preparation, Investigation, Formal analysis. Z.L.: Conceptualization, Writing—reviewing and editing. Z.Z.: Resources. R.L.: Writing—reviewing and editing. L.L.: Resources. Y.C.: Conceptualization, Supervision, Resources. All authors have read and agreed to the published version of the manuscript.
+Funding
+We are grateful for the financial support from the National Key Research and Development Program of China (2023YFD2201902) and the Priority Academic Program Development of Jiangsu Higher Education Institutions (PAPD).
+Institutional Review Board Statement
+Not applicable.
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+The data presented in this study are available upon request from the corresponding author.
+Conflicts of Interest
+Author Z.L. was cooperated with the company Zhejiang Kan New Materials Co., Ltd. Authors Z.Z. and L.L. were employed by the company Zhejiang Kan New Materials Co., Ltd. The authors declare no conflict of interest.
+References
+Jafari-Petroudy, S.R.; Resalati, H.; Rezayati-Charani, P. Newsprint from Soda Bagasse Pulp in Admixture with Hardwood CMP Pulp. Bioresources 2011, 6, 2483–2491. [Google Scholar] [CrossRef]
+Sarwar, M.; Khan, M.A.; Mahr-un, N. Nitrogen retention and chemical composition of urea treated wheat straw ensiled with organic acids or fermentable carbohydrates. Asian-Australas. J. Anim. Sci. 2003, 16, 1583–1592. [Google Scholar] [CrossRef]
+Taranenko, A.; Kulyk, M.; Galytska, M.; Taranenko, S.; Rozhko, I. Dynamics of soil organic matter in Panicum virgatum sole crops and intercrops. Zemdirb.-Agric. 2021, 108, 255–262. [Google Scholar] [CrossRef]
+Brummer, V.; Jurena, T.; Hlavacek, V.; Omelkova, J.; Bebar, L.; Gabriel, P.; Stehlik, P. Enzymatic hydrolysis of pretreated waste paper—Source of raw material for production of liquid biofuels. Bioresour. Technol. 2014, 152, 543–547. [Google Scholar] [CrossRef]
+Cekmecelioglu, D.; Uncu, O.N. Kinetic modeling of enzymatic hydrolysis of pretreated kitchen wastes for enhancing bioethanol production. Waste Manag. 2013, 33, 735–739. [Google Scholar] [CrossRef]
+Lai, C.H.; Yang, C.D.; Jia, Y.; Xu, X.; Wang, K.; Yong, Q. Lignin fractionation to realize the comprehensive elucidation of structure-inhibition relationship of lignins in enzymatic hydrolysis. Bioresour. Technol. 2022, 355, 127255. [Google Scholar] [CrossRef]
+Li, K.Y.; Zhong, W.; Li, P.H.; Ren, J.P.; Jiang, K.J.; Wu, W.J. Antibacterial mechanism of lignin and lignin-based antimicrobial materials in different fields. Int. J. Biol. Macromol. 2023, 252, 126281. [Google Scholar] [CrossRef]
+Ma, Y.L.; Dai, J.X.; Wu, L.L.; Fang, G.Z.; Guo, Z.H. Enhanced anti-ultraviolet, anti-fouling and anti-bacterial polyelectrolyte membrane of polystyrene grafted with trimethyl quaternary ammonium salt modified lignin. Polymer 2017, 114, 113–121. [Google Scholar] [CrossRef]
+Figueiredo, P.; Lintinen, K.; Kiriazis, A.; Hynninen, V.; Liu, Z.H.; Bauleth-Ramos, T.; Rahikkala, A.; Correia, A.; Kohout, T.; Sarmento, B.; et al. In vitro evaluation of biodegradable lignin-based nanoparticles for drug delivery and enhanced antiproliferation effect in cancer cells. Biomaterials 2017, 121, 97–108. [Google Scholar] [CrossRef]
+Frangville, C.; Rutkevicius, M.; Richter, A.P.; Velev, O.D.; Stoyanov, S.D.; Paunov, V.N. Fabrication of Environmentally Biodegradable Lignin Nanoparticles. Chemphyschem 2012, 13, 4235–4243. [Google Scholar] [CrossRef]
+de Albuquerque, T.L.; Cavalcante, V.G.C.; Rocha, W.D.; de Macedo, A.C.; Rocha, M.V.P. Hydrogels based on lignin extracted from cashew apple bagasse and its application in antimicrobial wound dressings. Int. J. Biol. Macromol. 2024, 262, 130169. [Google Scholar] [CrossRef] [PubMed]
+Li, J.; Xu, X.; Ma, X.; Cui, M.; Wang, X.; Chen, J.; Zhu, J.; Chen, J. Antimicrobial Nonisocyanate Polyurethane Foam Derived from Lignin for Wound Healing. ACS Appl. Bio Mater. 2024, 7, 1301–1310. [Google Scholar] [CrossRef]
+Domínguez-Robles, J.; Cárcamo-Martínez, A.; Stewart, S.A.; Donnelly, R.F.; Larrañeta, E.; Borrega, M. Lignin for pharmaceutical and biomedical applications—Could this become a reality? Sustain. Chem. Pharm. 2020, 18, 100320. [Google Scholar] [CrossRef]
+Norouzi, M.; Rafienia, M.; Hosseini, S. Characterization and biological evaluation of new PLGA/fibrin/lignin biocomposite electrospun scaffolds. Phys. Scr. 2023, 98, 095506. [Google Scholar] [CrossRef]
+Kandil, H.; Ekram, B.; Abo-Zeid, M.A.M. Cytocompatibility of MG-63 osteosarcoma cells on chitosan/hydroxyapatite/lignin hybrid composite scaffold in vitro. Biomed. Mater. 2023, 18, 015002. [Google Scholar] [CrossRef]
+Winters, C.; Carsi, M.; Sanchis, M.J.; Culebras, M.; Collins, M.N. On the design of lignin reinforced acrylic acid/hyaluronic acid adhesive hydrogels with conductive PEDOT:HA nanoparticles. Int. J. Biol. Macromol. 2024, 273, 133093. [Google Scholar] [CrossRef]
+Alaoui, C.H.; Rethoré, G.; Weiss, P.; Fatimi, A. Sustainable Biomass Lignin-Based Hydrogels: A Review on Properties, Formulation, and Biomedical Applications. Int. J. Mol. Sci. 2023, 24, 13493. [Google Scholar] [CrossRef] [PubMed]
+Garlapati, V.K.; Chandel, A.K.; Kumar, S.P.J.; Sharma, S.; Sevda, S.; Ingle, A.P.; Pant, D. Circular economy aspects of lignin: Towards a lignocellulose biorefinery. Renew. Sustain. Energy Rev. 2020, 130, 109977. [Google Scholar] [CrossRef]
+Sun, Q.; Chen, W.J.; Pang, B.; Sun, Z.H.; Lam, S.S.; Sonne, C.; Yuan, Q. Ultrastructural change in lignocellulosic biomass during hydrothermal pretreatment. Bioresour. Technol. 2021, 341, 125807. [Google Scholar] [CrossRef]
+Hsu, T.C.; Guo, G.L.; Chen, W.H.; Hwang, W.S. Effect of dilute acid pretreatment of rice straw on structural properties and enzymatic hydrolysis. Bioresour. Technol. 2010, 101, 4907–4913. [Google Scholar] [CrossRef]
+Chen, J.H.; Xu, J.K.; Huang, P.L.; Sun, R.C. Effect of alkaline pretreatment on the preparation of regenerated lignocellulose fibers from bamboo stem. Cellulose 2016, 23, 2727–2739. [Google Scholar] [CrossRef]
+Zakaria, S.M.; Idris, A.; Alias, Y. Lignin Extraction from Coconut Shell Using Aprotic Ionic Liquids. Bioresources 2017, 12, 5749–5774. [Google Scholar] [CrossRef]
+Zhang, X.M.; Yuan, T.Q.; Peng, F.; Xu, F.; Sun, R.C. Separation and Structural Characterization of Lignin from Hybrid Poplar Based on Complete Dissolution in DMSO/LiCl. Sep. Sci. Technol. 2010, 45, 2497–2506. [Google Scholar] [CrossRef]
+Rinaldi, R.; Jastrzebski, R.; Clough, M.T.; Ralph, J.; Kennema, M.; Bruijnincx, P.C.A.; Weckhuysen, B.M. Paving the Way for Lignin Valorisation: Recent Advances in Bioengineering, Biorefining and Catalysis. Angew. Chem.-Int. Ed. 2016, 55, 8164–8215. [Google Scholar] [CrossRef]
+Zhao, X.; Yang, Y.Y.; Xu, J.Y.; Guo, Y.Z.; Zhou, J.H.; Wang, X. Ni12P5/P-N-C Derived from Natural Single-Celled Chlorella for Catalytic Depolymerization of Lignin into Monophenols. ACS Omega 2022, 7, 13134–13143. [Google Scholar] [CrossRef]
+Zhu, J.J.; Chen, L.H.; Gleisner, R.; Zhu, J.Y. Co-production of bioethanol and furfural from poplar wood via low temperature (≤90 °C) acid hydrotropic fractionation (AHF). Fuel 2019, 254, 115572. [Google Scholar] [CrossRef]
+Ma, Q.L.; Zhu, J.J.; Gleisner, R.; Yang, R.D.; Zhu, J.Y. Valorization of Wheat Straw Using a Recyclable Hydrotrope at Low Temperatures (≤90 °C). ACS Sustain. Chem. Eng. 2018, 6, 14480–14489. [Google Scholar] [CrossRef]
+Cai, C.; Hirth, K.; Gleisner, R.; Lou, H.M.; Qiu, X.Q.; Zhu, J.Y. Maleic acid as a dicarboxylic acid hydrotrope for sustainable fractionation of wood at atmospheric pressure and ≤100 °C: Mode and utility of lignin esterification. Green Chem. 2020, 22, 1605–1617. [Google Scholar] [CrossRef]
+Su, C.; Hirth, K.; Liu, Z.L.; Cao, Y.F.; Zhu, J.Y. Maleic acid hydrotropic fractionation of wheat straw to facilitate value-added multi-product biorefinery at atmospheric pressure. Glob. Chang. Biol. Bioenergy 2021, 13, 1407–1424. [Google Scholar] [CrossRef]
+Ma, R.S.; Xu, Y.; Zhang, X. Catalytic Oxidation of Biorefinery Lignin to Value-added Chemicals to Support Sustainable Biofuel Production. Chemsuschem 2015, 8, 24–51. [Google Scholar] [CrossRef]
+Mamleeva, N.A.; Autlov, S.A.; Fionov, A.V.; Bazarnova, N.G.; Lunin, V.V. The oxidative destruction of lignin in the ozonation of wood. Russ. J. Phys. Chem. A 2009, 83, 745–751. [Google Scholar] [CrossRef]
+Shi, C.; Zhang, S.; Wang, W.; Linhardt, R.J.; Ragauskas, A.J. Preparation of Highly Reactive Lignin by Ozone Oxidation: Application as Surfactants with Antioxidant and Anti-UV Properties. ACS Sustain. Chem. Eng. 2020, 8, 22–28. [Google Scholar] [CrossRef]
+Khadre, M.A.; Yousef, A.E.; Kim, J.G. Microbiological aspects of ozone applications in food: A review. J. Food Sci. 2001, 66, 1242–1252. [Google Scholar] [CrossRef]
+Seta, F.T.; An, X.Y.; Liu, L.Q.; Zhang, H.; Yang, J.; Zhang, W.; Nie, S.X.; Yao, S.Q.; Cao, H.B.; Xu, Q.L.; et al. Preparation and characterization of high yield cellulose nanocrystals (CNC) derived from ball mill pretreatment and maleic acid hydrolysis. Carbohydr. Polym. 2020, 234, 115942. [Google Scholar] [CrossRef] [PubMed]
+Tripathi, S.K.; Bhardwaj, N.K.; Ghatak, H.R. Developments in Ozone-Based Bleaching of Pulps. Ozone-Sci. Eng. 2020, 42, 194–210. [Google Scholar] [CrossRef]
+Garcia, J.C.; Lopez, F.; Perez, A.; Pelach, M.A.; Mutje, P.; Colodette, J.L. Initiating ECF bleaching sequences of eucalyptus kraft pulps with Z/D and Z/E stages. Holzforschung 2010, 64, 1–6. [Google Scholar] [CrossRef]
+Travaini, R.; Martín-Juarez, J.; Lorenzo-Hernando, A.; Bolado-Rodríguez, S. Ozonolysis: An advantageous pretreatment for lignocellulosic biomass revisited. Bioresour. Technol. 2016, 199, 2–12. [Google Scholar] [CrossRef] [PubMed]
+Wang, H.Y.; Zhao, L.H.; Ren, J.L.; He, B.H. Structural Changes of Alkali Lignin under Ozone Treatment and Effect of Ozone-Oxidized Alkali Lignin on Cellulose Digestibility. Processes 2022, 10, 559. [Google Scholar] [CrossRef]
+Liu, Z.L.; Meng, L.K.; Chen, J.Q.; Cao, Y.F.; Wang, Z.G.; Ren, H. The utilization of soybean straw III: Isolation and characterization of lignin from soybean straw. Biomass Bioenergy 2016, 94, 12–20. [Google Scholar] [CrossRef]
+Delmas, G.H.; Benjelloun-Mlayah, B.; Le Bigot, Y.; Delmas, M. Functionality of Wheat Straw Lignin Extracted in Organic Acid Media. J. Appl. Polym. Sci. 2011, 121, 491–501. [Google Scholar] [CrossRef]
+Mohammadpour, R.; Sadeghi, G.M.M. Potential use of black liquor as lignin source for synthesis of polyurethane foam. J. Polym. Res. 2020, 27, 362. [Google Scholar] [CrossRef]
+Shukry, N.; Fadel, S.M.; Agblevor, F.A.; Ei-Kalyoubi, S.F. Some physical properties of acetosolv lignins from bagasse. J. Appl. Polym. Sci. 2008, 109, 434–444. [Google Scholar] [CrossRef]
+Faravelli, T.; Frassoldati, A.; Migliavacca, G.; Ranzi, E. Detailed kinetic modeling of the thermal degradation of lignins. Biomass Bioenergy 2010, 34, 290–301. [Google Scholar] [CrossRef]
+Yang, J.Y.; Yu, Q.F.; Li, M.F. Freeze-thaw assisted maleic acid pretreatment of eucalyptus to prepare cellulose nanocrystals and degraded lignin. Bioresour. Technol. 2023, 384, 129365. [Google Scholar] [CrossRef] [PubMed]
+Figueirêdo, M.B.; Heeres, H.J.; Deuss, P.J. Ozone mediated depolymerization and solvolysis of technical lignins under ambient conditions in ethanol. Sustain. Energy Fuels 2020, 4, 265–276. [Google Scholar] [CrossRef]
+Wang, R.; Chen, C.L.; Gratzl, J.S. Ozonation of pine kraft lignin in alkaline solution. Part 1: Ozonation, characterization of kraft lignin and its ozonated preparations. Holzforschung 2004, 58, 622–630. [Google Scholar] [CrossRef]
+Xiao, M.Z.; Chen, W.J.; Hong, S.; Pang, B.; Cao, X.F.; Wang, Y.Y.; Yuan, T.Q.; Sun, R.C. Structural characterization of lignin in heartwood, sapwood, and bark of eucalyptus. Int. J. Biol. Macromol. 2019, 138, 519–527. [Google Scholar] [CrossRef] [PubMed]
+Qiao, X.L.; Zhao, C.; Shao, Q.J.; Hassan, M. Structural Characterization of Corn Stover Lignin after Hydrogen Peroxide Presoaking Prior to Ammonia Fiber Expansion Pretreatment. Energy Fuels 2018, 32, 6022–6030. [Google Scholar] [CrossRef]
+Xie, D.; Gan, T.; Su, C.; Han, Y.; Liu, Z.L.; Cao, Y.F. Structural characterization and antioxidant activity of water-soluble lignin-carbohydrate complexes (LCCs) isolated from wheat straw. Int. J. Biol. Macromol. 2020, 161, 315–324. [Google Scholar] [CrossRef]
+Khongchamnan, P.; Wanmolee, W.; Laosiripojana, N.; Champreda, V.; Suriyachai, N.; Kreetachat, T.; Sakulthaew, C.; Chokejaroenrat, C.; Imman, S. Solvothermal-Based Lignin Fractionation From Corn Stover: Process Optimization and Product Characteristics. Front. Chem. 2021, 9, 697237. [Google Scholar] [CrossRef]
+Schutyser, W.; Renders, T.; Van den Bosch, S.; Koelewijn, S.F.; Beckham, G.T.; Sels, B.F. Chemicals from lignin: An interplay of lignocellulose fractionation, depolymerisation, and upgrading. Chem. Soc. Rev. 2018, 47, 852–908. [Google Scholar] [CrossRef]
+Jiang, B.; Cao, T.Y.; Gu, F.; Wu, W.J.; Jin, Y.C. Comparison of the Structural Characteristics of Cellulolytic Enzyme Lignin Preparations Isolated from Wheat Straw Stem and Leaf. ACS Sustain. Chem. Eng. 2017, 5, 342–349. [Google Scholar] [CrossRef]
+Giummarella, N.; Lawoko, M. Structural Basis for the Formation and Regulation of Lignin-Xylan Bonds in Birch. ACS Sustain. Chem. Eng. 2016, 4, 5319–5326. [Google Scholar] [CrossRef]
+Ibanez, A.B.; Bauer, S. Downscaled method using glass microfiber filters for the determination of Klason lignin and structural carbohydrates. Biomass Bioenergy 2014, 68, 75–81. [Google Scholar] [CrossRef]
+Li, X.K.; Zhao, X.; Zhu, H.W.; Wang, X.; Zhou, J.H. Research of Inhibiting Lignin Condensation by Ethylene Glycol During DES Pretreatment Process. Trans. China Pulp Pap. 2022, 37, 39–46. (In Chinese) [Google Scholar]
+Su, C.; Hirth, K.; Liu, Z.L.; Cao, Y.F.; Zhu, J.Y. Acid hydrotropic fractionation of switchgrass at atmospheric pressure using maleic acid in comparison with p-TsOH: Advantages of lignin esterification. Ind. Crop. Prod. 2021, 159, 113017. [Google Scholar] [CrossRef]
+Li, N.; Li, Y.D.; Yoo, C.G.; Yang, X.H.; Lin, X.L.; Ralph, J.; Pan, X.J. An uncondensed lignin depolymerized in the solid state and isolated from lignocellulosic biomass: A mechanistic study. Green Chem. 2018, 20, 4224–4235. [Google Scholar] [CrossRef]
+Yue, P.P.; Hu, Y.J.; Fu, G.Q.; Sun, C.X.; Li, M.F.; Peng, F.; Sun, R.C. Structural Differences between the Lignin-Carbohydrate Complexes (LCCs) from 2-and 24-Month-Old Bamboo (Neosinocalamus affinis). Int. J. Mol. Sci. 2018, 19, 1. [Google Scholar] [CrossRef] [PubMed]
+
+
+
+
+
+
+
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Chen, X.; Liu, Z.; Zhou, Z.; Li, R.; Li, L.; Cao, Y. The Synergetic Reduction of the Condensation Degree of Dissolved Lignin (DL) during the Refining Process of Wheat Straw Biomass Based on the MA/O3 System. Molecules 2024, 29, 3228. https://doi.org/10.3390/molecules29133228
+AMA Style
+Chen X, Liu Z, Zhou Z, Li R, Li L, Cao Y. The Synergetic Reduction of the Condensation Degree of Dissolved Lignin (DL) during the Refining Process of Wheat Straw Biomass Based on the MA/O3 System. Molecules. 2024; 29(13):3228. https://doi.org/10.3390/molecules29133228
+Chicago/Turabian Style
+Chen, Xiuguang, Zhulan Liu, Zhenyu Zhou, Renai Li, Lizi Li, and Yunfeng Cao. 2024. "The Synergetic Reduction of the Condensation Degree of Dissolved Lignin (DL) during the Refining Process of Wheat Straw Biomass Based on the MA/O3 System" Molecules 29, no. 13: 3228. https://doi.org/10.3390/molecules29133228
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views8. Jul9. Jul10. Jul11. Jul12. Jul13. Jul14. Jul15. Jul16. Jul17. Jul18. Jul19. Jul0100200300400500
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Molecules, EISSN 1420-3049, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

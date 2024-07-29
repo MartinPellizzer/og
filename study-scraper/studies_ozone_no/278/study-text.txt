@@ -1,0 +1,81 @@
+Our website uses cookies to enhance your experience. By continuing to use our site, or clicking "Continue," you are agreeing to our Cookie Policy | Continue
+JAMA Network Open
+JAMA Network Open
+Sign In
+contents icon
+CONTENTS
+figure icon
+FIGURES /
+TABLES
+attach icon
+SUPPLEMENTAL
+CONTENT
+references icon
+REFERENCES
+related icon
+RELATED
+comments icon
+COMMENTS
+Download PDF
+Comment
+Top of Article
+Key Points
+Abstract
+Introduction
+Method
+Results
+Discussion
+Conclusions
+Article Information
+References
+1.
+
+
+
+
+This Issue
+Views 1,847
+Citations 0
+119
+PDF
+More
+Cite
+Permissions
+Original Investigation Pediatrics
+July 9, 2024
+Prenatal Exposure to Ambient Air Pollution and Cerebral Palsy
+Yu Zhang, PhD1; Yuhong Hu, MS1; Robert Talarico, MSc2,3; et al
+Author Affiliations Article Information
+JAMA Netw Open. 2024;7(7):e2420717. doi:10.1001/jamanetworkopen.2024.20717
+Key Points
+Question  Is ambient air pollutant exposure during pregnancy associated with cerebral palsy (CP) risk among full term births?
+Findings  In this cohort study of over 1 million singleton full term births from all hospitals in Ontario, Canada (2002-2017), a per IQR increase in prenatal residential ambient fine particulate matter with a diameter 2.5 μm (PM2.5) concentration (2.7 μg/m3) was associated with a 1.12 times higher risk of CP.
+Meaning  These findings suggest that prenatal interventions to reduce ambient PM2.5 exposure are needed to mitigate the potential risk of CP during fetus development.
+Importance  Air pollution is associated with structural brain changes, disruption of neurogenesis, and neurodevelopmental disorders. The association between prenatal exposure to ambient air pollution and risk of cerebral palsy (CP), which is the most common motor disability in childhood, has not been thoroughly investigated.
+Objective  To evaluate the associations between prenatal residential exposure to ambient air pollution and risk of CP among children born at term gestation in a population cohort in Ontario, Canada.
+Design, Setting, and Participants  Population-based cohort study in Ontario, Canada using linked, province-wide health administrative databases. Participants were singleton full term births (≥37 gestational weeks) born in Ontario hospitals between April 1, 2002, and March 31, 2017. Data were analyzed from January to December 2022.
+Exposures  Weekly average concentrations of ambient fine particulate matter with a diameter 2.5 μm (PM2.5) or smaller, nitrogen dioxide (NO2), and ozone (O3) during pregnancy assigned by maternal residence reported at delivery from satellite-based estimates and ground-level monitoring data.
+Main outcome and measures  CP cases were ascertained by a single inpatient hospitalization diagnosis or at least 2 outpatient diagnoses for children from birth to age 18 years.
+Results  The present study included 1 587 935 mother-child pairs who reached term gestation, among whom 3170 (0.2%) children were diagnosed with CP. The study population had a mean (SD) maternal age of 30.1 (5.6) years and 811 745 infants (51.1%) were male. A per IQR increase (2.7 μg/m3) in prenatal ambient PM2.5 concentration was associated with a cumulative hazard ratio (CHR) of 1.12 (95% CI, 1.03-1.21) for CP. The CHR in male infants (1.14; 95% CI, 1.02-1.26) was higher compared with the CHR in female infants (1.08; 95% CI, 0.96-1.22). No specific window of susceptibility was found for prenatal PM2.5 exposure and CP in the study population. No associations or windows of susceptibility were found for prenatal NO2 or O3 exposure and CP risk.
+Conclusions and relevance  In this large cohort study of singleton full term births in Canada, prenatal ambient PM2.5 exposure was associated with an increased risk of CP in offspring. Further studies are needed to explore this association and its potential biological pathways, which could advance the identification of environmental risk factors of CP in early life.
+Introduction
+Cerebral palsy (CP) is the most common cause of physical disability in childhood, representing a group of nonprogressive clinically heterogeneous neurodevelopmental disorders that are characterized by motor impairment. CP appears early in life and leads to lifelong motor disability.1,2 The motor disorders of CP are often accompanied by disturbances of sensation, perception, cognition, communication, and behavior, as well as by epilepsy and secondary musculoskeletal problems.3 Despite decreases in perinatal and neonatal morbidity and major changes in prenatal and neonatal care, the overall prevalence of CP has remained stable over time at between 1 and 4 per 1000 live births.4-6 The prevalence, severity, and burden of CP and its comorbidities make prevention a public health priority. The cause of CP, however, has proved complex given its heterogeneity with respect to clinical subtypes and ranges of comorbidities and functional outcomes.7 Although preterm birth is one of the known important risk factors for CP, three-fourths of CP cases are born at term and the mechanism of CP among full term births remains elusive.8 One recent study in California reported conceptions in winter and spring seasons had higher CP risk than those conceived in summer and fall, and preterm birth only mediated a small proportion of the association, suggesting an environmental cause for CP among full term births.9 Recognizing that prenatal and perinatal exposures are greatly linked to the risk of CP among full term births, identifying and understanding potential risk factors provides opportunities for prevention.7
+Prenatal exposure to air pollution is associated with decelerated neurological development early in life and increased risk of neurodevelopmental problems.10 Although no animal or human study has ever reported a direct link between air pollution and CP, it is possible that air pollution may increase the risk of CP following similar pathophysiological pathways.
+In animal models, in utero exposure to fine particles is associated with structural changes in white matter, delay in cognitive development, and disruption of neurogenesis.11-13 Proposed mechanisms for the association between prenatal air pollution and adverse health effects include epigenetic changes,14 proinflammatory pathways,15 and oxidative stress.16-19 Evidence from human studies is also mounting to support air pollution–related neurodevelopmental disorders (eg, elevated risks of autism and structural brain alterations among other disorders).20
+Recent evidence showed the transfer of black carbon particles across to the fetal side of the human placenta,21 indicating air pollutants in maternal circulation can cross the placenta and directly affect the fetus.22 Furthermore, brain development starts as early as the third week of gestation and continues until birth.23 Environmental exposures at different gestational weeks can have different effects due to sensitive periods of brain development, which few studies have investigated.
+In this study, we leveraged the population-based health administrative data from the province of Ontario, Canada (2002-2017) and assembled a population cohort to examine the associations between prenatal exposure to ambient air pollutants and CP among full term births. We further assessed windows of susceptibility by gestational weeks and heterogeneity by infant sex.
+Method
+Study Population and Data Sources
+Ethical approval for this cohort study was obtained from the research ethics boards of Health Canada and the Ottawa Health Science Network. Informed consent was waived because ICES is a prescribed entity under Ontario’s Personal Health Information Protection Act. The study followed the Strengthening the Reporting of Observational Studies in Epidemiology (STROBE) reporting guideline for cohort studies.
+We included all full term births (37 or more gestational weeks completed [259 days]) born in hospitals in Ontario, Canada between April 1, 2002, and March 31, 2017, leveraging the administrative health data housed at ICES, an independent, nonprofit research institute, which collects and analyzes health care and demographic data of all legal residents with a valid health card in Ontario, Canada (>99% of the population).24 We excluded children from a multiple birth pregnancy, invalid health card numbers, missing 6-digit postal codes for exposure assessment, missing or invalid covariates and exposure estimates, and mothers or children who were ineligible for provincial health insurance (Ontario Health Insurance Plan [OHIP]) at birth (eFigure 1 in Supplement 1). eTable 1 in Supplement 1 summarizes the distribution of gestational weeks at birth among CP cases in all births born in hospitals in Ontario, Canada between 2002 and 2017.
+We compiled databases from various sources in our analyses. The Discharge Abstract Database from the Canadian Institute for Health Information (CIHI-DAD), which contains information from all hospital admissions, and the OHIP Records Database, which contains health services billing data from all physicians in Ontario, were used for outcome ascertainment. Demographic information and maternal data were obtained from the Registered Persons Database, which included demographic information on those registered for health insurance, and MOMBABY, an ICES-derived cohort that links hospital admission records of mothers with their newborns for all hospital births in the province based on records from CIHI-DAD. Area-level socioeconomic status variables were obtained from the Ontario Marginalization Index (ON-Marg), which is a specific version of the Canadian Marginalization Index that explores multiple dimensions of social and economic marginalization in Ontario.25
+Exposure Assessment
+Prenatal residential exposures to ambient air pollutants, including fine particulate matter with a diameter 2.5 μm or less (PM2.5), nitrogen dioxide (NO2), and ozone (O3), were assigned to the study population as the estimated weekly concentrations at the geographic center of each 6-digit postal code area, using the reported residential address at delivery. Weekly average concentrations of residential air pollutants during pregnancy were obtained using the recorded gestational age available in the MOMBABY dataset. Details on the measurements of ambient air pollutants were described in a previously published study.24
+In brief, annual PM2.5 concentrations were estimated incorporating data from geophysically driven satellite-derived estimates and ground-level monitor data at a 1 × 1 km resolution.26 Annual NO2 concentration was estimated based on a national land-use regression using data from the Canadian National Air Pollution Surveillance (NAPS) monitoring network, coupled with data from satellites, road lengths within 10 km, areas of industrial land use within 2 km, and the mean summer rainfall.27 NO2 concentration was estimated at a 10 × 10 km resolution. The model explained 73% variation in the NO2 measurements from NAPS.27 Peak-season O3 was assessed with 21-km grid values and estimated based on the average of daily maximum O3 concentrations in the warm seasons (May 1 to October 31) and these estimates were used as the annual estimates for O3.28 The estimated annual pollutant concentrations were then spatiotemporally interpolated by scaling factors obtained from land-use regressions to calculate estimates of the weekly pollutant concentrations using information from monitors in the NAPS network and satellite data.29 The interpolation model showed large spatial and temporal coverage that is useful for national-scale longitudinal research on ambient air pollution.29
+Outcome Ascertainment
+CP diagnosis was ascertained as (1) a single inpatient hospitalization diagnosis from CIHI-DAD (International Statistical Classification of Diseases and Related Health Problems, Tenth Revision, Canada [ICD-10-CA]) code: G80), or 2 or more outpatient diagnoses at least 2 weeks apart on physician billing claims (modified ICD-9 code: 343) using OHIP.30 Data for outcome ascertainment was available up to March 2020. Person-time of follow-up was calculated from birthdate to the first diagnosis of CP, loss to follow-up due to emigration from Ontario, death, or the end of follow-up (March 2020), whichever came first. The longest follow-up time was 18 years.
+Covariates
+Demographic and delivery information were obtained from the databases as described previously and included maternal age at delivery, season of birth, calendar year of birth, and infant sex. Area-level socioeconomic status variables were obtained from ON-Marg and included indexes of community size, residential instability, material deprivation, dependency, and ethnic concentration.31 These marginalization indexes were first constructed from principal component analysis based on a broad range of indicators, and then encoded in categorical quintiles with a higher level of quintile suggesting the mother resided in a more marginalized area.25 Residential instability is the area-level concentration of people who experience high rates of family or housing instability. Material deprivation measures the ability for individuals and communities to access and attain basic material needs, including income, quality of housing, educational attainment, and family structure characteristics. Dependency is the area-level concentration of people who do not have income from employment. Ethnic concentration refers to area-level concentrations of people who are recent immigrants and/or people belonging to a visible minority group, which is defined by Statistics Canada as “persons, other than Aboriginal peoples, who are non-Caucasian in race or non-white in color.”32
+Statistical Analyses
+Descriptive analyses were conducted for characteristics of the study population and distributions of ambient air pollutants during pregnancy. We calculated Pearson correlation coefficients for prenatal average ambient PM2.5, NO2, and O3 concentrations.
+We performed multiple-pollutant Cox proportional hazards regression in combination with a distributed lag model (DLM) to estimate cumulative hazard ratios (CHR) as well as weekly hazard ratios (WHR) for CP per IQR increase in the cumulative or weekly ambient PM2.5, NO2, and O3 concentrations during pregnancy. Pollutant concentrations were standardized by their IQR to facilitate estimate interpretation. DLM allowed us to explore the weekly

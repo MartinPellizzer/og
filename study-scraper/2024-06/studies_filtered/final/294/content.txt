@@ -1,0 +1,46 @@
+Geoscientific Model Development
+ARTICLES & PREPRINTS
+SUBMISSION
+POLICIES
+PEER-REVIEW PROCESS
+EDITORIAL BOARD
+ABOUT
+EGU PUBLICATIONS
+  Preprint  
+Preprints
+Preprint gmd-2024-52
+
+https://doi.org/10.5194/gmd-2024-52
+© Author(s) 2024. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Abstract
+Discussion
+Metrics
+Submitted as: model description paper
+ | 
+11 Jun 2024
+Status: this preprint is currently under review for the journal GMD.
+Development of the MPAS-CMAQ Coupled System (V1.0) for Multiscale Global Air Quality Modeling
+David C. Wong, Jeff Willison, Jonathan E. Pleim, Golam Sarwar, James Beidler, Russ Bullock, Jerold A. Herwehe, Rob Gilliam, Daiwen Kang, Christian Hogrefe, George Pouliot, and Hosein Foroutan
+Abstract. The Community Multiscale Air Quality (CMAQ) model has been used for regulatory purposes at the US EPA and in the research community for decades. In 2012, we released the WRF-CMAQ coupled model that enables aerosol information from CMAQ to affect meteorological processes through direct effects on shortwave radiation. Both CMAQ and WRF-CMAQ are considered limited area models. Recently, we have extended domain coverage to global scale linking the meteorological Model for Prediction Across Scales – Atmosphere (MPAS-A, hereafter referred simply to as MPAS) with CMAQ to form the MPASCMAQ global coupled model. To configure these three different models, i.e. CMAQ (offline), WRF-CMAQ, and MPASCMAQ, we have developed the Advanced Air Quality Modelling System (AAQMS) for constructing each of them effortlessly. We evaluate this newly-built MPAS-CMAQ coupled model using two global configurations: a 120 km uniform mesh and a 92–25 km variable mesh with the finer area over North America. Preliminary computational tests show good scalability and model evaluation, a three years simulation (2014–2016) for the uniform mesh case and a monthly simulation of January and July 2016 for the variable mesh case, on ozone and PM2.5, show reasonable performance with respect to observations. The 92–25 km configuration has a high bias in wintertime surface ozone across the United States and this bias is consistent with the 120 km result. Summertime surface ozone in the 92–25 km configuration is less biased than the 120 km case. The MPAS-CMAQ system reasonably reproduces the daily variability of daily average PM from the Air Quality System (AQS) network.
+How to cite. Wong, D. C., Willison, J., Pleim, J. E., Sarwar, G., Beidler, J., Bullock, R., Herwehe, J. A., Gilliam, R., Kang, D., Hogrefe, C., Pouliot, G., and Foroutan, H.: Development of the MPAS-CMAQ Coupled System (V1.0) for Multiscale Global Air Quality Modeling, Geosci. Model Dev. Discuss. [preprint], https://doi.org/10.5194/gmd-2024-52, in review, 2024.
+Received: 15 Mar 2024 – Discussion started: 11 Jun 2024
+Publisher's note: Copernicus Publications remains neutral with regard to jurisdictional claims made in the text, published maps, institutional affiliations, or any other geographical representation in this preprint. The responsibility to include appropriate place names lies with the authors.
+
+Download
+Preprint (6616 KB)
+Metadata XML
+BibTeX
+EndNote
+Short summary
+This work describe how we linked meteorological Model for Prediction Across Scales – Atmosphere...
+Read more
+Share
+Geoscientific Model Development
+An interactive open-access journal of the European Geosciences Union
+All site content, except where otherwise noted, is licensed under the Creative Commons Attribution 4.0 License.
+Contact
+|
+Imprint
+|
+Data protection

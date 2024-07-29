@@ -1,0 +1,77 @@
+IEEE.org
+IEEE Xplore
+IEEE SA
+IEEE Spectrum
+More Sites
+Subscribe
+Donate
+Cart
+Create Account
+Personal Sign In
+Browse
+My Settings
+Help
+Institutional Sign In
+All
+Books
+Conferences
+Courses
+Journals & Magazines
+Standards
+Authors
+Citations
+ADVANCED SEARCH
+Journals & Magazines >IEEE Access >Early Access
+UNI-CAL: A Universal AI-Driven Model For Air Pollutant Sensor Calibration With Domain-Specific Knowledge Inputs
+Publisher: IEEE
+Cite This
+PDF
+Yang Han; Shiguang Song; Yangwen Yu; Jacqueline C.K. Lam; Victor O.K. Li
+All Authors
+18
+Full
+Text Views
+Open Access
+Comment(s)
+Under a Creative Commons License
+Abstract
+Authors
+Keywords
+Metrics
+Abstract:
+Portable Sensor Nodes (PSNs) can supplement geographically sparse government-run static air quality monitoring stations (AQMSs). A PSN typically consists of several low-cost pollution sensors for different air pollutants, which must be calibrated to improve the accuracy of measurements. These sensors can be co-located with the high accuracy monitoring equipment (HAME) at AQMSs for calibration. Existing studies have suggested that different pollution sensors may favor different calibration models; even the same pollution sensors in different PSNs may favor different models. However, it is impractical to co-locate each PSN with HAME due to limited access to AQMSs, making large-scale sensor calibration difficult. This study proposes UNI-CAL for calibrating different pollutants, including nitrogen dioxide (NO 2 ), ozone (O 3 ), and particulate matter (PM 2.5 and PM 10 ), based on a novel AI-driven model with residual blocks capturing the complex non-linear interactions of raw measurements plus citywide domain-specific information, including meteorology, background pollution, and temporal characteristics. UNI-CAL further allows transfer calibration, i.e., the calibration of sensors from calibrated ones. UNI-CAL has improved the performance of direct calibration by 3.143% on average compared to the best baseline across all pollutants and PSNs on all evaluation metrics. Moreover, domain-specific information has significantly improved the direct calibration performance of UNI-CAL by 4.852% on average. Furthermore, UNI-CAL has demonstrated a strong capability in transfer calibration and achieved the best performance in most scenarios after incorporating domain-specific information. In the future, one can collect more data covering different environmental conditions and explore advanced semi-supervised learning techniques to improve the consistency, robustness, generalizability, and transferability of the proposed calibration framework.
+Published in: IEEE Access ( Early Access )
+Page(s): 1 - 1
+Date of Publication: 06 June 2024
+Electronic ISSN: 2169-3536
+DOI: 10.1109/ACCESS.2024.3410171
+Publisher: IEEE
+Funding Agency:
+Authors
+Keywords
+Metrics
+More Like This
+A gas sensor system coupled to an artificial neural network capable of self-calibration against ambient humidity and temperature fluctuations
+2011 19th Iranian Conference on Electrical Engineering
+Published: 2011
+Artificial neural networks based air pollution monitoring in industrial sites
+2017 International Conference on Engineering and Technology (ICET)
+Published: 2017
+Show More
+IEEE Personal Account
+CHANGE USERNAME/PASSWORD
+Purchase Details
+PAYMENT OPTIONS
+VIEW PURCHASED DOCUMENTS
+Profile Information
+COMMUNICATIONS PREFERENCES
+PROFESSION AND EDUCATION
+TECHNICAL INTERESTS
+Need Help?
+US & CANADA: +1 800 678 4333
+WORLDWIDE: +1 732 981 0060
+CONTACT & SUPPORT
+Follow
+About IEEE Xplore | Contact Us | Help | Accessibility | Terms of Use | Nondiscrimination Policy | IEEE Ethics Reporting | Sitemap | IEEE Privacy Policy
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
+© Copyright 2024 IEEE - All rights reserved, including rights for text and data mining and training of artificial intelligence and similar technologies.

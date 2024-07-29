@@ -1,0 +1,554 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature npj climate and atmospheric science articles article
+Article
+Open access
+Published: 31 May 2024
+Complexities of peroxyacetyl nitrate photochemistry and its control strategies in contrasting environments in the Pearl River Delta region
+Tao Liu, Yu Wang
+, Huang Cai, Hao Wang, Chunlin Zhang, Jun Chen, Yan Dai, Wenlong Zhao, Jiangyong Li
+, Daocheng Gong, Duohong Chen, Yuhong Zhai, Yan Zhou, Tong Liao & Boguang Wang 
+npj Climate and Atmospheric Science
+ 7, Article number: 116 (2024) Cite this article
+500 Accesses
+1 Altmetric
+Metrics
+Abstract
+Peroxyacetyl nitrate (PAN) is a hazardous secondary pollutant and a nitrogen reservoir in the troposphere, while comprehensive studies on its spatiotemporal distribution, chemical sources, and control strategies are limited. This study addressed these issues based on 1-year multi-site observations in the Pearl River Delta region, showing a pattern of higher PAN levels in the cold season, particularly in coastal areas. Moreover, in situ modeling indicated a net photochemical PAN formation in the warm season, while PAN was dominated by regional transport in the cold season (i.e., rural and coastal areas), releasing NO2 and PA radicals and promoting ozone (O3) formation. In addition, the feasibility of joint control of PAN and O3 was confirmed by their isopleth diagrams. C7–C9 aromatics and C4–C5 alkenes, largely from vehicle exhaust and solvent usage, were identified as the predominant contributors to PAN formation in this region. Overall, this study deepens our understanding of PAN chemistry and provides valuable insights into its control measures.
+Similar content being viewed by others
+Seasonality and reduced nitric oxide titration dominated ozone increase during COVID-19 lockdown in eastern China
+Article Open access
+28 March 2022
+Ozone pollution mitigation strategy informed by long-term trends of atmospheric oxidation capacity
+Article 27 November 2023
+A two-pollutant strategy for improving ozone and particulate air quality in China
+Article 14 October 2019
+Introduction
+Peroxyacetyl nitrate (PAN, CH3C(O)OONO2) is a component of photochemical smog1,2 and exhibits detrimental effects on both human health3,4,5,6,7 and plant growth8,9,10,11. As a secondary product, PAN is formed through the reaction of nitrogen dioxide (NO2) with peroxyacetyl (PA) radical, the oxidated product of volatile organic compounds (VOCs)12,13,14,15,16. Unlike ozone (O3) formation contributed by various VOCs and oxygenated VOCs (OVOCs), only certain species such as acetaldehyde (CH3CHO) and methylglyoxal (MGLY) can be oxidized to generate PA radicals. These OVOCs are derived from primary emissions and oxidation of VOCs, particularly aromatics and isoprene7,14,15,17,18. In contrast to the photochemical production of PAN, its predominant sink is thermal decomposition7,14,19,20. The net formation of PAN usually occurs in polluted areas, from where it can be transported to relatively clean areas to decompose PA and NO221,22,23,24,25. In this regard, PAN can also be interpreted as a nitrogen reservoir that regulates the NOx (= NO + NO2) cycle in various environments7,26,27.
+PAN was, for the first time, synthesized by Edward Schuck and George Doyle in 1959 to investigate the photochemical smog in Los Angeles16,28. After that, extensive analyses of the distribution and source of PAN were carried out in Europe29,30,31, Asia32,33,34, North America16,35,36, and other regions based on the methods of field measurements and model simulations26,37,38,39. In China, the measurements of PAN were reported in many cities (summarized in Supplementary Table 1), such as Beijing (0.31–1.9 ppbv, scale of averages in different studies)40,41,42,43, Hong Kong (0.48–0.69 ppbv)6, Guangzhou (0.31 ppbv)39, Lanzhou (0.76 ppbv)44, Ziyang (0.55 ppbv)45, Jinan (1.89 ppbv)46, Xiamen (0.55 ppbv)47, Shanghai (0.7–1.3 ppbv)48, Zhengzhou (1.24–3.04 ppbv)9, and Shenzhen (0.54 ppbv)49, while most studies were conducted at a single site in a short period (about 1–3 months) in different seasons, which might not present a systematic spatiotemporal characters of PAN. Although the studies in Shenzhen49, Shanghai48, and Zhengzhou9 analyzed the seasonal changes of PAN (Supplementary Table 1), its spatial variations in contrasting environments were not provided.
+Apart from PAN observations, the nonlinear relationship between PAN formation and its precursors (i.e., VOCs and NOx) was also examined in previous studies. PAN formation was firstly determined as VOCs-limited through relative incremental reactivities (RIR) analysis at a rural site (Backgarden site) in the Pearl River Delta (PRD) region39 and at an urban site (China Meteorological Administration site) in Beijing11, while later research found that PAN formation was generally controlled by both NOx and VOCs in suburban and rural areas7,14,50. Although the RIR values of VOC species were further testified by Xue et al.18, demonstrating that the PAN production can be attributed to relatively few species, including xylene, trimethylbenzene, trans/cis-2-butene, toluene, and propene18, the exact contributions of these species to PAN formation were not quantified. Furthermore, the formation pathways of PAN were analyzed in previous studies, showing that PAN was mainly derived from CH3CHO, MGLY, other OVOCs, and radicals7,14,18. However, few studies specifically described the completed formation pathways from VOCs or OVOCs to PAN. Although Wang et al. quantified the VOCs-OVOCs-PAN process in a mountainous background area in southern China, the detailed formation processes of PAN in urban and rural areas remain elusive24. In addition, research on control strategies of O3 was well-developed, with studies focusing on O3 isopleth diagram51,52,53 and the contribution of VOC species54,55,56 and their sources to O3 formation54,55,57. However, similar studies on PAN are scarce, leading to a lack of its control strategies. Considering the net photochemical PAN formation nowadays was found not only in urban areas7,15 but also in polluted suburban7,14, rural50, and even remote24,25 areas, control strategies for PAN formation should be evaluated in different environments.
+To address these research questions, one-year multi-site observations of PAN and its precursors in the PRD region were conducted to clarify the spatiotemporal variations of PAN in contrasting environments (i.e., inland rural, inland urban, and coastal urban areas). Furthermore, the photochemical processes of local PAN production were simulated using a photochemical box model with a master chemical mechanism (PBM–MCM). In addition, with the comparison between PAN and O3 isopleth diagrams, the coordinated control strategies of PAN and O3 were provided. At last, VOC sources were apportioned using the Positive-Matrix Factorization (PMF) model and the specific contributions of VOC sources to PAN formation were determined. The comprehensive studies deepen our understanding of the spatiotemporal variations of PAN photochemistry and provide insight into its sources and possible reduction strategies.
+Results and discussion
+Spatiotemporal variations of PAN and its precursors
+The monthly variations of temperature, PAN and its precursors from June 2020 to May 2021 are shown in Supplementary Fig. 1. The monthly averaged values of temperature between June and September in 2020 (defined as the warm season) were comparable (t-test, p > 0.1), and were significantly higher (p < 0.05) than those in other months (October 2020 to May 2021, defined as the cold season). Meanwhile, the mixing ratios of PAN at three types of sites in the warm season were significantly lower (p < 0.05) than those in the cold season. PAN precursors also showed differences in warm and cold seasons. Therefore, further analyses were divided into warm and cold seasons to present the temporal variations.
+Figure 1 shows the mixing ratios of PAN, Ox (= O3 + NO2), and their precursors in warm and cold seasons, and their values of each site are listed in Supplementary Table 2. In the warm season, the highest averaged PAN was found in inland rural areas (TH and BL site, 0.46 ± 0.04 ppbv, ±95% confidence interval). As the southwest monsoon prevailed in the warm season, the secondary pollutants (i.e., PAN and O3) at southern sites were diluted by dominated maritime air masses (Fig. 2a), resulting in lower mixing ratios of PAN in inland urban (HGS and ZML site, 0.29 ± 0.04 ppbv) and coastal urban (MH site, 0.27 ± 0.04 ppbv) areas. In addition, no significant difference (p = 0.2) was found between the southern inland and coastal urban sites, likely confirming the dilution effect on these sites in the warm season. It should be noteworthy that the dilution affects both primary (i.e., PAN precursors) and secondary (i.e., PAN and Ox) pollutants. Since the precursors have persistent anthropogenic and biogenic emission sources, while secondary pollutants have no primary emission source, the dilution effect of clear maritime air masses on secondary pollutants is more obvious.
+Fig. 1: Comparisons of PAN and its precursors during warm and cold seasons at inland rural (IR), inland urban (IU), and coastal urban (CU) sites.
+Note: The VOCs were represented by VOCs reactivities with OH. Error bars are the 95% confidence interval of the averages.
+Full size image
+Fig. 2: Spatial distributions of air masses arriving at MH site.
+Backward trajectories and average levels of PAN and RVOCs of each air mass in warm (a) and cold (b) seasons are from June 2020 to May 2021. Note: The percentage represents the proportion of each cluster of trajectories.
+Full size image
+Conversely, during the cold season, the mixing ratio of PAN at coastal urban sites (2.46 ± 0.10 ppbv) was significantly higher (p < 0.01) than those at inland rural (1.46 ± 0.09 ppbv) and inland urban (1.14 ± 0.23 ppbv) sites, which might be due to regional transport of inland pollutants under the northeast monsoon in the cold season (Fig. 2b), resulting in a high level of PAN and Ox at a downwind coastal site.58,59 To confirm the regional transport, polar contour plots of PAN with wind speed and direction in inland urban (HGS site) and coastal urban (MH site) areas in the cold season were compared (Supplementary Fig. 3). High levels of PAN tended to occur at inland urban site when wind speed was lower than 2 m s−1, implying local PAN formation at this site, while it appeared at coastal urban site from north wind with speed higher than 2 m s−1, indicating the regional transport of PAN from northern part. Further comparison on diurnal variations of PAN at five sites found that observed PAN at coastal urban site (MH site) was significantly enhanced and delayed about 1–2 h compared with those at inland urban/rural sites, verifying the influence of regional transport on ambient PAN in coastal urban areas in the cold season (Supplementary Fig. 4).
+Compared with PAN, NOx, and VOCs presented different spatiotemporal variations. In general, both VOCs reactivities with OH (i.e., RVOCs, see Supplementary Note for details) and NOx at inland urban sites were the highest in warm (RVOCs: 5.55 ± 0.38 s−1, NOx: 8.06 ± 0.22 ppbv) and cold (RVOCs: 5.16 ± 0.19 s−1, NOx: 16.91 ± 0.53 ppbv) seasons, due to their continuous highly local emissions. In contrast, NOx and anthropogenic VOCs (AVOCs, including 55 VOC species) with OH (RAVOCs) were lower at inland rural sites, where the impacts of anthropogenic emissions are weakened. In the warm season, biogenic VOC (BVOC, i.e., isoprene) reactivities with OH (RBVOC) were high at inland rural sites and inland urban sites since these sites are surrounded by large vegetation coverage (Fig. 9), leading to high biogenic emissions. Higher RBVOC at inland urban sites was probably due to the more intensive isoprene emission caused by higher temperatures in urban areas, which can be seen from correlations between isoprene and temperature in Supplementary Fig. 2.
+Compared with inland sites, coastal urban site had the lowest RAVOCs and RBVOC in the warm season, mainly due to the stronger dilution effect of maritime air masses on coastal areas. This can be confirmed by the much lower level of PAN (0.2 ppbv) and RVOCs (~1.5 s−1) from maritime air masses compared to those from inland air masses (PAN: 2.15 ppbv and RVOCs: 3.56 s−1) in the warm season, which were shown in Fig. 2a.
+In addition, the increased reactivities of AVOC groups in inland and coastal urban areas and increased ratios of VOCs/NOx at coastal urban site were found in the cold season (Supplementary Table 3, and more details in Supplementary Discussion 1), reflecting the varied spatiotemporal characters of PAN precursors as well. Given the nonlinear PAN-precursor relationship, PAN chemistry could also present spatiotemporal variations. Hence, in situ model simulations were applied to in-depth analyses PAN formation mechanism.
+Formation mechanism of PAN
+Figure 3 shows the average production and destruction rates of PAN at three types of sites in warm and cold seasons, and the estimation method of the PAN production rate is described in the section of Methods. In the warm season, the production rates of PAN at inland urban and rural sites were slightly higher than the destruction rates, leading to positive net production rates of 0.17 and 0.12 ppbv h−1, respectively. The greater net production rate at inland urban sites should be attributed to higher levels of all precursors. In comparison, the PAN production rate at the coastal urban site was approximately equal to its destruction rate, resulting in a negligible net production rate (0.06 ppbv h−1). The lowest production rate at coastal urban sites can primarily be ascribed to its lower VOC reactivities.
+Fig. 3: Spatiotemporal variations of PAN production and destruction rates.
+The simulated production, destruction and net rates of PAN during warm (a) and cold (b) seasons at IR, IU, and CU sites in the PRD region are shown in red, blue and black dots and lines, respectively.
+Full size image
+The net production rates in the PRD region were comparable to the studies conducted in Xiamen during spring (net PAN production rate: 0.06 ppbv h−1)15 and in Qingdao (values not shown)50. In conclusion, the net production rates of PAN in the warm season indicated that local photochemical PAN formation positively contributed to ambient PAN levels in the PRD region.
+In the cold season, the net production rate at inland urban sites remained positive (0.15 ppbv h−1), indicating that PAN was still being formed. In contrast, net production rates were negligible at inland rural and coastal urban sites, which indicated that ambient PAN was not from local formation but primarily from regional transport in the cold season. The regional transport of PAN had been verified based on observational PAN data at each site in the cold season (i.e., Oct and Nov 2020) from the above discussion, displaying the delayed PAN peak at the downwind MH site (see Supplementary Fig. 4). This also indicated that photochemically formed PAN in inland urban areas could undergo regional transport to arrive in rural and coastal areas. The regional transport of PAN has been well documented in previous studies11,18,41,43,60, showing that the regional sources of PAN play potentially more important roles in the contribution of ambient PAN concentration, and the effect is in the cold season.
+Recall the limited local formation capacity, PAN from regional transport can be supposed to thermal decompose in inland rural and coastal urban areas. To test this possibility, the model is constrained with PAN observations to estimate the reaction rates. Higher thermal decomposition rates were found in inland rural and coastal urban areas than those of production rates, suggesting the possible depletion of PAN from regional transport. Furthermore, a series of sensitivity tests were conducted to investigate the impacts of temperature, PAN, and its precursor levels on the net reaction rate of PAN, as shown in Supplementary Fig. 5 and Table 4. The tests indicated that the relatively high levels of PAN and temperature (e.g., MH site: 19.14 °C) elevated the possibility of the thermal decomposition of PAN in inland rural and coastal urban areas in the cold season. For more details of the tests refer to Supplementary Discussion 4.
+As PA radical is crucial to PAN formation, Fig. 4 illustrates the chemical production pathways of PA, including its formation from CH3CHO, MGLY, other OVOCs (234 species shown in Supplementary Tables 11 and 12), and radicals in three different environments during both warm and cold seasons. The four pathways in warm season were more prominent than cold season, primarily due to stronger solar radiation (Supplementary Fig. 7) and more significant contributions from BVOC in warm season (see Fig. 5). Among the three types of sites, inland urban sites had the highest production rate (1.6 ppbv h−1) in warm season, followed by inland rural sites (0.99 ppbv h−1), and coastal urban site (0.56 ppbv h−1). Specifically, in the warm season the production rates of MGLY, other OVOCs, and radicals at coastal urban sites were much lower than others due to its lowest level of isoprene. In contrast, in the cold season, production rates at inland rural sites were the lowest, mainly due to the minimal contribution from aromatics (Fig. 5).
+Fig. 4: Spatiotemporal variations of chemical production pathways of PA radicals.
+The simulated PA production rates from MGLY, other OVOCs, radicals and CH3CHO pathways during warm (a) and cold (b) seasons at IR, IU, and CU sites in the PRD region are shown in blue, green, orange and red, respectively.
+Full size image
+Fig. 5
+Contributions of VOC species to PA formation during warm and cold seasons at IR, IU, and CU sites.
+Full size image
+The MGLY pathway accounted for the largest proportion (39%), followed by radicals (28%), CH3CHO (24%), and other OVOCs (9%), and their proportions showed insignificant changes (<8%) between warm and cold seasons (Supplementary Table 5). Notably, the dominant proportion of the MGLY pathway in the PRD region differed from nearly all previous studies, in which the CH3CHO pathways were dominated7,11,14,15,18,39,50. The prominence of the MGLY pathway could mainly be attributed to the high level of both BVOC and aromatics in this region (Supplementary Fig. 9b). Although the contribution of isoprene dropped substantially in the cold season, the contributions from aromatics increased, compensating for its contributions to MGLY, other OVOCs, and radicals (Supplementary Fig. 9b–d). Additional information on production and destruction rates of PA radicals was provided in Supplementary Fig. 6, Table 5, and Discussion 5.
+Given that OVOCs and radicals are VOCs products, Fig. 5 further illustrates the contributions of VOCs to the PA formation, whose proportions are disclosed in Supplementary Table 6. In the warm season, isoprene contributed significantly to PA formation, accounting for approximately 34% of the total contribution across all sites. Among AVOCs, aromatics made the largest contribution (40%), followed by alkenes (14%) and alkanes (12%). Conversely, in the cold season, the contribution from aromatics increased to 64%, dominating PA formation primarily due to the declined contribution from isoprene.
+Further investigation of the contributions from AVOC species revealed that xylene isomers accounted for roughly 40% of the total contribution across all sites in both warm and cold seasons, followed by trimethylbenzene isomers (12%) and toluene (9%). Among the alkenes, the most noticeable contributors were propene (8%), cis/trans-2-butenes (7%), and cis/trans-2-pentenes (4%). For alkanes, the major contributors were n-butane (4%) and i-pentane (4%). These findings suggested that effective control of PAN formation demands a primary focus on aromatics reduction in this region. Additionally, emphasis should be placed on reducing propene in coastal urban areas (>10%) and cis/trans-2-butenes in inland urban areas (8%).
+The results of this study generally aligned with previous RIR analyses of VOC species. Specifically, aromatics (i.e., toluene, xylene, and trimethylbenzene) and alkenes (i.e., cis/trans-2-butenes and propene) contributed significantly to PAN formation in urban areas, whereas isoprene contributed more PAN formation in suburban areas7,14,18,50. Building on the RIR analyses, this study provided quantified specific production rates of individual VOC species contributing to PAN formation. In addition, the study conducted in Nanling Mountains found that the major contributors to PAN production were isoprene and propene, while the contributions of xylene and trimethylbenzene isomers amplified on days with high PAN levels24. Compared to the background areas of southern China, PAN formation in urban/rural areas in the PRD region was primarily driven by xylene isomers, except for the significant contribution of isoprene in the warm season. In addition, more contributions of butene and pentene isomers were found, which were attributed to their fresh emissions in urban/rural areas. More detailed descriptions of the contributions of VOC species to PA formation pathways of CH3CHO, MGLY, other OVOCs, and radicals can be found in Supplementary Fig. 9.
+Effects of PAN on the local atmospheric environment
+The impacts of PAN on local radical chemistry and O3 production are presented in Table 1, Supplementary Figs. 10–12 and Table 7. In the warm season, compared with the scenario excluding PAN photochemistry (methods shown in the section of Methods), the production and destruction rates of ROx (=OH + HO2 + RO + RO2)59 at inland rural and urban sites decreased about 6% and 15%, respectively, when PAN photochemistry was included (Supplementary Fig. 11). Consequently, the Δ ROx production/destruction rates were negative (Table 1), indicating a weakened radical cycle at inland sites. Furthermore, the simulated radical levels (i.e., OH, HO2, and RO2) at inland rural/urban sites all decreased (Supplementary Fig. 10), suggesting that the PAN photochemistry also suppressed the radical formation and weakened atmospheric oxidative capacity (AOC)24. As PAN formation consumes PA and NO2, the consumption of PA reduces the amount of RO2, weakening the pathway of RO2 + NO reaction. Meanwhile, the reduction in HO2 levels resulted in fewer reactions of HO2 + NO, leading to a decrease in OH formation. In comparison, both the production and destruction rates of ROx at coastal urban site showed no significant changes within the PAN photochemistry scenario. The insignificant changes might be attributed to the net production of PAN being close to zero, thereby suggesting that PAN had minimal influence on radical chemistry at coastal urban site.
+Table 1 Differences in the daytime average production/destruction rate of O3 and ROx (ppbv h−1) with and without PAN formation and loss pathways
+Full size table
+In the cold season, the suppression effect remained prevalent at inland urban sites. In contrast, the thermal decomposition of PAN at the coastal urban site resulted in an increase of 0.31 ppbv h−1 in the OH + NO2 pathways (Supplementary Fig. 11b and Table 7), suggesting an amplification of ROx cycle. The simulated levels of OH, HO2, and RO2 were also slightly increased, indicating that PAN photochemistry enhanced both radical formation and AOC at this site.
+Furthermore, O3 formation can also be influenced by PAN photochemistry. Supplementary Fig. 12 illustrates the simulated O3 formation/loss pathways with and without PAN photochemistry, respectively. In the warm season, PAN photochemistry demonstrated inhibitory effects on O3 formation at all sites (i.e., negative net Δ O3 production rate in Table 1), while the promotional effects were evident at coastal urban and inland rural sites in the cold season. Since PAN and O3 shared most of the same precursors, their secondary formation could be limited due to the competition of precursors under low-precursor conditions, resulting in inhibitory effects. Conversely, thermal decomposition of PAN can release precursors that might contribute to O3 formation, leading to promotional effects. In addition, from the perspective of radical chemistry, the influences of PAN chemistry on the radical cycle can either promote or suppress the production pathway of O3 (i.e., HO2/RO2 + NO).
+In light of the above analyses, it was concluded that PAN chemistry in the warm season tended to weaken the radical cycle, thereby inhibiting O3 formation. In the cold season, the inhibition effect persisted at inland urban sites, while it changed to promotional effects at inland rural and coastal urban sites. More descriptions can be found in Supplementary Discussion 7.
+Policy recommendations for PAN in the PRD region
+Figure 6 shows the RIRs of PAN precursors in inland rural, inland urban, and coastal urban areas in warm and cold seasons. In general, the RIRs of NOx at inland rural/urban sites were positive in the warm season, with values much lower than the sum of AVOCs and BVOC, indicating that PAN formation was in a transition regime. This aligned with previous findings conducted in Nanling Mountains24, Hong Kong50, Guangzhou39, and Beijing11, where the locations were typically characterized as background, suburban, or rural areas.
+Fig. 6
+RIR values of AVOCs, BVOC, and NOx during warm and cold seasons at IR, IU, and CU sites. Note: Error bars are the 95% confidence interval of the averages.
+Full size image
+In contrast, RIR values of NOx became negative in the cold season, mainly due to the significantly increased level of NOx (Supplementary Table 3). Meanwhile, the RIR values of NOx at coastal urban site were negative all year round because of the consistently high level of NOx. PAN formation at these conditions was VOCs-limited, indicating that reducing VOCs can effectively control PAN formation, while a reduction in NOx may lead to an increase in PAN production. The result was consistent with other studies showing negative RIRs of NOx in Beijing18, Qingdao50, and Chongqing7, which were urban areas with high NOx levels.
+Compared to the warm season, the RIR values of AVOCs were all higher in the cold season, suggesting that PAN formation in the cold season was more sensitive to AVOCs. In contrast, the RIR values of BVOC in the warm season were all higher due to the high level of isoprene. Among the contrasting environments, inland urban sites displayed the highest RIR values of AVOCs in the cold season (1.11 ± 0.06), which was mainly related to its highest AVOCs reactivities.
+Similar to O3 control strategies, it is crucial to evaluate the reasonable reduction ratio of VOCs/NOx on PAN formation control in the PRD region due to the nonlinear relationship of second pollutants with their precursors. Figure 7 depicts the isopleth diagrams of PAN and O3 at coastal urban site in warm and cold seasons, while the isopleths of PAN and O3 for the other four sites can be found in Supplementary Figs. 13 (warm season) and 14 (cold season).
+Fig. 7: Temporal variations of PAN and O3 isopleth diagrams at MH site.
+The simulated net production rates of PAN (a, c) and O3 (b, d) are shown in the isopleth diagrams in warm (a, b) and cold (c, d) seasons at coastal urban site (i.e., MH site). The red arrow indicates the minimum reduction ratio of VOCs to NOx that keeping the PAN and O3 formation not increased.
+Full size image
+In the warm season, the formation of PAN and O3 at coastal urban site was governed by a VOC-limited regime, and their minimum VOCs/NOx reduction ratios were 0.3 and 0.6, respectively. In contrast, PAN and O3 formation at the other four sites experienced the transition regime whereby any reduction ratio of NOx and VOCs can reduce their formation. Different from the warm season, PAN and O3 formation at all sites in the cold season shifted to the VOC-limited regime. The minimum reduction ratios of VOCs/NOx for PAN ranged from 0.7 to 1 among all sites, while for O3, it was between 0.9 and 1.7. Based on the above ratios, the minimum reduction ratios for PAN formation control at five sites were all lower than those for O3, indicating that the reduction strategies on O3 formation control were all effective for PAN and no additional VOCs reductions were required to prevent PAN formation.
+In addition, the PAN isopleth diagram highlighted the areas of net PAN production (in red legend) and net PAN decomposition (in blue). It also presented the reduction percentages of VOCs or NOx to reach the zero net rate, marked by a green line. The PAN formation/loss rates and their changes provided by isopleth diagrams were consistent with the sensitivity tests in Supplementary Discussion 4.
+As PAN formation is mainly controlled by VOCs, it is essential to further examine the contribution of VOC sources to PAN production. The source profiles for three types of sites from June 2020 to May 2021 were shown in Supplementary Fig. 15 and the analyses of VOC apportionments and simulation method were described in Supplementary Discussion 8. Six VOC sources were determined, including biogenic emission, liquefied petroleum gas (LPG) usage, gasoline evaporation, solvent usage, combustion and vehicle exhausts.
+Figure 8 displays the contributions of six VOC sources to PAN formation in contrasting environments during warm and cold seasons. The results showed that in the warm season, biogenic emission contributed the most to PAN formation, particularly in inland urban/rural areas where contributions exceeded 0.3 ppbv. Among the anthropogenic sources, solvent usage and vehicle exhausts were the leading contributors, with 0.22 ± 0.02 and 0.19 ± 0.01 ppbv of PAN formation, respectively. The high contribution of vehicle exhausts was due to its high content of trimethylbenzene, butene, and pentene isomers, while solvent usage contained a large percentage of xylene isomers in urban areas. In addition, the contributions of combustion and gasoline evaporation at inland urban sites were considerable, with averaged values of 0.14 ± 0.02 and 0.18 ± 0.02 ppbv, respectively.
+Fig. 8
+Contributions of six VOC sources to PAN formation during warm and cold seasons in IR, IU, and CU areas. Note: Error bars are the 95% confidence interval of the averages.
+Full size image
+In conclusion, to effectively control PAN formation in the PRD region, the reduction of solvent usage and vehicle exhausts should be strengthened. In addition, combustion and gasoline evaporation in inland urban areas should also be considered.
+Overall, this study displayed the simultaneous spatiotemporal variations of PAN at five sites in the PRD region based on one-year observations from June 2020 to May 2021. The observed PAN in the cold season (1.54 ± 0.08 ppbv) was higher than that in the warm season (0.35 ± 0.03 ppbv). Spatially, the averaged PAN at inland rural sites (0.44 ± 0.06 ppbv) in the warm season was notably higher than inland urban sites and coastal urban sites, while in the cold season, its level changed to be the highest (3.05 ± 0.34 ppbv) at the coastal urban site. Furthermore, photochemical formation of PAN was simulated using a PBM–MCM model and found that PAN in the warm season was mainly photochemical formed in the PRD region and competed with the O3 formation to consume VOCs and NOx. In contrast, PAN in the cold season changed to be consumed by thermal decomposition in the rural and coastal areas, which released NO2 and PA radicals and promoted the O3 formation. Regarding PAN control strategies, according to the comparison of isopleths between PAN and O3, it found that the reduction ratios of VOCs/NOx on O3 formation control were all effective for PAN formation control, and no additional VOCs reductions were needed to prevent PAN formation. Further analysis of the formation pathways of PAN in the PRD region found that reducing xylene, trimethylbenzene, and cis/trans-2-butenes/pentenes can effectively reduce the formation of PAN. With the joint help of PBM–MCM and the PMF model, it was found that biogenic emission was the main source of photochemical PAN formation in the warm season. Among anthropogenic sources, vehicle exhaust and solvent usage were the major contributors to PAN formation in the PRD region. This study enhances our comprehensive understanding of PAN photochemistry and provides scientific guidance for future implementation of PAN pollution control.
+Methods
+Site description
+In this study, online field measurements were carried out concurrently at five sites in the PRD region from June 2020 to May 2021 (Fig. 9). Five monitoring stations were classified as inland urban, inland rural and coastal urban sites according to their locations and the characteristics of primary pollutants.
+Fig. 9
+Locations of five sampling sites in the PRD region. The inland rural, inland urban and coastal urban sites are marked in white, red and light blue, respectively. The satellite imageries are from Google Earth.
+Full size image
+Meihua site (MH; 22.23°N, 113.50°E) is located in Xiangzhou District, Zhuhai. The direct distance of MH site to the Pearl River estuary is only about 4.5 km. The mixing ratio of NOx in warm and cold seasons were 9.06 ± 0.47 and 21.95 ± 1.1 ppbv, respectively (Supplementary Table 2), belonging to an urban area and it is significantly affected by sea-land breeze61. Therefore, we define this site as the coastal urban site.
+Huaguoshan site (HGS; 22.72°N, 112.93°E) is in a suburban area of Jiangmen. Although HGS site is not located in the core urban area, its mixing ratios of VOC and NOx were comparable to those in other urban areas (Supplementary Table 2). As such, it is classified as an inland urban site. In addition, Zimaling site (ZML; 22.49°N, 113.43°E) is located in an urban area of Zhongshan, about 20 km from the Pearl River estuary and 50 km from the South China Sea. The temperature difference between day and night in coastal areas is usually smaller than that in inland areas due to the influence of seawater. To identify the site type of ZML site, the difference in temperature (ΔT) between the daily maximum and minimum at ZML site was compared with those at HGS and MH sites (Supplementary Fig. 17). It was found that the ΔT at ZML and HGS site were comparable (p > 0.1) and were significantly higher (p < 0.05) than that at MH site, confirming the inland character of ZML site. Therefore, based on its location and relatively high ΔT, we regard the ZML site as an inland urban site.
+Finally, considering the significantly lower levels of VOCs and NOx, Tianhu site (TH; 23.65 ◦N, 113.62 ◦E) in Conghua District, Guangzhou and Boluo site (BL; 23.34 ◦N, 114.11 ◦E) in Huizhou are classified as inland rural sites.
+Measurement techniques
+The samplings for this study were conducted from June 1, 2020, to May 31, 2021. PAN was measured with an online PAN detection system (PANs-1000, Focused Photonics, Inc., Hangzhou, China) containing a gas chromatography-electron capture detector (GC-ECD) at each site. The system can mainly be divided into four units, including a sampling and analysis unit, a calibration unit, a zero-gas generator unit, and a computer control unit. The detection limit is 50 pptv and the time resolution is 5 min. The temperature in the ECD and in the column were controlled at 50 °C and 12 °C, respectively. High-purity nitrogen (>99.999%) was used as carrier gas and make-up gas. The precision and accuracy were both up to 95%.
+Hourly air pollutants and meteorological parameters during the study period were provided by the Guangdong Ecological Environment Monitoring Center (GDEEMC, http://gdee.gd.gov.cn/jczx/index.html). Briefly, UV photometric instrument (Model 49i, Thermo Scientific, Inc., USA), chemiluminescence analyzer (Model 42i-TL, Thermo Scientific Inc., USA), pulsed UV fluorescence (Model 43i-TLE, Thermo Scientific Inc., USA) and gas filter correlation infrared absorption trace level analyzer (Model 48i-TLE, Thermo Scientific Inc., USA) were used to measure O3, NOx, sulfur dioxide (SO2), and carbon monoxide (CO), respectively, with a time resolution of 1 min. The detection limits of O3, NOx, and SO2 are 0.05 ppbv, while CO is 40 ppbv. All instruments were calibrated weekly with a multi-gas calibrator (Model 146i, Thermo Fischer Scientific Inc., USA) throughout the study. O3 analyzer adopts NIST-traceable (National Institute of Standards and Technology, USA) standard for calibration. Zero and span checks of all analyzers were performed every morning.
+Real-time VOCs data for this study were also obtained from the GDEEMC. In brief, ambient VOCs at HGS and MH sites were measured by VOCs online analyzers of online gas chromatography–mass spectrometry detector (GC–MSD) (TH-300B, Wuhan Tianhong Instrument Co., Ltd., China), VOCs of ZML site was monitored by online gas chromatography–flame ionization detector (GC–FID) (GC866, Chromatotec Europa, French), and VOCs at TH and BL sites were obtained by GC–FID/MSD (AC-GCMS1000, Guangzhou Hexin Co., Ltd., China).
+The equipment is based on the analysis principle of GC–MSD/FID. The concentrated gas sample is separated by the chromatographic column and enters the detector, and then forms ions (fragments) through the hydrogen/air flame or ion source respectively, and finally according to the electrical signal or mass-to-charge ratio (m/z) for quantitative analysis of organic matter. Additionally, the time resolution of the devices is 1 h.
+In order to obtain accurate and effective monitoring data, and to ensure the comparability among instruments of different brands and models, the quality control calibration and routine maintenance of each instrument are based on Technical Requirements and Detection Methods for Continuous Monitoring System of Ambient Air Volatile Organic Compounds by Gas Chromatography (https://www.mee.gov.cn/ywgz/fgbz/bz/bzwb/jcffbz/201901/t20190105_688615.shtml)62. Perform unified instrument quality control checks every two months, and the content includes zero point noise (≤0.05 nmol/mol), accuracy (±10%), precision (≤10%), instrument parallelism (≤20%) and etc. In addition, the FID/MSD device performs daily single-point and blank checks and monthly multi-point calibrations to within ±20% for single points and 0.1 ppbv for blanks. The carrier gas used by the instrument is high-purity He or N2 (>99.999%). The standard gas used in instrument calibration is the 56 VOC species defined by Photochemical Assessment Monitoring Stations (PAMS) standard gas (Linde Company, the United States), and the correlation coefficient (R2) of the standard curve of the monitored target compounds is not less than 0.98. In addition, the instrument ensures that the method detection limit is not less than 0.1 ppbv for 90% of the substances. All data were averaged to 1 h resolution data for analysis. More information about quality assurance and control procedures of the equipment can be provided by the GDEEMC.
+Photochemical box model with master chemical mechanism (PBM–MCM)
+In this study, PBM–MCM was used to simulate the local PAN formation. MCM v3.3.1 (http://mcm.leeds.ac.uk/MCM) involves 5,900 chemical species and 16,500 reactions, and the homogeneous reactions in the boundary layer are considered14,63,64,65,66. The model is constrained with the observation data (NO, NO2, CO, SO2, VOCs, PAN, O3, temperature, and relative humidity) from 07:00 to 19:00 LT every day. Detailed descriptions regarding the MCM are provided in Guo et al.67, Wang et al.68, Zeng et al.14, and Cheng et al.14,56,67,68. The uncertainties of modeling caused by the absence of measurements (e.g., HONO, OVOCs, and photolysis rates) and the time step of model constraint were quantified. Noted that to better reflect the local PAN and PA radical formation capacity, the model is not constrained with PAN observations in the sections of Formation and loss pathways of PAN, Chemical production pathways of PA radical, Contributions of VOCs to PA formation and Contributions of VOC sources to PAN formation. In comparison, since the impact of PAN on local radical chemistry can be more accurately represented using constrained PAN, the model is constrained with PAN observations in the rest of the sections. In addition, to test the possibility of decomposition of PAN from regional transport in cold seasons, the observed PAN is also used to constrain the model. These additional descriptions can be found in Supplementary Discussions 2 and 3 and Fig. 16.
+The net PAN production (PPAN) was the difference between PAN gross production (GPAN) and PAN destruction (DPAN) (Eq. 1). GPAN was calculated by the reactions of PA with NO2 (Eq. 2), while DPAN was calculated by PAN thermal decomposition and reactions of PAN with OH (Eq. 3). All radicals and intermediates were obtained from the outputs of the PBM–MCM. The constants k represent the rate coefficients of corresponding reactions, respectively.
+$${{\rm{P}}}_{{\rm{PAN}}}={{\rm{G}}}_{{\rm{PAN}}}-{{\rm{D}}}_{{\rm{PAN}}}$$ (1)
+$${{\rm{G}}}_{{\rm{PAN}}}={k}_{{PA}+{{NO}}_{2}}\left[{\rm{PA}}\right]\left[{{\rm{NO}}}_{2}\right]$$ (2)
+$${{\rm{D}}}_{{\rm{PAN}}}={k}_{{PAN}}\left[{\rm{PAN}}\right]+{k}_{{PAN}+{OH}}\left[{\rm{PAN}}\right]\left[{\rm{OH}}\right]$$ (3)
+RIR from the PBM–MCM output data was used to assess the sensitivity of PAN formation to its precursors69, as shown in Eq. 4. RIR reflects the influence of the change of mixing ratio in precursor concentration on PAN formation. When RIR is positive, it indicates that the increase of precursor promotes the formation of PAN, and the larger the positive RIR, the more sensitive the increase of precursor promotes the formation of PAN.
+$${\rm{RIR}}=\frac{[{{\rm{P}}}_{{\rm{PAN}}}-{{\rm{P}}}_{{\rm{PAN}}}({\rm{X}}-{\Delta }{\rm{X}})/{{\rm{P}}}_{{\rm{PAN}}}]}{{\Delta }{\rm{S}}({\rm{X}})/{\rm{S}}({\rm{X}})}$$ (4)
+Where X represents a specific precursor (e.g., a specific VOC and NOx) or a group of VOCs; S(X) represents the mixing ratio of precursor X; ∆S(X) represents the hypothetical change of mixing ratio of X (10% in this study). Note that when calculating the RIR of NOx, the concentrations of NO and NO2 were simultaneously cut by 10%; PPAN is the production rate of PAN at the mixing ratio of S(X); \({{\rm{P}}}_{{\rm{PAN}}}\left({\rm{X}}-\triangle {\rm{X}}\right)\) is the production rate of PAN at the mixing ratio of \({\rm{S}}\left({\rm{X}}\right)-\triangle {\rm{S}}({\rm{X}})\). The production rates of PAN were extracted from PBM–MCM model with the unit of pptv h−1.
+It is noteworthy that when calculating the net PAN production rate, the oxidation products (PAN and O3) are necessary to be constrained within the model since it can influence the calculation of destruction rates of PAN and O3. For instance, observed PAN can vary the thermal decomposition rate of PAN, which was shown in Eq. 3. As such, the net PAN rate (Eq. 1) and RIR of PAN (Eq. 4) can be changed.
+In this study, PAN chemistry excluded from the model in the case of shutting off PAN-related reactions. The purpose of doing so is to explore the changes in PAN chemistry on the local in situ photochemical system, by comparing the shutting off PAN chemistry case with the base case.
+Another estimation method is to give the PAN formation rate constant a factor instead (10%), and then use model simulation to determine the impact of PAN on O3 production rate and ROx cycling. The results were consistent with those by completely shutting off PAN-related reactions. More detailed comparisons of the two methods can be found in Supplementary Tables 8 and 9 and Supplementary Discussion 6.
+Similar to O3, PBM–MCM quantifies the nonlinear relationship between PAN and its precursor (i.e., VOCs and NOx) by simulating a series of scenarios where the ratio of VOCs and NOx changes70,71,72. Except for VOCs and NOx, all other parameters remain unchanged. The mixing ratio of 10% was used in this study as the step size, and VOCs and NOx are reduced from 100% to 0% to respectively build a scenario matrix. In total, 121 scenarios were designed to simulate the production rate of PAN. Among them, the average mixing ratio of VOCs and NOx during the sampling period is defined as the base case, and other 120 hypothetical scenarios are completed by reducing the ratio of different VOCs to NOx. The isopleth diagrams of VOCs-NOx-PAN/O3 according to the output results can be drawn based on the 121 scenarios.
+Positive-matrix factorization (PMF) model
+USEPA PMF 5.0 model (https://www.epa.gov/air-research/positive-matrix-factorization-model-environmental-data-analyses) was applied for the source apportionment of the VOCs73. The PMF model is a multivariate factor analysis tool that decomposes a sample data matrix into two matrices of factor contributions and factor profiles. Equation 5 can be written to express j chemical species in the sample as concentrations from p independent sources73,74,75,76.
+$${x}_{{ij}}=\mathop{\sum }\limits_{k=1}^{p}{{\rm{g}}}_{{ik}}{f}_{{kj}}+{e}_{{ij}}$$ (5)
+where xij represents the concentration of j species in i sample, gik is the contribution of kth source to i sample, fkj represents the fraction of j species in kth source, and eij indicates the residual for j species in i sample, and p is the total number of independent sources73,76,77.
+Based on the uncertainty (μ) of the model and the input data, the objective function Q can be calculated to assess the stability of the solution by looking at the distribution of each species, as shown in Eq. 6.
+$${\rm{Q}}=\mathop{\sum }\limits_{i=1}^{n}\mathop{\sum }\limits_{j=1}^{m}\left[\frac{{x}_{{ij}}-{\sum }_{k=1}^{p}{g}_{{ik}}{f}_{{kj}}}{{\mu }_{{ij}}}\right]$$ (6)
+where μij is the uncertainty of j species in i sample, and m and n represent the number of species and samples, respectively.
+For this study, species with more than 35% missing values or below detection limits in the input data were excluded from analysis73. It was noted that cis/trans-2-butenes and cis/trans-2-pentenes were excluded from the PMF modeling due to their high missing values. However, since they are crucial for the formation of PAN24, their source contributions reported in Wang et al.78 were used to input the MCM model for simulation.
+Data availability
+Hourly air pollutants and meteorological parameters during the study period were provided by the Guangdong Ecological Environment Monitoring Center (http://gdee.gd.gov.cn/jczx/index.html). The real-time observation data of Guangdong-Hong Kong-Macao PRD Regional Air Quality Monitoring Network is available at http://113.108.142.147:20047/#/ (last accessed: Dec. 2023). The data of back trajectories are obtained from https://www.ready.noaa.gov/HYSPLIT.php (last accessed: Dec 2023). The reaction constants used in this study can be found at https://mcm.york.ac.uk/MCM (last accessed: Dec 2023), and the related species and reactions are listed in the supplementary information. The other relevant data are available upon request from the corresponding authors.
+Code availability
+Apart from the reactions in the MCM (https://mcm.york.ac.uk/MCM), the underlying code for this study is not publicly available but may be made available to qualified researchers on reasonable request from the corresponding author.
+References
+Tereszchuk, K. A. et al. Observations of peroxyacetyl nitrate (PAN) in the upper troposphere by the atmospheric chemistry experiment-fourier transform spectrometer (ACE-FTS). Atmos. Chem. Phys. 13, 5601–5613 (2013).
+Article
+  Google Scholar
+  Zhang, J. et al. Effect of potential HONO sources on peroxyacetyl nitrate (PAN) formation in eastern China in winter. J. Environ. Sci. (China) 94, 81–88 (2020).
+Article
+  Google Scholar
+  Altshuller, A. P. Review: Natural volatile organic substances and their effect on air quality in the United States. Atmos. Environ. 17, 2131–2165 (1983).
+Article
+  CAS
+  Google Scholar
+  Temple, P. J. & Taylor, O. C. World-wide ambient measurements of peroxyacetyl nitrate (PAN) and implications for plant injury. Atmos. Environ. 17, 1583–1587 (1983).
+Article
+  CAS
+  Google Scholar
+  DeMarini, D. M. et al. Mutagenicity in lung of Big Blue® mice and induction of tandem-base substitutions in Salmonella by the air pollutant peroxyacetyl nitrate (PAN): predicted formation of intrastrand cross-links. Mutat. Res. 457, 41–55 (2000).
+Article
+  CAS
+  Google Scholar
+  Xu, Z. et al. Measurements of peroxyacetyl nitrate at a background site in the Pearl River Delta region: production efficiency and regional transport. Aerosol Air Qual. Res. 15, 833–841 (2015).
+Article
+  CAS
+  Google Scholar
+  Sun, M., Cui, J., Zhao, X. & Zhang, J. Impacts of precursors on peroxyacetyl nitrate (PAN) and relative formation of PAN to ozone in a southwestern megacity of China. Atmos. Environ. 231, 117542 (2020).
+Article
+  CAS
+  Google Scholar
+  Taylor, O. C. Importance of peroxyacetyl nitrate (PAN) as a phytotoxic air pollutant. J. Air Pollut. Control Assoc. 19, 347–351 (1969).
+Article
+  CAS
+  Google Scholar
+  Sun, M. et al. Seasonal discrepancies in peroxyacetyl nitrate (PAN) and its correlation with ozone and PM2.5: effects of regional transport from circumjacent industrial cities. Sci. Total Environ. 785, 147303 (2021).
+Article
+  CAS
+  Google Scholar
+  Yukihiro, M., Hiramatsu, T., Bouteau, F., Kadono, T. & Kawano, T. Peroxyacetyl nitrate-induced oxidative and calcium signaling events leading to cell death in ozone-sensitive tobacco cell-line. Plant Signal. Behav. 7, 113–120 (2012).
+Article
+  CAS
+  Google Scholar
+  Xu, W. et al. Aerosol promotes peroxyacetyl nitrate formation during winter in the North China Plain. Environ. Sci. Technol. 55, 3568–3581 (2021).
+Article
+  CAS
+  Google Scholar
+  Lonneman, W. A., Bufalini, J. J. & Seila, R. L. PAN and oxidant measurement in ambient atmospheres. Environ. Sci. Technol. 10, 374–380 (1976).
+Article
+  CAS
+  Google Scholar
+  Han, J., Lee, M., Shang, X., Lee, G. & Emmons, L. K. Decoupling peroxyacetyl nitrate from ozone in Chinese outflows observed at Gosan Climate Observatory. Atmos. Chem. Phys. 17, 10619–10631 (2017).
+Article
+  CAS
+  Google Scholar
+  Zeng, L. et al. Atmospheric fate of peroxyacetyl nitrate in suburban Hong Kong and its impact on local ozone pollution. Environ. Pollut. 252, 1910–1919 (2019).
+Article
+  CAS
+  Google Scholar
+  Liu, T. et al. Seasonal characteristics of atmospheric peroxyacetyl nitrate (PAN) in a coastal city of Southeast China: Explanatory factors and photochemical effects. Atmos. Chem. Phys. 22, 4339–4353 (2022).
+Article
+  CAS
+  Google Scholar
+  Gaffney, J. S. & Marley, N. A. The impacts of peroxyacetyl nitrate in the atmosphere of megacities and large urban areas: a historical perspective. ACS Earth Space Chem. 5, 1829–1841 (2021).
+Article
+  CAS
+  Google Scholar
+  Liu, Z. et al. Evidence of reactive aromatics as a major source of peroxyacetyl nitrate over China. Environ. Sci. Technol. 44, 7017–7022 (2010).
+Article
+  CAS
+  Google Scholar
+  Xue, L. et al. On the use of an explicit chemical mechanism to dissect peroxy acetyl nitrate formation. Environ. Pollut. 195, 39–47 (2014).
+Article
+  CAS
+  Google Scholar
+  Zhang, G. et al. Summertime distributions of peroxyacetyl nitrate (PAN) and peroxypropionyl nitrate (PPN) in Beijing: understanding the sources and major sink of PAN. Atmos. Environ. 103, 289–296 (2015).
+Article
+  CAS
+  Google Scholar
+  Roberts, J. M. In Volatile Organic Compounds in the Atmosphere, 221–268 (Royal Society of Chemistry, 2007).
+Nielsen, T., Samuelsson, U., Grennfelt, P. & Thomsen, E. L. Peroxyacetyl nitrate in long-range transported polluted air. Nature 293, 553–555 (1981).
+Article
+  Google Scholar
+  Singh, H. B. & Hanst, P. L. Peroxyacetyl nitrate (PAN) in the unpolluted atmosphere—an important reservoir for nitrogen-oxides. Geophys. Res. Lett. 8, 941 (1981).
+Article
+  CAS
+  Google Scholar
+  Qiu, Y. et al. Vertical characteristics of peroxyacetyl nitrate (PAN) from a 250-m tower in northern China during September 2018. Atmos. Environ. 213, 55 (2019).
+Article
+  CAS
+  Google Scholar
+  Wang, Y. et al. Anthropogenic pollutants induce changes in peroxyacetyl nitrate formation intensity and pathways in a mountainous background atmosphere in southern China. Environ. Sci. Technol. 57, 6253–6262 (2023).
+Article
+  CAS
+  Google Scholar
+  Xu, W. et al. O3 and PAN in southern Tibetan Plateau determined by distinct physical and chemical processes. Atmos. Chem. Phys. 23, 7635–7652 (2023).
+Article
+  CAS
+  Google Scholar
+  Singh, H. B., Salas, L. J. & Viezee, W. Global distribution of peroxyacetyl nitrate. Nature 321, 588–591 (1986).
+Article
+  CAS
+  Google Scholar
+  LaFranchi, B. W. et al. Closing the peroxy acetyl nitrate budget: observations of acyl peroxy nitrates (PAN, PPN, and MPAN) during BEARPEX 2007. Atmos. Chem. Phys. 9, 7623–7641 (2009).
+Article
+  CAS
+  Google Scholar
+  Schuck, E. A. & Doyle, G. J. Photooxidation of Hydrocarbons in Mixtures Containing Oxides of Nitrogen and Sulfur Dioxide. (Air Pollution Foundation, 1959).
+Pandey Deolal, S. et al. Analysis of elevated springtime levels of Peroxyacetyl nitrate (PAN) at the high Alpine research sites Jungfraujoch and Zugspitze. Atmos. Chem. Phys. 14, 12553–12571 (2014).
+Article
+  Google Scholar
+  Fadnavis, S. et al. Transport pathways of peroxyacetyl nitrate in the upper troposphere and lower stratosphere from different monsoon systems during the summer monsoon season. Atmos. Chem. Phys. 15, 11477–11499 (2015).
+Article
+  CAS
+  Google Scholar
+  Malley, C. S. et al. Regional and hemispheric influences on measured spring peroxyacetyl nitrate (PAN) mixing ratios at the Auchencorth UK EMEP supersite. Atmos. Res. 174-175, 135–141 (2016).
+Article
+  CAS
+  Google Scholar
+  Watanabe, I. et al. Atmospheric peroxyacyl nitrates in urban/remote sites and the lower troposphere around Japan. Environ. Pollut. 102, 253–261 (1998).
+Article
+  CAS
+  Google Scholar
+  Lee, G. et al. Characteristic behavior of peroxyacetyl nitrate (PAN) in Seoul megacity. Korea Chemosph. 73, 619–628 (2008).
+Article
+  Google Scholar
+  Lee, J.-B. et al. Peroxyacetyl nitrate (PAN) in the urban atmosphere. Chemosphere 93, 1796–1803 (2013).
+Article
+  CAS
+  Google Scholar
+  Aneja, V. P., Hartsell, B. E., Kim, D.-S. & Grosjean, D. Peroxyacetyl nitrate in Atlanta, Georgia: comparison and analysis of ambient data for suburban and downtown locations. J. Air Waste Manag. Assoc. 49, 177–184 (1999).
+Article
+  CAS
+  Google Scholar
+  Juncosa Calahorrano, J. F. et al. Evolution of Peroxyacetyl Nitrate (PAN) in wildfire smoke plumes detected by the Cross-Track Infrared Sounder (CrIS) over the western US during summer 2018. Geophys. Res. Lett. 48, e2021GL093405 (2021).
+Article
+  CAS
+  Google Scholar
+  Rubio, M. A. et al. Ozone and peroxyacetylnitrate in downtown Santiago, Chile. Atmos. Environ. 38, 4931–4939 (2004).
+Article
+  CAS
+  Google Scholar
+  Marley, N. A., Gaffney, J. S., Ramos-Villegas, R. & Cárdenas González, B. Comparison of measurements of peroxyacyl nitrates and primary carbonaceous aerosol concentrations in Mexico City determined in 1997 and 2003. Atmos. Chem. Phys. 7, 2277–2285 (2007).
+Article
+  CAS
+  Google Scholar
+  Yuan, J. et al. PAN–precursor relationship and process analysis of PAN variations in the Pearl River Delta Region. Atmosphere 9, 372 (2018).
+Article
+  CAS
+  Google Scholar
+  Gao, T. et al. Peroxyacetyl nitrate observed in Beijing in August from 2005 to 2009. J. Environ. Sci. (China) 26, 2007–2017 (2014).
+Article
+  Google Scholar
+  Qiu, Y., Ma, Z. & Li, K. A modeling study of the peroxyacetyl nitrate (PAN) during a wintertime haze event in Beijing, China. Sci. Total Environ. 650, 1944–1953 (2019).
+Article
+  CAS
+  Google Scholar
+  Qiu, Y. et al. A study of peroxyacetyl nitrate at a rural site in Beijing based on continuous observations from 2015 to 2019 and the WRF-Chem model. Front. Environ. Sci. Eng. 14, 1–11 (2020).
+Article
+  Google Scholar
+  Zhang, G. et al. The abundance and inter-relationship of atmospheric peroxyacetyl nitrate (PAN), peroxypropionyl nitrate (PPN), O3, and NOy during the wintertime in Beijing. China Sci. Total Environ. 718, 137388 (2020).
+Article
+  CAS
+  Google Scholar
+  Zhang, J. et al. Continuous measurement of peroxyacetyl nitrate (PAN) in suburban and remote areas of western China. Atmos. Environ. 43, 228–237 (2009).
+Article
+  CAS
+  Google Scholar
+  Zhu, H., Gao, T. & Zhang, J. Wintertime characteristic of peroxyacetyl nitrate in the Chengyu district of southwestern China. Environ. Sci. Pollut. Res. 25, 23143–23156 (2018).
+Article
+  CAS
+  Google Scholar
+  Liu, L. et al. Understanding unusually high levels of peroxyacetyl nitrate (PAN) in winter in Urban Jinan, China. J. Environ. Sci. (China) 71, 249–260 (2018).
+Article
+  CAS
+  Google Scholar
+  Hu, B. et al. Characteristics of peroxyacetyl nitrate (PAN) in a coastal city of southeastern China: photochemical mechanism and pollution process. Sci. Total Environ. 719, 137493 (2020).
+Article
+  CAS
+  Google Scholar
+  Zhang, G. et al. Simultaneous observation of atmospheric peroxyacetyl nitrate and ozone in the megacity of Shanghai, China: Regional transport and thermal decomposition. Environ. Pollut. 274, 116570 (2021).
+Article
+  CAS
+  Google Scholar
+  Xia, S. et al. Seasonal variation characteristics of atmospheric peroxyacetyl nitrate (PAN) and its source apportionment in a megacity in southern China. Sci. Total Environ. 892, 164662 (2023).
+Article
+  CAS
+  Google Scholar
+  Liu, Y. et al. Formation of peroxyacetyl nitrate (PAN) and its impact on ozone production in the coastal atmosphere of Qingdao, North China. Sci. Total Environ. 778, 146265 (2021).
+Article
+  CAS
+  Google Scholar
+  Qian, Y., Henneman, L. R. F., Mulholland, J. A. & Russell, A. G. Empirical development of ozone isopleths: applications to Los Angeles. Environ. Sci. Technol. Lett. 6, 294–299 (2019).
+Article
+  CAS
+  Google Scholar
+  Shen, H. et al. Novel method for ozone isopleth construction and diagnosis for the ozone control strategy of Chinese cities. Environ. Sci. Technol. 55, 15625–15636 (2021).
+Article
+  CAS
+  Google Scholar
+  Ou, J. et al. Ambient ozone control in a photochemically active region: short-term despiking or long-term attainment? Environ. Sci. Technol. 50, 5720–5728 (2016).
+Article
+  CAS
+  Google Scholar
+  Tan, Q. et al. Observation-based summer O3 control effect evaluation: a case study in Chengdu, a megacity in Sichuan Basin. China Atmos. 11, 1278 (2020).
+CAS
+  Google Scholar
+  Zhao, Q. et al. Sources of volatile organic compounds and policy implications for regional ozone pollution control in an urban location of Nanjing, East China. Atmos. Chem. Phys. 20, 3905–3919 (2020).
+Article
+  CAS
+  Google Scholar
+  Cheng, H. et al. On the relationship between ozone and its precursors in the Pearl River Delta: application of an observation-based model (OBM). Environ. Sci. Pollut. Res. 17, 547–560 (2010).
+Article
+  CAS
+  Google Scholar
+  He, Z. et al. Contributions of different anthropogenic volatile organic compound sources to ozone formation at a receptor site in the Pearl River Delta region and its policy implications. Atmos. Chem. Phys. 19, 8801–8816 (2019).
+Article
+  CAS
+  Google Scholar
+  Zeren, Y. et al. An ozone “pool” in South China: investigations on atmospheric dynamics and photochemical processes over the Pearl River Estuary. J. Geophys. Res. 124, 12340–12355 (2019).
+Article
+  CAS
+  Google Scholar
+  Wang, H. et al. Ozone pollution around a coastal region of South China Sea: interaction between marine and continental air. Atmos. Chem. Phys. 18, 4277–4295 (2018).
+Article
+  CAS
+  Google Scholar
+  Xu, T. et al. Investigation on the budget of peroxyacetyl nitrate (PAN) in the Yangtze River Delta: unravelling local photochemistry and regional impact. Sci. Total Environ. 917, 170373 (2024).
+Article
+  CAS
+  Google Scholar
+  He, Y. et al. A cold front induced co-occurrence of O3 and PM2.5 pollution in a Pearl River Delta city: temporal variation, vertical structure, and mechanism. Environ. Pollut. 306, 119464 (2022).
+Article
+  CAS
+  Google Scholar
+  Jiang, M. et al. Variety of the composition and sources of VOCs during the Spring Festival and epidemic prevention in the Pearl River Delta. Huan jing Ke xue 43, 1747–1755 (2022).
+Google Scholar
+  Jenkin, M. E., Saunders, S. M. & Pilling, M. J. The tropospheric degradation of volatile organic compounds: a protocol for mechanism development. Atmos. Environ. 31, 81–104 (1997).
+Article
+  CAS
+  Google Scholar
+  Jenkin, M. E., Saunders, S. M., Wagner, V. & Pilling, M. J. Protocol for the development of the Master Chemical Mechanism, MCM v3 (Part B): tropospheric degradation of aromatic volatile organic compounds. Atmos. Chem. Phys. 3, 181–193 (2003).
+Article
+  CAS
+  Google Scholar
+  Jenkin, M. E., Young, J. C. & Rickard, A. R. The MCM v3.3.1 degradation scheme for isoprene. Atmos. Chem. Phys. 15, 11433–11459 (2015).
+Article
+  CAS
+  Google Scholar
+  Saunders, S. M., Jenkin, M. E., Derwent, R. G. & Pilling, M. J. Protocol for the development of the Master Chemical Mechanism, MCM v3 (Part A): tropospheric degradation of non-aromatic volatile organic compounds. Atmos. Chem. Phys. 3, 161–180 (2003).
+Article
+  CAS
+  Google Scholar
+  Guo, H. et al. Characterization of photochemical pollution at different elevations in mountainous areas in Hong Kong. Atmos. Chem. Phys. 13, 3881–3898 (2013).
+Article
+  Google Scholar
+  Wang, Y. et al. Surface O3 photochemistry over the South China Sea: application of a near-explicit chemical mechanism box model. Environ. Pollut. 234, 155–166 (2018).
+Article
+  CAS
+  Google Scholar
+  Cardelino, C. A. & Chameides, W. L. An observation-based model for analyzing ozone precursor relationships in the urban atmosphere. J. Air Waste Manag. Assoc. 45, 161–180 (1995).
+Article
+  CAS
+  Google Scholar
+  Chen, X. et al. The synergetic control of NO2 and O3 concentrations in a manufacturing city of southern China. Atmos. Environ. 201, 402–416 (2019).
+Article
+  CAS
+  Google Scholar
+  Xie, Y. et al. Exploration of O3-precursor relationship and observation-oriented O3 control strategies in a non-provincial capital city, southwestern China. Sci. Total Environ. 800, 149422 (2021).
+Article
+  CAS
+  Google Scholar
+  Lei, X. et al. Impact of long-range atmospheric transport on volatile organic compounds and ozone photochemistry at a regional background site in central China. Atmos. Environ. 246, 118093 (2021).
+Article
+  CAS
+  Google Scholar
+  Ou, J. et al. Concentrations and sources of non-methane hydrocarbons (NMHCs) from 2005 to 2013 in Hong Kong: A multi-year real-time data analysis. Atmos. Environ. 103, 196–206 (2015).
+Article
+  CAS
+  Google Scholar
+  Ling, Z., Guo, H., Cheng, H. & Yu, Y. Sources of ambient volatile organic compounds and their contributions to photochemical ozone formation at a site in the Pearl River Delta, southern China. Environ. Pollut. 159, 2310–2319 (2011).
+Article
+  CAS
+  Google Scholar
+  Ling, Z., Zhao, J., Fan, S. & Wang, X. Sources of formaldehyde and their contributions to photochemical O3 formation at an urban site in the Pearl River Delta, southern China. Chemosphere 168, 1293–1301 (2017).
+Article
+  CAS
+  Google Scholar
+  Guo, H., Cheng, H., Ling, Z., Louie, P. K. K. & Ayoko, G. A. Which emission sources are responsible for the volatile organic compounds in the atmosphere of Pearl River Delta? J. Hazard. Mater. 188, 116–124 (2011).
+Article
+  CAS
+  Google Scholar
+  Paatero, P. J. C. Least squares formulation of robust non-negative factor analysis. Chemom. Intell. Lab. Syst. 37, 23–35 (1997).
+Article
+  CAS
+  Google Scholar
+  Wang, Y. et al. Photochemical evolution of continental air masses and their influence on ozone formation over the South China Sea. Sci. Total Environ. 673, 424–434 (2019).
+Article
+  CAS
+  Google Scholar
+  Download references
+Acknowledgements
+This work was supported by the National Key R&D Program of China (2022YFC3700604), the National Natural Science Foundation of China (NSFC) (42121004, 42077190, and 42005080), the Science and Technology Planning Project of Guangdong Province (2021A0505030044), and the fellowship of China Postdoctoral Science Foundation (2020M673059). The authors thank Prof. Hai Guo from the Hong Kong Polytechnic University for constructive discussions on model usage.
+Author information
+Authors and Affiliations
+Institute for Environmental and Climate Research, Jinan University, Guangzhou, 511443, China
+Tao Liu, Yu Wang, Huang Cai, Hao Wang, Chunlin Zhang, Jun Chen, Yan Dai, Wenlong Zhao, Jiangyong Li, Daocheng Gong & Boguang Wang
+Innovation base for air quality science and management for Guangdong, Hong Kong and Macao Great Bay Area, Guangzhou, 511443, China
+Yu Wang, Hao Wang & Boguang Wang
+Australia-China Centre for Air Quality Science and Management (Guangdong), Guangzhou, 511443, China
+Yu Wang, Hao Wang & Boguang Wang
+State Environmental Key Laboratory of Regional Air Quality Monitoring, Guangdong Environmental Protection Key Laboratory of Secondary Air Pollution Research, Guangdong Ecological Environmental Monitoring Center, Guangdong, Guangzhou, 510308, China
+Duohong Chen, Yuhong Zhai, Yan Zhou & Tong Liao
+Contributions
+Y.W. designed the research; Y.W. and Tao L. carried out most of the data analysis and performed the simulations of the model; C.H., H.W., C.Z., D.G., and B.W., contributed significant comments and editing of the paper; C.J., Y.D., W.Z., and J.L. helped in the analysis of the data; D.C., Yuhong Z., Yan Z., and Tong L. provided observation data; Y.W. and Tao L. wrote the paper; B.W. performed review of the paper; all authors contributed to the paper and approved the submitted version.
+Corresponding authors
+Correspondence to Yu Wang or Boguang Wang.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary information
+Supplementary information
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Liu, T., Wang, Y., Cai, H. et al. Complexities of peroxyacetyl nitrate photochemistry and its control strategies in contrasting environments in the Pearl River Delta region. npj Clim Atmos Sci 7, 116 (2024). https://doi.org/10.1038/s41612-024-00669-3
+Download citation
+Received
+06 September 2023
+Accepted
+16 May 2024
+Published
+31 May 2024
+DOI
+https://doi.org/10.1038/s41612-024-00669-3
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+Atmospheric chemistry
+Pollution remediation
+Download PDF
+Sections
+Figures
+References
+Abstract
+Introduction
+Results and discussion
+Methods
+Data availability
+Code availability
+References
+Acknowledgements
+Author information
+Ethics declarations
+Additional information
+Supplementary information
+Rights and permissions
+About this article
+Advertisement
+npj Climate and Atmospheric Science (npj Clim Atmos Sci) ISSN 2397-3722 (online)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

@@ -1,0 +1,260 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Highlights
+Abstract
+Keywords
+Nomenclature
+Introduction
+Methodology
+Simulation models and algorithms
+Results and discussions
+Conclusion
+CRediT authorship contribution statement
+Declaration of Competing Interest
+Acknowledgments
+References
+Show full outline
+Figures (12)
+Show 6 more figures
+Tables (5)
+Table 1
+Table 2
+Table 3
+Table 4
+Table 5
+Journal of Engineering Research
+Available online 15 July 2024
+In Press, Corrected Proof
+What’s this?
+Adaptive solar irradiance forecasting in arid regions: Enhancing accuracy with localized atmospheric adjustments
+Author links open overlay panel
+Mahmoud Ben Amara a b
+,
+Elhem Rdhaounia a b
+,
+Moncef Balghouthi a
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jer.2024.07.008
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Adapts Bird model to forecast solar radiation in Tunisia with high accuracy.
+•
+Integrates model into Excel, enhancing ease of use and precision.
+•
+Identifies optimal solar panel inclinations for seasonal efficiency.
+•
+Validates model with a decade of data, improving error metrics.
+Abstract
+This study refines the Bird model for forecasting solar radiation on oriented and inclined surfaces in Southern Tunisia, known for its high solar potential. Integrating the model into an Excel tool simplifies radiative transfer equations, enhancing solar forecast precision and accessibility. Over a decade of meteorological data enriches the model with atmospheric parameters like aerosol optical depth, water vapor content, and ozone thickness, extending its applicability across unmonitored regions. The improved model achieves coefficient of Determination (R²) values of 0.989 for Global Horizontal Irradiance (GHI), 0.969 for Direct Horizontal Irradiance (DHI), and 0.974 for Diffuse Horizontal Irradiance (DifHI), with reduced Root Mean Square Error (RMSE) values of 24.66 W/m² for GHI, 36.59 W/m² for DHI, and 12.66 W/m² for DifHI. Optimal panel inclinations are 40° to 60° in winter, 10° to 30° in summer, and 30° to 40° in spring and autumn for maximum solar energy capture. These findings enhance the understanding of solar dynamics in arid regions and support strategic solar energy deployment, offering a scalable framework for similar environments globally and promoting sustainable energy development.
+Keywords
+Solar Irradiance ForecastingAtmospheric AdjustmentsArid Solar EnergyClimate-Specific Modeling
+Nomenclature
+Albedo
+albedo coefficient
+avg
+Average
+Forward scattering radiation ratio due to the aerosols
+DHI
+Direct Horizontal Irradiation (W/m²)
+DifHI
+Diffuse Horizontal Irradiation (W/m²)
+dir
+Wind direction (°N)
+DNI
+Direct Normal Irradiation (W/m²)
+Extraterrestrial irradiance (W/m²)
+GHI
+Global Horizontal Irradiation (W/m²)
+Solar constant (W/m²)
+IHas
+Horizontal Irradiance from Atmospheric Scattering (W/m²)
+j
+Number day of the year
+long
+Longitude (°)
+total column ozone thickness (cm)
+Total column water vapor (cm)
+Air mass
+MAPE
+Mean Absolute Percentage Error
+MBE
+Mean Bias Error
+max
+maximum
+min
+minimum
+p
+Pressure (mB)
+RH
+Relative Humidity (°)
+RMSE
+Root Mean Square Error
+rg
+Ground albedo
+rs
+Skey albedo
+Coefficient of Determination
+T
+Temperature (°C)
+Transmittance of aerosols
+Transmittance of Aerosols absorption
+Transmittance of Gaz
+Transmittance of ozone
+Transmittance of Rayleigh scattering
+Transmittance of Water vapor
+Local time (hour)
+Time zone (hour)
+V
+Wind Velocity (m/s)
+z
+Altitude (m)
+Angstrom wavelength exponent
+Orientation angle (°)
+Angstrom turbidity coefficient
+Solar declination (°)
+Wavelength (nm)
+Latitude (°)
+Hour angle (°)
+Inclination angle (°)
+Solar Zenith Angle (°)
+broadband aerosol optical depth
+Aerosol optical depth at 380 nm
+Aerosol optical depth at 500 nm
+Time equation (second)
+Introduction
+Solar radiation forecasting is crucial within the renewable energy landscape, underpinning the optimization of solar power systems' performance and reliability. Accurate predictions of solar irradiance are essential for effective planning and operation of photovoltaic (PV) installations, which directly influence energy management and economic returns in the solar energy sector
+[1]
+,
+[2]
+. Furthermore, precise forecasting is vital for integrating solar energy smoothly into power grids and managing the intermittency of renewable energy sources, thereby bolstering the stability and efficiency of energy systems
+[3]
+.
+In arid regions like Southern Tunisia, known for their high solar potential due to abundant sunshine and minimal cloud cover, solar radiation forecasting faces specific challenges and opportunities
+[4]
+. While these regions hold significant promise for solar power generation, they also encounter specific environmental challenges such as high-temperature variability and frequent dust events, which can impair the efficiency of solar panels
+[5]
+. In such contexts, accurate solar irradiance predictions are indispensable for maximizing the utility of solar installations, thus ensuring sustainable energy development that is adapted to local conditions.
+The methodologies employed in solar irradiance forecasting are diverse and tailored to various environmental and technical requirements. Traditional models often utilize empirical and statistical approaches based on historical weather data to predict future solar conditions, favored for their applicability in regions with extensive climatic records
+[6]
+,
+[7]
+,
+[8]
+,
+[9]
+. Advanced numerical weather prediction (NWP) models integrate solar irradiance with broader meteorological conditions, providing insights crucial for energy planning and grid management
+[10]
+,
+[11]
+,
+[12]
+,
+[13]
+,
+[14]
+. Additionally, the advent of satellite-based models has revolutionized forecasting by offering high-resolution data across extensive areas, essential for regions lacking ground-based observational infrastructure
+[15]
+,
+[16]
+,
+[17]
+. The integration of machine learning has further enhanced forecasting accuracy and adaptability, leveraging large datasets to refine predictions dynamically
+[18]
+,
+[19]
+,
+[20]
+.
+Despite their precision, many of these sophisticated models necessitate complex calculations and substantial computational resources, which limits their accessibility primarily to specialists. To address these limitations, there has been significant progress in simplifying these models without compromising their accuracy. The R.E. Bird model, renowned for its efficacy in clear sky conditions, is particularly advantageous for arid regions like Southern Tunisia. This model calculates direct and diffuse solar radiation by incorporating multiple atmospheric parameters such as air mass, ozone absorption, and water vapor content
+[21]
+,
+[22]
+,
+[23]
+.
+This study aims to bridge the research gap by enhancing the forecasting of solar radiation on oriented and inclined surfaces in Southern Tunisia, employing a novel adaptation of the R.E. Bird model integrated into 'Excel Software'. This innovative tool simplifies complex radiative transfer equations, improving forecasting accessibility and accuracy specifically tailored to the specific atmospheric conditions of the region. By addressing the distinct challenges and leveraging the high solar potential of Southern Tunisia, this research seeks to optimize the configuration and efficiency of both photovoltaic and concentrated solar power systems in arid climates. The development of Excel represents a pivotal advancement in solar irradiance forecasting technology, particularly suited for regions like Southern Tunisia where it can significantly contribute to harnessing the full potential of solar energy.
+Methodology
+Characterization of the study area: Tataouine, Southern Tunisia
+The focus of this research is Tataouine, located in the arid yet sun-drenched landscapes of Southern Tunisia. Situated at a latitude of 32.997 degrees, a longitude of 10.451 degrees, an elevation of 210 m, and within the +1-hour time zone, Tataouine offers a specific setting for studying solar phenomena. Characterized by its exceptional solar exposure, the region boasts a wide range of annual solar irradiance, oscillating between 1800 and 2800 kWh/m²
+[24]
+. This spectrum underscores Tataouine's robust potential for solar power generation and earmarks it as a prime locale for renewable energy exploration. The variation in solar irradiance levels provides critical insights necessary for the development and optimization of tailored solar energy infrastructures.
+At the heart of this study is the meticulous examination of solar insolation in Tataouine — the quantum of solar energy received per unit surface area, which significantly influences the performance and design of solar power systems. To afford a holistic overview, we've incorporated a set of maps titled "Exploration of Solar Energy Potential in Tataouine, Tunisia: Geographical Location and Irradiance Profiles" (
+Fig. 1
+), derived from the Global Solar Atlas 2.0, courtesy of the World Bank and Solargis, updated as of 2020
+[25]
+. These visual aids dissect the solar energy distribution across different spectrums, indispensable for the strategic planning and efficient deployment of solar technologies in the region.
+Download: Download high-res image (279KB)
+Download: Download full-size image
+Fig. 1. Exploration of Solar Energy Potential in Tataouine, Tunisia: Geographical Location and Irradiance Profiles.
+[25]
+.
+The map series is meticulously curated to address specific facets of solar energy:
+−
+Part (a) presents the direct normal irradiation profile, offering a direct measure of solar energy intensity devoid of atmospheric scattering, a key parameter for assessing concentrated solar power (CSP) prospects.
+−
+Part (b) delves into global horizontal irradiation, encapsulating the total solar energy incident on a horizontal plane, thus gauging the area's comprehensive solar potential vital for photovoltaic (PV) system considerations.
+−
+Part (c), updated from the World Bank's Global Solar Atlas 2.0 and based on Solargis data, charts the photovoltaic power potential, guiding the strategic emplacement and optimization of PV installations to harness maximum efficiency across Tunisia's diverse landscapes.
+This collection of maps, enriched by the latest updates and sourced from reputable global data by the World Bank and Solargis, not only augments the comprehension of Tataouine’s solar energy dynamics but also fosters an in-depth investigation into leveraging this abundant natural resource. By delineating solar energy availability with enhanced precision, the study affirms Tataouine’s crucial role in the sustainable energy narrative, setting a solid base for upcoming endeavors in solar energy harnessing and application.
+To address the specific atmospheric challenges of Southern Tunisia, the methodology includes adjustments in the solar irradiance forecasting models to account for dust accumulation and temperature variability. Instruments like high-precision pyranometers are employed to measure the impact of dust on solar irradiance directly, while temperature sensors help correlate fluctuations with changes in panel efficiency.
+Data collection and instrumentation
+The presented study utilized weather data collected over 10 years, from January 1, 2010, to December 31, 2020, in Tataouine, Tunisia, and leveraged data from a state-of-the-art meteorological station equipped with high-precision instruments critical for solar radiation research. This array included Kipp & Zonen CHP1 pyrheliometers and CMP21 pyranometers, which offer exceptional accuracy in measuring direct solar irradiance and hemispherical irradiance, respectively, along with Campbell Scientific CS215 probes for detailed temperature and relative humidity readings. Additionally, NRG instruments provided precise wind speed and direction measurements. This ensemble of instruments, validated through regular recalibrations against international standards and documented in
+Table 1
+, forms the backbone of the comprehensive data collection framework.
+Table 1. Accuracy of instrumentation.
+Sensor Type accuracy
+Pyrheliometer Kipp&Zonen CHP1 ±1 W/m²
+Pyranometer Kipp&Zonen CMP21 ±7 W/m²
+Temperature and Relative Humidity Probe Campbell Scientific CS215 ±0.9°C over −40°C to +70°C
+±2 % over 10–90 %
+Anemometer NRG #40 C < 0.1 m/s over 5–25 m/s
+Wind vane NRG #200 P < 1 %
+Data were captured in both one-minute and ten-minute averages and automatically transmitted daily to the Energy Research and Technology Center of Borj Cedria, Tunisia, for analysis. This process facilitated the continuous monitoring and quality assurance of the data, ensuring its integrity for modeling purposes. A dual-axis tracking system, positioned ten meters above ground, further refined the data collection by accurately following the sun's trajectory, thereby enhancing the precision of solar irradiance measurements relevant to optimizing solar energy systems.
+The meticulous data presentation in
+Table 2
+showcases typical clear sky day readings in Tataouine, underlining the minimum, maximum, and average values for key meteorological parameters. This data, representative of the average conditions, underscores the rigorous process behind the data acquisition and its pivotal role in feeding into the simulation models for accurate solar radiation prediction. The robustness of this dataset is ensured through stringent technical validation processes, including sensor recalibration at least every two years and the continuous upgrade of the station with state-of-the-art instruments tailored for solar energy research
+[26]
+.
+Table 2. Example of collected data by the high precision meteorological station in tataouine on a clear sky day.
+Empty Cell
+GHI (W/m²) DNI (W/m²) Dif (W/m²) Tamb (°C) RH (%) V (m/s) dir (°N) p
+(mB)
+min -2 -1 -2 11,7 31,7 0,0 0 995
+max 985 980 165 22,2 89,6 9,4 176 998
+avg 303 350 58 16,9 56,7 4,1 29 996
+In sum, the methodology exemplifies a comprehensive approach to data collection and instrumentation, underpinned by precision, reliability, and a commitment to technological advancement. This solid foundation not only supports the current solar radiation modeling efforts but also establishes a benchmark for future research aimed at harnessing the solar potential of arid regions like Tataouine.
+Seasonal solar dynamics analysis
+In the analysis of seasonal solar dynamics within Tataouine, Southern Tunisia, an in-depth exploration was conducted to assess how solar irradiance and ambient temperatures vary throughout the year. This analysis is vividly presented through
+Fig. 2
+,
+Fig. 3
+,
+Fig. 4
+,
+Fig. 5
+, which depict the seasonal shifts in solar radiation and temperature over ten-day representative periods for winter, spring, summer, and autumn. These graphical representations are key to understanding the nuanced patterns of solar energy availability, marked by both diurnal and seasonal fluctuations.
+Download: Download high-res image (294KB)
+Download: Download full-size image
+Fig. 2. Winter Analysis of Global and Direct Normal Irradiance and Ambient Temperature Over a Ten-day Representative Period in Tataouine.
+Download: Download high-res image (332KB)
+Download: Download full-size image
+Fig. 3. Spring Analysis of Global and Direct Normal Irradiance and Ambient Temperature Over a Ten-day Representative Period in Tataouine.
+Download: Download high-res image (320KB)
+Download: Download full-size image
+Fig. 4. Summer Analysis of Global and Direct Normal Irradiance and Ambient Temperature Over a Ten-Day Representative Period in Tataouine.
+Download: Download high-res image (300KB)
+Download: Download full-size image
+Fig. 5. Autumnal Variations in Global and Direct Normal Irradiance and Ambient Temperature Over a Representative Ten-Day Period in Tataouine.
+The study highlighted significant variations in solar intensity across different times of the year. Specifically, during summer, the direct normal irradiance (DNI) regularly exceeded 900 W/m² at midday, showcasing the intense solar potential of

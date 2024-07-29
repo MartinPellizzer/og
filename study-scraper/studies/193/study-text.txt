@@ -1,0 +1,141 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (77)
+Journal of Cleaner Production
+Volume 469
+, 1 September 2024, 143077
+Human-greenspace interactions with outdoor air: Landscape metric and PLS-SEM approach
+Author links open overlay panel
+Yuei-An Liou a 1
+,
+Quang-Viet Nguyen b 1
+,
+Kim-Anh Nguyen c
+,
+Trong-Hoang Vo a c
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jclepro.2024.143077
+Get rights and content
+Highlights
+•
+AC's impact on OADs is more prevalent and stronger than GS, particularly on GP.
+•
+GS exhibits a stronger influence on PP than GP.
+•
+AC and GS oppositely impact on TEMP and GP.
+•
+AC has a mediating effect on GP, PP, TEMP, and RH through GS.
+•
+Seven landscape metrics are potential indicators for green planning.
+Abstract
+Air pollution poses a significant global challenge, impeding the realization of sustainable development goals, especially in urban areas. Within built environment, the intricate interplay of human and greenspace primarily influences outdoor air quality. Therefore, to facilitate effective urban planning, the study investigates their complex interactions during the wet (May to October) and dry (November to April) seasons. This research employs landscape metrics to assess greenspace configurations within various buffers around 73 in-situ air quality moniroting stations accross Taiwan. These landscape metrics, anthorpogenic variables were utilized to construct the dimension of greenspace (GS) and anthoropogenic component (AC), respectively. Recorded air quality data were used to define the dimensions of outdoor air (OADs), encompassing air temperature (TEMP), wind speed (WS), relative humidity (RH), particle pollutant (PP), gaseous pollutant (GP), and OZONE. Subsequently, Partial Least Squares - Structural Equation Modeling was employed to explore the hypothesized relationships among these eight dimensions for each buffer and season. Results show that the AC exerts a more pronounced influence on the OADs compared to the GS. The GS shows greater effectiveness in mitigating the PP than the GP, while the AC substantially amplifies the GP during the two seasons. The GS and AC exhibit contrasting effects on the TEMP, RH, and GP. The GS exclusively affects the PP, while its effects on the OZONE and WS are insignificant during both seasons. Conversely, the AC has a negligible effect on the PP, but significantly impacts the OZONE, and WS. Through the GS, the AC indirectly influences the RH, PP, and GP during the two seasons, along with the TEMP during the wet season. Notably, the seven landscape metrics are identified for the GS, providing potential indicators for urban green planning to maximize its ecosystem services.
+Graphical abstract
+Download: Download high-res image (478KB)
+Download: Download full-size image
+Introduction
+Global urbanization has been rapidly increasing at an overwhelming rate due to its socioeconomic strengths, better lifestyles, and increased earnings. However, this rapid urbanization has resulted in compromised air quality conditions (Baklanov et al., 2016; Larkin et al., 2016; Wang et al., 2020), which cause adverse effects on human health (Wagner, 1994). Various anthropogenic activities, such as traffic, overpopulation, uncontrolled urbanization, industrial development, release primary air pollutants like SO2, NO2, PM10, PM2.5, and CO, which can cause respiratory infections, lung functions, skin problems, and mucous tissues (e.g., eyes, nose, throat) (Liou et al., 2023; Schwela, 2000). Furthermore, urban sprawl with rapid urbanization also leads to urban heat island (UHI) effect, characterized by a higher ambient air temperature in inner cities than their surrounding areas (Liou et al., 2021; O'Malley et al., 2015; Tsoka et al., 2020). This effect is mainly caused by increased artificial surfaces, heat emission from traffic vehicles, air conditioners, and industrial plants (Tsoka et al., 2020). The UHI can exacerbate heat waves and air pollution, causing an unhealthy environment (Hu et al., 2015; Livezey and Tinker, 1996; Sarrat et al., 2006). Studies have shown an increasing trend of heat-related illnesses and deaths in urban areas where residents are not accustomed to extreme temperatures (Hass et al., 2016; Liou et al., 2023; Luber and McGeehin, 2008; Wilhelmi and Hayden, 2010).
+Greenspace has been introduced as a nature-based solution for improving urban air quality and human health (Rojas-Rueda et al., 2019; Twohig-Bennett and Jones, 2018). It offers a range of ecosystem services, including air purification, minor noise disturbance, UHI mitigation, and more biodiversity (Fong et al., 2018; K.-A. Nguyen et al., 2021). Greenspace can reduce air pollution by allowing suspended particles to be deposited on the vegetation canopy and by absorbing gaseous pollutants through vegetation stomata (Nowak et al., 2006). Moreover, a tree canopy prevents incoming solar radiation from being absorbed by the land surface, which helps mitigate the UHI effects (Nowak et al., 2006).
+The benefits of vegetation in regulating the atmospheric environment have been well-documented and have received considerable attention from researchers (Bealey et al., 2007; Kumar et al., 2019; Litschke and Kuttler, 2008; Nowak et al., 2006; Zupancic et al., 2015). Previous studies have examined the effects of vegetation on the UHI and air pollution, considering different types of greenspaces, including small parks, large parks, urban trees, and urban forests with various temporal (day, month, season) and spatial scales (plot, district, city, country, region) (Zupancic et al., 2015). In addition, the influence of atmospheric conditions on air quality (Baklanov et al., 2009; Łowicki, 2019; Salizzoni et al., 2009), socioeconomic conditions on air pollutants (Cheng et al., 2017; Jiang et al., 2018), and vegetation on the thermal environment (Jeanjean et al., 2016; Liou et al., 2021; T.-H. Nguyen et al., 2018) were examined in previous studies.
+Recent studies have explored the association between landscape patterns of urban zones and air pollution. Wu et al. (2015) used stepwise multiple regression to assess the relationship between five landscape metrics of land cover types and PM2.5. Similarly, Weber et al. (2014) utilized landscape metrics to characterize the residential structure types, finding that patch density (PD), edge density (ED), and urban area positively correlated with the noise level and PM10 concentration in Leipzig City, Germany. Lowicki (2019) explored the connections between landscape metrics, climate, emissions surrounding the air monitoring stations, and particulate matter concentration. In Taipei and Taichung cities, Taiwan, Ku (2020) measured landscape metrics around air quality stations for different land use/land cover (LULC) types and conducted regression models to identify their effects on air pollutant concentrations. Some studies used more powerful statistical approaches to depict the complex relationships among multiple variables. Liu and Shen (2014) used the partial least squares regression to analyze variation in landscape metrics of greenspaces on atmospheric pollution and meteorological parameters in the Taipei Metropolitan Area. Also, Jaafari et al. (2020) used the Partial Least Squares – Structural Equation Modeling (PLS-SEM) to analyze the interlinkages among landscape metrics of greenspace, air pollutants, and respiratory-related mortality in Tehran. Moreover, Li et al. (2021) studied the complex interrelation of watershed landscape and water environment with chlorophyll a (Chl a) using the PLS-SEM.
+Urban form, greenspace configuration, and socioeconomic conditions have been identified as critical factors influencing the atmospheric environment. However, existing studies have partially covered the interconnection between greenspace structure, human factors, atmospheric conditions, and air pollutants. The need for a comprehensive approach is due to the urban landscape complexity and the challenges involved in quantifying the relationship between landscape structure and ecological processes (Alberti, 2005; Grafius et al., 2018). Many landscape metrics have been used across different fields, but their application needs to be scrutinized (Grafius et al., 2018). A comprehensive model has yet to thoroughly investigate the interconnection of greenspace's landscape metrics and human activities, air pollutant concentrations, and meteorological conditions. Besides, in practice, helpful landscape metrics for urban landscape planning and management are needed to specify their respective values (Uuemaa et al., 2009) and optimize ecosystem services delivered by greenspaces. It is dispensable for the traditional approach in green planning, which plans to add more greenspaces without consideration of spatial arrangement (Shih and Mabon, 2021). Therefore, urban planners and policymakers demand valuable information on spatial patterns of greenspaces and human factors that can be adjusted to promote atmospheric environment quality for urban dwellers.
+The Taiwanese government has prioritized air pollution mitigation, particularly in densely populated urban areas. One promising solution to achieve sustainable development goals is prioritizing greenspace planning at the local government level. Due to the seasonal differences in air environment, we aim to quantify the effects of greenspace and anthropogenic component (AC) on air pollutants and meteorological conditions surrounding the in-situ air quality monitoring stations during the dry and wet seasons whereby using the PLS-SEM and landscape metrics. The study also attempts to quantify the role of greenspace as a moderator in relation between the AC and outdoor air. This approach will provide a straightforward approach to better understanding the complex interactions among greenspace, AC, and outdoor air. We will identify a set of helpful landscape metrics that measures the spatial pattern of greenspace derived from the high-resolution Sentinel-2 images to support urban green planning and promote air quality. Besides, we will address various indicators from the AC that have negative impacts on the atmospheric environment. The study's findings will provide valuable information on the spatial pattern of greenspace and AC, the primary determinant components of the outdoor air, to support green planning and legislative policies to improve air quality and human health.
+Section snippets
+Study site
+The main island of Taiwan covers an area of 36,194.18 km2, as shown in Fig. 1. It was the 57th most populated country worldwide, with a total population of 23,889,423 people in 2020. Urban areas were home to 18,815,252 people, representing approximately 79% of the total population in 2020 (
+https://www.worldometers.info/
+). The six biggest cities in Taiwan, namely Taipei, New Taipei, Taoyuan, Taichung, Tainan, and Kaohsiung, account for 49.44% of the total population, with 16.47 million people
+Evaluating PLS-SEM results at different buffers
+As previously discussed, the relationships among the designed dimensions in the PLS-SEM model are contingent on the spatial extent used to assess the landscape metrics of the greenspace. To optimize the GS in explaining and predicting the OADs, we conduct the PLS-SEM model using landscape metrics derived from 1500-, 1000-, and 500-m radius to the AQMSs during the two specific seasons of interest. In total, six models are developed to explore the intricate interactions among dimensions. The
+Influences of the GS and AC on outdoor air dimensions
+The study reveals that the GS and AC explain more variances of the GP in the dry than the wet season. A possible explanation for this trend is the high frequency of rainfall during the wet season, which may accelerate the deposition rate of gaseous and particle pollutants, and, in turn, decrease their contaminants’ levels (Pandis and Seinfeld, 1990; Shukla et al., 2008). Besides, stable atmospheric features of high pressure, cloudless and mild wind speed can lead to the accumulation of air
+Conclusions
+Controlling air pollution remains a huge challenge, despite the widely reported opposite impacts of the greenspaces and human activities on the atmospheric environment. Air pollutant concentration is influenced by various factors, including emission sources, meteorological conditions, and bio-properties of greenspaces. Therefore, it is essential to understand the interactions among these influential facets. To achieve this, we propose an assessment framework that uses the PLS-SEM model and
+CRediT authorship contribution statement
+Yuei-An Liou: Writing – review & editing, Writing – original draft, Supervision, Resources, Project administration, Investigation, Funding acquisition, Formal analysis, Conceptualization. Quang-Viet Nguyen: Writing – review & editing, Writing – original draft, Software, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Kim-Anh Nguyen: Formal analysis, Conceptualization. Trong-Hoang Vo: Methodology, Data curation.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+This research was financially supported by Ministry of Science and Technology (MOST) of Taiwan under the codes [MOST 108-2923-M-008-002-MY3], National Science and Technology Council (NSTC) of Taiwan NSTC [112-2111-M-008-027], and NSTC [112-2121-M-008-002].
+References (77)
+A. Baklanov et al.
+Megacities, air quality and climate
+Atmos. Environ.
+(2016)
+W. Bealey et al.
+Estimating the reduction of urban PM10 concentrations by trees within an environmental information system for planners
+J. Environ. Manag.
+(2007)
+Z. Cheng et al.
+Identifying the spatial effects and driving factors of urban PM2. 5 pollution in China
+Ecol. Indicat.
+(2017)
+C.C.-K. Chou et al.
+The trend of surface ozone in Taipei, Taiwan, and its causes: Implications for ozone control strategies
+Atmos. Environ.
+(2006)
+T. Coltman et al.
+Formative versus reflective measurement models: two applications of formative measurement
+J. Bus. Res.
+(2008)
+J.F. Hair et al.
+Partial least squares structural equation modeling: Rigorous applications, better results and higher acceptance
+Long. Range Plan.
+(2013)
+A.P. Jeanjean et al.
+Modelling the effectiveness of urban trees and grass on PM2. 5 reduction via dispersion and deposition at a city scale
+Atmos. Environ.
+(2016)
+P. Jiang et al.
+The contribution of socioeconomic factors to PM2. 5 pollution in urban China
+Environmental Pollution
+(2018)
+M. Jung
+LecoS — a python plugin for automated landscape ecology analysis
+Ecol. Inf.
+(2016)
+P. Kumar et al.
+The nexus between air pollution, green infrastructure and human health
+Environ. Int.
+(2019)
+View more references
+Cited by (0)
+1
+These authors contributed equally to this work as co-first authors.
+View full text
+© 2024 Published by Elsevier Ltd.
+Recommended articles
+Mass flow and microbial shifts in recirculated two-phase anaerobic digestion for biohythane production: Effect of hydraulic retention time
+Journal of Cleaner Production, Volume 468, 2024, Article 143092
+Yu Qin, …, Yu-You Li
+Revisiting the nexus between financialization and natural Resource efficiency through the lens of financial development and green industrial optimization
+Journal of Cleaner Production, Volume 468, 2024, Article 143066
+Javaria Hameed, …, Muhammad Abubakr Naeem
+Spatial and temporal evolution characteristics and factors of heat vulnerability in the Pearl River Delta urban agglomeration from 2001 to 2022
+Heliyon, Volume 10, Issue 13, 2024, Article e34116
+Jiangbo Wang, …, Aiping Gou
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

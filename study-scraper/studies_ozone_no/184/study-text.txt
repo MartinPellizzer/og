@@ -1,0 +1,126 @@
+Consent
+Details
+About
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Books
+Book Series
+Journals
+Publish
+About
+News
+Author Panel Sign in
+GREEN ENERGY AND ENVIRONMENTAL TECHNOLOGY
+PUBLISH IN JOURNALS
+ARTICLES
+ABOUT
+EDITORIAL BOARD
+SUBMIT YOUR ARTICLE
+Journals
+>
+Green Energy and Environmental Technology
+OPEN ACCESS PEER-REVIEWED ARTICLE
+Research on Ammonium Removal from Wastewater by Adsorption and Ozonation Processes
+Ján Derco
+Nikola Šoltýsová
+Ronald Zakhar
+Jakub Jurík
+THIS ARTICLE IS PART OF THE SPECIAL ISSUE URBAN WASTEWATER TREATMENT LED BY PROFESSOR JAN DERCO AND RONALD ZAKHAR, PHD FROM SLOVAK UNIVERSITY OF TECHNOLOGY IN BRATISLAVA, SLOVAKIA
+ARTICLE METRICS OVERVIEW
+101 Article Downloads
+View Full Metrics
+ARTICLE TYPE: RESEARCH PAPER
+DATE OF ACCEPTANCE: JUNE 2024
+DATE OF PUBLICATION: JULY 2024
+DOI: 10.5772/GEET.29
+COPYRIGHT: ©2024 THE AUTHOR(S), LICENSEE INTECHOPEN, LICENSE: CC BY 4.0
+Download for free
+Cite
+TABLE OF CONTENTS
+INTRODUCTION
+EXPERIMENTAL SECTION
+RESULTS AND DISCUSSION
+CONCLUSION
+CONFLICT OF INTEREST
+ACKNOWLEDGEMENT
+Abstract
+With the ongoing amendment of the European Union legislation on the treatment of municipal wastewater, stricter requirements for the removal of pollutants are expected, which calls for the need for innovative wastewater treatment technologies. Our research was focused on the removal of ammonium nitrogen from municipal wastewater by nontraditional processes based on the use of adsorption processes on zeolite (ZEO) and ozone. Adsorption, adsorption-regeneration, and adsorptive ozonation processes were applied. All processes were carried out in a completely stirred reactor (CSR) and a jet-loop reactor (JLR) with external recirculation of the reaction mixture. Experimental measurements were carried out with real municipal wastewater after mechanical treatment. The best results were achieved in the adsorption-regeneration process, which was implemented in a current loop reactor. An average ammonium nitrogen removal efficiency of 53.1% was obtained by adjusting the pH value to 10.0. Average values of 46.2% and 49.2% for chemical oxygen demand (COD) and total organic carbon (TOC) removal efficiencies are an added value of the process. The values of ammonium nitrogen, COD, and TOC removal efficiencies in individual cycles confirm the high stability of the process.
+Keywords
+ADSORPTION
+ADSORPTIVE/CATALYTIC OZONATION
+ADSORBENT REGENERATION WITH OZONE
+AMMONIUM REMOVAL
+URBAN/MUNICIPAL WASTEWATER TREATMENT
+ZEOLITE
+Author information
+Show
+1. Introduction
+Urban wastewater means domestic wastewater or the mixture of domestic wastewater with industrial wastewater and/or runoff rainwater. Domestic wastewater means wastewater from residential settlements and services that originates predominantly from human metabolism and household activities [1].
+According to the World Water Assessment Programme [2], municipal wastewater originates from domestic, industrial, commercial, and institutional sources within a given human settlement or community. Urban wastewater includes both municipal wastewater and urban runoff.
+With the ongoing amendment of the European Union legislation on urban wastewater treatment [3], stricter requirements for pollutant removal are expected, driving the need for innovative environmental technologies. Diverse pollutants in urban wastewater, including priority substances and micropollutants, require advanced treatment technologies that integrate biological, physical, and chemical processes [4].
+Natural zeolites (ZEO) are nontoxic and characterized by physical, chemical, and structural properties that enable their use in several processes and areas. They find various applications in adsorption, catalysis, agriculture, water and wastewater treatment, and soil remediation [5].
+The authors of overview paper [6] report the use of ZEO in the biological processes of nitrification, denitrification, anaerobic digestion, and composting. Aerobic processes (activated sludge, nitrification, anammox) use ZEO as carriers of biomass growth and phosphorus removal to improve settling. In the anaerobic treatment of sludge and composting with ZEO, ZEO are used to trap inhibitors (ammonium and heavy metals). Currently, the application in full-scale operations is more common in nitrogen removal processes than in anaerobic digestion of sludge.
+Senila et al. [7] deal with the use of natural ZEO as biomass carriers in wastewater treatment. The greatest adsorption of ammonium (NH
+) was achieved for wastewater containing ammonium, nitrates, and nitrites. After 30 days, a greater NH
+removal efficiency than 98% was achieved. In the case of NO
+and NO
+, removal efficiencies of 70% and 54% were achieved. Natural ZEO has been shown to contribute to significant growth support as well as have high potential in the removal of nitrogenous substances and heavy metals in wastewater treatment.
+The authors of [8] investigated natural ZEO as an adsorbent for tertiary wastewater treatment. The results show a significant effect of the heat treatment of the sample on the removal of nitrites, which led to their approximately 96% removal. When using natural ZEO, there was only a slight decrease in biochemical oxygen demand and chemical oxygen demand (COD) values compared to the original sample.
+The scope of study [9] was to investigate the suitability of granular natural ZEO as adsorbents for ammonium. For an initial ammonium content of 10 mgN/l, the grain size did not significantly influence the sorption efficiency (97%–98%). The description of experimental data was obtained by the Langmuir isotherm. Minor effects on sorption were observed at different pH values and in the presence of competing anions.
+Gagliano et al. [10] investigated the possibilities of using ZEO synthesized from volcanic ash (VA) to remove ammonium from various aqueous solutions. Adsorption measurements were well described by the Freundlich isotherm. The greatest ammonium adsorption capacity (∼18.4 mg/g) was shown by ZEO synthesized using distilled water at 70 °C. This value of ammonium adsorption capacity is higher or comparable to the values reported in the literature for other natural or synthesized ZEO. The regenerated ZEO was characterized by similar adsorption capacity but slower mass transport. The results of the study showed that ZEO synthesized from VA can be used to remove ammonium from wastewater. This will also reduce the amount of landfilled VA as well as the extraction of natural ZEO within the circular economy.
+Ozone is one of the promising reactants in the preparation of potable water and wastewater treatment. Its basic advantages include a high oxidation potential, the ability to undergo two reaction mechanisms, as well as the decomposition of unreacted ozone into usable molecular oxygen [11].
+The process of adsorptive ozonation combines the advantages of both aggregated processes. Adsorption of pollutants and ozone occurs on the surface of the adsorbent. Increased concentrations of both reactants at the adsorbent–liquid interface results in an increase in the reaction rate [12]. Fujita et al. [13] used ZEO as an adsorption material to study the degradation of acetaldehyde. To achieve the same residual concentration of acetaldehyde, the reaction time was approximately two orders of magnitude shorter compared to ozonation alone. Ferreiro et al. [14] applied a combined adsorption–ozonation process for phenolic wastewater treatment in a continuous fixed-bed reactor. Loganathan et al. [15] presented the review on an ozonation/adsorption hybrid treatment system for improved removal of natural organic matter and organic micropollutants (OMPs) from water. Khamparia et al. [16] concluded that with the combined ability of ozone and a catalyst/adsorbent, there is a high possibility of total elimination of dyes from wastewater.
+Some adsorptive materials (e.g. activated carbon, ZEO) can also act as catalysts that cause the decomposition of ozone into hydroxyl radicals. Catalytic ozonation processes change the direct reaction mechanism of ozone (ozonolysis) to a radical mechanism. Qu et al. [17] studied catalytic ozonation of phenolic wastewater with activated carbon in a fluid-bed reactor.
+Alameddine et al. [18] used activated carbon–catalyzed ozonation for the removal of trace organic compounds. Munir et al. [19] studied a Fe–ZEO catalyst for the ozonation of pulp and paper wastewater. Ikhlaq et al. [20] investigated combined iron-loaded ZEO and ozone-based process for the purification of drinking water in a novel hybrid reactor for the removal of fecal coliforms and arsenic.
+The combined process of adsorption and ozone regeneration (adsorption regeneration [AR]) was patented by authors Ishii et al. [21] for the regeneration of the oxidation catalyst. Zhang et al. [22] applied ozone to regenerate ZEO after adsorption. Shahbazi et al. [23] applied Fe-active ZEO to the cyclic adsorption/oxidation process of wet peroxide oxidation of a surfactant.
+The key step for the sustainability of the adsorption process is the regeneration of the exhausted/filled adsorption capacity. Fu et al. [24] in this context stated that the regeneration of spent adsorbents on site can condition their practical applications. In this work, they studied the regeneration of granular ZEO after adsorption with acetaminophen (ACE) using ozone. The measured adsorption capacity of ACE was 90 mg/g. After ACE penetration in column tests, the ZEO were drained and dried before regeneration. The efficiency and speed of regeneration increases with the decrease in water in the granules. The regeneration efficiency for a given total dose of ozone can be increased by extending the regeneration time. The results of this study showed that the adsorption capacity in relation to ACE decreased by 7% after three cycles of adsorption and regeneration. This decrease can be explained by the adsorption and accumulation of solid decomposition intermediates on the granules.
+Fu et al. [25] evaluated the regenerative performance of the adsorption capacity of granular ZEO exhausted by OMPs removed from municipal wastewater. Regeneration was carried out at ozone concentration 30 mg/l and a gas flow rate of 0.2 l/min. The results showed that the restored adsorption capacities first decreased and then increased with the duration of ozonation. The decrease in the regenerated adsorption capacity was probably caused by the presence of intermediate products from the ozonation of some selected OMPs. The adsorption capacity for 75% of the monitored OMPs was completely restored in seven subsequent cycles of adsorption and regeneration with the duration of each ozone regeneration being 60 min.
+Coke deposition is the main disadvantage of using solid catalysts in industrial processes because it causes their deactivation [26]. This work review deals with oxidation methods of catalyst regeneration. The work describes in detail the processes of molecular oxidation by oxygen and ozone, as well as advanced oxidation processes with the formation of OH radicals. This review provides an understanding of the mechanisms and kinetics of these processes (ozonolysis and radical oxidation, selectivity, reaction rates, diffusion, and mass transport).
+Ammonium nitrogen (NH
+–N) is one of the basic nutrients in agriculture. At the same time, it is also the most widespread contaminant of household wastewater. Its discharge into aquatic ecosystems contributes significantly to the eutrophication of waters. The dissociated form of ammonium nitrogen is toxic to aquatic organisms and humans. The traditional solution for removing ammonium nitrogen from urban/municipal wastewater is biological treatment at the tertiary stage. It is obvious that to the above-mentioned problems also correspond strict demands on the quality of wastewater discharged into the receiving water. However, under certain circumstances, e.g. a wastewater treatment plant with a smaller organic load [27], or for reducing the content of NH
+–N in sludge water, or as part of tertiary treatment, nontraditional methods for its removal may also be applicable.
+Our previous work in the field [28] was focused on the use of Fe-modified and Mn-modified ZEO for macronutrient removal from municipal wastewater in a continuous stirred reactor (CSR). This paper presents the results of research of alternative processes and reactors in the removal of ammonium pollution from municipal wastewater.
+Adsorption on ZEO and a combination of adsorption and ozonation processes (O3) were applied. Adsorptive ozonation and adsorption with subsequent regeneration of the adsorbent with ozone (AR) were studied. The potential of the applied CSR and a novel jet-loop reactor (JLR) was also studied. Another goal of the research was to assess the possibilities of ozone regeneration after the adsorption of ZEO applied to municipal wastewater treatment.
+The investigated individual/combined processes could potentially be used as alternative processes for removing ammonium nitrogen from smaller wastewater treatment plants, reducing this pollution in sludge waters, as well as part of a hybrid process in combination with biological treatment in tertiary wastewater treatment.
+2. Experimental section
+2.1. Experimental equipment
+All experiments were performed with a real municipal wastewater sample after mechanical treatment using the sieve fraction of ZEO (ZEOCEM s.r.o., Slovakia) with a mesh size of 0.2–0.5 mm. The experiments were carried out in the Completely Stirred Reactor (CSR) and novel Jet Loop  Reactor (JLR) reactors.
+The completely stirred reactor (CSR, Figure 1) is made of glass. It has an effective volume of 1.0 L. Mixing of the reaction mixture in the reactor was ensured using a magnetic stirrer (400–500 rev/min) (RS Components Ltd., RSLAB-11C SS, United Kingdom).  CSR

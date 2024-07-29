@@ -1,0 +1,67 @@
+Search within
+Login / Register
+Plasma Processes and Polymers
+RESEARCH ARTICLE
+Open Access
+Selective productions of reactive species in dielectric barrier discharge by controlling dual duty cycle
+Jun S. Lim, 
+Kirubel A. Admasu, 
+Eun H. Choi
+First published: 04 July 2024 https://doi.org/10.1002/ppap.202400098
+SECTIONS
+PDF
+TOOLS
+SHARE
+Abstract
+This study analyzes the selective productions of nitrogen oxides and ozone in dielectric barrier discharge due to temperature controlled by the dual duty cycle. In this work, we varied the dual duty cycle of the output voltage in the power supply, which alternatively generates distinguished high and low-temperature modes for selective productions of nitrogen oxides and ozone. The alternating nitric oxide and ozone by dual duty cycle were measured at a maximum of 100 ppm and 100 ppm in the gas phase, respectively. In the evaluation of DI water treated by dual duty cycle, nitrogen oxides, and ozone have been observed simultaneously in the liquid phase. These results offer new insights into the selective production of temperature-dependent chemical characteristics for advanced plasma applications.
+1 INTRODUCTION
+Atmospheric pressure air plasma contributes to the generation of chemical species such as hydroxyl radical (OH), ozone (O3), nitric oxide (NO), and nitrogen dioxide (NO2) mainly due to the high probability of collision with nitrogen (N2) and oxygen (O2) molecules at atmospheric pressure.[1, 2] Hence, it is widely used in diverse industries such as medical, environment, agricultural, and semiconductor processes where specific reactive species are required. For instance, in environmental usage, O3 or OH production is necessary for water purification.[3, 4] In contrast, an appropriate density of NO is necessary for medical inhalation therapy.[5, 6] In particular, NO plays a pivotal role in disease resistance through immunity in plants.[7, 8] Further, nitrate (NO3−) holds high significance for plant seed germination and growth.[9] Thus, from the aforementioned studies, it can be inferred that the simultaneous presence of NO and NO3− in water could be synergetic to the growth of the immune system in plants.[7-9]
+As a result, there has been active research on establishing ways to control the selective production of reactive oxygen and nitrogen species in the atmospheric pressure dielectric barrier discharge (DBD). Park and Kim studied the chemical kinetics of reactive species based on the temperature in the DBD and the competitive formation of reactive oxygen and nitrogen species.[10, 11] Malik et al. studied nitrogen oxides (NOx) and O3 production using temperature variation with voltage and input energy.[12] Lu et al. studied the effects of gas flow, dielectric material, and electrodes with nitrogen and oxygen molecules in the air to understand the homogeneous mode and filamentary mode transition in the DBD.[13] T. Homola studied ozone generation with a gas flow rate in the DBD.[14] Reuter, Ito, and Schmidt-Bleker elucidated the control of plasma-induced RONS production in both gas and liquid phases by employing various shielding gases around the plasma effluent.[15-17] Hawtof et al. utilized multiple gas environments and purging techniques for the selective production of nitrogen oxides.[18] Hensel et al. also explored a variety of discharge conditions, including water electrodes, water electrospray, indirect plasma irradiation, and plasma jet systems, to adjust the ratio of reactive oxygen species (ROS) and reactive nitrogen species (RNS).[19] Uchida et al. reported that changing the plasma irradiation distance away from the liquid surface can alter the concentration ratio of ROS to RNS in the target liquid.[20] Lamichhane et al. utilized variable jet lengths for the selective production of ROS and RNS.[21]
+These studies show that the temperature, feeding gas, distance, and input energy using external resources could control the reactive species in the plasma. However, simultaneous production of NO and NO3 with O3 is difficult, mainly because NO has often been produced at the high temperature of plasma, and NO3 and O3 are produced at low temperatures due to their temperature-dependent rate coefficient.[22]
+Here, we studied physicochemical characteristics under a dual duty cycle for alternated temperature control at the surface dielectric barrier discharge (SDBD) source by temperature-dependent production of chemical species in two distinct temperature regions. The duty so-called pulse modulation is already used in the DBD operation to control the temperature or production of reactive species.[23-27] The duty consists of on-time duration with sinusoidal voltage bunch and off-time without voltage bunch.[26, 28] This duty maintains a limited temperature during plasma discharge and allows temperature control by specific duty.[24] In this work, we employed a dual duty cycle to allow alternating between two distinct temperature regions of plasma. The higher duty cycle can first lead to a temperature increase, and the alternated lower duty cycle can lead to a temperature decrease, which could result in a change in the chemical characteristics without external resources. In this report, we found the surface temperatures of SDBD for the beginning of production in O3, NO, NO2, and N2O5 in the single duty cycle. Based on the measured surface temperature of SDBD under the single duty cycle, we designed the dual duty cycle of output voltage in the power supply for the alternated reactive species productions. The reactive species productions of SDBD by single and dual duty cycles have been analyzed by gas-FTIR with temperature evolution. Further, we performed the evaluations of NO, NO2−, NO3−, and O3 in the plasma-activated water for the production of specific reactive species for treatment using one plasma source.
+2 EXPERIMENTAL SETUP
+In this work, we used SDBD. The dielectric material substrate based on the 45 mm width, 25 mm length, and 0.5 mm thickness of SiO2 has been used for the SDBD. The copper electrodes for 48 discharge cells were patterned on the inside of the dielectric material substrate, as shown in Figure 1. The dry air (19% oxygen-balanced nitrogen gas) was used as feeding gas for SDBD operation at a rate of 3.0 L/min. The quartz tube is used as a reactor chamber 200 mm long, which possesses inner and outer diameters of 30 and 32 mm, respectively. The two ports are installed on the chamber for the input of dry air gas and an output connected with the liquid reservoir and gas-FTIR with control valves.
+Figure 1
+Open in figure viewer
+PowerPoint
+Schematic of the experimental setup with a photograph of the reactor.
+The SDBD was operated using an inverter which used input DC voltage and outputs an AC high voltage according to a peak voltage of 5.7 kV with 30-kHz sinusoidal wave. To control the time length of the voltage bunch from the inverter, the duty cycle of the applied voltage was adopted, which is expressed as follows:
+Duty = on − time ( ms ) on − time ( ms ) + off − time ( ms ) × 100 ( % ) ,
+(1)
+where the on-time is the time during which plasma is on, and the off-time is the time during which plasma is off.[25] The voltage and current signals of SDBD are measured using a high-voltage probe (P6015A, Tektronix) and pickup probe (P6021A, Tektronix), as shown in Figure 1, respectively. The measured voltage and current signal are recorded as a function of time using an oscilloscope (DSOX3104T, Keysight). The gas FTIR (Matrix-MG5 gas analyzer, Bruker) is connected to the outlet of the quartz reactor chamber to evaluate the O3 and NOx generation from SDBD. The temperature on the SDBD surface is measured using a thermometer probe on the SDBD surface versus time (FOT lab kit, Luxton). The relative NO concentration in the liquid is measured using NO microsensor (USNO-100, Unisense) for liquids. The NO2− and NO3− concentrations in the liquid are measured using the UV absorbance method[29] with a spectropolarimeter (J-815, JASCO). The O3 concentration in the liquid is measured using an ozone meter (DOZ30, Clean instrument).
+3 RESULTS AND DISCUSSIONS
+3.1 Electrical characteristics of SDBD with single and dual duty cycles
+The electrical characteristics of SDBD for voltage and current curve versus time are displayed in Figure 2. The waveforms consist of on-time and off-time voltage signals. Each on-time signal has a sinusoidal wave packet of voltage for discharge, and an off-time signal has a non-operation time with no voltage for cooling, as shown in Figure 2a,b. The measured root mean square (RMS) voltage and current were 3.8 kV and 37 mA within a period in Figure 2a, respectively. The used single duty cycle with fixed 5 ms of on-time in this work is summarized in Table 1.
+Figure 2
+Open in figure viewer
+PowerPoint
+Voltage and current curve versus time of surface dielectric barrier discharge (SDBD), (a) voltage (black line) and discharge current (red line) curve in the voltage wave packet, (b) voltage form for single duty cycle of 12.5%, (c) voltage form of dual duty cycle with 1st duty cycle (black line) and 2nd duty cycle (blue line).
+Table 1. Selected values for duty cycle (%) for tailoring the production of NOx and O3.
+Duty (%) On-time (ms) Off-time (ms) Duty (%) On-time (ms) Off-time (ms)
+50.0 5 5 12.5 5 35
+25.0 5 15 10.0 5 45
+16.7 5 25 8.3 5 55
+The voltage waveform under the single duty cycle of 12.5% is displayed in Figure 2b. The dual duty cycle consists of alternative operations by 1st and 2nd duty cycles with a given duration time for each other, as shown in Figure 2c. In this work, the 1st duty cycle used only 50% with 1 min duration time, and the 2nd duty cycle used 25%, 16.7%, 12.5%, 10%, and 8.3% conditions with a given duration time, respectively. These alternated 1st and 2nd duty cycles are continuously repeated with a given duration time, respectively. Each on-time and off-time duty value of 1st and 2nd duty cycles have been followed in Table 1.
+The electrical dissipated power (P) is calculated using the following equation [25, 30]:
+P = ( duty cycle ) × 1 T ∫ 0 T v ( t ) i ( t ) dt [ W ] ,
+(2)
+where T is the period of voltage, and v(t) and i(t) are the recorded voltage and current signals, respectively. In the dual duty cycle, the reduced duty cycle between 1st and 2nd duty cycle is calculated using the following expression for dissipated power calculation as shown in Table 2.
+R educed duty cycle = 1 st duty cycle × D 1 + 2 nd duty cycle × D 2 D 1 + D 2 ( % ) ,
+(3)
+where D1 and D2 are the duration time of 1st duty cycle and 2nd duty cycle, respectively. In the calculation of the dissipated power of the dual duty cycle, reduced duty has been used as a duty cycle in Equation (2). The dissipated power calculated linearly increased with single and dual duty cycles by Equation (2), as shown in Figure 3.
+Table 2. Reduced duty cycle calculation table of dual duty cycle.
+(%) 1 Min duration of 2nd duty cycle
+1st duty cycle (on-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms)
+2nd duty cycle (on-time: 5 ms) 25.0 (off-time: 15 ms) 16.7 (off-time: 15 ms) 12.5 (off-time: 15 ms) 10.0 (off-time: 15 ms) 8.3 (off-time: 15 ms)
+Reduced duty cycle 37.5 33.4 31.3 30.0 29.2
+(%) 2 Min duration of 2nd duty cycle
+1st duty cycle (on-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms) 50.0 (off-time: 5 ms)
+2nd duty cycle (on-time: 5 ms) 25.0 (off-time: 15 ms) 16.7 (off-time: 15 ms) 12.5 (off-time: 15 ms) 10.0 (off-time: 15 ms) 8.3(off-time: 15 ms)
+Reduced duty cycle 33.3 27.8 25.0 23.3 22.2
+Figure 3
+Open in figure viewer
+PowerPoint
+Dissipated power with single duty cycle (black-circle), dual duty cycle with 1 min duration time of 2nd duty cycle (red-triangle), and dual duty cycle with 2 min duration time of 2nd duty cycle (blue-star) versus single duty cycle and reduced duty cycle for dual duty cycle (the reduced duty cycle of dual duty cycle has been used as a duty cycle in x-axis).
+3.2 NOx and O3 characteristics with the temperature of SDBD surface in the gas phase by single and dual duty cycles
+3.2.1 Chemical characteristics in the single duty cycle
+The time-resolved temperature on the SDBD surface with a given single duty cycle is measured until 5 min, as shown in Figure 4a. The measured time-resolved temperature shows a rapid increase during the initial 1 min, and it is then saturated at all given duty cycles. The oscillation of temperature value has been observed, but it was caused by the fluctuation noise of the probe on the SDBD by gas flow, not the plasma effect. The time-averaged

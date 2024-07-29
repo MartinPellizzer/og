@@ -1,0 +1,1026 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Highlights
+Abstract
+Graphical abstract
+Keywords
+1. Introduction
+2. Material and methods
+3. Results
+4. Discussion and conclusion
+Funding
+CRediT authorship contribution statement
+Declaration of Competing Interest
+Acknowledgements
+Data availability
+References
+Show full outline
+Figures (5)
+NeuroToxicology
+Available online 14 July 2024
+In Press, Journal Pre-proof
+What’s this?
+Tropospheric ozone effect on olfactory perception and olfactory bulb dopaminergic interneuron excitability
+Author links open overlay panel
+Pignatelli Angela a 1
+,
+Mascia Benedusi a 1
+,
+Mario Barbieri a
+,
+Alessandra Pecorelli b
+,
+Giuseppe Valacchi b c d
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.neuro.2024.07.003
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Ozone compromises olfactory perception to odors in two strains of mice similarly, but not identically.
+•
+Ozone reduced the rate of spontaneous spike firing in periglomerular dopaminergic cells of the olfactory bulb.
+•
+Ozone can alter olfactory perception and cellular electrical properties in the olfactory system.
+Abstract
+Ozone (O3) forms in the Earth’s atmosphere, both naturally and by reactions of man-made air pollutants. Deleterious effects of O3 have been found in the respiratory system. Here, we examine whether O3 alters olfactory behavior and cellular properties in the olfactory system. For this purpose, mice were exposed to O3 at a concentration found in highly polluted city air [0.8 ppm], and the behavior elicited by social and non-social odors in habituation/dishabituation tests was assessed. In addition, the electrical responses of dopaminergic olfactory bulb (OB) neurons were also evaluated. O3 differentially compromises olfactory perception to odors: it reduces responses to social and non-social odors in Swiss Webster mice, while this effect was observed in C57BL/6 J mice only for some non-social odors. Additionally, O3 reduced the rate of spontaneous spike firing in periglomerular dopaminergic cells (PG-DA) of the OB. Because this effect could reflect changes in excitability and/or synaptic inputs, the ability of O3 to alter PG-DA spontaneous activity was also tested together with cell membrane resistance, membrane potential, rheobase and chronaxia. Taken together, our data suggest the ability of O3 to affect olfactory perception.
+Graphical abstract
+Download: Download high-res image (176KB)
+Download: Download full-size image
+Keywords
+olfactory bulb (OB)dopaminergic cells (DA)tropospheric ozoneolfactory perceptionpatch-clamp
+1. Introduction
+Outdoor air pollution is a major problem worldwide, especially due to its harmful effects on human
+health (
+Manisalidis et al., 2020
+,
+Markozannes et al., 2022
+). Exposure to air pollutants has been found to adversely affect various organs and tissues, including lung (
+Cross et al., 2002
+), the cardiovascular system, and skin (
+Benedusi et al., 2021
+,
+Canella et al., 2023
+,
+Cervellati et al., 2020
+,
+Guo et al., 2022
+,
+Santos et al., 2021
+,
+Sticozzi et al., 2018
+). Moreover, children and older individuals exposed to air pollution exhibit signs of cognitive dysfunction, and airborne pollutants are associated with increased incidences of neurodegenerative disorders (e.g., Parkinson’s and Alzheimer’s diseases) strokes, and mortality (
+Alhussaini et al., 2023
+,
+Babadjouni et al., 2017
+,
+Bello-Medina et al., 2022
+,
+Block and Calderon-Garciduenas, 2009
+,
+Calderon-Garciduenas et al., 2016
+,
+Ramirez-Mendoza et al., 2024
+,
+Vanderplanck et al., 2021
+). Some authors have suggested that pollutants, like toxic molecules, enter the olfactory epithelium, are transported to the OB, and then (due to lack of a blood-brain barrier) reach the olfactory cortex and other brain regions (
+Ajmani et al., 2016
+,
+Calderon-Garciduenas et al., 2003
+,
+Esposito et al., 2022
+,
+Kashyap and Shukla, 2019
+,
+Muttray et al., 2018
+,
+Prah and Benignus, 1979
+,
+Singh et al., 2023
+,
+Yan et al., 2020
+).
+Olfactory system is important because it allows to detect, distinguish and activate memories of odors. In human everyday life, the sense of smell might seem less important than vision or hearing. However, smell is essential for vital functions such as tasting for food, exploration of environments and social interactions and for animal behaviors associated with reproduction and recognition of offspring (
+Ajmani et al., 2016
+,
+Fine and Riera, 2019
+,
+Sarafoleanu et al., 2009
+,
+Spinella, 2002
+). Olfactory dysfunctions significantly worsen physical well-being and quality of life, are associated with increased mortality in older adults, and are among the prodromal symptoms of several neurodegenerative diseases (
+Attems et al., 2015
+,
+Casciano et al., 2024
+,
+Ramirez-Mendoza et al., 2024
+). Olfaction can be impaired in humans in a number of quantitative and qualitative ways (
+Schafer et al., 2021
+) and the exposure to pollutants can represent one of the main causes.
+Among the different air pollutants, O3 is known to be one of the most dangerous for human health. While O3 in the stratosphere helps guard against excessive exposure to ultraviolet radiation, O3 in the troposphere is a powerful oxidant.
+O3 has been found to negatively impact every tissue of the human body (
+Ferrara et al., 2021
+,
+Nuvolone et al., 2018
+,
+Smyth and Georas, 2021
+), especially those directly exposed to this pollutant (
+Fuks et al., 2019
+,
+Valacchi et al., 2004
+). Clinical and epidemiological studies reported interindividual variability in the adverse health effects of air pollutants, suggesting a genetic predisposition showing alteration of proinflammatory cytokines, chemotactic factors, oxidative stress markers, transcription factors and antioxidant defense (
+Gardi and Valacchi, 2012
+). O3 effects on survival time and susceptibility to O3-induced inflammation were found to differ between inbred mouse strains, showing that pigmented mice strains appear to be generally more resistant to O3 than albino. Similar harmful variance in the effect of O3 were found in genetic study on acute lung injury, among albino versus C57BL/6 J mouse strains. Genetic determinants so may control a predisposition to the damaging effects of O3 (
+Goldstein et al., 1973
+,
+Kleeberger et al., 1990
+,
+Prows et al., 1997
+).
+While adverse effects of exposing the olfactory system to particulate matter (PM) have been more broadly studied (
+Kanninen et al., 2020
+), relatively few studies have tested whether O3 adversely affects olfactory cells. Ajmani's review described how inhaled pollutants (including O3) interact with the olfactory epithelium, translocate into the OB, and then transfer to the olfactory cortex; directly damage tissue morphology, induce local inflammation, and initiate cellular stress responses (
+Ajmani et al., 2016
+). Moreover, some data show that low acute or repeated exposure to O3 reduce olfactory sensitivity in human (
+Muttray et al., 2018
+,
+Prah and Benignus, 1979
+). Similar O3 exposure impairs olfactory function in animal (
+Agathokleous et al., 2022
+,
+Arakawa et al., 2008
+,
+Vanderplanck et al., 2021
+). Furthermore, O3 exposure has recently been associated with the activation of adrenal-derived stress hormones, increase in stress biomarkers and a specific gene expression changes in glucocorticoid signaling in the hypothalamus and OB (
+Valdez et al., 2023
+). Ozone and allergen exposure also alter the innervation of the airway epithelium in infant monkeys. (
+Larson et al., 2004
+).
+To begin to understand how O3 impacts olfactory function, we focus on periglomerular dopaminergic cells in the OB (
+Capsoni et al., 2021
+). These cells process signals coming from neurons that detect odors, and help tune the response of the olfactory system to external conditions. Like dopaminergic cells in other systems, PG-DA cells fulfill multiple roles, including helping to regulate the overall level of activity in the OB, prevent overstimulation of the network by odorants, regulate the activity of other OB interneurons, modulate synaptic plasticity (
+Zhou et al., 2020
+), shape the output of the OB, and modulate the perception of odors (
+Pignatelli and Belluzzi, 2017
+).
+Olfaction starts in the olfactory epithelium (OE) which contains highly specialized neuronal cells, the olfactory sensory neurons (OSNs) that detect odors. In particular, odorants are small volatile molecules with different chemical structures and are recognized by a large family of olfactory receptors, expressed in the cilia of OSNs (
+Buck and Axel, 1991
+). The binding of odorants to chemoreceptors starts the transduction of an electrical signal that reaches the OB where the first processing of the olfactory sensory signal takes place. Then the neuronal signal reaches the olfactory cortex and other higher brain centers, leading to the process of olfactory perception, emotions and behaviors related to smell (
+Capsoni et al., 2021
+). In the glomeruli, neuronal transmission takes place between the axons of the OSNs and the dendrites of the second order neurons represented by mitral or tufted cells whose cell bodies are located in a deeper layer of OB. The periglomerular cells (PGs) mainly contain GABA and perform the function of local inhibitory interneurons. A subgroup of PGs also releases DA. In the deepest layer of the bulb, another class of interneurons are located, represented by granule cells that form dendrodendritic synapses with mitral cells. Their role consists in the inhibition of mitral cells and participate in the synaptic plasticity of the OB. In the OB the transmission of sensorial information is not only due to the projection neurons, but it is revised and modulated by the local circuitry mainly by the action of interneurons (
+Capsoni et al., 2021
+). PGs-DA, in the OB, are a subtype of interneurons involved in the processing of odors and the adaptation of the bulbar network to external conditions (
+Capsoni et al., 2021
+,
+Casciano et al., 2023
+,
+Kosaka et al., 2020
+,
+Pignatelli and Belluzzi, 2017
+). DA cells in OB co-release DA and GABA from separate pools of vesicles and the DA appears to inhibit the release of glutamate, the main neurotransmitter of the olfactory sensory fibers of OE (
+Kosaka et al., 2020
+,
+Pignatelli et al., 2009
+,
+Pignatelli and Belluzzi, 2017
+,
+Pignatelli et al., 2005
+). This helps to regulate the overall level of activity in the OB and prevent overstimulation of the network by odorants. Besides the role in neurotransmitter release regulation, PG-DA cells are also involved in other processes, such as the regulation of the activity of other OB interneurons and the modulation of synaptic plasticity (
+Zhou et al., 2020
+). Furthermore, most OB DA neurons have the characteristic to be generated also throughout the mice adult lifetime (
+Bonzano et al., 2016
+,
+Lazarini et al., 2014
+). Overall, the activity of PG-DA cells plays an important role in shaping the output of the OB and the perception of odors (
+Pignatelli and Belluzzi, 2017
+).
+The present work investigates whether the mouse olfactory system is impaired by acute exposure to O3 at a concentration similar to levels reached during smog episodes in most-polluted cities (
+Valacchi et al., 2003
+). We use olfactory test and electrophysiological methods for these investigations, to assess effects at both a cellular and behavioral level. Moreover, we perform these tests on two mouse strains, rather than one, because previous studies found that O3 effects on mice differ with strain.
+2. Material and methods
+2.1. Animals
+The experiments reported here were performed on two strains of mice (Swiss Webster and C57BL/6 J) and on transgenic mice generated, and kept heterozygous, by breeding a TH-GFP/21-31 line with inbred C57BL/6 J mice (
+Matsushita et al., 2002
+,
+Sawamoto et al., 2001
+). These transgenic animals will be indicated as TH-GFP+/C57Bl6J.
+The behavioral results reported here were obtained from a total of 10 Swiss Webster male mice and 10 TH-GFP+/C57Bl6J male mice. It was chosen to compare only male mice in order to avoid the possibility of gender-specific O3 effects that have been reported in previous work (
+Vancza et al., 2009
+). The age of the animals, for both strains, ranges between 2 and 6 months. The use of two mice strains enabled us to test whether our results were strain-dependent. The behavior of each mouse was tested before and after O3 exposure.
+Electrophysiological recordings were obtained from a total of 10 transgenic TH-GFP+/C57Bl6J mice. These mice were identified as transgenic, at postnatal day 3 or 4, by the presence of GFP fluorescence in their OBs upon transillumination by a UV source (FBL / Basic-B & N-01; BLS, Hungary; FHS/F-01) and viewing with an emission filter (FHS/EF-2G2; BLS, Budapest, Hungary). Because the TH-GFP/21–31 line carries the eGFP gene under control of the promoter of the tyrosine hydroxylase (TH) gene, and TH is essential for DA synthesis, GFP fluorescence locates DA-synthesizing cells in these preparations.
+The care and use of all animals were conducted according to guidelines established by European Council Directives (609/1986 and 63/2010) and Italian laws (DL 116/92 and D. Lgsl. 26/2014) for the protection of animals used for scientific purposes. The experimental protocols were approved by the Committee for Animal Welfare of the University of Ferrara (OBA), by the Directorate-General for Animal Health of the Ministry of Health and supervised by the Campus Veterinarian of Ferrara University.
+2.2. Experimental procedure
+Our experiments tested for effects of O3 on olfactory behavior and OB-DA neurons in two experimental steps. The subject mice were exposed to 0.8 ppm of O3 for two hours and were placed in a closed, noiseless chamber connected to a parametric concentration programmable O3 generator (ECO3 model CUV-01, Torino, Italy). At the end of the exposition procedure, mice were firstly used for olfactory behavioral test and subsequently sacrificed for electrophysiological in-vitro recordings.
+2.3. Olfactory Test
+We tested the ability of mice to discriminate between different odors before and after exposure to O3. It was used the habituation/dishabituation test based on the idea that animals tend to ignore familiar and irrelevant olfactory stimuli and show increased interest in novel stimuli. (
+Groves and Thompson, 1970
+,
+Moser et al., 2022
+,
+Pavlov, 2010
+,
+Rankin et al., 2009
+). The protocol consists of repeatedly exposing an animal to odor stimulus until it stops sniffing; at that point a new stimulus is presented and it is possible to evaluate whether the animal can perceive the difference, which indicates that it has become dishabituated to the stimulus and will respond to new odors (Wilson, 2009; Zouet al., 2015).
+The test protocol asked whether O3 alters the ability of mice to habituate and dishabituate to odors, and thus the ability to distinguish and remember different odors (
+Arbuckle et al., 2015
+,
+Yang and Crawley, 2009
+). In this context, habituation refers to a gradual decline in the olfactory investigation (sniffing), in response to repeated presentations of the same odor; on the other hand, dishabituation is the restoration of sniffing curiosity when a novel odor is introduced (
+Takahashi and Tsuboi, 2017
+,
+Wersinger et al., 2007
+,
+Woodley and Baum, 2003
+,
+Wrenn et al., 2004
+). These tests involve minimal inter-trial manipulations. Moreover, the odor stimulus (100 μl) is placed only on the cotton tip of an applicator. This does not come into contact with any part of the cage or cage lid, thus minimizing the risk of cross-trial contamination.
+The animals were tested with a series of odors at two time points: once to establish baseline values, and then once more, after a 3-week period with no exposure to the odor stimuli, after exposure to 0.8 ppm of O3 for 2 hours. In literature there are data that highlight that mice could not remember olfactory cues anymore after a 7-day interval between two test trials. A 3 weeks-period interval was considered safe to avoid any olfactory memory (
+Arakawa et al., 2008
+,
+Oummadi et al., 2020
+,
+Sekiguchi et al., 1991
+). The odors were divided into 2 groups. Odors of one group were classified as non-social odors because these are unrelated to mouse social behaviors. These included the diluted distilled water smell of banana 1: 1000 (amyl acetate, CAS number 628-63-7,), mint 1:100 (L-carvone, CAS number 6485-40-1), peppermint 1:100 (D-carvone, CAS number 2244-16-8). These compounds were purchased from the Sigma-Aldrich (cat. #s W504009, W224901, W224928, respectively). D-carvone and L-carvone are enantiomers that are spontaneously discriminated by the mouse (
+Sato et al., 2015
+). The second group of smells were urine samples collected from mice of the same sex or opposite sex, by rubbing the stick on the dirty bottom of the cage in the area of maximum urine concentration. These were classified as social smells because these are known to elicit or influence social behaviors of mice. All behavioral tests were carried out in a previously ventilated room free from any other possible sources of odor. Odorants were presented in the same order for all animals.
+2.3.1. The experimental protocol consisted of two phases
+Pre-test acclimatization: The mice were moved from their home cages to a one clean, sawdust-free measuring 32x13x14 cm (LxWxH) for 30 minutes in the presence of a dry cotton swab set on the rack at 15 cm from the top of the cage. This period was essential to acclimate the animal to the presence of the stick and to prevent the animal from being more curious about the new object than the new smell, when the odorous stimulus was applied (
+Yang and Crawley, 2009
+).
+Habituation/Dishabituation test: The test was performed following the protocol described previously (
+Arbuckle et al., 2015
+,
+Yang and Crawley, 2009
+). Neutral odor (H2O) has been adopted as control at the beginning of the non-social test. Non-social odors were presented three times and social odors were presented five times. The number of repetitions for the olfactory test is assumed from the point in which the animal stops being interested. This approach has been used to study olfactory discrimination in mammals (
+Cleland et al., 2002
+,
+Moser et al., 2022
+,
+Price et al., 2020
+,
+Yang and Crawley, 2009
+,
+Zou et al., 2015
+), including in rodents (
+Mandairon et al., 2009
+,
+Perez-Villalba et al., 2015
+,
+Qiu et al., 2014
+). In our experimental set we verified that for social odors the habituation process was completed at the third exposure, while for social odors greater repetitions were necessary, which we had set at five. As described by Yang (
+Yang and Crawley, 2009
+), the standard non-social odors as banana and carvone only induce moderate levels of sniffing. On the other hand, we can hypothesize that a social odor, that is related to important functions for the animals such as social interactions, mate and reproduction status are certainly more attractive to mice. The different number of repetitions for social and non-social odors was chosen to better describe the habituation phenomenon observed after the initial exposure to new odors, we added two more repetitions for social odors to have a complete attenuation of the habituation process.
+The protocol consists in presenting and holding into the cage for two minutes the cotton swab soaked in the various odorous solutions. The sniffing time was measured as the time the animal approached the source of the smell at less than 2 cm and was measured with a silent stopwatch. A new cotton swab with a new odor was presented one minute after the previous test (
+Yang and Crawley, 2009
+).
+A total of 10 C57BL/6 J and 10 Swiss Webster male mice were used in this experiment to test their response to both social and non-social odors.
+For the behavioral data, since normality and homocedasticity hypotheses were not verified, the non- Wilcoxon test was performed for paired data (when comparing two odor presentations within the same group) or non-parametric Wilcoxon test for unpaired data when comparing O3 versus CTL for a given odorant presentation. Significance for all statistical tests was shown for p≤0.05 (*,#,$), p ≤0.01 (**,##,$$) or p≤0.001 (***,###,$$$).
+2.4. Electrophysiological recordings
+The electrophysiological tests were performed only for DA cells belonging to the C57BL/6 J strain, in TH-GFP+ transgenic model, because it is essential to have certainty to record from accurately identified cells and this is possible only using this transgenic animal model. Nowadays, similar transgenic models on Swiss Webster background are not available.
+Whole-cell current and voltage recordings were acquired in ruptured-patch mode with a MultiClamp 700B amplifier (Molecular Devices, Sunnyvale, CA) and a 12-bit A/D–D/A converter (Digidata 1440 A; Molecular Devices). The recording electrodes were pulled from borosilicate glass capillaries (1.5 O.D., 0.87 I.D., with filament; Hilgenberg, Malsfeld, Germany) on a Zeitz-DMZ puller (Martinsried, Germany). These electrodes had tip resistances of 4–5 MOhm when filled with standard intracellular (IC) solution. Giga-seal formation was facilitated with an air pressure controller (MPI, Lorenz Messgeratebau, Katlenburg-Lindau, Germany). Data were collected if the seal resistance was greater than 2 GOhm.
+2.5. Solution for slice preparation and electrophysiological recording
+Olfactory bulb slices were prepared following protocols described in details previously (
+Pignatelli et al., 2009
+,
+Pignatelli and Belluzzi, 2017
+,
+Pignatelli et al., 2005
+). Mice were sacrificed at least 120 minutes since the of O3 exposure. Olfactory bulb slice preparation (5-10 per animal, coronal orientation of 150 μm of thickness, deriving from the anterior-medial area of the OB) and recording from PG-DA cells, were made using bicarbonate-buffered solution (BBS) that contained (in mM): 125 NaCl, 2.5KCl, 26 NaHCO3, 1.25 NaH2PO4, 2 CaCl2, 1 MgCl2, 15 glucose. The recording micropipette electrodes were filled with an intracellular solution that contained (in mM): 120 K-gluconate, 10 NaCl, 2 MgCl2, 0.5 CaCl2, 5 EGTA (ethylene glycol tetra acetic acid), 10 HEPES, 2 Na-ATP, 10 glucose. TH-GFP+ cells were chosen based on their expression pattern of the TH-GFP transgene. In the coronal section, TH-GFP+ cells (1-3 cells per slices) were chosen only in the glomerular layer of the main olfactory bulb in both the ventral and dorsal regions. Data recorded were analyzed as average.
+To test the effects of O3 on the excitability profile of PG-DA cells, four electrical parameters were analyzed including: the membrane resistance (Ω), the frequency of spontaneous action potential (Hz), the rheobase (pA) and the chronaxie (ms). Rheobase is the minimum current intensity (pA) needed to evoke an action potential, at unlimited stimulus durations. Our results were obtained with step-shaped current injections that were each 200 ms in duration. The amplitude of these current injections was increased until an action potential was evoked (
+Ashley et al., 2005
+). Chronaxie represents the shortest stimulus duration (ms) that can trigger an action potential at a stimulus intensity that is twice the rheobase (
+Golowasch et al., 2009
+). Our results were obtained by incrementally increasing the duration of current pulses until an action potential was evoked, while maintaining the current amplitude at twice the rheobase.
+Concerning electrophysiological results, Shapiro-Wilk test was used to test for normal distribution and the differences between groups with parametric distributions were analyzed by Student's t test.
+3. Results
+Two experimental methods were used to test the effects of exposure to the toxic pollutant O3 on the olfactory system. In the first approach, the olfactory capacities of two strains of mice (TH-GFP+/C57Bl6J and Swiss Webster) in recognizing and distinguishing odors were checked using the Olfactory Habituation/Dishabituation Test. Next, electrophysiological recordings in TH-GFP+/C57Bl6J mice allowed to investigate changes in DA cell activity following O3 exposure
+3.1. The Olfactory Habituation/Dishabituation Test
+3.1.1. Swiss Webster mice: non-social odors
+Regarding the effect of O3,
+Fig. 1
+A shows mean sniffing time (sec) for three non-social odors before and after O3 exposure for Swiss Webster male mice. The statistical analysis displays that there are no significant differences for these two conditions.
+Download: Download high-res image (140KB)
+Download: Download full-size image
+Fig.- 1. Habituation/Dishabituation test in Swiss Webster mice. The figure shows the average times spent sniffing (A) non-social odors and (B) social odors (SO) before (green line-CTL) and after O3 exposure (orange line). In abscissa tick marks represent the first exposition to new odors followed by subsequent repetitions. The results are presented as mean ± SEM of 10 different animals. * p˂0,05 and ** p˂0.01 CTL vs O3; # p˂0,05 and ## p˂0,01 habituation; $ p˂0,05 and $$ p˂0,01 discrimination.
+Analyzing the phenomenon of habituation in control condition (CTL), it emerges that for the non- social odor banana and D-carvone, only the time difference between the first and the second exposure become significant (p =0.0371 and p =0.002 respectively). We did not observe any significant difference for the non-social odor L-carvone. Concerning the habituation after O3 exposure, we observed statistical significance only for banana odor (first/second banana: p= 0.002; second/third banana: p=0.0156). Non-significant differences were found for D-carvone and L-carvone after O3 exposure.
+Analyzing the discrimination capability of the animals (comparison of the last presentation of the first odorant with the presentation, for the first time, of the second odorant) in CTL, we noticed that after the water series, the first trial with banana is significantly different from the previous one (p= 0.002), highlighting the ability to discriminate the new odor. This difference was observed also between third banana and first D-carvone exposure (p=0.0195). Vice versa, after the mice exposure to O3, we found this difference only between third H2O and first banana exposures (p=0.0059). The differences regarding discrimination for the other non-social odors test done were not significant.
+3.1.2. Swiss Webster mice: social odors
+Concerning the effect of O3, as shown in
+Fig. 1
+B, in Swiss Webster mice the O3 exposure had more impact on olfactory abilities for the social odors. Indeed, statistically significant differences were reported for both same-sex and opposite-sex odor data (same-sex odor: 49.24±7.33 sec, CTL and 28.65 ±5.14 sec after O3 exposure for the first odor test, p= 0.0216; 31.10 ±5.54 sec, CTL and 6.36 ±1.96 sec after O3 exposure for the second odor test, p= 0.0015; 13.63± 3.56 sec, CTL and 3.10 ±1.38 sec after O3 exposure for the third odor test, p= 0.0037; 7.40± 2.61 sec, CTL and 1.56 ±0.57 sec after O3 exposure for the fourth odor test, p= 0.0029. Opposite-sex odor: 48.09 ± 6.66 sec, CTL and 20.73± 4.31 sec after O3 exposure for the first odor test, p=0.00005; 28.85± 5.06 sec, CTL and 9.03 ± 3.04 sec after O3 exposure for the second odor test; 17.72± 4.62 sec p= 0.015 and CTL 17.72± 4.62 sec and 4.99± 2.45 sec after O3 exposure for the third odor test p= 0.0256).
+Analyzing the habituation phenomena for the social odors in CTL, it appears that there are differences between: first/second same sex (p=0.002), second/third same sex (p= 0.002), third/fourth same sex (p=0.0195), first/second opposite sex (p=0.0039), second/third opposite sex (p=0.0078) and third/fourth opposite sex (p= 0,0195). This difference, on the other hand, become less significant after O3 exposure: first/second same sex (p=0.002) and second/third same sex (p= 0.0078).
+Evaluating the discrimination capability, we observed that the first stimulus of opposite sex was significantly different from the last test for the same sex odor in CTL (p =0.002) and after O3 exposure (p=0.0039). This result highlights that the ability to discriminate between two different social odors persisted also after O3 exposure.
+3.1.3. TH-GFP+/C57Bl6J mice: non-social odors
+Assessing the effect of O3,
+Fig. 2
+ A displays response of TH-GFP+/C57Bl6J mice to odors measuring the total sniffing time (in sec) spent when presented with non-social odor in CTL and after O3 exposure. As depicted, exposure to O3 markedly reduced the sniffing time spent by TH-GFP+/C57Bl6J with two non-social odors: banana and D-carvone (banana: 7.14 ±2.03 sec CTL and 1.13 ± 0.28 sec after O3 exposure, p =0.0001, D-Carvone: 2.97± 0.63 sec CTL and 0.55 ± 0.26 sec after O3 exposure, p=0.002). By contrast, no significant difference in sniffing time after O3 exposure was detected for L-Carvone.
+Download: Download high-res image (135KB)
+Download: Download full-size image
+Fig.- 2. Habituation/Dishabituation test in C57BL/6 J mice. The figure shows the average times spent sniffing (A) non-social odors and (B) social odors before (blue line-CTL) and after O3 exposure (red line) for C57BL/6 J mice. In abscissa tick marks represent the first exposition to new odors followed by subsequent repetitions. The results are presented as mean ± SEM of 10 different animals. ** p˂0.01 CTL vs O3; # p˂0,05 and ## p˂0,01 habituation; $ p˂0,05 and $$ p˂0,01 discrimination.
+Comparing the phenomenon of habituation in CTL, it emerges that for the non-social odors, the difference become significant between: first/second banana exposure (p =0.002), second/third banana exposure (p=0.0313) and first/second D-carvone exposure (p =0.0003). After O3 exposure the difference was significant only for first/second banana exposure (p =0.0391).
+Evaluating the discrimination capability of the animals in CTL, we observed that after the water series, the first trial with banana is significantly different from the previous one (p= 0.002), highlighting the ability to discriminate the new odor. This difference was observed also between third banana and first D-carvone exposure (p=0.002) and between the two enantiomers D- and L-carvone (p= 0.0313). After the mice exposure to O3, we noticed this difference only between third H2O and first banana exposures (p=0.0078). The differences regarding discrimination for the other non-social odors test done were not significant.
+3.1.4. TH-GFP+/C57Bl6J mice: social odors
+Evaluating the effect of O3 for social odors, as shown in
+Fig. 2
+B, the statistical analysis displays that there are no significant differences before and after O3 exposure in C57Bl6J mice.
+Analyzing the habituation phenomena for the social odors in CTL, it appears that there are differences between: first/second same sex (p=0.0098), second/third same sex (p= 0.0273), first/second opposite sex (p=0.0039), and third/fourth opposite sex (p= 0,0156). On the other hand, after O3 exposure we noticed less predictable significant statistical differences: first/second same sex (p=0.0137), third/fourth same sex (p= 0.0156) and second/third opposite sex (p=0,0273).
+Assessing the discrimination capability, we found that the first stimulus of opposite sex is significantly different from the last test for the same sex odor in CTL (p =0.0039) and after O3 exposure (p=0.0078). This result highlights that the ability to discriminate between two different social odors persists also after O3 exposure.
+Taken together the results of the olfactory habituation/dishabituation test performed on Swiss Webster and TH-GFP+/C57Bl6J mice tested for social or non-social odors in CTL and after O3 exposure, shown that in Swiss Webster mice there are no changes in detection and discrimination of non-social odorants upon O3 exposure but altered detection of SO same sex and reduced discrimination of SO same sex vs SO opposite sex. On the other hand, TH-GFP+/C57Bl6J mice show a reduced ability to detect banana odor after O3 exposure and altered discrimination of D-carvone from Banana, without impairment in the ability to detect or discriminate social odors.
+3.2. Electrophysiological experiment on spontaneous firing activity of OB DA cells of TH-GFP+ transgenic animals
+The results in
+Fig.- 1
+,
+Fig.- 2
+indicate that O3 reduces the behavioral responses to some of the odors we tested. We next tested the possibility that O3 alters functional properties of cells in the olfactory system. We focused on cells that release DA in the olfactory system because olfactory discrimination is hampered in mice lacking functional DA receptors or transporters (Taylor et al., 2009; Tillerson et al., 2006; Wilson and Sullivan, 1995). For this purpose, we took advantage of our ability to locate, and record electrical activity of these cells the PG-DA interneuron in the OB. As shown in
+Figs. 3
+A and
+3
+C, these cells normally spike at a rate that is slow (i.e., less than 10 spikes per second) but constant (i.e., with little change in interspike interval, i.e., the time elapsing between successive spikes). As shown in
+Figs. 3
+B,
+3
+C, and
+3
+D, PG-DA cells in the mice exposed to O3 fired spiked less frequently (in spikes/second, averaged over recording times of several seconds) and at conspicuously irregular intervals (i.e., showing a wide range of changes in the interspike interval.
+Fig. 3
+D shows that the interspike interval of spikes was 99.5 ± 33 msec (mean ± SEM, n=21 PG-DA cells) in OB slices prepared from control mice (n=6), and 416.2 ± 280 msec (mean ± SEM, n=15 PG-DA cells) in the OB slices prepared from mice exposed to O3 (n=5). The difference between these interspike intervals was significantly significant (p<0.001).
+Download: Download high-res image (247KB)
+Download: Download full-size image
+Fig.- 3. Decrease of spontaneous activity after O3 exposure. (A) Example of spontaneous activity of DA cells of un-exposed and (B) O3-exposed mice. (C) The histograms represent the comparison between the average numbers of spikes per second (frequency in Hz) in control and O3-exposed mice. (D) The inter-event time (the time between a spike and the next one) for the control and O3-exposed mice. In C and D, the results are presented as mean ± SEM of n=21cells from CTL mice and n=15 cells from O3-exposed animals. *p <0,05; *** p<0,001.
+Because DA interneurons are known to spike spontaneously in the absence of synaptic inputs (
+Pignatelli et al., 2005
+,
+Puopolo et al., 2005
+), changes in spontaneous spike firing could result from changes in the electrical properties of the spiking cell. We therefore tested whether the following properties of DA-OB cells differed in control and O3-exposed mice: the rheobase, chronaxie, membrane resistance and the resting membrane potential.
+Rheobase is the minimum current intensity (pA) that can evoke an action potential (
+Ashley et al., 2005
+). The mean rheobase values in our recordings were 11.32 ± 0.85 pA in DA cells (n=36) of control mice (n=5) and 16.64 ± 0.93 pA, in DA cells (n=28) of O3-exposed mice (n=5). The difference between these rheobase values was statistically significant (Unpaired t-tests and one- way ANOVA; p<0.05;
+Fig. 4
+A).
+Download: Download high-res image (158KB)
+Download: Download full-size image
+Fig.-4. Difference of excitability parameters after O3 exposure. (A) (B) Change of rheobase and chronaxia observed in CTL cells (n=36) and cells of O3-exposed animals (n=28). (C) (D) Difference of membrane resistance and resting potential in CTL cells (n=37) and cells of O3-exposed animals (n=28). The results are presented as mean ± SEM of the different analyzed cells; *p <0,05; ** p<0,01; *** p<0,001.
+The chronaxia represents the minimum duration (ms) of a stimulus that triggers an action potential, when applied at double the intensity of the rheobase value (
+Golowasch et al., 2009
+). The mean chronaxia values in our recordings were 43.11 ± 3.36 msec in DA cells (n=28) of control mice (n=6) and 29.6 ± 0.25 msec, in DA cells (n=22) of O3-exposed mice (n=5). The difference between these chronaxia values was statistically significant (p<0.05;
+Fig. 4
+B).
+In addition, the membrane resistance from 37 control cells and 28 cells of O3-exposed mice was also analyzed, and a statistically significant difference was observed between the two groups: 1.21 ± 0.12 GΩ and 0.65 ± 0.08 GΩ respectively. Finally, the resting potential was considered, and the results showed that cells from O3-exposed mice were more depolarized than CTL cells (n= 28, -43.39 mV ± 2.25 vs n=36, -50.94 mV ± 1.68 p< 0.01).
+Unpaired t-tests and one- way ANOVA were used for the statistical analysis testing, using Graph Pad Prism software.
+4. Discussion and conclusion
+The principal findings of the present study are that acute exposure to noxious concentration of O3 reduces the ability of freely moving adult mice to recognize and discriminate odors, and also reduces the excitability of mouse olfactory bulb neurons. Below, we discuss how these results compare with those of previous behavioral and morphological studies.
+Our findings that O3 hampers the ability of C57BL/6 J mice to discriminate non-social odors, and of Swiss Webster mice to discriminate male and female urine, are in concert with previously reported effects of O3 on human, rat, and insect olfactory behavior.
+Specifically, O3 was found to reduce sensitivity of healthy, young, male humans to butyl alcohol and acetic acid (
+Prah and Benignus, 1979
+) of normosmic humans to n-butanol (
+Muttray et al., 2018
+), and of wasp and bumblebee pollinators to volatile organic compounds of plants (
+Vanderplanck et al., 2021
+). O3 has also been found to increase the time that rats use to search for buried food (
+Yan et al., 2020
+), possibly reflecting impairment of olfaction. Notably, our behavioral results are consistent with observations by other authors that suggested deterioration of olfactory memory following daily 4-hour exposures to O3 for 60 days (Guevara-Guzman et al., 2009), and that changes in olfactory bulb granule cell morphology fade within 15 days after only brief exposure to O3 (Colin-Barenque et al., 1999; Colin-Barenque et al., 2005).
+Our findings that O3 differentially affects the olfactory perception of social odors by C57BL/6 J and Swiss Webster mice suggest that white mice are more sensitive to O3. This agrees with previous reports that pigmented mice are more resistant to O3 than white strains (
+Gardi and Valacchi, 2012
+,
+Goldstein et al., 1973
+,
+Kleeberger et al., 1990
+,
+Prows et al., 1997
+). A previous study of mice proposed that “different genetic and epigenetic factors are implicated in individual susceptibility to air pollution” (
+Prows et al., 1997
+). Whether genetics factor into person-to-person susceptibility differences in respiratory tract damage by O3 remains to be tested.
+Our electrophysiological recordings were a natural follow-up to findings of impaired olfactory discrimination in mice lacking functional DA receptors or transporters (Taylor et al., 2009; Tillerson et al., 2006; Wilson and Sullivan, 1995). The latter results predict that olfactory discrimination would be hampered by reduced DA release in the olfactory system. Fully consistent with this, we found three effects of O3 on interneurons that are a source of DA in the olfactory system, namely significant increases the rheobase current required to elicit an action potential (
+Fig. 4
+A), decreases in membrane resistance (
+Fig. 4
+C), and decreases in spontaneous action potential firing (
+Fig. 3
+). The latter result implies that the decrease in the chronaxia time to reach action potential threshold (
+Fig. 4
+B) is outweighed by the increase in rheobase and the decrease in membrane resistance. The reduction of resting membrane potential in O3 could be associated whit an increase in cationic conductance even the nature of this current(s) is still to be identified. Altogether, these effects predict that O3 will decrease DA release, and like the loss of DA receptors or transporters, impair olfactory discrimination.
+Although we focused on PG-DA cells based on the effects of reduced DA receptors and transporters, previous studies have found a wide range of other effects of O3. These include a significant loss of dendritic spines on primary and secondary dendrites of granule cells of the olfactory bulb, and cytological damage (Colin-Barenque et al., 1999; Colin-Barenque et al., 2005), and lipid peroxidation, morphological alterations, loss of fibers and cell death of dopaminergic neurons in substantia nigra and striatum (
+Pereyra-Munoz et al., 2006
+). Further studies will also need to test whether O3 alters PG-DA cell function by changing synaptic inputs to them, and whether O3 alters the integrity and function of other olfactory bulb cell types (epithelial, sensory neurons, blood vessels, etc.) and structural components (cilia, the mucus that covers the cilia, and olfactory receptors in the olfactory epithelium). During inhalation, odorants dissolve in the mucus layer and then bind to the cilia receptors (
+Pereyra-Munoz et al., 2006
+). It is well known that O3 reacts with lipids and proteins inducing both lipid peroxidation and protein modification, altering their structure and functional properties (Pryor et al., 1995). A growing set of evidence suggested that inhaled O3 can also reach the central nervous system (
+Alhussaini et al., 2023
+,
+Pereyra-Munoz et al., 2006
+; Thomson, 2019). It should be taken into consideration that in addition to the effects of O3 on the olfactory system discussed here, it is possible that respiratory, locomotor and motivational activity may also be negatively influenced during O3 exposure as has been reported in previous works in frog and lizard model (
+Dohm et al., 2008
+,
+Mautz and Dohm, 2004
+). Therefore, additional studies might also test whether O3 damages cells and structures in the olfactory system at higher levels than the olfactory bulb.
+In conclusion, the results of the present study demonstrate for the first time the effects of O3 on the dopaminergic cells of the olfactory bulb. O3 markedly altered the excitability of PG-DA cells, with irregularities in the frequency of spontaneous discharge, resting membrane potential, impedance input, chronaxie and rheobase. Furthermore, the olfactory tests performed indicated a deterioration of olfactory perception following exposure to O3 with differences between different mice strains. Future studies on the harmful effects of O3 in specific populations, caused by this air pollutant, and how these effects contribute to neurodegenerative diseases in humans and other animal species, will be desirable.
+Funding
+This work was funded by MIUR (PRIN 2009 Overheads - CUP F71J1100015000), by University of Ferrara (2020-FAR.L-PA_00, 2022-FAR.L-BM_020).
+CRediT authorship contribution statement
+Angela PIGNATELLI: Writing – review & editing, Writing – original draft, Supervision, Methodology, Funding acquisition, Data curation, Conceptualization. Mascia Benedusi: Writing – original draft, Supervision, Funding acquisition, Formal analysis, Data curation, Conceptualization. Giuseppe Valacchi: Writing – review & editing, Writing – original draft, Funding acquisition, Formal analysis, Data curation, Conceptualization. Mario Barbieri: Writing – original draft, Formal analysis, Data curation. Alessandra Pecorelli: Writing – original draft, Supervision, Data curation, Conceptualization.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+The authors thank Prof. A.T. Ishida (University of California, Davis, CA, USA), Prof. O. Belluzzi and Prof. S. Capsoni (University of Ferrara) for their valuable comments and discussions on drafts of the text and Dr. F. Casciano and A. Margutti for technical assistance during the experiments.
+Data availability
+All data presented in this study are included in the article
+References
+Agathokleous et al., 2022
+E. Agathokleous, Z. Feng, J. Penuelas
+Ozone pollution disrupts plant-pollinator systems
+Trends Ecol. Evol., 37 (11) (2022), pp. 939-941
+View PDF
+View article
+View in Scopus
+Google Scholar
+Ajmani et al., 2016
+G.S. Ajmani, H.H. Suh, J.M. Pinto
+Effects of Ambient Air Pollution Exposure on Olfaction: A Review
+Environ. Health Perspect., 124 (11) (2016), pp. 1683-1693
+Crossref
+View in Scopus
+Google Scholar
+Alhussaini et al., 2023
+A.R. Alhussaini, M.R. Aljabri, Z.T. Al-Harbi, G. Abdulrahman Almohammadi, T.M. Al-Harbi, S. Bashir
+Air Pollution and Its Adverse Effects on the Central Nervous System
+Cureus 15(5), e38927 (2023)
+Google Scholar
+Arakawa et al., 2008
+H. Arakawa, D.C. Blanchard, K. Arakawa, C. Dunlap, R.J. Blanchard
+Scent marking behavior as an odorant communication in mice
+Neurosci Biobehav Rev, 32 (7) (2008), pp. 1236-1248
+View PDF
+View article
+View in Scopus
+Google Scholar
+Arbuckle et al., 2015
+E.P. Arbuckle, G.D. Smith, M.C. Gomez, J.N. Lugo
+Testing for odor discrimination and habituation in mice
+J Vis Exp(99) (2015), Article e52615
+View in Scopus
+Google Scholar
+Ashley et al., 2005
+Z. Ashley, H. Sutherland, H. Lanmuller, E. Unger, F. Li, W. Mayr, H. Kern, J.C. Jarvis, S. Salmons
+Determination of the chronaxie and rheobase of denervated limb muscles in conscious rabbits
+Artif. Organs, 29 (3) (2005), pp. 212-215
+Crossref
+View in Scopus
+Google Scholar
+Attems et al., 2015
+J. Attems, L. Walker, K.A. Jellinger
+Olfaction and Aging: A Mini-Review
+Gerontology, 61 (6) (2015), pp. 485-490
+Crossref
+View in Scopus
+Google Scholar
+Babadjouni et al., 2017
+R.M. Babadjouni, D.M. Hodis, R. Radwanski, R. Durazo, A. Patel, Q. Liu, W.J. Mack
+Clinical effects of air pollution on the central nervous system; a review
+J. Clin. Neurosci., 43 (2017), pp. 16-24
+View PDF
+View article
+View in Scopus
+Google Scholar
+Bello-Medina et al., 2022
+P.C. Bello-Medina, E. Rodriguez-Martinez, R.A. Prado-Alcala, S. Rivas-Arancibia
+Ozone pollution, oxidative stress, synaptic plasticity, and neurodegeneration
+Neurologia (Engl Ed), 37 (4) (2022), pp. 277-286
+View PDF
+View article
+View in Scopus
+Google Scholar
+Benedusi et al., 2021
+M. Benedusi, E. Frigato, C. Bertolucci, G. Valacchi
+Circadian Deregulation as Possible New Player in Pollution-Induced Tissue Damage
+Atmosphere, 12 (1) (2021)
+Google Scholar
+Block and Calderon-Garciduenas, 2009
+M.L. Block, L. Calderon-Garciduenas
+Air pollution: mechanisms of neuroinflammation and CNS disease
+Trends Neurosci, 32 (9) (2009), pp. 506-516
+View PDF
+View article
+View in Scopus
+Google Scholar
+Bonzano et al., 2016
+S. Bonzano, S. Bovetti, C. Gendusa, P. Peretto, S. De Marchis
+Adult Born Olfactory Bulb Dopaminergic Interneurons: Molecular Determinants and Experience-Dependent Plasticity
+Front. Neurosci., 10 (2016), p. 189
+View in Scopus
+Google Scholar
+Buck and Axel, 1991
+L. Buck, R. Axel
+A novel multigene family may encode odorant receptors: a molecular basis for odor recognition
+Cell, 65 (1) (1991), pp. 175-187
+View PDF
+View article
+View in Scopus
+Google Scholar
+Calderon-Garciduenas et al., 2016
+L. Calderon-Garciduenas, E. Leray, P. Heydarpour, R. Torres-Jardon, J. Reis
+Air pollution, a rising environmental risk factor for cognition, neuroinflammation and neurodegeneration: The clinical impact on children and beyond
+Rev. Neurol. (Paris), 172 (1) (2016), pp. 69-80
+View PDF
+View article
+View in Scopus
+Google Scholar
+Calderon-Garciduenas et al., 2003
+L. Calderon-Garciduenas, R.R. Maronpot, R. Torres-Jardon, C. Henriquez-Roldan, R. Schoonhoven, H. Acuna-Ayala, A. Villarreal-Calderon, J. Nakamura, R. Fernando, W. Reed, B. Azzarelli, J.A. Swenberg
+DNA damage in nasal and brain tissues of canines exposed to air pollutants is associated with evidence of chronic brain inflammation and neurodegeneration
+Toxicol. Pathol., 31 (5) (2003), pp. 524-538
+Crossref
+View in Scopus
+Google Scholar
+Canella et al., 2023
+R. Canella, M. Benedusi, A. Vallese, A. Pecorelli, A. Guiotto, F. Ferrara, G. Rispoli, F. Cervellati, G. Valacchi
+The role of potassium current in the pulmonary response to environmental oxidative stress
+Arch Biochem Biophys, 737 (2023), Article 109534
+View PDF
+View article
+View in Scopus
+Google Scholar
+Capsoni et al., 2021
+S. Capsoni, A. Fogli Iseppe, F. Casciano, A. Pignatelli
+Unraveling the Role of Dopaminergic and Calretinin Interneurons in the Olfactory Bulb
+Front Neural Circuits, 15 (2021), Article 718221
+View in Scopus
+Google Scholar
+Casciano et al., 2023
+F. Casciano, N. Bianchi, M. Borin, V. Vellani, P. Secchiero, C.M. Bergamini, S. Capsoni, A. Pignatelli
+Characterization by Gene Expression Analysis of Two Groups of Dopaminergic Cells Isolated from the Mouse Olfactory Bulb
+Biology (Basel), 12 (3) (2023)
+Google Scholar
+Casciano et al., 2024
+F. Casciano, E. Zauli, C. Celeghini, L. Caruso, A. Gonelli, G. Zauli, A. Pignatelli
+Retinal Alterations Predict Early Prodromal Signs of Neurodegenerative Disease
+Int. J. Mol. Sci., 25 (3) (2024)
+Google Scholar
+Cervellati et al., 2020
+F. Cervellati, B. Woodby, M. Benedusi, F. Ferrara, A. Guiotto, G. Valacchi
+Evaluation of oxidative damage and Nrf2 activation by combined pollution exposure in lung epithelial cells
+Environ. Sci. Pollut. Res. Int, 27 (25) (2020), pp. 31841-31853
+Crossref
+View in Scopus
+Google Scholar
+Cleland et al., 2002
+T.A. Cleland, A. Morse, E.L. Yue, C. Linster
+Behavioral models of odor similarity
+Behav. Neurosci., 116 (2) (2002), pp. 222-231
+View in Scopus
+Google Scholar
+Cross et al., 2002
+C.E. Cross, G. Valacchi, B. Schock, M. Wilson, S. Weber, J. Eiserich, A. van der Vliet
+Environmental oxidant pollutant effects on biologic systems: a focus on micronutrient antioxidant-oxidant interactions
+Am J Respir Crit Care Med, 166 (12 Pt 2) (2002), pp. S44-S50
+Crossref
+View in Scopus
+Google Scholar
+Dohm et al., 2008
+M.R. Dohm, W.J. Mautz, R.E. Doratt, J.R. Stevens
+Ozone exposure affects feeding and locomotor behavior of adult Bufo marinus
+Environ Toxicol Chem, 27 (5) (2008), pp. 1209-1216
+Crossref
+View in Scopus
+Google Scholar
+Esposito et al., 2022
+F. Esposito, M. Cirillo, R. De Micco, G. Caiazzo, M. Siciliano, A.G. Russo, C. Monari, N. Coppola, G. Tedeschi, A. Tessitore
+Olfactory loss and brain connectivity after COVID-19
+Hum. Brain Mapp., 43 (5) (2022), pp. 1548-1560
+Crossref
+View in Scopus
+Google Scholar
+Ferrara et al., 2021
+F. Ferrara, E. Pambianchi, B. Woodby, N. Messano, J.P. Therrien, A. Pecorelli, R. Canella, G. Valacchi
+Evaluating the effect of ozone in UV induced skin damage
+Toxicol. Lett., 338 (2021), pp. 40-50
+View PDF
+View article
+View in Scopus
+Google Scholar
+Fine and Riera, 2019
+L.G. Fine, C.E. Riera
+Sense of Smell as the Central Driver of Pavlovian Appetite Behavior in Mammals
+Front. Physiol., 10 (2019), p. 1151
+View in Scopus
+Google Scholar
+Fuks et al., 2019
+K.B. Fuks, B. Woodby, G. Valacchi
+Skin damage by tropospheric ozone
+Hautarzt (2019)
+Google Scholar
+Gardi and Valacchi, 2012
+C. Gardi, G. Valacchi
+Cigarette smoke and ozone effect on murine inflammatory responses
+Ann. N. Y. Acad. Sci., 1259 (2012), pp. 104-111
+Crossref
+View in Scopus
+Google Scholar
+Goldstein et al., 1973
+B.D. Goldstein, L.Y. Lai, S.R. Ross, R. Cuzzi-Spada
+Susceptibility of inbred mouse strains to ozone
+Arch Environ Health, 27 (6) (1973), pp. 412-413
+Crossref
+View in Scopus
+Google Scholar
+Golowasch et al., 2009
+J. Golowasch, G. Thomas, A.L. Taylor, A. Patel, A. Pineda, C. Khalil, F. Nadim
+Membrane capacitance measurements revisited: dependence of capacitance value on measurement method in nonisopotential neurons
+J. Neurophysiol., 102 (4) (2009), pp. 2161-2175
+Crossref
+View in Scopus
+Google Scholar
+Groves and Thompson, 1970
+P.M. Groves, R.F. Thompson
+Habituation: a dual-process theory
+Psychol. Rev., 77 (5) (1970), pp. 419-450
+Crossref
+View in Scopus
+Google Scholar
+Guo et al., 2022
+C. Guo, S. Lv, Y. Liu, Y. Li
+Biomarkers for the adverse effects on respiratory system health associated with atmospheric particulate matter exposure
+J. Hazard. Mater., 421 (2022), Article 126760
+View PDF
+View article
+View in Scopus
+Google Scholar
+Kanninen et al., 2020
+K.M. Kanninen, R. Lampinen, L.M. Rantanen, L. Odendaal, P. Jalava, S. Chew, A.R. White
+Olfactory cell cultures to investigate health effects of air pollution exposure: Implications for neurodegeneration
+Neurochem. Int., 136 (2020), Article 104729
+View PDF
+View article
+View in Scopus
+Google Scholar
+Kashyap and Shukla, 2019
+K. Kashyap, R. Shukla
+Drug Delivery and Targeting to the Brain Through Nasal Route: Mechanisms, Applications and Challenges
+Curr. Drug Del., 16 (10) (2019), pp. 887-901
+Crossref
+View in Scopus
+Google Scholar
+Kleeberger et al., 1990
+S.R. Kleeberger, D.J. Bassett, G.J. Jakab, R.C. Levitt
+A genetic model for evaluation of susceptibility to ozone-induced inflammation
+Am. J. Physiol., 258 (6 Pt 1) (1990), pp. L313-L320
+Crossref
+View in Scopus
+Google Scholar
+Kosaka et al., 2020
+T. Kosaka, A. Pignatelli, K. Kosaka
+Heterogeneity of tyrosine hydroxylase expressing neurons in the main olfactory bulb of the mouse
+Neurosci. Res., 157 (2020), pp. 15-33
+View PDF
+View article
+View in Scopus
+Google Scholar
+Larson et al., 2004
+S.D. Larson, E.S. Schelegle, W.F. Walby, L.J. Gershwin, M.V. Fanuccihi, M.J. Evans, J.P. Joad, B.K. Tarkington, D.M. Hyde, C.G. Plopper
+Postnatal remodeling of the neural components of the epithelial-mesenchymal trophic unit in the proximal airways of infant rhesus monkeys exposed to ozone and allergen
+Toxicol Appl Pharmacol, 194 (3) (2004), pp. 211-220
+View PDF
+View article
+View in Scopus
+Google Scholar
+Lazarini et al., 2014
+F. Lazarini, M.M. Gabellec, C. Moigneu, F. de Chaumont, J.C. Olivo-Marin, P.M. Lledo
+Adult neurogenesis restores dopaminergic neuronal loss in the olfactory bulb
+J. Neurosci., 34 (43) (2014), pp. 14430-14442
+View in Scopus
+Google Scholar
+Mandairon et al., 2009
+N. Mandairon, S. Sultan, N. Rey, F. Kermen, M. Moreno, G. Busto, V. Farget, B. Messaoudi, M. Thevenet, A. Didier
+A computer-assisted odorized hole-board for testing olfactory perception in mice
+J. Neurosci. Methods, 180 (2) (2009), pp. 296-303
+View PDF
+View article
+View in Scopus
+Google Scholar
+Manisalidis et al., 2020
+I. Manisalidis, E. Stavropoulou, A. Stavropoulos, E. Bezirtzoglou
+Environmental and Health Impacts of Air Pollution: A Review
+Front Public Health, 8 (2020), p. 14
+View in Scopus
+Google Scholar
+Markozannes et al., 2022
+G. Markozannes, K. Pantavou, E.C. Rizos, O. Sindosi, C. Tagkas, M. Seyfried, I.J. Saldanha, N. Hatzianastassiou, G.K. Nikolopoulos, E. Ntzani
+Outdoor air quality and human health: An overview of reviews of observational studies
+Environ Pollut, 306 (2022), Article 119309
+View PDF
+View article
+View in Scopus
+Google Scholar
+Matsushita et al., 2002
+N. Matsushita, H. Okada, Y. Yasoshima, K. Takahashi, K. Kiuchi, K. Kobayashi
+Dynamics of tyrosine hydroxylase promoter activity during midbrain dopaminergic neuron development
+J. Neurochem., 82 (2) (2002), pp. 295-304
+View in Scopus
+Google Scholar
+Mautz and Dohm, 2004
+W.J. Mautz, M.R. Dohm
+Respiratory and behavioral effects of ozone on a lizard and a frog
+Comp Biochem Phys A, 139 (3) (2004), pp. 371-377
+View PDF
+View article
+View in Scopus
+Google Scholar
+Moser et al., 2022
+A.Y. Moser, W.Y. Brown, L.A. Bizo
+Use of a habituation-dishabituation test to determine canine olfactory sensitivity
+J. Exp. Anal. Behav., 118 (2) (2022), pp. 316-326
+Crossref
+View in Scopus
+Google Scholar
+Muttray et al., 2018
+A. Muttray, J. Gosepath, F. Schmall, J. Brieger, O. Mayer-Popken, M. Melia, S. Letzel
+An acute exposure to ozone impairs human olfactory functioning
+Environ. Res., 167 (2018), pp. 42-50
+View PDF
+View article
+View in Scopus
+Google Scholar
+Nuvolone et al., 2018
+D. Nuvolone, D. Petri, F. Voller
+The effects of ozone on human health
+Environ. Sci. Pollut. Res. Int, 25 (9) (2018), pp. 8074-8088
+Crossref
+View in Scopus
+Google Scholar
+Oummadi et al., 2020
+A. Oummadi, G. Meyer-Dilhet, A. Bery, A. Aubert, P. Barone, S. Mortaud, G.J. Guillemin, A. Menuet, A. Laugeray
+3Rs-based optimization of mice behavioral testing: The habituation/dishabituation olfactory test
+J. Neurosci. Methods, 332 (2020), Article 108550
+View PDF
+View article
+View in Scopus
+Google Scholar
+Pavlov, 2010
+P.I. Pavlov
+Conditioned reflexes: An investigation of the physiological activity of the cerebral cortex
+Ann Neurosci, 17 (3) (2010), pp. 136-141
+Google Scholar
+Pereyra-Munoz et al., 2006
+N. Pereyra-Munoz, C. Rugerio-Vargas, M. Angoa-Perez, G. Borgonio-Perez, S. Rivas-Arancibia
+Oxidative damage in substantia nigra and striatum of rats chronically exposed to ozone
+J. Chem. Neuroanat., 31 (2) (2006), pp. 114-123
+View PDF
+View article
+View in Scopus
+Google Scholar
+Perez-Villalba et al., 2015
+A. Perez-Villalba, M.J. Palop, F. Pérez-Sánchez, I. Fariñas
+Assessment of Olfactory Behavior in Mice: Odorant Detection and Habituation-Dishabituation Tests
+Bio-protocol, 5 (13) (2015), Article e1518
+Google Scholar
+Pignatelli et al., 2009
+A. Pignatelli, J.B. Ackman, D. Vigetti, A.P. Beltrami, S. Zucchini, O. Belluzzi
+A potential reservoir of immature dopaminergic replacement neurons in the adult mammalian olfactory bulb
+Pflugers Arch, 457 (4) (2009), pp. 899-915
+Crossref
+View in Scopus
+Google Scholar
+Pignatelli and Belluzzi, 2017
+A. Pignatelli, O. Belluzzi
+Dopaminergic Neurones in the Main Olfactory Bulb: An Overview from an Electrophysiological Perspective
+Front. Neuroanat., 11 (2017), p. 7
+View in Scopus
+Google Scholar
+Pignatelli et al., 2005
+A. Pignatelli, K. Kobayashi, H. Okano, O. Belluzzi
+Functional properties of dopaminergic neurones in the mouse olfactory bulb
+J. Physiol., 564 (Pt 2) (2005), pp. 501-514
+Crossref
+View in Scopus
+Google Scholar
+Prah and Benignus, 1979
+J.D. Prah, V.A. Benignus
+Decrements in olfactory sensitivity due to ozone exposure
+Percept. Mot. Skills, 48 (1) (1979), pp. 317-318
+Crossref
+View in Scopus
+Google Scholar
+Price et al., 2020
+C.J. Price, P.B. Banks, S. Brown, M.C. Latham, A.D.M. Latham, R.P. Pech, G.L. Norbury
+Invasive mammalian predators habituate to and generalize avian prey cues: a mechanism for conserving native prey
+Ecol. Appl., 30 (8) (2020), Article e02200
+View in Scopus
+Google Scholar
+Prows et al., 1997
+D.R. Prows, H.G. Shertzer, M.J. Daly, C.L. Sidman, G.D. Leikauf
+Genetic analysis of ozone-induced acute lung injury in sensitive and resistant strains of mice
+Nat. Genet., 17 (4) (1997), pp. 471-474
+View in Scopus
+Google Scholar
+Puopolo et al., 2005
+M. Puopolo, B.P. Bean, E. Raviola
+Spontaneous activity of isolated dopaminergic periglomerular cells of the main olfactory bulb
+J. Neurophysiol., 94 (5) (2005), pp. 3618-3627
+Crossref
+View in Scopus
+Google Scholar
+Qiu et al., 2014
+Q. Qiu, A. Scott, H. Scheerer, N. Sapkota, D.K. Lee, L. Ma, C.R. Yu
+Automated analyses of innate olfactory behaviors in rodents
+PLoS One, 9 (4) (2014), Article e93468
+Crossref
+View in Scopus
+Google Scholar
+Ramirez-Mendoza et al., 2024
+A.A. Ramirez-Mendoza, M.L. Mendoza-Magana, M.A. Ramirez-Herrera, Z.H. Hernandez-Nazara, J.A. Dominguez-Rosales
+Nitrooxidative Stress and Neuroinflammation Caused by Air Pollutants Are Associated with the Biological Markers of Neurodegenerative Diseases
+Antioxidants (Basel), 13 (3) (2024)
+Google Scholar
+Rankin et al., 2009
+C.H. Rankin, T. Abrams, R.J. Barry, S. Bhatnagar, D.F. Clayton, J. Colombo, G. Coppola, M.A. Geyer, D.L. Glanzman, S. Marsland, F.K. McSweeney, D.A. Wilson, C.F. Wu, R.F. Thompson
+Habituation revisited: an updated and revised description of the behavioral characteristics of habituation
+Neurobiol Learn Mem, 92 (2) (2009), pp. 135-138
+View PDF
+View article
+View in Scopus
+Google Scholar
+Santos et al., 2021
+U.P. Santos, M.A. Arbex, A.L.F. Braga, R.F. Mizutani, J.E.D. Cancado, M. Terra-Filho, J.M. Chatkin
+Environmental air pollution: respiratory effects
+J. Bras. Pneumol., 47 (1) (2021), Article e20200267
+Google Scholar
+Sarafoleanu et al., 2009
+C. Sarafoleanu, C. Mella, M. Georgescu, C. Perederco
+The importance of the olfactory sense in the human behavior and evolution
+J. Med. Life, 2 (2) (2009), pp. 196-198
+View in Scopus
+Google Scholar
+Sato et al., 2015
+T. Sato, R. Kobayakawa, K. Kobayakawa, M. Emura, S. Itohara, M. Kizumi, H. Hamana, A. Tsuboi, J. Hirono
+Supersensitive detection and discrimination of enantiomers by dorsal olfactory receptors: evidence for hierarchical odour coding
+Sci. Rep., 5 (2015)
+Google Scholar
+Sawamoto et al., 2001
+K. Sawamoto, N. Nakao, K. Kobayashi, N. Matsushita, H. Takahashi, K. Kakishita, A. Yamamoto, T. Yoshizaki, T. Terashima, F. Murakami, T. Itakura, H. Okano
+Visualization, direct isolation, and transplantation of midbrain dopaminergic neurons
+Proc. Natl. Acad. Sci. U. S. A., 98 (11) (2001), pp. 6423-6428
+View in Scopus
+Google Scholar
+Schafer et al., 2021
+L. Schafer, V.A. Schriever, I. Croy
+Human olfactory dysfunction: causes and consequences
+Cell Tissue Res, 383 (1) (2021), pp. 569-579
+Crossref
+View in Scopus
+Google Scholar
+Sekiguchi et al., 1991
+R. Sekiguchi, G. Wolterink, J.M. van Ree
+Short duration of retroactive facilitation of social recognition in rats
+Physiol Behav, 50 (6) (1991), pp. 1253-1256
+View PDF
+View article
+View in Scopus
+Google Scholar
+Singh et al., 2023
+S.A. Singh, S. Suresh, C. Vellapandian
+Ozone-induced neurotoxicity: In vitro and in vivo evidence
+Ageing Res Rev, 91 (2023), Article 102045
+Google Scholar
+Smyth and Georas, 2021
+T. Smyth, S.N. Georas
+Effects of ozone and particulate matter on airway epithelial barrier structure and function: a review of in vitro and in vivo studies
+Inhal. Toxicol., 33 (5) (2021), pp. 177-192
+Crossref
+View in Scopus
+Google Scholar
+Spinella, 2002
+M. Spinella
+A relationship between smell identification and empathy
+Int. J. Neurosci., 112 (6) (2002), pp. 605-612
+View in Scopus
+Google Scholar
+Sticozzi et al., 2018
+C. Sticozzi, A. Pecorelli, A. Romani, G. Belmonte, F. Cervellati, E. Maioli, M.A. Lila, C. Cervellati, G. Valacchi
+Tropospheric ozone affects SRB1 levels via oxidative post-translational modifications in lung cells
+Free Radic. Biol. Med., 126 (2018), pp. 287-295
+View PDF
+View article
+View in Scopus
+Google Scholar
+Takahashi and Tsuboi, 2017
+H. Takahashi, A. Tsuboi
+Olfactory Habituation-dishabituation Test (Mouse)
+Bio Protoc, 7 (5) (2017), Article e2154
+Google Scholar
+Valacchi et al., 2004
+G. Valacchi, E. Pagnin, A.M. Corbacho, E. Olano, P.A. Davis, L. Packer, C.E. Cross
+In vivo ozone exposure induces antioxidant/stress-related responses in murine lung and skin
+Free Radic. Biol. Med., 36 (5) (2004), pp. 673-681
+View PDF
+View article
+View in Scopus
+Google Scholar
+Valacchi et al., 2003
+G. Valacchi, E. Pagnin, T. Okamoto, A.M. Corbacho, E. Olano, P.A. Davis, A. van der Vliet, L. Packer, C.E. Cross
+Induction of stress proteins and MMP-9 by 0.8 ppm of ozone in murine skin
+Biochem Biophys Res Commun, 305 (3) (2003), pp. 741-746
+View PDF
+View article
+View in Scopus
+Google Scholar
+Valdez et al., 2023
+M.C. Valdez, D.L. Freeborn, J.M. Valdez, A.R. Henriquez, S.J. Snow, T.W. Jackson, P.R.S. Kodavanti, U.P. Kodavanti
+Influence of Mild Chronic Stress and Social Isolation on Acute Ozone-Induced Alterations in Stress Biomarkers and Brain-Region-Specific Gene Expression in Male Wistar-Kyoto Rats
+Antioxidants (Basel), 12 (11) (2023)
+Google Scholar
+Vancza et al., 2009
+E.M. Vancza, K. Galdanes, A. Gunnison, G. Hatch, T. Gordon
+Age, strain, and gender as factors for increased sensitivity of the mouse lung to inhaled ozone
+Toxicol. Sci., 107 (2) (2009), pp. 535-543
+Crossref
+View in Scopus
+Google Scholar
+Vanderplanck et al., 2021
+M. Vanderplanck, B. Lapeyre, M. Brondani, M. Opsommer, M. Dufay, M. Hossaert-McKey, M. Proffit
+Ozone Pollution Alters Olfaction and Behavior of Pollinators
+Antioxidants (Basel), 10 (5) (2021)
+Google Scholar
+Wersinger et al., 2007
+S.R. Wersinger, H.K. Caldwell, L. Martinez, P. Gold, S.B. Hu, W.S. Young 3rd
+Vasopressin 1a receptor knockout mice have a subtle olfactory deficit but normal aggression
+Genes Brain Behav, 6 (6) (2007), pp. 540-551
+View in Scopus
+Google Scholar
+Woodley and Baum, 2003
+S.K. Woodley, M.J. Baum
+Effects of sex hormones and gender on attraction thresholds for volatile anal scent gland odors in ferrets
+Horm Behav, 44 (2) (2003), pp. 110-118
+View PDF
+View article
+View in Scopus
+Google Scholar
+Wrenn et al., 2004
+C.C. Wrenn, J.W. Kinney, L.K. Marriott, A. Holmes, A.P. Harris, M.C. Saavedra, G. Starosta, C.E. Innerfield, A.S. Jacoby, J. Shine, T.P. Iismaa, G.L. Wenk, J.N. Crawley
+Learning and memory performance in mice lacking the GAL-R1 subtype of galanin receptor
+Eur. J. Neurosci., 19 (5) (2004), pp. 1384-1396
+View in Scopus
+Google Scholar
+Yan et al., 2020
+T.L. Yan, J. Xia, J.Y. Xu, P. Zheng, S.P. Zhou, T. Chen, G. Jia
+Effects of air pollution exposure on olfaction of rats in Beijing
+Zhonghua Yu Fang Yi Xue Za Zhi, 54 (7) (2020), pp. 774-778
+View in Scopus
+Google Scholar
+Yang and Crawley, 2009
+M. Yang, J.N. Crawley
+Simple behavioral assessment of mouse olfaction
+Curr. Protoc. Neurosci. Chapter 8, Unit (2009), pp. 8-24
+View in Scopus
+Google Scholar
+Zhou et al., 2020
+F.W. Zhou, Z.Y. Shao, M.T. Shipley, A.C. Puche
+Short-term plasticity in glomerular inhibitory circuits shapes olfactory bulb output
+J. Neurophysiol., 123 (3) (2020), pp. 1120-1132
+Crossref
+View in Scopus
+Google Scholar
+Zou et al., 2015
+J. Zou, W. Wang, Y.W. Pan, S. Lu, Z. Xia
+Methods to measure olfactory behavior in mice
+Curr. Protoc. Toxicol., 63 (2015)
+11 18 11-11 18 21
+Google Scholar
+Cited by (0)
+1
+Equally contributed to the work
+© 2024 The Author(s). Published by Elsevier B.V.
+Recommended articles
+Microglial SIX2 suppresses lipopolysaccharide (LPS)-induced neuroinflammation by up-regulating FXYD2 expression
+Brain Research Bulletin, Volume 212, 2024, Article 110970
+Xia-yin Cao, …, Jin Gao
+View PDF
+Hippocampal and amygdalar increased BDNF expression in the extinction of opioid-induced place preference
+IBRO Neuroscience Reports, Volume 13, 2022, pp. 402-409
+Mario E. Lloret-Torres, …, Jennifer L. Barreto-Estrada
+View PDF
+Olfactory marker protein elevates basal cAMP concentration
+Biochemical and Biophysical Research Communications, Volume 531, Issue 2, 2020, pp. 203-208
+Noriyuki Nakashima, …, Makoto Takano
+View PDF
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

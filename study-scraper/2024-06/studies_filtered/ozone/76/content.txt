@@ -1,0 +1,124 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Sustainability
+All Article Types
+Advanced
+  Journals Sustainability Volume 16 Issue 13 10.3390/su16135420
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Behnaz Saboori
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+828
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Continuous Ozonation Coupled with UV-C Irradiation for a Sustainable Post-Harvest Processing of Vaccinium macrocarpon Ait. Fruits to Reduce Storage Losses
+by Natalia Matłok
+1,*, Tomasz Piechowiak
+2, Miłosz Zardzewiały
+1, Bogdan Saletnik
+3 and Maciej Balawejder
+2
+1
+Department of Food and Agriculture Production Engineering, Collegium of Natural Sciences, University of Rzeszów, 35-601 Rzeszów, Poland
+2
+Department of Chemistry and Food Toxicology, Collegium of Natural Sciences, University of Rzeszów, 35-601 Rzeszów, Poland
+3
+Department of Bioenergetics, Food Analysis and Microbiology, Institute of Food Technology and Nutrition, College of Natural Science, Rzeszow University, 35-601 Rzeszów, Poland
+*
+Author to whom correspondence should be addressed.
+Sustainability 2024, 16(13), 5420; https://doi.org/10.3390/su16135420
+Submission received: 22 May 2024 / Revised: 21 June 2024 / Accepted: 24 June 2024 / Published: 26 June 2024
+(This article belongs to the Special Issue Environmental and Economic Sustainability in Agri-Food System)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Ozonation and UV irradiation are promising sustainable methods for extending the shelf life of stored fruits. The aim of this research was to evaluate the effectiveness of the constructed system, enabling simultaneous ozonation and UV-C irradiation of cranberry fruits in extending their shelf life. The effectiveness of this solution was determined by analyzing the properties of fruits subjected to the processes. The impact of these processes on the shelf life of fruits was assessed during 42 days of storage at a temperature of 8 °C and 80% humidity. It was demonstrated that applying the ozonation process to fruits, as facilitated by the developed solution’s throughput, led to a reduction in microbiological load (fermentation bacteria count reduction by 3.4 log cfu−1), resulting in an extension of their shelf life and a reduction in storage losses (8.98% by mass). The implementation of the developed solution, by reducing water loss and limiting fruit losses (approximately 5% less compared to the control group) during storage, contributes to tangible benefits for the producers and distributors of these fruits. The proposed modification has a positive environmental effect by reducing waste and makes the cultivation of cranberries more sustainable and environmentally friendly.
+Keywords: Vaccinium macrocarpon Ait. fruits; cranberry fruit; ozone treatment; UV-C irradiation; microbiological load; shelf life; waste
+1. Introduction
+Cranberries, also known as American cranberries (Vaccinium macrocarpon Ait.), are a species of evergreen shrubs native to North America. They are well-known for their large, tart, and red berries. These cranberries grow in acidic bogs and wetlands and are an important commercial crop in several regions, especially in the United States and Canada [1]. Cranberry cultivation usually involves flooding the cranberry bogs during harvest season [2,3]. When the bogs are flooded, the cranberries float to the surface due to small air pockets inside the berries, making them easier to harvest. Cranberries are typically harvested in the fall and are used in various culinary applications, especially during holiday seasons.
+Cranberries are highly regarded for their potential health benefits, being abundant sources of antioxidants [4] and anti-inflammatory [5]. Cranberries are considered to be among the best antioxidant-rich foods due to their richness in polyphenols. They are a good source of dietary fiber, vitamins, sugars, essential dietary minerals and micronutrients, polyphenols, flavonols, phenolic and organic acids, pentacyclic triterpenoids, quercetin, anthocyanins, and proanthocyanidins [6,7,8]. Similar to other sources of antioxidants, cranberry consumption is recommended when protection against oxidative stress is necessary [9].
+Vaccinium macrocarpon is one of the most commonly cultivated species for commercial use. Reducing losses in the cranberry supply chain involves implementing strategic measures to minimize wastage and enhance overall efficiency. For cranberries, immediate cooling ranging from 0 to 7 °C after harvest is crucial to prolong shelf life. A relative humidity of around 80% is recommended to maximize their storage duration [10].
+To extend the shelf life of fruits and vegetables, conventional chemical treatments, known as antibacterial solutions, were introduced. As consumers have become more critical of the use of synthetic food additives or the application of peroxyacetic acid and/or sodium hypochlorite to control foodborne pathogens on food products, more ecological technologies have been introduced to maintain the safety and quality of plant raw materials. Among the available technologies, gaseous ozone [11] and ultraviolet radiation [12] have been introduced into widespread use. These methods are non-toxic and non-invasive. Additionally, these methods offer many advantages, including not having chemical residues, reduced waste, and low energy consumption [13,14]. UV-C radiation [15] and ozone gas are used in the food industry in continuous food preservation processes [16]. Other methods of preserving plant raw materials are used primarily in periodic processes and are not intended for post-harvest processing [17].
+Enhancing the quality and extending the market lifespan of fresh cranberries is pivotal for accessing new markets and adding value to the fruits [17]. Post-harvest fruit quality degradation primarily occurs due to factors such as decay, physiological breakdown, physical damage, and dehydration [10]. To maximize shelf life, it is imperative that the fruit is of high initial quality. Several factors influence initial quality, including the specific cultivar, cultural practices, growing conditions, and harvesting methods [18].
+Finding reliable post-harvest technologies to optimize the marketing of high-quality fresh fruits remains a challenge [19]. By integrating efficient storage strategies, the cranberry supply chain can become more efficient, reducing losses and ensuring a more sustainable and profitable industry [20]. Some post-harvest treatments, such as UV light [10] and ozone [15], have been tested to enhance the storage life of fruit. There are numerous scientific reports that refer to the use of UV-C radiation on plant raw materials. The doses of radiation used vary and depend on the type of raw material subjected to this factor [21].
+Modifying the shelf life of fruits after harvest and controlling microbiological contamination often rely on the use of chemical compounds that are harmful to human health and the environment. Currently, alternatives to standard technologies are being sought to ensure consumer safety and raw material quality [22]. Ozone is one of the most promising methods for disinfecting fresh products, with several areas of application in the food industry [23,24,25]. Additionally, it is worth noting that there are scientific reports indicating the use of combined variable factors such as UV-C radiation and gaseous ozone on plant materials. Gutiérrez et al. [26] applied UV-C radiation at doses of 5, 10, and 20 kJ·m−2 and ozone at concentrations of 1, 2, and 5 ppm to freshly cut arugula. The researchers found that UV-C radiation and gaseous ozone did not have a negative impact on the freshly cut arugula. Martínez-Hernández [27] reports that the combined application of disinfecting treatments such as UV-C radiation and gaseous ozone can have a synergistic effect, allowing for a greater reduction in microorganisms in products.
+The aim of this research was to evaluate the effectiveness of the constructed system, enabling simultaneous ozonation and UV-C irradiation of cranberry fruits to extend their shelf life. The effectiveness of the developed solution was determined through storage tests lasting 42 days, during which the microbiological load, water content, mechanical properties, and storage losses of the cranberry fruits were analyzed.
+2. Materials and Methods
+2.1. Construction of a System for Continuous Ozonation and UV Exposure
+The system for reducing the microbiological load is a composition of a spiral conveyor enabling a continuous process of ozonation and UV-C radiation (Figure 1). This system is composed of an ozone chamber (1) of a regular hexagonal shape with a side length (3) of 1.2 m and a height of 3 m for large cranberries harvested using the wet harvesting method. Ozone gas is supplied to the chamber through nozzles (2). Ozone is generated by a set of Korona L 400 TOWER generators (Korona Lab, Piotrków Trybunalski, Poland) with a capacity of 240 g h−1. The chamber (1) is equipped with an inlet (4) for the fruits located in the lower part of the chamber and an outlet (6) for the fruits in the upper part of the chamber. In the chamber, a centrally placed spiral conveyor (8) with a length ensuring a 1.5 min residence time for the fruits in the chamber is located. The chamber is equipped with an inlet (51) and an outlet (71), which are used for fruit transportation. UV-C ultraviolet radiation sources (9) are located in the lower housing (5) and upper housing (7) of the chamber. Each UV-C radiation source consists of two sets of UltraViol NBV 2 × 30 N lamps (UltraViol, Zgierz, Poland) (9) with a total radiation intensity of 20 W m−2 (exposure time 3 s), positioned at the inlet and outlet for the fruits. The irradiation source is located 30 cm away from the layer of fruits. The lower and upper housings prevent UV-C radiation from escaping outside the device. The chamber is equipped with a ventilation system (10) that generates slight negative pressure and is located along the axis of the spiral conveyor. Ozone concentration in the chamber is measured using a 2B Technolgies 106M sensor (2B Technologies, Broomfield, CO, USA) with a measurement range of 0–1000 ppm. The flow of gaseous ozone is directed counter to the direction of cranberry transport and is induced by the ventilation system. This system includes a blower and is equipped with a frequency converter, allowing for smooth adjustment of the blower’s capacity, which can reduce the pressure by a maximum of 1% compared to atmospheric pressure. The system allows a combined process of ozone treatment and UV-C irradiation of large cranberries from 0 to 100 ppm in 1.5 min, determined by the system’s dimensions. It should be noted that this time can be modified by changing the geometric parameters of the system. In order to design the effective technical solution presented in this manuscript, preliminary research was carried out. This allowed us to improve the effective technical solution presented in the article and thus eliminate possible defects.
+Figure 1. Schematic diagram of the effective technical solution apparatus allowing for the combined process of ozone treatment and UV-C irradiation of cranberries in a continuous system ((A) top view; (B) side view). Figure description: chamber (1), chamber nozzles (2), chamber walls (3), inlet (4), lower housing (5), outlet (6), upper housing (7), spiral conveyor (8), UV-C ultraviolet radiation sources (9), ventilation system (10), inlet (51) and outlet (71) fruit transportation system.
+2.2. Research Material
+The research material consisted of fresh cranberries of the ‘Pilgrim’ variety, harvested directly using the wet harvesting method. The fruits exhibited a red-purple color, had no mechanical damage, and had a water content of approximately 90%. The fruits were harvested from a private plantation on 25 October 2022, at the field GPS location of 50°42′00″ N 21°54′13″ E (Original Food Sp. z o.o.; Nowiny, Poland). After harvesting, the cranberries were stored with the proposed procedures (control, i.e., without extra treatment; cranberries subjected to UV-C irradiation; cranberries subjected to ozone treatment; cranberries subjected to the combined method of UV-C irradiation and ozone treatment) in a climatic chamber at a temperature of 8 °C and a humidity of 80% for 42 days.
+2.3. Determination of Microbiological Load
+On day 42 of storage (temperature 8 °C, humidity 80%), the representative samples of cranberries for each variant in the amount of 20 kg were subjected to microbiological analyses depending on the applied modification of post-harvest processing technology. The total bacterial and yeast counts, counts of mesophilic lactic acid fermentation bacteria, and counts of mesophilic aerobic bacteria were determined. The analyses were conducted following the methods described in the work by Matłok et al. [28]. The measurements were carried out in triplicate.
+2.4. Determination of Water Content in

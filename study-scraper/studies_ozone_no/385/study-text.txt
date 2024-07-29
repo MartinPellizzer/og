@@ -1,0 +1,85 @@
+ПОДДЕРЖАТЬ ПРОЕКТ
+REPORT OF CORONA LOSSES IN PORCELAIN INSULATORS IN POWER TRANSMISSION LINES
+Текст научной статьи по специальности «Электротехника, электронная техника, информационные технологии»
+Safiyev E.S.
+Huseynov K.M.
+CC BY 00
+0
+0
+ЧИТАТЬ
+i
+Надоели баннеры? Вы всегда можете отключить рекламу.
+ЖУРНАЛ
+Вестник науки
+2024
+ОБЛАСТЬ НАУК
+Электротехника, электронная техника, информационные технологии
+КЛЮЧЕВЫЕ СЛОВА
+discharge / insulators / porcelain / characteristics / service life / corona losses
+АННОТАЦИЯ
+научной статьи по электротехнике, электронной технике, информационным технологиям, автор научной работы — Safiyev E.S., Huseynov K.M.
+The corona effect, or corona discharge, is an electrical discharge caused by the ionization of a fluid such as air around a high-voltage conductor. Corona discharges can often be reduced by making high voltage electrodes with improved insulation, corona rings, and smooth round shapes. However, controlled corona discharges are used in a variety of processes such as air filtration, photocopiers, and ozone generators. Crown affects communication lines. The crown effect has many advantages and disadvantages. In the proper design of a high-voltage overhead line, a balance between advantages and disadvantages must be ensured.
+i
+Надоели баннеры? Вы всегда можете отключить рекламу.
+ПОХОЖИЕ ТЕМЫ
+научных работ по электротехнике, электронной технике, информационным технологиям , автор научной работы — Safiyev E.S., Huseynov K.M.
+ELECTRICAL PROPERTIES OF SEMICONDUCTOR SILICON CARBON (SiC) AND ZINC OXIDE (ZnO) COMPOSITE POLYCRYSTALS WITH HETEROGENEOUS STRUCTURE
+2024 / Suleymanova Liliya Genghis
+IMPROVING THE QUALITY OF AIR POLLUTION CONTROL AT LIGHT INDUSTRY ENTERPRISES
+2021 / Bokanova A., Matayev U., Abishova A., Yermakhanova F.
+INVESTIGATION OF THE EFFICIENCY OF POWERING AN OZONATOR PLANT FROM PHOTOVOLTAIC INSTALLATIONS
+2024 / A. Abdikadyrov, P. Kalandarov
+ALTERNATING CURRENT UNDERWATER DISCHARGE PARAMETERS
+2022 / Oshchenko Ivan I., Smirnov Sergey A.
+Calculation estimation of overvoltage on insulation of the equipment of a substation at the lightning strike in its lightning arrester
+2019 / I. V. Nizhevskyi, V. I. Nizhevskyi
+i
+Не можете найти то, что вам нужно? Попробуйте сервис подбора литературы.
+ПРЕДВАРИТЕЛЬНЫЙ ПРОСМОТР
+ЧИТАТЬ СТАТЬЮ
+SAPE
+i
+Надоели баннеры? Вы всегда можете отключить рекламу.
+ТЕКСТ НАУЧНОЙ РАБОТЫ
+на тему «REPORT OF CORONA LOSSES IN PORCELAIN INSULATORS IN POWER TRANSMISSION LINES»
+УДК 62 Safiyev E.S., Huseynov K.M.
+Safiyev E.S.
+associate professor Azerbaijan State Oil and Industry University (Baku, Azerbaijan)
+Huseynov K.M.
+master student Azerbaijan State Oil and Industry University (Baku, Azerbaijan)
+REPORT OF CORONA LOSSES IN PORCELAIN INSULATORS IN POWER TRANSMISSION LINES
+Аннотация: the corona effect, or corona discharge, is an electrical discharge caused by the ionization of a fluid such as air around a high-voltage conductor. Corona discharges can often be reduced by making high voltage electrodes with improved insulation, corona rings, and smooth round shapes. However, controlled corona discharges are used in a variety of processes such as air filtration, photocopiers, and ozone generators. Crown affects communication lines. The crown effect has many advantages and disadvantages. In the proper design of a high-voltage overhead line, a balance between advantages and disadvantages must be ensured.
+Ключевые слова: discharge, insulators, porcelain, characteristics, service life, corona
+losses.
+For an inhomogeneous field, the field intensity is assumed to be strong enough that a local discharge-corona discharge occurs before a complete discharge in the vicinity of the electrode is given in the above paragraph. Since the corona-like bright light is formed around the electrode, the immediate discharge is called corona-type discharge. Corona discharge characteristics are usually studied with a needle-plane or cylinder electrode system. Even during the first intervention of the corona discharge, the presence of the beaten corona current between the electrodes is
+1703
+observed. A crown equal in value to some micro data is composed of chaotic beats, which are smooth in the pole, than in the positive pole (Fig. 1 , a, b). We know that when the corona voltage increases, the amplitude value of the pulses increases, but the frequency increases.
+Figure 1 Corona current oscillograms.
+The occurrence of corona discharge in higher voltage lines results in the occurrence of power losses in the line. that is, some parameters and important characteristics of corona discharge are studied on the example of high voltage lines. 2 lines of high voltage of radius r and distance s >> r from each other, or a field intensity that is more distant from the ground plane for stone formation
+Ed = 29,85
+(Л 0,301^ 1 + ■
+455
+s
+Ub = E55 ln-
+r
+Since the losses of the crown at constant voltage are related to the current generated between the electrodes, it is necessary to study the volt-ampere
+1704
+characteristic of the crown I=f(U) in order to calculate those losses. Here, I-corona is the current falling on a certain length, U- is the voltage at the value of the given current. Then the power loss per unit length is the same as the expression P=U I. It is difficult to determine the volt-ampere characteristic for the corona by an analytical method. In alternating current, corona losses are not directly related to the discharge current between the electrodes, but rather more complex processes. In alternating current, the potential of the electrode where the corona occurs varies according to the sinusoidal law, which means that the positive corona discharge neutralizes the charge remaining from the previous half cycle and creates a new charge for itself, the sign of which is the same. At this time, the energy consumed during the time threshold is the main essence of corona losses. Thus, to determine corona losses in alternating current, it is necessary to know the volt-ampere characteristic. In this system, the local corona losses during corona formation are mainly determined experimentally. With the help of measuring devices that allow you to determine specific losses in the gaps between the electrodes. Theoretical analysis shows that the losses for an independent support can be calculated with the help of the functional P.
+Here ro is the radius of the wire, Ev- oltage on the surface of the wire, EB-initial voltage of crown.
+Conclusion. Insulators are one of the main parts of power transmission lines. One of the types used as a support insulator is porcelain insulators. In the article, the analysis of porcelain insulators, operating conditions in various conditions, mathematical calculation of corona losses, and the requirements imposed on them were investigated.
+1705
+СПИСОК ЛИТЕРАТУРЫ:
+1. Kollmorgen Linear Motors Aim to Cut Cost of Semiconductors and Electronics Manufacture, Kollmorgen, Radford, VA, 1997;
+2. Laithwaite, E.R., A History of Linear Electric Motors, Macmillan, London, U.K., 2008;
+3. Anorad Linear Motors, Information Brochure, Anorad, Hauppauge, New York, 2007, www.anorad.com;
+4. Boldea, I. and Nasar, S.A., Linear Motion Electromagnetic Systems, John Wiley & Sons, New York, 2005;
+5. Boldea, I. and Nasar, S.A., Linear Electric Actuators and Generators, Cambridge University Press, New York, 2005;
+6. Compumotor Digiplan, Positioning Control Systems and Drives, Parker Hannifin Corporation, Rohnert Park, CA, 2011;
+7. Everes, W., Henneberger, G., Wunderlich, H., and Selig, A., A linear homopolar motor for a transportation system, 2nd International Symposium on Linear Drives for Industry Applications (LDIA'98), Tokyo, Japan,2006, pp. -46-49
+1706
+i
+Надоели баннеры? Вы всегда можете отключить рекламу.
+Пользовательское соглашение
+Политика конфиденциальности
+Подобрать и оформить по ГОСТ список литературы
+🚀 ПОДБОР ЛИТЕРАТУРЫ

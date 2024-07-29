@@ -1,0 +1,143 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (78)
+International Journal of Hydrogen Energy
+Volume 78
+, 12 August 2024, Pages 580-593
+Decarbonization frameworks to industrial-scale ammonia production: Techno-economic and environmental implications
+Author links open overlay panel
+Hafiz M. Irfan a
+,
+Kashif Iqbal c
+,
+Muhammad Ikhsan Taipabu a d
+,
+Chun-Yang You a
+,
+Debayan Mazumdar a
+,
+Wei Wu a b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.ijhydene.2024.06.312
+Get rights and content
+Highlights
+•
+New comparisons of three 100,000-ton ammonia manufacturing plant designs are addressed.
+•
+The ammonia production via SMR (base process) ensures the lowest total costs due to not using green electricity.
+•
+Scenario 1 by using water electrolysis has the lowest environmental impacts due to using green electricity.
+•
+Scenario 2 by using biomass gasification is at the best balance between the economy and the environment.
+Abstract
+Ammonia production traditionally relies on steam methane reforming (SMR), but it emits carbon and harms the environment. To address decarbonization frameworks of industrial-scale ammonia production process, a 100,000-ton ammonia manufacturing plant is presented using green ammonia synthesis methods. This study presents two promising hydrogen production methods for ammonia production, utilizing water electrolysis as scenario 1 and biomass gasification as scenario 2, while nitrogen is supplied using a cryogenic air separation unit (CASU). The techno-economic analysis shows that the ammonia production via SMR as the base case has lower total costs than Scenarios 1 and 2 due to not using green electricity. Through the environmental impact assessment of climate change, ozone depletion, terrestrial ecotoxicity, and natural land transformation, it is shown that Scenario 1 has lower impacts than the base case and Scenario 2 due to using green electricity. It is noted that the base case and Scenario 1 ensure the lowest production cost and environmental impacts, respectively, and Scenario 2 is the best balance between the economy and the environment.
+Graphical abstract
+Download: Download high-res image (291KB)
+Download: Download full-size image
+Introduction
+Ammonia (NH3) is currently ranked as the second-most produced chemical globally. It has extensive application in numerous industries, including energy, pharmaceuticals, and agriculture, and elevated it to a highly desirable chemical. Over 200 million metric tons of ammonia are produced yearly [1]. The development of high-pressure turbo-compressors in the 1960s made it possible to produce high-pressure ammonia plants with capabilities exceeding 1000 tons per day. Currently, ammonia plays a crucial role in the agriculture sector. Approximately 80% of ammonia is utilized in the manufacturing of fertilizers. It is an essential ingredient in the growth of crops. Ammonia is also used extensively as a refrigerant, as well as in-home cleansers and disinfectants. Due to the expanding population, economy, and wide range of ammonia uses, its production is projected to grow at an annual pace of 3–5% [2]. Over the last 50 years, energy efficiency innovations have lowered the energy consumption of these plants from 60 GJ/tNH3 to 28 GJ/tNH3 [3]. The primary method of producing H2 is steam methane reforming (SMR), resulting in a carbon footprint of 1.5–1.6 kg CO2-eq kg−1 NH3, accounting for more than 1.2% of the total world carbon emissions. This quantity equals the aggregate carbon dioxide emissions in South Africa produced in 2017. The energy sector, particularly renewable energy sources, is expected to be highly affected by the NH3 market. The ability to directly burn NH3 to produce water and nitrogen makes it an attractive candidate as a clean energy carrier, which could play an essential role in the future [4]. The increasing energy demand is causing rapid depletion of resources, particularly fossil fuels. These fossil fuels emit harmful emissions, contributing to environmental issues and global warming [5]. Hence, a convincing reason exists to boost the sustainability of NH3 production from fossil fuels [6].
+Fossil fuels are being depleted and associated with environmental concerns, which result in substantial ecological problems and are relevant to the sustainability of society and the economy. Industry and academia are working on addressing global warming and environmental concerns as a research goal [7]. That's why exploring renewable energy sources is crucial for sustainable industrial development. Various techniques, including integration and optimization of power plants, are now employed to enhance the efficiency of energy production using fossil fuels [8].
+Nonetheless, operating the power plant at total capacity without energy storage technologies would not be realistic or feasible. Hydrogen has advantages as both an energy carrier and a storage technology [2]. Hydrogen presents a viable substitute energy source for global sustainable development [9]. Furthermore, storing surplus energy can improve efficiency by allowing power plants to operate at total capacity. However, due to the inherent risks of hydrogen transportation, alternative modes of transportation must be adopted. Utilizing ammonia (NH3) as a hydrogen (H2) carrier is a favorable choice [10]. Because of its high flash point, ammonia is less flammable than other hydrogen energy carriers and carbon-based fuels [11]. The utilization of NH3 as a hydrogen carrier for fuel cells and its possible integration into remote combined heat and power systems highlight its increasing importance in the energy sector [12]. However, the Technological innovation is critical for progressively lowering the cost of hydrogen fuel cells (HFC) and increasing commercial availability [13]. The research on the combustion characteristics of NH3 and its potential as a carbon-free fuel adds to its relevance in energy applications [14]. There is potential to store renewable energy as liquid ammonia, which could be transported using existing infrastructure and regulations for NH3 transportation [15]. It could create openings for worldwide cost-effective and valuable energy sources [16]. Ammonia (NH3) can be used as a carrier for hydrogen (H2) or as fuel in internal combustion engines, marine engines, fuel-cell vehicles (either directly or indirectly through H2), small-to-medium power generators, and large-scale gas turbine power generation without H2 storage and distribution infrastructure. Hydrogen energy storage (HES) is the only long-term energy storage solution accessible to the power generation industry [17]. Expanding the range of applications for NH3 would make it easier to incorporate renewable energy into future sustainable energy systems [18]. Among other alternatives, such as formic acid, alcohols, and hydrides, NH3 is a viable energy carrier for long distances with low carbon emissions [19]. It can serve as a long-term energy storage medium, lasting from days to months. Ammonia can potentially reduce world CO2 emissions by more than 440 million tons annually [20].
+To produce NH3, energy sources are needed, which can come from fossil fuels or other renewable resources. The Haber-Bosch (HB) process for NH3 synthesis still accounts for 24% of fossil fuel utilization in the chemical industry, primarily due to the requirement of hydrogen (H2), which is produced by steam reforming of natural gas in HB [21]. Catalysts have been developed to minimize operating conditions and improve conversion in the HB process, which synthesizes NH3 from nitrogen and hydrogen at high temperatures and pressures [22]. NH3 has a low impact on the climate as it does not produce carbon emissions compared to conventional fuels and can be utilized as clean energy [23]. Ammonia is a low-emission chemical, but using fossil fuels in production has a high environmental impact. There are two alternatives to fossil fuels in ammonia production: biomass gasification [24] and water electrolysis. The utilization of renewable resources in ammonia production is called “green ammonia” [25].
+Several studies have been conducted recently to investigate the effectiveness of green ammonia as an energy source. Regarding this, Rouwenhorst et al. [26] analyzed and compared various alternatives throughout the multiple steps involved in obtaining NH3. These phases include hydrogen and nitrogen production and the synthesis, separation, storage, and combustion of NH3. Through the execution of optimization models and sensitivity analysis, Guerra et al. [27] investigated the economic and technical factors that impact the production of NH3. These factors include the amount of time spent in operation, the size of the plant, the cost of power, and the price of NH3. Nayak Luke et al. [28] focused on the effect of intermittent renewable energy sources on the size of plants. A comprehensive study was conducted by Salmon and Banares-Alcantara [29], whereby they determined the advantages and disadvantages of NH3 compared to alternative hydrogen transporters, as well as the expenses connected with its manufacturing and transportation. Pawar et al. [30] analyzed the technological and economic possibilities of the NH3 production process by utilizing various forms of renewable energy throughout the supply chain that were aimed toward both the domestic market and exportation. Isella et al. [31] conducted a techno-economic assessment of hybrid green process options for ammonia synthesis decarbonization, highlighting the advantages and limits of hybrid plant designs. Measuring the environmental impact of technologies that reduce carbon emissions from ammonia (NH3) production is crucial to determining the most sustainable alternatives.
+To strengthen the concept of sustainability and address global social, economic, and environmental challenges, the United Nations developed the 2030 Agenda for Sustainable Development, which included implementing 17 Sustainable Development Goals (SDGs). To address the issues related to sustainability, Life Cycle Assessment (LCA) concepts have been adopted as a method for evaluating the carbon footprint of a product or process at each stage, from raw material acquisition to manufacture, usage, and waste management [32]. Life cycle assessment (LCA) has facilitated thorough environmental studies of processes and products since its commencement [33]. Multiple studies have utilized Life Cycle Assessment (LCA) to assess the efficiency of NH3 production technologies. These studies primarily focused on the integration of carbon capture and storage (CCS) with the business-as-usual (BAU) process [34]. Additionally, they examined the utilization of H2 from water electrolysis, BG, and CuCl cycles as methods to reduce the carbon footprint [35]. Life Cycle Assessment (LCA) analysis has been applied in a variety of industries, particularly for developing energy vectors. Bicer and his team [36] investigated various techniques of manufacturing ammonia (NH3), assessing their impact in terms of Global Warming Potential, Human Toxicity Potential, and Abiotic Depletion Potential. Boero and colleagues [37] assessed the environmental impacts of producing NH3 via electrolysis and using NH3 for energy in a combined cycle plant. Despite extensive LCA research on energy sources, particularly hydrogen, LCA application to NH3 production is relatively new and requires further investigation from various perspectives. Most in these researches focused on cryogenic air separation as a method for obtaining N2 [38].
+LCAs (Life Cycle Assessments) of ammonia (NH3) production frequently prioritize the analysis of carbon footprint, with only a limited number of studies examining additional effect categories such as human toxicity, abiotic resource loss, eutrophication, and acidification [39]. The conventional method used an attributional cradle-to-gate perspective, but consequential life cycle assessment (LCA) has also been utilized lately. Many studies have neglected uncertainties, while others have utilized Monte Carlo simulation or sensitivity analysis to examine the most crucial uncertain factors [40]. A significant limitation of conventional life cycle assessments (LCAs), commonly used to evaluate chemicals, is their inability to identify the absolute sustainability of a technology. While they are effective in comparing and assessing alternatives, they do not provide insight into the overall sustainability of a technology. Recently, there has been a development in literature called Absolute Environmental Sustainability Assessments (AESA). AESA considers the Earth's biophysical boundaries when interpreting the results of Life Cycle Assessments (LCA) [41].
+Although it is well known that there is a need to reduce the environmental impact of ammonia production, the transition to more sustainable methods has been slow. This is primarily because there are economic constraints and technological limits. Existing research has shed light on some different avenues that could lead to a more environmentally friendly ammonia synthesis; however, not many complete assessments compare the environmental and economic performances of these developing technologies to those of conventional production methods. In addition, there is a specific demand for research that uses life cycle assessments (LCA) to offer a comprehensive perspective on the environmental repercussions of these novel techniques. This research aims to address these deficiencies by concentrating on two potential technologies: the gasification of biomass and the electrolysis of water, both of which utilize renewable energy sources to produce hydrogen and ammonia.
+Section snippets
+Methodology
+Hydrogen offers advantages as an energy carrier and energy storage system. Moreover, if surplus energy is stored, it can enhance efficiency by operating power plants at full capacity. This study evaluates two emerging hydrogen production technologies. Scenario 1: Water Electrolysis: This method involves splitting water into hydrogen and oxygen using electricity. We assume the electricity used is sourced from renewable energy to ensure a minimal carbon footprint. Scenario 2: Biomass
+Cryogenic air separation unit
+The cryogenic air separation unit (CASU) process involves a compressor, pre-purification unit (PPU), turbine, thermally coupled distillation towers, low-pressure column, and high-pressure column (LPC and HPC), and multi-stream heat exchangers (HX1, HX2, HX3). Air is compressed to 1.02 × 106 Pa in a compressor, then it goes through the pre-purification unit to remove impurities such as water vapor and carbon dioxide and then enters the multi-stream heat exchanger and the return flow for heat
+Equipment cost
+This study utilizes the primary document assembled by Seider et al. [71] to compute the equipment cost of the cryogenic air separation process. The cost calculations are performed individually for each unit. The equipment cost is determined using equation (12), in which (CV) is the equipment cost and (W) is the weight of the respective process unit, as shown in equation (13). The material of construction is carbon steel. equation (14) is used to compute the costs of other extra expenses (CPL),
+Life cycle assessment
+In our study, we carefully set the system boundary for the environmental analysis to include all essential stages of the ammonia manufacturing process, from raw material extraction to final ammonia synthesis. This cradle-to-gate strategy ensures that we appreciate the complete environmental impact of each industrial method. The system boundaries consist of several critical stages: raw material extraction, hydrogen production, nitrogen production, ammonia synthesis, and waste management.
+Conclusion
+This study focused on two hydrogen generation methods substantially reduced emissions: water electrolysis and biomass gasification. The low-temperature air separation process is employed to supply the nitrogen for the ammonia manufacturing facility. The economic advantages of these process designs are evaluated through economic metrics such as net present value and internal rate of return. Green electricity as the power source of water electrolysis in Scenario 1 is more environmentally friendly
+CRediT authorship contribution statement
+Hafiz M. Irfan: Writing – original draft, Validation, Methodology, Investigation, Data curation. Kashif Iqbal: Supervision, Conceptualization. Muhammad Ikhsan Taipabu: Visualization, Investigation, Conceptualization. Chun-Yang You: Investigation, Formal analysis, Conceptualization. Debayan Mazumdar: Project administration, Software. Wei Wu: Writing – review & editing, Supervision, Funding acquisition, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+This work was financially supported by the National Science and Technology Council, Taiwan under grant 112-2622-8-006-020.
+References (78)
+I. Capellán-Pérez et al.
+Fossil fuel depletion and socio-economic scenarios: an integrated approach
+Energy
+(2014)
+N.Z. Muradov et al.
+Green’ path from fossil-based to hydrogen economy: an overview of carbon-neutral technologies
+Int J Hydrogen Energy
+(2008)
+Y. Huang et al.
+Hydrogen energy development in China: potential assessment and policy implications
+Int J Hydrogen Energy
+(2024)
+H. Ishaq et al.
+Design and simulation of a new cascaded ammonia synthesis system driven by renewables
+Sustain Energy Technol Assessments
+(2020)
+Y. Kojima
+Safety of ammonia as a hydrogen energy carrier
+Int J Hydrogen Energy
+(2024)
+H. Zhou et al.
+Understanding innovation of new energy industry: observing development trend and evolution of hydrogen fuel cell based on patent mining
+Int J Hydrogen Energy
+(2024)
+Y. Bicer et al.
+Environmental impact categories of hydrogen and ammonia driven transoceanic maritime vehicles: a comparative evaluation
+Int J Hydrogen Energy
+(2018)
+A. Yapicioglu et al.
+A review on clean ammonia as a potential fuel for power generators
+Renew Sustain Energy Rev
+(2019)
+A. Boretti
+A market opportunity in power generation for hydrogen energy storage systems
+Int J Hydrogen Energy
+(2024)
+D.R. MacFarlane
+A roadmap to the ammonia economy
+Joule
+(2020)
+View more references
+Cited by (0)
+View full text
+© 2024 Hydrogen Energy Publications LLC. Published by Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+Hydrothermal synthesis of (NiFe/NiCo)S@NF bilayer electrocatalyst for efficient hydrogen evolution reaction
+International Journal of Hydrogen Energy, Volume 78, 2024, pp. 622-633
+Leila Fathyunes, …, Dermot Brabazon
+Interfacial effects of Cu/Fe3O4 in water-gas shift reaction: Role of Fe3O4 crystallite sizes
+International Journal of Hydrogen Energy, Volume 78, 2024, pp. 741-752
+Ruifan Tan, …, Yunjie Ding
+Towards zero carbon hydrogen: Co-production of photovoltaic electrolysis and natural gas reforming with CCS
+International Journal of Hydrogen Energy, Volume 78, 2024, pp. 604-609
+Boyu Qin, …, Hengyi Li
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

@@ -1,0 +1,14 @@
+**Paragraph 1: Introduction**
+The Geostationary Environment Monitoring Spectrometer (GEMS) satellite instrument was launched in 2020 to monitor air quality over East Asia. GEMS provides hourly column measurements of nitrogen dioxide (NO2), a key precursor to ozone and particulate matter pollution. This study investigates the diurnal variation in NO2 observed by GEMS during winter and summer over Beijing and Seoul, using ground-based column observations from Pandora instruments and GEOS-Chem chemical transport model simulations.
+
+**Paragraph 2: Methods**
+The study uses hourly total NO2 slant column density from GEMS L2 NO2 version 2.0 product at native 3.5 km x 8 km resolution for December-February 2021/22 and June-August 2022. The vertical column density of NO2 is obtained by dividing the slant column density by an air mass factor (AMF) characterizing the photon path from the sun down through the atmosphere and back up to the instrument. AMF is calculated using a radiative transfer model and increasing with altitude. Ground-based measurements of NO2 columns are available from Pandora instruments, used for validating satellite observations. The GEOS-Chem CTM is driven by assimilated meteorological data from the Goddard Earth Observing System – Forward Processing (GEOS-FP) with a horizontal resolution of 0.25° x 0.3125° over East Asia.
+
+**Paragraph 3: Results**
+The study finds good agreement between the diurnal variations in NO2 columns observed by GEMS, Pandora, and GEOS-Chem. For urban cores, NO2 increases throughout the day due to high daytime emissions and increasing NO2/NOx ratio from entrainment of ozone, partly balanced by loss from transport. In summer, chemical loss combined with transport drives a minimum in the NO2 column at 13:00-14:00 local time (LT). Segregation of GEMS data by wind speed demonstrates the effect of transport on the diurnal variation.
+
+**Paragraph 4: Discussion**
+The study's results provide insights into the emission, chemistry, and transport processes controlling the diurnal variation in NO2 over East Asia. The GEOS-Chem simulations successfully reproduce the observed diurnal variations, allowing for the separation and quantification of the roles of emission, chemistry, and transport. These findings will be useful for interpreting future GEMS observations as top-down information on NOx emissions.
+
+**Paragraph 5: Conclusion**
+In conclusion, this study demonstrates the value of geostationary satellite measurements like GEMS in understanding the diurnal variation in nitrogen dioxide over East Asia. The combination of GEMS, Pandora, and GEOS-Chem provides a comprehensive picture of the processes controlling NO2 concentrations, which is essential for improving air quality models and predicting ozone and particulate matter pollution. These results will contribute to more accurate emissions estimates and inform policy decisions aimed at reducing air pollution in the region.

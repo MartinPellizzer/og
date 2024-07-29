@@ -1,0 +1,636 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature scientific reports articles article
+Article
+Open access
+Published: 20 October 2023
+The innovative technology of dough preparation for bread by the accelerated ion–ozone cavitation method
+Auyelbek Iztayev, Talgat Kulazhanov, Galiya Iskakova, Mariam Alimardanova, Saule Zhienbaeva, Baurzhan Iztayev, Sholpan Tursunbayeva & Madina Yakiyayeva
+  Scientific Reports
+ 13, Article number: 17937 (2023) Cite this article
+1133 Accesses
+1 Citations
+Metrics
+Abstract
+Due to the fact that bakery, pasta and flour confectionery products are produced mainly from premium or first-grade flour, which is poor in the content of nutrients and fiber, the issue of developing technology for new types of flour products based on whole-ground flour of different fineness is very relevant and in demand. In the production of wholemeal flour, all parts of the whole grain are used—germ, grain shells, and endosperm. Also, recently the shortage of quality wheat has been growing. Therefore, the use of whole-milled flour from low-class wheat varieties will solve the problem of meeting the needs of the population. Using ion–ozone technology for preparing bread, high-quality bakery products from third-class flour with high nutritional and biological value were obtained. Using the obtained system of equations and constraints, the optimal modes of ion–ozone cavitation processing of dough were determined by a nonlinear programming method, which, subject to all the constraints (limitations) on the dough quality, provided the maximum dough strength of y2 = 181.0% and the dough parameter values of C × 10–4 = 25 units/mg, P = 1 atm, and τ = 5 min, which, in compliance with all constraints (restrictions) on the bread quality, provided a maximum volume of z11 = 232.1 cm3. A new innovative technology was created to increase productivity, efficiency and shorten the preparation time of bread. The method of making bread with the effect of ion–ozone cavitation of dough is very important for the bread industry, which affects the effectiveness of whole wheat flour obtained from the lower class of wheat, increases the quality of bread, shortens the technological processes of production, and increases labor productivity indicators. This method increases the economic efficiency of bread-making industries and the productivity of bread.
+Similar content being viewed by others
+Development of a highly efficient ion-ozone cavitation technology for accelerated bread production
+Article Open access
+27 September 2021
+Pilot study on the use of cold atmospheric plasma for preservation of bread
+Article Open access
+20 December 2022
+Application of dielectric barrier discharge for improving food shelf life and reducing spoilage
+Article Open access
+28 September 2021
+Introduction
+The main requirement of flour production is paying much attention to the flour and bread properties of wheat. Over the next decade, the production volume of high-quality wheat of the first and second classes will decrease by 8–10%, that of the medium or third class will comprise 70%, and that belonging to the fourth and fifth classes will increase by 20%1,2. Wheat classification provides for the main 5 classes. Classes from the first to the third are combined into group “A”, and the letter “B” denotes wheat of the fourth and fifth classes. Assignment to one group or another depends on the content of basic substances in the grains:
+protein—protein necessary for nutrition.
+gluten—improves baking properties.
+1st class wheat contains 40% protein and 30% gluten, 2nd class wheat contains 13% protein and 27% gluten. The composition allows the use of grain in bakery production. Grade 3 wheat contains 12% protein and 23% gluten. 1–3 classes of wheat are included in group “A”. This is food wheat, which is used in the flour-grinding and baking industries.
+4th grade wheat contains 18% protein and 11% gluten and 5th grade wheat contains 18% protein and 10% gluten. Classes 4 and 5 are included in group “B”. Usually these are hard varieties, which are also used for making cereals and pasta, but, unlike group “A”, they require saturation with strong varieties. The problem is that Group B varieties lack their own amount of gluten and proteins. These classes are also used for non-food purposes3,4,5,6,7.
+Human consumption of high-quality wheat continues to increase, with the greatest growth expected in Asia, where the regional total accounts for almost 60% of global food use. Also, according to experts, the ongoing processes of global warming on the planet are affecting the decrease in the yield of many agricultural crops, in particular wheat. Therefore, it is necessary to use low-grade wheat for the production of bakery products8,9,10.
+In baking technology, the process of proofing the dough is key, as it ensures the porosity, taste, and aroma of the finished product. In baking, biological, chemical, and mechanical methods are utilized for relaxing the dough depending on the variety. The peculiarity of the biological method of dough proofing is that sugars added to the dough are fermented to produce alcohol and gas. Carbon dioxide formed in the dough provides a porous structure11,12,13.
+When utilizing the biological method, the dough must be relaxed for a sufficient amount of time to ensure the required quality of the finished product. During this method, several biochemical and microbiological processes take place in the dough, resulting in the accumulation of substances that confer porosity, volume, taste, and aroma on the final product. The biological method, despite its inherent technological shortcomings and economic costs, has been the main method of dough preparation for bakery products for a long time. Compressed, dried, active yeast, and fermented milk are used as biological leavening agents. In addition to compressed yeast, liquid yeast prepared in the bakery is utilized14,15,16,17.
+The dough preparation method is chosen depending on the type and grade of flour being processed, its baking properties, the loosening method and the equipment used. Wheat flour dough is prepared with pressed, dry and liquid yeast, as well as with yeast milk obtained directly from the yeast factory. Obtaining high-quality flour from wheat of the third, fourth, and fifth classes is needed to make bread suitable for consumption. To solve this problem, a new technology of innovative bread making must be created, producing high-quality bread from different types of flour18,19,20. It is technologically possible to produce bread even from flours of slightly lower quality. Moreover, the time required to make bread through the use of traditional technology is up to 4–5 h, which reduces productivity, worsens the social situation, and does not ensure the baking of bread from low-quality flour. In this regard, the use of yeast, including a biological method, prolongs the time of the nanoproduct emergence and has a low probability of improving health21,22,23.
+A considerable advantage of wholemeal bread is the amount of dietary fiber it contains. Dietary fiber promotes colon function and health, prevents constipation, and reduces the risk of colon cancer24,25,26. Yeasts contribute significantly to the aroma of bread by forming organic acids, alcohols, ketones, aldehydes, esters, and sulfur-containing compounds, including simple, non-dividing yeasts. Yeast-based bread products can be included in the diets of patients with gluten enteropathy in the case of a properly designed technological scheme and after testing whether the patient’s body can accept such products27,28,29.
+Dough preparation methods can be multi-phase, including a pre-preparation stage and the preparation of special semi-finished products, which may differ in moisture content and microflora composition. Methods of preparing the dough can also be single-phase, including unpaired and accelerated methods. The essence of accelerated cooking methods is to strengthen the microbiological, colloidal, and biochemical processes occurring when cooking the dough. It is advisable to utilize quick methods in the production of bread and buns from wheat flour of high and first grade30,31,32.
+Taking into account the need to solve these problems, new techniques of developing modern technologies must be proposed for the complex enrichment of the key nutrients of bread products, along with a new technology for baking bread with high nutritional and biological value based on using flour obtained from the lower classes of soft wheat with ion–ozone cavitation and ion–ozone water. To this end, research and development are required33,34,35.
+Changes in socioeconomic conditions have led to considerable changes in the social status of various groups of the population. Non-observance of the main criterion of rational nutrition (balance) of the population is a major reason for the widespread of cardiovascular and oncological diseases, obesity, diabetes, allergies, and other diseases that determine demographic processes and public health indicators36,37,38,39.
+In order to solve the scientific problem, a theoretical analysis of the principles of biological and mechanical kneading of the dough and the final products of the resulting processes was carried out, the features were identified, and a scientific basis was given for the use of mechanical kneading of semi-finished products. The physicochemical characteristics of foam masses, functional properties of the main components of flour and their role in the formation of stability of foaming and dispersion systems, and the rheological properties of dough are presented40,41.
+There are known methods for mechanically loosening dough by churning part of it42,43, which consists of the following: part of the dough (in a relatively liquid and cold state) is churned for 5 min in a special churning machine of a durable and heavy design. After a short break, the kneaded mass is fed into a conventional kneading machine, in which the dough is kneaded, which is then sent for cutting and baking. However, these methods were used only for preparing dough from wheat flour and were not used in industry.
+An analogue for the creation of innovative equipment and technology for functional bakery products with a shortened production cycle is the development of technology for aerated functional bread from wheat flour by scientists from the Voronezh State Technological University of Engineering Technologies44. The essence of the developed technology is as follows: in the first stage, the preparation of raw materials for production and dosing is carried out, in the second stage, the components are mixed for 9–10 min at a rotation speed of the kneading body of 5 s−1 in a HVA mixing machine, at the third stage, the dough is kneaded under pressure of 0.40 MPa for 10 min at a rotation speed of the kneading body of 10 s−1 in a hermetically sealed 2-chamber whipping installation made from first-grade wheat flour and additional raw materials according to the recipe; at the fourth stage, the kneaded dough is divided and sent for baking, The fifth stage involves packaging and storage.
+In recent years, ozone, ions, ozone, ion–ozone and electronic technology, which have a number of advantages over special additives and technologies, are increasingly being used in the food industry. The use of ion–ozone technology agents with many useful properties (bactericidal, redox, etc.) in food production is the latest trend and represents a promising direction in food production. Currently, scientists of the Almaty Technological University are researching the use of ozonated, ionized and ion-ozonated water in the production of flour, bakery, pasta, flour confectionery products from wheat flour and flour from a mixture of wheat, grains, oilseeds and legumes, allowing to improve the quality, safety and environmental cleanliness of finished products.
+Ozone has several undeniable advantages over other disinfectants. In particular, ozone is utilized for inactivating bacteria, bacterial spores, fungi, and viruses and is much more effective than formaldehyde, chlorine, ethylene oxide, etc45,46.
+When using ozone in the food industry, it is worth considering the characteristics of the effect of ozone on the product itself, the species composition of suppressed microflora, temperature, humidity, and other parameters that may affect the effectiveness of ozone use.
+Ozone has a high redox potential and high rates of reactions with organic molecules, therefore it is an antimicrobial agent. Ozone is a strong disinfectant gas that is used for canning, it has a powerful antimicrobial effect against viruses, bacteria, mold and fungus, protecting food from decay. Ozone technology is given a lot of attention because the treatment does not leave a residual amount of ozone in food products. In addition, this method extends the shelf life of food products, which is a major concern for food manufacturers, and the food industry needs safe and environmentally friendly technologies47.
+The use of ozone as a disinfectant instead of traditional agents such as chlorine is justified by its significant oxidizing properties. It is about 50% stronger than chlorine and therefore has a wide range of antibacterial properties. The bactericidal effect of ozone has been confirmed on a large number of microorganisms, including gram-positive and gram-negative ones, as well as on bacterial spores. The main advantage of ozone treatment is most likely the absence of residual amounts in the processed products and objects. Unlike chemical methods (formaldehyde, ethyl alcohol), which leave residues that may or may have carcinogenic properties, affecting human health, ozone treatment does not contain chemical residues. In addition, ozone treatment is a promising replacement for the traditional fumigation (SO2) used. It can also be applied to all types of food, from fruits, vegetables, spices, meats and seafood to beverages48.
+A similar phenomenon at low concentrations of ozone is characteristic of some mold types that appear on fruits. Therefore, it is necessary to use ozonators and other parameters allowing the concentration of ozone to be measured and adjusted over a wide range, directly in the ozone generator and in automatic mode, which supports the modes set by the operator. The initial effect of the optimum concentration of ozone on mold is the inhibition of its growth. The effect is immediate, particularly at the initial stage on the mold surface. Subsequently, processes of interaction with ozone result in the destruction of long-established cultures. Ozone primarily attacks accessible surface cells and penetrates slightly deeper49,50,51.
+In the food industry, ozone is utilized for disinfecting premises, equipment, vehicles, containers, and packaging to enhance the sanitary and hygienic conditions of production. A low concentration of ozone is utilized in the bread production industry in order to enrich the nutrient medium, stimulate the growth of yeast fungi, and enhance the processes of making malt and yeast dough52,53.
+During ion–ozone cavitation treatment (ozone concentration 2 g/m3 and molecular ions 1000 units/cm3 for 20 min, parameters may vary depending on humidity, grade, temperature, etc.) of flour and other components of plant raw materials, disinfection, clarification, a saturation of the product with oxygen and, based on quantum physical processes, the biological value of the product increases, ozonides are formed, which in further processes work as ozone, providing bactericidal and redox processes, gives increased acidity of the dough with a decrease in α-amylase and its inactivation temperature with a sharp decrease in enzymatic attackability of flour starch, which indicates the need to reduce yeast additives or eliminate them. The advantage of using an ion–ozone mixture allows, unlike other similar technologies, to process products without harmful impurities and radiation.
+When processing the dough in the cavitator, an excess pressure of 2–6 ati is created (depending on the kneading parameters) and as a result of the pressure, cavitation bubbles are formed, filled with a hydro- ion–ozone mixture, while two phases are distinguished—expansion and collapse, which together form a complete thermodynamic cycle. In the pressure zone, hydrostatic pressure decreases to such an extent that the forces acting on the molecules of the liquid become greater than the forces of molecular bonds. As a result of a sharp change in hydrostatic equilibrium, the ion–ozonated liquid explodes, generating numerous tiny bubbles, while ozone, while still under pressure in the bubbles, has the ability to self-explode, in addition to a sharp drop in excess pressure in the cavitator from 2 atm and above to atmospheric pressure. As a result, the pores of the processed product increase.
+Thus, the creation and implementation of a mechanical method of kneading the dough will allow the creation of new types of functional bread through the use of natural traditional and non-traditional raw materials ensuring the safety of bread products and a new technical and technological level of the industry, which will contribute significantly to the development of the country's economy.
+The main stage of mechanical dough preparation is the accelerated production of a semi-finished product due to cavitation (excess pressure). The purpose of this study is to produce aerated dough from low-quality whole-grain flour, including third-grade flour, by mechanical loosening using an ion–ozone cavitation unit and baking bread.
+Research results
+To determine the optimal option for preparing the dough, the responses of the dependence of physicochemical parameters on the factors of ion–ozone concentration, excess pressure and dough kneading time were studied.
+A multifactorial experimental plan was devised through the use of the values of the ion–ozone (IO) water added during kneading, the amount of pressure during kneading, and the frequency of turning the dough according to the indicators of the upper, lower, and zero levels (Table 1).
+Table 1 Mathematical regression equation describing the changes in indicators according to the plans of 23 multifactorial.
+Full size table
+According to the research results, the values of the indicators presented in the upper, zero, and lower levels and the interval of multifactorial 23 planned mathematical regression equations were selected. The following values are given in the table:
+x1 is the ion–ozoneconcentration, 104 units/mg; x2 is the given cavitation pressure during dough kneading, atm; x3 is the dough-kneading time, min.
+The following regression equations were obtained:
+$${\text{y}}_{1} = {\text{f}}_{1} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (1)
+$${\text{y}}_{2} = {\text{f}}_{2} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (2)
+$${\text{y}}_{3} = {\text{f}}_{3} \left( {{\text{x}}_{1} ,{\text{x}}_{2} ,{\text{x}}_{3} } \right)$$ (3)
+$${\text{y}}_{4} = {\text{f}}_{4} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (4)
+$${\text{y}}_{5} = {\text{f}}_{5} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (5)
+$${\text{y}}_{6} = {\text{f}}_{6} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (6)
+$${\text{y}}_{7} = {\text{f}}_{7} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (7)
+$${\text{y}}_{8} = {\text{f}}_{8} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (8)
+$${\text{y}}_{9} = {\text{f}}_{9} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (9)
+$${\text{y}}_{10} = {\text{f}}_{10} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right)$$ (10)
+Optimal linear calculation models of physical and chemical indicators were created, and the amount of gluten y9 was taken as the objective function.
+The objective function is as follows:
+$${\text{y}}_{9} = {\text{f}}_{9} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \, \to \, \max$$ (11)
+Here: max – maximum amount of gluten.
+The limit function is as follows:
+$$6.0 \, \le {\text{ y}}_{1} = {\text{f}}_{1} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \, \le \, 10$$ (12)
+$$1.0 \, \le {\text{ y}}_{2} = {\text{f}}_{2} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \, \le \, 2.0$$ (13)
+$$50.0 \, \le {\text{ y}}_{3} = {\text{f}}_{3} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \, \le \, 65$$ (14)
+$$1.45 \, \le {\text{ y}}_{4} = {\text{f}}_{4} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \, \le \, 2.0$$ (15)
+$$9.0 \, \le {\text{ y}}_{5} = {\text{f}}_{5} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \le \, 12.0$$ (16)
+$$40.0 \le {\text{y}}_{6} = {\text{f}}_{6} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \le 50.0$$ (17)
+$$18.0 \le {\text{y}}_{7} = {\text{f}}_{7} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \le 40.0$$ (18)
+$$1.0 \le {\text{y}}_{8} = {\text{f}}_{8} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \le 33.0$$ (19)
+$$23.0 \, \le {\text{ y}}_{9} = {\text{f}}_{9} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \, \le \, 30.0$$ (20)
+$$60.0 \, \le {\text{ y}}_{10} = {\text{f}}_{10} \left( {{\text{x}}_{1} ,{\text{ x}}_{2} ,{\text{ x}}_{3} } \right) \, \le \, 90.0$$ (21)
+The value y for dough and those of bread indicators are indicated by the following letters:
+ti.—quality indicators of dough.
+zi.—quality indicators of bread.
+Next, the influence of factors on the rheological and physicochemical parameters of dough and bread was studied.
+Determination of the optimal values of the regime parameters of ion–ozone cavitation processing of dough from whole-ground flour of the third class of wheat for its rheological properties
+A series of experimental studies were conducted to optimize the modes of ion–ozone cavitation processing of the dough, with the aim of increasing its quality indicators.
+The concentration of ion–ozone (C, U/mg), overpressure (P, atm), and the duration of treatment (τ, min) were taken as regime factors for dough processing. The rheological parameters of the dough (ti) after treatment with ion–ozone cavitation treatment were investigated.
+In order to decrease the number of experiments and increase the reliability of the results obtained, methods of planning multifactorial experiments were utilized. The plan of complete three-factor experiments of the FFE-23 type with experimental conditions is given in Table 2. To reduce the influence of uncontrolled parameters on the experimental results, the experiments were randomized through the use of tables of random numbers.
+Table 2 Planning matrix and results of experiments to study the effect of ion–ozone cavitation treatment of dough on its quality indicators.
+Full size table
+The rheological parameters of the dough were determined using the "Structometer ST-2" device according to its methodology. It is intended to determine the rheological characteristics of food media. The operating principle of the device is based on measuring the mechanical load on the indenter nozzle when introducing it at a given speed into a prepared product sample. Necessary the indenter is mounted on a strain gauge beam, moved in the vertical direction by means of a ball screw according to a given program. The selection, setting of the mode and display of information is carried out using a personal computer connected to the data acquisition board of the device via a USB interface. When determining the rheological properties of the analyzed media, it can be set as the speed of movement of the indenter and the loading speed of the product. Measured characteristics: elastic and plastic deformation, work of elastic deformation, rigidity, hardness, tensile strength, elastic modulus, ultimate loading force, adhesive stress, ultimate shear stress, viscosity, relaxation time of mechanical stresses, depth of implementation, etc.
+Gluten indicators are determined according to GOST 27,839–201354. The essence of the method for determining the amount of gluten. Isolation of raw gluten from dough, kneaded from flour and water and held in water for hydration and the formation of intra- and intermolecular bonds in the substances that form gluten (mainly proteins—gliadin and glutenin), followed by washing with the working body of a mechanized device (mechanized method) or with your palms (manual method) using water, which removes water-soluble substances from the dough, as well as starch and bran. The resulting gluten is weighed and the percentage of raw gluten relative to the weight of the analyzed flour sample is calculated. In the manual method, before weighing, remove excess water by squeezing between your palms. The essence of the method for determining the quality of gluten. Determination of the amount of compressive strain of raw gluten, molded into a ball, under the influence of a specific load for a specified time interval.
+α-amidase was determined according to GOST R 51228-9855. The alpha-amylase activity of a product is equal to 1 unit if the enzyme extracted from 1 g of product in a volume of 1 dm3, under certain conditions, causes in one second the hydrolytic breakdown of 1.024 × 10–5 units of beta-terminal dextrin substrate, calculated per unit of available substrate. Beta-terminal dextrin is the product of the complete breakdown of starch by beta-amylase. The enzyme cleaves the substrate—beta-terminal dextrin (hereinafter referred to as final dextrin). During the reaction, at certain time intervals, aliquots of the reaction mixture are added to the iodine solution. A decrease in color intensity with increasing reaction time characterizes enzyme activity.
+By processing the experimental results according to the algorithms and programs of sequential regression analysis developed at the Odessa Technological Institute of Food Industry56,57 for each flour quality indicator considered, the corresponding regression equations were obtained and are presented in Table 3. As can be noticed from the statistical characteristics, the equations according to the Fisher criterion at a significance level of p = 0.05 adequately describe the dependence of the studied indicators of the dough quality on the modes of its processing—the concentration of ion–ozone Cio, excess pressure P, and duration of processing τ.
+Table 3 Regression equations in natural variables and statistical characteristics of the dependences of the rheological properties of the dough on the modes of its ion–ozone cavitation treatment.
+Full size table
+An analysis of the obtained equations demonstrated that such indicators of the processed dough quality including the dough kneading duration, the gluten and amylase content, and the dough viscosity in the studied range of changes in the factors C, P, and τ did not depend on ion–ozone cavitation treatment.
+As a result of processing, only the dough extensibility index, dough strength, dough elasticity index, and dough formation time were changed. Moreover, the dough extensibility index, dough strength, and dough elasticity index depended on all three factors C, P, and τ, while the dough formation time depended only on the factors C and P.
+It is worth noting that the paired mutual influences of factors had a statistically significant effect on the following noted indicators of dough quality:
+the extensibility index of the dough C and P, C and τ, and P and τ;
+the strength of the dough C and P and C and τ;
+the elasticity index of the dough P and τ;
+the time to the formation of the dough C and P.
+At the final stage of the research, optimization of the modes of ion–ozone cavitation processing of dough from whole wheat flour of the third class was performed.
+The dough strength was chosen as the objective function as follows (22):
+$$t_{2} = 11.84C + 12.47\tau {-}2.95CP{-}0.829C\tau \to \max$$ (22)
+Let us perform a more detailed analysis of the influence of factors C, P, and τ on the dough strength during its ion–ozone cavitation treatment.
+As already noted, the strength of the dough depends on all three regime factors C, P and τ, and this dependence, due to the significance of the effects of pair interactions, is non-linear. Therefore, it is difficult to evaluate the influence of each factor separately on the strength of the dough, unambiguously and analytically using the regression equation, since the result of the influence of each specific factor on the strength of the dough depends on the values of the other factors. However, this can be performed simply and clearly by graphical interpretation of the regression equation—by the response surfaces built for each pair of factors and shown in Fig. 1.
+Figure 1
+Response surfaces of dough strength dependence on factors C, P and τ: (a) τ = 5.0 min, (b) P = 1.0 atm, (c) C·10–4 = 25.0 units/mg.
+Full size image
+Figure 1a depicts the impact of factors C and P on the dough strength during its processing τ = 5.0 min. Obviously, an increase in the C concentration, regardless of the pressure P, results in an increase in the dough strength, and an increase in pressure P, also regardless of the C concentration, reduces the dough strength. However, these changes in dough strength differ in magnitude. Thus, with an increase in the concentration of ion–ozone C, the dough strength increases in different ways—at P = 1.0 atm from 86.1 to 181.0% and at P = 2.0 atm from 71.4 to 107.3%. Pressure P also reduces the dough strength in different ways at different values of C – at C = 5·104 units/mg from 86.1 to 71.4% and C = 25·104 units/mg from 181.0 to 107.3%, that is, almost 1.7×.
+The impact of factors C and τ (at P = 1.0 atm) is more contradictory (Fig. 1b). It can be observed that at τ = 5 min an increase in C results in a significant increase in the dough strength from 86.1 to 181.0 J, and at τ = 10 min a change in C slightly changes the dough strength, only from 127.8 to 139.8 J. An increase in τ at different C changes not only the strength but also the direction of its influence. Thus, at C = 5·104 units/mg, the dough strength increases from 86.1 to 127.8 J, but at C = 25·104 units/mg, it decreases from 181.0 to 139.8 J.
+The described complex character of the change in the dough strength is caused, as already noted, by the mutual influence of the factors C–P and C–τ. The absence of a significant coefficient of pair interaction between the factors P and τ results in a simple linear law of change in dough strength depending on pressure and dough processing time. This is clearly confirmed in Fig. 1c. An increase in both processing time τ and pressure P (at C = 25.0·10–4 units/mg) leads to a proportional increase in the dough strength. It can also be seen that the time factor changes the dough strength to a greater extent than the pressure factor—the processing time changes the dough strength by 1.46–1.53 times and excess pressure by 1.13–1.21 times.
+For the rest of the rheological parameters of the dough, both dependent on the studied factors and independent, the following restrictions were chosen:
+$$\begin{aligned} 50.0 \le t_{1} = & \, 104.59 \, {-} \, 5.73C + \, 1.60CP + \, 0.384C\tau {-} \, 2.43P\tau ,{\text{mm}} & \le 90.0 \\ 75.0 \le t_{2} = & \, 11.84C + \, 12.47\tau \, {-} \, 2.95CP{-} \, 0.829C\tau , \, J & \le 195.0 \\ 80.0 \le t_{3} = & \, 238.37 \, + \, 0.875C{-} \, 101.00P{-} \, 16.80\tau \, + \, 12.00P\tau ,{\text{ mm}} & \le 160.0 \\ 10.0 \le t_{4} = & \, 5.00 \, + \, 0.361C + \, 1.07 \, {-} \, 0.148CP,{\text{ minutes}} & \le 25.0 \\ 10.0 \le t_{5} = & \, 13.27,{\text{ minutes}} & \le 20.0 \\ 8.0 \le t_{6} = & \, 8.13,{\text{ minutes}} & \le 10.0 \\ 16.0 \le t_{7} = & \, 16.79,{\text{ mg}}/{\text{kg}} & \le 18.0 \\ 20.0 \le t_{8} = & \, 23.04, \, \% & \le 23.0 \\ 29.0 \le t_{9} = & \, 30.82, \, \% & \le 31.0 \\ \end{aligned}$$
+Limitations on the range of changes in processing conditions were equal to the limitations on the range of changes in the modes of experiments:
+5 units/mg ≤ C·10–4 ≤ 25 units/mg; 1 atm ≤ P ≤ 2 atm; 5 min ≤ τ ≤ 10 min
+Using the obtained system of equations and constraints, the optimal modes of ion–ozone cavitation processing of dough were determined by the method of nonlinear programming:
+C·10–4 = 5.0 units/mg, P = 1.0 atm, τ = 5.0 min,
+which, subject to all constraints (limitations) on the dough quality, provide the maximum dough strength of t2 = 181.0%.
+The obtained optimal values of all the studied rheological parameters of the dough are presented in Table 4.
+Table 4 Values of rheological properties of dough under optimal modes of ion–ozone cavitation treatment.
+Full size table
+According to the results, the optimal values of the studied rheological indicators of the quality of the dough lie within the specified limits.
+Determination of the optimal values of the regime parameters of ion–ozone cavitation processing of dough from third-class whole-ground flour for its physical and chemical properties
+To identify the optimal modes of ion–ozone cavitation processing of dough, which would make improving the bread quality possible, a series of experimental studies were conducted.
+The concentrations of ozone ion (C, units/mg), overpressure (P, atm), and processing time (τ, min) were taken as regime factors for dough processing. The quality of bread after ion–ozone cavitation treatment was assessed by physicochemical quality indicators (zi).
+In order to decrease the number of experiments and increase the reliability of the results obtained, the experiments utilized methods of planning multifactorial experiments. The plan of complete three-factor experiments of the FFE-23 type with experimental conditions is shown in Table 5. In order to reduce the impact of uncontrolled parameters on the results of experiments, the experiments were randomized through the use of tables of random numbers.
+Table 5 Planning matrix and results of experiments to study the effect of ion–ozone cavitation dough processing modes on bread quality indicators.
+Full size table
+The method for determining protein using the biuret reaction has good reproducibility and specificity, is relatively cheap and simple, and its use allows the study to be carried out both on analyzers (automatic and semi-automatic) and on a conventional photometer. The principle of the method is that proteins react in an alkaline medium with copper sulfate to form complex compounds colored violet. The intensity of the color, which is proportional to the amount of protein, determines its content in food products.
+The mass fraction of fat in bakery products was determined by the extraction method with preliminary hydrolysis of the sample (arbitration method) according to GOST 566858 and expressed as a percentage per 100 g of the whole product.
+Carbohydrates: sucrose was determined by the permanganate method, starch by the polarimetric method (Evers)59. The fiber and cellulose contents were determined according to the Weende method using FIWE 3 devices60.
+The ash content of bread was determined by the content of mineral salts (ash) in the flour, which remains after it is burned at high temperatures. The ash content of flour is expressed as a percentage and can vary from 0.3 to 2.5% depending on the type of flour and its production process. The higher the ash content of flour, the more fiber, vitamins and minerals it contains, but the quality of bread and other products decreases61.
+The moisture content of the dough was determined according to GOST R 51414-99. The method consists of measuring and recording the consistency of the dough during its formation from flour and water, the development of the dough and the change in its consistency over time during the kneading process, using a valorigraph62.
+The acidity of bread and dough was determined according to GOST 5670-96. The standard applies to baked goods, as well as low-moisture baked goods, and establishes methods for determining acidity. The degree of acidity is the volume in cubic centimeters of a solution of an exact molar concentration of 1 mol/dm3 of sodium hydroxide or potassium hydroxide required to neutralize the acids contained in 100 g of products63.
+The porosity of bread was determined according to GOST 5669–96 using a Zhuravlev device64. Porosity is the ratio of the pore volume of the crumb to the total volume of the bread crumb, expressed as a percentage.
+The moisture content of the bread was determined according to GOST 21094-2022. This standard applies to bakery products and establishes gravimetric methods for determining moisture (hereinafter referred to as the mass fraction of moisture) by drying a sample of the product in an oven and in an accelerated way—using a moisture analyzer (moisture meter). The method of drying a sample of a product in a drying cabinet is used when disagreements arise in assessing quality65.
+The volume of bread was determined according to GOST 5667-2022. The volume of baked pan bread is determined using a P3-BIO brand meter. When determining the volume of bread using a P3-BIO brand meter, the filling container must be filled with prepared grain before starting work. At this time, the container should be in the upper position with the valve closed. Excess grain poured into the container is removed with a ruler. Then the grain is poured with the valve open from the filling container into the bread container, after which it is returned to the filling container again. Close the damper, return the container to its previous upper position and fill it with grain again. To determine the volume, place the bread container in the upper position and place the bread in it. The bread container is then lowered to the lower position. The grain moves from the top container to the bread container and fills it. The grain displaced by the volume of bread exits into a glass tube. After the grain stops settling in the tube, its level is counted on a scale, the readings of which correspond to the volume of the bread being measured66.
+By processing the experimental results according to the algorithms and programs of sequential regression analysis for each flour quality indicator considered, the corresponding regression equations were obtained and are displayed in Table 6. As can be observed from the statistical characteristics, the equations according to the Fisher criterion at a significance level of p = 0.05 adequately describe the dependence of the studied indicators of the dough quality on the modes of its processing—the concentration of ion–ozone Cio, excess pressure P, and duration of processing τ.
+Table 6 Regression equations in natural variables and statistical characteristics of the dependences of the rheological properties of the dough on the modes of its ion–ozone cavitation treatment.
+Full size table
+Obviously, all the regression equations obtained by the Fisher criterion adequately describe the dependence of the considered indicators of the processed dough quality on the conditions and methods of processing (factors C, P, and τ).
+A brief analysis of the regression equations in Table 6 demonstrates that the concentration of ozone ion C affects only such physical and chemical indicators of bread quality including z1, z2, z3, z5, and z11. The pressure P (atm) influences the bread quality indicators z2, z3, and z11, while the dough processing time τ influences the quality indicators z1, z2, z3, z6, z7, and z11. Some indicators of bread quality (z4, z8, z9, z10) are not affected by the studied factors C, P, and τ at all.
+Next, the problem of optimizing the technological modes of dough processing was formulated and solved, including the justification of the objective function, bilateral restrictions (limits of change) on the values of the factors, and the criterion for assessing the bread quality.
+The bread volume z11 was chosen as the objective function of bread quality. In the problem, it is essential to identify the processing conditions (values of the factors C, P, and τ) that make achieving the maximum objective function possible, that is, the largest volume of bread z11.
+Given the presence in many equations of significant coefficients of pair interactions (i.e., the nonlinearity of the objective function and quality assessment criteria), the search for optimal processing modes was performed through the use of nonlinear programming methods—the Newton method, which is part of the ‘Search for a solution’ procedure of the MS Office Excel package.
+For a visual illustration of the nature of the dependence of the objective function on the factors influencing it, the corresponding response surfaces were constructed. When constructing these two-factor dependencies, the remaining significant factor included in the regression equation was fixed at the optimal level.
+To optimize the bread volume (cm3), an objective function was adopted as follows:
+$$z_{11} = 246.70{-}15.627P{-}0.324CP{-}1.422P\tau \to \max$$ (23)
+Limitations for other quality indicators, both dependent on the studied factors and independent, were as follows:
+$$\begin{aligned} 4.0\% \le z_{1} & = \, 4.676 \, {-} \, 0.00226C\tau , \, \% & \le 7.0\% \\ 0.45\% \le z_{2} & = \, 0.8404P{-} \, 0.02003CP + \, 0.00303C\tau \, {-} \, 0.05206P\tau , \, \% & \le 1.7\% \\ 29.0\% \le z_{3} & = \, 31.625 \, + \, 0.140C{-} \, 2.000P + \, 0.440\tau , \, \% & \le 37.3\% \\ 1.0\% \le z_{4} & = \, 1.989, \, \% & \le 2.0\% \\ 1.5\% \le z_{5} & = \, 2.9169 \, + \, 0.01563C,\% & \le 3.5\% \\ 47.0\% \le z_{6} & = \, 54.950 \, {-} \, 0.645\tau , \, \% & \le 52.0\% \\ 1.0{\text{ deg}} \le z_{7} & = \, 5.900 \, {-} \, 0.130\tau ,{\text{ deg}} & \le 5.3{\text{ deg}} \\ 50.0\% \le z_{8} & = \, 60.587, \, \% & \le 68.0\% \\ 41.0\% \le z_{9} & = \, 43.00, \, \% & \le 47.0\% \\ 4.0{\text{ deg}} \le z_{10} & = \, 4.325,{\text{ deg}} & \le 4.6{\text{ deg}} \\ 180{\text{ cm}}^{3} \le z_{11} & = \, 246.700 \, {-} \, 15.627P{-} \, 0.324CP{-} \, 1.422P\tau ,{\text{ cm}}^{3} & \le 250{\text{ cm}}^{3} \\ \end{aligned}$$
+Restrictions on the range of changes in the conditions (modes) of dough processing were set as equal to the range of changes in the experimental conditions:
+5 units/mg ≤ C·10–4 ≤ 25 units/mg; 1 atm ≤ P ≤ 2 atm; 5 min ≤ τ ≤ 10 min
+Using the obtained system of equations, the optimal conditions (modes) of dough processing were determined by the nonlinear programming method:
+C·10–4 = 25 units/mg, P = 1 atm, τ = 5 min,
+which, subject to all the requirements (restrictions) on the bread quality, provide its maximum volume of z11 = 232.1 cm3.
+The obtained optimal values of physical and chemical indicators of bread quality are shown in Table 7.
+Table 7 Values of physical and chemical indicators of bread quality under optimal processing conditions.
+Full size table
+For greater clarity of the dependence of the objective function on the studied processing conditions (factors C, P, and τ), the corresponding response surfaces of the influence of the studied factors were built and are displayed in Fig. 2.
+Figure 2
+Response surfaces of bread volume dependence on factors C, P, τ: (a) τ = 5 min, (b) C = 25·104, units/mg, (c) P = 1 atm.
+Full size image
+Analyzing the response surface of the dependence of the bread volume on the factors C and P at τ = 5 min, Fig. 2a indicates that as the concentration of ozone ion C increases, the bread volume also increases. Moreover, the greater the pressure is, the more the volume increases, which is explained by the mutual influence of the factors C and P. Thus, at P = 1 atm, the bread volume with an increase in the concentration of ozone ion C from 5·104 to 25·104 units/mg increases by 6.46 cm3, and at P = 1 atm by 12.96 cm3.
+If the effect of pressure on the bread volume is considered, then its effect is opposite to that considered—with an increase in pressure, the bread volume decreases, and at a lower concentration of ozone ion C, the decrease is more pronounced (21.12 cm3 vs. 14.64 cm3), emphasizing the greater influence of the force of pressure.
+Figure 2b also clearly illustrates the mutual influence of factors τ and P on the volume of bread at C = 25·104 units/mg. At τ = 5 min and with a reduction in P from 2 to 1 atm, the volume of bread increases by 14.64 cm3, and at = 10 min by 20.75 cm3. Similarly, the duration of dough processing τ manifests itself—with its reduction from 10 up to 2 min and P = 2 atm, the volume of bread increases by 14.22 cm3, and at P = 2 atm by 7.11 cm3.
+As for the influence of factors C and τ on the volume of bread at P = 1 atm (Fig. 2c), due to the absence of their mutual influence, the change in the volume of bread occurs proportionally—as C increases, the volume of bread increases by 6.48 cm3, regardless of the duration of processing τ, and as τ increases, the volume of bread decreases by 14.64 cm3, regardless of the value of C.
+Thus, the analysis of the influence of the considered factors C, P, and τ, complicated by the pairwise mutual influence of C–P and P–τ, confirmed the results of the optimization of the modes of ion–ozone cavitation processing of the dough, allowing the maximum volume of bread—232.1 cm3 to be reached.
+Discussion
+Based on the ion–ozone cavitation effect of dough preparation, contributing to the improvement of the product quality, environmental conditions, and shortening of technological processes, the technology of production of bread products without yeast from wheat flour of three classes of ground from whole grains has been developed.
+When the dough components are pressurized with compressed air, the semi-finished product is intensively saturated with air cells, the structural and mechanical properties of the dough are improved, and its volume and mass are reduced. This contributes to a reduction in the number of SH groups and the formation of S–S bonds in the protein structure, strengthening the protein structure.
+Under the influence of proteolytic enzymes, the complex structure of the protein molecule is simplified, its ability to swell decreases, and the solubility of proteins increases. The main reaction catalyzed by proteolytic enzymes is also that they hydrolyze a part of auxiliary proteins closely related to the surface of starch granules.
+The main reaction catalyzed by proteolytic enzymes is the hydrolysis of peptide bonds in proteins and peptide molecules. Polypeptides, peptides, and amino acids are formed as a result of protein hydrolysis under the influence of protease.
+Protein molecules have reactive SH groups, which are able to oxidize under the influence of oxygen, when the dough components are pressed under pressure, the semi-finished product intensively saturates the air with oxygen. In addition, the action of enzymes (a-amylase and protease) on starch and flour protein contributes to the intensive formation of substances that determine the taste and aroma of bread. During this period, a number of products of enzymatic hydrolysis of proteins and starch (low-molecular nitrogenous substances, polypeptides, peptides, amino acids, and carbonyl compounds) participate in the formation of the taste and aroma of unfermented products, as well as participate in the reaction of melanoidin formation, which occurs during baking of white bread. As a result, melanoidins are formed.
+Doughs were produced in an ion–ozone cavitation unit to reduce the duration and eliminate some stages of the technological process of dough preparation during the baking of bread and bakery products, as well as to increase the biological value of the processed products. Structured water was charged with ozone, atomic or molecular ions, and their mixtures and ozonized according to the technological process with cavitation. This process helps to lower production costs, ensure high processing speed, and guarantee product quality, environmental and biological purity, minimal energy consumption, reliability, and ease of use. When enhancing the process of baking bread and other products, it is important to obtain an environmentally friendly food product with improved quality through a simple and short technological process67,68,69.
+The number of dough deformation cycles according to the frequency of rotation of the kneading body directly influences the dough quality. A link was established affecting the completeness of the process of forming the dough microstructure, its properties, and the bread quality70,71,72,73.
+The ion–ozone cavitation technology of dough preparation allows us to completely avoid the process of fermentation and filling of dough (and therefore the appropriate equipment: dough kneading machine, dejas [kneading bread dough], fermentation vessels, and filling cabinet) to eliminate the use of pressed yeast when kneading dough. Thus, the use of ion–ozone cavitation technology in dough preparation allows a reduction in the duration of the technological process of bread production from 3 to 6 h, increasing labor productivity by 2–3×, increasing bread production by 14–18%, and enhancing the quality indicators of the finished product74,75,76,77.
+The bakery industry is designed to provide the population with bread products in sufficient quantity and range to form a healthy and balanced diet. A review of patent and literary technologies for covering short-cycle bread for more than 10 years was carried out, and the methods of our research work were determined by rotating the dough intensively with high revolutions under air pressure, suitable for scientific and practical production, and further improving it. An analysis of the current state and development trends of the range of functional bakery products was conducted78,79.
+The dough was taken by a new unit of kneading with innovative ion–ozone cavitation technology, and its optimal modes were created by mathematical processing.
+Based on the ion–ozone cavitation technology for the dough preparation, which allows the removal of yeast according to the recipe, shortens the duration of the production process, enhances the quality of the finished product, increases labor productivity, and improves the socioeconomic indicators of baking enterprises, a new direction of production of bread products without yeast was created.
+The use of ion–ozone water with numerous useful properties and ion–ozone cavitation technology of dough preparation in the production of bread products contributes to the creation of environmentally safe products.
+By performing multifactorial planned experiments of each investigated physicochemical, biological, rheological, microbiological, and nutritional indicator with control modes of ion–ozone cavitation technologies, mathematical regression equations determining their changes were applied, and their statistical characteristics were revealed.
+Scientific and technical documents of new innovative bread production technology were created, production was approved, and economic, social, and environmental efficiency were presented80,81,82.
+In determining the possible technological parameters of dough kneading with innovative ion–ozone cavitation technology, a linear orientation model was created on the basis of regression equations, and all indicators of dough and bread were taken into consideration through the use of target and limit functions.
+On this basis, production recipes, new assortments of unleavened bread products, and their technological modes were proposed.
+Relative physicochemical, biological, flour, and bread properties were investigated, storage capacity and safety indicators were determined, and the scientific-practical basis for coating unleavened bread with the effect of cavitation was established.
+For the first time, in order to increase the technological potential of low-class whole wheat flour, its amino acids and vitamin indicators were fully studied, and the possibility of obtaining high-quality bread with ion–ozone cavitation technology was revealed. To identify the possible ion–ozone cavitation winter cycle kneading technology regimes from whole wheat flour, linear orientation models were created based on mathematical regression equations, and the regimes of high physical, chemical, biological, and rheological properties, low microbiological indicators, stable safety, and a high-quality yeast-free bread coating were fully determined and proposed.
+The intensification of the process is due to the fact that during the preparation of the dough, there is no need to use a pre-proofer and other machines used in traditional bread baking, which in turn allows a reduction in production areas, as well as reduces the time spent on making bread.
+The use of an ion–ozone cavitation plant for accelerated dough preparation will improve the structural-mechanical, rheological and technological properties of aerated dough and products from it, reduce energy consumption and increase production productivity by reducing the duration of mixing and churning, automated dough division process83,84.
+Ion–ozone cavitation treatment of dough allows you to shorten the production process, in particular, reduce the fermentation process of dough when preparing bakery products, and reduce the amount of pressed yeast when making dough. The use of cavitation treatment of dough makes it possible to reduce the duration of the bread production process from 3 to 6 h, significantly increase labor productivity by 2–3×, and increase bread yield by 14–18%.
+The production of new types of bakery products based on environmentally friendly technologies using whole-milled flour and cavitation processing of dough will solve the following market problems:
+changing the structure of consumption of bakery products towards an increase in more functionally healthy products. This change in the consumption structure brings two positive results: the prevention of various diseases in the population and the involvement of additional raw materials in food circulation;
+short shelf life of flour products, which increases the number of returns and does not allow expanding the geography of product supplies.
+Materials and methods
+Raw materials
+The following raw materials were utilized for preparing experimental samples: soft wheat flour of the third grade85 (was purchased from the Kazakh Research Institute of Agriculture and Crop Production on the basis of an agreement No. 20-04-13/C), table salt (GOST R 51574-2000)86, and drinking water (SanPiN 2.1.4.1074-0187).
+Methods of detection
+Physicochemical and rheological indicators of dough and bread products were studied. Research on the determination of physicochemical and rheological indicators of dough, and bakery products was conducted at the Research Institutes of Food Safety and Food Technologies of Almaty Technological University. The moisture content was determined by the accelerated method according to GOST 9404-88. This International Standard applies to flours and bran and specifies the air-thermal method for the determination of moisture content. The essence of the method lies in the dehydration of flour and bran in an air-heating cabinet at fixed temperature and drying time parameters88. The composition of raw gluten was controlled following GOST 27839-88. This standard applies to wheat flour and establishes methods for determining the amount of gluten by washing it out of the dough using mechanical means or manually and the quality of gluten by measuring its elastic properties. Gluten is a complex of protein substances capable of forming a cohesive elastic mass when swollen in water. The results of measurements of the elastic properties of gluten are expressed in conventional units of the IDK-1M device and, depending on their value, gluten is assigned to the appropriate quality group54. α-amidase was determined according to GOST R 51228-9855. This standard specifies a colorimetric method for the determination of alpha-amylase activity in grains and cereal products ranging from very low to very high values. The method is also used to evaluate the activity of alpha-amylase in additives of fungal or bacterial origin. The protein mass fraction was determined according to GOST 10846-91. This standard applies to grain and products of its processing and establishes a method for the determination of protein. The essence of the method lies in the mineralization of organic matter with sulfuric acid in the presence of a catalyst with the formation of ammonium sulfate, the destruction of ammonium sulfate with alkali with the release of ammonia, the stripping of ammonia with water vapor into a solution of sulfuric or boric acid, followed by titration89. The fat content was determined according to GOST 29033-91. This standard applies to grain and products of its processing and establishes a method for determining fat. The essence of the method lies in the extraction of crude fat from the product with a solvent, the subsequent removal of the solvent, drying and weighing of the extracted fat90. The fiber mass fraction was determined according to the Wend method with the FIWE 3 analyzer. Also, other standard methods and techniques were used to study dough and bakery products.
+Devices and installations
+Flour made from whole wheat grains was obtained by disintegration-wave milling in a disintegrator.
+Before sending various standard or low-class wheat for grinding, the process of moistening the wheat in a certain amount was conducted so that the quality indicators of the flour obtained from the wheat were good. Moistening grain before grinding at flour mills is one of the most important conditions for improving the quality of products. With proper moistening, the grinding qualities of grain are improved, the load on flour-grinding machines is reduced, the ash content of flour is reduced, and as a result, the yield of premium flour increases.
+According to the weight of wheat, the amount of water required for hydration is calculated by the following formula (24):
+$${\text{V}}_{{{\text{water}}}} = \left( {{\text{W}}_{1} {-}{\text{ W}}_{2} } \right) \cdot {\text{V}}_{{{\text{flour}}}} /100$$ (24)
+where W1 is the required humidity, %; W2 is the moisture content of different types of wheat during the same period of time, %; Vflour is the required amount of wheat of different varieties for grinding, kg.
+To reduce the time and eliminate some stages of the technological process of dough preparation for baking bread and bakery products and to increase the biological value of processed products, they were produced in an ion–ozone cavitation unit (Fig. 3) using ion-ozonated water, saturated with ozone, atomic or molecular ions, and their mixtures, in accordance with the technological process – cavitation. The ion–ozone cavitation unit for dough preparation consists of units and mechanisms of control, regulation, and protection, integrated into a single unit by a common ion–ozone cavitator, ensuring the safety of the operating personnel. All knots and details of working bodies are made of food stainless steel. The electric motor has a frequency controller for the speed of rotation of the shaft. Laboratory ion–ozone cavitation plant for dough preparation has a capacity of 50 kg/h, dimensions of 1000 × 800 × 800 mm, and a plant weight of 50 kg. Standard materials, profiles, and electrical devices were utilized in the design of the laboratory ion–ozone cavitation unit for dough preparation.
+Figure 3
+Laboratory ion–ozone cavitation unit for accelerated dough preparation.
+Full size image
+Ion–ozone cavitation plant for accelerated dough preparation consists of a dough preparation tank, bubbling shaft, flour dispenser, water dispenser, ozone supply pipe, negative or positive air oxygen ions, ion–ozone mixture, overpressure sensor, electric wire, electric drive, fuses, frequency converter, cavitator lever.
+The technological procedure of processing the receipt of the dough is as follows. The dough was obtained by mechanical pressure loosening in an experimental ion–ozone cavitation device for the preparation of dough with an accelerated cycle. The prescription dough components are fed through the feed opening into the kneading body of the batch mixer, in which the kneading body is installed, and driven by an electric motor using a speed variator. At the end of the loading, the kneading body of the kneading machine is hermetically sealed with a lid and the dough is kneaded for 5 min at a kneading body rotation frequency of 25 Hz. Then, ion–ozone cavitation air is supplied to the kneading chamber at a pressure of 2 atm and the dough is knocked down for 3 min at a rotation frequency of the kneading body of 25 Hz. When knocking down prescription components, the dough mass is saturated with air. The dough prepared in this way is a foamy mass with stable physical and chemical characteristics. The dough prepared in this way is a foamy mass with stable physicochemical characteristics. The duration of baking at a baking chamber temperature of 220 °C was 25–30 min, depending on the mass of the product.
+Whipped yeast dough was prepared for a laboratory ion–ozone cavitation unit at 55%–56% humidity according to the recipes and regimes shown in Table 8.
+Table 8 The recipe for whipped yeast bread made from third-class flour and the modes of cooking the dough.
+Full size table
+Statistical analysis
+The data obtained during the experiments were processed using the mathematical method of variation statistics using the Statistika 10.0 developer: StatSoft, USA. Also, the data were analyzed using MS Excel for Windows version 10 Pro, 2010. The data collected during the study were subjected to independent testing, and questionnaires were conducted to assess the organoleptic characteristics of control and dough samples. The analysis process used absolute and relative statistical indicators and tabular and graphical methods for presenting the results. Values were estimated using mean and standard deviations. The experiment was conducted with three repetitions. Taking into consideration the presence of significant coefficients of pair interaction (i.e., the nonlinearity of the objective function and quality assessment criteria) in numerous equations, the search for optimal processing modes was performed through the use of nonlinear programming methods—the Newton method, which is part of the ‘Find a solution’ procedure in the MS Office Excel package.
+Conclusion
+The work involved the optimization of ion–ozone cavitation treatment modes for dough made from whole-ground wheat flour of the 3rd class. Analysis of the obtained equations showed that the dough extensibility index, dough strength and dough elasticity index depend on all three factors C, P and τ, and the dough formation time depends only on factors C and P. Regression equations were obtained using the Fisher criterion, which adequately describes the dependence physicochemical and rheological indicators of the quality of processed dough and bread depending on the conditions and processing methods (factors C, P and τ). The results of the bread study showed that the concentration of ozone C ion affects only such physical and chemical indicators of bread quality as: z1—protein, %; z2—fats, %; z3—carbohydrates, %; z5—cellulose, % and z11—the volume of bread, cm3. Pressure P (ati) affects bread quality indicators z2—fats, %; z3—carbohydrates, % and z11—the volume of bread, cm3, and the duration of dough processing τ—for quality indicators z1—protein, %; z2—fats, %; z3—carbohydrates, %; z6—dough moisture, %; z7—dough acidity, degrees and z11—the volume of bread, cm3. Some indicators of bread quality (z4—ash content, %; z8—porosity, %; z9—bread moisture, % and z10—the acidity of bread, degrees) are not affected by the studied factors C, P and τ at all. Using an equation system and the nonlinear programming method, the optimal conditions (modes) for dough processing were determined, which, subject to all requirements (limitations) for bread quality, provide its maximum volume z11 = 232.1 cm3: C 10–4 = 25 units/ mg, P = 1 atm, τ = 5 min. Analysis of the influence of the considered factors C, P and τ, complicated by the pairwise mutual influence of C–P and P–τ, confirmed the results of the optimization of the ion–ozone cavitation treatment of dough, which allows achieving the maximum volume of bread.
+Data availability
+The datasets used and/or analyzed during the current study are available from the corresponding author upon reasonable request.
+References
+Waziiroh, E., Schoenlechner, R., Jaeger, H., Brusadelli, G. & Bender, D. Understanding gluten-free bread ingredients during ohmic heating: Function, effect and potential application for breadmaking. Eur. Food Res. Technol. 248(4), 1021–1034. https://doi.org/10.1007/s00217-021-03942-4 (2022).
+Article
+  CAS
+  Google Scholar
+  Sawettanun, S. & Ogawa, M. Influences of rare sugar D-allulose on the fermentation ability of baker’s yeast and the physical properties of bread. Int. J. Food Sci. Technol. 57(9), 6004–6015. https://doi.org/10.1111/ijfs.15945 (2022).
+Article
+  CAS
+  Google Scholar
+  Khuzwayo, T. A., Taylor, J. R. N. & Taylor, J. Influence of dough sheeting, flour pre-gelatinization and zein inclusion on maize bread dough functionality. LWT Food Sci. Technol. 121, 108993. https://doi.org/10.1016/j.lwt.2019.108993 (2020).
+Article
+  CAS
+  Google Scholar
+  Buyanov, S. Grain in Kazakhstan is getting worse, and it is becoming more and more expensive to produce it. Forbes Kazakhstan. Retrieved Apr 19, 2017, from https://forbes.kz/finances/markets/zerno_v_kazahstane_vse_huje_i_proizvodit_ego_stanovitsya_vse_doroje (2017).
+Ganenko I., & Maksimova, E. The impact of the record is exaggerated: How the country copes with grain overproduction. Agroinvestor. Retrieved Nov 4, 2017, from https://www.agroinvestor.ru/analytics/article/28784-vliyanie-rekorda-preuvelicheno/ (2017).
+The food situation in the world. FAO. Retrieved Dec 02, 2022, from https://www.fao.org/worldfoodsituation/csdb/en/ (2022).
+Gaido, Z. A., Maich, R. H. & Dubois, M. E. Bread-making quality in lines of high-quality wheat with increasing potential grain yields. Phyton 69, 85–90 (2000).
+Google Scholar
+  Coțovanu, I., Stroe, S.-G., Ursachi, F. & Mironeasa, S. Addition of amaranth flour of different particle sizes at established doses in wheat flour to achieve a nutritional improved wheat bread. Foods 12(1), 133. https://doi.org/10.3390/foods12010133 (2023).
+Article
+  CAS
+  Google Scholar
+  Coţovanu, I. & Mironeasa, S. An evaluation of the dough rheology and bread quality of replacement wheat flour with different quinoa particle sizes. Agronomy 12(10), 2271. https://doi.org/10.3390/agronomy12102271 (2022).
+Article
+  CAS
+  Google Scholar
+  Gelinas, P. Compressed baker’s yeast: Mapping patents on post-fermentation processes. Compr. Rev. Food Sci. Food Saf. 16(3), 456–476. https://doi.org/10.1111/1541-4337.12256 (2017).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Iuga, M., Batariuc, A. & Mironeasa, S. Synergistic effects of heat-moisture treatment regime and grape peels addition on wheat dough and pasta features. Appl. Sci. 11(12), 5403. https://doi.org/10.3390/app11125403 (2021).
+Article
+  CAS
+  Google Scholar
+  Nattanan, Ch. et al. Influence of growth rates, microstructural properties and biochemical composition on the thermal stability of mycelia fungi. Sci. Rep. 12, 15105 (2022).
+Article
+  Google Scholar
+  Bekiaris, G., Tagkouli, D., Koutrotsios, G., Kalogeropoulos, N. & Zervakis, G. I. Pleurotus mushrooms content in glucans and ergosterol assessed by ATR-FTIR spectroscopy and multivariate analysis. Foods 9, 535. https://doi.org/10.3390/foods9040535 (2020).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Asim, N., Ehtesham, I., Farhan, A., Jin, K. & Kwang, NCh. Self-initialized active contours for microscopic cell image segmentation. Sci. Rep. 12, 14947 (2022).
+Article
+  Google Scholar
+  Berry, D. Prospects for the use of dairy ingredients. Confect. Bak. Prod. 9, 6–7 (2010).
+ADS
+  Google Scholar
+  Steinkraus, K. H. Fermentations in world food processing. Compr. Rev. Food Sci. Food Saf. 1(1), 23–32. https://doi.org/10.1111/j.1541-4337.2002.tb00004.x (2006).
+Article
+  Google Scholar
+  Rehman, S., Paterson, A. & Piggott, J. R. Flavour in sourdough breads: A review. Trends in Food Science and Technology 17, 557–566 (2006).
+Article
+  Google Scholar
+  Gobbetti, M., Angelis, M., Corsetti, A. & Cagno, R. D. Biochemistry and physiology of sourdough lactic acid bacteria. Trends Food Sci. Technol. 16, 57–69 (2005).
+Article
+  CAS
+  Google Scholar
+  Iztayev, A. et al. The investigation of the impact of dynamic deterioration of ozone on grass growth and the consequence of ion–ozone cavitation treatment. J. Adv. Res. Dyn. Control Syst. 10(13-SI), 663–671 (2018).
+Google Scholar
+  Tursunbayeva, S. et al. Development of a highly efficient ion–ozone cavitation technology for accelerated bread production. Sci. Rep. 11(1), 19129 (2021).
+Article
+  ADS
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Dong, Z. & Qin, Z. Experimental study of pathogenic microorganisms inactivated by venturi-type hydrodynamic cavitation with different throat lengths. J. Civ. Eng. Forum 4(3), 209–214. https://doi.org/10.22146/jcef.38756 (2018).
+Article
+  Google Scholar
+  Barba, F. J., Santana, A. S., Orlien, V. & Koubaa, M. Innovative technologies for food preservation. In Inactivation of spoilage and pathogenic microorganisms 1st edn, Vol. 329 (Elsevier, 2017).
+Google Scholar
+  Kim, H.-J. et al. Trends in rapid detection methods for food-borne pathogenic microorganisms by using new technologies. J. Food Hyg. Saf. 25(4), 376 (2010).
+Google Scholar
+  Ou, J. Incorporation of polyphenols in baked products. In Application of Polyphenols in Foods and Food Models, 207–252. https://doi.org/10.1016/bs.afnr.2021.02.009 (2021).
+Mayemerov, M. M., Iztayev, A. I., Kulazhanov, T. K. & Iskakova, G. K. Scientific bases of ion–ozone processing of grain and products of its processing. In Monograph 246 (Aleiron Publishing House, 2011).
+Google Scholar
+  Brandt, M. J. Sourdough products for convenient use in baking. Food Microbiol. 24, 161–164 (2007).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Gvozdenko, A. A. et al. Synthesis of CuO nanoparticles stabilized with gelatin for potential use in food packaging applications. Sci. Rep. 12, 12843 (2022).
+Article
+  ADS
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Tungyshbayeva, U. et al. Development of a methodology for determining the critical limits of the critical control points of the production of bakery products in the republic of Kazakhstan. Eastern-Eur. J. Enterp. Technol. 3(11–111), 57–69 (2021).
+Article
+  Google Scholar
+  Wu, G., Liu, X., Hu, Zh., Wang, K. & Zhao, L. Impact of xanthan gum on gluten microstructure and bread quality during the freeze-thaw storage. LWT 162, 113450. https://doi.org/10.1016/j.lwt.2022.113450 (2022).
+Article
+  CAS
+  Google Scholar
+  Van Herpen, E. & Jaegers, K. Less waste versus higher quality: How to stimulate consumer demand for frozen bread. Br. Food J. 124(13), 340–358. https://doi.org/10.1108/BFJ-02-2022-0165 (2022).
+Article
+  Google Scholar
+  Wojcik, M., Dziki, D., Gawlik-Dziki, U. & Rozylo, R. Development of no-salt herbal bread using a method based on scalded flour. LWT 145, 111329. https://doi.org/10.1016/j.lwt.2021.111329 (2021).
+Article
+  CAS
+  Google Scholar
+  Masure, H. G., Wouters, A. G. B., Fierens, E. & Delcour, J. A. Impact of egg white and soy proteins on structure formation and crumb firming in gluten-free breads. Food Hydrocoll. 95, 406–417. https://doi.org/10.1016/j.foodhyd.2019.04.062 (2019).
+Article
+  CAS
+  Google Scholar
+  Guerrini, L., Parenti, O., Angeloni, G. & Zanoni, B. The bread making process of ancient wheat: A semi-structured interview to bakers. J. Cereal Sci. 87, 9–17. https://doi.org/10.1016/j.jcs.2019.02.006 (2019).
+Article
+  Google Scholar
+  Marston, K., Khouryieh, H. & Aramouni, F. Evaluation of sorghum flour functionality and quality characteristics of gluten-free bread and cake as influenced by ozone treatment. Food Sci. Technol. Int. 21(8), 631–640. https://doi.org/10.1177/1082013214559311 (2015).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Garazhian, M., Gharaghani, A. & Eshghi, S. Genetic diversity and inter-relationships of fruit bio-chemicals and antioxidant activity in Iranian wild blackberry species. Sci. Rep. 10(1), 18983. https://doi.org/10.1038/s41598-020-75849-1 (2020).
+Article
+  ADS
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Lu, X., Brennan, M. A., Serventi, L. & Brennan, Ch. S. Incorporation of mushroom powder into bread dough: Effects on dough rheology and bread properties. Cereal Chemistry 95(3), 418–427 (2018).
+Article
+  CAS
+  Google Scholar
+  Betoret, E. & Rosell, C. M. Enrichment of bread with fruits and vegetables: Trends and strategies to increase functionality. Cereal Chem. 97(1), 9–19 (2020).
+Article
+  CAS
+  Google Scholar
+  Mostashari, P. et al. Ozone in wineries and wine processing: A review of the benefits, application, and perspectives. Compr. Rev. Food Sci. Food Saf. 21(4), 3129–3152. https://doi.org/10.1111/1541-4337.12971 (2022).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Hagenimana, A., Pu, P. & Ding, X. Study on thermal and rheological properties of native rice starches and their corresponding mixtures. Food Res. Int. 38(3), 257–266. https://doi.org/10.1016/j.foodres.2004.05.009 (2005).
+Article
+  CAS
+  Google Scholar
+  Obadi, M. et al. Shelf life characteristics of bread produced from ozonated wheat flour. J. Texture Stud. 49(5), 492–502. https://doi.org/10.1111/jtxs.12309 (2018).
+Article
+  PubMed
+  Google Scholar
+  Magomedov, G. O. & Ponomareva, E. I. Scientific and Practical Bases of Technology of Whipped Functional Bakery Products (Monograph) 248 (2010).
+Abu-Farah, L., Goudoulas, T. B., Hooshyar, S. & Germann, N. Numerical and experimental investigation of dough kneading in a three-dimensional spiral kneader. Phys. Fluids 31(11), 113104. https://doi.org/10.1063/1.5122261 (2019).
+Article
+  ADS
+  CAS
+  Google Scholar
+  Filinov, S. A., Lobov, A. A., Prokhorova, I. I., Lubsky, S. V., Maslov, N. A., Davydov, E. O., Stulov, S. V., Aksashev, M. S. & Skoblikov, A. A. Dough mixer for preparing yeast-free dough. Patent for invention No. RU 2 755 949 C1. Retrieved Sept 23, 2021 from, https://yandex.ru/patents/doc/RU2755949C1_20210923?ysclid=lmfyljegji868469174 (2021).
+Magomedov, G. O., Cheshinsky, V. L., Trufanova, J. N., Magomedov, M. G., & Isaev, V. A. Constructive and technological methods of intensification of kneading and improving the quality of bread. In Proceedings of the Voronezh State University of Engineering Technologies, 81(1), 232–237). FSBEI HE Voronezh State University of Engineering Technologies. https://doi.org/10.20914/2310-1202-2019-1-232-237 (2019).
+Zhu, F. Effect of ozone treatment on the quality of grain products. Food Chem. 264, 358. https://doi.org/10.1016/j.foodchem.2018.05.047 (2018).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Laureth, J., Christ, D., Ganascini, D. & Coelho, S. R. M. Effect of ozone application on the fungal count and lipid quality of peanut grains. J. Agric. Sci. 11(5), 271 (2019).
+Google Scholar
+  Sripong, K., Uthairatanakij, A. & Jitareerat, P. Impact of gaseous ozone on microbial contamination and quality of fresh-cut durian. Sci. Hortic. 294, 110799. https://doi.org/10.1016/j.scienta.2021.110799 (2022).
+Article
+  CAS
+  Google Scholar
+  Park, J.-S., Sung, B.-J., Yoon, K.-S. & Jeong, C.-S. The bactericidal effect of an ionizer under low concentration of ozone. BMC Microbiol. https://doi.org/10.1186/s12866-016-0785-5 (2016).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Xi, J. et al. Evolution of volatiles and quality of Chinese steamed bread during storage at different temperatures. Food Chem. 381, 132213. https://doi.org/10.1016/j.foodchem.2022.132213 (2022).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Zhou, L., Zhang, C., Liu, F., Qiu, Z. & He, Y. Application of deep learning in food: A review. Compr. Rev. Food Sci. Food Saf. 18, 1793–1811 (2019).
+Article
+  PubMed
+  Google Scholar
+  Akinbode, S. O., Dipeolu, A. O. & Okuneye, P. A. Willingness to pay for street food safety in Ogun State, Nigeria. J. Agric. Food Inf. 12(2), 154–166. https://doi.org/10.1080/10496505.2011.563226 (2011).
+Article
+  Google Scholar
+  Nkosi, N. & Tabit, F. The food safety knowledge of street food vendors and the sanitary conditions of their street food vending environment in the Zululand District, South Africa. Heliyon 7(7), e07640. https://doi.org/10.1016/j.heliyon.2021.e07640 (2021).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Pfisterer, K. J. et al. Automated food intake tracking requires depth-refined semantic segmentation to rectify visual-volume discordance in long-term care homes. Sci. Rep. 12, 83 (2022).
+Article
+  ADS
+  PubMed
+  PubMed Central
+  Google Scholar
+  GOST 27839-88. Wheat flour. Methods for determination of gluten quantity and quality. Standartinform. Retrieved from, https://docs.cntd.ru/document/1200022391 (2001).
+GOST R 51228-98 Grain and grain products. Colorimetric method for determining alpha-amylase activity. Publishing house of standards. Retrieved from, https://files.stroyinf.ru/Data2/1/4294818/4294818933.pdf?ysclid=lmn58upeei785458711 (1999).
+Stankevich, G. N. Drawing up a mathematical description based on experimental data. In Mathematical Modeling of Food Production Processes: Sat. Tasks: Textbook Vol. 1 (ed. Ostapchuk, N. V.) 175 (Vishcha School, 1992).
+Google Scholar
+  Ostapchuk, M. V. & Stankevich, G. N. Mathematical Modeling on a Computer: Textbook 313 (Druk, 2007).
+Google Scholar
+  GOST 5668-2022. Bakery products. Methods for determining the mass fraction of fat. Publishing house of standards. Retrieved from, https://files.stroyinf.ru/Data/781/78195.pdf?ysclid=lmngwznbcp129922956 (2022).
+Ramazaeva, L. F., Pachina, O. V., & Pozdeeva, M. G. Methods for determining carbohydrates in food products. Guidelines for performing laboratory work. Saratov, 16. Internet resource: Retrieved from, https://pandia.ru/text/79/062/81018.php?ysclid=lmnh4ua5pm326982345. (2009).
+Determination of crude fiber (Weende) using FIWE 3 and FIWE 6. Internet resource: Retrieved from, https://pandia.ru/text/79/062/81018.php?ysclid=lmnh4ua5pm326982345. (2014).
+GOST 27494-2016 Flour and bran. Methods for determining ash content. Publishing house of standards. Retrieved from, https://allgosts.ru/67/060/gost_27494-2016?ysclid=lmnn3hxnyt287449917. (2016).
+GOST R 51414-99. Wheat flour. Physical characteristics of the test. Determination of water absorption and rheological properties using a valorigraph. Publishing house of standards. Retrieved from, https://engenegr.ru/gost-r-51414-99. (1999).
+GOST 5670-96. Bread, rolls and buns. Methods for determination of acidity. Publishing house of standards. Retrieved from, https://files.stroyinf.ru/Data2/1/4294823/4294823421.pdf?ysclid=lmnnxejs42529523820. (1996).
+GOST 5669-96. Bakery products. Method for determination of porosity. Interstate council for standardization, metrology and certification. Retrieved from, https://files.stroyinf.ru/Data2/1/4294823/4294823423.pdf?ysclid=lmnpt0lpxv438159264. (1996).
+GOST 21094-2022. Bakery products. Methods of the moisture determination. Russian Institute of Standardization. Retrieved from, https://files.stroyinf.ru/Data/789/78939.pdf?ysclid=lmnqe2gpvj251818642. (2022).
+GOST 5667-2022. Bakery products. Acceptance rules, sampling methods, methods for determining organoleptic characteristics and weight of products. Russian Institute of Standardization. Retrieved from, https://internet-law.ru/gosts/gost/78187/?ysclid=lmnrehn0g3830547915. (2022).
+Carbonetto, B., Ramsayer, J., Nidelet, T., Legrand, J. & Sicard, D. Bakery yeasts, a new model for studies in ecology and evolution. Yeast 35(11), 591–603. https://doi.org/10.1002/yea.3350 (2018).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Randez-Gil, F., Corcoles-Saez, I. & Prieto, J. A. Genetic and phenotypic characteristics of baker’s yeast: Relevance to baking. Ann. Rev. Food Sci. Technol. 4(1), 191–214. https://doi.org/10.1146/annurev-food-030212-182609 (2013).
+Article
+  CAS
+  Google Scholar
+  Su, X. et al. Effect of organic acids on bread quality improvement. Food Chem. 278, 267–275. https://doi.org/10.1016/j.foodchem.2018.11.011 (2019).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Zafar, T. A., Allafi, A. R., Alkandari, D. & Al-Othman, A. Rheological characteristics of wheat–chickpea composite flour doughs and effect of Amla powder (Phyllanthus emblica L.) addition on the functional properties of bread. Food Sci. Technol. Int. 27(3), 264–275 (2021).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Lin, S. et al. Impact of wheat bran micronization on dough properties and bread quality: Part I—Bran functionality and dough properties. Food Chem. 353, 129407. https://doi.org/10.1016/j.foodchem.2021.129407 (2021).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Arai, Ch. et al. Effect of acid-soluble wheat protein addition on the quality of bread prepared from molded frozen dough. Cereal Chem. 98(3), 701–715. https://doi.org/10.1002/cche.10414 (2021).
+Article
+  CAS
+  Google Scholar
+  Milly, P. J., Toledo, R. T., Harrison, M. A. & Armstead, D. Inactivation of food spoilage microorganisms by hydrodynamic cavitation to achieve pasteurization and sterilization of fluid foods. J. Food Sci. 72(9), M414–M422. https://doi.org/10.1111/j.1750-3841.2007.00543.x (2007).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Sim, J. Y., Beckman, S. L., Anand, S. & Martínez-Monteagudo, S. I. Hydrodynamic cavitation coupled with thermal treatment for reducing counts of B. coagulans in skim milk concentrate. J. Food Eng. 293, 110382. https://doi.org/10.1016/j.jfoodeng.2020.110382 (2021).
+Article
+  CAS
+  Google Scholar
+  Verkhivker, Y. G., Myroshnichenko, E. M. & Petkova, O. V. Water in bakery production technology products with delayed bakery. Food Syst. 4(1), 31–39. https://doi.org/10.21323/2618-9771-2021-4-1-31-39 (2021).
+Article
+  Google Scholar
+  YiNing, D. & Karboune, S. A review of bread qualities and current strategies for bread bioprotection: Flavor, sensory, rheological, and textural attributes. Compr. Rev. Food Sci. Food Saf. 20(2), 1937–1981. https://doi.org/10.1111/1541-4337.12717 (2021).
+Article
+  CAS
+  Google Scholar
+  Qian, M. et al. A review of active packaging in bakery products: Applications and future trends. Trends Food Sci. Technol. 114, 459–471. https://doi.org/10.1016/j.tifs.2021.06.009 (2021).
+Article
+  CAS
+  Google Scholar
+  Roman, L., Belorio, M. & Gomez, M. Gluten-free breads: The gap between research and commercial reality. Compr. Rev. Food Sci. Food Saf. 18(3), 690–702. https://doi.org/10.1111/1541-4337.12437 (2019).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Zhakatayeva, A., Iztayev, A., Muldabekova, B., Yakiyayeva, M. & Hrivna, L. Scientific security assessment of safety risk of raw sugar products. Periodico Tche Quimica 17(34), 352–368 (2020).
+CAS
+  Google Scholar
+  Iztayev, A. et al. Controlling the implemented mathematical models of ion-ozon cavitation treatment for long-term storage of grain legume crops. J. Adv. Res. Dyn. Control Syst. 10(13SI), 672–680 (2018).
+Google Scholar
+  Iztayev, B. et al. Devising technology of the accelerated method for making yeast-freebakery products from wheat flour. Eastern-Eur. J. Enterp. Technol. 4(11–112), 50–57. https://doi.org/10.15587/1729-4061.2021.238148 (2021).
+Article
+  CAS
+  Google Scholar
+  Gao, J. et al. Characteristics of gluten-free potato dough and bread with different potato starch-protein ratios. Int. J. Food Eng. 17(7), 495–506. https://doi.org/10.1515/ijfe-2020-0287 (2021).
+Article
+  CAS
+  Google Scholar
+  Santetti, G. S., Dacoreggio, M. V., Silva, A. C. M, Biduski, B., Bressiani, J., Oro, T., Francisco, A., Carlos, G. L., & Amboni, R.D. de M.C. Effect of yerba mate (Ilex paraguariensis) leaves on dough properties, antioxidant activity, and bread quality using whole wheat flour. Journal of Food Science, 86(10), 4354–4364. https://doi.org/10.1111/1750-3841.15909 (2021).
+Arya, Sh. S. et al. Effect of thermally assisted hydrodynamic cavitation (HC) processing on physical, nutritional, microbial quality, and pectin methyl esterase (PME) inactivation kinetics in orange juice at different time and temperatures. J. Food Process. Preserv. 45(10), e15794. https://doi.org/10.1111/jfpp.15794 (2021).
+Article
+  CAS
+  Google Scholar
+  Breeding achievements. Internet resource: Retrieved Nov 5, 2023 from, https://kazniizr.kz/selektsionnye-dostizheniya/.
+GOST R 51574-2000. Food common salt. Specifications. Standartinform. Retrieved from, https://docs.cntd.ru/document/1200007271 (2005).
+SanPiN 2.1.4.1074-01. Sanitary and epidemiological rules and standards. Retrieved from, https://files.stroyinf.ru/Data1/9/9742/ (2010).
+GOST 9404-88. Flour and bran. Method of moisture content determination. Standartinform. Retrieved from, https://docs.cntd.ru/document/1200022334 (2001).
+GOST 10846-91. Grain and products of its processing. Method for determination of protein. Standartinform. Retrieved from, https://docs.cntd.ru/document/1200023864 (2009).
+GOST 29033-91. Grain and derived products. Determination of fat content. Standartinform. Retrieved from, https://docs.cntd.ru/document/1200024398 (1992).
+Download references
+Acknowledgements
+The work was carried out within the framework of targeted financing of the Ministry of Agriculture of the Republic of Kazakhstan BR10764977 "Development of modern technologies for the production of dietary supplements, enzymes, starters, starch, oils, etc. in order to ensure the development of the food industry" under project No. 1-2021-2023 "Development of flour products with accelerated production cycle based on finely dispersed whole-ground flour by deep processing of grain". In conclusion, we would like to express our sincere gratitude to everyone who participated in this research project for their interest in our research. We are extremely grateful to the management of Almaty Technological University for their help and support.
+Author information
+Authors and Affiliations
+Almaty Technological University, 100 Tole bi Str., 050012, Almaty, Kazakhstan
+Auyelbek Iztayev, Talgat Kulazhanov, Galiya Iskakova, Mariam Alimardanova, Saule Zhienbaeva, Baurzhan Iztayev, Sholpan Tursunbayeva & Madina Yakiyayeva
+Contributions
+M.Y., A.I. and S.T. wrote the main text of the manuscript, and M.A., S.Z. prepared Figures 1, 2, 3, T.K. and G.I. prepared Tables 1, 2, 3, 4, 5, 6, 7, 8, B.I. conducted a literary search. All authors reviewed the manuscript.
+Corresponding author
+Correspondence to Madina Yakiyayeva.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher's note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliation.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Iztayev, A., Kulazhanov, T., Iskakova, G. et al. The innovative technology of dough preparation for bread by the accelerated ion–ozone cavitation method. Sci Rep 13, 17937 (2023). https://doi.org/10.1038/s41598-023-44820-1
+Download citation
+Received
+23 April 2023
+Accepted
+12 October 2023
+Published
+20 October 2023
+DOI
+https://doi.org/10.1038/s41598-023-44820-1
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+Engineering
+Mechanical engineering
+Comments
+By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.
+Download PDF
+Sections
+Figures
+References
+Abstract
+Introduction
+Research results
+Discussion
+Materials and methods
+Statistical analysis
+Conclusion
+Data availability
+References
+Acknowledgements
+Author information
+Ethics declarations
+Additional information
+Rights and permissions
+About this article
+Comments
+Advertisement
+Scientific Reports (Sci Rep) ISSN 2045-2322 (online)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

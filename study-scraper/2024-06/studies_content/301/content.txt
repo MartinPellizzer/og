@@ -1,0 +1,504 @@
+Processing math: 100%
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Theoretical and Applied Climatology Article
+Comparison of satellite and ground-based measurements of erythemal dose from two tropical sites: Belo Horizonte (20° S, 44° W, 858 m) and Saint-Denis La Reunion (21° S, 55° E, 85 m)
+Research
+Published: 11 June 2024
+(2024)
+Cite this article
+Theoretical and Applied Climatology
+Aims and scope
+Submit manuscript
+A. A. Silva
+  11 Accesses
+Explore all metrics
+Abstract
+The ultraviolet radiation (UVR) from the Sun on the Earth surface depends on the altitude and surface albedo of the site, solar zenith angle (SZA), attenuation in the atmosphere (absorption by ozone and other trace gases, molecular scattering, scattering by clouds, and scattering and absorption by aerosols). Belo Horizonte (BH, 20° S, 44° W, 858 m a.s.l.) and Saint-Denis La Reunion (SDR, 21° S, 55° E, 85 m a.s.l.) are two very-similar-latitude tropical sites to which the incidence of solar UVR is compared. Despite the statistically significant difference in both altitude and total ozone column (TOC), where SDR has lower altitude and higher TOC, the annual averages of climatological daily erythemal dose (DED) from the Ozone Monitoring Instrument (OMI) for the sites show only -1% difference (\left(SDR-BH\right)\cdot 100\%/BH): 4486 ± 1621 (1 standard deviation) J m−2 for BH and 4434 ± 1687 J m−2 for SDR. Equivalent ground-based data are 13% and 11% (\left(OMI-site\right)\bullet 100\%/site), respectively, lower: 3976 ± 1072 J m−2 for BH and 4012 ± 1199 J m−2 for SDR with 1% difference between them. The comparison between the sites of atmospheric geophysical parameters of TOC, cloud fraction (CF), and UV aerosol index (AI) from OMI indicates clouds and aerosols as the main culprit to such a small difference. After clouds, aerosols play an important role, as BH is a metropolis polluted mainly by by-products from fossil-fuel and ethanol combustion and smoke from surrounding biomass burning sources, while SDR is virtually a pristine seashore locality affected by marine and long-distance biomass burning aerosols.
+This is a preview of subscription content, log in via an institution to check access.
+
+Data availability
+No datasets were generated or analysed during the current study.
+Abbreviations
+AI :
+UV aerosol index
+AI BH :
+AI For BH
+Alb :
+Climatological surface albedo
+Alt :
+Terrain height
+AOD :
+Aerosol optical depth
+AOD UVB :
+AOD In the UV-B
+AOD 440 :
+Climatological AOD at 440 nm
+a.s.l.:
+Above sea level
+BDTMc300:
+Bentham double-monochromator DTMc300 spectroradiometer
+BH:
+Belo Horizonte
+BH, {\overline{DED}}_{BH} :
+Annual average of DEDBH
+BH, {\overline{DED} }_{OMI} :
+Annual average of DEDOMI for BH
+BH, {\overline{TOC} }_{OMI} :
+Annual average of TOCOMI for BH
+BSL:
+Biometer Solar Light 501A
+calc :
+Calculated
+CCD:
+Charged coupled device
+CF :
+Cloud fraction
+CF BH :
+Climatotlogical CF for BH
+CIE:
+Commission Internationale de l’Eclairage
+CIMEL:
+Sun photometer equipment
+CLT:
+Central Limit Theorem
+COT :
+Cloud optical thickness
+CTP:
+Cross track position
+D :
+Biological dose
+DED :
+Daily erythemal dose
+DED BH :
+Ground-based climatological DED for BH
+DED OMI :
+Climatological DED from OMI
+Dif :
+Diffuse component of G
+Dir :
+Direct component of G
+Dist :
+Distance between the centres of site's and pixel's coordinates
+DOAS:
+Differential Optical Absorption Spectroscopy
+DU:
+Dobson Unit
+ED :
+Erythemal dose
+ED noon :
+ED At noon
+EOS:
+Earth Observing System
+FSN :
+Fire spot number
+FWHM:
+Full width at half maximum
+G :
+Global amount of irradiance
+G( λ ,t) :
+G As a function of λ and t
+INPE:
+Instituto Nacional de Pesquisas Espaciais
+JPEG:
+Joint Photographic Experts Group
+LCC :
+Local cloud cover
+LCC BH :
+Climatological LCC for BH
+LER :
+Lambert equivalent reflectivity
+LLUV:
+Laboratório de Luz Ultravioleta
+m :
+Number of years of measurement
+meas :
+Measured
+MED :
+Minimal erythema dose
+MODIS:
+Moderate Resolution Imaging Spectroradiometer
+MII:
+Microtops II
+n :
+Number of single averages
+OMI:
+Ozone Monitoring Instrument
+OMI-DOAS:
+OMI algorithm to obtain TOC
+OMI-TOMS:
+OMI algorithm to obtain TOC
+OMUVB:
+OMI algorithm to obtain UVR irradiance and DED
+Ref :
+Effective surface reflectivity
+S( λ ) :
+Action spectrum as a function of λ
+sd:
+Standard deviation
+SDR:
+Saint-Denis La Reunion
+SDR, {\overline{DED} }_{OMI} :
+Annual average of DEDOMI for SDR
+SDR, {\overline{DED}}_{SDR} :
+Annual average of ground-based climatological DED for SDR
+SDR, {\overline{TOC} }_{OMI} :
+Annual averages of TOCOMI for SDR
+SZA :
+Solar zenith angle
+SZA noon :
+SZA At noon
+T :
+Period of time
+t:
+Time
+TOC :
+Total ozone column
+TOC OMI :
+Climatological TOC from OMI
+TOC MII :
+Ground-based TOC by MII
+TOMS:
+Total Ozone Mapping Spectrometer
+TSI:
+Total Sky Imager 440A
+UT:
+Universal time
+UV:
+Ultraviolet
+UV-A:
+UVR in the range 320–400 nm
+UV-B:
+UVR in the range 280–320 nm
+UVMFR4:
+Ultraviolet Rotating Shadowband Radiometer 4
+UVR:
+UV radiation
+VD:
+Vitamin D
+VDD :
+Vitamin D dose
+λ :
+Wavelength
+σ:
+Level of uncertainty
+1-h EED :
+1-Hour erythemal effective dose
+References
+Alpert P, Kishcha P (2008) Quantification of the effect of urbanization on solar dimming. Geophys Res Lett 35:1–5. https://doi.org/10.1029/2007GL033012
+Article
+  Google Scholar
+  Antón M, Gil JE, Fernández-Gálvez J et al (2011) Evaluation of the forcing efficiency in the UV erythemal range at Granada, Spain. J Geophys Res 116:1–10. https://doi.org/10.1029/2011JD016112
+Article
+  CAS
+  Google Scholar
+  Antón M, Valenzuela A, Román R et al (2012) Influence of desert dust intrusions on ground-based and satellite-derived ultraviolet irradiance in southeastern Spain. J Geophys Res 117:1–8. https://doi.org/10.1029/2012JD018056
+Article
+  Google Scholar
+  Arola A, Kalliskota S, den Outer PN et al (2002) Assessment of four methods to estimate surface UV radiation using satellite data, by comparison with ground measurements from four stations in Europe. J Geophys Res 107:ACL 11.1-ACL 11.11. https://doi.org/10.1029/2001JD000462
+Arola A, Kazadzis S, Krotkov N et al (2005) Assessment of TOMS UV bias due to absorbing aerosols. J Geophys Res 110:1–7. https://doi.org/10.1029/2005JD005913
+Article
+  Google Scholar
+  Arola A, Kazadzis S, Lindfors A et al (2009) A new approach to correct for absorbing aerosols in OMI UV. Geophys Res Lett 36:L22805. https://doi.org/10.1029/2009GL041137
+Article
+  Google Scholar
+  Blumthaler M, Ambach W, Ellinger R (1997) Increase in solar UV radiation with altitude. J Photochem Photobiol, B 39:130–134
+Article
+  CAS
+  Google Scholar
+  Brogniez C, Doré JF, Auriol F et al (2021) Erythemal and vitamin D weighted solar UV dose-rates and doses estimated from measurements in mainland France and on Réunion Island. J Photochem Photobiol, B 225:112330. https://doi.org/10.1016/j.jphotobiol.2021.112330
+Article
+  CAS
+  Google Scholar
+  CIE (2000) Erythema reference action spectrum and standard erythema dose. CIE Standard Bureau, Vol. ISO 17166:1999(E), CIE DS 007.1/E-1998. Commission Internationale de l’Eclairage, Vienna
+CIE (2006) Action spectrum for the production of previtamin D3 in human skin. CIE Technical Report. 174, ISBN 3 901 906 50 9. Commission Internationale de l’Eclairage, Vienna
+Crutzen PJ, Andreae MO (1990) Biomass burning in the tropics: impact on atmospheric chemistry and biogeochemical cycles. Science 250:1669–1678. https://doi.org/10.1126/science.250.4988.1669
+Article
+  CAS
+  Google Scholar
+  Dowdy S, Wearden S (1983) Statistics for Research. John Wiley & Sons, New York
+Google Scholar
+  Duflot V, Bègue N, Pouliquen M-L et al (2022) Aerosols on the Tropical Island of La Réunion (21° S, 55° E): assessment of climatology, origin of variability and trend. Remote Sensing 14:4945. https://doi.org/10.3390/rs14194945
+Article
+  Google Scholar
+  Esposito F, Pavese G, Serio C (2001) A preliminary study on the correlation between TOMS aerosol index and ground-based measured aerosol optical depth. Atmos Environ 35:5093–5098. https://doi.org/10.1016/S1352-2310(01)00323-5
+Article
+  CAS
+  Google Scholar
+  Fitzpatrick TB (1988) The validity and practicality of sun-reactive skin types I through VI. Arch Dermatol 124:869–871
+Article
+  CAS
+  Google Scholar
+  Godoy MLDP, Godoy JM, Roldão LA et al (2009) Coarse and fine aerosol source apportionment in Rio de Janeiro, Brazil. Atmos Environ 43:2366–2374. https://doi.org/10.1016/j.atmosenv.2008.12.046
+Article
+  CAS
+  Google Scholar
+  Harrison L, Michalsky J, Berndt J (1994) Automated multifilter rotating shadow-band radiometer: an instrument for optical depth and radiation measurements. Appl Opt 33:5118–5125
+Article
+  CAS
+  Google Scholar
+  Herman JR, Celarier E, Larko D (2001a) UV 380 nm reflectivity of the Earth’s surface, clouds and aerosols. J Geophys Res 106:5335–5351
+Article
+  CAS
+  Google Scholar
+  Herman JR, Larko D, Celarier E et al (2001b) Changes in the Earth’s UV reflectivity from the surface, clouds, and aerosols. J Geophys Res 106:5353–5368
+Article
+  CAS
+  Google Scholar
+  Herman J, Cede A, Huang L et al (2020) Global distribution and 14-year changes in erythemal irradiance, UV atmospheric transmission, and total column ozone for 2005–2018 estimated from OMI and EPIC observations. Atmos Chem Phys 20:8351–8380. https://doi.org/10.5194/acp-20-8351-2020
+Article
+  CAS
+  Google Scholar
+  Hoel D, Berwick M, de Gruijl F et al (2016) The risks and benefits of sun exposure 2016. Dermato-Endocrinol 8:e1248325. https://doi.org/10.1080/19381980.2016.1248325
+Article
+  CAS
+  Google Scholar
+  Holick MF (2004) Sunlight and vitamin D for bone health and prevention of autoimmune diseases, cancers, and cardiovascular disease. Am J Clin Nutr 80:1678S-1688S
+Article
+  CAS
+  Google Scholar
+  Hülsen G, Gröbner J (2007) Characterization and calibration of ultraviolet broadband radiometers measuring erythemally weighted irradiance. Appl Opt 46:5877–5886
+Article
+  Google Scholar
+  Hsu NC, Herman JR, Torres O et al (1999) Comparisons of the TOMS aerosol index with Sun-photometer aerosol thickness: Results and applications. J Geophys Res 104:6269–6279
+Article
+  CAS
+  Google Scholar
+  IBGE (2021) Cidades. Instituto Nacional de Geografia e Estatística. https://cidades.ibge.gov.br. Accessed 3 September 2023
+INSEE (2023) Statistique et études. Institut Nacional de la Statistique et des Études Économiques. https://www.insee.fr/fr/statistiques. Accessed 3 September 2023
+Iqbal M (1983) An introduction to solar radiation. Academic Press, London
+Google Scholar
+  Kharol SK, Badarinath VS (2006) Impact of biomass burning on aerosol properties over tropical urban region of Hyderabad, India. Geophys Res Lett 33:1–4. https://doi.org/10.1029/2006GL026759
+Article
+  CAS
+  Google Scholar
+  Kinne S, O’Donnel D, Stier P et al (2013) MAC-v1: a new global aerosol climatology for climate studies. J Adv Model Earth Syst 5:704–740. https://doi.org/10.1002/jame.20035
+Article
+  Google Scholar
+  Koukouli ME, Balis DS, Amiridis V et al (2006) Aerosol variability over Thessaloniki using ground based remote sensing observations and the TOMS aerosol index. Atmos Environ 40:5367–5378. https://doi.org/10.1016/j.atmosenv.2006.04.046
+Article
+  CAS
+  Google Scholar
+  Kroon M, Dobber MR, Dirksen R et al (2008) Ozone monitoring instrument geolocation verification. J Geophys Res 113:1–9. https://doi.org/10.1029/2007JD008821
+Article
+  CAS
+  Google Scholar
+  Krotkov NA, Bhartia PK, Herman JR et al (1998) Satellite estimation of spectral surface UV irradiance in the presence of tropospheric aerosols 1. Cloud-Free Case J Geophys Res 103:8779–8793
+Article
+  Google Scholar
+  Kylling A, Bais AF, Blumthaler M et al (1998) Effect of aerosols on solar UV irradiances during the photochemical activity and solar ultraviolet radiation campaign. J Geophys Res 103:26051–26060
+Article
+  CAS
+  Google Scholar
+  Levelt PF, van den Oord GHJ, Dobber MR et al (2006) The ozone monitoring instrument. IEEE Trans Geosci Remote Sens 44:1093–1101. https://doi.org/10.1109/TGRS.2006.872333
+Article
+  Google Scholar
+  Liu SC, McKeen SA, Madronich S (1991) Effect of anthropogenic aerosols on biologically active ultraviolet radiation. Geophys Res Lett 18:2265–2268
+Article
+  CAS
+  Google Scholar
+  Maduekwe AAL, Chendo MAC (1997) Atmospheric turbidity and the diffuse irradiance in Lagos, Nigeria. Sol Energy 61:241–249
+Article
+  Google Scholar
+  Mckenzie RL, Johnston PV, Smale D et al (2001) Altitude effects on UV spectral irradiance deduced from measurements at Lauder, New Zealand, and at Mauna Loa Observatory, Hawaii. J Geophys Res 106:22845–22860
+Article
+  Google Scholar
+  McKenzie RL, Aucamp PJ, Bais AF et al (2011) Ozone depletion and climate change: impacts on UV radiation. Photochem Photobiol Sci 10:182–198. https://doi.org/10.1039/c0pp90034f
+Article
+  CAS
+  Google Scholar
+  McPeters R, Kroon M, Labow G et al (2008) Validation of the Aura Ozone Monitoring Instrument total column ozone product. J Geophys Res 113:1–9. https://doi.org/10.1029/2007JD008802
+Article
+  CAS
+  Google Scholar
+  Morys M, Mims FM III, Hagerup S et al (2001) Design, calibration, and performance of MICROTOPS II handheld ozone monitor and Sun photometer. J Geophys Res 106:14573–14582
+Article
+  Google Scholar
+  Neale RE, Lucas RM, Byrne SN et al (2023) The effects of exposure to solar radiation on human health. Photochem Photobiol Sci 22:1011–1047. https://doi.org/10.1007/s43630-023-00375-8
+Article
+  CAS
+  Google Scholar
+  Panicker AS, Pandithurai G, Takamura T et al (2009) Aerosol effects in the UV-B spectral region over Pune, an urban site in India. Geophys Res Lett 36:1–5. https://doi.org/10.1029/2009gl037632
+Article
+  Google Scholar
+  Papachristopoulou K, Raptis I-P, Gkikas A et al (2022) Aerosol optical depth regime over megacities of the world. Atmos Chem Phys 22:15703–15727. https://doi.org/10.5194/acp-22-15703-2022
+Article
+  CAS
+  Google Scholar
+  Parisi AV, Turnbull DJ, Downs NJ (2012) Influence of high levels of cloud cover on vitamin D effective and erythemal solar UV irradiances. Photochem Photobiol Sci 11:1855–1859. https://doi.org/10.1039/c2pp25160d
+Article
+  CAS
+  Google Scholar
+  Parkinson CL (2003) Aqua: an Earth-Observing Satellite mission to examine water and other climate variables. IEEE Trans Geosci Remote Sens 41:173–183. https://doi.org/10.1109/TGRS.2002.808319
+Article
+  Google Scholar
+  Pfeifer MT, Koepke P, Reuder J (2006) Effects of altitude and aerosol on UV radiation. J Geophys Res 111:1–11. https://doi.org/10.1029/2005JD006444
+Article
+  Google Scholar
+  Piazena H (1996) The effect of altitude upon the solar UV-B and UV-A irradiance in the tropical Chilean Andes. Sol Energy 57:133–140
+Article
+  Google Scholar
+  Reid JS, Hobbs PV, Ferek RJ et al (1998) Physical, chemical, and optical properties of regional hazes dominated by smoke in Brazil. J Geophys Res 103:32059–32080
+Article
+  CAS
+  Google Scholar
+  Retama A, Ramos-Cerón M, Rivera-Hernández O et al (2022) Aerosol optical properties and brown carbon in Mexico City. Environ Sci: Atmos 2:315–334. https://doi.org/10.1039/d2ea00006g
+Article
+  CAS
+  Google Scholar
+  Ribeiro AKCR, Galvão ES, Albuquerque TTA (2023) Air quality characterization and trend analysis in a Brazilian industrialized metropolitan area in the period from 1995 to 2022. Atmosphere 14:1792–1812. https://doi.org/10.3390/atmos14121792
+Article
+  CAS
+  Google Scholar
+  Satheesh SK, Moorthy KK (2005) Radiative effects of natural aerosols: a review. Atmos Environ 39:2089–2110. https://doi.org/10.1016/j.atmosenv.2004.12.029
+Article
+  CAS
+  Google Scholar
+  SBPC (2018) Intervalos de referência da vitamina D – 25(OH)D. Sociedade Brasileira de Patologia Clínica/Medicina Laboratorial, Rio de Janeiro (In Portuguese)
+Silva AA (2011) Local cloud cover, ground-based and satellite measurements of erythemal dose rate for an urban, tropical site in Southern Hemisphere. Atmos Sol Terr Phys 73:2474–2481. https://doi.org/10.1016/j.jastp.2011.09.002
+Article
+  Google Scholar
+  Silva AA (2013) Erythemal dose rate under noon overcast skies. Photochem Photobiol Sci 12:777–786. https://doi.org/10.1039/c2pp25330e
+Article
+  CAS
+  Google Scholar
+  Silva AA (2014) Improving photoprotection attitudes in the tropics: sunburn vs vitamin D. Photochem Photobiol 90:1446–1454. https://doi.org/10.1111/php.12347
+Article
+  CAS
+  Google Scholar
+  Silva AA (2023) Ground-based measurements of cloud and aerosol optical depths in the UV-B at an urban tropical site. Adv Space Res 72:1136–1152. https://doi.org/10.1016/j.asr.2023.04.001
+Article
+  CAS
+  Google Scholar
+  Silva AA, Souza-Echer MP (2013) Ground-based measurements of local cloud cover. Meteorol Atmos Phys 120:201–212. https://doi.org/10.1007/s00703-013-0245-9
+Article
+  Google Scholar
+  Silva AA, Tomaz LM (2012) Total ozone column measurements for an urban, tropical site in the Southern Hemisphere with a Microtops II. J Atmos Solar Terr Phys 77:161–166. https://doi.org/10.1016/j.jastp.2011.12.014
+Article
+  CAS
+  Google Scholar
+  Silva AA, Yamamoto ALC, Corrêa MP (2019) Daily maximum erythemal dose rates in the tropics. Photochem Photobiol 95:886–894. https://doi.org/10.1111/php.13054
+Article
+  CAS
+  Google Scholar
+  Sola Y, Lorente J, Campmany E et al (2008) Altitude effect in UV radiation during the evaluation of the effects of elevation and aerosols on the ultraviolet radiation 2002 (VELETA-2002) field campaign. J Geophys Res 113:1–11. https://doi.org/10.1029/2007JD009742
+Article
+  CAS
+  Google Scholar
+  Stammes P, Sneep M, de Haan JF et al (2008) Effective cloud fractions from the ozone monitoring instrument: theoretical framework and validation. J Geophys Res 113:1–12. https://doi.org/10.1029/2007JD008820
+Article
+  CAS
+  Google Scholar
+  Tanskanen A, Krotkov NA, Herman JR et al (2006) Surface ultraviolet irradiance from OMI. IEEE Trans Geosci Remote Sens 44:1267–1271. https://doi.org/10.1109/TGRS.2005.862203
+Article
+  Google Scholar
+  Tanskanen A, Lindfors A, Määttä A et al (2007) Validation of daily erythemal doses from ozone monitoring instrument with ground-based UV measurement data. J Geophys Res 112:1–15. https://doi.org/10.1029/2007JD008830
+Article
+  CAS
+  Google Scholar
+  Torres O, Bhartia PK, Herman JR et al (1998) Derivation of aerosol properties from satellite measurements of backscattered ultraviolet radiation: theoretical basis. J Geophys Res 103:17099–17110
+Article
+  Google Scholar
+  Torres O, Tanskanen A, Veihelmann B et al (2007) Aerosols and surface UV products from ozone monitoring instrument observations: an overview. J Geophys Res 112:1–14. https://doi.org/10.1029/2007JD008809
+Article
+  CAS
+  Google Scholar
+  Vieira EVR, Rosário NE, Yamasoe MA et al (2023) Chemical characterization and optical properties of the aerosol in São Paulo, Brazil. Atmosphere 14:1460–1480. https://doi.org/10.3390/atmos14091460
+Article
+  CAS
+  Google Scholar
+  WHO (1994) Ultraviolet radiation, EHC 160. World Health Organization, Geneva
+Google Scholar
+  Download references
+Acknowledgements
+I thank the Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) (grants 471159/2004-2 and 471441/2007-4) and the Fundação de Amparo à Pesquisa do Estado de Minas Gerais (FAPEMIG) (grants APQ-0848-5.02/07 and CRA 223/03).
+Funding
+The author declare that no funds, grants, or other support were received during the preparation of this manuscript.
+Author information
+Authors and Affiliations
+Laboratório de Luz Ultravioleta (LLUV), R. Santa Clara 350, Vila Ady-Ana, São José Dos Campos, SP, CEP 12243-630, Brazil
+A. A. Silva
+Contributions
+AAS is the sole author of this study.
+Corresponding author
+Correspondence to A. A. Silva.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+Reprints and permissions
+About this article
+Cite this article
+Silva, A.A. Comparison of satellite and ground-based measurements of erythemal dose from two tropical sites: Belo Horizonte (20° S, 44° W, 858 m) and Saint-Denis La Reunion (21° S, 55° E, 85 m). Theor Appl Climatol (2024). https://doi.org/10.1007/s00704-024-05030-5
+Download citation
+Received
+23 February 2024
+Accepted
+16 May 2024
+Published
+11 June 2024
+DOI
+https://doi.org/10.1007/s00704-024-05030-5
+Access this article
+Log in via an institution
+Buy article PDF 39,95 €
+Price includes VAT (Italy)
+Instant access to the full article PDF.
+Rent this article via DeepDyve
+Institutional subscriptions
+Sections
+Figures
+References
+Abstract
+Data availability
+Abbreviations
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.72.143
+Not affiliated
+© 2024 Springer Nature

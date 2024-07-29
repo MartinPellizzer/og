@@ -1,0 +1,36 @@
+Assessing the Relationship Between Nitrogen Oxides and Ground-Level Ozone in London
+
+Metrics
+PlumX Metrics
+
+Files
+[Libres] MENRM SP Final Manuscript.pdf (7.14 MB)
+Date
+2024
+Authors
+Libres, Hilbert M.
+Abstract
+This study analyzes the interrelations among ambient air pollutants – NO, NO2, and O3 – across London’s four air quality monitoring stations representing urban background, suburban, roadside, and rural area areas. The dataset covering the study period from 2012 to 2022 was sourced from the London Air Quality Network (LAQN). Using the R programming language and the openair package, hourly concentrations were explored and examined, revealing daily, weekly, seasonal, and annual patterns. Diurnal variations indicated that NO and NO2 concentrations increased with increasing road traffic, while O3 consistently peaked mid-day, highly influenced by solar radiation. The ozone weekend effect, where O3 levels are significantly higher compared to weekdays, was notable in stations located in urban areas. Mean concentrations of O3 were found to peak in late spring, possibly attributed to various factors such as heating emissions and stratospheric ozone intrusion. Regression analysis showed significant decreasing trends in annual mean concentrations of NO and NO2 across all four investigated stations over the study period. This reduction is associated with the active implementation of strategies and actions to curb emissions from the road transport sector across London. Due to declining NOx levels, O3 concentrations for the past decade have shown a significant increase. The findings suggest a need for review and refinement of the emission control strategies in London, taking into account the complex relationship between NOx and O3. Further research into ozone weekend effect, seasonal influences, and the impacts of urban heat islands and climate change could inform targeted policies or regulations for air quality improvement.
+Description
+Special Problem for the Master of Environment and Natural Resources Management. Other keywords: air, air pollution, air quality, nitrogen oxide, nitrogen dioxide, ozone
+Keywords
+Research Subject Categories::NATURAL SCIENCES::Chemistry::Environmental chemistry
+URI
+https://hdl.handle.net/20.500.13073/960
+Associated DOI
+10.5281/zenodo.11125396
+Collections
+FMDS Student Papers
+Full item page
+Institutional Repository Policy
+Electronic Thesis and Dissertation Policy
+Privacy Notice For FOI
+Privacy Policy
+UPOU Main Website
+University Library
+Get Help
+Powered by DSpace
+We collect and process your personal information for the following purposes: Authentication, Preferences, Acknowledgement and Statistics.
+To learn more, please read our privacy policy. By continuing to use this site, you agree to our Acceptable Use Policy.
+Customize...
+DeclineThat's ok

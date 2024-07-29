@@ -1,0 +1,116 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Toxics
+All Article Types
+Advanced
+  Journals Toxics Volume 12 Issue 6 10.3390/toxics12060412
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Mark Taggart
+Subscribe SciFeed
+Recommended Articles
+Related Info Links
+More by Authors Links
+Article Views
+551
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Degradation of Sodium Acetate by Catalytic Ozonation Coupled with MnOx/NiOOH-Modified Fly Ash
+by Ruifu Chen
+, Hao Zhang
+, Shengyu Shao
+, Huajun Xu
+, Kaicheng Zhou
+, Yinzhi Jiang
+and Pengfei Sun
+*
+Key Laboratory of Surface & Interface Science of Polymer Materials of Zhejiang Province, School of Chemistry and Chemical Engineering, Zhejiang Sci-Tech University, 928 Second Avenue, Xiasha Higher Education Zone, Hangzhou 310018, China
+*
+Author to whom correspondence should be addressed.
+Toxics 2024, 12(6), 412; https://doi.org/10.3390/toxics12060412
+Submission received: 14 May 2024 / Revised: 28 May 2024 / Accepted: 30 May 2024 / Published: 4 June 2024
+(This article belongs to the Special Issue Effective Catalytic Processes for Water and Wastewater Treatment)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Fly ash, a type of solid waste generated in power plants, can be utilized as a catalyst carrier to enhance its value-added potential. Common methods often involve using a large amount of alkali for preprocessing, resulting in stable quartz and mullite forming silicate dissolution. This leads to an increased specific surface area and pore structure. In this study, we produced a catalyst composed of MnOx/NiOOH supported on fly ash by directly employing nickel hydroxide and potassium permanganate to generate metal active sites over the fly ash surface while simultaneously creating a larger specific surface area and pore structure. The ozone catalytic oxidation performance of this catalyst was evaluated using sodium acetate as the target organic matter. The experimental results demonstrated that an optimal removal efficiency of 57.5% for sodium acetate was achieved, surpassing even that of MnOx/NiOOH supported catalyst by using γ-Al2O3. After loading of MnOx/NiOOH, an oxygen vacancy is formed on the surface of fly ash, which plays an indirect oxidation effect on sodium acetate due to the transformation of ozone to •O2− and •OH over this oxygen vacancy. The reaction process parameters, including varying concentrations of ozone, sodium acetate, and catalyst dosage, as well as pH value and the quantitative analysis of formed free radicals, were examined in detail. This work demonstrated that fly ash could be used as a viable catalytic material for wastewater treatment and provided a new solution to the added value of fly ash.
+Keywords: fly ash; manganese oxide; nickel oxide hydroxide; ozone catalysis; sodium acetate
+1. Introduction
+Fly ash is a kind of solid waste produced by coal-fired power plants, the main components of which are Al2O3 and SiO2, and also contains a small amount of metal oxides such as CaO, Fe2O3, and MgO [1,2]. It is a kind of industrial waste that is highly polluting to the environment and brings many troubles to daily life [3]. Therefore, the treatment and utilization of fly ash have become urgent. However, due to its excellent thermal stability, fly ash has been increasingly used in adsorption and catalytic materials in recent years [4]. Since the pristine fly ash is composed of passivated mullite and quartz, its specific surface area is particularly small. It has been reported in the literature that a simple acid-base treatment by one-step (HNO3 or NaOH) or two-step (NaOH/HNO3 or HNO3/NaOH) leaching partial dissolution, which significantly improved the physicochemical properties of the inefficient fly ash [5]. Therefore, fly ash is also a very potential catalyst carrier. For example, Zn-Cr layered double oxide/fly ash (ZnCrLDO/FA) composites were synthesized as a photocatalyst by an in situ co-precipitation and calcination process, which exhibited significant environmental antibiotic degradation performance (10 mg/L of ciprofloxacin with 98% conversion within 120 min) [6]. The fly ash-coated ceramic cobalt ferrite (CoFe2O4) nanocomposite photocatalysts (CFA-CoFe2O4) were also synthesized using a hydrothermal method, resulting in the degradation of 10 ppm methylene blue with 99% efficiency within a reaction time of 60 min [7]. Furthermore, investigations have also been conducted to synthesize zeolites and mesoporous molecular sieves (e.g., MCM-41, SBA-15, and ZSM-5) as precursors for catalytic materials utilizing silica and aluminum sources derived from fly ash [8,9,10]. The synthesis of SBA-15 mesoporous molecular sieves was achieved by utilizing fly ash as a silica source, while CoMn catalysts were loaded onto it as a carrier and activated with peroxomonosulfate (PMS) for the degradation of rhodamine B (RhB) in aqueous solution [11].
+The increasing presence of recalcitrant toxic organic pollutants has propelled advanced oxidation processes (AOPs) into the forefront of current research, thereby imposing higher demands on catalyst preparation in terms of raw material cost and synthesis process [12]. Catalytic ozone oxidation is widely regarded as a superior method among various AOP techniques because of its wide adaptability to pollutant degradation, mild reaction conditions, and thorough degradation [13]. Studies have shown that metal oxides (e.g., Fe2O3, MnOx, and NiO) loaded on mesoporous materials (silica, alumina, zeolite) are effective catalytic materials for ozone oxidation [14,15,16]. For example, the degradation of 2,4-dichlorophenoxyacetic acid catalyzed by Ni/TiO2 [17] and the degradation of oxalic acid catalyzed by alumina-loaded nickel oxide [15]. Both of these catalysts enable the activation of ozone in solution and the generation of free radicals through their active sites on the catalyst surface, resulting in rapid oxidation removal of organic matter. However, these supported oxide catalysts necessitate carrier screening and oxide calcination processes in the synthesis method, posing challenges to energy consumption and material costs in mass production. Alumina is the most widely used carrier for synthesizing ozone catalysts; the large usage and high unit price are the key factors affecting the cost of these supported ozone catalysts [18]. Obviously, the utilization of fly ash as a carrier for industrial catalysts, coupled with the elimination of the energy-intensive calcination process via a simplified chemical reaction synthesis method on its surface, paves the way for an innovative and energy-efficient approach to catalyst production in pollution control industries.
+Due to their high density of hydroxyl sites, numerous surface-active sites, fast electron transfer rates, and metallic hydroxyl oxides are increasingly being used in water treatment research. For instance, in PMS systems, NiOOH degrades sulfadiazine contaminants completely within 90 min at a rate 5.3 times higher than that of Ni2O3, 2.5 times higher than that of NiO, and 2.2 times higher than that of Ni(OH)2 [19]. MnOOH was also used as an active agent to degrade p-chloroaniline wastewater in the PMS system. The hydroxyl group on the surface of MnOOH acts as a bridge, connecting PMS and the catalyst and activating PMS molecules as the active substance in the reaction to degrade p-chloroaniline [20]. The in situ generation of oxygen-rich vacancies (Fe0.67Mn0.33)OOH catalyst primarily enhances electron transfer at the interface to promote PMS activation, while the existence of surface hydroxyl groups enhances the generation of hydroxyl radicals [21]. In the process of ozone catalytic oxidation, the presence of numerous hydroxyl groups on the surface of hydroxyl oxide facilitates the adsorption of ozone onto the catalyst surface and enhances the activation of ozone molecules into active oxygen species. As a result, this leads to an expedited degradation of organic pollutants. For example, synthetic α-FeOOH degraded nitrobenzene wastewater under pH = 6.7 and low concentration of ozone conditions, resulting in a 65% degradation of nitrobenzene within 20 min, which is twice as efficient as degradation by ozone oxidation alone [22]. The synthesis of Co-FeOOH nanocrystals facilitated the ozonation process for atenolol in water. The hydroxyl group on the surface promotes the adsorption and decomposition of ozone to form •OH, significantly improving atenolol degradation during catalytic ozonation [23], and the total organic carbon (TOC) is effectively reduced. MnOOH nanorods were also used to inhibit bromate formation in wastewater containing organic pollutants. Compared with the single ozonation process, MnOOH nanorods achieved an inhibition rate of up to 54.1%. On MnOOH’s surface, Mn(IV) accepts electrons forming transient Mn(II)/Mn(III) lattice oxygen species along with •O2−, where Mn(II)/Mn(III) facilitates bromate reduction to bromide during catalytic ozone oxidation [24]. Therefore, metal hydroxyl oxide can serve as an effective catalyst for the ozone oxidation process, facilitating the degradation of organic pollutants. Moreover, the synthesis of metal hydroxyl oxides bypasses the high-temperature calcination process required for synthesizing metal oxides, which creates new opportunities for simple, environmentally friendly, and low-cost methods to degrade organic pollutants.
+Therefore, in this work, the catalytic ozonation process was investigated using catalysts containing NiyMn1-yOOH, which were prepared by utilizing pretreated fly ash as a carrier. Nickel and manganese are among the most abundant elements on Earth and are less toxic than other transition metals. NiOOH and Mn2O3 are produced via a one-step reaction of Ni(OH)2 and KMnO4, eliminating the need for high-temperature calcination of synthetic metal oxides, which makes the reaction more environmentally friendly. Additionally, Ni3+ in NiOOH can be converted to Ni2+ and Ni4+ to enhance ozone oxidation. While ozone can directly degrade most organic matter, acetic acid, as one of the common terminal intermediates in the oxidative degradation process of organic pollutants by ozone, is resistant to ozone and difficult to mineralize. This severely hampers the effectiveness of wastewater treatment [25]. Therefore, we chose sodium acetate as the target pollutant for catalytic ozonation. The synthesized catalyst was characterized using XRD, SEM, TEM, BET, ICP, XPS, and EPR. The catalytic activity of x-NiyMn1−yOOH/ACFA for the ozonation of sodium acetate was investigated to examine the effects of reaction conditions such as ozone concentration, catalyst dosage, sodium acetate concentration, and initial pH on the catalytic ozonation. We also identified reactive oxygen species by EPR characterization and quenching experiments and quantified reactive oxygen generated by the reaction by PL and NBT methods to explore its catalytic reaction mechanism.
+2. Materials and Methods
+2.1. Synthesis of Catalysts
+The fly ash used as the raw material was sourced from China Energy Group’s Zhoushan Power Plant. The schematic diagram of catalyst synthesis is shown in Figure 1. The fly ash was subjected to a pretreatment procedure as follows: 10 g of fly ash was combined with 100 mL of HCl solution (1.2 mol/L), and the mixture was heated and stirred at a temperature of 85 degrees Celsius for a duration of 2 h. Subsequently, it underwent rinsing with deionized water until reaching neutrality, followed by drying at a temperature of 60 degrees Celsius. The resulting sample obtained from this process was designated as ACFA.
+Figure 1. Preparation process of fly ash catalyst.
+The acidified CFA was used as the carrier for Ni-Mn loading, and the synthetic catalyst was named x-NiyMn1−yOOH/ACFA, where x represents the wt.% of Ni-Mn atoms on the surface of ACFA, and y/1-y represents the different Ni/Mn ratios. Taking the synthesis of 0.2-Ni0.67Mn0.33OOH/ACFA catalyst as an example, 10 g of ACFA was added to 50 mL of 5 mol/L KOH solution with constant stirring. Then, 6.345 g of Ni(OH)2 and 5.745 g of KMnO4 solution were added, and the mixture was stirred at 90 °C for 15 h. Then, it was centrifuged to neutral by washing with deionized water and dried at 60 °C. Finally, several samples were synthesized with the ratio of Ni/Mn at 1:5, 4:2, and 5:1 and the wt.% of Ni-Mn atoms at 8%, 20%, and 30%, respectively.
+2.2. Characterization
+The X-ray powder diffractometer (Haoyuan DX-2700, Dandong, Liaoning, China) equipped with Cu Ka radiation (35 kV, 25 mA) was utilized to measure the wide-angle X-ray diffraction (XRD) patterns of various ACFA samples. The scanning electron microscope (SEM, Hitachi SU-8100, Chiyoda, Japan) was utilized to observe and document the morphology. The microstructure of the x-NiyMn1−yOOH/ACFA surface was further examined using a transmission electron microscope (TEM, JEM 2100, Tokyo, Japan). The ASAP 2020 analyzer from Micromeritics, Norcross, GA, USA, was utilized to measure the nitrogen adsorption–desorption isotherms. The specific surface area

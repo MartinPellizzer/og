@@ -1,0 +1,428 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature scientific reports articles article
+Article
+Open access
+Published: 05 June 2024
+Spatiotemporal changes in fine particulate matter and ozone in the oasis city of Korla, northeastern Tarim Basin of China
+Tayierjiang Aishan, Yaxin Sun, Ümüt Halik, Florian Betz, Asadilla Yusup & Remila Rezhake 
+Scientific Reports
+ 14, Article number: 12904 (2024) Cite this article
+239 Accesses
+Metrics
+Abstract
+Air pollution is a serious environmental health concern for humans and other living organisms. This study analyzes the spatial and temporal characteristics of air pollutant concentrations, changes in the degree of pollution, and the wavelet coherence of the air quality index (AQI) with pollutants in various monitoring stations. The analysis is based on long-term time series data (January 2016 to December 2023) of air pollutants (PM2.5, PM10, and O3) from Korla, an oasis city in the northeastern part of the Tarim Basin, China. The concentrations of PM2.5, PM10, and O3 in Korla showed a cyclical trend from 2016 to 2023; PM10 concentrations exhibited all-season exceedance and PM2.5 exhibited exceedance only in spring. PM2.5 and PM10 showed a seasonal distribution of spring > winter > fall > summer; O3 concentrations showed a seasonal distribution of summer > spring > fall > winter. Strong positive wavelet coherence between PM and Air Quality Index (AQI) data series suggests that the AQI data series can effectively characterize fluctuating trends in PM concentrations. Moreover, PM10 levels IV and VI were maintained at approximately 10%, indicating that sand and dust have a substantial influence on air quality and pose potential threats to the health of urban inhabitants. Based on the results of this study, future efforts must strengthen relative countermeasures for sand prevention and control, select urban greening species with anti-pollution capabilities, rationally expand urban green spaces, and restrict regulations for reducing particulate matter emissions within city areas.
+Similar content being viewed by others
+Spatial and temporal variations of air quality and six air pollutants in China during 2015–2017
+Article Open access
+23 October 2019
+Temporal variations in ambient air quality indicators in Shanghai municipality, China
+Article Open access
+09 July 2020
+Spatiotemporal variations of air pollutants based on ground observation and emission sources over 19 Chinese urban agglomerations during 2015–2019
+Article Open access
+11 March 2022
+Introduction
+Air pollution is a pressing global environmental concern that has significant impacts on atmospheric visibility, local climate, and the physical and mental health of human beings1,2. Air pollution is defined as a condition in which the concentration of specific substances in the air exceeds a certain threshold over a certain period, causing harm to humans or ecosystems3,4. Even brief exposure to air pollution raises a noteworthy risk to human health, exacerbating the Global Burden of Disease (GBD) and ultimately contributing to hospitalization and mortality rates3,5,6.
+Given rapid economic growth, industrialization, and urbanization, the deterioration of urban living environments has become a significant concern. There are up to 3.7 million premature deaths worldwide due to outdoor air pollution7. Recent data shows that 7 of the 10 most polluted cities in the world are in China8. Air pollution in China exceeds the levels recommended by the WHO9 and is the leading cause of death after heart attacks, dietary risks, and smoking10,11,12. Therefore, air quality has garnered significant attention from both the Chinese government and the general public.
+Particulate matter (PM) is of great concern due to its small size and large surface area, which makes it easy to adsorb airborne microorganisms, heavy metals, and other toxic substances. PM can penetrate the human body by respiration and settle in the lungs, posing a threat to human health13. The 2018 Environmental Performance Index [EPI] shows that the environmental quality of China ranked fourth, including PM2.514, China's PM2.5 concentrations tend to be well above the National Ambient Air Quality Standards (GB3095-2012 Level 2), which is equivalent to the WHO Interim Target I [IT-1]4.
+Since China implemented the ‘Ten Measures to Prevent and Control Air Pollution’ in 2013, air quality has improved to some extent; however, the situation remains prominent15,16. In recent years, many studies in developed areas of China, such as the Yangtze River Delta, the Pearl River Delta, and the North China Plain, have been conducted on urban air quality based on long-term air pollution data combined with a variety of experimental and modeling methods17,18. However, in Xinjiang, a relatively underdeveloped region in northwest China, urban air research has focused on the characteristics, meteorological effects and sources of air pollution in heavily industrialized cities on the northern slopes of the Tianshan Mountains19; The impact of the 2015 Taklamakan dust event on the air quality of urban areas in China20; Analysis of emission reduction measures and simulation study of PM2.5 concentration in Xinjiang's main cotton production area, and study of spatial21 and temporal characteristics of air pollution (PM2.5, PM10, SO2, NO2, CO, and O3) in surrounding areas caused by a large amount of wind-blown sand from the desert (Taklamakan Desert)22.
+Korla, an arid zone oasis city, is located adjacent to the Taklamakan Desert and experiences a high number of dust and sandy days throughout the year23. As such, it offers the potential to conduct studies related to urban air pollutants and their impact on human health under the influence of sandy and dusty weather. In this study, we utilized long-term daily average data of major PMs—PM2.5, PM10, and ozone (O3)—in Korla from 2016 to 2023 to quantify the spatiotemporal pattern of each pollutant. Additionally, we investigated the relationship between pollutant concentrations and Air Quality Index (AQI) wavelet coherence (WTC). The results of this study provide valuable scientific references for air quality management in Korla and are of great practical importance for improving air quality conditions, transitioning from natural sand and dust mixed with soot to natural sand and dust, in Korla and other arid oasis urban areas.
+Materials and methods
+Study area
+Korla is the capital city of Bayingolin (Bayin'guoleng) Mongolian Autonomous Prefecture (BMAP), China's largest prefecture-level administrative region, is located in Southern Xinjiang. The city sits at the southern foot of the Tianshan Mountains, on the northeastern edge of the Taklamakan Desert, southwest of Lake Bosten. Korla is situated in the transitional zone between the distinct climates of the northern and southern borders; cold and humid air from the north enters the territory of Korla, where it is blocked by the Khora and Kuruk mountains, resulting in a gradual decrease in humidity. It belongs to a warm temperate continental arid climate, characterized by adequate light and heat resources, with an average altitude of 950 m, an average annual rainfall of about 65 mm, and an average annual sunshine of about 2920 hours23. The dominant wind direction on the ground throughout the year is northeasterly. The city borders the Taklamakan Desert, experiencing 47.1 days of sand and dust weather per year, leading to severe sand and dust pollution23,24. Covering an area of approximately 7,268 km2, Korla serves as the gateway to the Middle Road of the ancient Silk Road.
+Methodology
+Data sources
+PM2.5, PM10, and O3 concentration data for Korla between January 1, 2016, and December 31, 2023, were retrieved from the Air Quality Data Network (www.aqistudy.cn/historydata). We selected three state-controlled monitoring stations in Korla that offer uninterrupted data monitoring, namely, Peacock Park (S1), Cotton Spinning Factory (S2), and Economic Development Zone (S3). These stations represent commercial, industrial, and residential areas within the primary urban area of Korla (Fig. 1 and Table 1).
+Figure 1
+Map of air quality monitoring stations in the study area. The figure is created using ArcMap 10.5 (ESRI Co., Ltd.; www.esri.com).
+Full size image
+Table 1 Overview of air quality monitoring stations in Korla.
+Full size table
+Air quality index
+The AQI was calculated according to the Technical Provisions from Ambient Air Quality Index (for Trial Implementation) [HJ 633–2012] and Air Quality Standards" (GB 3095–2012)25, as specified below:
+$${IAQI}_{P}=\frac{{IAQI}_{Hi}-{IAQI}_{L0}}{{BP}_{Hi}-{BP}_{L0}}\left({C}_{P}-{BP}_{L0}\right)+{IAQI}_{L0}$$ (1)
+where IAQIP stands for the air quality score of pollutant P, CP is the concentration of pollutant P, BPHi and BPL0 represent the upper and lower limits of the corresponding standard concentration, respectively, IAQIHi and IAQIL0 are the air quality sub-indexes corresponding to BPHi and BPL0, respectively.
+$$AQI=\text{max}\left\{{AIQI}_{1},{AIQI}_{2},{AIQI}_{3},\cdots {AIQI}_{n}\right\}$$ (2)
+where IAQI and n are the air quality subindex and pollutant item, respectively. As known from the formula (2), if the air quality sub-index for multi-pollutants exceeds the standard, then AQI takes the largest air quality sub-index of pollutants.
+All three monitoring sites are categorized as the Class II zone of the ambient air functional area classification (AAFC). Based on the associated requirements, the Class II zone applies to National Secondary Concentration Limits [NSCL]25. The 24-h average NSCL limits corresponding to PM2.5 and PM10 are 75 and 150 µg·m-3, respectively; the NSCL for the daily maximum 8-h average concentration of O3 is 160 µg·m-3.
+Based on the AQI levels and corresponding concentration limits of PM2.5, PM10, and O3 in the Technical Provisions on Ambient AQI (for Trial Implementation) [HJ 633–2012], PM2.5, PM10, and O3 were classified into six levels26 (Table 2). The higher the ambient AQI, the more serious the pollution is.
+Table 2 Ambient air quality level standards and pollutant concentration limits.
+Full size table
+Data processing
+Origin2021 was used to measure the average concentrations of PM2.5, and PM10 over 24 h, and O3 over 8 h at the three monitoring stations. Additionally, the software was used to visualize the characteristic curves of the spatiotemporal changes of each pollutant, along with the percentage of the pollution level. Additionally, Origin2021 was employed to chart the characteristic curves depicting the spatiotemporal pattern of each pollutant along with the percentage of the pollution level. Differences in PM2.5, PM10, and O3 data between sites and temporal variations within sites were tested by one-way analysis of variance (ANOVA; significance. level of P = 0.05). SPSS 26.0 was used for all statistical analyses.
+The Wavelet Coherence function in MATLAB was employed to analyze wavelet coherence between the AQI and PM2.5, PM10, and O3 in Korla from 2016 to 2023. Wavelet analysis is based on Fourier analysis and can reveal the local characteristics of the object under analysis in both the time and frequency domains. Wavelet coherence was applied to examine the correlation between two sequential data points on several timescales. This coherence is interpreted as a correlation coefficient with a value ranging from 0 to 1, where s represents a smoothing parameter. If smoothing is absent, the wavelet coherence is 1. The squared value of the wavelet coherence coefficient ranges from 0 ≤ R2 ≤ 1. Values near 0 suggest a poor correlation, whereas values near 1 indicate a robust correlation27. Thus, wavelet coherence can be considered a useful approach for assessing the association between specific parameters and time. Using the following equation, the coefficients can be computed from the wavelet energy spectrum28:
+$${R}_{YZ}^{2}\left(s\right)=\frac{{\left|<{W}^{YZ}>\left(s\right)\right|}^{2}}{{\left|<{W}^{Y}\left(s\right)>\right|}^{2}{\left|<{W}^{Z}\left(s\right)>\right|}^{2}}$$
+$$\left|{W}_{i}^{YZ}\left(s\right)\right|=\left|{W}_{i}^{Y}\left(s\right)\overline{{W }_{i}^{Z}\left(s\right)}\right|$$ (3)
+where Y and Z are the data sequences; R2YZ(s) represents the wavelet coherence coefficient; WiYZ(s) stands for the wavelet cross-spectrum of the data sequence YZ; WiY and WiZ are the wavelet coefficients for the data sequences Y and Z, respectively; and " <  > " indicates the smooth function of the wavelet energy spectrum. Detailed computations were conducted using the wavelet toolbox in MATLAB.
+Results and discussion
+Characteristics of spatial and temporal variations in air pollutant concentrations
+Figure 2 illustrates a nearly identical concentration trend between the air pollutants PM2.5 and PM10 in Korla from 2016 to 2023, showing an "L" cycle with an annual peak occurring from January to May and a sustained peak in PM2.5 concentration changes during this period (winter and spring), particularly evident in 2018. The concentration levels consistently peak, with maximum concentration values reaching up to 500 µg·m-3; PM10 also exhibits persistent peaks during the same period, with longer peak hours compared to previous years. In contrast, variations in PM2.5 and PM10 concentrations from June to December (summer and fall) show no significant fluctuations, and the pattern of change remains relatively steady.
+Figure 2
+Variation trends in air pollutant concentrations in Korla from 2016 to 2021.
+Full size image
+The eastern section of Korla is primarily composed of the Taklamakan Desert. During spring and summer months, gusty winds prevail, facilitating the transportation of sand and dust particles into the air, resulting in elevated levels of atmospheric PM29,30. Higher atmospheric PM levels during winter months have two main contributing factors. First, the prolonged period of winter heating in the city leads to the accumulation of PM from coal combustion, thereby increasing the concentration30,31,32. Second, the winter climate in oasis cities located within arid regions is cold and dry, characterized by stable atmospheric structures that promote inversions. These inversions hinder the dispersion and dilution of atmospheric pollutants33.
+Additionally, the high humidity and precipitation in summer promote the wet deposition of PM, resulting in low PM2.5 and PM10 concentrations during this season. Furthermore, the stronger solar radiation in summer enhances atmospheric turbulence movement, contributing to the diffusion and dilution of atmospheric PM34. The concentration of O3 exhibits an inverted "V" pattern, with apex concentration occurring between April and September (Cmax ≈ 150 µg m−3), and the lowest concentration levels observed in January (Cmin ≈ 20 µg m−3). Solar radiation intensity significantly influences photochemical reactions, with variations in air temperature can affecting radiation intensity. Hence, both high temperatures and radiation promote O3 production34,35.
+China's air quality standards are based on the WHO air quality guidelines for PM and transitional objectives that measure changes in 24-h concentrations25. These standards require Class II areas of the AAFC to adhere to Class II standards. The particulate pollutant PM10 exceeded the standard in Korla in almost all seasons, and PM2.5 exceeded the standard in spring. The frequent sand and dust weather during spring suggests that the impact of sand and dust on PM concentrations is significant, highlighting the concern about atmospheric particulate pollution in Korla. Additionally, the air pollutant O3 exceeded the national secondary standard only on individual days during 2016–2023, indicating that Korla has taken actions to control total pollutant emissions, strengthen pollution management, control emissions from motorized vehicles, adjust the energy use structures, and achieve effective results. Consequently, air pollution in Korla has gradually shifted from mixed sources (natural sand, dust, and soot) to natural sand and dust1.
+Seasonal characteristics of PM2.5, PM10, and O3
+The main traffic corridors of North and South Xinjiang, National Highway 218 and National Highway 314, pass around Korla and provide complex sources of PM. PM2.5, and PM10 at different monitoring stations in Korla from 2016 to 2023 were the highest in spring, lowest in summer, and intermediate and comparable in fall and winter, with mean concentration values changing from spring > winter > fall > summer (Table 3). Based on the mean PM2.5 concentration at the three monitoring stations, it is evident that S2 had the highest concentration, followed by S1 and S3. The highest concentration of 63.8 ± 2.2µg m−3 was observed in spring at station S2, while the lowest value of 23.4 ± 0.6 µg m−3 occurred in summer at station S3. However, pollutant emissions resulting from energy consumption during industrial production in industrial areas contribute more to PM2.5 than residential and motorized trips4.
+Table 3 Seasonal changes in PM2.5, PM10, and O3 concentrations at different monitoring sites in Korla city during 2016–2021.
+Full size table
+The pollutant PM2.5 concentrations at each site indicate an overall decrease from 2016 to 2023. This trend was particularly distinguishable in winter and spring. As shown in Table 3, the analysis of seasonal differences (uppercase letters) and interannual differences (lowercase letters) in PM2.5 at the three monitoring stations revealed that no significant differences were found between spring and winter within the stations and that the differences between summer and fall were not significant; however, significant differences were found between spring and winter and between summer and fall (P < 0.05). There was no significant difference statistically (P > 0.05) in the annual mean PM2.5 among the study years at each site. The changes in the mean PM10 concentrations at the three monitoring sites were opposite to those of PM2.5, showing S3 > S1 > S2, but all their peaks occurred in the spring, at 243.0 ± 9.0, 221.6 ± 8.4, and 219.5 ± 8.4 µg m−3, respectively; the minimum value was 85.6 ± 2.7 µg m−3 (in the summer at site S2). However, PM10, a type of particulate pollutant, displayed comparable changes to PM2.5, also showing significant variance among seasons (i.e., winter, spring, summer, and fall). However, this variation was less noticeable between the years (P > 0.05). As previously mentioned, the study area demonstrates significant seasonal fluctuations in atmospheric particulate pollutants, specifically PM2.5 and PM10. Potential factors contributing to elevated levels during the winter months include the use of coal-fired heating for residential purposes, while the presence of dusty weather in spring may also play a role. The gradual decrease in PM2.5 and PM10 concentrations from 2016 to 2023 indicates the significance of the control measures implemented for air pollutants in Korla.
+Changes in O3 pollutant concentration at all sites from 2016 to 2023 indicate a gradual overall increase with a sharper incline in the spring and summer seasons (approximately a 30 µg m−3 increase), whereas the increase during fall and winter is slightly lower than that during the former seasons. Additionally, the monitoring sites exhibited a seasonal distribution of O3 concentrations, with the highest concentration documented in the summer at site S3 in 2023 (Cmax ≈ 127.3 µg m−3), and the lowest concentration of 33.2 µg m−3 recorded at site S2 in 2016 during the fall and winter seasons. The O3 concentrations at each site showed a significant difference between seasons (P < 0.05). Interannual differences in O3 concentrations were observed only between individual years (e.g., significant differences in concentrations between 2016 and other study years at each station; however, there was no significant variability in O3 concentrations between each year from 2017 to 2023). A study characterizing the seasonal distribution of O3 concentrations revealed that high temperatures and intense high-temperature radiation during summer, particularly in Korla, which is close to the desert, significantly affect the variation in O3 concentrations36. Conversely, cooler weather and lower radiation levels during winter did not promote O3 formation.
+Wavelet-based analysis of coherence between AQI with PM2.5, PM10, and O3
+The relationship between AQI and PM2.5, PM10, and O3 was examined using WTC. WTC images display time on the horizontal axis and frequency on the vertical axis27. The frequency range covered high frequencies (0–16), intermediate frequencies (16–128), and low frequencies (128–512). The WTC spectral intensity was defined using a color-coded scheme (blue and red indicate low and high intensity, respectively). Our analysis focused on the cone of influence (COI), which represents the colored region where K is not affected by edge effects in the wavelet spectrum; in contrast, the region included in the thick line represents a 95% confidence interval relative to the red noise [i.e., significance based on Monte Carlo simulations]37,38,39,40.
+The arrows in the wavelet coherence plot demonstrate the relationships and causal processes between AQI and PM2.5, PM10, and O3. The left ( ←) and the right ( →) arrows denote positive and negative correlations, respectively40. In addition, the rightward and downward (or leftward and upward) directions depict a cause-effect relationship between the first and second parameters, while the rightward and upward (or leftward and downward) directions indicate a cause-and-effect relationship between the second and first parameters27.
+As shown in Fig. 3a, from 2016 to 2023, AQI and PM2.5 pollutant levels at site S1 show a positive correlation at various frequencies, including the medium–high (0–64) and low (256–512) frequency ranges. Most arrows depict a rightward and upward trend, indicating that the PM2.5 pollutant sequence affects the AQI sequence. There is a short-term positive correlation between AQI and PM2.5 in the 64–128 frequency range from 2018 to 2022. As shown in Fig. 3b, there is a long-term positive correlation between AQI and PM10 over the range 0–512 (high–low) from 2016–to 2023, with a weaker correlation observed at intermediate-frequencies (16–64) compared with the high and low-frequency ranges. Figure 3c illustrates uninterrupted wavelet coherence between AQI and O3 at site S1 at low frequencies (256–512). However, a more pronounced hysteresis effect was observed. Furthermore, the wavelet coherence distributions at intermediate- and high-frequency periods (0–128) are sporadic and lack informative value.
+Figure 3
+Wavelet coherence of AQI with S1 site: PM2.5 (a), PM10 (b) and O3 (c), S2 site: PM2.5 (d), PM10 (e) and O3 (f), and S3 site: PM2.5 (h), PM10 (i) and O3 (g).
+Full size image
+Figure 3d displays the WTC results for PM2.5 and AQI at site S2. A positive correlation is observed, as evidenced by the majority of arrows pointing to the right. Specifically, the high-frequency (0–16) and low-frequency (256–512) ranges show significant coherence. In addition, in the intermediate-frequency (16–64) range, a positive correlation between AQI and pollutant PM2.5 exists only for short periods, and the correlation is weak (e.g., 2016–2017 and 2020–2021). Over the 2016–2023 period, a positive correlation between AQI and PM10 in the 0–512 range was observed with a high-to-low trend. This correlation was short-term, isotropic, and limited to the intermediate-frequency range (16–64; Fig. 3e). Furthermore, the robust correlation between AQI and PM10 during these periods demonstrated that the AQI data accurately portrayed the varied trends of PM10 pollutants. A significant downward leftward arrow indicates a continuous wavelet negative correlation between AQI and O3 at S2, specifically in the low-frequency range (256–512; Fig. 3f).
+From 2016 through 2023, the majority of arrows in the medium–high (0–64) and low (256–512) frequency ranges indicate a positive correlation between AQI and PM2.5 at the S3 site and an in-phase relationship between the two variables (Fig. 3h). However, the correlation between AQI and PM2.5 is less significant in the low-intermediate-frequency range (64–128). Figure 3i shows the cross-correlations between AQI values of S3 and PM10. Over the long term (2016–2023), a positive correlation between AQI and PM10 was shown at various frequencies and scales. This link is notable for frequencies ranging from 0 to 16 (high frequencies) and 128 to 512 (low frequencies). Furthermore, there are indications that AQI and PM10 (upper and lower right arrows) exhibit mutual causality during these periods. The arrows on both sides are within the range of 16–64 (intermediate-frequency; Fig. 3g), indicating irregular fluctuations in the wavelet coherence between the two. In addition, there is continuous wavelet coherence between AQI and O3 within the low-frequency (256–512) range; however, there is a notable hysteresis effect between the two (downward arrows on the left).
+In summary, wavelet coherence analysis showed that AQI at every monitoring station shared continuous wavelet coherence with both PM2.5 and PM10 during various periods and displayed the same phase, indicating a substantial correlation between AQI and the pollutants. However, long-term wavelet coherence between AQI and O3 is fragmented, and a hysteresis effect is apparent. Our results show that utilizing AQI values to examine ozone fluctuation traits is not suitable. Instead, AQI data efficiently characterize PM10 fluctuations and underpin reliable data for air pollution management and health risk assessment in the region.
+Air pollution levels of PM2.5, PM10, and O3
+Table 2 and Fig. 4a indicate that between 2016 and 2023, the percentage of days when the air quality of PM2.5 at the three air monitoring stations in Korla was class I (excellent), accounted for one-third of the annual number of days, suggesting an improvement in regional air quality at these stations, with this trend increasing annually. However, the percentage of days with Class II (good) and Class III (slightly polluted) air quality at the three monitoring stations exhibited an undulating trend. The number of days with regional air quality classes I to III at the three monitoring stations reached over 90% of the total number of days in the year, indicating lower pollution levels by PM2.5 for residents of Korla. However, the percentage of IV (moderately polluted) and V (heavily polluted) days at site S2 was slightly higher than that at sites S1 and S3, possibly due to its location in an industrial area.
+Figure 4
+Percentages of days for each PM2.5 (a), PM10 (b), and O3 (c) pollution level at three monitoring sites in Korla.
+Full size image
+Analysis of the air quality class share of PM10 from 2016 to 2023 showed that class II days accounted for 50%–60% of the annual number of days at all three monitoring stations, with the share of air quality class II at site S1 exceeding 60% in 2020 (Fig. 4b). During the period 2016–2023, the proportion of Class III air quality days at the three monitoring stations displayed a trend of increasing, then decreasing, and then increasing; however, the proportion of Class I air quality changed in the opposite direction, indicating an improving air quality trend in the three regions of Korla. In addition, the percentage of days with air quality levels IV to VI at the three monitoring stations in Korla ranged from 0 to 15% of the number of days in the year. The percentage of days with moderate and heavy pollution showed a trend of decreasing, then increasing, and then decreasing, while the percentage of days with severe pollution showed a slight decrease from year to year. Moreover, the trend of air quality class percentage of particulate pollutant PM10 at the three stations is almost the same, indicating stable change in PM10 in Korla during 2016–2023. Natural sand and dust contribute to an increase in PM10, reflecting that natural sand and dust are the main factors causing particulate pollution in the city.
+Figure 4c indicates that compared with PM2.5 and PM10, the air quality class of O3 in Korla is good, with air quality maintained at excellent (I) and good (II) levels throughout the year. The maximum percentages of air quality class I for O3 at the three monitoring stations all appeared in 2016 and were in the order of S1 > S2 ≈ S3. This may be because the S1 site is located in the center of Korla, near the Peacock River, where several O3 precursors (e.g., some oxygenated organic compounds) can be purified by moisture, indirectly reducing the potential for O3 production41. Although the overall O3 level in Korla is excellent, the proportion of O3 class I showed a decreasing trend every year from 2016 to 2023, which may be due to an increase in atmospheric O3 caused by the volatile organic compounds (VOCs) emitted from industrial activities and motorized vehicles accompanying the rapid development of the city42.
+When air pollutant levels of PM2.5 and PM10 reach levels IV–V, they potentially affect the heart and respiratory system of healthy individuals, significantly exacerbating symptoms in cardiorespiratory patients, reducing exercise tolerance, and inducing symptoms in the general population. At severe pollution levels (class VI), exercise tolerance in healthy individuals is markedly reduced, with noticeable and severe symptoms, leading to the early onset of certain diseases43,44. Prolonged exposure to high O3 concentrations damages the human respiratory system and contributes to the development of eye diseases and other related illnesses45. Therefore, relevant city departments should actively implement measures for sand prevention and control, such as adopting the straw checkboard engineering model, implementing policies to convert farmland to forests and grasslands, promoting tree planting initiatives, and establishing a monitoring and early-warning system for sand and dust intensity using modern technologies such as satellite remote sensing, radar, and airborne sounding, etc46,47. Simultaneously, these measures should aim to reduce sources of particulate pollutant emissions, decrease PM concentrations, and strengthen management and control measures for O3 to safeguard residents' health, preserve ecological safety, and optimize the environmental ecosystem.
+Conclusion
+From 2016 to 2023, the concentrations of PM2.5 and PM10 in Korla City exhibit a seasonal distribution of spring > winter > autumn > summer, characterized by low concentrations in summer and autumn and high concentrations in winter and spring. In contrast, O3 demonstrates a seasonal distribution of summer > spring > autumn > winter, displaying an opposite trend to that of particulate matter concentration. Korla City's proximity to the Taklamakan Desert results in dusty weather during spring, contributing to high atmospheric concentrations of particulate matter. The AQI, PM2.5, and PM10 at each monitoring site in Korla City exhibit continuous wavelet coherence at different periods, indicating significant connections between AQI and pollutants. However, the long-term wavelet coherence between AQI and O3 is fragmented, with a visible lag effect, making it inappropriate to utilize AQI values to examine the properties of ozone oscillations in Korla. Conversely, AQI effectively defines PM2.5 and PM10 fluctuations, providing credible data support for regional air pollution control and health risk assessments. Furthermore, the air quality of O3 in Korla has consistently been outstanding, with air pollution level ratings of PM2.5 and PM10 in the range of I-III accounting for more than 90% of the total number of days in the year, indicating overall satisfactory air quality. However, from 2016 to 2023, the number of days with air pollution level ratings of PM10, a particulate matter, at the three monitoring stations reaching Class VI (severe pollution) accounted for 5–10% of the total number of days in the year, highlighting the prominent impact of sand and dust and its potential threat to residents' health. Consequently, relevant city authorities should prioritize strengthening sand prevention and control policies and minimizing particulate emissions.
+This study enriches research on urban air pollution in arid land oasis cities in Northwest China. Recent prevention and control efforts of urban pollutants have led to significant improvements in air quality in Korla. Urban planners, ecologists, meteorologists, decision-makers, and other stakeholders in the region must collaborate, and continue to implement proactive measures to manage sand and dust effectively, strengthen sand prevention and control policies, select greenery species with strong anti-pollution capabilities, increase urban green coverage, and reduce PM emissions and concentrations. By doing so, they can effectively reduce and mitigate urban air pollution, thereby enhancing air quality for city residents.
+Data availability
+The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.
+References
+Lu, Z., Zhao, J. & He, Q. Concentrations characteristics and sources of particulate matter in Korla, Xinjiang. China. J. Desert. Res. 42(6), 74–84. https://doi.org/10.7522/j.issn.1000-694X.2022.00044 (2022).
+Article
+  Google Scholar
+  Yang, Z. et al. Investigation into Beijing commuters’ exposure to ultrafine particles in four transportation modes: bus, car, bicycle and subway. Atmos. Environ. 266, 118734. https://doi.org/10.1016/j.atmosenv.2021.118734 (2021).
+Article
+  CAS
+  Google Scholar
+  World Health Organization. WHO global air quality guidelines (WHO, 2021).
+Google Scholar
+  Sun, Y. et al. Assessment of air quality before and during the COVID-19 and its potential health impacts in an arid oasis city: Urumqi China. Stoch. Environ. Res. Risk. Assess. 37(4), 1265–1279. https://doi.org/10.1007/s00477-022-02338-4 (2023).
+Article
+  PubMed
+  Google Scholar
+  Orellano, P. et al. Short-term exposure to particulate matter (PM10 and PM2.5), nitrogen dioxide (NO2), and ozone (O3) and all-cause and cause-specific mortality: Systematic review and meta-analysis. Environ. Int. 142, 105876. https://doi.org/10.1016/j.envint.2020.105876 (2020).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Shen, J. et al. Temperature modifies the effects of air pollutants on respiratory diseases. Environ. Sci. Pollut. Res. 30(22), 61778–61788. https://doi.org/10.1007/s11356-023-26322-9 (2023).
+Article
+  CAS
+  Google Scholar
+  Gordon, T., Stanek, L. W. & Brown, J. Pollution air in encyclopedia of toxicology. Encycl. Toxicol. (Third Edition). 38, 995–1002. https://doi.org/10.1016/B978-0-12-386454-3.00530-3 (2014).
+Article
+  Google Scholar
+  Chen, F. & Chen, Z. Cost of economic growth: Air pollution and health expenditure. Sci. Total. Environ. 755, 142543. https://doi.org/10.1016/j.scitotenv.2020.142543 (2021).
+Article
+  ADS
+  CAS
+  PubMed
+  Google Scholar
+  He, J. et al. Air pollution characteristics and their relation to meteorological conditions during 2014–2015 in major Chinese cities. Environ. Pollut. 223, 484–496. https://doi.org/10.1016/j.envpol.2017.01.050 (2017).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Jiang, L. & Bai, L. Spatio-temporal characteristics of urban air pollutions and their causal relationships: Evidence from Beijing and its neighboring cities. Sci. rep. 8(1), 1279. https://doi.org/10.1038/s41598-017-18107-1 (2018).
+Article
+  ADS
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Tanaka, S. Environmental regulations on air pollution in China and their impact on infant mortality. J. Health. Econ. 42, 90–103. https://doi.org/10.1016/j.jhealeco.2015.02.004 (2015).
+Article
+  PubMed
+  Google Scholar
+  Wang, Y. et al. Spatial and temporal variations of six criteria air pollutants in 31 provincial capital cities in China during 2013–2014. Environ. Int. 73, 413–422. https://doi.org/10.1016/j.envint.2014.08.016 (2014).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Makkonen, U. et al. Size distribution and chemical composition of airborne particles in south-eastern Finland during different seasons and wildfire episodes in 2006. Sci. Total. Environ. 408(3), 644–651. https://doi.org/10.1016/j.scitotenv.2009.10.050 (2010).
+Article
+  ADS
+  CAS
+  PubMed
+  Google Scholar
+  Yin, L. et al. Measuring and quantifying impacts of environmental parameters on airborne particulate matter in under-viaducts spaces in Wuhan China. Int. J. Environ. Res. Pub. He. 18(10), 5197. https://doi.org/10.3390/ijerph18105197 (2021).
+Article
+  Google Scholar
+  Wu, H. et al. Does environmental pollution inhibit urbanization in China? A new perspective through residents’ medical and health costs. Environ. Res. 182, 109128. https://doi.org/10.1016/j.envres.2020.109128 (2020).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Wang, H. et al. Formation mechanism and control strategy for particulate nitrate in China. J. Environ. Sci. 123, 476–486. https://doi.org/10.1016/j.jes.2022.09.019 (2023).
+Article
+  CAS
+  Google Scholar
+  Li, X. et al. Overviewing the air quality models on air pollution in Sichuan Basin China. Chemosphere 271, 129502. https://doi.org/10.1016/j.chemosphere.2020.129502 (2021).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Yang, J. et al. Vital contribution of residential emissions to atmospheric fine particles (PM2.5) during the severe wintertime pollution episodes in Western China. Environ. Pollut. 245, 519–530. https://doi.org/10.1016/j.envpol.2018.11.027 (2019).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Luo, Y. et al. Air pollution in heavy industrial cities along the northern slope of the Tianshan Mountains, **njiang: Characteristics, meteorological influence, and sources. Environ Sci Pollut Res. 30(19), 55092–55111. https://doi.org/10.1007/s11356-023-25757-4 (2023).
+Article
+  CAS
+  Google Scholar
+  Li, X. et al. The impacts of Taklimakan dust events on Chinese urban air quality in 2015. Atmosphere. 9(7), 281. https://doi.org/10.3390/atmos9070281 (2018).
+Article
+  ADS
+  CAS
+  Google Scholar
+  Fang, C. et al. Analysis of emission reduction measures and simulation of PM2.5 concentrations in the main cotton production areas of **njiang in 2025. Atmosphere. 15(2), 201. https://doi.org/10.3390/atmos15020201 (2024).
+Article
+  CAS
+  Google Scholar
+  Rupakheti, D. et al. Spatio-temporal characteristics of air pollutants over xinjiang, northwestern china. Environl Pollut. 268(115907), 1–11. https://doi.org/10.1016/j.envpol.2020.115907 (2021).
+Article
+  CAS
+  Google Scholar
+  He, Z. & Chen, H. An ism-based methodology for interrelationships of critical success factors for construction projects in ecologically fragile regions: Take korla China as an example. Appl. Sci. 11(10), 4668. https://doi.org/10.3390/app11104668 (2021).
+Article
+  CAS
+  Google Scholar
+  Gong, Q. et al. Spatial and temporal distribution of air quality levels and primary pollutant in Korla city Xinjiang. Desert. Oasis. Met. https://doi.org/10.12057/j.issn.1002-0799.2017.05.011 (2017).
+Article
+  Google Scholar
+  Sheng, Y. et al. Spatiotemporal distribution pattern of ambient air pollution and its correlation with meteorological factors in Urumqi. J. Earth. Env. 9(4), 323–333. https://doi.org/10.7515/JEE182030 (2018).
+Article
+  Google Scholar
+  Chowdhuri, I. et al. Have any effect of COVID-19 lockdown on environmental sustainability? A study from most polluted metropolitan area of India. Stoch. Environ. Res. Risk. Assess. https://doi.org/10.1007/s00477-021-02019-8 (2022).
+Article
+  PubMed
+  Google Scholar
+  Soylu, Ö. B., Adebayo, T. S. & Kirikkaleli, D. The imperativeness of environmental quality in China amidst renewable energy consumption and trade openness. Sustainability. 13(9), 5054. https://doi.org/10.3390/su13095054 (2021).
+Article
+  Google Scholar
+  World Health Organization. Air quality guidelines: global update 2005: particulate matter, ozone, nitrogen dioxide, and sulfur dioxide. WHO. (2006).
+Gao, W. et al. Particulate matter trends and quantification of the spring sand-dust contribution in Hohhot Inner Mongolia from 2013 to 2017. Atmos. Oceanic Sci. Lett. AOSL. 14(2), 100036. https://doi.org/10.1016/j.aosl.2021.100036 (2021).
+Article
+  Google Scholar
+  Wu, Z. et al. Spatio-temporal evolution of a typical sandstorm event in an arid area of northwest China in April 2018 based on remote sensing data. Remote. Sens. 14(13), 3065. https://doi.org/10.3390/rs14133065 (2022).
+Article
+  ADS
+  Google Scholar
+  Chen, Y. et al. Evidence on the impact of sustained exposure to air pollution on life expectancy from China’s Huai River policy. P. Natl. Acad. Sci. USA 110(32), 12936–12941. https://doi.org/10.1073/pnas.1300018110 (2013).
+Article
+  ADS
+  Google Scholar
+  Vohra, K. et al. Global mortality from outdoor fine particle pollution generated by fossil fuel combustion: Results from GEOS-Chem. Environ. Res. 195, 110754. https://doi.org/10.1016/j.envres.2021.110754 (2021).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Meng, X. et al. Seasonal characteristics and particle-size distributions of particulate air pollutants in Urumqi. Int. J. Env. Res. Pub. He. 16(3), 396. https://doi.org/10.3390/ijerph16030396 (2019).
+Article
+  CAS
+  Google Scholar
+  Liu, B. et al. Catalytic ozonation of VOCs at low temperature: A comprehensive review. J. Haz. Mat. 422, 126847. https://doi.org/10.1016/j.jhazmat.2021.126847 (2022).
+Article
+  CAS
+  Google Scholar
+  Ainsworth, E. A. et al. The effects of tropospheric ozone on net primary productivity and implications for climate change. Annu. rev. plant. biol. 63, 637–661. https://doi.org/10.1146/annurev-arplant-042110-103829 (2012).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Lu, J. et al. Impacts of ozone changes in the tropopause layer on stratospheric water vapor. Atmosphere. 12(3), 291. https://doi.org/10.3390/atmos12030291 (2021).
+Article
+  ADS
+  Google Scholar
+  Adebayo, T. S. & Kirikkaleli, D. Impact of renewable energy consumption, globalization, and technological innovation on environmental degradation in Japan: Application of wavelet tools. Environ. Dev. Sustain. 23(11), 16057–16082. https://doi.org/10.1007/s10668-021-01322-2 (2021).
+Article
+  Google Scholar
+  Chien, F. et al. Co-movement of energy prices and stock market return: environmental wavelet nexus of COVID-19 pandemic from the USA, Europe, and China. Environ. Sci. Pollut. Res. 28, 32359–32373. https://doi.org/10.1007/s11356-021-12938-2 (2021).
+Article
+  CAS
+  Google Scholar
+  Iqbal, N. et al. The nexus between COVID-19, temperature and exchange rate in Wuhan city: New findings from partial and multiple wavelet coherence. Sci. Total. Environ. 729, 138916. https://doi.org/10.1016/j.scitotenv.2020.138916 (2020).
+Article
+  ADS
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Umar, Z. et al. Covid-19 impact on NFTs and major asset classes interrelations: Insights from the wavelet coherence analysis. Financ. Res. Lett. FRL. 47, 102725. https://doi.org/10.1016/j.frl.2022.102725 (2022).
+Article
+  Google Scholar
+  Gorai, A. K., Raval, S. & Patra, A. K. Path analysis approach to quantify the causal factors of ground-level ozone concentration near coal-mining regions. Int. J. Environ. Sci. Te. 17, 645–660. https://doi.org/10.1007/s13762-019-02278-7 (2020).
+Article
+  CAS
+  Google Scholar
+  Bian, Y. et al. Evolution of anthropogenic air pollutant emissions in Guangdong Province, China, from 2006 to 2015. Atmos. Chem. Phys. 19(18), 11701–11719. https://doi.org/10.5194/acp-19-11701-2019 (2019).
+Article
+  ADS
+  CAS
+  Google Scholar
+  Daellenbach, K. R. et al. Sources of particulate-matter air pollution and its oxidative potential in Europe. Nature. 587(7834), 414–419. https://doi.org/10.1038/s41586-020-2902-8 (2020).
+Article
+  ADS
+  CAS
+  PubMed
+  Google Scholar
+  Kim, K. H., Kabir, E. & Kabir, S. A review on the human health impact of airborne particulate matter. Environ. Int. 74, 136–143. https://doi.org/10.1016/j.envint.2014.10.005 (2015).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Wang, J. et al. Increase in daytime ozone exposure due to nighttime accumulation in a typical city in eastern China during 2014–2020. Atmos. Pollut. Res. 13(4), 101387. https://doi.org/10.1016/j.apr.2022.101387 (2022).
+Article
+  CAS
+  Google Scholar
+  Wang, R. et al. Sandstorm weather in Kashgar Prefecture of Xinjiang Region: spatial and temporal distribution characteristics and control m easures. J. Glaciol. Geocryol. 38(6), 1553–1559. https://doi.org/10.7522/j.issn.1000-0240.2016.0181 (2016).
+Article
+  Google Scholar
+  Rong, Y. et al. Straw checkboard or Afforestation?—Assessment and comparison of combined benefits of two typical sand fixing models. J. Clean. Prod (JCP). 358, 131924. https://doi.org/10.1016/j.jclepro.2022.131924 (2022).
+Article
+  Google Scholar
+  Download references
+Acknowledgements
+This research was supported by the National Natural Science Foundation of China (NSFC project No: 32160367) and the China Postdoctoral Science Foundation (No. 2021M6908).
+Author information
+Authors and Affiliations
+College of Ecology and Environment, Xinjiang University, Urumqi, 830046, China
+Tayierjiang Aishan, Yaxin Sun & Ümüt Halik
+Ministry of Education Key Laboratory of Oasis Ecology, Xinjiang University, Urumqi, 830046, China
+Tayierjiang Aishan & Ümüt Halik
+Faculty of Mathematics and Geography, University of Eichstaett-Ingolstadt, Eichstaett, 85071, Germany
+Florian Betz
+Institute of Ecology, College of Urban and Environmental Sciences, Peking University, Beijing, 100871, China
+Asadilla Yusup
+Affiliated Cancer Hospital of Xinjiang Medical University, Urumqi, 830017, China
+Remila Rezhake
+Contributions
+T.A: Investigation, Methodology, Data collation and analysis, Writing—original draft. YX. S: Data collation and analysis. U.H: Investigation, Supervision and guidance, Writing—review & editing. F.B: Writing—review & editing, Data visualization. A.Y: Assistance and guidance with mapping. R.R: Assistance and guidance with mapping, Writing—review & editing.
+Corresponding author
+Correspondence to Ümüt Halik.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher's note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article's Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article's Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Aishan, T., Sun, Y., Halik, Ü. et al. Spatiotemporal changes in fine particulate matter and ozone in the oasis city of Korla, northeastern Tarim Basin of China. Sci Rep 14, 12904 (2024). https://doi.org/10.1038/s41598-024-63856-5
+Download citation
+Received
+01 February 2024
+Accepted
+03 June 2024
+Published
+05 June 2024
+DOI
+https://doi.org/10.1038/s41598-024-63856-5
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Particulate matter (PM)
+Ozone
+Desert Oasis Cities
+Korla
+Subjects
+Atmospheric chemistry
+Environmental impact
+Comments
+By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.
+Download PDF
+Sections
+Figures
+References
+Abstract
+Introduction
+Materials and methods
+Results and discussion
+Conclusion
+Data availability
+References
+Acknowledgements
+Author information
+Ethics declarations
+Additional information
+Rights and permissions
+About this article
+Comments
+Advertisement
+Scientific Reports (Sci Rep) ISSN 2045-2322 (online)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

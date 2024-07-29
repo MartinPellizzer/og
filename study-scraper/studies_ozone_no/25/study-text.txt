@@ -1,0 +1,225 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Highlights
+Abstract
+Graphical abstract
+Keywords
+1. Introduction
+2. Material and methods
+3. Results
+4. Discussion and conclusion
+Funding
+CRediT authorship contribution statement
+Declaration of Competing Interest
+Acknowledgements
+Data availability
+References
+Show full outline
+Figures (5)
+NeuroToxicology
+Available online 14 July 2024
+In Press, Journal Pre-proof
+What’s this?
+Tropospheric ozone effect on olfactory perception and olfactory bulb dopaminergic interneuron excitability
+Author links open overlay panel
+Pignatelli Angela a 1
+,
+Mascia Benedusi a 1
+,
+Mario Barbieri a
+,
+Alessandra Pecorelli b
+,
+Giuseppe Valacchi b c d
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.neuro.2024.07.003
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Ozone compromises olfactory perception to odors in two strains of mice similarly, but not identically.
+•
+Ozone reduced the rate of spontaneous spike firing in periglomerular dopaminergic cells of the olfactory bulb.
+•
+Ozone can alter olfactory perception and cellular electrical properties in the olfactory system.
+Abstract
+Ozone (O3) forms in the Earth’s atmosphere, both naturally and by reactions of man-made air pollutants. Deleterious effects of O3 have been found in the respiratory system. Here, we examine whether O3 alters olfactory behavior and cellular properties in the olfactory system. For this purpose, mice were exposed to O3 at a concentration found in highly polluted city air [0.8 ppm], and the behavior elicited by social and non-social odors in habituation/dishabituation tests was assessed. In addition, the electrical responses of dopaminergic olfactory bulb (OB) neurons were also evaluated. O3 differentially compromises olfactory perception to odors: it reduces responses to social and non-social odors in Swiss Webster mice, while this effect was observed in C57BL/6 J mice only for some non-social odors. Additionally, O3 reduced the rate of spontaneous spike firing in periglomerular dopaminergic cells (PG-DA) of the OB. Because this effect could reflect changes in excitability and/or synaptic inputs, the ability of O3 to alter PG-DA spontaneous activity was also tested together with cell membrane resistance, membrane potential, rheobase and chronaxia. Taken together, our data suggest the ability of O3 to affect olfactory perception.
+Graphical abstract
+Download: Download high-res image (176KB)
+Download: Download full-size image
+Keywords
+olfactory bulb (OB)dopaminergic cells (DA)tropospheric ozoneolfactory perceptionpatch-clamp
+1. Introduction
+Outdoor air pollution is a major problem worldwide, especially due to its harmful effects on human
+health (
+Manisalidis et al., 2020
+,
+Markozannes et al., 2022
+). Exposure to air pollutants has been found to adversely affect various organs and tissues, including lung (
+Cross et al., 2002
+), the cardiovascular system, and skin (
+Benedusi et al., 2021
+,
+Canella et al., 2023
+,
+Cervellati et al., 2020
+,
+Guo et al., 2022
+,
+Santos et al., 2021
+,
+Sticozzi et al., 2018
+). Moreover, children and older individuals exposed to air pollution exhibit signs of cognitive dysfunction, and airborne pollutants are associated with increased incidences of neurodegenerative disorders (e.g., Parkinson’s and Alzheimer’s diseases) strokes, and mortality (
+Alhussaini et al., 2023
+,
+Babadjouni et al., 2017
+,
+Bello-Medina et al., 2022
+,
+Block and Calderon-Garciduenas, 2009
+,
+Calderon-Garciduenas et al., 2016
+,
+Ramirez-Mendoza et al., 2024
+,
+Vanderplanck et al., 2021
+). Some authors have suggested that pollutants, like toxic molecules, enter the olfactory epithelium, are transported to the OB, and then (due to lack of a blood-brain barrier) reach the olfactory cortex and other brain regions (
+Ajmani et al., 2016
+,
+Calderon-Garciduenas et al., 2003
+,
+Esposito et al., 2022
+,
+Kashyap and Shukla, 2019
+,
+Muttray et al., 2018
+,
+Prah and Benignus, 1979
+,
+Singh et al., 2023
+,
+Yan et al., 2020
+).
+Olfactory system is important because it allows to detect, distinguish and activate memories of odors. In human everyday life, the sense of smell might seem less important than vision or hearing. However, smell is essential for vital functions such as tasting for food, exploration of environments and social interactions and for animal behaviors associated with reproduction and recognition of offspring (
+Ajmani et al., 2016
+,
+Fine and Riera, 2019
+,
+Sarafoleanu et al., 2009
+,
+Spinella, 2002
+). Olfactory dysfunctions significantly worsen physical well-being and quality of life, are associated with increased mortality in older adults, and are among the prodromal symptoms of several neurodegenerative diseases (
+Attems et al., 2015
+,
+Casciano et al., 2024
+,
+Ramirez-Mendoza et al., 2024
+). Olfaction can be impaired in humans in a number of quantitative and qualitative ways (
+Schafer et al., 2021
+) and the exposure to pollutants can represent one of the main causes.
+Among the different air pollutants, O3 is known to be one of the most dangerous for human health. While O3 in the stratosphere helps guard against excessive exposure to ultraviolet radiation, O3 in the troposphere is a powerful oxidant.
+O3 has been found to negatively impact every tissue of the human body (
+Ferrara et al., 2021
+,
+Nuvolone et al., 2018
+,
+Smyth and Georas, 2021
+), especially those directly exposed to this pollutant (
+Fuks et al., 2019
+,
+Valacchi et al., 2004
+). Clinical and epidemiological studies reported interindividual variability in the adverse health effects of air pollutants, suggesting a genetic predisposition showing alteration of proinflammatory cytokines, chemotactic factors, oxidative stress markers, transcription factors and antioxidant defense (
+Gardi and Valacchi, 2012
+). O3 effects on survival time and susceptibility to O3-induced inflammation were found to differ between inbred mouse strains, showing that pigmented mice strains appear to be generally more resistant to O3 than albino. Similar harmful variance in the effect of O3 were found in genetic study on acute lung injury, among albino versus C57BL/6 J mouse strains. Genetic determinants so may control a predisposition to the damaging effects of O3 (
+Goldstein et al., 1973
+,
+Kleeberger et al., 1990
+,
+Prows et al., 1997
+).
+While adverse effects of exposing the olfactory system to particulate matter (PM) have been more broadly studied (
+Kanninen et al., 2020
+), relatively few studies have tested whether O3 adversely affects olfactory cells. Ajmani's review described how inhaled pollutants (including O3) interact with the olfactory epithelium, translocate into the OB, and then transfer to the olfactory cortex; directly damage tissue morphology, induce local inflammation, and initiate cellular stress responses (
+Ajmani et al., 2016
+). Moreover, some data show that low acute or repeated exposure to O3 reduce olfactory sensitivity in human (
+Muttray et al., 2018
+,
+Prah and Benignus, 1979
+). Similar O3 exposure impairs olfactory function in animal (
+Agathokleous et al., 2022
+,
+Arakawa et al., 2008
+,
+Vanderplanck et al., 2021
+). Furthermore, O3 exposure has recently been associated with the activation of adrenal-derived stress hormones, increase in stress biomarkers and a specific gene expression changes in glucocorticoid signaling in the hypothalamus and OB (
+Valdez et al., 2023
+). Ozone and allergen exposure also alter the innervation of the airway epithelium in infant monkeys. (
+Larson et al., 2004
+).
+To begin to understand how O3 impacts olfactory function, we focus on periglomerular dopaminergic cells in the OB (
+Capsoni et al., 2021
+). These cells process signals coming from neurons that detect odors, and help tune the response of the olfactory system to external conditions. Like dopaminergic cells in other systems, PG-DA cells fulfill multiple roles, including helping to regulate the overall level of activity in the OB, prevent overstimulation of the network by odorants, regulate the activity of other OB interneurons, modulate synaptic plasticity (
+Zhou et al., 2020
+), shape the output of the OB, and modulate the perception of odors (
+Pignatelli and Belluzzi, 2017
+).
+Olfaction starts in the olfactory epithelium (OE) which contains highly specialized neuronal cells, the olfactory sensory neurons (OSNs) that detect odors. In particular, odorants are small volatile molecules with different chemical structures and are recognized by a large family of olfactory receptors, expressed in the cilia of OSNs (
+Buck and Axel, 1991
+). The binding of odorants to chemoreceptors starts the transduction of an electrical signal that reaches the OB where the first processing of the olfactory sensory signal takes place. Then the neuronal signal reaches the olfactory cortex and other higher brain centers, leading to the process of olfactory perception, emotions and behaviors related to smell (
+Capsoni et al., 2021
+). In the glomeruli, neuronal transmission takes place between the axons of the OSNs and the dendrites of the second order neurons represented by mitral or tufted cells whose cell bodies are located in a deeper layer of OB. The periglomerular cells (PGs) mainly contain GABA and perform the function of local inhibitory interneurons. A subgroup of PGs also releases DA. In the deepest layer of the bulb, another class of interneurons are located, represented by granule cells that form dendrodendritic synapses with mitral cells. Their role consists in the inhibition of mitral cells and participate in the synaptic plasticity of the OB. In the OB the transmission of sensorial information is not only due to the projection neurons, but it is revised and modulated by the local circuitry mainly by the action of interneurons (
+Capsoni et al., 2021
+). PGs-DA, in the OB, are a subtype of interneurons involved in the processing of odors and the adaptation of the bulbar network to external conditions (
+Capsoni et al., 2021
+,
+Casciano et al., 2023
+,
+Kosaka et al., 2020
+,
+Pignatelli and Belluzzi, 2017
+). DA cells in OB co-release DA and GABA from separate pools of vesicles and the DA appears to inhibit the release of glutamate, the main neurotransmitter of the olfactory sensory fibers of OE (
+Kosaka et al., 2020
+,
+Pignatelli et al., 2009
+,
+Pignatelli and Belluzzi, 2017
+,
+Pignatelli et al., 2005
+). This helps to regulate the overall level of activity in the OB and prevent overstimulation of the network by odorants. Besides the role in neurotransmitter release regulation, PG-DA cells are also involved in other processes, such as the regulation of the activity of other OB interneurons and the modulation of synaptic plasticity (
+Zhou et al., 2020
+). Furthermore, most OB DA neurons have the characteristic to be generated also throughout the mice adult lifetime (
+Bonzano et al., 2016
+,
+Lazarini et al., 2014
+). Overall, the activity of PG-DA cells plays an important role in shaping the output of the OB and the perception of odors (
+Pignatelli and Belluzzi, 2017
+).
+The present work investigates whether the mouse olfactory system is impaired by acute exposure to O3 at a concentration similar to levels reached during smog episodes in most-polluted cities (
+Valacchi et al., 2003
+). We use olfactory test and electrophysiological methods for these investigations, to assess effects at both a cellular and behavioral level. Moreover, we perform these tests on two mouse strains, rather than one, because previous studies found that O3 effects on mice differ with strain.
+2. Material and methods
+2.1. Animals
+The experiments reported here were performed on two strains of mice (Swiss Webster and C57BL/6 J) and on transgenic mice generated, and kept heterozygous, by breeding a TH-GFP/21-31 line with inbred C57BL/6 J mice (
+Matsushita et al., 2002
+,
+Sawamoto et al., 2001
+). These transgenic animals will be indicated as TH-GFP+/C57Bl6J.
+The behavioral results reported here were obtained from a total of 10 Swiss Webster male mice and 10 TH-GFP+/C57Bl6J male mice. It was chosen to compare only male mice in order to avoid the possibility of gender-specific O3 effects that have been reported in previous work (
+Vancza et al., 2009
+). The age of the animals, for both strains, ranges between 2 and 6 months. The use of two mice strains enabled us to test whether our results were strain-dependent. The behavior of each mouse was tested before and after O3 exposure.
+Electrophysiological recordings were obtained from a total of 10 transgenic TH-GFP+/C57Bl6J mice. These mice were identified as transgenic, at postnatal day 3 or 4, by the presence of GFP fluorescence in their OBs upon transillumination by a UV source (FBL / Basic-B & N-01; BLS, Hungary; FHS/F-01) and viewing with an emission filter (FHS/EF-2G2; BLS, Budapest, Hungary). Because the TH-GFP/21–31 line carries the eGFP gene under control of the promoter of the tyrosine hydroxylase (TH) gene, and TH is essential for DA synthesis, GFP fluorescence locates DA-synthesizing cells in these preparations.
+The care and use of all animals were conducted according to guidelines established by European Council Directives (609/1986 and 63/2010) and Italian laws (DL 116/92 and D. Lgsl. 26/2014) for the protection of animals used for scientific purposes. The experimental protocols were approved by the Committee for Animal Welfare of the University of Ferrara (OBA), by the Directorate-General for Animal Health of the Ministry of Health and supervised by the Campus Veterinarian of Ferrara University.
+2.2. Experimental procedure
+Our experiments tested for effects of O3 on olfactory behavior and OB-DA neurons in two experimental steps. The subject mice were exposed to 0.8 ppm of O3 for two hours and were placed in a closed, noiseless chamber connected to a parametric concentration programmable O3 generator (ECO3 model CUV-01, Torino, Italy). At the end of the exposition procedure, mice were firstly used for olfactory behavioral test and subsequently sacrificed for electrophysiological in-vitro recordings.
+2.3. Olfactory Test
+We tested the ability of mice to discriminate between different odors before

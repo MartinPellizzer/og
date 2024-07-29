@@ -1,0 +1,187 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Current Pollution Reports Article
+A Review on Analytical Approaches for Ambient Ozone Open Data in Taiwan
+REVIEW
+Published: 18 June 2024
+(2024)
+Cite this article
+Current Pollution Reports
+Aims and scope
+Submit manuscript
+Duy-Hieu Nguyen, Chih-Hsiang Liao, Xuan-Thanh Bui, Chung-Shin Yuan & Chitsan Lin 
+39 Accesses
+Explore all metrics
+Abstract
+Purpose of Review
+The air quality in Taiwan is significantly impacted by ambient ozone (O3) pollution, which poses a challenge in terms of control due to the involvement of precursors and influencing factors in its photochemical process. This review investigates the measures that have been implemented in Taiwan over the past two decades to address this issue and evaluate their effectiveness in reducing O3 concentrations. Furthermore, it highlights relevant studies that have employed advanced methods to examine the O3 problem.
+Recent Findings
+Comprehending the complex formation of O3 and its driving factors is crucial in efficiently managing O3 pollution. Nevertheless, accurately quantifying the impacts of these factors can be challenging due to their interconnections. To bridge this gap in knowledge, conducting a robust causality analysis becomes imperative to accurately quantify the causal influence of major factors. Furthermore, eliminating seasonal variations can improve the precision and accuracy of trend analyses concerning long-term changes in O3 concentrations. Deep learning, in particular, holds significant advantages in predicting O3 concentrations as it can capture non-linear and long-term memory characteristics effectively.
+Summary
+In summary, attaining acceptable O3 levels in Taiwan is challenging due to its geographical location, which makes it susceptible to air pollution from both local sources as well as distant upwind areas. The utilization of advanced methods is essential for comprehensively studying the evolution of O3 and formulating effective mitigation measures. While there is a necessity to develop new analytical methods, implementing existing robust methodologies can also provide valuable insights into the dynamics and impacts of O3. By leveraging these approaches, we can enhance our comprehension of O3 pollution in Taiwan and develop effective strategies to mitigate its harmful effects on air quality.
+This is a preview of subscription content, log in via an institution to check access.
+
+Similar content being viewed by others
+An optimized hybrid deep learning model for PM2.5 and O3 concentration prediction
+Article 07 February 2023
+Deep learning-based long-term prediction of air quality parameters
+Article 30 October 2021
+Improving air pollutant prediction in Henan Province, China, by enhancing the concentration prediction accuracy using autocorrelation errors and an Informer deep learning model
+Article Open access
+14 April 2023
+Data Availability
+No datasets were generated or analysed during the current study.
+References
+Rodrigues V, Gama C, Ascenso A, Oliveira K, Coelho S, Monteiro A, et al. Assessing air pollution in European cities to support a citizen centered approach to air quality management. Sci Total Environ. 2021;799: 149311.
+Article
+  CAS
+  Google Scholar
+  Jeong J-H, Choi J, Jeong J-Y, Woo S-H, Kim S-W, Lee D, et al. A novel statistical-dynamical method for a seasonal forecast of particular matter in South Korea. Sci Total Environ. 2022;848: 157699.
+Article
+  CAS
+  Google Scholar
+  Lee HJ, Kim SW, Brioude J, Cooper O, Frost G, Kim CH, et al. Transport of NOx in East Asia identified by satellite and in situ measurements and Lagrangian particle dispersion model simulations. J Geophys Res Atmos. 2014;119(5):2574–96.
+Article
+  CAS
+  Google Scholar
+  Seo J, Kim JY, Youn D, Lee JY, Kim H, Lim YB, et al. On the multiday haze in the Asian continental outflow: the important role of synoptic conditions combined with regional and local sources. Atmos Chem Phys. 2017;17(15):9311–32.
+Article
+  CAS
+  Google Scholar
+  Griffith SM, Huang W-S, Lin C-C, Chen Y-C, Chang K-E, Lin T-H, et al. Long-range air pollution transport in East Asia during the first week of the COVID-19 lockdown in China. Sci Total Environ. 2020;741: 140214.
+Article
+  CAS
+  Google Scholar
+  Singh A, Chou CC-K, Chang SY, Chang SC, Lin LN, Chuang MT, et al. Long-term (2003–2018) trends in aerosol chemical components at a high-altitude background station in the western North Pacific: impact of long-range transport from continental Asia. Environ Pollut. 2020;265:114813.
+Article
+  CAS
+  Google Scholar
+  Chou CC-K, Liu SC, Lin C-Y, Shiu C-J, Chang K-H. The trend of surface ozone in Taipei, Taiwan, and its causes: implications for ozone control strategies. Atmos Environ. 2006;40(21):3898–908.
+Article
+  CAS
+  Google Scholar
+  Chen S-P, Chang C-C, Liu J-J, Chou CCK, Chang JS, Wang J-L. Recent improvement in air quality as evidenced by the island-wide monitoring network in Taiwan. Atmos Environ. 2014;96:70–7.
+Article
+  CAS
+  Google Scholar
+  Wang T, Xue L, Brimblecombe P, Lam YF, Li L, Zhang L. Ozone pollution in China: a review of concentrations, meteorological influences, chemical precursors, and effects. Sci Total Environ. 2017;575:1582–96.
+Article
+  CAS
+  Google Scholar
+  Sillman S. The relation between ozone, NOx and hydrocarbons in urban and polluted rural environments. Atmos Environ. 1999;33(12):1821–45.
+Article
+  CAS
+  Google Scholar
+  Liu C, Zhang L, Wen Y, Shi K. Sensitivity analysis of O3 formation to its precursors-multifractal approach. Atmos Environ. 2021;251.
+Sicard P. Ground-level ozone over time: an observation-based global overview. Curr Opin Environ Sci Health. 2021;19.
+Madronich S. Ethanol and ozone. Nat Geosci. 2014;7(6):395–7.
+Article
+  CAS
+  Google Scholar
+  Yang L, Luo H, Yuan Z, Zheng J, Huang Z, Li C, et al. Quantitative impacts of meteorology and precursor emission changes on the long-term trend of ambient ozone over the Pearl River Delta, China, and implications for ozone control strategy. Atmos Chem Phys. 2019;19(20):12901–16.
+Article
+  CAS
+  Google Scholar
+  Cheng W-L, Pai J-L, Tsuang B-J, Chen C-L. Synoptic patterns in relation to ozone concentrations in west-central Taiwan. Meteorol Atmos Phys. 2001;78:11–21. The article specifically explores the relationship between synoptic patterns and high ozone concentrations in a specific region, providing a more localized perspective on the issue.
+Article
+  Google Scholar
+  Nguyen D-H, Lin C, Vu C-T, Cheruiyot NK, Nguyen MK, Le TH, et al. Tropospheric ozone and NOx: a review of worldwide variation and meteorological influences. Environ. Technol. Innov. 2022;102809.
+Hsu C-H, Cheng F-Y. Synoptic weather patterns and associated air pollution in Taiwan. Aerosol Air Quality Research. 2019;19(5):1139–51.
+Article
+  CAS
+  Google Scholar
+  De Marco A, Garcia-Gomez H, Collalti A, Khaniabadi YO, Feng Z, Proietti C, et al. Ozone modelling and mapping for risk assessment: an overview of different approaches for human and ecosystems health. Environ Res. 2022;211: 113048.
+Article
+  Google Scholar
+  Weng YC, Chang NB, Lee TY. Nonlinear time series analysis of ground-level ozone dynamics in Southern Taiwan. J Environ Manage. 2008;87(3):405–14. This article is notable for its focus on non-linear time series analysis of ground-level ozone, which can provide greater insight into the dynamic nature of ozone pollution over time.
+Article
+  CAS
+  Google Scholar
+  Tsai D-M, Wu Y-L. Effects of highway networks on ambient ozone concentrations—a case study in southern Taiwan. Atmos Environ. 2006;40(21):4004–15.
+Article
+  CAS
+  Google Scholar
+  Cheng F-Y, Jian S-P, Yang Z-M, Yen M-C, Tsuang B-J. Influence of regional climate change on meteorological characteristics and their subsequent effect on ozone dispersion in Taiwan. Atmos Environ. 2015;103:66–81.
+Article
+  CAS
+  Google Scholar
+  Liu Y, Fan Q, Chen X, Zhao J, Ling Z, Hong Y, et al. Modeling the impact of chlorine emissions from coal combustion and prescribed waste incineration on tropospheric ozone formation in China. Atmos Chem Phys. 2018;18(4):2709–24.
+Article
+  CAS
+  Google Scholar
+  Kelly JT, Jang C, Zhu Y, Long S, Xing J, Wang S, et al. Predicting the nonlinear response of PM2.5 and ozone to precursor emission changes with a response surface model. Atmosphere. 2021;12(8):1044.
+Article
+  CAS
+  Google Scholar
+  Li J, Yu S, Chen X, Zhang Y, Li M, Li Z, et al. Evaluation of the WRF-CMAQ model performances on air quality in China with the impacts of the observation nudging on meteorology. Aerosol Air Quality Research. 2022;22: 220023.
+Article
+  CAS
+  Google Scholar
+  Lee M, Lin L, Chen CY, Tsao Y, Yao TH, Fei MH, et al. Forecasting air quality in Taiwan by using machine learning. Sci Rep. 2020;10(1):4153.
+Article
+  CAS
+  Google Scholar
+  Tan KC, San Lim H, Jafri MZM. Prediction of column ozone concentrations using multiple regression analysis and principal component analysis techniques: a case study in peninsular Malaysia. Atmos Pollut Res. 2016;7(3):533–46.
+Article
+  Google Scholar
+  Chelani A. Long-memory property in air pollutant concentrations. Atmos Res. 2016;171:1–4. This article is notable for its focus on non-linear time series analysis of ground-level ozone, which can provide greater insight into the dynamic nature of ozone pollution over time.
+Article
+  CAS
+  Google Scholar
+  Tsai YI, Lin YH, Lee S. Visibility variation with air qualities in the metropolitan area in Southern Taiwan Water. Air, and Soil Pollution. 2003;144:19–40.
+Article
+  CAS
+  Google Scholar
+  Maurer M, Klemm O, Lokys HL, Lin N-H. Trends of fog and visibility in Taiwan: climate change or air quality improvement? Aerosol and Air Quality Research. 2019;19(4):896–910.
+Article
+  CAS
+  Google Scholar
+  Tang DT-C. The environmental laws and policies of Taiwan: a comparative law perspective. Washington International Law Journal. 1993;3.
+Tang C-P, Tang S-Y. Democratizing bureaucracy: the political economy of environmental impact assessment and air pollution prevention fees in Taiwan. Comparative Politics. 2000;33.
+Liu Y-T. Air pollution policies: only one step taken over the past 12 years? How many 12 years” do we have left. Taiwan: Risk Society and Policy Research Center; 2018.
+Book
+  Google Scholar
+  Lai I-C. The relationship between tropospheric ozone and atmospheric circulation in Taiwan. England: University of East Anglia; 2010.
+Google Scholar
+  Chen S-P, Liu W-T, Hsieh H-C, Wang J-L. Taiwan ozone trend in response to reduced domestic precursors and perennial transboundary influence.  Environ Pollut. 2021;289:117883 This article is the most recent and provides the latest information on Taiwan’(s ozone pollution in response to reduced domestic precursors and transboundary influence, making it a valuable resource for staying up-to-date on the issue.
+Article
+  CAS
+  Google Scholar
+  Chou CC-K, Lung S-CC, Hsiao T-C, Lee C-T. Regional and urban air quality in East Asia: Taiwan. Handbook of Air Quality and Climate Change: Springer; 2023. p. 1–38.
+Chuang M-T, Chou CC-K, Lin C-Y, Lee J-H, Lin W-C, Chen Y-Y, et al. A numerical study of reducing the concentration of O3 and PM2. 5 simultaneously in Taiwan. J Environ Manage. 2022;318.
+Article
+  CAS
+  Google Scholar
+  Cheng KJ, Tsai CH, Chiang HC, Hsu CW. Meteorologically adjusted ground level ozone trends in southern Taiwan. Environ Monit Assess. 2007;129(1–3):339–47.
+Article
+  CAS
+  Google Scholar
+  Li HC, Chen KS, Huang CH, Wang HK. Meteorologically adjusted long-term trend of ground-level ozone concentrations in Kaohsiung County, southern Taiwan. Atmos Environ. 2010;44(29):3605–8.
+Article
+  CAS
+  Google Scholar
+  Liu P-WG, Tsai J-H, Lai H-C, Tsai D-M, Li L-W. Establishing multiple regression models for ozone sensitivity analysis to temperature variation in Taiwan. Atmos Environ. 2013;79:225–35.
+Article
+  CAS
+  Google Scholar
+  Chen Y-W, Medya S, Chen Y-C. Investigating ground-level ozone formation: a case study in Taiwan. International Conference on Learning Representations. 2021.
+Chang K-L, Schultz MG, Koren G, Selke N. Guidance note on best statistical practices for TOAR analyses. USA: TOAR-II Steering Committee; 2023.
+Google Scholar
+  Lee C-S, Chang K-H, Kim H. Long-term (2005–2015) trend analysis of PM 2.5 precursor gas NO2 and SO2 concentrations in

@@ -1,0 +1,113 @@
+Browse
+Search
+Publish
+Login  |  Register
+Home All Journals Journal of the Air & Waste Management Association List of Issues Latest Articles First-time calculation of the spatial di ....
+Search in:
+This Journal
+Anywhere
+Advanced search
+Journal of the Air & Waste Management Association
+Latest Articles
+Submit an article Journal homepage
+Open access
+273
+Views
+0
+CrossRef citations to date
+Altmetric
+Listen
+TECHNICAL PAPER
+First-time calculation of the spatial distribution of concentration and air quality index over South Africa using TROPOMI data
+Lerato Shikwambana
+, Mahlatse Kganyago
+, Nkanyiso Mbatha
+& Paidamwoyo Mhangara
+Received 03 Apr 2024, Accepted 13 Jun 2024, Published online: 09 Jul 2024
+Cite this article https://doi.org/10.1080/10962247.2024.2369751
+In this article
+ABSTRACT
+Introduction
+Study area
+Data and method
+Results and discussion
+Conclusion
+Disclosure statement
+Additional information
+References
+Full Article Figures & data References Citations Metrics Licensing Reprints & Permissions View PDF View EPUB
+Formulae display:?
+ABSTRACT
+The release of toxic gases into the atmosphere may reach concentrations that can cause undesirable health, economic, or aesthetic effects. It is therefore important to monitor the amounts of pollutants injected into the atmosphere from various sources. Most countries have a ground network with multiple measuring sites and instruments, that can measure the air quality index (AQI). However, the main challenge with the networks is the low spatial coverage. In this work, satellite data is used to calculate for the first time the spatial distribution of AQI and pollutant concentration over South Africa. The TROPOspheric Monitoring Instrument (TROPOMI) onboard Sentinel-5P data is used to calculate AQI from carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and sulfur dioxide (SO2) gases. The results that the month of June has the worst air quality distribution throughout the country, while March has the best air quality distribution. Overall, the results clearly show that TROPOMI has the capability to measure air quality at a country and city level.
+Implications: In this work, satellite data is used to calculate for the first time the spatial distribution of the air quality index (AQI) and pollutant concentration over South Africa. The TROPOspheric Monitoring Instrument (TROPOMI) onboard Sentinel-5P data is used to calculate AQI from carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), and sulfur dioxide (SO2) gases. Currently, South Africa has a ground network of instruments that measure AQ, however, the network does not cover the whole country. In this work, we show that the use of TROPOMI can compliment the current network and provide data for the areas not covered.
+Introduction
+Expanding urbanization, developing populaces and resource-intensive exercises have made most cities a noteworthy source of air contamination (Abera et al.
+2021). Air contamination is one of the perilous substances that’s well known to affect perversely on the human wellbeing. Over time, human exercises such as vehicle emanations, burning of coal for power generation and fabricating of chemicals have enormously expanded the rate of air contamination. It has been found that air contamination influences those living in large urban regions where road emissions contribute the most to the debasement of air quality (Manisalidis et al.
+2020). Additionally, air pollution has been shown to impact the quality of soil and water bodies by contaminating precipitation deposited into water and soil environments (Kjellstrom et al.
+2006; Maipa, Alamanos, and Bezirtzoglou
+2001). Wilson and Suh (
+1997) also showed that acid rain, global warming and the greenhouse effect have an important ecological impact on air pollution. The World Wellbeing Organization (WHO) gauges that 99% of the worldwide populace breathes unclean air, and air pollution causes 7 million untimely deaths a year (WHO
+2022). Ivanov (
+2019) showed that a normal individual breathes in around 13,000 liters of air each day which contains toxins and is dangerous to a human wellbeing. It has been shown that pollutants can affect human health. As an example, Orellano, Reynoso, and Quaranta (
+2021) showed a positive association between short-term sulfur dioxide (SO2) exposure can cause respiratory mortality. Spannhake et al. (
+2002) showed that high (NO2) concentrations can lengthen and worsen common viral infections and cause severe damage to the lungs. Manisalidis et al. (
+2020) showed that carbon monoxide (CO) can cause direct poisoning when breathed in at high levels. On the other hand, breathing ground-level ozone can trigger a variety of health problems including chest pain, coughing, throat irritation, and congestion (Zhang, Wei, and Fang
+2019). There is therefore an urgent need to drastically reduce the concentration of pollutants emitted into the atmosphere to achieve cleaner air to breath.
+To improve air quality, accurate air quality measurements are needed to determine the conditions of the surrounding air. Fortunately, there exist several instruments (in-situ, space-borne and air-borne) and networks that actively measure pollutants in the atmosphere (Asher et al.
+2021; Dutta, Kumar, and Dubey
+2021; Grivas et al.
+2020; Vijayaraghavan, Snell, and Seigneur
+2008). Many countries have ambient air monitoring networks that monitor the level of pollutants in particular regions. For example, India has the System of Air Quality and Weather Forecasting And Research (SAFAR) (http://safar.tropmet.res.in/index.php?menu_id=1.), France has AIRPARIF (https://www.airparif.asso.fr/en.), and South Korea has AIRKOREA (https://www.airkorea.or.kr/eng/.) and South Africa has the South African Air Quality Information System (SAAQIS) (https://saaqis.environment.gov.za/). The only limitation with these networks is the lack of national coverage. The instruments are placed strategically at hotspots but no information is available for other parts of the country. Therefore, there exists a gap in the national measurements of air quality. In general, filling the air quality monitoring gap in low- and middle-income countries has been recognized as a global challenge (Pinder et al.
+2019). This is mainly due to the large size, heavy weight, high power consumption and expensive prices of the monitoring systems (Yi et al.
+2015). So, satellite air quality monitoring can be one of the solutions to address this gap.
+In this work we use the Sentinel-5P products to calculate for the first time the distribution of the air quality index (AQI) and concentrations of the different pollutants over South Africa. We show (1) how the AQI varies monthly, (2) how the concentrations of pollutants vary seasonally, and (3) use the COVID-19 lockdown period as a case study to demonstrate how AQI varies.
+Study area
+The study was conducted in South Africa, which borders Botswana, Mozambique, Namibia, Swaziland, and Zimbabwe, while Lesotho is landlocked (see Figure 1). The country has a land surface area of approximately 1,22 million km2 and a population of 54,96 million. It has nine provinces, with Gauteng and Western Cape provinces being of main interest due to the high economic activity and large populations, i.e., respectively. The two provinces also host two of the three capital cities, i.e., the City of Tshwane and Cape Town, while Gauteng also hosts one of the biggest cities in Africa, i.e., Johannesburg. The climate is subtropical in the interior and temperate along the coastal areas. Generally, most of South Africa experiences summer rainfall, with an annual average of ~464 mm, while the Western Cape province is the winter-rainfall region (GCIS
+2023). Figure 1 further shows the source points of emissions across South Africa. Power stations and mines appear to be the dominant sources of emissions in the country. These are concentrated in the north eastern parts of South Africa.
+Figure 1. (a) a map showing the distribution of power plants and station over South Africa and the provinces of (b) Gauteng, (c) Western Cape and (d) eThekwini.
+Display full size
+Data and method
+Sentinel-5P (Precursor)
+Sentinel-5P was launched on the 13th of October 2017 with the purpose of providing operational space-borne observations and monitoring of air quality, ozone and surface UV climate. TROPOspheric Monitoring Instrument (TROPOMI) onboard Sentinel-5P is a multispectral sensor that measures the Earth’s radiance at the ultraviolet – visible (UV – VIS, 267–499 nm), near-infrared (NIR, 661–786 nm), and shortwave infrared (SWIR, 2300–2389 nm) wavelengths over ground pixels as small as 7.0 km × 3.5 km. The wavelengths are significant for measuring atmospheric concentrations of harmful substances such as aerosols, carbon monoxide (CO), nitrogen dioxide (NO2), ozone (O3), methane (CH4), formaldehyde and sulfur dioxide (SO2). TROPOMI offers data with better accuracy and at higher spatio-temporal resolution than previous instruments. More specific details on sentinel-5P can be found in Theys et al. (
+2017) and Tilstra et al. (
+2020). There are three levels of TROPOMI processing that are associated with different data products. Firstly, Level 0 products (which are not available for the public) comprise of the time-ordered, raw satellite telemetry without temporal overlap, including sensor data of the 4 spectrometers, for both atmospheric and calibration measurements. Secondly, Level-1B products comprise of geo-located and radiometrically corrected top of the atmosphere Earth radiances in all spectral bands, as well as solar irradiances. Lastly, Level-2 products consist of geo-located total columns of SO2, NO2, CO, O3 CH4 and formaldehyde. Moreover, Level-2 products consist of geo-located; (1) tropospheric columns of O3, (2) vertical profiles of O3, and (3) cloud and aerosol information (i.e. aerosol layer height and absorbing aerosol index). There are three types of processing requirements; near real time (NRT), Offline (OFFL), and reprocessing. NRT products are available within 3 hours after sensing, OFFL products are available within 12 hours after sensing, and for reprocessing activities there are no time constraints.
+Calculation of the air quality index (AQI)
+Generally, AQI is an indicator number used to report the hourly or daily air quality in an area or a locality. The primary purpose of AQI is to protect public health, especially for the health of sensitive people such as the elderly, children and asthmatics (Suman
+2021). The total AQI is calculated using
+equation 1
+,
+(1)
+AQI=IP1+IP2+…+IPn/n(1)
+where IP is the sub-index of the concentration of the pollutant and n is the number of pollutants. The sub-index is calculated using
+equation 2
+,
+(2)
+IP=Ihigh−IlowChigh−Clow∗C−Clow+Ilow(2)
+where C is the pollutant concentration, Chigh is the concentration breakpoint that is ≤C, Clow is the concentration breakpoint that is ≥C. Ihigh is index breakpoint corresponding to Chigh and Ilow is index breakpoint corresponding to Clow. Savenets (
+2021) reported that the total column derived from TROPOMI cannot be truthfully estimated to near-ground values. However, the near-ground concentration value can be estimated using
+equation 3
+,
+(3)
+C=CcolH.M.A(3)
+where Ccol is the pollutant column content (mol/m2), M is the molar mass (g/mol), A is a constant which is equal to 1000, for conversion from (g/m3) to (mg/m3), H is expressed in (m). In this research, a value of H = 3000 m was chosen by assuming that most pollutants distribute in the lower troposphere. A block diagram in Figure 2 shows a summary of the calculation procedure for the AQI from TROPOMI data. Step 1 refers to the calculation of the individual pollutant concentration. The sub-index is then calculated in step 2, and the AQI is calculated in step 3.
+Figure 2. A flowchart showing the calculation of the air quality index from TROPOMI.
+Display full size
+Results and discussion
+SO2, NO2 and CO spatial distribution concentrations
+The near-surface concentrations of SO2, NO2 and CO are calculated from
+Equation 3
+. The trends of SO2, NO2 and CO are discussed by Mokgoja, Mhangara, and Shikwambana (
+2023). In this study, the highest SO2 concentration is observed during the June-July-August (JJA) winter season (see Figure 3c). During this season, the circulation patterns are strongly anti-cyclonic over most of South Africa, meaning that air masses tend to not rise, but rather settle near the ground (Masekoameng, Kornelius, and O’Beirne,
+2021). The stable atmospheric conditions prevent the dilution and dispersion of air pollution, especially when emitted from sources near the surface (Cosijn and Tyson
+1996). In essence, winters are characterized by the formation of surface inversion layers inhibiting vertical atmospheric mixing and effectively trapping the primary pollutants (Freiman and Piketh
+2003; Lourens et al.
+2011). The southwestern region of South Africa, on the other hand, experiences rainfall during the JJA period. Most of the rainfall is produced by cold fronts and associated extratropical cyclones (Singleton and Reason
+2007; Xulu et al.
+2023). The rainfall is responsible for the wet deposition (but not entirely) of pollutants in the atmosphere (Watson et al.
+1988). Additional mechanisms of pollutant deposition involve scavenging and sedimentation, inducing downward displacement aimed at ultimately transferring pollutants to the ground surface (Watson et al.
+1988). In general, for the South African context, high SO2 concentration has mostly been observed from coal fired power stations and industrial activities (Sangeetha and Sivakumar
+2019; Steyn and Kornelius
+2018). Other sources of SO2 include vehicles, especially diesel fueled vehicles (Burgard, Bishop, and Stedman
+2006) and domestic solid fuel combustion (Nkosi et al.
+2021). An estimated 50% or more of the total energy used in such households is allocated for cooking and space-heating (Nkosi et al.
+2021). The low SO2 concentration (<5 µg/m3) is

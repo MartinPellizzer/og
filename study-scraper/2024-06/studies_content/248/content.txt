@@ -1,0 +1,453 @@
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature communications earth & environment articles article
+Article
+Open access
+Published: 14 June 2024
+Earth’s atmosphere protects the biosphere from nearby supernovae
+Theodoros Christoudias
+, Jasper Kirkby
+, Dominik Stolzenburg
+, Andrea Pozzer
+, Eva Sommer
+, Guy P. Brasseur, Markku Kulmala
+& Jos Lelieveld
+  Communications Earth & Environment
+ 5, Article number: 326 (2024) Cite this article
+1664 Accesses
+356 Altmetric
+Metrics
+Abstract
+Geological evidence indicates that a supernova within 100 parsecs of Earth occurs around once per million years. Such nearby supernovas can produce an intense gamma-ray burst and a 100-fold increase of cosmic rays, lasting several centuries. We find that the effect of a short burst of gamma rays is small since they are strongly attenuated before reaching the lower stratosphere. Intense cosmic radiation affects stratospheric ozone but, due to compensating effects in catalytic chemical cycles, ozone depletion is moderate and comparable to that from current anthropogenic emissions. This also holds for the low-oxygen atmosphere during early evolution of terrestrial life. We estimate the increase in aerosol and clouds from a 100-fold increase of cosmic rays exerts a radiative forcing comparable in magnitude but opposite in sign to current anthropogenic climate forcing. We conclude that Earth’s atmosphere is effective at shielding the biosphere from nearby supernovae.
+Similar content being viewed by others
+Cosmogenic radionuclides reveal an extreme solar particle storm near a solar minimum 9125 years BP
+Article Open access
+11 January 2022
+Impact gardening on Europa and repercussions for possible biosignatures
+Article 12 July 2021
+The Toba supervolcano eruption caused severe tropical stratospheric ozone depletion
+Article Open access
+12 April 2021
+Introduction
+Supernovae (SN) are exploding, massive stars caused by gravitational collapse during their final stage of evolution. They are the main source of galactic cosmic rays (GCRs; ionising radiation, mainly protons) and can also generate intense gamma-ray bursts. Detection of 60Fe (half-life 2.60 My) in ocean sediments1,2, and the presence of a local gas- and dust-depleted bubble in the Milky Way, imply that several nearby core-collapse SN within about 100 parsec (pc, ~300 light years) of Earth occurred in the last 10 My3. Nearby SN were postulated to have the potential to cause mass extinctions4,5 due to the depletion of stratospheric ozone6 and consequent high ultraviolet (UV) exposure, and from increased number of aerosol particles and cloud cover, resulting in climate cooling (Fig. 1).
+Fig. 1: Supernova impacts.
+Potential atmospheric and climate impacts of a nearby supernova.
+Full size image
+Ruderman7 was the first to suggest that increased cosmic radiation from a nearby SN may deplete Earth’s atmospheric ozone. A number of studies4,8,9,10,11 have corroborated this conclusion. However, Crutzen and Brühl, and Gehrels et al.12,13, disputed catastrophic impacts, using two-dimensional chemistry-transport atmospheric models to infer that ozone depletion was significantly less severe than previously thought. They concluded that a supernova must occur within 8 pc to have a catastrophic effect on the biosphere. A signature of such a close supernova, however, has not been found in the geological record. Thomas14 concluded that supernova-induced stratospheric ozone loss and consequent increased UV exposure can contribute to changes in species abundances, but probably not to mass extinctions. Nonetheless, Fields et al.5 suggested that a nearby (~20 pc) supernova could intensify ionising radiation to such an extent that species extinctions can be expected. Furthermore, a connection between GCRs and cloud formation has been suggested to account for palaeoclimatic observations of solar-climate variability15,16. Svensmark et al.17 argued that if a near-Earth supernova were to occur, the increase in ionising radiation would strongly increase cloud condensation nuclei (CCN) concentrations. Svensmark18 proposed that SN strongly influences climate and, in turn, ocean circulation and marine biodiversity during the Phanerozoic.
+Results and discussion
+Atmospheric chemical composition
+Although low-dimensional atmospheric models have been used in previous studies, Earth system models (ESM), capturing the complex atmospheric circulation dynamics, chemistry, and process feedbacks, are needed to simulate stratospheric ozone loss in response to elevated ionisation16, leading to ion-induced nucleation and particle growth to CCN19,20. Here we use the ESM with Atmospheric Chemistry (EMAC) model21 with ion-induced aerosol processes based on CERN CLOUD experiments to study the impacts of nearby SN on Earth’s atmosphere and climate. We assume a representative nearby SN with GCR ionisation rates in the atmosphere that are 100 times present levels4,7. Though the energy spectrum of the incident GCRs from a nearby SN may change with time and can be modulated by the heliospheric magnetic field (solar wind) and the geomagnetic field, these influences on the GCR flux are relatively minor relative to that of the SN and galactic magnetic field alignment. The factor 100 represents the peak GCR flux estimated by Melott et al.22 for a SN at 50 pc and with a turbulent galactic magnetic field. Our model incorporates comprehensive atmospheric chemistry, propagation of GCR ionisation, ion-induced nucleation of new particles and their growth to CCN, and aerosol-cloud interactions, between Earth’s surface and 80 km altitude (see Methods for details).
+Ionising radiation dissociates stratospheric nitrogen and oxygen molecules into ground-state and excited N and O atoms. Excited N(2D) atoms may react with O2 to produce nitric oxide radicals, N(2D) + O2 → NO + O. The yield is 1.25 NO molecule per ion pair23. Nitric oxide rapidly reacts with ozone to produce nitrogen dioxide, NO + O3 → NO2 + O224,25. The NO2 may then be photolysed, NO2 + hν(<420 nm) → NO + O(3P), which is rapidly followed by O(3P) + O2 + M → O3 + M, thereby regenerating NO and causing no net ozone loss per cycle. However, the NO2 may alternatively interact with an O atom, NO2 + O → NO + O2, which represents a catalytic cycle that regenerates the NO radical and destroys two ozone molecules26,27. The oxidation of ground-state N(4S) is slow compared with the reaction N(4S) + NO → N2 + O, which limits the amount of NO that can accumulate and, in turn, ozone depletion12. In fact, a large fraction of the odd nitrogen (N + NO + NO2 + 2N2O5 + HNO2 + HNO3 + HNO4) is present as compounds other than chemically-active NOx (NO + NO2)—in particular HNO3—regardless of the initial formation in the atmosphere as NO12.
+Ionising radiation also produces hydroxyl radicals (OH), from the reaction O(1D) + H2O → 2OH. The yield is two OH molecules per ion pair16,28. In the lower and middle atmosphere, OH and HO2 radicals rapidly cycle, establishing the HOx family and, in the absence of NO, causing net catalytic destruction of ozone29. The reaction cycle is OH +O 3 → HO2 + O2 followed by HO2 + O3 → OH + O2 + O2 or HO2 + O → OH + O2. However, in the presence of NO, the hydroperoxyl radical, HO2, may regenerate OH via HO2 + NO → NO2 + OH. The NO2 can then photolyse to produce an oxygen atom which then forms O3, resulting in a null cycle for ozone removal30. GCRs therefore produce reactive radicals that contribute to both the destruction and the formation of ozone, leading to a relatively smaller net change.
+The overall relative change of NOx and HOx throughout the atmosphere is shown in Fig. 2a and b, respectively. While NOx increases throughout the troposphere and stratosphere, HOx decreases in the stratosphere and moderately increases in the troposphere. Our model simulations reveal substantially less ozone loss by cosmic rays from a nearby SN than previous estimates31; Fig. 2c shows the relative change of ozone versus latitude and altitude, and Fig. 3a shows the change in ozone column thickness versus time-of-year and latitude.
+Fig. 2: Relative annual mean change factor in atmospheric composition from a nearby supernova.
+Top: relative change of (a) NOx (NO + NO2), (b) HOx (OH + HO2), and (c) O3. The dashed line shows the mean tropopause height. Bottom: relative increase factor of (d) bisulfate ions (\({{{{{\mathrm{HSO}}}}}}_{4}^{-}\)), (e) new particle formation rates (>1.7 nm), and (f) total aerosol concentrations, due to a 100-fold increase in GCR intensity from a nearby supernova.
+Full size image
+Fig. 3: Change in atmospheric ozone from a nearby supernova.
+Atmospheric ozone column percentage decrease (colour) due to a 100-fold increase in GCR intensity over nominal versus latitude and time of year. Black contours with numerical contour level magnitudes indicate the annual average O3 column thickness in Dobson Units (1 Dobson Unit corresponds to 2.7 × 1016 molecules cm−2) for nominal GCR intensities: (a) Present-day atmospheric composition, without ozone-hole-inducing anthropogenic emissions. (b) Sensitivity test for 2% oxygen atmosphere, similar to conditions on Earth during the early Cambrian, a period renowned for its remarkable surge in biodiversity and evolutionary pace. The figure shows the important shielding effect of the geomagnetic field, which deflects a large fraction of the GCRs at low latitudes.
+Full size image
+Even though the increase of GCR flux incident on Earth is isotropic, the impact is largely localised over the polar regions due to the weak shielding (magnetic deflection) by the geomagnetic field, together with atmospheric circulations that dynamically isolate high- from middle latitudes in the lower stratosphere. The maximum ozone depletion over the poles is less than the present-day anthropogenic ozone hole over Antarctica, which amounts to an ozone column loss of 60–70%32. On the other hand, there is an increase of ozone in the troposphere, but it is well within the levels resulting from recent anthropogenic pollution33.
+We find that the maximum mean stratospheric O3 depletion, occurring at the end of the boreal summer, is of the order of 1011 kg, equivalent to around 10% globally, which is close to the observed global ozone depletion due to anthropogenic halogen compounds of about 5–6%32. Although significant, it is unlikely that such ozone changes would have a major impact on the biosphere, especially because most of the ozone loss is found to occur at high latitudes.
+Low oxygen atmosphere
+We have also studied the impact of nearby SN on a low-oxygen atmosphere, to assess their possible effect on the evolution of life. We considered atmospheric conditions that prevailed during the Cambrian between 540 and 485 million years ago. During this period, the diversity of life forms sharply increased, and plants and animals began to populate the land, abandoning the UV protection of the oceans34. The emerging vegetation used photosynthesis to assimilate CO2 and release O2, raising its atmospheric fraction from about 2% to 10% and facilitating the evolution of terrestrial animals35.
+We simulated a 2% oxygen atmosphere since this would likely represent conditions where the emerging biosphere on land would still be particularly sensitive to ozone depletion. We have conducted a sensitivity test with reduced atmospheric oxygen levels to be directly comparable to the nominal simulation with SN-enhanced GCR. This does not purport to be a full paleoclimate assessment, but reducing the oxygen content of the atmosphere to a few percent allows us to quantify the nearby SN impacts on the ozone layer. In the absence of SN, the global average ozone column thickness under 2% O2 conditions was about 100 DU (black contours in Fig. 3b), i.e. only a factor of three less than today’s atmospheric average of roughly 300 DU, as observed by the WMO Global Ozone Observing System, despite the presence of only one-tenth the oxygen. A reduced amount of stratospheric ozone allows deeper penetration of short-wave UV radiation that photodissociates oxygen (hv < 242 nm). Therefore, O3 formation relocates to lower altitudes with higher air and oxygen density, causing a vertical redistribution of ozone, which moderates ozone reduction in the vertical column. The relatively thinner 100 DU ozone layer was already able to absorb sufficient UV to allow evolution of life on land. The effect on this atmosphere of a 100-fold increase in GCR ionisation from a nearby supernova is shown in Fig. 3b). Ozone loss is about 10–25% at mid-latitudes and an order of magnitude lower in the tropics (Fig. 3). At high latitudes, the ozone loss brings the column thickness to similar values as existed in the tropics at that time. At minimum ozone levels near the poles during Antarctic spring, an SN perturbation may even have increased the column ozone, since the short-wave UV solar radiation could penetrate to low altitudes where NOx-catalysed photochemistry enhances rather than decreases the formation of O3. We conclude that these changes of atmospheric ozone are unlikely to have had a major impact on the emerging biosphere on land during the Cambrian.
+We also considered the effects of an intense γ-ray burst from an SN at 100 pc31. We assume a γ-ray intensity of 10 kJ m−2, lasting for a few seconds. This is comparable to a brief factor-ten increase of the solar electromagnetic energy incident on the Earth. Despite receiving this huge electromagnetic pulse at short wavelengths, the planetary impact is remarkably small due to the protection of the atmosphere, which is around 28 radiation lengths in depth. The γ-ray burst is efficiently absorbed by ionisation of stratospheric air above 10 hPa (~30 km altitude), where the incident gamma rays are efficiently attenuated by two orders of magnitude. The resulting NO produced at high altitudes is then dispersed by the global stratospheric (Brewer–Dobson) circulation. Our simulations show that the atmospheric NOx content returns to the unperturbed level within a few weeks after the burst.
+Aerosols, clouds, and climate
+We have also simulated the effects of a nearby supernova on CCN and clouds due to increased ion-induced nucleation from a 100-fold increase of GCR intensity (Fig. 4a and b). The global mean increase of the number concentration of CCN (0.2% supersaturation) at cloud base level is about 10–20%. However, in regions where the unperturbed CCN concentrations are low, such as the Pacific and Southern Oceans, the increase of CCN is larger and can reach up to 100%. These changes, while climatically relevant, are comparable to the contrast between the pristine pre-industrial atmosphere and the polluted present-day atmosphere36.
+Fig. 4: Changes in cloud condensation nuclei (CCN) and radiative forcing from a nearby supernova.
+a Number concentration of CCN (0.2% supersaturation) at cloud base level (top of the boundary layer) after a 100-fold increase in GCR intensity and (b) fractional change in CCN relative to the present day. c Outgoing shortwave solar radiation at the top of the atmosphere with a 100-fold increase in GCR intensity and (d) fractional change in outgoing solar radiation relative to the present day, due to increased cloud albedo. e Zonal average radiative forcing (net change in shortwave plus longwave energy fluxes at the top of the atmosphere) due to a nearby supernova, and percentage change in solar radiation reaching the surface of the Earth.
+Full size image
+The muted response of CCN to the intense ionisation from a nearby SN results both from the shorter than present-day ion lifetimes and an effective buffering of new particles to reach sizes above around 50 nm, where they constitute CCN. Nucleation and growth compete for the same condensable vapours so an increased nucleation rate implies slower growth rates for the new particles and a higher susceptibility to be lost by coagulation with pre-existing aerosol particles. The effect of the shorter ion lifetimes is as follows.
+At high ionisation rates, the ion lifetime is dominated by ion-ion recombination. The ion pair production rate Q [i.p. cm−3 s−1] =  \(\alpha \times {n}_{ip}^{2}\), where α = 1.6 × 10−6 cm3 s−1 throughout the troposphere is the ion-ion recombination coefficient37 and nip [cm−3] is the ion-pair concentration. The ion lifetime is τ [s] = \(1/(\alpha \times {n}_{ip})=1/\sqrt{(\alpha \times Q)}\). So, at 100 times present ionisation rates, ion lifetimes are a factor 10 shorter than in the present-day atmosphere. During the supernova irradiation, the ion lifetime is τ = 56 s at ground level (Q = 200 i.p. cm−3 s−1), and 18 s at 10 km (Q = 4000 i.p. cm−3 s−1). These lifetimes are much shorter than the mean time for a primary ion to form a bisulfate (\({{{{{\mathrm{HSO}}}}}}_{4}^{-}\)) ion, marking the preliminary step for ion-induced nucleation to take place. The collision rate of each negative ion with an H2SO4 molecule is k [s−1] = k−0 × [H2SO4], where k−0 = 2 × 10−9 cm3 s−1 is the charged-neutral collision rate coefficient38 and [H2SO4] [cm−3] is the sulphuric acid vapour concentration. For example, at a representative sulphuric acid concentration of 106 cm−3, the collision rate of each negative ion with a sulphuric acid molecule is k = 2 × 10−3 s−1, equivalent to a mean time of 500 s. This implies that only around 10% or less of the ions will form an \({{{{{\mathrm{HSO}}}}}}_{4}^{-}\) ion before they are neutralised. Moreover, a further 500 s is required to nucleate the first molecular cluster, \({{{{{\mathrm{H}}}}}}_2{{{{{\mathrm{SO}}}}}}_{4}\,\cdot\,{{{{{\mathrm{HSO}}}}}}_{4}^{-}\), during which time the \({{{{{\mathrm{HSO}}}}}}_{4}^{-}\) ion undergoes neutralization by ion-ion recombination. Consequently, only a small fraction of the ions deposited by GCR from a nearby SN are available to drive ion-induced nucleation of sulphuric acid particles.
+These SN effects are incorporated into our model and lead to relatively modest changes in \({{{{{\mathrm{HSO}}}}}}_{4}^{-}\) concentration, new particle (>1.7 nm) formation rates, and aerosol particle concentrations, as shown in Fig. 2d–f, respectively. The global tropospheric changes in bisulfate ion concentration (Fig. 2d) are small, despite 100-fold increasing GCR intensity and a tenfold increase in ion pair concentrations. The largest increases occur in the upper troposphere, where the ion-ion recombination rate is around a factor ten slower than at lower altitudes. The rate of formation of new particles is enhanced above the tropopause in high latitudes and in the tropical lower stratosphere, as well as close to the surface (Fig. 2f). However, the overall increase in nucleation-mode aerosol particles (Fig. 2e) from two orders of magnitude increase in GCR flux is relatively modest, at about a factor 2–5 in the troposphere and mid-stratosphere. This increases particles at CCN sizes by less than a factor of 2 (Fig. 4b).
+To further investigate the effect of increased ionisation on particle growth rates, we performed highly detailed box-model simulations using the ion-UHMA model39. This showed growth rate enhancements for newly-formed particles of less than a factor 1.5, which is found for upper tropospheric conditions, despite a factor of 100 higher ionisation rates. This supports our EMAC model simulations and will not result in significantly increased survival rates for new particles to reach CCN sizes.
+Our simulation of the outgoing shortwave solar radiation at the top of the atmosphere during a nearby SN is shown in Fig. 4c, and the fractional change in outgoing solar radiation relative to the unperturbed atmosphere is shown in Fig. 4d. The increased CCN concentrations at high latitudes enhance the cloud albedo and, consequently, exert a cooling effect. Figure 4e shows the resultant zonal average radiative forcing (net change in shortwave plus longwave energy flux at the top of the atmosphere). There is a small positive climate forcing in the tropics (due to raised cloud top heights) and a sustained negative forcing (cloud brightening) in most of the rest of the world. We estimate the global mean radiative forcing from a 100-fold increase in GCR intensity is −2.5 W/m2 (a cooling). This is of opposite sign but comparable in magnitude to anthropogenic radiative forcing since the pre-industrial age40, though the timescales are very different.
+Conclusions
+Using an Earth system model with comprehensive atmospheric chemistry and with ion and aerosol nucleation processes based on the CERN CLOUD experiments, we have simulated the impacts on the atmosphere and climate of a nearby supernova that produces a 100-fold increase in GCR intensity. Our study does not consider the direct health risks to humans and animals resulting from exposure to elevated ionising radiation. The considered scenarios contain some simplifying, but justified assumptions, in particular regarding the low-oxygen atmosphere, which aims to represent the early Cambrian ozone layer but not the climate of the period. While the general result that the atmosphere and climate are not strongly perturbed by SN is robust, this work cannot serve as a model of specific SN impacts on the Earth system in their full complexity. The current mean annual dose equivalent from all-natural sources of ionising radiation is 2.4 mSv (mostly Rn), of which cosmic rays contribute 0.35 mSv41. A factor 100 increase in exposure from ground-level cosmic rays (35 mSv/y) is equivalent to a lifetime dose of around 2 Sv in the tropics and mid-latitudes. Higher increases in cosmic ray flux could occur in the unlikely case of an ordered interstellar magnetic field aligned along the line of sight to the supernova22. Although 2 Sv would be a very high acute exposure, there is little epidemiological data to indicate the effects of chronic (long-term) exposure reaching this level. For comparison, the 50%-mortality acute (short-term) dose is 1–10 Sv for mammals and birds, 10–100 Sv for reptiles and fish, and 103–104 Sv for protozoa, bacteria, and insects42. A lifetime exposure that is comparable to the lethal acute dose may have some consequences for life on Earth and deserves further study.
+We find the seasonal local maximum depletion of stratospheric ozone is about 30%, located over the polar regions. This is of similar magnitude to the present-day polar ozone loss caused by anthropogenic emissions. The average clear sky (no cloud) UV-index change near the equator and in middle latitudes, where the majority of life resides and has evolved, is less than two (equivalent to ~15% increase), with more pronounced differences in polar latitudes. However, the change in solar radiation reaching the surface, when considering the total atmospheric column albedo and extinction, is only a few percent, with the highest increase limited to the polar regions. Although such ozone depletion may exert UV stress on the biota at high latitudes, the effect on the rest of the biosphere is minor43. The same applies to the low-oxygen atmosphere that existed during the Cambrian explosion of terrestrial life on Earth.
+Interestingly, in an atmosphere with ten times less oxygen than today, the ozone layer is estimated to be only three times thinner. We similarly find that γ-ray bursts from nearby SN do not cause substantial ozone loss or otherwise impact the biosphere. Concerning increases in atmospheric aerosol from ion-induced nucleation, we find relatively muted responses due to the limited availability of condensable vapours and to reduced ion lifetimes. We estimate the increase in CCN abundance exerts a global mean radiative forcing of −2.5 W/m2 (a cooling), which is comparable in magnitude but of opposite sign to current anthropogenic climate forcing.
+Overall, we find that nearby SN are unlikely to have caused mass extinctions on Earth. We conclude that our planet’s atmosphere and geomagnetic field effectively shield the biosphere from the effects of nearby SN, which has allowed life to evolve on land over the last hundreds of million years.
+Methods
+The EMAC model is a numerical chemistry and climate simulation system that includes sub-models describing tropospheric and middle atmosphere processes and their interaction with oceans, land, vegetation, and human influences21. It uses the second version of the Modular Earth Submodel System (MESSy2) to link multi-institutional computer codes. The core atmospheric model is the 5th generation European Centre Hamburg general circulation model (ECHAM5,44,45). For the present study, we applied EMAC (ECHAM5 version 5.3.02, MESSy version 2.55.0) in the T42L47 resolution46, i.e. with a spherical truncation of T42 (corresponding to a quadratic Gaussian grid of approximately 2.8 degrees in latitude and longitude) with 47 vertical hybrid pressure levels up to 0.01 hPa (~80 km altitude).
+EMAC uses a modal representation of aerosols dynamics (GMXe)47 that describes the aerosol size distribution as seven interacting log-normal distributions, of which four modes are soluble and three are insoluble. New particles are added directly to the nucleation mode. We employ the Mainz Chemistry mechanism developed by48, evaluated by49, and described previously for use in global climate-chemistry simulations50,51. The EMAC model reproduces the observed middle atmosphere trace gas, ozone, aerosol, and water cycles, including the characteristic “tape recorder” signal in stratospheric water vapour52. The aerosol representation in EMAC, including mineral dust particles, has been documented by ref. 53. The activation of aerosol particles as CCN and the formation of cloud droplets are described by ref. 54, and the activation of ice nuclei in mixed-phase and cirrus clouds follow the work of55 and references therein. Our simulations employ the MSBM submodel56,57 to account for the formation of polar stratospheric clouds with detailed heterogeneous chemistry reactions of Ozone-reducing compounds58.
+The applied model setup comprises the aerosol nucleation submodel detailed in ref. 20 that implements the parameterisation to calculate aerosol particle formation rates from CERN CLOUD measurements, including ion-induced nucleation (ref. 19 Supplementary Materials Sec. 8). The model calculation of ion-pair production rate that mediates the ion-induced or ion-mediated nucleation is also described in ref. 20. The model includes a GCR ionisation scheme59 as a function of atmospheric depth, GCR modulation, and geomagnetic cut-off rigidity. Values between the tabulated points are calculated by linear interpolation, similar to19. The geomagnetic cut-off rigidity is calculated following the method of ref. 60, using the IONS EMAC submodel20, based on the International Geomagnetic Reference Field (IGRF)61 for the year 2010. The heliospheric modulation and geomagnetic field coefficients used for the simulations can be found in Table 1.
+Table 1 Heliospheric modulation, and geomagnetic field coefficients used for the simulations
+Full size table
+For the supernova simulations, the IONS submodel ion-pair production is increased by a factor of 100 relative to the control simulations with present-day rates, throughout the atmosphere22. We simulated year-long periods under present-day (control) and supernova conditions (with 100-fold increase in GCR), after a spin-up period of one year. Each GCR ion-pair produced in the atmosphere is associated with the production of 1.25 NO23 and 2 OH molecules16,28.
+Ionisation in the atmosphere from GCRs primarily results in charged oxygen, \({{{{{\mathrm{O}}}}}}_{2}^{-}\), and nitrogen, \({{{{{\mathrm{N}}}}}}_{2}^{+}\), ion pairs. Our model then propagates the primary negative ions to vapours having progressively lower proton affinity. The subsequent ion-transfer reactions are complex, but tropospheric and stratospheric negative ion composition is generally dominated by \({{{{{\mathrm{NO}}}}}}_{3}^{-}\) and its various hydrates62. However, \({{{{{\mathrm{NO}}}}}}_{3}^{-}\) ions will transfer their charge upon collision with a sulphuric acid molecule to form \({{{{{\mathrm{HSO}}}}}}_{4}^{-}\) and its hydrates63. It is not known how \({{{{{\mathrm{HSO}}}}}}_{4}^{-}\) concentrations respond to an increasing primary ionisation. Here we use a parameterised scheme to approximate a possible moderation effect due to the enhanced ion-ion recombination. We model the ion cascade as a set of coupled ordinary differential equations describing the evolution of atmospheric ion composition, focusing on the major negative species in a confined air parcel. We formulated an initial value problem and derived an analytical expression for the steady-state solution.
+We follow the reactive chain of ref. 64 for propagating negative ions. We used the charged-neutral collision rate coefficient of 2 × 109 cm3 s−1 measured by ref. 38 as the reaction rate constant for the ion-neutral molecule collisions. When a negative ion collides with a neutral monomer of higher gas phase acidity (lower proton affinity) the negative charge is transferred with unit probability, i.e. a single collision is sufficient. The negative ions are neutralised at the rate
+$$k[{{{{{{{{\rm{s}}}}}}}}}^{-1}]=\alpha \,[{{{{{{{{\rm{cm}}}}}}}}}^{3}{{{{{{{{\rm{s}}}}}}}}}^{-1}]\times {n}^{+}\,[{{{{{{{{\rm{cm}}}}}}}}}^{-3}]$$
+where the positive ion number concentration and Q is the ion pair production rate, such that \(k=\sqrt{\alpha Q}\). The model includes the altitude dependence of the ion-ion recombination coefficient, α37. We have used the Tropospheric Ultraviolet and Visible Radiation Model65 to calculate the difference in UV index during clear-sky (no cloud) conditions, taking into account the Ozone layer and aerosol optical thickness differences between the SN and nominal GCR simulations.
+The prompt SN γ-ray spectrum is non-thermal and is approximated using 66 evenly spaced logarithmic energy bins in the range 0.001  MeV ≤ E ≤ 10 MeV, following the Band spectrum13. We scale the top of the atmosphere incident photon flux to the estimated γ-ray flux of 10 kJ/m2. We note that a conservative estimate by Melott et al.66 suggested that the probable nearest burst pointed at the Earth in the last billion years was ~2 kpc (perhaps 1 kpc). We interpolate the values of the photon attenuation coefficient from the Particle Data Group67 to calculate mass lengths for the GRB spectrum for each of the 66 bins and estimate the ion-pair production at each atmospheric depth assuming 43.6 eV per conversion. We account for the atmospheric air mass at oblique incidence relative to that at zenith using the plane-parallel atmosphere approximation, scaling the atmospheric path length by the secant of the γ-ray zenith angle up to 85°.
+For growth of nucleated particles to CCN sizes, we additionally used the University of Helsinki Multicomponent Aerosol model for neutral and charged particles (ion-UHMA). Ion-UHMA is a sectional (60 sections between 1.8 and 1000 nm) box model that simulates aerosol dynamics (condensation, coagulation, and deposition) and ion dynamics, ion-aerosol interaction, and ion-ion recombination during NPF, where the nucleation rates (neutral, positive and negative are treated as input and use the parametrisations from19. Sub-1.8 nm charged clusters are treated dynamically in the model, with an ion-pair production rate of 3 cm−3 s−1 or 300 cm−3 s−1, and the aerosol population is modelled with three sub-populations (neutral and charged in both polarities) where the collision efficiencies also consider charge and dipole effects. More details can be found in ref. 39. We performed two sets of simulations (each with a high and low ion-pair production rate and across different sulphuric acid concentrations 0.1–5 × 107 molecules/cm3), representative of the lower troposphere where organics participate in the growth, and of the upper troposphere with no background aerosol and only H2SO4.
+Data availability
+The dataset shown in the figures is publicly available at Zenodo under the Community “CERN CLOUD experiment” (https://doi.org/10.5281/zenodo.11144731).
+Code availability
+The EMAC (ECHAM/MESSy) model is continuously further developed and applied by a consortium of institutions. The use of MESSy and access to the source code is licensed to all affiliates of institutions that are members of the MESSy consortium. Institutions can become a members of the MESSy consortium by signing the MESSy Memorandum of Understanding. More information can be found on the MESSy consortium website (https://www.messy-interface.org). The results presented in this paper were produced with MESSy version d2.54.0.2.
+References
+Knie, K. et al. 60Fe anomaly in a deep-sea manganese crust and implications for a nearby supernova source. Phys. Rev. Lett. 93(17), 171103 (2004).
+Article
+  Google Scholar
+  Wallner, A. et al. Recent near-earth supernovae probed by global deposition of interstellar radioactive 60fe. Nature 532, 69–72 (2016).
+Article
+  CAS
+  Google Scholar
+  Benítez, N., Maíz-Apellániz, J. & Canelles, M. Evidence for nearby supernova explosions. Phys. Rev. Lett. 88, 081101 (2002).
+Article
+  Google Scholar
+  Ellis, J. & Schramm, D. N. Could a nearby supernova explosion have caused a mass extinction? Proc. Natl Acad. Sci. 92, 235–238 (1995).
+Article
+  CAS
+  Google Scholar
+  Fields, B. D. et al. Supernova triggers for end-Devonian extinctions. Proc. Natl Acad. Sci. 117, 21008–21010 (2020).
+Article
+  CAS
+  Google Scholar
+  Chapman, S. On ozone and atomic oxygen in the upper atmosphere. Lond. Edinb. Dublin Philos. Mag. J. Sci. 10, 369–383 (1930).
+Article
+  CAS
+  Google Scholar
+  Ruderman, M. A. Possible consequences of nearby supernova explosions for atmospheric ozone and terrestrial life. Science 184, 1079–1081 (1974).
+Article
+  CAS
+  Google Scholar
+  Whitten, R. C., Cuzzi, J., Borucki, W. J. & Wolfe, J. H. Effect of nearby supernova explosions on atmospheric ozone. Nature 263, 398–400 (1976).
+Article
+  CAS
+  Google Scholar
+  Kuroda, P. K. Possible climatic effect of supernova explosions. Geochem. J. 11, 45–48 (1977).
+Article
+  CAS
+  Google Scholar
+  Hunt, G. E. Possible climatic and biological impact of nearby supernovae. Nature 271, 430–431 (1978).
+Article
+  CAS
+  Google Scholar
+  Aikin, A., Chandra, S. & Stecher, T. Supernovae effects on the terrestrial atmosphere. Planet. Space Sci. 28, 639–644 (1980).
+Article
+  CAS
+  Google Scholar
+  Crutzen, P. J. & Brühl, C. Mass extinctions and supernova explosions. Proc. Natl Acad. Sci. USA 93, 1582–1584 (1996).
+Article
+  CAS
+  Google Scholar
+  Gehrels, N. et al. Ozone depletion from nearby supernovae. Astrophys. J. 585, 1169–1176 (2003).
+Article
+  CAS
+  Google Scholar
+  Thomas, B. C. Photobiological effects at earth’s surface following a 50 pc supernova. Astrobiology 18, 481–490 (2018).
+Article
+  CAS
+  Google Scholar
+  Kirkby, J. Cosmic rays and climate. Surv. Geophys. 28(5–6), 333–375 (2007).
+Article
+  Google Scholar
+  Mironova, I. A. et al. Energetic particle influence on the Earth’s atmosphere. Space Sci. Rev. 194, 1–96 (2015).
+Article
+  CAS
+  Google Scholar
+  Svensmark, H., Enghoff, M., Shaviv, N. & Svensmark, J. Increased ionization supports growth of aerosols into cloud condensation nuclei. Nat. Commun. 8, 1–9 (2017).
+Article
+  CAS
+  Google Scholar
+  Svensmark, H. A persistent influence of supernovae on biodiversity over the phanerozoic. Ecol. Evol. 13, e9898 (2023).
+Article
+  Google Scholar
+  Dunne, E. M. et al. Global atmospheric particle formation from CERN CLOUD measurements. Science 354, 1119–1124 (2016).
+Article
+  CAS
+  Google Scholar
+  Ehrhart, S. et al. Two new submodels for the Modular Earth Submodel System (MESSy): New Aerosol Nucleation (NAN) and small ions (IONS) version 1.0. Geosci. Model Dev. 11, 4987–5001 (2018).
+Article
+  CAS
+  Google Scholar
+  Jöckel, P. et al. Development cycle 2 of the Modular Earth Submodel System (MESSy2). Geosci. Model Dev. 3, 717–752 (2010).
+Article
+  Google Scholar
+  Melott, A., Thomas, B., Kachelriess, M., Semikoz, D. & Overholt, A. A supernova at 50 pc: effects on the Earth’s atmosphere and biota. Astrophys. J. 840, 105 (2017).
+Article
+  Google Scholar
+  Porter, H., Jackman, C. & Green, A. Efficiencies for production of atomic nitrogen and oxygen by relativistic proton impact in air. J. Chem. Phys. 65, 154–167 (1976).
+Article
+  CAS
+  Google Scholar
+  Crutzen, P. J. The influence of nitrogen oxides on the atmospheric ozone content. Q. J. R. Meteorol. Soc. 96, 320–325 (1970).
+Article
+  Google Scholar
+  Johnston, H. Reduction of stratospheric ozone by nitrogen oxide catalysts from supersonic transport exhaust. Science 173, 517–522 (1971).
+Article
+  CAS
+  Google Scholar
+  Brasseur, G. P. & Solomon, S. Aeronomy of the middle atmosphere: Chemistry and physics of the stratosphere and mesosphere, 32 (Springer Science & Business Media, 2005).
+Portmann, R., Daniel, J. & Ravishankara, A. Stratospheric ozone depletion due to nitrous oxide: influences of other gases. Philos. Trans. R. Soc. B Biol. Sci. 367, 1256–1264 (2012).
+Article
+  CAS
+  Google Scholar
+  Solomon, S., Rusch, D., Gérard, J., Reid, G. & Crutzen, P. The effect of particle precipitation events on the neutral and ion chemistry of the middle atmosphere: II. Odd hydrogen. Planet. Space Sci. 29, 885–893 (1981).
+Article
+  CAS
+  Google Scholar
+  Bates, D. R. & Nicolet, M. The photochemistry of atmospheric water vapor. J. Geophys. Res. 55, 301–327 (1950).
+Article
+  CAS
+  Google Scholar
+  Seinfeld, J. H. & Pandis, S. N. (eds) Atmospheric chemistry and physics: from air pollution to climate change (John Wiley & Sons, 2016).
+Thomas, B. C. et al. Gamma-ray bursts and the Earth: exploration of atmospheric, biological, climatic, and biogeochemical effects. Astrophys. J. 634, 509 (2005).
+Article
+  CAS
+  Google Scholar
+  WMO. Scientific assessment of ozone depletion: 2022. Tech. Rep. GAW Report No. 278, (World Meteorological Organization, Geneva, 2022).
+Lelieveld, J. & Dentener, F. J. What controls tropospheric ozone? J. Geophys. Res. Atmos. 105, 3531–3551 (2000).
+Article
+  CAS
+  Google Scholar
+  Beraldi-Campesi, H. Early life on land and the first terrestrial ecosystems. Ecol. Process. 2, 1–17 (2013).
+Article
+  Google Scholar
+  Krause, A. J. et al. Stepwise oxygenation of the Paleozoic atmosphere. Nat. Commun. 9, 1–10 (2018).
+Article
+  Google Scholar
+  Gordon, H. et al. Causes and importance of new particle formation in the present-day and preindustrial atmospheres. J. Geophys. Res. Atmos. 122, 8739–8760 (2017).
+Article
+  Google Scholar
+  Zauner-Wieczorek, M., Curtius, J. & Kürten, A. The ion–ion recombination coefficient α: comparison of temperature-and pressure-dependent parameterisations for the troposphere and stratosphere. Atmos. Chem. Phys. 22, 12443–12465 (2022).
+Article
+  CAS
+  Google Scholar
+  He, X.-C. et al. Determination of the collision rate coefficient between charged iodic acid clusters and iodic acid using the appearance time method. Aerosol Sci. Technol. 55, 231–242 (2021).
+Article
+  CAS
+  Google Scholar
+  Leppä, J. et al. Ion-UHMA: a model for simulating the dynamics of neutral and charged aerosol particles. Boreal Environ. Res. 14, 559–575 (2009).
+Google Scholar
+  Arias, P. et al. Climate change 2021: The physical science basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change; technical summary. Tech. Rep., (IPCC, 2021).
+Cinelli, G. et al. European annual cosmic-ray dose: estimation of population exposure. J. Maps 13, 812–821 (2017).
+Article
+  Google Scholar
+  UNEP. Radiation: effects and sources (United Nations Environment Programme, 2016).
+Galante, D. & Ernesto Horvath, J. Biological effects of gamma-ray bursts: distances for severe damage on the biota. Int. J. Astrobiol. 6, 19–26 (2007).
+Article
+  CAS
+  Google Scholar
+  Roeckner, E. et al. The atmospheric general circulation model ECHAM5. PART I: Model description. Technical report, (Max Planck Institute for Meteorology, 2003).
+Roeckner, E. et al. The atmospheric general circulation model ECHAM5. PART II: Sensitivity of Simulated Climate to Horizontal and Vertical Resolution. Tech. Rep., (Max Planck Institute for Meteorology, 2004).
+Roeckner, E. et al. Sensitivity of simulated climate to horizontal and vertical resolution in the ECHAM5 atmosphere model. J. Clim. 19, 3771–3791 (2006).
+Article
+  Google Scholar
+  Pringle, K. et al. Description and evaluation of GMXe: a new aerosol submodel for global simulations (v1). Geosci. Model Dev. 3, 391–412 (2010).
+Article
+  Google Scholar
+  Pöschl, U., von Kuhlmann, R., Poisson, N. & Crutzen, P. J. Development and intercomparison of condensed isoprene oxidation mechanisms for global atmospheric modeling. J. Atmos. Chem. 37, 29–52 (2000).
+Article
+  Google Scholar
+  Pozzer, A. et al. Simulating organic species with the global atmospheric chemistry general circulation model ECHAM5/MESSy1: a comparison of model results with observations. Atmos. Chem. Phys. 7, 2527–2550 (2007).
+Article
+  CAS
+  Google Scholar
+  Jöckel, P. et al. The atmospheric chemistry general circulation model ECHAM5/MESSy1: consistent simulation of ozone from the surface to the mesosphere. Atmos. Chem. Phys. 6, 5067–5104 (2006).
+Article
+  Google Scholar
+  Jöckel, P. et al. Earth System Chemistry Integrated Modelling (ESCiMo) with the Modular Earth Submodel System (MESSy) version 2.51. Geosci. Model Dev. 9, 1153–1200 (2016).
+Article
+  Google Scholar
+  Lelieveld, J. et al. Stratospheric dryness: model simulations and satellite observations. Atmos. Chem. Phys. 7, 1313–1332 (2007).
+Article
+  CAS
+  Google Scholar
+  Klingmüller, K., Karydis, V. A., Bacer, S., Stenchikov, G. L. & Lelieveld, J. Weaker cooling by aerosols due to dust–pollution interactions. Atmos. Chem. Phys. 20, 15285–15295 (2020).
+Article
+  Google Scholar
+  Karydis, V. A. et al. Global impact of mineral dust on cloud droplet number concentration. Atmos. Chem. Phys. 17, 5601–5621 (2017).
+Article
+  CAS
+  Google Scholar
+  Bacer, S. et al. Implementation of a comprehensive ice crystal formation parameterization for cirrus and mixed-phase clouds in the EMAC model (based on MESSy 2.53). Geosci. model Dev. 11, 4021–4041 (2018).
+Article
+  CAS
+  Google Scholar
+  Kirner, O. et al. Simulation of polar stratospheric clouds in the chemistry-climate-model EMAC via the submodel PSC. Geosci. Model Dev. 4, 169–182 (2011).
+Article
+  Google Scholar
+  Kirner, O., Müller, R., Ruhnke, R. & Fischer, H. Contribution of liquid, NAT and ice particles to chlorine activation and ozone depletion in Antarctic winter and spring. Atmos. Chem. Phys. 15, 2019–2030 (2015).
+Article
+  CAS
+  Google Scholar
+  Cicerone, R. J., Stolarski, R. S. & Walters, S. Stratospheric ozone destruction by man-made chlorofluoromethanes. Science 185, 1165–1167 (1974).
+Article
+  CAS
+  Google Scholar
+  Usoskin, I. G., Kovaltsov, G. A. & Mironova, I. A. Cosmic ray induced ionization model CRAC: CRII: An extension to the upper atmosphere. J. Geophys. Res. Atmos. 115, D10302 (2010).
+Fraser-Smith, A. C. Centered and eccentric geomagnetic dipoles and their poles, 1600–1985. Rev. Geophys. 25, 1–16 (1987).
+Article
+  Google Scholar
+  Thébault, E. et al. International geomagnetic reference field: the 12th generation. Earth Planets Space 67, 1–19 (2015).
+Google Scholar
+  Harrison, R. & Carslaw, K. Ion-aerosol-cloud processes in the lower atmosphere. Rev. Geophys. 41, 1012 (2003).
+Beig, G. & Brasseur, G. P. Model of tropospheric ion composition: a first attempt. J. Geophys. Res. Atmos. 105, 22671–22684 (2000).
+Article
+  CAS
+  Google Scholar
+  Beig, G., Walters, S. & Brasseur, G. A two-dimensional model of ion composition in the stratosphere: 2. negative ions. J. Geophys. Res. Atmos. 98, 12775–12781 (1993).
+Article
+  Google Scholar
+  Madronich, S. UV radiation in the natural and perturbed atmosphere. In Environmental effects of UV (ultraviolet) radiation (ed Tevini, M.) 17–69 (Lewis, Boca Raton, 1993).
+Melott, A. L. et al. Did a gamma-ray burst initiate the late Ordovician mass extinction? Int. J. Astrobiol. 3, 55–61 (2004).
+Article
+  CAS
+  Google Scholar
+  Workman, R. L. et al. Review of particle physics. PTEP 2022, 083C01 (2022).
+Google Scholar
+  Download references
+Acknowledgements
+The authors wish to thank Prof Simon Clegg, University of East Anglia, for the topical discussions on aerosol thermodynamics, and Dr Sergey Osipov, KAUST, for insights into the UV index calculations. We thank the European Organization for Nuclear Research (CERN) for supporting CLOUD with important technical and financial resources. This study has been funded by the European Union’s Horizon 2020 research and innovation programme under grant agreement no. 856612 (EMME-CARE), under Marie Skłodowska-Curie grant agreement no. 895875 (NPF-PANDA), and the Vienna Science and Technology Fund (WWTF) through project VRG22-003. The National Center for Atmospheric Research is sponsored by the US National Science Foundation.
+Funding
+Open Access funding enabled and organized by Projekt DEAL.
+Author information
+Authors and Affiliations
+Climate and Atmosphere Research Center, Cyprus Institute, Nicosia, Cyprus
+Theodoros Christoudias, Andrea Pozzer & Jos Lelieveld
+Institute for Atmospheric and Environmental Sciences, Goethe University Frankfurt, Frankfurt am Main, Germany
+Jasper Kirkby
+CERN, The European Organization for Nuclear Research, Geneva, Switzerland
+Jasper Kirkby
+Institute for Materials Chemistry, TU Wien, Vienna, Austria
+Dominik Stolzenburg
+Atmospheric Chemistry Department, Max Planck Institute for Chemistry, Mainz, Germany
+Andrea Pozzer & Jos Lelieveld
+University of Vienna, Vienna, Austria
+Eva Sommer
+National Center for Atmospheric Research (NCAR), Boulder, CO, USA
+Guy P. Brasseur
+Institute for Atmospheric and Earth System Research (INAR), University of Helsinki, Helsinki, Finland
+Markku Kulmala
+Helsinki Institute of Physics, University of Helsinki, Helsinki, Finland
+Markku Kulmala
+Joint International Research Laboratory of Atmospheric and Earth System Sciences, Nanjing University, Nanjing, China
+Markku Kulmala
+Aerosol and Haze Laboratory, Beijing Advanced Innovation Center for Soft Matter Science and Engineering, Beijing University of Chemical Technology, Beijing, China
+Markku Kulmala
+Contributions
+J.K., T.C., J.L., and D.S. planned the investigation. T.C., A.P., and D.S. produced the numerical simulations. T.C., D.S. analysed the data. T.C., J.L., J.K., and D.S. wrote the manuscript. G.B., M.K., and E.S. contributed to the scientific discussion and provided comments on the manuscript.
+Corresponding authors
+Correspondence to Theodoros Christoudias or Jos Lelieveld.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Peer review
+Peer review information
+Communications Earth & Environment thanks Rolf Müller and the other, anonymous, reviewer(s) for their contribution to the peer review of this work. Primary Handling Editors: Kerstin Schepanski and Joe Aslin. A peer review file is available.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Supplementary information
+Peer Review File
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Christoudias, T., Kirkby, J., Stolzenburg, D. et al. Earth’s atmosphere protects the biosphere from nearby supernovae. Commun Earth Environ 5, 326 (2024). https://doi.org/10.1038/s43247-024-01490-9
+Download citation
+Received
+28 November 2023
+Accepted
+04 June 2024
+Published
+14 June 2024
+DOI
+https://doi.org/10.1038/s43247-024-01490-9
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+Atmospheric chemistry
+Environmental chemistry
+Space physics
+Comments
+By submitting a comment you agree to abide by our Terms and Community Guidelines. If you find something abusive or that does not comply with our terms or guidelines please flag it as inappropriate.
+Download PDF
+Sections
+Figures
+References
+Abstract
+Introduction
+Results and discussion
+Conclusions
+Methods
+Data availability
+Code availability
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Peer review
+Additional information
+Supplementary information
+Rights and permissions
+About this article
+Comments
+Advertisement
+Communications Earth & Environment (Commun Earth Environ) ISSN 2662-4435 (online)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

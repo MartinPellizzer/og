@@ -1,0 +1,57 @@
+Menu
+New Search
+Researcher Profiles
+Sign in
+Back
+Dissertation
+  OPEN ACCESS
+DRY LIGHTNING IN THE WESTERN UNITED STATES: METEOROLOGICAL CONDITIONS, WILDFIRE IGNITION, AIR QUALITY IMPACTS, AND FUTURE PROJECTIONS
+Dmitri A. Kalashnikov
+Washington State University
+Doctor of Philosophy (PhD), Washington State University
+05/2024
+DOI: https://doi.org/10.7273/000006520
+View
+Share
+Export
+Files and links (1) 
+Abstract 
+Metrics 
+Details 
+Files and links (1)
+PDF
+kalashnikov_dissertation2
+32.24 MB
+Download
+View
+CC BY V4.0,  Open Access
+Abstract
+Geospatial Analysis Lightning Wildfires Air Quality Climate Change Machine Learning Meteorology
+Cloud-to-ground lightning occurring with little to no rainfall – typically referred to as “dry lightning” – is a major source of wildfire ignition in the western United States (WUS) during summer months. Although lightning-caused wildfires occur naturally and are generally ecologically beneficial, changing climatic conditions are increasing the risk of large and severe wildfires. Motivated by these impacts, my dissertation aims to advance our understanding of dry lightning in the WUS and its associated meteorological conditions, wildfire ignitions, air quality impacts, and future projections. In the first chapter, I provide an overview of the motivations for undertaking this dissertation. In the second chapter, I use gridded air pollutant and population data to examine compound air pollution episodes in the WUS. This study demonstrates an increase in the co-occurrence of two harmful air pollutants (fine particulate matter and ground-level ozone) during the WUS wildfire season in the past two decades, and increasing population exposure to these co-occurrences of 25 million person-days per year largely driven by increasing wildfire activity. I show that the largest population exposure to co-occurring air pollution was  associated with the major outbreak of dry lightning that ignited hundreds of wildfires in California during August, 2020. To better understand dry lightning in this fire-prone region, in the third chapter I examine the meteorological and geographical factors associated with dry lightning in central and northern California. I apply k-means clustering to atmospheric reanalysis data to identify four types of meteorological patterns associated with the largest dry lightning outbreaks over this region, and quantify the spatial patterns of enhanced dry lightning risk associated with each pattern. In the fourth chapter, I use radar-derived rainfall data and gridded climatological variables to investigate the precipitation amounts and biophysical factors associated with lightning-caused wildfire ignitions across the WUS. Critically, my results refine the widely-used <2.5mm precipitation amount to define dry lightning by demonstrating that substantial regional variation exists in ignition-relevant precipitation amounts depending on local topography, vegetation, and climate. In the fifth chapter, I use Convolutional Neural Networks (CNNs) to predict cloud-to-ground lightning in the WUS at the grid cell level using a suite of reanalysis-derived meteorological variables as predictors. The CNNs are skillful at predicting lightning (domain-median AUC = 0.8) and realistically capture the year-to-year variation of lightning activity across the WUS (domain-median interannual correlation = 0.87). The CNN-based predictive models developed in this study can be applied to output from global climate models, thus enabling the ability to project future lightning and lightning-caused wildfires. In the final chapter, I summarize my findings from the four studies that comprise my dissertation. The outcomes of my research can be useful to forecasters and fire managers to anticipate possible wildfire ignitions in the present climate, and can be used to inform planning, management, and policy decisions around future lightning-caused wildfires in the WUS.
+ Expand abstract 
+Metrics
+4 File views/ downloads
+9 Record Views
+Details
+TITLE
+DRY LIGHTNING IN THE WESTERN UNITED STATES
+CREATORS
+Dmitri A. Kalashnikov
+CONTRIBUTORS
+Deepti Singh (Chair)
+Kevan B Moffett (Committee Member)
+Von P Walden (Committee Member)
+Paul C Loikith (Committee Member)
+AWARDING INSTITUTION
+Washington State University
+Show the rest
+RESEARCH EXCHANGE SERVICES
+New Search
+Research Units
+Researcher Profiles
+Accessibility
+PORTAL INDEX
+Researcher Profiles Index
+Output Index
+We use strictly necessary cookies which are required to run this site, as a result, users cannot opt-out of strictly necessary cookies. We also use non-essential cookies, which are used to enhance the user experience through analysis of your usage on this site. Users do have the option of rejecting non-essential cookies by choosing, reject all. If you chose to accept all, you will be providing consent for this site to use both strictly necessary and non-essential cookies. You can also manage your non-essential cookie preference by choosing Manage cookie preferences. You can read more about our cookie policy, privacy notice, and other privacy program information by visiting our Privacy Center.
+Manage cookie preferences Reject all Accept all

@@ -1,0 +1,323 @@
+All Content
+AIP Publishing Portfolio
+Physics of Plasmas
+Advanced Search
+|
+Citation Search
+Sign In
+HOME
+BROWSE
+COLLECTIONS
+PUBLISH WITH US
+ABOUT
+Volume 31, Issue 7
+July 2024
+Previous Article
+Next Article
+I. INTRODUCTION
+II. EXPERIMENTAL AND SIMULATION SETUP
+A. Device Design And Fabrication
+B. Characterization Of Plasma Generation Process
+C. Microscopic Simulation Of Plasma Evolution
+D. Evaluation Of Sterilization Efficacy
+III. RESULTS AND DISCUSSION
+A. Plasma Generation Process Characterization
+B. Plasma Microscopic Evolution
+C. Sterilization Efficacy Evaluation
+IV. CONCLUSIONS
+SUPPLEMENTARY MATERIAL
+ACKNOWLEDGMENTS
+AUTHOR DECLARATIONS
+Conflict Of Interest
+Author Contributions
+DATA AVAILABILITY
+REFERENCES
+RESEARCH ARTICLE| JULY 01 2024
+Flexible thin-layer plasma sterilizer based on polyimide and efficacy evaluation under bending deformation
+Yu-Hao Sun
+;
+Yuan-Yang Liu
+;
+Bo Zhang
+;
+Hang Zhao
+;
+Ming-Yang Sun
+;
+Lei Fan
+;
+Guan-Jun Zhang
+Author & Article Information
+Phys. Plasmas 31, 073501 (2024)
+https://doi.org/10.1063/5.0205582
+Article history
+Split-Screen
+Views
+PDF
+Share
+Tools
+Cold atmospheric pressure plasma is receiving attention in biomedical treatment for its non-thermal, dry-type, and high-efficiency disinfection effects on bacteria, fungi, and viruses, compared to typical sterilization methods, such as pasteurization, chemical solutions, and ultraviolet radiation. There are great demands of plasma decontamination on the surface of complex 3D objects, with the request of large coverage, convenience, and uniformity, which still remains a challenge for the current plasma devices. In this work, a flexible thin-layer plasma source for sterilization is developed based on a polyimide substrate, and its plasma generation process is characterized by experiment and simulation. The influences of bending deformation are studied and evaluated by electrical waveforms, heat radiation, and ozone production, of which the mechanisms are further explained. Results illustrate that the variation in electron impact ionization induced by different curvatures is the main cause leading to the change in microparticle production, thus affecting the macroscopic properties of plasmas. Activations of the plasma sterilizer for 30 and 120 s reduce both S. aureus and P. aeruginosa on the flat surface by around 2.5 and 5 log colony forming units (CFU). However, the plasma sterilization effect decreases with an extent of about 1 log CFU when treating the curved surface, while being regained after conforming the plasma sterilizer to the curved surface. This kind of plasma generator offers significant flexibility and efficacy, being promising for the treatment of objects with irregular surfaces in future plasma biomedicine and material processing.
+Topics
+Thermal radiation, Ozone, Polymers, Electron impact ionization, Plasma processing, Plasma devices, Plasma sources, Bacteria, Fungi, Colony counter
+I. INTRODUCTION
+Sterilization refers to the microbial process that causes all the bacteria, viruses, and fungi barren or infertile. In some specific situations, such as the disinfection treatment of fresh products and skin wounds, there are demands for a nonthermal and waterless decontamination technology, to which pasteurization and chemical solutions (alcohol or iodine) may not be suitable. Cold atmosphere plasma (written as plasma below) provides a hopeful sterilization method for these requirements. Plasma is produced under the action of high voltage and strong electric field, containing electrons, ions, excited atoms, free radicals, and chemically reactive neutral particles. Due to these active and high-energy particles, plasma has shown its highly effective inactivation efficacy on bacteria, viruses, fungi, and biofilms in recent years,1–4 while the buildup of resistance against plasma has not been reported yet. Plasma is found to be able to destroy cell membranes and damage various intracellular macromolecules, which leads to cell leakage and protein degeneration.5,6 The oxidation of amino acids and nucleic acids caused by plasma treatment may furthermore trigger the death or damage of microorganisms. It is reported that the vital factors of this sterilization effect are reactive oxygen species (atomic oxygen O, singlet oxygen 1O2, superoxide anion O 2 −⁠, and ozone O3) and reactive nitrogen species [atomic nitrogen N, excited nitrogen N2(A), and nitric oxide NO] within the plasma gas phase.7 The electromagnetic field and ultraviolet radiation accompanying plasma generation also contribute to decontamination.
+Various approaches are available to produce plasma in the atmosphere for biomedical disinfection, including plasma sources of corona discharge, gliding arc discharge, and dielectric barrier discharge (DBD).8–10 However, when plasma is applied to 3D objects with irregular and large-area surfaces for sterilization, such as skin wounds near joints, an adaptive fitness of plasma source to the surface is always required. Not limited to biomedical applications, plasma treatment with high quality, efficiency, and uniformity on complex 3D objects and surfaces has become a common concern for researchers in the field of plasma source development. Conventional plasma generation methods are always limited by the narrow discharge space, confined plasma contact area, and rigid dielectric materials, hardly satisfying the demands above. Therefore, developing a plasma source with high surface adaptability, efficiency, and stability has prominent research and application significance.
+The advent of flexible electronic technology provides an innovative development direction for microelectronic devices and integrated circuits. After years of rapid progress, research in this field has achieved great prosperity, including thin-layer transistors, flexible displays, and wearable medical electronics.11–14 By utilizing the material capabilities, structural designs, and manufacturing methods from flexible electronic technology, plasma sources can be realized with flexibility, which will expand the applications of plasmas.
+The earliest investigation into the flexible plasma source can be traced back to 2009 when a plasma device was developed consisting of microcavity arrays.15 The construction of this device incorporated two sections of Al mesh that were bonded together, and an integral dielectric barrier with a thickness of less than 100 μm was created using nanoporous alumina. During the experimental bending of the plasma source, its discharge current kept constant, while the light emission of curved electrodes decreased by half. In the last few years, there has been continued research focused on the structural design of flexible plasma sources. A flexible plasma source is optimized for minimal displacement current and maximum dissipated power, employing various electrode geometries for device optimization purpose.16 In another research, a surface DBD structure was used to create a flexible plasma sheet. Ground electrodes and high-voltage electrodes were fabricated on the back and front sides of a polyimide film, respectively.17 To reduce leakage current, high-voltage electrodes were positioned in between ground electrodes. The economy for the fabrication of flexible plasma sources is also considered. Within 30 min, and for less than $0.25, researchers created a flexible plasma source using a printed circuit board fabrication method.18 The flexible plasma sources are typically excited by sine waves or pulses with kilovolt amplitude and kilohertz frequency in the atmosphere. Specific gas environments for device excitation are also reported such as Ar, He, Ne, mixtures of Ar/N2, He/O2, He/c-C4F8, and Ne/Xe.15,18,19 The lifetime of these flexible plasma sources can range from nearly 1 h18 to several hours,15,20 and even over 24 h,21 which mainly depends on the dielectric materials and excitation intensities.
+In the realm of microbiological sterilization, flexible plasma sources have demonstrated outstanding results for their unique capacity to adapt to uneven surfaces and their wide range of plasma coverage. It has been reported that treatment with flexible plasma sterilizers leads to a rapid decline in the microbial load on the surfaces of pork, beef, and cheese samples.22,23 The decontamination effects of flexible plasma sterilizers are also obtained on the spinach leaves and tomato surfaces.24 Notably, the microbial load reduction occurs without any alteration to the physicochemical characteristics of these fresh products. Moreover, ideal eradication of pathogens by using the flexible plasma sterilizer has been achieved on agar, collagen/elastin matrix, mouse skin, ex vivo human skin, and intact skin of volunteers,20,25,26 with no significant impact on cellular activity or DNA integrity being observed. The flexible plasma sources exhibit great potential for their exceptional efficiency, cost-effectiveness, and remarkable surface compatibility.
+However, the existing flexible plasma sources in numerous pieces of research usually have a structure of exposed electrodes, which consistently encounter an uneven discharge caused by moisture or stains. The risk of high-voltage electrocution also remains a challenging problem. In addition, the current research primarily concentrates on the structural design and practical effect of flexible plasma sources in applications, leaving the characteristic regulation by deformation and its mechanisms largely unexplored. In this study, a plasma reactor is realized with a flexible thin-layer structure based on a polyimide substrate for sterilization. In order to guarantee the device flexibility, discharge stability, and human safety, a significantly refined processing technology is required and has been scarcely achieved in the past. The plasma generation process is thoroughly investigated using both experimental and simulation techniques. Then the effects of bending plasma sterilizer are examined by analyzing electrical waveforms, heat radiation, and ozone production, with detailed explanations for the underlying mechanisms being provided. In the last, the microbial decontamination efficacies on flat or artificially curved surfaces before and after deforming the plasma sterilizer are compared and evaluated, aiming to illustrate the potential feasibility of efficient plasma treatment on 3D objects with irregular surfaces. The work on the characteristics and application effect of this plasma sterilizer under deformation, together with the mechanism revelation, will contribute toward the optimal design and futural utility of plasma sources based on flexible substrates.
+II. EXPERIMENTAL AND SIMULATION SETUP
+A. Device design and fabrication
+The flexible plasma sterilizer is designed as a sandwich-like structure, as shown in Fig. 1, with a whole thickness of 100 μm. The electrode array is located in the interlayer of the polyimide films. Half of the electrode array is connected to a high-voltage source, while the others are grounded. Both the high-voltage part and ground part of the electrode array are made up of a copper busbar and several copper strips, of which the width is 100 μm and the thickness is 18 μm. High-voltage copper strips are printed with the ground ones fixed in each middle with a distance of 150 μm by an interdigital pattern, forming the structure of coplanar DBD. To fabricate the sandwiched structure, the electrode array is first patterned through photolithography on the polyimide substrate. Then the upper polyimide film is bonded by thermal compression. The bonding temperature is approximately 430 K, while the pressure is approximately 10 MPa. To ensure there are no air gaps between the polyimide films, epoxy adhesive is utilized during this process. The relative dielectric constant εr of the polyimide films is 3.4, and the low value of εr can prevent discharge from becoming intense and unstable, thus prolonging the lifetime of the device.27,28 The sterilizer in this work can be typically used continuously for at least 30 min with its discharge strength and uniformity being unaffected, while the cumulative use time of the sterilizer can reach 2 h.
+FIG. 1.
+VIEW LARGEDOWNLOAD SLIDE
+3D models of the flexible thin-layer plasma sterilizer. HV: high voltage, GND: ground.
+B. Characterization of plasma generation process
+1. Plasma generation
+Figure 2 shows the schematic experimental setup for plasma generation and characterization. The plasma sterilizer is stimulated by pulses with ns-rising/falling edges of unipolar square wave from a high-voltage pulse generator, with the amplitude, repetition frequency, and pulse width set at 3 kV, 1 kHz, and 10 μs. Both the rising edge and falling edge of the pulses are fixed at 100 ns, for a steeper slope from the excitation pulse will bring more active particles during the plasma production.29 After applying the excitation pulses, discharge initiates on the top surface of the sterilizer in the atmosphere and plasma will be generated. During the generation, the plasma sterilizer is fixed to a flat mold or a mold with a concave cylindrical surface [shown in Fig. 2(c)] for the comparison of plasma characteristics under bending deformation.
+FIG. 2.
+VIEW LARGEDOWNLOAD SLIDE
+(a) Experimental apparatus and their setup. HVPG: high-voltage pulse generator, OSC: oscilloscope, HV: high voltage. (b) Flexible thin-layer plasma sterilizer. (c) Artificial mold for bending the plasma sterilizer with a concave cylindrical surface.
+2. Electrical waveforms during generation
+A high-voltage probe (Tektronix P6015A, 1 000:1) and Rogowski coil (Pearson 2877, 1 V/A) are used to capture the excitation pulses and discharge current, respectively, and an oscilloscope (Tektronix MDO3054) is employed to display the results. The sampling frequency of the oscilloscope is set at 2.5 G S s−1 while the number of sampling points is fixed at 100 k. The waveforms monitored directly in the experiment are the excitation pulses U and the total current I flowing through the sterilizer. For each measurement of the waveforms, it is the running average of 512 pulses to improve the signal-to-noise ratio. The excitation pulse U is separated to the voltage Ud applied on the dielectric barrier and the voltage Ug on the air gap, and the total current I consists of the displacement current Id and the conduction current Ig. Displacement current Id represents the charging process of the equivalent capacitance from the sterilizer, and conduction current Ig is the practical waveform presenting the gas discharging and plasma generating process. A differential probe (Hantek HT8100, 50:1) is utilized to obtain the voltage Ur on a reference capacitor Cr, which is further used to estimate Ud. Then Ug and Ig can be separated by the method in the reported research,30 of which the details are given in the supplementary material.
+3. Temperature observation
+When we apply the plasma sterilizer to treat heat-sensitive materials, such as human skin, a suitable and stable surface temperature of the sterilizer should be ensured; thus, temperature monitoring during plasma generation is necessary. An infrared (IR) thermal imaging camera (Ti55 IR FlexCam thermal imager, Fluke Corporation, Everett, WA, USA) is used to capture the surface temperature under the room temperature around 17 °C. The imaging camera has a thermal sensitivity of 0.05 °C at 30 °C, which is able to show the detailed trend of heat radiation while the sterilizer is at work. The surface temperature is measured every 30 s since the discharge begins and lasts 15 min.
+4. Ozone measurement
+Reactive species are important components for the application of the plasma sterilizer. A UV-based ozone monitor (model 106-L; 2B Technologies, CO, USA) is used to assess the production of ozone during the use of the plasma sterilizer. During the measurement, the plasma sterilizer is placed in a closed chamber with a volume of 11 000 cm3. After a generation of plasma for 30, 60, 90, 120, or 150 s, the ozone accumulated is gradually drawn out by the monitor until none is left in the closed chamber, while its concentration is determined every 10 s by measuring the absorbance at a wavelength of 254 nm. The outlet flow of ozone from the chamber is around 0.9 l min−1. The data acquisition is performed using 2B Tech Display and Download Software.
+C. Microscopic simulation of plasma evolution
+1. Geometrical model
+The 3D model of the sterilizer in Fig. 1 can be simplified to a 2D profile for simulation, as shown in Fig. 3, considering the repetitive structure of the interdigital electrodes of the sterilizer and the synchronous development of discharge between each pair of electrodes.31 To further reduce the complexity of the simulation, this geometric model only incorporates a limited number of pairs of high-voltage electrodes and ground electrodes. The plasma sterilizer under various bending states is presented by the models with different radii of curvature (−2, −1, 1, and 2 mm), which is also shown in Fig. 3. The sizes of the electrode structure in the geometrical models for simulation remain the same as the ones of the practical plasma sterilizer. The high voltage applied to the electrodes is also set to be the unipolar square wave used in the experiment, with an amplitude of 3 kV, a frequency of 1 kHz, a pulse width of 10 μs, and rising and falling edges of 100 ns. The air layer with a thickness of 0.2 mm on the surface of the polyimide film is the place where gas discharge initiates and plasma is generated, which is set to consist of 79% N2 and 21% O2. The pressure and temperature in the environment of the air layer are the atmosphere and 300 K, respectively.
+FIG. 3.
+VIEW LARGEDOWNLOAD SLIDE
+2D geometrical models of the flexible thin-layer plasma sterilizer in simulation, with flat model and models under varying curvature.
+2. Mathematical model
+Plasma generated during the use of the sterilizer involves various kinds of microscopic particles, such as electrons, ions, metastable atoms, and neutral species. To describe the behaviors of these particles, the simulation model is built based on the fluid principle, and the continuity equation is used in the simulation32 
+∂ n s ∂ t + ∇ ⋅ Γ s = R s ,
+(1)
+in which ns represents the number density of particle s and Γs is the particle flux, which can be calculated through the drift-diffusion approximation
+Γ s = −   ( μ s ⋅ E ) n s − ∇ ( D s n s ) .
+(2)
+In this equation, the drift motion of particle s refers to the first term, which is under the action of electric field E, and μs is the mobility coefficient for species s. The diffusion motion of particle s is driven by the concentration gradient and is described by the second term, where Ds is the diffusion coefficient. The source term Rs on the right side of the continuity equation represents the loss or gain of particle density due to inelastic collisions, which is computed as
+R s = ∑ i k i n s 1 n s 2 + α i Γ e n s 3 ,
+(3)
+where ki and ai are the reaction coefficient and Townsend coefficient. The multiphase diffusion equation is also used in the simulation for the distribution of heavy particles
+ρ ∂ ∂ t ( ω s ) + ρ ( u ∇ ) ω s = ∇ ⋅ j s + V s ,
+(4)
+where ρ is the mixture density, ωs the mass fraction of particle s, fluid velocity u, diffusion flux js, and Vs [kg m−3 s−1)] the velocity expression for particle s. The diffusion flux js is given by
+j s = ρ ω s V d ,
+(5)
+where Vd is the multiphase diffusion velocity of particle s. The Poisson equation is solved below to display the influence of gathered space charge on the electric field distribution
+∇ ⋅ ( ε 0 ε r E ) = q ,
+(6)
+in which ε0 and εr are the vacuum permittivity and relative permittivity, respectively, and q represents the space charge density. For more details on mathematical model descriptions and boundary conditions, refer to the supplementary file.
+3. Plasma chemistry
+To display the evolution of microscopic particles during plasma generation in the atmosphere, it is essential to have a detailed consideration of the kinetics of plasma-chemical processes in the air layer with the environment of nitrogen–oxygen mixtures. The supplementary file shows the 60 volume reactions and five surface reactions considered in the simulation, with their parametric information collected from previous studies.33–35 There are 18 species participating in these reactions: electron, N, N2, N 2 ( A 3 Σ u + )⁠, N 2 ( B 3 Π g )⁠, N 2 ( C 3 Π u )⁠, N 2 ( a ′ 1 Σ u − )⁠, N 2 +⁠, O, O(1d), O−, O2, O 2 ( a 1 Δ g )⁠, O 2 +⁠, O 2 −⁠, O3, NO, and NO2. Reactions with low rate coefficients and species with fast recombination rates (⁠ N 4 − and O 4 −⁠) are not considered for the simplicity of the simulation model. For the convenience of writing, N 2 ( A 3 Σ u + )⁠, N 2 ( B 3 Π g )⁠, N 2 ( C 3 Π u )⁠, N 2 ( a ′ 1 Σ u − )⁠, and O 2 ( a 1 Δ g ) are abbreviated as N2A, N2B, N2C, N2a1, and O2a1D. In the circumstance of this simulation, the product of pressure p and distance between electrodes d is 11.4 Torr cm (p = 760 Torr, d = 0.015 cm), which satisfies the applicability of Paschen's Law (typically < 1000 Torr cm).36 Therefore, in the Townsend process, space photoionization is considered negligible in the simulation model, as photons mostly reach the cathode rather than being absorbed by the gas to cause photoionization. The model is performed using COMSOL Multiphysics. As for the meshing method, the boundary region between the air layer and the polyimide layer has much finer mesh elements to simulate surface reactions. For details about the mesh construction, refer to the supplementary material.
+D. Evaluation of sterilization efficacy
+1. Bacterial preparation
+S. aureus and P. aeruginosa are the common Gram positive and Gram negative bacterium that usually lead to the infection of skin wounds. We use these two kinds of bacteria (S. aureus ATCC 6538 and P. aeruginosa CCTCC AB 93066) to study the decontamination effects of plasma sterilizer. Both the S. aureus and P. aeruginosa are stocked at 4 °C and are routinely cultured on a plate of nutrient agar or Luria–Bertani (LB) nutrient agar at 37 °C, respectively. Then the bacteria are sampled and diluted in 0.9% NaCl to an initial bacterial concentration of around 9.5 log colony forming units (CFU)/ml before each experiment.
+2. Plasma sterilization in vitro
+Figure 4 displays the experimental procedure of inactivating S. aureus and P. aeruginosa by using the flexible thin-layer plasma sterilizer. The bacterial solutions with certain concentration are pipetted on dry and sterile glass sheets with flat or convex cylindrical surface. The radius of curvature ρ of this convex cylindrical surface is set at −10 cm, corresponding to the concave mold shown in Fig. 2. Then the solutions are spread evenly on the surface several times with an interval of 30 min until all the liquid component evaporates completely. With the concave mold, the plasma sterilizer can be bent to the same curvature as the convex glass surface. Thus, three different usage scenarios can be studied, which are flat surface treated by flat plasma sterilizer and convex surface treated by flat or concave plasma sterilizer. The sterilizer is placed 1 cm above the glass sheet during plasma treatment, with a time of 30, 60, 90, and 120 s. The waveform of the excitation pulses remains unchanged.
+FIG. 4.
+VIEW LARGEDOWNLOAD SLIDE
+Experimental procedure to inactivate S. aureus and P. aeruginosa on the flat or convex cylindrical surface by the plasma sterilizer.
+3. Microbial enumeration
+After the sterilization, the glass sheet is flushed with 0.9% NaCl and then scraped to ensure a complete transfer of the bacteria into the solution. Both the solutions of S. aureus and P. aeruginosa are shaken evenly, sampled, diluted, and inoculated to plates of nutrient agar. These samples are cultivated at 37 °C for 15 h. By counting the CFU on nutrient agar after cultivation, the sterilization effect can be calculated as the log reduction:
+log     reduction = log     CFU   before − log     CFU   after   treatment .
+(7)
+The colonies being able to be counted (i.e., >10 CFU/ml for a 1:10 dilution) determines the statistical accuracy.
+III. RESULTS AND DISCUSSION
+A. Plasma generation process characterization
+The generation process of plasma is always accompanied by various physicochemical features, including electrical waveforms, heat radiation, and ozone production. By monitoring these macroscopic phenomena, it will help us to characterize the discharge evolution at the interface of the plasma sterilizer and air, and reveal how the bending deformation of the sterilizer influences plasma generation.
+Figure 5 shows the discharge images and waveforms of the plasma sterilizer under a flat state or a concave state. During the plasma generation, discharge happens at the interface of the sterilizer and air with a purple halo. It should be noted that the brighter part on the left side of the curved plasma sterilizer is caused by the overlapping light emission when the photo is taken, rather than by an enhancement of discharge in this region. The discharging sterilizer is safe for the human body, which exhibits the feasibility of using the sterilizer to cure infected wounds with direct contact. Positive and negative current peaks form at the rising and falling edge of the excitation pulse respectively, meaning that there are two times of discharge happening in one pulse period. The appearance of negative discharge results from the surface charge deposited in the positive discharge.29 The amplitude of the discharge current Ig (separated from the measured current I) reaches around 8 A (or −8 A) in these two times of discharge under the flat state. The total consumption power of this plasma sterilizer can be calculated by integrating the product of the excitation pulse U and measured current I over time, with the power of the flat sterilizer being 7.63 (±0.042) W and the one of the concave sterilizer being 8.28 (±0.055) W. Having Ug and Ig, the gas discharge power can also be obtained, which is 4.73 (±0.013) W or 5.16 (±0.026) W when the sterilizer is flat or concave, respectively. It can be seen in Figs. 5(d) and 5(e) that the amplitude of Ug rises after bending the sterilizer to a concave state, which affects the waveform of Ig and is the main reason for the increase in the gas discharge power.
+FIG. 5.
+VIEW LARGEDOWNLOAD SLIDE
+(a) and (b) Discharge images of the flexible thin-layer plasma sterilizer under a flat state and a concave state. (c) Waveforms of the excitation pulse U of the sterilizer under flat and concave states. (d) and (e) Waveforms of the voltage Ug applied on the air gap (discharge voltage) separated from the excitation pulse at its rising and falling edges. (f) Measured current I of the sterilizer under flat and concave states after applying the excitation pulse. (g) and (h) Waveforms of the conduction current Ig separated from the measured current in the positive and negative discharges.
+A portion of the electrical energy used in plasma formation is transformed into thermal energy as a result of Joule heating conductive layer and dielectric heating.37 There are some specific kinds of objects to be treated by the plasma sterilizer being susceptible to excessive heat radiation like precision medical instruments, fresh products, and human tissues. A dramatic temperature rise will also harm the material lifetime of this thin-layer sterilizer. Therefore, an appropriate level of heat production from the sterilizer should be maintained stably during plasma generation. The surface temperature of the sterilizer when being flat or curved is monitored during a continuous 15-min activation, which is shown in Fig. 6. After the plasma generation with a duration of 15 min, the maximum temperature of the flat sterilizer is stable at around 52 °C and maintains at nearly 54 °C for the concave sterilizer, which is much lower than the tolerance temperature of polyimide. According to the heat map, the temperature is almost uniform on the surface of a flat sterilizer but rises in the center region with an extent of 2 °C when the sterilizer is bent. The reasons can be explained as a reduction in the capability of heat dissipation after bending and an increase in the total consumption power and gas discharge power. With an activation time shorter than 4 min, the temperature is kept under 45 °C, which is proper for human contact. Activation cycles with short pulse duration will provide sufficient intervals for the sterilizer to cooldown, which will help to control the temperature rise of highly thermosensitive objects in a long-term treatment.
+FIG. 6.
+VIEW LARGEDOWNLOAD SLIDE
+Thermal effects of the plasma sterilizer. (a) and (b) Surface temperature evolution during plasma generation under the flat state and the concave state. (c) Maximum temperature on the surface of the sterilizer during plasma generation.
+The production of reactive species is an important factor in the application of the plasma source, and ozone is one of the most common reactive species produced by gas discharge during plasma generation. The detection of ozone generation can offer a qualitative analysis for the generation of other reactive species.38 During the measurement of ozone concentration, the plasma sterilizer is placed in a sealed chamber with a volume of 11 000 cm3 under a flat or concave state. After the plasma activation of 30, 60, 90, 120, and 150 s, ozone generated inside the chamber is drawn out and its current concentration is measured, as shown in Figs. 7(a) and 7(b). The total ozone generated shown in Fig. 7(c) can be obtained by integrating the product of ozone concentration and outlet flow rate over time. Compared to a plasma sterilizer under a flat state, the observed ozone concentration and total ozone production are lower with a concave sterilizer. Bending the plasma sterilizer to a concave state can increase the total consumption power and the gas discharge power, bringing a stronger plasma generation and ultraviolet radiation, which enhances ozone production, but the acceleration of ozone decomposition caused by the higher surface temperature of the sterilizer takes the dominant.39 However, it is not significant for the impact of bending on the overall production of ozone, where the general trend is nearly linear as the activation time increases, indicating that the sterilization of bacteria may be adjusted by changing the activation time.
+FIG. 7.
+VIEW LARGEDOWNLOAD SLIDE
+Measurements of ozone generated from the plasma sterilizer. (a) and (b) Ozone concentration in the closed chamber measured by the ozone monitor for flat or concave sterilizer as a function of air draw out time. (c) Total ozone produced by flat or concave sterilizer with increasing times of plasma activation.
+As the result mentioned above, the total consumption power of this plasma sterilizer under the flat state is 7.63 W. With this power, the flat plasma sterilizer can generate 1.12 mg of ozone after a 2-min activation. Earlier works of a flexible plasma sterilizer and a rigid plasma sterilizer produce 0.55 and 16.14 mg ozone by consuming around 10 and 186 W of the power under the same activation time, respectively.24,40 The ozone generation efficiency (the mass of ozone generated per unit power under 1-min activation) of the plasma sterilizer in this work is 166.9% and 69.2% higher than the flexible and rigid plasma sterilizer mentioned in these studies. The advantage of higher efficiency will benefit the application of this plasma sterilizer in various fields in the future.
+In addition, the emission spectra of the plasma sterilizer under flat and concave configurations are also obtained in the experiment. The spectra illustrate that the air discharges of the plasma sterilizer mainly contain N2(C3Πu)-N2(B3Πg), and there is nearly no difference in the types of particles produced before and after bending the plasma sterilizer. However, the measurements cannot show whether different radii of curvature of the plasma sterilizer affect the relative concentration of active particles with our current experimental conditions. For detailed discussion, refer to the supplementary material.
+B. Plasma microscopic evolution
+Simulation is carried out for detailed observation on the evolution of electrons and reactive species during plasma generation, which will provide theoretical support for the targeted application of the flexible plasma sterilizer under bending deformation. The simulation results (electron and N2B evolution) and the experimental results (discharge luminance evolution taken by ICCD) in our previous study41 can reach qualitative agreements, by which the simulation model can be verified. For a detailed discussion on the comparison between experimental and simulation results, as well as the verification of our simulation model, refer to the supplementary material.
+According to the classic theory of gas discharge presented by Townsend, when the electric field above the electrodes reaches a threshold after applying a high-voltage excitation, electron impact ionization will happen, which initiates the electron avalanche (chain reaction of electron multiplication) and is the main ionization process during plasma generation in our work with micro electrode intervals. Monitoring the development of electrons is, therefore, of great importance. Figure 8 displays the spatial and temporal evolution of electrons at the rising edge of the high-voltage pulse during plasma generation, corresponding to the positive discharge. Electron impact ionization first appears on the sterilizer surface near each high-voltage electrode 50 ns after applying the excitation, for the electric field here is much stronger. Within the following 10 ns, rapid production and accumulation of electrons take place in this region due to the effect of electron avalanche. The generated electrons subsequently propagate upward and sideward with a speed of around 106 cm·s−1 driven by the electric field above the electrodes.42 The propagation speed is related to the ionization rate Siz expressed as43 
+S iz = μ e E A P   exp ( − B P E ) n e 0 .
+(8)
+FIG. 8.
+VIEW LARGEDOWNLOAD SLIDE
+Evolution of electron density during the positive discharge of plasma generation. (a)–(h) Electron distributions at different time points of 50, 60, 65, 70, 75, 80, 90, and 100 ns.
+In the above equation, μe represents the electron mobility coefficient, with E being the electric field strength of the ionization wavefront, P being the atmospheric pressure, ne0 being the residual space charge, and A and B being the empirical constants. In the later stage of positive discharge, two clusters of electrons that counter propagate meet above the ground electrode, and their head electric fields cancel out each other, leading to a decrease in Siz and a drop in the propagation velocity. As the electron density reduces while propagating, the Coulomb interaction is not strong enough to stop the motion of clusters of electrons. Therefore, clusters of electrons merge and diffuse throughout the space in the end.
+To study the influence of plasma sterilizer bending on the evolution of electrons and reactive species, models with different curvatures are employed for simulation. Figure 9 displays the electron density distribution under different sterilizer bending states at t4 = 70 ns. The position along the sterilizer surface under different bending states is expressed by the normalized x-coordinates for the convenience of comparison. The absolute x-coordinates from −0.6 to 0.6 mm in Figs. 9(a)–9(d) correspond to 0.25 to 0.75 of the normalized x-coordinates in Fig. 9(e). According to the results, bending deformation of the plasma sterilizer only affects the value of electron density in space, while the appearance of electron distribution remains unchanged. With the plasma sterilizer turning from concave to convex, the electron density at t4 = 70 ns 0.1 mm above the surface gradually decreases. However, it has to be mentioned that this variation trend of electron density controlled by the curvature can be disparate at different positions in space or at different time points, for there is a continuously fast electron propagation in space. Thus, it is not appropriate to explain the mechanisms of the influence of bending on the macro properties of the plasma sterilizer based on electron density. The figures displayed here are to illustrate the insignificant effect of curvature on electron evolution, which will support our further discussion.
+FIG. 9.
+VIEW LARGEDOWNLOAD SLIDE
+Spatial distribution of electron density at t4 = 70 ns of the plasma sterilizer with different radii of curvature: (a) concave state with the radius of curvature ρ = 1 mm, (b) concave state with ρ = 2 mm, (c) convex state with ρ = −2 mm, (d) convex state with ρ = −1 mm, and (e) electron density distribution 0.1 mm above the plasma sterilizer surface under each bending state (or flat). Choosing the position 0.1 mm above the surface rather than a much nearer region is under consideration for the rapid propagation of electrons away from the surface after being generated.
+The parameter of electron impact ionization source Re is relatively more independent and has no concept of “propagation,” thus being more representative of explaining the influence of curvature, of which the distribution on the plasma sterilizer surface is observed. Space charge q accumulated in the same region is also studied, for it is opposite from Re in the role of affecting gas discharge and electron generation. The results are displayed in Fig. 10. The electron impact ionization source Re can illustrate the rate of electron generation, for most of the electrons in plasma generation are multiplicated by the ionization that occurs as a result of collisions between electrons and heavy particles according to the Townsend theory. A higher Re means a stronger gas discharge and faster electron generation. As for the space charge q, it gathers on the surface of the plasma sterilizer, and its self-built electric field will impair the applied electric field from the excitation pulses, thus bringing a weaker gas discharge and reducing the generation of electrons. A higher space charge density slows down electron generation. When the plasma sterilizer is in a concave state, it is beneficial for the enhancement of the electric field and accumulation of surface charges. A stronger electric field leads to an increase in the electron impact ionization source Re with an extent of over 30% based on the simulation results [Fig. 10(a)], compared to an inapparent rise (less than 10%) of surface charge density. Therefore, the reinforcement of gas discharge and the acceleration of electron generation take the dominant under a concave condition, which also contribute to a higher gas discharge power and surface temperature for the concave plasma sterilizer in the experiment.
+FIG. 10.
+VIEW LARGEDOWNLOAD SLIDE
+The distribution of (a) electron impact ionization source Re and (b) space charge q 5 μm above the surface of plasma sterilizer with different bending curvatures at t4 = 70 ns. The Re and q 5 μm above the surface can better depict their effects on gas discharge, for electrons are mainly generated in this region.
+The plasma generated by gas discharge involves various kinds of reactive species, which is crucial to the application effects of plasma in fields such as microbial inactivation and material modification. Among these species, ozone has been monitored in our experiment, but its production and dissipation are influenced by several factors besides chemical reactions, such as ultraviolet radiation and thermal effect, which can hardly be considered in our simulation. Thus, the excited state of N2 [N2(B3Πg), written as N2B] is chosen instead, for there are N2(SPS) transitions shown in the spectra. The simulation of N2B can also offer significance to the comparison between experimental and simulation results, as well as the verification of our simulation model. Figure 11 shows the spatial distribution of N2B at t4 = 70 ns of the plasma sterilizer with different radii of curvature. The generation of N2B originates from the electron collision reactions. Due to this reason, the evolution of N2B mainly depends on the development of electrons, but with a much lower propagation velocity. In the positive discharge of plasma generation, electrons generate and concentrate near high-voltage electrodes, where the electron collision reactions happen more frequently, leading to the gathering of N2B in the same region. When the plasma sterilizer turns from concave to convex, the density of N2B slightly decreases, for Re reduces and electron generation slows down. However, both the magnitudes of changes in the electron density and N2B density are not noticeable, inferring that the plasma generation of the sterilizer is nearly impervious to the bending states.
+FIG. 11.
+VIEW LARGEDOWNLOAD SLIDE
+Spatial distribution of N2B at t4 = 70 ns of the plasma sterilizer with different radii of curvature: (a) concave state with the radius of curvature ρ = 1 mm, (b) concave state with ρ = 2 mm, (c) convex state with ρ = −2 mm, (d) convex state with ρ = −1 mm, and (e) N2B distribution 5 μm above the surface under each curvature (or flat). N2B gathers in this region for a more frequent electron collision reaction here and a low propagation velocity after being generated by collision reaction.
+C. Sterilization efficacy evaluation
+When the flexible thin-layer plasma sterilizer is used for sterilization, a natural question is whether bending can improve its microbial inactivation effect on curved surfaces. To answer this question, we use the plasma sterilizer to inactivate the bacteria of S. aureus and P. aeruginosa spread on a glass sheet with a flat or convex surface. In the situation with a convex surface, the plasma sterilizer is conformed to a concave state of the same curvature as the glass surface. The distance between the plasma sterilizer and the treated surface is fixed at 1 cm in all the experiments. The visual appearance and microbial reductions of the sterilization effects are displayed in Figs. 12 and 13, respectively.
+FIG. 12.
+VIEW LARGEDOWNLOAD SLIDE
+Visual appearance of the sterilization effects on S. aureus and P. aeruginosa on flat or convex surface treated by flat or concave sterilizer with different plasma activation times of 30, 60, 90, and 120 s. The images are the plates of nutrient agar inoculated and cultivated after the treatment of bacteria on glass sheets.
+FIG. 13.
+VIEW LARGEDOWNLOAD SLIDE
+Microbial reductions of (a) S. aureus and (b) P. aeruginosa for each combination of sterilizer and treated surface state after plasma treatment of 30, 60, 90, and 120 s.
+For there is a large expansion of CFU with plasma treatment time from 30 to 120 s, different inoculum sizes a and dilution times b of the bacteria solution after treatment are employed for an appropriate CFU c on the plates of nutrient agar to be counted, as the details shown in Fig. 12. With these parameters, the log microbial reduction can be calculated by the equation below:
+log     reduction   =   − lg a ⋅ b ⋅ c a 0 ⋅ b 0 ⋅ c 0 ,
+(9)
+in which a0, b0, and c0 are the inoculum size, dilution times, and CFU of the groups without plasma treatment. The results from the experiment show that the reductions of both kinds of bacteria can reach around 2.5 and 5 log CFU after a plasma treatment of 30 and 120 s, respectively, with the sterilizer under a flat state. Compared to S. aureus, the log reductions of P. aeruginosa are a little bit higher in most cases, for P. aeruginosa is the Gram negative bacterium, which has a thinner and looser cytoderm to the benefit of the penetration of reactive species. The particle in plasma with high energy and chemical reactivity is one of the factors that plasma can inactivate bacteria, with other factors including ultraviolet radiation and thermal effect. We can infer that active particles take the dominant in bacteria sterilization, for a plasma-activation time no longer than 2 min and a surface temperature lower than 54 °C in the experiments, which prevent the ultraviolet radiation and thermal effect from being strong enough to inactivate bacteria.
+As for the sterilization effect on a curved surface, the results show that under the same treatment time, if a flat plasma sterilizer is used to inactivate the bacteria on a curved surface, the sterilization effects on both kinds of bacteria will be reduced with an extent of around 1 log CFU, compared to the case of flat sterilizer treating flat surface. However, after bending the plasma sterilizer to the same curvature as the curved surface, the sterilization effects will be regained, for a better adaption (a more uniform and shorter distance) of the plasma sterilizer to the curved surface is provided with the plasma generation being hardly affected by bending deformation, which is proved by the experiments and simulations above. The results illustrate that the flexibility of this plasma sterilizer can compensate for the defects of other rigid plasma devices in complex surface treatment.
+IV. CONCLUSIONS
+In this research, a flexible thin-layer plasma sterilizer is realized based on a polyimide substrate, and high-voltage pulses with ns-rising/falling edges are applied to the sterilizer for plasma generation. Low-temperature plasma is uniformly produced on the surface of the sterilizer, with the discharge characteristics, particle evolutions, and sterilization effects are studied through experimental and simulation methods. The influences of sterilizer bending deformation on its features during plasma generation and the efficacy of microbial inactivation are also studied, of which the mechanisms are explained by simulation.
+There are two times of discharges happening in one period of the excitation pulse to generate plasma, and the plasma can be safely touched by the human body. After a 15-min plasma activation, the surface temperature of the sterilizer tends to stabilize, being appropriate for the treatment of thermosensitive objects. The ozone production of the sterilizer can also be regulated, for the general trend is nearly linear as the activation time increases. After bending the plasma sterilizer to a concave state, the total consumption power, the gas discharge power, and surface temperature of the sterilizer increase, while the ozone production is reduced mainly caused by the rise in temperature.
+The simulation results show that electrons are first produced near the electrodes connected to high-voltage at the beginning of the plasma generation. Clusters of electrons then propagate upward and sideward, and eventually diffuse throughout the space in the later stage of the plasma generation. Further research displays that the electron density at 70 ns 0.1 mm above the surface gradually decreases with the plasma sterilizer turning from concave to convex, but the appearance of electron distribution in space is hardly influenced by bending deformation. A stronger electron impact ionization caused by the enhancement of the electric field under the concave state is the main reason for this higher electron density, which can also explain the rise of gas discharge power and heat radiation of the sterilizer in the experiment. The variation trend of heavy particle N2B distribution is similar to the one of electrons. However, both the magnitudes of changes in the electron density and N2B density are not noticeable, inferring that the plasma generation of the sterilizer is nearly impervious to the bending states.
+As for the microbial inactivation effect of the plasma sterilizer, it can reach around 2.5 and 5 log CFU after a treatment of 30 and 120 s on both S. aureus and P. aeruginosa. Bending the plasma sterilizer to conform to the curved surface can improve the sterilization effect from plasma, suggesting the potential advantage of the flexibility of this plasma sterilizer in treating objects with irregular surfaces.
+SUPPLEMENTARY MATERIAL
+See the supplementary material for more details about the methodology for obtaining Ig and Ug, mesh construction, mathematical model, chemical reactions of the simulation, emission spectra of the sterilizer, and verification of the simulation model.
+ACKNOWLEDGMENTS
+This study was supported by the Key Research and Development Projects of Shaanxi Province under Program No. 2023-YBGY-192.
+AUTHOR DECLARATIONS
+Conflict of Interest
+The authors have no conflicts to disclose.
+Author Contributions
+Yu-Hao Sun: Conceptualization (lead); Data curation (lead); Formal analysis (lead); Funding acquisition (supporting); Investigation (lead); Methodology (lead); Project administration (lead); Resources (lead); Software (lead); Supervision (lead); Validation (lead); Visualization (lead); Writing – original draft (lead); Writing – review & editing (lead). Yuan-Yang Liu: Investigation (supporting); Visualization (supporting); Writing – review & editing (supporting). Bo Zhang: Conceptualization (supporting); Writing – review & editing (supporting). Hang Zhao: Methodology (supporting); Writing – review & editing (supporting). Ming-Yang Sun: Writing – review & editing (supporting). Lei Fan: Writing – review & editing (supporting). Guan-Jun Zhang: Conceptualization (supporting); Funding acquisition (lead); Project administration (supporting); Supervision (supporting); Writing – review & editing (supporting).
+DATA AVAILABILITY
+The data that support the findings of this study are available from the corresponding author upon reasonable request.
+Expand
+REFERENCES
+1. A. Mai-Prochnow , M. Clauson , J. M. Hong , and A. B. Murphy , Sci. Rep. 6, 38610 (2016). https://doi.org/
+Google ScholarCrossref PubMed 
+2. L. Guo , Z. Q. Yao , L. Yang , H. Zhang , Y. Qi , L. Gou , W. Xi , D. X. Liu , L. Zhang , Y. L. Cheng , X. H. Wang , M. Z. Rong , H. L. Chen , and M. G. Kong , Chem. Eng. J. 421, 127742 (2021). https://doi.org/
+Google ScholarCrossref PubMed 
+3. A. Sakudo , Y. Yagyu , and T. Onodera , Int. J. Mol. Sci. 20, 5216 (2019). https://doi.org/
+Google ScholarCrossref PubMed 
+4. A. Patange , D. Boehm , D. Ziuzina , P. J. Cullen , B. Gilmore , and P. Bourke , Int. J. Food Microbiol. 293, 137–145 (2019). https://doi.org/
+Google ScholarCrossref PubMed 
+5. S. Sasaki , R. Honda , Y. Hokari , K. Takashima , M. Kanzaki , and T. Kaneko , J. Phys. D 49, 334002 (2016). https://doi.org/
+Google ScholarCrossref  
+6. T. Kaneko , S. Sasaki , K. Takashima , and M. Kanzaki , J. Clin. Biochem. Nutr. 60, 3–11 (2017). https://doi.org/
+Google ScholarCrossref PubMed 
+7. P. Bourke , D. Ziuzina , L. Han , P. J. Cullen , and B. F. Gilmore , J. Appl. Microbiol. 123, 308–324 (2017). https://doi.org/
+Google ScholarCrossref PubMed 
+8. J. Ehlbeck , U. Schnabel , M. Polak , J. Winter , T. von Woedtke , R. Brandenburg , T. von dem Hagen , and K. D. Weltmann , J. Phys. D. 44, 013002 (2011). https://doi.org/
+Google ScholarCrossref  
+9. H.-S. Kim , K. C. Wright , I.-W. Hwang , D.-H. Lee , A. Rabinovich , A. Fridman , and Y. I. Cho , Int. Commun. Heat Mass Transfer 42, 5–10 (2013). https://doi.org/
+Google ScholarCrossref  
+10. L. Guo , R. Xu , D. Liu , Y. Qi , Y. Guo , W. Wang , J. Zhang , Z. Liu , and M. G. Kong , J. Phys. D 52, 425202 (2019). https://doi.org/
+Google ScholarCrossref  
+11. W. C. Wang , S. H. Wang , R. Rastak , Y. Ochiai , S. M. Niu , Y. W. Jiang , P. K. Arunachala , Y. Zheng , J. Xu , N. Matsuhisa , X. Z. Yan , S. K. Kwon , M. Miyakawa , Z. T. Zhang , R. Ning , A. M. Foudeh , Y. Yun , C. Linder , J. B. H. Tok , and Z. N. Bao , Nat. Electron. 4, 143–150 (2021). https://doi.org/
+Google ScholarCrossref  
+12. X. Shi , Y. Zuo , P. Zhai , J. Shen , Y. Yang , Z. Gao , M. Liao , J. Wu , J. Wang , X. Xu , Q. Tong , B. Zhang , B. Wang , X. Sun , L. Zhang , Q. Pei , D. Jin , P. Chen , and H. Peng , Nature 591, 240–245 (2021). https://doi.org/
+Google ScholarCrossref PubMed 
+13. L. Zhang , K. S. Kumar , H. He , C. J. Y. Cai , X. He , H. X. Gao , S. Z. Yue , C. S. Li , R. C. S. Seet , H. L. Ren , and J. Y. Ouyang , Nat. Commun. 11, 4683 (2020). https://doi.org/
+Google ScholarCrossref PubMed 
+14. Y. W. Jiang , Z. T. Zhang , Y. X. Wang , D. L. Li , C. T. Coen , E. Hwaun , G. Chen , H. C. Wu , D. L. Zhong , S. M. Niu , W. C. Wang , A. Saberi , J. C. Lai , Y. L. Wu , Y. Wang , A. A. Trotsyuk , K. Y. Loh , C. C. Shih , W. H. Xu , K. Liang , K. L. Zhang , Y. H. Bai , G. Gurusankar , W. P. Hu , W. Jia , Z. Cheng , R. H. Dauskardt , G. C. Gurtner , J. B. H. Tok , K. Deisseroth , I. Soltesz , and Z. N. Bao , Science 375, 1411 (2022). https://doi.org/
+Google ScholarCrossref PubMed 
+15. J. D. Readle , K. E. Tobin , K. S. Kim , J. K. Yoon , J. Zheng , S. K. Lee , S.-J. Park , and J. G. Eden , IEEE Trans. Plasma Sci. 37, 1045–1054 (2009). https://doi.org/
+Google ScholarCrossref  
+16. S. Lee , S. Jung , and D.-G. Kim , Clin. Plasma Med. 9, 5 (2018). https://doi.org/
+Google ScholarCrossref  
+17. G. Cho and Y. Kim , Appl. Sci. Converg. Technol. 27, 23–25 (2018). https://doi.org/
+Google ScholarCrossref  
+18. Y.-J. Yang , P.-K. Kao , and C.-C. Hsu , J. Microelectromech. Syst. 24, 1678–1680 (2015). https://doi.org/
+Google ScholarCrossref  
+19. T. Wang , J. Liu , L. Shi , X. Zhang , L. Lv , G. Zhang , and J. Wang , Plasma Process Polym. 17, e1900142 (2020). https://doi.org/
+Google ScholarCrossref  
+20. J. Kim , K.-H. Choi , Y. Kim , B. J. Park , and G. Cho , Appl. Sci. 7, 1308 (2017). https://doi.org/
+Google ScholarCrossref  
+21. V. Papadimas , C. Doudesis , P. Svarnas , P. K. Papadopoulos , G. P. Vafakos , and P. Vafeas , Appl. Sci. 11, 11930 (2021). https://doi.org/
+Google ScholarCrossref  
+22. D. D. Jayasena , H. J. Kim , H. I. Yong , S. Park , K. Kim , W. Choe , and C. Jo , Food Microbiol. 46, 51–57 (2015). https://doi.org/
+Google ScholarCrossref PubMed 
+23. Y. S. Heo , D. G. Yim , K. H. Baek , T. Kang , Y. E. Lee , J. Kim , W. Choe , and C. Jo , LWT–Food Sci. Technol. 143, 111128 (2021). https://doi.org/
+Google ScholarCrossref  
+24. Q. Wang , R. K. Pal , H.-W. Yen , S. P. Naik , M. K. Orzeszko , A. Mazzeo , and D. Salvi , Food Control 137, 108915 (2022). https://doi.org/
+Google ScholarCrossref  
+25. B. K. H. L. Boekema , M. Vlig , D. Guijt , K. Hijnen , S. Hofmann , P. Smits , A. Sobota , E. M. van Veldhuizen , P. Bruggeman , and E. Middelkoop , J. Phys. D 49, 044001 (2016). https://doi.org/
+Google ScholarCrossref  
+26. B. Boekema , M. Stoop , M. Vlig , J. van Liempt , A. Sobota , M. Ulrich , and E. Middelkoop , Appl. Microbiol. Biotechnol. 105, 2057–2070 (2021). https://doi.org/
+Google ScholarCrossref PubMed 
+27. Y. B. Golubovskii , V. A. Maiorov , P. Li , and M. Lindmayer , J. Phys. D 39, 1574–1583 (2006). https://doi.org/
+Google ScholarCrossref  
+28. R. Li , Q. Tang , S. Yin , and T. Sato , Appl. Phys. Lett. 90, 131502 (2007). https://doi.org/
+Google ScholarCrossref  
+29. Y. Sun , B. Zhang , H. Zhao , W. Han , W. Li , and G. Zhang , J. Phys. D 56, 165205 (2023). https://doi.org/
+Google ScholarCrossref  
+30. Q. Wang , F. Liu , C. Miao , B. Yan , and Z. Fang , Plasma Sci. Technol. 20, 035404 (2018). https://doi.org/
+Google ScholarCrossref  
+31. Y. Zhu , S. Shcherbanev , B. Baron , and S. Starikovskaia , Plasma Sources Sci. Technol. 26, 125004 (2017). https://doi.org/
+Google ScholarCrossref  
+32. J. Wang , B. Lei , J. Li , Y. Xu , Y. Wang , J. Tang , W. Zhao , and Y. Duan , Phys. Plasmas 27, 043501 (2020). https://doi.org/
+Google ScholarCrossref  
+33. I. A. Kossyi , A. Y. Kostinsky , A. A. Matveyev , and V. P. Silakov , Plasma Sources Sci. Technol. 1, 207–220 (1992). https://doi.org/
+Google ScholarCrossref  
+34. O. Eichwald , N. A. Guntoro , M. Yousfi , and M. Benhenni , J. Phys. D 35, 439–450 (2002). https://doi.org/
+Google ScholarCrossref  
+35. G. J. M. Hagelaar and L. C. Pitchford , Plasma Sources Sci. Technol. 14, 722–733 (2005). https://doi.org/
+Google ScholarCrossref  
+36. A. Fridman and L. A. Kennedy , Plasma Physics and Engineering ( CRC, New York, 2004).
+Google ScholarCrossref  
+37. F. Rodrigues , J. Pascoa , and M. Trancossi , Exp. Therm. Fluid Sci. 90, 55–65 (2018). https://doi.org/
+Google ScholarCrossref  
+38. J. D. McClurkin , D. E. Maier , and K. E. Ileleji , J. Stored Prod. Res. 55, 41–47 (2013). https://doi.org/
+Google ScholarCrossref  
+39. U. Kogelschatz , B. Eliasson , and M. Hirth , Ozone 10, 367–377 (1988). https://doi.org/
+Google ScholarCrossref  
+40. N. K. Mahnot , C. L. Mahanta , K. M. Keener , and N. N. Misra , Food Chem. 284, 303–311 (2019). https://doi.org/
+Google ScholarCrossref PubMed 
+41. Y. Sun , B. Zhang , C. Wang , and G. Zhang , Adv. Electron. Mater. 7, 2100369 (2021). https://doi.org/
+Google ScholarCrossref  
+42. S. A. Shcherbanev , C. Ding , M. Starikovskaia , and N. A. Popov , Plasma Sources Sci. Technol. 28, 065013 (2019). https://doi.org/
+Google ScholarCrossref  
+43. Y. Raizer , Gas Discharge Physics ( Springer, Berlin, 1997).
+Google Scholar 
+© 2024 Author(s). All article content, except where otherwise noted, is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International (CC BY-NC-ND) license (https://creativecommons.org/licenses/by-nc-nd/4.0/).
+View Metrics
+Citing Articles Via
+Google Scholar
+Submit your article
+  Sign up for alerts
+Most Read
+Most Cited
+Plasma pressure profiles in a sheared-flow-stabilized Z-pinch
+C. Goyon, S. C. Bott-Suzuki, et al.
+What next: Further implosion space exploration on the path to NIF extended yield capability
+O. L. Landen, R. C. Nora, et al.
+Progress toward fusion energy breakeven and gain as measured against the Lawson criterion
+Samuel E. Wurzel, Scott C. Hsu
+Online ISSN 1089-7674 Print ISSN 1070-664X
+Resources
+For Researchers
+For Librarians
+For Advertisers
+Our Publishing Partners 
+Explore
+Journals
+Physics Today
+Conference Proceedings
+Books
+Special Topics
+Publishers
+pubs.aip.org
+About
+User Guide
+Contact Us
+Register
+Help
+Privacy Policy
+Terms of Use
+Connect with AIP Publishing
+Facebook
+LinkedIn
+Twitter
+YouTube
+© Copyright 2024 AIP Publishing LLC

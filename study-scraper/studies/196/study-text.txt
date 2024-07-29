@@ -1,0 +1,804 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Download full issue
+Outline
+Highlights
+Abstract
+Keywords
+1. Introduction
+2. Experimental
+3. Results and discussion
+4. Conclusions
+CRediT authorship contribution statement
+Declaration of competing interest
+Acknowledgments
+Data availability
+References
+Show full outline
+Figures (7)
+Show 1 more figure
+Tables (2)
+Table 1
+Table 2
+Fuel
+Volume 373
+, 1 October 2024, 132342
+Full Length Article
+The effect of ozone on soot formation in partially premixed laminar methane/air flames
+Author links open overlay panel
+Luca Basta a 1
+,
+Alessia Pignatelli b 1
+,
+Fabio Sasso a
+,
+Francesca Picca a
+,
+Mario Commodo c
+,
+Patrizia Minutolo c
+,
+Jacob W. Martin d
+,
+Andrea D’Anna a
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.fuel.2024.132342
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+The effect of ozone addition on soot formation in flames has been investigated.
+•
+A reduction in the number and size of soot particles has been observed.
+•
+AFM shows particles flattening with O3, as due to changes in aromatic crosslinking.
+•
+Ozone promotes larger aromatic soot constituents, altering chemical pathways.
+•
+Ozone addition exhibits a minor contribution in the soot oxidation flame region.
+Abstract
+The effect of ozone addition on soot formation in partially premixed laminar methane flames at two equivalence ratios, Φ = 11.9 and Φ = 7.6 (with 500 ppm and 570 ppm of ozone, respectively), has been investigated. Soot particles collected in the centerline of the flames at several heights above the burner have been examined in terms of size, morphology, and chemical/structural characteristics, by differential mobility analysis, atomic force microscopy, and Raman spectroscopy respectively. The results show that adding ozone to the flame reduces the number of soot particles, as well as their average size. The typical height profiles of the collected particles on substrates are shown to be also flatter as compared to the pristine flames, possibly indicating a lower level of cross-linking in the aromatic network forming the particles. Also, the Raman spectroscopy analysis indicates that ozone addition promotes the formation of larger aromatic soot constituents. Moreover, within the selected experimental conditions and ozone concentration of several hundred parts per million, the flame temperature is unaffected regardless of the presence or absence of ozone. Consequently, it can be inferred that the observed modifications in soot characteristics are predominantly attributed to chemical factors. The observed effects are all consistent with a possible chemical interaction of atomic oxygen, resulting from the decomposition of ozone in the post-flame zone, with aromatic π-radicals, precursors of the soot particles.
+Previous article in issue
+Next article in issue
+Keywords
+SootOzonePartially premixed flamesParticle size distributionAtomic force microscopy
+1. Introduction
+Due to the negative effects on human health and the climate caused by particles released into the atmosphere
+[1]
+,
+[2]
+, the formation and growth of soot is an active and ongoing research field in combustion. Soot particles can have different sizes, nanostructures, and chemical compositions based on the combustion conditions. Factors influencing this variability include flame temperature, fuel composition, pressure, residence time, and premixing level.
+In fuel-rich conditions, the promotion of benzene formation, along with larger polycyclic aromatic hydrocarbons (PAHs), occurs through fuel pyrolysis and oxidation. PAHs are universally acknowledged as fundamental components and precursors of carbonaceous nanoparticles. The initial step in the soot formation process is particle nucleation, the transition from gas-phase molecules to solid particles, which remains a focal point of ongoing research
+[3]
+. Various mechanisms are proposed and actively debated to describe the particle inception process
+[3]
+,
+[4]
+,
+[5]
+,
+[6]
+. Once formed, newly nucleated soot particles can undergo processes such as coagulation, coalescence, and surface growth through the addition of gas-phase compounds, resulting in the formation of larger particles. Further modifications in the chemical and structural composition of soot may occur due to carbonization and oxidation reactions prevalent throughout the flame. Consequently, flame-formed soot particles can exhibit diverse chemical and physical characteristics, influencing crucial properties such as oxidation reactivity
+[7]
+,
+[8]
+,
+[9]
+and optical features
+[10]
+,
+[11]
+,
+[12]
+.
+Current advancements in our comprehension of soot formation and evolution mechanisms have been notable, owing to the recent use of innovative experimental
+[13]
+,
+[14]
+,
+[15]
+and theoretical methods
+[4]
+,
+[16]
+. One of the significant breakthroughs in the field involves the identification of π-radicals as critical intermediates in the inception and growth of soot particles. Recent investigations have supported the existence of molecular clustering reaction pathways driven by radical-chain reactions of π-radicals yet pointing toward the formation of covalently bound complexes
+[13]
+,
+[14]
+,
+[15]
+,
+[16]
+.
+Within the context of purely laminar premixed flames, soot formation starts immediately after the flame front, with the formation of nucleation or incipient soot particles whose size is typically 2–3 nm in diameter
+[12]
+,
+[17]
+,
+[18]
+,
+[19]
+. These nanoparticles undergo further growth within the flame, reaching dimensions of up to tens of nanometers with a particle size distribution having a bimodal shape
+[6]
+. In purely diffusive flames, soot predominantly forms and attains its peak concentration in the annular region proximate to the maximum radial flame temperature on the fuel side
+[20]
+. Nonetheless, investigations by various researchers have identified soot precursor nanoparticles within the flame core
+[21]
+,
+[22]
+,
+[23]
+.
+Although the use of partially premixed flames is prevalent in numerous practical devices, such as gas turbines, industrial furnaces, internal combustion engines, and burners for boilers
+[24]
+, it has garnered relatively less investigation with respect to pure premixed or diffusive flames, from which the impact of combustion parameters on soot formation, including particles’ physicochemical properties and nanostructure characteristics, has been mainly derived. A partially premixed flame arises when the fuel is mixed with a sub-stoichiometric amount of air – to generate a local fuel-rich mixture – before reaching the reaction zone, where additional air becomes available. The effects of partial premixing on soot formation have been explored using diverse techniques such as laser-induced incandescence
+[25]
+, light absorption
+[26]
+, high-resolution TEM
+[27]
+, and more recently thermophoretic particle densitometry (TPD)
+[28]
+. These studies collectively revealed that the introduction of oxygen into the fuel stream influences both the soot volume fraction and the structural properties of particles, including lamellae curvature
+[27]
+. Particularly, it has been shown that the increase in premixing results in an initial increase in the particle volume fraction, which then decreases as the equivalent ratio further decreases
+[28]
+.
+Today, several strategies have been developed to improve combustion efficiency and reduce pollutant emissions, including soot. Among these, for instance, plasma-assisted combustion exhibits extensive potential for enhancing combustion efficiency and flame control, while simultaneously mitigating NOx and particulate matter emissions
+[29]
+,
+[30]
+. Plasma-flame coupling produces a variety of reactive species, including free electrons, ions, active radicals, and excited molecules. These compounds collectively enhance the oxidation of fuel, resulting in a shorter ignition delay time and faster flame propagation
+[31]
+. Nevertheless, the difficulty of generating stable, uniform, non-equilibrium plasmas, particularly at high pressures, can be mitigated by the injection of excited molecules, characterized by longer lifetimes
+[32]
+. Among the active molecules, ozone (O3) stands out as particularly promising
+[32]
+. An inherent advantage of O3 lies in its production from oxygen molecules, the primary oxidizer in nearly all combustion systems, thus preventing the need for additional storage of fluids or gases. In addition, ozone exhibits a long lifetime and strong oxidizing properties
+[32]
+. Early investigations have demonstrated that O3 can play a multifaceted role, including accelerating ignition, enhancing flame propagation, contributing to flame stabilization, as well as reducing pollutant formation
+[32]
+. Despite the demonstrated positive effect of ozone in improving combustion, to the best of the authors’ knowledge, studies devoted to a fundamental understanding of the effect of ozone on soot formation in flames have been rarely performed. Ozone injection into flames is a simple means of increasing atomic oxygen concentration in flames
+[32]
+. Atomic oxygen has been shown to rapidly react with localized π-radical sites, e.g., fluorenyl-type radicals
+[33]
+, which may play a significant role in PAH clustering and soot formation
+[13]
+,
+[14]
+,
+[15]
+,
+[16]
+. It was thus speculated that ozone injection into flames may also interact with the soot formation process
+[3]
+,
+[13]
+. Only very recently, Ying and Liu
+[34]
+reported on the effect of ozone on the formation and evolution of soot in an inverse diffusion flame of ethylene. The ozone in flames promoted the formation of free radicals and active substances, leading to slightly increased soot formation and agglomeration processes. Higher ozone concentration resulted in larger primary particle diameters, increased agglomeration, elevated soot surface oxygen content, and a lower sp2/sp3 ratio, indicating a higher oxidation reactivity in the generated soot. In literature, an O3 concentration range between 10 ppm and 1000 ppm is usually adopted for real-based scenarios, such as internal combustion engines
+[35]
+,
+[36]
+, whereas lab-scale analyses also cover higher and wider ranges, such as 2750 ppm and 5500 ppm in the work of Ying and Liu
+[34]
+, or 100 ppm and 5000 ppm in Cheng et al.
+[37]
+.
+In this work, the effect of ozone on particle nucleation and soot formation is analyzed in two partially premixed laminar flames of methane operated with two equivalence ratios, i.e., different amounts of the primary air added to the fuel stream. The ozone addition has been obtained by partial conversion of the oxygen in the premixing primary air, thus without altering the flame equivalence ratio. The concentrations of the added ozone explored in our work, 500 ppm and 570 ppm, lie in the range investigated in similar works
+[34]
+,
+[35]
+,
+[36]
+,
+[37]
+. Soot extracted from the flames with ozone at different heights has been characterized in comparison with soot formed from the same flames without ozone. Differential mobility analysis, atomic force microscopy, and Raman spectroscopy have been used to retrieve information on particle size distributions, morphological characteristics, and chemical/structural properties of the soot with and without the presence of ozone.
+2. Experimental
+A co-flow partially premixed laminar methane/air flame with and without ozone in the premixing air was tested at two equivalence ratios, Φ = 11.9 and Φ = 7.6. The burner was the same as in previous studies
+[28]
+and was built similarly to the one in ref.
+[38]
+. The fuel/air mixture (at ambient temperature) flows through an uncooled vertical tube (I.D.∼1.2 cm), while secondary air flows through a concentric tube (I.D.∼10.8 cm)
+[22]
+. Flames are stabilized at the burner exit by reducing the air annulus with a 5.5 cm I.D. ring. A flux of secondary air was provided to stabilize the investigated flames. A schematic of the burner set-up is reported in
+Fig. 1
+. The flow conditions of the investigated flames are reported in
+Table 1
+. Our experimental setup is equipped with mass-flow controllers (from Bronkhorst, models F-201AV and F-201CV), used to separately regulate the amount of primary air and fuel sent to the flame. Moreover, a primary flow calibrator (from Gilian, model Gilibrator-2) was used to precisely calibrate the mass-flow controllers, in order to correlate the nominal values of the flowrates with the real flowrates of oxidizer and fuel reaching the flame. The secondary air flow is controlled with a flowmeter (from ASA, model E5-2600).
+Download: Download high-res image (118KB)
+Download: Download full-size image
+Fig. 1. Schematic of the co-flow partially premixed burner setup. Ozone from the UV lamp is fed into the premixing air without changing the equivalence ratio by converting a fraction of O2 into O3.
+Table 1. Characteristics of four experimental investigated conditions. O3 is the ozone concentration in ppm; QCH4 is the volumetric flow rate of methane; QPA is the volumetric flow rate of the primary air (premixed with CH4); QSA is the volumetric flow rate of secondary stabilizing air.
+Flame Ф O3 (ppm) ± 10 ppm QCH4 (l/min) ± 0.01 l/min QPA (l/min) ± 0.01 l/min QSA (Nl/h) ± 100 Nl/h
+Φ7.6 7.6 0.40 0.50 4000
+Φ7.6O3 7.6 570 0.40 0.50 4000
+Φ11.9 11.9 0.40 0.32 4000
+Φ11.9O3 11.9 500 0.40 0.32 4000
+A total of four flame conditions were investigated. To understand how flame residence time impacts soot formation, we chose equivalence ratios similar to the ones used in prior studies of partially premixed methane/air flames
+[38]
+so to have lightly sooting conditions and isolate and observe the effect of ozone addition on the soot formation process. However, for a clearer analysis, we opted for slightly richer flames (Φ = 7.6 and 11.9) compared to the previous studies on ozone addition
+[39]
+. While a higher equivalence ratio would increase soot volume, it would also decrease oxygen content, making it difficult to study early soot formation and the chemical influence of ozone. Conversely, very lean flames (lower equivalence ratio) would produce minimal soot, hindering analysis techniques like Raman spectroscopy. Hence, two partially premixed methane/air flames at Φ = 7.6 and Φ = 11.9 were examined with and without ozone addition in the premixing air. Overall, a fixed amount of ozone, corresponding to roughly 500 ppm was prepared by turning on the UV lamp of the ozone generator, Model 1001 Jelight Company Inc. The ozone concentration was determined via a Model 205 Dual Beam Ozone Monitor (2B Technologies). The fuel flow rate (QCH4) was constant for both flames, as well as the secondary air flow rate (QSA). The variable factor was the primary air flow (QPA), responsible for generating the two Φ values. When the airflow passes through the ozone generator, both the generation and decay processes are instantaneous. The ozone concentrations in our experiments were dictated by the limitations of the ozone generator, which permits a maximum of approximately 0.25 % oxygen conversion into ozone, as well as by the selected air-flow conditions necessary for stabilizing the two partially premixed flames, namely the two equivalence ratios. The obtained ozone concentration values align with those commonly employed in various implementations of ozone in combustion processes
+[34]
+,
+[35]
+,
+[36]
+,
+[37]
+.
+Both flames conditions, Φ7.6O3 and Φ11.9O3, maintain an ozone concentration of approximately 570 ppm and 500 ppm respectively. For the two flames, the fuel and the primary air mixture were convoyed to the burner at a velocity of 13.2 cm/s and 11.8 cm/s respectively. The addition of ozone did not change the total velocity significantly.
+The pictures of the flames have been recorded with a Canon EOS 1100D digital camera. The acquisition parameters of the camera were kept the same for all the flame conditions: resolution = 1920 px × 1030 px, focal distance = 18 mm, ISO value = 100, exposure time = 4 s, diaphragm aperture = F/22.
+The flame temperature was measured using an R‐type thermocouple (Pt/Pt‐13 %Rh) having a spherical junction with a diameter of 300 µm, using a fast‐insertion procedure
+[40]
+. This procedure allows for measuring the temperature even in sooting flames by recording its time profile and evaluating the flame temperature before the data starts to decrease due to the coating of the thermocouple bead by soot, as described in detail in previous investigations
+[41]
+,
+[42]
+. Additionally, the recorded flame temperatures were corrected for radiation losses according to the procedure reported elsewhere
+[43]
+.
+Particle size distributions (PSDs) measurements were achieved using an electrical mobility spectrometer comprising an X-ray diffusion charging source (TSI, Model 3088) positioned at the inlet of a TapCon 3/150 differential mobility particle analyzer (DMA), complemented by a Faraday cup electrometer serving as a counter.
+Sampling of flame products occurred through a horizontal stainless steel tubular probe, with a 1 cm outer diameter, provided by an orifice (inner diameter = 0.2 mm, thickness = 0.5 mm) positioned downward at the flame centerline. To ensure accurate measurements, at the probe inlet the sampled flow was immediately mixed with a turbulent N2 diluent flow, achieving a dilution ratio of approximately 1:3000
+[44]
+. This dilution aimed to prevent particle aggregation and quench chemical reactions
+[45]
+.
+To characterize the particles generated in the flames, thermophoretic samplings were conducted by the rapid insertion of atomically flat mica substrates, held by a TEM grid holder, into the flames at different heights using a pneumatic fast actuator.
+The morphology of soot particles thermophoretically sampled on freshly cleaved mica substrates was investigated by atomic force microscopy (AFM). Specifically, one insertion of 10 ms of the substrate in flame was performed. The morphological analysis was performed with a Scanning Probe Microscope NTEGRA Prima (from NT-MDT), operating in semi-contact mode in air. Supersharp silicon probes SSS-NCHR (from NANOSENSORS) were used, having a nominal tip radius of 2 nm, a nominal spring force constant of 42 N/m, and a nominal resonant frequency of 285 kHz. Gwyddion software was used to process the images
+[46]
+.
+For Raman spectroscopy analysis, thermophoresis sampling was performed by multiple insertions of 30 ms for both flames. Raman spectroscopy of the soot particles deposited on 3 mm pieces of silver filters was carried out using a Horiba XploRA Raman microscope system equipped with a 50 × objective (NA 0.9, Olympus). The laser source used was a dual-frequency Nd:YAG laser (λ = 532 nm). Laser beam power, exposure time, diffraction grating, and other instrumental settings were carefully chosen to avoid structural changes in the sample due to thermal decomposition and to ensure optimal resolution. Spectra were acquired with a laser beam power attenuated at 10 %, corresponding to 1.2 mW laser power, with a diffraction grating of 1200 groves/mm and an accumulation (exposure) time of five cycles, each lasting 60 s. For each sample, 10 spots were randomly selected and averaged to obtain statistically significant Raman spectra. Subsequently, all spectra were subjected to baseline correction and normalization to the G-peak, located at approximately 1600 cm−1.
+3. Results and discussion
+3.1. RGB image analysis
+The images of the four flame conditions (two equivalence ratios, with and without ozone injection in flame) are reported in
+Fig. 2
+. The naked eye can barely observe the flame variation when the ozone concentration changes but measurements of the flame luminosity through high-resolution camera imaging show that the addition of O3 in the flame slightly lowers the overall flame luminosity, particularly in the upper part of the flames. Through a preliminary qualitative RGB image analysis, it was possible to highlight the differences in terms of the signals for each flame with and without ozone.
+Download: Download high-res image (159KB)
+Download: Download full-size image
+Fig. 2. Photographs of the partially premixed methane/air flames at two equivalence ratios, i.e., Φ = 11.9 and Φ = 7.6, without and with ozone injection. Green-dashed lines correspond to the sampling positions above the burner exit.
+Being the flames axial-symmetric, the RGB signals were extracted along the axis of each flame, see Fig. S1 in the Supplementary material. A decrement in terms of RGB sum intensity (as well as the RED channel alone, as listed in Table S1) is observed after the ozone addition for both the equivalence ratios.
+3.2. Flame temperature profiles
+Temperature measurements were performed for all the investigated flames and the resulting temperature profiles are reported in
+Fig. 3
+. Within the adopted experimental conditions and amounts of O3 introduced into the flames, the temperature profiles did not show any significant changes. The low sensitivity of the flame temperature profile to the ozone addition is probably due to the low amount of O3 added. Indeed, previous studies have shown that compared to pure oxygen, the presence of ozone in higher amounts influences the flame temperature profile
+[34]
+whereas, for ozone addition in lower quantities, the flame temperature remains almost unchanged
+[37]
+.
+Download: Download high-res image (138KB)
+Download: Download full-size image
+Fig. 3. Temperature profiles along the central axis for the two partially premixed flames with and without O3. Flame Φ = 7.6 left panel, flame Φ = 11.9 right panel.
+3.3. Particle size distribution curves
+PSDs by DMA have been measured at the flame tip for both flames, Φ = 7.6 and Φ = 11.9, without and with ozone injection. Results are shown in
+Fig. 4
+. For the Φ = 7.6 flame the PSD is mostly monomodal while for the Φ = 11.9 flame, it is bimodal. Both conditions showed a decrease in particle number in the upper part of the flame because of ozone addition. This can be due either to a higher reactivity of the soot towards oxidation because of ozone addition compared to the normal one, or to a lower concentration and nucleation of soot because of the ozone injection into the flames.
+Download: Download high-res image (154KB)
+Download: Download full-size image
+Fig. 4. Particle size distributions along the flame centerline with and without ozone injection. Flame Φ = 7.6 left panel, flame Φ = 11.9 right panel.
+3.4. Atomic force microscopy analysis
+The morphology of soot particles collected at the heights (Z) of 43 mm, 37 mm, and 34 mm in the different flame conditions was analyzed with semi-contact AFM, as shown in
+Fig. 5
+. Due to the rapid single insertion of the substrates in the flame, the particles (or clusters of particles) are individually visualized on the mica substrates, allowing for direct analysis of the sampled material. Firstly, the number of particles collected at the same height in the flame with Φ = 11.9, is considerably larger than those in the flame with Φ = 7.6, as it can be expected for a flame with a lower amount of premixing air.
+Download: Download high-res image (408KB)
+Download: Download full-size image
+Fig. 5. AFM semi-contact images of 5 µm × 5 µm areas acquired on samples with soot particles sampled in flames with (a-b) Φ = 7.6 at Z = 43 mm, and Φ = 11.9 at (c-d) Z = 43 mm, (e-f) Z = 37 mm, and (g-h) Z = 34 mm. The left panels show images of particles sampled without ozone while the right panels show images of samples collected with ozone addition.
+Both the surface coverage and the collected volume of the particles decrease by reducing the equivalent ratio: from a coverage of 5.9 % and a total volume of 1.38 x 10-3 µm3, for the flame with Φ = 11.9 (at Z = 43 mm), to a coverage of 1.16 % and a volume of 0.12 x 10-3 µm3, for the flame with Φ = 7.6 (at Z = 43 mm). Accordingly, the surface RMS roughness (RRMS) is smaller for the flame with more oxygen premixed, being 0.12 nm compared to 0.59 nm in the case of the richer flame (at Z = 43 mm).
+When ozone is added to the premix air, it affects the characteristics of the collected particle. For both flame conditions, the surface coverage decreases with ozone addition, being 2.2 % for the flame with Φ = 11.9 (at Z = 43 mm) and 0.74 % for the flame with Φ = 7.6 (at Z = 43 mm). Also, both the total particle volume and the surface RMS roughness follow a reducing behavior, decreasing from a collected volume of 0.18 x 10-3 µm3 and an RRMS of 0.23 nm, for the flame with Φ = 11.9 (at Z = 43 mm), to a volume of 0.06 x 10-3 µm3 and an RRMS of 0.08 nm, for the flame with Φ = 7.6 (at Z = 43 mm). Moreover, the collected particles exhibit a considerably lower height when sampled in flames with ozone addition. This effect is better perceived in the 3-dimensional visualization of the AFM images, as shown in the Supplementary material, see Fig. S2.
+As can be seen from the AFM images, and from the height profile over the single particles, see Fig. S3 in the Supplementary, the shape of the particles can be assumed as a spherical cap having a height (h) smaller than the corresponding basal radius (rBASE) consistent with results from previous studies obtained with scanning probe microscopy techniques
+[17]
+,
+[47]
+,
+[48]
+. The observed shape is assumed to be the result of particles being flattened as they strike the substrate surface during the sampling.
+Fig. 6
+shows the distributions, as relative frequency, of the height and the base radius. It is worth noticing that the lateral dimensions of small particles, when measured with AFM, always reflect a convolution of both the probe's geometry and the actual shape of the features being captured. This results in an overestimation of the base radius by at least two or three tip radii (4 to 6 nm)
+[48]
+. Moreover, to not take into consideration the surface roughness in the particles counting for the height distributions, the smallest morphological features have been discarded from the statistical analysis, which can lead us to exclude some of the single-layer PAHs from the analysis. However, the same procedure has been followed for all the flame conditions and, therefore, the entire analysis accounts for this effect, if present.
+Download: Download high-res image (748KB)
+Download: Download full-size image
+Fig. 6. Relative frequency distributions of the height (h) and the base radius (rBASE) of the particles collected in the flames with (a-b) Φ = 7.6 at Z = 43 mm, and Φ = 11.9 at (c-d) Z = 43 mm, (e-f) Z = 37 mm, and (g-h) Z = 34 mm. The grey-filled bins show the distribution of the flames before ozone addition, while the purple slanted-line pattern bins show the distribution of the flames with ozone addition.
+Firstly, in both flame conditions, the average particle’s height decreases and the distribution narrows with ozone addition, see the left panels in
+Fig. 6
+. For Φ = 11.9 (at Z = 43 mm) the geometric average of the height (<h>g) decreases from 2.0 nm to 0.76 nm, with a geometric standard deviation (σ(h)g) narrowing from 3.4 nm to 0.32 nm (at Z = 43 mm, obtained from the fitting with a lognormal function). Likewise, for the flame with Φ = 7.6 (at Z = 43 mm), <h>g decreases from 0.95 nm to 0.46 nm and σ(h)g narrows from 0.41 nm to 0.31 nm. It is notable that the heights of the particles collected in the flames after ozone addition correspond to that of PAHs of only a few layers (bin spacing approximately corresponding to the PAHs interlayer distance). Moreover, the base radius follows the same trend, decreasing with reducing Ф and with ozone.
+These trends are observed at all the different heights (Z = 43 mm, Z = 37 mm, and Z = 34 mm) and all the main results are summarized in
+Table 2
+below. At lower Z the collected particles exhibit smaller dimensions, both in their height and base radius, revealing a decrease in the overlapping and cross-linking of the PAH layers. Remarkably, the particles sampled in the ozonized flame at Z = 37 and 34 mm are mainly monolayer molecules.
+Table 2. Statistical parameters of sampled soot particle characteristics obtained from AFM morphology measurements in the different flames and at different heights.
+Empty Cell
+Z = 43 mm Z = 43 mm Z = 37 mm Z = 34 mm
+Flame conditions Φ7.6 Φ7.6O3 Φ11.9 Φ11.9O3 Φ11.9 Φ11.9O3 Φ11.9 Φ11.9O3
+RRMS (nm) 0.12 0.08 0.59 0.23 0.20 0.14 0.07 0.04
+Surface coverage 1.16 % 0.74 % 5.9 % 2.2 % 7.9 % 2.7 % 2.1 % 0.77 %
+Total particles volume (·10-3 µm3) 0.12 0.06 1.38 0.18 0.90 0.22 0.12 0.02
+<h>g (nm) 0.95 0.46 2.0 0.76 1.2 0.39 0.52 0.35
+σ(h)g 0.41 0.31 3.4 0.32 1.1 0.32 0.14 0.11
+3.5. Raman spectroscopy analysis
+Raman spectroscopy has been used to assess the effect of ozone addition on soot chemical/structural characteristics. Raman spectra of soot, thermophoretically collected on silver membranes, at different flame conditions, are shown in
+Fig. 7
+. All the spectra present the typical two main features of amorphous carbon, the G band at around 1600 cm−1 and the D band, at about 1340 cm−1. Details on the physical origin of these two Raman modes can be found elsewhere
+[49]
+. It is well known that the relative intensity of the D and G peaks is dependent on the size of the aromatic domains
+[49]
+and that for highly disordered/amorphous carbonaceous materials, i.e., for very small graphite crystallites, as in the case of flame-formed soot particles, the larger is the ratio between the D band over the G one, the larger is the size of the aromatic constituents.
+Download: Download high-res image (211KB)
+Download: Download full-size image
+Fig. 7. Raman spectra of soot collected at different flame conditions.
+As a general trend, and for both flame equivalence ratios, an increase in the sampling position, Z, results in a slightly higher D band intensity compared to the G band. This is consistent with a slight increase in the size of the aromatic constituents of the soot. The introduction of O3 has a stronger effect on soot formed at lower Z where an increase in D/G ratio is produced, thus indicating the presence of larger aromatic constituents as compared to the pure methane/air flames. The effect slightly appears at Z = 34 mm of the Φ = 11.9. However, it is evident at Z = 37 mm of the Φ = 7.6 flame. In this flame condition, the Raman spectrum is different from all the other conditions with a low and not well-resolved D band indicating the presence of small PAHs and the absence of a graphitic character in the just nucleated soot. The effect of O3 is to promote the growth of the aromatic size, evidenced by the larger D/G ratio and a better graphitic structure shown by the deeper valley between D and G peaks. This effect can be tentatively assigned to the removal of resonantly stabilized radicals. In fact, in the flame without O3, a higher amount of such radicals, which arise from non-hexagonal defects, would favor crosslinks between aromatics and, thereby, reduce HACA growth producing smaller aromatic structures
+[50]
+. Remarkably, as demonstrated with thermocouple measurements, the addition of ozone, in the order of a few hundred ppm, does not sensibly affect the flame structure in terms of temperature. Therefore, within the adopted experimental conditions, the observed effect of adding O3 to the flames in terms of both soot size/morphology and graphitic structure is purely chemically based. The observed effect of particle size reduction when introducing ozone is consistent with a chemical interaction of atomic oxygen with aromatic π-radicals, precursors of the soot particles, resulting in a reduced clusterization of soot molecular constituents. Furthermore, the interaction of the atomic oxygen with the aromatic π-radicals in incipient particles can also alter their growth through coagulation. This hypothesis, that functional groups containing oxygen might cause a lower coagulation, was already reported in literature for small soot particles as well as for graphene oxide
+[45]
+,
+[52]
+. Indeed, it was observed that the removal of oxygen in particles, by reduction with hydrazine, promoted particle coagulation either in incipient soot particles
+[52]
+or in graphene oxide composites
+[51]
+.
+Finally, at the highest Z positions, i.e. in the oxidative flame regions, both flames exhibit minor effects in the presence of ozone. There is only a slightly higher intensity of the intervalley region of the soot coming from the ozone-added flames. In this region of the spectrum amorphous carbon mostly contributes to the signal. Its increase can be justified by a stronger propensity to oxidation in soot produced in the flame with O3 addition. Indeed, in a previous work, it was shown that in mature soot the oxidation by O2 increases the amorphous phase content by fragmentation
+[9]
+.
+4. Conclusions
+The effect of ozone addition in the premixing air of a partially premixed laminar methane flame has been investigated in terms of soot formation and evolution. Two equivalence ratios, namely Φ = 11.9 and Φ = 7.6, without and with ozone, have been considered to address the possible effect of ozone in the soot formation process. Ozone has been introduced in flame, in the order of a few hundred parts per million, by direct conversion of a small percentage of premixing oxygen, and thus without modifying the flame equivalence ratio. Soot has been extracted at different flame positions, both within the growing zone and the oxidative zone, to assess the specific effect of the ozone in the nucleation/growing process of the soot particles and on the oxidative stage.
+The results obtained by a combination of thermocouple, AFM, DMA, and Raman spectroscopy measurements suggest the following conclusions:
+•
+O3 removes resonantly stabilized radicals;
+•
+AFM shows a reduction in the number and size of soot particles, down to few-layers PAHs;
+•
+The typical heights of the collected particles in ozonized conditions are flatter as compared to the pristine flames, indicating a lower level of cross-linking in the aromatic network forming the particles and subsequent 3D growth;
+•
+Raman spectra exhibit a higher I(D)/I(G) ratio in the presence of O3, especially for young soot particles, evidencing larger aromatic soot constituents;
+•
+Fewer aromatic crosslinks enable HACA to continue leading to larger aromatic molecules.
+Since temperature measurements have shown that under the employed ozone concentrations, flames with and without ozone have similar temperature profiles, modifications in the soot inception and growth, caused by ozone, can be ascribed purely to a chemical effect. The observed effects are consistent with a chemical interaction of atomic oxygen with aromatic π-radicals, precursors of the soot particles, and with a reduced chemical clusterization of soot molecular constituents as well as with a reduced incipient soot coagulation.
+CRediT authorship contribution statement
+Luca Basta: Writing – original draft, Investigation, Formal analysis. Alessia Pignatelli: Investigation, Formal analysis. Fabio Sasso: Investigation, Formal analysis. Francesca Picca: Writing – original draft, Investigation, Formal analysis. Mario Commodo: Writing – original draft, Supervision, Investigation, Formal analysis, Conceptualization. Patrizia Minutolo: Writing – original draft, Supervision. Jacob W. Martin: Writing – original draft, Conceptualization. Andrea D’Anna: Writing – original draft, Supervision, Project administration, Funding acquisition, Conceptualization.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+The work at the University Federico II in Napoli was supported by the U.S. Air Force Office of Scientific Research (AFOSR) under grant number FA8655-21-1-7022. J.W.M. acknowledges the support of the Forrest Research Foundation, the Australian Research Council-funded Centre of Excellence for Carbon Science and Innovation CE230100032, and the program Short-Term Mobility of the CNR (STM2023).
+Data availability
+Data will be made available on request.
+References
+[1]
+C.I. Davidson, R.F. Phalen, P.A. Solomon
+Airborne particulate matter and human health: a review
+Aerosol Sci Tech, 39 (2005), pp. 737-749,
+10.1080/02786820500191348
+View in Scopus
+Google Scholar
+[2]
+T.C. Bond, S.J. Doherty, D.W. Fahey, P.M. Forster, T. Berntsen, B.J. DeAngelo, et al.
+Bounding the role of black carbon in the climate system: a scientific assessment
+J Geophys Res Atmos, 118 (2013), pp. 5380-5552,
+10.1002/jgrd.50171
+Google Scholar
+[3]
+J.W. Martin, M. Salamanca, M. Kraft
+Soot inception: carbonaceous nanoparticle formation in flames
+Prog Energy Combust Sci, 88 (2022), Article 100956,
+10.1016/j.pecs.2021.100956
+View PDF
+View article
+View in Scopus
+Google Scholar
+[4]
+M. Frenklach, A.M. Mebel
+On the mechanism of soot nucleation
+PCCP, 22 (2020), pp. 5314-5331,
+10.1039/D0CP00116C
+View in Scopus
+Google Scholar
+[5]
+H. Wang
+Formation of nascent soot and other condensed-phase materials in flames
+Proc Combust Inst, 33 (2011), pp. 41-67,
+10.1016/j.proci.2010.09.009
+View PDF
+View article
+Google Scholar
+[6]
+A. D’Anna
+Combustion-formed nanoparticles
+Proc Combust Inst, 32 (2009), pp. 593-613,
+10.1016/j.proci.2008.09.005
+View PDF
+View article
+View in Scopus
+Google Scholar
+[7]
+R.L. Vander Wal, A.J. Tomasek
+Soot nanostructure: dependence upon synthesis conditions
+Combust Flame, 136 (2004), pp. 129-140,
+10.1016/J.COMBUSTFLAME.2003.09.008
+View PDF
+View article
+View in Scopus
+Google Scholar
+[8]
+De Falco G, Bocchicchio S, Commodo M, Minutolo P, D’Anna A. Raman Spectroscopy of Nascent Soot Oxidation: Structural Analysis During Heating. Front Energy Res 2022;10. DOI: 10.3389/fenrg.2022.878171.
+Google Scholar
+[9]
+G.A. Kelesidis, A. Nagarkar, U. Trivanovic, S.E. Pratsinis
+Toward elimination of soot emissions from jet fuel combustion
+Environ Sci Technol, 57 (2023), pp. 10276-10283,
+10.1021/acs.est.3c01048
+View in Scopus
+Google Scholar
+[10]
+P. Desgroux, X. Mercier, K.A. Thomson
+Study of the formation of soot and its precursors in flames using optical diagnostics
+Proc Combust Inst, 34 (2013), pp. 1713-1738,
+10.1016/J.PROCI.2012.09.004
+View PDF
+View article
+View in Scopus
+Google Scholar
+[11]
+H.A. Michelsen
+Probing soot formation, chemical and physical evolution, and oxidation: a review of in situ diagnostic techniques and needs
+Proc Combust Inst, 36 (2017), pp. 717-735,
+10.1016/J.PROCI.2016.08.027
+View PDF
+View article
+View in Scopus
+Google Scholar
+[12]
+P. Minutolo, M. Commodo, A. D’Anna
+Optical properties of incipient soot
+Proc Combust Inst, 39 (2023), pp. 1129-1138,
+10.1016/J.PROCI.2022.09.019
+View PDF
+View article
+View in Scopus
+Google Scholar
+[13]
+L.-A. Lieske, M. Commodo, J.W. Martin, K. Kaiser, V. Benekou, P. Minutolo, et al.
+Portraits of soot molecules reveal pathways to large aromatics, five-/seven-membered rings, and inception through π-radical localization
+ACS Nano, 17 (2023), pp. 13563-13574,
+10.1021/acsnano.3c02194
+View in Scopus
+Google Scholar
+[14]
+A. Faccinetto, C. Irimiea, P. Minutolo, M. Commodo, A. D’Anna, N. Nuns, et al.
+Evidence on the formation of dimers of polycyclic aromatic hydrocarbons in a laminar diffusion flame
+Commun Chem, 3 (2020), p. 112,
+10.1038/s42004-020-00357-2
+View in Scopus
+Google Scholar
+[15]
+K.O. Johansson, M.P. Head-Gordon, P.E. Schrader, K.R. Wilson, H.A. Michelsen
+Resonance-stabilized hydrocarbon-radical chain reactions may explain soot inception and growth
+Science, 2018 (361) (1979), pp. 997-1000,
+10.1126/science.aat3417
+Google Scholar
+[16]
+J.W. Martin, L. Pascazio, A. Menon, J. Akroyd, K. Kaiser, F. Schulz, et al.
+π-Diradical aromatic soot precursors in flames
+J Am Chem Soc, 143 (2021), pp. 12212-12219,
+10.1021/jacs.1c05030
+View in Scopus
+Google Scholar
+[17]
+S. Veronesi, M. Commodo, L. Basta, G. De Falco, P. Minutolo, N. Kateris, et al.
+Morphology and electronic properties of incipient soot by scanning tunneling microscopy and spectroscopy
+Combust Flame, 243 (2022), Article 111980,
+10.1016/J.COMBUSTFLAME.2021.111980
+View PDF
+View article
+View in Scopus
+Google Scholar
+[18]
+C. Betrancourt, F. Liu, P. Desgroux, X. Mercier, A. Faccinetto, M. Salamanca, et al.
+Investigation of the size of the incandescent incipient soot particles in premixed sooting and nucleation flames of n -butane using LII, HIM, and 1 nm-SMPS
+Aerosol Sci Tech, 51 (2017), pp. 916-935,
+10.1080/02786826.2017.1325440
+View in Scopus
+Google Scholar
+[19]
+F. Carbone, M. Attoui, A. Gomez
+Challenges of measuring nascent soot in flames as evidenced by high-resolution differential mobility analysis
+Aerosol Sci Technol, 50 (2016), pp. 740-757,
+10.1080/02786826.2016.1179715
+View in Scopus
+Google Scholar
+[20]
+A.E. Karataş, Ö.L. Gülder
+Soot formation in high pressure laminar diffusion flames
+Prog Energy Combust Sci, 38 (2012), pp. 818-845,
+10.1016/J.PECS.2012.04.003
+View PDF
+View article
+View in Scopus
+Google Scholar
+[21]
+R.L. Vander Wal
+Soot precursor carbonization: Visualization using LIF and LII and comparison using bright and dark field TEM
+Combust Flame, 112 (1998), pp. 607-616,
+10.1016/S0010-2180(97)00171-5
+View PDF
+View article
+View in Scopus
+Google Scholar
+[22]
+A. D’Anna, A. Rolando, C. Allouis, P. Minutolo, A. D’Alessio
+Nano-organic carbon and soot particle measurements in a laminar ethylene diffusion flame
+Proc Combust Inst, 30 (2005), pp. 1449-1456,
+10.1016/j.proci.2004.08.276
+View PDF
+View article
+View in Scopus
+Google Scholar
+[23]
+M.R. Kholghy, Y. Afarin, A.D. Sediako, J. Barba, M. Lapuerta, C. Chu, et al.
+Comparison of multiple diagnostic techniques to study soot formation and morphology in a diffusion flame
+Combust Flame, 176 (2017), pp. 567-583,
+10.1016/j.combustflame.2016.11.012
+View PDF
+View article
+View in Scopus
+Google Scholar
+[24]
+A.R. Masri
+Partial premixing and stratification in turbulent flames
+Proc Combust Inst, 35 (2015), pp. 1115-1136,
+10.1016/J.PROCI.2014.08.032
+View PDF
+View article
+View in Scopus
+Google Scholar
+[25]
+C.S. McEnally, L.D. Pfefferle
+Experimental study of nonfuel hydrocarbons and soot in coflowing partially premixed ethylene/air flames
+Combust Flame, 121 (2000), pp. 575-592,
+10.1016/S0010-2180(99)00174-1
+View PDF
+View article
+View in Scopus
+Google Scholar
+[26]
+C.P. Arana, M. Pontoni, S. Sen, I.K. Puri
+Field measurements of soot volume fractions in laminar partially premixed coflow ethylene/air flames
+Combust Flame, 138 (2004), pp. 362-372,
+10.1016/j.combustflame.2004.04.013
+View PDF
+View article
+View in Scopus
+Google Scholar
+[27]
+C.-H. Huang, R.L. Vander Wal
+Partial premixing effects upon soot nanostructure
+Combust Flame, 168 (2016), pp. 403-408,
+10.1016/j.combustflame.2016.01.006
+View PDF
+View article
+View in Scopus
+Google Scholar
+[28]
+G. De Falco, M. Sirignano, M. Commodo, L. Merotto, F. Migliorini, R. Dondè, et al.
+Experimental and numerical study of soot formation and evolution in co-flow laminar partially premixed flames
+Fuel, 220 (2018), pp. 396-402,
+10.1016/J.FUEL.2018.02.028
+View PDF
+View article
+View in Scopus
+Google Scholar
+[29]
+M.S. Cha, S.M. Lee, K.T. Kim, S.H. Chung
+Soot suppression by nonthermal plasma in coflow jet diffusion flames using a dielectric barrier discharge
+Combust Flame, 141 (2005), pp. 438-447,
+10.1016/J.COMBUSTFLAME.2005.02.002
+View PDF
+View article
+View in Scopus
+Google Scholar
+[30]
+D.H. Lee, K.-T. Kim, H.S. Kang, Y.-H. Song, J.E. Park
+Plasma-Assisted Combustion Technology for NO x Reduction in Industrial Burners
+Environ Sci Technol, 47 (2013), pp. 10964-10970,
+10.1021/es401513t
+View in Scopus
+Google Scholar
+[31]
+Lacoste DA. Flames with plasmas. Proceedings of the Combustion Institute 2023;39:5405–28. DOI: 10.1016/J.PROCI.2022.06.025.
+Google Scholar
+[32]
+W. Sun, X. Gao, B. Wu, T. Ombrello
+The effect of ozone addition on combustion: Kinetics and dynamics
+Prog Energy Combust Sci, 73 (2019), pp. 1-25,
+10.1016/J.PECS.2019.02.002
+View PDF
+View article
+View in Scopus
+Google Scholar
+[33]
+M. Frenklach, Z. Liu, R.I. Singh, G.R. Galimova, V.N. Azyazov, A.M. Mebel
+Detailed, sterically-resolved modeling of soot oxidation: role of O atoms, interplay with particle nanostructure, and emergence of inner particle burning
+Combust Flame, 188 (2018), pp. 284-306,
+10.1016/J.COMBUSTFLAME.2017.10.012
+View PDF
+View article
+View in Scopus
+Google Scholar
+[34]
+Y. Ying, D. Liu
+Formation and evolution of soot in ethylene inverse diffusion flames in ozone atmosphere
+Nanomaterials, 13 (2023), p. 816,
+10.3390/nano13050816
+View in Scopus
+Google Scholar
+[35]
+Foucher F, Higelin P, Mounaїm-Rousselle C, Dagaut P. Influence of ozone on the combustion of n-heptane in a HCCI engine. Proceedings of the Combustion Institute 2013;34:3005–12. DOI: 10.1016/j.proci.2012.05.042.
+Google Scholar
+[36]
+M.M. Salahi, A. Gharehghani
+Control of combustion phasing and operating range extension of natural gas PCCI engines using ozone species
+Energy Convers Manage, 199 (2019), Article 112000,
+10.1016/j.enconman.2019.112000
+View PDF
+View article
+View in Scopus
+Google Scholar
+[37]
+X. Cheng, G. Scribano
+A numerical study on the laminar diffusion and premixed flames for methane−air and methane−ethanol with ozone at atmospheric and elevated pressures
+Combust Flame, 259 (2024), Article 113100,
+10.1016/j.combustflame.2023.113100
+View PDF
+View article
+View in Scopus
+Google Scholar
+[38]
+C.S. McEnally, L.D. Pfefferle
+Experimental study of nonfuel hydrocarbon concentrations in coflowing partially premixed methane/air flames
+Combust Flame, 118 (1999), pp. 619-632,
+10.1016/S0010-2180(99)00017-6
+View PDF
+View article
+View in Scopus
+Google Scholar
+[39]
+Z.H. Wang, L. Yang, B. Li, Z.S. Li, Z.W. Sun, M. Aldén, et al.
+Investigation of combustion enhancement by ozone additive in CH4/air flames using direct laminar burning velocity measurements and kinetic simulations
+Combust Flame, 159 (2012), pp. 120-129,
+10.1016/J.COMBUSTFLAME.2011.06.017
+View PDF
+View article
+View in Scopus
+Google Scholar
+[40]
+J.H. Kent, H.G.G. Wagner
+Who do diffusion flames emit smoke
+Combust Sci Technol, 41 (1984), pp. 245-269,
+10.1080/00102208408923834
+View in Scopus
+Google Scholar
+[41]
+A.D. Abid, N. Heinz, E.D. Tolmachoff, D.J. Phares, C.S. Campbell, H. Wang
+On evolution of particle size distribution functions of incipient soot in premixed ethylene–oxygen–argon flames
+Combust Flame, 154 (2008), pp. 775-788,
+10.1016/J.COMBUSTFLAME.2008.06.009
+View PDF
+View article
+View in Scopus
+Google Scholar
+[42]
+Basile G, Rolando A, D’Alessio A, D’Anna A, Minutolo P. Coagulation and carbonization processes in slightly sooting premixed flames. Proceedings of the Combustion Institute 2002;29:2391–7. DOI: 10.1016/S1540-7489(02)80291-7.
+Google Scholar
+[43]
+C.S. McEnally, Ü.Ö. Köylü, L.D. Pfefferle, D.E. Rosner
+Soot volume fraction and temperature measurements in laminar nonpremixed flames using thermocouples
+Combust Flame, 109 (1997), pp. 701-720,
+10.1016/S0010-2180(97)00054-0
+View PDF
+View article
+View in Scopus
+Google Scholar
+[44]
+M. Commodo, G. De Falco, A. Bruno, C. Borriello, P. Minutolo, A. D’Anna
+Physicochemical evolution of nascent soot particles in a laminar premixed flame: from nucleation to early growth
+Combust Flame, 162 (2015), pp. 3854-3863,
+10.1016/j.combustflame.2015.07.022
+View PDF
+View article
+View in Scopus
+Google Scholar
+[45]
+B. Zhao, Z. Yang, J. Wang, M.V. Johnston, H. Wang
+Analysis of soot nanoparticles in a laminar premixed ethylene flame by scanning mobility particle sizer
+Aerosol Sci Tech, 37 (2003), pp. 611-620,
+10.1080/02786820300908
+View in Scopus
+Google Scholar
+[46]
+D. Nečas, P. Klapetek
+Gwyddion: an open-source software for SPM data analysis
+Open Phys (2012), p. 10,
+10.2478/s11534-011-0096-2
+Google Scholar
+[47]
+A.C. Barone, A. D’Alessio, A. D’Anna
+Morphological characterization of the early process of soot formation by atomic force microscopy
+Combust Flame, 132 (2003), pp. 181-187,
+10.1016/S0010-2180(02)00434-0
+View PDF
+View article
+View in Scopus
+Google Scholar
+[48]
+P. Minutolo, M. Commodo, A. Santamaria, G. De Falco, A. D’Anna
+Characterization of flame-generated 2-D carbon nano-disks
+Carbon N Y, 68 (2014), pp. 138-148,
+10.1016/J.CARBON.2013.10.073
+View PDF
+View article
+View in Scopus
+Google Scholar
+[49]
+A.C. Ferrari, J. Robertson
+Raman spectroscopy of amorphous, nanostructured, diamond–like carbon, and nanodiamond
+Philos Trans R Soc London, Ser A, 362 (2004), pp. 2477-2512,
+10.1098/rsta.2004.1452
+View in Scopus
+Google Scholar
+[50]
+G. Leon, J.W. Martin, E.J. Bringley, J. Akroyd, M. Kraft
+The role of oxygenated species in the growth of graphene, fullerenes and carbonaceous particles
+Carbon N Y, 182 (2021), pp. 203-213,
+10.1016/J.CARBON.2021.05.052
+View PDF
+View article
+View in Scopus
+Google Scholar
+[51]
+S. Stankovich, D.A. Dikin, G.H.B. Dommett, K.M. Kohlhaas, E.J. Zimney, E.A. Stach, et al.
+Graphene-based composite materials
+Nature, 442 (2006), pp. 282-286,
+10.1038/nature04969
+View in Scopus
+Google Scholar
+[52]
+A. D’Alessio, A. D’Anna, P. Minutolo, L.A. Sgro
+Nanoparticles of Organic Carbon (NOC) formed in flames and their effects in urban atmosphere
+H. Bockhorn, A. D’Anna, A.F. Sarofim, A. Wang (Eds.), Combustion Generated Fine Carbonaceous Particles, KIT Scientific Publishing, Karlsruhe (2009), pp. 205-230
+Google Scholar
+Cited by (0)
+1
+These authors contributed equally to this work.
+© 2024 The Authors. Published by Elsevier Ltd.
+Recommended articles
+Time-resolved spatial patterns and interactions of soot, PAH and OH in a turbulent diffusion flame
+Proceedings of the Combustion Institute, Volume 35, Issue 2, 2015, pp. 1921-1929
+B. Franzelli, …, S. Candel
+Combustion condition predictions for C2-C4 alkane and alkene fuels via machine learning methods
+Fuel, Volume 373, 2024, Article 132375
+Mingfei Chen, …, Dong Liu
+Acetamide-based deep eutectic solvents as efficient electrolytes for K–MnHCFe//Zn dual-ion batteries
+Journal of Power Sources, Volume 614, 2024, Article 234972
+Tsung-Wu Lin, …, Jeng-Yu Lin
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

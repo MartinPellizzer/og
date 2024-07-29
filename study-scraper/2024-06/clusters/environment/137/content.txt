@@ -1,0 +1,147 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (64)
+Journal of Environmental Sciences
+Available online 22 June 2024
+In Press, Uncorrected Proof
+What’s this?
+Research Article
+Assessing carbon stock and BVOCs emissions from dominant tree species in Beijing
+Author links open overlay panel
+Luxi Wang #
+,
+Xuan Wang #
+,
+Xiaoxiu Lun
+,
+Qiang Wang
+,
+Yanshan Gao
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jes.2024.06.020
+Get rights and content
+Highlights
+•
+Urban forests vital for carbon sequestration.
+•
+Study established optimal biomass models for six tree species in Beijing.
+•
+Total carbon storage in Beijing estimated at 5.64 million tons.
+•
+Identified tree species for optimal carbon storage and BVOCs emissions in Beijing.
+Abstract
+Urban areas face environmental pollution and greenhouse emissions challenges, demand collaborative efforts to mitigation. Urban forests play a crucial role in absorbing CO2 emissions and contributing to carbon sequestration potential, but they also release biogenic volatile organic compounds (BVOCs), which contribute to the formation of tropospheric ozone and secondary organic aerosols (SOA). This study aimed to understand the role of urban forests in carbon stock and BVOCs emission by establishing optimal biomass models for six typical tree species (Robinia pseudoacacia, Quercus, Populus, Pinus tabulaeformis, Betula platyphylla, and Larix gmelinii) in Beijing. Biomass models were developed using field surveys and remote sensing data, with R2 values ranging from 0.364 to 0.921. Applying these models to forest resource inventory data, carbon stock and BVOCs emission models were constructed. In 2021, the total carbon stock for these pure forest tree species was estimated at 5.638 million tons, with a carbon density of 58.86 t/ha. The carbon density ranking for pure forest tree species was: Robinia pseudoacacia > Populus tomentosa > Betula platyphylla > Quercus Linn> Pinus tabulaeformis > Larix gmelinii. Total BVOCs emission in 2021 from the studied species were calculated at 25,789.72 t, with an average emission of 0.27 t/ha. Populus tomentosa had the highest BVOCs emission per unit area, followed by Robinia pseudoacacia, and Larix gmelinii had the smallest. Betula platyphylla and Robinia pseudoacacia were identified as species with high carbon stock and low BVOCs emissions in Beijing, offering insights for future urban forest planning and eco-friendly urban environment development strategies.
+Graphical abstract
+Download: Download high-res image (210KB)
+Download: Download full-size image
+Introduction
+Environmental pollution and global warming pose significant challenges to the sustainable development of human society (Chen et al., 2022; Weng et al., 2021). As a crucial component of the global ecosystem, forest vegetation is intricately linked to climate change and underpins numerous ecological and forestry issues (Fu et al., 2015; Pan et al., 2011; Piao et al., 2008). Urban forest vegetation, for instance, plays a dual role in mitigating environmental impacts. Through carbon sequestration, it absorbs substantial quantities of industrial and anthropogenic CO2 for its growth and development, thereby attenuates the greenhouse effect (Le Quéré et al., 2009). However, it also emits biogenic volatile organic compounds (BVOCs) and undergoes chemical reactions with urban atmospheric oxidants such as nitrogen oxides and hydroxyl radicals, leading to the exacerbation of ambient air pollution (Lun et al., 2020). Consequently, urban forest vegetation exhibits both ``source'' and ``sink'' characteristics simultaneously (Simon et al., 2019).
+Biomass represents the foundational energy and nutrient source for the entire forest ecosystem (Fig. 1; Ye and Chuai, 2022). Notably, forest biomass and leaf biomass serve as essential references in calculating forest carbon stock and BVOCs emissions (Li et al., 2013). Analyzing forest vegetation's ``source'' and ``sink'' attributes through biomass evaluation can offer valuable insights for urban tree cultivation strategies (Kanellopoulos et al., 2021). In conclusion, comprehending the multifaceted interactions between forest vegetation and the environment is vital for addressing environmental challenges and fostering sustainable development. The selection of suitable species is a crucial step for managing urban forests effectively (Sicard et al., 2022).
+Within the realm of forest biomass quantification, the methodologies encompass both traditional methods and remote sensing approaches (Brown and Lugo, 1984; Dokulil and Qian, 2021; Zhang et al., 2019). Traditional biomass assessment predominantly derives from field measurements, affording a plethora of methodologies with commendable precision. However, the substantive labor was involved in expansive areas (Fang et al., 1998). Recent years the application of remote sensing technology in forest biomass estimation is becoming increasingly widespread, characterized by efficiency, non-invasiveness, expediency, and macroscopic oversight. Leveraging spectral reflectance of satellite data alongside the remote sensing index, remote sensing facilitates large-scale biomass estimation, markedly enhancing real-time monitoring efficiency in forestry domains. Notably, the performance of inversion models hinges upon the calibration based on field measurements. Hence, amalgamating traditional measurement paradigms with remote sensing technology augments both efficiency and precision in regional and global forest mapping, progressively emerging as a favored methodology for biomass assessment.
+An array of optical remote sensing data parameters exhibit close interrelation with plant growth and development (Cui et al., 2019). By devising a mathematical model that correlates biomass with remote sensing vegetation index, the remote sensing models effectuate the inversion of biomass for varying regions and tree species (Lin et al., 2021a; Lu et al., 2016; Phiri and Morgenroth, 2017). In most previous studies, determinations of tree biomass predominantly relied on moderate spatial resolution optical remote sensing data such as Landsat satellite imagery, known for its high spatial resolution and rapid revisit period. These data have been widely applied in estimating aboveground biomass in woody areas (Lu, 2005; Wilson and Sader, 2002). Remote sensing imagery with high spatial and spectral resolution, such as Sentinel-2, offers the potential for extracting more precise forest characteristic information (Vuorinne et al., 2021). Through synergistic integration of various satellite products with observational data, optimization of remote sensing data characteristics has been demonstrated to enhance the accuracy of model estimations and predictions, mitigating the shortcomings associated with reliance solely on individual remote sensing datasets and their inherent limitations (Vafaei et al., 2018).
+In this study, a total of 61 remote sensing parameters were extracted from Landsat-8, Sentinel-2 and Version 3 of the Advanced Spaceborne Thermal Emission and Reflection Radiometer Global Digital Elevation Model (ASTER GDEM V3) images across the mountainous regions of northwest Beijing and major urban centers. This investigation delved into the singular and conjoint influences of these data sources on forest biomass. Moreover, in conjunction with meticulously gathered pure forest sample data, the study engaged in univariate regression, multiple linear regression, and random forest model regressions to estimate the forest biomass of six prevalent tree species in Beijing: Robinia acacia, Quercus Linn, Populus tomentosa, Pinus tabulaeformis, Betula platyphylla and Larix gmelinii. Comparative evaluations were extended to assess the forest biomass estimation prowess of Landsat-8, Sentinel-2, and their combined application. The optimal model was identified and employed to invert biomass from forest resource inventory data, engendering spatial distribution mapping. Additionally, established methodologies, the study calculated carbon stock and BVOCs emissions pertaining to the six principal pure forest tree species in Beijing, culminating in the identification of high carbon sequestration potential and low BVOCs emission tree species.
+Section snippets
+Acquisition and processing of field measured data
+(1) Selection of sample sites and biomass data conversion
+Sample sites were determined by combining the newest forest management inventory survey data of Beijing and the resource list map available on the national forest intelligent management platform (
+http://www.stgz.org.cn/
+). From these data sources, relevant vegetation types were identified. Notably, six typical tree species found in Beijing, namely Robinia pseudoacacia, Quercus Linn, Populus tomentosa, Pinus tabulaeformis, Betula platyphylla
+Above-Ground biomass of dominant species from field investigations
+Through field investigation, a statistical analysis of the above-ground biomass of six dominant native tree species in Beijing reveals notable disparities, the results are shown in Appendix A Table S7. The mean biomass of Robinia pseudoacacia and Pinus tabulaeformis stands lowest at 56.10 t/ha and 71.30 t/ha, respectively. In contrast, Quercus and Populus exhibit the highest mean biomasses, recorded at 110.17 t/ha and 180.33 t/ha, respectively. The high-altitude species, Betula platyphylla and
+Discussion
+Previous investigations have predominantly relied on singular methodologies, primarily utilizing either forest resource data or satellite remote sensing for the estimation of forest above-ground biomass. However, few studies have integrated multiple data sources (including forest resource data, field surveys, and remote sensing imagery) to precisely calculate biomass. Furthermore, past research has typically focused on either forest carbon stock or emissions of plant BVOCs separately. Yet, due
+Conclusions
+In general, this study combined field measurement with multi-source satellite remote sensing image data to construct an optimal biomass model of six typical pure forest tree species in Beijing. Among these species, the best fitting model including Robinia pseudoacacia, Quercus Linn, Populus tomentosa, Pinus tabulaeformis and Larix gmelinii manifested as multiple linear regression model,while the best fitting model for Betula platyphylla was random forest model. The established biomass models
+Data availability
+The authors do not have permission to share data.
+Uncited references
+Drusch et al., 2012, Baig et al., 2014, Liu et al., 2015, Næsset et al., 2011, Radočaj et al., 2023, Su et al., 2018, Cao et al., 2020, Wang et al., 2011, Wang et al., 2014, Xu et al., 2022, Zimbres et al., 2021.
+CRediT authorship contribution statement
+Luxi Wang: Writing – review & editing, Data curation. Xuan Wang: Writing – original draft, Methodology, Investigation, Conceptualization. Xiaoxiu Lun: Writing – review & editing, Validation. Qiang Wang: Supervision, Software. Yanshan Gao: Validation.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+This work was supported by the National Natural Science Foundation of China (No. 42077454), Xiong'an New Area Science and Technology Innovation Project (2022XACX1000), and the 5·5 Engineering Research & Innovation Team Project of Beijing Forestry University (No: BLRC2023B04).
+Reference (64)
+H. Chen et al.
+Decomposition and prediction of China's carbon emission intensity towards carbon neutrality: from perspectives of national, regional and sectoral level
+Sci. Total Environ.
+(2022)
+J. Chen et al.
+Environmental and physiological controls on diurnal and seasonal patterns of biogenic volatile organic compound emissions from five dominant woody species under field conditions
+Environ. Pollut.
+(2020)
+M. Drusch et al.
+Sentinel-2: eSA's optical high-resolution mission for GMES operational services
+Remote Sens. Environ.
+(2012)
+P.G. Kanellopoulos et al.
+Primary and secondary organic aerosol in an urban/industrial site: sources, health implications and the role of plastic enriched waste burning
+J. Environ. Sci.
+(2021)
+L. Li et al.
+Spatio-temporal variation of biogenic volatile organic compounds emissions in China
+Environ. Pollut.
+(2013)
+L. Li et al.
+Estimations and uncertainty of biogenic volatile organic compound emission inventory in China for 2008–2018
+Sci. Total Environ.
+(2020)
+L. Liu et al.
+Biogenic volatile organic compound emission patterns and secondary pollutant formation potentials of dominant greening trees in Chengdu, southwest
+China. J. Environ. Sci.
+(2022)
+X. Lun et al.
+Reviews of emission of biogenic volatile organic compounds (BVOCs) in Asia
+J. Environ. Sci.
+(2020)
+S. Luo et al.
+Retrieving aboveground biomass of wetland Phragmites australis (common reed) using a combination of airborne discrete-return LiDAR and hyperspectral data
+Int. J. Appl. Earth Obs. Geoinf.
+(2017)
+E. Næsset et al.
+Model-assisted regional forest biomass estimation using LiDAR and InSAR as auxiliary data: a case study from a boreal forest area
+Remote Sens. Environ.
+(2011)
+View more references
+Cited by (0)
+#
+These two authors contributed equally to this work.
+View full text
+© 2024 The Research Center for Eco-Environmental Sciences, Chinese Academy of Sciences. Published by Elsevier B.V.
+Recommended articles
+Anthropogenic emission controls organic aerosols at Gosan background site in the outflow from northeast Asia
+Science of The Total Environment, Volume 910, 2024, Article 168590
+Md. Mozammel Haque, …, Kimitaka Kawamura
+How to utilize syllable distribution patterns as the input of LSTM for Korean morphological analysis
+Pattern Recognition Letters, Volume 120, 2019, pp. 39-45
+Hyemin Kim, …, Youngjoong Ko
+Is it possible to implement a complex adaptive systems approach for marine systems? The experience of Italy and the Adriatic Sea
+Ocean & Coastal Management, Volume 149, 2017, pp. 81-95
+Emanuele Bigagli
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

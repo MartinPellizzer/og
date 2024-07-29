@@ -1,0 +1,81 @@
+Loading [MathJax]/extensions/MathEvents.js
+IEEE.org
+IEEE Xplore
+IEEE SA
+IEEE Spectrum
+More Sites
+Subscribe
+Donate
+Cart
+Create Account
+Personal Sign In
+Browse
+My Settings
+Help
+Institutional Sign In
+All
+Books
+Conferences
+Courses
+Journals & Magazines
+Standards
+Authors
+Citations
+ADVANCED SEARCH
+Journals & Magazines >IEEE Journal of Selected Topi... >Volume: 17
+NO2 Air Pollution Trends and Settlement Growth in Megacities
+Publisher: IEEE
+Cite This
+PDF
+Thilo Erbertseder; Hannes Taubenböck; Thomas Esch; Lorenza Gilardi; Heiko Paeth
+All Authors
+23
+Full
+Text Views
+Open Access
+Under a Creative Commons License
+Abstract
+Document Sections
+I.
+Introduction
+II.
+Study Area and Data
+III.
+Methodology
+IV.
+Results
+V.
+Discussion
+Show Full Outline
+Authors
+Figures
+References
+Keywords
+Metrics
+Footnotes
+Abstract:
+Megacities exert substantial demands on the world's energy resources, thereby producing large shares of atmospheric emissions and air pollution. Despite several studies on nitrogen dioxide (NO 2 ) changes in megacities, a systematic analysis in relation to settlement growth is still pending. This study examines the trends of tropospheric NO 2 pollution in 38 megacities regarding settlement growth by analyzing Earth Observation data. Multiannual records of tropospheric NO 2 from Global Ozone Monitoring Experiment (GOME), Scanning Imaging Absorption Spectrometer for Atmospheric Chartography, GOME-2A, and GOME-2B are evaluated regarding the World Settlement Footprint evolution from 1996 to 2015. Compared to previous studies, this work strictly uses remote sensing data and the spatial concept of functional urban areas. Therefore, uncertainties due to inconsistent spatial references, incomparable administrative units, as well as heterogeneously reported local data are widely excluded to enable an appropriate comparison of megacities across the globe. On average, we observe an increase in tropospheric NO 2 burden of 5.06 ± 0.83%/year and a relative settlement growth of 2.87%/year for the time period considered. We find a wide range of trends: relative NO 2 pollution ranges from an increase of 44.0 ± 5.9%/year to a decrease of −3.2 ± 0.2%/year, settlement growth rates vary from 0.3%/year to 9.5%/year. Despite this variety, the results exhibit a pronounced relation to the income group following the world's economies classification of the World Bank. Complemented by a cluster analysis and ranking of the megacities, the study provides indicators to develop a better understanding of the drivers and impacts of urbanization and air pollution.
+Published in: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing ( Volume: 17)
+Page(s): 12058 - 12076
+Date of Publication: 26 June 2024
+ISSN Information:
+DOI: 10.1109/JSTARS.2024.3419573
+Publisher: IEEE
+Funding Agency:
+CCBY - IEEE is not the copyright holder of this material. Please follow the instructions via https://creativecommons.org/licenses/by/4.0/ to obtain full-text articles and stipulations in the API documentation.
+SECTION I.
+Introduction
+According to the World Health Organization (WHO), air pollution is now considered the largest single environmental health risk [1]. Humans are exposed daily to a variety of environmental stressors, such as nitrogen dioxide (NO2), ozone (O3), and particulate matter (PM), to name a few. These can lead to a wide spectrum of adverse health effects ranging from cardiovascular, respiratory, and metabolic diseases to susceptibility to infectious diseases, such as influenza or COVID-19 [2], [3], [4], [5]. A recent study showed that an average of 2.9 years of life expectancy is lost worldwide due to (outdoor) air pollution [6]. Around 99% of the global population is exposed to air pollutant levels that exceed the WHO guideline limits, with low- and middle-income countries suffering from the highest exposures [1].
+Although air pollution is a challenge of global importance, exposure to air pollutants is predominantly an urban threat [2]. Urban areas across the globe account for less than 2% of the land surface only; however, they have always been spatial focal points of air pollution and resource needs as they consume two-thirds of the global energy with a majority of fossil fuels [7].
+The rise in the world's urban population over the past few decades has led to an increase in the number of megacities, generally defined as cities with a population of greater than 10 million [8]. As such, megacities have become global centers of population growth, settlement growth, production, energy demand, and as a consequence emission of greenhouse gases, air pollutants, and their precursor substances [9]. As these cities continue to grow [10], emissions are a concern, not only for local air quality but also for regional and continental scales and even for global climate, due to interactions with processes linked to climate change, such as radiative forcing [11], [12]. Evaluating past air pollutant trends in urban areas gives insight into the effectiveness of previous and current policies to curb emissions and control these levels, and possibly supports measures for future policies [13].
+This study focuses on the air pollutant NO2 as it can be attributed mainly to anthropogenic combustion processes associated with transport, industry, energy production, and heating [9]. Due to its short lifetime in the lowermost troposphere during daytime (2–8 h), it predominantly remains at the emission sources and its amount is sensitive to emission changes [14], [15]. NO2 is a regulated air pollutant and directives demand routine monitoring by ground-based stations in ambient air. However, the global availability of these measurements is heterogenous, the spatial representativity of point measurements for large urban landscapes is limited, and such data is often scarce in the Global South. Since 1995, space-based observation of the tropospheric composition has enabled operational daily monitoring of NO2 levels on a global scale [16]. Contrary to in-situ measurements, space-based observations are gathered homogeneously with the same instrument and are sampled on a consistent and spatially integrating grid [17]. However, these differ from in-situ measurements at ground level as they yield indirect measurements of vertically integrated quantities, such as tropospheric NO2 column densities [18], [19].
+Due to the short lifetime of NO2 and its predominantly human origin from combustion processes, as outlined above, tropospheric NO2 constitutes an invaluable tracer to examine the anthropogenic footprint in the troposphere as well as human activity in different geographic perspectives and scales [17], [20], [21], [22]. Since natural contributions to the tropospheric NO2 burden are small and are confined to lightning [23] and microbial processes in soils [24], it has been used to delineate urban pollution islands and pollution hotspots [20], [22], [25] and to reveal weekly cycles reflecting anthropogenic activity patterns in urban environments [21], [26], [27]. Furthermore, tropospheric NO2 column densities have been extensively used to infer NOx emissions, see, e.g., [15], [28], [29], and [30].
+Several satellite-based studies analyzed NO2 changes and trends in selected regions or megacities by examining multiannual records from a single sensor or a multisensor approach. In the first study, Richter et al. [31] performed a linear regression of tropospheric NO2 annual means from the Global Ozone Monitoring Experiment (GOME) [16] for several regions in the world. A detailed analysis on NO2 trends over China combining data from GOME and the SCanning Imaging Absorption spectroMeter for Atmospheric ChartographY (SCIAMACHY) [32] was published by van der A et al. [33]. They used the time series analysis approach of Weatherhead et al. [34] in a simplified way to detect trends in monthly mean data and to examine their significance. For a selection of megacities and urban agglomerations, NO2 trends were derived from single-sensor data records using the same time series analysis method by Schneider and van der A [35] and Schneider et al. [36], while Konovalov et al. [37] applied a nonlinear trend fitting and Geddes et al. [38] used least-squares linear regression. Finally, the combination of data records from different sensors enabled the generation of longer times series and the detection of robust trends [39] and even trend reversals [40].
+However, the derived trends in all these studies have so far neither been related to consistent spatial units like functional [41] or morphological urban areas [42], nor sufficiently to socioeconomic status or demographic parameters. This limits the interpretation of the findings and the reliability of a global comparison of cities. In previous studies, the derived trends are often related to a city or megacity, but no transparent spatial delineation is defined [39], [40]. Whether the observed mean or trend refers solely to the city center or to a grid cell covering the urban area and its surroundings becomes increasingly important as cities grow in size. It is inevitable to define a spatial unit for geographic comparisons, in particular, for such large agglomerations, such as megacities or megaregions [17], [43]. In addition, interpreting trends alone might result in ambiguous conclusions. On the one hand, a decreasing trend in NO2 could result from a decline in population or traffic, reduced production or wealth. On the other hand, it could result from a transition to a green economy or energy and the implementation of new measures mitigating emissions like the introduction of new filtering techniques or electromobility, to name a few. Beyond that, population numbers or the gross domestic product (GDP) generally refer to administrative units leading to inconsistent spatial delineations of cities introducing bias in comparisons across cities [42]. In addition, they strongly vary in quality depending on the country and result in heterogenous datasets for comparisons of cities across the globe. As such, these numbers, concepts, and findings are prone to large uncertainties.
+Therefore, a global objective and consistent measure from Earth Observation (EO) data are required. The World Settlement Footprint (WSF) [44] is derived from satellite data and exhibits an objective and multitemporal estimate of settlement growth that is considered a proxy for urbanization and economic development in this work. EO has proven to be an effective instrument, in particular, with respect to large-scale mapping of human settlements, such as megacities at continental and global scales [10], [45]. The WSF evolution [46] that is available yearly from 1985 to 2015 provides an essential component to develop a better understanding of the drivers and impacts of urbanization and air pollution [47]. A first attempt to link the settlement footprint to NO2 trends was made by Erbertseder et al. [48].
+Against this background, this study centers on a systematic analysis of 38 megacities across the globe in relation to NO2 pollution trends and settlement growth from 1996 to 2015. The study purely relies on satellite-based EO data. To overcome the problem of missing and heterogeneously defined spatial units, these data are rigorously analyzed with respect to functional urban areas (FUA) that provide a delineation of the cities based on principles of urban economics [41]. Furthermore, the results are ranked, classified, and interpreted regarding the income groups according to the world's economies classification of the World Bank [49]. The study aims at drawing overarching conclusions concerning the full spectrum of megacities, encompassing aspects, such as anthropogenic pollution and settlement growth, serving as a proxy for both urbanization and economic development. In addition, it will facilitate an analysis of their transformative stages, including transitions toward environmental sustainability (green transition), and their position within the global economic landscape.
+The rest of this article is organized as follows. Section II describes the study area and the datasets used, followed by Section III outlining the methodology. Sections IV and V present the results and discussion including strengths, limitations, and perspectives of the work. Finally, Section VI concludes this article.
+SECTION II.
+Study Area and Data
+A. Functional Urban Areas
+Instead of conventional, but heterogeneously defined administrative city units or arbitrarily chosen grid cells or geographic domains, we apply the concept of FUAs. This approach enables us to consistently delineate megacity areas and megaregions against their rural surroundings and to define their spatial extent and urban pollution island. An FUA is defined by aspects of urban economics and consists of a city and its commuting zone, where the latter represents the area of influence of the city in terms of labor market flows. The Organization for Economic Co-operation and Development defines an FUA as the union of the administrative units in which at least 15% of the population is commuting to the main urban center of the area. To improve international comparability of urban-related statistics and indicators with an explicit spatial dimension, this method was developed further to estimate the number and extent of FUAs worldwide based on objective characteristics [41]. The improved method does neither rely on information on local unit boundaries nor data on commuting flows, which are usually unavailable in most countries. The FUAs are estimated through an automated classification procedure based on uniformly measurable parameters, such as travel time from urban centers, area of urban centers, local population, and country GDP per capita. These classification results are available as the Global Human Settlement Functional Urban

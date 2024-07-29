@@ -1,0 +1,185 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We also use optional cookies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to the processing of your personal data - including transfers to third parties. Some third parties are outside of the European Economic Area, with varying standards of data protection.
+See our privacy policy for more information on the use of your personal data.
+Manage preferences for further information and to change your choices.
+Accept all cookies
+Reject optional cookies
+Skip to main content
+Advertisement
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Advances in Artificial Intelligence Conference paper
+Ground-Level Ozone Forecasting Using Explainable Machine Learning
+Conference paper
+First Online: 12 June 2024
+pp 71–80
+Cite this conference paper
+Advances in Artificial Intelligence
+(CAEPIA 2024)
+Angela Robledo Troncoso-García
+, Manuel Jesús Jiménez-Navarro
+, Francisco Martínez-Álvarez
+& Alicia Troncoso
+  Part of the book series: Lecture Notes in Computer Science ((LNAI,volume 14640))
+Included in the following conference series:
+Conference of the Spanish Association for Artificial Intelligence
+169 Accesses
+Abstract
+The ozone concentration at ground level is a pivotal indicator of air quality, as elevated ozone levels can lead to adverse effects on the environment. In this study various machine learning models for ground-level ozone forecasting are optimised using a Bayesian technique. Predictions are obtained 24 h in advance using historical ozone data and related environmental variables, including meteorological measurements and other air quality indicators. The results indicated that the Extra Trees model emerges as the optimal solution, showcasing competitive performance alongside reasonable training times. Furthermore, an explainable artificial intelligence technique is applied to enhance the interpretability of model predictions, providing insights into the contribution of input features to the predictions computed by the model. The features identified as important, namely \(PM_{10}\), air temperature and \(CO_2\) concentration, are validated as key factors in the literature to forecast ground-level ozone concentration.
+This is a preview of subscription content, log in via an institution to check access.
+References
+Hashim, B.M., Al-Naseri, S.K., Al-Maliki, A., Al-Ansari, N.: Impact of COVID-19 lockdown on NO2, O3, PM2.5 and PM10 concentrations and assessing air quality changes in Baghdad, Iraq. Sci. Total Environ. 754, 141978 (2021)
+Google Scholar
+  Yafouz, A., Ahmed, A.N., Zaini, N.A., El-Shafie, A.: \(O_3\) concentration forecasting based on artificial intelligence techniques: a systematic review. Water Air Soil Pollut. 232, 1–29 (2021)
+Article
+  Google Scholar
+  Fan, K., Dhammapala, R., Harrington, K., Lamastro, R., Lamb, B., Lee, Y.: Development of a machine learning approach for local-scale \(O_3\) forecasting: application to Kennewick, WA. Front. Big Data 5, 781309 (2022)
+Article
+  Google Scholar
+  Damon, J., Guillas, S.: The inclusion of exogenous variables in functional autoregressive \(O_3\) forecasting. Environmetrics 13(7), 759–774 (2002)
+Article
+  Google Scholar
+  Gradišar, D., Grašič, B., Božnar, M.Z., Mlakar, P., Kocijan, J.: Improving of local ozone forecasting by integrated models. Environ. Sci. Pollut. Res. 23, 18439–18450 (2016)
+Article
+  Google Scholar
+  Cobourn, W.G., Dolcine, L., French, M., Hubbard, M.C.: A comparison of nonlinear regression and neural network models for ground-level \(O_3\) forecasting. J. Air Waste Manag. Assoc. 50(11), 1999–2009 (2000)
+Article
+  Google Scholar
+  Oliveira Santos, V., Costa Rocha, P.A., Scott, J., Van Griensven Thé, J., Gharabaghi, B.: Spatiotemporal air pollution forecasting in houston-TX: a case study for \(O_3\) using deep graph neural networks. Atmosphere 14(2), 308 (2023)
+Article
+  Google Scholar
+  Sun, H., et al.: Improvement of PM\(_{2.5}\) and \(O_3\) forecasting by integration of 3D numerical simulation with deep learning techniques. Sustain. Cities Soc. 75, 103372 (2021)
+Google Scholar
+  Palaniyappan Velumani, R., Xia, M., Han, J., Wang, C., Lau, A.K., Qu, H.: AQX: explaining air quality forecast for verifying domain knowledge using feature importance visualization. In: 27th International Conference on Intelligent User Interfaces, pp. 720–733 (2022)
+Google Scholar
+  Troncoso-García, A.R., Brito, I.S., Troncoso, A., Martínez-Álvarez, F.: Explainable hybrid deep learning and Coronavirus Optimization Algorithm for improving evapotranspiration forecasting. Comput. Electron. Agric. 215, 108387 (2023)
+Article
+  Google Scholar
+  Troncoso-García, A.R., Troncoso, A., Martínez-Ballesteros, M., Martínez-Álvarez, F.: Evolutionary computation to explain deep learning models for time series forecasting. In: Proceedings of the ACM/SIGAPP Symposium on Applied Computing, pp. 433–436 (2023)
+Google Scholar
+  Martínez-Ballesteros, M., Troncoso, A., Martínez-Álvarez, F., Riquelme, J.C.: Improving a multi-objective evolutionary algorithm to discover quantitative association rules. Knowl. Inf. Syst. 49, 481–509 (2016)
+Article
+  Google Scholar
+  Troncoso-García, A.R., Martínez-Ballesteros, M., Martínez-Álvarez, F., Troncoso, A.: A new approach based on association rules to add explainability to time series forecasting models. Inf. Fusion 94, 169–180 (2023)
+Article
+  Google Scholar
+  Gómez-Losada, A., Asencio-Cortés, G., Martínez-Álvarez, F., Riquelme, J.C.: A novel approach to forecast urban surface-level ozone considering heterogeneous locations and limited information. Environ. Model. Softw. 110, 52–61 (2018)
+Article
+  Google Scholar
+  Anav, A., et al.: Legislative and functional aspects of different metrics used for \(O_3\) risk assessment to forests. Environ. Pollut. 295, 118690 (2022)
+Article
+  Google Scholar
+  Download references
+Acknowledgements
+The authors would like to thank the Spanish Ministry of Science and Innovation for the support within the projects PID2020-117954RB-C21 and TED2021-131311B-C22.
+Author information
+Authors and Affiliations
+Data Science and Big Data Lab, Pablo de Olavide University, 41013, Sevilla, Spain
+Angela Robledo Troncoso-García, Francisco Martínez-Álvarez & Alicia Troncoso
+Department of Computer Science, University of Seville, 41012, Sevilla, Spain
+Manuel Jesús Jiménez-Navarro
+Corresponding author
+Correspondence to Angela Robledo Troncoso-García .
+Editor information
+Editors and Affiliations
+University of A Coruña, A Coruña, La Coruña, Spain
+Amparo Alonso-Betanzos
+University of A Coruña, A Coruña, La Coruña, Spain
+Bertha Guijarro-Berdiñas
+University of A Coruña, A Coruña, La Coruña, Spain
+Verónica Bolón-Canedo
+University of A Coruña, A Coruña, Spain
+Elena Hernández-Pereira
+University of A Coruña, A Coruña, Spain
+Oscar Fontenla-Romero
+Technical University of Madrid, Madrid, Spain
+David Camacho
+University of A Coruña, A Coruña, Spain
+Juan Ramón Rabuñal
+University of Malaga, Malaga, Spain
+Manuel Ojeda-Aciego
+University of Cádiz, Cádiz, Spain
+Jesús Medina
+University of Seville, Seville, Spain
+José C. Riquelme
+Pablo de Olavide University, Seville, Spain
+Alicia Troncoso
+Rights and permissions
+Reprints and permissions
+Copyright information
+© 2024 The Author(s), under exclusive license to Springer Nature Switzerland AG
+About this paper
+Cite this paper
+Troncoso-García, A.R., Jiménez-Navarro, M.J., Martínez-Álvarez, F., Troncoso, A. (2024). Ground-Level Ozone Forecasting Using Explainable Machine Learning. In: Alonso-Betanzos, A., et al. Advances in Artificial Intelligence. CAEPIA 2024. Lecture Notes in Computer Science(), vol 14640. Springer, Cham. https://doi.org/10.1007/978-3-031-62799-6_8
+Download citation
+.RIS.ENW.BIB
+DOI
+https://doi.org/10.1007/978-3-031-62799-6_8
+Published
+12 June 2024
+Publisher Name
+Springer, Cham
+Print ISBN
+978-3-031-62798-9
+Online ISBN
+978-3-031-62799-6
+eBook Packages
+Computer Science
+Computer Science (R0)
+Publish with us
+Policies and ethics
+Access this chapter
+Log in via an institution
+Chapter
+EUR 29.95
+Price includes VAT (Italy)
+Available as PDF
+Read on any device
+Instant download
+Own it forever
+Buy Chapter
+eBook
+EUR 49.64
+Softcover Book
+EUR 60.31
+Tax calculation will be finalised at checkout
+Purchases are for personal use only
+Institutional subscriptions
+Sections
+References
+Abstract
+References
+Acknowledgements
+Author information
+Editor information
+Rights and permissions
+Copyright information
+About this paper
+Publish with us
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.72.143
+Not affiliated
+© 2024 Springer Nature

@@ -1,0 +1,394 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to nature.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+View all journals
+Search
+Log in
+Explore content
+About the journal
+Publish with us
+Sign up for alerts
+RSS feed
+nature nature medicine articles article
+Article
+Open access
+Published: 03 June 2024
+Geographic sources of ozone air pollution and mortality burden in Europe
+Hicham Achebak
+, Roger Garatachea
+, María Teresa Pay, Oriol Jorba, Marc Guevara, Carlos Pérez García-Pando
+& Joan Ballester
+  Nature Medicine
+ 30, 
+1732–1738 (2024)Cite this article
+3626 Accesses
+171 Altmetric
+Metrics
+Abstract
+Ground-level ozone (O3) is a harmful air pollutant formed in the atmosphere by the interaction between sunlight and precursor gases. Exposure to current O3 levels in Europe is a major source of premature mortality from air pollution. However, mitigation actions have been mainly designed and implemented at the national and regional scales, lacking a comprehensive assessment of the geographic sources of O3 pollution and its associated health impacts. Here we quantify both national and imported contributions to O3 and their related mortality burden across 813 contiguous regions in 35 European countries, representing about 530 million people. Imported O3 contributed to 88.3% of all O3-attributable deaths (intercountry range 83–100%). The greatest share of imported O3 had its origins outside the study domain (that is, hemispheric sources), which was responsible for 56.7% of total O3-attributable mortality (range 42.5–87.2%). It was concluded that achieving the air-quality guidelines set out by the World Health Organization and avoiding the health impacts of O3 require not only the implementation of national or coordinated pan-European actions but also global strategies.
+Similar content being viewed by others
+Global fine-scale changes in ambient NO2 during COVID-19 lockdowns
+Article Open access
+19 January 2022
+Comprehensive analysis of long-term trends, meteorological influences, and ozone formation sensitivity in the Jakarta Greater Area
+Article Open access
+26 April 2024
+Sustained emission reductions have restrained the ozone pollution over China
+Article 28 September 2023
+Main
+Ground-level ozone (O3) is a harmful air pollutant formed in the troposphere by the interaction between sunlight and precursor gases, mainly nitrogen oxides (NOx) and volatile organic compounds (VOCs), from natural and anthropogenic sources. High ambient O3 levels are observed especially during the warm season, and these are associated with a range of adverse respiratory health outcomes such as aggravation of asthma, chronic obstructive pulmonary disease, lower lung function and infections, leading in the most severe cases to hospitalization and death1,2,3.
+Exposure to current O3 levels in Europe is a major source of premature mortality from air pollution, especially in summer, and its impact has increased over time due to the effect of rising temperatures on O3 concentrations4,5. However, according to the European Environmental Agency (EEA)4, >95% of the population in Europe remains exposed to O3 levels that exceed the air-quality guidelines (daily maximum 8-h average of 100 µg m−3) set out by the World Health Organization (WHO)6, within the context of accelerated urbanization and demographic aging that increases the background health risks of exposed populations.
+The health impacts of O3, and generally of any air pollutant, are, however, far from being a local issue7,8. O3 concentrations in a given location greatly depend on the tropospheric transport of the pollutant itself, or that of its precursors, from far-distant sources9,10. For instance, a study11 in south-western Europe showed that imported O3 is the largest contributor to ground-level O3 concentrations, accounting for 46–68% of daily surface levels. This emphasizes the need for coordinated actions among countries to reduce O3 concentrations and health impacts, given that no effective strategy may be developed without international agreement on air pollution reduction.
+Several studies have estimated the mortality burden attributable to tropospheric O3 in different settings2,12,13,14, but a continent-wide assessment of the contribution of O3 pollution by geographical source is still lacking. In the present study we quantify the health impacts of transboundary-transported O3 (daily maximum 8-h average) in Europe. Our focus is on the transboundary health effects of O3 due to its ability to persist over long distances in the free troposphere during transport, in contrast to its precursors such as NO2 that have shorter lifetimes. This health impact assessment integrates air-quality modeling as a source-apportionment method and exposure–response associations characterizing the effects of O3 on human mortality as a starting point for the development of a coordinated agenda to effectively minimize the health effects of air pollution over the continent.
+Results
+Descriptive statistics
+The results of this Europe-wide study are presented at both the national (35 countries) and subnational (813 regions) level. The average concentration of O3 across countries and the study period was 101.9 μg m−3, ranging from 76.7 μg m−3 in Finland to 130.1 μg m−3 in Malta (Supplementary Table 1). As expected, the spatial distribution of O3 is found to be latitudinally oriented, with concentrations decreasing northwards, given that the warmer temperatures in the south favor the formation of O3, especially in summer (Fig. 1a). The estimated number of deaths attributable to O3 over the entire European domain during the warm seasons of 2015–2017 was 114,447 (95% empirical confidence interval (eCI) 76,539–152,108), resulting in an attributable mortality rate of 72.0 (95% eCI 48.1–95.6) annual deaths per 1 million inhabitants. The highest mortality burdens are estimated for those countries with the largest populations (Germany, Italy, France, the UK, Spain and Poland; Supplementary Table 2) whereas the highest mortality rates were in the south-eastern countries (Bulgaria, Serbia, Croatia, Hungary, Greece and Romania; Fig. 1b and Supplementary Table 3).
+Fig. 1: O3 levels and associated mortality during the warm season (May–September), 2015–2017.
+a, Average daily mean 8-h maximum O3 (µg m−3). b, Mortality (annual deaths per 1 million population) attributable to O3. a,b, Histograms depict both the color legend and the number of regions for each value.
+Full size image
+O3 levels and associated premature mortality
+Figure 2 and Supplementary Tables 1 and 2 show the contribution to O3 concentrations and attributable deaths for each country analyzed according to the source of origin of O3 and its precursor emissions: (1) national, (2) the 34 other European countries, (3) other countries inside the study domain, (4) ocean and sea inside the study domain and (5) outside the study domain (that is, hemispheric sources). Imported (that is, non-national) O3 is associated with 88.3% of all attributable deaths, ranging from 83.0% in Italy to 100% in Liechtenstein. The greatest share of transported O3 had its origin outside the study domain, which was associated with 56.7% of total attributable mortality, ranging from 42.5% in Malta to 87.2% in Iceland. Moreover, imported O3 from the 34 other European countries also had a substantial attributable mortality impact (20.9%; intercountry range 5.1–40.0%) across the countries analyzed, whereas maritime transport contribution (7.2%; range 0–24.1%) was noticeable in smaller southern European countries such as Malta (24.1%) and Cyprus (14.0%). Results for the 813 regions are additionally provided in Supplementary Tables 4–6.
+Fig. 2: O3 levels and associated mortality according to O3 emission sources in 35 European countries, 2015–2017.
+a, Average daily mean 8-h maximum O3 (µg m−3). b, Mortality attributable to O3 (annual deaths per 1 million population). Horizontal bars represent 95% eCI of overall O3-attributable mortality (that is, the sum of the five contribution sources).
+Full size image
+Country-to-country O3-attributable mortality contribution
+The matrix of attributable mortality due to imported–exported O3 among the 35 European countries included in the analysis is depicted in Fig. 3. The most industrialized and populated countries are the major contributors to mortality attributable to transported transboundary O3, especially France (4,003 deaths during the warm season (May–September) of 2015–2017) and Germany (3,260 deaths). For instance, O3 originating from France has a substantial impact on mortality in neighboring countries including Luxembourg (32.3% of O3-attributable deaths), Switzerland (29.3%), Belgium (24.4%), Liechtenstein (20.2%), Spain (16.8%) and Germany (16.3%). O3 originating from Germany also substantially impacts mortality in neighboring countries including Luxembourg (24.2% of deaths), the Czech Republic (Czechia, 23.3%), the Netherlands (21.5%), Denmark (20.3%), Austria (19.9%), Belgium (17.8%) and Poland (17.2%).
+Fig. 3: Country-to-country O3-attributable mortality contribution in Europe, 2015–2017.
+Each grid cell of the matrix shows the AF (%) in a country (row) due to O3 produced in another country (column). The diagonal represents mortality caused by national (that is, non-imported) O3. The number of attributable deaths that occurred in each country is shown on the right, and thus the sum of the grid cells in a row is always equal to 100% while the number of attributable deaths caused by each county is shown at the top. Country abbreviations used here are given in Methods.
+Full size image
+Figure 4 shows regional maps of mortality caused by the major exporting countries, namely Germany, France, the UK, Italy, Spain and Poland. These maps emphasize the importance of the prevailing large-scale winds in the mid-latitudes (that is, the westerlies), which characterize an eastward plume of deaths attributable to transboundary-transported O3. Consequently, the south-western European countries are less affected by the health effects of transboundary-transported O3. Thus Spain (53.7%), France (47.1%) and Portugal (46.2%) are the countries with the largest attributable mortality due to national O3 production (Fig. 3) and the smallest imported:exported ratio of attributable deaths (Fig. 5).
+Fig. 4: O3-attributable mortality caused by major O3 precursor-emitting countries, 2015–2017.
+a–f, Estimates are expressed as annual deaths per 1 million population: Germany (a); France (b); UK (c); Italy (d); Spain (e); and Poland (f).
+Full size image
+Fig. 5: Ratio of national to imported O3-attributable deaths, 2015–2017.
+The histogram depicts both the color legend and the number of regions for each ratio, with a large number of regions where imported O3 deaths predominated over those nationally generated. The imported fraction refers to imports from the 34 other European countries.
+Full size image
+Sensitivity analysis
+The mortality estimates reported are based on the whole range of O3 exposures. We performed a sensitivity analysis to evaluate the effect of a safe threshold at 70 µg m−3, in which (1) the exposure–response function between O3 and mortality was centered at 70 µg m−3 and (2) days when O3 concentrations were <70 µg m−3 were excluded (that is, days <70 µg m−3 are not harmful and health effects start to increase log-linearly beyond this threshold). Specifically, the number of deaths was reduced by a factor of nearly three, resulting in 36,523 (95% eCI 24,382–48,633) attributable deaths during the warm months (May–September) of 2015–2017 or, in other words, 23.0 (95% eCI 15.3–30.6) annual deaths per 1 million inhabitants (Extended Data Fig. 1). However, the apportionment of mortality according to O3-attributed sources (that is, countries) changed minimally (Extended Data Figs. 2 and 3).
+Discussion
+This study presents an integrated, continent-wide analysis of mortality burden due to transported transboundary O3 in Europe. We found that only a small fraction of O3-attributable deaths was due to national sources (11.7%). The largest mortality burden was, instead, associated with hemispheric O3 transported from outside the European domain (56.7%). Moreover, the contribution of other European countries to each of the countries analyzed also had a substantial impact on mortality (20.9%). In some coastal regions and smaller countries in the Mediterranean, the contribution of maritime emissions on mortality was considerable.
+The findings of our study have implications for air-quality and public health policies across Europe. Thus far, mitigation efforts have primarily focused on national and regional scales, lacking a comprehensive, transboundary assessment of pollution sources and their associated mortality. Future research should refine the present study by analyzing the contribution to mortality of the different economic sectors or activities, by country, to transported transboundary O3 (for example, energy, industry, transportation, residential and agriculture). This characterization of health impacts by type of emission would shed additional light on the interventions required in key strategic economic sectors to improve air quality and drive new health policies, which would need to be designed and implemented at the EU level and beyond in light of our results. The contribution of maritime emissions to O3 levels and associated attributable mortality in Mediterranean countries such as Malta, Greece and Cyprus, where their contribution is similar to or even larger than national contributions, indicates the need to implement a nitrogen emission control area to help reduce NOx emissions, as previously done in the North Sea and Baltic Sea15. Given the large non-national contributions to average O3 in each location, our results should not be interpreted by local air-quality authorities as a justification for local inaction. Typically, during the highest O3 episodes, local contributions to O3 can increase substantially and local mitigation actions can contribute considerably to the reduction in instances where the 120 μg m−3 daily 8-h maximum target value and 180 μg m−3 hourly information threshold set by the EU Air Quality Directive have been exceeded16. In addition, local mitigation strategies are the key towards reducing the export of O3 to other regions and countries.
+The present study highlights the need for a systematic quantification of national and remote contributions to air pollution concentrations, and their associated health impacts, as an essential step before the elaboration of mitigation plans, especially in regard to air pollutants such as O3 that are easily transported across borders. Our methodology allowed us to determine that the abatement strategies used to reduce O3 pollution, and the related health impacts, are to a large degree compromised by the long-range atmospheric transport of O3 and, in particular, hemispheric contributions. Nonetheless, in a globalized economy some of the imported pollution, and thus related mortality burden, has its origin in highly industrialized areas in Asia or North America. These goods and services, which are produced remotely but consumed in Europe, would need to be imputed to the respective European countries if we also accounted for the net import–export balance of goods, and not only that of air pollution concentrations7,8. Our study findings would help to implement coordinated pan-European and global strategies and thus achieve the air-quality guidelines of the WHO6 to avoid premature deaths and other health impacts such as hospitalizations and chronic diseases.
+In this study we estimated a much higher premature mortality burden from O3 than that carried out by the EEA for the 35 countries analyzed. For example, in 2015 the EEA17 quantified an average of 32.6 deaths per 1 million population using annual data and assuming a higher mortality risk per 1 µg m−3 increase in O3. Instead, our study, based on warm-season data only (May–September), and assuming a lower mortality risk value, elevated this number to 74.5 deaths per 1 million inhabitants. This difference may, in part, be due to the fact that the EEA does not account for the potential health effects of ambient O3 <70 μg m−3, because when we adopt this assumption in our analysis we estimate a lower O3-attributable mortality rate (25.3 deaths per 1 million) than that reported by the EEA (32.6 deaths per 1 million). However, given that the current scientific evidence is insufficient to set a safe threshold (that is, a level below which O3 has no effect on mortality)2,18, the EEA data may be underestimating the actual impact of O3. Moreover, another methodological factor that might also contribute to differences in these estimates is that the EEA assumes a constant level of baseline mortality over each country while we use the actual number of deaths in each European region.
+One of the strengths of this study is the use of a unique and format-homogeneous mortality dataset for 813 contiguous regions in 35 European countries, including deaths in both urban and rural areas. The large geographical coverage and high spatial resolution of our dataset allowed detailed characterization of the effects of O3 on all-cause mortality across the whole continent. Another strength of this study is the use of a source-apportionment method to quantify the contributions of O3 from specific geographic locations.
+However, our study also had some limitations that must be acknowledged. First, its estimates consider only acute effects on mortality but the possibility of chronic effects cannot be ruled out despite the inconsistent evidence to date19,20. Second, as is common in large-scale health-impact assessments7,8,12, we assumed a fixed association between O3 and mortality for all countries, given that country- or region-specific associations were not yet available. The risk of death from O3 might, however, vary markedly between one population and another depending on underlying health, demographic and socioeconomic characteristics, which is a potential source of bias for reported estimates. Third, we did not consider the years of life lost (YLL) as an additional health outcome because our mortality data were not available according to individual age. Note that the calculation of YLL involves totaling deaths occurring at each individual age and multiplying this by the number of remaining years of life up to a selected age limit (usually life expectancy). Moreover, short-term exposure-response functions between O3 and YLL reported in the literature were based on Chinese data only and therefore they were not representative of the European context. Fourth, we were not able to estimate the economic cost associated with O3-attributable deaths. Fifth, we were not able to propagate the uncertainty of the air pollution models to health impacts21. Finally, while source-apportionment methods avoid the limitations associated with typical sensitivity analysis methods22, these are not devoid of uncertainties. Future studies may attempt to apply other source-apportionment schemes with each having its own specificities and limitations23.
+Climate warming will reinforce conditions conducive to the formation of tropospheric O3 in the future, because the photochemical mechanisms of O3 formation are favored during heatwaves and periods of high solar radiation. This is indeed the dominant factor leading to the projected increase in O3 concentrations that might aggravate the associated health impacts24. However, the effect of climate warming is not limited to O3 formation—it also influences the emissions of chemical compounds that are O3 precursors, such as VOCs of biotic origin (that is, emitted by vegetation), which could counteract the efforts devoted to the reduction of the emissions of anthropogenic NOx and VOCs. Therefore, the fight against climate change is key to improvement in air quality and, in turn, a key element to consider in future studies for the design and implementation of long-term, long-lasting policies to be discussed at the continental, hemispheric and global scales.
+In conclusion, achieving the air-quality guidelines set out by the WHO and avoiding premature deaths and other types of health impacts of O3 require not only the implementation of national or coordinated pan-European actions, but also global strategies. Quantitative approaches directly linking local health impacts to O3 contributions from different geographical regions are key to the design and implementation of such coordinated and tailored mitigation strategies.
+Methods
+To develop our methodological framework for this large-scale health-impact assessment we combined data on O3 concentrations, population numbers and mortality records, together with the exposure–response associations modeling the effects of O3 on human mortality.
+Health data
+Weekly time series of all-cause mortality counts25 for the warm season (weeks 18–39 (ISO8601)), corresponding approximately to the months May–September, together with annual population estimates26, were obtained for the period 2015–2017 from Eurostat. The mortality dataset included 6,291,008 counts of death from 813 contiguous regions (nomenclature of territorial units for statistics 1–3) representing about 530 million people in 35 countries: Albania (AL, n = 12 regions), Austria (AT, n = 35), Belgium (BE, n = 11), Bulgaria (BG, n = 28), Croatia (HR, n = 1), Cyprus (CY, n = 1), Czechia (CZ, n = 14), Denmark (DK, n = 11), Estonia (EE, n = 5), Finland (FI, n = 19), France (FR, n = 96), Germany (DE, n = 38), Greece (EL, n = 50), Hungary (HU, n = 20), Iceland (IS, n = 2), Ireland (IE, n = 8), Italy (IT, n = 107), Latvia (LV, n = 6), Liechtenstein (LI, n = 1), Lithuania (LT, n = 10), Luxembourg (LU, n = 1), Malta (MT, n = 1), Montenegro (ME, n = 1), the Netherlands (NL, n = 12), Norway (NO, n = 11), Poland (PL, n = 73), Portugal (PT, n = 23), Romania (RO, n = 42), Serbia (RS, n = 25), Slovakia (SK, n = 8), Slovenia (SI, n = 1), Spain (ES, n = 50), Sweden (SE, n = 21), Switzerland (CH, n = 26) and UK (n = 41).
+Air-quality modeling
+The modeling experiment used to track O3 and its precursor emissions is based on the CALIOPE air-quality system27,28 developed at Barcelona Supercomputing Center (BSC). The system is run at a horizontal grid of 18 km2 covering Europe and surrounding areas (Extended Data Fig. 4), and it integrates several components: the WRF-ARW (v.3.6) meteorological model29, the HERMES (v.3) anthropogenic emissions model30, the MEGAN (v.2.0.4) biogenic emissions model31 and the CMAQ (v.5.0.2) chemical transport model32. The WRF-ARW model is fed by meteorological initial and boundary conditions from ERA-Interim33 atmospheric reanalysis; the HERMES model uses regional anthropogenic emission data from CAMS-REG-AP, v.4.2 (ref. 34); and the CMAQ model takes chemical boundary conditions (reactive gases and aerosols data) from the CAMS global analysis35. The MEGAN model uses temperature and solar radiation from the WRF-ARW and specified soil emission factors, plant leaf area index and plant functional type to derive biogenic emissions.
+Source apportionment of O3
+Ozone is a secondary pollutant and currently there is a lack of observational methods available to discern its sources. However, chemical transport models, while characterized by inherent uncertainties, offer a valuable means to attribute O3 concentration contributions to specific sources, be it by activity sector (for example, traffic or industry) or geographical region. The predominant approach employed for such attribution is often referred to as the ‘brute force’ method, which involves conducting a series of simulations where individual sources are systematically reduced or deactivated, followed by a comparative analysis against a baseline simulation encompassing all sources. However, brute force is not suitable for retrieval of source contributions when the relationship between emissions and concentrations is nonlinear, as in the case of O3. A second approach involves tracking pollutants throughout their lifetime using a tagging method within the chemical transport models. This method quantifies the contribution of a sector or region to the total concentration of a pollutant while accounting for nonlinear processes and mass conservation, aspects that provide more realistic estimates compared with the brute force method. Here we used the tagging approach within a regional air-quality modeling system to quantify the contributions to ground-level O3 within 35 European countries, covering 813 contiguous regions with access to high-quality mortality data (listed above). The tagging approach tracks both O3 and its precursors (NOx and VOCs) formed or emitted in each region all the way through their life cycle in the atmosphere, including transport, chemistry and deposition. Our study primarily focused on assessment of both national and imported O3 contributions for each country. The imported contributions for each country were further classified based on their origin, including the individual contributions from the other European countries considered in the analysis, neighboring countries, maritime sources primarily associated with shipping in close proximity to the European continent, and hemispheric sources.
+The contribution to ground-level O3 (daily maximum 8-h average) from each of the 35 countries in each location was obtained using the integrated source-apportionment method implemented within CMAQ in the CALIOPE system. The CMAQ–integrated source-apportionment methodology is described in detail elsewhere36,37. The source-apportionment method used here assumes that the formation of O3 within each location is governed by either a NOx- or VOC-limited chemical regime. This entails assigning all production to the precursor that acts as the limiting factor. Depending on the regime, NOx or VOC tracers associated with each tagged source are proportionally attributed to the O3 formed, and vice versa when O3 is transformed into other species. Determination of the chemical regime that controls O3 production is made according to the ratio H2O2:HNO3, where a ratio <0.35 designates a VOC-sensitive regime, and a ratio >0.35 a NOx-sensitive regime38. The simulation domain (Extended Data Fig. 4) also includes countries other than the 35 analyzed (non-EU-35), along with ocean and sea, where both land and maritime emissions occur. The method also provides the separate contribution of these two emission sources to O3 concentrations along with the O3 contribution transported through the simulation domain boundaries, which mostly accounts for remote hemispheric O3 contributions. The modeling experiment covered the extended summer season (May–September) for the years 2015–2017, including 3 years of increases, with the robustness of our results demonstrated by their accounting for interannual variability in meteorological conditions. The selection of these 3 years is limited to the availability of a consistent regional emission inventory (CAMS-REG-AP, v.4.2). CAMS-REG-AP, v.4.2 is primarily based on official national inventories reported with a 2-year time lag. The lagged reporting deadlines, together with the time needed to produce the CAMS-REG-AP inventory, implies that the final product typically presents a time lag of 3–4 years from the present time. The contribution of the 35 countries to total NOx and VOC anthropogenic emissions during the years 2015–2017 has remained consistent when compared with more recent years (2018–2021), and therefore the selected years can be considered representative of more recent emission shares when modeling imported and national O3 contributions by country (Extended Data Fig. 5).
+Statistical analysis
+Health-impact assessment
+The effect of O3 on mortality was derived from the largest available multicountry epidemiological study to date2, which reported a statistically significant, meta-analytic coefficient (β) of the log-linear exposure–response association between O3 and all-cause mortality of 0.00018 (95% CI 0.00012–0.00024) per 1 µg m−3 increase in daily maximum 8-h average O3. Sensitivity analyses suggested no evidence of nonlinearity in the exposure–response association2.
+The health-impact assessment consisted of the following steps. First, for each grid cell (x) and day (d) of the model simulations we transformed the daily maximum 8-h average O3 (μg m−3) into the daily mortality attributable fraction (AF(x,d)) according to
+$${{\mathrm{AF}}}\left(x,d\right)=1-\exp (-\beta \times {{\mathrm{O}}}_{3}(x,d)),$$
+where β is the mortality risk per unit increase in O3 mentioned above39. We used the entire range of O3 because there is no compelling evidence of a so-called safe threshold2,18. However, we performed a sensitivity analysis to evaluate the effect of a safe threshold at 70 µg m−3, excluding days with O3 <70 µg m−3 and centering the association at 70 µg m−3, as commonly done in previous assessments2,13,14, including those by the EEA4. Second, for each grid cell and week (w) we calculated the weekly averages of AF (x,w). Third, for each European region (r) and week we computed the population-weighted average of AF by considering all continental grid cells of the region, using gridded population counts at a horizontal 1-km2 resolution for the year 2015 from the Global Human Settlement Layer40. We note that in the boundary grid cells (that is, those representing more than one region), the population considered was the only one of the corresponding region. Fourth, for each region we transformed the weekly time series of population-weighted AF into a weekly time series of mortality attributable number (AN) according to
+$${{\mathrm{AN}}}(r,w)=N(r,w)\times {{\mathrm{AF}}}(r,w),$$
+where N(r,w) is the total number of deaths in the corresponding region r and week w. The weekly time series of AN were apportioned according to O3-attributed sources to the AF in each region. Moreover, we estimated the 95% CI of weekly AN by assuming the upper and lower range of the β coefficient of the log-linear exposure–response association between O3 and mortality. Finally, total AN during the warm season (May–September) resulted from the sum of the weekly contributions, and its ratio with the total population provided the O3-attributable mortality rate.
+Evaluation of O3 simulations
+We used hourly observations of ground-level O3 concentrations from the Air Quality eReporting database of the EEA to evaluate the quality of the modeled O3 (overall daily maximum 8-h average) values by CALIOPE. Specifically, we compared the modeled O3 concentrations with observations provided by the EEA for rural background stations <1,000 m above sea level, because the spatial representativeness of these stations is comparable to CALIOPE spatial resolution. Only those days with >75% availability of hourly observations were used to calculate the observed O3 and compare it with the modeled values. The results of the evaluation showed good agreement between modeled and observed O3 concentrations (Supplementary Table 7), with a Pearson correlation coefficient of 0.66 ± 0.11, a normalized mean bias of 5.49 ± 9.25% and a normalized root mean squared error of 20.46 ± 5.7. Extended Data Fig. 6 shows the normalized mean bias in each of the EEA stations used.
+In addition to the traditional statistical indicators used for evaluation of model performance, we followed the Guidance Document on Modelling Quality Objectives and Benchmarking41 established by the Forum for Air Quality Modeling, which aims to promote and support the harmonized use of models and their applications under the European Air Quality Directive (no. 2008/50/EC). The Forum for Air Quality Modeling proposes a modeling quality indicator (MQI) to assess the reliability of air-quality models considering the measurement uncertainty at each individual station. The MQI is defined as
+$${\mathrm{MQI}}={\mathrm{r}}.{\mathrm{m}}.{\mathrm{s}}.{\mathrm{e}}./(\,\beta \times {\mathrm{r}}.{\mathrm{m}}.{\mathrm{s}}._{\mathrm{U}}),$$
+where r.m.s.e. is the root mean squared error between the modeled and observed pollutant concentrations, r.m.s.U is pollutant measurement uncertainty and β is set to 2, allowing the difference between the modeled and observed concentration to be twice the measurement uncertainty. MQI ≤ 1 indicates that the model error at a specific station is acceptable compared with the uncertainty of observations. When 90% of the individual air-quality stations included in the model evaluation assessment have MQI ≤ 1, the air-quality model meets the modeling quality objective and can be considered reliable for air-quality assessment within the framework of the European Air Quality Directive. The model used in this study complied with MQI ≤ 1 in 100% of rural background stations <1,000 m above sea level in the EEA dataset (Supplementary Table 8).
+Reporting summary
+Further information on research design is available in the Nature Portfolio Reporting Summary linked to this article.
+Data availability
+Weekly deaths and population numbers can be freely downloaded from Eurostat (https://ec.europa.eu/eurostat/cache/metadata/en/demomwk_esms.htm; https://ec.europa.eu/eurostat/cache/metadata/en/demo_r_gind3_esms.htm), and O3 simulated values from the Zenodo repository (https://doi.org/10.5281/zenodo.10606147)42.
+Code availability
+The CMAQ code is available at https://github.com/USEPA/CMAQ, the WRF-ARW code at https://github.com/wrf-model/WRF, the HERMESv3 code at https://earth.bsc.es/gitlab/es/hermesv3_gr and the MEGAN code at https://bai.ess.uci.edu/megan/data-and-code/.
+References
+Zhang, J., Wei, Y. & Fang, Z. Ozone pollution: a major health hazard worldwide. Front. Immunol. 10, 2518 (2019).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Vicedo-Cabrera, A. M. et al. Short term association between ozone and mortality: global two stage time series study in 406 locations in 20 countries. Br. Med. J. 368, m108 (2020).
+Article
+  Google Scholar
+  Gu, J. et al. Ambient air pollution and cause-specific risk of hospital admission in China: a nationwide time-series study. PLoS Med. 17, e1003188 (2020).
+Article
+  PubMed
+  PubMed Central
+  Google Scholar
+  Air quality in Europe 2020 (European Environment Agency, 2020); www.eea.europa.eu/publications/air-quality-in-europe-2020-report
+Chen, Z.-Y. et al. Population exposure to multiple air pollutants and its compound episodes in Europe. Nat. Commun. 15, 2094 (2024).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  WHO global air quality guidelines: particulate matter (PM2.5 and PM10), ozone, nitrogen dioxide, sulfur dioxide and carbon monoxide. (World Health Organization, 2021); https://apps.who.int/iris/bitstream/handle/10665/345329/9789240034228-eng.pdf?sequence=1&isAllowed=y
+Zhang, Q. et al. Transboundary health impacts of transported global air pollution and international trade. Nature 543, 705–709 (2017).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Nansai, K. et al. Consumption in the G20 nations causes particulate air pollution resulting in two million premature deaths annually. Nat. Commun. 12, 6286 (2021).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Wild, O. & Akimoto, H. Intercontinental transport of ozone and its precursors in a three-dimensional global CTM. J. Geophys. Res. Atmos. 106, 27729–27744 (2001).
+Article
+  CAS
+  Google Scholar
+  Derwent, R. Intercontinental transport and the origins of the ozone observed at surface sites in Europe. Atmos. Environ. 38, 1891–1901 (2004).
+Article
+  CAS
+  Google Scholar
+  Pay, M. T. et al. Ozone source apportionment during peak summer events over southwestern Europe. Atmos. Chem. Phys. 19, 5467–5494 (2019).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Murray, C. J. L. et al. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the Global Burden of Disease Study 2019. Lancet 396, 1223–1249 (2020).
+Article
+  Google Scholar
+  Texcalac-Sangrador, J. L., Hurtado-Díaz, M., Félix-Arellano, E. E., Guerrero-López, C. M. & Riojas-Rodríguez, H. Health and economic impacts assessment of O3 exposure in Mexico. Int. J. Environ. Res. Public Health 18, 11646 (2021).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Malashock, D. A. et al. Global trends in ozone concentration and attributable mortality for urban, peri-urban, and rural areas between 2000 and 2019: a modelling study. Lancet Planet. Health. 6, e958–e967 (2022).
+Article
+  PubMed
+  Google Scholar
+  Cofala, J. et al. Final Report The potential for cost-effective air emission reductions from international shipping through designation of further Emission Control Areas in EU waters with focus on the Mediterranean Sea (IIASA, 2018); https://pure.iiasa.ac.at/id/eprint/15729/
+Petetin, H. et al. Assessing ozone abatement scenarios in the framework of the Spanish ozone mitigation plan. Sci. Total Environ. 902, 165380 (2023).
+Article
+  CAS
+  PubMed
+  Google Scholar
+  Air quality in Europe 2018 (European Environment Agency, 2018); www.eea.europa.eu/publications/air-quality-in-europe-2018
+Di, Q. et al. Association of short-term exposure to air pollution with mortality in older adults. JAMA 318, 2446–2456 (2017).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Atkinson, R. W. et al. Long-term exposure to ambient ozone and mortality: a quantitative systematic review and meta-analysis of evidence from cohort studies. BMJ Open 6, e009493 (2016).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Huangfu, P. & Atkinson, R. Long-term exposure to NO2 and O3 and all-cause and respiratory mortality: a systematic review and meta-analysis. Environ. Int. 144, 105998 (2020).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Achebak, H. et al. Trade-offs between short-term mortality attributable to NO2 and O3 changes during the COVID-19 lockdown across major Spanish cities. Environ. Pollut. 286, 117220 (2021).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  Cao, M., Xing, J., Sahu, S. K., Duan, L. & Li, J. Accurate prediction of air quality response to emissions for effective control policy design. J. Environ. Sci. 123, 116–126 (2023).
+Article
+  Google Scholar
+  Shu, Q. et al. Comparison of ozone formation attribution techniques in the northeastern United States. Geosci. Model Dev. 16, 2303–2322 (2023).
+Article
+  CAS
+  Google Scholar
+  Jacob, D. J. & Winner, D. A. Effect of climate change on air quality. Atmos. Environ. 43, 51–63 (2009).
+Article
+  CAS
+  Google Scholar
+  Weekly death statistics (Eurostat, accessed 22 September 2023); https://ec.europa.eu/eurostat/data/database?node_code=demomwk
+Regional demographic statistics (Eurostat, accessed 22 September 2023); https://ec.europa.eu/eurostat/data/database?node_code=demo_r_pjangrp3
+CALIOPE system (Barcelona Supercomputing Center, accessed 22 September 2023); www.bsc.es/caliope
+Pay, M. T. et al. A full year evaluation of the CALIOPE-EU air quality modeling system over Europe for 2004. Atmos. Environ. 44, 3322–3342 (2010).
+Article
+  CAS
+  Google Scholar
+  Skamarock, W. C. & Klemp, J. B. A time-split nonhydrostatic atmospheric model for weather research and forecasting applications. J. Comput. Phys. 227, 3465–3485 (2008).
+Article
+  Google Scholar
+  Guevara, M., Tena, C., Porquet, M., Jorba, O. & Pérez García-Pando, C. HERMESv3, a stand-alone multi-scale atmospheric emission modelling framework – Part 1: global and regional module. Geosci. Model Dev. 12, 1885–1907 (2019).
+Article
+  CAS
+  Google Scholar
+  Guenther, A. B. et al. The Model of Emissions of Gases and Aerosols from Nature version 2.1 (MEGAN2.1): an extended and updated framework for modeling biogenic emissions. Geosci. Model Dev. 5, 1471–1492 (2012).
+Article
+  Google Scholar
+  Byun, D. & Schere, K. L. Review of the governing equations, computational algorithms, and other components of the Models-3 Community Multiscale Air Quality (CMAQ) modeling system. Appl. Mech. Rev. 59, 51–77 (2006).
+Article
+  Google Scholar
+  European Centre for Medium-Range Weather Forecasts. ERA-Interim (accessed 22 September 2023); www.ecmwf.int/en/forecasts/datasets/reanalysis-datasets/era-interim
+Kuenen, J. et al. CAMS-REG-v4: a state-of-the-art high-resolution European emission inventory for air quality modelling. Earth Syst. Sci. Data 14, 491–515 (2022).
+Article
+  Google Scholar
+  Copernicus Atmosphere Monitoring Service. CAMS global reanalysis (EAC4) (accessed 22/09/2023); https://ads.atmosphere.copernicus.eu/cdsapp#!/dataset/cams-global-atmospheric-composition-forecasts?tab=overview
+Kwok, R. H. F., Napelenok, S. L. & Baker, K. R. Implementation and evaluation of PM2.5 source contribution analysis in a photochemical model. Atmos. Environ. 80, 398–407 (2013).
+Article
+  CAS
+  Google Scholar
+  Kwok, R. H. F., Baker, K. R., Napelenok, S. L. & Tonnesen, G. S. Photochemical grid model implementation and application of VOC, NOx, and O3 source apportionment. Geosci. Model Dev. 8, 99–114 (2015).
+Article
+  Google Scholar
+  Zhang, Y., Wen, X., Wang, K., Vijayaraghavan, K. & Jacobson, M. Z. Probing into regional O3 and particulate matter pollution in the United States: 2. An examination of formation mechanisms through a process analysis technique and sensitivity study. J. Geophys. Res. Atmos. https://doi.org/10.1029/2009JD011900 (2009).
+Anenberg, S. C., Horowitz, L. W., Tong, D. Q. & West, J. J. An estimate of the global burden of anthropogenic ozone and fine particulate matter on premature human mortality using atmospheric modeling. Environ. Health Perspect. 118, 1189–1195 (2010).
+Article
+  CAS
+  PubMed
+  PubMed Central
+  Google Scholar
+  European Commission & Joint Research Centre (JRC). GHS-POP R2019A - GHS population grid multitemporal (1975-1990-2000-2015) - OBSOLETE RELEASE. http://data.europa.eu/89h/0c6b9751-a71f-4062-830b-43c9f432370f (2019).
+Janssen, S. & Thunis, P. FAIRMODE guidance document on modelling quality objectives and benchmarking Version 3.3 (Publications Office of the European Union, 2022); https://doi.org/10.2760/41988
+Achebak, H. et al. Data from: Geographic sources of ozone air pollution and mortality burden in Europe. Zenodo https://doi.org/10.5281/zenodo.10606147 (2024).
+Download references
+Acknowledgements
+H.A. and J.B. acknowledge funding from the EU’s Horizon 2020 and Horizon Europe research and innovation programs under grant agreement nos. 865564 (European Research Council Consolidator Grant EARLY-ADAPT, https://early-adapt.eu/), 101069213 (European Research Council Proof-of-Concept HHS-EWS, https://forecaster.health) and 101123382 (European Research Council Proof-of-Concept FORECAST-AIR), as well as support from grant no. CEX2018-000806-S funded by MCIN/AEI/10.13039/501100011033 and support from Generalitat de Catalunya through the CERCA Program. H.A. also acknowledges funding from the EU’s Horizon Europe research and innovation program under grant agreement no. 101065876 (MSCA Postdoctoral Fellowship TEMP-MOMO). J.B. also acknowledges funding from the Spanish Ministry of Science and Innovation under grant agreement no. RYC2018-025446-I (program Ramón y Cajal). M.T.P. acknowledges Universitat de Barcelona for a postdoctoral grant in regard to the requalification of teaching staff of the Spanish University System (DOGC, 8448, 2.7.2021). BSC coauthors acknowledge support by Ministerio para la Transición Ecológica y el Reto Demográfico as part of Plan Nacional del Ozono project BOE-A-2021-20183, as well as through the VITALISE project (PID2019-108086RA-I00, MCIN/AEI/10.13039/501100011033) funded by Agencia Estatal de Investigacion. The BSC coauthors also acknowledge the AXA Research Fund and Red Temática ACTRIS España (CGL2017-90884-REDT), and H2020 ACTRIS IMP (no. 871115), the Department of Research and Universities of the Government of Catalonia through the Atmospheric Composition Research Group (code 2021 SGR 01550), as well as computer resources of MareNostrum and technical support provided by BSC through the RES (nos. AECT-2022-1-0008 and AECT-2022-2-0003). The funders had no role in study design, data collection and analysis, decision to publish or preparation of the manuscript.
+Author information
+These authors contributed equally: Carlos Pérez García-Pando, Joan Ballester.
+Authors and Affiliations
+Inserm, France Cohortes, Paris, France
+Hicham Achebak
+ISGlobal, Barcelona, Spain
+Hicham Achebak & Joan Ballester
+Barcelona Supercomputing Center (BSC), Barcelona, Spain
+Roger Garatachea, María Teresa Pay, Oriol Jorba, Marc Guevara & Carlos Pérez García-Pando
+Department of Genetics, Microbiology and Statistics, University of Barcelona (UB), Barcelona, Spain
+María Teresa Pay
+Catalan Institution for Research and Advanced Studies (ICREA), Barcelona, Spain
+Carlos Pérez García-Pando
+Contributions
+H.A. designed the study, prepared and analyzed health data and wrote the manuscript. R.G. contributed to study design, implemented O3 model simulations and edited the manuscript. M.T.P. and O.J. contributed to study design, designed O3 model simulations and edited the manuscript. M.G. contributed to the preparation of air pollution data and edited the manuscript. C.P.G.-P. and J.B. contributed to study design and edited the manuscript. All authors revised the manuscript and approved the final version.
+Corresponding author
+Correspondence to Hicham Achebak.
+Ethics declarations
+Competing interests
+The authors declare no competing interests.
+Peer review
+Peer review information
+Nature Medicine thanks Cunrui Huang, Horacio Riojas-Rodríguez and Tong Zhu for their contribution to the peer review of this work. Primary Handling Editor: Ming Yang, in collaboration with the Nature Medicine team.
+Additional information
+Publisher’s note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Extended data
+Extended Data Fig. 1 O3 attributable mortality rate during the warm season (May-September), 2015–2017.
+The mortality rate is expressed as annual deaths per million population. Only days with average 8-hour maximum O3 above 70 µg/m3 were considered in this analysis. The histogram depicts both the color legend and the number of regions for each value.
+Extended Data Fig. 2 O3 associated mortality according to O3 emission sources in 35 European countries, 2015–2017.
+Only days with average mean 8-hour maximum O3 above 70 µg/m3 were considered in this analysis. The horizontal bars represent the 95% empirical CI of the overall O3 attributable mortality (ie, the sum of the five contribution sources).
+Extended Data Fig. 3 Country-to-country O3 attributable mortality contribution in Europe, 2015–2017.
+Only days with average 8-hour maximum O3 above 70 µg/m3 were considered in this analysis. Each grid cell of the matrix shows the AF (%) in a country (row) due to the O3 produced in another country (column). The diagonal corresponds to the mortality caused by the national (ie, non-imported) O3. The number of attributable deaths that occurred in each country is shown on the right, and thus the sum of the grid-cells in a row is always equal to 100%, while the number of attributable deaths caused by each county is shown on the top.
+Extended Data Fig. 4 Map of the study domain.
+The study domain includes countries other than the 35 analysed countries (non-EU-35) along with the ocean and the sea, where both land and maritime emissions occur.
+Extended Data Fig. 5 National contributions to total annual NOx and NMVOC anthropogenic emissions by country, 2015–2021.
+Reference: Centre on Emissions Inventories and Projections. Officially reported emission data [https://www.ceip.at/webdab-emission-database/reported-emissiondata (last access: September 2023).
+Extended Data Fig. 6 Normalized Mean Bias (NMB) for the O3 concentrations for the weeks 18–39 in 2015–2017.
+EEA rural background stations below 1 000 m above sea level.
+Supplementary information
+Supplementary Information
+Supplementary Tables 1–8.
+Reporting Summary
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/.
+Reprints and permissions
+About this article
+Cite this article
+Achebak, H., Garatachea, R., Pay, M.T. et al. Geographic sources of ozone air pollution and mortality burden in Europe. Nat Med 30, 1732–1738 (2024). https://doi.org/10.1038/s41591-024-02976-x
+Download citation
+Received
+24 October 2023
+Accepted
+04 April 2024
+Published
+03 June 2024
+Issue Date
+June 2024
+DOI
+https://doi.org/10.1038/s41591-024-02976-x
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Subjects
+Policy
+Risk factors
+Download PDF
+Sections
+Figures
+References
+Abstract
+Main
+Results
+Discussion
+Methods
+Data availability
+Code availability
+References
+Acknowledgements
+Author information
+Ethics declarations
+Peer review
+Additional information
+Extended data
+Supplementary information
+Rights and permissions
+About this article
+Advertisement
+Nature Medicine (Nat Med) ISSN 1546-170X (online) ISSN 1078-8956 (print)
+About Nature Portfolio
+About us
+Press releases
+Press office
+Contact us
+Discover content
+Journals A-Z
+Articles by subject
+protocols.io
+Nature Index
+Publishing policies
+Nature portfolio policies
+Open access
+Author & Researcher services
+Reprints & permissions
+Research data
+Language editing
+Scientific editing
+Nature Masterclasses
+Research Solutions
+Libraries & institutions
+Librarian service & tools
+Librarian portal
+Open research
+Recommend to library
+Advertising & partnerships
+Advertising
+Partnerships & Services
+Media kits
+Branded content
+Professional development
+Nature Careers
+Nature
+Conferences
+Regional websites
+Nature Africa
+Nature China
+Nature India
+Nature Italy
+Nature Japan
+Nature Middle East
+Privacy Policy Use of cookies Your privacy choices/Manage cookies Legal notice Accessibility statement Terms & Conditions Your US state privacy rights
+© 2024 Springer Nature Limited

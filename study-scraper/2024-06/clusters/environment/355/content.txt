@@ -1,0 +1,46 @@
+Earth System Science Data
+ARTICLES & PREPRINTS
+SUBMISSION
+POLICIES
+PEER REVIEW
+LIVING DATA PROCESS
+EDITORIAL BOARD
+ABOUT
+  Preprint  
+Preprints
+Preprint essd-2024-180
+
+https://doi.org/10.5194/essd-2024-180
+© Author(s) 2024. This work is distributed under
+the Creative Commons Attribution 4.0 License.
+Abstract
+Assets
+Discussion
+Metrics
+06 Jun 2024
+Status: this preprint is currently under review for the journal ESSD.
+A long-term high-resolution air quality reanalysis with public facing air quality dashboard over the Contiguous United States (CONUS)
+Rajesh Kumar, Piyush Bhardwaj, Cenlin He, Jennifer Boehnert, Forrest Lacey, Stefano Alessandrini, Kevin Sampson, Matthew Casali, Scott Swerdlin, Olga Wilhelmi, Gabriele G. Pfister, Benjamin Gaubert, and Helen Worden
+Abstract. We present a 14-year 12-km hourly air quality dataset created by assimilating satellite observations of aerosol optical depth (AOD) and carbon monoxide (CO) in an air quality model to fill gaps in the contiguous United States (CONUS) air quality monitoring network and help air quality managers understand long-term changes in county level air quality. Specifically, we assimilate the Moderate Resolution Imaging Spectroradiometer (MODIS) AOD and the Measurement of Pollution in the Troposphere (MOPITT) CO observations in the Community Multiscale Air Quality Model (CMAQ) every day from 01 Jan 2005 to 31 Dec 2018 to produce this dataset. The Weather Research and Forecasting (WRF) model simulated meteorological fields are used to drive CMAQ offline and to generate meteorology dependent anthropogenic emissions. Both the weather and air quality (surface fine particulate matter (PM2.5) and ozone) simulations are subjected to a comprehensive evaluation against multi-platform observations to establish the credibility of our dataset and characterize its uncertainties. We show that our dataset captures regional hourly, seasonal, and interannual variability in meteorology very well across the CONUS. The correlation coefficient between the observed and simulated surface ozone and PM2.5 concentrations for different Environmental Protection Agency (EPA) defined regions across CONUS are 0.77–0.91 and 0.49–0.79, respectively. The mean bias and root mean squared error for modeled ozone are 3.7–6.8 ppbv and 7–9 ppbv, respectively, while the corresponding values for PM2.5 are -0.9–5.6 µg/m3 and 3.0–8.3 µg/m3, respectively. We estimate that annual CONUS averaged maximum daily 8-hour average (MDA8) ozone and PM2.5 trends are -0.30 ppb/year and -0.24 μg/m3/year, respectively. Wintertime MDA8 ozone shows an increasing but statistically insignificant trend at several sites. We also found a decreasing trend in the 95th percentile of MDA8 ozone but an increasing trend in the 5th percentile. Most of the sites in the Pacific Northwest show an increasing but statistically insignificant trend during summer. An ArcGIS air quality dashboard has been developed to enable easy visualization and interpretation of county level air quality measures and trends by stakeholders, and a Python-based Streamlit application has been developed to allow the download of the air quality data in simplified text and graphic formats.
+How to cite. Kumar, R., Bhardwaj, P., He, C., Boehnert, J., Lacey, F., Alessandrini, S., Sampson, K., Casali, M., Swerdlin, S., Wilhelmi, O., Pfister, G. G., Gaubert, B., and Worden, H.: A long-term high-resolution air quality reanalysis with public facing air quality dashboard over the Contiguous United States (CONUS), Earth Syst. Sci. Data Discuss. [preprint], https://doi.org/10.5194/essd-2024-180, in review, 2024.
+Received: 13 May 2024 – Discussion started: 06 Jun 2024
+Publisher's note: Copernicus Publications remains neutral with regard to jurisdictional claims made in the text, published maps, institutional affiliations, or any other geographical representation in this preprint. The responsibility to include appropriate place names lies with the authors.
+
+Download
+Preprint (4614 KB)
+Metadata XML
+BibTeX
+EndNote
+Short summary
+We have created a 14-year hourly air quality dataset at 12 km resolution by combining satellite...
+Read more
+Share
+Altmetrics
+Earth System Science Data
+The data publishing journal
+All site content, except where otherwise noted, is licensed under the Creative Commons Attribution 4.0 License.
+Contact
+|
+Imprint
+|
+Data protection

@@ -1,0 +1,340 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Advertisement
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Environmental Health Article
+Age and sex differences in the effects of short- and long-term exposure to air pollution on endothelial dysfunction
+Research
+Open access
+Published: 08 July 2024
+Volume 23, article number 63, (2024)
+Cite this article
+Download PDF
+You have full access to this
+open access
+article
+Environmental Health
+Aims and scope
+Submit manuscript
+Haoyu Zhang, Jing Yang, Yinghua Zhang, Keling Xiao, Yang Wang, Jin Si, Yan Li, Lijie Sun, Jinghao Sun, Ming Yi, Xi Chu & Jing Li 
+360 Accesses
+Explore all metrics
+Abstract
+Background
+The effects of air pollution on endothelial function remain unclear across populations. We aimed to use brachial artery flow-mediated dilatation (FMD) to identify demographic differences in the effects of air pollution exposure on endothelial dysfunction.
+Methods
+We measured FMD in 850 participants from October 2016 to January 2020. Location-specific concentrations of fine particulate matter < 2.5 μm aerodynamic diameter (PM2.5), inhalable particulate matter < 10 μm aerodynamic diameter (PM10), sulfur dioxide (SO2), nitrogen dioxide (NO2), carbon monoxide (CO), and ozone (O3) measured by fixed ambient air monitoring stations were collected for short- and long-term exposure assessment. Multiple linear regression models and restricted cubic splines were used to assess the associations before and after stratification by age and sex.
+Results
+This study eventually included 828 participants [551 (66.5%) younger than 65 years and 553 (66.8%) men]. Each 10 µg/m3 increase in 7-day exposure to PM2.5 and PM10 was significantly linearly associated with a 0.07% (β = -0.07, 95% CI: -0.13 to -0.004) and 0.05% (β = -0.05, 95% CI: -0.10 to -0.004) decrease in FMD in the fully adjusted model. After full adjustment, long-term exposure to all air pollutants was significantly associated with impaired FMD. Each 10 µg/m3 increase in long-term exposure to PM2.5 and PM10 was significantly associated with a -0.18% (95% CI: -0.34 to -0.03) and − 0.23% (95% CI: -0.40 to -0.06) change in FMD, respectively. After stratification, the associations of lower FMD with long-term exposure to PM2.5, PM10, SO2, NO2, and CO significantly persisted in men and participants younger than 65 years instead of women or older participants. For short-term exposure, we observed differences consistent with long-term exposure and a stronger effect of 7-day exposure to SO2 in men due to a significant interaction effect.
+Conclusion
+Short- and long-term exposure to different air pollutants are strongly associated with decreased endothelial function, and susceptibility to air pollution varies significantly with age and sex.
+View this article's peer review reports
+Similar content being viewed by others
+Long-term exposure to ambient air pollution and measures of central hemodynamics and arterial stiffness among multiethnic Chicago residents
+Article Open access
+07 May 2024
+Air pollution exposure and vascular endothelial function: a systematic review and meta-analysis
+Article 27 January 2023
+Long-term exposure to particulate air pollution and brachial artery flow-mediated dilation in the Old Order Amish
+Article Open access
+14 May 2020
+Background
+Age and sex-related disparities in the primary and secondary prevention of cardiovascular disease (CVD) are a continually pressing public issue. With a rapid and sustained increase in the ageing population, the rising CVD mortality rate among older patients presents a great challenge to the disease burden in China [1, 2]. Besides, it is suggested that women with prior CVD are less likely to take guideline-directed medications, and those with a high risk of CVD are less likely to have well-controlled blood pressure, low-density lipoprotein cholesterol (LDL-C), or body mass index than men [3]. Since ageing and sex are irreversible, it is essential to improve public health policies and protect the aforementioned populations from other CVD risk factors.
+As a global concern and an ever-increasing burden on national health systems [4, 5], air pollution exposure has been uncovered to increase CVD morbidity and mortality in healthy populations [6, 7], and to aggravate the prognoses of those with pre-existing CVD [8, 9]. The vascular endothelium is a biologically active tissue that plays a central role in the process of atherosclerosis, from early to advanced stages, by regulating vascular tone, modulating vascular inflammation, thrombosis, and vascular injury mainly via radical nitric oxide [10]. Endothelial dysfunction is therefore an integrated index of risk factor burden and a marker of subclinical atherosclerotic cardiovascular disease (ASCVD). Brachial flow-mediated dilation (FMD) is a widely used noninvasive test of peripheral endothelial function. Impaired FMD has been demonstrated to predict adverse cardiovascular events and worse cardiovascular outcomes, showing great value in primary and secondary prevention strategies for CVD [11, 12]. However, epidemiological studies on the association between air pollution and endothelial dysfunction provide conflicting evidence and focus almost exclusively on the effects of lower and narrower ranges of particulate matter on healthy populations [13,14,15,16]. Consequently, differences in susceptibility by age and sex have not been adequately elucidated in the current studies on endothelial dysfunction.
+In this study, we hypothesized that exposure to air pollution would be consistently and positively associated with persistent endothelial dysfunction, and more severe effects were expected to be observed in female and older participants. We explored the impacts of six air pollutants across different time windows in a more heavily polluted area and their differences across populations to test the hypothesis. We aimed to provide new insights into the prevention of CVD by assessing endothelial dysfunction to identify vulnerable populations under air pollution exposure.
+Patients and methods
+Study population
+This study was carried out at Xuanwu Hospital, Capital Medical University from October 2016 to January 2020. The study participants were enrolled from: (1) patients with a known history of CVD who came for routine visits to the Cardiology Outpatient Department; and (2) subjects who attended regular physical examinations at the Health Management Department. Those who volunteered for additional cardiovascular risk assessments and endothelial function measurements at the Health Management Department were enrolled in this study consecutively. End-stage liver or kidney disease, incomplete primary data, and residence outside Xicheng District, Beijing were the main exclusion criteria. The study was conducted following the Declaration of Helsinki and approved by the Ethics Committee of Xuanwu Hospital, Capital Medical University. Written informed consent was received from all participants enrolled in the study.
+Age, sex, body mass index (BMI), smoking status (never smoker, former smoker, and current smoker), physical examination (resting heart rate, systolic and diastolic blood pressure), laboratory tests (triglycerides, high-density lipoprotein cholesterol, LDL-C, serum uric acid, and serum creatinine), treatment medication, comorbidities (CVD, hypertension, diabetes, and other medical diagnosis), and residential address were obtained through available medical records and standardized questionnaires by trained interviewers. The CVD history of all participants was diagnosed based on coronary angiography or coronary computed tomography or a history of myocardial infarction; other diagnoses were based on self-reported, previous medical history, and available physical examination medical records. The Prediction for ASCVD Risk in China (China-PAR) model, one of the extra cardiovascular risk assessments, was used to predict the 10-year ASCVD risk to characterize the population of non-ASCVD participants in this study (e.g., < 5.0% as low risk, 5.0-9.9% as moderate risk, and ≥ 10.0% as high risk) [17].
+Measures of endothelial dysfunction
+Endothelial dysfunction was measured by FMD according to the standardized procedures [18, 19]. FMD was detected by the same ultrasound researcher, and the brachial artery was scanned with a color Doppler ultrasound instrument. All participants fasted (> 6 h), avoided exercise (> 12 h), and abstained from vitamin C, caffeine, polyphenols, supplements, alcohol, and smoking (> 12 h). Participants were placed in the supine position and the brachial artery of the right arm was selected for examination after 15 min of rest. The sphygmomanometer cuff was tied 1–2 cm distal to the antecubital fossa. The baseline artery diameter (BAD) was scanned and examined longitudinally above the antecubital fossa for more than 30 s before the cuff inflation. The cuff pressure was then 50 mmHg higher than systolic pressure (1 mmHg = 0.133 kPa) and inflated for 5 min to occlude blood flow. The pressure in the cuff was monitored within 5 min to ensure that the pressure fluctuation was less than 10 mmHg. After cuff deflation, the diameter was measured continuously for 3 min to obtain the maximum artery diameter (MAD). All diameter measurements were obtained at the end diastole.
+FMD (%) was computed as: (MAD-BAD/BAD) ×100.
+Exposure assessment
+Air pollutant data were obtained from the National Air Pollution Monitoring System, including fine particulate matter with aerodynamic diameter < 2.5 μm (PM2.5), inhalable particulate matter with aerodynamic diameter < 10 μm (PM10), sulfur dioxide (SO2), nitrogen dioxide (NO2), carbon monoxide (CO), and ozone (O3). Xicheng District is a relatively small administrative area in the center of Beijing, with a width of about 7.1 km from east to west and a length of about 11.2 km from north to south, a total area of 50.70 km2 and two fixed air quality monitoring stations. Daily (24-hour) average concentrations of PM2.5, PM10, NO2, SO2, CO, and 8-hour maximum ozone levels were the average values measured by the two fixed ambient air quality monitoring stations in Xicheng District, Beijing. The above pollutant concentrations were used directly in the exposure assessments for all participants, considering the proximity of the addresses to the monitoring stations, as all participants lived in Xicheng District. Daily meteorological data on temperature (℃) were also obtained from the China Meteorological Administration.
+We used the moving average 7- and 14-day exposures before the date of FMD measurements to estimate the short-term exposure effects and the moving average 12-month exposures before the date of FMD measurements to estimate the long-term exposure effects. Corresponding time windows (7- and 14-day) were also assigned to temperature.
+Statistical analysis
+Baseline characteristics of participants were described as mean ± standard deviation (SD) for normally distributed continuous variables, median (25th, 75th percentiles) for variables with skewed distributions, and numbers (percentages) for categorical variables. The Shapiro–Wilk normality test was performed to test the normality of the data. Continuous variables were compared using the Mann-Whitney’s U test and proportions for categorical variables were compared using the chi-square test or the Fisher exact test. Spearman correlation analysis was used to calculate associations between different pollutant concentrations at different exposure times.
+First, we grouped air pollution concentration quartiles (Quartiles 1 to 4) and performed crude analyses to assess the association between air pollutants and FMD for different exposure time windows. Multiple linear regression models were then performed to examine the associations further and calculate the partial regression coefficient (β) and its 95% confidence interval (95% CI). Baseline variables that were considered clinically relevant or with P values of less than 0.10 in univariate analysis were entered into the models while avoiding multicollinearity and over-adjustment. For short-term exposure, Model 1 adjusted for age group (< 65 years and ≥ 65 years), sex, BMI, smoking status, temperature, and season (warm: April to September; cold: October to March) as the covariates. “Season” was added to control for possible seasonal trends in short-term exposure effects. For long-term exposure, Model 1 adjusted for the same covariates except temperature and season. Model 2 additionally adjusted for CVD, hypertension, diabetes mellitus, resting heart rate, and LDL-C. We used the results from Model 2 as the final results. The median concentrations of each quartile group of air pollutants were entered into the models as continuous variables to test for linear trends. Restricted cubic splines with three knots were used to verify and visualize the statistically significant associations identified by regression analysis. To determine whether the associations between air pollutants and FMD were consistent across demographic subgroups, we tested for interaction by age and sex and reconstructed stratified fully adjusted analyses.
+In the sensitivity analyses, we reran the model with all air pollutant concentrations as continuous variables to determine the corresponding FMD change values for each 10 µg/m3 increase in PM2.5, PM10, NO2, and O3, each 1 µg/m3 increase in SO2, and each 0.1 mg/m3 increase in CO. Then, we added the year of observation as a covariate in Model 1 to adjust for possible time trends. Besides, we added both long-term and short-term exposure to Model 1 to assess whether both effects persist when combined. Finally, we constructed two-pollutant models based on Model 1 to assess the robustness of each pollutant effect. Because long-term exposure concentrations of air pollutants other than ozone were strongly correlated (Spearman’s correlation coefficient > 0.9), we did not include them in the same model to avoid potential collinearity.
+Two-sided P values < 0.05 were considered statistically significant. All statistical analyses were performed with SPSS version 26.0 (Inc., Chicago, IL, USA) and R version 4.3.2 (R Foundation for Statistical Computing, Vienna, Austria).
+Results
+A total of 850 participants underwent endothelial function measurements during the study period, with 828 participants eventually included in the study. Two participants were excluded due to end-stage renal disease and 20 participants were excluded due to incomplete baseline data or non-Xicheng District addresses. 33.5% of participants were aged 65 years or older and 66.8% were male. The predicted 10-year ASCVD risks for participants without CVD using the China-PAR model were 6.7 (3.2, 11.5) %. Baseline characteristics of study participants are shown in Table 1. Air pollutant exposure levels for all participants are summarized in the Additional file: Table S1. The map of Beijing labelled with the two fixed air monitoring stations in Xicheng District is shown in the Additional file: Figure S1. Correlations between air pollutants for three different exposure times are presented in the Additional file: Table S2, Table S3, and Table S4. The correlations between short-term exposure concentrations of gaseous pollutants were moderate, whereas there were higher correlations between particulate matter since PM2.5 is the large fraction of PM10. Except for ozone, the long-term exposure levels for the other five air pollutants were strongly correlated (Spearman’s correlation coefficients > 0.9).
+Table 1 Baseline characteristics of the study participantsa, b
+Full size table
+As shown in Table 2, each 10 µg/m3 increase in 7-day exposure to PM2.5 and PM10 was significantly linearly associated with a 0.07% (β = -0.07, 95% CI: -0.13 to -0.004) and 0.05% (β = -0.05, 95% CI: -0.10 to -0.004) decrease in FMD in the fully adjusted model. Although per 10 µg/m3 increase in O3 was significantly associated with a -0.08% change in FMD (β = -0.08, 95% CI: -0.15 to -0.005), there is an obvious nonlinear relationship between O3 concentration and FMD (Ptrend = 0.096). For 14-day exposure, we observed a trend for ozone to be associated with endothelial dysfunction after full adjustment (β = -0.08, 95% CI: -0.17 to 0.004; P = 0.063).
+Table 2 Associations between short-term exposure to air pollution and flow-mediated dilation (%) among all participantsa, b
+Full size table
+The associations between long-term exposure to air pollution and FMD in all participants are presented in Table 3. Not all concentration quartile subgroups of 12-month air pollution exposure were continuously associated with lower FMD in the different models, especially at lower concentrations (Quartile 2). After full adjustment, each 10 µg/m3 increase in long-term exposure to PM2.5, PM10, NO2, and O3 was significantly associated with a -0.18% (95% CI: -0.34 to -0.03), -0.23% (95% CI: -0.40 to -0.06), -0.65% (95% CI: -1.05 to -0.25), and − 0.78% (95% CI: -1.57, -0.00) change in FMD, respectively. Long-term exposure to SO2 and CO was similarly significantly associated with endothelial dysfunction. Besides, long-term exposure to all pollutants showed significant linear relationships with lower FMD in the tests for linear trends after full adjustment.
+Table 3 Associations between long-term exposure to air pollution and flow-mediated dilation (%) among all participantsa, b
+Full size table
+Table 4 presents the associations between air pollutants and FMD after stratification by sex and age in the fully adjusted models. Significant associations between reduced FMD and exposure to PM2.5, PM10, and SO2 over 7 days were observed in male participants. Only a notable interaction effect was found between sex and SO2 (P for interaction = 0.036). The association between 7-day exposure to PM2.5 and PM10 and endothelial dysfunction was significant in those aged less than 65 years. In addition, 7-day exposure to ozone also tended to be associated with endothelial dysfunction in men and in participants younger than 65 years of age. For long-term exposure, the associations of lower FMD with PM2.5, PM10, SO2, NO2, and CO significantly persisted in men and participants younger than 65 years instead of women or older participants. Figure 1 shows refitted concentration-response curves for the associations between 12-month average air pollution exposure concentrations and FMD, which presents associations more directly.
+Table 4 Associations between exposure to air pollution and flow-mediated dilation (%) after stratification by age and sexa, b
+Full size table
+Fig. 1
+Associations between long-term exposure to (A) PM2.5, (B) PM10, (C) SO2, (D) NO2, (E) CO, (F) O3 and flow-mediated dilation (%).a, b Note: a PM2.5, fine particulate matter with aerodynamic diameter < 2.5 μm; PM10, inhalable particulate matter with aerodynamic diameter < 10 μm; SO2, sulfur dioxide; NO2, nitrogen dioxide; CO, carbon monoxide; O3, ozone; 95% CI, 95% confidence interval. b Model adjusted for age group (< 65 years and ≥ 65 years), sex, body mass index, smoking status, cardiovascular disease, hypertension, diabetes mellitus, resting heart rate, and low-density lipoprotein cholesterol
+Full size image
+In sensitivity analyses using Model 1, the associations between short- and long-term exposure to air pollution and FMD after adjusting for the year of observation are shown in the Additional file: Table S5. Short-term exposure to ozone and long-term exposure to PM10 and NO2 were still strongly associated with endothelial dysfunction after adjusting for the year of observation. Other results were close to those of Model 1 in Tables 2 and 3. In sensitivity analyses combining both short- and long-term exposures (Additional file: Table S6), we observed that the effects of mainly four gaseous pollutants could co-exist or tend to be significant. It was worth noting that long-term exposure to air pollutants had higher effect values than short-term exposure. Finally, we developed 2-pollutant models to observe the effects of different pollutants. The analysis of the two-pollutant models based on Model 1 is presented in the Additional file: Table S7 and Table S8. The results of the two-pollutant model for long-term exposure to air pollutants other than ozone were not reported because of too high correlations. We found that 7-day exposure to ozone was significantly associated with lower FMD in all 2-pollutant models. Compared with the single-pollutant models, larger adverse effects were observed for each 10 µg/m3 increase in long-term exposure concentrations of NO2.
+Discussion
+In this study, we demonstrated that long-term exposure to higher concentrations of all air pollutants was significantly associated with more severe endothelial dysfunction. 7-day exposure to PM2.5 and PM10 was also linearly associated with impaired FMD, whereas ozone had nonlinear associations. Notably, when stratified by age and sex, these apparent adverse associations persisted only among men and those younger than 65 years. To the best of our knowledge, this is the first study to investigate the association of short- and long-term exposure to six air pollutants with endothelial dysfunction in different sex and age subgroups in a highly polluted area, not only demonstrating the age- and sex-specific differences and nonlinearity in the above associations, but also identifying high-risk populations and providing evidence to improve prevention strategies.
+Our findings were supported by previous studies and explored the obvious associations between more kinds of pollutants and impaired FMD. A study of 615 clinically healthy participants found that each 1 µg/m3 increase in 12-month moving-average estimates of PM2.5 and PM10 exposure was associated with a 0.07% and 0.09% decrease in FMD [14]. Another study based on a large population found that each 3 µg/m3 increase in long-term PM2.5 concentration was associated with a 0.3% reduction in FMD, and younger participants seemed to show a greater association [13]. The Framingham cohort study confirmed that a 1.99 µg/m3 difference in PM2.5 was associated with − 0.16% lower FMD [16]. The only study conducted in China assessed the effect of PM2.5 on FMD and obtained similar results [15]. There were no studies providing evidence of the effects of long-term exposure to gaseous pollutants on endothelial dysfunction. Thus, our study greatly remedies the lack of current research on gaseous pollutants and noticed that the effect of NO2 was even higher than that of particulate matter. More importantly, we visualized associations between long-term exposure to pollutants and FMD through restricted cubic splines. The lack of positive results from previous studies might be explained due to the low level of air pollutants. Biased exposure estimates due to active reduction in outdoor activities during heavy pollution might be an additional important confounding factor [20]. Compared to previous studies, our study included more participants with complex clinical conditions and assessed more air pollutants and wider exposure levels, which greatly extended the applicability of the findings. Considering that our multi-year study used the same monitoring stations to assign exposures to participants in a smaller region, the long-term exposures of the participants may have involved different temporal rather than spatial contrasts. We obtained similar results after controlling for potential temporal trends and still observed significant associations of NO2 and PM10 with endothelial dysfunction, demonstrating the reliability of the results. This suggests that adjusting for the year of observation did not affect the associations materially.
+After stratification, we found that chronic exposure to air pollution was associated with impaired FMD in men and younger participants only. The study of Amish participants found that the association between particulate matter and FMD was significant and stronger only in men [14]. In particular, only in the subgroup of men younger than 50 years old did the association between PM10 and FMD reach statistical significance. Possible explanations were that men engaged in more outdoor activities than women, which led to potential higher exposure in practical daily life. The protective hormonal effects and lower smoking rates in women were also known to improve the clinical status of patients [21, 22]. Besides, younger participants and male participants in our study had higher BMI, and obesity was found to exacerbate the adverse effects of air pollution [23, 24]. Obesity-induced inflammation and metabolic abnormalities might lead to increased inflammatory factors and vascular endothelial growth factors (VEGFs), which could impair vascular function [25, 26]. Meanwhile, the higher proportion of medication use due to comorbidities in older people was also a considerable influence, especially as angiotensin-converting enzyme inhibitors (ACEIs) have been demonstrated to improve endothelial function [27, 28]. In addition, pre-existing endothelial dysfunction in older people might make the effects of air pollution imperceptible. The underlying mechanisms of differences in effects remain to be explored. Nonetheless, as we work towards increasing protection for high-risk groups in the future, we must also pay simultaneous attention to the health risks of air pollution for the older population.
+For short-term exposures, we observed significant associations of endothelial dysfunction with 7-day exposure to particulate matter rather than 14 days. Epidemiological studies on the effects of short-term exposure on endothelial function have yielded inconsistent results. The large cohort study found no association between PM2.5 on the day before the examination and FMD [13]. Another study of 40 healthy male nonsmokers found that 5-day exposure to SO2 and NO2 significantly reduced FMD, but not particulate matter [29]. It was concluded that gaseous pollutants affected the endothelial function of the large artery, while particulate matter mainly enlarged the arteriolar dilation response to ischemia. The study of pregnant women found that 14-day exposure to PM10 but not PM2.5 significantly increased levels of soluble vascular cell adhesion molecule 1 (sVCAM-1), a marker of endothelial dysfunction, providing evidence of a mechanism [30]. Excessively long time-window may be responsible for weakening the association between pollutants and FMD when assessing short-term exposure effects. However, we should be equally concerned about the adverse effects of 14-day exposure to ozone on endothelial dysfunction.
+In our subgroup analysis, the associations between short-term exposure and FMD were also only seen in men and participants younger than 65 years. The significant interaction effect showed men were more sensitive to the adverse effects of SO2. Similarly, population characteristics such as being young, male, and overweight might account for the increased vulnerability to short-term exposure to air pollution, which was supported by previous meta-analyses from low-pollution areas [31]. Despite the higher prevalence of CVD and hypertension in the older subgroup, as with the results of long-term exposure, the traditionally perceived higher susceptibility was also not observed. The use of anti-hypertensive and vasoactive drugs might help to resist the effects of short-term exposure to air pollution more prominently [32].
+Several trials have attempted to elucidate possible pathophysiological mechanisms of air pollutants on endothelial function. In healthy subjects, acute exposure to diesel exhaust could impair NO-mediated endothelial vasomotor function and promote the production of reactive oxygen species (ROS) in endothelial cells to increase oxidative stress [33]. Besides, inhalation of diluted diesel exhaust could also impair the regulation of vascular tone and endogenous fibrinolysis [34]. Promoting inflammation by increasing pro-inflammatory cytokines and endothelins is another harmful mechanism of air pollutants in the proximity of the steel mill site [35]. Although ozone exposure has been shown to impair endothelial function in animal studies, the evidence of its cardiovascular effects in humans is still limited [36].
+Limitations
+Firstly, the unavailability of data such as ultrafine particles, traffic noise, dust, indoor time, and cooking fuel use might lead to biased estimates of air pollution exposure. Secondly, there may be potential unidentifiable confounders that are unable to be adjusted for, which is a common shortcoming of observational studies. In addition, due to the lack of relevant data, we could not rule out possible influences of socio-economic or other characteristic (e.g., occupation, household income, and education level) variables.
+Conclusions
+This study reveals significant age and sex differences in endothelial dysfunction associated with short- and long-term exposure to different air pollutants over a wider range of concentrations. Further identification of different susceptible populations and proactive measures to mitigate air pollution may be beneficial in reducing the burden of CVD.
+Data availability
+The datasets used and/or analyzed during the current study are available from the corresponding author on reasonable request.
+Abbreviations
+PM2.5 :
+Fine particulate matter with aerodynamic diameter < 2.5 μm
+PM10 :
+Inhalable particulate matter with aerodynamic diameter < 10 μm
+SO2 :
+Sulfur dioxide
+NO2 :
+Nitrogen dioxide
+CO:
+Carbon monoxide
+O3 :
+Ozone
+FMD:
+Flow-mediated dilation
+References
+Zhao D, Liu J, Wang M, Zhang X, Zhou M. Epidemiology of cardiovascular disease in China: current features and implications. Nat Rev Cardiol. 2019;16(4):203–12.
+Article
+  Google Scholar
+  Moran A, Gu D, Zhao D, Coxson P, Wang YC, Chen CS, Liu J, Cheng J, Bibbins-Domingo K, Shen YM, et al. Future cardiovascular disease in China: markov model and risk factor scenario projections from the coronary heart disease policy model-china. Circ Cardiovasc Qual Outcomes. 2010;3(3):243–52.
+Article
+  Google Scholar
+  Xia S, Du X, Guo L, Du J, Arnott C, Lam CSP, Huffman MD, Arima H, Yuan Y, Zheng Y, et al. Sex differences in primary and secondary Prevention of Cardiovascular Disease in China. Circulation. 2020;141(7):530–9.
+Article
+  Google Scholar
+  Zhou M, Wang H, Zeng X, Yin P, Zhu J, Chen W, Li X, Wang L, Wang L, Liu Y, et al. Mortality, morbidity, and risk factors in China and its provinces, 1990–2017: a systematic analysis for the global burden of Disease Study 2017. Lancet. 2019;394(10204):1145–58.
+Article
+  Google Scholar
+  Collaborators GRF. Global burden of 87 risk factors in 204 countries and territories, 1990–2019: a systematic analysis for the global burden of Disease Study 2019. Lancet. 2020;396(10258):1223–49.
+Article
+  Google Scholar
+  Liu H, Tian Y, Xiang X, Sun K, Juan J, Song J, Cao Y, Xu B, Hu Y. Air Pollution and hospitalization for Acute myocardial infarction in China. Am J Cardiol. 2017;120(5):753–8.
+Article
+  Google Scholar
+  Kim H, Kim J, Kim S, Kang SH, Kim HJ, Kim H, Heo J, Yi SM, Kim K, Youn TJ et al. Cardiovascular effects of Long-Term exposure to Air Pollution: a Population-based study with 900 845 person-years of follow-up. J Am Heart Assoc 2017;6(11).
+Liu H, Tian Y, Cao Y, Song J, Huang C, Xiang X, Li M, Hu Y. Fine particulate air pollution and hospital admissions and readmissions for acute myocardial infarction in 26 Chinese cities. Chemosphere. 2018;192:282–8.
+Article
+  CAS
+  Google Scholar
+  Malik AO, Jones PG, Chan PS, Peri-Okonny PA, Hejjaji V, Spertus JA. Association of Long-Term Exposure To Particulate Matter and ozone with Health Status and Mortality in patients after myocardial infarction. Circ Cardiovasc Qual Outcomes. 2019;12(4):e005598.
+Article
+  Google Scholar
+  Daiber A, Steven S, Weber A, Shuvaev VV, Muzykantov VR, Laher I, Li H, Lamas S, Münzel T. Targeting vascular (endothelial) dysfunction. Br J Pharmacol. 2017;174(12):1591–619.
+Article
+  CAS
+  Google Scholar
+  Shechter M, Shechter A, Koren-Morag N, Feinberg MS, Hiersch L. Usefulness of brachial artery flow-mediated dilation to predict long-term cardiovascular events in subjects without heart disease. Am J Cardiol. 2014;113(1):162–7.
+Article
+  Google Scholar
+  Matsuzawa Y, Kwon TG, Lennon RJ, Lerman LO, Lerman A. Prognostic Value of Flow-mediated vasodilation in Brachial Artery and Fingertip Artery for Cardiovascular events: a systematic review and Meta-analysis. J Am Heart Assoc 2015;4(11).
+Krishnan RM, Adar SD, Szpiro AA, Jorgensen NW, Van Hee VC, Barr RG, O’Neill MS, Herrington DM, Polak JF, Kaufman JD. Vascular responses to long- and short-term exposure to fine particulate matter: MESA Air (multi-ethnic study of atherosclerosis and Air Pollution). J Am Coll Cardiol. 2012;60(21):2158–66.
+Article
+  CAS
+  Google Scholar
+  Salimi S, Yanosky JD, Huang D, Montressor-Lopez J, Vogel R, Reed RM, Mitchell BD, Puett RC. Long-term exposure to particulate air pollution and brachial artery flow-mediated dilation in the old order amish. Environ Health. 2020;19(1):50.
+Article
+  CAS
+  Google Scholar
+  Woo KS, Chook P, Hu YJ, Lao XQ, Lin CQ, Lee P, Kwok C, Wei AN, Guo DS, Yin YH, et al. The impact of particulate matter air pollution (PM2.5) on atherosclerosis in modernizing China: a report from the CATHAY study. Int J Epidemiol. 2021;50(2):578–88.
+Article
+  CAS
+  Google Scholar
+  Wilker EH, Ljungman PL, Rice MB, Kloog I, Schwartz J, Gold DR, Koutrakis P, Vita JA, Mitchell GF, Vasan RS, et al. Relation of long-term exposure to air pollution to brachial artery flow-mediated dilation and reactive hyperemia. Am J Cardiol. 2014;113(12):2057–63.
+Article
+  CAS
+  Google Scholar
+  Yang X, Li J, Hu D, Chen J, Li Y, Huang J, Liu X, Liu F, Cao J, Shen C, et al. Predicting the 10-Year risks of atherosclerotic Cardiovascular Disease in Chinese Population: the China-PAR Project (Prediction for ASCVD Risk in China). Circulation. 2016;134(19):1430–40.
+Article
+  Google Scholar
+  Thijssen DHJ, Bruno RM, van Mil A, Holder SM, Faita F, Greyling A, Zock PL, Taddei S, Deanfield JE, Luscher T, et al. Expert consensus and evidence-based recommendations for the assessment of flow-mediated dilation in humans. Eur Heart J. 2019;40(30):2534–47.
+Article
+  Google Scholar
+  Flammer AJ, Anderson T, Celermajer DS, Creager MA, Deanfield J, Ganz P, Hamburg NM, Lüscher TF, Shechter M, Taddei S, et al. The assessment of endothelial function: from research into clinical practice. Circulation. 2012;126(6):753–67.
+Article
+  Google Scholar
+  An R, Shen J, Ying B, Tainio M, Andersen ZJ, de Nazelle A. Impact of ambient air pollution on physical activity and sedentary behavior in China: a systematic review. Environ Res. 2019;176:108545.
+Article
+  CAS
+  Google Scholar
+  Stanhewicz AE, Wenner MM, Stachenfeld NS. Sex differences in endothelial function important to vascular health and overall cardiovascular disease risk across the lifespan. Am J Physiol Heart Circ Physiol. 2018;315(6):H1569–88.
+Article
+  CAS
+  Google Scholar
+  Thomas GN, Chook P, Yip TW, Kwong SK, Chan TY, Qiao M, Huang XS, Guo DS, Feng JZ, Chan SW, et al. Smoking without exception adversely affects vascular structure and function in apparently healthy Chinese: implications in global atherosclerosis prevention. Int J Cardiol. 2008;128(2):172–7.
+Article
+  Google Scholar
+  Mazidi M, Speakman JR. Impact of Obesity and Ozone on the Association between Particulate Air Pollution and Cardiovascular Disease and Stroke Mortality among US adults. J Am Heart Assoc 2018;7(11).
+Kim JS, Chen Z, Alderete TL, Toledo-Corral C, Lurmann F, Berhane K, Gilliland FD. Associations of air pollution, obesity and cardiometabolic health in young adults: the Meta-AIR study. Environ Int. 2019;133(Pt A):105180.
+Article
+  CAS
+  Google Scholar
+  Ellulu MS, Patimah I, Khaza’ai H, Rahmat A, Abed Y. Obesity and inflammation: the linking mechanism and the complications. Arch Med Sci. 2017;13(4):851–63.
+Article
+  CAS
+  Google Scholar
+  Zafar MI, Mills K, Ye X, Blakely B, Min J, Kong W, Zhang N, Gou L, Regmi A, Hu SQ, et al. Association between the expression of vascular endothelial growth factors and metabolic syndrome or its components: a systematic review and meta-analysis. Diabetol Metab Syndr. 2018;10:62.
+Article
+  Google Scholar
+  Miller MR. The cardiovascular effects of air pollution: Prevention and reversal by pharmacological agents. Pharmacol Ther. 2022;232:107996.
+Article
+  CAS
+  Google Scholar
+  Shahin Y, Khan JA, Samuel N, Chetter I. Angiotensin converting enzyme inhibitors effect on endothelial dysfunction: a meta-analysis of randomised controlled trials. Atherosclerosis. 2011;216(1):7–16.
+Article
+  CAS
+  Google Scholar
+  Briet M, Collin C, Laurent S, Tan A, Azizi M, Agharazii M, Jeunemaitre X, Alhenc-Gelas F, Boutouyrie P. Endothelial function and chronic exposure to air pollution in normal male subjects. Hypertension. 2007;50(5):970–6.
+Article
+  CAS
+  Google Scholar
+  Mozzoni P, Iodice S, Persico N, Ferrari L, Pinelli S, Corradi M, Rossi S, Miragoli M, Bergamaschi E, Bollati V. Maternal air pollution exposure during the first trimester of pregnancy and markers of inflammation and endothelial dysfunction. Environ Res. 2022;212(Pt A):113216.
+Article
+  CAS
+  Google Scholar
+  Li J, Liu F, Liang F, Yang Y, Lu X, Gu D. Air pollution exposure and vascular endothelial function: a systematic review and meta-analysis. Environ Sci Pollut Res Int. 2023;30(11):28525–49.
+Article
+  CAS
+  Google Scholar
+  Virdis A, Ghiadoni L, Taddei S. Effects of antihypertensive treatment on endothelial function. Curr Hypertens Rep. 2011;13(4):276–81.
+Article
+  CAS
+  Google Scholar
+  Wauters A, Dreyfuss C, Pochet S, Hendrick P, Berkenboom G, van de Borne P, Argacha JF. Acute exposure to diesel exhaust impairs nitric oxide-mediated endothelial vasomotor function by increasing endothelial oxidative stress. Hypertension. 2013;62(2):352–8.
+Article
+  CAS
+  Google Scholar
+  Mills NL, Törnqvist H, Robinson SD, Gonzalez M, Darnley K, MacNee W, Boon NA, Donaldson K, Blomberg A, Sandstrom T, et al. Diesel exhaust inhalation causes vascular dysfunction and impaired endogenous fibrinolysis. Circulation. 2005;112(25):3930–6.
+Article
+  CAS
+  Google Scholar
+  Kumarathasan P, Vincent R, Blais E, Bielecki A, Guénette J, Filiatreault A, Brion O, Cakmak S, Thomson EM, Shutt R, et al. Cardiovascular and inflammatory mechanisms in healthy humans exposed to air pollution in the vicinity of a steel mill. Part Fibre Toxicol. 2018;15(1):34.
+Article
+  Google Scholar
+  Frampton MW, Balmes JR, Bromberg PA, Stark P, Arjomandi M, Hazucha MJ, Rich DQ, Hollenbeck-Pringle D, Dagincourt N, Alexis N, et al. Multicenter ozone study in oldEr subjects (MOSES): part 1. Effects of exposure to low concentrations of ozone on Respiratory and Cardiovascular outcomes. Res Rep (Health Eff Inst). 2017;192, Pt 1:1–107.
+Google Scholar
+  Download references
+Acknowledgements
+Not applicable.
+Funding
+This work was supported by the National Natural Science Foundation of China (82170347) and Beijing Municipal Public Welfare Development and Reform Pilot Project for Medical Research Institutes (JYY2023-13).
+Author information
+Author notes
+Haoyu Zhang and Jing Yang contributed equally to this work.
+Authors and Affiliations
+Department of Geriatrics, National Clinical Research Center for Geriatric Diseases, Xuanwu Hospital, Capital Medical University, Beijing, 100053, China
+Haoyu Zhang, Jing Yang, Keling Xiao, Jin Si, Yan Li, Lijie Sun, Jinghao Sun, Ming Yi & Jing Li
+Department of Cardiology, Chuiyangliu Hospital Affiliated to Tsinghua University, Beijing, 100021, China
+Yinghua Zhang
+Medical Research & Biometrics Center, National Center for Cardiovascular Diseases, Fuwai Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, 100037, China
+Yang Wang
+Health Management Center, Xuanwu Hospital, Capital Medical University, Beijing, 100053, China
+Xi Chu
+Contributions
+H.Y.Z., J.Y., and J.L. contributed to the conception and design of the work. H.Y.Z. and J.Y. performed data analyses and drafted the manuscript. Y.H.Z., K.L.X., J.S., Y.L., L.J.S., J.H.S., M.Y., and X.C. were responsible for the data collection. Y.W. contributed to the statistical analyses. All authors reviewed and gave critical comments on the manuscript. All authors revised the manuscript and approved the final version to be submitted.
+Corresponding authors
+Correspondence to Xi Chu or Jing Li.
+Ethics declarations
+Ethics approval and consent to participate
+The study was conducted following the Declaration of Helsinki and approved by the Ethics Committee of Xuanwu Hospital, Capital Medical University. Written informed consent was received from all participants enrolled in the study.
+Consent for publication
+Not applicable.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Electronic supplementary material
+Below is the link to the electronic supplementary material.
+Supplementary Material 1
+Rights and permissions
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this licence, visit http://creativecommons.org/licenses/by/4.0/. The Creative Commons Public Domain Dedication waiver (http://creativecommons.org/publicdomain/zero/1.0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Reprints and permissions
+About this article
+Cite this article
+Zhang, H., Yang, J., Zhang, Y. et al. Age and sex differences in the effects of short- and long-term exposure to air pollution on endothelial dysfunction. Environ Health 23, 63 (2024). https://doi.org/10.1186/s12940-024-01100-3
+Download citation
+Received
+09 December 2023
+Accepted
+24 June 2024
+Published
+08 July 2024
+DOI
+https://doi.org/10.1186/s12940-024-01100-3
+Share this article
+Anyone you share the following link with will be able to read this content:
+Get shareable link
+Provided by the Springer Nature SharedIt content-sharing initiative
+Keywords
+Air pollution
+Endothelial dysfunction
+Flow-mediated dilatation
+Sections
+Figures
+References
+Abstract
+Background
+Patients and methods
+Results
+Discussion
+Limitations
+Conclusions
+Data availability
+Abbreviations
+References
+Acknowledgements
+Funding
+Author information
+Ethics declarations
+Additional information
+Electronic supplementary material
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

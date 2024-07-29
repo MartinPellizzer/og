@@ -1,0 +1,149 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (79)
+Journal of Hydrology
+Volume 638
+, July 2024, 131585
+Effect of microbial growth and electron competition on nitrous oxide source and sink function of hyporheic zones
+Author links open overlay panel
+Zhixin Zhang
+,
+Yang Xian
+,
+Xue Ping
+,
+Menggui Jin
+,
+Huirong Guo
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jhydrol.2024.131585
+Get rights and content
+Highlights
+•
+Microbial growth boosts N2O release from hyporheic zones (HZs) into water column.
+•
+Carbon source availability affects electron competition in denitrification.
+•
+HZs with coarse sediments also support N2O release due to microbial growth.
+•
+Microbial activity is the primary factor influencing N2O source and sink.
+•
+A new Damköhler number is proposed to discern N2O source/sink function of HZs.
+Abstract
+The hyporheic zones (HZs) are key sites of the production of nitrous oxide (N2O), a potent ozone-depleting greenhouse gas. Denitrification is the primary process of N2O production in HZs, including four reduction steps (NO3−→NO2−→NO→N2O→N2). Electron competition occurs between the four reduction steps and can significantly impact the production of N2O. However, denitrification was typically considered as simplified two step reactions for investigating the release of N2O, neglecting the electron competition among the four-step reactions. Moreover, the N2O production/consumption patterns are regulated by both hydraulic and biogeochemical conditions in HZs. Dynamic microbial growth cannot only mediate the biogeochemical reactions, but also change hydraulic properties spatiotemporally by bioclogging. But microbial growth is rarely considered for investigating N2O dynamics of HZs. To assess these effects on hyporheic N2O dynamics and source-sink function, we establish a novel numerical model of N2O dynamics of HZs, coupling porous flow, reactive transport, electron competition, microbial growth and bioclogging. The results show that the weak electron competitiveness of N2O reductase results in a less allocation of electrons to the N2O reduction process, particularly in situations with limited carbon sources, thus increasing the release of N2O into the rives. Microbial growth significantly influences N2O release from HZs into rivers, increasing by more than two orders of magnitude on average compared to the model neglecting microbial dynamics. In contrast to the classical knowledges that HZs in coarse sediments tending to short residence time cannot act as sources of N2O, dynamic microbial growth obviously increases the potential for N2O release from HZs in coarse sediments to the rivers. The global Monte Carlo regional sensitivity analyses indicate that microbial biomass is the most critical factor determined the hyporheic source-sink function for N2O, followed by carbon oxidation rate and residence time. These are significantly different from previous knowledge that the residence time and oxygen/nitrogen uptake rate are the most sensitive parameters, which may lead to misunderstanding of the key controlling factors of N2O release from HZs. In addition, we propose a new Damköhler number (
+) of dissolved oxygen by multiplying the classical
+with a dimensionless microbial modification factor for identifying N2O source-sink function of HZs, with
+ < 1 for N2O sink, while
+ > 1 for N2O source.
+Graphical abstract
+Download: Download high-res image (222KB)
+Download: Download full-size image
+Introduction
+Nitrous oxide (N2O) is a dominant ozone-depleting substance in the stratosphere (Forster et al., 2007, Ravishankara et al., 2009), and its potential impact on global warming is about 300 times greater than CO2 per molecule (Forster et al., 2007, Lassey and Harvey, 2007). Streams and rivers have been proven to be a significant source of N2O (Quick et al., 2019, Rosamond et al., 2012, Yao et al., 2019), and N2O emissions from rivers and streams range from 0.03 to 2 Tg N-N2O yr−1 with a median 0.6 Tg N-N2O yr−1 (Anderson et al., 2010, Yao et al., 2019), accounting for about 10 % of global anthropogenic emissions (Beaulieu et al., 2011, Reeder et al., 2018a, Yao et al., 2019). Surface water with various nutrients (e.g., organic carbon and nitrate, etc.) and dissolved oxygen (DO) enters the underlying bed and adjacent riparian sediments, and contacts with the microbially colonized sediment grains, and ultimately returns to the water column though hyporheic exchange (Boano et al., 2014), making hyporheic zone (HZ) a hotspot for biogeochemical reactions (Boano et al., 2010, Zarnetske et al., 2012). Particularly, the dynamic nitrogen cycle within hyporheic zones (HZs) can produce N2O, which may escape to the atmosphere through surface water–air interfaces after rejoining to the rivers and streams, making the HZ a potential source of N2O (Beaulieu et al., 2011, Wallace et al., 2021). The large uncertainty of N2O budget of rivers and streams is likely attributed to incomplete understanding of N2O dynamic processes of HZs (Jiang et al., 2021, Marzadri et al., 2017, Quick et al., 2019, Yao et al., 2019).
+The hyporheic N2O production/consumption patterns are regulated by both hydraulic and biogeochemical conditions in HZs (Beaulieu et al., 2011, Quick et al., 2016, Reeder et al., 2018a). The former determine the supply rate and residence time of solutes (Zarnetske et al., 2012), while the latter including redox conditions, nutrient levels, and microbial activity, significantly impacting reaction rates (Beaulieu et al., 2011, Reeder et al., 2018a, Xian et al., 2023). Previous researches (Quick et al., 2016, Reeder et al., 2018a) indicated that N2O emissions into rivers and streams primarily occur in HZs characterized by intermediate residence times and biogeochemical reaction rates. This is because too long residence times and too rapid reaction rates can lead to the complete conversion of N2O to N2, whereas too short residence times and too slow reaction rates may result in the water flow returning to the rivers and streams before N2O generation. Furthermore, other studies (Li et al., 2023, Wallace et al., 2021) proposed that sediments with intermediate hydraulic conductivity (K) exhibit the highest denitrification rates and produce the greatest amount of N2O, while coarse sediments with high K primarily serve as channels for nutrient transport rather than hotspot regions for N2O productions.
+There are four potential pathways that can produce N2O, including nitrification, incomplete denitrification, nitrifier denitrification, and dissimilatory nitrate reduction to ammonium (DNRA), among which denitrification is generally considered to be the predominant N2O production process in riverine sediments (Baulch et al., 2011, Beaulieu et al., 2011, Marzadri et al., 2017, Quick et al., 2016, Quick et al., 2019, Wallace et al., 2021). Denitrification is a complex, multi-step biogeochemical reaction catalyzed by various reductases (NO3− reductase (NAR), NO2− reductase (NIR), NO reductase (NOR) and N2O reductase (NOS)), generating multiple intermediate and final products (NO2−, NO, N2O, and N2), accompanied by electron transfer (Domingo-Felez and Smets, 2019, Ni et al., 2011, Richardson et al., 2009). Specifically, the reaction of each step is as follows:
+The complete reduction of NO3− to N2 requires the speed of the each step to be faster than the former step, otherwise intermediate (i.e., NO2−, NO, N2O) products would accumulate (Domingo-Felez and Smets, 2019, Domingo-Felez and Smets, 2020, Pan et al., 2013a, Pan et al., 2013b, Richardson et al., 2009). Electron competition refers to the phenomenon within microbial organisms where multiple reduction steps vie for the electrons provided by the electron donor during redox reactions. All electrons for reductases in denitrification come from a common electron donor pool, the ubiquinol pool (UQH2) (Pan et al., 2015, Richardson et al., 2009). However, the competitive ability for electrons varies among different reductases. Therefore, there may be electron competition among the four reduction steps in the denitrification process, especially under conditions of limited carbon sources (Pan et al., 2015, Pan et al., 2013b, Richardson et al., 2009). The unbalanced reduction rates between different denitrification steps resulting from electron competition may lead to the accumulation of intermediate products, such as N2O (Pan et al., 2013a, Pan et al., 2013b). Additionally, when the demand for electrons increases, it is the reduction rate rather than the oxidation rate that limits denitrification (Domingo-Felez and Smets, 2020). However, the electron competition process is rarely considered for investigating N2O dynamics within HZs in the previous studies (Jiang et al., 2021, Jiang et al., 2022, Quick et al., 2016, Reeder et al., 2018a, Wallace et al., 2021).
+Furthermore, both residence times and biochemical reaction rates are influenced by microbes within HZs (Caruso et al., 2017, Ping et al., 2020, Samso et al., 2016, Xian et al., 2023). Specifically, as nutrients are transported into the sediment, microbes are stimulated to grow. The biofilm composed of the cells themselves and their secreted extracellular polymeric substances (Battin et al., 2016) can occupy the pore space, resulting in a decrease of hydraulic conductivity and an increase of residence times (De Falco et al., 2018, Newcomer et al., 2016, Samso et al., 2016, Thullner et al., 2004, Xian et al., 2019). Meanwhile, the variability in microbial biomass can alter the rates of biogeochemical reactions (Aubeneau et al., 2016, Caruso et al., 2017, De Falco et al., 2018, Newcomer et al., 2018, Ping et al., 2020, Xian et al., 2019, Xian et al., 2023, Zhu et al., 2023b). However, previous studies typically ignored the microbial dynamics for analyzing N2O dynamics of HZs, instead of using the common assumption that biomass of functional microbial groups don’t occupy the volume of the porous medium and remain constant, thus the porosity and hydraulic conductivity of sediments are time-invariant (Bardini et al., 2012, Jiang et al., 2021, Jiang et al., 2022, Shuai et al., 2017, Wallace et al., 2021, Zarnetske et al., 2012). For example, the classic dimensionless Damköhler number lumping the transport time scales and biogeochemical reaction time scales, has been extensively utilized to evaluate the source-sink function of N2O within HZs (Jiang et al., 2021, Jiang et al., 2022). However, under conditions of dynamic microbial growth, the effectiveness of this classic evaluation indicator remains unclear. Thus, the mechanisms of N2O dynamics in HZs remain elusive at present, particularly considering the combined effects of microbial growth and electron competition in the multi-step reduction reactions of denitrification.
+The purpose of this study is to explore the effects of microbial growth and electron competition on N2O dynamics as well as N2O source-sink function of HZs. We first develop a novel one-numerical numerical model that couples hyporheic flow, reactive solutes transport, electron competition, microbial growth and bioclogging. Second, the numerical model is calibrated based on previous experimental data. Third, the effects of microbial growth and electron competition on N2O dynamics in HZs are analyzed by comparing with the results from the present model to those excluding the electron competition or microbial growth or both of them in Section 3. Fourth, we conduct a global Monte Carlo regional sensitivity analysis to explore the dominant process on N2O dynamics in Section 3. Additionally, we proposed a modified Damköhler number to identifying the N2O source-sink function of a hyporheic zone considering dynamic microbial growth.
+Section snippets
+Model description
+The hyporheic exchanges occur over a variety of spatial scales, including from the small scales like ripple and dune, to the large scales such as pool-riffle sequences, meanders (Boano et al., 2010, Boano et al., 2014, Ping et al., 2022, Stonedahl et al., 2010). To explore the mechanisms of N2O dynamics within HZs, in this section we construct a novel one-dimensional (1-D) numerical model (Fig. 1) that couples processes including subsurface flow, reactive nutrient transport with the electron
+The control of electron competition and microbial growth in the production and consumption of N2O within HZs
+Fig. 3 illustrated the spatiotemporal distributions of the physical characteristics, solutes concentration, net N2O production rate and electrons distribution among different reduction processes under conditions of dynamic microbial growth within HZs. Taking the scenario of stream DOC = 10 mg/L as an example, we illustrate the influence of dynamic microbial growth and electron competition on the N2O dynamics within HZs. As microorganisms growing, the porosity and permeability gradually decrease
+The importance of coupling electron competition processes
+The traditional non-competitive models assuming denitrification as a two-step reaction and ignoring electron competition among different reduction steps are commonly used to investigate the N2O dynamics of HZs (Jiang et al., 2021, Jiang et al., 2022, Reeder et al., 2018a, Wallace et al., 2021). However, experimental studies have elucidated the competitive nature among the four reduction steps in denitrification (Pan et al., 2015, Pan et al., 2019a, Pan et al., 2019b). In several prior studies
+Conclusions
+Microbial activity significantly influences the physical transport and biogeochemical conditions that play a crucial role in the production and consumption of N2O within HZs. The impact of varying electron competitiveness among denitrification enzymes on N2O dynamics within HZs remains unclear. In this study, we constructed a new 1-D coupled model, incorporating sensitivity analysis to explore their impact on the source-sink function of N2O within HZs. The key findings are as follows:
+(1)
+Electron
+CRediT authorship contribution statement
+Zhixin Zhang: Writing – original draft, Visualization, Methodology, Investigation, Formal analysis, Data curation, Conceptualization. Yang Xian: Writing – review & editing, Validation, Supervision, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Conceptualization. Xue Ping: Writing – review & editing, Validation, Supervision, Investigation, Formal analysis, Conceptualization. Menggui Jin: Writing – review & editing, Validation, Supervision,
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+This study was financially supported by the National Natural Science Foundation of China (Nos. 42107089 and U23A2042). This study was also supported by the Ministry of Science and Technology of the People's Republic of China (2023YFC3706905), and the “CUG Scholar” Scientific Research Funds at China University of Geosciences (Wuhan) (Project No.2023067), and the Fundamental Research Funds for Central Universities, China University of Geosciences (Wuhan) (CUGDCJJ202212). We sincerely thank the
+References (79)
+J.S. Almeida et al.
+A unifying kinetic model of denitrification
+J. Theor. Biol.
+(1997)
+L. Bardini et al.
+Nutrient cycling in bedform induced hyporheic zones
+Geochim. Cosmochim. Acta
+(2012)
+A. Brovelli et al.
+Bioclogging in porous media: model development and sensitivity to initial conditions
+Environ Model Softw.
+(2009)
+M.B. Cardenas et al.
+Constraining denitrification in permeable wave-influenced marine sediment using linked hydrodynamic and biogeochemical modeling
+Earth Planet. Sci. Lett.
+(2008)
+M.B. Cardenas et al.
+Hydrodynamics of coupled flow above and below a sediment–water interface with triangular bedforms
+Adv. Water Resour.
+(2007)
+C. Domingo-Felez et al.
+Regulation of key N2O production mechanisms during biological water treatment
+Curr. Opin. Biotechnol.
+(2019)
+P. Li et al.
+Investigating key drivers of N2O emissions in heterogeneous riparian sediments: reactive transport modeling and statistical analysis
+Sci. Total Environ.
+(2023)
+J.E. Nash et al.
+River flow forecasting through conceptual models part I — a discussion of principles
+J. Hydrol.
+(1970)
+Y. Pan et al.
+Electron competition among nitrogen oxides reduction during methanol-utilizing denitrification in wastewater treatment
+Water Res.
+(2013)
+Y. Pan et al.
+Evaluating two concepts for the modelling of intermediates accumulation during biological denitrification in wastewater treatment
+Water Res.
+(2015)
+View more references
+Cited by (0)
+View full text
+© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Part of special issue
+Interactions between groundwater and surface water: processes, methods and applications
+Edited by Yueqing Xie, James McCallum, Hugo Delottier, Audrey Hucks Sawyer
+View special issue
+Recommended articles
+A practical equation for predicting saturated hydraulic conductivity of fine-grained soils
+Journal of Hydrology, Volume 638, 2024, Article 131431
+You Gao, …, Yuchen Fu
+Pore-scale investigations of permeability of saturated porous media: Pore structure efficiency
+Journal of Hydrology, Volume 637, 2024, Article 131441
+Zhun Zhang, …, Fulong Ning
+Study on the influence of design parameters of porous asphalt pavement on drainage performance
+Journal of Hydrology, Volume 638, 2024, Article 131514
+Siyu Chen, …, Can Chen
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

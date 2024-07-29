@@ -1,0 +1,85 @@
+Top bar navigation
+About us
+All journals
+All articles
+Submit your research
+Search
+Login
+Frontiers in Reproductive Health
+Sections
+Articles
+Research Topics
+Editorial board
+About journal
+Download article
+183
+Total views
+54
+Downloads
+View article impact
+View altmetric score
+Share on
+Edited by
+Justin C. Konje
+University of Leicester, United Kingdom
+Reviewed by
+Anna-Sophie Rommel
+Icahn School of Medicine at Mount Sinai, United States
+Laura Mitchell
+University of Texas Health Science Center at Houston, United States
+Table of contents
+Abstract
+Introduction
+Materials and methods
+Results
+Discussion
+Data availability statement
+Ethics statement
+Author contributions
+Funding
+Acknowledgments
+Conflict of interest
+Publisher's note
+Author disclaimer
+Supplementary material
+References
+Export citation
+Check for updates
+People also looked at
+ORIGINAL RESEARCH article
+Front. Reprod. Health, 11 July 2024
+Sec. Gynecology
+Volume 6 - 2024 | https://doi.org/10.3389/frph.2024.1304749
+This article is part of the Research Topic
+Environmental Impacts on Women’s Health Disparities and Reproductive Health: Advancing environmental health equity in clinical and public health practice
+View all 8 articles
+Examining modification of the associations between air pollution and birth outcomes by neighborhood deprivation in a North Carolina birth cohort, 2011–2015
+Kristen N. Cowan1,2Alison K. Krajewski3Monica P. Jimenez1Thomas J. Luben3Lynne C. Messer4Kristen M. Rappazzo3*
+1Oak Ridge Institute for Science and Education (ORISE), US EPA, Research Triangle Park, NC, United States
+2Department of Epidemiology, Gillings School of Global Public Health, University of North Carolina at Chapel Hill, Chapel Hill, NC, United States
+3Office of Research and Development, Center for Public Health & Environmental Assessment, United States Environmental Protection Agency, Research Triangle Park, NC, United States
+4Departments of Community Health and Health Promotion and Epidemiology, OHSU-PSU School of Public Health, Portland, OR, United States
+Background: Evidence from studies of air pollutants and birth outcomes suggests an association, but uncertainties around geographical variability and modifying factors still remain. As neighborhood-level social characteristics are associated with birth outcomes, we assess whether neighborhood deprivation level is an effect measure modifier on the association between air pollution and birth outcomes in a North Carolina birth cohort.
+Methods: Using birth certificate data, all North Carolina residential singleton live births from 1 January 2011 to 31 December 2015 with gestational ages of 20–44 weeks (n = 566,799) were examined for birth defect diagnoses and preterm birth. Exposures were daily average fine particulate matter (PM2.5), daily 8-h maximum nitrogen dioxide (NO2), and daily 8-h maximum ozone (O3) modeled concentrations, and the modifier of interest was the neighborhood deprivation index (NDI). Linear binomial models were used to estimate the prevalence differences and 95% confidence intervals (CI) for the association between ambient air pollution and birth defect diagnoses. Modified Poisson regression models were used to estimate risk differences (RDs) and 95% CIs for air pollution and preterm birth. Models were stratified by the neighborhood deprivation index group (low, medium, or high) to assess potential modification by NDI.
+Results: Approximately 3.1% of the study population had at least one birth defect and 8.18% were born preterm. For preterm birth, associations with PM2.5 and O3 did not follow a conclusive pattern and there was no evidence of modification by NDI. The associations between NO2 and preterm birth were generally negative across exposure windows except for a positive association with NO2 and preterm birth for high NDI [RD: 34.70 (95% CI 4.84–64.56)] for entire pregnancy exposure. There was no evidence of associations between pollutants examined and birth defects.
+Conclusions: There may be differences in the association between NO2 exposure and preterm birth by NDI but we did not observe any evidence of associations for birth defects. Our results support the public health protection afforded by reductions in air pollution, even in areas of neighborhood deprivation, but future research conducted in areas with higher levels of air pollution and evaluating the potential for modification by neighborhood deprivation level would be informative.
+Introduction
+Preterm birth (PTB) and birth defects are two of the leading causes of infant mortality in the United States (1–3). These adverse birth outcomes are also associated with high medical expenses, higher risk of medical conditions across the life course, and developmental disabilities (4–9). Across live born infants in the United States since 2010, about 10% (9.57–10.49) were preterm, defined as being born before 37 weeks of gestation (10); and about 3% had at least one birth defect diagnosed in their first year of life. Birth defects can range in severity with over 1,000 different types identified (11). There are several established risk factors for adverse birth outcomes, e.g., age of the birthing person and smoking for preterm birth (12–14), and heavy alcohol use, certain medications, and uncontrolled diabetes for birth defects (15–19). Researchers have also reported associations between environmental exposures, such as lack of greenspace, extreme heat, and air pollution, and adverse birth outcomes (20–31).
+Over the past few decades, evidence has accumulated suggesting an association between air pollution and birth outcomes. A number of studies have identified a positive association between increases in exposure to air pollutants (i.e., NO2, PM2.5, O3) and preterm birth (32–34), with some studies finding that exposure to O3 specifically during the first two trimesters of pregnancy heightens the risk of preterm birth (32). While most studies have found positive associations between air pollution and preterm birth, a 2020 systematic review identified five (among 24 total studies on PM2.5 and preterm birth) that did not find an association when measuring exposure across pregnancy or by trimester (35). However, evidence regarding the association between air pollution and birth defects is less consistent. Some studies have reported associations between NO2 and congenital heart defects (36), but others have not (37), and findings between O3 and PM2.5 with birth defects are very inconsistent (32, 34). Given the heterogeneity reported across studies, there are uncertainties around the role of exposure timing, birthing parent characteristics, geographical variability, and other mediating or modifying factors in the relationship between air pollution and poor birth outcomes (38). In addition, there is limited knowledge on the mechanisms by which air pollution may affect birth outcomes (39, 40).
+Given the well-documented sociodemographic disparities in both air pollution exposure, particularly with higher levels of pollution occurring in areas with a higher proportion of non-White residents (41–43), and racial disparities observed in birth defects and preterm birth (44–47), structural factors may potentially modify air pollutant–birth outcome associations. Research has also shown that neighborhood-level characteristics such as neighborhood deprivation are associated with poor birth outcomes (48–53). Environmental and social factors likely contribute to cumulatively impact birth outcomes, worsening disparities (54, 55). However, there is limited information on how air pollutants and neighborhood deprivation interact with one another to impact birth outcomes.
+To address this gap, the goal of this study was to examine if the neighborhood deprivation level is an effect measure modifier on the association between air pollution and birth outcomes using data from all eligible births in North Carolina (NC).
+Materials and methods
+Study population
+Birth certificate data for live births were provided by the NC Department of Health and Human Services’ Division of Public Health linked with data from the Birth Defects Monitoring Program (n = 588,135). The population for this study included all live, singleton births with gestational age between 20 and 44 weeks delivered from 1 January 2011 to 31 December 2015 with residence at delivery in NC. These specific years were selected due to data availability and consistency of records as a result of changes made to the North Carolina birth cohort in 2010. After excluding multiple births (n = 20,586), deliveries outside of 20–44 weeks gestational age (n = 642), and missing residential address at time of delivery that precluded geocoding (n = 8), the final sample was 566,799 births. The residential address at time of delivery was geocoded to the corresponding census tract using ArcGIS (ESRI, version 10.8, Redlands, CA).
+Birth outcomes
+The outcomes of interest in this study were birth defects and preterm birth. Birth defects were identified from the North Carolina birth defect monitoring program (NCBDMP), which is a surveillance system that uses medical records to identify all birth defects by type that are diagnosed in the first year of life in NC (56). We chose birth defects with previous evidence of associations with air pollutant exposures to examine in this analysis: these included pulmonary valve atresia/stenosis, tetralogy of Fallot, atrioventricular septal defects, and lower limb reduction defects; we also examined gastroschisis due to higher prevalence among non-White births (57–59).
+PTB was defined as delivery at less than 37 weeks completed gestation based on clinical estimate of gestational age as reported on the birth certificate. All live, singleton births without any birth defects, gestational age between 20 and 44 weeks, and birth weight between 1,000 and 6,000 g were included in analyses of preterm birth.
+Air pollution exposures
+The air pollutants of interest in this study were daily average fine particulate matter (PM2.5), daily 8-h maximum nitrogen dioxide (NO2), and daily 8-h maximum ozone (O3) concentrations. Daily census tract–level concentration estimates for daily average PM2.5 and 8-h maximum for O3 came from the EPA's Fused Community Multiscale Air Quality model surface using Downscaling (fCMAQ) model. The fCMAQ model links observed pollution data from EPA monitoring sites with deterministic chemistry and meteorology data from the Community Multiscale Air Quality model through a spatially and temporally varying coefficient model (60–62). These data are available for download at RSIG-related downloadable data files (https://www.epa.gov/hesc/rsig-related-downloadable-data-files). Daily 8-h maximum NO2 concentration estimates were extracted from a hybrid ensemble model with 1 km2 spatial resolution, which used multiple machine learning algorithms and predictor variables, including satellite data, meteorological variables, land-use variables, elevation, and chemical transport model predictions to estimate daily concentrations for NO2 at 1 km2 grid resolution (63). PM2.5 and O3 data were provided at the census tract level, and NO2 data were aggregated to census tract level. Births were then linked to air pollutant concentrations by census tract of residential address at time of birth, and daily concentrations of PM2.5, NO2, and O3 were averaged across each trimester. Trimester 1 was considered to go through week 12, and trimester 2 began at the start of week 13 and continued through week 26.
+Modifier
+A neighborhood deprivation index (NDI) was created using principal component analysis on 2010 census variables including housing, poverty, employment, occupation, and education at the census tract level (64). The NDI used here is a relative ranking of neighborhood deprivation for NC census tracts compared to one another; a higher index value is interpreted as having more deprivation. Neighborhood deprivation categories were determined by visually examining the distribution of NDI across all census tracts in NC and using a nearest centroid sorting clustering method to group census tracts into three NDI levels (low, medium, or high deprivation) (65). Individuals were assigned an NDI category based on census tract of the residential address at time of birth.
+Covariates
+Covariates of interest in this study were obtained from the birth certificate records and included birthing parent demographic characteristics of age at delivery, race/ethnicity (white, non-Hispanic, Black, non-Hispanic; Hispanic; Asian or Pacific Islander, non-Hispanic; American Indian, non-Hispanic; other), marital status (married or unmarried), Medicaid status at time of delivery (yes or no), education (<high school, high school, >high school), and month of conception (estimated using clinical estimate of gestational age and birth date). In the context of these analyses, race and ethnicity are used to represent potential stress from experiencing interpersonal and structural racism as well as residential segregation within the US and not as a biological construct (66).
+Statistical analysis
+As the objective of these analyses was to evaluate the potential for effect measure modification of air pollutant–birth outcome associations by neighborhood deprivation, unstratified and NDI-stratified (low, medium, and high) models were run. The presence of effect measure modification was evaluated qualitatively by examining the separation of stratified effect estimates from the unstratified effect estimate. Confounders of interest were determined using a directed acyclic graph (DAG, Supplementary Figure S1) (67).
+Linear binomial regression models were used to estimate the prevalence differences (PDs) and 95% confidence intervals (CIs) for the association between ambient air pollution concentration and individual birth defect diagnoses for any birth defects and specific birth defect types. Any birth defect includes all diagnosed birth defect phenotypes and not just the specific phenotypes examined individually. The associations were estimated per 10,000 births for each individual air pollutant (PM2.5, NO2, and O3). Exposure contrasts for each pollutant were approximately 10% increases with values: 1 µg/m3 increase for PM2.5, 4 ppb increase in O3, and 7 ppb increase in NO2. Exposures were assigned as the average daily pollutant concentration across the first trimester (weeks 1–12). Models for birth defects were adjusted for birthing parent age

@@ -1,0 +1,127 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/jax.js
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Sustainability
+All Article Types
+Advanced
+  Journals Sustainability Volume 16 Issue 11 10.3390/su16114851
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Antonio Boggia
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+636
+Table of Contents
+Abstract
+Introduction
+Data and Methods
+Results and Discussion
+Impact Mechanism Analysis
+Conclusions and Policy Recommendations
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Conflicts of Interest
+Abbreviations
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Can Environmental Protection Tax Decrease Urban Ozone Pollution? A Quasi-Natural Experiment Based on Cities in China
+by Wenhao Xue
+1, Zhenwu Xiong
+1, Liyun Wang
+1, Zhe Yang
+1,* and Xinyao Li
+2
+1
+School of Economics, Qingdao University, Qingdao 266071, China
+2
+Institute of Marine Development, Ocean University of China, Qingdao 266100, China
+*
+Author to whom correspondence should be addressed.
+Sustainability 2024, 16(11), 4851; https://doi.org/10.3390/su16114851
+Submission received: 5 May 2024 / Revised: 3 June 2024 / Accepted: 3 June 2024 / Published: 6 June 2024
+(This article belongs to the Section Air, Climate Change and Sustainability)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+The air pollution control in China has gradually transitioned from single pollutant control to multi-pollutant collaborative governance. Among the relevant factors, the control of ozone (O3) pollution has received widespread attention. Among the numerous air pollution regulations, environmental protection tax (EPT) is highly valued, as it can effectively control the emissions of O3 precursors. The objective of this study is to investigate whether the implementation of an EPT can reduce urban O3 pollution in China. Based on this, we used the difference-in-differences (DID) method, combined with the panel data from 221 cities in China from 2015 to 2020, to conduct an empirical analysis of the impacts of EPT reform policy on O3 pollution. The econometrics results indicate that the EPT reform policy can effectively inhibit urban near-surface O3 pollution by approximately 2.1%, and this result was confirmed to be accurate by multiple robustness tests. Additionally, significant spatial heterogeneities of this control effect are captured in this paper. Due to urban development levels and geographical factors, the better pollution reduction effects were national-model environmental protection, and efforts based on inland cities and high-level financial cities. Furthermore, three potential mechanisms, including cutting energy consumption, industrial structure optimization, and technological advance, were verified as being relevant to the impact path of EPT reform policy as to O3 pollution. This paper can provide empirical evidence for O3 pollution control in China, and also contribute to the further improvement of environmental protection policies.
+Keywords: environmental protection tax; ozone; difference-in-differences; energy consumption; technological advances
+1. Introduction
+Since the reform and opening up, economic growth has appeared to be an accelerating trend in China. However, serious challenges to environmental carrying-capacity, especially air pollution problems, exist behind the extensive economic development model [1,2]. Due to this issue, the Chinese government adopted a series of environmental protection policies aiming to reduce air pollution exposure at the national and local scales [3]. By 2022, the city-level average PM2.5 (fine particles) concentration in China reached 29 μg/m, with a year-on-year decrease of 3.3%, which was lower than the national secondary standard (35 μg/m) for three consecutive years. However, surface O3 pollution has increased recently [4]. Long-term exposure to high levels of ozone (O3) pollution poses serious threats to the health of residents, crop production, and vegetation growth [5,6]. Therefore, effectively reducing urban O3 pollution has become the key point for the government in seeking to improve the atmospheric environment in China.
+Among all anti-pollution economic policies, the environmental protection tax (EPT), as a market-based environmental regulation, is one of the most effective methods for emission reduction and air pollution control [7]. Using panel data from 15 countries along the Belt and Road, Fang et al. [8] found that EPT is beneficial for renewable energy consumption. Then, based on data from 29 Organization for Economic Co-operation and Development (OCED) countries, Rafique et al. [9] found that EPT contributes to economic and environmental sustainability in OCED countries experiencing ecological footprint issues. Meanwhile, different types of environmental taxes will generate different environmental benefits. Fuel-tax reform and green taxes are proven to curb harmful road transport air pollutants and reduce negative environmental externalities, respectively [10,11], eventually realizing green dividends [12].
+The EPT system carried out in China was relatively late in coming. It was not until 2018 that the EPT policy was formally implemented, with the promulgation of the EPT Law of the People’s Republic of China. Notably, the EPT standards for gas pollutants have become stricter, especially for sulphur dioxide (SO2) and nitrogen oxides (NOX), which are important precursors for O3 generation. Compared with other taxes, the standards are highly professional, representing an optimization and transformation of environmental regulation policies in China, although the EPT has only been levied for a short time [13]. Notably, although the EPT is a fiscal policy tool, its main purpose is to make pollutant dischargers bear the negative external costs of necessary pollution discharge and treatment through the tax levy capacity of the EPT rather than to obtain fiscal revenue. Meanwhile, by the regulating role of green tax levers, the government can promote regional enterprises, encouraging them to carry out energy conservation and emission reduction, increase pollution control efforts, accelerate green transformation and upgrading, and eventually promote ecological civilization construction in China [14]. Currently, some studies indicate that the implementation of EPT can bring significant emission reduction effects in China. Using data from fossil fuel power plants in 30 provinces in China, Li et al. [15] found that EPT policies reduce pollutant emissions from power plants and that there is an inverted U-shaped relationship between emission reduction effects and tax rates. Subsequently, Gao et al. [16] used panel data from 107 cities to examine the impacts of EPT on the synergistic effects of pollution emission reduction and carbon emission reduction in China, showing that EPT may enhance the synergy between pollution emission reduction and carbon emission reduction. In addition, at a micro level, Lu [17] empirically analyzed the impacts of EPT on the illegal emission behavior of heavily polluting enterprises, based on datasets from Chinese listed companies, suggesting that EPT can significantly reduce the day–night differences in PM2.5 concentrations around the nearest monitoring site to the company and effectively inhibit the illegal emissions of enterprises.
+Many socio-economic factors are recognized as key determinants of air pollution [18]. In an investigation of the factors influencing air pollution, Zhao et al. [19] found through empirical analysis that education expenditure is conducive to lowering PM2.5 concentrations, Dong et al. [20] found that green technology innovation is conducive to lowering the AQI index, and Levinson [21] found that international trade is also an important factor influencing air pollution.
+However, previous studies have mainly focused on the effects of EPT on PM2.5 concentrations, SO2 concentrations, and carbon emissions [16,22,23,24]. There is no research investigating the quantitative impacts and potential mechanisms of the EPT reform on O3 pollution. In addition, previous studies usually select pollution fees and quasi-environmental protection taxes as economic indicators to analyze the environmental dividends of the EPT in China, but this is inaccurate, and it has certain measurement biases caused by possible endogeneity problems. To avoid this uncertainty, we use the EPT reform as a quasi-natural experiment to explore the policy effect of the EPT.
+The purpose of this study is to explore the impact and underlying mechanisms of the EPT reform on O3 pollution in China by econometric methods. Based on this, we employ the EPT reform as a quasi-natural experiment and apply the DID model to evaluate its impacts on O3 pollution at the city level in China from 2015 to 2020. Thus, the research on the effects of EPT emission reductions is expanded. Then, we discuss the mechanism paths of reduced energy consumption, industrial structure optimization, and technological advances in regional O3 pollution reduction; thereby, the understanding of the emission reduction pathway of EPT is deeply enriched. In addition, the heterogeneities of the effects of the EPT reform on O3 pollution were captured with positioning scales, region-specific analyses, and with attention to urban intrinsic characteristics; empirical evidence is provided to support the implementation of differentiated environmental regulatory policies in diverse localities. This study will enrich the relevant air pollution research and help to provide a realistic reference for O3 pollution control. Furthermore, we have combined the analyses of O3 pollution and EPT reform for the first time, which has groundbreaking significance for the future evaluation of environmental policies in China.
+The layout of the article is structured as follows: Section 1. Introduction; Section 2. Data and Methods; Section 3. Results; Section 4. Impact Mechanism Analysis; and Section 5. Conclusions and Policy Recommendations.
+2. Data and Methods
+2.1. Study Area
+Figure 1 shows the spatial distribution of the changes in SO2- and NOX-EPT standards across China. (The software used to create the maps was ArcMap10.8, and the data for the maps came from the data center of the Institute of Geography, Chinese Academy of Sciences). Overall, 13 provinces have seen increases in the strictness of SO2- and NOX-EPT standards, among 31 provincial-level administrative regions in mainland China; the administrative regions are concentrated in the eastern and central regions. The increases in the stringency of the standards for the two air pollutants in other provinces are generally consistent, except for Tianjin, with an increase in regulated levels of SO2 (NOX) of 3.70 (1.50) Yuan/pollution equivalent. Among all regions in which SO2- and NOX-EPT standards improved, the maximum improvement value was captured in Nanjing, with an increase of 4.80 Yuan/pollution equivalent. Approximately 43.1% of regions have increased their EPT-regulated standards for air pollutants by more than 2.00 Yuan/pollution equivalent, indicating the determination of the Chinese government with respect to environmental governance.
+Figure 1. The spatial distribution of the changes in the collection standards of EPT for SO2 and NOX in China.
+2.2. Data Employed
+2.2.1. Ground-Level O3
+To explore the effect of the EPT reform on O3 pollution, we used panel data of 221 cities in China from 2015 to 2020 as samples in our empirical model. These panel data trim all continuous variables by dropping observations outside the range of the 1st to the 99th percentile to reduce the effects of uncertainty of heteroscedasticity upon the results. Table 1 shows the descriptive statistics for the explained, explanatory, control, and mechanism variables used here. Among them, the ground level maximum eight-hour O3 concentration ( M D A 8   O 3 ) was selected as the explained variable, which was collected from the China High Air Pollutants (CHAP) dataset (https://weijing-rs.github.io/product.html, accessed on 5 June 2024) [25]. Based on surface measurements and satellite remote sensing records, the M D A 8   O 3 concentration was calculated by the ensemble learning method called extremely randomized trees (extra-trees, or ERT), at spatiotemporal resolutions of 10 km and 1 day. The annual mean M D A 8   O 3 concentration was 94.921 μg/m3, and the maximum value reached 123.850 μg/m3, indicating that O3 pollution was relatively severe in China during our study period. In addition, to eliminate the heteroscedasticity caused by different data units, we took logarithmic measurements of M D A 8   O 3 concentration ( ln O 3 ).
+Table 1. The descriptive statistics for all variables.
+2.2.2. Environmental Protection Tax
+To accurately identify the potential impacts of EPT reform on O3 pollution, a dummy variable ( E P T R ) was established in our econometric model. If the standard of EPT reform was improved in a certain city in 2018 and in subsequent years, the values of this variable are 1, and 0 is used in other cases. Table 1 also shows the descriptive statistics of the E P T R . The mean value was 0.260, which met the construction requirements of DID model-building.
+2.2.3. Other Control Data
+According to the environmental Kuznets

@@ -1,0 +1,149 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading web-font Gyre-Pagella/Normal/Regular
+
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Atmosphere
+All Article Types
+Advanced
+  Journals Atmosphere Volume 15 Issue 7 10.3390/atmos15070777
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Hui Zhao
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+326
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Trend Analysis and Spatial Source Attribution of Surface Ozone in Chaozhou, China
+by Zhongwen Huang
+1,*, Lei Tong
+2,3,*, Xuchu Zhu
+4, Junxiao Su
+2,3,5, Shaoyun Lu
+6 and Hang Xiao
+2,3
+1
+School of Chemistry and Environmental Engineering, Hanshan Normal University, Chaozhou 521041, China
+2
+Center for Excellence in Regional Atmospheric Environment & Fujian Key Laboratory of Atmospheric Ozone Pollution Prevention & Key Laboratory of Urban Environment and Health, Institute of Urban Environment, Chinese Academy of Sciences, Xiamen 361021, China
+3
+Zhejiang Key Laboratory of Urban Environmental Process and Pollution Control, CAS Haixi Industrial Technology Innovation Center in Beilun, Ningbo 315830, China
+4
+Environmental Protection Monitoring Station in Beilun, Ningbo 315800, China
+5
+University of Chinese Academy of Sciences, Beijing 100049, China
+6
+Centre for Chaozhou Environment Information, Chaozhou 521000, China
+*
+Authors to whom correspondence should be addressed.
+Atmosphere 2024, 15(7), 777; https://doi.org/10.3390/atmos15070777
+Submission received: 29 May 2024 / Revised: 17 June 2024 / Accepted: 26 June 2024 / Published: 28 June 2024
+(This article belongs to the Special Issue Ozone Pollution and Effects in China)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Review Reports Versions Notes
+Abstract
+Surface ozone (O3), a critical air pollutant, poses significant challenges in urban environments, as exemplified by the city of Chaozhou in southeastern China. This study employs a novel combination of trend analysis and spatial source attribution techniques to evaluate the long-term dynamics of surface ozone and identify its sources. Utilizing the Kolmogorov–Zurbenko (KZ) filter and percentile regression, we analyzed the temporal trends of daily maximum 8 h moving average ozone (MDA8 O3) concentrations from 2014 to 2023. Our analysis revealed a general long-term downward trend in MDA8 O3 values alongside notable monthly fluctuations, with peak concentrations typically occurring in October and April. Additionally, the percentile regression analysis demonstrated a significant downward trend in MDA8 O3 concentrations across nearly all percentiles, with larger decline rates at higher percentiles, highlighting the effectiveness of local and regional O3 management strategies in Chaozhou. The changes in MDA8 O3 concentrations were mainly influenced by the short-term component, contributing 62.2%, while the contribution of the long-term fraction is relatively small. This suggests a significant influence of immediate meteorological conditions and transient pollution events on local O3 levels. To further elucidate the origins of high O3 concentrations, trajectory cluster analysis, trajectory sector analysis (TSA), and potential source contribution function (PSCF) analysis were conducted. The trajectory cluster analysis revealed that the northeast air mass was the main transport air mass in Chaozhou during the study period, accounting for 39.1% of occurrences. The northeast cluster C with medium-distance trajectories corresponds to higher concentration of O3, which may be the main transport pathway of O3 pollution in Chaozhou. TSA corroborates these findings, with northeast sectors 1, 2, and 3 accounting for 50.3% of trajectory residence time and contributing 52.2% to O3 levels in Chaozhou. PSCF results further indicate potential high O3 sources from the northeast, especially in autumn. This comprehensive analysis suggests that Chaozhou’s elevated O3 levels are influenced by both regional transport from the northeast and local emissions. These findings offer crucial insights into the temporal dynamics of surface O3 in Chaozhou, paving the way for more effective and targeted air quality management strategies.
+Keywords: O3; KZ filter; percentile regression; cluster analysis; trajectory sector analysis; potential source contribution function
+1. Introduction
+Surface ozone (O3) is a secondary gaseous pollutant with strong oxidizing properties, significantly impacting urban air quality and posing threats to human health. Evidence has demonstrated the short-term impacts of ozone exposure, particularly on the respiratory and cardiovascular systems, and increase in the risk of respiratory infections and mortality in humans [1,2]. It can also have detrimental effects on natural ecosystems, including damaging plant tissues, reducing biodiversity, and disrupting ecosystem functions [3]. Furthermore, O3 adversely affects crops by impairing photosynthesis, reducing growth and yield [4]. Additionally, as a greenhouse gas, free tropospheric O3 contributes to global climate change by trapping heat in the atmosphere, thereby influencing weather patterns and increasing global temperatures [5]. Following the promulgation of China’s “Ambient Air Quality Standards” (GB 3095-2012) [6], prefecture-level cities across the country have begun monitoring and evaluating O3 pollution. The implementation of the “Ten Air Pollution Prevention and Control Action Plan” in September 2013 has led to significant improvements in particulate matter pollution in various regions of China. However, O3 pollution in Chinese cities has become increasingly prominent, with an overall upward trend in ambient concentrations and frequent episodes exceeding air quality standards [7].
+Temporal changes in O3 can be separated into synoptic, seasonal, and long-term components using the Kolmogorov–Zurbenko (KZ) filter method [8]. These changes at different time scales are attributable to various factors: short-term changes are caused by fluctuating weather and precursor emissions, seasonal changes are influenced by variations in solar angles, and long-term changes are driven by climate, policy, or economic factors [9]. The long-term components can be used to analyze O3 trends, assessing the effectiveness of air pollution control measures [10]. Additionally, O3 has a lifetime ranging from hours to weeks. Its concentration is influenced not only by the photochemical reactions of locally emitted precursors but also by the transport of external O3 or its precursors [11,12]. Therefore, research on the sources and regional transport of O3, especially in densely populated metropolitan areas, is gaining increasing attention. The hybrid single-particle Lagrangian integrated trajectory (HYSPLIT) and the potential source contribution function (PSCF) have been widely applied to study the source and regional transport of O3 [13,14].
+Chaozhou, located in southeast China along the coast, is subjective to a subtropical monsoon climate. The meteorological conditions of high temperature and strong sunshine are conducive to the photochemical reaction of nitrogen oxides and volatile organic compounds, leading to local O3 production [15]. The monsoon also plays an important role in the transport of air pollutants [16,17]. According to the Chaozhou Ecological Environment Status Bulletin, O3 was the main pollutant affecting the air quality index (AQI) from 2015 to 2023. In order to effectively improve ambient air quality, Chaozhou City has implemented a series of air pollution control measures, such as the “Chaozhou City Implementation Plan for Winning the Blue Sky Defense War (2019–2020)”. Considering the relatively high levels of O3 in Chaozhou and its severe health effects, it is imperative to conduct an in-depth investigation into the temporal changes and spatial sources of O3. Such studies can reveal long-term O3 trends and contributions at different time scales, as well as transport pathways and potential sources of high concentrations of O3, which are critical in developing effective O3 pollution mitigation strategies.
+2. Materials and Methods
+2.1. Study Area and Data
+Chaozhou is a port city on the east coast of Guangdong Province, China. It is in the middle and lower reaches of the Han River basin (Figure 1). Chaozhou has a subtropical maritime monsoon climate with a mild climate and abundant rainfall. The terrain is high in the north and low in the south, with mountains and hills accounting for 65% of the city’s total area. There are three national ambient air monitoring stations in Chaozhou: the City Government (116.618° N, 23.661° E), the Archives Bureau (116.645° N, 23.671° E), and Xiyuan Road (116.637° N, 23.672° E). The average coordinate values of the three stations are defined as the study site of Chaozhou (23.668° N, 116.633° E), which is regarded as the starting point of the backward trajectory model. As shown in Figure 1, the north and northwest directions of the study site have higher topography and a poorer air pollutant dispersion environment.
+Figure 1. Map of the study site in Chaozhou, Southeast China.
+The MDA8 O3 values in Chaozhou were obtained from Qingyue Data (data.epmap.org) on 1 February 2024, the source of which is the real-time air quality release system of the Environmental Monitoring Station of the Ministry of Environmental Protection. The data from the Environmental Monitoring Station undergo rigorous quality control and quality assurance (QC/QA) processes to ensure accuracy and reliability. The O3 values are detected using ultraviolet photometric ozone analyzers, which operate based on the Beer–Lambert law. The data cover a period of 3652 days from 1 January 2014 to 31 December 2023.
+2.2. KZ Filtering and Variance Analysis
+The scale separation of time series of atmospheric constituent concentrations allows us to understand in more detail the patterns and substance of the changes. Rao et al. [8] and Zurbenko et al. [18] proposed the KZ filtering method as a common scale separation method, filtering KZm,p (X), where X is the original time series, and m and p are the filtering parameters, denoting the sliding window length and the number of iterations, respectively. Then, KZ15,5 (X) is the baseline component with a sliding window length of 15 days and 5 iterations, and can de-filter the short-term fluctuation factors, and KZ365,3 (X) is the long-term component with a sliding window length of 365 days and 3 iterations, and can filter out the long-term fluctuation factors. The original time series with MDA8 O3 as X can be decomposed as
+X(t) = E(t) + S(t) + W(t)
+(1)
+where E(t) is the long-term component of MDA8 O3, which is the result of the impacts of total precursor emissions, climate, and economic changes; S(t) is the seasonal component, which is attributable to meteorological conditions such as seasonal changes in temperature (Figure S1); and W(t) is the short-term component, which is mainly affected by short-term fluctuations in precursor emissions and weather [9,19,20].
+The long-term, seasonal, and short-term components are calculated, respectively, as follows:
+E(t) = KZ365,3 (X)
+(2)
+S(t) = KZ15,5 (X) − KZ365,3 (X)
+(3)
+W(t) = X(t) − KZ15,5 (X)
+(4)
+Ideally, the MDA8 O3 original time series decomposed by the KZ filtering technique results in the short-term component, the seasonal component, and the long-term component, which are independent of each other. The variance contribution can be calculated as Equation (5), the sum of the variances of the three variables should be equal to the original time series variance, and the total covariance between them should be zero [20].
+σ2(X) = σ2(W) + σ2(S) + σ2(E) + 2 cov(E, S) + 2 cov(E, W) + 2 cov(S, W)
+(5)
+where σ2(X), σ2(W), σ2(S), and σ2(E) are the total variance, short-term component variance, seasonal component variance, and long-term component variance of the original time series of MDA8 O3, respectively; cov(E, S), cov(E, W), and cov(S, W) represent the covariance of the long-term and seasonal components, the covariance of the long-term and short-term components, and the covariance of the seasonal and short-term components, respectively. The total covariance contribution, K, can be calculated as follows:
+K = (2 cov(E, S) + 2 cov(E, W) + 2 cov(S, W))/σ2(X) = 1 − (σ2(W) + σ2(S) + σ2(E))/σ2(X)
+(6)
+However, the sum of the three components of the variance contribution will not be equal to 100% due to the influence of unknown factors. The closer the sum of the three components of the variance contribution is to 100% (that is, the total covariance contribution, K (Equation (6)) is approximately close to 0%), the better is the decomposition effect of the KZ filter. In addition, a relatively high percentage of variance contribution of a component means that the component is more influential on the fluctuation of the original time series. Analysis of variance (ANOVA) was performed using SPSS 23.0 software to examine the contribution of the components at different time scales to the total variance of MDA8 O3.
+2.3. Percentile Regression
+The classical least squares regression only reflects the degree of average variation in the MDA8 O3 concentration over time, but not the temporal variation at different percentile levels

@@ -1,0 +1,19 @@
+**Paragraph 1: Introduction**
+
+This study investigates whether the implementation of an environmental protection tax (EPT) can reduce urban ozone pollution in China. The EPT reform policy is a market-based environmental regulation that aims to control emissions of ozone precursors. Using panel data from 221 cities in China from 2015 to 2020, we conducted an empirical analysis of the impacts of EPT reform on O3 pollution. Our research found that the EPT reform policy can effectively inhibit urban near-surface O3 pollution by approximately 2.1%, and this result was confirmed to be accurate by multiple robustness tests.
+
+**Paragraph 2: Methods**
+
+Our study employed a quasi-natural experiment design using the EPT reform as an exogenous shock to estimate its impacts on O3 pollution. We used panel data of 221 cities in China from 2015 to 2020, including ground-level O3 concentration, environmental protection tax (EPT) dummy variable, and control variables such as urban development levels and geographical factors. The difference-in-differences (DID) model was employed to estimate the causal effect of EPT reform on O3 pollution.
+
+**Paragraph 3: Results**
+
+The results showed that the EPT reform policy can effectively reduce urban near-surface O3 pollution by approximately 2.1%. This result was confirmed to be accurate by multiple robustness tests, including spatial heterogeneity and endogeneity checks. The significant reduction in O3 pollution was observed across all cities, with no significant differences between different regions.
+
+**Paragraph 4: Discussions**
+
+Our findings suggest that the EPT reform policy can be an effective tool for reducing urban ozone pollution in China. The policy's impact is attributed to its ability to incentivize polluters to reduce emissions and invest in cleaner technologies. The results also highlight the importance of spatial heterogeneity in environmental policies, as cities with higher development levels and geographical factors exhibit better pollution reduction effects.
+
+**Paragraph 5: Conclusions**
+
+In conclusion, our study provides empirical evidence that the implementation of an EPT reform policy can significantly reduce urban O3 pollution in China. The findings suggest that EPT reform is a viable policy option for environmental protection and air quality improvement. The results also highlight the need for differentiated environmental regulatory policies to account for spatial heterogeneities in environmental outcomes. Our study contributes to the understanding of the effectiveness of market-based environmental regulations and provides valuable insights for policymakers in China and other countries.

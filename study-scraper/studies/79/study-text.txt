@@ -1,0 +1,153 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (79)
+Science of The Total Environment
+Volume 947
+, 15 October 2024, 174669
+Comparative life cycle assessment of various hydrogen supply methods from Australia to the Republic of Korea in environmental and economic aspects
+Author links open overlay panel
+Gang Nam Lee a
+,
+Jong Mu Kim b
+,
+Kwang Hyo Jung b
+,
+Hyun Park b
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.scitotenv.2024.174669
+Get rights and content
+Highlights
+•
+Hydrogen supply from Australia to Korea were analyzed in environmental and economic aspects.
+•
+Various storage types and alternative fuels were considered to transport blue hydrogen by ocean.
+•
+The environmental effects were investigated over the life cycle of the hydrogen ocean transport.
+•
+Revealed that the LNG showed the lowest emissions and hydrogen price compared to other hydrogen carriers.
+Abstract
+With the increasing importance of decarbonization to prevent global climate change, hydrogen supply has received considerable attention from several countries, including Korea and Japan, due to the growing demand for the implementation of a hydrogen economy. This study conducted a comprehensive analysis on hydrogen supply methods from Australia to the Republic of Korea in environmental and economic aspects using a life cycle assessment (LCA). The blue hydrogen produced in Australia was considered for import to the Republic of Korea via ocean shipping. The study analyzed the holistic environmental effects in the life cycle of hydrogen ocean transport for various types of hydrogen storage methods (CH2, LH2, LOHC, LNH3, and LNG), as well as alternative marine fuels (MGO, LNG, LPG, CH2, LH2, LNG-LH2, MeOH, and LNH3) for ship transportation. Environmental impact performance was presented in terms of global warming potential (GWP), acidification potential (AP), photochemical ozone creation potential (POCP), eutrophication potential (EP), and particulate matter (PM). For the environmental results, sensitivity studies were conducted to analyze the effects of operating distance and cargo tank size when shipping hydrogen via ocean transport. Additionally, the GWP results of the transportation of green hydrogen and ammonia were compared with those of blue hydrogen and ammonia transport. A cost analysis was performed for the overall processes of hydrogen ocean transport, and the results were included in the study with the estimated hydrogen price for each transportation method.
+Graphical abstract
+Download: Download high-res image (112KB)
+Download: Download full-size image
+Introduction
+Regarding climate change, the United Nations has warned that ‘global boiling’ has arrived (Kamal, 2023), consequently, decarbonization has become a key topic in recent global energy trends. As an alternative energy option for the future, hydrogen has been globally spotlighted as a primary energy carrier due to its high energy density with extremely low air pollution emissions, when produced using renewable energy sources.
+Hydrogen has been considered as a main energy carrier for decades, especially by developed countries for transportation and power generation (Behling et al., 2015). The European Union (EU) expects hydrogen to play an important role in aims to be climate neutral by 2050 with their strategy to lead the hydrogen markets for industrial applications and mobility as presented in the EU strategy on hydrogen (García-Herrero et al., 2021). Furthermore, the Fit-for-55 package (EU Commission, Press Release, 2021) put forward concrete policy proposals for hydrogen to accelerate the decarbonization of the EU's energy system. The United States (US), a major crude oil producer, has identified hydrogen as a key future energy source in the ‘Road map to a US Hydrogen Economy’ (Cell, 2020). To realize this vision, the Department of Energy (DOE) has initiated projects and actions with policies and investments in hydrogen technology (McQueen et al., 2020). Japan, which relies on imports for most of its energy supply (International Energy Agency, 2021), has also made an effort to take a lead in developing a hydrogen economy has established a ‘Basic hydrogen strategy’ (Japan, 2020), which is the world's first governmental hydrogen strategy (Nagashima, 2018). For many decades already, Japan has been investing in hydrogen technologies for production, storage, and utilization of hydrogen to follow the Paris Agreement and reduce greenhouse gas (GHGs) emissions by 80 % by 2050. Recently, Japan succeeded in importing liquefied hydrogen over long distances via ship through the Hydrogen Energy Supply Chain (HESC) project (Gielen et al., 2019a). Likewise, many countries are actively working at the governmental level to establih a hydrogen economy.
+Recently, the Korean government has also established comprehensive plans to realize a domestic hydrogen society to meet the goal of being carbon neutral by 2050 (Oh et al., 2021). The government began regulating GHG emissions with the announcement of the ‘Basic Roadmap for National GHG Reduction for 2030’ in 2016 (Ministry of Environment, The Korean Government, 2016), and the plan was detailed in the ‘Renewable Energy 3020 Implementation Plan’ to incorporate more clean energy in power generation and supply chains (Ministry of Environment, The Korean Government, 2017). The government has also set the goal of transitioning the carbon-based Korean economy into a hydrogen-based economy as presented by the ‘Hydrogen Economy Activation Roadmap’ in 2019. This plan includes the development of technologies for hydrogen production, storage, and transportation, aiming to supply more than 5.26 million tons of hydrogen by 2040. However, over 80 % of the required hydrogen needs to be imported to archive the goal, as outlined in the 2021 ‘Carbon Neutral Scenario of Korea by 2050’ (The Korean Government, 2019).
+For hydrogen transportation over long distances, storage technologies for hydrogen are crucial due to its low volume density. There are several potential options for storing in ships, such as liquid hydrogen (LH2), compressed hydrogen (CH2), liquid organic hydrogen carrier (LOHC), and ammonia (NH3). Each storage method has its own set of advantages and disadvantages based on properties like as hydrogen weight in a unit volume or mass of the hydrogen carrier, and storage temperature. CH2 can be stored at a relatively high temperature compared to LH2, but it has a lower density compared to other hydrogen carrier methods. LH2 has a density 1.7 times higher than CH2 (under a tank pressure of 700 bar), but it requires storage temperatures below −253 °C, which requires a significant amount of energy input. LNH3 and LOHC, using methyl cyclo hexane (MCH), have higher density with relatively high storage temperatures compared to CH2 and LH2, but they have toxicity issues that make storage in a tank challenging. Additionally, more processes are required to produce the carriers from hydrogen, which demands energy and results in the emission of environmental pollutants during the process.
+In recent years, numerous studies have examined hydrogen storage methods for ocean transportation, considering technical and economic aspects to tackle the growing concerns related to global warming.
+Ratnakar et al. (Ratnakar et al., 2021) reviewed the cost efficiency and technologies of LH2 ocean transportation and showed that LH2 has advantages in terms of familiarity with LNG technology. However, it also has disadvantages such as limitations for large-scale storage due to its significant boil-off gas, insulation issues, lack of scaled-up design, limited data, and other factors. Alkhaledi et al. (Alkhaledi et al., 2022) analyzed the economics of an LH2 carrier named called JAMILA, with a capacity of 280,000 m3 fueled by hydrogen. Their economic analysis suggested that an LH2 carrier could be a promising and sustainable option for long-term hydrogen ocean transport by sea. Kamiya et al. (Kamiya et al., 2015) investigated the feasibility of LH2 as a hydrogen carrier from Australia to Japan, considering cost and technologies, and compared it with the advantages of CH2. The study concluded that an LH2 carrier could be a competitive option if a carbon tax is taken into account, and emphasized the need for a high-efficiency large-scale hydrogen carrier to archive economic advantages and ensure a safe design.
+Nowadays, LNH3 is often considered the most feasible option as a hydrogen carrier in ocean transport. Kojima and Yamaguchi (Kojima and Yamaguchi, 2022) studied the properties and efficiencies of LNH3 as a hydrogen carrier compared to LH2 and LOHC. They showed that the energy efficiency of LNH3 was higher than LH2 and LOHC, with the lowest cost due to the extremely low cost of the Haber-Bosch process to produce LNH3. Wan et al. (Wan et al., 2021) also demonstrated that LNH3 is a promising and efficient hydrogen carrier because it can be directly decomposed into hydrogen. Moreover, it can be more effective when used as a clean fuel with solid oxide fuel cells (SOFCs) to generate power during ocean transport.
+Recently, LOHC has been highlighted as a potential hydrogen carrier because it is easy to handle with similar properties to crude oil, and it does not produce any air pollution during the binding or release of hydrogen. Wang et al. (Wang et al., 2016) studied the energy efficiency of a LOHC-based hydrogen storage, transport, and supply system, and showed that the energy efficiency of LOHC was generally lower than that of CH2 under 350 and 700 bar. Niermann et al. (Niermann et al., 2019) compared various types of LOHC based on their chemical and economic properties, showing that LOHC is a promising hydrogen carrier for the area of energy transport. However, Modisha et al. (Modisha et al., 2019) reported that LOHC technology is still at an early stage in view of the hydrogenation and dehydrogenation process, with an analysis of the recent technologies in LOHC and the performances of different catalyst materials on hydrogen productivity and stability.
+For overseas hydrogen supply, polluting exhaust gas emissions during ocean transport by hydrogen cargo ships may also have a significant influence on the total environmental impact over the entire life cycle of hydrogen ocean transport. To reduce emissions during ship operation for hydrogen transportation, various types of fuels have been studied as alternative eco-friendly ship fuels.
+Emissions during ship operation for hydrogen ocean transport are also important parameters to verify the feasibility of hydrogen supply from abroad when transported by ship. To reduce environmental pollution in shipping, the International Maritime Organization (IMO) established regulations to limit the emission level for NOx and SOx to 3.4 g/kWh (under 130 rpm) and 0.5 %, respectively, for ships operating in the Emission Control Area (ECA) (International Maritime Organization (I.M.O.), 2008; International Maritime Organization (I.M.O.), 2015). The IMO also continues to limit GHG emissions in the recommendations of the 72nd Marine Environmental Protection Committee (MEPC) to reduce GHG emissions by 50 % compared with 2008 by 2050 (International Maritime Organization (I.M.O.), 2018). The target has been enhanced to net-zero by 2050 in the 80th MEPC, with at least a 70 % reduction of GHG by 2040 (International Maritime Organization (I.M.O.), 2023a). To fulfill the regulations on ship emissions, various alternative ship fuels like marine gas oil (MGO), liquefied natural gas (LNG), liquefied propane gas (LPG), hydrogen, and so on, have been considered and have started to replace the conventional ship fuel of heavy fuel oil (HFO). Recently, methanol (MeOH) has emerged as one of the promising alternative ship fuels because of low GHG emissions in its life cycle (Ammar, 2019). Ammonia (NH3) and LNG-H2 dual fuel engines are also widely developed to be used as ship fuels due to low emissions during ship operation (Gielen et al., 2019b).
+For the GHG regulations in the life cycle, the IMO is currently working on a GHG regulation guideline based on the lifecycle of ship fuels (International Maritime Organization (I.M.O.), 2023b). The guideline is to expand the GHG regulation for the entire lifecycle of ship fuels, which includes the Well to Tank and Tank to Wake phases from the fuel's production to usage during ship operation. To compare and verify the potential alternative ship fuels, it is necessary to consider not only the environmental and economic effects in their lifecycle but also the sea route, ship speed, type of hydrogen storage method, and other specific information. This is because the alternative fuels have their pros and cons that can vary with ship operating conditions and their lifecycle.
+To comply with the IMO's SOx regulation to reduce emissions by more than 0.5 % from 2020 (International Maritime Organization (I.M.O.), 2008), MGO, with a low sulfur content of about 0.5 wt% (McKinlay et al., 2021), has been widely utilized to substitute HFO for reducing SOx emissions during ship operations. However, the use of MGO requires additional equipment, such as selective catalytic reduction (SCR), to meet regulations on NOx emissions, which require it to be below 3.4 g/kWh for ships operating at speeds under 130 rpm in an ECA per IMO Tier III (International Maritime Organization (I.M.O.), 2015).
+IMO regulations on SOx and NOx emissions made LNG as a promising solution for future marine fuel due to its minimal emissions and reduced CO2 emissions. The use of LNG as fuel in ships is rapidly growing as the technology for LNG combustion engines has been validated, and LNG is more cost-effective than MGO (Yoo, 2017). However, challenges exist in storing LNG at cryogenic temperatures below −196 °C and in managing methane-slip phenomena, which can have significant environmental impacts on global warming (Lee et al., 2022).
+LPG is also a candidate for future alternative marine fuels. LPG has the advantages of a higher energy density than other fossil fuels and can be in liquid form at normal atmospheric conditions of temperature and pressure using the same equipment as LNG. However, LPG is still under development due to serious hazards and difficulties in leakage detection (Bilgili, 2023).
+MeOH has received considerable contemporary attention as an eco-friendly marine fuel due to its low CO2 emission factor of 1.375, while those of HFO and LNG are 3.114 and 2.750, respectively (International Maritime Organization (I.M.O.), 2020). Methanol fuel can be used in diesel or Otto engines with pilot fuel (Sayin, 2010) and can remarkably reduce NOx and SOx emissions during fuel combustion, but only when the methanol is produced from biomass (DnV, 2016).
+For zero-emission ships, hydrogen is gaining interest as a potential future marine alternative fuel. Hydrogen can generate electric power through a fuel cell system that emits only water without any pollution. However, there are challenging issues to consider. Most fuel cells have limitations in power capacity, volume, and weight, which may hinder their use in ships. Additionally, storage challenges exist, as hydrogen requires a lower temperature of −263 °C compared to LNG in a liquid state.
+LNH3, which can be stored as a liquid under ambient pressure at a relatively high temperature of −34 °C, is being researched for its potential use as an alternative marine fuel. Apart from its storage benefits, the LNH3 is appealing because it produces zero carbon emissions during fuel combustion. However, it may emit nitrogen oxide (N2O) which has a global warming potential (GWP) 273 times higher than CO2 (Masson-Delmotte et al., 2021).
+The literature indicates that various types of fuels have been developed and tried as alternative ship fuels. Currently, all options have their own advantages and disadvantages.
+Over several decades, research on environmental pollution has extended to the use of the concept of life cycle assessment (LCA) to quantitatively analyze the environmental impacts throughout the entire life cycle of a product, including production, use, and disposal or recycling. This method has been widely utilized in various industrial sectors (Finnveden et al., 2009; Levasseur et al., 2019; Lim and Lee, 2011; Awuah-Offei and Adekpedjou, 2011).
+There is a plethora of research on the environmental impact of the hydrogen production using the LCA methodology. Hydrogen can generally be categorized as gray, blue, or green hydrogen based on its production path as suggested by the European Commission (Piria et al., 2023). The term ‘gray hydrogen’ refers to hydrogen produced from natural gas, with a carbon intensity of 7.5–13 kg CO2 / kg H2. It can be referred to ‘blue hydrogen’ if the hydrogen is produced with a carbon capture and storage (CCS) system, which makes the carbon intensity of 1.9–4.8 CO2 / kg H2. When hydrogen is produced with renewable electricity through electrolysis, it is known as ‘green hydrogen’, with a carbon intensity lower than 1.8 CO2/kg H2. Gerloff (Gerloff, 2021) conducted a comparative LCA analysis for the three major water electrolysis technologies: alkaline electrolysis (AEC), polymer electrolyte membrane (PEMEC), and solid oxide electrolysis cell (SOEC). The study demonstrated the eco-friendliness and capabilities of green hydrogen produced by water electrolysis with renewable energy. Acar and Dincer (Acar and Dincer, 2022) studied the carbon footprint of hydrogen production methods from economic, technical, and environmental perspectives. The paper indicated that green hydrogen has the best energy efficiency and eco-friendliness. However, the technology maturity level (GML) of green hydrogen is the lowest compared to other methods. Hydrogen based on fossil fuels showed the best economic and technical performance, leading to the conclusion that blue hydrogen has the best sustainability performance among hydrogen production methods. Mio et al. (Mio et al., 2024) compared the economic and environmental impacts of gray, blue, and green hydrogen production methods using LCA. The study revealed that green hydrogen has a larger return on energy invested than gray and blue hydrogen, with the lowest emissions in the air during their life cycle.
+Several studies have assessed the environmental impact of hydrogen storage and transportation methods over the ocean. Ozawa et al. (Ozawa et al., 2017) studied GHG emissions in ocean transport of hydrogen from Australia to Japan considering the entire hydrogen supply chain using the LCA methodology. Renewable hydrogen, produced from wind or solar-powered electrolysis, was considered in the study for the hydrogen carrier types of liquefied hydrogen and LOHC. In comparison with gray hydrogen, produced by a steam methane reforming (SMR) process, the study showed that total GHG emissions from renewable hydrogen transportation were significantly lower. Kolb et al. (Kolb et al., 2022) conducted a comparative study of GWP emission for the import of LH2 to Germany from Canada, Chile, and Morocco using the LCA methodology. The study revealed that importing renewable hydrogen from those countries showed better environmental results compared to domestic production in Germany. Kim et al. (Kim et al., 2021) assessed the introduction of H2 to Korea from overseas for various hydrogen carriers of LH2, LOHC, and NH3, considering economic, environmental, and technological factors. The paper indicated that the most feasible method for the hydrogen carrier was LOHC in all aspects, but its viability depends on the range, amount, distance and scale of economic criteria.
+A number of LCA studies have also examined ship operations, such as fuel combustion during hydrogen transport. Bengtsson et al. (Bengtsson et al., 2011) conducted a comparative study on various marine fuels including HFO, MGO, and LNG using LCA. They demonstrated that LNG did not reduce the GWP level compared to HFO during ship operation, primarily due to methane slip from the gas combustion engine. Sharafian et al. (Sharafian et al., 2019) also suggested that LNG fuel for ships might emit more GHGs than that of HFO, especially for small and high-speed ships, due to methane slip, while reducing NOx, SOx, and PM emissions. Koriˇcan et al. (Koričan et al., 2022) analyzed six alternative marine fuels, such as battery, LNG, methanol, ammonia, B20, and hydrogen, for a fishing trawler using LCA and Life Cycle Cost Assessment (LCCA) to evaluate environmental footprint and economic efficiency. Huang et al. (Huang et al., 2022) conducted an LCA study on alternative marine fuels like MGO, LNG, methanol, and ammonia used in a Very Large Crude Carrier (VLCC), indicating that ammonia fuel may not be environmentally friendly in terms of GWP reduction due to N2O emissions. Chalris et al. (Chalaris et al., 2022) investigated the carbon footprint of ammonia for ships using a Parametric Trend LCA (PT-LCA) method with various ship and ammonia production datasets, revealing that the 3-step CuCl cycle has the most potential for ammonia production as fuel with a ME-liquid gas injection (LGI) engine. Fernández-Ríos et al. (Fernández-Ríos et al., 2022) evaluated the environmental impact of hydrogen by comparing fuel cells and an Internal Combustion Engine (ICE) for ships using the LCA methodology and showed the tremendous potential of both methods as future alternative marine fuels.
+Most of the LCA studies for ship operation, including the above literature, only focused on GHG emissions with the fuel carbon footprint. However, other pollutants, apart from global warming, can also be generated and have a serious effect on the environment. Jeong (Jeong, 2018) suggested assessing various environmental categories of acidification potential (AP), eutrophication potential (EP), photochemical ozone creation potential (POCP), and particulate matter (PM), in addition to GWP, to consider all pollution resulting from alternative ship fuels. Hwang et al. (Hwang et al., 2019) estimated five environmental categories generated by the life cycle of an LNG-fueled ship using the LCA methodology, and the results were compared with other alternative fuels of MGO and hydrogen by Hwang et al. (Hwang et al., 2020). Furthermore, Lee et al. (Lee et al., 2022) also assessed the environmental impacts of these categories for a 170 GT nearshore ferry operating in Korea with the alternative fuels of MGO, LNG, and hydrogen.
+Numerous studies have shown that each type of hydrogen carrier and alternative marine fuel has its own set of advantages and disadvantages. The most crucial factors to consider are their impact on the environment and cost, which are essential for determining the feasibility of hydrogen ocean transport. These factors can vary depending on the specific application of processes, and conditions of ocean transport, such as the distance traveled and the size of the cargo tank. However, most LCA research has been conducted on a case-by-case basis, focusing on one or two instances of a hydrogen carrier and marine fuels. The environmental impact can vary significantly based on the combination of the hydrogen carrier and alternative marine fuel throughout the life cycle. For instance, if the hydrogen carrier and ship fuel are of the same type, it could lead to a reduction in air pollution over the entire life cycle. There is a lack of studies on the economic analysis of hydrogen ocean transportation. Therefore, a more comprehensive investigation is necessary for an LCA study to accurately analyze the environmental impacts of hydrogen transportation from overseas, along with economic considerations. This broader study should encompass various types of hydrogen carriers and alternative marine fuels.
+This study aimed to comprehensively assess the environmental prospects and potential impacts of the entire process of hydrogen supply from Australia to the Republic of Korea through ocean transport, along with a cost analysis. Blue hydrogen, produced through the SMR process from natural gas in Australia, was considered for supply to the Republic of Korea via ocean shipping. The environmental effects in the life cycle of hydrogen ocean transport were presented, comparing various hydrogen storage methods (CH2, LH2, LOHC, LNH3, and LNG) and alternative marine fuels (MGO, LNG, LPG, CH2, LH2, LNG-LH2, MeOH, and LNH3) for the ship, across five impact categories: GWP, AP, EP, POCP, and PM. Sensitivity studies were conducted for GWP emissions in hydrogen ocean transport to analyze the impact of operating distance and cargo tank size on environmental impacts. The study also provided GWP results for the transportation of green hydrogen and ammonia, produced through water electrolysis with renewable energy, compared to blue hydrogen and ammonia transportation. In addition to the environmental impact analysis, a cost analysis was conducted for the entire process of hydrogen ocean transport, and the study included results with an estimated hydrogen price for each transportation method.
+Section snippets
+Materials and methods
+LCA was conducted to compare the environmental impacts of hydrogen supply over the long distance of international shipping from Australia to Korea. LCA is a method that analyzes the environmental impacts of a product considering all stages in its lifecycle, ranging from the production of the raw material, through manufacturing, use, and final disposal (ISO 14040, 2016; ISO: 14044, 2006).
+Fig. 1 illustrates the hydrogen supply route over the ocean from Australia to Korea. The natural gas was
+Results and discussions
+Fig. 7 compares the amount of hydrogen transport and its conversion rate from the carrier to hydrogen for various hydrogen storage types in a round trip. CH2 had the least amount of hydrogen when transported in a round trip due to its low volumetric density. Nevertheless, it could be transported with 100 % filling of the hydrogen in the cargo tank because it does not require any conversion process for storage. LH2 could transport hydrogen at about 1.65 times amount of CH2 due to its relatively
+Conclusions
+This study assessed the environmental impacts and economics of the entire process of hydrogen supply from Australia to the Republic of Korea, considering various hydrogen storage methods and alternative marine fuels used in ocean transportation. Blue hydrogen was assumed to be transported to Korea by ship with a tank size of 20,000 m3. The study explored five different hydrogen storage methods and seven alternative marine fuels to analyze the environmental effects over the life cycle of
+CRediT authorship contribution statement
+Gang Nam Lee: Writing – original draft, Methodology, Investigation, Conceptualization. Jong Mu Kim: Software, Methodology, Investigation, Data curation. Kwang Hyo Jung: Writing – review & editing, Supervision, Conceptualization. Hyun Park: Writing – review & editing, Investigation.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+This work was supported by “Regional Innovation Strategy (RIS)” through the National Research Foundation of Korea (NRF) funded by the Ministry of Education (MOE) (2023RIS-007, 2023RIS-009).
+References (79)
+C. Acar et al.
+Selection criteria and ranking for sustainable hydrogen production options
+Int. J. Hydrog. Energy
+(2022)
+A.N. Alkhaledi et al.
+Economic analysis of a zero-carbon liquefied hydrogen tanker ship
+Int. J. Hydrog. Energy
+(2022)
+N.R. Ammar
+An environmental and economic analysis of methanol fuel for a cellular container ship
+Transp. Res. Part D: Transp. Environ.
+(2019)
+J. Andersson et al.
+Large-scale storage of hydrogen
+Int. J. Hydrog. Energy
+(2019)
+K. Bareiß et al.
+Life cycle assessment of hydrogen from proton exchange membrane water electrolysis in future energy systems
+Appl. Energy
+(2019)
+N. Behling et al.
+Fuel cells and the hydrogen revolution: analysis of a strategic plan in Japan
+Econ. Anal. Policy
+(2015)
+Ramchandra Bhandari et al.
+Life cycle assessment of hydrogen production via electrolysis – a review
+J. Clean. Prod.
+(2014)
+L. Bilgili
+A systematic review on the acceptance of alternative marine fuels
+Renew. Sust. Energ. Rev.
+(2023)
+Z. Chen et al.
+Life cycle assessment of typical methanol production routes: the environmental impacts analysis and power optimization
+J. Clean. Prod.
+(2019)
+A. Fernández-Ríos et al.
+Environmental sustainability of alternative marine propulsion technologies powered by hydrogen-a life cycle assessment approach
+Sci. Total Environ.
+(2022)
+View more references
+Cited by (0)
+View full text
+© 2024 Published by Elsevier B.V.
+Recommended articles
+Behavioral impairments and disrupted mitochondrial energy metabolism induced by polypropylene microplastics in zebrafish larvae
+Science of The Total Environment, Volume 947, 2024, Article 174541
+Jianghuan Hua, …, Bingsheng Zhou
+Microplastic-stressor responses are rarely synergistic in freshwater fishes: A meta-analysis
+Science of The Total Environment, Volume 947, 2024, Article 174566
+Ben Parker, …, Demetra Andreou
+Antitumor effect of vertebroplasty in vertebral metastasis based on quantitative F-FDG-PET/CT analysis
+Revista Española de Medicina Nuclear e Imagen Molecular (English Edition), 2024, Article 500028
+L. Bian, …, C.-F. Ni
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

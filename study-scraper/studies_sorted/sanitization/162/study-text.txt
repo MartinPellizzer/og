@@ -1,0 +1,105 @@
+Advertisement
+plos.org
+create account
+sign in
+PUBLISH
+ABOUT
+BROWSE
+advanced search
+0
+Save
+0
+Citation
+267
+View
+1
+Share
+OPEN ACCESS PEER-REVIEWED
+RESEARCH ARTICLE
+Effective degradation of various bacterial toxins using ozone ultrafine bubble water
+Fumio Takizawa,
+Hisanori Domon,
+Satoru Hirayama,
+Toshihito Isono,
+Karin Sasagawa,
+Daisuke Yonezawa,
+Akiomi Ushida,
+Satomi Tsutsuura,
+Tomohiro Miyoshi,
+Hitomi Mimuro,
+Akihiro Yoshida,
+Koichi Tabeta,
+Yutaka Terao
+Published: July 10, 2024
+https://doi.org/10.1371/journal.pone.0306998
+Article
+Authors
+Metrics
+Comments
+Media Coverage
+Peer Review
+Abstract
+Introduction
+Materials and methods
+Results
+Discussion
+Supporting information
+Acknowledgments
+References
+Reader Comments
+Figures
+Abstract
+Infectious and foodborne diseases pose significant global threats, with devastating consequences in low- and middle-income countries. Ozone, derived from atmospheric oxygen, exerts antimicrobial effects against various microorganisms, and degrades fungal toxins, which were initially recognized in the healthcare and food industries. However, highly concentrated ozone gas can be detrimental to human health. In addition, ozonated water is unstable and has a short half-life. Therefore, ultrafine-bubble technology is expected to overcome these issues. Ultrafine bubbles, which are nanoscale entitles that exist in water for considerable durations, have previously demonstrated bactericidal effects against various bacterial species, including antibiotic-resistant strains. This present study investigated the effects of ozone ultrafine bubble water (OUFBW) on various bacterial toxins. This study revealed that OUFBW treatment abolished the toxicity of pneumolysin, a pneumococcal pore-forming toxin, and leukotoxin, a toxin that causes leukocyte injury. Silver staining confirmed the degradation of pneumolysin, leukotoxin, and staphylococcal enterotoxin A, which are potent gastrointestinal toxins, following OUFB treatment. In addition, OUFBW treatment significantly inhibited NF-κB activation by Pam3CSK4, a synthetic triacylated lipopeptide that activates Toll-like receptor 2. Additionally, OUFBW exerted bactericidal activity against Staphylococcus aureus, including an antibiotic-resistant strain, without displaying significant toxicity toward human neutrophils or erythrocytes. These results suggest that OUFBW not only sterilizes bacteria but also degrades bacterial toxins.
+Figures
+   Citation: Takizawa F, Domon H, Hirayama S, Isono T, Sasagawa K, Yonezawa D, et al. (2024) Effective degradation of various bacterial toxins using ozone ultrafine bubble water. PLoS ONE 19(7): e0306998. https://doi.org/10.1371/journal.pone.0306998
+Editor: Aijaz Ahmad, University of the Witwatersrand, SOUTH AFRICA
+Received: March 28, 2024; Accepted: June 26, 2024; Published: July 10, 2024
+Copyright: © 2024 Takizawa et al. This is an open access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.
+Data Availability: All relevant data are within the manuscript and its Supporting Information files.
+Funding: This study was supported by Terumo Life Science Foundation (grant no. 22-IIII003 to YT), the Japan Society for the Promotion of Science KAKENHI (grant nos. JP20H03858, JP22Kl96l4, and JP23H00445 to YT; JP20K09903 and JP23K18355 to HD; JP22K09923 to SH; and JP19H03829 to KT), and JST, the establishment of University fellowships towards the creation of science technology innovation (grant no. JPMJFS2II4 to FT). The funders had no role in study design, data collection and interpretation, or the decision to submit the work for publication.
+Competing interests: The authors have declared that no competing interests exist.
+Introduction
+A million infection-related deaths caused by bacterial pathogens occurred worldwide in 2019, with Staphylococcus aureus and Streptococcus pneumoniae accounting for approximately 26% of these fatalities [1]. Antimicrobial resistance poses a significant challenge in the management of infections caused by these bacterial species. In 2019, infectious diseases caused by antibiotic-resistant S. aureus and S. pneumoniae were responsible for 900,000 and 700,000 deaths, respectively. The burden of bacterial infectious diseases is particularly severe in low- and middle-income countries (LMIC) [2], underscoring the urgency to explore universally applicable hygiene control methods.
+Although antibiotics are commonly used to treat infectious diseases, toxins produced by bacteria can cause diseases even after sterilization [3]. For example, S. aureus produces staphylococcal enterotoxins (SEs), which are significant contributors to the development of foodborne diseases [4]. In the European Union alone, 114 foodborne disease outbreaks in 2018 were attributed to SEs [5]. SEs cause symptoms such as nausea, vomiting, abdominal pain, cramps, and diarrhea, even at intakes of less than 1 μg [4]. Moreover, SEs are resistant to heat treatment and low pH [6], necessitating the development of novel approaches to treat and prevent diseases caused by bacteria and their toxins.
+Ozone gas demonstrates potent antimicrobial activity against various micro-organisms, such as bacteria, viruses, fungi, yeast, and protozoa [7–9]. Ozone disrupts the integrity of bacterial cell envelope by oxidizing phospholipids and lipoproteins. In addition, ozone inhibits fungal cell growth. In the case of viruses, ozone has been reported to damage the viral capsid and disrupt the reproductive cycle by interfering with viral cell contact through peroxidation [7]. Additionally, ozone gas degrades fungal toxins such as mycotoxins [10]. However, high concentrations of ozone gas are harmful to humans. Exposure to more than 0.08 ppm of ozone gas for a few hours significantly decreases lung function in healthy adults [11]. Furthermore, in vitro exposure to ozone gas causes the death of human oral epithelial cells and gingival fibroblasts [12].
+Ozonated water also exhibits antimicrobial activity. Because ozone volatilization from the surface of ozonated water is relatively low, ozonated water is less harmful than ozone gas. Previous studies on ozonated water primarily focused on assessing hand hygiene protocols in healthcare settings and the sterilizing food processing equipment [13–15]. However, ozone gas exhibits instability when dissolved in water, resulting in a relatively short half-life of less than 1 h [16, 17]. To address these challenges, the ultrafine bubble (UFB) technology has attracted considerable attention.
+UFBs, with a diameter of less than 1 μm, demonstrate high stability in water [18]. In a previous study, we developed an ozone ultrafine bubble water (OUFBW) generator that exerted bactericidal activity against various bacterial species, including antibiotic-resistant strains [19]. However, the effects of OUFBW on bacterial toxins remain unclear. In this study, we aimed to determine whether OUFBW can degrade bacterial toxins and examine the effects of OUFBW treatment on various bacterial toxins.
+Materials and methods
+Production of OUFB-solution (OUFBW, OUFB-phosphate-buffered saline (OUFB-PBS), OUFB-Roswell Park Memorial Institute (OUB-RPMI)), and ultrafine bubble water (UFBW)
+OUFBW was manufactured using oxygen present in air and distilled water (DW), as described in our previous study [19]. Briefly, ozone gas was generated using a dielectric barrier discharge ozone generator (10 g/h) (Futech-Niigata LLC, Niigata, Japan) with 90% of the oxygen supplied by an oxygen concentrator (flow rate: 1 L/min) (BMC Medical Co., Ltd, Beijing, China). The OUFBW was generated using a micro blender (Futech-Niigata LLC) and circulated in a stainless steel tank. UFBW was produced in the same manner as OUFBW using room air instead of ozone gas. The structure of the OUFBW generator is shown in Fig 1. To prepare OUFBW at various ozone concentrations, OUFBW containing 3–5 ppm ozone was serially diluted with DW. For the cytotoxicity assays, OUFB-PBS and OUFB-RPMI were prepared by diluting OUFBW with 10×PBS (Nacalai Tesque Inc., Kyoto, Japan) and 10×RPMI-1640 medium (Sigma-Aldrich, St. Louis, MO, USA), respectively. The ozone concentrations in the OUFB solutions were measured using a digital pack Test Ozone (Kyoritsu Chemical Check Lab, Tokyo, Japan).
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 1. Structure of ozone ultrafine bubble water (OUFBW) generator.
+(A) Schematic of the OUFBW generator. (B) Overall image of the OUFBW generator. It can generate 4 L of OUFBW (3–5 ppm ozone concentration) and ultrafine bubbles (UFBW) in 15 min. (C) Red arrows indicate the dielectric barrier discharge ozone generators that generate ozone gas (10 g/h). (D) Filling the cooling tank with ice and water keeps the water temperature < 10˚C inside the OUFBW generator.
+https://doi.org/10.1371/journal.pone.0306998.g001
+Silver staining assay and western blotting assay
+Purified leukotoxin (LtxA) (3.6 μg), recombinant pneumolysin (rPLY) (2.2 μg), and purified staphylococcal enterotoxin A (SEA) (3.5 μg) were added to 500 μL of OUFBW or UFBW and incubated for 5 min. After that, the mixture was concentrated using Amicon Ultra-0.5 centrifugal filter devices (Merck KGaA, Darmstadt, Germany) and separated by standard sodium dodecyl-sulfate polyacrylamide gel electrophoresis (SDS-PAGE) using 12% acrylamide gel (Bio-Rad, Hercules, CA, USA). The resulting gels were stained with silver using the PierceTM Silver Stain Kit (Thermo Fisher Scientific, Waltham, MA, USA).
+Isolation of human neutrophils and erythrocytes
+Heparinized whole blood samples were obtained from three healthy donors (A, B and C) between April 17, 2023, and July 26, 2023. Neutrophils were isolated using Polymorphprep (Axis-Shield, Dundee, UK) in a 1:1 ratio of PBS, and centrifuged at 470×g for 30 min. The layers containing neutrophils were carefully collected, and residual red blood cells were lysed using ACK Lysing Buffer (Lonza, Basel, Switzerland). Human neutrophils were counted using a Countess II FL (Thermo Fisher Scientific) and used for subsequent experiments. Erythrocytes were isolated by centrifugation at 180×g for 10 min from whole blood and washed thrice with PBS. All experimental procedures were approved by the Ethics Committee of Niigata University and were conducted following the approved guidelines. Written informed consent was obtained from all donors in the presence of a third party before participation in the study (permit # 2018–0075). Human blood was obtained from one donor per experiment (Fig 2B; N = 5 wells from donor A, Fig 2D; N = 4 wells from donor B, Fig 3B; N = 5 wells from donor C), and human cells were used for the experiment immediately after blood collection.
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 2. Ozone ultrafine bubble (OUFB) degraded recombinant pneumolysin (rPLY).
+(A) rPLY was added to OUFBW (0.28–4.26 ppm of ozone concentration) or distilled water, followed by SDS-PAGE and silver staining. (B) Human neutrophils (1×105 cells/100 μL) were exposed to rPLY (10 pg/cells) in the presence or absence of OUFB-PBS containing 4.47 ppm of ozone for 3 h, followed by LDH assay. Data are presented as the mean ± SD of quintuplicate experiments and were evaluated using one-way analysis of variance with Dunnett’s multiple-comparison test, * P < 0.05. N = 5 wells per each group (from one healthy donor). (C) Human neutrophils (5×105 cells/100 μL) were exposed to rPLY (10 pg/cells) in the presence or absence of OUFB-RPMI (3.52 ppm ozone) for 1 h. Representative microscopic images were shown. (D) rPLY (final concentration 1 μg/mL) or Triton X-100 (TX-100) were added to human erythrocytes in PBS or OUFB-PBS (4.42 ppm of ozone concentration). Samples were incubated at 37˚C for 1 h, followed by a hemolytic assay. TX-100 was used as a positive control. Data are presented as the mean ± SD of quadruplicate experiments and were evaluated using a one-way analysis of Dunnett’s multiple-comparison test, * P < 0.05. N = 4 wells per each group (from one health donor).
+https://doi.org/10.1371/journal.pone.0306998.g002
+Download:
+PPT
+PowerPoint slide
+PNG
+larger image
+TIFF
+original image
+Fig 3. Ozone ultrafine bubble (OUFB) degraded Aggregatibacter actinomycetemcomitans leukotoxin (LtxA) and abolish the cytotoxicity.
+(A) LtxA was exposed to OUFBW (0.28–4.26 ppm of ozone concentration) or distilled water, followed by SDS-PAGE and silver staining. (B) Human neutrophils (1×105 cells/100 μL) were exposed to LtxA (50 fg/cells) in the presence or absence of OUFB-PBS containing 4.47 ppm of ozone for 3 h, followed by lactate dehydrogenase (LDH) assay. Triton X-100 (TX-100) was used as a positive control. Data are presented as the mean ± SD of quintuplicate experiments and were evaluated using one-way analysis of variance with Dunnett’s multiple-comparisons test, * P < 0.05. N = 5 wells per each group (from one healthy donor). (C) Human neutrophils (5×105 cells/100 μL) were exposed to LtxA (50 fg/cell) in the presence or absence of OUFB-RPMI (3.52 ppm ozone) for 1 h. Representative microscopic images were shown.
+https://doi.org/10.1371/journal.pone.0306998.g003
+Cytotoxicity assay and hemolytic assay
+For cytotoxicity assay, 1 μL of LtxA (0.05 μg/mL) and 1 μL of rPLY (1 μg/mL) were added to 1 mL of PBS or OUFB-PBS containing 4.47 ppm of ozone followed by abolishment of OUFB by ultrasonication at 43 kHz for 5 min [18]. Human neutrophils were seeded onto a 96-well plate at a density of 1.0×105 cells/well in 100 μL of serum-free RPMI-1640 medium. After that, PBS, OUFB-PBS, LtxA (final concentration: 50 fg/cell), rPLY (final concentration: 10 pg/cell), OUFB-treated LtxA, OUFB-treated rPLY, or 0.1% Triton X-100 was added to the culture and incubated at 37˚C in an atmosphere of 95% air and 5% CO2 for up to 3 h followed by cytotoxicity analysis using a lactate dehydrogenase (LDH)-cytotoxicity test (Wako Pure Chemical Industries, Osaka, Japan) and optical microscopic analysis using BIOREVO BZ-9000 microscope (Keyence, Osaka, Japan). For hemolytic assay, 10 μL of rPLY (0.05 mg/mL) or 0.002% Triton X-100 was added to human erythrocytes (1% ν/v) in 500 μL of PBS or OUFB-PBS containing 4.42 ppm of ozone. The samples were incubated at 37˚C for 30 min and centrifuged

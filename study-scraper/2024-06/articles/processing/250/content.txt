@@ -1,0 +1,14 @@
+**Paragraph 1: Introduction**
+Solar-induced chlorophyll fluorescence (SIF) has gained popularity as a proxy for monitoring vegetation photosynthesis globally. The Global Ozone Monitoring Experiment-2A (GOME-2A) SIF product has been widely used due to its extensive global coverage since 2007. However, the GOME-2A instrument's temporal degradation poses a significant challenge in generating consistent long-term SIF datasets. This study aims to provide a temporally consistent GOME-2A SIF dataset for 2007-2021 by correcting the degradation problem and generating monthly average values.
+
+**Paragraph 2: Methods**
+The pseudo-invariant method was used to calibrate the temporal degradation of GOME-2A level-1B radiance, revealing 16.21% degradation from 2007 to 2021. A data-driven approach was applied to retrieve SIF datasets from corrected GOME-2A measurements. The photosynthetically active radiation (PAR)-based upscaling method was used to upscale instantaneous SIF retrievals to monthly values.
+
+**Paragraph 3: Results**
+The resulting temporally consistent global GOME-2A SIF dataset (TCSIF) shows that 62.91% of vegetated regions exhibited an increase in SIF, and the global annual averaged SIF trended upwards by 0.70%/yr from 2007 to 2021.
+
+**Paragraph 4: Discussion**
+The TCSIF dataset offers a promising tool for monitoring global vegetation variation from 2007 to 2021. The correction of temporal degradation is critical for ensuring the reliability and consistency of long-term SIF datasets. The upscaling method used in this study can effectively compensate for changes in cloud conditions and atmospheric scattering.
+
+**Paragraph 5: Conclusions**
+In conclusion, this study provides a temporally consistent GOME-2A SIF dataset for 2007-2021 by correcting the degradation problem and generating monthly average values. The TCSIF dataset offers valuable insights into global vegetation variation and photosynthetic activity, providing a promising tool for monitoring changes in terrestrial ecosystems over time.

@@ -1,0 +1,996 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+View PDF
+Outline
+Highlights
+Abstract
+Keywords
+Nomenclature
+Introduction
+Methodology
+Simulation models and algorithms
+Results and discussions
+Conclusion
+CRediT authorship contribution statement
+Declaration of Competing Interest
+Acknowledgments
+References
+Show full outline
+Figures (12)
+Show 6 more figures
+Tables (5)
+Table 1
+Table 2
+Table 3
+Table 4
+Table 5
+Journal of Engineering Research
+Available online 15 July 2024
+In Press, Corrected Proof
+What’s this?
+Adaptive solar irradiance forecasting in arid regions: Enhancing accuracy with localized atmospheric adjustments
+Author links open overlay panel
+Mahmoud Ben Amara a b
+,
+Elhem Rdhaounia a b
+,
+Moncef Balghouthi a
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.jer.2024.07.008
+Get rights and content
+Under a Creative Commons
+license
+open access
+Highlights
+•
+Adapts Bird model to forecast solar radiation in Tunisia with high accuracy.
+•
+Integrates model into Excel, enhancing ease of use and precision.
+•
+Identifies optimal solar panel inclinations for seasonal efficiency.
+•
+Validates model with a decade of data, improving error metrics.
+Abstract
+This study refines the Bird model for forecasting solar radiation on oriented and inclined surfaces in Southern Tunisia, known for its high solar potential. Integrating the model into an Excel tool simplifies radiative transfer equations, enhancing solar forecast precision and accessibility. Over a decade of meteorological data enriches the model with atmospheric parameters like aerosol optical depth, water vapor content, and ozone thickness, extending its applicability across unmonitored regions. The improved model achieves coefficient of Determination (R²) values of 0.989 for Global Horizontal Irradiance (GHI), 0.969 for Direct Horizontal Irradiance (DHI), and 0.974 for Diffuse Horizontal Irradiance (DifHI), with reduced Root Mean Square Error (RMSE) values of 24.66 W/m² for GHI, 36.59 W/m² for DHI, and 12.66 W/m² for DifHI. Optimal panel inclinations are 40° to 60° in winter, 10° to 30° in summer, and 30° to 40° in spring and autumn for maximum solar energy capture. These findings enhance the understanding of solar dynamics in arid regions and support strategic solar energy deployment, offering a scalable framework for similar environments globally and promoting sustainable energy development.
+Keywords
+Solar Irradiance ForecastingAtmospheric AdjustmentsArid Solar EnergyClimate-Specific Modeling
+Nomenclature
+Albedo
+albedo coefficient
+avg
+Average
+Forward scattering radiation ratio due to the aerosols
+DHI
+Direct Horizontal Irradiation (W/m²)
+DifHI
+Diffuse Horizontal Irradiation (W/m²)
+dir
+Wind direction (°N)
+DNI
+Direct Normal Irradiation (W/m²)
+Extraterrestrial irradiance (W/m²)
+GHI
+Global Horizontal Irradiation (W/m²)
+Solar constant (W/m²)
+IHas
+Horizontal Irradiance from Atmospheric Scattering (W/m²)
+j
+Number day of the year
+long
+Longitude (°)
+total column ozone thickness (cm)
+Total column water vapor (cm)
+Air mass
+MAPE
+Mean Absolute Percentage Error
+MBE
+Mean Bias Error
+max
+maximum
+min
+minimum
+p
+Pressure (mB)
+RH
+Relative Humidity (°)
+RMSE
+Root Mean Square Error
+rg
+Ground albedo
+rs
+Skey albedo
+Coefficient of Determination
+T
+Temperature (°C)
+Transmittance of aerosols
+Transmittance of Aerosols absorption
+Transmittance of Gaz
+Transmittance of ozone
+Transmittance of Rayleigh scattering
+Transmittance of Water vapor
+Local time (hour)
+Time zone (hour)
+V
+Wind Velocity (m/s)
+z
+Altitude (m)
+Angstrom wavelength exponent
+Orientation angle (°)
+Angstrom turbidity coefficient
+Solar declination (°)
+Wavelength (nm)
+Latitude (°)
+Hour angle (°)
+Inclination angle (°)
+Solar Zenith Angle (°)
+broadband aerosol optical depth
+Aerosol optical depth at 380 nm
+Aerosol optical depth at 500 nm
+Time equation (second)
+Introduction
+Solar radiation forecasting is crucial within the renewable energy landscape, underpinning the optimization of solar power systems' performance and reliability. Accurate predictions of solar irradiance are essential for effective planning and operation of photovoltaic (PV) installations, which directly influence energy management and economic returns in the solar energy sector
+[1]
+,
+[2]
+. Furthermore, precise forecasting is vital for integrating solar energy smoothly into power grids and managing the intermittency of renewable energy sources, thereby bolstering the stability and efficiency of energy systems
+[3]
+.
+In arid regions like Southern Tunisia, known for their high solar potential due to abundant sunshine and minimal cloud cover, solar radiation forecasting faces specific challenges and opportunities
+[4]
+. While these regions hold significant promise for solar power generation, they also encounter specific environmental challenges such as high-temperature variability and frequent dust events, which can impair the efficiency of solar panels
+[5]
+. In such contexts, accurate solar irradiance predictions are indispensable for maximizing the utility of solar installations, thus ensuring sustainable energy development that is adapted to local conditions.
+The methodologies employed in solar irradiance forecasting are diverse and tailored to various environmental and technical requirements. Traditional models often utilize empirical and statistical approaches based on historical weather data to predict future solar conditions, favored for their applicability in regions with extensive climatic records
+[6]
+,
+[7]
+,
+[8]
+,
+[9]
+. Advanced numerical weather prediction (NWP) models integrate solar irradiance with broader meteorological conditions, providing insights crucial for energy planning and grid management
+[10]
+,
+[11]
+,
+[12]
+,
+[13]
+,
+[14]
+. Additionally, the advent of satellite-based models has revolutionized forecasting by offering high-resolution data across extensive areas, essential for regions lacking ground-based observational infrastructure
+[15]
+,
+[16]
+,
+[17]
+. The integration of machine learning has further enhanced forecasting accuracy and adaptability, leveraging large datasets to refine predictions dynamically
+[18]
+,
+[19]
+,
+[20]
+.
+Despite their precision, many of these sophisticated models necessitate complex calculations and substantial computational resources, which limits their accessibility primarily to specialists. To address these limitations, there has been significant progress in simplifying these models without compromising their accuracy. The R.E. Bird model, renowned for its efficacy in clear sky conditions, is particularly advantageous for arid regions like Southern Tunisia. This model calculates direct and diffuse solar radiation by incorporating multiple atmospheric parameters such as air mass, ozone absorption, and water vapor content
+[21]
+,
+[22]
+,
+[23]
+.
+This study aims to bridge the research gap by enhancing the forecasting of solar radiation on oriented and inclined surfaces in Southern Tunisia, employing a novel adaptation of the R.E. Bird model integrated into 'Excel Software'. This innovative tool simplifies complex radiative transfer equations, improving forecasting accessibility and accuracy specifically tailored to the specific atmospheric conditions of the region. By addressing the distinct challenges and leveraging the high solar potential of Southern Tunisia, this research seeks to optimize the configuration and efficiency of both photovoltaic and concentrated solar power systems in arid climates. The development of Excel represents a pivotal advancement in solar irradiance forecasting technology, particularly suited for regions like Southern Tunisia where it can significantly contribute to harnessing the full potential of solar energy.
+Methodology
+Characterization of the study area: Tataouine, Southern Tunisia
+The focus of this research is Tataouine, located in the arid yet sun-drenched landscapes of Southern Tunisia. Situated at a latitude of 32.997 degrees, a longitude of 10.451 degrees, an elevation of 210 m, and within the +1-hour time zone, Tataouine offers a specific setting for studying solar phenomena. Characterized by its exceptional solar exposure, the region boasts a wide range of annual solar irradiance, oscillating between 1800 and 2800 kWh/m²
+[24]
+. This spectrum underscores Tataouine's robust potential for solar power generation and earmarks it as a prime locale for renewable energy exploration. The variation in solar irradiance levels provides critical insights necessary for the development and optimization of tailored solar energy infrastructures.
+At the heart of this study is the meticulous examination of solar insolation in Tataouine — the quantum of solar energy received per unit surface area, which significantly influences the performance and design of solar power systems. To afford a holistic overview, we've incorporated a set of maps titled "Exploration of Solar Energy Potential in Tataouine, Tunisia: Geographical Location and Irradiance Profiles" (
+Fig. 1
+), derived from the Global Solar Atlas 2.0, courtesy of the World Bank and Solargis, updated as of 2020
+[25]
+. These visual aids dissect the solar energy distribution across different spectrums, indispensable for the strategic planning and efficient deployment of solar technologies in the region.
+Download: Download high-res image (279KB)
+Download: Download full-size image
+Fig. 1. Exploration of Solar Energy Potential in Tataouine, Tunisia: Geographical Location and Irradiance Profiles.
+[25]
+.
+The map series is meticulously curated to address specific facets of solar energy:
+−
+Part (a) presents the direct normal irradiation profile, offering a direct measure of solar energy intensity devoid of atmospheric scattering, a key parameter for assessing concentrated solar power (CSP) prospects.
+−
+Part (b) delves into global horizontal irradiation, encapsulating the total solar energy incident on a horizontal plane, thus gauging the area's comprehensive solar potential vital for photovoltaic (PV) system considerations.
+−
+Part (c), updated from the World Bank's Global Solar Atlas 2.0 and based on Solargis data, charts the photovoltaic power potential, guiding the strategic emplacement and optimization of PV installations to harness maximum efficiency across Tunisia's diverse landscapes.
+This collection of maps, enriched by the latest updates and sourced from reputable global data by the World Bank and Solargis, not only augments the comprehension of Tataouine’s solar energy dynamics but also fosters an in-depth investigation into leveraging this abundant natural resource. By delineating solar energy availability with enhanced precision, the study affirms Tataouine’s crucial role in the sustainable energy narrative, setting a solid base for upcoming endeavors in solar energy harnessing and application.
+To address the specific atmospheric challenges of Southern Tunisia, the methodology includes adjustments in the solar irradiance forecasting models to account for dust accumulation and temperature variability. Instruments like high-precision pyranometers are employed to measure the impact of dust on solar irradiance directly, while temperature sensors help correlate fluctuations with changes in panel efficiency.
+Data collection and instrumentation
+The presented study utilized weather data collected over 10 years, from January 1, 2010, to December 31, 2020, in Tataouine, Tunisia, and leveraged data from a state-of-the-art meteorological station equipped with high-precision instruments critical for solar radiation research. This array included Kipp & Zonen CHP1 pyrheliometers and CMP21 pyranometers, which offer exceptional accuracy in measuring direct solar irradiance and hemispherical irradiance, respectively, along with Campbell Scientific CS215 probes for detailed temperature and relative humidity readings. Additionally, NRG instruments provided precise wind speed and direction measurements. This ensemble of instruments, validated through regular recalibrations against international standards and documented in
+Table 1
+, forms the backbone of the comprehensive data collection framework.
+Table 1. Accuracy of instrumentation.
+Sensor Type accuracy
+Pyrheliometer Kipp&Zonen CHP1 ±1 W/m²
+Pyranometer Kipp&Zonen CMP21 ±7 W/m²
+Temperature and Relative Humidity Probe Campbell Scientific CS215 ±0.9°C over −40°C to +70°C
+±2 % over 10–90 %
+Anemometer NRG #40 C < 0.1 m/s over 5–25 m/s
+Wind vane NRG #200 P < 1 %
+Data were captured in both one-minute and ten-minute averages and automatically transmitted daily to the Energy Research and Technology Center of Borj Cedria, Tunisia, for analysis. This process facilitated the continuous monitoring and quality assurance of the data, ensuring its integrity for modeling purposes. A dual-axis tracking system, positioned ten meters above ground, further refined the data collection by accurately following the sun's trajectory, thereby enhancing the precision of solar irradiance measurements relevant to optimizing solar energy systems.
+The meticulous data presentation in
+Table 2
+showcases typical clear sky day readings in Tataouine, underlining the minimum, maximum, and average values for key meteorological parameters. This data, representative of the average conditions, underscores the rigorous process behind the data acquisition and its pivotal role in feeding into the simulation models for accurate solar radiation prediction. The robustness of this dataset is ensured through stringent technical validation processes, including sensor recalibration at least every two years and the continuous upgrade of the station with state-of-the-art instruments tailored for solar energy research
+[26]
+.
+Table 2. Example of collected data by the high precision meteorological station in tataouine on a clear sky day.
+Empty Cell
+GHI (W/m²) DNI (W/m²) Dif (W/m²) Tamb (°C) RH (%) V (m/s) dir (°N) p
+(mB)
+min -2 -1 -2 11,7 31,7 0,0 0 995
+max 985 980 165 22,2 89,6 9,4 176 998
+avg 303 350 58 16,9 56,7 4,1 29 996
+In sum, the methodology exemplifies a comprehensive approach to data collection and instrumentation, underpinned by precision, reliability, and a commitment to technological advancement. This solid foundation not only supports the current solar radiation modeling efforts but also establishes a benchmark for future research aimed at harnessing the solar potential of arid regions like Tataouine.
+Seasonal solar dynamics analysis
+In the analysis of seasonal solar dynamics within Tataouine, Southern Tunisia, an in-depth exploration was conducted to assess how solar irradiance and ambient temperatures vary throughout the year. This analysis is vividly presented through
+Fig. 2
+,
+Fig. 3
+,
+Fig. 4
+,
+Fig. 5
+, which depict the seasonal shifts in solar radiation and temperature over ten-day representative periods for winter, spring, summer, and autumn. These graphical representations are key to understanding the nuanced patterns of solar energy availability, marked by both diurnal and seasonal fluctuations.
+Download: Download high-res image (294KB)
+Download: Download full-size image
+Fig. 2. Winter Analysis of Global and Direct Normal Irradiance and Ambient Temperature Over a Ten-day Representative Period in Tataouine.
+Download: Download high-res image (332KB)
+Download: Download full-size image
+Fig. 3. Spring Analysis of Global and Direct Normal Irradiance and Ambient Temperature Over a Ten-day Representative Period in Tataouine.
+Download: Download high-res image (320KB)
+Download: Download full-size image
+Fig. 4. Summer Analysis of Global and Direct Normal Irradiance and Ambient Temperature Over a Ten-Day Representative Period in Tataouine.
+Download: Download high-res image (300KB)
+Download: Download full-size image
+Fig. 5. Autumnal Variations in Global and Direct Normal Irradiance and Ambient Temperature Over a Representative Ten-Day Period in Tataouine.
+The study highlighted significant variations in solar intensity across different times of the year. Specifically, during summer, the direct normal irradiance (DNI) regularly exceeded 900 W/m² at midday, showcasing the intense solar potential of the region. The analysis also captured a wide range of seasonal temperatures, with winter lows around 8°C soaring to summer peaks near 45°C. These findings, along with detailed irradiance data, are meticulously aggregated in
+Table 3
+. This compilation underlines Tataouine's rich solar resources, noting that direct solar radiation exceeds 700 W/m² for over 1700 hours yearly, and global solar radiation surpasses the same threshold for more than 1600 hours annually. In contrast, diffuse solar radiation typically registers at lower intensities, predominantly below 400 W/m².
+Table 3. Annual distribution of solar irradiance in clear sky conditions in tataouine.
+Irradiance Range (W/m²) Global Horizontal Irradiation (Hours) Direct Normal Irradiation (Hours) Diffuse Irradiation (Hours)
+Less than 1 3183 4727 5266
+1–100 2462 825 1224
+100–200 2 2 504
+200–300 452 250 737
+300–400 348 261 772
+400–500 456 298 171
+500–600 379 364 67
+600–700 444 457 14
+700–800 296 641 3
+800–900 340 670 1
+900–1000 395 264 0
+More than 1000 2 0 0
+Such data conclusively demonstrate that Tataouine, and by extension, Southern Tunisia, boasts considerable solar energy potential, primarily due to its favorable climatic conditions. This potential is further illustrated by the measured frequencies of solar irradiation detailed in
+Table 3
+, providing a comprehensive overview of the area's capability to harness solar power efficiently.
+By integrating a meticulous examination of solar irradiance patterns with the ambient temperature dynamics across different seasons, the study not only enhances the understanding of solar energy variability but also emphasizes the strategic importance of Tataouine as a cornerstone for solar energy development in arid regions. These insights serve as a valuable resource for the planning and optimization of solar energy projects, underpinning the significant role that Tataouine could play in the renewable energy landscape.
+Simulation model description
+In the investigation of solar irradiance in Tataouine, The R.E. Bird Clear Sky Broadband Solar Radiation Model is employed, a tool renowned for its precision in simulating solar irradiance on horizontal surfaces. This model, foundational to the study, is particularly valued for its simplicity and accuracy, allowing us to forecast solar energy potential effectively
+[7]
+,
+[27]
+.
+Recognizing the specific environmental characteristics of Southern Tunisia, the Bird model has been adapted to reflect the local atmospheric conditions. This adaptation is facilitated through custom-developed equations, enabling accurate predictions of solar irradiance on oriented and inclined surfaces, crucial for the practical application of solar panels. The approach ensures the model's outputs are not only theoretical but also applicable to real-world scenarios, offering insights into optimal solar panel configurations.
+To maintain the ongoing accuracy and relevance of the forecasting model, A systematic update protocol has been implemented. The model is updated annually to incorporate the latest meteorological data, allowing us to account for seasonal variations and significant climatic events that could influence solar irradiance patterns. By continually integrating new data, the model's precision and adaptability over time are maintained.
+Furthermore, procedures for periodic recalibration of model parameters have been established, based on the latest atmospheric studies and empirical data from similar arid regions. These updates are critical for accommodating changes in environmental conditions and enhancing the model's performance.
+This rigorous update schedule ensures that the model remains a robust tool for forecasting solar irradiance, providing stakeholders with reliable data for making informed decisions regarding solar energy projects.
+An essential aspect of the methodology is the translation of theoretical data into practical applications, specifically tailored to the geometries of solar energy systems. By adjusting the model's horizontal irradiance data for varied orientations and inclinations, the gap between simulation and actual solar energy capture is bridged. This adaptation employs simple Excel-based calculations, enhancing the model's accessibility and ease of use for predicting solar energy potential in Tataouine.
+Through this streamlined and pragmatic approach, the simulation model provides a comprehensive framework for understanding and optimizing solar energy utilization in arid environments. It exemplifies a balance between theoretical precision and practical applicability, contributing significantly to solar energy research and development in regions like Tataouine.
+Simulation models and algorithms
+Bird’s model application
+In this study, the R.E. Bird Clear Sky Broadband Solar Radiation Model has been customized to reflect the specific atmospheric and environmental conditions of Tataouine, Southern Tunisia. Specific adaptations include recalibrating the model's standard parameters such as air mass and aerosol optical depths based on localized meteorological data
+[27]
+. This sophisticated adaptation is essential for accurately estimating irradiance on surfaces of varying orientations and inclines—critical for effective solar energy system implementation in arid landscapes.
+The Bird model, renowned for its precise irradiance calculations under clear sky conditions, integrates several atmospheric parameters—air mass, ozone levels, water vapor, and solar incidence angle—to derive essential solar irradiance measures: Direct Horizontal Irradiance (DHI), Diffuse Horizontal Irradiance (DifHI), and Global Horizontal Irradiance (GHI). Employing straightforward computational formulas, the model performs detailed calculations as follows
+[7]
+:
+•
+Direct Normal Irradiance (DNI) in W/m²:
+(1)
+•
+Direct Horizontal Irradiance (DHI) in W/m²:
+(2)
+•
+Horizontal Irradiance from Atmospheric Scattering (
+) in W/m²:
+(3)
+•
+Global Horizontal Irradiance (GHI) in W/m²:
+(4)
+•
+Diffuse Horizontal Irradiance (DifHI) in W/m²:
+(5)
+Where,
+represents the extraterrestrial irradiance, adjusted for variations in the Earth-Sun distance throughout the year, while
+ denotes the solar zenith angle. Each parameter, such as Rayleigh scattering (
+), ozone (
+), gases (
+), water vapor (
+), aerosols (
+), and aerosol absorption (
+), is meticulously derived from empirical formulas based on atmospheric composition and sun-earth geometry specific to Tataouine. These adaptations ensure that the forecasts are finely tuned to the specific climate and environmental conditions of the region
+[7]
+,
+[27]
+.
+(6)
+(7)
+(8)
+(9)
+(10)
+(11)
+(12)
+(13)
+In this context,
+represents the solar constant, and j indicates the day of the year.
+, the air mass, along with other atmospheric parameters such as total column ozone thickness (
+), water vapor content (
+), and the broadband aerosol optical depth
+are critical for assessing the position of the sun relative to Earth. These parameters significantly influence irradiance calculations.
+(13)
+(14)
+(15)
+(16)
+(17)
+(18)
+(19)
+In this formulation,
+represents the atmospheric pressure in millibars,
+denotes the local time,
+specifies the time zone, and
+indicates the longitude. The equation of time
+, is calculated based on the day number
+. Additionally, this formulation incorporates, the aerosol optical depth at 500 nm (
+) and at 380 nm (
+).
+According to the findings discussed previously, the key atmospheric parameters that influence the attenuation of GHI, DNI, and DifHI under clear sky conditions include total column ozone thickness (
+), water vapor content (
+), broadband aerosol optical depth
+, atmospheric pressure
+, and the albedo coefficient. These parameters significantly influence irradiance calculations, which are detailed in
+Table 4
+as documented in prior studies
+[28]
+,
+[29]
+,
+[30]
+,
+[31]
+,
+[32]
+,
+[33]
+,
+[34]
+,
+[35]
+.
+Table 4. Summary of atmospheric characteristics for tatouine.
+Parameter
+Albed
+Value 990 0.2 0295 0,2 0293 0277 0178 0204 0,988
+The Bird model's computations are efficiently processed within an Excel framework, ensuring precision and relevance to Tataouine's specific climatic conditions. The use of Excel enhances the model's flexibility and accessibility, providing a solid foundation for analyzing solar energy potential at various times throughout the year. This methodology underscores the model's adaptability to different regional settings and confirms its accuracy in estimating solar irradiance, supporting strategic solar energy project planning in arid regions like Tataouine.
+The model's effectiveness and precision are validated against empirical data collected from the High Precision Meteorological Station in Tataouine, analyzing hourly, daily, and monthly averages of horizontal global, diffuse, and direct normal irradiances over ten years. This extensive validation process involves preparing detailed representative curves for each month, clearly illustrating the comparison between the measured values and those estimated by the model, particularly under clear-sky conditions. The results, detailed in
+Fig. 6
+, demonstrate the model's capacity to closely approximate actual irradiance data under clear sky conditions throughout the seasons. While the model shows high accuracy, discrepancies noted during cloudy conditions and at low solar elevations during sunrise and sunset highlight areas for future refinement.
+Download: Download high-res image (304KB)
+Download: Download full-size image
+Download: Download high-res image (277KB)
+Download: Download full-size image
+Fig. 6. Comparative Analysis of Modeled and Measured Global, Direct, and Diffuse Solar Radiation on Representative Days Across Seasons: (a) Spring, (b) Summer, (c) Autumn, and (d) Winter.
+This forecasting model incorporates sophisticated adjustments for atmospheric turbidity, drawing on methodologies from leading research
+[10]
+,
+[11]
+,
+[36]
+,
+[37]
+,
+[38]
+,
+[39]
+,
+[40]
+. This is crucial in arid environments like Tataouine, where aerosols, water vapor, and other atmospheric gases significantly influence solar radiation. These adjustments are designed to ensure that the model accurately reflects the actual solar irradiance observed in real-world conditions. By doing so, the model's utility and reliability are enhanced for solar energy project planning not only in Tataouine but also in similar arid regions globally.
+The validation confirms the model's effectiveness in simulating solar irradiance accurately under predominantly clear skies. It also highlights the need for continuous refinement, particularly in enhancing model sensitivity to cloud cover and low-light conditions at dawn and dusk, to further align predictions with observed data. This rigorous validation not only confirms the reliability of the solar forecasting model but also underscores the importance of continuous improvement in model parameters to cater to the specific climatic conditions of Southern Tunisia.
+Assessing the accuracy and validation of the bird model
+The evaluation of the Bird Clear Sky Broadband Solar Radiation Model's performance in this study is rigorously undertaken through a comprehensive statistical analysis, aimed at validating the model against observed solar irradiance data specific to Tataouine, Southern Tunisia. This analytical phase is pivotal for establishing the model's reliability and accuracy in predicting solar irradiance across various surface orientations and inclinations under clear sky conditions.
+Error metrics and model performance
+The crux of the evaluation lies in a suite of error metrics, meticulously selected to offer a multi-dimensional analysis of the model's predictive accuracy as reported by
+[41]
+,
+[42]
+. These metrics include:
+•
+Mean Bias Error (MBE), offering insights into the model's tendency to overestimate or underestimate irradiance,
+(20)
+•
+Root Mean Square Error (RMSE), quantifying the average magnitude of the model's errors,
+(21)
+•
+Mean Absolute Percentage Error (MAPE), providing a normalized measure of error magnitude relative to the actual values,
+(22)
+•
+Coefficient of Determination (
+), assessing the proportion of variance in the observed data that is predictable from the model inputs.
+(23)
+̅
+Where N is the total number of measured data,
+,
+and ̅
+are respectively the ith measured value, ith calculated value, and the mean of measured value.
+Table 5
+, titled "Performance Metrics of the Bird Model for Solar Irradiance Prediction," offers a comprehensive analysis of the model's accuracy in predicting three types of solar irradiance: Global Horizontal Irradiance (GHI), Direct Horizontal Irradiance (DHI), and Diffuse Horizontal Irradiance (DifHI). The data demonstrates that the model consistently overestimates the actual measurements, as evidenced by positive Mean Bias Error (MBE) values of 15.97 for GHI, 28.12 for DHI, and 9.66 for DifHI. Despite this overestimation, the model is considered notably acceptable due to its simplicity and ease of use, particularly in its implementation within an Excel tool. This user-friendly platform not only allows for quick analyses but also simplifies the integration and adaptation of the model into broader calculations for solar panel performance. The high R-squared values—0.989 for GHI, 0.969 for DHI, and 0.974 for DifHI—underscore the model's capability to capture a significant portion of the variance in observed solar irradiance data. Furthermore, although the Mean Absolute Percentage Error (MAPE) and Root Mean Square Error (RMSE) suggest that there is potential for improvement, the current level of accuracy is adequate for practical applications. Therefore, the combination of reasonable accuracy, a user-friendly interface, and adaptability make the Bird Model an invaluable tool, especially for those seeking a reliable yet straightforward method to incorporate solar irradiance data into solar panel assessments. these results are in line with those found in the literature
+[43]
+,
+[44]
+,
+[45]
+.
+Table 5. Performance metrics of the bird model for solar irradiance prediction.
+Empty Cell
+MBE MAPE RMSE R²
+GHI 15,9749255 4,57745438 24,6612468 098896212
+DHI 28,1176094 6,38975983 36,5876568 0,96933038
+DifHI 9,66029656 5,78276568 12,6594429 0,97356294
+Comparison with existing forecasting models
+The adapted Bird model offers distinct advantages over traditional empirical models and advanced Numerical Weather Prediction (NWP) models, particularly in arid settings. Empirical models such as those developed by Angström
+[46]
+and Hargreaves and Samani
+[47]
+often falter under unpredictable weather conditions. Advanced NWP models, including the Weather Research and Forecasting (WRF) model
+[48]
+and the European Centre for Medium-Range Weather Forecasts (ECMWF) model
+[49]
+, demand extensive computational resources. More recent models like the Global Horizontal Irradiance (GHI) forecast model by Perez et al.
+[50]
+and the Solar and Moon Position Algorithm (SAMPA) by Reda and Andreas
+[51]
+also have limitations in specific applications. In contrast, the Bird model maintains high accuracy with far greater efficiency. Its integration into an Excel tool simplifies the forecasting process, enhancing accessibility and cost-effectiveness. This makes the Bird model especially suitable for regions like Southern Tunisia, where it can optimize solar energy systems under challenging environmental conditions.
+Enhancing global applicability
+While demonstrating high accuracy in Tataouine, the Bird model's broader applicability to other arid climates remains to be empirically tested. Its adjustable parameters such as aerosol optical depth, atmospheric moisture content, and solar declination suggest potential for wider geographic use. Future research is necessary to verify these capabilities and potentially extend the model’s utility to global renewable energy projects.
+Application to oriented and inclined surfaces
+In adapting the R.E. Bird Clear Sky Broadband Solar Radiation Model for inclined and oriented surfaces, sophisticated geometric modeling was integrated with empirical data to ensure precise estimation of solar irradiance, critical for optimizing solar panel installations in varied environmental conditions.
+This adaptation involves trigonometric calculations that account for the influence of the orientation (angle relative to the south, γ) and inclination (tilt angle from the horizontal, θ) on solar irradiance, considering the solar elevation angle (h) and azimuth angle (α). These calculations are crucial in determining the amount of solar radiation a surface receives under specific geometrical configurations.
+Solar irradiance for each surface configuration is calculated using dynamic equations using the following equations, as adapted from Al-Rawahi et al.
+[46]
+, that adjust to changes in the solar position and surface geometry
+(24)
+(25)
+These formulas ensure precise predictions across a range of conditions.
+Model calibration employs a dual-data approach: Local meteorological data continuously collected from ground-based stations in Tataouine provides foundational parameters for initial setups and ongoing recalibrations, while satellite-derived atmospheric data from sources like NASA’s Earth Observations and the European Space Agency’s Copernicus program offer high-resolution atmospheric composition metrics to adjust the model for broader climatic variations.
+The equations from
+Eq.1 to Eq
+.25, while theoretically robust, are simplified through their implementation in an Excel framework, allowing for efficient processing of data and immediate application to solar panel installations. This methodology provides solar energy project planners with a valuable tool for optimizing the placement and angling of solar panels in Tataouine and similar environments, enhancing the overall efficiency and energy yield of solar power systems.
+Fig. 7
+illustrates the functionality of the model within Excel, demonstrating how it evaluates different panel orientations and inclinations to optimize the design and energy yield of solar power systems.
+Download: Download high-res image (492KB)
+Download: Download full-size image
+Fig. 7. Structure of the Simulation Model.
+Following this detailed methodology for forecasting solar irradiance, it's important to consider the broader implications of these technical advancements. Accurate solar radiation predictions not only enhance the design and efficiency of solar power systems but also bring significant economic and environmental benefits. Economically, this precision reduces operational costs and attracts investments by increasing the reliability of solar power yields. Environmentally, optimized solar energy usage contributes to substantial reductions in carbon emissions and conserves vital natural resources, aligning with sustainable development goals in arid regions like Southern Tunisia.
+Results and discussions
+Detailed seasonal variations in solar radiation
+This comprehensive study meticulously investigates how the orientation and inclination of solar panels influence direct solar radiation across critical solar events—namely, the solstices and equinoxes. This analysis highlights the need for adaptive configurations to optimize energy capture. During the Winter Solstice, it is crucial to increase the inclination angle to between 40° and 60° to maximize solar gain due to the sun's lower trajectory during the shortest days of the year, as shown in
+Fig. 8
+. This strategic adjustment not only enhances energy absorption when panels are oriented towards the azimuth and directly south but also aligns with the solar thermal process principles outlined by Duffie and Beckman
+[52]
+. For the equinoxes, where the sun's path is evenly distributed, setting panel inclinations close to 30° to 40° optimizes radiation absorption, effectively capturing solar radiation during these transitional periods as depicted in
+Fig. 9
+,
+Fig. 11
+. Conversely, during the Summer Solstice, reducing the inclination angles to between 10° and 30° allows panels to capture the maximum amount of intense sunlight by aligning more directly with the high sun path, enhancing panel efficiency as demonstrated in
+Fig. 10
+. The effectiveness of these angular adjustments, critical for maximizing solar capture, is well-supported by references
+[53]
+,
+[54]
+,
+[55]
+,
+[56]
+, emphasizing the critical role of receiver orientation and inclination in maximizing solar energy capture. The adapted Bird model, now incorporating parameters for atmospheric dust and elevated temperatures, provides more accurate forecasts, reflecting the environmental impacts on panel performance. By adjusting panel orientation and inclination according to seasonal solar trajectories, solar power systems in arid environments like Southern Tunisia can achieve significantly enhanced efficiency, optimizing solar energy systems to exploit the region's high solar potential while addressing local environmental challenges.
+Download: Download high-res image (399KB)
+Download: Download full-size image
+Fig. 8. : Hourly Direct Solar Radiation on a Variable Inclined Surface during Winter Solstice: Orientation to the Azimuth (a) and South (b).
+Download: Download high-res image (381KB)
+Download: Download full-size image
+Fig. 9. : Hourly Direct Solar Radiation on a Variable Inclined Surface during Spring Equinox: Orientation to the Azimuth (a) and South (b).
+Download: Download high-res image (425KB)
+Download: Download full-size image
+Fig. 10. : Hourly Direct Solar Radiation on a Variable Inclined Surface during Summer Solstice: Orientation to the Azimuth (a) and South (b).
+Horizontal direct irradiation variability
+The observed variability in horizontal direct irradiation through inclined surfaces across different seasons underscores the critical need for adaptable solar panel configurations. These adjustments are vital to compensate for the significant seasonal shifts in solar elevation and intensity, which directly affect the efficiency of photovoltaic (PV) systems. This dynamic is thoroughly analyzed in the work of Huld (2012)
+[57]
+,
+[58]
+and Huld et al. (2022)
+[59]
+, who provide extensive insights into how solar radiation variations impact PV performance. Their studies highlight the complexities introduced by geographical differences, as they examine solar irradiation trends not only across various European locales but also in diverse African regions. These findings suggest that the adaptability in panel orientation and inclination is not merely a technical requirement but a strategic necessity to harness maximum solar potential effectively. By understanding and implementing these variable setups, solar energy systems can maintain optimal performance throughout the year, adapting to the natural solar fluxes dictated by Earth's axial tilt and orbital position. Such knowledge is crucial for designing systems that are both efficient and resilient, capable of adjusting to the changing patterns of solar exposure that vary not only by season but also by geographic location.
+Strategic orientation for enhanced solar capture
+An in-depth analysis focusing on the optimal orientation of solar receivers is essential for harnessing the maximum potential of solar energy, particularly during seasonal extremes. The studies, illustrated in
+Fig. 12
+, provide a visual representation of hourly direct solar radiation on variably oriented surfaces during two critical points in Earth's orbit: Perihelion Day (a), when the Earth is closest to the sun, and Aphelion Day (b), when it is farthest. These periods represent extreme solar conditions, and the data collected offer invaluable insights into how various orientations can affect the efficiency of solar capture throughout the year.
+Download: Download high-res image (400KB)
+Download: Download full-size image
+Fig. 11. : Hourly Direct Solar Radiation on a Variable Inclined Surface during Autumn Equinox: Orientation to the Azimuth (a) and South (b).
+Download: Download high-res image (379KB)
+Download: Download full-size image
+Fig. 12. Hourly Direct Solar Radiation on a Variable Oriented Surface: Perihelion Day (a) and Aphelion Day (b).
+- Winter Orientation: Angling solar panels between 45° and 60° is most effective. This orientation leverages the low solar altitude and the shorter daylight hours of winter months. By tilting toward these specific angles, solar receivers can capture the most direct sunlight available, significantly enhancing energy yield during a period when solar resources are naturally reduced.
+- Summer Orientation: Aligning panels directly south (γ=0) is optimal during the summer. This orientation aligns perfectly with the sun’s path at its zenith—its highest and longest journey across the sky. Such strategic positioning is crucial for maximizing solar exposure during the longest days of the year. This approach is supported by Lorenzo (1994)
+[60]
+, who emphasizes the benefits of south-facing panels for maximizing energy capture under conditions of a high sun path.
+This strategic approach to the orientation of solar panels, guided by empirical data and reinforced by established solar energy research, underscores the importance of adapting solar infrastructure to natural variations in solar trajectory. By optimizing panel orientations to align with seasonal and astronomical variations, solar energy systems can achieve significantly higher efficiency, ensuring that energy production is optimized year-round, despite the inherent variability in solar exposure.
+Comprehensive design recommendations
+The integration of these detailed seasonal and orientation insights into the design and deployment of solar energy systems is vital for maximizing system efficiency. By implementing adjustable inclination and orientation mechanisms, solar energy systems can dynamically adapt to seasonal changes, significantly enhancing both efficiency and energy yield. Such optimized design principles are essential for improving solar installation performance and promoting greater energy independence and sustainability.
+This approach is supported by Makrides et al. (2010)
+[5]
+, who discuss performance loss rates of different photovoltaic technologies under outdoor conditions, highlighting the importance of adapting system designs to environmental conditions for sustained efficiency.
+These findings, grounded in established research and aligned with international best practices, advocate for a nuanced approach to solar energy system design that responds dynamically to natural variations in solar radiation throughout the year. By incorporating these principles into system configurations, higher efficiency and more sustainable energy solutions in the field of solar energy are achievable.
+To mitigate the adverse effects of high temperatures and dust accumulation observed in the study, the implementation of regular cleaning schedules for solar panels and the consideration of cooling technologies are recommended. Additionally, installing solar panels at optimal angles can reduce dust accumulation and exposure to excessive heat, thus maintaining higher efficiency levels. Also, it is critical to highlight the economic and environmental benefits derived from the application of accurate solar radiation forecasting in Southern Tunisia. The integration of advanced forecasting tools like Excel not only supports the technical optimization of solar power systems but also promotes broader economic growth and environmental sustainability. These benefits are essential for securing a sustainable future and fostering a resilient energy sector in arid regions.
+Conclusion
+This study has markedly advanced solar radiation forecasting by tailoring the Bird model to the specific environmental conditions of Tataouine, Southern Tunisia. This was achieved by utilizing over a decade of meteorological data and meticulously calibrating the model to local atmospheric factors such as aerosol levels, water vapor content, and ozone variations, thereby achieving a substantial improvement in the accuracy of solar irradiance predictions for arid regions. The empirical results showed a Root Mean Square Error (RMSE) reduction to 24.66 W/m² for Global Horizontal Irradiance (GHI), 36.59 W/m² for Direct Horizontal Irradiance (DHI), and 12.66 W/m² for Diffuse Horizontal Irradiance (DifHI), along with high Coefficient of Determination (R²) values of 0.989 for GHI, 0.969 for DHI, and 0.974 for DifHI.
+The implementation of the Euxel tool, which simplifies the utilization of the Bird model while maintaining its accuracy, has proven to be a significant advancement. This tool makes advanced forecasting technologies accessible to a broader audience, from engineers to energy managers, enhancing the deployment of solar energy solutions. The introduction of optimal panel inclinations—40° to 60° during winter, 10° to 30° in summer, and 30° to 40° during spring and autumn—optimizes solar capture in line with Tataouine’s specific solar geometry.
+The successful application in Tataouine indicates that similar methodologies can be applied effectively in other arid regions globally, potentially enhancing the efficiency and deployment of renewable energy solutions. This study underscores the importance of region-specific adaptations in solar radiation models and illustrates how technological advancements can help overcome barriers to renewable energy adoption, aligning with global energy sustainability goals. Moving forward, further research should explore the integration of additional environmental variables and new data sources to refine the accuracy and applicability of solar irradiance forecasts in diverse geographical settings.
+CRediT authorship contribution statement
+Mahmoud Ben Amara: Writing – review & editing, Writing – original draft, Visualization, Validation, Supervision, Software, Resources, Project administration, Methodology, Investigation, Funding acquisition, Formal analysis, Data curation, Conceptualization. Elhem Rdhaounia: Writing – original draft. Moncef Balghouthi: Writing – review & editing, Visualization, Validation, Supervision.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+The authors especially thank the Physics Department of the Faculty of Science of Gabes and the Research and Technology Center of Energy of Bordj-Cedria, Tunisia Ministry of Higher Education and Scientific Research for creating favors in stakeholder communication, information collection, and funding provision during the implementation of the study.
+References
+[1]
+J. Polo, N. Martín-Chivelet, C. Sanz-Saiz
+BIPV modeling with artificial neural networks: towards a BIPV digital twin
+Energies, 15 (2022),
+10.3390/en15114173
+Google Scholar
+[2]
+M.K. Nallakaruppan, N. Shankar, P.B. Bhuvanagiri, S. Padmanaban, S. Bhatia Khan
+Advancing solar energy integration: unveiling XAI insights for enhanced power system management and sustainable future
+Ain Shams Eng. J. (2024), Article 102740,
+10.1016/j.asej.2024.102740
+View PDF
+View article
+View in Scopus
+Google Scholar
+[3]
+T. Khatib, A. Mohamed, K. Sopian
+A review of solar energy modeling techniques
+Renew. Sustain. Energy Rev., 16 (2012), pp. 2864-2869,
+10.1016/j.rser.2012.01.064
+View PDF
+View article
+View in Scopus
+Google Scholar
+[4]
+A.R. El Ouderni, T. Maatallah, S. El Alimi, S. Ben Nassrallah
+Experimental assessment of the solar energy potential in the gulf of Tunis, Tunisia
+Renew. Sustain. Energy Rev., 20 (2013), pp. 155-168,
+10.1016/j.rser.2012.11.016
+View PDF
+View article
+View in Scopus
+Google Scholar
+[5]
+G. Makrides, B. Zinsser, M. Schubert, G.E. Georghiou
+Performance loss rate of twelve photovoltaic technologies under field conditions using statistical techniques
+Sol. Energy, 103 (2014), pp. 28-42,
+10.1016/j.solener.2014.02.011
+View PDF
+View article
+View in Scopus
+Google Scholar
+[6]
+Sobri N.M., Malik M.A.A., Husin W.Z.W., Syaliza N., … Forecasting using Econometric Approach (e-powtimesanalysis) 2018;2018:2–5.
+Google Scholar
+[7]
+R.E. Bird, R.L. Hulstrom
+A simplified clear sky model for direct and diffuse insolation on horizontal surfaces
+Natl. Renew. Energy Lab. (1981), p. 46
+Google Scholar
+[8]
+M. Diagne, M. David, P. Lauret, J. Boland, N. Schmutz
+Review of solar irradiance forecasting methods and a proposition for small-scale insular grids
+Renew. Sustain. Energy Rev., 27 (2013), pp. 65-76,
+10.1016/j.rser.2013.06.042
+View PDF
+View article
+View in Scopus
+Google Scholar
+[9]
+O.M. Babatunde, J.L. Munda, Y. Hamam, C.G. Monyei
+A critical overview of the (Im)practicability of solar radiation forecasting models
+E-Prime - Adv. Electr. Eng. Electron. Energy, 5 (2023), Article 100213,
+10.1016/j.prime.2023.100213
+View PDF
+View article
+View in Scopus
+Google Scholar
+[10]
+P. Ineichen
+Comparison of eight clear sky broadband models against 16 independent data banks
+Sol. Energy, 80 (2006), pp. 468-478,
+10.1016/j.solener.2005.04.018
+View PDF
+View article
+View in Scopus
+Google Scholar
+[11]
+P. Ineichen
+Validation of models that estimate the clear sky global and beam solar irradiance
+Sol. Energy, 132 (2016), pp. 332-344,
+10.1016/j.solener.2016.03.017
+View PDF
+View article
+View in Scopus
+Google Scholar
+[12]
+J. Pérez-González, A.M. Barbosa, J. Carranza, J. Torres-Porras
+Relative effect of food supplementation and natural resources on female red deer distribution in a Mediterranean Ecosystem
+J. Wildl. Manag., 74 (2010), pp. 1701-1708,
+10.2193/2009-130
+Google Scholar
+[13]
+Larson V.E. Chapter 12 - Forecasting Solar Irradiance with Numerical Weather Prediction Models. In: Kleissl J, editor. Solar Energy Forecasting and Resource Assessment, Boston: Academic Press; 2013, p. 299–318. https://doi.org/https://doi.org/10.1016/B978-0-12-397177-7.00012-7.
+Google Scholar
+[14]
+V. Kallio-Myers, A. Riihelä, D. Schoenach, E. Gregow, T. Carlund, A.V. Lindfors
+Comparison of irradiance forecasts from operational NWP model and satellite-based estimates over Fennoscandia
+Meteorol. Appl., 29 (2022), pp. 1-18,
+10.1002/met.2051
+Google Scholar
+[15]
+D. Cano, J.M. Monget, M. Albuisson, H. Guillard, N. Regas, L. Wald
+A method for the determination of the global solar radiation from meteorological satellite data
+Sol. Energy, 37 (1986), pp. 31-39,
+10.1016/0038-092X(86)90104-0
+View PDF
+View article
+View in Scopus
+Google Scholar
+[16]
+A. Zelenka, R. Perez, R. Seals, D. Renné
+Effective accuracy of satellite-derived hourly irradiances
+Theor. Appl. Climatol., 62 (1999), pp. 199-207,
+10.1007/s007040050084
+View in Scopus
+Google Scholar
+[17]
+Joe P., Sun J., Yussouf N., Goodman S., Riemer M., Gouda K.C., et al. Predicting the Weather: A Partnership of Observation Scientists and Forecasters. In: Golding B, editor. Towards the ``Perfect’’ Weather Warning: Bridging Disciplinary Gaps through Partnership and Communication, Cham: Springer International Publishing; 2022, p. 201–54. https://doi.org/10.1007/978-3-030-98989-7_7.
+Google Scholar
+[18]
+C. Voyant, G. Notton, S. Kalogirou, M.-L. Nivet, C. Paoli, F. Motte, et al.
+Machine learning methods for solar radiation forecasting: a review
+Renew. Energy, 105 (2017), pp. 569-582,
+10.1016/j.renene.2016.12.095
+View PDF
+View article
+View in Scopus
+Google Scholar
+[19]
+V. Demir, H. Citakoglu
+Forecasting of solar radiation using different machine learning approaches
+Neural Comput. Appl., 35 (2023), pp. 887-906,
+10.1007/s00521-022-07841-x
+View in Scopus
+Google Scholar
+[20]
+E.S. Solano, P. Dehghanian, C.M. Affonso
+Solar radiation forecasting using machine learning and ensemble feature selection
+Energies, 15 (2022),
+10.3390/en15197049
+Google Scholar
+[21]
+F.J. Rodríguez-Benítez, M. López-Cuesta, C. Arbizu-Barrena, M.M. Fernández-León, M.Á. Pamos-Ureña, J. Tovar-Pescador, et al.
+Assessment of new solar radiation nowcasting methods based on sky-camera and satellite imagery
+Appl. Energy, 292 (2021), Article 116838,
+10.1016/j.apenergy.2021.116838
+View PDF
+View article
+View in Scopus
+Google Scholar
+[22]
+D. Jia, L. Yang, X. Gao, K. Li
+Assessment of a new solar radiation nowcasting method based on FY-4A satellite imagery, the mcclear model and shapley additive explanations (SHAP)
+Remote Sens., 15 (2023),
+10.3390/rs15092245
+Google Scholar
+[23]
+M. López-Cuesta, R. Aler-Mur, I.M. Galván-León, F.J. Rodríguez-Benítez, A.D. Pozo-Vázquez
+Improving solar radiation nowcasts by blending data-driven, satellite-images-based and all-sky-imagers-based models using machine learning techniques
+Remote Sens., 15 (2023),
+10.3390/rs15092328
+Google Scholar
+[24]
+M. Balghouthi, S.E. Trabelsi, M.Ben Amara, A.B.H. Ali, A. Guizani
+Potential of concentrating solar power (CSP) technology in Tunisia and the possibility of interconnection with Europe
+Renew. Sustain. Energy Rev., 56 (2016),
+10.1016/j.rser.2015.12.052
+Google Scholar
+[25]
+World Bank. Global Solar Atlas 2.0. Solargis 2020. https://globalsolaratlas.info/download/tunisia.
+Google Scholar
+[26]
+D. Schüler, S. Wilbert, N. Geuder, R. Affolter, F. Wolfertstetter, C. Prahl, et al.
+The enerMENA meteorological network - Solar radiation measurements in the MENA region
+AIP Conf. Proc. (2016), p. 1734,
+10.1063/1.4949240
+Google Scholar
+[27]
+National Renewable Energy Laboratory (NREL). BIRD Model 2012. https://www.nrel.gov/data/bird_08_16_2012.xls.
+Google Scholar
+[28]
+C. Toledano, M. Wiegner, M. Garhammer, M. Seefeldner, J. Gasteiger, D. Müller, et al.
+Spectral aerosol optical depth characterization of desert dust during SAMUM 2006
+Tellus Ser. B: Chem. Phys. Meteorol., 61 (2009), pp. 216-228,
+10.1111/j.1600-0889.2008.00382.x
+View in Scopus
+Google Scholar
+[29]
+M. Saad, A. Trabelsi, M. Masmoudi, S.C. Alfaro
+Spatial and temporal variability of the atmospheric turbidity in Tunisia
+J. Atmos. Sol. - Terr. Phys., 149 (2016), pp. 93-99,
+10.1016/j.jastp.2016.10.001
+View PDF
+View article
+View in Scopus
+Google Scholar
+[30]
+C. Guirado, E. Cuevas, V.E. Cachorro, C. Toledano, S. Alonso-Pérez, J.J. Bustos, et al.
+Aerosol characterization at the Saharan AERONET site Tamanrasset
+Atmos. Chem. Phys., 14 (2014), pp. 11753-11773,
+10.5194/acp-14-11753-2014
+View in Scopus
+Google Scholar
+[31]
+M. Masmoudi, M. Chaabane, K. Medhioub, F. Elleuch
+Variability of aerosol optical thickness and atmospheric turbidity in Tunisia
+Atmos. Res., 66 (2003), pp. 175-188,
+10.1016/S0169-8095(02)00175-8
+View PDF
+View article
+View in Scopus
+Google Scholar
+[32]
+D. Djelloul, I. Abdanour, K. Philippe, Z. Mohamed, M. Mustapha
+Investigation of atmospheric turbidity at Ghadaa (Algeria) using both ground solar irradiance measurements and space data
+Atmos. Clim. Sci., 09 (2019), pp. 114-134,
+10.4236/acs.2019.91008
+View in Scopus
+Google Scholar
+[33]
+I. Vamvakas, V. Salamalikis, D. Benitez, A. Al-Salaymeh, S. Bouaichaoui, N. Yassaa, et al.
+Estimation of global horizontal irradiance using satellite-derived data across Middle East-North Africa: the role of aerosol optical properties and site-adaptation methodologies
+Renew. Energy, 157 (2020), pp. 312-331,
+10.1016/j.renene.2020.05.004
+View PDF
+View article
+View in Scopus
+Google Scholar
+[34]
+M. Bibi, M. Saad, M. Masmoudi, B. Laurent, S.C. Alfaro
+Long-term (1980–2018) spatial and temporal variability of the atmospheric dust load and deposition fluxes along the North-African coast of the Mediterranean Sea
+Atmos. Res., 234 (2020), Article 104689,
+10.1016/j.atmosres.2019.104689
+View PDF
+View article
+View in Scopus
+Google Scholar
+[35]
+Macara G., Macara G., Porteous A., Quigley A. Ministry for the Environment Atmosphere and Climate Report 2023 Updated Datasets supplied by NIWA Prepared for Ministry for the Environment Reviewed by: Applications 2023.
+Google Scholar
+[36]
+L. Diabaté, J. Remund, L. Wald
+Linke turbidity factors for several sites in Africa
+Sol. Energy, 75 (2003),
+10.1016/j.solener.2003.07.002
+Google Scholar
+[37]
+C. Gueymard
+Critical analysis and performance assessment of clear sky solar irradiance models using theoretical and measured data
+Sol. Energy, 51 (1993),
+10.1016/0038-092X(93)90074-X
+Google Scholar
+[38]
+C.A. Gueymard
+Parameterized transmittance model for direct beam and circumsolar spectral irradiance
+Sol. Energy, 71 (2001), pp. 325-346,
+10.1016/S0038-092X(01)00054-8
+View PDF
+View article
+View in Scopus
+Google Scholar
+[39]
+F. Kasten
+The linke turbidity factor based on improved values of the integral Rayleigh optical thickness
+Sol. Energy, 56 (1996),
+10.1016/0038-092X(95)00114-7
+Google Scholar
+[40]
+F. Kasten, A.T. Young
+Revised optical air mass tables and approximation formula
+Appl. Opt., 28 (1989),
+10.1364/ao.28.004735
+Google Scholar
+[41]
+Y. El Mghouchi, A. El Bouardi, Z. Choulli, T. Ajzoul
+Models for obtaining the daily direct, diffuse and global solar radiations
+Renew. Sustain. Energy Rev., 56 (2016), pp. 87-99,
+10.1016/j.rser.2015.11.044
+View PDF
+View article
+View in Scopus
+Google Scholar
+[42]
+Y. Kassem, H. Camur, M.T. Adamu, T. Chikowero, T. Apreala
+Prediction of solar irradiation in Africa using linear-nonlinear hybrid models
+Eng., Technol. Appl. Sci. Res., 13 (2023), pp. 11472-11483,
+10.48084/etasr.6131
+View in Scopus
+Google Scholar
+[43]
+Das J. Clear Sky and Real Sky Solar Radiation Modelling for Locations in India. Springer Nature Singapore; 2023.
+https://doi.org/10.1007/978-981-99-2279-6_2
+.
+Google Scholar
+[44]
+I. Rougab, O. Barambones, M.Y. Silaa, A. Cheknane
+Design, implementation and comparative analysis of three models for estimation of solar radiation components on a horizontal surface
+Symmetry, 16 (2024),
+10.3390/sym16010071
+Google Scholar
+[45]
+A. Barbón, P. Fortuny Ayuso, L. Bayón, J.A. Fernández-Rubiera
+Predicting beam and diffuse horizontal irradiance using Fourier expansions
+Renew. Energy, 154 (2020), pp. 46-57,
+10.1016/j.renene.2020.02.118
+View PDF
+View article
+View in Scopus
+Google Scholar
+[46]
+A. Angstrom
+Solar and terrestrial radiation. Report to the international commission for solar research on actinometric investigations of solar and atmospheric radiation
+Q. J. R. Meteorol. Soc., 50 (1924), pp. 121-126,
+10.1002/qj.49705021008
+View in Scopus
+Google Scholar
+[47]
+G.H. Hargreaves, Z.A. Samani
+Estimating potential evapotranspiration
+J. Irrig. Drain. Div., 108 (1982), pp. 225-230,
+10.1061/JRCEA4.0001390
+View in Scopus
+Google Scholar
+[48]
+Skamarock W.C., Klemp J.B., Dudhia J., Gill D.O., Barker D.M., Duda M.G., et al. A Description of the Advanced Research WRF Version 3. NCAR Technical Note NCAR/TN-475+STR June 2008 Mesoscale and Microscale Meteorology Division National Center for Atmospheric Research Boulder 2008;475:1.
+https://doi.org/10.5065/D68S4MVH
+.
+Google Scholar
+[49]
+P. Bauer, A. Thorpe, G. Brunet
+The quiet revolution of numerical weather prediction
+Nature, 525 (2015), pp. 47-55,
+10.1038/nature14956
+View in Scopus
+Google Scholar
+[50]
+R. Perez, S. Kivalov, J. Schlemmer, K. Hemker, D. Renné, T.E. Hoff
+Validation of short and medium term operational solar radiation forecasts in the US
+Sol. Energy, 84 (2010), pp. 2161-2172,
+10.1016/j.solener.2010.08.014
+View PDF
+View article
+View in Scopus
+Google Scholar
+[51]
+I. Reda, A. Andreas
+Solar position algorithm for solar radiation applications
+Sol. Energy, 76 (2004), pp. 577-589,
+10.1016/j.solener.2003.12.003
+View PDF
+View article
+View in Scopus
+Google Scholar
+[52]
+Duffie J.A., Beckman W.A. Solar Engineering of Thermal Processes: Fourth Edition. 2013.
+https://doi.org/10.1002/9781118671603
+.
+Google Scholar
+[53]
+M. Chouidira, N. Ihaddadene, R. Ihaddadene, J.M. Hacen, El, Y. Kherbiche
+An experimental study on the effect of surface orientation and inclination on incident solar irradiation: application to buildings
+J. Renew. Energy Environ., 11 (2024), pp. 157-167,
+10.30501/jree.2023.377799.1523
+View in Scopus
+Google Scholar
+[54]
+A.K. Yadav, S.S. Chandel
+Tilt angle optimization to maximize incident solar radiation: a review
+Renew. Sustain. Energy Rev., 23 (2013), pp. 503-513,
+10.1016/j.rser.2013.02.027
+View PDF
+View article
+View in Scopus
+Google Scholar
+[55]
+F.J. Diez, A. Martínez-Rodríguez, L.M. Navas-Gracia, L. Chico-Santamarta, A. Correa-Guimaraes, R. Andara
+Estimation of the hourly global solar irradiation on the tilted and oriented plane of photovoltaic solar panels applied to greenhouse production
+Agronomy, 11 (2021),
+10.3390/agronomy11030495
+Google Scholar
+[56]
+N.Z. Al-Rawahi, Y.H. Zurigat, N.A. Al-Azri
+Prediction of hourly solar radiation on horizontal and inclined surfaces for Muscat/Oman
+J. Eng. Res., 8 (2011), pp. 19-31,
+10.24200/tjer.vol8iss2pp19-31
+View in Scopus
+Google Scholar
+[57]
+T. Huld, R. Müller, A. Gambardella
+A new solar radiation database for estimating PV performance in Europe and Africa
+Sol. Energy, 86 (2012), pp. 1803-1815,
+10.1016/j.solener.2012.03.006
+View PDF
+View article
+View in Scopus
+Google Scholar
+[58]
+Huld T. Estimating Solar Radiation and Photovoltaic System Performance, the PVGIS Approach AFRETEP 1 ST Regional Workshop Kampala, Uganda 2011 1 2011.
+Google Scholar
+[59]
+D. Paul, G. De Michele, B. Najafi, S. Avesani
+Benchmarking clear sky and transposition models for solar irradiance estimation on vertical planes to facilitate glazed facade design
+Energy Build., 255 (2022), Article 111622,
+10.1016/j.enbuild.2021.111622
+View PDF
+View article
+View in Scopus
+Google Scholar
+[60]
+Lorenzo E. Solar Electricity: Engineering of Photovoltaic Systems. PROGENSA; 1994.
+Google Scholar
+Cited by (0)
+© 2024 The Author(s). Published by Elsevier B.V. on behalf of Kuwait University.
+Recommended articles
+Reforming toolpath effect on deformation mechanics in double-sided incremental forming
+International Journal of Mechanical Sciences, Volume 280, 2024, Article 109548
+Shayan Darzi, …, Jinjin Ha
+Numerical investigation of disk bypass pipeline inspection gauge with hole in disk
+Journal of Engineering Research, 2024
+Md Insiat Islam Rabby, …, Zulkiflle Bin Leman
+View PDF
+Matter bounce scenario in modified f(R,T) gravity
+Physics of the Dark Universe, Volume 39, 2023, Article 101143
+Payel Sarkar, Prasanta Kumar Das
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and support
+Terms and conditions
+Privacy policy
+Cookies are used by this site.
+Cookie Settings
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply.
+We use cookies that are necessary to make our site work. We may also use additional cookies to analyze, improve, and personalize our content and your digital experience. For more information, see ourCookie Policy
+Cookie Settings
+Accept all cookies

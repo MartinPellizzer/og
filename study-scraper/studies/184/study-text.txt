@@ -1,0 +1,396 @@
+Consent
+Details
+About
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Books
+Book Series
+Journals
+Publish
+About
+News
+Author Panel Sign in
+GREEN ENERGY AND ENVIRONMENTAL TECHNOLOGY
+PUBLISH IN JOURNALS
+ARTICLES
+ABOUT
+EDITORIAL BOARD
+SUBMIT YOUR ARTICLE
+Journals
+>
+Green Energy and Environmental Technology
+OPEN ACCESS PEER-REVIEWED ARTICLE
+Research on Ammonium Removal from Wastewater by Adsorption and Ozonation Processes
+Ján Derco
+Nikola Šoltýsová
+Ronald Zakhar
+Jakub Jurík
+THIS ARTICLE IS PART OF THE SPECIAL ISSUE URBAN WASTEWATER TREATMENT LED BY PROFESSOR JAN DERCO AND RONALD ZAKHAR, PHD FROM SLOVAK UNIVERSITY OF TECHNOLOGY IN BRATISLAVA, SLOVAKIA
+ARTICLE METRICS OVERVIEW
+101 Article Downloads
+View Full Metrics
+ARTICLE TYPE: RESEARCH PAPER
+DATE OF ACCEPTANCE: JUNE 2024
+DATE OF PUBLICATION: JULY 2024
+DOI: 10.5772/GEET.29
+COPYRIGHT: ©2024 THE AUTHOR(S), LICENSEE INTECHOPEN, LICENSE: CC BY 4.0
+Download for free
+Cite
+TABLE OF CONTENTS
+INTRODUCTION
+EXPERIMENTAL SECTION
+RESULTS AND DISCUSSION
+CONCLUSION
+CONFLICT OF INTEREST
+ACKNOWLEDGEMENT
+Abstract
+With the ongoing amendment of the European Union legislation on the treatment of municipal wastewater, stricter requirements for the removal of pollutants are expected, which calls for the need for innovative wastewater treatment technologies. Our research was focused on the removal of ammonium nitrogen from municipal wastewater by nontraditional processes based on the use of adsorption processes on zeolite (ZEO) and ozone. Adsorption, adsorption-regeneration, and adsorptive ozonation processes were applied. All processes were carried out in a completely stirred reactor (CSR) and a jet-loop reactor (JLR) with external recirculation of the reaction mixture. Experimental measurements were carried out with real municipal wastewater after mechanical treatment. The best results were achieved in the adsorption-regeneration process, which was implemented in a current loop reactor. An average ammonium nitrogen removal efficiency of 53.1% was obtained by adjusting the pH value to 10.0. Average values of 46.2% and 49.2% for chemical oxygen demand (COD) and total organic carbon (TOC) removal efficiencies are an added value of the process. The values of ammonium nitrogen, COD, and TOC removal efficiencies in individual cycles confirm the high stability of the process.
+Keywords
+ADSORPTION
+ADSORPTIVE/CATALYTIC OZONATION
+ADSORBENT REGENERATION WITH OZONE
+AMMONIUM REMOVAL
+URBAN/MUNICIPAL WASTEWATER TREATMENT
+ZEOLITE
+Author information
+Show
+1. Introduction
+Urban wastewater means domestic wastewater or the mixture of domestic wastewater with industrial wastewater and/or runoff rainwater. Domestic wastewater means wastewater from residential settlements and services that originates predominantly from human metabolism and household activities [1].
+According to the World Water Assessment Programme [2], municipal wastewater originates from domestic, industrial, commercial, and institutional sources within a given human settlement or community. Urban wastewater includes both municipal wastewater and urban runoff.
+With the ongoing amendment of the European Union legislation on urban wastewater treatment [3], stricter requirements for pollutant removal are expected, driving the need for innovative environmental technologies. Diverse pollutants in urban wastewater, including priority substances and micropollutants, require advanced treatment technologies that integrate biological, physical, and chemical processes [4].
+Natural zeolites (ZEO) are nontoxic and characterized by physical, chemical, and structural properties that enable their use in several processes and areas. They find various applications in adsorption, catalysis, agriculture, water and wastewater treatment, and soil remediation [5].
+The authors of overview paper [6] report the use of ZEO in the biological processes of nitrification, denitrification, anaerobic digestion, and composting. Aerobic processes (activated sludge, nitrification, anammox) use ZEO as carriers of biomass growth and phosphorus removal to improve settling. In the anaerobic treatment of sludge and composting with ZEO, ZEO are used to trap inhibitors (ammonium and heavy metals). Currently, the application in full-scale operations is more common in nitrogen removal processes than in anaerobic digestion of sludge.
+Senila et al. [7] deal with the use of natural ZEO as biomass carriers in wastewater treatment. The greatest adsorption of ammonium (NH
+) was achieved for wastewater containing ammonium, nitrates, and nitrites. After 30 days, a greater NH
+removal efficiency than 98% was achieved. In the case of NO
+and NO
+, removal efficiencies of 70% and 54% were achieved. Natural ZEO has been shown to contribute to significant growth support as well as have high potential in the removal of nitrogenous substances and heavy metals in wastewater treatment.
+The authors of [8] investigated natural ZEO as an adsorbent for tertiary wastewater treatment. The results show a significant effect of the heat treatment of the sample on the removal of nitrites, which led to their approximately 96% removal. When using natural ZEO, there was only a slight decrease in biochemical oxygen demand and chemical oxygen demand (COD) values compared to the original sample.
+The scope of study [9] was to investigate the suitability of granular natural ZEO as adsorbents for ammonium. For an initial ammonium content of 10 mgN/l, the grain size did not significantly influence the sorption efficiency (97%–98%). The description of experimental data was obtained by the Langmuir isotherm. Minor effects on sorption were observed at different pH values and in the presence of competing anions.
+Gagliano et al. [10] investigated the possibilities of using ZEO synthesized from volcanic ash (VA) to remove ammonium from various aqueous solutions. Adsorption measurements were well described by the Freundlich isotherm. The greatest ammonium adsorption capacity (∼18.4 mg/g) was shown by ZEO synthesized using distilled water at 70 °C. This value of ammonium adsorption capacity is higher or comparable to the values reported in the literature for other natural or synthesized ZEO. The regenerated ZEO was characterized by similar adsorption capacity but slower mass transport. The results of the study showed that ZEO synthesized from VA can be used to remove ammonium from wastewater. This will also reduce the amount of landfilled VA as well as the extraction of natural ZEO within the circular economy.
+Ozone is one of the promising reactants in the preparation of potable water and wastewater treatment. Its basic advantages include a high oxidation potential, the ability to undergo two reaction mechanisms, as well as the decomposition of unreacted ozone into usable molecular oxygen [11].
+The process of adsorptive ozonation combines the advantages of both aggregated processes. Adsorption of pollutants and ozone occurs on the surface of the adsorbent. Increased concentrations of both reactants at the adsorbent–liquid interface results in an increase in the reaction rate [12]. Fujita et al. [13] used ZEO as an adsorption material to study the degradation of acetaldehyde. To achieve the same residual concentration of acetaldehyde, the reaction time was approximately two orders of magnitude shorter compared to ozonation alone. Ferreiro et al. [14] applied a combined adsorption–ozonation process for phenolic wastewater treatment in a continuous fixed-bed reactor. Loganathan et al. [15] presented the review on an ozonation/adsorption hybrid treatment system for improved removal of natural organic matter and organic micropollutants (OMPs) from water. Khamparia et al. [16] concluded that with the combined ability of ozone and a catalyst/adsorbent, there is a high possibility of total elimination of dyes from wastewater.
+Some adsorptive materials (e.g. activated carbon, ZEO) can also act as catalysts that cause the decomposition of ozone into hydroxyl radicals. Catalytic ozonation processes change the direct reaction mechanism of ozone (ozonolysis) to a radical mechanism. Qu et al. [17] studied catalytic ozonation of phenolic wastewater with activated carbon in a fluid-bed reactor.
+Alameddine et al. [18] used activated carbon–catalyzed ozonation for the removal of trace organic compounds. Munir et al. [19] studied a Fe–ZEO catalyst for the ozonation of pulp and paper wastewater. Ikhlaq et al. [20] investigated combined iron-loaded ZEO and ozone-based process for the purification of drinking water in a novel hybrid reactor for the removal of fecal coliforms and arsenic.
+The combined process of adsorption and ozone regeneration (adsorption regeneration [AR]) was patented by authors Ishii et al. [21] for the regeneration of the oxidation catalyst. Zhang et al. [22] applied ozone to regenerate ZEO after adsorption. Shahbazi et al. [23] applied Fe-active ZEO to the cyclic adsorption/oxidation process of wet peroxide oxidation of a surfactant.
+The key step for the sustainability of the adsorption process is the regeneration of the exhausted/filled adsorption capacity. Fu et al. [24] in this context stated that the regeneration of spent adsorbents on site can condition their practical applications. In this work, they studied the regeneration of granular ZEO after adsorption with acetaminophen (ACE) using ozone. The measured adsorption capacity of ACE was 90 mg/g. After ACE penetration in column tests, the ZEO were drained and dried before regeneration. The efficiency and speed of regeneration increases with the decrease in water in the granules. The regeneration efficiency for a given total dose of ozone can be increased by extending the regeneration time. The results of this study showed that the adsorption capacity in relation to ACE decreased by 7% after three cycles of adsorption and regeneration. This decrease can be explained by the adsorption and accumulation of solid decomposition intermediates on the granules.
+Fu et al. [25] evaluated the regenerative performance of the adsorption capacity of granular ZEO exhausted by OMPs removed from municipal wastewater. Regeneration was carried out at ozone concentration 30 mg/l and a gas flow rate of 0.2 l/min. The results showed that the restored adsorption capacities first decreased and then increased with the duration of ozonation. The decrease in the regenerated adsorption capacity was probably caused by the presence of intermediate products from the ozonation of some selected OMPs. The adsorption capacity for 75% of the monitored OMPs was completely restored in seven subsequent cycles of adsorption and regeneration with the duration of each ozone regeneration being 60 min.
+Coke deposition is the main disadvantage of using solid catalysts in industrial processes because it causes their deactivation [26]. This work review deals with oxidation methods of catalyst regeneration. The work describes in detail the processes of molecular oxidation by oxygen and ozone, as well as advanced oxidation processes with the formation of OH radicals. This review provides an understanding of the mechanisms and kinetics of these processes (ozonolysis and radical oxidation, selectivity, reaction rates, diffusion, and mass transport).
+Ammonium nitrogen (NH
+–N) is one of the basic nutrients in agriculture. At the same time, it is also the most widespread contaminant of household wastewater. Its discharge into aquatic ecosystems contributes significantly to the eutrophication of waters. The dissociated form of ammonium nitrogen is toxic to aquatic organisms and humans. The traditional solution for removing ammonium nitrogen from urban/municipal wastewater is biological treatment at the tertiary stage. It is obvious that to the above-mentioned problems also correspond strict demands on the quality of wastewater discharged into the receiving water. However, under certain circumstances, e.g. a wastewater treatment plant with a smaller organic load [27], or for reducing the content of NH
+–N in sludge water, or as part of tertiary treatment, nontraditional methods for its removal may also be applicable.
+Our previous work in the field [28] was focused on the use of Fe-modified and Mn-modified ZEO for macronutrient removal from municipal wastewater in a continuous stirred reactor (CSR). This paper presents the results of research of alternative processes and reactors in the removal of ammonium pollution from municipal wastewater.
+Adsorption on ZEO and a combination of adsorption and ozonation processes (O3) were applied. Adsorptive ozonation and adsorption with subsequent regeneration of the adsorbent with ozone (AR) were studied. The potential of the applied CSR and a novel jet-loop reactor (JLR) was also studied. Another goal of the research was to assess the possibilities of ozone regeneration after the adsorption of ZEO applied to municipal wastewater treatment.
+The investigated individual/combined processes could potentially be used as alternative processes for removing ammonium nitrogen from smaller wastewater treatment plants, reducing this pollution in sludge waters, as well as part of a hybrid process in combination with biological treatment in tertiary wastewater treatment.
+2. Experimental section
+2.1. Experimental equipment
+All experiments were performed with a real municipal wastewater sample after mechanical treatment using the sieve fraction of ZEO (ZEOCEM s.r.o., Slovakia) with a mesh size of 0.2–0.5 mm. The experiments were carried out in the Completely Stirred Reactor (CSR) and novel Jet Loop  Reactor (JLR) reactors.
+The completely stirred reactor (CSR, Figure 1) is made of glass. It has an effective volume of 1.0 L. Mixing of the reaction mixture in the reactor was ensured using a magnetic stirrer (400–500 rev/min) (RS Components Ltd., RSLAB-11C SS, United Kingdom).  CSR was operated as a batch reactor regarding the solid/liquid phase and as a continuous flow reactor for the gas phase (oxygen-ozone mixture).
+Figure 1.
+Completely stirred reactor: (1) oxygen inlet; (2) ozone generator; (3) mixture of O2 and O3; (4) ozonation reactor; (5) magnetic stirrer; (6) destruction of residual O3; (7) detector of ozone content in influent/effluent O3/O2 gas.
+The height of the novel JLR (Figure 2) was 1 m; the inner diameter was 8 cm with an effective volume of 3.5 L, and it was made of stainless steel. The reactor had an outer shell with the possibility of tempering the temperature. During the measurements, a constant temperature was maintained using a Julabo thermostat (JULABO GmbH, F12, Germany). A constant flow of oxygen was maintained using a laboratory flow meter. The wastewater was recirculated using a pump with a maximum output of 150 L/h. The homogenization of reaction mixture in JLR was maintained by high external recirculation.
+The volume of the wastewater sample applied in all experiments performed in the CSR was 1.0 L. The weight of the ZEO used was 19.0 g.
+Figure 2.
+Scheme of the jet-loop reactor with external recirculation: (1) mixture of ozone and oxygen; (2) Venturi ejector, on the right side a detailed view; (3) reaction space; (4) UV lamp; (5) pump; (6) ozone concentration detector in the gas phase—the possibility of measuring the input or output from the reactor; (7) column for destruction of unreacted ozone filled with KI solution; (8) sampling; (9) liquid recirculation; (10) suction of unreacted ozone from the head of the column; (11) tempering outer shell; (12) ozone generator; (13) oxygen supply.
+Ozone was produced from pure oxygen. A Lifetech ozone generator (Lifetech s.r.o., Czech Republic) with a maximum ozone production of 5 g/L was used. A mixture of ozone and oxygen was supplied to be fed into the JLR through the Venturi ejector and into CSR through a glass frit. The creation of fine bubbles made it possible to increase the efficiency of ozone transport into the liquid phase. Ozone was produced at 50% output of the ozone generator and an oxygen flow rate of 1 L/min.
+Experiments were carried out in both reactors (CSR and JLR) to remove ammonium and organic pollution from real wastewater by adsorption, adsorptive ozonation and adsorption with regeneration of ZEO with ozone. Natural ZEO with a size fraction of 0.2–0.5 was used.
+The wastewater sample volume in all experiments performed on the JLR was 3.0 L. The weight of the ZEO used was 57.0 g.
+2.2. Applied analytical methods and procedures
+Ammonium nitrogen concentrations were determined using the absorption spectrophotometric method with the Nessler reagent (Merck KGaA, Germany) [29]. The COD and TOC/DOC (Hach Lange, Germany) values were determined according to [30]. The concentration of ozone in the gas phase at the inlet and outlet of the reactor was measured using a Lifetech ODU 200 UV laboratory detector (Lifetech s.r.o., ODU 200, Czech Republic).
+2.3. Processing of experimental data
+In the adsorption process, dissolved substances (adsorbate) pass from the liquid phase and form a surface layer/s on the solid phase (adsorbent) [31].
+The adsorbed amount of NH
+–N per unit mass of the adsorbent (mg/g) was evaluated by expression (1):
+(1)
+where q (mg/g) is the amount of ammonium nitrogen (NH
+–N) adsorbed on per unit mass of the adsorbent, Ci and Ce (mg/L) are the initial and the equilibrium concentration of NH
+–N, respectively, W is the mass of adsorbent (g), and V (L) is the volume of the wastewater sample.
+The removal percentage (E) of NH
+–N is calculated using the following equation:
+(2)
+The most common models to describe the adsorption process kinetics are pseudo-first (Equation (3)) and pseudo-second (Equation (4)) order kinetics [32].
+2.3.1. Pseudo-first-order kinetic model
+The pseudo-first-order (PFO) kinetic equation assumes that the rate of adsorption site occupancy is proportional to the number of vacancies. If film diffusion controls the rate of the process, the equation constant will vary inversely with particle size and film thickness [32].
+(3)
+where qt and qe are the amounts of adsorbate retained by the unit amount of adsorbent (adsorption capacity) at time t and at equilibrium, respectively (mg/g), and k1 is the pseudo-first-order rate constant (1/min).
+2.3.2. Pseudo-second order kinetic model
+The kinetic model of pseudo-second order (PSO) assumes that the adsorption site occupancy rate is proportional to the square of vacant sites. This model assumes that the overall sorption rate is controlled by the rate of adsorbate diffusion within the sorbent pores [33]. Both models were used in this study for the adsorption kinetic evaluation with the model and municipal wastewater.
+(4)
+where qt and qe express the quantity of adsorbate retained by the unit amount of adsorbent (adsorption capacity) at time t and at equilibrium, respectively (mg/g), and k2 is the pseudo-second-order rate constant (g/mg min).
+The parameter values of kinetic Equations (3) and (4) were determined by nonlinear regression [34] using the grid search optimization method [35]. The sum of the squared deviations between the measured and calculated values of the adsorption capacity was used as the objective function. Correlation coefficient
+values were used to evaluate the quality of the mathematical fit to the experimental data.
+2.3.3. Ozone transfer
+Ozone transfer in the reactor was evaluated by mass balance across the reactor [36]:
+(5)
+where O3, trans denotes the ozone transferred (reacted and decomposed) [g/L], Qg is the oxygen flow rate [N m3/min], O3, in is the ozone concentration at standard conditions in the gas at the inlet [g/N m3], O3, out is the standard ozone concentration in the gas at the outlet [g/N m3], VR is the liquid effective reactor volume, and t is the reaction/ozonation time. The concentration of ozone in the gaseous phase at the inlet and outlet of the reactor was measured by a Lifetech ODU 200 UV laboratory detector. Dissolved ozone concentrations in the liquid phase of the reactor were calculated using Dalton’s and Henry’s laws based on the assumption of an equilibrium state of the gas/liquid phases in the reactor.
+Figure 3.
+Time dependences of NH–N and TOC concentrations.
+3. Results and discussion
+3.1. Adsorption on zeolite
+Adsorption and adsorption-based processes were carried out with real mechanically pretreated municipal wastewater and ZEO. Basic kinetic measurements were performed in CSR (Figure 1).
+Figure 3 shows the time courses of NH
+–N /ZEO and TOC concentration in municipal wastewater in the presence of ZEO. From the course of that dependence, it can be concluded that the value of the equilibrium time is 60 min. This time corresponds to a 53.8% NH
+–N removal efficiency and residual ammonium nitrogen concentration of 21.8 mg/L (adsorption capacity 1.34 mg/g NH
+–N /ZEO).
+Figure 4 shows the time courses of experimental and calculated values using PFO and PSO adsorption kinetics. The best fit of experimental data was achieved with the PFO model (RXY2 = 0.9932, k1 = 3.28 1∕min, qe = 1.41 mg∕g).
+Figure 4.
+Time dependences of experimental and calculated adsorption capacity (NH–N/ZEO).
+Figure 5 shows the values of NH
+–N removal efficiency in recyclability adsorption experiments without regeneration and with regeneration of ZEO. Regeneration of exhausted capacity was performed with ozone. Similarly to the above presented results (Figure 3 and 4), these experiments were also carried out in the CSR.
+Figure 5.
+Efficiencies of NH–N removal in adsorption cycles (trials without and with regeneration of adsorption capacity).
+The average value of NH
+–N removal efficiency in the reference adsorption process carried out in the CSR without adsorbent regeneration was 29.5%. Regeneration of ZEO resulted in an increase in efficiency to a value of 35.7%. The corresponding average values of NH
+–N/ZEO adsorption capacities were 0.81 and 0.91 mg/g, respectively. From these values, it follows that the regeneration of ZEO with ozone essentially stabilizes the process of adsorption of NH
+–N onto ZEO.
+It can be concluded that the adsorption performance of ZEO during the first two cycles was approximately the same and independent of the regeneration process. After the third cycle, however, in the experiment without regeneration, there was a significant decrease in the adsorption capacity. This is confirmed by the values of this quantitative process indicator shown in Figure 6.
+Figure 6.
+NH–N/ZEO adsorption capacity values in individual adsorption ozonation cycles (trials without and with regeneration of ZEO).
+The average value of NH
+–N removal efficiency in the reference adsorption process in the CSR without AR is 32.3%. Regeneration of ZEO resulted in an increase in efficiency to a value of 38.4%. The corresponding average values of NH
+–N/ZEO adsorption capacities are 0.81 and 0.91 mg/g, respectively.
+From these values, it follows that regeneration of ZEO with ozone essentially stabilizes the process of adsorption of NH
+–N onto ZEO.
+3.2. Adsorptive ozonation
+3.2.1. Recyclability experiments performed in completely stirred reactor
+The recyclability time for all adsorptive adsorption assays was 30 min. In Figure 6, the values of efficiencies of NH
+–N removal in individual adsorptive ozonation cycles in the CSR are plotted. Experiments were performed with wastewater (pH = 7.8) and at pH adjusted to 9.0. The corresponding values of NH
+–N /ZEO adsorption capacity are plotted in Figure 6 and corresponding values of COD and TOC concentrations are shown in Figure 8.
+In Figures 7 and 8, decreases in values for both process performance parameters are predominant. However, from cycle 3, the values of both NH
+–N efficiency removal and NH
+–N/ZEO adsorption capacity are higher in assays with pH adjustment.
+Figure 7.
+Efficiencies of NH–N removal in adsorptive ozonation cycles (CSR, trials without and with adjustment of pH = 9.0).
+Figure 8.
+COD and TOC values in adsorptive ozonation cycles (CSR, trials without pH adjustment).
+The average value of NH
+–N removal efficiency in the process of adsorptive ozonation without ZEO regeneration was 36.5%. When regenerating the ZEO adsorbent with ozone, this value was 37.2%.
+The value of COD removal efficiency increased from 25.5% to 51.7% over the course of the experiment. The TOD removal efficiency increased from 34.6% to 63.8%. In general, the above-mentioned pH adjustment did not have a significant influence on NH
+–N removal.
+3.2.2. Experiments performed in jet-loop reactor
+The comparison of efficiencies of ammonium nitrogen removal in individual cycles of adsorptive ozonation cycles performed in the JLR and CSR is shown in Figure 9. The comparison of adsorption capacity NH
+–N/ZEO values in individual cycles of adsorptive ozonation cycles performed in the JLR and CSR is shown in Figure 10.
+Figure 9.
+Efficiencies of NH–N removal in adsorptive ozonation cycles in JLR and CSR.
+Figure 10.
+Adsorption capacity NH–N/ZEO values during adsorptive ozonation cycles in JLR and CSR.
+The average values of NH
+–N removal efficiency (Figure 9) during five cycles in both reactors are approximately the same. The average value of NH
+–N removal efficiency in the process of adsorptive ozonation carried out in the JLR was 35.3%. In the adsorptive ozonation process carried out in the CSR, this value was 35.9%. The average value of NH
+–N/ZEO in the adsorptive ozonation process implemented in the JLR was 0.94 mg/g. For the CSR, this value was 0.82 mg/g (Figure 10).
+Overall, however, it can be concluded that there is no significant difference between the performance of the AR with subsequent regeneration of ZEO by ozone implemented in the CSR and JLR.
+3.3. Adsorption with adsorbent regeneration by ozone
+3.3.1. Experiments performed in completely stirred reactor
+The recyclability times for all adsorption with subsequent regeneration were 60 and 30 min.
+The values of NH
+–N removal efficiency and NH
+–N/ZEO adsorption capacity in individual cycles during adsorption with subsequent regeneration are presented in Figure 11. Experimental measurements were carried out in the CSR at pH adjusted to 9.3.
+Figure 11.
+NH–N removal efficiency and NH–N/ZEO adsorption capacity values during adsorption with subsequent regeneration (CSR, with pH adjusted to 10).
+Figure 11 shows that after two cycles, there was a slight decrease in the NH
+–N removal efficiency values as well as the NH
+–N/ZEO values. There is a good mutual correlation between the values of both quantities. The process can be evaluated as relatively stable.
+In Figure 12, COD and TOC values measured in individual cycles during adsorption with subsequent regeneration by ozone are presented. These measurements were carried out simultaneously, and they are presented in Figure 11.
+The mean value of ammonium efficiency removal was 44.2%. The mean value of NH
+–N/ZEO adsorption capacity was 0.95 mg/g. The mean values of COD and TOC removals were 46.2% and 49.2%, respectively. The values of COD and TOC concentrations in individual cycles confirm the stability of the process within five cycles.
+Figure 12.
+COD and TOC values in individually repeated adsorptive ozonation cycles (trials with pH adjustment).
+3.3.2. Experiments performed in jet-loop reactor
+In Figure 13, efficiency values of NH
+–N removal in cycles during adsorption followed by regeneration are plotted. Experimental measurements were carried out in the JLR both at pH = 7.8 and at pH adjusted to 10.
+Figure 13.
+Efficiencies of NH–N removal in cycles during adsorption followed by regeneration (JLR, trials without and with pH adjustment).
+From the results shown in Figure 13, in the adsorption-regeneration process without adjusting the pH value, there was a significant decrease in the NH
+–N removal efficiency in the fourth cycle. To achieve higher ammonium nitrogen removal efficiency, we adjusted the pH to 10 during ZEO regeneration. By adjusting the pH during ozone regeneration of ZEO, the average value of NH
+–N removal efficiency, 53.1%, increased by 13.9%. The average value of adsorption capacity increased by 38.2%. The adsorption-regeneration process at the higher pH value during regeneration showed good stability during five cycles.
+In Figure 14, there is comparison of removal efficiencies of NH
+–N in individual cycles during adsorptive ozonation and adsorption with subsequent regeneration cycles in the JLR. Similarly, in Figure 15, there is comparison of NH
+–N/ZEO adsorption capacity values during adsorptive ozonation and adsorption-regeneration processes performed in the JLR.
+Figure 14.
+Efficiencies of NH–N removal during adsorptive ozonation and adsorption with subsequent regeneration (AR) cycles in JLR.
+Figure 15.
+NH–N/ZEO adsorption capacity values during adsorptive ozonation and adsorption with subsequent regeneration (AR) cycles in JLR.
+The mean value of NH
+–N removal efficiencies in adsorption with subsequent regeneration cycles in the JLR is higher by 17.8% in comparison to adsorptive ozonation (35.3%).
+From the evaluation of experimental data in the JLR plotted in Figures 14 and 15 follows a higher average value for NH
+–N efficiency removal for the adsorption-regeneration process by 13.9%. The average value of NH
+–N/ZEO adsorption capacities is higher by 38.2% in comparison to adsorptive ozonation process.
+4. Conclusion
+The anticipated increase in requirements in connection with the revision of the urban wastewater treatment directive in terms of qualitative as well as quantitative indicators of discharged wastewater will require the intensification of current treatment methods as well as research and application of innovative processes and technologies.
+This paper presents the results of research of processes and reactors in the removal of ammonium pollution from urban wastewater by nontraditional methods based on the use of adsorption processes on ZEO and ozone.
+Adsorption, adsorption-regeneration, and adsorptive ozonation processes were studied. These processes were performed in the CSR and the JLR with external recirculation. The experiments were carried out with municipal wastewater after mechanical treatment in the real municipal wastewater treatment plant.
+The average value of NH
+–N removal efficiency in the reference adsorption process carried out in the CSR without adsorbent regeneration was 29.5%. Regeneration of ZEO resulted in an increase in efficiency to a value of 35.7%.
+The average value of NH
+–N removal efficiency in the adsorptive ozonation process without ZEO regeneration was 36.5%. When regenerating the ZEO adsorbent with ozone, this value was 37.2%. The average value of NH
+–N removal efficiency in the adsorptive ozonation process carried out in the JLR was 35.3%. In the adsorptive ozonation process carried out in the CSR, this value was 35.9%.
+The results of recyclability experiments show that the AR is a more effective and efficient process compared to adsorptive ozonation due to the greater efficiency of ammonium nitrogen removal and the higher values of ZEO adsorption capacity.
+By adjusting the pH value from 8.2 to 10.0 during ZEO regeneration in the adsorption-regeneration process by applying ozone, there was an increase in the average value of the ammonium nitrogen removal efficiency to 53.1%, which was higher by 19.4% in comparison to the regeneration process without pH adjustment.
+The mean value of NH
+–N removal efficiencies in adsorption-regeneration cycles carried out in the JLR was higher by 17.8% in comparison to the adsorptive ozonation process. The average ZEO adsorption capacity value increased by 38.2%. The average COD and TOC removal efficiency values of 46.2% and 49.2% are an added value of the process.
+For adsorption-regeneration experiments, the best measurement reproducibility and process stability were observed in repeated cycles with regenerated ZEO and a new wastewater sample.
+Conflict of interest
+The authors declare no conflict of interest.
+Acknowledgement
+This work was supported by Company ZEOCEM, a.s., Slovakia, which provided zeolites for the experiments.
+References
+1.
+Council Directive of 21 May 1991 concerning urban wastewater treatment (91/271/EEC) [Internet]. (OJ L 135 30.5.1991, p. 40). Available from: http://data.europa.eu/eli/dir/1991/271/2014-01-01 (accessed on 26 November 2023).
+2.
+WWAP (United Nations World Water Assessment Programme). The United Nations World Water Development Report 2017. Wastewater: The Untapped Resource; 2017 Paris, UNESCO.
+3.
+European Commission. Proposal for a revised Urban Wastewater Treatment Directive. Details [Internet]. 2022 Oct 26 [cited 2023 Nov 26]. Available from: https://environment.ec.europa.eu/publications/proposal-revised-urban-wastewater-treatment-directive_en.
+4.
+Ahmed SF, Mofijur M, Nuzhat S, Chowdhury AT, Rafa N, Alhaz Uddin Md, Recent developments in physical, biological, chemical, and hybrid treatment techniques for removing emerging contaminants from wastewater. J Hazard Mater. 2021;416: 125912. doi: 10.1016/j.jhazmat.2021.125912.
+5.
+de Magalhães LF, da Silva GR, Peres AEC. Zeolite application in wastewater treatment. Adsorp Sci Technol. 2022;2022: e4544104. doi: 10.1155/2022/4544104.
+6.
+Montalvo S, Huiliñir C, Borja R, Sánchez E, Herrmann C. Application of zeolites for biological treatment processes of solid wastes and wastewaters—A review. Bioresour Technol. 2020 Apr 1;301: 122808. doi: 10.1016/j.biortech.2020.122808.
+7.
+Senila L, Hoaghia A, Moldovan A, Török IA, Kovacs D, Simedru D, The potential application of natural clinoptilolite-rich zeolite as support for bacterial community formation for wastewater treatment. Materials. 2022 May 20;15(10):3685. doi: 10.3390/ma15103685.
+8.
+Ahmed AT, Almohamadi H. Chemical and microstructural studies for using natural zeolite in advanced wastewater treatment. Int J Environ Sci Technol. 2022 Jul 23;20(6):6491–6498. doi: 10.1007/s13762-022-04384-5.
+9.
+Eberle S, Börnick H, Stolte S. Granular natural zeolites: cost-effective adsorbents for the removal of ammonium from drinking water. Water. 2022 Mar 17;14(6):939. doi: 10.3390/w14060939.
+10.
+Gagliano E, Sgroi M, Falciglia PP, Belviso C, Cavalcante F, Lettino A, Removal of ammonium from wastewater by zeolite synthetized from volcanic ash: Batch and column tests. J Environ Chem Eng. 2022 Jun;10(3):107539. doi: 10.1016/j.jece.2022.107539.
+11.
+Singh H, Mishra BK. Recent applications, reaction mechanism, and future perspective of hybrid ozonation process for water and wastewater treatment. In: Development in wastewater treatment research and processes [Internet]. Elsevier; 2022 Jan 1. p. 459–484. doi: 10.1016/b978-0-323-85583-9.00009-0.
+12.
+Karre AV, Valsaraj KT, Vasagar V. Review of air-water interface adsorption and reactions between trace gaseous organic and oxidant compounds. Sci Total Environ. 2023;873: 162367. doi: 10.1016/j.scitotenv.2023.162367.
+13.
+Fujita H, Izumi J, Masaki S, Fujii T, Sakoda A. Adsorption and decomposition of water-dissolved ozone on high silica zeolites. Water Res. 2004;38(1):159–165. doi: 10.1016/s0043-1354(03)00382-8.
+14.
+Ferreiro C, de Luis A, Villota N, Lomas J, Lombraña J, Camarero L. Application of a combined adsorption–ozonation process for phenolic wastewater treatment in a continuous fixed-bed reactor. Catalysts. 2021;(8):1014. doi: 10.3390/catal11081014.
+15.
+Loganathan P, Kandasamy J, Jamil S, Ratnaweera H, Vigneswaran S. Ozonation/adsorption hybrid treatment system for improved removal of natural organic matter and organic micropollutants from water—A mini review and future perspectives. Chemosphere. 2022;296: 133961. doi: 10.1016/j.chemosphere.2022.133961.
+16.
+Khamparia S, Jaspal DK. Adsorption in combination with ozonation for the treatment of textile wastewater: a critical review. Front Environ Sci Eng. 2017;11(1): doi: 10.1007/s11783-017-0899-5.
+17.
+Qu X, Zheng J, Zhang Y. Catalytic ozonation of phenolic wastewater with activated carbon fiber in a fluid bed reactor. J Colloid Interface Sci. 2007;309(2):429–434. doi: 10.1016/j.jcis.2007.01.034.
+18.
+Alameddine M, Zuo TH, Mohamed Gamal E-D. Advancing the treatment of primary influent and effluent wastewater during wet weather flow by single versus powdered activated carbon-catalyzed ozonation for the removal of trace organic compounds. Sci Total Environ. 2021;770: 144679. doi: 10.1016/j.scitotenv.2020.144679.
+19.
+Munir HMS, Feroze N, Ramzan N, Sagir M, Babar M, Tahir MS, Fe-zeolite catalyst for ozonation of pulp and paper wastewater for sustainable water resources. Chemosphere. 2022;297: 134031. doi: 10.1016/j.chemosphere.2022.134031.
+20.
+Ikhlaq A, Fatima R, Umair YQ, Javaid R, Akram A, Shamsah Sl, Combined iron-loaded zeolites and ozone-based process for the purification of drinking water in a novel hybrid reactor: removal of faecal coliforms and arsenic. Catalysts. 2021;11(3):373. doi: https://dx.doi.org/10.3390/catal11030373.
+21.
+Ishii H, Matsuzawa H, Kobayashi M, Kato M. Method for regenerating an oxidation catalyst. Japan: Mitsubishi Rayon Co., Ltd.; 1978.
+22.
+Zhang Y, Raoul GM, Sabelfeld M, Sven-Uwe G. Adsorption of trichlorophenol on zeolite and adsorbent regeneration with ozone. J Hazard Mater. 2014;271: 178–184. doi: 10.1016/j.jhazmat.2014.02.020.
+23.
+Shahbazi A, Gonzalez-Olmos R, Kopinke FD, Zarabadi-Poor P, Georgi A. Natural and synthetic zeolites in adsorption/oxidation processes to remove surfactant molecules from water. Sep Purif Technol. 2014;127: 1–9. doi: 10.1016/j.seppur.2014.02.021.
+24.
+Fu M, He M, Heijman B, van der Hoek JP. Ozone-based regeneration of granular zeolites loaded with acetaminophen. Sep Purif Technol. 2021 Feb;256: 117616. doi: 10.1016/j.seppur.2020.117616.
+25.
+Fu M, Wang J, Heijman B, van der Hoek JP. Removal of organic micropollutants by well-tailored granular zeolites and subsequent ozone-based regeneration. J Water Process Eng. 2021 Dec;44: 102403. doi: 10.1016/j.jwpe.2021.102403.
+26.
+Vogt C, Fu D, Weckhuysen BM. Carbon deposit analysis in catalyst deactivation, regeneration, and rejuvenation. Angew Chem Int Ed. 2023;62(29):e202300319. doi: 10.1002/anie.202300319.
+27.
+Regulation of the Government of the Slovak Republic of October 26, 2022, amending Regulation of the Government of the Slovak Republic No. 269/2010 Coll., establishing the requirements for achieving good water status as amended by Government of the Slovak Republic Regulation No. 398/2012 Coll. (In Slovak).
+28.
+Urminská B, Derco J, Zakhar R, Korpicsová A. Use of zeolites for macronutrients removal from wastewater. Acta Chim Slovaca. 2019;12(1):150–161. doi: 10.2478/acs-2019-0021.
+29.
+Horáková M. Water analysis. 2nd ed. Prague: University of Chemistry and Technology in Prague; 2007 335 p (In Czech).
+30.
+American Public Health Association. Standard methods for the examination of water and wastewater. Washington, DC: American Public Health Association; 2005.
+31.
+Zhang J, Chen B, Chen X, Hou X. Liquid-based adaptive structural materials. Adv Mater. 2021;33(50):e2005664. doi: 10.1002/adma.202005664.
+32.
+Khamizov RKh. A pseudo-second order kinetic equation for sorption processes. Russian J Phys Chem A. 2020;94(1):171–176. doi: 10.1134/s0036024420010148.
+33.
+Revellame ED, Fortela DL, Sharp W, Hernandez R, Zappi ME. Adsorption kinetic modeling using pseudo-first order and pseudo-second order rate laws: a review. Clean Eng Technol. 2020;1: 100032. doi: 10.1016/j.clet.2020.100032.
+34.
+Kumari B, Tiwary RK, Yadav M. Nonlinear regression analysis and response surface modeling for Cr (VI) removal from aqueous solution using poly-aniline coated sugarcane bagasse (PANI@SB) composites as an adsorbent. Surf Interfaces. 2022;29: 101729. doi: 10.1016/j.surfin.2022.101729.
+35.
+Sun Y, Ding S, Zhang Z, Jia W. An improved grid search algorithm to optimize SVR for prediction. Soft Comput. 2021;25(7):5633–5644. doi: 10.1007/s00500-020-05560-w.
+36.
+Čižmárová O, Urminská B, Derco J, Kassai A, Zakhar R. Removal of alkylphenols from industrial wastewater by means of ozone-based processes and fenton reaction. Chem Papers. 2021;76(3):1851–1859. doi: 10.1007/s11696-021-01963-7.
+WRITTEN BY
+Ján Derco, Nikola Šoltýsová, Ronald Zakhar and Jakub Jurík
+ARTICLE TYPE: RESEARCH PAPER
+•
+DATE OF ACCEPTANCE: JUNE 2024
+DATE OF PUBLICATION: JULY 2024
+•
+DOI: 10.5772/GEET.29
+COPYRIGHT: THE AUTHOR(S), LICENSEE INTECHOPEN, LICENSE: CC BY 4.0
+Download for free
+Cite
+© The Author(s) 2024. Licensee IntechOpen. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (https://creativecommons.org/licenses/by/4.0/), which permits unrestricted reuse, distribution, and reproduction in any medium, provided the original work is properly cited.
+IMPACT OF THIS ARTICLE
+101
+DOWNLOADS
+102
+VIEWS
+1
+ALTMETRIC SCORE
+SHARE THIS ARTICLE
+Join us today!
+Submit your Article
+Home
+News
+Contact
+Careers
+SDG Hub
+About
+Our Authors and Editors
+Scientific Advisors
+Team
+Events
+Advertising
+Partnerships
+Publish
+About Open Access
+How it works
+OA Publishing Fees
+Open Access funding
+Peer Reviewing
+Editorial Policies
+Headquarters
+IntechOpen Limited
+167-169 Great Portland Street,
+London, W1W 5PF,
+UNITED KINGDOM
+Phone: +44 20 8089 5702
+AUTHOR PANEL SIGN IN
+Terms and ConditionsPrivacy PolicyCustomer Complaints
+© 2024 IntechOpen. All rights reserved.

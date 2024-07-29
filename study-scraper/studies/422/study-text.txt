@@ -1,0 +1,194 @@
+Loading [MathJax]/jax/output/HTML-CSS/config.js
+Your privacy, your choice
+We use essential cookies to make sure the site can function. We, and our 209 partners, also use optional cookies and similar technologies for advertising, personalisation of content, usage analysis, and social media.
+By accepting optional cookies, you consent to allowing us and our partners to store and access personal data on your device, such as browsing behaviour and unique identifiers. Some third parties are outside of the European Economic Area, with varying standards of data protection. See our privacy policy for more information on the use of your personal data. Your consent choices apply to springer.com and applicable subdomains.
+You can find further information, and change your preferences via 'Manage preferences'.
+You can also change your preferences or withdraw consent at any time via 'Your privacy choices', found in the footer of every page.
+We use cookies and similar technologies for the following purposes:
+Store and/or access information on a device
+Personalised advertising and content, advertising and content measurement, audience research and services development
+Accept all cookies
+Reject optional cookies
+Manage preferences
+Skip to main content
+Log in
+Find a journal
+Publish with us
+Track your research
+Search
+Cart
+Home Environmental Science and Pollution Research Article
+Aerosols and black carbon variability using OMI and MERRA-2 and their relationship to near-surface air temperature
+Environmental Sustainability: Challenges and Solutions
+Published: 24 June 2024
+(2024)
+Cite this article
+Environmental Science and Pollution Research
+Aims and scope
+Submit manuscript
+Akshay Chauhan, Namrata Jariwala
+& Robin Christian 
+66 Accesses
+Explore all metrics
+Abstract
+An extinction of incoming solar radiation is taking place by absorption and scattering by dust, water droplets, and gaseous molecules. Such phenomena are responsible for altering meteorological variables. In the present study, temporal analysis of the aerosol optical thickness (AOT) and black carbon (BC) surface mass concentration was undertaken using an ozone monitoring instrument (OMI) and modern-era retrospective analysis for research and applications, version 2 (MERRA-2) satellite from the year 2018 to 2022. The study was mainly focused on the western states of India which are Rajasthan, Gujarat, and Maharashtra. The correlation of AOT and BC surface mass concentration with near-surface temperature (2m above ground level) was analyzed. BC and temperature shows strong negative correlation as BC is known for its absorption of radiation. It accumulates in the atmosphere and contributes to atmospheric warming while simultaneously bringing down the near-surface air temperature due to the reduced sunlight reaching the ground. Also, seasonal analysis was conducted for winter, summer, monsoon, and post-monsoon, which shows the higher values of AOT in monsoon; however, seasonal average BC surface mass concentration was found high in winter in each year for all three states. AERONET data from Jaipur, Rajasthan, and Pune, Maharashtra for the year 2021 was used to further evaluate the AOT generated from OMI. The results demonstrated a significant connection, with R2 values of 0.62 and 0.69, respectively. The temperature retrieved from MERRA-2 was also validated with ground truth data of the Continuous Ambient Air Quality Monitoring Station (CAAQMS) at both stations showing high agreement with R2 > 0.70.
+This is a preview of subscription content, log in via an institution to check access.
+
+Similar content being viewed by others
+Satellite measurements of aerosol optical depth and carbon monoxide and comparison with ground data
+Article 15 May 2020
+Correlation Investigation Between Aerosols Properties, Meteorological, and Environmental Variables During Summer Monsoon in Riau Province, Indonesia
+Chapter © 2022
+Quantitative evaluation of mixed biomass burning and anthropogenic aerosols over the Indochina Peninsula using MERRA-2 reanalysis products validated by sky radiometer and MAX-DOAS observations
+Article Open access
+12 November 2022
+Data availability
+All data used are included in the published article.
+References
+Acker J, Soebiyanto R, Kiang R, Kempler S (2014) Use of the NASA Giovanni data system for geospatial public health research: example of weather-influenza connection. ISPRS Int J Geoinf 3(4):1372–1386. https://doi.org/10.3390/ijgi3041372
+Alam K, Trautmann T, Blaschke T (2011) Aerosol optical properties and radiative forcing over mega-city Karachi. Atmos Res 101(3):773–78. https://doi.org/10.1016/j.atmosres.2011.05.007
+Ali MA, Assiri M, Dambul R (2017) Seasonal aerosol optical depth (AOD) variability using satellite data and its comparison over Saudi Arabia for the period 2002–2013. Aerosol Air Qual Res 17:1267–1280. https://doi.org/10.4209/aaqr.2016.11.0492
+Ayodele E, Okolie C, Akinnusi S et al (2023) An assessment of the spatio-temporal dynamics of Landsat-derived aerosol concentration in relation with land cover and road networks in the Lagos megacity. Environ Sci Pollut Res. https://doi.org/10.1007/s11356-022-25042-w
+Article
+  Google Scholar
+  Berrick SW, Leptoukh G, Farley JD, Rui H (2009) Giovanni: a web service workflow-based data visualization and analysis System. IEEE Trans Geosci Remote Sens 47(1):106–113. https://doi.org/10.1109/TGRS.2008.2003183
+Bhardwaj P, Singh O (2018) Spatial and temporal analysis of thunderstorm and rainfall activity over India. Atmosfera 31:255. https://doi.org/10.20937/ATM.2018.31.03.04
+Article
+  Google Scholar
+  Buchard V, Da Silva AM, Colarco PR et al (2015) Using the OMI aerosol index and absorption aerosol optical depth to evaluate the NASA MERRA Aerosol Reanalysis. Atmos Chem Phys 15:5743
+Article
+  CAS
+  Google Scholar
+  Cao S, Zhang S, Gao C et al (2021a) A long-term analysis of atmospheric black carbon MERRA-2 concentration over China during 1980–2019. Atmos Environ 264:118662. https://doi.org/10.1016/J.ATMOSENV.2021.118662
+Article
+  CAS
+  Google Scholar
+  Cao S, Zhang S, Gao C, et al (2021b) A long-term analysis of atmospheric black carbon MERRA-2 concentration over China during 1980–2019. Atmos Environ 264:118662. https://doi.org/10.1016/j.atmosenv.2021.118662
+Charlson RJ, Schwartz SE, Hales JM et al (1979) (1992) Climate forcing by anthropogenic aerosols. Science 255:423–430. https://doi.org/10.1126/science.255.5043.423
+Article
+  Google Scholar
+  Emery W, Camps A (2017) Atmosphere applications. Introduction to satellite remote sensing, pp 597–636. https://doi.org/10.1016/B978-0-12-809254-5.00008-7
+Gelaro R, McCarty W, Suárez MJ et al (2017) The modern-era retrospective analysis for research and applications, version 2 (MERRA-2). J Clim 30:5419–5454. https://doi.org/10.1175/JCLI-D-16-0758.1
+Article
+  Google Scholar
+  Jacobson MZ (2001) Strong radiative heating due to the mixing state of black carbon in atmospheric aerosols. Nature 409:695. https://doi.org/10.1038/35055518
+Article
+  CAS
+  Google Scholar
+  Kahn R, Samset BH (2022) Remote sensing measurements of aerosol properties. Aerosols and climate, pp 395–444. https://doi.org/10.1016/B978-0-12-819766-0.00016-X
+Kant Y, Patel P, Mishra AK, et al (2012) Diurnal and seasonal aerosol optical depth and black carbon in the Shiwalik Hills of the north western Himalayas : a case study of the Doon valley, India. Int J Geol Earth Environ Sci 2:173–192
+Kharol SK, McLinden CA, Sioris CE, et al (2017) OMI satellite observations of decadal changes in ground-level sulfur dioxide over North America. Atmos Chem Phys 17:5921–5929. https://doi.org/10.5194/acp-17-5921-2017
+Kim MJ (2019) Changes in the relationship between particulate matter and surface temperature in Seoul from 2002–2017. Atmosphere 10(5):238. https://doi.org/10.3390/atmos10050238
+Li W, Wang Y, Yi Z, et al (2024) Evaluation of MERRA-2 and CAMS reanalysis for black carbon aerosol in China. Environ Pollut 343:123182. https://doi.org/10.1016/j.envpol.2023.123182
+Mao M, Zhou Y, Zhang X (2023) Evaluation of MERRA-2 black carbon characteristics and potential sources over China. Atmosphere 14(9):1378. https://doi.org/10.3390/atmos14091378
+Myhre G, Myhre CEL, Samset BH, Storelvmo T (2015) Aerosols and their relation to global climate and climate sensitivity. Nature Education 4:7 
+Penner JE, Zhang SY, Chuang CC (2003) Soot and smoke aerosol may not warm climate. J Geophys Res: Atmos 108:4657. https://doi.org/10.1029/2003jd003409
+Prados AI, Leptoukh G, Lynnes C, et al (2010) Access, visualization, and interoperability of air quality remote sensing data sets via the Giovanni Online Tool. IEEE J Sel Top Appl Earth Obs Remote Sens 3(3):359–370. https://doi.org/10.1109/JSTARS.2010.2047940
+Rajesh TA, Ramachandran S (2017) Characteristics and source apportionment of black carbon aerosols over an urban site. Environ Sci Pollut Res 24:8411–8424. https://doi.org/10.1007/s11356-017-8453-3
+Rajesh TA, Ramachandran S (2022) Assessment of the coronavirus disease 2019 (COVID-19) pandemic imposed lockdown and unlock effects on black carbon aerosol, its source apportionment, and aerosol radiative forcing over an urban city in India. Atmos Res 267:105924. https://doi.org/10.1016/j.atmosres.2021.105924
+Ramana MV, Ramanathan V, Feng Y et al (2010) Warming influenced by the ratio of black carbon to sulphate and the black-carbon source. Nat Geosci 3:542–545. https://doi.org/10.1038/ngeo918
+Ravi Kiran V, Talukdar S, Venkat Ratnam M, Jayaraman A (2018) Long-term observations of black carbon aerosol over a rural location in southern peninsular India: role of dynamics and meteorology. Atmos Environ 189:264–274. https://doi.org/10.1016/j.atmosenv.2018.06.020
+Resquin MD, Santágata D, Gallardo L, et al (2018) Local and remote black carbon sources in the Metropolitan Area of Buenos Aires. Atmos Environ 182:105–114. https://doi.org/10.1016/j.atmosenv.2018.03.018
+Sand M, Berntsen TK, Ekman AML, Lewinschal A (2020) Surface temperature response to regional black carbon emissions: do location and magnitude matter-. Atmos Chem Phys 20:3079–3089. https://doi.org/10.5194/acp-20-3079-2020
+Singh S, Tiwari S, Gond DP, et al (2015) Intra-seasonal variability of black carbon aerosols over a coal field area at Dhanbad, India. Atmos Res 161–162:25–35. https://doi.org/10.1016/j.atmosres.2015.03.015
+Slater J, Coe H, Mcfiggans G, et al (2022) The effect of BC on aerosol-boundary layer feedback: potential implications for urban pollution episodes. Atmos Chem Phys 22:2937–2953. https://doi.org/10.5194/acp-22-2937-2022
+Smith SJ, Chateau J, Dorheim K, et al (2020) Impact of methane and black carbon mitigation on forcing and temperature: a multi-model scenario analysis. Clim Change 163:1427–1442. https://doi.org/10.1007/s10584-020-02794-3
+Sorenson BT, Zhang J, Reid JS, et al (2023) Ozone Monitoring Instrument (OMI) UV aerosol index data analysis over the Arctic region for future data assimilation and climate forcing applications. Atmos Chem Phys 23:7161–7175. https://doi.org/10.5194/acp-23-7161-2023
+Sun E, Xu X, Che H et al (2019b) Variation in MERRA-2 aerosol optical depth and absorption aerosol optical depth over China from 1980 to 2017. J Atmos Sol Terr Phys 186:8–19. https://doi.org/10.1016/j.jastp.2019.01.019
+Article
+  CAS
+  Google Scholar
+  Sun E, Che H, Xu X, et al (2019a) Variation in MERRA-2 aerosol optical depth over the Yangtze River Delta from 1980 to 2016. Theor Appl Climatol 136:363–375. https://doi.org/10.1007/s00704-018-2490-9
+Swain S, Patel P, Nandi S (2017) Application of SPI, EDI and PNPI using MSWEP precipitation data over Marathwada, India. In: International Geoscience and Remote Sensing Symposium (IGARSS), TX, USA, pp 5505–5507. https://doi.org/10.1109/IGARSS.2017.8128250
+Tegen I, Heinold B (2018) Large-scale modeling of absorbing aerosols and their semi-direct effects. Atmosphere 9(10):380. https://doi.org/10.3390/atmos9100380
+Tiwari S, Srivastava AK, Singh AK, Singh S (2015) Identification of aerosol types over Indo-Gangetic Basin: implications to optical properties and associated radiative forcing. Environ Sci Pollut Res 22:12246–12260. https://doi.org/10.1007/s11356-015-4495-6
+Vinogradova AA, Titkova TB (2019) Air temperature and black carbon concentration in the surface atmosphere at Tiksi, Yakutia. Izv Atmos Oceanic Phys 55:1585–1591. https://doi.org/10.1134/S0001433819110185
+Vinogradova AA, Kopeikin VM, Vasileva Av et al (2020) Concentration of black carbon in the near-surface atmosphere in the Pechora-Ilych Natural Reserve: measurements and Merra-2 reanalysis. Izv Atmos Oceanic Phys 56:1191–1201. https://doi.org/10.1134/S0001433820100084
+Vyas BM, Gogoi MM, Jose S (2021) Multi-year characterization of aerosol black carbon concentrations over a semiarid tropical site Udaipur. Environ Sci Pollut Res 28:2864–22877. https://doi.org/10.1007/s11356-020-12300-y
+Yan G, Yu H, Li M, et al (2022) Pollution characteristics of black carbon based on MERRA-2 reanalysis data in core city of Central Plains Economic Zone, China: historical trend and potential sources. Front Environ Sci 10. https://doi.org/10.3389/fenvs.2022.1028572
+Download references
+Acknowledgements
+The authors would like to acknowledge the GIOVANNI and AERONET facilitated by NASA for keeping the data in open access. Also, the authors would like to thank CPCB for the smooth dissemination of CAAQMS data. The authors would also like to thank the Clean Environment Research Center (CERC), S. V. National Institute of Technology, Surat for providing support in all possible manner.
+Author information
+Authors and Affiliations
+Department of Civil Engineering, S. V. National Institute of Technology, Surat, 395007, Gujarat, India
+Akshay Chauhan, Namrata Jariwala & Robin Christian
+Contributions
+All authors contributed to framing the research statement and methodology. Data collection and analysis were performed by Akshay Chauhan. The manuscript was drafted by Namrata Jariwala. Corrections and moderation were undertaken by Robin Christian.
+Corresponding author
+Correspondence to Namrata Jariwala.
+Ethics declarations
+Ethical approval
+The authors confirm that the manuscript has been read and approved by all authors.
+Consent to participate
+All the authors mentioned in the manuscript have agreed to authorship, read, and approved the manuscript.
+Consent for publication
+All the authors mentioned in the manuscript approve the version to be published.
+Competing interests
+The authors declare no competing interests.
+Additional information
+Responsible Editor: Philippe Garrigues
+Publisher's Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Rights and permissions
+Springer Nature or its licensor (e.g. a society or other partner) holds exclusive rights to this article under a publishing agreement with the author(s) or other rightsholder(s); author self-archiving of the accepted manuscript version of this article is solely governed by the terms of such publishing agreement and applicable law.
+Reprints and permissions
+About this article
+Cite this article
+Chauhan, A., Jariwala, N. & Christian, R. Aerosols and black carbon variability using OMI and MERRA-2 and their relationship to near-surface air temperature. Environ Sci Pollut Res (2024). https://doi.org/10.1007/s11356-024-34026-x
+Download citation
+Received
+02 August 2023
+Accepted
+13 June 2024
+Published
+24 June 2024
+DOI
+https://doi.org/10.1007/s11356-024-34026-x
+Keywords
+Aerosol optical thickness
+Black carbon
+MERRA-2
+OMI
+Temperature
+Access this article
+Log in via an institution
+Buy article PDF 39,95 €
+Price includes VAT (Italy)
+Instant access to the full article PDF.
+Rent this article via DeepDyve
+Institutional subscriptions
+Sections
+Figures
+References
+Abstract
+Data availability
+References
+Acknowledgements
+Author information
+Ethics declarations
+Additional information
+Rights and permissions
+About this article
+Advertisement
+Discover content
+Journals A-Z
+Books A-Z
+Publish with us
+Publish your research
+Open access publishing
+Products and services
+Our products
+Librarians
+Societies
+Partners and advertisers
+Our imprints
+Springer
+Nature Portfolio
+BMC
+Palgrave Macmillan
+Apress
+Your privacy choices/Manage cookies Your US state privacy rights Accessibility statement Terms and conditions Privacy policy Help and support Cancel contracts here
+146.241.125.157
+Not affiliated
+© 2024 Springer Nature

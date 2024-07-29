@@ -1,0 +1,134 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+Loading [MathJax]/jax/output/HTML-CSS/fonts/Gyre-Pagella/Marks/Regular/Main.js
+
+
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+Atmosphere
+All Article Types
+Advanced
+  Journals Atmosphere Volume 15 Issue 7 10.3390/atmos15070775
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Jinqiang Zhang
+Subscribe SciFeed
+Recommended Articles
+Related Info Link
+More by Authors Links
+Article Views
+330
+Table of Contents
+Abstract
+Introduction
+Materials and Methods
+Results and Discussion
+Conclusions
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+Appendix A
+Appendix B
+Appendix C
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+WRF-Chem Modeling of Tropospheric Ozone in the Coastal Cities of the Gulf of Finland
+by Georgii Nerobelov
+1,2,3,*, Yana Virolainen
+1, Dmitry Ionov
+1, Alexander Polyakov
+1 and Eugene Rozanov
+1,4
+1
+Atmospheric Physics Department, Saint Petersburg University, St. Petersburg 199034, Russia
+2
+Laboratory of Modeling of Middle and Upper Atmosphere, Russian State Hydrometeorological University, St. Petersburg 195196, Russia
+3
+SRC RAS—Scientific Research Centre for Ecological Safety of the Russian Academy of Sciences, St. Petersburg 197110, Russia
+4
+Physikalisch-Meteorologisches Observatorium Davos, World Radiation Centre, 7260 Davos, Switzerland
+*
+Author to whom correspondence should be addressed.
+Atmosphere 2024, 15(7), 775; https://doi.org/10.3390/atmos15070775
+Submission received: 26 May 2024 / Revised: 26 June 2024 / Accepted: 27 June 2024 / Published: 28 June 2024
+(This article belongs to the Special Issue Measurement and Variability of Atmospheric Ozone)
+Download
+keyboard_arrow_down
+
+
+
+
+Browse Figures Versions Notes
+Abstract
+Ozone in the troposphere is a pollutant and greenhouse gas. Atmospheric models can add valuable information to observations for studying the spatial and temporal variations in tropospheric ozone content. The present study is intended to evaluate the variability in tropospheric ozone and its precursors near the Gulf of Finland with a focus on St. Petersburg (Russia) and Helsinki (Finland) in 2016–2019, using the WRF-Chem 3-D numerical model with a spatial resolution of 10 km, together with observations. The diurnal cycle of the near-surface ozone concentrations (NSOCs) in both cities is caused by the variability in NO2 emissions, planetary boundary layer height, and local meteorological conditions. The seasonal variations in NSOCs and tropospheric ozone content (TrOC) are caused by the variability in total ozone content and in ozone formation in the troposphere. The model reveals a VOC-limited regime in the ~0–1 km layer around St. Petersburg, Helsinki, and the Gulf of Finland and a pronounced NOx-limited regime in the 0–2 km layer in the forests of southern Finland, Karelia, some Russian regions, and the Baltic countries in July. The WRF-Chem model overestimates the measured NSOCs by 10.7–43.5% and the TrOC by 7–10.4%. The observed differences are mainly caused by the errors in chemical boundary conditions and emissions of ozone precursors and by the coarse spatial resolution of the modeling.
+Keywords: tropospheric ozone; Gulf of Finland; WRF-Chem modeling; ground-based measurements; FTIR
+1. Introduction
+Tropospheric ozone (O3) is one of the strongest photochemical oxidants harmful to human and animal health at elevated concentrations since ozone molecules have detrimental effects on organisms when they reach the respiratory system [1]. High concentrations of near-surface ozone (higher than the European standard of 70 µg m−3 averaged for 8 h) cause more than 20,000 premature deaths annually in 25 countries of the European Union [2]. Ozone molecules also have a negative effect on vegetation [3]. In the middle and upper troposphere, ozone is an important greenhouse gas as ozone molecules absorb longwave radiation. According to the Intergovernmental Panel on Climate Change (IPCC) [4], the total anthropogenic radiative forcing constitutes 1.96–3.48 W m−2, while the tropospheric ozone forcing is evaluated as 0.24–0.71 W m−2 or 4–20%. In [5], the decadal average tropospheric ozone radiative effect was estimated to be between 1.21 and 1.26 W m−2 for the 2008–2017 period. Moreover, tropospheric ozone contributes greatly to the oxidation efficiency of the atmosphere.
+Tropospheric ozone concentrations have been monitored regularly for several decades [6]. Near-surface ozone concentrations are detected at hundreds of sites equipped with in situ measurement instruments; tropospheric ozone profiles are measured with ozonesondes, aircraft, and lidar instruments; and the free troposphere ozone content (TrOC) is determined by various ground-based and satellite instruments. On average, in Europe, a reduction in ozone precursor emissions in the 21st century has led to a reduction in extreme ozone surface levels at both urban and rural sites, but for TrOC, there are no consistent trends observed, i.e., ozone changes vary both spatially and seasonally [3]. Depending on the mean tropospheric state, local climate features, and intensity of ozone precursor emissions from anthropogenic and natural sources, the tropospheric ozone content can differ drastically in space and time. For example, monsoons, which occur seasonally near the tropics and affect the weather of coastal areas, cause significant changes in the seasonal and vertical variations in ozone content in the lower troposphere [7,8]. According to [9], dry deposition can be an important factor causing ozone loss in the lower troposphere. In addition, variations in the amount of NOx and hydrocarbon (e.g., volatile organic compounds or VOCs) molecules in the lower atmosphere cause complex seasonal and spatial patterns of the tropospheric ozone content, which complicates the regulation of ozone pollution [10].
+Three-dimensional numerical modeling of the atmospheric composition on a regional scale is a valuable method for studying TrOC variability [11] because correlations between TrOC and small-scale phenomena (less than a few km) cannot be considered by global models. These phenomena include emissions of ozone precursors (NOx, VOC, CH4, CO, etc.) from many local sources [2] and physical processes in the Earth boundary layer, e.g., turbulent mixing [12]. The average lifetime of ozone molecules in the free troposphere is more than 20 days [13], whereas in the lower troposphere, it can be significantly shorter due to high concentrations of ozone precursors. Notwithstanding the development of regional numerical models of atmospheric composition in recent decades, differences between simulated and observed TrOC vary widely depending on the date, location, and period of the study. For example, a numerical regional model of weather forecasting and tropospheric content, WRF-Chem (Weather Research and Forecasting—Chemistry), reproduces near-surface ozone concentrations over European countries, with differences of up to 20% with respect to the observations [14,15]. Few studies have been dedicated to modeling the tropospheric ozone content in the vicinity of large Russian cities. In [16], the authors analyzed changes in tropospheric ozone over Siberia, focusing on anthropogenic emissions of ozone precursors from relatively large cities (Tomsk, Novosibirsk, etc.) and demonstrated that the model could be used to simulate the near-surface ozone concentrations under the background conditions of Siberian forests, with a correlation coefficient between observations and the modeled data of 0.6–0.7.
+St. Petersburg is one of the largest industrial Russian cities, with a population of more than 5 million [17], several large power plants [18], industries [19], and more than one million private motor vehicles [20]. According to [21], the NOx (NO2 + NO) anthropogenic emissions of St. Petersburg constitute 77 ± 22 kt y−1. According to independent estimates, the NOx emissions of London, Paris, and Shanghai constitute ~113 [22], 132 [23], and 155 kt y−1 [24], respectively. Therefore, St. Petersburg is a large source of different pollutants, particularly ozone precursors. Helsinki is Finland’s largest city and is located in proximity to St. Petersburg (~330 km). Both St. Petersburg and Helsinki are located on the coast of the Gulf of Finland (Baltic Sea).
+Regular measurements of the near-surface ozone concentrations (NSOCs) and TrOC in St. Petersburg, Russia, have been carried out at the Peterhof campus of St. Petersburg University (SPbU) since 2013 and 2009, respectively [25]. The concentrations of ozone and its precursors have been measured since 2005 at the SMEAR III (Station for Measuring Ecosystem–Atmosphere Relationships, https://www.atm.helsinki.fi/SMEAR/index.php/smear-iii (accessed on 1 January 2024)) station in Helsinki, Finland, [26]. The availability of observational data provides an opportunity to confirm findings on the TrOC variability near the Gulf of Finland, which can be achieved by 3D numerical modeling of the composition of the troposphere and lower stratosphere.
+The aim of the study is to evaluate the diurnal, seasonal, and interannual variations in the tropospheric ozone content and the content of its precursors near the Gulf of Finland for the period of 2016–2019, focusing on St. Petersburg (Russia) and Helsinki (Finland) by using a 3D numerical model of the tropospheric composition WRF-Chem and complex observations. In Section 2, the main parameters of the WRF-Chem model simulation and the experimental data used for the analysis of the tropospheric ozone variability and validation of the model are described. In Section 3, an analysis of spatiotemporal tropospheric ozone variation based on numerical modeling and complex observations in St. Petersburg and Helsinki, as well as validation of the WRF-Chem model, is provided. The main findings of the study are provided in Section 4.
+2. Materials and Methods
+2.1. WRF-Chem Model
+The WRF-Chem (Weather Research and Forecasting—Chemistry) [27] numerical model of the state and composition of the lower atmosphere at high spatial resolution is used in the study. The flowchart of the WRF-Chem model, which presents its main blocks, is shown in Figure 1. All these blocks are briefly described below.
+Figure 1. The flowchart of the WRF-Chem model.
+The modeling domain covers an area of 960 × 960 km2 (Figure 2), with a 10 km step for the 2016–2019 period. The period for model simulations was chosen based on the availability of TrOC satellite observations that are not provided in the current study but will be used in future analyses of TrOC spatial and temporal variability at the regional scale. Based on the period selected, a preliminary investigation of the quality of the WRF-Chem model was carried out. The modeling domain is centered at St. Petersburg (Russia) and covers the territories of western Russia, southern Finland, Estonia, Latvia, the Gulf of Finland and the Gulf of Riga of the Baltic Sea. As shown in Figure 2a,b, both cities in focus—Peterhof and Helsinki—are located on the coastline of the Gulf of Finland. The landscape is relatively flat with several low-height features (up to 250–300 m above sea level), which are located predominantly on the southeast and northeast sides of the modeling domain. Modeling was performed on 25 hybrid vertical levels from the surface up to 50 hPa (~20 km). The modeling time step was set as 60 s, and the modeled data output was 1 h. Table 1 contains all the main parameters of the WRF-Chem simulation. Table 2 demonstrates schemes of subgrid parametrizations of physical processes used in the WRF-Chem modeling.
+Figure 2. WRF-Chem modeling domain (a) with a magnified view of the Gulf of Finland (b) and terrain height in m above sea level; blue circle—Peterhof (St. Petersburg), red square—Helsinki; the different color divisions are shown in the figures.
+Table 1. Main parameters of the WRF-Chem simulation; hor. res—horizontal resolution.
+2.1.1. Initial and Boundary Conditions
+To set the initial and boundary meteorological conditions, the ERA5 reanalysis data [28] were used. The ERA5 data are available globally, with a 0.25° horizontal resolution on 137 hybrid vertical levels from the surface up to approximately 80 km. The meteorological boundary conditions were refreshed every 6 h. The ERA5 data were obtained by numerical modeling of the atmospheric state via the ECMWF Integrated Forecast System and 4DVAR assimilation of meteorological observations.
+Data from the CAM-chem (Community Atmosphere Model with Chemistry) chemical transport model, which is a part of the NCAR (National Center for Atmospheric Research) CESM (Community Earth System Model) Earth system model [29], were used as chemical initial and boundary conditions. The data are available, with ~0.9° × 1.25° spatial resolution on 56 hybrid vertical levels from the surface up to ~45 km. The CAM-Chem data were obtained by nudging the MERRA-2 reanalysis data [29,30].
+2.1.2. Sources of Gases and Aerosols
+The EDGARv5.0 global inventory of anthropogenic emissions of gases and aerosols with 0.1° spatial resolution [31] was used to set anthropogenic emissions of some species (NOx, CO, SO2, PM2.5, PM10, VOCs, etc.). The EDGARv5.0 dataset covers 2015 only but includes monthly variability in emissions. Daily, weekly, and yearly changes in emissions were not considered in the current study. The data were set at

@@ -1,0 +1,70 @@
+Loading [MathJax]/extensions/MathMenu.js
+English
+Login
+Osmaniye Korkut Ata University Journal of the Institute of Science and Technology
+RESEARCH ARTICLE
+EN
+TR
+PDF
+BibTex RIS Cite
+Skin Lesions Identification and Analysis with Deep Learning Model Using Transfer Learning
+Year 2024, Volume: 7 Issue: 3, 1030 - 1045, 25.06.2024
+Halit Çetiner
+https://doi.org/10.47495/okufbed.1133801
+Abstract
+Sunlight has beneficial as well as harmful rays. Environmental pollution occurs as a result of the depletion of the ozone layer caused by the damage caused by humans to the environment. As a result of these pollutants, skin diseases can be seen in areas exposed to direct sunlight, such as the head and neck. Early detection of actinic keratosis (akiec), basal cell carcinoma (bcc), bening keratosis (bkl), dermafibroma (df), melanoma (mel), melanocytic nevi (nv), and vascular (vasc) skin cancer types, which is one of the most common skin diseases, is important for medical intervention. Otherwise, severe spread, called metastasis, may occur as a result of aggressive growths. For the stated reasons, a deep learning model based on transfer learning, which can classify skin cancer types, has been proposed to assist the medical personnel who serve in this field. With this proposed model, the aim is to classify at high accuracy rates without any pre-processing. As a result of the experimental studies carried out as a result of the stated goals, an accuracy rate of 99,51% was achieved with the proposed model.
+Keywords
+Skin cancer, Deep learning, CNN, DenseNet201
+References
+Almansour E., Jaffar MA. Classification of dermoscopic skin cancer images using color and hybrid texture features. IJCSNS Int J Comput Sci Netw Secur 2016; 16(4): 135–139.
+Anas M., Gupta K., Ahmad S. Skin cancer classification using k-means clustering. International Journal of Technical Research and Applications 2017; 5(1): 62–65.
+Attique Khan M., Sharif M., Akram T., Kadry S., Hsu C. A two‐stream deep neural network‐based intelligent system for complex skin cancer types classification. International Journal of Intelligent Systems 2021; 1-29.
+Bakator M., Radosav D. Deep learning and medical diagnosis: a review of literature. Multimodal Technologies and Interaction 2018; 2(3): 1-12.
+Blum A., Luedtke H., Ellwanger U., Schwabe R., Rassner G., Garbe C. Digital image analysis for diagnosis of cutaneous melanoma. Development of a highly effective computer algorithm based on analysis of 837 melanocytic lesions. British Journal of Dermatology 2004; 151(5): 1029–1038.
+Çetiner H. Python ortamında derin öğrenme uygulamaları. Anı Yayıncılık, 2021.
+Chaturvedi SS., Gupta K., Prasad PS. Skin lesion analyser: an efficient seven-way multi-class skin cancer classification using MobileNet. International Conference on Advanced Machine Learning Technologies and Applications 2020; 165–176.
+Cheplygina V., de Bruijne M., Pluim JPW. Not-so-supervised: a survey of semi-supervised, multi-instance, and transfer learning in medical image analysis. Medical Image Analysis 2019; 54: 280–296.
+Codella N., Cai J., Abedini M., Garnavi R., Halpern A., Smith JR. Deep learning, sparse coding, and svm for melanoma recognition in dermoscopy images. International Workshop on Machine Learning In Medical Imaging 2015; 118–126.
+Dorj UO., Lee KK., Choi JY., Lee M. The skin cancer classification using deep convolutional neural network. Multimedia Tools and Applications 2018; 77(8): 9909–9924.
+Show All References
+There are 40 citations in total.
+Details
+Primary Language English
+Subjects Computer Software
+Journal Section RESEARCH ARTICLES
+Authors
+Halit Çetiner
+ISPARTA UYGULAMALI BİLİMLER ÜNİVERSİTESİ, TEKNİK BİLİMLER MESLEK YÜKSEKOKULU
+0000-0001-7794-2555
+Türkiye
+Publication Date June 25, 2024
+Submission Date June 21, 2022
+Acceptance Date October 30, 2022
+Published in Issue Year 2024 Volume: 7 Issue: 3
+Cite
+APA Çetiner, H. (2024). Skin Lesions Identification and Analysis with Deep Learning Model Using Transfer Learning. Osmaniye Korkut Ata Üniversitesi Fen Bilimleri Enstitüsü Dergisi, 7(3), 1030-1045. https://doi.org/10.47495/okufbed.1133801
+AMA Çetiner H. Skin Lesions Identification and Analysis with Deep Learning Model Using Transfer Learning. Osmaniye Korkut Ata University Journal of Natural and Applied Sciences. June 2024;7(3):1030-1045. doi:10.47495/okufbed.1133801
+Chicago Çetiner, Halit. “Skin Lesions Identification and Analysis With Deep Learning Model Using Transfer Learning”. Osmaniye Korkut Ata Üniversitesi Fen Bilimleri Enstitüsü Dergisi 7, no. 3 (June 2024): 1030-45. https://doi.org/10.47495/okufbed.1133801.
+EndNote Çetiner H (June 1, 2024) Skin Lesions Identification and Analysis with Deep Learning Model Using Transfer Learning. Osmaniye Korkut Ata Üniversitesi Fen Bilimleri Enstitüsü Dergisi 7 3 1030–1045.
+IEEE H. Çetiner, “Skin Lesions Identification and Analysis with Deep Learning Model Using Transfer Learning”, Osmaniye Korkut Ata University Journal of Natural and Applied Sciences, vol. 7, no. 3, pp. 1030–1045, 2024, doi: 10.47495/okufbed.1133801.
+ISNAD Çetiner, Halit. “Skin Lesions Identification and Analysis With Deep Learning Model Using Transfer Learning”. Osmaniye Korkut Ata Üniversitesi Fen Bilimleri Enstitüsü Dergisi 7/3 (June 2024), 1030-1045. https://doi.org/10.47495/okufbed.1133801.
+JAMA Çetiner H. Skin Lesions Identification and Analysis with Deep Learning Model Using Transfer Learning. Osmaniye Korkut Ata University Journal of Natural and Applied Sciences. 2024;7:1030–1045.
+MLA Çetiner, Halit. “Skin Lesions Identification and Analysis With Deep Learning Model Using Transfer Learning”. Osmaniye Korkut Ata Üniversitesi Fen Bilimleri Enstitüsü Dergisi, vol. 7, no. 3, 2024, pp. 1030-45, doi:10.47495/okufbed.1133801.
+Vancouver Çetiner H. Skin Lesions Identification and Analysis with Deep Learning Model Using Transfer Learning. Osmaniye Korkut Ata University Journal of Natural and Applied Sciences. 2024;7(3):1030-45.
+ARTICLE FILES
+Full Text
+  43
+  49
+  0
+Journal Home Page
+Archive
+Volume: 7 Issue: 1
+Volume: 7 Issue: 2
+Volume: 7 Issue: 3
+
+
+   *This journal is an international refereed journal 
+*Our journal does not charge any article processing fees over publication process.
+* This journal is online publishes 5 issues per year (January, March, June, September, December)
+*This journal published in Turkish and English as open access. 
+*  This work is licensed under a Creative Commons Attribution 4.0 International License.

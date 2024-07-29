@@ -1,0 +1,291 @@
+ACS ACS Publications C&EN CAS
+Find my institution Log In
+My Activity
+Publications
+Environmental Science & Technology LettersVol 11/Issue 7Article
+Cite
+Share
+Jump to
+Expand
+OCCURRENCE, FATE, AND TRANSPORT OF CONTAMINANTS IN INDOOR AIR AND ATMOSPHEREJune 21, 2024
+Nanocluster Aerosols from Ozone–Human Chemistry Are Dominated by Squalene–Ozone Reactions
+Shen Yang*
+Dusan Licina
+Open PDF
+Supporting Information (1)
+Abstract
+Nanocluster aerosols (NCAs, <3 nm particles) are associated with climate feedbacks and potentially with human health. Our recent study revealed NCA formation owing to the reaction of ozone with human surfaces. However, the underlying mechanisms driving NCA emissions remain unexplored. Squalene is the most abundant compound in human skin lipids that reacts with ozone, followed by unsaturated fatty acids. This study aims to examine the contribution of the squalene–ozone reaction to NCA formation and the influence of ozone and ammonia (NH3) levels. In a climate-controlled chamber, we painted squalene and 6-hexadecenoic acid (C16:1n6) on glass plates to facilitate their reactions with ozone. The squalene–ozone reaction was further investigated at different ozone levels (15 and 90 ppb) and NH3 levels (0 and 375 ppb). The results demonstrate that the ozonolysis of human skin lipid compounds contributes to NCA formation. With a typical squalene-C16:1n6 ratio found in human skin lipids (4:1), squalene generated 40 times more NCAs than did C16:1n6 and, thus, dominated NCA formation. More NCAs were generated with increased ozone levels, whereas increased NH3 levels were associated with the stronger generation of larger NCAs but fewer of the smallest ones. This study experimentally confirms that NCAs are primarily formed from squalene–ozone reactions in ozone–human chemistry.
+This publication is licensed under
+CC-BY 4.0 .
+Copyright © 2024 The Authors. Published by American Chemical Society
+Subjects
+what are subjects
+Anatomy
+Atmospheric Chemistry
+Lipids
+Organic Reactions
+Redox Reactions
+Keywords
+what are keywords
+Ozone Chemistry
+Ammonia
+Human Skin Lipids
+Particle Formation
+Fatty Acid
+Introduction
+Nanocluster aerosol (NCA) particles represent airborne nanoparticles that are <3 nm in diameter. Originating from traffic emissions (1) and atmospheric processes, (2,3) NCAs constitute a considerable fraction of outdoor aerosols by number (4,5) and could become climatically relevant aerosol particles outdoors, depending on their physiochemical properties and atmospheric conditions. (6,7) Despite the unknown health effects of exposure to NCAs, concerns have been raised because of their ability to deeply penetrate the human lungs and even reach the brain. (8,9) In indoor environments where humans spend most of their time, (10) NCAs could dominate the total particle number. (11) Indoor NCAs could be transported from outdoors and generated from high-temperature processes (e.g., cooking and burning candles), (12,13) heated surfaces, (14,15) and ozone–terpene reactions. (16) Additionally, ozone–human chemistry represents an intriguing yet understudied source of indoor NCAs. Our previous studies were the first to report NCA formation via ozone–human chemistry (17) and ozone chemistry on worn clothing. (18) Moreover, our recent study showed that the NCAs formed during ozone–human chemistry can grow into ultrafine particles ranging from 10 to 55 nm, depending on ventilation and indoor air movement. (19) Nevertheless, the driving mechanisms of ozone–human chemistry generating NCAs remain unexplored. A fundamental question yet to be addressed is which constituent of human skin lipids plays the most significant role in NCA formation in the presence of ozone.
+Human skin lipids contain both saturated and unsaturated compounds; the latter react with ozone more rapidly. (20,21) Among these, squalene is the most abundant compound in human skin lipids that readily reacts with ozone, followed by unsaturated fatty acids. (22−24) Although extensive research has been dedicated to studying the gas-phase products resulting from the reaction of ozone with squalene and fatty acids, (22−33) our understanding of particle formation by these reactions remains limited. Previous studies reported the formation of >10 nm secondary organic aerosols (SOAs) resulting from the reaction of ozone with surface-sorbed squalene. (34,35) However, these studies have not delved into the NCA size range or explored the relative contribution of squalene and unsaturated fatty acids to NCA formation in the presence of ozone. In addition, our previous study revealed the dependence of NCA emissions on factors such as human age, clothing coverage, and air temperature and humidity but overlooked the potential influence of the ozone level. (17)
+In addition, humans are a potent source of ammonia (NH3), (36) which is known as an important player in atmospheric particle formation. (37−39) It was previously presumed that human-emitted NH3 may play a role in NCA formation during the ozone–human reaction, (17) a hypothesis that merits further investigation.
+In view of these knowledge gaps, this study reports, for the first time, the formation of NCAs resulting from the squalene–ozone reaction. In a climate-controlled chamber, we measured NCAs generated from ozone’s reaction with surface-sorbed squalene and compared them with those resulting from the reaction of ozone with 6-hexadecenoic acid (C16:1n6), one of the most abundant unsaturated fatty acids in human skin lipids. We investigated the influence of ozone and NH3 levels on the generation of NCAs from squalene–ozone reactions. The results hold the potential to contribute to a deeper understanding of the mechanisms driving human-derived NCA generation and the effect of ozone chemistry on indoor NCA levels.
+Methods and Materials
+Experimental Procedure and Design
+We performed experiments in a 1.9 m3 stainless-steel climate chamber (detailed in Section S1 and Figure S1). Reactants (squalene or C16:1n6) painted on a 0.24 m2 glass plate were exposed to ozone to investigate NCA formation. A typical human surface has an area of 1.8 m2. The reactive surface:volume ratio (0.24 m2/1.9 m3 = 0.13 m–1) corresponded to one person per 14 m3, which is commonly found indoors. (40) A specific quantity of pure squalene (purity of >99%, Acros Organics, Thermo Fisher Scientific) or pure C16:1n6 (purity of >99%, Cayman) was dissolved in 10 mL of methanol, and then the mixture evenly painted on a glass plate using a glass stick. The painted glass plate was then placed on the stand inside the chamber. After the chamber door was closed, the chamber was ventilated with filtered air at an air change rate of 3 h–1 for 45 min to reduce the background contamination and then at a rate of 1 h–1 for an additional 45 min to stabilize the experimental conditions. Ozone was subsequently injected into the chamber to initiate the reaction at an air change rate of 1 h–1. After a reaction period of either 3 or 6 h, the glass plate was removed from the chamber and the measurement continued for an additional 20 min to capture the NCA decay. The full experimental procedure is visually detailed in Figure S3.
+Table S1 lists the three experimental conditions investigated in this study. In experiments A comparing the reactions of ozone with squalene and C16:1n6, we applied 20 mg of squalene (equivalent to 83 mg/m2) and 5 mg of fatty acid (equivalent to 21 mg/m2) as reactants, respectively. The quantities were within the range detected on human skin. Each reaction lasted for 3 h with a steady-state ozone level of ∼60 ppb. In experiments B exploring the influence of the ozone level, 750 mg of squalene reacted with 90 ppb ozone for 3 h, followed by an additional 3 h period with 15 ppb ozone (in total 6 h). In experiments C, we studied a 3 h ozone reaction at 30 ppb without NH3, followed by an additional 3 h with ozone at 30 ppb and NH3 at 375 ppb, which approximates the NH3 levels inside the chamber occupied by an adult. (36) In experiments B and C, the amount of squalene was increased to correspond to the typical total amount found in human skin lipids.
+Instrumentation and Quality Control
+NCAs in the size range of 1.2–2.8 nm were sampled at a flow rate of 2.5 L/min and measured in real time at 2 min time intervals with a Nano Condensation Nucleus Counter (Airmodus A11 nCNC System, Airmodus). The principle of the measurement has been described in previous studies (17,41,42) and in Section S2. The instrument was positioned immediately outside the chamber, and to minimize the particle sampling losses, we sampled NCAs with a core sampling probe at a carrier flow of 5 L/min. (43)
+The ozone concentration inside the chamber was measured with a time resolution of 1 min with an ozone monitor (model 724, Tanabyte) at a sampling flow rate of 2.0 L/min. The level of NH3 was monitored at 30 s time intervals with a sampling flow rate of 140 mL/min using an NH3 analyzer (LSE NH3-1700, LSE Monitors). The air temperature and relative humidity (RH) were recorded using a HOBO UX90 sensor (Onset Inc.).
+Before the experimental campaign, all instruments underwent full service and calibration. Due to limited resources, each experiment had one replicate, with variations typically falling within 20%, demonstrating the robust reproducibility of the results (Table S1).
+Data Analysis
+Real-time NCA concentrations were derived through the inversion of raw data by the stepwise method (44) using four size bins (1.2–1.5, 1.5–1.7, 1.7–1.9, and 1.9–2.8 nm). The average rate of emission of NCAs was obtained using the material-balance equation:
+E¯i=V(α+βi)N¯i
+(1)
+where N̅i (cm–3) is the steady-state particle number concentration for particle size i, E̅i (particles per hour) is the particle number emission rate per hour for particle size i, V (V (cm3) is the chamber volume, α (h-1) is the air change rate, and βi (h−1) is the particle deposition rate obtained via exponential fitting of the particle number concentration during the decay period after each experiment. Because of the relatively low particle concentration inside the chamber, we neglected the coagulation sink in the calculation.
+Results and Discussion
+Comparing the Reactions of Ozone with Squalene and Fatty Acid
+Figure 1 shows the time series of the ozone mixing ratio and NCA size distribution in experiments comparing the reactions of ozone with squalene and fatty acid C16:1n6. After ozone was injected into the chamber, the NCA levels in both reaction experiments started to increase. This finding supports the inference from our previous study that ozonolysis of human skin lipid compounds contributes to NCA formation. (17) Although the steady-state ozone levels were similar in both experiments (55 and 56 ppb), the steady-state NCA levels were 40 times higher during ozonolysis of squalene relative to that of C16:1n6, indicating that squalene plays a dominant role in NCA formation when ozone reacts with human skin lipids. The size distributions of NCAs further demonstrated the disparity between the two reactions. The squalene–ozone reaction generated an abundant concentration of NCAs in the smallest size range (1.2–1.5 nm), which subsequently grew. In comparison, the ozonolysis of C16:1n6 emitted a much lower level of the smallest NCA, with no obvious signals detected for >1.7 nm NCAs (see also Table S1).
+Figure 1
+Figure 1. Time series of total NCA number concentration (1.2–2.8 nm) and ozone (top) and size-resolved NCA concentration (bottom) in experiments comparing the reactions of ozone with (A) squalene and (B) fatty acid C16:1n6. The upside-down triangle represents the moment at which ozone was injected into the chamber. Dp is the activation diameter determined by the nCNC instrument (detailed in Section S2). The data are from a single experiment from experiments A, whereas the replicate showed good reproducibility (Table S1 and Figure S4).
+The reaction between ozone and C16:1n6 mainly produces gas-phase decanal and C6H10O3, with the latter potentially contributing to NCA formation via nucleation due to its low volatility. (22,23) In comparison, the squalene–ozone reaction is notably more complex due to the presence of multiple unsaturated C═C bonds in squalene. (22,24,25) In addition to generating gases such as acetone and 6-MHO, (22,23) the squalene–ozone reaction can also produce low-volatility compounds that may nucleate, thereby forming NCAs. Squalene is mostly surface-sorbed indoors. Hence, the reaction of ozone with squalene vapors is negligible relative to surface chemistry. (22) Previous studies examined surface-bound chemicals formed after the reaction of ozone with surface-sorbed pure squalene, including but not limited to 6-MHO, 4-OPA, geranylacetone, C17-trienal, secondary ozonides, and succinic acid. (25,45−49) These low-volatility compounds are expected to contribute to NCA formation. In addition, Criegee intermediates formed during ozonolysis of squalene have the potential to propagate chain reactions in the autoxidation of unsaturated lipids, which is linked with NCA formation. (50,51)
+Influence of the Ozone Level
+The NCAs generated by the squalene–ozone reaction were strongly influenced by the ozone level, as illustrated in Figure 2A. The NCA level inside the chamber reached 1.4 × 104 cm–3 at a steady-state ozone level of 89 ppb. When less ozone was injected, causing a decrease in ozone levels, the NCA concentration followed the trend of ozone until reaching a new steady-state level of 1.0 × 103 cm–3 when the ozone concentration stabilized at 14 ppb. Such an obvious decrease was observed for all size bins, especially for >1.7 nm particles. Combining ozone and NCA emission rate data from all squalene–ozone experiments revealed a positive correlation between them [N = 10; R2 = 0.95 (Figure 2B)]. Similar correlations were observed between ozone and >10 nm SOA for the ozonolysis of squalene, (34,35) skin-oiled clothing, (52) and occupants. (53) It is noteworthy that this correlation held true despite the use of different amounts of squalene applied to the glass plate [20 and 750 mg (Figure 2B)]. This finding indicates that squalene was in excess during the squalene–ozone reaction, (54) which was mainly constrained by the gas-phase ozone level and transportation, aligning with the observed ozone–human reaction. (17) The results also highlighted the importance of controlling the indoor ozone level in reducing the level of exposure of humans to NCAs and other products initiated from indoor ozone chemistry.
+Figure 2
+Figure 2. Influence of the ozone level on NCA emissions from ozone–squalene chemistry. (A) Time-series plot of the NCA concentration and size distribution following a decrease in the level of ozone. The upside-down filled triangle represents the moment at which ozone was injected into the chamber at a high flow rate (target at 90 ppb), whereas the upside-down hollow triangle represents the moment at which less ozone was injected (target at 15 ppb). The data are from a single experiment from experiments B, whereas the replicate showed good reproducibility (Table S1 and Figure S4). (B) Correlation between the steady-state ozone level and NCA emission rates across all experimental runs for the reaction of ozone with squalene. The two square dots represent experiments using 20 mg of squalene, whereas the round dots represent experiments using 750 mg of squalene.
+The absence of data on ozone loss impedes our ability to calculate the NCA yield. Our recent investigation of the impact of air change rates on NCA formation via ozone–human chemistry indicated a positive correlation between the NCA formation rate and the ozone removal rate, which provided insights into this study regarding the dependence of NCA generation on ozone level. (19)
+Influence of the NH3 Level
+The influence of NH3 on NCA formation was less pronounced compared to the influence of ozone, as shown in Figure 3. Upon injection of NH3 into the chamber, there was a slight decrease in NCA level, although the ozone concentration remained the same. The decrease was mainly caused by the decrease in the level of the smallest NCAs (1.2–1.5 nm). However, emissions of larger NCAs (1.5–1.9 nm) increased with the NH3 level, especially for 1.7–1.9 nm NCAs, with the emission rate doubled at 375 ppb NH3 (Figure 3 and Table S1). This indicates that NH3 could contribute to the stabilization and growth of NCAs. NH3 has been found to enhance SOA formation during ozone–terpene reactions. (55,56) In addition, NH3 can react with acidic products from squalene–ozone reaction to form salts. (39,57) When such a reaction happens between gas-phase NH3 and freshly formed particle-phase acidic products, it may lead to a slight decrease in the level of the smallest NCAs but subsequently promote their growth. (58)
+Figure 3
+Figure 3. Influence of NH3 level on NCA emissions from ozone–squalene chemistry. The top plot shows time-series concentrations of NCAs, ozone, and NH3 inside the chamber. The upside-down red triangle represents the moment at which ozone was injected into the chamber (target at 30 ppb), whereas the upside-down green triangle represents the moment at which NH3 was injected (target at 375 ppb). Note that the NH3 concentrations were divided by 10. The bottom charts represent the dependence of steady-state NCA emission rates for each size bin on the NH3 levels. The bar plots are from a single experiment from experiments C, whereas the diamond dots represent the replicate, indicating good reproducibility (also in Table S1).
+Limitations and Future Outlook
+We selected C16:1n6 as the representative unsaturated fatty acid owing to its relatively high abundance in human skin lipids. (23,59) Other fatty acids and other unsaturated skin lipid compounds (such as esters and waxes) may have different NCA generation behaviors when they react with ozone. However, given the complexity and diversity of squalene–ozone reaction processes, we suspect that squalene is still the key contributor to NCA generation via ozone chemistry on human surfaces. Moreover, the ozonolysis of squalene may vary when occurring on real human skin relative to a glass plate. This process could be influenced by the skin temperature, moisture content, surface roughness, and clothing coverage.
+In addition, this study examined the ozonolysis of squalene and fatty acid separately. The reaction of ozone with the mixture of these compounds, as they exist in real human skin lipids, may synergistically enhance NCA generation. This is expected due to the introduction of more low-volatility products and the potential reactions among these products, which merit additional examination.
+It is worth noting that the smallest size bin of the detected NCAs could consist of large organic gaseous clusters formed during the ozonolysis of squalene. After the installation of a zero-check HEPA filter at the inlet of the nCNC during the squalene–ozone reaction, the instrument showed <10 particles/cm3 in the smallest size bin, whereas there were no signals for larger NCAs (Figure S5). Although the HEPA filter may also eliminate low-volatility gases to some extent, the efficiency is considerably lower than the efficiency of filtering aerosol particles. (60) Hence, it indicates that the detected NCAs during the ozonolysis of squalene in this study were predominantly in the aerosol phase. Nevertheless, it should be noted that the activation diameters of the detected NCAs, presumably organic, can differ from those of the calibration compounds (monodisperse NiCr oxide particles), as suggested by Rörup et al. (61) The exact size of NCAs formed by ozonolysis of squalene merits further investigation.
+In addition to the ozone and NH3 levels investigated in this study, another potential influencing factor that merits further study is RH. RH can alter the gaseous products from the ozonolysis of squalene as well as the gas-to-particle conversion process, (24,34,62) as the water molecules may help to stabilize the initial clusters. Our previous studies showed inconsistent results with respect to the influence of RH on NCAs formed by ozone–human/clothing chemistry. In ozone–human experiments, increased RH from 18% to 35% enhanced NCA generation, (17) whereas the level of NCAs decreased when RH increased from 40% to 65% during ozonolysis of skin-oiled clothing. (18) Hence, future studies should examine the effect of RH on gaseous- and particle-phase products derived from ozone–squalene chemistry.
+The NCA emission rates obtained from the squalene–ozone reaction in this study (Table S1) were on the same order of magnitude as those observed for the ozone–human reaction in another chamber study, (17) which were 2–3 orders of magnitude lower than emissions from cooking (11) and the use of three-dimensional (3D) printers. (15) However, sources such as cooking and 3D printing are sporadic, whereas the squalene–ozone reaction takes place continuously whenever humans encounter ozone and thus contributes substantially to daily indoor NCA levels (discussed in Section S3). Moreover, we expect that NCAs generated from ozone–squalene reactions would be more pronouncedly distributed close to the reactive surface relative to the bulk air. (63) This may imply that the NCA level can be higher in the peri-human microenvironment than in room air (the phenomenon termed “personal cloud” (64−66)). Such a spatial variation of NCAs generated from ozone–squalene chemistry merits future examination.
+This study is the first to report NCA formation from the squalene–ozone reaction. This experimentally confirms that NCAs appear to be formed from ozone–squalene reactions in ozone–human chemistry and enhances our understanding of the role of ozone and NH3 in the process. The interpretation can be further enhanced by analyzing gas-phase product measurements in parallel, which should be performed in future studies. In addition, analysis of the chemical composition of the formed particles has the potential to reveal the oxidation products or water-bound molecules that contribute to NCA generation. Finally, the health effect of the generated NCAs remains to be further explored.
+Supporting Information
+The Supporting Information is available free of charge at https://pubs.acs.org/doi/10.1021/acs.estlett.4c00289.
+Climate chamber (Section S1), principle of NCA measurements (Section S2), contribution to daily indoor NCA levels (Section S3), schematic of the climate chamber setup (Figure S1) RH levels in experiments (Figure S2), visualization of the experimental procedures (Figure S3), NCA levels in experiments (Figure S4), example of a zero check of the instrument (Figure S5), and summary of the experimental conditions and associated NCA emission rates (Table S1) (PDF)
+Nanocluster Aerosols from Ozone–Human Chemistry Are Dominated by Squalene–Ozone Reactions
+5
+views
+0
+shares
+0
+downloads
+Share
+Download
+figshare
+Terms & Conditions
+Most electronic Supporting Information files are available without a subscription to ACS Web Editions. Such files may be downloaded by article for research use (if there is a public use license linked to the relevant article, that license may permit other uses). Permission may be obtained from ACS for other uses through requests via the RightsLink permission system: http://pubs.acs.org/page/copyright/permissions.html.
+Author Information
+Corresponding Author
+Shen Yang - Human-Oriented Built Environment Lab, School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), 1015 Lausanne, Switzerland;  https://orcid.org/0000-0001-6964-4814;  Email: shen.yang@epfl.ch
+Author
+Dusan Licina - Human-Oriented Built Environment Lab, School of Architecture, Civil and Environmental Engineering, École Polytechnique Fédérale de Lausanne (EPFL), 1015 Lausanne, Switzerland;  https://orcid.org/0000-0001-5945-0872
+Notes
+The authors declare no competing financial interest.
+Acknowledgments
+The study was funded by the Swiss National Science Foundation (SNSF, Grant 205321_192086). The authors thank Claude-Alain Jacot for his technical help with the climate chamber and Dr. Tianren Wu for building the core sampling probe.
+References
+This article references 66 other publications.
+1Rönkkö, T.; Kuuluvainen, H.; Karjalainen, P.; Keskinen, J.; Hillamo, R.; Niemi, J. V.; Pirjola, L.; Timonen, H. J.; Saarikoski, S.; Saukko, E.; Järvinen, A.; Silvennoinen, H.; Rostedt, A.; Olin, M.; Yli-Ojanperä, J.; Nousiainen, P.; Kousa, A.; Dal Maso, M. Traffic is a major source of atmospheric nanocluster aerosol. Proc. Natl. Acad. Sci. U. S. A. 2017, 114 (29), 7549– 7554,  DOI: 10.1073/pnas.1700830114
+Google Scholar
+2Kirkby, J.; Duplissy, J.; Sengupta, K.; Frege, C.; Gordon, H.; Williamson, C.; Heinritzi, M.; Simon, M.; Yan, C.; Almeida, J.; Tröstl, J.; Nieminen, T.; Ortega, I. K.; Wagner, R.; Adamov, A.; Amorim, A.; Bernhammer, A.-K.; Bianchi, F.; Breitenlechner, M.; Brilke, S. Ion-induced nucleation of pure biogenic particles. Nature 2016, 533 (7604), 521– 526,  DOI: 10.1038/nature17953
+Google Scholar
+3Jokinen, T.; Sipilä, M.; Kontkanen, J.; Vakkari, V.; Tisler, P.; Duplissy, E.-M.; Junninen, H.; Kangasluoma, J.; Manninen, H. E.; Petäjä, T.; Kulmala, M.; Worsnop, D. R.; Kirkby, J.; Virkkula, A.; Kerminen, V.-M. Ion-induced sulfuric acid–ammonia nucleation drives particle formation in coastal antarctica. Sci. Adv. 2018, 4 (11), eaat9744  DOI: 10.1126/sciadv.aat9744
+Google Scholar
+4Kulmala, M.; Riipinen, I.; Sipila, M.; Manninen, H. E.; Petaja, T.; Junninen, H.; Maso, M. D.; Mordas, G.; Mirme, A.; Vana, M.; Hirsikko, A.; Laakso, L.; Harrison, R. M.; Hanson, I.; Leung, C.; Lehtinen, K. E. J.; Kerminen, V.-M. Toward direct measurement of atmospheric nucleation. Science 2007, 318 (5847), 89– 92,  DOI: 10.1126/science.1144124
+Google Scholar
+5Lee, S.-H. H.; Gordon, H.; Yu, H.; Lehtipalo, K.; Haley, R.; Li, Y.; Zhang, R. New particle formation in the atmosphere: from molecular clusters to global climate. Journal of Geophysical Research: Atmospheres 2019, 124 (13), 7098– 7146,  DOI: 10.1029/2018JD029356
+Google Scholar
+6Kontkanen, J.; Lehtipalo, K.; Ahonen, L.; Kangasluoma, J.; Manninen, H. E.; Hakala, J.; Rose, C.; Sellegri, K.; Xiao, S.; Wang, L.; Qi, X.; Nie, W.; Ding, A.; Yu, H.; Lee, S.; Kerminen, V.-M.; Petäjä, T.; Kulmala, M. Measurements of sub-3 nm particles using a particle size magnifier in different environments: from clean mountain top to polluted megacities. Atmos Chem. Phys. 2017, 17 (3), 2163– 2187,  DOI: 10.5194/acp-17-2163-2017
+Google Scholar
+7Wu, T.; Boor, B. E. Urban aerosol size distributions: a global perspective. Atmos Chem. Phys. 2021, 21 (11), 8883– 8914,  DOI: 10.5194/acp-21-8883-2021
+Google Scholar
+8Marval, J.; Tronville, P. Ultrafine particles: a review about their health effects, presence, generation, and measurement in indoor environments. Build Environ 2022, 216, 108992  DOI: 10.1016/j.buildenv.2022.108992
+Google Scholar
+9Schraufnagel, D. E. The health effects of ultrafine particles. Exp Mol. Med. 2020, 52 (3), 311– 317,  DOI: 10.1038/s12276-020-0403-3
+Google Scholar
+10Klepeis, N. E.; Nelson, W. C.; Ott, W. R.; Robinson, J. P.; Tsang, A. M.; Switzer, P.; Behar, J. V.; Hern, S. C.; Engelmann, W. H. The National Human Activity Pattern Survey (NHAPS): a resource for assessing exposure to environmental pollutants. J. Expo Anal Environ. Epidemiol 2001, 11 (3), 231– 252,  DOI: 10.1038/sj.jea.7500165
+Google Scholar
+11Patel, S.; Sankhyan, S.; Boedicker, E. K.; DeCarlo, P. F.; Farmer, D. K.; Goldstein, A. H.; Katz, E. F.; Nazaroff, W. W.; Tian, Y.; Vanhanen, J.; Vance, M. E. Indoor particulate matter during HOMEChem: concentrations, size distributions, and exposures. Environ. Sci. Technol. 2020, 54 (12), 7107– 7116,  DOI: 10.1021/acs.est.0c00740
+Google Scholar
+12Wallace, L.; Jeong, S.; Rim, D. Dynamic behavior of indoor ultrafine particles (2.3–64 nm) due to burning candles in a residence. Indoor Air 2019, 29 (6), 1018– 1027,  DOI: 10.1111/ina.12592
+Google Scholar
+13Wallace, L.; Wang, F.; Howard-Reed, C.; Persily, A. Contribution of gas and electric stoves to residential ultrafine particle concentrations between 2 and 64 nm: size distributions and emission and coagulation rates. Environ. Sci. Technol. 2008, 42 (23), 8641– 8647,  DOI: 10.1021/es801402v
+Google Scholar
+14Wallace, L. A.; Ott, W. R.; Weschler, C. J.; Lai, A. C. K. K. Desorption of SVOCs from heated surfaces in the form of ultrafine particles. Environ. Sci. Technol. 2017, 51 (3), 1140– 1146,  DOI: 10.1021/acs.est.6b03248
+Google Scholar
+15Poikkimäki, M.; Koljonen, V.; Leskinen, N.; Närhi, M.; Kangasniemi, O.; Kausiala, O.; Dal Maso, M. Nanocluster aerosol emissions of a 3D printer. Environ. Sci. Technol. 2019, 53 (23), 13618– 13628,  DOI: 10.1021/acs.est.9b05317
+Google Scholar
+16Rosales, C. M. F.; Jiang, J.; Lahib, A.; Bottorff, B. P.; Reidy, E. K.; Kumar, V.; Tasoglou, A.; Huber, H.; Dusanter, S.; Tomas, A.; Boor, B. E.; Stevens, P. S. Chemistry and human exposure implications of secondary organic aerosol production from indoor terpene ozonolysis. Sci. Adv. 2022, 8 (8), abj9156,  DOI: 10.1126/sciadv.abj9156
+Google Scholar
+17Yang, S.; Licina, D.; Weschler, C. J.; Wang, N.; Zannoni, N.; Li, M.; Vanhanen, J.; Langer, S.; Wargocki, P.; Williams, J.; Bekö, G. Ozone initiates human-derived emission of nanocluster aerosols. Environ. Sci. Technol. 2021, 55 (21), 14536– 14545,  DOI: 10.1021/acs.est.1c03379
+Google Scholar
+18Yang, S.; Licina, D. Nanocluster aerosol formation via ozone chemistry on worn clothing: influence of environmental parameters. Build Environ 2024, 256, 111474  DOI: 10.1016/j.buildenv.2024.111474
+Google Scholar
+19Yang, S.; Müller, T.; Wang, N.; Bekö, G.; Zhang, M.; Merizak, M.; Wargocki, P.; Williams, J.; Licina, D. Influence of ventilation on formation and growth of 1–20 nm particles via ozone–human chemistry. Environ. Sci. Technol. 2024, 58 (10), 4704– 4715,  DOI: 10.1021/acs.est.3c08466
+Google Scholar
+20Nicolaides, N. Skin lipids: their biochemical uniqueness. Science 1974, 186 (4158), 19– 26,  DOI: 10.1126/science.186.4158.19
+Google Scholar
+21Downing, D. T.; Strauss, J. S.; Pochi, P. E. Variability in the chemical composition of human skin surface lipids. J. Invest Dermatol 1969, 53 (5), 322– 327,  DOI: 10.1038/jid.1969.157
+Google Scholar
+22Wisthaler, A.; Weschler, C. J. Reactions of ozone with human skin lipids: sources of carbonyls, dicarbonyls, and hydroxycarbonyls in indoor air. Proc. Natl. Acad. Sci. U. S. A. 2010, 107 (15), 6568– 6575,  DOI: 10.1073/pnas.0904498106
+Google Scholar
+23Yang, S.; Gao, K.; Yang, X. Volatile organic compounds (VOCs) formation due to interactions between ozone and skin-oiled clothing: measurements by extraction-analysis-reaction method. Build Environ 2016, 103, 146– 154,  DOI: 10.1016/j.buildenv.2016.04.012
+Google Scholar
+24Coffaro, B.; Weisel, C. P. Reactions and products of squalene and ozone: a review. Environ. Sci. Technol. 2022, 56 (12), 7396– 7411,  DOI: 10.1021/acs.est.1c07611
+Google Scholar
+25Zhou, S.; Forbes, M. W.; Abbatt, J. P. D. Kinetics and products from heterogeneous oxidation of squalene with ozone. Environ. Sci. Technol. 2016, 50 (21), 11688– 11697,  DOI: 10.1021/acs.est.6b03270
+Google Scholar
+26Lakey, P. S. J.; Morrison, G. C.; Won, Y.; Parry, K. M.; von Domaros, M.; Tobias, D. J.; Rim, D.; Shiraiwa, M. The impact of clothing on ozone and squalene ozonolysis products in indoor environments. Commun. Chem. 2019, 2 (1), 1– 8,  DOI: 10.1038/s42004-019-0159-7
+Google Scholar
+27Fu, D.; Leng, C.; Kelley, J.; Zeng, G.; Zhang, Y.; Liu, Y. ATR-IR study of ozone initiated heterogeneous oxidation of squalene in an indoor environment. Environ. Sci. Technol. 2013, 47 (18), 10611– 10618,  DOI: 10.1021/es4019018
+Google Scholar
+28Salvador, C. M.; Bekö, G.; Weschler, C. J.; Morrison, G.; Le Breton, M.; Hallquist, M.; Ekberg, L.; Langer, S. Indoor ozone/human chemistry and ventilation strategies. Indoor Air 2019, 29 (6), 913– 925,  DOI: 10.1111/ina.12594
+Google Scholar
+29Zeng, J.; Mekic, M.; Xu, X.; Loisel, G.; Zhou, Z.; Gligorovski, S.; Li, X. A novel insight into the ozone-skin lipid oxidation products observed by secondary electrospray ionization high-resolution mass spectrometry. Environ. Sci. Technol. 2020, 54 (21), 13478– 13487,  DOI: 10.1021/acs.est.0c05100
+Google Scholar
+30Weschler, C. J.; Wisthaler, A.; Cowlin, S.; Tamás, G.; Strøm-Tejsen, P.; Hodgson, A. T.; Destaillats, H.; Herrington, J.; Zhang, J.; Nazaroff, W. W. Ozone-initiated chemistry in an occupied simulated aircraft cabin. Environ. Sci. Technol. 2007, 41 (17), 6177– 6184,  DOI: 10.1021/es0708520
+Google Scholar
+31Pandrangi, L. S.; Morrison, G. C. Ozone interactions with human hair: ozone uptake rates and product formation. Atmos. Environ. 2008, 42 (20), 5079– 5089,  DOI: 10.1016/j.atmosenv.2008.02.009
+Google Scholar
+32Hureki, L.; Croué, J. P.; Legube, B.; Doré, M. Ozonation of amino acids: ozone demand and aldehyde formation. Ozone: Sci. Eng. 1998, 20 (5), 381– 402,  DOI: 10.1080/01919519809480349
+Google Scholar
+33Fischer, A.; Ljungström, E.; Langer, S. Ozone removal by occupants in a classroom. Atmos. Environ. 2013, 81, 11– 17,  DOI: 10.1016/j.atmosenv.2013.08.054
+Google Scholar
+34Coffaro, B.; Weisel, C. P. The effect of environmental parameters on squalene-ozone particle formation. Atmos. Environ. 2022, 289, 119295  DOI: 10.1016/j.atmosenv.2022.119295
+Google Scholar
+35Wang, C.; Waring, M. S. Secondary organic aerosol formation initiated from reactions between ozone and surface-sorbed squalene. Atmos. Environ. 2014, 84, 222– 229,  DOI: 10.1016/j.atmosenv.2013.11.009
+Google Scholar
+36Li, M.; Weschler, C. J.; Beko, G.; Wargocki, P.; Lucic, G.; Williams, J. Human ammonia emission rates under various indoor environmental conditions. Environ. Sci. Technol. 2020, 54 (9), 5419– 5428,  DOI: 10.1021/acs.est.0c00094
+Google Scholar
+37Hao, L.; Kari, E.; Leskinen, A.; Worsnop, D. R.; Virtanen, A. Direct contribution of ammonia to α-pinene secondary organic aerosol formation. Atmos Chem. Phys. 2020, 20 (22), 14393– 14405,  DOI: 10.5194/acp-20-14393-2020
+Google Scholar
+38Wang, M.; Kong, W.; Marten, R.; He, X. C.; Chen, D.; Pfeifer, J.; Heitto, A.; Kontkanen, J.; Dada, L.; Kürten, A.; Yli-Juuti, T.; Manninen, H. E.; Amanatidis, S.; Amorim, A.; Baalbaki, R.; Baccarini, A.; Bell, D. M.; Bertozzi, B.; Bräkling, S. Rapid growth of new atmospheric particles by nitric acid and ammonia condensation. Nature 2020, 581 (7807), 184– 189,  DOI: 10.1038/s41586-020-2270-4
+Google Scholar
+39Liu, Y.; Liggio, J.; Staebler, R.; Li, S.-M. reactive uptake of ammonia to secondary organic aerosols: kinetics of organonitrogen formation. Atmos Chem. Phys. 2015, 15 (23), 13569– 13584,  DOI: 10.5194/acp-15-13569-2015
+Google Scholar
+40Manuja, A.; Ritchie, J.; Buch, K.; Wu, Y.; Eichler, C. M. A.; Little, J. C.; Marr, L. C. Total surface area in indoor environments. Environ. Sci. Process Impacts 2019, 21 (8), 1384– 1392,  DOI: 10.1039/C9EM00157C
+Google Scholar
+41Vanhanen, J.; Mikkilä, J.; Lehtipalo, K.; Sipilä, M.; Manninen, H. E.; Siivola, E.; Petäjä, T.; Kulmala, M. Particle size magnifier for Nano-CN detection. Aerosol Sci. Technol. 2011, 45 (4), 533– 542,  DOI: 10.1080/02786826.2010.547889
+Google Scholar
+42McMurry, P. H. The history of condensation nucleus counters. Aerosol Sci. Technol. 2000, 33 (4), 297– 322,  DOI: 10.1080/02786820050121512
+Google Scholar
+43Kangasluoma, J.; Franchin, A.; Duplissy, J.; Ahonen, L.; Korhonen, F.; Attoui, M.; Mikkilä, J.; Lehtipalo, K.; Vanhanen, J.; Kulmala, M.; Petäjä, T. Operation of the Airmodus A11 Nano Condensation Nucleus Counter at various inlet pressures and various operation temperatures, and design of a new inlet system. Atmos Meas Tech 2016, 9 (7), 2977– 2988,  DOI: 10.5194/amt-9-2977-2016
+Google Scholar
+44Lehtipalo, K.; Leppä, J.; Kontkanen, J.; Kangasluoma, J.; Franchin, A.; Wimnner, D.; Schobesberger, S.; Junninen, H.; Petäjä, T.; Sipilä, M. Methods for determining particle size distribution and growth rates between 1 and 3 nm using the particle size magnifier. Boreal Environ. Res. 2014, 19 (Suppl. B), 215– 236
+Google Scholar
+45Heine, N.; Arata, C.; Goldstein, A. H.; Houle, F. A.; Wilson, K. R. multiphase mechanism for the production of sulfuric acid from SO2 by Criegee intermediates formed during the heterogeneous reaction of ozone with squalene. J. Phys. Chem. Lett. 2018, 9 (12), 3504– 3510,  DOI: 10.1021/acs.jpclett.8b01171
+Google Scholar
+46Heine, N.; Houle, F. A.; Wilson, K. R. Connecting the elementary reaction pathways of Criegee intermediates to the chemical erosion of squalene interfaces during ozonolysis. Environ. Sci. Technol. 2017, 51 (23), 13740– 13748,  DOI: 10.1021/acs.est.7b04197
+Google Scholar
+47Zhou, S.; Forbes, M. W.; Katrib, Y.; Abbatt, J. P. D. Rapid oxidation of skin oil by ozone. Environ. Sci. Technol. Lett. 2016, 3 (4), 170– 174,  DOI: 10.1021/acs.estlett.6b00086
+Google Scholar
+48Petrick, L.; Dubowski, Y. Heterogeneous oxidation of squalene film by ozone under various indoor conditions. Indoor Air 2009, 19 (5), 381– 391,  DOI: 10.1111/j.1600-0668.2009.00599.x
+Google Scholar
+49Wells, J. R.; Morrison, G. C.; Coleman, B. K.; Spicer, C.; Dean, S. W. kinetics and reaction products of ozone and surface-bound squalene. J. ASTM Int. 2008, 5 (7), 101629  DOI: 10.1520/JAI101629
+Google Scholar
+50Zeng, M.; Heine, N.; Wilson, K. R. Evidence that Criegee intermediates drive autoxidation in unsaturated lipids. Proc. Natl. Acad. Sci. U. S. A. 2020, 117 (9), 4486– 4490,  DOI: 10.1073/pnas.1920765117
+Google Scholar
+51Elm, J. Toward a holistic understanding of the formation and growth of atmospheric molecular clusters: a quantum machine learning perspective. J. Phys. Chem. A 2021, 125 (4), 895– 902,  DOI: 10.1021/acs.jpca.0c09762
+Google Scholar
+52Rai, A. C.; Guo, B.; Lin, C.-H.; Zhang, J.; Pei, J.; Chen, Q. Ozone reaction with clothing and its initiated particle generation in an environmental chamber. Atmos. Environ. 2013, 77, 885– 892,  DOI: 10.1016/j.atmosenv.2013.05.062
+Google Scholar
+53Xiang, J.; Weschler, C. J.; Mo, J.; Day, D.; Zhang, J.; Zhang, Y. Ozone, electrostatic precipitators, and particle number concentrations: correlations observed in a real office during working hours. Environ. Sci. Technol. 2016, 50 (18), 10236– 10244,  DOI: 10.1021/acs.est.6b03069
+Google Scholar
+54Langer, S.; Weschler, C. J.; Bekö, G.; Morrison, G.; Sjöblom, A.; Giovanoulis, G.; Wargocki, P.; Wang, N.; Zannoni, N.; Yang, S.; Williams, J. Squalene depletion in skin following human exposure to ozone under controlled chamber conditions. Environ. Sci. Technol. 2024, 58, 6693,  DOI: 10.1021/acs.est.3c09394
+Google Scholar
+55Huang, Y.; Lee, S. C.; Ho, K. F.; Ho, S. S. H.; Cao, N.; Cheng, Y.; Gao, Y. Effect of ammonia on ozone-initiated formation of indoor secondary products with emissions from cleaning products. Atmos. Environ. 2012, 59, 224– 231,  DOI: 10.1016/j.atmosenv.2012.04.059
+Google Scholar
+56Na, K.; Song, C.; Switzer, C.; Cocker, D. R. Effect of ammonia on secondary organic aerosol formation from α-pinene ozonolysis in dry and humid conditions. Environ. Sci. Technol. 2007, 41 (17), 6096– 6102,  DOI: 10.1021/es061956y
+Google Scholar
+57Lehtipalo, K.; Yan, C.; Dada, L.; Bianchi, F.; Xiao, M.; Wagner, R.; Stolzenburg, D.; Ahonen, L. R.; Amorim, A.; Baccarini, A.; Bauer, P. S.; Baumgartner, B.; Bergen, A.; Bernhammer, A.-K.; Breitenlechner, M.; Brilke, S.; Buchholz, A.; Mazon, S. B.; Chen, D.; Chen, X. multicomponent new particle formation from sulfuric acid, ammonia, and biogenic vapors. Sci. Adv. 2018, 4 (12), eaau5363  DOI: 10.1126/sciadv.aau5363
+Google Scholar
+58Nazaroff, W. W.; Weschler, C. J. Indoor acids and bases. Indoor Air 2020, 30 (4), 559– 644,  DOI: 10.1111/ina.12670
+Google Scholar
+59Yao, M.; Zhao, B. Ozone reactive compounds measured in skin wipes from chinese volunteers. Build Environ 2021, 188, 107515  DOI: 10.1016/j.buildenv.2020.107515
+Google Scholar
+60Uhde, E.; Varol, D.; Mull, B.; Salthammer, T. Distribution of five SVOCs in a model room: effect of vacuuming and air cleaning measures. Environ. Sci. Process Impacts 2019, 21 (8), 1353– 1363,  DOI: 10.1039/C9EM00121B
+Google Scholar
+61Rörup, B.; Scholz, W.; Dada, L.; Leiminger, M.; Baalbaki, R.; Hansel, A.; Kangasluoma, J.; Manninen, H. E.; Steiner, G.; Vanhanen, J.; Kulmala, M.; Lehtipalo, K. Activation of sub-3 nm organic particles in the particle size magnifier using humid and dry conditions. J. Aerosol Sci. 2022, 161, 105945  DOI: 10.1016/j.jaerosci.2021.105945
+Google Scholar
+62Arata, C.; Heine, N.; Wang, N.; Misztal, P. K.; Wargocki, P.; Bekö, G.; Williams, J.; Nazaroff, W. W.; Wilson, K. R.; Goldstein, A. H. Heterogeneous ozonolysis of squalene: gas-phase products depend on water vapor concentration. Environ. Sci. Technol. 2019, 53 (24), 14441– 14448,  DOI: 10.1021/acs.est.9b05957
+Google Scholar
+63Won, Y.; Lakey, P. S. J.; Morrison, G.; Shiraiwa, M.; Rim, D. Spatial distributions of ozonolysis products from human surfaces in ventilated rooms. Indoor Air 2020, 30 (6), 1229– 1240,  DOI: 10.1111/ina.12700
+Google Scholar
+64Yang, S.; Muthalagu, A.; Serrano, V. G.; Licina, D. human personal air pollution clouds in a naturally ventilated office during the COVID-19 pandemic. Build Environ 2023, 236, 110280  DOI: 10.1016/j.buildenv.2023.110280
+Google Scholar
+65Corsi, R. L.; Siegel, J.; Karamalegos, A.; Simon, H.; Morrison, G. C. Personal reactive clouds: introducing the concept of near-head chemistry. Atmos. Environ. 2007, 41 (15), 3161– 3165,  DOI: 10.1016/j.atmosenv.2006.07.054
+Google Scholar
+66Licina, D.; Tian, Y.; Nazaroff, W. W. Emission rates and the personal cloud effect associated with particle release from the perihuman environment. Indoor Air 2017, 27 (4), 791– 802,  DOI: 10.1111/ina.12365
+Google Scholar
+Cited By
+This article has not yet been cited by other publications.
+Download PDF
+Get e-Alerts
+Environmental Science & Technology Letters
+Cite this: Environ. Sci. Technol. Lett. 2024, 11, 7, 716–722
+https://doi.org/10.1021/acs.estlett.4c00289
+Published June 21, 2024
+Copyright © 2024 The Authors. Published by American Chemical Society. This publication is licensed under
+CC-BY 4.0.
+Article Views
+558
+Altmetric
+1
+Citations
+-
+Learn about these metrics
+Recommended Articles
+Figures
+References
+Supporting Info
+Abstract
+Figure 1
+Figure 1. Time series of total NCA number concentration (1.2–2.8 nm) and ozone (top) and size-resolved NCA concentration (bottom) in experiments comparing the reactions of ozone with (A) squalene and (B) fatty acid C16:1n6. The upside-down triangle represents the moment at which ozone was injected into the chamber. Dp is the activation diameter determined by the nCNC instrument (detailed in Section S2). The data are from a single experiment from experiments A, whereas the replicate showed good reproducibility (Table S1 and Figure S4).
+Figure 2
+Figure 2. Influence of the ozone level on NCA emissions from ozone–squalene chemistry. (A) Time-series plot of the NCA concentration and size distribution following a decrease in the level of ozone. The upside-down filled triangle represents the moment at which ozone was injected into the chamber at a high flow rate (target at 90 ppb), whereas the upside-down hollow triangle represents the moment at which less ozone was injected (target at 15 ppb). The data are from a single experiment from experiments B, whereas the replicate showed good reproducibility (Table S1 and Figure S4). (B) Correlation between the steady-state ozone level and NCA emission rates across all experimental runs for the reaction of ozone with squalene. The two square dots represent experiments using 20 mg of squalene, whereas the round dots represent experiments using 750 mg of squalene.
+Figure 3
+Figure 3. Influence of NH3 level on NCA emissions from ozone–squalene chemistry. The top plot shows time-series concentrations of NCAs, ozone, and NH3 inside the chamber. The upside-down red triangle represents the moment at which ozone was injected into the chamber (target at 30 ppb), whereas the upside-down green triangle represents the moment at which NH3 was injected (target at 375 ppb). Note that the NH3 concentrations were divided by 10. The bottom charts represent the dependence of steady-state NCA emission rates for each size bin on the NH3 levels. The bar plots are from a single experiment from experiments C, whereas the diamond dots represent the replicate, indicating good reproducibility (also in Table S1).
+
+Partners
+1155 Sixteenth Street N.W.
+Washington, DC 20036
+Copyright © 2024
+American Chemical Society
+About
+About ACS Publications
+ACS & Open Access
+ACS Membership
+ACS Publications Blog
+Resources and Information
+Journals A-Z
+Books and Reference
+Advertising Media Kit
+Institutional Sales
+ACS Researcher Resources
+Privacy Policy
+Terms of Use
+Support & Contact
+Help
+Live Chat
+FAQ
+Connect with ACS Publications
+Tuesday, July 23, 2024
+On Tuesday, July 23, we will complete an update to our article pages. You may find that some elements are not aligned on these pages while the final work is completed.
+Thank you for your patience.
+Would you be interested in updating or creating a user profile to receive personalized content and recommendations from ACS Publications?
+Yes
+No
+Next

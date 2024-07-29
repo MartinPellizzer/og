@@ -1,0 +1,286 @@
+This website uses cookies
+We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+Consent Selection
+Necessary
+Preferences
+Statistics
+Marketing
+Show details
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Deny
+Allow selection
+Allow all
+
+
+Journals
+Topics Information
+Author Services Initiatives
+About
+Sign In / Sign Up Submit
+  Search for Articles:
+International Journal of Molecular Sciences (IJMS)
+All Article Types
+Advanced
+  Journals IJMS Volume 25 Issue 11 10.3390/ijms25116161
+Submit to this Journal Review for this Journal Propose a Special Issue
+Article Menu
+Academic Editor
+Evangelos Papathanasiou
+Subscribe SciFeed
+Recommended Articles
+Author Biographies
+Related Info Links
+More by Authors Links
+Article Views
+340
+Table of Contents
+Abstract
+Introduction
+Results
+Discussion
+Methods and Materials
+Supplementary Materials
+Author Contributions
+Funding
+Institutional Review Board Statement
+Informed Consent Statement
+Data Availability Statement
+Acknowledgments
+Conflicts of Interest
+References
+share
+Share
+announcement
+Help
+format_quote
+Cite
+question_answer
+Discuss in SciProfiles
+thumb_up
+Endorse
+textsms
+Comment
+first_page
+settings
+Order Article Reprints
+Open AccessArticle
+Anti-Inflammatory Activity of No-Ozone Cold Plasma in Porphyromonas gingivalis Lipopolysaccharide-Induced Periodontitis Rats
+by Kwang-Ha Park
+1,2, Yoon-Seo Jang
+3, Ji-Young Joo
+4, Gyoo-Cheon Kim
+1,2,* and Jeong-Hae Choi
+1,*
+1
+Corporate Affiliated Research Institute, Feagle Co., Ltd., 47, Soekgyesandan 2-gil, Sangbuk-myeon, Yangsan 50561, Republic of Korea
+2
+Department of Anatomy and Cell Biology, School of Dentistry, Pusan National University, Yangsan 50612, Republic of Korea
+3
+Department of Oral and Maxillofacial Surgery, School of Dentistry, Pusan National University, Yangsan 50612, Republic of Korea
+4
+Department of Periodontology of Dental Research Institute, Pusan National University Dental Hospital, Yangsan 50612, Republic of Korea
+*
+Authors to whom correspondence should be addressed.
+Int. J. Mol. Sci. 2024, 25(11), 6161; https://doi.org/10.3390/ijms25116161
+Submission received: 10 May 2024 / Revised: 29 May 2024 / Accepted: 1 June 2024 / Published: 3 June 2024
+(This article belongs to the Special Issue Periodontal Disease, Association with Systemic Conditions and Periodontal Pathogens: 2nd Edition)
+Download
+keyboard_arrow_down
+
+
+
+
+
+Browse Figures Review Reports Versions Notes
+Abstract
+Periodontitis is an inflammatory disease caused by Porphyromonas gingivalis (P. gingivalis) in the oral cavity. This periodontal disease causes damage to the periodontal ligament and alveolar bone and can cause tooth loss, but there is no definite treatment yet. In this study, we investigated the possibility of using no-ozone cold plasma to safely treat periodontitis in the oral cavity. First, human gingival fibroblasts (HGFs) were treated with P. gingivalis-derived lipopolysaccharide (PG-LPS) to induce an inflammatory response, and then the anti-inflammatory effect of NCP was examined, and a study was conducted to identify the mechanism of action. Additionally, the anti-inflammatory effect of NCP was verified in rats that developed an inflammatory response similar to periodontitis. When NCP was applied to PG-LPS-treated HGFs, the activities of inflammatory proteins and cytokines were effectively inhibited. It was confirmed that the process of denaturing the medium by charged particles of NCP is essential for the anti-inflammatory effect of NCP. Also, it was confirmed that repeated treatment of periodontitis rats with NCP effectively reduced the inflammatory cells and osteoclast activity. As a result, this study suggests that NCP can be directly helpful in the treatment of periodontitis in the future.
+Keywords: no-ozone cold plasma; periodontitis; anti-inflammatory; electron
+1. Introduction
+Periodontitis is a common dental and chronic inflammatory disease caused by periodontal tissue infection [1]. Periodontitis causes inflammatory reactions in the periodontal tissue and tooth root, characterized by periodontal ligament damage and alveolar bone loss. If left untreated, a periodontal pocket forms between the gum and the base of the root, causing the tooth to shake and lose shape. Periodontitis is caused by long-term exposure of the periodontal tissue to lipopolysaccharides (LPSs) present in the cell membrane of oral microorganisms, which attach to the tooth surface and form calculi. Porphyromonas gingivalis (P. gingivalis), Tannerella forsythia (T. forsythia), and Treponema denticola (T. denticola) are oral microorganisms that play major roles in inducing periodontitis [2]. These three microorganisms are oral bacteria mainly found in periodontitis patients and are collectively referred to as the “red complex” [3]. T. forsythia is an important mediator of biofilm formation, and T. denticola is known to affect bone resorption. Along with these oral bacteria, P. gingivalis is considered the main cause of chronic periodontitis. In clinical practice, many methods of treating periodontitis include scaling and administering antibiotics. They significantly affect the recovery of damaged periodontal tissue and alveolar bone, although they reduce pathogens that cause inflammation. Also, various devices are being developed for more effective removal of residual microorganisms after calculus and physical removal procedures that cause periodontitis. These mainly minimize the number of residual microorganisms by using high-temperature light sources (lasers and LED) in combination with physical removal and low-concentration hydrogen peroxide [4]. However, these technologies have a disadvantage in that oral tissues may suffer thermal damage because of high thermal energy [5,6]. Furthermore, even if oral microorganisms are sterilized, LPSs in the residue can cause inflammation, and light-source devices that use them have no impact on the pre-existing inflammatory response. Therefore, developing a new technology capable of effectively removing the causative bacteria of periodontitis and suppressing inflammatory reactions is necessary.
+Plasma is an ionized active gas generated when high energy is applied to the gas, and it represents the fourth state of matter. In generating plasma, electrons; ions; physical elements, such as thermal energy, UV, and electric fields; and various chemical factors, such as reactive nitrogen and oxygen species, are generated. Recently, low-temperature plasma at temperatures similar to body temperatures has been shown to sterilize microorganisms [7,8,9], have anti-inflammatory reactions [10], have anticancer effects [11,12], promote skin regeneration (e.g., wound healing) [13], and cure skin diseases such as atopic dermatitis [14]. Research is being conducted to introduce various medical effects, such as therapeutic effects and the promotion of the transdermal absorption of drugs [15,16,17]. The most common medical effect of plasma is a sterilizing effect, and research on the sterilizing effect on numerous bacteria existing in the oral cavity, including P. gingivalis, has been introduced and actively conducted as a new method for killing pathogens in the oral cavity [18]. However, in order to apply the oral microbial killing effects of low-temperature plasma for treatment, the problem of ozone generated by the plasma must be solved. Ozone contributes to the sterilization effect of plasma; however, continuous exposure to ozone can cause respiratory problems, such as asthma, dyspnea, and airway inflammation. Therefore, the World Health Organization (WHO) has limited the acceptable standard of ozone in the air to 0.05 ppm [19,20].
+A previous study reported that ozone at a level below the WHO standard and temperature of <30 °C (no-ozone cold plasma, NCP) effectively killed various oral microorganisms, including P. gingivalis [21]. However, the effects of NCP on various inflammatory reactions in periodontitis have not been investigated. Herein, we investigated the effects of NCP on the inflammatory response in periodontitis. PG-LPS, an LPS derived from the wall of P. gingivalis, was used to induce the same inflammatory response as periodontitis in HGFs and an animal model. Furthermore, another study was conducted to identify the mechanism of action of NCP in regulating the inflammatory response of periodontitis.
+2. Results
+2.1. NCP Treatment for Up to 5 Min Has No Effects on Cell Viability
+To confirm the effect of NCP on the growth of periodontal cells, HGFs were treated with NCP, and cell viability was confirmed by an SRB assay. After 24 h of treating HGFs with NCP, no round-up or dead cells were observed. Upon analyzing the change in cell viability by measuring the absorbance, it was confirmed that there was no significant difference in either of the experimental groups compared with the control group (Figure 1B).
+Figure 1. Anti-inflammatory effect according to cell viability and treatment time for the NCP device. (A) NCP device used in this study. When NCP is generated, purple light can be observed, as shown in the picture. (B) Cell morphology and viability when HGFs are treated with NCP over time. The cells were treated for 1, 3, and 5 min. (100X) Scale bar size is 20 μm. (C) Changes in pro-inflammatory cytokines in HGFs treated with PG-LPS and then with NCP. In the group treated only with PG-LPS, IL-1β and IL-6 increased 3.1-fold and 4-fold compared with the control group. (D) Changes in proteins involved in the inflammatory response when inducing inflammation in HGFs with PG-LPS and then treating them with NCP. (* p < 0.05).
+2.2. NCP Inhibited PG-LPS-Mediated Inflammatory Reactions of HGFs
+To examine the effect of NCP on the inflammatory response, an experiment was performed to establish the condition for inducing an immune response in periodontitis when HGFs were treated with PG-LPS. Supplementary Figure S1 shows that the level of NF-kB, a protein that regulates inflammation, increased immediately after PG-LPS treatment for up to 1 h and gradually decreased after 3 h. It was confirmed that the expression of IL-1β and IL-6 changed with the change in the activity of NF-kB.
+Using the conditions described above, a study was conducted to determine how NCP affects the inflammatory response induced by PG-LPS. As shown in Figure 1C, IL-1β in cells treated with NCP was reduced by 25% for 1 min and 60% for 3 min and decreased similarly to the control group for 5 min. IL-6 was equally reduced by 13% for 1 min and 32% for 3 min and no longer increased for 5 min. Since IL-1β and IL-6 significantly decreased when treated with NCP for >3 min, it was confirmed that the anti-inflammatory effect of NCP on the inflammatory response caused by PG-LPS appeared when treated for >3 min.
+Western blotting was performed to examine whether the changing activities of NF-kB and STAT3, which are inflammation-regulating proteins, were induced by PG-LPS. As shown in Figure 1D, it was confirmed that treatment with NCP effectively inhibited p-NF-kB and p-STAT3 induced by PG-LPS.
+2.3. NCP-Mediated Changes in PG-LPS-Containing Media Are Essential for Anti-Inflammatory Activity
+To determine whether NCP shows anti-inflammatory efficacy even when cells and media are treated separately, we divided the experimental method into three types. In addition to the existing direct processing method in which both cells and medium are present (DT), two methods were added. In order to minimize the impact of the NCP-treated medium, treatment was carried out using a direct treatment + medium change (DT+MC) method in which a new medium containing PG-LPS was replaced immediately after treatment, and an indirect treatment method in which only a cell-free PG-LPS medium was treated with NCP and then transferred to cells (IDT).
+Figure 2B shows changes in IL-1β and IL-6 after treatment with NCPs in three different ways. Two pro-inflammatory cytokines were effectively suppressed in the DT method. IL-6 was more effectively suppressed in DT+MC than DT. However, DT was more effective than DT+MC in suppressing IL-1β. Additionally, IL-1β and IL-6 in the cells treated by IDT were lower than those treated by DT. Western blotting was used to examine changes in the activity of NF-kB and STAT3 (Figure 2C). As a result, all three treatment methods effectively inhibited the phosphorylation of two proteins. However, DT+MC showed the lowest inhibitory effect.
+Figure 2. The anti-inflammatory effect was compared by treating HGFs with NCP in three ways. (A) Scheme of the process of treating HGFs with NCP in three ways. (B) Changes in pro-inflammatory cytokines according to the NCP treatment method (* p < 0.05). (C) Changes in proteins involved in the inflammatory response according to the NCP treatment method.
+2.4. Charged NCP Particles Were Responsible for NCP-Mediated Anti-Inflammatory Activity in the PG-LPS-Treated HGFs
+To determine whether NCP factors affect anti-inflammatory properties, an experiment was conducted using two types of mesh. Metal mesh (EG) using copper will not allow the passage of charged elements such as electrons when connected to a power source. On the other hand, non-metallic mesh (DE) made of cloth allows all factors generated by plasma to pass through.
+As shown in Figure 3B, when DE mesh was placed between cells and NCP device, IL-1β and IL-6 were effectively inhibited. In contrast, the anti-inflammatory effect of NCP was significantly reduced placing the EG mesh between the cells and device. Additionally, inhibition of p-NF-kB remained the same using DE mesh but slightly increased using EG mesh (Figure 3C).
+Figure 3. Before NCP treatment, after covering the metal/non-metal mesh, the inflammatory response was induced with PG-LPS, and then the anti-inflammatory effect was compared. (A) Photograph of processing NCP by applying the metal/non-metal mesh used in the experiment to actual cells. (EG: Electric ground, DE: Dielectric) (B) Changes in pro-inflammatory cytokines according to mesh materials (* p < 0.05, ** p < 0.01). (C) Changes in NF-κB according to mesh materials.
+2.5. NCP Reduces the Inflammatory Phenotype of PG-LPS-Induced Periodontitis in Rats
+A study was conducted to confirm the anti-inflammatory effect of NCP in periodontitis-induced oral tissues. As shown in Figure 4C, the boundary between the first molar and the alveolar bone was not clear in the PG-LPS group compared to the control group. In the PG-LPS+NCP group, the boundary between the first molar and alveolar bone became clear. Furthermore, the micro-CT three-dimensional image confirmed the size of the hole between the first molar and alveolar bone increased significantly during PG-LPS treatment. However, the size decreased in the PG-LPS+NCP group. In H&E staining results (Figure 4D), the density of cells in the tissues in the tooth ligament was significantly increased in the PG-LPS group compared with the control group. However, the cell density was reduced in the PG-LPS+NCP group. In RT-PCR results, IL-1β and TNFα were increased 2.5 times and 1.6 times in the PG-LPS group, but reduced in the PG-LPS+NCP group (Figure 4E).
+Figure 4. After inducing periodontitis by injecting PG-LPS into the periodontium between the first and second molars of a rat, the anti-inflammatory effect was confirmed by treatment with NCP. (A) The timeline of the in vivo study. (B) After PG-LPS injection between the rat’s mandibular first and second molar, NCP was applied at the same location for 5 min. (C) Changes in rat mandible on micro-CT image. In 3D image, the red arrow shows the space between the tooth and periodontium. Scale bar is 5 mm. (D) Changes in the cell number in periodontal tissues near the teeth confirmed by H&E staining. (E) Pro-inflammatory cytokine changes confirmed by RT-PCR in rat periodontal tissues. (* p < 0.05).
+2.6. NCP Treatment Inhibited the Accumulation of T Cells and Macrophages and Blocked the Activation of Osteoclasts in the Lesion
+We examined the effect of NCP treatment on PG-LPS-induced periodontitis-like tissues. As shown in Figure 5A, the number of T cells between the first and second molars was significantly increased in the PG-LPS group compared to the control group. However, in the PG-LPS+NCP group, the number of T cells was similar to that in the control group. This phenomenon was also observed in the results for confirming macrophages. Figure 5B shows a significantly increased number of macrophages observed among the tooth ligaments, tooth root, and alveolar bone in the PG-LPS group. However, the number of macrophages was significantly reduced in the PG-LPS+NCP group compared with that in the PG-LPS group. Subsequently, the effect of NCP treatment on osteoclasts in tissues induced with periodontitis by PG-LPS was confirmed. As shown in Figure 5C, osteoclast activity was extensively increased between the root of the first molar and alveolar bone in the PG-LPS group. However, osteoclast activity was decreased in the PG-LPS+NCP group.
+Figure 5. When NCP was applied to the mandible of rats with periodontitis, changes in the inflammatory response in periodontal tissue were confirmed. The black box area is enlarged below. (A) Changes in T cells confirmed by immunohistochemistry. CD4 was used as a marker for T cells. (B) Changes in macrophages confirmed by immunohistochemistry. CD68 was used as a macrophage marker. (C) Changes in osteoclasts confirmed by the TRAP assay. AB: alveolar bone, R: root.
+3. Discussion
+The most frequently used method to treat periodontitis is to physically remove the causative bacteria by removing calculus through scaling. Because residual microorganisms may exist after removal, antibiotics or devices using light sources, such as lasers or LEDs, are used. However, the downside of these methods is that they can lead to drug resistance, tissue damage, and additional inflammatory responses. Therefore, a new treatment method is needed to kill microorganisms effectively and alleviate inflammatory reactions.
+In this study, we induced an inflammatory response with PG-LPS in cells and an animal model and then treated them with NCP to see if the inflammatory response was mitigated. In the in vitro experiments, HGFs were used because they play a role in the repair between the periodontium and the tooth root [22]. Before the full-scale research, the NCP device was used to confirm that the treatment of HGFs with NCP did not cause any cytotoxicity in the cells.
+Based on the safety of NCP, we investigated whether the inflammatory response in periodontitis could be suppressed. According to Pan et al. and Ambili et al., when periodontal tissue is exposed to PG-LPS, gingival fibroblasts bring inflammatory cells such as T cells into nearby tissues by secreting pro-inflammatory cytokines, such as IL-1β and IL-6. Figure 1C indicated that NCP effectively suppressed periodontitis inflammation caused by PG-LPS [23,24]. According to Souza et al., increased pro-inflammatory cytokines during PG-LPS treatment are caused by inflammatory regulating proteins such as NF-kB and STAT-3 [25]. The results of this study suggest the possibility that NCP suppressed IL-1β and IL-6 by inhibiting NF-kB and STAT-3 activation.
+Herein, we identified the specific mechanism of action by which NCP inhibits the inflammatory response induced by PG-LPS in HGFs. The anti-inflammatory effect was the best in the IDT method, suggesting that the inflammatory response was inhibited by changing the composition of the medium by factors such as electric field, electrons, and light. The IDT method showed a better anti-inflammatory effect than the DT method, which suggests that some of the working elements of NCP directly stimulated the cells and inhibited the anti-inflammatory effect.
+Based on the experimental results, we conducted a study to identify the important factors in NCP that worked to inhibit the inflammatory response. It was observed that during NCP treatment with DE mesh, the anti-inflammatory effect was similar to that of the DT method. However, when EG mesh was installed, the anti-inflammatory effect of NCP almost disappeared. This indicates that the impact of metal mesh and electrical grounding may remove charged particles such as electrons and ions generated by NCP, indicating that charged particles are an important factor in the anti-inflammatory effect of NCP. Connecting this finding with the results in Figure 2, it is suggested that the charged particles in NCP induce changes in the composition of the medium, stimulating the cells to exert anti-inflammatory effects.
+Based on the in vitro studies, we induced periodontitis in an animal model and observed histologic changes to determine the effectiveness of NCP in treating periodontitis. Figure 4 results are the same as those observed when PG-LPS-treated HGFs were treated with NCP, which indicates that the effect of NCP on the inflammatory response of periodontitis appears the same as that in HGFs and oral tissue. According to Cheng et al., IL-1β overexpression is a phenomenon found in tissues of periodontitis patients, and IL-1β is involved in leukocyte recruitment and neutrophil infiltration [26]. Furthermore, since IL-1β strongly promotes bone resorption, it was introduced as a representative cytokine associated with the occurrence of periodontitis. Therefore, the strong inhibition of IL-1β by NCP suggests the possibility that repeated treatment with NCP can effectively inhibit the inflammatory response and bone resorption of periodontitis. The inhibition of IL-1β observed in periodontal tissues suggests that NCP can effectively inhibit T-cell recruitment to the PG-LPS injection site and reduce macrophages (Figure 5A,B).
+Meanwhile, osteoclasts, called resident macrophages [27], have been reported to be involved in bone damage, such as in alveolar bone or joints, by inducing the differentiation and activation by macrophages and T cells in periodontitis [28,29,30]. Through the TRAP assay, increased osteoclast activity significantly decreased when NCP was administered. The results of this study indicate that NCP effectively inhibited the osteoclast activity induced by PG-LPS and that the anti-inflammatory effect of NCP led to the suppression of osteoclast activity. These results may be helpful for the recovery of damaged tissues by suppressing osteoclast activity.
+In conclusion, NCP has an anti-inflammatory effect against periodontitis induced by PG-LPS in HGFs and osteoclast inhibition activity in an animal model. The strong anti-inflammatory efficacy of NCP against periodontitis confirmed that NCP could be effective in treating periodontitis.
+4. Methods and Materials
+4.1. Plasma Device
+The NCP device used in this study formed a plasma plume by directly applying electrical energy to high-purity (99.9%) argon gas. A dielectric barrier discharge-type plasma source is installed in the handpiece part where the plasma is generated (Figure 1A). The end of the plasma-generating nozzle of the handpiece is designed to be equipped with various types of dental tips. When the device is operated, argon gas flows between the electrode and nozzle. A 3 kVpp output with a frequency of 20 kHz is applied to both ends of the electrodes to generate plasma. The argon gas flow rate in the handpiece can be adjusted using a control knob. The experiment was conducted at a flow rate of 1 L/min.
+4.2. In Vitro Study
+4.2.1. Cells
+HGFs were purchased from the American Type Culture Collection. Cells were cultured in an incubator at 37 °C and 5% CO2 in a culture medium containing 1% antibiotics and 10% fetal bovine serum (FBS).
+4.2.2. Sulforhodamine B (SRB) Cell Growth Assay
+Before full-scale research was started, an experiment was conducted to confirm the safety of the NCP device for cells. HGFs were seeded in a 35 mm dish and cultured in an incubator at 37 °C and 5% CO2 for 24 h. In the NCP treatment group, the distance between the tip of the handpiece and the cells was maintained at 1 cm. NCP was applied for 1, 3, and 5 min. After 24 h of NCP treatment, the medium was removed, and 4% paraformaldehyde (PFA) was dispensed to fix the cells on the dish for 30 min at room temperature. Next, 4% PFA was removed, and the dish was washed with DW five times. The dish was dried before the addition of 0.4% SRB. The cells were stained for 10 min at room temperature. After 0.4% SRB solution was then removed, the dish was washed five times for 5 min with 1% acetic acid solution and dried. Next, 10 mM Tris solution was added to each dish and shaken to dissolve the SRB crystals stained on the cells; 100 μL of this solution was transferred to a 96-well plate, and the absorbance was measured by UV spectroscopy at 515 nm.
+4.2.3. Western Blot
+HGFs were treated with PG-LPS at a concentration of 1 μg/mL, then treated with plasma for 1, 3, and 5 min, and finally cultured in an incubator for 2 h. After cell lysis using RIPA buffer, the proteins were separated by centrifugation at 12,000 rpm for 10 min. Quantification of the extracted proteins was performed using the Bradford assay. A sample containing 30 μg of protein was prepared, electrophoresed on SDS–polyacrylamide gel, separated according to size, and transferred to a polyvinylidene fluoride membrane (PVDF, Millipore, Burlington, MA, USA). The PVDF membrane was cut to fit the size of the antibody to be identified. The cut PVDF membrane was blocked with 5% skim milk solution for 1 h. The membrane was incubated with the primary antibody overnight at 4 °C, and HRP-conjugated IgG was used as the secondary antibody after washing. Protein expression levels were confirmed using Amersham Imager 680 (GE Healthcare, Chicago, IL, USA).
+4.2.4. RNA Extraction and RT-PCR
+HGFs were treated with PG-LPS at a concentration of 1 μg/mL, treated with low-temperature plasma for 1, 3, and 5 min, and then cultured in an incubator for 2 h. After washing with DPBS, 500 μL of Trizol reagent (Invitrogen, Waltham, MA, USA) was added; then, the cells were collected with a scraper and placed into an Eppendorf tube. After 100 μL of chloroform was dispensed into each tube and centrifugation at 12,000 rpm for 10 min, 200 μL of the clear supernatant was transferred to a new tube, mixed with the same amount of isopropanol, and centrifuged at 12,000 rpm for 10 min. After the supernatant was removed, the pellet was mixed with 500 μL of 75% ethanol for washing and centrifuged at 12,000 rpm for 10 min. Following this, ethanol was removed, and the pellet was dried. When the pellet was dried, 50 μL of DEPC water was added, and total RNA was quantified by UV spectroscopy. RNA was synthesized into cDNA using Maxime RT Premix (Intron, Gyeonggi-do, Republic of Korea), followed by RT-PCR with denaturation at 95 °C for 30 s, annealing for 30 s, and extension at 72 °C for 60 s. The primer sequences used in this study were GAPDH 5′-ACTGGCATGGCCTTCCGT-3′, 5′-CCACCCTGTTGCTGTAGCC-3′, IL-1β 5′-ACAAAATACCTGTGGCCTTGG-3′, 5′-GGTGCTGATGTACCAGTTGGG-3′, IL-6 5′-GATGGATGCTTCCAATCTGGA- 3′, and 5′-AGCCACTGGTTCTGTGCCT-3.
+4.2.5. NCP Treatment Methods on Cells
+This experiment was conducted to determine whether the anti-inflammatory effect of NCP acts directly on cells or depends on the components of the medium. NCP treatment was performed in three ways as shown in Figure 2A. First, in the direct method (DT): HGFs were seeded in a 35 mm dish according to the conventional method, and a distance of 1 cm was maintained between the cells and NCP device for 5 min in a 2 mL medium containing PG-LPS at a concentration of 1 μg/mL. In the DT+MC method, the medium was changed after DT treatment. The medium was removed immediately after NCP treatment, the cells were washed with PBS, and a new PG-LPS medium was added to the cells. This method minimizes the influence of the medium. In the indirect treatment (IDT) method, cells are treated by first treating them with NCP in a PG-LPS medium without cells. This method transfers only the characteristics of the medium denatured by NCP to the cells.
+4.2.6. NCP Treatment in the Presence of Two Types of Mesh
+This experiment was conducted to determine whether there was a difference in anti-inflammatory efficacy depending on whether particles with the same charge as electrons emitted when plasma was generated passed through them. A method of removing charged particles was used using a metallic mesh.
+As shown in Figure 3A, the two types of meshes used in the study were each made of cloth (dielectric, DE) and copper with the same aperture ratio and were made in the size of the lid of a 35 mm culture dish. The connected wires were grounded for the electrically grounded (EG) copper mesh. Each of the corresponding meshes was treated with NCP for 5 min while placed on a cell culture dish during each NCP treatment.
+4.3. In Vivo Study
+4.3.1. Periodontitis Animal Model
+The periodontitis model used in this study was partially modified using the experimental method described by Leira et al. [31]. Five-week-old male SD rats purchased from KOATECH were fed a standard laboratory diet in an animal laboratory, with a temperature of 18–25 °C being maintained and a 7-day adaptation period before the experiment.
+As shown in Figure 4A, rats were divided into three groups: control (injected only with PBS) and experimental groups (injected only with PG-LPS, treated with NCP combined with PG-LPS). Rats were anesthetized by intraperitoneal injection of a cocktail of ketamine (80 mg/kg) and xylazine (8 mg/kg). Then, 3 μL of PBS or 3 μL of PG-LPSs (final concentration of 10 μg/μL) was injected into the gums between the first and second molars, and NCP treatment was performed for 5 min. The experiment was performed for 2 weeks. After 24 h from the last treatment, rats were sacrificed using CO2 gas in a chamber. The mandibles were collected to confirm changes in the mandible and periodontal tissue. Experiments were performed according to relevant guidelines, protocols, and regulations of the Pusan National University Institutional Animal Care and Use Committee (PNU-2020-2521).
+4.3.2. Micro-CT
+The mandibular tissues were scanned using InspeXio SMX-90CT (Shimadzu, Gyoto, Japan) a system equipped with a 0.5 mm aluminum filter, 15% beam hardening correction, and reduction of ring artifacts. Each tissue was photographed, scanned at 0.7°, and saved in TIFF format with 19.7 μm resolution. The data scanned by micro-CT were used to reconstruct two-dimensional slice images around the teeth and alveolar bone using BON-FCS to form a three-dimensional structure, and tissue changes were observed in all directions and widths. The degree of alveolar bone resorption and changes in the periodontal ligament were confirmed using photographs.
+4.3.3. RNA Extraction and RT-PCR
+Part of the periodontal tissue was collected from the mandible of the rats, immersed in TRIzol reagent (Invitrogen, Waltham, MA, USA), and ground as much as possible with a tissue grinder. The RNA extraction process was the same as that in the in vitro process. RNA was synthesized into cDNA using Maxime RT Premix, followed by RT-PCR with denaturation at 95 °C for 30 s, annealing for 30 s, and extension at 72 °C for 60 s. The primer sequence used in this study was GAPDH 5′-CCTGGAGAAACCTGCCAA-3′, 5′-GGCCATGTAGGCCATGAG-3′, IL-1β 5′-TCCCTGTGGCCTTGGGCC-3′, 5′-GGAAGACACGGGTTCCATGG-3′, TNFα 5′-CTGCCCCGACTATGTGCTC-3′, and 5′-ACCTGCCCGGACTCCGTG-3′.
+4.3.4. Hematoxylin and Eosin (H&E) Staining
+Rat mandibular tissues were fixed in 4% PFA solution and then decalcified with 10% EDTA solution; next, the fabricated paraffin block was cut to a thickness of 5 μm. The blocks were deparaffinized, hydrolyzed, washed with water, stained with hematoxylin and eosin, dehydrated, transparentized, and encapsulated. The changes in the number of cells in the periodontal ligament were confirmed using an optical microscope (Axioscope 5; ZEISS, Jena, Germany).
+4.3.5. Immunohistochemistry
+The paraffin sections were washed in xylene for 5 min each to remove the paraffin. The slides were washed in 100% ethanol for 5 min each to remove xylene in a hydrolysis process. After that, tissue sections were washed in PBS to remove the ethanol component completely. HRP/diaminobenzidine (ABC) detection immunohistochemistry kits were used.
+Hydrated tissue sections were treated with hydrogen peroxide blocking solution for 5 min at room temperature and then washed with PBS. Then, tissues were treated with a protein-blocking solution for 5 min at room temperature and washed with PBS. After washing, CD4 and CD68 primary antibodies were diluted according to the concentration used. The tissue was submerged in the diluted antibody solution, placed in a humid box, incubated overnight at 4 °C, and washed with PBS. After treatment with biotinylated goat anti-polyvalent antibodies for 10 min, the sections were washed with PBS. Furthermore, diaminobenzidine was developed appropriately, and counterstaining was performed with Mayer’s hematoxylin for 5 min. After the dyeing and dehydration process, the samples were washed in xylene to remove the ethanol component. Changes in tissues were observed after encapsulation.
+4.3.6. Tartrate-Resistant Acid Phosphatase (TRAP) Assay
+The TRAP assay was performed to identify osteoclasts using a solution prepared according to the method described by Cole et al. [32]. After adding 4 mg of naphthol AS-BI phosphate as a substrate in 0.2 M acetate buffer, 35 mg of fast red violet LB was added as a coupler. Then, 60 μL of magnesium chloride and 187.5 mg of L (+)-tartaric acid were added such that the final concentration was 50 mM. Finally, the pH was adjusted to 5.0 using sodium hydroxide. The reaction solution prepared in this way was applied to the tissue from which paraffin was removed, incubated at 37 °C for 1 h, washed with PBS, and counterstained with hematoxylin. After the dyed tissue underwent encapsulation, changes in the osteoclasts were confirmed.
+4.4. Ethical Statement
+This study was performed according to ARRIVE guidelines. All experimental protocols were approved by a Pusan National University Institutional Animal Care and Use Committee (PNU-2020-2521).
+4.5. Statistical Analysis
+All experiments were repeated at least three times. The data were displayed as mean ± standard deviation (SD), and statistical analysis was performed using SPSS software version 29.0.1 (Chicago, USA). Multiple comparisons were made using one-way ANOVA followed by a Tukey’s test. A two-tailed p < 0.05 was considered statistically significant.
+Supplementary Materials
+The following supporting information can be downloaded at https://www.mdpi.com/article/10.3390/ijms25116161/s1.
+Author Contributions
+K.-H.P.: contributed to data acquisition, analysis and interpretation of data, writing and review of manuscript; Y.-S.J.: contributed to acquisition of data and interpretation of data; J.-Y.J.: contributed to conception, development of experimental method; J.-H.C.: contributed to conception, development of experimental method, acquisition of data, analysis and interpretation of data, writing and review of manuscript; G.-C.K.: contributed to conception, development of experimental method, analysis and interpretation of data. All authors gave their final approval and agree to be accountable for all aspects of the work. All authors have read and agreed to the published version of the manuscript.
+Funding
+This research received no external funding.
+Institutional Review Board Statement
+The animal study protocol was approved by the Ethics Committee of Pusan National University Institutional Animal Care and Use Committee (PNU-2020-2521).
+Informed Consent Statement
+Not applicable.
+Data Availability Statement
+The datasets used and/or studied during the current study are available from the corresponding author on reasonable request.
+Acknowledgments
+This work was supported by the Starting Growth Technological R&D program of SMBA [S2848389].
+Conflicts of Interest
+Author Kwang-Ha Park and Jeong-Hae Choi were employed by Feagle Co., Ltd. The remaining authors declare that the research was conducted in the absence of any commercial of financial relationships that could be construed as a potential conflict of interest.
+References
+Könönen, E.; Gursoy, M.; Gursoy, U.K. Periodontitis: A Multifaceted Disease of Tooth-Supporting Tissues. J. Clin. Med. 2019, 8, 1135. [Google Scholar] [CrossRef] [PubMed]
+Borges, A.C.; Kostov, G.K.; Pessoa, R.S.; de Abreu, G.M.A.; Lima, G.M.G.; Figueira, L.W.; Koga-Ito, C.Y. Applications of Cold Atmospheric Pressure Plasma in Dentistry. Appl. Sci. 2021, 11, 1975. [Google Scholar] [CrossRef]
+Socrasky, S.S.; Haffajee, A.D.; Cugini, M.A.; Smith, C.; Kent Jr, R.L. Microbial complexes in subgingival plaque. J. Clin. Periodontol. 1998, 25, 134–144. [Google Scholar] [CrossRef] [PubMed]
+Kanno, T.; Nakamura, K.; Ishiyama, K.; Yamada, Y.; Shirato, M.; Niwano, Y.; Kayaba, C.; Ikeda, K.; Takagi, A.; Yamaguchi, T.; et al. Adjunctive antimicrobial chemotherapy based on hydrogen peroxide photolysis for non-surgical treatment of moderate to severe periodontitis: A randomized controlled trial. Sci. Rep. 2017, 7, 12247. [Google Scholar] [CrossRef] [PubMed]
+Vijayaraj, S.; Ari, G.; Rajendran, S.; Mahendra, J.; Namasvayam, A. A review on use of lasers in periodontitis. Ann. Rom. Soc. Cell Biol. 2020, 24, 1056–1061. [Google Scholar]
+Ma, J.; Yang, X.; Sun, Y.; Yang, J. Thermal damage in three-dimensional vivo bio-tissues induced by moving heat sources in laser therapy. Sci. Rep. 2019, 9, 10987. [Google Scholar] [CrossRef] [PubMed]
+Akter, M.; Yadav, D.K.; Ki, S.H.; Choi, E.H.; Han, I. Inactivation of Infectious Bacteria Using Nonthermal Biocompatible Plasma Cabinet Sterilizer. Int. J. Mol. Sci. 2020, 21, 8321. [Google Scholar] [CrossRef] [PubMed]
+JungBauer, G.; Moser, D.; Muller, S.; Pfister, W.; Sculean, A.; Eick, S. The Antibocrobial Effect of Cold Atmospheric Plasma against Dental Pathogens—A Systematic Review of In-Vitro Studies. Antibiotics 2021, 10, 211. [Google Scholar] [CrossRef] [PubMed]
+Lee, J.Y.; Kim, K.H.; Park, S.Y.; Yoon, S.Y.; Kim, G.H.; Lee, Y.M.; Rhyu, I.C.; Seol, Y.J. The bactericidal effect of an atmospheric-pressure plasma jet on Porphyromonas gingivalis biofilms on sandblasted and acid-etched titanium discs. J. Periodontal. Implant. Sci. 2019, 49, 319–329. [Google Scholar] [CrossRef] [PubMed]
+Hirasawa, I.; Odagiri, H.; Park, G.; Sanghavi, R.; Oshita, T.; Togi, A.; Yoshikawa, K.; Mizutani, K.; Takeuchi, Y.; Kobayashi, H.; et al. Anti-inflammatory effects of cold atmospheric plasma irradiation on the THP-1 human acute monocytic leukemia cell line. PLoS ONE 2023, 18, 0292267. [Google Scholar] [CrossRef] [PubMed]
+Lee, C.B.; Seo, I.H.; Chae, M.W.; Park, J.W.; Choi, E.H.; Uhm, H.S.; Baik, K.Y. Effects of Non-thermal Plasma Activated Water on the Anti-cancer Immune Activities of Macrophages. Clin. Plasam. Med. 2018, 9, 3. [Google Scholar] [CrossRef]
+Choi, B.B.R.; Choi, J.H.; Hong, J.W.; Song, K.W.; Lee, H.J.; Kim, U.K.; Kim, G.C. Selective Killing of Melanoma Cells With Non-Thermal Atmospheric Pressure Plasma and p-FAK Antibody Conjugated Gold Nanoparticles. Int. J. Med. Sci. 2017, 14, 1101–1109. [Google Scholar] [CrossRef] [PubMed]
+Choi, J.H.; Song, Y.S.; Song, K.; Lee, H.J.; Hong, J.W.; Kim, G.C. Skin renewal activity of non-thermal plasma through the activation of beta-catenin in keratinocytes. Sci. Rep. 2017, 7, 6416. [Google Scholar]
+Choi, J.H.; Song, Y.S.; Lee, H.J.; Hong, J.W.; Kim, G.C. Inhibition of inflammatory reactions in 2,4-Dinitrochlorobenzene induced Nc/Nga atopic dermatitis mice by non-thermal plasma. Sci. Rep. 2016, 6, 27376. [Google Scholar] [CrossRef] [PubMed]
+Choi, B.B.R.; Choi, J.H.; Ji, J.; Song, K.W.; Lee, H.J.; Kim, G.C. Increment of growth factors in mouse skin treated with non-thermal plasma. Int. J. Med. Sci. 2018, 15, 1203–1209. [Google Scholar] [CrossRef] [PubMed]
+Wen, X.; Xin, Y.; Hamblin, M.R.; Jiang, X. Applications of cold atmospheric plasma for transdermal drug delivery: A review. Drug Deliv. Transl. Res. 2021, 11, 741–747. [Google Scholar] [CrossRef] [PubMed]
+Choi, J.H.; Nam, S.H.; Song, Y.S.; Lee, H.W.; Lee, H.J.; Song, K.; Hong, J.W.; Kim, G.C. Treatment with low-temperature atmospheric pressure plasma enhances cutaneous delivery of epidermal growth factor by regulating E-cadherin-mediated cell junctions. Arch. Dermatol. Res. 2014, 306, 635–643. [Google Scholar] [CrossRef] [PubMed]
+Lata, S.; Chakravorty, S.; Mitra, T.; Pradhan, P.K.; Mohanty, S.; Patel, P.; Jha, E.; Panda, P.K.; Verma, S.K.; Suar, M. Aurora Borealis in dentistry: The applications of cold plasma in biomedicine. Mater Today Bio. 2023, 13, 100200. [Google Scholar] [CrossRef]
+Zhang, J.; Wei, Y.; Fang, Z. Ozone Pollution: A Major Health Hazard Worldwide. Front. Immunol. 2019, 10, 2518–2527. [Google Scholar] [CrossRef] [PubMed]
+Kim, S.Y.; Kim, E.; Kim, W.J. Health Effects of Ozone on Respiratory Diseases. Tuberc. Respir. Dis. 2020, 83, S6–S11. [Google Scholar] [CrossRef]
+Park, N.S.; Yun, S.E.; Lee, H.Y.; Lee, H.J.; Choi, J.H.; Kim, G.C. No-ozone cold plasma can kill oral pathogenic microbes in H2O2-dependent and independent manner. Sci. Rep. 2022, 12, 7597. [Google Scholar] [CrossRef] [PubMed]
+Smith, P.C.; Martinez, C.; Martinez, J.; McCulloch, C.A. Role of Fibroblast Populations in Periodontal Wound Healing and Tissue Remodeling. Front. Physiol. 2019, 10, 270. [Google Scholar] [CrossRef] [PubMed]
+Pan, W.; Wang, Q.; Chen, Q. The cytokine network involved in the host immune response to periodontitis. Int. J. Oral Sci. 2019, 11, 30–42. [Google Scholar] [CrossRef] [PubMed]
+Ambili, R.; Janam, P.; Babu, P.S.S.; Prasad, M.; Vinod, D.; Kumar, P.R.A.; Kumary, T.V.; Nair, S.A. Differential expression of transcription factors NF-κB and STAT3 in periodontal ligament fibroblasts and gingiva of healthy and diseased individuals. Arch. Oral Biol. 2017, 82, 19–26. [Google Scholar] [CrossRef] [PubMed]
+Ramboiu, S.; Nicolae, F.M.; Soanca, A.; Gheorghe, D.N.; Popescu, D.M.; Ungureanu, B.S.; Mărgăritescu, D.N.; Turcu-Știolica, A.; Boldeanu, M.V.; Șurlin, V.M.; et al. Periodontal status and inflammatory markers in gingival crevicular fluid of patients with periodontitis and colorectal cancer. J. Mind Med. Sci. 2023, 10, 347–355. [Google Scholar] [CrossRef]
+Cheng, Z.; Meade, J.; Mankia, K.; Emery, P.; Devine, D.A. Periodontal disease and periodontal bacteria as triggers for rheumatoid arthritis. Best Pract. Res. Clin. Rheumatol. 2017, 31, 19–30. [Google Scholar] [CrossRef] [PubMed]
+Sun, Y.; Li, J.; Xie, X.; Gu, F.; Sui, Z.; Zhang, K.; Yu, T. Macrophage-Osteoclast Associations: Origin, Polarization, and Subgroups. Front. Immunol. 2021, 12, 778078. [Google Scholar] [CrossRef] [PubMed]
+Rivas, C.A.; Suliman, S.; Almarhoumi, R.; Vega, M.E.; Rojas, C.; Monasterio, G.; Galindo, M.; Vernal, R.; Kantarci, A. Regulatory T cell phenotype and anti-osteoclastogenic function in experimental periodontitis. Sci. Rep. 2020, 10, 19018. [Google Scholar]
+Yin, L.; Li, X.; Hou, J. Macrophages in periodontitis: A dynamic shift between tissue destruction and repair. Jpn. Dent. Sci. Rev. 2022, 58, 336–347. [Google Scholar] [CrossRef] [PubMed]
+Stefan, S.P.; Hienz, A.; Ivanovski, S. Mechanisms of Bone Resorption in Periodontitis. J. Immunol. Res. 2015, 2015, 615486. [Google Scholar]
+Leira, Y.; Iglesias-Rey, R.; Comez-Lado, N.; Aguiar, P.; Sobrino, T.; D’Aiuto, F.; Castillo, J.; Blanco, J.; Campos, F. Periodontitis and vascular inflammatory biomarkers: An experimental in vivo study in rats. Odontology 2020, 108, 202–212. [Google Scholar] [CrossRef] [PubMed]
+Cole, A.A.; Walters, L.M. Tartrate-resistant Acid Phosphatase in Bone and Cartilage Following Decalcification and Cold-Embedding in Plastic. J. Histochem. Cytochem. 1987, 35, 203–206. [Google Scholar] [CrossRef] [PubMed]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.
+
+© 2024 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://creativecommons.org/licenses/by/4.0/).
+Share and Cite
+MDPI and ACS Style
+Park, K.-H.; Jang, Y.-S.; Joo, J.-Y.; Kim, G.-C.; Choi, J.-H. Anti-Inflammatory Activity of No-Ozone Cold Plasma in Porphyromonas gingivalis Lipopolysaccharide-Induced Periodontitis Rats. Int. J. Mol. Sci. 2024, 25, 6161. https://doi.org/10.3390/ijms25116161
+AMA Style
+Park K-H, Jang Y-S, Joo J-Y, Kim G-C, Choi J-H. Anti-Inflammatory Activity of No-Ozone Cold Plasma in Porphyromonas gingivalis Lipopolysaccharide-Induced Periodontitis Rats. International Journal of Molecular Sciences. 2024; 25(11):6161. https://doi.org/10.3390/ijms25116161
+Chicago/Turabian Style
+Park, Kwang-Ha, Yoon-Seo Jang, Ji-Young Joo, Gyoo-Cheon Kim, and Jeong-Hae Choi. 2024. "Anti-Inflammatory Activity of No-Ozone Cold Plasma in Porphyromonas gingivalis Lipopolysaccharide-Induced Periodontitis Rats" International Journal of Molecular Sciences 25, no. 11: 6161. https://doi.org/10.3390/ijms25116161
+Note that from the first issue of 2016, this journal uses article numbers instead of page numbers. See further details here.
+Article Metrics
+Citations
+No citations were found for this article, but you may check on Google Scholar
+Article Access Statistics
+Article access statisticsArticle Views3. Jun8. Jun13. Jun18. Jun23. Jun28. Jun3. Jul8. Jul13. Jul18. Jul23. Jul0100200300400
+For more information on the journal statistics, click here.
+Multiple requests from the same IP address are counted as one view.
+
+
+Int. J. Mol. Sci., EISSN 1422-0067, Published by MDPI
+RSS Content Alert
+Further Information
+Article Processing Charges
+Pay an Invoice
+Open Access Policy
+Contact MDPI
+Jobs at MDPI
+Guidelines
+For Authors
+For Reviewers
+For Editors
+For Librarians
+For Publishers
+For Societies
+For Conference Organizers
+MDPI Initiatives
+Sciforum
+MDPI Books
+Preprints.org
+Scilit
+SciProfiles
+Encyclopedia
+JAMS
+Proceedings Series
+Follow MDPI
+LinkedIn
+Facebook
+Twitter
+Subscribe to receive issue release notifications and newsletters from MDPI journals
+Select options
+Subscribe
+© 1996-2024 MDPI (Basel, Switzerland) unless otherwise stated
+Disclaimer Terms and Conditions Privacy Policy

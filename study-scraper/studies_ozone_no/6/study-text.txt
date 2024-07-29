@@ -1,0 +1,125 @@
+Journals & Books
+Help
+Search
+My account
+Sign in
+Access through your institution
+Purchase PDF
+Article preview
+Abstract
+Introduction
+Section snippets
+References (49)
+Energy
+Volume 306
+, 15 October 2024, 132474
+Investigating the significance of structural transition in chlorodifluoromethane (R22) + N2 hydrates for hydrate-based greenhouse gas separation
+Author links open overlay panel
+Junkyu Lim a
+,
+Junghoon Mok b
+,
+Yongwon Seo a c
+Show more
+Add to Mendeley
+Share
+Cite
+https://doi.org/10.1016/j.energy.2024.132474
+Get rights and content
+Highlights
+•
+A cusp point was observed in the pressure-composition diagram of the R22 + N2 hydrates.
+•
+A structural transition of the R22 + N2 hydrates was identified through in situ Raman and PXRD measurements.
+•
+The discontinuity in the changes in separation factor was caused by the structural transition between sII and sI.
+•
+The structure of the R22 + N2 hydrate was correlated with the efficiency of hydrate-based gas separation.
+Abstract
+Chlorodifluoromethane (CHClF2 or R22) is known for its high global warming potential and ozone-depleting characteristics. Due to its significant environmental impact, R22 is scheduled for a complete ban by 2030 under the Montreal Protocol. To prevent the release of R22 into the atmosphere, it is imperative to efficiently separate and recover R22 from gas mixtures. Thus, the aim of this study was to explore the influence of gas hydrate structure on the efficiency of hydrate-based gas separation (HBGS) in separating R22 from R22 + N2 mixtures. This was achieved by examining a pressure-composition diagram and the in situ Raman spectra and powder X-ray diffraction (PXRD) patterns of R22 + N2 hydrates with various R22 compositions. In situ Raman spectroscopic and PXRD pattern analyses revealed that as R22 composition decreased, the R22 + N2 hydrates underwent a structural transition from structure I (sI) to a coexistence of structures I and II, ultimately adopting structure II (sII). The pressure-composition analysis suggested that the cusp point observed in the hydrate composition curve was caused by the structural transition of the R22 + N2 hydrates. It was noted that the structural transition from sI to sII led to a significant decrease in separation efficiency. The experimental results demonstrated that the gas hydrate structure plays a crucial role in determining the gas separation efficiency of HBGS and designing the HBGS process.
+Graphical abstract
+Download: Download high-res image (323KB)
+Download: Download full-size image
+Introduction
+Gas hydrates are nonstoichiometric inclusion compounds that are capable of trapping guest gas molecules in their hydrogen-bonded water frameworks [1,2]. They exist in three different structures, namely structure I (sI), structure II (sII), and structure H (sH), depending on the size and type of the captured guest molecules [3]. These gas hydrates have proven to be valuable in various energy and environmental applications due to their ability to contain up to 150–170 m3 volume of gas per 1 m3 volume of solid [4]. This remarkable storage potential, coupled with the ability to selectively capture specific guest molecules within their cages, opens up attractive opportunities for gas storage and transportation, gas capture and separation, and water treatment [2,3,[5], [6], [7], [8], [9], [10]]. In particular, gas hydrates have shown promise in the selective capture and separation of greenhouse gases, including CO2, N2O, and various fluorinated gases (F-gases), which indicates their significant potential to address environmental challenges and advance sustainable technologies [6,7,[11], [12], [13], [14], [15], [16], [17]].
+Chlorodifluoromethane (CHClF2 or R22), which belongs to the class of hydrochlorofluorocarbons (HCFCs), has found widespread use in various industrial applications as a refrigerant, solvent, propellant, and foaming agent [18]. Its popularity is attributed to its advantageous physical properties, such as nontoxicity and inflammability, and its high efficiency in each of its intended purposes [[19], [20], [21], [22]]. However, the use of R22 has raised environmental concerns due to its classification as a potent greenhouse gas with a global warming potential 1810 times higher than CO2, coupled with its ozone-depleting properties [19,20,22]. Consequently, the Montreal Protocol has mandated a complete phase out of R22 by 2030 [23]. Leaks that occur during the utilization of R22 as a refrigerant or foaming agent, resulting in its mixing with air, are the major contributors of R22 emissions [[24], [25], [26]]. As nitrogen (N2) is a major component of air, the separation of R22 from R22 + N2 gas mixtures is critical not only for the recovery of R22 but also for preventing its uncontrolled release into the atmosphere. Several technologies are available for F-gas separation, including adsorption, liquefaction, and membrane separation, but each method has limitations [21,[27], [28], [29]]. The adsorption technique is only effective for specific concentration ranges of target gas, and its efficiency reduces if impurities are present [[30], [31], [32]]. The liquefaction process is effective but consumes a significant amount of energy [21,27,30,32,33]. The membrane separation method faces challenges due to the low reusability of separation media, primarily because of fouling issues [[30], [31], [32],34]. Consequently, hydrate-based gas separation (HBGS) technology has emerged as a promising alternative for greenhouse gas capture, and numerous studies in the field have investigated the thermodynamic feasibility of this approach [6,7,11,14,17,[35], [36], [37]].
+HBGS offers distinct economic and eco-friendly advantages when compared to conventional separation methods. A key advantage of HBGS is its use of water as the separation medium, resulting in low material costs and minimal environmental impact. This makes it an attractive, sustainable option that is preferable to methods that use costly or environmentally harmful substances [3,17,37,38]. The HBGS process involves capturing a gas component with a lower hydrate equilibrium pressure at a specific temperature in hydrate cages. By selectively forming gas hydrates from the gas mixture, the desired gas component gets concentrated in the hydrate cages. The subsequent dissociation of the gas hydrates allows for the efficient separation and recovery of the targeted gas component [3,17,37,38].
+HBGS has proven effective at capturing CO2 from post-combustion flue gas (CO2 + N2) or pre-combustion fuel gas (CO2 + H2) mixtures [3,36,[38], [39], [40]]. This is achievable because the hydrate equilibrium pressure of CO2 is notably lower than that of N2 or H2 at any specific temperature, leading to impressive CO2 separation efficiency. Moreover, the efficiency of HBGS in separating F-gases, such as R22 and HFC-134a, from F-gas + N2 mixtures has been demonstrated [6,[11], [12], [13],[41], [42], [43], [44]]. Tajima et al. conducted a study on HBGS and achieved an equilibrium recovery ratio of 0.90 for R22 derived from R22 + N2 mixtures in a single step at significantly low pressures [12].
+It is well known that R22 forms an sI hydrate, while N2 forms an sII hydrate [24]. This means that the composition of these guest gases can influence the structure of R22 + N2 hydrates, resulting in a transition between sI and sII as the composition changes. This structural variation is characterized by varying numbers of small and large cages in a unit cell between sI and sII hydrates, and it has the potential to affect the efficiency of separating the target guest gas (R22). Therefore, understanding the structural transition of R22 + N2 hydrates is crucial for optimizing the efficiency of the HBGS process. Despite the importance of this structural transition and its implications for gas separation efficiency, there is a lack of research on this specific aspect of R22 + N2 hydrates in relation to HBGS. Further investigations and studies in this area are necessary to unlock the full potential of HBGS technology and to develop strategies that can maximize the efficiency of separating target gases from mixed gas streams.
+In this study, the structural transition of R22 + N2 hydrates across a wide range of R22 concentrations and its impact on separation efficiency were closely examined using various experimental approaches. A pressure-composition diagram was constructed by measuring R22 compositions in the equilibrium state in both vapor and hydrate phases at 276.15 K, and was used to evaluate the R22 separation efficiency of HBGS. The structural transition of the R22 + N2 hydrates associated with the different R22 concentrations was identified using in situ Raman spectroscopy. Further, the crystal structure and lattice parameters of the R22 + N2 hydrates were accurately determined using powder X-ray diffraction (PXRD) pattern analysis. Furthermore, Rietveld refinement of the PXRD patterns was conducted to quantify the guest distributions in the hydrate cages and to identify the cage preferences of the guest molecules in two different R22 + N2 hydrate structures, in turn determining the fractional occupancy of R22 and N2 in the hydrate cages. The relationship between the structure of the R22 + N2 hydrates and the separation efficiency of R22 was further investigated using the pressure-composition diagram and assessing the separation factor across various feed gas compositions.
+Section snippets
+Materials
+R22 (99 %) and N2 (99.999 %) gases were purchased from RIGAS Co. (Republic of Korea). Double-distilled deionized water was used for gas hydrate formation. All the materials were used without further purification.
+Apparatus and procedure
+A 316 stainless steel autoclave reactor with an internal volume of 250 cm3 was employed for the formation and preparation of gas hydrate samples. The autoclave reactor was equipped with an impeller-type stirrer and submerged in a 50 % ethylene glycol and 50 % water bath. The bath was
+A pressure-composition diagram of the R22 + N2 hydrates
+To assess the R22 separation efficiency using HBGS, a pressure-composition diagram was constructed at 276.15 K after introducing the feed gas with an initial R22 partial pressure of 0.46 MPa into the reactor. The water quantity was sufficient to establish an H–LW–V equilibrium state at this temperature. The gas compositions in the hydrate and vapor phases were analyzed using a GC; the additional data points represented by red circles were obtained from a combination of Raman measurements and a
+Conclusions
+The impact of the structural transition of the R22 + N2 hydrates on the separation efficiency of hydrate-based R22 separation was investigated in this study. The pressure-composition diagram corresponding to an equilibrium state indicated a possible structural transition of the R22 + N2 hydrates within a specific R22 composition range. Furthermore, in situ Raman spectroscopy and PXRD pattern analyses showed that the R22 + N2 hydrates with higher R22 vapor compositions exhibited sI, while those
+CRediT authorship contribution statement
+Junkyu Lim: Writing – original draft, Visualization, Investigation, Formal analysis. Junghoon Mok: Validation, Investigation, Conceptualization. Yongwon Seo: Writing – review & editing, Validation, Supervision, Project administration.
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+This work was supported by the National Research Foundation of Korea (NRF) (NRF-2021R1A2C2005856).
+References (49)
+P. Babu et al.
+A review of the hydrate based gas separation (HBGS) process for carbon dioxide pre-combustion capture
+Energy
+(2015)
+H. Mimachi et al.
+Natural gas storage and transportation within gas hydrate of smaller particle: size dependence of self-preservation phenomenon of natural gas hydrate
+Chem Eng Sci
+(2014)
+Y. Lee et al.
+Enclathration of CO2 as a co-guest of structure H hydrates and its implications for CO2 capture and sequestration
+Appl Energy
+(2016)
+J. Mok et al.
+Evaluation of kinetic salt-enrichment behavior and separation performance of HFC-152a hydrate-based desalination using an experimental measurement and a thermodynamic correlation
+Water Res
+(2021)
+H. Tajima et al.
+Effects of hydrate-slurry decomposition conditions on gas generation and recovery performance
+Chem Eng Res Des
+(2018)
+H. Tajima et al.
+Improving the gas recovery and separation efficiency of a hydrate-based gas separation
+Chem Eng Res Des
+(2014)
+T. Nagata et al.
+An analysis of gas separation processes of HFC-134a from gaseous mixtures with nitrogen—comparison of two types of gas separation methods, liquefaction and hydrate-based methods, in terms of the equilibrium recovery ratio
+Sep Purif Technol
+(2009)
+H. Tajima et al.
+Energy consumption estimation for greenhouse gas separation processes by clathrate hydrate formation
+Energy
+(2004)
+C. Aprea et al.
+An experimental investigation of the global environmental impact of the R22 retrofit with R422D
+Energy
+(2011)
+P. Srikhirin et al.
+A review of absorption refrigeration technologies
+Renew Sustain Energy Rev
+(2001)
+View more references
+Cited by (0)
+View full text
+© 2024 Elsevier Ltd. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+Recommended articles
+Assessment of CO2 abatement potential of heat pumps using pinch analysis for the Swiss chocolate industry
+Journal of Cleaner Production, Volume 455, 2024, Article 142323
+Navdeep Bhadbhade, …, Martin K. Patel
+High-temperature heat pumps: Fundamentals, modelling approaches and applications
+Energy, Volume 303, 2024, Article 131882
+Hussam Jouhara, …, Abdulnaser Sayma
+Research progress of phase change heat storage technology in the application of solar heat pump
+Journal of Energy Storage, Volume 86, Part B, 2024, Article 111272
+Zile Xu, …, Jun Ji
+Show 3 more articles
+About ScienceDirect
+Remote access
+Shopping cart
+Advertise
+Contact and
