@@ -14,7 +14,9 @@ from selenium.webdriver.common.by import By
 import util_ai
 
 vault = '/home/ubuntu/vault'
-model = f'{vault}/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
+model_llama3_4 = f'{vault}/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
+model_mistral_4 = f'{vault}/llms/Mistral-Nemo-Instruct-2407.Q4_0.gguf'
+model_mistral_8 = f'{vault}/llms/Mistral-Nemo-Instruct-2407.Q8_0.gguf'
 
 campaign_name = '2024-07'
 # campaign_name = 'ozone-bakery-products'
@@ -1067,6 +1069,112 @@ def posts_linkedin_new():
         with open(filepath_out, 'a') as f: f.write(f'{study_highlights}\n\n')
         with open(filepath_out, 'a') as f: f.write(f'{study_body}\n\n')
 
+def gen_website_news():
+    model = model_llama3_4
+    # model = model_mistral_4
+    folderpath_in = f'{vault}/studies/ozone'
+    folderpath_out = f'{vault}/studies/processed/articles'
+    # try: shutil.rmtree(folderpath_out, ignore_errors=True)
+    # except: pass
+    # try: os.makedirs(folderpath_out)
+    # except: pass
+    filenames_in = os.listdir(folderpath_in)
+    for filename_in in filenames_in:
+        filepath_in = f'{folderpath_in}/{filename_in}'
+        filepath_out = f'{folderpath_out}/{filename_in}'.replace('.txt', '.json')
+        # if os.path.exists(filepath_out): continue
+        with open(filepath_in) as f: study_content = f.read()
+        study_content = ' '.join(study_content.split(' ')[:2000])
+
+        # title
+        prompt = f'''
+            Scrivi in Italiano 10 titoli dettagliati per il seguente STUDIO. 
+            Segui le LINEE GUIDA sotto.
+            ## STUDIO
+            {study_content}
+            ## LINEE GUIDA
+            - Rispondi con una lista numerata di titoli.
+            - Scrivi solo i titoli.
+            - Ogni titolo deve essere originale e diverso dagli altri titoli.
+            - Scrivi titoli di lunghezza variabile, da 3 a 16 parole.
+            - Scrivi titoli facili da capire.
+            - Scrivi titoli centrati sull'argomento ozono.
+        '''
+        reply = util_ai.gen_reply(prompt, model).strip()
+        titles = []
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            if not line[0].isdigit(): continue
+            if '. ' not in line: continue
+            line = '. '.join(line.split('. ')[1:])
+            line = line.strip()
+            if line == '': continue
+            titles.append(line)
+
+        # body
+        if False:
+            prompt = f'''
+                Scrivi in Italiano un articolo dettagliato di 800 parole per il seguente STUDIO.
+                Segui le LINEE GUIDA sotto.
+                ## STUDIO
+                {study_content}
+                ## LINEE GUIDA
+                - L'articolo deve concentrarsi sull'ozono.
+                - Scrivi solo l'articolo.
+                - Non scrivere il titolo.
+                - Non includere le "keywords".
+                - Non includere le "references".
+                - Non includere sottotitoli tra i paragrafi.
+                - Scrivi un articolo facile da capire.
+            '''
+            reply = util_ai.gen_reply(prompt, model).strip()
+
+        # body
+        prompt = f'''
+            Scrivi in Italiano 5 paragrafi usando i dati del seguente STUDIO.
+            Segui le LINEE GUIDA sotto.
+            ## STUDIO
+            {study_content}
+            ## LINEE GUIDA
+            - nel paragrafo 1, scrivi l'introduzione in 100 parole
+            - nel paragrafo 2, scrivi i metodi in 100 parole
+            - nel paragrafo 3, scrivi i risultati in 100 parole
+            - nel paragrafo 4, scrivi le discussioni in 100 parole
+            - nel paragrafo 5, scrivi le conclusioni in 100 parole
+            - per i paragrafi usa i seguenti titoli: Paragrafo 1, Paragrafo 2, Paragrafo 3, Paragrafo 4, Paragrafo 5
+        '''
+        reply = util_ai.gen_reply(prompt, model).strip()
+        paragraphs = []
+        paragraph_curr = ''
+        for line in reply.split('\n'):
+            line = line.strip()
+            if line == '': continue
+            line = line.replace('*', '')
+            if line.lower().startswith('paragrafo'):
+                if paragraph_curr != '':
+                    if paragraph_curr.endswith('.'):
+                        paragraphs.append(paragraph_curr)
+                        paragraph_curr = ''
+            else:
+                paragraph_curr += line
+        if paragraph_curr != '':
+            if paragraph_curr.endswith('.'):
+                paragraphs.append(paragraph_curr)
+
+        data = {}
+        data['id'] = filename_in.split('.')[0]
+        data['slug'] = 'rivoluzione-produzione-ozono-nuovo-dispositivo-hdbd'
+        data['category'] = 'tecnologia'
+        data['title'] = 'La rivoluzione nella Produzione di Ozono: Il Nuovo Dispositivo HDBD'
+        data['titles'] = titles
+        data['body'] = paragraphs
+
+        create_folder(filepath_out) 
+        print(filepath_out)
+        with open(filepath_out, 'w') as f: json.dump(data, f)
+
+
 # scrape_studies_query()
 # filter_month(6)
 # scrape_content()
@@ -1086,40 +1194,10 @@ def posts_linkedin_new():
 # scrape_studies_latest()
 # scrape_content_new()
 
-# filter_studies_yesterday()
 # filter_ozone_yesterday()
 # summarize_ozone_yesterday()
 
 # posts_linkedin_new()
-
-def gen_website_news():
-    folderpath_in = f'{vault}/studies/ozone'
-    folderpath_out = f'{vault}/studies/processed/articles'
-    try: shutil.rmtree(folderpath_out, ignore_errors=True)
-    except: pass
-    try: os.makedirs(folderpath_out)
-    except: pass
-    filenames_in = os.listdir(folderpath_in)
-    for filename_in in filenames_in:
-        filepath_in = f'{folderpath_in}/{filename_in}'
-        filepath_out = f'{folderpath_out}/{filename_in}'
-        with open(filepath_in) as f: study_content = f.read()
-        content = ' '.join(study_content.split(' ')[:2000])
-
-        # hooks
-        prompt = f'''
-            Write a 800 words article for the following STUDY.
-            follow the GUIDELINES below.
-            ## STUDY
-            {study_content}
-            ## GUIDELINES
-            - Focus the article on ozone.
-            - Don't include keywords.
-            - Don't include references.
-        '''
-        reply = util_ai.gen_reply(prompt, model).strip()
-        create_folder(filepath_out) 
-        with open(filepath_out, 'w') as f: f.write(reply)
 
 gen_website_news()
 
