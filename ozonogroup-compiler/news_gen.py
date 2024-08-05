@@ -59,6 +59,8 @@ def page_news():
     folderpath_in = f'{vault}/studies/processed/articles'
     filenames_in = os.listdir(folderpath_in)
     news_latest_html = ''
+    news_sanificazione_html = ''
+    news_ambiente_html = ''
     for filename_in in filenames_in:
         filepath_in = f'{folderpath_in}/{filename_in}'
         with open(filepath_in) as f: data = json.load(f)
@@ -67,15 +69,40 @@ def page_news():
         article_slug = data['slug'].lower().strip()
         article_title = data['title']
         article_paragraphs = data['body']
+        article_content = ' '.join(article_paragraphs)
+        article_word_num = len(article_content.split(' '))
+        article_time = article_word_num // 100
+        article_desc = ' '.join(article_paragraphs[0].split(' ')[:16]) + '...'
         news_latest_html += f'''
             <a class="no-underline mb-48" href="/news/{article_category}/{article_slug}.html">
                 <img class="object-cover mb-16" height=300 src="/immagini/news/{article_slug}.png">
                 <p>Ozonogroup - 2024/07/29</p>
-                <h3 class="text-32 mb-16">{article_title}</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie luctus massa sollicitudin eleifend. In hac habitasse platea dictumst. Curabitur luctus auctor auctor.</p>
-                <p><span class="text-blue-600">{article_category}</span> - lettura di 8 min</p>
+                <h3 class="text-24 mb-16">{article_title}</h3>
+                <p>{article_desc}</p>
+                <p><span class="text-blue-600">{article_category}</span> - lettura di {article_time} min</p>
             </a>
         '''
+        if article_category == 'sanificazione':
+            news_sanificazione_html += f'''
+                <a class="no-underline mb-48" href="/news/{article_category}/{article_slug}.html">
+                    <img class="object-cover mb-16" height=300 src="/immagini/news/{article_slug}.png">
+                    <p>Ozonogroup - 2024/07/29</p>
+                    <h3 class="text-32 mb-16">{article_title}</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie luctus massa sollicitudin eleifend. In hac habitasse platea dictumst. Curabitur luctus auctor auctor.</p>
+                    <p><span class="text-blue-600">{article_category}</span> - lettura di 8 min</p>
+                </a>
+            '''
+        if article_category == 'ambiente':
+            news_ambiente_html += f'''
+                <a class="no-underline mb-48" href="/news/{article_category}/{article_slug}.html">
+                    <img class="object-cover mb-16" height=300 src="/immagini/news/{article_slug}.png">
+                    <p>Ozonogroup - 2024/07/29</p>
+                    <h3 class="text-32 mb-16">{article_title}</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie luctus massa sollicitudin eleifend. In hac habitasse platea dictumst. Curabitur luctus auctor auctor.</p>
+                    <p><span class="text-blue-600">{article_category}</span> - lettura di 8 min</p>
+                </a>
+            '''
+            
     html = f'''
         <!DOCTYPE html>
         <html lang="en">
@@ -112,12 +139,27 @@ def page_news():
                     </div>
                 </div>
             </section>
+            <section class="mb-96">
+                <div class="container-xl">
+                    <h2 class="text-48 mb-32">Sanificazione</h2>
+                    <div class="grid grid-4 gap-16">
+                        {news_sanificazione_html}
+                    </div>
+                </div>
+            </section>
+            <section class="mb-96">
+                <div class="container-xl">
+                    <h2 class="text-48 mb-32">Ambiente</h2>
+                    <div class="grid grid-4 gap-16">
+                        {news_ambiente_html}
+                    </div>
+                </div>
+            </section>
             {footer_html}
         </body>
     '''
     with open('public/news.html', 'w') as f: f.write(html)
 
-page_news()
 
 def create_folder(filepath):
     chunks = filepath.split('/')[:-1]
@@ -129,7 +171,7 @@ def create_folder(filepath):
         print(folderpath_curr)
 
 def gen_articles():
-    folderpath_in = f'{vault}/studies/processed/articles'
+    folderpath_in = f'{vault}/ozonogroup/news/sanificazione'
 
     filenames_in = os.listdir(folderpath_in)
     for filename_in in filenames_in:
@@ -179,4 +221,5 @@ def gen_articles():
         create_folder(filepath_out)
         with open(filepath_out, 'w') as f: f.write(html)
 
+# page_news()
 gen_articles()
