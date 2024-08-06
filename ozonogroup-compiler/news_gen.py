@@ -56,7 +56,7 @@ for article_filepath in sanificazione_articles_filepaths:
     '''
 
 def page_news():
-    folderpath_in = f'{vault}/studies/processed/articles'
+    folderpath_in = f'{vault}/ozonogroup/news/done'
     filenames_in = os.listdir(folderpath_in)
     news_latest_html = ''
     news_sanificazione_html = ''
@@ -171,7 +171,7 @@ def create_folder(filepath):
         print(folderpath_curr)
 
 def gen_articles():
-    folderpath_in = f'{vault}/ozonogroup/news/sanificazione'
+    folderpath_in = f'{vault}/ozonogroup/news/done'
 
     filenames_in = os.listdir(folderpath_in)
     for filename_in in filenames_in:
@@ -221,5 +221,5 @@ def gen_articles():
         create_folder(filepath_out)
         with open(filepath_out, 'w') as f: f.write(html)
 
-# page_news()
 gen_articles()
+page_news()
