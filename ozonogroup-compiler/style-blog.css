@@ -250,8 +250,24 @@ tbody tr:nth-child(odd) {
     justify-content: center;
 }
 
+.items-start {
+    align-items: flex-start;
+}
+
+.items-end {
+    align-items: flex-end;
+}
+
 .items-center {
     align-items: center;
+}
+
+.items-baseline {
+    align-items: baseline;
+}
+
+.items-stretch {
+    align-items: stretch;
 }
 
 .gap-16 {
@@ -368,6 +384,14 @@ img {
 
 .justify-between {
     justify-content: space-between;
+}
+
+.mt-auto {
+    margin-top: auto;
+}
+
+.mb-auto {
+    margin-bottom: auto;
 }
 
 
