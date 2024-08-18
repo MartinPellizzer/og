@@ -58,6 +58,69 @@ def get_month_name_from_val(num):
     elif num == 12: month_name = 'Dic'
     return month_name
 
+def create_folder(filepath):
+    chunks = filepath.split('/')[:-1]
+    folderpath_curr = ''
+    for chunk in chunks:
+        folderpath_curr += f'{chunk}/'
+        try: os.makedirs(folderpath_curr)
+        except: pass
+        print(folderpath_curr)
+
+def gen_articles():
+    folderpath_in = f'{vault}/ozonogroup/news/done'
+    folderpath_images = f'{vault}/ozonogroup/news/images'
+
+    filenames_in = os.listdir(folderpath_in)
+    for filename_in in filenames_in:
+        filepath_in = f'{folderpath_in}/{filename_in}'
+        with open(filepath_in) as f: data = json.load(f)
+        article_id = data['id']
+        article_category = data['category'].lower().strip()
+        article_slug = data['slug'].lower().strip()
+        article_title = data['title']
+        article_paragraphs = data['body']
+
+        article_paragraphs_html = '' 
+        for article_paragraph in article_paragraphs:
+            article_paragraphs_html += f'<p>{article_paragraph}</p>'
+
+        shutil.copy(f'{folderpath_images}/{article_id}.jpg', f'public/immagini/news/{article_slug}.jpg')
+
+        article_title_html = f'<h1>{article_title}</h1>'
+        image_src = f'/immagini/news/{article_slug}.jpg'
+        article_image_html = f'<img src="{image_src}" alt="">'
+        html = f'''
+            <!DOCTYPE html>
+            <html lang="en">
+
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <link rel="stylesheet" href="/style.css">
+                <title>{title}</title>
+                {g.GOOGLE_TAG}
+            </head>
+
+            <body>
+                {header_html}
+
+                <main class="container-md py-96">
+                    {article_title_html}
+                    {article_image_html}
+                    {article_paragraphs_html}
+                </main>
+
+                {footer_html}
+            </body>
+        '''
+
+        folderpath_out = f'public/news/{article_category}'
+        filepath_out = f'{folderpath_out}/{article_slug}.html'
+        print(filepath_out)
+        create_folder(filepath_out)
+        with open(filepath_out, 'w') as f: f.write(html)
+
 def page_news():
     folderpath_in = f'{vault}/ozonogroup/news/done'
     filenames_in = os.listdir(folderpath_in)
@@ -221,7 +284,7 @@ def page_news():
                 {news_featured_html}
             </div>
 
-            <div class="container-xl mob-flex mb-48">
+            <div class="container-xl mob-flex mb-48 gap-48">
                 <div class="flex-2">
                     <div class="border-0 border-b-4 border-solid border-black mb-24">
                         <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Ultime Notizie</h2>
@@ -278,9 +341,100 @@ def page_news():
                 </div>
 
                 <div class="flex-1">
-                    test
+                    <div>
+                        <div class="border-0 border-b-4 border-solid border-black mb-24">
+                            <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Resta in Contatto</h2>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center gap-16">
+                                <div class="inline-block">
+                                    <img width=48 height=48 src="/immagini-statiche/linkedin.png" alt="logo linkedin">
+                                </div>
+                                <p class="text-12 font-bold text-black">24,856 Followers</p>
+                            </div>
+                            <p class="text-12 font-bold text-black">Follow</p>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <section class="container-xl mob-flex mb-48 gap-48">
+                <div class="flex-2">
+                    <div>
+                        <div class="border-0 border-b-4 border-solid border-black mb-24">
+                            <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Ambiente</h2>
+                        </div>
+                        <div class="flex gap-64">
+                            <div class="flex-1 flex flex-col gap-24">
+                                <div class="">
+                                    <div class="relative mb-16">
+                                        <img class="object-cover" height="240" src="/immagini/news/{news_latest_list[0]['image']}.jpg" alt="">
+                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
+                                    </div>
+                                    <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[0]['title']}</h3>
+                                    <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[0]['date']}</p>
+                                    <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[0]['desc_md']}</p>
+                                </div>
+                                <div class="flex-1 flex flex-col gap-24">
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_latest_list[1]['image']}.jpg" alt="">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[1]['title']}</h3>
+                                            <p class="text-12">{news_latest_list[1]['date']}</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_latest_list[2]['image']}.jpg" alt="">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[2]['title']}</h3>
+                                            <p class="text-12">{news_latest_list[2]['date']}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flex-1 flex flex-col gap-24">
+                                <div class="">
+                                    <div class="relative mb-16">
+                                        <img class="object-cover" height="240" src="/immagini/news/{news_latest_list[1]['image']}.jpg" alt="">
+                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
+                                    </div>
+                                    <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[1]['title']}</h3>
+                                    <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[1]['date']}</p>
+                                    <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[1]['desc_md']}</p>
+                                </div>
+                                <div class="flex-1 flex flex-col gap-24">
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_latest_list[1]['image']}.jpg" alt="">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[1]['title']}</h3>
+                                            <p class="text-12">{news_latest_list[1]['date']}</p>
+                                        </div>
+                                    </div>
+                                    <div class="flex gap-16">
+                                        <div class="flex-2">
+                                            <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_latest_list[2]['image']}.jpg" alt="">
+                                        </div>
+                                        <div class="flex-5">
+                                            <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[2]['title']}</h3>
+                                            <p class="text-12">{news_latest_list[2]['date']}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-1">
+                </div>
+            </section>
 
             <section class="mb-96">
                 <div class="container-xl">
@@ -319,69 +473,6 @@ def page_news():
     '''
     with open('public/news.html', 'w') as f: f.write(html)
 
-
-def create_folder(filepath):
-    chunks = filepath.split('/')[:-1]
-    folderpath_curr = ''
-    for chunk in chunks:
-        folderpath_curr += f'{chunk}/'
-        try: os.makedirs(folderpath_curr)
-        except: pass
-        print(folderpath_curr)
-
-def gen_articles():
-    folderpath_in = f'{vault}/ozonogroup/news/done'
-    folderpath_images = f'{vault}/ozonogroup/news/images'
-
-    filenames_in = os.listdir(folderpath_in)
-    for filename_in in filenames_in:
-        filepath_in = f'{folderpath_in}/{filename_in}'
-        with open(filepath_in) as f: data = json.load(f)
-        article_id = data['id']
-        article_category = data['category'].lower().strip()
-        article_slug = data['slug'].lower().strip()
-        article_title = data['title']
-        article_paragraphs = data['body']
-
-        article_paragraphs_html = '' 
-        for article_paragraph in article_paragraphs:
-            article_paragraphs_html += f'<p>{article_paragraph}</p>'
-
-        shutil.copy(f'{folderpath_images}/{article_id}.jpg', f'public/immagini/news/{article_slug}.jpg')
-
-        article_title_html = f'<h1>{article_title}</h1>'
-        image_src = f'/immagini/news/{article_slug}.jpg'
-        article_image_html = f'<img src="{image_src}" alt="">'
-        html = f'''
-            <!DOCTYPE html>
-            <html lang="en">
-
-            <head>
-                <meta charset="UTF-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <link rel="stylesheet" href="/style.css">
-                <title>{title}</title>
-                {g.GOOGLE_TAG}
-            </head>
-
-            <body>
-                {header_html}
-
-                <main class="container-md py-96">
-                    {article_title_html}
-                    {article_image_html}
-                    {article_paragraphs_html}
-                </main>
-
-                {footer_html}
-            </body>
-        '''
-
-        folderpath_out = f'public/news/{article_category}'
-        filepath_out = f'{folderpath_out}/{article_slug}.html'
-        print(filepath_out)
-        create_folder(filepath_out)
-        with open(filepath_out, 'w') as f: f.write(html)
 
 gen_articles()
 page_news()
