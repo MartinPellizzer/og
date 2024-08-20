@@ -127,77 +127,259 @@ def gen_articles():
         create_folder(filepath_out)
         with open(filepath_out, 'w') as f: f.write(html)
 
-def news_medicine_html(news_medicine):
-    html = f'''
-        <div>
-            <div class="border-0 border-b-4 border-solid border-black mb-24">
-                <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Medicina</h2>
-            </div>
-            <div class="flex gap-64">
+def section_3_html(news_sanificazione, news_medicina):
+    category = 'Medicina'
+    news = news_medicina
+    news_list = []
+    for i in range(4):
+        try: 
+            news_list.append(f'''
                 <div class="flex-1 flex flex-col gap-24">
                     <div class="">
                         <div class="relative mb-16">
-                            <img class="object-cover" height="240" src="/immagini/news/{news_medicine[0]['image']}.jpg" alt="">
-                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Medicina</p>
+                            <img class="object-cover" height="180" src="/immagini/news/{news[i]['image']}.jpg" alt="">
+                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">{category}</p>
                         </div>
-                        <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_medicine[0]['title']}</h3>
-                        <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_medicine[0]['date']}</p>
-                        <p class="{NEWS_LATEST_P_MD} mb-0">{news_medicine[0]['desc_md']}</p>
-                    </div>
-                    <div class="flex-1 flex flex-col gap-24">
-                        <div class="flex gap-16">
-                            <div class="flex-2">
-                                <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_medicine[1]['image']}.jpg" alt="">
-                            </div>
-                            <div class="flex-5">
-                                <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_medicine[1]['title']}</h3>
-                                <p class="text-12">{news_medicine[1]['date']}</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-16">
-                            <div class="flex-2">
-                                <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_medicine[2]['image']}.jpg" alt="">
-                            </div>
-                            <div class="flex-5">
-                                <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_medicine[2]['title']}</h3>
-                                <p class="text-12">{news_medicine[2]['date']}</p>
-                            </div>
-                        </div>
+                        <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[i]['title']}</h3>
                     </div>
                 </div>
+            ''')
+        except:
+            news_list.append(f'''
                 <div class="flex-1 flex flex-col gap-24">
-                    <div class="">
-                        <div class="relative mb-16">
-                            <img class="object-cover" height="240" src="/immagini/news/{news_medicine[1]['image']}.jpg" alt="">
-                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Medicina</p>
-                        </div>
-                        <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_medicine[1]['title']}</h3>
-                        <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_medicine[1]['date']}</p>
-                        <p class="{NEWS_LATEST_P_MD} mb-0">{news_medicine[1]['desc_md']}</p>
+                </div>
+            ''')
+
+    medicina = f'''
+        <div class="flex-1">
+            <div>
+                <div class="border-0 border-b-4 border-solid border-black mb-24">
+                    <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Medicina</h2>
+                </div>
+                <div class="flex flex-col gap-24">
+                    <div class="flex gap-24">
+                        {news_list[0]}
+                        {news_list[1]}
                     </div>
-                    <div class="flex-1 flex flex-col gap-24">
-                        <div class="flex gap-16">
-                            <div class="flex-2">
-                                <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_medicine[1]['image']}.jpg" alt="">
-                            </div>
-                            <div class="flex-5">
-                                <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_medicine[1]['title']}</h3>
-                                <p class="text-12">{news_medicine[1]['date']}</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-16">
-                            <div class="flex-2">
-                                <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news_medicine[2]['image']}.jpg" alt="">
-                            </div>
-                            <div class="flex-5">
-                                <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_medicine[2]['title']}</h3>
-                                <p class="text-12">{news_medicine[2]['date']}</p>
-                            </div>
-                        </div>
+                    <div class="flex gap-24">
+                        {news_list[2]}
+                        {news_list[3]}
                     </div>
                 </div>
             </div>
         </div>
+    '''
+
+    news = news_sanificazione
+    sanificazione_1 = f'''
+        <div class="flex-1 flex flex-col gap-24">
+            <div class="">
+                <div class="relative mb-16">
+                    <img class="object-cover" height="240" src="/immagini/news/{news[0]['image']}.jpg" alt="">
+                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
+                </div>
+                <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news[0]['title']}</h3>
+                <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news[0]['date']}</p>
+                <p class="{NEWS_LATEST_P_MD} mb-0">{news[0]['desc_md']}</p>
+            </div>
+            <div class="flex-1 flex flex-col gap-24">
+                <div class="flex gap-16">
+                    <div class="flex-2">
+                        <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news[1]['image']}.jpg" alt="">
+                    </div>
+                    <div class="flex-5">
+                        <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[1]['title']}</h3>
+                        <p class="text-12">{news[1]['date']}</p>
+                    </div>
+                </div>
+                <div class="flex gap-16">
+                    <div class="flex-2">
+                        <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news[2]['image']}.jpg" alt="">
+                    </div>
+                    <div class="flex-5">
+                        <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[2]['title']}</h3>
+                        <p class="text-12">{news[2]['date']}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    '''
+    try:
+        sanificazione_2_1 = f'''
+            <div class="">
+                <div class="relative mb-16">
+                    <img class="object-cover" height="240" src="/immagini/news/{news[3]['image']}.jpg" alt="">
+                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
+                </div>
+                <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news[3]['title']}</h3>
+                <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news[3]['date']}</p>
+                <p class="{NEWS_LATEST_P_MD} mb-0">{news[3]['desc_md']}</p>
+            </div>
+        '''
+    except:
+        sanificazione_2_1 = '<div></div>'
+
+    try:
+        sanificazione_2_2 = f'''
+            <div class="flex gap-16">
+                <div class="flex-2">
+                    <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news[4]['image']}.jpg" alt="">
+                </div>
+                <div class="flex-5">
+                    <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[4]['title']}</h3>
+                    <p class="text-12">{news[4]['date']}</p>
+                </div>
+            </div>
+        '''
+    except:
+        sanificazione_2_2 = '<div></div>'
+
+    try:
+        sanificazione_2_3 = f'''
+            <div class="flex gap-16">
+                <div class="flex-2">
+                    <img class="object-cover" height="{NEWS_LATEST_IMG_H}" src="/immagini/news/{news[5]['image']}.jpg" alt="">
+                </div>
+                <div class="flex-5">
+                    <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[5]['title']}</h3>
+                    <p class="text-12">{news[5]['date']}</p>
+                </div>
+            </div>
+        '''
+    except:
+        sanificazione_2_3 = '<div></div>'
+
+    sanificazione_2 = f'''
+        <div class="flex-1 flex flex-col gap-24">
+            {sanificazione_2_1}
+            <div class="flex-1 flex flex-col gap-24">
+                {sanificazione_2_2}
+                {sanificazione_2_3}
+            </div>
+        </div>
+    '''
+
+    html = f'''
+        <section class="container-xl mob-flex mb-48 gap-48">
+            <div class="flex-2">
+                <div class="border-0 border-b-4 border-solid border-black mb-24">
+                    <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Sanificazione</h2>
+                </div>
+                <div class="flex gap-48">
+                    {sanificazione_1}
+                    {sanificazione_2}
+                </div>
+            </div>
+            {medicina}
+        </section>
+    '''
+
+    return html
+
+def section_4_html(news_ambiente):
+    category = 'Ambiente'
+    news = news_ambiente
+    html = f'''
+        <section class="container-xl mob-flex mb-48 gap-48">
+            <div class="flex-2">
+                <div>
+                    <div class="border-0 border-b-4 border-solid border-black mb-24">
+                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Ambiente</h2>
+                    </div>
+                    <div class="flex gap-24">
+                        <div class="flex-1 flex flex-col gap-24">
+                            <div class="">
+                                <div class="relative mb-16">
+                                    <img class="object-cover" height="180" src="/immagini/news/{news[0]['image']}.jpg" alt="">
+                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">{category}</p>
+                                </div>
+                                <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[0]['title']}</h3>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 flex flex-col gap-24">
+                            <div class="">
+                                <div class="relative mb-16">
+                                    <img class="object-cover" height="180" src="/immagini/news/{news[1]['image']}.jpg" alt="">
+                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">{category}</p>
+                                </div>
+                                <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[1]['title']}</h3>
+                            </div>
+                        </div>
+
+                        <div class="flex-1 flex flex-col gap-24">
+                            <div class="">
+                                <div class="relative mb-16">
+                                    <img class="object-cover" height="180" src="/immagini/news/{news[2]['image']}.jpg" alt="">
+                                    <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">{category}</p>
+                                </div>
+                                <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news[2]['title']}</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+            </div>
+        </section>
+    '''
+    return html
+
+def section_5_html(news):
+    html = f'''
+        <section class="container-xl mob-flex mb-48 gap-48">
+            <div class="flex-2">
+                <div>
+                    <div class="border-0 border-b-4 border-solid border-black mb-24">
+                        <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Ambiente</h2>
+                    </div>
+                    <div class="flex flex-col gap-32">
+                        <div class="flex gap-24">
+                            <div class="flex-1">
+                                <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[0]['image']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[0]['title']}</h3>
+                                <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[0]['date']}</p>
+                                <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[0]['desc_lg']}</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-24">
+                            <div class="flex-1">
+                                <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[1]['image']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[1]['title']}</h3>
+                                <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[1]['date']}</p>
+                                <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[1]['desc_lg']}</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-24">
+                            <div class="flex-1">
+                                <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[2]['image']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[2]['title']}</h3>
+                                <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[2]['date']}</p>
+                                <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[2]['desc_lg']}</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-24">
+                            <div class="flex-1">
+                                <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[3]['image']}.jpg" alt="">
+                            </div>
+                            <div class="flex-2">
+                                <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[3]['title']}</h3>
+                                <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[3]['date']}</p>
+                                <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[3]['desc_lg']}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex-1">
+            </div>
+        </section>
     '''
     return html
 
@@ -223,6 +405,9 @@ def page_news():
     news_ambiente_html = ''
 
     news_medicine = []
+    news_sanitization = []
+    news_chemistry = []
+    news_ambiente = []
 
     news_latest_list = []
 
@@ -351,6 +536,36 @@ def page_news():
                 'desc_lg': article_desc_lg,
             })
 
+        if article_category == 'sanificazione':
+            news_sanitization.append({
+                'title': article_title,
+                'date': article_date_str,
+                'image': article_slug,
+                'desc': article_desc,
+                'desc_md': article_desc_md,
+                'desc_lg': article_desc_lg,
+            })
+
+        if article_category == 'chimica':
+            news_chemistry.append({
+                'title': article_title,
+                'date': article_date_str,
+                'image': article_slug,
+                'desc': article_desc,
+                'desc_md': article_desc_md,
+                'desc_lg': article_desc_lg,
+            })
+
+        if article_category == 'ambiente':
+            news_ambiente.append({
+                'title': article_title,
+                'date': article_date_str,
+                'image': article_slug,
+                'desc': article_desc,
+                'desc_md': article_desc_md,
+                'desc_lg': article_desc_lg,
+            })
+
     news_featured_html = '\n'.join(news_featured_list)
             
     category_text_size = f'text-32'
@@ -444,190 +659,11 @@ def page_news():
                 </div>
             </div>
 
-            <section class="container-xl mob-flex mb-48 gap-48">
-                <div class="flex-2">
-                    {news_medicine_html(news_medicine)}
-                </div>
-                <div class="flex-1">
-                    <div>
-                        <div class="border-0 border-b-4 border-solid border-black mb-24">
-                            <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Chimica</h2>
-                        </div>
-                        <div class="flex flex-col gap-24">
-                            <div class="flex gap-24">
-                                <div class="flex-1 flex flex-col gap-24">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[0]['image']}.jpg" alt="">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
-                                        </div>
-                                        <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[0]['title']}</h3>
-                                    </div>
-                                </div>
-                                <div class="flex-1 flex flex-col gap-24">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[1]['image']}.jpg" alt="">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
-                                        </div>
-                                        <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[1]['title']}</h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="flex gap-24">
-                                <div class="flex-1 flex flex-col gap-24">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[2]['image']}.jpg" alt="">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
-                                        </div>
-                                        <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[2]['title']}</h3>
-                                    </div>
-                                </div>
-                                <div class="flex-1 flex flex-col gap-24">
-                                    <div class="">
-                                        <div class="relative mb-16">
-                                            <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[3]['image']}.jpg" alt="">
-                                            <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
-                                        </div>
-                                        <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[2]['title']}</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            {section_3_html(news_sanitization, news_medicine)}
 
-            <section class="container-xl mob-flex mb-48 gap-48">
-                <div class="flex-2">
-                    <div>
-                        <div class="border-0 border-b-4 border-solid border-black mb-24">
-                            <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Medicina</h2>
-                        </div>
-                        <div class="flex gap-24">
-                            <div class="flex-1 flex flex-col gap-24">
-                                <div class="">
-                                    <div class="relative mb-16">
-                                        <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[0]['image']}.jpg" alt="">
-                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
-                                    </div>
-                                    <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[0]['title']}</h3>
-                                </div>
-                            </div>
+            {section_4_html(news_ambiente)}
 
-                            <div class="flex-1 flex flex-col gap-24">
-                                <div class="">
-                                    <div class="relative mb-16">
-                                        <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[1]['image']}.jpg" alt="">
-                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
-                                    </div>
-                                    <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[1]['title']}</h3>
-                                </div>
-                            </div>
 
-                            <div class="flex-1 flex flex-col gap-24">
-                                <div class="">
-                                    <div class="relative mb-16">
-                                        <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[2]['image']}.jpg" alt="">
-                                        <p class="absolute bottom-0 text-12 bg-black text-white pl-8 pr-8 pt-2 pb-2">Sanificazione</p>
-                                    </div>
-                                    <h3 class="{NEWS_LATEST_H3_SM} mb-8">{news_latest_list[2]['title']}</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                </div>
-            </section>
-
-            <section class="container-xl mob-flex mb-48 gap-48">
-                <div class="flex-2">
-                    <div>
-                        <div class="border-0 border-b-4 border-solid border-black mb-24">
-                            <h2 class="text-16 font-normal uppercase bg-black text-white pl-16 pr-16 pt-8 pb-4 inline-block">Ambiente</h2>
-                        </div>
-                        <div class="flex flex-col gap-32">
-                            <div class="flex gap-24">
-                                <div class="flex-1">
-                                    <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[0]['image']}.jpg" alt="">
-                                </div>
-                                <div class="flex-2">
-                                    <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[0]['title']}</h3>
-                                    <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[0]['date']}</p>
-                                    <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[0]['desc_lg']}</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-24">
-                                <div class="flex-1">
-                                    <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[1]['image']}.jpg" alt="">
-                                </div>
-                                <div class="flex-2">
-                                    <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[1]['title']}</h3>
-                                    <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[1]['date']}</p>
-                                    <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[1]['desc_lg']}</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-24">
-                                <div class="flex-1">
-                                    <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[2]['image']}.jpg" alt="">
-                                </div>
-                                <div class="flex-2">
-                                    <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[2]['title']}</h3>
-                                    <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[2]['date']}</p>
-                                    <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[2]['desc_lg']}</p>
-                                </div>
-                            </div>
-                            <div class="flex gap-24">
-                                <div class="flex-1">
-                                    <img class="object-cover" height="180" src="/immagini/news/{news_latest_list[3]['image']}.jpg" alt="">
-                                </div>
-                                <div class="flex-2">
-                                    <h3 class="{NEWS_LATEST_H3_LG} font-normal mb-8">{news_latest_list[3]['title']}</h3>
-                                    <p class="{NEWS_LATEST_P_SM} mb-16"><span class="font-bold text-black">Ozonogroup</span> - {news_latest_list[3]['date']}</p>
-                                    <p class="{NEWS_LATEST_P_MD} mb-0">{news_latest_list[3]['desc_lg']}</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex-1">
-                </div>
-            </section>
-
-            <section class="mb-96">
-                <div class="container-xl">
-                    <h2 class="{category_text_size} mb-32">Ultime Notizie</h2>
-                    <div class="grid grid-4 gap-16">
-                        {news_latest_html}
-                    </div>
-                </div>
-            </section>
-            <section class="mb-96">
-                <div class="container-xl">
-                    <h2 class="{category_text_size} mb-32">Sanificazione</h2>
-                    <div class="grid grid-4 gap-16">
-                        {news_sanificazione_html}
-                    </div>
-                </div>
-            </section>
-            <section class="mb-96">
-                <div class="container-xl">
-                    <h2 class="{category_text_size} mb-32">Ambiente</h2>
-                    <div class="grid grid-4 gap-16">
-                        {news_ambiente_html}
-                    </div>
-                </div>
-            </section>
-            <section class="mb-96">
-                <div class="container-xl">
-                    <h2 class="{category_text_size} mb-32">Lavorazione</h2>
-                    <div class="grid grid-4 gap-16">
-                        {news_lavorazione_html}
-                    </div>
-                </div>
-            </section>
             {footer_html}
         </body>
     '''

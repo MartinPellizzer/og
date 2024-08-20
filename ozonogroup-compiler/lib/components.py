@@ -4,8 +4,6 @@ def header():
           <a class="text-16 uppercase text-black no-underline" href="/">Ozonogroup</a>
           <nav class="flex gap-16">
               <a class="text-16 uppercase text-black no-underline" href="/news.html">News</a>
-              <a class="text-16 uppercase text-black no-underline" href="/risorse.html">Risorse</a>
-              <a class="text-16 uppercase text-black no-underline" href="/servizi.html">Servizi</a>
           </nav>
       </header>
     '''
