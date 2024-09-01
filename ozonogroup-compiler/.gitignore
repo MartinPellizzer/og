@@ -1,2 +1,4 @@
 api.txt
 venv-news/
+venv_main/
+__pycache__/
