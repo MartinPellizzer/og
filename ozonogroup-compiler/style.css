@@ -214,6 +214,10 @@ svg {
     width: 100%;
 }
 
+.bg-emerald-700 {
+    color: #047857;
+}
+
 
 
 /* SPACING -------------------------------------------------------------- */
@@ -227,19 +231,28 @@ svg {
 }
 
 .py-32 {
-    padding: 3.2rem 0;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
 }
 
 .py-48 {
-    padding: 4.8rem 0;
+    padding-top: 4.8rem;
+    padding-bottom: 4.8rem;
 }
 
 .py-64 {
-    padding: 6.4rem 0;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
 }
 
 .py-96 {
-    padding: 9.6rem 0;
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.py-192 {
+    padding-top: 19.2rem;
+    padding-bottom: 19.2rem;
 }
 
 .pt-lg {
@@ -713,6 +726,11 @@ svg {
     line-height: 3.2rem;
 }
 
+.text-36 {
+    font-size: 3.6rem;
+    line-height: 4.0rem;
+}
+
 .text-32 {
     font-size: 3.2rem;
     line-height: 3.6rem;
@@ -810,6 +828,11 @@ svg {
     padding-right: 3.2rem;
 }
 
+.px-48 {
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+}
+
 .px-64 {
     padding-left: 6.4rem;
     padding-right: 6.4rem;
@@ -882,6 +905,17 @@ svg {
     color: black;
     padding: 1.6rem 3.2rem;
     text-decoration: none;
+}
+
+.button-1-fill {
+    display: inline-block;
+    color: white;
+    background-color: black;
+    padding: 1.6rem 3.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    line-height: 1;
 }
 
 /************************/
@@ -1054,6 +1088,10 @@ svg {
     top: 0;
 }
 
+.top-32 {
+    top: 3.2rem;
+}
+
 .h-50p {
     height: 50%;
 }
@@ -1127,3 +1165,31 @@ svg {
     .mob-flex {
         display: flex;
     }
+
+.h-screen {
+    height: 100vh;
+}
+
+.h-80vh {
+    height: 80vh;
+}
+
+.top-50p {
+    top: 50%;
+}
+
+.w-50p {
+    width: 50%;
+}
+
+.w-75p {
+    width: 75%;
+}
+
+.h-70v {
+    height: 70vh;
+}
+
+.h-80v {
+    height: 80vh;
+}
