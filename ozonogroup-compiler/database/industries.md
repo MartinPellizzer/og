@@ -1,5 +1,0 @@
-vitivinicola
-birraria
-avicola
-salumiera
-cerealicola

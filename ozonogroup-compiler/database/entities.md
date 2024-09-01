@@ -1,2 +1,0 @@
-# lattiero-casearia
-# zootecnica
