@@ -2,3 +2,5 @@ news/venv/
 news/venv-metapub/
 news/venv-pubmed/
 scraper/venv/
+ozonogroup-compiler/venv-main/
+ozonogroup-compiler/venv-news/

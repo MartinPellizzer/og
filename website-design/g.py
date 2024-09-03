@@ -1,1 +1,0 @@
-PARAGRAPH_SIZE = 'text-18'
