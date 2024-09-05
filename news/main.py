@@ -418,7 +418,7 @@ def save_article():
     }
     json_write(f'{news_done_folderpath}/{pmid}.json', data)
     shutil.copy('tmp/final.jpg', f'{news_images_folderpath}/{pmid}.jpg')
-    
+
 # study
 width = 100
 study_frame = Frame(root)
