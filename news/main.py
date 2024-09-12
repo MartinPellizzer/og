@@ -12,7 +12,6 @@ from oliark import json_read, json_write
 from oliark import today
 from oliark_llm import llm_reply
 
-
 proj = 'ozonogroup'
 query = f'ozone'.strip().lower()
 query_slug = query.replace(' ', '-')
@@ -406,6 +405,18 @@ def save_article():
     category = category_entry.get()
     body = body_textarea.get(1.0, END) 
     body = body.strip().split('\n\n')
+
+    date_curr = datetime.datetime.now()
+    year_curr = date_curr.year
+    month_curr = date_curr.month
+    day_curr = date_curr.day
+    year_curr = str(year_curr)
+    if month_curr < 10: month_curr = f'0{month_curr}'
+    else: month_curr = str(month_curr)
+    if day_curr < 10: day_curr = f'0{day_curr}'
+    else: day_curr = str(day_curr)
+    date_final = f'{year_curr}/{month_curr}/{day_curr}'
+
     data = {
         'id': pmid,
         'year': year,
@@ -415,9 +426,11 @@ def save_article():
         'slug': slug,
         'category': category,
         'body': body,
+        'date_published': date_final,
     }
     json_write(f'{news_done_folderpath}/{pmid}.json', data)
     shutil.copy('tmp/final.jpg', f'{news_images_folderpath}/{pmid}.jpg')
+    shutil.copy('tmp/final.jpg', f'{vault}/ozonogroup/website/immagini/news/{slug}.jpg')
 
 # study
 width = 100
