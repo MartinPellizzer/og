@@ -8,15 +8,28 @@ import shutil
 from tkinter import *
 from PIL import ImageTk, Image
 
-from oliark import json_read, json_write
-from oliark import today
+from oliark_io import json_read, json_write
 from oliark_llm import llm_reply
+
+import torch
+from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
+from diffusers import DPMSolverMultistepScheduler
+
+checkpoint_filepath = '/home/ubuntu/vault/stable-diffusion/checkpoints/juggernautXL_juggXIByRundiffusion.safetensors'
+pipe = StableDiffusionXLPipeline.from_single_file(
+    checkpoint_filepath, 
+    torch_dtype=torch.float16, 
+    use_safetensors=True, 
+    variant="fp16"
+).to('cuda')
+pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
 
 proj = 'ozonogroup'
 query = f'ozone'.strip().lower()
 query_slug = query.replace(' ', '-')
 
 vault = '/home/ubuntu/vault'
+vault_tmp = '/home/ubuntu/vault-tmp'
 pubmed_folderpath = f'{vault}/{proj}/studies/pubmed'
 query_folderpath = f'{pubmed_folderpath}/{query_slug}'
 master_filepath = f'{query_folderpath}/master.csv'
@@ -28,7 +41,7 @@ news_images_folderpath = f'{news_folderpath}/images'
 news_tmp_folderpath = f'{news_folderpath}/tmp'
 
 llms_path = f'{vault}/llms'
-model_path = f'{llms_path}/Meta-Llama-3.1-8B-Instruct-Q4_K_S.gguf'
+model_path = f'{vault_tmp}/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
 
 def get_studies_in_rows():
     todo_folderpath = f'{query_folderpath}/json'
@@ -311,6 +324,8 @@ def get_image():
     prompt = image_entry.get()
     if prompt.strip() == '': return
     if image_var.get() == 1:
+        export_filepath = f'tmp/final.jpg'
+        '''
         payload = {
             "prompt": prompt,
             "width": 1024,
@@ -325,9 +340,11 @@ def get_image():
         }
         response = requests.post(url='http://127.0.0.1:7860/sdapi/v1/txt2img', json=payload)
         r = response.json()
-        export_filepath = f'tmp/final.jpg'
         with open(export_filepath, 'wb') as f:
             f.write(base64.b64decode(r['images'][0]))
+        '''
+        image = pipe(prompt=prompt, num_inference_steps=25).images[0]
+        image.save(export_filepath)
     else:
         tags = prompt.split(', ')
         tag_curr = ''
