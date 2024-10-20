@@ -29,6 +29,7 @@ query = f'ozone'.strip().lower()
 query_slug = query.replace(' ', '-')
 
 vault = '/home/ubuntu/vault'
+proj_folderpath = '/home/ubuntu/proj'
 vault_tmp = '/home/ubuntu/vault-tmp'
 pubmed_folderpath = f'{vault}/{proj}/studies/pubmed'
 query_folderpath = f'{pubmed_folderpath}/{query_slug}'
@@ -448,6 +449,7 @@ def save_article():
     json_write(f'{news_done_folderpath}/{pmid}.json', data)
     shutil.copy('tmp/final.jpg', f'{news_images_folderpath}/{pmid}.jpg')
     shutil.copy('tmp/final.jpg', f'{vault}/ozonogroup/website/immagini/news/{slug}.jpg')
+    shutil.copy('tmp/final.jpg', f'{proj_folderpath}/og/website/public/immagini/news/{slug}.jpg')
 
 # study
 width = 100
