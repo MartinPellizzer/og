@@ -6,8 +6,9 @@ from oliark_io import json_read
 
 vault = f'/home/ubuntu/vault'
 public_folderpath = f'public'
+output_path = f'{vault}/ozonogroup/website/ozonogroup'
 
-shutil.copy2('style.css', 'public/style.css')
+shutil.copy2('style.css', f'{output_path}/style.css')
 
 news_folderpath = f'{vault}/ozonogroup/news/done'
 jsons_filepaths = [f'{news_folderpath}/{filename}' for filename in os.listdir(news_folderpath)]
@@ -410,7 +411,7 @@ html = f'''
     </html>
 '''
 
-file_write(f'{public_folderpath}/news.html', html)
+file_write(f'{output_path}/news.html', html)
 
 def news_articles():
     for article in news:
@@ -446,7 +447,6 @@ def news_articles():
                     <img class="mb-16" src="/immagini/news/{article_slug}.jpg">
                     {article_body_formatted}
                 </section>
-
                 <section class="footer-section">
                     <div class="container-xl h-full">
                         <footer class="flex items-center justify-center">
@@ -458,6 +458,6 @@ def news_articles():
             </html>
         '''
 
-        file_write(f'{public_folderpath}/news/{article_category}/{article_slug}.html', html)
+        file_write(f'{output_path}/news/{article_category}/{article_slug}.html', html)
 
 news_articles()

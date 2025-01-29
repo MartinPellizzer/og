@@ -1,0 +1,265 @@
+[
+    {
+        "entity_type": "contaminazione",
+        "entity_category": "batteri",
+        "entity_slug": "listeria-monocytogenes",
+        "entity_name_scientific": "listeria monocytogenes",
+        "entity_name_common": "listeria",
+        "symptoms": [
+            {
+                "name": "meningitis",
+                "mentions": 35
+            },
+            {
+                "name": "fever",
+                "mentions": 25
+            },
+            {
+                "name": "meningoencephalitis",
+                "mentions": 18
+            },
+            {
+                "name": "headache",
+                "mentions": 16
+            },
+            {
+                "name": "sepsis",
+                "mentions": 11
+            },
+            {
+                "name": "rhombencephalitis",
+                "mentions": 11
+            },
+            {
+                "name": "bacteremia",
+                "mentions": 9
+            },
+            {
+                "name": "meningo-encephalitis",
+                "mentions": 8
+            },
+            {
+                "name": "gastroenteritis",
+                "mentions": 6
+            },
+            {
+                "name": "brain abscess",
+                "mentions": 6
+            },
+            {
+                "name": "acute hydrocephalus",
+                "mentions": 6
+            },
+            {
+                "name": "hemiparesis",
+                "mentions": 6
+            },
+            {
+                "name": "abscesses",
+                "mentions": 5
+            },
+            {
+                "name": "septicaemia",
+                "mentions": 5
+            },
+            {
+                "name": "rhomboencephalitis",
+                "mentions": 5
+            },
+            {
+                "name": "central nervous system infections",
+                "mentions": 4
+            },
+            {
+                "name": "confusion",
+                "mentions": 4
+            },
+            {
+                "name": "respiratory failure",
+                "mentions": 4
+            },
+            {
+                "name": "nausea",
+                "mentions": 4
+            },
+            {
+                "name": "vomiting",
+                "mentions": 4
+            }
+        ],
+        "foods": [
+            {
+                "name": "soft cheese",
+                "mentions": 15
+            },
+            {
+                "name": "leafy vegetables",
+                "mentions": 14
+            },
+            {
+                "name": "lunchmeats",
+                "mentions": 13
+            },
+            {
+                "name": "dairy products",
+                "mentions": 11
+            },
+            {
+                "name": "smoked salmon",
+                "mentions": 8
+            },
+            {
+                "name": "smoked seafood",
+                "mentions": 7
+            },
+            {
+                "name": "unpasteurized milk",
+                "mentions": 7
+            },
+            {
+                "name": "fish",
+                "mentions": 6
+            },
+            {
+                "name": "meat products",
+                "mentions": 6
+            },
+            {
+                "name": "raw milk",
+                "mentions": 6
+            },
+            {
+                "name": "prepackaged salads",
+                "mentions": 5
+            },
+            {
+                "name": "soft cheeses",
+                "mentions": 5
+            },
+            {
+                "name": "poultry meat",
+                "mentions": 5
+            },
+            {
+                "name": "processed foods",
+                "mentions": 5
+            },
+            {
+                "name": "chicken portions",
+                "mentions": 4
+            },
+            {
+                "name": "ice cream products",
+                "mentions": 4
+            },
+            {
+                "name": "salami",
+                "mentions": 4
+            },
+            {
+                "name": "smoked fish",
+                "mentions": 4
+            },
+            {
+                "name": "cold-smoked salmon",
+                "mentions": 4
+            },
+            {
+                "name": "hot dogs",
+                "mentions": 4
+            }
+        ],
+        "treatments": [
+            {
+                "name": "pastorizzazione",
+                "confidence_score": 599,
+                "mentions": 62,
+                "total_score": 37138
+            },
+            {
+                "name": "alta pressione",
+                "confidence_score": 436,
+                "mentions": 59,
+                "total_score": 25724
+            },
+            {
+                "name": "trattamento termico",
+                "confidence_score": 448,
+                "mentions": 48,
+                "total_score": 21504
+            },
+            {
+                "name": "luce uv",
+                "confidence_score": 365,
+                "mentions": 52,
+                "total_score": 18980
+            },
+            {
+                "name": "acqua elettrolitica",
+                "confidence_score": 294,
+                "mentions": 50,
+                "total_score": 14700
+            },
+            {
+                "name": "acidificazione",
+                "confidence_score": 355,
+                "mentions": 41,
+                "total_score": 14555
+            },
+            {
+                "name": "conservazione a bassa temperatura",
+                "confidence_score": 327,
+                "mentions": 38,
+                "total_score": 12426
+            },
+            {
+                "name": "atmosfera modificata",
+                "confidence_score": 290,
+                "mentions": 41,
+                "total_score": 11890
+            },
+            {
+                "name": "acido lattico",
+                "confidence_score": 290,
+                "mentions": 39,
+                "total_score": 11310
+            },
+            {
+                "name": "ozono",
+                "confidence_score": 172,
+                "mentions": 29,
+                "total_score": 4988
+            },
+            {
+                "name": "nisin",
+                "confidence_score": 94,
+                "mentions": 15,
+                "total_score": 1410
+            },
+            {
+                "name": "perossido di idrogeno",
+                "confidence_score": 94,
+                "mentions": 14,
+                "total_score": 1316
+            },
+            {
+                "name": "lavaggio acido",
+                "confidence_score": 83,
+                "mentions": 12,
+                "total_score": 996
+            },
+            {
+                "name": "batteriofago",
+                "confidence_score": 70,
+                "mentions": 14,
+                "total_score": 980
+            },
+            {
+                "name": "corrente elettrica pulsata",
+                "confidence_score": 58,
+                "mentions": 10,
+                "total_score": 580
+            }
+        ]
+    }
+]
