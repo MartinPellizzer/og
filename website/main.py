@@ -740,6 +740,25 @@ def a_contaminazione(vertex_contaminazione):
         json_article[key] = reply
         json_write(json_article_filepath, json_article)
 
+    key = 'where_ambients_intro'
+    if key not in json_article: json_article[key] = []
+    # json_article[key] = []
+    if json_article[key] == []:
+        # foods_names_prompt = ', '.join(foods_names)
+        prompt = f'''
+            write a short 3-sentence paragraph about the ambients at higher risk of being contaminated with {contaminazione_nome_scientifico}.
+            include examples, expecially in industrial environments.
+            don't mention foods.
+            only talk about enviroments, don't give conclusory statements.
+            reply only with the paragraph.
+            start with the following words: Gli ambienti col maggior rischio di contaminazione da {contaminazione_nome_scientifico} sono .
+            reply in italian.
+        '''
+        print(prompt)
+        reply = llm_reply(prompt)
+        json_article[key] = reply
+        json_write(json_article_filepath, json_article)
+
     if 0:
         for section in sections:
             key = section['slug']
@@ -901,9 +920,21 @@ def a_contaminazione(vertex_contaminazione):
             <img src="{image_filepath}" class="food-grid-img">
         '''
     
+    html_section_where = f'''
+        <section class="container-xl mt-48">
+            <h2>Dove si trova {contaminazione_nome_scientifico}?</h2>
+            {text_format_1N1_html(json_article['where'])}
+        </section>
+    '''
+    html_section_where_ambients = f'''
+        <section class="container-xl mt-48">
+            <h3>Ambienti ad alto rischio di {contaminazione_nome_scientifico}</h3>
+            {text_format_1N1_html(json_article['where_ambients_intro'])}
+        </section>
+    '''
     html_section_foods = f'''
         <section class="container-xl mt-48">
-            <h3>Quali alimenti sono ad altro rischio di {contaminazione_nome_scientifico}?</h3>
+            <h3>Cibi ad altro rischio di {contaminazione_nome_scientifico}</h3>
             {text_format_1N1_html(json_article['where_aliments_intro'])}
             <div class="separator_line"></div>
             <div class="grid-2 gap-48">
@@ -933,6 +964,8 @@ def a_contaminazione(vertex_contaminazione):
         {head_html}
         <body>
             {html_layout}
+            {html_section_where}
+            {html_section_where_ambients}
             {html_section_foods}
         </body>
         </html>
