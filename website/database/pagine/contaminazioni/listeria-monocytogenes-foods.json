@@ -1,0 +1,86 @@
+[
+    {
+        "food_category": "latticini",
+        "foods_names": [
+            "ricotta",
+            "feta",
+            "burrata",
+            "provolone",
+            "gorgonzola",
+            "brie",
+            "formaggio",
+            "mozzarella",
+            "uova",
+            "yogurt",
+            "sformato",
+            "crescione",
+            "formaggio blu",
+            "parmigiano"
+        ]
+    },
+    {
+        "food_category": "carni",
+        "foods_names": [
+            "p\u00e2t\u00e9",
+            "foie",
+            "carpaccio",
+            "prosciutto",
+            "mortadella",
+            "frittata",
+            "salame",
+            "affettato",
+            "salsiccia",
+            "hotdog",
+            "pat\u00e9",
+            "affettati",
+            "rag\u00f9"
+        ]
+    },
+    {
+        "food_category": "dolci",
+        "foods_names": [
+            "mousse",
+            "panna",
+            "queso",
+            "torta",
+            "tartufo",
+            "frittelle",
+            "crostata"
+        ]
+    },
+    {
+        "food_category": "frutta e verdura",
+        "foods_names": [
+            "fagioli",
+            "pere",
+            "melone",
+            "pomodoro",
+            "avocado",
+            "carote"
+        ]
+    },
+    {
+        "food_category": "pesce",
+        "foods_names": [
+            "salmone",
+            "sashimi"
+        ]
+    },
+    {
+        "food_category": "altro",
+        "foods_names": [
+            "riso",
+            "pesto",
+            "hummus",
+            "burro",
+            "miele",
+            "umami"
+        ]
+    },
+    {
+        "food_category": "bevande",
+        "foods_names": [
+            "latte"
+        ]
+    }
+]

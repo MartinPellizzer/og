@@ -11,7 +11,8 @@ from oliark_llm import llm_reply
 vault_tmp = '/home/ubuntu/vault-tmp'
 collection_name = 'listeria'
 
-vertices = json_read('vertices.json')
+vertices_filepath = f'vertices.json'
+vertices = json_read(vertices_filepath)
 
 model = f'{vault_tmp}/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
 model_validator_filepath = f'{vault_tmp}/llms/Llama-3-Partonus-Lynx-8B-Intstruct-Q4_K_M.gguf'
@@ -41,6 +42,67 @@ prompt = f'''
 
 '''
 
+for vertex in vertices:
+    contamination_slug = vertex['contamination_slug']
+    contamination_name_scientific = vertex['contamination_name_scientific']
+    key = 'foods'
+    if key not in vertex: vertex[key] = []
+    vertex[key] = []
+    if vertex[key] == []:
+        outputs = []
+        tries_num = 100
+        for i in range(tries_num):
+            print(f'{i}/{tries_num}')
+            rand_list_items = random.randint(7, 13)
+            prompt = f'''
+                Write a list of the {rand_list_items} foods names that are at most risk to be contaminate with {contamination_name_scientific}.
+                Write each list item using only 1 word.
+                Also, write a confidence score from 1 to 10 for each list item, indicating how much you believe that answer is correct.
+                Use as few words as possible.
+                Reply with the following JSON format:
+                [
+                    {{"name": "write name 1 here", "score": 10}},
+                    {{"name": "write name 2 here", "score": 5}},
+                    {{"name": "write name 3 here", "score": 7}}
+                ]
+                Reply only with the JSON.
+                Reply in Italian.
+            '''
+            reply = llm_reply(prompt)
+            try: json_reply = json.loads(reply)
+            except: json_reply = {}
+            if json_reply != {}:
+                for item_reply in json_reply:
+                    try: name = item_reply['name'].strip().lower()
+                    except: continue
+                    try: score = int(item_reply['score'])
+                    except: continue
+                    found = False
+                    for output in outputs:
+                        if output['name'] == name:
+                            output['score'] += score
+                            output['mentions'] += 1
+                            output['score_tot'] = output['score'] * output['mentions']
+                            found = True
+                            break
+                    if not found:
+                        outputs.append({
+                            'name': name, 
+                            'score': score, 
+                            'mentions': 1,
+                            'score_tot': score / 1,
+                        })
+        outputs = sorted(outputs, key=lambda x: x['score_tot'], reverse=True)
+        for output in outputs:
+            print(output)
+        for output in outputs[:]:
+            vertex[key] = outputs
+            j = json.dumps(vertices, indent=4)
+            with open(vertices_filepath, 'w') as f:
+                print(j, file=f)
+        quit()
+
+quit()
 db_path = f'{vault_tmp}/og/chroma'
 sentence_transformer_ef = embedding_functions.SentenceTransformerEmbeddingFunction(
     model_name='all-mpnet-base-v2', 
@@ -165,6 +227,8 @@ def gen_vertex_attr_lst_from_studies(key, query, question, prompt_var):
     with open('vertices.json', 'w') as f:
         print(j, file=f)
 
+def gen_vertex_attr_lst():
+    pass
 
 for vertex in vertices:
     entity_type = vertex['entity_type']
@@ -259,7 +323,6 @@ for vertex in vertices:
             with open('vertices.json', 'w') as f:
                 print(j, file=f)
 
-
     if 0:
         key = 'foods'
         query = f'{entity_name_scientific} foods'
@@ -275,51 +338,106 @@ for vertex in vertices:
             '''
             )
 
-
     key = 'treatments'
-    outputs = []
-    for _ in range(100):
-        lst_num_rnd = random.randint(7, 13)
-        prompt = f'''
-            Write a list of the {lst_num_rnd} most used treatments for {entity_name_scientific} in the food processing industry.
-            Write each list item in 1 or 2 words.
-            Also, write a confidence score from 1 to 10 for each list item, indicating how sure you are about the answer.
-            Reply using the structure of the followng JSON:
-            [
-                {{"name": "<write name 1 here>", "confidence_score": 10}},
-                {{"name": "<write name 2 here>", "confidence_score": 5}},
-                {{"name": "<write name 3 here>", "confidence_score": 7}}
-            ]
-            Write only the JSON.
-        '''
-        reply = llm_reply(prompt)
-        try: json_reply = json.loads(reply)
-        except: json_reply = {}    
-        if json_reply != {}:
-            for json_reply_item in json_reply:
-                try: name = json_reply_item['name'].strip().lower()
-                except: continue
-                try: confidence_score = json_reply_item['confidence_score']
-                except: continue
-                found = False
-                for output in outputs:
-                    if name == output['name']:
-                        found = True
-                        output['mentions'] += 1
-                        output['confidence_score'] += confidence_score
-                        output['total_score'] = output['confidence_score'] * output['mentions']
-                if not found:
-                    outputs.append({
-                        'name': name,
-                        'confidence_score': confidence_score,
-                        'mentions': 1,
-                        'total_score': confidence_score * 1,
-                    })
-    outputs = sorted(outputs, key=lambda x: x['total_score'], reverse=True)
-    for output in outputs:
-        print(output)
-    vertex['treatments'] = outputs[:20]
-    j = json.dumps(vertices, indent=4)
-    with open('vertices.json', 'w') as f:
-        print(j, file=f)
+    if key not in vertex: vertex[key] = []
+    # vertex[key] = []
+    if vertex[key] == []:
+        outputs = []
+        for _ in range(100):
+            lst_num_rnd = random.randint(7, 13)
+            prompt = f'''
+                Write a list of the {lst_num_rnd} most used treatments for {entity_name_scientific} in the food processing industry.
+                Write each list item in 1 or 2 words.
+                Also, write a confidence score from 1 to 10 for each list item, indicating how sure you are about the answer.
+                Reply using the structure of the followng JSON:
+                [
+                    {{"name": "<write name 1 here>", "confidence_score": 10}},
+                    {{"name": "<write name 2 here>", "confidence_score": 5}},
+                    {{"name": "<write name 3 here>", "confidence_score": 7}}
+                ]
+                Write only the JSON.
+            '''
+            reply = llm_reply(prompt)
+            try: json_reply = json.loads(reply)
+            except: json_reply = {}    
+            if json_reply != {}:
+                for json_reply_item in json_reply:
+                    try: name = json_reply_item['name'].strip().lower()
+                    except: continue
+                    try: confidence_score = json_reply_item['confidence_score']
+                    except: continue
+                    found = False
+                    for output in outputs:
+                        if name == output['name']:
+                            found = True
+                            output['mentions'] += 1
+                            output['confidence_score'] += confidence_score
+                            output['total_score'] = output['confidence_score'] * output['mentions']
+                    if not found:
+                        outputs.append({
+                            'name': name,
+                            'confidence_score': confidence_score,
+                            'mentions': 1,
+                            'total_score': confidence_score * 1,
+                        })
+        outputs = sorted(outputs, key=lambda x: x['total_score'], reverse=True)
+        for output in outputs:
+            print(output)
+        vertex['treatments'] = outputs[:20]
+        j = json.dumps(vertices, indent=4)
+        with open('vertices.json', 'w') as f:
+            print(j, file=f)
+
+    key = 'foods'
+    if key not in vertex: vertex[key] = []
+    vertex[key] = []
+    if vertex[key] == []:
+        outputs = []
+        for _ in range(100):
+            lst_num_rnd = random.randint(7, 13)
+            prompt = f'''
+                Write a list of the {lst_num_rnd} most common foods names where you find {entity_name_scientific} in the food processing industry.
+                Write each list item using only 1 words.
+                Also, write a confidence score from 1 to 10 for each list item, indicating how sure you are about the answer.
+                Reply using the structure of the followng JSON:
+                [
+                    {{"name": "<write name 1 here>", "confidence_score": 10}},
+                    {{"name": "<write name 2 here>", "confidence_score": 5}},
+                    {{"name": "<write name 3 here>", "confidence_score": 7}}
+                ]
+                Write only the JSON.
+                Write te names of foods in italian.
+            '''
+            reply = llm_reply(prompt)
+            try: json_reply = json.loads(reply)
+            except: json_reply = {}    
+            if json_reply != {}:
+                for json_reply_item in json_reply:
+                    try: name = json_reply_item['name'].strip().lower()
+                    except: continue
+                    try: confidence_score = json_reply_item['confidence_score']
+                    except: continue
+                    found = False
+                    for output in outputs:
+                        if name == output['name']:
+                            found = True
+                            output['mentions'] += 1
+                            output['confidence_score'] += confidence_score
+                            output['total_score'] = output['confidence_score'] * output['mentions']
+                    if not found:
+                        outputs.append({
+                            'name': name,
+                            'confidence_score': confidence_score,
+                            'mentions': 1,
+                            'total_score': confidence_score * 1,
+                        })
+        outputs = sorted(outputs, key=lambda x: x['total_score'], reverse=True)
+        for output in outputs:
+            print(output)
+        vertex[key] = outputs[:20]
+        j = json.dumps(vertices, indent=4)
+        with open('vertices.json', 'w') as f:
+            print(j, file=f)
+
+
 

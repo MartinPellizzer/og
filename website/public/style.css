@@ -23,9 +23,21 @@ body {
     font-family: helvetica-regular, sans-serif;
 }
 
+h1 {
+    font-size: 6.4rem;
+    margin-bottom: 1.6rem;
+}
+
 h2 {
     font-size: 4.8rem;
-    text-align: center;
+    line-height: 5.6rem;
+    margin-top: 4.8rem;
+    margin-bottom: 1.6rem;
+}
+
+h3 {
+    font-size: 2.4rem;
+    line-height: 3.2rem;
     margin-bottom: 1.6rem;
 }
 
@@ -33,10 +45,21 @@ p {
     font-size: 1.8rem;
     line-height: 2.7rem;
     margin-bottom: 1.6rem;
+    color: #303030;
 }
 
 img {
     width: 100%;
+}
+
+ul {
+    margin-left: 3.2rem
+}
+
+li {
+    font-size: 1.8rem;
+    color: #303030;
+    line-height: 3.2rem;
 }
 
 .container-xl {
@@ -165,6 +188,50 @@ img {
     margin-bottom: 3.2rem;
 }
 
+.mt-48 {
+    margin-top: 4.8rem;
+}
+
 .text-center {
     text-align: center;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #303030;
+    width: 100%;
+}
+
+table th {
+    border: 1px solid #303030;
+    padding: 1.2rem 2.4rem;
+    text-align: left;
+}
+
+table td {
+    border: 1px solid #303030;
+    padding: 1.2rem 2.4rem;
+}
+
+.food-grid-img {
+    height: 16rem;
+    object-fit: cover;
+}
+
+.separator_line {
+    height: 1px;
+    width: 100%;
+    background-color: #303030;
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
 }

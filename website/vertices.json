@@ -1,264 +1,874 @@
 [
     {
         "entity_type": "contaminazione",
-        "entity_category": "batteri",
-        "entity_slug": "listeria-monocytogenes",
-        "entity_name_scientific": "listeria monocytogenes",
-        "entity_name_common": "listeria",
-        "symptoms": [
-            {
-                "name": "meningitis",
-                "mentions": 35
-            },
-            {
-                "name": "fever",
-                "mentions": 25
-            },
-            {
-                "name": "meningoencephalitis",
-                "mentions": 18
-            },
-            {
-                "name": "headache",
-                "mentions": 16
-            },
-            {
-                "name": "sepsis",
-                "mentions": 11
-            },
-            {
-                "name": "rhombencephalitis",
-                "mentions": 11
-            },
-            {
-                "name": "bacteremia",
-                "mentions": 9
-            },
-            {
-                "name": "meningo-encephalitis",
-                "mentions": 8
-            },
-            {
-                "name": "gastroenteritis",
-                "mentions": 6
-            },
-            {
-                "name": "brain abscess",
-                "mentions": 6
-            },
-            {
-                "name": "acute hydrocephalus",
-                "mentions": 6
-            },
-            {
-                "name": "hemiparesis",
-                "mentions": 6
-            },
-            {
-                "name": "abscesses",
-                "mentions": 5
-            },
-            {
-                "name": "septicaemia",
-                "mentions": 5
-            },
-            {
-                "name": "rhomboencephalitis",
-                "mentions": 5
-            },
-            {
-                "name": "central nervous system infections",
-                "mentions": 4
-            },
-            {
-                "name": "confusion",
-                "mentions": 4
-            },
-            {
-                "name": "respiratory failure",
-                "mentions": 4
-            },
-            {
-                "name": "nausea",
-                "mentions": 4
-            },
-            {
-                "name": "vomiting",
-                "mentions": 4
-            }
-        ],
+        "contamination_category": "batteri",
+        "contamination_slug": "listeria-monocytogenes",
+        "contamination_name_scientific": "listeria monocytogenes",
+        "contamination_name_common": "listeria",
         "foods": [
             {
-                "name": "soft cheese",
-                "mentions": 15
+                "name": "ricotta",
+                "score": 791,
+                "mentions": 90,
+                "score_tot": 71190
             },
             {
-                "name": "leafy vegetables",
-                "mentions": 14
+                "name": "p\u00e2t\u00e9",
+                "score": 730,
+                "mentions": 88,
+                "score_tot": 64240
             },
             {
-                "name": "lunchmeats",
-                "mentions": 13
+                "name": "feta",
+                "score": 358,
+                "mentions": 48,
+                "score_tot": 17184
             },
             {
-                "name": "dairy products",
-                "mentions": 11
+                "name": "burrata",
+                "score": 361,
+                "mentions": 46,
+                "score_tot": 16606
             },
             {
-                "name": "smoked salmon",
-                "mentions": 8
+                "name": "foie",
+                "score": 312,
+                "mentions": 45,
+                "score_tot": 14040
             },
             {
-                "name": "smoked seafood",
-                "mentions": 7
+                "name": "provolone",
+                "score": 287,
+                "mentions": 44,
+                "score_tot": 12628
             },
             {
-                "name": "unpasteurized milk",
-                "mentions": 7
+                "name": "carpaccio",
+                "score": 266,
+                "mentions": 32,
+                "score_tot": 8512
             },
             {
-                "name": "fish",
-                "mentions": 6
+                "name": "prosciutto",
+                "score": 220,
+                "mentions": 35,
+                "score_tot": 7700
             },
             {
-                "name": "meat products",
-                "mentions": 6
+                "name": "gorgonzola",
+                "score": 223,
+                "mentions": 31,
+                "score_tot": 6913
             },
             {
-                "name": "raw milk",
-                "mentions": 6
+                "name": "insalata",
+                "score": 193,
+                "mentions": 35,
+                "score_tot": 6755
             },
             {
-                "name": "prepackaged salads",
-                "mentions": 5
+                "name": "brie",
+                "score": 241,
+                "mentions": 28,
+                "score_tot": 6748
             },
             {
-                "name": "soft cheeses",
-                "mentions": 5
+                "name": "formaggio",
+                "score": 232,
+                "mentions": 27,
+                "score_tot": 6264
             },
             {
-                "name": "poultry meat",
-                "mentions": 5
+                "name": "mousse",
+                "score": 139,
+                "mentions": 24,
+                "score_tot": 3336
             },
             {
-                "name": "processed foods",
-                "mentions": 5
+                "name": "panna",
+                "score": 142,
+                "mentions": 22,
+                "score_tot": 3124
             },
             {
-                "name": "chicken portions",
-                "mentions": 4
+                "name": "mozzarella",
+                "score": 135,
+                "mentions": 22,
+                "score_tot": 2970
             },
             {
-                "name": "ice cream products",
-                "mentions": 4
+                "name": "fagioli",
+                "score": 129,
+                "mentions": 19,
+                "score_tot": 2451
+            },
+            {
+                "name": "uova",
+                "score": 81,
+                "mentions": 12,
+                "score_tot": 972
+            },
+            {
+                "name": "mortadella",
+                "score": 72,
+                "mentions": 13,
+                "score_tot": 936
+            },
+            {
+                "name": "salmone",
+                "score": 76,
+                "mentions": 11,
+                "score_tot": 836
+            },
+            {
+                "name": "frittata",
+                "score": 61,
+                "mentions": 11,
+                "score_tot": 671
+            },
+            {
+                "name": "salame",
+                "score": 65,
+                "mentions": 10,
+                "score_tot": 650
+            },
+            {
+                "name": "affettato",
+                "score": 40,
+                "mentions": 7,
+                "score_tot": 280
+            },
+            {
+                "name": "queso",
+                "score": 39,
+                "mentions": 7,
+                "score_tot": 273
+            },
+            {
+                "name": "salsiccia",
+                "score": 34,
+                "mentions": 7,
+                "score_tot": 238
+            },
+            {
+                "name": "hotdog",
+                "score": 34,
+                "mentions": 7,
+                "score_tot": 238
+            },
+            {
+                "name": "pat\u00e9",
+                "score": 41,
+                "mentions": 5,
+                "score_tot": 205
+            },
+            {
+                "name": "torta",
+                "score": 29,
+                "mentions": 7,
+                "score_tot": 203
+            },
+            {
+                "name": "tartufo",
+                "score": 33,
+                "mentions": 5,
+                "score_tot": 165
+            },
+            {
+                "name": "riso",
+                "score": 17,
+                "mentions": 7,
+                "score_tot": 119
+            },
+            {
+                "name": "pesto",
+                "score": 26,
+                "mentions": 4,
+                "score_tot": 104
+            },
+            {
+                "name": "hummus",
+                "score": 24,
+                "mentions": 4,
+                "score_tot": 96
+            },
+            {
+                "name": "yogurt",
+                "score": 21,
+                "mentions": 4,
+                "score_tot": 84
+            },
+            {
+                "name": "pere",
+                "score": 27,
+                "mentions": 3,
+                "score_tot": 81
+            },
+            {
+                "name": "sformato",
+                "score": 24,
+                "mentions": 3,
+                "score_tot": 72
+            },
+            {
+                "name": "frittelle",
+                "score": 21,
+                "mentions": 3,
+                "score_tot": 63
+            },
+            {
+                "name": "sashimi",
+                "score": 20,
+                "mentions": 3,
+                "score_tot": 60
+            },
+            {
+                "name": "burro",
+                "score": 18,
+                "mentions": 3,
+                "score_tot": 54
+            },
+            {
+                "name": "latte",
+                "score": 18,
+                "mentions": 3,
+                "score_tot": 54
+            },
+            {
+                "name": "miele",
+                "score": 13,
+                "mentions": 4,
+                "score_tot": 52
+            },
+            {
+                "name": "melone",
+                "score": 17,
+                "mentions": 3,
+                "score_tot": 51
+            },
+            {
+                "name": "crescione",
+                "score": 15,
+                "mentions": 3,
+                "score_tot": 45
+            },
+            {
+                "name": "crostata",
+                "score": 17,
+                "mentions": 2,
+                "score_tot": 34
+            },
+            {
+                "name": "pomodoro",
+                "score": 11,
+                "mentions": 3,
+                "score_tot": 33
+            },
+            {
+                "name": "formaggio blu",
+                "score": 15,
+                "mentions": 2,
+                "score_tot": 30
+            },
+            {
+                "name": "avocado",
+                "score": 14,
+                "mentions": 2,
+                "score_tot": 28
+            },
+            {
+                "name": "carote",
+                "score": 13,
+                "mentions": 2,
+                "score_tot": 26
+            },
+            {
+                "name": "parmigiano",
+                "score": 11,
+                "mentions": 2,
+                "score_tot": 22
+            },
+            {
+                "name": "affettati",
+                "score": 11,
+                "mentions": 2,
+                "score_tot": 22
+            },
+            {
+                "name": "rag\u00f9",
+                "score": 9,
+                "mentions": 2,
+                "score_tot": 18
+            },
+            {
+                "name": "umami",
+                "score": 5,
+                "mentions": 2,
+                "score_tot": 10
+            },
+            {
+                "name": "zuppa di lenticchie",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
+            },
+            {
+                "name": "creme",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
+            },
+            {
+                "name": "jalape\u00f1o",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
+            },
+            {
+                "name": "tartare",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
+            },
+            {
+                "name": "cheesecake",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
+            },
+            {
+                "name": "batterie",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
+            },
+            {
+                "name": "formaggi",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
             },
             {
                 "name": "salami",
-                "mentions": 4
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
             },
             {
-                "name": "smoked fish",
-                "mentions": 4
+                "name": "raw sprouts",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
             },
             {
-                "name": "cold-smoked salmon",
-                "mentions": 4
+                "name": "salmone affettato",
+                "score": 9,
+                "mentions": 1,
+                "score_tot": 9.0
+            },
+            {
+                "name": "carni",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "p\u00e2t\u00e9 di fagioli",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "cavolo",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "mascarpone",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "patatine",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "latticello",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "mimolette",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "cottaggio",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "fagioli neri",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "pattatine",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "fromage",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "spinaci",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "melma",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "cammorci",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "crudi",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "coldcut",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "taleggio",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "sottaceto",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "maionese",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "cr\u00e8me",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
+            },
+            {
+                "name": "crudit\u00e9",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
             },
             {
                 "name": "hot dogs",
-                "mentions": 4
-            }
-        ],
-        "treatments": [
-            {
-                "name": "pastorizzazione",
-                "confidence_score": 599,
-                "mentions": 62,
-                "total_score": 37138
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
             },
             {
-                "name": "alta pressione",
-                "confidence_score": 436,
-                "mentions": 59,
-                "total_score": 25724
+                "name": "cured meats",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
             },
             {
-                "name": "trattamento termico",
-                "confidence_score": 448,
-                "mentions": 48,
-                "total_score": 21504
+                "name": "smokedfish",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
             },
             {
-                "name": "luce uv",
-                "confidence_score": 365,
-                "mentions": 52,
-                "total_score": 18980
+                "name": "smoked fish",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
             },
             {
-                "name": "acqua elettrolitica",
-                "confidence_score": 294,
-                "mentions": 50,
-                "total_score": 14700
+                "name": "p\u00e2t\u00e9 di uovo",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
             },
             {
-                "name": "acidificazione",
-                "confidence_score": 355,
-                "mentions": 41,
-                "total_score": 14555
+                "name": "foie gras",
+                "score": 8,
+                "mentions": 1,
+                "score_tot": 8.0
             },
             {
-                "name": "conservazione a bassa temperatura",
-                "confidence_score": 327,
-                "mentions": 38,
-                "total_score": 12426
+                "name": "crescioni",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "atmosfera modificata",
-                "confidence_score": 290,
-                "mentions": 41,
-                "total_score": 11890
+                "name": "pollo",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "acido lattico",
-                "confidence_score": 290,
-                "mentions": 39,
-                "total_score": 11310
+                "name": "peperoni",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "ozono",
-                "confidence_score": 172,
-                "mentions": 29,
-                "total_score": 4988
+                "name": "formaggio di capra",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "nisin",
-                "confidence_score": 94,
-                "mentions": 15,
-                "total_score": 1410
+                "name": "pannaacotta",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "perossido di idrogeno",
-                "confidence_score": 94,
-                "mentions": 14,
-                "total_score": 1316
+                "name": "cantaloupe",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "lavaggio acido",
-                "confidence_score": 83,
-                "mentions": 12,
-                "total_score": 996
+                "name": "sprouts",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "batteriofago",
-                "confidence_score": 70,
-                "mentions": 14,
-                "total_score": 980
+                "name": "chevre",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
             },
             {
-                "name": "corrente elettrica pulsata",
-                "confidence_score": 58,
-                "mentions": 10,
-                "total_score": 580
+                "name": "vernacioli",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
+            },
+            {
+                "name": "insalate",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
+            },
+            {
+                "name": "zuppe",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
+            },
+            {
+                "name": "eggs",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
+            },
+            {
+                "name": "caviale",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
+            },
+            {
+                "name": "melo",
+                "score": 7,
+                "mentions": 1,
+                "score_tot": 7.0
+            },
+            {
+                "name": "pat\u00e9 di fegato",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "ceviche",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "ch\u00e8vre",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "carpada",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "sottaceti",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "jalape\u00f1os",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "unpasteurized juice",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "crostini",
+                "score": 6,
+                "mentions": 1,
+                "score_tot": 6.0
+            },
+            {
+                "name": "crema",
+                "score": 5,
+                "mentions": 1,
+                "score_tot": 5.0
+            },
+            {
+                "name": "pasta",
+                "score": 5,
+                "mentions": 1,
+                "score_tot": 5.0
+            },
+            {
+                "name": "uova sode",
+                "score": 5,
+                "mentions": 1,
+                "score_tot": 5.0
+            },
+            {
+                "name": "affetato",
+                "score": 5,
+                "mentions": 1,
+                "score_tot": 5.0
+            },
+            {
+                "name": "sogliola",
+                "score": 5,
+                "mentions": 1,
+                "score_tot": 5.0
+            },
+            {
+                "name": "tartufata",
+                "score": 5,
+                "mentions": 1,
+                "score_tot": 5.0
+            },
+            {
+                "name": "prosciutto crudo",
+                "score": 5,
+                "mentions": 1,
+                "score_tot": 5.0
+            },
+            {
+                "name": "arancia",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "fetta",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "blue cheese",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "guanciale",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "merengata",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "fegatini",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "cevapi",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "bresaola",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "pistacchi",
+                "score": 4,
+                "mentions": 1,
+                "score_tot": 4.0
+            },
+            {
+                "name": "sorbetto",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "fagioli cannellini",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "aragosta",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "ravioli",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "lievito",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "muenster",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "vitelli",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "cream",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "softserve",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "tortellini",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "panna acida",
+                "score": 3,
+                "mentions": 1,
+                "score_tot": 3.0
+            },
+            {
+                "name": "mousse di cioccolato",
+                "score": 2,
+                "mentions": 1,
+                "score_tot": 2.0
+            },
+            {
+                "name": "cacciatora",
+                "score": 2,
+                "mentions": 1,
+                "score_tot": 2.0
+            },
+            {
+                "name": "cola",
+                "score": 2,
+                "mentions": 1,
+                "score_tot": 2.0
+            },
+            {
+                "name": "italian",
+                "score": 2,
+                "mentions": 1,
+                "score_tot": 2.0
+            },
+            {
+                "name": "p\u00e2t\u00e9 di fegato",
+                "score": 2,
+                "mentions": 1,
+                "score_tot": 2.0
+            },
+            {
+                "name": "spremuta di lime",
+                "score": 2,
+                "mentions": 1,
+                "score_tot": 2.0
+            },
+            {
+                "name": "coppa",
+                "score": 1,
+                "mentions": 1,
+                "score_tot": 1.0
+            },
+            {
+                "name": "foxtail",
+                "score": 1,
+                "mentions": 1,
+                "score_tot": 1.0
             }
         ]
     }

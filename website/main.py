@@ -1,12 +1,23 @@
+import os
+import json
 import shutil
+
 from nltk import tokenize
+
+import torch
+from diffusers import DiffusionPipeline, StableDiffusionXLPipeline
+from diffusers import DPMSolverMultistepScheduler
+from PIL import Image, ImageFont, ImageDraw, ImageColor, ImageOps
 
 from oliark_io import file_read, file_write
 from oliark_io import json_read, json_write
 from oliark_llm import llm_reply
 
-AUTHOR_NAME = 'Martin Pellizzer'
+AUTHOR_NAME = 'Ozonogroup'
+
+vault = '/home/ubuntu/vault'
 vault_tmp = '/home/ubuntu/vault-tmp'
+
 model = f'{vault_tmp}/llms/Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf'
 
 library_folderpath = f'/home/ubuntu/proj/og/studies/library'
@@ -23,6 +34,35 @@ GOOGLE_TAG = '''
     gtag('config', 'G-TV11JVJVKC');
     </script>
 '''
+
+###########################################################################
+# ;images gen ai
+###########################################################################
+pipe = None
+checkpoint_filepath = f'{vault}/stable-diffusion/checkpoints/xl/juggernautXL_juggXIByRundiffusion.safetensors'
+def gen_image_food(food_name_eng, food_name_ita):
+    image_web_filepath = f'public/immagini/alimenti/{food_name_ita}.jpg'
+    if os.path.exists(image_web_filepath): return
+    global pipe
+    if pipe == None:
+        pipe = StableDiffusionXLPipeline.from_single_file(
+            checkpoint_filepath, 
+            torch_dtype=torch.float16, 
+            use_safetensors=True, 
+            variant="fp16"
+        ).to('cuda')
+        pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
+    prompt = f'''
+        close-up of {food_name_eng},
+        on a stainless steel table,
+        natural lighting,
+        depth of field, bokeh,
+        high resolution,
+        cinematic
+    '''
+    print(prompt)
+    image = pipe(prompt=prompt, width=1024, height=1024, num_inference_steps=30, guidance_scale=7.0).images[0]
+    image.save(f'public/immagini/alimenti/{food_name_ita}.jpg')
 
 def text_format_1N1_html(text):
     text_formatted = ''
@@ -292,8 +332,8 @@ html = f'''
 
 file_write(f'public/index.html', html)
 
-def a_contamination(entity_slug):
-    entity_name = entity_slug.replace('-', ' ')
+def a_contamination(contamination_slug):
+    contamination_name = contamination_slug.replace('-', ' ')
     '''
     where (source of contamination): 
         intestine, feces of man, animalss, birds.
@@ -328,16 +368,16 @@ def a_contamination(entity_slug):
         
     '''
 
-    json_data_filepath = f'{library_folderpath}/json-data/{entity_slug}.json'
+    json_data_filepath = f'{library_folderpath}/json-data/{contamination_slug}.json'
     json_data = json_read(json_data_filepath)
 
     ##################################################################################
     # ;article json
     ##################################################################################
-    json_article_filepath = f'{library_folderpath}/json-data/{entity_slug}.json'
+    json_article_filepath = f'{library_folderpath}/json-data/{contamination_slug}.json'
     json_article = json_read(json_article_filepath, create=True)
-    json_article['entity_slug'] = entity_slug
-    json_article['entity_name'] = entity_name
+    json_article['contamination_slug'] = contamination_slug
+    json_article['contamination_name'] = contamination_name
     json_write(json_article_filepath, json_article)
 
     # what is
@@ -345,10 +385,10 @@ def a_contamination(entity_slug):
     if key not in json_article: json_article[key] = ''
     # json_article[key] = ''
     if json_article[key] == '':
-        entity_category = json_data['entity_category']
+        contamination_category = json_data['contamination_category']
         prompt = f'''
-            Write a 5-sentence short paragraph about what is {entity_name}.
-            Include the following INFO about {entity_name}: 
+            Write a 5-sentence short paragraph about what is {contamination_name}.
+            Include the following INFO about {contamination_name}: 
             <INFO>
             - bacteria
             </INFO>
@@ -360,7 +400,7 @@ def a_contamination(entity_slug):
             Write only the paragraph, don't add additional info.
             Don't add references or citations.
             Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
-            Start with the following words: {entity_name} is .
+            Start with the following words: {contamination_name} is .
         '''
         print(prompt)
         reply = llm_reply(prompt, model)
@@ -380,7 +420,7 @@ def a_contamination(entity_slug):
     json_article[key] = ''
     if json_article[key] == '':
         prompt = f'''
-            Write a 5-sentence short paragraph about where is {entity_name} found and how do you get it.
+            Write a 5-sentence short paragraph about where is {contamination_name} found and how do you get it.
             Pack as much information in as few words as possible.
             Don't write fluff, only proven data.
             Don't include words that communicate the feeling that the data you provide is not proven, like "can", "may", "might" and "is believed to". 
@@ -389,7 +429,7 @@ def a_contamination(entity_slug):
             Write only the paragraph, don't add additional info.
             Don't add references or citations.
             Don't include a conclusory statement with words like overall, in summary, or in conclusion. 
-            Start with the following words: {entity_name} is found .
+            Start with the following words: {contamination_name} is found .
         '''
         print(prompt)
         reply = llm_reply(prompt, model)
@@ -407,15 +447,15 @@ def a_contamination(entity_slug):
     # ;article html
     ##################################################################################
     article_html = ''
-    article_html += f'<h1 class="">{json_article["entity_name"]}</h1>\n'
+    article_html += f'<h1 class="">{json_article["contamination_name"]}</h1>\n'
 
-    article_html += f'<h2>What is {json_article["entity_name"]}?</h2>\n'
+    article_html += f'<h2>What is {json_article["contamination_name"]}?</h2>\n'
     article_html += f'{text_format_1N1_html(json_article["what_is_desc"])}\n'
 
-    article_html += f'<h2>Where is {json_article["entity_name"]} found?</h2>\n'
+    article_html += f'<h2>Where is {json_article["contamination_name"]} found?</h2>\n'
     article_html += f'{text_format_1N1_html(json_article["where_is_desc"])}\n'
 
-    head_html = head_html_generate(json_article['entity_name'], '/style.css')
+    head_html = head_html_generate(json_article['contamination_name'], '/style.css')
 
     html = f'''
         <!DOCTYPE html>
@@ -426,7 +466,7 @@ def a_contamination(entity_slug):
         </body>
         </html>
     '''
-    html_filepath = f'contaminazioni/batteri/{entity_slug}.html'
+    html_filepath = f'contaminazioni/batteri/{contamination_slug}.html'
     with open(html_filepath, 'w') as f: f.write(html)
     print(html_filepath)
     print('here')
@@ -443,10 +483,10 @@ def a_contaminazioni():
     for vertex in vertices_contaminazioni:
         contaminazione_type = vertex['entity_type']
         if contaminazione_type != 'contaminazione': continue
-        contaminazione_category = vertex['entity_category']
-        contaminazione_slug = vertex['entity_slug']
-        contaminazione_nome_scientifico = vertex['entity_name_scientific']
-        contaminazione_nome_comune = vertex['entity_name_common']
+        contaminazione_category = vertex['contamination_category']
+        contaminazione_slug = vertex['contamination_slug']
+        contaminazione_nome_scientifico = vertex['contamination_name_scientific']
+        contaminazione_nome_comune = vertex['contamination_name_common']
         # init contaminations
         if 'contaminazioni' not in json_article: json_article['contaminazioni'] = []
         found = False
@@ -498,133 +538,390 @@ def a_contaminazioni():
     with open(html_filepath, 'w') as f: f.write(html)
 
 def a_contaminazione(vertex_contaminazione):
-    contaminazione_slug = vertex_contaminazione['entity_slug']
-    contaminazione_nome_scientifico = vertex_contaminazione['entity_name_scientific']
+    contaminazione_slug = vertex_contaminazione['contamination_slug']
+    contaminazione_nome_scientifico = vertex_contaminazione['contamination_name_scientific']
+
+    json_foods_filepath = f'database/pagine/contaminazioni/{contaminazione_slug}-foods.json'
+    if not os.path.exists(json_foods_filepath):
+    # if True:
+        foods_groups = []
+        for food in vertex_contaminazione['foods'][:]:
+            if food['score_tot'] < 10: continue
+            # if food['mentions'] < 3: continue
+            food_name = food['name']
+            foods_categories = ['latticini', 'carni', 'frutta e verdura', 'pesce', 'dolci', 'bevande', 'altro']
+            foods_categories_prompt = ', '.join(foods_categories)
+            prompt = f'''
+                I will give you the name of a FOOD and the names of FOODS CATEGORIES.
+                I want you to choose the most relevant category for the food i will give you.
+                For "category", I mean the type of food industry that is responsible to making that food.
+                You must choose the most relevant category only from the categories provided.
+                FOOD: {food_name}
+                FOODS CATEGORIES: {foods_categories_prompt}.
+                Reply in italian the name of the food and the category.
+                Reply in JSON using the format below:
+                {{
+                    "food": "insert name of food in italian here",
+                    "category": "insert name of category in italian here",
+                }}
+                Reply only with the JSON.
+            '''
+            reply = llm_reply(prompt)
+            print(prompt)
+            try: json_reply = json.loads(reply)
+            except: json_reply = {}
+            if json_reply != {}:
+                try: reply_food_name = json_reply['food'].lower().strip()
+                except: continue
+                try: reply_food_category = json_reply['category'].lower().strip()
+                except: continue
+                if reply_food_name != food_name: continue
+                if reply_food_category not in foods_categories: continue
+                found = False
+                for food_group in foods_groups:
+                    if reply_food_category == food_group['food_category']:
+                        food_group['foods_names'].append(reply_food_name)
+                        found = True
+                        break
+                if not found:
+                    foods_groups.append({
+                        'food_category': reply_food_category,
+                        'foods_names': [reply_food_name],
+                    })
+
+        j = json.dumps(foods_groups, indent=4)
+        with open(f'database/pagine/contaminazioni/{contaminazione_slug}-foods.json', 'w') as f:
+            print(j, file=f)
+
+        for food in foods_groups:
+            print(food)
+
     json_article_filepath = f'database/pagine/contaminazioni/{contaminazione_slug}.json'
     json_article = json_read(json_article_filepath, create=True)
     json_write(json_article_filepath, json_article)
+
     #####################################################
     # ;json
     #####################################################
-    key = 'contaminazione_intro'
+    sections = [
+        {'exe': 1, 'slug': 'what', 'keyword': 'what is', 'level': 2, 'regen': False},
+            {'exe': 1, 'slug': 'definition', 'keyword': 'definition', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'family', 'keyword': 'family', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'genus', 'keyword': 'genus', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'gram', 'keyword': 'gram', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'microscope', 'keyword': 'under microscope', 'level': 3, 'regen': False},
+        {'exe': 1, 'slug': 'where', 'keyword': 'where is found', 'level': 2, 'regen': False},
+            {'exe': 1, 'slug': 'how_to_get', 'keyword': 'how do you get', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'aliments', 'keyword': 'aliments', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'biofilm', 'keyword': 'biofilm', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'habitat', 'keyword': 'habitat', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'growth_conditions', 'keyword': 'growth conditions', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'growth_temperature', 'keyword': 'growth temperature', 'level': 3, 'regen': False},
+        {'exe': 1, 'slug': 'kill', 'keyword': 'how to kill', 'level': 2, 'regen': False},
+            {'exe': 1, 'slug': 'heat kill', 'keyword': 'heat kill', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'freezing', 'keyword': 'freezing', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'haccp', 'keyword': 'haccp', 'level': 3, 'regen': False},
+        {'exe': 1, 'slug': 'effects', 'keyword': 'effects', 'level': 2, 'regen': False},
+            {'exe': 1, 'slug': 'symptoms', 'keyword': 'symptoms', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'duration', 'keyword': 'how long does it last', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'prevention', 'keyword': 'how to prevent', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'treatments', 'keyword': 'how to treat', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'diagnosis', 'keyword': 'diagnosis', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'how_long_before_symptoms', 'keyword': 'diagnosis', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'how_to_prevent', 'keyword': 'how to prevent', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'how_to_treat', 'keyword': 'how to treat', 'level': 4, 'regen': False},
+                {'exe': 1, 'slug': 'antibiotic', 'keyword': 'antibiotic', 'level': 4, 'regen': False},
+                {'exe': 1, 'slug': 'antibiotic_resistance', 'keyword': 'antibiotic resistance', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'pregnancy', 'keyword': 'pregnancy', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'breastfeeding', 'keyword': 'breastfeeding', 'level': 3, 'regen': False},
+            {'exe': 1, 'slug': 'kids', 'keyword': 'kids', 'level': 3, 'regen': False},
+    ]
+
+    sections = [
+        {
+            'exe': 1, 
+            'slug': 'what', 
+            'title': f'Cos\'è {contaminazione_nome_scientifico}?', 
+            'level': 2, 
+            'style': 'p', 
+            'regen': False,
+            'prompt': f'''
+                write a short 5-sentence paragraph about the following query regarding {contaminazione_nome_scientifico}: what is.
+                reply only with the paragraph.
+                reply in italian.
+            ''',
+        },
+        {
+            'exe': 1, 
+            'slug': 'where', 
+            'title': f'Dove si trova {contaminazione_nome_scientifico}?', 
+            'level': 2, 
+            'style': 'p', 
+            'regen': False,
+            'prompt': f'''
+                write a short 5-sentence paragraph about the following query regarding {contaminazione_nome_scientifico}: where do you find it.
+                reply only with the paragraph.
+                reply in italian.
+            ''',
+        },
+            {
+                'exe': 1, 
+                'slug': 'foods', 
+                'title': f'Quali sono gli alimenti ad alto rischio di {contaminazione_nome_scientifico}?',
+                'level': 3, 
+                'style': 'li', 
+                'opening': 'I cibi ad alto rischio di listeria sono elencati nella lista seguente.', 
+                'regen': True,
+                'prompt': f'''
+                    Write a list of the 10 foods with highest risk of being contaminated with {contaminazione_nome_scientifico}.
+                    write only one food for each list item.
+                    reply in as few words as possible.
+                    reply only with the names of foods.
+                    reply only with the list.
+                    reply in italian.
+                ''',
+            },
+        {
+            'exe': 1, 
+            'slug': 'treatments', 
+            'title': f'Quali sono i trattamenti convenzionali per eliminare {contaminazione_nome_scientifico}?',
+            'level': 2, 
+            'style': 'p', 
+            'regen': False,
+            'prompt': f'''
+                write a short 5-sentence paragraph about the following query regarding {contaminazione_nome_scientifico}: what are the traditional sanitization techniques in the food industry.
+                reply only with the paragraph.
+                reply in italian.
+            ''',
+        },
+        {
+            'exe': 1, 
+            'slug': 'ozone', 
+            'title': f'Come eliminare {contaminazione_nome_scientifico} con ozono?', 
+            'level': 2, 
+            'style': 'p', 
+            'regen': False,
+            'prompt': f'''
+                write a short 5-sentence paragraph about the following query regarding {contaminazione_nome_scientifico}: come eliminare con ozono. 
+                reply only with the paragraph.
+                reply in italian.
+            ''',
+        },
+        {
+            'exe': 1, 
+            'slug': 'health', 
+            'title': f'Quali sono gli effetti sulla salute di {contaminazione_nome_scientifico} con ozono?', 
+            'level': 2, 
+            'style': 'p', 
+            'regen': False,
+            'prompt': f'''
+                write a short 5-sentence paragraph about the following query regarding {contaminazione_nome_scientifico}: quali sono gli effetti sulla salute.
+                reply only with the paragraph.
+                reply in italian.
+            ''',
+        },
+    ]
+
+    key = 'where_aliments_intro'
     if key not in json_article: json_article[key] = []
     # json_article[key] = []
     if json_article[key] == []:
+        foods_names = [food['name'] for food in vertex_contaminazione['foods']]
+        foods_names_prompt = ', '.join(foods_names)
         prompt = f'''
-            Scrivi un paragrafo di 3 frasi sulla seguente contaminazione: {contaminazione_nome_scientifico}.
+            write a short 3-sentence paragraph about the aliments at higher risk of being contaminated with {contaminazione_nome_scientifico}.
+            reply only with the paragraph.
+            include the following foods: {foods_names_prompt}.
+            start with the following words: Gli alimenti col maggior rischio di contaminazione da {contaminazione_nome_scientifico} sono .
+            reply in italian.
         '''
+        print(prompt)
         reply = llm_reply(prompt)
         json_article[key] = reply
         json_write(json_article_filepath, json_article)
-    key = 'contaminazione_sintomi'
-    if key not in json_article: json_article[key] = ''
-    # json_article[key] = ''
-    if json_article[key] == '':
-        sintomi = [sintomo['name'] for sintomo in vertex_contaminazione['symptoms']]
-        sintomi_prompt = ', '.join(sintomi)
-        prompt = f'''
-            Scrivi un paragrafo di 3 frasi sui sintomi causati da: {contaminazione_nome_scientifico}.
-            Includi i seguenti sintomi: {sintomi_prompt}.
-            Rispondi in italiano.
-        '''
-        reply = llm_reply(prompt)
-        json_article[key] = reply
-        json_write(json_article_filepath, json_article)
-    key = 'contaminazione_cibi'
-    if key not in json_article: json_article[key] = ''
-    # json_article[key] = ''
-    if json_article[key] == '':
-        cibi = [item['name'] for item in vertex_contaminazione['foods']]
-        cibi_prompt = ', '.join(cibi)
-        # Include some of the following foods: {cibi_prompt}.
-        prompt = f'''
-            write a 3-sentence paragraph about the foods with greater risk of {contaminazione_nome_scientifico} contamination.
-            don't include conclusory statements.
-            answer in italian.
-        '''
-        prompt = f'''
-            Scrivi un paragrafo di 5 frasi sui cibi maggiormente a rischio di contaminazione da {contaminazione_nome_scientifico}.
-            Includi i seguenti cibi: {cibi_prompt}.
-            Rispondi in italiano, come se fossi un madrelingua italiano.
-        '''
-        reply = llm_reply(prompt)
-        if 0:
-            prompt = f'''
-                Traduci il seguente testo in italiano: {reply}.
-            '''
-            reply = llm_reply(prompt)
-        json_article[key] = reply
-        json_write(json_article_filepath, json_article)
-    key = 'contaminazione_cibi_lista'
-    if key not in json_article: json_article[key] = []
-    # json_article[key] = []
-    if json_article[key] == []:
-        contaminazioni = [item['name'] for item in vertex_contaminazione['foods']]
-        contaminazioni_prompt = '\n- '.join(contaminazioni)
-        prompt = f'''
-            Traduci in italiano la seguente lista:
-            {contaminazioni_prompt}
-        '''
-        reply = llm_reply(prompt)
-        lines = []
-        for line in reply.split('\n'):
-            line = line.strip()
-            if line == '': continue
-            if not line.startswith('- '): continue
-            line = '- '.join(line.split('- ')[1:])
-            line = line.strip()
-            if line == '': continue
-            lines.append(line)
-        json_article[key] = lines
-        json_write(json_article_filepath, json_article)
-    key = 'contaminazione_trattamenti'
-    if key not in json_article: json_article[key] = ''
-    # json_article[key] = ''
-    if json_article[key] == '':
-        trattamenti = [trattamento['name'] for trattamento in vertex_contaminazione['treatments']]
-        trattamenti_prompt = ', '.join(trattamenti[:10])
-        prompt = f'''
-            Scrivi un paragrafo di 3 frasi sui trattamenti per {contaminazione_nome_scientifico} nell'industria alimentare.
-            Includi i seguenti trattamenti: {trattamenti_prompt}.
-            Rispondi in italiano.
-            Non spiegare cosa sono o come funzionano questi trattamenti.
-            Non elencare tutti i trattamenti subito nella prima frase.
-            Comincia la risposta con le seguenti parole: I trattamenti piu usati per {contaminazione_nome_scientifico} sono, 
-        '''
-        reply = llm_reply(prompt)
-        json_article[key] = reply
-        json_write(json_article_filepath, json_article)
-    key = 'contaminazione_trattamenti_lista'
-    if key not in json_article: json_article[key] = []
-    # json_article[key] = []
-    if json_article[key] == []:
-        trattamenti = [item['name'] for item in vertex_contaminazione['treatments']]
-        json_article[key] = trattamenti
-        json_write(json_article_filepath, json_article)
+
+    if 0:
+        for section in sections:
+            key = section['slug']
+            aspect = section['keyword']
+            level = section['level']
+            regen = section['regen']
+            if key not in json_article: json_article[key] = []
+            # json_article[key] = []
+            if json_article[key] == [] or regen == True:
+                prompt = f'''
+                    write a short 5-sentence paragraph about the following aspect regarding {contaminazione_nome_scientifico}: {aspect}.
+                    reply only with the paragraph.
+                    reply in italian.
+                '''
+                print(prompt)
+                reply = llm_reply(prompt)
+                json_article[key] = reply
+                json_write(json_article_filepath, json_article)
+    if 0:
+        for section in sections:
+            key = section['slug']
+            style = section['style']
+            level = section['level']
+            regen = section['regen']
+            prompt = section['prompt']
+            if key not in json_article: json_article[key] = []
+            # json_article[key] = []
+            if json_article[key] == [] or regen == True:
+                print(prompt)
+                reply = llm_reply(prompt)
+                if style == 'p':
+                    json_article[key] = reply
+                    json_write(json_article_filepath, json_article)
+                elif style == 'li':
+                    lines = []
+                    for line in reply.split('\n'):
+                        line = line.strip()
+                        if line == '': continue
+                        if not line[0].isdigit(): continue
+                        if '. ' not in line: continue
+                        line = '. '.join(line.split('. ')[1:])
+                        if line[-1] == '.': line = line[:-1]
+                        line = line.strip()
+                        if line == '': continue
+                        lines.append(line)
+                    json_article[key] = lines
+                    json_write(json_article_filepath, json_article)
+
+    #####################################################
+    # ;images
+    #####################################################
+    gen_image_food('cheese', 'formaggio')
+    gen_image_food('ricotta', 'ricotta')
+    gen_image_food('ham', 'prosciutto')
+    gen_image_food('cake', 'torta')
+    gen_image_food('tomato', 'pomodoro')
+    gen_image_food('melon', 'melone')
+    gen_image_food('salmon', 'salmone')
+    gen_image_food('milk', 'latte')
+    gen_image_food('honey', 'miele')
+    gen_image_food('brie', 'brie')
+
     #####################################################
     # ;html
     #####################################################
     html_article = ''
+    if 0:
+        html_article += f'''<h1>{contaminazione_nome_scientifico.capitalize()}</h1>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['contaminazione_intro'])}\n'''
+        html_article += f'''<h2>Sintomi</h2>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['contaminazione_sintomi'])}\n'''
+        ## where is found
+        html_article += f'''<h2>Dove si trova {contaminazione_nome_scientifico}?</h2>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['where_is_found'])}\n'''
+        ## habitat
+        html_article += f'''<h3>Quale e l'habitat ideale per {contaminazione_nome_scientifico}?</h3>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['habitat'])}\n'''
+        ## growth conditions
+        html_article += f'''<h3>Quali sono le condizioni di crescita per {contaminazione_nome_scientifico}?</h3>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['growth_conditions'])}\n'''
+        ## growth temperature
+        html_article += f'''<h3>Quali sono le temperature di crescita per {contaminazione_nome_scientifico}?</h3>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['growth_temperature'])}\n'''
+        ## how you get it
+        html_article += f'''<h3>Come si prende {contaminazione_nome_scientifico}?</h3>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['how_you_get_it'])}\n'''
+        ### foods
+        html_article += f'''<h3>{contaminazione_nome_scientifico.capitalize()} Alimenti</h3>\n'''
+        # html_article += f'''{text_format_1N1_html(json_article['contaminazione_cibi'])}\n'''
+        html_article += f'''<p>I cibi con maggior rischio di contaminazione da {contaminazione_nome_scientifico} sono elencati nella seguente lista:</p>\n'''
+        html_article += f'''<ul>\n'''
+        for item in json_article['contaminazione_cibi_lista'][:10]:
+            html_article += f'''<li>{item.capitalize()}</li>\n'''
+        html_article += f'''</ul>\n'''
+        html_article += f'''<h2>Trattamenti</h2>\n'''
+        html_article += f'''{text_format_1N1_html(json_article['contaminazione_trattamenti'])}\n'''
+        html_article += f'''<ul>\n'''
+        for item in json_article['contaminazione_trattamenti_lista'][:10]:
+            html_article += f'''<li>{item.capitalize()}</li>\n'''
+        html_article += f'''</ul>\n'''
+
     html_article += f'''<h1>{contaminazione_nome_scientifico.capitalize()}</h1>\n'''
-    html_article += f'''{text_format_1N1_html(json_article['contaminazione_intro'])}\n'''
-    html_article += f'''<h2>Sintomi</h2>\n'''
-    html_article += f'''{text_format_1N1_html(json_article['contaminazione_sintomi'])}\n'''
-    html_article += f'''<h2>Cibi</h2>\n'''
-    html_article += f'''{text_format_1N1_html(json_article['contaminazione_cibi'])}\n'''
-    html_article += f'''<p>I cibi con maggior rischio di contaminazione da {contaminazione_nome_scientifico} sono elencati nella seguente lista:</p>\n'''
-    html_article += f'''<ul>\n'''
-    for item in json_article['contaminazione_cibi_lista'][:10]:
-        html_article += f'''<li>{item.capitalize()}</li>\n'''
-    html_article += f'''</ul>\n'''
-    html_article += f'''<h2>Trattamenti</h2>\n'''
-    html_article += f'''{text_format_1N1_html(json_article['contaminazione_trattamenti'])}\n'''
-    html_article += f'''<ul>\n'''
-    for item in json_article['contaminazione_trattamenti_lista'][:10]:
-        html_article += f'''<li>{item.capitalize()}</li>\n'''
-    html_article += f'''</ul>\n'''
+    for section in sections:
+        exe = section['exe']
+        if exe == 0: continue
+        key = section['slug']
+        title = section['title']
+        style = section['style']
+        level = section['level']
+        try: opening = section['opening']
+        except: opening = ''
+        content = json_article[key]
+        if level == 2:
+            html_article += f'''<h2>{title}</h2>\n'''
+        elif level == 3:
+            html_article += f'''<h3>{title}</h3>\n'''
+        elif level == 4:
+            html_article += f'''<h4>{title}</h4>\n'''
+        if style == 'p':
+            html_article += f'''{text_format_1N1_html(content)}\n'''
+        elif style == 'li':
+            if opening != '':
+                html_article += f'''<p>{opening}</p>\n'''
+            html_article += f'''<ul>\n'''
+            for item in content:
+                html_article += f'''<li>{item}</li>\n'''
+            html_article += f'''</ul>\n'''
+
+    with open(json_foods_filepath) as f:
+        foods_categories = json.load(f)
+    html_table = ''
+    html_table += f'<table>\n'
+    html_table += f'<tr>\n'
+    html_table += f'<th>Categorie</th>\n'
+    html_table += f'<th>Alimenti</th>\n'
+    html_table += f'</tr>\n'
+    for food in foods_categories:
+        food_category = food['food_category']
+        foods_names = food['foods_names'][:6]
+        foods_names_str = ', '.join(foods_names)
+        html_table += f'<tr>\n'
+        html_table += f'''<td>{food_category.title()}</td>\n'''
+        html_table += f'''<td>{foods_names_str.title()}</td>\n'''
+        html_table += f'</tr>\n'
+    html_table += f'</table>\n'
+
+    images_filepaths = []
+    for food in foods_categories:
+        for food_name in food['foods_names'][:6]:
+            food_name = food_name.lower().strip()
+            image_filepath = f'public/immagini/alimenti/{food_name}.jpg'
+            image_web_filepath = f'/immagini/alimenti/{food_name}.jpg'
+            print(image_filepath)
+            if os.path.exists(image_filepath):
+                images_filepaths.append(image_web_filepath)
+    html_images = ''
+    for image_filepath in images_filepaths[:9]:
+        html_images += f'''
+            <img src="{image_filepath}" class="food-grid-img">
+        '''
+    
+    html_section_foods = f'''
+        <section class="container-xl mt-48">
+            <h3>Quali alimenti sono ad altro rischio di {contaminazione_nome_scientifico}?</h3>
+            {text_format_1N1_html(json_article['where_aliments_intro'])}
+            <div class="separator_line"></div>
+            <div class="grid-2 gap-48">
+                <div>
+                    <p>La seguente tabella lista alcuni esempi di cibi a maggior rischio di {contaminazione_nome_scientifico} raggruppati per categoria.</p>
+                    {html_table}
+                </div>
+                <div>
+                    <p>Le seguenti immaigni raffigurano alcuni esempi di cibi a maggior rischio di {contaminazione_nome_scientifico}.</p>
+                    <div class="grid-3 gap-16">
+                        {html_images}
+                    </div>
+                </div>
+            </div>
+        </section>
+    '''
 
     head_html = head_html_generate('contaminazioni', '/style.css')
-
     html_layout = f'''
         <section class="container-md">
             {html_article}
@@ -636,6 +933,7 @@ def a_contaminazione(vertex_contaminazione):
         {head_html}
         <body>
             {html_layout}
+            {html_section_foods}
         </body>
         </html>
     '''
